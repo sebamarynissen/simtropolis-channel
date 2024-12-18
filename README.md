@@ -7,12 +7,12 @@ Add `https://sebamarynissen.github.io/simtropolis-channel/channel` to your sc4pa
 Currently, content on the STEX is *not* processed automatically, but the goal is to automatically fetch the latest STEX uploads and process them.
 Ideally this happens by Simtropolis triggering a workflow dispatch on this repo, but we could also run an action that checks for new updates every hour or so.
 
+See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
+
 ## Goals
 
 - Minimize the amount of work needed by the admins of Simtropolis.
-- Automate the generation of yaml metadata as much as possible which as minimal friction as possible for content creators.
-
-See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
+- Automate the generation of yaml metadata as much as possible with as minimal friction as possible for content creators.
 
 ## Roadmap
 
