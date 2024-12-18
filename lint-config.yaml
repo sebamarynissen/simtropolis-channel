@@ -1,0 +1,13 @@
+# Additional channel URLs the packages in your channel depend on
+extra-channels:
+  - https://memo33.github.io/sc4pac/channel/
+
+# Additional subfolders (if not already used by the Main channel)
+subfolders: []
+
+# Package names for which the check for asset version mismatches should be skipped.
+# Only needed when the linter tells you so.
+ignore-version-mismatches: []
+
+# Set this to true to allow writing descriptions from a first-person perspective.
+allow-ego-perspective: true
