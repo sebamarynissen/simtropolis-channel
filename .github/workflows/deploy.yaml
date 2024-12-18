@@ -1,34 +1,14 @@
 name: Deploy Simtropolis channel
 
 on:
-  push:
-    branches: [ "main", "action" ]
-  pull_request_target:
-    branches: [ "main" ]
+  workflow_run:
+    workflows:
+      - Fetch Simtropolis package
+    types:
+      - completed
 
 jobs:
-
-  # detect-bot-commit:
-  #   runs-on: ubuntu-latest
-  #   outputs:
-  #     is_bot_commit: ${{ steps.check-author.outputs.is_bot_commit }}
-  #   steps:
-  #     - name: Checkout Code
-  #       uses: actions/checkout@v4
-
-  #     - name: Check Commit Author
-  #       id: check-author
-  #       run: |
-  #         author_email=$(git log -1 --pretty=format:'%ae')
-  #         if [[ "$author_email" == "github-actions[bot]@users.noreply.github.com" ]]; then
-  #           echo "is_bot_commit=true" >> $GITHUB_OUTPUT
-  #         else
-  #           echo "is_bot_commit=false" >> $GITHUB_OUTPUT
-  #         fi
-
   deploy:
-    # needs: detect-bot-commit
-    # if: ${{ needs.detect-bot-commit.outputs.is_bot_commit == 'true' }}
     uses: sebamarynissen/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
     with:
       path: src/yaml
