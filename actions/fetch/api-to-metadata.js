@@ -18,6 +18,8 @@ export default function apiToMetadata(json) {
 			website: json.fileURL,
 			images: undefined,
 		},
+		dependencies: undefined,
+		variants: undefined,
 	};
 	let assets = [];
 	for (let i = 0; i < json.files.length; i++) {
