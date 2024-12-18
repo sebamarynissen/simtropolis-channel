@@ -1,6 +1,7 @@
 name: Deploy Simtropolis channel
 
 on:
+  workflow_dispatch: # Allow triggering manually
   workflow_run:
     workflows:
       - Fetch Simtropolis package
