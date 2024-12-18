@@ -1,0 +1,22 @@
+name: Build Simtropolis sc4pac channel
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: The Simtropolis url to fetch the package from
+        require: true
+
+jobs:
+  sc4pac:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: npm ci
+      - id: fetch
+        uses: ./actions/fetch
+        env:
+          SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
+          STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
+        with:
+          url: ${{ github.event.inputs.url }}
