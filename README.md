@@ -12,6 +12,8 @@ Ideally this happens by Simtropolis triggering a workflow dispatch on this repo,
 - Minimize the amount of work needed by the admins of Simtropolis.
 - Automate the generation of yaml metadata as much as possible which as minimal friction as possible for content creators.
 
+See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
+
 ## Roadmap
 
 - [x] Implement a proof of concept
