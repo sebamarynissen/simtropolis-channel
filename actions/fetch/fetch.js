@@ -79,10 +79,8 @@ async function handleFile(json, opts = {}) {
 
 	// Generate the proper yaml documents now.
 	let docs = [metadata.package, ...metadata.assets].map((json, index) => {
-		let doc = new Document(json);
-		if (index === 0) {
-			doc = stylize(doc);
-		} else {
+		let doc = stylize(new Document(json));
+		if (index > 0) {
 			doc.directives.docStart = true;
 		}
 		return doc;
