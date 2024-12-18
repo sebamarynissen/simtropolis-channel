@@ -12,7 +12,7 @@
     "test": "test"
   },
   "scripts": {
-    "fetch": "node --env-file=.env actions/fetch/action.js"
+    "test:fetch": "node --env-file=.env actions/fetch/manual-action.js"
   },
   "keywords": [],
   "author": "Sebastiaan Marynissen <sebastiaan.marynissen@gmail.com>",
@@ -22,6 +22,9 @@
     "@actions/github": "^6.0.0",
     "@sebamarynissen/sc4pac-helpers": "github:sebamarynissen/sc4pac-helpers#main",
     "@whisthub/eslint-config": "^3.1.0",
-    "eslint": "^9.17.0"
+    "chai": "^5.1.2",
+    "commander": "^12.1.0",
+    "eslint": "^9.17.0",
+    "mocha": "^11.0.1"
   }
 }
