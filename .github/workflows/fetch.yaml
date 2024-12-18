@@ -1,4 +1,4 @@
-name: Fetch Simtropolis package
+name: Add package from Simtropolis
 on:
   workflow_dispatch:
     inputs:
@@ -7,7 +7,7 @@ on:
         require: true
 
 jobs:
-  sc4pac:
+  add-from-simtropolis:
     runs-on: ubuntu-latest
     permissions:
       contents: write
