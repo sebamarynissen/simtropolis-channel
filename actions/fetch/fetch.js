@@ -23,9 +23,23 @@ export default async function fetch(opts) {
 	let yaml = generate(metadata);
 	let pkg = `${metadata.group}:${metadata.name}`;
 	let output = path.resolve(cwd, `src/yaml/${metadata.group}/${metadata.name}.yaml`);
+
+	// We'll first check if the package was already created. Depending on this 
+	// we use the "Add" or "Update" commit message.
+	let prefix = 'Update';
+	try {
+		await fs.promises.stat(output);
+	} catch (e) {
+		if (e.code === 'ENOENT') {
+			prefix = 'Add';
+		} else {
+			throw e;
+		}
+	}
+
 	await fs.promises.mkdir(path.dirname(output), { recursive: true });
 	await fs.promises.writeFile(output, yaml);
 	return {
-		message: `Add ${pkg}`,
+		message: `${prefix} ${pkg}`,
 	};
 }
