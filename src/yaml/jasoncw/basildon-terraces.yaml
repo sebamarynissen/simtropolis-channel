@@ -1,0 +1,28 @@
+group: jasoncw
+name: basildon-terraces
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Basildon Terraces
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36593-basildon-terraces/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-basildon-terraces-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-basildon-terraces-darknite
+
+---
+assetId: jasoncw-basildon-terraces-maxisnite
+version: "1.0.0"
+lastModified: "2024-12-12T05:46:27Z"
+url: https://community.simtropolis.com/files/file/36593-basildon-terraces/?do=download&r=204649
+
+---
+assetId: jasoncw-basildon-terraces-darknite
+version: "1.0.0"
+lastModified: "2024-12-12T05:46:27Z"
+url: https://community.simtropolis.com/files/file/36593-basildon-terraces/?do=download&r=204650
