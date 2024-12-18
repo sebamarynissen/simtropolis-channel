@@ -12,6 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
       - run: npm ci
       - id: fetch
         uses: ./actions/fetch

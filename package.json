@@ -5,6 +5,9 @@
   "version": "1.0.0",
   "description": "Metadata channel for sc4pac that automatically handles the latest STEX uploads",
   "main": "index.js",
+  "engines": {
+    "node": "^22.12"
+  },
   "directories": {
     "test": "test"
   },
