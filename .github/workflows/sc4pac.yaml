@@ -14,6 +14,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: package.json
+      - name: Configure Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - run: npm ci
       - id: fetch
         uses: ./actions/fetch
@@ -22,3 +26,6 @@ jobs:
           STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
         with:
           url: ${{ github.event.inputs.url }}
+      - run: git add .
+      - run: git commit -m "Add package"
+      - run: git push origin main
