@@ -1,0 +1,24 @@
+{
+  "name": "simtropolis-channel",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Metadata channel for sc4pac that automatically handles the latest STEX uploads",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "fetch": "node --env-file=.env actions/fetch/action.js"
+  },
+  "keywords": [],
+  "author": "Sebastiaan Marynissen <sebastiaan.marynissen@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "@sebamarynissen/sc4pac-helpers": "github:sebamarynissen/sc4pac-helpers#main",
+    "@whisthub/eslint-config": "^3.1.0",
+    "eslint": "^9.17.0"
+  }
+}
