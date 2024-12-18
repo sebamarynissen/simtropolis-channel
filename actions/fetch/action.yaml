@@ -1,0 +1,10 @@
+name: fetch-from-simtropolis
+description: Fetches a file from Simtropolis and generates metadata from it
+inputs:
+  url:
+    description: The url to parse the medata from
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'action.js'
