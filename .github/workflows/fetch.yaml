@@ -1,3 +1,5 @@
+# IMPORTANT! If you change this name, you should change it in "deploy.yaml" as 
+# well as it references it by name!
 name: Add package from Simtropolis
 on:
   workflow_dispatch:
