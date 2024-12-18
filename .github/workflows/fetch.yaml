@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       url:
-        description: The Simtropolis url to fetch the package from
+        description: The url or file id to fetch the package from
         require: true
 
 jobs:
