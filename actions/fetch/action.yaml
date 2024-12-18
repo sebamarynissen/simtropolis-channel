@@ -4,6 +4,9 @@ inputs:
   url:
     description: The url to parse the medata from
     required: true
+outputs:
+  message:
+    description: The commit message that will be used by the GitHub actions bot
 
 runs:
   using: 'node20'

@@ -21,7 +21,11 @@ export default async function fetch(opts) {
 	} = opts;
 	let metadata = await scrape(url);
 	let yaml = generate(metadata);
+	let pkg = `${metadata.group}:${metadata.name}`;
 	let output = path.resolve(cwd, `src/yaml/${metadata.group}/${metadata.name}.yaml`);
 	await fs.promises.mkdir(path.dirname(output), { recursive: true });
 	await fs.promises.writeFile(output, yaml);
+	return {
+		message: `Add ${pkg}`,
+	};
 }

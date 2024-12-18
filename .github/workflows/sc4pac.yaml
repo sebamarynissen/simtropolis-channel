@@ -29,5 +29,5 @@ jobs:
         with:
           url: ${{ github.event.inputs.url }}
       - run: git add .
-      - run: git commit -m "Add package"
+      - run: git commit -m "${{ steps.fetch.outputs.message }}"
       - run: git push origin main
