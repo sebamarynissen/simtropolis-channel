@@ -16,7 +16,6 @@ jobs:
       channel-label: Simtropolis
       deploy-repository: sebamarynissen/simtropolis-channel
       use-stex-api: true
-      lint: false
     secrets:
       stex-api-key: ${{ secrets.STEX_API_KEY }}
     permissions:
