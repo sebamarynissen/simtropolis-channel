@@ -30,6 +30,8 @@ async function handleResult(result) {
 
 	// Re-apply the changes from this package.
 	for (let file of result.files) {
+		let dirname = path.dirname(file.path);
+		await fs.promises.mkdir(dirname, { recursive: true });
 		await fs.promises.writeFile(file.path, file.contents);
 	}
 
