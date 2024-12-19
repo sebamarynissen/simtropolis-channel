@@ -41,7 +41,7 @@ async function handleResult(result) {
 	for (let file of result.files) {
 		await git.add(file.name);
 	}
-	await git.commit(result.title);
+	await git.commit(result.title, { '--allow-empty': true });
 	spinner.succeed();
 	spinner = ora(`Pushing ${result.branch} to origin`).start();
 	await git.push('origin', result.branch);
