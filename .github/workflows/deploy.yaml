@@ -15,7 +15,7 @@ jobs:
       path: src/yaml
       channel-label: Simtropolis
       deploy-repository: sebamarynissen/simtropolis-channel
-      use-stex-api: true
+      use-stex-api: false
     secrets:
       stex-api-key: ${{ secrets.STEX_API_KEY }}
     permissions:
