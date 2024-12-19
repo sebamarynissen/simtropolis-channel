@@ -6,7 +6,13 @@ on:
     inputs:
       url:
         description: The url or file id to fetch the package from
-        require: true
+        required: true
+      commit:
+        description: Whether the commit the file to the repo. Set to false for testing
+        required: false
+        type: boolean
+        # False for now, should be changed to true when ready for production.
+        default: false
 
 jobs:
   add-from-simtropolis:
@@ -49,5 +55,5 @@ jobs:
           fi
       - if: env.changes_detected == 'true'
         run: git commit -m "${{ steps.fetch.outputs.message }}"
-      - if: env.changes_detected == 'true'
+      - if: env.changes_detected == 'true' && {{ github.event.inputs.commit }}
         run: git push origin main
