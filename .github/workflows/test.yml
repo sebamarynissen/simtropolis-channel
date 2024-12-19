@@ -1,0 +1,8 @@
+name: JavaScript tests
+on:
+  push:
+    branch:
+      - main
+  # If we're using pull requests to generate the packages as well, we have to 
+  # specify to not run the JS tests on package pull requests.
+  pull_request:
