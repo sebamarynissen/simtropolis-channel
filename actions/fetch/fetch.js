@@ -152,14 +152,15 @@ async function handleFile(json, opts = {}) {
 		id,
 		metadata,
 		files: [relativePath],
-		title: `${id}@${main.version}`,
+		title: `\`${id}@${main.version}\``,
 		branch: `package/${id.replace(':', '-')}`,
 		body: [
+			`${main.info?.website}`,
 			'## Packages\n',
 			...packages.map(pkg => `- ${pkg.group}:${pkg.name}`),
 			'',
 			'## Assets\n',
-			...metadata.assets.map(asset => asset.assetId),
+			...metadata.assets.map(asset => `${asset.assetId}`),
 		].join('\n'),
 	};
 
