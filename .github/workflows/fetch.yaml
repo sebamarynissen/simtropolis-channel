@@ -21,8 +21,7 @@ on:
 jobs:
   add-from-simtropolis:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    permissions: write-all
 
     env:
       SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
