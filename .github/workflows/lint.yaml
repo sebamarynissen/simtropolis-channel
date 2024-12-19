@@ -14,4 +14,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Lint
-        uses: memo33/sc4pac-actions/actions/lint
+        uses: memo33/sc4pac-actions/actions/lint/action.yaml@main
