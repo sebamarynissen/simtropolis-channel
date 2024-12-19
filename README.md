@@ -17,7 +17,7 @@ See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and dis
 ## Roadmap
 
 - [x] Implement a proof of concept
-- [ ] Use the STEX api instead of html scraping
+- [x] Use the STEX api instead of html scraping
 - [ ] Automatically keep track of when the Simtropolis api was last called and only request new files after that date
 - [ ] Support custom metadata as part of the package (by means of a metadata.yaml file in one of the uploads)
 - [ ] Handle various Simtropolis error scenarios (down for maintenance, 520, ...)
