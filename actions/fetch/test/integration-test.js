@@ -139,6 +139,9 @@ describe('The fetch action', function() {
 		let { read, result } = await this.run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-smf-tower');
 		expect(result.title).to.equal('smf-16:smf-tower@1.0.2');
+		expect(result.files).to.eql([
+			'src/yaml/smf-16/smf-tower.yaml',
+		]);
 
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
@@ -500,6 +503,9 @@ describe('The fetch action', function() {
 		let { read, result } = await this.run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-st-residences');
 		expect(result.title).to.equal('smf-16:st-residences@2.0.0');
+		expect(result.files).to.eql([
+			'src/yaml/smf-16/st-residences.yaml',
+		]);
 		let metadata = read('/src/yaml/smf-16/st-residences.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
