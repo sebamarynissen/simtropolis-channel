@@ -119,7 +119,8 @@ async function handleFile(json, opts = {}) {
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
-	if (!parsedMetadata) {
+	const { requireMetadata = true } = opts;
+	if (!parsedMetadata && requireMetadata) {
 		console.log(`Package ${json.fileURL} does not have a metadata.yaml file in its root, skipping.`);
 		return;
 	}

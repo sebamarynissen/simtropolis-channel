@@ -13,6 +13,10 @@ on:
         type: boolean
         # False for now, should be changed to true when ready for production.
         default: false
+      require-metadata:
+        description: Whether a metadata.yaml file is required to add the package. Useful to turn this off for testing.
+        type: boolean
+        default: true
 
 jobs:
   add-from-simtropolis:
@@ -41,6 +45,7 @@ jobs:
           STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
         with:
           url: ${{ github.event.inputs.url }}
+          require-metadata: ${{ github.events.inputs.require-metadata }}
       - name: Check for changes
         id: check_changes
         run: |
