@@ -4,6 +4,8 @@ import path from 'node:path';
 import { Document } from 'yaml';
 import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
+import Downloader from './downloader.js';
+import patchMetadata from './patch-metadata.js';
 const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 
 // # fetch(opts)
@@ -77,8 +79,26 @@ async function handleFile(json, opts = {}) {
 	}
 	Object.assign(metadata.package, { assets, variants });
 
+	// Cool, the metadata has been generated in standardized format. We will now 
+	// download all assets and look for a metadata.yaml file to override the 
+	// prefilled metadata.
+	let parsedMetadata;
+	let downloader = new Downloader();
+	for (let asset of metadata.assets) {
+
+		// If the assets contains metadata, we'll use this one, only if former 
+		// assets did not contain metadata either.
+		let info = await downloader.handleAsset(asset);
+		if (info.metadata && !parsedMetadata) {
+			parsedMetadata = info.metadata;
+		}
+	}
+
+	// Patch the metadata with the metadata that was parsed from the assets.
+	let packages = patchMetadata(metadata.package, parsedMetadata);
+
 	// Generate the proper yaml documents now.
-	let docs = [metadata.package, ...metadata.assets].map((json, index) => {
+	let docs = [...packages, ...metadata.assets].map((json, index) => {
 		let doc = stylize(new Document(json));
 		if (index > 0) {
 			doc.directives.docStart = true;
@@ -200,8 +220,4 @@ const regexes = {
 function findAsset(assets, id) {
 	const regex = regexes[id];
 	return assets.find(asset => regex.test(asset.assetId)).assetId;
-}
-
-function ucfirst(str) {
-	return str.charAt(0).toUpperCase() + str.slice(1);
 }

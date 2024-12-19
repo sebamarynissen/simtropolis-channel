@@ -1,5 +1,6 @@
 // # api-to-metadata.js
 import path from 'node:path';
+import { kFileInfo } from './symbols.js';
 import categories from './categories.js';
 
 // # apiToMetadata(json)
@@ -33,6 +34,7 @@ export default function apiToMetadata(json) {
 			version: json.release,
 			lastModified: normalizeDate(json.updated),
 			url: url.href,
+			[kFileInfo]: file,
 		});
 	}
 	return {
