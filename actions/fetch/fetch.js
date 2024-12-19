@@ -102,7 +102,7 @@ async function handleFile(json, opts = {}) {
 	}
 
 	// Patch the metadata with the metadata that was parsed from the assets.
-	let packages = patchMetadata(metadata.package, parsedMetadata);
+	let packages = patchMetadata(metadata, parsedMetadata);
 
 	// Generate the proper yaml documents now.
 	let docs = [...packages, ...metadata.assets].map((json, index) => {

@@ -1,0 +1,10 @@
+# Example of how interpolation can be used to access the info automatically 
+# generated from the STEX. You can reference "package" to get the package 
+# metadata and "assets" to reference all the assets.
+info:
+  description: |-
+    I want a custom description for ${{ package.info.summary }}
+assets:
+  - assetId: ${{ assets.0.assetId }}
+    include:
+      - .sc4lot$

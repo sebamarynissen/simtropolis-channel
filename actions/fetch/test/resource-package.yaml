@@ -1,0 +1,15 @@
+name: ${{ package.name }}-resources
+subfolder: 100-props-textures
+info:
+  summary: ${{ package.info.summary }} Resources
+  description: Resource package for `pkg=${{ package.group }}:${{ package.name }}`
+assets:
+  - assetId: ${{ assets.0.assetId }}
+    exclude:
+      - .sc4lot$
+
+---
+assets:
+  - assetId: ${{ assets.0.assetId }}
+    include:
+      - .sc4lot$

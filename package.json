@@ -6,7 +6,7 @@
   "description": "Metadata channel for sc4pac that automatically handles the latest STEX uploads",
   "main": "index.js",
   "engines": {
-    "node": "^22.12"
+    "node": "^22.11"
   },
   "directories": {
     "test": "test"
@@ -28,6 +28,7 @@
     "mocha": "^11.0.1"
   },
   "dependencies": {
+    "dot-prop": "^9.0.0",
     "jsdom": "^25.0.1",
     "ora": "^8.1.1",
     "tmp-promise": "^3.0.3",
