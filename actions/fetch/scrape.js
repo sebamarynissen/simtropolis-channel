@@ -22,9 +22,11 @@ export default async function scrape(url) {
 	let h2 = [...$$('h2')].find(node => {
 		return node.textContent.toLowerCase().includes('about this file');
 	});
-	let description = parseDescription(
-		h2.parentElement.querySelector('section > div:first-child'),
-	);
+	let descriptionNode = h2.parentElement.querySelector('section > div:first-child');
+	let description = '';
+	if (descriptionNode) {
+		description = parseDescription(descriptionNode);
+	}
 
 	// Find the full images. If they don't exist, search for the thumbnails 
 	// instead.

@@ -39,6 +39,8 @@ function applyPatch(apiPackage, userPackage, opts = {}) {
 	if (!opts.main) {
 		delete apiPackage.variants;
 		delete apiPackage.dependencies;
+		delete apiPackage?.info.website;
+		delete apiPackage?.info.images;
 	}
 	return {
 		...apiPackage,

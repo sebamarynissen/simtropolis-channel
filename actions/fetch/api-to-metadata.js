@@ -27,6 +27,9 @@ export default function apiToMetadata(json) {
 	for (let i = 0; i < json.files.length; i++) {
 		let file = json.files[i];
 		let url = new URL(json.fileURL);
+		if (!url.pathname.endsWith('/')) {
+			url.pathname = `${url.pathname}/`;
+		}
 		url.searchParams.set('do', 'download');
 		url.searchParams.set('r', json.files[i].id);
 		let suffix = getAssetSuffix(file, i, json);

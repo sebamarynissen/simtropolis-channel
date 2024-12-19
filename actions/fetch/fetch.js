@@ -1,5 +1,5 @@
 // # fetch.js
-import fs from 'node:fs';
+import nodeFs from 'node:fs';
 import path from 'node:path';
 import { parse, Document } from 'yaml';
 import stylize from './stylize-doc.js';
@@ -8,6 +8,7 @@ import Downloader from './downloader.js';
 import patchMetadata from './patch-metadata.js';
 import scrape from './scrape.js';
 import Permissions from './permissions.js';
+import { urlToFileId } from './util.js';
 const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 
 // # fetch(opts)
@@ -15,14 +16,8 @@ export default async function fetchPackage(opts) {
 
 	// If the id given is a url, extract the id from it.
 	let { id } = opts;
-	if (id.startsWith('https://')) {
-		let { pathname } = new URL(id);
-		id = pathname
-			.replace(/\/$/, '')
-			.split('/')
-			.at(-1)
-			.split('-')
-			.at(0);
+	if (String(id).startsWith('https://')) {
+		id = urlToFileId(id);
 	}
 
 	// Build up the url.
@@ -42,11 +37,15 @@ export default async function fetchPackage(opts) {
 	}
 
 	// Handle all files one by one to not flood Simtropolis.
+	const {
+		fs = nodeFs,
+		cwd = process.env.GITHUB_WORKSPACE ?? process.cwd(),
+	} = opts;
 	let results = [];
-	let cwd = process.env.GITHUB_WORKSPACE ?? process.cwd();
 	let data = parse(await fs.promises.readFile(path.join(cwd, 'permissions.yaml'))+'');
 	let permissions = new Permissions(data);
 	let handleOptions = {
+		...opts,
 		cwd,
 		permissions,
 	};
@@ -98,7 +97,7 @@ async function handleFile(json, opts = {}) {
 	// If there are no variants, then we just include the assets as is.
 	let assets;
 	if (!variants || variants.length === 0) {
-		assets = metadata.assets;
+		assets = metadata.assets.map(asset => ({ assetId: asset.assetId }));
 	}
 	Object.assign(metadata.package, { assets, variants });
 
@@ -139,8 +138,12 @@ async function handleFile(json, opts = {}) {
 
 	// Note: if the file already exists, we'll use "Update" instead of "Add" in 
 	// the commit message.
-	let { cwd, path: srcPath = 'src/yaml' } = opts;
-	let { group, name } = metadata.package;
+	let {
+		cwd,
+		path: srcPath = 'src/yaml',
+		fs = nodeFs,
+	} = opts;
+	let [{ group, name }] = packages;
 	let id = `${group}:${name}`;
 	let yaml = serialize(zipped);
 	let output = path.resolve(cwd, srcPath, `${group}/${name}.yaml`);
@@ -249,6 +252,23 @@ function generateVariant(type, metadata) {
 				],
 			},
 		];
+	} else if (type === 'driveside') {
+		return [
+			{
+				variant: { driveside: 'right' },
+				assets: [
+					{ assetId: findAsset(assets, 'rhd') },
+				],
+			},
+			{
+				variant: { driveside: 'left' },
+				assets: [
+					{ assetId: findAsset(assets, 'lhd') },
+				],
+			},
+		];
+	} else {
+		return [];
 	}
 }
 
