@@ -28,7 +28,10 @@
     "mocha": "^11.0.1"
   },
   "dependencies": {
+    "jsdom": "^25.0.1",
+    "ora": "^8.1.1",
     "tmp-promise": "^3.0.3",
+    "turndown": "^7.2.0",
     "yaml": "^2.6.1",
     "yauzl": "^3.2.0"
   }

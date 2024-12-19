@@ -6,6 +6,7 @@ import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
 import Downloader from './downloader.js';
 import patchMetadata from './patch-metadata.js';
+import scrape from './scrape.js';
 const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 
 // # fetch(opts)
@@ -59,13 +60,19 @@ export default async function fetchPackage(opts) {
 // Handles a single STEX file.
 async function handleFile(json, opts = {}) {
 
-	// Start by extracting all metadata we can from the api.
+	// Start by extracting all metadata we can from the api, and then combine 
+	// this with scraping for the description and images as they are not 
+	// included in the api response yet.
 	let metadata = apiToMetadata(json);
-
-	// TODO: Use scraping for description and images, these are not yet included 
-	// in the api.
-	// TODO: download the assets and check if one of them contains a yaml 
-	// metadata file.
+	let { description, images } = await scrape(json.fileURL);
+	let { package: pkg } = metadata;
+	let { info } = pkg;
+	if (!info.description) {
+		info.description = description;
+	}
+	if (!info.images) {
+		info.images = images;
+	}
 
 	// Now generate the variants from what we've decided to include. This will 
 	// multiply the available variants by 2 in every step.
@@ -110,7 +117,7 @@ async function handleFile(json, opts = {}) {
 	// the commit message.
 	let { cwd, path: srcPath = 'src/yaml' } = opts;
 	let { group, name } = metadata.package;
-	let pkg = `${group}:${name}`;
+	let id = `${group}:${name}`;
 	let yaml = docs.join('\n');
 	let output = path.resolve(cwd, srcPath, `${group}/${name}.yaml`);
 	let label = 'Add';
@@ -120,9 +127,9 @@ async function handleFile(json, opts = {}) {
 	await fs.promises.mkdir(path.dirname(output), { recursive: true });
 	await fs.promises.writeFile(output, yaml);
 	return {
-		id: pkg,
+		id,
 		metadata,
-		message: `${label} ${pkg}`,
+		message: `${label} ${id}`,
 	};
 
 }

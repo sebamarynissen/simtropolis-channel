@@ -3,6 +3,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
+import ora from 'ora';
 import { kFileInfo } from './symbols.js';
 import tmp from 'tmp-promise';
 import yauzl from 'yauzl';
@@ -45,6 +46,7 @@ export default class Downloader {
 	// metadata.yaml file in any of the assets and generate DLL checksums 
 	// automatically.
 	async handleAsset(asset) {
+		const spinner = ora(`Downloading ${asset.url}`).start();
 		const download = await this.download(asset);
 		const info = {};
 		const tasks = [];
@@ -68,6 +70,7 @@ export default class Downloader {
 		await Promise.all(tasks);
 		await fs.promises.unlink(download.path);
 		await download.cleanup();
+		spinner.succeed();
 		return info;
 	}
 
