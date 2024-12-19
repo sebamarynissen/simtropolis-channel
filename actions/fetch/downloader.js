@@ -23,6 +23,10 @@ export default class Downloader {
 	// about it. Subsequently it can be read with yauzl to find the 
 	// metadata.yaml file for example.
 	async download(asset) {
+		return {
+			path: 'C:\\Users\\sebam\\Desktop\\Ancient Greek Temple.zip',
+			cleanup: () => {},
+		};
 		const { url } = asset;
 		const info = asset[kFileInfo];
 		const dir = await tmp.dir();
@@ -37,7 +41,10 @@ export default class Downloader {
 		await finished(Readable.fromWeb(res.body).pipe(ws));
 		return {
 			path: destination,
-			cleanup: dir.cleanup,
+			cleanup: async () => {
+				await fs.promises.unlink(destination);
+				await dir.cleanup();
+			},
 		};
 	}
 
@@ -68,7 +75,6 @@ export default class Downloader {
 		});
 		await closed.promise;
 		await Promise.all(tasks);
-		await fs.promises.unlink(download.path);
 		await download.cleanup();
 		spinner.succeed();
 		return info;
@@ -91,7 +97,7 @@ async function readMetadata(zipFile, entry) {
 		.map(doc => doc.toJSON())
 		.filter(doc => !doc.assetId);
 	if (json.length === 0) {
-		return null;
+		return true;
 	} else if (json.length === 1) {
 		return json.at(0);
 	} else {

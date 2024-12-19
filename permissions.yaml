@@ -1,0 +1,14 @@
+# List of creators that are allowed to add their plugin to the channel. For now 
+# you *must* be listed. Once stable, we can lift this requirement, but the 
+# permissions will still be useful for determining who has access to which 
+# groups.
+authors:
+  - name: smf_16
+    id: 259789
+
+# Exemplar for permissions for specific packages.
+# authors:
+#   - name: Aaron Graham
+#     id: 226625
+#     groups:
+#       - nybt

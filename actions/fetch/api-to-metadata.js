@@ -2,6 +2,7 @@
 import path from 'node:path';
 import { kFileInfo } from './symbols.js';
 import categories from './categories.js';
+import { slugify } from './util.js';
 
 // # apiToMetadata(json)
 // Transforms a single json results from the STEX api to the basic metadata 
@@ -41,13 +42,6 @@ export default function apiToMetadata(json) {
 		package: pkg,
 		assets,
 	};
-}
-
-// # slugify(name)
-// Converts the name of the author into a slugged version.
-function slugify(name) {
-	let lc = name.toLowerCase();
-	return lc.replaceAll(/[\s_]+/g, '-');
 }
 
 // # getSubfolder(json)

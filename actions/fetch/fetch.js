@@ -1,12 +1,13 @@
 // # fetch.js
 import fs from 'node:fs';
 import path from 'node:path';
-import { Document } from 'yaml';
+import { parse, Document } from 'yaml';
 import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
 import Downloader from './downloader.js';
 import patchMetadata from './patch-metadata.js';
 import scrape from './scrape.js';
+import Permissions from './permissions.js';
 const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 
 // # fetch(opts)
@@ -42,11 +43,26 @@ export default async function fetchPackage(opts) {
 
 	// Handle all files one by one to not flood Simtropolis.
 	let results = [];
+	let cwd = process.env.GITHUB_WORKSPACE ?? process.cwd();
+	let data = parse(await fs.promises.readFile(path.join(cwd, 'permissions.yaml'))+'');
+	let permissions = new Permissions(data);
 	let handleOptions = {
-		cwd: process.env.GITHUB_WORKSPACE ?? process.cwd(),
+		cwd,
+		permissions,
 	};
 	for (let obj of json) {
-		results.push(await handleFile(obj, handleOptions));
+		if (!permissions.isUploadAllowed(obj)) {
+			console.log(`Creator of ${obj.fileURL} is not allowed to add a plugin to the channel.`);
+			continue;
+		}
+		let result = await handleFile(obj, handleOptions);
+		if (result) {
+			if (result.error) {
+				console.log(result.error.message);
+				continue;
+			}
+			results.push(result);
+		}
 	}
 	let message = results.map((result, index) => {
 		let { message } = result;
@@ -89,7 +105,7 @@ async function handleFile(json, opts = {}) {
 	// Cool, the metadata has been generated in standardized format. We will now 
 	// download all assets and look for a metadata.yaml file to override the 
 	// prefilled metadata.
-	let parsedMetadata;
+	let parsedMetadata = false;
 	let downloader = new Downloader();
 	for (let asset of metadata.assets) {
 
@@ -101,24 +117,32 @@ async function handleFile(json, opts = {}) {
 		}
 	}
 
-	// Patch the metadata with the metadata that was parsed from the assets.
-	let packages = patchMetadata(metadata, parsedMetadata);
+	// If we have not found any metadata at this moment, then we skip this 
+	// package. It means the user has not made their package compatible with 
+	// sc4pac.
+	if (!parsedMetadata) {
+		console.log(`Package ${json.fileURL} does not have a metadata.yaml file in its root, skipping.`);
+		return;
+	}
 
-	// Generate the proper yaml documents now.
-	let docs = [...packages, ...metadata.assets].map((json, index) => {
-		let doc = stylize(new Document(json));
-		if (index > 0) {
-			doc.directives.docStart = true;
-		}
-		return doc;
-	});
+	// Patch the metadata with the metadata that was parsed from the assets. 
+	// Then we'll verify that the generated package is ok according to our 
+	// permissions.
+	let packages = patchMetadata(metadata, parsedMetadata);
+	let zipped = [...packages, ...metadata.assets];
+	let { permissions } = opts;
+	try {
+		permissions.assertPackageAllowed(json, packages);
+	} catch (e) {
+		throw new Error(`${e.message}\n\n${serialize(zipped)}`);
+	}
 
 	// Note: if the file already exists, we'll use "Update" instead of "Add" in 
 	// the commit message.
 	let { cwd, path: srcPath = 'src/yaml' } = opts;
 	let { group, name } = metadata.package;
 	let id = `${group}:${name}`;
-	let yaml = docs.join('\n');
+	let yaml = serialize(zipped);
 	let output = path.resolve(cwd, srcPath, `${group}/${name}.yaml`);
 	let label = 'Add';
 	if (fs.existsSync(output)) {
@@ -132,6 +156,17 @@ async function handleFile(json, opts = {}) {
 		message: `${label} ${id}`,
 	};
 
+}
+
+// # serialize(json)
+function serialize(json) {
+	return json.map((json, index) => {
+		let doc = stylize(new Document(json));
+		if (index > 0) {
+			doc.directives.docStart = true;
+		}
+		return doc;
+	}).join('\n');
 }
 
 // # findIncludedVariants(metadata)
