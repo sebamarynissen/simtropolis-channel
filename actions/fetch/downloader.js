@@ -23,10 +23,6 @@ export default class Downloader {
 	// about it. Subsequently it can be read with yauzl to find the 
 	// metadata.yaml file for example.
 	async download(asset) {
-		return {
-			path: 'C:\\Users\\sebam\\Desktop\\Ancient Greek Temple.zip',
-			cleanup: () => {},
-		};
 		const { url } = asset;
 		const info = asset[kFileInfo];
 		const dir = await tmp.dir();
