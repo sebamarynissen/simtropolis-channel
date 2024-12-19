@@ -8,9 +8,6 @@ inputs:
     description: Whether a metadata.yaml file is required to add the package. Useful to turn this off for testing.
     type: boolean
     default: true
-outputs:
-  message:
-    description: The commit message that will be used by the GitHub actions bot
 
 runs:
   using: 'node20'

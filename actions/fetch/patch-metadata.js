@@ -7,20 +7,22 @@ import * as dot from 'dot-prop';
 export default function patchMetadata(metadata, patch) {
 
 	// If nothing needs to be patched, just return the package as is.
-	if (!patch) {
-		return [metadata.package];
+	if (!patch || patch === true) {
+		return Object.assign([metadata.package], { main: metadata.package });
 	}
 
 	// We first have to figure out what the "main package" of the user-defined 
 	// metadata is, because the parsed dependencies and variants from the api 
 	// should only be applied to the main package.
-	let main = findMainPackage(patch);
-	return [patch]
+	let mainIndex = findMainPackageIndex(patch);
+	let patched = [patch]
 		.flat()
-		.map(patch => applyPatch(metadata.package, patch, {
-			main: patch === main,
+		.map((patch, index) => applyPatch(metadata.package, patch, {
+			main: index === mainIndex,
 		}))
 		.map(pkg => fill(pkg, metadata));
+	patched.main = patched[mainIndex];
+	return patched;
 
 }
 
@@ -121,24 +123,23 @@ function lex(input) {
 	return result;
 }
 
-// # findMainPackage(patch)
+// # findMainPackageIndex(patch)
 // Finds the main package to patch
-function findMainPackage(patch) {
+function findMainPackageIndex(patch) {
 
 	// In case there's only 1 patch, obviously this is the main patch object.
-	if (!Array.isArray(patch)) {
-		return patch;
-	} else if (patch.length === 1) {
-		return patch[0];
+	if (!Array.isArray(patch) || patch.length === 1) {
+		return 0;
 	}
 
 	// At this point we know that there are multiple packages to patch. In order 
 	// to find the "main" package, we have several strategies. If a package has 
 	// no specific name given, then this is the main package. Otherwise it can 
 	// also be labeled as "main".
-	return (
-		patch.find(pkg => !Object.hasOwn(pkg, 'name')) ||
-		patch.find(pkg => pkg.main === true)
-	);
+	let index = patch.findIndex(pkg => !Object.hasOwn(pkg, 'name'));
+	if (index > -1) return index;
+	index = patch.findIndex(pkg => pkg.main === true);
+	if (index > -1) return index;
+	return 0;
 
 }

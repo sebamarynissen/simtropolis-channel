@@ -63,11 +63,7 @@ export default async function fetchPackage(opts) {
 			results.push(result);
 		}
 	}
-	let message = results.map((result, index) => {
-		let { message } = result;
-		return index > 0 ? message.toLowerCase() : message;
-	}).join(', ');
-	return { message };
+	return results;
 
 }
 
@@ -144,20 +140,25 @@ async function handleFile(json, opts = {}) {
 		path: srcPath = 'src/yaml',
 		fs = nodeFs,
 	} = opts;
-	let [{ group, name }] = packages;
+	let { main } = packages;
+	let { group, name } = main;
 	let id = `${group}:${name}`;
 	let yaml = serialize(zipped);
 	let output = path.resolve(cwd, srcPath, `${group}/${name}.yaml`);
-	let label = 'Add';
-	if (fs.existsSync(output)) {
-		label = 'Update';
-	}
 	await fs.promises.mkdir(path.dirname(output), { recursive: true });
 	await fs.promises.writeFile(output, yaml);
 	return {
 		id,
 		metadata,
-		message: `${label} ${id}`,
+		title: `${id}@${main.version}`,
+		branch: `package/${id.replace(':', '-')}`,
+		body: [
+			'## Packages\n',
+			...packages.map(pkg => `- ${pkg.group}:${pkg.name}`),
+			'',
+			'## Assets\n',
+			...metadata.assets.map(asset => asset.assetId),
+		].join('\n'),
 	};
 
 }

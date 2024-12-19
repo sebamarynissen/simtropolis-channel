@@ -91,7 +91,7 @@ describe('The fetch action', function() {
 		this.run = async function(opts) {
 			let fs = Volume.fromJSON();
 			fs.writeFileSync('/permissions.yaml', '');
-			let result = await action({
+			let results = await action({
 				fs,
 				cwd: '/',
 				...opts,
@@ -102,7 +102,8 @@ describe('The fetch action', function() {
 					let contents = fs.readFileSync(file).toString();
 					return parseAllDocuments(contents).map(doc => doc.toJSON());
 				},
-				result,
+				results,
+				result: results[0],
 			};
 		};
 
@@ -135,7 +136,10 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read } = await this.run({ id: 5364 });
+		let { read, result } = await this.run({ id: 5364 });
+		expect(result.branch).to.equal('package/smf-16-smf-tower');
+		expect(result.title).to.equal('smf-16:smf-tower@1.0.2');
+
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
@@ -493,7 +497,9 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read } = await this.run({ id: 5364 });
+		let { read, result } = await this.run({ id: 5364 });
+		expect(result.branch).to.equal('package/smf-16-st-residences');
+		expect(result.title).to.equal('smf-16:st-residences@2.0.0');
 		let metadata = read('/src/yaml/smf-16/st-residences.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
