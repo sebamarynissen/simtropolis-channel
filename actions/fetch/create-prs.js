@@ -20,6 +20,7 @@ async function handleResult(result) {
 	let { pr } = result;
 	if (pr) {
 		let spinner = ora(`Checking out origin/${result.branch}`);
+		await git.fetch();
 		await git.checkoutBranch(result.branch, `origin/${result.branch}`);
 		spinner.succeed();
 	} else {
