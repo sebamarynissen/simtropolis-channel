@@ -23,6 +23,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
+    env:
+      SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
+      STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
+      GITHUB_OWNER: ${{ github.repository_owner }}
+      GITHUB_REPO: ${{ github.event.repository.name }}
+
     steps:
       - uses: actions/checkout@v4
         # Explicitly checkout the main branch because the commit that triggered 
@@ -40,26 +47,6 @@ jobs:
       - run: npm ci
       - id: fetch
         uses: ./actions/fetch
-        env:
-          SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
-          STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
         with:
           url: ${{ github.event.inputs.url }}
           require-metadata: ${{ github.events.inputs.require-metadata }}
-      - name: Check for changes
-        id: check_changes
-        run: |
-          git status
-          git add -A
-          git status
-          if git diff-index --quiet HEAD; then
-            echo "No changes to commit."
-            echo "changes_detected=false" >> $GITHUB_ENV
-          else
-            echo "Changes detected."
-            echo "changes_detected=true" >> $GITHUB_ENV
-          fi
-      - if: env.changes_detected == 'true'
-        run: git commit -m "${{ steps.fetch.outputs.message }}"
-      - if: env.changes_detected == 'true' && ${{ github.event.inputs.commit == 'true' }}
-        run: git push origin main
