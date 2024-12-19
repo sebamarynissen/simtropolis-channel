@@ -5,16 +5,16 @@ on:
   workflow_dispatch:
     inputs:
       url:
-        description: The url or file id to fetch the package from
+        description: URL or file id
         required: true
       commit:
-        description: Push the metadata to the repo? Uncheck for testing.
+        description: Push to origin/main
         required: false
         type: boolean
         # False for now, should be changed to true when ready for production.
         default: false
       require-metadata:
-        description: Whether a metadata.yaml file is required to add the package. Useful to turn this off for testing.
+        description: Require metadata.yaml
         type: boolean
         default: true
 
