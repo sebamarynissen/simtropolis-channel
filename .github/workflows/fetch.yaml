@@ -7,12 +7,6 @@ on:
       url:
         description: URL or file id
         required: true
-      commit:
-        description: Push to origin/main
-        required: false
-        type: boolean
-        # False for now, should be changed to true when ready for production.
-        default: false
       require-metadata:
         description: Require metadata.yaml
         type: boolean
