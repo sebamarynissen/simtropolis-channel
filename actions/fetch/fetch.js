@@ -154,16 +154,38 @@ async function handleFile(json, opts = {}) {
 		files: [relativePath],
 		title: `\`${id}@${main.version}\``,
 		branch: `package/${id.replace(':', '-')}`,
-		body: [
-			`${main.info?.website}`,
-			'## Packages\n',
-			...packages.map(pkg => `- ${pkg.group}:${pkg.name}`),
-			'',
-			'## Assets\n',
-			...metadata.assets.map(asset => `${asset.assetId}`),
-		].join('\n'),
+		body: generateBody({
+			packages,
+			assets: metadata.assets,
+			main,
+		}),
 	};
 
+}
+
+// # generateBody(opts)
+// Generates the PR body based on the packages we've added.
+function generateBody({ packages, assets, main }) {
+	let body = [];
+	let [image] = main.info?.images ?? [];
+	if (image) {
+		body.push(`![${main.info?.summary}](${image})\n`);
+	}
+	body.push('## Packages\n');
+	body.push(...packages.map(pkg => {
+		let line = `${pkg.group}:${pkg.name}`;
+		if (pkg?.info.website) {
+			line = `[${line}](${pkg.info.website})`;
+		}
+		return `- ${line}`;
+	}));
+	body.push('');
+	body.push('## Assets\n');
+	body.push(...assets.map(asset => {
+		let { assetId, url } = asset;
+		return `- [${assetId}](${url})`;
+	}));
+	return body.join('\n');
 }
 
 // # serialize(json)

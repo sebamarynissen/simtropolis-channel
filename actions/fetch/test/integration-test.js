@@ -70,12 +70,17 @@ describe('The fetch action', function() {
 						);
 
 					} else {
+						let { description, images = [] } = upload;
+						let html = images.map(img => {
+							return `<span data-fullURL="${img}"></span>`;
+						}).join('');
 						return new Response(`<html>
 							<body>
 								<div>
 									<h2>About this file</h2>
-									<section><div>${ upload.description }</div></section>
+									<section><div>${description}</div></section>
 								</div>
+								<ul class="cDownloadsCarousel">${html}</ul>
 							</body>
 						</html>`);
 					}
@@ -133,12 +138,16 @@ describe('The fetch action', function() {
 						},
 					},
 				],
+				images: [
+					'https://imageshack.us/image.png',
+					'https://community.simtropolis.com/image.jpg',
+				],
 			}],
 		});
 
 		let { read, result } = await this.run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-smf-tower');
-		expect(result.title).to.equal('smf-16:smf-tower@1.0.2');
+		expect(result.title).to.equal('`smf-16:smf-tower@1.0.2`');
 		expect(result.files).to.eql([
 			'src/yaml/smf-16/smf-tower.yaml',
 		]);
@@ -152,7 +161,10 @@ describe('The fetch action', function() {
 				summary: 'SMF Tower',
 				description: 'This is the description',
 				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [],
+				images: [
+					'https://community.simtropolis.com/image.jpg',
+					'https://imageshack.us/image.png',
+				],
 				author: 'smf_16',
 			},
 			assets: [
@@ -502,7 +514,7 @@ describe('The fetch action', function() {
 
 		let { read, result } = await this.run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-st-residences');
-		expect(result.title).to.equal('smf-16:st-residences@2.0.0');
+		expect(result.title).to.equal('`smf-16:st-residences@2.0.0`');
 		expect(result.files).to.eql([
 			'src/yaml/smf-16/st-residences.yaml',
 		]);

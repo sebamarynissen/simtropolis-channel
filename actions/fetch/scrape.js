@@ -37,6 +37,14 @@ export default async function scrape(url) {
 			.map(img => img.getAttribute('src'));
 	}
 
+	// Sort the images so that anything hosted on Simtropolis comes first in 
+	// order to avoid showing broken links (like imageshack).
+	images.sort((a, b) => {
+		let ai = a.includes('simtropolis.com') ? -1 : 1;
+		let bi = b.includes('simtropolis.com') ? -1 : 1;
+		return ai - bi;
+	});
+
 	return { description, images };
 
 }
