@@ -144,12 +144,14 @@ async function handleFile(json, opts = {}) {
 	let { group, name } = main;
 	let id = `${group}:${name}`;
 	let yaml = serialize(zipped);
-	let output = path.resolve(cwd, srcPath, `${group}/${name}.yaml`);
+	let relativePath = `${srcPath}/${group}/${name}.yaml`;
+	let output = path.resolve(cwd, relativePath);
 	await fs.promises.mkdir(path.dirname(output), { recursive: true });
 	await fs.promises.writeFile(output, yaml);
 	return {
 		id,
 		metadata,
+		files: [relativePath],
 		title: `${id}@${main.version}`,
 		branch: `package/${id.replace(':', '-')}`,
 		body: [
