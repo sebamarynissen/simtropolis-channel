@@ -12,6 +12,7 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "eslint actions/**/*.js",
     "test": "mocha actions/fetch/test",
     "test:fetch": "node --env-file=.env actions/fetch/manual-action.js"
   },

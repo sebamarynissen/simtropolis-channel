@@ -5,7 +5,6 @@ import yazl from 'yazl';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
 import { Volume } from 'memfs';
-import { summary } from '@actions/core';
 
 describe('The fetch action', function() {
 
@@ -18,7 +17,7 @@ describe('The fetch action', function() {
 
 			// We'll mock the global "fetch" method so that we can mock the api 
 			// & download responses.
-			globalThis.fetch = async function(url, fetchOptions) {
+			globalThis.fetch = async function(url) {
 
 				// Parse the url and check what type of request the action is 
 				// making. Based on this we'll return a different result.

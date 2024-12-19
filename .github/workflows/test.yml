@@ -6,3 +6,16 @@ on:
   # If we're using pull requests to generate the packages as well, we have to 
   # specify to not run the JS tests on package pull requests.
   pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
