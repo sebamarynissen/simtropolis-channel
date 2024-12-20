@@ -43,6 +43,7 @@ async function handleResult(result) {
 		await git.add(file.name);
 	}
 	await git.commit(result.title, { '--allow-empty': true });
+	let sha = await git.revparse(['HEAD']);
 	spinner.succeed();
 	spinner = ora(`Pushing ${result.branch} to origin`).start();
 	await git.push('origin', result.branch);
@@ -70,12 +71,6 @@ async function handleResult(result) {
 			labels: ['package'],
 		});
 		spinner.succeed();
-	} else {
-		({ data: pr } = await octokit.pulls.get({
-			owner,
-			repo,
-			pull_number: pr.number,
-		}));
 	}
 
 	// Cool, now delete the branch again.
@@ -87,7 +82,7 @@ async function handleResult(result) {
 	return {
 		ref: `refs/pull/${pr.number}/merge`,
 		number: pr.number,
-		sha: pr.head.sha,
+		sha,
 	};
 
 }
