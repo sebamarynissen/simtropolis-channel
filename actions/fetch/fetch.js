@@ -168,6 +168,7 @@ async function handleFile(json, opts = {}) {
 function generateBody({ packages, assets, main }) {
 	let body = [];
 	let [image] = main.info?.images ?? [];
+	body.push(`# ${main.info?.summary}\n`);
 	if (image) {
 		body.push(`![${main.info?.summary}](${image})\n`);
 	}
