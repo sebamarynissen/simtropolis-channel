@@ -50,11 +50,12 @@ jobs:
       matrix:
         pr: ${{ fromJson(needs.add-from-simtropolis.outputs.prs) }}
     steps:
-      - name: Check out repository
-        id: checkout
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ matrix.pr.ref }}
+      - name: Get latest commit SHA for PR
+        id: get-commit-sha
+        run: |
+          PR_NUMBER=${{ matrix.pr.number }}  # Pull Request number passed as input
+          COMMIT_SHA=$(gh pr view "$PR_NUMBER" --json commits -q ".commits[-1].commit.oid")
+          echo "sha=$(echo $COMMIT_SHA)" >> $GITHUB_OUTPUT
       - name: Set pending status
         uses: actions/github-script@v7
         with:
@@ -62,12 +63,17 @@ jobs:
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              sha: '${{ steps.checkout.outputs.commit }}',
+              sha: '${{ steps.get-commit-sha.outputs.sha }}',
               state: 'pending',
               context: 'repository_dispatch',
               description: 'Running lint',
               target_url: `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${process.env.GITHUB_RUN_ID}`
             });
+      - name: Check out repository
+        id: checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.pr.ref }}
       - name: Lint
         id: lint
         uses: memo33/sc4pac-actions/actions/lint@main
@@ -78,7 +84,7 @@ jobs:
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              sha: '${{ steps.checkout.outputs.commit }}',
+              sha: '${{ steps.get-commit-sha.outputs.sha }}',
               state: '${{ steps.lint.outcome }}',
               context: 'repository_dispatch',
               description: 'Lint successful',
