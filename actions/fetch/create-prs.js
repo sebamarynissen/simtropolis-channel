@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import ora from 'ora';
 import simpleGit from 'simple-git';
+import core from '@actions/core';
 import { Octokit } from '@octokit/rest';
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const baseDir = process.cwd();
@@ -90,6 +91,13 @@ async function handleResult(result) {
 	await git.deleteLocalBranch(result.branch, true);
 	ora(`Handled ${result.title}`).succeed();
 
+	// Return the pr info so that our action can set it as output.
+	return {
+		ref: `refs/pull/${pr.number}/merge`,
+		number: pr.number,
+		sha: pr.head.sha,
+	};
+
 }
 
 // # create(results)
@@ -131,11 +139,14 @@ export default async function create(results) {
 	spinner.succeed();
 
 	// Create PR's and update branches for every result.
+	let output = [];
 	for (let result of results) {
-		await handleResult({
+		let pr = await handleResult({
 			pr: prs.find(pr => pr.head.ref === result.branch),
 			...result,
 		});
+		output.push(pr);
 	}
+	core.setOutput('prs', JSON.stringify(output));
 
 }

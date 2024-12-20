@@ -16,7 +16,8 @@ jobs:
   add-from-simtropolis:
     runs-on: ubuntu-latest
     permissions: write-all
-
+    outputs:
+      prs: ${{ steps.fetch.outputs.prs }}
     env:
       SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
       STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
@@ -33,10 +34,25 @@ jobs:
       - name: Configure Git user
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@user.noreply.github.com"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - run: npm ci
       - id: fetch
         uses: ./actions/fetch
         with:
           url: ${{ github.event.inputs.url }}
           require-metadata: ${{ github.events.inputs.require-metadata }}
+
+  lint:
+    needs: add-from-simtropolis
+    runs-on: ubuntu-latest
+    permissions: write-all
+    strategy:
+      matrix:
+        pr: ${{ fromJson(needs.add-from-simtropolis.outputs.prs) }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.pr.ref }}
+      - name: Run lint
+        run: echo "Running linter"
