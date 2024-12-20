@@ -70,6 +70,12 @@ async function handleResult(result) {
 			labels: ['package'],
 		});
 		spinner.succeed();
+	} else {
+		({ date: pr } = await octokit.pulls.get({
+			owner,
+			repo,
+			pull_number: pr.number,
+		}));
 	}
 
 	// Cool, now delete the branch again.

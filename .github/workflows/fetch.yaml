@@ -52,12 +52,6 @@ jobs:
       matrix:
         pr: ${{ fromJson(needs.add-from-simtropolis.outputs.prs) }}
     steps:
-      - name: Get latest commit SHA for PR
-        id: get-commit-sha
-        run: |
-          PR_NUMBER=${{ matrix.pr.number }}  # Pull Request number passed as input
-          COMMIT_SHA=$(gh pr view "$PR_NUMBER" --json commits -q ".commits[-1].commit.oid")
-          echo "sha=$(echo $COMMIT_SHA)" >> $GITHUB_OUTPUT
       - name: Set pending status
         uses: actions/github-script@v7
         with:
@@ -65,7 +59,7 @@ jobs:
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              sha: '${{ steps.get-commit-sha.outputs.sha }}',
+              sha: '${{ matrix.pr.sha }}',
               state: 'pending',
               context: 'repository_dispatch',
               description: 'Running lint',
@@ -86,7 +80,7 @@ jobs:
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              sha: '${{ steps.get-commit-sha.outputs.sha }}',
+              sha: '${{ matrix.pr.sha }}',
               state: '${{ steps.lint.outcome }}',
               context: 'repository_dispatch',
               description: 'Lint successful',
