@@ -80,7 +80,7 @@ async function handleResult(result) {
 		event_type: 'lint',
 		client_payload: {
 			ref: `refs/pull/${pr.number}/merge`,
-			sha: pr.ref.sha,
+			sha: pr.head.sha,
 			pr: pr.number,
 		},
 	});
