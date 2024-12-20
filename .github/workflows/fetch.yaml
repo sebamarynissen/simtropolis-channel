@@ -97,16 +97,15 @@ jobs:
     needs: lint
     runs-on: ubuntu-latest
     if: ${{ needs.lint.result == 'success' }}
-    steps:
-      - uses: sebamarynissen/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
-        with:
-          ref: main
-          path: src/yaml
-          channel-label: Simtropolis
-          deploy-repository: sebamarynissen/simtropolis-channel
-          use-stex-api: false
-        secrets:
-          stex-api-key: ${{ secrets.STEX_API_KEY }}
-        permissions:
-          pages: write
-          id-token: write
+    uses: sebamarynissen/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
+    with:
+      ref: main
+      path: src/yaml
+      channel-label: Simtropolis
+      deploy-repository: sebamarynissen/simtropolis-channel
+      use-stex-api: false
+     secrets:
+       stex-api-key: ${{ secrets.STEX_API_KEY }}
+    permissions:
+      pages: write
+      id-token: write
