@@ -45,6 +45,8 @@ jobs:
   lint:
     needs: add-from-simtropolis
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     permissions: write-all
     strategy:
       matrix:
