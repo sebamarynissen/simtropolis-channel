@@ -21,7 +21,7 @@ See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and dis
 - [ ] Automatically keep track of when the Simtropolis api was last called and only request new files after that date
 - [x] Support custom metadata as part of the package (by means of a metadata.yaml file in one of the uploads)
 - [ ] Handle various Simtropolis error scenarios (down for maintenance, 520, ...)
-- [ ] Setup an action that creates a PR instead of pushing to main
+- [x] Setup an action that creates a PR instead of pushing to main
 - [ ] Make the metadata generation robust & fool proof
   - [ ] Ensure incorrect metadata cannot be deployed
   - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed, for example in a yaml file in this repo. That way someone from a team can upload under the team name, but only if explicitly allowed.
@@ -29,6 +29,7 @@ See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and dis
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
 - [ ] Make the channel available under a simtropolis.com url, e.g. https://sc4pac.simtropolis.com
 - [ ] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails (to verify with ST admins, but should probably be possible by sendin a POST to the correct endpoint).
+- [ ] Setup an action that automatically creates a GitHub release the first of every month with an overview of all packages that have been added the last month. The releases can have the format `YYYY.mm` as version tags.
 
 # How to make your plugins compatible
 
