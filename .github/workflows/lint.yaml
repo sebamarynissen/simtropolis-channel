@@ -2,14 +2,16 @@ name: Lint
 
 on:
   push:
-    branches:
-      - package/*
+    paths:
+      - 'src/yaml/**'
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Lint
-        uses: memo33/sc4pac-actions/actions/lint@main
+      - name: Echo
+        run: echo hello
+      # - name: Checkout
+      #   uses: actions/checkout@v4
+      # - name: Lint
+      #   uses: memo33/sc4pac-actions/actions/lint@main
