@@ -72,20 +72,6 @@ async function handleResult(result) {
 		spinner.succeed();
 	}
 
-	// Trigger the lint action on the PR with a repository dispatch. We can't 
-	// rely on the normal actions workflow because GitHub does not trigger 
-	// actions on commits made by a bot to avoid infinite loops apparently.
-	await octokit.repos.createDispatchEvent({
-		owner,
-		repo,
-		event_type: 'lint',
-		client_payload: {
-			ref: `refs/pull/${pr.number}/merge`,
-			sha: pr.head.sha,
-			pr: pr.number,
-		},
-	});
-
 	// Cool, now delete the branch again.
 	await git.checkout('main');
 	await git.deleteLocalBranch(result.branch, true);
