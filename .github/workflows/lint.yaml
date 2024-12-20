@@ -1,15 +1,20 @@
 name: Lint
 
 on:
-  push:
-    branches:
-      - 'package/*'
+  repository_dispatch:
+    types: [lint]
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug
+        run: |
+          echo ${{ github.event.client_payload.ref }}
+          echo ${{ github.event.client_payload.pr }}
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.client_payload.ref }}
       - name: Lint
         uses: memo33/sc4pac-actions/actions/lint@main

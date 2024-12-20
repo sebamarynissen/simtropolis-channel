@@ -51,14 +51,14 @@ async function handleResult(result) {
 	// be handled for us.
 	if (!pr) {
 		let spinner = ora('Creating new PR on GitHub').start();
-		const { data: pr } = await octokit.pulls.create({
+		({ data: pr } = await octokit.pulls.create({
 			owner,
 			repo,
 			base: 'main',
 			title: result.title,
 			head: result.branch,
 			body: result.body,
-		});
+		}));
 		spinner.succeed();
 
 		spinner = ora('Adding labels').start();
@@ -70,6 +70,19 @@ async function handleResult(result) {
 		});
 		spinner.succeed();
 	}
+
+	// Trigger the lint action on the PR with a repository dispatch. We can't 
+	// rely on the normal actions workflow because GitHub does not trigger 
+	// actions on commits made by a bot to avoid infinite loops apparently.
+	await octokit.repos.createDispatchEvent({
+		owner,
+		repo,
+		event_type: 'lint',
+		client_payload: {
+			ref: pr.head.sha,
+			pr: pr.number,
+		},
+	});
 
 	// Cool, now delete the branch again.
 	await git.checkout('main');
