@@ -21,6 +21,7 @@ jobs:
       SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
       STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
       # GITHUB_TOKEN: ${{ secrets.STEX_BOT_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_OWNER: ${{ github.repository_owner }}
       GITHUB_REPO: ${{ github.event.repository.name }}
 
