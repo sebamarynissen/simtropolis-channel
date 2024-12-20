@@ -3,7 +3,7 @@ name: Lint
 on:
   push:
     branches:
-      - package/*
+      - 'package/*'
 
 jobs:
   lint:
