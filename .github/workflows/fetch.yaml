@@ -74,6 +74,7 @@ jobs:
         id: lint
         uses: memo33/sc4pac-actions/actions/lint@main
       - name: Set status
+        if: always()
         uses: actions/github-script@v7
         with:
           script: |
@@ -86,3 +87,6 @@ jobs:
               description: 'Lint successful',
               target_url: `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${process.env.GITHUB_RUN_ID}`
             });
+
+      - name: Merge PR
+        run: gh pr merge ${{ matrix.pr.number }} --merge
