@@ -20,7 +20,7 @@ jobs:
     env:
       SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
       STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
-      GITHUB_TOKEN: ${{ secrets.STEX_BOT_TOKEN }}
+      # GITHUB_TOKEN: ${{ secrets.STEX_BOT_TOKEN }}
       GITHUB_OWNER: ${{ github.repository_owner }}
       GITHUB_REPO: ${{ github.event.repository.name }}
 
@@ -31,9 +31,8 @@ jobs:
           node-version-file: package.json
       - name: Configure Git user
         run: |
-          git remote set-url origin https://${{ env.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}.git
-          git config --global user.name "Sebastiaan Marynissen"
-          git config --global user.email "sebastiaan.marynissen@gmail.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@user.noreply.github.com"
       - run: npm ci
       - id: fetch
         uses: ./actions/fetch
