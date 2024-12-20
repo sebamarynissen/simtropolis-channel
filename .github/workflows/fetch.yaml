@@ -33,7 +33,7 @@ jobs:
           node-version-file: package.json
       - name: Configure Git user
         run: |
-          git remote set-url origin https://${{ env.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.env.repository.name }}.git
+          git remote set-url origin https://${{ env.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}.git
           git config --global user.name "${{ github.repository_owner }}"
           git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
       - run: npm ci
