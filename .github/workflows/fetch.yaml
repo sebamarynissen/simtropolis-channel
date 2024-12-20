@@ -57,7 +57,7 @@ jobs:
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              sha: '${{ matrix.pr.sha }}',
+              sha: '${{ matrix.pr.ref }}',
               state: 'pending',
               context: 'repository_dispatch',
               description: 'Running lint',
@@ -78,7 +78,7 @@ jobs:
             await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              sha: '${{ matrix.pr.sha }}',
+              sha: '${{ matrix.pr.ref }}',
               state: '${{ steps.lint.outcome }}',
               context: 'repository_dispatch',
               description: 'Lint successful',

@@ -48,7 +48,7 @@ async function handleResult(result) {
 	await git.push('origin', result.branch);
 	spinner.succeed();
 
-	// If no PR existeed yet, then we have to push the branch. Otherwise it will 
+	// If no PR existed yet, then we have to push the branch. Otherwise it will 
 	// be handled for us.
 	if (!pr) {
 		let spinner = ora('Creating new PR on GitHub').start();
