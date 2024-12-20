@@ -104,8 +104,6 @@ jobs:
       channel-label: Simtropolis
       deploy-repository: sebamarynissen/simtropolis-channel
       use-stex-api: false
-     secrets:
-       stex-api-key: ${{ secrets.STEX_API_KEY }}
     permissions:
       pages: write
       id-token: write
