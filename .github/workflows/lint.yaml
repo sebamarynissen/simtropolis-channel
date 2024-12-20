@@ -1,6 +1,9 @@
 name: Lint
 
 on:
+  push:
+    branches:
+      - 'package/*'
   repository_dispatch:
     types: [lint]
 
@@ -18,3 +21,16 @@ jobs:
           ref: ${{ github.event.client_payload.ref }}
       - name: Lint
         uses: memo33/sc4pac-actions/actions/lint@main
+      - name: Set status
+        uses: actions/github-script@v6
+        with:
+          script: |
+            await octokit.repos.createCommitStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              sha: context.sha,
+              state: 'success',
+              context: 'repository_dispatch',
+              description: 'Lint successful',
+              target_url: `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${process.env.GITHUB_RUN_ID}`
+            });
