@@ -51,6 +51,7 @@ jobs:
         pr: ${{ fromJson(needs.add-from-simtropolis.outputs.prs) }}
     steps:
       - name: Check out repository
+        id: checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ matrix.pr.ref }}
