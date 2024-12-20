@@ -87,6 +87,7 @@ async function handleResult(result) {
 	return {
 		ref: `refs/pull/${pr.number}/merge`,
 		number: pr.number,
+		sha: pr.head.sha,
 	};
 
 }
