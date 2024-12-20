@@ -71,7 +71,7 @@ async function handleResult(result) {
 		});
 		spinner.succeed();
 	} else {
-		({ date: pr } = await octokit.pulls.get({
+		({ data: pr } = await octokit.pulls.get({
 			owner,
 			repo,
 			pull_number: pr.number,
