@@ -26,18 +26,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        # Explicitly checkout the main branch because the commit that triggered 
-        # the former workflow does not yet include the latest metadata! It's the 
-        # former action that has committed that new metadata!
         with:
-          ref: main
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version-file: package.json
       - name: Configure Git user
         run: |
-          git config --global user.name "simtropolis-bot"
-          git config --global user.email "simtropolis-bot@users.noreply.github.com"
+          git remote set-url origin https://${{ GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}//${{ github.env.repository.name }}
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
       - run: npm ci
       - id: fetch
         uses: ./actions/fetch
