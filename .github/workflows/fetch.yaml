@@ -21,7 +21,6 @@ jobs:
     env:
       SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
       STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
-      # GITHUB_TOKEN: ${{ secrets.STEX_BOT_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_OWNER: ${{ github.repository_owner }}
       GITHUB_REPO: ${{ github.event.repository.name }}
@@ -73,6 +72,8 @@ jobs:
       - name: Lint
         id: lint
         uses: memo33/sc4pac-actions/actions/lint@main
+        with:
+          path: src/yaml
       - name: Set status
         if: always()
         uses: actions/github-script@v7
@@ -90,3 +91,20 @@ jobs:
 
       - name: Merge PR
         run: gh pr merge ${{ matrix.pr.number }} --merge
+
+  deploy:
+    needs: lint
+    runs-on: ubuntu-latest
+    if: ${{ needs.matrix-job.result == 'success' }}
+    uses: sebamarynissen/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
+    with:
+      ref: main
+      path: src/yaml
+      channel-label: Simtropolis
+      deploy-repository: sebamarynissen/simtropolis-channel
+      use-stex-api: false
+    secrets:
+      stex-api-key: ${{ secrets.STEX_API_KEY }}
+    permissions:
+      pages: write
+      id-token: write
