@@ -94,7 +94,7 @@ export default async function create(result) {
 	// First of all, we have to commit & push the "LAST_RUN" file to main 
 	// branch. No PR needed for this of course.
 	await git.add('LAST_RUN');
-	await git.commit(result.timestamp);
+	await git.commit('`'+new Date(result.timestamp).toISOString().slice(0, 19)+'Z`');
 	await git.push('origin', 'main');
 
 	// At this point, we assume that the repository is on the main branch, but 
