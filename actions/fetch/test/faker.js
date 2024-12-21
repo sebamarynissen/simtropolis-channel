@@ -1,4 +1,5 @@
 // # faker.js
+import { slugify } from '../util.js';
 import { faker } from '@faker-js/faker';
 
 // # file(file)
@@ -29,7 +30,7 @@ export function upload(upload = {}) {
 		files = 1,
 		id = faker.number.int(1_000_000),
 		title = faker.company.name(),
-		aliasEntry = faker.helpers.slugify(title).toLowerCase(),
+		aliasEntry = slugify(title),
 		updated = faker.date.past(),
 		submitted = faker.date.past({ refDate: updated }),
 		images = faker.number.int(5),
@@ -40,7 +41,12 @@ export function upload(upload = {}) {
 		files = new Array(files).fill();
 	}
 	if (typeof images === 'number') {
-		images = new Array(images).fill().map(() => faker.internet.url());
+		images = new Array(images).fill().map(() => {
+			return new URL(
+				faker.system.commonFileName('jpg'),
+				faker.internet.url(),
+			).href;
+		});
 	}
 	return {
 		id,

@@ -2,20 +2,29 @@
 import { expect } from 'chai';
 import { Document, parseAllDocuments } from 'yaml';
 import yazl from 'yazl';
+import { Volume } from 'memfs';
+import { marked } from 'marked';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
-import { Volume } from 'memfs';
 import * as faker from './faker.js';
-import { marked } from 'marked';
 
 describe('The fetch action', function() {
 
 	before(function() {
 		this.slow(1000);
 
-		this.setup = async function(testOptions) {
+		this.setup = function(testOptions) {
 
-			const { uploads } = testOptions;
+			const { uploads, lastFetch } = testOptions;
+
+			// Setup a virtual file system where the files reside.
+			let fs = Volume.fromJSON();
+			fs.writeFileSync('/permissions.yaml', '');
+
+			// Populate the file where we store when the last file was fetched.
+			if (lastFetch) {
+				fs.writeFileSync('/LAST_FETCH', lastFetch);
+			}
 
 			// We'll mock the global "fetch" method so that we can mock the api 
 			// & download responses.
@@ -93,29 +102,29 @@ describe('The fetch action', function() {
 
 			};
 
+			async function run(opts) {
+				let results = await action({
+					fs,
+					cwd: '/',
+					...opts,
+				});
+				return {
+					fs,
+					read(file) {
+						let contents = fs.readFileSync(file).toString();
+						return parseAllDocuments(contents).map(doc => doc.toJSON());
+					},
+					results,
+					result: results[0],
+				};
+			};
+
+			return { fs, run };
+
 		};
 
 		this.date = function(date) {
 			return date.replace(' ', 'T')+'Z';
-		};
-
-		this.run = async function(opts) {
-			let fs = Volume.fromJSON();
-			fs.writeFileSync('/permissions.yaml', '');
-			let results = await action({
-				fs,
-				cwd: '/',
-				...opts,
-			});
-			return {
-				fs,
-				read(file) {
-					let contents = fs.readFileSync(file).toString();
-					return parseAllDocuments(contents).map(doc => doc.toJSON());
-				},
-				results,
-				result: results[0],
-			};
 		};
 
 	});
@@ -123,13 +132,14 @@ describe('The fetch action', function() {
 	it('a package with an empty metadata.yaml', async function() {
 
 		let upload = faker.upload({
+			cid: 101,
 			author: 'smf_16',
 			title: 'SMF Tower',
 			release: '1.0.2',
 		});
-		this.setup({ uploads: [upload] });
+		const { run } = this.setup({ uploads: [upload] });
 
-		let { read, result } = await this.run({ id: 5364 });
+		let { read, result } = await run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-smf-tower');
 		expect(result.title).to.equal('`smf-16:smf-tower@1.0.2`');
 		expect(result.files).to.eql([
@@ -141,6 +151,7 @@ describe('The fetch action', function() {
 			group: 'smf-16',
 			name: 'smf-tower',
 			version: upload.release,
+			subfolder: '200-residential',
 			info: {
 				summary: upload.title,
 				description: upload.description,
@@ -180,9 +191,9 @@ describe('The fetch action', function() {
 				},
 			],
 		});
-		this.setup({ uploads: [upload] });
+		const { run } = this.setup({ uploads: [upload] });
 
-		let { read } = await this.run({ id: 5364 });
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
@@ -223,9 +234,9 @@ describe('The fetch action', function() {
 			],
 		});
 
-		this.setup({ uploads: [upload] });
+		const { run } = this.setup({ uploads: [upload] });
 
-		let { read } = await this.run({ id: 5364 });
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
@@ -277,7 +288,7 @@ describe('The fetch action', function() {
 
 	it('a package with driveside variants', async function() {
 
-		this.setup({
+		const { run } = this.setup({
 			uploads: [{
 				id: 5364,
 				uid: 259789,
@@ -307,7 +318,7 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read } = await this.run({ id: 5364 });
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
@@ -356,7 +367,7 @@ describe('The fetch action', function() {
 
 	it('a package which interpolates variables', async function() {
 
-		this.setup({
+		const { run } = this.setup({
 			uploads: [{
 				id: 5364,
 				uid: 259789,
@@ -384,7 +395,7 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read } = await this.run({ id: 5364 });
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/github/smf-github-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'github',
@@ -412,7 +423,7 @@ describe('The fetch action', function() {
 
 	it('a package that is split in resources and lots', async function() {
 
-		this.setup({
+		const { run } = this.setup({
 			uploads: [{
 				id: 2145,
 				uid: 145,
@@ -460,7 +471,7 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read, result } = await this.run({ id: 5364 });
+		let { read, result } = await run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-st-residences');
 		expect(result.title).to.equal('`smf-16:st-residences@2.0.0`');
 		expect(result.files).to.eql([
@@ -506,7 +517,29 @@ describe('The fetch action', function() {
 
 	});
 
-	it.only('fetches all files from the STEX api since the last fetch date if no id was specified', function() {
+	it('handles uses with periods in their username', async function() {
+
+		let upload = faker.upload({
+			author: 'some.user',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata.package.group).to.equal('some-user');
+
+	});
+
+	it('handles titles with exotic structure', async function() {
+
+		let upload = faker.upload({
+			title: 'Jast, O\'Conner and Cremin',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata.package.name).to.equal('jast-o-conner-and-cremin');
+
+	});
+
+	it('fetches all files from the STEX api since the last fetch date if no id was specified', async function() {
 
 		let uploads = faker.uploads([
 			'2024-12-21T14:00:00Z',
@@ -514,12 +547,22 @@ describe('The fetch action', function() {
 			'2024-12-20T12:00:00Z',
 			'2024-11-30T17:00:00Z',
 		]);
-		this.setup({
+		let lastFetch = '2024-12-21T12:00:00Z';
+		const { run, fs } = this.setup({
 			uploads,
-			lastFetched: '2024-12-21:T12:00:00Z',
+			lastFetch,
 		});
 
+		const { results } = await run();
+		expect(results).to.have.length(1);
+		expect(results[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
+
+		let updated = fs.readFileSync('/LAST_FETCH').toString();
+		expect(Date.parse(updated)).to.be.above(Date.parse(lastFetch));
+
 	});
+
+	it('does not update the LAST_FETCH file when Simtropolis is unavailable');
 
 });
 
