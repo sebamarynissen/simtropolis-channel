@@ -6,7 +6,7 @@ on:
     inputs:
       url:
         description: URL or file id
-        required: true
+        required: false
       require-metadata:
         description: Require metadata.yaml
         type: boolean
