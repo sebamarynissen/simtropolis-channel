@@ -16,6 +16,7 @@ const MS_DAY = 24*3600e3;
 // Main entrypoint for fetching the latest plugins released from the STEX.
 export default async function fetchPackage(opts) {
 	let {
+		id,
 		fs = nodeFs,
 		cwd = process.env.GITHUB_WORKSPACE ?? process.cwd(),
 		after,
@@ -31,7 +32,6 @@ export default async function fetchPackage(opts) {
 	// uploads from the api, but only request the specified file. Useful for 
 	// manually retriggering files.
 	let storeLastRun = true;
-	let { id } = opts;
 	if (id) {
 		if (String(id).startsWith('https://')) {
 			id = urlToFileId(id);
