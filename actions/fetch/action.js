@@ -10,4 +10,4 @@ const result = await fetch({
 	requireMetadata,
 });
 
-await createPRs(result.packages);
+await createPRs(result);

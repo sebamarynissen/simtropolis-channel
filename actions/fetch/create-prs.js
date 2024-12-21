@@ -87,14 +87,14 @@ async function handleResult(result) {
 
 }
 
-// # create(results)
+// # create(result)
 // Creates or updates PRs for all the packages that have been created.
-export default async function create(results) {
+export default async function create(result) {
 
 	// First of all, we have to commit & push the "LAST_RUN" file to main 
 	// branch. No PR needed for this of course.
 	await git.add('LAST_RUN');
-	await git.commit('Update last run');
+	await git.commit(result.timestamp);
 	await git.push('origin', 'main');
 
 	// At this point, we assume that the repository is on the main branch, but 
@@ -104,9 +104,9 @@ export default async function create(results) {
 	// later on. Might be a way to do this natively with Git, but it has proven 
 	// to be extremely hard, lol.
 	await git.add('.');
-	for (let result of results) {
+	for (let pkg of pkg.packages) {
 		let files = [];
-		for (let name of result.files) {
+		for (let name of pkg.files) {
 			let fullPath = path.join(process.env.GITHUB_WORKSPACE, name);
 			let contents = await fs.promises.readFile(fullPath);
 			files.push({
@@ -115,7 +115,7 @@ export default async function create(results) {
 				contents,
 			});
 		}
-		result.files = files;
+		pkg.files = files;
 	}
 
 	// Reset the repository to a clean state again.
@@ -133,10 +133,10 @@ export default async function create(results) {
 
 	// Create PR's and update branches for every result.
 	let output = [];
-	for (let result of results) {
+	for (let pkg of result.packages) {
 		let pr = await handleResult({
-			pr: prs.find(pr => pr.head.ref === result.branch),
-			...result,
+			pr: prs.find(pr => pr.head.ref === pkg.branch),
+			...pkg,
 		});
 		output.push(pr);
 	}
