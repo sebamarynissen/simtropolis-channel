@@ -20,6 +20,7 @@ export default async function fetchPackage(opts) {
 		cwd = process.env.GITHUB_WORKSPACE ?? process.cwd(),
 		after,
 		now = Date.now(),
+		lastRunFile = 'LAST_RUN',
 	} = opts;
 
 	// Build up the url.
@@ -29,7 +30,7 @@ export default async function fetchPackage(opts) {
 	// If an id is given, then we will not check when we fetched the latest 
 	// uploads from the api, but only request the specified file. Useful for 
 	// manually retriggering files.
-	let storeLastFetch = true;
+	let storeLastRun = true;
 	let { id } = opts;
 	if (id) {
 		if (String(id).startsWith('https://')) {
@@ -39,7 +40,7 @@ export default async function fetchPackage(opts) {
 
 		// Now set "after" to somewhere very far in the past so that we don't 
 		// accidentally filter out the specific file later on.
-		storeLastFetch = false;
+		storeLastRun = false;
 		after = -Infinity;
 
 	} else if (!after) {
@@ -50,7 +51,7 @@ export default async function fetchPackage(opts) {
 			// specifying an amount of days to go back. It's not really clear 
 			// whether this means 24 hours, so we'll use a bit of leeway and 
 			// then just filter it out later on.
-			let filePath = path.join(cwd, 'LAST_FETCH');
+			let filePath = path.join(cwd, lastRunFile);
 			let contents = String(await fs.promises.readFile(filePath));
 			after = Date.parse(contents);
 			let days = Math.ceil((+now - after) / MS_DAY)+1;
@@ -72,7 +73,7 @@ export default async function fetchPackage(opts) {
 
 	// Fetch from the api.
 	// TODO: handle various STEX errors here.
-	let lastFetch = new Date().toISOString();
+	let lastRun = new Date().toISOString();
 	let res = await fetch(url);
 	if (res.status >= 400) {
 		throw new Error(`Simtropolis returned ${res.status}!`);
@@ -121,11 +122,11 @@ export default async function fetchPackage(opts) {
 
 	// Update the timestamp that we last fetched the stex api, but only if not 
 	// explicitly requesting a specific file!
-	if (storeLastFetch) {
-		await fs.promises.writeFile(path.join(cwd, 'LAST_FETCH'), lastFetch);
+	if (storeLastRun) {
+		await fs.promises.writeFile(path.join(cwd, lastRunFile), lastRun);
 	}
 	return {
-		timestamp: lastFetch,
+		timestamp: lastRun,
 		packages,
 	};
 

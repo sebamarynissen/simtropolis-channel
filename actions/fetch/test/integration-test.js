@@ -23,7 +23,7 @@ describe('The fetch action', function() {
 
 			// Populate the file where we store when the last file was fetched.
 			if (lastFetch) {
-				fs.writeFileSync('/LAST_FETCH', lastFetch);
+				fs.writeFileSync('/LAST_RUN', lastFetch);
 			}
 
 			// We'll mock the global "fetch" method so that we can mock the api 
@@ -557,12 +557,12 @@ describe('The fetch action', function() {
 		expect(results).to.have.length(1);
 		expect(results[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
 
-		let updated = fs.readFileSync('/LAST_FETCH').toString();
+		let updated = fs.readFileSync('/LAST_RUN').toString();
 		expect(Date.parse(updated)).to.be.above(Date.parse(lastFetch));
 
 	});
 
-	it('does not update the LAST_FETCH file when Simtropolis is unavailable');
+	it('does not update the LAST_RUN file when Simtropolis is unavailable');
 
 });
 
