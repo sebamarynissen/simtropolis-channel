@@ -91,6 +91,12 @@ async function handleResult(result) {
 // Creates or updates PRs for all the packages that have been created.
 export default async function create(results) {
 
+	// First of all, we have to commit & push the "LAST_RUN" file to main 
+	// branch. No PR needed for this of course.
+	await git.add('LAST_RUN');
+	await git.commit('Update last run');
+	await git.push('origin', 'main');
+
 	// At this point, we assume that the repository is on the main branch, but 
 	// not in a clean state, meaning the added files are in the src/yaml file. 
 	// However, we will need to fetch the branch of existing repos one by one, 
