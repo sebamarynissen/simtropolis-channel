@@ -2,18 +2,33 @@
 import { expect } from 'chai';
 import { Document, parseAllDocuments } from 'yaml';
 import yazl from 'yazl';
+import { Volume } from 'memfs';
+import { marked } from 'marked';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
-import { Volume } from 'memfs';
+import * as faker from './faker.js';
 
 describe('The fetch action', function() {
 
 	before(function() {
 		this.slow(1000);
 
-		this.setup = async function(testOptions) {
+		this.setup = function(testOptions) {
 
-			const { uploads } = testOptions;
+			const {
+				uploads,
+				lastFetch,
+				now = Date.now(),
+			} = testOptions;
+
+			// Setup a virtual file system where the files reside.
+			let fs = Volume.fromJSON();
+			fs.writeFileSync('/permissions.yaml', '');
+
+			// Populate the file where we store when the last file was fetched.
+			if (lastFetch) {
+				fs.writeFileSync('/LAST_RUN', lastFetch);
+			}
 
 			// We'll mock the global "fetch" method so that we can mock the api 
 			// & download responses.
@@ -24,11 +39,25 @@ describe('The fetch action', function() {
 				let parsedUrl = new URL(url);
 				let { pathname, searchParams } = parsedUrl;
 				if (pathname.startsWith('/stex/files-api.php')) {
-					return new Response(JSON.stringify(testOptions.uploads), {
+
+					// If a days parameter was specified, we have to filter out 
+					// the files updated before that threshold.
+					let after = -Infinity;
+					if (searchParams.has('days')) {
+						let days = +searchParams.get('days');
+						let ms = days * 24*3600e3;
+						after = +now - ms;
+					}
+					let filtered = uploads.filter(upload => {
+						let iso = upload.updated.replace(' ', 'T')+'Z';
+						return Date.parse(iso) > after;
+					});
+					return new Response(JSON.stringify(filtered), {
 						headers: {
 							'Content-Type': 'application/json',
 						},
 					});
+
 				}
 
 				// Check if this is a scraping request, or a file download 
@@ -78,7 +107,7 @@ describe('The fetch action', function() {
 							<body>
 								<div>
 									<h2>About this file</h2>
-									<section><div>${description}</div></section>
+									<section><div>${marked(description)}</div></section>
 								</div>
 								<ul class="cDownloadsCarousel">${html}</ul>
 							</body>
@@ -91,61 +120,44 @@ describe('The fetch action', function() {
 
 			};
 
+			async function run(opts) {
+				let result = await action({
+					fs,
+					cwd: '/',
+					...opts,
+				});
+				return {
+					fs,
+					read(file) {
+						let contents = fs.readFileSync(file).toString();
+						return parseAllDocuments(contents).map(doc => doc.toJSON());
+					},
+					results: result.packages,
+					result: result.packages[0],
+				};
+			};
+
+			return { fs, run };
+
 		};
 
-		this.run = async function(opts) {
-			let fs = Volume.fromJSON();
-			fs.writeFileSync('/permissions.yaml', '');
-			let results = await action({
-				fs,
-				cwd: '/',
-				...opts,
-			});
-			return {
-				fs,
-				read(file) {
-					let contents = fs.readFileSync(file).toString();
-					return parseAllDocuments(contents).map(doc => doc.toJSON());
-				},
-				results,
-				result: results[0],
-			};
+		this.date = function(date) {
+			return date.replace(' ', 'T')+'Z';
 		};
 
 	});
 
 	it('a package with an empty metadata.yaml', async function() {
 
-		this.setup({
-			uploads: [{
-				id: 5364,
-				uid: 259789,
-				cid: 100,
-				author: 'smf_16',
-				title: 'SMF Tower',
-				aliasEntry: 'smf-tower',
-				release: '1.0.2',
-				submitted: '2024-12-19 04:24:08',
-				updated: '2024-12-19 04:24:08',
-				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
-				files: [
-					{
-						id: 12345,
-						name: 'SMF Tower.zip',
-						contents: {
-							'metadata.yaml': '',
-						},
-					},
-				],
-				images: [
-					'https://imageshack.us/image.png',
-					'https://community.simtropolis.com/image.jpg',
-				],
-			}],
+		let upload = faker.upload({
+			cid: 101,
+			author: 'smf_16',
+			title: 'SMF Tower',
+			release: '1.0.2',
 		});
+		const { run } = this.setup({ uploads: [upload] });
 
-		let { read, result } = await this.run({ id: 5364 });
+		let { read, result } = await run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-smf-tower');
 		expect(result.title).to.equal('`smf-16:smf-tower@1.0.2`');
 		expect(result.files).to.eql([
@@ -156,15 +168,13 @@ describe('The fetch action', function() {
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
 			name: 'smf-tower',
-			version: '1.0.2',
+			version: upload.release,
+			subfolder: '200-residential',
 			info: {
-				summary: 'SMF Tower',
-				description: 'This is the description',
-				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [
-					'https://community.simtropolis.com/image.jpg',
-					'https://imageshack.us/image.png',
-				],
+				summary: upload.title,
+				description: upload.description,
+				website: upload.fileURL,
+				images: upload.images,
 				author: 'smf_16',
 			},
 			assets: [
@@ -173,59 +183,45 @@ describe('The fetch action', function() {
 		});
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12345',
+			lastModified: upload.updated.replace(' ', 'T')+'Z',
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[0].id}`,
 		});
 
 	});
 
 	it('a package with custom dependencies', async function() {
 
-		this.setup({
-			uploads: [{
-				id: 5364,
-				uid: 259789,
-				cid: 100,
-				author: 'smf_16',
-				title: 'SMF Tower',
-				aliasEntry: 'smf-tower',
-				release: '1.0.2',
-				submitted: '2024-12-19 04:24:08',
-				updated: '2024-12-19 04:24:08',
-				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
-				files: [
-					{
-						id: 12345,
-						name: 'SMF Tower.zip',
-						contents: {
-							'metadata.yaml': {
-								info: {
-									description: 'Custom description',
-								},
-								dependencies: [
-									'memo:submenus-dll',
-									'bsc:mega-props-cp-vol01',
-								],
-							},
+		let upload = faker.upload({
+			author: 'smf_16',
+			title: 'SMF Tower',
+			files: [
+				{
+					metadata: {
+						info: {
+							description: 'Custom description',
 						},
+						dependencies: [
+							'memo:submenus-dll',
+							'bsc:mega-props-cp-vol01',
+						],
 					},
-				],
-			}],
+				},
+			],
 		});
+		const { run } = this.setup({ uploads: [upload] });
 
-		let { read } = await this.run({ id: 5364 });
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
 			name: 'smf-tower',
-			version: '1.0.2',
+			version: upload.release,
 			info: {
-				summary: 'SMF Tower',
+				summary: upload.title,
 				description: 'Custom description',
-				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [],
+				website: upload.fileURL,
+				images: upload.images,
 				author: 'smf_16',
 			},
 			dependencies: [
@@ -238,56 +234,37 @@ describe('The fetch action', function() {
 		});
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12345',
+			lastModified: upload.updated.replace(' ', 'T')+'Z',
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[0].id}`,
 		});
 
 	});
 
 	it('a package with MN and DN variants', async function() {
 
-		this.setup({
-			uploads: [{
-				id: 5364,
-				uid: 259789,
-				cid: 100,
-				author: 'smf_16',
-				title: 'SMF Tower',
-				aliasEntry: 'smf-tower',
-				release: '1.0.2',
-				submitted: '2024-12-19 04:24:08',
-				updated: '2024-12-19 04:24:08',
-				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
-				files: [
-					{
-						id: 12345,
-						name: 'SMF Tower (MN).zip',
-						contents: {
-							'metadata.yaml': '',
-						},
-					},
-					{
-						id: 12346,
-						name: 'SMF Tower (DN).zip',
-						contents: {},
-					},
-				],
-			}],
+		let upload = faker.upload({
+			author: 'smf_16',
+			title: 'SMF Tower',
+			files: [
+				'SMF Tower (MN).zip',
+				'SMF Tower (DN).zip',
+			],
 		});
 
-		let { read } = await this.run({ id: 5364 });
+		const { run } = this.setup({ uploads: [upload] });
+
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
 			name: 'smf-tower',
-			version: '1.0.2',
+			version: upload.release,
 			info: {
-				summary: 'SMF Tower',
-				description: 'This is the description',
-				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [],
+				summary: upload.title,
+				description: upload.description,
+				website: upload.fileURL,
+				images: upload.images,
 				author: 'smf_16',
 			},
 			variants: [
@@ -314,22 +291,22 @@ describe('The fetch action', function() {
 		});
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower-maxisnite',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12345',
+			lastModified: this.date(upload.updated),
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[0].id}`,
 		});
 		expect(metadata[2]).to.eql({
 			assetId: 'smf-16-smf-tower-darknite',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12346',
+			lastModified: this.date(upload.updated),
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[1].id}`,
 		});
 
 	});
 
 	it('a package with driveside variants', async function() {
 
-		this.setup({
+		const { run } = this.setup({
 			uploads: [{
 				id: 5364,
 				uid: 259789,
@@ -359,7 +336,7 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read } = await this.run({ id: 5364 });
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
@@ -408,7 +385,7 @@ describe('The fetch action', function() {
 
 	it('a package which interpolates variables', async function() {
 
-		this.setup({
+		const { run } = this.setup({
 			uploads: [{
 				id: 5364,
 				uid: 259789,
@@ -436,7 +413,7 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read } = await this.run({ id: 5364 });
+		let { read } = await run({ id: 5364 });
 		let metadata = read('/src/yaml/github/smf-github-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'github',
@@ -464,7 +441,7 @@ describe('The fetch action', function() {
 
 	it('a package that is split in resources and lots', async function() {
 
-		this.setup({
+		const { run } = this.setup({
 			uploads: [{
 				id: 2145,
 				uid: 145,
@@ -512,7 +489,7 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read, result } = await this.run({ id: 5364 });
+		let { read, result } = await run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-st-residences');
 		expect(result.title).to.equal('`smf-16:st-residences@2.0.0`');
 		expect(result.files).to.eql([
@@ -557,6 +534,53 @@ describe('The fetch action', function() {
 		});
 
 	});
+
+	it('handles uses with periods in their username', async function() {
+
+		let upload = faker.upload({
+			author: 'some.user',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata.package.group).to.equal('some-user');
+
+	});
+
+	it('handles titles with exotic structure', async function() {
+
+		let upload = faker.upload({
+			title: 'Jast, O\'Conner and Cremin',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata.package.name).to.equal('jast-o-conner-and-cremin');
+
+	});
+
+	it('fetches all files from the STEX api since the last fetch date if no id was specified', async function() {
+
+		let uploads = faker.uploads([
+			'2024-12-21T14:00:00Z',
+			'2024-12-21T11:00:00Z',
+			'2024-12-20T12:00:00Z',
+			'2024-11-30T17:00:00Z',
+		]);
+		let lastFetch = '2024-12-21T12:00:00Z';
+		const { run, fs } = this.setup({
+			uploads,
+			lastFetch,
+		});
+
+		const { results } = await run();
+		expect(results).to.have.length(1);
+		expect(results[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
+
+		let updated = fs.readFileSync('/LAST_RUN').toString();
+		expect(Date.parse(updated)).to.be.above(Date.parse(lastFetch));
+
+	});
+
+	it('does not update the LAST_RUN file when Simtropolis is unavailable');
 
 });
 

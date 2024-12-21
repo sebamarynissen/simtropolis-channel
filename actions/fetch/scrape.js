@@ -6,7 +6,7 @@ import parseDescription from './parse-description.js';
 // Currently the STEX api does not include the description, nor images. Hence we 
 // still use a scraping approach for now.
 export default async function scrape(url) {
-	let spinner = ora(`Scraping ${url}...`).start();
+	let spinner = ora(`Scraping ${url}`).start();
 	let res = await fetch(url);
 	if (res.status >= 400) {
 		throw new Error(`HTTP ${res.status}`);

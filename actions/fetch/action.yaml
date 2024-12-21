@@ -2,8 +2,8 @@ name: fetch-from-simtropolis
 description: Fetches a file from Simtropolis and generates metadata from it
 inputs:
   url:
-    description: The url to parse the medata from
-    required: true
+    description: File id or url. If not specified, fetches all files since the last run.
+    optional: true
   require-metadata:
     description: Whether a metadata.yaml file is required to add the package. Useful to turn this off for testing.
     type: boolean

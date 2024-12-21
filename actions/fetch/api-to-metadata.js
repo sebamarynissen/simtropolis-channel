@@ -63,7 +63,7 @@ function getAssetSuffix(file, index, json) {
 	if (json.files.length < 2) return '';
 
 	// Normalize the filename to get the suffix.
-	let slug = slugify(file.name);
+	let slug = file.name.toLowerCase();
 	let name = path.basename(slug, path.extname(slug));
 	if (/dark\s?ni(te|ght)/.test(name)) return 'darknite';
 	if (/maxis\s?ni(te|ght)/.test(name)) return 'maxisnite';

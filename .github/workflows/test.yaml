@@ -1,13 +1,17 @@
 name: JavaScript tests
 on:
   push:
+    paths:
+      - 'actions/**'
     branches:
       - main
   # If we're using pull requests to generate the packages as well, we have to 
   # specify to not run the JS tests on package pull requests.
   pull_request:
+    paths:
+      - 'actions/**'
     branches:
-      - 'feature/*'
+      - main
 
 jobs:
   test:

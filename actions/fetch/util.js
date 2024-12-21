@@ -1,8 +1,11 @@
 // # slugify(name)
-// Converts the name of the author into a slugged version.
+// Converts an author's name or a package title into a format that sc4pac 
+// accepts as group and package names. See https://memo33.github.io/
+// sc4pac/#/metadata?id=group for the spec: anything non alphanumeric should 
+// become hyphenated.
 export function slugify(name) {
 	let lc = name.toLowerCase();
-	return lc.replaceAll(/[\s_]+/g, '-');
+	return lc.replaceAll(/[^a-z0-9]+/g, '-');
 }
 
 // # urlToFileId(href)

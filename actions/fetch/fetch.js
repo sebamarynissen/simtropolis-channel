@@ -10,23 +10,70 @@ import scrape from './scrape.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
 const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
+const MS_DAY = 24*3600e3;
 
 // # fetch(opts)
+// Main entrypoint for fetching the latest plugins released from the STEX.
 export default async function fetchPackage(opts) {
-
-	// If the id given is a url, extract the id from it.
-	let { id } = opts;
-	if (String(id).startsWith('https://')) {
-		id = urlToFileId(id);
-	}
+	let {
+		id,
+		fs = nodeFs,
+		cwd = process.env.GITHUB_WORKSPACE ?? process.cwd(),
+		after,
+		now = Date.now(),
+		lastRunFile = 'LAST_RUN',
+	} = opts;
 
 	// Build up the url.
 	const url = new URL(endpoint);
 	url.searchParams.set('key', process.env.STEX_API_KEY);
-	url.searchParams.set('id', id);
+
+	// If an id is given, then we will not check when we fetched the latest 
+	// uploads from the api, but only request the specified file. Useful for 
+	// manually retriggering files.
+	let storeLastRun = true;
+	if (id) {
+		if (String(id).startsWith('https://')) {
+			id = urlToFileId(id);
+		}
+		url.searchParams.set('id', id);
+
+		// Now set "after" to somewhere very far in the past so that we don't 
+		// accidentally filter out the specific file later on.
+		storeLastRun = false;
+		after = -Infinity;
+
+	} else if (!after) {
+		try {
+
+			// Unfortunately the STEX api does not support passing in an exact 
+			// date - to check if this could be added. It only supports 
+			// specifying an amount of days to go back. It's not really clear 
+			// whether this means 24 hours, so we'll use a bit of leeway and 
+			// then just filter it out later on.
+			let filePath = path.join(cwd, lastRunFile);
+			let contents = String(await fs.promises.readFile(filePath));
+			after = Date.parse(contents);
+			let days = Math.ceil((+now - after) / MS_DAY)+1;
+			url.searchParams.set('days', days);
+
+		} catch (e) {
+
+			// If the file was not found, we'll only fetch the last day. This 
+			// should only happen the very first time we run this.
+			if (e.code === 'ENOENT') {
+				url.searchParams.set('days', 1);
+				after = -Infinity;
+			} else {
+				throw e;
+			}
+		}
+
+	}
 
 	// Fetch from the api.
-	// TODO: handle errors here.
+	// TODO: handle various STEX errors here.
+	let lastRun = new Date().toISOString();
 	let res = await fetch(url);
 	if (res.status >= 400) {
 		throw new Error(`Simtropolis returned ${res.status}!`);
@@ -37,11 +84,7 @@ export default async function fetchPackage(opts) {
 	}
 
 	// Handle all files one by one to not flood Simtropolis.
-	const {
-		fs = nodeFs,
-		cwd = process.env.GITHUB_WORKSPACE ?? process.cwd(),
-	} = opts;
-	let results = [];
+	let packages = [];
 	let data = parse(await fs.promises.readFile(path.join(cwd, 'permissions.yaml'))+'');
 	let permissions = new Permissions(data);
 	let handleOptions = {
@@ -50,21 +93,50 @@ export default async function fetchPackage(opts) {
 		permissions,
 	};
 	for (let obj of json) {
+
+		// Discard objects that we have already processed based on the "after" 
+		// parameter.
+		let updated = parseDate(obj.updated);
+		if (updated.getTime() < after) continue;
+
+		// Check whether the creator is allowed to publish files on the STEX 
+		// channel. We don't create a failing PR in this case, but we do log the 
+		// results in the action so that we can inspect on GitHub what happened.
 		if (!permissions.isUploadAllowed(obj)) {
 			console.log(`Creator of ${obj.fileURL} is not allowed to add a plugin to the channel.`);
 			continue;
 		}
+
+		// Cool, try to handle the file now. Again, errors will be logged, but 
+		// no PR will be created for them.
 		let result = await handleFile(obj, handleOptions);
 		if (result) {
 			if (result.error) {
 				console.log(result.error.message);
 				continue;
 			}
-			results.push(result);
+			packages.push(result);
 		}
-	}
-	return results;
 
+	}
+
+	// Update the timestamp that we last fetched the stex api, but only if not 
+	// explicitly requesting a specific file!
+	if (storeLastRun) {
+		await fs.promises.writeFile(path.join(cwd, lastRunFile), lastRun);
+	}
+	return {
+		timestamp: lastRun,
+		packages,
+	};
+
+}
+
+// # parseDate(str)
+// Parses a date from a date string included in the stex api response. It 
+// doesn't follow the ISO format for now.
+function parseDate(str) {
+	return new Date(str.replace(' ', 'T')+'Z');
 }
 
 // # handleFile(json)
