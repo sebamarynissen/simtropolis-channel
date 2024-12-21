@@ -103,7 +103,7 @@ describe('The fetch action', function() {
 			};
 
 			async function run(opts) {
-				let results = await action({
+				let result = await action({
 					fs,
 					cwd: '/',
 					...opts,
@@ -114,8 +114,8 @@ describe('The fetch action', function() {
 						let contents = fs.readFileSync(file).toString();
 						return parseAllDocuments(contents).map(doc => doc.toJSON());
 					},
-					results,
-					result: results[0],
+					results: result.packages,
+					result: result.packages[0],
 				};
 			};
 

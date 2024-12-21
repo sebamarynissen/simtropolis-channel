@@ -83,7 +83,7 @@ export default async function fetchPackage(opts) {
 	}
 
 	// Handle all files one by one to not flood Simtropolis.
-	let results = [];
+	let packages = [];
 	let data = parse(await fs.promises.readFile(path.join(cwd, 'permissions.yaml'))+'');
 	let permissions = new Permissions(data);
 	let handleOptions = {
@@ -114,7 +114,7 @@ export default async function fetchPackage(opts) {
 				console.log(result.error.message);
 				continue;
 			}
-			results.push(result);
+			packages.push(result);
 		}
 
 	}
@@ -124,7 +124,10 @@ export default async function fetchPackage(opts) {
 	if (storeLastFetch) {
 		await fs.promises.writeFile(path.join(cwd, 'LAST_FETCH'), lastFetch);
 	}
-	return results;
+	return {
+		timestamp: lastFetch,
+		packages,
+	};
 
 }
 
