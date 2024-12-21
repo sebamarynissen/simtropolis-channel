@@ -5,6 +5,8 @@ import yazl from 'yazl';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
 import { Volume } from 'memfs';
+import * as faker from './faker.js';
+import { marked } from 'marked';
 
 describe('The fetch action', function() {
 
@@ -78,7 +80,7 @@ describe('The fetch action', function() {
 							<body>
 								<div>
 									<h2>About this file</h2>
-									<section><div>${description}</div></section>
+									<section><div>${marked(description)}</div></section>
 								</div>
 								<ul class="cDownloadsCarousel">${html}</ul>
 							</body>
@@ -91,6 +93,10 @@ describe('The fetch action', function() {
 
 			};
 
+		};
+
+		this.date = function(date) {
+			return date.replace(' ', 'T')+'Z';
 		};
 
 		this.run = async function(opts) {
@@ -116,34 +122,12 @@ describe('The fetch action', function() {
 
 	it('a package with an empty metadata.yaml', async function() {
 
-		this.setup({
-			uploads: [{
-				id: 5364,
-				uid: 259789,
-				cid: 100,
-				author: 'smf_16',
-				title: 'SMF Tower',
-				aliasEntry: 'smf-tower',
-				release: '1.0.2',
-				submitted: '2024-12-19 04:24:08',
-				updated: '2024-12-19 04:24:08',
-				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
-				files: [
-					{
-						id: 12345,
-						name: 'SMF Tower.zip',
-						contents: {
-							'metadata.yaml': '',
-						},
-					},
-				],
-				images: [
-					'https://imageshack.us/image.png',
-					'https://community.simtropolis.com/image.jpg',
-				],
-			}],
+		let upload = faker.upload({
+			author: 'smf_16',
+			title: 'SMF Tower',
+			release: '1.0.2',
 		});
+		this.setup({ uploads: [upload] });
 
 		let { read, result } = await this.run({ id: 5364 });
 		expect(result.branch).to.equal('package/smf-16-smf-tower');
@@ -156,15 +140,12 @@ describe('The fetch action', function() {
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
 			name: 'smf-tower',
-			version: '1.0.2',
+			version: upload.release,
 			info: {
-				summary: 'SMF Tower',
-				description: 'This is the description',
-				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [
-					'https://community.simtropolis.com/image.jpg',
-					'https://imageshack.us/image.png',
-				],
+				summary: upload.title,
+				description: upload.description,
+				website: upload.fileURL,
+				images: upload.images,
 				author: 'smf_16',
 			},
 			assets: [
@@ -173,59 +154,45 @@ describe('The fetch action', function() {
 		});
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12345',
+			lastModified: upload.updated.replace(' ', 'T')+'Z',
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[0].id}`,
 		});
 
 	});
 
 	it('a package with custom dependencies', async function() {
 
-		this.setup({
-			uploads: [{
-				id: 5364,
-				uid: 259789,
-				cid: 100,
-				author: 'smf_16',
-				title: 'SMF Tower',
-				aliasEntry: 'smf-tower',
-				release: '1.0.2',
-				submitted: '2024-12-19 04:24:08',
-				updated: '2024-12-19 04:24:08',
-				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
-				files: [
-					{
-						id: 12345,
-						name: 'SMF Tower.zip',
-						contents: {
-							'metadata.yaml': {
-								info: {
-									description: 'Custom description',
-								},
-								dependencies: [
-									'memo:submenus-dll',
-									'bsc:mega-props-cp-vol01',
-								],
-							},
+		let upload = faker.upload({
+			author: 'smf_16',
+			title: 'SMF Tower',
+			files: [
+				{
+					metadata: {
+						info: {
+							description: 'Custom description',
 						},
+						dependencies: [
+							'memo:submenus-dll',
+							'bsc:mega-props-cp-vol01',
+						],
 					},
-				],
-			}],
+				},
+			],
 		});
+		this.setup({ uploads: [upload] });
 
 		let { read } = await this.run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
 			name: 'smf-tower',
-			version: '1.0.2',
+			version: upload.release,
 			info: {
-				summary: 'SMF Tower',
+				summary: upload.title,
 				description: 'Custom description',
-				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [],
+				website: upload.fileURL,
+				images: upload.images,
 				author: 'smf_16',
 			},
 			dependencies: [
@@ -238,56 +205,37 @@ describe('The fetch action', function() {
 		});
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12345',
+			lastModified: upload.updated.replace(' ', 'T')+'Z',
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[0].id}`,
 		});
 
 	});
 
 	it('a package with MN and DN variants', async function() {
 
-		this.setup({
-			uploads: [{
-				id: 5364,
-				uid: 259789,
-				cid: 100,
-				author: 'smf_16',
-				title: 'SMF Tower',
-				aliasEntry: 'smf-tower',
-				release: '1.0.2',
-				submitted: '2024-12-19 04:24:08',
-				updated: '2024-12-19 04:24:08',
-				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
-				files: [
-					{
-						id: 12345,
-						name: 'SMF Tower (MN).zip',
-						contents: {
-							'metadata.yaml': '',
-						},
-					},
-					{
-						id: 12346,
-						name: 'SMF Tower (DN).zip',
-						contents: {},
-					},
-				],
-			}],
+		let upload = faker.upload({
+			author: 'smf_16',
+			title: 'SMF Tower',
+			files: [
+				'SMF Tower (MN).zip',
+				'SMF Tower (DN).zip',
+			],
 		});
+
+		this.setup({ uploads: [upload] });
 
 		let { read } = await this.run({ id: 5364 });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
 			name: 'smf-tower',
-			version: '1.0.2',
+			version: upload.release,
 			info: {
-				summary: 'SMF Tower',
-				description: 'This is the description',
-				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [],
+				summary: upload.title,
+				description: upload.description,
+				website: upload.fileURL,
+				images: upload.images,
 				author: 'smf_16',
 			},
 			variants: [
@@ -314,15 +262,15 @@ describe('The fetch action', function() {
 		});
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower-maxisnite',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12345',
+			lastModified: this.date(upload.updated),
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[0].id}`,
 		});
 		expect(metadata[2]).to.eql({
 			assetId: 'smf-16-smf-tower-darknite',
-			lastModified: '2024-12-19T04:24:08Z',
-			version: '1.0.2',
-			url: 'https://community.simtropolis.com/files/file/5364-smf-tower/?do=download&r=12346',
+			lastModified: this.date(upload.updated),
+			version: upload.release,
+			url: `${upload.fileURL}/?do=download&r=${upload.files[1].id}`,
 		});
 
 	});
@@ -554,6 +502,21 @@ describe('The fetch action', function() {
 					exclude: ['*.sc4lot'],
 				},
 			],
+		});
+
+	});
+
+	it.only('fetches all files from the STEX api since the last fetch date if no id was specified', function() {
+
+		let uploads = faker.uploads([
+			'2024-12-21T14:00:00Z',
+			'2024-12-21T11:00:00Z',
+			'2024-12-20T12:00:00Z',
+			'2024-11-30T17:00:00Z',
+		]);
+		this.setup({
+			uploads,
+			lastFetched: '2024-12-21:T12:00:00Z',
 		});
 
 	});
