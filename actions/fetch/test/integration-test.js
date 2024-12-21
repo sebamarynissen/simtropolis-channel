@@ -15,7 +15,11 @@ describe('The fetch action', function() {
 
 		this.setup = function(testOptions) {
 
-			const { uploads, lastFetch } = testOptions;
+			const {
+				uploads,
+				lastFetch,
+				now = Date.now(),
+			} = testOptions;
 
 			// Setup a virtual file system where the files reside.
 			let fs = Volume.fromJSON();
@@ -35,11 +39,25 @@ describe('The fetch action', function() {
 				let parsedUrl = new URL(url);
 				let { pathname, searchParams } = parsedUrl;
 				if (pathname.startsWith('/stex/files-api.php')) {
-					return new Response(JSON.stringify(testOptions.uploads), {
+
+					// If a days parameter was specified, we have to filter out 
+					// the files updated before that threshold.
+					let after = -Infinity;
+					if (searchParams.has('days')) {
+						let days = +searchParams.get('days');
+						let ms = days * 24*3600e3;
+						after = +now - ms;
+					}
+					let filtered = uploads.filter(upload => {
+						let iso = upload.updated.replace(' ', 'T')+'Z';
+						return Date.parse(iso) > after;
+					});
+					return new Response(JSON.stringify(filtered), {
 						headers: {
 							'Content-Type': 'application/json',
 						},
 					});
+
 				}
 
 				// Check if this is a scraping request, or a file download 
