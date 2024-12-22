@@ -15,9 +15,12 @@ jobs:
   add-packages:
     runs-on: ubuntu-latest
     permissions: write-all
+    # Allow only one concurrent deployment, skipping runs queued between the run 
+    # in-progress and latest queued. However, do NOT cancel in-progress runs as 
+    # we want to allow these production deployments to complete.
     concurrency:
       group: ${{ github.ref }}
-      cancel-in-progress: true
+      cancel-in-progress: false
     env:
       SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
       STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
@@ -56,11 +59,4 @@ jobs:
     needs: add-packages
     runs-on: ubuntu-latest
     if: ${{ needs.add-packages.outputs.has-new-content }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          persist-credentials: false
-          submodules: recursive
-      - run: echo "Going to build and publish now"
+    uses: ./.github/workflows/deploy.yaml
