@@ -37,6 +37,7 @@ export default class Downloader {
 		await finished(Readable.fromWeb(res.body).pipe(ws));
 		return {
 			path: destination,
+			type: res.headers.get('Content-Type') ?? 'application/zip',
 			cleanup: async () => {
 				await fs.promises.unlink(destination);
 				await dir.cleanup();
@@ -51,7 +52,32 @@ export default class Downloader {
 	async handleAsset(asset) {
 		const spinner = ora(`Downloading ${asset.url}`).start();
 		const download = await this.download(asset);
-		const info = {};
+		let metadata;
+		try {
+			metadata = await this.handleDownload(download);
+			spinner.succeed();
+		} catch (e) {
+			spinner.fail(e.message + '\n' + e.stack);
+		} finally {
+			await download.cleanup();
+		}
+		return { metadata };
+	}
+
+	// ## handleDownload(download)
+	// Determines what strategy we'll use to look for metadata in this asset.
+	async handleDownload(download) {
+		switch (download.type) {
+			case 'application/zip':
+				return await this.handleZip(download);
+			default:
+				return null;
+		}
+	}
+
+	// ## handleZip(download)
+	async handleZip(download) {
+		let metadata;
 		const tasks = [];
 		const closed = withResolvers();
 		yauzl.open(download.path, { lazyEntries: false }, (err, zipFile) => {
@@ -61,8 +87,8 @@ export default class Downloader {
 				
 				// If we find a metadata.yaml at the root, read it in.
 				if (/^metadata\.ya?ml$/i.test(entry.fileName)) {
-					let task = readMetadata(zipFile, entry).then(metadata => {
-						info.metadata = metadata;
+					let task = readMetadata(zipFile, entry).then(_metadata => {
+						metadata = _metadata;
 					});
 					tasks.push(task);
 				}
@@ -71,9 +97,7 @@ export default class Downloader {
 		});
 		await closed.promise;
 		await Promise.all(tasks);
-		await download.cleanup();
-		spinner.succeed();
-		return info;
+		return metadata;
 	}
 
 }

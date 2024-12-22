@@ -177,11 +177,17 @@ async function handleFile(json, opts = {}) {
 	for (let asset of metadata.assets) {
 
 		// If the assets contains metadata, we'll use this one, only if former 
-		// assets did not contain metadata either.
-		let info = await downloader.handleAsset(asset);
-		if (info.metadata && !parsedMetadata) {
-			parsedMetadata = info.metadata;
-		}
+		// assets did not contain metadata either. Note: if something is wrong 
+		// when unzipping, then we'll just swallow it. It's always possible that 
+		// someone uploads an invalid zip file, nothing we can do about that, 
+		// but we don't want this to block our workflow.
+		// try {
+			let info = await downloader.handleAsset(asset);
+			if (info.metadata && !parsedMetadata) {
+				parsedMetadata = info.metadata;
+			}
+		// } catch {}
+
 	}
 
 	// If we have not found any metadata at this moment, then we skip this 
