@@ -250,6 +250,7 @@ function generateBody({ packages, assets, main }) {
 	if (image) {
 		body.push(`![${main.info?.summary}](${image})\n`);
 	}
+	body.push(main.info?.description ?? '');
 	body.push('## Packages\n');
 	body.push(...packages.map(pkg => {
 		let line = `${pkg.group}:${pkg.name}`;
