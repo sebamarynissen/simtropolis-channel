@@ -41,7 +41,6 @@ jobs:
         if: steps.fetch.outputs.has-new-content == 'true'
         uses: ./actions/setup-sc4pac
       - name: Create & update PRs
-        if: steps.fetch.outputs.has-new-content == 'true'
         id: create-prs
         uses: ./actions/create-prs
         with:

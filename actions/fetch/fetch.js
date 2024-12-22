@@ -37,6 +37,7 @@ export default async function fetchPackage(opts) {
 			id = urlToFileId(id);
 		}
 		url.searchParams.set('id', id);
+		console.log({ id });
 
 		// Now set "after" to somewhere very far in the past so that we don't 
 		// accidentally filter out the specific file later on.
@@ -74,6 +75,7 @@ export default async function fetchPackage(opts) {
 	// Fetch from the api.
 	// TODO: handle various STEX errors here.
 	let lastRun = new Date().toISOString();
+	console.log(url);
 	let res = await fetch(url);
 	if (res.status >= 400) {
 		throw new Error(`Simtropolis returned ${res.status}!`);
@@ -93,11 +95,11 @@ export default async function fetchPackage(opts) {
 		permissions,
 	};
 	for (let obj of json) {
-
+console.log(obj);
 		// Discard objects that we have already processed based on the "after" 
 		// parameter.
 		let updated = parseDate(obj.updated);
-		if (updated.getTime() < after) continue;
+		if (after > updated.getTime()) continue;
 
 		// Check whether the creator is allowed to publish files on the STEX 
 		// channel. We don't create a failing PR in this case, but we do log the 

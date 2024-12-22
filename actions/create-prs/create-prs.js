@@ -19,7 +19,6 @@ const { context } = github;
 // the timestamp of the last run. This only happens though if the timestamp is 
 // set in the result. It's possible that this shouldn't be done in case we're 
 // updating a specific package!
-const packages = JSON.parse(core.getInput('packages'));
 const timestamp = core.getInput('timestamp');
 if (timestamp) {
 	await fs.promises.writeFile(path.join(cwd, 'LAST_RUN'), timestamp);
@@ -27,6 +26,13 @@ if (timestamp) {
 	const message = timestamp.slice(0, 19) + 'Z';
 	await git.commit(message, { '--allow-empty': true });
 	await git.push('origin', 'main');
+}
+
+// If there are no new packages, then we do nothing.
+const packages = JSON.parse(core.getInput('packages'));
+if (packages.length === 0) {
+	core.notice('No packages found to add');
+	process.exit(0);
 }
 
 // Before we can generate our PRs, we need to make sure the repository is in a 
