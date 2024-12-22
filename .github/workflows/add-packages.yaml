@@ -57,5 +57,5 @@ jobs:
 
   deploy:
     needs: add-packages
-    if: ${{ needs.add-packages.outputs.has-new-content }}
+    if: ${{ needs.add-packages.outputs.has-new-content == 'true' }}
     uses: ./.github/workflows/deploy.yaml
