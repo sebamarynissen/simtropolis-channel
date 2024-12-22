@@ -27,7 +27,7 @@ jobs:
       with:
         path: src/yaml
         pages-output-path: 'tmp_gh-pages'
-        channel-label: Simtropolis
+        channel-label: ${{ env.CHANNEL_LABEL }}
         metadata-source-url: ${{ format('https://github.com/{0}/blob/{1}/{2}/', github.repository, github.event.repository.default_branch, 'src/yaml') }}
     - name: Setup Pages
       uses: actions/configure-pages@v4
