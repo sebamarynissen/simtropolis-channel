@@ -29,6 +29,10 @@ jobs:
         pages-output-path: 'tmp_gh-pages'
         channel-label: ${{ env.CHANNEL_LABEL }}
         metadata-source-url: ${{ format('https://github.com/{0}/blob/{1}/{2}/', github.repository, github.event.repository.default_branch, 'src/yaml') }}
+    - name: Move channel content to root
+      run: |
+        mv tmp_gh-pages/channel/* tmp_gh-pages/
+        rmdir tmp_gh-pages/channel
     - name: Setup Pages
       uses: actions/configure-pages@v4
     - name: Upload artifact
