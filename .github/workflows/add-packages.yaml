@@ -49,11 +49,13 @@ jobs:
         with:
           packages: ${{ steps.fetch.outputs.packages }}
           timestamp: ${{ steps.fetch.outputs.timestamp }}
+    outputs:
+      has-new-content: ${{ steps.fetch.outputs.has-new-content }}
 
   deploy:
     needs: add-packages
     runs-on: ubuntu-latest
-    if: ${{ needs.add-packages.steps.fetch.outputs.has-new-content == 'true' }}
+    if: ${{ needs.add-packages.outputs.has-new-content }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
