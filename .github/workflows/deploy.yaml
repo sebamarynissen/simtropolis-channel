@@ -5,6 +5,7 @@ on:
   workflow_call: #
 
 jobs:
+  runs-on: ubuntu-latest
   deploy:
     environment:
       name: github-pages
