@@ -43,9 +43,9 @@ jobs:
         with:
           url: ${{ github.event.inputs.url }}
           require-metadata: ${{ github.events.inputs.require-metadata }}
-      - name: Setup sc4pac
+      - name: Setup linter
         if: steps.fetch.outputs.has-new-content == 'true'
-        uses: ./actions/setup-sc4pac
+        uses: memo33/sc4pac-actions/actions/setup-lint@main
       - name: Create & update PRs
         id: create-prs
         uses: ./actions/create-prs
