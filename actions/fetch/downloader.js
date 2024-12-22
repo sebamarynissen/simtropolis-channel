@@ -52,16 +52,20 @@ export default class Downloader {
 	async handleAsset(asset) {
 		const spinner = ora(`Downloading ${asset.url}`).start();
 		const download = await this.download(asset);
-		let metadata;
+		let info;
 		try {
-			metadata = await this.handleDownload(download);
+			info = await this.handleDownload(download);
 			spinner.succeed();
 		} catch (e) {
 			spinner.fail(e.message + '\n' + e.stack);
 		} finally {
 			await download.cleanup();
 		}
-		return { metadata };
+		return {
+			metadata: null,
+			skip: false,
+			...info,
+		};
 	}
 
 	// ## handleDownload(download)
@@ -70,6 +74,8 @@ export default class Downloader {
 		switch (download.type) {
 			case 'application/zip':
 				return await this.handleZip(download);
+			case 'text/yaml':
+				return await this.handleYaml(download);
 			default:
 				return null;
 		}
@@ -97,20 +103,28 @@ export default class Downloader {
 		});
 		await closed.promise;
 		await Promise.all(tasks);
-		return metadata;
+		return { metadata };
+	}
+
+	// ## handleYaml(download)
+	// If the package includes a bare yaml file, we'll use it to look for 
+	// metadata as well.
+	async handleYaml(download) {
+		if (!/metadata\.ya?ml$/.test(path.basename(download.path))) return;
+		return {
+			skip: true,
+			metadata: readYaml(await download.path),
+		};
 	}
 
 }
 
-// # readMetadata(zipFile, entry)
-// Reads in the metadata.yaml file in a download if it's present.
-async function readMetadata(zipFile, entry) {
-
-	// Note that it's possible to have more than 1 metadata document, for 
-	// example when splitting the package in both resources and and lots. 
-	// However, assets should never be specified manually, we parse them from 
-	// the STEX, so just ignore them.
-	const contents = await read(zipFile, entry);
+// # readYaml(contents)
+// Note that it's possible to have more than 1 metadata document, for 
+// example when splitting the package in both resources and and lots. 
+// However, assets should never be specified manually, we parse them from 
+// the STEX, so just ignore them.
+function readYaml(contents) {
 	let docs = parseAllDocuments(String(contents));
 	let json = docs
 		.filter(doc => !doc.empty)
@@ -123,7 +137,13 @@ async function readMetadata(zipFile, entry) {
 	} else {
 		return json;
 	}
+}
 
+// # readMetadata(zipFile, entry)
+// Reads in the metadata.yaml file in a download if it's present.
+async function readMetadata(zipFile, entry) {
+	const contents = await read(zipFile, entry);
+	return readYaml(contents);
 }
 
 // # read()
