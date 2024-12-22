@@ -9,7 +9,6 @@ import patchMetadata from './patch-metadata.js';
 import scrape from './scrape.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
-const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 const MS_DAY = 24*3600e3;
 
 // # fetch(opts)
@@ -22,6 +21,7 @@ export default async function fetchPackage(opts) {
 		after,
 		now = Date.now(),
 		lastRunFile = 'LAST_RUN',
+		endpoint = 'https://community.simtropolis.com/stex/files-api.php',
 	} = opts;
 
 	// Build up the url.
@@ -122,11 +122,8 @@ export default async function fetchPackage(opts) {
 
 	// Update the timestamp that we last fetched the stex api, but only if not 
 	// explicitly requesting a specific file!
-	if (storeLastRun) {
-		await fs.promises.writeFile(path.join(cwd, lastRunFile), lastRun);
-	}
 	return {
-		timestamp: lastRun,
+		timestamp: (storeLastRun ? lastRun : false),
 		packages,
 	};
 
@@ -224,41 +221,8 @@ async function handleFile(json, opts = {}) {
 		id,
 		metadata,
 		files: [relativePath],
-		title: `\`${id}@${main.version}\``,
-		branch: `package/${id.replace(':', '-')}`,
-		body: generateBody({
-			packages,
-			assets: metadata.assets,
-			main,
-		}),
 	};
 
-}
-
-// # generateBody(opts)
-// Generates the PR body based on the packages we've added.
-function generateBody({ packages, assets, main }) {
-	let body = [];
-	let [image] = main.info?.images ?? [];
-	body.push(`# ${main.info?.summary}\n`);
-	if (image) {
-		body.push(`![${main.info?.summary}](${image})\n`);
-	}
-	body.push('## Packages\n');
-	body.push(...packages.map(pkg => {
-		let line = `${pkg.group}:${pkg.name}`;
-		if (pkg?.info.website) {
-			line = `[${line}](${pkg.info.website})`;
-		}
-		return `- ${line}`;
-	}));
-	body.push('');
-	body.push('## Assets\n');
-	body.push(...assets.map(asset => {
-		let { assetId, url } = asset;
-		return `- [${assetId}](${url})`;
-	}));
-	return body.join('\n');
 }
 
 // # serialize(json)

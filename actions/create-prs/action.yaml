@@ -1,0 +1,14 @@
+name: create-prs
+description: Creates the relevant PRs
+
+inputs:
+  packages:
+    required: true
+    description: An array in JSON format that contains information about the packages that were added.
+  timestamp:
+    required: false
+    description: The timestamp when the exchange was last checked for new packages. Can be unset in case information for a specific package is fetched.
+
+runs:
+  using: 'node20'
+  main: 'create-prs.js'

@@ -1,0 +1,49 @@
+name: Add packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: URL or file id
+        required: false
+      require-metadata:
+        description: Require metadata.yaml
+        type: boolean
+        default: true
+
+jobs:
+  add-packages:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    concurrency:
+      group: ${{ github.ref }}
+      cancel-in-progress: true
+    env:
+      SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
+      STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
+      GITHUB_OWNER: ${{ github.repository_owner }}
+      GITHUB_REPO: ${{ github.event.repository.name }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+      - run: npm ci
+      - name: Fetch updated packages from Simtropolis
+        id: fetch
+        uses: ./actions/fetch
+      - name: Setup sc4pac
+        if: steps.fetch.outputs.has-new-content == 'true'
+        uses: ./actions/setup-sc4pac
+      - name: Create & update PRs
+        if: steps.fetch.outputs.has-new-content == 'true'
+        id: create-prs
+        uses: ./actions/create-prs
+        with:
+          packages: ${{ steps.fetch.outputs.packages }}
+          timestamp: ${{ steps.fetch.outputs.timestamp }}
