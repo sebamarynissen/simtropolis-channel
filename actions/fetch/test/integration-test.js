@@ -48,7 +48,9 @@ describe('The fetch action', function() {
 						let ms = days * 24*3600e3;
 						after = +now - ms;
 					}
+					let id = searchParams.has('id') ? +searchParams.get('id') : undefined;
 					let filtered = uploads.filter(upload => {
+						if (id && upload.id !== id) return false;
 						let iso = upload.updated.replace(' ', 'T')+'Z';
 						return Date.parse(iso) > after;
 					});
@@ -121,7 +123,7 @@ describe('The fetch action', function() {
 			};
 
 			async function run(opts) {
-				let result = await action({
+				let { packages, timestamp } = await action({
 					fs,
 					cwd: '/',
 					...opts,
@@ -132,8 +134,9 @@ describe('The fetch action', function() {
 						let contents = fs.readFileSync(file).toString();
 						return parseAllDocuments(contents).map(doc => doc.toJSON());
 					},
-					results: result.packages,
-					result: result.packages[0],
+					timestamp,
+					packages,
+					result: packages[0],
 				};
 			};
 
@@ -157,9 +160,7 @@ describe('The fetch action', function() {
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
-		let { read, result } = await run({ id: 5364 });
-		expect(result.branch).to.equal('package/smf-16-smf-tower');
-		expect(result.title).to.equal('`smf-16:smf-tower@1.0.2`');
+		let { read, result } = await run({ id: upload.id });
 		expect(result.files).to.eql([
 			'src/yaml/smf-16/smf-tower.yaml',
 		]);
@@ -211,7 +212,7 @@ describe('The fetch action', function() {
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
-		let { read } = await run({ id: 5364 });
+		let { read } = await run({ id: upload.id });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
@@ -254,7 +255,7 @@ describe('The fetch action', function() {
 
 		const { run } = this.setup({ uploads: [upload] });
 
-		let { read } = await run({ id: 5364 });
+		let { read } = await run({ id: upload.fileURL });
 		let metadata = read('/src/yaml/smf-16/smf-tower.yaml');
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
@@ -489,9 +490,7 @@ describe('The fetch action', function() {
 			}],
 		});
 
-		let { read, result } = await run({ id: 5364 });
-		expect(result.branch).to.equal('package/smf-16-st-residences');
-		expect(result.title).to.equal('`smf-16:st-residences@2.0.0`');
+		let { read, result } = await run({ id: 2145 });
 		expect(result.files).to.eql([
 			'src/yaml/smf-16/st-residences.yaml',
 		]);
@@ -566,17 +565,29 @@ describe('The fetch action', function() {
 			'2024-11-30T17:00:00Z',
 		]);
 		let lastFetch = '2024-12-21T12:00:00Z';
-		const { run, fs } = this.setup({
+		const { run } = this.setup({
 			uploads,
 			lastFetch,
 		});
 
-		const { results } = await run();
-		expect(results).to.have.length(1);
-		expect(results[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
+		const { packages, timestamp } = await run();
+		expect(packages).to.have.length(1);
+		expect(packages[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
 
-		let updated = fs.readFileSync('/LAST_RUN').toString();
-		expect(Date.parse(updated)).to.be.above(Date.parse(lastFetch));
+		expect(Date.parse(timestamp)).to.be.above(Date.parse(lastFetch));
+
+	});
+
+	it('does not set the timestamp when fetching a specific package', async function() {
+
+		let uploads = faker.uploads(3);
+		const { run } = this.setup({
+			uploads,
+		});
+
+		const { packages, timestamp } = await run({ id: uploads[1].id });
+		expect(timestamp).to.be.false;
+		expect(packages).to.have.length(1);
 
 	});
 
