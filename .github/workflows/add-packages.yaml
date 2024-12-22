@@ -57,6 +57,5 @@ jobs:
 
   deploy:
     needs: add-packages
-    runs-on: ubuntu-latest
     if: ${{ needs.add-packages.outputs.has-new-content }}
     uses: ./.github/workflows/deploy.yaml
