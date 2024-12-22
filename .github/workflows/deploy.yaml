@@ -30,16 +30,16 @@ jobs:
         channel-label: ${{ env.CHANNEL_LABEL }}
         metadata-source-url: ${{ format('https://github.com/{0}/blob/{1}/{2}/', github.repository, github.event.repository.default_branch, 'src/yaml') }}
     - run: tree
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-    - name: Upload artifact
-      # note that this action dereferences our `latest` symlinks, but that's not a huge problem, it just duplicates each json file (could maybe be avoided by using tar)
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: 'tmp_gh-pages'
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
-    permissions:
-      pages: write
-      id-token: write
+    # - name: Setup Pages
+    #   uses: actions/configure-pages@v4
+    # - name: Upload artifact
+    #   # note that this action dereferences our `latest` symlinks, but that's not a huge problem, it just duplicates each json file (could maybe be avoided by using tar)
+    #   uses: actions/upload-pages-artifact@v3
+    #   with:
+    #     path: 'tmp_gh-pages'
+    # - name: Deploy to GitHub Pages
+    #   id: deployment
+    #   uses: actions/deploy-pages@v4
+    # permissions:
+    #   pages: write
+    #   id-token: write
