@@ -23,7 +23,7 @@ See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and dis
 - [ ] Handle various Simtropolis error scenarios (down for maintenance, 520, ...)
 - [x] Setup an action that creates a PR instead of pushing to main
 - [ ] Make the metadata generation robust & fool proof
-  - [ ] Ensure incorrect metadata cannot be deployed
+  - [x] Ensure incorrect metadata cannot be deployed
   - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed, for example in a yaml file in this repo. That way someone from a team can upload under the team name, but only if explicitly allowed.
   - [ ] Automatically generate DLL checksums
 - [ ] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
