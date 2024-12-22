@@ -15,10 +15,52 @@ const git = simpleGit(simpleGit);
 const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
 const { context } = github;
 
-// First of all we will create a new file called `LAST_RUN` where we'll commit 
-// the timestamp of the last run. This only happens though if the timestamp is 
-// set in the result. It's possible that this shouldn't be done in case we're 
-// updating a specific package!
+// Before we can generate our PRs, we need to make sure the repository is in a 
+// clean state. That's because if we checkout an existing branch, it might 
+// overwrite the changes made by the fetch action, so we first have to figure 
+// out all files that have changed and undo those changes.
+const packages = JSON.parse(core.getInput('packages'));
+if (packages.length > 0) {
+	for (let pkg of packages) {
+		let files = [];
+		for (let name of pkg.files) {
+			let fullPath = path.join(cwd, name);
+			let contents = await fs.promises.readFile(fullPath);
+			files.push({
+				name,
+				path: fullPath,
+				contents,
+			});
+		}
+		pkg.files = files;
+	}
+
+	// Reset the repository to a clean state again.
+	await git.reset({ '--hard': true });
+	await git.clean('f', { '-d': true });
+
+	// Fetch all open PRs from GitHub so that we can figure out which files are 
+	// updates of existing, open PRs.
+	let spinner = ora('Fetching open pull requests from GitHub').start();
+	const { data: prs } = await octokit.rest.pulls.list({
+		...context.repo,
+		state: 'open',
+	});
+	spinner.succeed();
+
+	// Create the PRs and update the branches for each result.
+	for (let pkg of packages) {
+		await createPr(pkg, prs);
+	}
+
+}
+
+// At last we will update the `LAST_RUN` file. It's crucial that this happens 
+// *after* the PRs have been created so that if the workflow gets canceled 
+// because someone else has uploaded a package, then we don't want `LAST_RUN` to 
+// be upaded already without the PRs being created! PRs won't ever be created as 
+// double PRs, they just get updated, so it's safe to "override" ourselves, as 
+// long as we didn't update LAST_RUN yet.
 const timestamp = core.getInput('timestamp');
 if (timestamp) {
 	await fs.promises.writeFile(path.join(cwd, 'LAST_RUN'), timestamp);
@@ -26,49 +68,6 @@ if (timestamp) {
 	const message = timestamp.slice(0, 19) + 'Z';
 	await git.commit(message, { '--allow-empty': true });
 	await git.push('origin', 'main');
-}
-
-// If there are no new packages, then we do nothing.
-const packages = JSON.parse(core.getInput('packages'));
-if (packages.length === 0) {
-	core.notice('No packages found to add');
-	process.exit(0);
-}
-
-// Before we can generate our PRs, we need to make sure the repository is in a 
-// clean state. That's because if we checkout an existing branch, it might 
-// overwrite the changes made by the fetch action, so we first have to figure 
-// out all files that have changed and undo those changes.
-for (let pkg of packages) {
-	let files = [];
-	for (let name of pkg.files) {
-		let fullPath = path.join(cwd, name);
-		let contents = await fs.promises.readFile(fullPath);
-		files.push({
-			name,
-			path: fullPath,
-			contents,
-		});
-	}
-	pkg.files = files;
-}
-
-// Reset the repository to a clean state again.
-await git.reset({ '--hard': true });
-await git.clean('f', { '-d': true });
-
-// Fetch all open PRs from GitHub so that we can figure out which files are 
-// updates of existing, open PRs.
-let spinner = ora('Fetching open pull requests from GitHub').start();
-const { data: prs } = await octokit.rest.pulls.list({
-	...context.repo,
-	state: 'open',
-});
-spinner.succeed();
-
-// Create the PRs and update the branches for each result.
-for (let pkg of packages) {
-	await createPr(pkg, prs);
 }
 
 // # createPr(pkg)

@@ -1,4 +1,4 @@
-name: Add packages
+name: Add packages from Simtropolis
 
 on:
   workflow_dispatch:
@@ -49,3 +49,16 @@ jobs:
         with:
           packages: ${{ steps.fetch.outputs.packages }}
           timestamp: ${{ steps.fetch.outputs.timestamp }}
+
+  deploy:
+    needs: add-packages
+    runs-on: ubuntu-latest
+    if: ${{ needs.add-packages.steps.fetch.outputs.has-new-content == 'true' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+          submodules: recursive
+      - run: echo "Going to build and publish now"
