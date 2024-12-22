@@ -1,13 +1,19 @@
 // # action.js
 import core from '@actions/core';
 import fetch from './fetch.js';
-import createPRs from './create-prs.js';
 
 const url = core.getInput('url');
 const requireMetadata = core.getInput('require-metadata');
-const result = await fetch({
+const { packages, timestamp } = await fetch({
 	id: url,
 	requireMetadata,
 });
 
-await createPRs(result);
+// Set the proper output variables.
+let hasNewContent = packages.length > 0;
+core.setOutput('packages', JSON.stringify(packages));
+if (timestamp) core.setOutput('timestamp', timestamp);
+core.setOutput('has-new-content', hasNewContent);
+if (!hasNewContent) {
+	core.notice('No new content was found.');
+}

@@ -9,7 +9,6 @@ import patchMetadata from './patch-metadata.js';
 import scrape from './scrape.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
-const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 const MS_DAY = 24*3600e3;
 
 // # fetch(opts)
@@ -22,6 +21,7 @@ export default async function fetchPackage(opts) {
 		after,
 		now = Date.now(),
 		lastRunFile = 'LAST_RUN',
+		endpoint = 'https://community.simtropolis.com/stex/files-api.php',
 	} = opts;
 
 	// Build up the url.
@@ -122,11 +122,8 @@ export default async function fetchPackage(opts) {
 
 	// Update the timestamp that we last fetched the stex api, but only if not 
 	// explicitly requesting a specific file!
-	if (storeLastRun) {
-		await fs.promises.writeFile(path.join(cwd, lastRunFile), lastRun);
-	}
 	return {
-		timestamp: lastRun,
+		timestamp: (storeLastRun ? lastRun : false),
 		packages,
 	};
 
