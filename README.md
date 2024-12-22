@@ -26,6 +26,7 @@ See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and dis
   - [ ] Ensure incorrect metadata cannot be deployed
   - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed, for example in a yaml file in this repo. That way someone from a team can upload under the team name, but only if explicitly allowed.
   - [ ] Automatically generate DLL checksums
+- [ ] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
 - [ ] Make the channel available under a simtropolis.com url, e.g. https://sc4pac.simtropolis.com
