@@ -54,6 +54,9 @@ export default async function fetchPackage(opts) {
 			let filePath = path.join(cwd, lastRunFile);
 			let contents = String(await fs.promises.readFile(filePath));
 			after = Date.parse(contents);
+			if (Number.isNaN(after)) {
+				throw new Error(`Invalid date in ${lastRunFile}: "${contents}"`);
+			}
 			let days = Math.ceil((+now - after) / MS_DAY)+1;
 			url.searchParams.set('days', days);
 
@@ -79,7 +82,7 @@ export default async function fetchPackage(opts) {
 		throw new Error(`Simtropolis returned ${res.status}!`);
 	}
 	let json = await res.json();
-	if (!Array.isArray(json) || json.length === 0) {
+	if (id && (!Array.isArray(json) || json.length === 0)) {
 		throw new Error(`File ${id} was not found!`);
 	}
 

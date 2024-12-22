@@ -17,7 +17,7 @@ describe('The fetch action', function() {
 
 			const {
 				uploads,
-				lastFetch,
+				lastRun,
 				now = Date.now(),
 			} = testOptions;
 
@@ -26,8 +26,8 @@ describe('The fetch action', function() {
 			fs.writeFileSync('/permissions.yaml', '');
 
 			// Populate the file where we store when the last file was fetched.
-			if (lastFetch) {
-				fs.writeFileSync('/LAST_RUN', lastFetch);
+			if (lastRun) {
+				fs.writeFileSync('/LAST_RUN', lastRun);
 			}
 
 			// We'll mock the global "fetch" method so that we can mock the api 
@@ -564,17 +564,17 @@ describe('The fetch action', function() {
 			'2024-12-20T12:00:00Z',
 			'2024-11-30T17:00:00Z',
 		]);
-		let lastFetch = '2024-12-21T12:00:00Z';
+		let lastRun = '2024-12-21T12:00:00Z';
 		const { run } = this.setup({
 			uploads,
-			lastFetch,
+			lastRun,
 		});
 
 		const { packages, timestamp } = await run();
 		expect(packages).to.have.length(1);
 		expect(packages[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
 
-		expect(Date.parse(timestamp)).to.be.above(Date.parse(lastFetch));
+		expect(Date.parse(timestamp)).to.be.above(Date.parse(lastRun));
 
 	});
 
@@ -588,6 +588,27 @@ describe('The fetch action', function() {
 		const { packages, timestamp } = await run({ id: uploads[1].id });
 		expect(timestamp).to.be.false;
 		expect(packages).to.have.length(1);
+
+	});
+
+	it('throws when the last run cannot be parsed', async function() {
+
+		let uploads = faker.uploads(3);
+		const { run } = this.setup({
+			uploads,
+			lastRun: 'An invalid date somehow',
+		});
+
+		let error, success;
+		try {
+			await run();
+			success = true;
+		} catch (e) {
+			error = e;
+			success = false;
+		}
+		expect(error).to.be.an.instanceof(Error);
+		expect(success).to.be.false;
 
 	});
 
