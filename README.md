@@ -2,7 +2,7 @@
 
 This repository contains the code for the [sc4pac](https://memo33.github.io/sc4pac/#/) metadata channel that automatically handles uploads to the STEX.
 Highly experimental state.
-Add `https://sebamarynissen.github.io/simtropolis-channel/channel` to your sc4pac channels to use it.
+Add `https://sebamarynissen.github.io/simtropolis-channel` to your sc4pac channels to use it.
 
 Currently, content on the STEX is *not* processed automatically, but the goal is to automatically fetch the latest STEX uploads and process them.
 Ideally this happens by Simtropolis triggering a workflow dispatch on this repo, but we could also run an action that checks for new updates every hour or so.
