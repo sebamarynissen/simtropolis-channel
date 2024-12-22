@@ -7,9 +7,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # environment:
-    #   name: github-pages
-    #   url: ${{ steps.deployment.outputs.page_url }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
     # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
     concurrency:
@@ -33,17 +33,16 @@ jobs:
       run: |
         mv tmp_gh-pages/channel/* tmp_gh-pages/
         rmdir tmp_gh-pages/channel
-    - run: tree
-    # - name: Setup Pages
-    #   uses: actions/configure-pages@v4
-    # - name: Upload artifact
-    #   # note that this action dereferences our `latest` symlinks, but that's not a huge problem, it just duplicates each json file (could maybe be avoided by using tar)
-    #   uses: actions/upload-pages-artifact@v3
-    #   with:
-    #     path: 'tmp_gh-pages'
-    # - name: Deploy to GitHub Pages
-    #   id: deployment
-    #   uses: actions/deploy-pages@v4
-    # permissions:
-    #   pages: write
-    #   id-token: write
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    - name: Upload artifact
+      # note that this action dereferences our `latest` symlinks, but that's not a huge problem, it just duplicates each json file (could maybe be avoided by using tar)
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'tmp_gh-pages'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+    permissions:
+      pages: write
+      id-token: write
