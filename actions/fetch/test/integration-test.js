@@ -207,6 +207,7 @@ describe('The fetch action', function() {
 	it('a package with custom dependencies', async function() {
 
 		let upload = faker.upload({
+			cid: 104,
 			author: 'smf_16',
 			title: 'SMF Tower',
 			files: [
@@ -231,6 +232,7 @@ describe('The fetch action', function() {
 			group: 'smf-16',
 			name: 'smf-tower',
 			version: upload.release,
+			subfolder: '410-agriculture',
 			info: {
 				summary: upload.title,
 				description: 'Custom description',
@@ -258,6 +260,7 @@ describe('The fetch action', function() {
 	it('a package with MN and DN variants', async function() {
 
 		let upload = faker.upload({
+			cid: 102,
 			author: 'smf_16',
 			title: 'SMF Tower',
 			files: [
@@ -274,6 +277,7 @@ describe('The fetch action', function() {
 			group: 'smf-16',
 			name: 'smf-tower',
 			version: upload.release,
+			subfolder: '300-commercial',
 			info: {
 				summary: upload.title,
 				description: upload.description,
@@ -324,7 +328,7 @@ describe('The fetch action', function() {
 			uploads: [{
 				id: 5364,
 				uid: 259789,
-				cid: 100,
+				cid: 102,
 				author: 'smf_16',
 				title: 'SMF Tower',
 				aliasEntry: 'smf-tower',
@@ -356,6 +360,7 @@ describe('The fetch action', function() {
 			group: 'smf-16',
 			name: 'smf-tower',
 			version: '1.0.2',
+			subfolder: '300-commercial',
 			info: {
 				summary: 'SMF Tower',
 				description: 'This is the description',
@@ -403,7 +408,7 @@ describe('The fetch action', function() {
 			uploads: [{
 				id: 5364,
 				uid: 259789,
-				cid: 100,
+				cid: 101,
 				author: 'smf_16',
 				title: 'GitHub Tower',
 				aliasEntry: 'github-tower',
@@ -433,6 +438,7 @@ describe('The fetch action', function() {
 			group: 'github',
 			name: 'smf-github-tower',
 			version: '1.0.2',
+			subfolder: '200-residential',
 			info: {
 				summary: 'GitHub Tower',
 				description: 'This is the description',
