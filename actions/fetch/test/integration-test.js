@@ -1,6 +1,6 @@
 // # integration-test.js
 import { expect } from 'chai';
-import { Document, parseAllDocuments } from 'yaml';
+import { Document, parseAllDocuments, stringify } from 'yaml';
 import mime from 'mime';
 import path from 'node:path';
 import yazl from 'yazl';
@@ -30,6 +30,7 @@ describe('The fetch action', function() {
 
 			const {
 				handler = () => void 0,
+				permissions = null,
 				uploads,
 				lastRun,
 				now = Date.now(),
@@ -37,7 +38,7 @@ describe('The fetch action', function() {
 
 			// Setup a virtual file system where the files reside.
 			let fs = Volume.fromJSON();
-			fs.writeFileSync('/permissions.yaml', '');
+			fs.writeFileSync('/permissions.yaml', permissions ? stringify(permissions) : '');
 
 			// Populate the file where we store when the last file was fetched.
 			if (lastRun) {
@@ -168,7 +169,7 @@ describe('The fetch action', function() {
 			};
 
 			async function run(opts) {
-				let { packages, timestamp } = await action({
+				let { packages, timestamp, notices, warnings } = await action({
 					fs,
 					cwd: '/',
 					...opts,
@@ -181,6 +182,8 @@ describe('The fetch action', function() {
 					},
 					timestamp,
 					packages,
+					notices,
+					warnings,
 					result: packages[0],
 				};
 			};
@@ -591,6 +594,22 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package without metadata that results in notices', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					contents: {},
+				},
+			],
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		const { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
 	it('handles uses with periods in their username', async function() {
 
 		let upload = faker.upload({
@@ -767,8 +786,33 @@ describe('The fetch action', function() {
 			uploads,
 		});
 		let e = await reject(() => run({ id: uploads[0].id }));
+		if (e.code !== 'simtropolis_error') {
+			console.log(e);
+		}
 		expect(e.code).to.equal('simtropolis_error');
 		expect(e.status).to.equal(503);
+
+	});
+
+	it('returns warnings when a user is blocked from the channel', async function() {
+
+		const upload = faker.upload({
+			uid: 5624,
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			permissions: {
+				authors: [
+					{
+						id: 5624,
+						blocked: true,
+					},
+				],
+			},
+		});
+		const { packages, warnings } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(warnings).to.have.length(1);
 
 	});
 

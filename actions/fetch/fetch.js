@@ -89,6 +89,8 @@ export default async function fetchPackage(opts) {
 
 	// Handle all files one by one to not flood Simtropolis.
 	let packages = [];
+	let notices = [];
+	let warnings = [];
 	let data = parse(await fs.promises.readFile(path.join(cwd, 'permissions.yaml'))+'');
 	let permissions = new Permissions(data);
 	let handleOptions = {
@@ -106,8 +108,10 @@ export default async function fetchPackage(opts) {
 		// Check whether the creator is allowed to publish files on the STEX 
 		// channel. We don't create a failing PR in this case, but we do log the 
 		// results in the action so that we can inspect on GitHub what happened.
-		if (!permissions.isUploadAllowed(obj)) {
-			console.log(`Creator of ${obj.fileURL} is not allowed to add a plugin to the channel.`);
+		try {
+			permissions.assertUploadAllowed(obj);
+		} catch (e) {
+			warnings.push(e.message);
 			continue;
 		}
 
@@ -115,11 +119,15 @@ export default async function fetchPackage(opts) {
 		// no PR will be created for them.
 		let result = await handleFile(obj, handleOptions);
 		if (result) {
-			if (result.error) {
-				console.log(result.error.message);
-				continue;
+			if (result.skipped) {
+				if (result.type === 'notice') {
+					notices.push(result.reason);
+				} else if (result.type === 'warning') {
+					notices.push(result.reason);
+				}
+			} else {
+				packages.push(result);
 			}
-			packages.push(result);
 		}
 
 	}
@@ -129,6 +137,8 @@ export default async function fetchPackage(opts) {
 	return {
 		timestamp: (storeLastRun ? lastRun : false),
 		packages,
+		notices,
+		warnings,
 	};
 
 }
@@ -195,8 +205,11 @@ async function handleFile(json, opts = {}) {
 	// sc4pac.
 	const { requireMetadata = true } = opts;
 	if (!parsedMetadata && requireMetadata) {
-		console.log(`Package ${json.fileURL} does not have a metadata.yaml file in its root, skipping.`);
-		return;
+		return {
+			skipped: true,
+			type: 'notice',
+			reason: `Package ${json.fileURL} does not have a metadata.yaml file in its root. Skipping.`,
+		};
 	}
 
 	// Patch the metadata with the metadata that was parsed from the assets. 
@@ -208,7 +221,11 @@ async function handleFile(json, opts = {}) {
 	try {
 		permissions.assertPackageAllowed(json, packages);
 	} catch (e) {
-		throw new Error(`${e.message}\n\n${serialize(zipped)}`);
+		return {
+			skipped: true,
+			type: 'warning',
+			reason: `${e.message}\n\n${serialize(zipped)}`,
+		};
 	}
 
 	// Note: if the file already exists, we'll use "Update" instead of "Add" in 
