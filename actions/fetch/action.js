@@ -6,10 +6,23 @@ import fetch from './fetch.js';
 const url = core.getInput('url');
 const requireMetadata = yn(core.getInput('require-metadata'));
 try {
-	const { packages, timestamp } = await fetch({
+	const {
+		packages,
+		timestamp,
+		notices = [],
+		warnings = [],
+	} = await fetch({
 		id: url,
 		requireMetadata,
 	});
+
+	// Log the warnings and notices.
+	for (let warning of warnings) {
+		core.warning(warning);
+	}
+	for (let notice of notices) {
+		core.notice(notice);
+	}
 
 	// Set the proper output variables.
 	let hasNewContent = packages.length > 0;

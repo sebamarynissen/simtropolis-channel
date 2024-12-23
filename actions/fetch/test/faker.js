@@ -74,7 +74,7 @@ export function upload(upload = {}) {
 
 // # uploads()
 // Generates a number of fake uploads.
-export function uploads(props = faker.number.int(25)) {
+export function uploads(props = faker.number.int({ min: 1, max: 25 })) {
 	if (typeof props === 'number') {
 		props = new Array(props).fill();
 	}
