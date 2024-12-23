@@ -1,9 +1,10 @@
 // # action.js
 import core from '@actions/core';
+import yn from 'yn';
 import fetch from './fetch.js';
 
 const url = core.getInput('url');
-const requireMetadata = core.getInput('require-metadata');
+const requireMetadata = yn(core.getInput('require-metadata'));
 try {
 	const { packages, timestamp } = await fetch({
 		id: url,
