@@ -52,7 +52,7 @@ export default async function fetchPackage(opts) {
 			// whether this means 24 hours, so we'll use a bit of leeway and 
 			// then just filter it out later on.
 			let filePath = path.join(cwd, lastRunFile);
-			let contents = String(await fs.promises.readFile(filePath));
+			let contents = String(await fs.promises.readFile(filePath)).trim();
 			after = Date.parse(contents);
 			if (Number.isNaN(after)) {
 				throw new Error(`Invalid date in ${lastRunFile}: "${contents}"`);
