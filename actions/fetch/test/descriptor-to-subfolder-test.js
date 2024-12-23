@@ -28,4 +28,8 @@ describe('#descriptorToSubfolder()', function() {
 		expect(this.folder).to.equal('500-utilities');
 	});
 
+	it('services-libraries', function() {
+		expect(this.folder).to.equal('600-civics');
+	});
+
 });

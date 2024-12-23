@@ -117,6 +117,7 @@ const descriptorMap = {
 	'civics-rewards': '360-landmark',
 	'civics-parks': '660-parks',
 	civics: '600-civics',
+	services: '600-civics',
 	automata: '710-automata',
 	transport: '700-transit',
 	'mmp(s)': '180-flora',
