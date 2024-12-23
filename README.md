@@ -259,7 +259,7 @@ This is especially important if your plugin has specific needs, such as needing 
 ## Invalid metadata
 
 If you have added an invalid `metadata.yaml` file - which also includes referencing non-existent dependencies or assets - then your package will not be added to the channel.
-Instead, a [pull request](/pulls) will be created with the package name you were trying to update, which will contain information about what was wrong with the package.
-Hence it is always a good idea after uploading a plugin to check the [pull requests](/pulls) to see if your package was added successfully.
+Instead, a [pull request](https://github.com/sebamarynissen/simtropolis-channel/pulls) will be created with the package name you were trying to update, which will contain information about what was wrong with the package.
+Hence it is always a good idea after uploading a plugin to check the [pull requests](https://github.com/sebamarynissen/simtropolis-channel/pulls) to see if your package was added successfully.
 
 While currently not yet implemented, the idea is to send a notification on Simtropolis if your package could not be added in the future.
