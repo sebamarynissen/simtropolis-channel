@@ -57,7 +57,8 @@ export default class Downloader {
 			metadata = await this.handleDownload(download);
 			spinner.succeed();
 		} catch (e) {
-			spinner.fail(e.message + '\n' + e.stack);
+			console.error(e);
+			spinner.fail();
 		} finally {
 			await download.cleanup();
 		}
