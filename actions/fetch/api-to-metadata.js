@@ -81,5 +81,10 @@ function getAssetSuffix(file, index, json) {
 // # normalizeDate(date)
 // The date returned from the api does not have the correct format. Let's fix that.
 function normalizeDate(date) {
-	return date.replace(' ', 'T') + 'Z';
+	let normalized = date.replace(' ', 'T');
+	if (!normalized.endsWith('Z')) {
+		return `${normalized}Z`;
+	} else {
+		return normalized;
+	}
 }
