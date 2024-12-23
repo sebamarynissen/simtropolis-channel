@@ -9,6 +9,7 @@ import patchMetadata from './patch-metadata.js';
 import scrape from './scrape.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
+import { SimtropolisError } from './errors.js';
 const MS_DAY = 24*3600e3;
 
 // # fetch(opts)
@@ -79,7 +80,7 @@ export default async function fetchPackage(opts) {
 	let lastRun = new Date().toISOString();
 	let res = await fetch(url);
 	if (res.status >= 400) {
-		throw new Error(`Simtropolis returned ${res.status}!`);
+		throw new SimtropolisError(res);
 	}
 	let json = await res.json();
 	if (id && (!Array.isArray(json) || json.length === 0)) {

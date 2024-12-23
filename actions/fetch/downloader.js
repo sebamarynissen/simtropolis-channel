@@ -4,10 +4,11 @@ import fs from 'node:fs';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
 import ora from 'ora';
-import { kFileInfo } from './symbols.js';
 import tmp from 'tmp-promise';
 import yauzl from 'yauzl';
 import { parseAllDocuments } from 'yaml';
+import { kFileInfo } from './symbols.js';
+import { SimtropolisError } from './errors.js';
 
 // # Downloader
 // A helper class for downloading urls to a temp folder.
@@ -31,7 +32,7 @@ export default class Downloader {
 			Cookie: process.env.SC4PAC_SIMTROPOLIS_COOKIE,
 		});
 		if (res.status >= 400) {
-			throw new Error(`HTTP ${res.status}`);
+			throw new SimtropolisError(res);
 		}
 		const ws = fs.createWriteStream(destination);
 		await finished(Readable.fromWeb(res.body).pipe(ws));
