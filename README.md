@@ -45,35 +45,69 @@ If your plugin has no dependencies and no specific installation needs, you can l
 In order for a package to be installable with sc4pac, metadata about it must be written.
 You can learn more about this [in the official sc4pac documentation](https://memo33.github.io/sc4pac/#/metadata).
 However, in order to appear on the Simtropolis channel, it is not required to write the full metadata, as most of the metadata can be generated automatically from the STEX information.
-More specifically, by default this channel transforms a STEX upload into the following metadata:
+
+For example, consider [Magasin Valois by Jasoncw](https://community.simtropolis.com/files/file/36465-magasin-valois/)
+
+![image](https://github.com/user-attachments/assets/2487f4fc-d6ec-49a7-a6fc-d656865f862b)
+
+which would be by default be transformed into
 
 ```yaml
-group: stex-author
-name: stex-title
-version: stex-version
-subfolder: stex-category
+group: jasoncw
+name: magasin-valois
+version: "1.0.0"
+subfolder: 300-commercial
 info:
-  summary: STEX Title
+  summary: Magasin Valois
   description: |-
-    Description as given on the STEX, transformed from html to markdown
-  author: STEX Author
-  website: https://community.simtropolis.com/files/file/[id]-stex-author-stex-title
+    Magasin Valois, the brand only the most fashionable high wealth sims wear.
+
+    It is a corner lot for the Euro tileset.
+
+    - 1x2 growable and ploppable CS§§§ lot.
+    - MaxisNite and DarkNite versions included.
+    - DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+    - Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36465-magasin-valois/
   images:
-    - https://community.simtropolis.com/path-to-image.jpg
-assets:
-  - assetId: stex-author-stex-title
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66f4a2f03413f_MagasinValois00.jpg.e77d15efa6ab68a2660313ca1c00a1a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66f4a2fbcfeb2_MagasinValois01.jpg.8450c652a322d9263f5825a66bc2d5a8.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-magasin-valois-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-magasin-valois-darknite
 
 ---
-assetId: stex-author-stex-title
-url: https://community.simtropolis.com/files/file/[id]-stex-author-stex-title?do=download&r=[id]
-lastModified: Last updated date from STEX
-version: stex-version
+assetId: jasoncw-magasin-valois-maxisnite
+version: "1.0.0"
+lastModified: "2024-09-25T23:56:22Z"
+url: https://community.simtropolis.com/files/file/36465-magasin-valois/?do=download&r=203589
+
+---
+assetId: jasoncw-magasin-valois-darknite
+version: "1.0.0"
+lastModified: "2024-09-25T23:56:22Z"
+url: https://community.simtropolis.com/files/file/36465-magasin-valois/?do=download&r=203590
 ```
 
 This is why you can leave the `metadata.yaml` file in your .zip empty: if the generated metadata from the STEX upload is sufficient for your package, you don't have to write any metadata yourself!
 Everything is handled automatically.
 
-If your plugin has dependencies, or other specific installation needs for which you need to be able to customize the metadata, you can do this with the `metadata.yaml` file.
+However, note that the upload above specifies Mipro Essentials - December 2015 as a dependency.
+Dependencies are ***not*** parsed automatically from the STEX upload, so `metadata.yaml` for the upload above should look like
+```yaml
+dependencies:
+  - mipro:essentials
+```
+in order to be fully compatible.
+Also note that Maxisnite and Darknite variants can be handled automatically ([see below](#supporting-variants)).
+
+If your plugin has other specific installation needs for which you need to be able to customize the metadata, it should also be done within `metadata.yaml`.
 The channel will use anything it finds in here, and fill in the gaps based on the STEX upload.
 For example, if you want to upload a package under a different group name - for example because you're part of the NYBT team - and it needs the `nybt:essentials` as a dependency, then this can be done by adding
 ```yaml
