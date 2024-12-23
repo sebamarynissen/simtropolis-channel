@@ -658,29 +658,6 @@ describe('The fetch action', function() {
 
 	});
 
-	it('properly detects a metadata.yaml file in the assets', async function() {
-
-		let zip = faker.file();
-		let upload = faker.upload({
-			files: [
-				{
-					name: 'metadata.yaml',
-					contents: '',
-				},
-				zip,
-			],
-		});
-		const { run } = this.setup({ uploads: [upload] });
-
-		const { packages } = await run({ id: upload.id });
-		expect(packages).to.have.length(1);
-		let [pkg] = packages;
-		expect(pkg.metadata.assets).to.have.length(1);
-		let url = new URL(pkg.metadata.assets[0].url);
-		expect(url.searchParams.get('r')).to.equal(String(zip.id));
-
-	});
-
 });
 
 function jsonToYaml(json) {

@@ -174,7 +174,6 @@ async function handleFile(json, opts = {}) {
 	// prefilled metadata.
 	let parsedMetadata = false;
 	let downloader = new Downloader();
-	let filteredAssets = [];
 	for (let asset of metadata.assets) {
 
 		// If the assets contains metadata, we'll use this one, only if former 
@@ -182,25 +181,21 @@ async function handleFile(json, opts = {}) {
 		// when unzipping, then we'll just swallow it. It's always possible that 
 		// someone uploads an invalid zip file, nothing we can do about that, 
 		// but we don't want this to block our workflow.
-		let info = await downloader.handleAsset(asset) || {};
-		if (info.metadata && !parsedMetadata) {
-			parsedMetadata = info.metadata;
-		}
-		if (info.skip !== true) filteredAssets.push(asset);
+		// try {
+			let info = await downloader.handleAsset(asset);
+			if (info.metadata && !parsedMetadata) {
+				parsedMetadata = info.metadata;
+			}
+		// } catch {}
 
 	}
-
-	// During the download process, it might have been revealed that certain 
-	// files are not actually assets - for example the metadata.yaml file. Hence 
-	// we filter.
-	metadata.assets = filteredAssets;
 
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
 	const { requireMetadata = true } = opts;
 	if (!parsedMetadata && requireMetadata) {
-		console.log(`No metadata found for package ${json.fileURL}, skipping.`);
+		console.log(`Package ${json.fileURL} does not have a metadata.yaml file in its root, skipping.`);
 		return;
 	}
 
