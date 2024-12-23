@@ -26,7 +26,7 @@ See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and dis
   - [x] Ensure incorrect metadata cannot be deployed
   - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed, for example in a yaml file in this repo. That way someone from a team can upload under the team name, but only if explicitly allowed.
   - [ ] Automatically generate DLL checksums
-- [ ] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
+- [x] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
 - [ ] Make the channel available under a simtropolis.com url, e.g. https://sc4pac.simtropolis.com
@@ -172,3 +172,54 @@ lastModified: ...
 ```
 
 However, if further customization is needed, you will need to write the variant metadata yourself in `metadata.yaml`.
+
+## Subfolders
+
+Most of the time, you don't want your plugin to end up in the root of a user's plugins folder unless your plugin is a DLL.
+Sc4pac [allows you to specify what subfolder a plugin will end up in](https://memo33.github.io/sc4pac/#/metadata?id=subfolder).
+While it is strongly recommended to explicitly specify the subfolder you want your plugin to end up in - which can be done by specifying a `metadata.yaml` file
+```yaml
+subfolder: 660-parks
+```
+it is still possible to leave this out and have the channel decide the subfolder for you based on the *File Descriptor* of the STEX upload.
+
+![image](https://github.com/user-attachments/assets/b1e0cb8a-90fc-4e6a-83c2-cb200dfe5ad2)
+
+Mapping the file descriptor to a subfolder happens according to the following table.
+Note that a descriptor is always *normalized* first before checking it against the table, meaning that it is lowercased, and spaces become hyphens.
+```yaml
+dependency: 100-props-textures
+residential: 200-residential
+commercial: 300-commercial
+industrial: 400-industrial
+agricultural: 410-agriculture
+utilities-water: 500-utilities
+utilities-power: 500-utilities
+utilities-garbage: 500-utilities
+services-police: 610-safety
+services-fire: 610-safety
+services-education: 620-education
+services-medical: 630-health
+civics-landmarks: 360-landmark
+civics-rewards: 360-landmark
+civics-parks: 660-parks
+civics: 600-civics
+services: 600-civics
+automata: 710-automata
+transport: 700-transit
+mmp(s): 180-flora
+mod: 150-mods
+misc: 150-mods
+```
+
+If a file has multiple descriptors - for example both `Mod` and `Residential`, then the result will be `200-residential` because it has a higher priority in the map.
+
+It also takes into account that descriptors might have longer names. For example, `Residential - Re-lot` does not exist in the table, but if this is the file descriptor, this is reduced to `Residential` automatically. Some examples:
+
+- `Civics`, `Civics - Parks and Recreation` ⇒ `660-parks`
+- `Civics`, `Civics - A very specific category of civics` ⇒ `600-civics`
+- `Residential Re-lot` ⇒ `200-residential`
+- `Mod`, `Utilities - Water` ⇒ `500-utilities`
+
+As there isn't a clear one-on-one relation from Simtropolis file descriptors to sc4pac subfolders, it is **strongly recommended** to always provide the subfolder manually in your `metadata.yaml` file.
+This is especially important if your plugin has specific needs, such as needing to be loaded after certain other plugins, meaning it should end up in `900-overrides`.
