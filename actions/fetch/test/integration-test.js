@@ -1,6 +1,8 @@
 // # integration-test.js
 import { expect } from 'chai';
 import { Document, parseAllDocuments } from 'yaml';
+import mime from 'mime';
+import path from 'node:path';
 import yazl from 'yazl';
 import { Volume } from 'memfs';
 import { marked } from 'marked';
@@ -80,10 +82,21 @@ describe('The fetch action', function() {
 							return new Response('Not found', { status: 404 });
 						}
 
+						// If the file is not a .zip file, return with another 
+						// mime type.
+						let { contents } = file;
+						let type = mime.getType(path.extname(file.name));
+						if (type !== 'application/zip' || contents instanceof Error) {
+							return new Response(contents, {
+								headers: {
+									'Content-Type': type,
+								},
+							});
+						}
+
 						// Mock a .zip file with the contents as specified in 
 						// the upload.
 						let zipFile = new yazl.ZipFile();
-						let { contents } = file;
 						for (let [name, raw] of Object.entries(contents)) {
 							if (typeof raw === 'object') {
 								raw = jsonToYaml(raw);
@@ -612,7 +625,38 @@ describe('The fetch action', function() {
 
 	});
 
-	it('does not update the LAST_RUN file when Simtropolis is unavailable');
+	it('ignores non-zip archives', async function() {
+
+		let upload = faker.upload({
+			files: ['package.rar'],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+		});
+
+		const { packages } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+
+	});
+
+	it('ignores errors during unzipping', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					name: 'package.zip',
+					contents: new Error(),
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+		});
+
+		const { packages } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+
+	});
 
 });
 
