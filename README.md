@@ -3,11 +3,9 @@
 This repository contains the code for the [sc4pac](https://memo33.github.io/sc4pac/#/) metadata channel that automatically handles uploads to the STEX.
 Highly experimental state.
 Add `https://sebamarynissen.github.io/simtropolis-channel` to your sc4pac channels to use it.
-
-Currently, content on the STEX is *not* processed automatically, but the goal is to automatically fetch the latest STEX uploads and process them.
-Ideally this happens by Simtropolis triggering a workflow dispatch on this repo, but we could also run an action that checks for new updates every hour or so.
-
 See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
+
+Currently, the STEX is polled for new content once every hour, meaning if your plugin is compatible and has valid metadata (see below), it should appear within the hour on the channel.
 
 ## Goals
 
@@ -24,7 +22,7 @@ See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and dis
 - [x] Setup an action that creates a PR instead of pushing to main
 - [x] Make the metadata generation robust & fool proof
   - [x] Ensure incorrect metadata cannot be deployed
-  - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed, for example in a yaml file in this repo. That way someone from a team can upload under the team name, but only if explicitly allowed.
+  - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed in the `permissions.yaml` file. That way someone from a team can upload under the team name, but only if explicitly allowed.
   - [x] Automatically generate DLL checksums
 - [x] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
@@ -257,3 +255,11 @@ It also takes into account that descriptors might have longer names. For example
 
 As there isn't a clear one-on-one relation from Simtropolis file descriptors to sc4pac subfolders, it is **strongly recommended** to always provide the subfolder manually in your `metadata.yaml` file.
 This is especially important if your plugin has specific needs, such as needing to be loaded after certain other plugins, meaning it should end up in `900-overrides`.
+
+## Invalid metadata
+
+If you have added an invalid `metadata.yaml` file - which also includes referencing non-existent dependencies or assets - then your package will not be added to the channel.
+Instead, a [pull request](https://github.com/sebamarynissen/simtropolis-channel/pulls) will be created with the package name you were trying to update, which will contain information about what was wrong with the package.
+Hence it is always a good idea after uploading a plugin to check the [pull requests](https://github.com/sebamarynissen/simtropolis-channel/pulls) to see if your package was added successfully.
+
+While currently not yet implemented, the idea is to send a notification on Simtropolis if your package could not be added in the future.
