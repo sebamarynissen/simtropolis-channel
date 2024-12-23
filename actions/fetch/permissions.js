@@ -35,8 +35,18 @@ export default class PermissionsApi {
 	isUploadAllowed(upload) {
 		if (!this.index) return true;
 		let permission = this.index.usersById.get(String(upload.uid));
-		if (!permission || permission.blocked) return false;
+		if (permission?.blocked) return false;
 		return true;
+	}
+
+	// ## assertUploadAllowed(upload)
+	assertUploadAllowed(upload) {
+		if (!this.isUploadAllowed(upload)) {
+			throw new PermissionsError({
+				message: `Author ${upload.uid} is not allowed to upload a package to the channel!`,
+				code: 'upload_not_allowed',
+			});
+		}
 	}
 
 	// ## assertPackageAllowed(upload, data)

@@ -1,18 +1,16 @@
-# List of creators that are allowed to add their plugin to the channel. For now 
-# you *must* be listed. Once stable, we can lift this requirement, but the 
-# permissions will still be useful for determining who has access to which 
-# groups.
+# For now, everyone is allowed to include their package on the channel, but if
+# it turns out that people are abusing this, then they might be blocked from the 
+# channel. This can be done by including them here, and then blocking them.
 authors:
-  - name: smf_16
-    id: 259789
 
-  # Allow Jasoncw for testing
-  - name: Jasoncw
-    id: 85340
-
-# Exemplar for permissions for specific packages.
+# Example for permissions for specific packages.
 # authors:
 #   - name: Aaron Graham
 #     id: 226625
 #     groups:
 #       - nybt
+
+# Example for blocking someone
+# authors:
+#   - id: 1234
+#     blocked: true
