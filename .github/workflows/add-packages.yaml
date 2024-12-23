@@ -6,10 +6,12 @@ on:
       url:
         description: URL or file id
         required: false
-      # require-metadata:
-      #   description: Require metadata.yaml
-      #   type: boolean
-      #   default: true
+      require-metadata:
+        description: Require metadata.yaml
+        type: boolean
+        default: true
+  schedule:
+    - cron: '2-59/5 * * * *'
 
 jobs:
   add-packages:
