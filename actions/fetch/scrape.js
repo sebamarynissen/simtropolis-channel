@@ -72,8 +72,24 @@ export default async function scrape(url) {
 // that in case the file has both "mod" and "commercial" descriptors for 
 // example, we use the best fit, so we'll properly sort them first.
 export function descriptorToSubfolder(descriptors) {
+
+	// Note: apparently Simtropolis sometimes has longer descriptors than what 
+	// is possible to set when uploading a file. For example, we've seen 
+	// Residential Re-lot. Hence we use a mechanism first for "normalizing" the 
+	// keys by progressively looking up the "parent" name.
 	let keys = Object.keys(descriptorMap);
-	let sorted = [...descriptors].sort((a, b) => {
+	let normalized = descriptors.map(desc => {
+		let pivot = desc;
+		while (pivot && !Object.hasOwn(descriptorMap, pivot)) {
+			let parts = pivot.split('-');
+			parts.pop();
+			pivot = parts.join('-');
+		}
+		return pivot || desc;
+	});
+
+	// Now properly sort so that "residential" for example comes before "mod".
+	let sorted = [...normalized].sort((a, b) => {
 		return keys.indexOf(a) - keys.indexOf(b);
 	});
 	for (let key of sorted) {
@@ -81,13 +97,12 @@ export function descriptorToSubfolder(descriptors) {
 			return descriptorMap[key];
 		}
 	}
+	return undefined;
 }
 
 const descriptorMap = {
 	dependency: '100-props-textures',
-	'dependency-packages': '100-props-textures',
 	residential: '200-residential',
-	'residential-re-lot': '200-residential',
 	commercial: '300-commercial',
 	industrial: '400-industrial',
 	agricultural: '410-agriculture',
@@ -100,7 +115,8 @@ const descriptorMap = {
 	'services-medical': '630-health',
 	'civics-landmarks': '360-landmark',
 	'civics-rewards': '360-landmark',
-	'civics-parks-and-recreation': '660-parks',
+	'civics-parks': '660-parks',
+	civics: '600-civics',
 	automata: '710-automata',
 	transport: '700-transit',
 	'mmp(s)': '180-flora',

@@ -710,6 +710,15 @@ describe('The fetch action', function() {
 
 	});
 
+	it('picks a subfolder based on what matches best', async function() {
+		let upload = faker.upload({
+			fileDescriptor: 'Residential re-lot for real',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata.package.subfolder).to.equal('200-residential');
+	});
+
 });
 
 function jsonToYaml(json) {
