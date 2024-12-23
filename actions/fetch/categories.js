@@ -16,7 +16,7 @@ export default {
 	// this by reading the file descriptor by using the scraping approach. 
 	// Ideally the STEX api can return this as well. By default we use 
 	// "landmarks" though.
-	106: '360-landmarks',
+	106: '360-landmark',
 	// 107 = Utilities
 	// 108 = Parks & Plazas
 	108: '660-parks',
