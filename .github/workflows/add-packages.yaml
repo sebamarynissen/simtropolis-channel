@@ -6,10 +6,10 @@ on:
       url:
         description: URL or file id
         required: false
-      require-metadata:
-        description: Require metadata.yaml
-        type: boolean
-        default: true
+      # require-metadata:
+      #   description: Require metadata.yaml
+      #   type: boolean
+      #   default: true
 
 jobs:
   add-packages:

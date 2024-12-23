@@ -4,6 +4,7 @@ import fetch from './fetch.js';
 
 const url = core.getInput('url');
 const requireMetadata = core.getInput('require-metadata');
+console.log({ requireMetadata });
 try {
 	const { packages, timestamp } = await fetch({
 		id: url,
