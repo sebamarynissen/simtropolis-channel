@@ -45,6 +45,65 @@ export default async function scrape(url) {
 		return ai - bi;
 	});
 
-	return { description, images };
+	// Find the file descriptor (if provided). From this we'll parse the 
+	// subfolder later on.
+	let descriptors = [...[...$$('li strong')]
+		.filter(node => node.textContent.toLowerCase() === 'file descriptor')
+		.at(0)
+		?.closest('li')
+		.querySelector('div:last-child')
+		.childNodes ?? []]
+		.filter(node => node.nodeName === '#text')
+		.map(node => {
+			return node
+				.textContent
+				.trim()
+				.toLowerCase()
+				.replaceAll(/\s+/g, '-')
+				.replaceAll(/-+/g, '-');
+		});
+	let subfolder = descriptorToSubfolder(descriptors);
+	return { description, images, subfolder };
 
 }
+
+// # descriptorToSubfolder(descriptors)
+// Finds the best match for a subfolder based on the given descriptors. Note 
+// that in case the file has both "mod" and "commercial" descriptors for 
+// example, we use the best fit, so we'll properly sort them first.
+export function descriptorToSubfolder(descriptors) {
+	let keys = Object.keys(descriptorMap);
+	let sorted = [...descriptors].sort((a, b) => {
+		return keys.indexOf(a) - keys.indexOf(b);
+	});
+	for (let key of sorted) {
+		if (Object.hasOwn(descriptorMap, key)) {
+			return descriptorMap[key];
+		}
+	}
+}
+
+const descriptorMap = {
+	dependency: '100-props-textures',
+	'dependency-packages': '100-props-textures',
+	residential: '200-residential',
+	'residential-re-lot': '200-residential',
+	commercial: '300-commercial',
+	industrial: '400-industrial',
+	agricultural: '410-agriculture',
+	'utilities-water': '500-utilities',
+	'utilities-power': '500-utilities',
+	'utilities-garbage': '500-utilities',
+	'services-police': '610-safety',
+	'services-fire': '610-safety',
+	'services-education': '620-education',
+	'services-medical': '630-health',
+	'civics-landmarks': '360-landmark',
+	'civics-rewards': '360-landmark',
+	'civics-parks-and-recreation': '660-parks',
+	automata: '710-automata',
+	transport: '700-transit',
+	'mmp(s)': '180-flora',
+	mod: '150-mods',
+	misc: '150-mods',
+};

@@ -1,6 +1,7 @@
 // # parse-basic-metadata-test.js
 import { expect } from 'chai';
 import apiToMetadata from '../api-to-metadata.js';
+import * as faker from './faker.js';
 
 describe('#apiToMetadata', function() {
 
@@ -112,6 +113,19 @@ describe('#apiToMetadata', function() {
 		for (let asset of assets) {
 			expect(asset.version).to.equal('1.0.0');
 			expect(asset.lastModified).to.equal('2024-12-05T04:10:52Z');
+		}
+
+	});
+
+	it('handles iso date formats', function() {
+
+		let upload = faker.upload({
+			submitted: '2024-12-05T04:10:52Z',
+			updated: '2024-12-05T04:10:52Z',
+		});
+		let meta = apiToMetadata(upload);
+		for (let asset of meta.assets) {
+			expect(asset.lastModified).to.equal(upload.updated);
 		}
 
 	});

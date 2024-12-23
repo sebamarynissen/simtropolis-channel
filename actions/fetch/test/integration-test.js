@@ -114,17 +114,30 @@ describe('The fetch action', function() {
 						);
 
 					} else {
-						let { description, images = [] } = upload;
-						let html = images.map(img => {
+						let {
+							description,
+							images = [],
+							fileDescriptor,
+							fileDescriptors = [fileDescriptor],
+						} = upload;
+						let imageHtml = images.map(img => {
 							return `<span data-fullURL="${img}"></span>`;
 						}).join('');
+						let descriptorHtml = '';
+						if (fileDescriptors) {
+							descriptorHtml = `<li>
+								<span><strong>File Descriptor</strong></span>
+								<div>${fileDescriptors.join('\n<br>\n')}</div>
+							</li>`;
+						}
 						return new Response(`<html>
 							<body>
 								<div>
 									<h2>About this file</h2>
 									<section><div>${marked(description)}</div></section>
 								</div>
-								<ul class="cDownloadsCarousel">${html}</ul>
+								<ul class="cDownloadsCarousel">${imageHtml}</ul>
+								${descriptorHtml}
 							</body>
 						</html>`);
 					}
@@ -170,6 +183,7 @@ describe('The fetch action', function() {
 			author: 'smf_16',
 			title: 'SMF Tower',
 			release: '1.0.2',
+			fileDescriptor: 'Residential',
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
@@ -223,6 +237,7 @@ describe('The fetch action', function() {
 					},
 				},
 			],
+			fileDescriptor: 'Agricultural',
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
@@ -267,6 +282,7 @@ describe('The fetch action', function() {
 				'SMF Tower (MN).zip',
 				'SMF Tower (DN).zip',
 			],
+			fileDescriptor: 'Commercial',
 		});
 
 		const { run } = this.setup({ uploads: [upload] });
@@ -351,6 +367,7 @@ describe('The fetch action', function() {
 						contents: {},
 					},
 				],
+				fileDescriptor: 'Commercial',
 			}],
 		});
 
@@ -429,6 +446,7 @@ describe('The fetch action', function() {
 						},
 					},
 				],
+				fileDescriptor: 'Residential',
 			}],
 		});
 
@@ -506,6 +524,7 @@ describe('The fetch action', function() {
 						},
 					},
 				],
+				fileDescriptor: 'Residential',
 			}],
 		});
 
@@ -661,6 +680,33 @@ describe('The fetch action', function() {
 
 		const { packages } = await run({ id: upload.id });
 		expect(packages).to.have.length(0);
+
+	});
+
+	it('uses the file descriptor to generate the subfolder', async function() {
+
+		let upload = faker.upload({
+			fileDescriptor: 'Civics - Landmarks',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata.package.subfolder).to.equal('360-landmark');
+
+	});
+
+	it('picks the best subfolder in case there are multiple descriptors', async function() {
+
+		let upload = faker.upload({
+			fileDescriptors: [
+				'Mod',
+				'Services - Education',
+			],
+		});
+		const { run } = this.setup({ uploads: [upload] });
+
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata.package.subfolder).to.equal('620-education');
 
 	});
 

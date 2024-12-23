@@ -147,7 +147,7 @@ async function handleFile(json, opts = {}) {
 	// this with scraping for the description and images as they are not 
 	// included in the api response yet.
 	let metadata = apiToMetadata(json);
-	let { description, images } = await scrape(json.fileURL);
+	let { description, images, subfolder } = await scrape(json.fileURL);
 	let { package: pkg } = metadata;
 	let { info } = pkg;
 	if (!info.description) {
@@ -156,6 +156,7 @@ async function handleFile(json, opts = {}) {
 	if (!info.images) {
 		info.images = images;
 	}
+	pkg.subfolder = subfolder;
 
 	// Now generate the variants from what we've decided to include. This will 
 	// multiply the available variants by 2 in every step.
@@ -181,12 +182,10 @@ async function handleFile(json, opts = {}) {
 		// when unzipping, then we'll just swallow it. It's always possible that 
 		// someone uploads an invalid zip file, nothing we can do about that, 
 		// but we don't want this to block our workflow.
-		// try {
-			let info = await downloader.handleAsset(asset);
-			if (info.metadata && !parsedMetadata) {
-				parsedMetadata = info.metadata;
-			}
-		// } catch {}
+		let info = await downloader.handleAsset(asset);
+		if (info.metadata && !parsedMetadata) {
+			parsedMetadata = info.metadata;
+		}
 
 	}
 
