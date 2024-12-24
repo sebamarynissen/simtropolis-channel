@@ -47,12 +47,12 @@ describe('The fetch action', function() {
 
 			// We'll mock the global "fetch" method so that we can mock the api 
 			// & download responses.
-			globalThis.fetch = async function(url) {
+			globalThis.fetch = async function(url, options) {
 
 				// We will check first of all whether this request should be 
 				// handled by a custom handler, which allows us to simulate 
 				// error codes returned by Simtropolis.
-				let req = new Request(url);
+				let req = new Request(url, options);
 				let res = handler(req);
 				if (res) return res;
 
@@ -813,6 +813,25 @@ describe('The fetch action', function() {
 		const { packages, warnings } = await run({ id: upload.id });
 		expect(packages).to.have.length(0);
 		expect(warnings).to.have.length(1);
+
+	});
+
+	it('sends the Simtropolis cookie when downloading', async function() {
+
+		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'cookie';
+
+		const upload = faker.upload({});
+		const { run } = this.setup({
+			uploads: [upload],
+			handler(req) {
+				let url = new URL(req.url);
+				if (url.searchParams.get('do') === 'download') {
+					let cookie = req.headers.get('cookie');
+					expect(cookie).to.equal('cookie');
+				}
+			},
+		});
+		await run({ id: upload.id });
 
 	});
 
