@@ -29,7 +29,9 @@ export default class Downloader {
 		const dir = await tmp.dir();
 		const destination = path.join(dir.path, info.name);
 		const res = await fetch(url, {
-			Cookie: process.env.SC4PAC_SIMTROPOLIS_COOKIE,
+			headers: {
+				Cookie: process.env.SC4PAC_SIMTROPOLIS_COOKIE,
+			},
 		});
 		if (res.status >= 400) {
 			throw new SimtropolisError(res);
