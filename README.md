@@ -23,7 +23,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - [ ] Make the metadata generation robust & fool proof
   - [x] Ensure incorrect metadata cannot be deployed
   - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed in the `permissions.yaml` file. That way someone from a team can upload under the team name, but only if explicitly allowed.
-  - [ ] Automatically generate DLL checksums
+  - [ ] Automatically generate DLL checksums (see [#37](https://github.com/sebamarynissen/simtropolis-channel/pull/37) for the discussion about this feature)
 - [x] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
