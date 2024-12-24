@@ -1,6 +1,7 @@
 // # downloader.js
 import path from 'node:path';
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
 import ora from 'ora';
@@ -53,9 +54,9 @@ export default class Downloader {
 	async handleAsset(asset) {
 		const spinner = ora(`Downloading ${asset.url}`).start();
 		const download = await this.download(asset);
-		let metadata;
+		let assetInfo;
 		try {
-			metadata = await this.handleDownload(download);
+			assetInfo = await this.handleDownload(download);
 			spinner.succeed();
 		} catch (e) {
 			console.error(e);
@@ -63,7 +64,11 @@ export default class Downloader {
 		} finally {
 			await download.cleanup();
 		}
-		return { metadata };
+		return {
+			metadata: null,
+			checksums: [],
+			...assetInfo,
+		};
 	}
 
 	// ## handleDownload(download)
@@ -80,6 +85,7 @@ export default class Downloader {
 	// ## handleZip(download)
 	async handleZip(download) {
 		let metadata;
+		let checksums = [];
 		const tasks = [];
 		const closed = withResolvers();
 		yauzl.open(download.path, { lazyEntries: false }, (err, zipFile) => {
@@ -95,11 +101,33 @@ export default class Downloader {
 					tasks.push(task);
 				}
 
+				// If this is a dll, then we'll generate the checksum for it as 
+				// well.
+				if (path.extname(entry.fileName) === '.dll') {
+					let task = read(zipFile, entry).then(buffer => {
+						let sha256 = crypto.createHash('sha256')
+							.update(buffer)
+							.digest('hex');
+						checksums.push({
+							include: `/${entry.fileName}`,
+							sha256,
+						});
+					});
+					tasks.push(task);
+				}
+
 			});
 		});
 		await closed.promise;
 		await Promise.all(tasks);
-		return metadata;
+
+		// Make sure to sort the checksum entries to have a deterministic order 
+		// between runs. Otherwise we could create unnecessary diffs.
+		checksums.sort((a, b) => a.include < b.include ? -1 : 1);
+		return {
+			metadata,
+			checksums,
+		};
 	}
 
 }

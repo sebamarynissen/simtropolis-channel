@@ -2,6 +2,7 @@
 import { expect } from 'chai';
 import { Document, parseAllDocuments, stringify } from 'yaml';
 import mime from 'mime';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import yazl from 'yazl';
 import { Volume } from 'memfs';
@@ -118,7 +119,7 @@ describe('The fetch action', function() {
 						// the upload.
 						let zipFile = new yazl.ZipFile();
 						for (let [name, raw] of Object.entries(contents)) {
-							if (typeof raw === 'object') {
+							if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
 								raw = jsonToYaml(raw);
 							}
 							zipFile.addBuffer(Buffer.from(raw), name);
@@ -813,6 +814,33 @@ describe('The fetch action', function() {
 		const { packages, warnings } = await run({ id: upload.id });
 		expect(packages).to.have.length(0);
 		expect(warnings).to.have.length(1);
+
+	});
+
+	it('generates DLL checksums automatically', async function() {
+
+		const contents = crypto.getRandomValues(new Uint8Array(250));
+		const sha256 = crypto.createHash('sha256').update(contents).digest('hex');
+		const upload = faker.upload({
+			files: [
+				{
+					name: 'extra-cheats.zip',
+					contents: {
+						'metadata.yaml': '',
+						'extra-cheats.dll': contents,
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+		});
+		const { result } = await run({ id: upload.id });
+		let [asset] = result.metadata.assets;
+		expect(asset.withChecksum).to.eql([{
+			include: '/extra-cheats.dll',
+			sha256,
+		}]);
 
 	});
 

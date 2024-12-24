@@ -198,6 +198,12 @@ async function handleFile(json, opts = {}) {
 			parsedMetadata = info.metadata;
 		}
 
+		// If the asset contains dll files, then checksums should have been 
+		// generated. We'll add those to the metadata.
+		if (info.checksums.length > 0) {
+			asset.withChecksum = info.checksums;
+		}
+
 	}
 
 	// If we have not found any metadata at this moment, then we skip this 
