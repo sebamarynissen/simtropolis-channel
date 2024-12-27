@@ -8,7 +8,7 @@ inputs:
     description: Whether a metadata.yaml file is required to add the package. Useful to turn this off for testing.
     type: boolean
     default: true
-  last-run:
+  after:
     description: An ISO date string that holds the timestamp when the STEX api was last checked.
     type: string
     required: true
