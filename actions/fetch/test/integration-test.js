@@ -861,6 +861,8 @@ describe('The fetch action', function() {
 			sha256,
 		}]);
 
+	});
+
 	it('sends the Simtropolis cookie when downloading', async function() {
 
 		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'cookie';
