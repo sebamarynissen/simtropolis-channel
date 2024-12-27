@@ -48,12 +48,12 @@ describe('The fetch action', function() {
 
 			// We'll mock the global "fetch" method so that we can mock the api 
 			// & download responses.
-			globalThis.fetch = async function(url) {
+			globalThis.fetch = async function(url, options) {
 
 				// We will check first of all whether this request should be 
 				// handled by a custom handler, which allows us to simulate 
 				// error codes returned by Simtropolis.
-				let req = new Request(url);
+				let req = new Request(url, options);
 				let res = handler(req);
 				if (res) return res;
 
@@ -641,6 +641,25 @@ describe('The fetch action', function() {
 			'2024-12-20T12:00:00Z',
 			'2024-11-30T17:00:00Z',
 		]);
+		let after = '2024-12-21T12:00:00Z';
+		const { run } = this.setup({ uploads });
+
+		const { packages, timestamp } = await run({ after });
+		expect(packages).to.have.length(1);
+		expect(packages[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
+
+		expect(Date.parse(timestamp)).to.be.above(Date.parse(after));
+
+	});
+
+	it('fetches all files from the STEX api since the last fetch date from LAST_RUN if no id was specified', async function() {
+
+		let uploads = faker.uploads([
+			'2024-12-21T14:00:00Z',
+			'2024-12-21T11:00:00Z',
+			'2024-12-20T12:00:00Z',
+			'2024-11-30T17:00:00Z',
+		]);
 		let lastRun = '2024-12-21T12:00:00Z';
 		const { run } = this.setup({
 			uploads,
@@ -841,6 +860,23 @@ describe('The fetch action', function() {
 			include: '/extra-cheats.dll',
 			sha256,
 		}]);
+
+	it('sends the Simtropolis cookie when downloading', async function() {
+
+		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'cookie';
+
+		const upload = faker.upload({});
+		const { run } = this.setup({
+			uploads: [upload],
+			handler(req) {
+				let url = new URL(req.url);
+				if (url.searchParams.get('do') === 'download') {
+					let cookie = req.headers.get('cookie');
+					expect(cookie).to.equal('cookie');
+				}
+			},
+		});
+		await run({ id: upload.id });
 
 	});
 

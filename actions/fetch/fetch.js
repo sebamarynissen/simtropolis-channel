@@ -44,22 +44,17 @@ export default async function fetchPackage(opts) {
 		storeLastRun = false;
 		after = -Infinity;
 
-	} else if (!after) {
+	} else if (after === undefined) {
 		try {
 
-			// Unfortunately the STEX api does not support passing in an exact 
-			// date - to check if this could be added. It only supports 
-			// specifying an amount of days to go back. It's not really clear 
-			// whether this means 24 hours, so we'll use a bit of leeway and 
-			// then just filter it out later on.
+			// If no specific id was specified, nor an explicit after date, then 
+			// we read the last run date from the last run file.
 			let filePath = path.join(cwd, lastRunFile);
 			let contents = String(await fs.promises.readFile(filePath)).trim();
 			after = Date.parse(contents);
 			if (Number.isNaN(after)) {
 				throw new Error(`Invalid date in ${lastRunFile}: "${contents}"`);
 			}
-			let days = Math.ceil((+now - after) / MS_DAY)+1;
-			url.searchParams.set('days', days);
 
 		} catch (e) {
 
@@ -75,9 +70,17 @@ export default async function fetchPackage(opts) {
 
 	}
 
+	// Unfortunately the STEX api does not support passing in an exact 
+	// date - to check if this could be added. It only supports 
+	// specifying an amount of days to go back. It's not really clear 
+	// whether this means 24 hours, so we'll use a bit of leeway and 
+	// then just filter it out later on.
+	let threshold = normalizeAfterDate(after);
+	let days = Math.ceil((+now - threshold) / MS_DAY)+1;
+	url.searchParams.set('days', days);
+
 	// Fetch from the api.
-	// TODO: handle various STEX errors here.
-	let lastRun = new Date().toISOString();
+	let nextLastRun = new Date().toISOString();
 	let res = await fetch(url);
 	if (res.status >= 400) {
 		throw new SimtropolisError(res);
@@ -103,7 +106,7 @@ export default async function fetchPackage(opts) {
 		// Discard objects that we have already processed based on the "after" 
 		// parameter.
 		let updated = parseDate(obj.updated);
-		if (after > updated.getTime()) continue;
+		if (threshold > updated.getTime()) continue;
 
 		// Check whether the creator is allowed to publish files on the STEX 
 		// channel. We don't create a failing PR in this case, but we do log the 
@@ -135,12 +138,29 @@ export default async function fetchPackage(opts) {
 	// Update the timestamp that we last fetched the stex api, but only if not 
 	// explicitly requesting a specific file!
 	return {
-		timestamp: (storeLastRun ? lastRun : false),
+		timestamp: (storeLastRun ? nextLastRun : false),
 		packages,
 		notices,
 		warnings,
 	};
 
+}
+
+// # normalizeAfterDate(after)
+// Accepts either a date string, a date or a number and normalizes it to a 
+// timestamp.
+function normalizeAfterDate(after) {
+	if (typeof after === 'string') {
+		let offset = Date.parse(after);
+		if (Number.isNaN(offset)) {
+			throw new Error(`Invalid after date "${after}"!`);
+		}
+		return offset;
+	} else if (after instanceof Date) {
+		return after.getTime();
+	} else {
+		return after;
+	}
 }
 
 // # parseDate(str)
