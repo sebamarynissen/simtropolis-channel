@@ -44,6 +44,7 @@ jobs:
         uses: ./actions/fetch
         with:
           url: ${{ github.event.inputs.url }}
+          after: ${{ vars.LAST_RUN }}
           require-metadata: ${{ github.events.inputs.require-metadata }}
       - name: Setup linter
         if: steps.fetch.outputs.has-new-content == 'true'
