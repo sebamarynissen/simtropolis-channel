@@ -63,11 +63,12 @@ if (packages.length > 0) {
 // long as we didn't update LAST_RUN yet.
 const timestamp = core.getInput('timestamp');
 if (timestamp) {
-	await fs.promises.writeFile(path.join(cwd, 'LAST_RUN'), timestamp);
-	await git.add('LAST_RUN');
-	const message = `\`${timestamp.slice(0, 19) + 'Z'}\``;
-	await git.commit(message, { '--allow-empty': true });
-	await git.push('origin', 'main');
+	const octokit = github.getOctokit(process.env.LAST_RUN_TOKEN);
+	await octokit.request('PATCH /repos/{owner}/{repo}/actions/variables/{name}', {
+		...context.repo,
+		name: 'LAST_RUN',
+		value: timestamp,
+    });
 }
 
 // # createPr(pkg)
