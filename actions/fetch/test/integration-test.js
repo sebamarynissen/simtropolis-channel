@@ -640,6 +640,25 @@ describe('The fetch action', function() {
 			'2024-12-20T12:00:00Z',
 			'2024-11-30T17:00:00Z',
 		]);
+		let after = '2024-12-21T12:00:00Z';
+		const { run } = this.setup({ uploads });
+
+		const { packages, timestamp } = await run({ after });
+		expect(packages).to.have.length(1);
+		expect(packages[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
+
+		expect(Date.parse(timestamp)).to.be.above(Date.parse(after));
+
+	});
+
+	it('fetches all files from the STEX api since the last fetch date from LAST_RUN if no id was specified', async function() {
+
+		let uploads = faker.uploads([
+			'2024-12-21T14:00:00Z',
+			'2024-12-21T11:00:00Z',
+			'2024-12-20T12:00:00Z',
+			'2024-11-30T17:00:00Z',
+		]);
 		let lastRun = '2024-12-21T12:00:00Z';
 		const { run } = this.setup({
 			uploads,
