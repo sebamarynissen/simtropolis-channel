@@ -79,15 +79,21 @@ export default async function fetchPackage(opts) {
 	let days = Math.ceil((+now - threshold) / MS_DAY)+1;
 	url.searchParams.set('days', days);
 
-	// Fetch from the api.
+	// Now call the STEX api to find any new files. This is also the date we'll 
+	// use to store in the last run timestamp. Note: apparently the STEX api 
+	// returns 404 if it couldn't find anything with the given parameters, 
+	// meaning that if we use days=2, and nothing new was uploaded in that time 
+	// frame, it will return 404! We have to handle this appropriately!
 	let nextLastRun = new Date().toISOString();
 	let res = await fetch(url);
-	if (res.status >= 400) {
+	if (res.status >= 400 && res.status !== 404) {
 		throw new SimtropolisError(res);
 	}
 	let json = await res.json();
 	if (id && (!Array.isArray(json) || json.length === 0)) {
 		throw new Error(`File ${id} was not found!`);
+	} else if (res.status === 404) {
+		json = [];
 	}
 
 	// Handle all files one by one to not flood Simtropolis.
