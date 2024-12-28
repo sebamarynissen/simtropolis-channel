@@ -854,6 +854,22 @@ describe('The fetch action', function() {
 
 	});
 
+	it('does not throw when the STEX api returns 404', async function() {
+
+		const { run } = this.setup({
+			handler() {
+				return new Response(JSON.stringify({
+					message: 'No STEX files were found for the specified query',
+					code: '404',
+				}), { status: 404 });
+			},
+		});
+		let result = await run({});
+		expect(result.packages).to.eql([]);
+		expect(result.timestamp).to.be.ok;
+
+	});
+
 });
 
 function jsonToYaml(json) {
