@@ -1,0 +1,53 @@
+group: pclark06
+name: habitat-for-humanity-restore
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Habitat for Humanity ReStore
+  description: |-
+    "Shopping at a Habitat ReStore isn’t like the shopping experience anywhere else. Part home improvement store, part homegoods store, part resale store, each ReStore has a wide selection that changes often. You benefit because you get fantastic new and gently used home improvement items below retail prices. Folks in your community and around the world benefit because your purchase supports Habitat for Humanity." - Habitat For Humanity's website
+
+    There are 900 Restore locations in the US. Think of them as a combination thrift store and hardware store as they offer similar offerings to an Ace Hardware or Home Depot, but a lot of the products are secondhand or donated. CS$$3x3 Stage 2 lot.  
+      
+    Thanks to [@RRetail](https://community.simtropolis.com/profile/744613-rretail/) for lotting!  
+    Dependencies:
+
+    -   [BSC TexturePack Cycledogg Vol 1b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/31834-rretail-car-dealership-relots/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31834-rretail-car-dealership-relots/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31834-rretail-car-dealership-relots/)
+    -   BSC - VIP Girafe Trees/Shrubs
+        -   [Chestnut Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+
+    ![cleardot.gif](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/32526-habitat-for-humanity-restore/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5baeb896cd0ae_Conkey-Dec.28951538170681.png.c63b8d37ee2cfd248848218e75adc927.png
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-habitat-for-humanity-restore
+
+---
+assetId: pclark06-habitat-for-humanity-restore
+version: "1.0"
+lastModified: "2018-09-28T23:30:06Z"
+url: https://community.simtropolis.com/files/file/32526-habitat-for-humanity-restore/?do=download&r=172987
