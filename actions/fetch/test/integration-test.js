@@ -1069,6 +1069,25 @@ describe('The fetch action', function() {
 
 	});
 
+	it('parses iframes from the html description', async function() {
+
+		const upload = faker.upload({
+			description: `
+			Here are some of my packages:
+
+			<iframe src="https://community.simtropolis.com/files/file/1-one"></iframe>
+			<iframe src="https://community.simtropolis.com/files/file/2-two"></iframe>
+			`.trim().split('\n').map(x => x.trim()).join('\n'),
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].info.description).to.include('[https://community.simtropolis.com/files/file/1-one](https://community.simtropolis.com/files/file/1-one)');
+		expect(result.metadata[0].info.description).to.include('[https://community.simtropolis.com/files/file/2-two](https://community.simtropolis.com/files/file/2-two)');
+
+	});
+
 });
 
 function jsonToYaml(json) {
