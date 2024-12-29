@@ -7,6 +7,7 @@ import apiToMetadata from './api-to-metadata.js';
 import Downloader from './downloader.js';
 import patchMetadata from './patch-metadata.js';
 import scrape from './scrape.js';
+import checkPreviousVersion from './check-previous-version.js';
 
 // # handleUpload(json)
 // Handles a single STEX upload. It accepts a json response from the STEX api 
@@ -64,10 +65,26 @@ export default async function handleUpload(json, opts = {}) {
 	// response.
 	await completeMetadata(metadata, json);
 
+	// See #42. If metadata for the package already existed before - either 
+	// added by the bot, or manually by backfilling - then we have to patch the 
+	// *default* metadata so that the name can't change unintentionally.
+	let original = { ...metadata.package };
+	let author = original.group;
+	let { cwd, path: srcPath = 'src/yaml', fs = nodeFs } = opts;
+	let deletions = await checkPreviousVersion(json.id, metadata, {
+		cwd,
+		srcPath,
+		fs,
+	});
+
 	// Patch the metadata with the metadata that was parsed from the assets. 
 	// Then we'll verify that the generated package is ok according to our 
 	// permissions.
-	let packages = patchMetadata(metadata, parsedMetadata);
+	let {
+		packages,
+		main,
+		basename,
+	} = patchMetadata(metadata, parsedMetadata, original);
 	let zipped = [...packages, ...metadata.assets];
 	try {
 		let { permissions } = opts;
@@ -81,23 +98,17 @@ export default async function handleUpload(json, opts = {}) {
 	}
 
 	// 
-	let {
-		cwd,
-		path: srcPath = 'src/yaml',
-		fs = nodeFs,
-	} = opts;
-	let { main } = packages;
 	let { group, name } = main;
 	let id = `${group}:${name}`;
 	let yaml = serialize(zipped);
-	let relativePath = `${srcPath}/${group}/${name}.yaml`;
+	let relativePath = `${srcPath}/${author}/${json.id}-${basename}.yaml`;
 	let output = path.resolve(cwd, relativePath);
 	await fs.promises.mkdir(path.dirname(output), { recursive: true });
 	await fs.promises.writeFile(output, yaml);
 	return {
 		id,
 		metadata,
-		files: [relativePath],
+		files: [...deletions, relativePath],
 	};
 
 }
