@@ -12,6 +12,7 @@
     "test": "test"
   },
   "scripts": {
+    "build": "sc4pac channel build -o dist/channel src/yaml",
     "fetch": "gh workflow run add-packages.yaml",
     "deploy": "gh workflow run deploy.yaml",
     "lint": "eslint actions/**/*.js",
