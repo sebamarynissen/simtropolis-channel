@@ -28,10 +28,7 @@
   "author": "Sebastiaan Marynissen <sebastiaan.marynissen@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.0",
     "@faker-js/faker": "^9.3.0",
-    "@sebamarynissen/sc4pac-helpers": "github:sebamarynissen/sc4pac-helpers#main",
     "@whisthub/eslint-config": "^3.1.0",
     "chai": "^5.1.2",
     "commander": "^12.1.0",
@@ -43,6 +40,8 @@
     "yazl": "^3.3.1"
   },
   "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
     "@octokit/rest": "^21.0.2",
     "dot-prop": "^9.0.0",
     "jsdom": "^25.0.1",
