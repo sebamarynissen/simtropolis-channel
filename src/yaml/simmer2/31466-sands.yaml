@@ -39,7 +39,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/58a5db8caf6a5_Remotebeach2.jpg.a37082c3c9d768dd8d4b1e1bdb669638.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/58a5db8f699d3_Sands2copy.jpg.8f6eb22aaa34d2526600fcf264a51de2.jpg
 dependencies:
-  - sm2:sands-props
+  - simmer2:sands-props
 assets:
   - assetId: simmer2-sands
     include:
@@ -53,7 +53,7 @@ subfolder: 100-props-textures
 info:
   summary: Sands Props
   description: |-
-    This package is a dependency for `pkg=sm2:sands`
+    This package is a dependency for `pkg=simmer2:sands`
   author: Simmer2
 assets:
   - assetId: simmer2-sands
