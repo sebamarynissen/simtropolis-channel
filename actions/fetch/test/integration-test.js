@@ -1043,6 +1043,32 @@ describe('The fetch action', function() {
 
 	});
 
+	it('strips known prefixes from the upload title', async function() {
+
+		const upload = faker.upload({
+			uid: 444001,
+			author: 'Simmer2',
+			title: 'SM2 Some package',
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			permissions: {
+				authors: [{
+					name: 'Simmer2',
+					id: 444001,
+					prefixes: [
+						'sm2',
+					],
+				}],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].group).to.equal('simmer2');
+		expect(result.metadata[0].name).to.equal('some-package');
+		expect(result.metadata[0].info.summary).to.equal('Some package');
+
+	});
+
 });
 
 function jsonToYaml(json) {
