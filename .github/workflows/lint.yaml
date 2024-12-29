@@ -1,0 +1,15 @@
+name: Lint
+on:
+  pull_request:
+    paths:
+      - 'src/yaml/**'
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: memo33/sc4pac-actions/actions/lint@main
+        with:
+          path: src/yaml
