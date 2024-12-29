@@ -30,36 +30,6 @@ export default async function handleUpload(json, opts = {}) {
 	// that first before completing the metadata with scraping, because we might 
 	// be able to shortcut already here.
 	let metadata = apiToMetadata(json);
-
-	// Start by extracting all metadata we can from the api, and then combine 
-	// this with scraping for the description and images as they are not 
-	// included in the api response yet.
-	let { description, images, subfolder } = await scrape(json.fileURL);
-	let { package: pkg } = metadata;
-	let { info } = pkg;
-	if (!info.description) {
-		info.description = description;
-	}
-	if (!info.images) {
-		info.images = images;
-	}
-	pkg.subfolder = subfolder;
-
-	// Now generate the variants from what we've decided to include. This will 
-	// multiply the available variants by 2 in every step.
-	let includedVariants = findIncludedVariants(metadata);
-	let variants = generateVariants(includedVariants, metadata);
-
-	// If there are no variants, then we just include the assets as is.
-	let assets;
-	if (!variants || variants.length === 0) {
-		assets = metadata.assets.map(asset => ({ assetId: asset.assetId }));
-	}
-	Object.assign(metadata.package, { assets, variants });
-
-	// Cool, the metadata has been generated in standardized format. We will now 
-	// download all assets and look for a metadata.yaml file to override the 
-	// prefilled metadata.
 	let parsedMetadata = false;
 	let downloader = new Downloader();
 	for (let asset of metadata.assets) {
@@ -88,13 +58,19 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
+	// If we reach this point, we're sure to include the package. We now need to 
+	// complete the metadata from the api by resorting to HTML scraping as the 
+	// description, images and subfolder cannot be derived directly from the api 
+	// response.
+	await completeMetadata(metadata, json);
+
 	// Patch the metadata with the metadata that was parsed from the assets. 
 	// Then we'll verify that the generated package is ok according to our 
 	// permissions.
 	let packages = patchMetadata(metadata, parsedMetadata);
 	let zipped = [...packages, ...metadata.assets];
-	let { permissions } = opts;
 	try {
+		let { permissions } = opts;
 		permissions.assertPackageAllowed(json, packages);
 	} catch (e) {
 		return {
@@ -104,8 +80,7 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
-	// Note: if the file already exists, we'll use "Update" instead of "Add" in 
-	// the commit message.
+	// 
 	let {
 		cwd,
 		path: srcPath = 'src/yaml',
@@ -124,6 +99,39 @@ export default async function handleUpload(json, opts = {}) {
 		metadata,
 		files: [relativePath],
 	};
+
+}
+
+// # completeMetadata(metadata, json)
+// Completes the metadata parsed from the api response with the description, 
+// images and subfolder. For the moment we need to use HTML scraping for this, 
+// as those fields are not yet included in the STEX api.
+async function completeMetadata(metadata, json) {
+
+	// Read the description, images & subfolder, and then complete the metadata 
+	// with it.
+	let { description, images, subfolder } = await scrape(json.fileURL);
+	let { package: pkg } = metadata;
+	let { info } = pkg;
+	if (!info.description) {
+		info.description = description;
+	}
+	if (!info.images) {
+		info.images = images;
+	}
+	pkg.subfolder = subfolder;
+
+	// Now generate the variants from what we've decided to include. This will 
+	// multiply the available variants by 2 in every step.
+	let includedVariants = findIncludedVariants(metadata);
+	let variants = generateVariants(includedVariants, metadata);
+
+	// If there are no variants, then we just include the assets as is.
+	let assets;
+	if (!variants || variants.length === 0) {
+		assets = metadata.assets.map(asset => ({ assetId: asset.assetId }));
+	}
+	Object.assign(metadata.package, { assets, variants });
 
 }
 
