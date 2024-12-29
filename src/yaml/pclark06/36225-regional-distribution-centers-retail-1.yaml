@@ -1,0 +1,121 @@
+group: pclark06
+name: regional-distribution-centers-retail-1
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Regional Distribution Centers Retail 1
+  description: |-
+    Some retail distribution centers for many of the larger retailers in the US.  
+      
+    Includes:  
+    7-Eleven  
+    Albertsons-Safeway  
+    Aldi  
+    Amazon  
+    CVS  
+    Dollar General  
+    Family Dollar/Dollar Tree  
+    Kmart  
+    Kroger  
+    Publix  
+    Target  
+    Walgreens  
+    Walmart  
+      
+    All are plops that are 7x12 landmarks. If you want to convert these to industrials with jobs, be my guest.
+
+    Dependencies
+
+    -   [AGC Environment DLC](https://community.simtropolis.com/files/file/34720-agc-environment-dlc/)
+    -   [AGC Automobile DLC](https://community.simtropolis.com/files/file/34163-agc-automobile-dlc/)
+    -   [AngryMozart Trucks and Trailers Prop Pack](https://community.simtropolis.com/files/file/32285-trucks-trailers-prop-pack/)
+    -   [HD North American Semi Truck Cabs Vol.1](https://community.simtropolis.com/files/file/30732-hd-north-american-semi-truck-cabs-vol1/) by MushyMushy
+    -   [HD North American 40ft Semi Trailers Vol.1](https://community.simtropolis.com/files/file/30733-hd-north-american-40ft-semi-trailers-vol1/) by MushyMushy
+    -   [HD North American 53ft Semi Trailers Vol.1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/) by MushyMushy
+    -   [PC Mega Prop Pack 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+    -   [PC Mega Prop Pack 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+    -   [PC Mega Prop Pack 3](https://community.simtropolis.com/files/file/34787-pc-mega-props-3/)
+    -   [PC Mega Prop Pack 4](https://community.simtropolis.com/files/file/35526-pc-mega-props-41/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   [RR Mega Prop Pack 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [RR Mega Prop Pack 2](https://community.simtropolis.com/files/file/32473-rr-mega-prop-pack-vol-2/)
+    -   [SM2 Mega Prop Pack Vol 1](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+    -   [SM2 Mega Prop Pack Vol 2](https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/)
+    -   [BSC - VIP Girafe Trees/Shrubs - Feathergrass](https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/36225-pc-regional-distribution-centers-retail-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/662fd49fea74f_Saxton-Dec.27251713544160.png.5810e2c84e5d69a5ea8c6944a003016a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/662fd4a379446_NewBoots-Jun.51761713276455.png.c4f935ee9510ff632dbe00be8a2037d4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/662fd4aa7e8d6_NewBoots-Jun.51761713276553.png.eba40a6b2cdb0c0ab316c46cbc243611.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/662fd4af50f6b_NewBoots-Jun.51761713276297.png.fa4194e6ec745d9617f4540505159617.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/662fd4b334235_NewBoots-Jul.221761713277104.png.9e15d001b3b9852286564d506f4874ba.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/662fd4b58a66d_walmartdcpreview.png.2af4bd27f0c3449cd10857c8844adae9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/IMG_1383.png.163247f923b1b9b5abe2305ec31515f5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/IMG_1384.png.7c256b549a2e8a33b849012ccf5d8e4e.png
+dependencies:
+  - agc:environment-dlc
+  - agc:automobile-dlc
+  - angry-mozart:trucks-and-trailers-props
+  - mushymushy:na-semi-truck-cabs-vol1
+  - mushymushy:na-40ft-trailers-vol1
+  - mushymushy:na-53ft-trailers-vol1
+  - pclark06:mega-props-vol1
+  - pclark06:mega-props-vol2
+  - pclark06:mega-props-vol3
+  - pclark06:mega-props-vol4
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - girafe:flora-separator
+  - girafe:abies-grandis
+  - girafe:alders
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:bushes
+  - girafe:canary-date-palms
+  - girafe:cattails
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:conifers
+  - girafe:cypresses
+  - girafe:daisy
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:grand-firs
+  - girafe:honey-locust
+  - girafe:larches
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:norway-maples
+  - girafe:oaks
+  - girafe:parasol-pines
+  - girafe:poplars
+  - girafe:poppies
+  - girafe:rowan-trees
+  - girafe:serbian-spruces-v1
+  - girafe:serbian-spruces
+  - girafe:sparaxis
+  - girafe:subalpine-firs
+  - girafe:vines
+  - girafe:walnut-trees
+  - girafe:wheat
+assets:
+  - assetId: pclark06-regional-distribution-centers-retail-1
+
+---
+assetId: pclark06-regional-distribution-centers-retail-1
+version: "1.0.0"
+lastModified: "2024-04-30T13:32:30Z"
+url: https://community.simtropolis.com/files/file/36225-pc-regional-distribution-centers-retail-1/?do=download&r=201063
