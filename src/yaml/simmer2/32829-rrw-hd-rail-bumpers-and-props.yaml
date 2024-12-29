@@ -5,11 +5,41 @@ subfolder: 900-overrides
 info:
   summary: RRW HD Rail Bumpers and Props
   description: |-
+    **SM2 RRW HD Rail Bumpers and Props**
+
     This mod replaces both the US and EU railways stub bumpers with a custom HD universal one. It will also add small railcars and clutter to the end of the rail stubs just like in real life.
 
     Both Orthogonal and Diagonal DTR and STR will get the bumpers but only Orthogonal DTR and STR will get the mini railcars and clutter for now. If you already have end stubs drawn in your maps, you only need to touch it with the rail tool to make it change to the new set.
 
-    This mod is made with a huge prop family library therefore the possible permutations on end rail stubs are in the 10's of thousands. 17 different railcars and 20+ clutter props.
+    This mod is made with a huge prop family library therefore the possible permutations on end rail stubs are in the 10's of thousands. 17 different railcars and 20+ clutter props. I could click on the end rail stubs 1000's of times and never get the same combo again.
+
+    **If you have my previous mod installed make sure the file SM2\_RealRailways\_T21\_Uni.dat gets replaced with the new one. Or drop the folder Z\_\_\_\_SM2\_RRW\_HD\_Rail\_Mods in the root plugin and let it replace the old one.**
+
+    **To remove this mod just delete the folder.**
+
+    **You can only have one installed at any time.**
+
+    Dependencies
+
+    SM2 Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3586](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3586)
+
+    SM2 Mega Prop Pack Vol1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3640](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    SM2 Mega Prop Pack Vol3 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3787](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3787)
+
+    **This mod will only work if you have NAM installed with the RRW option.**
+
+    **Questions?** Please post them here [https://www.sc4devotion.com/forums/index.php?topic=17211.0](https://www.sc4devotion.com/forums/index.php?topic=17211.0)
+
+    **Alternate links for my packs only**
+
+    SM2 Essentials v4 [https://community.simtropolis.com/files/file/32979-sm2-essentials-v4/](https://community.simtropolis.com/files/file/32979-sm2-essentials-v4/)
+
+    SM2 Mega Prop Pack Vol1 [https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+
+    SM2 Mega Prop Pack Vol3 [https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/](https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/)
+
+    Simmer2
   author: Simmer2
   website: https://community.simtropolis.com/files/file/32829-sm2-rrw-hd-rail-bumpers-and-props/
   images:
@@ -17,7 +47,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9d8958b26c1_rrwstubsNAM.jpg.1a5a838179ba905604b0acd89b4aa395.jpg
   warning: This mod will only work if you have NAM installed with the RRW option.
   conflicts: This mod is incompatible with `pkg=sm2:rrw-hd-rail-bumpers`
-
 dependencies:
   - sm2:essentials
   - sm2:mega-prop-pack-vol1

@@ -5,33 +5,54 @@ subfolder: 500-utilities
 info:
   summary: Longstone Lighthouse
   description: |-
+    **SM2 Longstone Lighthouse**
+
     Longstone Lighthouse is an active 19th century lighthouse located on Longstone Rock in the outer group of the Farne Islands off the Northumberland Coast, England.  
     Completed in 1826, it was originally called the Outer Farne Lighthouse and complemented the earlier Inner Farne Lighthouse.
 
     The lighthouse is best known for the 1838 wreck of the Forfarshire and the role of Grace Darling, the lighthouse keeper's daughter, in rescuing survivors.
 
-    There is also a rock base with custom LODs for best visual. It can be plopped in any scenario.
+    Wiki link [https://en.wikipedia.org/wiki/Longstone\_Lighthouse](https://en.wikipedia.org/wiki/Longstone_Lighthouse)
 
-     1. On deep water.
-     2. On shallow water ( You can see the rock base)
-     3. On land
-     4. In between
-     5. On different terrain gradients so that more or less base will show according to terrain elevation.
+    I tried to recreate it as close as possible as the real one.
+
+    I also made a rock base with custom LODs for best visual. It can be plopped in any scenario.
+
+    1) On deep water.
+
+    2) On shallow water ( You can see the rock base)
+
+    3) On land
+
+    4) In between
+
+    5) On different terrain gradients so that more or less base will show according to terrain elevation.
 
     Tons of possibilities..
 
     Stats
 
-     - Lot size: 1x2 overhanging
-     - Plop cost: 4000
-     - Bulldoze cost: 500
-     - Power req: 1
-     - Water req: 0
-     - Monthly maintenance: 10
+    Lot size 1x2 overhanging
+
+    Plop cost 4000
+
+    Bulldoze cost 500
+
+    Power req 1
+
+    Water req 0
+
+    Monthly maintenance 10
 
     You will find it under the seaport menu
 
     This lot generates its own power for the night lights. You do not need to bring power to it.
+
+    **Dependencies**
+
+    SM2 Mega Prop Pack Vol6 [https://community.simtropolis.com/files/file/34872-sm2-mega-prop-pack-vol6/](https://community.simtropolis.com/files/file/34872-sm2-mega-prop-pack-vol6/)
+
+    Simmer2
   author: Simmer2
   website: https://community.simtropolis.com/files/file/34011-sm2-longstone-lighthouse/
   images:

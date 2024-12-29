@@ -5,13 +5,21 @@ subfolder: 700-transit
 info:
   summary: SG SimTropolis Station DTR
   description: |-
-    This is a remake of `pkg=sg:simtropolis-train-station`.
-    This is the DTR (Double Track Rail) version a Single Track Rail version is available here: `pkg=sm2:sg-simtropolis-station-str`.
+    This is the DTR version of SM2 SG SimTropolis Station.
 
-     - Lot size: 14X8
-     - Capacity: 62500
+    DTR = Dual Track Rail. (RRW format)
 
-    It provides some jobs, acts as a bus hub and a parking lot as well.
+    Same stats as the STR version. This one is clearly marked "SM2 SG SimTropolis Station DTR" in the transportation menu.
+
+    **You must have the original SM2 SG SimTropolis Station and all the dependencies that are listed for that lot to avoid brown boxes and/or missing textures.**
+
+    You will find the original lot and the complete set of dependencies here,
+
+    Or here [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3378](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3378)
+
+    You can have both stations on the same city tile if you wish.
+
+    Enjoy, Simmer2
   author: Simmer2
   website: https://community.simtropolis.com/files/file/31144-sm2-sg-simtropolis-station-dtr/
   images:
