@@ -1,0 +1,95 @@
+group: simmer2
+name: adm-grain-elevator-sd
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: ADM Grain Elevator SD
+  description: |-
+    **SM2 ADM Grain Elevator SD**
+
+    This time I bring you a beautiful full size industrial style Grain Elevator.
+
+    Grain Elevators are all over the place, they are used to collect, store and ship mostly wheat grains. This one is a truly colossal model based on a real life structure found in Alberta, Canada.
+
+    This particular model had to be rendered in SD (Standard Definition) because of its sheer size (I could not coax my computer to cough up the full size HD version.  
+    However there is a somewhat smaller version which I managed to render in HD (High Definition), available as a separate lot.
+
+    You will also find 2 sets of standalone Silos included in this Zip. These silos (1X and 2X) can be plopped in existing farms field and then by using a variety of MMP's to construct a roadway, can simulate silos on a farm.
+
+    Both silos have no power, roads and water requirements therefore they can be plopped anywhere.
+
+    The dirt roads will connect visually. Trucks will bring the goods and the DTR rail will allow freight trains to cross the lot after loading.
+
+    I suggest to connect the DTR network as a spur because passenger trains will not cross the lot.
+
+    Freight capacity = 80,000 tons
+
+    Jobs = 268 low, 133 med and 26 high
+
+    Plop cost = 39,200
+
+    Power = 39
+
+    Water = 154
+
+    Dependencies.
+
+    SM2 Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3586](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3586)
+
+    SM2 Mega Prop Pack Vol1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3640](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    SM2 Mega Prop Pack Vol2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3645](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3645)
+
+    BSC - VIP girafe common spruces [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2945](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2945)
+
+    BSC - VIP girafe chestnuts [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3049](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049)
+
+    BSC - VIP Girafe Poplars [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3579](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+
+    BSC - VIP girafe elms [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3347](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3347)
+
+    BSC - VIP girafe daisy  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3251](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3251)
+
+    BSC - VIP girafe bushes [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2711](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2711)
+
+    BSC - VIP girafe cattails [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2687](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2687)
+
+    Custom textures included.
+
+    **Alternate links for my packs only**
+
+    SM2 Essentials v4 [https://community.simtropolis.com/files/file/32979-sm2-essentials-v4/](https://community.simtropolis.com/files/file/32979-sm2-essentials-v4/)
+
+    SM2 Mega Prop Pack Vol1 [https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+
+    SM2 Mega Prop Pack Vol2 [https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/](https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/)
+
+    Have fun!
+
+    Simmer2
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32227-sm2-adm-grain-elevator-sd/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/ADM3.jpg.91f01fa0dc88812be7b9793f21295940.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/ADM2.jpg.519c61517ad2d28ddf831a5e3a479458.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/FA2.jpg.6f05963cb07fcda6a8164df7d4b7f797.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/FA1.jpg.79e31e30007427bfe6b5c253125b8f00.jpg
+dependencies:
+  - simmer2:essentials
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - girafe:common-spruces
+  - girafe:chestnuts
+  - girafe:poplars
+  - girafe:elms
+  - girafe:daisy
+  - girafe:bushes
+  - girafe:cattails
+assets:
+  - assetId: simmer2-adm-grain-elevator-sd
+
+---
+assetId: simmer2-adm-grain-elevator-sd
+version: "2.0.0"
+lastModified: "2018-09-10T04:58:12Z"
+url: https://community.simtropolis.com/files/file/32227-sm2-adm-grain-elevator-sd/?do=download

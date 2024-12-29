@@ -1,0 +1,89 @@
+group: simmer2
+name: loblaws-supermarket
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Loblaws Supermarket
+  description: |-
+    **SM2 Loblaws**
+
+    Loblaws is a very well known chain of supermarkets in Canada.  
+    This model is based on a real location in Toronto.
+
+    This lot will connect to roads for that seamless look and you will find it in the Landmark menu.
+
+    Lot size 12X8
+
+    Cost to plop 50000
+
+    Bulldoze cost 9000
+
+    Power req 35
+
+    Water req 80
+
+    Provides 225 CS jobs
+
+    Dependencies
+
+    SM2 Mega Prop Pack Vol1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3640](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    SM2 Mega Prop Pack Vol2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3645](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3645)
+
+    SM2 Mega Prop Pack Vol3 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3787](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3787)
+
+    BSC - VIP girafe carpack vol. 1 & 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2821](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2821)
+
+    BSC - VIP girafe common spruces  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2945](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2945)
+
+    BSC - VIP girafe berries  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2888](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2888)
+
+    BSC - VIP girafe daisy [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3251](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3251)
+
+    BSC - VIP girafe bushes [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2711](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2711)
+
+    BSC - VIP girafe beeches (v1.0)  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2995](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+
+    BSC - VIP Girafe Poplars [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3579](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+
+    BSC - VIP girafe cypresses [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2983](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2983)
+
+    SP SuperSHK MEGA Textures [https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    **Alternate links for my packs only**
+
+    SM2 Mega Prop Pack Vol1 [https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+
+    SM2 Mega Prop Pack Vol2 [https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/](https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/)
+
+    SM2 Mega Prop Pack Vol3 [https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/](https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/)
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32663-sm2-loblaws-supermarket/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/Lw10.jpg.9b0ac4baa88c0b25add059b4ba173e2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw11.jpg.ae9a8db254e60b4ded5fd07208c6ec60.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw12.jpg.aaf02481b5a7cff7b860b434f928dc07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw13.jpg.e553ace7e55c3f00e89d5ef592fc6527.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw14.jpg.090d4607ac1a8cc9a041093c2db41fd1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw15.jpg.f6f84a439639637796cd6693ebc9a7b4.jpg
+dependencies:
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - simmer2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:common-spruces
+  - girafe:berries
+  - girafe:daisy
+  - girafe:bushes
+  - girafe:beeches
+  - girafe:poplars
+  - girafe:cypresses
+  - supershk:mega-parking-textures
+assets:
+  - assetId: simmer2-loblaws-supermarket
+
+---
+assetId: simmer2-loblaws-supermarket
+version: "2.0"
+lastModified: "2019-03-15T17:02:02Z"
+url: https://community.simtropolis.com/files/file/32663-sm2-loblaws-supermarket/?do=download

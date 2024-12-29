@@ -1,0 +1,85 @@
+group: simmer2
+name: train-depot-east
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Train Depot East
+  description: |-
+    **SM2 Train Depot East**
+
+    A fictional train depot on a large lot for those rail heads out there.
+
+    This lot is not a freight yard but it will connect with your RRW DTR network and the dirt road SAM for that seamless look. Make sure you flatten the terrain before placing.
+
+    It also provides 150 jobs.
+
+    Lot size 16X5
+
+    Plop cost 25000
+
+    Bulldoze cost 1500
+
+    Power req 10
+
+    Water req 5
+
+    Provides 150 jobs
+
+    Dependencies
+
+    SM2 Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3586](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3586)
+
+    SM2 Mega Prop Pack Vol1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3640](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    SM2 Mega Prop Pack Vol2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3645](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3645)
+
+    SM2 Mega Prop Pack Vol3 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3787](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3787)
+
+    SM2 Mega Prop Pack Vol4 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3885](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3885)
+
+    BSC - VIP girafe carpack vol. 1 & 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2821](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2821)
+
+    BSC - VIP girafe bushes [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2711](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2711)
+
+    BSC - VIP girafe beeches (v1.0)  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2995](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+
+    BSC - VIP girafe common spruces  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2945](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2945)
+
+    BSC - VIP Girafe Poplars [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3579](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+
+    BSC - VIP girafe daisy [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3251](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3251)
+
+    North American Freight Cars Prop Pack [https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack](https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/).
+
+    NOTE! You only need the GP38 and GP40 folder from the North American Freight Cars Prop Pack.
+
+    Simmer2
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33155-sm2-train-depot-east/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/td.jpg.d7e82087f71acb18db432b37df4a1889.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/td2.jpg.e8d70cee2bcdfc5e9783aa26f3c5432e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/td3.jpg.9a55d20c3d7cdbb58b326482218950c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/td4.jpg.b73f9ad8462880e4ba00069fe8dfe0ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/td5.jpg.7eb193e8751559e7e098fe8aa13409d9.jpg
+dependencies:
+  - simmer2:essentials
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - simmer2:mega-prop-pack-vol3
+  - simmer2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:bushes
+  - girafe:beeches
+  - girafe:common-spruces
+  - girafe:poplars
+  - girafe:daisy
+  - angry-mozart:na-locomotive-props
+assets:
+  - assetId: simmer2-train-depot-east
+
+---
+assetId: simmer2-train-depot-east
+version: "1.0.0"
+lastModified: "2019-12-02T05:24:15Z"
+url: https://community.simtropolis.com/files/file/33155-sm2-train-depot-east/?do=download

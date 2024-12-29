@@ -1,0 +1,55 @@
+group: simmer2
+name: large-water-treatment-plant
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: Large Water Treatment Plant
+  description: |-
+    **SM2 Large Water Treatment Plant**
+
+    A larger water treatment plant but still tight enough to fit in smaller areas. More efficient than the medium one I just released,
+
+    Plop it on a flat surface and connect the water network to it.
+
+    You will find it in the water menu.
+
+    Lot size 3x3
+
+    Plop cost 5000
+
+    Bulldoze cost 350
+
+    Power req 15
+
+    Water req 30
+
+    Monthly budget 100
+
+    Cleans 100,000m3 of water over 80 tiles radius.
+
+    Dependencies
+
+    SM2 Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3586](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3586)
+
+    SM2 Mega Prop Pack Vol1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3640](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    SM2 Mega Prop Pack Vol4 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3885](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3885)
+
+    Simmer2
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33251-sm2-large-water-treatment-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5daf212e4e3f5_lwt1copy.jpg.738e187ce8bcb28c9656377f798b0003.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/lwt2.jpg.6f89f87d24fb6de399e2a386b43ab766.jpg
+dependencies:
+  - simmer2:essentials
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol4
+assets:
+  - assetId: simmer2-large-water-treatment-plant
+
+---
+assetId: simmer2-large-water-treatment-plant
+version: "1.0.0"
+lastModified: "2019-12-02T05:08:57Z"
+url: https://community.simtropolis.com/files/file/33251-sm2-large-water-treatment-plant/?do=download

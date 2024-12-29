@@ -1,0 +1,88 @@
+group: simmer2
+name: nuts-vdk-swan-mill-power-plant
+version: "2"
+subfolder: 500-utilities
+info:
+  summary: Nuts VDK Swan Mill Power Plant
+  description: |-
+    SM2 NUTS VDK Swan Mill Power Plant.
+
+    A beautifully rendered coal power plant building by **vester** (VDK). This one is for my team. The NUT team.
+
+    Lotting, modding and custom textures by Simmer2.  
+    Both freight trains and passenger trains will traverse the lot east to west.  
+    Just run the rail line through the lot and connect the street entrance to a street. The STR stub will only connect visually.
+
+    You will find it in your power menu.
+
+    Lot size 20x14  
+    Plop cost = 68,500  
+    Monthly cost = 1,550  
+    Power output = 39,200 MWh  
+    Jobs $196 $$104  $$$13
+
+    **There are 2 versions of this lot. One with all the proper stats attributed to a heavy polluter for the hardcore players and one with ZERO emissions for anyone who still wants the lot in their maps but do not want to deal with the pollution. The zero emission one is clearly marked with a Z.**
+
+    If you have questions or want to follow my progress on new projects click on this link [https://www.sc4devotion.com/forums/index.php?topic=17211.360](https://www.sc4devotion.com/forums/index.php?topic=17211.360)
+
+    Simmer2 aka SM2
+
+    Dependencies
+
+    BSC Mega Props - JES Vol01.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=342](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+
+    BSC Mega Props jestarr Vol02.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=338](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=338)
+
+    BSC Mega Props - JES Vol03.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=339](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=339)
+
+    BSC Mega Props - JES Vol04.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=791](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=791)
+
+    BSCMegaProps - JES Vol05.dat  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1263](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1263)
+
+    BSC Mega Props - JES Vol06.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1416](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1416)
+
+    BSC Mega Props - JES Vol07.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1495](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1495)
+
+    BSC Mega Props - JES Vol08.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1778](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1778)
+
+    BSC Mega Props - JES Vol09.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2349](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2349)
+
+    BSC MEGA Props - SG Vol 01.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    BSC MEGA Props - CP Vol01.dat  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    BSC Mega Props - CP Vol02.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    BSCBATProps VDK Vol02.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3359](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3359)
+
+    SM2\_NUTS\_VDK\_Swan\_Mill\_Power\_Plant\_Tex.dat Included.
+  author: Simmer2, Vester
+  website: https://community.simtropolis.com/files/file/31025-sm2-nuts-vdk-swan-mill-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/570ca261a8847_SM2NutsSwanMillsCPP.jpg.845bddc1b8a30ff9a97b37824abb231b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/CPP1.png.ab92a947e942f6c19273b2088502e223.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/CPP2.png.e8a4320619d2c4aeb63f38ed6df960df.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/CPP3.png.520d4efe8cf4e61b0fa19ce710547652.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/NutCPP1.png.50af653c0c38c376adb498299e916ff1.png
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:bat-props-vdk-vol02
+assets:
+  - assetId: simmer2-nuts-vdk-swan-mill-power-plant
+
+---
+assetId: simmer2-nuts-vdk-swan-mill-power-plant
+version: "2"
+lastModified: "2018-08-23T04:30:47Z"
+url: https://community.simtropolis.com/files/file/31025-sm2-nuts-vdk-swan-mill-power-plant/?do=download
