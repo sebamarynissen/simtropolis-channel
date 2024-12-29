@@ -1,0 +1,81 @@
+group: andisart
+name: modern-hd-cars-mmp
+version: "1.1"
+subfolder: 180-flora
+info:
+  summary: Modern HD Car Props (incl. MMP)
+  description: |-
+    \----------------------------------------------  
+    AndisArt presents:
+
+    **Modern HD Car Props (incl. MMP)**
+
+    \----------------------------------------------------------------
+
+    This prop pack adds modern cars to your game as props (not as functioning automata/driving cars).  
+    There are 10 different vehicles with different colorings, totalling 30 variants. All models were rendered in HD, also know as Zoom 6.
+
+    Vehicle models:
+
+    ⦁    Audi Concept Car  
+    ⦁    Audi Roadster  
+    ⦁    Audi TT  
+    ⦁    VW Beetle  
+    ⦁    Futuristic Bike  
+    ⦁    Citroen C4  
+    ⦁    Mazda MX5  
+    ⦁    Nissan 350Z  
+    ⦁    Smart  
+    ⦁    VW Touareg
+
+    The props can be used individually or as a prop family. Item names start with "AndisArt\_PROP\_carpack", followed by the model name and color. Prop family ID is 0A341980.
+
+    There is a test lot that can be found in the landmark menu for an overview of all models.
+
+    Can also be used in Mayor mode under tree menu as MMP (Mayor-Mode-Ploppable). If you do not wish to have this function you can delete the file AndisArt\_PROP\_carpack\_MMP.dat  in the download folder. Special thanks to [@Girafe](https://community.simtropolis.com/profile/319793-girafe/) for the MMP modding
+
+    \-----------------------------------------------------------------------------------------------------------------------------
+
+    **Installation**:
+
+    Extract the whole folder and copy it to your SimCity 4 Plugins folder (usually MyDocuments/SimCity 4/Plugins).
+
+    You can now use the models in the Lot Editor or with any download that has this file as a dependency.
+
+    The test lot is an individual file and can be deleted if not required.  
+    (File:  AndisArt\_PROP\_carpack\_testlot\_67ba0db8.SC4Lot)
+
+    \--------------------------------------------------------------------------------------------------------------------------------
+
+    Model credit: Cadnav.com
+
+    MMP modding: Girafe
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/32178-modern-hd-car-props-incl-mmp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/AndisArt_modern_HD_carpack.jpg.9dbc537c0effc3b1d7db20cf385130a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/testlot.jpg.606d000107f00000ce1e999f0df90d94.jpg
+dependencies:
+  - andisart:modern-hd-cars-props
+assets:
+  - assetId: andisart-modern-hd-car-props-incl-mmp
+    include:
+      - AndisArt_PROP_carpack_MMP.dat.dat
+
+---
+group: andisart
+name: modern-hd-cars-props
+version: "1.1"
+subfolder: 100-props-textures
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/32178-modern-hd-car-props-incl-mmp/
+assets:
+  - assetId: andisart-modern-hd-car-props-incl-mmp
+    include:
+      - AndisArt_PROP_carpack.dat
+
+---
+assetId: andisart-modern-hd-car-props-incl-mmp
+version: "1.1"
+lastModified: "2018-03-29T20:35:10Z"
+url: https://community.simtropolis.com/files/file/32178-modern-hd-car-props-incl-mmp/?do=download&r=170439
