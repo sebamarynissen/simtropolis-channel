@@ -19,6 +19,11 @@
     "test": "mocha actions/fetch/test",
     "test:fetch": "node --env-file=.env actions/fetch/manual-action.js"
   },
+  "files": [
+    "actions/**",
+    "!actions/**/test/*",
+    "permissions.yaml"
+  ],
   "keywords": [],
   "author": "Sebastiaan Marynissen <sebastiaan.marynissen@gmail.com>",
   "license": "MIT",
