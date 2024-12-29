@@ -4,7 +4,11 @@ import * as dot from 'dot-prop';
 // This function takes the main package metadata as generated from the STEX, and 
 // then applies the user-defined metadata as a patch to it. Note that it's 
 // possible that the user has specified multiple packages.
-export default function patchMetadata(metadata, patch, original) {
+export default function patchMetadata(
+	metadata,
+	patch,
+	original = metadata.package,
+) {
 
 	// If nothing needs to be patched, just return the package as is.
 	if (!patch || patch === true) {
