@@ -620,7 +620,7 @@ describe('The fetch action', function() {
 		});
 		const { run } = this.setup({ uploads: [upload] });
 		const { result } = await run({ id: upload.id });
-		expect(result.metadata.package.group).to.equal('some-user');
+		expect(result.metadata[0].group).to.equal('some-user');
 
 	});
 
@@ -631,7 +631,7 @@ describe('The fetch action', function() {
 		});
 		const { run } = this.setup({ uploads: [upload] });
 		const { result } = await run({ id: upload.id });
-		expect(result.metadata.package.name).to.equal('jast-o-conner-and-cremin');
+		expect(result.metadata[0].name).to.equal('jast-o-conner-and-cremin');
 
 	});
 
@@ -648,7 +648,7 @@ describe('The fetch action', function() {
 
 		const { packages, timestamp } = await run({ after });
 		expect(packages).to.have.length(1);
-		expect(packages[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
+		expect(packages[0].metadata[0].info.website).to.equal(uploads[0].fileURL);
 
 		expect(Date.parse(timestamp)).to.be.above(Date.parse(after));
 
@@ -670,7 +670,7 @@ describe('The fetch action', function() {
 
 		const { packages, timestamp } = await run();
 		expect(packages).to.have.length(1);
-		expect(packages[0].metadata.package.info.website).to.equal(uploads[0].fileURL);
+		expect(packages[0].metadata[0].info.website).to.equal(uploads[0].fileURL);
 
 		expect(Date.parse(timestamp)).to.be.above(Date.parse(lastRun));
 
@@ -751,7 +751,7 @@ describe('The fetch action', function() {
 		const { run } = this.setup({ uploads: [upload] });
 
 		const { result } = await run({ id: upload.id });
-		expect(result.metadata.package.subfolder).to.equal('360-landmark');
+		expect(result.metadata[0].subfolder).to.equal('360-landmark');
 
 	});
 
@@ -766,7 +766,7 @@ describe('The fetch action', function() {
 		const { run } = this.setup({ uploads: [upload] });
 
 		const { result } = await run({ id: upload.id });
-		expect(result.metadata.package.subfolder).to.equal('620-education');
+		expect(result.metadata[0].subfolder).to.equal('620-education');
 
 	});
 
@@ -776,7 +776,7 @@ describe('The fetch action', function() {
 		});
 		const { run } = this.setup({ uploads: [upload] });
 		const { result } = await run({ id: upload.id });
-		expect(result.metadata.package.subfolder).to.equal('200-residential');
+		expect(result.metadata[0].subfolder).to.equal('200-residential');
 	});
 
 	it('throws when the STEX api returns 429', async function() {
@@ -938,12 +938,13 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { packages } = await run({ id: upload.id });
-		let [{ metadata, deletions, additions }] = packages;
-		expect(metadata.package.group).to.equal('smf-16');
-		expect(metadata.package.name).to.equal('old-title');
+		let { read, packages } = await run({ id: upload.id });
+		let [{ deletions, additions }] = packages;
 		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
 		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let metadata = await read('src/yaml/smf-16/42592-new-title.yaml');
+		expect(metadata[0].group).to.equal('smf-16');
+		expect(metadata[0].name).to.equal('old-title');
 
 	});
 
@@ -984,16 +985,17 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { packages } = await run({ id: upload.id });
-		let [{ metadata, deletions, additions }] = packages;
-		expect(metadata.package.group).to.equal('smf-16');
-		expect(metadata.package.name).to.equal('old-title');
+		let { read, packages } = await run({ id: upload.id });
+		let [{ deletions, additions }] = packages;
 		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
 		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let metadata = await read('/src/yaml/smf-16/42592-new-title.yaml');
+		expect(metadata[0].group).to.equal('smf-16');
+		expect(metadata[0].name).to.equal('old-title');
 
 	});
 
-	it('changes the filename of an uploaded package with custom metadata without a name (#42)', async function() {
+	it('changes the filename of an uploaded package with custom metadata with a name (#42)', async function() {
 
 		const upload = faker.upload({
 			id: 42592,
@@ -1031,12 +1033,13 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { packages } = await run({ id: upload.id });
-		let [{ metadata, deletions, additions }] = packages;
-		expect(metadata.package.group).to.equal('smf-16');
-		expect(metadata.package.name).to.equal('old-title');
+		let { read, packages } = await run({ id: upload.id });
+		let [{ deletions, additions }] = packages;
 		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
 		expect(additions[0]).to.equal('src/yaml/smf-16/42592-custom-new-title.yaml');
+		let metadata = await read('/src/yaml/smf-16/42592-custom-new-title.yaml');
+		expect(metadata[0].group).to.equal('smf-16');
+		expect(metadata[0].name).to.equal('custom-new-title');
 
 	});
 

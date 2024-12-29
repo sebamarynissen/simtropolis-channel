@@ -108,8 +108,8 @@ export default async function handleUpload(json, opts = {}) {
 	await fs.promises.writeFile(output, yaml);
 	return {
 		id,
+		metadata: zipped,
 		branchId: String(json.id),
-		metadata,
 		deletions,
 		additions: [relativePath],
 	};
