@@ -1,0 +1,62 @@
+group: pclark06
+name: roy-rogers
+version: "2.02"
+subfolder: 300-commercial
+info:
+  summary: Roy Rogers
+  description: |-
+    Roy Rogers Franchise Company, LLC is a chain of fast food restaurants primarily located in the Mid-Atlantic and Northeastern United States. The chain originated as the rebranding of the RoBee's House of Beef chain of Fort Wayne, Indiana acquired by the Marriott Corporation in February 1968. RoBee's, started by a group of Big Boy franchisees, was under pressure from rival Arby's to change it's name, and the actor Roy Rogers, not afraid to endorse and market products at the time, lent his name to the chain. They are one of the only fast food restaurants to serve what is considered the "big three" in the fast food industry in the US: burgers, fried chicken, and roast beef.  
+      
+    The chain was very successful in the 1980s and 1990s, peaking at over 600 locations in the east coast. In 1990, Hardee's acquired Roy Rogers from the Marriott Corporation so Marriott could focus on hotels, and slowly, Hardee's, with their acquire-and-rebrand strategy, started changing them into Hardee's restaurants. It was very unpopular, leading Hardee's to sell off the brand and to sell off their acquired Roy Rogers locations to McDonalds, Burger King, and other competitors. One could say that, especially due to brand loyalty, Roy Rogers wasn't a failed brand, but more a victim of acquisitions.  
+      
+    In the early 2000s, they were at a low point of a couple dozen locations, but have mounted somewhat of a comeback and now boast over 50 locations in five states, as well as scattered along the Pennsylvania Turnpike. Their strategy is aimed at nostalgia, including having a new spokesperson in Hall of Fame baseball player Cal Ripken. [The original 3D model comes from this Popeye's from CGtrader, but reworked.](https://www.cgtrader.com/3d-models/exterior/exterior-public/retail-026-popeyes#_=_)  
+    Lot is a CS$$ stage 2 3x3. The plop desc file kept having issues so no plop for now.  
+      
+    Dependencies
+
+    -   [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC MEGA Props JES Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+    -   [PC Mega Props 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+    -   [PC Mega Props 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+    -   [R](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)[R MEGA Prop Pack Vol. 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC \- VIP Girafe Trees/Shrubs
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/33495-pc-roy-rogers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e6793735db46_AlexiaLake-May.20771583804913.png.d1e1c45e449f84969e71f5d55689c2e0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e6793769cf99_AlexiaLake-Apr.9771583804835.png.7da86d5beeb07584dad9e562949a42b2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e6793797ac7f_AlexiaLake-May.20771583804946.png.45fb6db6d1088892d58dba71ef8b0656.png
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - pclark06:mega-props-vol1
+  - pclark06:mega-props-vol2
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-roy-rogers
+
+---
+assetId: pclark06-roy-rogers
+version: "2.02"
+lastModified: "2020-04-03T13:29:28Z"
+url: https://community.simtropolis.com/files/file/33495-pc-roy-rogers/?do=download&r=180431

@@ -1,0 +1,68 @@
+group: pclark06
+name: equipment-rentals
+version: "1.0.1"
+subfolder: 400-industrial
+info:
+  summary: Equipment Rentals
+  description: |-
+    United Rentals and Sunbelt Rentals for SC4. The equipment rental business in America and globally has grown as companies recognize a need for people to rent construction equipment without having to own it, especially for smaller construction projects. Sunbelt and United are two of the largest companies in America in that field and they combine for 2000 locations in the US.   
+      
+    Plop lot 6x4 and Industrial lot 5x5 included as well as new props specific to each building as well.
+
+    IMPORTANT: for most of the construction equipment to show up, you need the R6 packs from ToutSimCities.  
+      
+    [R6 Prop Pack Vol1](https://www.toutsimcities.com/downloads/view/1584)  
+    [R6 Prop Pack Vol2](https://www.toutsimcities.com/downloads/view/1592)  
+    [R6 Prop Pack 2010 Vol1](https://www.toutsimcities.com/downloads/view/1686)  
+    [R6 Prop Pack 2010 Vol2](https://www.toutsimcities.com/downloads/start/1702)
+
+    Other dependencies
+
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [CP Prop Pack Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    -   [PC Mega Props 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+    -   [PC Mega Props 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+    -   [RR Mega Props 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SM2 Mega Props 1](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC - VIP Girafe Trees/Shrubs
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/33711-pc-equipment-rentals/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1b658b6a133_Kearns-May.2511595198075.png.836aac89a51be0ff22019883cd8eb821.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1b65934031a_Hepburnton-Sep.5021595559601.png.9bc32c9a714acea2d8f25417b8004cbe.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - pclark06:mega-props-vol1
+  - pclark06:mega-props-vol2
+  - r6:prop-pack-2010-vol1
+  - r6:prop-pack-2010-vol2
+  - r6:prop-pack-vol1
+  - r6:prop-pack-vol2
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - simmer2:mega-prop-pack-vol1
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-equipment-rentals
+
+---
+assetId: pclark06-equipment-rentals
+version: "1.0.1"
+lastModified: "2021-12-01T14:25:27Z"
+url: https://community.simtropolis.com/files/file/33711-pc-equipment-rentals/?do=download&r=190741
