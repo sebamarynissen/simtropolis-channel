@@ -8,6 +8,10 @@
   "engines": {
     "node": "^22.11"
   },
+  "exports": {
+    "./permissions.yaml": "./permissions.yaml",
+    "./fetch-all": "./actions/fetch/fetch-all.js"
+  },
   "directories": {
     "test": "test"
   },
