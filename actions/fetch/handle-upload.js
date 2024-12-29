@@ -30,7 +30,8 @@ export default async function handleUpload(json, opts = {}) {
 	// sufficient to look for a `metadata.yaml` file in the downloads. We'll do 
 	// that first before completing the metadata with scraping, because we might 
 	// be able to shortcut already here.
-	let metadata = apiToMetadata(json);
+	let { permissions } = opts;
+	let metadata = apiToMetadata(permissions.transform(json));
 	let parsedMetadata = false;
 	let downloader = new Downloader();
 	for (let asset of metadata.assets) {
@@ -87,7 +88,6 @@ export default async function handleUpload(json, opts = {}) {
 	} = patchMetadata(metadata, parsedMetadata, original);
 	let zipped = [...packages, ...metadata.assets];
 	try {
-		let { permissions } = opts;
 		permissions.assertPackageAllowed(json, packages);
 	} catch (e) {
 		return {

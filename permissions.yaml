@@ -2,6 +2,33 @@
 # it turns out that people are abusing this, then they might be blocked from the 
 # channel. This can be done by including them here, and then blocking them.
 authors:
+  - name: Pegasus
+    id: 2813
+    prefixes:
+      - peg
+  - name: kingofsimcity
+    id: 33566
+    prefixes:
+      - kosc
+      - king's
+  - name: MarcosMX
+    id: 111156
+    prefixes:
+      - blam
+      - mx
+      - rnp
+  - name: pclark06
+    id: 364367
+    prefixes:
+      - pc
+  - name: Simmer2
+    id: 444001
+    prefixes:
+      - sm2
+  - name: RRetail
+    id: 744613
+    prefixes:
+      - rr
 
 # Example for permissions for specific packages.
 # authors:
