@@ -9,6 +9,7 @@ import yauzl from 'yauzl';
 import { parseAllDocuments } from 'yaml';
 import { kFileInfo } from './symbols.js';
 import { SimtropolisError } from './errors.js';
+import attempt from './attempt.js';
 
 // # Downloader
 // A helper class for downloading urls to a temp folder.
@@ -168,14 +169,4 @@ function withResolvers() {
 		reject = _reject;
 	});
 	return { promise, resolve, reject };
-}
-
-// # attempt(fn)
-// Helper function that mimicks the "safe assignment operator" proposal.
-async function attempt(fn) {
-	try {
-		return [null, await fn()];
-	} catch (e) {
-		return [e, null];
-	}
 }

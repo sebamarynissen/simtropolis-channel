@@ -4,25 +4,42 @@ import * as dot from 'dot-prop';
 // This function takes the main package metadata as generated from the STEX, and 
 // then applies the user-defined metadata as a patch to it. Note that it's 
 // possible that the user has specified multiple packages.
-export default function patchMetadata(metadata, patch) {
+export default function patchMetadata(
+	metadata,
+	patch,
+	original = metadata.package,
+) {
 
 	// If nothing needs to be patched, just return the package as is.
 	if (!patch || patch === true) {
-		return Object.assign([metadata.package], { main: metadata.package });
+		return {
+			packages: [metadata.package],
+			main: metadata.package,
+			basename: original.name,
+		};
 	}
 
 	// We first have to figure out what the "main package" of the user-defined 
 	// metadata is, because the parsed dependencies and variants from the api 
 	// should only be applied to the main package.
+	let basename = original.name;
 	let mainIndex = findMainPackageIndex(patch);
-	let patched = [patch]
+	let packages = [patch]
 		.flat()
-		.map((patch, index) => applyPatch(metadata.package, patch, {
-			main: index === mainIndex,
-		}))
-		.map(pkg => fill(pkg, metadata));
-	patched.main = patched[mainIndex];
-	return patched;
+		.map((patch, index) => {
+			let isMain = index === mainIndex;
+			let bare = applyPatch(metadata.package, patch, { main: isMain });
+			let filled = fill(bare, metadata);
+			if (isMain && patch.name) {
+				basename = filled.name;
+			}
+			return filled;
+		});
+	return {
+		packages,
+		main: packages[mainIndex],
+		basename,
+	};
 
 }
 
