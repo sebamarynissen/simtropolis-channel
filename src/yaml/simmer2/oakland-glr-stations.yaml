@@ -1,4 +1,4 @@
-group: sm2
+group: simmer2
 name: oakland-glr-stations
 version: "2.0.0"
 subfolder: 700-transit
@@ -33,10 +33,10 @@ info:
 dependencies:
   - sm2:oakland-train-stations
 assets:
-  - assetId: sm2-oakland-glr-stations
+  - assetId: simmer2-oakland-glr-stations
 
 ---
-assetId: sm2-oakland-glr-stations
+assetId: simmer2-oakland-glr-stations
 version: "2.0.0"
 lastModified: "2018-09-10T05:14:01Z"
 url: https://community.simtropolis.com/files/file/32270-sm2-oakland-glr-stations/?do=download

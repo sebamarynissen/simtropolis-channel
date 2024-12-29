@@ -1,4 +1,4 @@
-group: sm2
+group: simmer2
 name: intermodal-terminal
 version: "3.0.0"
 subfolder: 700-transit
@@ -37,7 +37,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/7.png.02f2e1a67e0821a5464c8548396edf9d.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/second.png.e4755c052e4d4a571e52b856c17095fb.png
 assets:
-  - assetId: sm2-intermodal-terminal
+  - assetId: simmer2-intermodal-terminal
 dependencies:
   - bsc:mega-props-jes-vol01
   - bsc:mega-props-jes-vol02
@@ -68,7 +68,7 @@ dependencies:
   - cogeo:logistics-centre-dependency-pack
 
 ---
-assetId: sm2-intermodal-terminal
+assetId: simmer2-intermodal-terminal
 version: "3.0.0"
 lastModified: "2020-01-05T05:11:46Z"
 url: https://community.simtropolis.com/files/file/30999-sm2-intermodal-terminal/?do=download
