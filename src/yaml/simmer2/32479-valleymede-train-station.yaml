@@ -49,10 +49,10 @@ dependencies:
 assets:
   - assetId: simmer2-valleymede-train-station
     exclude:
-      - .*\.SC4Lot$
+      - .SC4Lot$
   - assetId: simmer2-valleymede-train-station-mac-fix
     include:
-      - .*\.SC4Lot$
+      - .SC4Lot$
 
 ---
 assetId: simmer2-valleymede-train-station
@@ -65,3 +65,4 @@ assetId: simmer2-valleymede-train-station-mac-fix
 version: "1.0"
 lastModified: "2023-09-08T01:41:07Z"
 url: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/?do=download&r=197572
+  
