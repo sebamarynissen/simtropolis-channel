@@ -1,0 +1,53 @@
+group: pclark06
+name: speedway-gas-station
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Speedway Gas Station
+  description: |-
+    Speedway LLC is an Enon, Ohio based convenience store and gas station chain owned by Marathon Oil with locations primarily located in the Midwest and the East Coast of the United States. They have been expanding into the Great Plains and the West Coast through mergers and acquisitions, and currently, there are over 4,000 Speedway locations in the United States. This one is based on their 80s-90s c-store designs that still litter cities throughout the Midwest and have become a bit run down.  
+      
+    This is my first building in HD. This comes with a 2x3 CS$1 growable and a 3x3 ploppable landmark. I also want to thank [@RRetail](https://community.simtropolis.com/profile/744613-rretail/) for creating the gas canopies and sign a while back as they fit really well with the building!
+
+    Dependencies
+
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [CP Prop Pack Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    -   [PC HD Car Props](https://community.simtropolis.com/files/file/32921-pc-hd-car-props/)
+    -   [RR MEGA Prop Pack Vol. 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC - VIP Girafe Trees/Shrubs
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/32930-pc-speedway-gas-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5ce3f8cb55d29_DarwinPoint-May.28051558413930.png.0eadeb99f77c7c4cf4e2fe3ab5c9c4eb.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5ce3f8cd52d37_DarwinPoint-Mar.12051558413862.png.7464af295b6da442c2a0a18b1eb5c950.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - pclark06:mega-props-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-speedway-gas-station
+
+---
+assetId: pclark06-speedway-gas-station
+version: "1.0"
+lastModified: "2019-05-21T13:20:00Z"
+url: https://community.simtropolis.com/files/file/32930-pc-speedway-gas-station/?do=download&r=175966
