@@ -9,13 +9,31 @@ import patchMetadata from './patch-metadata.js';
 import scrape from './scrape.js';
 
 // # handleUpload(json)
-// Handles a single STEX upload.
+// Handles a single STEX upload. It accepts a json response from the STEX api 
+// and will generate the package's metadata, taking into account that custom 
+// metadata might have been included in the .zip folder.
 export default async function handleUpload(json, opts = {}) {
+
+	// We might already be able to shortcut based on the api response alone. 
+	// This happens for example when the category is "Maps" (116).
+	let excludedCategories = new Set([115, 116, 117]);
+	if (excludedCategories.has(json.cid)) {
+		return {
+			skipped: true,
+			type: 'notice',
+			reason: `Package ${json.fileURL} skipped as category is "${json.category}"`,
+		};
+	}
+
+	// Start by extracting all metadata we can from the api. This should be 
+	// sufficient to look for a `metadata.yaml` file in the downloads. We'll do 
+	// that first before completing the metadata with scraping, because we might 
+	// be able to shortcut already here.
+	let metadata = apiToMetadata(json);
 
 	// Start by extracting all metadata we can from the api, and then combine 
 	// this with scraping for the description and images as they are not 
 	// included in the api response yet.
-	let metadata = apiToMetadata(json);
 	let { description, images, subfolder } = await scrape(json.fileURL);
 	let { package: pkg } = metadata;
 	let { info } = pkg;
