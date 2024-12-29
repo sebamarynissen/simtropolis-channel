@@ -870,6 +870,45 @@ describe('The fetch action', function() {
 
 	});
 
+	it('skips tools', async function() {
+
+		const upload = faker.upload({
+			cid: 115,
+			category: 'Tools',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		let { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
+	it('skips maps', async function() {
+
+		const upload = faker.upload({
+			cid: 116,
+			category: 'Maps',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		let { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
+	it('skips regions', async function() {
+
+		const upload = faker.upload({
+			cid: 117,
+			category: 'Region',
+		});
+		const { run } = this.setup({ uploads: [upload] });
+		let { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
 });
 
 function jsonToYaml(json) {

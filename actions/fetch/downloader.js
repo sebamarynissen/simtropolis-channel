@@ -54,7 +54,11 @@ export default class Downloader {
 	// automatically.
 	async handleAsset(asset) {
 		const spinner = ora(`Downloading ${asset.url}`).start();
-		const download = await this.download(asset);
+		const [error, download] = await attempt(() => this.download(asset));
+		if (error) {
+			spinner.fail(error.message);
+			throw error;
+		}
 		let metadata;
 		try {
 			metadata = await this.handleDownload(download);
@@ -164,4 +168,14 @@ function withResolvers() {
 		reject = _reject;
 	});
 	return { promise, resolve, reject };
+}
+
+// # attempt(fn)
+// Helper function that mimicks the "safe assignment operator" proposal.
+async function attempt(fn) {
+	try {
+		return [null, await fn()];
+	} catch (e) {
+		return [e, null];
+	}
 }
