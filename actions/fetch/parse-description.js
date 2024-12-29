@@ -63,3 +63,17 @@ td.addRule('popular', {
 	},
 	replacement: () => '',
 });
+
+// Transform iframes into links.
+td.addRule('iframe', {
+	filter(node) {
+		if (node.nodeName !== 'IFRAME') return;
+		let src = node.getAttribute('src');
+		let url = new URL(src, 'https://community.simtropolis.com');
+		return url.hostname.includes('community.simtropolis.com');
+	},
+	replacement: (_content, node) => {
+		let src = node.getAttribute('src');
+		return `[${src}](${src})\n`;
+	},
+});
