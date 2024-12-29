@@ -74,7 +74,7 @@ if (timestamp) {
 // # createPr(pkg)
 // Creates a new PR for the given package, or updates it if it already exists.
 async function createPr(pkg, prs) {
-	let branch = `package/${pkg.id.replace(':', '/')}`;
+	let branch = `package/${pkg.branchId}`;
 	let pr = prs.find(pr => pr.head.ref === branch);
 
 	// If a PR already exists for this branch, it's probably a fix dpeloyed by 
