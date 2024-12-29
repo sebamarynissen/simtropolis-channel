@@ -22,17 +22,17 @@ const { context } = github;
 const packages = JSON.parse(core.getInput('packages'));
 if (packages.length > 0) {
 	for (let pkg of packages) {
-		let files = [];
-		for (let name of pkg.files) {
+		let additions = [];
+		for (let name of pkg.additions) {
 			let fullPath = path.join(cwd, name);
 			let contents = await fs.promises.readFile(fullPath);
-			files.push({
+			additions.push({
 				name,
 				path: fullPath,
 				contents,
 			});
 		}
-		pkg.files = files;
+		pkg.additions = additions;
 	}
 
 	// Reset the repository to a clean state again.
@@ -111,7 +111,10 @@ async function createPr(pkg, prs) {
 
 	// Re-apply the changes from this package.
 	let docs = [];
-	for (let file of pkg.files) {
+	for (let file of pkg.deletions) {
+		await fs.promises.unlink(path.join(cwd, file));
+	}
+	for (let file of pkg.additions) {
 		let dirname = path.dirname(file.path);
 		await fs.promises.mkdir(dirname, { recursive: true });
 		await fs.promises.writeFile(file.path, file.contents);
@@ -132,7 +135,10 @@ async function createPr(pkg, prs) {
 
 	// Add all the modified files & then commit.
 	let spinner = ora('Committing files').start();
-	for (let file of pkg.files) {
+	for (let file of pkg.deletions) {
+		await git.add(file);
+	}
+	for (let file of pkg.additions) {
 		await git.add(file.name);
 	}
 	await git.commit(title, { '--allow-empty': true });

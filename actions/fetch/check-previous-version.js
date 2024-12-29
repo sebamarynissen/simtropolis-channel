@@ -54,11 +54,6 @@ export default async function checkPreviousVersion(id, metadata, opts) {
 	// Now return that the old file has to be deleted when creating a new PR. 
 	// Note that if the name of the file doesn't change, this isn't a problem, 
 	// it will be overwritten anyway by the new contents!
-	return [
-		{
-			type: 'deletion',
-			file: `${srcPath}/${author}/${prev}`,
-		},
-	];
+	return [`${srcPath}/${author}/${prev}`];
 
 }

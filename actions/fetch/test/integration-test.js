@@ -212,11 +212,12 @@ describe('The fetch action', function() {
 		const { run } = this.setup({ uploads: [upload] });
 
 		let { read, result } = await run({ id: upload.id });
-		expect(result.files).to.eql([
+		expect(result.additions).to.eql([
 			`src/yaml/smf-16/${upload.id}-smf-tower.yaml`,
 		]);
+		expect(result.branchId).to.equal('111');
 
-		let metadata = read(result.files.at(0));
+		let metadata = read(result.additions.at(0));
 		expect(metadata[0]).to.eql({
 			group: 'smf-16',
 			name: 'smf-tower',
@@ -553,7 +554,7 @@ describe('The fetch action', function() {
 		});
 
 		let { read, result } = await run({ id: 2145 });
-		expect(result.files).to.eql([
+		expect(result.additions).to.eql([
 			'src/yaml/smf-16/2145-st-residences.yaml',
 		]);
 		let metadata = read('/src/yaml/smf-16/2145-st-residences.yaml');
@@ -938,14 +939,11 @@ describe('The fetch action', function() {
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
 		let { packages } = await run({ id: upload.id });
-		let [{ metadata, files }] = packages;
+		let [{ metadata, deletions, additions }] = packages;
 		expect(metadata.package.group).to.equal('smf-16');
 		expect(metadata.package.name).to.equal('old-title');
-		expect(files).to.have.length(2);
-		let deletion = files.find(file => file.type === 'deletion');
-		expect(deletion.file).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		let addition = files.find(file => typeof file === 'string');
-		expect(addition).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
+		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
 
 	});
 
@@ -987,14 +985,11 @@ describe('The fetch action', function() {
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
 		let { packages } = await run({ id: upload.id });
-		let [{ metadata, files }] = packages;
+		let [{ metadata, deletions, additions }] = packages;
 		expect(metadata.package.group).to.equal('smf-16');
 		expect(metadata.package.name).to.equal('old-title');
-		expect(files).to.have.length(2);
-		let deletion = files.find(file => file.type === 'deletion');
-		expect(deletion.file).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		let addition = files.find(file => typeof file === 'string');
-		expect(addition).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
+		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
 
 	});
 
@@ -1037,14 +1032,11 @@ describe('The fetch action', function() {
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
 		let { packages } = await run({ id: upload.id });
-		let [{ metadata, files }] = packages;
+		let [{ metadata, deletions, additions }] = packages;
 		expect(metadata.package.group).to.equal('smf-16');
 		expect(metadata.package.name).to.equal('old-title');
-		expect(files).to.have.length(2);
-		let deletion = files.find(file => file.type === 'deletion');
-		expect(deletion.file).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		let addition = files.find(file => typeof file === 'string');
-		expect(addition).to.equal('src/yaml/smf-16/42592-custom-new-title.yaml');
+		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
+		expect(additions[0]).to.equal('src/yaml/smf-16/42592-custom-new-title.yaml');
 
 	});
 

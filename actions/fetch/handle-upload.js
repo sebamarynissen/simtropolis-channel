@@ -97,7 +97,8 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
-	// 
+	// Allright, we're pretty much done now. Write away the metadata and return 
+	// the information about what we've generated.
 	let { group, name } = main;
 	let id = `${group}:${name}`;
 	let yaml = serialize(zipped);
@@ -107,8 +108,10 @@ export default async function handleUpload(json, opts = {}) {
 	await fs.promises.writeFile(output, yaml);
 	return {
 		id,
+		branchId: String(json.id),
 		metadata,
-		files: [...deletions, relativePath],
+		deletions,
+		additions: [relativePath],
 	};
 
 }
