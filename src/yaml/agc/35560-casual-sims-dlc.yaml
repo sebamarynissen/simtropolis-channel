@@ -32,8 +32,27 @@ info:
   website: https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/649d7b0d8cb06_image(1).png.a50b033afacff103b8d00d725981b1af.png
+dependencies:
+  - agc:casual-sims-dlc-props
 assets:
   - assetId: agc-casual-sims-dlc
+    include:
+      - .dat$
+
+---
+group: agc
+name: casual-sims-dlc-props
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Casual Sims DLC Props
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/
+assets:
+  - assetId: agc-casual-sims-dlc
+    include:
+      - .SC4Desc$
+      - .SC4Model$
 
 ---
 assetId: agc-casual-sims-dlc
