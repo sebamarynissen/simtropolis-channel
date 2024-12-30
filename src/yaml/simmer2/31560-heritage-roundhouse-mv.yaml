@@ -1,0 +1,52 @@
+group: simmer2
+name: heritage-roundhouse-mv
+version: "3.0.0"
+subfolder: 700-transit
+info:
+  summary: Heritage Roundhouse MissVanleider version
+  description: |-
+    As requested by [@MissVanleider](https://community.simtropolis.com/profile/619004-missvanleider/) (Thus the MV on the lot name)
+
+    This is the smaller version of SM2 Heritage Roundhouse. (Lot size 14X14)
+
+    The new distinctive name is SM2\_MV\_Heritage Roundhouse. (Lot size = 8X14)
+
+    Cost to plop = 30,000  
+    Cost to bulldoze = 3,000  
+    Monthly maintenance = 220  
+    Provides 34 jobs.
+
+    This version will not allow trains to pass through however you can still connect the rail and street stubs to the game networks for a better visual effect.
+
+    Dependencies
+
+    The original SM2 Heritage Roundhouse and its dependencies.
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3500](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3500)
+
+    or
+
+    If you don't want the original lot to show up in your rail menu then just remove "SM2 Heritage Roundhouse.dat" from your plugin.  
+    The rest must remain in the plugin in order to have no issues with SM2\_MV\_Heritage Roundhouse.
+
+    Enjoy
+
+    Simmer2
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31560-sm2_mv_heritage-roundhouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV1.jpg.28a6d438782a527b617082cf56353e4e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV2.jpg.5a1c12fabbb308aa73a58d353d206e34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV3.jpg.42a6041f13ceabd7be41e891678e1cd9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV4.jpg.6de1f967f8f076fd5fb94ce095f950b9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV5.jpg.dad94824af6cb49a29d170666ab2b087.jpg
+dependencies:
+  - simmer2:heritage-roundhouse
+assets:
+  - assetId: simmer2-heritage-roundhouse-mv
+
+---
+assetId: simmer2-heritage-roundhouse-mv
+version: "3.0.0"
+lastModified: "2018-08-23T04:15:19Z"
+url: https://community.simtropolis.com/files/file/31560-sm2_mv_heritage-roundhouse/?do=download

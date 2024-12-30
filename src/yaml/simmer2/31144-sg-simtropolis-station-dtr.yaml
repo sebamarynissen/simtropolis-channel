@@ -1,0 +1,40 @@
+group: simmer2
+name: sg-simtropolis-station-dtr
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: SG SimTropolis Station DTR
+  description: |-
+    This is the DTR version of SM2 SG SimTropolis Station.
+
+    DTR = Dual Track Rail. (RRW format)
+
+    Same stats as the STR version. This one is clearly marked "SM2 SG SimTropolis Station DTR" in the transportation menu.
+
+    **You must have the original SM2 SG SimTropolis Station and all the dependencies that are listed for that lot to avoid brown boxes and/or missing textures.**
+
+    You will find the original lot and the complete set of dependencies here,
+
+    Or here [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3378](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3378)
+
+    You can have both stations on the same city tile if you wish.
+
+    Enjoy, Simmer2
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31144-sm2-sg-simtropolis-station-dtr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/1day11544.jpg.6ddc7eeb74c813961a2355883cd7d6fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/2.jpg.275c929db749a34abea33c0b3f416a2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/3.jpg.6b012b6dac736f92b1e8f25451829e75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/4.jpg.55470c063d0df44add95c404b465f28c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/5.jpg.012a6d0580b80ba42d736d92c6ecf09f.jpg
+dependencies:
+  - simmer2:sg-simtropolis-station-str
+assets:
+  - assetId: simmer2-sg-simtropolis-station-dtr
+
+---
+assetId: simmer2-sg-simtropolis-station-dtr
+version: "1.0"
+lastModified: "2018-08-23T04:28:49Z"
+url: https://community.simtropolis.com/files/file/31144-sm2-sg-simtropolis-station-dtr/?do=download

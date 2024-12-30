@@ -1,0 +1,48 @@
+group: rretail
+name: food-city
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Food City
+  description: |-
+    Food City is a supermarket chain with over 120 stores in Georgia, Kentucky, Tennessee, and Virginia. It is owned by K-VA-T Food Stores, Inc., an employee-owned and privately held family corporation that is headquartered out of Abingdon, VA.
+
+    9x5 lot with 224 jobs
+
+    Dependencies:
+
+    -   [RR MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC - VIP Girafe Trees/Shrubs
+        -   [Berries](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2888)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33111-food-city/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d656551070f9_RRFoodCity.jpg.45d1f2dbaaa2fbf92726a8ea973ec2ea.jpg
+dependencies:
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-sg-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:poplars
+  - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+assets:
+  - assetId: rretail-food-city
+
+---
+assetId: rretail-food-city
+version: "1.0.0"
+lastModified: "2019-08-27T17:17:21Z"
+url: https://community.simtropolis.com/files/file/33111-food-city/?do=download

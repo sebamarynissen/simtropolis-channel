@@ -23,7 +23,7 @@ describe('#patchMetadata()', function() {
 				},
 			},
 		};
-		let packages = patchMetadata(metadata, null);
+		let { packages } = patchMetadata(metadata, null);
 		expect(packages).to.have.length(1);
 		expect(packages[0]).to.eql(metadata.package);
 
@@ -44,7 +44,7 @@ describe('#patchMetadata()', function() {
 			},
 		};
 		let patch = read('group-override.yaml');
-		let packages = patchMetadata(metadata, patch);
+		let { packages } = patchMetadata(metadata, patch);
 		expect(packages).to.have.length(1);
 		let [pkg] = packages;
 		expect(pkg.group).to.equal('sfbt');
@@ -73,7 +73,7 @@ describe('#patchMetadata()', function() {
 		};
 
 		let patch = read('interpolation.yaml');
-		let [pkg] = patchMetadata(metadata, patch);
+		let { packages: [pkg] } = patchMetadata(metadata, patch);
 		expect(pkg).to.eql({
 			group: 'smf-16',
 			name: 'reference-assets',
@@ -116,7 +116,7 @@ describe('#patchMetadata()', function() {
 		};
 
 		let patch = read('resource-package.yaml');
-		let [resources, main] = patchMetadata(metadata, patch);
+		let { packages: [resources, main] } = patchMetadata(metadata, patch);
 		expect(resources).to.eql({
 			group: 'smf-16',
 			name: 'some-building-resources',

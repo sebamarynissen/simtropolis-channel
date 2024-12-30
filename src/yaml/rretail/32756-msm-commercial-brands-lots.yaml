@@ -1,0 +1,305 @@
+group: rretail
+name: msm-commercial-brands
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Modular Strip Mall Commercial Brands
+  description: |-
+    5 growable lots and 1 massive ploppable lot for the commercial buildings I’ve done for the MSM series. Lot sizes vary in size between 1x2 to 2x3 or 3x2.
+
+    The RR MSM Commercial Models ARE REQUIRED for both the prop and lot files included with this download to work correctly. I separated the two due to the amount of files.
+
+    As part of the RR MSM (Modular Strip Mall) series of buildings, these buildings are designed to fit all together by use of props to create a shopping commercial complex for your neighborhood. I highly recommend you customize the lots to your liking if you wish to do so. The included props are of the MSM Commercial Model buildings found in the dependency list below.
+
+    If you don’t want any individual lots, make sure to delete the lots folder. You can also ignore the dependency list for lot use below.
+
+    Dependencies:
+
+    -   [RR MSM Commercial Models Pack](https://community.simtropolis.com/files/file/32755-rr-msm-commercial-brands-models/)
+
+    Dependencies for Lot Use:
+
+    -   [PC Prop Pack Vol. 2](https://community.simtropolis.com/files/file/32732-pc-prop-pack-2/)
+    -   [LBT MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [RR Prop Pack Vol. 4](https://community.simtropolis.com/files/file/32639-rr-prop-pack-vol-4/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC - VIP Girafe Trees/Shrubs
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+        -   [Berries](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2888)
+        -   [Birch Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+        -   [Elm Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3347)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32756-rr-msm-commercial-brands-lots-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c68a2a4dd63e_RRMSMCommericalBrandsLotsProps.jpg.005810294dd6543a9ede34b348700118.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c68af3a0bdb6_RRMSMLotsProps1.jpg.c57d17731885bc593e5af3420978dd2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c68af3b06c41_RRMSMLotsProps2.jpg.3a72d6c7c7473aed928339910b215be2.jpg
+dependencies:
+  - rretail:msm-commercial-brands-models-props
+  - pclark06:mega-props-vol1
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-rt-vol02
+  - bsc:sg-models-im1
+  - nos17:essentials
+  - rretail:msm-defunct-commercial-brands-pack
+  - rretail:msm-health-education-services-pack
+  - simmer2:mega-prop-pack-vol1
+assets:
+  - assetId: rretail-msm-commercial-brands-lots-props
+    include:
+      - /Lots/
+
+---
+group: rretail
+name: msm-commercial-brands-models-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Modular Strip Mall Commercial Brands resource pack
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32755-rr-msm-commercial-brands-models/
+  description: |-
+    The Model files to over 130 commerical brands.
+
+    The RR MSM Commercial Lots ARE REQUIRED for this download to work correctly. I separated the two due to the size and amount of files.
+
+    As part of the RR MSM (Modular Strip Mall) series of buildings, these buildings are designed to fit all together by use of props to create a shopping commercial complex for your neighborhood. I highly recommend you customize the lots to your liking if you wish to do so. The included props are of the MSM Commercial Model buildings found in the dependency list below.
+
+    Made-up Brands included:
+
+    -   Aquatic Athlete Pools & Spas
+    -   Best Beach Tanning
+    -   Best Nails
+    -   China Buffet
+    -   Credit Union (generic)
+    -   Discount Beer
+    -   E-Z Cigs & Stuff
+    -   Gold Getters
+    -   Golden Opportunities 
+    -   Great Wall Buffet
+    -   Hobby Stop
+    -   Karate Dojo
+    -   Laundromat (generic)
+    -   Music Masters
+    -   Nail Spa
+    -   Neon Nails
+    -   Pool Professionals
+    -   Read All About It Book Store
+    -   Rise and Shine Laundromat
+    -   Scoops & Sundaes Ice Cream
+    -   Shinetime Jewelry & Clock Repair
+    -   Simtropolis Realtors 
+    -   Smoke & Mirrors Smoke Shop
+    -   Smoke Shop (generic)
+    -   Tae Kwan Do
+    -   Thrifty Treasures
+    -   Toy Box
+    -   Wines & Spirits Shop
+    -   Wise Eyes Optical
+
+    Real Brands:
+
+    -   7-11
+    -   99 Cent Stores
+    -   Aaron's
+    -   Allstate
+    -   AAA Travel Agency
+    -   Advance Auto Parts
+    -   Advance Cash Loans
+    -   America's Best Eyeglasses
+    -   Applebee's
+    -   At&t
+    -   ATA Martial Arts Academy
+    -   Auto Zone
+    -   Avenue
+    -   BAM! Books
+    -   Bank of America
+    -   Bath & Body Works
+    -   Batteries & Bulbs
+    -   BevMo!
+    -   Boost Mobile
+    -   Buffalo Wild Wings
+    -   CVS Pharmacy
+    -   Carquest Auto Parts
+    -   Casual Male XL
+    -   Catherine's Plus Sizes
+    -   Cato Fashions
+    -   Century 21
+    -   Cell Phone Repair (CPR Store)
+    -   Charley's Philly Steaks
+    -   Chipotle
+    -   Chuck E. Cheese's
+    -   CiCi's Pizza
+    -   Citi Trends
+    -   Clothes Mentor
+    -   Coldstone Creamery
+    -   CosmoProf
+    -   Cost Cutters
+    -   Cricket Wireless
+    -   Curves
+    -   Dairy Queen
+    -   David's Bridal
+    -   Dickey's BBQ Pit
+    -   Disc Replay
+    -   Dollar General
+    -   Dollar Tree
+    -   Domino's Pizza
+    -   Dots Fashion
+    -   Dressbarn
+    -   Dunkin' Donuts
+    -   Enterprise Rent-A-Car
+    -   Edible Arragements
+    -   Edward Jones Investments
+    -   Family Dollar
+    -   Family Video
+    -   Famous Footwear
+    -   Farmers Insurance
+    -   Fast Signs
+    -   Fastenal
+    -   Fedex Office
+    -   Firehouse Subs
+    -   Fisher Auto Parts
+    -   Five Guys
+    -   Gamestop
+    -   GEICO
+    -   GNC
+    -   Golf Galaxy
+    -   Goodwill
+    -   Great Clips
+    -   Guitar Center
+    -   Hallmark
+    -   Harbor Freight Tools
+    -   Hertz
+    -   Hibbett Sports
+    -   HobbytownUSA
+    -   Holiday Hair
+    -   Honeybaked Ham
+    -   H&R Block
+    -   Jenny Craig
+    -   Jet's Pizza
+    -   JO-ANN Crafts
+    -   Jersey Mike's
+    -   Jimmy John's
+    -   Kay Jewelers
+    -   Key Bank
+    -   La-Z-Boy Furniture Gallery
+    -   Label Shopper
+    -   Lane Bryant
+    -   Lenscrafters
+    -   Lendmark
+    -   Leslie's Pool Supplies
+    -   Lumber Liquidators
+    -   Liberty Tax
+    -   Little Caesars
+    -   Mariner Fiance 
+    -   Mattress Firm
+    -   Maurices
+    -   Mens Warehouse
+    -   Metro Mattress
+    -   Metro PCS
+    -   Mircale Ear
+    -   Moe's Southwest Grill
+    -   Motherhood Maternity
+    -   Napa Auto Parts
+    -   Nationwide
+    -   OfficeMax
+    -   Old Navy
+    -   Olympia Sports
+    -   Once Upon a Child
+    -   One-Main Financial 
+    -   Outback Steakhouse
+    -   Panera Bread
+    -   Papa John's Pizza
+    -   Party City
+    -   Payless Shoesource
+    -   Pearle Vision
+    -   Penn Station Subs
+    -   Pet Supplies Plus
+    -   Pet Valu
+    -   Petsmart
+    -   Pier 1 Imports
+    -   Pizza Hut
+    -   Plato's Closet
+    -   Play It Again Sports
+    -   Rack Room Shoes
+    -   Rainbow
+    -   RE-MAX
+    -   Rent A Center
+    -   Rite Aid
+    -   Round Table Pizza
+    -   Rue 21
+    -   Sally Beauty Supply
+    -   Salvation Army
+    -   Sears Hometown
+    -   Sherwin Williams
+    -   Shoe Carnival
+    -   Shoe Dept.
+    -   Shoe Sensation
+    -   Shoe Show
+    -   Spectrum
+    -   Sports Clips
+    -   Sprint Mobile
+    -   Starbucks Coffee
+    -   Subway
+    -   Sun Tan City
+    -   Supercuts
+    -   Sweet Frog Yogurt
+    -   T-Mobile
+    -   TitleMax Loans
+    -   Tropical Smoothie Cafe
+    -   Tuesday Morning
+    -   UPS Store
+    -   US Bank
+    -   Weight Watchers
+    -   West Marine
+    -   Wild Birds Unlimited
+    -   Wing Stop
+    -   Visionworks
+    -   Xfinity Wireless
+    -   Zoom Tan
+
+    Dependencies:
+
+    -   [RR MSM Commercial Lots & Props](https://community.simtropolis.com/files/file/32756-rr-msm-commercial-brands-lots-props/)
+assets:
+  - assetId: rretail-msm-commercial-brands-lots-props
+    include:
+      - /Props
+  - assetId: rretail-msm-commercial-brands-models
+
+---
+assetId: rretail-msm-commercial-brands-lots-props
+version: "1.0"
+lastModified: "2019-02-17T00:48:00Z"
+url: https://community.simtropolis.com/files/file/32756-rr-msm-commercial-brands-lots-props/?do=download
+
+---
+assetId: rretail-msm-commercial-brands-models
+version: "1.0"
+lastModified: "2019-02-16T23:47:56Z"
+url: https://community.simtropolis.com/files/file/32755-rr-msm-commercial-brands-models/?do=download

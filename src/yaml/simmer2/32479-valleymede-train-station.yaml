@@ -1,0 +1,68 @@
+group: simmer2
+name: valleymede-train-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Valleymede Train Station
+  description: |-
+    **SM2 Valleymede Rail Station**
+
+    6X1 proximity lot, works on both RRW and Maxis rail networks.
+
+    Capacity = 35000
+
+    Needs water and power to function.
+
+    Dependencies
+
+    SM2 Mega Prop Pack Vol1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3640](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    SM2 Mega Prop Pack Vol2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3645](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3645)
+
+    BSC - VIP girafe carpack vol. 1 & 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2821](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2821)
+
+    SP SuperSHK MEGA Textures [https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    **Alternate links for my packs only**
+
+    SM2 Mega Prop Pack Vol1 [https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+
+    SM2 Mega Prop Pack Vol2 [https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/](https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/)
+
+    Simmer2
+
+    **Mac Users**
+
+    The original lot does not work with the Mac version of the game. If you use a Mac, after installation, replace the original .SC4Lot file with the one contained within "Mac Fix.zip". Thanks to [@Hernank](https://community.simtropolis.com/profile/194542-hernank/) for the fixed file(s).
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt5.jpg.54d39a090d488da93db1d79e3951341a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt4.jpg.e41838eae019dbf612524bea3b4a3e3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt3.jpg.c0b637f89964e4e7bb4871980a0b2148.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt2.jpg.871e21eb66ded11553aa59f2cdf51cef.jpg
+dependencies:
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: simmer2-valleymede-train-station
+    exclude:
+      - .SC4Lot$
+  - assetId: simmer2-valleymede-train-station-mac-fix
+    include:
+      - .SC4Lot$
+
+---
+assetId: simmer2-valleymede-train-station
+version: "1.0"
+lastModified: "2023-09-08T01:41:07Z"
+url: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/?do=download&r=197571
+
+---
+assetId: simmer2-valleymede-train-station-mac-fix
+version: "1.0"
+lastModified: "2023-09-08T01:41:07Z"
+url: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/?do=download&r=197572
+  

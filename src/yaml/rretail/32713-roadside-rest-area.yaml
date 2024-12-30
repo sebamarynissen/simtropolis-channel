@@ -1,0 +1,85 @@
+group: rretail
+name: roadside-rest-area
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: Roadside Rest Area
+  description: |-
+    It has been bothering me that SimCity lacks an official rest area for our sims’ highway systems. Well, that problem now is fixed as they now have an option to take a quick break from driving. Both the rest area building and lot are inspired by the design of the Campbell, NY rest area along I-86 in western New York.
+
+    Two lot files (your choice between Right Hand or Left Hand Drive) are included with both being a size of 4x15. which acts as a bus stop in game. Both lots also feature transit connection with one way streets for a better transition with the NAM system.
+
+    Also another big thanks to [@kingofsimcity](https://community.simtropolis.com/profile/33566-kingofsimcity/) for some custom textures made just for this.
+
+    Dependencies:
+
+    -   [Mushy's Trailers](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/)
+    -   [BSC Mega Props Pack DAE Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Texture](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)s
+    -   [SuperPaths Pathway Textures](https://community.simtropolis.com/files/file/32066-superpaths-pathway-textures/)
+    -   [RR MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   BSC - VIP Girafe Trees/Shrubs
+        -   [Ash Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854)
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+        -   [Berries](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2888)
+        -   [Birch Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+        -   [Chestnut Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049)
+        -   [Elm Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3347)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Narcissus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2964)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+        -   [Sparaxis Flowers](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2980)
+        -   [Walnut Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3461)
+  author: RRetail, kingofsimcity
+  website: https://community.simtropolis.com/files/file/32713-roadside-rest-area/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c390a715e64a_RRRestArea.jpg.ad03d3d89fd442749dad7f6e6ad26024.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c390bfd4ab34_RRRestArea.jpg.777fc21e2c96ebc42e434dd806cb551d.jpg
+dependencies:
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-dae-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - kingofsimcity:superpaths-pathway-textures
+  - rretail:mega-prop-pack-vol1
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+  - girafe:walnut-trees
+  - bsc:mega-props-misc-vol02
+  - kingofsimcity:logistics-essentials
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: rretail-roadside-rest-area
+        exclude:
+          - _LHD_
+  - variant: { driveside: left }
+    assets:
+      - assetId: rretail-roadside-rest-area
+        exclude:
+          - _RHD_
+
+---
+assetId: rretail-roadside-rest-area
+version: "1.1"
+lastModified: "2020-06-20T00:59:49Z"
+url: https://community.simtropolis.com/files/file/32713-roadside-rest-area/?do=download

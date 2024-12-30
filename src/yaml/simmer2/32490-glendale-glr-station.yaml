@@ -1,0 +1,53 @@
+group: simmer2
+name: glendale-glr-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Glendale GLR Station
+  description: |-
+    **SM2 Glendale GLR Station**
+
+    3X3 Round GLR station.
+
+    It has car park facilities and also acts as a bus hub.
+
+    Cost to plop 2500
+
+    Capacity 37500
+
+    Needs power to run
+
+    Plop it and run the EL tracks through it. Don't forget to use the GLR tool to flatten the network
+
+    Dependencies
+
+    SM2 Mega Prop Pack Vol1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3640](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    SM2 Mega Prop Pack Vol2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3645](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3645)
+
+    The NAM is also a must for this to work.[https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=851](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=851)
+
+    **Alternate links for my packs only**
+
+    SM2 Mega Prop Pack Vol1 [https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+
+    SM2 Mega Prop Pack Vol2 [https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/](https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/)
+
+    Simmer2
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32490-sm2-glendale-glr-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Glen3.jpg.06f6d79d4f37e64573763d18a5ee4d8f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Glen2.jpg.ad05ae57cf601b18334bf0ec6557c1a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Glen1.jpg.d5453131e55bfb394f6dea8586b198dd.jpg
+dependencies:
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+assets:
+  - assetId: simmer2-glendale-glr-station
+
+---
+assetId: simmer2-glendale-glr-station
+version: "1.0"
+lastModified: "2018-09-12T01:13:52Z"
+url: https://community.simtropolis.com/files/file/32490-sm2-glendale-glr-station/?do=download

@@ -29,6 +29,26 @@ export default class PermissionsApi {
 		}
 	}
 
+	// ## transform(upload)
+	// The transform function applies some transformations to the stex api 
+	// response based on our permissions configuration. Most notably this allows 
+	// us to strip prefixes from the title as certain authors sometimes prefix 
+	// their uploads.
+	transform(upload) {
+		let config = this.index?.usersById.get(String(upload.uid));
+		if (!config) return upload;
+		let clone = { ...upload };
+		for (let prefix of config.prefixes || []) {
+			let regex = new RegExp(`^${prefix}\\b`, 'i');
+			clone.title = clone.title.replace(regex, '').trim();
+			clone.aliasEntry = clone.aliasEntry
+				.replace(regex, '')
+				.replace(/^-+/, '')
+				.trim();
+		}
+		return clone;
+	}
+
 	// ## isUploadAllowed(upload)
 	// Returns whether the user that has made the given stex upload - as stex 
 	// api response - is actually allowed to do this.
