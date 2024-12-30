@@ -39,7 +39,8 @@ export default async function completeMetadata(metadata, json) {
 // in the upload.
 export function expandVariants(metadata) {
 	let includedVariants = findIncludedVariants(metadata);
-	return generateVariants(includedVariants, metadata);
+	let configs = generateVariantConfigs(includedVariants);
+	return generateVariants(configs, metadata);
 }
 
 // # findIncludedVariants(metadata)
@@ -58,7 +59,42 @@ function findIncludedVariants(metadata) {
 	if (hasOneOf(assets, ['cam'])) {
 		variants.push('CAM');
 	}
+	if (hasOneOf(assets, ['hd'])) {
+		variants.push('resolution');
+	}
 	return variants;
+}
+
+const variations = {
+	nightmode: ['standard', 'dark'],
+	driveside: ['right', 'left'],
+	CAM: ['no', 'yes'],
+	resolution: ['sd', 'hd'],
+};
+
+// # generateVariantConfigs(variants)
+// Generates an array of all the - variant: {} configurations that we support.
+function generateVariantConfigs(variants) {
+	let configs = [{}];
+	for (let variant of variants) {
+		let config = variations[variant];
+		if (!config) continue;
+		configs = expand(configs, { [variant]: config });
+	}
+	return configs;
+}
+
+function expand(arr, config) {
+	let result = [];
+	for (let el of arr) {
+		for (let key of Object.keys(config)) {
+			let variations = config[key];
+			for (let variation of variations) {
+				result.push({ ...el, [key]: variation });
+			}
+		}
+	}
+	return result;
 }
 
 // # hasOneOf(assets, tags)
@@ -69,90 +105,89 @@ function hasOneOf(assets, tags) {
 	});
 }
 
-// # generateVariants(variants, metadata)
-function generateVariants(variants, metadata) {
-	let output = [{}];
-	for (let variant of variants) {
-		let queue = output;
-		output = [];
-		let objects = generateVariant(variant, metadata);
-		for (let variant of objects) {
-			for (let q of queue) {
-				output.push({
-					variant: { ...q.variant, ...variant.variant },
-					dependencies: mergeArray(q.dependencies, variant.dependencies),
-					assets: mergeArray(q.assets, variant.assets),
-				});
+function generateVariants(configs, metadata) {
+	if (configs.length < 2) return;
+	return configs.map(config => generateVariant(config, metadata));
+}
+
+// # has(asset, tag)
+// Returns whether the asset contains the given tag.
+function has(asset, tag) {
+	let tags = asset[kFileTags] ?? [];
+	return tags.includes(tag);
+}
+
+function generateVariant(config, metadata) {
+
+	// First we'll filter out anything that is not label with the correct night 
+	// mode variant.
+	let dependencies = [];
+	let exclusions = {};
+	let { assets } = metadata;
+	let { nightmode, driveside, CAM, resolution } = config;
+	if (nightmode) {
+		let opposite = nightmode === 'standard' ? 'darknite' : 'maxisnite';
+		assets = assets.filter(asset => !has(asset, opposite));
+		if (nightmode === 'dark') dependencies.push('simfox:day-and-nite-mod');
+	}
+	if (driveside) {
+		let opposite = driveside === 'left' ? 'rhd' : 'lhd';
+		assets = assets.filter(asset => !has(asset, opposite));
+	}
+
+	// For the cam variant, things are a bit different, because it's on/off 
+	// instead of a/b.
+	if (CAM === 'no') {
+		assets = assets.filter(asset => !has(asset, 'cam'));
+	} else if (CAM === 'yes') {
+		for (let asset of assets) {
+
+			// Note: excluding the .SC4Lot & .SC4Desc files should not happen 
+			// for hd or sd assets, as they should only contain .SC4Model files.
+			if (!has(asset, 'cam') && !has(asset, 'sd') && !has(asset, 'hd')) {
+				let exclude = exclusions[asset.assetId] ??= [];
+				exclude.push('.SC4Lot$', '.SC4Desc$');
+			}
+
+		}
+	}
+
+	// For the resolution, things are a bit different. There are two 
+	// possibilities: either both a SD and HD asset exist. In that case we just 
+	// use those "as they are". If only a HD asset exists, then we assume its 
+	// meant to *overridde* the SC4Model files of the standard asset.
+	if (resolution) {
+		let hasSd = assets.some(asset => has(asset, 'sd'));
+		if (hasSd) {
+			let opposite = resolution === 'hd' ? 'sd' : 'hd';
+			assets = assets.filter(asset => !has(asset, opposite));
+		} else if (resolution === 'sd') {
+			assets = assets.filter(asset => !has(asset, 'hd'));
+		} else if (resolution === 'hd') {
+			for (let asset of assets) {
+
+				// Note: excluding the .SC4Model file should not happen for cam 
+				// assets, they must only contain .SC4Lot files anyway.
+				if (!has(asset, 'hd') && !has(asset, 'cam')) {
+					let exclude = exclusions[asset.assetId] ??= [];
+					exclude.push('.SC4Model$');
+				}
+
 			}
 		}
 	}
-	return output.length < 2 ? undefined : output;
-}
 
-// # mergeArray(a, b)
-function mergeArray(a, b) {
-	let merged = [...(a||[]), ...(b||[])];
-	if (merged.length === 0) return;
-	return structuredClone(merged);
-}
+	// At last we'll compile everything together.
+	return {
+		variant: config,
+		...dependencies.length > 0 && { dependencies },
+		assets: assets.map(asset => {
+			let exclude = exclusions[asset.assetId];
+			return {
+				assetId: asset.assetId,
+				...exclude && { exclude },
+			};
+		}),
+	};
 
-// # generateVariant(type, metadata)
-// Generates the essential variant information for the given type. For example, 
-// for day-and-night, there are two possible variants. Subsequently we'll merge 
-// this with the other variants.
-function generateVariant(type, metadata) {
-	let { assets } = metadata;
-	if (type === 'nightmode') {
-		return [
-			{
-				variant: { nightmode: 'standard' },
-				assets: [
-					{ assetId: findAsset(assets, 'maxisnite') },
-				],
-			},
-			{
-				variant: { nightmode: 'dark' },
-				dependencies: ['simfox:day-and-nite-mod'],
-				assets: [
-					{ assetId: findAsset(assets, 'darknite') },
-				],
-			},
-		];
-	} else if (type === 'CAM') {
-		return [
-			{
-				variant: { CAM: 'no' },
-			},
-			{
-				variant: { CAM: 'yes' },
-				assets: [
-					{ assetId: findAsset(assets, 'cam') },
-				],
-			},
-		];
-	} else if (type === 'driveside') {
-		return [
-			{
-				variant: { driveside: 'right' },
-				assets: [
-					{ assetId: findAsset(assets, 'rhd') },
-				],
-			},
-			{
-				variant: { driveside: 'left' },
-				assets: [
-					{ assetId: findAsset(assets, 'lhd') },
-				],
-			},
-		];
-	} else {
-		return [];
-	}
-}
-
-function findAsset(assets, id) {
-	return assets.find(asset => {
-		let tags = asset[kFileTags] || [];
-		return tags.includes(id);
-	})?.assetId;
 }

@@ -85,6 +85,8 @@ function getFileTags(file) {
 	else if (/[_-\s]mn/.test(name)) tags.push('maxisnite');
 	if (/\(lhd\)/.test(name)) tags.push('lhd');
 	else if (/\(rhd\)/.test(name)) tags.push('rhd');
+	if (/\(hd( model)?\)/.test(name)) tags.push('hd');
+	else if (/\(sd( model)?\)/.test(name)) tags.push('sd');
 	return tags;
 }
 
