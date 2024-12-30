@@ -1,0 +1,92 @@
+group: jasoncw
+name: bsp-music-hall
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BSP Music Hall
+  description: |-
+    Built in 1928, Music Hall was originally named the Wilson Theater, until 1946 when the Detroit Symphony made it its home for a short period and it was renamed. The exterior features a bold Mayan Art Deco styling, while the interior was designed with a more conservative Spanish Renaissance influence. Music Hall was designed by William Kapp.
+
+    This is a joint project by nofunk and me. Originally started together in 2008, we're pleased to present Music Hall to you today.
+
+    This is the Dark Nite version of the Music Hall, made for the darker night environment created by the [Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089).
+
+    Included is a CS§§§ growable and a CS§§§ ploppable. Both versions are on 2x3 lots. The growable grows in the New York tileset.
+
+    **MusicHall(DN).SC4Model:**
+
+    This is the building itself. Model features Dark Night TruNite. This file is required.
+
+    **CS$$$\_2x3\_MusicHall\_DN\_PLOP.SC4Lot:**
+
+    Lot Size: 2x3 Tiles
+
+    Plop Cost:
+
+    §
+
+    136,850
+
+    Jobs Provided: 144 CS
+
+    §§
+
+    §
+
+    **CS$$$7\_2x3\_MusicHall\_DN\_GROW.SC4Lot:**
+
+    Lot Size: 2x3 Tiles
+
+    Jobs Provided: 144 CS
+
+    §§
+
+    §
+
+    **Dependencies:**
+
+    [SimFox's Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089) is required.
+
+    **Installation Instructions:**
+
+    Place *MusicHall(DN).SC4Model* and the .SC4Lots of your desired versions into your Plugins folder (*My Documents/SimCity 4/Plugins* or *My Computer/Program Files/SimCity 4 Deluxe/Plugins*).
+
+    BAT (Modeling): Nofunk
+
+    BAT (Texturing & Lighting): Jasoncw
+
+    Modding: Nofunk
+
+    Query: Jasoncw
+
+    [Click here for discussion about new projects by The Barry Sanders Project](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=85962&enterthread=y)
+
+    [Click here for discussion about new projects by Nofunk](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=81390&enterthread=y)
+
+    [Click here for discussion about new projects by Jasoncw](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/25316-bsp-music-hall/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/2df782d2f968aaf199821d116a7abdad-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/2dfdf3a20e51d7522482b1719e6e8280-2-mn-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/915b2e229389f15dd0fcc7f96541821f-2-dn-.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-bsp-music-hall-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-bsp-music-hall-darknite
+
+---
+assetId: jasoncw-bsp-music-hall-maxisnite
+version: "1.0"
+lastModified: "2010-11-20T00:42:52Z"
+url: https://community.simtropolis.com/files/file/25316-bsp-music-hall/?do=download&r=105844
+
+---
+assetId: jasoncw-bsp-music-hall-darknite
+version: "1.0"
+lastModified: "2010-11-20T00:42:52Z"
+url: https://community.simtropolis.com/files/file/25316-bsp-music-hall/?do=download&r=105845
