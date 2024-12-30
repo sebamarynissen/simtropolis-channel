@@ -65,6 +65,15 @@ export default async function scrape(url) {
 				.replaceAll(/-+/g, '-');
 		});
 	let subfolder = descriptorToSubfolder(descriptors);
+
+	// If we don't have a subfolder by now, try the description.
+	if (!subfolder) {
+		if (description.match(/\bR(\$|§)+/)) {
+			subfolder = '200-residential';
+		} else if (description.match(/\bC[OS](\$|§)+/m)) {
+			subfolder = '300-commercial';
+		}
+	}
 	return { description, images, subfolder };
 
 }
