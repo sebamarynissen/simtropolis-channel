@@ -1,0 +1,132 @@
+group: jasoncw
+name: guardian-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Guardian Building
+  description: |-
+    "We no longer live in a leisurely age, nor do we move on streets from which it is possible to contemplate and enjoy minute sculpted detail. What we see we must see quickly in passing, and the impression must be immediate, strong, and complete. Color has this vital power."
+
+    Wirt Rowland of Smith, Hinchman, and Grylls, designed the Guardian Building to be a bold modern skyscraper for a bold modern city. It was designed functionally, and composed according to a rigorous geometric system. The building features ceramic art by Mary Chase Perry of Pewabic Pottery, murals by Ezra Winters, stained glass clocks from Tiffany Studios, and sculptures by Corrado Parducci.
+
+    The Guardian Building opened in 1929 as the headquarters of the Union Trust Company, which quickly became Guardian Detroit Union after a series of mergers, before failing during the Great Depression. It now houses offices for Wayne County, and various companies, including SmithGroup, the original designer of the building.
+
+    All of the models share the same TGI, and you may switch between any combination of SD, HD, MaxisNite, and DarkNite, by swapping out the .SC4Model files.
+
+    ![*:party:](https://community.simtropolis.com/assets/emoticons/default_39.gif "*:party:") This is my **100th** upload! ![*:party:](https://community.simtropolis.com/assets/emoticons/default_39.gif "*:party:")
+
+    -   5x2 and 2x5 growable CO$$$ lots.
+    -   5x2 ploppable CO$$$ lot.
+    -   CAM version included.  
+         
+    -   High definition (HD) version included.
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).  
+         
+    -   Requires [mipro essentials January 2019](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    ![STEX-01.jpg.93150fc9edcd5c4f681006385b5d](https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-01.jpg.93150fc9edcd5c4f681006385b5d0e8a.jpg)
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version. If you change your mind, you can switch between DN and MN versions by swapping out the .SC4Model files.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  If you use the CAM, download the CAMeLots. Replace the original growable lots with the CAMeLots. Ploppables are already compatible with CAM.
+    4.  If you'd like to use the HD version, download the corresponding HD model, and replace the original .SC4Model file with it. If you change your mind, you can switch between HD and SD by swapping out the .SC4Model files. HD BATs have very large file sizes.
+
+    [mipro Forum Thread](https://community.simtropolis.com/forums/topic/60777-mipro/)  
+    [mipro STEX Uploads](https://community.simtropolis.com/tags/mipro/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/32737-guardian-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-00-2.jpg.5bedffe1a5dbed318b537eee418b5e50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-01.jpg.93150fc9edcd5c4f681006385b5d0e8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-02.jpg.b9e7f9665a7f748d940466f116e99e16.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-03.jpg.c400c2b56bc4ea7ae95601ff47060be8.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard, CAM: "no", resolution: sd }
+    assets:
+      - assetId: jasoncw-guardian-building-maxisnite
+  - variant: { nightmode: standard, CAM: "no", resolution: hd }
+    assets:
+      - assetId: jasoncw-guardian-building-maxisnite
+        exclude:
+          - .SC4Model$
+      - assetId: jasoncw-guardian-building-hd-maxisnite
+  - variant: { nightmode: standard, CAM: "yes", resolution: sd }
+    assets:
+      - assetId: jasoncw-guardian-building-maxisnite
+        exclude:
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_2x5\)\.SC4Lot
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_5x2\)\.SC4Lot
+      - assetId: jasoncw-guardian-building-cam
+  - variant: { nightmode: standard, CAM: "yes", resolution: hd }
+    assets:
+      - assetId: jasoncw-guardian-building-maxisnite
+        exclude:
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_2x5\)\.SC4Lot
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_5x2\)\.SC4Lot
+          - .SC4Model$
+      - assetId: jasoncw-guardian-building-cam
+      - assetId: jasoncw-guardian-building-hd-maxisnite
+  - variant: { nightmode: dark, CAM: "no", resolution: sd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-guardian-building-darknite
+  - variant: { nightmode: dark, CAM: "no", resolution: hd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-guardian-building-darknite
+        exclude:
+          - .SC4Model$
+      - assetId: jasoncw-guardian-building-hd-darknite
+  - variant: { nightmode: dark, CAM: "yes", resolution: sd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-guardian-building-darknite
+        exclude:
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_2x5\)\.SC4Lot
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_5x2\)\.SC4Lot
+      - assetId: jasoncw-guardian-building-cam
+  - variant: { nightmode: dark, CAM: "yes", resolution: hd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-guardian-building-darknite
+        exclude:
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_2x5\)\.SC4Lot
+          - /Jasoncw - Guardian Building - Grow \(CO\$\$\$8_5x2\)\.SC4Lot
+          - .SC4Model$
+      - assetId: jasoncw-guardian-building-cam
+      - assetId: jasoncw-guardian-building-hd-darknite
+
+---
+assetId: jasoncw-guardian-building-maxisnite
+version: "1.0"
+lastModified: "2019-02-01T05:23:19Z"
+url: https://community.simtropolis.com/files/file/32737-guardian-building/?do=download&r=174538
+
+---
+assetId: jasoncw-guardian-building-darknite
+version: "1.0"
+lastModified: "2019-02-01T05:23:19Z"
+url: https://community.simtropolis.com/files/file/32737-guardian-building/?do=download&r=174539
+
+---
+assetId: jasoncw-guardian-building-cam
+version: "1.0"
+lastModified: "2019-02-01T05:23:19Z"
+url: https://community.simtropolis.com/files/file/32737-guardian-building/?do=download&r=174540
+
+---
+assetId: jasoncw-guardian-building-hd-maxisnite
+version: "1.0"
+lastModified: "2019-02-01T05:23:19Z"
+url: https://community.simtropolis.com/files/file/32737-guardian-building/?do=download&r=174541
+
+---
+assetId: jasoncw-guardian-building-hd-darknite
+version: "1.0"
+lastModified: "2019-02-01T05:23:19Z"
+url: https://community.simtropolis.com/files/file/32737-guardian-building/?do=download&r=174542
