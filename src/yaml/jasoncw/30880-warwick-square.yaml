@@ -1,0 +1,49 @@
+group: jasoncw
+name: warwick-square
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Warwick Square
+  description: |-
+    This is a six lot set of Regency terraces located in the Pimlico neighborhood of London.
+
+    • 6 growable 1x2 R§§§ lots.  
+    • Four of the rowhouses are midblock lots (6-7, 9-10, 12-13, and 15-16 Warwick Square) and two of them are corner lots (22-23 Warwick Square, and a mirrored version, 22-23 M).   
+    • Ploppable lots are not included because it is not possible to make functional residential ploppables for SimCity 4.
+
+    • MaxisNite and DarkNite versions.   
+    • DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![ZYZYjcs.jpg](http://i.imgur.com/ZYZYjcs.jpg)
+
+    **Installation Instructions:**
+
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.  
+    3\. The included files are descriptively titled. Remove the .SC4Lot and corresponding .SC4Model file of what you don't want.
+
+    [Click here to learn about new projects in the works.](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/30880-warwick-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/567d8cce7e020_WarwickSquare0.jpeg.a6eeb5d4b988fda6db67246d504a04a7.jpeg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-warwick-square-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-warwick-square-darknite
+
+---
+assetId: jasoncw-warwick-square-maxisnite
+version: "1.0"
+lastModified: "2015-12-25T19:00:09Z"
+url: https://community.simtropolis.com/files/file/30880-warwick-square/?do=download&r=160039
+
+---
+assetId: jasoncw-warwick-square-darknite
+version: "1.0"
+lastModified: "2015-12-25T19:00:09Z"
+url: https://community.simtropolis.com/files/file/30880-warwick-square/?do=download&r=160040

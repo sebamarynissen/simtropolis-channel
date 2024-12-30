@@ -1,0 +1,51 @@
+group: jasoncw
+name: union-bank-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Union Bank Plaza
+  description: |-
+    Union Bank Plaza is an office skyscraper located in the Bunker Hill area of Los Angeles, USA.
+
+    -   4x2 and 4x3 growable and ploppable CO§§ lots.
+    -   CAM versions included.
+    -   MaxisNite and DarkNite versions included. 
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/). 
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  If you use the CAM, download the CAMeLots and use them instead of the normal growable lots.  Ploppables are unaffected. 
+    3.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/34728-union-bank-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-Plaza-P0.jpg.4375e2c2f3187b1f2e256571ac10c4d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-01(compressed).jpg.6d614c2617dc1f32f9e0f0261c37cf45.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-union-bank-plaza-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-union-bank-plaza-darknite
+
+---
+assetId: jasoncw-union-bank-plaza-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-01T18:43:06Z"
+url: https://community.simtropolis.com/files/file/34728-union-bank-plaza/?do=download&r=190334
+
+---
+assetId: jasoncw-union-bank-plaza-darknite
+version: "1.0.0"
+lastModified: "2021-11-01T18:43:06Z"
+url: https://community.simtropolis.com/files/file/34728-union-bank-plaza/?do=download&r=190335
+
+---
+assetId: jasoncw-union-bank-plaza-part-2
+version: "1.0.0"
+lastModified: "2021-11-01T18:43:06Z"
+url: https://community.simtropolis.com/files/file/34728-union-bank-plaza/?do=download&r=190336

@@ -1,0 +1,45 @@
+group: jasoncw
+name: residencial-rachel-de-queiroz
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Residencial Rachel de Queiroz
+  description: |-
+    Residencial Rachel de Queiroz is an apartment complex located in Fortaleza, Brazil. It grows on medium and high density residential zones, and is in the Houston tileset.
+
+    -   5x4 growable R$ lot.
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version. If you change your mind, you can switch between DN and MN versions by swapping out the .SC4Model files.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/33179-residencial-rachel-de-queiroz/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-00.jpg.b804f97df495c6e14c61712693f4244b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-01.jpg.55dfe40c8754bd57a24f4d7c8f8d7bc0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-02.jpg.f3981b52ff06f011818ce4f9f1a439e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-03.jpg.9ba79b411c19339cc69ad6ec502a871e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-04.jpg.42a4f4d36d94864dc6e6dde90b85018b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-residencial-rachel-de-queiroz-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-residencial-rachel-de-queiroz-darknite
+
+---
+assetId: jasoncw-residencial-rachel-de-queiroz-maxisnite
+version: "1.0.0"
+lastModified: "2019-09-17T19:42:13Z"
+url: https://community.simtropolis.com/files/file/33179-residencial-rachel-de-queiroz/?do=download&r=177886
+
+---
+assetId: jasoncw-residencial-rachel-de-queiroz-darknite
+version: "1.0.0"
+lastModified: "2019-09-17T19:42:13Z"
+url: https://community.simtropolis.com/files/file/33179-residencial-rachel-de-queiroz/?do=download&r=177887

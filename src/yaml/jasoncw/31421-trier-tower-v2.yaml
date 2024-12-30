@@ -1,0 +1,53 @@
+group: jasoncw
+name: trier-tower-v2
+version: "1.0"
+info:
+  summary: Trier Tower V2
+  description: |-
+    This is the third entry into my V2 series of BATs, where I improve upon old creations for re-release.  This includes a visual makeover, more accurate modding, and DarkNite versions.
+
+    It's recommended to demolish all old Trier Tower lots in your cities before using this. The new lots have more accurate modding.
+
+    However, this .SC4Model file shares the same internal ID numbers with the old Trier Tower .SC4Model file. If you replace the old .SC4Model file with this new one, the new BAT will automatically replace the old BAT on all existing Trier Tower lots.
+
+    ![Trier-Tower-before-and-after.gif.1b67b38](https://www.simtropolis.com/repository/screens/monthly_2017_01/Trier-Tower-before-and-after.gif.1b67b389c1856da7797258ab8350e5f5.gif)
+
+    -   2x3 growable and ploppable CO§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the Day and Nite Modd.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Either demolish all old Trier Tower lots in your cities and remove the old files from your plugins folder (this way all instances of Trier Tower will be the new lot with the improved modding), and unzip the .zip and move its contents to Documents/SimCity4/Plugins.  
+        *or*  
+        Delete the old Trier Tower .SC4Model file and replace it with the new one (the old lots will remain, but will use the updated BAT).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/31421-trier-tower-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-00.jpg.a8d29f20c83e33f53db7e9876e6b9ec1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-01.jpg.9f5f15b15fdcae394c1d9e93f9881b3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-02.jpg.00e4932b16d8a6f663ed3873ce42ce78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-03.jpg.a3c74eb1b827bd4543673bc9a4f1c9bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-04.jpg.cf5dc3c7cf56ccd74f9de64a022930d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-Tower-before-and-after.gif.1b67b389c1856da7797258ab8350e5f5.gif
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-trier-tower-v2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-trier-tower-v2-darknite
+
+---
+assetId: jasoncw-trier-tower-v2-maxisnite
+version: "1.0"
+lastModified: "2017-01-01T04:49:25Z"
+url: https://community.simtropolis.com/files/file/31421-trier-tower-v2/?do=download&r=164196
+
+---
+assetId: jasoncw-trier-tower-v2-darknite
+version: "1.0"
+lastModified: "2017-01-01T04:49:25Z"
+url: https://community.simtropolis.com/files/file/31421-trier-tower-v2/?do=download&r=164197

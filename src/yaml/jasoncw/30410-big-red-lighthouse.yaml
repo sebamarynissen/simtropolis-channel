@@ -1,0 +1,78 @@
+group: jasoncw
+name: big-red-lighthouse
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Big Red Lighthouse
+  description: |-
+    Starting out as a small wooden structure in 1872, the [Holland Harbor Light](https://en.wikipedia.org/wiki/Holland_Harbor_Light), also known as Big Red, was gradually added to and modified until it reached is present state in 1932. In 1956 the building was sandblasted and freshly painted vibrant red, inspiring the lighthouse's nickname. Big Red is located in Holland, Michigan.
+
+    Because of its small size, a high definition version of Big Red Lighthouse is being offered. Prop versions, for use by lotters, have also been included in a separate .zip.
+
+    Big Red Lighthouse has been uploaded in celebration of the STEX's 100,000,000th download. My interview for the event can be read [here](https://www.simtropolis.com/omnibus/_/simtropolis-articles/interviews/stex-100000000-dls-interview-with-jasoncw-r272).
+
+    -   1x1 landmark lot.  
+         
+    -   Separate High Definition (HD) versions.
+    -   Prop versions, for use by lotters, in a separate .zip.  
+         
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).  
+         
+    -   Requires [mipro Essentials - April 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    ![Big-Red-1.jpg.34fef922c7b934cc69195fa850](https://www.simtropolis.com/repository/screens/monthly_2017_02/Big-Red-1.jpg.34fef922c7b934cc69195fa850b4ca53.jpg)
+
+    **Installation Instructions:**
+
+    1.  Choose between the DarkNite (DN) or MaxisNite (MN) version, and download either the plain or HD version. If you're unsure, choose the plain MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    [mipro Forum Thread](https://community.simtropolis.com/topic/60777-mipro/)  
+    [mipro STEX Uploads](https://community.simtropolis.com/tags/downloads/mipro/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Big-Red-0b.thumb.jpg.5f07454fd881c6adafc367219f959805.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Big-Red-1.jpg.34fef922c7b934cc69195fa850b4ca53.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-big-red-lighthouse-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-big-red-lighthouse-darknite
+
+---
+assetId: jasoncw-big-red-lighthouse-maxisnite
+version: "1.0"
+lastModified: "2015-04-06T03:23:40Z"
+url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153138
+
+---
+assetId: jasoncw-big-red-lighthouse-darknite
+version: "1.0"
+lastModified: "2015-04-06T03:23:40Z"
+url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153139
+
+---
+assetId: jasoncw-big-red-lighthouse-maxisnite
+version: "1.0"
+lastModified: "2015-04-06T03:23:40Z"
+url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153140
+
+---
+assetId: jasoncw-big-red-lighthouse-darknite
+version: "1.0"
+lastModified: "2015-04-06T03:23:40Z"
+url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153141
+
+---
+assetId: jasoncw-big-red-lighthouse-part-4
+version: "1.0"
+lastModified: "2015-04-06T03:23:40Z"
+url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153142
