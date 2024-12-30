@@ -1,10 +1,13 @@
 // # fetch-all.js
 import fs from 'node:fs';
+import path from 'node:path';
 import { parse } from 'yaml';
+import { kFileNames } from './symbols.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
 import apiToMetaData from './api-to-metadata.js';
 import completeMetadata from './complete-metadata.js';
+import Downloader from './downloader.js';
 
 // # fetchAll()
 // Function that fetches an array of urls from Simtropolis and generates all the 
@@ -28,10 +31,21 @@ export default async function fetchAll(urls, opts = {}) {
 	let res = await fetch(url);
 	let json = await res.json();
 
+	let {
+		cache = path.resolve(
+			process.env.LOCALAPPDATA,
+			'io.github.memo33/sc4pac/cache',
+		),
+	} = opts;
+	let downloader = new Downloader({ cache });
 	let result = [];
 	for (let upload of json) {
 		let cleaned = permissions.transform(upload);
 		let metadata = apiToMetaData(cleaned);
+		for (let asset of metadata.assets) {
+			let info = await downloader.handleAsset(asset);
+			asset[kFileNames] = info.files;
+		}
 		await completeMetadata(metadata, upload);
 		result.push({
 			id: upload.id,

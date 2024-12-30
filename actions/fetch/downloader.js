@@ -1,6 +1,6 @@
 // # downloader.js
 import path from 'node:path';
-import fs from 'node:fs';
+import nodeFs from 'node:fs';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
 import ora from 'ora';
@@ -14,9 +14,17 @@ import attempt from './attempt.js';
 // # Downloader
 // A helper class for downloading urls to a temp folder.
 export default class Downloader {
+	fs;
+	cache;
 
-	// ## constructor()
-	constructor() {
+	// ## constructor(opts = {})
+	constructor(opts = {}) {
+		let {
+			fs = nodeFs,
+			cache = '',
+		} = opts;
+		this.fs = fs;
+		this.cache = cache;
 		tmp.setGracefulCleanup();
 	}
 
@@ -25,10 +33,22 @@ export default class Downloader {
 	// about it. Subsequently it can be read with yauzl to find the 
 	// metadata.yaml file for example.
 	async download(asset) {
+		const { fs } = this;
 		const { url } = asset;
-		const info = asset[kFileInfo];
-		const dir = await tmp.dir();
-		const destination = path.join(dir.path, info.name);
+		const { destination, cleanup } = await this.getDestination(asset);
+
+		// If we're downloading to the sc4pac cache, we won't download again 
+		// after it has already been downloaded, unless explicitly specified.
+		if (this.cache && await this.exists(destination)) {
+			return {
+				path: destination,
+				type: 'application/zip',
+				cleanup,
+				cached: true,
+			};
+		}
+
+		// If we reach this point, we perform a fresh download.
 		const res = await fetch(url, {
 			headers: {
 				Cookie: process.env.SC4PAC_SIMTROPOLIS_COOKIE,
@@ -42,11 +62,9 @@ export default class Downloader {
 		return {
 			path: destination,
 			type: res.headers.get('Content-Type') ?? 'application/zip',
-			cleanup: async () => {
-				await fs.promises.unlink(destination);
-				await dir.cleanup();
-			},
+			cleanup,
 		};
+
 	}
 
 	// ## handleAsset(asset)
@@ -60,17 +78,25 @@ export default class Downloader {
 			spinner.fail(error.message);
 			throw error;
 		}
-		let metadata;
+		let assetInfo;
 		try {
-			metadata = await this.handleDownload(download);
-			spinner.succeed();
+			assetInfo = await this.handleDownload(download);
+			let text = spinner.text;
+			if (download.cached) {
+				text = `${asset.url} found in cache.`;
+			}
+			spinner.succeed(text);
 		} catch (e) {
 			console.error(e);
 			spinner.fail();
 		} finally {
 			await download.cleanup();
 		}
-		return { metadata };
+		return {
+			metadata: null,
+			files: [],
+			...assetInfo,
+		};
 	}
 
 	// ## handleDownload(download)
@@ -87,13 +113,17 @@ export default class Downloader {
 	// ## handleZip(download)
 	async handleZip(download) {
 		let metadata;
+		let files = [];
 		const tasks = [];
 		const closed = withResolvers();
 		yauzl.open(download.path, { lazyEntries: false }, (err, zipFile) => {
 			if (err) return closed.reject(err);
 			zipFile.once('end', () => closed.resolve());
 			zipFile.on('entry', async entry => {
-				
+				if (!entry.fileName.endsWith('/')) {
+					files.push(entry.fileName);
+				}
+
 				// If we find a metadata.yaml at the root, read it in.
 				if (/^metadata\.ya?ml$/i.test(entry.fileName)) {
 					let task = readMetadata(zipFile, entry).then(_metadata => {
@@ -106,7 +136,57 @@ export default class Downloader {
 		});
 		await closed.promise;
 		await Promise.all(tasks);
-		return metadata;
+		return {
+			metadata,
+			files,
+		};
+	}
+
+	// ## getDestination(asset)
+	// Returns the destination file we have to write the download to. We use a 
+	// temp folder by default, but you might also want to specify the sc4pac 
+	// cache dir so that we can directly save it to the cache dir. Saves us a 
+	// download later on when we're going to actually install with sc4pac!
+	async getDestination(asset) {
+		if (this.cache) {
+			const { fs } = this;
+			const { protocol, hostname, pathname, search } = new URL(asset.url);
+			const rest = pathname.replace(/^\//, '') + search;
+			const parts = [
+				protocol.replace(':', ''),
+				encodeURIComponent(hostname),
+				...rest.split('/').map(part => encodeURIComponent(part)),
+			];
+			const destination = path.join(this.cache, 'coursier', ...parts);
+			const dir = path.dirname(destination);
+			await fs.promises.mkdir(dir, { recursive: true });
+			return {
+				destination,
+				cleanup: () => {},
+			};
+		} else {
+			const info = asset[kFileInfo];
+			const dir = await tmp.dir();
+			const destination = path.join(dir.path, info.name);
+			return {
+				destination,
+				cleanup: async () => {
+					await nodeFs.promises.unlink(destination);
+					await dir.cleanup();
+				},
+			};
+		}
+	}
+
+	// # exists(file)
+	async exists(file) {
+		const [error] = await attempt(() => this.fs.promises.stat(file));
+		if (error) {
+			if (error.code === 'ENOENT') return false;
+			throw error;
+		} else {
+			return true;
+		}
 	}
 
 }
