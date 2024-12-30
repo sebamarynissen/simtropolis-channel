@@ -1,6 +1,7 @@
 // # complete-metadata.js
+import path from 'node:path';
 import scrape from './scrape.js';
-import { kFileTags } from './symbols.js';
+import { kFileTags, kFileNames } from './symbols.js';
 
 // # completeMetadata(metadata, json)
 // Completes the metadata parsed from the api response with the description, 
@@ -140,16 +141,58 @@ function generateVariant(config, metadata) {
 	if (CAM === 'no') {
 		assets = assets.filter(asset => !has(asset, 'cam'));
 	} else if (CAM === 'yes') {
-		for (let asset of assets) {
 
-			// Note: excluding the .SC4Lot & .SC4Desc files should not happen 
-			// for hd or sd assets, as they should only contain .SC4Model files.
+		// It's possible that the cam asset only contains overrides for the 
+		// *growable* lots, and not for the ploppable lots - such as landmarks. 
+		// We will have to figure this out manually by checking what patterns 
+		// the cam asset overrides.
+		let cam = assets.find(asset => has(asset, 'cam'));
+		let files = [...cam[kFileNames] ?? []].map(file => path.basename(file));
+		let patterns = [
+			/^lm_/i,
+			/^plop_/i,
+			/\bgrow\b/i,
+			/\bplop\b/i,
+			/^(C[OS]|R)\$+/i,
+			/^I-?(HT?|M|D|A)/i,
+		];
+		let appliedPatterns = [];
+		for (let i = 0; i < patterns.length && files.length > 0; i++) {
+			let pattern = patterns[i];
+			let filtered = files.filter(file => !pattern.test(file));
+			if (filtered.length < files.length) {
+				appliedPatterns.push(pattern);
+			}
+			files = filtered;
+		}
+
+		// Note: excluding the .SC4Lot & .SC4Desc files should not happen for hd 
+		// or sd assets, as they should only contain .SC4Model files.
+		for (let asset of assets) {
 			if (!has(asset, 'cam') && !has(asset, 'sd') && !has(asset, 'hd')) {
+
+				// If we managed to match all the cam's files with our patterns, 
+				// then we can exactly reconstruct the exclusion map. Otherwise 
+				// we resort to `.SC4Lot` and `.SC4DEsc`.
 				let exclude = exclusions[asset.assetId] ??= [];
-				exclude.push('.SC4Lot$', '.SC4Desc$');
+				if (appliedPatterns.length > 0 && files.length === 0) {
+					let files = (asset[kFileNames] ?? [])
+						.map(file => path.basename(file));
+					for (let file of files) {
+						if (appliedPatterns.some(regex => regex.test(file))) {
+							exclude.push(`/${file}`);
+						}
+					}
+				} else {
+					exclude.push(
+						...filterExclusions(asset, ['.SC4Lot$', '.SC4Desc$']),
+					);
+				}
+
 			}
 
 		}
+
 	}
 
 	// For the resolution, things are a bit different. There are two 
@@ -170,7 +213,7 @@ function generateVariant(config, metadata) {
 				// assets, they must only contain .SC4Lot files anyway.
 				if (!has(asset, 'hd') && !has(asset, 'cam')) {
 					let exclude = exclusions[asset.assetId] ??= [];
-					exclude.push('.SC4Model$');
+					exclude.push(...filterExclusions(asset, ['.SC4Model$']));
 				}
 
 			}
@@ -182,12 +225,26 @@ function generateVariant(config, metadata) {
 		variant: config,
 		...dependencies.length > 0 && { dependencies },
 		assets: assets.map(asset => {
-			let exclude = exclusions[asset.assetId];
+			let exclude = exclusions[asset.assetId] ?? [];
 			return {
 				assetId: asset.assetId,
-				...exclude && { exclude },
+				...exclude.length > 0 && { exclude },
 			};
 		}),
 	};
 
+}
+
+// # filterExclusions(asset, patterns)
+// This function filters the given exclusion patterns so that we only keep the 
+// ones that will actually do something. That way we avoid an sc4pac warning 
+// message that some exclusion patterns didn't match anything. This only works 
+// if the downloader succeeded to parse the filenames though.
+function filterExclusions(asset, patterns) {
+	let files = asset[kFileNames] ?? [];
+	if (files.length === 0) return patterns;
+	return patterns.filter(pattern => {
+		let regex = new RegExp(pattern.replace('.', '\\.'), 'i');
+		return files.some(file => regex.test(file));
+	});
 }

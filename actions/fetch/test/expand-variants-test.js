@@ -1,6 +1,6 @@
 // # expand-variants-test.js
 import { expect } from 'chai';
-import { kFileTags } from '../symbols.js';
+import { kFileNames, kFileTags } from '../symbols.js';
 import { expandVariants } from '../complete-metadata.js';
 
 describe('#expandVariants()', function() {
@@ -257,6 +257,53 @@ describe('#expandVariants()', function() {
 					{ assetId: 'darknite', exclude: ['.SC4Lot$', '.SC4Desc$', '.SC4Model$'] },
 					{ assetId: 'cam' },
 					{ assetId: 'darknite-hd' },
+				],
+			},
+		]);
+
+	});
+
+	it('automatically figures out the cam exlcusion patterns', function() {
+
+		let assets = [
+			{
+				assetId: 'normal',
+				[kFileTags]: [],
+				[kFileNames]: [
+					'Jasoncw - Guardian Building - Grow (CO$$$8_2x5).SC4Lot',
+					'Jasoncw - Guardian Building - Plop (CO$$$_5x2).SC4Lot',
+					'Subfolder/CS$$$8_2x5_Guardian_Building.SC4Lot',
+					'Jasoncw - Guardian Building (DN).SC4Model',
+				],
+			},
+			{
+				assetId: 'cam',
+				[kFileTags]: ['cam'],
+				[kFileNames]: [
+					'Jasoncw - Guardian Building - Grow (CO$$$10_2x5).SC4Lot',
+					'Subfolder/CS$$$10_2x5_Guardian_Building.SC4Lot',
+				],
+			},
+		];
+		let variants = expandVariants({ assets });
+		expect(variants).to.eql([
+			{
+				variant: { CAM: 'no' },
+				assets: [
+					{ assetId: 'normal' },
+				],
+			},
+			{
+				variant: { CAM: 'yes' },
+				assets: [
+					{
+						assetId: 'normal',
+						exclude: [
+							'/Jasoncw - Guardian Building - Grow (CO$$$8_2x5).SC4Lot',
+							'/CS$$$8_2x5_Guardian_Building.SC4Lot',
+						],
+					},
+					{ assetId: 'cam' },
 				],
 			},
 		]);
