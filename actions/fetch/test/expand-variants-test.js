@@ -299,8 +299,8 @@ describe('#expandVariants()', function() {
 					{
 						assetId: 'normal',
 						exclude: [
-							'/Jasoncw - Guardian Building - Grow (CO$$$8_2x5).SC4Lot',
-							'/CS$$$8_2x5_Guardian_Building.SC4Lot',
+							'/Jasoncw - Guardian Building - Grow \\(CO\\$\\$\\$8_2x5\\)\\.SC4Lot',
+							'/CS\\$\\$\\$8_2x5_Guardian_Building\\.SC4Lot',
 						],
 					},
 					{ assetId: 'cam' },
