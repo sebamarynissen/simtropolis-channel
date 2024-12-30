@@ -166,6 +166,13 @@ function generateVariant(config, metadata) {
 			files = filtered;
 		}
 
+		// If not all files were filtered out with our patterns, log a warning 
+		// so that we can add the pattern.
+		if (files.length > 0) {
+			let joined = files.join('\n');
+			console.warn(`CAM asset contains unknown file patterns!\n${joined}`);
+		}
+
 		// Note: excluding the .SC4Lot & .SC4Desc files should not happen for hd 
 		// or sd assets, as they should only contain .SC4Model files.
 		for (let asset of assets) {
