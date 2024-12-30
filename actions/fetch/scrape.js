@@ -72,6 +72,12 @@ export default async function scrape(url) {
 			subfolder = '200-residential';
 		} else if (description.match(/\bC[OS](\$|§)+/m)) {
 			subfolder = '300-commercial';
+		} else if (description.match(/\bI-(HT|M|D)\b/)) {
+			subfolder = '400-industrial';
+		} else if (description.match(/\bstation\b/i)) {
+			subfolder = '700-transit';
+		} else if (description.match(/\blibrary\b/i)) {
+			subfolder = '620-education';
 		}
 	}
 	return { description, images, subfolder };
