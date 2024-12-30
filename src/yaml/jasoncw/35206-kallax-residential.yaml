@@ -1,0 +1,45 @@
+group: jasoncw
+name: kallax-residential
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Kallax Residential
+  description: |-
+    This is a pack of three residential buildings. The basic version is Kallax House, and it is a 2x2, marked with "T" (for "tower") in the filename. Another version is Kallax Housing, a 3x2 for more urban European settings, and it is marked with "TP" (for "tower and pavilion"). The final version is Palisades Place, a 3x2 wall to wall, marked with "TT" (for "tower and tower"). In the images above, the road indicates the front of the lot.
+
+    All versions are stage 6 lots which grow on medium and high density residential zones. Because of limitations in the game, ploppable residential lots are not possible, so are not included. All three versions grow in the Euro tileset. All versions are high wealth.
+
+    -   2x2, 3x2, and 3x2 R§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If there are dependencies, and you don't already have them, download and install the dependencies, linked above.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35206-kallax-residential/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/62abad600784d_Kallax00.jpg.59e1359148504e3cadcd90edfd4fc454.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/62abad619690b_Kallax01.jpg.51791c318e49290a418f1e5efbc981c3.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-kallax-residential-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-kallax-residential-darknite
+
+---
+assetId: jasoncw-kallax-residential-darknite
+version: "1.0.0"
+lastModified: "2022-06-16T22:25:04Z"
+url: https://community.simtropolis.com/files/file/35206-kallax-residential/?do=download&r=194433
+
+---
+assetId: jasoncw-kallax-residential-maxisnite
+version: "1.0.0"
+lastModified: "2022-06-16T22:25:04Z"
+url: https://community.simtropolis.com/files/file/35206-kallax-residential/?do=download&r=194434

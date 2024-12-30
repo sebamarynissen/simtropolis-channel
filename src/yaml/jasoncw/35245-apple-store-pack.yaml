@@ -1,0 +1,49 @@
+group: jasoncw
+name: apple-store-pack
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Apple Store Pack
+  description: |-
+    This pack contains 4 Apple Stores, capturing a variety of Apple's standard store design elements.
+
+    All 4 are available as growable CS§§§ lots, which grow in the Euro tileset.
+
+    Only the 2x2 is available as a ploppable. It has a plop cost of 4 Apple Pro Stands.
+
+    -   1x2, 2x2, 1x3, 1x3 CS§§§ growable lots.
+    -   2x2 CS§§§ ploppable lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  Remove unwanted versions. Files are descriptively named. 
+    4.  If there are dependencies, and you don't already have them, download and install the dependencies, linked above.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35245-apple-store-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/62e89293bc5aa_AppleStorePackSTEX00.jpg.dcdb0f408b343745822cf760733cd585.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/62e892fb7d3eb_AppleStorePack01.jpg.1301c21df1ee7ee0783b8f647771fb64.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-apple-store-pack-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-apple-store-pack-darknite
+
+---
+assetId: jasoncw-apple-store-pack-maxisnite
+version: "1.0.0"
+lastModified: "2022-08-02T02:42:36Z"
+url: https://community.simtropolis.com/files/file/35245-apple-store-pack/?do=download&r=194900
+
+---
+assetId: jasoncw-apple-store-pack-darknite
+version: "1.0.0"
+lastModified: "2022-08-02T02:42:36Z"
+url: https://community.simtropolis.com/files/file/35245-apple-store-pack/?do=download&r=194901

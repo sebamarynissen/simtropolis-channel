@@ -1,0 +1,49 @@
+group: jasoncw
+name: denton-corporation
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Denton Corporation
+  description: |-
+    Denton Corporation is a 3x3 corner office building for the Houston 1990 tileset.
+
+    Special thanks to [@IDS2](https://community.simtropolis.com/profile/70889-ids2/) for fixing an export glitch with the .SC4Model file! Also, the ploppable lot's menu icon now correctly says "CO§§§". If you have the old version, replace the files with the new version.
+
+    -   3x3 growable and ploppable CO§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35364-denton-corporation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7d48f67b43_00DentonCorporation.jpg.2cdd01707907eaa3bd4e68a13f562cf4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7d498db840_01DentonCorporation.jpg.db91eda45b500a7f588543ba345cf473.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-denton-corporation-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-denton-corporation-darknite
+
+---
+assetId: jasoncw-denton-corporation-maxisnite
+version: "1.0.0"
+lastModified: "2022-12-25T05:01:41Z"
+url: https://community.simtropolis.com/files/file/35364-denton-corporation/?do=download&r=195887
+
+---
+assetId: jasoncw-denton-corporation-darknite
+version: "1.0.0"
+lastModified: "2022-12-25T05:01:41Z"
+url: https://community.simtropolis.com/files/file/35364-denton-corporation/?do=download&r=195888

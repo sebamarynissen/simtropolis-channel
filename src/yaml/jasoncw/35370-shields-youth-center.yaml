@@ -1,0 +1,43 @@
+group: jasoncw
+name: shields-youth-center
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Shields Youth Center
+  description: |-
+    Shields Youth Center is a 2x3 park, and contains a sports hall/theater, music recording and practice room, computer room, social lounge, kitchen, and counseling offices.
+
+    -   2x3 park lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35370-shields-youth-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/ShieldsYouthCenter00.jpg.12b1d469d9b3412209e257a94cfa985a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/ShieldsYouthCenter01.jpg.35d0c45659932896c92187aa3a480dd5.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-shields-youth-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-shields-youth-center-darknite
+
+---
+assetId: jasoncw-shields-youth-center-maxisnite
+version: "1.0.0"
+lastModified: "2022-12-25T06:02:34Z"
+url: https://community.simtropolis.com/files/file/35370-shields-youth-center/?do=download&r=195910
+
+---
+assetId: jasoncw-shields-youth-center-darknite
+version: "1.0.0"
+lastModified: "2022-12-25T06:02:34Z"
+url: https://community.simtropolis.com/files/file/35370-shields-youth-center/?do=download&r=195911
