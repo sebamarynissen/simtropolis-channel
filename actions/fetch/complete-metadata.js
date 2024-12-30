@@ -22,8 +22,7 @@ export default async function completeMetadata(metadata, json) {
 
 	// Now generate the variants from what we've decided to include. This will 
 	// multiply the available variants by 2 in every step.
-	let includedVariants = findIncludedVariants(metadata);
-	let variants = generateVariants(includedVariants, metadata);
+	let variants = expandVariants(metadata);
 
 	// If there are no variants, then we just include the assets as is.
 	let assets;
@@ -32,6 +31,14 @@ export default async function completeMetadata(metadata, json) {
 	}
 	Object.assign(metadata.package, { assets, variants });
 
+}
+
+// # expandVariants(metadata)
+// This function is responsible for expanding the variants based on the assets 
+// in the upload.
+export function expandVariants(metadata) {
+	let includedVariants = findIncludedVariants(metadata);
+	return generateVariants(includedVariants, metadata);
 }
 
 // # findIncludedVariants(metadata)
