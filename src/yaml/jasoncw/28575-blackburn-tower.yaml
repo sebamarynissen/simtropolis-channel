@@ -1,0 +1,61 @@
+group: jasoncw
+name: blackburn-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Blackburn Tower
+  description: |-
+    Blackburn Tower is a large glass office building for the Houston and Euro tilesets. It comes as both a CO§§ and a CO§§§, although it's recommended to only use one version at a time.
+
+    -   6x4 growable and ploppable lots.
+    -   CO§§ and CO§§§ versions.  
+         
+    -   CAM versions included.  
+         
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    ![Blackburn-STEX-2.jpg.7883538ce5235cf8aa6](https://www.simtropolis.com/repository/screens/monthly_2017_02/Blackburn-STEX-2.jpg.7883538ce5235cf8aa68cbc0d81e1842.jpg)  
+      
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  If you use the CAM, download the CAMeLots and use them instead of the normal growable lots. Ploppables are unaffected.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    **BAT and modding by Jasoncw  
+    Trees by [Girafe](https://community.simtropolis.com/user/319793-girafe/)**
+
+    [Click here to learn about new projects in the works](https://www.simtropolis.com/forum/topic/4778-jasons-bats/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28575-blackburn-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Blackburn-STEX-1.thumb.jpg.4740c6de6311d42c7f67687fa41b5e4a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Blackburn-STEX-2.jpg.7883538ce5235cf8aa68cbc0d81e1842.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-blackburn-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-blackburn-tower-darknite
+
+---
+assetId: jasoncw-blackburn-tower-maxisnite
+version: "1.0"
+lastModified: "2013-03-16T20:49:50Z"
+url: https://community.simtropolis.com/files/file/28575-blackburn-tower/?do=download&r=113263
+
+---
+assetId: jasoncw-blackburn-tower-darknite
+version: "1.0"
+lastModified: "2013-03-16T20:49:50Z"
+url: https://community.simtropolis.com/files/file/28575-blackburn-tower/?do=download&r=113264
+
+---
+assetId: jasoncw-blackburn-tower-part-2
+version: "1.0"
+lastModified: "2013-03-16T20:49:50Z"
+url: https://community.simtropolis.com/files/file/28575-blackburn-tower/?do=download&r=113265

@@ -1,0 +1,65 @@
+group: jasoncw
+name: sturgeon-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sturgeon Building
+  description: |-
+    The Sturgeon Building is an art deco midrise, and was made to provide competition for Maxis buildings which tend to grow too much, specifically the 2x3 Marshall Printing.
+
+    A bonus 2x4 version is included as well. This 2x4 version is wall to wall on both sides, meaning the back of this version is not an alley way. It is another sidewalk-facing facade, a copy of the front facade.
+
+    ![Sturgeon-2.jpg.81cc3e2ea3f3db9aa9b1ef646](https://www.simtropolis.com/repository/screens/monthly_2017_02/Sturgeon-2.jpg.81cc3e2ea3f3db9aa9b1ef6462becc03.jpg)
+
+    -   2x3 CO§§§ growable and ploppable.
+    -   2x4 CO§§§ growable and ploppable.  
+         
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    **BAT and modding by Jasoncw**
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/27924-sturgeon-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Sturgeon-1.thumb.jpg.a9f98913d092e4113ede9d755f1a424a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Sturgeon-2.jpg.81cc3e2ea3f3db9aa9b1ef6462becc03.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-sturgeon-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-sturgeon-building-darknite
+
+---
+assetId: jasoncw-sturgeon-building-maxisnite
+version: "1.0"
+lastModified: "2012-08-12T22:07:34Z"
+url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110493
+
+---
+assetId: jasoncw-sturgeon-building-darknite
+version: "1.0"
+lastModified: "2012-08-12T22:07:34Z"
+url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110494
+
+---
+assetId: jasoncw-sturgeon-building-maxisnite
+version: "1.0"
+lastModified: "2012-08-12T22:07:34Z"
+url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110495
+
+---
+assetId: jasoncw-sturgeon-building-darknite
+version: "1.0"
+lastModified: "2012-08-12T22:07:34Z"
+url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110496

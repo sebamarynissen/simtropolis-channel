@@ -1,0 +1,62 @@
+group: jasoncw
+name: windsor-atlantica-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Windsor Atlantica Hotel
+  description: |-
+    The Windsor Atlantica Hotel is an upscale hotel, built in 1976. It's located on the Copacabana Beach, where it is the tallest building.
+
+    This BAT has been created for the [Rio 2016 Project](https://community.simtropolis.com/forums/topic/65595-rio-2016-project/).
+
+    -   2x2 growable and ploppable CS§§§ lots.
+    -   CAM versions included.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  If you use the CAM, download the CAMeLots and use them instead of the normal growable lots.  Ploppables are unaffected.
+    3.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/30962-windsor-atlantica-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-00.jpg.d15e1963f25a5ec7d409987c1e03e62d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-01.jpg.e0863b96043102bc1586f6e419c2ab10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-02.jpg.9339346cb53f3c2ed85044bceba50cd6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-03.jpg.b1f519835a65ac3fe7b667e78d1646a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-04.jpg.3fcf868b0366a46c7d87ff653cd800b7.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-windsor-atlantica-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-windsor-atlantica-hotel-darknite
+
+---
+assetId: jasoncw-windsor-atlantica-hotel-maxisnite
+version: "1.0"
+lastModified: "2016-02-20T22:10:53Z"
+url: https://community.simtropolis.com/files/file/30962-windsor-atlantica-hotel/?do=download&r=160813
+
+---
+assetId: jasoncw-windsor-atlantica-hotel-darknite
+version: "1.0"
+lastModified: "2016-02-20T22:10:53Z"
+url: https://community.simtropolis.com/files/file/30962-windsor-atlantica-hotel/?do=download&r=160814
+
+---
+assetId: jasoncw-windsor-atlantica-hotel-maxisnite
+version: "1.0"
+lastModified: "2016-02-20T22:10:53Z"
+url: https://community.simtropolis.com/files/file/30962-windsor-atlantica-hotel/?do=download&r=160815
+
+---
+assetId: jasoncw-windsor-atlantica-hotel-darknite
+version: "1.0"
+lastModified: "2016-02-20T22:10:53Z"
+url: https://community.simtropolis.com/files/file/30962-windsor-atlantica-hotel/?do=download&r=160816

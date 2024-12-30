@@ -1,0 +1,54 @@
+group: jasoncw
+name: oliver-place-apartments
+version: "1.0"
+info:
+  summary: Oliver Place Apartments
+  description: |-
+    Oliver Place is a mixed use development in Edmonton, Canada.  This upload is the apartment tower/parking garage.  Includes a bonus hotel version.  For the lowrise shopping plaza, download [Oliver Place](https://community.simtropolis.com/files/file/28819-oliver-place/).  
+      
+    • 6x2 growable R§ lot.
+
+    • 6x2 ploppable CS§ lot.
+
+      
+    • MaxisNite and DarkNite night versions included.  
+    • Dark Nite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    • Contains only the apartment tower/parking garage.  For the lowrise shopping plaza, download [Oliver Place](https://community.simtropolis.com/files/file/28819-oliver-place/).
+
+      
+    ![fuAtdcR.jpg](http://i.imgur.com/fuAtdcR.jpg)  
+      
+    **Installation Instructions:**  
+      
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.  
+    4\. SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.  
+      
+    **BAT and modding by Jasoncw**  
+      
+    [Click here to learn about new projects in the works](https://www.simtropolis.com/forum/topic/4778-jasons-bats/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28820-oliver-place-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/2f1b5b227959c04dc1adc332434cb149-oliver-place-apartments-stex-thumb.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-oliver-place-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-oliver-place-apartments-darknite
+
+---
+assetId: jasoncw-oliver-place-apartments-maxisnite
+version: "1.0"
+lastModified: "2013-07-01T03:27:38Z"
+url: https://community.simtropolis.com/files/file/28820-oliver-place-apartments/?do=download&r=116823
+
+---
+assetId: jasoncw-oliver-place-apartments-darknite
+version: "1.0"
+lastModified: "2013-07-01T03:27:38Z"
+url: https://community.simtropolis.com/files/file/28820-oliver-place-apartments/?do=download&r=116824

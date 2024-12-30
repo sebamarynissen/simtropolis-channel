@@ -1,0 +1,55 @@
+group: jasoncw
+name: motown-museum
+version: "1.0"
+info:
+  summary: Motown Museum
+  description: |-
+    [Motown Records](https://en.wikipedia.org/wiki/Motown) was founded by Berry Gordy, Jr. in 1959 in Detroit, Michigan. Gordy purchased 2648 West Grand Boulevard, where he boldly hung a sign “Hitsville U.S.A.” over the front door. Motown would be headquartered there for the next decade, absorbing adjoining buildings on both sides of the street, transforming it into a hits factory. [Hitsville U.S.A.](https://en.wikipedia.org/wiki/Hitsville_USA) and an attached house were converted into the [Motown Museum](http://www.motownmuseum.org/) in 1985.
+
+    With the slogan "The Sound of Young America", Motown Records was a powerful force of racial integration in the 1960s, making pop-infused R&B that was accessible to young people of all races. Kids jumped police-guarded barriers segregating concerts, venues which previously banned black artists began allowing them, and the Motown Sound permeated through all of American culture.
+
+    This BAT is uploaded in celebration of [Black History Month](https://en.wikipedia.org/wiki/Black_History_Month).
+
+    -   2x3 museum lot.  
+         
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).  
+         
+    -   Requires [mipro essentials February 2014](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    ![Motown-STEX-01.jpg.890c37822d04985acf49e](https://www.simtropolis.com/repository/screens/monthly_2017_02/Motown-STEX-01.jpg.890c37822d04985acf49e9327745a6c5.jpg)
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+
+    [mipro Forum Thread](https://community.simtropolis.com/topic/60777-mipro/)  
+    [mipro STEX Uploads](https://community.simtropolis.com/tags/downloads/mipro/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29308-motown-museum/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Motown-STEX-00.thumb.jpg.0de053caf5d3922aba280af19850db90.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Motown-STEX-01.jpg.890c37822d04985acf49e9327745a6c5.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-motown-museum-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-motown-museum-darknite
+
+---
+assetId: jasoncw-motown-museum-maxisnite
+version: "1.0"
+lastModified: "2014-02-28T22:26:05Z"
+url: https://community.simtropolis.com/files/file/29308-motown-museum/?do=download&r=125523
+
+---
+assetId: jasoncw-motown-museum-darknite
+version: "1.0"
+lastModified: "2014-02-28T22:26:05Z"
+url: https://community.simtropolis.com/files/file/29308-motown-museum/?do=download&r=125524
