@@ -187,7 +187,8 @@ function generateVariant(config, metadata) {
 						.map(file => path.basename(file));
 					for (let file of files) {
 						if (appliedPatterns.some(regex => regex.test(file))) {
-							exclude.push(`/${file}`);
+							let escape = /[.*+?^${}()|[\]\\]/g;
+							exclude.push(`/${file.replaceAll(escape, '\\$&')}`);
 						}
 					}
 				} else {
