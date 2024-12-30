@@ -1,0 +1,40 @@
+group: jasoncw
+name: elks-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Elks Building
+  description: |-
+    Elks Building is a building in Aspen, Colorado, USA. It's a corner lot for the Chicago tileset.
+
+    -   1x2 growable CS§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36532-elks-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67229d86d4f95_ElksBuilding00.jpg.83d10b5e0dd1485935514998f6603dac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67229d916e769_ElksBuilding01.jpg.0dd63dac3d10e39e5dae5c93fcbae942.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-elks-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-elks-building-darknite
+
+---
+assetId: jasoncw-elks-building-maxisnite
+version: "1.0.0"
+lastModified: "2024-10-30T21:00:35Z"
+url: https://community.simtropolis.com/files/file/36532-elks-building/?do=download&r=204153
+
+---
+assetId: jasoncw-elks-building-darknite
+version: "1.0.0"
+lastModified: "2024-10-30T21:00:35Z"
+url: https://community.simtropolis.com/files/file/36532-elks-building/?do=download&r=204154
