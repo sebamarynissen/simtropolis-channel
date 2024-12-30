@@ -1,5 +1,6 @@
 // # complete-metadata.js
 import scrape from './scrape.js';
+import { kFileTags } from './symbols.js';
 
 // # completeMetadata(metadata, json)
 // Completes the metadata parsed from the api response with the description, 
@@ -48,16 +49,24 @@ export function expandVariants(metadata) {
 function findIncludedVariants(metadata) {
 	let variants = [];
 	let { assets } = metadata;
-	if (assets.some(asset => /-(maxisnite|darknite)$/.test(asset.assetId))) {
+	if (hasOneOf(assets, ['maxisnite', 'darknite'])) {
 		variants.push('nightmode');
 	}
-	if (assets.some(asset => /-[rl]hd$/.test(asset.assetId))) {
+	if (hasOneOf(assets, ['rhd', 'lhd'])) {
 		variants.push('driveside');
 	}
-	if (assets.some(asset => /-cam$/.test(asset.assetId))) {
+	if (hasOneOf(assets, ['cam'])) {
 		variants.push('CAM');
 	}
 	return variants;
+}
+
+// # hasOneOf(assets, tags)
+// Returns whether the asset has at least one of the given tags.
+function hasOneOf(assets, tags) {
+	return assets.some(asset => {
+		return (asset[kFileTags] || []).some(tag => tags.includes(tag));
+	});
 }
 
 // # generateVariants(variants, metadata)
@@ -141,14 +150,9 @@ function generateVariant(type, metadata) {
 	}
 }
 
-const regexes = {
-	maxisnite: /-m(axis)?n(ite)?$/,
-	darknite: /-d(ark)?n(ite)?$/,
-	lhd: /-lhd$/,
-	rhd: /-rhd$/,
-	cam: /-cam$/,
-};
 function findAsset(assets, id) {
-	const regex = regexes[id];
-	return assets.find(asset => regex.test(asset.assetId)).assetId;
+	return assets.find(asset => {
+		let tags = asset[kFileTags] || [];
+		return tags.includes(id);
+	})?.assetId;
 }
