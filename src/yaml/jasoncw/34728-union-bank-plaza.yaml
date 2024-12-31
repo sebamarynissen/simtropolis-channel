@@ -24,13 +24,28 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-Plaza-P0.jpg.4375e2c2f3187b1f2e256571ac10c4d4.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-01(compressed).jpg.6d614c2617dc1f32f9e0f0261c37cf45.jpg
 variants:
-  - variant: { nightmode: standard }
+  - variant: { nightmode: standard, CAM: "no" }
     assets:
       - assetId: jasoncw-union-bank-plaza-maxisnite
-  - variant: { nightmode: dark }
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-union-bank-plaza-maxisnite
+        exclude:
+          - /Jasoncw - Union Bank Plaza - Grow \(CO\$\$8_4x2\)\.SC4Lot
+          - /Jasoncw - Union Bank Plaza - Grow \(CO\$\$8_4x3\)\.SC4Lot
+      - assetId: jasoncw-union-bank-plaza-cam
+  - variant: { nightmode: dark, CAM: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-union-bank-plaza-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-union-bank-plaza-darknite
+        exclude:
+          - /Jasoncw - Union Bank Plaza - Grow \(CO\$\$8_4x2\)\.SC4Lot
+          - /Jasoncw - Union Bank Plaza - Grow \(CO\$\$8_4x3\)\.SC4Lot
+      - assetId: jasoncw-union-bank-plaza-cam
 
 ---
 assetId: jasoncw-union-bank-plaza-maxisnite
@@ -45,7 +60,7 @@ lastModified: "2021-11-01T18:43:06Z"
 url: https://community.simtropolis.com/files/file/34728-union-bank-plaza/?do=download&r=190335
 
 ---
-assetId: jasoncw-union-bank-plaza-part-2
+assetId: jasoncw-union-bank-plaza-cam
 version: "1.0.0"
 lastModified: "2021-11-01T18:43:06Z"
 url: https://community.simtropolis.com/files/file/34728-union-bank-plaza/?do=download&r=190336

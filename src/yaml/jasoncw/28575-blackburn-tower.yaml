@@ -34,13 +34,28 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/Blackburn-STEX-1.thumb.jpg.4740c6de6311d42c7f67687fa41b5e4a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/Blackburn-STEX-2.jpg.7883538ce5235cf8aa68cbc0d81e1842.jpg
 variants:
-  - variant: { nightmode: standard }
+  - variant: { nightmode: standard, CAM: "no" }
     assets:
       - assetId: jasoncw-blackburn-tower-maxisnite
-  - variant: { nightmode: dark }
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-blackburn-tower-maxisnite
+        exclude:
+          - /Jasoncw - Blackburn Tower - CO\$\$ Grow \(CO\$\$8_6x4\)\.SC4Lot
+          - /Jasoncw - Blackburn Tower - CO\$\$\$ Grow \(CO\$\$\$8_6x4\)\.SC4Lot
+      - assetId: jasoncw-blackburn-tower-cam
+  - variant: { nightmode: dark, CAM: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-blackburn-tower-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-blackburn-tower-darknite
+        exclude:
+          - /Jasoncw - Blackburn Tower - CO\$\$ Grow \(CO\$\$8_6x4\)\.SC4Lot
+          - /Jasoncw - Blackburn Tower - CO\$\$\$ Grow \(CO\$\$\$8_6x4\)\.SC4Lot
+      - assetId: jasoncw-blackburn-tower-cam
 
 ---
 assetId: jasoncw-blackburn-tower-maxisnite
@@ -55,7 +70,7 @@ lastModified: "2013-03-16T20:49:50Z"
 url: https://community.simtropolis.com/files/file/28575-blackburn-tower/?do=download&r=113264
 
 ---
-assetId: jasoncw-blackburn-tower-part-2
+assetId: jasoncw-blackburn-tower-cam
 version: "1.0"
 lastModified: "2013-03-16T20:49:50Z"
 url: https://community.simtropolis.com/files/file/28575-blackburn-tower/?do=download&r=113265

@@ -34,32 +34,34 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: jasoncw-sturgeon-building-maxisnite
+      - assetId: jasoncw-sturgeon-building-2x4-maxisnite
+      - assetId: jasoncw-sturgeon-building-2x3-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: jasoncw-sturgeon-building-darknite
+      - assetId: jasoncw-sturgeon-building-2x4-darknite
+      - assetId: jasoncw-sturgeon-building-2x3-darknite
 
 ---
-assetId: jasoncw-sturgeon-building-maxisnite
+assetId: jasoncw-sturgeon-building-2x4-maxisnite
 version: "1.0"
 lastModified: "2012-08-12T22:07:34Z"
 url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110493
 
 ---
-assetId: jasoncw-sturgeon-building-darknite
+assetId: jasoncw-sturgeon-building-2x4-darknite
 version: "1.0"
 lastModified: "2012-08-12T22:07:34Z"
 url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110494
 
 ---
-assetId: jasoncw-sturgeon-building-maxisnite
+assetId: jasoncw-sturgeon-building-2x3-maxisnite
 version: "1.0"
 lastModified: "2012-08-12T22:07:34Z"
 url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110495
 
 ---
-assetId: jasoncw-sturgeon-building-darknite
+assetId: jasoncw-sturgeon-building-2x3-darknite
 version: "1.0"
 lastModified: "2012-08-12T22:07:34Z"
 url: https://community.simtropolis.com/files/file/27924-sturgeon-building/?do=download&r=110496
