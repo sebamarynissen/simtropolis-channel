@@ -1,0 +1,94 @@
+group: jasoncw
+name: gardener-center
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Gardener Center
+  description: |-
+    This late modernist tower offers quality office space to the investment firms of SimNation. At Gardener Center, the broadness of the boss's executive desk is matched only by the broadness of his secretary's shoulder pads.
+
+    Included are a 6x4 and 4x6 CO§§ growable, and a 6x4 CO§§ ploppable. All versions are corner lots.
+
+    This is the Dark Nite version of the Gardener Building, made for the darker night environment created by the [Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089).
+
+    More information can be found below.
+
+    **Jasoncw - Gardener Center (DN).SC4Model:**
+
+    This is the building itself. Model features Dark Nite TruNite. This file is required.
+
+    **Jasoncw - Gardener Center - CO****$****$ - Plop 6x4 (DN).SC4Lot:**
+
+    Lot Size: 6x4 Tiles
+
+    Plop Cost:
+
+    §
+
+    141,600
+
+    Jobs Provided: 2,026 CO
+
+    §
+
+    §
+
+    **Jasoncw - Gardener Center - CO****$****$ - Grow 6x4 (DN).SC4Lot:**
+
+    Lot Size: 6x4 Tiles
+
+    Jobs Provided: 2,026 CO
+
+    §
+
+    §
+
+    **Jasoncw - Gardener Center - CO****$****$ - Grow 4x6 (DN).SC4Lot:**
+
+    Lot Size: 4x6 Tiles
+
+    Jobs Provided: 2,026 CO
+
+    §
+
+    §
+
+    **Dependencies:**
+
+    [SimFox's Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089) is required.
+
+    **Installation Instructions:**
+
+    Place *Jasoncw - Gardener Center (DN).SC4Model* and the .SC4Lots of your desired versions into your Plugins folder (*My Documents/SimCity 4/Plugins* or *My Computer/Program Files/SimCity 4 Deluxe/Plugins*)
+
+    BAT: Jasoncw
+
+    Modding: Nofunk
+
+    [Click here for discussion about new projects by Jasoncw](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/25229-gardener-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e4cff0a963eceebc64af5fb6e428570b-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/05516f44c129f8290864b9961c60799e-2-mn-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/7e99a9b2d551afb5b4d5b3c00258dd14-2-dn-.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-gardener-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-gardener-center-darknite
+
+---
+assetId: jasoncw-gardener-center-maxisnite
+version: "1.0"
+lastModified: "2010-11-08T20:49:01Z"
+url: https://community.simtropolis.com/files/file/25229-gardener-center/?do=download&r=105849
+
+---
+assetId: jasoncw-gardener-center-darknite
+version: "1.0"
+lastModified: "2010-11-08T20:49:01Z"
+url: https://community.simtropolis.com/files/file/25229-gardener-center/?do=download&r=105850

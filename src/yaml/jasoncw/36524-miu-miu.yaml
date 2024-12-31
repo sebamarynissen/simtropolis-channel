@@ -1,0 +1,39 @@
+group: jasoncw
+name: miu-miu
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Miu Miu
+  description: |-
+    Miu Miu is an Italian high fashion brand which sells women's clothing and accessories.
+
+    It grows in the New York 1940 tileset.
+
+    -   1x2 growable CS§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36524-miu-miu/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/6719a5192d1c2_MiuMiu00.jpg.2c221094d30777b4924b8cb32c778a37.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/6719a52e385e1_MiuMiu01.jpg.32b54c59d1e5f9a3356173d65ad7a3a8.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-miu-miu-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-miu-miu-darknite
+
+---
+assetId: jasoncw-miu-miu-maxisnite
+version: "1.0.0"
+lastModified: "2024-10-24T01:39:26Z"
+url: https://community.simtropolis.com/files/file/36524-miu-miu/?do=download&r=204054
+
+---
+assetId: jasoncw-miu-miu-darknite
+version: "1.0.0"
+lastModified: "2024-10-24T01:39:26Z"
+url: https://community.simtropolis.com/files/file/36524-miu-miu/?do=download&r=204055

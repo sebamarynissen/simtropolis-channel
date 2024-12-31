@@ -1,0 +1,51 @@
+group: jasoncw
+name: sundry-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sundry Building
+  description: |-
+    The Sundry Building is a wall to wall Art Deco building for the New York tile set.
+
+    ![sundry-stex-2.jpg.7db0372fdac6d0ac4213df](https://www.simtropolis.com/repository/screens/monthly_2017_02/sundry-stex-2.jpg.7db0372fdac6d0ac4213dfaeef219c5d.jpg)
+
+    -   1x3 and 3x1 CO§§§ growables.
+    -   1x3 CO§§§ ploppable.  
+         
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    **BAT and modding by Jasoncw**
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/27912-sundry-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/sundry-stex-1.thumb.jpg.b0246d18ba4e3de44d0f1c2a4818e2c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/sundry-stex-2.jpg.7db0372fdac6d0ac4213dfaeef219c5d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-sundry-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-sundry-building-darknite
+
+---
+assetId: jasoncw-sundry-building-maxisnite
+version: "1.0"
+lastModified: "2012-08-09T01:15:17Z"
+url: https://community.simtropolis.com/files/file/27912-sundry-building/?do=download&r=105056
+
+---
+assetId: jasoncw-sundry-building-darknite
+version: "1.0"
+lastModified: "2012-08-09T01:15:17Z"
+url: https://community.simtropolis.com/files/file/27912-sundry-building/?do=download&r=105057

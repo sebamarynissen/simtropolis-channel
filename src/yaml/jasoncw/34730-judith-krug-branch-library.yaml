@@ -1,0 +1,43 @@
+group: jasoncw
+name: judith-krug-branch-library
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Judith Krug Branch Library
+  description: |-
+    Judith Krug Branch Library is a triangular brutalist library.
+
+    -   4x4 library lot.
+    -   MaxisNite and DarkNite versions included. 
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/). 
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/34730-judith-krug-branch-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/618036233c681_JudithKrugBranchLibrary00.jpg.7d46b45bbdf2a10699ccf263eb5e765f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/61803625a2080_JudithKrugBranchLibrary01.jpg.fa338f7ccaf8876b4e8f10298a90730d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-judith-krug-branch-library-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-judith-krug-branch-library-darknite
+
+---
+assetId: jasoncw-judith-krug-branch-library-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-01T18:47:17Z"
+url: https://community.simtropolis.com/files/file/34730-judith-krug-branch-library/?do=download&r=190343
+
+---
+assetId: jasoncw-judith-krug-branch-library-darknite
+version: "1.0.0"
+lastModified: "2021-11-01T18:47:17Z"
+url: https://community.simtropolis.com/files/file/34730-judith-krug-branch-library/?do=download&r=190344

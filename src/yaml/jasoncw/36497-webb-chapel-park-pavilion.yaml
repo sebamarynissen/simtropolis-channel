@@ -1,0 +1,39 @@
+group: jasoncw
+name: webb-chapel-park-pavilion
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Webb Chapel Park Pavilion
+  description: |-
+    Webb Chapel Park Pavilion is a picnic shelter located in Webb Chapel Park, in Dallas, Texas, USA. Along the pavilion is a grassy mound which can be used for play or for seating.
+
+    It can be found near the end of your parks menu.
+
+    -   2x2 park lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36497-webb-chapel-park-pavilion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670744d599952_WebbChapelParkPavilion00.jpg.e0764e308d1b5742f7b693cc83fa7480.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670744ed06aa5_WebbChapelParkPavilion01.jpg.a5db8ed25bfc7685cebaa2604d9e941a.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-webb-chapel-park-pavilion-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-webb-chapel-park-pavilion-darknite
+
+---
+assetId: jasoncw-webb-chapel-park-pavilion-maxisnite
+version: "1.0.0"
+lastModified: "2024-10-10T03:08:05Z"
+url: https://community.simtropolis.com/files/file/36497-webb-chapel-park-pavilion/?do=download&r=203817
+
+---
+assetId: jasoncw-webb-chapel-park-pavilion-darknite
+version: "1.0.0"
+lastModified: "2024-10-10T03:08:05Z"
+url: https://community.simtropolis.com/files/file/36497-webb-chapel-park-pavilion/?do=download&r=203818

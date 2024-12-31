@@ -1,0 +1,43 @@
+group: jasoncw
+name: murray-musem-of-modern-art
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Murray Musem of Modern Art
+  description: |-
+    This modern art museum features several galleries, a sculpture garden, event space, and of course, a gift shop!
+
+    -   6x6 museum lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/34732-murray-musem-of-modern-art/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Murray-P0.jpg.6ba5bb3a6a348da3be40873f89c4e219.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Murray-P1(compressed).jpg.931a1eff07409b62bad2f8c6825950fc.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-murray-musem-of-modern-art-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-murray-musem-of-modern-art-darknite
+
+---
+assetId: jasoncw-murray-musem-of-modern-art-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-01T18:51:14Z"
+url: https://community.simtropolis.com/files/file/34732-murray-musem-of-modern-art/?do=download&r=190351
+
+---
+assetId: jasoncw-murray-musem-of-modern-art-darknite
+version: "1.0.0"
+lastModified: "2021-11-01T18:51:14Z"
+url: https://community.simtropolis.com/files/file/34732-murray-musem-of-modern-art/?do=download&r=190352

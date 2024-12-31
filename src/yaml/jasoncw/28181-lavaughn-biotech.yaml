@@ -1,0 +1,72 @@
+group: jasoncw
+name: lavaughn-biotech
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: LaVaughn Biotech
+  description: |-
+    LaVaughn Biotech is a large high tech industrial building which provides a lot of jobs. 6x6 growable and ploppable versions are included.
+
+    -   The [IH Missing $$$ Jobs Fix](https://community.simtropolis.com/files/file/22771-ih-missing-jobs-fix-update/) modd corrects a bug in the game's simulation which affects I-HT.
+    -   x2 versions are included for use with the [Industry Doubler](https://community.simtropolis.com/files/file/15758-industry-doubler/).  
+         
+    -   MaxisNite and DarkNite versions are included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![LaVaughn-Biotech-STEX-2.jpg.109b360fa747](https://www.simtropolis.com/repository/screens/monthly_2017_02/LaVaughn-Biotech-STEX-2.jpg.109b360fa7476c6e06a9c6bec5916828.jpg)
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version. Choose the x2 version if you use an industry doubler modd.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    **BAT & Modding by Jasoncw**
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/LaVaughn-Biotech-STEX-1.thumb.jpg.59705ee90bb9e0aef3b3a383f98c7156.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/LaVaughn-Biotech-STEX-2.jpg.109b360fa7476c6e06a9c6bec5916828.jpg
+dependencies:
+  - heinbloed4711:hi-tech-missing-high-wealth-jobs
+variants:
+  - variant: { nightmode: standard, jasoncw:lavaughn-biotech:capacity: standard }
+    assets:
+      - assetId: jasoncw-lavaughn-biotech-maxisnite
+  - variant: { nightmode: dark, jasoncw:lavaughn-biotech:capacity: standard }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-lavaughn-biotech-darknite
+  - variant: { nightmode: standard, jasoncw:lavaughn-biotech:capacity: doubled }
+    assets:
+      - assetId: jasoncw-lavaughn-biotech-2x-maxisnite
+  - variant: { nightmode: dark, jasoncw:lavaughn-biotech:capacity: doubled }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-lavaughn-biotech-2x-darknite
+
+---
+assetId: jasoncw-lavaughn-biotech-maxisnite
+version: "1.0"
+lastModified: "2012-11-06T01:16:26Z"
+url: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/?do=download&r=108332
+
+---
+assetId: jasoncw-lavaughn-biotech-darknite
+version: "1.0"
+lastModified: "2012-11-06T01:16:26Z"
+url: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/?do=download&r=108333
+
+---
+assetId: jasoncw-lavaughn-biotech-2x-maxisnite
+version: "1.0"
+lastModified: "2012-11-06T01:16:26Z"
+url: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/?do=download&r=108334
+
+---
+assetId: jasoncw-lavaughn-biotech-2x-darknite
+version: "1.0"
+lastModified: "2012-11-06T01:16:26Z"
+url: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/?do=download&r=108335

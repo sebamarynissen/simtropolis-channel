@@ -1,0 +1,84 @@
+group: jasoncw
+name: queralt-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Queralt Hotel
+  description: |-
+    Queralt Hotel has the most spacious, well appointed rooms in all of SimNation. Its eloquent banquet spaces and envious conference rooms can accommodate any function, and its expertly trained staff can provide any service. Queralt Hotel is the best of the best... if you can afford it!
+
+    Included is a CS§§§ growable and a CS§§§ ploppable. Both versions are on 3x4 lots. The growable grows in the New York and Chicago tilesets.
+
+    This is the Dark Nite version of Queralt Hotel, made for the darker night environment created by the [Day 'n' Nite Modd](https://www.simtropolis.com/stex/details.cfm?id=23089).
+
+    More information can be found below.
+
+    **Jasoncw - Queralt Hotel (DN).SC4Model:**
+
+    This is the building itself. Model features DarkNite TruNite. This file is required.
+
+    **Jasoncw - Queralt Hotel - CS$$$ (Ploppable) (DN).SC4Lot:**
+
+    Lot Size: 3x4 Tiles
+
+    Plop Cost:
+
+    §
+
+    99,500
+
+    Jobs Provided: 724 CS
+
+    §§
+
+    §
+
+    **Jasoncw - Queralt Hotel - CS$$$ (Growable) (DN).SC4Lot:**
+
+    Lot Size: 3x4 Tiles
+
+    Jobs Provided: 724 CS
+
+    §§
+
+    §
+
+    **Dependencies:**
+
+    [SimFox's Day 'n' Nite Modd](https://www.simtropolis.com/stex/details.cfm?id=23089) is required.
+
+    **Installation Instructions:**
+
+    Place *Jasoncw - Queralt Hotel (DN).SC4Model* and the .SC4Lots of your desired versions into your Plugins folder (*My Documents/SimCity 4/Plugins* or *My Computer/Program Files/SimCity 4 Deluxe/Plugins*)
+
+    BAT: Jasoncw
+
+    Modding: Nofunk
+
+    [Click here for discussion about new projects by Jasoncw](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/24550-queralt-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/f8f6498e9474eb600ad13ed3a16e85f5-mn1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/520e78eca4d097f7602418095ae7ff44-mn2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/c6665531af3ecea18b0711c5fe87f17f-dn2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-queralt-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-queralt-hotel-darknite
+
+---
+assetId: jasoncw-queralt-hotel-maxisnite
+version: "1.0"
+lastModified: "2010-08-01T22:02:46Z"
+url: https://community.simtropolis.com/files/file/24550-queralt-hotel/?do=download&r=105864
+
+---
+assetId: jasoncw-queralt-hotel-darknite
+version: "1.0"
+lastModified: "2010-08-01T22:02:46Z"
+url: https://community.simtropolis.com/files/file/24550-queralt-hotel/?do=download&r=105865

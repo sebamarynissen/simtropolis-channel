@@ -1,0 +1,48 @@
+group: jasoncw
+name: hotel-utica
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Hotel Utica
+  description: |-
+    Hotel Utica is a hotel located in Utica, New York, USA. It opened in 1912, and in 1926 three more floors were added. This version is based on its 1912 appearance. It is a 2x3 corner lot for the Chicago 1890 and New York 1940 tilesets.
+
+    **Celebrating 20 years of SimCity 4!**
+
+    **January 14, 2003 - January 14, 2023**
+
+    -   2x3 growable and ploppable CS§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35415-hotel-utica/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c38a9f9f99a_HotelUtica00.jpg.aa892a882b8be8b8e3214426f2a1225f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c38aada03b9_HotelUtica01.jpg.42d84c6daf8e1f07cf7349c74b225e6f.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-hotel-utica-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-hotel-utica-darknite
+
+---
+assetId: jasoncw-hotel-utica-maxisnite
+version: "1.0.0"
+lastModified: "2023-01-15T05:11:00Z"
+url: https://community.simtropolis.com/files/file/35415-hotel-utica/?do=download&r=196167
+
+---
+assetId: jasoncw-hotel-utica-darknite
+version: "1.0.0"
+lastModified: "2023-01-15T05:11:00Z"
+url: https://community.simtropolis.com/files/file/35415-hotel-utica/?do=download&r=196168

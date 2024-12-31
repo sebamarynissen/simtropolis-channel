@@ -1,0 +1,37 @@
+group: jasoncw
+name: sp-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: S&P Building
+  description: |-
+    The S&P Building is a CS$$$ containing a Hugo Boss store. It is a corner lot for the Houston 1990 and Euro tilesets.
+
+    -   1x2 growable CS§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36542-sp-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/672d764b4ced7_SPBuilding00.jpg.540d32f57944a2a942bf1b3c6bcc8e83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/672d766bc2099_SPBuilding01.jpg.b503c1c6c84dbeaea59485d43e578e62.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-sp-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-sp-building-darknite
+
+---
+assetId: jasoncw-sp-building-maxisnite
+version: "1.0.0"
+lastModified: "2024-11-08T02:26:55Z"
+url: https://community.simtropolis.com/files/file/36542-sp-building/?do=download&r=204274
+
+---
+assetId: jasoncw-sp-building-darknite
+version: "1.0.0"
+lastModified: "2024-11-08T02:26:55Z"
+url: https://community.simtropolis.com/files/file/36542-sp-building/?do=download&r=204275

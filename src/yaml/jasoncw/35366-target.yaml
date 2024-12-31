@@ -1,0 +1,47 @@
+group: jasoncw
+name: target
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Target
+  description: |-
+    This is a small format/urban Target, for the Euro and Houston 1990 tilesets.
+
+    -   3x3 growable and ploppable CS§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35366-target/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7da7e1da69_Target00.jpg.6825006b0ea3367f1ed1e56bfa4c8f2c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7da85ba385_Target01.jpg.800addf2d8d854ccffe22f8c1abf632d.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-target-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-target-darknite
+
+---
+assetId: jasoncw-target-maxisnite
+version: "1.0.0"
+lastModified: "2022-12-25T05:08:06Z"
+url: https://community.simtropolis.com/files/file/35366-target/?do=download&r=195895
+
+---
+assetId: jasoncw-target-darknite
+version: "1.0.0"
+lastModified: "2022-12-25T05:08:06Z"
+url: https://community.simtropolis.com/files/file/35366-target/?do=download&r=195896

@@ -1,0 +1,40 @@
+group: jasoncw
+name: innovation-center
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Innovation Center
+  description: |-
+    The Innovation Center is a facility at the Pontifical Catholic University of Chile, where business can collaborate with researchers. It comes to the game as a high tech industrial.
+
+    There's a x4 jobs version, and a normal version. Don't use both at the same time (delete the one you don't need).
+
+    -   4x4 growable I-HT lot (normal and x4 jobs). 
+    -   4x4 ploppable I-HT. 
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36496-innovation-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/6707442c64215_InnovationCenter00.jpg.06c9d89449352c062bd637f50101d52c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670744397c3d7_InnovationCenter01.jpg.bcd8b7892b6ceac083129884fc3d1272.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-innovation-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-innovation-center-darknite
+
+---
+assetId: jasoncw-innovation-center-maxisnite
+version: "1.0.0"
+lastModified: "2024-10-10T03:05:13Z"
+url: https://community.simtropolis.com/files/file/36496-innovation-center/?do=download&r=203813
+
+---
+assetId: jasoncw-innovation-center-darknite
+version: "1.0.0"
+lastModified: "2024-10-10T03:05:13Z"
+url: https://community.simtropolis.com/files/file/36496-innovation-center/?do=download&r=203814

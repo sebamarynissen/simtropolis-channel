@@ -1,0 +1,65 @@
+group: jasoncw
+name: cecil-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Cecil Hotel
+  description: |-
+    Cecil Hotel opened in 1924 in Los Angeles. The first death in the hotel occurred in January 1927, with at least 17 more since. It has also been the home of two serial killers.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 11 version for people who do.
+
+    -   2x3 growable and ploppable CS§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   CAM version included.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you use the CAM, replace the growable with the CAMeLot version.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35720-cecil-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/65418cb47827a_CecilHotel00.jpg.42c2ded22426de01a28c7f2b4e6b1bbf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/65418cb7588ac_CecilHotel01.jpg.0ba2242d961795c4f194b6b1c94a8a82.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-cecil-hotel-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-cecil-hotel-maxisnite
+        exclude:
+          - /Jasoncw - Cecil Hotel - Grow \(CS\$8_2x3\)\.SC4Lot
+      - assetId: jasoncw-cecil-hotel-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-cecil-hotel-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-cecil-hotel-darknite
+        exclude:
+          - /Jasoncw - Cecil Hotel - Grow \(CS\$8_2x3\)\.SC4Lot
+      - assetId: jasoncw-cecil-hotel-cam
+
+---
+assetId: jasoncw-cecil-hotel-maxisnite
+version: "1.0.0"
+lastModified: "2023-11-02T01:38:39Z"
+url: https://community.simtropolis.com/files/file/35720-cecil-hotel/?do=download&r=198240
+
+---
+assetId: jasoncw-cecil-hotel-darknite
+version: "1.0.0"
+lastModified: "2023-11-02T01:38:39Z"
+url: https://community.simtropolis.com/files/file/35720-cecil-hotel/?do=download&r=198241
+
+---
+assetId: jasoncw-cecil-hotel-cam
+version: "1.0.0"
+lastModified: "2023-11-02T01:38:39Z"
+url: https://community.simtropolis.com/files/file/35720-cecil-hotel/?do=download&r=198242

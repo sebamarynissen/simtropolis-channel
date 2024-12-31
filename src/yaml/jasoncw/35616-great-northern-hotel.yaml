@@ -1,0 +1,47 @@
+group: jasoncw
+name: great-northern-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Great Northern Hotel
+  description: |2-
+     
+
+    The Great Northern Hotel is an art deco hotel located in Newcastle, Australia. It was built in 1938. It comes to the game as a 2x1 (with a bonus 1x2 growable) corner lots for the New York 1940 tileset.
+
+    -   Ploppable CS§§ 2x1 lot. 
+    -   Growable CS§§ 2x1 and 1x2 lots. 
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35616-great-northern-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64ffb3044a775_GreatNothernHotel00.jpg.fcf1134e6286d59d4243262a304864f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64ffb3102c9d2_GreatNothernHotel01.jpg.6ae0f5901c39eb9b1a7983633fa62a44.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-great-northern-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-great-northern-hotel-darknite
+
+---
+assetId: jasoncw-great-northern-hotel-maxisnite
+version: "1.0.0"
+lastModified: "2023-09-12T00:40:51Z"
+url: https://community.simtropolis.com/files/file/35616-great-northern-hotel/?do=download&r=197625
+
+---
+assetId: jasoncw-great-northern-hotel-darknite
+version: "1.0.0"
+lastModified: "2023-09-12T00:40:51Z"
+url: https://community.simtropolis.com/files/file/35616-great-northern-hotel/?do=download&r=197626

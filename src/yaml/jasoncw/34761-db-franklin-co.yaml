@@ -1,0 +1,44 @@
+group: jasoncw
+name: db-franklin-co
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: D.B. Franklin Co.
+  description: |-
+    With its many floors of luxurious shopping and its glamorous roof top patio, your sims won't be able to resist shopping at D.B. Franklin Co.
+
+    -   3x3 growable and ploppable CS§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/34761-db-franklin-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619fe072d37c5_DBFranklinCoP00.jpg.e00466f49117a625128c4c91da392820.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619fe0791280d_DBFranklinCoP01.jpg.48946b140cb0dae8e2a5e27307d71eba.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-db-franklin-co-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-db-franklin-co-darknite
+
+---
+assetId: jasoncw-db-franklin-co-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-25T19:16:11Z"
+url: https://community.simtropolis.com/files/file/34761-db-franklin-co/?do=download&r=190656
+
+---
+assetId: jasoncw-db-franklin-co-darknite
+version: "1.0.0"
+lastModified: "2021-11-25T19:16:11Z"
+url: https://community.simtropolis.com/files/file/34761-db-franklin-co/?do=download&r=190657

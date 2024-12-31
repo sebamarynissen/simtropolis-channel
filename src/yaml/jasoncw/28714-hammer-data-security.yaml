@@ -1,0 +1,101 @@
+group: jasoncw
+name: hammer-data-security
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Hammer Data Security
+  description: |-
+    Hammer Data Security provides secure data processing and storage to your sims.
+
+    -   The [IH Missing $$$ Jobs Fix](https://community.simtropolis.com/files/file/22771-ih-missing-jobs-fix-update/) modd corrects a bug in the game's simulation which affects I-HT.
+    -   x2 versions are included for use with the [Industry Doubler](https://community.simtropolis.com/files/file/15758-industry-doubler/).
+    -   CAM versions are included.  
+         
+    -   MaxisNite and DarkNite versions are included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![hammer-data-security-01.jpg.3ad08f4f21f8](https://www.simtropolis.com/repository/screens/monthly_2017_02/hammer-data-security-01.jpg.3ad08f4f21f8049233c3331e93d46ca8.jpg)
+
+    **Installation Instructions:**
+
+    1.  Choose either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Choose either the normal version, x2 jobs version, or CAM version. If you're unsure, choose the normal version.
+    3.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    **BAT and modding by Jasoncw  
+    Trees by [Girafe](https://community.simtropolis.com/profile/319793-girafe/)**
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28714-hammer-data-security/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/hammer-data-security-00.thumb.jpg.541e19534374e7c4cc9c6087ec203469.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/hammer-data-security-01.jpg.3ad08f4f21f8049233c3331e93d46ca8.jpg
+dependencies:
+  - heinbloed4711:hi-tech-missing-high-wealth-jobs
+variants:
+  - variant: { nightmode: standard, CAM: "no", jasoncw:hammer-data-security:capacity: standard }
+    assets:
+      - assetId: jasoncw-hammer-data-security-maxisnite
+  - variant: { nightmode: dark, CAM: "no", jasoncw:hammer-data-security:capacity: standard }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-hammer-data-security-darknite
+  - variant: { nightmode: standard, CAM: "yes", jasoncw:hammer-data-security:capacity: standard }
+    assets:
+      - assetId: jasoncw-hammer-data-security-cam-maxisnite
+  - variant: { nightmode: dark, CAM: "yes", jasoncw:hammer-data-security:capacity: standard }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-hammer-data-security-cam-darknite
+  - variant: { nightmode: standard, CAM: "no", jasoncw:hammer-data-security:capacity: doubled }
+    assets:
+      - assetId: jasoncw-hammer-data-security-2x-maxisnite
+  - variant: { nightmode: dark, CAM: "no", jasoncw:hammer-data-security:capacity: doubled }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-hammer-data-security-2x-darknite
+  - variant: { nightmode: standard, CAM: "yes", jasoncw:hammer-data-security:capacity: doubled }
+    assets:
+      - assetId: jasoncw-hammer-data-security-cam-maxisnite
+  - variant: { nightmode: dark, CAM: "yes", jasoncw:hammer-data-security:capacity: doubled }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-hammer-data-security-cam-darknite
+
+---
+assetId: jasoncw-hammer-data-security-cam-darknite
+version: "1.0"
+lastModified: "2013-05-17T19:30:58Z"
+url: https://community.simtropolis.com/files/file/28714-hammer-data-security/?do=download&r=115235
+
+---
+assetId: jasoncw-hammer-data-security-cam-maxisnite
+version: "1.0"
+lastModified: "2013-05-17T19:30:58Z"
+url: https://community.simtropolis.com/files/file/28714-hammer-data-security/?do=download&r=115236
+
+---
+assetId: jasoncw-hammer-data-security-darknite
+version: "1.0"
+lastModified: "2013-05-17T19:30:58Z"
+url: https://community.simtropolis.com/files/file/28714-hammer-data-security/?do=download&r=115237
+
+---
+assetId: jasoncw-hammer-data-security-maxisnite
+version: "1.0"
+lastModified: "2013-05-17T19:30:58Z"
+url: https://community.simtropolis.com/files/file/28714-hammer-data-security/?do=download&r=115238
+
+---
+assetId: jasoncw-hammer-data-security-2x-darknite
+version: "1.0"
+lastModified: "2013-05-17T19:30:58Z"
+url: https://community.simtropolis.com/files/file/28714-hammer-data-security/?do=download&r=115239
+
+---
+assetId: jasoncw-hammer-data-security-2x-maxisnite
+version: "1.0"
+lastModified: "2013-05-17T19:30:58Z"
+url: https://community.simtropolis.com/files/file/28714-hammer-data-security/?do=download&r=115240

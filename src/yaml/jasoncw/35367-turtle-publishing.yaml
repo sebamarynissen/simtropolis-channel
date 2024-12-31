@@ -1,0 +1,47 @@
+group: jasoncw
+name: turtle-publishing
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Turtle Publishing
+  description: |-
+    For generations Turtle Publishing has produced affordable paperback editions of literature for all ages. It continues to publish classics, old and new, from its current headquarters, which uses a diagonal structure in the facade and a separated elevator core to minimize interior columns. The ground floor contains a book store which keeps their entire catalog in stock.
+
+    -   2x3 growable and ploppable CO§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35367-turtle-publishing/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7db0a5c189_TurtlePublishing00.jpg.04741f38aed9a71c2a472e2eebae6de8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7db1124f68_TurtlePublishing01.jpg.9c1f8c724ad22e158e4a95521cdaffc7.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-turtle-publishing-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-turtle-publishing-darknite
+
+---
+assetId: jasoncw-turtle-publishing-maxisnite
+version: "1.0.0"
+lastModified: "2022-12-25T05:10:21Z"
+url: https://community.simtropolis.com/files/file/35367-turtle-publishing/?do=download&r=195899
+
+---
+assetId: jasoncw-turtle-publishing-darknite
+version: "1.0.0"
+lastModified: "2022-12-25T05:10:21Z"
+url: https://community.simtropolis.com/files/file/35367-turtle-publishing/?do=download&r=195900

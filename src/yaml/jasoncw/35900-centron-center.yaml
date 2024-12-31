@@ -1,0 +1,37 @@
+group: jasoncw
+name: centron-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Centron Center
+  description: |-
+    Centron Center is an office tower for the Euro tileset.
+
+    -   3x3 growable and ploppable CO§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35900-centron-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/Centron-00.jpg.093362771d723ed6f92f9c1d4cbe5f4e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/Centron-01.jpg.8745a6891a1187d3a10eb5e9df7c0a54.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-centron-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-centron-center-darknite
+
+---
+assetId: jasoncw-centron-center-maxisnite
+version: "1.0.0"
+lastModified: "2023-12-25T22:53:50Z"
+url: https://community.simtropolis.com/files/file/35900-centron-center/?do=download&r=198977
+
+---
+assetId: jasoncw-centron-center-darknite
+version: "1.0.0"
+lastModified: "2023-12-25T22:53:50Z"
+url: https://community.simtropolis.com/files/file/35900-centron-center/?do=download&r=198978

@@ -1,0 +1,43 @@
+group: jasoncw
+name: elviras-halloween-emporium
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Elvira's Halloween Emporium
+  description: |-
+    Occupying four full floors, Halloween never stops at Elvira's Halloween Emporium. In addition to selling costumes and decorations, Elvira's Halloween Emporium contains a Halloween themed cafe, a movie screening room, community space, room escape games, a haunted maze, and more! The front facade features a glow in the dark ghost mural.
+
+    -   Growable and ploppable CS§§ 1x2 lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35721-elviras-halloween-emporium/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/65418d20a02f9_ElvirasHalloweenEmporium00.jpg.8ac1bdeba321384a8e0c2f0c6d0714e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/65418d231db66_ElvirasHalloweenEmporium01.jpg.95fb0076d6d76de92e20b52c4102b41f.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-elviras-halloween-emporium-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-elviras-halloween-emporium-darknite
+
+---
+assetId: jasoncw-elviras-halloween-emporium-maxisnite
+version: "1.0.0"
+lastModified: "2023-10-31T23:27:20Z"
+url: https://community.simtropolis.com/files/file/35721-elviras-halloween-emporium/?do=download&r=198236
+
+---
+assetId: jasoncw-elviras-halloween-emporium-darknite
+version: "1.0.0"
+lastModified: "2023-10-31T23:27:20Z"
+url: https://community.simtropolis.com/files/file/35721-elviras-halloween-emporium/?do=download&r=198237
