@@ -117,6 +117,26 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('automatically handles CAMeLot assets', function() {
+
+		let upload = faker.upload({
+			author: 'Jasoncw',
+			title: 'Guardian Building',
+			files: [
+				{
+					name: 'Jasoncw - Guardian Building.zip',
+				},
+				{
+					name: 'Jasoncw - Guardian Building (CAMeLots).zip',
+				},
+			],
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.assets[0].assetId).to.equal('jasoncw-guardian-building');
+		expect(meta.assets[1].assetId).to.equal('jasoncw-guardian-building-cam');
+
+	});
+
 	it('handles iso date formats', function() {
 
 		let upload = faker.upload({

@@ -1,0 +1,47 @@
+group: ids2
+name: alakea-corporate-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Alakea Corporate Tower
+  description: |-
+    Built in 1993, the Alakea Corporate Tower (also known as 1100 Alakea Plaza) is located at the corner of Alakea Street and South Hotel Street in downtown Honolulu, Hawaii.
+
+    This model is available as a CO$$$ tower in both growable and ploppable versions, both of which provide 1550 jobs and sit on a 3x3 lot. Both Darknite and Maxisnite options are provided - use only one at a time!
+
+    Dependencies:
+
+    -   [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) - for the Darknite version of the model
+    -   [BSC TexturePack Cycledogg V 01b (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101) - for my lame attempt at a lotting job
+    -   [BSC - VIP girafe Canary date palms (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3451) - for the snazzy trees in the plaza
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=25) to learn more about my current projects.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/33984-alakea-corporate-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/tile.png.9785c14504e57337e4e7b58db3486da1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/day.jpg.e85a0db7ece167ee06ffec843ecd1bc3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/night.jpg.b2de4f23d413dd9707586942be6c4a1e.jpg
+dependencies:
+  - girafe:canary-date-palms
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-alakea-corporate-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-alakea-corporate-tower-darknite
+
+---
+assetId: ids2-alakea-corporate-tower-darknite
+version: "1.0.0"
+lastModified: "2020-12-07T02:14:19Z"
+url: https://community.simtropolis.com/files/file/33984-alakea-corporate-tower/?do=download&r=184081
+
+---
+assetId: ids2-alakea-corporate-tower-maxisnite
+version: "1.0.0"
+lastModified: "2020-12-07T02:14:19Z"
+url: https://community.simtropolis.com/files/file/33984-alakea-corporate-tower/?do=download&r=184082

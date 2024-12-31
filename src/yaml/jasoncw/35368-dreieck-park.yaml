@@ -1,0 +1,29 @@
+group: jasoncw
+name: dreieck-park
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Dreieck Park
+  description: |-
+    Dreieck Park is a triangular park, found near the end of the parks menu. The lot is a 3x3, with overhanging corners creating a park with sides that are 6 tiles long.
+
+    Since the park this is based on does not have any artificial lighting, I have not rendered nitelites for this BAT, and so there are no separate MaxisNite and DarkNite versions.
+
+    -   3x3 park lot, with 6x6 overhang.
+    -   No nitelites.
+
+    Installation Instructions:
+
+    1.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35368-dreieck-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7db74f38d0_DreieckPark00.jpg.d6490d3f26ef4be9bd02382c1cadd963.jpg
+assets:
+  - assetId: jasoncw-dreieck-park
+
+---
+assetId: jasoncw-dreieck-park
+version: "1.0.0"
+lastModified: "2022-12-25T05:12:21Z"
+url: https://community.simtropolis.com/files/file/35368-dreieck-park/?do=download&r=195903

@@ -1,0 +1,37 @@
+group: jasoncw
+name: pietzsch-house
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Pietzsch House
+  description: |-
+    Pietzsch House is an office building in Berlin, Germany, which contains the Einstein Cafe on the ground floor. A CS$$$ version imagining the building as a hotel has also been included. Both grow in the Houston 1990 and Euro tilesets.
+
+    -   1x3 growable CO§§§ and CS§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36549-pietzsch-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673584c49e3e0_PietzschHouse00.jpg.d83d4d65416f736153d3eaa5396927d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673584eb728e2_PietzschHouse01.jpg.ebb8e799eeb73ed9af184166fcad4cce.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-pietzsch-house-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-pietzsch-house-darknite
+
+---
+assetId: jasoncw-pietzsch-house-maxisnite
+version: "1.0.0"
+lastModified: "2024-11-14T05:06:01Z"
+url: https://community.simtropolis.com/files/file/36549-pietzsch-house/?do=download&r=204365
+
+---
+assetId: jasoncw-pietzsch-house-darknite
+version: "1.0.0"
+lastModified: "2024-11-14T05:06:01Z"
+url: https://community.simtropolis.com/files/file/36549-pietzsch-house/?do=download&r=204366

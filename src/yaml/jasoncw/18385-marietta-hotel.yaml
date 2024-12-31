@@ -1,0 +1,83 @@
+group: jasoncw
+name: marietta-hotel
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Marietta Hotel
+  description: |-
+    Marietta Hotel has been expertly designed to give you the best trade-off between comfort and price. The rooms and building's exterior have been beautifully crafted with relatively inexpensive materials to keep room prices down, and the hotel's excellent service staff perform their duties with the same intent. You can enjoy your stay at the Marietta Hotel while still having enough money left to enjoy the rest of the city.
+
+    From T Wrecks:
+
+    If this building looks strangely familiar, that's because it IS a different building that has already been published - sort of. This model is, in fact, one of the many earlier stages of what would eventually become known as the
+
+    [](../../stex/index.cfm?id=14502)
+
+    [Mary Hotel](../../stex/index.cfm?id=14502)
+
+    [](../../stex/index.cfm?id=14502)
+
+    as published on December 28, 2005.
+
+    In contrast to the later L-shaped footprint, this building is more or less rectangular. One potential problem arose from
+
+    its
+
+    size (1x2): Especially the residential was foreseeable to become a potential plague by splitting up e.g. 3x2 or 4x2 residential lots into a row of 1x2 lots. Then it occurred to me that this problem would be eliminated by simply flipping the building (and
+
+    its
+
+    lot) by 90 degrees, making it a 2x1! This lot size should prevent undesired growth, at the same time enabling players to fill smaller gaps in a downtown with a building that should be rather well controllable.
+
+    Since this early version is somewhat smaller than the later Mary Hotel / Arms, the name has also been changed - from "Mary" to "Marietta", to hint at the relationship between the two buildings.
+
+    A preview render of an even earlier stage can be seen [here](http://img19.imageshack.us/img19/761/earlyversionvf2.jpg). The building was originally intended to be similar to West & Co. The building was started in the Fall of 2004, was scrapped and then modified in to the form you see now in the Summer of 2005, and was released in its final form in the Winter of 2005. Now in the Summer of 2007, the building is released again. Special credit goes to T Wrecks for bringing this BAT back into the light.
+
+    Dependencies:
+
+    BSC MEGA Props GascookerVol01 which can be found in an updated version at [SC4Devotion](http://www.SimCity4Devotion.com). The canopies over the storefronts are from this dependency. It is optional (if you do not have it, the canopies will not be there, but there will not be any brown boxes).
+
+    Includes Commercial Service and Residential versions.
+
+    Please read the readme for more information.
+
+    * * *
+
+    Marietta Hotel (growable)CS§§ 325 jobs.
+
+    Contains: 2x1 lot.
+
+    * * *
+
+    Marietta Hotel (ploppable)CS§§ 325 jobs.
+
+    Contains: 2x1 lot.
+
+    Plop Cost: §15,000
+
+    * * *
+
+    Marietta Arms (growable)R§§ 452 residents.
+
+    Contains: 2x1 lot.
+
+    * * *
+
+    **BAT by: Jasoncw****Modding by: T Wrecks**
+
+    *[Click here for discussion of new and current projects by Jasoncw](../../forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)*
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/18385-marietta-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/aa1c49a893ec4065a873661345fa4be6-BAT-Frame-Marietta-1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa1c49a893ec4065a873661345fa4be6-BAT-Frame-Marietta-2.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+assets:
+  - assetId: jasoncw-marietta-hotel
+
+---
+assetId: jasoncw-marietta-hotel
+version: "1.0"
+lastModified: "2007-07-04T16:48:28Z"
+url: https://community.simtropolis.com/files/file/18385-marietta-hotel/?do=download&r=42291

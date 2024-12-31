@@ -1,0 +1,51 @@
+group: jasoncw
+name: macdonald-station
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: MacDonald Station
+  description: |-
+    MacDonald Station is derived from my [Telus Plaza upload](https://community.simtropolis.com/files/file/29036-telus-plaza/), and has been made into a separate lot for increased playability. In real life it's an office building, but I have made it into a police station. It's comparable in size to Maxis's Large Police Station, and so it is comparable in stats, although the radius has been increased.  
+      
+    • 3x3 police station.
+
+      
+    • MaxisNite and DarkNite night versions included.  
+    • Dark Nite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    ![qmwwmsI.jpg](http://i.imgur.com/qmwwmsI.jpg)
+
+      
+    **Installation Instructions:**  
+      
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.  
+    4\. SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.  
+      
+    **BAT and modding by Jasoncw**  
+      
+    [Click here to learn about new projects in the works](https://www.simtropolis.com/forum/topic/4778-jasons-bats/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29375-macdonald-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/71596e21915608b4e72022a477e24b0e-macdonald-station-stex-00.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-macdonald-station-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-macdonald-station-darknite
+
+---
+assetId: jasoncw-macdonald-station-maxisnite
+version: "1.0"
+lastModified: "2014-03-28T03:18:31Z"
+url: https://community.simtropolis.com/files/file/29375-macdonald-station/?do=download&r=127679
+
+---
+assetId: jasoncw-macdonald-station-darknite
+version: "1.0"
+lastModified: "2014-03-28T03:18:31Z"
+url: https://community.simtropolis.com/files/file/29375-macdonald-station/?do=download&r=127680

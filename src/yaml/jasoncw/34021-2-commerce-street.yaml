@@ -1,0 +1,43 @@
+group: jasoncw
+name: 2-commerce-street
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: 2 Commerce Street
+  description: |-
+    2 Commerce Street is an office building in Auckland, New Zealand.
+
+    -   2x2 growable and ploppable CO§§ lots.  
+    -   MaxisNite and DarkNite versions included. 
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/). 
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/34021-2-commerce-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fee54f892c2d_2CommmerceStreetP1.png.702908aa6c7eff4b6cd7bc180552d4a3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fee551b65183_2CommmerceStreetP0.png.3161a481dafa6fc0f44a902ae92c5c6f.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-2-commerce-street-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-2-commerce-street-darknite
+
+---
+assetId: jasoncw-2-commerce-street-maxisnite
+version: "1.0.0"
+lastModified: "2020-12-31T22:50:04Z"
+url: https://community.simtropolis.com/files/file/34021-2-commerce-street/?do=download&r=184317
+
+---
+assetId: jasoncw-2-commerce-street-darknite
+version: "1.0.0"
+lastModified: "2020-12-31T22:50:04Z"
+url: https://community.simtropolis.com/files/file/34021-2-commerce-street/?do=download&r=184318

@@ -1,6 +1,7 @@
 // # api-to-metadata.js
+import './polyfill.js';
 import path from 'node:path';
-import { kFileInfo } from './symbols.js';
+import { kFileInfo, kFileTags } from './symbols.js';
 import categories from './categories.js';
 import { slugify } from './util.js';
 
@@ -24,6 +25,18 @@ export default function apiToMetadata(json) {
 		variants: undefined,
 	};
 	let assets = [];
+
+	// First we'll loop all files and collect the tags for them. We do this in a 
+	// separate loop so that we can find how many buildings there are without 
+	// tags to determine if the assets need to be suffixed with "part-0", 
+	// "part-1" etc.
+	let allTags = json.files.map(file => getFileTags(file));
+	let tagAmounts = Object.groupBy(allTags, arr => arr.length);
+	let defaultSuffix = (tagAmounts[0] ?? []).length < 2 ?
+		() => '' :
+		i => `part${i}`;
+
+	// Allright, now loop the files again and then actually generate the suffixes.
 	for (let i = 0; i < json.files.length; i++) {
 		let file = json.files[i];
 		let url = new URL(json.fileURL);
@@ -32,19 +45,22 @@ export default function apiToMetadata(json) {
 		}
 		url.searchParams.set('do', 'download');
 		url.searchParams.set('r', json.files[i].id);
-		let suffix = getAssetSuffix(file, i, json);
+		let tags = allTags[i];
+		let suffix = getAssetSuffix(tags) || defaultSuffix(i);
 		assets.push({
 			assetId: `${pkg.group}-${pkg.name}${suffix ? `-${suffix}` : ''}`,
 			version: json.release,
 			lastModified: normalizeDate(json.updated),
 			url: url.href,
 			[kFileInfo]: file,
+			[kFileTags]: tags,
 		});
 	}
 	return {
 		package: pkg,
 		assets,
 	};
+
 }
 
 // # getSubfolder(json)
@@ -54,28 +70,31 @@ function getSubfolder(json) {
 	return categories[cid];
 }
 
-// # getAssetSuffix(name, index, json)
-// This function intelligently determines the asset suffix. This is mostly 
-// useful for detecting maxis nite and dark nite versions.
-function getAssetSuffix(file, index, json) {
-
-	// If there's only 1 asset in this package, no suffix needed.
-	if (json.files.length < 2) return '';
-
-	// Normalize the filename to get the suffix.
+// # getFileTags(file)
+// Returns an array of variant tags that applies to the file based on its name.
+function getFileTags(file) {
+	let tags = [];
 	let slug = file.name.toLowerCase();
 	let name = path.basename(slug, path.extname(slug));
-	if (/dark\s?ni(te|ght)/.test(name)) return 'darknite';
-	if (/maxis\s?ni(te|ght)/.test(name)) return 'maxisnite';
-	if (/\(dn\)/.test(name)) return 'darknite';
-	if (/\(mn\)/.test(name)) return 'maxisnite';
-	if (/\(cam(elot)?\)/.test(name)) return 'cam';
-	if (/[_-\s]dn/.test(name)) return 'darknite';
-	if (/[_-\s]mn/.test(name)) return 'maxisnite';
-	if (/\(lhd\)/.test(name)) return 'lhd';
-	if (/\(rhd\)/.test(name)) return 'rhd';
-	return `part-${index}`;
+	if (/dark\s?ni(te|ght)/.test(name)) tags.push('darknite');
+	else if (/maxis\s?ni(te|ght)/.test(name)) tags.push('maxisnite');
+	if (/\(dn\)/.test(name)) tags.push('darknite');
+	else if (/\(mn\)/.test(name)) tags.push('maxisnite');
+	if (/\bcam([ e]lots?)?\b/.test(name)) tags.push('cam');
+	if (/[_-\s]dn/.test(name)) tags.push('darknite');
+	else if (/[_-\s]mn/.test(name)) tags.push('maxisnite');
+	if (/\(lhd\)/.test(name)) tags.push('lhd');
+	else if (/\(rhd\)/.test(name)) tags.push('rhd');
+	if (/\(hd( model)?\)/.test(name)) tags.push('hd');
+	else if (/\(sd( model)?\)/.test(name)) tags.push('sd');
+	return tags;
+}
 
+// # getAssetSuffix(tags)
+let order = ['cam', 'rhd', 'lhd', 'hd', 'maxisnite', 'darknite'];
+function getAssetSuffix(tags) {
+	let sorted = [...tags].sort((a, b) => order.indexOf(a) - order.indexOf(b));
+	return sorted.join('-');
 }
 
 // # normalizeDate(date)

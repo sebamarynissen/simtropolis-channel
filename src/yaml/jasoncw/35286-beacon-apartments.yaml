@@ -1,0 +1,47 @@
+group: jasoncw
+name: beacon-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Beacon Apartments
+  description: |-
+    Beacon Apartments is a 1x2 apartment building for the Chicago 1890 and New York 1940 tilesets. A mirrored version is also included.
+
+    -   1x2 growable R§§ corner lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35286-beacon-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/631297fd3cb0d_BeaconApartmentsL00-STEX.jpg.8dab8b21928f5df41c8c77ea5c83264c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63129802ef495_BeaconApartmentsL01-STEX.jpg.7bf6a82dc2560f1939c579a338a4eae8.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-beacon-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-beacon-apartments-darknite
+
+---
+assetId: jasoncw-beacon-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2022-09-02T23:58:21Z"
+url: https://community.simtropolis.com/files/file/35286-beacon-apartments/?do=download&r=195210
+
+---
+assetId: jasoncw-beacon-apartments-darknite
+version: "1.0.0"
+lastModified: "2022-09-02T23:58:21Z"
+url: https://community.simtropolis.com/files/file/35286-beacon-apartments/?do=download&r=195211

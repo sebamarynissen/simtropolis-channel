@@ -1,0 +1,47 @@
+group: jasoncw
+name: roosevelt-circle
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Roosevelt Circle
+  description: |-
+    Roosevelt Circle is a 2x2 roundabout filler park dedicated to Franklin Delano Roosevelt, the 32nd President of the United State of America. It features an art deco bell tower, reflection pool, and steel statues.
+
+    This park was created to be placed in roundabouts, but it also works well as a normal park outside of roundabouts. It can be found near the end of the parks menu.
+
+    -   2x2 park lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the Day and Nite Modd.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/31240-roosevelt-circle/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d4dbbe4_1RooseveltCircleSTEX.jpg.f4f8776ecbca040ee8b68cf2302e7286.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d5cf203_2RooseveltCircleSTEX.jpg.b8045dc5ac195fb71f19526c76544edc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d6ed69b_3RooseveltCircleSTEX.jpg.75dfef702e7ddf333e6cff03db224452.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d8d536f_4RooseveltCircleSTEX.jpg.5c372465d3a7870368971276242d55cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220da76655_5RooseveltCircleSTEX.jpg.000fd35ce9eb7c10f267a4806ace532b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-roosevelt-circle-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-roosevelt-circle-darknite
+
+---
+assetId: jasoncw-roosevelt-circle-maxisnite
+version: "1.0"
+lastModified: "2016-08-15T20:22:06Z"
+url: https://community.simtropolis.com/files/file/31240-roosevelt-circle/?do=download&r=162871
+
+---
+assetId: jasoncw-roosevelt-circle-darknite
+version: "1.0"
+lastModified: "2016-08-15T20:22:06Z"
+url: https://community.simtropolis.com/files/file/31240-roosevelt-circle/?do=download&r=162872

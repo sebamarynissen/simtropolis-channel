@@ -1,0 +1,53 @@
+group: jasoncw
+name: anchor-bar
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Anchor Bar
+  description: |-
+    Anchor Bar is a traditional bar in downtown Detroit. At some times it's the favored hangout of the local newspapers and television stations, and at other times a sports bar. The bar was established in 1959 and is still family owned.
+
+    -   1x2 growable and ploppable CS§§ lots.  
+         
+    -   MaxisNite and DarkNite night versions included.
+    -   Dark Nite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).  
+         
+    -   Requires [mipro essentials December 2013](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    ![Anchor-Bar-1.jpg.7e2b011f5cf6718d5b70580](https://www.simtropolis.com/repository/screens/monthly_2017_02/Anchor-Bar-1.jpg.7e2b011f5cf6718d5b70580929f966cb.jpg)
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    [mipro Forum Thread](https://community.simtropolis.com/topic/60777-mipro/)  
+    [mipro STEX Uploads](https://community.simtropolis.com/tags/downloads/mipro/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29296-anchor-bar/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Anchor-Bar-0.thumb.jpg.45bafa26af54f507b0d05bce7bf7d24a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Anchor-Bar-1.jpg.7e2b011f5cf6718d5b70580929f966cb.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-anchor-bar-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-anchor-bar-darknite
+
+---
+assetId: jasoncw-anchor-bar-maxisnite
+version: "1.0"
+lastModified: "2014-02-23T02:41:59Z"
+url: https://community.simtropolis.com/files/file/29296-anchor-bar/?do=download&r=125087
+
+---
+assetId: jasoncw-anchor-bar-darknite
+version: "1.0"
+lastModified: "2014-02-23T02:41:59Z"
+url: https://community.simtropolis.com/files/file/29296-anchor-bar/?do=download&r=125088

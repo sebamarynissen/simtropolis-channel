@@ -1,0 +1,78 @@
+group: jasoncw
+name: byron-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Byron Building
+  description: |-
+    The Byron Building is a wall to wall building for the Chicago tileset which provides a large number of low wealth commercial service jobs.
+
+    Included is a CS§ growable and a CS§ ploppable. Both versions are on 1x2 corner lots.
+
+    This is the Dark Nite version of the Gardener Building, made for the darker night environment created by the [Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089).
+
+    More information can be found below.
+
+    **Jasoncw - Byron Building (MN).SC4Model:**
+
+    This is the building itself. Model features MaxisNite TruNite. This file is required.
+
+    **Jasoncw - Byron Building - CS$ - Plop (MN).SC4Lot:**
+
+    Lot Size: 1x2 Tiles
+
+    Plop Cost:
+
+    §
+
+    26,880
+
+    Jobs Provided: 376 CS
+
+    §
+
+    **Jasoncw - Byron Building - CS$ - Grow (MN).SC4Lot:**
+
+    Lot Size: 1x2 Tiles
+
+    Jobs Provided: 376 CS
+
+    §
+
+    **Dependencies:**
+
+    [SimFox's Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089) is required.
+
+    **Installation Instructions:**Place *Jasoncw - Byron Building (MN).SC4Model* and the .SC4Lots of your desired versions into your Plugins folder (*My Documents/SimCity 4/Plugins* or *My Computer/Program Files/SimCity 4 Deluxe/Plugins*)
+
+    BAT: Jasoncw
+
+    Modding: Nofunk
+
+    [Click here for discussion about new projects by Jasoncw](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/25085-byron-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e175a2f1893f9a1cb77b82980b3b2839-stex-image1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/24754f768c378b24ac91b382f51dd38b-stex-image2mn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/6b9343349b3aa67122cb0b8ce91f4a21-stex-image2dn.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-byron-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-byron-building-darknite
+
+---
+assetId: jasoncw-byron-building-maxisnite
+version: "1.0"
+lastModified: "2010-10-17T22:18:34Z"
+url: https://community.simtropolis.com/files/file/25085-byron-building/?do=download&r=105854
+
+---
+assetId: jasoncw-byron-building-darknite
+version: "1.0"
+lastModified: "2010-10-17T22:18:34Z"
+url: https://community.simtropolis.com/files/file/25085-byron-building/?do=download&r=105855

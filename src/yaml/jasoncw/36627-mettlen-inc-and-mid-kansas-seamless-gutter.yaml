@@ -1,0 +1,42 @@
+group: jasoncw
+name: mettlen-inc-and-mid-kansas-seamless-gutter
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Mettlen Inc and Mid Kansas Seamless Gutter
+  description: |-
+    This set of businesses is located in Hutchinson, Kansas, USA. It grows in the New York tileset.
+
+    -   1x3 growable CS§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36627-mettlen-inc-and-mid-kansas-seamless-gutter/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2d8773f80_MettlenIncandMidKansasSeamlessGutter00.jpg.8798726fb311b3a07ec772e9aac5330e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2da77e6d1_MettlenIncandMidKansasSeamlessGutter01.jpg.a493c1c8022054224636dcea5556f194.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-mettlen-inc-and-mid-kansas-seamless-gutter-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-mettlen-inc-and-mid-kansas-seamless-gutter-darknite
+
+---
+assetId: jasoncw-mettlen-inc-and-mid-kansas-seamless-gutter-maxisnite
+version: "1.0.0"
+lastModified: "2024-12-24T21:56:23Z"
+url: https://community.simtropolis.com/files/file/36627-mettlen-inc-and-mid-kansas-seamless-gutter/?do=download&r=204880
+
+---
+assetId: jasoncw-mettlen-inc-and-mid-kansas-seamless-gutter-darknite
+version: "1.0.0"
+lastModified: "2024-12-24T21:56:23Z"
+url: https://community.simtropolis.com/files/file/36627-mettlen-inc-and-mid-kansas-seamless-gutter/?do=download&r=204881

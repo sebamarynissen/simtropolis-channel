@@ -1,0 +1,72 @@
+group: ids2
+name: ids-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: IDS Center
+  description: |-
+    Designed by renowned architect Philip Johnson, the IDS Center was completed in 1972 and is located in Minneapolis, Minnesota. At 776 feet to its roof, 792 feet to the top of its rooftop window washing garage (included in its official height so as to narrowly eclipse two of its neighbors in the rankings), and 910 feet to the top of its antennae, the building is indisputably the tallest in Minneapolis, Minnesota, and the entire midwestern US outside of Chicago.
+
+    Ever since I joined the site in 2005, I've hoped for someone to recreate this building (it's even my username). Since it never happened, I went ahead and made it myself! This one has been an on-and-off work in progress since about 2015, and after 8 complete revisions of the glass material and a few full days of rendering time, I am pleased to finally be able to present it to you.
+
+    I have included CO$$ and CO$$$ versions in both growable and ploppable varieties, as well as an additional pair of CAM growables (which require [this mod](https://community.simtropolis.com/files/file/30956-colossus-addon-mod/)). All versions are available in Darknite and Maxisnite varieties and sit on 4X6 lots. The Darknite version requires [Simfox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/), and only one version can be used at a time.
+
+    Dependencies:
+
+    \- [BSC TexturePack Cycledogg V01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    \- [BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    \- [BSC - VIP Girafe Poplars](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+
+    \- [Street Planters and Benches by Mattb325](https://community.simtropolis.com/files/file/33284-street-planters-and-benches/)
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=26) to learn more about my current projects.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/34617-ids-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/thumbnail.jpg.c9f6ba23cc6a03ca00d37440ea7735b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60fe091905a6c_northday.jpg.417a45e116c8db7d2f993014b0055538.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60fe091b9997c_westday.jpg.4ac09dc6e3aa06e6fd25c6672541578d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60fe091ec0c74_northnight.jpg.8974432ce59841446e9eaa4aacefc1bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60fe09218fbcc_westnight.jpg.6af935d76d8ce9c67b8fcb9cb0812350.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:poplars
+  - mattb325:street-planters-and-benches
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: ids2-ids-center-maxisnite
+        exclude:
+          - /CAM Growables
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-ids-center-darknite
+        exclude:
+          - /CAM Growables
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: ids2-ids-center-maxisnite
+        exclude:
+          - /Growable
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-ids-center-darknite
+        exclude:
+          - /Growable
+
+---
+assetId: ids2-ids-center-darknite
+version: "1.0.0"
+lastModified: "2021-07-26T01:23:47Z"
+url: https://community.simtropolis.com/files/file/34617-ids-center/?do=download&r=189450
+
+---
+assetId: ids2-ids-center-maxisnite
+version: "1.0.0"
+lastModified: "2021-07-26T01:23:47Z"
+url: https://community.simtropolis.com/files/file/34617-ids-center/?do=download&r=189451

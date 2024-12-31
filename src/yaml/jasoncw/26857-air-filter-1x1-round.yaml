@@ -1,0 +1,52 @@
+group: jasoncw
+name: air-filter-1x1-round
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Air Filter (1x1 Round)
+  description: |-
+    The Air Filter cleans polluted air by sucking it through a dense volume of special vegetation which captures airborne particles.
+
+    This small lot is fitted for NAM roundabouts, and has air pollution reduction capabilities far greater than other parks and trees.
+
+    ![air-filter-2.jpg.8ab79ba76a4adec37cb3903](https://www.simtropolis.com/repository/screens/monthly_2017_02/air-filter-2.jpg.8ab79ba76a4adec37cb39037c7e53a90.jpg)
+
+    Air pollution is reduced by 250 over a 20 tile radius, which is more than a coal power plant. It costs §835 to plop, and §225 per month.
+
+    Unfortunately, because of the way pollution works in the game, traffic pollution isn't affected.
+
+    The air filter is not a cheat lot. While it can overcome air pollution (at a cost) it cannot overcome bad city planning.
+
+    -   1x1 park lot.
+    -   MaxisNite and DarkNite night versions.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd).
+
+    ![air-filter-3.jpg.78fb233200139ba72c64d1c](https://www.simtropolis.com/repository/screens/monthly_2017_02/air-filter-3.jpg.78fb233200139ba72c64d1ce862b9624.jpg)
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/26857-air-filter-1x1-round/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/air-filter-1.thumb.jpg.5031de39f100d54c3b75ec9c9eb4892a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/air-filter-2.jpg.8ab79ba76a4adec37cb39037c7e53a90.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/air-filter-3.jpg.78fb233200139ba72c64d1ce862b9624.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-air-filter-1x1-round-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-air-filter-1x1-round-darknite
+
+---
+assetId: jasoncw-air-filter-1x1-round-maxisnite
+version: "1.0"
+lastModified: "2011-10-09T23:14:25Z"
+url: https://community.simtropolis.com/files/file/26857-air-filter-1x1-round/?do=download&r=96082
+
+---
+assetId: jasoncw-air-filter-1x1-round-darknite
+version: "1.0"
+lastModified: "2011-10-09T23:14:25Z"
+url: https://community.simtropolis.com/files/file/26857-air-filter-1x1-round/?do=download&r=96083

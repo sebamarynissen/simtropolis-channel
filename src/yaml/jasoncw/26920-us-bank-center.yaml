@@ -1,0 +1,60 @@
+group: jasoncw
+name: us-bank-center
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: US Bank Center
+  description: |-
+    [US Bank Center](https://en.wikipedia.org/wiki/U.S._Bank_Center_%28Milwaukee%29), located in the city of [Milwaukee](https://en.wikipedia.org/wiki/Milwaukee), was completed in 1973 and was designed by [Bruce Graham](https://en.wikipedia.org/wiki/Bruce_Graham) of [SOM](https://en.wikipedia.org/wiki/Skidmore,_Owings_and_Merrill). The building was originally built for [First Wisconsin National Bank](https://en.wikipedia.org/wiki/Firstar_Corporation). Today it is named after US Bank, which First Wisconsin National Bank acquired in 2001.
+
+    Continue reading for more information.
+
+    ![template---new-secondary-image.jpg.20c67](https://www.simtropolis.com/repository/screens/monthly_2017_02/template---new-secondary-image.jpg.20c67e9cf08312adbfedad721f8d5901.jpg)
+
+    -   5x10 and 10x5 growables. 5x10 ploppable.
+    -   CO§§ and CO§§§.  
+         
+    -   The US Bank sign is optional. Remove "Jasoncw - US Bank Center - Sign (*X*N).dat" to remove the sign.  
+         
+    -   The ploppable lot is transit enabled. The growable lots have a plaza in that space.  
+         
+    -   MaxisNite and DarkNite night versions.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    **BAT and lotting by Jasoncw  
+    Modding by nofunk**
+
+    **Special thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for fixing the immortal lot bug, and improving the lots' stats! If you're using the original version, it is recommended to demolish all instances of the lots in your cities, and replace them with the updated version. -Jasoncw, October 2024**
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/26920-us-bank-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/template---new-main-image.thumb.jpg.25e96da6d8460a351acb59d55e6a903e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/template---new-secondary-image.jpg.20c67e9cf08312adbfedad721f8d5901.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-us-bank-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-us-bank-center-darknite
+
+---
+assetId: jasoncw-us-bank-center-maxisnite
+version: "1.1"
+lastModified: "2024-10-10T03:24:40Z"
+url: https://community.simtropolis.com/files/file/26920-us-bank-center/?do=download&r=203821
+
+---
+assetId: jasoncw-us-bank-center-darknite
+version: "1.1"
+lastModified: "2024-10-10T03:24:40Z"
+url: https://community.simtropolis.com/files/file/26920-us-bank-center/?do=download&r=203822

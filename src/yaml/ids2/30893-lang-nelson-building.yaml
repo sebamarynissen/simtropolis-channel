@@ -1,0 +1,41 @@
+group: ids2
+name: lang-nelson-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Lang-Nelson Building
+  description: |-
+    Back to Minnesota we go!
+
+    This is a semi-recreation of the Lang-Nelson Building (at least, that's what the sign says) in St. Louis Park, Minnesota. The building is planted on a 2x2 CO$$ lot that is available in both growable and ploppable versions. It should compete nicely with the Maxis buildings of the same size, but if you discover it growing like a weed, let me know and I'll nerf the job count (currently 154).
+
+    As always, I've included both darknite and maxisnite versions. The darknite scene requires [this dandy mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) by Simfox. Use only one at a time. Otherwise, no dependencies.
+
+    Special thanks to the venerable Jasoncw, who saved the day by exporting the LODs when I ran into an ID conflict issue.
+
+    Click [here](https://community.simtropolis.com/topic/44664-idss-mostly-minnesota-bats/) to learn more about my current projects.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/30893-lang-nelson-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/day.png.e96caec80ed22bfcf679cde8fcd716d6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/night.png.5c769873bf36a0a613fe1647bee5de87.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-lang-nelson-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-lang-nelson-building-darknite
+
+---
+assetId: ids2-lang-nelson-building-darknite
+version: "1.0"
+lastModified: "2015-12-31T07:45:37Z"
+url: https://community.simtropolis.com/files/file/30893-lang-nelson-building/?do=download&r=160146
+
+---
+assetId: ids2-lang-nelson-building-maxisnite
+version: "1.0"
+lastModified: "2015-12-31T07:45:37Z"
+url: https://community.simtropolis.com/files/file/30893-lang-nelson-building/?do=download&r=160147

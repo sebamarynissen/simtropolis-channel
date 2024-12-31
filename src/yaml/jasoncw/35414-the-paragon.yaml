@@ -1,0 +1,48 @@
+group: jasoncw
+name: the-paragon
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Paragon
+  description: |-
+    The Paragon is a luxurious residential highrise for the Euro tileset.
+
+    **Celebrating 20 years of SimCity 4!**
+
+    **January 14, 2003 - January 14, 2023**
+
+    -   2x2 growable R§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35414-the-paragon/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c389d10c3de_Paragonimage00.jpg.182e7e212490ab7164cb31a48a4fbb6b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c389de6a0c4_Paragonimage01.jpg.daab757d6d50cd7290fa20071ef95927.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-the-paragon-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-the-paragon-darknite
+
+---
+assetId: jasoncw-the-paragon-maxisnite
+version: "1.0.0"
+lastModified: "2023-01-15T05:08:15Z"
+url: https://community.simtropolis.com/files/file/35414-the-paragon/?do=download&r=196163
+
+---
+assetId: jasoncw-the-paragon-darknite
+version: "1.0.0"
+lastModified: "2023-01-15T05:08:15Z"
+url: https://community.simtropolis.com/files/file/35414-the-paragon/?do=download&r=196164

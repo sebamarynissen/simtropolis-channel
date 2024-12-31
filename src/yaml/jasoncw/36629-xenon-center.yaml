@@ -1,0 +1,65 @@
+group: jasoncw
+name: xenon-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Xenon Center
+  description: |-
+    Xenon Center is a 4x4 office building for the Euro tileset.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 10 version for people who do.
+
+    -   4x4 growable CO§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   CAM version included.
+
+    Installation Instructions:
+
+    -   Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    -   Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    -   If you use the CAM, replace the growable with the CAM version.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36629-xenon-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2ed10dfa5_00XenonCenter.jpg.8b441266ad79d97735aa8bb9971ae329.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2ed7a5a50_01XenonCenter.jpg.42ca94408e548608240a672f330213f8.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-xenon-center-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-xenon-center-maxisnite
+        exclude:
+          - /Jasoncw - Xenon Center - Grow \(CO\$\$\$8_4x4\)\.SC4Lot
+      - assetId: jasoncw-xenon-center-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-xenon-center-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-xenon-center-darknite
+        exclude:
+          - /Jasoncw - Xenon Center - Grow \(CO\$\$\$8_4x4\)\.SC4Lot
+      - assetId: jasoncw-xenon-center-cam
+
+---
+assetId: jasoncw-xenon-center-maxisnite
+version: "1.0.0"
+lastModified: "2024-12-24T22:01:11Z"
+url: https://community.simtropolis.com/files/file/36629-xenon-center/?do=download&r=204888
+
+---
+assetId: jasoncw-xenon-center-darknite
+version: "1.0.0"
+lastModified: "2024-12-24T22:01:11Z"
+url: https://community.simtropolis.com/files/file/36629-xenon-center/?do=download&r=204889
+
+---
+assetId: jasoncw-xenon-center-cam
+version: "1.0.0"
+lastModified: "2024-12-24T22:01:11Z"
+url: https://community.simtropolis.com/files/file/36629-xenon-center/?do=download&r=204890

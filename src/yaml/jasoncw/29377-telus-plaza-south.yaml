@@ -1,0 +1,73 @@
+group: jasoncw
+name: telus-plaza-south
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Telus Plaza South
+  description: |-
+    Telus Plaza South is derived from my [Telus Plaza upload](https://community.simtropolis.com/files/file/29036-telus-plaza/), and has been made into a separate lot for increased playability. It's the taller of the two towers, and grows in the Houston and Euro tilesets.  
+      
+    • 3x4 CO§§ lot.
+
+    • CAM version included.
+
+      
+    • MaxisNite and DarkNite night versions included.  
+    • Dark Nite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    ![OPq7ZBb.jpg](http://i.imgur.com/OPq7ZBb.jpg)
+
+      
+    **Installation Instructions:**  
+      
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins. 3. If you use the CAM, download the CAMeLots and use them instead of the normal growable lots.  Ploppables are unaffected.  
+    4\. SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+      
+    **BAT and modding by Jasoncw**  
+      
+    [Click here to learn about new projects in the works](https://www.simtropolis.com/forum/topic/4778-jasons-bats/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29377-telus-plaza-south/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/78d6f154840b8b842839c101cebb798c-telus-south-stex-00.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-telus-plaza-south-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-telus-plaza-south-maxisnite
+        exclude:
+          - /Jasoncw - Telus Plaza South - Grow \(CO\$\$8_3x4\)\.SC4Lot
+      - assetId: jasoncw-telus-plaza-south-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-telus-plaza-south-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-telus-plaza-south-darknite
+        exclude:
+          - /Jasoncw - Telus Plaza South - Grow \(CO\$\$8_3x4\)\.SC4Lot
+      - assetId: jasoncw-telus-plaza-south-cam
+
+---
+assetId: jasoncw-telus-plaza-south-maxisnite
+version: "1.0"
+lastModified: "2014-03-28T03:26:18Z"
+url: https://community.simtropolis.com/files/file/29377-telus-plaza-south/?do=download&r=127689
+
+---
+assetId: jasoncw-telus-plaza-south-darknite
+version: "1.0"
+lastModified: "2014-03-28T03:26:18Z"
+url: https://community.simtropolis.com/files/file/29377-telus-plaza-south/?do=download&r=127690
+
+---
+assetId: jasoncw-telus-plaza-south-cam
+version: "1.0"
+lastModified: "2014-03-28T03:26:18Z"
+url: https://community.simtropolis.com/files/file/29377-telus-plaza-south/?do=download&r=127691

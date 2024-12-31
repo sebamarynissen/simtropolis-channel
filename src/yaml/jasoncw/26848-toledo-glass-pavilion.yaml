@@ -1,0 +1,41 @@
+group: jasoncw
+name: toledo-glass-pavilion
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Toledo Glass Pavilion
+  description: |-
+    The Glass Pavilion at the [Toledo Museum of Art](https://en.wikipedia.org/wiki/Toledo_Museum_of_Art) holds the museum's collection of glass artworks. [Toledo](https://en.wikipedia.org/wiki/Toledo,_Ohio) is known as the City of Glass for its innovative role in glass manufacturing. The Glass Pavilion was designed by [SANAA](https://en.wikipedia.org/wiki/SANAA_%28firm%29) from 2001-2006.
+
+    -   5x5 museum lot.
+    -   MaxisNite and DarkNite night versions.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![Toledo-Glass-Pavilion-2.jpg.09d6c6c29767](https://www.simtropolis.com/repository/screens/monthly_2017_02/Toledo-Glass-Pavilion-2.jpg.09d6c6c2976797ab9277fb74e2f2d013.jpg)
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/26848-toledo-glass-pavilion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Toledo-Glass-Pavilion-1.thumb.jpg.c95f0fc1cf4112c769d69fa032a0b02d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Toledo-Glass-Pavilion-2.jpg.09d6c6c2976797ab9277fb74e2f2d013.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-toledo-glass-pavilion-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-toledo-glass-pavilion-darknite
+
+---
+assetId: jasoncw-toledo-glass-pavilion-maxisnite
+version: "1.0"
+lastModified: "2011-10-06T02:51:07Z"
+url: https://community.simtropolis.com/files/file/26848-toledo-glass-pavilion/?do=download&r=99357
+
+---
+assetId: jasoncw-toledo-glass-pavilion-darknite
+version: "1.0"
+lastModified: "2011-10-06T02:51:07Z"
+url: https://community.simtropolis.com/files/file/26848-toledo-glass-pavilion/?do=download&r=99358

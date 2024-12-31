@@ -1,0 +1,44 @@
+group: jasoncw
+name: paulo-victor-condominiums
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Paulo Victor Condominiums
+  description: |-
+    Paulo Victor Condominiums is a residential pencil tower in João Pessoa, Brazil. It grows in the Houston tileset.
+
+    • 2x2 R§§ growable corner lot.
+
+    • MaxisNite and DarkNite night versions included.  
+    • DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    ![aif5Cq4.jpg](http://i.imgur.com/aif5Cq4.jpg)
+
+    **Installation Instructions:**  
+      
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29294-paulo-victor-condominiums/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/ef99379405b2c82110c5b355faf7edb5-cpv-0.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-paulo-victor-condominiums-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-paulo-victor-condominiums-darknite
+
+---
+assetId: jasoncw-paulo-victor-condominiums-maxisnite
+version: "1.0"
+lastModified: "2014-02-21T18:51:23Z"
+url: https://community.simtropolis.com/files/file/29294-paulo-victor-condominiums/?do=download&r=125022
+
+---
+assetId: jasoncw-paulo-victor-condominiums-darknite
+version: "1.0"
+lastModified: "2014-02-21T18:51:23Z"
+url: https://community.simtropolis.com/files/file/29294-paulo-victor-condominiums/?do=download&r=125023

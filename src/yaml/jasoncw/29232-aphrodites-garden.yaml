@@ -1,0 +1,68 @@
+group: jasoncw
+name: aphrodites-garden
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Aphrodite's Garden
+  description: |-
+    Aphrodite's Garden is a condominium pencil tower in Belém, Brazil. It grows in the Houston tileset.
+
+    • 1x2 R§§ growable lot.
+
+    • CAM version included.  
+      
+    • MaxisNite and DarkNite night versions included.  
+    • Dark Nite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    ![OvbZ3ON.jpg](http://i.imgur.com/OvbZ3ON.jpg)
+
+    **Installation Instructions:**  
+      
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+
+    3\. If you use the CAM, download the CAMeLot and use it instead of the normal growable lot.  
+    4\. SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29232-aphrodites-garden/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/198cb960efa87683d8223bb26642adad-aphrodites-garden-stex-0.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-aphrodites-garden-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-aphrodites-garden-cam
+      - assetId: jasoncw-aphrodites-garden-maxisnite
+        exclude:
+          - .SC4Lot$
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-aphrodites-garden-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-aphrodites-garden-darknite
+        exclude:
+          - .SC4Lot$
+      - assetId: jasoncw-aphrodites-garden-cam
+
+---
+assetId: jasoncw-aphrodites-garden-darknite
+version: "1.0"
+lastModified: "2014-01-29T04:12:10Z"
+url: https://community.simtropolis.com/files/file/29232-aphrodites-garden/?do=download&r=123292
+
+---
+assetId: jasoncw-aphrodites-garden-cam
+version: "1.0"
+lastModified: "2014-01-29T04:12:10Z"
+url: https://community.simtropolis.com/files/file/29232-aphrodites-garden/?do=download&r=123293
+
+---
+assetId: jasoncw-aphrodites-garden-maxisnite
+version: "1.0"
+lastModified: "2014-01-29T04:12:10Z"
+url: https://community.simtropolis.com/files/file/29232-aphrodites-garden/?do=download&r=123294

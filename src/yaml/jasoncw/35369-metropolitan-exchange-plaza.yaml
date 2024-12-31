@@ -1,0 +1,65 @@
+group: jasoncw
+name: metropolitan-exchange-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Metropolitan Exchange Plaza
+  description: |-
+    Metropolitan Exchange Plaza is a postmodern skyscraper for the Houston 1990 tileset.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 13 version for people who do.
+
+    -   4x4 growable and ploppable CO§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   CAM version included.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you use the CAM, replace the growable with the CAMeLot version.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35369-metropolitan-exchange-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7e60166e60_MetropolitanExchangePlaza00.jpg.2ceb1d39cfdd2955bb461dcca25da808.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/Metropolitan-Exchange-Plaza-01(compressed).jpg.7e6782ea15712887a472d8f988599ca1.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-metropolitan-exchange-plaza-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-metropolitan-exchange-plaza-maxisnite
+        exclude:
+          - /Jasoncw - Metropolitan Exchange Plaza - Grow \(CO\$\$\$8_4x4\)\.SC4Lot
+      - assetId: jasoncw-metropolitan-exchange-plaza-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-metropolitan-exchange-plaza-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-metropolitan-exchange-plaza-darknite
+        exclude:
+          - /Jasoncw - Metropolitan Exchange Plaza - Grow \(CO\$\$\$8_4x4\)\.SC4Lot
+      - assetId: jasoncw-metropolitan-exchange-plaza-cam
+
+---
+assetId: jasoncw-metropolitan-exchange-plaza-maxisnite
+version: "1.0.0"
+lastModified: "2022-12-25T05:58:56Z"
+url: https://community.simtropolis.com/files/file/35369-metropolitan-exchange-plaza/?do=download&r=195905
+
+---
+assetId: jasoncw-metropolitan-exchange-plaza-darknite
+version: "1.0.0"
+lastModified: "2022-12-25T05:58:56Z"
+url: https://community.simtropolis.com/files/file/35369-metropolitan-exchange-plaza/?do=download&r=195906
+
+---
+assetId: jasoncw-metropolitan-exchange-plaza-cam
+version: "1.0.0"
+lastModified: "2022-12-25T05:58:56Z"
+url: https://community.simtropolis.com/files/file/35369-metropolitan-exchange-plaza/?do=download&r=195907

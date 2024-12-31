@@ -1,0 +1,49 @@
+group: jasoncw
+name: wade-patton-insurance-and-interim-healthcare
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Wade Patton Insurance and Interim Healthcare
+  description: |-
+    This set of businesses is located in Hutchinson, Kansas, USA. It comes as three versions, which all grow in the Chicago and New York tilesets.
+
+    -   Wade Patton Insurance and Interim Healthcare, a 1x3 growable CS§§ lot.
+    -   Wade Patton Insurance and Interim Healthcare, a 1x2 growable CS§§ lot. 
+    -   Hutchsinson Garage, a 1x1 CS§ lot. 
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  "Jasoncw - Hutchinson Garage (Prop).SC4Desc" is required for the garage to appear on the 1x3 version.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36626-wade-patton-insurance-and-interim-healthcare/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2bdfde81d_PattonInsurance00.jpg.a7844f0b57e6da6f174f3739af3afda7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2c0a4ac46_PattonInsurance01.jpg.696b0fc199a036967301b6079b92a5cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2c2115c49_PattonInsurance02.jpg.a858787cef1684f2961cada921b9a23a.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-wade-patton-insurance-and-interim-healthcare-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-wade-patton-insurance-and-interim-healthcare-darknite
+
+---
+assetId: jasoncw-wade-patton-insurance-and-interim-healthcare-maxisnite
+version: "1.0.0"
+lastModified: "2024-12-24T21:53:00Z"
+url: https://community.simtropolis.com/files/file/36626-wade-patton-insurance-and-interim-healthcare/?do=download&r=204875
+
+---
+assetId: jasoncw-wade-patton-insurance-and-interim-healthcare-darknite
+version: "1.0.0"
+lastModified: "2024-12-24T21:53:00Z"
+url: https://community.simtropolis.com/files/file/36626-wade-patton-insurance-and-interim-healthcare/?do=download&r=204876

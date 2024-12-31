@@ -1,0 +1,84 @@
+group: jasoncw
+name: bsp-one-woodward-avenue
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BSP One Woodward Avenue
+  description: |-
+    Local Detroit architect Minoru Yamasaki designed the new headquarters for the Michigan Consolidated Gas Company in 1962. The MichCon Building was his first skyscraper, and he used elements from this design for the now-destroyed World Trade Center in New York City. Yamasaki commissioned Giacomo Manzù to craft the graceful *Passo di Danza* (Step of the Dance) statue for the Jefferson Avenue entrance. Having moved their offices elsewhere downtown, the building was renamed to its address, One Woodward Avenue, in the 1990s.  
+      
+    Special thanks goes to SimFox, who not only exported this for me, but gave it a spectacular BAT makeover as well!  
+      
+    This is the Dark Nite version of the One Woodward Avenue, made for the darker night environment created by the [Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089).  
+      
+    Included are a 3x4 CO§§§ growable and ploppable. More information can be found below.  
+      
+      
+    **Jasoncw - One Woodward Avenue (DN).SC4Model:**
+
+      
+    This is the building itself. Model features Dark Night TruNite. This file is required.
+
+    **Jasoncw - One Woodard Avenue - CO****$****$$ - Plop (DN).SC4Lot:**
+
+      
+      
+      
+      
+    Lot Size: 3x4 Tiles  
+    Plop Cost: §180,000  
+    Jobs Provided: 2,893 CO§§§
+
+    **Jasoncw - One Woodward Avenue - CO****$****$$ - Grow (DN).SC4Lot:**
+
+      
+      
+      
+      
+    Lot Size: 3x4 Tiles  
+    Jobs Provided: 2,893 CO§§§
+
+      
+      
+    **Dependencies:**  
+      
+    [SimFox's Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089) is required.  
+      
+    **Installation Instructions:**  
+      
+    Place *Jasoncw - One Woodward Avenue (DN).SC4Model* and the .SC4Lots of your desired versions into your Plugins folder (*My Documents/SimCity 4/Plugins* or *My Computer/Program Files/SimCity 4 Deluxe/Plugins*)  
+      
+      
+    BAT: Jasoncw  
+    BAT Makeover: SimFox  
+    Modding: Nofunk  
+    Query: Jasoncw  
+      
+    [Click here for discussion about new projects by the Barry Sanders Project](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=85962&enterthread=y)  
+    [Click here for discussion about new projects by Jasoncw](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/25325-bsp-one-woodward-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/eda71813103e4ad471c0a1fa329a4952-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/fc0a3ae8e6dec3e82926ef6136cb688b-2-mn-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/84a7db8f6e810c4a473d9abb4cc70b51-2-dn-.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-bsp-one-woodward-avenue-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-bsp-one-woodward-avenue-darknite
+
+---
+assetId: jasoncw-bsp-one-woodward-avenue-darknite
+version: "1.0"
+lastModified: "2010-11-21T02:38:13Z"
+url: https://community.simtropolis.com/files/file/25325-bsp-one-woodward-avenue/?do=download&r=138223
+
+---
+assetId: jasoncw-bsp-one-woodward-avenue-maxisnite
+version: "1.0"
+lastModified: "2010-11-21T02:38:13Z"
+url: https://community.simtropolis.com/files/file/25325-bsp-one-woodward-avenue/?do=download&r=138224

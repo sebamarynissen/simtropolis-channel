@@ -1,0 +1,53 @@
+group: jasoncw
+name: sojot-building-v2
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sojot Building V2
+  description: |-
+    This is the first entry into my V2 series of BATs, where I improve upon old creations for re-release.  This includes a visual makeover, more accurate modding, and DarkNite versions.
+
+    • 1x2 growable and ploppable CS§§ lots.
+
+    • MaxisNite and DarkNite night versions included.  
+    • Dark Nite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    • Does not require, conflict with, or overwrite the original version.  Removing the old version is preferable, but optional.
+
+    • The original version can be found here:  [The Sojot Building (Original)](https://community.simtropolis.com/files/file/18222-the-sojot-building/)
+
+    ![UdCWCkM.jpg](http://i.imgur.com/UdCWCkM.jpg)
+
+    **Installation Instructions:**  
+      
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.  
+    4\. SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.  
+      
+    **BAT and modding by Jasoncw**  
+      
+    [Click here to learn about new projects in the works](https://www.simtropolis.com/forum/topic/4778-jasons-bats/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28904-sojot-building-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/550f3b9109cfb3cc356096a68f0ad80f-sojot-v2-stex-0.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-sojot-building-v2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-sojot-building-v2-darknite
+
+---
+assetId: jasoncw-sojot-building-v2-maxisnite
+version: "1.0"
+lastModified: "2013-08-01T02:40:12Z"
+url: https://community.simtropolis.com/files/file/28904-sojot-building-v2/?do=download&r=118476
+
+---
+assetId: jasoncw-sojot-building-v2-darknite
+version: "1.0"
+lastModified: "2013-08-01T02:40:12Z"
+url: https://community.simtropolis.com/files/file/28904-sojot-building-v2/?do=download&r=118477
