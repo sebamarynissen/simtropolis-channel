@@ -1,7 +1,7 @@
 group: ids2
 name: social-sciences-building
 version: "1.1.0"
-subfolder: 600-civics
+subfolder: 620-education
 info:
   summary: Social Sciences Building
   description: |-
@@ -22,11 +22,9 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: ids2-social-sciences-building-maxisnite
-      - assetId: ids2-social-sciences-building-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: ids2-social-sciences-building-darknite
       - assetId: ids2-social-sciences-building-darknite
 
 ---
@@ -40,15 +38,3 @@ assetId: ids2-social-sciences-building-maxisnite
 version: "1.1.0"
 lastModified: "2017-04-20T21:58:08Z"
 url: https://community.simtropolis.com/files/file/31559-social-sciences-building/?do=download&r=165430
-
----
-assetId: ids2-social-sciences-building-darknite
-version: "1.1.0"
-lastModified: "2017-04-20T21:58:08Z"
-url: https://community.simtropolis.com/files/file/31559-social-sciences-building/?do=download&r=165431
-
----
-assetId: ids2-social-sciences-building-maxisnite
-version: "1.1.0"
-lastModified: "2017-04-20T21:58:08Z"
-url: https://community.simtropolis.com/files/file/31559-social-sciences-building/?do=download&r=165432
