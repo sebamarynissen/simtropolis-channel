@@ -858,7 +858,7 @@ describe('The fetch action', function() {
 			uploads: [upload],
 		});
 		const { result } = await run({ id: upload.id });
-		let [asset] = result.metadata.assets;
+		let [asset] = result.metadata.slice(1);
 		expect(asset.withChecksum).to.eql([{
 			include: '/extra-cheats.dll',
 			sha256,
