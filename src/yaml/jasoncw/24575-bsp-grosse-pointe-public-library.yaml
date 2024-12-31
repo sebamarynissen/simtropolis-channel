@@ -56,10 +56,20 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: jasoncw-bsp-grosse-pointe-public-library-maxisnite
+      # MN and DN models use different TGIs, so in order to avoid brown boxes we 
+      # have to keep them both.
+      - assetId: jasoncw-bsp-grosse-pointe-public-library-darknite
+        include:
+          - .SC4Model$
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-bsp-grosse-pointe-public-library-darknite
+      # MN and DN models use different TGIs, so in order to avoid brown boxes we 
+      # have to keep them both.
+      - assetId: jasoncw-bsp-grosse-pointe-public-library-maxisnite
+        include:
+          - .SC4Model$
 
 ---
 assetId: jasoncw-bsp-grosse-pointe-public-library-maxisnite
