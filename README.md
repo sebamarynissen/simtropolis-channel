@@ -13,7 +13,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - Automate the generation of yaml metadata as much as possible with as minimal friction as possible for content creators.
 - Backfill the channel with as much existing content from the STEX as feasible. The complete collection of the following creators will be backfilled. Note that the complete collection of certain other creators (such as Aaron Graham & Diego Del-Lano) is already available on the default channel.
   - [x] [Simmer2](https://community.simtropolis.com/profile/444001-simmer2/content/?type=downloads_file)
-  - [ ] [Jasoncw](https://community.simtropolis.com/profile/85340-jasoncw/content/?type=downloads_file)
+  - [x] [Jasoncw](https://community.simtropolis.com/profile/85340-jasoncw/content/?type=downloads_file)
   - [x] [RRetail](https://community.simtropolis.com/profile/744613-rretail/content/?type=downloads_file)
   - [ ] [pclark06](https://community.simtropolis.com/profile/364367-pclark06/content/?type=downloads_file)
   - [ ] [IDS2](https://community.simtropolis.com/profile/70889-ids2/content/?type=downloads_file)
