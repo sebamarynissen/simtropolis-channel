@@ -1,0 +1,42 @@
+group: ids2
+name: greater-refuge-temple
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Greater Refuge Temple
+  description: |-
+    The Greater Refuge Temple is a church located on Adam Clayton Powell Jr. Blvd and W. 124th Street in Harlem, Manhattan, New York. The distinctive facade was added in 1966 and received a facelift in 2015. This model reflects the building as it currently sits after the renovation.
+
+    This building is available in two versions: a ploppable CS$$ building with 30 jobs, and a reward building that is modded similarly to the vanilla Maxis House of Worship. Note that this building does NOT replace the Maxis House of Worship. Both the ploppable CS$$ and reward versions of the building sit on a 2x2 lot.
+
+    Both Darknite and Maxisnite versions are provided; only one should be used at a time, and the Darknite version requires [this mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) by Simfox (or another nighttime darkening mod). Otherwise, this lot requires no dependencies.
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=24) to learn more about my current projects.
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/33331-greater-refuge-temple/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/day_ingame.jpg.bddf48f637c9d1c78d67c8b465ce8f23.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/night_ingame.jpg.8c5e2a11e4080df00f19d85652c0afaf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/icon_2.jpg.fd72c646f354c522bf691722a67a870e.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-greater-refuge-temple-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-greater-refuge-temple-darknite
+
+---
+assetId: ids2-greater-refuge-temple-darknite
+version: "1.0.0"
+lastModified: "2019-12-16T04:07:24Z"
+url: https://community.simtropolis.com/files/file/33331-greater-refuge-temple/?do=download&r=179171
+
+---
+assetId: ids2-greater-refuge-temple-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-16T04:07:24Z"
+url: https://community.simtropolis.com/files/file/33331-greater-refuge-temple/?do=download&r=179172

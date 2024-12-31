@@ -1,0 +1,44 @@
+group: ids2
+name: ids-generic-office-pack-1
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: "IDS Generic Office Pack #1"
+  description: |-
+    So, I made both of these a loooong time ago and they've been sitting in a 90% completed state on my hard drive for about a year. I figured if I didn't release them now I'd just forget about them again ![:P](https://community.simtropolis.com/assets/emoticons/LlamaTounge.gif)
+
+    These little buildings may be bland, but they're everywhere in the real world. I personally see them all the time in the suburbs where light industry (warehouses/distribution centers) is concentrated.
+
+    The white building is Anderson Plastics (2x2) and is modded as both a growable and ploppable CO$$. The dark glass building is Brookdale Landscaping (2x3) and is also modded as both a growable and ploppable CO$$.
+
+    Night scenes come in both Maxisnite and Darknite varieties. The Darknite scene requires Simfox's mod available [here.](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) Download and install only one of the two varieties at a time. 
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/28842-ids-generic-office-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/f133da55c36a7dd7696bb71b2817e8e2-thumb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/7b73e2713d990d66984e73953ec5cbba-scottsdale-nov-16--321373253204.png
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/96f96f116a768811c4853c7663bd48da-scottsdale-oct-12--321373238496.png
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/7c1c46b3f0de16b728075412db1a8859-scottsdale-dec-14--321373253224.png
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/01b81bd93fb74b26bb4281a4d922ac6a-scottsdale-nov-20--321373238562.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-ids-generic-office-pack-1-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-ids-generic-office-pack-1-darknite
+
+---
+assetId: ids2-ids-generic-office-pack-1-darknite
+version: "1.0"
+lastModified: "2013-07-08T03:36:26Z"
+url: https://community.simtropolis.com/files/file/28842-ids-generic-office-pack-1/?do=download&r=117097
+
+---
+assetId: ids2-ids-generic-office-pack-1-maxisnite
+version: "1.0"
+lastModified: "2013-07-08T03:36:26Z"
+url: https://community.simtropolis.com/files/file/28842-ids-generic-office-pack-1/?do=download&r=117098

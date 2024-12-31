@@ -1,0 +1,66 @@
+group: ids2
+name: axa-equitable-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: AXA Equitable Center
+  description: |-
+    Designed by Edward Larrabee Barnes, the Axa Equitable Center is a postmodern skyscraper located at 787 7th Avenue in Midtown Manhattan, NYC. The building stands 54 stories high and was completed in 1985.
+
+    This model is available as a CO$$$ tower in both growable and ploppable versions, both of which sit on a 4x8 lot. Both Darknite and Maxisnite options are provided - use only one at a time! Additionally, I have included a CAM version of the growable lot; if you have the CAM installed, simply swap out the normal growable lot files with the ones in the "CAM Lots" file.
+
+    Dependencies:
+
+    -   [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) \- for the Darknite version of the model
+    -   The CAM lots included in this upload require the [Colossus Addon Mod](https://community.simtropolis.com/files/file/30956-colossus-addon-mod/).
+
+    Otherwise, no dependencies are required.
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=25) to learn more about my current projects.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/33594-axa-equitable-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/ThumbFull.png.010ff0ccfe4bd2eb0dd44f9e08e48f79.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/DayCropped2.jpg.d34f8dcad2593678d7c4edba2ef3dc78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/NightCropped2.jpg.db0a4939463e0d7de96de7dbe14fcc6a.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: ids2-axa-equitable-center-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: ids2-axa-equitable-center-maxisnite
+        exclude:
+          - /CO\$\$\$8.*\.SC4Lot$
+          - .SC4Desc$
+      - assetId: ids2-axa-equitable-center-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-axa-equitable-center-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-axa-equitable-center-darknite
+        exclude:
+          - /CO\$\$\$8.*\.SC4Lot$
+          - .SC4Desc$
+      - assetId: ids2-axa-equitable-center-cam
+
+---
+assetId: ids2-axa-equitable-center-darknite
+version: "1.0.0"
+lastModified: "2020-05-10T16:22:47Z"
+url: https://community.simtropolis.com/files/file/33594-axa-equitable-center/?do=download&r=180939
+
+---
+assetId: ids2-axa-equitable-center-maxisnite
+version: "1.0.0"
+lastModified: "2020-05-10T16:22:47Z"
+url: https://community.simtropolis.com/files/file/33594-axa-equitable-center/?do=download&r=180940
+
+---
+assetId: ids2-axa-equitable-center-cam
+version: "1.0.0"
+lastModified: "2020-05-10T16:22:47Z"
+url: https://community.simtropolis.com/files/file/33594-axa-equitable-center/?do=download&r=180941

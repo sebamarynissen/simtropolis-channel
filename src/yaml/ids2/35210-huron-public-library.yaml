@@ -1,0 +1,48 @@
+group: ids2
+name: huron-public-library
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Huron Public Library
+  description: |-
+    The Huron Public Library is a small public library located in Huron, South Dakota. I know virtually nothing else about this building, except that it's obviously had a couple of additions over the years, and that it ostensibly contains books.
+
+    This library sits on a 3x6 lot. Both Darknite and Maxisnite versions are available, and the Darknite version requires the highly contagious [Simfox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Dependencies:  
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    [BSC MEGA Props CP Vol01 (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    Check out my thread [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?do=getLastComment) for more projects in the works.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/35210-huron-public-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/thumb.jpg.236bacb488204a37d1ff16fed0690bea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/end_day.jpg.e180057031dad81ad3ee26dce437d4b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/side_day.jpg.189cccbeb6f9051d12edc19f690e7065.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/end_night.jpg.9813bc5d4a724c9a57827451fe50e4b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/side_night.jpg.f4c3b7c8f7ebda42c5734205fc27607b.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-huron-public-library-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-huron-public-library-darknite
+
+---
+assetId: ids2-huron-public-library-darknite
+version: "1.0.0"
+lastModified: "2022-06-20T00:38:16Z"
+url: https://community.simtropolis.com/files/file/35210-huron-public-library/?do=download&r=194472
+
+---
+assetId: ids2-huron-public-library-maxisnite
+version: "1.0.0"
+lastModified: "2022-06-20T00:38:16Z"
+url: https://community.simtropolis.com/files/file/35210-huron-public-library/?do=download&r=194473
