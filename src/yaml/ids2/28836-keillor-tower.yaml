@@ -1,0 +1,69 @@
+group: ids2
+name: keillor-tower
+version: "1.1"
+subfolder: 620-education
+info:
+  summary: Keillor Tower
+  description: |-
+    Exactly one year after my first upload, I present to you something new. ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    Keillor Hall is an ugly little 2x4 remnant of the 60s that I have modded in three different ways: a CO$$ growable, a CO$$ ploppable, and a college. The building and its [shorter counterpart](https://community.simtropolis.com/files/file/28835-nelson-tower/) are both named for famous Minnesotans, in this case Garrison Keillor. 
+
+    Night scenes come in both Maxisnite and Darknite varieties. The Darknite scene requires Simfox's mod available [here.](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) Download and install only one of the two varieties at a time. The CAM lots included in this upload require the [Colossus Addon Mod](https://community.simtropolis.com/files/file/30956-colossus-addon-mod/).
+
+    Enjoy! 
+
+    UPDATE 7-2-19: Added an additional non-CAM growable lot. Thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for pointing this out! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)")
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/28836-keillor-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/e380f8864bec56cc3cab58f2a1672dc6-thumbk.png
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/a426a8e491fdf3cea8a6caee9bb41c29-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/7a400a4b47703e4c45638bb5851bda96-night.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: ids2-keillor-tower-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: ids2-keillor-tower-maxisnite
+        exclude:
+          - /CO\$\$6_2x4_IDS Keillor Tower 1 CO\$\$_9f5de0a3\.SC4Lot
+          - /IDS Keillor Tower 1 CO\$\$-0x6534284a-0xdf5dcfb5-0x3f5de08a\.SC4Desc
+      - assetId: ids2-keillor-tower-cam-maxisnite
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-keillor-tower-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-keillor-tower-darknite
+        exclude:
+          - /CO\$\$6_2x4_IDS Keillor Tower 1 CO\$\$_af5de257\.SC4Lot
+          - /IDS Keillor Tower 1 CO\$\$-0x6534284a-0xdf5dcfb5-0xdf5de24e\.SC4Desc
+      - assetId: ids2-keillor-tower-cam-darknite
+
+---
+assetId: ids2-keillor-tower-darknite
+version: "1.1"
+lastModified: "2019-07-03T03:28:19Z"
+url: https://community.simtropolis.com/files/file/28836-keillor-tower/?do=download&r=176566
+
+---
+assetId: ids2-keillor-tower-cam-darknite
+version: "1.1"
+lastModified: "2019-07-03T03:28:19Z"
+url: https://community.simtropolis.com/files/file/28836-keillor-tower/?do=download&r=176567
+
+---
+assetId: ids2-keillor-tower-maxisnite
+version: "1.1"
+lastModified: "2019-07-03T03:28:19Z"
+url: https://community.simtropolis.com/files/file/28836-keillor-tower/?do=download&r=176568
+
+---
+assetId: ids2-keillor-tower-cam-maxisnite
+version: "1.1"
+lastModified: "2019-07-03T03:28:19Z"
+url: https://community.simtropolis.com/files/file/28836-keillor-tower/?do=download&r=176569

@@ -1,0 +1,49 @@
+group: ids2
+name: kenwood-park-water-tower
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: Kenwood Park Water Tower
+  description: |-
+    The Kenwood Park Water Tower is located in the upscale Kenwood neighborhood just west of downtown Minneapolis, Minnesota. The tower stands around 110 feet tall and was completed in 1910. The tower ceased to hold water in 1954.
+
+    This version sits on a 1x1 lot and provides 10,000 cu. m of water per month. As always, both Darknite and Maxisnite options are provided, and you can only use one at a time.
+
+    Dependencies:
+
+    -   [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) \- for the Darknite version of the model
+    -   [BSC TexturePack Cycledogg V01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101) - for the lot textures
+    -   [BSC Mega Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180) - for the bushes on the lot
+    -   [BSC Mega Props CP Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790) - for the bushes on the lot
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/) to learn more about my current projects.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/35041-kenwood-park-water-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/kp_thumb.jpg.633459741f51cfd97cfcb7fa811ce51a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/kp_day.jpg.23ce224894a4370dddb76c01bd597623.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/kp_night.jpg.2f42398dc253b7f69de2adb577555cfa.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-kenwood-park-water-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-kenwood-park-water-tower-darknite
+
+---
+assetId: ids2-kenwood-park-water-tower-darknite
+version: "1.0.0"
+lastModified: "2022-04-07T04:04:15Z"
+url: https://community.simtropolis.com/files/file/35041-kenwood-park-water-tower/?do=download&r=192761
+
+---
+assetId: ids2-kenwood-park-water-tower-maxisnite
+version: "1.0.0"
+lastModified: "2022-04-07T04:04:15Z"
+url: https://community.simtropolis.com/files/file/35041-kenwood-park-water-tower/?do=download&r=192762

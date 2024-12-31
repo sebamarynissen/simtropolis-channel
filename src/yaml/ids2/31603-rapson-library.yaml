@@ -1,0 +1,38 @@
+group: ids2
+name: rapson-library
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Rapson Library
+  description: |-
+    Rapson Library is an early 60s academic building based heavily on the University of Minnesota's Rapson Hall, located on the east bank of the Twin Cities campus. It is named for modernist architect Ralph Rapson, who was the head of the university's architecture department from 1954 to 1984. Though Rapson was responsible for a sizeable number of modernist works, perhaps he is best known for his [Riverside Plaza](https://en.wikipedia.org/wiki/Riverside_Plaza) apartment complex, which received mainstream attention when it was featured in the Mary Tyler Moore Show. To be clear, the real-world Rapson Hall was not designed by Ralph Rapson, but rather by Thorshov and Cerny, another Minneapolis-based firm.
+
+    As the title suggests, I have modded this building as a library. One dependency is required - [Volume 1 of the Cycledogg BSC texture pack](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/). As always, I have included two options for the night scene: one that fits with the game's default night mode, and one that makes use of [Simfox's delightful darknite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Please don't hesitate to contact me with any questions you have or bugs you find. You can also check out my current projects [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=1).
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/31603-rapson-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/thumb.png.f90bdfd08e724718feeb591ec4c5bced.png
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-rapson-library-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-rapson-library-darknite
+
+---
+assetId: ids2-rapson-library-darknite
+version: "1.0"
+lastModified: "2017-05-08T07:15:12Z"
+url: https://community.simtropolis.com/files/file/31603-rapson-library/?do=download&r=165656
+
+---
+assetId: ids2-rapson-library-maxisnite
+version: "1.0"
+lastModified: "2017-05-08T07:15:12Z"
+url: https://community.simtropolis.com/files/file/31603-rapson-library/?do=download&r=165657

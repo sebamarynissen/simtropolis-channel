@@ -1,0 +1,42 @@
+group: ids2
+name: cenex-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Cenex Building
+  description: |-
+    The Cenex Building is a 4-story office building located on Concord Street in South St. Paul, Minnesota. Built in 1957, it is easily recognizable from the distinctive colorful panels at the ends of the building.
+
+    This building is available as a CS$$ midrise in both growable and ploppable versions. It sits on a 7x3 lot and has 480 jobs. Both Darknite and Maxisnite versions are provided; only one should be used at a time, and the Darknite version requires [this mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) by Simfox (or another nighttime darkening mod). Otherwise, this lot requires no dependencies. 
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=240) to learn more about my current projects.
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/33138-cenex-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/icon.png.909cd7070519d9aaf5a7dda2648468e6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/day_NS.png.0c226f91bf568bd6b7b1cbd34e0962ee.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/night_NS.png.7e333ae994024d4f7107b7e081cfbfa6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/day_EW.png.92cac04688b0e1a92eaf48a37282c33b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/night_EW.png.a980af5e8016ec1f3aaed658d7f96b9f.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-cenex-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-cenex-building-darknite
+
+---
+assetId: ids2-cenex-building-darknite
+version: "1.0.0"
+lastModified: "2019-09-03T01:44:20Z"
+url: https://community.simtropolis.com/files/file/33138-cenex-building/?do=download&r=177516
+
+---
+assetId: ids2-cenex-building-maxisnite
+version: "1.0.0"
+lastModified: "2019-09-03T01:44:20Z"
+url: https://community.simtropolis.com/files/file/33138-cenex-building/?do=download&r=177517

@@ -1,0 +1,54 @@
+group: ids2
+name: social-sciences-building
+version: "1.1.0"
+subfolder: 600-civics
+info:
+  summary: Social Sciences Building
+  description: |-
+    Another Minnesota building! It's almost as if I have a preference for that sort of thing.
+
+    This particular building is located by the Mississippi River's western bank, right at the heart of the western portion of the University of Minnesota's Twin Cities campus. Dating to 1963, it was among the first buildings to be completed as part of the university's expansion across the river. Over 50 years later, it remains the tallest university building on the western side of the river and is home to, unsurprisingly, a number of social science departmental offices.
+
+    I've modded it as a ploppable college building as well as a growable CO$$ building. As usual, both darknite and maxisnite versions are included. The darknite scene requires [this lovely mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) from Simfox. Otherwise, this baby is dependency free.
+
+    Note that two versions of this model are included - one with modeled ground and one with an editable lot. I kept the editable version simple so you can play around with it freely - I'm curious to see what you all come up with!
+
+    Please don't hesitate to contact me with any questions you have or bugs you find. You can also check out my current projects [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=1).
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/31559-social-sciences-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/ssbpreview.png.fa98cb3b0b27877c83eab40f6da038f9.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-social-sciences-building-maxisnite
+      - assetId: ids2-social-sciences-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-social-sciences-building-darknite
+      - assetId: ids2-social-sciences-building-darknite
+
+---
+assetId: ids2-social-sciences-building-darknite
+version: "1.1.0"
+lastModified: "2017-04-20T21:58:08Z"
+url: https://community.simtropolis.com/files/file/31559-social-sciences-building/?do=download&r=165429
+
+---
+assetId: ids2-social-sciences-building-maxisnite
+version: "1.1.0"
+lastModified: "2017-04-20T21:58:08Z"
+url: https://community.simtropolis.com/files/file/31559-social-sciences-building/?do=download&r=165430
+
+---
+assetId: ids2-social-sciences-building-darknite
+version: "1.1.0"
+lastModified: "2017-04-20T21:58:08Z"
+url: https://community.simtropolis.com/files/file/31559-social-sciences-building/?do=download&r=165431
+
+---
+assetId: ids2-social-sciences-building-maxisnite
+version: "1.1.0"
+lastModified: "2017-04-20T21:58:08Z"
+url: https://community.simtropolis.com/files/file/31559-social-sciences-building/?do=download&r=165432
