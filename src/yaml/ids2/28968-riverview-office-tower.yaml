@@ -1,0 +1,64 @@
+group: ids2
+name: riverview-office-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Riverview Office Tower
+  description: |-
+    Riverview Office Tower
+
+    Based on the real life building in Bloomington, MN, USA
+
+    BAT by IDS2
+
+    Lot by T Wrecks
+
+    Riverview Office Tower is a 196-foot (60m) office building located in Bloomington, Minnesota. It is part of the Appletree Square office complex and it was completed in 1973. Easily recognizable for its unusual color, it is visible for miles around throughout the Minnesota River Valley.
+
+    For those of you who don't care for the color, bear in mind that this building is a recreation. Making it bright orange wasn't a stylistic choice on my part ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Dependencies (you probably already have all of these):
+
+    [BSC Mega Textures Vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props CP Vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC Mega Props CP Vol. 02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    This SC4 version sits on a 4x3 or 4x4 lot. Growable and ploppable lots (all with jobs) are included.
+
+    Night scenes come in both Maxisnite and Darknite varieties. The Darknite scene requires Simfox's mod available [here.](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) Download and install only one of the two varieties at a time. 
+
+    Thanks again to T Wrecks for a beautiful lot that perfectly complements the building's form ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    To all of you kind people in my BAT thread - thank you so much for your support! I couldn't do it without you guys!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/28968-riverview-office-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/a1be7bc61a6179a1b71372d44a84ddd2-header.png
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/0bc70b6ceceaa12245bb6ad48c3f37eb-dn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/0a4d33fb71872e590359c7af9c8fd8e3-mn.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-riverview-office-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-riverview-office-tower-darknite
+
+---
+assetId: ids2-riverview-office-tower-darknite
+version: "1.0"
+lastModified: "2013-09-17T05:44:21Z"
+url: https://community.simtropolis.com/files/file/28968-riverview-office-tower/?do=download&r=119860
+
+---
+assetId: ids2-riverview-office-tower-maxisnite
+version: "1.0"
+lastModified: "2013-09-17T05:44:21Z"
+url: https://community.simtropolis.com/files/file/28968-riverview-office-tower/?do=download&r=119861

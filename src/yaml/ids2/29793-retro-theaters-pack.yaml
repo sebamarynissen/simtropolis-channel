@@ -1,0 +1,61 @@
+group: ids2
+name: retro-theaters-pack
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Retro Theaters Pack
+  description: |-
+    Awwwww yeah. Just look at 'em.
+
+    I developed a brief infatuation with 40s-50s theaters a while back after driving past the real world Watts Theater of this pack, and I proceeded to model quite a few of them. This pack contains 4 of the best from that group. I tried to be as faithful to the originals as I could while still making them useful for SC4.
+
+    Included:
+
+    [Eureka Theater](http://cinematreasures.org/theaters/9062) - Batesville, MS (third screenshot)
+
+    [Normal Theater](http://cinematreasures.org/theaters/1699) - Normal, IL (fourth screenshot)
+
+    [North Bend Theater](http://cinematreasures.org/theaters/11432) - North Bend, WA (fifth screenshot)
+
+    [Watts Theater](http://cinematreasures.org/theaters/3139) - Osage, IA (sixth screenshot)
+
+    All lots are 1x3, CS$$, and are both growable and ploppable.
+
+    Night scenes are provided in both Darknite and Maxisnite varieties. The darknite scene requires Simfox's mod available [here](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/). Download and install only one of the two varieties at a time. I mean it, only one. You can't have it all, so just come to grips with that now.
+
+    Here's hoping you enjoy these. Please leave feedback below! Thank you all for your support.
+
+    BAT by IDS2
+
+    Modding by the wonderful T Wrecks ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif) Thanks again!
+
+    Click [here](https://community.simtropolis.com/topic/44664-idss-mostly-minnesota-bats/) to see updates on current projects.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/29793-retro-theaters-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/586828d393a976e785e6a35d75aa408c-comp.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/4c179c90d886f29e0875f02d59a3deed-compn.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/8879fc08d970fcf35c83700f98921109-eureka.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/9bed0482a25258992de1f277cb48ce0a-normal.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/5be8b71f769ff68233fb7b3fead2cec4-northbend.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/54a72b1cc32828fc781f0f8834eb27d0-watts.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-retro-theaters-pack-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-retro-theaters-pack-darknite
+
+---
+assetId: ids2-retro-theaters-pack-darknite
+version: "1.0"
+lastModified: "2014-08-10T02:51:06Z"
+url: https://community.simtropolis.com/files/file/29793-retro-theaters-pack/?do=download&r=139592
+
+---
+assetId: ids2-retro-theaters-pack-maxisnite
+version: "1.0"
+lastModified: "2014-08-10T02:51:06Z"
+url: https://community.simtropolis.com/files/file/29793-retro-theaters-pack/?do=download&r=139593
