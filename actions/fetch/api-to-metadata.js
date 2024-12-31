@@ -80,7 +80,7 @@ function getFileTags(file) {
 	else if (/maxis\s?ni(te|ght)/.test(name)) tags.push('maxisnite');
 	if (/\(dn\)/.test(name)) tags.push('darknite');
 	else if (/\(mn\)/.test(name)) tags.push('maxisnite');
-	if (/\(cam(elots?)?\)/.test(name)) tags.push('cam');
+	if (/\bcam([ e]lots?)?\b/.test(name)) tags.push('cam');
 	if (/[_-\s]dn/.test(name)) tags.push('darknite');
 	else if (/[_-\s]mn/.test(name)) tags.push('maxisnite');
 	if (/\(lhd\)/.test(name)) tags.push('lhd');
