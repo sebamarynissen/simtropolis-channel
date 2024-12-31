@@ -110,7 +110,9 @@ variants:
       - assetId: peg-one-flag-many-nations
         include: [ "UK.dat" ]
   - variant: { peg:one-flag-many-nations:flag: USA }
-    include: [ "USA.dat" ]
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "USA.dat" ]
   
 ---
 assetId: peg-one-flag-many-nations
