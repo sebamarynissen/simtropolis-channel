@@ -39,13 +39,24 @@ info:
 dependencies:
   - mipro:essentials
 variants:
-  - variant: { nightmode: standard }
+  - variant: { nightmode: standard, resolution: sd }
     assets:
       - assetId: jasoncw-big-red-lighthouse-maxisnite
-  - variant: { nightmode: dark }
+      - assetId: jasoncw-big-red-lighthouse-props
+  - variant: { nightmode: standard, resolution: hd }
+    assets:
+      - assetId: jasoncw-big-red-lighthouse-hd-maxisnite
+      - assetId: jasoncw-big-red-lighthouse-props
+  - variant: { nightmode: dark, resolution: sd }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-big-red-lighthouse-darknite
+      - assetId: jasoncw-big-red-lighthouse-props
+  - variant: { nightmode: dark, resolution: hd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-big-red-lighthouse-hd-darknite
+      - assetId: jasoncw-big-red-lighthouse-props
 
 ---
 assetId: jasoncw-big-red-lighthouse-maxisnite
@@ -60,19 +71,19 @@ lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153139
 
 ---
-assetId: jasoncw-big-red-lighthouse-maxisnite
+assetId: jasoncw-big-red-lighthouse-hd-maxisnite
 version: "1.0"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153140
 
 ---
-assetId: jasoncw-big-red-lighthouse-darknite
+assetId: jasoncw-big-red-lighthouse-hd-darknite
 version: "1.0"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153141
 
 ---
-assetId: jasoncw-big-red-lighthouse-part-4
+assetId: jasoncw-big-red-lighthouse-props
 version: "1.0"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153142
