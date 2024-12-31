@@ -1,5 +1,6 @@
 // # downloader.js
 import path from 'node:path';
+import crypto from 'node:crypto';
 import nodeFs from 'node:fs';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
@@ -94,6 +95,7 @@ export default class Downloader {
 		}
 		return {
 			metadata: null,
+			checksums: [],
 			files: [],
 			...assetInfo,
 		};
@@ -113,6 +115,7 @@ export default class Downloader {
 	// ## handleZip(download)
 	async handleZip(download) {
 		let metadata;
+		let checksums = [];
 		let files = [];
 		const tasks = [];
 		const closed = withResolvers();
@@ -132,14 +135,35 @@ export default class Downloader {
 					tasks.push(task);
 				}
 
+				// If this is a dll, then we'll generate the checksum for it as 
+				// well.
+				if (path.extname(entry.fileName) === '.dll') {
+					let task = read(zipFile, entry).then(buffer => {
+						let sha256 = crypto.createHash('sha256')
+							.update(buffer)
+							.digest('hex');
+						checksums.push({
+							include: `/${entry.fileName}`,
+							sha256,
+						});
+					});
+					tasks.push(task);
+				}
+
 			});
 		});
 		await closed.promise;
 		await Promise.all(tasks);
+
+		// Make sure to sort the checksum entries to have a deterministic order 
+		// between runs. Otherwise we could create unnecessary diffs.
+		checksums.sort((a, b) => a.include < b.include ? -1 : 1);
 		return {
 			metadata,
-			files,
+			checksums,
+      files,
 		};
+
 	}
 
 	// ## getDestination(asset)

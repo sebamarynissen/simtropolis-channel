@@ -28,14 +28,14 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - [x] Support custom metadata as part of the package (by means of a metadata.yaml file in one of the uploads)
 - [x] Handle various Simtropolis error scenarios (down for maintenance, 520, ...) ([#35](https://github.com/sebamarynissen/simtropolis-channel/pull/35))
 - [x] Setup an action that creates a PR instead of pushing to main
-- [ ] Make the metadata generation robust & fool proof
+- [x] Make the metadata generation robust & fool proof
   - [x] Ensure incorrect metadata cannot be deployed
   - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed in the `permissions.yaml` file. That way someone from a team can upload under the team name, but only if explicitly allowed.
-  - [ ] Automatically generate DLL checksums (see [#37](https://github.com/sebamarynissen/simtropolis-channel/pull/37) for the discussion about this feature)
+  - [x] Automatically generate DLL checksums (see [#37](https://github.com/sebamarynissen/simtropolis-channel/pull/37) for the discussion about this feature)
 - [x] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
-- [ ] Make the channel available under a simtropolis.com url, e.g. https://sc4pac.simtropolis.com
+- [ ] Make the channel available under a simtropolis.com url: https://sc4pac.simtropolis.com
 - [ ] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails (to verify with ST admins, but should probably be possible by sendin a POST to the correct endpoint).
 - [ ] Setup an action that automatically creates a GitHub release the first of every month with an overview of all packages that have been added the last month. The releases can have the format `YYYY.mm` as version tags.
 
