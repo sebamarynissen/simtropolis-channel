@@ -1,0 +1,40 @@
+group: nofunk
+name: bsp-davidson-block
+version: "1.0"
+info:
+  summary: BSP Davidson Block
+  description: |-
+    The Davidson Block is located in downtown Bay City, Michigan, and was named for shipbuilding magnate James Davidson. It now houses a collection of local shops.
+
+    -   5x2 Cs$$ growable and ploppable.  
+        
+    -   Available in both MaxisNite and DarkNite  
+        
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+        
+
+    ![davidsonblock_2a.jpg](http://img.photobucket.com/albums/v239/funksterboy/davidsonblock_2a.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/26879-bsp-davidson-block/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/d336ee9e814dcf0b37d52522170ddc2b-davidsonblock_1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bsp-davidson-block-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bsp-davidson-block-darknite
+
+---
+assetId: nofunk-bsp-davidson-block-darknite
+version: "1.0"
+lastModified: "2011-10-14T02:53:43Z"
+url: https://community.simtropolis.com/files/file/26879-bsp-davidson-block/?do=download&r=93258
+
+---
+assetId: nofunk-bsp-davidson-block-maxisnite
+version: "1.0"
+lastModified: "2011-10-14T02:53:43Z"
+url: https://community.simtropolis.com/files/file/26879-bsp-davidson-block/?do=download&r=93259

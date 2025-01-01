@@ -1,9 +1,9 @@
 group: nofunk
-name: bsp-film-exchange-building-updated-
+name: bsp-film-exchange-building
 version: "2"
 subfolder: 300-commercial
 info:
-  summary: BSP Film Exchange Building (Updated)
+  summary: BSP Film Exchange Building
   description: |-
     An old favorite comes back with fresh textures and DarkNite compatibility!  
       
@@ -24,20 +24,20 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: nofunk-bsp-film-exchange-building-updated--maxisnite
+      - assetId: nofunk-bsp-film-exchange-building-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: nofunk-bsp-film-exchange-building-updated--darknite
+      - assetId: nofunk-bsp-film-exchange-building-darknite
 
 ---
-assetId: nofunk-bsp-film-exchange-building-updated--darknite
+assetId: nofunk-bsp-film-exchange-building-darknite
 version: "2"
 lastModified: "2012-12-06T02:37:14Z"
 url: https://community.simtropolis.com/files/file/28276-bsp-film-exchange-building-updated/?do=download&r=109402
 
 ---
-assetId: nofunk-bsp-film-exchange-building-updated--maxisnite
+assetId: nofunk-bsp-film-exchange-building-maxisnite
 version: "2"
 lastModified: "2012-12-06T02:37:14Z"
 url: https://community.simtropolis.com/files/file/28276-bsp-film-exchange-building-updated/?do=download&r=109403

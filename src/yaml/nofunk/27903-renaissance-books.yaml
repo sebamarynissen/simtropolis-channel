@@ -1,0 +1,39 @@
+group: nofunk
+name: renaissance-books
+version: "1.0"
+info:
+  summary: Renaissance Books
+  description: |-
+    A Jasoncw and Nofunk collaboration, Renaissance Books is a used book store on Plankinton Avenue in downtown Milwaukee, Wisconsin. Although many of the neighboring buildings are filled with cafes and charming shops and are generally well maintained, this little gem has avoided gentrification. Perfect for your grimier commercial streets, or add a little spice to your higher wealth districts!
+
+    1x2 Cs$ growable and ploppable.
+
+    Available in both MaxisNite and DarkNite
+
+    DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![kpFmo.jpg](http://i.imgur.com/kpFmo.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/27903-renaissance-books/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/0d3636f92d3b59376ebb780cc88307fd-renbooksstex1a.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-renaissance-books-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-renaissance-books-darknite
+
+---
+assetId: nofunk-renaissance-books-darknite
+version: "1.0"
+lastModified: "2012-08-03T03:57:28Z"
+url: https://community.simtropolis.com/files/file/27903-renaissance-books/?do=download&r=104785
+
+---
+assetId: nofunk-renaissance-books-maxisnite
+version: "1.0"
+lastModified: "2012-08-03T03:57:28Z"
+url: https://community.simtropolis.com/files/file/27903-renaissance-books/?do=download&r=104786

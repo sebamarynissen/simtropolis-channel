@@ -1,0 +1,42 @@
+group: nofunk
+name: grantosa-cafe
+version: "1.0"
+info:
+  summary: Grantosa Cafe
+  description: |-
+    The Grantosa Cafe is a fictional business that is housed in a real building from Milwaukee, Wisconsin. Located at 826 N. Plankinton Avenue in downtown Milwaukee, the Grantosa Cafe offers you an upscale dining experience in a beautifully restored historic building. The Grantosa Cafe is wall-to-wall to the west, and has a charming seating area in an alleyway to the east. This BAT works best with another wall-to-wall building on the west, and a small street or alley on the east, but it can also work in the middle of a wall-to-wall block.
+
+    Introduce the Grantosa Cafe to your city today!
+
+    1x2 Cs$ growable and ploppable.
+
+    Available in both MaxisNite and DarkNite.
+
+    DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![XPydV.jpg](http://i.imgur.com/XPydV.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28034-grantosa-cafe/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/a0bef5ec58d4c7393f00965b4f4dca52-grantosa-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e490feda1ef9d7b087db91b2141bed43-grantosa-stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-grantosa-cafe-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-grantosa-cafe-darknite
+
+---
+assetId: nofunk-grantosa-cafe-darknite
+version: "1.0"
+lastModified: "2012-09-15T01:05:31Z"
+url: https://community.simtropolis.com/files/file/28034-grantosa-cafe/?do=download&r=106276
+
+---
+assetId: nofunk-grantosa-cafe-maxisnite
+version: "1.0"
+lastModified: "2012-09-15T01:05:31Z"
+url: https://community.simtropolis.com/files/file/28034-grantosa-cafe/?do=download&r=106277

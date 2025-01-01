@@ -1,0 +1,86 @@
+group: nofunk
+name: boutique-shops
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Boutique Shops
+  description: |-
+    Nofunk & JasonCW present **Boutique Shops**!
+
+    Five floors of pleasantly pedestrian products perfect for even the most discriminating Sim! Add Boutique Shops to your downtown today!
+
+    There are two versions available:
+
+    \+ Growable high-wealth commercial services
+
+    + Ploppable high-wealth commercial services
+
+    * * *
+
+    **Files included:**
+
+    **BoutiqueShops\_MaxisNite-0x5ad0e817\_0x199fe0fd\_0x30000.SC4Model**
+
+    This file includes the building model and is REQUIRED. Features TrueNite.
+
+    **CS$$5\_1x3\_BoutiqueShops\_GROW.SC4Lot**
+
+    Occupants: 71
+
+    Tileset: Chicago, New York
+
+    Density: Medium, High
+
+    Lot Size: 1x3
+
+    **CS$$$\_1x3\_BoutiqueShops\_PLOP.SC4Lot**
+
+    Occupants: 71
+
+    Tileset: Chicago, New York
+
+    Density: Medium, High
+
+    Lot Size: 1x3
+
+    Plop Cost: $24,000
+
+    * * *
+
+    **Installation Instructions:**
+
+    Simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the file labeled "REQUIRED" in your Plugins or you will get a brown box in the game.
+
+    * * *
+
+    **Modeling, Modding & Lotting:** Nofunk**Textures & Lighting:** JasonCW
+  author: nofunk
+  websites:
+    - https://community.simtropolis.com/files/file/24979-boutique-shops/
+    - https://community.simtropolis.com/files/file/24980-boutique-shops-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dc52cbd11d112f2c55262ac84e67361c-BoutiqueShops_MN1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dc52cbd11d112f2c55262ac84e67361c-BoutiqueShops_MN2.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9d2988198ee6597c7a6e2dc8f44ceb85-BoutiqueShops_DN1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9d2988198ee6597c7a6e2dc8f44ceb85-BoutiqueShops_DN2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-boutique-shops-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-boutique-shops-darknite
+
+---
+assetId: nofunk-boutique-shops-maxisnite
+version: "1.0"
+lastModified: "2010-09-30T23:05:40Z"
+url: https://community.simtropolis.com/files/file/24979-boutique-shops/?do=download&r=52459
+
+
+---
+assetId: nofunk-boutique-shops-darknite
+version: "1.0"
+lastModified: "2010-09-30T23:15:22Z"
+url: https://community.simtropolis.com/files/file/24980-boutique-shops-darknite/?do=download&r=52461

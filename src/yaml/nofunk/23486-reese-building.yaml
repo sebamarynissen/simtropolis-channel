@@ -1,0 +1,81 @@
+group: nofunk
+name: reese-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Reese Building
+  description: |-
+    The Reese Building is simply a medium-wealth commercial services building that will fit well into any downtown. There are two lot types available, with both a ploppable and a growable of each: one is a 2x3 an the other a 3x3 with an expanded parking area.
+
+    The building has a parking lot kiosk and cars parked behind it (and around it in the 3x3 version). My goal was to add some realism to the game, since many American downtowns have these sorts of public surface lots tucked in where buildings use to stand. Cars in these lots are often double-parked (parked two cars deep) and an attendant holds onto people's car keys so he or she can move the cars around the lot as necessary.
+
+    Also in the back are two canopied entrances, so visitors do not have to walk around to the front of the building to enter.
+
+    * * *
+
+    Files included:
+
+    **nofunk\_Reesebuilding\_REQUIRED.SC4Model**
+
+    This file includes the building and is REQUIRED. Features TruNite.
+
+    **CS$$3\_2x3\_ReeseBuilding\_GROW.dat**
+
+    Occupants: 119
+
+    Tileset: Chicago, New York
+
+    Density: Medium, High
+
+    Lot size: 2x3
+
+    **CS$$\_2x3\_ReeseBuilding\_PLOP.SC4Lot**
+
+    Occupants: 119
+
+    Plop cost: $15,000
+
+    Lot size: 2x3
+
+    **CS$$3\_3x3\_ReeseBuilding\_GROW.dat**
+
+    Occupants: 119
+
+    Tileset: Chicago, New York
+
+    Density: Medium, High
+
+    Lot size: 3x3
+
+    **CS$$\_3x3\_ReeseBuilding\_PLOP.SC4Lot**
+
+    Occupants: 119
+
+    Plop cost: $15,000
+
+    Lot size: 3x3
+
+    (A readme and two screen shots are also included; these are  not required for game play.)
+
+    * * *
+
+    **Installation Instructions:**
+
+    Simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the folder labeled "Model File - REQUIRED" in your Plugins or you will get a brown box in the game.
+
+    * * *
+
+    Created by: Nofunk
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/23486-reese-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1bbe7aad13a41211d498848a4f18a152-reese_ingame1.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1bbe7aad13a41211d498848a4f18a152-reese_ingame2.jpg
+assets:
+  - assetId: nofunk-reese-building
+
+---
+assetId: nofunk-reese-building
+version: "1.0"
+lastModified: "2010-03-07T18:30:25Z"
+url: https://community.simtropolis.com/files/file/23486-reese-building/?do=download&r=50317
