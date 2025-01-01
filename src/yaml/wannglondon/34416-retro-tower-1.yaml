@@ -1,0 +1,47 @@
+group: wannglondon
+name: retro-tower-1
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Retro Tower 1
+  description: |-
+    Inspired by a recent trip to Las Vegas and researching old Vegas architecture, this residential tower is loosely inspired by the old Sands Hotel (now demolished). Personally, I am a huge fan of mid-century architecture, including Googie style like this. I know it is not everyone's cup-of-tea ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)") I am also looking at making an alternative version of this model with some Vegas-style neon lights and alternate colors than this more subdued version. I think this would make an excellent hotel tower for you fantastic Lotters out there (I am not one). Anyway, different from the French BATs I have been producing, here are the stats:
+
+    \- Houston Tileset
+
+    \- Medium Wealth Residential (stage 7)
+
+    \- Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*This has been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34416-retro-tower-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/6088ac9e5f467_RetroTower1Day.png.4495981c68f0cad8bddbec7053d10e5b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/6088aca1e152a_RetroTower1Night.png.a2b674b4b70e28568bdce21aa0901323.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-retro-tower-1-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-retro-tower-1-darknite
+
+---
+assetId: wannglondon-retro-tower-1-darknite
+version: "1.0.0"
+lastModified: "2021-04-28T00:40:22Z"
+url: https://community.simtropolis.com/files/file/34416-retro-tower-1/?do=download&r=187699
+
+---
+assetId: wannglondon-retro-tower-1-maxisnite
+version: "1.0.0"
+lastModified: "2021-04-28T00:40:22Z"
+url: https://community.simtropolis.com/files/file/34416-retro-tower-1/?do=download&r=187700

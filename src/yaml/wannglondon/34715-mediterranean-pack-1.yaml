@@ -1,0 +1,45 @@
+group: wannglondon
+name: mediterranean-pack-1
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Mediterranean Pack 1
+  description: |-
+    A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera.
+
+    \- Euro & Houston tilesets
+
+    \- Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*These have been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34715-mediterranean-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/616781390c33d_Baiefronte-Apr.13061634171876.png.1b82b08b185ac8050d4efe53758128fd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/6167813d2825a_Baiefronte-Mar.23061634171835.png.0322ae3f7b7a524078945de474a5e960.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-mediterranean-pack-1-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-mediterranean-pack-1-darknite
+
+---
+assetId: wannglondon-mediterranean-pack-1-darknite
+version: "1.0.0"
+lastModified: "2021-10-14T01:03:44Z"
+url: https://community.simtropolis.com/files/file/34715-mediterranean-pack-1/?do=download&r=190211
+
+---
+assetId: wannglondon-mediterranean-pack-1-maxisnite
+version: "1.0.0"
+lastModified: "2021-10-14T01:03:44Z"
+url: https://community.simtropolis.com/files/file/34715-mediterranean-pack-1/?do=download&r=190212

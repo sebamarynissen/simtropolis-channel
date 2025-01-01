@@ -1,0 +1,45 @@
+group: wannglondon
+name: mediterranean-pack-3
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Mediterranean Pack 3
+  description: |-
+    A bit of Marseille and Nice for you for the community. Also, for fun, I created a Marseille-inspired BAT with a rooftop restaurant.
+
+    \- Euro & Houston tilesets
+
+    \- Medium/High density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda49cf73_Baiefronte-Est-Jan.5671645566709.png.937c5983f5cb8ca0c7cf01a9a17184c8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda846f56_Centrale-Nov.12361645841899.png.171a8f010a580ecfa941f69672cd25f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdad69461_Centrale-Nov.91981644517457.png.f3ddc180a3c36d87b513fea6c7da100a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdb0641ea_Centrale-Oct.282361645841889.png.fbe1a9f42ae5b70860ee903e672751f9.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-mediterranean-pack-3-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-mediterranean-pack-3-darknite
+
+---
+assetId: wannglondon-mediterranean-pack-3-darknite
+version: "1.0.0"
+lastModified: "2022-02-27T19:17:29Z"
+url: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/?do=download&r=191813
+
+---
+assetId: wannglondon-mediterranean-pack-3-maxisnite
+version: "1.0.0"
+lastModified: "2022-02-27T19:17:29Z"
+url: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/?do=download&r=191814

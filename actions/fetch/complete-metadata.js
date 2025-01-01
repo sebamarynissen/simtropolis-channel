@@ -126,8 +126,14 @@ async function generateVariants(configs, metadata) {
 			growables.set(asset, list);
 		}
 	}
+
+	// Collect all tags as well because some variants need to know this 
+	// information.
+	let tags = [...new Set(metadata.assets.map(asset => {
+		return asset[kFileTags] ?? [];
+	}).flat())];
 	return configs.map(config => {
-		return generateVariant(config, metadata, { growables });
+		return generateVariant(config, metadata, { tags, growables });
 	});
 
 }
@@ -142,9 +148,16 @@ function generateVariant(config, metadata, opts) {
 	let { assets } = metadata;
 	let { nightmode, driveside, CAM, resolution } = config;
 	if (nightmode) {
-		let opposite = nightmode === 'standard' ? 'darknite' : 'maxisnite';
-		assets = assets.filter(asset => !has(asset, opposite));
+
+		// IMPORTANT! If the building only contains a darknite variant, then we 
+		// can't exclude the variant!
+		let { tags } = opts;
+		if (tags.includes('maxisnite') && tags.includes('darknite')) {
+			let opposite = nightmode === 'standard' ? 'darknite' : 'maxisnite';
+			assets = assets.filter(asset => !has(asset, opposite));
+		}
 		if (nightmode === 'dark') dependencies.push('simfox:day-and-nite-mod');
+
 	}
 	if (driveside) {
 		let opposite = driveside === 'left' ? 'rhd' : 'lhd';

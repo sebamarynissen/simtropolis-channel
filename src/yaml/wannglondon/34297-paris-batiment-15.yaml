@@ -1,0 +1,47 @@
+group: wannglondon
+name: paris-batiment-15
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Paris Batiment 15
+  description: |-
+    I would've liked to have named this BAT "the most average Parisian building of them all", but that's a bit long. I love variety in my cities so here's another one for you.
+
+    \- Medium Wealth Residential (stage 5) & Medium Wealth Commercial Service (stage 3)
+
+    \- Euro Tileset
+
+    \- Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*These have been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34297-paris-batiment-15/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6053d20f5b858_ParisBatiment15Day.png.6c088d76c433a87d3322f8b8178a02bd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6053d211cfc6e_ParisBatiment15Night.png.2c2f0deedb8fff7798725d77261ea39d.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-paris-batiment-15-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-paris-batiment-15-darknite
+
+---
+assetId: wannglondon-paris-batiment-15-darknite
+version: "1.0.0"
+lastModified: "2021-03-18T22:23:06Z"
+url: https://community.simtropolis.com/files/file/34297-paris-batiment-15/?do=download&r=186440
+
+---
+assetId: wannglondon-paris-batiment-15-maxisnite
+version: "1.0.0"
+lastModified: "2021-03-18T22:23:06Z"
+url: https://community.simtropolis.com/files/file/34297-paris-batiment-15/?do=download&r=186441

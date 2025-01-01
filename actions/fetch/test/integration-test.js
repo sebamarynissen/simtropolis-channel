@@ -10,6 +10,7 @@ import { marked } from 'marked';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
 import * as faker from './faker.js';
+import { warn } from 'node:console';
 
 // # reject(fn)
 async function reject(fn) {
@@ -1119,9 +1120,7 @@ describe('The fetch action', function() {
 				},
 			],
 		});
-		const { run } = this.setup({
-			upload,
-		});
+		const { run } = this.setup({ upload });
 		const { result } = await run({ id: upload.id });
 		let { variants } = result.metadata[0];
 		expect(variants).to.eql([
@@ -1147,6 +1146,60 @@ describe('The fetch action', function() {
 				],
 			},
 		]);
+
+	});
+
+	it('a darnkite-only package', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'tower',
+			files: [
+				{
+					name: 'Tower_DN.zip',
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let { variants } = result.metadata[0];
+		expect(variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{ assetId: 'author-tower-darknite' },
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{ assetId: 'author-tower-darknite' },
+				],
+			},
+		]);
+
+	});
+
+	it('ensures uniqueness of the assets', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'World Trade Center',
+			files: [
+				'North Tower (MN).zip',
+				'North Tower (DN).zip',
+				'South Tower (MN).zip',
+				'South Tower (DN).zip',
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let [, ...assets] = result.metadata;
+		expect(assets[0].assetId).to.equal('author-world-trade-center-maxisnite-part-1');
+		expect(assets[1].assetId).to.equal('author-world-trade-center-darknite-part-1');
+		expect(assets[2].assetId).to.equal('author-world-trade-center-maxisnite-part-2');
+		expect(assets[3].assetId).to.equal('author-world-trade-center-darknite-part-2');
 
 	});
 
