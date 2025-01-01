@@ -20,11 +20,11 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: nofunk-fein-bros--maxisnite
+      - assetId: nofunk-fein-bros-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: nofunk-fein-bros--darknite
+      - assetId: nofunk-fein-bros-darknite
 
 ---
 assetId: nofunk-fein-bros-darknite
