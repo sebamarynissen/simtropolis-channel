@@ -1,0 +1,61 @@
+group: wannglondon
+name: mediterranean-buildings-13-14
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Mediterranean Buildings 13 & 14
+  description: |-
+    A pair of corner buildings inspired by one found in Nice, France.
+
+    \- Euro tileset
+
+    \- Medium & High Density zones
+
+    \- Residential & Commercial Office versions
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*These have been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/61a69e73bf877_MeditBldg13-14Night.jpg.53cdd33e3977651c704c03741e7541cf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/61a69e7527382_MeditBldg13-14.jpg.45b753f7201107522bd503aa90d2ea16.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
+      - assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-mediterranean-buildings-13-14-darknite
+      - assetId: wannglondon-mediterranean-buildings-13-14-darknite
+
+---
+assetId: wannglondon-mediterranean-buildings-13-14-darknite
+version: "1.0.0"
+lastModified: "2021-11-30T22:01:05Z"
+url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190714
+
+---
+assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-30T22:01:05Z"
+url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190715
+
+---
+assetId: wannglondon-mediterranean-buildings-13-14-darknite
+version: "1.0.0"
+lastModified: "2021-11-30T22:01:05Z"
+url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190716
+
+---
+assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-30T22:01:05Z"
+url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190717

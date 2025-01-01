@@ -1,0 +1,47 @@
+group: wannglondon
+name: london-flats-1
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: London Flats 1
+  description: |-
+    Finally living up to my username name-sake, here are a set of London-inspired rowhomes based on those found near Victoria Station in the capital of the UK. I plan on creating many more terraces from London as it is my favorite city in the world (despite the nothing-but-French BATs I have been creating). Please excuse the poor lotting. Here are the stats:
+
+    \- Euro Tileset, 1x1 lots
+
+    \- Medium Wealth Residential (stage 4)
+
+    \- Low, Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*This has been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34427-london-flats-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/608e147e73383_LondonFlats1Day.png.23ad398e5a219308308719e33724bca3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/608e148215412_LondonFlats1Night.png.364cf6bf501ab536c2c69bbb0d0b4d5e.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-london-flats-1-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-london-flats-1-darknite
+
+---
+assetId: wannglondon-london-flats-1-darknite
+version: "1.0.0"
+lastModified: "2021-05-02T02:58:22Z"
+url: https://community.simtropolis.com/files/file/34427-london-flats-1/?do=download&r=187746
+
+---
+assetId: wannglondon-london-flats-1-maxisnite
+version: "1.0.0"
+lastModified: "2021-05-02T02:58:22Z"
+url: https://community.simtropolis.com/files/file/34427-london-flats-1/?do=download&r=187747

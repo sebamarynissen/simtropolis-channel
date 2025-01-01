@@ -1,0 +1,49 @@
+group: wannglondon
+name: mediterranean-pack-2
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Mediterranean Pack 2
+  description: |-
+    Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+
+    \- Euro & Houston tilesets
+
+    \- Medium zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*These have been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-mediterranean-pack-2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-mediterranean-pack-2-darknite
+
+---
+assetId: wannglondon-mediterranean-pack-2-darknite
+version: "1.0.0"
+lastModified: "2022-01-12T00:14:44Z"
+url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/?do=download&r=191210
+
+---
+assetId: wannglondon-mediterranean-pack-2-maxisnite
+version: "1.0.0"
+lastModified: "2022-01-12T00:14:44Z"
+url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/?do=download&r=191211

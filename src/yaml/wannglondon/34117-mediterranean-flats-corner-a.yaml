@@ -1,0 +1,46 @@
+group: wannglondon
+name: mediterranean-flats-corner-a
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Mediterranean Flats Corner A
+  description: |-
+    Left corner version of my Mediterranean Flats. I do plan on making other variations.
+
+    \- Medium Wealth Residential (stage 7)
+
+    \- 3x2 lots / w2w
+
+    \- Euro & Houston Tileset
+
+    \- Medium & High Density zones
+
+    \- No dependencies
+
+    \- Nightlighted - MaxisNite or DarkNite
+
+    \*These have been tested, however please let me know if you encounter any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34117-mediterranean-flats-corner-a/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/6022a119073f1_MeditCornerA.png.8fce36a21c442d33a0b56fb6d6facac5.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-mediterranean-flats-corner-a-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-mediterranean-flats-corner-a-darknite
+
+---
+assetId: wannglondon-mediterranean-flats-corner-a-darknite
+version: "1.0.0"
+lastModified: "2021-02-09T14:51:34Z"
+url: https://community.simtropolis.com/files/file/34117-mediterranean-flats-corner-a/?do=download&r=185172
+
+---
+assetId: wannglondon-mediterranean-flats-corner-a-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-09T14:51:34Z"
+url: https://community.simtropolis.com/files/file/34117-mediterranean-flats-corner-a/?do=download&r=185173

@@ -1,0 +1,43 @@
+group: wannglondon
+name: paris-batiments-32-33
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Paris Batiments 32 & 33
+  description: |-
+    Two Parisian-inspired BATs found in the 16th arrondissement.
+
+    \- Euro Tileset
+
+    \- Medium & High Density, 1x2 lots
+
+    \- Residential & Commercial offerings
+
+    \- Darknite versions only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35555-paris-batiments-32-33/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/32.jpg.c7cdb74570b5dc5e195d1e9c5de2709d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/33.jpg.b172eccd0818494eb4b1af464a98c7e2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-paris-batiments-32-33-darknite
+      - assetId: wannglondon-paris-batiments-32-33-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-paris-batiments-32-33-darknite
+      - assetId: wannglondon-paris-batiments-32-33-darknite
+
+---
+assetId: wannglondon-paris-batiments-32-33-darknite
+version: "1.0.0"
+lastModified: "2023-06-23T02:28:18Z"
+url: https://community.simtropolis.com/files/file/35555-paris-batiments-32-33/?do=download&r=197281
+
+---
+assetId: wannglondon-paris-batiments-32-33-darknite
+version: "1.0.0"
+lastModified: "2023-06-23T02:28:18Z"
+url: https://community.simtropolis.com/files/file/35555-paris-batiments-32-33/?do=download&r=197282

@@ -1,0 +1,61 @@
+group: wannglondon
+name: paris-batiments-16-18
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Paris Batiments 16 & 18
+  description: |-
+    More Parisian BATs for the community. One corner high-wealth residential and one standard medium-wealth residential. The corner model has also been included as a commercial lot.
+
+    \- Euro Tileset
+
+    \- Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*This has been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34318-paris-batiments-16-18/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/605bbf0115789_Batiment16Day.png.57ec542a94a04ff06475942f89202b43.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/605bbf039b6c1_Batiment16Night.png.e96e5b8bcf9d8825c6ff074e00c5caff.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/605bbf05777a0_Batiment18Day.png.c606ef9ff05be5b10709053bc6fd7fcf.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/605bbf07456d8_Batiment18Night.png.fa0211d075853ef5ac34e22dfdccc7be.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-paris-batiments-16-18-maxisnite-16
+      - assetId: wannglondon-paris-batiments-16-18-maxisnite-18
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-paris-batiments-16-18-darknite-16
+      - assetId: wannglondon-paris-batiments-16-18-darknite-18
+
+---
+assetId: wannglondon-paris-batiments-16-18-darknite-16
+version: "1.0.0"
+lastModified: "2021-03-24T22:39:12Z"
+url: https://community.simtropolis.com/files/file/34318-paris-batiments-16-18/?do=download&r=186764
+
+---
+assetId: wannglondon-paris-batiments-16-18-maxisnite-16
+version: "1.0.0"
+lastModified: "2021-03-24T22:39:12Z"
+url: https://community.simtropolis.com/files/file/34318-paris-batiments-16-18/?do=download&r=186765
+
+---
+assetId: wannglondon-paris-batiments-16-18-darknite-18
+version: "1.0.0"
+lastModified: "2021-03-24T22:39:12Z"
+url: https://community.simtropolis.com/files/file/34318-paris-batiments-16-18/?do=download&r=186766
+
+---
+assetId: wannglondon-paris-batiments-16-18-maxisnite-18
+version: "1.0.0"
+lastModified: "2021-03-24T22:39:12Z"
+url: https://community.simtropolis.com/files/file/34318-paris-batiments-16-18/?do=download&r=186767
