@@ -170,4 +170,14 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('slugifies &', function() {
+
+		let upload = faker.upload({
+			title: 'Skidmore, Owings & Merrill',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('skidmore-owings-and-merrill');
+
+	});
+
 });
