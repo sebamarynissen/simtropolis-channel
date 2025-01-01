@@ -10,6 +10,7 @@ import { marked } from 'marked';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
 import * as faker from './faker.js';
+import { warn } from 'node:console';
 
 // # reject(fn)
 async function reject(fn) {
@@ -1119,9 +1120,7 @@ describe('The fetch action', function() {
 				},
 			],
 		});
-		const { run } = this.setup({
-			upload,
-		});
+		const { run } = this.setup({ upload });
 		const { result } = await run({ id: upload.id });
 		let { variants } = result.metadata[0];
 		expect(variants).to.eql([
@@ -1144,6 +1143,38 @@ describe('The fetch action', function() {
 						],
 					},
 					{ assetId: 'author-tower-cam' },
+				],
+			},
+		]);
+
+	});
+
+	it('a darnkite-only package', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'tower',
+			files: [
+				{
+					name: 'Tower_DN.zip',
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let { variants } = result.metadata[0];
+		expect(variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{ assetId: 'author-tower-darknite' },
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{ assetId: 'author-tower-darknite' },
 				],
 			},
 		]);
