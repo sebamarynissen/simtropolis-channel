@@ -1181,6 +1181,28 @@ describe('The fetch action', function() {
 
 	});
 
+	it('ensures uniqueness of the assets', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'World Trade Center',
+			files: [
+				'North Tower (MN).zip',
+				'North Tower (DN).zip',
+				'South Tower (MN).zip',
+				'South Tower (DN).zip',
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let [, ...assets] = result.metadata;
+		expect(assets[0].assetId).to.equal('author-world-trade-center-maxisnite-part-1');
+		expect(assets[1].assetId).to.equal('author-world-trade-center-darknite-part-1');
+		expect(assets[2].assetId).to.equal('author-world-trade-center-maxisnite-part-2');
+		expect(assets[3].assetId).to.equal('author-world-trade-center-darknite-part-2');
+
+	});
+
 });
 
 function jsonToYaml(json) {
