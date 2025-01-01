@@ -3,8 +3,13 @@
   "name": "sc4pac",
   "version": "1.0",
   "description": "Adds various sc4pac related functionalities to simtropolis.com",
+  "icons": {
+    "44": "icon-44.png",
+    "128": "icon-128.png",
+    "256": "icon-256.png"
+  },
   "permissions": [
-    "scripting",
+    "scripting"
   ],
   "host_permissions": [
     "https://community.simtropolis.com/files/file/*"
