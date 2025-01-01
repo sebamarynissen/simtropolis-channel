@@ -17,8 +17,8 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
   - [x] [RRetail](https://community.simtropolis.com/profile/744613-rretail/content/?type=downloads_file)
   - [ ] [pclark06](https://community.simtropolis.com/profile/364367-pclark06/content/?type=downloads_file)
   - [x] [IDS2](https://community.simtropolis.com/profile/70889-ids2/content/?type=downloads_file)
-  - [ ] [nofunk](https://community.simtropolis.com/profile/8697-nofunk/content/?type=downloads_file)
-  - [ ] [WannGLondon](https://community.simtropolis.com/profile/197802-wannglondon/content/?type=downloads_file)
+  - [x] [nofunk](https://community.simtropolis.com/profile/8697-nofunk/content/?type=downloads_file)
+  - [x] [WannGLondon](https://community.simtropolis.com/profile/197802-wannglondon/content/?type=downloads_file)
   - [ ] [gutterclub](https://community.simtropolis.com/profile/231074-gutterclub/content/?type=downloads_file)
 
 ## Roadmap
