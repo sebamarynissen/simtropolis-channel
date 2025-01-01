@@ -1,7 +1,7 @@
 // # complete-metadata.js
-import path from 'node:path';
 import scrape from './scrape.js';
-import { kFileTags, kFileNames } from './symbols.js';
+import { kFileTags, kExtractedAsset } from './symbols.js';
+import detectGrowables from './detect-growables.js';
 
 // # completeMetadata(metadata, json)
 // Completes the metadata parsed from the api response with the description, 
@@ -24,7 +24,7 @@ export default async function completeMetadata(metadata, json) {
 
 	// Now generate the variants from what we've decided to include. This will 
 	// multiply the available variants by 2 in every step.
-	let variants = expandVariants(metadata);
+	let variants = await expandVariants(metadata);
 
 	// If there are no variants, then we just include the assets as is.
 	let assets;
@@ -38,10 +38,10 @@ export default async function completeMetadata(metadata, json) {
 // # expandVariants(metadata)
 // This function is responsible for expanding the variants based on the assets 
 // in the upload.
-export function expandVariants(metadata) {
+export async function expandVariants(metadata) {
 	let includedVariants = findIncludedVariants(metadata);
 	let configs = generateVariantConfigs(includedVariants);
-	return generateVariants(configs, metadata);
+	return await generateVariants(configs, metadata);
 }
 
 // # findIncludedVariants(metadata)
@@ -106,19 +106,33 @@ function hasOneOf(assets, tags) {
 	});
 }
 
-function generateVariants(configs, metadata) {
+// # generateVariants(config, metadata)
+async function generateVariants(configs, metadata) {
 	if (configs.length < 2) return;
-	return configs.map(config => generateVariant(config, metadata));
+
+	// Before generating the configuration for every variant, we'll check if a 
+	// specific CAM asset exists. If that's the case, we will need to filter out 
+	// the growables.
+	let hasCam = metadata.assets.some(asset => has(asset, 'cam'));
+	let growables = new Map();
+	if (hasCam) {
+		let nonCamAssets = metadata.assets.filter(asset => {
+			let tags = asset[kFileTags];
+			return !tags.includes('cam');
+		});
+		for (let asset of nonCamAssets) {
+			let list = await detectGrowables(asset[kExtractedAsset]);
+			growables.set(asset, list);
+		}
+	}
+	return configs.map(config => {
+		return generateVariant(config, metadata, { growables });
+	});
+
 }
 
-// # has(asset, tag)
-// Returns whether the asset contains the given tag.
-function has(asset, tag) {
-	let tags = asset[kFileTags] ?? [];
-	return tags.includes(tag);
-}
-
-function generateVariant(config, metadata) {
+// # generateVariant(config, metadata)
+function generateVariant(config, metadata, opts) {
 
 	// First we'll filter out anything that is not label with the correct night 
 	// mode variant.
@@ -142,63 +156,21 @@ function generateVariant(config, metadata) {
 		assets = assets.filter(asset => !has(asset, 'cam'));
 	} else if (CAM === 'yes') {
 
-		// It's possible that the cam asset only contains overrides for the 
-		// *growable* lots, and not for the ploppable lots - such as landmarks. 
-		// We will have to figure this out manually by checking what patterns 
-		// the cam asset overrides.
-		let cam = assets.find(asset => has(asset, 'cam'));
-		let files = [...cam[kFileNames] ?? []].map(file => path.basename(file));
-		let patterns = [
-			/^lm_/i,
-			/^plop_/i,
-			/\bgrow\b/i,
-			/\bplop\b/i,
-			/^(C[OS]|R)\$+/i,
-			/^I-?(HT?|M|D|A)/i,
-		];
-		let appliedPatterns = [];
-		for (let i = 0; i < patterns.length && files.length > 0; i++) {
-			let pattern = patterns[i];
-			let filtered = files.filter(file => !pattern.test(file));
-			if (filtered.length < files.length) {
-				appliedPatterns.push(pattern);
-			}
-			files = filtered;
-		}
-
-		// If not all files were filtered out with our patterns, log a warning 
-		// so that we can add the pattern.
-		if (files.length > 0) {
-			let joined = files.join('\n');
-			console.warn(`CAM asset contains unknown file patterns!\n${joined}`);
-		}
-
-		// Note: excluding the .SC4Lot & .SC4Desc files should not happen for hd 
-		// or sd assets, as they should only contain .SC4Model files.
+		// Cool, this is a cam variant, which means we have to filter out all 
+		// the growables that we've detected from the non-cam assets.
 		for (let asset of assets) {
-			if (!has(asset, 'cam') && !has(asset, 'sd') && !has(asset, 'hd')) {
-
-				// If we managed to match all the cam's files with our patterns, 
-				// then we can exactly reconstruct the exclusion map. Otherwise 
-				// we resort to `.SC4Lot` and `.SC4DEsc`.
-				let exclude = exclusions[asset.assetId] ??= [];
-				if (appliedPatterns.length > 0 && files.length === 0) {
-					let files = (asset[kFileNames] ?? [])
-						.map(file => path.basename(file));
-					for (let file of files) {
-						if (appliedPatterns.some(regex => regex.test(file))) {
-							let escape = /[.*+?^${}()|[\]\\]/g;
-							exclude.push(`/${file.replaceAll(escape, '\\$&')}`);
-						}
-					}
+			if (has(asset, 'cam')) continue;
+			let list = opts.growables.get(asset) ?? [];
+			let exclude = exclusions[asset.assetId] ??= [];
+			let escaped = list.map(file => {
+				if (file.match(/[*+?^${}()|[\]\\]/)) {
+					let chars = /[.*+?^${}()|[\]\\/]/g;
+					return `/${file.replaceAll(chars, '\\$&')}$`;
 				} else {
-					exclude.push(
-						...filterExclusions(asset, ['.SC4Lot$', '.SC4Desc$']),
-					);
+					return `/${file}`;
 				}
-
-			}
-
+			});
+			exclude.push(...escaped);
 		}
 
 	}
@@ -255,4 +227,11 @@ function filterExclusions(asset, patterns) {
 		let regex = new RegExp(pattern.replace('.', '\\.'), 'i');
 		return files.some(file => regex.test(file));
 	});
+}
+
+// # has(asset, tag)
+// Returns whether the asset contains the given tag.
+function has(asset, tag) {
+	let tags = asset[kFileTags] ?? [];
+	return tags.includes(tag);
 }
