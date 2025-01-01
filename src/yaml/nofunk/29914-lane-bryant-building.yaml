@@ -1,0 +1,51 @@
+group: nofunk
+name: lane-bryant-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Lane Bryant Building
+  description: |-
+    1520 Woodward Avenue was built in 1917. In 1945, women's clothing company Lane Bryant bought the building and had the facade reclad in the Art Deco style by noted local architect, Charles Agree. Although abandoned by the apparel company in the 1980s, the building is still referred to by its former tenant. In 2011, the building was converted into incubator space for technology start-ups. The Lane Bryant Building provides 148 jobs for your city.
+
+    Dependencies: Requires [**mipro Essentials** December 2013](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    \- 1x2 growable and ploppable CO$$ and CS$$ versions.
+
+    \- Grows in the New York tileset
+
+    \- Available in MaxisNite and DarkNite
+
+    \- DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![c3UFZDl.jpg](http://i.imgur.com/c3UFZDl.jpg)
+
+    [mipro Forum Thread](https://community.simtropolis.com/topic/60777-mipro/)
+
+    [mipro STEX Uploads](https://community.simtropolis.com/tags/downloads/mipro/)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29914-lane-bryant-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/a78d42ed1b7c67d9d2fdee881e305798-stex-lanebryant-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/ae1e7d8f4f4d838fca969f6e921e6414-stex-lanebryant-2.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-lane-bryant-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-lane-bryant-building-darknite
+
+---
+assetId: nofunk-lane-bryant-building-darknite
+version: "1.0"
+lastModified: "2014-09-20T03:53:34Z"
+url: https://community.simtropolis.com/files/file/29914-lane-bryant-building/?do=download&r=142928
+
+---
+assetId: nofunk-lane-bryant-building-maxisnite
+version: "1.0"
+lastModified: "2014-09-20T03:53:34Z"
+url: https://community.simtropolis.com/files/file/29914-lane-bryant-building/?do=download&r=142929

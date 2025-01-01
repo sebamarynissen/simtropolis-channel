@@ -1,0 +1,38 @@
+group: nofunk
+name: fein-bros-
+version: "1.0"
+info:
+  summary: Fein Bros.
+  description: |-
+    Built as a theater in the 1920s, Fein Bros was converted to a kitchen supply wholesaler in 1967. Whether your city needs more movies or more microwaves, Fein Bros. will be a great addition to your small business districts!
+
+    -   This is a 1x3, stage 3 Cs$$ for the Chicago tileset that provides 55 jobs.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![KelSsg7.jpg](http://i.imgur.com/KelSsg7.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28590-fein-bros/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/4c0ddb193ea3ae14a9691e3d0645b4b0-fein_stex01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/2533ab207b5f20f477354527bde56f10-fein_stex02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-fein-bros--maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-fein-bros--darknite
+
+---
+assetId: nofunk-fein-bros--darknite
+version: "1.0"
+lastModified: "2013-03-23T01:39:49Z"
+url: https://community.simtropolis.com/files/file/28590-fein-bros/?do=download&r=113491
+
+---
+assetId: nofunk-fein-bros--maxisnite
+version: "1.0"
+lastModified: "2013-03-23T01:39:49Z"
+url: https://community.simtropolis.com/files/file/28590-fein-bros/?do=download&r=113492

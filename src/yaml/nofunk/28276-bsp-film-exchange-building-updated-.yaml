@@ -1,0 +1,43 @@
+group: nofunk
+name: bsp-film-exchange-building-updated-
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: BSP Film Exchange Building (Updated)
+  description: |-
+    An old favorite comes back with fresh textures and DarkNite compatibility!  
+      
+    The Film Exchange Building was built at the corner of Cass and Montcalm in 1926 for the distribution and booking of movies for the Detroit area. The building featured fireproof vaults for the nitrate films. By 1964, the building was mainly occupied by unions. In the 1970s, the doors were finally closed on the Film Exchange Building.  
+      
+    ***A point of clarification:** This version is completely remodded, so you can have both the old version AND the new version in your plugins folder and there will be no conflicts. However, if you only want to use the new version, you will want to delete all files associated with the old version.*
+
+    -   2x3 growable and ploppable CO$$.
+    -   Available in both MaxisNite and DarkNite
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    *See the original upload [here](https://community.simtropolis.com/files/file/23219-bsp-film-exchange-building/).*
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28276-bsp-film-exchange-building-updated/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/235836dc19c9fad75a5bf763952bc145-filmex_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/bde98966948aa909850bccb43fac4ea5-filmex_stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bsp-film-exchange-building-updated--maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bsp-film-exchange-building-updated--darknite
+
+---
+assetId: nofunk-bsp-film-exchange-building-updated--darknite
+version: "2"
+lastModified: "2012-12-06T02:37:14Z"
+url: https://community.simtropolis.com/files/file/28276-bsp-film-exchange-building-updated/?do=download&r=109402
+
+---
+assetId: nofunk-bsp-film-exchange-building-updated--maxisnite
+version: "2"
+lastModified: "2012-12-06T02:37:14Z"
+url: https://community.simtropolis.com/files/file/28276-bsp-film-exchange-building-updated/?do=download&r=109403
