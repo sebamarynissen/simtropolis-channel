@@ -10,7 +10,6 @@ import { marked } from 'marked';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
 import * as faker from './faker.js';
-import { warn } from 'node:console';
 
 // # reject(fn)
 async function reject(fn) {

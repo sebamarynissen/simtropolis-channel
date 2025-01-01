@@ -70,7 +70,7 @@ export default async function scrape(url) {
 	if (!subfolder) {
 		if (description.match(/\bR(\$|§)+/)) {
 			subfolder = '200-residential';
-		} else if (description.match(/\bC[OS](\$|§)+/m)) {
+		} else if (description.match(/\bC[OoSs](\$|§)+/m)) {
 			subfolder = '300-commercial';
 		} else if (description.match(/\bI-(HT|M|D)\b/)) {
 			subfolder = '400-industrial';

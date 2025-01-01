@@ -1,0 +1,37 @@
+group: nofunk
+name: iron-horse-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Iron Horse Hotel
+  description: |-
+    The Iron Horse Hotel, located in the Milwaukee, Wisconsin neighborhood of Walker's Point, is a 100-year old warehouse building that has been converted into a luxury boutique hotel. The building was built in 1907 as a factory and warehouse for the Berger Bedding Company. It now houses 100 guest rooms, a spa, three restaurants and a bar.
+
+    -   3x2 Cs$$$ growable and ploppable.  
+    -   Available in both MaxisNite and DarkNite.  
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28250-iron-horse-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/30210ee786a6fe4f172905dfde3a1408-ironhorse_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/c0b58d040d121bde9f64dfd569e37d8a-ironhorse_stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-iron-horse-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-iron-horse-hotel-darknite
+
+---
+assetId: nofunk-iron-horse-hotel-darknite
+version: "1.0"
+lastModified: "2012-11-28T03:45:09Z"
+url: https://community.simtropolis.com/files/file/28250-iron-horse-hotel/?do=download&r=109186
+
+---
+assetId: nofunk-iron-horse-hotel-maxisnite
+version: "1.0"
+lastModified: "2012-11-28T03:45:09Z"
+url: https://community.simtropolis.com/files/file/28250-iron-horse-hotel/?do=download&r=109187

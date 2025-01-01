@@ -1,0 +1,40 @@
+group: nofunk
+name: milwaukee-engine-co-1
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: "Milwaukee Engine Co. #1"
+  description: |-
+    The Milwaukee Engine Co. #1 is an Art Deco fire station located in downtown Milwaukee, Wisconsin. Compact and wall-to-wall, this little urban fire station is a great way to provide fire protection in your denser SimCity neighborhoods.
+
+    -   This is a 1x3, wall-to-wall fire station and costs §150 per month.
+    -   Provides 2 dispatches for a radius slightly larger than the Maxis small fire station.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![lLWOzSD.jpg](http://i.imgur.com/lLWOzSD.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29018-milwaukee-engine-co-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/0faf61c93f30f844d77f35a378e917e1-mkefireco1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/f8185d9c77a41ad88172f78180e7ce04-mkefireco2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-milwaukee-engine-co-1-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-milwaukee-engine-co-1-darknite
+
+---
+assetId: nofunk-milwaukee-engine-co-1-darknite
+version: "1.0"
+lastModified: "2013-10-23T02:45:30Z"
+url: https://community.simtropolis.com/files/file/29018-milwaukee-engine-co-1/?do=download&r=120899
+
+---
+assetId: nofunk-milwaukee-engine-co-1-maxisnite
+version: "1.0"
+lastModified: "2013-10-23T02:45:30Z"
+url: https://community.simtropolis.com/files/file/29018-milwaukee-engine-co-1/?do=download&r=120900

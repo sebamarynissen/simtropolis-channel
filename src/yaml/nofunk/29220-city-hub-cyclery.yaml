@@ -1,0 +1,48 @@
+group: nofunk
+name: city-hub-cyclery
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: City Hub Cyclery
+  description: |-
+    *The Barry Sanders Project is now [mipro](https://community.simtropolis.com/topic/60777-mipro/)!*
+
+    When it opens, City Hub Cyclery will be a hip bicycle shop that will help to revitalize downtown Musekgon, Michigan. This charming little Italianate building will add character to any small town or neighborhood retail district.
+
+    Add the City Hub Cyclery to your city today!
+
+    Dependencies: Requires [**mipro Essentials** December 2013](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    -   1x2 growable and ploppable. Grows in Chicago tileset only.
+    -   Provides 15 CS$$ jobs for your city.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![BrqsgJM.jpg](http://i.imgur.com/BrqsgJM.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29220-city-hub-cyclery/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/c804a8897d49d9d68dfd89fc3675f242-cityhub1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/edd8c8e0b26a733513fdb72b883d091e-cityhub2.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-city-hub-cyclery-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-city-hub-cyclery-darknite
+
+---
+assetId: nofunk-city-hub-cyclery-darknite
+version: "1.0"
+lastModified: "2014-01-25T03:27:15Z"
+url: https://community.simtropolis.com/files/file/29220-city-hub-cyclery/?do=download&r=123194
+
+---
+assetId: nofunk-city-hub-cyclery-maxisnite
+version: "1.0"
+lastModified: "2014-01-25T03:27:15Z"
+url: https://community.simtropolis.com/files/file/29220-city-hub-cyclery/?do=download&r=123195

@@ -1,0 +1,52 @@
+group: nofunk
+name: eastsider-bar
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: EastSider Bar
+  description: |-
+    For the past 18 years, the EastSider Bar has been providing spirits and entertainment to Milwaukee locals and rowdy college kids alike. If your city's residents are thirsty for a place to let loose, do 'em a favor and add the EastSider Bar to your Plugins folder today!
+
+    Since there are apartments above the bar in real life, and because it fits in well with other wall-to-wall residential, I've provided both commercial and a residential growables!
+
+    -   1x2 growable and ploppable CS$$, growable R$$
+    -   Provides 12 CS$$ jobs OR 18 R$$ residents
+    -   MaxisNite and DarkNite versions included
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Installation Instructions:
+
+    1\. Download either the DarkNite OR MaxisNite version. If you are unsure, choose the MaxisNite version. Attempting to use both versions in your Plugins at the same time may cause conflicts.
+
+    2\. Unzip the .zip and move its contents into your Documents > SimCity4 > Plugins folder.
+
+    3\. Enjoy!
+
+    \-  
+    Comments, questions, or issues? Check out [my BAT thread](https://community.simtropolis.com/forums/topic/13203-nofunks-bat-thread/).
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/31586-eastsider-bar/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/eastsider-1.jpg.76ba9c3df324662896fb0b2e0984ee56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/eastsider-2.jpg.a40e6b1ff81d2def4e0b18f282ee4e06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/eastsider-3.jpg.711880526e4edca9afb3b7d83be18bd8.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-eastsider-bar-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-eastsider-bar-darknite
+
+---
+assetId: nofunk-eastsider-bar-darknite
+version: "1.0"
+lastModified: "2017-04-24T01:00:33Z"
+url: https://community.simtropolis.com/files/file/31586-eastsider-bar/?do=download&r=165465
+
+---
+assetId: nofunk-eastsider-bar-maxisnite
+version: "1.0"
+lastModified: "2017-04-24T01:00:33Z"
+url: https://community.simtropolis.com/files/file/31586-eastsider-bar/?do=download&r=165466

@@ -1,0 +1,53 @@
+group: nofunk
+name: loewenthal-metals
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Loewenthal Metals
+  description: |-
+    Loewenthal Metals, located in the Pilsen neighborhood of Chicago's south side, once functioned as a lead and zinc melter and scrap metal dealer, but ceased to operate in the early 1950s. The building currently appears vacant, but nearby development may soon rescue this building from an uncertain fate.
+
+    This lot is modded for industrial (I-m) but would look right at home in a grittier commercial or mixed use district as well.
+
+    -   5x2 growable and ploppable I-m lots
+    -   Provides 186 jobs (modded with the Industrial Quadrupler in mind)
+    -   MaxisNite and DarkNite versions included
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Installation Instructions:
+
+    1\. Download either the DarkNite OR MaxisNite version. If you are unsure, choose the MaxisNite version. Attempting to use both versions in your Plugins at the same time may cause conflicts.
+
+    2\. Unzip the .zip and move its contents into your Documents > SimCity4 > Plugins folder.
+
+    3\. Enjoy!
+
+    \-  
+    Comments, questions, or issues? Check out [my BAT thread](https://community.simtropolis.com/forums/topic/13203-nofunks-bat-thread/).
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/31546-loewenthal-metals/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/loewenthal-metals1.png.6c2214b86c2d752fe31a74cf925e8b50.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/loewenthal-metals2.jpg.3afd698a5a131bc8696d79ea42556741.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/loewenthal-metals3.jpg.020dd3566441cbd1371e74cedaaef149.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/loewenthal-metals4.png.2ece55fc1379a51c9d236702c9fc2d50.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-loewenthal-metals-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-loewenthal-metals-darknite
+
+---
+assetId: nofunk-loewenthal-metals-darknite
+version: "1.0"
+lastModified: "2017-03-30T01:04:26Z"
+url: https://community.simtropolis.com/files/file/31546-loewenthal-metals/?do=download&r=165189
+
+---
+assetId: nofunk-loewenthal-metals-maxisnite
+version: "1.0"
+lastModified: "2017-03-30T01:04:26Z"
+url: https://community.simtropolis.com/files/file/31546-loewenthal-metals/?do=download&r=165190
