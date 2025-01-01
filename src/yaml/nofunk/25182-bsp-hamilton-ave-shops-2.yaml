@@ -82,11 +82,11 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: nofunk-bsp-hamilton-ave-shops-2-darknite-maxisnite
+      - assetId: nofunk-bsp-hamilton-ave-shops-2-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: nofunk-bsp-hamilton-ave-shops-2-darknite-darknite
+      - assetId: nofunk-bsp-hamilton-ave-shops-2-darknite
 
 ---
 assetId: nofunk-bsp-hamilton-ave-shops-2-maxisnite
