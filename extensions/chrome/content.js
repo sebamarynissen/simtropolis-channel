@@ -56,7 +56,7 @@ async function install(packages) {
 		});
 	} catch (e) {
 		if (e instanceof TypeError) {
-			alert('The gui needs to be running in order to use this button!');
+			alert('The sc4pac gui needs to be active before you can use this button!');
 		}
 	}
 }

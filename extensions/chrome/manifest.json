@@ -1,23 +1,34 @@
 {
   "manifest_version": 3,
-  "name": "sc4pac",
+  "name": "Sc4pac Tools",
   "version": "1.0",
   "description": "Adds various sc4pac related functionalities to simtropolis.com",
   "icons": {
     "44": "icon-44.png",
-    "128": "icon-128.png",
-    "256": "icon-256.png"
+    "128": "icon-128.png"
   },
   "permissions": [
-    "scripting"
+    "scripting",
+    "cookies",
+    "activeTab"
   ],
   "host_permissions": [
-    "https://community.simtropolis.com/files/file/*"
+    "https://community.simtropolis.com/*"
   ],
+  "action": {
+    "default_title": "sc4pac"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["https://community.simtropolis.com/files/file/*"],
       "js": ["content.js"]
+    },
+    {
+      "matches": ["https://community.simtropolis.com/*"],
+      "js": ["copy.js"]
     }
   ]
 }
