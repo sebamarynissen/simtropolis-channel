@@ -34,6 +34,7 @@ export default async function handleUpload(json, opts = {}) {
 	let metadata = apiToMetadata(permissions.transform(json));
 	let parsedMetadata = false;
 	let downloader = new Downloader();
+	let cleanup = [];
 	for (let asset of metadata.assets) {
 
 		// If the assets contains metadata, we'll use this one, only if former 
@@ -42,9 +43,11 @@ export default async function handleUpload(json, opts = {}) {
 		// someone uploads an invalid zip file, nothing we can do about that, 
 		// but we don't want this to block our workflow.
 		let info = await downloader.handleAsset(asset);
+		if (!info) continue;
 		if (info.metadata && !parsedMetadata) {
 			parsedMetadata = info.metadata;
 		}
+		cleanup.push(info.cleanup);
 
 	}
 
@@ -65,6 +68,11 @@ export default async function handleUpload(json, opts = {}) {
 	// description, images and subfolder cannot be derived directly from the api 
 	// response.
 	await completeMetadata(metadata, json);
+
+	// We are now ready to clean up any downloaded & extracted assets.
+	for (let fn of cleanup) {
+		await fn();
+	}
 
 	// See #42. If metadata for the package already existed before - either 
 	// added by the bot, or manually by backfilling - then we have to patch the 
