@@ -5,7 +5,10 @@
 // become hyphenated.
 export function slugify(name) {
 	let lc = name.toLowerCase();
-	return lc.replaceAll(/[^a-z0-9]+/g, '-');
+	return lc
+		.replaceAll(/[^a-z0-9]+/g, '-')
+		.replace(/-$/, '')
+		.replace(/^-/, '');
 }
 
 // # urlToFileId(href)

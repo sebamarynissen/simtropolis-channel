@@ -160,4 +160,14 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('doesn\'t end with a hyphen', function() {
+
+		let upload = faker.upload({
+			title: 'BSP Building (Updated)',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('bsp-building-updated');
+
+	});
+
 });
