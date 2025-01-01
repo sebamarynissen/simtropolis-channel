@@ -1,6 +1,6 @@
 // # complete-metadata.js
 import scrape from './scrape.js';
-import { kFileTags, kExtractedAsset } from './symbols.js';
+import { kFileTags, kFileNames, kExtractedAsset } from './symbols.js';
 import detectGrowables from './detect-growables.js';
 
 // # completeMetadata(metadata, json)
@@ -121,6 +121,7 @@ async function generateVariants(configs, metadata) {
 			return !tags.includes('cam');
 		});
 		for (let asset of nonCamAssets) {
+			if (!asset[kExtractedAsset]) continue;
 			let list = await detectGrowables(asset[kExtractedAsset]);
 			growables.set(asset, list);
 		}

@@ -3,11 +3,12 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
+import { Glob } from 'glob';
 import ora from 'ora';
 import tmp from 'tmp-promise';
 import yauzl from 'yauzl';
 import { parseAllDocuments } from 'yaml';
-import { kExtractedAsset, kFileInfo } from './symbols.js';
+import { kExtractedAsset, kFileNames, kFileInfo } from './symbols.js';
 import { SimtropolisError } from './errors.js';
 import attempt from './attempt.js';
 
@@ -87,6 +88,7 @@ export default class Downloader {
 			]);
 			spinner.succeed();
 			asset[kExtractedAsset] = destination.path;
+			asset[kFileNames] = info.files;
 			return {
 				...info,
 				async cleanup() {
@@ -113,8 +115,10 @@ export default class Downloader {
 	// the files in it, as well as the metadata, if it exists.
 	async inspectAsset(dir) {
 		let metadata = null;
-		let files = await fs.promises.readdir(dir);
-		for (let file of files) {
+		let glob = new Glob('**/*', { cwd: dir, nodir: true });
+		let files = [];
+		for (let file of glob) {
+			files.push(file);
 			if (file === 'metadata.yaml') {
 				metadata = await readMetadata(path.join(dir, file));
 			}
