@@ -1,0 +1,31 @@
+group: wannglondon
+name: grand-arch
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Grand Arch
+  description: |-
+    A fantasy grand arch to place in your city. Functions as a museum in-game.
+
+    \- 3x1 lot size
+
+    \- Darknite only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35575-grand-arch/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64bc3c1a0f17a_ArchDay.jpg.55f76142dd57aa589ce66bfe44bb4a21.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64bc3c1f0e98c_ArchNight.jpg.8091617f5cfec0f3afbc4a18c9c26cff.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-grand-arch-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-grand-arch-darknite
+
+---
+assetId: wannglondon-grand-arch-darknite
+version: "1.0.0"
+lastModified: "2023-07-22T20:30:35Z"
+url: https://community.simtropolis.com/files/file/35575-grand-arch/?do=download&r=197367

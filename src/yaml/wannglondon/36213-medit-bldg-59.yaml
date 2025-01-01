@@ -1,0 +1,32 @@
+group: wannglondon
+name: medit-bldg-59
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Medit Bldg 59
+  description: |-
+    I have been modeling quite a lot, but have been so busy playing the game that I have not uploaded for a while. This model is based on one found flanking Mount Boron in Nice, France. This is lotted to meet the wants of my city, but please feel free to re-lot with PIM/Lot Editor.
+
+    \- High-wealth residential
+
+    \- Houston Tileset
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36213-medit-bldg-59/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/Day.jpg.c4c824840add13de04ac19cc71ecbc37.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-medit-bldg-59-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-medit-bldg-59-darknite
+
+---
+assetId: wannglondon-medit-bldg-59-darknite
+version: "1.0.0"
+lastModified: "2024-04-22T22:33:39Z"
+url: https://community.simtropolis.com/files/file/36213-medit-bldg-59/?do=download&r=200957

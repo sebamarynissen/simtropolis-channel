@@ -1,0 +1,33 @@
+group: wannglondon
+name: ny-building-11
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: NY Building 11
+  description: |-
+    A high wealth commercial services building based off of one found in Midtown Manhattan.
+
+    \- Medium & High Density zones
+
+    \- NY Tileset
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36086-ny-building-11/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/Day.jpg.64a08e4a4b9f8f68ba1954c3564003d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/Night.jpg.0954ccaabcf962d5eb739835429ed7b7.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-ny-building-11-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-ny-building-11-darknite
+
+---
+assetId: wannglondon-ny-building-11-darknite
+version: "1.0.0"
+lastModified: "2024-02-02T17:18:24Z"
+url: https://community.simtropolis.com/files/file/36086-ny-building-11/?do=download&r=199668

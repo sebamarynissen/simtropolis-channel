@@ -1,0 +1,35 @@
+group: wannglondon
+name: ny-building-12
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: NY Building 12
+  description: |-
+    A luxurious, pre-war building based on one found in the West Village of Manhattan. Mirror version included.
+
+    \- High wealth residential
+
+    \- NY Tileset
+
+    \- Medium & High Density zones
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36087-ny-building-12/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/Day1.jpg.8e6054f3427b483cbcc0b0d4b0f4726f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/Night1.jpg.def41d14d9d19c45146a890e31f75801.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-ny-building-12-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-ny-building-12-darknite
+
+---
+assetId: wannglondon-ny-building-12-darknite
+version: "1.0.0"
+lastModified: "2024-02-02T17:20:25Z"
+url: https://community.simtropolis.com/files/file/36087-ny-building-12/?do=download&r=199671
