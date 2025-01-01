@@ -136,20 +136,24 @@ export default class Downloader {
 			if (err) return closed.reject(err);
 			zipFile.once('end', () => closed.resolve());
 			zipFile.on('entry', async entry => {
-				if (!entry.fileName.endsWith('/')) {
-					let to = path.join(destination, entry.fileName);
-					let dir = path.dirname(to);
-					await fs.promises.mkdir(dir, { recursive: true });
-					let ws = fs.createWriteStream(to);
-					let rs = await new Promise((resolve) => {
-						zipFile.openReadStream(entry, (err, rs) => {
-							if (err) closed.reject(err);
-							else resolve(rs);
+				try {
+					if (!entry.fileName.endsWith('/')) {
+						let to = path.join(destination, entry.fileName);
+						let dir = path.dirname(to);
+						await fs.promises.mkdir(dir, { recursive: true });
+						let ws = fs.createWriteStream(to);
+						let rs = await new Promise((resolve) => {
+							zipFile.openReadStream(entry, (err, rs) => {
+								if (err) closed.reject(err);
+								else resolve(rs);
+							});
 						});
-					});
-					rs.pipe(ws);
-					await finished(ws);
+						rs.pipe(ws);
+						await finished(ws);
+					}
 					zipFile.readEntry();
+				} catch (e) {
+					closed.reject(e);
 				}
 			});
 			zipFile.readEntry();
