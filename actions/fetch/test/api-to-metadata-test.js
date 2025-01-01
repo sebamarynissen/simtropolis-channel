@@ -150,4 +150,14 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('slugifies $ to s', function() {
+
+		let upload = faker.upload({
+			title: 'R$$ Homes',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('rss-homes');
+
+	});
+
 });
