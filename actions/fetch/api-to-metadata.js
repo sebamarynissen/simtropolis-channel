@@ -11,7 +11,7 @@ import { slugify } from './util.js';
 export default function apiToMetadata(json) {
 	let pkg = {
 		group: slugify(json.author),
-		name: json.aliasEntry,
+		name: slugifyTitle(json.title),
 		version: json.release,
 		subfolder: getSubfolder(json),
 		info: {
@@ -106,4 +106,9 @@ function normalizeDate(date) {
 	} else {
 		return normalized;
 	}
+}
+
+// # slugifyTitle(title)
+function slugifyTitle(title) {
+	return slugify(title.replaceAll(/\$/g, 's'));
 }
