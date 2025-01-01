@@ -37,7 +37,6 @@ function h(tag, attrs = {}, children = []) {
 // # install(packages)
 // Even handler called when the "Install with sc4pac" buton is clicked.
 async function install(packages) {
-	console.log(packages);
 	let payload = packages.map(pkg => {
 		return {
 			package: `${pkg.group}:${pkg.name}`,
