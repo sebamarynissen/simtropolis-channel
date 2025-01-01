@@ -28,34 +28,34 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
-      - assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
+      - assetId: wannglondon-mediterranean-buildings-13-14-maxisnite-part-1
+      - assetId: wannglondon-mediterranean-buildings-13-14-maxisnite-part-2
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: wannglondon-mediterranean-buildings-13-14-darknite
-      - assetId: wannglondon-mediterranean-buildings-13-14-darknite
+      - assetId: wannglondon-mediterranean-buildings-13-14-darknite-part-1
+      - assetId: wannglondon-mediterranean-buildings-13-14-darknite-part-2
 
 ---
-assetId: wannglondon-mediterranean-buildings-13-14-darknite
+assetId: wannglondon-mediterranean-buildings-13-14-darknite-part-1
 version: "1.0.0"
 lastModified: "2021-11-30T22:01:05Z"
 url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190714
 
 ---
-assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
+assetId: wannglondon-mediterranean-buildings-13-14-maxisnite-part-1
 version: "1.0.0"
 lastModified: "2021-11-30T22:01:05Z"
 url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190715
 
 ---
-assetId: wannglondon-mediterranean-buildings-13-14-darknite
+assetId: wannglondon-mediterranean-buildings-13-14-darknite-part-2
 version: "1.0.0"
 lastModified: "2021-11-30T22:01:05Z"
 url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190716
 
 ---
-assetId: wannglondon-mediterranean-buildings-13-14-maxisnite
+assetId: wannglondon-mediterranean-buildings-13-14-maxisnite-part-2
 version: "1.0.0"
 lastModified: "2021-11-30T22:01:05Z"
 url: https://community.simtropolis.com/files/file/34770-mediterranean-buildings-13-14/?do=download&r=190717

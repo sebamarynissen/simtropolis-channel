@@ -22,22 +22,22 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: wannglondon-paris-batiments-32-33-darknite
-      - assetId: wannglondon-paris-batiments-32-33-darknite
+      - assetId: wannglondon-paris-batiments-32-33-darknite-part-1
+      - assetId: wannglondon-paris-batiments-32-33-darknite-part-2
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: wannglondon-paris-batiments-32-33-darknite
-      - assetId: wannglondon-paris-batiments-32-33-darknite
+      - assetId: wannglondon-paris-batiments-32-33-darknite-part-1
+      - assetId: wannglondon-paris-batiments-32-33-darknite-part-2
 
 ---
-assetId: wannglondon-paris-batiments-32-33-darknite
+assetId: wannglondon-paris-batiments-32-33-darknite-part-1
 version: "1.0.0"
 lastModified: "2023-06-23T02:28:18Z"
 url: https://community.simtropolis.com/files/file/35555-paris-batiments-32-33/?do=download&r=197281
 
 ---
-assetId: wannglondon-paris-batiments-32-33-darknite
+assetId: wannglondon-paris-batiments-32-33-darknite-part-2
 version: "1.0.0"
 lastModified: "2023-06-23T02:28:18Z"
 url: https://community.simtropolis.com/files/file/35555-paris-batiments-32-33/?do=download&r=197282

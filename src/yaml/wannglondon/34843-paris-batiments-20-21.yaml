@@ -26,34 +26,34 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: wannglondon-paris-batiments-20-21-maxisnite
-      - assetId: wannglondon-paris-batiments-20-21-maxisnite
+      - assetId: wannglondon-paris-batiments-20-21-maxisnite-part-1
+      - assetId: wannglondon-paris-batiments-20-21-maxisnite-part-2
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: wannglondon-paris-batiments-20-21-darknite
-      - assetId: wannglondon-paris-batiments-20-21-darknite
+      - assetId: wannglondon-paris-batiments-20-21-darknite-part-1
+      - assetId: wannglondon-paris-batiments-20-21-darknite-part-2
 
 ---
-assetId: wannglondon-paris-batiments-20-21-darknite
+assetId: wannglondon-paris-batiments-20-21-darknite-part-1
 version: "1.0.0"
 lastModified: "2022-01-29T21:43:36Z"
 url: https://community.simtropolis.com/files/file/34843-paris-batiments-20-21/?do=download&r=191277
 
 ---
-assetId: wannglondon-paris-batiments-20-21-maxisnite
+assetId: wannglondon-paris-batiments-20-21-maxisnite-part-1
 version: "1.0.0"
 lastModified: "2022-01-29T21:43:36Z"
 url: https://community.simtropolis.com/files/file/34843-paris-batiments-20-21/?do=download&r=191278
 
 ---
-assetId: wannglondon-paris-batiments-20-21-darknite
+assetId: wannglondon-paris-batiments-20-21-darknite-part-2
 version: "1.0.0"
 lastModified: "2022-01-29T21:43:36Z"
 url: https://community.simtropolis.com/files/file/34843-paris-batiments-20-21/?do=download&r=191279
 
 ---
-assetId: wannglondon-paris-batiments-20-21-maxisnite
+assetId: wannglondon-paris-batiments-20-21-maxisnite-part-2
 version: "1.0.0"
 lastModified: "2022-01-29T21:43:36Z"
 url: https://community.simtropolis.com/files/file/34843-paris-batiments-20-21/?do=download&r=191280
