@@ -14,7 +14,7 @@ try {
 } catch {}
 
 let files = [
-	'content.js',
+	'stex.js',
 	'background.js',
 	'copy.js',
 ];

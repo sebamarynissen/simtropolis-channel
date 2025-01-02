@@ -67,6 +67,7 @@ setup({
 	}, [
 		h('a', {
 			href: getViewUrl(),
+			target: '_blank',
 			style: 'text-decoration: underline;',
 		}, 'View on sc4pac website'),
 	]));
