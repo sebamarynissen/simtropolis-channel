@@ -1,0 +1,30 @@
+group: blam
+name: blank
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Blank
+  description: |-
+    This is a very small download specifically aimed at people using the Lot Editor. It is **NOT** a model as such, nor is it a prop, it is simply a small blank that can be used in place of a building so you can make your own lots without the need to actually place a building on them.
+
+    In this archive you will find a single file: BLaM\-0x5ad0e817\_0x713d210c\_0x30000.SC4Model
+
+    To use this blank you will first need to rename it to whatever you want, i.e: My\_Building-0x5ad0e817\_0x713d210c\_0x30000.SC4Model, and having done that (making sure that this file is in your ***My Documents/SimCity 4/Plugins*** folder) open the **Plugin Manager** to create the .sc4desc file that will be associated with the blank. This is where you give the lot it's resulting statistics and characteristics. For example, if you want a landmark building you would drag the model file onto the Landmark option in the folder tree to the left of Plugin Manager and then adjust the settings to your taste. Likewise, to create a library, drag the model file to the library option within the folder tree.
+
+    Having created the .sc4desc file you may close the Plugin Manager and open the **Lot Editor**. Here you will need to select an existing lot of the same type as you have just created within the Plugin Manager. Thus, if you have created an .sc4desc file for a Landmark lot you **MUST** open a Landmark lot. Now select the Building tab in the Lot Editor, click on Replace Item, and select the blank from the resulting menu. Now finish off your new lot with the props of your choosing and save it with a NEW name ... **DO NOT** save it with the name of the lot you opened as this will replace the in-game lot (though that lot will reappear if you simply delete the new one from your Plugins folder).
+
+    And that's all there is to it. You may freely use this blank in any lots you create and distribute without having to ask permission, though a mention would be nice!
+
+    Remember, this is not a building, or a lot, or a prop ... it is simply a small 1 metre square blank to enable you to create your own lots without the need for a building *per se*. Before you comment please be aware of just exactly what this file is. Don't go and comment "What's this?" as the explanation is right here! This is a file for people who need to create a blank lot ... it is nothing more!
+  author: onlyplace4
+  website: https://community.simtropolis.com/files/file/17996-blam-blank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/ea4e859e96c796ba2d1864d0202eea77-pic1.jpg
+assets:
+  - assetId: blam-blank
+
+---
+assetId: blam-blank
+version: "1.0"
+lastModified: "2007-04-12T15:30:09Z"
+url: https://community.simtropolis.com/files/file/17996-blam-blank/?do=download&r=85730

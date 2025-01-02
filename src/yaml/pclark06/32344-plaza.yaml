@@ -1,0 +1,52 @@
+group: pclark06
+name: plaza
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Plaza
+  description: |-
+    Because your city can never have enough shopping centers. 6x4 landmark with a 25,000 plop cost.   
+      
+    Brands featured: Five Below, Wingstop, Smashburger, PPG, Sports Clips, Marco's Pizza, H&R Block.
+
+    Lotting by [@RRetail](https://community.simtropolis.com/profile/744613-rretail/). Thanks again for the lotting.
+
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC MEGA Props MJB Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC \- VIP Girafe Trees/Shrubs
+        -   [Ash Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/32344-pc-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/5b391b9bc1ff9_Programmia-Sep.13411530468192.png.4e9e1b3443c64f6532c909488b1333b3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/5b391ba0827d2_Programmia-Jun.14411530468162.png.f8ebbab28f03f3ac65ae478f298fbfa4.png
+dependencies:
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-plaza
+
+---
+assetId: pclark06-plaza
+version: "1.0"
+lastModified: "2018-07-01T18:24:44Z"
+url: https://community.simtropolis.com/files/file/32344-pc-plaza/?do=download&r=171453

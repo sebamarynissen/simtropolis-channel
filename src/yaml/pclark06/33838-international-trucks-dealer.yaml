@@ -1,0 +1,53 @@
+group: pclark06
+name: international-trucks-dealer
+version: "1.0.1"
+subfolder: 400-industrial
+info:
+  summary: International Trucks Dealer
+  description: |-
+    International Trucks is an American truck brand that is a subsidiary of Navistar International. They make heavy duty trucks and buses and are the fourth-largest truck brand by market share in the US, behind Kenworth, Peterbilt, and Freightliner. The branding on this is "Duran-Doran International Trucks," an obvious reference to the band Duran Duran.  
+      
+    I've had this in my HD for about a year, unfinished, but I realized it fit pretty snugly into the Freightliner lot [@kingofsimcity](https://community.simtropolis.com/profile/33566-kingofsimcity/) did, and made some changes, and it blended in quite well.   
+      
+    Includes a 11x7 LM and a 11x7 IM1 lot. I also realize, after the uploading, there might be a LOD issue with the shadows, so this building is kind of a beta at the moment. That's what I get for waiting a year before checking the model. (EDIT: I checked and it was just the time of day I placed the building. weird)
+
+    Dependencies:
+
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [BSC MEGA Props JES Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+    -   [BSC MEGA Props SG Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC MEGA Props CP Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    -   [HD North American 53ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/)
+    -   [HD North American Semi Truck Cabs Vol. 1](https://community.simtropolis.com/files/file/30732-hd-north-american-semi-truck-cabs-vol1/)
+    -   [Trucks & Trailers Prop Pack](https://community.simtropolis.com/files/file/32285-trucks-trailers-prop-pack/)
+    -   **[KOSC Logistic Essentials (Dec 2018) (](https://community.simtropolis.com/files/file/31578-kosc-logistics-essentials-dec-2018-update/)formerly IdM - Trucking Essentials)**
+    -   [VIP girafe beeches](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+    -   [VIP girafe feather grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/33838-pc-international-trucks-dealer/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/intl3.png.3811985e91b47b6f8951631fb20c1d5a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/intl2.png.2bf7272e9b4a7a563ec402fe2ef5d7cc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/intl1.png.3cb8fd6df3181d6d3f72ceea2f05b886.png
+dependencies:
+  - angry-mozart:trucks-and-trailers-props
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:beeches
+  - girafe:feather-grass
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - mushymushy:na-semi-truck-cabs-vol1
+  - rretail:motel-6
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-international-trucks-dealer
+
+---
+assetId: pclark06-international-trucks-dealer
+version: "1.0.1"
+lastModified: "2021-12-01T14:17:34Z"
+url: https://community.simtropolis.com/files/file/33838-pc-international-trucks-dealer/?do=download&r=190722

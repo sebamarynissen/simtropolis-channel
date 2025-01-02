@@ -1,0 +1,59 @@
+group: pclark06
+name: checker-schucks-kragen-auto-parts
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: Checker-Schucks-Kragen Auto Parts
+  description: |-
+    CSK Auto, Inc. was a specialty retailer of automotive parts and accessories in the western United States. It was acquired in 2008 by O'Reilly Automotive. At their peak they had over 1,200 locations from Hawaii to Ohio. All the locations were converted to O'Reilly locations by 2011, but the chain lives on once again for SimCity 4.  
+      
+    Checker: Their largest brand, located in the southwest in Arizona, New Mexico, and into Colorado and the plains, as well as Hawaii.  
+    Schucks: Northwest; Oregon, Idaho and Washington.  
+    Kragen: California.
+
+    They also acquired Murray's Auto Parts and kept that branding, which was a chain in the Great Lakes (I did not make that for the game).  
+      
+    3x2 Stage 1 CS$$ Grow.  
+      
+    Dependencies:
+
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [PC Mega Props Vol 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+    -   [PC Mega Props Vol 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+    -   [RR Mega Prop Pack 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC \- VIP Girafe Trees/Shrubs
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/33534-pc-checker-schucks-kragen-auto-parts/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e8737ae35425_Saxton-Jul.22231585758476.png.0b8420d9d9d098fc6b3dfe76c3669dd5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e8737ca427fe_Penceville-Feb.12121585758913.png.25d7772094feea417d86882046cde7a4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e8737ccd7190_Penceville-Feb.15121585758951.png.067e92795498dbf06637f45f9572c9ab.png
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:poplars
+  - girafe:rowan-trees
+  - pclark06:mega-props-vol1
+  - pclark06:mega-props-vol2
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-checker-schucks-kragen-auto-parts
+
+---
+assetId: pclark06-checker-schucks-kragen-auto-parts
+version: "1.0.1"
+lastModified: "2020-04-03T21:05:48Z"
+url: https://community.simtropolis.com/files/file/33534-pc-checker-schucks-kragen-auto-parts/?do=download&r=180522

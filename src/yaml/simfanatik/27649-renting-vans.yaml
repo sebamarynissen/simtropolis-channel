@@ -1,0 +1,55 @@
+group: simfanatik
+name: renting-vans
+version: "1.0a"
+subfolder: 100-props-textures
+info:
+  summary: Renting Vans
+  description: |-
+    6 New Additional UDI AUTOMATAS
+
+    \------ Software -----
+
+    \------Hardware -----
+
+    Includes 6 New Additional ( Lot Editor ) Props
+
+    All in High Definition !
+
+    Enjoy !
+
+    Simfanatik !
+  author: Simfanatik
+  website: https://community.simtropolis.com/files/file/27649-renting-vans/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/a4bc6674574fad312d0e1d459781d0a6-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/a77824dcf490dec9b6d34a2675b91ca8-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/c84250fb8ad31b33c947cceaa7784465-.png
+variants:
+  - variant: { "simfanatik:renting-vans:resolution": "hd" }
+    assets:
+    - assetId: simfanatik-renting-vans-part-0
+      include:
+        - HARDWARE.dat
+    - assetId: simfanatik-renting-vans-part-1
+      include:
+        - HD.dat
+  - variant: { "simfanatik:renting-vans:resolution": "sd" }
+    assets:
+    - assetId: simfanatik-renting-vans-part-0
+      include:
+        - SOFTWARE.dat
+    - assetId: simfanatik-renting-vans-part-1
+      include:
+        - SD.dat
+
+---
+assetId: simfanatik-renting-vans-part-0
+version: "1.0a"
+lastModified: "2018-09-07T10:38:06Z"
+url: https://community.simtropolis.com/files/file/27649-renting-vans/?do=download&r=172573
+
+---
+assetId: simfanatik-renting-vans-part-1
+version: "1.0a"
+lastModified: "2018-09-07T10:38:06Z"
+url: https://community.simtropolis.com/files/file/27649-renting-vans/?do=download&r=172574
