@@ -121,7 +121,8 @@ class Plugin {
 		});
 		let body = JSON.stringify(payload);
 		try {
-			await fetch(`${this.server}/packages.open`, {
+			let res = await fetch(`${this.server}/packages.open`, {
+				signal: AbortSignal.timeout(1_000),
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
@@ -129,6 +130,9 @@ class Plugin {
 				},
 				body,
 			});
+			if (res.status >= 300) {
+				this.showDialog();
+			}
 		} catch {
 			this.showDialog();
 		}
