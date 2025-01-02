@@ -20,6 +20,7 @@ class Plugin {
 	index = {};
 	id = '';
 	externalId = '';
+	server = localStorage['sc4pac:server'] || 'http://localhost:51515';
 
 	// ## constructor(opts)
 	constructor(opts) {
@@ -120,7 +121,7 @@ class Plugin {
 		});
 		let body = JSON.stringify(payload);
 		try {
-			await fetch(`http://localhost:51515/packages.open`, {
+			await fetch(`${this.server}/packages.open`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
@@ -128,11 +129,59 @@ class Plugin {
 				},
 				body,
 			});
-		} catch (e) {
-			if (e instanceof TypeError) {
-				alert('The sc4pac gui needs to be active before you can use this button!');
-			}
+		} catch {
+			this.showDialog();
 		}
+	}
+
+	// ## showDialog()
+	showDialog() {
+		let dialog = h('dialog', {
+			id: 'sc4pac-config',
+			style: 'font-size: 16px; max-width: 640px;',
+		});
+		let { server } = this;
+		document.body.appendChild(dialog);
+		let input = h('input', {
+			type: 'url',
+			required: true,
+			value: server,
+		});
+		let button = h('button', {}, 'Close window');
+		let form = h('form', {}, [
+			h('label', {}, 'sc4pac server'),
+			h('div', {}, [
+				input,
+				h('button', {}, 'Save'),
+			]),
+		]);
+		let div = h('div', {}, [
+			h('p', {}, [
+				'Sc4pac needs to be running before you can use this button. For more info, visit ',
+				h('a', {
+					href: 'https://community.simtropolis.com/forums/topic/762677-sc4pac-lets-write-our-own-package-manager',
+					style: 'text-decoration: underline',
+				}, 'the official support thread'),
+				'.',
+			]),
+			h('details', {}, [
+				h('summary', { style: 'cursor: pointer' }, 'Options'),
+				form,
+			]),
+			h('div', { style: 'margin-top: 8px' }, button),
+		]);
+		button.addEventListener('click', () => {
+			dialog.close();
+			dialog.remove();
+		});
+		form.addEventListener('submit', event => {
+			event.preventDefault();
+			this.server = localStorage['sc4pac:server'] = input.value;
+			dialog.close();
+			dialog.remove();
+		});
+		dialog.appendChild(div);
+		dialog.showModal();
 	}
 
 	// ## getViewUrl()
