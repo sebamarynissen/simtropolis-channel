@@ -1,0 +1,97 @@
+group: nofunk
+name: bsp-park-shelton-hotel
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: BSP Park Shelton Hotel
+  description: |-
+    The **Barry Sanders Project** presents the Park Shelton Hotel!
+
+    The Park Shelton, originally named The Wardell, was built in 1927 at the corner of Woodward and Kirby in midtown Detroit, Michigan. It was home to artist Diego Rivera while he worked on his mural at the Detroit Institute of Arts, and was the hotel of choice for celebrities such as Bob Hope, Gracie Allen and George Burns when they visited the city.
+
+    In 2004 the building was completely refurbished and converted into luxury condominiums.
+
+    There are four versions available:
+
+    • Growable R$$$ (Park Shelton Condominiums)
+
+    • Growable CS$$$ (Park Shelton Hotel)
+
+    • Ploppable CS$$$ (Park Shelton Hotel)
+
+    • Landmark ("The Park Shelton")
+
+    * * *
+
+    Files included:
+
+    **nofunk\_Park\_Shelton\_REQUIRED.SC4Model**
+
+    This file includes the building model and is REQUIRED. Features TruNite.
+
+    **CS$$$6\_4x3\_Park\_Shelton\_Hotel\_GROW.dat**
+
+    Occupants: 524
+
+    Tileset: Chicago
+
+    Density: High
+
+    Lot size: 4x3
+
+    **CS$$$\_4x3\_Park\_Shelton\_Hotel\_PLOP.SC4LOT**
+
+    Occupants: 524
+
+    Plop cost: $54,000
+
+    Lot size: 4x3
+
+    **R$$$7\_4x3\_Park\_Shelton\_Condos\_GROW.dat**
+
+    Occupants: 848
+
+    Tileset: Chicago
+
+    Density: High
+
+    Lot size: 4x3
+
+    **LM\_4x3\_Park\_Shelton.SC4LOT**
+
+    Occupants: 0
+
+    Plop cost: $54,000
+
+    Landmark effect: 32 across 16 tiles
+
+    Mayor rating: 10 across 64 tiles
+
+    Monthly cost: $35
+
+    (A readme and two screen shots are also included; these are not required for game play.)
+
+    * * *
+
+    **Installation Instructions:**
+
+    Simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the folder labeled "Model File - REQUIRED" in your Plugins or you will get a brown box in the game.
+
+    * * *
+
+    Created by: Nofunk
+
+    Custom queries: JasonCW
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/22894-bsp-park-shelton-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d5176bd48bb099fc6447a1b02e79defc-parkshelton1.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d5176bd48bb099fc6447a1b02e79defc-parkshelton2.jpg
+assets:
+  - assetId: nofunk-bsp-park-shelton-hotel
+
+---
+assetId: nofunk-bsp-park-shelton-hotel
+version: "1.0"
+lastModified: "2009-11-25T13:37:52Z"
+url: https://community.simtropolis.com/files/file/22894-bsp-park-shelton-hotel/?do=download&r=49495

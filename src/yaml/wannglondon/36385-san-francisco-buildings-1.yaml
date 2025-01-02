@@ -1,0 +1,32 @@
+group: wannglondon
+name: san-francisco-buildings-1
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: San Francisco Buildings 1
+  description: |-
+    It has always astonished me how few BATs there are from beautiful San Francisco, California. This is my attempt to help close that gap.
+
+    \- R$$ Stage 5
+
+    \- 1x2 lots
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36385-san-francisco-buildings-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/SF.jpg.b4052ab6fbc9f4f09e5bc8f5094c129d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-san-francisco-buildings-1-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-san-francisco-buildings-1-darknite
+
+---
+assetId: wannglondon-san-francisco-buildings-1-darknite
+version: "1.0.0"
+lastModified: "2024-08-09T16:37:54Z"
+url: https://community.simtropolis.com/files/file/36385-san-francisco-buildings-1/?do=download&r=202362

@@ -1,0 +1,49 @@
+group: nofunk
+name: centre-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Centre Building
+  description: |-
+    **Happy 100 million downloads on the STEX!**
+
+    The Centre Building stands at 212 W. Wisconsin Avenue in downtown Milwaukee, Wisconsin. Originally opened as the Grand Warner Theatre in 1931, the 12-story Art Deco office tower is now home to the Center Theatre Corporation and the Downtown Milwaukee visitor center. Its elaborate trompe l'oeil mural on the east wall makes it a landmark on the city's Wisconsin Avenue corridor.
+
+    The Centre Building provides 331 CO$$ jobs. Add this Midwest gem to your city today!
+
+    A collaboration between nofunk and Jasoncw! Special thanks to Jasoncw for the fantastic texture work!
+
+    \- 1x2 growable and ploppable CO$$ versions
+
+    \- Grows in the New York tileset
+
+    \- Available in MaxisNite and DarkNite
+
+    \- DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)
+
+    ![8gN2p0D.jpg](http://i.imgur.com/8gN2p0D.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/30343-centre-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/8c500c9c5b9896fe884c88f73896d553-centre-bldg-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/d2833483dc0a77af4498c849d99b361f-centre-bldg-stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-centre-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-centre-building-darknite
+
+---
+assetId: nofunk-centre-building-darknite
+version: "1.0"
+lastModified: "2015-03-28T20:30:21Z"
+url: https://community.simtropolis.com/files/file/30343-centre-building/?do=download&r=151719
+
+---
+assetId: nofunk-centre-building-maxisnite
+version: "1.0"
+lastModified: "2015-03-28T20:30:21Z"
+url: https://community.simtropolis.com/files/file/30343-centre-building/?do=download&r=151720

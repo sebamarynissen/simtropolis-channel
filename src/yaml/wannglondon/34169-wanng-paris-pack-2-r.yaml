@@ -1,0 +1,50 @@
+group: wannglondon
+name: wanng-paris-pack-2-rss
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: WannG Paris Pack 2 R$$
+  description: |-
+    Following-up on my Paris Pack 1, here is a series of medium-wealth models inspired by the City of Light. More importantly, I have created two (2) 1x3 models/lots as there are no 1x3 Parisian lots that I am aware of. Please excuse the 'no road access' zots in the screenshots LOL.
+
+    High wealth models to come!
+
+    \- Medium wealth residential (stage 6)
+
+    \- Euro Tileset
+
+    \- Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*These have been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34169-wanng-paris-pack-2-r/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/60344d80a1a2d_ParisPack2Day.png.d2e07f7f7dcc6d051c477449d39a6f39.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/60344d83db23c_ParisPack2NightBack.png.48713a4db364664e23aedd90dcac29ae.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/60344d8bac47d_ParisPack2NightFront.png.9606bd2c2ef3bd30a3579542c30884da.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-wanng-paris-pack-2-r-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-wanng-paris-pack-2-r-darknite
+
+---
+assetId: wannglondon-wanng-paris-pack-2-r-darknite
+version: "1.0.0"
+lastModified: "2021-02-23T00:36:42Z"
+url: https://community.simtropolis.com/files/file/34169-wanng-paris-pack-2-r/?do=download&r=185537
+
+---
+assetId: wannglondon-wanng-paris-pack-2-r-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-23T00:36:42Z"
+url: https://community.simtropolis.com/files/file/34169-wanng-paris-pack-2-r/?do=download&r=185538

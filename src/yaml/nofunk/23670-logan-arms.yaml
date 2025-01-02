@@ -1,0 +1,87 @@
+group: nofunk
+name: logan-arms
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Logan Arms
+  description: |-
+    The Logan Arms Apartments is located at the intersection of Kedzie and Wrightwood in Chicago's Logan Square neighborhood. The neighborhood is solidly middle-class, but I have included an R$$$ version in addition to the R$$ since the building is so ornate.
+
+    This building is wall-to-wall along the front (narrow) side.
+
+    There are two versions available:
+
+    + Growable high-wealth residential
+
+    \+ Growable medium-wealth residential
+
+    * * *
+
+    Files included:
+
+    **LoganRC1-M-0x5ad0e817\_0xb9116c49\_0x40000.SC4Model**
+
+    This file includes the building and is REQUIRED.
+
+    R$$6\_1x3\_Logan\_Square\_Apts.dat
+
+    Occupants: 199
+
+    Tileset: Chicago
+
+    Density: Medium, High
+
+    Lot size: 1x3
+
+    **R$$$6\_1x3\_Logan\_Square\_Apts.dat**
+
+    Occupants: 88
+
+    Tileset: Chicago
+
+    Density: Medium, High
+
+    Lot size: 1x3
+
+    (A readme and two screen shots are also included; these are not required for game play.)
+
+    * * *
+
+    **Installation Instructions:**
+
+    **NOTE:** This is the "regular" MaxisNite version of Logan Arms. A DarkNite version will be released separately. Do not use both versions in the game at the same time!
+
+    To use this building in the game, simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the file ending with ".SC4Model" in your Plugins folder or you will get a brown box in the game.
+
+    * * *
+
+    A very special thank you to **SimFox** for his invaluable help with textures, lighting and exporting!
+  author: nofunk
+  websites:
+    - https://community.simtropolis.com/files/file/23670-logan-arms/
+    - https://community.simtropolis.com/files/file/23671-logan-arms-darknite-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/fee46d3761e901278e01547e4d3df356-loganarms_ingame1.jpg
+    - https://www.simtropolis.com/objects/screens/0028/fee46d3761e901278e01547e4d3df356-loganarms_ingame2.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9c016041022a7937df7aa7078e91dbe0-loganarms_ingame1.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9c016041022a7937df7aa7078e91dbe0-loganarms_ingame2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-logan-arms-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-logan-arms-darknite
+
+---
+assetId: nofunk-logan-arms-maxisnite
+version: "1.0"
+lastModified: "2010-04-08T11:06:14Z"
+url: https://community.simtropolis.com/files/file/23670-logan-arms/?do=download&r=50551
+
+---
+assetId: nofunk-logan-arms-darknite
+version: "1.0"
+lastModified: "2010-04-08T11:28:06Z"
+url: https://community.simtropolis.com/files/file/23671-logan-arms-darknite-version/?do=download&r=50553

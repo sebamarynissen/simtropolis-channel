@@ -1,0 +1,37 @@
+group: nofunk
+name: carew-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Carew Tower
+  description: |-
+    Carew Tower is an art deco skyscraper located in Cincinnati, Ohio, USA. Completed in 1930, it stands 49 stories tall, making it the tallest building in the city. It was named after Joseph T. Carew, the proprietor of a local department store chain.
+
+    -   8x4 Co$$ growable and ploppable, with 4,268 jobs
+    -   Available in both MaxisNite and DarkNite
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+    -   Readme included. No dependencies!
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/27242-carew-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/30a9e0c40d0ce9f6de9b89ce1da8b81d-carew_stex1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-carew-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-carew-tower-darknite
+
+---
+assetId: nofunk-carew-tower-darknite
+version: "1.0"
+lastModified: "2012-01-29T20:15:13Z"
+url: https://community.simtropolis.com/files/file/27242-carew-tower/?do=download&r=96533
+
+---
+assetId: nofunk-carew-tower-maxisnite
+version: "1.0"
+lastModified: "2012-01-29T20:15:13Z"
+url: https://community.simtropolis.com/files/file/27242-carew-tower/?do=download&r=96534

@@ -1,0 +1,45 @@
+group: nofunk
+name: finch-co
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Finch & Co.
+  description: |-
+    Finch & Co. is an 8-story wall-to-wall commercial building that provides 305 medium-wealth office jobs for your city. Grow or plop Finch & Co. in your city today!
+
+    -     
+           
+        
+    -   2x2 Co$$ growable and ploppable.  
+        
+    -   Available in both MaxisNite and DarkNite.  
+        
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+        
+
+    ![finchco2.jpg](http://img.photobucket.com/albums/v239/funksterboy/finchco2.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/26952-finch-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/b18d24360530dc7a99c125847a6584dd-finchco1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/6cbfa0c4a5ec17d8f83d6a87b9485de3-finchco3.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-finch-co-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-finch-co-darknite
+
+---
+assetId: nofunk-finch-co-darknite
+version: "1.0"
+lastModified: "2011-11-08T00:07:34Z"
+url: https://community.simtropolis.com/files/file/26952-finch-co/?do=download&r=93906
+
+---
+assetId: nofunk-finch-co-maxisnite
+version: "1.0"
+lastModified: "2011-11-08T00:07:34Z"
+url: https://community.simtropolis.com/files/file/26952-finch-co/?do=download&r=93907

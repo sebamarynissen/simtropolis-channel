@@ -1,0 +1,34 @@
+group: wannglondon
+name: tower-4
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Tower 4
+  description: |-
+    Needed some generic, mid-century residential towers to fill my cities so I created this.
+
+    \- 3 x 2 R$$
+
+    \- Houston tileset
+
+    \- High Density
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36253-tower-4/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/6647e27eb4c5e_TowerDay.jpg.9ffefa3d739ca575edb72524765a8e9b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-tower-4-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-tower-4-darknite
+
+---
+assetId: wannglondon-tower-4-darknite
+version: "1.0.0"
+lastModified: "2024-05-17T23:06:09Z"
+url: https://community.simtropolis.com/files/file/36253-tower-4/?do=download&r=201367

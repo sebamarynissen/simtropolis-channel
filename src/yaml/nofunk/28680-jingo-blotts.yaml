@@ -1,0 +1,42 @@
+group: nofunk
+name: jingo-and-blotts
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Jingo & Blotts
+  description: |-
+    For over 100 years, Jingo & Blotts have stood side-by-side bringing you the finest quality things! Big things, small things, rare and collectible things, things you didn't even know you needed! So stop in to Jingo & Blotts today and discover something new!
+
+    -   This is a 1x2, stage 3 Cs$$ for the Chicago tileset that provides 37 jobs.  
+        
+    -   Available in both MaxisNite and DarkNite.  
+        
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+        
+
+    ![3jdZ2Gn.jpg](http://i.imgur.com/3jdZ2Gn.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28680-jingo-blotts/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/aa8cb6843ce97d5dc9d4afe8c69ea7bc-jingoblotts_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/f6c1ed57c74811f14c076111daa17185-jingoblotts_stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-jingo-blotts-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-jingo-blotts-darknite
+
+---
+assetId: nofunk-jingo-blotts-darknite
+version: "1.0"
+lastModified: "2013-05-04T21:03:06Z"
+url: https://community.simtropolis.com/files/file/28680-jingo-blotts/?do=download&r=114827
+
+---
+assetId: nofunk-jingo-blotts-maxisnite
+version: "1.0"
+lastModified: "2013-05-04T21:03:06Z"
+url: https://community.simtropolis.com/files/file/28680-jingo-blotts/?do=download&r=114828

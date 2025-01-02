@@ -2,6 +2,7 @@
 import { expect } from 'chai';
 import { Document, parseAllDocuments, stringify } from 'yaml';
 import mime from 'mime';
+import fs from 'node:fs';
 import path from 'node:path';
 import yazl from 'yazl';
 import { Volume } from 'memfs';
@@ -31,7 +32,8 @@ describe('The fetch action', function() {
 			const {
 				handler = () => void 0,
 				permissions = null,
-				uploads,
+				upload,
+				uploads = [upload],
 				lastRun,
 				now = Date.now(),
 			} = testOptions;
@@ -118,7 +120,7 @@ describe('The fetch action', function() {
 						// the upload.
 						let zipFile = new yazl.ZipFile();
 						for (let [name, raw] of Object.entries(contents)) {
-							if (typeof raw === 'object') {
+							if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
 								raw = jsonToYaml(raw);
 							}
 							zipFile.addBuffer(Buffer.from(raw), name);
@@ -1085,6 +1087,118 @@ describe('The fetch action', function() {
 		const { result } = await run({ id: upload.id });
 		expect(result.metadata[0].info.description).to.include('[https://community.simtropolis.com/files/file/1-one](https://community.simtropolis.com/files/file/1-one)');
 		expect(result.metadata[0].info.description).to.include('[https://community.simtropolis.com/files/file/2-two](https://community.simtropolis.com/files/file/2-two)');
+
+	});
+
+	it('a package with a CAM variant', async function() {
+
+		this.timeout(5000);
+		const file = async (name) => await fs.promises.readFile(
+			path.join(import.meta.dirname, name),
+		);
+
+		const upload = faker.upload({
+			title: 'Tower',
+			author: 'author',
+			files: [
+				{
+					name: 'Tower.zip',
+					contents: {
+						'metadata.yaml': '',
+						'growables/growable C$$.SC4Desc': await file('detect-growables/growable.SC4Desc'),
+						'growables/growable.SC4Lot': await file('detect-growables/growable.SC4Lot'),
+						'ploppable.SC4Lot': await file('detect-growables/ploppable.SC4Lot'),
+					},
+				},
+				{
+					name: 'Tower (CAM).zip',
+					contents: {
+						'cam.SC4Desc': '',
+						'cam.SC4Lot': '',
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let { variants } = result.metadata[0];
+		expect(variants).to.eql([
+			{
+				variant: { CAM: 'no' },
+				assets: [
+					{
+						assetId: 'author-tower',
+					},
+				],
+			},
+			{
+				variant: { CAM: 'yes' },
+				assets: [
+					{
+						assetId: 'author-tower',
+						exclude: [
+							'/growables\\/growable C\\$\\$\\.SC4Desc$',
+							'/growables/growable.SC4Lot',
+						],
+					},
+					{ assetId: 'author-tower-cam' },
+				],
+			},
+		]);
+
+	});
+
+	it('a darnkite-only package', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'tower',
+			files: [
+				{
+					name: 'Tower_DN.zip',
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let { variants } = result.metadata[0];
+		expect(variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{ assetId: 'author-tower-darknite' },
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{ assetId: 'author-tower-darknite' },
+				],
+			},
+		]);
+
+	});
+
+	it('ensures uniqueness of the assets', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'World Trade Center',
+			files: [
+				'North Tower (MN).zip',
+				'North Tower (DN).zip',
+				'South Tower (MN).zip',
+				'South Tower (DN).zip',
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let [, ...assets] = result.metadata;
+		expect(assets[0].assetId).to.equal('author-world-trade-center-maxisnite-part-1');
+		expect(assets[1].assetId).to.equal('author-world-trade-center-darknite-part-1');
+		expect(assets[2].assetId).to.equal('author-world-trade-center-maxisnite-part-2');
+		expect(assets[3].assetId).to.equal('author-world-trade-center-darknite-part-2');
 
 	});
 

@@ -1,0 +1,35 @@
+group: wannglondon
+name: medit-bldg-50
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Medit Bldg 50
+  description: |-
+    Seaside flats found up and down the French Riviera.
+
+    \- 2x5 Medium/High Density
+
+    \- Medium-Wealth Residential
+
+    \- Houston Tileset
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35566-medit-bldg-50/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/Flats.jpg.f609fdac36d8d17add588423df2cca0e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/Flats2.jpg.ea5f6b51f4db0549677ef747d604799d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-medit-bldg-50-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-medit-bldg-50-darknite
+
+---
+assetId: wannglondon-medit-bldg-50-darknite
+version: "1.0.0"
+lastModified: "2023-07-14T19:01:48Z"
+url: https://community.simtropolis.com/files/file/35566-medit-bldg-50/?do=download&r=197331

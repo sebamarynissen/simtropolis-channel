@@ -1,0 +1,43 @@
+group: nofunk
+name: clock-shadow-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Clock Shadow Building
+  description: |-
+    Completed in 2012, the Clock Shadow Building is a new mixed-use building in Milwaukee's historic Walker's Point neighborhood. A model in sustainability, the building was constructed on a former brownfield site using salvaged materials and boasts features that are energy and water efficient as well as a vegetated roof.
+
+    Due to its green features, power and water consumption are half that of a typical Maxis building its size and pollution is reduced as well.
+
+    Add a little something green to your city today with the Clock Shadow Building!
+
+    -   This is a 1x3, stage 5 Cs$$$ for the Euro tileset that provides 34 jobs.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![GH7TRGB.jpg](http://i.imgur.com/GH7TRGB.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29039-clock-shadow-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/04c295a617217a9becf3119393ec831c-clockshadow1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/2dd81491e687d88af41523cebd2b5845-clockshadow2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-clock-shadow-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-clock-shadow-building-darknite
+
+---
+assetId: nofunk-clock-shadow-building-darknite
+version: "1.0"
+lastModified: "2013-11-05T03:16:02Z"
+url: https://community.simtropolis.com/files/file/29039-clock-shadow-building/?do=download&r=120895
+
+---
+assetId: nofunk-clock-shadow-building-maxisnite
+version: "1.0"
+lastModified: "2013-11-05T03:16:02Z"
+url: https://community.simtropolis.com/files/file/29039-clock-shadow-building/?do=download&r=120896

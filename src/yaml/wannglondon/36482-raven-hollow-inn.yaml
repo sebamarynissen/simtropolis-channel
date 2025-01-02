@@ -1,0 +1,30 @@
+group: wannglondon
+name: raven-hollow-inn
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Raven Hollow Inn
+  description: |-
+    Happy October everyone! This month marks the start of spooky season here in the states so I whipped up this fun, fantasy inn.
+
+    \- Landmark ploppable CS$$
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36482-raven-hollow-inn/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/Day.jpg.b3529c34d68e180ebc22529bd8858969.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-raven-hollow-inn-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-raven-hollow-inn-darknite
+
+---
+assetId: wannglondon-raven-hollow-inn-darknite
+version: "1.0.0"
+lastModified: "2024-10-01T17:52:53Z"
+url: https://community.simtropolis.com/files/file/36482-raven-hollow-inn/?do=download&r=203667

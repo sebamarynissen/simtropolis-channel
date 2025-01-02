@@ -1,0 +1,35 @@
+group: wannglondon
+name: tiki-tims
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Tiki Tim's
+  description: |-
+    I am quite enthralled by mid-century kitsch, art, and design (among other things) and so I created this fun bar/lounge.
+
+    \- 1x2 C$$
+
+    \- Chicago & NY Tileset
+
+    \- All densities
+
+    \- DarkNite Version only - this is an HD model
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36254-tiki-tims/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/6647e32b3b00a_TikiDay.jpg.0a6cc88189789cf8b836310b4badf7dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/6647e32c5e0dc_TikiNight.jpg.761a2abf97e71ec64b2b178fc84b5544.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-tiki-tims-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-tiki-tims-darknite
+
+---
+assetId: wannglondon-tiki-tims-darknite
+version: "1.0.0"
+lastModified: "2024-05-17T23:09:37Z"
+url: https://community.simtropolis.com/files/file/36254-tiki-tims/?do=download&r=201369
