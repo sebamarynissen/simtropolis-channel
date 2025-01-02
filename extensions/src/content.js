@@ -15,7 +15,7 @@ setup({
 	externalId: 'stex',
 	channels: ['sc4pac.sebamarynissen.dev'],
 	id: () => getIdFromUrl(),
-}).then(({ enabled, install, h }) => {
+}).then(({ enabled, install, getViewUrl, h }) => {
 
 	// If the current id was not found in one of the channels, we do nothing.
 	if (!enabled) return;
@@ -57,6 +57,18 @@ setup({
 	let li = h('li', {
 		style: 'filter:drop-shadow(0px 3px 3px #000000);',
 	}, [button]);
-	a.closest('ul').appendChild(li);
+
+	let ul = a.closest('ul');
+	ul.appendChild(li);
+
+	// Add a normal link as well.
+	ul.appendChild(h('li', {
+		style: 'text-align: right',
+	}, [
+		h('a', {
+			href: getViewUrl(),
+			style: 'text-decoration: underline;',
+		}, 'View on sc4pac website'),
+	]));
 
 });

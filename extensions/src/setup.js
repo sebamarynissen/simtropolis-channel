@@ -3,6 +3,7 @@ export default async function setup(opts) {
 	let plugin = new Plugin(opts);
 	let api = {
 		install: plugin.install.bind(plugin),
+		getViewUrl: plugin.getViewUrl.bind(plugin),
 		h,
 	};
 	let enabled = await plugin.setup();
@@ -108,7 +109,7 @@ class Plugin {
 	}
 
 	// # install()
-	// Even handler called when the "Install with sc4pac" buton is clicked.
+	// Event handler called when the "Install with sc4pac" buton is clicked.
 	async install() {
 		let packages = this.index[this.id];
 		let payload = packages.map(pkg => {
@@ -132,6 +133,17 @@ class Plugin {
 				alert('The sc4pac gui needs to be active before you can use this button!');
 			}
 		}
+	}
+
+	// ## getViewUrl()
+	// Returns the url that can be used in an <a> tag to redirect to the sc4pac 
+	// website.
+	getViewUrl() {
+		let [pkg] = this.index[this.id];
+		let url = new URL('https://memo33.github.io/sc4pac/channel');
+		url.searchParams.set('pkg', `${pkg.group}:${pkg.name}`);
+		url.searchParams.set('channel', pkg.channelUrl);
+		return url.href;
 	}
 
 }
