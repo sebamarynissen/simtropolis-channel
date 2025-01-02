@@ -1,5 +1,6 @@
+import chrome from './polyfill.js';
+
 chrome.action.onClicked.addListener(tab => {
-	console.log('wut');
 	chrome.cookies.getAll({ url: tab.url }, cookies => {
 		let map = cookies.reduce((map, cookie) => {
 			map[cookie.name] = cookie.value;
