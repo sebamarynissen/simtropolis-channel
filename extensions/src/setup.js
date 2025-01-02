@@ -138,25 +138,35 @@ class Plugin {
 	showDialog() {
 		let dialog = h('dialog', {
 			id: 'sc4pac-config',
-			style: 'font-size: 16px; max-width: 640px;',
+			style: 'font-size: 14px; max-width: 640px;',
 		});
 		let { server } = this;
 		document.body.appendChild(dialog);
 		let input = h('input', {
+			id: 'sc4pac-server',
+			class: 'ipsFieldrow_content',
 			type: 'url',
 			required: true,
 			value: server,
 		});
-		let button = h('button', {}, 'Close window');
-		let form = h('form', {}, [
-			h('label', {}, 'sc4pac server'),
+		let button = h('button', { class: 'ipsButton ipsButton_important' }, 'Close window');
+		let form = h('form', { class: 'ipsForm', style: 'margin-top: 8px;' }, [
+			h('label', {
+				class: 'ipsFieldRow_label',
+				for: 'sc4pac-server',
+			}, 'sc4pac server'),
 			h('div', {}, [
 				input,
-				h('button', {}, 'Save'),
+				h('button', {
+					class: 'ipsButton',
+					style: 'margin-left: 8px;',
+				}, 'Save'),
 			]),
 		]);
 		let div = h('div', {}, [
-			h('p', {}, [
+			h('p', {
+				style: 'color: #353535; line-height: 1.5',
+			}, [
 				'Sc4pac needs to be running before you can use this button. For more info, visit ',
 				h('a', {
 					href: 'https://community.simtropolis.com/forums/topic/762677-sc4pac-lets-write-our-own-package-manager',
@@ -168,7 +178,7 @@ class Plugin {
 				h('summary', { style: 'cursor: pointer' }, 'Options'),
 				form,
 			]),
-			h('div', { style: 'margin-top: 8px' }, button),
+			h('div', { style: 'margin-top: 8px; text-align: right;' }, button),
 		]);
 		button.addEventListener('click', () => {
 			dialog.close();
