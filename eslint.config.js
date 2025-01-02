@@ -3,7 +3,7 @@ import wh from '@whisthub/eslint-config/flat';
 export default [
 	wh,
 	{
-		files: ['extensions/chrome/**'],
+		files: ['extensions/src/**'],
 		languageOptions: {
 			globals: {
 				chrome: 'readonly',
