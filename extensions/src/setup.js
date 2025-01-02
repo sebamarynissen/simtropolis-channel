@@ -18,16 +18,19 @@ class Plugin {
 	cacheMinutes = 30;
 	index = {};
 	id = '';
+	externalId = '';
 
 	// ## constructor(opts)
 	constructor(opts) {
 		let {
 			channels = [],
 			cacheMinutes = 30,
+			externalId = '',
 			id: getId,
 		} = opts;
 		this.channels = [...channels];
 		this.cacheMinutes = cacheMinutes;
+		this.externalId = externalId;
 		this.id = getId();
 	}
 
@@ -87,13 +90,13 @@ class Plugin {
 	// ## loadChannel(chanenl)
 	// Loads a specific channel 
 	async loadChannel(channel) {
-		const { index } = this;
+		const { index, externalId } = this;
 		let url = `https://${channel}/sc4pac-channel-contents.json`;
 		let res = await this.fetchWithCache(url);
 		let json = await res.json();
 		for (let pkg of json.packages) {
-			let { stex = [] } = pkg.externalIds || {};
-			for (let id of stex) {
+			let ids = (pkg.externalIds || {})[externalId] || [];
+			for (let id of ids) {
 				if (!index[id]) index[id] = [];
 				index[id].push({
 					channelUrl: `https://${channel}/`,

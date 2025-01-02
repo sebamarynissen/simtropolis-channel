@@ -12,6 +12,7 @@ function getIdFromUrl(url = window.location.href) {
 }
 
 setup({
+	externalId: 'stex',
 	channels: ['sc4pac.sebamarynissen.dev'],
 	id: () => getIdFromUrl(),
 }).then(({ enabled, install, h }) => {
