@@ -17,6 +17,7 @@
   },
   "scripts": {
     "build": "sc4pac channel build -o dist/channel src/yaml",
+    "build:extensions": "esbuild",
     "fetch": "gh workflow run add-packages.yaml",
     "deploy": "gh workflow run deploy.yaml",
     "lint": "eslint actions/**/*.js",
@@ -36,6 +37,7 @@
     "@whisthub/eslint-config": "^3.1.0",
     "chai": "^5.1.2",
     "commander": "^12.1.0",
+    "esbuild": "^0.24.2",
     "eslint": "^9.17.0",
     "human-interval": "^2.0.1",
     "marked": "^15.0.4",
