@@ -1,0 +1,118 @@
+group: deadwoods
+name: highway-walls
+version: "1.01"
+info:
+  summary: Highway Walls
+  description: |-
+    This download contains a set of highway noise barrier walls. Whilst being of a simple and cheap concrete and steel design, they have a more pleasing curved pattern look as seems to be the trend in a lot of road construction these days.
+
+    They are modded to provide a very healthy Park and Landmark effect, so the sims living and working near them will appreciate it. They also have a significant pollution reduction factor, so even though they can't reduce the sim traffic noise, they can remove the pollution affects assoicated with them. Plop a few of these beside a highway, avenue or road and see the positive effect they have on the surrounding buildings.
+
+    There are ten lots in the set; some straight, some with corners, some diagonal and some overhanging the lot to cover those blank tiles beside the on/off ramps that you can never use.
+
+    The lots all have the base texture removed, so the ground texture underneath will show through. This is good as the highways don't have a texture under them, so the lots match. But the lots sometime suffer from the "missing base" bug where the base appears blue/black.
+
+    I'm working on a Menu Management Lot (MML) mod for these, so they don't clutter up the Misc Transport menu when you don't need them. These lots are BSC Tracking Enabled (BTE) which means they may contribute to Reward Chains.
+
+    ### Lot Specs
+
+    Lot size:
+
+    1 x 1 tiles
+
+    1 x 2 tiles
+
+    1 x 4 tiles
+
+    Plop cost:
+
+    § 80
+
+    § 120
+
+    § 160
+
+    Bulldoze cost:
+
+    § 5
+
+    § 8
+
+    § 10
+
+    Occupant Groups:
+
+    Building: Transportation,Building: MiscTransit,BTE : DW Lot Counter
+
+    Power consumption:
+
+    0 MWh/month
+
+    Water consumption:
+
+    5 Gallons/month
+
+    Air pollution:
+
+    \-256 over 3 tiles
+
+    \-256 over 4 tiles
+
+    \-256 over 5 tiles
+
+    Water pollution:
+
+    0 over 1 tiles
+
+    Garbage pollution:
+
+    0 over 0 tiles
+
+    Demand created:
+
+    None
+
+    Demand satisfied:
+
+    R-$ : 250,R-$$ : 250,R-$$$ : 250
+
+    Landmark effect:
+
+    20 over 10 tiles
+
+    Park effect:
+
+    30 over 15 tiles
+
+    Monthly costs:
+
+    § 1 (maint)
+
+    § 3 (maint)
+
+    § 5 (maint)
+
+    ### Dependencies
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    You should have the following two files;
+
+    [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)  
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+  author: deadwoods
+  website: https://community.simtropolis.com/files/file/16556-dedwd-highway-walls/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/37a5e0380a575593a982e4d659776098-DEDWD_HighwayWallsCurved-stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/37a5e0380a575593a982e4d659776098-DEDWD_HighwayWallsCurved-stexpic2.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:textures-vol01
+assets:
+  - assetId: deadwoods-highway-walls
+
+---
+assetId: deadwoods-highway-walls
+version: "1.01"
+lastModified: "2006-08-05T00:40:31Z"
+url: https://community.simtropolis.com/files/file/16556-dedwd-highway-walls/?do=download&r=39325
