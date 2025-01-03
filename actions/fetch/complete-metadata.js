@@ -1,4 +1,5 @@
 // # complete-metadata.js
+import path from 'node:path';
 import scrape from './scrape.js';
 import { kFileTags, kFileNames, kExtractedAsset } from './symbols.js';
 import detectGrowables from './detect-growables.js';
@@ -49,21 +50,39 @@ export async function expandVariants(metadata) {
 // way yet of inspecting the actual package contents, we only support detecting 
 // this when there are separate downloads.
 function findIncludedVariants(metadata) {
-	let variants = [];
+	let variants = new Set();
 	let { assets } = metadata;
 	if (hasOneOf(assets, ['maxisnite', 'darknite'])) {
-		variants.push('nightmode');
+		variants.add('nightmode');
 	}
 	if (hasOneOf(assets, ['rhd', 'lhd'])) {
-		variants.push('driveside');
+		variants.add('driveside');
 	}
 	if (hasOneOf(assets, ['cam'])) {
-		variants.push('CAM');
+		variants.add('CAM');
 	}
 	if (hasOneOf(assets, ['hd'])) {
-		variants.push('resolution');
+		variants.add('resolution');
 	}
-	return variants;
+
+	// It's possible that MN and DN variants are contained within the same 
+	// asset. We can only detect this based on the included file names, so no 
+	// tags will have been set yet!
+	for (let asset of assets) {
+		let files = asset[kFileNames] || [];
+		for (let file of files) {
+			let dir = path.dirname(file);
+			if (matchDir(dir, regexes.maxisnite)) {
+				variants.add('nightmode');
+				asset[kFileTags].push('maxisnite');
+			} else if (matchDir(dir, regexes.darknite)) {
+				variants.add('nightmode');
+				asset[kFileTags].push('darknite');
+			}
+		}
+	}
+	return [...variants];
+
 }
 
 const variations = {
@@ -138,6 +157,12 @@ async function generateVariants(configs, metadata) {
 
 }
 
+// Regular expressions we use for detecting maxisnite or darknite *folders*.
+const regexes = {
+	maxisnite: /^(maxisni(te|ght)|mn)$/i,
+	darknite: /^(darkni(te|ght)|mn)$/i,
+};
+
 // # generateVariant(config, metadata)
 function generateVariant(config, metadata, opts) {
 
@@ -152,11 +177,36 @@ function generateVariant(config, metadata, opts) {
 		// IMPORTANT! If the building only contains a darknite variant, then we 
 		// can't exclude the variant!
 		let { tags } = opts;
+		let opposite = nightmode === 'standard' ? 'darknite' : 'maxisnite';
 		if (tags.includes('maxisnite') && tags.includes('darknite')) {
-			let opposite = nightmode === 'standard' ? 'darknite' : 'maxisnite';
-			assets = assets.filter(asset => !has(asset, opposite));
+			assets = assets.filter(asset => {
+
+				// If the asset has *both* tags, don't exclude it! Only exclude 
+				// if it only has the opposite tag!
+				if (has(asset, 'maxisnite') && has(asset, 'darknite')) {
+					return true;
+				}
+				return !has(asset, opposite);
+			});
 		}
 		if (nightmode === 'dark') dependencies.push('simfox:day-and-nite-mod');
+
+		// If maxisnite and darknite are present *in the same asset*, then we 
+		// have to filter out based on dir patterns.
+		for (let asset of assets) {
+			if (has(asset, 'maxisnite') && has(asset, 'darknite')) {
+				let regex = regexes[opposite];
+				let excluded = new Set();
+				for (let file of asset[kFileNames] || []) {
+					let dir = matchDir(path.dirname(file), regex);
+					if (dir) {
+						excluded.add(`/${escape(dir)}/`);
+					}
+				}
+				let exclude = exclusions[asset.assetId] ??= [];
+				exclude.push(...excluded);
+			}
+		}
 
 	}
 	if (driveside) {
@@ -177,12 +227,7 @@ function generateVariant(config, metadata, opts) {
 			let list = opts.growables.get(asset) ?? [];
 			let exclude = exclusions[asset.assetId] ??= [];
 			let escaped = list.map(file => {
-				if (file.match(/[*+?^${}()|[\]\\]/)) {
-					let chars = /[.*+?^${}()|[\]\\/]/g;
-					return `/${file.replaceAll(chars, '\\$&')}$`;
-				} else {
-					return `/${file}`;
-				}
+				return `/${escape(file, x => `${x}$`)}`;
 			});
 			exclude.push(...escaped);
 		}
@@ -248,4 +293,27 @@ function filterExclusions(asset, patterns) {
 function has(asset, tag) {
 	let tags = asset[kFileTags] ?? [];
 	return tags.includes(tag);
+}
+
+// # escape(str)
+// Escapes regex characters from a string, but only if needed. sc4pac only 
+// treats exclusion patterns as regexes as soon as it finds a regex character.
+function escape(str, fn = x => x) {
+	if (str.match(/[*+?^${}()|[\]\\]/)) {
+		let chars = /[.*+?^${}()|[\]\\/]/g;
+		return fn(`${str.replaceAll(chars, '\\$&')}`);
+	} else {
+		return str;
+	}
+}
+
+// # matchDir(dirPath, regex)
+// Recursively matches dirnames with the given regex.
+function matchDir(dirPath, regex) {
+	while (dirPath !== '.') {
+		let name = path.basename(dirPath);
+		if (regex.test(name)) return name;
+		dirPath = path.dirname(dirPath);
+	}
+	return null;
 }
