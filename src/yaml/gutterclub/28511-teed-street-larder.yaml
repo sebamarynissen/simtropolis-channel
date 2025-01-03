@@ -1,0 +1,45 @@
+group: gutterclub
+name: teed-street-larder
+version: "1.0"
+info:
+  summary: Teed Street Larder
+  description: |-
+    Teed Street Larder is a Cafe and Deli that can be used in a W2W enviroment, it has a small outdoor seating area for sims to soak in some sun and grab some lunch.
+
+    Included
+
+    x1 model file
+
+    x1 C$$ stage 3 1x2 lot w/ 30 jobs
+
+    Choice of Darknite or Maxisnite, just choose the file you want to download
+
+    Dependency for Darknite
+
+    [http://community.sim...-and-nite-modd/](/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/28511-teed-street-larder/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/a7f342c8709ba79636c1dbb117c1921d-acukland-cbd-20-sep--2731361682839.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/27085cb78c5ac7260f949b8488423c95-acukland-cbd-25-sep--2731361682862.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/f4229d5f0090266eda0be370b293adfd-acukland-cbd-3-oct--2731361682894.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-teed-street-larder-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-teed-street-larder-darknite
+
+---
+assetId: gutterclub-teed-street-larder-darknite
+version: "1.0"
+lastModified: "2013-02-24T06:57:50Z"
+url: https://community.simtropolis.com/files/file/28511-teed-street-larder/?do=download&r=112437
+
+---
+assetId: gutterclub-teed-street-larder-maxisnite
+version: "1.0"
+lastModified: "2013-02-24T06:57:50Z"
+url: https://community.simtropolis.com/files/file/28511-teed-street-larder/?do=download&r=112438

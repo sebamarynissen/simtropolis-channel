@@ -1,0 +1,44 @@
+group: gutterclub
+name: 33-lewis-avenue
+version: "1.0"
+info:
+  summary: 33 Lewis Avenue
+  description: |-
+    Continuing the trend of a W2W release a month, November brings the Fin!!! Fin's are popping up on the facade of buildings everywhere ,especially Auckland. I present the fictional 33 Lewis Avenue, a slim office building to cram into your midrise W2W districts.
+
+    Included
+
+    x1 model file
+
+    x1 C$$ stage 6 1x2 lot w/ 200 jobs
+
+    Choice of Darknite or Maxisnite, just choose the file you want to download
+
+    Dependency for Darknite
+
+    [http://community.sim...-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/28179-33-lewis-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/d3da4b09abaadfbd0467ab642247d38e-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/05c6be88dc7583a8d3cdbd80b08f57ac-night.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-33-lewis-avenue-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-33-lewis-avenue-darknite
+
+---
+assetId: gutterclub-33-lewis-avenue-darknite
+version: "1.0"
+lastModified: "2012-11-05T08:54:52Z"
+url: https://community.simtropolis.com/files/file/28179-33-lewis-avenue/?do=download&r=108313
+
+---
+assetId: gutterclub-33-lewis-avenue-maxisnite
+version: "1.0"
+lastModified: "2012-11-05T08:54:52Z"
+url: https://community.simtropolis.com/files/file/28179-33-lewis-avenue/?do=download&r=108314

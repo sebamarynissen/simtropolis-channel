@@ -1,0 +1,47 @@
+group: gutterclub
+name: avon-heights-v2
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Avon Heights v2
+  description: |-
+    I have spruced up my fictional building Avon Heights which now comes in 2 versions with (hopefully better materials and a few other amendments. A generic W2W apartment block found in many Cities around the world.
+
+    Included
+
+    x2 model files
+
+    x2 R$$ stage 6 growables w/ 250 ocupants
+
+    Please chose either Darknite or Maxisnite
+
+    dependency for Darknite..as always
+
+    [http://community.sim...-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/28727-avon-heights-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/d153e90baae6dc467b9fe0d333b639e9-downtown-kerrie-23-dec--181368850020.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/884419a82b7025034d1469e6a5689627-downtown-kerrie-9-jan--191368850073.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/01b5d00faad5a50b450d53965f6d38ef-downtown-kerrie-18-jan--191368850104.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/2aa492a95763635dee6fdd9c183d42cb-downtown-kerrie-9-feb--191368850156.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-avon-heights-v2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-avon-heights-v2-darknite
+
+---
+assetId: gutterclub-avon-heights-v2-maxisnite
+version: "1.0"
+lastModified: "2013-05-19T04:26:00Z"
+url: https://community.simtropolis.com/files/file/28727-avon-heights-v2/?do=download&r=115284
+
+---
+assetId: gutterclub-avon-heights-v2-darknite
+version: "1.0"
+lastModified: "2013-05-19T04:26:00Z"
+url: https://community.simtropolis.com/files/file/28727-avon-heights-v2/?do=download&r=115285
