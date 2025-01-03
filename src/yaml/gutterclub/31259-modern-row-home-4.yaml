@@ -1,0 +1,38 @@
+group: gutterclub
+name: modern-row-home-4
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: "Modern Row Home #4"
+  description: |-
+    Dusting off Max, I've recycled an old building into a modern row home. Comes in Darknite and Maxis Nite and houses 30 sims.
+
+    Dependency - Simfox Darknite mod - for Darknite version
+  author: gutterclub
+  websites: 
+    - https://community.simtropolis.com/files/file/31259-modern-row-home-4-maxis-nite/
+    - https://community.simtropolis.com/files/file/31258-modern-row-home-4-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57beabd37c3cf_LowerMurray-Feb.9221472027901.png.4d491a64a7628338470d1a2cadb1a8d9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57beab878fb7d_LowerMurray-Feb.9221472027901.png.47b54039a2f689d054d8853985f3ed37.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57beab8db9f39_LowerMurray-Feb.15221472027916.png.e8b78f9e9279e1dd5ab6191094e0b29c.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-modern-row-home-4-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-modern-row-home-4-darknite
+
+---
+assetId: gutterclub-modern-row-home-4-maxisnite
+version: "1.0"
+lastModified: "2016-08-25T08:27:48Z"
+url: https://community.simtropolis.com/files/file/31259-modern-row-home-4-maxis-nite/?do=download&r=162999
+
+---
+assetId: gutterclub-modern-row-home-4-darknite
+version: "1.0"
+lastModified: "2016-08-25T08:27:47Z"
+url: https://community.simtropolis.com/files/file/31258-modern-row-home-4-darknite/?do=download&r=162998

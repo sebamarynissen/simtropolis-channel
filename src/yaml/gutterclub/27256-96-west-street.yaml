@@ -1,0 +1,27 @@
+group: gutterclub
+name: 96-west-street
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 96 West Street
+  description: |-
+    Hello folks, here I present the semi-fictional 96 West St apartments, based on some slim generic brick apartments in East Harlem, NYC. The apartment comes on a R$ 1X2 lot and has an occupancy of 200 people.
+
+    dependencies; [Simfox Day n Nite mod](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/27256-96-west-street-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/ed007edcabc4ef4b8e450c33e7865ee2-96wday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/cd25932b659f1fabcecfae9cb6aa1175-96wnight.jpg
+assets:
+  - assetId: gutterclub-96-west-street-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+
+---
+assetId: gutterclub-96-west-street-darknite
+version: "1.0"
+lastModified: "2012-02-03T23:49:21Z"
+url: https://community.simtropolis.com/files/file/27256-96-west-street-darknite/?do=download&r=96669

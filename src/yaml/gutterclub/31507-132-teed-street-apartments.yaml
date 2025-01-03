@@ -1,0 +1,48 @@
+group: gutterclub
+name: 132-teed-street-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 132 Teed Street Apartments
+  description: |-
+    132 Teed Street are slim 1x1 apartments to help fill your density requirements. They house 70 sims and come with a lovely wood paneled street front balcony.
+
+    Dependencies;
+
+    Girafe Lindens
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2869](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+
+    Girafe Cars
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2860](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2860)
+  author: gutterclub
+  websites:
+    - https://community.simtropolis.com/files/file/31507-132-teed-street-apartments-maxisnite/
+    - https://community.simtropolis.com/files/file/31506-132-teed-street-apartments-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/58c33f6d2e407_LowerMurray-Dec.144391489189626.png.feebc7a2e2a2530fc9f8b5c4a5a703c5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/58c33f1a54582_LowerMurray-Dec.144391489189626.png.cdf91bc6fea00938a1fb8b8be2fee144.png
+dependencies:
+  - bsc:vip-girafe-carpack-vol03
+  - girafe:lindens
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-132-teed-street-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-132-teed-street-apartments-darknite
+
+---
+assetId: gutterclub-132-teed-street-apartments-maxisnite
+version: "1.0"
+lastModified: "2017-03-11T00:07:22Z"
+url: https://community.simtropolis.com/files/file/31507-132-teed-street-apartments-maxisnite/?do=download&r=164912
+
+---
+assetId: gutterclub-132-teed-street-apartments-darknite
+version: "1.0"
+lastModified: "2017-03-11T00:06:44Z"
+url: https://community.simtropolis.com/files/file/31506-132-teed-street-apartments-darknite/?do=download&r=164911

@@ -45,6 +45,12 @@ export async function expandVariants(metadata) {
 	return await generateVariants(configs, metadata);
 }
 
+// Regular expressions we use for detecting maxisnite or darknite *folders*.
+const regexes = {
+	maxisnite: /\b(maxisni(te|ght)|mn)\b/i,
+	darknite: /\b(darkni(te|ght)|dn)\b/i,
+};
+
 // # findIncludedVariants(metadata)
 // Finds the variants that are supported by this package. Note that we have no 
 // way yet of inspecting the actual package contents, we only support detecting 
@@ -156,12 +162,6 @@ async function generateVariants(configs, metadata) {
 	});
 
 }
-
-// Regular expressions we use for detecting maxisnite or darknite *folders*.
-const regexes = {
-	maxisnite: /^(maxisni(te|ght)|mn)$/i,
-	darknite: /^(darkni(te|ght)|mn)$/i,
-};
 
 // # generateVariant(config, metadata)
 function generateVariant(config, metadata, opts) {

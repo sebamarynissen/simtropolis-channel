@@ -1,0 +1,37 @@
+group: gutterclub
+name: sunrise-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sunrise House
+  description: |-
+    I present the fictional Sunrise House, esentially 2 W2W buidlings crammed in together utilising that ever decreasing space in most modern cities.
+
+    It comes as a growable CO$$ stage 7 on a 1x2 lot with 250 jobs. If you want to plop it just use the building plop cheat and find it under sunrisehouse.
+
+    There are x2 folders, 1 for Darknite and the other Maxis nite, please do not put both into your plugins, select the one required and remove the other.
+
+    dependencies for Dark nite use; [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/27768-sunrise-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/354a490c23f41b6b4506f20d781e2218-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/2216f0507b41e895e30a0d782df5b81b-.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-sunrise-house
+        exclude:
+          - /JPS - Sunrise House DN/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-sunrise-house
+        exclude:
+          - /JPS - Sunrise House MN/
+
+---
+assetId: gutterclub-sunrise-house
+version: "1.0"
+lastModified: "2012-06-30T12:44:16Z"
+url: https://community.simtropolis.com/files/file/27768-sunrise-house/?do=download&r=102750

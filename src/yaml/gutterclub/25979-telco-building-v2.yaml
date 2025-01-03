@@ -1,0 +1,40 @@
+group: gutterclub
+name: telco-building-v2
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Telco Building v2
+  description: |-
+    Based on the 80m Telco Tower in Auckland, New Zealand, a very boring and generic 80's midrise in the CBD. Included;
+
+    Model file
+
+    x1 stage 6 CO$ growable w/ 500 jobs
+
+    x1 LM lot
+
+    also included, maybe a different version of the tower with a new paint job? Possibly..
+
+    Rendered in Darknite
+
+    Dependencies: Simfox Day 'N Nite mod
+
+    [Day n' Nite mod](https://www.simtropolis.com/forum/files/file/23089-simfox-day-n-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/25979-telco-building-v2-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dc080e0027995e0b167853c9fc078e8a-telcoday.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9a43478b329e017ad210821ed266bc38-telconight.jpg
+    - https://www.simtropolis.com/objects/screens/0001/01c54a127a1e93e131af572963d8b4c1-savcorpday.jpg
+assets:
+  - assetId: gutterclub-telco-building-v2-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+
+---
+assetId: gutterclub-telco-building-v2-darknite
+version: "2"
+lastModified: "2011-03-11T06:43:29Z"
+url: https://community.simtropolis.com/files/file/25979-telco-building-v2-darknite/?do=download&r=66956

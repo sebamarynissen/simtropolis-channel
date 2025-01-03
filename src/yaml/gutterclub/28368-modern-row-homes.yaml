@@ -1,0 +1,45 @@
+group: gutterclub
+name: modern-row-homes
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Modern Row Homes
+  description: |-
+    I present some fictional, generic Modern Row homes in 3 slight variations, they sit Wall to Wall (as usual) and should work well in any low rise urban neighbourhood.
+
+    Included
+
+    x3 model files
+
+    x3 R$$ stage 5 1x2 lot w/ 20 Sims
+
+    Choice of Darknite or Maxisnite, just choose the file you want to download
+
+    Dependency for Darknite
+
+    [http://community.sim...-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/28368-modern-row-homes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/dc325bca997d2a822bc7e858770d63e0-acukland-cbd-3-sep--1851357960884.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/67fc837882d3a9bd195037b606bc5362-acukland-cbd-18-sep--1851357960926.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-modern-row-homes-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-modern-row-homes-darknite
+
+---
+assetId: gutterclub-modern-row-homes-maxisnite
+version: "1.0"
+lastModified: "2013-01-12T04:08:57Z"
+url: https://community.simtropolis.com/files/file/28368-modern-row-homes/?do=download&r=110513
+
+---
+assetId: gutterclub-modern-row-homes-darknite
+version: "1.0"
+lastModified: "2013-01-12T04:08:57Z"
+url: https://community.simtropolis.com/files/file/28368-modern-row-homes/?do=download&r=110514

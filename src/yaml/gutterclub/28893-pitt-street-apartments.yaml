@@ -1,0 +1,44 @@
+group: gutterclub
+name: pitt-street-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Pitt Street Apartments
+  description: |-
+    I present the fictional Pitt Street Apartments, a small 1x1 Wall to Wall apartment block aimed to fill in on any of your small wall to wall spaces.
+
+    Included  
+      
+    x1 model file  
+    x1 R$$ stage 4 1x1 lot for 50 residents  
+      
+    Choice of Darknite or Maxisnite, just choose the file you want to download  
+      
+    Dependency for Darknite  
+      
+    [http://community.sim...-and-nite-modd/](/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/28893-pitt-street-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/38c64fd797135cba6400feae433a6f4a-pittday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/20b5ffdda4534de100859e421b957126-pittstnight.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-pitt-street-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-pitt-street-apartments-darknite
+
+---
+assetId: gutterclub-pitt-street-apartments-maxisnite
+version: "1.0"
+lastModified: "2013-07-27T07:09:15Z"
+url: https://community.simtropolis.com/files/file/28893-pitt-street-apartments/?do=download&r=118153
+
+---
+assetId: gutterclub-pitt-street-apartments-darknite
+version: "1.0"
+lastModified: "2013-07-27T07:09:15Z"
+url: https://community.simtropolis.com/files/file/28893-pitt-street-apartments/?do=download&r=118154

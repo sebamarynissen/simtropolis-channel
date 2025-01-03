@@ -1,0 +1,47 @@
+group: gutterclub
+name: aut-student-tower
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: AUT Student Tower
+  description: |-
+    I've spruced up an old BAT as it annoyed me that it wasn't very palletable in game! I present the AUT student tower, a thin modern apartment block housing 200 students.
+
+    Included;
+
+    x1 Model (darknite or maxisnite
+
+    x1 R$$ stage 6 residential housing 200 sims
+
+    Dependencies;
+
+    Girafes Ashes - [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2854](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854)
+
+    Simfox day and night modd (darknite only) - [https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/28419-aut-student-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/4a33550b0607593702f531ee214db517-acukland-cbd-31-jul--2291359356660.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/61d4791dd36cfb3d9fe06eb3375d7d0a-acukland-cbd-22-jul--2291359356633.png
+dependencies:
+  - girafe:ashes
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-aut-student-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-aut-student-tower-darknite
+
+---
+assetId: gutterclub-aut-student-tower-maxisnite
+version: "1.0"
+lastModified: "2013-02-01T19:05:53Z"
+url: https://community.simtropolis.com/files/file/28419-aut-student-tower/?do=download&r=111427
+
+---
+assetId: gutterclub-aut-student-tower-darknite
+version: "1.0"
+lastModified: "2013-02-01T19:05:53Z"
+url: https://community.simtropolis.com/files/file/28419-aut-student-tower/?do=download&r=111428

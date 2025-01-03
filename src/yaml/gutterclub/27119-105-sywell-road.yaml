@@ -1,0 +1,33 @@
+group: gutterclub
+name: 105-sywell-road
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 105 Sywell Road
+  description: |-
+    Happy New Year!
+
+    I present the fictional 105 Sywell Road, a low rise W2W you can find in most modern cities. This was a little quickie I threw together to fill that ever needed W2W space.
+
+    It comes as a growable CO$$ stage 5 on a 1x2 lot with 121 jobs. If you want to plop it just use the building plop cheat and find it under 105sywell.
+
+    Dependencies;
+
+    [Simfox's Day n Nite mod](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/27119-105-sywell-road-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/6fafa590aea2c379c4c9f5d1f1b72897-kerrie_cbd-30_jan,_4201325331005.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/612f4c533b90c65a1329546259fa1cac-kerrie_cbd-15_feb,_4201325331044.jpg
+assets:
+  - assetId: gutterclub-105-sywell-road-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+
+---
+assetId: gutterclub-105-sywell-road-darknite
+version: "1.0"
+lastModified: "2011-12-31T11:39:41Z"
+url: https://community.simtropolis.com/files/file/27119-105-sywell-road-darknite/?do=download&r=95412

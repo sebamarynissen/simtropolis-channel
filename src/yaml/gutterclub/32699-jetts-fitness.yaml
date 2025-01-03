@@ -1,0 +1,29 @@
+group: gutterclub
+name: jetts-fitness
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Jetts Fitness
+  description: |-
+    Budget workout franchise Jetts is now available for your Sims. Based on a small Jetts in Hamilton East, New Zealand. This gym gives jobs to 22 budding Personal Trainers and comes as a 1x2 CS$$ lot.
+
+    Darknite only i'm afraid.
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/32699-jetts-fitness/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c2ffdbc9aa0c_EastMurray-Jun.20151546648798.png.9036fd3bb2aeb54def4ae18748913c65.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c2ffdc3be709_EastMurray-Jun.26151546648812.png.793bee0e0e89ced140f90448606c6d95.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-jetts-fitness-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-jetts-fitness-darknite
+
+---
+assetId: gutterclub-jetts-fitness-darknite
+version: "1.0"
+lastModified: "2019-01-05T00:45:51Z"
+url: https://community.simtropolis.com/files/file/32699-jetts-fitness/?do=download&r=174160

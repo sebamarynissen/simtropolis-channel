@@ -1,0 +1,38 @@
+group: gutterclub
+name: 52-teed-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 52 Teed Street
+  description: |-
+    I present the fictional 52 Teed Street, a mid rise W2W with a zig zag, all glass facade.
+
+    It comes as a growable CO$$ stage 6 on a 1x2 lot with 220 jobs.  
+      
+    Dependencies;  
+    [Simfox's Day n Nite mod](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/29984-52-teed-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/d45d1a0f4fceb116f6b50fcde2df2d9d-north-joetown-8-mar--761414314643.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/ac75c2c09f35662bbc5e35c406a27be6-north-joetown-31-may--821415608431.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-52-teed-street-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-52-teed-street-darknite
+
+---
+assetId: gutterclub-52-teed-street-maxisnite
+version: "1.0"
+lastModified: "2014-11-11T06:58:47Z"
+url: https://community.simtropolis.com/files/file/29984-52-teed-street/?do=download&r=144641
+
+---
+assetId: gutterclub-52-teed-street-darknite
+version: "1.0"
+lastModified: "2014-11-11T06:58:47Z"
+url: https://community.simtropolis.com/files/file/29984-52-teed-street/?do=download&r=144642

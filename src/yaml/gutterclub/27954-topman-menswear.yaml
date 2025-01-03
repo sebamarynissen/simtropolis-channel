@@ -1,0 +1,41 @@
+group: gutterclub
+name: topman-menswear
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Topman Menswear
+  description: |-
+    Another W2W building for your urban enviroment which has an uninspiring brutalist facade as found in many offices made in the 1960's and 70's in the UK.
+
+    Comes as C$$ with 100 jobs
+
+    Included;
+
+    1x2 C$$ lot with 100 jobs
+
+    choice of Maxisnite or Darknite, please select which one when downloading.
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/27954-topman-menswear/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/d6b060dd53790ec274cb93f9dafb0f48-downtown-kerrie-21-nov--1081344967759.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/e91e0db4230f3ff3de00efcc963021d1-downtown-kerrie-2-dec--1081344967793.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-topman-menswear-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-topman-menswear-darknite
+
+---
+assetId: gutterclub-topman-menswear-darknite
+version: "1.0"
+lastModified: "2012-08-20T17:17:50Z"
+url: https://community.simtropolis.com/files/file/27954-topman-menswear/?do=download&r=105427
+
+---
+assetId: gutterclub-topman-menswear-maxisnite
+version: "1.0"
+lastModified: "2012-08-20T17:17:50Z"
+url: https://community.simtropolis.com/files/file/27954-topman-menswear/?do=download&r=105428
