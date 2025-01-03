@@ -1,0 +1,48 @@
+group: gutterclub
+name: katayama-apartments
+version: "1.0"
+info:
+  summary: katayama Apartments
+  description: |-
+    I present to you, the Katayama Apartments designed by Japanese architect Matsunami Matsumoto. A very slim, modern apartment block in Osaka, Japan.
+
+    included;
+
+    model file - dark nite
+
+    1x1 growable stage 6 $$$ res lot with 20 occupants
+
+    1x2 growable stage 6 $$$ res lot with 20 occupants
+
+    2x2 growable stage 6 $$$ res lot with 20 occupants
+
+    dependencies;
+
+    [Simfox Day n Nite mod](https://www.simtropolis.com/forum/files/file/23089-simfox-day-n-nite-modd/)
+
+    [Simfox Chestnuts](https://www.simtropolis.com/forum/files/file/20411-simfox-chestnuts/)
+
+    Thanks to Simfox for the great trees and great mod, thanks to all those that assist and give advice and encouragement in my BAT thread.
+
+    Please feel free to lot and mod this as much as you please, new lots are always welcome.
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/26143-katayama-apartments-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0029/7cd71122c80a478455e768811d3c693d-pic1.jpg
+    - https://www.simtropolis.com/objects/screens/0029/5d2c934e239cf2f4619db3cdbcb15ce1-pic2.jpg
+    - https://www.simtropolis.com/objects/screens/0029/e1a6b67270305782ca81c6174aace42b-lewiston-27%20may,%20001303312689.png
+    - https://www.simtropolis.com/objects/screens/0029/153c80d8e0582bba35ab1d4e76485994-katayama.jpg
+dependencies:
+  - simfox:chestnuts
+assets:
+  - assetId: gutterclub-katayama-apartments-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+
+---
+assetId: gutterclub-katayama-apartments-darknite
+version: "1.0"
+lastModified: "2011-04-28T04:31:50Z"
+url: https://community.simtropolis.com/files/file/26143-katayama-apartments-darknite/?do=download&r=85103

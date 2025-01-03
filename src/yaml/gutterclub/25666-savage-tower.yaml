@@ -1,0 +1,26 @@
+group: gutterclub
+name: savage-tower
+version: "1.0"
+info:
+  summary: Savage Tower
+  description: |-
+    Welcome to my 2nd BAT, the very generic Savage Tower. A slim w2w tower designed to fit in with any urban setting. Included is a landmark and growth stag 6 residential lot holding 201 occupants.
+
+    Rendered in darknite.
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/25666-savage-tower-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fc13cc0aef8e31f991c3b5b9b68de202-savagetowerday.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fc13cc0aef8e31f991c3b5b9b68de202-savagetowernight.jpg
+assets:
+  - assetId: gutterclub-savage-tower-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+
+---
+assetId: gutterclub-savage-tower-darknite
+version: "1.0"
+lastModified: "2011-01-10T02:27:59Z"
+url: https://community.simtropolis.com/files/file/25666-savage-tower-darknite/?do=download&r=53605
