@@ -118,6 +118,9 @@ describe('The fetch action', function() {
 
 						// Mock a .zip file with the contents as specified in 
 						// the upload.
+						if (Array.isArray(contents)) {
+							contents = Object.fromEntries(contents.map(name => [name, '']));
+						}
 						let zipFile = new yazl.ZipFile();
 						for (let [name, raw] of Object.entries(contents)) {
 							if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
@@ -299,7 +302,7 @@ describe('The fetch action', function() {
 
 	});
 
-	it('a package with MN and DN variants', async function() {
+	it('a package with MN and DN variants in separate uploads', async function() {
 
 		let upload = faker.upload({
 			cid: 102,
@@ -362,6 +365,96 @@ describe('The fetch action', function() {
 			version: upload.release,
 			url: `${upload.fileURL}/?do=download&r=${upload.files[1].id}`,
 		});
+
+	});
+
+	it('a package with MN and DN variants in the same upload', async function() {
+
+		let upload = faker.upload({
+			author: 'smf-16',
+			title: 'Building',
+			files: [
+				{
+					name: 'Kia Lexington.zip',
+					contents: [
+						'metadata.yaml',
+						'lot.SC4Lot',
+						'building.SC4Desc',
+						'Model files (KEEP ONLY ONE)/MaxisNite/model.SC4Model',
+						'Model files (KEEP ONLY ONE)/DarkNite/model.SC4Model',
+					],
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+
+		let { result } = await run({ id: upload.id });
+		expect(result.metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/DarkNite/'],
+					},
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/MaxisNite/'],
+					},
+				],
+			},
+		]);
+
+	});
+
+	it('a package with MN and DN variants in the same upload with nested folders', async function() {
+
+		let upload = faker.upload({
+			author: 'smf-16',
+			title: 'Building',
+			files: [
+				{
+					name: 'Kia Lexington.zip',
+					contents: [
+						'metadata.yaml',
+						'MaxisNite/models/model.SC4Model',
+						'MaxisNite/lots/lot.SC4Lot',
+						'DarkNite/models/model.SC4Model',
+						'DarkNite/lots/lot.SC4Lot',
+					],
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+
+		let { result } = await run({ id: upload.id });
+		expect(result.metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/DarkNite/'],
+					},
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/MaxisNite/'],
+					},
+				],
+			},
+		]);
 
 	});
 
