@@ -1,0 +1,43 @@
+group: gutterclub
+name: hobson-rise
+version: "1.0"
+info:
+  summary: Hobson Rise
+  description: |-
+    ..the fictional Hobson Rise apartments, a generic corner apartment block to fit in any City
+
+    x1 model file  
+    x1 C$$ stage 6 1x2 growable lot w/150 occupancy  
+      
+    Choice of Darknite or Maxisnite, just choose the file you want to download  
+      
+    Dependency for Darknite  
+      
+    [http://community.sim...-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    edit - realised no night pic when uploaded..it is nightlighted and looks fine ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/29739-hobson-rise/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/ec2758666b6eebe19aa2ea47f04be2fb-north-joetown-3-jul--581405146782.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/628b7ab1e66bd269868112e29c26a520-north-joetown-21-jun--581405146750.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-hobson-rise-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-hobson-rise-darknite
+
+---
+assetId: gutterclub-hobson-rise-darknite
+version: "1.0"
+lastModified: "2014-07-12T06:43:29Z"
+url: https://community.simtropolis.com/files/file/29739-hobson-rise/?do=download&r=137771
+
+---
+assetId: gutterclub-hobson-rise-maxisnite
+version: "1.0"
+lastModified: "2014-07-12T06:43:29Z"
+url: https://community.simtropolis.com/files/file/29739-hobson-rise/?do=download&r=137772
