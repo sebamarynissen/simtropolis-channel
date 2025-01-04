@@ -94,4 +94,13 @@ export default class PermissionsApi {
 
 	}
 
+	// ## getGithubUsername(upload)
+	// Returns the github username associated with the given upload, so that the 
+	// pr generating action can tag them if needed.
+	getGithubUsername(upload) {
+		if (!this.index) return;
+		let config = this.index.usersById.get(String(upload.id)) || {};
+		return config.github;
+	}
+
 }

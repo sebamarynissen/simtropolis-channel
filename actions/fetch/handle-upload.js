@@ -105,6 +105,9 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
+	// Check if the user has a GitHub username associated with them.
+	let githubUsername = permissions.getGithubUsername(json);
+
 	// Allright, we're pretty much done now. Write away the metadata and return 
 	// the information about what we've generated.
 	let { group, name } = main;
@@ -120,6 +123,7 @@ export default async function handleUpload(json, opts = {}) {
 		branchId: String(json.id),
 		deletions,
 		additions: [relativePath],
+		githubUsername,
 	};
 
 }
