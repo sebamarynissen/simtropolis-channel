@@ -1295,6 +1295,27 @@ describe('The fetch action', function() {
 
 	});
 
+	it('attaches the GitHub username if known', async function() {
+
+		const upload = faker.upload({
+			id: 123,
+		});
+		const { run } = this.setup({
+			upload,
+			permissions: {
+				authors: [
+					{
+						id: 123,
+						github: 'sebamarynissen',
+					},
+				],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.githubUsername).to.equal('sebamarynissen');
+
+	});
+
 });
 
 function jsonToYaml(json) {
