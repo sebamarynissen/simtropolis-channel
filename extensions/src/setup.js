@@ -18,7 +18,7 @@ class Package {
 	constructor(data) {
 		let { group, name } = data;
 		this.id = `${group}:${name}`;
-		this.channelUrl = data.channelUrl;
+		this.channelUrl = `${data.channelUrl.replace(/\/^/, '')}/`;
 	}
 
 	// ## getInstallPayload()
