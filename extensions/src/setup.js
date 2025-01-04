@@ -1,26 +1,62 @@
 // # setup.js
 export default async function setup(opts) {
+	if (Array.isArray(opts)) {
+		opts = { channels: opts };
+	}
 	let plugin = new Plugin(opts);
-	let api = {
-		install: plugin.install.bind(plugin),
-		getViewUrl: plugin.getViewUrl.bind(plugin),
-		getInstallUrl: plugin.getInstallUrl.bind(plugin),
-		h,
-	};
-	let enabled = await plugin.setup();
-	return {
-		enabled,
-		...api,
-	};
+	await plugin.setup();
+	return { plugin, h };
+}
+
+// # Package
+// Represents a single package in one of the channels.
+class Package {
+	id;
+	channelUrl;
+
+	// ## constructor(data)
+	constructor(data) {
+		let { group, name } = data;
+		this.id = `${group}:${name}`;
+		this.channelUrl = data.channelUrl;
+	}
+
+	// ## getInstallPayload()
+	getInstallPayload() {
+		return {
+			package: this.id,
+			channelUrl: this.channelUrl,
+		};
+	}
+
+	// ## getInstallUrl()
+	// Returns the url that can be used in an <a> tag when an sc4pac protocol 
+	// handler is defined.
+	getInstallUrl() {
+		let url = new URL(this.channelUrl.replace(/^https?/, 'sc4pac'));
+		url.searchParams.set('pkg', this.id);
+		return url.href;
+	}
+
+	// ## getViewUrl()
+	// Returns the url that can be used in an <a> tag to redirect to the sc4pac 
+	// website.
+	getViewUrl() {
+		let url = new URL('https://memo33.github.io/sc4pac/channel');
+		url.searchParams.set('pkg', this.id);
+		url.searchParams.set('channel', this.channelUrl);
+		return url.href;
+	}
+
 }
 
 // # Plugin
+// Class representing the main plugin interface. It's this class that is 
+// responsible for loading the correct channels etc.
 class Plugin {
 	channels = [];
 	cacheMinutes = 30;
 	index = {};
-	id = '';
-	externalId = '';
 	server = localStorage['sc4pac:server'] || 'http://localhost:51515';
 
 	// ## constructor(opts)
@@ -28,13 +64,57 @@ class Plugin {
 		let {
 			channels = [],
 			cacheMinutes = 30,
-			externalId = '',
-			id: getId,
 		} = opts;
 		this.channels = [...channels];
 		this.cacheMinutes = cacheMinutes;
-		this.externalId = externalId;
-		this.id = getId();
+	}
+
+	// ## find(exchangeId, externalId)
+	// Returns all packages that correspond to the given externalId on the given 
+	// exchange.
+	find(exchangeId, externalId) {
+		return this.index[exchangeId]?.[externalId] ?? [];
+	}
+
+	// # install(...pkg)
+	// Call this function with a "Package" instance, or an array of packages, to 
+	// launch the install logic.
+	async install(pkg) {
+		let packages = [pkg].flat();
+		let payload = packages.map(pkg => pkg.getInstallPayload());
+		let body = JSON.stringify(payload);
+		try {
+			let res = await fetch(`${this.server}/packages.open`, {
+				signal: AbortSignal.timeout(1_000),
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+					'Content-Length': body.length,
+				},
+				body,
+			});
+			if (res.status >= 300) {
+				this.showDialog();
+			}
+		} catch {
+			this.showDialog();
+		}
+	}
+
+	// ## getInstallUrl(pkg)
+	// Returns the install url for the package, or array of packages, using the 
+	// sc4pac:// protocol.
+	getInstallUrl(pkg) {
+		let [first] = [pkg].flat();
+		return first.getInstallUrl();
+	}
+
+	// ## getViewUrl(pkg)
+	// Returns the "view on sc4pac website" url for the given (array of)
+	// package(s).
+	getViewUrl(pkg) {
+		let [first] = [pkg].flat();
+		return first.getViewUrl();
 	}
 
 	// ## setup()
@@ -44,18 +124,17 @@ class Plugin {
 			this.loadChannel('memo33.github.io/sc4pac/channel'),
 			...this.channels.map(channel => this.loadChannel(channel)),
 		]);
-		return !!this.index[this.id];
 	}
 
 	// # fetchWithCache(url)
-	// Performs a `fetch()`, but ensures that the result is properly cached for 30 
-	// minutes. This means that we only poll the sc4pac channels for new contents 
-	// every 30 minutes. We might implement a background script though to clear the 
-	// cache on request.
+	// Performs a `fetch()`, but ensures that the result is properly cached for 
+	// 30 minutes. This means that we only poll the sc4pac channels for new 
+	// contents every 30 minutes. We might implement a background script though 
+	// to clear the cache on request.
 	async fetchWithCache(url) {
 
-		// Check if a cached response exists, and if it does, ensure that it's not 
-		// older than 30 minutes.
+		// Check if a cached response exists, and if it does, ensure that it's 
+		// not older than 30 minutes.
 		const cacheName = 'sc4pac-channels';
 		const cache = await window.caches.open(cacheName);
 		const cachedResponse = await cache.match(url);
@@ -93,49 +172,22 @@ class Plugin {
 	// ## loadChannel(chanenl)
 	// Loads a specific channel 
 	async loadChannel(channel) {
-		const { index, externalId } = this;
+		const { index } = this;
 		let url = `https://${channel}/sc4pac-channel-contents.json`;
 		let res = await this.fetchWithCache(url);
 		let json = await res.json();
 		for (let pkg of json.packages) {
-			let ids = (pkg.externalIds || {})[externalId] || [];
-			for (let id of ids) {
-				if (!index[id]) index[id] = [];
-				index[id].push({
-					channelUrl: `https://${channel}/`,
-					group: pkg.group,
-					name: pkg.name,
-				});
+			let externals = pkg.externalIds || {};
+			for (let [exchangeId, ids] of Object.entries(externals)) {
+				let exchange = index[exchangeId] ??= {};
+				for (let id of ids) {
+					let arr = exchange[id] ??= [];
+					arr.push(new Package({
+						channelUrl: `https://${channel}`,
+						...pkg,
+					}));
+				}
 			}
-		}
-	}
-
-	// # install()
-	// Event handler called when the "Install with sc4pac" buton is clicked.
-	async install() {
-		let packages = this.index[this.id];
-		let payload = packages.map(pkg => {
-			return {
-				package: `${pkg.group}:${pkg.name}`,
-				channelUrl: pkg.channelUrl,
-			};
-		});
-		let body = JSON.stringify(payload);
-		try {
-			let res = await fetch(`${this.server}/packages.open`, {
-				signal: AbortSignal.timeout(1_000),
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json',
-					'Content-Length': body.length,
-				},
-				body,
-			});
-			if (res.status >= 300) {
-				this.showDialog();
-			}
-		} catch {
-			this.showDialog();
 		}
 	}
 
@@ -197,27 +249,6 @@ class Plugin {
 		});
 		dialog.appendChild(div);
 		dialog.showModal();
-	}
-
-	// ## getInstallUrl()
-	// Returns the url that can be used in an <a> tag when an sc4pac protocol 
-	// handler is defined.
-	getInstallUrl() {
-		let [pkg] = this.index[this.id];
-		let url = new URL(pkg.channelUrl.replace(/^https?/, 'sc4pac'));
-		url.searchParams.set('pkg', `${pkg.group}:${pkg.name}`);
-		return url.href;
-	}
-
-	// ## getViewUrl()
-	// Returns the url that can be used in an <a> tag to redirect to the sc4pac 
-	// website.
-	getViewUrl() {
-		let [pkg] = this.index[this.id];
-		let url = new URL('https://memo33.github.io/sc4pac/channel');
-		url.searchParams.set('pkg', `${pkg.group}:${pkg.name}`);
-		url.searchParams.set('channel', pkg.channelUrl);
-		return url.href;
 	}
 
 }

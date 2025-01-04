@@ -11,14 +11,10 @@ function getIdFromUrl(url = window.location.href) {
 		.split('-')[0];
 }
 
-setup({
-	externalId: 'stex',
-	channels: ['sc4pac.sebamarynissen.dev'],
-	id: () => getIdFromUrl(),
-}).then(({ enabled, getInstallUrl, getViewUrl, h }) => {
-
-	// If the current id was not found in one of the channels, we do nothing.
-	if (!enabled) return;
+setup(['sc4pac.sebamarynissen.dev']).then(({ plugin, h }) => {
+	let id = getIdFromUrl();
+	let packages = plugin.find('stex', id);
+	if (packages.length === 0) return;
 
 	// Add the necessary css as well.
 	let style = h('style');
@@ -34,7 +30,7 @@ setup({
 
 	// Create the button DOM node.
 	let button = h('a', {
-		href: getInstallUrl(),
+		href: plugin.getInstallUrl(packages),
 		id: 'install-sc4pac',
 		class: 'ipsButton ipsButton_fullWidth ipsButton_large',
 		style: 'font-weight: 600; color: white; display: flex; align-items: center; justify-content: center;',
@@ -67,7 +63,7 @@ setup({
 		style: 'text-align: right',
 	}, [
 		h('a', {
-			href: getViewUrl(),
+			href: plugin.getViewUrl(packages),
 			target: '_blank',
 			style: 'text-decoration: underline;',
 		}, 'View on sc4pac website'),
