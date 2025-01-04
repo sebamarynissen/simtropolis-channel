@@ -113,12 +113,9 @@ async function createPr(pkg, prs) {
 	// in that case those original files won't be present in the main branch
 	// (which we're on now). Hence we handle this gracefully if the file does not
 	// exist yet.
-	for (let file of pkg.deletions) {
-		try {
-			await fs.promises.unlink(path.join(cwd, file));
-		} catch (e) {
-			if (e.code !== 'ENOENT') throw e;
-		}
+	let deletions = pkg.deletions.filter(file => fs.existsSync(file));
+	for (let file of deletions) {
+		await fs.promises.unlink(path.join(cwd, file));
 	}
 
 	// Re-apply the changes from this package.
@@ -144,7 +141,7 @@ async function createPr(pkg, prs) {
 
 	// Add all the modified files & then commit.
 	let spinner = ora('Committing files').start();
-	for (let file of pkg.deletions) {
+	for (let file of deletions) {
 		await git.add(file);
 	}
 	for (let file of pkg.additions) {
