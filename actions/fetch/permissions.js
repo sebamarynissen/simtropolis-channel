@@ -99,7 +99,7 @@ export default class PermissionsApi {
 	// pr generating action can tag them if needed.
 	getGithubUsername(upload) {
 		if (!this.index) return;
-		let config = this.index.usersById.get(String(upload.id)) || {};
+		let config = this.index.usersById.get(String(upload.uid)) || {};
 		return config.github;
 	}
 
