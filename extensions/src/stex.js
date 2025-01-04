@@ -15,7 +15,7 @@ setup({
 	externalId: 'stex',
 	channels: ['sc4pac.sebamarynissen.dev'],
 	id: () => getIdFromUrl(),
-}).then(({ enabled, install, getViewUrl, h }) => {
+}).then(({ enabled, getInstallUrl, getViewUrl, h }) => {
 
 	// If the current id was not found in one of the channels, we do nothing.
 	if (!enabled) return;
@@ -24,16 +24,17 @@ setup({
 	let style = h('style');
 	document.head.append(style);
 	style.sheet.insertRule(
-		'button#install-sc4pac { transition: background 0.3s ease; background: black; }',
+		'#install-sc4pac { transition: background 0.3s ease; background: black; }',
 		style.sheet.cssRules.length,
 	);
 	style.sheet.insertRule(
-		'button#install-sc4pac:hover { background: #272822; }',
+		'#install-sc4pac:hover { background: #272822; }',
 		style.sheet.cssRules.length,
 	);
 
 	// Create the button DOM node.
-	let button = h('button', {
+	let button = h('a', {
+		href: getInstallUrl(),
 		id: 'install-sc4pac',
 		class: 'ipsButton ipsButton_fullWidth ipsButton_large',
 		style: 'font-weight: 600; color: white; display: flex; align-items: center; justify-content: center;',
@@ -41,7 +42,7 @@ setup({
 		h('i', { class: 'fa fa-download fa-lg' }),
 		'\u00A0\u00A0Install with sc4pac',
 	]);
-	button.addEventListener('click', () => install());
+	// button.addEventListener('click', () => window.open(getInstallUrl()));
 
 	// Insert the generated button right below the "Download file" button.
 	let a = [...document.querySelectorAll('a.ipsButton')].find(a => {

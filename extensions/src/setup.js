@@ -4,6 +4,7 @@ export default async function setup(opts) {
 	let api = {
 		install: plugin.install.bind(plugin),
 		getViewUrl: plugin.getViewUrl.bind(plugin),
+		getInstallUrl: plugin.getInstallUrl.bind(plugin),
 		h,
 	};
 	let enabled = await plugin.setup();
@@ -196,6 +197,16 @@ class Plugin {
 		});
 		dialog.appendChild(div);
 		dialog.showModal();
+	}
+
+	// ## getInstallUrl()
+	// Returns the url that can be used in an <a> tag when an sc4pac protocol 
+	// handler is defined.
+	getInstallUrl() {
+		let [pkg] = this.index[this.id];
+		let url = new URL(pkg.channelUrl.replace(/^https?/, 'sc4pac'));
+		url.searchParams.set('pkg', `${pkg.group}:${pkg.name}`);
+		return url.href;
 	}
 
 	// ## getViewUrl()
