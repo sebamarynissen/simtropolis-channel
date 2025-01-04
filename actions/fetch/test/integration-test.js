@@ -1298,7 +1298,7 @@ describe('The fetch action', function() {
 	it('attaches the GitHub username if known', async function() {
 
 		const upload = faker.upload({
-			id: 123,
+			uid: 123,
 		});
 		const { run } = this.setup({
 			upload,
