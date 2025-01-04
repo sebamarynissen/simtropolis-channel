@@ -109,11 +109,20 @@ async function createPr(pkg, prs) {
 		spinner.succeed();
 	}
 
+	// Note: it's possible that files were within an existing PR (see #67), but 
+	// in that case those original files won't be present in the main branch
+	// (which we're on now). Hence we handle this gracefully if the file does not
+	// exist yet.
+	for (let file of pkg.deletions) {
+		try {
+			await fs.promises.unlink(path.join(cwd, file));
+		} catch (e) {
+			if (e.code !== 'ENOENT') throw e;
+		}
+	}
+
 	// Re-apply the changes from this package.
 	let docs = [];
-	for (let file of pkg.deletions) {
-		await fs.promises.unlink(path.join(cwd, file));
-	}
 	for (let file of pkg.additions) {
 		let dirname = path.dirname(file.path);
 		await fs.promises.mkdir(dirname, { recursive: true });
