@@ -234,6 +234,7 @@ async function createPr(pkg, prs) {
 
 		// If we know the GitHub username of the user that created this package, 
 		// tag them in the body.
+		let message = String(result.stdout) || String(result.stderr);
 		let body = '';
 		if (pkg.githubUsername) {
 			body = `@${pkg.githubUsername}\n\n`;
@@ -241,7 +242,6 @@ async function createPr(pkg, prs) {
 		body += `⚠️ There is an issue with the metadata for this package:\n\n\`\`\`\n${message}\n\`\`\``;
 
 		// Make a comment in the PR with the linting output.
-		let message = String(result.stdout) || String(result.stderr);
 		await octokit.rest.issues.createComment({
 			...context.repo,
 			issue_number: pr.number,
