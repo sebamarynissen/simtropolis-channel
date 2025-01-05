@@ -80,7 +80,7 @@ export default async function handleUpload(json, opts = {}) {
 	let original = { ...metadata.package };
 	let author = original.group;
 	let { cwd, path: srcPath = 'src/yaml', fs = nodeFs } = opts;
-	let deletions = await checkPreviousVersion(json.id, metadata, {
+	await checkPreviousVersion(json.id, metadata, {
 		cwd,
 		srcPath,
 		fs,
@@ -120,8 +120,8 @@ export default async function handleUpload(json, opts = {}) {
 	return {
 		id,
 		metadata: zipped,
+		fileId: String(json.id),
 		branchId: String(json.id),
-		deletions,
 		additions: [relativePath],
 		githubUsername,
 	};

@@ -3,6 +3,7 @@ import './polyfill.js';
 import fs from 'node:fs';
 import path from 'node:path';
 import cp from 'node:child_process';
+import { Glob } from 'glob';
 import ora from 'ora';
 import core from '@actions/core';
 import github from '@actions/github';
@@ -109,13 +110,17 @@ async function createPr(pkg, prs) {
 		spinner.succeed();
 	}
 
-	// Note: it's possible that files were within an existing PR (see #67), but 
-	// in that case those original files won't be present in the main branch
-	// (which we're on now). Hence we handle this gracefully if the file does not
-	// exist yet.
-	let deletions = pkg.deletions.filter(file => fs.existsSync(file));
-	for (let file of deletions) {
-		await fs.promises.unlink(path.join(cwd, file));
+	// It's possible that files are renamed within a PR, so we have to make sure 
+	// to delete all older files with the same file id. There can only ever be 
+	// *1* file with a certain file id, otherwise there'd be conflicts.
+	let srcDir = path.join(process.env.GITHUB_WORKSPACE, 'src/yaml');
+	let glob = new Glob(`*/${pkg.fileId}-*.yaml`, {
+		cwd: srcDir,
+	});
+	for await (let file of glob) {
+		let fullPath = path.join(srcDir, file);
+		await fs.promises.unlink(fullPath);
+		await git.add(file);
 	}
 
 	// Re-apply the changes from this package.
@@ -141,9 +146,6 @@ async function createPr(pkg, prs) {
 
 	// Add all the modified files & then commit.
 	let spinner = ora('Committing files').start();
-	for (let file of deletions) {
-		await git.add(file);
-	}
 	for (let file of pkg.additions) {
 		await git.add(file.name);
 	}
