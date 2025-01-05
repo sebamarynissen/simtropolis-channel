@@ -11,7 +11,7 @@ import { simpleGit } from 'simple-git';
 import { parseAllDocuments } from 'yaml';
 
 // Setup our git client & octokit.
-const cwd = process.env.GITHUB_WORKSPACE ?? process.env.cwd();
+const cwd = process.env.GITHUB_WORKSPACE ?? process.cwd();
 const git = simpleGit(simpleGit);
 const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
 const { context } = github;
