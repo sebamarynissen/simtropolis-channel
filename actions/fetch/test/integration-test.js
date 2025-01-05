@@ -1033,10 +1033,8 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42592');
 		let metadata = await read('src/yaml/smf-16/42592-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('old-title');
@@ -1080,10 +1078,8 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42592');
 		let metadata = await read('/src/yaml/smf-16/42592-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('old-title');
@@ -1093,7 +1089,7 @@ describe('The fetch action', function() {
 	it('changes the filename of an uploaded package with custom metadata with a name (#42)', async function() {
 
 		const upload = faker.upload({
-			id: 42592,
+			id: 42593,
 			uid: 5642,
 			author: 'smf_16',
 			title: 'New Title',
@@ -1128,11 +1124,9 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-custom-new-title.yaml');
-		let metadata = await read('/src/yaml/smf-16/42592-custom-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42593');
+		let metadata = await read('/src/yaml/smf-16/42593-custom-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('custom-new-title');
 
