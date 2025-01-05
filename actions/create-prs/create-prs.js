@@ -113,12 +113,10 @@ async function createPr(pkg, prs) {
 	// It's possible that files are renamed within a PR, so we have to make sure 
 	// to delete all older files with the same file id. There can only ever be 
 	// *1* file with a certain file id, otherwise there'd be conflicts.
-	let srcDir = path.join(process.env.GITHUB_WORKSPACE, 'src/yaml');
-	let glob = new Glob(`*/${pkg.fileId}-*.yaml`, {
-		cwd: srcDir,
-	});
+	let cwd = process.env.GITHUB_WORKSPACE;
+	let glob = new Glob(`src/yaml/*/${pkg.fileId}-*.yaml`, { cwd });
 	for await (let file of glob) {
-		let fullPath = path.join(srcDir, file);
+		let fullPath = path.join(cwd, file);
 		await fs.promises.unlink(fullPath);
 		await git.add(file);
 	}
