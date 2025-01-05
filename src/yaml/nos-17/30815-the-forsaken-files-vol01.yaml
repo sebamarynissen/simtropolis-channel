@@ -1,6 +1,6 @@
-group: nos-17
-name: b62-remastered-the-forsaken-files
-version: "2.0.2"
+group: b62
+name: the-forsaken-files-vol01
+version: "2.0.6"
 subfolder: 300-commercial
 info:
   summary: "b62 Remastered: The Forsaken Files"
@@ -46,15 +46,8 @@ info:
     \---------------------**  
     [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
     [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)  
-    [nos.17 Essentials](https://community.simtropolis.com/files/file/30114-nos17-essentials/) (**V10 or newer Required)**  
-    Probably one or two others too, which are obscure and not worth finding.
-
-    From the archives:
-
-    ![zQgu0jE.png](http://i.imgur.com/zQgu0jE.png)
-
-    *Update 11 Jun 2022: Removed links to google drive download.*
-  author: nos.17
+    [nos.17 Essentials](https://community.simtropolis.com/files/file/30114-nos17-essentials/)
+  author: Bobbo662, nos.17
   website: https://community.simtropolis.com/files/file/30815-b62-remastered-the-forsaken-files/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/b62-ff1-01.png.498c628ebe54b762630a4a55aba5ed8f.png
@@ -68,11 +61,15 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/b62-ff1-09.png.a4c0ac1c79bbd2ba7304ad250532ebc1.png
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/b62-ff1-10.png.c6b814be8b5b4dd56aef5d600429224c.png
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/b62-ff1-11.png.75f9520648d4f259c431e90b119aa581.png
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - nos17:essentials
 assets:
   - assetId: nos-17-b62-remastered-the-forsaken-files
 
 ---
 assetId: nos-17-b62-remastered-the-forsaken-files
-version: "2.0.2"
-lastModified: "2025-01-04T16:00:14Z"
-url: https://community.simtropolis.com/files/file/30815-b62-remastered-the-forsaken-files/?do=download&r=205093
+version: "2.0.6"
+lastModified: "2025-01-05T15:54:08Z"
+url: https://community.simtropolis.com/files/file/30815-b62-remastered-the-forsaken-files/?do=download&r=205141
