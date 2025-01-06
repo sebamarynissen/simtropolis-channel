@@ -127,5 +127,5 @@ function normalizeDate(date) {
 // # slugifyTitle(title)
 function slugifyTitle(title) {
 	return slugify(title.replaceAll(/&/g, 'and').replaceAll(/\$/g, 's'))
-		.replaceAll(/(\b)vol-/g, '$1vol');
+		.replaceAll(/(\b)vol-(\d)/g, '$1vol$2');
 }
