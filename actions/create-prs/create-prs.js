@@ -177,16 +177,10 @@ async function createPr(pkg, prs) {
 	} else {
 
 		// If a PR already exists, then update it.
-		if (pr.title !== title) {
-			await octokit.rest.pulls.update({
-				...context.repo,
-				pull_number: pr.number,
-				title,
-			});
-		}
-		await octokit.rest.issues.createComment({
+		await octokit.rest.pulls.update({
 			...context.repo,
-			issue_number: pr.number,
+			pull_number: pr.number,
+			title,
 			body,
 		});
 
@@ -202,12 +196,25 @@ async function createPr(pkg, prs) {
 		target_url,
 	});
 
-	// Once the PR has been updated, we'll run the linting script.
+	// If the fetch script already reported errors, make sure to collect them.
+	let errors = [];
+	if (pkg.error) {
+		errors.push(new Error(pkg.error));
+	}
+	
+	// Run the linter as well. If it fails, that's another error.
 	let result = cp.spawnSync('sc4pac-lint', ['src/yaml'], {
 		cwd: process.env.GITHUB_WORKSPACE,
 	});
 	if (result.status === 0) {
 		console.log(result.stdout+'');
+	} else {
+		core.error(result.stdout+'');
+		errors.push(new Error(String(result.stdout) || String(result.stderr)));
+	}
+
+	// If there are no errors, cool, we'll merge the PR.
+	if (errors.length === 0) {
 		await octokit.rest.repos.createCommitStatus({
 			...context.repo,
 			sha,
@@ -220,7 +227,6 @@ async function createPr(pkg, prs) {
 			pull_number: pr.number,
 		});
 	} else {
-		core.error(result.stdout+'');
 		await octokit.rest.repos.createCommitStatus({
 			...context.repo,
 			sha,
@@ -229,9 +235,11 @@ async function createPr(pkg, prs) {
 			target_url,
 		});
 
+		// Compile the message from all the errors.
+		let message = errors.map(error => error.message).join('\n\n');
+
 		// If we know the GitHub username of the user that created this package, 
 		// tag them in the body.
-		let message = String(result.stdout) || String(result.stderr);
 		let body = '';
 		if (pkg.githubUsername) {
 			body = `@${pkg.githubUsername}\n\n`;

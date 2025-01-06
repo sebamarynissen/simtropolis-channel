@@ -18,10 +18,7 @@ export default class PermissionsApi {
 
 	// ## constructor(data)
 	constructor(data) {
-		if (!data?.authors) {
-			this.index = null;
-			return;
-		}
+		if (!data) return;
 		let { usersById } = this.index;
 		for (let userData of data.authors) {
 			let { id } = userData;
@@ -53,7 +50,6 @@ export default class PermissionsApi {
 	// Returns whether the user that has made the given stex upload - as stex 
 	// api response - is actually allowed to do this.
 	isUploadAllowed(upload) {
-		if (!this.index) return true;
 		let permission = this.index.usersById.get(String(upload.uid));
 		if (permission?.blocked) return false;
 		return true;
@@ -74,9 +70,7 @@ export default class PermissionsApi {
 	// to create a package of the given format. We could expand this to handle 
 	// DLL permissions etc.
 	assertPackageAllowed(upload, data) {
-		if (!this.index) return true;
-		let permission = this.index.usersById.get(String(upload.uid));
-		if (!permission || permission.blocked) return false;
+		let permission = this.index.usersById.get(String(upload.uid)) || {};
 
 		// Compile all the names that the user is allowed to upload for.
 		let names = [slugify(upload.author), ...permission.groups || []];
@@ -98,7 +92,6 @@ export default class PermissionsApi {
 	// Returns the github username associated with the given upload, so that the 
 	// pr generating action can tag them if needed.
 	getGithubUsername(upload) {
-		if (!this.index) return;
 		let config = this.index.usersById.get(String(upload.uid)) || {};
 		return config.github;
 	}

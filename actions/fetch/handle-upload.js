@@ -94,15 +94,17 @@ export default async function handleUpload(json, opts = {}) {
 		main,
 		basename,
 	} = patchMetadata(metadata, parsedMetadata, original);
+	let error;
 	let zipped = [...packages, ...metadata.assets];
 	try {
 		permissions.assertPackageAllowed(json, packages);
 	} catch (e) {
-		return {
-			skipped: true,
-			type: 'warning',
-			reason: `${e.message}\n\n${serialize(zipped)}`,
-		};
+
+		// When there's an error, we *DO NOT* skip the package. We continue, but 
+		// add it as an error, which will subsequently be handled by the 
+		// create-prs action.
+		error = e.message;
+
 	}
 
 	// Check if the user has a GitHub username associated with them.
@@ -124,6 +126,7 @@ export default async function handleUpload(json, opts = {}) {
 		branchId: String(json.id),
 		additions: [relativePath],
 		githubUsername,
+		...error && { error },
 	};
 
 }

@@ -968,6 +968,29 @@ describe('The fetch action', function() {
 
 	});
 
+	it('includes an error in the result when the user is not allowed to upload under that group', async function() {
+
+		const upload = faker.upload({
+			author: 'sfbt',
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							group: 'nybt',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			upload,
+		});
+		let { result } = await run();
+		expect(result.error).to.be.a('string');
+		expect(result.error).to.have.length.above(0);
+
+	});
+
 	it('skips tools', async function() {
 
 		const upload = faker.upload({
