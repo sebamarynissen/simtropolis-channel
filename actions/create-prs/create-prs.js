@@ -177,16 +177,10 @@ async function createPr(pkg, prs) {
 	} else {
 
 		// If a PR already exists, then update it.
-		if (pr.title !== title) {
-			await octokit.rest.pulls.update({
-				...context.repo,
-				pull_number: pr.number,
-				title,
-			});
-		}
-		await octokit.rest.issues.createComment({
+		await octokit.rest.pulls.update({
 			...context.repo,
-			issue_number: pr.number,
+			pull_number: pr.number,
+			title,
 			body,
 		});
 
