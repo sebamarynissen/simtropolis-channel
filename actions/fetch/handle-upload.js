@@ -8,6 +8,7 @@ import Downloader from './downloader.js';
 import completeMetadata from './complete-metadata.js';
 import patchMetadata from './patch-metadata.js';
 import checkPreviousVersion from './check-previous-version.js';
+import { kFileNames } from './symbols.js';
 
 // # handleUpload(json)
 // Handles a single STEX upload. It accepts a json response from the STEX api 
@@ -62,6 +63,9 @@ export default async function handleUpload(json, opts = {}) {
 		if (info.metadata) {
 			parsedMetadata.push(...[info.metadata].flat());
 		}
+		if (info.checksums?.length > 0) {
+			asset.withChecksum = info.checksums;
+		}
 		cleanup.push(info.cleanup);
 
 	}
@@ -113,10 +117,11 @@ export default async function handleUpload(json, opts = {}) {
 	// permissions.
 	let {
 		packages,
+		assets,
 		main,
 		basename,
 	} = patchMetadata(metadata, parsedMetadata[0], original);
-	let zipped = [...packages, ...metadata.assets];
+	let zipped = [...packages, ...assets];
 	try {
 		permissions.assertPackageAllowed(json, packages);
 	} catch (e) {
@@ -130,6 +135,37 @@ export default async function handleUpload(json, opts = {}) {
 
 	// Check if the user has a GitHub username associated with them.
 	let githubUsername = permissions.getGithubUsername(json);
+
+	// We're not done yet. If there are assets with external urls, then we have 
+	// to download those assets as well and check if DLL's have to be generated.
+	// However, if the asset does not have a persistent url and it contains a 
+	// DLL, then we should generate an error.
+	for (let asset of assets) {
+		let files = asset[kFileNames];
+		if (asset.nonPersistentUrl) {
+			let info = await downloader.handleAsset(asset);
+			if (info.checksums?.length > 0) {
+				// If the external url contains a DLL, then it can only be from 
+				// GitHub **and** the usernames have to match.
+				let parsed = new URL(asset.url);
+				if (parsed.hostname !== 'github.com') {
+					errors.push(`An external asset that includes a DLL can only be a URL from GitHub`);
+					continue;
+				}
+				let [username] = parsed.pathname.replace(/^\//, '').split('/');
+				if (username.toLowerCase() !== githubUsername?.toLowerCase()) {
+					errors.push(`The GitHub user that owns ${asset.url} does not correspond to the configured GitHub user for ${json.author}!`);
+					continue;
+				}
+
+				// All checks passed, continue now.
+				asset.withChecksum = info.checksums;
+
+			}
+		} else if (files.some(file => path.extname(file) === '.dll')) {
+			errors.push(`Asset ${asset.url} includes a DLL, but does not specify an GitHub url where the DLL can be downoaded from. Due to security reasons, only DLLs that are hosted on GitHub are allowed.`);
+		}
+	}
 
 	// Allright, we're pretty much done now. Write away the metadata and return 
 	// the information about what we've generated.

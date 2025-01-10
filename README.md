@@ -29,14 +29,14 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - [x] Support custom metadata as part of the package (by means of a metadata.yaml file in one of the uploads)
 - [x] Handle various Simtropolis error scenarios (down for maintenance, 520, ...) ([#35](https://github.com/sebamarynissen/simtropolis-channel/pull/35))
 - [x] Setup an action that creates a PR instead of pushing to main
-- [ ] Make the metadata generation robust & fool proof
+- [x] Make the metadata generation robust & fool proof
   - [x] Ensure incorrect metadata cannot be deployed
   - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed in the `permissions.yaml` file. That way someone from a team can upload under the team name, but only if explicitly allowed.
-  - [ ] Automatically generate DLL checksums (see [#37](https://github.com/sebamarynissen/simtropolis-channel/pull/37) for the discussion about this feature)
+  - [x] Automatically generate DLL checksums (see [#37](https://github.com/sebamarynissen/simtropolis-channel/pull/37) for the discussion about this feature)
 - [x] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
-- [ ] Make the channel available under a simtropolis.com url, e.g. https://sc4pac.simtropolis.com
+- [ ] Make the channel available under a simtropolis.com url: https://sc4pac.simtropolis.com
 - [ ] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails (to verify with ST admins, but should probably be possible by sendin a POST to the correct endpoint).
 - [ ] Setup an action that automatically creates a GitHub release the first of every month with an overview of all packages that have been added the last month. The releases can have the format `YYYY.mm` as version tags.
 
@@ -260,6 +260,42 @@ It also takes into account that descriptors might have longer names. For example
 
 As there isn't a clear one-on-one relation from Simtropolis file descriptors to sc4pac subfolders, it is **strongly recommended** to always provide the subfolder manually in your `metadata.yaml` file.
 This is especially important if your plugin has specific needs, such as needing to be loaded after certain other plugins, meaning it should end up in `900-overrides`.
+
+## DLL plugins
+
+DLL mods are powerful, but they also come with a certain risk.
+Given that they contain executable code, an attacker could replace a dll with a malicious one and infect users with it possibly going unnoticed for some time.
+
+In order to mitigate this risk, DLL uploads have some special requirements.
+The `metadata.yaml` for a dll plugin **must** specify an external url, and this url **must** be a GitHub url.
+On top of that, you must also link your account on Simtropolis with your GitHub username in both `permissions.yaml` and `lint-config.yaml`.
+Hence, if you want to start developing DLL plugins, you should create a PR which adds the required data to those files.
+
+The `metadata.yaml` for a dll upload could look like this:
+```yaml
+url: https://github.com/user/repo/releases/download/v1.0/my-dll-mod.zip
+```
+
+If you also need control over the metadata for the *package*, you have to make sure the `url` is not included on the package metadata, as it is information about an *asset*, not a package:
+
+```yaml
+name: my-dll-mod
+info:
+  description: |-
+    This is a custom description of the DLL mod, only visible to sc4pac users.
+
+---
+url: https://github.com/user/repo/releases/download/v1.0/my-dll-mod.zip
+```
+
+This approach ensures that if your Simtropolis account gets hacked, the hacker has no way to replace the asset downloaded by sc4pac with a malicious one, as it would require the hacker to also have access to your GitHub account *at the same time*.
+As GitHub accounts are often protected with MFA nowadays, this makes it way less likely that a hacker succeeds in hacking both your Simtropolis and GitHub accounts at the same time.
+
+Note that this does not offer any protection for users that download the dll directly from Simtropolis: if your account gets hacked and the hacker replaces your DLL with a malicious one, users can download the malicious DLL without any problems.
+The defense layer developed here is only relevant to sc4pac users!
+Hence, if you develop DLL plugins, it is advised to make the users aware of this and suggest them to use sc4pac to be safe.
+
+For more information on this feature, you can refer to the implementation details in [#37](https://github.com/sebamarynissen/simtropolis-channel/pull/37).
 
 ## Invalid metadata
 

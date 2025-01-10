@@ -2,6 +2,7 @@
 import { expect } from 'chai';
 import { Document, parseAllDocuments, stringify } from 'yaml';
 import mime from 'mime';
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import yazl from 'yazl';
@@ -29,6 +30,7 @@ describe('The fetch action', function() {
 
 		this.setup = function(testOptions) {
 
+			const ctx = this;
 			const {
 				handler = () => void 0,
 				permissions = null,
@@ -118,19 +120,9 @@ describe('The fetch action', function() {
 
 						// Mock a .zip file with the contents as specified in 
 						// the upload.
-						if (Array.isArray(contents)) {
-							contents = Object.fromEntries(contents.map(name => [name, '']));
-						}
-						let zipFile = new yazl.ZipFile();
-						for (let [name, raw] of Object.entries(contents)) {
-							if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
-								raw = jsonToYaml(raw);
-							}
-							zipFile.addBuffer(Buffer.from(raw), name);
-						}
-						zipFile.end();
+						let zip = ctx.zip(contents);
 						return new Response(
-							zipFile.outputStream,
+							zip,
 							{
 								headers: {
 									'Content-Type': 'application/zip',
@@ -196,6 +188,23 @@ describe('The fetch action', function() {
 
 			return { fs, run };
 
+		};
+
+		// Helper function for generating a zip stream that can be used in a 
+		// response.
+		this.zip = function(contents) {
+			if (Array.isArray(contents)) {
+				contents = Object.fromEntries(contents.map(name => [name, '']));
+			}
+			let zipFile = new yazl.ZipFile();
+			for (let [name, raw] of Object.entries(contents)) {
+				if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
+					raw = jsonToYaml(raw);
+				}
+				zipFile.addBuffer(Buffer.from(raw), name);
+			}
+			zipFile.end();
+			return zipFile.outputStream;
 		};
 
 		this.date = function(date) {
@@ -949,6 +958,125 @@ describe('The fetch action', function() {
 		const { packages, warnings } = await run({ id: upload.id });
 		expect(packages).to.have.length(0);
 		expect(warnings).to.have.length(1);
+
+	});
+
+	it('generates DLL checksums automatically', async function() {
+
+		const url = 'https://github.com/dll-creator/my-dll/releases/0.0.1/my-dll.zip';
+		const contents = crypto.getRandomValues(new Uint8Array(250));
+		const malicious = new Uint8Array(contents);
+		malicious[0] += 1;
+		const sha256 = crypto.createHash('sha256').update(contents).digest('hex');
+		const upload = faker.upload({
+			uid: 176422,
+			files: [
+				{
+					name: 'extra-cheats.zip',
+					contents: {
+						'metadata.yaml': {
+							url,
+						},
+						'extra-cheats.dll': malicious,
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			permissions: {
+				authors: [
+					{
+						id: 176422,
+						github: 'dll-creator',
+					},
+				],
+			},
+			handler: (req) => {
+				let parsed = new URL(req.url);
+				if (parsed.hostname === 'github.com') {
+					return new Response(
+						this.zip({
+							'extra-cheats.dll': contents,
+						}),
+						{
+							headers: {
+								'Content-Type': 'application/zip',
+							},
+						},
+					);
+				}
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.be.undefined;
+		let [asset] = result.metadata.slice(1);
+		expect(asset.url).to.equal(url);
+		expect(asset.nonPersistentUrl).to.include('simtropolis.com');
+		expect(asset.withChecksum).to.eql([{
+			include: '/extra-cheats.dll',
+			sha256,
+		}]);
+
+	});
+
+	it('generates an error if the user has not specified an external url for dlls', async function() {
+
+		const contents = crypto.getRandomValues(new Uint8Array(250));
+		const upload = faker.upload({
+			files: [
+				{
+					name: 'extra-cheats.zip',
+					contents: {
+						'metadata.yaml': '',
+						'extra-cheats.dll': contents,
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
+
+	});
+
+	it('generates an error if the GitHub url does not match the user\'s GitHub name', async function() {
+
+		const url = 'https://github.com/dll-creator/my-dll/releases/0.0.1/my-dll.zip';
+		const contents = crypto.getRandomValues(new Uint8Array(250));
+		const upload = faker.upload({
+			files: [
+				{
+					name: 'extra-cheats.zip',
+					contents: {
+						'metadata.yaml': {
+							url,
+						},
+						'extra-cheats.dll': contents,
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			handler: (req) => {
+				if (!new URL(req.url).hostname.includes('github.com')) return;
+				return new Response(
+					this.zip({
+						'extra-cheats.dll': contents,
+					}),
+					{
+						headers: {
+							'Content-Type': 'application/zip',
+						},
+					},
+				);
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
 
 	});
 
