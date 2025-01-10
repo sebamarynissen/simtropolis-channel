@@ -126,9 +126,8 @@ export default class Downloader {
 		}
 		return {
 			metadata,
-      		files,
+			files,
 		};
-
 	}
 
 	// ## handleZip(download, destination)
