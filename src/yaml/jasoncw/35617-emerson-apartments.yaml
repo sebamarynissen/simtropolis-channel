@@ -1,0 +1,44 @@
+group: jasoncw
+name: emerson-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Emerson Apartments
+  description: |-
+    Emerson Apartments is a 2x2 apartment building for the Houston 1990 and Euro tilesets. The facade has been designed to emulate the appearance of rowhouses. There is no ploppable version, because ploppable residential lots are not possible in SimCity 4.
+
+    -   2x2 growable R§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you don't already have them, download and install the dependencies, linked above.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35617-emerson-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64ffb3deee6e6_EmersonApartments00.jpg.d7624f1985355bea740b8ce259b7f06c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64ffb3eb3c963_EmersonApartments01.jpg.70306f3421019bef21649de1391dd0e9.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-emerson-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-emerson-apartments-darknite
+
+---
+assetId: jasoncw-emerson-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2023-09-12T00:43:08Z"
+url: https://community.simtropolis.com/files/file/35617-emerson-apartments/?do=download&r=197629
+
+---
+assetId: jasoncw-emerson-apartments-darknite
+version: "1.0.0"
+lastModified: "2023-09-12T00:43:08Z"
+url: https://community.simtropolis.com/files/file/35617-emerson-apartments/?do=download&r=197630

@@ -2,7 +2,7 @@
 import { expect } from 'chai';
 import { Document, parseAllDocuments, stringify } from 'yaml';
 import mime from 'mime';
-import crypto from 'node:crypto';
+import fs from 'node:fs';
 import path from 'node:path';
 import yazl from 'yazl';
 import { Volume } from 'memfs';
@@ -32,7 +32,8 @@ describe('The fetch action', function() {
 			const {
 				handler = () => void 0,
 				permissions = null,
-				uploads,
+				upload,
+				uploads = [upload],
 				lastRun,
 				now = Date.now(),
 			} = testOptions;
@@ -117,6 +118,9 @@ describe('The fetch action', function() {
 
 						// Mock a .zip file with the contents as specified in 
 						// the upload.
+						if (Array.isArray(contents)) {
+							contents = Object.fromEntries(contents.map(name => [name, '']));
+						}
 						let zipFile = new yazl.ZipFile();
 						for (let [name, raw] of Object.entries(contents)) {
 							if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
@@ -244,6 +248,25 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package with a nested metadata.yaml', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'subfolder/metadata.yaml': {
+							name: 'this-name',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].name).to.equal('this-name');
+
+	});
+
 	it('a package with custom dependencies', async function() {
 
 		let upload = faker.upload({
@@ -298,7 +321,7 @@ describe('The fetch action', function() {
 
 	});
 
-	it('a package with MN and DN variants', async function() {
+	it('a package with MN and DN variants in separate uploads', async function() {
 
 		let upload = faker.upload({
 			cid: 102,
@@ -361,6 +384,96 @@ describe('The fetch action', function() {
 			version: upload.release,
 			url: `${upload.fileURL}/?do=download&r=${upload.files[1].id}`,
 		});
+
+	});
+
+	it('a package with MN and DN variants in the same upload', async function() {
+
+		let upload = faker.upload({
+			author: 'smf-16',
+			title: 'Building',
+			files: [
+				{
+					name: 'Kia Lexington.zip',
+					contents: [
+						'metadata.yaml',
+						'lot.SC4Lot',
+						'building.SC4Desc',
+						'Model files (KEEP ONLY ONE)/MaxisNite/model.SC4Model',
+						'Model files (KEEP ONLY ONE)/DarkNite/model.SC4Model',
+					],
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+
+		let { result } = await run({ id: upload.id });
+		expect(result.metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/DarkNite/'],
+					},
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/MaxisNite/'],
+					},
+				],
+			},
+		]);
+
+	});
+
+	it('a package with MN and DN variants in the same upload with nested folders', async function() {
+
+		let upload = faker.upload({
+			author: 'smf-16',
+			title: 'Building',
+			files: [
+				{
+					name: 'Kia Lexington.zip',
+					contents: [
+						'metadata.yaml',
+						'MaxisNite/models/model.SC4Model',
+						'MaxisNite/lots/lot.SC4Lot',
+						'DarkNite/models/model.SC4Model',
+						'DarkNite/lots/lot.SC4Lot',
+					],
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+
+		let { result } = await run({ id: upload.id });
+		expect(result.metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/DarkNite/'],
+					},
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{
+						assetId: 'smf-16-building',
+						exclude: ['/MaxisNite/'],
+					},
+				],
+			},
+		]);
 
 	});
 
@@ -901,6 +1014,28 @@ describe('The fetch action', function() {
 
 	});
 
+	it('includes an error in the result when the user is not allowed to upload under that group', async function() {
+
+		const upload = faker.upload({
+			author: 'sfbt',
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							group: 'nybt',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			upload,
+		});
+		let { result } = await run();
+		expect(result.errors).to.have.length(1);
+
+	});
+
 	it('skips tools', async function() {
 
 		const upload = faker.upload({
@@ -966,10 +1101,8 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42592');
 		let metadata = await read('src/yaml/smf-16/42592-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('old-title');
@@ -1013,10 +1146,8 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42592');
 		let metadata = await read('/src/yaml/smf-16/42592-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('old-title');
@@ -1026,7 +1157,7 @@ describe('The fetch action', function() {
 	it('changes the filename of an uploaded package with custom metadata with a name (#42)', async function() {
 
 		const upload = faker.upload({
-			id: 42592,
+			id: 42593,
 			uid: 5642,
 			author: 'smf_16',
 			title: 'New Title',
@@ -1061,11 +1192,9 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-custom-new-title.yaml');
-		let metadata = await read('/src/yaml/smf-16/42592-custom-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42593');
+		let metadata = await read('/src/yaml/smf-16/42593-custom-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('custom-new-title');
 
@@ -1113,6 +1242,203 @@ describe('The fetch action', function() {
 		const { result } = await run({ id: upload.id });
 		expect(result.metadata[0].info.description).to.include('[https://community.simtropolis.com/files/file/1-one](https://community.simtropolis.com/files/file/1-one)');
 		expect(result.metadata[0].info.description).to.include('[https://community.simtropolis.com/files/file/2-two](https://community.simtropolis.com/files/file/2-two)');
+
+	});
+
+	it('a package with a CAM variant', async function() {
+
+		this.timeout(5000);
+		const file = async (name) => await fs.promises.readFile(
+			path.join(import.meta.dirname, name),
+		);
+
+		const upload = faker.upload({
+			title: 'Tower',
+			author: 'author',
+			files: [
+				{
+					name: 'Tower.zip',
+					contents: {
+						'metadata.yaml': '',
+						'growables/growable C$$.SC4Desc': await file('detect-growables/growable.SC4Desc'),
+						'growables/growable.SC4Lot': await file('detect-growables/growable.SC4Lot'),
+						'ploppable.SC4Lot': await file('detect-growables/ploppable.SC4Lot'),
+					},
+				},
+				{
+					name: 'Tower (CAM).zip',
+					contents: {
+						'cam.SC4Desc': '',
+						'cam.SC4Lot': '',
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let { variants } = result.metadata[0];
+		expect(variants).to.eql([
+			{
+				variant: { CAM: 'no' },
+				assets: [
+					{
+						assetId: 'author-tower',
+					},
+				],
+			},
+			{
+				variant: { CAM: 'yes' },
+				assets: [
+					{
+						assetId: 'author-tower',
+						exclude: [
+							'/growables\\/growable C\\$\\$\\.SC4Desc$',
+							'/growables/growable.SC4Lot',
+						],
+					},
+					{ assetId: 'author-tower-cam' },
+				],
+			},
+		]);
+
+	});
+
+	it('a darnkite-only package', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'tower',
+			files: [
+				{
+					name: 'Tower_DN.zip',
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let { variants } = result.metadata[0];
+		expect(variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{ assetId: 'author-tower-darknite' },
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{ assetId: 'author-tower-darknite' },
+				],
+			},
+		]);
+
+	});
+
+	it('ensures uniqueness of the assets', async function() {
+
+		const upload = faker.upload({
+			author: 'author',
+			title: 'World Trade Center',
+			files: [
+				'North Tower (MN).zip',
+				'North Tower (DN).zip',
+				'South Tower (MN).zip',
+				'South Tower (DN).zip',
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		let [, ...assets] = result.metadata;
+		expect(assets[0].assetId).to.equal('author-world-trade-center-maxisnite-part-1');
+		expect(assets[1].assetId).to.equal('author-world-trade-center-darknite-part-1');
+		expect(assets[2].assetId).to.equal('author-world-trade-center-maxisnite-part-2');
+		expect(assets[3].assetId).to.equal('author-world-trade-center-darknite-part-2');
+
+	});
+
+	it('attaches the GitHub username if known', async function() {
+
+		const upload = faker.upload({
+			uid: 123,
+		});
+		const { run } = this.setup({
+			upload,
+			permissions: {
+				authors: [
+					{
+						id: 123,
+						github: 'sebamarynissen',
+					},
+				],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.githubUsername).to.equal('sebamarynissen');
+
+	});
+
+	it('doesn\'t choke on obsolete packages where the file have been deleted', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					name: null,
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
+	it('handles mutiple metadata.yaml files in the same asset', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'this-one',
+						},
+						'subfolder/metadata.yaml': {
+							name: 'no-this-one',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
+
+	});
+
+	it('handles mutiple metadata.yaml files in different assets', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'this-one',
+						},
+					},
+				},
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'no-this-one',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
 
 	});
 

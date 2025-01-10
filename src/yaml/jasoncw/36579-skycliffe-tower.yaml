@@ -1,0 +1,68 @@
+group: jasoncw
+name: skycliffe-tower
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Skycliffe Tower
+  description: |-
+    Skycliffe Tower is a luxury condo tower. It's a 3x2 corner lot for the Euro tileset.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 12 version for people who do.
+
+    -   3x2 growable R§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   CAM version included.
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you use the CAM, replace the growable with the CAM version.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36579-skycliffe-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/675120eae9328_SkycliffeTower00.jpg.d3634f009caa6a830cbec99efaeff16f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6751210f5763a_SkycliffeTower01.jpg.42d8e812e2906982dc4badb47119aedf.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-skycliffe-tower-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-skycliffe-tower-maxisnite
+        exclude:
+          - .SC4Lot$
+      - assetId: jasoncw-skycliffe-tower-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-skycliffe-tower-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-skycliffe-tower-darknite
+        exclude:
+          - .SC4Lot$
+      - assetId: jasoncw-skycliffe-tower-cam
+
+---
+assetId: jasoncw-skycliffe-tower-maxisnite
+version: "1.0.0"
+lastModified: "2024-12-05T03:44:31Z"
+url: https://community.simtropolis.com/files/file/36579-skycliffe-tower/?do=download&r=204577
+
+---
+assetId: jasoncw-skycliffe-tower-darknite
+version: "1.0.0"
+lastModified: "2024-12-05T03:44:31Z"
+url: https://community.simtropolis.com/files/file/36579-skycliffe-tower/?do=download&r=204578
+
+---
+assetId: jasoncw-skycliffe-tower-cam
+version: "1.0.0"
+lastModified: "2024-12-05T03:44:31Z"
+url: https://community.simtropolis.com/files/file/36579-skycliffe-tower/?do=download&r=204579

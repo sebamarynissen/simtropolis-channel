@@ -1,0 +1,41 @@
+group: nofunk
+name: sarajevo-lounge
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sarajevo Lounge
+  description: |-
+    The Sarajevo Lounge is a small restaurant and bar located at the corner of First Avenue and Battery Street just north of downtown Seattle, Washington. This charming little red and white Streamline Moderne building is wall-to-wall in both directions, and provides 24 CS§ jobs for your city.
+
+    \- 1x2 growable and ploppable that grows in the New York tileset.
+
+    \- Available in both MaxisNite and DarkNite.
+
+    \- DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![pb8qF9C.jpg](http://i.imgur.com/pb8qF9C.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29450-sarajevo-lounge/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/5e78a8fd7d31ef1a8ae525f187840069-sarajevolounge1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/eb898cbc95a7bc3643cc051d5bc7eafd-sarajevolounge2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-sarajevo-lounge-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-sarajevo-lounge-darknite
+
+---
+assetId: nofunk-sarajevo-lounge-darknite
+version: "1.0"
+lastModified: "2014-04-12T18:01:56Z"
+url: https://community.simtropolis.com/files/file/29450-sarajevo-lounge/?do=download&r=131260
+
+---
+assetId: nofunk-sarajevo-lounge-maxisnite
+version: "1.0"
+lastModified: "2014-04-12T18:01:56Z"
+url: https://community.simtropolis.com/files/file/29450-sarajevo-lounge/?do=download&r=131261

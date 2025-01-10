@@ -1,0 +1,42 @@
+group: jasoncw
+name: magasin-valois
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Magasin Valois
+  description: |-
+    Magasin Valois, the brand only the most fashionable high wealth sims wear.
+
+    It is a corner lot for the Euro tileset.
+
+    -   1x2 growable and ploppable CS§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36465-magasin-valois/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66f4a2f03413f_MagasinValois00.jpg.e77d15efa6ab68a2660313ca1c00a1a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66f4a2fbcfeb2_MagasinValois01.jpg.8450c652a322d9263f5825a66bc2d5a8.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-magasin-valois-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-magasin-valois-darknite
+
+---
+assetId: jasoncw-magasin-valois-maxisnite
+version: "1.0.0"
+lastModified: "2024-09-25T23:56:22Z"
+url: https://community.simtropolis.com/files/file/36465-magasin-valois/?do=download&r=203589
+
+---
+assetId: jasoncw-magasin-valois-darknite
+version: "1.0.0"
+lastModified: "2024-09-25T23:56:22Z"
+url: https://community.simtropolis.com/files/file/36465-magasin-valois/?do=download&r=203590

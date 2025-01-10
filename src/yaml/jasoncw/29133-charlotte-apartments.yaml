@@ -1,0 +1,54 @@
+group: jasoncw
+name: charlotte-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Charlotte Apartments
+  description: |-
+    Charlotte Apartments is an apartment building on Charlotte Street in midtown Detroit. Two lots are included, one which is based on the real building which has a small grass yard ("setback"), and an additional version which is wall-to-wall ("urban"). Because residential ploppables do not work in the game, only growable versions are available.
+
+    -   1x4 growable R§§ lots.
+    -   Urban and setback versions.  
+         
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).  
+         
+    -   Requires [mipro essentials December 2013](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    ![Charlotte-stex-1.jpg.4da372b18091ac02a14](https://www.simtropolis.com/repository/screens/monthly_2017_02/Charlotte-stex-1.jpg.4da372b18091ac02a145d474da280e64.jpg)
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    [mipro Forum Thread](https://community.simtropolis.com/topic/60777-mipro/)  
+    [mipro STEX Uploads](https://community.simtropolis.com/tags/downloads/mipro/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29133-charlotte-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Charlotte-stex-0.thumb.jpg.068b0f8102e0b71d832cde09819335a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Charlotte-stex-1.jpg.4da372b18091ac02a145d474da280e64.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-charlotte-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-charlotte-apartments-darknite
+
+---
+assetId: jasoncw-charlotte-apartments-maxisnite
+version: "1.0"
+lastModified: "2013-12-18T23:29:25Z"
+url: https://community.simtropolis.com/files/file/29133-charlotte-apartments/?do=download&r=121924
+
+---
+assetId: jasoncw-charlotte-apartments-darknite
+version: "1.0"
+lastModified: "2013-12-18T23:29:25Z"
+url: https://community.simtropolis.com/files/file/29133-charlotte-apartments/?do=download&r=121925

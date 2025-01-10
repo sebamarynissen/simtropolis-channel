@@ -1,0 +1,75 @@
+group: ids2
+name: 100-washington-square
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: 100 Washington Square
+  description: |-
+    ATTENTION: If you have downloaded this file AND my Nelson Tower file before 2014, you may have noticed a glitch in which the wrong building shows up on the lot. This was caused due to a shared building ID between the two buildings and can be remedied by downloading the new Nelson Tower [here](https://community.simtropolis.com/files/file/28835-nelson-tower/). 
+
+    100 Washington Square is a 332-foot (101m) tower in Downtown Minneapolis, MN. It was designed by Minoru Yamasaki (of WTC fame) and completed in 1981.
+
+    This SC4 version sits on a 2x4 lot and has 3410 CO$$ jobs. Both growable and ploppable lots are included. 
+
+    Night scenes come in both Maxisnite and Darknite varieties. The Darknite scene requires Simfox's mod available [here.](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) Download and install only one of the two varieties at a time. 
+
+    The CAM lots included in this upload require the [Colossus Addon Mod](https://community.simtropolis.com/files/file/30956-colossus-addon-mod/).
+
+    Enjoy! 
+
+    UPDATE 7-2-19: Added an additional non-CAM growable lot. Thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for pointing this out! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)")
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/28912-100-washington-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/01b2c306923345c68283b21ed9b95aaf-100-washington-square-front-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/a2602663be646932b1dea41a747569fd-100-washington-square-front-darknite.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/90ef878190c5f0a0d9e137c72887ee34-100-washington-square-side-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/2f17a59cb857017bfae20b84637d9daf-100-washington-square-side-darknite.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/08429977828e6da63dc61ead81b84069-100-washington-square-maxisnite.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: ids2-100-washington-square-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: ids2-100-washington-square-maxisnite
+        exclude:
+          - /CO\$\$8_4x2_100 Washington Square_baa1361e\.SC4Lot
+          - \.SC4Desc$
+      - assetId: ids2-100-washington-square-cam-maxisnite
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-100-washington-square-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-100-washington-square-darknite
+        exclude:
+          - /CO\$\$8_4x2_100 Washington Square_1aa12d79\.SC4Lot
+          - \.SC4Desc$
+      - assetId: ids2-100-washington-square-cam-darknite
+
+---
+assetId: ids2-100-washington-square-darknite
+version: "1.1"
+lastModified: "2019-07-03T02:01:47Z"
+url: https://community.simtropolis.com/files/file/28912-100-washington-square/?do=download&r=176544
+
+---
+assetId: ids2-100-washington-square-cam-darknite
+version: "1.1"
+lastModified: "2019-07-03T02:01:47Z"
+url: https://community.simtropolis.com/files/file/28912-100-washington-square/?do=download&r=176545
+
+---
+assetId: ids2-100-washington-square-maxisnite
+version: "1.1"
+lastModified: "2019-07-03T02:01:47Z"
+url: https://community.simtropolis.com/files/file/28912-100-washington-square/?do=download&r=176546
+
+---
+assetId: ids2-100-washington-square-cam-maxisnite
+version: "1.1"
+lastModified: "2019-07-03T02:01:47Z"
+url: https://community.simtropolis.com/files/file/28912-100-washington-square/?do=download&r=176547

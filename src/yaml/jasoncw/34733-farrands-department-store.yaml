@@ -1,0 +1,47 @@
+group: jasoncw
+name: farrands-department-store
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Farrand's Department Store
+  description: |-
+    Farrand's Department Store offers anything you can dream of, across 5 full stories of high end shopping. While you're shopping, enjoy a meal at the top floor's restaurant
+
+    -   6x3 growable and ploppable CS§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins. 
+    3.  If you don't already have them, download and install the dependencies, linked above. 
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/34733-farrands-department-store/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/6180374f88961_FarrandsP00.jpg.83db33a5761fea68aa4653ec1526fbdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/618037527e1cd_FarrandsP01.jpg.c1fd91ca4023900f0057d88085810841.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-farrands-department-store-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-farrands-department-store-darknite
+
+---
+assetId: jasoncw-farrands-department-store-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-01T18:52:14Z"
+url: https://community.simtropolis.com/files/file/34733-farrands-department-store/?do=download&r=190355
+
+---
+assetId: jasoncw-farrands-department-store-darknite
+version: "1.0.0"
+lastModified: "2021-11-01T18:52:14Z"
+url: https://community.simtropolis.com/files/file/34733-farrands-department-store/?do=download&r=190356

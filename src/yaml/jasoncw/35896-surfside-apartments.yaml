@@ -1,0 +1,39 @@
+group: jasoncw
+name: surfside-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Surfside Apartments
+  description: |-
+    Surfside Apartments is an apartment building in Madison, Wisconsin, USA. It's adjacent both to the University of Wisconsin Madison campus, and a large lake.
+
+    It grows in the Euro tileset.
+
+    -   Growable 2x1 and 2x2 R§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35896-surfside-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/658a036e481a1_SurfsideApartments00.jpg.d1afd520a3a663d3ff927b235815adcd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/658a03751ee0a_SurfsideApartments01.jpg.3381f10b9e3d986b6be9e956c3754ab1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-surfside-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-surfside-apartments-darknite
+
+---
+assetId: jasoncw-surfside-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2023-12-25T22:38:45Z"
+url: https://community.simtropolis.com/files/file/35896-surfside-apartments/?do=download&r=198960
+
+---
+assetId: jasoncw-surfside-apartments-darknite
+version: "1.0.0"
+lastModified: "2023-12-25T22:38:45Z"
+url: https://community.simtropolis.com/files/file/35896-surfside-apartments/?do=download&r=198961

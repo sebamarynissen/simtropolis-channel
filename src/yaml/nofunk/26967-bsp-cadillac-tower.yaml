@@ -1,0 +1,42 @@
+group: nofunk
+name: bsp-cadillac-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BSP Cadillac Tower
+  description: |-
+    The BSP proudly presents the **Cadillac Tower**!  
+      
+    Cadillac Tower is a Beaux Arts skyscraper located in downtown Detroit, Michigan. At 38 floors, it was the tallest building in the world outside of New York and Chicago when it was built in 1927. It now houses the city's planning, development and recreation departments.  
+      
+    Included with this BAT is a prop that depicts three billboards that have graced the side of Cadillac Tower in the past, including one of the legend himself: Barry Sanders! The billboards appear at random.  
+      
+    If you do not wish to use the billboard, simply remove the file named "Prop\_CadTower\_Billboard.dat"
+
+    -   2x2 Co$$ growable and ploppable.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/26967-bsp-cadillac-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/fd17c7bccde25c5a010bcc8eca090f1a-cadtower1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bsp-cadillac-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bsp-cadillac-tower-darknite
+
+---
+assetId: nofunk-bsp-cadillac-tower-darknite
+version: "1.0"
+lastModified: "2011-11-15T04:00:16Z"
+url: https://community.simtropolis.com/files/file/26967-bsp-cadillac-tower/?do=download&r=94111
+
+---
+assetId: nofunk-bsp-cadillac-tower-maxisnite
+version: "1.0"
+lastModified: "2011-11-15T04:00:16Z"
+url: https://community.simtropolis.com/files/file/26967-bsp-cadillac-tower/?do=download&r=94112

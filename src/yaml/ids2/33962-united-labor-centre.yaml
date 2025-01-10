@@ -1,0 +1,44 @@
+group: ids2
+name: united-labor-centre
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: United Labor Centre
+  description: |-
+    Built in 1974, United Labor Centre is an unassuming office building located at the intersection of Central Avenue SE and University Avenue SE in Minneapolis, Minnesota.
+
+    This model is available as a CO$$ building in both growable and ploppable versions, both of which sit on a 2x4 lot and provide 550 jobs. Both Darknite and Maxisnite options are provided - use only one at a time!
+
+    Dependencies:
+
+    -   [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) \- for the Darknite version of the model
+
+    Otherwise, no dependencies are required.
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=25) to learn more about my current projects.
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/33962-united-labor-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/daytime_thumb.png.72247c04ed25747cd460caf5d3ac4df7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/daytime.png.0e224f3b8dc55a6f18d12494d91cc916.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/nighttime.png.fae0be06de5ce1512b4b96f6b23ed149.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-united-labor-centre-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-united-labor-centre-darknite
+
+---
+assetId: ids2-united-labor-centre-darknite
+version: "1.0.0"
+lastModified: "2020-11-15T23:35:45Z"
+url: https://community.simtropolis.com/files/file/33962-united-labor-centre/?do=download&r=183938
+
+---
+assetId: ids2-united-labor-centre-maxisnite
+version: "1.0.0"
+lastModified: "2020-11-15T23:35:45Z"
+url: https://community.simtropolis.com/files/file/33962-united-labor-centre/?do=download&r=183939

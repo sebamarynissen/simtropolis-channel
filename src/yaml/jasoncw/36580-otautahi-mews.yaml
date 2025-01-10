@@ -1,0 +1,37 @@
+group: jasoncw
+name: otautahi-mews
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Otautahi Mews
+  description: |-
+    Otautahi Mews is a small housing complex for the Houston 1990 and Euro tilesets. It grows in low, medium, and high density residential zones. It is based on 7 Boon Street in Christchurch, New Zealand.
+
+    -   1x3 growable R§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36580-otautahi-mews/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6751220c0de7d_OtautahiMews00.jpg.a73037e822435d2042b9c942f3a390ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6751221be6cb9_OtautahiMews01.jpg.b8e4d81cf3b9cffe71453399fa0c855c.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-otautahi-mews-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-otautahi-mews-darknite
+
+---
+assetId: jasoncw-otautahi-mews-maxisnite
+version: "1.0.0"
+lastModified: "2024-12-05T04:06:43Z"
+url: https://community.simtropolis.com/files/file/36580-otautahi-mews/?do=download&r=204582
+
+---
+assetId: jasoncw-otautahi-mews-darknite
+version: "1.0.0"
+lastModified: "2024-12-05T04:06:43Z"
+url: https://community.simtropolis.com/files/file/36580-otautahi-mews/?do=download&r=204583

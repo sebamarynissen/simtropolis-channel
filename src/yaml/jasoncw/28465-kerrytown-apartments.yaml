@@ -1,0 +1,62 @@
+group: jasoncw
+name: kerrytown-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Kerrytown Apartments
+  description: |-
+    Kerrytown Apartments is a large urban apartment complex. It looks good towering over low rise buildings, but also works well mixed in with larger buildings. It's part of the Euro tileset, and grows on medium and high density residential zones.
+
+    -   4x6 and 6x4 R§§ growable lots.
+    -   Bonus college version!  
+         
+    -   MaxisNite and DarkNite night versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![kerrytown-stex-1.jpg.5d37938bd7db02e7ec3](https://www.simtropolis.com/repository/screens/monthly_2017_02/kerrytown-stex-1.jpg.5d37938bd7db02e7ec363ae4f35365f9.jpg)
+
+    This is an adaptation of a non-SimCity project, an apartment building hypothetically located in Ann Arbor, Michigan. Kerrytown is a neighborhood which transitions downtown and a neighborhood of single family houses. The design has been scaled up from a 3x5 to a 4x6 to fit into the game's scale better. Other small changes have also been made.
+
+    Enjoy!
+
+    ![Kerrytown-STEX-2.jpg.d91e65086c311f5769676ac7e5a6b7b8.jpg](https://www.simtropolis.com/repository/screens/monthly_2017_02/Kerrytown-STEX-2.jpg.d91e65086c311f5769676ac7e5a6b7b8.jpg)
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+    3.  SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.
+
+    **BAT** **and modding by Jasoncw**
+
+    [Click here to learn about new projects in the works](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+
+    * * *
+
+    Edit: Fixed description formatting.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28465-kerrytown-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Kerrytown-STEX-0.thumb.jpg.a09e602f4de085d1a8bebcf2590d6e2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/kerrytown-stex-1.jpg.5d37938bd7db02e7ec363ae4f35365f9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Kerrytown-STEX-2.jpg.d91e65086c311f5769676ac7e5a6b7b8.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-kerrytown-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-kerrytown-apartments-darknite
+
+---
+assetId: jasoncw-kerrytown-apartments-maxisnite
+version: "1.0"
+lastModified: "2013-02-09T05:54:58Z"
+url: https://community.simtropolis.com/files/file/28465-kerrytown-apartments/?do=download&r=111749
+
+---
+assetId: jasoncw-kerrytown-apartments-darknite
+version: "1.0"
+lastModified: "2013-02-09T05:54:58Z"
+url: https://community.simtropolis.com/files/file/28465-kerrytown-apartments/?do=download&r=111750

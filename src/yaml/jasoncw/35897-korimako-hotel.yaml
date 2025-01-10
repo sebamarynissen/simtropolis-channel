@@ -1,0 +1,65 @@
+group: jasoncw
+name: korimako-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Korimako Hotel
+  description: |-
+    Treat your city's guests to luxury with Korimako Hotel!
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 12 version for people who do.
+
+    -   4x4 growable and ploppable CS§§§ lots.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   CAM version included.
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    3.  If you use the CAM, replace the growable lot file with the CAMeLot version.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35897-korimako-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/KorimakoHotel00.jpg.49d65df40f729e2fb1ac435330ad12e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/KorimakoHotel01.jpg.67e37f20717571a10e8127756d081238.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-korimako-hotel-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-korimako-hotel-maxisnite
+        exclude:
+          - /Jasoncw - Korimako Hotel - Grow \(CS\$\$\$8_4x4\)\.SC4Lot
+      - assetId: jasoncw-korimako-hotel-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-korimako-hotel-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-korimako-hotel-darknite
+        exclude:
+          - /Jasoncw - Korimako Hotel - Grow \(CS\$\$\$8_4x4\)\.SC4Lot
+      - assetId: jasoncw-korimako-hotel-cam
+
+---
+assetId: jasoncw-korimako-hotel-maxisnite
+version: "1.0.0"
+lastModified: "2023-12-25T22:46:08Z"
+url: https://community.simtropolis.com/files/file/35897-korimako-hotel/?do=download&r=198964
+
+---
+assetId: jasoncw-korimako-hotel-darknite
+version: "1.0.0"
+lastModified: "2023-12-25T22:46:08Z"
+url: https://community.simtropolis.com/files/file/35897-korimako-hotel/?do=download&r=198965
+
+---
+assetId: jasoncw-korimako-hotel-cam
+version: "1.0.0"
+lastModified: "2023-12-25T22:46:08Z"
+url: https://community.simtropolis.com/files/file/35897-korimako-hotel/?do=download&r=198966

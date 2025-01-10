@@ -1,0 +1,35 @@
+group: jasoncw
+name: geodesic-dome-pavilion
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Geodesic Dome Pavilion
+  description: |-
+    This is a picnic shelter with a timber geodesic dome structure, sheathed in translucent plastic panels.
+
+    It can be found near the end of your parks menu.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35898-geodesic-dome-pavilion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/658a0697d0a5f_GeodesicDomePavilion00.jpg.4a1ae4c9780a19073a12215b5439c419.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/658a06a50f03f_GeodesicDomePavilion01.jpg.830446bd30a6381d936afaf7bb75bee2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-geodesic-dome-pavilion-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-geodesic-dome-pavilion-darknite
+
+---
+assetId: jasoncw-geodesic-dome-pavilion-maxisnite
+version: "1.0.0"
+lastModified: "2023-12-25T22:49:12Z"
+url: https://community.simtropolis.com/files/file/35898-geodesic-dome-pavilion/?do=download&r=198969
+
+---
+assetId: jasoncw-geodesic-dome-pavilion-darknite
+version: "1.0.0"
+lastModified: "2023-12-25T22:49:12Z"
+url: https://community.simtropolis.com/files/file/35898-geodesic-dome-pavilion/?do=download&r=198970

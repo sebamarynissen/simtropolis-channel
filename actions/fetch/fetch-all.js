@@ -2,7 +2,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'yaml';
-import { kFileNames } from './symbols.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
 import apiToMetaData from './api-to-metadata.js';
@@ -43,8 +42,7 @@ export default async function fetchAll(urls, opts = {}) {
 		let cleaned = permissions.transform(upload);
 		let metadata = apiToMetaData(cleaned);
 		for (let asset of metadata.assets) {
-			let info = await downloader.handleAsset(asset);
-			asset[kFileNames] = info.files;
+			await downloader.handleAsset(asset);
 		}
 		await completeMetadata(metadata, upload);
 		result.push({

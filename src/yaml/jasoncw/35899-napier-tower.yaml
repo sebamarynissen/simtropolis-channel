@@ -1,0 +1,40 @@
+group: jasoncw
+name: napier-tower
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Napier Tower
+  description: |-
+    Napier Tower is a luxury residential tower for the Euro tileset. It is a corner lot.
+
+    -   3x3 growable R§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/35899-napier-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/658a074929e73_NapierTower00.jpg.64f3114135208bf5ee79ebd562eeafcf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/658a0753e12a1_NapierTower01.jpg.7df3519482172f75ad9676fa9b5e5fb4.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-napier-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-napier-tower-darknite
+
+---
+assetId: jasoncw-napier-tower-maxisnite
+version: "1.0.0"
+lastModified: "2023-12-25T22:51:51Z"
+url: https://community.simtropolis.com/files/file/35899-napier-tower/?do=download&r=198973
+
+---
+assetId: jasoncw-napier-tower-darknite
+version: "1.0.0"
+lastModified: "2023-12-25T22:51:51Z"
+url: https://community.simtropolis.com/files/file/35899-napier-tower/?do=download&r=198974

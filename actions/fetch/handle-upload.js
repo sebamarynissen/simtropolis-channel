@@ -26,14 +26,30 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
+	// If the files have been removed - meaning the file name is "null" - then 
+	// we don't include this. This happens for example with packages marked as 
+	// obsolete on the STEX.
+	if (
+		!json.files ||
+		json.files.length === 0 ||
+		json.files.some(file => file.name === null)
+	) {
+		return {
+			skipped: true,
+			type: 'notice',
+			reason: `Package ${json.fileURL} skipped as it has no files`,
+		};
+	}
+
 	// Start by extracting all metadata we can from the api. This should be 
 	// sufficient to look for a `metadata.yaml` file in the downloads. We'll do 
 	// that first before completing the metadata with scraping, because we might 
 	// be able to shortcut already here.
 	let { permissions } = opts;
 	let metadata = apiToMetadata(permissions.transform(json));
-	let parsedMetadata = false;
+	let parsedMetadata = [];
 	let downloader = new Downloader();
+	let cleanup = [];
 	for (let asset of metadata.assets) {
 
 		// If the assets contains metadata, we'll use this one, only if former 
@@ -42,9 +58,11 @@ export default async function handleUpload(json, opts = {}) {
 		// someone uploads an invalid zip file, nothing we can do about that, 
 		// but we don't want this to block our workflow.
 		let info = await downloader.handleAsset(asset);
-		if (info.metadata && !parsedMetadata) {
-			parsedMetadata = info.metadata;
+		if (!info) continue;
+		if (info.metadata) {
+			parsedMetadata.push(...[info.metadata].flat());
 		}
+		cleanup.push(info.cleanup);
 
 		// If the asset contains dll files, then checksums should have been 
 		// generated. We'll add those to the metadata.
@@ -57,13 +75,20 @@ export default async function handleUpload(json, opts = {}) {
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
+	let errors = [];
 	const { requireMetadata = true } = opts;
-	if (!parsedMetadata && requireMetadata) {
+	if (parsedMetadata.length === 0 && requireMetadata) {
 		return {
 			skipped: true,
 			type: 'notice',
 			reason: `Package ${json.fileURL} does not have a metadata.yaml file in its root. Skipping.`,
 		};
+	} else if (parsedMetadata.length > 1) {
+
+		// If we found more than 1 metadata file, we'll continue, but we have to 
+		// report an error though. This will ensure that the PR won't get merged.
+		errors.push(`This package has ${parsedMetadata.length} metadata.yaml files, only 1 is allowed.`);
+
 	}
 
 	// If we reach this point, we're sure to include the package. We now need to 
@@ -72,13 +97,18 @@ export default async function handleUpload(json, opts = {}) {
 	// response.
 	await completeMetadata(metadata, json);
 
+	// We are now ready to clean up any downloaded & extracted assets.
+	for (let fn of cleanup) {
+		await fn();
+	}
+
 	// See #42. If metadata for the package already existed before - either 
 	// added by the bot, or manually by backfilling - then we have to patch the 
 	// *default* metadata so that the name can't change unintentionally.
 	let original = { ...metadata.package };
 	let author = original.group;
 	let { cwd, path: srcPath = 'src/yaml', fs = nodeFs } = opts;
-	let deletions = await checkPreviousVersion(json.id, metadata, {
+	await checkPreviousVersion(json.id, metadata, {
 		cwd,
 		srcPath,
 		fs,
@@ -91,17 +121,21 @@ export default async function handleUpload(json, opts = {}) {
 		packages,
 		main,
 		basename,
-	} = patchMetadata(metadata, parsedMetadata, original);
+	} = patchMetadata(metadata, parsedMetadata[0], original);
 	let zipped = [...packages, ...metadata.assets];
 	try {
 		permissions.assertPackageAllowed(json, packages);
 	} catch (e) {
-		return {
-			skipped: true,
-			type: 'warning',
-			reason: `${e.message}\n\n${serialize(zipped)}`,
-		};
+
+		// When there's an error, we *DO NOT* skip the package. We continue, but 
+		// add it as an error, which will subsequently be handled by the 
+		// create-prs action.
+		errors.push(e.message);
+
 	}
+
+	// Check if the user has a GitHub username associated with them.
+	let githubUsername = permissions.getGithubUsername(json);
 
 	// Allright, we're pretty much done now. Write away the metadata and return 
 	// the information about what we've generated.
@@ -115,9 +149,11 @@ export default async function handleUpload(json, opts = {}) {
 	return {
 		id,
 		metadata: zipped,
+		fileId: String(json.id),
 		branchId: String(json.id),
-		deletions,
 		additions: [relativePath],
+		githubUsername,
+		...errors.length > 0 && { errors },
 	};
 
 }

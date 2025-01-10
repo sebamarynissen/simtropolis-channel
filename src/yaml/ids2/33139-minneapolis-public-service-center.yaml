@@ -1,0 +1,51 @@
+group: ids2
+name: minneapolis-public-service-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Minneapolis Public Service Center
+  description: |-
+    Built in 1957, the Minneapolis Public Service Center is a 5-story building that sits at the corner of South 4th Street and 3rd Avenue South in downtown Minneapolis, Minnesota. It was designed by Minneapolis-based architectural firm Thorshov and Cerny.
+
+    This building is available as a CS$$ midrise in both growable and ploppable versions. It sits on a 7x3 lot and has 480 jobs. Both Darknite and Maxisnite versions are provided; only one should be used at a time, and the Darknite version requires [this mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) by Simfox (or another nighttime darkening mod).
+
+    Otherwise, the only dependencies are for the trees I threw on the lot:
+
+    [BSC MEGA Props CP Vol01 (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC MEGA Props CP Vol02 (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    Click [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=240) to learn more about my current projects.  
+       
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/33139-minneapolis-public-service-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/icon.png.3d69110110458a89f0cdc56d84c817c2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/day_NS.png.9a43de5a02997caf17d0cc0251d84503.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/night_NS.png.3facf4ea32f75b8761c71cf5810c6881.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/day_EW.png.08d0d1355620dff0a84890eec78f1383.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/night_EW.png.6d6b59cdc1dc683ccae4ad59cee10ff0.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-minneapolis-public-service-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-minneapolis-public-service-center-darknite
+
+---
+assetId: ids2-minneapolis-public-service-center-darknite
+version: "1.0.0"
+lastModified: "2019-09-03T01:51:21Z"
+url: https://community.simtropolis.com/files/file/33139-minneapolis-public-service-center/?do=download&r=177523
+
+---
+assetId: ids2-minneapolis-public-service-center-maxisnite
+version: "1.0.0"
+lastModified: "2019-09-03T01:51:21Z"
+url: https://community.simtropolis.com/files/file/33139-minneapolis-public-service-center/?do=download&r=177524

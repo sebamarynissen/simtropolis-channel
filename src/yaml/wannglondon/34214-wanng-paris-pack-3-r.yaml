@@ -1,0 +1,47 @@
+group: wannglondon
+name: wanng-paris-pack-3-rsss
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: WannG Paris Pack 3 R$$$
+  description: |-
+    Affluent Parisian residential growables inspired by those found in the 16th arrondissement. Un-ending thanks to Mattb325 for all of his guidance.
+
+    \- Hight wealth residential (stage 5, 6 & 7)
+
+    \- Euro Tileset
+
+    \- Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*These have been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34214-wanng-paris-pack-3-r/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6041294013559_ParisHighWealthDay.png.73bdfd5824c53df65be6f3a3cb6f2972.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6041294605d9e_ParisHighWealthNight.png.f16209ca1c958005c8c2f6a19041f212.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-wanng-paris-pack-3-r-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-wanng-paris-pack-3-r-darknite
+
+---
+assetId: wannglondon-wanng-paris-pack-3-r-darknite
+version: "1.0.0"
+lastModified: "2021-03-04T18:43:27Z"
+url: https://community.simtropolis.com/files/file/34214-wanng-paris-pack-3-r/?do=download&r=185904
+
+---
+assetId: wannglondon-wanng-paris-pack-3-r-maxisnite
+version: "1.0.0"
+lastModified: "2021-03-04T18:43:27Z"
+url: https://community.simtropolis.com/files/file/34214-wanng-paris-pack-3-r/?do=download&r=185905

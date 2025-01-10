@@ -1,0 +1,48 @@
+group: jasoncw
+name: scarab-club
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Scarab Club
+  description: |-
+    The Scarab Club is an artists' club, gallery, and studio, formed in 1907. In 1928 the current club house was built in Detroit's cultural center. The building features Pewabic Pottery, and a 1976 sculpture titled "Pheonix" installed on the western wall. Artists such as Diego Rivera, Marcel Duchamp, and Norman Rockwell have signed the lounge's ceiling beams, along with other visiting artists.
+
+    ![scarab-stex-02.jpg.1d4955d720c5949dc724c](https://www.simtropolis.com/repository/screens/monthly_2017_02/scarab-stex-02.jpg.1d4955d720c5949dc724cbf9677d60af.jpg)
+
+    -   1x2 museum lot.
+    -   Museum stats slightly less than the standard Maxis museum.
+    -   MaxisNite and DarkNite night versions.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Installation Instructions:**
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.
+
+    [Click here to learn about new projects in the works by the Barry Sanders Project](https://community.simtropolis.com/forums/topic/60777-mipro/)  
+    [Click here to learn about new projects in the works by Jasoncw](https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/27021-scarab-club/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/scarab-stex-01.thumb.jpg.3d779dd667017cd9ba9d8a0ad48e3531.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/scarab-stex-02.jpg.1d4955d720c5949dc724cbf9677d60af.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-scarab-club-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-scarab-club-darknite
+
+---
+assetId: jasoncw-scarab-club-maxisnite
+version: "1.0"
+lastModified: "2011-12-06T02:19:30Z"
+url: https://community.simtropolis.com/files/file/27021-scarab-club/?do=download&r=99345
+
+---
+assetId: jasoncw-scarab-club-darknite
+version: "1.0"
+lastModified: "2011-12-06T02:19:30Z"
+url: https://community.simtropolis.com/files/file/27021-scarab-club/?do=download&r=99346

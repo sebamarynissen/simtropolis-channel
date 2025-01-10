@@ -1,0 +1,69 @@
+group: jasoncw
+name: 994-vargas-avenue
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 994 Vargas Avenue
+  description: |-
+    994 Vargas Avenue is located on [President Vargas Avenue](https://en.wikipedia.org/wiki/Avenida_Presidente_Vargas), a long straight avenue that was carved out of downtown Rio de Janeiro in the 1940s. The broad avenue features uniform building heights and colonnades along the road's length.
+
+    This BAT has been created for the [Rio 2016 Project](https://community.simtropolis.com/forums/topic/65595-rio-2016-project/).
+
+    -   6x2 growable and ploppable CO§§ lots.
+    -   CAM versions included.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Installation Instructions:
+
+    1.  Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    2.  If you use the CAM, download the CAMeLots and use them instead of the normal growable lots.  Ploppables are unaffected.
+    3.  Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    4.  SC4Lot files are descriptively titled. Remove the lot versions which you do not want. Do not remove any .SC4Model files.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/31028-994-vargas-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-0.jpg.74c0f9913ac2d938e6340a605b92e3ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-1.jpg.b9fbdae954241047079cd4b9bca02afd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-2.jpg.4b4a0a0664460fb764b51a3db9cd09f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-3.jpg.cdc8af1cb66d9e887f8a3225fb6fe241.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-4.jpg.4d8240fa6300f76d37de9ebc967a4348.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-994-vargas-avenue-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-994-vargas-avenue-maxisnite
+        exclude:
+          - /Jasoncw - 994 Vargas Avenue - Grow \(CO\$\$8_6x2\)\.SC4Lot
+      - assetId: jasoncw-994-vargas-avenue-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-994-vargas-avenue-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-994-vargas-avenue-darknite
+        exclude:
+          - /Jasoncw - 994 Vargas Avenue - Grow \(CO\$\$8_6x2\)\.SC4Lot
+      - assetId: jasoncw-994-vargas-avenue-cam
+
+---
+assetId: jasoncw-994-vargas-avenue-maxisnite
+version: "1.0"
+lastModified: "2016-04-15T22:30:40Z"
+url: https://community.simtropolis.com/files/file/31028-994-vargas-avenue/?do=download&r=161390
+
+---
+assetId: jasoncw-994-vargas-avenue-darknite
+version: "1.0"
+lastModified: "2016-04-15T22:30:40Z"
+url: https://community.simtropolis.com/files/file/31028-994-vargas-avenue/?do=download&r=161391
+
+---
+assetId: jasoncw-994-vargas-avenue-cam
+version: "1.0"
+lastModified: "2016-04-15T22:30:40Z"
+url: https://community.simtropolis.com/files/file/31028-994-vargas-avenue/?do=download&r=161392

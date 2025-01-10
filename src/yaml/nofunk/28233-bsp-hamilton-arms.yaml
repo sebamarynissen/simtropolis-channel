@@ -1,0 +1,39 @@
+group: nofunk
+name: bsp-hamilton-arms
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: BSP Hamilton Arms
+  description: |-
+    The BSP proudly presents the **Hamilton Arms**!  
+      
+    The Hamilton Arms was an apartment building located at the corner of Hamilton Avenue and Hill Street in Highland Park, Michigan. The building was demolished in 2012. This small, 5-story apartment will add some character and charm to your medium-wealth neighborhoods!
+
+    -   1x2 R$$ growable.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28233-bsp-hamilton-arms/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/ccc2bc5621e3c610f50192dcc2b94b23-hamarms-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/662976c798fd3f4c88f4e395453bc3a4-hamarms-stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bsp-hamilton-arms-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bsp-hamilton-arms-darknite
+
+---
+assetId: nofunk-bsp-hamilton-arms-darknite
+version: "1.0"
+lastModified: "2012-11-21T02:20:23Z"
+url: https://community.simtropolis.com/files/file/28233-bsp-hamilton-arms/?do=download&r=109019
+
+---
+assetId: nofunk-bsp-hamilton-arms-maxisnite
+version: "1.0"
+lastModified: "2012-11-21T02:20:23Z"
+url: https://community.simtropolis.com/files/file/28233-bsp-hamilton-arms/?do=download&r=109020

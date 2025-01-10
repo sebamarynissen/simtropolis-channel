@@ -150,4 +150,54 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('slugifies $ to s', function() {
+
+		let upload = faker.upload({
+			title: 'R$$ Homes',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('rss-homes');
+
+	});
+
+	it('doesn\'t end with a hyphen', function() {
+
+		let upload = faker.upload({
+			title: 'BSP Building (Updated)',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('bsp-building-updated');
+
+	});
+
+	it('slugifies &', function() {
+
+		let upload = faker.upload({
+			title: 'Skidmore, Owings & Merrill',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('skidmore-owings-and-merrill');
+
+	});
+
+	it('handles vol-01', function() {
+
+		let upload = faker.upload({
+			title: 'Prop Pack Vol. 01',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('prop-pack-vol01');
+
+	});
+
+	it('handles vol-one', function() {
+
+		let upload = faker.upload({
+			title: 'Prop Pack Vol. One',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('prop-pack-vol-one');
+
+	});
+
 });

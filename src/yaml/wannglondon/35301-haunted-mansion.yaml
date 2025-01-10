@@ -1,0 +1,37 @@
+group: wannglondon
+name: haunted-mansion
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Haunted Mansion
+  description: |-
+    As October approaches, I quickly whipped up this BAT in preparation for Halloween festivities. This BAT is based on the Haunted Mansion at Disneyland, California. It is offered as a museum in-game.
+
+    Enjoy and happy haunting.
+
+    Released on SC4Devotion LEX as well.
+
+    \*DarkNite version only
+
+    a museum in-game.
+
+    Enjoy and happy haunting.
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35301-haunted-mansion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/632b312d37989_HMDay.jpg.f5badcd0f291cfe14b647f3e50107d22.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/632b3132bcd10_HMNight.jpg.7aaabe2e2f2b79af7b7c27e5e4515e97.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-haunted-mansion-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-haunted-mansion-darknite
+
+---
+assetId: wannglondon-haunted-mansion-darknite
+version: "1.0.0"
+lastModified: "2022-09-21T15:45:41Z"
+url: https://community.simtropolis.com/files/file/35301-haunted-mansion/?do=download&r=195360

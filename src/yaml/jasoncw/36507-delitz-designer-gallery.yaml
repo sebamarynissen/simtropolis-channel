@@ -1,0 +1,42 @@
+group: jasoncw
+name: delitz-designer-gallery
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Delitz Designer Gallery
+  description: |-
+    A seller of high end designer goods. The spacing and setbacks of the walls follow the Fibonacci Sequence.
+
+    It is a corner lot for the Euro tileset.
+
+    -   1x2 growable CS§§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36507-delitz-designer-gallery/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67105da0ad4df_DelitzDesignerGallery00.jpg.c7f0a0a2e670a18115df67970637cf9b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67105dcd3285a_DelitzDesignerGallery01.jpg.7274871461dcca105bfbf6cf2d32356d.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-delitz-designer-gallery-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-delitz-designer-gallery-darknite
+
+---
+assetId: jasoncw-delitz-designer-gallery-maxisnite
+version: "1.0.0"
+lastModified: "2024-10-17T00:45:28Z"
+url: https://community.simtropolis.com/files/file/36507-delitz-designer-gallery/?do=download&r=203920
+
+---
+assetId: jasoncw-delitz-designer-gallery-darknite
+version: "1.0.0"
+lastModified: "2024-10-17T00:45:28Z"
+url: https://community.simtropolis.com/files/file/36507-delitz-designer-gallery/?do=download&r=203921

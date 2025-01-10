@@ -1,0 +1,71 @@
+group: nofunk
+name: tobin-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Tobin Building
+  description: |-
+    The Tobin Building is a CS§§§ building meant to help offset some of the commercial services demanded by the game. The building is wall-to-wall.
+
+    There are three versions available: a growable and a ploppable CS§§§, and a landmark.
+
+    * * *
+
+    **Files included:**
+
+    **nofunk\_TobinBuilding\_REQUIRED.SC4Model**
+
+    This is the buiding model and is REQUIRED. Features TruNite.
+
+    **CS$$$6\_1x2\_TobinBuilding\_GROW.dat**
+
+    Lot size: 1x2
+
+    Occupants: 68
+
+    Tileset: New York
+
+    Density: Medium, High
+
+    **CS$$$\_1x2\_TobinBuilding\_PLOP.SC4Lot**
+
+    Lot size: 1x2
+
+    Plop cost: $33,000
+
+    Occupants: 68
+
+    Tileset: New York
+
+    Density: Medium, High
+
+    **LM1x2\_TobinBuilding.SC4Lot**
+
+    Lot size: 1x2
+
+    Plop cost: $33,000
+
+    Occupants: 0
+
+    Density: Medium, High
+
+    (A readme and two screen shots are also included; these are not required for game play.)
+
+    * * *
+
+    **Installation instructions:**
+
+    Simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the file labeled "nofunk\_TobinBuilding\_REQUIRED" in your Plugins or you will get a brown box in the game.
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/22413-tobin-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/444f05f7aeb2bd4fad4c4654b6af7aa2-tobin_ingame1.jpg
+    - https://www.simtropolis.com/objects/screens/0008/444f05f7aeb2bd4fad4c4654b6af7aa2-tobin_ingame2.jpg
+assets:
+  - assetId: nofunk-tobin-building
+
+---
+assetId: nofunk-tobin-building
+version: "1.0"
+lastModified: "2009-09-03T22:05:45Z"
+url: https://community.simtropolis.com/files/file/22413-tobin-building/?do=download&r=48771

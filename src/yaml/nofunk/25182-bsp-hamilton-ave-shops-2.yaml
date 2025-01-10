@@ -1,0 +1,101 @@
+group: nofunk
+name: bsp-hamilton-ave-shops-2
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BSP Hamilton Ave Shops 2
+  description: |-
+    The Barry Sanders Project presents the Hamilton Avenue Shops 2!
+
+    During Detroit's heyday, Highland Park was an upscale enclave, filled with grand houses and thriving businesses. Although the city has suffered from the same challenges as Detroit which surrounds it, glimpses of Highland Park's great history can be seen in these Hamilton Avenue businesses.
+
+    Two different models are offered in this pack and for each there is a growable and a ploppable version, for a total of four lots! All lots provide low wealth commercial services jobs.
+
+    Note: All ploppable versions feature custom menu icons that will allow you to see immediately which version is which. All ploppable versions are grouped together near the center of your Landmark menu.
+
+    * * *
+
+    Files Included:
+
+    AvalonShops\_MaxisNite-0x5ad0e817\_0xd692584c\_0x260000.SC4Model
+
+    WoodwardGlassCo\_MaxisNite-0x5ad0e817\_0xd692584c\_0x240000.SC4Model
+
+    These are the model files and are REQUIRED. Features TruNite.
+
+    **CS$3\_2x2\_AvalonShops\_MN\_GROW.SC4Lot**
+
+    Lot size: 2x2
+
+    Occupants: 149
+
+    Tileset: Chicago
+
+    CS$\_2x2\_AvalonShops\_MN\_PLOP.SC4Lot
+
+    Lot size: 2x2
+
+    Occupants: 149
+
+    Tileset: Chicago
+
+    Plop cost: $12,100
+
+    **CS$2\_1x2\_WoodwardGlassCo\_MN\_GROW.SC4Lot**
+
+    Lot size: 1x2
+
+    Occupants: 51
+
+    Tileset: Chicago
+
+    **CS$\_1x2\_WoodwardGlassCo\_MN\_PLOP.SC4Lot**
+
+    Lot size: 1x2
+
+    Occupants: 51
+
+    Tileset: Chicago
+
+    Plop cost: $6,950
+
+    * * *
+
+    **Installation Instructions:**
+
+    Simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the folder labeled "Model File - REQUIRED" in your Plugins or you will get a brown box in the game.
+
+    * * *
+
+    Created by: nofunk
+
+    Custom queries: JasonCW
+  author: nofunk
+  websites:
+    - https://community.simtropolis.com/files/file/25182-bsp-hamilton-ave-shops-2/
+    - https://community.simtropolis.com/files/file/25183-bsp-hamilton-ave-shops-2-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/5716b76005ad50d70865b502d829051f-HamShops_MN1.jpg
+    - https://www.simtropolis.com/objects/screens/0010/5716b76005ad50d70865b502d829051f-HamShops_MN2.jpg
+    - https://www.simtropolis.com/objects/screens/0015/8098ec558ad7d3c9144e7dc2f6286d58-HamShops_DN1.jpg
+    - https://www.simtropolis.com/objects/screens/0015/8098ec558ad7d3c9144e7dc2f6286d58-HamShops_DN2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bsp-hamilton-ave-shops-2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bsp-hamilton-ave-shops-2-darknite
+
+---
+assetId: nofunk-bsp-hamilton-ave-shops-2-maxisnite
+version: "1.0"
+lastModified: "2010-10-31T20:22:27Z"
+url: https://community.simtropolis.com/files/file/25182-bsp-hamilton-ave-shops-2/?do=download&r=52799
+
+---
+assetId: nofunk-bsp-hamilton-ave-shops-2-darknite
+version: "1.0"
+lastModified: "2010-10-31T20:30:50Z"
+url: https://community.simtropolis.com/files/file/25183-bsp-hamilton-ave-shops-2-darknite/?do=download&r=52801

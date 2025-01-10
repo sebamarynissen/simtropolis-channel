@@ -65,6 +65,21 @@ export default async function scrape(url) {
 				.replaceAll(/-+/g, '-');
 		});
 	let subfolder = descriptorToSubfolder(descriptors);
+
+	// If we don't have a subfolder by now, try the description.
+	if (!subfolder) {
+		if (description.match(/\bR(\$|§)+/)) {
+			subfolder = '200-residential';
+		} else if (description.match(/\bC[OoSs](\$|§)+/m)) {
+			subfolder = '300-commercial';
+		} else if (description.match(/\bI-(HT|M|D)\b/)) {
+			subfolder = '400-industrial';
+		} else if (description.match(/\bstation\b/i)) {
+			subfolder = '700-transit';
+		} else if (description.match(/\blibrary\b/i)) {
+			subfolder = '620-education';
+		}
+	}
 	return { description, images, subfolder };
 
 }
@@ -107,6 +122,7 @@ const descriptorMap = {
 	residential: '200-residential',
 	commercial: '300-commercial',
 	industrial: '400-industrial',
+	industry: '400-industrial',
 	agricultural: '410-agriculture',
 	'utilities-water': '500-utilities',
 	'utilities-power': '500-utilities',
@@ -119,6 +135,7 @@ const descriptorMap = {
 	'civics-rewards': '360-landmark',
 	'civics-parks': '660-parks',
 	civics: '600-civics',
+	civic: '600-civics',
 	services: '600-civics',
 	automata: '710-automata',
 	transport: '700-transit',

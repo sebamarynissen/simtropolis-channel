@@ -1,11 +1,11 @@
 // # expand-variants-test.js
 import { expect } from 'chai';
-import { kFileNames, kFileTags } from '../symbols.js';
+import { kFileTags } from '../symbols.js';
 import { expandVariants } from '../complete-metadata.js';
 
 describe('#expandVariants()', function() {
 
-	it('handles maxisnite and darknite variants', function() {
+	it('handles maxisnite and darknite variants', async function() {
 
 		let assets = [
 			{
@@ -17,7 +17,7 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['darknite'],
 			},
 		];
-		let variants = expandVariants({ assets });
+		let variants = await expandVariants({ assets });
 		expect(variants).to.eql([
 			{
 				variant: { nightmode: 'standard' },
@@ -36,7 +36,7 @@ describe('#expandVariants()', function() {
 
 	});
 
-	it('handles lhd and rhd variants', function() {
+	it('handles lhd and rhd variants', async function() {
 
 		let assets = [
 			{
@@ -48,7 +48,7 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['lhd'],
 			},
 		];
-		let variants = expandVariants({ assets });
+		let variants = await expandVariants({ assets });
 		expect(variants).to.eql([
 			{
 				variant: { driveside: 'right' },
@@ -66,44 +66,7 @@ describe('#expandVariants()', function() {
 
 	});
 
-	it('handles cam variants', function() {
-
-		let assets = [
-			{
-				assetId: 'normal',
-				[kFileTags]: [],
-			},
-			{
-				assetId: 'cam',
-				[kFileTags]: ['cam'],
-			},
-		];
-		let variants = expandVariants({ assets });
-		expect(variants).to.eql([
-			{
-				variant: { CAM: 'no' },
-				assets: [
-					{ assetId: 'normal' },
-				],
-			},
-			{
-				variant: { CAM: 'yes' },
-				assets: [
-					{
-						assetId: 'normal',
-						exclude: [
-							'.SC4Lot$',
-							'.SC4Desc$',
-						],
-					},
-					{ assetId: 'cam' },
-				],
-			},
-		]);
-
-	});
-
-	it('handles HD variants without explicit SD variant', function() {
+	it('handles HD variants without explicit SD variant', async function() {
 
 		let assets = [
 			{
@@ -115,7 +78,7 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['hd'],
 			},
 		];
-		let variants = expandVariants({ assets });
+		let variants = await expandVariants({ assets });
 		expect(variants).to.eql([
 			{
 				variant: { resolution: 'sd' },
@@ -137,7 +100,7 @@ describe('#expandVariants()', function() {
 
 	});
 
-	it('handles HD variants with explicit SD variant', function() {
+	it('handles HD variants with explicit SD variant', async function() {
 
 		let assets = [
 			{
@@ -153,7 +116,7 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['hd'],
 			},
 		];
-		let variants = expandVariants({ assets });
+		let variants = await expandVariants({ assets });
 		expect(variants).to.eql([
 			{
 				variant: { resolution: 'sd' },
@@ -173,7 +136,7 @@ describe('#expandVariants()', function() {
 
 	});
 
-	it('a package with maxisnite/darknite, cam & hd variants', function() {
+	it('a package with maxisnite/darknite, cam & hd variants', async function() {
 
 		let assets = [
 			{
@@ -197,7 +160,7 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['darknite', 'hd'],
 			},
 		];
-		let variants = expandVariants({ assets });
+		let variants = await expandVariants({ assets });
 		expect(variants).to.eql([
 			{
 				variant: { nightmode: 'standard', CAM: 'no', resolution: 'sd' },
@@ -215,14 +178,14 @@ describe('#expandVariants()', function() {
 			{
 				variant: { nightmode: 'standard', CAM: 'yes', resolution: 'sd' },
 				assets: [
-					{ assetId: 'maxisnite', exclude: ['.SC4Lot$', '.SC4Desc$'] },
+					{ assetId: 'maxisnite' },
 					{ assetId: 'cam' },
 				],
 			},
 			{
 				variant: { nightmode: 'standard', CAM: 'yes', resolution: 'hd' },
 				assets: [
-					{ assetId: 'maxisnite', exclude: ['.SC4Lot$', '.SC4Desc$', '.SC4Model$'] },
+					{ assetId: 'maxisnite', exclude: ['.SC4Model$'] },
 					{ assetId: 'cam' },
 					{ assetId: 'maxisnite-hd' },
 				],
@@ -246,7 +209,7 @@ describe('#expandVariants()', function() {
 				variant: { nightmode: 'dark', CAM: 'yes', resolution: 'sd' },
 				dependencies: ['simfox:day-and-nite-mod'],
 				assets: [
-					{ assetId: 'darknite', exclude: ['.SC4Lot$', '.SC4Desc$'] },
+					{ assetId: 'darknite' },
 					{ assetId: 'cam' },
 				],
 			},
@@ -254,56 +217,9 @@ describe('#expandVariants()', function() {
 				variant: { nightmode: 'dark', CAM: 'yes', resolution: 'hd' },
 				dependencies: ['simfox:day-and-nite-mod'],
 				assets: [
-					{ assetId: 'darknite', exclude: ['.SC4Lot$', '.SC4Desc$', '.SC4Model$'] },
+					{ assetId: 'darknite', exclude: ['.SC4Model$'] },
 					{ assetId: 'cam' },
 					{ assetId: 'darknite-hd' },
-				],
-			},
-		]);
-
-	});
-
-	it('automatically figures out the cam exlcusion patterns', function() {
-
-		let assets = [
-			{
-				assetId: 'normal',
-				[kFileTags]: [],
-				[kFileNames]: [
-					'Jasoncw - Guardian Building - Grow (CO$$$8_2x5).SC4Lot',
-					'Jasoncw - Guardian Building - Plop (CO$$$_5x2).SC4Lot',
-					'Subfolder/CS$$$8_2x5_Guardian_Building.SC4Lot',
-					'Jasoncw - Guardian Building (DN).SC4Model',
-				],
-			},
-			{
-				assetId: 'cam',
-				[kFileTags]: ['cam'],
-				[kFileNames]: [
-					'Jasoncw - Guardian Building - Grow (CO$$$10_2x5).SC4Lot',
-					'Subfolder/CS$$$10_2x5_Guardian_Building.SC4Lot',
-				],
-			},
-		];
-		let variants = expandVariants({ assets });
-		expect(variants).to.eql([
-			{
-				variant: { CAM: 'no' },
-				assets: [
-					{ assetId: 'normal' },
-				],
-			},
-			{
-				variant: { CAM: 'yes' },
-				assets: [
-					{
-						assetId: 'normal',
-						exclude: [
-							'/Jasoncw - Guardian Building - Grow (CO$$$8_2x5).SC4Lot',
-							'/CS$$$8_2x5_Guardian_Building.SC4Lot',
-						],
-					},
-					{ assetId: 'cam' },
 				],
 			},
 		]);

@@ -1,0 +1,84 @@
+group: nofunk
+name: milwaukee-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Milwaukee Apartments
+  description: |-
+    The Milwaukee Apartments is a set of five small apartment buildings that are prevalent in some of Milwaukee, Wisconsin's poorer neighborhoods. Built primarily in the 1950s and 1960s, these apartments line many larger residential streets; the only real variation between them is in their brick and roof colors.
+
+    For this set there are five unique color schemes and three lot types: the buildings are set to grow at random, for a possible 55 unique lots! All lots are R§ growables only.
+
+    ***\*\* A DarkNite version of the Milwaukee Apartments will also be released soon!***  
+      
+
+    * * *
+
+    **At a Glance**  
+      
+    Values for a single apartment are below; values for lots with two apartment buildings are doubled:  
+      
+
+    Occupants
+
+    40
+
+    Bulldoze cost
+
+    §140
+
+    Power consumed
+
+    1
+
+    Water consumed
+
+    3
+
+    Air pollution (magnitude/radius)
+
+    1/5
+
+    Water pollution (magnitude/radius)
+
+    1/5
+
+    Garbage generated
+
+    4
+
+      
+    Complete details are available in the readme.  
+      
+    **Installation**
+
+    To use these buildings in the game, simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the file ending in ".SC4Model" in your Plugins or you will get a brown box in the game.
+
+    ###
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/23702-milwaukee-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/fd39e2c34eff4b33a94bfc6c438bf380-milwaukee_apts_ingame1.jpg
+    - https://www.simtropolis.com/objects/screens/0028/fd39e2c34eff4b33a94bfc6c438bf380-milwaukee_apts_ingame2.jpg
+    - https://www.simtropolis.com/objects/screens/0021/b9c1ee6ef0e040e87d07285cb2f45155-milwaukee_apts_ingame1_dark.jpg
+    - https://www.simtropolis.com/objects/screens/0021/b9c1ee6ef0e040e87d07285cb2f45155-milwaukee_apts_ingame2_dark.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-milwaukee-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-milwaukee-apartments-darknite
+
+---
+assetId: nofunk-milwaukee-apartments-maxisnite
+version: "1.0"
+lastModified: "2010-04-12T19:00:34Z"
+url: https://community.simtropolis.com/files/file/23702-milwaukee-apartments/?do=download&r=50603
+
+---
+assetId: nofunk-milwaukee-apartments-darknite
+version: "1.0"
+lastModified: "2010-04-12T20:00:25Z"
+url: https://community.simtropolis.com/files/file/23703-milwaukee-apartments-darknite-version/?do=download&r=50605

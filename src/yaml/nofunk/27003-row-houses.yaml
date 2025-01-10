@@ -1,0 +1,42 @@
+group: nofunk
+name: row-houses
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Row Houses
+  description: |-
+    Add variety to your more urban neighborhoods with these perfectly generic, yet surprisingly unique 3-story row houses! They are wall-to-wall and blend in perfectly with other row houses sets!
+
+    -   1x2 and 2x2 growable lots.  
+        
+    -   Available in both MaxisNite and DarkNite.  
+        
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+        
+
+    ![rowhouses3.jpg](http://img.photobucket.com/albums/v239/funksterboy/rowhouses3.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/27003-row-houses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/442dba4ddf5492ce6084656ebba50076-rowhouses1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/6e09b5ccbe5973b2063e157e795781b5-rowhouses2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-row-houses-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-row-houses-darknite
+
+---
+assetId: nofunk-row-houses-darknite
+version: "1.0"
+lastModified: "2011-11-23T04:28:40Z"
+url: https://community.simtropolis.com/files/file/27003-row-houses/?do=download&r=94438
+
+---
+assetId: nofunk-row-houses-maxisnite
+version: "1.0"
+lastModified: "2011-11-23T04:28:40Z"
+url: https://community.simtropolis.com/files/file/27003-row-houses/?do=download&r=94439

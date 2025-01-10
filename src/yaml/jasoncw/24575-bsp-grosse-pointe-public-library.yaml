@@ -1,0 +1,74 @@
+group: jasoncw
+name: bsp-grosse-pointe-public-library
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: BSP Grosse Pointe Public Library
+  description: |-
+    Built in 1953, the Central Branch of the Grosse Pointe Public Library system is a modest neighborhood library designed by Marcel Breuer. Local patron of the arts Dexter Ferry paid for the building, as well as the mobile by Alexander Calder and the tapestry by Wassily Kandinsky inside.
+
+    This is the Dark Nite version of the Grosse Pointe Public Library, made for the darker night environment created by the [Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089).
+
+    A 4x3 library lot is included. More information can be found below.
+
+    **Jasoncw - GPPL (DN).SC4Model:**
+
+    This is the building itself. The query has been merged into this file. Model features DarkNite TruNite. This file is required.
+
+    **Jasoncw - GPPL (DN).SC4Lot:**
+
+    Lot Size: 4x3 Tiles
+
+    Plop Cost:
+
+    §
+
+    4,250
+
+    Monthly Cost:
+
+    §
+
+    720
+
+    Books Available: 60,000
+
+    **Dependencies:**
+
+    [SimFox's Day 'n' Nite Modd](https://community.simtropolis.com/files/stex/details.cfm?id=23089) is required
+
+    **Installation Instructions:**
+
+    Place both files into your Plugins folder (*My Documents/SimCity 4/Plugins* or *My Computer/Program Files/SimCity 4 Deluxe/Plugins*)
+
+    BAT, Modding, and Query: Jasoncw
+
+    [Click here for discussion about new projects by Jasoncw](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)
+
+    [Click here for discussion about new projects by The Barry Sanders Project](https://community.simtropolis.com/files/forum/messageview.cfm?catid=37&threadid=85962&enterthread=y)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/24575-bsp-grosse-pointe-public-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/3fc0014a6aedc8abc18d24b414a57d1d-gppl-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e903c7b059f3f87a94707d2ed59cefa1-gppl-2-mn-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/45472fd583afe5329ae16da9ed9ccf5d-gppl-2-dn-.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-bsp-grosse-pointe-public-library-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-bsp-grosse-pointe-public-library-darknite
+
+---
+assetId: jasoncw-bsp-grosse-pointe-public-library-maxisnite
+version: "1.0"
+lastModified: "2010-08-04T23:10:52Z"
+url: https://community.simtropolis.com/files/file/24575-bsp-grosse-pointe-public-library/?do=download&r=105859
+
+---
+assetId: jasoncw-bsp-grosse-pointe-public-library-darknite
+version: "1.0"
+lastModified: "2010-08-04T23:10:52Z"
+url: https://community.simtropolis.com/files/file/24575-bsp-grosse-pointe-public-library/?do=download&r=105860

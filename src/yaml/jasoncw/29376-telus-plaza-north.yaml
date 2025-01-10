@@ -1,0 +1,51 @@
+group: jasoncw
+name: telus-plaza-north
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Telus Plaza North
+  description: |-
+    Telus Plaza North is derived from my [Telus Plaza upload](https://community.simtropolis.com/files/file/29036-telus-plaza/), and has been made into a separate lot for increased playability. It's the shorter of the two towers, and grows in the Houston and Euro tilesets.  
+      
+    • 3x4 CO§§ lot.
+
+      
+    • MaxisNite and DarkNite night versions included.  
+    • Dark Nite requires the [Day and Nite Modd](https://community.simtropolis.com/index.php?app=downloads&showfile=23089).
+
+    ![YOVUzb3.jpg](http://i.imgur.com/YOVUzb3.jpg)
+
+      
+    **Installation Instructions:**  
+      
+    1\. Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.  
+    2\. Unzip the .zip and move its contents to Documents/SimCity 4/Plugins.  
+    4\. SC4Lot files are descriptively titled. Remove the lot versions which you don't want. Do not remove any .SC4Model files.  
+      
+    **BAT and modding by Jasoncw**  
+      
+    [Click here to learn about new projects in the works](https://www.simtropolis.com/forum/topic/4778-jasons-bats/)
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/29376-telus-plaza-north/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/0220edd4cd30350bff26f245ab0c7e6f-telus-north-stex-00.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-telus-plaza-north-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-telus-plaza-north-darknite
+
+---
+assetId: jasoncw-telus-plaza-north-maxisnite
+version: "1.0"
+lastModified: "2014-03-28T03:26:04Z"
+url: https://community.simtropolis.com/files/file/29376-telus-plaza-north/?do=download&r=127682
+
+---
+assetId: jasoncw-telus-plaza-north-darknite
+version: "1.0"
+lastModified: "2014-03-28T03:26:04Z"
+url: https://community.simtropolis.com/files/file/29376-telus-plaza-north/?do=download&r=127683

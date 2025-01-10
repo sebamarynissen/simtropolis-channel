@@ -1,0 +1,54 @@
+group: nofunk
+name: one-detroit-center
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: One Detroit Center
+  description: |-
+    *The Barry Sanders Project is now [mipro](https://community.simtropolis.com/topic/60777-mipro/)!*
+
+    Located in downtown Detroit, One Detroit Center is the tallest office building in the state of Michigan. Originally concieved as a set of twin towers, Two Detroit Center was left unbuilt when demand for downtown office space did not justify another 1.6 million sq ft skyscraper.
+
+    One Detroit Center was designed by noted architects John Burgee and Philip Johnson, and was constructed in 1993 in the postmodern style, with Flemish-inspired neo-gothic spires. 
+
+    The building is home to many law firms and banks.
+
+    Dependencies: Requires **[mipro Essentials](https://community.simtropolis.com/files/file/29130-mipro-essentials/)** [December 2013](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    -   5x3 and 3x3 growable and ploppable. Grows in Houston and Euro tilesets.
+    -   Provides 4,178 CO$$$ jobs for your city.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![ERIhTXO.jpg](http://i.imgur.com/ERIhTXO.jpg)
+
+    [mipro forum thread](https://community.simtropolis.com/topic/60777-mipro/)
+
+    [mipro STEX uploads](https://community.simtropolis.com/tags/downloads/mipro/)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29131-one-detroit-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/1c5000f05df0bd83970d62b3518a002c-onedetroitcenter_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/ac31ae5b01257b0b3f2e2db1eb63898d-onedetroitcenter_stex2.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-one-detroit-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-one-detroit-center-darknite
+
+---
+assetId: nofunk-one-detroit-center-darknite
+version: "1.0"
+lastModified: "2013-12-18T05:15:37Z"
+url: https://community.simtropolis.com/files/file/29131-one-detroit-center/?do=download&r=121903
+
+---
+assetId: nofunk-one-detroit-center-maxisnite
+version: "1.0"
+lastModified: "2013-12-18T05:15:37Z"
+url: https://community.simtropolis.com/files/file/29131-one-detroit-center/?do=download&r=121904

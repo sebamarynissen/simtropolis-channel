@@ -1,0 +1,42 @@
+group: nofunk
+name: wagner-ltd
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Wagner Ltd
+  description: |-
+    Wagner, Ltd., is the premier architectural services firm, from concept, to design, to modding and lotting. They even reticulate splines! From the biggest office tower to the smallest bungalow, Wagner, Ltd. has got you covered for all your architectural needs!
+
+    -   1x2 growable and ploppable providing 114 CS$$ jobs.  
+        
+    -   Available in both MaxisNite and DarkNite.  
+        
+    -   DarkNite requires the [Day and Night Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+        
+
+    ![BBC72vI.jpg](http://i.imgur.com/BBC72vI.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28405-wagner-ltd/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/644f1638762452d49254028226843dae-wagnerltd_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/47a03c51e6a2a6ef89e09a1fb57c7a30-wagnerltd_stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-wagner-ltd-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-wagner-ltd-darknite
+
+---
+assetId: nofunk-wagner-ltd-darknite
+version: "1.0"
+lastModified: "2013-01-28T02:00:23Z"
+url: https://community.simtropolis.com/files/file/28405-wagner-ltd/?do=download&r=111241
+
+---
+assetId: nofunk-wagner-ltd-maxisnite
+version: "1.0"
+lastModified: "2013-01-28T02:00:23Z"
+url: https://community.simtropolis.com/files/file/28405-wagner-ltd/?do=download&r=111242

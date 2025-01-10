@@ -1,0 +1,57 @@
+group: ids2
+name: anderson-hall
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Anderson Hall
+  description: |-
+    I'll open by saying that I have a personal hatred for this building.
+
+    I made this model as a way of coping with the fact that, despite my absolute best efforts, I have been unable to avoid this building. I'll sign up for a class in another lecture hall, and then check my schedule the day before classes begin only to see that the lecture has been moved to this soulless behemoth. The dim fluorescent lighting, crumbling concrete interior, leaky ceilings, propensity to act as a [staging ground for muggings](http://www.startribune.com/local/minneapolis/231481301.html), and overpowering musty smell all contribute to an ambiance that is unique to late 60s university buildings built for pennies on the dollar. To make matters worse, none of the four "pods" visible on the building are connected by any sort of hallway except for one in the basement, meaning that one must often exit the building entirely in order to travel between sections. During Minnesota winters, this isn't the most desirable setup.
+
+    A quick visit to the building's [Foursquare page](https://foursquare.com/v/anderson-hall/4aa671f4f964a520e94920e3) gives some excellent insights into the building's many selling points:
+
+    *"Most depressing building on campus."*
+
+    *"What monster designed this building? Surely someone with a strong hatred of people."*
+
+    *"Remember to pay attention to what door you are going in because each door only let's \[sic\] you access certain classrooms!"*
+
+    *"If you enjoy flesh eating and antibiotic resistant diseases, I urge you to use the restrooms in this hall."*
+
+    Anyway, despite being blacklisted by the university a few years back, it seems Anderson Hall is here to stay. It contains several full-sized lecture halls, making it a valuable commodity that is very difficult to effectively replace. Perhaps I overreacted - I suppose it does a good job of fulfilling its intended role, and I'd probably better just get used to it. At least the lecture halls have plenty of leg room.
+
+    When you get away from the building for a while (as is fortunately an option for me this semester), you can actually begin to appreciate the building's place in history. In the early 60s, the University of Minnesota was looking to expand its campus. The west bank of the Mississippi River (directly across the Washington Avenue Bridge from main campus) was deemed a desirable site for this expansion, though a large swath of the existing neighborhood needed to be demolished to make room. Anderson Hall (1967) is just one of the many buildings constructed on west bank, the majority of which were designed by renowned firm Setter Leach & Lindstrom.
+
+    Due to the building's rather generic appearance, I have modded it as both a college building and a library. Both sit on a 2x6 lot. As always, both Maxisnite and Darknite versions are available - download and install only one at a time, or you'll wish you had never been born. The Darknite version requires Simfox's mod available [here](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    I sincerely hope this BAT brings you far more joy than its real life counterpart has brought me over the past few years. As always, please leave feedback below! ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)
+
+    Thank you all for your support, and click [here](https://community.simtropolis.com/topic/44664-idss-mostly-minnesota-bats/) to see my current projects!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/30276-anderson-hall/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/b6e9b9d1fd8a5733b2b4f4611aad759c-day1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/036655c757dee267148bdebf5bde6d92-night1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/ab4c58236be114cff9036d1e1da3d20d-day2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/ad8aa4dd4af4cdd98f33caee1093e6fb-night2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-anderson-hall-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-anderson-hall-darknite
+
+---
+assetId: ids2-anderson-hall-darknite
+version: "1.0"
+lastModified: "2015-03-21T09:31:36Z"
+url: https://community.simtropolis.com/files/file/30276-anderson-hall/?do=download&r=150059
+
+---
+assetId: ids2-anderson-hall-maxisnite
+version: "1.0"
+lastModified: "2015-03-21T09:31:36Z"
+url: https://community.simtropolis.com/files/file/30276-anderson-hall/?do=download&r=150060

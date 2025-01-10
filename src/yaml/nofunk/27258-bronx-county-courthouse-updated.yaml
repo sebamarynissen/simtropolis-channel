@@ -1,0 +1,47 @@
+group: nofunk
+name: bronx-county-courthouse
+version: "2"
+subfolder: 600-civics
+info:
+  summary: Bronx County Courthouse
+  description: |-
+    An old favorite comes back with fresh textures and DarkNite compatibility!
+
+    The Bronx County Courthouse (now known as the Mario Merola Building) was built in 1933 and has been called a prime example of "Twentieth Century American style."
+
+    This building is a 6x6 reward lot. It will appear in your Rewards menu and will be available once your city and region have met certain requirements.
+
+    -   6x6 reward lot  
+        
+    -   Available in both MaxisNite and DarkNite  
+        
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)  
+        
+    -   Readme included. No dependencies!  
+        
+
+    ![bronx2d.jpg](http://img269.imageshack.us/img269/6229/bronx2d.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/27258-bronx-county-courthouse-updated/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/2615db72bc34916415aee76a5b790038-bronx1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bronx-county-courthouse-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bronx-county-courthouse-darknite
+
+---
+assetId: nofunk-bronx-county-courthouse-darknite
+version: "2"
+lastModified: "2012-02-04T16:51:10Z"
+url: https://community.simtropolis.com/files/file/27258-bronx-county-courthouse-updated/?do=download&r=96686
+
+---
+assetId: nofunk-bronx-county-courthouse-maxisnite
+version: "2"
+lastModified: "2012-02-04T16:51:10Z"
+url: https://community.simtropolis.com/files/file/27258-bronx-county-courthouse-updated/?do=download&r=96687

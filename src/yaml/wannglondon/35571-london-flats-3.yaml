@@ -1,0 +1,33 @@
+group: wannglondon
+name: london-flats-3
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: London Flats 3
+  description: |-
+    Three variations of London rowhomes found in Notting Hill.
+
+    \- Stage 5 high-wealth residential
+
+    \- Euro Tileset, 1x2 lots
+
+    \- DarkNite only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35571-london-flats-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64b8574b317fc_FrontDay.jpg.e90d7a4c15145c8920925e30c466592a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64b8574fb72a2_SideDay.jpg.7da3eb45de62b390841655fd0176959d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-london-flats-3-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-london-flats-3-darknite
+
+---
+assetId: wannglondon-london-flats-3-darknite
+version: "1.0.0"
+lastModified: "2023-07-19T21:36:49Z"
+url: https://community.simtropolis.com/files/file/35571-london-flats-3/?do=download&r=197353
