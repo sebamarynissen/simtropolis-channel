@@ -114,13 +114,14 @@ export default class Downloader {
 	// Inspects an extracted asset and extracts information from it, such as all 
 	// the files in it, as well as the metadata, if it exists.
 	async inspectAsset(dir) {
-		let metadata = null;
+		let metadata = [];
 		let glob = new Glob('**/*', { cwd: dir, nodir: true });
 		let files = [];
 		for (let file of glob) {
 			files.push(file);
-			if (file === 'metadata.yaml') {
-				metadata = await readMetadata(path.join(dir, file));
+			let basename = path.basename(file);
+			if (basename === 'metadata.yaml') {
+				metadata.push(await readMetadata(path.join(dir, file)));
 			}
 		}
 		return {

@@ -47,7 +47,7 @@ export default async function handleUpload(json, opts = {}) {
 	// be able to shortcut already here.
 	let { permissions } = opts;
 	let metadata = apiToMetadata(permissions.transform(json));
-	let parsedMetadata = false;
+	let parsedMetadata = [];
 	let downloader = new Downloader();
 	let cleanup = [];
 	for (let asset of metadata.assets) {
@@ -59,8 +59,8 @@ export default async function handleUpload(json, opts = {}) {
 		// but we don't want this to block our workflow.
 		let info = await downloader.handleAsset(asset);
 		if (!info) continue;
-		if (info.metadata && !parsedMetadata) {
-			parsedMetadata = info.metadata;
+		if (info.metadata) {
+			parsedMetadata.push(...[info.metadata].flat());
 		}
 		cleanup.push(info.cleanup);
 
@@ -69,13 +69,20 @@ export default async function handleUpload(json, opts = {}) {
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
+	let errors = [];
 	const { requireMetadata = true } = opts;
-	if (!parsedMetadata && requireMetadata) {
+	if (parsedMetadata.length === 0 && requireMetadata) {
 		return {
 			skipped: true,
 			type: 'notice',
 			reason: `Package ${json.fileURL} does not have a metadata.yaml file in its root. Skipping.`,
 		};
+	} else if (parsedMetadata.length > 1) {
+
+		// If we found more than 1 metadata file, we'll continue, but we have to 
+		// report an error though. This will ensure that the PR won't get merged.
+		errors.push(`This package has ${parsedMetadata.length} metadata.yaml files, only 1 is allowed.`);
+
 	}
 
 	// If we reach this point, we're sure to include the package. We now need to 
@@ -108,8 +115,7 @@ export default async function handleUpload(json, opts = {}) {
 		packages,
 		main,
 		basename,
-	} = patchMetadata(metadata, parsedMetadata, original);
-	let error;
+	} = patchMetadata(metadata, parsedMetadata[0], original);
 	let zipped = [...packages, ...metadata.assets];
 	try {
 		permissions.assertPackageAllowed(json, packages);
@@ -118,7 +124,7 @@ export default async function handleUpload(json, opts = {}) {
 		// When there's an error, we *DO NOT* skip the package. We continue, but 
 		// add it as an error, which will subsequently be handled by the 
 		// create-prs action.
-		error = e.message;
+		errors.push(e.message);
 
 	}
 
@@ -141,7 +147,7 @@ export default async function handleUpload(json, opts = {}) {
 		branchId: String(json.id),
 		additions: [relativePath],
 		githubUsername,
-		...error && { error },
+		...errors.length > 0 && { errors },
 	};
 
 }

@@ -198,8 +198,10 @@ async function createPr(pkg, prs) {
 
 	// If the fetch script already reported errors, make sure to collect them.
 	let errors = [];
-	if (pkg.error) {
-		errors.push(new Error(pkg.error));
+	if (pkg.errors?.length > 0) {
+		for (let message of pkg.errors) {
+			errors.push(new Error(message));
+		}
 	}
 	
 	// Run the linter as well. If it fails, that's another error.

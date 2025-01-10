@@ -248,6 +248,25 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package with a nested metadata.yaml', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'subfolder/metadata.yaml': {
+							name: 'this-name',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].name).to.equal('this-name');
+
+	});
+
 	it('a package with custom dependencies', async function() {
 
 		let upload = faker.upload({
@@ -986,8 +1005,7 @@ describe('The fetch action', function() {
 			upload,
 		});
 		let { result } = await run();
-		expect(result.error).to.be.a('string');
-		expect(result.error).to.have.length.above(0);
+		expect(result.errors).to.have.length(1);
 
 	});
 
@@ -1346,6 +1364,54 @@ describe('The fetch action', function() {
 		const { packages, notices } = await run({ id: upload.id });
 		expect(packages).to.have.length(0);
 		expect(notices).to.have.length(1);
+
+	});
+
+	it('handles mutiple metadata.yaml files in the same asset', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'this-one',
+						},
+						'subfolder/metadata.yaml': {
+							name: 'no-this-one',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
+
+	});
+
+	it('handles mutiple metadata.yaml files in different assets', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'this-one',
+						},
+					},
+				},
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'no-this-one',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
 
 	});
 
