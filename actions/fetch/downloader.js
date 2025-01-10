@@ -3,6 +3,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
+import crypto from 'node:crypto';
 import { Glob } from 'glob';
 import ora from 'ora';
 import tmp from 'tmp-promise';
@@ -49,6 +50,9 @@ export default class Downloader {
 				Cookie: process.env.SC4PAC_SIMTROPOLIS_COOKIE,
 			},
 		});
+		if (res.status === 404) {
+			throw new Error(`${url} not found`);
+		}
 		if (res.status >= 400) {
 			throw new SimtropolisError(res);
 		}
@@ -115,6 +119,7 @@ export default class Downloader {
 	// the files in it, as well as the metadata, if it exists.
 	async inspectAsset(dir) {
 		let metadata = [];
+		let checksums = [];
 		let glob = new Glob('**/*', { cwd: dir, nodir: true });
 		let files = [];
 		for (let file of glob) {
@@ -122,10 +127,27 @@ export default class Downloader {
 			let basename = path.basename(file);
 			if (basename === 'metadata.yaml') {
 				metadata.push(await readMetadata(path.join(dir, file)));
+			} else if (path.extname(file) === '.dll') {
+
+				// If this is a dll, we'll generate the checksum for it as well. 
+				// Note that it is purely information for now, it's the 
+				// `handleUpload()` function that determines whether we'll 
+				// actually use that dll or not!
+				let contents = await fs.promises.readFile(path.join(dir, file));
+				let sha256 = crypto.createHash('sha256')
+					.update(contents)
+					.digest('hex');
+				checksums.push({
+					include: `/${file}`,
+					sha256,
+				});
+
 			}
+
 		}
 		return {
 			metadata,
+			checksums,
 			files,
 		};
 	}
