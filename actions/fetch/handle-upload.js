@@ -26,6 +26,21 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
+	// If the files have been removed - meaning the file name is "null" - then 
+	// we don't include this. This happens for example with packages marked as 
+	// obsolete on the STEX.
+	if (
+		!json.files ||
+		json.files.length === 0 ||
+		json.files.some(file => file.name === null)
+	) {
+		return {
+			skipped: true,
+			type: 'notice',
+			reason: `Package ${json.fileURL} skipped as it has no files`,
+		};
+	}
+
 	// Start by extracting all metadata we can from the api. This should be 
 	// sufficient to look for a `metadata.yaml` file in the downloads. We'll do 
 	// that first before completing the metadata with scraping, because we might 
