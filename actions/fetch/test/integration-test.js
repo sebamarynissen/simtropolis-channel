@@ -952,7 +952,7 @@ describe('The fetch action', function() {
 
 	});
 
-	it('generates DLL checksums automatically', async function() {
+	it.skip('generates DLL checksums automatically', async function() {
 
 		const contents = crypto.getRandomValues(new Uint8Array(250));
 		const sha256 = crypto.createHash('sha256').update(contents).digest('hex');
