@@ -14,7 +14,7 @@ export default function patchMetadata(
 	if (!patch || patch === true) {
 		return {
 			packages: [metadata.package],
-			assets: [...metadata.assets],
+			assets: [...metadata.assets || []],
 			main: metadata.package,
 			basename: original.name,
 		};
@@ -34,7 +34,7 @@ export default function patchMetadata(
 
 	// If urls were specified for the assets, we have to update them because in 
 	// that case the Simtropolis url becomes the nonPersistentUrl.
-	let assets = [...metadata.assets];
+	let assets = [...metadata.assets || []];
 	if (assetPatches.length > 0) {
 		for (let i = 0; i < assets.length; i++) {
 			let patch = assetPatches[i];
