@@ -1333,6 +1333,22 @@ describe('The fetch action', function() {
 
 	});
 
+	it('doesn\'t choke on obsolete packages where the file have been deleted', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					name: null,
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
 });
 
 function jsonToYaml(json) {
