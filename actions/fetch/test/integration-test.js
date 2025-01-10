@@ -248,6 +248,25 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package with a nested metadata.yaml', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'subfolder/metadata.yaml': {
+							name: 'this-name',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].name).to.equal('this-name');
+
+	});
+
 	it('a package with custom dependencies', async function() {
 
 		let upload = faker.upload({
