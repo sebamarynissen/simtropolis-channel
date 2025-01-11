@@ -2,7 +2,7 @@
 
 This repository contains the code for the [sc4pac](https://memo33.github.io/sc4pac/#/) metadata channel that automatically handles uploads to the STEX.
 Highly experimental state.
-Add `https://sebamarynissen.github.io/simtropolis-channel` to your sc4pac channels to use it.
+Add https://sc4pac.simtropolis.com/ to your sc4pac channels to use it.
 See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
 
 Currently, the STEX is polled for new content once every hour, meaning if your plugin is compatible and has valid metadata (see below), it should appear within the hour on the channel.
@@ -36,7 +36,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - [x] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
-- [ ] Make the channel available under a simtropolis.com url: https://sc4pac.simtropolis.com
+- [x] Make the channel available under a simtropolis.com url: [https://sc4pac.simtropolis.com/](https://sc4pac.simtropolis.com/sc4pac-channel-contents.json)
 - [ ] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails (to verify with ST admins, but should probably be possible by sendin a POST to the correct endpoint).
 - [ ] Setup an action that automatically creates a GitHub release the first of every month with an overview of all packages that have been added the last month. The releases can have the format `YYYY.mm` as version tags.
 
