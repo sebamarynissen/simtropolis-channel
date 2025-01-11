@@ -11,7 +11,7 @@ function getIdFromUrl(url = window.location.href) {
 		.split('-')[0];
 }
 
-setup(['sc4pac.sebamarynissen.dev']).then(({ plugin, h }) => {
+setup(['sc4pac.simtropolis.com']).then(({ plugin, h }) => {
 	let id = getIdFromUrl();
 	let packages = plugin.find('stex', id);
 	if (packages.length === 0) return;
