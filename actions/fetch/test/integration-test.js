@@ -1543,6 +1543,27 @@ describe('The fetch action', function() {
 
 	});
 
+	it('supports author aliases', async function() {
+
+		const upload = faker.upload({
+			uid: 415798,
+		});
+		const { run } = this.setup({
+			upload,
+			permissions: {
+				authors: [
+					{
+						id: 415798,
+						alias: 'agc',
+					},
+				],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].group).to.equal('agc');
+
+	});
+
 });
 
 function jsonToYaml(json) {

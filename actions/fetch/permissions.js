@@ -43,6 +43,9 @@ export default class PermissionsApi {
 				.replace(/^-+/, '')
 				.trim();
 		}
+		if (config.alias) {
+			clone.author = config.alias;
+		}
 		return clone;
 	}
 
