@@ -1,0 +1,80 @@
+group: agc
+name: jawa-sandcrawler
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Jawa Sandcrawler
+  description: |-
+    ![sandcalwerlogo.png](https://cdn.discordapp.com/attachments/393834822696697866/789943671247339520/sandcalwerlogo.png)
+
+    **History**
+
+    Sandcrawlers, originally called digger crawlers, were huge mobile fortresses used by the Jawas as their transport and shelter in the deserts of Tatooine and Arvala-7. They were equipped with a magnetic suction tube for sucking droids and scrap into the cargo hold. They also contained cargo holds, scrap-processing facilities, and quarters for crew and passengers. They were large enough to fit an entire Jawa clan.
+
+    **Specs**:
+
+    The file contains an Jawa Sandcrawler. Plop it on flat ground (You can also use MMP around the model).
+
+    **Night:**
+
+    Maxis Night & Darknite **(Choose only one)**
+
+    **Maxisnite:**
+
+    ![sandcalwerlogo2.png](https://cdn.discordapp.com/attachments/393834822696697866/789943669045985300/sandcalwerlogo2.png)
+
+    **Darknite:**
+
+    ![sandcalwerlogo3.png](https://cdn.discordapp.com/attachments/393834822696697866/789943665816633404/sandcalwerlogo3.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_StarWars\_Vehicles\_Jawa-Sandcrawler\_P1\_V100\_90    (Prop & Building)
+
+    **Scale of the model:** Real World Scale **(I'll add a version scaled 133% on all axes later)**.
+
+    **Ubication:** Landmarks
+
+    **Icon:** ![JAWASANDCRWALER.png](https://cdn.discordapp.com/attachments/393834822696697866/789943759068594176/JAWASANDCRWALER.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (5) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/33997-agc-jawa-sandcrawler/
+  images:
+    - https://cdn.discordapp.com/attachments/393834822696697866/789943671247339520/sandcalwerlogo.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-jawa-sandcrawler-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-jawa-sandcrawler-darknite
+
+---
+assetId: agc-jawa-sandcrawler-maxisnite
+version: "1.0.0"
+lastModified: "2020-12-19T20:12:43Z"
+url: https://community.simtropolis.com/files/file/33997-agc-jawa-sandcrawler/?do=download&r=184175
+
+---
+assetId: agc-jawa-sandcrawler-darknite
+version: "1.0.0"
+lastModified: "2020-12-19T20:12:43Z"
+url: https://community.simtropolis.com/files/file/33997-agc-jawa-sandcrawler/?do=download&r=184176

@@ -1,0 +1,62 @@
+group: agc
+name: a-frame-houses
+version: "2.0.0"
+subfolder: 360-landmark
+info:
+  summary: A-Frame Houses
+  description: |-
+    **Specs**:
+
+    The file contains 7 1x1 lots (MMP Friendly)
+
+    **Lot editor:**
+
+    **AGC\_Buildings\_A-Frame\_**
+
+    **AGC\_Buildings\_Forest\_House\_**
+
+    **Ubication:** Landmarks
+
+    **Icon:**  ![664e908f18826_image(25).png.ed95282c4ee3b1cb9c0fac125e3c249f.png](https://www.simtropolis.com/objects/attachments/monthly_2024_05/664e908f18826_image(25).png.ed95282c4ee3b1cb9c0fac125e3c249f.png)
+
+    **Includes Maxisnite and Darknite (Choose just one).**
+
+    **Dependencies:**
+
+    **No**
+
+    **Scale of the models:** **133% on all axes.**
+
+    **If you like my work, you can make a donation to fund my other projects! ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to the few people who have donated to me.**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fb97369a_image(20).png.31e7c075214f9870ad9a81ddf0694a6e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fbf321d7_image(22).png.eef29235e29806f87d0f53fe8c8b4079.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc451caa_image(23).png.d2d65b67f1aaad69f0c05485d2778ba0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc94380a_image(24).png.4b94aafe2e7292299ce6c85a1704778d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/665bae96ded29_image(20).png.02fea7f99fd7c65c7d0354f0898ee705.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-a-frame-houses-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-a-frame-houses-darknite
+
+---
+assetId: agc-a-frame-houses-maxisnite
+version: "2.0.0"
+lastModified: "2024-06-01T23:29:17Z"
+url: https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=download&r=201518
+
+---
+assetId: agc-a-frame-houses-darknite
+version: "2.0.0"
+lastModified: "2024-06-01T23:29:17Z"
+url: https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=download&r=201519

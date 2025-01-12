@@ -1,0 +1,84 @@
+group: agc
+name: colossi-of-memnon-hd
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Colossi of Memnon HD
+  description: |-
+    ![AAAQDCSDA.png](https://cdn.discordapp.com/attachments/393834822696697866/793988598629662750/AAAQDCSDA.png)
+
+    ![AAAQDCSDA44242472472.png](https://cdn.discordapp.com/attachments/393834822696697866/793996505013813268/AAAQDCSDA44242472472.png)
+
+    ![1280px-Colossi_of_Memnon_May_2015_2.JPG](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Colossi_of_Memnon_May_2015_2.JPG/1280px-Colossi_of_Memnon_May_2015_2.JPG)
+
+    **History**
+
+    The Colossi of Memnon (Arabic: el-Colossat or es-Salamat) are two massive stone statues of the Pharaoh Amenhotep III, who reigned in Egypt during the Eighteenth Dynasty of Egypt. Since 1350 BCE, they have stood in the Theban Necropolis, located west of the River Nile from the modern city of Luxor.
+
+    **Specs**:
+
+    The file contains an 1x1 lot. Plop it on **flat ground** (You can also use MMP around the model).
+
+    **Night:**
+
+    Maxis Night & Darknite **(Choose only one)**
+
+    **Maxisnite:**
+
+    ![AAAQDCSDA3.png](https://cdn.discordapp.com/attachments/393834822696697866/793988598919200798/AAAQDCSDA3.png)
+
+    **Darknite:**
+
+    ![AAAQDCSDA2.png](https://cdn.discordapp.com/attachments/393834822696697866/793988604590293063/AAAQDCSDA2.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Statue-Mo\_Egypt\_Colossi-of-Memnon\_V1\_S1\_90    (Building & Prop)
+
+    **Scale of the model:** **133% on all axes.**
+
+    **Ubication:** Landmarks.
+
+    **Icon:** ![Colossi_memnonico.png](https://cdn.discordapp.com/attachments/393834822696697866/793990038278766612/Colossi_memnonico.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (6) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34020-agc-colossi-of-memnon-hd/
+  images:
+    - https://cdn.discordapp.com/attachments/393834822696697866/793991683179020338/AAAQDCSDA444444444.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-colossi-of-memnon-hd-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-colossi-of-memnon-hd-darknite
+
+---
+assetId: agc-colossi-of-memnon-hd-darknite
+version: "1.0.0"
+lastModified: "2020-12-30T23:59:52Z"
+url: https://community.simtropolis.com/files/file/34020-agc-colossi-of-memnon-hd/?do=download&r=184314
+
+---
+assetId: agc-colossi-of-memnon-hd-maxisnite
+version: "1.0.0"
+lastModified: "2020-12-30T23:59:52Z"
+url: https://community.simtropolis.com/files/file/34020-agc-colossi-of-memnon-hd/?do=download&r=184315

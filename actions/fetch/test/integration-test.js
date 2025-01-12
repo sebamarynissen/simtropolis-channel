@@ -1327,6 +1327,33 @@ describe('The fetch action', function() {
 
 	});
 
+	it('strips known prefixes with hyphens from the upload title', async function() {
+
+		const upload = faker.upload({
+			uid: 444001,
+			author: 'Barroco Hispano',
+			title: 'AGC - Some package DLC',
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			permissions: {
+				authors: [{
+					name: 'Barroco Hispano',
+					alias: 'agc',
+					id: 444001,
+					prefixes: [
+						'agc',
+					],
+				}],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].group).to.equal('agc');
+		expect(result.metadata[0].name).to.equal('some-package-dlc');
+		expect(result.metadata[0].info.summary).to.equal('Some package DLC');
+
+	});
+
 	it('parses iframes from the html description', async function() {
 
 		const upload = faker.upload({
@@ -1540,6 +1567,28 @@ describe('The fetch action', function() {
 		const { run } = this.setup({ upload });
 		const { result } = await run({ id: upload.id });
 		expect(result.errors).to.have.length(1);
+
+	});
+
+	it('supports author aliases', async function() {
+
+		const upload = faker.upload({
+			uid: 415798,
+		});
+		const { run } = this.setup({
+			upload,
+			permissions: {
+				authors: [
+					{
+						id: 415798,
+						alias: 'agc',
+					},
+				],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].group).to.equal('agc');
+		expect(result.metadata[0].info.author).to.equal(upload.author);
 
 	});
 

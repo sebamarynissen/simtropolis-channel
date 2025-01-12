@@ -1,0 +1,84 @@
+group: agc
+name: rm-leone-destroyer
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: RM Leone (Destroyer)
+  description: |-
+    **History**
+
+    The ships were designed as scout cruisers (esploratori), essentially enlarged versions of contemporary destroyers. They were initially ordered in 1917, but postponed due to steel shortages, and re-ordered in 1920.\[1\] They had an overall length of 113.41 meters (372 ft), a beam of 10.36 meters (34 ft) and a mean draft of 3.1 meters (10 ft 2 in).\[2\] They displaced 2,195 long tons (2,230 t) at standard load, and 2,289 long tons (2,330 t) at deep load. Their complement was 10 officers and 194 enlisted men.\[1\]
+
+    The Leones were powered by two Parsons geared steam turbines, each driving one propeller shaft using steam supplied by four Yarrow boilers. The turbines were rated at 42,000 shaft horsepower (31,000 kW) for a speed of 33 knots (61 km/h; 38 mph) in service, although all of the ships exceeded that speed during their sea trials.\[1\] The ships carried 393 long tons (399 t) of fuel oil\[2\] that gave them a range of 2,000 nautical miles (3,700 km; 2,300 mi) at a speed of 15 knots (28 km/h; 17 mph).\[1\]
+
+    Their main battery consisted of eight 120-millimeter (4.7 in) guns in four twin-gun turrets, one each fore and aft of the superstructure and the remaining turrets positioned between the funnels and the torpedo tube mounts amidships.\[3\] Anti-aircraft (AA) defense for the Leone-class ships was provided by a pair of 76 mm (3 in) AA guns in single mounts amidships. They were equipped with six 450-millimeter (17.7 in) torpedo tubes in two triple mounts. The Leones could also carry 60 mines.\[1\]
+
+    **Specs**:
+
+    The file contains an 8x1 lot. You can plop in the water or on the ground (You can also use MMP under the model).
+
+    ![rm_leoe.png](https://cdn.discordapp.com/attachments/393834822696697866/801197946342998077/rm_leoe.png)
+
+    **Night:**
+
+    Maxisnite & Darknite (Choose only one)
+
+    **Darknite:**
+
+    ![rm_leoe3.png](https://cdn.discordapp.com/attachments/393834822696697866/801224929344749568/rm_leoe3.png)
+
+    **Maxisnite:**
+
+    ![rm_leoe22.png](https://cdn.discordapp.com/attachments/393834822696697866/801197943898112030/rm_leoe22.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Destroyers\_RM\_Leone\_1938\_V100\_90    (Building)
+
+    **Scale of the model:** **Real World Scale** **(I'll add a version scaled 133% on all axes later)**.
+
+    **Ubication:** Water transportation.
+
+    **Icon:**   ![Italy_Destroyer_Flag.png](https://cdn.discordapp.com/attachments/393834822696697866/801225384753496125/Italy_Destroyer_Flag.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use Paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (6) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34062-agc-rm-leone-destroyer/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/thumaaa.png.4d92a3cb26b96d8fa1520b5f455c57b1.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-rm-leone-destroyer-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-rm-leone-destroyer-darknite
+
+---
+assetId: agc-rm-leone-destroyer-darknite
+version: "1.0.0"
+lastModified: "2021-01-20T11:44:06Z"
+url: https://community.simtropolis.com/files/file/34062-agc-rm-leone-destroyer/?do=download&r=184666
+
+---
+assetId: agc-rm-leone-destroyer-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-20T11:44:06Z"
+url: https://community.simtropolis.com/files/file/34062-agc-rm-leone-destroyer/?do=download&r=184667

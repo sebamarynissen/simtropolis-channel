@@ -10,7 +10,7 @@ import { slugify } from './util.js';
 // structure.
 export default function apiToMetadata(json) {
 	let pkg = {
-		group: slugify(json.author),
+		group: slugify(json.group || json.author),
 		name: slugifyTitle(json.title),
 		version: json.release,
 		subfolder: getSubfolder(json),
