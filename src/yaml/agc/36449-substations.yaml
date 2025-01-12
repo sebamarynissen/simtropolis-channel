@@ -1,0 +1,53 @@
+group: agc
+name: substations
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: Substations
+  description: |-
+    **These substations were made possible thanks to [@nos.17](https://community.simtropolis.com/profile/455740-nos17/) donation!** ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")
+
+    **Thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for explaining me how to do the modding (It's pretty basic so far, I hope to improve).** ![:}](https://community.simtropolis.com/assets/emoticons/default_48.gif ":}")
+
+    **Specs**:
+
+    The file contains two 3x2, 3x3, 4x2 lots. The substations generate between 200 and 1600 MWh/Month.
+
+    **Ubication:** **Power Stations**
+
+    **Dependencies:**
+
+    **Latest version 7.0 (13/09/2024)**
+
+    [https://community.simtropolis.com/files/file/34163-agc-automobile-dlc/?do=embed](https://community.simtropolis.com/files/file/34163-agc-automobile-dlc/?do=embed)
+    **And**
+
+    [https://community.simtropolis.com/files/file/36448-agc-industry-energy-telecom-dlc/?do=embed](https://community.simtropolis.com/files/file/36448-agc-industry-energy-telecom-dlc/?do=embed)
+    **If you like my work, you can make a donation to fund my other projects! ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to the few people who have donated to me.**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36449-agc-substations/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b7947fc4a_image(39).png.c451bdab3373f09e3725bf8d7238ab4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b7d1ee6d2_image(40).png.5fb757e4a8fbc8d9693f6b1cd59c6c1f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b7d8491d9_image(41).png.13ac7e2836a1cc0be5a10ad2e47bcbbf.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b80a6e2db_image(42).png.c3e16e8984d75d6bf50fbc5187db0623.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b81063acc_image(43).png.1fa05228a757f2a4cdc7196e102d6154.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b8360e2d2_image(44).png.27983afaa874748db415947e42b68a23.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b83abe1c2_image(45).png.b6e9bfcdaf0c08c9e15283dc17537d7d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b85caf5c9_image(46).png.7bebdd581110b6ecaa9cda03c175cef5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b85fd415d_image(47).png.56c44953d10e5f9275ad8ee26052c2c3.png
+dependencies:
+  - agc:industry-energy-telecom-dlc
+  - agc:automobile-dlc
+assets:
+  - assetId: agc-substations
+
+---
+assetId: agc-substations
+version: "1.0.0"
+lastModified: "2024-09-13T22:22:01Z"
+url: https://community.simtropolis.com/files/file/36449-agc-substations/?do=download&r=203438
