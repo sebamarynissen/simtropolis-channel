@@ -80,26 +80,9 @@ class Plugin {
 	// # install(...pkg)
 	// Call this function with a "Package" instance, or an array of packages, to 
 	// launch the install logic.
-	async install(pkg) {
-		let packages = [pkg].flat();
-		let payload = packages.map(pkg => pkg.getInstallPayload());
-		let body = JSON.stringify(payload);
-		try {
-			let res = await fetch(`${this.server}/packages.open`, {
-				signal: AbortSignal.timeout(1_000),
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json',
-					'Content-Length': body.length,
-				},
-				body,
-			});
-			if (res.status >= 300) {
-				this.showDialog();
-			}
-		} catch {
-			this.showDialog();
-		}
+	install(pkg) {
+		let url = this.getInstallUrl(pkg);
+		window.open(url);
 	}
 
 	// ## getInstallUrl(pkg)
@@ -199,66 +182,6 @@ class Plugin {
 				}
 			}
 		}
-	}
-
-	// ## showDialog()
-	showDialog() {
-		let dialog = h('dialog', {
-			id: 'sc4pac-config',
-			style: 'font-size: 14px; max-width: 640px;',
-		});
-		let { server } = this;
-		document.body.appendChild(dialog);
-		let input = h('input', {
-			id: 'sc4pac-server',
-			class: 'ipsFieldrow_content',
-			type: 'url',
-			required: true,
-			value: server,
-		});
-		let button = h('button', { class: 'ipsButton ipsButton_important' }, 'Close window');
-		let form = h('form', { class: 'ipsForm', style: 'margin-top: 8px;' }, [
-			h('label', {
-				class: 'ipsFieldRow_label',
-				for: 'sc4pac-server',
-			}, 'sc4pac server'),
-			h('div', {}, [
-				input,
-				h('button', {
-					class: 'ipsButton',
-					style: 'margin-left: 8px;',
-				}, 'Save'),
-			]),
-		]);
-		let div = h('div', {}, [
-			h('p', {
-				style: 'color: #353535; line-height: 1.5',
-			}, [
-				'Sc4pac needs to be running before you can use this button. For more info, visit ',
-				h('a', {
-					href: 'https://community.simtropolis.com/forums/topic/762677-sc4pac-lets-write-our-own-package-manager',
-					style: 'text-decoration: underline',
-				}, 'the official support thread'),
-				'.',
-			]),
-			h('details', {}, [
-				h('summary', { style: 'cursor: pointer' }, 'Options'),
-				form,
-			]),
-			h('div', { style: 'margin-top: 8px; text-align: right;' }, button),
-		]);
-		button.addEventListener('click', () => {
-			dialog.close();
-			dialog.remove();
-		});
-		form.addEventListener('submit', event => {
-			event.preventDefault();
-			this.server = localStorage['sc4pac:server'] = input.value;
-			dialog.close();
-			dialog.remove();
-		});
-		dialog.appendChild(div);
-		dialog.showModal();
 	}
 
 }

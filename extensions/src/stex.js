@@ -38,7 +38,6 @@ setup(['sc4pac.simtropolis.com']).then(({ plugin, h }) => {
 		h('i', { class: 'fa fa-download fa-lg' }),
 		'\u00A0\u00A0Install with sc4pac',
 	]);
-	// button.addEventListener('click', () => window.open(getInstallUrl()));
 
 	// Insert the generated button right below the "Download file" button.
 	let a = [...document.querySelectorAll('a.ipsButton')].find(a => {
