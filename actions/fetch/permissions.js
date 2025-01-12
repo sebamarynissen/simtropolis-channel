@@ -44,7 +44,7 @@ export default class PermissionsApi {
 				.trim();
 		}
 		if (config.alias) {
-			clone.author = config.alias;
+			clone.group = config.alias;
 		}
 		return clone;
 	}

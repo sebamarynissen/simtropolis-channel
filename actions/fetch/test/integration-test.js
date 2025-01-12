@@ -1561,6 +1561,7 @@ describe('The fetch action', function() {
 		});
 		const { result } = await run({ id: upload.id });
 		expect(result.metadata[0].group).to.equal('agc');
+		expect(result.metadata[0].info.author).to.equal(upload.author);
 
 	});
 
