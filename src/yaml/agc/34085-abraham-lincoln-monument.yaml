@@ -1,0 +1,84 @@
+group: agc
+name: abraham-lincoln-monument
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Abraham Lincoln Monument
+  description: |-
+    **History:**
+
+    Lincoln Monument (Philadelphia) is a monument honoring Abraham Lincoln in Fairmount Park, Philadelphia, Pennsylvania, United States. One of the first initiated in memory of the assassinated president, the monument was designed by neoclassical sculptor Randolph Rogers and completed in 1871. It is now located northeast of the intersection of Kelly Drive and Sedgley Drive, opposite Boathouse Row.
+
+    **Specs**:
+
+    The file contains an 2x2 lot. Plop it on **flat ground** (You can also use MMP around the model).
+
+    ![thumblia.png](https://cdn.discordapp.com/attachments/393834822696697866/805510822888734760/thumblia.png)
+
+    ![aasd4.png](https://cdn.discordapp.com/attachments/393834822696697866/805510820019568680/aasd4.png)
+
+    **Night:**
+
+    Maxis Night & Darknite **(Choose only one)**
+
+    **Maxisnite:**
+
+    ![qerhhhdgd.png](https://cdn.discordapp.com/attachments/393834822696697866/805510815415140392/qerhhhdgd.png)
+
+    **Darknite:**
+
+    ![uiuider5.png](https://cdn.discordapp.com/attachments/393834822696697866/805510818300297286/uiuider5.png)
+
+    ![yui7iuuyh45.png](https://cdn.discordapp.com/attachments/393834822696697866/805510817096400896/yui7iuuyh45.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Statue-Mo\_USA\_Abraham-Lincoln-Philadelphia\_V01\_S1\_90    (Building)
+
+    **Scale of the model:** **133% on all axes.**
+
+    **Ubication:** Parks
+
+    **Icon:** ![lincoln_monu.png](https://cdn.discordapp.com/attachments/393834822696697866/805541603628154950/lincoln_monu.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (7) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34085-agc-abraham-lincoln-monument/
+  images:
+    - https://cdn.discordapp.com/attachments/393834822696697866/805510825120759818/lincothumb.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-abraham-lincoln-monument-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-abraham-lincoln-monument-darknite
+
+---
+assetId: agc-abraham-lincoln-monument-darknite
+version: "1.0.0"
+lastModified: "2021-01-31T20:58:14Z"
+url: https://community.simtropolis.com/files/file/34085-agc-abraham-lincoln-monument/?do=download&r=184877
+
+---
+assetId: agc-abraham-lincoln-monument-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-31T20:58:14Z"
+url: https://community.simtropolis.com/files/file/34085-agc-abraham-lincoln-monument/?do=download&r=184878
