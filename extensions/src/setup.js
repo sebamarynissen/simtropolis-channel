@@ -33,8 +33,9 @@ class Package {
 	// Returns the url that can be used in an <a> tag when an sc4pac protocol 
 	// handler is defined.
 	getInstallUrl() {
-		let url = new URL(this.channelUrl.replace(/^https?/, 'sc4pac'));
+		let url = new URL('sc4pac:///package');
 		url.searchParams.set('pkg', this.id);
+		url.searchParams.set('channel', this.channelUrl);
 		return url.href;
 	}
 
@@ -105,8 +106,17 @@ class Plugin {
 	// Returns the install url for the package, or array of packages, using the 
 	// sc4pac:// protocol.
 	getInstallUrl(pkg) {
-		let [first] = [pkg].flat();
-		return first.getInstallUrl();
+		let packages = [pkg].flat();
+		let channels = new Set();
+		let url = new URL('sc4pac:///package');
+		for (let pkg of packages) {
+			url.searchParams.append('pkg', pkg.id);
+			channels.add(pkg.channelUrl);
+		}
+		for (let channel of channels) {
+			url.searchParams.append('channel', channel);
+		}
+		return String(url);
 	}
 
 	// ## getViewUrl(pkg)
