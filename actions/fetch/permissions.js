@@ -37,7 +37,11 @@ export default class PermissionsApi {
 		let clone = { ...upload };
 		for (let prefix of config.prefixes || []) {
 			let regex = new RegExp(`^${prefix}\\b`, 'i');
-			clone.title = clone.title.replace(regex, '').trim();
+			clone.title = clone.title
+				.replace(regex, '')
+				.trim()
+				.replace(/^-+/, '')
+				.trim();
 			clone.aliasEntry = clone.aliasEntry
 				.replace(regex, '')
 				.replace(/^-+/, '')
