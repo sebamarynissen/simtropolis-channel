@@ -1,0 +1,80 @@
+group: agc
+name: generic-war-sailing-ship-port-version
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Generic War Sailing Ship (Port Version)
+  description: |-
+    ![Shipport_day.png](https://cdn.discordapp.com/attachments/393834822696697866/791796193872314388/Shipport_day.png)
+
+    **History**
+
+    It is a replica of an old Sailing Ship, use it in a modern port.
+
+    **Specs**:
+
+    The file contains an Sailling. You can plop in the water or on the ground (You can also use MMP under the model).
+
+    **Night:**
+
+    Maxis Night & Darknite **(Choose only one)**
+
+    **Maxisnite:**
+
+    ![Shipport_max.png](https://cdn.discordapp.com/attachments/393834822696697866/791796194442870804/Shipport_max.png)
+
+    **Darknite:**
+
+    ![Shipport_dark.png](https://cdn.discordapp.com/attachments/393834822696697866/791796195622125578/Shipport_dark.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Sailing-Ship\_War\_G1\_Port\_S1\_90    (Building)
+
+    **Scale of the model:** Real World Scale **(I'll add a version scaled 133% on all axes later)**.
+
+    **Ubication:** Water Transportation.
+
+    **Icon:** ![SAIL_PORT_SHIP.png](https://cdn.discordapp.com/attachments/393834822696697866/791808700200255508/SAIL_PORT_SHIP.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (6) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34007-agc-generic-war-sailing-ship-port-version/
+  images:
+    - https://cdn.discordapp.com/attachments/393834822696697866/791796193872314388/Shipport_day.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-generic-war-sailing-ship-port-version-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-generic-war-sailing-ship-port-version-darknite
+
+---
+assetId: agc-generic-war-sailing-ship-port-version-darknite
+version: "1.0.0"
+lastModified: "2020-12-24T23:26:05Z"
+url: https://community.simtropolis.com/files/file/34007-agc-generic-war-sailing-ship-port-version/?do=download&r=184235
+
+---
+assetId: agc-generic-war-sailing-ship-port-version-maxisnite
+version: "1.0.0"
+lastModified: "2020-12-24T23:26:05Z"
+url: https://community.simtropolis.com/files/file/34007-agc-generic-war-sailing-ship-port-version/?do=download&r=184236
