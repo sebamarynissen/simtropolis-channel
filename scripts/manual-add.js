@@ -51,7 +51,7 @@ async function run(urls) {
 			}
 
 		}
-		let file = `src/yaml/${pkg.group}/${result.id}-${pkg.name}.yaml`;
+		let file = `${pkg.group}/${result.id}-${pkg.name}.yaml`;
 		let docs = result.metadata.map((data, i) => {
 			let doc = stylize(new Document(data));
 			if (i > 0) {
@@ -64,7 +64,7 @@ async function run(urls) {
 		})).join('\n');
 		let fullPath = path.resolve(
 			import.meta.dirname,
-			'../src/yaml/simtropolis-channel',
+			'../src/yaml',
 			file,
 		);
 		await fs.promises.mkdir(path.dirname(fullPath), { recursive: true });
