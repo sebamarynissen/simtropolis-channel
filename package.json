@@ -16,6 +16,7 @@
     "test": "test"
   },
   "scripts": {
+    "add": "node --env-file=.env scripts/manual-add.js",
     "build": "sc4pac channel build -o dist/channel src/yaml",
     "fetch": "gh workflow run add-packages.yaml",
     "deploy": "gh workflow run deploy.yaml",
@@ -49,7 +50,7 @@
     "@actions/github": "^6.0.0",
     "@octokit/rest": "^21.0.2",
     "dot-prop": "^9.0.0",
-    "glob": "^11.0.0",
+    "glob": "^11.0.1",
     "jsdom": "^25.0.1",
     "mime": "^4.0.6",
     "ora": "^8.1.1",
@@ -57,7 +58,8 @@
     "simple-git": "^3.27.0",
     "tmp-promise": "^3.0.3",
     "turndown": "^7.2.0",
-    "yaml": "^2.6.1",
+    "yaml": "^2.7.0",
+    "yargs": "^17.7.2",
     "yauzl": "^3.2.0",
     "yn": "^5.0.0"
   }
