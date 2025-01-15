@@ -8,7 +8,7 @@ import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 import { parseAllDocuments } from 'yaml';
 import { Minimatch } from 'minimatch';
-import standardDeps from './standard-deps';
+import standardDeps from './standard-deps.js';
 
 // Parse the regular expressions for the packages
 const { argv } = yargs(hideBin(process.argv));
