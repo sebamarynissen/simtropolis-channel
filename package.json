@@ -18,6 +18,9 @@
   "scripts": {
     "add": "node --env-file=.env scripts/manual-add.js",
     "build": "sc4pac channel build -o dist/channel src/yaml",
+    "sc4pac": "node --env-file=.env scripts/sc4pac.js",
+    "prune": "node --env-file=.env scripts/prune.js",
+    "symlink": "node --env-file=.env scripts/symlink.js",
     "fetch": "gh workflow run add-packages.yaml",
     "deploy": "gh workflow run deploy.yaml",
     "lint": "eslint actions/**/*.js",
@@ -41,6 +44,7 @@
     "human-interval": "^2.0.1",
     "marked": "^15.0.6",
     "memfs": "^4.15.0",
+    "minimatch": "^10.0.1",
     "mocha": "^11.0.1",
     "tsx": "^4.19.2",
     "yazl": "^3.3.1"
