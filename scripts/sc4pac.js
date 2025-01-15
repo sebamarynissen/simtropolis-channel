@@ -8,6 +8,7 @@ import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 import { parseAllDocuments } from 'yaml';
 import { Minimatch } from 'minimatch';
+import standardDeps from './standard-deps';
 
 // Parse the regular expressions for the packages
 const { argv } = yargs(hideBin(process.argv));
@@ -33,11 +34,7 @@ const packages = glob
 	.sort();
 
 // Always add a bunch of dependencies that come in handy when testing.
-packages.push(
-	'memo:essential-fixes',
-	'simmaster07:sc4fix',
-	'simmaster07:extra-cheats-dll',
-);
+packages.push(...standardDeps);
 
 // Now generate the sc4pac-plugins.json file.
 const pluginsRoot = path.resolve(import.meta.dirname, '../dist/plugins');
