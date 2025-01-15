@@ -32,6 +32,13 @@ const packages = glob
 	.flat()
 	.sort();
 
+// Always add a bunch of dependencies that come in handy when testing.
+packages.push(
+	'memo:essential-fixes',
+	'simmaster07:sc4fix',
+	'simmaster07:extra-cheats-dll',
+);
+
 // Now generate the sc4pac-plugins.json file.
 const pluginsRoot = path.resolve(import.meta.dirname, '../dist/plugins');
 const cacheRoot = process.env.SC4PAC_CACHE_ROOT;
