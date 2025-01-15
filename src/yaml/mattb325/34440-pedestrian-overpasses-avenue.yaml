@@ -1,0 +1,103 @@
+group: mattb325
+name: pedestrian-overpasses-avenue
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Pedestrian Overpasses (Avenue)
+  description: |-
+    **Pedestrian Overpass (Avenue), by Mattb325.  
+    \---------------------------------------**
+
+    A set of three pedestrian overpass bridges found in the parks menu. These bridges are in a lot family and you will get a different one each time you plop (thus reducing clutter in the already crowded parks menu).
+
+    Two of these bridges are inspired by JBSimio's unreleased work: ten years ago he made a number of eye candy pedestrian footbridges to tie in with the BSC parks series.
+
+    While his work was the inspiration, these pedestrian bridges do not force you to use any type of park.
+
+    The lot has a transparent base and can be **placed on ground or on water, making them quite unique**.
+
+    To place, make a 2-tile wide viaduct using the 15m hole digger lot that comes with the NAM, and then place the 1x1 lot on the slope: the bridge piece is overhanging and will span the gap between the two sides. It means that the single lot can be used for road/avenue/NWM pieces/Highway/rail, etc. Even ploppable canal water will work.
+
+    You can then use any of your favourite wall pieces (or MMPs) to decorate the slope along the viaduct (as I have done in the images).
+
+    Similarly, if placing this across ingame water, just use the hole digger pieces until you hit water and place the 1x1 on the slope: as long as the water is two tiles wide, the bridge will fill the gap between both banks of the river. You can make real-water canals very easily using this method and these bridges have tight lods so that they can sit correctly in the water.
+
+    The bridges will work with any other depths (such as 7.5m), but visually they look best with 15m heights.  
+       
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                  1x1  
+    Bulldoze Cost:        $ 10  
+    Plop Cost:                $ 40  
+    Demand Satisfied: R$ 250, R$$ 250, R$$$ 250  
+    Landmark Effect:   +20 over 10 tiles  
+    Park Effect:             +15 over 15 tiles  
+    Pollution:                 -2 (Air)/ 1 (Water)/ 0 (Garbage )  
+    Pollution Radius:    2/1/0  
+    Power Consumed: 0 Mwh  
+    Water Consumed:  5 Gal/Month  
+    Monthly Cost:          $ 5  
+    Occupant Group:    Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34440-pedestrian-overpasses-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped.jpg.86a8477e7c966d66c19f2018aa306307.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped1.jpg.007426a21df8675a42c0004e03caf048.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped1a.jpg.e18c426176615949fdbe1bd4c96fba09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped1b.jpg.a4e5d79b08d84f7901f94121ace6659d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped1c.jpg.f5704457c021e024c194357f687eb029.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped1d.jpg.7b784296348d72daf04607c5e408b410.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped2.jpg.32bd8eb79ef139de70dc3c2418a44689.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped2a.jpg.b17263098347f8962c6213c0427f58dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped2b.jpg.2440518124b711163a29f92351bb81f9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped3.jpg.9ef943ae8496a3f6db07dfc6996ed1e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped4.jpg.98bf92010addb574f786e40e2f65f109.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped5.jpg.b9ef827d3f12531685faab962f0e4df2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped6.jpg.1c7effeb3f2c6ef55c4c39d2baf17fb5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped7.jpg.abdbfef287e90e9f892cb04802bcf9a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped7a.jpg.9d9144210a9d61ccd6363515e51dd4a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped8.jpg.5846f39dcf51b4176d253e78f649cfee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped8a.jpg.a43a1f3d13745e98e2bfc96df75c0139.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped8b.jpg.e334f29544f768a9dee265141a3bbf3c.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pedestrian-overpasses-avenue-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pedestrian-overpasses-avenue-darknite
+
+---
+assetId: mattb325-pedestrian-overpasses-avenue-darknite
+version: "1.0.0"
+lastModified: "2021-05-07T20:33:56Z"
+url: https://community.simtropolis.com/files/file/34440-pedestrian-overpasses-avenue/?do=download&r=187821
+
+---
+assetId: mattb325-pedestrian-overpasses-avenue-maxisnite
+version: "1.0.0"
+lastModified: "2021-05-07T20:33:56Z"
+url: https://community.simtropolis.com/files/file/34440-pedestrian-overpasses-avenue/?do=download&r=187822

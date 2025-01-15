@@ -1,0 +1,87 @@
+group: mattb325
+name: diagonal-filler-parks
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Diagonal Filler Parks
+  description: |-
+    **Diagonal Filler Parks, by Mattb325.  
+    \---------------------------------------**
+
+    A set of five diagonal filler parks to place along diagonal roads/avenues, etc. Essentially these can help fill those awkward gaps when using diagonally overhanging buildings.
+
+    These are all in a family, so you will get a different version each time you plop. There are various arrangements and types of trees/flowers/shrubs and sculptures.
+
+    These parks are made as overhanging props. The lot size is 1x1 and the overhang allows you to cover diagonal/ortho transitions. These parks should not be used on sloping ground. They use the standard Maxis white pavement and will deliver park effects + small amounts of cap relief.
+
+    Please  note, that like all of these sorts of overhanging/filler pieces (not just mine, but everyone's where LODs need to be tight to ensure that details on the road are not completely cut-off), there are various visual glitches where they meet the ground, or network pieces or even other lots.
+
+    These glitches can be minor or major depending on your video card, shadow settings, placement on the map, etc, etc. Unfortunately I can't do anything about it: I made my peace with the various visual glitches of this old game years ago.  
+       
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                  1x1  
+    Bulldoze Cost:        § 10  
+    Plop Cost:                § 40  
+    Demand Satisfied: R§ 250, R§§ 250, R§§§ 250  
+    Landmark Effect:   +20 over 10 tiles  
+    Park Effect:            +15 over 15 tiles  
+    Pollution:                -2 (Air)/ 1 (Water)/ 0 (Garbage )  
+    Pollution Radius:    2/1/0  
+    Power Consumed: 0 Mwh  
+    Water Consumed:  5 Gal/Month  
+    Monthly Cost:         § 5  
+    Occupant Group:    Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34290-diagonal-filler-parks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark.jpg.ff32f15293c81b65f506eb75b6ee9bfc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark1.jpg.ac688d03798d0e1d40f6b181316c8d2f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark1a.jpg.a65a41b4bd8b3e6a74b711e2b322cef9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark2.jpg.b547966e9e0e200e2072250300e74233.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark3.jpg.58f56f7e87411b69e0cadf353f1b0f68.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark4.jpg.6b83eaf293988ee02004ec953786172a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark5.jpg.b5e653cbdcf3ea888e3c9f98dcd729a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/DiagonalPark6.jpg.246ccc8565c83ae5eb0a285fe30606ca.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-diagonal-filler-parks-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-diagonal-filler-parks-darknite
+
+---
+assetId: mattb325-diagonal-filler-parks-darknite
+version: "1.0.0"
+lastModified: "2021-03-17T06:48:16Z"
+url: https://community.simtropolis.com/files/file/34290-diagonal-filler-parks/?do=download&r=186395
+
+---
+assetId: mattb325-diagonal-filler-parks-maxisnite
+version: "1.0.0"
+lastModified: "2021-03-17T06:48:16Z"
+url: https://community.simtropolis.com/files/file/34290-diagonal-filler-parks/?do=download&r=186396
