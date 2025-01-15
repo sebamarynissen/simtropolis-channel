@@ -72,6 +72,7 @@ export default {
 	2945: 'girafe:common-spruces',
 	2962: 'girafe:poppies',
 	2964: 'girafe:narcissus',
+	2979: 'vip:vnaoned-props-pack-vol01',
 	2980: 'girafe:sparaxis',
 	2983: 'girafe:cypresses',
 	2995: 'girafe:beeches',
