@@ -10,7 +10,7 @@ import { slugify } from './util.js';
 // structure.
 export default function apiToMetadata(json) {
 	let pkg = {
-		group: slugify(json.author),
+		group: slugify(json.group || json.author),
 		name: slugifyTitle(json.title),
 		version: json.release,
 		subfolder: getSubfolder(json),
@@ -126,5 +126,6 @@ function normalizeDate(date) {
 
 // # slugifyTitle(title)
 function slugifyTitle(title) {
-	return slugify(title.replaceAll(/&/g, 'and').replaceAll(/\$/g, 's'));
+	return slugify(title.replaceAll(/&/g, 'and').replaceAll(/\$/g, 's'))
+		.replaceAll(/(\b)vol-(\d)/g, '$1vol$2');
 }

@@ -1,0 +1,67 @@
+group: agc
+name: uss-forrest-sherman-dd-931-1958
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: USS Forrest Sherman DD-931 1958
+  description: |-
+    **History:**
+
+    Forrest Sherman was laid down by the Bath Iron Works Corporation at Bath, Maine, on 27 October 1953, launched on 5 February 1955 by Mrs. Forrest P. Sherman, widow of Admiral Sherman and commissioned on 9 November 1955, Commander R. S. Crenshaw in command.
+
+    After a year of initial training and fitting out, Forrest Sherman arrived at her home port, Newport, R.I., 15 January 1957. Two days later she sailed for Washington, D.C., where she was open for public visiting during the week of the second inauguration of President Dwight D. Eisenhower. From Newport, Forrest Sherman sailed on training and fleet exercises along the east coast and in the Caribbean, until the summer of 1957, when she took part in the midshipman cruise to South America and the International Naval Review in Hampton Roads on 12 June.
+
+    **Specs:**
+
+    The file contains an 11x2 lot. You can plop in the water or on the ground (You can also use MMP under or around the model).
+
+    **Night:**
+
+    Maxisnite & Darknite (Choose only one)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Destroyers\_USS\_Forrest-Sherman\_DD-931\_1958\_V01\_90
+
+    **Ubication:** Water transportation.
+
+    **Icon: ![USA_Destroyer_icon.png](https://cdn.discordapp.com/attachments/904385776584912936/945039017584521276/USA_Destroyer_icon.png)**
+
+    **Scale of the models:** **133% on all axes.**
+
+    All credits go to Wargaming
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use Paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34866-agc-uss-forrest-sherman-dd-931-1958/
+  images:
+    - https://cdn.discordapp.com/attachments/904385776584912936/945036088924307456/unknown.png
+    - https://cdn.discordapp.com/attachments/904385776584912936/944385119693709402/unknown.png
+    - https://cdn.discordapp.com/attachments/904385776584912936/944758398816251934/unknown.png
+    - https://cdn.discordapp.com/attachments/904385776584912936/945036642236895252/unknown.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-uss-forrest-sherman-dd-931-1958-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-uss-forrest-sherman-dd-931-1958-darknite
+
+---
+assetId: agc-uss-forrest-sherman-dd-931-1958-maxisnite
+version: "1.0.0"
+lastModified: "2022-02-20T19:32:34Z"
+url: https://community.simtropolis.com/files/file/34866-agc-uss-forrest-sherman-dd-931-1958/?do=download&r=191438
+
+---
+assetId: agc-uss-forrest-sherman-dd-931-1958-darknite
+version: "1.0.0"
+lastModified: "2022-02-20T19:32:34Z"
+url: https://community.simtropolis.com/files/file/34866-agc-uss-forrest-sherman-dd-931-1958/?do=download&r=191439

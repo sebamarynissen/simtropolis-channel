@@ -1,0 +1,42 @@
+group: agc
+name: mega-capacity-school
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Mega capacity school
+  description: |-
+    This is a simple modification of a residential building of MAXIS, converted to school 2x2 with the maximum capacity of radio and students. just one is enough in your city, also contributes to the increase in land value. 
+
+    properties: 
+
+    \- Capacity of Students: 10,000,000. 
+
+    \-Radio: 4096
+
+    Las dependencias (necessary):
+
+    Bldgprop\_vol1.dat:  [http://www.sc4devotion.com/maxis/bldgprop\_vol1.zip](http://www.sc4devotion.com/maxis/bldgprop_vol1.zip)
+
+    ![30kg214.jpg](http://i62.tinypic.com/30kg214.jpg)
+
+    ![jheteb.jpg](http://i61.tinypic.com/jheteb.jpg)
+
+    ![20p79t1.jpg](http://i60.tinypic.com/20p79t1.jpg)
+
+    ![11v5pu8.png](http://i62.tinypic.com/11v5pu8.png)
+
+    ![2db3qrs.png](http://i62.tinypic.com/2db3qrs.png)
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/29298-mega-capacity-school/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/bd886dce4922787bb4902b79402279c0-angulo2.png
+dependencies:
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: agc-mega-capacity-school
+
+---
+assetId: agc-mega-capacity-school
+version: "1.0"
+lastModified: "2014-02-24T21:13:45Z"
+url: https://community.simtropolis.com/files/file/29298-mega-capacity-school/?do=download&r=125130

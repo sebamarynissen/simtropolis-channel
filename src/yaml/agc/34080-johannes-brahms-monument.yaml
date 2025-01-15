@@ -1,0 +1,76 @@
+group: agc
+name: johannes-brahms-monument
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Johannes Brahms Monument
+  description: |-
+    This monument is in Karlsplatz, Austria and shows Johannes Brahms seated and at his feet a woman playing a lyre.
+
+    **Specs**:
+
+    The file does not contain a lot. You can create lots with the files and use this as a dependency.
+
+    ![DAYJOHA.png](https://cdn.discordapp.com/attachments/393834822696697866/805081150875369502/DAYJOHA.png)
+
+    **Night:**
+
+    Maxis Night & Darknite **(Choose only one)**
+
+    **Maxisnite:**
+
+    ![MAXISJOHA.png](https://cdn.discordapp.com/attachments/393834822696697866/805081152363954186/MAXISJOHA.png)
+
+    **Darknite:**
+
+    ![nighahaha.png](https://cdn.discordapp.com/attachments/393834822696697866/804858368216662026/nighahaha.png)
+
+    ![ddvdvdvdss.png](https://cdn.discordapp.com/attachments/393834822696697866/805069708302745600/ddvdvdvdss.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Statue-Mo\_Austria\_Johannes\_Brahms\_V01\_S1\_90    (Building & Prop)
+
+    **Scale of the model:** **133% on all axes.**
+
+    **nstallation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (7) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34080-agc-johannes-brahms-monument/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/THUMBJOHA.png.565ecc1db5a89fec08d8c57e9378ca8e.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-johannes-brahms-monument-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-johannes-brahms-monument-darknite
+
+---
+assetId: agc-johannes-brahms-monument-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-30T14:33:58Z"
+url: https://community.simtropolis.com/files/file/34080-agc-johannes-brahms-monument/?do=download&r=184783
+
+---
+assetId: agc-johannes-brahms-monument-darknite
+version: "1.0.0"
+lastModified: "2021-01-30T14:33:58Z"
+url: https://community.simtropolis.com/files/file/34080-agc-johannes-brahms-monument/?do=download&r=184784

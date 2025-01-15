@@ -180,4 +180,24 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('handles vol-01', function() {
+
+		let upload = faker.upload({
+			title: 'Prop Pack Vol. 01',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('prop-pack-vol01');
+
+	});
+
+	it('handles vol-one', function() {
+
+		let upload = faker.upload({
+			title: 'Prop Pack Vol. One',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('prop-pack-vol-one');
+
+	});
+
 });

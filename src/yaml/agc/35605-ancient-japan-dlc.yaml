@@ -1,0 +1,59 @@
+group: agc
+name: ancient-japan-dlc
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Ancient Japan DLC
+  description: |-
+    Thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) [@NefasNecro](https://community.simtropolis.com/profile/818205-nefasnecro/) and an anonymous donor for supporting me.
+
+    **Specs:**
+
+    This DLC contains buildings and props. Does not include lots.
+
+    AGC\_Buildings\_AJapan\_
+
+    AGC\_Props\_AJapan\_
+
+    **I will update this DLC constantly so you must be on the lookout.**
+
+    **Includes** **MaxisNite &** **Darknite**
+
+    **Scale of the models:** **133% on all axes.**
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use Paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to the few people who have donated to me.**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/35605-agc-ancient-japan-dlc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64f269759f8f0_image(4).png.cfddbbe1b2a75228cdb586c99e6fdc67.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64f269d3ada51_image(5).jpg.761d01ca90be64ab7f6534bbf35b0e3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64f269f9c8399_image(6).png.b4263c1a7f7f7c4874c37608cbd33a8b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64f26a0135968_image(7).png.26b45b5a7e7b5ee91ed1ab0ab30aa25f.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-ancient-japan-dlc-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-ancient-japan-dlc-darknite
+
+---
+assetId: agc-ancient-japan-dlc-maxisnite
+version: "1.0.0"
+lastModified: "2023-09-01T22:56:25Z"
+url: https://community.simtropolis.com/files/file/35605-agc-ancient-japan-dlc/?do=download&r=197520
+
+---
+assetId: agc-ancient-japan-dlc-darknite
+version: "1.0.0"
+lastModified: "2023-09-01T22:56:25Z"
+url: https://community.simtropolis.com/files/file/35605-agc-ancient-japan-dlc/?do=download&r=197521

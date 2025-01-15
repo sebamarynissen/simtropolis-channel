@@ -8,6 +8,7 @@ import Downloader from './downloader.js';
 import completeMetadata from './complete-metadata.js';
 import patchMetadata from './patch-metadata.js';
 import checkPreviousVersion from './check-previous-version.js';
+import { kFileNames } from './symbols.js';
 
 // # handleUpload(json)
 // Handles a single STEX upload. It accepts a json response from the STEX api 
@@ -26,13 +27,28 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
+	// If the files have been removed - meaning the file name is "null" - then 
+	// we don't include this. This happens for example with packages marked as 
+	// obsolete on the STEX.
+	if (
+		!json.files ||
+		json.files.length === 0 ||
+		json.files.some(file => file.name === null)
+	) {
+		return {
+			skipped: true,
+			type: 'notice',
+			reason: `Package ${json.fileURL} skipped as it has no files`,
+		};
+	}
+
 	// Start by extracting all metadata we can from the api. This should be 
 	// sufficient to look for a `metadata.yaml` file in the downloads. We'll do 
 	// that first before completing the metadata with scraping, because we might 
 	// be able to shortcut already here.
 	let { permissions } = opts;
 	let metadata = apiToMetadata(permissions.transform(json));
-	let parsedMetadata = false;
+	let parsedMetadata = [];
 	let downloader = new Downloader();
 	let cleanup = [];
 	for (let asset of metadata.assets) {
@@ -44,8 +60,11 @@ export default async function handleUpload(json, opts = {}) {
 		// but we don't want this to block our workflow.
 		let info = await downloader.handleAsset(asset);
 		if (!info) continue;
-		if (info.metadata && !parsedMetadata) {
-			parsedMetadata = info.metadata;
+		if (info.metadata) {
+			parsedMetadata.push(...[info.metadata].flat());
+		}
+		if (info.checksums?.length > 0) {
+			asset.withChecksum = info.checksums;
 		}
 		cleanup.push(info.cleanup);
 
@@ -54,13 +73,20 @@ export default async function handleUpload(json, opts = {}) {
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
+	let errors = [];
 	const { requireMetadata = true } = opts;
-	if (!parsedMetadata && requireMetadata) {
+	if (parsedMetadata.length === 0 && requireMetadata) {
 		return {
 			skipped: true,
 			type: 'notice',
 			reason: `Package ${json.fileURL} does not have a metadata.yaml file in its root. Skipping.`,
 		};
+	} else if (parsedMetadata.length > 1) {
+
+		// If we found more than 1 metadata file, we'll continue, but we have to 
+		// report an error though. This will ensure that the PR won't get merged.
+		errors.push(`This package has ${parsedMetadata.length} metadata.yaml files, only 1 is allowed.`);
+
 	}
 
 	// If we reach this point, we're sure to include the package. We now need to 
@@ -80,7 +106,7 @@ export default async function handleUpload(json, opts = {}) {
 	let original = { ...metadata.package };
 	let author = original.group;
 	let { cwd, path: srcPath = 'src/yaml', fs = nodeFs } = opts;
-	let deletions = await checkPreviousVersion(json.id, metadata, {
+	await checkPreviousVersion(json.id, metadata, {
 		cwd,
 		srcPath,
 		fs,
@@ -91,18 +117,54 @@ export default async function handleUpload(json, opts = {}) {
 	// permissions.
 	let {
 		packages,
+		assets,
 		main,
 		basename,
-	} = patchMetadata(metadata, parsedMetadata, original);
-	let zipped = [...packages, ...metadata.assets];
+	} = patchMetadata(metadata, parsedMetadata[0], original);
+	let zipped = [...packages, ...assets];
 	try {
 		permissions.assertPackageAllowed(json, packages);
 	} catch (e) {
-		return {
-			skipped: true,
-			type: 'warning',
-			reason: `${e.message}\n\n${serialize(zipped)}`,
-		};
+
+		// When there's an error, we *DO NOT* skip the package. We continue, but 
+		// add it as an error, which will subsequently be handled by the 
+		// create-prs action.
+		errors.push(e.message);
+
+	}
+
+	// Check if the user has a GitHub username associated with them.
+	let githubUsername = permissions.getGithubUsername(json);
+
+	// We're not done yet. If there are assets with external urls, then we have 
+	// to download those assets as well and check if DLL's have to be generated.
+	// However, if the asset does not have a persistent url and it contains a 
+	// DLL, then we should generate an error.
+	for (let asset of assets) {
+		let files = asset[kFileNames];
+		if (asset.nonPersistentUrl) {
+			let info = await downloader.handleAsset(asset);
+			if (info.checksums?.length > 0) {
+				// If the external url contains a DLL, then it can only be from 
+				// GitHub **and** the usernames have to match.
+				let parsed = new URL(asset.url);
+				if (parsed.hostname !== 'github.com') {
+					errors.push(`An external asset that includes a DLL can only be a URL from GitHub`);
+					continue;
+				}
+				let [username] = parsed.pathname.replace(/^\//, '').split('/');
+				if (username.toLowerCase() !== githubUsername?.toLowerCase()) {
+					errors.push(`The GitHub user that owns ${asset.url} does not correspond to the configured GitHub user for ${json.author}!`);
+					continue;
+				}
+
+				// All checks passed, continue now.
+				asset.withChecksum = info.checksums;
+
+			}
+		} else if (files.some(file => path.extname(file) === '.dll')) {
+			errors.push(`Asset ${asset.url} includes a DLL, but does not specify an GitHub url where the DLL can be downoaded from. Due to security reasons, only DLLs that are hosted on GitHub are allowed.`);
+		}
 	}
 
 	// Allright, we're pretty much done now. Write away the metadata and return 
@@ -117,9 +179,11 @@ export default async function handleUpload(json, opts = {}) {
 	return {
 		id,
 		metadata: zipped,
+		fileId: String(json.id),
 		branchId: String(json.id),
-		deletions,
 		additions: [relativePath],
+		githubUsername,
+		...errors.length > 0 && { errors },
 	};
 
 }

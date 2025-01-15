@@ -2,6 +2,7 @@
 import { expect } from 'chai';
 import { Document, parseAllDocuments, stringify } from 'yaml';
 import mime from 'mime';
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import yazl from 'yazl';
@@ -29,6 +30,7 @@ describe('The fetch action', function() {
 
 		this.setup = function(testOptions) {
 
+			const ctx = this;
 			const {
 				handler = () => void 0,
 				permissions = null,
@@ -118,19 +120,9 @@ describe('The fetch action', function() {
 
 						// Mock a .zip file with the contents as specified in 
 						// the upload.
-						if (Array.isArray(contents)) {
-							contents = Object.fromEntries(contents.map(name => [name, '']));
-						}
-						let zipFile = new yazl.ZipFile();
-						for (let [name, raw] of Object.entries(contents)) {
-							if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
-								raw = jsonToYaml(raw);
-							}
-							zipFile.addBuffer(Buffer.from(raw), name);
-						}
-						zipFile.end();
+						let zip = ctx.zip(contents);
 						return new Response(
-							zipFile.outputStream,
+							zip,
 							{
 								headers: {
 									'Content-Type': 'application/zip',
@@ -198,6 +190,23 @@ describe('The fetch action', function() {
 
 		};
 
+		// Helper function for generating a zip stream that can be used in a 
+		// response.
+		this.zip = function(contents) {
+			if (Array.isArray(contents)) {
+				contents = Object.fromEntries(contents.map(name => [name, '']));
+			}
+			let zipFile = new yazl.ZipFile();
+			for (let [name, raw] of Object.entries(contents)) {
+				if (typeof raw === 'object' && !(raw instanceof Uint8Array)) {
+					raw = jsonToYaml(raw);
+				}
+				zipFile.addBuffer(Buffer.from(raw), name);
+			}
+			zipFile.end();
+			return zipFile.outputStream;
+		};
+
 		this.date = function(date) {
 			return date.replace(' ', 'T')+'Z';
 		};
@@ -245,6 +254,25 @@ describe('The fetch action', function() {
 			version: upload.release,
 			url: `${upload.fileURL}/?do=download&r=${upload.files[0].id}`,
 		});
+
+	});
+
+	it('a package with a nested metadata.yaml', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'subfolder/metadata.yaml': {
+							name: 'this-name',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].name).to.equal('this-name');
 
 	});
 
@@ -980,6 +1008,125 @@ describe('The fetch action', function() {
 
 	});
 
+	it('generates DLL checksums automatically', async function() {
+
+		const url = 'https://github.com/dll-creator/my-dll/releases/0.0.1/my-dll.zip';
+		const contents = crypto.getRandomValues(new Uint8Array(250));
+		const malicious = new Uint8Array(contents);
+		malicious[0] += 1;
+		const sha256 = crypto.createHash('sha256').update(contents).digest('hex');
+		const upload = faker.upload({
+			uid: 176422,
+			files: [
+				{
+					name: 'extra-cheats.zip',
+					contents: {
+						'metadata.yaml': {
+							url,
+						},
+						'extra-cheats.dll': malicious,
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			permissions: {
+				authors: [
+					{
+						id: 176422,
+						github: 'dll-creator',
+					},
+				],
+			},
+			handler: (req) => {
+				let parsed = new URL(req.url);
+				if (parsed.hostname === 'github.com') {
+					return new Response(
+						this.zip({
+							'extra-cheats.dll': contents,
+						}),
+						{
+							headers: {
+								'Content-Type': 'application/zip',
+							},
+						},
+					);
+				}
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.be.undefined;
+		let [asset] = result.metadata.slice(1);
+		expect(asset.url).to.equal(url);
+		expect(asset.nonPersistentUrl).to.include('simtropolis.com');
+		expect(asset.withChecksum).to.eql([{
+			include: '/extra-cheats.dll',
+			sha256,
+		}]);
+
+	});
+
+	it('generates an error if the user has not specified an external url for dlls', async function() {
+
+		const contents = crypto.getRandomValues(new Uint8Array(250));
+		const upload = faker.upload({
+			files: [
+				{
+					name: 'extra-cheats.zip',
+					contents: {
+						'metadata.yaml': '',
+						'extra-cheats.dll': contents,
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
+
+	});
+
+	it('generates an error if the GitHub url does not match the user\'s GitHub name', async function() {
+
+		const url = 'https://github.com/dll-creator/my-dll/releases/0.0.1/my-dll.zip';
+		const contents = crypto.getRandomValues(new Uint8Array(250));
+		const upload = faker.upload({
+			files: [
+				{
+					name: 'extra-cheats.zip',
+					contents: {
+						'metadata.yaml': {
+							url,
+						},
+						'extra-cheats.dll': contents,
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			handler: (req) => {
+				if (!new URL(req.url).hostname.includes('github.com')) return;
+				return new Response(
+					this.zip({
+						'extra-cheats.dll': contents,
+					}),
+					{
+						headers: {
+							'Content-Type': 'application/zip',
+						},
+					},
+				);
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
+
+	});
+
 	it('sends the Simtropolis cookie when downloading', async function() {
 
 		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'cookie';
@@ -1012,6 +1159,28 @@ describe('The fetch action', function() {
 		let result = await run({});
 		expect(result.packages).to.eql([]);
 		expect(result.timestamp).to.be.ok;
+
+	});
+
+	it('includes an error in the result when the user is not allowed to upload under that group', async function() {
+
+		const upload = faker.upload({
+			author: 'sfbt',
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							group: 'nybt',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({
+			upload,
+		});
+		let { result } = await run();
+		expect(result.errors).to.have.length(1);
 
 	});
 
@@ -1080,10 +1249,8 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42592');
 		let metadata = await read('src/yaml/smf-16/42592-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('old-title');
@@ -1127,10 +1294,8 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42592');
 		let metadata = await read('/src/yaml/smf-16/42592-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('old-title');
@@ -1140,7 +1305,7 @@ describe('The fetch action', function() {
 	it('changes the filename of an uploaded package with custom metadata with a name (#42)', async function() {
 
 		const upload = faker.upload({
-			id: 42592,
+			id: 42593,
 			uid: 5642,
 			author: 'smf_16',
 			title: 'New Title',
@@ -1175,11 +1340,9 @@ describe('The fetch action', function() {
 		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
 		fs.writeFileSync('/src/yaml/smf-16/42592-old-title.yaml', src);
 
-		let { read, packages } = await run({ id: upload.id });
-		let [{ deletions, additions }] = packages;
-		expect(deletions[0]).to.equal('src/yaml/smf-16/42592-old-title.yaml');
-		expect(additions[0]).to.equal('src/yaml/smf-16/42592-custom-new-title.yaml');
-		let metadata = await read('/src/yaml/smf-16/42592-custom-new-title.yaml');
+		let { read, result } = await run({ id: upload.id });
+		expect(result.fileId).to.equal('42593');
+		let metadata = await read('/src/yaml/smf-16/42593-custom-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('custom-new-title');
 
@@ -1208,6 +1371,33 @@ describe('The fetch action', function() {
 		expect(result.metadata[0].group).to.equal('simmer2');
 		expect(result.metadata[0].name).to.equal('some-package');
 		expect(result.metadata[0].info.summary).to.equal('Some package');
+
+	});
+
+	it('strips known prefixes with hyphens from the upload title', async function() {
+
+		const upload = faker.upload({
+			uid: 444001,
+			author: 'Barroco Hispano',
+			title: 'AGC - Some package DLC',
+		});
+		const { run } = this.setup({
+			uploads: [upload],
+			permissions: {
+				authors: [{
+					name: 'Barroco Hispano',
+					alias: 'agc',
+					id: 444001,
+					prefixes: [
+						'agc',
+					],
+				}],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].group).to.equal('agc');
+		expect(result.metadata[0].name).to.equal('some-package-dlc');
+		expect(result.metadata[0].info.summary).to.equal('Some package DLC');
 
 	});
 
@@ -1339,6 +1529,113 @@ describe('The fetch action', function() {
 		expect(assets[1].assetId).to.equal('author-world-trade-center-darknite-part-1');
 		expect(assets[2].assetId).to.equal('author-world-trade-center-maxisnite-part-2');
 		expect(assets[3].assetId).to.equal('author-world-trade-center-darknite-part-2');
+
+	});
+
+	it('attaches the GitHub username if known', async function() {
+
+		const upload = faker.upload({
+			uid: 123,
+		});
+		const { run } = this.setup({
+			upload,
+			permissions: {
+				authors: [
+					{
+						id: 123,
+						github: 'sebamarynissen',
+					},
+				],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.githubUsername).to.equal('sebamarynissen');
+
+	});
+
+	it('doesn\'t choke on obsolete packages where the file have been deleted', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					name: null,
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
+	it('handles mutiple metadata.yaml files in the same asset', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'this-one',
+						},
+						'subfolder/metadata.yaml': {
+							name: 'no-this-one',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
+
+	});
+
+	it('handles mutiple metadata.yaml files in different assets', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'this-one',
+						},
+					},
+				},
+				{
+					contents: {
+						'metadata.yaml': {
+							name: 'no-this-one',
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.errors).to.have.length(1);
+
+	});
+
+	it('supports author aliases', async function() {
+
+		const upload = faker.upload({
+			uid: 415798,
+		});
+		const { run } = this.setup({
+			upload,
+			permissions: {
+				authors: [
+					{
+						id: 415798,
+						alias: 'agc',
+					},
+				],
+			},
+		});
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].group).to.equal('agc');
+		expect(result.metadata[0].info.author).to.equal(upload.author);
 
 	});
 
