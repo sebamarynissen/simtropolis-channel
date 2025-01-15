@@ -1,0 +1,82 @@
+group: mattb325
+name: palace-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Palace Hotel
+  description: |-
+    **Palace Hotel, by Mattb325.  
+    \---------------------------------------**
+
+    Inspired by one of the base-game buildings that comes with cities:skylines, the 6-floor palace motel is offered as a little 1x1 CS$$ corner building for medium and high density zones.
+
+    I liked the simplified mid-century Persian style of decorative motifs that adorned the facade, and, like the googie style, this still remains rather uncommon in SC4.
+
+    Like many slightly seedy establishments, this hotel building has a lot of colourful neon signage and will certainly provide interest in a W2W setting.
+
+    It will grow on the New York and Euro tilesets.
+
+    Stats below.
+
+    **\---------------------------------------**
+
+    **STATS CS$$:**  
+    Lot Size:                    1x1  
+    Growth Stage:          5  
+    Zone Type:                Medium and High Density  
+    Bulldoze Cost:          $ 378  
+    Demand Satisfied:   CS$ 104; CS$$ 28.  
+    Pollution at Centre: 1 (air) /1 (water) /4 (garbage)  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  3 Mwh  
+    Water Consumed:   28 Gallons  
+    Occupant Groups:   Chicago, New York, Houston
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one is for dark nite users and one for the standard Maxis nite.   
+    You must select and install only one file - depending on which night version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **Dependencies:**
+
+    There are no dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip these files into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34659-palace-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/PalaceMotel.jpg.1a346a896943ac1f8c35a6d996b6ef4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/PalaceMotel1.jpg.102abf696230a1ac9623c59ff3404869.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/PalaceMotel2.jpg.aad817790902b46930451f584335551c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/PalaceMotel3.jpg.cdc6b7b6dffc9cdf92e09883b50a3a6e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/PalaceMotel4.jpg.e134a2298c2fa926894dd59b0ca8c839.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/PalaceMotel5.jpg.bcd5ef21de75b4fdd030222f9bd7247e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/PalaceMotel6.jpg.1e17d08741fb2934a3da4abb51cddc2a.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-palace-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-palace-hotel-darknite
+
+---
+assetId: mattb325-palace-hotel-darknite
+version: "1.0.0"
+lastModified: "2021-08-23T05:35:03Z"
+url: https://community.simtropolis.com/files/file/34659-palace-hotel/?do=download&r=189802
+
+---
+assetId: mattb325-palace-hotel-maxisnite
+version: "1.0.0"
+lastModified: "2021-08-23T05:35:03Z"
+url: https://community.simtropolis.com/files/file/34659-palace-hotel/?do=download&r=189803

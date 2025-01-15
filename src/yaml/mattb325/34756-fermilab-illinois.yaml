@@ -1,0 +1,114 @@
+group: mattb325
+name: fermilab-illinois
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Fermilab Illinois
+  description: |-
+    **Fermilab Illinois, by Mattb325.  
+    \---------------------------------------**
+
+    Made as a request, this is the main hall building of the Fermilab Particle Accelerator Laboratory in Batavia, Illinois.
+
+    Constructed in the 1970s, the building was inspired by Cathedral architecture (realised in the brutalist style) at the insistence of the lab's first director (Robert Wilson) who insisted that the buildings on the site were not merely concrete blocks.
+
+    The Hi-tech building is offered as a non-conditional reward and is a modified version of the advanced research centre. It does not generate radiation (which the in game reasearch centre does) and it looks best placed as an ex-urban-style campus surrounded by large tracts of woodland/open land/ponds, etc.
+
+    In addition to providing your sims with 3,524 highly desirable civic jobs that are filled by all wealth levels, this is a **CAP** busting lot.
+
+    It will raise demand by the following amounts:
+
+    Manufacturing:   290,000  
+    HiTech Industry: 690,000  
+    CO$$:                   100,000  
+    CO$$$:                 100,000  
+    R$$:                       50,000
+
+    Placing this lot will also give additional residential and commercial cap relief by providing positive Park, Mayor and Landmark effects. Obviously placing this building will give a real boost to your IHT and CO demand.
+
+    All these benefits do have a cost (which is only fair). In addition to the $120K outlay, this will set the city back $530 per month.
+
+    \* It is offered as a reward without needing pre-existing conditions.  
+    \* It is located in the REWARD Menu.   
+    \* It can be placed more than once in a city.   
+    \* It DOES NOT over-write the ingame Advanced Research Center (or any re-lotted versions there-of), so can be used in conjunction with the standard Maxis reward.
+
+    Placing rewards is an essential part of growing a large city and region, given their cap-busting and desirability increasing effects.
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size :                 6x14  
+    Plop Cost:              $ 120,000  
+    Monthly Cost:        $ 530  
+    Budget Item:          Government Buildings  
+    Occupant Groups: Reward, Crowd White Coat, YIMBY  
+    Demand Created:  Jobs$: 10, Jobs$$: 2,661, Jobs$$$: 853.  
+    Landmark Effect:  +205 over 53 tiles  
+    Park Effect:            +10 over 53 tiles  
+    Mayor Rating:        +25 over 220 tiles  
+    Pollution:                Air 25 over 2 tiles, Water 92 over 3 tiles, Garbage 140 over 0 tiles  
+    Power consumed:468 MwH  
+    Water consumed: 842 Gallons/Month  
+    Bulldoze Cost:       $ 30,000
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.   
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot File!
+
+    If you use the dark nite version, you will need a dark nite mod. Either: (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) OR (http://gizmo.aplaceforwebsite.com/index.php)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))  
+    \*Diggis Ponds Grass Base Models: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2090](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2090))  
+    \*Maxis International DayOfPeace: ([https://community.simtropolis.com/sc4-maxis-files/](https://community.simtropolis.com/sc4-maxis-files/))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34756-fermilab-illinois/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Fermi_Z5.jpg.2718161478bf818c62b53fb7fdcf637d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Fermi_Z51.jpg.2f5dbf6c3b7c34ed84e23febfb076bf0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Fermi_Z52.jpg.7f62ebc5b9716e6258be2ebb06ed9dcd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Fermi_Z53.jpg.5898de04ee73ba76b9d90aa0dbeb6d67.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Fermi_Z54.jpg.e73d76911d216b8c02f2be68df7bdb2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Fermi_Z55.jpg.d443ae063893c488c68743098d7e1243.jpg
+dependencies:
+  - bsc:mega-props-diggis-ponds-streams
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - maxis:day-of-peace
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-fermilab-illinois-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-fermilab-illinois-darknite
+
+---
+assetId: mattb325-fermilab-illinois-darknite
+version: "1.0.0"
+lastModified: "2021-11-20T05:14:58Z"
+url: https://community.simtropolis.com/files/file/34756-fermilab-illinois/?do=download&r=190603
+
+---
+assetId: mattb325-fermilab-illinois-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-20T05:14:58Z"
+url: https://community.simtropolis.com/files/file/34756-fermilab-illinois/?do=download&r=190604

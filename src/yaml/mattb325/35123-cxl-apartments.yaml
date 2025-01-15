@@ -1,0 +1,98 @@
+group: mattb325
+name: cxl-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: CXL Apartments
+  description: |-
+    **CXL Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    This is a purely fictional design for an 16 floor apartment complex suitable for inner-city areas.
+
+    I have used many of the base game buildings that I saw from screenshots of the CXL city building game as inspiration for this model.
+
+    It is angled for corners and a mirrored version is included.
+
+    In addition to the single 3x3 lot offered for both corners, the buildings are also arranged as a 6x6 complex (use the CTRL key while zoning medium and high density residential).
+
+    It is offered as an R$$ apartment on the Houston, New York and Euro tilesets.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS R$$ apartments:**
+
+    Lot size :                  3x3  
+    Growth Stage:         7 (Medium and High Density Zoning)  
+    Bulldoze Cost:         $ 934  
+    Capacity Satisfied:  R$ 2,654 R$$ 1,466  
+    Pollution:                  12 (Air)/ 6 (Water)/ 6 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  20 Mwh  
+    Water Consumed:   55 Gal/Month  
+    Building Style:          New York, Houston and Euro  
+    Occupant Group:     Medium Wealth Residential Building
+
+    **STATS R$$ apartments:**
+
+    Lot size :                 6x6  
+    Growth Stage:        7 (Medium and High Density Zoning)  
+    Bulldoze Cost:        $ 1,839  
+    Capacity Satisfied: R$ 10,606 R$$ 5,856  
+    Pollution:                 33 (Air)/ 16 (Water)/ 16 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 55 Mwh  
+    Water Consumed:  147 Gal/Month  
+    Building Style:         New York, Houston and Euro  
+    Occupant Group:    Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/35123-cxl-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/CXL_Apts.jpg.58d6bc88a5d10115550d60e88872786f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/CXL_Apts1.jpg.ee11f497f7b593a4ce409e620b9925f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/CXL_Apts2.jpg.63b61272330541b46cffa78601f6281f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/CXL_Apts3.jpg.2b38d9d6017eccf95c5f786c47131f6e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/CXL_Apts4.jpg.bcb6873821ba390a3c40833a460aa7e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/CXL_Apts5.jpg.9221f797d74a8d31cb0420c08c94579a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/CXL_Apts6.jpg.215fbd50415587a504eb19fb603a1a1f.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-cxl-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-cxl-apartments-darknite
+
+---
+assetId: mattb325-cxl-apartments-darknite
+version: "1.0.0"
+lastModified: "2022-04-19T21:15:13Z"
+url: https://community.simtropolis.com/files/file/35123-cxl-apartments/?do=download&r=193578
+
+---
+assetId: mattb325-cxl-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2022-04-19T21:15:13Z"
+url: https://community.simtropolis.com/files/file/35123-cxl-apartments/?do=download&r=193579
