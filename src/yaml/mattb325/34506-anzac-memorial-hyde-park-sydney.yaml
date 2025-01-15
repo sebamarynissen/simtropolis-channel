@@ -1,0 +1,92 @@
+group: mattb325
+name: anzac-memorial-hyde-park-sydney
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Anzac Memorial, Hyde Park, Sydney
+  description: |-
+    **ANZAC Memorial Hyde Park, Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    The striking art-deco war memorial to the ANZACs (Australian & New Zealand Army Corps) was built in Sydney's Hyde Park between 1932 and 1934. It is heritage listed.
+
+    The memorial is the focus of commemoration ceremonies on Anzac Day and Remembrance Day. The building design was part of a competition commissioned in 1929 with a brief that the building cost no more than 75,000 pounds.
+
+    The building is clad in pink granite with a large arched stained glass window on each elevation and there are bronze friezes above the lower doorways as well as the large sculptures atop columns representing military personnel. The interior features a small museum and halls of silence and halls of memory. To the north of the memorial is a reflection pool lined with poplars.
+
+    Placing this park lot - as well as blending in with many other modular/maxis parks available, will also greatly assist city growth, clean the air over a wide radius, improve desirability with residential and commercial areas and help bust demand caps across all wealth levels.
+
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                 6x12  
+    Bulldoze Cost:       $90  
+    Plop Cost:              $2,880  
+    Demand Satisfied:R$ 18,000, R$$ 18,000, R$$$ 18,000  
+    Landmark Effect:  +100 over 10 tiles  
+    Park Effect:            +135 over 135 tiles  
+    Pollution:               -144 (Air)/ 9 (Water)/ 0 (Garbage )  
+    Pollution Radius:  18/9/0  
+    Power Consumed: 0 Mwh  
+    Water Consumed: 45 Gal/Month  
+    Monthly Cost:        $90  
+    Occupant Group:   Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*Girafe Poplars - ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3579](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34506-anzac-memorial-hyde-park-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac.jpg.57d386bbfcf8dcf167cae1222579a7fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac1.jpg.a0a8357fa29bc9e338c64da87015e16b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac2.jpg.83e8e78e7ef6308c4504573083755ed6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac3.jpg.febe8fa60d5de0897534ecb944be5caf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac4.jpg.e0c294b76bb1cd6cca27ac4c6f8e7cb0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac5.jpg.31a9c9bced622817eda74db976a9addf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac6.jpg.61a0511ce9812f52cbe4c403d69caeb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac7.jpg.da94e0d570b7ef8e8f3eb4b82dd096eb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Anzac8.jpg.e1d872903467798c6e453acb79d64487.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - girafe:poplars
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-anzac-memorial-hyde-park-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-anzac-memorial-hyde-park-sydney-darknite
+
+---
+assetId: mattb325-anzac-memorial-hyde-park-sydney-darknite
+version: "1.0.0"
+lastModified: "2021-06-05T21:10:12Z"
+url: https://community.simtropolis.com/files/file/34506-anzac-memorial-hyde-park-sydney/?do=download&r=188627
+
+---
+assetId: mattb325-anzac-memorial-hyde-park-sydney-maxisnite
+version: "1.0.0"
+lastModified: "2021-06-05T21:10:12Z"
+url: https://community.simtropolis.com/files/file/34506-anzac-memorial-hyde-park-sydney/?do=download&r=188628

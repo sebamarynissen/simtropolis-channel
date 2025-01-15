@@ -1,0 +1,102 @@
+group: mattb325
+name: beechworth-townhouses-diagonal
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Beechworth Townhouses (diagonal)
+  description: |-
+    **Beechworth Townhouse Diagonals and Cul-de-Sac, by Mattb325.  
+    \---------------------------------------**
+
+    This is the diagonal and cul-de-sac versions of the Beechworth Townhouses released earlier.
+
+    These townhouses are arranged in a cul-de-sac as you often see in the real world. This enables developers to squeeze in the highest number of residents on the smallest amount of land.
+
+    Because these are medium density dwellings on a somewhat common custom lot size, unlike the previous Cul-de-Sac mods I have released, I have not network enabled these lots. However I have used existing overhanging props to simulate driveways that join a road.
+
+    The lot size is 3x6. To get these to grow, select the Houston Tileset and use the CTRL key while zoning medium or high density.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :                  3x6  
+    Growth Stage:         5 (Medium & High Density Zoning)  
+    Bulldoze Cost:         $ 240  
+    Capacity Satisfied:  R$ 330 R$$ 210  
+    Pollution:                  4 (Air)/ 3 (Water)/ 7 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  12 Mwh  
+    Water Consumed:   2 Gal/Month  
+    Building Style:          Houston Only  
+    Occupant Group:     Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Beechworth Townhouse ([https://community.simtropolis.com/files/file/34522-beechworth-townhouses-ortho/](https://community.simtropolis.com/files/file/34522-beechworth-townhouses-ortho/))
+
+    ##### [SC4D LEX Legacy - BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) for:
+
+    -   BSC MEGA Props - CP Vol01.dat
+    -   BSC Mega Props - CP Vol02.dat
+    -   Mattb325 BAT Props Vol04.dat
+    -   BSC Texture Pack - Cycledogg V01.dat
+    -   BSC Textures - Vol03.dat
+
+    Optional:  
+    \*Blam Overpath Prop - ([https://community.simtropolis.com/files/file/18253-blam\-overpath-props-volume-1/](https://community.simtropolis.com/files/file/18253-blam-overpath-props-volume-1/) )
+
+    \---------------------------------------
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Staff Edit: Updated dependencies link
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34532-beechworth-townhouses-diagonal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthCDS.jpg.8641051dcb7737c4dbdd48e750fbdccf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthCDS1.jpg.d817a2553aad38fa80b66fe2935ee8d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthCDS2.jpg.16fa146cd3fcb6f0fd1481aea19cc501.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthCDS3.jpg.17d62d9deee9130705865ccbb45e12a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthCDS4.jpg.d1b4d78b1d5dbea33cedddf8dd1e5e12.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol03
+  - mattb325:beechworth-townhouses-ortho
+  - onlyplace4:blam-overpath-props-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-beechworth-townhouses-diagonal-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-beechworth-townhouses-diagonal-darknite
+
+---
+assetId: mattb325-beechworth-townhouses-diagonal-darknite
+version: "1.0.0"
+lastModified: "2021-06-16T05:36:08Z"
+url: https://community.simtropolis.com/files/file/34532-beechworth-townhouses-diagonal/?do=download&r=188870
+
+---
+assetId: mattb325-beechworth-townhouses-diagonal-maxisnite
+version: "1.0.0"
+lastModified: "2021-06-16T05:36:08Z"
+url: https://community.simtropolis.com/files/file/34532-beechworth-townhouses-diagonal/?do=download&r=188871
