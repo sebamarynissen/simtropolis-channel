@@ -23,6 +23,21 @@ async function run(urls) {
 	// processed first.
 	urls = [urls].flat().sort();
 	let index = await buildIndex();
+
+	// Once we have the index, we'll still filter out the urls that are already 
+	// processed. They might either be present on the Simtropolis channel, or on 
+	// the default channel already.
+	urls = urls.filter(url => {
+		let id = urlToFileId(url);
+		if (index.stex[id]) {
+			console.log(styleText('yellow', `${url} is already present on one of the channels`));
+			return false;
+		} else {
+			return true;
+		}
+	});
+
+	// Cool, now perform the actual fetching.
 	let results = await fetchAll(urls);
 	for (let result of results) {
 		let [pkg] = result.metadata;
