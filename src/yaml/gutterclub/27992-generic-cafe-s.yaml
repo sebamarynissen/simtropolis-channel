@@ -1,0 +1,39 @@
+group: gutterclub
+name: generic-cafe-s
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Generic Cafe's - Darknite
+  description: |-
+    Doing a bit of recycling, using the basis of my Cafe Nero BAT I've quickly knocked up a couple of W2W BATs, one which is a corner lot. Contained in this upload is.
+
+    x2 models (normal and corner)
+
+    x2 growable (plop with building plop cheat) CS$$ stage 3 lots with 10 jobs
+
+    Unfortunately I have lost the Max files and only have the Darknite BATs otherwise I would have done both.
+
+    Depedencies;
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/27992-generic-cafes-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/9da4a615b4d3be91e0dcf5ee99b748cc-downtown-kerrie-15-jul--1701346734582.png
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/b3bbfd12c89a8931ebfd36018d1af31d-downtown-kerrie-17-mar--17013467343945.png
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/a4544ae7150c904cad6d9e4c75121c62-downtown-kerrie-22-may--1701346734431.png
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/d4f5b78bb3d29a9cde98202fdb78372a-downtown-kerrie-4-dec--1081344967801.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-generic-cafe-s-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-generic-cafe-s-darknite
+
+---
+assetId: gutterclub-generic-cafe-s-darknite
+version: "1.0"
+lastModified: "2012-09-04T05:36:45Z"
+url: https://community.simtropolis.com/files/file/27992-generic-cafes-darknite/?do=download&r=105996

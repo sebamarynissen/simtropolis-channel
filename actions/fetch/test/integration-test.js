@@ -441,6 +441,53 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package with MN and DN variants in the same upload (2)', async function() {
+
+		let upload = faker.upload({
+			author: 'gutterclub',
+			title: 'Hawker Studios',
+			files: [
+				{
+					name: 'Hawker Studios.zip',
+					contents: [
+						'metadata.yaml',
+						'JPS - Hawker Studios DN/model.SC4Model',
+						'JPS - Hawker Studios DN/lot.SC4Lot',
+						'JPS - Hawker Studios DN/building.SC4Desc',
+						'JPS - Hawker Studios MN/model.SC4Model',
+						'JPS - Hawker Studios MN/lot.SC4Lot',
+						'JPS - Hawker Studios MN/building.SC4Desc',
+					],
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+
+		let { result } = await run({ id: upload.id });
+		expect(result.metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'gutterclub-hawker-studios',
+						exclude: ['/JPS - Hawker Studios DN/'],
+					},
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{
+						assetId: 'gutterclub-hawker-studios',
+						exclude: ['/JPS - Hawker Studios MN/'],
+					},
+				],
+			},
+		]);
+
+	});
+
 	it('a package with MN and DN variants in the same upload with nested folders', async function() {
 
 		let upload = faker.upload({

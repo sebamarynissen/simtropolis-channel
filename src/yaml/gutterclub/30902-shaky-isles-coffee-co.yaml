@@ -1,0 +1,39 @@
+group: gutterclub
+name: shaky-isles-coffee-co
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Shaky Isles Coffee Co
+  description: |-
+    Shaky Isles are a New Zealand cafe company, with a few stores across the country. This particular cafe is based on their Kingsland shop in Auckland
+
+    Comes in Darknite or Maxisnite (darknite mod required for Darknite bat)
+
+    CS $$ 1x2 lot with 6 jobs.
+  author: gutterclub
+  websites:
+    - https://community.simtropolis.com/files/file/30902-shaky-isles-coffee-co-maxisnite/
+    - https://community.simtropolis.com/files/file/30901-shaky-isles-coffee-co-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/shakyday.jpg.340981ef3947f59ab0de97ab1776befd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/shakyday.jpg.fb9d8fb7659f5de2f4084e549b423894.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-shaky-isles-coffee-co-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-shaky-isles-coffee-co-darknite
+
+---
+assetId: gutterclub-shaky-isles-coffee-co-maxisnite
+version: "1.0"
+lastModified: "2016-01-02T03:27:56Z"
+url: https://community.simtropolis.com/files/file/30902-shaky-isles-coffee-co-maxisnite/?do=download&r=160208
+
+---
+assetId: gutterclub-shaky-isles-coffee-co-darknite
+version: "1.0"
+lastModified: "2016-01-02T03:27:55Z"
+url: https://community.simtropolis.com/files/file/30901-shaky-isles-coffee-co-darknite/?do=download&r=160207
