@@ -145,7 +145,7 @@ async function addFileToIndex(index, file) {
 		for (let website of websites) {
 			let id = urlToFileId(website);
 			let name = `${parsed.group}:${parsed.name}`;
-			(index[id] ??= new Map()).set(name, {
+			(index.stex[id] ??= new Map()).set(name, {
 				id: name,
 				subfolder: parsed.subfolder,
 			});
