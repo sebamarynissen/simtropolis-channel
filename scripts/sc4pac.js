@@ -8,6 +8,7 @@ import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 import { parseAllDocuments } from 'yaml';
 import { Minimatch } from 'minimatch';
+import { styleText } from 'node:util';
 
 // Parse the regular expressions for the packages
 const { argv } = yargs(hideBin(process.argv));
@@ -32,8 +33,16 @@ const packages = glob
 	.flat()
 	.sort();
 
-// Now generate the sc4pac-plugins.json file.
 const pluginsRoot = process.env.SC4_PLUGINS;
+if (fs.existsSync(pluginsRoot)) {
+	const dir = await fs.promises.readdir(pluginsRoot);
+	if (dir.length !== 0) {
+		console.error(styleText('red', 'Your plugins folder is not empty. Please empty it manually and then run this script again.'));
+		process.exit(1);
+	}
+}
+
+// Now generate the sc4pac-plugins.json file.
 const cacheRoot = process.env.SC4PAC_CACHE_FOLDER;
 const json = {
 	config: {
@@ -50,7 +59,6 @@ const json = {
 };
 
 const dist = path.resolve(import.meta.dirname, '../dist/plugins');
-await fs.promises.rm(dist, { recursive: true, force: true });
 await fs.promises.mkdir(dist, { recursive: true });
 await fs.promises.writeFile(
 	path.join(dist, 'sc4pac-plugins.json'),
