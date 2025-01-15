@@ -56,8 +56,7 @@ async function run(urls) {
 			let deps = parseDependencies(index, links);
 			let unmatched = deps.filter(dep => dep.startsWith('"['));
 			if (unmatched.length > 0) {
-				let id = `${pkg.group}:${pkg.name}`;
-				console.log(styleText('red', `${id} has unmatched dependencies that need to be fixed manually!`));
+				console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
 				for (let dep of unmatched) {
 					console.log(`  ${styleText('cyan', dep)}`);
 				}
