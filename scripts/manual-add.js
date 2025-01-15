@@ -21,7 +21,7 @@ async function run(urls) {
 
 	// Sort the urls in ascending order so that dependencies are likely to be 
 	// processed first.
-	urls = [urls].sort();
+	urls = [urls].flat().sort();
 	let index = await buildIndex();
 	let results = await fetchAll(urls);
 	for (let result of results) {
