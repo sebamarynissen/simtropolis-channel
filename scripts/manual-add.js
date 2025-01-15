@@ -29,7 +29,8 @@ async function run(urls) {
 	// the default channel already.
 	urls = urls.filter(url => {
 		let id = urlToFileId(url);
-		if (index.stex[id]) {
+		let pkg = index.stex[id];
+		if (pkg && !pkg.local) {
 			console.log(styleText('yellow', `${url} is already present on one of the channels`));
 			return false;
 		} else {
@@ -163,7 +164,9 @@ async function addFileToIndex(index, file) {
 			(index.stex[id] ??= new Map()).set(name, {
 				id: name,
 				subfolder: parsed.subfolder,
+				local: true,
 			});
+			index.stex[id].local = true;
 		}
 	}
 }
