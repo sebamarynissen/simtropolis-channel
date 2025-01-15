@@ -59,6 +59,7 @@ const json = {
 };
 
 const dist = path.resolve(import.meta.dirname, '../dist/plugins');
+await fs.promises.rm(path.join(dist, 'sc4pac-plugins-lock.json'), { force: true, recursive: true });
 await fs.promises.mkdir(dist, { recursive: true });
 await fs.promises.writeFile(
 	path.join(dist, 'sc4pac-plugins.json'),
