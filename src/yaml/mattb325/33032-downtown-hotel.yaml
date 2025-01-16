@@ -1,0 +1,91 @@
+group: mattb325
+name: downtown-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Downtown Hotel
+  description: |-
+    **Downtown Hotel, by Mattb325.  
+    \---------------------------------------**
+
+    A slim-line, 16 story, mid-rise ultra-modern infill building that is typically seen in many cities.   
+    Designed with aluminium paneling to the set-back areas, protruding atrium style double- and triple-height reflective windows to common areas and penthouse suites, this building also has a nod to the traditional with raised colonial revival 'X' detailing to the concrete wall panels. It is both generic and eye-catching enough to become a modern classic in your downtown areas.
+
+    The building is fictional and I designed it to easily soak up some of the CS§§ demand that comes with larger cities.
+
+    The building comes two growable 3x2 and 2x2 lots both are medium-wealth Commercial Services Lots.
+
+    These grow on all tilesets.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**          
+        
+    Lot size:                  2x2  
+    Growth Stage:        7 (Medium and High Density Zoning)  
+    Bulldoze Cost:        § 900  
+    Capacity Satisfied: CS§ 1,494, CS§§ 376  
+    Pollution:                 14 (Air)/ 9 (Water)/ 18 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 30 Mwh  
+    Water Consumed:  362 Gal/Month  
+    Building Style:         Chicago/NY/Houston/Euro  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \* Mattb325 BAT Props Vol02: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+    \* BSCBATPropsMattb325\_Vol03: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2768](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2768\))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33032-downtown-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown.jpg.d24b6cef62cdff77808dc3871b402093.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown1.jpg.ca8599a4605aa6144a54c674017c72be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown2.jpg.076ac1cde94ea624a9d65710bf9ba877.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown3.jpg.0fdf9878571b647b162da9b00d1e1ea3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown4.jpg.73fef281cac4b170ea9e8d507ddbdbae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown5.jpg.9ae82d46d0d079b044c0fff33f0de56d.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-downtown-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-downtown-hotel-darknite
+
+---
+assetId: mattb325-downtown-hotel-darknite
+version: "1.0"
+lastModified: "2019-07-18T00:29:14Z"
+url: https://community.simtropolis.com/files/file/33032-downtown-hotel/?do=download&r=176772
+
+---
+assetId: mattb325-downtown-hotel-maxisnite
+version: "1.0"
+lastModified: "2019-07-18T00:29:14Z"
+url: https://community.simtropolis.com/files/file/33032-downtown-hotel/?do=download&r=176773

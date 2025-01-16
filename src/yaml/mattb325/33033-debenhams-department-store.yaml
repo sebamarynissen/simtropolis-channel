@@ -1,0 +1,85 @@
+group: mattb325
+name: debenhams-department-store
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Debenhams Department Store
+  description: |-
+    **Debenhams Department Store, by Mattb325.  
+    \---------------------------------------**
+
+    This department store has stood on Oxford Street, West London since the 1970's and is a dull, uninspired concrete monolithic structure. During 2013 the building was given an overhaul, but this BAT represents the original facade. Given London's peculiar and hap-hazard street arrangement, I have had to square the building off to make it usable in game. The change is most noticeable on the Marylebone Laneway side.
+
+    Debenhams has been trading since the late 1700's. The wares cater mostly to the cheaper spectrum of lower middle class goods and apparel, but more recently have attempted to lift their market appeal by including the 'Designers at Debenhams' ranges, which aim to bring high end fashion at high street prices. This building provides 1,199 jobs.
+
+    In game, this is presented as a CS§§ lot that grows on all tilesets and a CS§§ plop with jobs (both have identical stats).
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                 4x6  
+    Growth Stage:        6 (Medium and High Density Zoning) N/A for ploppable CS§§  
+    Plop Cost:               § 7,772 (N/A for growable)  
+    Bulldoze Cost:        § 453  
+    Capacity Satisfied:CS§ 4,788, CS§§ 1,199  
+    Pollution:                 59 (Air)/ 29 (Water)/ 59 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 96 Mwh  
+    Water Consumed:  1,153 Gal/Month  
+    Building Style:         Chicago/NY/Houston/Euro  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. EG: ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \* BSC MEGA Props CP Vol02: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)  
+    \* Porkie Props Vol01: [https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33033-debenhams-department-store/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams.jpg.00227702806b40890147fc1981b02792.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams1.jpg.9214d694a0331e058401a526d4d673c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams2.jpg.b5e21e85f0deb3913259c6765091a52c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams3.jpg.91292541c334e26a13facd84768ab077.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams4.jpg.3544f5a6b25f39c12b8e71fec2325009.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-debenhams-department-store-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-debenhams-department-store-darknite
+
+---
+assetId: mattb325-debenhams-department-store-darknite
+version: "1.0"
+lastModified: "2019-07-19T22:05:27Z"
+url: https://community.simtropolis.com/files/file/33033-debenhams-department-store/?do=download&r=176780
+
+---
+assetId: mattb325-debenhams-department-store-maxisnite
+version: "1.0"
+lastModified: "2019-07-19T22:05:27Z"
+url: https://community.simtropolis.com/files/file/33033-debenhams-department-store/?do=download&r=176781

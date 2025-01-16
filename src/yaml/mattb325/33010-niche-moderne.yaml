@@ -1,0 +1,96 @@
+group: mattb325
+name: niche-moderne
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Niche Moderne
+  description: |-
+    **Niche Moderne, by Mattb325.  
+    \---------------------------------------**
+
+    A little over a year ago I made this boxy, mid-rise, modern infill building that is typically seen in many cities (often as a co-sharing space) in order to test making green roofs with nothing more than height, cut-out and other composite bitmaps in 3dsMax.
+
+    Though fictional, it is designed *a la mode* with aluminium panelling, protuding light-box style double- and triple-height windows clad in timber slats, a large roof terrace and a green roof featuring golden sedums and dry meadow grasses to help give this building a 5 or even 6-star environmental rating.
+
+    The building comes two growable corner 3x4 lots ensuring that it shouldn't become too weedy: a high-wealth Commercial Office lot and a high-wealth Commercial Services Lot. Use the CTRL key while zoning to enable ease of development.
+
+    These mid-rises grow on all tilesets.
+
+    **\---------------------------------------**
+
+    **STATS CO§§§:**
+
+    Lot size :                 3x4  
+    Growth Stage:        5 (Medium and High Density Zoning)  
+    Bulldoze Cost:        § 492  
+    Capacity Satisfied:CO§§ 877, CO§§§ 614  
+    Pollution:                 3 (Air)/ 3 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 25 Mwh  
+    Water Consumed:  278 Gal/Month  
+    Building Style:         Chicago/NY/Houston/Euro  
+    Occupant Group:    High Wealth Commercial Offices Building
+
+    **STATS CS§§§:**
+
+    Lot size :                3x4   
+    Growth Stage:       4 (Medium and High Density Zoning)  
+    Bulldoze Cost:       § 492  
+    Capacity Satisfied:CS§ 1,968, CS§§ 494, CS§§§ 200  
+    Pollution:                13 (Air)/ 8 (Water)/ 17 (Garbage )  
+    Pollution Radius:   6/7/0  
+    Power Consumed:56 Mwh  
+    Water Consumed: 498 Gal/Month  
+    Building Style:        Chicago/NY/Houston/Euro  
+    Occupant Group:   High Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod - Suffixed DN) and one for the standard Maxis nite (suffixed MN). You must choose only one file - depending on which night time version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \* BSC MEGA Props CP Vol02: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33010-niche-moderne/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne.jpg.f2867d493e91c39f9ed3ee5f151881b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne1.jpg.2d441b1df58d5cb5e05fdefbd07cc4f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne2.jpg.7de2a39d19f22f14fc13e7a9212b4792.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne3.jpg.05ae9f42882c88e9c6f39335ba7b7ee2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-niche-moderne-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-niche-moderne-darknite
+
+---
+assetId: mattb325-niche-moderne-darknite
+version: "1.0"
+lastModified: "2019-07-09T23:08:37Z"
+url: https://community.simtropolis.com/files/file/33010-niche-moderne/?do=download&r=176619
+
+---
+assetId: mattb325-niche-moderne-maxisnite
+version: "1.0"
+lastModified: "2019-07-09T23:08:37Z"
+url: https://community.simtropolis.com/files/file/33010-niche-moderne/?do=download&r=176620

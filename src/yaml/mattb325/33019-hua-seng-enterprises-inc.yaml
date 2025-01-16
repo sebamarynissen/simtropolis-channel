@@ -1,0 +1,86 @@
+group: mattb325
+name: hua-seng-enterprises-inc
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Hua Seng Enterprises Inc
+  description: |-
+    **Hua Seng Enterprises Inc, by Mattb325.  
+    \---------------------------------------**
+
+    Hua Seng Enterprises Inc is a fictional glass, concrete and steel mid-rise and draws its inspiration from the massive boom in Chinese building construction over the last decade.
+
+    It is a 8 story building (including the mechanical penthouse) with multiple projections, double-height spaces and building set-backs to provide a lot of visual interest.
+
+    Like most of my work, I have drawn it to a more internationally-stylised centre, so it will work equally well in both Asian cities and western styled ones.
+
+    Sitting on an 8x3 lot, this will grow if you use the CTRL key while zoning, but it will not grow very often (the game will prefer to break the zone into two 4x3 or four 2x3 lots).
+
+    The lot size of 8x3 is important, as once this has grown, it should upgrade to the previously released file, PinYin Enterprises (assuming you haven't marked the lot as historical): additionally, 8 is an auspicious number in Chinese, meaning 'to prosper', and 3, is also a good number, meaning 'life', so an 8x3 lot in Chinese is the equivalent of zoning for a "*prosperous life*".
+
+    If you want it as a ploppable, I suggest using Buggis extra cheats which will enable you to place this, and indeed every C and I growable lot in your plugins (including Maxis buildings), as a functioning ploppable lot.
+
+    The building is a CO§§§ office which provides 1,117 jobs.
+
+    **\---------------------------------------**
+
+    **STATS CO§§§:**
+
+    Lot size :                 8x3  
+    Growth Stage:        6 (Medium and High Density Zoning)  
+    Bulldoze Cost:        § 461  
+    Capacity Satisfied:Co§§§ 1,117, Co§§ 1,682  
+    Pollution:                 7 (Air)/ 7 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 48 Mwh  
+    Water Consumed:  519 Gal/Month  
+    Building Style:         Chicago/NY/Houston/Euro  
+    Occupant Group:    Commercial Offices Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.   
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file requires no dependencies
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33019-hua-seng-enterprises-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng.jpg.279dbf47d441900223ca0698b391c6f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng1.jpg.98c6dffa8a4621f0be1493d2cc8b2399.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng2.jpg.3c95fb1ad67c55a1f1ffa879e304c03e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng3.jpg.6eee7fc5f7e6a4b20681785e2331a990.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng4.jpg.e47f45496c01623edf31a771f0ce80e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng5.jpg.2aa33c130c3c785d1e2bb504e6f91d40.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-hua-seng-enterprises-inc-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-hua-seng-enterprises-inc-darknite
+
+---
+assetId: mattb325-hua-seng-enterprises-inc-darknite
+version: "1.0"
+lastModified: "2019-07-13T22:25:52Z"
+url: https://community.simtropolis.com/files/file/33019-hua-seng-enterprises-inc/?do=download&r=176676
+
+---
+assetId: mattb325-hua-seng-enterprises-inc-maxisnite
+version: "1.0"
+lastModified: "2019-07-13T22:25:52Z"
+url: https://community.simtropolis.com/files/file/33019-hua-seng-enterprises-inc/?do=download&r=176677

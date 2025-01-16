@@ -8,6 +8,8 @@ const urls = {
 	'https://community.simtropolis.com/sc4-maxis-files/': 'maxis:buildings-as-props',
 	'https://www.simtropolis.com/stex/index.cfm?page=1&keyword=bsc%20peg&type=all': 'bsc:textures-vol01',
 	'https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/': 'supershk:mega-parking-textures',
+	'https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/': 'porkissimo:jenx-porkie-expanded-porkie-props',
+	'https://community.simtropolis.com/files/file/27563-shk-parking-pack/': 'shk:parking-pack',
 };
 
 export default function parseDependencies(index, links) {

@@ -1,0 +1,90 @@
+group: mattb325
+name: ciros-nightclub
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Ciros Nightclub
+  description: |-
+    **Ciro's Nightclub, by Mattb325.  
+    \---------------------------------------**
+
+    Ciro's was a popular nightclub on 8433 Sunset Boulevard. It opened in 1940 and was a favourite haunt of celebrities and hangers-on who wanted to be written about in the gossip columns the following week. In short, during its 20 year hey-day, it was 'the' place to 'be seen'.
+
+    The building was expanded numerous times. The BAT I have made is similar to how this looked in late 1940s: I have added two narrow windows at the front to break up the expanse of wall which doesn't work so well in SC4.
+
+    With its distinctive kidney-shaped porte-corchere above low, curved planter boxes, this building is a great example of mid-century modern.
+
+    It is offered as a mid-wealth commercial services (CS§§) offering on a 4x3 lot.
+
+    It is offered as a growable only - on the american tilesets.
+
+    The building - though heavily altered - amazingly still stands on LA's sunset strip: in the 1970's  it became the Comedy Store and still operates to this day.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------  
+    STATS (CS§§):**
+
+    Growth Stage:          2 (low, medium & high density zones)  
+    Bulldoze Cost:          §190  
+    Capacity Satisfied:  CS§ 532, CS§§ 135  
+    Pollution:                  4 (Air)/ 3 (Water)/ 6 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  11 Mwh  
+    Water Consumed:   131 Gal/Month  
+    Building Style:          Chicago/NY/Houston  
+    Occupant Group:     Commercial Services Building/NiteClub/SimCrowdStand
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, please make sure the following files are in your plugins folder:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33038-ciros-nightclub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros.jpg.2bffbba35d93a1a300e653809391680b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros1.jpg.adf6be4e0fa569aab8412db3a7bdcb59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros2.jpg.c4fff14fc33bad3eb4b137e9155b1731.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros3.jpg.c475e1e2bf87b87038f61b2b5b52f128.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros4.jpg.a5e10511f9b70ff1086ecd4485dd9e72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros5.jpg.885a1264bd3ad14ef2c1ad792f96bfad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros6.jpg.c2c9c948c7a65756cffec661e0ed7216.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-ciros-nightclub-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-ciros-nightclub-darknite
+
+---
+assetId: mattb325-ciros-nightclub-maxisnite
+version: "1.0"
+lastModified: "2019-07-21T22:21:40Z"
+url: https://community.simtropolis.com/files/file/33038-ciros-nightclub/?do=download&r=176818
+
+---
+assetId: mattb325-ciros-nightclub-darknite
+version: "1.0"
+lastModified: "2019-07-21T22:21:40Z"
+url: https://community.simtropolis.com/files/file/33038-ciros-nightclub/?do=download&r=176819
