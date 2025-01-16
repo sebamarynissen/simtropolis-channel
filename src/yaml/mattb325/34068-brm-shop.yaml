@@ -1,0 +1,87 @@
+group: mattb325
+name: brm-shop
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: BRM Shop
+  description: |-
+    **BRM Shop, by Mattb325.  
+    \---------------------------------------**
+
+    Some time ago, I was sent some images of Maxis' SC2013 concept art as a request and this was amongst them.
+
+    I liked the look of the orange multi-triangular arrangement of the storefront: and, as SC4 is all about roof-tops, something like this yields a lot of visual interest. I don't actually know what 'BRM' stands for (Big Retail Module?)...perhaps you can come up with something amusing/amazing/enlightened...
+
+    This is a CS$$ bat that will grow early on in your cities development stage provided you have sufficient demand. It provides 174 jobs.
+
+    It comes in two different lot sizes: 4x4 and 6x6 (use the CTRL key while zoning to help get this to grow, or download Buggis extra cheats to make it ploppable from a drop-down menu).
+
+    It grows on the three American tilesets.
+
+    **\---------------------------------------**
+
+    **STATS:**  
+    Lot Size:           4x4 and 6x6  
+    Growth Stage: 1  
+    Zone Type:       Low, Medium and High Density  
+    Bulldoze Cost: $193  
+    Demand Satisfied:   CS$ 687; CS$$ 174.  
+    Pollution at Centre:  6 (air) /4 (water) /8 (garbage)  
+    Pollution Radius:      5/6/0  
+    Power Consumed:   14 Mwh  
+    Water Consumed:    168 Gallons  
+    Occupant Groups:    Commercial Services; Chicago; New York; Houston
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one is for dark nite users (and other night-time darkening mods, such as Gizmos or Mashty's night-mod) and one for the standard Maxis nite.   
+    You must select and install only one file - depending on which night version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **Dependencies:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*SuperSHK Mega Parking Textures Vol01: ([https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/))
+
+    **\---------------------------------------**
+
+    To install, simply unzip these files into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34068-brm-shop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/BRMShop.jpg.9d644647a938d9355c701964c3ede7ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/BRMShop1.jpg.57ec760117cfdb90700c276b33b09f57.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/BRMShop2.jpg.b9d595e2cf40872c1242e7b5331b3729.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/BRMShop3.jpg.40f2d23a12050769e00715b95722d71d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/BRMShop4.jpg.61e1415746aa8995865e1efcb5e6a732.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/BRMShop5.jpg.41b769c40ecd0ca5d2bce4f7e1c96887.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-brm-shop-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-brm-shop-darknite
+
+---
+assetId: mattb325-brm-shop-darknite
+version: "1.0.0"
+lastModified: "2021-01-23T09:26:27Z"
+url: https://community.simtropolis.com/files/file/34068-brm-shop/?do=download&r=184714
+
+---
+assetId: mattb325-brm-shop-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-23T09:26:27Z"
+url: https://community.simtropolis.com/files/file/34068-brm-shop/?do=download&r=184715
