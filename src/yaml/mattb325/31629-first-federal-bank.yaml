@@ -1,0 +1,92 @@
+group: mattb325
+name: first-federal-bank
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: First Federal Bank
+  description: |-
+    **Former First Federal Savings and Loan California, by Mattb325.  
+    \---------------------------------------**
+
+    It's not only "old" buildings that are demolished in the name of the progress.
+
+    This building was constructed in 1959 and used to stand at the corner of Hollywood and Highland Ave, Los Angeles. It formed and framed a famous part of the view from Graumans Chinese Theatre down Hollywood Blvd.  
+    It was demolished in the late 80s for the Hollywood & Highland project (i.e. where the Academy awards are filmed now).
+
+    While this is not an exact recration of the old First Federal Bank, it is a good example of the Southern Californian mid-century, heavy-set, mid-rise office building.  
+    The beauty of these buildings is sheer quality of their materials: polished limestone with contrasting highly polished granite base, crittal steel windows and polished marble forecourts, but "progress", as well as the need to expensively retro-fit many mid-century buildings in shaky California saw these gems consigned to the wrecking ball.
+
+    To make it a little bit different, I've angled it 45 degrees for a corner lot as there really aren't many such taller buildings in this game and by doing this it complements a lot of the taller angled residentials from Sim Fox, Bixel, HKABT et al.
+
+    This building is offered as a growable high-wealth mid-rise building on all tilesets. It grows easily, but as it is limited to a 4x4 corner lot (there is one for both left and right corners) it isn't weedy. Hold the CTRL key while zoning to ensure that you get the lot size.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------  
+    STATS (CO§§§):**
+
+    Growth Stage:           6&7 (medium and high density zones)  
+    Bulldoze Cost:          §869  
+    Capacity Satisfied:  CO§§ 2,479, CO§§§ 1,735  
+    Pollution:                   10 (Air)/ 10 (Water)/ 4 (Garbage )  
+    Pollution Radius:      6/7/0  
+    Power Consumed:   70 Mwh  
+    Water Consumed:    758 Gal/Month  
+    Building Style:           Chicago/NY/Houston/Euro  
+    Occupant Group:      Commercial Office Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot or Desc files!
+
+    If you use the dark nite version, you will need a dark nite mod:
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed)
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC Mega Props - CP Vol02.dat - [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the file into your plugins folder.
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/31629-first-federal-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal.jpg.3e37e301ca65b7fe0d2c4c1889030800.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal_PostCard.jpg.f1a0f246fb1289bcd08aa84ffd2d517d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal1.jpg.3403a09056298c9c83daaced23ca274c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal2.jpg.37558c49e671d86dff8bfe45f82de747.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal3.jpg.959bcf29bd2c73c7779c07b4bb684094.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal4.jpg.08277ed8f456d911b5fb30bd892bafc0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal5.jpg.8b4e9ee231bb1411f6d9864ae792b7e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal6.jpg.ad11cb2858020fe163d3764efc4aacf1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal7.jpg.92acad06d508fd25c6487461f02b4d3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederalPostCard1.jpg.75d7b9d8a78acd461a6f5ec9121360d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirtsFederal8.jpg.e71a207baed97350d3345baf70aae397.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-first-federal-bank
+        exclude:
+          - /First Federal DarkNite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-first-federal-bank
+        exclude:
+          - /First Federal MaxisNite/
+
+---
+assetId: mattb325-first-federal-bank
+version: "1.0"
+lastModified: "2017-05-20T03:22:29Z"
+url: https://community.simtropolis.com/files/file/31629-first-federal-bank/?do=download&r=165822

@@ -1,0 +1,84 @@
+group: mattb325
+name: harrods
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Harrods
+  description: |-
+    **Harrods, by Mattb325.  
+    \---------------------------------------**
+
+    Inspired by the iconic department store on Brompton Rd, Knightsbridge, Harrods is presented as a CS§§§ growable and ploppable lot for your cities.
+
+    Please be aware that the present day Harrods has been extended and remodelled a number of times since the main building on Brompton Rd was completed in 1905, so this is NOT a strict recreation, but what I present is faithful to the original façade as designed by Charles Stephens, albeit with modifications to make it more game-ready.
+
+    I have only modelled the front portion of the building.
+
+    It must be noted that the present building has completely over-run the old streets of 'Queens Gardens' and 'New Place' and wrapped its way around what used to be known as Queen Street and Lower North St (since renamed Hans Rd and Basil St respectively), consuming the old Hans Mansion block and other buildings in the process.  
+    Because these streets run at odd angles and curves, even with the FAR roads and other NAM advances, I felt that modelling all of this would make the building almost completely unusable for the average player.  
+    Additionally the original building, aligned to Brompton Rd, was slightly wedged shaped - the old line is still somewhat visible under all of the present day roof additions from Google earth along the Hans Rd façade. Naturally I have squared this off to get this into game, which means that the rear of the building is completely fictitious.
+
+    The present roof junk and extension of the Mansard roof along all facades is modelled - with slight variations by me - on the most up-to-date renovations: you can compare the differences by using the Google earth program (up-to-date) vs. Bing ?birds-eye/Google maps (out-of-date) to see the remarkable difference to the roof-top in recent years.
+
+    Lastly, in order to fit the building on a maximum of 8 tiles (which will give it at least some chance of growing), I have removed one set of windows near the turret. Given the lag on my computer, I have also avoided modelling the hundreds of bulbs on the Hans Cres and Hans Roads sides.
+
+    With all of that said, if you are strictly puritanical about recreations being 100% accurate, then please do not download this.
+
+    The lot comes in two flavours: a growable Commercial Services and a ploppable, functional C§§§ lot, which is found in the Landmarks Menu. Both have the same stats.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§ & Ploppable CS§§§:**
+
+    Lot size :                    8 x 4  
+    Growth Stage:          8 (Medium and High Density Zoning)/Ploppable  
+    Bulldoze Cost:          §631  
+    Capacity Satisfied:  CS§ 11,140, CS§§ 2,787, CS§§§ 1,117  
+    Pollution:                   50 (Air)/ 33 (Water)/ 67 (Garbage )  
+    Pollution Radius:      6/7/0  
+    Power Consumed:    209 Mwh  
+    Water Consumed:    1,871 Gal/Month  
+    Building Style:           Chicago/NY/Houston/Euro (N/A for Ploppable)  
+    Occupant Group:      Commercial Services Building
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot File!
+
+    If you use the dark nite version, you will need a dark nite mod.
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed)
+
+    **DEPENDENCIES:**
+
+    **\---------------------------------------**
+
+    This lot does not require external dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/31736-harrods/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods.jpg.d9a5dc9f9a3bdcca1c7d05687493dc2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods1.jpg.cd87ff24024d58e50158649ecd3ad874.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods2.jpg.7fa934eac0d4827b2f570a13bb81cabe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods3.jpg.90509a7bff0b86cee2ec52972beecf53.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods4.jpg.b0294cf017ea1f0323623d6107685439.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods5.jpg.af3d2772fa3b8b0b1e3ea709ded54f75.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-harrods
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-harrods
+
+---
+assetId: mattb325-harrods
+version: "1.0"
+lastModified: "2017-06-05T08:42:21Z"
+url: https://community.simtropolis.com/files/file/31736-harrods/?do=download&r=166440
