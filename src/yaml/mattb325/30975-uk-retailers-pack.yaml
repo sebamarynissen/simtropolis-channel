@@ -1,0 +1,92 @@
+group: mattb325
+name: uk-retailers-pack
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: UK Retailers Pack
+  description: |-
+    **UK Suburban Retailers Pack, by Mattb325.  
+    \---------------------------------------**
+
+    A pack of five UK retailers as requested by a number of people in the community to help address some of the lack of UK/European stores available for the game. Specifically, I made these for rsc204/mgb204 as he is always so incredibly helpful on the forums.
+
+    The stores included in this pack are: Aldi, Homebase, Morrisons, Sainsbury's and Waitrose. One of the most noticeable differences between US-styled supermarkets and box stores and the UK/Euro ones is the domestic scale applied to the architecture: quite often the buildings have an entire pitched roof or composite materials such as timber and brick which are more suited to a suburban house. The second most notable characteristic is that existing buildings are adapted and re-used: it is not uncommon for office spaces or old department stores to be converted to a supermarket and I have tried to pick a variety of styles for these BATs (not just purpose built buildings).
+
+    These are all offered as growable 6x6, stage 1, medium wealth, Commercial Services on the EURO Tileset only.
+
+    Use the CTRL key while zoning, or alternatively, use the buildingplop mod (contained in the extra cheats dll: [https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/)) to make these - or any other buildings - ploppable.
+
+    Given how little competition there is in the 6x6 zone and the fact that the game does not readily break up this zone, I have decided to include growable lots only rather than further cluttering up the landmark menu.
+
+    By growing (or plopping) these together, you can make quite cohesive retail parks which look great in suburban areas.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------**
+
+    **STATS (CS§§) FOR ALL LOTS:**
+
+    Growth Stage:          1 (low, medium and high density zones)  
+    Bulldoze Cost:          § 160 - § 228  
+    Capacity Satisfied:  CS§ 751 - CS§ 1,362 | CS§§ 190 - CS§§ 343  
+    Pollution:                   7 - 12 (Air)/ 4 - 8 (Water)/ 9 - 17 (Garbage )  
+    Pollution Radius:      5/6/0  
+    Power Consumed:   16 - 28 Mwh  
+    Water Consumed:    184 - 330 Gal/Month  
+    Building Style:           Euro only  
+    Occupant Group:      Commercial Services Building
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins folder:
+
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC MEGA Props - SG Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746))  
+    \*BSC Textures Vol01 - ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90))
+
+    To install, simply unzip the file into your plugins folder.
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/30975-uk-retailers-pack-maxis-nite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail.jpg.9893d7fa7bffd54f8bc04a48c33f2c92.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail1.jpg.89302675c5c854adecf5a85b7b73c89e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail2.jpg.3bf18d57e52ce9c10fa3daee2511f72e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail3.jpg.1d348ae2bac15764b6f3138ba49e5225.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail4.jpg.ac69c46f9bca845637f7118e2dded652.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail5.jpg.1f677fcc0e03a3b27f5e4888c1c6908f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail6.jpg.cc8273a89bb3be19ab2c41741731ec14.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail7.jpg.9d35bc3819720587bff89d1b771bc187.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail8.jpg.1f9fe6c2ddb9eb6fbd946f193310884a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail5.jpg.fa7491ee80c4df331ec2cb84ee480d3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail6.jpg.44bb5c52d65b9971ab3fbae26e8b89d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail7.jpg.0b40014a28e6a6c5ead7df47b491afd8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail8.jpg.30c3ca2fb5cb80519a1a25cacc771759.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail9.jpg.e62a40742ff00acfe64002cd473d4970.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-uk-retailers-pack-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-uk-retailers-pack-darknite
+
+---
+assetId: mattb325-uk-retailers-pack-maxisnite
+version: "1.0"
+lastModified: "2016-02-27T20:47:19Z"
+url: https://community.simtropolis.com/files/file/30975-uk-retailers-pack-maxis-nite/?do=download&r=160895
+
+---
+assetId: mattb325-uk-retailers-pack-darknite
+version: "1.0"
+lastModified: "2016-02-27T20:47:17Z"
+url: https://community.simtropolis.com/files/file/30974-uk-retailers-pack-dark-nite/?do=download&r=160894

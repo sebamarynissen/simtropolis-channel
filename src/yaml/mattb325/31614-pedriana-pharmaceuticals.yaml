@@ -1,0 +1,85 @@
+group: mattb325
+name: pedriana-pharmaceuticals
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Pedriana Pharmaceuticals
+  description: |-
+    **Pedriana Pharmaceuticals, by Mattb325.  
+    \---------------------------------------**
+
+    As part of providing some much needed, long overdue upgrades to some of the Maxis I-HT stalwarts, I decided that Pedriana Pharmaceuticals deserved a new 're-imaging' for the 21st Century. After all, the in-game structure that has been filling up any I-HT zone for almost 15 years does not reflect the grandiose commercial buildings which bear its name, so it is probably overdue for a facelift and some rebranding.
+
+    Please note that this new file doesn't interfere with the original Maxis files and will work for those who have a Maxis blocker installed.
+
+    This I-HT Anchor building is substantial and only comes as an 8x8 lot (use the CTRL Key while zoning to ensure that you get the correct lot size).
+
+    It is growable only on high density Industrial zones and provides 1,079 jobs.
+
+    The building itself is fictional, but draws inspiration from the *Voestalpine Stahl Service Center* in Austria.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------  
+    STATS (IHT):**
+
+    Growth Stage:         3 (high density zones)  
+    Bulldoze Cost:         §266  
+    Capacity Satisfied:  IH-T 1,079  
+    Pollution:                  18 (Air)/ 7 (Water)/ 5 (Garbage)  
+    Pollution Radius:     6/7/0  
+    Power Consumed:  133 Mwh  
+    Water Consumed:   124 Gal/Month  
+    Building Style:          Chicago/NY/Houston/Euro  
+    Occupant Group:     IHT Anchor Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot or Desc files!
+
+    If you use the dark nite version, you will need a dark nite mod.
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed)
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - SG Vol01.dat: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    \*BSC Mega Props - CP Vol02.dat: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    \*BSC Textures CP Vol01.dat: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    \*BSC Mega Props - Mattb325 Vol02.dat: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+    \*PEG CHAINLINK RESOURCE:
+
+    [https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/?do=embed](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/?do=embed)
+
+    To install, simply unzip the file into your plugins folder....
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/31614-pedriana-pharmaceuticals/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana.jpg.e9c40376174ea4657c2a31cd8dc4c344.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana1.jpg.70cd7d2e99b0ed302be42142e0d0e0c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana2.jpg.0298cac7ca2dc42f911a20da319fe769.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana3.jpg.79891d6e6c5935d92adcea76f04ed244.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - peg:security-fencing-kit
+assets:
+  - assetId: mattb325-pedriana-pharmaceuticals
+
+---
+assetId: mattb325-pedriana-pharmaceuticals
+version: "1.0"
+lastModified: "2017-05-12T05:19:54Z"
+url: https://community.simtropolis.com/files/file/31614-pedriana-pharmaceuticals/?do=download&r=165735

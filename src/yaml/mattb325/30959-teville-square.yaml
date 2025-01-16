@@ -1,0 +1,83 @@
+group: mattb325
+name: teville-square
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Teville Square
+  description: |-
+    **Teville Square, by Mattb325.  
+    \---------------------------------------**
+
+    Teville House is a small, 5-floor building suited to both stand-alone and W2W environments. It is typical of the buildings that were constructed around the WWII era: utilising modern design and materials such as concrete, steel and glass, but maintaining a scale similar to their Victorian neighbours. While the building is inspired by many found on British High streets, I have decorated it to be just as much at home in an American styled city.
+
+    It is offered as both a mid-wealth office and mid-wealth commercial services building and both grow on a 2x2 lot.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------  
+    STATS (CO§§):**
+
+    Growth Stage:          4 (medium and high density zones)  
+    Bulldoze Cost:          § 374  
+    Capacity Satisfied:  CO§§ 148  
+    Pollution:                  1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  3 Mwh  
+    Water Consumed:   39 Gal/Month  
+    Building Style:          Chicago/NY/Houston/Euro  
+    Occupant Group:     Commercial Offices Building
+
+    **STATS (CS§§):**
+
+    Growth Stage:           3 (medium and high density zones)  
+    Bulldoze Cost:          § 374  
+    Capacity Satisfied:  CS§329  CS§§ 84  
+    Pollution:                   3 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:      5/6/0  
+    Power Consumed:    7 Mwh  
+    Water Consumed:    82 Gal/Month  
+    Building Style:           Chicago/NY/Houston/Euro  
+    Occupant Group:      Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot or Desc files!
+
+    If you use the dark nite version, you will need a dark nite mod. Either: ([https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) OR ([http://gizmo.aplaceforwebsite.com/index.php](http://gizmo.aplaceforwebsite.com/index.php))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file does not require external dependencies
+
+    To install, simply unzip the file into your plugins folder.
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/30959-teville-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Teville.jpg.78940316e56a95b6827d3ea308112290.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Teville1.jpg.6fa333b00d9680c8fb2bea3283727916.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Teville2.jpg.e364a54f49849714414dafa7a7179667.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-teville-square
+        exclude:
+          - /Teville Square DarkNite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-teville-square
+        exclude:
+          - /Teville Square MaxisNite/
+
+---
+assetId: mattb325-teville-square
+version: "1.0"
+lastModified: "2016-02-18T09:18:29Z"
+url: https://community.simtropolis.com/files/file/30959-teville-square/?do=download&r=160779

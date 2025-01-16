@@ -1,0 +1,97 @@
+group: mattb325
+name: s-a-c-commercial
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: S.A.C. Commercial
+  description: |-
+    **S.A.C. Commercial Building, by Mattb325.**  
+    \---------------------------------------
+
+    Back in 2005 when I first started batting, user S.A.C. (an amazing lot-maker and author of the legendary CJ *'Olympia'*) posted some pictures of SC3URK buildings to inspire batters.
+
+    I saved a few of these pictures to my hard-drive: S.A.C. had an amazing eye for detail in SC3 & SC4 and it is nice to be able to add one of her Sim City 3000 inspirations to Sim City 4 all these years later.
+
+    This building is a very loose interpretation of the SC3URK artwork that S.A.C. displayed.
+
+    'S.A.C. Commercial' is a 24-floor tower with a shopping mall at the base and offices above the 6th floor podium.
+
+    It sits on quite a tight lot: 3x2 and 3x3 as both a high-wealth commercial services (CS§§§) and commercial offices (CO§§§) offering.
+
+    It is a growable mid-rise building only and grows on all tilesets. It competes well with many of the Maxis mid-rises.
+
+    Stats, links and dependencies are listed below.
+
+    \---------------------------------------  
+    **STATS (CS§§§):**
+
+    Growth Stage:          7 and 8 (high density zones)  
+    Bulldoze Cost:          §1378  
+    Capacity Satisfied:  CS§ 4632, CS§§ 1160, CS§§§ 466  
+    Pollution:                   31 (Air)/ 20 (Water)/ 41 (Garbage )  
+    Pollution Radius:      6/7/0  
+    Power Consumed:   130 Mwh  
+    Water Consumed:    1164 Gal/Month  
+    Building Style:           Chicago/NY/Houston/Euro  
+    Occupant Group:      Commercial Services Building
+
+    \---------------------------------------  
+    **STATS (CO§§§):**
+
+    Growth Stage:          8 (high density zones)  
+    Bulldoze Cost:          §1378  
+    Capacity Satisfied:  CO§§ 2060, CO§§§ 1442  
+    Pollution:                   8 (Air)/ 8 (Water)/ 4 (Garbage )  
+    Pollution Radius:      6/7/0  
+    Power Consumed:   58 Mwh  
+    Water Consumed:    633 Gal/Month  
+    Building Style:           Chicago/NY/Houston/Euro  
+    Occupant Group:      Commercial Office Building
+
+    \---------------------------------------
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot or Desc files!
+
+    If you use the dark nite version, you will need a dark nite mod. Either: ([https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) OR ([http://gizmo.aplaceforwebsite.com/index.php](http://gizmo.aplaceforwebsite.com/index.php))
+
+    \---------------------------------------
+
+    **DEPENDENCIES:**
+
+    BSCBATPropsMattb325\_Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))
+
+    To install, simply unzip the file into your plugins folder.
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/30881-sac-commercial/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC.jpg.74b9b658c291dbbbba759f020868db0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC1.jpg.3078c9d2dd03ddffae4a3ac6e3b9d097.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC2.jpg.26b644ae243caa2db32e2c0eeac9a933.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC3.jpg.a27d3f486e3688f787ee19a067a01498.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC4.jpg.604d1ab6384e187728e33f76f777356c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC5.jpg.3531b16f3523ffe3d2498057a00356e1.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-s-a-c-commercial
+        exclude:
+          - /DarkNite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-s-a-c-commercial
+        exclude:
+          - /MaxisNite/
+
+---
+assetId: mattb325-s-a-c-commercial
+version: "1.0"
+lastModified: "2015-12-26T08:03:03Z"
+url: https://community.simtropolis.com/files/file/30881-sac-commercial/?do=download&r=160057

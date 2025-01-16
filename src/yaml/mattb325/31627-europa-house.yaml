@@ -1,0 +1,82 @@
+group: mattb325
+name: europa-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Europa House
+  description: |-
+    **Europa House, by Mattb325.  
+    \---------------------------------------**
+
+    This is an otherwise dumpy little post WWII inner-city low-mid rise building which is transformed by an unusual (for SimCity at least) butterfly roof on the eighth floor penthouse. The butterfly roof was a design classic of the late 1940's to mid 1950's that created amazing, soaring, light-filled interior spaces that forced the eye up and out along the inverted plane of the roof line through dazzling clerestory windows. A lot of modern buildings are also reviving this simple trend.
+
+    After WWII, buildings called 'Europa House' seemed to spring up in cities everywhere: perhaps it served as a bricks and mortar reminder of the horrors of war and the constant need to vigilant against extremist views and ideologies (a lesson we seem to have forgotten). Whatever the case, if these buildings still stand today, they are usually fairly low-value commercials, and this is what I have created for the game.
+
+    The lot comes in two 2x2 flavours: a growable LOW-WEALTH Commercial Services and a growable MID-WEALTH Commercial Office. And, with a name like 'Europa House' this grows only on the Euro tile-set.
+
+    **\---------------------------------------**
+
+    **STATS CS§:**
+
+    Lot size :                   2x2  
+    Growth Stage:          5 (Medium and High Density Zoning)  
+    Bulldoze Cost:          §423  
+    Capacity Satisfied:  CS§ 312  
+    Pollution:                  3 (Air)/ 1 (Water)/ 9 (Garbage )  
+    Pollution Radius:     6/7/0  
+    Power Consumed:  7 Mwh  
+    Water Consumed:   64 Gal/Month  
+    Building Style:          Euro  
+    Occupant Group:     Commercial Services Building
+
+    **STATS CO§§:**
+
+    Lot size :                  2x2  
+    Growth Stage:         5 (Medium and High Density Zoning)  
+    Bulldoze Cost:         §436  
+    Capacity Satisfied:  CO§§ 175  
+    Pollution:                  1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  4 Mwh  
+    Water Consumed:   45 Gal/Month  
+    Building Style:          Euro  
+    Occupant Group:     Commercial Offices Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot File!
+
+    If you use the dark nite version, you will need a dark nite mod.
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed)
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC BAT Props - Mattb325 Vol02.dat [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks, and enjoy!
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/31627-europa-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa.jpg.8b9c4994cd4a58069208d6745f803349.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa1.jpg.f44a9e144f56f268fb4244bbe07344b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa2.jpg.9be17af5b1ff26e4d66718af8f2f6533.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa3.jpg.c3b514516c40f16ec170f3b1f5dc101d.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+assets:
+  - assetId: mattb325-europa-house
+
+---
+assetId: mattb325-europa-house
+version: "1.0"
+lastModified: "2017-05-19T23:32:17Z"
+url: https://community.simtropolis.com/files/file/31627-europa-house/?do=download&r=165808

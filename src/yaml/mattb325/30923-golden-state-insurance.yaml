@@ -1,0 +1,79 @@
+group: mattb325
+name: golden-state-insurance
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Golden State Insurance
+  description: |-
+    **Golden State Insurance Building, by Mattb325.  
+    \---------------------------------------**
+
+    A striking low/mid rise corner building, Golden State Insurance is based on the building of the same name on 1999 West Adams Boulevard, Los Angeles.
+
+    Because Sim City 4 likes to grow high wealth lots on corners, I have spruced up the appearance of this mid-century gem.
+
+    It sits on a 3x3 lot (lotted for both corners)as a high-wealth commercial offices (CO§§§) offering.
+
+    It is offered as a growable building only - on all tilesets - and competes well with many of the Maxis mid-rises.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------  
+    STATS (CO§§§):**
+
+    Growth Stage:        5 (medium and high density zones)  
+    Bulldoze Cost:       §547  
+    Capacity Satisfied:  CO§§ 547, CO§§§ 383  
+    Pollution:           2 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed:      16 Mwh  
+    Water Consumed:      179 Gal/Month  
+    Building Style:      Chicago/NY/Houston/Euro  
+    Occupant Group:      Commercial Office Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot or Desc files!
+
+    If you use the dark nite version, you will need a dark nite mod. Either: ([https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) OR ([http://gizmo.aplaceforwebsite.com/index.php](http://gizmo.aplaceforwebsite.com/index.php))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    BSCBATPropsMattb325\_Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))
+
+    To install, simply unzip the file into your plugins folder.
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/30923-golden-state-insurance/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_sn1.jpg.9f4c0e447126b29459136dc30ed191c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_Sn2.jpg.889815bd75580ac7244ab3211ff4f06b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_Sn3.jpg.0f52840e3a170e6bd54b49630549cf9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_sn.jpg.24639c724c6df1e5dbdd50141744087d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_n.jpg.5056f3bba09d40cb5831fe7b7b744189.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-golden-state-insurance
+        exclude:
+          - /DarkNite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-golden-state-insurance
+        exclude:
+          - /MaxisNite/
+
+---
+assetId: mattb325-golden-state-insurance
+version: "1.0"
+lastModified: "2016-01-22T21:37:31Z"
+url: https://community.simtropolis.com/files/file/30923-golden-state-insurance/?do=download&r=160398
