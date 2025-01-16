@@ -1,0 +1,55 @@
+group: mattb325
+name: coopers-hall
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Coopers Hall
+  description: |-
+    **Coopers Hall, Bristol Old Vic, by Mattb325.**
+
+    The Coopers Hall, part of the Theatre Royal in Bristol was built in 1743 on King St in Bristol and is currently listed as a Grade I building. It has a simple and elegant palladian facade.
+
+    During the 1970s, Coopers Hall was converted into the foyer of the Theatre Royal.
+
+    Given that the present day theatre royal is a conglomeration of many different buildings from many different eras, I have choosen only to make Coopers Hall and I have also added arches to the sides and rear (aka the Old Vic in Waterloo, London) to give some visual interest to what would otherwise be blank walls.
+
+    In game it is presented as a CS$$$ that grows freely on a 2x3 lot on medium and high density zones. It provides 88 CS$$$ jobs
+
+    **STATS:**
+
+    Bulldoze Cost: $354
+
+    Jobs: CS$$$ 88 (CS$$217/C$858 whene dilapidated)
+
+    Pollution: 5 (air) /3 (water) /7 (garbage)
+
+    Radius: 6/7/0
+
+    Power Consumed: 25 MwH
+
+    Water Consumed: 220 Gallons
+
+    **DEPENDENCIES:** *(note that you must be registered with, and logged into, the SC4D* *Lex**)*
+
+    BSCBATPropsMattb325\_Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))
+
+    To install, simply unzip the contents into your plugins folder.
+
+    Thanks, and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/28144-coopers-hall/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/fa3024855a823a5b0db49f07e78bcd48-coopershall.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/3d7e8c4d517e42d35a178554bca4bfb9-coopershall1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/a91bb2911608e6bb15f1c449dec029e4-coopershall2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/7dd43c40edcf49da7b94804d60ae85f8-coopershall3.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+assets:
+  - assetId: mattb325-coopers-hall
+
+---
+assetId: mattb325-coopers-hall
+version: "1.0"
+lastModified: "2012-10-20T22:22:31Z"
+url: https://community.simtropolis.com/files/file/28144-coopers-hall/?do=download&r=107968

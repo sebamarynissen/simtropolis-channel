@@ -1,0 +1,83 @@
+group: mattb325
+name: chevrolet-dealership
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Chevrolet Dealership
+  description: |-
+    **Chevrolet Dealership, by Mattb325.**  
+    \---------------------------------------
+
+    All Chevrolet Car Dealerships have recently undergone a refurbishment across the United States, bringing a clean, modern look to the iconic US caryard.
+
+    Despite the use of Aluminium Composite Material panels on the façade in cobalt blue and silver, most of the Chevrolet Dealerships are still very bland, boxy structures when compared with  a lot of the other showrooms being built.
+
+    This lot is offered as a 4x4 C$$ lot. It does not grow on the Euro Tileset.
+
+    Use the control key while zoning to assist in getting the 4x4 size. An additional benefit of having a 4x4 lot is that as your city grows, its footprint can easily upgrade.
+
+    Stats, links and dependencies are listed below.
+
+    \---------------------------------------  
+    **STATS:**
+
+    Growth Stage:           2 (low/medium and high density zones)  
+    Bulldoze Cost:          $151  
+    Capacity Satisfied:  CS$ 599, CS$$ 152  
+    Pollution:                   5 (Air)/ 3 (Water)/ 7 (Garbage )  
+    Pollution Radius:      5/6/0  
+    Power Consumed:    12 Mwh  
+    Water Consumed:     147 Gal/Month  
+    Building Style:           Chicago/NY/Houston  
+    Occupant Group:      Commercial Car Dealership/Commercial Services Building
+
+    \---------------------------------------
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot or Desc files!
+
+    If you use the dark nite version, you will need a dark nite mod. Either: ([https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) OR ([http://gizmo.aplaceforwebsite.com/index.php](http://gizmo.aplaceforwebsite.com/index.php))
+
+    \---------------------------------------
+
+    **DEPENDENCIES:**
+
+    BSCBATPropsMattb325\_Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))  
+    BSC MEGA Prop Pack CP Vol02   ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    BSC Essentials                ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=443](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443))
+
+    \---------------------------------------
+
+    To install, simply unzip the file into your plugins folder.
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/30866-chevrolet-dealership/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Chevrolet.jpg.286f5e5286d6020c03a2ef9f87e16900.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Chevrolet1.jpg.7eb2fa87f7b9deb5ac8921237cd26585.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Chevrolet2.jpg.5dfeabfb54914295e55990d546e793ce.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:essentials
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-chevrolet-dealership
+        exclude:
+          - /DarkNite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-chevrolet-dealership
+        exclude:
+          - /MaxisNite/
+
+---
+assetId: mattb325-chevrolet-dealership
+version: "1.0"
+lastModified: "2015-12-16T21:06:26Z"
+url: https://community.simtropolis.com/files/file/30866-chevrolet-dealership/?do=download&r=159930

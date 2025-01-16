@@ -1,0 +1,95 @@
+group: mattb325
+name: modern-audi-dealership
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Modern Audi Dealership
+  description: |-
+    **Audi Dealership, by Mattb325.**  
+    \---------------------------------------
+
+    Since approximately 2009, Audi dealerships have undergone refurbishments to a design standard known as 'Audi Terminal'.
+
+    The design is very similar the world over - an Audi Dealership that adheres to the 'Audi Terminal' standard will roughly look the same regardless of whether it is in Sydney, Orlando, London or Mumbai.
+
+    Audi’s new 'terminal' dealerships combine the efficiency, performance and luxury that the brand has become known for in its vehicles. They are ultra-modern, clad in corrugated, perforated steel and aluminium with angled plate-glass windows for maximum light within the showroom.
+
+    Like Audi’s vehicles, the new Audi terminal dealerships are crafted with efficiency in mind. The square, stackable design of the showroom efficiently uses space in both a crowded urban downtown setting and an open suburban community. The showroom literally fits as perfectly into the third floor of Chicago sky-rise building as it does off a California highway.
+
+    This lot is offered as a 3x3 and 4x4 high-wealth C$$$ lot.
+
+    Use the control key while zoning to assist in getting the 4x4 size. An additional benefit of having a 4x4 lot is that as your city grows, its footprint can easily upgrade.
+
+    Stats, links and dependencies are listed below.
+
+    \---------------------------------------  
+    **STATS:**
+
+    Growth Stage:          2 & 3 (low/medium and high density zones)  
+    Bulldoze Cost:         $249  
+    Capacity Satisfied:  CS$ 788, CS$$ 199, CS$$$82  
+    Pollution:                  5 (Air)/ 3 (Water)/ 7 (Garbage )  
+    Pollution Radius:     6/7/0  
+    Power Consumed:  23 Mwh  
+    Water Consumed:   203 Gal/Month  
+    Building Style:          Chicago/NY/Houston/Euro  
+    Occupant Group:     Commercial Car Dealership/Commercial Services Building
+
+    \---------------------------------------
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.  
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot, Prop or Desc files (which are in their own sub-folder)!
+
+    If you use the dark nite version, you will need a dark nite mod. Either:
+
+    ([https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) OR
+
+    ([http://gizmo.aplaceforwebsite.com/index.php](http://gizmo.aplaceforwebsite.com/index.php))
+
+    \---------------------------------------
+
+    **DEPENDENCIES:**
+
+    BSCBATPropsMattb325\_Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))  
+    BSCBATPropsMattb325\_Vol03.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2768](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2768))  
+    BSC MEGA Prop Pack CP Vol02   ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    BSC Essentials                ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=443](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443))
+
+    To install, simply unzip the file into your plugins folder.
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/30871-modern-audi-dealership/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi.jpg.ba961e5235d624df04de8bd29e9e5b47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi1.jpg.c6244ff3a6066a181ff5d381ac6179dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi2.jpg.9d98e3ba36aac09db03c4069cd9168ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi3.jpg.2690df5d7eec845d962f936e1e493314.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi4.jpg.f838f55c6eb21c3cd7cd9419d43a9903.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi5.jpg.a8b075e28dbde41e68848cf98aeae824.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi6.jpg.1fa766af513edb41f9cf808e5cc9ded8.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:essentials
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-modern-audi-dealership
+        exclude:
+          - /DarkNite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-modern-audi-dealership
+        exclude:
+          - /MaxisNite/
+
+---
+assetId: mattb325-modern-audi-dealership
+version: "1.0"
+lastModified: "2015-12-19T06:13:17Z"
+url: https://community.simtropolis.com/files/file/30871-modern-audi-dealership/?do=download&r=159951

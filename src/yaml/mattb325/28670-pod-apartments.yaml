@@ -1,0 +1,96 @@
+group: mattb325
+name: pod-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: POD Apartments
+  description: |-
+    A purely fictional creation, POD apartments is inspired by a recent Development Application approval drawing for a new infill building in Sydney's inner city suburb of Chippendale.
+
+    This modern building, while edgily futuristic, has an element of organic flow with the addition of round-edged and angled fibre-glass panels to the façade.
+
+    In real life it will sit cheek-by-jowl alongside 19th warehouses and late 20th apartments. Happily it also blends into many streetscapes in SC4 as well.
+
+    It is available on a 4x2, 4x3, 4x4 and 6x6 lot.
+
+    It is designed to grow on medium and high densities but is limited to the Houston and European tile sets only.
+
+    **PLEASE NOTE THAT THERE IS A MAXIS NIGHT AND DARK NIGHT VERSION INCLUDED. YOU CAN USE ONLY ONE MODEL FILE AT A TIME.**
+
+    **STATS( 4x2 and 4x3 lots):**
+
+    Capacity Satisfied: R$$ 510 (R$921 when dilapidated)
+
+    Flammability: 40
+
+    Growth Stages: 5 & 6
+
+    Bulldoze Cost: $438
+
+    Pollution: 4/2/4
+
+    Pollution Radius: 5/6/0
+
+    Power Consumed: 7 Mwh
+
+    Water Consumed: 20 Gallons
+
+    **STATS (4x4 and 6x6 lots):**
+
+    Capacity Satisfied: R$$ 1,151 (R$2,083 when dilapidated)
+
+    Flammability: 40
+
+    Growth Stages: 5 & 6
+
+    Bulldoze Cost: $724
+
+    Pollution: 9/4/4
+
+    Pollution Radius: 5/6/0
+
+    Power Consumed: 16 Mwh
+
+    Water Consumed: 43 Gallons
+
+    **DEPENDENCIES:** *(note that you must be registered with, and logged into, the SC4 Devotion* *LEX* *to download these)*
+
+    BSC BAT Props Mattb325 Vol02 ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))
+
+    BSC MEGA Props CP Vol01 ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))
+
+    BSC MEGA Props CP Vol02 ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    BSC TexturePack Cycledogg V01b ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)).
+
+    *To install, simply unzip the file and select either the DarkNite or MaxisNite model files (only one can be used) into your plugins folder.*
+
+    Thankyou and enjoy.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/28670-pod-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/8b3967a59ac5bf6a5e8d2ace89906906-pod.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/589bc16905f737d2dd8a47cd2dc47deb-pod1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/356ed7e1f0036f4af1e71e3868a15142-pod2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/b2d3173434563516b9dafbd86568a9e7-pod3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/b9cdd39f9b923c71af65023afff1c3b0-pod4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/d28bcd18768f36f562485f7379a0a039-pod5.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pod-apartments
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pod-apartments
+
+---
+assetId: mattb325-pod-apartments
+version: "1.0"
+lastModified: "2013-04-27T23:21:17Z"
+url: https://community.simtropolis.com/files/file/28670-pod-apartments/?do=download&r=114459
