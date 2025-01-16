@@ -112,5 +112,12 @@ function getSimtropolisId(href) {
 			.at(-1)
 			.split('-')
 			.at(0);
+	} else if (url.pathname.startsWith('/forum/files/file/')) {
+		return url.pathname
+			.replace(/\/$/, '')
+			.split('/')
+			.at(-1)
+			.split('-')
+			.at(0);
 	}
 }
