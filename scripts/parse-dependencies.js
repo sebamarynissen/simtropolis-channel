@@ -1,10 +1,13 @@
 // # parse-dependencies.js
+// Some urls that are often used as dependency, but which or not included on the 
+// channels, so we match them "as is".
 const urls = {
 	'http://kurier.simcityplaza.de/details.php?file=5': 'sfbt:essentials',
 	'http://kurier.simcityplaza.de/details.php?file=305': 'maxis:buildings-as-props',
 	'https://community.simtropolis.com/Documents/RR%20MEGA%20Prop%20Pack%20Vol.%202.3.3': 'rretail:mega-prop-pack-vol2',
 	'https://community.simtropolis.com/sc4-maxis-files/': 'maxis:buildings-as-props',
 	'https://www.simtropolis.com/stex/index.cfm?page=1&keyword=bsc%20peg&type=all': 'bsc:textures-vol01',
+	'https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/': 'supershk:mega-parking-textures',
 };
 
 export default function parseDependencies(index, links) {
