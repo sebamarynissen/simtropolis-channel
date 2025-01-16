@@ -1,0 +1,109 @@
+group: mattb325
+name: canadian-bitters-factory
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Canadian Bitters Factory
+  description: |-
+    **Canadian Bitters Factory by Mattb325.  
+    \---------------------------------------**
+
+    When your mouth-hole behaves more like your a-hole and forces your friends and associates to run the other way, then it is high time to consider a dose of Canadian Bitters.
+
+    According to the product blurbs, this herb-derived tonic is for individuals who suffer from '*flatulent dyspepsia, gas and bloating*'.
+
+    The product is real, but the factory is just fictional; however it draws on real life structures which would typically be involved with the manufacture of such products.  
+       
+    At the front of the building is a small reception area which leads to the main factory and delivery/dispatch area where vats simmer the bitter herbs for bottling and transport.   
+    The top floor is for offices and the remaining floors are generally storage/staff amenities.
+
+    The building is offered as an I-M growable Anchor and as a CS§§ growable (imagine that the factory has been converted to a cafe and other mixed uses) which is suitable for W2W environments. The neon sign ensures this building really shines at night and adds a nice counter-point to the bats of other industry giants such as Jestarr, Gascooker, CP, Simhottody, Tag One, Fukuda and Simgoober.
+
+    Both lots are 2x2.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  2x2  
+    Growth Stage:         4 (Medium & High Density Zoning)  
+    Bulldoze Cost:         § 415  
+    Capacity Satisfied: CS§ 399, CS§§ 102  
+    Pollution:                 3 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 8 Mwh  
+    Water Consumed:  99 Gal/Month  
+    Building Style:         Euro/Chicago/New York/Houston  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **STATS I-M:**
+
+    Lot size :                  2x2  
+    Growth Stage:         3 (High Density Zoning)  
+    Bulldoze Cost:         § 477  
+    Capacity Satisfied:  I-M 76  
+    Pollution:                  4 (Air)/ 3 (Water)/ 4 (Garbage )  
+    Pollution Radius:     9/13/0  
+    Power Consumed:  5 Mwh  
+    Water Consumed:   68 Gal/Month  
+    Occupant Group:     Industrial Manufacturing Anchor Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    \---------------------------------------
+
+    DEPENDENCIES:
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    \---------------------------------------
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33177-canadian-bitters-factory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters.jpg.8e8d57a34188e70f5a3444f216007e0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters1.jpg.ba93638c92a6714fe0347d3a9d922dda.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters2.jpg.a8a158cfe4f4183306a6cd620d47c507.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters3.jpg.1531fc9b5e48cdbd452cdc81746cb46d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters4.jpg.faf12d0ef81a2cbe439843c8955c967e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters5.jpg.a35731160b366bcefc6edd917c709642.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters6.jpg.0fa53c07345541dc965f030bb26becb6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters7.jpg.aefbe9258b4351caa0795bc293896c68.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters8.jpg.f057c00d8e6c512aa8edee96ca1cc11f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-canadian-bitters-factory-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-canadian-bitters-factory-darknite
+
+---
+assetId: mattb325-canadian-bitters-factory-darknite
+version: "1.0.0"
+lastModified: "2019-09-17T03:23:59Z"
+url: https://community.simtropolis.com/files/file/33177-canadian-bitters-factory/?do=download&r=177831
+
+---
+assetId: mattb325-canadian-bitters-factory-maxisnite
+version: "1.0.0"
+lastModified: "2019-09-17T03:23:59Z"
+url: https://community.simtropolis.com/files/file/33177-canadian-bitters-factory/?do=download&r=177832

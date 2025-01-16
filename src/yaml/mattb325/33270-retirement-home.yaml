@@ -1,0 +1,84 @@
+group: mattb325
+name: retirement-home
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Retirement Home
+  description: |-
+    **Emmaus Retirement Home, by Mattb325.  
+    \---------------------------------------**
+
+    This is based on a real building from Italy.
+
+    The *Casa Di Riposo Emmaus* Retirement Home is offered as a non conditional reward that offers health benefits, 120 jobs in all wealth levels, Residential CAP relief, commercial desirability and residential desirability for your cities.
+
+    While the building is not a 100% recreation of the real one, the BAT is reasonably faithful to the Streamline Moderne style that was popular in the middle of the 20th Century. This BAT works really well in Wall to Wall environments by being able to break up the double row of 1x2 lots with its dual street frontages (the actual lot is 3x4), but as I have modeled windows and other features on all sides, it works equally well in any other situation.
+
+    The lot is found in the Rewards menu. It can be placed as many times as you want without having met any prior conditions. It also doesn't over-write any other rewards.
+
+    **\---------------------------------------**
+
+    **STATS RETIREMENT HOME:**
+
+    Lot Size:                  3x4  
+    Occupant Groups: Reward, Health Other, Cemetery (*the building is named 'Emmaus' after all!*), Dog Magnet  
+    Plop Cost:               § 6,100  
+    Jobs:                       Jobs§ 40; Jobs§§ 70; Jobs§§§ 10  
+    CAP Relief:             R§ 20,000; R§§§ 180,000  
+    Landmark Effect:  +80 over 30 tiles  
+    Park Effect:            +80 over 30 tiles  
+    Bulldoze Cost:       § 560  
+    Power Consumption: 3 MWh  
+    Water Consumption:  56 Gal/month  
+    Pollution:                  1 (Air)/ 2 (Water)/ 11 (Garbage )  
+    Pollution Radius:     2/3/0  
+    Budget Item Cost:   § 30
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file requires no dependencies
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33270-retirement-home/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus.jpg.5ef50d11b491c7e1b4ec4bb765295ba2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus1.jpg.4545434b7416c1ba9b1b7f74a527dc4a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus2.jpg.d2cb7366da5952cd524e93e0a8fdc7df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus3.jpg.3ad94abbd6b8d272ee09a4d814d8ea47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus4.jpg.665ea2613c6d4f3d8c746078f747d922.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus4a.jpg.ee1e4e05e2f81587de25f2e528bdc4e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus5.jpg.467fe31dd398902a652c7684d0b38a73.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus6.jpg.d3c9b68f7e590acb992305d2a92c21a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Emmaus7.jpg.ba7193c60dcc685622f85564cbf3fce2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-retirement-home-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-retirement-home-darknite
+
+---
+assetId: mattb325-retirement-home-darknite
+version: "1.0.0"
+lastModified: "2019-11-01T02:18:21Z"
+url: https://community.simtropolis.com/files/file/33270-retirement-home/?do=download&r=178510
+
+---
+assetId: mattb325-retirement-home-maxisnite
+version: "1.0.0"
+lastModified: "2019-11-01T02:18:21Z"
+url: https://community.simtropolis.com/files/file/33270-retirement-home/?do=download&r=178511
