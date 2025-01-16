@@ -1,0 +1,83 @@
+group: mattb325
+name: the-like-factory
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: The Like Factory
+  description: |-
+    **The Like Factory, by Mattb325.  
+    \---------------------------------------**
+
+    I recently saw some ads for companies offering to provide social media users (facebook/bloggers, etc) 'likes' for their posts or product placements for money.
+
+    What has the world come to when a 'like' can carry currency and be used to skew data, user preferences, and so on? ![*:P](https://community.simtropolis.com/assets/emoticons/default_3.gif "*:P")
+
+    In reality these companies would use platforms like airtasker/taskrabbit/service seeking etc to farm out piece-meal work in the gig economy to under-employed people willing to work for peanuts (or worse, people who actually think that such actions make a real difference), but my twisted sense of humor rather prefers the notion of a bland industrial unit full of folks slaving away clicking 'like' on old inane posts, old files etc, all day long.
+
+    At any rate, it is not intended to be a 'serious' building but was rather an excuse to make another little IH-T building to compete with Maxis' stuff...there are still so few IH-T lots available. This is a growable building; it has been modded to not not become too weedy.
+
+    **\---------------------------------------**
+
+    **STATS IH-T§§§:**
+
+    Lot size :                    4x4 (Use the CTRL key when zoning)  
+    Growth Stage:         2 (Medium and High Density Zoning)  
+    Bulldoze Cost:          § 326  
+    Capacity Satisfied:  IHT§§§ 272  
+    Pollution:                    6 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed:  49 Mwh  
+    Water Consumed:   46 Gal/Month  
+    Occupant Group:    Hi Tech Industrial Anchor Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.   
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot File!
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks, and enjoy!
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33946-the-like-factory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like.jpg.16c8bad88adef50ef385b9107b5fbea0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like1.jpg.9e840fe71e48b9733a2312cc790b4e2f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like2.jpg.c742798004228405a9ea13f1a58f5e66.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like3.jpg.daac35089365624d4c826d2aba0ccd79.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-the-like-factory-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-the-like-factory-darknite
+
+---
+assetId: mattb325-the-like-factory-darknite
+version: "1.0.0"
+lastModified: "2020-11-09T19:24:02Z"
+url: https://community.simtropolis.com/files/file/33946-the-like-factory/?do=download&r=183661
+
+---
+assetId: mattb325-the-like-factory-maxisnite
+version: "1.0.0"
+lastModified: "2020-11-09T19:24:02Z"
+url: https://community.simtropolis.com/files/file/33946-the-like-factory/?do=download&r=183662

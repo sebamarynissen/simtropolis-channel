@@ -1,0 +1,96 @@
+group: mattb325
+name: far-3-rail-and-subway-station
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: FAR-3 Rail and Subway Station
+  description: |-
+    **FAR\-3 Rail and Subway Station Transport Hub, by Mattb325.  
+    \---------------------------------------**
+
+    This is a fictional through rail and subway station designed to provide transport links with the FAR\-3 railway network.
+
+    There are two separate stations provided to enable placement along each rotation of the FAR\-3 railway network. The lot size is 1x2 and the stations are found adjacent to each other in the railway menu.
+
+    The platform area is a large overhanging prop and each station also provides a link to the subway and bus network. You do not have to link the subway or bus functions if you don't want to; the station functions perfectly with just a rail and road connection. The stations also enable freight trains to pass through. However, a bus connection enables sims to use other bus stops on your city tile to get to the station.
+
+    The capacity of the station is 140,000.
+
+    To place, simply line up the station with the correct piece of FAR\-3 track  - the tracks are 3 tiles long and the station is designed to fit comfortably adjacent to one of these 3 tiles - and plop. You then repeat the process on the other side of the tracks. Or you can leave the other side blank if you wish, either option works just fine. If you have used either the ortho or diagonal versions of this station, then you are familiar with how flexible and easy these are to use.
+
+    You can then use car park fillers, ped mall pieces, parks/mmps or just plain old zoning to decorate the surrounding area as per the pictures.
+
+    The stations also provide 12 jobs: there are underground stairways adjacent to the entrance to provide access from one platform to another or just to cross the tracks :-)
+
+    **\---------------------------------------**
+
+    **STATS FAR Station & Subway:**
+
+    Lot size :               1 x 2  
+    Plop Cost:             §200  
+    Monthly Cost:      §5  
+    Budget Item:          Mass Transit  
+    Menu:                        Rail   
+    Capacity:                 140,000  
+    Demand Created:  Jobs§: 10, Jobs§§: 2, Jobs§§§: 0.  
+    Pollution:                  Air 1 over 1 tiles, Water 1 over 1 tiles, Garbage 2 over 0 tiles  
+    Power consumed: 3 MwH  
+    Water consumed:  2 Gallons/Month  
+    Occ Groups:            Transportation, Rail, Strikeable Transit, Taxi Maker, Passenger Rail, Bus, Subway.  
+    Bulldoze Cost:         §10
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.   
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot File!
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies (but is pointless without newer versions of the NAM)
+
+    **\---------------------------------------**
+
+    **OPTIONAL DEPENDENCIES:**
+
+    \*SC4Fix: third-party patches (https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/). If you use the NAM, you will want this file as it eliminates the CTD bug that causes the game to crash when network/transit enabled lots are hovered over each other.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33950-far-3-rail-and-subway-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail.jpg.e55d299958ed288df789236ed60be7ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail1_lg.jpg.2592856f6e6e3ac5e452f3d43025f4c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail2_lg.jpg.7679459d552d597550f7587cd968d3f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail3_lg.jpg.b2b9cfe4548506d8a144faf6905b9998.jpg
+dependencies:
+  - simmaster07:sc4fix
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-far-3-rail-and-subway-station-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-far-3-rail-and-subway-station-darknite
+
+---
+assetId: mattb325-far-3-rail-and-subway-station-darknite
+version: "1.0.0"
+lastModified: "2020-11-10T19:26:15Z"
+url: https://community.simtropolis.com/files/file/33950-far-3-rail-and-subway-station/?do=download&r=183684
+
+---
+assetId: mattb325-far-3-rail-and-subway-station-maxisnite
+version: "1.0.0"
+lastModified: "2020-11-10T19:26:15Z"
+url: https://community.simtropolis.com/files/file/33950-far-3-rail-and-subway-station/?do=download&r=183685

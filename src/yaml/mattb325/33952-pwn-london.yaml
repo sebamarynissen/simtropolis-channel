@@ -1,0 +1,100 @@
+group: mattb325
+name: pwn-london
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: PWN London
+  description: |-
+    **PWN London, by Mattb325.  
+    \---------------------------------------**
+
+    Inspired by the squat and dumpy newer buildings that litter London's west end, the PWN building is a really useful 2x2 building that I made to cap off W2W streets, as you can see in the picture: but it works equally well as a standalone building or in a more typical W2W setting.
+
+    The building is real, but the sign is just made up (based on the initials of one of the tenants in the building...I couldn't resist). It is a six story, red-brick, limestone, steel and glass box which attempts to convey more complex massing by providing subtle bays along the secondary street elevations.
+
+    The lot comes in two flavours: a growable Medium-Wealth Commercial Services and a ploppable Clinic, which is found in the Health Menu and is better than the in-game large hospital in terms of capacity (3,700) and coverage (856) radius. The clinic also provides up to 129 civic jobs.
+
+    For a small footprint hospital, this one certainly punches (some might say 'PWNs') above its weight.
+
+    Both lots are 2x2.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                     2x2  
+    Growth Stage:          6 (Medium and High Density Zoning)  
+    Bulldoze Cost:          §432  
+    Capacity Satisfied:  CS§ 761, CS§§192  
+    Pollution:                     7 (Air)/ 4 (Water)/ 9 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:   16 Mwh  
+    Water Consumed:    186 Gal/Month  
+    Building Style:            Chicago/NY/Houston/Euro  
+    Occupant Group:     Commercial Services Building
+
+    **STATS CLINIC:**
+
+    Lot Size:                     2x2  
+    Occupant Groups: Civic, Health, Strikeable Health, Hospital, Ambulance Maker  
+    Plop Cost:                  §2,300    
+    Jobs:                           Jobs§29; Jobs§§76; Jobs§§§24  
+    Bulldoze Cost:          §120  
+    Power Consumption:  7 MWh  
+    Water Consumption:  26 Gal/month  
+    Pollution:                     3 (Air)/ 2 (Water)/ 1 (Garbage )  
+    Pollution Radius:      3/4/0  
+    Hospital Coverage Radius:    856  
+    Hospital Pop vs. Distance:    100 / 100  
+    Hospital Effect vs. Ave Age:    8 / 8  
+    Hospital Patient Capacity:    3,700  
+    Hospital HQ Boost:        11.52  
+    Catalog Monthly Cost:        § 1,100 / § 100
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.   
+    You must keep only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. Regardless of which file you choose to keep, make sure you DO NOT delete the Lot File!
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks, and enjoy!
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33952-pwn-london/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/PWN.jpg.18dc797882f1adfce417ad88a741adab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/PWN1.jpg.559cd9e0169ee33543041e43cdf92fad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/PWN2.jpg.c08a6ea3722f7923a63d1c1cebdb0f6e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/PWN3.jpg.8d7d67bad5821799d5bc4849c5fbe3f2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pwn-london-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pwn-london-darknite
+
+---
+assetId: mattb325-pwn-london-darknite
+version: "1.0.0"
+lastModified: "2020-11-10T20:35:19Z"
+url: https://community.simtropolis.com/files/file/33952-pwn-london/?do=download&r=183709
+
+---
+assetId: mattb325-pwn-london-maxisnite
+version: "1.0.0"
+lastModified: "2020-11-10T20:35:19Z"
+url: https://community.simtropolis.com/files/file/33952-pwn-london/?do=download&r=183710
