@@ -1,0 +1,105 @@
+group: mattb325
+name: cg-trader
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: CG Trader
+  description: |-
+    **CG Trader, by Mattb325.  
+    \---------------------------------------**
+
+    This smaller building is useful for more suburban areas.
+
+    CG Trader is a company that specialises in the exchange of 3d models, many of which end up in city building games like SC4 (typically without any credit to the original artists who made them), so I thought it was high-time that the offices had a presence in game.
+
+    The building was loosely inspired by one of the buildings on the same street as CG Trader's Israel office. It is a 6-floor building with a decorative mesh brise-soleil in a distinctive dusky blue and white ombré look. Angled walls and different projections, roof spaces and courtyards help to break up the facade.
+
+    It grows on a 3x4 or 5x5 lot.
+
+    The 5x5 lot is arranged as a leafy campus-style building which, though popular in the real world, is still somewhat sparse in SC4.
+
+    The building(s) are medium-wealth commercial services offerings on all tilesets.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                 3x4   
+    Growth Stage:        3 (Low, Medium & High Density)  
+    Bulldoze Cost:        § 368  
+    Capacity Satisfied: CS§ 1,059, CS§§ 267  
+    Pollution:                 29 (Air)/ 6 (Water)/ 13 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 22 Mwh  
+    Water Consumed:  258 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    Medium Wealth CS
+
+    Lot size :                 5x5 (Use the CTRL key when zoning)  
+    Growth Stage:        2 (Low, Medium & High Density)  
+    Bulldoze Cost:        § 538  
+    Capacity Satisfied: CS§ 3,170, CS§§ 795  
+    Pollution:                 64 (Air)/ 13 (Water)/ 39 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 64 Mwh  
+    Water Consumed:  764 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    Medium Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Street Planters and Benches ([https://community.simtropolis.com/files/file/33284-street-planters-and-benches/](https://community.simtropolis.com/files/file/33284-street-planters-and-benches/))  
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33496-cg-trader/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/CGTrader3x4.jpg.a40a3bfa56a81683fa2b35dcfbe655c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/CGTrader5x5(1).jpg.3129c41cde8db82a0397c1dfddc41575.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/CGTrader5x5(2).jpg.99ab99e3027290b5fccefc38384e3d21.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/CGTrader5x5(3).jpg.4a3f54e52c14e60e789f33f8c7efe336.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/CGTrader5x5(4).jpg.ffd82dbaa76d374eed0304c9123da5e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/CGTrader5x5.jpg.a4314a87bc7d71e90450c3818ec6e2b7.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:street-planters-and-benches
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-cg-trader-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-cg-trader-darknite
+
+---
+assetId: mattb325-cg-trader-darknite
+version: "1.0.0"
+lastModified: "2020-03-13T22:02:34Z"
+url: https://community.simtropolis.com/files/file/33496-cg-trader/?do=download&r=180064
+
+---
+assetId: mattb325-cg-trader-maxisnite
+version: "1.0.0"
+lastModified: "2020-03-13T22:02:34Z"
+url: https://community.simtropolis.com/files/file/33496-cg-trader/?do=download&r=180065

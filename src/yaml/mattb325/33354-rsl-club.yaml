@@ -1,0 +1,99 @@
+group: mattb325
+name: rsl-club
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: RSL Club
+  description: |-
+    **The Returned and Services League (RSL), by Mattb325.  
+    \---------------------------------------**
+
+    In Australia, RSL clubs are to be found in every large town and suburb.
+
+    The Returned & Services League is similar to the American Ex-Servicemen's Association or the British Legion Club. The RSL was initially established after WWI to look after the welfare of returned service men and women and their dependents.
+
+    Although quite conservative, the RSL's mission is to ensure programs are in place for the well-being, care, compensation and commemoration of serving and ex-service Defence Force members and their dependents; and to promote Government and community awareness of the need for a secure, stable and progressive Australia.
+
+    The Licensed clubs that are so visible throughout Australia (of which this building is one) were formed to provide services and hospitality for war veterans to celebrate the ANZAC spirit and build on their wartime comradeship.
+
+    Licensed clubs operating under the RSL banner usually have discounted bar and dining facilities for their members and guests, and sometimes have extensive gambling areas. In licensed RSL clubs, each evening at 6 pm "The Ode" is read, followed by one minute's silence to honour those who died serving their country.
+
+    Profits from these commercial ventures are generally returned via donations to community programs.
+
+    There are two 5x5 corner lots with this download. Both corners are covered and grow reasonably easily (Use the CTRL Key while zoning to get the correct lot size). As shown by the pictures, each lot has a slightly different car park configuration to give  a bit of variety. The building even has a small internal, tree filled courtyard where ANZAC day memorials are held.
+
+    If you want this as a ploppable, I recommend downloading buggis extra cheats and then selecting it via the 'buildingplop' option.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§:**
+
+    Lot size :                 5x5  
+    Growth Stage:        1 & 2 (Low, Medium & High Density Zoning)  
+    Bulldoze Cost:        § 174  
+    Capacity Satisfied:CS§ 1,118, CS§§ 282, CS§§§ 115  
+    Pollution:                7 (Air)/ 5 (Water)/ 10 (Garbage )  
+    Pollution Radius:   5/6/0  
+    Power Consumed:32 Mwh  
+    Water Consumed: 285 Gal/Month  
+    Building Style:        Chicago/NY/Houston/Euro  
+    Occupant Group:   High Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    Select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins.
+
+    \*SuperSHK Parking Textures Vol01: ([https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/](https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/))
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))
+
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33354-rsl-club/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/RSL.jpg.523e5c7fc3ad9bd31721c66c62e5b46c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/RSL1.jpg.5e5810c531f5d4c49354c4f77005379c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/RSL2.jpg.f56055d9bc7f89e89320927d72afb89b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/RSL3.jpg.aa062cf032859ed4b9804d03e7624cb0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/RSL3a.jpg.e1b109514f76f221c113701bfcebd202.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/RSL4.jpg.ecad29a7b0153eec0f6875c2fc987ddc.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-rsl-club-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-rsl-club-darknite
+
+---
+assetId: mattb325-rsl-club-darknite
+version: "1.0.0"
+lastModified: "2019-12-24T20:05:39Z"
+url: https://community.simtropolis.com/files/file/33354-rsl-club/?do=download&r=179344
+
+---
+assetId: mattb325-rsl-club-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-24T20:05:39Z"
+url: https://community.simtropolis.com/files/file/33354-rsl-club/?do=download&r=179345

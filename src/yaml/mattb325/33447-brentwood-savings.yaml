@@ -1,0 +1,92 @@
+group: mattb325
+name: brentwood-savings
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Brentwood Savings
+  description: |-
+    **Brentwood Savings, by Mattb325.  
+    \---------------------------------------**
+
+    Another mid-century mid-rise from Los Angeles, Brentwood Savings and Loans was situated on San Vicente Blvd. This 7 floor building, constructed in the early 1960's, still stands today, although the concrete panels have all been painted and it is now named the Comercia Bank.
+
+    Typical of the mid-century design, the main tower part of the building sits atop a wider podium level with exposed columns at both transition areas to lend a 'lightness' of construction quality to the design. Another piece in the playbook of modernist style is the wall sculpture that adorns the main entrance. Vertical fins and rounded, recessed window concrete panels give a nod to the brutalist (brutalist meaning '*béton brut*' as opposed to '*brutal*').
+
+    I have taken some liberties with the building; dispensing with the joined car-park and interlocking courtyards to ensure that this will fit on a smaller sized lot.
+
+    It is offered as a growable only CS§§§ 3x2 and CO§§§ 2x3 covering both corner lots.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§:**
+
+    Lot size :                  3x2  
+    Growth Stage:         5 (Medium & High Density Zoning)  
+    Bulldoze Cost:         § 467  
+    Capacity Satisfied:  CS§ 976, CS§§ 246, CS§§§ 100  
+    Pollution:                  6 (Air)/ 4 (Water)/ 8 (Garbage )  
+    Pollution Radius:     6/7/0  
+    Power Consumed:  28 Mwh  
+    Water Consumed:   250 Gal/Month  
+    Building Style:          Chicago, New York, Houston, Euro  
+    Occupant Group:     High Wealth CS
+
+    **STATS CO§§§:**
+
+    Lot size :                  2x3  
+    Growth Stage:         5 (Medium & High Density Zoning)  
+    Bulldoze Cost:         § 467  
+    Capacity Satisfied:  CO§§ 364, CO§§§ 255  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 11 Mwh  
+    Water Consumed:  124 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    High Wealth CO  
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33447-brentwood-savings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/BrentwoodSavings.jpg.07ca66de4c0d547ee89624fedda3bf7f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/BrentwoodSavings1.jpg.4322817d90c703fd3c10f3bca0d099fb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/BrentwoodSavings2.jpg.0868d5842940b1e5b90212dbf912c2bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/BrentwoodSavings3.jpg.5fbff68615398a3439a0c90751e628a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/BrentwoodSavings4.jpg.fe9ee90f325677b94c639ed55d745034.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-brentwood-savings-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-brentwood-savings-darknite
+
+---
+assetId: mattb325-brentwood-savings-darknite
+version: "1.0.0"
+lastModified: "2020-02-15T23:12:54Z"
+url: https://community.simtropolis.com/files/file/33447-brentwood-savings/?do=download&r=179860
+
+---
+assetId: mattb325-brentwood-savings-maxisnite
+version: "1.0.0"
+lastModified: "2020-02-15T23:12:54Z"
+url: https://community.simtropolis.com/files/file/33447-brentwood-savings/?do=download&r=179861

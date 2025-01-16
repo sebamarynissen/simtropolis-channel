@@ -1,0 +1,80 @@
+group: mattb325
+name: salvatore-ferragamo-store-ginza-tokyo
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Salvatore Ferragamo store, Ginza, Tokyo
+  description: |-
+    **Salvatore Ferragamo, Tokyo, by Mattb325.  
+    \---------------------------------------**
+
+    This is a corner Wall to wall (W2W) building from the main shopping street in Tokyo's Ginza district that caught my eye.
+
+    It is not a strict recreation - the 16m2 constraints of SC4 make that too challenging - but is a reasonable interpretation.   
+    The main shopping streets of Ginza have a huge variety of taller W2W buildings and are constantly receiving facade updates to keep up with the latest fashions and trends. Salvatore Ferragamo's Tokyo flagship store is no different, having received a striking, randomly arranged, ribbed bronze and copper-paneled makeover a few years ago. Together with the staggered LED light box strips, this treatment gives the building a feeling of the interior of a luxury bespoke custom dressing room. (Salvatore Ferragamo makes and sells clothing accessories).
+
+    At 9 floors, this will still blend in with older, traditional streetscapes (as per the pictures which show a variety of new and old BATs) and is offered as a growable 1x1 lot for medium and high density zones on the Houston tileset to ensure that it does not become weedy.
+
+    Both corners are covered with the lot variations.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                 1x1  
+    Growth Stage:        6 (Medium & High Density Zoning)  
+    Bulldoze Cost:        § 528  
+    Capacity Satisfied:CS§ 152, CS§§ 40,   
+    Pollution:                1 (Air)/ 1 (Water)/ 4(Garbage )  
+    Pollution Radius:   5/6/0  
+    Power Consumed:4 Mwh  
+    Water Consumed: 40 Gal/Month  
+    Building Style:        Houston  
+    Occupant Group:   Medium Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33319-salvatore-ferragamo-store-ginza-tokyo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SalvatoreFerragamo.jpg.be9d29fd432ab05a9cce9639483a52e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SalvatoreFerragamo1.jpg.07e7e7af0dc643e660687e01a2311783.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SalvatoreFerragamo2.jpg.47e315192e62c9aa13c737884a36a066.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SalvatoreFerragamo3.jpg.58e7bbe686994891a76f41ef2307215f.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-salvatore-ferragamo-store-ginza-tokyo-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-salvatore-ferragamo-store-ginza-tokyo-darknite
+
+---
+assetId: mattb325-salvatore-ferragamo-store-ginza-tokyo-darknite
+version: "1.0.0"
+lastModified: "2019-12-09T20:00:30Z"
+url: https://community.simtropolis.com/files/file/33319-salvatore-ferragamo-store-ginza-tokyo/?do=download&r=179106
+
+---
+assetId: mattb325-salvatore-ferragamo-store-ginza-tokyo-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-09T20:00:30Z"
+url: https://community.simtropolis.com/files/file/33319-salvatore-ferragamo-store-ginza-tokyo/?do=download&r=179107
