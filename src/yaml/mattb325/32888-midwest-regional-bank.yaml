@@ -1,0 +1,99 @@
+group: mattb325
+name: midwest-regional-bank
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Midwest Regional Bank
+  description: |-
+    **Midwest Regional Bank, Clayton MO, by Mattb325.  
+    \---------------------------------------**
+
+    Having received a tip-off from a user on Simtropolis that Clayton, MO would have a number of buildings that might interest me, one such unusually shaped building that caught my eye on Google Street View was a branch of the Midwest Regional Bank.  
+    This is a really eye-catching mid-century mid-rise building that definitely helps break the grid when it grows. It isn't a strict recreation as I have deliberately shortened the red-roofed entrance area to fit the building onto a smaller 2 tile deep footprint.  
+    Also, with thanks to another member on SC4Devotion, the building has been rotated and turned into an overhanging prop so that it can be plopped to conform with the NAM 2x2 curve piece. It also works with the larger curve, as the images show.
+
+    Collaboration is indeed alive and well.
+
+    The building is offered in two different and two unique model formats.
+
+    1) A CS§§ growable on a 3x2 lot providing 167 jobs.
+
+    2) A ploppable CS§§ overhanging 1x1 lot that is rotated and conforms to the NAM 2x2 curve piece. It also provides 167 jobs and is found in the landmarks menu.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                   3x2  
+    Growth Stage:          4 (Low, Medium and High Density Zoning)  
+    Bulldoze Cost:          § 402  
+    Capacity Satisfied:  CS§ 660, CS§§ 167  
+    Pollution:                   6 (Air)/ 4 (Water)/ 8 (Garbage )  
+    Pollution Radius:      5/6/0  
+    Power Consumed:   14 Mwh  
+    Water Consumed:    162 Gal/Month  
+    Building Style:           Euro/Chicago/New York/Houston  
+    Occupant Group:      Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **STATS CS§§ PLOPPABLE:**
+
+    Lot size :                 1x1  
+    Plop Cost:              § 1,240  
+    Bulldoze Cost:       § 1,063  
+    Capacity Satisfied:  CS§ 660, CS§§ 167  
+    Pollution:                 6 (Air)/ 4 (Water)/ 8 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 14 Mwh  
+    Water Consumed:  162 Gal/Month  
+    Occupant Group:    Medium Wealth Commercial Services Building; Landmark Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files contained within this download. You must select only one. Either the Maxis Nite version (Suffixed - **MN**) or the Dark Nite version (Suffixed - **DN**) for players with a night-time darkening mod. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file requires no external dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32888-midwest-regional-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidWestBank.jpg.8849d36e235110ea81c3624759b1ac2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidWestBank1.jpg.42aaa06094f4c27b11c93608a0c0a1b2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidWestBank2.jpg.424a762bc48b442177b2309ed7922693.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidWestBank3.jpg.4d4ee14276b0705616495c5e8d9e182f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidWestBank4.jpg.1f9a7cb71e58b90fbe94be2dadadfbdf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidWestBank5.jpg.e16ff8a76952056cf6fcd7e2eeca08f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidwestDiag.jpg.22c925cfad9158a6137cd85d4f2f182e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/MidwestDiag1.jpg.a110d70fb9e250498021da4a1b0e7966.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-midwest-regional-bank-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-midwest-regional-bank-darknite
+
+---
+assetId: mattb325-midwest-regional-bank-darknite
+version: "1.0"
+lastModified: "2019-04-29T21:39:04Z"
+url: https://community.simtropolis.com/files/file/32888-midwest-regional-bank/?do=download&r=175687
+
+---
+assetId: mattb325-midwest-regional-bank-maxisnite
+version: "1.0"
+lastModified: "2019-04-29T21:39:04Z"
+url: https://community.simtropolis.com/files/file/32888-midwest-regional-bank/?do=download&r=175688
