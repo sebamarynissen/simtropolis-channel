@@ -1,0 +1,87 @@
+group: mattb325
+name: bauhaus-mannheim
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Bauhaus Mannheim
+  description: |-
+    **Bauhaus Mannheim, by Mattb325.  
+    \---------------------------------------**
+
+    With the slogan "*erhalten Sie alles was Sie brauchen, wenn's gut werden muss!*" (Get everything you need, when it's good), Bauhaus is a chain of home-improvement box stores, similar to Bunnings in Australia, or B&Q in the UK, or Home Depot in the USA.
+
+    I was actually looking for source material for the **REAL** Bauhaus in Dessau as I intend to BAT it, and when the image of a box store in Mannheim appeared with quasi-architectural nods to Gropius, it was just so, so wrong on so, so many levels, that I couldn't resist batting it. ![:dead:](https://community.simtropolis.com/assets/emoticons/default_14.gif ":dead:")![*:P](https://community.simtropolis.com/assets/emoticons/default_3.gif "*:P")
+
+    That aside, this very boxy building itself isn't too bad and I rather like the exposed girders on the upper terrace and the double panes of glass that make the windows look like retro cathode-ray TV sets. It's a little tacky, but it's different and there is not much similar in game.
+
+    Surprisingly, on a 4x4 lot, in game this building is actually really useful as an end piece to a typical W2W set of streets (as per the images) where the layout is back-to-back 1x2 rows: it caps the whole street off rather well. Of course it works in a non-W2W as well.
+
+    The building comes in a growable CS§§ 4x4 lot.  
+       
+    It grows on all tilesets and in my opinion works equally well in a Euro or US environment, and I always have insatiable CS demand in my regions, so given that this will soak up almost 800 CS§§, that's a good thing.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                 4x4  
+    Growth Stage:        6 (Medium and High Density Zoning)  
+    Bulldoze Cost:        § 434  
+    Capacity Satisfied:CS§ 3,177 CS§§ 797  
+    Pollution:                 29 (Air)/ 19 (Water)/ 39 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 64 Mwh  
+    Water Consumed:  766 Gal/Month  
+    Building Style:        Chicago/NY/Houston/Euro   
+    Occupant Group:   Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \* Mattb325 BAT Props Vol02: [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33110-bauhaus-mannheim/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus.jpg.8a641028de9e15ba7a1118477361986f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus1.jpg.ccdf6f6a1ea24ce17789bb544f6c32c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus2.jpg.3458cd4128224b7b2b9fb7526482bd38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus3.jpg.0f84eacda54764671163e495f3a0d4e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus4.jpg.a0d2aa588d33ce09b5fb2922f4fa71c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus5.jpg.608e655d4a4eae4b7bdae733552315ee.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-bauhaus-mannheim-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-bauhaus-mannheim-darknite
+
+---
+assetId: mattb325-bauhaus-mannheim-darknite
+version: "1.0.0"
+lastModified: "2019-08-27T03:02:36Z"
+url: https://community.simtropolis.com/files/file/33110-bauhaus-mannheim/?do=download&r=177318
+
+---
+assetId: mattb325-bauhaus-mannheim-maxisnite
+version: "1.0.0"
+lastModified: "2019-08-27T03:02:36Z"
+url: https://community.simtropolis.com/files/file/33110-bauhaus-mannheim/?do=download&r=177319

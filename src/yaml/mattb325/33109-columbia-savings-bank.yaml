@@ -1,0 +1,78 @@
+group: mattb325
+name: columbia-savings-bank
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Columbia Savings Bank
+  description: |-
+    **Columbia Savings Bank, by Mattb325.  
+    \---------------------------------------**
+
+    This little gem of a building on the Miracle Mile was completed in 1965 and sadly demolished in 2010.
+
+    It was an important example of post-war bank architecture as well as an innovative integration of art and architecture (which is so typical of many of the buildings along Wilshire Blvd).
+
+    It takes up most of the right-hand corner lot: 2x3 as a high-wealth commercial services (CS§§§) offering.
+
+    It is offered as a growable only - on the american tilesets - and competes well with many of the Maxis low-rises.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------  
+    STATS (CS§§§):**
+
+    Growth Stage:        3 (low, medium & high density zones)  
+    Bulldoze Cost:        §264  
+    Capacity Satisfied: CS§ 718, CS§§ 182, CS§§§ 74  
+    Pollution:                 4 (Air)/ 3 (Water)/ 6 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 21 Mwh  
+    Water Consumed:  185 Gal/Month  
+    Building Style:         Chicago/NY/Houston  
+    Occupant Group:    Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file has no dependencies
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33109-columbia-savings-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings.jpg.2b898dcf59d0954015fb16a73fdd89b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings1.jpg.47e65be2f14bf721ff57de234d733844.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings2.jpg.00e5c8840ac5900dc2917aa9623cd411.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings3.jpg.79535144097e568e0b4c06bcdcd3bcf5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings4.jpg.3af215ea16a6345955121250e28c3973.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-columbia-savings-bank-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-columbia-savings-bank-darknite
+
+---
+assetId: mattb325-columbia-savings-bank-darknite
+version: "1.0.0"
+lastModified: "2019-08-27T02:55:08Z"
+url: https://community.simtropolis.com/files/file/33109-columbia-savings-bank/?do=download&r=177311
+
+---
+assetId: mattb325-columbia-savings-bank-maxisnite
+version: "1.0.0"
+lastModified: "2019-08-27T02:55:08Z"
+url: https://community.simtropolis.com/files/file/33109-columbia-savings-bank/?do=download&r=177312
