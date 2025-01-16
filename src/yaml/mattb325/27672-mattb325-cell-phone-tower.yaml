@@ -1,0 +1,37 @@
+group: mattb325
+name: mattb325-cell-phone-tower
+version: "1.0"
+info:
+  summary: Mattb325 Cell Phone Tower
+  description: |-
+    A small cell phone tower similar to many seen throughout the world.
+
+    This was based on a request from the Simtropolis BAT request thread by LDW2483.
+
+    In game this is presented as a small power plant (it is therefore found in the power menu) which provides employment for one technician.
+
+    As a result it needs road access.
+
+    I find this is actually extremely handy to provide a small boost to the power grid within an extablished city tile as well as giving desirable civic jobs.
+
+    This Cell Phone Tower sits on a 1x1 lot and has values very similar to the in-game wind power plant: meaning primarily that it does not generate pollution, does not explode and does not have a detrimental effect on surrounding areas. Plop, maintenance, bulldoze and power output are identical to the in-game wind power plant.
+
+    A little white flashing light on the top of the mast lets you know that it is working.
+
+    This file has one dependency: [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/27672-mattb325-cell-phone-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/80d69dc5905714abe3b00aba0aace22b-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/34faeb48b82fd23c4bae7dbc09f3f32e-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/05b62265084ffe9f3bc3ab2af469b6f8-.jpg
+dependencies:
+  - bsc:essentials
+assets:
+  - assetId: mattb325-mattb325-cell-phone-tower
+
+---
+assetId: mattb325-mattb325-cell-phone-tower
+version: "1.0"
+lastModified: "2012-06-03T09:27:30Z"
+url: https://community.simtropolis.com/files/file/27672-mattb325-cell-phone-tower/?do=download&r=101763
