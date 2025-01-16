@@ -1,8 +1,9 @@
 group: mattb325
-name: mattb325-cell-phone-tower
+name: cell-phone-tower
 version: "1.0"
+subfolder: 500-utilities
 info:
-  summary: Mattb325 Cell Phone Tower
+  summary: Cell Phone Tower
   description: |-
     A small cell phone tower similar to many seen throughout the world.
 
@@ -28,10 +29,10 @@ info:
 dependencies:
   - bsc:essentials
 assets:
-  - assetId: mattb325-mattb325-cell-phone-tower
+  - assetId: mattb325-cell-phone-tower
 
 ---
-assetId: mattb325-mattb325-cell-phone-tower
+assetId: mattb325-cell-phone-tower
 version: "1.0"
 lastModified: "2012-06-03T09:27:30Z"
 url: https://community.simtropolis.com/files/file/27672-mattb325-cell-phone-tower/?do=download&r=101763
