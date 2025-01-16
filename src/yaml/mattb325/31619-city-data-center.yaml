@@ -64,8 +64,18 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre2.jpg.a4eab9c222d5e368df14aeccd262a5e4.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre3.jpg.b63f2b766babfca68199fbe7494faca1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre4.jpg.1ae2ddb4dec308e9cb3f1fbedc0204f0.jpg
-assets:
-  - assetId: mattb325-city-data-center
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-city-data-center
+        exclude:
+          - /Data Centre DARK NITE/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-city-data-center
+        exclude:
+          - /Data Centre MAXIS NITE/
 
 ---
 assetId: mattb325-city-data-center

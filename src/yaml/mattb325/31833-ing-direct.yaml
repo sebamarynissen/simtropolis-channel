@@ -63,8 +63,18 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING2.jpg.dc7b3fc53ca1e8e34bad49fa67efae50.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING3.jpg.5e5580d8650870067b327ddaf4a4ad3f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING4.jpg.49d8431a0081517e833f4abbdc0e4bd6.jpg
-assets:
-  - assetId: mattb325-ing-direct
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-ing-direct
+        exclude:
+          - /ING Direct DARK NITE/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-ing-direct
+        exclude:
+          - /ING Direct MAXIS NITE/
 
 ---
 assetId: mattb325-ing-direct

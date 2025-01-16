@@ -75,8 +75,18 @@ dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
-assets:
-  - assetId: mattb325-jenquai-alchemy
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-jenquai-alchemy
+        exclude:
+          - /Jenquai Dark Nite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-jenquai-alchemy
+        exclude:
+          - /Jenquai Maxis Nite/
 
 ---
 assetId: mattb325-jenquai-alchemy

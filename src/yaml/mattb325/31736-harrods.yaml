@@ -72,10 +72,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-harrods
+        exclude:
+          - /Harrods DARKNITE/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-harrods
+        exclude:
+          - /Harrods MAXIS NITE/
 
 ---
 assetId: mattb325-harrods

@@ -44,8 +44,18 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-assets:
-  - assetId: mattb325-zurich-insurance
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-zurich-insurance
+        exclude:
+          - /Dark Nite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-zurich-insurance
+        exclude:
+          - /Maxis Nite/
 
 ---
 assetId: mattb325-zurich-insurance
