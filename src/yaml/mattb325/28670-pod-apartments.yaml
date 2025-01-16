@@ -84,10 +84,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-pod-apartments
+        exclude:
+          - /Dark nite/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-pod-apartments
+        exclude:
+          - /MaxisNite/
 
 ---
 assetId: mattb325-pod-apartments
