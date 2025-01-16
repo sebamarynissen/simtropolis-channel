@@ -1,0 +1,116 @@
+group: mattb325
+name: chinatown-road-avenue-and-pedestrian-lane-canopies
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Chinatown Road, Avenue & Pedestrian Lane Canopies
+  description: |-
+    **Chinatown Road, Avenue and Pedestrian Lane Canopies, by Mattb325.  
+    \---------------------------------------**
+
+    One of the things that is quite difficult to achieve in SC4 is roads and areas of a city tile that convey a 'sense of place'. In almost all cities and large towns the main shopping streets, cultural precincts and prominent thoroughfares usually have their own immediately recognisable style; whether it is from architecture or street trees and street furniture.
+
+    That is the genesis behind this series of canopies: to denote a stronger sense of place at street level while being functional.
+
+    This first set of canopies is based on the typical displays of red Chinese lanterns, dragon imagery and symbols that are found in the so-called 'Chinatown' areas of cities. The red lanterns cast a striking glow at night, the canopy is made in such a way to enable moving sims and automata to be visible through the bracing and your street lights and street props will also be visible underneath the canopy.
+
+    There are 3 lots in this download, and each is functional.
+
+    \* A road-top bus stop. This lot occupies a 1x1 tile and is overhanging so that canopies can be placed adjacent to each other all along the roadway;  
+    \* An avenue-top bus stop. This lot occupies a 2x1 tile and is overhanging so that canopies can be placed adjacent to each other all along the avenue;  
+    \* A functional pedestrian-only laneway. This lot is 1x4 tiles long and must be joined to the road/street network and/or the NAM ped-mall pieces.
+
+    **\---------------------------------------**
+
+    **IT IS IMPORTANT TO TAKE NOTE OF THE FOLLOWING POINTS:**
+
+    \* While road-top/avenue-top bus stops can be safely placed next to a commercial building without any issues, they cannot be placed adjacent to a residential lot or you will get a no-car-zot. This is  limitation of the game and I cannot do anything about this. The exception to this rule is where the residential lot is wider than the road-top bus stop: so for instance, if you place a 1x1 road-top bus stop next to a 4x4 apartment block, the apartment block will be fine, but if it is next to a 1x2 row house, then the row house will abandon because of no car access.
+
+    \* The functional pedestrian laneway is NOT a ped-mall; it is simply a pedestrian enabled lot. If you connect two of these lots directly together, SIMs will be unlikely to cross them (that is why a ped-mall piece is used to connect lots).
+
+    **\---------------------------------------**
+
+    The bus stops are found in the misc transit menu and have a capacity of 50,000 (and support all types of vehicles: pedestrian, bus, car, freight). The pedestrian laneway is found in the Landmark menu and provides a few jobs.
+
+    **\---------------------------------------**
+
+    **STATS PEDESTRIAN LANEWAY:**
+
+    Lot size :                 1x4  
+    Bulldoze Cost:       § 40  
+    Plop Cost:               § 100  
+    Capacity Satisfied: CS§ 4, CS§§ 3  
+    Pollution:                1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:   5/6/0  
+    Power Consumed: 1 Mwh  
+    Water Consumed:  4 Gal/Month  
+    Occupant Group:    Medium Wealth CS; Landmark
+
+    **\---------------------------------------  
+    STATS BUS STOP:**
+
+    Lot size :                 1x1 (Road), 2x1 (Avenue)  
+    Bulldoze Cost:       § 10  
+    Plop Cost:              § 150  
+    Jobs:                       § 2  
+    Capacity:                 50,000  
+    Pollution:                1 (Air)/ 1 (Water)/ 1 (Garbage )  
+    Pollution Radius:   1/1/0  
+    Power Consumed: 1 Mwh  
+    Water Consumed:  0 Gal/Month  
+    TSEC:                       0.02  
+    Monthly Cost:         § 5     
+    Occupant Group:    Transport, Bus, Strikable Transit, Bus Stop, MiscTransit
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34230-chinatown-road-avenue-pedestrian-lane-canopies/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown.jpg.557377380fe366131acaaf582faf6e94.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown1.jpg.71181dbc09f797c7d165fea70a87167f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown2.jpg.44208f05d8aec374ffadef05e04437d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown3.jpg.e56818ff3f9de533393531d35dda254d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown4.jpg.bee06ab6815dc865428172dd41cdaa7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown5.jpg.b25b994fa651ffceea5ea2caeb5d0a09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown6.jpg.383defb2b000bae7e83666b67a5d8024.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatown7.jpg.37d408bf545e511cb78abd36bbdc047a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ChinatownNite.jpg.d00fcfb779c69ecef2109a3078d6fa90.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatownped.jpg.5591eb8f44f000447fa900252a9d0a91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Chinatownped_nite.jpg.4df41ccf27590caf6a9f5a4c267ae526.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-chinatown-road-avenue-and-pedestrian-lane-canopies-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-chinatown-road-avenue-and-pedestrian-lane-canopies-darknite
+
+---
+assetId: mattb325-chinatown-road-avenue-and-pedestrian-lane-canopies-darknite
+version: "1.0.0"
+lastModified: "2021-11-13T18:29:40Z"
+url: https://community.simtropolis.com/files/file/34230-chinatown-road-avenue-pedestrian-lane-canopies/?do=download&r=190490
+
+---
+assetId: mattb325-chinatown-road-avenue-and-pedestrian-lane-canopies-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-13T18:29:40Z"
+url: https://community.simtropolis.com/files/file/34230-chinatown-road-avenue-pedestrian-lane-canopies/?do=download&r=190491
