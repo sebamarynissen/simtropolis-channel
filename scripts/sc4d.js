@@ -101,6 +101,7 @@ export default {
 	3586: 'simmer2:essentials',
 	3640: 'simmer2:mega-prop-pack-vol1',
 	3645: 'simmer2:mega-prop-pack-vol2',
+	3671: 'mattb325:house-15028r',
 	3672: 'bsc:bat-props-mattb325-vol04',
 	3787: 'simmer2:mega-prop-pack-vol3',
 	3878: 'simmer2:water-reservoir',
