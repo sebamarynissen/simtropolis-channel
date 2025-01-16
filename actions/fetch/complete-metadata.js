@@ -47,8 +47,8 @@ export async function expandVariants(metadata) {
 
 // Regular expressions we use for detecting maxisnite or darknite *folders*.
 const regexes = {
-	maxisnite: /\b(maxisni(te|ght)|mn)\b/i,
-	darknite: /\b(darkni(te|ght)|dn)\b/i,
+	maxisnite: /\b(maxis ?ni(te|ght)|mn)\b/i,
+	darknite: /\b(dark ?ni(te|ght)|dn)\b/i,
 };
 
 // # findIncludedVariants(metadata)
