@@ -1,0 +1,82 @@
+group: mattb325
+name: saks-fifth-avenue
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SAKS Fifth Avenue
+  description: |-
+    **SAKS Fifth Ave Wilshire Blvd Building, by Mattb325.  
+    \---------------------------------------**
+
+    Located at 9600 Wilshire Boulevard in L.A, this building was completed in 1937 as a luxury department store for SAKS Fifth Avenue.
+
+    The original art-deco building has undergone many renovations and enlargements. The present building has had all of its windows painted over (yuck), so I have taken liberties in that regard.
+
+    It is offered as a growable high-wealth commercial services (CS$$$) building only - on all tilesets and for all densities. Being relatively low-rise and with a large parking lot, it is designed to work just as well in a downtown setting as it is on a suburban avenue.
+
+    Use the CTRL key while zoning to assist growth or download buggis extra cheats if you want to turn this into a ploppable building.
+
+    Stats, links and dependencies are listed below.
+
+    **\---------------------------------------  
+    STATS (CS$$$):**
+
+    Growth Stage:         3 (medium and high density zones)  
+    Bulldoze Cost:         $469  
+    Capacity Satisfied: CS$ 2628, CS$$ 659, CS$$$ 265  
+    Pollution:                  17 (Air)/ 11 (Water)/ 23 (Garbage )  
+    Pollution Radius:     6/7/0  
+    Power Consumed:  74 Mwh  
+    Water Consumed:   663 Gal/Month  
+    Building Style:          Chicago/NY/Houston/Euro  
+    Occupant Group:     Commercial Services Building, BSC, BSC\-Mattb325
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, please make sure the following files are in your plugins folder:
+
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*SHK\_ParkingPack.dat ([http://community.simtropolis.com/files/file/27563-shk-parking-pack/](https://community.simtropolis.com/files/file/27563-shk-parking-pack/))
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33873-saks-fifth-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA.jpg.8956cf56d75d282d09e58f09d5f98475.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA1.jpg.567b1cbe1c74400ec6b834c419e7ef5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA2.jpg.288b808fafe5a46ea9a316e88733b2af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA3.jpg.9c444bafabefb0d83c06b1a7f52b2731.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA4.jpg.9e8d813555f3acb81fddcc30be22d93b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA5.jpg.fd8552af271cf4f893e1628cff656823.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - shk:parking-pack
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-saks-fifth-avenue-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-saks-fifth-avenue-darknite
+
+---
+assetId: mattb325-saks-fifth-avenue-darknite
+version: "1.0.0"
+lastModified: "2020-10-14T20:06:36Z"
+url: https://community.simtropolis.com/files/file/33873-saks-fifth-avenue/?do=download&r=183085
+
+---
+assetId: mattb325-saks-fifth-avenue-maxisnite
+version: "1.0.0"
+lastModified: "2020-10-14T20:06:36Z"
+url: https://community.simtropolis.com/files/file/33873-saks-fifth-avenue/?do=download&r=183086

@@ -1,0 +1,93 @@
+group: mattb325
+name: pirie-st-adelaide
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Pirie St Adelaide
+  description: |-
+    **Pirie St Adelaide, by Mattb325.  
+    \---------------------------------------**
+
+    Loosely based on a refurbished building in Adelaide, this larger style W2W building is 8 floors tall.
+
+    Solar panels, floor-to-ceiling glass and a modern soft blue-grey colour scheme complete the look.
+
+    This medium-wealth building sits on a 2x4 corner lot that will grow on all tilesets.
+
+    It is offered in two flavours to occupy both corners: CS and CO.
+
+    **\---------------------------------------**
+
+    **STATS CO$$:**
+
+    Lot size :                   2x4  
+    Growth Stage:         6 (High Density)  
+    Bulldoze Cost:         $578  
+    Capacity Satisfied: CO$$ 702  
+    Pollution:                  2 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  15 Mwh  
+    Water Consumed:   150 Gal/Month  
+    Building Style:          Chicago, New York, Houston, Euro  
+    Occupant Group:     Medium Wealth CO, BSC\-Mattb325, BSC
+
+    **\---------------------------------------**
+
+    **STATS CS$$:**
+
+    Lot size :                  2x4  
+    Growth Stage:         6 (Medium & High Density)  
+    Bulldoze Cost:         $578  
+    Capacity Satisfied:  CS$$ 396, CS$ 1,576  
+    Pollution:                  14 (Air)/ 9 (Water)/ 19 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  32 Mwh  
+    Water Consumed:   382 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    Medium Wealth CO, BSC\-Mattb325, BSC  
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33874-pirie-st-adelaide/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St.jpg.d945ade15056bef38a9ac57c8690d5f9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St1.jpg.c26990a198ff41ad12735a2014aa12e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St2.jpg.a10ad054ee1eb5102402afa879bdf413.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St3.jpg.cd5df842859c4688683968be4d21726a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St4.jpg.99d82c98e8226f3618ccb17e7b2bea3e.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pirie-st-adelaide-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pirie-st-adelaide-darknite
+
+---
+assetId: mattb325-pirie-st-adelaide-darknite
+version: "1.0.0"
+lastModified: "2020-10-15T20:20:51Z"
+url: https://community.simtropolis.com/files/file/33874-pirie-st-adelaide/?do=download&r=183093
+
+---
+assetId: mattb325-pirie-st-adelaide-maxisnite
+version: "1.0.0"
+lastModified: "2020-10-15T20:20:51Z"
+url: https://community.simtropolis.com/files/file/33874-pirie-st-adelaide/?do=download&r=183094

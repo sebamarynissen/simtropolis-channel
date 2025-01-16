@@ -1,0 +1,84 @@
+group: mattb325
+name: 85-elizabeth-st-sydney
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: 85 Elizabeth St Sydney
+  description: |-
+    **85 Elizabeth St, Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    Inspired by a dumpy 1970's mid-rise office building on Sydney's Elizabeth St, I made this building to fill a niche in diagonals.
+
+    It is offered as a medium wealth, medium density Commercial Offices Building on a 3x3 corner lot as well as an overhanging ploppable landmark with jobs that is great for placing along diagonal roads. Images number 4 & 5 in the screen shots show the building placed as a diagonal overhanging lot. The other screen-shots show the growable 3x3 version.
+
+    Both versions have the same stats.
+
+    **\---------------------------------------**
+
+    **STATS CO$$:**
+
+    Lot size :                  3x3 and 1x2 (Diagonal Overhanging version)  
+    Growth Stage:         5 (Medium and High Density)/ NA for Diagonal Overhanging  
+    Bulldoze Cost:         $726  
+    Capacity Satisfied: CO$$ 836  
+    Pollution:                 3 (Air)/ 3 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  17 Mwh  
+    Water Consumed:   177 Gal/Month  
+    Building Style:          Chicago, New York, Houston and Euro (N/A for diagonal ploppable)  
+    Occupant Group:     Medium Wealth CO, BSC\-Mattb325, BSC
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33899-85-elizabeth-st-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic.jpg.dde1f8db6c32be11218d036e862bc9c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic1.jpg.783f9fb9e1f66183729e873b87d85397.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic2.jpg.df63f73912c0158eefc5e279d5282dbe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic3.jpg.58c5ecc3aea743417047e94ee8d3b9bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic4.jpg.02ebd82f4e1d195f766ca060b4f7dd2d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic5.jpg.63c86fb11c32bbae688e2ad36df45a2f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-85-elizabeth-st-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-85-elizabeth-st-sydney-darknite
+
+---
+assetId: mattb325-85-elizabeth-st-sydney-darknite
+version: "1.0.0"
+lastModified: "2020-10-21T19:50:14Z"
+url: https://community.simtropolis.com/files/file/33899-85-elizabeth-st-sydney/?do=download&r=183218
+
+---
+assetId: mattb325-85-elizabeth-st-sydney-maxisnite
+version: "1.0.0"
+lastModified: "2020-10-21T19:50:14Z"
+url: https://community.simtropolis.com/files/file/33899-85-elizabeth-st-sydney/?do=download&r=183219
