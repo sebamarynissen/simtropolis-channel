@@ -2,6 +2,7 @@
 import path from 'node:path';
 import { kFileTags, kFileNames, kExtractedAsset } from './symbols.js';
 import detectGrowables from './detect-growables.js';
+import escape from './escape-pattern.js';
 
 // # generateVaraints()
 export default async function generateVariants(metadata) {
@@ -276,18 +277,6 @@ function filterExclusions(asset, patterns) {
 function has(asset, tag) {
 	let tags = asset[kFileTags] ?? [];
 	return tags.includes(tag);
-}
-
-// # escape(str)
-// Escapes regex characters from a string, but only if needed. sc4pac only 
-// treats exclusion patterns as regexes as soon as it finds a regex character.
-function escape(str, fn = x => x) {
-	if (str.match(/[*+?^${}()|[\]\\]/)) {
-		let chars = /[.*+?^${}()|[\]\\/]/g;
-		return fn(`${str.replaceAll(chars, '\\$&')}`);
-	} else {
-		return str;
-	}
 }
 
 // # matchDir(dirPath, regex)

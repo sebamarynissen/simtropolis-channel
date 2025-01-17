@@ -71,12 +71,18 @@ export default async function handleUpload(json, opts = {}) {
 
 	}
 
+	// Compile a custom cleanup function that we use for early returns.
+	const clean = async () => {
+		for (let fn of cleanup) await fn();
+	};
+
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
 	let errors = [];
 	const { requireMetadata = true } = opts;
 	if (parsedMetadata.length === 0 && requireMetadata) {
+		await clean();
 		return {
 			skipped: true,
 			type: 'notice',
@@ -102,11 +108,6 @@ export default async function handleUpload(json, opts = {}) {
 	// metadata yet! Everything we're doing is based on the *default* metadata.
 	await generateVariants(metadata);
 
-	// We are now ready to clean up any downloaded & extracted assets.
-	for (let fn of cleanup) {
-		await fn();
-	}
-
 	// See #42. If metadata for the package already existed before - either 
 	// added by the bot, or manually by backfilling - then we have to patch the 
 	// *default* metadata so that the name can't change unintentionally.
@@ -118,6 +119,9 @@ export default async function handleUpload(json, opts = {}) {
 		srcPath,
 		fs,
 	});
+
+	// We are now ready to clean up any downloaded & extracted assets.
+	await clean();
 
 	// Patch the metadata with the metadata that was parsed from the assets. 
 	// Then we'll verify that the generated package is ok according to our 
