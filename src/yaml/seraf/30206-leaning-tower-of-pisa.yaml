@@ -1,0 +1,42 @@
+group: seraf
+name: leaning-tower-of-pisa
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Leaning Tower of Pisa
+  description: |-
+    The famous Leaning Tower of Pisa was constructed in three stages between 1173 and 1372. In 1178 the tower began to sink because of unstable soil and insufficient foundation. The construction resumed in 1272 and to compensate for the tilt, the stories above second floor were built taller on one side. Because of this the tower is actually curved. Seventh floor was completed in 1319 and the bell-floor in 1372. The last bell was installed in 1655. In 1990 and 2008 large amounts of soil had to be removed from underneath the raised end to straighten the tower and prevent it from collapsing. Today, the Leaning Tower is one of the Italy's most famous landmarks.  
+      
+    **Building type:** Landmark  
+      
+    **Lot size:** 2x2  
+      
+    **Dependencies:**  
+    SimFox Day n Nite Modd (For DarkNite Version only)  
+      
+    This BAT was created to celebrate the STEX's 100,000,000th download. I thank the administrators and moderators of Simtropolis for their dedication in maintaining this great site.  
+      
+    Enjoy!
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/30206-leaning-tower-of-pisa/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/6cad4eba7543e9e83d30e52b4d08d06d-screen1.png
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/e51f62db7bdf606a8893def30b674d3f-screen2.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-leaning-tower-of-pisa
+        exclude:
+          - /LM_LeaningTowerOfPisa_DN_Seraf/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-leaning-tower-of-pisa
+        exclude:
+          - /LM_LeaningTowerOfPisa_MN_Seraf/
+
+---
+assetId: seraf-leaning-tower-of-pisa
+version: "1.0"
+lastModified: "2015-03-14T14:43:41Z"
+url: https://community.simtropolis.com/files/file/30206-leaning-tower-of-pisa/?do=download&r=149155
