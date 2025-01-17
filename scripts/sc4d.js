@@ -4,6 +4,10 @@ export default {
 	90: 'bsc:textures-vol01',
 	97: 'cleanitol',
 	101: 'bsc:texturepack-cycledogg-vol01',
+	167: [
+		'bsc:mega-props-jrj-vol04',
+  		'bsc:mega-props-jrj-vol05',
+	],
 	272: 'bsc:mega-props-snm-vol01',
 	283: 'girafe:hedges',
 	294: 'girafe:common-spruces',
