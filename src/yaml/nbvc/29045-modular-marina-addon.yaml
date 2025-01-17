@@ -1,0 +1,32 @@
+group: nbvc
+name: modular-marina-addon
+version: "1.0"
+info:
+  summary: Modular Marina AddOn
+  description: |-
+    An additional set for my marina. The set contains diagonal marina seawalls and modular piers.
+
+    Everything is located in the seaport menu.
+
+    The props can also be used in the Lot-Editor for your custom lots.
+
+    Dependencies:
+
+    [NBVC Marina](https://community.simtropolis.com/files/file/28951-marina/)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/29045-modular-marina-addon/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/9a5f73f14ca000c521ca34bbf81ea4ab-marina1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/5c2c569566a6f1a171168baa3f4f782a-marina2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/8e16be6c3703ae29fd03e3fc1f58f476-marina3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/72e2131d0ad74d8c5197e68b6c174460-marina4.jpg
+dependencies:
+  - nbvc:marina
+assets:
+  - assetId: nbvc-modular-marina-addon
+
+---
+assetId: nbvc-modular-marina-addon
+version: "1.0"
+lastModified: "2013-11-10T18:25:31Z"
+url: https://community.simtropolis.com/files/file/29045-modular-marina-addon/?do=download&r=120824
