@@ -1,7 +1,7 @@
 group: mattb325
 name: pwn-london
 version: "1.0.0"
-subfolder: 300-commercial
+subfolder: 630-health
 info:
   summary: PWN London
   description: |-
@@ -84,10 +84,16 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-pwn-london-maxisnite
+        exclude:
+          - CS$$6_2x2_Mattb325 PWN London CS$$_b9b0a5f4.SC4Lot
+          - Mattb325 PWN London CS$$-0x6534284a-0x3ec1db6a-0x19b0a5da.SC4Desc
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-pwn-london-darknite
+        exclude:
+          - CS$$6_2x2_Mattb325 PWN London CS$$_b9b0a5f4.SC4Lot
+          - Mattb325 PWN London CS$$-0x6534284a-0x3ec1db6a-0x19b0a5da.SC4Desc
 
 ---
 assetId: mattb325-pwn-london-darknite
