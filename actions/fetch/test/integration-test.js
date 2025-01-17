@@ -535,6 +535,53 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package with MN and DN variants in the same upload (4)', async function() {
+
+		let upload = faker.upload({
+			author: 'mattb325',
+			title: 'Standard Federal Savings',
+			files: [
+				{
+					name: 'Standard Federal Savings.zip',
+					contents: [
+						'metadata.yaml',
+						'Standard Federal Savings_DN/model.SC4Model',
+						'Standard Federal Savings_DN/lot.SC4Lot',
+						'Standard Federal Savings_DN/building.SC4Desc',
+						'Standard Federal Savings_MN/model.SC4Model',
+						'Standard Federal Savings_MN/lot.SC4Lot',
+						'Standard Federal Savings_MN/building.SC4Desc',
+					],
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+
+		let { result } = await run({ id: upload.id });
+		expect(result.metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'mattb325-standard-federal-savings',
+						exclude: ['/Standard Federal Savings_DN/'],
+					},
+				],
+			},
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: ['simfox:day-and-nite-mod'],
+				assets: [
+					{
+						assetId: 'mattb325-standard-federal-savings',
+						exclude: ['/Standard Federal Savings_MN/'],
+					},
+				],
+			},
+		]);
+
+	});
+
 	it('a package with MN and DN variants in the same upload with nested folders', async function() {
 
 		let upload = faker.upload({

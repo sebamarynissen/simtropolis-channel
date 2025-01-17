@@ -284,7 +284,7 @@ function has(asset, tag) {
 function matchDir(dirPath, regex) {
 	while (dirPath !== '.') {
 		let name = path.basename(dirPath);
-		if (regex.test(name)) return name;
+		if (regex.test(name.replaceAll('_', ' '))) return name;
 		dirPath = path.dirname(dirPath);
 	}
 	return null;
