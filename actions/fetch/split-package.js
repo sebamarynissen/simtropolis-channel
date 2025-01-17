@@ -139,7 +139,7 @@ async function labelAsset(asset) {
 }
 
 function modifyAssets(assets, key, map) {
-	return assets
+	let filtered = assets
 		?.filter(asset => map[asset.assetId][key].length > 0)
 		?.map(asset => {
 			return {
@@ -147,6 +147,7 @@ function modifyAssets(assets, key, map) {
 				include: map[asset.assetId][key],
 			};
 		});
+	return filtered?.length === 0 ? undefined : filtered;
 }
 
 // # getIncludeList(asset, other)
