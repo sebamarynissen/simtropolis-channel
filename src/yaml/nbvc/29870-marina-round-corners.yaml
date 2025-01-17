@@ -1,6 +1,7 @@
 group: nbvc
 name: marina-round-corners
 version: "1.0"
+subfolder: 700-transit
 info:
   summary: Marina Round Corners
   description: |-
@@ -20,9 +21,29 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_08_2014/86109b966348b6b5556e08425e383b64-marinaround2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_08_2014/09da06425011a652e81a711059f53476-marinaround3.jpg
 dependencies:
-  - nbvc:marina
+  - nbvc:marina-round-corners-resources
+  - nbvc:marina-resources
 assets:
   - assetId: nbvc-marina-round-corners
+    include:
+      - \.SC4Lot$
+
+---
+group: nbvc
+name: marina-round-corners-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Marina Round Corners resources
+  description: |-
+    This package is a resource for `pkg=nbvc:marina-round-corners`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/29870-marina-round-corners/
+assets:
+  - assetId: nbvc-marina-round-corners
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-marina-round-corners

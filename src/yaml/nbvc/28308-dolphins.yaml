@@ -1,6 +1,7 @@
 group: nbvc
 name: dolphins
 version: "1.0"
+subfolder: 180-flora
 info:
   summary: Dolphins
   description: |-
@@ -18,8 +19,29 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_12_2012/e7b513c956281337a5ac02b9e20381bc-dolphins1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_12_2012/9ceca2d103ba5325f485e402bd7f252b-dolphins2.jpg
+dependencies:
+  - nbvc:dolphins-resources
 assets:
   - assetId: nbvc-dolphins
+    include:
+      - \.dat$
+
+---
+group: nbvc
+name: dolphins-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Dolphins resources
+  description: |-
+    This package is a resource for `pkg=nbvc:dolphins`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/28308-dolphins/
+assets:
+  - assetId: nbvc-dolphins
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-dolphins

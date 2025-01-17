@@ -1,6 +1,7 @@
 group: nbvc
 name: desert-pack
 version: "1.0"
+subfolder: 180-flora
 info:
   summary: Desert Pack
   description: |-
@@ -34,18 +35,22 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/9bbbf70fd6226b002cb6f254e3096877-desertpack1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/ae9c67ca9d3d3e86386d3233171cb760-desertpack2.jpg
 dependencies:
-  - nbvc:desert-pack-props
+  - nbvc:desert-pack-resources
 assets:
   - assetId: nbvc-desert-pack
     include:
       - \.dat$
+      - \.SC4Lot$
 
 ---
 group: nbvc
-name: desert-pack-props
+name: desert-pack-resources
 version: "1.0"
+subfolder: 100-props-textures
 info:
-  summary: Desert Pack props
+  summary: Desert Pack resources
+  description: |-
+    This package is a resource for `pkg=nbvc:desert-pack`
   author: nbvc
   website: https://community.simtropolis.com/files/file/28706-desert-pack/
 assets:

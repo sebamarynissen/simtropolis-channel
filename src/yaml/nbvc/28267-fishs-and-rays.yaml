@@ -1,6 +1,7 @@
 group: nbvc
 name: fishs-and-rays
 version: "1.0"
+subfolder: 180-flora
 info:
   summary: Fishs And Rays
   description: |-
@@ -20,8 +21,29 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_12_2012/6da849d7ba1ab9e0fbfc60ae7eec6f46-fishandrays1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_12_2012/3c3ce19621de559bdb0ac478ffb2875c-fishandrays2.jpg
+dependencies:
+  - nbvc:fishs-and-rays-resources
 assets:
   - assetId: nbvc-fishs-and-rays
+    include:
+      - \.dat$
+
+---
+group: nbvc
+name: fishs-and-rays-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Fishs And Rays resources
+  description: |-
+    This package is a resource for `pkg=nbvc:fishs-and-rays`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/28267-fishs-and-rays/
+assets:
+  - assetId: nbvc-fishs-and-rays
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-fishs-and-rays

@@ -1,6 +1,7 @@
 group: nbvc
 name: corals
 version: "1.0"
+subfolder: 180-flora
 info:
   summary: Corals
   description: |-
@@ -19,8 +20,29 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2012/5eb12c6aba203df6d3e7243533a60273-corals1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2012/681ba77841fb617ca4bd510cd6104c21-corals2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2012/8a9de962f17e73af34f27c0dd10e1c30-corals3.jpg
+dependencies:
+  - nbvc:corals-resources
 assets:
   - assetId: nbvc-corals
+    include:
+      - \.dat$
+
+---
+group: nbvc
+name: corals-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Corals resources
+  description: |-
+    This package is a resource for `pkg=nbvc:corals`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/28225-corals/
+assets:
+  - assetId: nbvc-corals
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-corals

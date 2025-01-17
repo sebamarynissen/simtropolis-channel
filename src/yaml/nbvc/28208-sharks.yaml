@@ -1,6 +1,7 @@
 group: nbvc
 name: sharks
 version: "1.0"
+subfolder: 180-flora
 info:
   summary: Sharks
   description: |-
@@ -21,8 +22,30 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2012/ea05708bf3bd4237b78a5f95f80cd137-sharks1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2012/cb23ee2710d15a7d756898c258c0f845-sharks2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2012/5feb39003b2604909c059f7b761c9de9-sharks3.jpg
+dependencies:
+  - nbvc:sharks-resources
 assets:
   - assetId: nbvc-sharks
+    include:
+      - \.SC4Lot$
+      - \.dat$
+
+---
+group: nbvc
+name: sharks-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Sharks resources
+  description: |-
+    This package is a resource for `pkg=nbvc:sharks`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/28208-sharks/
+assets:
+  - assetId: nbvc-sharks
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-sharks

@@ -1,6 +1,7 @@
 group: nbvc
 name: sailboats
 version: "1.0"
+subfolder: 180-flora
 info:
   summary: Sailboats
   description: |-
@@ -16,8 +17,29 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/a5a8ae9761cb005ffa19dc2d6f90a499-sailboat1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/4f9d1c3bcad0d31ed9d6b6b9084e54cd-sailboat2.jpg
+dependencies:
+  - nbvc:sailboats-resources
 assets:
   - assetId: nbvc-sailboats
+    include:
+      - \.SC4Lot$
+
+---
+group: nbvc
+name: sailboats-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Sailboats resources
+  description: |-
+    This package is a resource for `pkg=nbvc:sailboats`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/28477-sailboats/
+assets:
+  - assetId: nbvc-sailboats
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-sailboats

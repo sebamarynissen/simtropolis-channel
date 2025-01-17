@@ -1,6 +1,7 @@
 group: nbvc
 name: divers-and-boats
 version: "1.0"
+subfolder: 180-flora
 info:
   summary: Divers And Boats
   description: |-
@@ -16,8 +17,30 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_10_2012/cd50adb7aef6ba9230a24e23605da46f-divers1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_10_2012/b0c2c309535e65808c104d6cf930c7b5-divers2.jpg
+dependencies:
+  - nbvc:divers-and-boats-resources
 assets:
   - assetId: nbvc-divers-and-boats
+    include:
+      - \.dat$
+      - \.SC4Lot$
+
+---
+group: nbvc
+name: divers-and-boats-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Divers And Boats resources
+  description: |-
+    This package is a resource for `pkg=nbvc:divers-and-boats`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/28146-divers-and-boats/
+assets:
+  - assetId: nbvc-divers-and-boats
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-divers-and-boats

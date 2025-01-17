@@ -1,6 +1,7 @@
 group: nbvc
 name: modular-marina-addon
 version: "1.0"
+subfolder: 700-transit
 info:
   summary: Modular Marina AddOn
   description: |-
@@ -21,9 +22,29 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/8e16be6c3703ae29fd03e3fc1f58f476-marina3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/72e2131d0ad74d8c5197e68b6c174460-marina4.jpg
 dependencies:
-  - nbvc:marina
+  - nbvc:modular-marina-addon-resources
+  - nbvc:marina-resources
 assets:
   - assetId: nbvc-modular-marina-addon
+    include:
+      - \.SC4Lot$
+
+---
+group: nbvc
+name: modular-marina-addon-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Modular Marina AddOn resources
+  description: |-
+    This package is a resource for `pkg=nbvc:modular-marina-addon`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/29045-modular-marina-addon/
+assets:
+  - assetId: nbvc-modular-marina-addon
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: nbvc-modular-marina-addon
