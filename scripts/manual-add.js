@@ -17,7 +17,7 @@ import sc4d from './sc4d.js';
 import tsc from './tsc.js';
 
 // # run()
-async function run(urls) {
+async function run(urls, argv) {
 
 	// Sort the urls in ascending order so that dependencies are likely to be 
 	// processed first.
@@ -39,7 +39,7 @@ async function run(urls) {
 	});
 
 	// Cool, now perform the actual fetching.
-	let results = await fetchAll(urls);
+	let results = await fetchAll(urls, { split: argv.split });
 	for (let result of results) {
 		let [pkg] = result.metadata;
 		if (!pkg.dependencies) {
@@ -171,4 +171,4 @@ async function addFileToIndex(index, file) {
 }
 
 const { argv } = yargs(hideBin(process.argv));
-await run(argv._);
+await run(argv._, argv);

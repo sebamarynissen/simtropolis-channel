@@ -95,6 +95,7 @@ export default async function handleUpload(json, opts = {}) {
 		errors.push(`This package has ${parsedMetadata.length} metadata.yaml files, only 1 is allowed.`);
 
 	}
+	let [userMetadata] = parsedMetadata;
 
 	// If we reach this point, we're sure to include the package. We now need to 
 	// complete the metadata from the api by resorting to HTML scraping as the 
@@ -120,6 +121,31 @@ export default async function handleUpload(json, opts = {}) {
 		fs,
 	});
 
+	// Now check whether it was specified - either in the parsed metadata or as 
+	// explicit option - whether the package must be split in resources and lots/
+	// flora.
+	let { split = false } = opts;
+	if (split) {
+
+		// If the package has to be split, but multiple *package* metadata was 
+		// given, then we can't continue. If the package is going to be split 
+		// automatically, you can only override metadata for the *main* package!
+		let packages = userMetadata.filter(pkg => pkg.group);
+		if (packages.length > 1) {
+			let [main] = packages;
+			errors.push('You can only specify custom metadata for the main package if the package has to be split!');
+			await clean();
+			return {
+				id: `${main.group}:${main.name}`,
+				fileId: String(json.id),
+				branchId: String(json.id),
+				githubUsername,
+				errors,
+			};
+		}
+
+	}
+
 	// We are now ready to clean up any downloaded & extracted assets.
 	await clean();
 
@@ -131,7 +157,7 @@ export default async function handleUpload(json, opts = {}) {
 		assets,
 		main,
 		basename,
-	} = patchMetadata(metadata, parsedMetadata[0], original);
+	} = patchMetadata(metadata, userMetadata, original);
 	let zipped = [...packages, ...assets];
 	try {
 		permissions.assertPackageAllowed(json, packages);

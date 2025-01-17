@@ -3,7 +3,7 @@ import './polyfill.js';
 import path from 'node:path';
 import { DBPF, FileType, ExemplarProperty } from 'sc4/core';
 import { FileScanner } from 'sc4/plugins';
-import { kExtractedAsset } from './symbols.js';
+import { kExtractedAsset, kResourcePackage } from './symbols.js';
 import escape from './escape-pattern.js';
 const { ExemplarType } = ExemplarProperty;
 
@@ -20,6 +20,7 @@ export default async function splitPackage(metadata) {
 
 	// Assets have been processed, now perform the actual split.
 	let resource = {
+		[kResourcePackage]: true,
 		group: pkg.group,
 		name: `${pkg.name}-resources`,
 		version: pkg.version,
