@@ -30,7 +30,7 @@ export default async function traverse(patterns, fn = () => {}, opts = {}) {
 		for (let doc of parseAllDocuments(contents)) {
 			let raw = contents.slice(doc.range[0], doc.range[1]);
 			let json = doc.toJSON();
-			let result = await fn(json, doc, raw);
+			let result = await fn(json, doc, raw, file);
 			if (result) {
 				if (result instanceof Document) {
 					docs.push(result);
