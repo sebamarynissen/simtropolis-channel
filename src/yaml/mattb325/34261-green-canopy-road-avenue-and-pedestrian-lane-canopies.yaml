@@ -1,0 +1,123 @@
+group: mattb325
+name: green-canopy-road-avenue-and-pedestrian-lane-canopies
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Green Canopy Road, Avenue and Pedestrian Lane Canopies
+  description: |-
+    **Green Canopy Road, Avenue and Pedestrian Lane Canopies, by Mattb325.  
+    \---------------------------------------**
+
+    One of the things that is quite difficult to achieve in SC4 is roads and areas of a city tile that  
+    convey a 'sense of place'. In almost all cities and large towns the main shopping streets, cultural  
+    precincts and prominent thoroughfares usually have their own immediately recognisable style; whether it  
+    is from architecture or street trees and street furniture.
+
+    That is the genesis behind this series of canopies: to denote a stronger sense of place at street level  
+    while being functional.
+
+    This third set of canopies copies a real world design.
+
+    As the world warms and the warmth of large cities, already exacerbated by the urban heat island effect (where large  
+    areas of concrete, asphalt and other hard surfaces raise the temperature of a city by 1-3C higher than  
+    the surrounding countryside) many shopping and pedestrian areas are becoming hellishly hot. For  
+    instance, during the 2019 European heatwave, the air temperature in Paris was 43C but in built-up,  
+    unshaded pedestrian areas, the temperature was closer to 70C on the ground.
+
+    These green canopies, covered in quick-growing vines, provide more shade over the dark (heat absorbing)  
+    asphalt than street trees alone and can mean pedestrian streets remain lively even during extreme heat  
+    events. Plus, they look pretty!
+
+    There are 3 lots in this download, and each is functional.
+
+    \* A road-top bus stop. This lot occupies a 1x1 tile and is overhanging so that canopies can be placed  
+    adjacent to eachother all along the roadway;  
+    \* An avenue-top bus stop. This lot occupies a 2x1 tile and is overhanging so that canopies can be  
+    placed adjacent to eachother all along the avenue;  
+    \* A functional pedestrian-only laneway. This lot is 1x4 tiles long and must be joined to the  
+    road/street network and/or the NAM ped-mall pieces.
+
+    **\---------------------------------------**
+
+    **IT IS IMPORTANT TO TAKE NOTE OF THE FOLLOWING POINTS:**
+
+    \* While road-top/avenue-top bus stops can be safely placed next to a commercial building without any  
+    issues, they cannot be placed adjacent to a residential lot or you will get a no-car-zot. This is    
+    limitation of the game and I cannot do anything about this. The exception to this rule is where the  
+    residential lot is wider than the road-top bus stop: so for instance, if you place a 1x1 road-top bus  
+    stop next to a 4x4 apartment block, the apartment block will be fine, but if it is next to a 1x2 row  
+    house, then the row house will abandon because of no car access.
+
+    \* The functional pedestrian laneway is NOT a ped-mall; it is simply a pedestrian enabled lot. If you  
+    connect two of these lots directly together, SIMs will be unlikely to cross them (that is why a ped-  
+    mall piece is used to connect lots).
+
+    **\---------------------------------------**
+
+    The bus stops are found in the misc transit menu and have a capacity of 50,000 (and support all types  
+    of vehicles: pedestrian, bus, car, freight). The pedestrian laneway is found in the Landmark menu and  
+    provides a few jobs.
+
+    **\---------------------------------------**
+
+    **STATS PEDESTRIAN LANEWAY:**
+
+    Lot size :                   1x4  
+    Bulldoze Cost:         § 40  
+    Plop Cost:                § 100  
+    Capacity Satisfied: CS§ 4, CS§§ 3  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 1 Mwh  
+    Water Consumed:  4 Gal/Month  
+    Occupant Group:    Medium Wealth CS; Landmark
+
+    **\---------------------------------------  
+    STATS BUS STOP:**
+
+    Lot size :                   1x1 (Road), 2x1 (Avenue)  
+    Bulldoze Cost:         § 10  
+    Plop Cost:                § 150  
+    Jobs:                        § 2  
+    Capacity:                 50,000  
+    Pollution:                 1 (Air)/ 1 (Water)/ 1 (Garbage )  
+    Pollution Radius:   1/1/0  
+    Power Consumed: 1 Mwh  
+    Water Consumed:  0 Gal/Month  
+    TSEC:                       0.02  
+    Monthly Cost:        § 5     
+    Occupant Group:   Transport, Bus, Strikable Transit, Bus Stop, MiscTransit
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This is simply a canopy covered in thick vines which will allow some of the street light details  
+    through the many layers of leaves: therefore only one model is required.
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**  
+    here are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34261-green-canopy-road-avenue-and-pedestrian-lane-canopies/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Green.jpg.aadc6341af1e2dee59cbc5d808f310b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Green_ped.jpg.d4555c26e34c7470caa5e4312efe5f0e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Green_ped1.jpg.ce3ca2329d61e93c42e79e920e8ca0b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Green_ped2.jpg.34fc3e9966b361e22138563dee6b984f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Green1.jpg.05733e85771069e42c7602d2984073c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Green2.jpg.80e0bbd73e18e8f14f4740458c3e4ec0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Green3.jpg.2672f3f38f7112e2461ecd552b42da0c.jpg
+assets:
+  - assetId: mattb325-green-canopy-road-avenue-and-pedestrian-lane-canopies
+
+---
+assetId: mattb325-green-canopy-road-avenue-and-pedestrian-lane-canopies
+version: "1.0.0"
+lastModified: "2021-03-09T20:39:56Z"
+url: https://community.simtropolis.com/files/file/34261-green-canopy-road-avenue-and-pedestrian-lane-canopies/?do=download&r=186176

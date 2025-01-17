@@ -1,0 +1,86 @@
+group: mattb325
+name: beechworth-townhouses-ortho
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Beechworth Townhouses (ortho)
+  description: |-
+    **Beechworth Townhouses, by Mattb325.  
+    \---------------------------------------**
+
+    These are modern townhouses that you see popping up everywhere.
+
+    Two stories in height, they are compact in design. But despite their diminutive size, they still manage to have a single car garage (usually a luxury in the inner city), an open plan living/dining and kitchen space as well as two bedrooms and a bathroom on the upper floor.
+
+    I made these due to a lack of modern R$$ 1x1 medium density dwellings in game. They will also be a dependency for upcoming lots.
+
+    They grow on a 1x1 lot on the Houston and Euro tilesets only.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :                  1x1   
+    Growth Stage:         5 (Medium & High Density Zoning)  
+    Bulldoze Cost:         $170  
+    Capacity Satisfied: R$ 37 R$$ 22  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 1 Mwh  
+    Water Consumed:  2 Gal/Month  
+    Building Style:         Houston and Euro  
+    Occupant Group:    Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34522-beechworth-townhouses-ortho/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthTownhomes.jpg.af5e2ffd523bba47a97e12d41c867fb7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthTownhomes1.jpg.1128d6a33882a8a317878f6d9198d8ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthTownhomes2.jpg.9bf6cef5f9d3db16602b6fe1e3d9d312.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeechworthTownhomes3.jpg.9146dce6e453ea5c4dd972ed4f6ae1de.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-beechworth-townhouses-ortho-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-beechworth-townhouses-ortho-darknite
+
+---
+assetId: mattb325-beechworth-townhouses-ortho-darknite
+version: "1.0.0"
+lastModified: "2021-06-13T06:14:39Z"
+url: https://community.simtropolis.com/files/file/34522-beechworth-townhouses-ortho/?do=download&r=188753
+
+---
+assetId: mattb325-beechworth-townhouses-ortho-maxisnite
+version: "1.0.0"
+lastModified: "2021-06-13T06:14:39Z"
+url: https://community.simtropolis.com/files/file/34522-beechworth-townhouses-ortho/?do=download&r=188754

@@ -1,0 +1,75 @@
+group: mattb325
+name: modern-sound-barriers
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Sound Barriers
+  description: |-
+    **Modern Sound Barriers, by Mattb325.  
+    \---------------------------------------**
+
+    A set of nine sound barrier lots to grace your ground-level highways, heavy rail (etc): really, these can be placed anywhere you think noise from adjacent transport lots might be an issue for your long-suffering sims.
+
+    While there are other noise barrier lots out there, I found that some were simply too big, some were too grungy, some didn't have diagonal options and there was a distinct lack of modern-looking barriers, so I made some to suit my own taste.
+
+    These sound barriers are a modern concrete, steel and glass option.
+
+    The lots have Orthogonal, Diagonal, Orthogonal to Diagonal and Left and Right Overhanging options.
+
+    The Ortho->Diag options can be a bit fiddly to place, but you'll soon get the hang of it and to that end each lot has a custom icon to try and make the job a little easier (the standard ortho and diagonals simply have a grey line icon, while the more complex ones have a little picture as well). As a general rule, you should aim to place these lots with the curved glass top facing towards the noise (this has a cupping effect to dampen the noise beyond the wall).
+
+    They are found in the parks menu - about half way down. Now, depending on your plugins folder they may not be sequential (i.e. other park lots might appear in between) but they will be very closely positioned to each other in the menu.
+
+    As I made these for myself and designed them to be high-end, nice looking sound walls, they do have a park effect (and associated monthly cost), so if you are trying to keep your city looking grungy, don't use these.  
+    While some of you may think that this is very un-realistic, please be mindful that you would only see these sorts of walls bordering nicer residential/commercial/industrial areas in real life, so these lots are designed to stimulate medium to high wealth growth rather than simply being neutral...unfortunately this is the way the game works and to my mind, when modding something with an in-built desirability, it should come with an associated cost.
+
+    All the lots have been made transparent (and do not suffer the water bug) so that they will blend in with your terrain.
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size :                1x1 - 1x2  
+    Plop Cost:              §40  
+    Occupant Groups: Medium Wealth Park; Civic  
+    Park Effect:            +15 over 15 tiles  
+    Landmark Effect:  +20 over 10 tiles  
+    Pollution:                 Air (-)2 over 2 tiles, Water 1 over 1 tiles, Garbage 0 over 0 tiles  
+    Power consumed:  0 MwH  
+    Water consumed:  5 Gallons/Month  
+    Monthly Cost:         §5  
+    Bulldoze Cost:        §10
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    I've never seen a highway wall self illuminate, so there is only one model file: the day version.
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file does not require external dependencies.
+
+    \---------------------------------------
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks, and enjoy!
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/31622-modern-sound-barriers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Large.jpg.7ed058aed4db370eee02f2dc363abda5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Left_RighOhang.jpg.3413b924fa2d654f95373e5e9dd39da5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Ortho.jpg.32e20e313232550e00f878e085048ba9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Ortho_Diag.jpg.d4718ea2a788a63f8b726d72b0605dbf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Ortho_Diag1.jpg.c65caea912f8a9f97c5e2e3cd05dffa2.jpg
+assets:
+  - assetId: mattb325-modern-sound-barriers
+
+---
+assetId: mattb325-modern-sound-barriers
+version: "1.0"
+lastModified: "2017-05-15T22:51:03Z"
+url: https://community.simtropolis.com/files/file/31622-modern-sound-barriers/?do=download&r=165776

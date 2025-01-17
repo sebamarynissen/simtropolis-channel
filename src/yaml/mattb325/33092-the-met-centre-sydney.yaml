@@ -1,0 +1,109 @@
+group: mattb325
+name: the-met-centre-sydney
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: The Met Centre, Sydney
+  description: |-
+    **The Met Centre, Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    This is an unusually shaped skyscraper that caught my eye as I was making the Amora Hotel.
+
+    Situated at 60 Margaret St Sydney, the Met Centre (not to be confused with Britain's Meteorological Agency) is a set of over 70 shops in the podium levels and offices in the tower above. The current signage rights are taken by ING Direct. At various times it has also been the Westpac Plaza and the CBA Centre.
+
+    This is a total late 1970s - early 1980's retro fest, with the building having opened in 1980.
+
+    While I have modeled this reasonably accurately, as usual, I take artistic liberties as I see fit, so it is not a 100% recreation, but pretty close. I liked the building because it offers a slightly different elevation on each side and with its alternate stepped facade on each diagonal elevation, it isn't the typical boring box skyscraper.
+
+    It is offered in two versions: as a growable CO§§§ (which actually does grow) on a 4x4 lot for high density commercial zones and provides 2,370 high wealth jobs.
+
+    The second version is as a fully functioning overhanging ploppable CS§§ lot for diagonal roads. I have made it a CS as the game has insatiable demand for this group and plopping a CS§§ is unlikely to interfere with region-wide demand nor is it as likely to abandon. The ploppable version provides 1,360 CS§§ jobs. There are so few overhanging diagonals available, and this tower is a perfect candidate.
+
+    **\---------------------------------------**
+
+    **STATS CO§§§:**
+
+    Lot size :                 4x4  
+    Growth Stage:        7 (High Density Zoning)  
+    Bulldoze Cost:        § 1,608  
+    Capacity Satisfied: CO§§§ 2,370, CO§§ 3,387  
+    Pollution:                 14 (Air)/ 14 (Water)/ 5 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 95 Mwh  
+    Water Consumed:  1,031 Gal/Month  
+    Building Style:         Chicago/NY/Houston/Euro  
+    Occupant Group:    High Wealth Commercial Offices Building
+
+    **\---------------------------------------**
+
+    **STATS CS§§ PLOPPABLE (Diagonal Overhanging):**
+
+    Lot size :                 1x3  
+    Plop Cost:               § 686  
+    Bulldoze Cost:        § 40  
+    Capacity Satisfied:CS§§ 1,360, CS§ 4,200  
+    Pollution:                 20 (Air)/ 15 (Water)/ 34 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 31 Mwh  
+    Water Consumed:  45 Gal/Month  
+    Building Style:         N/A  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins. You only need one pack depending on whether you use Maxis Nite or Dark Nite:
+
+    \*Mattb325 Urban Civics Prop Pack Vol01 DARK NITE: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3710](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3710))
+
+    OR
+
+    \*Mattb325 Urban Civics Prop Pack Vol01 MAXIS NITE: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3709](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3709))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33092-the-met-centre-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/MetCtr.jpg.3f61df06c364a8556268f9eca7bdbe2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/MetCtr1.jpg.77198af79a8f762e0df4efab7c633be5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/MetCtr2.jpg.230cbbbbe2bafdba75adcfeda25ec1d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/MetCtr3.jpg.3ba9f7bc001efb8fbac1e4c454ab0269.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/MetCtr4.jpg.52972de3f3fce8fad29e0efee4ddce63.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/MetCtr5.jpg.8e17d1e1f50709b9a3c852cfa60bb9c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/MetCtr6.jpg.d7d0720508ca72b0e006dbb8d324021f.jpg
+dependencies:
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-the-met-centre-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-the-met-centre-sydney-darknite
+
+---
+assetId: mattb325-the-met-centre-sydney-darknite
+version: "1.0"
+lastModified: "2019-08-19T21:02:12Z"
+url: https://community.simtropolis.com/files/file/33092-the-met-centre-sydney/?do=download&r=177218
+
+---
+assetId: mattb325-the-met-centre-sydney-maxisnite
+version: "1.0"
+lastModified: "2019-08-19T21:02:12Z"
+url: https://community.simtropolis.com/files/file/33092-the-met-centre-sydney/?do=download&r=177219

@@ -1,0 +1,89 @@
+group: mattb325
+name: new-bond-st-london
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: New Bond St London
+  description: |-
+    **New Bond St London, by Mattb325.  
+    \---------------------------------------**
+
+    Originally posted in the BAT request thread.
+
+    It is typical of the Georgian-era buildings that dot London's west end.
+
+    It has a very simple facade displaying the typical balance, repetition and restraint that the later Victorian era completely forgot....only it's not, its actually a fake modern replica tacked onto a series of four or five joined-together buildings that run between the main street facade and Barlow place (the lane-way) behind it.
+
+    I lived in this area of London for well over a decade and remember the old building...sure enough in 2012, the entire Bond St facade was replaced with the mock Georgian facade that we see today.
+
+    I rather like the former higgledy-piggledy Edwardian facade, and will do a version of that, soon (if there is sufficient interest from the community)
+
+    Despite it's fancy new facade with Chanel as the anchor tenant, and because of how many jumbled buildings are all joined together, this one doesn't typically read as a "high-wealth" offering.   
+    Therefore, it is offered as a medium wealth, medium density Commercial Services Building on a 1x2 lot. The actual building is 20m wide by 45 deep, so to get it to conform to SC4s 16m grid I have had to make adjustments. None-the-less, there is a lot of visual interest with this one, and it will work well with my other London Building Packs that I have released over the years.
+
+    It grows on the Euro Tileset.
+
+    It provides 58 medium wealth commercial services jobs.
+
+    **\---------------------------------------**
+
+    **STATS CS$$:**
+
+    Lot size :                 1x2  
+    Growth Stage:        5 (Medium and High Density)  
+    Bulldoze Cost:        $333  
+    Capacity Satisfied:CS$ 223; CS$$ 58  
+    Pollution:                 2 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 5 Mwh  
+    Water Consumed:  57 Gal/Month  
+    Building Style:         Euro  
+    Occupant Group:    Medium Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34017-new-bond-st-london/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/NewBondSt.jpg.e987b955fd2570b5f8344a9baa2d0b7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/NewBondSt1.jpg.d6f72f5898bec2189f2ed3ce9659e784.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/NewBondSt2.jpg.1ee05341d983cb22794cd32c27143fb0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/NewBondSt3.jpg.1ed3da3352327b499d1d8eedfb4c2441.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/NewBondSt3a.jpg.d3843850c1d0c7e681a633346af4ba3e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/NewBondSt4.jpg.29a77cd571db129d2068f8e366a4db06.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-new-bond-st-london-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-new-bond-st-london-darknite
+
+---
+assetId: mattb325-new-bond-st-london-darknite
+version: "1.0.0"
+lastModified: "2020-12-28T20:52:56Z"
+url: https://community.simtropolis.com/files/file/34017-new-bond-st-london/?do=download&r=184281
+
+---
+assetId: mattb325-new-bond-st-london-maxisnite
+version: "1.0.0"
+lastModified: "2020-12-28T20:52:56Z"
+url: https://community.simtropolis.com/files/file/34017-new-bond-st-london/?do=download&r=184282

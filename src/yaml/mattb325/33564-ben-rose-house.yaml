@@ -1,0 +1,101 @@
+group: mattb325
+name: ben-rose-house
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Ben Rose House
+  description: |-
+    **Ben Rose House, by Mattb325.  
+    \---------------------------------------**
+
+    Made famous by the 1986 movie, 'Ferris Bueller's Day Off', the Ben Rose House is a modernist residence designed by architect James Speyer in Highland Park, Illinois, for Ben and Francis Rose.
+
+    The steel, timber and glass house was built in 1953 and sits surrounded by many trees overlooking a ravine.
+
+    A separate pavilion was built in 1974.
+
+    The house was recently put on the market, and despite representing stunning modernist design, failed to secure buyers. In addition to the interiors of the house requiring modernisation, the main reason that was given for lack of buyer interest was the two separate pavilions: while visually charming, this is quite impractical during winter in many temperate locations, let alone the bitter weather that Chicago often experiences. The house eventually sold after many years on the market and substantial discounting.
+
+    To that end, I have added a glass walkway to connect the two pavilions, so this house is by no means a replica.
+
+    This BAT is offered as a Mayor's house.
+
+    There are two different versions included in the download: you can keep one or both, and both can be used at the same time in the same city if you wish.
+
+    The first version is a 6x6 heavily wooded lot with a custom foundation that is designed to be placed on hillsides. This gives the mayor a perfectly private sanctuary overlooking his or her city.
+
+    The second version is a 4x4 lot without a custom foundation that is designed for more level ground and has far fewer trees: this version is more suited to areas which are more urban, or for those who predominantly play on flat areas.
+
+    Like the in-game Mayor's House, both lots are found in the Rewards Menu and have a separate icon and description to easily distinguish between the two versions.
+
+    Placing this reward will boost surrounding desirability for business and residential, raise demand caps, provide jobs, and provide both landmark and park effects. It needs road, power and water. There are no restriction as to how often these lots can be placed and this reward will not over-write, or interfere with, any other mayor house rewards (including the in-game version).
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size:                  4x4 or 6x6  
+    Plop Cost:               § 4,550  
+    Bulldoze Cost:        § 730  
+    Monthly Cost:         § 45  
+    Wealth:                     High  
+    Park Effect:              150 over 60 tiles  
+    Landmark Effect:    120 over 60 tiles  
+    Mayor Rating:          8 over 220 tiles  
+    Pollution at Centre: 1 (air) /1 (water) /5 (garbage)  
+    Pollution Radius:     2/3/0  
+    Demand Created:    R§ 5, R§§ 10, R§§§ 2  
+    Power Consumed:  24 Mwh  
+    Water Consumed:   32 Gallons  
+    Occupant Groups:   Reward; Mayors House
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins folder:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33564-ben-rose-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller.jpg.95799809ecf2806539127003965243ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller1.jpg.457ea962f5a7c044b1be4682eab33f76.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller2.jpg.558edd33b7d071d881fabb7850c40ad0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller2a.jpg.36d587f81bb466beebe6c2b55523cf8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller3.jpg.136d09a8d36ad43ca40a25b29503f4f5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller4.jpg.a67dbaf8f39a8513c28dad5ba7cf53bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller5.jpg.46b2bd3fed318dfeb3151fcdd81a1245.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller6.jpg.1b85d5eecf334236a786e15ea5fad688.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller7.jpg.51eebe10089d8754b68478265764bf84.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Bueller8.jpg.1c925c36466f488d03c22722de715f45.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-ben-rose-house-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-ben-rose-house-darknite
+
+---
+assetId: mattb325-ben-rose-house-darknite
+version: "1.0.0"
+lastModified: "2020-04-24T22:07:30Z"
+url: https://community.simtropolis.com/files/file/33564-ben-rose-house/?do=download&r=180770
+
+---
+assetId: mattb325-ben-rose-house-maxisnite
+version: "1.0.0"
+lastModified: "2020-04-24T22:07:30Z"
+url: https://community.simtropolis.com/files/file/33564-ben-rose-house/?do=download&r=180771

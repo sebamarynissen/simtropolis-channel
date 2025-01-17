@@ -1,0 +1,77 @@
+group: mattb325
+name: daily-mirror-building
+version: "1.0.2"
+subfolder: 300-commercial
+info:
+  summary: Daily Mirror Building
+  description: |-
+    **The Daily Mirror, Los Angeles, by Mattb325.  
+    \---------------------------------------**
+
+    The Daily Mirror building is part of a much larger Los Angeles Times newspaper complex. Known as the Crawford addition, it was built in 1948.
+
+    This 11-floor building is done in the functional *streamline moderne* style and makes for an interesting art-deco inspired mid-rise building.
+
+    It is offered as a growable medium wealth commercial services building on a 2x3 lot that will employ 825 workers. If you wish to make this ploppable, I suggest downloading Buggis extra cheats which will make this (and everything else in your plugins) available to plop from a drop-down list.
+
+    **\---------------------------------------**
+
+    **STATS CO$$:**
+
+    Lot size :                  2x3  
+    Growth Stage:         6 (Medium and High Density)  
+    Bulldoze Cost:         $ 726  
+    Capacity Satisfied: CO$$ 825  
+    Pollution:                 3 (Air)/ 3 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 17 Mwh  
+    Water Consumed:  175 Gal/Month  
+    Building Style:         Chicago, New York and Houston only  
+    Occupant Group:    Medium Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies for this file
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder. NB: before anyone asks, the parking lot textures are not part of the lot: it is the SAM1 with the magento texture override ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34038-daily-mirror-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/TheMirror.jpg.ea28e01e5b5646c4fa263a7499bae546.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/TheMirror1.jpg.e9923882cd22dd429cd921f0c711dcd1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/TheMirror2.jpg.2fe256884778c254266d447e2809225a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/TheMirror3.jpg.afa298566bace971275234509a5efd49.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/TheMirror4.jpg.e5993930df39b271f08e8ab43d08d981.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-daily-mirror-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-daily-mirror-building-darknite
+
+---
+assetId: mattb325-daily-mirror-building-darknite
+version: "1.0.2"
+lastModified: "2021-07-05T21:34:29Z"
+url: https://community.simtropolis.com/files/file/34038-daily-mirror-building/?do=download&r=189181
+
+---
+assetId: mattb325-daily-mirror-building-maxisnite
+version: "1.0.2"
+lastModified: "2021-07-05T21:34:29Z"
+url: https://community.simtropolis.com/files/file/34038-daily-mirror-building/?do=download&r=189182

@@ -1,0 +1,77 @@
+group: mattb325
+name: reflection-pool
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Reflection Pool
+  description: |-
+    **Reflection Pool, by Mattb325.  
+    \---------------------------------------**
+
+    Almost every city has a downtown area with a reflection pool: a simple plaza with water and trees that perfectly complements the austere surroundings of skyscrapers.
+
+    There are not too many available in SimCity, so I have re-purposed the reflection pool from the anzac memorial to fill this gap. (I also realise many folks don't want to place a war memorial or a park that takes up many hectares of real-estate on a city tile.
+
+    I made the reflection pool in such a way as to give a generic reflection of trees and a building on one side: meaning that it will 'appear' to reflect an adjacent building: in game reflections are not available in SC4 due to its age. The reflection pool also accepts shadows from surrounding objects which further enhances the illusion.
+
+    The base tiles will also blend in with any texture/sidewalk over-rides that you may have.
+
+    Placing this plaza will boost surrounding desirability for Residential and Commercial zones, as well as helping to bust demand caps in each category by 8,000 places.
+
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                 2x4  
+    Bulldoze Cost:       $30  
+    Plop Cost:              $370  
+    Demand Satisfied:R$ 8,000, R$$ 8,000, R$$$ 8,000, CO$$ 8,000, CO$$$ 8,000  
+    Landmark Effect:  +80 over 10 tiles  
+    Park Effect:            +15 over 30 tiles  
+    Pollution:                0 (Air)/ 0 (Water)/ 0 (Garbage )  
+    Pollution Radius:   0/0/0  
+    Power Consumed: 0 Mwh  
+    Water Consumed: 0 Gal/Month  
+    Monthly Cost:        $40  
+    Occupant Group:   Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    The main dependency has two model files in the download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*Anzac Memorial ([https://community.simtropolis.com/files/file/34506-anzac-memorial-hyde-park-sydney/](https://community.simtropolis.com/files/file/34506-anzac-memorial-hyde-park-sydney/)) You only need the reflection pool model+.desc file  
+    \*Girafe Poplars - ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3579](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34514-reflection-pool/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/ReflectionPool.jpg.1a089546557710c1ef23e084d8d7da45.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/ReflectionPool1.jpg.8af36f70392d6f1a6bcfb014966a7d25.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/ReflectionPool2.jpg.9001436b3b0836c281bff8843ae62517.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/ReflectionPool3.jpg.611e3eea92c5859aa0c3b959297e645e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/ReflectionPool4.jpg.476350554fa0904fae6a1748435708a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/ReflectionPool5.jpg.db18997b80cba219700c19c51ec821ef.jpg
+dependencies:
+  - girafe:poplars
+  - mattb325:anzac-memorial-hyde-park-sydney
+assets:
+  - assetId: mattb325-reflection-pool
+
+---
+assetId: mattb325-reflection-pool
+version: "1.0.0"
+lastModified: "2021-06-09T00:16:18Z"
+url: https://community.simtropolis.com/files/file/34514-reflection-pool/?do=download&r=188680

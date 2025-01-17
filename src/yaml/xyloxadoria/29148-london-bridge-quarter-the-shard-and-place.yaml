@@ -1,0 +1,118 @@
+group: xyloxadoria
+name: london-bridge-quarter-the-shard-and-place
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: London Bridge Quarter- The Shard and Place
+  description: |-
+    The Shard, also referred to as the Shard of Glass, Shard London Bridge and formerly London Bridge Tower, is an 87-storey skyscraper in London that forms part of the London Bridge Quarter development. The other building in the development is the shorter 17 story "Place" both buildings are included in this download.
+
+    **Stats**
+
+    Both buildings have a growable and Ploppable with Jobs Version. The stats are the same for the growable and plop with jobs versions
+
+    **The Place**
+
+    Lot Size: 4x7
+
+    Pollution: 10 of each except radiation over 5 tiles
+
+    Water and Power Consumed : 15 of each
+
+    Jobs: 2400 Total, 800 CO$$$, 1600 CO$$
+
+    *Landmark Only Stats*
+
+    Landmark Effect : 10 over 5 tiles
+
+    Plop Cost: $10000
+
+    Monthly Cost: 20
+
+    **The Shard**
+
+    Lot Size: 8x7
+
+    Pollution: 10 of each except radiation over 5 tiles
+
+    Water and Power Consumed : 30 of each
+
+    Jobs: 10500 Total, 3500 CO$$$, 7000 CO$$
+
+    *Landmark Only Stats*
+
+    Landmark Effect : 10 over 10 tiles
+
+    Plop Cost: $15000
+
+    Monthly Cost: 30
+
+    (Note: There is no such thing as CO$ Jobs)
+
+    **Dependencies**
+
+    Dutch prop Pack
+
+    [https://community.simtropolis.com/files/file/28522-dutch-prop-pack/](https://community.simtropolis.com/files/file/28522-dutch-prop-pack/)
+
+    VIP vnaoned propspack vol. 1
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2979](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2979)
+
+    VIP girafe lindens
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2869](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+
+    SAM Plugin
+
+    Part of NAM
+
+    Bipin Porpz
+
+    Included in Download (with bipin's permission)
+
+    **Warning**
+
+    ![warning_symbol.jpg](https://images.reallygreattoys.com/site/warning_symbol.jpg)Warning This download contains Sharp Edges. Use at your own risk.
+
+    **The Shard is Partial W2W**
+
+    The Shard was designed to be a partial W2W building. The two edges of "London Bridge Station" directly to the right of the front side, and directly to the left of the glass canopy are W2W.
+
+    **Fullsize Pics**
+
+    Note: The STEX Upload Images are not at full resolution. See fullsize images here:
+
+    [Day](http://i.imgur.com/mAsAub2.jpg)
+
+    [Night](http://i.imgur.com/jWo1ZE2.jpg)
+  author: Xyloxadoria
+  website: https://community.simtropolis.com/files/file/29148-london-bridge-quarter-the-shard-and-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/9d2f1fe81a383223fc9b55572ca8b7fd-the-view-from-the-shard_expirience_billboard.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/9dcc388b9130f3131a93dd36346dfd21-shard-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/644d2e618b9b376eae90344cb032e7a8-shard-night.jpg
+dependencies:
+  - bnl:dutch-prop-pack
+  - girafe:lindens
+  - vip:vnaoned-props-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: xyloxadoria-london-bridge-quarter-the-shard-and-place-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: xyloxadoria-london-bridge-quarter-the-shard-and-place-darknite
+
+---
+assetId: xyloxadoria-london-bridge-quarter-the-shard-and-place-darknite
+version: "1.0"
+lastModified: "2013-12-28T07:31:37Z"
+url: https://community.simtropolis.com/files/file/29148-london-bridge-quarter-the-shard-and-place/?do=download&r=122106
+
+---
+assetId: xyloxadoria-london-bridge-quarter-the-shard-and-place-maxisnite
+version: "1.0"
+lastModified: "2013-12-28T07:31:37Z"
+url: https://community.simtropolis.com/files/file/29148-london-bridge-quarter-the-shard-and-place/?do=download&r=122107

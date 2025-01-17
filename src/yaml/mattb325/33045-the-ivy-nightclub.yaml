@@ -1,0 +1,93 @@
+group: mattb325
+name: the-ivy-nightclub
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: The Ivy Nightclub
+  description: |-
+    **The Ivy Nightclub, by Mattb325.  
+    \---------------------------------------**
+
+    This is my own version of the Ivy nightclub on George Street in Sydney and is designed to fill the gap in the lack of larger CS§§§ buildings available.
+
+    The cluster of buildings on this lot is actually a complex called the Ivy Precinct and is a series of clubs, 18 different bars, 11 different restaurants, day-time and night-time leisure areas, cafes, shops, etc.   
+    One of the larger clubs hosts the Ministry of Sound.
+
+    This set of 3 buildings (one from the Victorian Era and two from the 21st Century) replicates another rare commodity in SC4: narrow, bustling laneways. In real cities, small laneways are very common. Due to the 16m wide network constraints in SC4, it isn't really possible to recreate busy, tightly packed buildings and narrow pedestrian thoroughfares, so this is the next best thing.
+
+    The Ivy precinct was purpose built and completed in 2008 at a cost of 150 Million AUD. A few years later, Sydney introduced draconian lockout laws which basically destroyed the night-time economy in the CBD area.
+
+    Just like the unintended consequences of the Prohibition era in the U.S. led to speak-easys, unregulated alcohol consumption, death from consuming contaminated moon-shine and a strong, well organised Mafia, the unintended consequences of this poor decision has killed tourism, sent young people to pop-up raves and warehouse parties and forced night clubs to open in neighbouring suburban areas.
+
+    As a result the Ivy nightclub will soon be torn down and replaced with a hotel/apartment/office block.
+
+    The eye-catching modernist building with its lush green walls and multiple outdoor spaces is offered as a CS§§§ growable on a 4x3 and 3x4 medium and high-density lot providing 266 jobs.
+
+    As a bonus (requested by a fellow SC4 player), I have made some of the hanging plants into a single 4m plant prop which you can use to decorate buildings in the lot editor and create your own green-walled buildings.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§:**
+
+    Lot size :                 4x3 and 3x4  
+    Growth Stage:        6 (Medium and High Density Zoning)  
+    Bulldoze Cost:        § 596  
+    Capacity Satisfied: CS§ 2,631, CS§§ 660, C§§§ 266  
+    Pollution:                 17 (Air)/ 11 (Water)/ 23 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 74 Mwh  
+    Water Consumed:  663 Gal/Month  
+    Building Style:         Euro/Chicago/New York/Houston  
+    Occupant Group:    High Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    Select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33045-the-ivy-nightclub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy.jpg.72d5100d333729acce07b89447de6745.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy1.jpg.7c415c100d0e5eab5d13aabcd5039def.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy2.jpg.5c388e3a8c750b86877f55baf83fa02a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy3.jpg.f77124150df9f90a6b9722513008a44b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy3a.jpg.21fecd99170c9e062169e490a49ded4e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy3b.jpg.b550c58de5e3d76b415b056038d83e43.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy3c.JPG.a3f8ea45c83b19dd831229148f47e215.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy4.jpg.d389ad9ff6474a9ed2de619e805bb5ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/TheIvy5.jpg.0cd6f1632e30bb101ee031e0de582f37.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-the-ivy-nightclub-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-the-ivy-nightclub-darknite
+
+---
+assetId: mattb325-the-ivy-nightclub-darknite
+version: "1.0"
+lastModified: "2019-07-26T01:26:02Z"
+url: https://community.simtropolis.com/files/file/33045-the-ivy-nightclub/?do=download&r=176869
+
+---
+assetId: mattb325-the-ivy-nightclub-maxisnite
+version: "1.0"
+lastModified: "2019-07-26T01:26:02Z"
+url: https://community.simtropolis.com/files/file/33045-the-ivy-nightclub/?do=download&r=176870

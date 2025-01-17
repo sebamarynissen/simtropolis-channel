@@ -1,0 +1,116 @@
+group: mattb325
+name: diy-international-style-skyscrapers
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: DIY International Style Skyscrapers
+  description: |-
+    **DIY Skyscraper International Style, by Mattb325.  
+    \---------------------------------------**
+
+    This download contains 3 modular BAT pieces to allow the end user to build their own functional skyscraper in the lot editor.
+
+    While there are plenty of modular sets for all sorts of things, to my knowledge, a modular, functional skyscraper is a unique offering in the SC4 world.
+
+    The model is fictional, but representative of the ubiquitous International Style of skyscraper that dominated the world from the 1950's onwards. These sorts of buildings generally did not exceed 50 -60 floors, but some, such as Chicago's AON Center and the former WTC in New York reached between 80 - 110 stories.
+
+    This is the first of a few such DIY Skyscrapers.
+
+    This BAT can be assembled so as to make any sized building (in 5 story increments) of between 10 or 15 floors and, in theory, as many floors as you want.
+
+    There are three pieces rendered out as props that you line up and combine and raise in either the PIM\-x or lot editor (CTRL+up arrow key) to build your own skyscraper:
+
+    \*Mattb325\_DIY\_IntlStyle\_Base (the Lobby and first five floors)  
+      \*Mattb325\_DIY\_IntlStyle\_Mid (the middle five floors which you repeat as often as you need)  
+      \*Mattb325\_DIY\_IntStyle\_Top (the upper five floors and roof junk area)
+
+    ![SEsUlP8.jpg](https://i.imgur.com/SEsUlP8.jpg)
+
+    To start you off, I have made four fully functional, ploppable lots with jobs of varying sizes: 15, 20, 40 and 50 floors. These lots are also reasonably modular and you can plop them down in clusters like the display pictures.
+
+    The ploppable lots are found in the landmark menu and provide CS$$ jobs (I've used CS$$ as there is always infinite demand in game, and CO demand often ends up negative by using ploppable skyscraper lots). They therefore require road access - the busier the better, water and power.
+
+    Like all of my work, these are suitable for CAM and non-CAM cities alike.
+
+    **\---------------------------------------**
+
+    Please note that as these are vertical modular pieces, you will see little seams/apparent misalignment/repeated textures at certain zooms. I've corrected it all as much as is possible: it's not super visible unless you go looking for it, but beyond the corrections I've made there's not really anything I can do about how the game stitches FSH files together for its own display purposes.
+
+    And certainly, for non batters, the benefit of finally being able to make your own skyscrapers should outweigh any small visual seams at certain zooms.
+
+    **\---------------------------------------**
+
+    As this is released as a DIY set, by all means make and share your own versions of skyscrapers - you don't need to ask my permission - but ensure that you point to this file as a dependency for your creation.   
+    And, if you are using the functional lot versions that I have provided, please ensure that you use the 'save as' option when making your own lot, particularly if you intend to upload your work to the exchange.
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    15 and 20 Floor Skyscrapers  
+    Lot size:                    4x4  
+    Plop Cost:                 $14,688  
+    Bulldoze Cost:          $856  
+    Pollution at Centre: 46 (air) /23 (water) /46 (garbage)  
+    Pollution Radius:     5/6/0  
+    Demand Created:    R$ 3,758, R$$ 942  
+    Power Consumed:  76 Mwh  
+    Water Consumed:   905 Gallons  
+    Occupant Groups:   Landmark; CS$$.
+
+    **STATS:**
+
+    40 and 50 Floor Skyscrapers  
+    Lot size:                    4x4  
+    Plop Cost:                 $21,776  
+    Bulldoze Cost:          $1,269  
+    Pollution at Centre: 66 (air) /33 (water) /66 (garbage)  
+    Pollution Radius:     5/6/0  
+    Demand Created:    R$ 5,635, R$$ 1,411  
+    Power Consumed:  107 Mwh  
+    Water Consumed:   1,277 Gallons  
+    Occupant Groups:   Landmark; CS$$.
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no external dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34587-diy-international-style-skyscrapers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/DIY_Scraper.JPG.a1e02b5dae3c34aafa82a75efb30a9d7.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/DIY_Scraper1.JPG.31debbe9b6a86d03ef8fa13e93bd6392.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/DIY_Scraper2.JPG.0d02a5f348aef27e4d2a0031e4921e75.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/DIY_Scraper3.JPG.b5912c9054e4cad172baf578e764e95e.JPG
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-diy-international-style-skyscrapers-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-diy-international-style-skyscrapers-darknite
+
+---
+assetId: mattb325-diy-international-style-skyscrapers-darknite
+version: "1.0.0"
+lastModified: "2021-07-12T00:57:01Z"
+url: https://community.simtropolis.com/files/file/34587-diy-international-style-skyscrapers/?do=download&r=189258
+
+---
+assetId: mattb325-diy-international-style-skyscrapers-maxisnite
+version: "1.0.0"
+lastModified: "2021-07-12T00:57:01Z"
+url: https://community.simtropolis.com/files/file/34587-diy-international-style-skyscrapers/?do=download&r=189259

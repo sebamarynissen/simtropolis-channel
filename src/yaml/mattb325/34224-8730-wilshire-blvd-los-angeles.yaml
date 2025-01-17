@@ -1,0 +1,91 @@
+group: mattb325
+name: 8730-wilshire-blvd-los-angeles
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: 8730 Wilshire Blvd, Los Angeles
+  description: |-
+    **8730 Wilshire Blvd, Beverly Hills, by Mattb325.  
+    \---------------------------------------**
+
+    This unusually shaped corner building is from Wilshire Blvd Los Angeles.
+
+    This 6-floor building is suitable for W2W (wall to Wall) environments and the angular entrance wall and circular corner details help break up the boxiness typically associated with such street-scapes.
+
+    It is offered as a growable medium wealth commercial services and commercial offices building on a 1x2 corner lot. It grows on the three American Tilesets.   
+    If you wish to make this ploppable, I suggest downloading Buggis extra cheats which will make this (and everything else in your plugins) available to plop from a drop-down list.
+
+    **\---------------------------------------**
+
+    **STATS CS$$:**
+
+    Lot size :                  1x2  
+    Growth Stage:         5 (Medium and High Density)  
+    Bulldoze Cost:         $ 341  
+    Capacity Satisfied: CS$ 232, CS$$ 60  
+    Pollution:                 2 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 5 Mwh  
+    Water Consumed:  59 Gal/Month  
+    Building Style:         Chicago, New York and Houston   
+    Occupant Group:    Medium Wealth CO
+
+    **STATS CO$$:**
+
+    Lot size :                  1x2  
+    Growth Stage:         5 (Medium and High Density)  
+    Bulldoze Cost:         $ 341  
+    Capacity Satisfied: CO$$ 105  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 3 Mwh  
+    Water Consumed:  31 Gal/Month  
+    Building Style:         Chicago, New York and Houston only  
+    Occupant Group:    Medium Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies for this file
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34224-8730-wilshire-blvd-los-angeles/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/8730Wilshire.jpg.3f712b620f27c292475256c6b184cf2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/8730Wilshire1.jpg.8a69148ea5a77b4d4d4d345e896d8275.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/8730Wilshire2.jpg.6aedc2da31e4b96494e4917ee96582a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/8730Wilshire3.jpg.7a5a305d0d5f82f27a9cfb604be7baac.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-8730-wilshire-blvd-los-angeles-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-8730-wilshire-blvd-los-angeles-darknite
+
+---
+assetId: mattb325-8730-wilshire-blvd-los-angeles-darknite
+version: "1.0.0"
+lastModified: "2021-03-05T21:31:00Z"
+url: https://community.simtropolis.com/files/file/34224-8730-wilshire-blvd-los-angeles/?do=download&r=185936
+
+---
+assetId: mattb325-8730-wilshire-blvd-los-angeles-maxisnite
+version: "1.0.0"
+lastModified: "2021-03-05T21:31:00Z"
+url: https://community.simtropolis.com/files/file/34224-8730-wilshire-blvd-los-angeles/?do=download&r=185937

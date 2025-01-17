@@ -1,0 +1,104 @@
+group: mattb325
+name: marcus-clark-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Marcus Clark Building
+  description: |-
+    **Marcus Clark Building, by Mattb325.  
+    \---------------------------------------**
+
+    Another Sydney icon building adjacent to central station. Marcus Clark & Co was a luxury department store which operated from the 1880s to the 1960s.
+
+    The imposing building I have batted was purpose built for the retailer in 1906 and, at ten floors high plus the copper tower and distinctive lit orb, it was one of the tallest in Sydney at the time.   
+    Marcus Clark ran many department stores in regional centres, using the Sydney headquarters as a base for rural customers to order goods which were then dispatched all over the country using the trains at nearby central station. It was a lucrative and competitive advantage to the mail-order catalogues which were prevalent at the time.
+
+    After a number of take-overs and mergers in the 1950s, the retailer finally closed this building in 1965.
+
+    It is now used as a TAFE (Technical and Further Education) college.
+
+    To that end, I have included two lot variants: a high wealth Commercial Services Building which grows on all tilesets and a ploppable college lot which has a high capacity and large coverage radius.
+
+    Both lots are 4x3 and are suitable in a Wall to Wall (W2W) environment or as a standalone building.
+
+    **\---------------------------------------**
+
+    **STATS CS$$$:**
+
+    Lot size :                    4x3  
+    Growth Stage:         6 (Medium & High Density Zoning)  
+    Bulldoze Cost:          $ 944  
+    Capacity Satisfied: CS$ 3,083, CS$$ 773, CS$$$ 311  
+    Pollution:                    20 (Air)/ 13 (Water)/ 27 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed:  87 Mwh  
+    Water Consumed:   776 Gal/Month  
+    Building Style:          Chicago, New York, Houston, Euro
+
+    **STATS COLLEGE:**
+
+    Lot size :                   4x3  
+    Plop Cost:                $ 3,850  
+    Bulldoze Cost:        $ 330  
+    Demand Created: Jobs$ 103, Jobs$$ 165, Jobs$$$ 32  
+    Pollution:                  6 (Air)/ 4 (Water)/ 3 (Garbage )  
+    Pollution Radius:  2/3/0  
+    Capacity:                 8,800  
+    Coverage Radius: 5,920  
+    Monthly cost:        $ 1,250  
+    Power Consumed:11 Mwh  
+    Water Consumed: 42 Gal/Month  
+    Occupant Group:   Building: Civic; Building: College; Building: Strikeable Education
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Porkie Props Vol01: [https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33944-marcus-clark-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/MarcusClark.jpg.ed03894e3d3e637c1f8579f24ecdd9fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/MarcusClark1.jpg.488fdf1e7eba1a8f9f90acc53c00b5cc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/MarcusClark2.jpg.bcee1d75675b20c5e61980bf2a2c9109.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/MarcusClark3.jpg.62f70c92247efb941416c4615c4bfa56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/MarcusClark4.jpg.25995a50928b13a8414a05cce9ef28f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/MarcusClark5.jpg.4750bdc63853be9fb1d9f4876734ee74.jpg
+dependencies:
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-marcus-clark-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-marcus-clark-building-darknite
+
+---
+assetId: mattb325-marcus-clark-building-darknite
+version: "1.0.0"
+lastModified: "2020-11-07T23:17:16Z"
+url: https://community.simtropolis.com/files/file/33944-marcus-clark-building/?do=download&r=183647
+
+---
+assetId: mattb325-marcus-clark-building-maxisnite
+version: "1.0.0"
+lastModified: "2020-11-07T23:17:16Z"
+url: https://community.simtropolis.com/files/file/33944-marcus-clark-building/?do=download&r=183648

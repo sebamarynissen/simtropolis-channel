@@ -1,0 +1,86 @@
+group: mattb325
+name: mistral-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Mistral Apartments
+  description: |-
+    **Mistral Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    These apartments are based on a building of the same name in Sydney's beach-side suburb of Brighton-le-Sands.
+
+    These apartments were typical builds from the 1970's. While the apartments are quite dated, they are typically much larger than newer builds and, given their typical beach front location, prove very popular. The boxiness of the internationalist-style design is broken up by a glass-covered sunken entrance and a sweeping sunken driveway.
+
+    It is offered as an R$$ apartment on the modern Houston and Euro tilesets.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike. This is the temperate version, a tropically lotted version will follow shortly.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS R$$ apartments:**
+
+    Lot size :                  3x4  
+    Growth Stage:         5 (Medium and High Density Zoning)  
+    Bulldoze Cost:        $ 511  
+    Capacity Satisfied: R$ 804 R$$ 445  
+    Pollution:                 3 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 7 Mwh  
+    Water Consumed:  18 Gal/Month  
+    Building Style:         Houston and Euro  
+    Occupant Group:    Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34851-mistral-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/Mistral.jpg.19d860233cb1ef7b5c0b336329b6ae7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/Mistral1.jpg.3982871bf00247c0c90200d2b7d206fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/Mistral2.jpg.ea5f4047e83c77e0f65d8d8238b12c81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/Mistral3.jpg.d3e1aae131fdbb5fa342b577cd2dce4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/Mistral4.jpg.1e32bb52f7fb2725a9c2074a7d5cb029.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/Mistral5.jpg.32c551de9318efff4ee35aa2859d14f3.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-mistral-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-mistral-apartments-darknite
+
+---
+assetId: mattb325-mistral-apartments-darknite
+version: "1.0.0"
+lastModified: "2022-02-12T04:18:26Z"
+url: https://community.simtropolis.com/files/file/34851-mistral-apartments/?do=download&r=191334
+
+---
+assetId: mattb325-mistral-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2022-02-12T04:18:26Z"
+url: https://community.simtropolis.com/files/file/34851-mistral-apartments/?do=download&r=191335

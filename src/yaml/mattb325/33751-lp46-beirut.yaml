@@ -1,0 +1,89 @@
+group: mattb325
+name: lp46-beirut
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: LP46, Beirut
+  description: |-
+    **Gaia Beirut Plaza, by Mattb325.  
+    \---------------------------------------**
+
+    This BAT is a replica of a simple memorial which stood in Beirut.
+
+    In 2018, the director of the Letitia Gallery in Beirut, Gaia Foudolian, commissioned British artist Nathaniel Rackowe to make a metal sculpture (called simply LP46) to stand in the city's *Martyr Square* as part of 'The Shape of a City' project.
+
+    The sculpture was removed a year and half later amid controversy which left both Nathaniel and Gaia dumbfounded: I will not elaborate on that controversy, but in the words of the artist, the piece represented the architecture of the city: "...the bones of new buildings...I used light to transform the hard material of steel, as a means to reveal beauty in the city."
+
+    It is crucial to recognise the value of arts and culture to our society: art can influence by uniting, by dividing, by changing opinions, challenging values and providing a visual medium that translates experiences fundamental to the sense of self and place that transcend space and time.
+
+    The blast which shattered Beirut shortly after 6pm on August 4, 2020, destroyed the Letitia Gallery (which, like most of Beirut's galleries and museums, is close to the port district) and killed its director Gaia Foudolian.
+
+    Most of us will live our lives with little fanfare and influence only those in our immediate sphere: our stories will not be recorded in verse, nor will our likeness be portrayed by great artists to adorn the walls of galleries. Cities will not rise or fall before us, and in our passing, with time, we too will be forgotten just as all of those since the beginning of time who have gone before us are forgotten.
+
+    This piece of art originally commissioned by Gaia, is returned for her memory, and for all of those ordinary citizens of Beirut whose lives have been taken and altered by this inconceivable tragedy.
+
+    It is offered as a 2x2 plaza lot (found in the parks menu). Placing it will boost the desirability of nearby residential and commercial areas, as well as alleviating residential demand CAPs which can inhibit city growth.
+
+    **\---------------------------------------**
+
+    **STATS PLAZA:**
+
+    Lot size :                2x2    
+    Plop Cost:              $ 90  
+    Bulldoze Cost:       $ 141  
+    Demand Satisfied:R$ 16,000, R$$ 16,000, R$$$ 16,000  
+    Pollution:                0 (Air)/ 0 (Water)/ 0 (Garbage )  
+    Pollution Radius:   0/0/0  
+    Park Effect:            20 over 40 tiles  
+    Landmark Effect:  100 over 10 tiles  
+    Monthly cost:        $ 45  
+    Power Consumed:0 Mwh  
+    Water Consumed: 0 Gal/Month  
+    Occupant Group:   Building: Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33751-lp46-beirut/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/Gaia.jpg.7c01e3830fd8474246e9e4286e065903.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/Gaia1.jpg.8690ba7dd57ebc9a29701c3de4b8f585.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/Gaia2.jpg.29263b81e018c48b85d86698ecd2ac7f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/Gaia3.jpg.098c942ded890d234f8404cdd7ef0aa0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/Gaia4.jpg.9b650ca51f1b30cb3fadf4b63c12879f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/Gaia5.jpg.9e817995e68935be662ed5f2ee5aff2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/Gaia6.jpg.ee3802b5ab5775cebc45f33290684ce2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-lp46-beirut-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-lp46-beirut-darknite
+
+---
+assetId: mattb325-lp46-beirut-darknite
+version: "1.0.0"
+lastModified: "2020-08-08T02:15:27Z"
+url: https://community.simtropolis.com/files/file/33751-lp46-beirut/?do=download&r=182318
+
+---
+assetId: mattb325-lp46-beirut-maxisnite
+version: "1.0.0"
+lastModified: "2020-08-08T02:15:27Z"
+url: https://community.simtropolis.com/files/file/33751-lp46-beirut/?do=download&r=182319

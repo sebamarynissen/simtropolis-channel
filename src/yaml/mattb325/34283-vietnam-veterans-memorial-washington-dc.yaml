@@ -1,0 +1,92 @@
+group: mattb325
+name: vietnam-veterans-memorial-washington-dc
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Vietnam Veterans Memorial, Washington DC.
+  description: |-
+    **Vietnam Veterans Memorial, Washington DC, by Mattb325.  
+    \---------------------------------------**
+
+    The strikingly simple and poignant Vietnam Veterans Memorial in Washington DC honours those who fought in the Vietnam War.
+
+    The park is dominated by a black granite wall with the names of those who lost their lives during this terrible conflict. The memorial was completed in 1982. The design was very controversial in its day: people stated the black granite was nihilistic and they complained about the lack of ornamentation - but it is this absolute simplicity which (to me) makes it worthy of being included in SC4.
+
+    This is a 10x6 heavily wooded, seasonal park lot. The triangular granite wall cuts through and under the ground and a path follows the slope to the base and back again: the engraved granite panels act as a retaining wall for the ground behind it.
+
+    The park will blend in with the SFBT medium wealth set (as well as the basic Maxis parks) and so can be enlarged and made modular (as I have done in the pictures).
+
+    The actual wall has been modelled and modded especially to receive shadows from the objects around it which enhances the *trompe l'oeil* effect that this model imparts. The panel also includes the text of names (and outline of which is just visible in the tiny SC4 scale). While it is not an exact replica (SC4 doesn't take kindly to models that both above and below the ground), it is reasonably close, and it certainly imparts the feeling of the real-world structure.
+
+    Placing this park will significantly improve commercial and residential desirability, reduce pollution and provide significant residential and commercial cap relief.
+
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                 10x6  
+    Bulldoze Cost:        § 80  
+    Plop Cost:               § 2,400  
+    Demand Satisfied: R§ 65,000, R§§ 95,000, R§§§ 65,000, CO§§ 25,000 CO§§§ 25,000  
+    Landmark Effect: +110 over 40 tiles  
+    Park Effect:           +140 over 120 tiles  
+    Pollution:               -40 (Air)/ 8 (Water)/ 0 (Garbage )  
+    Pollution Radius:  16/8/0  
+    Power Consumed: 0 Mwh  
+    Water Consumed: 40 Gal/Month  
+    Monthly Cost:         § 100  
+    Occupant Group:    Civic; Park; YIMBY
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34283-vietnam-veterans-memorial-washington-dc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/VietnamVets.jpg.932dd0a28b15e6755317d623004ed2c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/VietnamVets1.jpg.43a9f8f8fd5eb2832f95d94db2c4e5fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/VietnamVets2.jpg.b816b3ba15a2990ea03dd8628cba964e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/VietnamVets3.jpg.73c87608bbeee665ce0a449102ba1f1d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/VietnamVets4.jpg.d838f96c04281a1d2fedfbc106614011.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/VietnamVets5.jpg.8428cbdb501b85f7e23b0e11c3f423e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/VietnamVets6.jpg.e6e9030d2ae535016c338c2e55033abf.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-vietnam-veterans-memorial-washington-dc-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-vietnam-veterans-memorial-washington-dc-darknite
+
+---
+assetId: mattb325-vietnam-veterans-memorial-washington-dc-darknite
+version: "1.0.0"
+lastModified: "2021-03-14T00:25:30Z"
+url: https://community.simtropolis.com/files/file/34283-vietnam-veterans-memorial-washington-dc/?do=download&r=186344
+
+---
+assetId: mattb325-vietnam-veterans-memorial-washington-dc-maxisnite
+version: "1.0.0"
+lastModified: "2021-03-14T00:25:30Z"
+url: https://community.simtropolis.com/files/file/34283-vietnam-veterans-memorial-washington-dc/?do=download&r=186345

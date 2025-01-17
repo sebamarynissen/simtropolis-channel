@@ -1,0 +1,109 @@
+group: mattb325
+name: ikea-superstore
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: IKEA Superstore
+  description: |-
+    **IKEA Superstore, by Mattb325.  
+    \---------------------------------------**
+
+    IKEA is a world wide homewares brand that specialises in cheap, cheerful and functional design.
+
+    Apparently, we are all pronouncing it wrong....instead of saying it as "eye-kee-ah", it should be "ee-kay-uh". Who knew?
+
+    This is based on a real building in Sydney's suburbs. The building is accurate, but the car-park/lot is slightly reduced in size by about 2 tiles to avoid running into the maximum number of items that can be placed in a file. Despite this, it is still a very hefty lot of 18x18.
+
+    It takes up a lot of real estate, but it provides a lot of jobs (1,472 across all wealth levels) and a lot of city wide benefits.
+
+    Therefore, it is offered as a reward.   
+    Had I made it a simple ploppable with jobs it would actually have negative effects on regional demand for commercial services/commercial offices; whereas the civic jobs provide employment while keeping your CS/CO demand completely in tact.
+
+    Like 95% of my rewards, this is offered without needing to meet pre-existing conditions and does not over-write any Maxis reward.
+
+    Because everyone, even a SIM, loves spending a full day getting lost at IKEA, it also provides other city and regional benefits by driving up R$$ and R$$$ demand meaning that you'll enjoy more city growth by placing this reward.
+
+    **\---------------------------------------**
+
+    **STATS:**  
+    Lot Size:                 18x18  
+    Plop Cost:              §0  
+    Bulldoze Cost:       §3,720  
+    Monthly Cost:        §0  
+    Wealth:                    High  
+    Demand Created:  Jobs§ 502; Jobs§§ 770; Jobs§§§ 200  
+    Demand Satisfied: R§§ 600,000; R§§§ 39,000.  
+    Park Effect:             N/A  
+    Landmark Effect    60 over 24  
+    Mayor Rating Effect 30 over 60 tiles  
+    Pollution at Centre: 19 (air) /25 (water) /189 (garbage)  
+    Pollution Radius:     3/4/0  
+    Power Consumed:  340 Mwh  
+    Water Consumed:   430 Gallons  
+    Occupant Groups:   Reward; Tourist
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    Select the appropriate download. This is the MAXIS NITE Version, the darknite version preceeds this file. Files suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol02: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*SG MEGA Props Vol01 ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746))  
+    \*SuperSHK Parking Textures Vol01: ([https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/](https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/))
+
+    **\---------------------------------------**
+
+    To install, simply unzip these files into your plugins folder.
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33085-ikea-superstore-maxis-nite-version/
+    - https://community.simtropolis.com/files/file/33084-ikea-superstore-darknite-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea.jpg.5318d3cfe144ffc5fa61a6a5f7003c0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea1.jpg.1cb55e1662b683b4145f822092beb645.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea2.jpg.a5804235631220e1ce59c95f4aa94671.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea3.jpg.8b0ca5303b5ceb50b344bc0752a3bc8d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea4.jpg.8bacdeacab70a40cac0b7c071d112e69.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea5.jpg.79155922d1215be40ab16170616f6108.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea6.jpg.37e453a8ab08e5734bec53ac6122a41a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea7.jpg.61b0a44df8b85a15074b009fef3e23af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea8.jpg.29787a49717eec9f8b691596daec2c38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea9_MN.jpg.551a97404dcf864c13f69d27eb8ebd43.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea9a_MN.jpg.2f35af3264f7c58efaf53b969f69d674.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea9.jpg.0d1cb745fcc541692f305617ba79f72e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Ikea9a.jpg.0e8c4b5c0a8fb8b747659dc0a938dc53.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-ikea-superstore-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-ikea-superstore-darknite
+
+---
+assetId: mattb325-ikea-superstore-maxisnite
+version: "1.0"
+lastModified: "2019-08-15T21:44:00Z"
+url: https://community.simtropolis.com/files/file/33085-ikea-superstore-maxis-nite-version/?do=download&r=177176
+
+---
+assetId: mattb325-ikea-superstore-darknite
+version: "1.0"
+lastModified: "2019-08-15T21:38:48Z"
+url: https://community.simtropolis.com/files/file/33084-ikea-superstore-darknite-version/?do=download&r=177164

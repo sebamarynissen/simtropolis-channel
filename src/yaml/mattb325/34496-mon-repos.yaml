@@ -1,0 +1,93 @@
+group: mattb325
+name: mon-repos
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Mon Repos
+  description: |-
+    **Mon Repos, by Mattb325.  
+    \---------------------------------------**
+
+    In the 19th century, the mark of the self-made classes eager to assert their place in society was the grandeur of their home.
+
+    As the home was an outward expression of the aspirations of its owners: it was therefore important to be *à la mode.* And in the late 19th Century, the Italianate Villa was all the rage.
+
+    Home pattern-books were shipped around the globe and would-be-owners could select their house of choice and commission local builders to complete the design.
+
+    Architects of the day drew inspiration from well known houses and copied different elements at will. This particular design borrows heavily from the famous 1828 villa in Corfu of the same name.
+
+    This grand home is restrained and symmetrical: striking circular wings protrude from each side; dual *oeil-de-boeuf* windows grace a covered terrace supported with columns in the Doric order.  
+    The only departure from the original design is the central tower which was more popular with Italianate houses of the late 1800s.
+
+    This BAT is offered as a Mayor's house on a stunning, classically landscaped 8x8 lot complete with Mediterranean inspired plantings, such as *Bosco verde*, roses and columnar cypresses.
+
+    It is found in the reward menu.
+
+    Placing this reward will boost surrounding desirability for business and residential, raise demand caps, provide jobs, and provide both landmark and park effects. It needs road, power and water. There are no restriction as to how often these lots can be placed and this reward will not over-write, or interfere with, any other mayor house rewards (including the in-game version).
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size:                8x8  
+    Plop Cost:             $9,900  
+    Bulldoze Cost:      $1,800  
+    Monthly Cost:       $50  
+    Wealth:                   High  
+    Park Effect:           180 over 70 tiles  
+    Landmark Effect: 130 over 54 tiles  
+    Mayor Rating:       20 over 220 tiles  
+    Pollution at Centre:    1 (air) /1 (water) /6 (garbage)  
+    Pollution Radius:    2/3/0  
+    Demand Created:   R$ 3, R$$ 25, R$$$ 3  
+    Power Consumed: 25 Mwh  
+    Water Consumed:  60 Gallons  
+    Occupant Groups:  Reward; Mayors House
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins folder:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC MEGA Props - SG Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34496-mon-repos/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/MonRepos.jpg.9724abdce27ae310d69831bd7c72f3c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/MonRepos1.jpg.4cad77809529aac78b200a0d9d7a0ab2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/MonRepos2.jpg.54913f53e3c94e69e5aeff1a8ab7e1b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/MonRepos3.jpg.b1cc76b8ecfa19ac2c189200b8472c49.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/MonRepos4.jpg.98b4203af22f581f8a95f3051ad35a3c.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-mon-repos-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-mon-repos-darknite
+
+---
+assetId: mattb325-mon-repos-darknite
+version: "1.0.0"
+lastModified: "2021-06-02T20:49:44Z"
+url: https://community.simtropolis.com/files/file/34496-mon-repos/?do=download&r=188465
+
+---
+assetId: mattb325-mon-repos-maxisnite
+version: "1.0.0"
+lastModified: "2021-06-02T20:49:44Z"
+url: https://community.simtropolis.com/files/file/34496-mon-repos/?do=download&r=188466
