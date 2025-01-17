@@ -6,6 +6,7 @@ import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
 import Downloader from './downloader.js';
 import completeMetadata from './complete-metadata.js';
+import generateVariants from './generate-variants.js';
 import patchMetadata from './patch-metadata.js';
 import checkPreviousVersion from './check-previous-version.js';
 import { kFileNames } from './symbols.js';
@@ -92,8 +93,14 @@ export default async function handleUpload(json, opts = {}) {
 	// If we reach this point, we're sure to include the package. We now need to 
 	// complete the metadata from the api by resorting to HTML scraping as the 
 	// description, images and subfolder cannot be derived directly from the api 
-	// response.
+	// response. The goal is to eventually remove this call when the STEX api 
+	// has been updated to include this as well.
 	await completeMetadata(metadata, json);
+
+	// Now that we have the completed metadata, we will generate the variants.
+	// Note that at this point we haven't used any information from the *custom* 
+	// metadata yet! Everything we're doing is based on the *default* metadata.
+	await generateVariants(metadata);
 
 	// We are now ready to clean up any downloaded & extracted assets.
 	for (let fn of cleanup) {
