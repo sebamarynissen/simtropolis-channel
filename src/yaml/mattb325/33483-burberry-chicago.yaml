@@ -1,0 +1,90 @@
+group: mattb325
+name: burberry-chicago
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Burberry Chicago
+  description: |-
+    **Burberry Chicago, by Mattb325.  
+    \---------------------------------------**
+
+    A request from a fellow SC4 player, Burberry Chicago is an eye-catching little W2W building.
+
+    A nice segue to the recent Japanese Bats that I released recently with their highly decorative facades, the Burberry Chicago flag-ship store shows that this facade trend is certainly not limited to the Ginza shopping strip in Tokyo.
+
+    The Burberry flag-ship store uses highly polished and reflective surfaces in the classic tartan (or check) style that is associated with the Burberry label, but these are rotated on a 45 degree angle across a black backdrop for maximum impact. To further enhance the drama, blue LED lighting is contained within the edges of the polished layers, which, when reflected and refracted by steel, mirror and glass, create an ethereal, other-worldly glow.
+
+    I have taken some liberties with the building.
+
+    Polished surfaces are particularly challenging in SC4 (as the game doesn't actually have its own rendering engine). Additionally, the minute scale of SC4 buildings mean that some of the details were omitted completely, to achieve the watery, reflective look of the building both during the day and the night.
+
+    It is offered as a growable only CS§§§ 2x1 and 1x2 covering both corner lots.   
+    If you want it as a ploppable, search for buggis extra cheats which will make it, plus every other building in game available to plop from a drop down menu.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§:**
+
+    Lot size :                 1x2, 2x1  
+    Growth Stage:        4 & 5 (Medium & High Density Zoning)  
+    Bulldoze Cost:        § 349  
+    Capacity Satisfied: CS§ 250, CS§§ 65, CS§§§ 28  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 8 Mwh  
+    Water Consumed:  68 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    High Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    \---------------------------------------
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33483-burberry-chicago/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry.jpg.147557ae93da53afac3bf146ad51f5e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry1.jpg.91b6c4d3ff9a6ba09ab0065cebc8eda8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry2.jpg.7ec32353286f9936ce8488ec6ba1a62c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry2a.jpg.6cfa5c1df167e3995d249f4a7b396d29.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry2b.jpg.87ee9569f2940c3757162d765ed26e56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry3.jpg.b95a203c090636ac8ef62addb0c3cdfb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry3a.jpg.5df0219c71337c0ecd0f64f4b6c82758.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry4.jpg.77f380186821f9aa7dc6d304fc33eddf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry4a.jpg.d65b3a146ba86e0b4b3ee9d5c43a1060.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Burberry4b.jpg.693aab20398ab105fbb23688fcbc0de1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-burberry-chicago-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-burberry-chicago-darknite
+
+---
+assetId: mattb325-burberry-chicago-darknite
+version: "1.0.0"
+lastModified: "2020-02-28T22:34:00Z"
+url: https://community.simtropolis.com/files/file/33483-burberry-chicago/?do=download&r=180000
+
+---
+assetId: mattb325-burberry-chicago-maxisnite
+version: "1.0.0"
+lastModified: "2020-02-28T22:34:00Z"
+url: https://community.simtropolis.com/files/file/33483-burberry-chicago/?do=download&r=180001

@@ -1,0 +1,91 @@
+group: mattb325
+name: pigs-ass-porter-brewing-co
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Pigs Ass Porter Brewing Co
+  description: |-
+    **Pigs Ass Porter Brewing Co. by Mattb325.  
+    \---------------------------------------**
+
+    This Brewery building is fictional, but the beer - "Pigs Ass Porter" is *real*: an award winning London-style dark ale.
+
+    Even though the building is fictional, these sorts of solidly constructed brick factories were common-place in the early 20th Century.  This I-M building is highly detailed and, unlike many I-M buildings, does not wear the pastiche of run-down rusty griminess, so will look just as good in an industrial wasteland as it would in at the edge of an urban core.
+
+    The building is offered as an I-M 4x4 and 5x5 growable Anchor lot. If you wish to make this building ploppable, I would suggest downloading Buggis Extra Cheats.
+
+    It is suited to CAM and non-CAM cities alike and provides 639 jobs.
+
+    Additionally, the little beer truck is provided as a separate prop.
+
+    **\---------------------------------------**
+
+    **STATS I-M:**
+
+    Lot size :                 4x4 & 5x5  
+    Growth Stage:        3 (High Density Zoning)  
+    Bulldoze Cost:        $ 541  
+    Capacity Satisfied: I-M 639  
+    Pollution:                 33 (Air)/ 22 (Water)/ 5 (Garbage )  
+    Pollution Radius:    9/13/0  
+    Power Consumed: 34 Mwh  
+    Water Consumed:  508 Gal/Month  
+    Occupant Group:    Industrial Manufacturing Anchor Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34700-pigs-ass-porter-brewing-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/PigsAss.jpg.addc6356f3d086c19197685f0dfd2e0e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/PigsAss1.jpg.73247536b9f24f662798c5116d4daa40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/PigsAss2.jpg.3909508b145f56bbc32cfebc82cc5102.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/PigsAss3.jpg.0d0afbe55fafcae4b6906418bc8cc863.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/PigsAss4.jpg.3e770b70c99ae9049649f394905e2944.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/PigsAss4a.jpg.78d52798cfadeccbe4ce0a47a003899e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/PigsAss5.jpg.63eb045031217a66ae379925d4c0eec7.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pigs-ass-porter-brewing-co-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pigs-ass-porter-brewing-co-darknite
+
+---
+assetId: mattb325-pigs-ass-porter-brewing-co-darknite
+version: "1.0.0"
+lastModified: "2021-10-03T22:28:34Z"
+url: https://community.simtropolis.com/files/file/34700-pigs-ass-porter-brewing-co/?do=download&r=190100
+
+---
+assetId: mattb325-pigs-ass-porter-brewing-co-maxisnite
+version: "1.0.0"
+lastModified: "2021-10-03T22:28:34Z"
+url: https://community.simtropolis.com/files/file/34700-pigs-ass-porter-brewing-co/?do=download&r=190101

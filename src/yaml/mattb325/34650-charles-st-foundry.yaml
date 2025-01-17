@@ -1,0 +1,105 @@
+group: mattb325
+name: charles-st-foundry
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Charles St Foundry
+  description: |-
+    **Charles St Foundry by Mattb325.  
+    \---------------------------------------**
+
+    Made as a request, this building draws its inspiration from a river-side foundry on Charles/Mill St, Providence, Rhode Island.
+
+    These sorts of solidly constructed brick factories were common-place in the early 20th Century. While most were torn down, some still remain either as abandoned relics or as converted commercial/residential spaces.
+
+    The building is offered as a functional I-M ploppable which has custom foundation walls and is modded so that it can be placed along the sloping areas of a river bank (thus leaving the retaining wall exposed to the water) and an I-M 3x2 growable Anchor lot.
+
+    If using the building to act as a retaining wall along in-game water, just stabilise the land using the single street tile method as I have shown in the pictures. It can also be used with ploppable water or just plopped on flat ground.
+
+    It is suited to CAM and non-CAM cities alike and provides 15 jobs.
+
+    **\---------------------------------------**
+
+    **STATS I-M:**
+
+    Lot size :                 3x2  
+    Growth Stage:        2 (Medium & High Density Zoning)  
+    Bulldoze Cost:        $ 234  
+    Capacity Satisfied: I-M 15  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    16/20/0  
+    Power Consumed: 12 Mwh  
+    Water Consumed:  5 Gal/Month  
+    Occupant Group:    Industrial Manufacturing Anchor Building
+
+    **STATS I-M Ploppable:**
+
+    Lot size :                 1x3  
+    Plop Cost:               $ 624  
+    Bulldoze Cost:        $ 234  
+    Capacity Satisfied: I-M 15  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    16/20/0  
+    Power Consumed: 12 Mwh  
+    Water Consumed:  5 Gal/Month  
+    Occupant Group:    Industrial Manufacturing Anchor Building  
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))
+
+    \---------------------------------------
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34650-charles-st-foundry/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry.jpg.391f9b258d952e4f9d33de9b00e575ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry1.jpg.00e26c4077f60a4469dfb73d8381603b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry1a.jpg.dbabe15cacedf973773b230b134ccc4d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry2.jpg.7a6446f33decfc7e37412ebca97e76a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry2a.jpg.1eeb99bf73337398f2d4f35ce4ee22af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry3.jpg.55a03117b7e3bee37c977edd3c117122.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry4.jpg.64846fc2d964cfb73b59e04bd387addb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry5.jpg.fccd7d8af4218aad798b58fc981a1b9b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry6.jpg.5ac1557b9d7ea9d49daa8a2dbfa1ecd8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry7.jpg.a598d86369f44f63c4f5d8d3f7bddef9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry8.jpg.c11c29f666b30e3901d666e8aeb54748.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry9.jpg.18840be2112578929271a02c95f94f43.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry9a.jpg.04095f94b36fe8c4ad52378d05362fb8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/CharlesStFoundry9b.jpg.609787945c4695b06b6f2fa471630d5f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-charles-st-foundry-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-charles-st-foundry-darknite
+
+---
+assetId: mattb325-charles-st-foundry-darknite
+version: "1.0.0"
+lastModified: "2021-08-15T05:03:05Z"
+url: https://community.simtropolis.com/files/file/34650-charles-st-foundry/?do=download&r=189717
+
+---
+assetId: mattb325-charles-st-foundry-maxisnite
+version: "1.0.0"
+lastModified: "2021-08-15T05:03:05Z"
+url: https://community.simtropolis.com/files/file/34650-charles-st-foundry/?do=download&r=189718

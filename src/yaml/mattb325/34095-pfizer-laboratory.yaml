@@ -1,0 +1,92 @@
+group: mattb325
+name: pfizer-laboratory
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Pfizer Laboratory
+  description: |-
+    **Pfizer Laboratory by Mattb325.  
+    \---------------------------------------**
+
+    As the world waits for the roll-outs of vaccines to combat the effects of the pandemic and enjoy a return to a semblance of normal life, I thought I would make a BAT of one of the companies responsible.
+
+    There are many companies making vaccines around the globe: Pfizer is one of them.
+
+    This is based on one of the massive facilities in Andover MA (it is not a recreation, as that would take about 40 tiles)...  
+       
+    Despite being scaled back considerably, this is still a massive IHT Bat by SC4 standards, and the complex angles help break the grid.
+
+    The building is offered as an I-HT growable Anchor on an 8x8 lot (use the CTRL key while zoning dense industrial to assist in growth) or download Buggis extra cheats to make this ploppable from a drop down menu.
+
+    It is suited to both CAM and non-CAM cities and provides 292 Hi Tech jobs.
+
+    **\---------------------------------------**
+
+    **STATS I-HT:**
+
+    Lot size :                   8x8  
+    Growth Stage:         3 (High Density Zoning)  
+    Bulldoze Cost:         $ 417  
+    Capacity Satisfied:  I-HT 1,508  
+    Pollution:                  21 (Air)/ 8 (Water)/ 6 (Garbage )  
+    Pollution Radius:     6/7/0  
+    Power Consumed:  157 Mwh  
+    Water Consumed:   147 Gal/Month  
+    Occupant Group:     Industrial Hi-Tech Anchor Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))
+
+    Super SHK MEGA Parking Textures: ([https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/))
+
+    SHK Parking Pack: ([https://community.simtropolis.com/files/file/27563-shk-parking-pack/](https://community.simtropolis.com/files/file/27563-shk-parking-pack/))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34095-pfizer-laboratory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Pfizer.jpg.54eb03c8792dbcc84d7a4a441fc390da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Pfizer1.jpg.a772c34b484f3ea2860d7187007e9d5e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Pfizer2.jpg.33b166a8d83c629ffd120c80feb9b278.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Pfizer3.jpg.83318d01ce1f2820465f15f938106d96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Pfizer4.jpg.b8dec9a929a1dc86b39aabecae93b87f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Pfizer4a.jpg.488f9bd1a9b3b389b7c9dec2c5586a42.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pfizer-laboratory-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pfizer-laboratory-darknite
+
+---
+assetId: mattb325-pfizer-laboratory-darknite
+version: "1.0.0"
+lastModified: "2021-02-05T18:51:44Z"
+url: https://community.simtropolis.com/files/file/34095-pfizer-laboratory/?do=download&r=184923
+
+---
+assetId: mattb325-pfizer-laboratory-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-05T18:51:44Z"
+url: https://community.simtropolis.com/files/file/34095-pfizer-laboratory/?do=download&r=184924

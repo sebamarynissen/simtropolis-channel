@@ -1,0 +1,84 @@
+group: mattb325
+name: apple-store-sydney
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Apple Store Sydney
+  description: |-
+    **Apple Store Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    Located at 367 George St Sydney, the Apple Store is the flagship tenant in this refurbished, 22 floor building.
+
+    This smaller, modern high-rise building is suited to many city-styles. The large, clear glass 3-story apple storefront is certainly eye-catching (both day and night).
+
+    It is offered as a growable high density CO$$$ building which will grow easily on the modern Houston and Euro tilesets without being too weedy. It provides 740 high wealth office jobs.
+
+    Use Buggis extra cheats if you wish to make this (and everything else in your plugins) a ploppable lot that you can select from a drop down menu.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS CO$$$:**
+
+    Lot size :                   3x2  
+    Growth Stage:          6 (High Density Zoning)  
+    Bulldoze Cost:          $ 1162  
+    Capacity Satisfied:  CO$$ 1,056 CO$$$ 740  
+    Pollution:                   4 (Air)/ 4 (Water)/ 4 (Garbage )  
+    Pollution Radius:      6/7/0  
+    Power Consumed:   30 Mwh  
+    Water Consumed:    331 Gal/Month  
+    Building Style:           Houston and Euro  
+    Occupant Group:      High Wealth Commercial Office Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34875-apple-store-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney.jpg.79478b0a1a5b52608b9bd23512689166.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney1.jpg.4c6f350082aae381d5319ea843f3a8c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney2.jpg.93f5e6b18a73548e62a32b58061ea33d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney3.jpg.ed4dc6018e5c132e903c6ab51a08bf98.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney4.jpg.f0eebed4a1c91e7236616ba2356617a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney5.jpg.4aa4a50563cfb2898b25dd4cdf4fc57e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney7.jpg.a6ee2de34172c23fbc59b1c3e9e33e52.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/AppleSydney8.jpg.ab659d1b9383be39c21915cb46d57569.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-apple-store-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-apple-store-sydney-darknite
+
+---
+assetId: mattb325-apple-store-sydney-darknite
+version: "1.0.0"
+lastModified: "2022-02-26T20:39:06Z"
+url: https://community.simtropolis.com/files/file/34875-apple-store-sydney/?do=download&r=191803
+
+---
+assetId: mattb325-apple-store-sydney-maxisnite
+version: "1.0.0"
+lastModified: "2022-02-26T20:39:06Z"
+url: https://community.simtropolis.com/files/file/34875-apple-store-sydney/?do=download&r=191804

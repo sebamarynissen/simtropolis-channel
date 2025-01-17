@@ -1,0 +1,84 @@
+group: mattb325
+name: amora-hotel-sydney
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Amora Hotel Sydney
+  description: |-
+    **Amora Hotel Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    This high-rise hotel fills a gap in the paucity of larger CS§§ available. Particularly as your region starts to develop, having a lack of larger CS§§ buildings can really stifle additional city development. This leads to a drop in demand across your residential drivers and can completely tank any growth at all.
+
+    This building is inspired by the Amora Hotel in near Wynyard station, central Sydney. The building is straight out of the 1990s: during this time in Sydney almost all new sky-scrapers had this weird 1930's art deco/Flash Gordon retro revivalist vibe with vast areas of stone cladding, bay windows, spires, light-boxes, chrome plating and other quite peculiar ornamentation.
+
+    I liked this particular building because it has different details on each elevation. That is quite rare in tall sky-scrapers and this enabled me to make two lot rotations which gives the appearance of two slightly different buildings.
+
+    In order to fit this onto a 3x3 lot, I have made a few changes to the building, but it is otherwise a reasonably accurate recreation.
+
+    The building is offered as a CS§§ growable on two 3x3 high-density lot providing 1,090 jobs. This tower will grow so long as you zone correctly on a busy road/avenue and have CS§§ demand which outstrips CO§§/CO§§§/CS§§§ demand. Otherwise, use buggis extra cheats to easily select this via the building or lot plop commands.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                   3x3  
+    Growth Stage:          8 (High Density Zoning)  
+    Bulldoze Cost:          § 2,013  
+    Capacity Satisfied:  CS§ 4,351, CS§§ 1,090  
+    Pollution:                  40 (Air)/ 27 (Water)/ 54 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  88 Mwh  
+    Water Consumed:   1,048 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    Select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32875-amora-hotel-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Amora(a).jpg.af54275385b7ffcfe11854b9f788a2ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Amora.jpg.3f3c436a489b1693a853ddae556185ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Amora1.jpg.778794fc3c8aba8472b5690f982404ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Amora2.jpg.348d514e48e819697489aaffcfb88fc8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Amora3.jpg.865d4efa44bbd1086ec5c5b149bf9012.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Amora4.jpg.75b3e9a29142e6925ee64073c6472d19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Amora5.jpg.67beee66cd9df84a4d6929f456c6cf48.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-amora-hotel-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-amora-hotel-sydney-darknite
+
+---
+assetId: mattb325-amora-hotel-sydney-darknite
+version: "1.0"
+lastModified: "2019-04-22T21:45:26Z"
+url: https://community.simtropolis.com/files/file/32875-amora-hotel-sydney/?do=download&r=175592
+
+---
+assetId: mattb325-amora-hotel-sydney-maxisnite
+version: "1.0"
+lastModified: "2019-04-22T21:45:26Z"
+url: https://community.simtropolis.com/files/file/32875-amora-hotel-sydney/?do=download&r=175593

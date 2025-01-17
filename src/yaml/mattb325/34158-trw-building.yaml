@@ -1,0 +1,91 @@
+group: mattb325
+name: trw-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: TRW Building
+  description: |-
+    **TRW Building Los Angeles, by Mattb325.  
+    \---------------------------------------**
+
+    The former TRW office building in Redondo Beach California was part of the TRW 'Space Park' where advanced aerospace facilities were also housed.
+
+    Part of a 100 acre campus, this 1960's building is classic internationalist mid-century style with an external concrete exo-skeleton. Not many of these buildings are available in game despite their relatively common existence in the real world.
+
+    Even though few examples of mid-century buildings with concrete exo-skeletons are available for SimCity, boxy buildings are abundant. And this is indeed another boxy building. So, to make a little more useful and unique, I have made it a diagonal building: both growable and functioning ploppable for diagonal roads.
+
+    The growable building is offered as a high wealth, medium and high density Commercial Offices Building on a 5x5 corner lot (use the CTRL key while zoning to assist growth).
+
+    It grows on all tilesets and employs 1,513 sims. It is suitable for CAM and non-CAM cities alike.
+
+    The functional ploppable has identical stats, is found in the landmark menu and costs $624 to place. Once you have placed the building, use ped-mall, plaza, park or any other filler pieces to decorate the empty space around the lot.
+
+    **\---------------------------------------**
+
+    **STATS CO$$$:**
+
+    Lot size :                  5x5/1x3 for overhanging diagonal ploppable.  
+    Growth Stage:         6 (Medium & High Density)/ NA for ploppable ($624 to plop).  
+    Bulldoze Cost:         $771  
+    Capacity Satisfied: CO$$ 2,161; CO$$$ 1,513  
+    Pollution:                 9 (Air)/ 9 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 61 Mwh  
+    Water Consumed:  663 Gal/Month  
+    Building Style:         Chicago, New York, Houston and Euro  
+    Occupant Group:    High Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))  
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*SuperSHK Mega Parking Textures Vol01: ([https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34158-trw-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/TRW.jpg.9823eff397533d0570ddd3ba7d095aef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/TRW1.jpg.77c70ea3d561179878b40329e7ce8a0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/TRW2.jpg.a87c0d613386c43afed57154e8c3b9a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/TRW3.jpg.3426838cf38b2920b96fc39c1afe8684.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/TRW4.jpg.4365a399191f9569bd97d7dcb1d5f4a3.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-trw-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-trw-building-darknite
+
+---
+assetId: mattb325-trw-building-darknite
+version: "1.0.0"
+lastModified: "2021-02-20T18:52:48Z"
+url: https://community.simtropolis.com/files/file/34158-trw-building/?do=download&r=185442
+
+---
+assetId: mattb325-trw-building-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-20T18:52:48Z"
+url: https://community.simtropolis.com/files/file/34158-trw-building/?do=download&r=185443

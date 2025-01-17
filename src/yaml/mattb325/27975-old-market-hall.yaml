@@ -1,0 +1,68 @@
+group: mattb325
+name: old-market-hall
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Old Market Hall
+  description: |-
+    **The Old Market Hall, by Mattb325.**
+
+    In major cities everywhere, the Market Hall has always been the centre of community focus. Originally used by farmers and market gardeners to sell produce, they quickly became a merchant hub where all manner of meat, fish, dairy and other wares could be bought and sold.
+
+    In cities where Market Halls were not purpose built, many old industrial warehouses have been re-purposed as these are particularly suitable given their central location, cavernous spaces and abundant natural light. In real life, Market Halls have a great impact to property values nearby: they offer the health benefits of being able to buy very fresh, organic and in-season food from a variety of local growers.
+
+    They provide large scale, basic employment and the larger Market Halls are almost always a tourist attraction.
+
+    Maxis provided an in-game farmers market designed for smaller agricultural towns. The farmers market provides health benefits and lifts demand caps while providing some R$ jobs. However, Maxis, however, did not provide anything for cities and large towns which was quite a shame.
+
+    So this is where the 'Old Market Hall' picks up where Maxis left off by providing slightly greater health benefits, 250 R$ *and* 100 R$$ jobs, helping to lift demand caps, raising the mayors rating and providing a tourist building plus a landmark effect. To provide all these benefits and jobs to the city costs $50 per month from the Parks & Rec coffers.
+
+    The Old Market Hall building is offered as a reward (which is available at anytime). It **does not** over-write the in game Farmers Market and sits on a 4x5 lot. It is of course found in the rewards menu.
+
+    The building itself is inspired by a building in downtown Roanoke, Virginia which was constructed in 1922.
+
+    **STATS:**
+
+    Plop Cost: $31,700
+
+    Bulldoze Cost: $15,000
+
+    Power Consumed: 50Mwh
+
+    Water Consumed: 28 Gallons
+
+    Pollution: 1 (air) / 1 (water) / 11 (garbage)
+
+    Radius: 1 / 2 / 0
+
+    Occupant Groups: Reward, Tourist, Health - Other
+
+    **DEPENDENCIES:**
+
+    BSC BAT Props Mattb325 Vol02 ([http://sc4devotion.c...php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))
+
+    To install, simply unzip this file into your plugins folder.
+
+    Thankyou, and enjoy.
+
+    **Mac Users**
+
+    The original lot does not work with the Mac version of the game. If you use a Mac, after installation, replace the original .SC4Lot file with the one contained within "Mac Fix.zip".
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/27975-old-market-hall/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/a4bf119baba87ee8e82860ee756194d9-mkthall.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/29e0655057d5723317fd36dc1725e5fa-mkthall1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/ffe8b6f426e8079595c65edd3c45f18c-mkthall2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/d1d726ec8b67cd9a33b4a27f6bfb632a-mkthall3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/f43e963a69f391ebfcef738e52c9dfbc-mkthall4.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+assets:
+  - assetId: mattb325-old-market-hall
+
+---
+assetId: mattb325-old-market-hall
+version: "1.0"
+lastModified: "2023-09-08T01:54:01Z"
+url: https://community.simtropolis.com/files/file/27975-old-market-hall/?do=download&r=197589

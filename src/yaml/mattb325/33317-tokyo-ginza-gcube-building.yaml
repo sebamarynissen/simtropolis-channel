@@ -1,0 +1,78 @@
+group: mattb325
+name: tokyo-ginza-gcube-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Tokyo Ginza gCube Building
+  description: |-
+    **Ginza gCube, by Mattb325.  
+    \---------------------------------------**
+
+    This is a taller mid-rise Wall to wall (W2W) building from the main shopping street in Tokyo's Ginza district that caught my eye.
+
+    It is not a strict recreation - the 16m2 constraints of SC4 make that too challenging - but is a reasonable interpretation.   
+    I liked the dramatic, sweeping, almost oculus treatment of the different metals along the front facade which make for an eye-catching (pun intended) modern design to an otherwise boring box of a building. Additionally, I have pared back any overtly Japanese imagery to ensure that this building will work equally well in either an Eastern or a Western styled city. In the real building, the party walls are blank, but I have included windows in this version to enable the building to work well in either a W2W streetscape or in a more open downtown environment where you don't want to see a big blank wall!
+
+    At 13 floors, this will still blend in with older, traditional streetscapes (as per the pictures which show a variety of new and old BATs) and is offered as a growable 1x2 lot for medium and high density zones on the Houston tileset to ensure that it does not become weedy.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                 1x2  
+    Growth Stage:        6 (Medium & High Density Zoning)  
+    Bulldoze Cost:        § 735  
+    Capacity Satisfied: CS§ 366, CS§§ 94,   
+    Pollution:                 3 (Air)/ 2 (Water)/ 4(Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 8 Mwh  
+    Water Consumed:  91 Gal/Month  
+    Building Style:         Houston  
+    Occupant Group:    Medium Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33317-tokyo-ginza-gcube-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/gCube.jpg.89c0c89d0b52dafec2a1c6b7a9fee624.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/gCube1.jpg.b247eb4173ecc72bc358cfd73109368b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/gCube2.jpg.c56e3f7c0be90ff450207a1bd4aa4333.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/gCube3.jpg.ff9afaacbf2cb6ef62d8befc83a6b082.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-tokyo-ginza-gcube-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-tokyo-ginza-gcube-building-darknite
+
+---
+assetId: mattb325-tokyo-ginza-gcube-building-darknite
+version: "1.0.0"
+lastModified: "2019-12-08T20:16:17Z"
+url: https://community.simtropolis.com/files/file/33317-tokyo-ginza-gcube-building/?do=download&r=179093
+
+---
+assetId: mattb325-tokyo-ginza-gcube-building-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-08T20:16:17Z"
+url: https://community.simtropolis.com/files/file/33317-tokyo-ginza-gcube-building/?do=download&r=179094

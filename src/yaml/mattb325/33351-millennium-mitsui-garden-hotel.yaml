@@ -1,0 +1,84 @@
+group: mattb325
+name: millennium-mitsui-garden-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Millennium Mitsui Garden Hotel
+  description: |-
+    **Millennium Mitsui Garden Hotel, by Mattb325.  
+    \---------------------------------------**
+
+    This is a large Wall to wall (W2W) building from the main shopping street in Tokyo's Ginza district that caught my eye. This hotel makes the perfect CS§§§ building to help soak up the insatiable demand the SC4 has for Commercial Services.
+
+    It is not a strict recreation - the 16m2 constraints of SC4 make that too challenging - but is a reasonable interpretation.
+
+    I liked the uniquely delicate, and complex, metal basket weave mesh that has been applied to the exterior facade. It is both ultra modern and characterful at the same time: an unusal combination.
+
+    The metal is reflective and creates visual interest during the day and a takes on a soft, diffuse glow from the surrounding lights at night.
+
+    Additionally, I have pared back any overtly Japanese imagery to ensure that this building will work equally well in either an Eastern or a Western styled city. In the real building, the party walls are blank, but I have included windows in this version to enable the building to work well in either a W2W streetscape or in a more open downtown environment where you don't want to see a big blank wall!
+
+    At 14 floors, this will still blend in with older, traditional streetscapes (as per the pictures which show a variety of new and old BATs) and is offered as a growable 2x2 lot for both corners zoned medium and high density zones. It grows on the Houston tileset only to ensure that it does not become weedy.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§:**
+
+    Lot size :                2x2  
+    Growth Stage:       6 (Medium & High Density Zoning)  
+    Bulldoze Cost:       § 898  
+    Capacity Satisfied:CS§ 1,048, CS§§ 264, CS§§§ 107  
+    Pollution:                7 (Air)/ 4 (Water)/ 9 (Garbage )  
+    Pollution Radius:   5/6/0  
+    Power Consumed:30 Mwh  
+    Water Consumed: 268 Gal/Month  
+    Building Style:        Houston  
+    Occupant Group:   High Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33351-millennium-mitsui-garden-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/MillenniumMitsui.jpg.b9b29bb876afcdbdfbd03630f1b68174.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/MillenniumMitsui1.jpg.3cdcf09b927943f8130cdf6ae8855a40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/MillenniumMitsui2.jpg.0e49366d61ebfa4a688cf88036b36c81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/MillenniumMitsui3.jpg.f24ab8bcb06e9c8ce19516c3575dbc24.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/MillenniumMitsui4.jpg.88e3328407657ef2d27648377b1ee107.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-millennium-mitsui-garden-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-millennium-mitsui-garden-hotel-darknite
+
+---
+assetId: mattb325-millennium-mitsui-garden-hotel-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-23T01:09:35Z"
+url: https://community.simtropolis.com/files/file/33351-millennium-mitsui-garden-hotel/?do=download&r=179295
+
+---
+assetId: mattb325-millennium-mitsui-garden-hotel-darknite
+version: "1.0.0"
+lastModified: "2019-12-23T01:09:35Z"
+url: https://community.simtropolis.com/files/file/33351-millennium-mitsui-garden-hotel/?do=download&r=179296

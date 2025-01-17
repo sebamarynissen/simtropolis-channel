@@ -1,0 +1,91 @@
+group: mattb325
+name: skyline-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Skyline Apartments
+  description: |-
+    **Skyline Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    This is a purely fictional design for an 18 floor apartment complex suitable for inner-city areas.
+
+    While all of the apartments benefit from floor-to-ceiling windows, an otherwise basic facade is given visual interest with angled terraces (executed in a bronze-tinted glass) as well as staggered cubes on each elevation.
+
+    It is offered in two versions: CS$$ (as this will also work as a hotel design, and enables you to plop this down using Buggis extra cheats) and an R$$ apartment on the modern Houston and Euro tilesets.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS R$$ apartments:**
+
+    Lot size :                  3x2  
+    Growth Stage:         (High Density Zoning)  
+    Bulldoze Cost:        $ 977  
+    Capacity Satisfied: R$ 1,214 R$$ 671  
+    Pollution:                 5 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 10 Mwh  
+    Water Consumed:  26 Gal/Month  
+    Building Style:         Houston and Euro  
+    Occupant Group:    Medium Wealth Residential Building
+
+    **STATS CS$$ hotel:**
+
+    Lot size :                  3x2  
+    Growth Stage:         7 (Medium and High Density Zoning)  
+    Bulldoze Cost:         $ 977  
+    Capacity Satisfied: CS$ 1,507 CS$$ 379  
+    Pollution:                 14 (Air)/ 9 (Water)/ 18 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 31 Mwh  
+    Water Consumed:  365 Gal/Month  
+    Building Style:         Houston and Euro  
+    Occupant Group:    Medium Wealth Commercial Services Building  
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34831-skyline-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/Skyline.jpg.f79dd9dac8bdcb07a830118b5b873ebf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/Skyline1.jpg.d636a5eead780a50206abd606c54d59b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/Skyline2.jpg.3381f817f8a07093b132f40ae9f51417.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/Skyline3.jpg.1b97dda4234fd843ed0ea80c6682b6d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/Skyline4.jpg.68b484dd96d2858fa09026a8756de35b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-skyline-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-skyline-apartments-darknite
+
+---
+assetId: mattb325-skyline-apartments-darknite
+version: "1.0.0"
+lastModified: "2022-01-06T22:46:42Z"
+url: https://community.simtropolis.com/files/file/34831-skyline-apartments/?do=download&r=191149
+
+---
+assetId: mattb325-skyline-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2022-01-06T22:46:42Z"
+url: https://community.simtropolis.com/files/file/34831-skyline-apartments/?do=download&r=191150

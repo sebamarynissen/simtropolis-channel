@@ -1,0 +1,81 @@
+group: mattb325
+name: travelodge-hotel-darlinghurst
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Travelodge Hotel Darlinghurst
+  description: |-
+    **Travelodge Hotel Darlinghurst, by Mattb325.  
+    \---------------------------------------**
+
+    Another high-rise hotel to fill the gap in the lack of larger CS§§ available.
+
+    This building is inspired by the Travelodge Hotel in Darlighurst, a suburb adjacent to central Sydney. In order to fit this onto a 2x4 lot, I have made a few changes to the building, but it is otherwise a reasonably accurate recreation.
+
+    I rather liked the curved facade which adds a bit of interest and to break up the griddiness of SC4 high rise scenes.
+
+    The building is offered as a CS§§ growable on a 2x4 and a 4x2 medium and high-density corner lot providing 391 jobs. If you want this as a ploppable, a recommend downloading buggis extra cheats and then selecting it via the 'buildingplop' option.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                   2x4 & 4x2  
+    Growth Stage:          6 (Medium and High Density Zoning)  
+    Bulldoze Cost:          § 1,101  
+    Capacity Satisfied:  CS§ 1,555, CS§§ 391  
+    Pollution:                  14 (Air)/ 9 (Water)/ 19 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  32 Mwh  
+    Water Consumed:   377 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32949-travelodge-hotel-darlinghurst/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tlodgescene.jpg.adc2c0900903dc08eb77fc8ea4ae101f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tlodgescene1.jpg.052e3e537db3e42139d5956fe24773ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tlodgescene2.jpg.0cfdeed39eaac5dd257925f14e83abba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tlodgescene3.jpg.25a0ebbf03ca19894bca07512f2aef52.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TravelodgeDarlo.jpg.5533a6067c49637db89cc8d13b51eaff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TravelodgeDarlo1.jpg.608882f375e9661e88dc9b911436102f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TravelodgeDarlo2.jpg.52ec01dd315b4ca4ccbd275710f9e397.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TravelodgeDarlo3.jpg.f3e25a8770b91edfeed58b86861437f1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-travelodge-hotel-darlinghurst-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-travelodge-hotel-darlinghurst-darknite
+
+---
+assetId: mattb325-travelodge-hotel-darlinghurst-darknite
+version: "1.0"
+lastModified: "2019-06-08T01:40:21Z"
+url: https://community.simtropolis.com/files/file/32949-travelodge-hotel-darlinghurst/?do=download&r=176060
+
+---
+assetId: mattb325-travelodge-hotel-darlinghurst-maxisnite
+version: "1.0"
+lastModified: "2019-06-08T01:40:21Z"
+url: https://community.simtropolis.com/files/file/32949-travelodge-hotel-darlinghurst/?do=download&r=176061

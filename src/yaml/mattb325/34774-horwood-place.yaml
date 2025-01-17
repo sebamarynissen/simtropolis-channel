@@ -1,0 +1,94 @@
+group: mattb325
+name: horwood-place
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Horwood Place
+  description: |-
+    **Horwood Place, by Mattb325.  
+    \---------------------------------------**
+
+    Horwood Place is a bland 1970's building covered in signage from Sydney's second largest CBD, Parramatta.
+
+    At 6 floors, this is the sort of building that makes a really good filler: there's a sunglass hut and an asian grocer on the ground floor, a taxation specialist office, a recruitment agent and other various small offices on the remaining floors. The roof has an oversized billboard and cellular phone transmitters to ensure that the landlords extract every last drop of rent from the space.
+
+    It is offered as a 2x1 CO$$ and a 2x1 low wealth CS$ growable for medium density lots on the New York, Houston and Euro tilesets.
+
+    Stats below.
+
+    **\---------------------------------------**
+
+    **STATS CO$$:**
+
+    Lot size :                  2x1   
+    Growth Stage:         5 (Medium and High Density)  
+    Bulldoze Cost:         $ 487  
+    Capacity Satisfied: CO$$ 89  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  2 Mwh  
+    Water Consumed:   27 Gal/Month  
+    Building Style:          New York, Houston and Euro  
+    Occupant Group:     Medium Wealth CO
+
+    **STATS CS$:**
+
+    Lot size :                  2x1   
+    Growth Stage:         6 (Medium and High Density)  
+    Bulldoze Cost:         $ 472  
+    Capacity Satisfied: CS$ 195  
+    Pollution:                 1 (Air)/ 1 (Water)/ 5 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 4 Mwh  
+    Water Consumed:  41 Gal/Month  
+    Building Style:         New York, Houston and Euro  
+    Occupant Group:    Low Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34774-horwood-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Horwood1.jpg.b9b5346dfb8b1f14175d579d0ad2a237.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Horwood2.jpg.9849e45c19a674897da4b16effe95d92.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Horwood3.jpg.fd7ae8d6c9dbcd56374c3d266f40ed7d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Horwood4.jpg.fec5cf253123f5a7fea46d76eaa97c34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Horwood5.jpg.a55d4acdc29e76bf60b57571c65aefe9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/HorwoodPl.jpg.8705ec128e1742446956be149b2ffb4b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-horwood-place-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-horwood-place-darknite
+
+---
+assetId: mattb325-horwood-place-darknite
+version: "1.0.0"
+lastModified: "2021-12-05T21:30:55Z"
+url: https://community.simtropolis.com/files/file/34774-horwood-place/?do=download&r=190775
+
+---
+assetId: mattb325-horwood-place-maxisnite
+version: "1.0.0"
+lastModified: "2021-12-05T21:30:55Z"
+url: https://community.simtropolis.com/files/file/34774-horwood-place/?do=download&r=190776

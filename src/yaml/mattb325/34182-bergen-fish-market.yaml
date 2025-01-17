@@ -1,0 +1,89 @@
+group: mattb325
+name: bergen-fish-market
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Bergen Fish Market
+  description: |-
+    **Bergen Fish Market & Tourist Information Center, by Mattb325.  
+    \-----------------------------------------------------------**
+
+    While the combination of a fish market and tourist information center might seem a little peculiar, it is indeed, a real thing.
+
+    Inspired by the Bergen Fish market, this building acts as a reward. Almost shaped like a wedge of sushi, it is clad in dark timber that is punctuated by brightly colored fins that light up at night.
+
+    I have this building an overhanging prop: when placed, the cantilevered section can overhang the water, piers, seawalls/marinas, roads, streets, etc, for a more dramatic effect.
+
+    This building is offered as a non-conditional reward that has a somewhat similar base function to the farmer's market (but is altered substantially). It provides 31 very desirable civic jobs, boosts commercial and residential demand and lifts caps for R$ and R$$ residents so is a great option to help when residential demand drops.
+
+    This building is:  
+    \* Offered as a reward without needing to meet pre-existing conditions.  
+    \* Located in the REWARD Menu   
+    \* Can be placed more than once in a city.   
+    \* It DOES NOT over-write any ingame or custom rewards.
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size :                 4x2  
+    Plop Cost:              $4,500  
+    Monthly Cost:        $20  
+    Budget Item:          Government Buildings  
+    Occupant Groups: Reward, Park, Health Other  
+    Jobs:                       Jobs$: 20, Jobs$$: 10, Jobs$$$: 1.  
+    CAP Busting:          R$: 20,000, R$$: 140,000  
+    Landmark Effect:   +50 over 22 tiles  
+    Park Effect:             +75 over 27 tiles  
+    Pollution:                 Air 1 over 2 tiles, Water 1 over 3 tiles, Garbage 9 over 0 tiles  
+    Power consumed:  3 MwH  
+    Water consumed:  3 Gallons/Month  
+    Bulldoze Cost:        $400
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    The main dependency pack for all of these Civic Bats are split into two dependency files; one is for dark nite users (and other night-time darkening mods, such as Gizmos or Mashty's night-mod) and one for the standard Maxis nite.   
+    You must select and install only one file - depending on which night version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34182-bergen-fish-market/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/FishMarket.jpg.9d7902b5c81dbcad056a5f315eb74776.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/FishMarket1.jpg.7dfc266ec7f6fe4bd355fe5a791b5b4e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/FishMarket2.jpg.9de24709d2f60a50cd33366c47e51139.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/FishMarket3.jpg.597fd630ac94c9b2b4d33f640028a99c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/FishMarket4.jpg.3044d60f90d9b3a5e05bc7eb1b4c961e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/FishMarket5.jpg.167624e71d8d515389567de3563e6b03.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-bergen-fish-market-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-bergen-fish-market-darknite
+
+---
+assetId: mattb325-bergen-fish-market-darknite
+version: "1.0.0"
+lastModified: "2021-02-26T08:36:26Z"
+url: https://community.simtropolis.com/files/file/34182-bergen-fish-market/?do=download&r=185647
+
+---
+assetId: mattb325-bergen-fish-market-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-26T08:36:26Z"
+url: https://community.simtropolis.com/files/file/34182-bergen-fish-market/?do=download&r=185648

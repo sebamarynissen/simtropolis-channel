@@ -23,6 +23,22 @@ async function run(urls) {
 	// processed first.
 	urls = [urls].flat().sort();
 	let index = await buildIndex();
+
+	// Once we have the index, we'll still filter out the urls that are already 
+	// processed. They might either be present on the Simtropolis channel, or on 
+	// the default channel already.
+	urls = urls.filter(url => {
+		let id = urlToFileId(url);
+		let pkg = index.stex[id];
+		if (pkg && !pkg.local) {
+			console.log(styleText('yellow', `${url} is already present on one of the channels`));
+			return false;
+		} else {
+			return true;
+		}
+	});
+
+	// Cool, now perform the actual fetching.
 	let results = await fetchAll(urls);
 	for (let result of results) {
 		let [pkg] = result.metadata;
@@ -40,8 +56,7 @@ async function run(urls) {
 			let deps = parseDependencies(index, links);
 			let unmatched = deps.filter(dep => dep.startsWith('"['));
 			if (unmatched.length > 0) {
-				let id = `${pkg.group}:${pkg.name}`;
-				console.log(styleText('red', `${id} has unmatched dependencies that need to be fixed manually!`));
+				console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
 				for (let dep of unmatched) {
 					console.log(`  ${styleText('cyan', dep)}`);
 				}
@@ -148,7 +163,9 @@ async function addFileToIndex(index, file) {
 			(index.stex[id] ??= new Map()).set(name, {
 				id: name,
 				subfolder: parsed.subfolder,
+				local: true,
 			});
+			index.stex[id].local = true;
 		}
 	}
 }

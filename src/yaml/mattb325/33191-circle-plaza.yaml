@@ -1,0 +1,101 @@
+group: mattb325
+name: circle-plaza
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Circle Plaza
+  description: |-
+    **Plaza with Circular Motif, by Mattb325.  
+    \---------------------------------------**
+
+    A series of 6x6 sunken plazas which are suitable for downtown environments.
+
+    I have made and modded these in such a way that the entire modelled plaza base behaves like in game ground textures, and it can receive shadows and light from other surrounding objects.
+
+    These plazas are made to emulate the typical, designed and considered space where stressed out office workers go to relax and eat lunch.
+
+    The design of each space is quite boldly geometric and draws heavily on repetition of elements as well as asymmetrically balanced visual weight to create a pleasingly simple impact.
+
+    The elements of each of the plaza are simple enough - paving, a change in levels, grass/ground cover areas, sculptures, lights, benches and water - but are arranged in such a way as to draw the eye through, in and around the space.
+
+    Each of the plazas comes with three lotted options which should cover the bulk of how many people play the game, while limiting the number of dependencies.
+
+    The three options are:   
+    1) Temperate, with deciduous trees that change with the seasons;  
+    2) Mediterranean, with drought tolerant trees and shrubs which remain evergreen; and,  
+    3) Tropical, with palm trees.
+
+    Each option is clearly labelled. You can keep one or all depending on your preferences, and you can use all three options at once. Each has a unique description and icon to easily identify it in the parks menu.
+
+    These plazas were essentially designed as a stand-alone element, but each is readily modular, not only with itself, but also with the other plaza sets in the series as is seen by the screen shots.
+
+    Placing these plazas has a strong YIMBY effect for High wealth Commercial Buildings (helping you build and maintain a skyscraper CBD) plus they have a park effect, so Medium and High Wealth Residences will also want to grow nearby, and, they relieve Residential caps to the tune of 40,000 in each of the wealth categories to really help grow your city.
+
+    **\---------------------------------------**
+
+    **STATS PLAZA:**
+
+    Lot size :                 6x6    
+    Plop Cost:               § 500  
+    Bulldoze Cost:        § 60  
+    Demand Satisfied: R§ 40,000, R§§ 40,000, R§§§ 40,000  
+    Pollution:                 0 (Air)/ 0 (Water)/ 0 (Garbage )  
+    Pollution Radius:    0/0/0  
+    Park Effect:             50 over 60 tiles  
+    Landmark Effect:   180 over 20 tiles  
+    Monthly cost:          § 40  
+    Power Consumed:  0 Mwh  
+    Water Consumed:  0 Gal/Month  
+    Occupant Group:    Building: Civic; Building: Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    As these plazas are designed to emulate in game textures to receive shadows and light, the same model will work in either Maxis or Dark night situations.
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following very commonly used files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*Mattb325 BAT Props Vol02: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))  
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33191-circle-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle.jpg.b66320f0735015b50cd18b6e5411094f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle_nite.jpg.0667f709a6a0f9b28050429399a17bce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle_scene.jpg.f20c96342ac24050808c32faf5357505.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle1.jpg.2c22e5171c9e5e89a59d2f703bbe2e8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle2.jpg.5fcd81a3d78fff90d739c8b6a4125b46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle3.jpg.036caaa2aadaca216cf4deb64074b7a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle4.jpg.784db9f47f679d928dbd94cec7f39927.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle5.jpg.155f14d3312c8aa88c13ac3514a9efee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle6.jpg.e324b310e81b3182ccdd089179295eff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle7.jpg.0d993c6d8f6562f820ad3a0f2a0ba832.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Circle8.jpg.8cf262565b678595d61bbcc2a239b49c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Z_Modular.jpg.dbe1f6508a9051997a994632082ce523.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Z_Modular_all.jpg.3e935b3baf7ba8555c0451043c49e39d.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+assets:
+  - assetId: mattb325-circle-plaza
+
+---
+assetId: mattb325-circle-plaza
+version: "1.0.0"
+lastModified: "2019-09-22T02:30:24Z"
+url: https://community.simtropolis.com/files/file/33191-circle-plaza/?do=download&r=177977

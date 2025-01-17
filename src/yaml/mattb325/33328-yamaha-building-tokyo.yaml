@@ -1,0 +1,82 @@
+group: mattb325
+name: yamaha-building-tokyo
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Yamaha Building, Tokyo
+  description: |-
+    **Yamaha Building, by Mattb325.  
+    \---------------------------------------**
+
+    This is a taller Wall to wall (W2W) building from the main shopping street in Tokyo's Ginza district that caught my eye.
+
+    It is not a strict recreation - the 16m2 constraints of SC4 make that too challenging - but is a reasonable interpretation.   
+    I liked the unique, stain glass and random triangular glass addition to the facade. The triangular glass is in front of the standard windows and is a mix of gold, red, brown, white and clear glass.
+
+    At night it makes the entire building look like a dazzling jewel box.
+
+    Additionally, I have pared back any overtly Japanese imagery to ensure that this building will work equally well in either an Eastern or a Western styled city. In the real building, the party walls are blank, but I have included windows in this version to enable the building to work well in either a W2W streetscape or in a more open downtown environment where you don't want to see a big blank wall!
+
+    At 12 floors, this will still blend in with older, traditional streetscapes (as per the pictures which show a variety of new and old BATs) and is offered as a growable 1x2 lot for medium and high density zones on the Houston tileset only to ensure that it does not become weedy.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  1x2  
+    Growth Stage:         6 (Medium & High Density Zoning)  
+    Bulldoze Cost:         § 814  
+    Capacity Satisfied: CS§ 365, CS§§ 93,   
+    Pollution:                  3 (Air)/ 2 (Water)/ 4(Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  8 Mwh  
+    Water Consumed:   91 Gal/Month  
+    Building Style:          Houston  
+    Occupant Group:     Medium Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33328-yamaha-building-tokyo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/Yamaha.jpg.a176b03354e6a06359d012975e45657f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/Yamaha1.jpg.3c0d7a89edfb2411d401ae697e7416e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/Yamaha2.jpg.f67e2cba170aac2d1b1a867edebd3b1e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/Yamaha3.jpg.6a7b45a35d670d9ae7b48ed72963e17a.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-yamaha-building-tokyo-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-yamaha-building-tokyo-darknite
+
+---
+assetId: mattb325-yamaha-building-tokyo-darknite
+version: "1.0.0"
+lastModified: "2019-12-14T07:53:59Z"
+url: https://community.simtropolis.com/files/file/33328-yamaha-building-tokyo/?do=download&r=179147
+
+---
+assetId: mattb325-yamaha-building-tokyo-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-14T07:53:59Z"
+url: https://community.simtropolis.com/files/file/33328-yamaha-building-tokyo/?do=download&r=179148

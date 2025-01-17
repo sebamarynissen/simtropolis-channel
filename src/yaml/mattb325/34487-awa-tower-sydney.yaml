@@ -1,0 +1,89 @@
+group: mattb325
+name: awa-tower-sydney
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: AWA Tower, Sydney
+  description: |-
+    **AWA Tower Radio Station, by Mattb325.  
+    \---------------------------------------**
+
+    The Amalgamated Wireless Australasia (AWA) Tower in Sydney is a heritage listed art-deco building constructed between 1937-1939. Up until 1962, this was the tallest structure in Sydney. That mantle was subsequently removed by Sydney's AMP tower at circular quay (which I have also batted).
+
+    I have made this building to serve as a downtown radio station. It is also suited to W2W environments.
+
+    Like the ingame Radio Station this lot is basically used as a cap buster; it increases desirability, mayor rating and also substantially lifts the demand cap for R$$, CO$$ and Manufacturing jobs (90,000 in each category).
+
+    Given how most of the industrial/commercial and residential custom content available leans towards mid-wealth assets, these caps are usually hit fairly early, so placing the radio station in each city tile will assist in ensuring there is still regional demand for IM jobs.
+
+    This reward lot is offered without the need to satisfy pre-existing conditions, can be plopped more than once in a city, and, most importantly DOES NOT over-write the ingame radio station.
+
+    This lot has the additional benefits of having 665 desirable civic jobs in all categories, it provides both park and landmark effects (increasing desirability of residential and commercial zones).
+
+    It is in the REWARD menu and requires power, water and road access.
+
+    **STATS:  
+    \---------------------------------------**
+
+    Plop Cost:                 $0  
+    Bulldoze Cost:          $150,000  
+    Demand Created:     R$ 25; R$$ 600; R$$$ 40  
+    Demand Satisfied:   R$$ 90,000; I-M Jobs 90,000; CO$$ 90,000  
+    Pollution:                   20 (Air)/ 14 (Water)/ 43 (Garbage )  
+    Pollution Radius:      3/4/0  
+    Power Consumed:   121 Mwh  
+    Water Consumed:    90 Gallons  
+    Landmark Effect:     85 over 30 tiles  
+    Park Effect:               20 over 30 tiles  
+    Monthly Cost:           $0
+
+    **DEPENDENCIES:**
+
+    **\---------------------------------------**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34487-awa-tower-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA.jpg.ef9b29b090d40c2680b93c45c17ebe95.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA1.jpg.ebceef923e87385e537eb26b335e8a71.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA2.jpg.f5d8fc48bd562e9cd9af62b53f8fe652.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA3.jpg.fe3e187c31765962b8edda1a7bff0778.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA4.jpg.17461407cd416ece3628ef79e930d11c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA5.jpg.0448206b0fc4f7a1272f9eac7adbd78a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA6.jpg.f01891e33cca70fbd9bb6d0b50270c33.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AWA7.jpg.558f07b2cf8c442432810d12ca8700c5.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-awa-tower-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-awa-tower-sydney-darknite
+
+---
+assetId: mattb325-awa-tower-sydney-darknite
+version: "1.0.0"
+lastModified: "2021-05-28T21:08:37Z"
+url: https://community.simtropolis.com/files/file/34487-awa-tower-sydney/?do=download&r=188410
+
+---
+assetId: mattb325-awa-tower-sydney-maxisnite
+version: "1.0.0"
+lastModified: "2021-05-28T21:08:37Z"
+url: https://community.simtropolis.com/files/file/34487-awa-tower-sydney/?do=download&r=188411
