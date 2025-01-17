@@ -32,14 +32,24 @@ export default async function splitPackage(metadata) {
 		},
 		assets: modifyAssets(pkg.assets, 'resource', map),
 		variants: pkg.variants
-			?.map(variant => modifyAssets(variant.assets)),
+			?.map(variant => {
+				return {
+					...variant,
+					assets: modifyAssets(variant.assets, 'resource', map),
+				};
+			}),
 	};
 	let main = {
 		...pkg,
 		info: { ...pkg.info },
 		assets: modifyAssets(pkg.assets, 'main', map),
 		variants: pkg.variants
-			?.map(variant => modifyAssets(variant.assets)),
+			?.map(variant => {
+				return {
+					...variant,
+					assets: modifyAssets(variant.assets, 'main', map),
+				};
+			}),
 	};
 	main.dependencies ??= [];
 	main.dependencies.unshift(`${resource.group}:${resource.name}`);
@@ -129,8 +139,8 @@ async function labelAsset(asset) {
 
 function modifyAssets(assets, key, map) {
 	return assets
-		?.filter(asset => true)
-		.map(asset => {
+		?.filter(asset => map[asset.assetId][key].length > 0)
+		?.map(asset => {
 			return {
 				assetId: asset.assetId,
 				include: map[asset.assetId][key],
@@ -165,7 +175,7 @@ function getIncludeList(asset, other) {
 	// Zip both the extension list and raw list together.
 	return [
 		...extensionList.map(ext => `\\${ext}$`),
-		...rawList.map(file => escape(file)),
+		...rawList.map(file => escape(file.replaceAll(path.sep, '/'))),
 	];
 
 }
