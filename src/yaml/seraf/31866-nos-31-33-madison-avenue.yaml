@@ -1,0 +1,50 @@
+group: seraf
+name: nos-31-33-madison-avenue
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Nos. 31-33 Madison Avenue
+  description: |-
+    Nos. 31-33 Madison Avenue - Two townhouses in Italianate style that stood on Madison Avenue between 25th and 26th street till 1954 when they were demolished to make way for Appellate Courthouse annex. This BAT is a recreation of the condition from around 1912 when No.31 was modernized and converted for commercial use.
+
+    This BAT has a special version for winter, it will appear when game date will reach 15th of Dec.
+
+    **Lot size**: 1x2
+
+    **Versions**: 1
+
+    \- Landmark
+
+    **Dependencies:**
+
+    SimFox Day n Nite Modd (For DarkNite Version only)
+
+    NYBT Essentials
+
+    Thanks to all people who helped with this BAT.
+
+    Enjoy!
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/31866-nybt-nos-31-33-madison-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Screens.png.6db9ce81292ae2e921d450872367f399.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-nos-31-33-madison-avenue
+        exclude:
+          - /NYBT_31-33MadisonAvenue_DN_Seraf/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-nos-31-33-madison-avenue
+        exclude:
+          - /NYBT_31-33MadisonAvenue_MN_Seraf/
+
+---
+assetId: seraf-nos-31-33-madison-avenue
+version: "1.0"
+lastModified: "2017-07-21T12:01:17Z"
+url: https://community.simtropolis.com/files/file/31866-nybt-nos-31-33-madison-avenue/?do=download&r=167644

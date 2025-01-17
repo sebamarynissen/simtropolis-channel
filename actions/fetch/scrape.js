@@ -78,6 +78,10 @@ export default async function scrape(url) {
 			subfolder = '700-transit';
 		} else if (description.match(/\blibrary\b/i)) {
 			subfolder = '620-education';
+		} else if (description.match(/\blandmark\b/i)) {
+			subfolder = '360-landmark';
+		} else if (description.match(/\bjobs\b/i)) {
+			subfolder = '300-commercial';
 		}
 	}
 	return { description, images, subfolder };
