@@ -42,29 +42,23 @@ async function run(urls, argv) {
 	let results = await fetchAll(urls, { split: argv.split });
 	for (let result of results) {
 		let [pkg] = result.metadata;
-		if (!pkg.dependencies) {
-
-			// If the package has no explicit dependencies specified, then we 
-			// parse all links from the description.
-			let jsdom = new JSDOM(marked(pkg.info.description));
-			let links = [...jsdom.window.document.querySelectorAll('a')]
-				.map(a => {
-					let link = a.getAttribute('href');
-					let text = a.textContent.trim();
-					return { link, text };
-				});
-			let deps = parseDependencies(index, links);
-			let unmatched = deps.filter(dep => dep.startsWith('"['));
-			if (unmatched.length > 0) {
-				console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
-				for (let dep of unmatched) {
-					console.log(`  ${styleText('cyan', dep)}`);
-				}
+		let jsdom = new JSDOM(marked(pkg.info.description));
+		let links = [...jsdom.window.document.querySelectorAll('a')]
+			.map(a => {
+				let link = a.getAttribute('href');
+				let text = a.textContent.trim();
+				return { link, text };
+			});
+		let deps = parseDependencies(index, links);
+		let unmatched = deps.filter(dep => dep.startsWith('"['));
+		if (unmatched.length > 0) {
+			console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
+			for (let dep of unmatched) {
+				console.log(`  ${styleText('cyan', dep)}`);
 			}
-			if (deps.length > 0) {
-				pkg.dependencies = deps;
-			}
-
+		}
+		if (deps.length > 0) {
+			pkg.dependencies = [...pkg.dependencies || [], ...deps];
 		}
 		let file = `${pkg.group}/${result.id}-${pkg.name}.yaml`;
 		let docs = result.metadata.map((data, i) => {

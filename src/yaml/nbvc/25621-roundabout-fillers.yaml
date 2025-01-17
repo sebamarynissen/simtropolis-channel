@@ -1,0 +1,35 @@
+group: nbvc
+name: roundabout-fillers
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Roundabout Fillers
+  description: |-
+    Five roundabout fillers with statues.
+
+    All Lots have size 1x1.
+
+    They are located in the Misc. Transportation menu.
+
+    **Dependency**
+
+    [https://community.simtropolis.com/files/file/23982-the-classics/?do=embed](https://community.simtropolis.com/files/file/23982-the-classics/?do=embed)
+
+    * * *
+
+    Mod Edit: Fixed broken dependency link.
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/25621-roundabout-fillers/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a8951ba4aed8b54683b5ddfba1b87f55-roundabout1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a8951ba4aed8b54683b5ddfba1b87f55-roundabout2.jpg
+dependencies:
+  - peg:the-classics
+assets:
+  - assetId: nbvc-roundabout-fillers
+
+---
+assetId: nbvc-roundabout-fillers
+version: "1.0"
+lastModified: "2011-01-02T03:45:35Z"
+url: https://community.simtropolis.com/files/file/25621-roundabout-fillers/?do=download&r=53515
