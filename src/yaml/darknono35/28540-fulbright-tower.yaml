@@ -53,7 +53,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/a723c7a3a18ed960e6dab9fbc1a0a42c-dk35_fulbright_01.jpg
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/b339d131b297af9b07da82cf336f38db-dk35_fulbright_02.jpg
 dependencies:
-  - ndex:textures-vol1
+  - bsc:textures-vol02
+  - darknono35:fulbright-tower
 variants:
   - variant: { nightmode: standard }
     assets:

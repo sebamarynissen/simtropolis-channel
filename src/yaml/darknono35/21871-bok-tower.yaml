@@ -44,9 +44,12 @@ info:
     - https://www.simtropolis.com/objects/screens/0009/45a625c445dbf2e809183b2c6db781bd-Bok_Tulsa_00.jpg
     - https://www.simtropolis.com/objects/screens/0009/45a625c445dbf2e809183b2c6db781bd-Bok_Tulsa_01_bynight.jpg
 dependencies:
-  - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
+  - bsc:textures-vol02
+  - maxis:day-of-peace
+  - onlyplace4:flags-of-the-usa
 assets:
   - assetId: darknono35-bok-tower
 
