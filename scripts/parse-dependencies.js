@@ -21,13 +21,14 @@ const strings = {
 	'bsc:mega-props-jrj-vol02': [/BSC MEGA Props JRJ Vol ?02/i],
 	'bsc:textures-vol01': [/BSC Textures Vol ?01/i],
 	'bsc:textures-vol02': [/BSC Textures Vol ?02/i],
-	'lbt:mega-prop-pack-vol01': [/LBT Prop pack 3/i],
+	'lbt:mega-prop-pack-vol01': [/LBT Prop pack 3/i, /LBT Mega Prop Pack v\.?01/i],
 	'gizmo:vehicle-props': [/BSC VehicleProps-Beta-03/i, /Vehicle_Props-V3/i, /VehiculeProps-beta-03/i],
-	'sfbt:essentials': [/SFBT[_ ]+Maxis[_ ]+Street[_ ]+Dec[a-z]+[_ ]+Trees/i],
+	'sfbt:essentials': [/SFBT[_ ]+Maxis[_ ]+Street[_ ]+Dec[a-z]+[_ ]+Trees/i, /SFBT[_ ]Arkenbergejoe[_ ]texturen/i],
 	'bsc:mega-props-dae-vol01': [/Mega Props[ -]+D[EA]{2} Vol ?01/i],
-	'bsc:mega-props-sg-vol01': [/Mega Props[ -]+SG Vol ?01/i],
+	'bsc:mega-props-sg-vol01': [/Mega[ -_]Props[ -_]+SG[ -_]Vol ?01/i],
 	'bsc:mega-props-cp-vol01': [/CP[_ ]PropPack[_ ]Vol ?01/i],
 	'bsc:mega-props-cp-vol02': [/CP[_ ]PropPack[_ ]Vol ?02/i],
+	'bsc:mega-props-d66-vol02': [/BSC MEGA Props D66 Vol ?02/i],
 	'maxis:day-of-peace': [/dayof?p?eace\.dat/i],
 };
 
