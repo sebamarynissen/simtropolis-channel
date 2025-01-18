@@ -1,0 +1,57 @@
+group: darknono35
+name: okc-oklahoma-tower
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: OKC Oklahoma Tower
+  description: |-
+    OKLAHOMA TOWER v2.0
+
+    Update: Windows
+     Nightlights
+     Roof with details
+     Lot
+
+    Please remove the first version of your pluggins folder before, and install the v2.0 to prevent any bug or any problem.
+
+    Oklahoma Tower is a prominent skyscraper in downtown Oklahoma City's central business district.
+    It is 132 meters tall and has 31 floors. It was built in 1982 on Park Avenue (210 Park Avenue).
+    The tower is the fourth tallest building in Oklahoma City and 8th tallest in Oklahoma.
+
+    Style:  modernism
+    Bldg Cost: 12366$
+    Jobs:  2412 CO$$
+    Landmark file
+
+    **Dependencies (updated - 10.11.2019)**
+
+    **[BSC MEGA Props - JES Vol06](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1416)**
+    **[BSC MEGA Props - SG Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)**
+    **[BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)**
+    **[Cogeo's Spirulina Farms](https://community.simtropolis.com/files/file/19428-spirulina-farms/)** (you only need the **SPF\_Props.dat**)
+    **[SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)****
+    [BSC Textures Vol 02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+    [International Day of Peace Prop (dayopeace.dat)](https://community.simtropolis.com/library/maxis/sc4/buildings/dayopeace.dat)**
+
+    **edit: - updated dependency list with links by Tyberius06 10.11.2019**
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/23984-okc-oklahoma-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8e3fa36bef541cc0336fd9e4d51ab087-oklahomatower_version2_00.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8e3fa36bef541cc0336fd9e4d51ab087-oklahomatower_version2_01.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - cogeo:spirulina-farms-resources
+  - maxis:day-of-peace
+  - sfbt:essentials
+assets:
+  - assetId: darknono35-okc-oklahoma-tower
+
+---
+assetId: darknono35-okc-oklahoma-tower
+version: "2"
+lastModified: "2010-05-26T14:44:07Z"
+url: https://community.simtropolis.com/files/file/23984-okc-oklahoma-tower/?do=download&r=51023

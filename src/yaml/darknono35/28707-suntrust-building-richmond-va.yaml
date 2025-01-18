@@ -1,0 +1,69 @@
+group: darknono35
+name: suntrust-building-richmond-va
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: SUNTRUST BUILDING, RICHMOND,VA
+  description: |-
+    **SUNTRUST BUILDING, RICHMOND,VA** :
+
+    *This folder contain Growable and Landmark version. Please, don't remove the folder called " Model" otherwise an ugly brown box appear.*
+
+    The SunTrust Building is located in the downtown of Richmond, VA at 919 East Main Street. The tower was completed in 1983 and high of 121 meters for 26 floors.
+
+    It's an modern building, the facade is in polished granite. The building is occupied by the offices SunTrust Bank.
+
+    In-game settings:
+
+    GROWABLE:
+
+    Jobs: 5078 CO$$
+
+    Grow Stage: 8
+
+    Pollution at center: Air:20 / Water:20 / Garbage:10 / Rad:0
+
+    Power consumed: 101
+
+    Water consumed: 1017
+
+    Flammability: 40
+
+    Design: Houston 1990
+
+    Lot Size: 6x3 corner
+
+    LANDMARK:
+
+    Plop cost: $23890
+
+    Dependencies:
+
+    [SimFox darknite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Thanks for your supports and your advices during the conception of this building, and good game guys ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28707-dk35-suntrust-building-richmondva/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/7eeb65f9603e9ec986164c33a5ccd69d-dk35_suntrustbuilding01jpg.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/82a38ad18a549918b7c61891c998e273-dk35_suntrustbuilding00jpg.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-suntrust-building-richmond-va-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-suntrust-building-richmond-va-darknite
+
+---
+assetId: darknono35-suntrust-building-richmond-va-darknite
+version: "1.0"
+lastModified: "2013-05-14T21:13:53Z"
+url: https://community.simtropolis.com/files/file/28707-dk35-suntrust-building-richmondva/?do=download&r=115085
+
+---
+assetId: darknono35-suntrust-building-richmond-va-maxisnite
+version: "1.0"
+lastModified: "2013-05-14T21:13:53Z"
+url: https://community.simtropolis.com/files/file/28707-dk35-suntrust-building-richmondva/?do=download&r=115086

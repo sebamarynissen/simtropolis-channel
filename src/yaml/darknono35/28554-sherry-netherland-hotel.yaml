@@ -1,0 +1,106 @@
+group: darknono35
+name: sherry-netherland-hotel
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Sherry Netherland Hotel
+  description: |-
+    SHERRY NETHERLAND HOTEL:
+
+    This folder cotain several version of the Sherry Netherland Hotel. Choose the version you prefer ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    The Sherry netherland is a luxury hotel and apartment building located at the south-eastern corner of Central Park, near the GM building ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif) , and the plaza Hotel.
+
+    The tower is hight of 170 meters for 38 levels. Only 54 hotel rooms and suite occuped the building.
+
+    The construction began in 1926 and the upper floors suffered a spectacular fire during 12 hours before the building was completed the 12 April 1927.
+
+    \---------------------------------------------------------
+
+    Building Description:
+
+    Landmark with jobs:
+
+    Plop cost: $51,146
+
+    Growable CS$$$:
+
+    Occupant group: New York 1940
+
+    Jobs: 663
+
+    Pollution at center: AIR:39/ Water:26/ Garbage:52/ Rad:0
+
+    Water consumed: 1470
+
+    Poer consumed: 160
+
+    Grow stage: 8
+
+    Growable R$$$:
+
+    Occupant group: New York 1940
+
+    Capacity: 1284
+
+    Pollution at center: AIR:18/ Water:6/ Garbage:6/ Rad:0
+
+    Power consumed: 160
+
+    Water consumed: 214
+
+    Grow stage: 8
+
+    Dependencies:
+
+    [NYBT essentials plugins link](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    [Simfox darknite link](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Link to the [4 East 59th Street](https://community.simtropolis.com/files/file/28553-nybt-4-east-59th-street/)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28554-nybt-sherry-netherland-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/e39bd62c618cf54461d7f692f71ff84e-nybt_sherry_netherland_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/85d8a203e69f1e6c39732e1004387fd6-nybt_sherry_netherland_00.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard, darknono35:sherry-netherland-hotel:flags: "yes" }
+    assets:
+      - assetId: darknono35-sherry-netherland-hotel-maxisnite
+  - variant: { nightmode: dark, darknono35:sherry-netherland-hotel:flags: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-sherry-netherland-hotel-no-flags-darknite
+  - variant: { nightmode: standard, darknono35:sherry-netherland-hotel:flags: "no" }
+    assets:
+      - assetId: darknono35-sherry-netherland-hotel-no-flags-maxisnite
+  - variant: { nightmode: dark, darknono35:sherry-netherland-hotel:flags: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-sherry-netherland-hotel-darknite
+
+---
+assetId: darknono35-sherry-netherland-hotel-darknite
+version: "1.0"
+lastModified: "2013-03-09T21:03:19Z"
+url: https://community.simtropolis.com/files/file/28554-nybt-sherry-netherland-hotel/?do=download&r=112999
+
+---
+assetId: darknono35-sherry-netherland-hotel-maxisnite
+version: "1.0"
+lastModified: "2013-03-09T21:03:19Z"
+url: https://community.simtropolis.com/files/file/28554-nybt-sherry-netherland-hotel/?do=download&r=113000
+
+---
+assetId: darknono35-sherry-netherland-hotel-no-flags-darknite
+version: "1.0"
+lastModified: "2013-03-09T21:03:19Z"
+url: https://community.simtropolis.com/files/file/28554-nybt-sherry-netherland-hotel/?do=download&r=113001
+
+---
+assetId: darknono35-sherry-netherland-hotel-no-flags-maxisnite
+version: "1.0"
+lastModified: "2013-03-09T21:03:19Z"
+url: https://community.simtropolis.com/files/file/28554-nybt-sherry-netherland-hotel/?do=download&r=113002
