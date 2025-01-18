@@ -3,6 +3,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import ora from 'ora';
 import { hideBin } from 'yargs/helpers';
+import { Minimatch } from 'minimatch';
 import yargs from 'yargs/yargs';
 import traverse from './traverse-yaml.js';
 import standardDeps from './standard-deps.js';
@@ -11,6 +12,16 @@ const { argv } = yargs(hideBin(process.argv));
 const dist = path.resolve(import.meta.dirname, '../dist/plugins');
 const packages = JSON.parse(fs.readFileSync(path.join(dist, 'sc4pac-plugins.json')));
 
+// If glob patterns were specified for what packages we need to prune, filter 
+// them out.
+let { explicit } = packages;
+let matches = argv._.map(pattern => new Minimatch(pattern));
+if (matches.length > 0) {
+	explicit = explicit.filter(pkg => {
+		return matches.some(mm => mm.match(pkg));
+	});
+}
+
 // Setup the dependency tracker.
 const spinner = ora().start();
 const index = {};
@@ -18,7 +29,7 @@ const tracker = new DependencyTracker({
 	plugins: dist,
 });
 const results = [];
-for (let pkg of packages.explicit) {
+for (let pkg of explicit) {
 	if (standardDeps.includes(pkg)) continue;
 	spinner.text = `Tracking dependencies for ${pkg}`;
 	let result = await tracker.track(pkg);
