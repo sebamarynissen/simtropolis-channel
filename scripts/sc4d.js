@@ -41,6 +41,7 @@ export default {
 	1485: 'bsc:mega-props-misc-vol02',
 	1495: 'bsc:mega-props-jes-vol07',
 	1547: 'bsc:mega-props-newmaninc-vol02',
+	1583: 'bsc:mega-props-jrj-vol02',
 	1714: 'sfbt:royal-semaphore-signals-props',
 	1758: 'bsc:mega-props-jmyers-agriculture-vol01',
 	1764: 'bsc:mega-props-t1-vol03',
