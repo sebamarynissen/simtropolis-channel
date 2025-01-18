@@ -1,0 +1,101 @@
+group: darknono35
+name: one-financial-plaza-gold-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: One Financial Plaza / Gold Building
+  description: |-
+    **DK35 ONE FINANCIAL PLAZA / GOLD BUILDING, HARTFORD, CT**
+
+    *1/ This folder contain orthogonal and diagonal version of this building ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif).
+    2/ Two version are inside this folder, Darknite and Maxisnite, choose only one version.
+    3/ Don't remove the folder called "Model" otherwise, you will see the brown box in the game.*
+
+    One Financial Plaza or Gold Building. This curtain wall building is a medium size located in the downtown of Hartford, CT. Is high of 102 meters for 26 floors over the ground level, the building was ended in 1975.
+
+    In-game settings:
+
+    GROWABLE:
+    Jobs: 5123 CO$$
+    Grow Stage: 7
+    Pollution at center: Air:22 / Water:22 / Garbage:11 / Rad:0
+    Power consumed: 113
+    Water consumed: 1139
+    Flammability: 40
+    Design: Houston 1990
+    Lot Size: 6x3
+
+    LANDMARK:
+    Plop cost: $22800
+    Lot Size: 6x3 / 1x1 for diagonal version
+
+    Dependencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Good game guys ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28917-dk-35-one-financial-plaza-gold-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/9e4e7c63adc3ff348f6fcdb00d2fc4d0-dk35_onefinancialplaza_ortho_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/9c738cd74cf7f2d43a25fcbf06660db6-dk35_onefinancialplaza_ortho_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/ef2aff4b5d4489f8f86f1d7054735ee9-dk35_onefinancialplaza_ortho_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/a37af2b84c4b3f79c9ff575d1b3e05ac-dk_35_onefinancialplaza_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/3ca99aad6595f12d26111bddc5911df4-dk_35_onefinancialplaza_01.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-one-financial-plaza-gold-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-one-financial-plaza-gold-building-darknite
+
+---
+group: darknono35
+name: one-financial-plaza-gold-building-diagonal
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: One Financial Plaza / Gold Building (Diagonal)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28917-dk-35-one-financial-plaza-gold-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/9e4e7c63adc3ff348f6fcdb00d2fc4d0-dk35_onefinancialplaza_ortho_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/9c738cd74cf7f2d43a25fcbf06660db6-dk35_onefinancialplaza_ortho_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/ef2aff4b5d4489f8f86f1d7054735ee9-dk35_onefinancialplaza_ortho_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/a37af2b84c4b3f79c9ff575d1b3e05ac-dk_35_onefinancialplaza_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/3ca99aad6595f12d26111bddc5911df4-dk_35_onefinancialplaza_01.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-one-financial-plaza-gold-building-diagonal-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-one-financial-plaza-gold-building-diagonal-darknite
+
+
+---
+assetId: darknono35-one-financial-plaza-gold-building-diagonal-darknite
+version: "1.0"
+lastModified: "2013-08-07T22:23:24Z"
+url: https://community.simtropolis.com/files/file/28917-dk-35-one-financial-plaza-gold-building/?do=download&r=118955
+
+---
+assetId: darknono35-one-financial-plaza-gold-building-diagonal-maxisnite
+version: "1.0"
+lastModified: "2013-08-07T22:23:24Z"
+url: https://community.simtropolis.com/files/file/28917-dk-35-one-financial-plaza-gold-building/?do=download&r=118956
+
+---
+assetId: darknono35-one-financial-plaza-gold-building-darknite
+version: "1.0"
+lastModified: "2013-08-07T22:23:24Z"
+url: https://community.simtropolis.com/files/file/28917-dk-35-one-financial-plaza-gold-building/?do=download&r=118957
+
+---
+assetId: darknono35-one-financial-plaza-gold-building-maxisnite
+version: "1.0"
+lastModified: "2013-08-07T22:23:24Z"
+url: https://community.simtropolis.com/files/file/28917-dk-35-one-financial-plaza-gold-building/?do=download&r=118958

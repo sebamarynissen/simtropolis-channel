@@ -1,0 +1,58 @@
+group: darknono35
+name: rockefeller-international-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Rockefeller International Building
+  description: |-
+    ROCKEFELLER INTERNATIONAL BUILDING, NYC v2
+
+    **Resized version. Please, remove the old file to prevent crash or any problems.**
+
+    This file contain two version, one with Maxis-night and one for Dark-night with identical stats.
+
+    The International Building is a building located in New York's Midtown (Manhattan).
+
+    It is located on Fifth Avenue and part of the Rockefeller Center, which includes the materials (limestone gray Indiana) and the Art Deco style. Its main entrance is adorned with the famous Pierced Stone grill Lee Lawrie.
+
+    Its surroundings are endowed with statues, including the Atlas.
+
+    Landmark ploppable with jobs.
+
+    Jobs: 13057 CO$$
+
+    Plop Cost: $ 30964
+
+    Water Consumed: 1626
+
+    Power Consumed: 162
+
+    Lot size : 4x7 tiles
+
+    Deppendencies
+
+    [Simfox day n nite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28239-nybt-rockefeller-international-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/56406a673919e62e8e26cd336af34277-rockefeller_intl_bldg_night00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/7b0c7b25eb7165b7f1bfd15f7c4e8ab3-rockefeller_intl_bldg_day01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/3fad786c5ad4a9c076e778b29c8caf81-rockefeller_intl_bldg_night01.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-rockefeller-international-building
+        exclude:
+          - /NYBT_Rockefeller_International_Bldg_DN_v2/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-rockefeller-international-building
+        exclude:
+          - /NYBT_Rockefeller_International_Bldg_MN_v2/
+
+---
+assetId: darknono35-rockefeller-international-building
+version: "1.0"
+lastModified: "2012-11-23T21:31:17Z"
+url: https://community.simtropolis.com/files/file/28239-nybt-rockefeller-international-building/?do=download&r=109893

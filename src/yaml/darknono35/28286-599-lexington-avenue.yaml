@@ -1,0 +1,86 @@
+group: darknono35
+name: 599-lexington-avenue
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 599 Lexington Avenue
+  description: |-
+    NYBT 599 LEXINGTON AVENUE:
+
+    This file contain several version, Choose the one you want:
+
+    Darknight Growable
+
+    Darknight Landmark
+
+    MaxisNight Growable
+
+    MaxisNight Landmark
+
+    Growable Stats:
+
+    Jobs: 7830 CO$$
+
+    Power consumed: 151
+
+    Water Consumed: 1513
+
+    Pollution at Center: Air:30 / Water:30 / Garbage:15 / Radiation:0
+
+    Occupant Group: Houston
+
+    Landmark Stats:
+
+    Jobs: 11305 CO$$
+
+    Power consumed: 151
+
+    Water Consumed: 1513
+
+    Plop Cost: $40262
+
+    \----------------------------------------
+
+    Description Building:
+
+    This tower was built into 1984 and 1986, near the Citicorp Center at East 52nd & 53rd Street Lexington avenue by Mortimer Zuckerman for $84 Millions.
+
+    Hight of 199 meters for 50 levels it's an offices building.
+
+    I thank all those who advised me during the design of the tower ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    **Special thanks to Aaron Graham for the** **NYBT** **essential header and the icon** ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    dependencies:
+
+    [NYBT essentials header](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    [Simfox day n nite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28286-nybt-599-lexington-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/956dad91406a0c23f4f5232cc4cb0c93-599_lex_ave_dn_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/e38e570e9cda05d513d6d1361d0c3106-599_lex_ave_mn_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/1a07aac08f71520d3e278974987dc1a4-599_header.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-599-lexington-avenue-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-599-lexington-avenue-darknite
+
+---
+assetId: darknono35-599-lexington-avenue-darknite
+version: "1.0"
+lastModified: "2012-12-09T20:00:11Z"
+url: https://community.simtropolis.com/files/file/28286-nybt-599-lexington-avenue/?do=download&r=109888
+
+---
+assetId: darknono35-599-lexington-avenue-maxisnite
+version: "1.0"
+lastModified: "2012-12-09T20:00:11Z"
+url: https://community.simtropolis.com/files/file/28286-nybt-599-lexington-avenue/?do=download&r=109889
