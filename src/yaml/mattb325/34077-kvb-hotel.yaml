@@ -1,0 +1,86 @@
+group: mattb325
+name: kvb-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: KVB Hotel
+  description: |-
+    **KVB Hotel, by Mattb325.  
+    \---------------------------------------**
+
+    Inspired by the KBC building in Gent, I drew the inspiration for this model from the 'KVB Building' that was released by Btwist for Cities: Skylines (even though I don't play C:S, the dramatic shapes of the building caught my eye).....and turned it into a hotel.
+
+    Neither my version nor the C:S version is an exact replica of the real building, but both are fairly representative of the dramatic architecture.
+
+    The alterations I have made to the real-life building enable it to occupy a 3x3 high density zone and it will help soak up the endless CS§§§ demand that seems to exist in SC4 by providing 385 high-wealth jobs.
+
+    The KVB hotel has 22 floors and an interesting angled arrangement of the main mechanical area in the roof, the rooftop pool area, and of course the large diagonal opening which appears to allow the smaller cantilevered section to hang from the building.
+
+    Another large box it may be, but at least there is an interesting arrangement of angular shapes to break the monotony of a typical downtown space.
+
+    The building is a growable high-wealth commercial services offering on all tilesets. It is suitable for CAM and non-CAM cities alike.
+
+    Use Buggis extra cheats if you wish to make this building (and indeed all other buildings in your plugins) ploppable via a drop down menu.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§:**
+
+    Lot size :                  3x3  
+    Growth Stage:         8 (High Density Zoning)  
+    Bulldoze Cost:         § 1,418  
+    Capacity Satisfied: CS§ 3,819, CS§§ 957, CS§§§ 385  
+    Pollution:                  25 (Air)/ 17 (Water)/ 34 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed:  107 Mwh  
+    Water Consumed:   960 Gal/Month  
+    Building Style:          Chicago, New York, Houston, Euro  
+    Occupant Group:     High Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34077-kvb-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/KVB.jpg.07ce7a85558f24f11a998a80835638fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/KVB1.jpg.7f78291745c0ab5fb5ee370a6e605c56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/KVB2.jpg.70bd14f9392ad38213d0a9132b834d27.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/KVB3.jpg.a87442d410d4cfea8869292188093aa3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/KVB4.jpg.4013bf9f1b0be015daee83a96f1d4c67.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-kvb-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-kvb-hotel-darknite
+
+---
+assetId: mattb325-kvb-hotel-darknite
+version: "1.0.0"
+lastModified: "2021-01-29T21:28:23Z"
+url: https://community.simtropolis.com/files/file/34077-kvb-hotel/?do=download&r=184769
+
+---
+assetId: mattb325-kvb-hotel-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-29T21:28:23Z"
+url: https://community.simtropolis.com/files/file/34077-kvb-hotel/?do=download&r=184770

@@ -1,0 +1,62 @@
+group: agc
+name: industry-energy-and-telecom-dlc
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Industry, Energy & Telecom DLC
+  description: |-
+    **Industry, Energy & Telecom DLC will contain props & buildings (No lots).**
+
+    **You can find images and info of what this DLC contains here:**
+
+    **\>Soon<**
+
+    **You can find them in the props section as:**
+
+    **AGC\_Props\_IND\_**
+
+    **AGC\_Props\_Fence**
+
+    **AGC\_SUB\_**
+
+    **AGC\_PS\_**
+
+    **Includes Maxisnite and Darknite (Choose just one).**
+
+    **Scale of the models:** **133% on all axes.**
+
+    **I will update this DLC constantly so you must be on the lookout.**
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **If you like my work, you can make a donation to fund my other projects! ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to the few people who have donated to me.**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36448-agc-industry-energy-telecom-dlc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e4b3d1735b4_A_IndustrialEnerguTelecomDLC.png.75096c83ec28077eec30af0d327535ed.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-industry-energy-and-telecom-dlc-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-industry-energy-and-telecom-dlc-darknite
+
+---
+assetId: agc-industry-energy-and-telecom-dlc-maxisnite
+version: "1.0.0"
+lastModified: "2024-09-13T22:03:39Z"
+url: https://community.simtropolis.com/files/file/36448-agc-industry-energy-telecom-dlc/?do=download&r=203435
+
+---
+assetId: agc-industry-energy-and-telecom-dlc-darknite
+version: "1.0.0"
+lastModified: "2024-09-13T22:03:39Z"
+url: https://community.simtropolis.com/files/file/36448-agc-industry-energy-telecom-dlc/?do=download&r=203436

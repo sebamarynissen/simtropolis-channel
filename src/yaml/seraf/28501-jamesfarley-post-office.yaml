@@ -1,0 +1,52 @@
+group: seraf
+name: jamesfarley-post-office
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: JamesFarley Post Office
+  description: |-
+    James Farley Post Office
+
+    Original building was designed by McKim, Mead & White and built in 1912 in New York City. It was doubled in 1934 becoming one of the biggest buildings on Manhattan Island. Above the imposing Corinthian collonade designed to correspond and compliment the Doric pilasters of original Pennsylvania Station across the avenue, is carved famous quote of Herodotus: "Neither snow nor rain nor heat nor gloom of night stays these couriers from the swift completion of their appointed rounds".
+
+    The quote, not being the official motto of U.S. Postal Service was probably choosen by W.M. Kendall, one of the younger partners in the firm and person who was responsible for major part of the Post Office design.
+
+    Versions:
+
+    \- LM (lot size: 9x16)
+
+    \- Plopable (CS$$$) with 3486 jobs (lot size: 9x16)
+
+    Dependencies:
+
+    NYBT\-Essentials
+
+    Simfox Darknite mod (for DarkNite version)
+
+    Thanks to all people who helped me with this BAT. Enjoy ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/28501-nybt-jamesfarley-post-office/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/3cdd3389d3d1cb3edfbe00ef40b2aefb-screen.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-jamesfarley-post-office-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-jamesfarley-post-office-darknite
+
+---
+assetId: seraf-jamesfarley-post-office-maxisnite
+version: "1.0"
+lastModified: "2013-02-22T21:01:59Z"
+url: https://community.simtropolis.com/files/file/28501-nybt-jamesfarley-post-office/?do=download&r=112351
+
+---
+assetId: seraf-jamesfarley-post-office-darknite
+version: "1.0"
+lastModified: "2013-02-22T21:01:59Z"
+url: https://community.simtropolis.com/files/file/28501-nybt-jamesfarley-post-office/?do=download&r=112352

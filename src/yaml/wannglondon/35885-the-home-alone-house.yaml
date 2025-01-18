@@ -1,0 +1,37 @@
+group: wannglondon
+name: the-home-alone-house
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Home Alone House
+  description: |-
+    Happy holidays, Community!
+
+    Whipped this famous house up, inspired by the Christmas classic, *Home Alone* (1 & 2). Certain liberties were taken and as usual my lotting is sub-par, so please feel free to re-lot to your desired aesthetic.
+
+    \- R$$$ Low, Medium, High density zones
+
+    \- Chicago tileset
+
+    \- No dependencies
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35885-the-home-alone-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/65888febdc9b5_HouseDay.jpg.c2fefdf899aaa751a60f09e6082b4f7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/65888fedae87e_HouseNight.jpg.2bac75e22ffe5417453a623dda10f4f3.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-the-home-alone-house-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-the-home-alone-house-darknite
+
+---
+assetId: wannglondon-the-home-alone-house-darknite
+version: "1.0.0"
+lastModified: "2023-12-24T20:11:46Z"
+url: https://community.simtropolis.com/files/file/35885-the-home-alone-house/?do=download&r=198904

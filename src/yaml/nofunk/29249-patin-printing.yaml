@@ -1,0 +1,41 @@
+group: nofunk
+name: patin-printing
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Patin Printing
+  description: |-
+    Patin Printing is a design and printing firm perfect for all your printing needs! From city journals to Trixie ballots, Patin Printing can do it all! Products are exclusively offered on acid free, post-consumer recycled paper. So get printing today with Patin Printing!
+
+    Provides 236 CS$$ jobs for your city.
+
+    -   3x2 growable and ploppable that grows in the Chicago tileset.
+    -   Available in both MaxisNite and DarkNite.
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![0llzbQn.jpg](http://i.imgur.com/0llzbQn.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29249-patin-printing/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/909bfa5b854841b1d3353574a9793bdc-patinprinting1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/e91237aeb892b2cf08b238a08e2c9748-patinprinting2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-patin-printing-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-patin-printing-darknite
+
+---
+assetId: nofunk-patin-printing-darknite
+version: "1.0"
+lastModified: "2014-02-04T01:35:04Z"
+url: https://community.simtropolis.com/files/file/29249-patin-printing/?do=download&r=123403
+
+---
+assetId: nofunk-patin-printing-maxisnite
+version: "1.0"
+lastModified: "2014-02-04T01:35:04Z"
+url: https://community.simtropolis.com/files/file/29249-patin-printing/?do=download&r=123404

@@ -152,4 +152,46 @@ describe('#patchMetadata()', function() {
 
 	});
 
+	it('removes check checksum from external assets', function() {
+
+		let metadata = {
+			package: {
+				group: 'smf-16',
+				name: 'some-dll',
+				subfolder: '200-residential',
+				info: {
+					summary: 'Some Building',
+				},
+				dependencies: [
+					'memo:submenus-dll',
+				],
+			},
+			assets: [
+				{
+					assetId: 'smf-16-some-dll',
+					lastModified: '2025-01-01T00:00:00Z',
+					url: 'https://www.simtropolis.com/files/file/123-smf-16-some-dll?do=download',
+					withChecksum: [
+						{
+							include: '/cheats.dll',
+							sha256: '54a256',
+						},
+					],
+				},
+			],
+		};
+
+		let { assets } = patchMetadata(metadata, {
+			url: 'https://github.com/smf16/dlls/releases/1.0.0/asset.zip',
+		});
+		let [asset] = assets;
+		expect(asset).to.eql({
+			assetId: 'smf-16-some-dll',
+			lastModified: '2025-01-01T00:00:00Z',
+			url: 'https://github.com/smf16/dlls/releases/1.0.0/asset.zip',
+			nonPersistentUrl: 'https://www.simtropolis.com/files/file/123-smf-16-some-dll?do=download',
+		});
+
+	});
+
 });

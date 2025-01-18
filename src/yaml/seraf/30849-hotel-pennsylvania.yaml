@@ -1,0 +1,54 @@
+group: seraf
+name: hotel-pennsylvania
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Hotel Pennsylvania
+  description: |-
+    Hotel Pennsylvania - designed by McKim, Mead and White and completed in 1919. With 2200 rooms it was claimed to be the largest hotel in the world.
+
+    The BAT has a special version for winter, it will appear when game date will reach 15th of Dec.
+
+    **Lot size**: 4x8
+
+    **Versions**: 2
+
+    \- Plop CS$$
+
+    \- Landmark
+
+    **Dependencies:**
+
+    SimFox Day n Nite Modd (For DarkNite Version only)
+
+    NYBT Essentials
+
+    Thanks to all people who helped with this BAT.
+
+    Enjoy! ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif ":)")
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/30849-nybt-hotel-pennsylvania/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_11/Screen.png.82ccb6b8fdddf2043a26217cc5d4f204.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-hotel-pennsylvania
+        exclude:
+          - /NYBT_HotelPennsylvania_DN_Seraf/
+          - Winter
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-hotel-pennsylvania
+        exclude:
+          - /NYBT_HotelPennsylvania_MN_Seraf/
+          - Winter
+
+---
+assetId: seraf-hotel-pennsylvania
+version: "1.0"
+lastModified: "2015-11-23T16:29:25Z"
+url: https://community.simtropolis.com/files/file/30849-nybt-hotel-pennsylvania/?do=download&r=159789

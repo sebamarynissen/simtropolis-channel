@@ -1,0 +1,46 @@
+group: seraf
+name: city-hall-park-fountain
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: City Hall Park Fountain
+  description: |-
+    **City Hall Park Fountain** - Built it 1871 from the designs of Jacob Wrey Mould in the New York's City Hall Park. In 1920 the fountain was moved to Bronx, it was restored (along with original gas lamps) and returned to its original site in 1999.
+
+    The BAT is exported in HD and has a special version for winter.
+
+    **Lot size**: 1x1
+
+    **Dependencies:**
+
+    SimFox Day n Nite Modd (For DarkNite Version only)
+
+    NYBT Essentials
+
+    Thanks to all people who helped with this BAT.
+
+    Enjoy! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/29887-city-hall-park-fountain/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/7c97659191d6ca20a2bc44f1f4412228-screen.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-city-hall-park-fountain
+        exclude:
+          - /NYBT_CityHallParkFountain_DN_Seraf/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-city-hall-park-fountain
+        exclude:
+          - /NYBT_CityHallParkFountain_MN_Seraf/
+
+---
+assetId: seraf-city-hall-park-fountain
+version: "1.0"
+lastModified: "2014-09-06T21:12:06Z"
+url: https://community.simtropolis.com/files/file/29887-city-hall-park-fountain/?do=download&r=141711

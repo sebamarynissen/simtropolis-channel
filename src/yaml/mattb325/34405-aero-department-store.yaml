@@ -1,0 +1,91 @@
+group: mattb325
+name: aero-department-store
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Aero Department Store
+  description: |-
+    **Aero Department Store, by Mattb325.  
+    \---------------------------------------**
+
+    An example of high street commercial buildings which have had a major facade update, Aero department store is a five floor luxury department store.
+
+    The facade has been clad in a decorative gold screen with a modern and eye-catching floral motif.
+
+    It is offered as a growable medium wealth commercial services and commercial offices building on a 4x3 (more suited to urban set-ups) and a 6x6 lot suited to suburban areas. To avoid weediness, it grows on the modern Houston and Euro Tilesets.
+
+    If you wish to make this ploppable, I suggest downloading Buggis extra cheats which will make this (and everything else in your plugins) available to plop from a drop-down list.
+
+    **\---------------------------------------**
+
+    **STATS CS$$$:**
+
+    Lot size :                  4x3 and 6x6  
+    Growth Stage:         3 & 1 (Low, Medium and High Density)  
+    Bulldoze Cost:         $ 330  
+    Capacity Satisfied:  CS$ 1419, CS$$ 357, CS$$$ 145  
+    Pollution:                  9 (Air)/ 6 (Water)/ 12 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  40 Mwh  
+    Water Consumed:   360 Gal/Month  
+    Building Style:          Houston and Euro  
+    Occupant Group:     High Wealth CS  
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \* SHK Parking Pack: [https://community.simtropolis.com/files/file/27563-shk-parking-pack/](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    **EITHER**  
+    \* [Mattb325 Urban Civics Vol1 DARK NITE](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/96-mattb325-urban-civics-prop-pack-vol01-darknite)  
+    **OR**  
+    \* [Mattb325 Urban Civics Vol01 MAXIS NITE](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/97-mattb325-urban-civics-prop-pack-vol01-maxisnite)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Staff Edit: Updated dependencies link
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34405-aero-department-store/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero.jpg.410c9c06a85969ea387658f5edd9f805.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero1.jpg.805d4f94c8e7ea400a757c23a8ac005c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero2.jpg.541fda924c48f7343d980eb775798241.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero3.jpg.fcd0366f9b50fbd1a830ec878d4cc6fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero4.jpg.adeb7e7869ea8103e64bc4e609cc3545.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero5.jpg.b25c7aeb31cae4e415541e2bc00212b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero6.jpg.f8774db2f993ee2b47f8bbfd7ff37478.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Aero7.jpg.0071970d660be20d44f20a5f71ef1b0b.jpg
+dependencies:
+  - mattb325:urban-civics-prop-pack-vol01
+  - shk:parking-pack
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-aero-department-store-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-aero-department-store-darknite
+
+---
+assetId: mattb325-aero-department-store-darknite
+version: "1.0.0"
+lastModified: "2021-04-24T00:57:30Z"
+url: https://community.simtropolis.com/files/file/34405-aero-department-store/?do=download&r=187618
+
+---
+assetId: mattb325-aero-department-store-maxisnite
+version: "1.0.0"
+lastModified: "2021-04-24T00:57:30Z"
+url: https://community.simtropolis.com/files/file/34405-aero-department-store/?do=download&r=187619

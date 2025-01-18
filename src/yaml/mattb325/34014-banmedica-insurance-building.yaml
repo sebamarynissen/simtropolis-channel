@@ -1,0 +1,83 @@
+group: mattb325
+name: banmedica-insurance-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Banmedica Insurance Building
+  description: |-
+    **Banmedica Insurance, by Mattb325.  
+    \---------------------------------------**
+
+    This unusually shaped skyscraper was first posted in the BAT request thread.
+
+    The Banmedica Health Insurance building (*Torre Banmedica*) is located in Las Condes, Santiago. I liked the unusual shapes and massing of this modernist building as well as the eye-catching brise-soleil that grace an entire elevation and exentuate the curve of the building.
+
+    It is offered as a high wealth, high density Commercial Offices Building on a 4x4 corner lot. This should help ensure that it doesn't become too weedy...but weediness of course depends on what else you have in your plugins.
+
+    It grows on all tilesets and employs 2,229 sims. It is suitable for CAM and non-CAM cities alike.
+
+    If you want to make this a ploppable, I would suggest using Buggis extra cheats which will enable you to select this (and indeed any other building in your plugins - including maxis content) from a drop down list.
+
+    **\---------------------------------------**
+
+    **STATS CO$$$:**
+
+    Lot size :                   4x4  
+    Growth Stage:          6 (High Density)  
+    Bulldoze Cost:          $1,337  
+    Capacity Satisfied:  CO$$ 3,186; CO$$$ 2,229  
+    Pollution:                  13 (Air)/ 13 (Water)/ 5 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  90 Mwh  
+    Water Consumed:   970 Gal/Month  
+    Building Style:          Chicago, New York, Houston and Euro  
+    Occupant Group:     High Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34014-banmedica-insurance-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/Banmedica.jpg.225e547c8ab1539043f2009a2037ac81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/Banmedica1.jpg.af6afea3538eed0a9b9c23305af38eeb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/Banmedica2.jpg.712510a79a2b97b3a5e556eea8f9ba32.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/Banmedica3.jpg.5f2e3d7e9a3b73bd97ee6206f22b65ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/Banmedica4.jpg.c243219f34e7454e4d79bf3d78adb05e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/Banmedica5.jpg.79b319336e87c6d3592165cc4d221353.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-banmedica-insurance-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-banmedica-insurance-building-darknite
+
+---
+assetId: mattb325-banmedica-insurance-building-darknite
+version: "1.0.0"
+lastModified: "2020-12-27T00:35:20Z"
+url: https://community.simtropolis.com/files/file/34014-banmedica-insurance-building/?do=download&r=184264
+
+---
+assetId: mattb325-banmedica-insurance-building-maxisnite
+version: "1.0.0"
+lastModified: "2020-12-27T00:35:20Z"
+url: https://community.simtropolis.com/files/file/34014-banmedica-insurance-building/?do=download&r=184265

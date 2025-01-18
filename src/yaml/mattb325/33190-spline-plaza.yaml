@@ -1,0 +1,100 @@
+group: mattb325
+name: spline-plaza
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Spline Plaza
+  description: |-
+    **Plaza with Spline Motif, by Mattb325.  
+    \---------------------------------------**
+
+    A series of 6x6 sunken plazas which are suitable for downtown environments.
+
+    I have made and modded these in such a way that the entire modelled plaza base behaves like in game ground textures, and it can receive shadows and light from other surrounding objects.
+
+    These plazas are made to emulate the typical, designed and considered space where stressed out office workers go to relax and eat lunch.
+
+    The design of each space is quite boldly geometric and draws heavily on repetition of elements as well as asymmetrically balanced visual weight to create a pleasingly simple impact.
+
+    The elements of each of the plaza are simple enough - paving, a change in levels, grass/ground cover areas, sculptures, lights, benches and water - but are arranged in such a way as to draw the eye through, in and around the space.
+
+    Each of the plazas comes with three lotted options which should cover the bulk of how many people play the game, while limiting the number of dependencies.
+
+    The three options are:   
+    1) Temperate, with deciduous trees that change with the seasons;  
+    2) Mediterranean, with drought tolerant trees and shrubs which remain evergreen; and,  
+    3) Tropical, with palm trees.
+
+    Each option is clearly labelled. You can keep one or all depending on your preferences, and you can use all three options at once. Each has a unique description and icon to easily identify it in the parks menu.
+
+    These plazas were essentially designed as a stand-alone element, but each is readily modular, not only with itself, but also with the other plaza sets in the series as is seen by the screen shots.
+
+    Placing these plazas has a strong YIMBY effect for High wealth Commercial Buildings (helping you build and maintain a skyscraper CBD) plus they have a park effect, so Medium and High Wealth Residences will also want to grow nearby, and, they relieve Residential caps to the tune of 40,000 in each of the wealth categories to really help grow your city.
+
+    **\---------------------------------------**
+
+    **STATS PLAZA:**
+
+    Lot size :                 6x6    
+    Plop Cost:               § 500  
+    Bulldoze Cost:        § 60  
+    Demand Satisfied: R§ 40,000, R§§ 40,000, R§§§ 40,000  
+    Pollution:                 0 (Air)/ 0 (Water)/ 0 (Garbage )  
+    Pollution Radius:    0/0/0  
+    Park Effect:             50 over 60 tiles  
+    Landmark Effect:   180 over 20 tiles  
+    Monthly cost:          § 40  
+    Power Consumed:  0 Mwh  
+    Water Consumed:   0 Gal/Month  
+    Occupant Group:     Building: Civic; Building: Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    As these plazas are designed to emulate in game textures to receive shadows and light, the same model will work in either Maxis or Dark night situations.
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following very commonly used files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*Mattb325 BAT Props Vol02: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))  
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33190-spline-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline.jpg.0066a4b2026da7130c318f2d6a57b721.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline_Modular.jpg.a4a41342f930506b42e82412969c7301.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline_nite.jpg.31e0d10ae47aa9bb21861827bfce69ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline_Scene.jpg.87231700f60656e793d65dc129f9eada.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline_Scene1.jpg.8fbc6a6cea02b47f9837abe507ece06a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline1.jpg.f7cf3f5cce5a4e6054ab7c5fd910134c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline2.jpg.ad7ff5ff05bd41bb815ef5df0df53bb6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline3.jpg.cd66d3455914b4676acf1d60a6b10ddf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline4.jpg.4fa3fa064ccbea13b07f150c0c328135.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline5.jpg.4da2715388882366d201bade9beae900.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Spline6.jpg.21373828cd52bee7d7b47804290c45dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Z_Modular_all.jpg.d92594b79afd88cd2b0abaa7fdd4e6d4.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+assets:
+  - assetId: mattb325-spline-plaza
+
+---
+assetId: mattb325-spline-plaza
+version: "1.0.0"
+lastModified: "2019-09-22T02:25:43Z"
+url: https://community.simtropolis.com/files/file/33190-spline-plaza/?do=download&r=177964

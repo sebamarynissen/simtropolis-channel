@@ -1,0 +1,55 @@
+group: nofunk
+name: slow-s-to-go
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Slow's To Go
+  description: |-
+    *The Barry Sanders Project is now [mipro](https://community.simtropolis.com/topic/60777-mipro/)!*
+
+    Established in 2005 by male-model-turned-restaurateur Phil Cooley, the original Slow's Bar BQ is a popular restaurant in Detroit's Corktown neighborhood that has been cited by many as helping to revitalize the area. A couple years later this take-out and catering location opened in the city's Midtown area. Its sandwich "The Yardbird" was voted by Man vs. Food's Adam Richman as one of the best sandwiches in America in 2012.
+
+    Slow's To Go is located at the corner of Cass Avenue and Alexandrine Street in a renovated Art Deco building in Detroit's Midtown.
+
+    Dependencies: Requires [**mipro Essentials** December 2013](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+
+    • 1x3 and 2x3 growable and ploppable. Grows in New York tileset only.
+
+    • Provides 25 CS$$ jobs for your city.
+
+    • Available in both MaxisNite and Darknite.
+
+    • DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    ![kUuQYWA.jpg](http://i.imgur.com/kUuQYWA.jpg)
+
+    [mipro Forum Thread](https://community.simtropolis.com/topic/60777-mipro/)
+
+    [mipro STEX Uploads](https://community.simtropolis.com/tags/downloads/mipro/)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/29136-slows-to-go/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/1d78475c2033bba47866f69221249e0b-slowstogo_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/bce3b2661d038e98f89e2baac72e63f4-slowstogo_stex2.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-slow-s-to-go-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-slow-s-to-go-darknite
+
+---
+assetId: nofunk-slow-s-to-go-darknite
+version: "1.0"
+lastModified: "2013-12-21T02:50:02Z"
+url: https://community.simtropolis.com/files/file/29136-slows-to-go/?do=download&r=121959
+
+---
+assetId: nofunk-slow-s-to-go-maxisnite
+version: "1.0"
+lastModified: "2013-12-21T02:50:02Z"
+url: https://community.simtropolis.com/files/file/29136-slows-to-go/?do=download&r=121960

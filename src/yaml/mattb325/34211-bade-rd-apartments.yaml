@@ -1,0 +1,84 @@
+group: mattb325
+name: bade-rd-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Bade Rd Apartments
+  description: |-
+    **Bade Rd Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    This modern apartment block from Taiwan was made as a request.
+
+    While this 15 story apartment may seem conventional at the front with two-toned render and curved balconies, the side elevation features tetris-like, multi-toned panels which hide the more mundane aspects of apartment construction such as kitchen and bathroom windows.
+
+    In the real life version, these panels are quite pronounced, but I have pared them back for SC4. There is also a communal rooftop garden to give your cities a bit of green-space feeling.
+
+    In game, these apartments house 404 medium wealth sims.
+
+    They grow on a 2x2 left-hand corner lot on the Houston tileset only.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    Stats below.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :                   2x2  
+    Growth Stage:         6 (Medium & High Density Zoning)  
+    Bulldoze Cost:         $170  
+    Capacity Satisfied:  R$ 729 R$$ 404  
+    Pollution:                  3 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  6 Mwh  
+    Water Consumed:   16 Gal/Month  
+    Building Style:          Houston  
+    Occupant Group:     Low Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34211-bade-rd-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/BadeRd.jpg.4c6c975c40c2c237e6f6ec91d9e3e673.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/BadeRd1.jpg.2c080965aeba5fba4a9e65de1d6a01c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/BadeRd2.jpg.083f4523baa6324804918cd7db0ec2d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/BadeRd3.jpg.0db4f227b34d2799615777b455e27906.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/BadeRd4.jpg.08a421ee7999fa28b6356a72ca6463d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/BadeRd5.jpg.e896f1e0084f266b6b81532a4258a9d6.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-bade-rd-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-bade-rd-apartments-darknite
+
+---
+assetId: mattb325-bade-rd-apartments-darknite
+version: "1.0.0"
+lastModified: "2021-03-03T19:23:13Z"
+url: https://community.simtropolis.com/files/file/34211-bade-rd-apartments/?do=download&r=185890
+
+---
+assetId: mattb325-bade-rd-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2021-03-03T19:23:13Z"
+url: https://community.simtropolis.com/files/file/34211-bade-rd-apartments/?do=download&r=185891

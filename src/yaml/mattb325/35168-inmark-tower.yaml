@@ -1,0 +1,82 @@
+group: mattb325
+name: inmark-tower
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Inmark Tower
+  description: |-
+    **Inmark Tower, by Mattb325.  
+    \---------------------------------------**
+
+    Though fictional, this design for a 36 floor apartment complex suitable for inner-city areas draws heavy inspiration from an apartment tower in Sydney's CBD.
+
+    The footprint is the classic 4x4 to ensure that when conditions are right, there is little required to get it to grow apart from zoning high density residential. Obviously holding the CTRL key while zoning will assist in growth, but it isn't essential.
+
+    The building itself consists of grid-busting angles and differently arranged podiums to ensure that when it does grow, it will make an impression on the skyline.
+
+    It is offered as an R$$ apartment housing 3,010 sims on the Houston, New York and Euro tilesets.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS R$$ apartments:**
+
+    Lot size :                  4x4  
+    Growth Stage:         8 (High Density Zoning)  
+    Bulldoze Cost:         $ 1,925  
+    Capacity Satisfied:  R$ 5,450 R$$ 3,010  
+    Pollution:                  24 (Air)/ 12 (Water)/ 12 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  40 Mwh  
+    Water Consumed:   106 Gal/Month  
+    Building Style:           New York, Houston and Euro  
+    Occupant Group:      Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/35168-inmark-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark.jpg.82cd6852f34cdeddb61569e8e7e68ed3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark1.jpg.c6bea92e2babc0324b03bafab43e39dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark2.jpg.44f11dbd146ee646b9f52dcb807bab35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark3.jpg.ff4cbee0cab3c01e817a4953d9de4e93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark4.jpg.fba5793e0a7c79c45ebf64568dd957bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark5.jpg.dc2a3a286bc5b1b1cb203a9c8d1edcbd.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-inmark-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-inmark-tower-darknite
+
+---
+assetId: mattb325-inmark-tower-darknite
+version: "1.0.0"
+lastModified: "2022-04-30T22:01:01Z"
+url: https://community.simtropolis.com/files/file/35168-inmark-tower/?do=download&r=194019
+
+---
+assetId: mattb325-inmark-tower-maxisnite
+version: "1.0.0"
+lastModified: "2022-04-30T22:01:01Z"
+url: https://community.simtropolis.com/files/file/35168-inmark-tower/?do=download&r=194020

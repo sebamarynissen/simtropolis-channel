@@ -1,0 +1,52 @@
+group: nofunk
+name: lindsay-bros
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Lindsay Bros
+  description: |-
+    Lindsay Bros. was founded in 1884 and eventually became one of the largest manufacturers of agricultural implements in the United States. In 1892, the company constructed this factory building in Milwaukee, Wisconsin. The building still stands in the city's Walker's Point neighborhood.
+
+    This lot is wall-to-wall and modded for industrial (I-m), but would look right at home in a grittier commercial district as well.
+
+    -   7x3 growable and ploppable I-m lots
+    -   Provides 348 jobs
+    -   MaxisNite and DarkNite versions included
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Installation Instructions:
+
+    1\. Download either the DarkNite OR MaxisNite version. If you are unsure, choose the MaxisNite version. Attempting to use both versions in your Plugins at the same time may cause conflicts.
+
+    2\. Unzip the .zip and move its contents into your Documents > SimCity4 > Plugins folder.
+
+    3\. Enjoy!
+
+    \-  
+    Comments, questions, or issues? Check out [my BAT thread](https://community.simtropolis.com/forums/topic/13203-nofunks-bat-thread/).
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/31484-lindsay-bros/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/lindsay-bros1.jpg.417dba6a456ceed37ae06badfd8df120.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/lindsay-bros2.jpg.a670237ca00f8584f6b44bc412451d2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/lindsay-bros3.jpg.4c12be1c432327263b2398851f0eb26a.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-lindsay-bros-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-lindsay-bros-darknite
+
+---
+assetId: nofunk-lindsay-bros-darknite
+version: "1.0"
+lastModified: "2017-02-27T02:02:13Z"
+url: https://community.simtropolis.com/files/file/31484-lindsay-bros/?do=download&r=164726
+
+---
+assetId: nofunk-lindsay-bros-maxisnite
+version: "1.0"
+lastModified: "2017-02-27T02:02:13Z"
+url: https://community.simtropolis.com/files/file/31484-lindsay-bros/?do=download&r=164727

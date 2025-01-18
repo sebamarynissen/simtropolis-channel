@@ -1,0 +1,51 @@
+group: nofunk
+name: water-street-brewery
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Water Street Brewery
+  description: |-
+    Located on the corner of Water and Highland, Milwaukee's first brew pub has been a downtown landmark since 1987. Add Water Street Brewery to your city today!
+
+    -   1x2 growable and ploppable CS$$
+    -   Provides 12 CS$$ jobs
+    -   MaxisNite and DarkNite versions included
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Installation Instructions:
+
+    1\. Download either the DarkNite OR MaxisNite version. If you are unsure, choose the MaxisNite version. Attempting to use both versions in your Plugins at the same time may cause conflicts.
+
+    2\. Unzip the .zip and move its contents into your Documents > SimCity4 > Plugins folder.
+
+    3\. Enjoy!
+
+    \-  
+    Comments, questions, or issues? Check out [my BAT thread](https://community.simtropolis.com/forums/topic/13203-nofunks-bat-thread/).
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/31670-water-street-brewery/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/water-street-brewery1.jpg.431d3aac771f615dab0a075402a9822e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/water-street-brewery2.jpg.b016872bd6676ab0e87c95e77671fc09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/water-street-brewery3.jpg.465a8d6c650372531957718fca884892.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/water-street-brewery4.jpg.2ec3ec34c0a5de95a9a3b73c7b006a90.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-water-street-brewery-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-water-street-brewery-darknite
+
+---
+assetId: nofunk-water-street-brewery-darknite
+version: "1.0"
+lastModified: "2017-05-31T00:11:23Z"
+url: https://community.simtropolis.com/files/file/31670-water-street-brewery/?do=download&r=166139
+
+---
+assetId: nofunk-water-street-brewery-maxisnite
+version: "1.0"
+lastModified: "2017-05-31T00:11:23Z"
+url: https://community.simtropolis.com/files/file/31670-water-street-brewery/?do=download&r=166140

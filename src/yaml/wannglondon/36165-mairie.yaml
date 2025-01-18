@@ -1,0 +1,28 @@
+group: wannglondon
+name: mairie
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Mairie
+  description: |-
+    An administrative mairie inspired by those found around Paris's many arrondissements which functions as an in-game city hall. You are able to plop this multiple times.
+
+    \- 3x3 lot reward
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36165-mairie/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Mairie.jpg.7e050461a16f20b92a556fbd6a279ad2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-mairie-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-mairie-darknite
+
+---
+assetId: wannglondon-mairie-darknite
+version: "1.0.0"
+lastModified: "2024-03-08T00:12:57Z"
+url: https://community.simtropolis.com/files/file/36165-mairie/?do=download&r=200638

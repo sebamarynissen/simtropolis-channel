@@ -1,0 +1,43 @@
+# The refuse relocation kit dependency is an .exe installer that can't be 
+# handled by sc4pac, neither cicdec. That's unfortunate, this would be a great 
+# plugin to have.
+# group: nbvc
+# name: garbage-disposal-facilities
+# version: "1.0"
+# subfolder: 700-transit
+# info:
+#   summary: Garbage Disposal Facilities
+#   description: |-
+#     The file contains four garbage disposal facilities.
+
+#     -   Large Recycling Center (Capacity 50000, Monthly coast 400)
+#     -   Small Garbage Disposal Yard (Capacity 5000, Monthly coast 50)
+#     -   Garbage Disposal Facility. (Capacity 50000, Monthly coast 400, Rail access)
+#     -   Garbage Disposal Facility. (Capacity 45000, Monthly coast 350, Single track rail access)
+
+#     You can use the props in this file for your own custom lots.
+
+#     Dependencies:
+
+#     [PEG Refuse Relocation Kit](https://community.simtropolis.com/files/file/11129-peg-refuse-relocation-kit/)
+
+#     Single Track Rail (only for the garbage disposal with single track rail access) **[Network Addon Mod](https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-for-windows-installer/)** (most probably, since the RAM now is part of the **NAM**)
+
+#     [Maxis Buildings as Props](http://www.simcityplaza.de/index.php/tools-und-andere-downloads/offizielle-downloads/file/446-buildings-as-props-von-maxis)
+
+#     Update 03.10.2019 - Fixed dependency link by **Tyberius06**
+#   author: nbvc
+#   website: https://community.simtropolis.com/files/file/28532-garbage-disposal-facilities/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_03_2013/beb647f9c92a9eaec910c3d26072cdd4-garbagedisposal1.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_03_2013/938ddaec43e06c2df373faca5c079ff7-garbagedisposal2.jpg
+# dependencies:
+#   - '"[PEG Refuse Relocation Kit](https://community.simtropolis.com/files/file/11129-peg-refuse-relocation-kit/)"'
+# assets:
+#   - assetId: nbvc-garbage-disposal-facilities
+
+# ---
+# assetId: nbvc-garbage-disposal-facilities
+# version: "1.0"
+# lastModified: "2013-03-03T16:13:55Z"
+# url: https://community.simtropolis.com/files/file/28532-garbage-disposal-facilities/?do=download&r=112631

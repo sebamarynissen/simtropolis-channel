@@ -1,0 +1,86 @@
+group: mattb325
+name: daiwa-house-tokyo
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Daiwa House, Tokyo
+  description: |-
+    **Daiwa House, by Mattb325.  
+    \---------------------------------------**
+
+    This detailed skyscraper first appeared as an unfinished project in the 'Ones That Never Made It To The STEX' thread.
+
+    Daiwa House is a smaller skyscraper located in Tokyo that used to house the Japan Rail Freight offices.
+
+    I liked the various forecourt and pedestrian/underground parking space areas, and I have also given the podium roof a green-space treatment (this area of the  building has a more Japanese style "karesansui" garden, but raked pebbles and little stones won't work at the small SC4 scale) that makes the building equally suited to either Japanese-styled cities or Western-styled ones.
+
+    It should also complement the series of other Japanese buildings I have made.
+
+    The building is offered as a high wealth, high density Commercial Offices Building on a 4x4 lot.
+
+    It grows on all tilesets and employs 2,255 sims. It is suitable for CAM and non-CAM cities alike.
+
+    If you want to make this a ploppable, I would suggest using Buggis extra cheats which will enable you to select this (and indeed any other building in your plugins - including maxis content) from a drop down list.
+
+    **\---------------------------------------**
+
+    **STATS CO$$$:**
+
+    Lot size :                 4x4  
+    Growth Stage:        7 (High Density)  
+    Bulldoze Cost:        $1,144  
+    Capacity Satisfied: CO$$ 3,223; CO$$$ 2,255  
+    Pollution:                 13 (Air)/ 13 (Water)/ 5 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 91 Mwh  
+    Water Consumed:  981 Gal/Month  
+    Building Style:         Chicago, New York, Houston and Euro  
+    Occupant Group:    High Wealth CO, BSC, BSC\-Mattb325
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34025-daiwa-house-tokyo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Daiwa.jpg.cc38a016f7ae79a97b2c0ac23d7a24ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Daiwa1.jpg.6067a96c74813319e2b2ad25318e6ccf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Daiwa2.jpg.63c6082d5de6ad412d3c72e21b359758.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Daiwa3.jpg.c29eaded7d7e15d39d689e0c38c1d29f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Daiwa4.jpg.d3fd5d5918e1b8ce4230487923bac158.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-daiwa-house-tokyo-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-daiwa-house-tokyo-darknite
+
+---
+assetId: mattb325-daiwa-house-tokyo-darknite
+version: "1.0.0"
+lastModified: "2021-01-01T21:13:45Z"
+url: https://community.simtropolis.com/files/file/34025-daiwa-house-tokyo/?do=download&r=184344
+
+---
+assetId: mattb325-daiwa-house-tokyo-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-01T21:13:45Z"
+url: https://community.simtropolis.com/files/file/34025-daiwa-house-tokyo/?do=download&r=184345

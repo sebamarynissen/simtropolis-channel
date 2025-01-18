@@ -2,12 +2,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'yaml';
-import { kFileNames } from './symbols.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
 import apiToMetaData from './api-to-metadata.js';
 import completeMetadata from './complete-metadata.js';
 import Downloader from './downloader.js';
+import generateVariants from './generate-variants.js';
+import splitPackage from './split-package.js';
 
 // # fetchAll()
 // Function that fetches an array of urls from Simtropolis and generates all the 
@@ -43,13 +44,17 @@ export default async function fetchAll(urls, opts = {}) {
 		let cleaned = permissions.transform(upload);
 		let metadata = apiToMetaData(cleaned);
 		for (let asset of metadata.assets) {
-			let info = await downloader.handleAsset(asset);
-			asset[kFileNames] = info.files;
+			await downloader.handleAsset(asset);
 		}
 		await completeMetadata(metadata, upload);
+		await generateVariants(metadata);
+		let packages = [metadata.package];
+		if (opts.split) {
+			packages = await splitPackage(metadata);
+		}
 		result.push({
 			id: upload.id,
-			metadata: [metadata.package, ...metadata.assets],
+			metadata: [...packages, ...metadata.assets],
 		});
 	}
 	return result;

@@ -1,0 +1,68 @@
+group: agc
+name: pump-track
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Pump Track
+  description: |-
+    **Specs**:
+
+    The file contains an 3x4 lot (You can put mmp's around the model).
+
+    **Night:**
+
+    Darknite & Maxisnite
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Parks\_Pump\_Track\_V01\_S1\_90
+
+    **Ubication:** Parks.
+
+    **Icon:** ![Pump_Track_1_icon.png.f9b4bf5fae502cc375d097417c089c56.png](https://www.simtropolis.com/objects/attachments/monthly_2023_12/Pump_Track_1_icon.png.f9b4bf5fae502cc375d097417c089c56.png)
+
+    **Scale of the models:** **133% on all axes.**
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    [https://community.simtropolis.com/files/file/34720-agc-environment-dlc/?do=embed](https://community.simtropolis.com/files/file/34720-agc-environment-dlc/?do=embed)
+    \-------------------------------------------------------------------------------------------------------
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use Paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/35894-agc-pump-track/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6589fa866cc0a_image(21).png.d64d49c70037905cc4c514118db8546a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6589fa9b126ef_image(16).png.8779f5068f7e870d22a665e28093ead5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6589fab9f2609_image(17).png.668ec12c26bb9c1c7feee370b6aaf878.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6589fabfde6cd_image(18).png.e2bce0e7a38b8fae0f48b6569f9f1bfa.png
+dependencies:
+  - agc:environment-dlc-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-pump-track-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-pump-track-darknite
+
+---
+assetId: agc-pump-track-darknite
+version: "1.0.0"
+lastModified: "2023-12-25T22:01:59Z"
+url: https://community.simtropolis.com/files/file/35894-agc-pump-track/?do=download&r=198950
+
+---
+assetId: agc-pump-track-maxisnite
+version: "1.0.0"
+lastModified: "2023-12-25T22:01:59Z"
+url: https://community.simtropolis.com/files/file/35894-agc-pump-track/?do=download&r=198951

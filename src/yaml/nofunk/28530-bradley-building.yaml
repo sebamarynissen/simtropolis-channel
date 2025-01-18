@@ -1,0 +1,42 @@
+group: nofunk
+name: bradley-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bradley Building
+  description: |-
+    The Bradley Building is a multiple floor department store that will provide your sims with all the latest fashions, at affordable prices! Wall-to-wall in both directions, the Bradley Building will cap off any premier shopping district with style!
+
+    -   This is a 2x3, stage 6 Cs$$ for the Chicago tileset that provides 378 jobs.  
+        
+    -   Available in both MaxisNite and DarkNite.  
+        
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+        
+
+    ![gxnnZa5.jpg](http://i.imgur.com/gxnnZa5.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/28530-bradley-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/ff274c75fefd003b3f9d8c046985ed4c-bradley_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/fd835997255e102332848bfa38bc5770-bradley_stex2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bradley-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bradley-building-darknite
+
+---
+assetId: nofunk-bradley-building-darknite
+version: "1.0"
+lastModified: "2013-03-03T03:27:29Z"
+url: https://community.simtropolis.com/files/file/28530-bradley-building/?do=download&r=112597
+
+---
+assetId: nofunk-bradley-building-maxisnite
+version: "1.0"
+lastModified: "2013-03-03T03:27:29Z"
+url: https://community.simtropolis.com/files/file/28530-bradley-building/?do=download&r=112598

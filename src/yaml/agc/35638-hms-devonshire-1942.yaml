@@ -1,0 +1,68 @@
+group: agc
+name: hms-devonshire-1942
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: HMS Devonshire 1942
+  description: |-
+    **History:**  
+    HMS Devonshire, pennant number 39, was a County-class heavy cruiser of the London sub-class built for the Royal Navy in the late 1920s. The ship spent most of her pre-World War II career assigned to the Mediterranean Fleet aside from a brief tour with the China Station. She spent the first two months of the Second World War in the Mediterranean until she was transferred to the Home Fleet and became flagship of a cruiser squadron. Devonshire took part in the Norwegian Campaign in mid 1940 and evacuated much of the Norwegian Government in June. Several months later, she participated in the Battle of Dakar, a failed attempt to seize the Vichy French colony of Senegal in September. The ship remained in the South Atlantic afterwards and supported Free French efforts to take control of French Equatorial Africa in addition to searching for German commerce raiders.
+
+    Devonshire returned home in early 1941 and briefly rejoined the Home Fleet, during which time she escorted several aircraft carriers as they attacked German forces in Norway and Finland and covered the first convoy to the Soviet Union. Shortly afterwards, the ship was sent to the South Atlantic where she sank the auxiliary cruiser Atlantis. Devonshire was then assigned to the Eastern Fleet in the Indian Ocean and supported the Allied invasion of Madagascar in mid-1942. She then spent the next year escorting convoys before returning home to begin a lengthy refit. After it was completed in early 1944, the ship escorted various aircraft carriers for the rest of the war as they attacked targets in Norway.
+
+    **Specs:**
+
+    The file contains an 13x2 lot. You can plop in the water or on the ground (You can also use MMP under or around the model).
+
+    **Night versions:**
+
+    Includes Maxisnite & Darknite (Choose only one)
+
+    **Scale of the models:** **100% on all axes (Real World Scale).**
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Cruisers\_HMS\_Devonshire\_1942\_V100\_90
+
+    **Ubication:** Water transportation.
+
+    **Icon:** ![Brithish_Imperial_Flag_cruiser.png.f16f0a3636874247624004f89e6fcc94.png](https://www.simtropolis.com/objects/attachments/monthly_2023_09/Brithish_Imperial_Flag_cruiser.png.f16f0a3636874247624004f89e6fcc94.png)
+
+    All credits go to Wargaming
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use Paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to the few people who have donated to me.**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/35638-agc-hms-devonshire-1942/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/6512e979231da_image(8).png.92a38cc54dc0e35c2eb62756ba3c908c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/6512e9a5f334f_image(8).png.0eeca691df19b526e653e193250787c1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/6512e9c9982dc_image(9).png.31ef7c825f4ed011c562497a9a3be3fd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/6512e9ecf40c9_image(10).png.4519be22b41a446184ebe9a85226eff7.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-hms-devonshire-1942-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-hms-devonshire-1942-darknite
+
+---
+assetId: agc-hms-devonshire-1942-darknite
+version: "1.0.0"
+lastModified: "2023-09-26T14:32:53Z"
+url: https://community.simtropolis.com/files/file/35638-agc-hms-devonshire-1942/?do=download&r=197862
+
+---
+assetId: agc-hms-devonshire-1942-maxisnite
+version: "1.0.0"
+lastModified: "2023-09-26T14:32:53Z"
+url: https://community.simtropolis.com/files/file/35638-agc-hms-devonshire-1942/?do=download&r=197863

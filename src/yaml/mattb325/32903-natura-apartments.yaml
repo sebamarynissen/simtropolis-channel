@@ -1,0 +1,102 @@
+group: mattb325
+name: natura-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Natura Apartments
+  description: |-
+    **Natura Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    Purely fictional, these 18 story apartments are representative of many of the higher density modern apartment/condominium complexes that are popping up all around the world.
+
+    These apartments are designed for a corner lot and there is one lot for each rotation.
+
+    The lower floors have 8 studio and 1-bed apartments per floor while the middle and upper floors have 4 apartments per floor (each apartment occupies one corner each). The top floor is shared by two penthouse suites. All apartments have one to two balconies and the living areas, situated in the corner of the building have a full wall of glazing to enjoy views and natural light.
+
+    The lot size is a 3x3 and a 6x6 complex, rotated in both directions to cover both corners and makes for a nice apartment complex for between ~ 1,400-2,800 R§§ sims.
+
+    **\---------------------------------------**
+
+    **STATS R§§ 3x3:**
+
+    Lot size :                   3x3   
+    Growth Stage:          7 (Medium & High Density Zoning)  
+    Bulldoze Cost:          §1041   
+    Capacity Satisfied:  R§ 2,497, R§§ 1,380   
+    Pollution:                  11 (Air)/ 5 (Water)/ 5 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  19 Mwh  
+    Water Consumed:   51 Gal/Month  
+    Building Style:          Houston/Euro/NY/Chicago  
+    Occupant Group:     Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **STATS R§§ 6x6:**
+
+    Lot size :                   6x6   
+    Growth Stage:          6 (Medium & High Density Zoning)  
+    Bulldoze Cost:          §1041   
+    Capacity Satisfied:  R§ 4,991, R§§ 2,756  
+    Pollution:                  23 (Air)/ 11 (Water)/ 11 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  38 Mwh  
+    Water Consumed:   101 Gal/Month  
+    Building Style:          Houston/Euro/NY/Chicago  
+    Occupant Group:     Medium Wealth Residential Building  
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins (most people will have these already as they are commonly used):
+
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))  
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32903-natura-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Natura.jpg.5e45ebf9005b260ac3b7e33c8c733eab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Natura1.jpg.94bf50961bb8f17ce74bb32dad9b80f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Natura2.jpg.4250b204fed12e463d9dd2a5c78d7d38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Natura3.jpg.ab7a957138fbb711bceb72310f1e13b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Natura4.jpg.ee70acd5633bf03d5450af75883cca1c.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-natura-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-natura-apartments-darknite
+
+---
+assetId: mattb325-natura-apartments-darknite
+version: "1.0"
+lastModified: "2019-05-06T22:47:07Z"
+url: https://community.simtropolis.com/files/file/32903-natura-apartments/?do=download&r=175791
+
+---
+assetId: mattb325-natura-apartments-maxisnite
+version: "1.0"
+lastModified: "2019-05-06T22:47:07Z"
+url: https://community.simtropolis.com/files/file/32903-natura-apartments/?do=download&r=175792

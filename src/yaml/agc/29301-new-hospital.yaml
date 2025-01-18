@@ -1,0 +1,42 @@
+group: agc
+name: new-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: New Hospital
+  description: |-
+    This is a simple modification of a commercial building MAXIS, Hospital becomes 4x3. 
+
+    properties: 
+
+    \- Hospital patient: 5,700 
+
+    \- Hospital Radio coverage: 2000 
+
+    Dependencies (required): 
+
+    \- Bldgprop\_vol1.dat: [http://www.sc4devotion.com/maxis/bldgprop\_vol1.zip](http://www.sc4devotion.com/maxis/bldgprop_vol1.zip%C2%A0) 
+
+    \- Bldgprop\_vol2.dat: [http://www.sc4devotion.com/maxis/bldgprop\_vol2.zip](http://www.sc4devotion.com/maxis/bldgprop_vol2.zip%C2%A0) 
+
+    Images:
+
+    ![2zptbnl.jpg](http://i57.tinypic.com/2zptbnl.jpg)
+
+    ![ohs1n8.png](http://i57.tinypic.com/ohs1n8.png)
+
+    By SrJeff (Y)
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/29301-new-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/4743ac2644677885cc2d2decb93b9bc2-angulo2.png
+dependencies:
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: agc-new-hospital
+
+---
+assetId: agc-new-hospital
+version: "1.0"
+lastModified: "2014-02-25T22:50:37Z"
+url: https://community.simtropolis.com/files/file/29301-new-hospital/?do=download&r=125226

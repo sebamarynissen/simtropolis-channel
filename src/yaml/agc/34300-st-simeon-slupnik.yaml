@@ -1,0 +1,61 @@
+group: agc
+name: st-simeon-slupnik
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: St. Simeon Slupnik
+  description: |-
+    **History:**
+
+    Orthodox church of St. Simeon Slupnik of 1910 built in neo-Byzantine style. Dolhobyczow, Lublin Voivodeship, Poland.
+
+    **Specs**:
+
+    You can find the BAT in the lot editor as Building (The file does not include a lot).
+
+    **Night:**
+
+    Darknite
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Church\_Orthodox\_St-Simeon-Slupnik\_V01\_S1\_90    (Building)
+
+    **Scale of the model:** **133% on all axes.**
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (8) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34300-agc-st-simeon-slupnik/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/churchorn3.png.0937a393787153253887531eacbeb9c2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/churchorn2.png.6e95df076ac4728b7b02e4708f1ed7af.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/churchorn1.png.ce376dda3666a010f7675ae2aee495f9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/churchorn4.png.35f4936b44858dc785d7a3487559f006.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-st-simeon-slupnik-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-st-simeon-slupnik-darknite
+
+---
+assetId: agc-st-simeon-slupnik-darknite
+version: "1.0.0"
+lastModified: "2021-03-20T15:17:33Z"
+url: https://community.simtropolis.com/files/file/34300-agc-st-simeon-slupnik/?do=download&r=186456

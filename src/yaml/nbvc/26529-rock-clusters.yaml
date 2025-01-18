@@ -1,0 +1,46 @@
+group: nbvc
+name: rock-clusters
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Rock Clusters
+  description: |-
+    Rock clusters for mayor menu.
+
+    You can change the rocks with additional clicks on the same rock.
+
+    The rocks can also be used as props in the Lot-Editor for your custom lots.
+
+    No dependencies.
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/26529-rock-clusters/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/161acf2557f21a4604735effc93a4c0b-nbvc_rockcluster1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/c695e6ae5f0cb4044b4285322a2db989-nbvc_rockcluster2.jpg
+dependencies:
+  - nbvc:rock-clusters-props
+assets:
+  - assetId: nbvc-rock-clusters
+    include:
+      - \.dat$
+
+---
+group: nbvc
+name: rock-clusters-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Rock Clusters Props
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/26529-rock-clusters/
+assets:
+  - assetId: nbvc-rock-clusters
+    include:
+      - \.SC4Model$
+      - \.SC4Desc$
+
+---
+assetId: nbvc-rock-clusters
+version: "1.0"
+lastModified: "2011-07-17T16:04:24Z"
+url: https://community.simtropolis.com/files/file/26529-rock-clusters/?do=download&r=89288

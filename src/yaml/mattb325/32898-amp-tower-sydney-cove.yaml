@@ -1,0 +1,90 @@
+group: mattb325
+name: amp-tower-sydney-cove
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: AMP Tower Sydney Cove
+  description: |-
+    **AMP Tower Sydney Cove, by Mattb325.  
+    \---------------------------------------**
+
+    There are a number of 'AMP' branded buildings in Sydney, but this iconic tower in Sydney's Circular Quay ushered in the modern age for Sydney's skyscraper building.   
+    When this building was constructed in the early 1960's, it was more than twice the height of any other building in Sydney and permission to break ground required a intense lobbying from the late 1950's and a special bill to be passed in Parliament to allow construction to proceed. As part of the approval process, the building footprint was only permitted to occupy 55% of the site.
+
+    The tower has stood as the gateway to Sydney's CBD from the harbour for almost 70 years and has been heritage listed.
+
+    While I have modeled this reasonably accurately, as usual, I take artistic liberties as I see fit, so it is not a 100% recreation, but pretty close. I liked the building because it offers a slightly different elevation on each side and with its curved facade mirroring the curve of circular quay, it isn't the typical boring box skyscraper.
+
+    It is offered as a growable CO§§§ (which actually does grow) on a 4x4 lot for high density commercial zones and provides 2,237 high wealth jobs. If you wish to have a ploppable, simply use Buggis extra cheats to easily select this from the Buildingplop or Lotplop options.
+
+    **\---------------------------------------**
+
+    **STATS CO§§§:**
+
+    Lot size :                  4x4  
+    Growth Stage:         6 (High Density Zoning)  
+    Bulldoze Cost:         § 1,679  
+    Capacity Satisfied: CO§§§ 2,237, CO§§ 3,197  
+    Pollution:                 13 (Air)/ 13 (Water)/ 5 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 90 Mwh  
+    Water Consumed:  974 Gal/Month  
+    Building Style:         Chicago/NY/Houston/Euro  
+    Occupant Group:    High Wealth Commercial Offices Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins. **You only need one pack depending on whether you use Maxis Nite or Dark Nite****:**
+
+    \*Mattb325 Urban Civics Prop Pack Vol01 DARK NITE: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3710](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3710))
+
+    **OR**
+
+    \*Mattb325 Urban Civics Prop Pack Vol01 MAXIS NITE: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3709](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3709))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32898-amp-tower-sydney-cove/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/AMP.jpg.882c614c2cbf8a0c0c2bf43ed9051bf0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/AMP1.jpg.66c52b109a0b3526b48367066e7c93ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/AMP2.jpg.b5c915025a21ca6c5d5ecb74933bd723.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/AMP3.jpg.b922c2efbd43a0ac650cf10523da7a11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/AMP3a.jpg.c7fe2e67f73aceebe144f756b56df1f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/AMP4.jpg.f7fed756e04fb9b85f65e566803f682d.jpg
+dependencies:
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-amp-tower-sydney-cove-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-amp-tower-sydney-cove-darknite
+
+---
+assetId: mattb325-amp-tower-sydney-cove-darknite
+version: "1.0"
+lastModified: "2019-05-04T23:06:53Z"
+url: https://community.simtropolis.com/files/file/32898-amp-tower-sydney-cove/?do=download&r=175757
+
+---
+assetId: mattb325-amp-tower-sydney-cove-maxisnite
+version: "1.0"
+lastModified: "2019-05-04T23:06:53Z"
+url: https://community.simtropolis.com/files/file/32898-amp-tower-sydney-cove/?do=download&r=175758

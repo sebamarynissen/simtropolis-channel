@@ -14,9 +14,39 @@ export default function patchMetadata(
 	if (!patch || patch === true) {
 		return {
 			packages: [metadata.package],
+			assets: [...metadata.assets || []],
 			main: metadata.package,
 			basename: original.name,
 		};
+	}
+
+	// The patch might contain patches for both packages and assets. We need to 
+	// separate both to properly apply the patches.
+	let packagePatches = [];
+	let assetPatches = [];
+	[patch].flat().forEach(metadata => {
+		if (metadata.url) {
+			assetPatches.push(metadata);
+		} else {
+			packagePatches.push(metadata);
+		}
+	});
+
+	// If urls were specified for the assets, we have to update them because in 
+	// that case the Simtropolis url becomes the nonPersistentUrl.
+	let assets = [...metadata.assets || []];
+	if (assetPatches.length > 0) {
+		for (let i = 0; i < assets.length; i++) {
+			let patch = assetPatches[i];
+			if (!patch) continue;
+			let { url } = patch;
+			let { url: nonPersistentUrl, withChecksum, ...rest } = assets[i];
+			assets[i] = {
+				url,
+				nonPersistentUrl,
+				...rest,
+			};
+		}
 	}
 
 	// We first have to figure out what the "main package" of the user-defined 
@@ -38,6 +68,7 @@ export default function patchMetadata(
 	return {
 		packages,
 		main: packages[mainIndex],
+		assets,
 		basename,
 	};
 

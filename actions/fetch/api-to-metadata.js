@@ -10,8 +10,8 @@ import { slugify } from './util.js';
 // structure.
 export default function apiToMetadata(json) {
 	let pkg = {
-		group: slugify(json.author),
-		name: json.aliasEntry,
+		group: slugify(json.group || json.author),
+		name: slugifyTitle(json.title),
 		version: json.release,
 		subfolder: getSubfolder(json),
 		info: {
@@ -36,7 +36,8 @@ export default function apiToMetadata(json) {
 		() => '' :
 		i => `part${i}`;
 
-	// Allright, now loop the files again and then actually generate the suffixes.
+	// Allright, now loop the files again and then actually generate the 
+	// suffixes.
 	for (let i = 0; i < json.files.length; i++) {
 		let file = json.files[i];
 		let url = new URL(json.fileURL);
@@ -56,6 +57,21 @@ export default function apiToMetadata(json) {
 			[kFileTags]: tags,
 		});
 	}
+
+	// We're not done yet. It's possible that some assets have the same name, 
+	// which we have to avoid at all cost because the linter will fail in this 
+	// case without the user being able to intervene - as assets are named 
+	// automatically!
+	let grouped = Object.groupBy(assets, asset => asset.assetId);
+	for (let arr of Object.values(grouped)) {
+		if (arr.length > 1) {
+			for (let i = 0; i < arr.length; i++) {
+				let asset = arr[i];
+				asset.assetId += `-part-${i+1}`;
+			}
+		}
+	}
+
 	return {
 		package: pkg,
 		assets,
@@ -106,4 +122,10 @@ function normalizeDate(date) {
 	} else {
 		return normalized;
 	}
+}
+
+// # slugifyTitle(title)
+function slugifyTitle(title) {
+	return slugify(title.replaceAll(/&/g, 'and').replaceAll(/\$/g, 's'))
+		.replaceAll(/(\b)vol-(\d)/g, '$1vol$2');
 }

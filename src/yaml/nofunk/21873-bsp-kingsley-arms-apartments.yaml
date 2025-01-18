@@ -1,0 +1,79 @@
+group: nofunk
+name: bsp-kingsley-arms-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: BSP Kingsley Arms Apartments
+  description: |-
+    The **Barry Sanders Project** presents the Kingsley Arms Apartments!
+
+    The Kingsley Arms Apartments was constructed in 1929 in Ann Arbor, Michigan's historic Fourth Ward. Designed by architect G. S. Gerganoff in the moorish style, this building has served as housing for many medical students and nurses due to its proximity to the University of Michigan's medical campus.
+
+    Although in real life the building is strictly medium wealth, I felt it looked more "ritzy" so have made it a high wealth residential buidling for the game.
+
+    There are three versions available: two residential versions and one landmark.
+
+    * * *
+
+    **Files included:**
+
+    **KingsleyArms\_REQUIRED.SC4Model**
+
+    This is the buiding model and is REQUIRED. Features TruNite.
+
+    **R$$$6\_1x3\_KingsleyArms.dat**
+
+    Lot size: 1x3
+
+    Occupants: 64
+
+    Tileset: New York
+
+    Density: Medium, High
+
+    **R$$$5\_2x3\_KingsleyArms.dat**
+
+    Lot size: 2x3
+
+    Occupants: 64
+
+    Tileset: New York
+
+    Density: Medium, High
+
+    **LM1x3\_KingsleyArmsApartments.SC4Lot**
+
+    Lot size: 1x3
+
+    Plop cost: $24,000
+
+    Occupants: 0
+
+    Landmark effect: 0,0
+
+    (A readme and two screen shots are also included; these are not required for game play.)
+
+    * * *
+
+    **Installation instructions:**
+
+    Simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the file labeled "KingsleyArms\_REQUIRED" in your Plugins or you will get a brown box in the game.
+
+    * * *
+
+    **Model and modding:** nofunk
+
+    **Textures, lighting and lots:** JasonCW
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/21873-bsp-kingsley-arms-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/38c6a43761757b514a5a0b8a1e8239e8-kingsley1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/38c6a43761757b514a5a0b8a1e8239e8-kingsley2.jpg
+assets:
+  - assetId: nofunk-bsp-kingsley-arms-apartments
+
+---
+assetId: nofunk-bsp-kingsley-arms-apartments
+version: "1.0"
+lastModified: "2009-06-17T21:04:37Z"
+url: https://community.simtropolis.com/files/file/21873-bsp-kingsley-arms-apartments/?do=download&r=47965

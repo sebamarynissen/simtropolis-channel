@@ -1,0 +1,82 @@
+group: mattb325
+name: connor-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Connor Apartments
+  description: |-
+    **Connor Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    Based on a new build in Sydney's dense inner city suburb of Chippendale, Connor Apartments are a New York, art-deco inspired creation with floor-ceiling windows, privacy louvres, cozy balconies and large terraces perfect for denser, down-town environments.
+
+    The building and its eye-catching privacy louvres are all clad in a reflective rose-gold coloured paneling. Even though this is a highly unusual colour-scheme, it still blends in with the SC4 environment and I have deliberately ensured that the building will work well with older bats as well as newer ones. Though not strictly designed for W2W, it will also work quite well in these settings and makes a good transition from row-homes to high density apartments.
+
+    At 13 floors, this houses 434 Sims and will grow on medium and high density zones. The lot size is 2x3 and is restricted to the New York tileset to ensure that it doesn't become weedy.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    **\---------------------------------------**
+
+    **STATS R§§:**
+
+    Lot size :                  2x3  
+    Growth Stage:         6 (Medium and High Density Zoning)  
+    Bulldoze Cost:         §745  
+    Capacity Satisfied:  R§ 745, R§§ 434  
+    Pollution:                  3 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  6 Mwh  
+    Water Consumed:   17 Gal/Month  
+    Building Style:          NY Only  
+    Occupant Group:     Medium Wealth Residential Building, BSC, BSC\-Mattb325
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no external dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33531-connor-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor.jpg.1a61ec6f4241ae88094a1c76b95b56fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor1.jpg.7f12dd868093cb2aa7da739bf485e776.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor2.jpg.5d0a7c903c25c6804b95fd5b20c31f03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor3.jpg.5171082a271a8a52fb3e2887d52a2086.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor4.jpg.2b02aaebce46969977ed8e7e35e55e18.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor5.jpg.99c94d73c29fb5e2dce046243b9ad81a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor6.jpg.090e6488c3290566c9dab6667f5cdf22.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor7.jpg.59a51916e2501b003792a44cc3179c8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor8.jpg.dc027389201ef536a3d8c64446556380.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Connor9.jpg.26719b0ff77aa277dc4b6c0ec926da1e.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-connor-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-connor-apartments-darknite
+
+---
+assetId: mattb325-connor-apartments-darknite
+version: "1.0.0"
+lastModified: "2020-04-02T21:48:44Z"
+url: https://community.simtropolis.com/files/file/33531-connor-apartments/?do=download&r=180399
+
+---
+assetId: mattb325-connor-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2020-04-02T21:48:44Z"
+url: https://community.simtropolis.com/files/file/33531-connor-apartments/?do=download&r=180400

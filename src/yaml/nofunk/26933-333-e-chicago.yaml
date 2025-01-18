@@ -1,0 +1,42 @@
+group: nofunk
+name: 333-e-chicago
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 333 E. Chicago
+  description: |-
+    333 E. Chicago is located in Milwaukee, Wisconsin's historic Third Ward. Originally a shoe and clothing wholesaler, the building now houses an architecture firm.
+
+    -   2x3 Cs$$ growable and ploppable.  
+        
+    -   Available in both MaxisNite and DarkNite.  
+        
+    -   DarkNite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).  
+        
+
+    ![333_E_Chicago3A.jpg](http://img.photobucket.com/albums/v239/funksterboy/333_E_Chicago3A.jpg)
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/26933-333-e-chicago/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/1126583e9f4597f9549929e6bda0b669-333_e_chicago1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/ffb4726dc2ed3528ff5b9d64b12683dc-333_e_chicago2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-333-e-chicago-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-333-e-chicago-darknite
+
+---
+assetId: nofunk-333-e-chicago-darknite
+version: "1.0"
+lastModified: "2011-11-01T01:46:37Z"
+url: https://community.simtropolis.com/files/file/26933-333-e-chicago/?do=download&r=93785
+
+---
+assetId: nofunk-333-e-chicago-maxisnite
+version: "1.0"
+lastModified: "2011-11-01T01:46:37Z"
+url: https://community.simtropolis.com/files/file/26933-333-e-chicago/?do=download&r=93786

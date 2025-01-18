@@ -1,0 +1,58 @@
+group: agc
+name: fishing-vessel-g-01
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Fishing Vessel G 01
+  description: |-
+    **Specs:**
+
+    The file contains an 1x5 lot. You can plop in the water or on the ground (You can also use MMP under or around the model).
+
+    **Lot editor:**
+
+    **AGC\_FV\_Generic\_1985\_V01\_S1\_90**
+
+    **Ubication:** Water transportation
+
+    **Icon:**  ![Fishing_Vessel_ICON.png.e4114ddc0d515979aaf98e1288a62b12.png](https://www.simtropolis.com/objects/attachments/monthly_2024_06/Fishing_Vessel_ICON.png.e4114ddc0d515979aaf98e1288a62b12.png)
+
+    **Includes Maxisnite and Darknite (Choose just one).**
+
+    **Dependencies:**
+
+    **No**
+
+    **Scale of the models:** **100% on all axes (Real World Scale).**
+
+    **If you like my work, you can make a donation to fund my other projects! ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to the few people who have donated to me.**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36279-agc-fishing-vessel-g-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/665e4b9cc3aea_image(25).png.cc75499b19acfd21ad03b6171c94cbef.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/665e4b9f95d05_image(24).png.819dd58a0c978141a750de04aa6c7f78.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/665e4ba40899b_image(23).png.2306ae711bcc03ce01b3fcdc7096e434.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-fishing-vessel-g-01-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-fishing-vessel-g-01-darknite
+
+---
+assetId: agc-fishing-vessel-g-01-maxisnite
+version: "1.0.0"
+lastModified: "2024-06-03T23:08:25Z"
+url: https://community.simtropolis.com/files/file/36279-agc-fishing-vessel-g-01/?do=download&r=201555
+
+---
+assetId: agc-fishing-vessel-g-01-darknite
+version: "1.0.0"
+lastModified: "2024-06-03T23:08:25Z"
+url: https://community.simtropolis.com/files/file/36279-agc-fishing-vessel-g-01/?do=download&r=201556

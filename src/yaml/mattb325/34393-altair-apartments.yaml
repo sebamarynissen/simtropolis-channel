@@ -1,0 +1,79 @@
+group: mattb325
+name: altair-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Altair Apartments
+  description: |-
+    **Altair Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    Purely fictional, Altair Apartments are luxury homes for 1,291 sims.
+
+    The diagonal bracing that wraps around the angled frames (each on angled buildings) will ensure that these towers make a bold impression on your skyline.
+
+    27 floors high, both towers are rotated at differing angles to ensure privacy on all of the large terraces. One tower is also situated on a podium which houses shops/cafes, etc.
+
+    These grow on high density 3x4 and 4x3 corner lots to ensure that they don't become weedy.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    **\---------------------------------------**
+
+    **STATS R$$$:**
+
+    Lot size :                   3x4 and 4x3  
+    Growth Stage:         7 & 8 (High Density Zoning)  
+    Bulldoze Cost:         $1,478  
+    Capacity Satisfied:  R$ 5,344 R$$ 2,951 R$$$ 1,291  
+    Pollution:                  18 (Air)/ 6 (Water)/ 6 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  158 Mwh  
+    Water Consumed:   210 Gal/Month  
+    Building Style:          New York, Houston and Euro  
+    Occupant Group:     High Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34393-altair-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Altair.jpg.72500788f78a7f179d888946e74705c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Altair1.jpg.aafccf72e42b40285ab9795efd6e64e0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Altair2.jpg.33077e844f4d07003e16cdebc9a182ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Altair3.jpg.9ded8b7d5634c3e372ab5aabaad5bc94.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/Altair4.jpg.da7bc39849643de83167f3b7a4f6e6d7.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-altair-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-altair-apartments-darknite
+
+---
+assetId: mattb325-altair-apartments-darknite
+version: "1.0.0"
+lastModified: "2021-04-19T05:39:00Z"
+url: https://community.simtropolis.com/files/file/34393-altair-apartments/?do=download&r=187533
+
+---
+assetId: mattb325-altair-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2021-04-19T05:39:00Z"
+url: https://community.simtropolis.com/files/file/34393-altair-apartments/?do=download&r=187534

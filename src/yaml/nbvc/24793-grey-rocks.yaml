@@ -1,0 +1,43 @@
+group: nbvc
+name: grey-rocks
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Grey Rocks
+  description: |-
+    Grey Rocks for the mayor menu.
+
+    You can change the size of a rock with additional clicks on the same rock. There are 7 different sizes.
+
+    The rocks can also be used as props in the Lot-Editor for your custom lots.
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/24793-grey-rocks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/78ae339eead2eeda52e59f7dc10dc13b-greyrocks.jpg
+dependencies:
+  - nbvc:grey-rocks-props
+assets:
+  - assetId: nbvc-grey-rocks
+    include:
+      - \.dat$
+
+---
+group: nbvc
+name: grey-rocks-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Grey Rocks props
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/24793-grey-rocks/
+assets:
+  - assetId: nbvc-grey-rocks
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
+
+---
+assetId: nbvc-grey-rocks
+version: "1.0"
+lastModified: "2010-09-04T01:32:26Z"
+url: https://community.simtropolis.com/files/file/24793-grey-rocks/?do=download&r=52227

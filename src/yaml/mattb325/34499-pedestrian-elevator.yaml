@@ -1,0 +1,96 @@
+group: mattb325
+name: pedestrian-elevator
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Pedestrian Elevator
+  description: |-
+    **Pedestrian Elevator, by Mattb325.  
+    \---------------------------------------**
+
+    This is a fully functional glass elevator to enable sims to traverse the standard 15m drops that are made by using the NAM hole digger/raiser lots. It is a 1x1 lot that is designed to be placed right on the slope between two elevations.
+
+    It is located in the parks menu.
+
+    It is network enabled for pedestrian access and will work with any of your favourite wall pieces (or MMPs) to decorate the slope along the viaduct. To ensure that it functions for pedestrians, place a road/street/ped mall piece on both sides of the elevator, and, this is important, **AFTER PLACING THE ELEVATOR ON THE SLOPE**.
+
+    Alternatively, it functions perfectly well as eye-candy.
+
+    The bridge will work with other depths (such as 7.5m), but visually looks best with 15m heights.
+
+    *Please note that this is an example of a large overhanging prop across a 1x1 lot, and with many such props, they will not light up when placed on certain slopes, but will light up on the opposite side.   
+    It is a game bug, and there isn't really anything I can do about this as it was a trade off between how far the prop overhangs the lot and its compatibility with the base game road and street sidewalks: I rarely play the game at night, but if the possibility of this occurring bothers you, just don't download the file.*  
+       
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :           1x1  
+    Bulldoze Cost:       $ 10  
+    Plop Cost:         $ 40  
+    Demand Satisfied:    R$ 250, R$$ 250, R$$$ 250  
+    Landmark Effect:     +20 over 10 tiles  
+    Park Effect:         +15 over 15 tiles  
+    Pollution:           -2 (Air)/ 1 (Water)/ 0 (Garbage )  
+    Pollution Radius:    2/1/0  
+    Power Consumed:         0 Mwh  
+    Water Consumed:      5 Gal/Month  
+    Monthly Cost:        $ 5  
+    Occupant Group:         Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    However, I would recommend the SC4Fix file that resolves CTDs when hovering network enabled files such as these next to network pieces. (http://community.simtropolis.com/files/file/30833-sc4fix-third-party-patches-for-sc4/)
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34499-pedestrian-elevator/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator.jpg.5c1474ddf93f2134f94cdc4aca288d35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator1.jpg.416dc9c8599602a607abddff76e0dd89.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator2.jpg.8628a8de548be5f83d83f82f0f8eb5c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator3.jpg.182c039e044e26290de6ba516d480417.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator4.jpg.e1529a6aa150f197f36b15e6964f9a41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator5.jpg.512607265721d4118a9d68ca4186d2dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator6.jpg.dc82c4326fd68373cba19cd0cf4233c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator7.jpg.24a0502bed06545ccf7c72dd6d0989af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator8.jpg.c801fc0ccc9c5b297f276f6ad3bfdbf5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Elevator9.jpg.1d22ec3206e0bce2c34f5e1c304ff2cd.jpg
+dependencies:
+  - simmaster07:sc4fix
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pedestrian-elevator-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pedestrian-elevator-darknite
+
+---
+assetId: mattb325-pedestrian-elevator-darknite
+version: "1.0.0"
+lastModified: "2021-06-03T08:07:25Z"
+url: https://community.simtropolis.com/files/file/34499-pedestrian-elevator/?do=download&r=188484
+
+---
+assetId: mattb325-pedestrian-elevator-maxisnite
+version: "1.0.0"
+lastModified: "2021-06-03T08:07:25Z"
+url: https://community.simtropolis.com/files/file/34499-pedestrian-elevator/?do=download&r=188485

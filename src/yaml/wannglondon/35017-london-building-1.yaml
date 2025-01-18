@@ -1,0 +1,42 @@
+group: wannglondon
+name: london-building-1
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: London Building 1
+  description: |-
+    A quick BAT/lot I created inspired by a building located near Covent Garden in London.
+
+    \- Euro tileset
+
+    \- Medium/High density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35017-london-building-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6239f570296e7_Central-Jan.1714661647827170.png.031626db6c1ad38368bdde0851da004e.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-london-building-1-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-london-building-1-darknite
+
+---
+assetId: wannglondon-london-building-1-darknite
+version: "1.0.0"
+lastModified: "2022-03-22T16:13:47Z"
+url: https://community.simtropolis.com/files/file/35017-london-building-1/?do=download&r=192571
+
+---
+assetId: wannglondon-london-building-1-maxisnite
+version: "1.0.0"
+lastModified: "2022-03-22T16:13:47Z"
+url: https://community.simtropolis.com/files/file/35017-london-building-1/?do=download&r=192572

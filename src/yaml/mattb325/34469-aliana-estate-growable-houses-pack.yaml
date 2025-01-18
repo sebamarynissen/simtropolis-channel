@@ -1,0 +1,84 @@
+group: mattb325
+name: aliana-estate-growable-houses-pack
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Aliana Estate Growable Houses Pack
+  description: |-
+    **Aliana Estates Growable Houses, by Mattb325.  
+    \---------------------------------------**
+
+    A set of eight new homes based on real house plan designs for 50'lots by a texas home builder.
+
+    These houses, both orthogonal and diagonal are all on 1x1, 1x2 and 2x2 lots. These are designed to complement the large 10x10 cul-de-sac mega-lots, but I have released them seperately as many folks would prefer to just zone in the traditional manner.
+
+    All lots grow between stages 1 and 4 and each house has identical stats with occupant values in line with Maxis homes.
+
+    These are restricted to the Houston Tileset only.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike. Stats below.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :           1x1, 1x2 and 2x2  
+    Growth Stage:         1-4 (Low, Medium and High Density Zoning)  
+    Bulldoze Cost:       $143  
+    Capacity Satisfied:  R$ 19, R$$ 12  
+    Pollution:           1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:         1 Mwh  
+    Water Consumed:      2 Gal/Month  
+    Building Style:      Houston  
+    Occupant Group:         Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This file contains a series of lots only. However, some of the dependencies will require you to select either a maxis nite version or a dark nite version. If you use the dark nite models, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins. Please note that while most dependencies are very common-place and most folks will have these already, a few are brand new, or have been updated. Make sure you get them all!
+
+    **TEXTURE PACKS**
+
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **PROP PACKS**
+
+    \*Mattb325 Aliana Estate Model Files - ([https://community.simtropolis.com/files/file/34468-aliana-estate-prop-pack/](https://community.simtropolis.com/files/file/34468-aliana-estate-prop-pack/)) **Choose either Dark Nite or Maxis Nite**  
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*Mattb325 Prop Pack Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34469-aliana-estate-growable-houses-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate3a.jpg.2c55d012e7b527d717a35b9eb2c244ca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate4.jpg.51e270ff1f3934614cd125c5cb2fa27b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate5.jpg.3a34933f6d9a9d506340efce77fbb567.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate6.jpg.0c07434589fdf4feb58f80a3f906bed3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate7.jpg.a5ace3367dfbf35604c4f5b36c667a81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate8.jpg.48b50948cc0695c7fb984a91f3d58167.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:aliana-estate-prop-pack
+assets:
+  - assetId: mattb325-aliana-estate-growable-houses-pack
+
+---
+assetId: mattb325-aliana-estate-growable-houses-pack
+version: "1.0.0"
+lastModified: "2021-05-21T01:57:30Z"
+url: https://community.simtropolis.com/files/file/34469-aliana-estate-growable-houses-pack/?do=download&r=188176

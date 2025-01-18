@@ -1,0 +1,97 @@
+group: mattb325
+name: retro-pontiac-dealership
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Retro Pontiac Dealership
+  description: |-
+    **Retro Pontiac Dealership, by Mattb325.  
+    \---------------------------------------**
+
+    Made as a request, Masters Pontiac car dealership was a real car yard that stood in Long Beach, CA.
+
+    While the building stood (it has long since been torn down and turned into a CVS drug store) it traded under both the Masters and Salta. I have chosen the former for branding. The car models were not made by me: these were part of a bunch of cars that were shared on the BSC private board years ago that I just textured.
+
+    This is a CS$$ bat that will grow early on in your cities development.It provides 40 jobs.
+
+    The lot size is 4x3 (use the CTRL key while zoning to help get this to grow, or downlowd Buggis extra cheats to make it ploppable from a drop-down menu).
+
+    It grows on the three American tilesets.
+
+    **\---------------------------------------**
+
+    **STATS:**  
+    Lot Size:                    4x3  
+    Growth Stage:          1  
+    Zone Type:                Low, Medium and High Density  
+    Bulldoze Cost:          $302  
+    Demand Satisfied:   CS$ 150; CS$$ 40.  
+    Pollution at Centre: 1 (air) /1 (water) /4 (garbage)  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  3 Mwh  
+    Water Consumed:   40 Gallons  
+    Occupant Groups:   Commercial Services; Chicago; New York; Houston
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one is for dark nite users and one for the standard Maxis nite.   
+    You must select and install only one file - depending on which night version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT CULTURAL APPROPRIATION:**
+
+    While most rational people understand context and nuance, the internet being what it is, it is a necessity to state the obvious......
+
+    The Pontiac logo is based on a North American Warrior, Chief Pontiac. During the 20th Century (which encompasses this BAT) companies thought little of using symbols of indigenous or minority groups or foreign cultures to sell their wares.
+
+    These days, such practices by companies run largely by privileged Anglo Saxon elderly males are known as 'cultural appropriation' and like sexism, are to be avoided if you wish your brand to be considered inclusive and to appeal to a broad market. However, this was not the case prior to the 21st Century.
+
+    This BAT (called 'retro') simply takes a popular brand and a real life car dealership from a moment in time and places it into a game that is almost as old as the car dealership itself.
+
+    If this offends, don't download the file.
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip these files into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34125-retro-pontiac-dealership/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac.jpg.f262ebce3c29eb082b8662e938a14fae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac1.jpg.8db6d943089a8d4c2867fe085370cbaa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac1a.jpg.1d8924fba9d41903080be172adf94ca7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac2.jpg.50302cf18bd777217cff3d00b83645ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac3.jpg.0011a7c35c3334d08236d552e88bbe39.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac3a.jpg.2270c4163e9e54351cb76e8362ccc191.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac4.jpg.35638630eb41720a8d0cbd5234b54c8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/RetroPontiac5.jpg.1a0ddd18fd1857afd3962c66302f6cb0.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-retro-pontiac-dealership-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-retro-pontiac-dealership-darknite
+
+---
+assetId: mattb325-retro-pontiac-dealership-darknite
+version: "1.0.0"
+lastModified: "2021-02-13T03:59:56Z"
+url: https://community.simtropolis.com/files/file/34125-retro-pontiac-dealership/?do=download&r=185218
+
+---
+assetId: mattb325-retro-pontiac-dealership-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-13T03:59:56Z"
+url: https://community.simtropolis.com/files/file/34125-retro-pontiac-dealership/?do=download&r=185219

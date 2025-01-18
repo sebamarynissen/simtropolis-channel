@@ -1,0 +1,88 @@
+group: mattb325
+name: glasshouse-cafe
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Glasshouse Cafe
+  description: |-
+    **Glasshouse Cafe, by Mattb325.  
+    \---------------------------------------**
+
+    Another one of those files where a single lot can provide a multiple of uses, the glasshouse cafe is a fictional bat that came about after I was asked to release (as a standalone prop) the table/umbrella/chairs that I use as part of making other bat scenes. The prop looked rather lonely on its own, so I batted the cafe to match.
+
+    These sorts of cafes and restaurants were very popular in the late 19th and early 20th Centuries, when large areas of glass/glass roofing were really something of a status symbol (never mind the fact that air conditioning hadn't been invented yet!): often such structures were built on lakes or within lovely gardens: the idea was the pre-cursor to today's indoor/outdoor living.
+
+    This bat is on a 2x2 lot and the glasshouse area and its deck overhang the back of the lot. The lot can be placed on water or land and is slope tolerant.
+
+    As can be seen in the images, the lot is quite versatile: equally useable with in-game water, canals, ploppable water, ploppable rapids (in case your diners want to view kayakers being dashed upon rocks while enjoying champagne and canapes), hillsides, etc. MMPS can be placed underneath the deck area.
+
+    The lot is found in the landmark menu and provides CS$$$ jobs. It therefore requires road access, water and power.
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size:                     2x2  
+    Plop Cost:                 $776  
+    Bulldoze Cost:          $40  
+    Pollution at Centre: 1 (air) /1 (water) /4 (garbage)  
+    Pollution Radius:      2/3/0  
+    Demand Created:     R$ 33, R$$ 22, R$$$ 8  
+    Power Consumed:   1 Mwh  
+    Water Consumed:    6 Gallons  
+    Occupant Groups:    Landmark; CS$$$.
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no external dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34572-glasshouse-cafe/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse.jpg.18fe40ece639ce351f348373f245d0dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse1.jpg.0e435ead61bb9839044dfaa870e76288.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse2.jpg.e75bf24502b600d997d2dc5055130ac1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse3.jpg.a1de7389b36000d2f60bab5ff02bdda1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse4.jpg.93eb343c35a22da4ce94dd914407cc85.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse5.jpg.40a959697f79963310f68a70f8178f36.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse5a.jpg.5e7d900191f62dbc44c3f088335142c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse5b.jpg.fc5c4df117453c49b90192f6d9c3a188.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse6.jpg.bed4c681c46c451185b51a7d7f330456.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse7.jpg.47d4014535f9c1906ad60db9d77a00ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse8.jpg.f5ae4e6afc70674a30764dcc82bcf6ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse8a.jpg.1436f66d92c55d20941d327ce4c784af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse9.jpg.6ac67b3d6351e99a847cfdb1e2ac6909.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse9a.jpg.ab76f66f9fc6ba5fca40c50ba23938a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/GlassHouse9b.jpg.afd007908177987c61bbc35797533ea9.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-glasshouse-cafe-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-glasshouse-cafe-darknite
+
+---
+assetId: mattb325-glasshouse-cafe-darknite
+version: "1.0.0"
+lastModified: "2021-07-05T20:57:36Z"
+url: https://community.simtropolis.com/files/file/34572-glasshouse-cafe/?do=download&r=189164
+
+---
+assetId: mattb325-glasshouse-cafe-maxisnite
+version: "1.0.0"
+lastModified: "2021-07-05T20:57:36Z"
+url: https://community.simtropolis.com/files/file/34572-glasshouse-cafe/?do=download&r=189165

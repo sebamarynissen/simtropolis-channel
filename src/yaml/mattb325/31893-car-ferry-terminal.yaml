@@ -1,0 +1,103 @@
+group: mattb325
+name: car-ferry-terminal
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Car Ferry Terminal
+  description: |-
+    **Car Ferry Terminal, by Mattb325.  
+    \---------------------------------------**
+
+    While I quite like the look of the Maxis Car Ferry Terminal, after almost 15 years of seeing the same ferry building in game, it's time for an upgrade.
+
+    This is a fictional building which I made for that purpose.
+
+    While the lot conforms to the existing Maxis Car Ferry Terminal, it does not replace the in-game building.
+
+    It is also slightly easier to place along the shore line - if you have ever placed the in-game version, you will have no problems using this lot as the principles are identical.
+
+    Additionally, it uses standard maxis pavement textures (rather than a batted base like the in game version) so the lot will blend in with any sidewalk mods that you have.   
+    Just like the ingame lot, this lot is transit enabled for road, and as long as you draw the road into the lot, cars will drive through the building.
+
+    Car Ferry buildings are a great alternative/supplement to bridges, and I use them to ease congestion on the road network.
+
+    *Please note the Car Ferry Terminal is a separate network from the Passenger Ferry Terminal.*
+
+    Ferries that leave from a passenger ferry terminal do not use a car ferry terminal and vice versa. Now, this is no different from the function in the vanilla rush-hour game, but as there are so few custom ferry terminals available for download, it is important to point out. Therefore, I recommend placing this at least twice in any city tile (on opposite shorelines) to get use.
+
+    The ferry terminal is a modern building with a bar and restaurant on the upper levels.
+
+    It has similar stats in terms of capacity and monthly cost to the Maxis Car Passenger Ferry Terminal, but provides a few more jobs.
+
+    It is also limited to a maximum of 16 terminals per city tile and both this building and the in-game car ferry terminal count towards the 16 terminal number.
+
+    Obviously it is found in the water transit section of the transportation menu and obviously it can only be placed in a city where in-game water is present; it does not work on canals or ploppable water. It has been tested to work in Vanilla (Rush Hour) and various NAM releases, up to NAM 35.
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size :                  3x5  
+    Plop Cost:               §150  
+    Bulldoze Cost:        §10  
+    Occupant Groups: Transportation, Strikable Transit, Ferry, Car Ferry, Water Transit  
+    Catalog Capacity:  1,000  
+    Wealth:                    Medium Wealth  
+    Demand Created:  Jobs§§§: 1, Jobs§§: 8, Jobs§: 18.  
+    Pollution:                 Air 1 over 1 tiles, Water 1 over 1 tiles, Garbage 1 over 0 tiles  
+    Power consumed:  10 MwH  
+    Water consumed:   38 Gallons/Month
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO file types in two seperate folders; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.   
+    You must choose only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file requires the following dependency:
+
+    **[https://community.simtropolis.com/files/file/27915-cruise-ship-terminal/](https://community.simtropolis.com/files/file/27915-cruise-ship-terminal/)**
+
+    You can delete the main model and lot files if you wish not to use the cruise ship terminal, but be absoluetly sure to keep the two files marked **'Mattb325\_RetainingWall-xxxxxxxx'** If you do not download these, the ferry building will appear to float above the water.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    Thanks.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/31893-car-ferry-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/CarFerry.jpg.ce6f21d3b7636e5da4221ab8e0e40490.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/CarFerry1.jpg.c071f25d910644ea36ceb73d6691c228.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/CarFerry2.jpg.24d31f9300d812706e6dbb1f9dc4ddd3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/CarFerry3.jpg.535f9d9d9f4e340eb66668a9dc381bfe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/CarFerry4.jpg.b5df4c727f96d1a00527a047876085fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/CarFerry5.jpg.c88735b09ed6414c6e42b6461bed5e49.jpg
+dependencies:
+  - mattb325:cruise-ship-terminal-retaining-wall
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-car-ferry-terminal
+        exclude:
+          - /Ferry Terminal DARK NITE/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-car-ferry-terminal
+        exclude:
+          - /Ferry Terminal MAXIS NITE/
+
+---
+assetId: mattb325-car-ferry-terminal
+version: "1.0"
+lastModified: "2017-08-05T01:53:09Z"
+url: https://community.simtropolis.com/files/file/31893-car-ferry-terminal/?do=download&r=167846

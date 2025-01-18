@@ -1,0 +1,49 @@
+group: wannglondon
+name: paris-batiment-9-left-corner
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Paris Batiment 9 - Left Corner
+  description: |-
+    Left Corner lot to compliment my previous creations. Ground floor is empty as I will be making a commercial version and adding shops. I will release the right corner one as well.
+
+    High wealth models to come!
+
+    \- Medium wealth residential (stage 7)
+
+    \- Euro Tileset
+
+    \- Medium & High Density zones
+
+    \- Nightlighted, either MaxisNite or DarkNite\*
+
+    \- No dependencies
+
+    \*DarkNite version requires SimFox's DayNNite Mod
+
+    \*These have been tested, however please let me know if you find any issues
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/34172-paris-batiment-9-left-corner/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/6035aabb3c8c2_Batiment9Day.png.198093c97adac96a0601a70766354630.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/6035aabde65b2_Batiment9Night.png.28002bb412fc069ccad3c9e7f7cd21c2.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-paris-batiment-9-left-corner-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-paris-batiment-9-left-corner-darknite
+
+---
+assetId: wannglondon-paris-batiment-9-left-corner-darknite
+version: "1.0.0"
+lastModified: "2021-02-24T01:26:11Z"
+url: https://community.simtropolis.com/files/file/34172-paris-batiment-9-left-corner/?do=download&r=185555
+
+---
+assetId: wannglondon-paris-batiment-9-left-corner-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-24T01:26:11Z"
+url: https://community.simtropolis.com/files/file/34172-paris-batiment-9-left-corner/?do=download&r=185556

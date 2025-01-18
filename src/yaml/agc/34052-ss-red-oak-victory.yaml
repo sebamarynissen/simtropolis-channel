@@ -1,0 +1,70 @@
+group: agc
+name: ss-red-oak-victory
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: SS Red Oak Victory
+  description: |-
+    **History**
+
+    The Victory ship was a class of cargo ship produced in large numbers by North American shipyards during World War II to replace losses caused by German submarines. They were a more modern design compared to the earlier Liberty ship, were slightly larger and had more powerful steam turbine engines giving higher speed to allow participation in high speed convoys and make them more difficult targets for German U-boats. A total of 531 Victory ships were built.
+
+    **Specs**:
+
+    The file contains an 9x2 lot. You can plop in the water or on the ground (You can also use MMP under the model).
+
+    ![redoak_day.png](https://cdn.discordapp.com/attachments/393834822696697866/799436220207464478/redoak_day.png)
+
+    **Night:**
+
+    Only Darknite
+
+    **Darknite:**
+
+    ![redoak_dark.png](https://cdn.discordapp.com/attachments/393834822696697866/799436219976515594/redoak_dark.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_SS\_Red-Oak-Victory\_1944\_V100\_S1\_90    (Building)
+
+    **Scale of the model:** **Real World Scale**
+
+    **Ubication:** Water transportation.
+
+    **Icon:**   ![SS_Red_oak_victory.png](https://cdn.discordapp.com/attachments/393834822696697866/799439429676302396/SS_Red_oak_victory.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use Paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (6) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34052-agc-ss-red-oak-victory/
+  images:
+    - https://cdn.discordapp.com/attachments/393834822696697866/799436220207464478/redoak_day.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-ss-red-oak-victory-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-ss-red-oak-victory-darknite
+
+---
+assetId: agc-ss-red-oak-victory-darknite
+version: "1.0.0"
+lastModified: "2021-01-15T01:19:07Z"
+url: https://community.simtropolis.com/files/file/34052-agc-ss-red-oak-victory/?do=download&r=184544

@@ -1,0 +1,50 @@
+group: nofunk
+name: watkins-sons
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Watkins & Sons
+  description: |-
+    If you've got pencils, Watkins & Sons can push 'em! For more than 100 years, Watkins & Sons has provided simply the best pencil-pushers around. So if you have numbers to crunch or contracts to ink, make sure to hire the skilled pencil-pushers at Watkins & Sons today!
+
+    -   2x2 growable and ploppable CO$$
+    -   Provides 324 CO$$ jobs
+    -   MaxisNite and DarkNite versions available
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Installation Instructions:
+
+    1\. Download either the DarkNite OR MaxisNite version. If you are unsure, choose the MaxisNite version. Attempting to use both versions in your Plugins at the same time may cause conflicts.
+
+    2\. Unzip the .zip and move its contents into your Documents > SimCity4 > Plugins folder.
+
+    3\. Enjoy!
+
+    \-  
+    Comments, questions, or issues? Check out [my BAT thread](https://community.simtropolis.com/forums/topic/13203-nofunks-bat-thread/).
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/31891-watkins-sons/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/watkins-1.jpg.a4675b2ca9414e2e71d65f3d9affc111.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/watkins-2.jpg.8b3cff1791f728b5c25e0635d20cc7de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/watkins-3.jpg.2d814376ad938466325b15c2f2150a45.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-watkins-sons-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-watkins-sons-darknite
+
+---
+assetId: nofunk-watkins-sons-darknite
+version: "1.0"
+lastModified: "2017-07-31T01:35:32Z"
+url: https://community.simtropolis.com/files/file/31891-watkins-sons/?do=download&r=167828
+
+---
+assetId: nofunk-watkins-sons-maxisnite
+version: "1.0"
+lastModified: "2017-07-31T01:35:32Z"
+url: https://community.simtropolis.com/files/file/31891-watkins-sons/?do=download&r=167829

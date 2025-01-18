@@ -1,0 +1,95 @@
+group: mattb325
+name: nautilus-house
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Nautilus House
+  description: |-
+    **Nautilus House, by Mattb325.  
+    \---------------------------------------**
+
+    Nautilus House is a five story building with a prominent sunken courtyard.
+
+    The building is offered as a ploppable library and a growable CO$$.
+
+    The courtyard and walls are angled to help break the grid and, with the ploppable library version, the lot is designed to be placed along a diagonal intersection as shown in the pictures.
+
+    The modern blue-grey colour scheme, shadow-mesh window detailing and, of course, the map of the world, will help make this building stand out in your cities.  
+       
+    **\---------------------------------------**
+
+    **STATS LIBRARY:**
+
+    Lot size :                   3x3 (overhanging on the left for placement along diagonal roads and intersections)  
+    Plop Cost:                $ 2000  
+    Bulldoze Cost:         $ 90  
+    Jobs:                         $ 26, $$ 34, $$$ 5  
+    Pollution:                  1 (Air)/ 1 (Water)/ 2 (Garbage )  
+    Pollution Radius:     2/3/0  
+    Power Consumed:  4 Mwh  
+    Water Consumed:   5 Gal/Month  
+    Library Capacity:     120,000  
+    Coverage Radius:    2,400  
+    Occupant Group:     Civic; Library  
+    Monthly Cost:           $280
+
+    **STATS CO$$:**
+
+    Lot size :                  4x3   
+    Growth Stage:         5 (Medium and High Density)  
+    Bulldoze Cost:         $ 288  
+    Capacity Satisfied: CO$$ 532  
+    Pollution:                 2 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 11 Mwh  
+    Water Consumed:  116 Gal/Month  
+    Building Style:         New York, Houston and Euro  
+    Occupant Group:    Medium Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34420-nautilus-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/NautilusHouse.jpg.ca3d806acd0839da3269f5dc9ec3982c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/NautilusHouse1.jpg.44e60824e3d559cafc0e107db8ae118d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/NautilusHouse2.jpg.ff015513ec9a528c10df7d6d594e45f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/NautilusHouse3.jpg.328c77d250d25374d672531d9529c308.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/NautilusHouse4.jpg.eb808acb28fe046decfdfa65925adf35.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-nautilus-house-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-nautilus-house-darknite
+
+---
+assetId: mattb325-nautilus-house-darknite
+version: "1.0.0"
+lastModified: "2021-04-29T20:34:39Z"
+url: https://community.simtropolis.com/files/file/34420-nautilus-house/?do=download&r=187713
+
+---
+assetId: mattb325-nautilus-house-maxisnite
+version: "1.0.0"
+lastModified: "2021-04-29T20:34:39Z"
+url: https://community.simtropolis.com/files/file/34420-nautilus-house/?do=download&r=187714

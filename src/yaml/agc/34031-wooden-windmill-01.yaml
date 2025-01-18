@@ -1,0 +1,82 @@
+group: agc
+name: wooden-windmill-01
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Wooden Windmill 01
+  description: |-
+    ![windmill6.png](https://cdn.discordapp.com/attachments/393834822696697866/795817601560608788/windmill6.png)
+
+    ![windmill5.png](https://cdn.discordapp.com/attachments/393834822696697866/795817606211960842/windmill5.png)
+
+    **Specs**:
+
+    The file contains an 2x1 lot. Plop it on **flat ground** (You can also use MMP around the model).
+
+    **Night:**
+
+    Maxis Night & Darknite **(Choose only one)**
+
+    **Darknite:**
+
+    ![windw1.png](https://cdn.discordapp.com/attachments/393834822696697866/795817619676463124/windw1.png)
+
+    ![windmill4.png](https://cdn.discordapp.com/attachments/393834822696697866/795817615037038642/windmill4.png)
+
+    **Maxisnite:**
+
+    ![windmill7.png](https://cdn.discordapp.com/attachments/393834822696697866/795817598167023636/windmill7.png)
+
+    ![windmill8.png](https://cdn.discordapp.com/attachments/393834822696697866/795817598033068042/windmill8.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Windmill\_Wooden\_V1\_S1\_90   (Building)
+
+    **Scale of the model:** **133% on all axes.**
+
+    **Ubication:** Landmarks.
+
+    **Icon:** ![WINDMILL1.png](https://cdn.discordapp.com/attachments/393834822696697866/795818617551192115/WINDMILL1.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (6) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34031-agc-wooden-windmill-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/windmill6.png.75ace1cad4a0bee35791840ac5706d65.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-wooden-windmill-01-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-wooden-windmill-01-darknite
+
+---
+assetId: agc-wooden-windmill-01-darknite
+version: "1.0.0"
+lastModified: "2021-01-05T00:59:55Z"
+url: https://community.simtropolis.com/files/file/34031-agc-wooden-windmill-01/?do=download&r=184379
+
+---
+assetId: agc-wooden-windmill-01-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-05T00:59:55Z"
+url: https://community.simtropolis.com/files/file/34031-agc-wooden-windmill-01/?do=download&r=184380

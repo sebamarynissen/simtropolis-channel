@@ -1,0 +1,42 @@
+group: wannglondon
+name: french-hospital
+version: "1.0.0"
+subfolder: 630-health
+info:
+  summary: French Hospital
+  description: |-
+    A "take-it-or-leave-it" project, this is a modular Parisian-inspired hospital with pieces indicated below. Complete with my less than adequate lotting skills and one dependency; Girafe's rowan trees ([SC4D LEX Details - BSC - VIP girafe rowan trees (v1.0) (sc4devotion.com)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244))
+
+    \- Center Piece (entrance hall) 4x2
+
+    \- Corner Piece 2x2
+
+    \- Mid Piece 2x2
+
+    \- T-Intersection Piece 2x2
+
+    \- End Piece 2x4
+
+    Arrange/re-lot as you wish.
+
+    \*DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/35022-french-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/623d2f1b9aa59_Baiefronte-Est-Mar.291111648176244.png.b0956d87c9cf147786c3da3aab8605c9.png
+dependencies:
+  - girafe:rowan-trees
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-french-hospital-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-french-hospital-darknite
+
+---
+assetId: wannglondon-french-hospital-darknite
+version: "1.0.0"
+lastModified: "2022-03-25T03:00:33Z"
+url: https://community.simtropolis.com/files/file/35022-french-hospital/?do=download&r=192600

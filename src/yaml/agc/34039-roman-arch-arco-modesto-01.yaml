@@ -1,0 +1,90 @@
+group: agc
+name: roman-arch-arco-modesto-01
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Roman Arch "Arco Modesto" 01
+  description: |-
+    **History**
+
+    "Arco Modesto" is a fictional Roman arch inspired by a Roman Arch located in Soria, Spain.
+
+    **Specs**:
+
+    The file contains an 2x1 **(Normal Version)** and 1x1 lot **(Road Version)**. Plop it on **flat ground** (You can also use MMP around the model).
+
+    **Normal Version:**
+
+    ![ARCHDAY3.png](https://cdn.discordapp.com/attachments/393834822696697866/797086970873774100/ARCHDAY3.png)
+
+    **Road Version:**
+
+    ![ARCHDAY2.png](https://cdn.discordapp.com/attachments/393834822696697866/796899042294235136/ARCHDAY2.png)
+
+    ![ARCHDAY.png](https://cdn.discordapp.com/attachments/393834822696697866/796896872941879316/ARCHDAY.png)
+
+    **Night:**
+
+    Maxis Night & Darknite **(Choose only one)**
+
+    **Darknite:**
+
+    ![ARCODARK.png](https://cdn.discordapp.com/attachments/393834822696697866/797086969695961098/ARCODARK.png)
+
+    Maxisnite:
+
+    ![ARCHMAX.png](https://cdn.discordapp.com/attachments/393834822696697866/796896874032005170/ARCHMAX.png)
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Archs\_Roman\_Arco\_Modesto\_ROAD\_V01\_S1\_90    (Building)
+
+    AGC\_Archs\_Roman\_Arco\_Modesto\_V01\_S1\_90    (Building & Prop)
+
+    **Scale of the model:** **133% on all axes.**
+
+    **Ubication:** Landmarks.
+
+    **Icon:** ![roman_arch_normal.png](https://cdn.discordapp.com/attachments/393834822696697866/797088290624897034/roman_arch_normal.png)  ---  ![roman_arch_road.png](https://cdn.discordapp.com/attachments/393834822696697866/797088291014180894/roman_arch_road.png)
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\--------------------------------------------------------------------------------------------------------**
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (6) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34039-agc-roman-arch-arco-modesto-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/ARCHDAY.png.61c8c989865ed38253f59ce7a8690bf8.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-roman-arch-arco-modesto-01-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-roman-arch-arco-modesto-01-darknite
+
+---
+assetId: agc-roman-arch-arco-modesto-01-darknite
+version: "1.0.0"
+lastModified: "2021-01-08T13:05:25Z"
+url: https://community.simtropolis.com/files/file/34039-agc-roman-arch-arco-modesto-01/?do=download&r=184451
+
+---
+assetId: agc-roman-arch-arco-modesto-01-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-08T13:05:25Z"
+url: https://community.simtropolis.com/files/file/34039-agc-roman-arch-arco-modesto-01/?do=download&r=184452

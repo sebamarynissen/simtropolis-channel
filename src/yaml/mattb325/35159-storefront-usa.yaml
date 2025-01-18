@@ -1,0 +1,98 @@
+group: mattb325
+name: storefront-usa
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Storefront USA
+  description: |-
+    **Storefront USA, by Mattb325.  
+    \---------------------------------------**
+
+    The design for these mixed use residential and commercial buildings is so ubiquitous and found in so many different localities from coast to coast in the USA, I'm surprised something similar hasn't been available for download before.
+
+    It is modeled as an L shaped corner building so you can create courtyard arrangements. In reality, these corner lots are W2W buildings that are typically 4-8 floors with mixed use materials (stone, brick and differently painted render) and reasonably complex massing to create visual interest.
+
+    In all cases, the retail is located on the ground floor with apartments above. The CS versions contain the maxis storefront: both versions have shaded, seasonal props to eliven the lot.
+
+    It is offered as an R$$ apartment and a CS$$ growable on the modern Houston tileset.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike. This is the temperate version, a tropically lotted version will follow shortly.
+
+    If you want these to be ploppable, I suggest downloading buggis extra cheats which will enable you to select these from a drop down menu.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS CS$$:**
+
+    Lot size :                   4x4  
+    Growth Stage:          5 (Medium and High Density Zoning)  
+    Bulldoze Cost:          $ 432  
+    Capacity Satisfied:  CS$ 2,371 CS$$ 595  
+    Pollution:                  22 (Air)/ 14 (Water)/ 29 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:   48 Mwh  
+    Water Consumed:   573 Gal/Month  
+    Building Style:          Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building
+
+    **STATS R$$:**
+
+    Lot size :                  4x4  
+    Growth Stage:         5 (Medium and High Density Zoning)  
+    Bulldoze Cost:         $ 432  
+    Capacity Satisfied:  R$ 1,147 R$$ 634  
+    Pollution:                  5 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  9 Mwh  
+    Water Consumed:   24 Gal/Month  
+    Building Style:          Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building  
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/35159-storefront-usa/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/StorefrontUSA.jpg.ba634e78d6579636915bd49ace14ef83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/StorefrontUSA1.jpg.a9aae6e8ae2b389a5ecf93eb89d92ad6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/StorefrontUSA2.jpg.abe2eceab988684c10904ce5b80e6a16.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/StorefrontUSA3.jpg.44a2f845eb54189ca7bada486e6f1892.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-storefront-usa-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-storefront-usa-darknite
+
+---
+assetId: mattb325-storefront-usa-darknite
+version: "1.0.0"
+lastModified: "2022-04-25T04:11:47Z"
+url: https://community.simtropolis.com/files/file/35159-storefront-usa/?do=download&r=193933
+
+---
+assetId: mattb325-storefront-usa-maxisnite
+version: "1.0.0"
+lastModified: "2022-04-25T04:11:47Z"
+url: https://community.simtropolis.com/files/file/35159-storefront-usa/?do=download&r=193934

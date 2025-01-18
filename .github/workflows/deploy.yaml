@@ -3,6 +3,11 @@ name: Deploy channel
 on:
   workflow_dispatch: #
   workflow_call: #
+  push:
+    paths:
+      - 'src/yaml/**'
+    branches:
+      - main
 
 jobs:
   deploy:

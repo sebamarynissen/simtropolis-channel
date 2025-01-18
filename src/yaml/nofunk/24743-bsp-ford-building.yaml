@@ -1,0 +1,80 @@
+group: nofunk
+name: bsp-ford-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BSP Ford Building
+  description: |-
+    Designed by Daniel Burnham, the Ford Building was one of Detroit's earliest skyscrapers, and the tallest building in Detroit from its completion in 1909 until 1913. The building's name isn't connected to Henry Ford or the Ford Motor Company. Rather, it was constructed as the headquarters for the Edward Ford Plate Glass Company. But the building's most famous tennant was Sanders, a legendary Detroit ice cream and candy company which operated a store on the ground floor from the 1920s to the early 1990s.
+
+    There are two versions available:  
+      
+    • Ploppable high-wealth commercial office  
+    • Growable high-wealth commercial office  
+      
+    ***\*\* A DarkNite version of the Ford Building will be released immediately after this!***
+
+    * * *
+
+      
+    Files included:  
+      
+    **FordBuilding\_MaxisNite\_REQUIRED.SC4Model  
+    **This file includes the buildign model and is REQUIRED. Features TruNite.  
+      
+    **CO$$$7\_3x2\_FordBuilding\_MaxisNite\_GROW.dat**  
+         Occupants: 1,270  
+         Tileset: Chicago, New York  
+         Density: High  
+         Lot size: 3x3  
+    **  
+    CO$$$\_3x2\_FordBuilding\_MaxisNite\_PLOP.SC4Lot**  
+         Occupants: 1,270  
+         Tileset: Chicago, New York  
+         Density: High  
+         Lot size: 3x2  
+         Plop cost: $114,000  
+      
+    (A readme and two screen shots are also included; these are not required for game play.)  
+      
+
+    * * *
+
+      
+    **Installation Instructions:**  
+      
+    Simply unzip the contents of this folder into your Plugins folder. You can use any or all of the versions in the game without conflict, but you MUST keep the file labeled "REQUIRED" in your Plugins or you will get a brown box in the game.  
+      
+
+    * * *
+
+      
+    Created by: Nofunk  
+    Custom queries: JasonCW
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/24743-bsp-ford-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0d8fb16766d8e06c892baba0e8f85fb2-FordBldgMN_1.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0d8fb16766d8e06c892baba0e8f85fb2-FordBldgMN_21.jpg
+    - https://www.simtropolis.com/objects/screens/0008/4456149ba4d143f53015ac57a1d6a6e3-FordBldgDN_1.jpg
+    - https://www.simtropolis.com/objects/screens/0008/4456149ba4d143f53015ac57a1d6a6e3-FordBldgDN_2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nofunk-bsp-ford-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nofunk-bsp-ford-building-darknite
+
+---
+assetId: nofunk-bsp-ford-building-maxisnite
+version: "1.0"
+lastModified: "2010-08-26T21:48:25Z"
+url: https://community.simtropolis.com/files/file/24743-bsp-ford-building/?do=download&r=52145
+
+---
+assetId: nofunk-bsp-ford-building-darknite
+version: "1.0"
+lastModified: "2010-08-26T21:53:18Z"
+url: https://community.simtropolis.com/files/file/24744-bsp-ford-building-darknite-version/?do=download&r=52147

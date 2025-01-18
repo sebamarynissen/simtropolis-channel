@@ -1,0 +1,100 @@
+group: mattb325
+name: pedestrian-overpasses-road
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Pedestrian Overpasses (Road)
+  description: |-
+    **Pedestrian Overpass (Road), by Mattb325.  
+    \---------------------------------------**
+
+    A set of four pedestrian overpass bridges found in the parks menu. These bridges are in a lot family and you will get a different one each time you plop (thus reducing clutter in the already crowded parks menu).
+
+    The lot has a transparent base and can be placed on ground or water, making them quite unique.
+
+    To place, make a one-tile wide viaduct using the 15m hole digger lot that comes with the NAM, and then place the 1x1 lot on the slope: the bridge is a overhanging and will span the gap between the two sides. It means that the single lot can be used for road/avenue/NWM pieces/Highway/rail, etc. Even ploppable canal water will work.  
+    You can then use any of your favourite wall pieces (or MMPs) to decorate the slope along the viaduct.
+
+    Similarly, if placing this across ingame water, just use the hole digger pieces until you hit water and place the 1x1 on the slope: as long as the water is one tile wide, the bridge will fill the gap between both banks of the river.
+
+    The bridge will work with other depths (such as 7.5m), but visually looks best with 15m heights.  
+       
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                  1x1  
+    Bulldoze Cost:        $ 10  
+    Plop Cost:               $ 40  
+    Demand Satisfied: R$ 250, R$$ 250, R$$$ 250  
+    Landmark Effect:  +20 over 10 tiles  
+    Park Effect:            +15 over 15 tiles  
+    Pollution:                -2 (Air)/ 1 (Water)/ 0 (Garbage )  
+    Pollution Radius:   2/1/0  
+    Power Consumed: 0 Mwh  
+    Water Consumed: 5 Gal/Month  
+    Monthly Cost:        $ 5  
+    Occupant Group:   Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34453-pedestrian-overpasses-road/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd.jpg.bfd22687c941b8188d61aef731a212c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd1.jpg.07b1adbb2d081791d67616d85ad065a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd2.jpg.e6d5a13d6a676121d11b852a60c7d478.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd3.jpg.765f3628f8039a7289239638e8f4b006.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd4.jpg.07b6c017fa316863ce65dea917a2f089.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5.jpg.1b41768632da019fd0ad934daca8e5bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5a.jpg.313066e0e9170e4e5182fbfc05cf6352.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5b.jpg.09c2c27b08e4fa80038a819e81c11c64.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5c.jpg.4ec116b0d7de3d09ab67aa57b0a81e5f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5d.jpg.605c7e61b95e06bde721ea8ae20565f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5e.jpg.2516ae746fade33d4fb908fbd8479a91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5f.jpg.8657e7ff97f51ce01c62c039218c791c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5g.jpg.c37ed5e23d818f638be0a6a58d7610b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd5h.jpg.bb4afcfea306ff275d5a4061ad795361.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd6.jpg.ea8ee47012bcb5ced07c5feb7eb37f74.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd7.jpg.87fc10a10d56747339191eb8a05b72d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd7a.jpg.2b76b016835c87953f59044abfc36701.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd8.jpg.1fffdec99d66be9f7b34fe334ddf31b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd8a.jpg.757477c49a9fd26d6ee436048e817c17.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/PedRd8b.jpg.bc927e1e1dbad7a3c0c506348f5233c6.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pedestrian-overpasses-road-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pedestrian-overpasses-road-darknite
+
+---
+assetId: mattb325-pedestrian-overpasses-road-darknite
+version: "1.0.0"
+lastModified: "2021-05-16T03:50:21Z"
+url: https://community.simtropolis.com/files/file/34453-pedestrian-overpasses-road/?do=download&r=188011
+
+---
+assetId: mattb325-pedestrian-overpasses-road-maxisnite
+version: "1.0.0"
+lastModified: "2021-05-16T03:50:21Z"
+url: https://community.simtropolis.com/files/file/34453-pedestrian-overpasses-road/?do=download&r=188012
