@@ -1,0 +1,149 @@
+group: cogeo
+name: spirulina-farms
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Spirulina Farms
+  description: |-
+    Spirulina is blue-green micro-algae, sold as hygienic food, dietary supplement and astronaut food.
+
+    This pack contains two growable agricultural industry (I-R) stage-3 lots, sized 5x4 and 6x4. There is also a ploppable 6x4 lot and ploppable farm-fields, 3x2-large. The plugin can be configured for either SC4/RH or the Colossus Addon Mod (CAM). The 1x1-large farmfields grow with the farm (as usual) and can be configured to show all-same tubs (selected randomly and changed simultaneously twice a year) or various tubs or both. The 3x2-large farm-fields are ploppable (technical restrictions do not allow "real" farm-fields larger than 1x1), use bigger tub models, and change seasonaly (7 times a year). The pack contains 19 new BAT models in total.
+
+    **Credits:**
+    \- Special thanks to BarbyW, Ripplejet and wouanagaine for their help, reviewing and commenting on these.
+
+    Building/Lot Stats
+
+    Farm Lots (Grow & Plop)
+
+    Farm-Fields (Grow)
+
+    Farm-Fields (Plop)
+
+    Lot size
+
+    5x4, 6x4
+
+    1x1
+
+    3x2
+
+    Growth Stage
+
+    3
+
+    \-
+
+    \-
+
+    Plop Cost
+
+    $3000
+
+    \-
+
+    $750
+
+    Bulldoze Cost
+
+    $250
+
+    $5
+
+    $65
+
+    Building Value
+
+    $1500
+
+    \-
+
+    $375
+
+    I-Ag Jobs (RH/CAM)
+
+    14/91
+
+    1
+
+    7/23
+
+    Flammability/Stage
+
+    45/4
+
+    45/4
+
+    5/5
+
+    Power Consumption
+
+    12 MWh/mo
+
+    zone default
+
+    5 MWh/mo
+
+    Water Consumption
+
+    80 cu.m/mo
+
+    \-
+
+    15 cu.m/mo
+
+    Pollution(Air/Water)
+
+    4/7 over 6/7 tiles
+
+    0/2 over 0/2 tiles
+
+    0/2 over 0/4 tiles
+
+    Garbage Produced
+
+    8 tons/mo
+
+    \-
+
+    2 tons/mo
+
+    **Dependencies:
+    **[BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746) (a very popular prop-pack, most probably already installed)
+
+    [View my other Lots on the STEX](https://www.simtropolis.com/stex/index.cfm?page=1&keyword=cogeo&type=all)
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/19428-spirulina-farms/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8b40bea18f6c1fd0f002686e1140aadd-SPFLeft.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8b40bea18f6c1fd0f002686e1140aadd-SPFRight.jpg
+dependencies:
+  - cogeo:spirulina-farms-resources
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: cogeo-spirulina-farms
+    include:
+      - \.SC4Lot$
+
+---
+group: cogeo
+name: spirulina-farms-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Spirulina Farms resources
+  description: |-
+    This package is a resource for `pkg=cogeo:spirulina-farms`
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/19428-spirulina-farms/
+assets:
+  - assetId: cogeo-spirulina-farms
+    include:
+      - \.SC4Model$
+      - \.dat$
+
+---
+assetId: cogeo-spirulina-farms
+version: "1.0"
+lastModified: "2008-02-25T12:26:08Z"
+url: https://community.simtropolis.com/files/file/19428-spirulina-farms/?do=download&r=44135
