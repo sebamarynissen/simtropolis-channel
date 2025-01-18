@@ -38,14 +38,12 @@ variants:
       - assetId: seraf-hotel-pennsylvania
         exclude:
           - /NYBT_HotelPennsylvania_DN_Seraf/
-          - Winter
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: seraf-hotel-pennsylvania
         exclude:
           - /NYBT_HotelPennsylvania_MN_Seraf/
-          - Winter
 
 ---
 assetId: seraf-hotel-pennsylvania
