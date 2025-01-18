@@ -8,6 +8,7 @@ export default {
 		'bsc:mega-props-jrj-vol04',
   		'bsc:mega-props-jrj-vol05',
 	],
+	228: 'bsc:mega-props-rt-vol02',
 	272: 'bsc:mega-props-snm-vol01',
 	283: 'girafe:hedges',
 	294: 'girafe:common-spruces',
