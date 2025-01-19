@@ -1,5 +1,6 @@
 export default {
 	587: 'bsc:textures-vol02',
+	1335: 'blanco:train-prop-pack-sd',
 	1516: 'blanco:tram-prop-pack',
 	1573: 'blanco:train-prop-pack',
 	1579: 'manchou:houses-ag-models',
