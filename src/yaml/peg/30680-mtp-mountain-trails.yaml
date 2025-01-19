@@ -35,7 +35,11 @@ info:
 
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
   author: Pegasus
-  website: https://community.simtropolis.com/files/file/30680-peg-mtp-mountain-trails/
+  websites:
+    - https://community.simtropolis.com/files/file/30680-peg-mtp-mountain-trails/
+    # Note: we link the pine trails to this package because this package is 
+    # actually an upgrade of it and *overrides* it.
+    - https://community.simtropolis.com/files/file/11065-peg-pine-trails-v306/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2015_07/product_image.jpg.95f23fd42bc7a88cc5eb69f778a32881.jpg
 dependencies:

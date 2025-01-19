@@ -1,29 +1,31 @@
-group: peg
-name: pine-trails
-version: "1.1"
-subfolder: 660-parks
-info:
-  summary: Pine Trails
-  description: |-
-    The PEG Pine Trails completes the set Trail Parks. These are a direct replacement for the original Country Roads trail parks... and feature dirt paths that are designed to wind through the PEG Pine Forests.
+# We no longer include this in favor of the mtp-mountain-trails, which is an 
+# override without the pines. Both shouldn't be installed at the same time.
+# group: peg
+# name: pine-trails
+# version: "1.1"
+# subfolder: 660-parks
+# info:
+#   summary: Pine Trails
+#   description: |-
+#     The PEG Pine Trails completes the set Trail Parks. These are a direct replacement for the original Country Roads trail parks... and feature dirt paths that are designed to wind through the PEG Pine Forests.
 
-    This style also uses textures for the paths instead of BAT models.. so they are slope-conforming. The logs outlining the paths are BAT models. They are visible when plopping and serve as a visual guide to  proper lot orientation.
+#     This style also uses textures for the paths instead of BAT models.. so they are slope-conforming. The logs outlining the paths are BAT models. They are visible when plopping and serve as a visual guide to  proper lot orientation.
 
-    Dependencies:
-    \- [PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+#     Dependencies:
+#     \- [PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
 
-    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
-  author: Pegasus
-  website: https://community.simtropolis.com/files/file/11065-peg-pine-trails-v306/
-  images:
-    - https://www.simtropolis.com/objects/screens/0025/e3493738bb9178573a34d73cee997102-product_image.jpg
-dependencies:
-  - peg:mtp-super-pack
-assets:
-  - assetId: peg-pine-trails
+#     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+#   author: Pegasus
+#   website: https://community.simtropolis.com/files/file/11065-peg-pine-trails-v306/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/0025/e3493738bb9178573a34d73cee997102-product_image.jpg
+# dependencies:
+#   - peg:mtp-super-pack
+# assets:
+#   - assetId: peg-pine-trails
 
----
-assetId: peg-pine-trails
-version: "1.1"
-lastModified: "2025-01-19T15:08:21Z"
-url: https://community.simtropolis.com/files/file/11065-peg-pine-trails-v306/?do=download&r=205361
+# ---
+# assetId: peg-pine-trails
+# version: "1.1"
+# lastModified: "2025-01-19T15:08:21Z"
+# url: https://community.simtropolis.com/files/file/11065-peg-pine-trails-v306/?do=download&r=205361
