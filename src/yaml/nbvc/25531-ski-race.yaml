@@ -1,0 +1,29 @@
+group: nbvc
+name: ski-race
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Ski Race
+  description: |-
+    The Ski Race contains several Lots to build a ski race track.
+
+    No Dependencies
+
+    The base textures of the Lots are transparent and a snow mod is highly recommended. [https://www.simtropolis.com/STEX/details.cfm?id=20937](https://www.simtropolis.com/stex/details.cfm?id=20937)
+
+    For safety netting and ski lifts, you can have a look here [https://www.simtropolis.com/STEX/details.cfm?id=22995](https://www.simtropolis.com/stex/details.cfm?id=22995)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/25531-ski-race/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/24543cdb61ca8c1bbe03f271ad18bbec-SkiRace1.jpg
+    - https://www.simtropolis.com/objects/screens/0005/24543cdb61ca8c1bbe03f271ad18bbec-SkiRace2.jpg
+dependencies:
+  - peg:snow-mod-2
+assets:
+  - assetId: nbvc-ski-race
+
+---
+assetId: nbvc-ski-race
+version: "1.0"
+lastModified: "2010-12-23T07:25:32Z"
+url: https://community.simtropolis.com/files/file/25531-ski-race/?do=download&r=53383
