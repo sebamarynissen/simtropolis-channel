@@ -11,6 +11,11 @@ export default {
 	228: 'bsc:mega-props-rt-vol02',
 	272: 'bsc:mega-props-snm-vol01',
 	283: 'girafe:hedges',
+	285: 'bsc:mega-props-rt-wfk-vol02-wimps',
+	286: [
+		'bsc:mega-props-rt-wfk-vol02-wimps',
+		'bsc:mega-props-rt-wfk-vol01-cds',
+	],
 	294: 'girafe:common-spruces',
 	338: 'bsc:mega-props-jes-vol02',
 	339: 'bsc:mega-props-jes-vol03',
