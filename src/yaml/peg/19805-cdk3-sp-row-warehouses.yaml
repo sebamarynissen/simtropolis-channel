@@ -1,0 +1,43 @@
+group: peg
+name: cdk3-sp-row-warehouses
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: CDK3 SP Row Warehouses
+  description: |-
+    The CDK3\-SP Row Warehouses is a collection of 5 lots that are designed for use with the CDK3\-SP Seaport series. Styled along the lines of older break-bulk freight warehouses that string along the docks of many harbors, these lots are all modular and designed to join together to form warehouses of any length and can even wrap around corners.
+
+    Available in 2x, 3x, 4x, Inner & Outer Corner varieties, the lots can be used by themselves or linked together to wrap around any terrain. The lots can also be plopped fully on dry land for use along your railways or part of a larger rail-freight facility.
+
+    All of the lots are ploppable. All are IND-M lots with jobs, except for the Outer Corner lot which can be difficult to provide road access to. All of the lots are fully compatible with other CDK3\-SP lots and can be used anywhere within your CDK3\-SP harbor project.
+
+    The Inner Corner & 4x lots are transit enabled for rail. The other lots are not and therefor can easily be plopped next to each other. The 3x lot features a transit-enabled central driveway that is visually enabled only. It will allow a connection to an adjacent roadway but will not impair traffic flow in anyway.
+
+    All of the lots feature a multitude of random, timed props that appear and disappear throughout the day to simulate activity. The randomness of the props should allow you to plop numerous lots together without it appearing too repeatitive.
+
+    Again, sorry for the rather long list of dependencies but as stated before, if you are using these lots with your other CDK3\-SP Seaport lots, you should already have all of these files installed.
+
+    **\*\* This lot requires the following CDK3 dependency files:**PEG\-CDK3 SUPER PAK
+    PEG\-CDK3\-SP SEAPORT SUPER PAK
+    PEG\-CDK3\-SP Rail Fleet
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19805-peg-cdk3-sp-row-warehouses/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5df4446d696c39a1be51608273ea44b6-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5df4446d696c39a1be51608273ea44b6-product_image1.jpg
+dependencies:
+  - peg:cdk3-rail-fleet
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-super-pak
+  - peg:security-fencing
+assets:
+  - assetId: peg-cdk3-sp-row-warehouses
+
+---
+assetId: peg-cdk3-sp-row-warehouses
+version: "1.0"
+lastModified: "2008-05-16T17:25:14Z"
+url: https://community.simtropolis.com/files/file/19805-peg-cdk3-sp-row-warehouses/?do=download&r=44769

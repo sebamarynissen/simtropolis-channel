@@ -1,0 +1,49 @@
+group: peg
+name: cdk3-super-pak
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: CDK3 SUPER PAK
+  description: |-
+    This is a compilation of the primary CDK3 dependency files. If you already have the dependency files listed below, you will not have to download and install this file. However, all future CDK3 lots requiring any of the listed dependencies, will list this file instead. There also may be a slight game load time reduction having all the dependencies combined into a single file.
+
+    This SUPER PAK replaces the following CDK3 dependency files:
+
+    > 1\. CDK3 Resource Pack 1 ( PEG\-CDK3\_Resource-Pack\_01.dat )
+
+    2\. CDK3 Ship Pack 1 ( PEG\-CDK3\_PropPack\_Ships\_01.dat )
+
+    3\. CDK3 Vehicle Pack 1 ( PEG\-CDK3\_PropPack\_Vehicles\_01.dat )
+
+    4\. CDK3 Trawler Pack 1 ( CDK3\_Trawlers\_RESOURCE.dat )
+
+    5\. CDK3 REC Boats Pack ( PEG\-CDK3\_Rec-Boats\_RESOURCE\_101.dat )
+
+    6\. CDK3 Basics\* ( PEG\-CDK3\_Basics\_100.dat )
+
+    Once the CDK3 SUPER PACK is installed, you can safely remove the files listed above.
+
+    IMPORTANT: The original CDK3 Basics file contained lots as well as dependency data. That dependency data only has been moved into the CDK3 SUPER PAK. The lot data only has been repackaged into a new file (version 1.10) which is included with this download. If you remove the original CDK3 Basics file, you should move the new version ( PEG\-CDK3\_Basics\_110.dat ) into the CDK3 Basics folder.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  websites:
+    - https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/
+    - https://community.simtropolis.com/files/file/19265-peg-cdk3-resource-pack-1/
+    - https://community.simtropolis.com/files/file/19268-peg-cdk3-ship-pack-1/
+    - https://community.simtropolis.com/files/file/18657-peg-cdk3-trawlers-pack-1/
+    - https://community.simtropolis.com/files/file/18774-peg-cdk3-rec-boats-pack-1/
+    - https://community.simtropolis.com/files/file/19266-peg-cdk3-basics/
+    # The vehicle pack is apparently available on the default channel. We might 
+    # want to use this one as a dependency for that one.
+    # - https://community.simtropolis.com/files/file/19267-peg-cdk3-vehicle-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e1b1c9d53f9b6fc379ec8bf0195776fd-product_image.jpg
+assets:
+  - assetId: peg-cdk3-super-pak
+
+---
+assetId: peg-cdk3-super-pak
+version: "1.0"
+lastModified: "2008-06-07T08:05:49Z"
+url: https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/?do=download&r=44891
