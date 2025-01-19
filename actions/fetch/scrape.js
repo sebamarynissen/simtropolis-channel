@@ -82,8 +82,6 @@ export default async function scrape(url) {
 			subfolder = '360-landmark';
 		} else if (description.match(/\bparks? menu\b/i)) {
 			subfolder = '660-parks';
-		} else if (description.match(/\bjobs\b/i)) {
-			subfolder = '300-commercial';
 		}
 	}
 	return { description, images, subfolder };
