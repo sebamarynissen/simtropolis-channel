@@ -1,0 +1,39 @@
+group: nbvc
+name: hut-with-snow
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Hut (With Snow)
+  description: |-
+    This zip-file contains a small hut.
+
+    Lot size is 1x1.
+
+    There is a folder called "zzzNBVCSnowHut" in the zip-file. If you remove this folder, you will have the hut without snow.
+
+    All plopped huts will automatically change to the version without snow.
+
+    The hut is located in the park menu.
+
+    No Dependencies
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/25532-hut-with-snow/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c6921f9d850afb592700ec97e593648a-hut1.jpg
+dependencies:
+  - peg:snow-mod-2
+variants:
+  - variant: { peg:snow-mod:season: summer }
+    assets:
+      - assetId: nbvc-hut-with-snow
+        exclude:
+          - /zzzNBVCSnowHut/
+  - variant: { peg:snow-mod:season: winter }
+    assets:
+      - assetId: nbvc-hut-with-snow
+
+---
+assetId: nbvc-hut-with-snow
+version: "1.0"
+lastModified: "2010-12-23T07:48:47Z"
+url: https://community.simtropolis.com/files/file/25532-hut-with-snow/?do=download&r=53385

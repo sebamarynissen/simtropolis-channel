@@ -1,0 +1,88 @@
+group: peg
+name: ski-resort
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: SKI RESORT
+  description: |-
+    The **PEG Ski Resort** is a collection of semi-modular lots & accessories that allows you to build a realistic Ski Resort Complex in your cities. The Ski resort is designed to supplement the new PEG Snow Mod 2**.** However, these are bi-seasonal lots that remain year round. They automatically change to a snowy, active ski resort when the Snow Mod in installed...  and revert back to a largely empty off-season snowless look when the Snow Mod is removed.
+
+    *\* The **Snow Mod** is not actually required to use these lots. They can remain in the snowless "summer mode"  all year round.*
+
+    *\* This collection was also designed to supplement the* MTP*. But again, the MTP is not required. The collection is fully self-contained with no outside dependencies.*
+
+    * * *
+
+    ***From the Staff & Members of SimPeg.Com to our Friends & Brothers In Sim at Simtropolis...
+    Merry Christmas !!***
+
+    * * *
+
+    This all started with a discussion at SimPeg about whether it was possible to make a Ski Resort Chair Lift for the game that actually had cables running from tower to tower, top to bottom... and could be plopped up a sloped hillside. Well, it turns that it is indeed possible.
+
+    The heart of the resort is, of course, the Chair Lifts.  There are two... one that runs straight up the mountain and one that runs up diagonally. Each Chair Lifts uses a single, extended model that is approx. 22 tiles long. Yet, they reside on a 2x2 lot. This means that there is actually no lot under the majority of the Chair Lift and you can freely raise or lower the terrain to match the towers, add Mayor Flora props... or even plop other lots.
+
+    Beyond what we can see on the surface, the real heart of this collection is the "mojo" that goes on under the hood. Everything is bi-seasonal... snow and no-snow... and automatically transformed when you install or remove the Snow Mod. When installed, the roofs are covered with snow and icicles, skiers are everywhere, parking lots are full... and the resort is alive with activity.  When  the Snow Mod is removed, the snow is gone... and the skiers and cars in the lot along with it. But the resort's facilities remain... in a closed down, boarded-up state as they wait patiently for the next ski season.
+
+    Lets unwrap this monster and see what you get:
+
+    **1.  The Chair Lifts.**
+    *There are 2, normal & diagonal. Complete with base and upper stations. They slope steadily up the mountain and can be used anywhere on your resort.
+    In Winter, roofs are snow covered,   the chairs are full of skiers.... and there are queue lines of skiers at the base station.*
+
+    **2\. The Ticket Sales Booth.**
+    *A combination of ticket sales windows, some admin offices and a small maintenance area. This lot contains a significant number of jobs to represent all the employees that work throughout the resort. Having jobs, it must be plopped at the base or the resort with road access. Has it's own modular parking area.
+    In  Winter, the roof is snow covered, skiers are lined up to buy tickets... and the parking lot is full during the day.*
+
+    **3\.  The Base Lodge.**
+    *A large resort Lodge with snack & dining facilities, restrooms, lockers and all the normal lodge-type facilities. The basic starting point, lunch stop and Apres Ski hangout for all the skiers. Like many real-world resort lodges, the bar & restaurant remain open year-round to extend profitability into the off-season. Also has lots of jobs and modular parking area.
+    In Winter, the roof is snow covered as are several other horizontal surfaces & bushes, etc, the ski racks are full of skis, skiers are everywhere... and the parking lot is full.*
+
+    **4\. The Ski School.**
+    *aka... Snow Plow City. Where newbies and novices learn to become even more dangerous. A 2x2 lot that can be plopped anywhere on or around the Ski Resort.
+    In Winter, the roof & fence rails are snow covered and skiers line up to learn how to fall down.*
+
+    **5\. Safety Netting.**
+    *Three 1x1 lots with the classic orange-red safety netting you see on virtually all ski resorts. The 3 lots include a straight,, a diagonal and a curved netting section. The netting orients to the slope. These lots are year-round and can be plopped anywhere on your resort.*
+
+    **6\. Ploppable Skiers.**
+    *Can't have a ski resort without skiers. There are two 1x1 lots that allow you to plop skiers anywhere on your resort. One lot uses the animated skateborder props from the game's skate park so you can have snow boarders carving up the slopes. The other lot uses random static skier props with random chance factors to increase the variations from lot to lot.
+    In Summer, these lots remain but have no terrain texture and no skier props are visible. The lot menu icons are also hidden when the Snow Mod is not installed.*
+
+    **7\. Snow Paths.**
+    *For extra continuity, a new Mayor Flora menu ploppable path textured has been added. The path texture matches the paths used on the various resort lots so you can visually connect them with pathways. This is one of the first, newly developed Terrain Intuitive Textures (T.I.T.s ) that adapts to the underlying terrain. In Summer, the path is dirt. In Winter, it adapts to the snow and becomes a barely visible snow tract.*
+
+    **8\. Ponds & Streams.**
+    *Another new Mayor Flora menu ploppable T.I.T texture ... similar to the PPond small water plop.  Can be used to create small ponds and streams. Turns to ice in the Winter.*
+
+    **9\. Player Selectable Resort Signs.**
+    *You can choose 1 of 4 different resort signs to be displayed anywhere a sign is used in your resort. BATers can easily design and add their own. Two additional 1x1 lots are provided that use the same selected resort sign style and can be used to plop the resort's main sign anywhere you want... or a billboard version along roadways leading to your resort.*
+
+    *\* All of these lots are Park lots. Some provide Civic Jobs. The Menu icons are all grouped together near the bottom of the Park's Menu.*
+
+    *\* Please consult the included readme file for more detailed information on using this collection.*
+
+    *\* Additional lots for the collection are in development... including Ski Rentals & the essential Half-Way Hut.*
+
+    ***\*  Special thanks to the PCG and members of SimPeg.Com for the initial idea & inspiration for this project...***  ***and for the continuous contribution of ideas & laborious testing.***
+
+    **\*\* This file has no direct dependencies. However...**
+
+    **the** **PEG Snow Mod 2** **is required to switch on all the Winter effects.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/22995-peg-ski-resort/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bc2ab2abb5939177a923535f6237bbf5-product_image1_st.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bc2ab2abb5939177a923535f6237bbf5-product_image2_st.jpg
+dependencies:
+  - peg:snow-mod-2
+assets:
+  - assetId: peg-ski-resort
+
+---
+assetId: peg-ski-resort
+version: "1.0"
+lastModified: "2009-12-20T11:03:22Z"
+url: https://community.simtropolis.com/files/file/22995-peg-ski-resort/?do=download&r=49647

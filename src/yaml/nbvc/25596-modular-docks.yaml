@@ -1,0 +1,79 @@
+group: nbvc
+name: modular-docks
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modular Docks
+  description: |-
+    This is a set of 34 Lots to build custom docks.
+
+    It contains some piers, warehouses, cranes, roads, fences and rail depots.
+
+    The docks have no seaport functionality.
+
+    Two of the rail depots have freight rail functionality.
+
+    All Lots are in the seaport menu.
+
+    Dependencies:
+
+    [PEG\_SecurityFence](https://www.simtropolis.com/stex/details.cfm?id=19338)
+
+    [PEG\-CDK3\_RailFleet](https://www.simtropolis.com/stex/details.cfm?id=19786)
+
+    [Rail Yard and Spur Textures](https://www.simtropolis.com/stex/details.cfm?id=15976)
+
+    [BSC MEGA Props - RT WFK Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=286)
+
+    [BSC MEGA Props - RT WFK N Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=285)
+
+    [BSC MEGA Props - Gascooker Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+    [BSC Mega Props - JES Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+
+    [BSC Mega Props - JES Vol03](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=339)
+
+    [BSC Mega Props - JES Vol04](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=791)
+
+    [BSC Mega Props - JES Vol06](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1416)
+
+    [BSC Mega Props - JES Vol07](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1495)
+
+    [BSC Mega Props - JES Vol08](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1778)
+
+    [BSC MEGA Props - Misc Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771)
+
+    For the single track rail depot you need RAM - Single track rail
+
+    https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1996
+
+    [**Network Addon Mod**](https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-for-windows-installer/) (most probably, since the RAM now is part of the **NAM**)
+
+    edit: updated dependency link - Tyberius06
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/25596-modular-docks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a964d7e88e4958a9d71bdf221b520acd-docks1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a964d7e88e4958a9d71bdf221b520acd-dock2.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-rt-wfk-vol01-cds
+  - bsc:mega-props-rt-wfk-vol02-wimps
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - peg:cdk3-sp-rail-fleet
+  - peg:security-fencing-kit
+assets:
+  - assetId: nbvc-modular-docks
+
+---
+assetId: nbvc-modular-docks
+version: "1.0"
+lastModified: "2010-12-29T11:07:39Z"
+url: https://community.simtropolis.com/files/file/25596-modular-docks/?do=download&r=53469
