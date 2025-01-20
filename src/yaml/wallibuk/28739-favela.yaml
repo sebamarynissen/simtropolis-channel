@@ -16,6 +16,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_07_2013/418cc8da613a86176d315638d49cd0c9-obrazok.jpg
 assets:
   - assetId: wallibuk-favela
+    exclude:
+    - "/Favela-0x6534284a-0xfe69b8f4-0xfea7ad26.SC4Desc" # Extra desc not associated to any lot or model
 
 ---
 assetId: wallibuk-favela

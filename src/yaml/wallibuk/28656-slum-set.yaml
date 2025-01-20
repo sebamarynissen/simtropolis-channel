@@ -1,9 +1,9 @@
-group: "wallibuk"
-name: "slum-set"
+group: wallibuk
+name: slum-set
 version: "1.0"
-subfolder: "200-residential"
+subfolder: 200-residential
 info:
-  summary: "Slum set"
+  summary: Slum set
   description: |
     Its slum mainly from Africa or South America (favelas). Buildings don't need water. Growable.
 
@@ -22,23 +22,22 @@ info:
     BSC Mega Props - JES Vol01
 
     BSC MEGA Props - SG Vol 01
-    
-  author: "Wallibuk"
-  website: "https://community.simtropolis.com/files/file/28656-slum-set/"
+  author: Wallibuk
+  website: https://community.simtropolis.com/files/file/28656-slum-set/
   images:
-  - "https://www.simtropolis.com/objects/screens/monthly_05_2013/22cc2614eec31c5057d03e7b029de125-santiago-mar-14--121366530735.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_05_2013/cf31224d77b894150bf8e3cc2505440e-santiago-mar-21--121366530762.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_05_2013/384603f304ecc5f9cdf01bab41b67981-santiago-mar-24--121366530782.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_05_2013/aa709602277349598239fc5acb1d7d62-santiago-mar-9--121366530706.png"
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/22cc2614eec31c5057d03e7b029de125-santiago-mar-14--121366530735.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/cf31224d77b894150bf8e3cc2505440e-santiago-mar-21--121366530762.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/384603f304ecc5f9cdf01bab41b67981-santiago-mar-24--121366530782.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/aa709602277349598239fc5acb1d7d62-santiago-mar-9--121366530706.png
 assets:
-- assetId: "wallibuk-slum-set"
+  - assetId: wallibuk-slum-set
 dependencies:
-- "lbt:mega-prop-pack-vol01"
-- "lbt:mega-textures-vol01"
-- "bsc:textures-vol02"
-- "bsc:textures-vol03"
-- "bsc:mega-props-jes-vol01"
-- "bsc:mega-props-sg-vol01"
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
 
 ---
 assetId: "wallibuk-slum-set"
