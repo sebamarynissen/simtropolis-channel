@@ -7,6 +7,7 @@ import { Minimatch } from 'minimatch';
 import yargs from 'yargs/yargs';
 import traverse from './traverse-yaml.js';
 import standardDeps from './standard-deps.js';
+import { styleText } from 'node:util';
 
 const { argv } = yargs(hideBin(process.argv));
 const dist = path.resolve(import.meta.dirname, '../dist/plugins');
@@ -36,10 +37,14 @@ for (let pkg of explicit) {
 	let set = new Set(result.packages);
 	set.delete('simfox:day-and-nite-mod');
 	result.packages = index[pkg] = [...set];
-	results.push(result);
+	results.push({
+		pkg,
+		result,
+	});
 }
 spinner.succeed('Tracked all dependencies');
-for (let result of results) {
+for (let { pkg, result } of results) {
+	console.log(styleText('yellow', pkg));
 	result.dump({ format: 'sc4pac' });
 }
 
