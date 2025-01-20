@@ -27,6 +27,10 @@ info:
 assets:
   - assetId: peg-cdk3-sp-seaport-super-pak
 
+    # This pack also includes the row warehouses for some reason.
+    exclude:
+      - PEG-CDK3-SP_RowWarehouses_110.dat
+
 ---
 assetId: peg-cdk3-sp-seaport-super-pak
 version: "1.0"
