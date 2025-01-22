@@ -109,9 +109,13 @@ async function generateList(dependencies) {
 		let metadata = await getInfo(def[0]);
 		let {
 			website,
-			websites = [website],
+			websites = website ? [website] : [],
 		} = metadata.info;
-		html += `<li><a href="${websites[0]}">${pkg}</a></li>\n`;
+		if (websites.length > 0) {
+			html += `<li><a href="${websites[0]}">${pkg}</a></li>\n`;
+		} else {
+			html += `<li>${pkg}</li>`;
+		}
 	}
 	html += '</ul>';
 	return html;
