@@ -1,31 +1,48 @@
-// # list-dependencies.js
+#!/usr/bin/env node
 import fs from 'node:fs';
+import { styleText } from 'node:util';
 import ora from 'ora';
+import { hideBin } from 'yargs/helpers';
+import yargs from 'yargs/yargs';
 
-// const pkg = 'kergelen:parkings-on-slope';
-const pkg = 'simmer2:victoria-park-station';
+const channels = [
+	String(new URL('../dist/channel/', import.meta.url)),
+	'https://memo33.github.io/sc4pac/channel/',
+	'https://sc4pac.simtropolis.com/',
+];
 
 async function buildIndex() {
 	let spinner = ora('Building up package index').start();
 	let index = {};
-	await Promise.all([
-		buildChannelIndex('https://memo33.github.io/sc4pac/channel/', index),
-		buildChannelIndex('https://sc4pac.simtropolis.com/', index),
-	]);
+	await Promise.all(channels.map(url => buildChannelIndex(url, index)));
 	spinner.succeed();
 	return index;
 }
 
+async function getJSON(url) {
+	let parsed = new URL(url);
+	if (parsed.protocol === 'file:') {
+		let contents = await fs.promises.readFile(parsed);
+		return JSON.parse(String(contents));
+	} else {
+		let res = await fetch(url);
+		return await res.json();
+	}
+}
+
 async function buildChannelIndex(channel, index = {}) {
 	let url = new URL('./sc4pac-channel-contents.json', channel);
-	let res = await fetch(url);
-	let json = await res.json();
+	let json = await getJSON(url);
 	for (let pkg of json.packages) {
 		let id = `${pkg.group}:${pkg.name}`;
-		index[id] = {
+		let arr = index[id] ??= [];
+		arr.push({
 			...pkg,
 			channel,
-		};
+		});
+		arr.sort((a, b) => {
+			return channels.indexOf(a.channel) - channels.indexOf(b.channel);
+		});
 	}
 	return index;
 }
@@ -33,16 +50,15 @@ async function buildChannelIndex(channel, index = {}) {
 async function getInfo(pkg) {
 	let { group, name, channel } = pkg;
 	let url = new URL(`./metadata/${group}/${name}/latest/pkg.json`, channel);
-	let res = await fetch(url);
-	return await res.json();
+	return await getJSON(url);
 }
 
 async function getDependencies(pkg, index) {
 	let def = index[pkg];
 	if (!def) throw new Error(`Package ${pkg} not found in any of the channels.`);
-	let info = await getInfo(def);
+	let info = await getInfo(def[0]);
 	let dependencies = [...new Set(info.variants
-		.map(variant => variant.dependencies)
+		.map(variant => variant.dependencies ?? [])
 		.flat()
 		.map(pkg => `${pkg.group}:${pkg.name}`)
 		.sort(),
@@ -50,7 +66,7 @@ async function getDependencies(pkg, index) {
 	let html = '<ul>';
 	for (let pkg of dependencies) {
 		let def = index[pkg];
-		let metadata = await getInfo(def);
+		let metadata = await getInfo(def[0]);
 		let {
 			website,
 			websites = [website],
@@ -74,5 +90,10 @@ async function getDependencies(pkg, index) {
 	console.log(`Written output to ${url}`);
 }
 
+const { argv } = yargs(hideBin(process.argv));
+if (argv._.length === 0) {
+	console.error(styleText('red', 'Please specify a package as argument'));
+	process.exit(1);
+}
 let index = await buildIndex();
-await getDependencies(pkg, index);
+await getDependencies(argv._[0], index);
