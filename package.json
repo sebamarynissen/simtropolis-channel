@@ -21,6 +21,7 @@
     "sc4pac": "node --env-file=.env scripts/sc4pac.js",
     "prune": "node --env-file=.env scripts/prune.js",
     "symlink": "node --env-file=.env scripts/symlink.js",
+    "list": "node scripts/list-dependencies.js",
     "fetch": "gh workflow run add-packages.yaml",
     "deploy": "gh workflow run deploy.yaml",
     "lint": "eslint actions/**/*.js",
