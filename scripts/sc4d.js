@@ -67,6 +67,7 @@ export default {
 	2349: 'bsc:mega-props-jes-vol09',
 	2383: 'bsc:bat-props-mattb325-vol02',
 	2489: 'bsc:mega-props-t1-vol03',
+	2612: 'lowkee33:seasonal-flora-patch-maxis',
 	2620: 'girafe:birches',
 	2687: 'girafe:cattails',
 	2711: 'girafe:bushes',
