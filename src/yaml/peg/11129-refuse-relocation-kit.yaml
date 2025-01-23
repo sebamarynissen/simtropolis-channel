@@ -18,8 +18,35 @@ info:
   website: https://community.simtropolis.com/files/file/11129-peg-refuse-relocation-kit/
   images:
     - https://www.simtropolis.com/objects/screens/0009/4f15b8b2f4bddbf94825c1784c878a1d-product_image.jpg
-assets:
-  - assetId: peg-refuse-relocation-kit
+variants:
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: blue }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-Blue_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: green }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-Green_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: orange }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-Orange_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: white }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-White_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
 
 ---
 assetId: peg-refuse-relocation-kit
