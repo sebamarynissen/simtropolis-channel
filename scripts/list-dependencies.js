@@ -6,12 +6,15 @@ import ora from 'ora';
 import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 
+const defaultChannel = 'https://memo33.github.io/sc4pac/channel/';
+
 class DependencyLister {
 	index = {};
 	cache = {};
+	defaultOnly = false;
 	channels = [
 		String(new URL('../dist/channel/', import.meta.url)),
-		'https://memo33.github.io/sc4pac/channel/',
+		defaultChannel,
 		'https://sc4pac.simtropolis.com/',
 	];
 
@@ -74,7 +77,8 @@ class DependencyLister {
 	}
 
 	// ## list(patterns)
-	async list(patterns) {
+	async list(patterns, opts = {}) {
+		this.defaultOnly = opts.defaultOnly;
 		let matchers = patterns.map(pattern => new Minimatch(pattern));
 		await this.buildIndex();
 		let packages = Object.keys(this.index).filter(pkg => {
@@ -174,10 +178,14 @@ class DependencyLister {
 				website,
 				websites = website ? [website] : [],
 			} = metadata.info;
+			let title = pkg;
+			if (this.defaultOnly && def[0].channel !== defaultChannel) {
+				title = `${metadata.info.author} ${metadata.info.summary}`;
+			}
 			if (websites.length > 0) {
-				html += `<li><a href="${websites[0]}">${pkg}</a></li>\n`;
+				html += `<li><a href="${websites[0]}">${title}</a></li>\n`;
 			} else {
-				html += `<li>${pkg}</li>`;
+				html += `<li>${title}</li>`;
 			}
 		}
 		html += '</ul>';
@@ -191,6 +199,5 @@ if (argv._.length === 0) {
 	console.error(styleText('red', 'Please specify a package as argument'));
 	process.exit(1);
 }
-
 const lister = new DependencyLister();
-await lister.list(argv._);
+await lister.list(argv._, argv);
