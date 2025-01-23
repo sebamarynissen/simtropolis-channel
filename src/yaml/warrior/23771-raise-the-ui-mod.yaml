@@ -1,0 +1,57 @@
+group: warrior
+name: raise-the-ui-mod
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Raise the UI Mod
+  description: |-
+    This tiny mod simply moves the the region name and the whole mayor user interface up by about 40 pixels.
+
+    **Why would you want to do that?**
+
+    Well if you change the games resolution to the same size as your screen, but run it in window mode it will look almost full screen (there will be no borders) but you will still have the windows taskbar at the bottom allowing you to switch applications easily and without waiting for the screen to go black and then go to the desktop as it does in full screen mode. The trouble with this is that the windows task bar covers up some of the UI. So this mod just moves the UI above the taskbar.
+
+    Only for people who have their windows taskbar on the bottom of the screen (most people)
+
+    **Setup**
+
+    To set SimCity to Windowed mode with the same resolution as you screen:
+
+    1.  Right click the SimCity 4 Icon, Click properties.
+
+    2.  In the target box **after** the last double quote (") type this (with the spaces, **without quotes**):
+        \-w -customresolution:enabled -r**1920x1080**x32
+
+    3.  Replace the 1920x1080 with your screen resolution, so if you have a 1600x1200 resolution you would type:
+        \-w -customresolution:enabled -r**1600x1200**x32
+
+    4.  Click Apply and then OK and start SimCity 4.
+
+    **Installation**
+
+    There is only one file in the zip which can go anywhere in the plugins folder.
+
+    It is incompatible with SimMars, The black UI mod (found on a Japanese site), and another other mod that recolours or modifies only the 2 sections of UI shown in the above screen shots.
+
+    It works fine with mods that modify other parts of the UI such as the God Terraforming in mayor Mode.
+
+    **Doesn't work on a 800x600 resolution, however hardly anybody has this resolution, and if you are playing at 800x600 you won't want to play in a window at that resolution, you'll what all the screen you can get.**
+
+    (Based on Windows 7's taskbar, which is thicker than previous Taskbars. Vut this still works on other operating systems.)
+
+    This mod is only 7KB.
+
+    If you have a problem use the comments, there is no support thread for this, but I will quite happily answer questions/problems in the comments here on the STEX.
+  author: warrior
+  website: https://community.simtropolis.com/files/file/23771-raise-the-ui-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7737ddc74e8206acaeab54729d19a128-cityviewbefore.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7737ddc74e8206acaeab54729d19a128-regionviewbefore.jpg
+assets:
+  - assetId: warrior-raise-the-ui-mod
+
+---
+assetId: warrior-raise-the-ui-mod
+version: "1.0"
+lastModified: "2010-04-25T05:07:14Z"
+url: https://community.simtropolis.com/files/file/23771-raise-the-ui-mod/?do=download&r=66624
