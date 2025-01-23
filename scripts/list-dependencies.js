@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { Minimatch } from 'minimatch';
 import fs from 'node:fs';
 import { styleText } from 'node:util';
 import ora from 'ora';
@@ -17,7 +18,8 @@ class DependencyLister {
 	// ## buildIndex()
 	// Fetches the package index from all the configured channgels.
 	async buildIndex() {
-		let spinner = ora('Building up package index').start();
+		let spinner = ora('Building up package index');
+		spinner.start();
 		await Promise.all(this.channels.map(url => this.buildChannelIndex(url)));
 		spinner.succeed();
 	}
@@ -71,18 +73,60 @@ class DependencyLister {
 		}
 	}
 
-	// ## getDependencies(id)
-	// Generates a full html document containing all dependencies for the given 
-	// pkg.
-	async getDependencies(id) {
+	// ## list(patterns)
+	async list(patterns) {
+		let matchers = patterns.map(pattern => new Minimatch(pattern));
 		await this.buildIndex();
+		let packages = Object.keys(this.index).filter(pkg => {
+			return matchers.some(mm => mm.match(pkg));
+		});
+		let spinner = ora('Listing dependencies').start();
+		let html = `<style>* {font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}</style>`;
+		for (let pkg of packages) {
+			spinner.text = `Listing dependencies for ${pkg}`;
+			html += await this.getDependencies(pkg);
+		}
+
+		// Add the copying code.
+		html += `<script>
+		let buttons = document.querySelectorAll('button');
+		for (let button of buttons) {
+			button.addEventListener('click', async () => {
+				let deps = button.closest('article').querySelector('aside');
+				let html = deps.outerHTML.trim();
+				let text = [...deps.querySelectorAll('ul > li a')].map(a => {
+					return '- '+a.textContent.trim();
+				}).join('\\n');
+				await navigator.clipboard.write([new ClipboardItem({
+					'text/html': new Blob([html], { type: 'text/html' }),
+					'text/plain': new Blob([text], { type: 'text/plain' }),
+				})]);
+			});
+		}
+		</script>`;
+
+		let url = new URL('../dist/copy.html', import.meta.url);
+		await fs.promises.writeFile(url, html);
+		spinner.succeed(`Written output to ${url}`);
+	}
+
+	// ## getDependencies(id)
+	// Generates the html for a certain package by its id.
+	async getDependencies(id) {
 		let packages = this.index[id];
 		if (!packages) {
 			throw new Error(`Package ${id} not found in any of the channels.`);
 		}
 		let pkg = await this.getInfo(packages[0]);
-		let html = `<style>* {font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}</style>`;
-		html += `<div><h1>${pkg.info.summary}</h1>`;
+		let html = '<article>';
+		html += `<h1>${pkg.info.summary}</h1>`;
+		let {
+			website,
+			websites = [website],
+		} = pkg.info || {};
+		if (websites[0]) {
+			html += `<div style="padding-bottom: 16px;"><a href="${websites[0]}">${websites[0]}</a></div>`;
+		}
 		if (pkg.info.images) {
 			html += `<img src="${pkg.info.images[0]}" style="width: 256px; height: 256px; object-fit: cover">`;
 		}
@@ -97,6 +141,7 @@ class DependencyLister {
 			let subset = dependencies.map(pkg => `${pkg.group}:${pkg.name}`);
 			common = common.intersection(new Set(subset));
 		}
+		html += '<aside>';
 		html += '<h4>Dependencies:</h4>';
 		html += await this.generateList([...common].sort());
 		for (let variant of pkg.variants) {
@@ -113,21 +158,10 @@ class DependencyLister {
 			html += `<h4>${title}:</h4>`;
 			html += await this.generateList([...unique].sort());
 		}
-		html += '</div>';
+		html += '</aside>';
 		html += '<div><button>Copy dependencies</button></div>';
-		html += `<script>document.querySelector('button').addEventListener('click', async () => {
-			let html = document.querySelector('div').outerHTML;
-			let text = [...document.querySelectorAll('div > ul > li a')].map(a => {
-				return '- '+a.textContent.trim();
-			}).join('\\n');
-			await navigator.clipboard.write([new ClipboardItem({
-				'text/html': new Blob([html], { type: 'text/html' }),
-				'text/plain': new Blob([text], { type: 'text/plain' }),
-			})]);
-		});</script>`;
-		let url = new URL('../dist/copy.html', import.meta.url);
-		await fs.promises.writeFile(url, html);
-		console.log(`Written output to ${url}`);
+		html += '</article>';
+		return html;
 	}
 
 	// # generateList(deps)
@@ -159,4 +193,4 @@ if (argv._.length === 0) {
 }
 
 const lister = new DependencyLister();
-await lister.getDependencies(argv._[0]);
+await lister.list(argv._);
