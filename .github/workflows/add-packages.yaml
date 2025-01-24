@@ -51,6 +51,7 @@ jobs:
         if: steps.fetch.outputs.has-new-content == 'true'
         uses: memo33/sc4pac-actions/actions/setup-lint@main
       - name: Create & update PRs
+        if: steps.fetch.outputs.has-new-content == 'true'
         id: create-prs
         uses: ./actions/create-prs
         with:
@@ -59,6 +60,7 @@ jobs:
           packages: ${{ steps.fetch.outputs.packages }}
           timestamp: ${{ steps.fetch.outputs.timestamp }}
       - name: Send DMs on Simtropolis
+        if: steps.fetch.outputs.has-new-content == 'true'
         uses: ./actions/send-messages
         with:
           messages: ${{ steps.create-prs.outputs.messages }}

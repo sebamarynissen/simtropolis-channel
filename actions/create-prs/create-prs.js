@@ -64,6 +64,8 @@ if (packages.length > 0) {
 	}
 	core.setOutput('messages', JSON.stringify(messages));
 
+} else {
+	core.setOutput('messages', JSON.stringify([]));
 }
 
 // At last we will update the `LAST_RUN` file. It's crucial that this happens 
