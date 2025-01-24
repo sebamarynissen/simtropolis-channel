@@ -11,7 +11,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 
 - Minimize the amount of work needed by the admins of Simtropolis.
 - Automate the generation of yaml metadata as much as possible with as minimal friction as possible for content creators.
-- Backfill the channel with as much existing content from the STEX as feasible. See https://github.com/sebamarynissen/simtropolis-channel/issues/99 for the progress.
+- Backfill the channel with as much existing content from the STEX as feasible. See [#99](https://github.com/sebamarynissen/simtropolis-channel/issues/99) for the progress.
 
 ## Roadmap
 
