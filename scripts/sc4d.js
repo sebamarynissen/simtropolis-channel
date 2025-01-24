@@ -103,6 +103,7 @@ export default {
 	3347: 'girafe:elms',
 	3357: 'simmer2:rrw-nsb-tex',
 	3359: 'bsc:bat-props-vdk-vol02',
+	3404: 'mgb204:anyone-for-tennis',
 	3434: 'simmer2:mega-prop-pack-vol2',
 	3448: 'vip:delecto-ploppable-people',
 	3451: 'girafe:canary-date-palms',
