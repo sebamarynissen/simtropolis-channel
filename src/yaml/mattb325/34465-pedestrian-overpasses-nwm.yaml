@@ -1,0 +1,97 @@
+group: mattb325
+name: pedestrian-overpasses-nwm
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Pedestrian Overpasses (NWM)
+  description: |-
+    **Pedestrian Overpass (Network Widening Mods), by Mattb325.  
+    \---------------------------------------**
+
+    A set of two pedestrian overpass bridges found in the parks menu. These bridges will help traverse the three-tile-wide NWM and RHW6 & 7 pieces, for which no such footbridge exists. The bridges are in a lot family and you will get a different one each time you plop (thus reducing clutter in the already crowded parks menu).
+
+    The lot has a transparent base and can be placed on ground or water, making them quite unique.
+
+    To place, make a three-tile wide viaduct using the 15m hole digger lot that comes with the NAM, and then place the 1x1 lot on the slope: the bridge is a overhanging and will span the gap between the two sides. It means that the single lot can be used for road/avenue/NWM pieces/Highway/rail, etc. Even ploppable canal water will work.  
+    You can then use any of your favourite wall pieces (or MMPs) to decorate the slope along the viaduct.
+
+    Similarly, if placing this across ingame water, just use the hole digger pieces until you hit water and place the 1x1 on the slope: as long as the water is three tiles wide, the bridge will fill the gap between both banks of the river.
+
+    The bridge will work with other depths (such as 7.5m), but visually looks best with 15m heights.  
+       
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                  1x1  
+    Bulldoze Cost:         $ 10  
+    Plop Cost:                $ 40  
+    Demand Satisfied:  R$ 250, R$$ 250, R$$$ 250  
+    Landmark Effect:   +20 over 10 tiles  
+    Park Effect:             +15 over 15 tiles  
+    Pollution:                 -2 (Air)/ 1 (Water)/ 0 (Garbage )  
+    Pollution Radius:    2/1/0  
+    Power Consumed: 0 Mwh  
+    Water Consumed:  5 Gal/Month  
+    Monthly Cost:         $ 5  
+    Occupant Group:    Civic; Park
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this lot.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34465-pedestrian-overpasses-nwm/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM.jpg.59bbc6ebc8d2d4935ee92f8a36ac8029.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM1.jpg.733796e284f1c4c2cac18a94c28a3485.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM2.jpg.388e69f7b9525b759ce9e3bfedae4a9a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM2a.jpg.3e9da3c5acbcdb84b1a25b86a7548846.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM2b.jpg.0fb189542b2e02e21f79cd44f35e3594.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM3.jpg.cfcdf5668ccde804b01c744ef9318ed9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM4.jpg.4ee2b69313684281f3531328b1956bd4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM5.jpg.7a4e2a5f346af66c517c051c3a504bba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM5a.jpg.66cdee20410901227d90ff0d560836b9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM5b.jpg.bc5008245f5f2051842e65a5562747a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM5c.jpg.c6fb223dc2084462fa0089225fead538.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM6.jpg.42c0280a4abf84cc7cf64574675cedc2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM6a.jpg.5cf1d2cc949606daf8c9ec0301c17c61.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM6b.jpg.32c400d38fefdf53c72f121b1ce717b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM7.jpg.e7648a5df30df156d6793f7b1ef2c641.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM7a.jpg.32c87791c5120501bf42bff0c3c85cea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Ped_NWM7b.jpg.13709819ef105d480d5fcadf575101cd.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-pedestrian-overpasses-nwm-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-pedestrian-overpasses-nwm-darknite
+
+---
+assetId: mattb325-pedestrian-overpasses-nwm-darknite
+version: "1.0.0"
+lastModified: "2021-05-19T00:56:43Z"
+url: https://community.simtropolis.com/files/file/34465-pedestrian-overpasses-nwm/?do=download&r=188135
+
+---
+assetId: mattb325-pedestrian-overpasses-nwm-maxisnite
+version: "1.0.0"
+lastModified: "2021-05-19T00:56:43Z"
+url: https://community.simtropolis.com/files/file/34465-pedestrian-overpasses-nwm/?do=download&r=188136

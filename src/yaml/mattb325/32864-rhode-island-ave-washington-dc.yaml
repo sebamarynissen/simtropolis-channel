@@ -1,0 +1,98 @@
+group: mattb325
+name: rhode-island-ave-washington-dc
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: Rhode Island Ave Washington DC
+  description: |-
+    **Rhode Island Avenue Washington DC, by Mattb325.  
+    \---------------------------------------**
+
+    I'm always on the look-out for corner W2W buildings that have a bit more visual massing and layers than just a box with windows on two corner sides.
+
+    This is just such a building that was inspired by one on Rhode Island Avenue in Washington DC. It is a 9 story building with basement parking, but the two 8 story projections and the angled entrance foyer help to break up the facade rather nicely. With its alternative stacked pale brick walls, it is also a total 1970's relic, which is still somewhat lacking in game.
+
+    The building is offered in two different formats for corner lots.
+
+    1) A CS§§ growable on a 2x2 lot providing 239 jobs.
+
+    2) A CO§§ growable on a 2x2 lot providing 764 jobs.
+
+    The CO and CS are rotated differently so that both corners are covered.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  2x2  
+    Growth Stage:         7 (Medium and High Density Zoning)  
+    Bulldoze Cost:         § 639  
+    Capacity Satisfied:  CS§ 947, CS§§ 239  
+    Pollution:                  8 (Air)/ 5 (Water)/ 11 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 19 Mwh  
+    Water Consumed:  231 Gal/Month  
+    Building Style:         Euro/Chicago/New York/Houston  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **STATS CO§§:**
+
+    Lot size :                  2x2  
+    Growth Stage:         6 (Medium and High Density Zoning)  
+    Bulldoze Cost:         § 639  
+    Capacity Satisfied:  CO§§ 422  
+    Pollution:                  1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:   9 Mwh  
+    Water Consumed:   94 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Office Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    If you use the dark nite version (select the file with the 'DN' suffix), you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version. (the file with the 'MN' suffix)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32864-rhode-island-ave-washington-dc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/RhodeAve.jpg.652958ba299cf3589981cc7b6971ad3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/RhodeAve1.jpg.fb1c136d7d960b7bcaceec232cec388c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/RhodeAve2.jpg.16ec63e1926504e4f0243ed875728569.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/RhodeAve3.jpg.61b978c6d81e3add39945bea715a3f59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/RhodeAve4.jpg.2659012f086fbedba4adb80a1bdd3e30.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/RhodeAve5.jpg.1a8f90dcf24df032136e843151c72bf7.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-rhode-island-ave-washington-dc-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-rhode-island-ave-washington-dc-darknite
+
+---
+assetId: mattb325-rhode-island-ave-washington-dc-darknite
+version: "1.0.1"
+lastModified: "2019-04-18T22:16:38Z"
+url: https://community.simtropolis.com/files/file/32864-rhode-island-ave-washington-dc/?do=download&r=175548
+
+---
+assetId: mattb325-rhode-island-ave-washington-dc-maxisnite
+version: "1.0.1"
+lastModified: "2019-04-18T22:16:38Z"
+url: https://community.simtropolis.com/files/file/32864-rhode-island-ave-washington-dc/?do=download&r=175549

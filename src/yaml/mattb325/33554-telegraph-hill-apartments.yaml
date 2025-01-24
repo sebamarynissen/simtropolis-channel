@@ -1,0 +1,98 @@
+group: mattb325
+name: telegraph-hill-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Telegraph Hill Apartments
+  description: |-
+    **Telegraph Hill Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    Loosely inspired by a new-build set of apartments in Boston, these apartments are a good low-rise option to bridge the gap between row-houses and other small medium-density development and the taller apartment blocks that are typically found with custom content.  
+    At 5 floors, this building is made of mixed materials typical of the modern palette: chocolate brown bricks and gun metal grey aluminium cladding define the bulk of the structure while highlights are provided by cedar paneling.
+
+    The lots are offered in two medium wealth variants: a single 4x2 and a double 4x4 lot. Angled walls and elevations make an otherwise bland little building somewhat more interesting.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    **\---------------------------------------**
+
+    **STATS R§§:**
+
+    Lot size :                 4x2   
+    Growth Stage:        5 (Medium & High Density Zoning)  
+    Bulldoze Cost:        §318  
+    Capacity Satisfied:R§ 691, R§§ 383  
+    Pollution:                3 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:   5/6/0  
+    Power Consumed:6 Mwh  
+    Water Consumed: 15 Gal/Month  
+    Building Style:        Houston/NY/Chicago/Euro  
+    Occupant Group:   Medium Wealth Residential Building, BSC, BSC\-Mattb325
+
+    Lot size :                 4x4  
+    Growth Stage:        5 (Medium & High Density Zoning)  
+    Bulldoze Cost:        §318  
+    Capacity Satisfied:R§ 1,379, R§§ 762  
+    Pollution:                6 (Air)/ 3 (Water)/ 4 (Garbage )  
+    Pollution Radius:   5/6/0  
+    Power Consumed:11 Mwh  
+    Water Consumed: 29 Gal/Month  
+    Building Style:        Houston/NY/Chicago/Euro  
+    Occupant Group:   Medium Wealth Residential Building, BSC, BSC\-Mattb325
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))  
+    \*Mattb325 Urban Civics Prop Pack Vol01 DARK NITE: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3710](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3710))
+
+    **OR**
+
+    \*Mattb325 Urban Civics Prop Pack Vol01 MAXIS NITE: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3709](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3709))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33554-telegraph-hill-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TelegraphHill.jpg.06192ce3d6832e14c5f39b740610d3ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TelegraphHill1.jpg.660be314ac5e9261609fd18344275d64.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TelegraphHill2.jpg.4bd83ecb15ebbe94fc8480d13508fab3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TelegraphHill3.jpg.86c36cf3931bfa8d89c95c5f57d06369.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TelegraphHill4.jpg.b047c1d623c467bf02ed9946fe228e9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TelegraphHill5.jpg.f2c5cdf34dee3df33512525354553432.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-telegraph-hill-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-telegraph-hill-apartments-darknite
+
+---
+assetId: mattb325-telegraph-hill-apartments-darknite
+version: "1.0.0"
+lastModified: "2020-04-19T00:13:27Z"
+url: https://community.simtropolis.com/files/file/33554-telegraph-hill-apartments/?do=download&r=180680
+
+---
+assetId: mattb325-telegraph-hill-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2020-04-19T00:13:27Z"
+url: https://community.simtropolis.com/files/file/33554-telegraph-hill-apartments/?do=download&r=180681

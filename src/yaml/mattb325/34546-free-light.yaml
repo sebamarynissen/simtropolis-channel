@@ -1,0 +1,69 @@
+group: mattb325
+name: free-light
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Free Light
+  description: |-
+    **Free Light, by Mattb325.  
+    \---------------------------------------**
+
+    The idea for this upload came from a post in the "Can't find it, ask here" thread which asked for functional lights that can be freely placed to provide a lit path through fields, forests, highways etc.
+
+    While there are a couple of similar mods, they tend to use very bright lights and aren't that suited to pedestrian areas.
+
+    To that end, I have made two 1x1 lots: one with the standard Maxis $$ lamppost (which will change depending on whether you have a light replacement mod) and a HD lamppost with a nifty in-built solar panel from the SHK parking pack.
+
+    There is no base texture on these lots and they are modded in such a way as to allow MMPs to be placed right up against the lamppost. They are slope tolerant. They are found in the park menu.
+
+    The lots themselves are completely neutral: $0 to place/maintain and zero effects.
+
+    However, because both of these lights use the maxis light-cone as part of the illumination, you do need to ensure that there is a power source in your city (note the cheat: "fight the power" won't work with these effects) in order for them to illuminate in night mode.
+
+    These lights can be placed a maximum of four (4) tiles apart from each other/another powered lot and still illuminate.
+
+    These are very simple lots, but I was quite surprised that there isn't really anything similar already available, so I whipped these up.
+
+    **\---------------------------------------**
+
+    **STATS PARK:**
+
+    Lot size :                1x1  
+    Bulldoze Cost:      $0  
+    Plop Cost:             $0  
+    Pollution:               0 (Air)/ 0 (Water)/ 0 (Garbage )  
+    Pollution Radius:  0/0/0  
+    Power Consumed:0 Mwh  
+    Water Consumed: 0 Gal/Month  
+    Monthly Cost:        $0  
+    Occupant Group:   Civic; Park
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*SHK Parking Pack - ([https://community.simtropolis.com/files/file/27563-shk-parking-pack/](https://community.simtropolis.com/files/file/27563-shk-parking-pack/))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34546-free-light/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Freelight.jpg.6ef6216e80604c3b3d7da9b53d3ab21a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Freelight1.jpg.b12a073d760a03f2cf6e6b5e6ef93223.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Freelight2.jpg.54aa3a405ac058e88dc8961f42b6f1f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Freelight3.jpg.9eb6c6e18d593b1c66c66968b82388ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Freelight4.jpg.ddd52dc38c14b47d04a606a3eda88d6d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Freelight5.jpg.ee1bdce0973283b2797909ed5f4e8bb6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Freelight6.jpg.be1f042db65ee48d07030554573b17a5.jpg
+dependencies:
+  - shk:parking-pack
+assets:
+  - assetId: mattb325-free-light
+
+---
+assetId: mattb325-free-light
+version: "1.0.0"
+lastModified: "2021-06-22T01:27:20Z"
+url: https://community.simtropolis.com/files/file/34546-free-light/?do=download&r=188981

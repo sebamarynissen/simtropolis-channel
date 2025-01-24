@@ -1,0 +1,89 @@
+group: mattb325
+name: dallas-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Dallas Apartments
+  description: |-
+    **Dallas Apartments, by Mattb325.  
+    \---------------------------------------**
+
+    Dallas Apartments are a fictional building made as an homage to the 1980s.
+
+    Sixteen floors high, the design is based one of the 1980's favourite design shapes: the octagon. These are seen at the corners of all of the balconies.
+
+    In many parts of the world, the 1980s saw a resurgence of apartment building, and developers were keeen to tempt buyers away from homes in the suburbs. As a result, apartments of this era often had decently sized floorplans. Add things like crazy paving, a large communal sun-terrace and roof gardens, fifth floor gymnasium and residents lounge, kidney-shaped pool and underground parking make this a comfortable alternative to houses.
+
+    The lot size is 5x5. To get these to grow, use the CTRL key while zoning medium or high density.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    This is the Temperate-themed version. A tropically-themed version is available separately. Both temperate and tropical lots can be used at the same time, if you wish.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :                  5x5  
+    Growth Stage:         6 (Medium & High Density Zoning)  
+    Bulldoze Cost:         $ 863  
+    Capacity Satisfied: R$ 3,830 R$$ 2,115  
+    Pollution:                 17 (Air)/ 8 (Water)/ 8 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 29 Mwh  
+    Water Consumed:  78 Gal/Month  
+    Building Style:         New York, Chicago, Houston and Euro  
+    Occupant Group:    Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC BAT Props Mattb325 Vol02 ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34447-dallas-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Dallas.jpg.3c90ef43789614e1c200480c39430308.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Dallas1.jpg.5e544cd3319712c185d8ffafffff9188.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Dallas2.jpg.49ca9046a4e55e3ffb7f1c8cedc08fe0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Dallas3.jpg.16fbdaba1bec2877234416465c66015b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/Dallas4.jpg.433d870b4ab7d300849242edf113c637.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-dallas-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-dallas-apartments-darknite
+
+---
+assetId: mattb325-dallas-apartments-darknite
+version: "1.0.0"
+lastModified: "2021-05-12T21:53:51Z"
+url: https://community.simtropolis.com/files/file/34447-dallas-apartments/?do=download&r=187936
+
+---
+assetId: mattb325-dallas-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2021-05-12T21:53:51Z"
+url: https://community.simtropolis.com/files/file/34447-dallas-apartments/?do=download&r=187937

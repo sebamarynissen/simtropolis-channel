@@ -1,0 +1,37 @@
+group: gutterclub
+name: hawker-studios
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Hawker Studios
+  description: |-
+    **Hawker Studios** - These live and work studios fit in nicely with any urban neighborhood. Offer your sims the chance to own office and space living space in this new modern mixed use building.
+
+    Comes as a r$$ 1x2 lot housing 28 sims, delete either Darknite or Maxisnite folder after unzipping.
+
+    *depencies; Girafe Canary Palms, Simfox Darknite mod (for Darknite version)*
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/31567-hawker-studios/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/58f2c85c60413_LowerMurray-Nov.144961492304201.png.ed6938181096f390052d2a05e3cba080.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/58f2c86905552_LowerMurray-Nov.244961492304229.png.c42dcf4dc506b7f76877a8d3d215b685.png
+dependencies:
+  - girafe:canary-date-palms  
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-hawker-studios
+        exclude:
+          - /JPS - Hawker Studios DN/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-hawker-studios
+        exclude:
+          - /JPS - Hawker Studios MN/
+
+---
+assetId: gutterclub-hawker-studios
+version: "1.0"
+lastModified: "2017-04-16T01:30:21Z"
+url: https://community.simtropolis.com/files/file/31567-hawker-studios/?do=download&r=165379

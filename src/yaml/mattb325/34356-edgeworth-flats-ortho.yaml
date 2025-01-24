@@ -1,0 +1,102 @@
+group: mattb325
+name: edgeworth-flats-ortho
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Edgeworth Flats Ortho
+  description: |-
+    **Edgeworth Flats Ortho, by Mattb325.  
+    \---------------------------------------**
+
+    I am always on the lookout for lower mid-rise developments that can bridge the gap between the single family houses of suburbia and the high rise apartments of downtown. To that end, I have made a series of apartments all rotated at different angles.
+
+    This set is rotated at 90 degrees.
+
+    All the apartments are 6 floors; have underground parking, large balconies, landscaped grounds and a soft pastel colour-scheme.
+
+    They grow on a 4x3 or 5x5 lot.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    This series of buildings will also form a dependency for an upcoming mega lot.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :                  4x3  
+    Growth Stage:         5 (Medium & High Density Zoning)  
+    Bulldoze Cost:         $342  
+    Capacity Satisfied:  R$ 592 R$$ 328  
+    Pollution:                  2 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  5 Mwh  
+    Water Consumed:   13 Gal/Month  
+    Building Style:          New York, Chicago, Houston and Euro  
+    Occupant Group:     Medium Wealth Residential Building
+
+    **STATS R$$:**
+
+    Lot size :                  5x5  
+    Growth Stage:         5 (Medium & High Density Zoning)  
+    Bulldoze Cost:         $342  
+    Capacity Satisfied:  R$ 985 R$$ 545  
+    Pollution:                  4 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  8 Mwh  
+    Water Consumed:   21 Gal/Month  
+    Building Style:          New York, Chicago, Houston and Euro  
+    Occupant Group:     Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34356-edgeworth-flats-ortho/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/6070ba28075a9_EdgworthDiagOrtho2.jpg.ad283c31c6c73a6a3397ba7cc1c05362.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/EdgworthOrtho.jpg.16c07931d03e683d1488f14deffc1e78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/EdgworthOrtho1.jpg.4b3a0f10530012e1b045ff38b3e1626a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/EdgworthOrtho2.jpg.6c24488a65fb8f4683f820bf23c580ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/EdgworthOrtho3.jpg.c7f579e2856ccacb0bef6b3860244abc.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-edgeworth-flats-ortho-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-edgeworth-flats-ortho-darknite
+
+---
+assetId: mattb325-edgeworth-flats-ortho-darknite
+version: "1.0.0"
+lastModified: "2021-04-09T20:36:27Z"
+url: https://community.simtropolis.com/files/file/34356-edgeworth-flats-ortho/?do=download&r=187111
+
+---
+assetId: mattb325-edgeworth-flats-ortho-maxisnite
+version: "1.0.0"
+lastModified: "2021-04-09T20:36:27Z"
+url: https://community.simtropolis.com/files/file/34356-edgeworth-flats-ortho/?do=download&r=187112

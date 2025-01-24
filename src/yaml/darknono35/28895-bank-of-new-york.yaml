@@ -1,0 +1,61 @@
+group: darknono35
+name: bank-of-new-york
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Bank of New York
+  description: |-
+    **NYBT BANK OF NEW YORK**:
+
+    This folder contain several version of the building, as Darknite and Maxisnite. Please don't remove the "SC4\_model" folder.
+
+    Initialy called "Irving & Trust", the Bank of New York, or One Wall Street, was be built in 1929 and ended in 1931. The building is high of 200 meters for 50 floors over the ground level. It's an Art-deco designed by Voorhees, Gmelin & Walker.
+
+    In-game settings:
+
+    LANDMARK:
+
+    Job capacity: 7181 CO$$$
+    Pollution at center: Air=30 /Water=30 /Garbage=12 /Rad:0
+    Power consumed: 201
+    Water consumed: 2164
+    Flammability: 35
+    Max Fire Stage: 5
+    Lot size: 7x2
+    Plop cost: $46826
+
+    Deppendencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+    NYBT essential link : [https://community.simtropolis.com/files/file/22916-nybt\-essentials/](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    Thanks to all who supported me during the conception of this building ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Enjoyed ![:yes:](https://community.simtropolis.com/assets/emoticons/LlamaYes.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28895-nybt-bank-of-new-york/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/0847250c5b0230247872704a62e89b4e-nybt_bankofnewyork_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/7061d051fc90e5abf1f3004fbae662a3-nybt_bankofnewyork_01.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-bank-of-new-york-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-bank-of-new-york-darknite
+
+---
+assetId: darknono35-bank-of-new-york-darknite
+version: "2"
+lastModified: "2013-07-27T09:41:18Z"
+url: https://community.simtropolis.com/files/file/28895-nybt-bank-of-new-york/?do=download&r=118161
+
+---
+assetId: darknono35-bank-of-new-york-maxisnite
+version: "2"
+lastModified: "2013-07-27T09:41:18Z"
+url: https://community.simtropolis.com/files/file/28895-nybt-bank-of-new-york/?do=download&r=118162

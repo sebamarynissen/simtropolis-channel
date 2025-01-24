@@ -1,0 +1,80 @@
+group: darknono35
+name: lexington-financial-center
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Lexington Financial Center
+  description: |-
+    **DK35 FINANCIAL CENTER, LEXINGTON, KY**
+
+    *1/Two night version are inside this folder, Darknite and Maxisnite, choose only one version.*
+
+    *2/Don't remove the folder called "Model" otherwise, you will see the brown box in the game.*
+
+    *3/Plopable and Growable version.*
+
+    The Lexington Financial Center, locally know as "Fifth Third" or " Big Blue Building" is a 125 meters and 31 floors high rise in the Kentucky.
+
+    It's the tallest building in Kentucky outside Louisville.
+
+    In-game settings:
+
+    **LANDMARK**:
+
+    Jobs: 2202 CO$$
+
+    Pollution at center: Air:20 / Water:20 / Garbage:10 / Rad:0
+
+    Pollution radi: Air:5 / Water:6 / Garbage:0 / Rad:0
+
+    Power consumed: 102
+
+    Water consumed: 1030
+
+    Flammability: 40
+
+    Max fire stage: 5
+
+    Lot Size: 4x4
+
+    Plop cost: $25792
+
+    **GROWABLE**:
+
+    Occupant group: Houston
+
+    Lot size: 4x4
+
+    Grow Stage: 8
+
+    Dependencies:
+
+    Simfox darknite mod : [Here](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Enjoyed ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/29597-dk35-lexington-financial-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/a73f8755c94181f4ccbe6f16a79cbd03-dk35_lexingtonfcenter_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/264845b74b123e7e818c6fc930c2c437-dk35_lexingtonfcenter_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/dabe41037eae66f7e2d459e5a903dd4d-dk35_lexingtonfcenter_02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-lexington-financial-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-lexington-financial-center-darknite
+
+---
+assetId: darknono35-lexington-financial-center-darknite
+version: "1.0"
+lastModified: "2014-05-23T23:05:25Z"
+url: https://community.simtropolis.com/files/file/29597-dk35-lexington-financial-center/?do=download&r=134123
+
+---
+assetId: darknono35-lexington-financial-center-maxisnite
+version: "1.0"
+lastModified: "2014-05-23T23:05:25Z"
+url: https://community.simtropolis.com/files/file/29597-dk35-lexington-financial-center/?do=download&r=134124

@@ -1,0 +1,38 @@
+group: nbvc
+name: warehouse-dock-outer-corner
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Warehouse Dock Outer Corner
+  description: |-
+    A Warehouse Dock which can be combined with [PEG CDK3 SP Row Warehouses](https://www.simtropolis.com/stex/details.cfm?id=19805). It has size 9x13 and is a outer corner dock with rail connection. It provides manufacturing industry jobs, but has no seaport functionality.
+
+    [Large Image](http://www.ld-host.de/uploads/images/baaacb8fb76b981a211a0267fe54b839.jpg)
+
+    Dependencies:
+
+    [PEG\_SecurityFence](https://www.simtropolis.com/stex/details.cfm?id=19338)
+
+    [PEG\-CDK3\_RailFleet](https://www.simtropolis.com/stex/details.cfm?id=19786)
+
+    [PEG\-CDK3\_SUPER-PAK](https://www.simtropolis.com/stex/details.cfm?id=19880)
+
+    [SEAPORT SUPER PAK](https://www.simtropolis.com/stex/details.cfm?id=19881)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/23652-warehouse-dock-outer-corner/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d0c4d49bc3474fc1859ec459e20ff681-warehousedock1.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d0c4d49bc3474fc1859ec459e20ff681-warehousedock2.jpg
+dependencies:
+  - peg:cdk3-sp-rail-fleet
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: nbvc-warehouse-dock-outer-corner
+
+---
+assetId: nbvc-warehouse-dock-outer-corner
+version: "1.0"
+lastModified: "2010-04-05T09:27:49Z"
+url: https://community.simtropolis.com/files/file/23652-warehouse-dock-outer-corner/?do=download&r=50523

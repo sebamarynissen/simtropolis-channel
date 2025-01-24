@@ -1,0 +1,85 @@
+group: mattb325
+name: sun-moon-mall
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sun Moon Mall
+  description: |-
+    **Sun Moon Mall, by Mattb325.  
+    \---------------------------------------**
+
+    This is my own version of the SunMoon Mall from the SC3000 Asian Tileset and is designed to fill the gap in the lack of larger CS§§ buildings available.
+
+    The cluster of buildings on this lot is designed to look Asian, but will also fit in with Western Style cities and is redolent of a small chinatown district which is found in every city. Such districts are often located close to the city centre in old Victorian buildings that are re-purposed as shops and restaurants.
+
+    This set of 3 buildings (two from the Victorian Era and one from the mid 20th Century) replicates another rare commodity in SC4: narrow, bustling laneways.
+
+    In real cities, small laneways are very common. Due to the 16m wide network constraints in SC4, it isn't really possible to recreate busy, tightly packed buildings and narrow pedestrian thoroughfares, so this is the next best thing, and I do plan on making a few more examples of this sort of arrangement in future.
+
+    The building is offered as a CS§§ growable on a 4x4 medium and high-density lot providing 468 jobs. The benefit of having this size is that it easily upgrades to skyscrapers as your city grows, or, you can make it historic and allow the city to develop around it.
+
+    **Note:** the two Victorian-era buildings are available for separate download on [sc4devotion.com](https://www.sc4devotion.com/csxlex/lex_search_00.php?query=eyJjcmVhdG9yIjoiMjEiLCJvcmRlcl9ieSI6InJlY2VudCIsIm9yZGVyIjoiREVTQyIsImV4Y2x1ZGVfbG9ja2VkIjoiMSIsImV4Y2x1ZGVfbm90Y2VydCI6IjAiLCJxdWVyeSI6IiJ9) (obviously without the Chinese liveries).
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                   4x4  
+    Growth Stage:          4 (Medium and High Density Zoning)  
+    Bulldoze Cost:          § 513  
+    Capacity Satisfied:  CS§ 1,864, CS§§ 468  
+    Pollution:                  17 (Air)/ 11 (Water)/ 23 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  38 Mwh  
+    Water Consumed:   451 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    Select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32964-sun-moon-mall/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SunMoonMall.jpg.b7e230cb0fa4581c3b68ce2b993d878a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SunMoonMall1.jpg.142350a20197cbcbee3972e1de634aee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SunMoonMall2.jpg.91dd940927acbbc6781a23d9d0534e19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SunMoonMall3.jpg.080fe74fe43eaa89fb55b3e11dca30ca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SunMoonMall4.jpg.154804c662de6448c00cb52f154505ac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SunMoonMall5.jpg.d5c5e6f1f181dfd866d066b114193350.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-sun-moon-mall-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-sun-moon-mall-darknite
+
+---
+assetId: mattb325-sun-moon-mall-maxisnite
+version: "1.0"
+lastModified: "2019-06-16T00:57:32Z"
+url: https://community.simtropolis.com/files/file/32964-sun-moon-mall/?do=download&r=176145
+
+---
+assetId: mattb325-sun-moon-mall-darknite
+version: "1.0"
+lastModified: "2019-06-16T00:57:32Z"
+url: https://community.simtropolis.com/files/file/32964-sun-moon-mall/?do=download&r=176146

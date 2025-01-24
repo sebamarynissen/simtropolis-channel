@@ -1,0 +1,99 @@
+group: mattb325
+name: trimble-sydney
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Trimble, Sydney
+  description: |-
+    **Trimble Offices Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    Loosely inspired by the Trimble offices on Sydney's lower north shore, this building is a nine-floor mid-rise offering that works equally well on a suburban high street or in the middle of a dense down-town environment.
+
+    The building, made of composite face-brick and multi-coloured aluminium panel construction, has all of the details that a tech company would want for a regional office: under-cover parking, blocky and dumpy lower floor treatment to provide an air of stability, grand stair case (wheelchair access is via the adjacent, covered ramp) and of course, solar panels for 'green credentials'.
+
+    The building is offered as a CO§§ and CS§§ growable with two lot variants: a 3x2 and a 3x3 medium and high-density lot providing up to 548 jobs.
+
+    **\---------------------------------------**
+
+    **STATS CO§§:**
+
+    Lot size :                   3x2  
+    Growth Stage:          5 (Medium and High Density Zoning)  
+    Bulldoze Cost:          § 550  
+    Capacity Satisfied:  CO§§ 548  
+    Pollution:                   2 (Air)/  (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  11 Mwh  
+    Water Consumed:   119 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Office Building
+
+    **STATS CS§§:**
+
+    Lot size :                 3x3   
+    Growth Stage:        5 (Medium and High Density Zoning)  
+    Bulldoze Cost:        § 550  
+    Capacity Satisfied: CS§ 1,219, CS§§ 310  
+    Pollution:                 11 (Air)/ 7 (Water)/ 15 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 25 Mwh  
+    Water Consumed:  298 Gal/Month  
+    Building Style:         Euro/Chicago/New York/Houston  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))
+
+    \*Street Planters and Benches - Cycledogg V01.dat ([https://community.simtropolis.com/files/file/33284-street-planters-and-benches/](https://community.simtropolis.com/files/file/33284-street-planters-and-benches/))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33330-trimble-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df68bacb6319_TrimbleCO.jpg.c9c12a8e4fe010224bb59ec9629e32b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df68bb1ca731_TrimbleCO1.jpg.404a3025eb45064075c83a38425b9902.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df68bb6e1db2_TrimbleCO2.jpg.3386b93e510c873e453581a03e28dd0e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df68bbd94d2e_TrimbleCO3.jpg.3781d97f087dab666c0bee478ad28693.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df68bc21234b_TrimbleCO4.jpg.41dffd208314876bdc65d7259b641c01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df68bc66dc4b_TrimbleCS.jpg.b5bb513965ac93e2a124b75a059e0c2d.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - mattb325:street-planters-and-benches
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-trimble-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-trimble-sydney-darknite
+
+---
+assetId: mattb325-trimble-sydney-darknite
+version: "1.0.0"
+lastModified: "2019-12-15T19:41:46Z"
+url: https://community.simtropolis.com/files/file/33330-trimble-sydney/?do=download&r=179158
+
+---
+assetId: mattb325-trimble-sydney-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-15T19:41:46Z"
+url: https://community.simtropolis.com/files/file/33330-trimble-sydney/?do=download&r=179159

@@ -1,0 +1,39 @@
+group: gutterclub
+name: tyler-street-garage
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Tyler Street Garage
+  description: |-
+    Hello folks, here is the Tyler Street Garage. Yep another W2W quickie, this Bar and Cafe was formerly an old parking garage, converted into a shiny new Bar for your Sims to grab a beer and a bite to eat and perhaps have a drink on the rooftop terrace.
+
+    Comes with both Darknite and Maxisnite, just select which one when downloading.
+
+    It is a C$$ stage 5 growable with 20 jobs, if you wish to plop just use the extracheats.dll and look for 'tyler'
+
+    dependencies for Darknite use: [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/27814-tyler-street-garage/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/9d100a94c4a527d4c916ee827c78f160-kerrie-cbd-13-jul--7231342124296.png
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/77892b7ac81f1c370f5f0f8a696fe612-kerrie-cbd-7-sep--7161341059340.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-tyler-street-garage-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-tyler-street-garage-darknite
+
+---
+assetId: gutterclub-tyler-street-garage-darknite
+version: "1.0"
+lastModified: "2012-07-13T18:11:28Z"
+url: https://community.simtropolis.com/files/file/27814-tyler-street-garage/?do=download&r=103355
+
+---
+assetId: gutterclub-tyler-street-garage-maxisnite
+version: "1.0"
+lastModified: "2012-07-13T18:11:28Z"
+url: https://community.simtropolis.com/files/file/27814-tyler-street-garage/?do=download&r=103356

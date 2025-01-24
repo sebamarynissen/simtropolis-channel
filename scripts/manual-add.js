@@ -7,8 +7,6 @@ import yargs from 'yargs/yargs';
 import ora from 'ora';
 import { Glob } from 'glob';
 import { parseAllDocuments, Document } from 'yaml';
-import { JSDOM } from 'jsdom';
-import { marked } from 'marked';
 import stylize from '../actions/fetch/stylize-doc.js';
 import fetchAll from '../actions/fetch/fetch-all.js';
 import { urlToFileId } from '../actions/fetch/util.js';
@@ -17,39 +15,41 @@ import sc4d from './sc4d.js';
 import tsc from './tsc.js';
 
 // # run()
-async function run(urls) {
+async function run(urls, argv) {
 
 	// Sort the urls in ascending order so that dependencies are likely to be 
 	// processed first.
-	urls = [urls].sort();
+	urls = [urls].flat().sort();
 	let index = await buildIndex();
-	let results = await fetchAll(urls);
+
+	// Once we have the index, we'll still filter out the urls that are already 
+	// processed. They might either be present on the Simtropolis channel, or on 
+	// the default channel already.
+	urls = urls.filter(url => {
+		let id = urlToFileId(url);
+		let pkg = index.stex[id];
+		if (pkg && !pkg.local) {
+			console.log(styleText('yellow', `${url} is already present on one of the channels`));
+			return false;
+		} else {
+			return true;
+		}
+	});
+
+	// Cool, now perform the actual fetching.
+	let results = await fetchAll(urls, { split: argv.split });
 	for (let result of results) {
 		let [pkg] = result.metadata;
-		if (!pkg.dependencies) {
-
-			// If the package has no explicit dependencies specified, then we 
-			// parse all links from the description.
-			let jsdom = new JSDOM(marked(pkg.info.description));
-			let links = [...jsdom.window.document.querySelectorAll('a')]
-				.map(a => {
-					let link = a.getAttribute('href');
-					let text = a.textContent.trim();
-					return { link, text };
-				});
-			let deps = parseDependencies(index, links);
-			let unmatched = deps.filter(dep => dep.startsWith('"['));
-			if (unmatched.length > 0) {
-				let id = `${pkg.group}:${pkg.name}`;
-				console.log(styleText('red', `${id} has unmatched dependencies that need to be fixed manually!`));
-				for (let dep of unmatched) {
-					console.log(`  ${styleText('cyan', dep)}`);
-				}
+		let deps = parseDependencies(index, pkg);
+		let unmatched = deps.filter(dep => dep.startsWith('"['));
+		if (unmatched.length > 0) {
+			console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
+			for (let dep of unmatched) {
+				console.log(`  ${styleText('cyan', dep)}`);
 			}
-			if (deps.length > 0) {
-				pkg.dependencies = deps;
-			}
-
+		}
+		if (deps.length > 0) {
+			pkg.dependencies = [...pkg.dependencies || [], ...deps];
 		}
 		let file = `${pkg.group}/${result.id}-${pkg.name}.yaml`;
 		let docs = result.metadata.map((data, i) => {
@@ -145,13 +145,15 @@ async function addFileToIndex(index, file) {
 		for (let website of websites) {
 			let id = urlToFileId(website);
 			let name = `${parsed.group}:${parsed.name}`;
-			(index[id] ??= new Map()).set(name, {
+			(index.stex[id] ??= new Map()).set(name, {
 				id: name,
 				subfolder: parsed.subfolder,
+				local: true,
 			});
+			index.stex[id].local = true;
 		}
 	}
 }
 
 const { argv } = yargs(hideBin(process.argv));
-await run(argv._);
+await run(argv._, argv);

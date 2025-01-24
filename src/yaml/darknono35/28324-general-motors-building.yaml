@@ -1,0 +1,92 @@
+group: darknono35
+name: general-motors-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: General Motors Building
+  description: |-
+    NYBT GENERAL MOTORS BUILDING version 2:
+
+    *This folders contains darknite and maxisnite version of this building. Equally, one version in Growable and Landmark with jobs.*
+
+    *Please, the first version of GM bldg doesn't create any bug or conflict, you can keep the old version if you want. But the v2 is best* ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    The General Motors building is 50 floors, 216 meters tower in Manhattan Midtown, New York City. Built on the 59th Street and Fifth Avenue and the building occupies a full city block near the grand Army Plaza at the South East corner of central Park. The plaza, is occupied by the Apple Store cube ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif) . FAO Schwarz, the Toy stores are in the street level lobby.
+
+    Building details in game:
+
+    Landmark:
+
+    Lot size: 4x8
+
+    Plop cost: $42162
+
+    Jobs: 9831 CO$$
+
+    Power consumed: 202
+
+    Water consumed: 2020
+
+    International style
+
+    Growable:
+
+    Lot size: 4x8
+
+    Grow stage: 8
+
+    Commercial office
+
+    Jobs: 9831 CO$$
+
+    Pollution at center: Air:40 / Water:40 / Garbage:20 / Rad:0
+
+    Occupant group: Houston
+
+    Water consumed: 202
+
+    Power consumed: 2020
+
+    Dependencies:
+
+    [NYBT\-Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    [Simfox Darknite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)
+
+    Thanks for the advices and your support during the conception of this building ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Model by Darknono35
+
+    Icon & header by Aaron
+
+    *"PS:* *A thought for the victims of Newtown, and their families, god bless you**..."*
+
+    Good game !!
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28324-nybt-general-motors-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/46aa2ae11fed609e630945c3a25a37da-nybt_gm_building_00-v2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/e83aa1122e3c555b5cffc454da228802-nybt_gm_building_01-v2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/25a924057ad7929d6bdb55d65cc45f78-nybt_header_gmbuilding.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-general-motors-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-general-motors-building-darknite
+
+---
+assetId: darknono35-general-motors-building-darknite
+version: "1.0"
+lastModified: "2012-12-27T01:16:41Z"
+url: https://community.simtropolis.com/files/file/28324-nybt-general-motors-building/?do=download&r=109897
+
+---
+assetId: darknono35-general-motors-building-maxisnite
+version: "1.0"
+lastModified: "2012-12-27T01:16:41Z"
+url: https://community.simtropolis.com/files/file/28324-nybt-general-motors-building/?do=download&r=109898

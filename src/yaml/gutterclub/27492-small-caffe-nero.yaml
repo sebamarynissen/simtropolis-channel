@@ -1,0 +1,41 @@
+group: gutterclub
+name: small-caffe-nero
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Small Caffe Nero
+  description: |-
+    a very small W2W Caffe Nero, based on various small coffee shop found in retail parks and town centres across the UK. The lot sits wall to wall however is set slightly back from the sidewalk and has tables out front, it might not be to everyones taste but I like how it varies the monotomy of everything lining up.
+
+    Inc;
+
+    x1 either Dark Nite or Maxis Nite model
+
+    x1 CS$$ stage 4 1x2 growable with 15 jobs
+
+    You can plop this yoursaelf using the building plopcheat under the name caffenero
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/27492-small-caffe-nero/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/5e298ac436169cde77718b406ae647ab-.png
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/366e3b83d76e53fb2ba13c739eaac00e-.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-small-caffe-nero-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-small-caffe-nero-darknite
+
+---
+assetId: gutterclub-small-caffe-nero-darknite
+version: "1.0"
+lastModified: "2012-04-19T22:21:12Z"
+url: https://community.simtropolis.com/files/file/27492-small-caffe-nero/?do=download&r=99591
+
+---
+assetId: gutterclub-small-caffe-nero-maxisnite
+version: "1.0"
+lastModified: "2012-04-19T22:21:12Z"
+url: https://community.simtropolis.com/files/file/27492-small-caffe-nero/?do=download&r=99592

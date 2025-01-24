@@ -1,0 +1,56 @@
+group: nybt
+name: nybt-cbu-fdny-1st-pack
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: NYBT CBU FDNY (1st Pack)
+  description: |-
+    Civil BAT Unit is a division of NYBT for recreation of buildings for civic duty purposes. It was founded by Aaron Graham, anotn and Vlasky.
+
+    **NYBT CBU FDNY (1st Pack)**
+
+    **This upload includes:**
+
+    2 Small Fire Stations
+    2 Large Fire Stations
+    2 Large Diagonal Fire Stations
+
+    ![8lzw.png](http://img843.imageshack.us/img843/8545/8lzw.png)
+
+    ![95h9.png](http://img824.imageshack.us/img824/5425/95h9.png)
+
+    1\. & 4. Ladder 20 Engine 13 - Model by Vlasky, Exported by PBGV103, Modd and Lot by Aaron Graham
+    2\. & 5. Ladder 12 Engine 3 Battalion 7 by Aaron Graham
+    3\. Engine 312 - by Aaron Graham
+    6 Ladder 21 Engine 34 - Model by Vlasky, Modd and Lot by Aaron Graham
+
+    **Dependencies:**
+
+    • [SimFox Day'n'Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/) (for DarkNte models)
+    • [NYBT Essentials](https://www.simtropolis.com/forum/files/file/22916-nybt-essentials/)
+  author: NYBT
+  website: https://community.simtropolis.com/files/file/29381-nybt-cbu-fdny-1st-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/3bbf97ca254bb1c78383c467fd23263c-fdny-stex-image.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: nybt-nybt-cbu-fdny-1st-pack-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: nybt-nybt-cbu-fdny-1st-pack-darknite
+
+---
+assetId: nybt-nybt-cbu-fdny-1st-pack-darknite
+version: "1.0"
+lastModified: "2014-03-29T05:04:40Z"
+url: https://community.simtropolis.com/files/file/29381-nybt-cbu-fdny-1st-pack/?do=download&r=128024
+
+---
+assetId: nybt-nybt-cbu-fdny-1st-pack-maxisnite
+version: "1.0"
+lastModified: "2014-03-29T05:04:40Z"
+url: https://community.simtropolis.com/files/file/29381-nybt-cbu-fdny-1st-pack/?do=download&r=128025

@@ -1,0 +1,59 @@
+group: darknono35
+name: westin-peachtree-hotel-atlanta-ga
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Westin Peachtree Hotel, Atlanta, GA
+  description: |-
+    **DK35 ATLANTA WESTIN PEACHTREE, GA** :
+
+    1/Two version are inside this folder, Darknite and Maxisnite, choose only one version.
+    2/Don't remove the folder called "Model" otherwise, you will see the brown box in the game.
+
+    The Westin Peachtree Plaza, Atlanta hotel is an Atlanta skyline icon. Crowned by the revolving Sun Dial Restaurant, the 73 story Hotel is high of 220 meters.
+    The building was completed in 1976.
+
+    In-game settings:
+
+    LANDMARK:
+    Jobs: 3519 C$$$
+    Pollution at center: Air:119 / Water:59 / Garbage:119 / Rad:0
+    Pollution radi: Air:6 / Water:7 / Garbage:0 / Rad:0
+    Power consumed: 372
+    Water consumed: 3321
+    Flammability: 35
+    Max fire stage: 5
+    Lot Size: 3x8
+    Plop cost: 71558
+
+    Deppendencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Good game guys ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/29013-dk35-westin-peachtree-hotel-atlanta-ga/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/f973514287a87bbd72c387d1e19f345c-dk35_westinpeachtreehotel_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/fcb406c3f82d02c1e245ddc4cf30ab85-dk35_westinpeachtreehotel_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/1c6e4a7f8659a9e8b69f2472ecabcebe-dk35_westinpeachtreehotel_02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-westin-peachtree-hotel-atlanta-ga-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-westin-peachtree-hotel-atlanta-ga-darknite
+
+---
+assetId: darknono35-westin-peachtree-hotel-atlanta-ga-darknite
+version: "1.0"
+lastModified: "2013-10-20T21:01:02Z"
+url: https://community.simtropolis.com/files/file/29013-dk35-westin-peachtree-hotel-atlanta-ga/?do=download&r=120316
+
+---
+assetId: darknono35-westin-peachtree-hotel-atlanta-ga-maxisnite
+version: "1.0"
+lastModified: "2013-10-20T21:01:02Z"
+url: https://community.simtropolis.com/files/file/29013-dk35-westin-peachtree-hotel-atlanta-ga/?do=download&r=120317

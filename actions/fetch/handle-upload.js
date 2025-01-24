@@ -6,6 +6,7 @@ import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
 import Downloader from './downloader.js';
 import completeMetadata from './complete-metadata.js';
+import generateVariants from './generate-variants.js';
 import patchMetadata from './patch-metadata.js';
 import checkPreviousVersion from './check-previous-version.js';
 import { kFileNames } from './symbols.js';
@@ -70,12 +71,18 @@ export default async function handleUpload(json, opts = {}) {
 
 	}
 
+	// Compile a custom cleanup function that we use for early returns.
+	const clean = async () => {
+		for (let fn of cleanup) await fn();
+	};
+
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
 	let errors = [];
 	const { requireMetadata = true } = opts;
 	if (parsedMetadata.length === 0 && requireMetadata) {
+		await clean();
 		return {
 			skipped: true,
 			type: 'notice',
@@ -88,17 +95,19 @@ export default async function handleUpload(json, opts = {}) {
 		errors.push(`This package has ${parsedMetadata.length} metadata.yaml files, only 1 is allowed.`);
 
 	}
+	let [userMetadata] = parsedMetadata;
 
 	// If we reach this point, we're sure to include the package. We now need to 
 	// complete the metadata from the api by resorting to HTML scraping as the 
 	// description, images and subfolder cannot be derived directly from the api 
-	// response.
+	// response. The goal is to eventually remove this call when the STEX api 
+	// has been updated to include this as well.
 	await completeMetadata(metadata, json);
 
-	// We are now ready to clean up any downloaded & extracted assets.
-	for (let fn of cleanup) {
-		await fn();
-	}
+	// Now that we have the completed metadata, we will generate the variants.
+	// Note that at this point we haven't used any information from the *custom* 
+	// metadata yet! Everything we're doing is based on the *default* metadata.
+	await generateVariants(metadata);
 
 	// See #42. If metadata for the package already existed before - either 
 	// added by the bot, or manually by backfilling - then we have to patch the 
@@ -112,6 +121,34 @@ export default async function handleUpload(json, opts = {}) {
 		fs,
 	});
 
+	// Now check whether it was specified - either in the parsed metadata or as 
+	// explicit option - whether the package must be split in resources and lots/
+	// flora.
+	let { split = false } = opts;
+	if (split) {
+
+		// If the package has to be split, but multiple *package* metadata was 
+		// given, then we can't continue. If the package is going to be split 
+		// automatically, you can only override metadata for the *main* package!
+		let packages = userMetadata.filter(pkg => pkg.group);
+		if (packages.length > 1) {
+			let [main] = packages;
+			errors.push('You can only specify custom metadata for the main package if the package has to be split!');
+			await clean();
+			return {
+				id: `${main.group}:${main.name}`,
+				fileId: String(json.id),
+				branchId: String(json.id),
+				githubUsername,
+				errors,
+			};
+		}
+
+	}
+
+	// We are now ready to clean up any downloaded & extracted assets.
+	await clean();
+
 	// Patch the metadata with the metadata that was parsed from the assets. 
 	// Then we'll verify that the generated package is ok according to our 
 	// permissions.
@@ -120,7 +157,7 @@ export default async function handleUpload(json, opts = {}) {
 		assets,
 		main,
 		basename,
-	} = patchMetadata(metadata, parsedMetadata[0], original);
+	} = patchMetadata(metadata, userMetadata, original);
 	let zipped = [...packages, ...assets];
 	try {
 		permissions.assertPackageAllowed(json, packages);

@@ -1,0 +1,66 @@
+group: darknono35
+name: 4-east-59th-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 4 East 59th Street
+  description: |-
+    NYBT 4 EAST 59th STREET.
+
+    This is the small building located back the Sherry Hotel.
+
+    I've create two version, one like comercial service growable, an one other in landmark, this one was create to be plop back the Sherry Hotel.
+
+    Building in-game:
+
+    Growable:
+
+    Jobs: 234 CS$$$
+
+    Pollution at center: Air: 2 / Water: 1 / Garbage: 4 / Radiation: 0
+
+    Power consumed: 9
+
+    Water consumed: 85
+
+    Design: Chicago, New York, Houston
+
+    Landmark:
+
+    Plop cost: $10458
+
+    Jobs: 234 CS$$
+
+    Dependencies:
+
+    [Simfox darknite link](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    [NYBT essential link](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    Link to the [Sherry Netherland Hotel](https://community.simtropolis.com/files/file/28554-nybt-sherry-netherland-hotel/)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28553-nybt-4-east-59th-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/8994614c630e65f1c8737b050b686cf0-nybt_4east59thstreet00.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-4-east-59th-street-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-4-east-59th-street-darknite
+
+---
+assetId: darknono35-4-east-59th-street-darknite
+version: "1.0"
+lastModified: "2013-03-09T20:41:27Z"
+url: https://community.simtropolis.com/files/file/28553-nybt-4-east-59th-street/?do=download&r=113008
+
+---
+assetId: darknono35-4-east-59th-street-maxisnite
+version: "1.0"
+lastModified: "2013-03-09T20:41:27Z"
+url: https://community.simtropolis.com/files/file/28553-nybt-4-east-59th-street/?do=download&r=113009

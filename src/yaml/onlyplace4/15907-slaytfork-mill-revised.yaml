@@ -1,0 +1,61 @@
+group: onlyplace4
+name: slaytfork-mill-revised
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Slaytfork Mill Revised
+  description: |-
+    For my **100th** upload to the STEX I have decided to revisit my most popular BAT to date, and have rescaled, retextured, and remodelled parts that I thought needed it. Additionally, this time the model is an overhanging model so that it can, as shown in the pictures above, be plopped alongside normal ingame water. As the end of the mill (from the top edge of the power house to the end of the log slide) overhangs it is possible, with some care, to plop the model and then terraform the land underneath it. The 'on land' part of this is a 6x7 Landmark Lot.
+
+    Like the original model, this one produces it's own power but still, for some reason, will not transmit it's power to neighbouring areas. I have not simply updated the original model which is still available on the STEX [**here**](https://www.simtropolis.com/stex/index.cfm?id=15195). This means that you do not need to delete that model should you have it in use. Also, this earlier model is at a much larger scale which, though out of scale with the remaining Maxis buildings, seems to work well in rural areas on it's own, and has proved very popular.
+
+    The best way to position this lot is to terraform your water and then select the plot of land you want to plop the mill onto. Now, flatten the area next to the water until it cannot go any lower. I do this with the normal terraform tools until I have all the squares within the zone just showing water. I then raise a single square a fraction and then smooth the lot using that square as a reference. Basically, the land should be at the lowest level possible for this lot to look right next to the water. I am sure that some trial and error will produce the right effect/positioning.
+
+    I will be releasing the Mill office and the water tower/pump house as seperate lots in the near future.
+
+    * * *
+
+    **Stats:**Plop cost: §25000
+
+    Budget item cost: §500
+
+    Bulldoze cost: §500
+
+    Pollution at centre: 10, 10, 25, 0 (air, water, garbage, radiation)
+
+    Pollution radii: 3, 6, 0, 0
+
+    Landmark Effect: 0 over 0 tiles
+
+    Mayor rating effect: 0 over 0 tiles
+
+    Power consumed: 0
+
+    Power produced: 2500 MWh
+
+    Water consumed: 0
+
+    Wealth: none
+
+    Dependencies: none
+
+    * * *
+
+    **To instal**Simply unzip the required .dat file to your plugins folder.
+
+    If you download and use, please comment and rate.
+
+    Visit my BATs and Lots thread ... [**here**](https://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=74636).
+  author: onlyplace4
+  website: https://community.simtropolis.com/files/file/15907-slaytfork-mill-revised/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/384712ff375641d9767621cfc95496b6-day.jpg
+    - https://www.simtropolis.com/objects/screens/0007/384712ff375641d9767621cfc95496b6-night.jpg
+assets:
+  - assetId: onlyplace4-slaytfork-mill-revised
+
+---
+assetId: onlyplace4-slaytfork-mill-revised
+version: "1.0"
+lastModified: "2006-05-10T06:50:38Z"
+url: https://community.simtropolis.com/files/file/15907-slaytfork-mill-revised/?do=download&r=38239

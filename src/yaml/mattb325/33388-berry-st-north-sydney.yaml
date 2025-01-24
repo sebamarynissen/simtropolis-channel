@@ -1,0 +1,107 @@
+group: mattb325
+name: berry-st-north-sydney
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Berry St North Sydney
+  description: |-
+    **Berry St North Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    A mid-rise late 1990s building from North Sydney. With its oversized terraces for 'outdoor meetings and break-out zones' it was built primarily to house tech companies and was the primary offices of a telecommunications company for approximately 15 years.
+
+    Of course we all know the tech bubble burst, and now the main tenant is a marketing firm (oOh media).
+
+    The building is 14 floors and makes a good candidate for medium density commercial zones.
+
+    My main reason for doing this building was the etched patterned glass skylight that you see everywhere (the rest of the building was incidental).
+
+    The building is offered as both a high-wealth commercial services and a high wealth commercial office on all tilesets.
+
+    **\---------------------------------------**
+
+    **STATS CS§§§:**
+
+    Lot size :                 4x3   
+    Growth Stage:        7 (Medium & High Density Zoning)  
+    Bulldoze Cost:        § 732  
+    Capacity Satisfied: CS§ 2,938, CS§§ 737, CS§§§ 297  
+    Pollution:                 19 (Air)/ 13 (Water)/ 26 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed:  83 Mwh  
+    Water Consumed:   740 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    High Wealth CS
+
+    **\---------------------------------------**
+
+    **STATS CO§§§:**
+
+    Lot size :                  3x4   
+    Growth Stage:         6 (Medium & High Density Zoning)  
+    Bulldoze Cost:         § 732  
+    Capacity Satisfied: CO§§ 1308, CO§§§ 915  
+    Pollution:                 5 (Air)/ 5 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  37 Mwh  
+    Water Consumed:  407 Gal/Month  
+    Building Style:        Chicago, New York, Houston, Euro  
+    Occupant Group:   High Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Street Planters and Benches ([https://community.simtropolis.com/files/file/33284-street-planters-and-benches/](https://community.simtropolis.com/files/file/33284-street-planters-and-benches/))  
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33388-berry-st-north-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt.jpg.a1541891cd77a6da58fbc51a28fc474b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt1.jpg.024c427d84f92df22867853e46eb4f2c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt2.jpg.d2ebdcc06192d39013d6bb24968ed482.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt3.jpg.e66e24fb6f6945b36d753ffc35333b3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt4.jpg.35bc8e2f0c7898204cef94e8436db2ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt5.jpg.2beed384b9ec77f35256b89b89fb4e99.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt6.jpg.7a49fb5dec62cd560b5946db11fa5a0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/BerrySt7.jpg.72efe526ae93a6dd6d543b6e8a6a9d54.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - mattb325:street-planters-and-benches
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-berry-st-north-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-berry-st-north-sydney-darknite
+
+---
+assetId: mattb325-berry-st-north-sydney-darknite
+version: "1.0.0"
+lastModified: "2020-01-14T05:05:44Z"
+url: https://community.simtropolis.com/files/file/33388-berry-st-north-sydney/?do=download&r=179580
+
+---
+assetId: mattb325-berry-st-north-sydney-maxisnite
+version: "1.0.0"
+lastModified: "2020-01-14T05:05:44Z"
+url: https://community.simtropolis.com/files/file/33388-berry-st-north-sydney/?do=download&r=179581

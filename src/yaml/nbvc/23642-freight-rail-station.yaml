@@ -1,0 +1,46 @@
+group: nbvc
+name: freight-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Freight Rail Station
+  description: |-
+    A Freight Rail Station with size 9x11.
+
+    It has the same properties like the standard freight rail station.
+
+    Capacity: 2000
+
+    Monthly cost: 10
+
+    The rail station is transit enabled at the borders and can be connected to rail roads, but trains cannot drive through the rail station.
+
+    [Larger image](http://www.ld-host.de/uploads/images/48caa87decc97c8e5f52a79a1c4477df.jpg)
+
+    Dependencies:
+
+    PEG\_SecurityFence [www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=19338)
+
+    PEG\-CDK3\_RailFleet [www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=19786)
+
+    PEG\-CDK3\_SUPER-PAK [www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=19880)
+
+    SEAPORT SUPER PAK [www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=19881)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/23642-freight-rail-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/74656fc2a1d6d60831e92f9413ef21f1-rail1.jpg
+    - https://www.simtropolis.com/objects/screens/0013/74656fc2a1d6d60831e92f9413ef21f1-rail2.jpg
+dependencies:
+  - peg:cdk3-sp-rail-fleet
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: nbvc-freight-rail-station
+
+---
+assetId: nbvc-freight-rail-station
+version: "1.0"
+lastModified: "2010-04-04T09:00:47Z"
+url: https://community.simtropolis.com/files/file/23642-freight-rail-station/?do=download&r=50509

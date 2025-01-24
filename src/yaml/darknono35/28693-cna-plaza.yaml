@@ -1,0 +1,73 @@
+group: darknono35
+name: cna-plaza
+version: "3"
+subfolder: 300-commercial
+info:
+  summary: CNA Plaza
+  description: |-
+    CNA PLAZA v3, CHICAGO, IL
+
+    *This folder contain the new version of this building, you can remove the oldest if you want* ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)*.*
+
+    *Don't remove the folder called "Model" otherwise, you will see the brown box in the game.*
+
+    The CNA Plaza is high of 183 meters for 44 floors. Located at 333 South Wabash Avenue, it's an office tower completed in 1972.
+
+    Its original color was gray. Red was chosen a few years later during a renovation to represent the sun setting over the lake, in reference to the reddish sunsets on Lake Michigan.
+
+    In-game settings:
+
+    GROWABLE:
+
+    Jobs: 7031 CO$$
+
+    Grow Stage: 8
+
+    Pollution at center: Air:23 / Water:23 / Garbage:11 / Rad:0
+
+    Power consumed: 119
+
+    Water consumed: 1195
+
+    Flammability: 40
+
+    Design: Houston 1990
+
+    LANDMARK:
+
+    Plop cost: $34810
+
+    Dependencies:
+
+    [Simfox darknite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Thanks to all who followed and advised the conception of this version ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    Good jobs guys ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28693-cbt-cna-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/af1ee045e442ce6309abf1da35d33be8-cna_plaza03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/13766b626bdcc5812d5fafac8479a82e-cna_plaza00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/71187c77d3fab7ed325264d4b0655985-cna_plaza02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/91452200b0df4a40bc913096f0da3a2f-cna_plaza01.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-cna-plaza-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-cna-plaza-darknite
+
+---
+assetId: darknono35-cna-plaza-darknite
+version: "3"
+lastModified: "2013-05-09T09:14:36Z"
+url: https://community.simtropolis.com/files/file/28693-cbt-cna-plaza/?do=download&r=114963
+
+---
+assetId: darknono35-cna-plaza-maxisnite
+version: "3"
+lastModified: "2013-05-09T09:14:36Z"
+url: https://community.simtropolis.com/files/file/28693-cbt-cna-plaza/?do=download&r=114964

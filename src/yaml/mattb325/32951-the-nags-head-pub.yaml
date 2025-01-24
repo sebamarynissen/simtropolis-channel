@@ -1,0 +1,84 @@
+group: mattb325
+name: the-nags-head-pub
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: The Nags Head Pub
+  description: |-
+    **The Nag's Head Pub, by Mattb325.  
+    \---------------------------------------**
+
+    This is your typical quaint English style pub, complete with a quaintly unusual name.
+
+    The 'Nag's Head' is a surprisingly common name for pubs in both the UK and Australia.
+
+    A 'Nag' in old fashioned parlance simply refers to a horse that has outlived its usefulness and is quite distinct from the modern usage of the word.
+
+    The building is offered as a CS§§ growable with two lot variants: a 2x1 and a 2x2 for low, medium and high-density zones providing 23 jobs.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                   2x1 & 2x2  
+    Growth Stage:          1 & 2 (Low, Medium & High Density Zoning)  
+    Bulldoze Cost:          § 238  
+    Capacity Satisfied:  CS§ 81, CS§§ 23  
+    Pollution:                  1 (Air)/ 1 (Water)/ 4(Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  2 Mwh  
+    Water Consumed:   23 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality (for the trees and shrubs on the 2x2 lot), make sure the following files are in your plugins:
+
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32951-the-nags-head-pub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TheNagsHead4.jpg.6e20b0518f3c71f19e5f25ab2ff6f5a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TheNagsHead3.jpg.d227262512a5f78d153932f03fd5cf1e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TheNagsHead2.jpg.f65cfc87ce17caeb4e5c89d8ab4acfe1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TheNagsHead1.jpg.41d8219c8e386cc7e20ba6060abd96af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/TheNagsHead.jpg.320249ed8009bf619edd976e138009ef.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-the-nags-head-pub-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-the-nags-head-pub-darknite
+
+---
+assetId: mattb325-the-nags-head-pub-darknite
+version: "1.0"
+lastModified: "2019-06-09T23:55:49Z"
+url: https://community.simtropolis.com/files/file/32951-the-nags-head-pub/?do=download&r=176075
+
+---
+assetId: mattb325-the-nags-head-pub-maxisnite
+version: "1.0"
+lastModified: "2019-06-09T23:55:49Z"
+url: https://community.simtropolis.com/files/file/32951-the-nags-head-pub/?do=download&r=176076

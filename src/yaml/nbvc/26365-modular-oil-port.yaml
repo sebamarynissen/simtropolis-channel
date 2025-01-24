@@ -1,0 +1,37 @@
+group: nbvc
+name: modular-oil-port
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modular Oil Port
+  description: |-
+    This is a set of Lots to create oil ports.
+
+    It contains two piers, different crude oil tanks and pipes.
+
+    The piers are in the seaport menu.
+
+    The oil tanks and pipes are in the power plant menu.
+
+    The piers have no seaport functionality.
+
+    Dependencies:
+
+    [PEG Security Fencing Kit 1](https://www.simtropolis.com/forum/files/file/19338-peg-security-fencing-kit/)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/26365-modular-oil-port/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/13a386c735eb8a8736cc4bf859d5742d-oilport1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/b8f313159c91b057c155aff10f21d4a6-oilport2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/c13ae0105b6af09aa633996192dce338-oilport3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/a48e1dc59d8510ddccbb6c3f7d8c4af1-oilport4.jpg
+dependencies:
+  - peg:security-fencing-kit
+assets:
+  - assetId: nbvc-modular-oil-port
+
+---
+assetId: nbvc-modular-oil-port
+version: "1.0"
+lastModified: "2011-06-18T12:41:03Z"
+url: https://community.simtropolis.com/files/file/26365-modular-oil-port/?do=download&r=87621

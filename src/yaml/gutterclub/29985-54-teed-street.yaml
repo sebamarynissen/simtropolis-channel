@@ -1,0 +1,40 @@
+group: gutterclub
+name: 54-teed-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 54 Teed Street
+  description: |-
+    I present the fictional 54 Teed Street, a low rise W2W corner lot designed to fit any urban enviroment.  
+       
+    It comes as a growable CO$$ stage 6 on a 1x2 lot with 110 jobs.
+
+    Dependencies;
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/29985-54-teed-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/aa2ed798b3a7a98bc4aaa61ff7359242-north-joetown-12-mar--761414314655.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/9330a770c81ba7e10561abf840fd7004-north-joetown-14-mar--741410769999.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/5293b9ea9624ea2753c21ba79e341f81-north-joetown-25-mar--761414314696.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-54-teed-street-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-54-teed-street-darknite
+
+---
+assetId: gutterclub-54-teed-street-maxisnite
+version: "1.0"
+lastModified: "2014-11-11T07:07:28Z"
+url: https://community.simtropolis.com/files/file/29985-54-teed-street/?do=download&r=144636
+
+---
+assetId: gutterclub-54-teed-street-darknite
+version: "1.0"
+lastModified: "2014-11-11T07:07:28Z"
+url: https://community.simtropolis.com/files/file/29985-54-teed-street/?do=download&r=144637

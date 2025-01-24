@@ -1,7 +1,7 @@
 // # expand-variants-test.js
 import { expect } from 'chai';
 import { kFileTags } from '../symbols.js';
-import { expandVariants } from '../complete-metadata.js';
+import { expandVariants } from '../generate-variants.js';
 
 describe('#expandVariants()', function() {
 

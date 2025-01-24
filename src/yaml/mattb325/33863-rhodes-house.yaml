@@ -1,0 +1,92 @@
+group: mattb325
+name: rhodes-house
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Rhodes House
+  description: |-
+    **Rhodes House, by Mattb325.  
+    \---------------------------------------**
+
+    Rhodes House is a neo-brutalist mid-rise disguised as a twelve story Park Inn Hotel.
+
+    Lots of complicated angles ensure rooms can be larger, yet still maintain some privacy and decent natural light + views.   
+    I made this building to fill the paucity of available buildings that can be placed along diagonal roads.
+
+    It is offered as a high wealth, medium density Commercial Services Building on a 4x4 corner lot as well as an overhanging ploppable landmark with jobs.
+
+    When using the diagonal overhanging version, choose pedmall/park filler pieces to decorate the space around the building anyway you like (just as I have done in the screenshots).
+
+    Both versions have the same stats.
+
+    **\---------------------------------------**
+
+    **STATS CS$$$:**
+
+    Lot size :                   4x4 and 1x4 (Diagonal Overhanging version)  
+    Growth Stage:          6 (Medium and High Density)/ NA for Diagonal Overhanging which costs $776 to plop.  
+    Bulldoze Cost:         $714  
+    Capacity Satisfied: CS$ 3,505; CS$$ 879; CS$$$ 353  
+    Pollution:                  23 (Air)/ 15 (Water)/ 31 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  99 Mwh  
+    Water Consumed:   882 Gal/Month  
+    Building Style:          Chicago, New York, Houston and Euro  
+    Occupant Group:     High Wealth CS, BSC\-Mattb325, BSC
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Mega Props - Mattb325 Vol2.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33863-rhodes-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/RhodesHouse.jpg.ed43fe97ca560098a2609505e3648322.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/RhodesHouse1.jpg.730655bc50eaac4f6780c13dfe77f231.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/RhodesHouse2.jpg.72099054a76dca011f46d66d390894bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/RhodesHouse3.jpg.2e5344c293acdde94ff92174421b8a81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/RhodesHouse4.jpg.0126d13d726911691988fd2a02706621.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/RhodesHouse5.jpg.0610d24b155f2d1420e44fc4906fe015.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/RhodesHouse6.jpg.da98081d802b713f19fcae222d622c72.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-rhodes-house-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-rhodes-house-darknite
+
+---
+assetId: mattb325-rhodes-house-darknite
+version: "1.0.0"
+lastModified: "2020-10-12T04:50:36Z"
+url: https://community.simtropolis.com/files/file/33863-rhodes-house/?do=download&r=182943
+
+---
+assetId: mattb325-rhodes-house-maxisnite
+version: "1.0.0"
+lastModified: "2020-10-12T04:50:36Z"
+url: https://community.simtropolis.com/files/file/33863-rhodes-house/?do=download&r=182944

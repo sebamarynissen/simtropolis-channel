@@ -1,0 +1,138 @@
+group: mattb325
+name: functional-cul-de-sacs-vol02
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Functional Cul-de-sacs VOL02
+  description: |-
+    **Functional Cul-de-sacs, VOL2, by Mattb325.  
+    \---------------------------------------**
+
+    Following on from the Functional Cul-de-sac (Vol1 release), I present another type of cul-de-sac: the housing estate, or master-planned community.
+
+    In these sorts developments, a developer will purchase a large tract of land and provide all of the services: roads, curbs, gutters, water, sewerage, street trees, street paving and street lights. The developer will then subdivide the land, build the houses to a specific set of designs and then sell off these individual homes and allotments to buyers.
+
+    The result is a ready-made community with HOA, uniform streets, houses and street-scapes. They are supposed to look different from the surrounding neighborhoods and prove very popular with young families and first-time home buyers.
+
+    The growable lots contained in this download mimic these sorts of developments: each lot is 6.5 acres with many cul-de-sacs, curving and diagonal streets, decorative ponds and open community spaces all with brand new houses aligned to these streets.
+
+    The houses all come from real house plans from a Texas home builder who builds many such estates.
+
+    Surprisingly, no such lots exist in SC4 and these streets are all network enabled. The two 10x10 lots contained within this download will provide sufficient variety to give an homogenous new suburb look. They can be zoned together or spaced apart with grass & park areas between the 10x10 lots to mimic the sort of community facilities many of these housing estates provide.
+
+    **\---------------------------------------  
+    WHAT THIS DOWNLOAD DOES:**
+
+    This download provides two new growable lots of a 10x10 size.
+
+    Each of the lots is network enabled in various spots to connect seamlessly to the surrounding streets and roads.
+
+    Each lot is restricted to grow ONLY on low-density zoning on the Houston and Euro tilesets and will not grow on medium or high density zones.
+
+    Each lot has a different arrangement of medium wealth houses and a uniformity of street trees and plantings.
+
+    Both of the lots have identical stats meaning that the game will not favour one type over the other. The population numbers of the lots conform roughly to Maxis' low-density formulae of approximately 12-20 residents per house.
+
+    These lots cannot accidentally grow; you must use the CTRL key while zoning.
+
+    **\---------------------------------------  
+    HOW TO USE THIS DOWNLOAD:**
+
+    There is nothing especially tricky to get this to work. Just make sure you have the dependencies, unzip and install to your plugins and then use the CTRL key while zoning low density residential to get a lot that is 10 tiles wide and 10 tiles deep.
+
+    **\---------------------------------------  
+    WHAT THIS DOWNLOAD DOES NOT DO:**
+
+    This is not a mod, so it will not alter the standard street ends that either come with the base game, are installed with the NAM or are installed with any other cul-de-sac mod.
+
+    This will not interfere with, nor conform to, SAM street types. These lots use CPs textures (which differ from the base game) to ensure that these housing estates have their own unique look, right down to the street textures.
+
+    **\---------------------------------------  
+    IMPORTANT NOTES - READ!!!!!:**
+
+    With anything new, it is important to spell out a few caveats:
+
+    \* Because these lots are network enabled, these lots will never upgrade. I recommend using them in conjunction with standard zoning to achieve vibrant, realistic suburbs that are sustainable.  
+    \* Because these lots are network enabled, if they abandon, they will not recover: you will need to correct the issues that caused abandonment (crime, jobs, commute, demand), bulldoze the lot and let a new one grow.  
+    \* I have chosen the 10x10 lot size deliberately to be a unique lot size that doesn't compete with other custom lots, but if you have other 10x10 low-density medium residential lots in your plugins, they may grow instead of these.  
+    \* I have chosen the 10x10 lot size deliberately to ensure that the network enabling doesn't interfere with the NAM drag patterns for creating curves, fractional angles and so on. My testing so far has indicated that this is unlikely to happen, however, in certain situations and placements you may find that the game attemts to draw FAR or curved streets. In the highly unlikely event event that it occurs, it's not a big deal, just bulldoze the surrounding streets to alter the pattern.  
+    \* Once the lot has grown, if you don't see cars, automata, etc using the lot, just drag the street tool through the lot (be sure to use the pre-planned streets as your guide) and the automata will soon follow.
+
+    **\---------------------------------------**
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike. Stats below.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :                  10x10  
+    Growth Stage:         1 (Low Density Zoning)  
+    Bulldoze Cost:         $40  
+    Capacity Satisfied:  R$ 684, R$$ 432  
+    Pollution:                  18 (Air)/ 15 (Water)/ 34 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  36 Mwh  
+    Water Consumed:   60 Gal/Month  
+    Building Style:          Houston and Euro  
+    Occupant Group:     Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This file contains a series of lots only. However, some of the dependencies will require you to select either a maxis nite version or a dark nite version. If you use the dark nite models, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins. Please note that while most dependencies are very common-place and most folks will have these already, a few are brand new, or have been updated. Make sure you get them all!
+
+    **TEXTURE PACKS**
+
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **PROP PACKS**
+
+    \*Mattb325 Aliana Estate Model Files - ([https://community.simtropolis.com/files/file/34468-aliana-estate-prop-pack/](https://community.simtropolis.com/files/file/34468-aliana-estate-prop-pack/)) **Choose either Dark Nite or Maxis Nite**  
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*Mattb325 Prop Pack Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34470-functional-cul-de-sacs-vol02/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate.jpg.6ee0f3a2f8e55b337d016c80ef070b38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate1.jpg.6851bd8b73921f096831d9e3586c101c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate2.jpg.53783c511c38a8d03af52b195a7043b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate3.jpg.bc11c3324dbcdd5e4756f2887b5db12e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate8a.jpg.f567aae4d403da212f3bfefa2f6df702.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate8b.jpg.01578e65c333dac295162f3dc7809683.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate8c.jpg.ac737520d9e53045203b580ea2f4fa75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate8d.jpg.e69ab381d2f02d0d7a44f45d2e6b1642.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate8e.jpg.d52031b764d1927e7e1f6f112e5013f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate9.jpg.667d05b42d1ca6a13e5c4d29e7b88bfb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate9a.jpg.6c0523057ecef31c76368a41b536bbbb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate9b.jpg.ff640436e75caae9930a376ad2c93aee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate9c.jpg.44ba794d974d43e6c6ec94dcdd15e4c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate10.jpg.ee1c9938eec1e9b9ad0a7e7fd4f5de72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate10a.jpg.e92aadf45222fb0a12d4f7e0d13c4073.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/AlianaEstate10b.jpg.5b9c70a1cfb72b60fa5ab820bbf7db11.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:aliana-estate-prop-pack
+assets:
+  - assetId: mattb325-functional-cul-de-sacs-vol02
+
+---
+assetId: mattb325-functional-cul-de-sacs-vol02
+version: "1.0.0"
+lastModified: "2021-05-21T02:04:17Z"
+url: https://community.simtropolis.com/files/file/34470-functional-cul-de-sacs-vol02/?do=download&r=188183

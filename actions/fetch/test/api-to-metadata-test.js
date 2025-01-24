@@ -200,4 +200,14 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('normalizes non-ascii characters', function() {
+
+		let upload = faker.upload({
+			title: 'Dóm sväteho Martina ',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('dom-svateho-martina');
+
+	});
+
 });

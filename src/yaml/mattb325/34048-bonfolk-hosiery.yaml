@@ -1,0 +1,89 @@
+group: mattb325
+name: bonfolk-hosiery
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Bonfolk Hosiery
+  description: |-
+    **Bonfolk Hosiery Factory by Mattb325.  
+    \---------------------------------------**
+
+    This building is inspired by one in Troy, NY.
+
+    These sorts of monumental and solidly constructed brick factories were common-place in the early 20th Century. While most were torn down from about 1970, some still remain either as abandoned relics or as converted commercial/residential spaces.
+
+    In SC4, I have made this building house a hosiery factory, which among other things, makes socks. A large neon sign lends a retro vibe to the building.
+
+    The factory is offered as an I-M growable Anchor and comes in two lot sizes: 5x5 and 3x4 (use the CTRL key when zoning).
+
+    It is suited to CAM and non-CAM cities alike and provides 354 jobs. Use Buggis extra cheats to make this growable building (and indeed all other growable buildings) available to plop from a drop-down menu.
+
+    **\---------------------------------------**
+
+    **STATS I-M:**
+
+    Lot size :                 5x5 & 3x4  
+    Growth Stage:        3 (High Density Zoning)  
+    Bulldoze Cost:        $ 515  
+    Capacity Satisfied: I-M 354  
+    Pollution:                 21 (Air)/ 14 (Water)/ 4 (Garbage )  
+    Pollution Radius:    9/13/0  
+    Power Consumed: 22 Mwh  
+    Water Consumed:  318 Gal/Month  
+    Occupant Group:    Industrial Manufacturing Anchor Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack - Cycledogg V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34048-bonfolk-hosiery/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Bonfolk.jpg.69b42f6b6741b4d07e6097504bd88f2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Bonfolk1.jpg.a36b16e6b1beb071769b0c1306ed83bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Bonfolk2.jpg.98c4ca0dba0a90c8d48be815697ec363.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Bonfolk3.jpg.9d52ff290be5713d41df832ebefb0b6c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Bonfolk4.jpg.ece3d0897a97b763cb39c09ecb0452d4.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-bonfolk-hosiery-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-bonfolk-hosiery-darknite
+
+---
+assetId: mattb325-bonfolk-hosiery-darknite
+version: "1.0.0"
+lastModified: "2021-01-14T20:42:48Z"
+url: https://community.simtropolis.com/files/file/34048-bonfolk-hosiery/?do=download&r=184524
+
+---
+assetId: mattb325-bonfolk-hosiery-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-14T20:42:48Z"
+url: https://community.simtropolis.com/files/file/34048-bonfolk-hosiery/?do=download&r=184525
