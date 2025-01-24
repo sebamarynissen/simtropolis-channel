@@ -29,7 +29,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
 - [x] Make the channel available under a simtropolis.com url: [https://sc4pac.simtropolis.com/](https://sc4pac.simtropolis.com/sc4pac-channel-contents.json)
-- [ ] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails (to verify with ST admins, but should probably be possible by sendin a POST to the correct endpoint).
+- [x] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails ([#101](https://github.com/sebamarynissen/simtropolis-channel/pull/101/))
 - [ ] Setup an action that automatically creates a GitHub release the first of every month with an overview of all packages that have been added the last month. The releases can have the format `YYYY.mm` as version tags.
 
 # How to make your plugins compatible
