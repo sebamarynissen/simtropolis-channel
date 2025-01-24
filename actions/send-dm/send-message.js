@@ -1,8 +1,25 @@
 import { JSDOM } from 'jsdom';
 import FormData from 'form-data';
 import parseCookie from 'set-cookie-parser';
+import { marked } from 'marked';
+import { createHash } from 'node:crypto';
 
-async function sendMessage({ to, subject, body }) {
+marked.use({
+	renderer: {
+		code({ text }) {
+			let escaped = text
+				.replaceAll('<', '&lt;')
+				.replaceAll('>', '&gt;')
+				.trim();
+			return `<pre class="ipsCode">\n${escaped}</pre>`;
+		},
+	},
+});
+
+export default async function sendMessage({ to, subject, body }) {
+	if (!process.env.SC4PAC_SIMTROPOLIS_COOKIE) {
+		throw new Error(`Please set the SC4PAC_SIMTROPOLIS_COOKIE environment variable to sened a DM!`);
+	}
 	const auth = process.env.SC4PAC_SIMTROPOLIS_COOKIE
 		.split(';')
 		.map(cookie => cookie.trim())
@@ -40,7 +57,15 @@ async function sendMessage({ to, subject, body }) {
 	}
 	formData.append('messenger_to', to);
 	formData.append('messenger_title', subject);
-	formData.append('messenger_content', body);
+	let md = marked(body);
+	console.log(md);
+	formData.append('messenger_content', md);
+
+	// Look for the ct_checkjs value in the html.
+	let match = html.match(/["']ct_checkjs["'], ?["'](.*?)["']/);
+	if (match) {
+		cookies.ct_checkjs = match[1];
+	}
 
 	let result = await fetch(form.getAttribute('action'), {
 		method: 'POST',
@@ -59,15 +84,24 @@ async function sendMessage({ to, subject, body }) {
 	// If the response was redirected, then the message was sent successfully. 
 	// Otherwise it failed - most likely due to rate limiting!
 	if (!result.redirected) {
-		throw new Error();
+		console.log('Status', result.status);
+		let text = await result.text();
+		console.log(text);
+		throw new Error(
+			'Simtropolis did not return a redirect status, indicating that the DM could not be sent, likely due to rate limiting.',
+		);
 	}
 
+}
+
+function md5(value = String(Math.random()*1000 | 0)) {
+	return createHash('md5').update(value).digest('hex');
 }
 
 const getAuthHeaders = (cookies) => ({
 	Cookie: Object.entries({
 		...cookies,
-		ct_checkjs: '20f8b05aba75f1dcfdae1ad4e4ed0aac',
+		ct_checkjs: '72242b45b84b32e3973c393d6c69811e',
 		ct_timezone: 1,
 		ct_fkp_timestamp: Math.floor(Date.now()/1000) - 10,
 		ct_ps_timestamp: Math.floor(Date.now()/1000) - 15,

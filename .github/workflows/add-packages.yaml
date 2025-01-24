@@ -54,8 +54,14 @@ jobs:
         id: create-prs
         uses: ./actions/create-prs
         with:
+          channel-url: https://sc4pac.simtropolis.com
+          channel-name: Simtropolis channel
           packages: ${{ steps.fetch.outputs.packages }}
           timestamp: ${{ steps.fetch.outputs.timestamp }}
+      - name: Send DMs on Simtropolis
+        uses: ./actions/send-messages
+        with:
+          messages: ${{ steps.create-prs.outputs.messages }}
     outputs:
       has-new-content: ${{ steps.fetch.outputs.has-new-content }}
 
