@@ -94,10 +94,6 @@ export default async function sendMessage({ to, subject, body }) {
 
 }
 
-function md5(value = String(Math.random()*1000 | 0)) {
-	return createHash('md5').update(value).digest('hex');
-}
-
 const getAuthHeaders = (cookies) => ({
 	Cookie: Object.entries({
 		...cookies,
