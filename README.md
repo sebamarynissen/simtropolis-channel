@@ -34,77 +34,87 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 
 # How to make your plugins compatible
 
-By default, a plugin added to the STEX will not be added to this channel.
-Your plugin needs to be *compatible*.
-In order to do this, you have to add a `metadata.yaml` file in **one** of the .zip folders you are about to upload to the STEX.
+In order for a plugin to be installable by sc4pac, sc4pac needs certain information about it, such as the dependencies and variants, and where the package can actually be downloaded.
+This is done by so called *metadata*, which contains the information needed for sc4pac in a structured format.
+You can find the specification of the metadata format on the [sc4pac website](https://memo33.github.io/sc4pac/#/metadata).
+Writing metadata by hand is however a tedious and time consuming process, and that's where this channel fits in: it will download your plugin from the STEX, and automatically generate the required metadata for it, so that you only need to write minimal metadata yourself.
+
+However, by default, a plugin added to the STEX will *not* be automatically added.
+To indicate that your plugin should be add to the channel, you have to add a `metadata.yaml` file in **one** of the .zip folders you are about to upload to the STEX.
 It doesn't matter where you put this `metadata.yaml` file, but it is advised to put it at the root of your .zip folder.
 
-If your plugin has no dependencies and no specific installation needs, you can leave the `metadata.yaml` file empty (see below), but it is *mandatory* to have it, otherwise it will not be added to the channel.
+> [!NOTE]
+> Currently, only plugins uploaded as .zip are supported, but support for .7z and .rar is planned.
 
-In order for a package to be installable with sc4pac, metadata about it must be written.
-You can learn more about this [in the official sc4pac documentation](https://memo33.github.io/sc4pac/#/metadata).
-However, in order to appear on the Simtropolis channel, it is not required to write the full metadata, as most of the metadata can be generated automatically from the STEX information.
+If your plugin has no dependencies and no specific installation needs, you can leave the `metadata.yaml` file empty, but it is *mandatory* to have it, otherwise your plugin will not be added to the channel.
+For example, consider [mattb325's Inmark Tower](https://community.simtropolis.com/files/file/35168-inmark-tower/).
 
-For example, consider [Magasin Valois by Jasoncw](https://community.simtropolis.com/files/file/36465-magasin-valois/)
+![image](https://github.com/user-attachments/assets/a2b9874a-2063-4b0e-b34a-033148c59501)
 
-![image](https://github.com/user-attachments/assets/2487f4fc-d6ec-49a7-a6fc-d656865f862b)
-
-By default, the channel will generate the following metadata for it:
+If one of the uploaded .zip folders contains an empty `metadata.yaml` file, then the channel will generate the following metadata for it:
 
 ```yaml
-group: jasoncw
-name: magasin-valois
+group: mattb325
+name: inmark-tower
 version: "1.0.0"
-subfolder: 300-commercial
+subfolder: 200-residential
 info:
-  summary: Magasin Valois
+  summary: Inmark Tower
   description: |-
-    Magasin Valois, the brand only the most fashionable high wealth sims wear.
+    **Inmark Tower, by Mattb325.  
+    \---------------------------------------**
 
-    It is a corner lot for the Euro tileset.
+    Though fictional, this design for a 36 floor apartment complex suitable for inner-city areas draws heavy inspiration from an apartment tower in Sydney's CBD.
 
-    - 1x2 growable and ploppable CS§§§ lot.
-    - MaxisNite and DarkNite versions included.
-    - DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
-    - Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
-  author: Jasoncw
-  website: https://community.simtropolis.com/files/file/36465-magasin-valois/
+    [...]
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/35168-inmark-tower/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66f4a2f03413f_MagasinValois00.jpg.e77d15efa6ab68a2660313ca1c00a1a4.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66f4a2fbcfeb2_MagasinValois01.jpg.8450c652a322d9263f5825a66bc2d5a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark.jpg.82cd6852f34cdeddb61569e8e7e68ed3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark1.jpg.c6bea92e2babc0324b03bafab43e39dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark2.jpg.44f11dbd146ee646b9f52dcb807bab35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark3.jpg.ff4cbee0cab3c01e817a4953d9de4e93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark4.jpg.fba5793e0a7c79c45ebf64568dd957bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/Inmark5.jpg.dc2a3a286bc5b1b1cb203a9c8d1edcbd.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: jasoncw-magasin-valois-maxisnite
+      - assetId: mattb325-inmark-tower-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: jasoncw-magasin-valois-darknite
+      - assetId: mattb325-inmark-tower-darknite
 
 ---
-assetId: jasoncw-magasin-valois-maxisnite
+assetId: mattb325-inmark-tower-darknite
 version: "1.0.0"
-lastModified: "2024-09-25T23:56:22Z"
-url: https://community.simtropolis.com/files/file/36465-magasin-valois/?do=download&r=203589
+lastModified: "2022-04-30T22:01:01Z"
+url: https://community.simtropolis.com/files/file/35168-inmark-tower/?do=download&r=194019
 
 ---
-assetId: jasoncw-magasin-valois-darknite
+assetId: mattb325-inmark-tower-maxisnite
 version: "1.0.0"
-lastModified: "2024-09-25T23:56:22Z"
-url: https://community.simtropolis.com/files/file/36465-magasin-valois/?do=download&r=203590
+lastModified: "2022-04-30T22:01:01Z"
+url: https://community.simtropolis.com/files/file/35168-inmark-tower/?do=download&r=194020
+
 ```
 
 This is why you can leave the `metadata.yaml` file in your .zip empty: if the generated metadata from the STEX upload is sufficient for your package, you don't have to write any metadata yourself!
 Everything is handled automatically.
+Note how even maxisnite & darknite variants are handled automatically too - [see below](#supporting-variants) for an explanation on how this works.
 
-However, note that the upload above specifies Mipro Essentials - December 2015 as a dependency.
-Dependencies are ***not*** parsed automatically from the STEX upload, so `metadata.yaml` for the upload above should look like
+However, if your plugin has dependencies, you will need to specify them in your `metadata.yaml` file.
+The channel **does not** track them automatically, even if you have listed them in the description!
+Let's assume your plugin needs three dependencies: BSC Mega Props - CP Vol 01, BSC Textures Vol 02 and Girafe's Oaks.
+In that case, your `metadata.yaml` file should look like this:
+
 ```yaml
 dependencies:
-  - mipro:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol02
+  - girafe:oaks
 ```
-in order to be fully compatible.
-Also note that Maxisnite and Darknite variants can be handled automatically ([see below](#supporting-variants)).
+The rest of the metadata will be generated automatically.
 
 If your plugin has other specific installation needs for which you need to be able to customize the metadata, it should also be done within `metadata.yaml`.
 The channel will use anything it finds in here, and fill in the gaps based on the STEX upload.
@@ -118,6 +128,9 @@ dependencies:
 to the `metadata.yaml` file.
 That's all there is to it!
 The channel will automatically fill in the rest of the gaps, such as the package name, summary, description, assets, ...
+
+> ![NOTE]
+> By default, you can only publish a package under your own account name as group. If you'd like to upload packages under another group name as well, file a PR to add yourself to `permissions.yaml`, or contact [smf_16](https://community.simtropolis.com/profile/259789-smf_16/) on Simtropolis.
 
 Note that you can only override *packages* in your `metadata.yaml` file.
 *Assets* are handled automatically: every folder you upload to the STEX gets added as an asset to the metadata.
