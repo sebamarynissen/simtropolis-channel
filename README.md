@@ -20,7 +20,7 @@ You can find the specification of the metadata format on the [sc4pac website](ht
 Writing metadata by hand is however a tedious and time consuming process, and that's where this channel fits in: it will download your plugin from the STEX, and automatically generate the required metadata for it, so that you only need to write minimal metadata yourself.
 
 However, by default, a plugin added to the STEX will *not* be automatically added.
-To indicate that your plugin should be add to the channel, you have to add a `metadata.yaml` file in **one** of the .zip folders you are about to upload to the STEX.
+To indicate that your plugin should be added to the channel, you have to add a `metadata.yaml` file in **one** of the .zip folders you are about to upload to the STEX.
 It doesn't matter where you put this `metadata.yaml` file, but it is advised to put it at the root of your .zip folder.
 
 > [!NOTE]
@@ -96,6 +96,9 @@ dependencies:
 ```
 The rest of the metadata will be generated automatically.
 
+> [!NOTE]
+> If you find it difficult to list the dependencies for your plugin in sc4pac format, have a look at the [sc4 cli tool](https://community.simtropolis.com/forums/topic/763559-tracking-dependencies-in-the-age-of-sc4pac/), which has an action specifically designed for listing the dependencies in sc4pac format.
+
 If your plugin has other specific installation needs for which you need to be able to customize the metadata, it should also be done within `metadata.yaml`.
 The channel will use anything it finds in here, and fill in the gaps based on the STEX upload.
 
@@ -153,10 +156,10 @@ However, manually writing metadata for variants is cumbersome and prone to error
 To solve this, the channel can automatically generate metadata for variants if you follow a certain convention in your uploads.
 There are 4 supported variants:
 
-- Maxisnite/darknite
-- CAM/No CAM
-- RHD/LHD
-- Resolution (HD or SD)
+- [Maxisnite/darknite](#maxisnitedarknite)
+- [CAM/No CAM](#camno-cam)
+- [RHD/LHD](#rhdlhd)
+- [Resolution (HD or SD)](#hdsd)
 
 ### Maxisnite/darknite
 
@@ -432,7 +435,7 @@ variants:
 ### Custom variants
 
 If your package contains custom variants - for example such as choosing a texture variant - then you will have to write the variant metadata yourself using the interpolation technique as shown above.
-Note that this is either all or nothing: as soon as the channel sees that you have defined `variants` yourself, it will no longer perform any automatic generation.
+Note that this is either all or nothing: as soon as the channel sees that you have defined `variants` yourself, it will no longer perform any automatic generation of the builtin variants such as the nightmode.
 
 However, as you can derive from above, the most common cases are covered, so as long as you stick to the conventions as explained, you will need to write minimal metadata to handle variants.
 
