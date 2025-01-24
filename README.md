@@ -13,25 +13,6 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - Automate the generation of yaml metadata as much as possible with as minimal friction as possible for content creators.
 - Backfill the channel with as much existing content from the STEX as feasible. See [#99](https://github.com/sebamarynissen/simtropolis-channel/issues/99) for the progress.
 
-## Roadmap
-
-- [x] Implement a proof of concept
-- [x] Use the STEX api instead of html scraping
-- [x] Automatically keep track of when the Simtropolis api was last called and only request new files after that date ([#21](https://github.com/sebamarynissen/simtropolis-channel/pull/21))
-- [x] Support custom metadata as part of the package (by means of a metadata.yaml file in one of the uploads)
-- [x] Handle various Simtropolis error scenarios (down for maintenance, 520, ...) ([#35](https://github.com/sebamarynissen/simtropolis-channel/pull/35))
-- [x] Setup an action that creates a PR instead of pushing to main
-- [x] Make the metadata generation robust & fool proof
-  - [x] Ensure incorrect metadata cannot be deployed
-  - [x] Ensure creators cannot publish packages under a separate name, *unless* explicitly allowed in the `permissions.yaml` file. That way someone from a team can upload under the team name, but only if explicitly allowed.
-  - [x] Automatically generate DLL checksums (see [#37](https://github.com/sebamarynissen/simtropolis-channel/pull/37) for the discussion about this feature)
-- [x] Handle non-zip archives. We'll probably just ignore those for now and require a package to be a .zip folder if it wants to be compatible.
-- [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
-- [ ] Move repository ownership to a Simtropolis member/organization on GitHub
-- [x] Make the channel available under a simtropolis.com url: [https://sc4pac.simtropolis.com/](https://sc4pac.simtropolis.com/sc4pac-channel-contents.json)
-- [x] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails ([#101](https://github.com/sebamarynissen/simtropolis-channel/pull/101/))
-- [ ] Setup an action that automatically creates a GitHub release the first of every month with an overview of all packages that have been added the last month. The releases can have the format `YYYY.mm` as version tags.
-
 # How to make your plugins compatible
 
 In order for a plugin to be installable by sc4pac, sc4pac needs certain information about it, such as the dependencies and variants, and where the package can actually be downloaded.
@@ -129,11 +110,8 @@ to the `metadata.yaml` file.
 That's all there is to it!
 The channel will automatically fill in the rest of the gaps, such as the package name, summary, description, assets, ...
 
-> ![NOTE]
+> [!NOTE]
 > By default, you can only publish a package under your own account name as group. If you'd like to upload packages under another group name as well, file a PR to add yourself to `permissions.yaml`, or contact [smf_16](https://community.simtropolis.com/profile/259789-smf_16/) on Simtropolis.
-
-Note that you can only override *packages* in your `metadata.yaml` file.
-*Assets* are handled automatically: every folder you upload to the STEX gets added as an asset to the metadata.
 
 If your plugin has very specific needs - for example if you want to split up your package in both a *models & props* part, and *lots* part, which is useful if you expect other people to create re-lots - then you can reference your assets in the `metadata.yaml` as follows:
 
@@ -169,28 +147,29 @@ info:
 
 ## Supporting variants
 
-Variants are extremely common for plugins.
-The best known variant is Maxisnite vs. Darknite, but plugins can sometimes also offer a RHD and LHD variant.
+It's quite common for plugins to come in variants.
+The best known variant is Maxisnite vs. Darknite, but plugins can sometimes also offer a RHD and LHD variant or a specific CAM variant.
 
-Because this is so common, it can be cumbersome to write the variant metadata all the time.
-However, if you upload a plugin to the STEX and have it adhere to a few rules, then this can be handled automatically.
-For example, if your plugin both has a Maxisnite and Darknite variant, then all you have to do is follow a naming convention when uploading them to the STEX:
--  Name of your plugin (MN).zip
--  Name of your plugin (DN).zip
+However, manually writing metadata for variants is cumbersome and prone to errors.
+To solve this, the channel can automatically generate metadata for variants if you follow a certain convention in your uploads.
+There are 4 supported variants:
 
-Alternatively
-- Name of your plugin (maxisnite).zip
-- Name of your plugin (darknite).zip
+- Maxisnite/darknite
+- CAM/No CAM
+- RHD/LHD
+- Resolution (HD or SD)
 
-will also work.
-The channel then automatically detects that these are maxisnite and darknite variants of your plugin, and it will generate the following metadata:
+### Maxisnite/darknite
 
+The channel detects a Maxisnite or Darknite variant of your plugin by looking at the **name** of the upload.
+An asset is tagged as the Maxisnite variant if it either has `(MN)` or `(Maxisnite)` in its name, and likewise as Darknite variant if it either has `(DN)` or `(Darknite)` in its name.
+
+For example, if your upload contains two files
+- Name of your plugin (MN).zip
+- Name of your plugin (Darknite).zip
+
+then it will generate the following metadata:
 ```yaml
-group: author
-name: stex-title
-info:
-  ...
-
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -213,7 +192,250 @@ version: 1.0.0
 lastModified: ...
 ```
 
-However, if further customization is needed, you will need to write the variant metadata yourself in `metadata.yaml`.
+Note that this means that both folders need to contain the entire contents of the plugin - which is the usual convention.
+Alternatively, you can also put shared resources - such as the `.SC4Lot` files - in a separate .zip, and only put the models in `(MN)` and `(DN)` labeled .zips.
+For example,
+- Plugin (lots).zip
+- Plugin (models) (MN).zip
+- Plugin (models) (DN).zip
+
+will generate 
+
+```yaml
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: author-stex-title
+      - assetId: author-stex-title-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: author-stex-title
+      - assetId: author-stex-title-darknite
+```
+
+Some older uploads also have the Maxisnite and Darknite models in the same .zip folder, where the user then has to manually remove the folder they don't need.
+While it is strongly discouraged, this approach is supported on the channel too.
+For example, consider the following folder structure of your .zip:
+
+```
+metadata.yaml
+lot.SC4Desc
+building.SC4Desc
+Model files (KEEP ONLY ONE)/
+  Maxisnite/
+    model.SC4Model
+  Darknite/
+    model.SC4Model
+```
+which will generate
+
+```yaml
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: author-stex-title
+        exclude:
+          - /Darknite/
+  - variant: { nightmode: dark }
+    dependencies: [ ""simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: author-stex-title
+        exclude:
+          - /Darknite/
+```
+
+### CAM/No CAM
+
+Another thing you commonly encounter in plugins is that they provide separate growable lots for players using the CAM.
+The channel can automatically generate the required variants for this too.
+Similar to DN/MN variants, an upload is tagged as CAM if it contains either `(CAM)`, `(CAMeLot)` or `(CAMeLots)` in its name.
+However, in contrast to DN/MN, the CAM upload must only contain the `.SC4Lot` and `.SC4Desc` files of the *growable* lots.
+The channel will subsequently inspect all files of the main asset, and exclude them in the CAM variant.
+
+For example, consider you have the following structure of your uploads:
+
+```
+Plugin.zip/
+  metadata.yaml
+  model.SC4Model
+  ploppable.SC4Lot
+  ploppable.SC4Desc
+  R$$_8.SC4Lot
+  R$$_8.SC4Desc
+
+Plugin (CAMeLots).zip/
+  R$$_10.SC4Lot
+  R$$_10.SC4Desc
+```
+
+Then the channel will generate the following metadata:
+
+```yaml
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: group-name
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: group-name
+        exclude:
+          - /R\$\$_8\.SC4Lot$
+          - /R\$\$_8\.SC4Desc$
+      - assetId: group-name-cam
+```
+
+Note that the ploppable is *not* excluded from the main asset in the CAM variant, only the growables are, so the CAM asset must only contain the growable files.
+This is based on a convention that [Jasoncw](https://community.simtropolis.com/profile/85340-jasoncw/content/?type=downloads_file) uses in his uploads.
+
+Note that it's also possible to combine MN/DN variants with CAM variants.
+In order for this to work, all you have to do is create separate MN and DN zips, and combine it with a separate zip for the CAM, sticking to the same principles that the MN/DN folders need to contain the entire plugin, but the CAM should only hold the growables.
+This is again based on a convention used by Jasoncw.
+
+So, in the example above, this means that your folder structure should become
+
+```
+Plugin (MN).zip/
+  metadata.yaml
+  model.SC4Model
+  ploppable.SC4Lot
+  ploppable.SC4Desc
+  R$$_8.SC4Lot
+  R$$_8.SC4Desc
+
+Plugin (DN).zip/
+  model.SC4Model
+  ploppable.SC4Lot
+  ploppable.SC4Desc
+  R$$_8.SC4Lot
+  R$$_8.SC4Desc
+
+Plugin (CAMeLots).zip/
+  R$$_10.SC4Lot
+  R$$_10.SC4Desc
+```
+
+which will generate the required variant metadata automatically:
+
+```yaml
+variants:
+  - variant: { nightmode: "standard", CAM: "no" }
+    assets:
+      - assetId: group-name-maxisnite
+  - variant: { nightmode: "standard", CAM: "yes" }
+    assets:
+      - assetId: group-name-maxisnite
+        exclude:
+          - /R\$\$_8\.SC4Lot$
+          - /R\$\$_8\.SC4Desc$
+      - assetId: group-name-cam
+  - variant: { nightmode: "dark", CAM: "no" }
+    assets:
+      - assetId: group-name-darknite
+  - variant: { nightmode: "dark", CAM: "yes" }
+    assets:
+      - assetId: group-name-darknite
+        exclude:
+          - /R\$\$_8\.SC4Lot$
+          - /R\$\$_8\.SC4Desc$
+      - assetId: group-name-cam
+```
+
+### RHD/LHD
+
+Driveside variants work similar to nightmode variants.
+An asset is tagged as RHD if it has `(RHD)` in its name, and as LHD if it has `(LHD)` in its name.
+Just like with nightmode variants, both .zips need to contain the entire contents of the plugins, but you can specify shared assets in a shared asset if you like.
+
+Example:
+
+```
+Plugin (RHD).zip/
+  metadata.yaml
+  model.SC4Model
+  lot.SC4Lot
+
+Plugin (LHD).zip/
+  model.SC4Model
+  lot.SC4Lot
+```
+
+which generates
+
+```yaml
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: group-name-rhd
+variants:
+  - variant: { driveside: left }
+    assets:
+      - assetId: group-name-left
+```
+
+### HD/SD
+
+Some plugins provide both an SD and HD variant of the models, which the channel can handle automatically as well.
+There are two ways to do this.
+The first one is to explicitly label the assets with `(HD)` and `(SD)`, in which case it works similar to MN/DN variants.
+
+For example,
+```
+Plugin.zip/
+  metadata.yaml
+  lot.SC4Lot
+
+Plugin (models) (HD).zip/
+  model.SC4Model
+
+Plugin (models) (SD).zip/
+  model.SC4Model
+```
+generates
+```yaml
+variants:
+  - variant: { group:name:resolution: sd }
+    assets:
+      - assetId: group-name
+      - assetId: group-name-sd
+  - variant: { group:name:resolution: hd }
+    assets:
+      - assetId: group-name
+      - assetId: group-name-hd
+```
+
+Alternatively, you can also label only the HD, asset, in which case all `.SC4Model` files from the main asset become excluded:
+
+For example
+```
+Plugin.zip/
+  metadata.yaml
+  lot.SC4Lot
+  model.SC4Model
+
+Plugin (models) (HD).zip/
+  model.SC4Model
+```
+generates
+```yaml
+variants:
+  - variant: { group:name:resolution: sd }
+    assets:
+      - assetId: group-name
+  - variant: { group:name:resolution: hd }
+    assets:
+      - assetId: group-name
+        exclude:
+          - \.SC4Model$
+      - assetId: group-name-hd
+```
+
+### Custom variants
+
+If your package contains custom variants - for example such as choosing a texture variant - then you will have to write the variant metadata yourself using the interpolation technique as shown above.
+Note that this is either all or nothing: as soon as the channel sees that you have defined `variants` yourself, it will no longer perform any automatic generation.
+
+However, as you can derive from above, the most common cases are covered, so as long as you stick to the conventions as explained, you will need to write minimal metadata to handle variants.
 
 ## Subfolders
 
@@ -307,5 +529,3 @@ For more information on this feature, you can refer to the implementation detail
 If you have added an invalid `metadata.yaml` file - which also includes referencing non-existent dependencies or assets - then your package will not be added to the channel.
 Instead, a [pull request](https://github.com/sebamarynissen/simtropolis-channel/pulls) will be created with the package name you were trying to update, which will contain information about what was wrong with the package.
 Hence it is always a good idea after uploading a plugin to check the [pull requests](https://github.com/sebamarynissen/simtropolis-channel/pulls) to see if your package was added successfully.
-
-While currently not yet implemented, the idea is to send a notification on Simtropolis if your package could not be added in the future.
