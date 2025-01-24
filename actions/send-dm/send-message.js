@@ -2,7 +2,6 @@ import { JSDOM } from 'jsdom';
 import FormData from 'form-data';
 import parseCookie from 'set-cookie-parser';
 import { marked } from 'marked';
-import { createHash } from 'node:crypto';
 
 marked.use({
 	renderer: {
