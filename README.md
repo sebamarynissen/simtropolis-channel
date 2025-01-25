@@ -116,7 +116,7 @@ to the `metadata.yaml` file.
 That's all there is to it!
 The channel will automatically fill in the rest of the gaps, such as the package name, summary, description, assets, ...
 
-> [!NOTE]
+> [!IMPORTANT]
 > By default, you can only publish a package under your own account name as group. If you'd like to upload packages under another group name as well, file a PR to add yourself to `permissions.yaml`, or contact [smf_16](https://community.simtropolis.com/profile/259789-smf_16/) on Simtropolis.
 
 If your plugin has very specific needs - for example if you want to split up your package in both a *models & props* part, and *lots* part, which is useful if you expect other people to create re-lots - then you can reference your assets in the `metadata.yaml` as follows:
@@ -167,7 +167,7 @@ There are 4 supported variants:
 
 ### Maxisnite/darknite
 
-The channel detects a Maxisnite or Darknite variant of your plugin by looking at the **name** of the upload.
+The channel detects a Maxisnite or Darknite variant of your plugin by looking at the **file name** of the upload.
 An asset is tagged as the Maxisnite variant if it either has `(MN)` or `(Maxisnite)` in its name, and likewise as Darknite variant if it either has `(DN)` or `(Darknite)` in its name.
 
 For example, if your upload contains two files
@@ -250,6 +250,11 @@ variants:
         exclude:
           - /Darknite/
 ```
+
+> [!IMPORTANT]
+> You don't need to add `simfox:day-and-nite-mod` to your list of dependencies.
+> This is handled automatically.
+> If you do include `simfox:day-and-nite-mod` to your dependency list, the verification process of the metadata will report an error, and your package will not be added.
 
 ### CAM/No CAM
 
