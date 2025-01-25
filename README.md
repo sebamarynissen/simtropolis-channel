@@ -85,7 +85,7 @@ Note how even maxisnite & darknite variants are handled automatically too - [see
 
 However, if your plugin has dependencies, you will need to specify them in your `metadata.yaml` file.
 The channel **does not** track them automatically, even if you have listed them in the description!
-Let's assume your plugin needs three dependencies: BSC Mega Props - CP Vol 01, BSC Textures Vol 02 and Girafe's Oaks.
+Let's assume your plugin needs three dependencies: **BSC Mega Props - CP Vol 01**, **BSC Textures Vol 02** and **Girafe's Oaks**.
 In that case, your `metadata.yaml` file should look like this:
 
 ```yaml
@@ -95,6 +95,10 @@ dependencies:
   - girafe:oaks
 ```
 The rest of the metadata will be generated automatically.
+
+Dependencies must be valid sc4pac identifiers that are available either in the [default channel](https://memo33.github.io/sc4pac/channel) or the [Simtropolis channel](https://sc4pac.simtropolis.com).
+If a dependency is not available in either of those channels, you have to file a PR to add it to the [default channel](https://github.com/memo33/sc4pac) before you can use it, or you have to instruct users that this dependency must be installed by hand.
+Work is being done to making as many dependencies available as possible, but especially for relots that use models of the original file, it's possible that you won't be able to specify the dependency in sc4pac format.
 
 > [!NOTE]
 > If you find it difficult to list the dependencies for your plugin in sc4pac format, have a look at the [sc4 cli tool](https://community.simtropolis.com/forums/topic/763559-tracking-dependencies-in-the-age-of-sc4pac/), which has an action specifically designed for listing the dependencies in sc4pac format.
