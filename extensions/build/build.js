@@ -47,6 +47,7 @@ for (let [browser, options] of Object.entries(config)) {
 			absWorkingDir: srcDir,
 			bundle: true,
 			outfile: path.join(outDir, file),
+			minify: true,
 		});
 	}
 
