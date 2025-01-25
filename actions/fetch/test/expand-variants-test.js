@@ -78,16 +78,20 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['hd'],
 			},
 		];
-		let variants = await expandVariants({ assets });
+		let pkg = {
+			group: 'group',
+			name: 'name',
+		};
+		let variants = await expandVariants({ assets, package: pkg });
 		expect(variants).to.eql([
 			{
-				variant: { resolution: 'sd' },
+				variant: { 'group:name:resolution': 'sd' },
 				assets: [
 					{ assetId: 'normal' },
 				],
 			},
 			{
-				variant: { resolution: 'hd' },
+				variant: { 'group:name:resolution': 'hd' },
 				assets: [
 					{
 						assetId: 'normal',
@@ -116,17 +120,21 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['hd'],
 			},
 		];
-		let variants = await expandVariants({ assets });
+		let pkg = {
+			group: 'group',
+			name: 'name',
+		};
+		let variants = await expandVariants({ assets, package: pkg });
 		expect(variants).to.eql([
 			{
-				variant: { resolution: 'sd' },
+				variant: { 'group:name:resolution': 'sd' },
 				assets: [
 					{ assetId: 'lots' },
 					{ assetId: 'sd' },
 				],
 			},
 			{
-				variant: { resolution: 'hd' },
+				variant: { 'group:name:resolution': 'hd' },
 				assets: [
 					{ assetId: 'lots' },
 					{ assetId: 'hd' },
@@ -160,30 +168,34 @@ describe('#expandVariants()', function() {
 				[kFileTags]: ['darknite', 'hd'],
 			},
 		];
-		let variants = await expandVariants({ assets });
+		let pkg = {
+			group: 'group',
+			name: 'name',
+		};
+		let variants = await expandVariants({ assets, package: pkg });
 		expect(variants).to.eql([
 			{
-				variant: { nightmode: 'standard', CAM: 'no', resolution: 'sd' },
+				variant: { nightmode: 'standard', CAM: 'no', 'group:name:resolution': 'sd' },
 				assets: [
 					{ assetId: 'maxisnite' },
 				],
 			},
 			{
-				variant: { nightmode: 'standard', CAM: 'no', resolution: 'hd' },
+				variant: { nightmode: 'standard', CAM: 'no', 'group:name:resolution': 'hd' },
 				assets: [
 					{ assetId: 'maxisnite', exclude: ['.SC4Model$'] },
 					{ assetId: 'maxisnite-hd' },
 				],
 			},
 			{
-				variant: { nightmode: 'standard', CAM: 'yes', resolution: 'sd' },
+				variant: { nightmode: 'standard', CAM: 'yes', 'group:name:resolution': 'sd' },
 				assets: [
 					{ assetId: 'maxisnite' },
 					{ assetId: 'cam' },
 				],
 			},
 			{
-				variant: { nightmode: 'standard', CAM: 'yes', resolution: 'hd' },
+				variant: { nightmode: 'standard', CAM: 'yes', 'group:name:resolution': 'hd' },
 				assets: [
 					{ assetId: 'maxisnite', exclude: ['.SC4Model$'] },
 					{ assetId: 'cam' },
@@ -191,14 +203,14 @@ describe('#expandVariants()', function() {
 				],
 			},
 			{
-				variant: { nightmode: 'dark', CAM: 'no', resolution: 'sd' },
+				variant: { nightmode: 'dark', CAM: 'no', 'group:name:resolution': 'sd' },
 				dependencies: ['simfox:day-and-nite-mod'],
 				assets: [
 					{ assetId: 'darknite' },
 				],
 			},
 			{
-				variant: { nightmode: 'dark', CAM: 'no', resolution: 'hd' },
+				variant: { nightmode: 'dark', CAM: 'no', 'group:name:resolution': 'hd' },
 				dependencies: ['simfox:day-and-nite-mod'],
 				assets: [
 					{ assetId: 'darknite', exclude: ['.SC4Model$'] },
@@ -206,7 +218,7 @@ describe('#expandVariants()', function() {
 				],
 			},
 			{
-				variant: { nightmode: 'dark', CAM: 'yes', resolution: 'sd' },
+				variant: { nightmode: 'dark', CAM: 'yes', 'group:name:resolution': 'sd' },
 				dependencies: ['simfox:day-and-nite-mod'],
 				assets: [
 					{ assetId: 'darknite' },
@@ -214,7 +226,7 @@ describe('#expandVariants()', function() {
 				],
 			},
 			{
-				variant: { nightmode: 'dark', CAM: 'yes', resolution: 'hd' },
+				variant: { nightmode: 'dark', CAM: 'yes', 'group:name:resolution': 'hd' },
 				dependencies: ['simfox:day-and-nite-mod'],
 				assets: [
 					{ assetId: 'darknite', exclude: ['.SC4Model$'] },

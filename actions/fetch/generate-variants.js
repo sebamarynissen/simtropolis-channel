@@ -154,7 +154,7 @@ function generateVariant(config, metadata, opts) {
 	// mode variant.
 	let dependencies = [];
 	let exclusions = {};
-	let { assets } = metadata;
+	let { package: pkg, assets } = metadata;
 	let { nightmode, driveside, CAM, resolution } = config;
 	if (nightmode) {
 
@@ -245,7 +245,12 @@ function generateVariant(config, metadata, opts) {
 
 	// At last we'll compile everything together.
 	return {
-		variant: config,
+		variant: {
+			...nightmode && { nightmode },
+			...CAM && { CAM },
+			...driveside && { driveside },
+			...resolution && { [`${pkg.group}:${pkg.name}:resolution`]: resolution },
+		},
 		...dependencies.length > 0 && { dependencies },
 		assets: assets.map(asset => {
 			let exclude = exclusions[asset.assetId] ?? [];
