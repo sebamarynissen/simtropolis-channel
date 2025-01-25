@@ -29,8 +29,13 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bcd019862ed7_NewBoots-May.13871540161519.png.8bb15105d7b28b8728fa697365519127.png
     - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bcd019cedf78_NewBoots-May.23871540161554.png.d4a11b8067d931d1eace4f0075c347ed.png
 dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-misc-vol02
   - bsc:mega-props-mjb-vol01
   - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - girafe:berries
   - girafe:feather-grass
   - girafe:hedges
   - girafe:lindens
@@ -38,7 +43,6 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - shk:parking-pack
-  - supershk:fa3-parking-textures
   - supershk:mega-parking-textures
 assets:
   - assetId: pclark06-shake-shack

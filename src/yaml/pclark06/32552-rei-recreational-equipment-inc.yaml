@@ -29,7 +29,10 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bc6271ac7fec_reiscreen.png.4242bd0f3f68fedad22b0de7d09dee41.png
 dependencies:
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
   - girafe:feather-grass
   - girafe:hedges
   - girafe:lindens
@@ -37,7 +40,6 @@ dependencies:
   - lbt:mega-prop-pack-vol01
   - shk:parking-pack
   - simmer2:mega-prop-pack-vol1
-  - supershk:fa3-parking-textures
   - supershk:mega-parking-textures
 assets:
   - assetId: pclark06-rei-recreational-equipment-inc
