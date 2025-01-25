@@ -200,4 +200,24 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('normalizes non-ascii characters', function() {
+
+		let upload = faker.upload({
+			title: 'Dóm sväteho Martina ',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('dom-svateho-martina');
+
+	});
+
+	it('handles apostrophes', function() {
+
+		let upload = faker.upload({
+			title: 'Andrew\'s Fashion Centre',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('andrews-fashion-centre');
+
+	});
+
 });

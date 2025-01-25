@@ -1,0 +1,55 @@
+group: peg
+name: refuse-relocation-kit
+version: "1.1"
+subfolder: 100-props-textures
+info:
+  summary: Refuse Relocation Kit
+  description: |-
+    The PEG Refuse Relocation Kit contains 2 new garbage truck BAT models for use on your lots. These are not static props. They are designed to simulate normal trash pick-up activity by randomly appearing for a short period only.
+
+    Although our trash is normally picked up only once or twice a week, these trucks will show up every day. They will also remain visible for 4 hours. This may not be totally realistic but it works better visually in the game.
+
+    **Also...** This kit contains 4 new 'Skin' DATs that players can use to change the color of the garbage truck automata in the game. The install will put all four in your Plugins folder but only one can be used at a time. You will want to manually remove the 3 Skin DAT files you do not wish to use.
+
+    The game's default Recycling Truck automata has been updated to use the new green garbage truck. The automata skins have all been updated to include the recycling logo as a standard Sanitation Dept. logo.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11129-peg-refuse-relocation-kit/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4f15b8b2f4bddbf94825c1784c878a1d-product_image.jpg
+variants:
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: blue }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-Blue_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: green }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-Green_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: orange }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-Orange_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
+  - variant: { peg:refuse-relocation-kit:garbage-truck-skin: white }
+    assets:
+      - assetId: peg-refuse-relocation-kit
+        include:
+          - peg_GarbageTruck-White_SKIN.dat
+          - PEG_RecycleTruck_SKIN.dat
+          - PEG-GarbageTruck_PROP_206.dat
+
+---
+assetId: peg-refuse-relocation-kit
+version: "1.1"
+lastModified: "2025-01-19T15:00:39Z"
+url: https://community.simtropolis.com/files/file/11129-peg-refuse-relocation-kit/?do=download&r=205359

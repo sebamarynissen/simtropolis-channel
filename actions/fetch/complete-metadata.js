@@ -13,7 +13,11 @@ export default async function completeMetadata(metadata, json) {
 	let { package: pkg } = metadata;
 	let { info } = pkg;
 	if (!info.description) {
-		info.description = description;
+		info.description = description
+			.split('\n')
+			.map(line => line.trimEnd())
+			.join('\n')
+			.replace(/(\n\s*){3,}/g, '\n\n');
 	}
 	if (!info.images) {
 		info.images = images;

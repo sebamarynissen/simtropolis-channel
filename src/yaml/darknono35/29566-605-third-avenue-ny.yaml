@@ -1,0 +1,113 @@
+group: darknono35
+name: 605-third-avenue-ny
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 605 Third Avenue, NY
+  description: |-
+    **NYBT 605 THIRD AVENUE, NY**
+
+    *1/Two night version are inside this folder, Darknite and Maxisnite, choose only one version.*
+
+    *2/Don't remove the folder called "Model" otherwise, you will see the brown box in the game.*
+
+    *3/Diagonal and Orthogonal version.*
+
+    The 605 Third ave was located in the borough of Manhattan, NY at Murray Hill. It's an 167 meters offices building with 43 floors designated by a lot of name ( Unysys Bldg, Burroughs Bldg, Willey Bldg ).
+
+    The construction end in 1963 and was built by the architect "Emery Roth & Sons" in the International and curtain wall style.
+
+    In-game settings:
+
+    **LANDMARK**:
+
+    Jobs: 6837 CO$$
+
+    Pollution at center: Air:23 / Water:23 / Garbage:11 / Rad:0
+
+    Pollution radi: Air:5 / Water:6 / Garbage:0 / Rad:0
+
+    Power consumed: 117
+
+    Water consumed: 1179
+
+    Flammability: 40
+
+    Max fire stage: 5
+
+    Lot Size Orthogonal: 4x4
+
+    Lot Size Diagonal: 1x1
+
+    Plop cost: $33468
+
+    Dependencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    NYBT essential link : [https://community.simtropolis.com/files/file/22916-nybt\-essentials/](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    Enjoyed this first 2014 upload ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/29566-nybt-605-third-avenue-ny/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/3b4f71c94e09438a573692510cea39e9-nybt_605thirdave_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/77874c746ce15a7325620c71387ec224-nybt_605thirdave_01.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-605-third-avenue-ny-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-605-third-avenue-ny-darknite
+
+---
+group: darknono35
+name: 605-third-avenue-ny-diagonal
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 605 Third Avenue, NY (Diagonal)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/29566-nybt-605-third-avenue-ny/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/3b4f71c94e09438a573692510cea39e9-nybt_605thirdave_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/77874c746ce15a7325620c71387ec224-nybt_605thirdave_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/ad0b134cd551a9229495c6785d1c7c7c-nybt_605thirdave_02.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-605-third-avenue-ny-diagonal-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-605-third-avenue-ny-diagonal-darknite
+
+---
+assetId: darknono35-605-third-avenue-ny-darknite
+version: "1.0"
+lastModified: "2014-05-11T10:58:32Z"
+url: https://community.simtropolis.com/files/file/29566-nybt-605-third-avenue-ny/?do=download&r=133524
+
+---
+assetId: darknono35-605-third-avenue-ny-maxisnite
+version: "1.0"
+lastModified: "2014-05-11T10:58:32Z"
+url: https://community.simtropolis.com/files/file/29566-nybt-605-third-avenue-ny/?do=download&r=133525
+
+---
+assetId: darknono35-605-third-avenue-ny-diagonal-darknite
+version: "1.0"
+lastModified: "2014-05-11T10:58:32Z"
+url: https://community.simtropolis.com/files/file/29566-nybt-605-third-avenue-ny/?do=download&r=133526
+
+---
+assetId: darknono35-605-third-avenue-ny-diagonal-maxisnite
+version: "1.0"
+lastModified: "2014-05-11T10:58:32Z"
+url: https://community.simtropolis.com/files/file/29566-nybt-605-third-avenue-ny/?do=download&r=133527

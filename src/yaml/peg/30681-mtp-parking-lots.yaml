@@ -1,0 +1,36 @@
+group: peg
+name: mtp-parking-lots
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: MTP Parking Lots
+  description: |-
+    **PEG MTP Parking Lots
+    By Pegasus**
+
+    This is a collection of 4 small parking lots designed for the **MTP** and/or use in rural areas. Two of the lots are asphalt... and two have a dirt surface. Both styles are offered in a 1x1 and a 2x1 lot size.
+
+    All 4 lots are transit enabled and all 4 function as Parking Structures with their capacities reduced from the default 5,000 down to 500. The plop costs and maintenance are also reduced.
+
+    In the game, Parking Structures increase the efficiency of nearby Mass Transit stations primarily in residential areas. These parking lots can be used for that purpose but are so cheap to plop and maintain, you can easily afford to use them just about anywhere for eye candy. They also look great in urban areas, particularly next to parks and other 'green' areas.
+
+    These parking lots will appear in your Misc. Transportation Menu right above the default Parking Structure. Each parking lot is installed as a separate file so you can easily remove any ones you won't use after installation.
+
+    **Dependency:**
+    [PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/30681-peg-mtp-parking-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/product_image.jpg.f069dec8e2adc7ce7b4a91ddf66877ea.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-parking-lots
+
+---
+assetId: peg-mtp-parking-lots
+version: "1.0"
+lastModified: "2015-07-17T10:04:21Z"
+url: https://community.simtropolis.com/files/file/30681-peg-mtp-parking-lots/?do=download&r=158373

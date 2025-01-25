@@ -7,8 +7,6 @@ import yargs from 'yargs/yargs';
 import ora from 'ora';
 import { Glob } from 'glob';
 import { parseAllDocuments, Document } from 'yaml';
-import { JSDOM } from 'jsdom';
-import { marked } from 'marked';
 import stylize from '../actions/fetch/stylize-doc.js';
 import fetchAll from '../actions/fetch/fetch-all.js';
 import { urlToFileId } from '../actions/fetch/util.js';
@@ -42,14 +40,7 @@ async function run(urls, argv) {
 	let results = await fetchAll(urls, { split: argv.split });
 	for (let result of results) {
 		let [pkg] = result.metadata;
-		let jsdom = new JSDOM(marked(pkg.info.description));
-		let links = [...jsdom.window.document.querySelectorAll('a')]
-			.map(a => {
-				let link = a.getAttribute('href');
-				let text = a.textContent.trim();
-				return { link, text };
-			});
-		let deps = parseDependencies(index, links);
+		let deps = parseDependencies(index, pkg);
 		let unmatched = deps.filter(dep => dep.startsWith('"['));
 		if (unmatched.length > 0) {
 			console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));

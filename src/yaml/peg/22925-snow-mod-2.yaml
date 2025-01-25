@@ -1,0 +1,73 @@
+group: peg
+name: snow-mod-2
+version: "1.0"
+subfolder: 900-overrides
+info:
+  summary: SNOW MOD 2
+  description: |-
+    Let it snow, Let it snow... Let it Snow!! The **PEG Snow Mod** has been completely revamped and updated to turn your cities into Winter Wonderlands. All the old separate mods have been updated and combined into a single download that will install everything into a single folder. Just move that folder in or out of your Plugins folder to turn the snow on or off. Everything is automatic. No need to bulldoze or replop. Just install the mod, fire up the game... and see your cities instantly transformed with a completely new look.
+
+    There's plenty of new mojo under the hood, Boys & Girls. Not only has the number of converted textures tripled, the mod now turns off or changes many props and lots to snow covered versions. Trees get covered in snow, ponds freeze over to ice... and seasonal flowers and shrubs go away until you decide that Winter is over and Spring should be sprung.
+
+    A large part of the mod is dedicated to converting MTP material. But if you do not use the MTP, fear not. Everything is in separate files and you can easily remove any part of the mod that you don't need or want to use.
+
+    The mod focuses on soft textures (grass & dirt, etc) and leaves most of the hard surfaces (concrete & asphalt, etc) as they are to create that "snowed on but shoveled" look. The game will remain fully playable as you can still see roadways and other transit routes... and undeveloped zones will still be visible.
+
+    Lets unwrap this puppy and see what you get:
+
+    **1.  The Main Mod.**
+    *Contains  snow versions of the game default textures and terrain textures.*
+
+    **2\. The MTP Patch Mod.**
+    *Contains snow versions of custom MTP textures. Also includes some extra mojo to modify certain MTP props and lots.*
+
+    **3\.  The Flora Fix.**
+    *Turns off various game-default flowers you normally wouldn't see in the snow. Changes bushes to snow covered versions. Also converts game-default trees to winter versions; pines to snow covered pines and leafy trees to snowy leafless winter trees. Palm trees are converted to snowy pines.*
+
+    **4\. Snow Covered Trees.**
+    *Turns the PEG Pines into snow covered versions. Separate files for both the old and new  versions of the trees.*
+
+    **5\. Seasonal Tree Patch.**
+    *Forces the PEG Seasonal Trees to remain in their winter state.*
+
+    **6\. Mayor Flora Patch.**
+    *Hides many of the PEG Mayor Flora menu ploppable props, such as super-detailing terrain textures, that do not look good with snow. It also hides the menu icons so you can't accidental plop what you can't see.*
+
+    **7\. MTP Rural Avenue, Road & Street  Patches.**
+    *Separate patch files to make the MTP Rural Avenue, Road & Street mods blend better with the snow.*
+
+    **8\. MTP Plaza Patch.**
+    *Replaces the lot-sized plaza models with snow-covered versions. Iced over fountains, snowy trees & planters. Even the fence posts and rails are topped with snow*.
+
+    **9\. OWW2 Patch.**
+    *Converts the trees and parkways of the OWW2, Marina and Seaport Village lots to snow covered versions.*
+
+    **10\. Diagonal Network Patch.**
+    *Converts the straight sections of diagonal roads and avenues to not have the "zig-zag" staircase appearance when lots or zones are placed next to them.*
+
+    \* Please consult the included readme file for more detailed information about each file included in the mod.
+
+    *\* Please note that the Snow Mod creates a snow-covered effect by converting game ground textures to snow versions. While this mod converts all game-default and PEG custom textures to snow versions, it is not possible to also include snow versions of custom textures provided by other developers. However, the required base & overlay textures required to convert other textures can be copied from the mod and used by any developer who wishes to make compatible snow versions of their own textures.*
+
+    **\*\* This file has no direct dependencies. However...**
+
+    **the MTP patches require the installation of the
+    various MTP components they modify.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/22925-peg-snow-mod-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/cc371aa0dfbc1a18ab147bbb883fde25-product_image_st.jpg
+    - https://www.simtropolis.com/objects/screens/0022/cc371aa0dfbc1a18ab147bbb883fde25-product_image_st1.jpg
+variants:
+  - variant: { peg:snow-mod:season: summer }
+  - variant: { peg:snow-mod:season: winter }
+    assets:
+      - assetId: peg-snow-mod-2
+
+---
+assetId: peg-snow-mod-2
+version: "1.0"
+lastModified: "2009-12-03T10:36:14Z"
+url: https://community.simtropolis.com/files/file/22925-peg-snow-mod-2/?do=download&r=49535

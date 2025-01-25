@@ -1,0 +1,63 @@
+group: darknono35
+name: bank-of-america-center-los-angeles-ca
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bank of America Center, Los Angeles, CA
+  description: |-
+    **BANK of AMERICA CENTER, LOS ANGELES, CA** :
+
+    *This folder contain Landmark version. Please, don't remove the folder called " Model" otherwise an ugly brown box appear.*
+
+    Bank of America Plaza, formerly Security Pacific Plaza, is a 55 story, 224.03 meters.It was completed in 1974 with the headquarters of Security Pacific National Bank, Capital Group Companies and Sheppard, Mullin, Richter & Hampton as its main tenants.
+    The tower is the fifth tallest building in Los Angeles, and the 83rd-tallest building in the United States.
+    In 2009 it had the highest assessed value of any office building in Los Angeles County.
+
+    In-game settings:
+
+    LANDMARK
+    Jobs: 7831 CO$$
+    Pollution at center: Air:52 / Water:52 / Garbage:26 / Rad:0
+    Power consumed: 261
+    Water consumed: 2619
+    Flammability: 40
+    Fire Stage: 5
+    Lot Size: 1x1 need terraforming and sloping ground to be plop.
+    Plop cost: $42722
+
+    Dependencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+    Pedestrian Mall Connector : [https://community.simtropolis.com/files/file/3861-pedestrian-mall-connector/](https://community.simtropolis.com/files/file/3861-pedestrian-mall-connector/)
+
+    **If you have a problem to use this building, visit my thread, and read this small tuto to fixed your problem ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)** : [here](https://community.simtropolis.com/topic/52905-darknono35-us-buildings-thread/page-18)
+
+    Thanks for your supports and your advices during the conception of this building ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    Good game friends ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28717-dk35-bank-of-america-center-los-angeles-ca/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/eca5e249f242fbef37fa548920540e01-dk35_boacenter_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/d7227e3f36612c1c93408f9cebe16162-dk35_boacenter_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/4f28691f2c08285d33bc725362ed3676-dk35_boacenter_02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-bank-of-america-center-los-angeles-ca-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-bank-of-america-center-los-angeles-ca-darknite
+
+---
+assetId: darknono35-bank-of-america-center-los-angeles-ca-maxisnite
+version: "1.0"
+lastModified: "2013-05-18T13:54:08Z"
+url: https://community.simtropolis.com/files/file/28717-dk35-bank-of-america-center-los-angeles-ca/?do=download&r=120393
+
+---
+assetId: darknono35-bank-of-america-center-los-angeles-ca-darknite
+version: "1.0"
+lastModified: "2013-05-18T13:54:08Z"
+url: https://community.simtropolis.com/files/file/28717-dk35-bank-of-america-center-los-angeles-ca/?do=download&r=120394

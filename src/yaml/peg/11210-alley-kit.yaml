@@ -1,0 +1,37 @@
+group: peg
+name: alley-kit
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: Alley Kit
+  description: |-
+    That nasty old alley is back. But this time... it has friends!!  The PEG Alley Kit now includes 4 different alleys for use in Residential, Rural, Industrial & Commercial areas.
+
+    The **Residential Alley** remains very similar to the original. Its ideal to place between rows of homes to provide that classic, established neighborhood look.
+
+    The new **Rural Alley** is almost identical to the Residential alley but takes "grunge" to the next level by ripping up the asphalt and leaving simple packed dirt. It look quite natural in rural settings and "low-value" residential areas.
+
+    The new **Industrial Alley** adds a new twist by visually serving as an industrial parking area as well as functioning as a lower capacity Bus Stop. This promotes the use of mass transit in your cities. It also solves the problem of having to find a single tile in your industrial areas for a normal bus stop where it either prevents a larger industry from developing or blocks the road access to what ever develops behind it.
+
+    The new **Commercial Alley** also pulls extra duty by functioning as a lower capacity Parking Structure that increases the efficiency of nearby mass transit. The COM alley also has small park/plaza effects to promote commercial development and can be used to dress up High Tech industrial areas. It has also been designed to be plopped side-by-side so you can create large, functional parking lots of almost any size.
+
+    \*\* All alleys are transit enabled as streets. Commuter & automata traffic will use them as normal streets. But, remember that transit enabled lots do not provide road access to adjacent lots.
+
+    \*\* The RES, Rural & IND alleys use the PEG Refuse Relocation Mod to randomly have garbage trucks appear at different times. Therefore, those lots do have a dependency on that mod.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11210-peg-alley-kit/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7e9e24ff2e011aedb740844179a8338f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7e9e24ff2e011aedb740844179a8338f-product_image2.jpg
+dependencies:
+  - peg:refuse-relocation-kit
+assets:
+  - assetId: peg-alley-kit
+
+---
+assetId: peg-alley-kit
+version: "1.1"
+lastModified: "2025-01-22T23:36:10Z"
+url: https://community.simtropolis.com/files/file/11210-peg-alley-kit/?do=download&r=205438

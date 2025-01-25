@@ -11,16 +11,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 
 - Minimize the amount of work needed by the admins of Simtropolis.
 - Automate the generation of yaml metadata as much as possible with as minimal friction as possible for content creators.
-- Backfill the channel with as much existing content from the STEX as feasible. The complete collection of the following creators will be backfilled. Note that the complete collection of certain other creators (such as Aaron Graham & Diego Del-Lano) is already available on the default channel.
-  - [x] [mattb325](https://community.simtropolis.com/profile/91964-mattb325/content/?type=downloads_file&sortby=file_submitted&sortdirection=desc)
-  - [x] [Simmer2](https://community.simtropolis.com/profile/444001-simmer2/content/?type=downloads_file)
-  - [x] [Jasoncw](https://community.simtropolis.com/profile/85340-jasoncw/content/?type=downloads_file)
-  - [x] [RRetail](https://community.simtropolis.com/profile/744613-rretail/content/?type=downloads_file)
-  - [ ] [pclark06](https://community.simtropolis.com/profile/364367-pclark06/content/?type=downloads_file)
-  - [x] [IDS2](https://community.simtropolis.com/profile/70889-ids2/content/?type=downloads_file)
-  - [x] [nofunk](https://community.simtropolis.com/profile/8697-nofunk/content/?type=downloads_file)
-  - [x] [WannGLondon](https://community.simtropolis.com/profile/197802-wannglondon/content/?type=downloads_file)
-  - [x] [gutterclub](https://community.simtropolis.com/profile/231074-gutterclub/content/?type=downloads_file)
+- Backfill the channel with as much existing content from the STEX as feasible. See [#99](https://github.com/sebamarynissen/simtropolis-channel/issues/99) for the progress.
 
 ## Roadmap
 
@@ -38,7 +29,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 - [ ] Move the PR generating action to a separate repo to make it reusable for other exchanges
 - [ ] Move repository ownership to a Simtropolis member/organization on GitHub
 - [x] Make the channel available under a simtropolis.com url: [https://sc4pac.simtropolis.com/](https://sc4pac.simtropolis.com/sc4pac-channel-contents.json)
-- [ ] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails (to verify with ST admins, but should probably be possible by sendin a POST to the correct endpoint).
+- [x] Setup an action that sends a DM on Simtropolis when the linting of a package metadata fails ([#101](https://github.com/sebamarynissen/simtropolis-channel/pull/101/))
 - [ ] Setup an action that automatically creates a GitHub release the first of every month with an overview of all packages that have been added the last month. The releases can have the format `YYYY.mm` as version tags.
 
 # How to make your plugins compatible

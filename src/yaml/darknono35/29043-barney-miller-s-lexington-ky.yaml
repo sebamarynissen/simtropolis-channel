@@ -1,0 +1,63 @@
+group: darknono35
+name: barney-miller-s-lexington-ky
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Barney Miller's, Lexington, KY
+  description: |-
+    **DK35 BARNEY MILLER'S, LEXINGTON, KY**:
+
+    *1/Two version are inside this folder, Darknite and Maxisnite, choose only one version.
+    2/Don't remove the folder called "Model" otherwise, you will see the brown box in the game.
+    3/Growable and Ploppable versions.*
+
+    Barney Miller's, it's an small shop and retails located in Lexington, KY near the Downtown.
+
+    In-game settings:
+
+    GROWABLE:
+    Jobs: 64 CS $$
+    Pollution at center: Air:2 / Water:1 / Garbage:0 / Rad:0
+    Pollution radi: Air:5 / Water:6 / Garbage:0 / Rad:0
+    Power consumed: 5
+    Water consumed: 63
+    Flammability: 40
+    Max fire stage: 5
+    Lot Size: 1x4
+    Growable Stage: 3
+
+    PLOPPABLE:
+    Plop cost: $4152
+    Lot Size: 1x4
+
+    Dependencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Good game guys ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif) and enjoyed !!
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/29043-dk35-barney-millers-lexington-ky/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/dbc75ab75dea7fbaaca24e0b75f8e055-dk35_barneymillers_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/36ee4ab4e323f1943f3dc294e9e62fc7-dk35_barneymillers_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/8462da7922d68a95120409531f443ec8-dk35_barneymillers_02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-barney-miller-s-lexington-ky-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-barney-miller-s-lexington-ky-darknite
+
+---
+assetId: darknono35-barney-miller-s-lexington-ky-darknite
+version: "1.0"
+lastModified: "2013-11-09T21:01:10Z"
+url: https://community.simtropolis.com/files/file/29043-dk35-barney-millers-lexington-ky/?do=download&r=120813
+
+---
+assetId: darknono35-barney-miller-s-lexington-ky-maxisnite
+version: "1.0"
+lastModified: "2013-11-09T21:01:10Z"
+url: https://community.simtropolis.com/files/file/29043-dk35-barney-millers-lexington-ky/?do=download&r=120814

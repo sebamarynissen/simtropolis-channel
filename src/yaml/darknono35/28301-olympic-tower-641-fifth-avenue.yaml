@@ -1,0 +1,98 @@
+group: darknono35
+name: olympic-tower-641-fifth-avenue
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Olympic Tower / 641 Fifth Avenue
+  description: |-
+    641 FIFTH AVENUE, OLYMPIC TOWER:
+
+    1/ This file contain growable version in Maxis-night & Dark-night, and Landmark version with Maxis-night & Dark-night. Choose the one would you want keeping.
+
+    2/ Do not remove the "SC4model" if you want not see the ugly boxes ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    The Olympic tower or 641 Fifth Ave, is a 51 story building hight of 189 meters.
+
+    The planned use of the building was a groundbreaking concept at that time because it was th,e first mixed use zoned for Fifth Avenue, which had 21 floors of offices, 30 of condominiums and high-end retail on the first floor.
+
+    The NBA offices are located in the tower between the 14th and 20th floors. But for the game, I've created an MLB shop in the corner on the fifth Ave and the 51st street for the Yankees and Mets.
+
+    \---------------------------------------------------------
+
+    Building Description:
+
+    Landmark:
+
+    Jobs: 2474 CO$$
+
+    Power consumed: 50
+
+    Water consumed: 504
+
+    Plop cost: $ 29468
+
+    lot size: 3x2
+
+    Growable:
+
+    Office building
+
+    Style: Houston
+
+    Jobs: 2474 Co$$
+
+    Power consuOed: 50
+
+    Water consumed: 504
+
+    Pollution at center: Air:9 / Water:9 / Garbage:4 / Rad:0
+
+    Grow Stage: 8
+
+    lot size: 3x2
+
+    \-------------------------------------------------------------------------
+
+    \-Model by Darknono35
+
+    \-Extra-moding by Aaron Graham
+
+    \----------------------------------------------------------------------------------------
+
+    Dependencies:
+
+    [*NYBT* *essentials plugins*](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    [Simfox day n nite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Thanks at all persons who has supported me during the conception ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Good game !
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28301-nybt-olympic-tower-641-fifth-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/c8ba65e313e2b39178299c8dbe3f7727-nybt_olympictower_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/1f4c6416da742c1c95f381e056d47bf4-nybt_olympictower_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/dd301f5b724404d2257c5055c3e2f64e-nybt_olympictower_02.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-olympic-tower-641-fifth-avenue-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-olympic-tower-641-fifth-avenue-darknite
+
+---
+assetId: darknono35-olympic-tower-641-fifth-avenue-darknite
+version: "1.0"
+lastModified: "2012-12-19T21:04:27Z"
+url: https://community.simtropolis.com/files/file/28301-nybt-olympic-tower-641-fifth-avenue/?do=download&r=109883
+
+---
+assetId: darknono35-olympic-tower-641-fifth-avenue-maxisnite
+version: "1.0"
+lastModified: "2012-12-19T21:04:27Z"
+url: https://community.simtropolis.com/files/file/28301-nybt-olympic-tower-641-fifth-avenue/?do=download&r=109884

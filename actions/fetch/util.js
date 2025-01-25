@@ -6,6 +6,9 @@
 export function slugify(name) {
 	let lc = name.toLowerCase();
 	return lc
+		.normalize('NFD')
+		.replaceAll(/[\u0300-\u036f]/g, '')
+		.replaceAll(/'/g, '')
 		.replaceAll(/[^a-z0-9]+/g, '-')
 		.replace(/-$/, '')
 		.replace(/^-/, '');

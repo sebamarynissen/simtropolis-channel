@@ -1,0 +1,11 @@
+name: send-messages
+description: Sends a DM on Simtropolis when a package is processed (or failed to process)
+
+inputs:
+  messages:
+    required: true
+    description: A JSON stringified array containing the DM data to be sent.
+
+runs:
+  using: 'node20'
+  main: 'send-messages.js'
