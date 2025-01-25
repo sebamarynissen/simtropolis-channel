@@ -1,0 +1,45 @@
+group: gutterclub
+name: westpac-on-broadway
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Westpac on Broadway
+  description: |-
+    Oooh W2W, what a surprise!!! This is based on a Westpac branch in Newmarket, Auckland with an adjoining boutique office building clad in glass and copper pannels.
+
+    Included
+
+    x1 model file
+
+    x1 C$$ stage 4 2x2 lot w/ 60 jobs
+
+    Choice of Darknite or Maxisnite, just choose the file you want to download
+
+    Dependency for Darknite
+
+    [http://community.sim...-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/28151-westpac-on-broadway/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/a8c5615f96afbaf4557a2ce27949d121-downtown-kerrie-30-jul--2261350684621.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/87f2081d7ad6dc91931ad0d1c993887e-downtown-kerrie-15-aug--2261350684670.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-westpac-on-broadway-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-westpac-on-broadway-darknite
+
+---
+assetId: gutterclub-westpac-on-broadway-darknite
+version: "1.0"
+lastModified: "2012-10-22T06:09:51Z"
+url: https://community.simtropolis.com/files/file/28151-westpac-on-broadway/?do=download&r=108011
+
+---
+assetId: gutterclub-westpac-on-broadway-maxisnite
+version: "1.0"
+lastModified: "2012-10-22T06:09:51Z"
+url: https://community.simtropolis.com/files/file/28151-westpac-on-broadway/?do=download&r=108012

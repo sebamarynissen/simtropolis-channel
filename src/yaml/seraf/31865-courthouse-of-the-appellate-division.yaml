@@ -1,0 +1,52 @@
+group: seraf
+name: courthouse-of-the-appellate-division
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Courthouse Of The Appellate Division
+  description: |-
+    **Appellate Division Courthouse of New York State** \- Building in the style of Renaissance Revival, designed by James Brown Lord and built between 1896-99 on the corner of Madison Avenue and 25th Street. Cost of the building was over $630,000 and about 25 percent of it was spent on sculptural decoration. Sixteen sculptors worked on twenty-one sculptures and sculptural groups.
+
+    The BAT has a special version for winter, it will appear when game date will reach 15th of Dec.
+
+    **Lot size**: 3x2
+
+    **Versions**: 2
+
+    \- Plop CO$$$
+
+    \- Landmark
+
+    **Dependencies:**
+
+    SimFox Day n Nite Modd (For DarkNite Version only)
+
+    NYBT Essentials
+
+    Thanks to all people who helped with this BAT.
+
+    Enjoy!
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/31865-nybt-courthouse-of-the-appellate-division/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Screens.png.72650941388c2fde5217ec0d01907e10.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-courthouse-of-the-appellate-division
+        exclude:
+          - /NYBT_CourtHouseOfTheAppellateDivision_DN_Seraf/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-courthouse-of-the-appellate-division
+        exclude:
+          - /NYBT_CourtHouseOfTheAppellateDivision_MN_Seraf/
+
+---
+assetId: seraf-courthouse-of-the-appellate-division
+version: "1.0"
+lastModified: "2017-07-21T00:57:23Z"
+url: https://community.simtropolis.com/files/file/31865-nybt-courthouse-of-the-appellate-division/?do=download&r=167642

@@ -1,0 +1,80 @@
+group: mattb325
+name: lsg-bucharest
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: LSG Bucharest
+  description: |-
+    **LSG, by Mattb325.  
+    \---------------------------------------**
+
+    This is a modern Wall to wall (W2W) building from Bucharest, Romania.
+
+    The real life version is a strikingly curious charcoal grey and white building with many projections and boxes jutting out from the facade lit by red neon.   
+    I have taken liberties with the structure to adapt it to a 1x1 footprint, as this size building is lacking in SC4. Certainly if you want to have competition for the likes of the in-game 'Paull Inc', 'Bain Brothers', 'Retail Stores', 'Boutiques', 'Deppiesse's Diner 'or the '6 Floor Fashion Center', then 1x1 size buildings are a must to break up the monotony of that size commercial footprint.
+
+    At 6 floors (only 5 of which are usable office space; the ground floor being used for a lobby and car parking), this modern building will still blend in with older, traditional streetscapes (as per the pictures which show a variety of new and old BATs) and is offered as a Commercial Services growable 1x1 lot for medium and high density zones.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                 1x1  
+    Growth Stage:        6 (Medium & High Density Zoning)  
+    Bulldoze Cost:        § 353  
+    Capacity Satisfied: CS§ 133, CS§§ 36  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 3 Mwh  
+    Water Consumed:  35 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    Medium Wealth CS
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33383-lsg-bucharest/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/LSG.jpg.552bf0406e53feab37a86cda6f0201ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/LSG1.jpg.f2ab73f02c4c37b7a179b0aa9d012c54.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/LSG2.jpg.126e42afb5c1fdda39ed23dd9951f438.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/LSG3.jpg.6d7fba9a589b243624e6a45f1d7c1e3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/LSG4.jpg.c5809f679e7704383e99410045723b48.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/LSG1a.jpg.4800e7deaeeed2fd2b7a0a62d4bc3c58.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-lsg-bucharest-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-lsg-bucharest-darknite
+
+---
+assetId: mattb325-lsg-bucharest-darknite
+version: "1.0.0"
+lastModified: "2020-01-10T21:05:31Z"
+url: https://community.simtropolis.com/files/file/33383-lsg-bucharest/?do=download&r=179541
+
+---
+assetId: mattb325-lsg-bucharest-maxisnite
+version: "1.0.0"
+lastModified: "2020-01-10T21:05:31Z"
+url: https://community.simtropolis.com/files/file/33383-lsg-bucharest/?do=download&r=179542

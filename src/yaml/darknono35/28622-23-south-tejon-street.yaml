@@ -1,0 +1,53 @@
+group: darknono35
+name: 23-south-tejon-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 23 South Tejon Street
+  description: |-
+    **23 SOUTH TEJON STREET**
+
+    Version: Darknight & Maxisnite and original red brick & White brick.
+    This building is originaly from Colorado Spring.
+
+    Description in-game:
+
+    Growable Cs$$
+    Jobs: Cs$: 158 / Cs$$: 42
+    Pollution at center: Air:1 / Water:1 / Garbadge:4 / Rad:0
+    Power consumed: 4
+    Water consumed: 41
+    Flammability: 40
+    Occupant group: Chicago 1889 & New York 1940
+
+    Grow stage: 3
+    Lot size: 1x4 tiles
+
+    Dependencies:
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Good game ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28622-dk35-23-south-tejon-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/c1306a3d2bbde7290fc8885c3efa5881-23southtejonstreet00.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-23-south-tejon-street-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-23-south-tejon-street-darknite
+
+---
+assetId: darknono35-23-south-tejon-street-darknite
+version: "1.0"
+lastModified: "2013-04-03T08:35:49Z"
+url: https://community.simtropolis.com/files/file/28622-dk35-23-south-tejon-street/?do=download&r=113789
+
+---
+assetId: darknono35-23-south-tejon-street-maxisnite
+version: "1.0"
+lastModified: "2013-04-03T08:35:49Z"
+url: https://community.simtropolis.com/files/file/28622-dk35-23-south-tejon-street/?do=download&r=113790

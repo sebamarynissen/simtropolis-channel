@@ -3,17 +3,23 @@ import './polyfill.js';
 import fs from 'node:fs';
 import path from 'node:path';
 import cp from 'node:child_process';
+import { Glob } from 'glob';
 import ora from 'ora';
 import core from '@actions/core';
 import github from '@actions/github';
 import { simpleGit } from 'simple-git';
 import { parseAllDocuments } from 'yaml';
+import Mustache from 'mustache';
 
 // Setup our git client & octokit.
-const cwd = process.env.GITHUB_WORKSPACE ?? process.env.cwd();
+const cwd = process.env.GITHUB_WORKSPACE ?? process.cwd();
 const git = simpleGit(simpleGit);
 const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
 const { context } = github;
+
+// Get the channel name & url, which we use for compiling the DMs.
+const channelUrl = core.getInput('channel-url');
+const channelName = core.getInput('channel-name') || channelUrl;
 
 // Before we can generate our PRs, we need to make sure the repository is in a 
 // clean state. That's because if we checkout an existing branch, it might 
@@ -49,10 +55,17 @@ if (packages.length > 0) {
 	spinner.succeed();
 
 	// Create the PRs and update the branches for each result.
+	let messages = [];
 	for (let pkg of packages) {
-		await createPr(pkg, prs);
+		let result = await createPr(pkg, prs);
+		if (result.message) {
+			messages.push(result.message);
+		}
 	}
+	core.setOutput('messages', JSON.stringify(messages));
 
+} else {
+	core.setOutput('messages', JSON.stringify([]));
 }
 
 // At last we will update the `LAST_RUN` file. It's crucial that this happens 
@@ -74,6 +87,7 @@ if (timestamp) {
 // # createPr(pkg)
 // Creates a new PR for the given package, or updates it if it already exists.
 async function createPr(pkg, prs) {
+	let dm;
 	let branch = `package/${pkg.branchId}`;
 	let pr = prs.find(pr => pr.head.ref === branch);
 
@@ -96,6 +110,7 @@ async function createPr(pkg, prs) {
 				...context.repo,
 				base: branch,
 				head: 'main',
+				merge_method: 'squash',
 			});
 			if (result.status !== 200 && result.status !== 201) {
 				core.error(`Failed to merge main into ${branch}`);
@@ -109,11 +124,19 @@ async function createPr(pkg, prs) {
 		spinner.succeed();
 	}
 
+	// It's possible that files are renamed within a PR, so we have to make sure 
+	// to delete all older files with the same file id. There can only ever be 
+	// *1* file with a certain file id, otherwise there'd be conflicts.
+	let cwd = process.env.GITHUB_WORKSPACE;
+	let glob = new Glob(`src/yaml/*/${pkg.fileId}-*.yaml`, { cwd });
+	for await (let file of glob) {
+		let fullPath = path.join(cwd, file);
+		await fs.promises.unlink(fullPath);
+		await git.add(file);
+	}
+
 	// Re-apply the changes from this package.
 	let docs = [];
-	for (let file of pkg.deletions) {
-		await fs.promises.unlink(path.join(cwd, file));
-	}
 	for (let file of pkg.additions) {
 		let dirname = path.dirname(file.path);
 		await fs.promises.mkdir(dirname, { recursive: true });
@@ -135,9 +158,6 @@ async function createPr(pkg, prs) {
 
 	// Add all the modified files & then commit.
 	let spinner = ora('Committing files').start();
-	for (let file of pkg.deletions) {
-		await git.add(file);
-	}
 	for (let file of pkg.additions) {
 		await git.add(file.name);
 	}
@@ -171,16 +191,10 @@ async function createPr(pkg, prs) {
 	} else {
 
 		// If a PR already exists, then update it.
-		if (pr.title !== title) {
-			await octokit.rest.pulls.update({
-				...context.repo,
-				pull_number: pr.number,
-				title,
-			});
-		}
-		await octokit.rest.issues.createComment({
+		await octokit.rest.pulls.update({
 			...context.repo,
-			issue_number: pr.number,
+			pull_number: pr.number,
+			title,
 			body,
 		});
 
@@ -196,12 +210,25 @@ async function createPr(pkg, prs) {
 		target_url,
 	});
 
-	// Once the PR has been updated, we'll run the linting script.
+	// If the fetch script already reported errors, make sure to collect them.
+	let errors = [];
+	if (pkg.error) {
+		errors.push(new Error(pkg.error));
+	}
+	
+	// Run the linter as well. If it fails, that's another error.
 	let result = cp.spawnSync('sc4pac-lint', ['src/yaml'], {
 		cwd: process.env.GITHUB_WORKSPACE,
 	});
 	if (result.status === 0) {
 		console.log(result.stdout+'');
+	} else {
+		core.error(result.stdout+'');
+		errors.push(new Error(String(result.stdout) || String(result.stderr)));
+	}
+
+	// If there are no errors, cool, we'll merge the PR.
+	if (errors.length === 0) {
 		await octokit.rest.repos.createCommitStatus({
 			...context.repo,
 			sha,
@@ -213,8 +240,35 @@ async function createPr(pkg, prs) {
 			...context.repo,
 			pull_number: pr.number,
 		});
+
+		// If the PR was merged, we'll compose a DM for this as well. Note: the 
+		// message body should be written in markdown. The actual implementation 
+		// of sending DMs can hence decide whether the markdown should be 
+		// converted to html or not!
+		if (pkg.message) {
+			let template = await fs.promises.readFile(
+				path.join(import.meta.dirname, './package-published.md'),
+			);
+			let [file] = pkg.additions;
+			let body = Mustache.render(String(template), {
+				author: main.info.author,
+				id: pkg.id,
+				summary: main.info.summary,
+				metadata_url: new URL(
+					`./tree/main/${file.name}`,
+					`https://github.com/${context.repo.owner}/${context.repo.repo}/`,
+				),
+				channel_url: channelUrl,
+				channel_name: channelName,
+			});
+			dm = {
+				to: pkg.message.to,
+				subject: 'Package published',
+				body,
+			};
+		}
+
 	} else {
-		core.error(result.stdout+'');
 		await octokit.rest.repos.createCommitStatus({
 			...context.repo,
 			sha,
@@ -223,13 +277,52 @@ async function createPr(pkg, prs) {
 			target_url,
 		});
 
+		// Compile the message from all the errors.
+		let message = errors.map(error => error.message).join('\n\n');
+
+		// If we know the GitHub username of the user that created this package, 
+		// tag them in the body.
+		let body = '';
+		if (pkg.githubUsername) {
+			body = `@${pkg.githubUsername}\n\n`;
+		}
+		body += `⚠️ There is an issue with the metadata for this package:\n\n\`\`\`\n${message}\n\`\`\``;
+
 		// Make a comment in the PR with the linting output.
-		let message = String(result.stdout) || String(result.stderr);
 		await octokit.rest.issues.createComment({
 			...context.repo,
 			issue_number: pr.number,
-			body: `⚠️ There is an issue with the metadata for this package:\n\n\`\`\`\n${message}\n\`\`\``,
+			body,
 		});
+
+		// Send a DM that the package failed to be added.
+		if (pkg.message) {
+			let repo = `https://github.com/${context.repo.owner}/${context.repo.repo}/`;
+			let template = await fs.promises.readFile(
+				path.join(import.meta.dirname, './package-publish-failed.md'),
+			);
+			let [file] = pkg.additions;
+			dm = {
+				to: pkg.message.to,
+				subject: '⚠️ Package publish failed',
+				body: Mustache.render(String(template), {
+					author: main.info.author,
+					id: pkg.id,
+					summary: main.info.summary,
+					errors: message,
+					metadata_url: new URL(
+						`./tree/${branch}/${file.name}`,
+						repo,
+					),
+					pr_url: new URL(
+						`./pull/${pr.number}`,
+						repo,
+					),
+					channel_url: channelUrl,
+					channel_name: channelName,
+				}),
+			};
+		}
 
 	}
 
@@ -243,6 +336,7 @@ async function createPr(pkg, prs) {
 		ref: `refs/pull/${pr.number}/merge`,
 		number: pr.number,
 		sha,
+		message: dm,
 	};
 
 }

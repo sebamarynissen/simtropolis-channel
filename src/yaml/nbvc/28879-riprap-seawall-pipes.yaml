@@ -1,0 +1,30 @@
+group: nbvc
+name: riprap-seawall-pipes
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Riprap Seawall Pipes
+  description: |-
+    An addon for my modular riprap sewall set.
+
+    It contains 7 Lots with pipes and canal pieces.
+
+    Dependencies
+
+    [Riprap Sewalls](https://community.simtropolis.com/files/file/26175-riprap-seawall/)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/28879-riprap-seawall-pipes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/27893c2e421f903d01636227591d4c13-pipe1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/b33b8c8885356dc67501823acd474506-canal1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/32ec5c9d7a0ac5f68ed81a22e81e661d-riprappipes.jpg
+dependencies:
+  - nbvc:riprap-seawall
+assets:
+  - assetId: nbvc-riprap-seawall-pipes
+
+---
+assetId: nbvc-riprap-seawall-pipes
+version: "1.0"
+lastModified: "2013-07-21T09:51:43Z"
+url: https://community.simtropolis.com/files/file/28879-riprap-seawall-pipes/?do=download&r=117798

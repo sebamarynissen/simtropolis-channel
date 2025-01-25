@@ -1,0 +1,89 @@
+group: mattb325
+name: astra-zeneca-laboratory
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Astra Zeneca Laboratory
+  description: |-
+    **Astra Zeneca Laboratory by Mattb325.  
+    \---------------------------------------**
+
+    As the world waits for the roll-outs of vaccines to combat the effects of the pandemic and enjoy a return to a semblance of normal life, I thought I would make a BAT of one of the companies responsible.
+
+    There are many companies making vaccines around the globe: Astra Zeneca is one of them.
+
+    This is one of their many laboratories in the UK.
+
+    I don't know if this one is making the vaccine or something far more benign like antacid, but for the purposes of SC4, let's assume it is...  
+       
+    I liked the decidedly domestic scale of this industrial building which will blend into a suburban location of high-tech industry.
+
+    The building is offered as an I-HT growable Anchor on a 4x4 lot (use the CTRL key while zoning dense industrial to assist in growth).
+
+    It is suited to both CAM and non-CAM cities and provides 292 Hi Tech jobs.
+
+    **\---------------------------------------**
+
+    **STATS I-HT:**
+
+    Lot size :                 4x4  
+    Growth Stage:        3 (High Density Zoning)  
+    Bulldoze Cost:        $ 274  
+    Capacity Satisfied: I-HT 292  
+    Pollution:                 7 (Air)/ 2 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 53 Mwh  
+    Water Consumed:  49 Gal/Month  
+    Occupant Group:    Industrial Hi-Tech Anchor Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+
+    *Lastly, if you believe that the COVID-19 virus is a hoax, is engineered, or is part of a broader QAnon etc, conspiracy, that's fine: don't rate or download the model and please keep such comments to yourself. ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)") This is just a little IH-T building that I'm sure many people will enjoy as there isn't much IH-T industrial stock to choose from on the exchanges.*
+
+    **\---------------------------------------**
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34044-astra-zeneca-laboratory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/AstraZeneca.jpg.477cb167f8cc5240c774a9401dacb963.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/AstraZeneca1.jpg.3fd828ee877d64868f1d5585a098caee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/AstraZeneca2.jpg.e790e43c2b02114b62f902fcdc7cd67e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/AstraZeneca3.jpg.1f3750184da4706c3ae39f4794cd7a72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/AstraZeneca4.jpg.63bd80172820db0bd1b0ebbe1d280c48.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-astra-zeneca-laboratory-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-astra-zeneca-laboratory-darknite
+
+---
+assetId: mattb325-astra-zeneca-laboratory-darknite
+version: "1.0.0"
+lastModified: "2021-01-11T19:27:47Z"
+url: https://community.simtropolis.com/files/file/34044-astra-zeneca-laboratory/?do=download&r=184489
+
+---
+assetId: mattb325-astra-zeneca-laboratory-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-11T19:27:47Z"
+url: https://community.simtropolis.com/files/file/34044-astra-zeneca-laboratory/?do=download&r=184490

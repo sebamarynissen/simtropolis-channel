@@ -1,0 +1,41 @@
+group: peg
+name: mtp-ltusa-container-generator
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: MTP LTUSA Container Generator
+  description: |-
+    The first lot in the upcoming **LOG TOWN USA** series is, appropriately enough, the very lot that will used to power it. Yes... its the classic generator in an old shipping container. Juice... in a box.
+
+    This diesel powered generator lot is the same size and has identical properties to the game-wind turbine... except that it creates a very small amount of air pollution. A bit more rustic looking, its the type of creative, slapped-together power source you'd expect to see powering a remote logging camp or small isolated community. Cheap to build, cheap to run... and easy to maintain.
+
+    Although decidedly designed for use with the MTP, this power plant can be used anywhere you need a small amount of cheap power for remote buildings and facilities.
+
+    *\* The lot features a custom diesel engine throbbing background sound effect that you can hear when you cursor near the lot. I feel compelled to mention it here because its so subtle, you'd probably never notice it if I didn't.*
+
+    **\*** *The Logging Industry lots were designed for the **MTP** but have been engineered to have a minimal dependence on it. The goal is to allow players to use these lots in any non-urban setting/city without the need to move the required files in and out of the Plugins folder when switching between different city types or styles. These lotsand the MTP dependency files can remain in your Plugins folder without affecting non-MTP themed cities.*
+
+    \*\* This lot requires the following dependencies:
+    [MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+    [MTP Logging Industry RESOURCE](https://community.simtropolis.com/files/file/20965-peg-mtp-logging-resource/)
+    [PEG Security Fencing Kit](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made dep linkys clickable.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21103-peg-mtp-ltusa-container-generator/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/84a8326028058534a63d3dfd834024f1-product_image.jpg
+dependencies:
+  - peg:mtp-logging-resource
+  - peg:mtp-super-pack
+  - peg:security-fencing-kit
+assets:
+  - assetId: peg-mtp-ltusa-container-generator
+
+---
+assetId: peg-mtp-ltusa-container-generator
+version: "1.0"
+lastModified: "2009-02-13T08:14:27Z"
+url: https://community.simtropolis.com/files/file/21103-peg-mtp-ltusa-container-generator/?do=download&r=46993

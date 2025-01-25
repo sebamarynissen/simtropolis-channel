@@ -1,0 +1,55 @@
+group: peg
+name: mtp-logging-roads
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: MTP Logging Roads
+  description: |-
+    The **MTP Logging Roads** is a collection of 12 ploppable lots that can be connected together to form a non-functional Logging or Fire Road network throughout your remote and mountainous regions. The collection is very similar to the PEG Scenic Drive Kit, the MTP Access Roads and even the MTP Pine Trails lots. However, this kit has some new toys tossed in to give your roads a more natural & realistic "winding road" appearance.
+
+    These Logging Roads lots are technically parks with almost no park values... but they are located in your Misc. Transportation Menu. Being non-functional, they will provide the look of a rural road extending to remote logging operations, fire watch towers, campgrounds, etc... without the roads getting clogged up with the game's automata. None of these lots require power or water... or access to a functional road network. You can freely plop them anywhere that you like.
+
+    All of these lots are texture-based and will conform to the shape and slope of the existing terrain. This means that you can use them with little or no terrain editing... although better results can often be obtained by preparing the terrain beforehand.
+
+    *\*Using the game's functional roads to lay out a path beforehand is both fast & easy... and levels & smooths the tiles that the roads will be plopped on. This method was used to create the switchbacks shown in the picture.. although the wider, sweeping curves required some manual terrain editing.*
+
+    The lots included in this package are:
+
+    1.  1x Straight section.
+    2.  1x Corner section
+    3.  1x "Tee" section.
+    4.  1x 4-way Intersection.
+    5.  1x  Road-End section.
+    6.  1x Street Transition section. *(connects to your functional street or road network)*
+    7.  1x Pulloff section.
+    8.  1x Parking Area section.
+    9.  1x Rail Road Crossing. *(functionally transit enabled for both passenger & freight rail)*
+    10.  2x2 Sweeping Curve section. *(for more natural, wider curves)*
+    11.  2x2 S-Turn Right section. *(jogs the road 1 tile to the right)*
+    12.  2x2 S-Turn Left section. *(jogs the road 1 tile to the left)*
+
+    \* The [MTP Terrain Mod](https://community.simtropolis.com/files/file/20986-peg-mtp-terrain-modd-1/) is not required for these lots... but it is recommended. These lots use the default MTP grassy texture that was designed to blend with the game default textures... which are also used by the MTP Terrain Mod.
+
+    \*\* This lot requires the following dependencies:
+    [PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+    [PEG MTP Logging RESOURCE](https://community.simtropolis.com/files/file/20965-peg-mtp-logging-resource/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made deps clickable linkys.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21053-peg-mtp-logging-roads/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/64838378b0839a1ca7140db46b8b4b56-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/64838378b0839a1ca7140db46b8b4b56-product_image1.jpg
+dependencies:
+  - peg:mtp-logging-resource
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-logging-roads
+
+---
+assetId: peg-mtp-logging-roads
+version: "1.0"
+lastModified: "2009-01-27T19:34:15Z"
+url: https://community.simtropolis.com/files/file/21053-peg-mtp-logging-roads/?do=download&r=46911

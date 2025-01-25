@@ -1,0 +1,33 @@
+group: nbvc
+name: ski-lodge
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Ski Lodge
+  description: |-
+    A small Ski Lodge.
+
+    Dependencies:
+
+    PEG Ski Resort [www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=22995)
+
+    PEG Pine Trail Head [www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=11508)
+
+    PEG Snow Mod 2 is required for winter effects. [simpeg.com/forum/index.php](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=tpmod;dl=item1096)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/23053-ski-lodge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f8c9afcb8a9d1482fb0ba3a443c6b95d-SkiLodge.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f8c9afcb8a9d1482fb0ba3a443c6b95d-skiLodge2.jpg
+dependencies:
+  - bsc:mega-props-misc-vol02
+  - peg:mtp-super-pack
+  - peg:ski-resort
+assets:
+  - assetId: nbvc-ski-lodge
+
+---
+assetId: nbvc-ski-lodge
+version: "1.0"
+lastModified: "2009-12-28T09:10:15Z"
+url: https://community.simtropolis.com/files/file/23053-ski-lodge/?do=download&r=49731

@@ -1,0 +1,81 @@
+group: mattb325
+name: amethyst-suites-and-inn
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Amethyst Suites & Inn
+  description: |-
+    **Amethyst Suites & Inn, by Mattb325.  
+    \---------------------------------------**
+
+    This is a fictional twelve story mid-rise hotel that I have made to fill a gap in the lack of larger CS§§ available for download. Particularly as your region starts to develop, having a lack of larger CS§§ buildings can really stifle additional city development. This leads to a drop in demand across your residential drivers and can completely tank any growth at all.
+
+    This design is based on the Amethyst Suites and Inn from the promotional images of SC2013.
+
+    The building as presented is a total **retro\-fest**. A broad, ten story circular tower with multiple projections sits atop a two story podium that houses shops and the lobby. A decagon-shaped restaurant (the height of class in the 1970's) graces the very top of the building.   
+    Probably called the 'Promenade Room' or 'Sunset lounge' it is the perfect spot to order a sneaky 'old fashioned' or 'rob-roy' cocktail while the kids splash about in that other 1970's icon, the kidney-shaped pool, ten floors below.
+
+    The building is offered as a CS§§ growable with two lot variants: a 4x3 and a 4x4, bot providing **767** jobs.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  4x3 & 4x4  
+    Growth Stage:         6 & 7 (Medium and High Density Zoning)  
+    Bulldoze Cost:         § 708  
+    Capacity Satisfied:  CS§ 3,140, CS§§ 767  
+    Pollution:                  29 (Air)/ 19 (Water)/ 39 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  63 Mwh  
+    Water Consumed:   767 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32890-amethyst-suites-inn/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Amethyst.jpg.48f8f564db5fa8e9ef6c25861bc72cda.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Amethyst1.jpg.d92713f73922e08879ec7fda033b8a55.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Amethyst2.jpg.6f07e6bf2c1b88731085742af9cec92b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Amethyst3.jpg.db4197db0315c8d1f392f4f4266c994b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Amethyst4.jpg.5371d75374b5f942e3693cf5f4c9d190.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-amethyst-suites-and-inn-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-amethyst-suites-and-inn-darknite
+
+---
+assetId: mattb325-amethyst-suites-and-inn-darknite
+version: "1.0"
+lastModified: "2019-05-01T23:59:04Z"
+url: https://community.simtropolis.com/files/file/32890-amethyst-suites-inn/?do=download&r=175702
+
+---
+assetId: mattb325-amethyst-suites-and-inn-maxisnite
+version: "1.0"
+lastModified: "2019-05-01T23:59:04Z"
+url: https://community.simtropolis.com/files/file/32890-amethyst-suites-inn/?do=download&r=175703

@@ -1,0 +1,38 @@
+group: peg
+name: ski-resort-ski-rentals
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: SKI RESORT SKI RENTALS
+  description: |-
+    Every Ski Resort has some sort of facility that rents skis & related equipment to those who need them. This is also where skiers can have their own skis tuned-up, waxed, bindings checked and adjusted, etc...  In this case, the MTP Outfitters sporting goods chain (of MTP COM Replacement Mod fame) got the call to provide rental and pro shop services at the resort.
+
+    The **Ski Pro & Rental Shop** was designed for use with the PEG Ski Resort... but can be used anywhere in your city. In the *Real World*, it is not uncommon to see several ski rental shops lining every road that leads to a ski resort.
+
+    The 3x3 lot provides jobs... and uses the same modular parking area that the other Ski Resort lots use. Has nitelites, custom query, custom query sound, etc... For best results, the lot should be plopped on level ground.
+
+    *\* The* PEG Ski Resort *collection was designed for use with the* PEG Snow Mod*. However, the Snow Mod is not mandatory. The resort can stay open year-round at high altitude using a snow-capped terrain mod... or can optionally be used with any mod that provides a snow-covered terrain.*
+
+    **\*\* This lot is an add-on to the**  [PEG Ski Resort](https://community.simtropolis.com/files/file/22995-peg-ski-resort/) **collection which is required to use this lot.
+
+    Installation of the**  [PEG Snow Mod 2](https://community.simtropolis.com/files/file/22925-peg-snow-mod-2/) **is also recommended for full Winter effects.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made dep linkys clickable.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/23131-peg-ski-resort-ski-rentals/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/928ad4b4161f7f4210b5f941fd5d7fe7-product_image_st1.jpg
+    - https://www.simtropolis.com/objects/screens/0016/928ad4b4161f7f4210b5f941fd5d7fe7-product_image_st2.jpg
+dependencies:
+  - peg:ski-resort
+  - peg:snow-mod-2
+assets:
+  - assetId: peg-ski-resort-ski-rentals
+
+---
+assetId: peg-ski-resort-ski-rentals
+version: "1.0"
+lastModified: "2010-01-15T10:56:56Z"
+url: https://community.simtropolis.com/files/file/23131-peg-ski-resort-ski-rentals/?do=download&r=49847

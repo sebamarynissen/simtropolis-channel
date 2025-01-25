@@ -1,0 +1,59 @@
+group: darknono35
+name: aon-center
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: AON Center
+  description: |-
+    **CBT AON CENTER, CHICAGO, IL**:
+
+    *1/Two version are inside this folder, Darknite and Maxisnite, choose only one version.
+    2/Don't remove the folder called "Model" otherwise, you will see the brown box in the game.*
+
+    The AON Center, formerly Standard Oil Building and Amoco Building, it's the third tallest building in Chicago and the fifth of the USA.The building is high of 354 meters
+    for 83 floors.
+    Begun in 1970 the building was completed in 1974 for an cost of 120 million dollars.
+
+    In-game settings:
+
+    LANDMARK:
+    Jobs: 8349 CO$$
+    Pollution at center: Air:63 / Water:63 / Garbage:31 / Rad:0
+    Pollution radi: Air:5 / Water:6 / Garbage:0 / Rad:0
+    Power consumed: 318
+    Water consumed: 3183
+    Flammability: 40
+    Max fire stage: 5
+    Lot Size: 7x8
+    Plop cost: $70766
+
+    Dependencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Good game guys ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/28952-cbt-aon-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/ae8f14154d97f92a9a4af9e7db200e06-cbt_aoncenter_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/294fa3332fe213d1df7eb10e9ba1c71b-cbt_aoncenter_01.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-aon-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-aon-center-darknite
+
+---
+assetId: darknono35-aon-center-darknite
+version: "1.0"
+lastModified: "2013-09-02T10:13:59Z"
+url: https://community.simtropolis.com/files/file/28952-cbt-aon-center/?do=download&r=119596
+
+---
+assetId: darknono35-aon-center-maxisnite
+version: "1.0"
+lastModified: "2013-09-02T10:13:59Z"
+url: https://community.simtropolis.com/files/file/28952-cbt-aon-center/?do=download&r=119597

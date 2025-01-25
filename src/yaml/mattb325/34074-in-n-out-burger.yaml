@@ -1,0 +1,92 @@
+group: mattb325
+name: in-n-out-burger
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: In N Out Burger
+  description: |-
+    **In-N-Out Burger Shop, by Mattb325.  
+    \---------------------------------------**
+
+    This In-N-Out Burger restaurant from Westwood CA, was posted in the BAT request thread.
+
+    I liked the googie style of the retro-futurist architecture: the building itself has all of these crazily angled walls that splay outwards from the ground up and then soar into peaks. Add the garish fast-food paint colours and to my mind the whole thing looks like a crumpled burger wrapper!
+
+    This is a CS$$ bat that will grow early on in your cities development.It provides 33 jobs.
+
+    It comes in three different lot sizes: 2x2, 4x4 and 5x5 (use the CTRL key while zoning to help get this to grow, or download Buggis extra cheats to make it ploppable from a drop-down menu). The 2x2 and 5x5 lots are restricted to corner sites.
+
+    It grows on the three American tilesets.
+
+    **\---------------------------------------**
+
+    **STATS:**  
+    Lot Size:                   2x2, 4x4 and 5x5  
+    Growth Stage:         1  
+    Zone Type:               Low, Medium and High Density  
+    Bulldoze Cost:         $171  
+    Demand Satisfied:  CS$ 123; CS$$ 33.  
+    Pollution at Centre: 1 (air) /1 (water) /4 (garbage)  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  3 Mwh  
+    Water Consumed:   33 Gallons  
+    Occupant Groups:   Commercial Services; Chicago; New York; Houston
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one is for dark nite users (and other night-time darkening mods, such as Gizmos or Mashty's night-mod) and one for the standard Maxis nite.   
+    You must select and install only one file - depending on which night version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))  
+    \*SuperSHK Mega Parking Textures Vol01: ([https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/))
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))
+
+    **\---------------------------------------**
+
+    To install, simply unzip these files into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34074-in-n-out-burger/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut.jpg.cda95b63dc9198b15963c88caf9e0ec8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut1.jpg.448adf1146bed1879abb2e9adc3ad455.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut2.jpg.d8f5e1ab1c12bb1d34d5dae55fbe0ef2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut3.jpg.6db4acb2516957bc631aaadb365b49a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut4.jpg.a1742136502e20da0d361e63eccc899c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut5.jpg.d3fe46113a456178507b6bce129e1d74.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut6.jpg.45f5687b4f6955112ad0ea31f0bff063.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/InNOut7.jpg.81181defd62c0d9e3ce0e39a8089594b.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-in-n-out-burger-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-in-n-out-burger-darknite
+
+---
+assetId: mattb325-in-n-out-burger-darknite
+version: "1.0.0"
+lastModified: "2021-01-26T19:15:04Z"
+url: https://community.simtropolis.com/files/file/34074-in-n-out-burger/?do=download&r=184752
+
+---
+assetId: mattb325-in-n-out-burger-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-26T19:15:04Z"
+url: https://community.simtropolis.com/files/file/34074-in-n-out-burger/?do=download&r=184753

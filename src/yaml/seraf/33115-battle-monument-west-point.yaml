@@ -1,0 +1,46 @@
+group: seraf
+name: battle-monument-west-point
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Battle Monument, West Point
+  description: |-
+    Battle Monument located at United States Military Academy also known as West Point. Designed by Stanford White and erected in 1897.
+
+    This BAT has a special version for winter, it will appear when game date will reach 15th of Dec.
+
+    **Lot size**: 2x2
+
+    **Versions**: 1
+
+    \- Landmark
+
+    **Dependencies:**
+
+    SimFox Day n Nite Modd (For DarkNite Version only)
+
+    Thanks to all people who helped with this BAT.
+
+    Enjoy!
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/33115-battle-monument-west-point/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Screen.png.bbca839454503265a6718b0646d3b972.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-battle-monument-west-point
+        exclude:
+          - /LM_BattleMonument_DN_Seraf/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-battle-monument-west-point
+        exclude:
+          - /LM_BattleMonument_MN_Seraf/
+
+---
+assetId: seraf-battle-monument-west-point
+version: "1.0.0"
+lastModified: "2019-08-28T14:33:26Z"
+url: https://community.simtropolis.com/files/file/33115-battle-monument-west-point/?do=download&r=177351

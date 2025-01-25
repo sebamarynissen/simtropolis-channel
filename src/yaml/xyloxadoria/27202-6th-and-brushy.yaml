@@ -1,0 +1,85 @@
+group: xyloxadoria
+name: 6th-and-brushy
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 6th and Brushy
+  description: |-
+    After a long break from the STEX, im finally back with another building. This was a class project for my portfolio, but I decided to render it out for Sc4 because I figure someone would want it. The Render is in HD.
+
+    It is a accurate recreation of the 6th and Brushy Condominiums. The condos get their name from the intersection where they are located in Austin Texas.
+
+    Stats
+
+    Growable
+
+    **·** Lot Size 3x3
+
+    · Pollution: 2 of water, air, and garbage over 5 tiles
+
+    · Power Consumed: 20
+
+    · Water Consumed: 20
+
+    · Buiding Type: Stage 5 R$$$
+
+    · Residents: 40R$$$ , If dilapidated to $$ 80R$$, If dilapidated to $ 100R$
+
+    · Construction Time: 30 Days
+
+    · Tileset: All
+
+    Landmark
+
+    · Lot Size 3x3
+
+    · Pollution: 2 of water, air, and garbage over 5 tiles
+
+    · Power Consumed: 20
+
+    · Water Consumed: 20
+
+    · Plop Cost: 1000
+
+    · Landmark Effect: 50 over 50 tiles
+
+    · Monthly Cost: 20
+
+    · Menu Location: Landmark
+
+    Dependencies
+
+    entrance texture.dat- Included in download- Custom texture for parking lot entrance
+
+    Fixed Sc4jeeks Parking Textures- [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1181](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1181)
+
+    Both Maxisnite and Darknite are included, just take your pick. Hope you enjoy the building
+  author: Xyloxadoria
+  website: https://community.simtropolis.com/files/file/27202-6th-and-brushy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/54b708363609433833243987b87675db-0278.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/9ba5e1a7893059274899f6fd6dbfac6d-adfa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/5930269d709dc178469240dd7aa53f36-0275.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/d1e7fb68047954bee2a767bde4daa18d-0269.jpg
+dependencies:
+  - sc4jeeks:parking-textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: xyloxadoria-6th-and-brushy-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: xyloxadoria-6th-and-brushy-darknite
+
+---
+assetId: xyloxadoria-6th-and-brushy-maxisnite
+version: "1.0"
+lastModified: "2012-01-19T06:21:28Z"
+url: https://community.simtropolis.com/files/file/27202-6th-and-brushy/?do=download&r=96114
+
+---
+assetId: xyloxadoria-6th-and-brushy-darknite
+version: "1.0"
+lastModified: "2012-01-19T06:21:28Z"
+url: https://community.simtropolis.com/files/file/27202-6th-and-brushy/?do=download&r=96115

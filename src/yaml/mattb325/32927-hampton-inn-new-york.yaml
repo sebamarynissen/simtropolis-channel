@@ -1,0 +1,84 @@
+group: mattb325
+name: hampton-inn-new-york
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Hampton Inn New York
+  description: |-
+    **Hampton Inn New York, by Mattb325.  
+    \---------------------------------------**
+
+    This high-rise hotel fills a gap in the paucity of larger CS§§ available. Particularly as your region starts to develop, having a lack of larger CS§§ buildings can really stifle additional city development. This leads to a drop in demand across your residential drivers and can completely tank any additional growth at all.
+
+    This building is inspired by the Hampton Inn Hotel on W35th Street near Macys next to the Hilton Garden Inn that I have just released. It is a basic New York 20th Century high rise box: brick construction, aluminium windows and a recent 'renovation' by the Hilton group (the Hilton owns both buildings) has given it decorative chequer-board style metal boxes along the street facade.
+
+    In reality it is a tall W2W building with two blank brick walls on either side (yuck) so I have given the building windows on both sides. If this is the 'Hamptons', well, I think I'd prefer to camp out at the New Jersey turnpike.
+
+    In the pictures I have shown adjacent to the Hilton Garden Inn: it is the smaller red brick building.
+
+    The building is offered as a CS§§ growable on a 1x1 and 1x2 high-density lot providing 151 jobs. It grows only on the New York Tileset so shouldn't become too weedy. If you want this as a ploppable, I recommend downloading buggis extra cheats and then selecting it via the 'buildingplop' option.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  1x1 and 1x2  
+    Growth Stage:         8 (High Density Zoning)  
+    Bulldoze Cost:        § 1,133  
+    Capacity Satisfied: CS§ 594, CS§§ 151  
+    Pollution:                 5 (Air)/ 3 (Water)/ 7 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 12 Mwh  
+    Water Consumed:  146 Gal/Month  
+    Building Style:         New York only  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    Select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32927-hampton-inn-new-york/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/HiltonHampton.jpg.fd95e1741d00e03123c11e84ffc0f868.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/HiltonHampton1.jpg.2e77c1a9afd370a9871e522897a6f6fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/HiltonHampton2.jpg.9f932dadb8243405ddff6a2e98df13dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/HiltonHampton3.jpg.4379fa2e36ea7288796573087b62ece2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/HiltonHampton4.jpg.2f472de111b73579d09eef919d518421.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/HiltonHampton5.jpg.aa41e0c9042259d62212f1e49f9fe0bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/HiltonHampton6.jpg.ab778a698a322760bcbcd402426678a4.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-hampton-inn-new-york-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-hampton-inn-new-york-darknite
+
+---
+assetId: mattb325-hampton-inn-new-york-darknite
+version: "1.0"
+lastModified: "2019-05-18T06:56:28Z"
+url: https://community.simtropolis.com/files/file/32927-hampton-inn-new-york/?do=download&r=175934
+
+---
+assetId: mattb325-hampton-inn-new-york-maxisnite
+version: "1.0"
+lastModified: "2019-05-18T06:56:28Z"
+url: https://community.simtropolis.com/files/file/32927-hampton-inn-new-york/?do=download&r=175935

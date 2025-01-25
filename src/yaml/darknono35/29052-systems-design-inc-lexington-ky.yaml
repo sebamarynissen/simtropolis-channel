@@ -1,0 +1,58 @@
+group: darknono35
+name: systems-design-inc-lexington-ky
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Systems Design Inc, Lexington, KY
+  description: |-
+    **DK35 SYSTEMS DESIGN INC, LEXINGTON, KY** **:**
+
+    *1/Two version are inside this folder, Darknite and Maxisnite, choose only one version.
+    2/Don't remove the folder called "Model" otherwise, you will see the brown box in the game.*
+
+    It's an small shop and retails located in Lexington, KY near the Downtown.
+
+    In-game settings:
+
+    GROWABLE:
+    Jobs:  CS 27$$
+    Pollution at center: Air: 1 / Water: 1 / Garbage:0 / Rad:0
+    Pollution radi: Air: 5 / Water: 6 / Garbage:0 / Rad:0
+    Power consumed: 2
+    Water consumed: 27
+    Flammability: 40
+    Max fire stage: 3
+    Lot Size: 1x4
+    Growable Stage: 3
+    Style: Chicago 1889 , New York 1940
+
+    Dependencies:
+
+    Simfox darknite mod : [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Good game guys ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Darknono35
+  website: https://community.simtropolis.com/files/file/29052-dk35-systems-design-inc-lexington-ky/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/9c1783bcd97cd36bd891589165a24f11-dk35_systemsdesigninc_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/481c32fc6bf06e4a87323708ca592be3-dk35_systemsdesigninc_00.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: darknono35-systems-design-inc-lexington-ky-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: darknono35-systems-design-inc-lexington-ky-darknite
+
+---
+assetId: darknono35-systems-design-inc-lexington-ky-darknite
+version: "1.0"
+lastModified: "2013-11-17T21:17:35Z"
+url: https://community.simtropolis.com/files/file/29052-dk35-systems-design-inc-lexington-ky/?do=download&r=120903
+
+---
+assetId: darknono35-systems-design-inc-lexington-ky-maxisnite
+version: "1.0"
+lastModified: "2013-11-17T21:17:35Z"
+url: https://community.simtropolis.com/files/file/29052-dk35-systems-design-inc-lexington-ky/?do=download&r=120904

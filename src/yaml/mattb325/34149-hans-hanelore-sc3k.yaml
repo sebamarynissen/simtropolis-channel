@@ -1,0 +1,82 @@
+group: mattb325
+name: hans-hanelore-sc3k
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Hans Hanelore SC3K
+  description: |-
+    **Hans Hanelore, SC3000 by Mattb325.  
+    \---------------------------------------**
+
+    Made as a request, the Hans Hanelore is a building from SC3000 Euro Set.
+
+    Not all buildings are beautiful, and this one certainly proves that adage.
+
+    With its two toned, differently-sized windows, it looks like two different buildings have been pasted together!
+
+    To that end, I have made a few adjustments in the model (adding mullions, widening and changing the colour of the fins at the rear, etc) to make it a little less awkward in the SC4 environment.
+
+    In SC3000 it was a residential building, but I have made this is a CS$$ bat that provides 193 jobs.
+
+    The lot size is 2x2 and it is restricted to the Houston tileset to ensure it doesn't become weedy.
+
+    **\---------------------------------------**
+
+    **STATS:**  
+    Lot Size:                   2x2  
+    Growth Stage:         6  
+    Zone Type:               Medium and High Density  
+    Bulldoze Cost:         $734  
+    Demand Satisfied:  CS$ 764; CS$$ 193.  
+    Pollution at Centre: 7 (air) /4 (water) /9 (garbage)  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  16 Mwh  
+    Water Consumed:   187 Gallons  
+    Occupant Groups:   Houston
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one is for dark nite users and one for the standard Maxis nite.   
+    You must select and install only one file - depending on which night version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **Dependencies:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip these files into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34149-hans-hanelore-sc3k/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/HansHanelore.jpg.1bf32c16eb06c47ef73534d5ab859733.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/HansHanelore2.jpg.f0f28da43c0446f9bc0b4218f7d6404f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/HansHanelore3.jpg.943b660f8ea2e3bf2ca36724d87da34d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/HansHanelore4.jpg.5890c0f6affb609740aefaa634f3b5a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/HansHanelore5.png.66376e7fe60038171af85e3a0c2daf89.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-hans-hanelore-sc3k-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-hans-hanelore-sc3k-darknite
+
+---
+assetId: mattb325-hans-hanelore-sc3k-darknite
+version: "1.0.0"
+lastModified: "2021-02-18T19:40:59Z"
+url: https://community.simtropolis.com/files/file/34149-hans-hanelore-sc3k/?do=download&r=185410
+
+---
+assetId: mattb325-hans-hanelore-sc3k-maxisnite
+version: "1.0.0"
+lastModified: "2021-02-18T19:40:59Z"
+url: https://community.simtropolis.com/files/file/34149-hans-hanelore-sc3k/?do=download&r=185411

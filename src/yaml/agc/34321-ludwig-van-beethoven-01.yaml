@@ -1,0 +1,60 @@
+group: agc
+name: ludwig-van-beethoven-01
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Ludwig Van Beethoven 01
+  description: |-
+    **History:**
+
+    Beethoven monument in Vienna. At the left side the bound Prometheus, at the right side Victoria with raised laurel wreath. Nine music putti arround as allegories of the nine symphonies. Designed by Kaspar von Zumbusch and Eduard Hauser in 1880.
+
+    **Specs**:
+
+    You can find the BAT in the lot editor as Building (The file does not include a lot).
+
+    **Night:**
+
+    Darknite
+
+    **You can find the building in the Lot Editor as:**
+
+    AGC\_Statue-Mo\_Austria\_Ludwig-Van-Beethoven\_V01\_S1\_90 (Building & Prop)
+
+    **Scale of the model:** **133% on all axes.**
+
+    **Installation:**
+
+    **Unzip the "Barroco Hispano DLCs" in your Plugins Folder (I highly recommend respecting my folder system because I plan to export or update thousands of BATs).**
+
+    **Dependencies:**
+
+    If you choose the Darknite version you need this
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use paypal instead of Patreon because I want everyone to have access to my content). ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:")**
+
+    [https://www.paypal.com/donate/?hosted\_button\_id=WF9FDNHXCHDVU](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU)
+
+    **Thanks to all the (8) people who have donated to me!**
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34321-agc-ludwig-van-beethoven-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ludwiwiwiwTHUMB.png.8edca56c7f9479bc58f50776687c226c.png
+    - https://cdn.discordapp.com/attachments/393834822696697866/824804868333895680/ludwiwiwiw.png
+    - https://cdn.discordapp.com/attachments/393834822696697866/824804708878385192/ludiwiwia24.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: agc-ludwig-van-beethoven-01-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: agc-ludwig-van-beethoven-01-darknite
+
+---
+assetId: agc-ludwig-van-beethoven-01-darknite
+version: "1.0.0"
+lastModified: "2021-03-26T01:45:04Z"
+url: https://community.simtropolis.com/files/file/34321-agc-ludwig-van-beethoven-01/?do=download&r=186785

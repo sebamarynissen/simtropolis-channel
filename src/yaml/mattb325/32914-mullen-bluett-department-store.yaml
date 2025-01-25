@@ -1,0 +1,84 @@
+group: mattb325
+name: mullen-bluett-department-store
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Mullen Bluett Department Store
+  description: |-
+    **Mullen Bluett Department Store, by Mattb325.  
+    \---------------------------------------**
+
+    Wilshire Blvd in Los Angeles had some incredible 20th Century architecture: no wonder it was called the miracle mile.
+
+    It's been a while since I made a building from Wilshire Blvd in L.A., and a picture of a now demolished, mid-century gem of a department store caught my eye.
+
+    It's a 1940's streamline moderne type building and is very L.A. in its detailing.
+
+    I loved the hanging plants from the upper floors, which is something you just don't see in batted SC4 buildings. Plus, I always like a challenge and as hanging plants are a little tricky to model I thought I'd give it a go. I'm rather pleased with the result. It has a certain retro-chique to it.
+
+    By the time the building was demolished in 2006, in was in terrible repair. I actually remember visiting the building in person, it wasn't called Mullen Bluett but rather housed a few tacky shops, a small 7-11 type store and a hodge-podge of offices, the entire facade was painted a dark red and the planters were gone. In its place now stands a faux art-deco style apartment complex.  
+    Furthermore, there is very little reference material beyond what was photographed in its heyday, so I have made most of the details up. The facade, while reasonably true to the original, is scaled down to fit on a 3 tile wide lot.
+
+    The building is offered as a CS§§ growable on a 3x2 or 3x3 lot for medium density zones and works well as a standalone or in a Wall to Wall (W2W) setting.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  3x2  
+    Growth Stage:         4 (Medium and High Density Zoning)  
+    Bulldoze Cost:         § 315  
+    Capacity Satisfied: CS§ 658, CS§§ 167  
+    Pollution:                 6 (Air)/ 4 (Water)/ 8 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 14 Mwh  
+    Water Consumed:  161 Gal/Month  
+    Building Style:         Euro/Chicago/New York/Houston  
+    Occupant Group:    Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files contained within this download. You must select only one. Eithe the Maxis Nite version or the Dark Nite version for players with a night-time darkening mod. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This file requires no external dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32914-mullen-bluett-department-store/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/MullenBluett.jpg.cb7d89b76a424e041d34e5441fab201a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/MullenBluett1.jpg.4640552cb43cab5015a0dd7810744d03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/MullenBluett2.jpg.674c90271c095cd44ecc03deb0460faa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/MullenBluett3.jpg.885bee61efb0d2cce63039ea47a4fd3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/MullenBluett3a.jpg.42db1354cbf422eb3b5954e2c8a2c28e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/MullenBluett4.jpg.6c7600f73daf0b6a1a1ed3ecb664b12b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-mullen-bluett-department-store-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-mullen-bluett-department-store-darknite
+
+---
+assetId: mattb325-mullen-bluett-department-store-darknite
+version: "1.0"
+lastModified: "2019-05-12T02:00:38Z"
+url: https://community.simtropolis.com/files/file/32914-mullen-bluett-department-store/?do=download&r=175853
+
+---
+assetId: mattb325-mullen-bluett-department-store-maxisnite
+version: "1.0"
+lastModified: "2019-05-12T02:00:38Z"
+url: https://community.simtropolis.com/files/file/32914-mullen-bluett-department-store/?do=download&r=175854

@@ -1,0 +1,21 @@
+group: dk1
+name: methane-power-plant
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Methane Power Plant
+  description: |-
+    3 different lots: 3x3 custom tanks (day image), 3x3 Maxis tanks (night image), 3x2 no tanks. Power generated: 5000 MW h/month, build: 1000, monthly cost: 200. Creates less pollution (49 at center, 9 radius) than the ingame Natural Gas Power Plant.
+  author: dk1
+  website: https://community.simtropolis.com/files/file/19296-dk1-methane-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f74df7686b46907deb91b0edf32b8f14-MPP_day.JPG
+    - https://www.simtropolis.com/objects/screens/0027/f74df7686b46907deb91b0edf32b8f14-MPP_night.JPG
+assets:
+  - assetId: dk1-methane-power-plant
+
+---
+assetId: dk1-methane-power-plant
+version: "1.0"
+lastModified: "2008-01-27T07:19:19Z"
+url: https://community.simtropolis.com/files/file/19296-dk1-methane-power-plant/?do=download&r=43909

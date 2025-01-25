@@ -1,0 +1,92 @@
+group: mattb325
+name: london-w2w-pack-vol02
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: London W2W Pack Vol02
+  description: |-
+    **London W2W Pack Vol02, by Mattb325.  
+    \---------------------------------------**
+
+    This download contains nine Wall to Wall buildings from inner city London.
+
+    These are all real buildings from around Charterhouse St and take in a huge variety of architectural styles: art deco, art nouveau, early, mid & late victorian, gothic, palladian and edwardian. What these buildings all have in common is that they are primarily centred around night-time activities...restaurants, bars and night-clubs.
+
+    All these buildings area highly detailed with lots of visual interest, they will work equally well in a London themed city or anywhere you want a lively main street that isn't a typical skyscraper jungle. There are also two corner W2W buildings offered and cover both corners.
+
+    The buildings are all offered as CS§§/CS§§§ growable on the following lot sizes: 1x1, 1x2 and 2x2 for medium and high-density zones providing numerous jobs. If you want these as a ploppable, I suggest downloading Buggis Extra Cheats which will enable you to plop these as fully functioning lots.
+
+    All the lots grow at stages 4 & 5.
+
+    **\---------------------------------------**
+
+    **STATS CS§§ & CS§§§:**
+
+    Lot size :                 1x1, 1x2 & 2x2  
+    Growth Stage:        4 & 5 (Medium & High Density Zoning)  
+    Bulldoze Cost:        § 280-371  
+    Capacity Satisfied: CS§ 130-368, CS§§ 35-94, CS§§§ 18  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4(Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 3-8 Mwh  
+    Water Consumed:  35-92 Gal/Month  
+    Building Style:         Euro/Chicago/New York/Houston  
+    Occupant Group:    Medium/High Wealth Commercial Services Building(s)
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/))
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This is a self contained expansion pack. There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33020-london-w2w-pack-vol02/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/79Charterhouse.jpg.cd045f680c346fab232041841a6bd541.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Barsmith.jpg.59fc5d86c0f96f7589fc93be331c0a73.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/McDonalds.jpg.02d9c92cb3f8deb30d329764c4684a64.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/FabricNiteClub.jpg.da41be9e1baea9258e057d8f399697f5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/FoxandAnchor.jpg.bd184403a4420afea1419c1c09ad9c32.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HopeGinBar.jpg.c3d73a280f66718482cf8322109111d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/PretAManger.jpg.f34248be0b0144a919b5fb53f9b79606.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Smiths.jpg.818f2e57d4d4bd32898ea8fa2c9d5fe8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhitmoorDavis.jpg.f297734c57ef36a8102a5d9a0ab83a04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MainNite.jpg.91eeb6dfeb0cc9f0c3aaca5301f06506.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Main3.jpg.fee92a2979c06905f1c76ca0357aebcc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MainNite1.jpg.39b8771107db237b6eeac074dd1b1560.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Main2.jpg.08986b7e5220cafa78672ace7122b2f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Main1.jpg.d137ad9391ebc0fd05ed67ecc3a13493.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Main.jpg.9905611c60510ca9a86330474889ff0b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-london-w2w-pack-vol02-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-london-w2w-pack-vol02-darknite
+
+---
+assetId: mattb325-london-w2w-pack-vol02-darknite
+version: "1.0"
+lastModified: "2019-07-14T22:59:37Z"
+url: https://community.simtropolis.com/files/file/33020-london-w2w-pack-vol02/?do=download&r=176684
+
+---
+assetId: mattb325-london-w2w-pack-vol02-maxisnite
+version: "1.0"
+lastModified: "2019-07-14T22:59:37Z"
+url: https://community.simtropolis.com/files/file/33020-london-w2w-pack-vol02/?do=download&r=176685

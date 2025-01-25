@@ -1,0 +1,83 @@
+group: mattb325
+name: abercrombie-st-terraces
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Abercrombie St Terraces
+  description: |-
+    **Abercrombie St Terraces, by Mattb325.  
+    \---------------------------------------**
+
+    These are modern infill terraces from an inner Sydney city street.
+
+    Designed to complement the more traditional terrace housing stock that is so common in cities like Sydney, London, etc, these 3 story terraces are designed with light and airy interiors that connect to the outside
+
+    Balconies, light-wells, sun and privacy louvres and floor-to-ceiling windows give a contemporary twist that turns the traditional dark victorian terrace on its head.
+
+    This is designed for a 1x2 lot. The colour scheme makes for a striking mid rise, medium density apartment complex for 29 R$$ sims that grow on the Houston and Euro tilesets: they look grown en masse (per the pictures) or mixed in with the any of the many traditional 1x2 custom content dwellings available.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    **\---------------------------------------**
+
+    **STATS R$$:**
+
+    Lot size :              1x2  
+    Growth Stage:    5 (Medium Density Zoning)  
+    Bulldoze Cost:       $203  
+    Capacity Satisfied: R$ 49, R$$ 29  
+    Pollution:               1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:     1 Mwh  
+    Water Consumed:   2 Gal/Month  
+    Building Style:        Houston/Euro  
+    Occupant Group:     Medium Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*Mattb325 BAT Props Vol04: ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3672](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3672))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33961-abercrombie-st-terraces/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/AbercrombieStTerraces.jpg.b898c552c3563bc92a664adf90bddef4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/AbercrombieStTerraces1.jpg.2e47e4acbc9f47ad06ff48f69fbd0b9c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/AbercrombieStTerraces2.jpg.5c749c730bbdbcbed7371b1dbff54e37.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/AbercrombieStTerraces3.jpg.96f3210b9f9b42d5afb2da719d34bf85.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/AbercrombieStTerraces4.jpg.9c0abee7daade57763afa237e4297d52.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-abercrombie-st-terraces-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-abercrombie-st-terraces-darknite
+
+---
+assetId: mattb325-abercrombie-st-terraces-darknite
+version: "1.0.0"
+lastModified: "2020-11-15T18:53:20Z"
+url: https://community.simtropolis.com/files/file/33961-abercrombie-st-terraces/?do=download&r=183926
+
+---
+assetId: mattb325-abercrombie-st-terraces-maxisnite
+version: "1.0.0"
+lastModified: "2020-11-15T18:53:20Z"
+url: https://community.simtropolis.com/files/file/33961-abercrombie-st-terraces/?do=download&r=183927

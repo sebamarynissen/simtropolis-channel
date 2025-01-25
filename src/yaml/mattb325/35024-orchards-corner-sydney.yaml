@@ -1,0 +1,81 @@
+group: mattb325
+name: orchards-corner-sydney
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Orchards Corner Sydney
+  description: |-
+    **Orchards Corner, Haymarket, Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    An iconic old corner building opposite Sydney's Central station, this 6-floor wall to wall (W2W) building has housed Raben Footwear a store catering to goths, skinheads and punks for the classic doc marten boots since the 1980's, but prior to that it was department store.
+
+    The site belonged to Richard Beaumont Orchard, a watchmaker, jeweler and local politician. In SC4, I have chosen to render it out as the department store in its 1920's heyday. I have also rendered it out in a mirrored version so that all corners can be covered. The poster on the party wall is taken from an original catalogue of Orchard's limited.
+
+    Both corner versions are offered as growable high wealth commercial services medium density lots.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS CS$$$:**
+
+    Lot size :                  1x2 (both corners)  
+    Growth Stage:         4 (Medium and High Density Zoning)  
+    Bulldoze Cost:         $ 471  
+    Capacity Satisfied:  R$ 224 R$$ 58 R$$$ 25  
+    Pollution:                  1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  7 Mwh  
+    Water Consumed:   62 Gal/Month  
+    Building Style:          New York, Chicago and Euro  
+    Occupant Group:     High Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/35024-orchards-corner-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/OrchardsCorner.jpg.9f5697c47df8f461590fc1ab7a4f8a86.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/OrchardsCorner1.jpg.a61b300fd28a29685a579461997691d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/OrchardsCorner2.jpg.35b24708680d24b132188c4973c1d43c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/OrchardsCorner3.jpg.58e71e11bcbe31c70a5a681a5feeb594.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/OrchardsCorner4.jpg.f925a8d77d7cb41183a47e96ef1af314.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/OrchardsCorner5.jpg.07de8f75f369e97f6e688c653e13f5a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/OrchardsCorner6.jpg.81134ebc9f8c0e7da130423a5e4440d7.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-orchards-corner-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-orchards-corner-sydney-darknite
+
+---
+assetId: mattb325-orchards-corner-sydney-darknite
+version: "1.0.0"
+lastModified: "2022-03-26T23:59:48Z"
+url: https://community.simtropolis.com/files/file/35024-orchards-corner-sydney/?do=download&r=192628
+
+---
+assetId: mattb325-orchards-corner-sydney-maxisnite
+version: "1.0.0"
+lastModified: "2022-03-26T23:59:48Z"
+url: https://community.simtropolis.com/files/file/35024-orchards-corner-sydney/?do=download&r=192629

@@ -1,0 +1,53 @@
+group: seraf
+name: new-york-life-insurance-company-annex
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: New York Life Insurance Company Annex
+  description: |-
+    **New York Life Insurance Company Annex** - International style office building designed by Carson & Lundin and completed in 1961. It was built as annex to main building of the company that stands across the street.
+
+    Real address: 63 Madison Avenue, New York, NY
+
+    **Lot size**: 4x6
+
+    **Versions**: 2
+
+    \- CO$$ Growable
+
+    \- Landmark with jobs CO$$
+
+    **Dependencies:**
+
+    SimFox Day n Nite Modd (For DarkNite Version only)
+
+    NYBT Essentials
+
+    This BAT was created as a part of NYBT International Month.
+
+    Enjoy!
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/30705-nybt-new-york-life-insurance-company-annex/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/Screen.png.0eddcd07658048b68f134ddb381f2aed.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/b4fcuzv.png.47f0a8d04c47557448a8cfe6515ce4e1.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-new-york-life-insurance-company-annex
+        exclude:
+          - /NYBT_NewYorkLifeInsuranceCompanyAnnex_DN_Seraf/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-new-york-life-insurance-company-annex
+        exclude:
+          - /NYBT_NewYorkLifeInsuranceCompanyAnnex_MN_Seraf/
+
+---
+assetId: seraf-new-york-life-insurance-company-annex
+version: "1.0"
+lastModified: "2015-07-30T01:52:23Z"
+url: https://community.simtropolis.com/files/file/30705-nybt-new-york-life-insurance-company-annex/?do=download&r=158548

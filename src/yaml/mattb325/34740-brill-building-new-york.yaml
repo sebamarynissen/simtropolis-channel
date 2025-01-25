@@ -1,0 +1,89 @@
+group: mattb325
+name: brill-building-new-york
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Brill Building New York
+  description: |-
+    **Brill Building New York, by Mattb325.  
+    \---------------------------------------**
+
+    Located at 1619 Broadway & 49th Street, the Brill Building was constructed in 1931. The Brill building is famous for housing music industry offices and studios where some of the most popular American songs of all time were written.
+
+    The Brill building was considered to be the centre of American popular music throughout the 20th Century. From the early 1940s onwards, the Brill building housed scores of music publishers and was considered a one-stop-shop for artists wishing to have their work recorded and published. B  
+    y the 1960s, the building housed over 160 music businesses and spawned the careers of many artists such as Carole King, Burt Bacharach, Neil Diamond and Paul Simon, to name but a few of the hundreds of musical artists from all genres who used the services of this building and became famous as a result.
+
+    In game it is offered as a CS$$ and CO$$ growable building for a 3x2 medium density corner lot on the New York Tileset.
+
+    Stats below.
+
+    **\---------------------------------------**
+
+    **STATS CO$$:**
+
+    Lot size:                   3x2  
+    Bulldoze Cost:        $784  
+    Pollution at Centre: 1 (air) /1 (water) /4 (garbage)  
+    Pollution Radius:     5/6/0  
+    Jobs CO$$:              488  
+    Power Consumed:  10 Mwh  
+    Water Consumed:   107 Gallons  
+    Occupant Groups:   Building: New York; CO$$.
+
+    **STATS CS$$:**
+
+    Lot size:                    3x2  
+    Bulldoze Cost:         $784  
+    Pollution at Centre: 10 (air) /6 (water) /13 (garbage)  
+    Pollution Radius:     5/6/0  
+    Jobs CS$$:               CS$ 1095; CS$$ 276  
+    Power Consumed:   22 Mwh  
+    Water Consumed:    266 Gallons  
+    Occupant Groups:    Building: New York; CS$$.
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no external dependencies required for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34740-brill-building-new-york/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Brill.jpg.8ccac5db50adacf2d4d7e9516ede9327.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Brill1.1.jpg.f5f717c2c2f3b513e2dd0a0130485bba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Brill1.jpg.d6d8968f4329948115b36d23b77f9976.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Brill2.jpg.11c73f4cacabc0f048f2ad059e4d3931.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Brill3.jpg.6e527c7d641122d4acde2b203e2c0363.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Brill4.jpg.cd5f1f658939951c5494e28c488fc858.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Brill5.jpg.36a9c326cc5776b0928788616e775af5.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-brill-building-new-york-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-brill-building-new-york-darknite
+
+---
+assetId: mattb325-brill-building-new-york-darknite
+version: "1.0.0"
+lastModified: "2021-11-07T20:51:31Z"
+url: https://community.simtropolis.com/files/file/34740-brill-building-new-york/?do=download&r=190466
+
+---
+assetId: mattb325-brill-building-new-york-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-07T20:51:31Z"
+url: https://community.simtropolis.com/files/file/34740-brill-building-new-york/?do=download&r=190467

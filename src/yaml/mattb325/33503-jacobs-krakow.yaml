@@ -1,0 +1,96 @@
+group: mattb325
+name: jacobs-krakow
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Jacobs Krakow
+  description: |-
+    **Jacobs Kraków, by Mattb325.  
+    \---------------------------------------**
+
+    This modern, sprawling 7 floor glass and steel building is useful for suburban and urban areas alike.
+
+    Based on a new build in Kraków, Poland, this building was made as a request.
+
+    With the exception of the rear garaging area (and some dimensions to ensure this can fit on a 4x4 lot), this is a reasonably accurate rendition of the real building, including the odd wall angles which help break up the boxiness of many SC4 buildings.
+
+    Outdoor terraces, dark-cyan tinted reflective, yet transparent glass, stepped massing and a sedum-planted roof to help regulate internal temperatures add to the modern, crisp feel of the design.
+
+    Randomly arranged light boxes along three facades ensure this building is eye-catching at night.
+
+    Employing up to 786 Sims, it grows on a 4x4 or 5x5 lot (each having identical stats except the lot footprint) on medium and high density.
+
+    The buildings are high-wealth commercial services offerings on all tilesets. Additionally, the eagle eyed amongst you will notice some new Occupant Groups. Over the next few months, all of my stuff will be updated to include these new occupant groups in preparation for upcoming BSC offerings.
+
+    **\---------------------------------------**
+
+    **STATS CO§§§:**
+
+    Lot size :                  4x4 & 5x5  
+    Growth Stage:         5 & 4 (Medium & High Density)  
+    Bulldoze Cost:         § 456  
+    Capacity Satisfied:  CO§§ 1,123, CO§§§ 786  
+    Pollution:                  4 (Air)/ 4 (Water)/ 4 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  32 Mwh  
+    Water Consumed:   351 Gal/Month  
+    Building Style:          Chicago, New York, Houston, Euro  
+    Occupant Group:     High Wealth CO, BSC\-Mattb325, BSC
+
+    **\---------------------------------------**
+
+    NOTE ABOUT DARK NITE vs MAXIS NITE:  
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    To ensure proper functionality, make sure the following files are in your plugins:
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))  
+    \*BSC Texture Pack V01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33503-jacobs-krakow/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs.jpg.3a857d4eee744355ecfcc2ee6f49b2a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs1.jpg.96bd3446a2a4b715fcf0c29ddaade9df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs2.jpg.945def6fdc940d95d5145fb252073d9c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs3.jpg.d866d7973c068da374ed945850e3a096.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs3a.jpg.a33036c8038f2e6680dbbcddf95322da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs3b.jpg.99acf5a870b1aa15bf71cd672b361e15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs3c.jpg.52d1805c2c43dec322e48768b76fc3ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/Jacobs4.jpg.1434777105a68ab94957ed1a03e24bb2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-jacobs-krakow-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-jacobs-krakow-darknite
+
+---
+assetId: mattb325-jacobs-krakow-darknite
+version: "1.0.0"
+lastModified: "2020-03-20T21:20:56Z"
+url: https://community.simtropolis.com/files/file/33503-jacobs-krakow/?do=download&r=180120
+
+---
+assetId: mattb325-jacobs-krakow-maxisnite
+version: "1.0.0"
+lastModified: "2020-03-20T21:20:56Z"
+url: https://community.simtropolis.com/files/file/33503-jacobs-krakow/?do=download&r=180121

@@ -1,0 +1,83 @@
+group: mattb325
+name: eclipse-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Eclipse Tower
+  description: |-
+    **Eclipse Tower, by Mattb325.  
+    \---------------------------------------**
+
+    Eclipse Tower is an usually shaped building from Sydney's second largest CBD, Parramatta.
+
+    At 19 floors, this smaller tower has a raised platform courtyard and basement parking area. Signage rights are currently taken by the main tenant, Deloitte.
+
+    It is offered as a 4x4 CO$$$ growable for high density corner lots on the Houston and Euro tilesets only, ensuring that it should not become too weedy.
+
+    It provides 1,761 high wealth commercial office jobs.
+
+    **\---------------------------------------**
+
+    **STATS CO$$$:**
+
+    Lot size :                  4x4   
+    Growth Stage:         6 (High Density)  
+    Bulldoze Cost:         $ 1120  
+    Capacity Satisfied: CO$$ 2517 CO$$$ 1761  
+    Pollution:                 10 (Air)/ 10 (Water)/ 4 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed:  71 Mwh  
+    Water Consumed:   770 Gal/Month  
+    Building Style:          Houston and Euro  
+    Occupant Group:     High Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies for this file.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34768-eclipse-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse.jpg.701c7cc67a1c4fbb947ca3ece5557be6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse1.1.jpg.9735fbcc2bd8268e1ffcf1cac29768fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse1.2.jpg.ec2849dc953bafb86b8004fe22334fdc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse1.jpg.ce36139998ce9bea41cc632e3de434b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse2.jpg.96de8f03075018012353b2a0ec8f45f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse3.jpg.6480521ce336de8d27dd04eeda16a54d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse4.jpg.a21589484c41f6860f0730ca8040e81a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Eclipse5.jpg.1299559850700164014cfaed17228217.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-eclipse-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-eclipse-tower-darknite
+
+---
+assetId: mattb325-eclipse-tower-darknite
+version: "1.0.0"
+lastModified: "2021-11-28T00:02:13Z"
+url: https://community.simtropolis.com/files/file/34768-eclipse-tower/?do=download&r=190694
+
+---
+assetId: mattb325-eclipse-tower-maxisnite
+version: "1.0.0"
+lastModified: "2021-11-28T00:02:13Z"
+url: https://community.simtropolis.com/files/file/34768-eclipse-tower/?do=download&r=190695

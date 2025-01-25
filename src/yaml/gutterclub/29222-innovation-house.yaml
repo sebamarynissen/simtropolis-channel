@@ -1,0 +1,44 @@
+group: gutterclub
+name: innovation-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Innovation House
+  description: |-
+    ..the fictional Innovation House, a generic glass box commercial office found all over. A quickie to get used to BATing again..  
+      
+    Included  
+      
+    x1 model file  
+    x1 C$$ stage 6 2x2 growable lot w/ 200 jobs  
+      
+    Choice of Darknite or Maxisnite, just choose the file you want to download  
+      
+    Dependency for Darknite  
+      
+    [http://community.sim...-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: gutterclub
+  website: https://community.simtropolis.com/files/file/29222-innovation-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/4bf06c4c26b6ddd15b2324eff4e5b9c7-untitled.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/2629c1be47bdb005f69021842039dfb4-untitledn.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gutterclub-innovation-house-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: gutterclub-innovation-house-darknite
+
+---
+assetId: gutterclub-innovation-house-darknite
+version: "1.0"
+lastModified: "2014-01-26T07:27:35Z"
+url: https://community.simtropolis.com/files/file/29222-innovation-house/?do=download&r=123149
+
+---
+assetId: gutterclub-innovation-house-maxisnite
+version: "1.0"
+lastModified: "2014-01-26T07:27:35Z"
+url: https://community.simtropolis.com/files/file/29222-innovation-house/?do=download&r=123150

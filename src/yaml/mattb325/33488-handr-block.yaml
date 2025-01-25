@@ -1,0 +1,86 @@
+group: mattb325
+name: handr-block
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: H&R Block
+  description: |-
+    **H&R Block Headquarters, by Mattb325.  
+    \---------------------------------------**
+
+    Allow the 'joy' of doing taxes in real life to spill into SC4.
+
+    H&R Block has almost 12,000 retail outlets in the United States, Canada, Australia and India.
+
+    H&R Block also has a tax office in Mawson, Antartica, and, given the prolonged deep funding cuts to most NASA programs from an indifferent administration which views science as voodoo, it is currently in negotiations with the International Space Station to have a tax kiosk in low earth orbit after Starbucks pulled out over disagreements with naming and giant illuminated signage rights.
+
+    Anyway, this building is an interpretation of the Head Office in Kansas City, Missouri.
+
+    A request on the BAT Request thread, it's a big 18 floor oblong-shaped building with retail space, cafes, restaurants, outdoor podiums and even a theater where you can claim your ticket stubs from next door as a depreciable asset. At any rate, the entire mid-rise complex certainly breaks up the blocky (pun intended) buildings of SC4.
+
+    I've taken some liberties with the building and layout to fit it onto a 5x5 lot, but otherwise it's a reasonably faithful rendition that is offered as a High wealth Commercial, medium density, mid rise growable building for corner lots. Hold the CTRL key when zoning, or just use Buggis extra cheats to make it a ploppable.
+
+    You can probably even claim the Kilobyte portion of the download on your next income tax return.
+
+    **\---------------------------------------**
+
+    **STATS CO§§§:**
+
+    Lot size :                  5x5 (Both corners)  
+    Growth Stage:         6 (Medium & High Density Zoning)  
+    Bulldoze Cost:         § 1,051  
+    Capacity Satisfied: CO§§ 4,373, CO§§§ 3,059  
+    Pollution:                 18 (Air)/ 18 (Water)/ 7 (Garbage )  
+    Pollution Radius:    6/7/0  
+    Power Consumed: 123 Mwh  
+    Water Consumed:  1,326 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    High Wealth CO
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33488-hr-block/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/HR_Block.jpg.4effdd101dcde50c3a21582525c90942.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/HR_Block1.jpg.4856a95ba4356e9f8f001c4240881fbf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/HR_Block2.jpg.ee3dbb26824386bc858b3e552bf14086.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/HR_Block3.jpg.7f6faf25afa1727b464193c7a8beba3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/HR_Block4.jpg.26194c620d252be3a367481f49ddaf19.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-handr-block-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-handr-block-darknite
+
+---
+assetId: mattb325-handr-block-darknite
+version: "1.0.0"
+lastModified: "2020-03-06T19:57:30Z"
+url: https://community.simtropolis.com/files/file/33488-hr-block/?do=download&r=180032
+
+---
+assetId: mattb325-handr-block-maxisnite
+version: "1.0.0"
+lastModified: "2020-03-06T19:57:30Z"
+url: https://community.simtropolis.com/files/file/33488-hr-block/?do=download&r=180033

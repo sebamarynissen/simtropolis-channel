@@ -1,0 +1,101 @@
+group: mattb325
+name: passenger-ferry-terminal-v2
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Passenger Ferry Terminal V2
+  description: |-
+    **Passenger Ferry Terminal V2, by Mattb325.  
+    \---------------------------------------**
+
+    While I quite like the look of the Maxis Passenger Ferry Terminal, and I also like the fact that both passenger ferries and car/passenger ferries are far and away the cheapest and most efficient form of public transit that never suffers from congestion...but after 15 years of seeing the same ferry buildings in game, it's time for an upgrade.
+
+    This is the third of four fictional buildings which I made for just that purpose - *it was initially only three buildings, but I got carried away and made a fourth*(!) ![:P](https://community.simtropolis.com/assets/emoticons/LlamaTounge.gif ":P")
+
+    This passenger ferry building is a new lot and it does not replace or interfere with the in-game building (or any of my other ferry lots). It can be used in conjunction with the Maxis passenger ferry terminal or any other similarly modded passenger ferries available.  
+    This ferry is also easier to place along the shore line - if you have ever placed the in-game version, you will have no problems using this lot as the principles are identical.   
+    Additionally, it uses standard maxis pavement textures (rather than a batted base like the in game version) so the lot will blend in with any sidewalk mods that you have.
+
+    Just like the in-game lot, this lot must be placed adjacent to a street/road and it also must be placed across both land and water.
+
+    *Ferry buildings are a great alternative/supplement to bridges, and I use them to ease congestion on the road network and a ferry terminal helps stop the 'no job' zot that often plagues residential areas by providing a super fast mode of travel.*
+
+    It is crucial to note the Passenger Ferry Terminal is a separate network from the Car Ferry Terminal.
+
+    Ferries that leave from a passenger ferry terminal do not use a car ferry terminal and vice versa.   
+    Now, this is no different from the function in the vanilla rush-hour game, but as there are so few custom ferry terminals available for download, it is important to point out.
+
+    Therefore, I recommend placing this at least twice in any city tile (on opposite shorelines) and in a neighbouring city connected by water to get the most use. It is also important to note that ferries do not work if the water is too shallow, bridges too low, or if the edges of your cities and waterways are at wildly differing elevations.
+
+    It has similar stats in terms of capacity and monthly cost to the Maxis Passenger Ferry Terminal, but provides more jobs. This modern, zinc clad terminal building is slightly larger than the other two ferry buildings I have released and visually looks more suited to denser environments.
+
+    I say visually, because ferry terminals don't suffer from congestion unlike other modes of transport.
+
+    The other thing about this series of passenger ferries is that they will conform to 90%, if not all of, the available seawall sets: as long as the seawall set has left/right overhanging lots (which are typically used as under-bridge lots) and are not too wide or deep, then they will function perfectly so you can keep a uniform look to your seawalls and not be forced to pick one that I choose.
+
+    Obviously the passenger ferry building is found in the water transit section of the transportation menu and crucially it can only be placed in a city where in-game water is present; it does not work on canals or ploppable water.
+
+    **\---------------------------------------**
+
+    **STATS:**
+
+    Lot size :                 2x4 (to be placed on land and water)  
+    Plop Cost:               §150  
+    Bulldoze Cost:        §30  
+    Occupant Groups: Transportation, Strikable Transit, Ferry, Passenger Ferry, Water Transit  
+    Catalog Capacity:  900   
+    Wealth:                    Medium Wealth  
+    Demand Created:  Jobs§§§: 0, Jobs§§: 2, Jobs§: 7.  
+    Pollution:                 Air 1 over 1 tiles, Water 1 over 1 tiles, Garbage 1 over 0 tiles  
+    Power consumed:  6 MwH  
+    Water consumed:  21 Gallons/Month  
+    Monthly cost:         §30
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO file types in two separate folders; one for dark nite users (and other night-time darkening mods, such as Gizmos night-mod) and one for the standard Maxis nite.   
+    You must choose only one file - depending on which version you use. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies for this lot. Please note that this will form a dependency of the next-to-be-released ferry lot.
+
+    If you are new to using passenger ferries, I would recommend Vester's (do a search at SC4devotion) mods which will give you lots of different ferry automata options and make your water ways quite lively.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33303-passenger-ferry-terminal-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/ModernFerry.jpg.992623f2896e21ae6821c45a72c759bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/ModernFerry1.jpg.114f7d5d658d6c0254b14d707f50bd28.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/ModernFerry2.jpg.1423cfbea25b724698a600410e4f00cc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/ModernFerry3.jpg.cbc318c74e00f2ee4ccfadfb78415d56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/ModernFerry4.jpg.1ebd924f72fcc3f016fe63c9b2259320.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-passenger-ferry-terminal-v2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-passenger-ferry-terminal-v2-darknite
+
+---
+assetId: mattb325-passenger-ferry-terminal-v2-darknite
+version: "1.0.0"
+lastModified: "2019-12-01T19:56:24Z"
+url: https://community.simtropolis.com/files/file/33303-passenger-ferry-terminal-v2/?do=download&r=178789
+
+---
+assetId: mattb325-passenger-ferry-terminal-v2-maxisnite
+version: "1.0.0"
+lastModified: "2019-12-01T19:56:24Z"
+url: https://community.simtropolis.com/files/file/33303-passenger-ferry-terminal-v2/?do=download&r=178790

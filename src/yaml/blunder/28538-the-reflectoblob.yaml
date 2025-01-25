@@ -1,0 +1,56 @@
+group: blunder
+name: the-reflectoblob
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: The Reflectoblob
+  description: |-
+    **The Reflectoblob**
+
+    ~a blundered BAT
+
+    Inspired by (and poorly mimicking) [Cloud Gate](https://en.wikipedia.org/wiki/Cloud_Gate) in Chicago, the reflectoblob is a Landmark style piece of urban art for your downtown.
+
+    Comes in Dark Night and Maxis Night varieties: please download only one. \*Note for relotters- the two separate models do not share the same TGI's, so relotting for one -night model will not automatically work for both.
+
+    Each model comes with 2 lots:
+
+    **Reflectoblob Plaza** - This is a simple lot with only the basic landmark effect.
+
+    **Reflectoblob Monument** \- Same as the Plaza but also has the cap relief effects of the Convention and Research centers combined in one. I did that because i wanted to get those effects without plopping those lots for myself in my downtowns. As such it needs road access, but thankfully pedmalls fulfill this requirement.
+
+    Both lots appear near the top of your Landmarks menu.
+
+    The base texture is just the simple medium wealth white, and consequently should get overwritten if you use a texture changer, like in my 3rd pic.
+
+    This file has No dependencies, however it is an HD export, so hardware rendering may be necessary (which you should already be using if you use an HD terrain mod).
+
+    For questions, comments, suggestions, whatever, please visit my BAT thread at simpeg.com: [Blundered BATs](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9864.0).
+
+    Happy Gaming ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)
+  author: blunder
+  website: https://community.simtropolis.com/files/file/28538-the-reflectoblob/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/9f17c4ffc715aa9e72418c77412c5816-reflectoblobfinalday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/8dea651dc58356c82d636a7a51d9974c-reflectoblobfinaldn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/79131ac35b89003435a63662089784a2-reflectoblobplaza.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: blunder-the-reflectoblob-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: blunder-the-reflectoblob-darknite
+
+---
+assetId: blunder-the-reflectoblob-darknite
+version: "1.0"
+lastModified: "2013-03-04T23:48:47Z"
+url: https://community.simtropolis.com/files/file/28538-the-reflectoblob/?do=download&r=112742
+
+---
+assetId: blunder-the-reflectoblob-maxisnite
+version: "1.0"
+lastModified: "2013-03-04T23:48:47Z"
+url: https://community.simtropolis.com/files/file/28538-the-reflectoblob/?do=download&r=112743

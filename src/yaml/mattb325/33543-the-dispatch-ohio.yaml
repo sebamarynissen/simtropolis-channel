@@ -1,0 +1,82 @@
+group: mattb325
+name: the-dispatch-ohio
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: The Dispatch Ohio
+  description: |-
+    **The Dispatch Newspaper, by Mattb325.  
+    \---------------------------------------**
+
+    A little 5 floor building that piqued my interest after a user posted a request on the '*cannae find eet, screw ewes*' thread, looking for buildings with old-style neon signage. There aren't too many in SC4, so I have been adding a few more examples to the gene pool.
+
+    This one, built in 1925 in Columbus Ohio, exemplifies the type: taller than its neighbouring buildings, the neon signage was prominently displayed above the roof line so that it could be seen for miles. Until recently, it was home to Columbus' Newspaper, 'The Dispatch'.
+
+    Plus, it was an excuse to do another old-style Wall to Wall building that didn't have the standard 1x1 or 1x2 lot dimensions.
+
+    I have taken some liberties with the building; dispensing with the joined car-park and interlocking courtyards to ensure that this will fit on a smaller sized lot.
+
+    It is offered as a growable only CS§§ 1x3 left corner lot employing 104 Sims.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  1x3  
+    Growth Stage:         5 (Medium & High Density Zoning)  
+    Bulldoze Cost:         § 402  
+    Capacity Satisfied: CS§ 408, CS§§ 104  
+    Pollution:                 3 (Air)/ 2 (Water)/ 5 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed: 9 Mwh  
+    Water Consumed:  101 Gal/Month  
+    Building Style:         Chicago, New York, Houston, Euro  
+    Occupant Group:    Medium Wealth CS, BSC, BSC\-Mattb325
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    There are two model files in this download. You must select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    There are no dependencies required.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33543-the-dispatch-ohio/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TheDispatch.jpg.c375c2f8f213b3b49dd4eaaf0b455d15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TheDispatch1.jpg.bc62922b10098f9429226c6c0199ac1d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TheDispatch2.jpg.eb500a3a59a06d7216fc853156c24c55.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TheDispatch3.jpg.e5057c8085fefff96fa937c4db19125b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/TheDispatch4.jpg.7f42d0eb5f96114da9146f6359deee54.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-the-dispatch-ohio-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-the-dispatch-ohio-darknite
+
+---
+assetId: mattb325-the-dispatch-ohio-darknite
+version: "1.0.0"
+lastModified: "2020-04-12T22:14:23Z"
+url: https://community.simtropolis.com/files/file/33543-the-dispatch-ohio/?do=download&r=180601
+
+---
+assetId: mattb325-the-dispatch-ohio-maxisnite
+version: "1.0.0"
+lastModified: "2020-04-12T22:14:23Z"
+url: https://community.simtropolis.com/files/file/33543-the-dispatch-ohio/?do=download&r=180602

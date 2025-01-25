@@ -1,0 +1,77 @@
+group: mattb325
+name: travelodge-hotel-sydney
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Travelodge Hotel Sydney
+  description: |-
+    **Travelodge Hotel Sydney, by Mattb325.  
+    \---------------------------------------**
+
+    This basic, no frills high-rise hotel fills a gap in the paucity of larger CS§§ available. Particularly as your region starts to develop, having a lack of larger CS§§ buildings can really stifle additional city development. This leads to a drop in demand across your residential drivers and can completely tank any growth at all.
+
+    This building is inspired by the Travelodge Hotel in Wynyard, central Sydney. In order to fit this onto a 2x2 lot, I have made a few changes to the building, but it is otherwise a reasonably accurate recreation. Additionally, despite being a 'sky-scraper' from Sydney, it is bland and nondescript enough to blend in with many cityscapes.
+
+    The building is offered as a CS§§ growable on a 2x2 high-density lot providing 314 jobs.
+
+    **\---------------------------------------**
+
+    **STATS CS§§:**
+
+    Lot size :                  2x2  
+    Growth Stage:         8 (High Density Zoning)  
+    Bulldoze Cost:         § 1,157  
+    Capacity Satisfied:  CS§ 1,249, CS§§ 314  
+    Pollution:                  11 (Air)/ 7 (Water)/ 15 (Garbage )  
+    Pollution Radius:     5/6/0  
+    Power Consumed:  25 Mwh  
+    Water Consumed:   303 Gal/Month  
+    Building Style:          Euro/Chicago/New York/Houston  
+    Occupant Group:     Medium Wealth Commercial Services Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    Select the appropriate file from the download. The file suffixed with 'DN' is for those users with a night-time darkening mod installed. The file suffixed with 'MN' is for users who do not have any such mods installed.
+
+    If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.
+
+    If you use the dark nite version, you will need a dark nite mod. For example: (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    This lot requires no dependencies.
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/32869-travelodge-hotel-sydney/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Travelodge.jpg.c5119c0e4d9bcd836643f245073824f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Travelodge1.jpg.08720fb08ea33809cff4b0a87ec8cbd9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Travelodge2.jpg.cbb0530e7c9e5a91ce46bc63dda360d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Travelodge3.jpg.e068e783137052d3068280cb1668a24c.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-travelodge-hotel-sydney-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-travelodge-hotel-sydney-darknite
+
+---
+assetId: mattb325-travelodge-hotel-sydney-darknite
+version: "1.0"
+lastModified: "2019-04-17T23:09:11Z"
+url: https://community.simtropolis.com/files/file/32869-travelodge-hotel-sydney/?do=download&r=175542
+
+---
+assetId: mattb325-travelodge-hotel-sydney-maxisnite
+version: "1.0"
+lastModified: "2019-04-17T23:09:11Z"
+url: https://community.simtropolis.com/files/file/32869-travelodge-hotel-sydney/?do=download&r=175543

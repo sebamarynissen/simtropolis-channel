@@ -1,0 +1,33 @@
+group: nbvc
+name: water-ploppable-scows
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Water ploppable scows
+  description: |-
+    A water ploppable version of the PEG PPond Scows. The scows are only eyecandy.
+
+    They are located in the seaport menu.
+
+    Update:
+
+    Fixed game crash with green scow.
+
+    Dependencies:
+
+    [PEG PPond Scows](https://www.simtropolis.com/stex/details.cfm?id=22893)
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/25080-water-ploppable-scows/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/be19970129e905e8f091b7678f86172f-scow21.jpg
+    - https://www.simtropolis.com/objects/screens/0021/be19970129e905e8f091b7678f86172f-scow11.jpg
+dependencies:
+  - peg:ppond-scows
+assets:
+  - assetId: nbvc-water-ploppable-scows
+
+---
+assetId: nbvc-water-ploppable-scows
+version: "1.0"
+lastModified: "2010-10-17T04:25:00Z"
+url: https://community.simtropolis.com/files/file/25080-water-ploppable-scows/?do=download&r=52629

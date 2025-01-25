@@ -1,0 +1,54 @@
+group: seraf
+name: university-club-of-new-york
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: University Club Of New York
+  description: |-
+    **University Club Of New York** - Italian Renaissance style palazzo designed by McKim, Mead & White and erected in 1899. Among lavish interiors worthy noting are lounging room on ground floor, library on the second floor and splendid dining room on third floor. Covered roof pavilion provides admirable resting place for hot summer days.
+
+    The BAT has two special versions, one for 4th of July and one for winter season as shown on screens.
+
+    **Lot size**: 3x2
+
+    **Versions**: 2
+
+    \- Plop CS$$$
+
+    \- Landmark
+
+    ***Attention! When Plopped, the lot will appear empty, it is normal, the entire lot will appear when game date will reach 15th of Feb. 3rd of July or 15th of Dec.***
+
+    **Dependencies:**
+
+    SimFox Day n Nite Modd (For DarkNite Version only)
+
+    NYBT Essentials
+
+    Thanks to all people who helped with this BAT, special thanks goes to Vlasky, Darn42, Bipin, vortext, Girafe and Mike.
+
+    Enjoy! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Seraf
+  website: https://community.simtropolis.com/files/file/29856-nybt-university-club-of-new-york/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/d13c4dfc6a70a5a19ef8b4ca213d2343-screens.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: seraf-university-club-of-new-york
+        exclude:
+          - /NYBT_UniversityClubOfNewYork_DN_Seraf/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: seraf-university-club-of-new-york
+        exclude:
+          - /NYBT_UniversityClubOfNewYork_MN_Seraf/
+
+---
+assetId: seraf-university-club-of-new-york
+version: "1.0"
+lastModified: "2014-08-26T22:34:53Z"
+url: https://community.simtropolis.com/files/file/29856-nybt-university-club-of-new-york/?do=download&r=141045

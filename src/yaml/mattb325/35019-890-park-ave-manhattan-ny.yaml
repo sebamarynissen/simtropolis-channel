@@ -1,0 +1,84 @@
+group: mattb325
+name: 890-park-ave-manhattan-ny
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: 890 Park Ave Manhattan, NY
+  description: |-
+    **890 Park Avenue New York, by Mattb325.  
+    \---------------------------------------**
+
+    One of Manhattan's great survivors, 890 Park Avenue is a house located in the Lennox Hill neighbourhood.
+
+    In the Queen Anne style, this house was built as part of a row the 1880s and initially encompassed numbers 882-890.  
+    Including the basement, the house has five stories. The current exterior is largely unchanged since renovations in the 1900s when the first floor parlour was given over to offices.
+
+    It is currently being restored to a single family, 6000 sqft home with an estimated value of $15M. In SC4 it is offered as an R$$$ row home on the NY & Chicago tilesets.It is slope tolerant.I have also modelled the basement garden area.
+
+    Like all of my work, these are suited to both CAM and non CAM cities alike.
+
+    Stats below:
+
+    **\---------------------------------------**
+
+    **STATS R$$$:**
+
+    Lot size :                  1x1  
+    Growth Stage:         4 (Medium and High Density Zoning)  
+    Bulldoze Cost:         $ 511  
+    Capacity Satisfied:  R$ 118 R$$ 64 R$$$ 28  
+    Pollution:                 1 (Air)/ 1 (Water)/ 4 (Garbage )  
+    Pollution Radius:    5/6/0  
+    Power Consumed:  6 Mwh  
+    Water Consumed:   14 Gal/Month  
+    Building Style:          New York and Chicago  
+    Occupant Group:     High Wealth Residential Building
+
+    **\---------------------------------------**
+
+    **NOTE ABOUT DARK NITE vs MAXIS NITE:**
+
+    This download contains TWO model files; one for dark nite users and one for the standard Maxis nite. If you are unsure whether you have a night-darkening mod installed, then choose the Maxis night version.   
+    If you use the dark nite version, you will need a dark nite mod. (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\---------------------------------------**
+
+    **DEPENDENCIES:**
+
+    \*BSC MEGA Props - CP Vol01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180))  
+    \*BSC Mega Props - CP Vol02.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790))
+
+    **\---------------------------------------**
+
+    To install, simply unzip the contents of this file into your plugins folder.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/35019-890-park-ave-manhattan-ny/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/890ParkAve.jpg.ce076cd1de9b2e37bbba726d37aabc0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/890ParkAve1.jpg.c2ab095386e5db09a79403469a9c6004.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/890ParkAve2.jpg.885ba61c41721e502a7d4f6760c67818.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/890ParkAve3.jpg.4674aea18db6bb51265b7ccb08eb50e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/890ParkAve4.jpg.841ab5f375885b9cc84272e6414ae234.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-890-park-ave-manhattan-ny-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-890-park-ave-manhattan-ny-darknite
+
+---
+assetId: mattb325-890-park-ave-manhattan-ny-darknite
+version: "1.0.0"
+lastModified: "2022-03-22T22:07:16Z"
+url: https://community.simtropolis.com/files/file/35019-890-park-ave-manhattan-ny/?do=download&r=192577
+
+---
+assetId: mattb325-890-park-ave-manhattan-ny-maxisnite
+version: "1.0.0"
+lastModified: "2022-03-22T22:07:16Z"
+url: https://community.simtropolis.com/files/file/35019-890-park-ave-manhattan-ny/?do=download&r=192578
