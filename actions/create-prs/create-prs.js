@@ -110,6 +110,7 @@ async function createPr(pkg, prs) {
 				...context.repo,
 				base: branch,
 				head: 'main',
+				merge_method: 'squash',
 			});
 			if (result.status !== 200 && result.status !== 201) {
 				core.error(`Failed to merge main into ${branch}`);
