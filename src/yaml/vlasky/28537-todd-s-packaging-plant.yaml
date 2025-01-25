@@ -1,0 +1,47 @@
+group: vlasky
+name: todd-s-packaging-plant
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Todd's Packaging Plant
+  description: |-
+    Todd's Packaging Plant is a tribute to my dear friend **SimHoTToDDy**, who helped me a lot on my learning path. He is also a guy without whom there would not be a Manhattanville Project today. Come Back Todd, we miss you. I miss you.
+
+    \- Modding by **anotn**
+
+    \- This upload contains both diagonal and orthogonal BATs;
+
+    \- Orthogonal lot is 6x2 tiles and only growable; diagonal is a ploppable overhanging lot. Both have 362 I-M jobs.
+
+    \- Dependency for DarkNite version is [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Visit [Vlasky's Bats from D to A](https://community.simtropolis.com/topic/52466-vlaskys-bats-from-d-to-a/) for news and support.
+  author: Vlasky
+  website: https://community.simtropolis.com/files/file/28537-todds-packaging-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/8da131a0873dbb1562515b7319c91c4e-vlaskystextemplate.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/8be2da636381ee3f8253a30e8d158a7e-6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/bb0bfc6504dfbb37962abd5ac1643d01-4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/1fe2f0a0d2bce918fc90a7387be1489a-3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/5f006fe4a926540797b4345e07caf35b-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/16a3671356571780efe40fb3d0c01f02-1.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: vlasky-todd-s-packaging-plant-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: vlasky-todd-s-packaging-plant-darknite
+
+---
+assetId: vlasky-todd-s-packaging-plant-darknite
+version: "1.0"
+lastModified: "2013-03-04T23:22:21Z"
+url: https://community.simtropolis.com/files/file/28537-todds-packaging-plant/?do=download&r=112734
+
+---
+assetId: vlasky-todd-s-packaging-plant-maxisnite
+version: "1.0"
+lastModified: "2013-03-04T23:22:21Z"
+url: https://community.simtropolis.com/files/file/28537-todds-packaging-plant/?do=download&r=112735

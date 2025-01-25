@@ -1,0 +1,45 @@
+group: nybt
+name: midtown-theater
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: NYBT Midtown Theater
+  description: |-
+    Midtown theater is theater in New York City. It is built in Art Deco style, common for that period of time. It had ups and downs in its history, but luckily still stands on Broadway between west 99th and west 100th street. It is also known as Metro Theater.
+
+    \- Modding and Lot done by **anotn**
+
+    \- This upload contains two growable versions: one with HVAC and one without HVAC on the roof
+
+    \- Both lots are 1x2 tiles and provide 36 CS$$ jobs
+
+    \- Dependency for DarkNite version is [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    Visit [Vlasky's Hell's Kitchen](https://community.simtropolis.com/topic/41523-vlaskys-hells-kitchen/) for news and support
+  author: Vlasky
+  website: https://community.simtropolis.com/files/file/28583-nybt-midtown-theater/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/45e411b8f8aeca76df5a05a8d28410e2-mid.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/47b90841de71b21eae1a046b520355ca-mid1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/de0bd641aabb89347bc278b884d2230f-mid3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/5822f472fee8f03ed7753b7dd93c982d-mid2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: vlasky-nybt-midtown-theater-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: vlasky-nybt-midtown-theater-darknite
+
+---
+assetId: vlasky-nybt-midtown-theater-darknite
+version: "1.0"
+lastModified: "2013-03-20T04:02:42Z"
+url: https://community.simtropolis.com/files/file/28583-nybt-midtown-theater/?do=download&r=113435
+
+---
+assetId: vlasky-nybt-midtown-theater-maxisnite
+version: "1.0"
+lastModified: "2013-03-20T04:02:42Z"
+url: https://community.simtropolis.com/files/file/28583-nybt-midtown-theater/?do=download&r=113436
