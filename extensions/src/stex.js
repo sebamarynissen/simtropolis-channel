@@ -3,18 +3,17 @@ import setup from './setup.js';
 // # getIdFromUrl(url = window.location.href)
 // Extracts the file id from the Simtropolis urL.
 function getIdFromUrl(url = window.location.href) {
-	return new URL(url)
-		.pathname
-		.replace(/\/$/, '')
+	let { pathname } = new URL(url);
+	if (!pathname.startsWith('/files/file')) return;
+	return pathname.replace(/\/$/, '')
 		.split('/')
 		.reverse()[0]
 		.split('-')[0];
 }
 
 setup(['sc4pac.simtropolis.com']).then(({ plugin, h }) => {
-	let { pathname } = new URL(window.location.href);
-	if (!pathname.startsWith('/files/file')) return;
 	let id = getIdFromUrl();
+	if (!id) return;
 	let packages = plugin.find('stex', id);
 	if (packages.length === 0) return;
 
