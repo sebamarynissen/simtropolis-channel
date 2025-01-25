@@ -895,7 +895,7 @@ describe('The fetch action', function() {
 		});
 		const { run } = this.setup({ uploads: [upload] });
 		const { result } = await run({ id: upload.id });
-		expect(result.metadata[0].name).to.equal('jast-o-conner-and-cremin');
+		expect(result.metadata[0].name).to.equal('jast-oconner-and-cremin');
 
 	});
 
