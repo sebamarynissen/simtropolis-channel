@@ -58,7 +58,6 @@ class Plugin {
 	channels = [];
 	cacheMinutes = 30;
 	index = {};
-	server = localStorage['sc4pac:server'] || 'http://localhost:51515';
 
 	// ## constructor(opts)
 	constructor(opts) {

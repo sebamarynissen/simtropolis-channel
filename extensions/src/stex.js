@@ -11,11 +11,26 @@ function getIdFromUrl(url = window.location.href) {
 		.split('-')[0];
 }
 
-setup(['sc4pac.simtropolis.com']).then(({ plugin, h }) => {
+const channel = 'sc4pac.simtropolis.com';
+setup([channel]).then(({ plugin, h }) => {
 	let id = getIdFromUrl();
 	if (!id) return;
 	let packages = plugin.find('stex', id);
 	if (packages.length === 0) return;
+
+	// In case a package is defined multiple times, e.g both in the default and 
+	// stex channel, we prioritize the stex channel because that one might have 
+	// more updated metadata.
+	packages.sort((a, b) => {
+		let ai = a.channelUrl.includes(channel) ? 1 : -1;
+		let bi = b.channelUrl.includes(channel) ? 1 : -1;
+		return ai-bi;
+	});
+	let map = new Map();
+	for (let pkg of packages) {
+		map.set(pkg.id, pkg);
+	}
+	packages = [...map.values()];
 
 	// Add the necessary css as well.
 	let style = h('style');
