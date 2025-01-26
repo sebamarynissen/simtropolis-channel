@@ -1,0 +1,60 @@
+group: pclark06
+name: wendys
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: Wendy's
+  description: |-
+    Wendy's. This is based on their more recent architecture with the logo they introduced in 2012.  
+      
+    Included is a 3x4 growable lot and a 4x4 ploppable lot, as well. The sign for this is in my Mega Prop Pack 1.
+
+    Inspiration comes from [this model from CGTrader](https://www.cgtrader.com/3d-models/exterior/exterior-public/wendys-restaurant).
+
+    Dependencies
+
+    -   [LBT MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+    -   [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC MEGA Props JES Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+    -   [PC Mega Props 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+    -   [R](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)[R MEGA Prop Pack Vol. 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC \- VIP Girafe Trees/Shrubs
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/33056-pc-wendys/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d42c915c8d92_Shoemakersville-May.30341564550671.png.e4931b5a2b232c5c4882a57248e20b41.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:beeches
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+  - pclark06:mega-props-vol1
+  - pclark06:mega-props-vol2
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-wendys
+
+---
+assetId: pclark06-wendys
+version: "1.0.1"
+lastModified: "2019-08-02T00:14:00Z"
+url: https://community.simtropolis.com/files/file/33056-pc-wendys/?do=download&r=176981

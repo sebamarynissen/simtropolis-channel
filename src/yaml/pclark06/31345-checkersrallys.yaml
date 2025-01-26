@@ -1,0 +1,43 @@
+group: pclark06
+name: checkersrallys
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Checker's/Rally's
+  description: |-
+    A growable Checker's/Rally's for your cities, known for double drive-thru restaurants in 28 states around the US. This is a stage 1 commercial service with 46 low-wealth jobs on a 2x3 lot that grows on right corners. No landmark version, yet (still learning how to do that).  
+      
+    This will be my only building made on gmax, as I will be doing my retail buildings on 3dsmax.  
+      
+    Dependencies (that I know for sure of)  
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)  
+    [LBT Mega Prop Pack](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)  
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [nos.17 Essentials](https://community.simtropolis.com/files/file/30114-nos17-essentials/)
+
+    Like every file, extract to your Plugins folder. If you want to plop this file, feel free to use the LotPlop function from [Buggi's Extra Cheats Plugin](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/).
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/31345-checkersrallys/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/5817d7f362593_NewPearl-Feb.8041477953580.png.7c81054dad01d776a18da30b557477fb.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/5817d7fa0c61f_NewPearl-Feb.17041477953609.png.d8e71e0406e221043fbba9e0e97af7d4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/5817d806e1a86_Dart-Aug.81181477956456.png.d132a565d8578315c2fcfd6e06bd9177.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - lbt:mega-prop-pack-vol01
+  - nos17:essentials
+  - peg:mtp-super-pack
+  - rdg:prop-pack-1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-checkersrallys
+
+---
+assetId: pclark06-checkersrallys
+version: "1.0"
+lastModified: "2016-10-31T23:54:31Z"
+url: https://community.simtropolis.com/files/file/31345-checkersrallys/?do=download&r=163625
