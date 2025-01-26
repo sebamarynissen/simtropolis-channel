@@ -23,10 +23,6 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://community.simtropolis.com/files/file/*"],
-      "js": ["stex.js"]
-    },
-    {
       "matches": ["https://community.simtropolis.com/*"],
       "js": ["copy.js"]
     }
