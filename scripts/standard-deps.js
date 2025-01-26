@@ -1,4 +1,5 @@
 // # standard-deps.js
+const env = process.env.STANDARD_DEPENDENCIES ?? '';
 export default [
 	'memo:essential-fixes',
 	'memo:transparent-texture-fix-dll',
@@ -6,4 +7,5 @@ export default [
 	'peg:oops-mod',
 	'simmaster07:sc4fix',
 	'simmaster07:extra-cheats-dll',
+	...env.split(','),
 ];
