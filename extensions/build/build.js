@@ -1,6 +1,7 @@
 // # build.js
 import path from 'node:path';
 import fs from 'node:fs';
+import cp from 'node:child_process';
 import { createRequire } from 'node:module';
 import * as esbuild from 'esbuild';
 import { Glob } from 'glob';
@@ -76,3 +77,11 @@ await esbuild.build({
 	outfile: path.join(outDir, 'scripts/stex.js'),
 	minify: true,
 });
+
+// Pack up as .zip.
+for (let browser of Object.keys(config)) {
+	cp.execSync(`7z a ../${browser}.zip *`, {
+		cwd: path.join(outDir, browser),
+		stdio: 'inherit',
+	});
+}
