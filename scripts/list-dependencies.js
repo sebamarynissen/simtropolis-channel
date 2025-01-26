@@ -132,7 +132,7 @@ class DependencyLister {
 			html += `<div style="padding-bottom: 16px;"><a href="${websites[0]}">${websites[0]}</a></div>`;
 		}
 		if (pkg.info.images) {
-			html += `<img src="${pkg.info.images[0]}" style="width: 256px; height: 256px; object-fit: cover">`;
+			html += `<img src="${pkg.info.images[0]}" style="width: 256px; height: 256px; object-fit: cover" loading="lazy">`;
 		}
 		let common = new Set(
 			pkg.variants
