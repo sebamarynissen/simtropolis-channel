@@ -10,7 +10,6 @@ const srcDir = path.resolve(import.meta.dirname, '../src');
 const outDir = path.resolve(import.meta.dirname, '../dist');
 
 const files = [
-	'stex.js',
 	'background.js',
 	'copy.js',
 ];
@@ -39,7 +38,7 @@ try {
 } catch {}
 
 for (let [browser, options] of Object.entries(config)) {
-	let outDir = path.resolve(import.meta.dirname, '../dist', browser);
+	let outDir = path.resolve(import.meta.dirname, '../../dist/extensions', browser);
 	let { files } = options;
 	for (let file of files) {
 		await esbuild.build({
