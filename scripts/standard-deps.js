@@ -7,5 +7,5 @@ export default [
 	'peg:oops-mod',
 	'simmaster07:sc4fix',
 	'simmaster07:extra-cheats-dll',
-	...env.split(','),
+	...env.split(',').map(x => x.trim()).filter(Boolean),
 ];
