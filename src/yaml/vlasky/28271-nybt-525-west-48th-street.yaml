@@ -1,4 +1,4 @@
-group: nybt
+group: vlasky
 name: 525-west-48th-street
 version: "1.0"
 subfolder: 400-industrial
@@ -39,7 +39,6 @@ dependencies:
   - nybt:essentials
 
 
-# Note the mispellings of `Qudruple` is intentional; it's how the folder is named
 variants:
 - variant: { nightmode: standard, IRM: "no", toroca:industry-quadrupler:capacity: "standard" }
   assets:
@@ -52,7 +51,7 @@ variants:
     - assetId: vlasky-nybt-525-west-48th-street-maxisnite
       include:
         - "/MaxisNite/"
-        - "/Regular_Zoning/Qudruple lot/"
+        - "/Regular_Zoning/Qua?druple lot/"
 - variant: { nightmode: dark, IRM: "no", toroca:industry-quadrupler:capacity: "standard" }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
@@ -66,7 +65,7 @@ variants:
     - assetId: vlasky-nybt-525-west-48th-street-darknite
       include:
         - "/DarkNite/"
-        - "/Regular_Zoning/Qudruple lot/"
+        - "/Regular_Zoning/Qua?druple lot/"
 # IRM = yes
 - variant: { nightmode: standard, IRM: "yes", toroca:industry-quadrupler:capacity: "standard" }
   assets:
@@ -79,7 +78,7 @@ variants:
   - assetId: vlasky-nybt-525-west-48th-street-maxisnite
     include:
       - "/MaxisNite/"
-      - "/Industrial Revolution Mod_Zoning/Qudruple lot/"
+      - "/Industrial Revolution Mod_Zoning/Qua?druple lot/"
 - variant: { nightmode: dark, IRM: "yes", toroca:industry-quadrupler:capacity: "standard" }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
@@ -93,7 +92,7 @@ variants:
     - assetId: vlasky-nybt-525-west-48th-street-darknite
       include:
         - "/DarkNite/"
-        - "/Industrial Revolution Mod_Zoning/Qudruple lot/"
+        - "/Industrial Revolution Mod_Zoning/Qua?druple lot/"
 
 ---
 assetId: vlasky-nybt-525-west-48th-street-darknite
