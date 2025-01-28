@@ -220,6 +220,9 @@ export default async function handleUpload(json, opts = {}) {
 		branchId: String(json.id),
 		additions: [relativePath],
 		githubUsername,
+		message: {
+			to: json.author,
+		},
 		...errors.length > 0 && { errors },
 	};
 

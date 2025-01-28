@@ -1,0 +1,81 @@
+group: pclark06
+name: australasian-petrol-stations-2
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: Australasian Petrol Stations 2
+  description: |-
+    Seven more petrol/gas stations of brands from mostly Asia and Oceania. For many countries, their most recognizable retailer is their petroleum company due to the way the energy-dependent global economy is.  
+      
+    Z Energy (New Zealand): Took over the Shell stations in 2011 at New Zealand and has quite the visually appealing building with an orange/yellow gradient. Acquired by Ampol in 2021 but plans are to keep the branding separate from Ampol.  
+      
+    PTT (Thailand) - Thailand's national oil company, and also seen in the Philippines, Cambodia, and Laos.  In Thailand, their gas stations tend to be paired with shopping centers so I reflected this onto this building, [similar to this set by NKZ for Cities Skylines](https://steamcommunity.com/workshop/filedetails/?id=1458995358). PTT is getting away from the 7-Eleven branding for their mini marts in favor of their house brand, Jiffy, so this has a Jiffy. Along with that is a Cafe Amazon, which is the sixth largest coffeehouse worldwide, a Texas Chicken (Church's Chicken overseas operations), a Black Canyon Thai Restaurant, and even a 71 Export clothing store.  
+      
+    Pertamina (Indonesia) - Another government-owned oil company, but from Indonesia. This is a standard issue Pertamina station with a Bright Market.
+
+    Q8 (Kuwait) - I really enjoyed the building pairing/visual appeal with the petrol canopy, which is a small-town market called "Beggar's Market" based on the Plaid Pantry I did a while ago. Other than the Middle East, they also have a foothold in Scandinavia.
+
+    Idemitsu - Second largest retailer of oil behind Eneos in Japan. Due to the popularity of convenience stores in Japan, gas stations there tend to just be smaller-scale buildings with repair shops, and maybe they sell a few convenience items. There is a [good Eneos over at Moonlinght's SC4 blog](https://onedrive.live.com/?cid=FA15FCE84D64004A&id=FA15FCE84D64004A%21237) if you want one to pair them with these.  
+      
+    Cosmo -  Cosmo Oil is the third largest retailer of oil in Japan. Also know for their appealing purple and teal color scheme.  
+      
+    Jomo - Eneos and Jomo merged in the 2010s, so there are few instances of these now as many have been converted to Eneos. But they are preserved here. Jomo's branding was short for "JOy of MOtoring."   
+      
+    Growable only. CS$$ for Pertamina, PTT, and Z Energy, CS$ for the others. I may make plop versions in the future but would like to reduce clutter in the landmarks menu. The BuildingPlop or LotPlop cheats are useful for this though.
+
+    Dependencies
+
+    -   [PC Mega Prop Pack 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+    -   [PC Mega Prop Pack 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+    -   [PC Mega Prop Pack 3](https://community.simtropolis.com/files/file/34787-pc-mega-props-3/) 1.0.1
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   [RR Mega Prop Pack 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [RR Mega Prop Pack 2](https://community.simtropolis.com/files/file/32473-rr-mega-prop-pack-vol-2/)
+    -   BSC \- VIP Girafe Trees/Shrubs
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+        -   [Birch Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/34825-pc-australasian-petrol-stations-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/jcosmo1.png.fb979c62883a6ab0df09c440b5f2f582.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/perta.png.13319f047d644950d4f9acbe11c59401.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/ptt1.png.30dab609cb4821cd796b935eea6b2181.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/z1.png.61dfeab5c50e1e4a67255e6bdb7cca0a.png
+dependencies:
+  - bsc:mega-props-jbsimio-vol03
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - nos17:essentials
+  - pclark06:grab-bag
+  - pclark06:mega-props-vol1
+  - pclark06:mega-props-vol2
+  - pclark06:mega-props-vol3
+  - rdg:prop-pack-1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - simmer2:mega-prop-pack-vol1
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-australasian-petrol-stations-2
+
+---
+assetId: pclark06-australasian-petrol-stations-2
+version: "1.0.1"
+lastModified: "2022-01-30T04:12:28Z"
+url: https://community.simtropolis.com/files/file/34825-pc-australasian-petrol-stations-2/?do=download&r=191283

@@ -1,0 +1,58 @@
+group: pclark06
+name: holiday-inn
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Holiday Inn
+  description: |-
+    Holiday Inn.  
+      
+    Inspiration comes from [this model from CGTrader](https://www.cgtrader.com/3d-models/exterior/exterior-public/commercial-building-014-holiday-inn-hotel) but with the interior detail, textures, window HVAC, roof junk all different. I used the model as a base to implement into the game.
+
+    Comes with growable and ploppable lots.  
+      
+    Dependencies
+
+    -   [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [PC Mega Props 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+    -   [PC Mega Props 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+    -   [R](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)[R MEGA Prop Pack Vol. 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC \- VIP Girafe Trees/Shrubs
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/33080-pc-holiday-inn/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d50d1a833188_CatsCorner-Jul.25191565575461.png.0bd0d578081f956af817a595952e6914.png
+dependencies:
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:rowan-trees
+  - lbt:mega-prop-pack-vol01
+  - pclark06:mega-props-vol1
+  - pclark06:mega-props-vol2
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-holiday-inn
+
+---
+assetId: pclark06-holiday-inn
+version: "2.0"
+lastModified: "2020-04-03T17:25:24Z"
+url: https://community.simtropolis.com/files/file/33080-pc-holiday-inn/?do=download&r=180501

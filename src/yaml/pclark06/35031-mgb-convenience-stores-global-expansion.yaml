@@ -1,0 +1,185 @@
+# group: pclark06
+# name: mgb-convenience-stores-global-expansion
+# version: "1.0.0"
+# subfolder: 300-commercial
+# info:
+#   summary: MGB Convenience Stores Global Expansion
+#   description: |-
+#     **This is not an April Fool's joke.** I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)'s model and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the [Extra Cheats DLL](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/). Also many of the gas canopies used are by [@RRetail](https://community.simtropolis.com/profile/744613-rretail/) and were of great help for this project so special thanks to him for making them!
+
+#     **UK**
+
+#     ASDA petrol  
+#     B&M
+
+#     EuroGarages/Shell
+
+#     Iceland  
+#     Morning, Noon, and Night *(taken over by Scotmid in the mid-2000s)*
+
+#     Poundland
+
+#     Poundstretcher
+
+#     Scotmid
+
+     
+
+#     **Benelux**
+
+#     Avia
+
+#     Delhaize/Q8
+
+#     Jumbo
+
+#     Plus  
+     
+
+#     **Canada**
+
+#     Bulk Barn
+
+#     Lawton Drugs
+
+#     Mac's/Circle K pumps
+
+#     Needs Convenience/Shell  
+     
+
+#     **Italy**
+
+#     Conad
+
+#     CRAI
+
+#     Eurospin  
+#     Famila (forgot to add this so it's in zip file now)
+
+#     IP petrol station  
+     
+
+#     **Iberia (Spain/Portugal)**
+
+#     Galp/Tangerina
+
+#     Continente
+
+#     Froiz
+
+#     Dia
+
+#     Eroski
+
+#     Repsol/Repshop
+
+#     Cepsa/Depaso
+
+#     Minipreco  
+     
+
+#     **Scandinavia (Nor/Icl/Swe/Den)**
+
+#     Rema 1000 (DEN/NOR)
+
+#     Pressbryan (SWE)
+
+#     Preem (SWE)
+
+#     Bonus (ICL)
+
+#     Kiwi (DEN/NOR)
+
+#     Handlarn (SWE)
+
+#     Narvesen (NOR)
+
+#     Bunnpris (NOR)
+
+#     Joker (NOR)
+
+#     Olis (ICL)
+
+#     N1/Nesti (ICL)
+
+#     Willys (SWE)  
+     
+
+#     **Caribbean - mostly Puerto Rican brands**
+
+#     Amigo 
+
+#     Pueblo
+
+#     Econo
+
+#     Puma/Super7  
+     
+
+#     **Asia-Australia**
+
+#     CU (Korea)
+
+#     Cheers/Esso (Singapore)
+
+#     FairpriceXpress/Esso (Singapore)
+
+#     Seiyu (Japan)
+
+#     NightOwl (AU)
+
+#     **Dependencies**
+
+#     -   [MGB Convenience Stores and any dependencies with that](https://community.simtropolis.com/files/file/31244-mgb-convenience-store/)
+#     -   [BSC - VIP Girafe Carpack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2821)
+#     -   [PC Mega Prop Pack 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+#     -   [PC Mega Prop Pack 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+#     -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+#     -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+#     -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+#     -   [RR Mega Prop Pack 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+#     -   [RR Mega Prop Pack 2](https://community.simtropolis.com/files/file/32473-rr-mega-prop-pack-vol-2/)
+#     -   [RR Mega Prop Pack 3](https://community.simtropolis.com/files/file/34747-rr-mega-prop-pack-vol-3/) (additional props needed for Esso and Shell canopies)
+#     -   BSC \- VIP Girafe Trees/Shrubs
+#         -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+#         -   [Birch Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+#         -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+#         -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+#         -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+#         -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+#         -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+#         -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+#   author: pclark06
+#   website: https://community.simtropolis.com/files/file/35031-pc-mgb-convenience-stores-global-expansion/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246f7ff89a1e_Oolong-Dec.1001647306758.png.6fdb9097e8621e026883e06d89c9084e.png
+#     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246f801e502b_Gurneysville-Dec.22011648782916.png.6f192e71aea3876ebfb705cb8a684a73.png
+#     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246f803e6bc5_Gurneysville-Dec.22011648782785.png.74ac21b57a694a8a61580862d263afc5.png
+#     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246f80640ec2_NewLeavittown-Dec.31001647749901.png.52af38b72c9f2bb192882c73aff215d2.png
+# dependencies:
+#   - '"[mgb convenience stores and any dependencies with that](https://community.simtropolis.com/files/file/31244-mgb-convenience-store/)"'
+#   - bsc:vip-girafe-carpack-vol01-vol02
+#   - girafe:beeches
+#   - girafe:birches
+#   - girafe:feather-grass
+#   - girafe:hedges
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:poplars
+#   - girafe:rowan-trees
+#   - pclark06:mega-props-vol1
+#   - pclark06:mega-props-vol2
+#   - rretail:mega-prop-pack-vol1
+#   - rretail:mega-prop-pack-vol2
+#   - rretail:mega-prop-pack-vol3
+#   - shk:parking-pack
+#   - supershk:fa3-parking-textures
+#   - supershk:mega-parking-textures
+# assets:
+#   - assetId: pclark06-mgb-convenience-stores-global-expansion
+
+# ---
+# assetId: pclark06-mgb-convenience-stores-global-expansion
+# version: "1.0.0"
+# lastModified: "2022-04-02T06:20:35Z"
+# url: https://community.simtropolis.com/files/file/35031-pc-mgb-convenience-stores-global-expansion/?do=download&r=192707

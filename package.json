@@ -18,6 +18,8 @@
   "scripts": {
     "add": "node --env-file=.env scripts/manual-add.js",
     "build": "sc4pac channel build -o dist/channel src/yaml",
+    "build:extensions": "node extensions/build/build.js",
+    "pack:extensions": "cd extensions/dist/chrome && 7z a ../chrome.zip * && cd ../firefox && 7z a ../firefox.zip *",
     "sc4pac": "node --env-file=.env scripts/sc4pac.js",
     "prune": "node --env-file=.env scripts/prune.js",
     "symlink": "node --env-file=.env scripts/symlink.js",
@@ -41,7 +43,9 @@
     "@whisthub/eslint-config": "^3.1.0",
     "chai": "^5.1.2",
     "commander": "^12.1.0",
+    "esbuild": "^0.24.2",
     "eslint": "^9.17.0",
+    "glob": "^11.0.0",
     "human-interval": "^2.0.1",
     "memfs": "^4.15.0",
     "minimatch": "^10.0.1",

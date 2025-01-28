@@ -1,0 +1,52 @@
+group: pclark06
+name: bank-of-the-west
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bank of the West
+  description: |-
+    Bank of the West is a regional financial services company, headquartered in San Francisco, California. It has more than 600 branches and offices in the Midwest and Western United States. It is a subsidiary of French bank BNP Paribas. This is somewhat partially my own design, and partially based off of one in Stockton, California. CO$$ Stage 1 growable.  
+      
+    Thanks to [@RRetail](https://community.simtropolis.com/profile/744613-rretail/) for letting me use the PNC lot for this building. We may come back to it later to see if it needs a different lot.  
+    Dependencies:
+
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC MEGA Props MJB Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   BSC \- VIP Girafe Trees/Shrubs
+        -   [Ash Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/32504-bank-of-the-west/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9db86848345_Programmia-Dec.201121537056764.png.10d6cf5e9440e2a9d29114c2019355e0.png
+dependencies:
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-bank-of-the-west
+
+---
+assetId: pclark06-bank-of-the-west
+version: "1.0"
+lastModified: "2018-09-16T01:59:32Z"
+url: https://community.simtropolis.com/files/file/32504-bank-of-the-west/?do=download&r=172843

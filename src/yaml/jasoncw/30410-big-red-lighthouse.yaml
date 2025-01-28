@@ -1,6 +1,6 @@
 group: jasoncw
 name: big-red-lighthouse
-version: "1.0"
+version: "1.0-1"
 subfolder: 360-landmark
 info:
   summary: Big Red Lighthouse
@@ -39,20 +39,20 @@ info:
 dependencies:
   - mipro:essentials
 variants:
-  - variant: { nightmode: standard, resolution: sd }
+  - variant: { nightmode: standard, jasoncw:big-red-lighthouse:resolution: sd }
     assets:
       - assetId: jasoncw-big-red-lighthouse-maxisnite
       - assetId: jasoncw-big-red-lighthouse-props
-  - variant: { nightmode: standard, resolution: hd }
+  - variant: { nightmode: standard, jasoncw:big-red-lighthouse:resolution: hd }
     assets:
       - assetId: jasoncw-big-red-lighthouse-hd-maxisnite
       - assetId: jasoncw-big-red-lighthouse-props
-  - variant: { nightmode: dark, resolution: sd }
+  - variant: { nightmode: dark, jasoncw:big-red-lighthouse:resolution: sd }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-big-red-lighthouse-darknite
       - assetId: jasoncw-big-red-lighthouse-props
-  - variant: { nightmode: dark, resolution: hd }
+  - variant: { nightmode: dark, jasoncw:big-red-lighthouse:resolution: hd }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-big-red-lighthouse-hd-darknite
@@ -60,30 +60,30 @@ variants:
 
 ---
 assetId: jasoncw-big-red-lighthouse-maxisnite
-version: "1.0"
+version: "1.0-1"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153138
 
 ---
 assetId: jasoncw-big-red-lighthouse-darknite
-version: "1.0"
+version: "1.0-1"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153139
 
 ---
 assetId: jasoncw-big-red-lighthouse-hd-maxisnite
-version: "1.0"
+version: "1.0-1"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153140
 
 ---
 assetId: jasoncw-big-red-lighthouse-hd-darknite
-version: "1.0"
+version: "1.0-1"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153141
 
 ---
 assetId: jasoncw-big-red-lighthouse-props
-version: "1.0"
+version: "1.0-1"
 lastModified: "2015-04-06T03:23:40Z"
 url: https://community.simtropolis.com/files/file/30410-big-red-lighthouse/?do=download&r=153142
