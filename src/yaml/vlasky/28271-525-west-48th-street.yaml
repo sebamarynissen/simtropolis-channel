@@ -1,0 +1,106 @@
+group: vlasky
+name: 525-west-48th-street
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: NYBT 525 West 48th Street
+  description: |-
+    **NYBT** **525 West 48th Street**
+
+    This is a small industrial/manufacturing building from New York's neighborhood Hell's Kitchen.
+
+    **Desc****:** Buildings is on 1x2 lot offering 18 jobs for regular and 72 jobs for quadruple version.
+
+    Modding has been done by **anotn**
+
+    **IMPORTANT!!**
+
+    Installation: Extract downloaded file. Depending on whether you use T Wrecks' [Industrial Revolution Mod](https://community.simtropolis.com/files/file/28268-industrial-revolution-mod-base-pack-maxis-lots/) or not either delete **Industrial Revolution Mod\_Zoning** or **Regular\_Zoning** folder**.** After that enter the folder you've left and choose between **Quadruple Lot** and **Regular Lot** folders and delete the one you don't want. After that just place the **NYBT** **525 W 48th Street** folder into your Plugins folder.
+
+    If you choose files from the **Industrial Revolution Mod\_Zoning** folder this building will grow only on medium density (industrial) zones!!
+
+    **Dependencies:**
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) (for DarkNite version only!)
+
+    [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    Thanks to a very special person who pushed me to learn new things and finish my projects. Thank you anotn and Aaron Graham for your support and everyone in my thread who helped me with your comments.
+
+    Visit [Vlasky's Hell's Kitchen](https://community.simtropolis.com/topic/41523-vlaskys-hells-kitchen/) for news and support.
+  author: Vlasky, anotn
+  website: https://community.simtropolis.com/files/file/28271-nybt-525-west-48th-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/22805d2e50d28d5df820ca80a81350ae-nybt-525-w-48th-street_icon.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/1e0749afdcf3b52b4bc9fc5663906dfc-nybt-525-w-48th-street_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/c79bdf204e1008629b067d755e273436-nybt-525-w-48th-street_dn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/0898d1382ac6eece3d666dc2059fdfc2-nybt-525-w-48th-street_mn.jpg
+dependencies:
+  - nybt:essentials
+
+variants:
+- variant: { nightmode: standard, IRM: "no", toroca:industry-quadrupler:capacity: "standard" }
+  assets:
+    - assetId: vlasky-nybt-525-west-48th-street-maxisnite
+      include:
+        - "/MaxisNite/"
+        - "/Regular_Zoning/Regular lot/"
+- variant: { nightmode: standard, IRM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+  assets:
+    - assetId: vlasky-nybt-525-west-48th-street-maxisnite
+      include:
+        - "/MaxisNite/"
+        - "/Regular_Zoning/Qua?druple lot/"
+- variant: { nightmode: dark, IRM: "no", toroca:industry-quadrupler:capacity: "standard" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+    - assetId: vlasky-nybt-525-west-48th-street-darknite
+      include:
+        - "/DarkNite/"
+        - "/Regular_Zoning/Regular lot/"
+- variant: { nightmode: dark, IRM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+    - assetId: vlasky-nybt-525-west-48th-street-darknite
+      include:
+        - "/DarkNite/"
+        - "/Regular_Zoning/Qua?druple lot/"
+# IRM = yes
+- variant: { nightmode: standard, IRM: "yes", toroca:industry-quadrupler:capacity: "standard" }
+  assets:
+    - assetId: vlasky-nybt-525-west-48th-street-maxisnite
+      include:
+        - "/MaxisNite/"
+        - "/Industrial Revolution Mod_Zoning/Regular lot/"
+- variant: { nightmode: standard, IRM: "yes", toroca:industry-quadrupler:capacity: "quadrupled" }
+  assets:
+  - assetId: vlasky-nybt-525-west-48th-street-maxisnite
+    include:
+      - "/MaxisNite/"
+      - "/Industrial Revolution Mod_Zoning/Qua?druple lot/"
+- variant: { nightmode: dark, IRM: "yes", toroca:industry-quadrupler:capacity: "standard" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+    - assetId: vlasky-nybt-525-west-48th-street-darknite
+      include:
+        - "/DarkNite/"
+        - "/Industrial Revolution Mod_Zoning/Regular lot/"
+- variant: { nightmode: dark, IRM: "yes", toroca:industry-quadrupler:capacity: "quadrupled" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+    - assetId: vlasky-nybt-525-west-48th-street-darknite
+      include:
+        - "/DarkNite/"
+        - "/Industrial Revolution Mod_Zoning/Qua?druple lot/"
+
+---
+assetId: vlasky-nybt-525-west-48th-street-darknite
+version: "1.0"
+lastModified: "2012-12-05T09:39:15Z"
+url: https://community.simtropolis.com/files/file/28271-nybt-525-west-48th-street/?do=download&r=109366
+
+---
+assetId: vlasky-nybt-525-west-48th-street-maxisnite
+version: "1.0"
+lastModified: "2012-12-05T09:39:15Z"
+url: https://community.simtropolis.com/files/file/28271-nybt-525-west-48th-street/?do=download&r=109367
