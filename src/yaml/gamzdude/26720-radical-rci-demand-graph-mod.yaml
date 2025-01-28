@@ -1,0 +1,47 @@
+group: gamzdude
+name: radical-rci-demand-mod
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: Radical RCI demand mod
+  description: |-
+    Most of you may have or not have remembered Radical One's super demand mod.
+
+    Well this one is more powerful and unlike the other one this one is compatible with the CAM.
+
+    In addition I have included a graph mod that will increase the RCI demand plus bar to 65,000 so now you can have/grow stage 15 CAM. Or stage 8 SimCity 4 or Rush Hour buildings exceeding 60,000 pretty easy if there is ever any that is.
+
+    It is very important to know that there are 2 files in the zip. The first file will max out all RCI demand types such as R$ R$$ R$$, CS$ CS$$ CS$$$ CO$$ CO$$$, I-AG I-ID I-IM I-IHT to 65,000 now just like the other one demand will always stay the same no mater what you do. Like let say you wanted to raise taxes to 20% to make a huge profit will demand will still be maxed out. ![:yes:](https://community.simtropolis.com/assets/emoticons/LlamaYes.gif)
+
+    Be careful that file depends on the graph mod I made and will not work with out it. The 2nd file will increase the RCI demand range to 65,000 you may use that file any time you want or choose to use it. Like most demand mods the one in that first file is 100% radical tested no crash to desktops or bugs.
+
+    Just put the 2nd file or both files in your plugins folder and enjoy. ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)![:ohyes:](https://community.simtropolis.com/assets/emoticons/LlamaOhYes.gif)
+  author: gamzdude
+  website: https://community.simtropolis.com/files/file/26720-radical-rci-demandgraph-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/61fa0765ca083_RadicalRCIGraphMod-v1.1.jpg.ca2a6cbd0dd79b15c02cf636395bf55e.jpg
+dependencies:
+  - gamzdude:radical-rci-graph-mod        
+assets:
+  - assetId: gamzdude-radical-rci-demand-graph-mod
+    include:
+      - Demand Maxer Graph Mod - v1.1.dat
+
+---
+group: gamzdude
+name: radical-rci-graph-mod
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: Radical RCI graph mod
+  website: https://community.simtropolis.com/files/file/26720-radical-rci-demandgraph-mod/
+assets:
+  - assetId: gamzdude-radical-rci-demand-graph-mod
+    include:
+      - RCI Graph Mod - v1.1.dat
+
+---
+assetId: gamzdude-radical-rci-demand-graph-mod
+version: "1.1"
+lastModified: "2022-02-02T04:31:03Z"
+url: https://community.simtropolis.com/files/file/26720-radical-rci-demandgraph-mod/?do=download&r=191306
