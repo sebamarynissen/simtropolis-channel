@@ -222,6 +222,8 @@ variants:
 
 Some older uploads also have the Maxisnite and Darknite models in the same .zip folder, where the user then has to manually remove the folder they don't need.
 While it is strongly discouraged, this approach is supported on the channel too.
+A folder is detected as Maxinite if it contains either `Maxisnite` or `MN` in its name, and as darknite if it contains either `Darknite` or `DN` in its name.
+
 For example, consider the following folder structure of your .zip:
 
 ```
@@ -229,7 +231,7 @@ metadata.yaml
 lot.SC4Desc
 building.SC4Desc
 Model files (KEEP ONLY ONE)/
-  Maxisnite/
+  MN/
     model.SC4Model
   Darknite/
     model.SC4Model
@@ -244,11 +246,11 @@ variants:
         exclude:
           - /Darknite/
   - variant: { nightmode: dark }
-    dependencies: [ ""simfox:day-and-nite-mod" ]
+    dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: author-stex-title
         exclude:
-          - /Darknite/
+          - /MN/
 ```
 
 > [!IMPORTANT]
