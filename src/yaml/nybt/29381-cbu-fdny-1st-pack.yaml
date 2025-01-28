@@ -1,5 +1,5 @@
 group: nybt
-name: nybt-cbu-fdny-1st-pack
+name: cbu-fdny-1st-pack
 version: "1.0"
 subfolder: 610-safety
 info:
@@ -37,20 +37,20 @@ dependencies:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: nybt-nybt-cbu-fdny-1st-pack-maxisnite
+      - assetId: nybt-cbu-fdny-1st-pack-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: nybt-nybt-cbu-fdny-1st-pack-darknite
+      - assetId: nybt-cbu-fdny-1st-pack-darknite
 
 ---
-assetId: nybt-nybt-cbu-fdny-1st-pack-darknite
+assetId: nybt-cbu-fdny-1st-pack-darknite
 version: "1.0"
 lastModified: "2014-03-29T05:04:40Z"
 url: https://community.simtropolis.com/files/file/29381-nybt-cbu-fdny-1st-pack/?do=download&r=128024
 
 ---
-assetId: nybt-nybt-cbu-fdny-1st-pack-maxisnite
+assetId: nybt-cbu-fdny-1st-pack-maxisnite
 version: "1.0"
 lastModified: "2014-03-29T05:04:40Z"
 url: https://community.simtropolis.com/files/file/29381-nybt-cbu-fdny-1st-pack/?do=download&r=128025
