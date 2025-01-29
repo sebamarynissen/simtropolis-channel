@@ -42,7 +42,9 @@ export default async function fetchAll(urls, opts = {}) {
 	let result = [];
 	for (let upload of json) {
 		let cleaned = permissions.transform(upload);
-		let metadata = apiToMetaData(cleaned);
+		let metadata = apiToMetaData(cleaned, {
+			darkniteOnly: opts.darkniteOnly,
+		});
 		for (let asset of metadata.assets) {
 			await downloader.handleAsset(asset);
 		}

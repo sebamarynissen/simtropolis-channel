@@ -8,7 +8,7 @@ import { slugify } from './util.js';
 // # apiToMetadata(json)
 // Transforms a single json results from the STEX api to the basic metadata 
 // structure.
-export default function apiToMetadata(json) {
+export default function apiToMetadata(json, opts = {}) {
 	let pkg = {
 		group: slugify(json.group || json.author),
 		name: slugifyTitle(json.title),
@@ -30,7 +30,11 @@ export default function apiToMetadata(json) {
 	// separate loop so that we can find how many buildings there are without 
 	// tags to determine if the assets need to be suffixed with "part-0", 
 	// "part-1" etc.
-	let allTags = json.files.map(file => getFileTags(file));
+	let allTags = json.files.map(file => {
+		let tags = getFileTags(file);
+		if (opts.darkniteOnly) tags.push('darknite');
+		return [...new Set(tags)];
+	});
 	let tagAmounts = Object.groupBy(allTags, arr => arr.length);
 	let defaultSuffix = (tagAmounts[0] ?? []).length < 2 ?
 		() => '' :
