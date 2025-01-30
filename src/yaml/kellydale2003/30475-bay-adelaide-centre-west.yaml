@@ -39,6 +39,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/516048a36505baa90591dbab375918ab-monthly_11_2013-032b0befa35cdb6f5eaf2d63add6465d-dp.jpg
 assets:
   - assetId: kellydale2003-bay-adelaide-centre-west
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: kellydale2003-bay-adelaide-centre-west

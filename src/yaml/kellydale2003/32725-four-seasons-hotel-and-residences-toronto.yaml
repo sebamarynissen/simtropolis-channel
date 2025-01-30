@@ -38,6 +38,10 @@ info:
     - https://i.imgur.com/QpIsYfv.jpg
 assets:
   - assetId: kellydale2003-four-seasons-hotel-and-residences-toronto
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: kellydale2003-four-seasons-hotel-and-residences-toronto

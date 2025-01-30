@@ -36,6 +36,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/cn2.jpg.47be6d122e20ea0c884919de471b6ce2.jpg
 assets:
   - assetId: kellydale2003-cn-tower-new-years-day-version
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: kellydale2003-cn-tower-new-years-day-version

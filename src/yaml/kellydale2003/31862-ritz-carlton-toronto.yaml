@@ -22,6 +22,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/ritz-carlton-toronto.jpg.0ce9c493747030d7c1f299dd85bc05d6.jpg
 assets:
   - assetId: kellydale2003-ritz-carlton-toronto
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: kellydale2003-ritz-carlton-toronto

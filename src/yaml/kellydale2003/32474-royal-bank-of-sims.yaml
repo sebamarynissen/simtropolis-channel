@@ -24,6 +24,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_09/rbs.jpg.861638b2f4601217df0faf66c0951eaf.jpg
 assets:
   - assetId: kellydale2003-royal-bank-of-sims
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: kellydale2003-royal-bank-of-sims

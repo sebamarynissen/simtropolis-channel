@@ -30,6 +30,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/59753debd548a_St.Paul-Oct.141521500854135.jpg.4c15297f206bc7982ed98aebdec05738.jpg
 assets:
   - assetId: kellydale2003-eighth-avenue-place-east-tower
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: kellydale2003-eighth-avenue-place-east-tower

@@ -29,6 +29,10 @@ info:
     - https://i.imgur.com/PlVgiwy.jpg
 assets:
   - assetId: kellydale2003-royal-bank-plaza-toronto
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: kellydale2003-royal-bank-plaza-toronto
