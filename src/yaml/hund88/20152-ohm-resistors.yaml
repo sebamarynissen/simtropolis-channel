@@ -1,0 +1,56 @@
+group: hund88
+name: ohm-resistors
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Ohm Resistors
+  description: |-
+    This is my first attempt to make a more 'elaborate' building.- (With metally machinery on the side, etc.)
+
+    This high-tec factory makes all types of resistors. From  microscopic, to  room-sized ones.
+
+    Stats:
+
+    \- High-tech industry
+
+    \- needs High density zoning
+
+    \- 129 workers
+
+    \-low pollution
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20152-ohm-resistors/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr3.JPG
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr2.JPG
+dependencies:
+  - hund88:ohm-resistors-model
+assets:
+  - assetId: hund88-ohm-resistors
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: hund88
+name: ohm-resistors-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Industrial manufacturing building"
+  description: |
+    This package contains models and props from `pkg=hund88:ohm-resistors`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20152-ohm-resistors/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr3.JPG
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr2.JPG
+assets:
+  - assetId: hund88-ohm-resistors
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: hund88-ohm-resistors
+version: "1.0"
+lastModified: "2008-07-30T17:07:44Z"
+url: https://community.simtropolis.com/files/file/20152-ohm-resistors/?do=download&r=45325

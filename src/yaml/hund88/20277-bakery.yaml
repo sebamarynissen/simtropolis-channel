@@ -1,0 +1,50 @@
+group: hund88
+name: bakery
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Bakery
+  description: |-
+    Everyone needs the daily bread. This is where they make it.. A bakery is the basic industry for all towns.
+
+    Building stats: 31workers; Middle&Hi density zoning.
+
+    5 Different lots, No dependencies.
+
+    have fun:)
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20277-bakery/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a314321104f2e8ee2ac605c881bc5b2c-Screen1.JPG
+    - https://www.simtropolis.com/objects/screens/0018/a314321104f2e8ee2ac605c881bc5b2c-Screen2.JPG
+dependencies:
+  - hund88:bakery-model
+assets:
+  - assetId: hund88-bakery
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: hund88
+name: bakery-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Industrial manufacturing building"
+  description: |
+    This package contains models and props from `pkg=hund88:bakery`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20277-bakery/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a314321104f2e8ee2ac605c881bc5b2c-Screen1.JPG
+    - https://www.simtropolis.com/objects/screens/0018/a314321104f2e8ee2ac605c881bc5b2c-Screen2.JPG
+assets:
+  - assetId: hund88-bakery
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: hund88-bakery
+version: "1.0"
+lastModified: "2008-08-26T10:30:09Z"
+url: https://community.simtropolis.com/files/file/20277-bakery/?do=download&r=45547

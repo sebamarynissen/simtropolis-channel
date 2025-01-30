@@ -1,0 +1,52 @@
+group: hund88
+name: grain-field
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Grain field
+  description: |-
+    Hello! I made a little something that could perk up your farm fields a bit! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif) I think it looks better, than most grain fields i saw. The prop of plants are broken into many replicas, so that they wont look ugly on steep slopes. Plus, they blend in with each other, and with the environment.
+
+    Whew! talking so much about a lil thing.. ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif) so anyways have fun with it!
+
+    \---------
+
+    Ps.: Very very special thanks to    ***kd5rax*** , i learned a lot
+
+    from his 3d upload!  Thank U! ^^
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/21219-grain-field/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ea9f027ca5605a225eb70c0835266224-Scr2.jpg
+    - https://www.simtropolis.com/objects/screens/0026/ea9f027ca5605a225eb70c0835266224-Scr1.jpg
+dependencies:
+  - hund88:grain-field-model
+assets:
+  - assetId: hund88-grain-field
+    include:
+      - "\\.SC4Lot$"
+
+---
+group: hund88
+name: grain-field-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "A slope-friendly grain prop"
+  description: |
+    This package contains models and props from `pkg=hund88:grain-field`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20152-grain-field/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr3.JPG
+    - https://www.simtropolis.com/objects/screens/0024/da59bef90c5b413a868dc3640014e1fe-Scr2.JPG
+assets:
+  - assetId: hund88-grain-field
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: hund88-grain-field
+version: "1.0"
+lastModified: "2009-03-15T16:01:31Z"
+url: https://community.simtropolis.com/files/file/21219-grain-field/?do=download&r=47181

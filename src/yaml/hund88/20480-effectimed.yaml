@@ -1,0 +1,52 @@
+group: hund88
+name: effectimed
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: EffectiMed
+  description: |-
+    Hi, this is not my newest creation, but, aside from the nightlighting, it's still pretty ok i think. ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    Name: EffectiMed-
+
+    Products: Laboratory accessories & Medical equipments
+
+    Stats:  51workers, 5different lots,  I-Ht,  Grows,
+
+    HighDensity Zoning
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20480-effectimed/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/6003a4f03a9724a819432db2c3135600-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0011/6003a4f03a9724a819432db2c3135600-Scr2.JPG
+dependencies:
+  - hund88:effectimed-model
+assets:
+  - assetId: hund88-effectimed
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: hund88
+name: effectimed-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Industrial manufacturing building"
+  description: |
+    This package contains models and props from `pkg=hund88:effectimed`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20480-effectimed/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/6003a4f03a9724a819432db2c3135600-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0011/6003a4f03a9724a819432db2c3135600-Scr2.JPG
+assets:
+  - assetId: hund88-effectimed
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: hund88-effectimed
+version: "1.0"
+lastModified: "2008-10-02T05:17:22Z"
+url: https://community.simtropolis.com/files/file/20480-effectimed/?do=download&r=45921

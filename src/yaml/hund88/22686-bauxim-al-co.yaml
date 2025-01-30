@@ -1,0 +1,62 @@
+group: hund88
+name: bauxim-al-co
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Bauxim AL +Co.
+  description: |-
+    It's been awhile since my last upload, but this day i was more "industrious" ... ![48.gif](https://www.simtropolis.com/fckEditor/editor/../../forum/i/expressions/48.gif)
+
+    \- Bauxim AL ' is a large aluminum smelting enterprise, supplying other industries with
+
+    aluminum.   The long building contains hundreds of electric smelters, which refines the molten
+
+    "alum earth" trough of electrolysis. In the process, enormous,- 150000 Amperes- of current is used.
+
+    Stats:
+    I-manufacturing
+    Workers: 450
+    3 different lots,  4x5  4x6  5x6
+    Grows.
+    No dependency
+
+    Enjoy! :-)
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/22686-bauxim-al-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/eacda0332069e2b04a5b5e75ca3a5f30-Screenshot3.jpg
+    - https://www.simtropolis.com/objects/screens/0026/eacda0332069e2b04a5b5e75ca3a5f30-Screenshot2.jpg
+dependencies:
+  - hund88:bauxim-al-co-props
+assets:
+  - assetId: hund88-bauxim-al-co
+    include:
+      - "/alu3-0x6534284a-0xf663d343-0x17e5ef74.SC4Desc" #Building exemplar
+      - "\\.SC4Lot$"
+
+---
+group: hund88
+name: bauxim-al-co-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Aluminum smelting & industrial props"
+  description: |
+    This package contains models and props from `pkg=hund88:bauxim-al-co`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/22686-bauxim-al-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/eacda0332069e2b04a5b5e75ca3a5f30-Screenshot3.jpg
+    - https://www.simtropolis.com/objects/screens/0026/eacda0332069e2b04a5b5e75ca3a5f30-Screenshot2.jpg
+assets:
+  - assetId: hund88-bauxim-al-co
+    exclude:
+      - "/alu3-0x6534284a-0xf663d343-0x17e5ef74.SC4Desc" #Building exemplar
+      - "\\.SC4Lot$"
+
+
+---
+assetId: hund88-bauxim-al-co
+version: "1.0"
+lastModified: "2009-10-17T16:37:41Z"
+url: https://community.simtropolis.com/files/file/22686-bauxim-al-co/?do=download&r=49199
