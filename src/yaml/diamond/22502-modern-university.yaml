@@ -1,0 +1,36 @@
+group: diamond
+name: modern-university
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Modern University
+  description: |-
+    **Modern University Lot**
+    I disliked the the maxis university. I wanted a more modern looking one, and so I lotted one. It uses the california plaza model from maxis which fits the bill quite well. You can plop the lot several times next to each other to create a bigger university that looks like it's just one.
+
+    **Dependencies**
+    .: buildings as props ([download it from Screwpile Developements - Maxis Files](https://community.simtropolis.com/sc4-maxis-files/))
+    [Network Addon Mod](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=851)
+
+    **Details**
+    Size: 12x16
+    Plop cost: 140.000
+    bulldoze cost: 14.000
+    montly cost: 3.000
+    student capacity: 20.000
+    no readme.
+  author: Diamond
+  website: https://community.simtropolis.com/files/file/22502-modern-university/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/667cd55cb4d3c0d809afc02fb2686b4d-university.jpg
+    - https://www.simtropolis.com/objects/screens/0012/667cd55cb4d3c0d809afc02fb2686b4d-university2.jpg
+dependencies:
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: diamond-modern-university
+
+---
+assetId: diamond-modern-university
+version: "1.0"
+lastModified: "2009-09-17T07:50:22Z"
+url: https://community.simtropolis.com/files/file/22502-modern-university/?do=download&r=48907

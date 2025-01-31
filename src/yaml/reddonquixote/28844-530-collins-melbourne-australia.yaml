@@ -1,0 +1,121 @@
+group: reddonquixote
+name: 530-collins-melbourne-australia
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 530 Collins, Melbourne, Australia
+  description: |-
+    530 Collins is a 167m, 40 floor office building located on the corner of Collins and King Streets and was completed in 1991.
+
+    It is a Premium Landmark offering a central location halfway between the old Paris End and the new Docklands end of Collins Street.
+    Source: [www.530collinsstreet.com.au](http://www.530collinsstreet.com.au)
+
+    This is my 8th BAT.
+
+    530 Collins is made available in the following versions:
+
+    A ploppable Functional Landmark. Lot size 4x6, High Wealth Commercial Office provides 2000 jobs and costs §110,000 to build.
+
+    A diagonal version Functional Landmark, same specs,  (Prop included)
+
+    A growable version
+
+    All are available in both Darknite and Maxis night versions.
+
+    There are no Prop dependencies, although the Dark Nite version requires [SimFox\_Day\_n\_Nite\_Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    Instructions:
+    Non-diagonal version:
+    Place into your Plug-ins folder-
+    1) Either the "RDQ\_530 CSM\_Darknite Model" or "RDQ\_530 CSM\_Maxis Night model" (Not both)
+    2) The "RDQ\_530 CSM\_Ploppable Lot" and/or "RDQ\_530 CSM\_Growable Lot"
+
+    Diagonal version:
+    Place into your Plug-ins folder-
+    1) Either the "RDQ\_530 CSM\_Darknite Diagonal PROP" or "RDQ\_530 CSM\_Maxis Night Diagonal PROP" (Not both)
+    2) The "RDQ\_530 CSM\_Diagonal Lot"
+
+    Please visit my [Melbourne BAT thread](https://community.simtropolis.com/topic/51762-reddonquixotes-melbourne-bat-thread/) to see my upcoming projects.
+
+    BATs currently in progress are:
+    Flinders Street Station
+    St Paul's Cathedral
+    National Gallery Victoria/ Arts Centre Spire/ Hamer Hall
+    Optus Centre
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/178870afc93793f7d39e66a594616c31-530_collins_street_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/f03c32afda592f11324b9c74f02828e8-530_collins_street_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/2b3f69150c47ae28f9d187c5b6a28420-530_collins_street_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/c33ef13face378fb0c7132f9717ca7e2-530_collins_street_02.jpg
+dependencies:
+  - reddonquixote:530-collins-melbourne-australia-resources
+assets:
+  - assetId: reddonquixote-530-collins-melbourne-australia-ploppable
+  - assetId: reddonquixote-530-collins-melbourne-australia-ploppable-diagonal
+  - assetId: reddonquixote-530-collins-melbourne-australia-growable
+
+---
+group: reddonquixote
+name: 530-collins-melbourne-australia-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: 530 Collins, Melbourne, Australia resources
+  description: |-
+    This package is a resource for `pkg=reddonquixote:530-collins-melbourne-australia`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-530-collins-melbourne-australia-maxisnite
+      - assetId: reddonquixote-530-collins-melbourne-australia-maxisnite-diagonal
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: reddonquixote-530-collins-melbourne-australia-darknite
+      - assetId: reddonquixote-530-collins-melbourne-australia-darknite-diagonal
+
+---
+assetId: reddonquixote-530-collins-melbourne-australia-ploppable
+version: "1.0"
+lastModified: "2013-07-08T09:55:13Z"
+url: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/?do=download&r=117116
+
+---
+assetId: reddonquixote-530-collins-melbourne-australia-maxisnite-diagonal
+version: "1.0"
+lastModified: "2013-07-08T09:55:13Z"
+url: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/?do=download&r=117117
+
+---
+assetId: reddonquixote-530-collins-melbourne-australia-growable
+version: "1.0"
+lastModified: "2013-07-08T09:55:13Z"
+url: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/?do=download&r=117118
+
+---
+assetId: reddonquixote-530-collins-melbourne-australia-ploppable-diagonal
+version: "1.0"
+lastModified: "2013-07-08T09:55:13Z"
+url: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/?do=download&r=117119
+
+---
+assetId: reddonquixote-530-collins-melbourne-australia-darknite
+version: "1.0"
+lastModified: "2013-07-08T09:55:13Z"
+url: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/?do=download&r=117120
+
+---
+assetId: reddonquixote-530-collins-melbourne-australia-maxisnite
+version: "1.0"
+lastModified: "2013-07-08T09:55:13Z"
+url: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/?do=download&r=117121
+
+---
+assetId: reddonquixote-530-collins-melbourne-australia-darknite-diagonal
+version: "1.0"
+lastModified: "2013-07-08T09:55:13Z"
+url: https://community.simtropolis.com/files/file/28844-530-collins-melbourne-australia/?do=download&r=117122
