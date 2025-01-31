@@ -1,0 +1,58 @@
+group: kellydale2003
+name: james-richardson-and-sons-ltd-hq
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: James Richardson & Sons LTD. HQ
+  description: |-
+    ![headerDL.jpg](http://i760.photobucket.com/albums/xx242/umbraroy/headerDL.jpg)
+
+    James Richardson & Sons LTD headquarters is a real life tower located in Winnipeg, Manitoba, Canada! I thought I'd make a tower from my home town! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    **DOWNLOAD: Maxis Night or Dark Night (requires Simfox's Day-n-night mod!)**
+
+    LOT INFORMATION;
+
+    PLOPPABLE; 2,229 jobs ploppable+growable in Medium Wealth Commercial Office (CO$$)
+
+    CREDITS;
+
+    MODELLING: Kellydale2003
+
+    LOT: Kellydale2003
+
+    RENDERING: Kellydale2003
+
+    NIGHT: Kellydale2003
+
+    Special credit to \_marsh\_ for the screenshots! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    ps; to encourage more dark night users, I only included the base flood lights for Dark night! ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    [![sd.gif](http://i760.photobucket.com/albums/xx242/umbraroy/sd.gif)](https://www.simtropolis.com/forum/topic/33505-skyscrapers-galore/)
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/26817-james-richardson-sons-ltd-hq/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/5e8c79e64c3867dd1519fb53cd6bd7c1-teaser.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/17e2303071d387a846b4052d0f3af90d-dn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/8d3b7580fbe54b6c61067c9fbd1dd4f5-2858133175_0f4a662b50.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kellydale2003-james-richardson-and-sons-ltd-hq-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: kellydale2003-james-richardson-and-sons-ltd-hq-darknite
+
+---
+assetId: kellydale2003-james-richardson-and-sons-ltd-hq-darknite
+version: "1.0"
+lastModified: "2011-09-29T03:13:01Z"
+url: https://community.simtropolis.com/files/file/26817-james-richardson-sons-ltd-hq/?do=download&r=92638
+
+---
+assetId: kellydale2003-james-richardson-and-sons-ltd-hq-maxisnite
+version: "1.0"
+lastModified: "2011-09-29T03:13:01Z"
+url: https://community.simtropolis.com/files/file/26817-james-richardson-sons-ltd-hq/?do=download&r=92639

@@ -1,0 +1,71 @@
+group: kellydale2003
+name: centre-place-bank-of-moscow
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Centre Place - Bank of Moscow
+  description: |-
+    Hey everyone!
+
+    This is my fourth upload, my first glass building! Also, this is my first building with rendered flora. Hope it looks good!
+
+    Centre Place by Bank of Moscow was initially a project to test Arch & Design materials in 3dsmax! It eventually turned into a beautiful modern building suited for SimCity 4.
+
+    Centre Place is purely fictional, but the bank name is not. I needed a mix of generic, and realism!
+
+    This is my best thing to say in all my uploads...
+
+    **NO DEPENDENCIES!!** ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)
+
+    Hope you enjoy it!
+
+    Please download either the Maxis night version, or the Dark night version. If you don't have Dark Night installed by Simfox, please download the Maxis night version.
+
+    ![BankofMoscow_Preview.jpg](http://i1094.photobucket.com/albums/i459/KohtemUmbra/BankofMoscow_Preview.jpg)
+
+    , Kellydale2003
+
+    NOTES:
+
+    \- Not slope friendly
+
+    \- Growable version, and ploppable version (both CO$$$) \*Read the "Read Me" file for detailed information
+
+    \- Read me file is .jpg to avoid complications for the .html file versions from my previous uploads (only downside is the Read me is in English ONLY)
+
+    \- Please read the read me before complaining about anything!
+
+    ENJOY!
+
+    ps; I'm Canadian, and Canadian's use "Centre" instead of "Center" eh! Especially since Simtropolis.com is Canadian! :b
+
+    My forum thread where future project and/or improvements on current uploads are developed!
+
+    [![sd.gif](http://i760.photobucket.com/albums/xx242/umbraroy/sd.gif)](https://www.simtropolis.com/forum/topic/33505-skyscrapers-galore/)
+
+    update: 09.11.2023 - the upload has been updated, because the original lots have been causing Immortal Lot bug. The stats slightly changed due to updates in the modding, these stats may differ from the numbers that stated in the readme. **Please use the cleanitol file (find it in the \_Documents folder) to remove the outdated files before you install the update**.  - Tyberius06
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/27269-centre-place-bank-of-moscow/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/46cf08af12d6789ed7ea877f23afcec9-thumbnail2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/5d0e60ddb5e13b3d162c02c0450e77d4-pearson%20peninsula-sep%2023,%20171329066438.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kellydale2003-centre-place-bank-of-moscow-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: kellydale2003-centre-place-bank-of-moscow-darknite
+
+---
+assetId: kellydale2003-centre-place-bank-of-moscow-darknite
+version: "2.0"
+lastModified: "2023-11-09T14:28:13Z"
+url: https://community.simtropolis.com/files/file/27269-centre-place-bank-of-moscow/?do=download&r=198384
+
+---
+assetId: kellydale2003-centre-place-bank-of-moscow-maxisnite
+version: "2.0"
+lastModified: "2023-11-09T14:28:13Z"
+url: https://community.simtropolis.com/files/file/27269-centre-place-bank-of-moscow/?do=download&r=198385

@@ -1,0 +1,81 @@
+group: kellydale2003
+name: vohcem-condominiums
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Vohcem Condominiums
+  description: |-
+    **I Kellydale2003 present to you**
+
+    **the Russian-Canadian-Torontonian**
+
+    **inspired luxury residentials...**
+
+    **Vohcem Condominiums!**
+
+    ![image005_zpse72915d3.jpg](http://i760.photobucket.com/albums/xx242/umbraroy/image005_zpse72915d3.jpg)
+
+    **Vohcem Condominiums on the Lakeshore is a 100% fictional tower inspired by the amazing condos of the South Core of Downtown Toronto located along Lakeshore Boulevard. The tall yet slim structures of Downtown Toronto's South Core house thousands of Toronto residents in their ultra-modern luxury condo suites! The most recent trend in condo markets has been the partial or full rental of the condo suites to local or international hotels... making the Toronto condo market boom even more and inspire more projects like this!**
+
+    **When I (Kellydale2003) first thought of building a tower like this I just started with a square, bent the edges, and rotated it slightly to break away from the traditional orientation of buildings in SimCity 4! The treated and inspired glass taught me an important lesson; Focal points can be made from the busy reflective windows. Therefore the yellow, blue, and grey facade was designed as a focal point for the whole tower... giving more culture and architectural interest to the tower.**
+
+    **Soaring at a humble 36 stories of 175.4m (120% for SimCity 4) it fits in a comfortable 2x3 (32x48m) lot.**
+
+    **The name "Vohcem" comes from the Russian word for the number "eight".**
+
+    ![untitled2_zpsbc71287a.png](http://i760.photobucket.com/albums/xx242/umbraroy/untitled2_zpsbc71287a.png)
+
+    **As my personal policy always abides... NO dependencies! (:**
+
+    **Download the MAXIS NIGHT file if you do not have SimFox's Darknight installed in your plugins!**
+
+    **Download the DARK NIGHT file if you have Dark Night installed!**
+
+    **For more upcoming projects visit my thread! (:**
+
+    [![sd.gif](http://i760.photobucket.com/albums/xx242/umbraroy/sd.gif)](https://community.simtropolis.com/topic/33505-skyscrapers-galore/)
+
+    Enjoy!
+
+    **, Kellydale2003**
+
+    **ps; I do know that the phonetic version of 'eight' in Russian is spelled differently! But for anyone who knows Canadians... We like to spell things our own way and is still legally and officially the right way of spelling it! eh! (:**
+
+    **ps2; You're on a Canadian website... So bleh :b you "Grammar-ologists!"**
+
+    \-----------------------------------------------------------------------------------------------------------------------------------------
+
+    **This is from the Ontario Creation Team!**
+
+    **\- Search "*****#OCT*****" to find further creations from us, or click the photo below to**
+
+    **view upcoming projects and discussions! Thank you (:**
+
+    [![1-1_zps0d4f44e0.gif](http://i760.photobucket.com/albums/xx242/umbraroy/1-1_zps0d4f44e0.gif)](https://community.simtropolis.com/topic/53168-ontario-creation-team-oct/)
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/28348-vohcem-condominiums/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/dabf522fb0f739517d059bba34fcf29e-downtown-selkirk-mar-1--1001353804137.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/e315e437ec24d967d9570f999252e030-downtown-selkirk-dec-21--991353803819.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/6ec9385a5b2ce272f54205d28230437a-image004.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/d0ecce2d6e984e11fce88fa712a9ef99-untitled3.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kellydale2003-vohcem-condominiums-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: kellydale2003-vohcem-condominiums-darknite
+
+---
+assetId: kellydale2003-vohcem-condominiums-darknite
+version: "1.2"
+lastModified: "2013-01-03T20:06:36Z"
+url: https://community.simtropolis.com/files/file/28348-vohcem-condominiums/?do=download&r=111517
+
+---
+assetId: kellydale2003-vohcem-condominiums-maxisnite
+version: "1.2"
+lastModified: "2013-01-03T20:06:36Z"
+url: https://community.simtropolis.com/files/file/28348-vohcem-condominiums/?do=download&r=111518
