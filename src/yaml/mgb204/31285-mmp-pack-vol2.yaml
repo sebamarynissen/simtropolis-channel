@@ -1,0 +1,49 @@
+group: mgb204
+name: mmp-pack-vol2
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: MMP Pack Vol2
+  description: |-
+    Girafe made many tree models that either work only as props, or only as MMPs. As such, this pack of MMPs is designed to bolster your MMP menu, with some trees that otherwise could only be used on lots.
+
+    Each of the 7 included MMPs include only single-tree props. Girafe's releases only cover these tree types with tree clusters.
+
+    Contained in the included zip are 3 files containing 7 MMPs as follows (links to dependencies here):
+
+    -   **Maples (Seasonal)**
+          - [Maples (v1)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2614)
+          - [Norway Maples](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2740)
+
+    -   **Misc (Seasonal)**
+          - [Ash](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854)
+          - [Beech](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+          - [Birch](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+          - [Liden](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+
+    -   **Parasol Pines (Evergreen)**
+          - [Parasol Pines](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2758)
+
+    **Note**: Before you think "I have these files", it should be noted, that the tree models for each of the listed dependencies is found in the "LE" dats from Girafe's packages. If you have not installed these exact files, you will get brown boxes.
+
+    Find these items in the same location as the original MMPs. They are marked "singles" and include a brighter blue icon to distinguish them more easily. Note that there are some trees which are duplicates of single trees included with the original MMPs. But in all, this adds over 30 new trees which were previously not MMP-able.
+  author: rsc204
+  website: https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/STEX.jpg.811cca8066e3d60d8076f2d439b4456e.jpg
+dependencies:
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:birches
+  - girafe:lindens
+  - girafe:maples
+  - girafe:norway-maples
+  - girafe:parasol-pines
+assets:
+  - assetId: mgb204-mmp-pack-vol2
+
+---
+assetId: mgb204-mmp-pack-vol2
+version: "1.0"
+lastModified: "2023-04-12T21:26:36Z"
+url: https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=download&r=196921
