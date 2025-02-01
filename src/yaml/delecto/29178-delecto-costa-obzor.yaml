@@ -1,0 +1,129 @@
+group: delecto
+name: costa-obzor
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Delecto Costa Obzor
+  description: |-
+    Delecto & TWrecks are now happy to brings you...
+
+    **COSTA OBZOR**
+
+    BAT design and render by **Delecto**
+
+    Modding and LOTs design by **TWrecks**
+
+    DarkNite & MaxisNite are available, Readme included.
+
+    \=============================================
+
+    **Nine different LOTs are included in this download:**
+
+    **Lot Size:**            4x3, 4x4, 4x5, 5x4, 5x5
+
+    **Tilset:**                 Euro / Medium-density
+
+    **Growing:**            Stage 5
+
+    **Occupants:**        200 R$$ / 400 R$$
+
+    \=============================================
+
+    **Dependencies:**
+
+    \- [Delecto Essentials Files](https://community.simtropolis.com/files/file/29171-delecto-essentials-files/)
+
+    \- [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    \- [BSC Mega Textures Vol.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    \- [BSC Mega Props CP Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    \- [BSC Mega Props SG Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [\- SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    \- [SimFox DarkNite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)  (only if you download the DarkNite version)
+
+    \=============================================
+
+    A special thank you to **T****Wrecks** for your "**Implacable** **Germanic Engineering** **Talent**" on this release. ![:thumb:](https://community.simtropolis.com/assets/emoticons/LlamaThumb.gif)
+
+    Delecto.
+  author: Delecto
+  website: https://community.simtropolis.com/files/file/29178-delecto-costa-obzor/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/7def7809b18a26906af73ded64cb5305-obzor_stex_front.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/39e5013a3babd318305a5e91faee4b89-obzor_stex_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/ed58c399557f626f3d760c9f01136dcf-obzor_stex_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/85bad2e012d2736af852b1a1a49b0f79-obzor_stex_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/3d1997906b1996197d0199f8aef833af-obzor_stex_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/844833384feb3fde5614bb318e0d93f6-obzor_stex_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/fb0132a71723f8ea28b505e5352252a3-obzor_stex_06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/5b28a010897a439f3bf9140ac939fbb6-obzor_stex_07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/1a2a2d3ea087566dc71db1534bf32c0c-obzor_stex_08.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/c1784577ff3d671247c57df2bb2c0a02-obzor_stex_09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/bfe26d8db0bcdba315e876f8828d47c5-obzor-stex-big-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/04fd6c7f59e61aaee7734cce4d7832a0-obzor-stex-big-nite.jpg
+dependencies:
+  - delecto:essentials-files
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - sfbt:essentials
+  - delecto:costa-obzor-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: delecto-costa-obzor-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: delecto-costa-obzor-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: delecto
+name: costa-obzor-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Model for `pkg:delecto:costa-obzor"
+  author: Delecto
+  website: https://community.simtropolis.com/files/file/29178-delecto-costa-obzor/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/7def7809b18a26906af73ded64cb5305-obzor_stex_front.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: delecto-costa-obzor-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: delecto-costa-obzor-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: delecto-costa-obzor-darknite
+version: "1.0"
+lastModified: "2014-01-06T15:26:50Z"
+url: https://community.simtropolis.com/files/file/29178-delecto-costa-obzor/?do=download&r=122463
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: delecto-costa-obzor-maxisnite
+version: "1.0"
+lastModified: "2014-01-06T15:26:50Z"
+url: https://community.simtropolis.com/files/file/29178-delecto-costa-obzor/?do=download&r=122464
+archiveType:
+  format: Clickteam
+  version: "40"

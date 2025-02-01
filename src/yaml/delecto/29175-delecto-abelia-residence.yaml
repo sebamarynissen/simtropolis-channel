@@ -1,0 +1,121 @@
+group: delecto
+name: abelia-residence
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Delecto Abelia Residence
+  description: |-
+    Delecto & TWrecks are happy to brings you...
+
+    **ABELIA RESIDENCE**
+
+    BAT design and render by **Delecto**
+
+    Modding and LOTs design by **TWrecks**
+
+    DarkNite & MaxisNite are available, Readme included.
+
+    \=============================================
+
+    **Four different LOTs are included in this download:**
+
+    **Lot Size:**            3x4, 4x4, 2x4, 4x3
+
+    **Tilset:**                 Euro / Medium-density
+
+    **Growing:**            Stage 5
+
+    **Occupants:**        152 R$$$
+
+    \=============================================
+
+    **Dependencies:**
+
+    \- [Delecto Essentials Files](https://community.simtropolis.com/files/file/29171-delecto-essentials-files/)
+
+    \- [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    \- [BSC Mega Textures Vol.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    \- [BSC Mega Props CP Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    \- [BSC Mega Props SG Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    \- [SimFox DarkNite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)  (only if you download the DarkNite version)
+
+    \=============================================
+
+    Download, install, let grow, enjoy... long life to SimCity4. ![:party:](https://community.simtropolis.com/assets/emoticons/LlamaParty.gif)
+
+    Delecto.
+  author: Delecto
+  website: https://community.simtropolis.com/files/file/29175-delecto-abelia-residence/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/f0faccfdab5eddea7cba5db61fa437f4-abelia-01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/755ef69b6e29517f17627e20c369e9b8-abelia_dn_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/ec7ce0164947001eadfcba66e5c47ad9-abelia_dn_night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/c22143bcd30e6afedcd5488dd6c8aa29-abelia_dn_day2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/4a0123495978337c6ba26c2621b9fa70-abelia_dn_day3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/9f343c27cfa9af88f14c72447acc655f-abelia_dn_day4.jpg
+dependencies:
+  - delecto:essentials-files
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - delecto:abelia-residence-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: delecto-abelia-residence-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: delecto-abelia-residence-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: delecto
+name: abelia-residence-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Model for `pkg:delecto:abelia-residence"
+  author: Delecto
+  website: https://community.simtropolis.com/files/file/29175-delecto-abelia-residence/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/f0faccfdab5eddea7cba5db61fa437f4-abelia-01.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: delecto-abelia-residence-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: delecto-abelia-residence-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: delecto-abelia-residence-darknite
+version: "1.0"
+lastModified: "2014-01-05T11:24:21Z"
+url: https://community.simtropolis.com/files/file/29175-delecto-abelia-residence/?do=download&r=122477
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: delecto-abelia-residence-maxisnite
+version: "1.0"
+lastModified: "2014-01-05T11:24:21Z"
+url: https://community.simtropolis.com/files/file/29175-delecto-abelia-residence/?do=download&r=122478
+archiveType:
+  format: Clickteam
+  version: "40"
+  
