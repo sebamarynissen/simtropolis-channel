@@ -1,0 +1,30 @@
+group: smf-16
+name: static-center-pivot-irrigation-fields
+version: "1.0.0"
+subfolder: 410-agriculture
+info:
+  summary: Static Center Pivot Irrigation Fields
+  description: |-
+    I always liked [@Simmer2](https://community.simtropolis.com/profile/444001-simmer2/)'s [Center Pivot Irrigation Fields](https://community.simtropolis.com/files/file/32701-sm2-center-pivot-irrigation-fields/), but as it uses seasonal props, this means that after you plop it, you have to wait a bit until the field appears. I've also noticed that there are short periods of time where nothing is visible at all. It also has a concrete base texture, which looks rather weird if the field is not being shown. On top of that, it also does not allow for a lot of variation, because all fields will change at the same time.
+
+    I decided to relot this with static props. This means that the field will no longer change with the seasons. Instead it uses a family, so everytime you plop it, you get a different field (out of 4). Together with rotating the lot when plopping it, this results in a lot more variation, which I think looks better. You'll just have to pretend that the fields are now different crops, rather than different seasons.
+
+    The lot has been designed to co-exist with the original Center Pivot Irrigation Fields, so you can use both in your city. It is also [submenu-compatible](https://community.simtropolis.com/files/file/36142-submenus-dll/) and will appear in the RCI > Ploppable farms menu with it. Without the submenus dll, you'll find it in the park menu, right after the original lot (should you choose to keep it).
+
+    Dependencies:
+
+    -   [SM2 Center Pivot Irrigation Fields](https://community.simtropolis.com/files/file/32701-sm2-center-pivot-irrigation-fields/) (you only need the original .SC4Model files)
+  author: smf_16
+  website: https://community.simtropolis.com/files/file/36684-static-center-pivot-irrigation-fields/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/thumbnail.jpg.663690200b05b682083b0f34ad27268c.jpg
+dependencies:
+  - simmer2:center-pivot-irrigation-fields-resources
+assets:
+  - assetId: smf-16-static-center-pivot-irrigation-fields
+
+---
+assetId: smf-16-static-center-pivot-irrigation-fields
+version: "1.0.0"
+lastModified: "2025-02-01T12:56:13Z"
+url: https://community.simtropolis.com/files/file/36684-static-center-pivot-irrigation-fields/?do=download&r=205519
