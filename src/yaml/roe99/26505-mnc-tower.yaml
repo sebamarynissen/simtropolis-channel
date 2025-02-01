@@ -1,0 +1,129 @@
+group: roe99
+name: mnc-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: MNC TOWER
+  description: |-
+    **MNC Tower** is an office building located on Jalan Kebon Sirih kav. 17-19 Menteng, Central Jakarta, previously named the tower Bimantara, all companies under the group of MNC (Media Nusantara Citra) offices in this building, MNC is a big company by *Hary Tanoesoedibjo* as Group President & CEO he developed MNC’s business model as it is today through various major acquisitions and establishments of new businesses, including the acquisitions of PT Global Mediacom Tbk (GlobalTV), RCTI, and TPI as well as the development of the print and content business within MNC and many others. including SunTV networks, daily newspapers Seputar Indonesia, online media okezone.com, Trijaya FM radio, tabloids and magazines MNI Global Entertainment, Trust Magazine, Genie Magazine,Realita Magazine, Mom&Kiddie Magazine, VAS & mobile game Linktone Ltd & Letang Game Ltd, also some companies in the production and distribution of content as MNC Picture, MNC Channel as well creative & Talent Agency as Cross Media International, etc.
+
+    building height is 125 m, have 29 floor with length x width 46x44m excluding two gate canopy
+
+    MNC Tower BAT Model
+
+    I accidentally added a 33% height of the building to approximately 166m, so not too short when seen in the game, on glass texture I tried to follow closely the JasonCW glassing tutorial, Thank you so much to JasonCW for the tutorial It is very useful to me. I think the glass texture of the MNC tower still not perfect, but for now, I'm quite satisfied with the results. I was only difficulty when it will select images to be used as ground plane for the reflection of the glass, but I am sure the next BAT will be better.
+
+    Spesification
+
+    GROWABLE VERSION :CO$$ stage 7
+
+    Capacity Satisfied :3867 of Co$$
+
+    Lot Size :4x4
+
+    construction time :174
+
+    Bulldoze Cost :1747
+
+    Wealth :Medium Wealth
+
+    Pollution at Center :Air 39, Water 39, Garbage 139, Radiation 0
+
+    Pollution Radii :Air 5, Water 6, Garbage 0, Radiation 0
+
+    Flammability :40
+
+    MaxFireStage :5
+
+    Power Consumed :174
+
+    Water Consumed :1352
+
+    Style Tileset :all
+
+    Building Value :27029
+
+    Ploppable Version (Landmark with jobs)
+
+    Lot Size :4x4
+
+    Wealth :Medium Wealth
+
+    Plop Cost :24422
+
+    Budget Item Cost :NA
+
+    Bulldoze Cost :1747
+
+    Landmark Effect :NA
+
+    Park effect :NA
+
+    Mayor Rating Effect :NA
+
+    jobs :3867 of CO$$
+
+    MaxFireStage :4
+
+    Pollution at Center :Air 15, Water 15, Garbage 7, Radiation 0
+
+    Pollution Radii :Air 5, Water 6, Garbage 0, Radiation 0
+
+    Flammability :40
+
+    Power Consumed :78
+
+    Water Consumed :783
+
+    Building Value :27030
+
+    Wealth :Medium Wealth
+
+    Installation : unzip all file (besides readme file and jpg file) to your /My Documents/SimCity 4/Plugins directory
+
+    for ploppable you will MNC Tower icon at landmark's menu
+
+    Uninstall:
+
+    Remove all files from your /My Documents/SimCity 4/Plugins directory
+
+    \---------------------------------------------------------------------------
+
+    Note:
+
+    In order to see night lighting, you need to have the EP1 Update 1 for Rush Hour/Deluxe installed, and then afterwards install the patch specifically for the BAT nightlighting, available on the "Building Architect Tool" page on the official Maxis website. It is a separate download because it is optional. Note that you must be logged in to see the link.
+
+    If you do not have this installed, no custom model you
+
+    download will display any lighting effects at night.
+
+    night view is dark night mode, then in suggest you use the[SimFox Day 'n' Nite Modd 1](https://www.simtropolis.com/forum/files/file/23089-simfox-day-n-nite-modd/) for better appearance
+
+    to display quiry UI properly, you need a Elsham\_query\_UI.dat placed in the plugins folder, that you get from my previous file, as I include the tower batavia, or wisma46, if no Elsham\_query\_UI.dat in the plugins folder, buildings can still run normally in the game, only when clicked then no information will be shown
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    with the limitations of my PC specs, I keep trying to present the best so far that I could do. any comments, suggestions, and criticisms are welcome, I would love to hear any feedback from you
+
+    Best Regard
+
+    Roe99
+
+    if you want to discuss the BAT that I created, or anything related to my bat please visit my thread [roe99 bat project](https://www.simtropolis.com/forum/topic/44431-roe99-bat-project/)
+  author: roe99
+  website: https://community.simtropolis.com/files/file/26505-mnc-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/3013f0a51ba07231057db125a839f4ca-mnc_tower.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/12549e98d70fd14c652fa54f793b1f75-mncstartnite.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/1235fb3410230378a2dac7c6fd3f7938-mncbase.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/42a2043f43b2daba42af723a70e64a08-mnctop.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/8815874aac63c6902bec6c280568b1ef-new_city-3_dec,_501310448818.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/8f55b5745f6c18e0c9fd9e05136d07fb-nitemnc.jpg
+assets:
+  - assetId: roe99-mnc-tower
+
+---
+assetId: roe99-mnc-tower
+version: "1.0"
+lastModified: "2011-07-12T21:43:38Z"
+url: https://community.simtropolis.com/files/file/26505-mnc-tower/?do=download&r=89025
