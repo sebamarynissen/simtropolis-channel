@@ -33,6 +33,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0005/20d4f589e731569dd200d8ee090fb81c-Elsha%20Condoz1.jpg
 assets:
   - assetId: roe99-elsha-condoz
+    exclude:
+      - "/Elsha_UI_Rquery.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-elsha-condoz

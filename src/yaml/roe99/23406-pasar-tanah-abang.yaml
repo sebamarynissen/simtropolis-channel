@@ -23,6 +23,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0016/8f1f5b231a6a2f843e7f10e1827c3327-between%20origin%20&%20BatSC4.jpg
 assets:
   - assetId: roe99-pasar-tanah-abang
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-pasar-tanah-abang

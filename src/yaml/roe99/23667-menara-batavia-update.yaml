@@ -37,6 +37,24 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2015_07/13bd02367baf575b95f25656150ed016-Mnr_batavia.jpg.00191971e97bfa3eac48d26344c7ed9c.jpg
 assets:
   - assetId: roe99-menara-batavia-update
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
+
+---
+group: roe99
+name: resources
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Custom queries for roe99's buildings.
+  author: roe99
+  website: https://community.simtropolis.com/files/file/23667-menara-batavia-update/
+assets:
+  - assetId: roe99-menara-batavia-update
+    include:
+      - "/Elsham_query_UI.dat"
 
 ---
 assetId: roe99-menara-batavia-update

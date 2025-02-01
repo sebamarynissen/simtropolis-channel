@@ -21,6 +21,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0005/27a715c4b221e1e19fb5e668a6e14ae2-ThePeakNite.jpg
 assets:
   - assetId: roe99-the-peak-final
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-the-peak-final

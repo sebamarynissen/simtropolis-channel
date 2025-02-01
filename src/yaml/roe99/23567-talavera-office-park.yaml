@@ -21,6 +21,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0008/41a5369862ff7b5c529a893f9c8fc39d-TalaveraNite.jpg
 assets:
   - assetId: roe99-talavera-office-park
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-talavera-office-park

@@ -17,6 +17,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0021/bdbe571ef217074c16481ebb59be5223-muliaNight.jpg
 assets:
   - assetId: roe99-sentra-mulia-tower
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-sentra-mulia-tower

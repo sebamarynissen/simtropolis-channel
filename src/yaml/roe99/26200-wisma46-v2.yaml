@@ -144,6 +144,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_05_2011/3a02eda4559018abece08929e841d5e8-wisma_b46.jpg
 assets:
   - assetId: roe99-wisma46-v2
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-wisma46-v2

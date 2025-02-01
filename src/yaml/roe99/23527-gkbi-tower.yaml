@@ -21,6 +21,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0004/163b988d495571a300ed0079a93ce41d-gkbi_nite.jpg
 assets:
   - assetId: roe99-gkbi-tower
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-gkbi-tower

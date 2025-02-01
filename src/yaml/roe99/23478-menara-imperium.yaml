@@ -21,6 +21,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0023/d567a1488175e869a561d20fc28c0ba1-menaraimperiumnite2.jpg
 assets:
   - assetId: roe99-menara-imperium
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
 
 ---
 assetId: roe99-menara-imperium
