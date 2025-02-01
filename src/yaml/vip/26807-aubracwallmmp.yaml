@@ -1,46 +1,44 @@
-# Installer is non-extractble and not from Clickteam, so we can't use it for now 
-# until uploaded as a .zip.
-# group: vip
-# name: aubrac-wall-mmp
-# version: "1.0"
-# subfolder: 180-flora
-# info:
-#   summary: AubracWallMMP
-#   description: |-
-#     Badsim create a new mod for the landscape architecte. It is a version Mayor Mod Ploppable of Aubrac's wall. It is perfectly compatible with "Les Murets de l'Aubrac Orange TSC"
+group: vip
+name: aubrac-wall-mmp
+version: "1.1"
+subfolder: 180-flora
+info:
+  summary: AubracWallMMP
+  description: |-
+    Badsim create a new mod for the landscape architecte. It is a version Mayor Mod Ploppable of Aubrac's wall. It is perfectly compatible with "Les Murets de l'Aubrac Orange TSC"
 
-#     **DEPENDENCIES**
+    **DEPENDENCIES**
 
-#     ![important.png](http://www.tutos-gameserver.fr/images/important.png) There is one dependency :
+    ![important.png](http://www.tutos-gameserver.fr/images/important.png) There is one dependency :
 
-#     [Les Murets de l'Aubrac Orange TSC](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2074)
+    [Les Murets de l'Aubrac Orange TSC](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2074)
 
-#     **INSTALLATION**
+    **INSTALLATION**
 
-#     **Auto Installation:** Double-click the installer file to start the installation. The program will guide you through the process. You can change the default installation path, but we strongly suggest to keep the standard folder in order to make future updates and additions easier.
+    **Auto Installation:** Double-click the installer file to start the installation. The program will guide you through the process. You can change the default installation path, but we strongly suggest to keep the standard folder in order to make future updates and additions easier.
 
-#     **MAC Users:** [File Juicer](http://echoone.com/fr/filejuicer/) should enable you to use this installer package. If it's ZIP archive it is necessary to make the same manipulation that during installation manual (see above).
+    **MAC Users:** [File Juicer](http://echoone.com/fr/filejuicer/) should enable you to use this installer package. If it's ZIP archive it is necessary to make the same manipulation that during installation manual (see above).
 
-#     **CREDIT AND FEEDBACK**
+    **CREDIT AND FEEDBACK**
 
-#     Models by Orange. Modding by Badsim.
+    Models by Orange. Modding by Badsim.
 
-#     If you have questions or problems you can leave us a message [SC4devotion thread](https://www.sc4devotion.com/forums/index.php?topic=12695.20)
+    If you have questions or problems you can leave us a message [SC4devotion thread](https://www.sc4devotion.com/forums/index.php?topic=12695.20)
 
-#     ![110927120839846488803306.jpg](http://nsm05.casimages.com/img/2011/09/27/110927120839846488803306.jpg)
-#   author: VIP Team
-#   website: https://community.simtropolis.com/files/file/26807-vip-aubracwallmmp/
-#   images:
-#     - https://www.simtropolis.com/objects/screens/monthly_09_2011/68b407b8ab5f2db16af8e44f787266b5-imagelexaubracwallmmp.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_09_2011/b19b60340debcf9c977ee527fd831392-imagepresentationawmmp.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_09_2011/6e42b4f1deb46de7f7731a3e60e25fbf-imagepresentationawmmp2.jpg
-# dependencies:
-#   - orange:les-murets-de-laubrac-props
-# assets:
-#   - assetId: vip-aubracwallmmp
+    ![110927120839846488803306.jpg](http://nsm05.casimages.com/img/2011/09/27/110927120839846488803306.jpg)
+  author: VIP Team
+  website: https://community.simtropolis.com/files/file/26807-vip-aubracwallmmp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/68b407b8ab5f2db16af8e44f787266b5-imagelexaubracwallmmp.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/b19b60340debcf9c977ee527fd831392-imagepresentationawmmp.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/6e42b4f1deb46de7f7731a3e60e25fbf-imagepresentationawmmp2.jpg
+dependencies:
+  - orange:les-murets-de-laubrac-props
+assets:
+  - assetId: vip-aubracwallmmp
 
-# ---
-# assetId: vip-aubracwallmmp
-# version: "1.0"
-# lastModified: "2011-09-26T22:34:29Z"
-# url: https://community.simtropolis.com/files/file/26807-vip-aubracwallmmp/?do=download&r=92720
+---
+assetId: vip-aubracwallmmp
+version: "1.1"
+lastModified: "2025-02-01T18:39:55Z"
+url: https://community.simtropolis.com/files/file/26807-vip-aubracwallmmp/?do=download&r=92720
