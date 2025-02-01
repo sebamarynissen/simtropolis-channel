@@ -1,0 +1,83 @@
+group: delecto
+name: pearl-sunshine
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Delecto Pearl Sunshine
+  description: |-
+    **Delecto presents:**
+
+    **PEARL SUNSHINE**
+
+    \-BAT by **Delecto.**
+    \-Modding and Lots design by **Twrecks.**
+
+    \-Recreation of the **Pearl Sunshine** from Primorsko in Bulgaria. In this download you will find **three** orthogonal and **three** diagonal Models for a total of fourteen Lots.
+
+    \-More pictures of the Lots can be found [HERE!](https://www.simtropolis.com/forum/topic/29013-delectoback-on-the-bat/page__view__findpost__p__883232)
+
+    \-This is my first BAT, he is dedicated to all those who helped me one way or another to achieve it...
+    ...TWrecks, SimFox, SimHoTToDDy, Jasoncw, Andreas Roth, Amthaak... and many more.
+
+    Thank you very much guys. ![:thumb:](https://community.simtropolis.com/assets/emoticons/LlamaThumb.gif)
+
+    ****Growable Residential:****
+
+    Lots size: 2x2, 4x5, 5x4, 5x5 tiles
+
+    Tileset: Euro - medium density
+
+    Growth stage: 4 and 5
+
+    Occupants: 80, 160, 240, 320 R$$
+
+    **\-Dependencies**
+    \-To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    -   DEL\_Pearl\_Essentials.dat (included)
+    -   [BSC MEGA Props - CP Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    -   [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC Textures Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    \-Readme included.
+
+    \-Have fun\_\_\_**Delecto & EBLTeam.**
+  author: Delecto
+  website: https://community.simtropolis.com/files/file/23092-delecto-pearl-sunshine/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/6e2f3b0d89af3eadb42007154e51a863-pearl_night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/971674b0acff43169e7955a747839cd5-pearl_a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/b89ade9d9a108b21ef711cb9b9a2560c-pearl-simtropolis.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - delecto:pearl-sunshine-resources
+assets:
+  - assetId: delecto-pearl-sunshine
+    exclude:
+      - "/Pearl Models & Essentials/"
+
+---
+group: delecto
+name: pearl-sunshine-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Props and models for `pkg:delecto:pearl-sunshine"
+  author: Delecto
+  website: https://community.simtropolis.com/files/file/23092-delecto-pearl-sunshine/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/6e2f3b0d89af3eadb42007154e51a863-pearl_night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/971674b0acff43169e7955a747839cd5-pearl_a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/b89ade9d9a108b21ef711cb9b9a2560c-pearl-simtropolis.jpg
+assets:
+  - assetId: delecto-pearl-sunshine
+    include:
+      - "/Pearl Models & Essentials/"
+
+---
+assetId: delecto-pearl-sunshine
+version: "1.0"
+lastModified: "2010-01-03T18:51:46Z"
+url: https://community.simtropolis.com/files/file/23092-delecto-pearl-sunshine/?do=download&r=122319
