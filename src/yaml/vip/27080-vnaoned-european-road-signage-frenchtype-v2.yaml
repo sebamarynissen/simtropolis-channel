@@ -1,0 +1,70 @@
+group: vip
+name: vnaoned-european-road-signage
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Vnaoned European Road Signage
+  description: |-
+    MMP Roads Signage . These signboards are inspired by the European standard most of the time , but rather by the French one concerning the directional signboards .
+    Like all MMPs , you will find them in the Mayor menu .
+
+    From Citymax MMP's picture (MMP n°5 ) , the 4 last models have been removed . Except that point , all models are presented on these pictures in the order corresponding to their respective MMP range .
+
+    Furthermore , they have a feature ; the latter MMP examplar is an invisible model , so with a light gap with your mouse , you can start again sequences untill you get the desired model with the proper orientation .
+
+    Good luck ! (With this pack you will , possibly , hate the VIP team.)
+
+    -   Menu Position : Mayor Mod
+    -   Plop Cost : 0$
+    -   Bulldoze Cost : 0$
+    -   Montly Cost 0$
+
+    **DEPENDENCIES**
+
+    **[BSC\-TSC Girafe French Road Signs](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/214-bsc-tsc-girafe-french-road-signs)**
+
+    **[TSC Props Pack - CM Champs Elysee Prop Pack v2](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/187-tsc-props-pack-cm-champs-elysee-prop-pack)**
+
+    **[VIP Vnaoned Props Pack vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/188-vip-vnaoned-props-pack-vol01 "you only need the VIP_Props_VV_Propspack vol01 v2.dat from that upload")** - you only need the *VIP\_Props\_VV\_Propspack vol01 v2.da*t from that upload.\*\*
+
+    \*\*the former *VIP\_VV\_RoadsProps.dat* has been removed from this upload, as the linked dependency pack contains the necessary models with lotting props too.
+
+    It is highly recommended to run the provided *Cleanitol\_VIP\_VV\_European Roads Signage v2.txt* cleanitol file for the compilation with one of the following 3rd party cleanitol tools, which can help you remove the old packs or you can remove them manually:
+
+    [nos.17 Cleanitol (new tool)](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)
+
+    [BSC Cleanitol (old tool)](https://sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol)
+
+    **INSTALLATION**
+
+    **Installation**: Copy/extract the **VIP** parent folder into your plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+    If you have a problem, please leave me a mp.
+
+    **CREDIT AND FEEDBACK**
+
+    Models by Girafe and Vnaoned, modding by Badsim and Orange, and [**testing by Yann077 in Corsica**](https://www.sc4devotion.com/forums/index.php?topic=7846.0), An idea devised and shown first by Mr Dedgren in 3RR
+
+    If you have questions or problems you can leave us a message [SC4devotion thread](https://www.sc4devotion.com/forums/index.php?PHPSESSID=4c421cf2a5e71f1569ec67fb8eca00ed&topic=14156.msg407099;topicseen#new)
+    ![111114122110846489046819.jpg](http://nsm06.casimages.com/img/2011/11/14/111114122110846489046819.jpg)
+  author: VIP Team
+  website: https://community.simtropolis.com/files/file/27080-vip-vnaoned-european-road-signage-frenchtype-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/5927cc46a9af148a681b52fbacea7288-imagestex.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/710aac33fe85029f2ca1c6e0592fe6cf-sans-titre-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/b55d6cc220167ad3c8067e5e4a4994be-sans-titre-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/7d41a00225085c1ec2d2e03929def433-sans-titre-3.jpg
+dependencies:
+  - bsc:vip-girafe-french-road-signs
+  - citymax:champs-elysee-prop-pack
+  - vip:vnaoned-props-pack-vol01
+assets:
+  - assetId: vip-vnaoned-european-road-signage-frenchtype-v2
+
+---
+assetId: vip-vnaoned-european-road-signage-frenchtype-v2
+version: "2.0"
+lastModified: "2024-02-04T09:56:29Z"
+url: https://community.simtropolis.com/files/file/27080-vip-vnaoned-european-road-signage-frenchtype-v2/?do=download&r=199718
