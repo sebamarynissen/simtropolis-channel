@@ -1,0 +1,33 @@
+group: roe99
+name: the-peak-final
+version: "2"
+subfolder: 200-residential
+info:
+  summary: THE PEAK (Final)
+  description: |-
+    This is The Peak Residence full (part 1 is tower 1 & 2 and Part 2 is tower 3 & 4)
+
+    The Peak is the tallest twin residential apartment towers currently in Asia. 55 storeys and 35 storeys over 4 towers.The Real Height is 219,5m. The Peak at Sudirman Location : Jl Setiabudi Raya No 9 – Central Jakarta Construction begun in 2002 and completed in end 2006. This is voted on the 50 best apartments in the world.
+
+    GROWABLE VERSION    :R$$$ stage 6 LOT SIZE : 6x5   Capacity Satisfied   :5315 of R$$$
+
+    Ploppable Version (Landmark with 7445 jobs of CS$$) LOT SIZE : 6x5
+
+    DEPENDENCIES : Elsham\_query\_UI.dat (included on this package)
+  author: roe99
+  website: https://community.simtropolis.com/files/file/23849-the-peak-final/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/27a715c4b221e1e19fb5e668a6e14ae2-ThePeak%20Day.JPG
+    - https://www.simtropolis.com/objects/screens/0005/27a715c4b221e1e19fb5e668a6e14ae2-ThePeakNite.jpg
+assets:
+  - assetId: roe99-the-peak-final
+    exclude:
+      - "/Elsham_query_UI.dat"
+dependencies:
+  - roe99:resources
+
+---
+assetId: roe99-the-peak-final
+version: "2"
+lastModified: "2010-05-12T06:26:47Z"
+url: https://community.simtropolis.com/files/file/23849-the-peak-final/?do=download&r=50825

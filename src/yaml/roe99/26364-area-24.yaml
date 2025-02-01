@@ -1,0 +1,116 @@
+group: roe99
+name: area-24
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: AREA 24
+  description: |-
+    Area 24 multi-purpose complex located adjacent to the intersection of business and commercial activity, along the peripheral line of the Central Jakarta ( Pancoran district ) and commercial residential district in South Jakarta ( Kalibata district ).
+
+    The complex consists of 558 residential units, 49,396 square feet of office space and 7316 square feet of commercial activities on the ground floor. Once the need to clearly define public and private domains, two apartment buildings have been shifted to the rear, while the office tower in front.
+
+    and this is Office tower, composed of an elliptical floor plates to maximize the views and surrounding white gate symbolizes the frame for the gate between the two. in the whole area 24,770 square meters, the Height of office Building is 140 meters and have 32 floor, Start Construction: 2009, Completion scheduled: 2011
+
+    Area 24 BAT Model
+
+    This is my first BAT building, which I created a successful using 3dsmax, unfortunately I always failed when I tried to export in high quality mode, render prosses always stop when it reaches 30-40 %, sometimes my computer restarts by itself, I do not know why? maybe my computer specs are ancient, so it does not support to run programs such as 3dsmax 2010 design, was lucky when I switch to draft mode rendering eventually succeed, even the process just takes 25 minutes, rendering even a night mode, less than 15 minutes, and this is the result ! all your comments and criticisms are welcome
+
+    night view mode is available only dark night, then in suggest you use the simfoxdaynite mod for better appearance
+
+    GROWABLE VERSION :CS$$$ stage 7
+
+    Capacity Satisfied :701 of CS$$$
+
+    Lot Size :3x5 (tips:use ctrl key to create large - sized Lot)
+
+    construction time :168
+
+    Bulldoze Cost :1689
+
+    Wealth :High Wealth
+
+    Pollution at Center :Air 63, Water 31, Garbage 346, Radiation 0
+
+    Pollution Radii :Air 6, Water 7, Garbage 0, Radiation 0
+
+    Flammability :35
+
+    MaxFireStage :5
+
+    Power Consumed :196
+
+    Water Consumed :4146
+
+    Style Tileset :all
+
+    Occupant Types :CS$$,CS$$, CS$$$
+
+    Building Value :67910
+
+    Ploppable Version (Landmark with 2174 jobs of CO$$$)
+
+    Lot Size :5x3
+
+    Plop Cost :26414
+
+    Budget Item Cost :NA
+
+    Bulldoze Cost :1689
+
+    Landmark Effect :NA
+
+    Park effect :NA
+
+    Mayor Rating Effect :NA
+
+    jobs :2174 of CO$$$
+
+    MaxFireStage :4
+
+    Pollution at Center :Air 13, Water 13, Garbage 5, Radiation 0
+
+    Pollution Radii :Air 6, Water 7, Garbage 0, Radiation 0
+
+    Flammability :40
+
+    Power Consumed :87
+
+    Water Consumed :947
+
+    Building Value :24296
+
+    Wealth :High Wealth
+
+    Installation : unzip all file (besides readme file and jpg file) to your /My Documents/SimCity 4/Plugins directory
+
+    for ploppable you will see Area24 icon at landmark's menu
+
+    Uninstall:
+
+    Remove all files from your /My Documents/SimCity 4/Plugins directory
+
+    In order to see night lighting, you need to have the EP1 Update 1 for Rush Hour/Deluxe installed, and then afterwards install the patch specifically for the BAT nightlighting, available on the "Building Architect Tool" page on the official Maxis website. It is a separate download because it is optional. Note that you must be logged in to see the link.
+
+    If you do not have this installed, no custom model you
+
+    download will display any lighting effects at night.
+  author: roe99
+  website: https://community.simtropolis.com/files/file/26364-area-24/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/1eafd9330cb39acae575240c121902d9-area24.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/f04e5699bffeb34690259bc2091fe77b-area24nite.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/f85495997fd4e21ecb40da05bfb40984-area24nite2.jpg
+assets:
+  - assetId: roe99-area-24
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+dependencies:
+  - roe99:resources
+
+---
+assetId: roe99-area-24
+version: "1.0"
+lastModified: "2011-06-18T09:07:54Z"
+url: https://community.simtropolis.com/files/file/26364-area-24/?do=download&r=87617

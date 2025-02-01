@@ -1,0 +1,45 @@
+group: roe99
+name: elsha-condoz
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: ELSHA CONDOZ
+  description: |-
+    Elsha Condoz is my first residential building
+
+    Building hight 274.79 lot size 2x2 & 3x3 Growable R$$. Ploppable (landmark) 2x2
+
+    ElshaCondoz capable of housing 6223 medium-wealth residents.
+
+    Sims who live in the Elsha Condoz have stunning views of the city from their own
+
+    apartments, or from the double rooftop recreation area. Sims will enjoy the high life in the
+
+    ElshaCondoz strolling through the gardens, relaxing on one of the terraces,
+
+    or taking a dip in either the double rooftop pool.
+
+    on left corner of building contain high-speed main elevator and corner of right is stair of down floor until roof
+
+    but This building is not real-word
+
+    Dependencies Elsha query (included)
+
+    BAT Model and designing by Roe99
+  author: roe99
+  website: https://community.simtropolis.com/files/file/23432-elsha-condoz/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/20d4f589e731569dd200d8ee090fb81c-Elsha%20Condoz01.jpg
+    - https://www.simtropolis.com/objects/screens/0005/20d4f589e731569dd200d8ee090fb81c-Elsha%20Condoz1.jpg
+assets:
+  - assetId: roe99-elsha-condoz
+    exclude:
+      - "/Elsha_UI_Rquery.dat"
+dependencies:
+  - roe99:resources
+
+---
+assetId: roe99-elsha-condoz
+version: "1.0"
+lastModified: "2010-02-27T02:18:41Z"
+url: https://community.simtropolis.com/files/file/23432-elsha-condoz/?do=download&r=50235
