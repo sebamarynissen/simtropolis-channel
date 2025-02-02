@@ -61,6 +61,11 @@ export default {
 	1931: 'bsc:mega-props-t1-vol03',
 	1955: 'orange:mega-props-vol01',
 	2031: 'sfbt:royal-aral-gas-station',
+	2074: [
+		'orange:les-murets-de-laubrac-props',
+		'!orange:les-murets-de-laubrac',
+		'!orange:les-pierres-de-laubrac-mmp',
+	],
 	2135: 'bsc:mega-props-cp-vol02',
 	2177: 'ncd:rail-yard-and-spur-mega-pak-1',
 	2245: 'manchou:village-pack-vol03-props',
