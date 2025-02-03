@@ -1,0 +1,49 @@
+group: shadow-assassin
+name: cycleways-basic-pack
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Cycleways Basic Pack
+  description: |-
+    These lots are an upgrade of the original Cycleway lots, and they have been modded properly this time.
+
+    These cycleway lots are found in the health menu for two reasons: the health menu is relatively uncrowded, and these cycleways give a +4 health benefit over 20 tiles. They can be found at the very top.
+
+    There are 7 lots in this basic package, and all new textures.
+
+    These lots include:
+
+    -   1x1 Straight Cycleway
+    -   Tee Intersection
+    -   X Intersection
+    -   Diagonal
+    -   Diagonal Corner Left
+    -   Diagonal Corner Right
+    -   Street Transition
+
+    More pieces will be added in future expansion packs.
+
+    This utilises a similar plopping system to jeronij's diagonal park trails with one important difference: you cannot seamlessly switch from diagonal to straight without using a diagonal corner piece.
+
+    This lot uses a custom query and custom menu icon.
+
+    There are no dependencies, though the NAM may be required for some pedestrian enabling to work as intended. It is recommended that you remove the original cycleways \[Version 1\] from your plugins folder and replace these with the new cycleways, but it is not necessary. All bug reports can be posted here. I have tried my best to weed out as many bugs as possible.
+
+    This is a NO-DEPENDENCY lot, using only Maxis props, and the textures inside this zip file. If so requested, the textures may be released in a seperate zip file for LOT-BUILDERs.
+
+    A close-up image can be found here.
+
+    UPDATED 27 MARCH 2006 - REMOVED TEXTURE BUG: TEXTURE FILE IS NOW AVAILABLE AS A SEPERATE DOWNLOAD.
+  author: Shadow Assassin
+  website: https://community.simtropolis.com/files/file/15363-sa-cycleways-basic-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/b94dd34a826f06bc28ab865d0ecfa188-cycleway2stexpic01.jpg
+    - https://www.simtropolis.com/objects/screens/0021/b94dd34a826f06bc28ab865d0ecfa188-cyclewaystexpic2.jpg
+assets:
+  - assetId: shadow-assassin-cycleways-basic-pack
+
+---
+assetId: shadow-assassin-cycleways-basic-pack
+version: "1.0"
+lastModified: "2006-03-24T07:23:08Z"
+url: https://community.simtropolis.com/files/file/15363-sa-cycleways-basic-pack/?do=download&r=37363
