@@ -1,0 +1,112 @@
+group: peg
+name: ppond-kit
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: PPOND KIT
+  description: |-
+    Just when you thought it was safe to go back into the water... they change the freakin' water!!
+
+    The new **PEG PPond Kit**  will  allow you to customize the look of your cities in ways you have yet begun to imagine. More than just ploppable water, the **PPond Kit** is a vast collection of ploppable props you can use to "super detail" any part of your city... on any terrain... be it totally flat or a sculpted masterpiece. Take the phone off the hook and lock the door.  You're gonna be busy for quite a long time.
+
+    The **PPond** Kit is a collection of both Mayor Flora Menu ploppable props and normal ploppable lots. It includes everything you need to "paint" realistic lakes, rivers and streams all over your cities... including waterfalls and ponds with lilly pads & cattails. Custom lots are also included to add animated sparkle effects to the water... and turbulence effects & sound at the bottom of waterfalls and dams.
+
+    Ploppable water is nothing new... but it has always had the one drawback of looking unrealistic along the barren shoreline where water meets grass. That is no longer an issue. The **PPond Kit** includes a large collection of ploppable shoreline props, including pebble, sand and mossy textures... along with rocks and boulders... that can be plopped or painted, overlayed and mixed together to easliy create amazingly detailed shorelines. Just plop or hold down the mouse button and paint... no terrain editing required.
+
+    All of the Shoreline props pull double duty as they are not limited to use along waterways. They can be used anywhere to add extra features to your terrain and even freely paint pathways through your parks and forests. Your imagination is the only limit.\*
+
+    *\* There are actually other limits. We just said that there weren't because its such a catchy phrase... and its good marketing.*
+
+    The list of what you can do with this kit is just too extensive to discuss here...  In the mean time, here is a list of the items included with this initial package:
+
+    **Flora Menu Ploppables:**
+
+    **1\. 1x Water Tile.**
+    Use this to plop water anywhere in your city. Hold down the mouse button and drag to literally "paint" water onto the terrain. The tile is very slope tolerant and can be used to paint streams down mountain sides. For lakes and ponds, level terrain is best.
+
+    **2\. 1/4 Water Tile.**
+    Smaller version of the Water Tile... for those hard to reach spaces.
+
+    **3\. 1x Water Tile with Water Lillies.**
+    Use this to plop Water Lillies anywhere in your lakes or ponds. Hold down the mouse button and drag to literally "paint" Water Lillies onto the terrain.
+
+    **4. 1/4 Water Tile with Cattails.**
+    Use this to plop Cattails along your shore lines. Single click for one clump or hold down the mouse button and literally "paint" Cattails all along your shores.
+
+    **5\. Shore Tile - Pebble.**
+    Use this to paint a pebble shoreline along your water. Use single click to create a thinner, semi-transparent effect, or click twice (or paint) to create a more opaque effect.  All Shore & Rock props orient to slopes and can be used anywhere to add extra texture to your terrain. Very useful for plopping along the edges of lots that do not blend well with the terrain. Can be used to paint pathways.
+
+    **6\. Shore Tile - Mossy.**
+    Use this to paint a mossy shoreline along your water.  Can be used to add a mossy/small flora texture almost anywhere on the terrain.
+
+    **7\. Shore Tile - Sandy.**
+    Use this to paint a sandy shoreline along your water. Slightly smaller in size and designed specifically to also paint pathways through forests, etc.
+
+    **8\. Shore Tile - Small**
+    A smaller and darker version of the Shore Tile. Very useful for dragging along the edge of other Shore Tiles where they meet the water to create a 3D effect.
+
+    **9\. Rock Cluster - Small**
+    A ploppable cluster of small rocks to add extra texture to your shorelines.
+
+    **10\. Rocks - Small**
+    A collection of 5 rocks, ranging from very small to not-as-small. The first click plops a smallest rock. Each subsequent click on the same rock replaces it with a larger sized rock.
+
+    **11\. Boulders**
+    A collection of 5 boulders, ranging from small to huge. The first click plops a small boulder. Each subsequent click on the same boulder replaces it with a larger sized boulder. The 2 largest boulders do not orient to the slope.
+
+    **Important:**
+
+    Most shore and rock props have the ability to overlay each other to some degree.... allowing them to be plopped close together or cluster to create combined effects and textures. Using the click and drag paint method usually negates this clustering effect as it covers the area of terrain fully with the painted prop. By carefully limiting the various props in a specific area with slightly offset single click placement, there can be room between props to plop other props, such as rocks or the PEG Ploppable Flora, trees, etc...
+
+    **Park Menu Ploppable Lots**
+
+    **1\. 1x Water Tile.**
+    Use this to plop a full 1x1 water tile. The lot contains the Sparkles animated effect. Ideal for plopping several of these in mid river or in lakes to add a little sparkle and life to your water. Must be plopped on level terrain.
+
+    **2\. 1x Turbulence Tile.**
+    A 1x1 water tile with animated turbulence effects along one edge. For use at the bottom of dams and waterfalls. Must be plopped on level terrain.
+
+    **3\. 1x2  Water Fall.**
+    Use this to add waterfalls of any height and width to your rivers and streams. Plop with the orientation arrow pointing down; one tile on the level top of the waterfall and the other tile on the slope. The top of the waterfall must be perfectly level.
+
+    **4\. 1x Dam Output.**
+    A special 1x1 water tile designed for the PEG Small Hydroelectric Dam. This water tile has 3 horizontal jets of water and was designed for the left-side/bottom of the dam to simulate water coming from the output pipes of the dam.  Must be plopped on level terrain.
+
+    **\*\* These lots have no dependencies.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21661-peg-ppond-kit/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4d1f832d3947c677bd76cf89e561063b-product_image_st.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4d1f832d3947c677bd76cf89e561063b-product_image1_st.jpg
+dependencies:
+  - peg:ppond-kit-resources
+assets:
+  - assetId: peg-ppond-kit
+    include:
+      - PEGPROD/PPonds/PEG-PPond_Props_102.dat
+      - PEGPROD/PPonds/PEG-PPond_Kit_102.dat
+
+---
+group: peg
+name: ppond-kit-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: PPOND KIT resources
+  description: |-
+    This package is a resource for `pkg=peg:ppond-kit`
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21661-peg-ppond-kit/
+assets:
+  - assetId: peg-ppond-kit
+    include:
+      - PEGPROD/PPonds/PEG-PPond_Tahoe_STYLE.dat
+      - PEGPROD/PPonds/PEG-PPond_Props_Tahoe_STYLE.dat
+
+---
+assetId: peg-ppond-kit
+version: "1.0"
+lastModified: "2009-05-07T07:49:56Z"
+url: https://community.simtropolis.com/files/file/21661-peg-ppond-kit/?do=download&r=47685
