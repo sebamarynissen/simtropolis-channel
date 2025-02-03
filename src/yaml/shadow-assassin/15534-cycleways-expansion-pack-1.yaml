@@ -1,0 +1,85 @@
+group: shadow-assassin
+name: cycleways-expansion-pack-1
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Cycleways Expansion Pack 1
+  description: |-
+    These lots are an upgrade of the original Cycleway lots, and they have been modded properly this time.
+
+    This is an expansion on from the original cycleway lots [\[download here\]](https://www.simtropolis.com/stex/index.cfm?id=15363), and therefore it is listed as a dependency.
+
+    While this pack is labeled "Low Wealth", they are actually medium wealth in the game. This was done because R$$ pavement textures are the most visually appealing, and the most neutral of the three wealth levels.
+
+    These cycleway lots are found in the health menu for two reasons: the health menu is relatively uncrowded, and these cycleways give a +4 health benefit over 20 tiles. They can be found at the very top.
+
+    There are 10 lots in this extended package, and all new textures.
+
+    These lots include:
+
+    -   "Low Wealth" Straight Piece
+    -   "Low Wealth" Diagonal Curve Left Piece
+    -   "Low Wealth" Diagonal Curve Right Piece
+    -   "Low Wealth" Street Transition Piece
+    -   "Low Wealth" Tee Intersection Piece
+    -   "Low Wealth" 4 Way Intersection Piece
+    -   "Low Wealth" Diagonal Piece
+    -   "Low Wealth" Straight No Bench Piece
+    -   "Low Wealth" Filler Lot
+    -   Standard Straight No Bench Piece \[this requires the previous pack to work\]
+
+    More pieces will be added in future expansion packs.
+
+    * * *
+
+    ***IMPORTANT:******- SA Cycleways Base Texture - $ Grass.dat***
+
+    ***- SA Cycleways Base Texture - $$ Grass.dat***
+
+    ***- SA Cycleways Base Texture - Transparent.dat***
+
+    ***ONLY ONE OF THESE FILES LISTED ABOVE CAN BE PUT IN AT ANY TIME. THIS FILE CHANGES THE BASE TEXTURE 0xEA890000 TO LOW WEALTH GRASS, MEDIUM WEALTH GRASS OR TRANSPARENT. The tooltips will reflect this change as you hover over them in the health menu.***
+
+    ***Keep in mind that when you go into any data views \[i.e. water\], the textures underneath will suffer from that dreaded "Beach Water Texture" bug. This is unavoidable, but can be quickly rectified by going into Zones View and back into the normal data view. The Filler Lot does not need to be used in situations like this - it will look weird in region view if large tracts of land are plopped this way.***
+
+    * * *
+
+    This utilises a similar plopping system to jeronij's diagonal park trails with one important difference: you cannot seamlessly switch from diagonal to straight without using a diagonal corner piece.
+
+    This lot uses a custom query and custom menu icon.
+
+    ***This has only one dependency - my previous pack, which can be downloaded on the STEX [here.](https://www.simtropolis.com/stex/index.cfm?id=15363)***
+
+    A better view of the options you can choose from can be seen [here.](http://www.imgcity.net/server/primary/AvailableOptions.jpg)
+  author: Shadow Assassin
+  website: https://community.simtropolis.com/files/file/15534-sa-cycleways-expansion-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d2f72379821f23f3ca194d3c64a684f3-STEX_Cycleway_EXP1_Pic1.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d2f72379821f23f3ca194d3c64a684f3-STEX_Cycleway_EXP1_Pic2.jpg
+dependencies:
+  - shadow-assassin:cycleways-basic-pack
+variants:
+  - variant: { shadow-assassin:cycleways-expansion-pack-1:textures: low-wealth }
+    assets:
+      - assetId: shadow-assassin-cycleways-expansion-pack-1
+        exclude:
+          - SA Cycleways Base Texture - \$\$ Grass.dat
+          - SA Cycleways Base Texture - Transparent.dat
+  - variant: { shadow-assassin:cycleways-expansion-pack-1:textures: medium-wealth }
+    assets:
+      - assetId: shadow-assassin-cycleways-expansion-pack-1
+        exclude:
+          - SA Cycleways Base Texture - \$ Grass.dat
+          - SA Cycleways Base Texture - Transparent.dat
+  - variant: { shadow-assassin:cycleways-expansion-pack-1:textures: transparent }
+    assets:
+      - assetId: shadow-assassin-cycleways-expansion-pack-1
+        exclude:
+          - SA Cycleways Base Texture - \$ Grass.dat
+          - SA Cycleways Base Texture - \$\$ Grass.dat
+
+---
+assetId: shadow-assassin-cycleways-expansion-pack-1
+version: "1.0"
+lastModified: "2006-04-04T07:47:26Z"
+url: https://community.simtropolis.com/files/file/15534-sa-cycleways-expansion-pack-1/?do=download&r=37639
