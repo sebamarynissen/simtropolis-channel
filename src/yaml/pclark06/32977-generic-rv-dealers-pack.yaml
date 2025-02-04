@@ -1,0 +1,68 @@
+# Dependencies from sc4devotion are not available anymore
+# group: pclark06
+# name: generic-rv-dealers-pack
+# version: "2.0"
+# subfolder: 360-landmark
+# info:
+#   summary: Generic RV Dealers Pack
+#   description: |-
+#     A couple of generic RV dealers.   
+      
+#     Grant Rader RV  
+#     Walker's RV & Boat (a combo RV/Boat dealer using my boat dealer props)
+
+#     Each are 5x6 landmark files.
+
+#     Dependencies (same as Camping World)
+
+#     -   [PC Mega Props Vol. 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+#     -   [PC Mega Props Vol. 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+#     -   [PC RV Props](https://community.simtropolis.com/files/file/32965-pc-rv-props/)
+#     -   [RR MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+#     -   [BSC MEGA Props JES Vol 9](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2349)
+#     -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+#     -   [LBT MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)·      
+#     -   [TSC Orange MEGA Prop Pack Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1955 "Orange_o Vehicle Props")
+#     -   [TSC R6 - Prop Pack 2010 Vol1](https://www.toutsimcities.com/downloads/view/1686 "R6 Vehicle Props")
+#     -   [SFBT Campground by der Gammler and Andreas](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2546) - you only need the **SFBT\_Camping\_Props.dat**
+#     -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+#     -   [AM Trucks and Trailers Prop Pack](https://community.simtropolis.com/files/file/32285-trucks-trailers-prop-pack/)
+#     -   [VIP Carpack vol1](https://community.simtropolis.com/files/file/26808-vip-carpack-vol1/) and in a close relationship with this you need from one of the [JENX Airport uploads](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3013)  only the **zzzzz\_JENXPROP\_Cars.dat** (I would recommend to put this file into your **BSC/BSCProps** folder - his original instruction about placing this file to the root of the plugins was because he planned future updates on it, which are easier to be implemented if the files are in the root of the plugins, but since there won't be any other update on this file, it's fine if you put it to the BSCProps folder.)
+#         -   **zzzzz\_JENXPROP\_Cars.dat -** for full coverage it has the following additional dependencies (but for **this Camping world** you only need the **VIP Carpack Vol. 1** \- see above):
+#             -   [VIP Carpack vol1](https://community.simtropolis.com/files/file/26808-vip-carpack-vol1/)
+#             -   [VIP Carpack vol](https://community.simtropolis.com/files/file/27011-vip-carpack-vol2/)2
+#             -   [VIP Carpack vol3](https://community.simtropolis.com/files/file/28332-vip-carpack-vol3/)
+#     -   [BEX MSS VL Props](https://community.simtropolis.com/files/file/22136-mss-vl-props/) - you only need this dat: **BEX\_VL\_StoredVehicles\_v100.dat**
+#   author: pclark06
+#   website: https://community.simtropolis.com/files/file/32977-pc-generic-rv-dealers-pack/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d13765c50ed1_grantrader.png.d2d7851c2f00f61c1e95b65d5bf65875.png
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d13765e3a311_walker2.png.b22e0909c0d92d8b053e06c8b3471207.png
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d1376607af97_walkerrvandboat.png.cc30bb6d0cc9f2e1877fcd5e74c90d4d.png
+# dependencies:
+#   - '"[bex mss vl props](https://community.simtropolis.com/files/file/22136-mss-vl-props/)"'
+#   - '"[jenx airport uploads](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3013)"'
+#   - '"[pc rv props](https://community.simtropolis.com/files/file/32965-pc-rv-props/)"'
+#   - '"[sfbt campground by der gammler and andreas](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2546)"'
+#   - '"[vip carpack vol3](https://community.simtropolis.com/files/file/28332-vip-carpack-vol3/)"'
+#   - '"[vip carpack vol](https://community.simtropolis.com/files/file/27011-vip-carpack-vol2/)"'
+#   - angry-mozart:trucks-and-trailers-props
+#   - bsc:mega-props-jes-vol09
+#   - bsc:mega-props-sg-vol01
+#   - bsc:vip-girafe-carpack-vol01-vol02
+#   - lbt:mega-prop-pack-vol01
+#   - orange:mega-props-vol01
+#   - pclark06:mega-props-vol1
+#   - pclark06:mega-props-vol2
+#   - r6:prop-pack-2010-vol1
+#   - rretail:mega-prop-pack-vol1
+#   - shk:parking-pack
+#   - vip:vnaoned-props-pack-vol01
+# assets:
+#   - assetId: pclark06-generic-rv-dealers-pack
+
+# ---
+# assetId: pclark06-generic-rv-dealers-pack
+# version: "2.0"
+# lastModified: "2020-04-03T18:04:08Z"
+# url: https://community.simtropolis.com/files/file/32977-pc-generic-rv-dealers-pack/?do=download&r=180514

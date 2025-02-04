@@ -1,0 +1,38 @@
+group: peg
+name: cdk3-sp-seaport-super-pak
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: CDK3 SP SEAPORT SUPER PAK
+  description: |-
+    This is a compilation of the primary CDK3\-SP Seaport dependency files. If you already have the dependency files listed below, this SUPER PAK is not mandatory to support the currwent CDK3\-SP lots. However, the SUPER PAK  also contains a lot of new material used in many new lots & will be listed as the primary dependency for all futher CDK3\-SP material. To avoid missing dependency issues, you should install this SUPER PACK and, for optimum performance, remove the dependency files it replaces listed below.I
+
+    This SUPER PAK replaces the following CDK3 dependency files:
+
+    > 1\. CDK3\-SP Container Seaport (PEG\-CDK3\_Seaport\_RESOURCE.dat )
+
+    2\. CDK3\-SP Row Warehouses\* (PEG\-CDK3\-SP\_RowWarehouses\_101.dat )
+
+    Once the CDK3\-SP SEAPORT SUPER PACK is installed, you can safely remove the files listed above.
+
+    IMPORTANT: The original CDK3\-SP Row Warehouses file contained lots as well as dependency data. That dependency data only has been moved into the CDK3\-SP SEAPORT SUPER PAK. The lot data only has been repackaged into a new file (version 1.10) which is included with this download. If you remove the original CDK3\-SP Row Warehouses file, you should move the new version ( PEG\-CDK3\-SP\_RowWarehouses\_110.dat ) into the CDK3/SEAPORT/Row Warehouses folder.
+
+    **\*\*This dependency has no dependencies**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5e54434cb76cfd9a9e4da90ed3649d5a-product_image.jpg
+assets:
+  - assetId: peg-cdk3-sp-seaport-super-pak
+
+    # This pack also includes the row warehouses for some reason.
+    exclude:
+      - PEG-CDK3-SP_RowWarehouses_110.dat
+
+---
+assetId: peg-cdk3-sp-seaport-super-pak
+version: "1.0"
+lastModified: "2008-06-07T08:10:36Z"
+url: https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/?do=download&r=44893

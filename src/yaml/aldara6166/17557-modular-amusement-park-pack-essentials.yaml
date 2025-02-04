@@ -1,6 +1,6 @@
 group: aldara6166
 name: modular-amusement-park-pack-essentials
-version: "1.0"
+version: "1.0-1"
 subfolder: 660-parks
 info:
   summary: Modular Amusement Park Pack Essentials
@@ -34,9 +34,28 @@ dependencies:
   - porkissimo:jenx-porkie-expanded-porkie-props
 assets:
   - assetId: aldara6166-modular-amusement-park-pack-essentials
+    exclude:
+      - /zz_BSC MML Mod/
+
+---
+group: aldara6166
+name: modular-amusement-park-pack-mml
+version: "1.0-1"
+subfolder: 660-parks
+info:
+  summary: Modular Amusement Park Pack MML
+  description: |-
+    This will add a construction lot that hides the other lots from the menu as long as this is not plopped.
+    This is useful when not using `pkg=memo:submenus-dll`.
+dependencies:
+  - aldara6166:modular-amusement-park-pack-essentials
+assets:
+  - assetId: aldara6166-modular-amusement-park-pack-essentials
+    include:
+      - /zz_BSC MML Mod/
 
 ---
 assetId: aldara6166-modular-amusement-park-pack-essentials
-version: "1.0"
+version: "1.0-1"
 lastModified: "2007-01-01T08:46:03Z"
 url: https://community.simtropolis.com/files/file/17557-modular-amusement-park-pack-essentials/?do=download&r=86577

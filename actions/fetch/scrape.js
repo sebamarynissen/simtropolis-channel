@@ -72,16 +72,20 @@ export default async function scrape(url) {
 			subfolder = '200-residential';
 		} else if (description.match(/\bC[OoSs](\$|§)+/m)) {
 			subfolder = '300-commercial';
-		} else if (description.match(/\bI-(HT|M|D)\b/)) {
+		} else if (description.match(/\bI-(HT|M|D)\b/i)) {
 			subfolder = '400-industrial';
+		} else if (description.match(/\bfire station\b/i)) {
+			subfolder = '610-safety';
 		} else if (description.match(/\bstation\b/i)) {
 			subfolder = '700-transit';
-		} else if (description.match(/\blibrary\b/i)) {
+		} else if (description.match(/\b(school|library|museum)\b/i)) {
 			subfolder = '620-education';
 		} else if (description.match(/\blandmark\b/i)) {
 			subfolder = '360-landmark';
-		} else if (description.match(/\bjobs\b/i)) {
-			subfolder = '300-commercial';
+		} else if (description.match(/\bparks? menu\b/i)) {
+			subfolder = '660-parks';
+		} else if (description.match(/\b(church|cathedral)\b/i)) {
+			subfolder = '650-religion';
 		}
 	}
 	return { description, images, subfolder };

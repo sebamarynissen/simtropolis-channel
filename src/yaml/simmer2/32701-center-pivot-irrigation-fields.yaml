@@ -1,6 +1,6 @@
 group: simmer2
 name: center-pivot-irrigation-fields
-version: "1.0"
+version: "1.0-1"
 subfolder: 410-agriculture
 info:
   summary: Center Pivot Irrigation Fields
@@ -32,11 +32,32 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/f3.jpg.1243b8e6b7bf3ff671c8df2731de7813.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/f4.jpg.d6e56830b4d901ab9ede3925e7edcd0a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/Fields.jpg.0f35dd281a7d80f0a0b193ac2c93f599.jpg
+dependencies:
+  - simmer2:center-pivot-irrigation-fields-resources
 assets:
   - assetId: simmer2-center-pivot-irrigation-fields
+    include:
+      - \.SC4Lot$
+
+---
+group: simmer2
+name: center-pivot-irrigation-fields-resources
+version: "1.0-1"
+subfolder: 100-props-textures
+info:
+  summary: Center Pivot Irrigation Fields resources
+  description: |-
+    This package is a resource for `pkg=simmer2:center-pivot-irrigation-fields`
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32701-sm2-center-pivot-irrigation-fields/
+assets:
+  - assetId: simmer2-center-pivot-irrigation-fields
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
 
 ---
 assetId: simmer2-center-pivot-irrigation-fields
-version: "1.0"
+version: "1.0-1"
 lastModified: "2019-01-07T00:51:52Z"
-url: https://community.simtropolis.com/files/file/32701-sm2-center-pivot-irrigation-fields/?do=download
+url: https://community.simtropolis.com/files/file/32701-sm2-center-pivot-irrigation-fields/?do=download&r=174170

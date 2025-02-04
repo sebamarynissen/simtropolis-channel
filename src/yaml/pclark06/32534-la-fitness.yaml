@@ -1,0 +1,52 @@
+group: pclark06
+name: la-fitness
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: LA Fitness
+  description: |-
+    LA Fitness is an American gym chain with more than 700 clubs across the United States and Canada, but they are rather secretive about their company history for some reason. Many locations offer a full service cafe, indoor pool, a "Kids Klub," racquetball, and basketball. Much of their growth has been through mergers and acquisitions, including buying 171 locations from Bally Total Fitness in 2011. This one is based off of one in Pawtucket, Rhode Island.  
+      
+    4x4 Hospital lot serving 3000 gym club members.  
+      
+    Thanks to [@RRetail](https://community.simtropolis.com/profile/744613-rretail/) for the lotting! Dependencies:
+
+    -   [BSC Texture Pack Cycledogg Vol 1b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC MEGA Props MJB Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/31834-rretail-car-dealership-relots/)
+    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31834-rretail-car-dealership-relots/)
+    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31834-rretail-car-dealership-relots/)
+    -   BSC - VIP Girafe Trees/Shrubs
+        -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+        -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+        -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+        -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+        -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/32534-la-fitness/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bbd477ebeb5b_Leavittown-Mar.24021539130634.png.de0ac81ab7c69cb4525b66353144d7ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bbd4781853c9_Leavittown-Mar.104021539130666.png.88f1b031d55d9f9243d319e17e71629b.png
+dependencies:
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: pclark06-la-fitness
+
+---
+assetId: pclark06-la-fitness
+version: "1.0"
+lastModified: "2018-10-10T00:35:46Z"
+url: https://community.simtropolis.com/files/file/32534-la-fitness/?do=download&r=173039

@@ -9,6 +9,7 @@ import yargs from 'yargs/yargs';
 import { parseAllDocuments } from 'yaml';
 import { Minimatch } from 'minimatch';
 import standardDeps from './standard-deps.js';
+import standardVariants from './standard-variants.js';
 
 // Parse the regular expressions for the packages
 const { argv } = yargs(hideBin(process.argv));
@@ -44,7 +45,9 @@ const json = {
 		pluginsRoot,
 		cacheRoot,
 		tempRoot: `.${path.sep}temp`,
-		variant: {},
+		variant: {
+			...standardVariants,
+		},
 		channels: [
 			'https://memo33.github.io/sc4pac/channel/',
 			pathToFileURL(path.resolve(import.meta.dirname, '../dist/channel'))+'/',

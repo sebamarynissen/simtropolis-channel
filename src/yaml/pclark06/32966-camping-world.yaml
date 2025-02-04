@@ -1,0 +1,71 @@
+# Sc4devotion dependencies not available
+# group: pclark06
+# name: camping-world
+# version: "2.0"
+# subfolder: 360-landmark
+# info:
+#   summary: Camping World
+#   description: |-
+#     Camping World Holdings, Inc. is an American corporation specializing in selling recreational vehicles (RVs), recreational vehicle parts, and recreational vehicle service. They also sell supplies for camping. The company has its headquarters in Lincolnshire, Illinois. Camping World operates 120 retail/service locations in 36 US states, and also sells goods through mail order and online. It claims to be the world's largest supplier of RV parts and supplies.   
+      
+#     This is a landmark 5x10, and fills a need of RV/Camping dealers in the game/modding community. Also included: a billboard for Camping World.
+
+#     Thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for the Dependency list for those who were having issues earlier!
+
+#     -   [PC Mega Props Vol. 1](https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/)
+#     -   [PC Mega Props Vol. 2](https://community.simtropolis.com/files/file/33533-pc-mega-props-2/)
+#     -   [PC RV Props](https://community.simtropolis.com/files/file/32965-pc-rv-props/)
+#     -   [RR MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/)
+#     -   [BSC MEGA Props JES Vol 9](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2349)
+#     -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+#     -   [LBT MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)·      
+#     -   [TSC Orange MEGA Prop Pack Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1955 "Orange_o Vehicle Props")
+#     -   [TSC R6 - Prop Pack 2010 Vol1](https://www.toutsimcities.com/downloads/view/1686 "R6 Vehicle Props")
+#     -   [SFBT Campground by der Gammler and Andreas](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2546) - you only need the **SFBT\_Camping\_Props.dat**
+#     -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+#     -   [AM Trucks and Trailers Prop Pack](https://community.simtropolis.com/files/file/32285-trucks-trailers-prop-pack/)
+#     -   [VIP Carpack vol1](https://community.simtropolis.com/files/file/26808-vip-carpack-vol1/) and in a close relationship with this you need from one of the [JENX Airport uploads](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3013)  only the **zzzzz\_JENXPROP\_Cars.dat** (I would recommend to put this file into your **BSC/BSCProps** folder - his original instruction about placing this file to the root of the plugins was because he planned future updates on it, which are easier to be implemented if the files are in the root of the plugins, but since there won't be any other update on this file, it's fine if you put it to the BSCProps folder.)
+#         -   **zzzzz\_JENXPROP\_Cars.dat -** for full coverage it has the following additional dependencies (but for **this Camping world** you only need the **VIP Carpack Vol. 1** \- see above):
+#             -   [VIP Carpack vol1](https://community.simtropolis.com/files/file/26808-vip-carpack-vol1/)
+#             -   [VIP Carpack vol](https://community.simtropolis.com/files/file/27011-vip-carpack-vol2/)2
+#             -   [VIP Carpack vol3](https://community.simtropolis.com/files/file/28332-vip-carpack-vol3/)
+#     -   [BEX MSS VL Props](https://community.simtropolis.com/files/file/22136-mss-vl-props/) - you only need this dat: **BEX\_VL\_StoredVehicles\_v100.dat**
+
+#     **Texture Dependencies:**
+
+#     -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+#     -   [AC MEGA Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1896)
+#   author: pclark06
+#   website: https://community.simtropolis.com/files/file/32966-pc-camping-world/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d0a5d5c1498b_Shoemakeville-Jun.23251560908366.png.ea67fd7914a4cd8e778c6ece6679d9e3.png
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d0a5d5e5479a_Shoemakeville-Feb.10241560570748.png.58cfbadac1025d6c09ac2c9b0d4214bb.png
+# dependencies:
+#   - '"[ac mega textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1896)"'
+#   - '"[bex mss vl props](https://community.simtropolis.com/files/file/22136-mss-vl-props/)"'
+#   - '"[jenx airport uploads](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3013)"'
+#   - '"[pc rv props](https://community.simtropolis.com/files/file/32965-pc-rv-props/)"'
+#   - '"[sfbt campground by der gammler and andreas](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2546)"'
+#   - '"[vip carpack vol3](https://community.simtropolis.com/files/file/28332-vip-carpack-vol3/)"'
+#   - '"[vip carpack vol](https://community.simtropolis.com/files/file/27011-vip-carpack-vol2/)"'
+#   - angry-mozart:trucks-and-trailers-props
+#   - bsc:mega-props-jes-vol09
+#   - bsc:mega-props-sg-vol01
+#   - bsc:vip-girafe-carpack-vol01-vol02
+#   - lbt:mega-prop-pack-vol01
+#   - orange:mega-props-vol01
+#   - pclark06:mega-props-vol1
+#   - pclark06:mega-props-vol2
+#   - r6:prop-pack-2010-vol1
+#   - rretail:mega-prop-pack-vol1
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - vip:vnaoned-props-pack-vol01
+# assets:
+#   - assetId: pclark06-camping-world
+
+# ---
+# assetId: pclark06-camping-world
+# version: "2.0"
+# lastModified: "2020-04-03T18:02:19Z"
+# url: https://community.simtropolis.com/files/file/32966-pc-camping-world/?do=download&r=180511

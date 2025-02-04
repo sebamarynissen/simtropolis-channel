@@ -1,0 +1,61 @@
+group: vlasky
+name: maritime-exchange-building-diagonal
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: NYBT Diagonal Maritime Exchange Building
+  description: |-
+    Maritime Exchange building is an office building in the Financial District of Manhattan, New York City. It was built in 1931 and designed by architectural firm Sloan & Robertson. Currently it is known by its address 80 Broad Street. This BAT also contains its neighboring corner building 88 Broad street.
+
+    This upload is a diagonal variation of `pkg=nybt:maritime-exchange-building`.
+
+    \- Model and Lot by Vlasky
+
+    \- BAT exported by **PBGV103 (Paul)**
+
+    \- This upload contains diagonal ploppable CO$$ lots (MaxisNite and DarkNite)
+
+    \- This BAT provides 2270 CO$$ jobs
+
+    \- Dependency for DarkNite version is [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    \- Dependency for NYBT Queries is [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+    Special thanks to **Jasoncw** who helped me each step of the way to make this BAT what it is.
+
+    Thank you **Aaron Graham** for your support and help in modding.
+
+    Thank you **Paul** for exporting diagonal version.
+
+    Last but not the least thanks to everyone who supported me and commented in my threads, it always takes a village!
+
+    Visit [Vlasky's Hell's Kitchen](https://community.simtropolis.com/topic/41523-vlaskys-hells-kitchen/) for news and support
+  author: Vlasky
+  website: https://community.simtropolis.com/files/file/29129-nybt-diagonal-maritime-exchange-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/207f66fa0fe5a87d75a77b55e928d427-vlasky-uploads-template.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/1bc4849187523a73f17c2e781f4fa68a-day.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/a45e86d57d30f55c0917ec8d32fcf4bc-dn.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/66854eb07582003b696974e88e2d7ac9-mn.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: vlasky-nybt-diagonal-maritime-exchange-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: vlasky-nybt-diagonal-maritime-exchange-building-darknite
+
+---
+assetId: vlasky-nybt-diagonal-maritime-exchange-building-maxisnite
+version: "1.0"
+lastModified: "2013-12-18T04:59:40Z"
+url: https://community.simtropolis.com/files/file/29129-nybt-diagonal-maritime-exchange-building/?do=download&r=121893
+
+---
+assetId: vlasky-nybt-diagonal-maritime-exchange-building-darknite
+version: "1.0"
+lastModified: "2013-12-18T04:59:40Z"
+url: https://community.simtropolis.com/files/file/29129-nybt-diagonal-maritime-exchange-building/?do=download&r=121894

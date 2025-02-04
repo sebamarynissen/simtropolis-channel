@@ -37,7 +37,10 @@ async function run(urls, argv) {
 	});
 
 	// Cool, now perform the actual fetching.
-	let results = await fetchAll(urls, { split: argv.split });
+	let results = await fetchAll(urls, {
+		split: argv.split,
+		darkniteOnly: argv.darkniteOnly,
+	});
 	for (let result of results) {
 		let [pkg] = result.metadata;
 		let deps = parseDependencies(index, pkg);

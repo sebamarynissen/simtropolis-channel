@@ -1,0 +1,50 @@
+group: peg
+name: mtp-tlc-rail-transfer-yard
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: MTP TLC Rail Transfer Yard
+  description: |-
+    So... lets take inventory. We have the central **Saw Mill** with both trucks and rail bringing in logs for processing. We have **Logging Roads** to bring the logs down from the local mountains. What's missing? Oh yeah... Where the heck do the logs on the railcars come from? I'm glad you asked...
+
+    The **MTP TLC Rail Transfer Yard** is a typical marshalling area where Logging Road meets Rail.The logs from the trucks are transferred to rail logging cars by HLDs (Heavy Lifting Devices) for transport to distant mills that are generally too far away for economical transport by truck. This type of operation is really more of a convenient location... than an actual facility.... pretty much wherever a road can be run down to the nearest rail. If there is also a nearby water source... so much the better.
+
+    So what's with all the log dumping into the water... you ask. Good question. Its all about making a hard job a bit easier. Wherever possible, the logging industry has relied on conveniently located water sources for 2 primary reasons;  1. Logs are really heavy... and  2. Logs float. You can round up 20 really Brawny guys (yes, like on the paper towel commercials) and get them to move a log for you. They won't be able to roll it more than a foot or so before you hear the 'roids a-poppin'. Yet... one guy... with a long stick... can move a log on the water anywhere he wants with very little effort.
+
+    So... when operations get a bit backed up or the trucks roll in but the trains out of Yuma aren't due in 'till 3:10... the logs just get dumped in the pond. No profit in holding up the trucks and the HLDs can pull logs from the water easier & faster than from the ground or the back of a truck. And that's why.
+
+    Because the need for 2 types of this lot may arise... we have conveniently included two types of lots:
+
+    1\. An RCI ploppable with IND-M jobs and transit-enabled for street entrance to form a visual connection to your road network. Like any lot with jobs, this version requires power & water, road access and a local workforce.
+
+    2\. A Logging Road version that has no jobs & requires no power, water or functional road access. Just plop it anywhere & run Logging Roads up to it
+
+    Both lots are 4x5 tiles in size... and both have non-functional transit-enabled connections on both ends of the lot for a visual-only connection to rail. Both have a gated side entrance for optional access to a Logging Road. The RCI version cost $500 to plop... but nothing to maintain. The Logging Road version cost almost nothing to plop... but $10 per month to maintain. Most of that 10 bucks is for porta-crapper chemicals & TP.
+
+    Both lots have a custom query sound-effect... and are extensively not nite lighted in any way. The RCI version can be found in your Landmarks menu while the Logging Road version is with the other Logging Road lots in your Misc Transportation menu. Each lot is in a separate file so you can remove either one if you prefer not to use it.
+
+    **\*** *The Logging Industry lots were designed for the **MTP** but have been engineered to have a minimal dependence on it. The goal is to allow players to use these lots in any non-urban setting/city without the need to move the required files in and out of the Plugins folder when switching between different city types or styles. These lotsand the MTP dependency files can remain in your Plugins folder without affecting non-MTP themed cities.*
+
+    **\*\* This lot requires the following dependencies:**
+    [PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+    [PEG MTP Logging RESOURCE](https://community.simtropolis.com/files/file/20965-peg-mtp-logging-resource/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made deps clickable linkys.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21072-peg-mtp-tlc-rail-transfer-yard/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/e9265df35c60d418def5c76a71bd9184-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0026/e9265df35c60d418def5c76a71bd9184-product_image1.jpg
+dependencies:
+  - peg:mtp-logging-resource
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-tlc-rail-transfer-yard
+
+---
+assetId: peg-mtp-tlc-rail-transfer-yard
+version: "1.0"
+lastModified: "2009-01-31T11:05:22Z"
+url: https://community.simtropolis.com/files/file/21072-peg-mtp-tlc-rail-transfer-yard/?do=download&r=46939

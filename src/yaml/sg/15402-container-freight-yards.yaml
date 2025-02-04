@@ -1,0 +1,61 @@
+group: sg
+name: container-freight-yards
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Container Freight Yards
+  description: |-
+    A pair of freight yard lots, which are designed to handle large cargo containers. They are transit enabled for rail, though block passenger traffic. Please allow an alternate route for any passenger traffic.
+
+    Larger pictures of these lots can be seen in my Building Thread
+
+    Lot Details and Information
+
+    Building: Transportation
+
+    Lot sizes: 6 x 4 tiles, 8x4 tiles
+    Lot Wealth : Low Wealth
+    Jobs: Jobs $ : 40,Jobs $$ : 5,Jobs $$$ : 0,R-$ : 40,R-$$ : 5,R-$$$ : 0
+    Plop cost : § 1,500 & 1,800
+    Freight Capacity: 5,000
+    Monthly cost: § 10 & 25
+    Max. Fire Stage: 3
+    Flammability: 25 of 256
+    Power consumption: 3 MWh/month
+    Water consumption: 5 Gallons/month
+    Air pollution: 1 over 1 tiles
+    Water pollution: 1 over 2 tiles
+    Garbage pollution: 4 over 0 tiles
+
+    **Dependencies:**
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+    [Railyard and Spur Textures, Mega Pack 1.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2177)
+    [BSC Mega Props SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    [BSCMegaProps JES Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+    [BSC MEGA Props Gascooker Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+    2014-12-19 - Prens: Added up-to-date links + tags.
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/15402-container-freight-yards/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/288bb42b4809c1c721c27d40b3afc305-sg_freightyards01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/76738ae7170886336687ad451d7af468-sg_freightyards02.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: sg-container-freight-yards
+
+---
+assetId: sg-container-freight-yards
+version: "1.0"
+lastModified: "2006-03-27T08:08:08Z"
+url: https://community.simtropolis.com/files/file/15402-container-freight-yards/?do=download&r=146033
+archiveType:
+  format: Clickteam
+  version: "40"

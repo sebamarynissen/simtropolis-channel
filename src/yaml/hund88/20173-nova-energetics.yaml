@@ -1,0 +1,54 @@
+group: hund88
+name: nova-energetics
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Nova Energetics
+  description: |-
+    2010,- Nova Energetics is a massive production and research-facility, in the field of renewable energies. 400%efficenct motors, 100Watt/cm2 solar panels, and room-temperature superconductors are just the 'tip of the iceberg' , that Nova Energetics is researching on, and producing to application.
+
+    I-high-tech,
+
+    High density zoning,
+
+    88 Workers,
+
+    4 different lots, 3x3 3x3 2x3 3x2
+
+    Growth stage 3
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20173-nova-energetics/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/78953919b6512e8b192005e1e03e4bd6-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0014/78953919b6512e8b192005e1e03e4bd6-Scr41.JPG
+dependencies:
+  - hund88:nova-energetics-model
+assets:
+  - assetId: hund88-nova-energetics
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: hund88
+name: nova-energetics-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Industrial manufacturing building"
+  description: |
+    This package contains models and props from `pkg=hund88:nova-energetics`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20173-nova-energetics/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/78953919b6512e8b192005e1e03e4bd6-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0014/78953919b6512e8b192005e1e03e4bd6-Scr41.JPG
+assets:
+  - assetId: hund88-nova-energetics
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: hund88-nova-energetics
+version: "1.0"
+lastModified: "2008-08-02T07:10:04Z"
+url: https://community.simtropolis.com/files/file/20173-nova-energetics/?do=download&r=45365

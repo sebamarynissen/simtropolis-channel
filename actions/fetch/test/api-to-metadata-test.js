@@ -210,4 +210,14 @@ describe('#apiToMetadata', function() {
 
 	});
 
+	it('handles apostrophes', function() {
+
+		let upload = faker.upload({
+			title: 'Andrew\'s Fashion Centre',
+		});
+		let meta = apiToMetadata(upload);
+		expect(meta.package.name).to.equal('andrews-fashion-centre');
+
+	});
+
 });

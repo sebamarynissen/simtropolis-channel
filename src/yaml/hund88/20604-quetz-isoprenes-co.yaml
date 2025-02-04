@@ -1,0 +1,60 @@
+group: hund88
+name: quetz-isoprenes-co
+version: "2"
+subfolder: 400-industrial
+info:
+  summary: Quetz Isoprenes Co
+  description: |-
+    UPDATED version!  ..with structural fix,  Lot fix,   Grafix-fix.
+
+    it's a heavy industrial complex specialized in the production of rubber for various use.
+
+    Stats: I-m ,
+
+    Size 4x4, 5x5
+
+    jobs: 177,
+
+    3 different lots,
+
+    nightlighting (of course ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    hi-density
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20604-quetz-isoprenes-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/17aca19d33af8ccd36a2ff25b41996f0-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0004/17aca19d33af8ccd36a2ff25b41996f0-Scr4.JPG
+dependencies:
+  - hund88:quetz-isoprenes-co-props
+assets:
+  - assetId: hund88-quetz-isoprenes-co
+    include:
+      - "/01IPP main-0x6534284a-0x937d900c-0xd61cbaa7.SC4Desc"
+      - "\\.SC4Lot$"
+
+---
+group: hund88
+name: quetz-isoprenes-co-props
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: "Industrial manufacturing building & props"
+  description: |
+    This package contains models and props from `pkg=hund88:quetz-isoprenes-co`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20604-quetz-isoprenes-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/17aca19d33af8ccd36a2ff25b41996f0-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0004/17aca19d33af8ccd36a2ff25b41996f0-Scr4.JPG
+assets:
+  - assetId: hund88-quetz-isoprenes-co
+    exclude:
+      - "/01IPP main-0x6534284a-0x937d900c-0xd61cbaa7.SC4Desc"
+      - "\\.SC4Lot$"
+
+---
+assetId: hund88-quetz-isoprenes-co
+version: "2"
+lastModified: "2008-11-02T18:05:10Z"
+url: https://community.simtropolis.com/files/file/20604-quetz-isoprenes-co/?do=download&r=46123

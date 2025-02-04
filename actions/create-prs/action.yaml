@@ -8,6 +8,16 @@ inputs:
   timestamp:
     required: false
     description: The timestamp when the exchange was last checked for new packages. Can be unset in case information for a specific package is fetched.
+  channel-url:
+    required: true
+    description: The url of this channel, used for compiling the DMs to be sent
+  channel-name:
+    required: false
+    description: The name of this channel, used as text for the channel link. Uses the channel url by default.
+
+outputs:
+  messages:
+    description: Contains a JSON stringified object that holds the information about the DMs that should be sent.
 
 runs:
   using: 'node20'

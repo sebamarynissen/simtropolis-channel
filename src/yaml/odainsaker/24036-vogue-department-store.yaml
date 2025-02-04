@@ -1,0 +1,150 @@
+group: odainsaker
+name: vogue-department-store
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Vogue Department Store
+  description: |-
+    VOGUE DEPARTMENT STORE
+
+    Origin:  San Antonio, USA.
+
+    The Vogue Building is a Renaissance Revival commercial landmark found at 600 Navarro Street on the corner with Houston Street in downtown San Antonio, Texas.  Built circa 1895 for local businessman L. P. Peck as the Peck Building, it originally housed Peck's Furniture through the 1910s.  Houston Street evolved after 1915 into the city's prime retailing street, and the furniture store would give way to the Vogue Department Store, which specialized in expensive and fashionable women's clothing.  From the roaring 1920s through the 1950s, ladies of the city's social elite could find the latest ready-to-wear high-fashion in central convenience between the neighboring opulent theatres and stately hotels.  Even by this time, old San Antonio was considered fashionably quaint and photogenically historic, and was drawing tourists and notable travellers to promenade down its nostalgic streets.  With the Vogue, they could do so as suitably well-dressed shoppers.
+
+    In the 1940s, an additional story was added and the building's 19th-century terra cotta ornamentations were hammered off and streamlined to fit modern trends.  However, the rapid suburbanization of the 1950s and 1960s would sap away urban retailing from the downtowns of cities across America, and department stores such as the Vogue would move to the outlying malls or close entirely.  By the mid 1950s, the Vogue had closed its doors, with its labelled merchandise becoming rare collectibles.  By the the 1970s and 1980s, the vacant downtowns of the U.S. were struggling, and the empty Vogue Building suffered the ignominy of having its rich red brick and all its giant windows completely painted in dull gray.  Since the disasterous doldrums of the 1980s, San Antonio has returned to redeveloping and preserving its historic and cultural heritage, though after tentative plans by entreprenuers to turn the building into downtown apartments fizzled, realty investors restored much of the building's exterior and refurbished the interior instead into stylish offices.  The rehabilitated Vogue Building is believed to now be the tallest surviving wood-framed building in the city.
+
+    * * *
+
+    Some creative liberties were taken from the original building.  Much of the original ornamentation, such as the pilaster capitals and segmental arch pediment, have been been restored.  The north wall bricks were cleaned of whitewash and its upper windows reopened.  Furthermore, the modern streamlined pedestrian canopy was kept, but with the addition of signs derived from the original wrought-iron porch balcony.
+
+    This BAT also comes in two versions to work with either the normal Maxis night or with a nighttime environmental darkening mod such as DarkNite.  Both versions of this BAT use the wonderful truNite technique developed by SimFox.  Maxis's awkwardly standard sunlit shadowing in the nighttime views have been eliminated, with the drawback that the brief morning and evening twilight views may look unusual.
+
+    * * *
+
+    LANDMARK VERSION
+
+    Lot Size:     3x1 Corner
+    Plop Cost:     80000
+    Bulldoze Cost:     4000
+    Wealth:     High Wealth
+    Pollution at Center:     Air 5, Water 2, Garbage 6, Radiation 0
+    Pollution Radii:     Air 4, Water 5, Garbage 0, Radiation 0
+    Flammability:     35
+    MaxFireStage:     4
+    Power Consumed:     35
+    Water Consumed:     150
+    Landmark Effect:     Magnitude 40, Radius 20
+    Mayor Rating Effect:     Magnitude 10, Radius 256
+    Budget Cost:     150
+
+    PLOPPABLE VERSION
+
+    Lot Size:     3x1 Corner
+    Plop Cost:     80000
+    Bulldoze Cost:     4000
+    Wealth:     High Wealth
+    Pollution at Center:     Air 5, Water 2, Garbage 6, Radiation 0
+    Pollution Radii:     Air 4, Water 5, Garbage 0, Radiation 0
+    Flammability:     35
+    MaxFireStage:     4
+    Power Consumed:     35
+    Water Consumed:     150
+    Occupant Types:     CS$$, CS$$$
+    Building Value:     15435
+    Capacity Satisfied:     CS$ 1225, CS$$ 812, CS$$$ 397
+
+    GROWABLE VERSION
+
+    Lot Size:     3x1 Corner
+    Growth Stage:     4
+    Bulldoze Cost:     4000
+    Wealth:     High Wealth
+    Pollution at Center:     Air 5, Water 2, Garbage 6, Radiation 0
+    Pollution Radii:     Air 4, Water 5, Garbage 0, Radiation 0
+    Flammability:     35
+    MaxFireStage:     4
+    Power Consumed:     35
+    Water Consumed:     150
+    Construction Time:     96
+    Style Tileset:     Chicago, New York, Houston, Euro
+    Occupant Types:     CS$$, CS$$$
+    Building Value:     15435
+    Worth:     15435
+    Capacity Satisfied:     CS$ 1225, CS$$ 812, CS$$$ 397
+
+    * * *
+
+    DEPENDENCIES
+
+    There are No External Dependencies required for this BAT.
+
+    You should, however, be sure to have all the latest Maxis updates and plugins for SimCity 4: Rush Hour and the Building Architect Tool, which are available for download from [http://SimCity.ea.com/index.php](https://community.simtropolis.com/sc4-maxis-files/index.php)
+
+    * * *
+
+    INSTALLATION
+
+    It is suggested you create a subfolder in your SimCity 4 Plugins folder named "Vogue Department Store" into which you can copy the desired .SC4Model files and the desired LOT version files.
+
+    This BAT has been rendered twice to work with both the standard Maxis environment night mode, and with the DarkNite night mode developed by SimFox.  Based on the mode your game is currently using, you will first have to select which of the two model renders to use:
+
+    MAXISNITE
+
+    The folder "Model - MaxisNite" contains the model for normal default game nightlighting.
+         VogueDepartmentStore-0x5ad0e817\_0x990aa72b\_0x30000.SC4Model
+
+    If you use the default game environmental lighting without a custom night mod, use only the MaxisNite version.
+
+    DARKNITE
+
+    The folder "Model - DarkNite" contains the model for use with night darkening mods.
+         VogueDepartmentStore-0x5ad0e817\_0x990aa72b\_0x30000.SC4Model
+
+    If you do use a custom night darkening mod such as gizmo's "Day-Night Mod" or SimFox's "DarkNite," you should use only the DarkNite version.  This version is best calibrated for the "SimFox Day 'n' Nite Modd," which can be found at [https://www.simtropolis.com/STEX/details.cfm?id=23089](https://www.simtropolis.com/stex/details.cfm?id=23089)
+
+    Both the MaxisNite and DarkNite model versions of this BAT use identical instances, so you may later swap out the models if you should later change your game's night environmental lighting.  The building in game will be automatically updated, and you do not have to demolish anything.
+
+    You must also select any number or all of the included LOT versions.  Landmark and Ploppable versions will be listed as icons in the game's Landmarks Menu.
+
+    LANDMARK VERSION
+         LM3x1\_VogueDepartmentStore\_99129134.SC4Lot
+
+    PLOPPABLE VERSION
+         CS$$$\_3x1\_PLOP\_VogueDepartmentStore\_b912bdd8.SC4Lot
+
+    GROWABLE VERSION
+         CS$$$4\_3x1\_GROW\_VogueDepartmentStore\_99129b31.SC4Lot
+     VogueDepartmentStore\_GROW-0x6534284a-0x99128a72-0x99129534.SC4Desc
+
+    To uninstall this BAT, first demolish any and every appearance of this BAT in your saved cities.  You may then remove the BAT files safely without potentially affecting your saved cities.
+
+    * * *
+
+    Feel free to use and edit the BATs, the LOTs, and their files for your own personal purposes, but please do not redistribute or re-upload them in any form without prior permission and the appropriate credits.
+
+    Enjoy!
+
+    Odainsaker
+  author: Odainsaker
+  website: https://community.simtropolis.com/files/file/24036-vogue-department-store/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a4a666785e53ed9fa696a68376e66f22-VogueDepartmentStorePreview1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a4a666785e53ed9fa696a68376e66f22-VogueDepartmentStorePreview21.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: odainsaker-vogue-department-store
+        exclude:
+          - /Model - DarkNite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: odainsaker-vogue-department-store
+        exclude:
+          - /Model - MaxisNite/
+
+---
+assetId: odainsaker-vogue-department-store
+version: "1.0"
+lastModified: "2010-06-02T20:22:27Z"
+url: https://community.simtropolis.com/files/file/24036-vogue-department-store/?do=download&r=51097

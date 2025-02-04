@@ -1,0 +1,59 @@
+group: nbvc
+name: modular-container-port
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modular Container Port
+  description: |-
+    This is a set of 30 different LOTs which can be used to build custom container ports.
+
+    It contains different docks with ships, cranes and containers.
+    Docks for corners, left and right ends.
+    Rail and truck depots.
+    Fences, roads, containers and more.
+
+    The LOTs don't have a seaport functionality, they are only eye candy.
+
+    Dependencies:
+    [PEG Security Fencing Kit](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)
+    [PEG CDK3 SP Rail Fleet](https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/)
+    [PEG CDK3 SUPER PAK](https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/)
+    [PEG CDK3 SP SEAPORT SUPER PAK](https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/)
+    [Rail Yard and Spur Textures Mega Pack 1](https://community.simtropolis.com/files/file/15976-rail-yard-and-spur-textures-mega-pack-1/)
+    [BSC Mega Props - JES Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+    [BSC Mega Props - JES Vol06](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1416)
+    [BSC Mega Props - JES Vol07](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1495)
+    [BSC Mega Props - JES Vol08](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1778)
+    [BSC BAT Props - T1 Vol3](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1764)
+    [Container Freight Yards](https://community.simtropolis.com/files/file/15402-container-freight-yards/)
+    [PEG CDK3 SP Container Ship Fleet](https://community.simtropolis.com/files/file/19577-peg-cdk3-sp-container-ship-fleet/)
+
+    * * *
+
+    Mod Edit: Fixed broken dependency links.
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/23954-modular-container-port/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0e727a571cc065a5f19ac14383f16dd8-containerport1.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0e727a571cc065a5f19ac14383f16dd8-containerport2.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-t1-vol03
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - peg:cdk3-sp-container-ship-fleet
+  - peg:cdk3-sp-rail-fleet
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-super-pak
+  - peg:security-fencing-kit
+  - sg:container-freight-yards
+assets:
+  - assetId: nbvc-modular-container-port
+
+---
+assetId: nbvc-modular-container-port
+version: "1.0"
+lastModified: "2010-05-23T01:57:34Z"
+url: https://community.simtropolis.com/files/file/23954-modular-container-port/?do=download&r=50973

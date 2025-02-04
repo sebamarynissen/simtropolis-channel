@@ -1,0 +1,60 @@
+group: hund88
+name: warehouse
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Warehouse
+  description: |-
+    I've been working on this for a while, but only now, i
+
+    decided to finish it.  So here it is, a *Warehouse.*
+
+    Sorry, couldn't come up with a better name.. ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)
+
+    Stats:
+
+    I-manufacturing,
+
+    Jobs: 41
+
+    Size: 2x3
+
+    Low density zoning.
+
+    Growth stage: 3
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20161-warehouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8cc196417ab7a35c2799f0ffe9ae44f8-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0016/8cc196417ab7a35c2799f0ffe9ae44f8-Scr2.JPG
+dependencies:
+  - hund88:warehouse-model
+assets:
+  - assetId: hund88-warehouse
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: hund88
+name: warehouse-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: "Industrial warehouse building"
+  description: |
+    This package contains models and props from `pkg=hund88:warehouse`.
+  author: HunD88
+  website: https://community.simtropolis.com/files/file/20161-warehouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8cc196417ab7a35c2799f0ffe9ae44f8-Scr1.JPG
+    - https://www.simtropolis.com/objects/screens/0016/8cc196417ab7a35c2799f0ffe9ae44f8-Scr2.JPG
+assets:
+  - assetId: hund88-warehouse
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: hund88-warehouse
+version: "1.0"
+lastModified: "2008-07-31T11:58:30Z"
+url: https://community.simtropolis.com/files/file/20161-warehouse/?do=download&r=45343

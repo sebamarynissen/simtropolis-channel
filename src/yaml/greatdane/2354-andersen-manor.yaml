@@ -1,0 +1,25 @@
+group: greatdane
+name: andersen-manor
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Andersen Manor
+  description: |-
+    A Residential $$$ building, low density, with room for 17 sims. 4 different growable lots included in different sizes. This is my second building made with the BAT. The first one (Heinz Manor) is so far only available on SimCity.com's exchange.
+
+    Enjoy....
+  author: GreatDane
+  website: https://community.simtropolis.com/files/file/2354-andersen-manor/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8aad968aba972e8911b41a60b2b50988-AndersenManor.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8aad968aba972e8911b41a60b2b50988-AndersenManorNight.jpg
+assets:
+  - assetId: greatdane-andersen-manor
+dependencies:
+- bsc:textures-vol01
+
+---
+assetId: greatdane-andersen-manor
+version: "1.0"
+lastModified: "2004-02-13T18:36:05Z"
+url: https://community.simtropolis.com/files/file/2354-andersen-manor/?do=download&r=25881

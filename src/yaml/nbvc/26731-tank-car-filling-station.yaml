@@ -1,0 +1,52 @@
+group: nbvc
+name: tank-car-filling-station
+version: "1.1"
+subfolder: 400-industrial
+info:
+  summary: Tank Car Filling Station
+  description: |-
+    Filling stations for rail tank cars. The set contains an empty, a small and a large filling station. They are designed to fit to the pipes of my
+    [Modular Oil Port](https://community.simtropolis.com/files/file/26365-modular-oil-port/)
+
+    The stations have freight station functionality.
+    The empty and small station have capacity 2500.
+    The large station has capacity 8000.
+    They are all transit enabled.
+
+    The stations are in different folders.
+
+    Dependencies:
+    Empty Filling Station:
+    None
+
+    Small Filling Station:
+    PEG CDK3 SP Rail Fleet 1 [https://community.simtropolis.com/files/file/19786-peg-cdk3\-sp-rail-fleet/](https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/)
+
+    Large Filling Station:
+    PEG CDK3 SP Rail Fleet 1 (same as above) [https://community.simtropolis.com/files/file/19786-peg-cdk3\-sp-rail-fleet/](https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/)
+    BSC Mega Props - JES Vol06 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1416](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1416)
+    BSC Mega Props - JES Vol07 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1495](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1495)
+    Train pack blanco\_05 [http://www.toutsimcities.com/downloads/view/1335](http://www.toutsimcities.com/downloads/view/1335)
+
+    If you don't have all dependencies, you will not have all trains and tank cars, but the stations should still work.
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/26731-tank-car-filling-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/d4ceb31a4c5d56972a75f0aaaafc9e4a-tankcarfilling1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/b782b88a25630ebe3acde9a49a437f01-tankcarfilling2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/db9ae51477983842e3f362af188b6140-tankcarfilling4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/a2a6787c6927e31a2e9eac20d528bf2b-tankcarfilling3.jpg
+dependencies:
+  - blanco:train-prop-pack-sd
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - nbvc:modular-oil-port
+  - peg:cdk3-sp-rail-fleet
+assets:
+  - assetId: nbvc-tank-car-filling-station
+
+---
+assetId: nbvc-tank-car-filling-station
+version: "1.1"
+lastModified: "2011-09-04T09:44:01Z"
+url: https://community.simtropolis.com/files/file/26731-tank-car-filling-station/?do=download&r=92289

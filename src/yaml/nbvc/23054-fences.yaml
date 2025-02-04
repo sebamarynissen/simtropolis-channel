@@ -1,0 +1,31 @@
+group: nbvc
+name: fences
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Fences
+  description: |-
+    Small fences
+
+    Dependencies:
+
+    [PEG Ski Resort](https://community.simtropolis.com/files/file/22995-peg-ski-resort/)
+
+    [PEG Snow Mod 2](https://community.simtropolis.com/files/file/22925-peg-snow-mod-2/) is recommended for winter effects.
+
+    Staff Edit : Fixed dependency links.
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/23054-fences/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/109d08e692ebeed6b6a68a5f66e82b2b-fence.jpg
+dependencies:
+  - peg:ski-resort
+  - peg:snow-mod-2
+assets:
+  - assetId: nbvc-fences
+
+---
+assetId: nbvc-fences
+version: "1.0"
+lastModified: "2009-12-28T09:44:32Z"
+url: https://community.simtropolis.com/files/file/23054-fences/?do=download&r=49733
