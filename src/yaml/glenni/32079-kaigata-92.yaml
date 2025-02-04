@@ -1,0 +1,46 @@
+group: glenni
+name: kaigata-92
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Kaigata 92
+  description: |-
+    First building in about 7 years, being a little out of practice i figured I'd choose something nice and simple. A basic 1960s building, fit for European wall to
+    wall environments. The name is Norwegian, and means Dock Street 92.
+
+    Stats:
+
+    Size: 1x2
+    Wealth: Offices -  Medium/§§
+    Bulldoze Cost: 450
+    Plop Cost: 5250
+    Power Consumed: 10
+    Water Consumed: 15
+    Jobs §§: 160
+
+    Place the file/folder into mydocuments/simcity4/plugins
+    Then paste the building you want, only one works at a time, so make sure you know wether or not you run standard maxis nights, or Simfox's Darknite mod.
+    
+    Dependencies: Shouldn't be any
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/32079-kaigata-92/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/glenni-kaigata92.jpg.8ba4b6b146c9f138c3c692c43f0ccc8b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: glenni-kaigata-92
+        exclude:
+          - /DARKNITE MODEL \(USE ONLY ONE\)/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: glenni-kaigata-92
+        exclude:
+          - /MAXISNIGHT Model \( USE ONLY ONE\)/
+
+---
+assetId: glenni-kaigata-92
+version: "1.0"
+lastModified: "2018-02-10T02:50:22Z"
+url: https://community.simtropolis.com/files/file/32079-kaigata-92/?do=download&r=170023

@@ -1,0 +1,54 @@
+group: glenni
+name: skywalk-pack
+version: "2"
+subfolder: 700-transit
+info:
+  summary: Skywalk pack
+  description: |-
+    **Please delete older versions!**
+
+    This is a pack of skybridges/skywalks/skyways for your commercial or industrial areas.
+    I advice you to place these carefully, to get the right visual qualities, they can be a bit tedious to place at first, but find a suiting
+    spot and thery will fit in quite nicely.
+    There's 5 different models:
+
+    Round modern skywalk.
+    Square modern skywalk.
+    Industrial metal skywalk with graffiti.
+    Industrial skywalk with arched windows with white brick.
+    Industrial skywalk with arched windows with red brick.
+    Industrial skywalk with square windows.
+
+    Stats:
+    works like any bus stop but with a capacity of
+    15 000 for street
+    20 000 for road
+    40 000 for avenue
+
+    Thank you to: Simhottody for advice and putting up with me constantly bugging him about renders... ![:P](https://community.simtropolis.com/assets/emoticons/LlamaTounge.gif ":P")
+    B22rian and Tyberius for revamping the stats and functionality of these lots. ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)")
+    Dependencies:
+
+    BSC textures VOL 1 (need for avenue textures)
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    Rockefeller center Maxis official download (need for road textures:
+    Can either be found in the landmarks section on  SimCity.ea.com
+
+    OR [https://community.simtropolis.com/sc4-maxis-files/](https://community.simtropolis.com/sc4-maxis-files/)
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24129-skywalk-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6843d87050fac4743beccf57eb80cf54-Glenni-Skywalks1.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6843d87050fac4743beccf57eb80cf54-Glenni-Skywalks2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - maxis:buildings-as-props
+assets:
+  - assetId: glenni-skywalk-pack
+
+---
+assetId: glenni-skywalk-pack
+version: "2"
+lastModified: "2018-02-02T01:55:57Z"
+url: https://community.simtropolis.com/files/file/24129-skywalk-pack/?do=download&r=169911
