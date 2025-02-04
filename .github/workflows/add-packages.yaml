@@ -51,7 +51,9 @@ jobs:
         if: steps.fetch.outputs.has-new-content == 'true'
         uses: memo33/sc4pac-actions/actions/setup-lint@main
       - name: Create & update PRs
-        if: steps.fetch.outputs.has-new-content == 'true'
+        # IMPORTANT! We MUST NOT run this action conditionally, because it's 
+        # this action that will update the time we last polled the STEX!
+        # if: steps.fetch.outputs.has-new-content == 'true'
         id: create-prs
         uses: ./actions/create-prs
         with:
