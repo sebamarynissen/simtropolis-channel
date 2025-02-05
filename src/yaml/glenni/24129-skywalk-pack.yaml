@@ -44,8 +44,26 @@ info:
 dependencies:
   - bsc:textures-vol01
   - maxis:buildings-as-props
+  - glenni:skywalk-resources
 assets:
   - assetId: glenni-skywalk-pack
+    include: 
+    - "\\.SC4Lot$"
+
+group: glenni
+name: skywalk-resources
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: This is a pack of skybridges/skywalks/skyways for your commercial or industrial areas.
+  website: https://community.simtropolis.com/files/file/24129-skywalk-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6843d87050fac4743beccf57eb80cf54-Glenni-Skywalks1.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6843d87050fac4743beccf57eb80cf54-Glenni-Skywalks2.jpg
+assets:
+  - assetId: glenni-skywalk-pack
+    exclude: 
+    - "\\.SC4Lot$"
 
 ---
 assetId: glenni-skywalk-pack

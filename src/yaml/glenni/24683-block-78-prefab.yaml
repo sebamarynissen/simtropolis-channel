@@ -45,8 +45,11 @@ info:
     - https://www.simtropolis.com/objects/screens/0025/e2cfeb816ed9cb4b44b1548ff456c76e-block78-2.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
+  - glenni:soviet-era-playgrounds-resources
 assets:
   - assetId: glenni-block-78-prefab
+    exclude:
+    - "/Soviet Playgrounds/"
 
 ---
 assetId: glenni-block-78-prefab

@@ -35,8 +35,30 @@ info:
     - https://www.simtropolis.com/objects/screens/0018/a61102d30328a2b0743d71e52a8903f3-SovPlay-release2.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
+  - glenni:soviet-era-playgrounds-resources
 assets:
   - assetId: glenni-soviet-era-playgrounds
+    include:
+    - "\\.SC4Lot$"
+
+---
+group: glenni
+name: soviet-era-playgrounds-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Soviet era playgrounds= props and models
+  description: |-
+    Here's a small pack of playgrounds based on the designs of playgrounds from the Soviet Union, with classic play equipment such as miniature tanks, and murals on  the walls.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24591-soviet-era-playgrounds/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a61102d30328a2b0743d71e52a8903f3-SovPlay-release1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a61102d30328a2b0743d71e52a8903f3-SovPlay-release2.jpg
+assets:
+  - assetId: glenni-soviet-era-playgrounds
+    exclude:
+    - "\\.SC4Lot$"
 
 ---
 assetId: glenni-soviet-era-playgrounds
