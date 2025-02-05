@@ -1,0 +1,49 @@
+group: glenni
+name: tunnelpack-avenue-version
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Tunnelpack AVENUE version
+  description: |-
+    **(  Please don't request One way, Highway, Real Highway or  Network Widening Mod versions, i have the models, but i am doing this one step at a time, starting with roads! )**
+
+    These are a pack of tunnel models acting like Subway stops, seeing as adding additional tunnel models in SC4 at the time is impossible.
+
+    No nightlights though, i tried but couldn't get them to work in Max for whatever reason...
+
+    These are for avenue, remember that.
+
+    All models are HD rendered.
+
+    Stats:
+
+    70000 Capacity
+
+    Power: 1
+
+    Water:  0
+
+    dependencies:
+
+    BSC Textures VOL 01 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    Rockefeller.dat (official SimCity.com download)
+
+    Install to mydocuments\\simcity4\\plugins
+
+    Enjoy!
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24266-ndex-tunnelpack-avenue-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/970f924ba784613cc28d318e8bd1935f-tunnelpack-aves.jpg
+    - https://www.simtropolis.com/objects/screens/0017/970f924ba784613cc28d318e8bd1935f-tunnelpack-aves2.jpg
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: glenni-tunnelpack-avenue-version
+
+---
+assetId: glenni-tunnelpack-avenue-version
+version: "1.0"
+lastModified: "2010-06-27T15:34:46Z"
+url: https://community.simtropolis.com/files/file/24266-ndex-tunnelpack-avenue-version/?do=download&r=51427

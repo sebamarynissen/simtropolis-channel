@@ -1,0 +1,57 @@
+group: glenni
+name: tunnelpack-road-version
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Tunnelpack  ROAD version
+  description: |-
+    **(  Please don't request Avenue, One way, Highway, Real Highway or Network Widening Mod versions, i have the models, but i am doing this one step at a time, starting with roads! )**
+
+    These are a pack of tunnel models acting like Subway stops, seeing as adding additional tunnel models in SC4 at the time is impossible.
+
+    No nightlights though, i tried but couldn't get them to work in Max for whatever reason...
+
+    There's 3 versions included:
+
+    Yellow Lines
+
+    White Lines
+
+    Dashed Yellow Lines
+
+    All models are HD rendered.
+
+    Here's closeups of the models:
+
+    [http://i579.photobucket.com/albums/ss240/GlennR-91/Tunnels-HD-1.jpg](http://i579.photobucket.com/albums/ss240/GlennR-91/Tunnels-HD-1.jpg)
+
+    [http://i579.photobucket.com/albums/ss240/GlennR-91/Tunnels-HD-2.jpg](http://i579.photobucket.com/albums/ss240/GlennR-91/Tunnels-HD-2.jpg)
+
+    Stats:
+
+    50000 Capacity
+
+    Power:2
+
+    Water: 1
+
+    dependencies:
+
+    Rockefeller.dat (official SimCity.com download)
+
+    Enjoy!
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24195-ndex-tunnelpack-road-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5ad1a93b74182d8c4ffe41c8cacbaf95-Tunnelpack-glen1.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5ad1a93b74182d8c4ffe41c8cacbaf95-Tunnelpack-glen2.jpg
+assets:
+  - assetId: glenni-tunnelpack-road-version
+dependencies:
+  - maxis:rockefeller-center
+
+---
+assetId: glenni-tunnelpack-road-version
+version: "1.0"
+lastModified: "2010-06-21T05:44:21Z"
+url: https://community.simtropolis.com/files/file/24195-ndex-tunnelpack-road-version/?do=download&r=51321
