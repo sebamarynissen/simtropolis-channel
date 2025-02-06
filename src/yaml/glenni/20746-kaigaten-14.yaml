@@ -1,0 +1,58 @@
+group: glenni
+name: kaigaten-14
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Kaigaten 14
+  description: |-
+    Another building that might come in handy, it's a diagonal to orthogonal street corner building.
+
+    I have rendered two versions, one normal, and one inverse.
+
+    Stats:
+
+    Size: 1x1
+    Wealth Medium/§§
+    Bulldoze Cost: 319
+    Plop Cost: 5474
+    item Order: 14
+    \-Pollution raii-
+    Air: 5
+    Water: 6
+    Garbage: 0
+    Radiation: 0
+    Flammability: 40
+    MaxFireStage: 3
+    Power Consumed: 10
+    Water Consumed: 115
+    Jobs §§: 119
+    Jobs when degraded to §: 466
+
+    Place the file into mydocuments/simcity4/plugins It's advised to make a folder for NDEX and my stuff within
+
+    plugins, in order to organise it.
+
+    dependencies:
+
+    [https://community.simtropolis.com/files/file/20564-ndex\-glenni-mega-props-vol02/](https://community.simtropolis.com/files/file/20564-ndex-glenni-mega-props-vol02/)
+
+    Have fun with it, now. ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif ";)")
+
+    * * *
+
+    Mod Edit: Fixed broken dependency link.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/20746-ndex-kaigaten-14/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3419d191816f18802b24fe8dc1d56c81-ndex1-kaigaten.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3419d191816f18802b24fe8dc1d56c81-ndex1-kaigaten1.jpg
+dependencies:
+  - ndex:glenni-mega-props-vol02
+assets:
+  - assetId: glenni-kaigaten-14
+
+---
+assetId: glenni-kaigaten-14
+version: "1.0"
+lastModified: "2008-12-01T00:01:10Z"
+url: https://community.simtropolis.com/files/file/20746-ndex-kaigaten-14/?do=download&r=46367

@@ -1,0 +1,35 @@
+group: glenni
+name: utheim-bridge
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Utheim bridge
+  description: |-
+    Here's a wooden suspenbridge inspired by one i saw a photo of, which is near Røros, Norway.
+
+    The span is 4 tiles, and as last time the model overhangs over the 1x1 lot.
+
+    It's found in the parks menu.
+
+    dependencies:
+
+    [As last time you gonna need the meandering bike trail set.](https://www.simtropolis.com/stex/details.cfm?id=13100)
+
+    Enjoy now!
+
+    [Inspriation Source](http://www.flickr.com/photos/15034855@N08/2212445842/sizes/l/)
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/21630-utheim-bridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/05781853ed224fd917820a738beabd72-utheim1.jpg
+    - https://www.simtropolis.com/objects/screens/0001/05781853ed224fd917820a738beabd72-utheim2.jpg
+dependencies:
+  - 6459978:meandering-bike-paths-resources
+assets:
+  - assetId: glenni-utheim-bridge
+
+---
+assetId: glenni-utheim-bridge
+version: "1.0"
+lastModified: "2009-04-30T07:16:31Z"
+url: https://community.simtropolis.com/files/file/21630-utheim-bridge/?do=download&r=47639
