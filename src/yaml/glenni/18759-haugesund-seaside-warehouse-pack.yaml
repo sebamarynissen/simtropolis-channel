@@ -1,0 +1,97 @@
+group: glenni
+name: haugesund-seaside-warehouse-pack
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Haugesund seaside warehouse pack
+  description: |-
+    This pack is a recreation of the old type of wooden warehouses or packhouses, as some call them. These were built in the coastal communities of Norway.  for instance, my hometown,  Haugesund, these kind of buildings are even found in the major cities of Norway, like: Bergen , Trondheim and Stavanger.
+    They were mostly constructed for storing, salting, and preparing fish for transport. Though they also had their purpose as warehouses for storing wood and barrels of fish, some also made their own barrels at the site.
+
+    **More images:**
+    The model of packhouse 2
+    The model of packhouse 3
+
+    **IM Haugesund Version:**
+
+    Lot size: 3 x 4
+
+    Menu position: Water Transit
+
+    Jobs: 224 I-M
+
+    Plop cost: §5752
+
+    Bulldoze cost: §377
+
+    Max. Fire Stage: 4
+
+    Power consumption: 14 MWh/month
+
+    Water consumption: 202 Gallons/month
+
+    Air pollution: 13 over 16 tiles
+
+    Water pollution: 8 over 20 tiles
+
+    Garbage pollution: 4 over 0 tiles
+
+    **CS Glenni Version:**
+
+    Lot size: 4 x 4
+
+    Menu position: Water Transit
+
+    Jobs: 612 CS$
+
+    Plop cost: §4902
+
+    Bulldoze cost: §320
+
+    Max. Fire Stage: 4
+
+    Power consumption: 14 MWh/month
+
+    Water consumption: 135 Gallons/month
+
+    Air pollution: 6 over 5 tiles
+
+    Water pollution: 3 over 5 tiles
+
+    Garbage pollution: 20 over 0 tiles
+
+    **Dependencies:**
+
+    [PEGCDK REC Prop Pack 1](https://community.simtropolis.com/files/file/11775-pegcdk-rec-prop-pack-1/)
+
+    [PEG CDKOWW Seaport Village](https://community.simtropolis.com/files/file/12030-peg-cdkoww-seaport-village/)
+
+    [PEG CDKOWW Development Pack Vol 1](https://community.simtropolis.com/files/file/12007-peg-cdkoww-development-pack-vol-1/)
+
+    [PEG CDK3 Vehicle Pack 1](https://community.simtropolis.com/files/file/19267-peg-cdk3-vehicle-pack-1/)
+
+    [BSC MEGA Props - RT WFK N Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=285)
+
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    2014-07-15 - Prens: Fixed broken description.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/18759-haugesund-seaside-warehouse-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/567199e4fdfb7d1161f051a9d51f362c-glenniwarehouses_d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/985fff503f2bfb661283dca56fe395f7-glenniwarehouses_n.jpg
+dependencies:
+  - peg:cdkoww-development-pack-vol01
+  - peg:cdkoww-seaport-village
+  - peg:cdk-rec-prop-pack-1
+  - bsc:mega-props-rt-wfk-vol02-wimps
+  - bsc:textures-vol01
+  - peg:cdk3-vehicle-pack-1
+assets:
+  - assetId: glenni-haugesund-seaside-warehouse-pack
+
+---
+assetId: glenni-haugesund-seaside-warehouse-pack
+version: "1.0"
+lastModified: "2007-10-06T07:42:40Z"
+url: https://community.simtropolis.com/files/file/18759-haugesund-seaside-warehouse-pack/?do=download&r=137861
