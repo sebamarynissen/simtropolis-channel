@@ -1,0 +1,87 @@
+group: ill-tonkso
+name: uk-high-street-shops-tonkso-set-3
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: UK High Street Shops  Tonkso Set 3
+  description: |-
+    **High Street Shop Pack 3**
+
+    Heres another Set of 10 Ploppable and Growable Lots with shops such as,
+
+    -   The Link
+    -   Topshop
+    -   Lloyds TSB
+    -   Caffe Nero
+    -   Marks and Spencer
+    -   Pilot
+    -   Dixons
+    -   Gamestation
+    -   Subway
+    -   The Early Learning Center
+    -   Tesco Express
+    -   Laura Ashley
+    -   Game
+    -   Tesco Express
+    -   Burger King
+    -   Orange
+    -   Next
+    -   Virgin Megastore
+    -   Hallmark
+    -   New Look
+    -   H&M
+    -   Ottakers
+    -   Toyzone
+    -   WHSmith
+    -   Woolworths
+
+    All Lots fit 2x2 and contain 3 Shop units each.
+    Shown here used with the Pedestrian Malls featured in the NAM
+
+         **Dependencies**
+
+    BSC MEGA Props Gascooker Vol01
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=397](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+    Roof Junk Prop dependency Included in ZIP
+
+           **Thankyou**
+
+    Thankyou to Barbyw for Modding the Lots for me.       ZIP Contains 20 lots, 3 prop descs, 13 BAT models.
+
+    Staff Edit: Fixed dependency link.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13632-uk-high-street-shops-tonkso-set-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/ff62488896a2dbf418df7636261d2101-brumfieldshopupdate1.jpg
+    - https://www.simtropolis.com/objects/screens/0028/ff62488896a2dbf418df7636261d2101-Uploaddansshoppack3tonksoSTEXBAT.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ill-tonsko:old-shops-props
+assets:
+  - assetId: ill-tonkso-uk-high-street-shops-tonkso-set-3
+    exclude:
+      - "/ITS_PropPack_Old_Shops.dat"
+
+
+group: ill-tonkso
+name: old-shops-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: UK High Street Shops and misc props
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13632-uk-high-street-shops-tonkso-set-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/ff62488896a2dbf418df7636261d2101-brumfieldshopupdate1.jpg
+    - https://www.simtropolis.com/objects/screens/0028/ff62488896a2dbf418df7636261d2101-Uploaddansshoppack3tonksoSTEXBAT.jpg
+assets:
+  - assetId: ill-tonkso-uk-high-street-shops-tonkso-set-3
+    include:
+      - "/ITS_PropPack_Old_Shops.dat"
+
+---
+assetId: ill-tonkso-uk-high-street-shops-tonkso-set-3
+version: "1.0"
+lastModified: "2005-09-13T09:34:56Z"
+url: https://community.simtropolis.com/files/file/13632-uk-high-street-shops-tonkso-set-3/?do=download&r=35011
