@@ -1,0 +1,67 @@
+group: onlyplace4
+name: blam-signage-volume-2
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: BLaM Signage Volume 2
+  description: |-
+    This pack of props contains a further 21 characters to enhance the signs you can make for your city. All props can be found in the Lot Editor with the following names:
+
+    The numbers 0 to 9 - named BLaM\_signs\_\[number\]\_clean
+
+    § (the symbol used for Simoleans) - named BLaM\_signs\_section\_clean
+
+    $ - named BLaM\_signs\_dollar\_clean
+
+    © - named BLaM\_signs\_copyright\_clean
+
+    ® - named BLaM\_signs\_registered\_clean
+
+    @ - named BLaM\_signs\_ampersand\_clean
+
+    Å - named BLaM\_signs\_A\_ring\_clean
+
+    Ç - named BLaM\_signs\_C\_cedilla\_clean
+
+    Æ - named BLaM\_signs\_AE\_lig\_clean
+
+    Ø - named BLaM\_signs\_O\_slash\_clean
+
+    Œ - named BLaM\_signs\_OE\_lig\_clean
+
+    € - named BLaM\_signs\_euro\_clean
+
+    The props are contained in the file **BLaM\_signs\_clean\_v2.dat**. The test lot is contained in the file **BLaMSignsV2Test.dat**.
+
+    As these are props there are no statistics. You are free to use these props in anyway you feel fit, but please do not include the props with any files you release, but instead point users to this file as a dependency. Many thanks.
+
+    **To instal**
+
+    BLaM recommends the making of a folder named BLaM within your plugins folder. The contents of the folder contained within the download zip archive may then be dragged directly to that folder.
+
+    **Credits**
+
+    BAT: op4
+
+    Thank you to the entire BLaM team for their constant support.
+
+    **Release Notes**
+
+    All BLaM releases are available on the SimTropolis Exchange (STEX) and the SimCities Exchange (SCExchange). Individual members may release at other locations in addition to these. Please check the relevant readme file(s).
+
+    ***BLaM Signage Volume 2 v1.0***
+  author: onlyplace4
+  website: https://community.simtropolis.com/files/file/17862-blam-signage-volume-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3d584caa3828084990cf0e99eec29976-day.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3d584caa3828084990cf0e99eec29976-night.jpg
+assets:
+  - assetId: onlyplace4-blam-signage-volume-2
+    include:
+      - "/BLaM_signs_clean_v2.dat"
+
+---
+assetId: onlyplace4-blam-signage-volume-2
+version: "1.0"
+lastModified: "2007-03-11T08:56:02Z"
+url: https://community.simtropolis.com/files/file/17862-blam-signage-volume-2/?do=download&r=41433

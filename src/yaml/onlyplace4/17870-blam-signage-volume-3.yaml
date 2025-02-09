@@ -1,0 +1,45 @@
+group: onlyplace4
+name: blam-signage-volume-3
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: BLaM Signage Volume 3
+  description: |-
+    This pack of props contains a further 29 characters to enhance the signs you can make for your city. All props can be found in the Lot Editor with hopefully self-explanatory names. The characters in this pack are:
+
+    &, £, ¥, ¼, ½, ¾, Á, À, Â, Ã, Ä, É, È, Ê, Í, Ì, Î, Ï, Ï, Ñ, Ó, Ò, Ô, Ö, Õ, Ú, Ù, Û, Ü
+
+    The props are contained in the file **BLaM\_signs\_clean\_v3.dat**. The test lot is contained in the file **BLaMSignsV3Test.dat**.
+
+    As these are props there are no statistics. You are free to use these props in anyway you feel fit, but please do not include the props with any files you release, but instead point users to this file as a dependency. Many thanks.
+
+    **To instal**
+
+    BLaM recommends the making of a folder named BLaM within your plugins folder. The contents of the folder contained within the download zip archive may then be dragged directly to that folder.
+
+    **Credits**
+
+    BAT: op4
+
+    Thank you to the entire BLaM team for their constant support.
+
+    **Release Notes**
+
+    All BLaM releases are available on the SimTropolis Exchange (STEX) and the SimCities Exchange (SCExchange). Individual members may release at other locations in addition to these. Please check the relevant readme file(s).
+
+    ***BLaM Signage Volume 3 v1.0***
+  author: onlyplace4
+  website: https://community.simtropolis.com/files/file/17870-blam-signage-volume-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3e295413c7088b8e13f5a5fd56da5649-day.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3e295413c7088b8e13f5a5fd56da5649-night.jpg
+assets:
+  - assetId: onlyplace4-blam-signage-volume-3
+    include:
+      - "/BLaM_signs_clean_v3.dat"
+
+---
+assetId: onlyplace4-blam-signage-volume-3
+version: "1.0"
+lastModified: "2007-03-13T17:02:00Z"
+url: https://community.simtropolis.com/files/file/17870-blam-signage-volume-3/?do=download&r=41447

@@ -1,0 +1,44 @@
+group: onlyplace4
+name: blam-signage-volume-1
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: BLaM Signage Volume 1
+  description: |-
+    This pack of props contains the 26 letters of the alphabet (all capitals) situated on frames to enable you to make "Hollywood" style city name signs, or indeed any similar signs you might need. 
+
+    The letters are contained in the file **BLaM\_signs\_clean.dat**. All props can be found in the Lot Editor with the format **BLaM\_signs\_\[letter\]\_clean**, this naming being used as I intend to do weathered and rusty versions at a later date.
+
+    As these are props there are no statistics. You are free to use these props in anyway you feel fit, but please do not include the props with any files you release, but instead point users to this file as a dependency. Many thanks.
+
+    To instal
+
+    BLaM recommends the making of a folder named BLaM within your plugins folder. The contents of the folder contained within the download zip archive may then be dragged directly to that folder.
+
+    **Credits**
+
+    BAT: op4
+
+    Thank you to the entire BLaM team for their constant support.
+
+    **Release Notes**
+
+    All BLaM releases are available on the SimTropolis Exchange (STEX) and the SimCities Exchange (SCExchange). Individual members may release at other locations in addition to these. Please check the relevant readme file(s).
+
+    ***BLaM Signage Volume 1 v1.0***
+  author: onlyplace4
+  website: https://community.simtropolis.com/files/file/17861-blam-signage-volume-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7d76d1fac4cf31010cf9aba27bfdccf0-day.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7d76d1fac4cf31010cf9aba27bfdccf0-night.jpg
+assets:
+  - assetId: onlyplace4-blam-signage-volume-1
+    include:
+      - "/BLaM_signs_clean.dat"
+
+
+---
+assetId: onlyplace4-blam-signage-volume-1
+version: "1.0"
+lastModified: "2007-03-10T21:30:01Z"
+url: https://community.simtropolis.com/files/file/17861-blam-signage-volume-1/?do=download&r=41431
