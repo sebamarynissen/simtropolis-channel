@@ -1,6 +1,6 @@
 // # integration-test.js
 import { expect } from 'chai';
-import { Document, parseAllDocuments, stringify } from 'yaml';
+import { Document, parseAllDocuments, parseDocument, stringify } from 'yaml';
 import mime from 'mime';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
@@ -858,6 +858,33 @@ describe('The fetch action', function() {
 				},
 			],
 		});
+
+	});
+
+	it('automatically quotes boolean-like values', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							variants: [
+								{ variant: { 'some-feature': 'on' } },
+								{ variant: { 'some-feature': 'off' } },
+							],
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		let { fs, result } = await run();
+		let raw = fs.readFileSync(`/${result.additions[0]}`).toString();
+		let doc = parseDocument(raw);
+		for (let i = 0; i < 2; i++) {
+			let prop = doc.getIn(['variants', i, 'variant', 'some-feature'], true);
+			expect(prop.type).to.equal('QUOTE_DOUBLE');
+		}
 
 	});
 
