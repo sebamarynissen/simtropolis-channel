@@ -1,4 +1,7 @@
 // # stylize-doc.js
+import { visit } from 'yaml';
+const booleans = /(on|off|true|false|yes|no)/i;
+
 // # stylize(doc)
 // Applies an opinionated way on how to stringify the metadata.
 export default function stylize(doc) {
@@ -33,5 +36,16 @@ export default function stylize(doc) {
 		}
 
 	}
+
+	// Make sure that any boolean-like values are properly quoted to avoid the 
+	// linter choking over it.
+	visit(doc, {
+		Scalar(key, node) {
+			if (typeof node.value === 'string' && node.value.match(booleans)) {
+				node.type = 'QUOTE_DOUBLE';
+			}
+		},
+	});
 	return doc;
+
 }
