@@ -67,11 +67,19 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/Ranger_at_New_Vegas2_entrance.jpg.d5ca618aab27bb8c75e4d56e4f2edaec.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/DN.jpg.b2f476719706868899b26a1d8b027b05.jpg.badbdb3ee044612c44bf77e82c2c4ba8.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/62e3175af2987_DayLotTestFalloutPropVol1.jpg.3a8488d2d461d4a2f369cd17c85ec1d9.jpg.8e1f6cbc43827200d1f9b2885aa13c56.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ulisse-wolf-fallout-modpack-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ulisse-wolf-fallout-modpack-darknite
 assets:
   - assetId: ulisse-wolf-fallout-modpack
 
 ---
 assetId: ulisse-wolf-fallout-modpack
 version: "3.0"
-lastModified: "2025-02-11T19:26:47Z"
-url: https://community.simtropolis.com/files/file/36616-fallout-modpack/?do=download&r=205728
+lastModified: "2025-02-11T20:09:15Z"
+url: https://community.simtropolis.com/files/file/36616-fallout-modpack/?do=download&r=205732
