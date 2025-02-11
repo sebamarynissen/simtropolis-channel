@@ -1,6 +1,6 @@
 // # stylize-doc.js
 import { visit } from 'yaml';
-const booleans = /(on|off|true|false|yes|no)/i;
+const booleans = /^(on|off|true|false|yes|no)$/i;
 
 // # stylize(doc)
 // Applies an opinionated way on how to stringify the metadata.
