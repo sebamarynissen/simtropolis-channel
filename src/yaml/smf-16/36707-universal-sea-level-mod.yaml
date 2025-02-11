@@ -1,31 +1,70 @@
 group: smf-16
 name: universal-sea-level-mod
-version: "1.0.2"
+"version": "1.0.2"
 subfolder: 150-mods
 info:
   summary: Universal Sea Level Mod
-  description: |-
-    Sea level mods have been around for a long time (for example [here](https://community.simtropolis.com/files/file/20378-blam-sea-level-mod/)). However, the downside is that they typically don't work with terrain mods because either the terrain mod will override the sea level mod file, or the sea level mod will override the terrain mod file, depending on the load order of the files. The solution is to manually edit your terrain mod in the Reader, but this is cumbersome, especially if you just need to temporarily lower the sea level to shape your coastline. There is also the **SetSeaLevel** cheat, but this one does not allow you to set the sea level above 250, and it will destroy stuff like power lines or bridges, so I'd stay away from it.
+  "description": "Sea level mods have been around for a long time (for example
+    [here](https://community.simtropolis.com/files/file/20378-blam-sea-level-mo\
+    d/)). However, the downside is that they typically don't work with terrain
+    mods because either the terrain mod will override the sea level mod file, or
+    the sea level mod will override the terrain mod file, depending on the load
+    order of the files. The solution is to manually edit your terrain mod in the
+    Reader, but this is cumbersome, especially if you just need to temporarily
+    lower the sea level to shape your coastline. There is also the
+    **SetSeaLevel** cheat, but this one does not allow you to set the sea level
+    above 250, and it will destroy stuff like power lines or bridges, so I'd
+    stay away from it.
 
-    This mod solves this by leveraging [exemplar patching](https://github.com/memo33/submenus-dll?tab=readme-ov-file#exemplar-patching). This allows the mod to override only a single property from your terrain mod file, without needing to override all other properties in it. This means that this sea level mod is (or at least should be) compatible with all terrain mods, as well as Maxis vanilla terrain.
 
-    I included 7 different heights: 0m, 250m (the default game water level, useful if you're using a terrain mod that alters the sea level and you don't want this), 500m, 750m, 1000m, 1500m and 2000m. **Choose only one of them, obviously.** If you have a good reason to have another height, you can send me a request to add it, or you can just open the .dat file in the Reader and update the "Sea Level" property.
+    This mod solves this by leveraging [exemplar
+    patching](https://github.com/memo33/submenus-dll?tab=readme-ov-file#exempla\
+    r-patching). This allows the mod to override only a single property from
+    your terrain mod file, without needing to override all other properties in
+    it. This means that this sea level mod is (or at least should be) compatible
+    with all terrain mods, as well as Maxis vanilla terrain.
 
-    Do yourself a favor and install this with [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/). This allows you to quickly switch heights by resetting the **smf-16:universal-sea-level-mod:height** variant. Within less than a minute you can be back in the game with the modified sea level. It also adds a specific "off" variant to disable the mod, but keep it in your sc4pac configuration. I recommend this instead of uninstalling it because it makes it easier to reset the sea level to 0 temporarily.
+
+    I included 7 different heights: 0m, 250m (the default game water level,
+    useful if you're using a terrain mod that alters the sea level and you don't
+    want this), 500m, 750m, 1000m, 1500m and 2000m. **Choose only one of them,
+    obviously.** If you have a good reason to have another height, you can send
+    me a request to add it, or you can just open the .dat file in the Reader and
+    update the \"Sea Level\" property.
+
+
+    Do yourself a favor and install this with
+    [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-mana\
+    ger/). This allows you to quickly switch heights by resetting the
+    **smf-16:universal-sea-level-mod:height** variant. Within less than a minute
+    you can be back in the game with the modified sea level. It also adds a
+    specific \"off\" variant to disable the mod, but keep it in your sc4pac
+    configuration. I recommend this instead of uninstalling it because it makes
+    it easier to reset the sea level to 0 temporarily.
+
 
     Dependencies:
 
-    -   [memo:submenus-dll](https://community.simtropolis.com/files/file/36142-submenus-dll/) (this is needed for the exemplar functionality to work).
+
+    -   [memo:submenus-dll](https://community.simtropolis.com/files/file/36142-\
+    submenus-dll/) (this is needed for the exemplar functionality to work)."
   author: smf_16
   website: https://community.simtropolis.com/files/file/36707-universal-sea-level-mod/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/0m.jpg.cd626433b31635660d97296320bb4cc4.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/250m.jpg.476bab4f210184c3280463c0db716f5c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/500m.jpg.e6e1ae638e4535a278dcf5e5c5fce81d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/750m.jpg.99ff09de4245896dbd4b6f65bc83c22c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/1000m.jpg.98c66fb0202e3827c406f2c50efd70b6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/1500m.jpg.57ed7239bbbc0cdd3320e5902568f7f2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/2000m.jpg.c049b47c4075f3a4cd7fbae8ebfdbdbd.jpg
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_02/0m.jpg.cd626\
+      433b31635660d97296320bb4cc4.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_02/250m.jpg.476\
+      bab4f210184c3280463c0db716f5c.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_02/500m.jpg.e6e\
+      1ae638e4535a278dcf5e5c5fce81d.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_02/750m.jpg.99f\
+      f09de4245896dbd4b6f65bc83c22c.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_02/1000m.jpg.98\
+      c66fb0202e3827c406f2c50efd70b6.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_02/1500m.jpg.57\
+      ed7239bbbc0cdd3320e5902568f7f2.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_02/2000m.jpg.c0\
+      49b47c4075f3a4cd7fbae8ebfdbdbd.jpg"
 dependencies:
   - memo:submenus-dll
 variants:
@@ -64,7 +103,7 @@ variants:
       - assetId: smf-16-universal-sea-level-mod
         include:
           - 2000m.dat
-  - variant: { smf-16:universal-sea-level-mod:height: off }
+  - variant: { smf-16:universal-sea-level-mod:height: "off" }
 assets:
   - assetId: smf-16-universal-sea-level-mod
 
