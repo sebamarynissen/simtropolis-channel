@@ -1,0 +1,54 @@
+group: ulisse-wolf
+name: hybrid-railway-hrw-subway-converter
+version: "3.0"
+subfolder: 700-transit
+info:
+  summary: Hybrid Railway (HRW) Subway Converter
+  description: |-
+    **Hybrid Railway (HRW) Subway Converter**
+
+    After a long development finally Hybrid Railway (HRW) has a tunnel system. This mod is a pioneer in the field of Hybrid Railway as it is the only mod that manages to convert rail and monorail traffic into subways and vice versa simultaneously.
+
+    This mod was developed in collaboration with MTA (Mass Transit Authority) a group of the NAM team responsible for creating stations and station development standards.
+
+    This mod obviously has a limitation. Using the subway this lot cannot transfer rail freight transport using the subway. In addition, the traffic inside the tunnel is considered as subway traffic and for this reason when you use this mod the subway you use as a tunnel the game classifies it as if it were a normal subway. For this you have to avoid connections with other *normal subway* networks if you want optimal management of HRW Subway Converter.
+
+    Also in this mod there is HRW Subway Ramp developed by [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/) who gave me permission to publish his mod in this package
+
+    The lots in this package support U-RAIL allowing the use of the underground rail and therefore also the support for freight trains. For the moment U-RAIL does not support monorail but the NAM Team is thinking of including support in a later NAM version.
+
+    The Gotthard Base Tunnel version contains two lots that perform the same function but year slightly different configurations for U-RAIL support. The Gotthard Base Tunnel version contains two batches that perform the same function but have slightly different configurations for the U-RAIL support that can cause aesthetic alterations. You can install both or one of the two versions (V1 or V2).
+
+    To make this lots work you need only one dependency
+
+    **INSTALLATION**
+
+    The installation method has been automated but the user must choose which version of the mod to install based on the traffic direction.
+
+    -   If using RHD (Right Hand Drive) then he must select HRW Subway Converters RHD.
+    -   If using LHD (Left Hand Drive) then he must select HRW Subway Converters LHD
+
+    **DEPENDENCY**
+
+    **[Network Addon Mod](https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/)**
+
+    Thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/), [@IDS2](https://community.simtropolis.com/profile/70889-ids2/), rsc204 for helping me make this package
+
+    **LICENSING:**
+    This lot (Excluding HRW Ramp Subway Converter whose credits go to MGB /rsc204) is provided as free content to SimCity 4 players, who are free to modify it for their use and for production of derivative maps for publication.
+    Should the author be absent from Simtropolis.com for more than a year, site staff or individual users may re-host the file, as long as due credit is given to him, user [@ulisse](https://community.simtropolis.com/profile/321174-ulisse/)
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/35036-hybrid-railway-hrw-subway-converter/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249f98c9af8c_HRWGotthardv2placement.jpg.4f365f0089df539351ba86a8bb74353e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249f9900add0_HRWGotthardv1placement.jpg.6361c0ff362cef7c20425d1c1125f2d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249fa80ae995_HRWSubwayConverter3.jpg.eb5ec01433160c53cd8f055498cd13b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249fa840ca0a_HRWSubwayConverter4.jpg.659df7342504ea84c10919609beb8069.jpg
+assets:
+  - assetId: ulisse-wolf-hybrid-railway-hrw-subway-converter
+
+---
+assetId: ulisse-wolf-hybrid-railway-hrw-subway-converter
+version: "3.0"
+lastModified: "2025-02-11T22:20:02Z"
+url: https://community.simtropolis.com/files/file/35036-hybrid-railway-hrw-subway-converter/?do=download&r=205784
