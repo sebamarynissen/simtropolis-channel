@@ -885,6 +885,8 @@ describe('The fetch action', function() {
 			let prop = doc.getIn(['variants', i, 'variant', 'some-feature'], true);
 			expect(prop.type).to.equal('QUOTE_DOUBLE');
 		}
+		let desc = doc.getIn(['info'], true).items.find(item => item.key.value === 'description').key;
+		expect(desc.type).to.equal('PLAIN');
 
 	});
 
