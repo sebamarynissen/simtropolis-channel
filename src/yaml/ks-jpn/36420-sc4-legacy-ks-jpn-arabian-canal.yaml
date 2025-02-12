@@ -1,0 +1,66 @@
+group: ks-jpn
+name: sc4-legacy-ks-jpn-arabian-canal
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: SC4 Legacy - KS_JPN Arabian Canal
+  description: |-
+    #### **SC4 Legacy - KS\_JPN Arabian Canal**
+
+    This SC4 Devotion LEX Legacy Pack features the complete set of the Arabain Canal by KS\_JPN, including Props and Lots, which had been available on the Lot Exchange (LEX) at SC4 Devotion. After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+
+    ### INSTALLATION:
+
+    This package is a simple .zip file. Just extract the ks\_jpn folder to your My Documents/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer [nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the older [BSC Cleanitol](index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool you can search and remove old and outdated versions of these files.
+
+    ### DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    -   [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    ### DEPENDENCIES:
+
+    The following files are required in order for the contents of this package to appear correctly and they work correctly (i.e., no "brown boxes" or missing textures) (Bear in mind that the original readmes are also available in the *~Documents/Boston BigDig\_Readmes* folder, but they have **not** been updated):
+
+    -   [SC4D LEX Legacy - ks\_JPN Dependencies Pack V2](index.php/downloads/download/22-dependencies/153-sc4d-lex-legacy-ks-jpn-dependencies) (and above)
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+
+    -   ks\_jpn MEGA Props Vol16
+
+    ### **CREDITS:**
+
+    The following members contributed models, textures, and modding support to this collection:
+
+    -   KS\_JPN
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06 and Ulisse Wolf.
+
+    ##### Special Thanks
+
+    Webmaster & administration staff at SC4 Devotion & Simtropolis
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+  author: ks_JPN
+  website: https://community.simtropolis.com/files/file/36420-sc4-legacy-ks_jpn-arabian-canal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/c2.jpg.20a078cba60fc9534c42e44607ae5f5a.jpg
+dependencies:
+  - memo:submenus-dll
+assets:
+  - assetId: ks-jpn-sc4-legacy-ks-jpn-arabian-canal
+
+---
+assetId: ks-jpn-sc4-legacy-ks-jpn-arabian-canal
+version: "2.0.0"
+lastModified: "2025-02-12T15:58:54Z"
+url: https://community.simtropolis.com/files/file/36420-sc4-legacy-ks_jpn-arabian-canal/?do=download&r=205794
