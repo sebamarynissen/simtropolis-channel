@@ -1,7 +1,7 @@
 // # handle-upload.js
 import nodeFs from 'node:fs';
 import path from 'node:path';
-import { Document } from 'yaml';
+import { Document, parseAllDocuments } from 'yaml';
 import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
 import Downloader from './downloader.js';
@@ -71,6 +71,19 @@ export default async function handleUpload(json, opts = {}) {
 
 	}
 
+	// If the metadata was specified as part of the STEX api response, then this 
+	// overrides any metadata.yaml file from the assets.
+	let errors = [];
+	if (json.metadata) {
+		try {
+			let docs = parseAllDocuments(json.metadata);
+			parsedMetadata = [docs];
+		} catch (e) {
+			errors.push(`Unable to parse metadata for ${json.fileURL}: ${e.message}`);
+			parsedMetadata = [{}];
+		}
+	}
+
 	// Compile a custom cleanup function that we use for early returns.
 	const clean = async () => {
 		for (let fn of cleanup) await fn();
@@ -79,7 +92,6 @@ export default async function handleUpload(json, opts = {}) {
 	// If we have not found any metadata at this moment, then we skip this 
 	// package. It means the user has not made their package compatible with 
 	// sc4pac.
-	let errors = [];
 	const { requireMetadata = true } = opts;
 	if (parsedMetadata.length === 0 && requireMetadata) {
 		await clean();
@@ -98,11 +110,13 @@ export default async function handleUpload(json, opts = {}) {
 	let [userMetadata] = parsedMetadata;
 
 	// If we reach this point, we're sure to include the package. We now need to 
-	// complete the metadata from the api by resorting to HTML scraping as the 
-	// description, images and subfolder cannot be derived directly from the api 
-	// response. The goal is to eventually remove this call when the STEX api 
-	// has been updated to include this as well.
-	await completeMetadata(metadata, json);
+	// complete the metadata from the api by resorting to HTML scraping, but 
+	// only if no subfolder is present in the user-specified metadata. Once the 
+	// file descriptor info is in the STEX api response as well, we can get rid 
+	// of it alltogether.
+	if (userMetadata.some(pkg => pkg.group && !pkg.subfolder)) {
+		await completeMetadata(metadata, json);
+	}
 
 	// Now that we have the completed metadata, we will generate the variants.
 	// Note that at this point we haven't used any information from the *custom* 

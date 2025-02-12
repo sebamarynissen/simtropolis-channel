@@ -28,6 +28,7 @@ export default async function fetchPackage(opts) {
 	url.searchParams.set('mode', 'updated');
 	url.searchParams.set('desctype', 'html,urls');
 	url.searchParams.set('images', 'main');
+	url.searchParams.set('metadata', true);
 
 	// If an id is given, then we will not check when we fetched the latest 
 	// uploads from the api, but only request the specified file. Useful for 

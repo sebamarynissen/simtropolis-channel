@@ -31,6 +31,7 @@ export default async function fetchAll(urls, opts = {}) {
 	url.searchParams.set('id', ids.join(','));
 	url.searchParams.set('desctype', 'html,urls');
 	url.searchParams.set('images', 'main');
+	url.searchParams.set('metadata', true);
 	let res = await fetch(url);
 	let json = await res.json();
 
