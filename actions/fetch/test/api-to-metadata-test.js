@@ -34,6 +34,7 @@ describe('#apiToMetadata', function() {
 			aliasEntry: 'meadowbrook-plaza-fixed',
 			aliasAuthor: 'smf_16',
 			fileURL: 'https://community.simtropolis.com/files/file/36596-meadowbrook-plaza-fixed/',
+			descriptor: 'Commercial,Re-lot',
 		});
 		let { package: pkg, assets } = meta;
 		expect(pkg.group).to.equal('smf-16');
@@ -63,7 +64,7 @@ describe('#apiToMetadata', function() {
 			cid: 101,
 			uid: 85340,
 			author: 'Jasoncw',
-			category: 'Residential',
+			descriptor: 'Residential',
 			title: 'Newport House',
 			release: '1.0.0',
 			submitted: '2024-12-05 04:10:52',

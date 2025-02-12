@@ -9,7 +9,7 @@ import parseDescription from './parse-description.js';
 // Transforms a single json results from the STEX api to the basic metadata 
 // structure.
 export default function apiToMetadata(json, opts = {}) {
-	let description = parseDescription(json.descHTML ?? '');
+	let description = json.descHTML && parseDescription(json.descHTML);
 	let descriptors = json.descriptor?.split(',').map(x => x.trim());
 	let pkg = {
 		group: slugify(json.group || json.author),
@@ -147,16 +147,25 @@ export function descriptorsToSubfolder(descriptors, description) {
 	// is possible to set when uploading a file. For example, we've seen 
 	// Residential Re-lot. Hence we use a mechanism first for "normalizing" the 
 	// keys by progressively looking up the "parent" name.
+	if (!descriptors) return descriptors;
 	let keys = Object.keys(descriptorMap);
-	let normalized = descriptors.map(desc => {
-		let pivot = desc;
-		while (pivot && !Object.hasOwn(descriptorMap, pivot)) {
-			let parts = pivot.split('-');
-			parts.pop();
-			pivot = parts.join('-');
-		}
-		return pivot || desc;
-	});
+	let normalized = descriptors
+		.map(descriptor => {
+			return descriptor
+				.trim()
+				.toLowerCase()
+				.replaceAll(/\s+/g, '-')
+				.replaceAll(/-+/g, '-');
+		})
+		.map(desc => {
+			let pivot = desc;
+			while (pivot && !Object.hasOwn(descriptorMap, pivot)) {
+				let parts = pivot.split('-');
+				parts.pop();
+				pivot = parts.join('-');
+			}
+			return pivot || desc;
+		});
 
 	// Now properly sort so that "residential" for example comes before "mod".
 	let sorted = [...normalized].sort((a, b) => {

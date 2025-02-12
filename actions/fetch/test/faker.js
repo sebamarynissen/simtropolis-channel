@@ -61,7 +61,7 @@ export function upload(upload = {}) {
 		submitted: formatDate(submitted),
 		updated: formatDate(updated),
 		[Symbol.for('test.description')]: description,
-		descHTML: marked(description),
+		...description && { descHTML: marked(description) },
 		images,
 		files: files.map(props => {
 			if (typeof props === 'string') {
