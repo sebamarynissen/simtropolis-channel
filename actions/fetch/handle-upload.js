@@ -5,7 +5,6 @@ import { Document, parseAllDocuments } from 'yaml';
 import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
 import Downloader from './downloader.js';
-import completeMetadata from './complete-metadata.js';
 import generateVariants from './generate-variants.js';
 import patchMetadata from './patch-metadata.js';
 import checkPreviousVersion from './check-previous-version.js';
@@ -76,7 +75,7 @@ export default async function handleUpload(json, opts = {}) {
 	let errors = [];
 	if (json.metadata) {
 		try {
-			let docs = parseAllDocuments(json.metadata);
+			let docs = parseAllDocuments(json.metadata).map(doc => doc.toJSON());
 			parsedMetadata = [docs];
 		} catch (e) {
 			errors.push(`Unable to parse metadata for ${json.fileURL}: ${e.message}`);
@@ -108,15 +107,6 @@ export default async function handleUpload(json, opts = {}) {
 
 	}
 	let [userMetadata] = parsedMetadata;
-
-	// If we reach this point, we're sure to include the package. We now need to 
-	// complete the metadata from the api by resorting to HTML scraping, but 
-	// only if no subfolder is present in the user-specified metadata. Once the 
-	// file descriptor info is in the STEX api response as well, we can get rid 
-	// of it alltogether.
-	if (userMetadata.some(pkg => pkg.group && !pkg.subfolder)) {
-		await completeMetadata(metadata, json);
-	}
 
 	// Now that we have the completed metadata, we will generate the variants.
 	// Note that at this point we haven't used any information from the *custom* 
