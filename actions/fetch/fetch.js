@@ -18,7 +18,7 @@ export default async function fetchPackage(opts) {
 		after,
 		now = Date.now(),
 		lastRunFile = 'LAST_RUN',
-		endpoint = 'https://community.simtropolis.com/stex/files-api.php',
+		endpoint = 'https://community.simtropolis.com/stex/files-api-dev.php',
 	} = opts;
 
 	// Build up the url. Apparently we have to set mode to updated explicitly, 
@@ -26,6 +26,8 @@ export default async function fetchPackage(opts) {
 	const url = new URL(endpoint);
 	url.searchParams.set('key', process.env.STEX_API_KEY);
 	url.searchParams.set('mode', 'updated');
+	url.searchParams.set('desctype', 'html,urls');
+	url.searchParams.set('images', 'main');
 
 	// If an id is given, then we will not check when we fetched the latest 
 	// uploads from the api, but only request the specified file. Useful for 

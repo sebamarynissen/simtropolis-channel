@@ -26,9 +26,11 @@ export default async function fetchAll(urls, opts = {}) {
 		return urlToFileId(url);
 	});
 
-	let url = new URL('https://community.simtropolis.com/stex/files-api.php');
+	let url = new URL('https://community.simtropolis.com/stex/files-api-dev.php');
 	url.searchParams.set('key', process.env.STEX_API_KEY);
 	url.searchParams.set('id', ids.join(','));
+	url.searchParams.set('desctype', 'html,urls');
+	url.searchParams.set('images', 'main');
 	let res = await fetch(url);
 	let json = await res.json();
 

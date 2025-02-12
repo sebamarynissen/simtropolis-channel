@@ -2,24 +2,25 @@
 import './polyfill.js';
 import path from 'node:path';
 import { kFileInfo, kFileTags } from './symbols.js';
-import categories from './categories.js';
 import { slugify } from './util.js';
+import parseDescription from './parse-description.js';
 
 // # apiToMetadata(json)
 // Transforms a single json results from the STEX api to the basic metadata 
 // structure.
 export default function apiToMetadata(json, opts = {}) {
+	let description = parseDescription(json.descHTML ?? '');
 	let pkg = {
 		group: slugify(json.group || json.author),
 		name: slugifyTitle(json.title),
 		version: json.release,
-		subfolder: getSubfolder(json),
+		subfolder: undefined,
 		info: {
 			summary: json.title,
-			description: undefined,
+			description,
 			author: json.author,
 			website: json.fileURL,
-			images: undefined,
+			images: json.images,
 		},
 		dependencies: undefined,
 		variants: undefined,
@@ -76,18 +77,19 @@ export default function apiToMetadata(json, opts = {}) {
 		}
 	}
 
+	// Sort the images so that anything hosted on Simtropolis comes first in 
+	// order to avoid showing broken links (like imageshack).
+	pkg.info.images?.sort((a, b) => {
+		let ai = a.includes('simtropolis.com') ? -1 : 1;
+		let bi = b.includes('simtropolis.com') ? -1 : 1;
+		return ai - bi;
+	});
+
 	return {
 		package: pkg,
 		assets,
 	};
 
-}
-
-// # getSubfolder(json)
-// Parses the appropriate subfolder from the categories.
-function getSubfolder(json) {
-	let { cid } = json;
-	return categories[cid];
 }
 
 // # getFileTags(file)
