@@ -73,9 +73,10 @@ export default async function handleUpload(json, opts = {}) {
 	// If the metadata was specified as part of the STEX api response, then this 
 	// overrides any metadata.yaml file from the assets.
 	let errors = [];
-	if (json.metadata) {
+	let apiMetadata = json.metadata?.trim();
+	if (apiMetadata) {
 		try {
-			let docs = parseAllDocuments(json.metadata).map(doc => doc.toJSON());
+			let docs = parseAllDocuments(apiMetadata).map(doc => doc.toJSON());
 			parsedMetadata = [docs];
 		} catch (e) {
 			errors.push(`Unable to parse metadata for ${json.fileURL}: ${e.message}`);
@@ -97,7 +98,7 @@ export default async function handleUpload(json, opts = {}) {
 		return {
 			skipped: true,
 			type: 'notice',
-			reason: `Package ${json.fileURL} does not have a metadata.yaml file in its root. Skipping.`,
+			reason: `Package ${json.fileURL} does not have a metadata field or metadata.yaml file in any of its assets. Skipping.`,
 		};
 	} else if (parsedMetadata.length > 1) {
 

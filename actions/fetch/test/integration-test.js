@@ -250,6 +250,17 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package with a metadata field in the json', async function() {
+
+		let upload = faker.upload({
+			metadata: 'name: this-name',
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].name).to.equal('this-name');
+
+	});
+
 	it('a package with custom dependencies', async function() {
 
 		let upload = faker.upload({
@@ -860,6 +871,21 @@ describe('The fetch action', function() {
 			],
 		});
 		const { run } = this.setup({ uploads: [upload] });
+		const { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
+	it('does not process the package if the metadata field is nullish', async function() {
+
+		let upload = faker.upload({
+			metadata: '   ',
+			files: [
+				{ contents: {} },
+			],
+		});
+		const { run } = this.setup({ upload });
 		const { packages, notices } = await run({ id: upload.id });
 		expect(packages).to.have.length(0);
 		expect(notices).to.have.length(1);
