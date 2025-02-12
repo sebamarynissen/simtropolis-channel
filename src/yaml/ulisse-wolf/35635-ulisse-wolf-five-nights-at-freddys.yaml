@@ -60,9 +60,18 @@ variants:
       - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
         exclude:
           - /Maxis Nite/
+  - variant: { allertnews: noinvasive }
+    assets:
+      - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+        include:
+          - Allert News - No Invasive/
+  - variant: { allertnews: invasive }
+    assets:
+      - assetId:ulisse-wolf-ulisse-wolf-five-nights-at-freddys include:
+          - Allert News - Original/
 
 ---
 assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
 version: "3.0"
-lastModified: "2025-02-12T18:51:38Z"
-url: https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/?do=download&r=205863
+lastModified: "2025-02-12T18:54:37Z"
+url: https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/?do=download&r=205867
