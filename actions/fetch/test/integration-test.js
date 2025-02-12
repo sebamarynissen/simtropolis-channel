@@ -7,7 +7,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import yazl from 'yazl';
 import { Volume } from 'memfs';
-import { marked } from 'marked';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
 import * as faker from './faker.js';
@@ -64,7 +63,7 @@ describe('The fetch action', function() {
 				// making. Based on this we'll return a different result.
 				let parsedUrl = new URL(url);
 				let { pathname, searchParams } = parsedUrl;
-				if (pathname.startsWith('/stex/files-api.php')) {
+				if (pathname.startsWith('/stex/files-api')) {
 
 					// If a days parameter was specified, we have to filter out 
 					// the files updated before that threshold.
@@ -132,14 +131,9 @@ describe('The fetch action', function() {
 
 					} else {
 						let {
-							description,
-							images = [],
 							fileDescriptor,
 							fileDescriptors = [fileDescriptor],
 						} = upload;
-						let imageHtml = images.map(img => {
-							return `<span data-fullURL="${img}"></span>`;
-						}).join('');
 						let descriptorHtml = '';
 						if (fileDescriptors) {
 							descriptorHtml = `<li>
@@ -149,11 +143,6 @@ describe('The fetch action', function() {
 						}
 						return new Response(`<html>
 							<body>
-								<div>
-									<h2>About this file</h2>
-									<section><div>${marked(description)}</div></section>
-								</div>
-								<ul class="cDownloadsCarousel">${imageHtml}</ul>
 								${descriptorHtml}
 							</body>
 						</html>`);
@@ -215,6 +204,7 @@ describe('The fetch action', function() {
 
 	it('a package with an empty metadata.yaml', async function() {
 
+		let description = '# Description\n\n## Foo\n\nIn markdown. Cool, right?';
 		let upload = faker.upload({
 			id: 111,
 			cid: 101,
@@ -222,6 +212,7 @@ describe('The fetch action', function() {
 			title: 'SMF Tower',
 			release: '1.0.2',
 			fileDescriptor: 'Residential',
+			description,
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
@@ -239,7 +230,7 @@ describe('The fetch action', function() {
 			subfolder: '200-residential',
 			info: {
 				summary: upload.title,
-				description: upload.description,
+				description,
 				website: upload.fileURL,
 				images: upload.images,
 				author: 'smf_16',
@@ -347,40 +338,27 @@ describe('The fetch action', function() {
 
 		let { read } = await run({ id: upload.fileURL });
 		let metadata = read(`/src/yaml/smf-16/${upload.id}-smf-tower.yaml`);
-		expect(metadata[0]).to.eql({
-			group: 'smf-16',
-			name: 'smf-tower',
-			version: upload.release,
-			subfolder: '300-commercial',
-			info: {
-				summary: upload.title,
-				description: upload.description,
-				website: upload.fileURL,
-				images: upload.images,
-				author: 'smf_16',
+		expect(metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'smf-16-smf-tower-maxisnite',
+					},
+				],
 			},
-			variants: [
-				{
-					variant: { nightmode: 'standard' },
-					assets: [
-						{
-							assetId: 'smf-16-smf-tower-maxisnite',
-						},
-					],
-				},
-				{
-					variant: { nightmode: 'dark' },
-					dependencies: [
-						'simfox:day-and-nite-mod',
-					],
-					assets: [
-						{
-							assetId: 'smf-16-smf-tower-darknite',
-						},
-					],
-				},
-			],
-		});
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: [
+					'simfox:day-and-nite-mod',
+				],
+				assets: [
+					{
+						assetId: 'smf-16-smf-tower-darknite',
+					},
+				],
+			},
+		]);
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower-maxisnite',
 			lastModified: this.date(upload.updated),
@@ -641,7 +619,7 @@ describe('The fetch action', function() {
 				submitted: '2024-12-19 04:24:08',
 				updated: '2024-12-19 04:24:08',
 				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
+				descHTML: '<p>This is the description</p>',
 				files: [
 					{
 						id: 12345,
@@ -671,7 +649,6 @@ describe('The fetch action', function() {
 				summary: 'SMF Tower',
 				description: 'This is the description',
 				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [],
 				author: 'smf_16',
 			},
 			variants: [
@@ -722,7 +699,7 @@ describe('The fetch action', function() {
 				submitted: '2024-12-19 04:24:08',
 				updated: '2024-12-19 04:24:08',
 				fileURL: 'https://community.simtropolis.com/files/file/5364-github-tower',
-				description: 'This is the description',
+				descHTML: '<p>This is the description</p>',
 				files: [
 					{
 						id: 12345,
@@ -750,7 +727,6 @@ describe('The fetch action', function() {
 				summary: 'GitHub Tower',
 				description: 'This is the description',
 				website: 'https://community.simtropolis.com/files/file/5364-github-tower',
-				images: [],
 				author: 'smf_16',
 			},
 			assets: [
@@ -780,7 +756,8 @@ describe('The fetch action', function() {
 				submitted: '2024-12-19 04:24:08',
 				updated: '2024-12-19 04:24:08',
 				fileURL: 'https://community.simtropolis.com/files/file/2145-st-residences',
-				description: 'This is the description',
+				descHTML: '<p>This is the description</p>',
+				images: ['www.image.com', 'www.simtropolis.com'],
 				files: [
 					{
 						id: 12345,
@@ -832,7 +809,7 @@ describe('The fetch action', function() {
 				description: 'This is the description',
 				author: 'smf_16',
 				website: 'https://community.simtropolis.com/files/file/2145-st-residences',
-				images: [],
+				images: ['www.simtropolis.com', 'www.image.com'],
 			},
 			assets: [
 				{
@@ -1077,7 +1054,7 @@ describe('The fetch action', function() {
 		const { run } = this.setup({
 			handler(req) {
 				let url = new URL(req.url);
-				if (url.pathname.startsWith('/stex/files-api.php')) {
+				if (url.pathname.startsWith('/stex/files-api')) {
 					return new Response('Too many requests', { status: 429 });
 				}
 			},
