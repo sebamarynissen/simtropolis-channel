@@ -7,8 +7,8 @@ import yargs from 'yargs/yargs';
 import ora from 'ora';
 import { Glob } from 'glob';
 import { parseAllDocuments, Document } from 'yaml';
+import addFromStex from '../actions/fetch/fetch.js';
 import stylize from '../actions/fetch/stylize-doc.js';
-import fetchAll from '../actions/fetch/fetch-all.js';
 import { urlToFileId } from '../actions/fetch/util.js';
 import parseDependencies from './parse-dependencies.js';
 import sc4d from './sc4d.js';
@@ -36,43 +36,57 @@ async function run(urls, argv) {
 		}
 	});
 
-	// Cool, now perform the actual fetching.
-	let results = await fetchAll(urls, {
-		split: argv.split,
-		darkniteOnly: argv.darkniteOnly,
+	const {
+		cache = path.resolve(
+			process.env.LOCALAPPDATA,
+			'io.github.memo33/sc4pac/cache',
+		),
+	} = argv;
+	const result = await addFromStex({
+		cache,
+		id: urls.map(url => urlToFileId(url)).join(','),
+		requireMetadata: false,
+		splitOffResources: argv.split,
 	});
-	for (let result of results) {
-		let [pkg] = result.metadata;
-		let deps = parseDependencies(index, pkg);
-		let unmatched = deps.filter(dep => dep.startsWith('"['));
-		if (unmatched.length > 0) {
-			console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
-			for (let dep of unmatched) {
-				console.log(`  ${styleText('cyan', dep)}`);
-			}
-		}
-		if (deps.length > 0) {
-			pkg.dependencies = [...pkg.dependencies || [], ...deps];
-		}
-		let file = `${pkg.group}/${result.id}-${pkg.name}.yaml`;
-		let docs = result.metadata.map((data, i) => {
-			let doc = stylize(new Document(data));
-			if (i > 0) {
-				doc.directives.docStart = true;
-			}
-			return doc;
-		});
-		let contents = docs.map(doc => doc.toString({
-			lineWidth: 0,
-		})).join('\n');
-		let fullPath = path.resolve(
-			import.meta.dirname,
-			'../src/yaml',
-			file,
-		);
-		await fs.promises.mkdir(path.dirname(fullPath), { recursive: true });
-		await fs.promises.writeFile(fullPath, contents);
-	}
+	console.log(result);
+
+	// Cool, now perform the actual fetching.
+	// let results = await fetchAll(urls, {
+	// 	split: argv.split,
+	// 	darkniteOnly: argv.darkniteOnly,
+	// });
+	// for (let result of results) {
+	// 	let [pkg] = result.metadata;
+	// 	let deps = parseDependencies(index, pkg);
+	// 	let unmatched = deps.filter(dep => dep.startsWith('"['));
+	// 	if (unmatched.length > 0) {
+	// 		console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
+	// 		for (let dep of unmatched) {
+	// 			console.log(`  ${styleText('cyan', dep)}`);
+	// 		}
+	// 	}
+	// 	if (deps.length > 0) {
+	// 		pkg.dependencies = [...pkg.dependencies || [], ...deps];
+	// 	}
+	// 	let file = `${pkg.group}/${result.id}-${pkg.name}.yaml`;
+	// 	let docs = result.metadata.map((data, i) => {
+	// 		let doc = stylize(new Document(data));
+	// 		if (i > 0) {
+	// 			doc.directives.docStart = true;
+	// 		}
+	// 		return doc;
+	// 	});
+	// 	let contents = docs.map(doc => doc.toString({
+	// 		lineWidth: 0,
+	// 	})).join('\n');
+	// 	let fullPath = path.resolve(
+	// 		import.meta.dirname,
+	// 		'../src/yaml',
+	// 		file,
+	// 	);
+	// 	await fs.promises.mkdir(path.dirname(fullPath), { recursive: true });
+	// 	await fs.promises.writeFile(fullPath, contents);
+	// }
 
 }
 
