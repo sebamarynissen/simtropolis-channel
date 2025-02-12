@@ -1,0 +1,68 @@
+group: ulisse-wolf
+name: ulisse-wolf-five-nights-at-freddys
+version: "3.0"
+subfolder: 300-commercial
+info:
+  summary: Ulisse Wolf - Five Nights At Freddy's
+  description: |-
+    **#20yearsSC4 Challenge**
+    A tribute to the creativity that gives us to SimCity 4
+
+    **Ulisse Wolf - Five Nights At Freddy's**
+
+    ***Welcome to Freddy Fazbear’s Pizza, a magical place for kids and grown ups alike, where fantasy and fun come to life***
+
+    Finally the Five Nights At Freddy's experience in SimCity 4 is finally available. This is the modpack of FNAF-themed mods in which there are buildings that function as both normal comemrcial buildings but also Landmarks in which strange events and brutal murders by cute animatronics occur during the night.
+
+    **INSTALLATION**
+
+    During installation you will need to select the Dark Nite or Maxis Nite version to have the props compatible with the night mode you use.
+    In addition, the modpack contains new news tickets and an Alert system when you build the Landmark version. Select the non-invasive version if you do not want to have the security breach alert when you enter the city where landmark is built
+
+    **DEPENDENCIES**
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) (Only if you are using the Dark Night/DN version)
+
+    [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    **CREATOR OF ORIGINAL MODELS**
+
+    Freddy Fazbear's Pizza: [Joey W.](https://3dwarehouse.sketchup.com/model/15c6a195-f3d0-459a-94c3-b8a04cc25008/Freddy-Fazbears-Pizza)
+
+    **LICENSING:**
+
+    This prop pack is provided as free content to SimCity 4 players, who are free to modify it for their use and for production of derivative for publication. Should the author be absent from SC4Devotion/SC4Evermore and Simtropolis.com for more than a year, site staff or individual users may re-host the file, as long as due credit is given to him, user [@Ulisse Wolf](https://community.simtropolis.com/profile/321174-ulisse-wolf/)
+
+    **UPDATE HISTORY**
+
+    **February 12, 2024 (Version 1.0)**
+
+    First release version
+
+    Update in the installation method
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/651043b301dc3_FNAFNight.jpg.a0d9e63723575cbc42e65be2854fe433.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/651043b7e7d46_FNAFDay.jpg.3eb0524549a567b129474b2a60dcea5f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/five-nights-at-freddys-group-i61034.jpg.7d778071d9b67d3b8543ae5fefe7f390.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+        exclude:
+          - /Dark Nite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+        exclude:
+          - /Maxis Nite/
+
+---
+assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+version: "3.0"
+lastModified: "2025-02-12T18:51:38Z"
+url: https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/?do=download&r=205863
