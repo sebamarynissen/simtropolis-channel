@@ -19,6 +19,7 @@ export default async function fetchPackage(opts) {
 		now = Date.now(),
 		lastRunFile = 'LAST_RUN',
 		endpoint = 'https://community.simtropolis.com/stex/files-api-dev.php',
+		cache = false,
 	} = opts;
 
 	// Build up the url. Apparently we have to set mode to updated explicitly, 
@@ -107,6 +108,7 @@ export default async function fetchPackage(opts) {
 		...opts,
 		cwd,
 		permissions,
+		cache,
 	};
 	for (let upload of json) {
 

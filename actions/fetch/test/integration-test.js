@@ -185,7 +185,7 @@ describe('The fetch action', function() {
 
 	});
 
-	it('a package with an empty metadata.yaml', async function() {
+	it.only('a package with an empty metadata.yaml', async function() {
 
 		let description = '# Description\n\n## Foo\n\nIn markdown. Cool, right?';
 		let upload = faker.upload({

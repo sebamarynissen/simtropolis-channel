@@ -9,6 +9,7 @@ import generateVariants from './generate-variants.js';
 import patchMetadata from './patch-metadata.js';
 import checkPreviousVersion from './check-previous-version.js';
 import { kFileNames } from './symbols.js';
+import splitPackage from './split-package.js';
 
 // # handleUpload(json)
 // Handles a single STEX upload. It accepts a json response from the STEX api 
@@ -46,10 +47,10 @@ export default async function handleUpload(json, opts = {}) {
 	// sufficient to look for a `metadata.yaml` file in the downloads. We'll do 
 	// that first before completing the metadata with scraping, because we might 
 	// be able to shortcut already here.
-	let { permissions } = opts;
+	let { permissions, cache } = opts;
 	let metadata = apiToMetadata(permissions.transform(json));
 	let parsedMetadata = [];
-	let downloader = new Downloader();
+	let downloader = new Downloader({ cache });
 	let cleanup = [];
 	for (let asset of metadata.assets) {
 
@@ -80,7 +81,7 @@ export default async function handleUpload(json, opts = {}) {
 			parsedMetadata = [docs];
 		} catch (e) {
 			errors.push(`Unable to parse metadata for ${json.fileURL}: ${e.message}`);
-			parsedMetadata = [{}];
+			parsedMetadata = [[{}]];
 		}
 	}
 
@@ -107,7 +108,10 @@ export default async function handleUpload(json, opts = {}) {
 		errors.push(`This package has ${parsedMetadata.length} metadata.yaml files, only 1 is allowed.`);
 
 	}
-	let [userMetadata] = parsedMetadata;
+
+	// If we're adding packages manually, it's possible (and likely) that no 
+	// metadata was found, but we still need to continue of course.
+	let [userMetadata = [true]] = parsedMetadata;
 
 	// Now that we have the completed metadata, we will generate the variants.
 	// Note that at this point we haven't used any information from the *custom* 
@@ -129,8 +133,8 @@ export default async function handleUpload(json, opts = {}) {
 	// Now check whether it was specified - either in the parsed metadata or as 
 	// explicit option - whether the package must be split in resources and lots/
 	// flora.
-	let { split = false } = opts;
-	if (split) {
+	let { splitOffResources = false } = opts;
+	if (splitOffResources) {
 
 		// If the package has to be split, but multiple *package* metadata was 
 		// given, then we can't continue. If the package is going to be split 
@@ -148,6 +152,8 @@ export default async function handleUpload(json, opts = {}) {
 				errors,
 			};
 		}
+		packages = await splitPackage(metadata);
+		// metadata = [...packages, ...metadata.assets];
 
 	}
 
