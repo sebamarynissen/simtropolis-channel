@@ -256,6 +256,9 @@ describe('The fetch action', function() {
 
 		let upload = faker.upload({
 			metadata: 'name: this-name',
+			files: [
+				{ contents: {} },
+			],
 		});
 		const { run } = this.setup({ upload });
 		const { result } = await run({ id: upload.id });

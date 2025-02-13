@@ -85,11 +85,7 @@ export default function apiToMetadata(json, opts = {}) {
 		let bi = b.includes('simtropolis.com') ? -1 : 1;
 		return ai - bi;
 	});
-
-	return {
-		package: pkg,
-		assets,
-	};
+	return [pkg, ...assets];
 
 }
 

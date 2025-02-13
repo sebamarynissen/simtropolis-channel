@@ -245,17 +245,10 @@ async function readMetadata(file) {
 	// the STEX, so just ignore them.
 	const contents = await fs.promises.readFile(file);
 	let docs = parseAllDocuments(String(contents));
-	let json = docs
+	return docs
 		.filter(doc => !doc.empty)
 		.map(doc => doc.toJSON())
 		.filter(doc => !doc.assetId);
-	if (json.length === 0) {
-		return true;
-	} else if (json.length === 1) {
-		return json.at(0);
-	} else {
-		return json;
-	}
 
 }
 

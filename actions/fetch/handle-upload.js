@@ -11,6 +11,19 @@ import checkPreviousVersion from './check-previous-version.js';
 import { kFileNames } from './symbols.js';
 import splitPackage from './split-package.js';
 
+// # filterAssets
+// Helper function that filters all assets from an array of metadata that can 
+// contain both packages and assets.
+function filterAssets(metadata) {
+	return metadata.filter(asset => asset.assetId || asset.url);
+}
+
+// # filterPackages
+// Same, but filters out the packages.
+function filterPackages(metadata) {
+	return metadata.filter(pkg => pkg.name);
+}
+
 // # handleUpload(json)
 // Handles a single STEX upload. It accepts a json response from the STEX api 
 // and will generate the package's metadata, taking into account that custom 
@@ -43,26 +56,29 @@ export default async function handleUpload(json, opts = {}) {
 		};
 	}
 
-	// Start by extracting all metadata we can from the api. This should be 
-	// sufficient to look for a `metadata.yaml` file in the downloads. We'll do 
-	// that first before completing the metadata with scraping, because we might 
-	// be able to shortcut already here.
+	// Start by transforming the STEX api response to so called auto-metadata. 
+	// This is the base for any transformations we'll perform on it later on.
+	// Then we'll use the downloader to download all assets - for which the 
+	// information will be added to the asset metadata with symbols.
 	let { permissions, cache } = opts;
-	let metadata = apiToMetadata(permissions.transform(json));
-	let parsedMetadata = [];
+	let autoMetadata = apiToMetadata(permissions.transform(json));
+	let metadataSources = [];
 	let downloader = new Downloader({ cache });
 	let cleanup = [];
-	for (let asset of metadata.assets) {
+	for (let asset of filterAssets(autoMetadata)) {
 
-		// If the assets contains metadata, we'll use this one, only if former 
-		// assets did not contain metadata either. Note: if something is wrong 
-		// when unzipping, then we'll just swallow it. It's always possible that 
-		// someone uploads an invalid zip file, nothing we can do about that, 
-		// but we don't want this to block our workflow.
+		// Download the asset and extract the metadata & checksum information 
+		// from it.
 		let info = await downloader.handleAsset(asset);
 		if (!info) continue;
 		if (info.metadata) {
-			parsedMetadata.push(...[info.metadata].flat());
+			let allMetadata = [info.metadata].flat();
+			for (let metadata of allMetadata) {
+				metadataSources.push({
+					source: 'file',
+					metadata,
+				});
+			}
 		}
 		if (info.checksums?.length > 0) {
 			asset.withChecksum = info.checksums;
@@ -71,60 +87,72 @@ export default async function handleUpload(json, opts = {}) {
 
 	}
 
+	// Compile a custom cleanup function that we use for early returns.
+	const clean = async () => {
+		for (let fn of cleanup) await fn();
+	};
+
 	// If the metadata was specified as part of the STEX api response, then this 
 	// overrides any metadata.yaml file from the assets.
 	let errors = [];
 	let apiMetadata = json.metadata?.trim();
 	if (apiMetadata) {
 		try {
-			let docs = parseAllDocuments(apiMetadata).map(doc => doc.toJSON());
-			parsedMetadata = [docs];
+			let metadata = parseAllDocuments(apiMetadata)
+				.map(doc => doc.toJSON());
+			metadataSources.push({
+				source: 'field',
+				metadata,
+			});
 		} catch (e) {
 			errors.push(`Unable to parse metadata for ${json.fileURL}: ${e.message}`);
-			parsedMetadata = [[{}]];
+			metadataSources.push({
+				source: 'field',
+				metadata: [],
+			});
 		}
 	}
 
-	// Compile a custom cleanup function that we use for early returns.
-	const clean = async () => {
-		for (let fn of cleanup) await fn();
-	};
-
 	// If we have not found any metadata at this moment, then we skip this 
-	// package. It means the user has not made their package compatible with 
-	// sc4pac.
+	// package, but we require metadata in order for the package to be added,
+	// then return early.
 	const { requireMetadata = true } = opts;
-	if (parsedMetadata.length === 0 && requireMetadata) {
-		await clean();
-		return {
-			skipped: true,
-			type: 'notice',
-			reason: `Package ${json.fileURL} does not have a metadata field or metadata.yaml file in any of its assets. Skipping.`,
-		};
-	} else if (parsedMetadata.length > 1) {
-
-		// If we found more than 1 metadata file, we'll continue, but we have to 
-		// report an error though. This will ensure that the PR won't get merged.
-		errors.push(`This package has ${parsedMetadata.length} metadata.yaml files, only 1 is allowed.`);
-
+	if (metadataSources.length === 0) {
+		if (requireMetadata) {
+			await clean();
+			return {
+				skipped: true,
+				type: 'notice',
+				reason: `Package ${json.fileURL} does not have a metadata field or metadata.yaml file in any of its assets. Skipping.`,
+			};
+		} else {
+			metadataSources.push({ metadata: [] });
+		}
 	}
 
-	// If we're adding packages manually, it's possible (and likely) that no 
-	// metadata was found, but we still need to continue of course.
-	let [userMetadata = [true]] = parsedMetadata;
+	// If there are multiple metadata sources, then we don't know what to pick. 
+	// However, we'll still continue so that a PR is created, but with an error.
+	if (metadataSources.length > 1) {
+		const types = new Set(metadataSources.map(row => row.source));
+		if (types.size > 1) {
+			errors.push(`This package both has a metadata field and a metadata.yaml file. Only one of the two can be present.`);
+		} else {
+			errors.push(`This package has ${metadataSources.length} metadata.yaml files, but only 1 is allowed.`);
+		}
+	}
 
-	// Now that we have the completed metadata, we will generate the variants.
-	// Note that at this point we haven't used any information from the *custom* 
-	// metadata yet! Everything we're doing is based on the *default* metadata.
-	await generateVariants(metadata);
+	// Cool, now continue expanding the automatically generated metadata by 
+	// automatically generating the variants. We can only do this by actually 
+	// inspecting assets though.
+	await generateVariants(autoMetadata);
 
 	// See #42. If metadata for the package already existed before - either 
 	// added by the bot, or manually by backfilling - then we have to patch the 
 	// *default* metadata so that the name can't change unintentionally.
-	let original = { ...metadata.package };
+	let original = { ...autoMetadata[0] };
 	let author = original.group;
 	let { cwd, path: srcPath = 'src/yaml', fs = nodeFs } = opts;
-	await checkPreviousVersion(json.id, metadata, {
+	await checkPreviousVersion(json.id, autoMetadata, {
 		cwd,
 		srcPath,
 		fs,
@@ -133,13 +161,14 @@ export default async function handleUpload(json, opts = {}) {
 	// Now check whether it was specified - either in the parsed metadata or as 
 	// explicit option - whether the package must be split in resources and lots/
 	// flora.
+	let [userMetadata] = metadataSources.map(row => row.metadata);
 	let { splitOffResources = false } = opts;
 	if (splitOffResources) {
 
 		// If the package has to be split, but multiple *package* metadata was 
 		// given, then we can't continue. If the package is going to be split 
 		// automatically, you can only override metadata for the *main* package!
-		let packages = userMetadata.filter(pkg => pkg.group);
+		let packages = filterPackages(userMetadata);
 		if (packages.length > 1) {
 			let [main] = packages;
 			errors.push('You can only specify custom metadata for the main package if the package has to be split!');
@@ -152,8 +181,7 @@ export default async function handleUpload(json, opts = {}) {
 				errors,
 			};
 		}
-		packages = await splitPackage(metadata);
-		// metadata = [...packages, ...metadata.assets];
+		packages = await splitPackage(autoMetadata);
 
 	}
 
@@ -164,14 +192,12 @@ export default async function handleUpload(json, opts = {}) {
 	// Then we'll verify that the generated package is ok according to our 
 	// permissions.
 	let {
-		packages,
-		assets,
+		metadata,
 		main,
 		basename,
-	} = patchMetadata(metadata, userMetadata, original);
-	let zipped = [...packages, ...assets];
+	} = patchMetadata(autoMetadata, userMetadata, original);
 	try {
-		permissions.assertPackageAllowed(json, packages);
+		permissions.assertPackageAllowed(json, metadata);
 	} catch (e) {
 
 		// When there's an error, we *DO NOT* skip the package. We continue, but 
@@ -188,7 +214,7 @@ export default async function handleUpload(json, opts = {}) {
 	// to download those assets as well and check if DLL's have to be generated.
 	// However, if the asset does not have a persistent url and it contains a 
 	// DLL, then we should generate an error.
-	for (let asset of assets) {
+	for (let asset of filterAssets(metadata)) {
 		let files = asset[kFileNames];
 		if (asset.nonPersistentUrl) {
 			let info = await downloader.handleAsset(asset);
@@ -219,14 +245,14 @@ export default async function handleUpload(json, opts = {}) {
 	// the information about what we've generated.
 	let { group, name } = main;
 	let id = `${group}:${name}`;
-	let yaml = serialize(zipped);
+	let yaml = serialize(metadata);
 	let relativePath = `${srcPath}/${author}/${json.id}-${basename}.yaml`;
 	let output = path.resolve(cwd, relativePath);
 	await fs.promises.mkdir(path.dirname(output), { recursive: true });
 	await fs.promises.writeFile(output, yaml);
 	return {
 		id,
-		metadata: zipped,
+		metadata,
 		fileId: String(json.id),
 		branchId: String(json.id),
 		additions: [relativePath],

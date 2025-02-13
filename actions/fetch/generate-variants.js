@@ -1,4 +1,5 @@
 // # generate-variants.js
+import './polyfill.js';
 import path from 'node:path';
 import { kFileTags, kFileNames, kExtractedAsset } from './symbols.js';
 import detectGrowables from './detect-growables.js';
@@ -9,14 +10,17 @@ export default async function generateVariants(metadata) {
 
 	// Now generate the variants from what we've decided to include. This will 
 	// multiply the available variants by 2 in every step.
-	let variants = await expandVariants(metadata);
+	const grouped = Object.groupBy(metadata, doc => {
+		return doc.name ? 'packages' : 'assets';
+	});
+	let variants = await expandVariants(grouped);
 
 	// If there are no variants, then we just include the assets as is.
 	let assets;
 	if (!variants || variants.length === 0) {
-		assets = metadata.assets.map(asset => ({ assetId: asset.assetId }));
+		assets = grouped.assets.map(asset => ({ assetId: asset.assetId }));
 	}
-	Object.assign(metadata.package, { assets, variants });
+	Object.assign(grouped.packages[0], { assets, variants });
 
 }
 
