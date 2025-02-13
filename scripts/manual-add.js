@@ -6,11 +6,9 @@ import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 import ora from 'ora';
 import { Glob } from 'glob';
-import { parseAllDocuments, Document } from 'yaml';
+import { parseAllDocuments } from 'yaml';
 import addFromStex from '../actions/fetch/fetch.js';
-import stylize from '../actions/fetch/stylize-doc.js';
 import { urlToFileId } from '../actions/fetch/util.js';
-import parseDependencies from './parse-dependencies.js';
 import sc4d from './sc4d.js';
 import tsc from './tsc.js';
 
@@ -20,14 +18,14 @@ async function run(urls, argv) {
 	// Sort the urls in ascending order so that dependencies are likely to be 
 	// processed first.
 	urls = [urls].flat().sort();
-	let index = await buildIndex();
+	let dependencyIndex = await buildIndex();
 
 	// Once we have the index, we'll still filter out the urls that are already 
 	// processed. They might either be present on the Simtropolis channel, or on 
 	// the default channel already.
 	urls = urls.filter(url => {
 		let id = urlToFileId(url);
-		let pkg = index.stex[id];
+		let pkg = dependencyIndex.stex[id];
 		if (pkg && !pkg.local) {
 			console.log(styleText('yellow', `${url} is already present on one of the channels`));
 			return false;
@@ -47,8 +45,10 @@ async function run(urls, argv) {
 		id: urls.map(url => urlToFileId(url)).join(','),
 		requireMetadata: false,
 		splitOffResources: argv.split,
+		dependencies: 'auto',
+		dependencyIndex,
 	});
-	console.log(result);
+	// console.log(result);
 
 	// Cool, now perform the actual fetching.
 	// let results = await fetchAll(urls, {

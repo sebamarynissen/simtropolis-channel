@@ -1,6 +1,7 @@
 // # handle-upload.js
 import nodeFs from 'node:fs';
 import path from 'node:path';
+import { styleText } from 'node:util';
 import { Document, parseAllDocuments } from 'yaml';
 import stylize from './stylize-doc.js';
 import apiToMetadata from './api-to-metadata.js';
@@ -10,6 +11,7 @@ import patchMetadata from './patch-metadata.js';
 import checkPreviousVersion from './check-previous-version.js';
 import { kFileNames } from './symbols.js';
 import splitPackage from './split-package.js';
+import parseDependencies from './parse-dependencies.js';
 
 // # filterAssets
 // Helper function that filters all assets from an array of metadata that can 
@@ -145,6 +147,25 @@ export default async function handleUpload(json, opts = {}) {
 	// automatically generating the variants. We can only do this by actually 
 	// inspecting assets though.
 	await generateVariants(autoMetadata);
+
+	// Check what we need to do with the dependencies. If "auto" was specified, 
+	// it means that dependencies need to be automatically parsed from the links 
+	// in the description. This is only useful when *manually* adding packages 
+	// though, it shouldn't be used on packages that rely on metadata.yaml!
+	if (opts.dependencies === 'auto') {
+		let [pkg] = autoMetadata;
+		let deps = parseDependencies(opts.dependencyIndex, pkg);
+		let unmatched = deps.filter(dep => dep.startsWith('"['));
+		if (unmatched.length > 0) {
+			console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
+			for (let dep of unmatched) {
+				console.log(`  ${styleText('cyan', dep)}`);
+			}
+		}
+		if (deps.length > 0) {
+			pkg.dependencies = deps;
+		}
+	}
 
 	// See #42. If metadata for the package already existed before - either 
 	// added by the bot, or manually by backfilling - then we have to patch the 
