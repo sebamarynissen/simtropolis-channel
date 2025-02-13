@@ -181,7 +181,7 @@ export default async function handleUpload(json, opts = {}) {
 				errors,
 			};
 		}
-		packages = await splitPackage(autoMetadata);
+		autoMetadata = await splitPackage(autoMetadata);
 
 	}
 

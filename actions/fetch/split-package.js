@@ -8,7 +8,12 @@ import escape from './escape-pattern.js';
 const { ExemplarType } = ExemplarProperty;
 
 export default async function splitPackage(metadata) {
-	let { package: pkg, assets } = metadata;
+	let {
+		packages: [pkg],
+		assets,
+	} = Object.groupBy(metadata, pkg => {
+		return pkg.group ? 'packages' : 'assets';
+	});
 	let map = {};
 	for (let asset of assets) {
 		let { resource, main } = await splitAsset(asset);
@@ -54,7 +59,7 @@ export default async function splitPackage(metadata) {
 	};
 	main.dependencies ??= [];
 	main.dependencies.unshift(`${resource.group}:${resource.name}`);
-	return [main, resource];
+	return [main, resource, ...assets];
 
 }
 
