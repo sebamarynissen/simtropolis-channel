@@ -25,6 +25,8 @@ async function reject(fn) {
 describe('The fetch action', function() {
 
 	before(function() {
+		process.env.NODE_ENV = 'test';
+
 		this.slow(1000);
 
 		this.setup = function(testOptions) {
@@ -185,7 +187,7 @@ describe('The fetch action', function() {
 
 	});
 
-	it.only('a package with an empty metadata.yaml', async function() {
+	it('a package with an empty metadata.yaml', async function() {
 
 		let description = '# Description\n\n## Foo\n\nIn markdown. Cool, right?';
 		let upload = faker.upload({
