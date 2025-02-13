@@ -62,8 +62,10 @@ export default async function handleUpload(json, opts = {}) {
 	// This is the base for any transformations we'll perform on it later on.
 	// Then we'll use the downloader to download all assets - for which the 
 	// information will be added to the asset metadata with symbols.
-	let { permissions, cache } = opts;
-	let autoMetadata = apiToMetadata(permissions.transform(json));
+	let { permissions, cache, darkniteOnly } = opts;
+	let autoMetadata = apiToMetadata(permissions.transform(json), {
+		darkniteOnly,
+	});
 	let metadataSources = [];
 	let downloader = new Downloader({ cache });
 	let cleanup = [];

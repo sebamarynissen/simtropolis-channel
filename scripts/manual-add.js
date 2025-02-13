@@ -45,6 +45,7 @@ async function run(urls, argv) {
 		id: urls.map(url => urlToFileId(url)).join(','),
 		requireMetadata: false,
 		splitOffResources: argv.split,
+		darkniteOnly: argv.darkniteOnly,
 		dependencies: 'auto',
 		dependencyIndex,
 	});
