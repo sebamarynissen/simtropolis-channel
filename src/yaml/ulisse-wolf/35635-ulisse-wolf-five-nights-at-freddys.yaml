@@ -59,33 +59,52 @@ dependencies:
   - bsc:mega-props-jes-vol01
   - supershk:mega-parking-textures
 variants:
-  - variant: { nightmode: standard, alertnews: invasive }
+  - variant: { nightmode: standard, ulisse-wolf:five-nights-at-freddys:alertnews: invasive }
     assets:
-      - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+      - assetId: ulisse-wolf-five-nights-at-freddys
         include:
           - Allert News - Original/
           - /Maxis Nite/
-  - variant: { nightmode: dark, alertnews: invasive }
+  - variant: { nightmode: dark, ulisse-wolf:five-nights-at-freddys:alertnews: invasive }
     assets:
-      - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+      - assetId: ulisse-wolf-five-nights-at-freddys
         include:
           - Allert News - Original/
           - /Dark Nite/
-  - variant: { nightmode: standard, alertnews: noinvasive }
+  - variant:
+      {
+        nightmode: standard,
+        ulisse-wolf:five-nights-at-freddys:alertnews: noinvasive
+      }
     assets:
-      - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+      - assetId: ulisse-wolf-five-nights-at-freddys
         include:
           - Allert News - No Invasive/
           - /Maxis Nite/
-  - variant: { nightmode: dark, alertnews: noinvasive }
+  - variant: { nightmode: dark, ulisse-wolf:five-nights-at-freddys:alertnews: noinvasive }
     assets:
-      - assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
+      - assetId: ulisse-wolf-five-nights-at-freddys
         include:
           - Allert News - No Invasive/
           - /Dark Nite/
+variantInfo:
+  - variantId:
+      ulisse-wolf:five-nights-at-freddys:alertnews description: Due to the
+        particularity of modding, two versions of the Alert and News system were
+        created. The original version will run the alert message whenever you
+        enter the city that the landmark version of Freddy Fazbear's Pizza is
+        present.
+values:
+  - value: invasive
+    description: The Invasive version issues a warning message whenever you enter a
+      city where the landmark version of Freddy Fazbear's Pizza is present.
+  - value: noinvasive
+    description: The non-invasive version does not issue a warning message whenever
+      you enter a city where the landmark version of Freddy Fazbear's Pizza is
+      present.
 
 ---
 assetId: ulisse-wolf-ulisse-wolf-five-nights-at-freddys
 version: "3.1.0"
-lastModified: "2025-02-12T19:17:43Z"
-url: https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/?do=download&r=205875
+lastModified: "2025-02-13T16:50:20Z"
+url: https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/?do=download&r=205898
