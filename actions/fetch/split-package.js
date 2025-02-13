@@ -149,7 +149,7 @@ function modifyAssets(assets, key, map) {
 		?.map(asset => {
 			return {
 				assetId: asset.assetId,
-				include: map[asset.assetId][key],
+				include: [...map[asset.assetId][key] || []],
 			};
 		});
 	return filtered?.length === 0 ? undefined : filtered;
