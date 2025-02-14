@@ -86,7 +86,7 @@ variants:
 variantInfo:
   - variantId:
       ulisse-wolf:five-nights-at-freddys:alertnews description: Due to the particularity of modding, two versions of the Alert and News system were created. The original version will run the alert message whenever you enter the city that the landmark version of Freddy Fazbear's Pizza is present. 
-        - values:
+        values:
           - value: invasive
             description: The Invasive version issues a warning message whenever you enter a city where the landmark version of Freddy Fazbear's Pizza is present.
           - value: noinvasive
