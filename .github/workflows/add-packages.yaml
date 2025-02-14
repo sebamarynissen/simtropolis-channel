@@ -10,8 +10,9 @@ on:
         description: Require metadata.yaml
         type: boolean
         default: true
-  schedule:
-    - cron: '32 * * * *'
+  # Temp disable to figure out what's wrong with the dates
+  # schedule:
+  #   - cron: '32 * * * *'
 
 jobs:
   add-packages:
