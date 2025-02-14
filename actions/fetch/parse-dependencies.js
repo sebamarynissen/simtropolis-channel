@@ -13,6 +13,7 @@ const urls = {
 	'https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/': 'supershk:mega-parking-textures',
 	'https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/': 'porkissimo:jenx-porkie-expanded-porkie-props',
 	'https://community.simtropolis.com/files/file/27563-shk-parking-pack/': 'shk:parking-pack',
+	'https://community.simtropolis.com/library/maxis/sc4/buildings/bldgprop_vol1.dat': 't-wrecks:maxis-prop-names-and-query-fix',
 };
 
 // Some STEX uploads don't even include links to the dependencies, but just list 
