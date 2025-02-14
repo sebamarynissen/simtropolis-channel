@@ -49,45 +49,17 @@ async function run(urls, argv) {
 		dependencies: 'auto',
 		dependencyIndex,
 	});
-	// console.log(result);
-
-	// Cool, now perform the actual fetching.
-	// let results = await fetchAll(urls, {
-	// 	split: argv.split,
-	// 	darkniteOnly: argv.darkniteOnly,
-	// });
-	// for (let result of results) {
-	// 	let [pkg] = result.metadata;
-	// 	let deps = parseDependencies(index, pkg);
-	// 	let unmatched = deps.filter(dep => dep.startsWith('"['));
-	// 	if (unmatched.length > 0) {
-	// 		console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
-	// 		for (let dep of unmatched) {
-	// 			console.log(`  ${styleText('cyan', dep)}`);
-	// 		}
-	// 	}
-	// 	if (deps.length > 0) {
-	// 		pkg.dependencies = [...pkg.dependencies || [], ...deps];
-	// 	}
-	// 	let file = `${pkg.group}/${result.id}-${pkg.name}.yaml`;
-	// 	let docs = result.metadata.map((data, i) => {
-	// 		let doc = stylize(new Document(data));
-	// 		if (i > 0) {
-	// 			doc.directives.docStart = true;
-	// 		}
-	// 		return doc;
-	// 	});
-	// 	let contents = docs.map(doc => doc.toString({
-	// 		lineWidth: 0,
-	// 	})).join('\n');
-	// 	let fullPath = path.resolve(
-	// 		import.meta.dirname,
-	// 		'../src/yaml',
-	// 		file,
-	// 	);
-	// 	await fs.promises.mkdir(path.dirname(fullPath), { recursive: true });
-	// 	await fs.promises.writeFile(fullPath, contents);
-	// }
+	for (let i = 0; i < result.packages.length; i++) {
+		let pkg = result.packages[i];
+		let url = urls[i];
+		let { errors = [] } = pkg;
+		if (errors.length > 0) {
+			console.error(styleText('red', `There was an error with ${url}:`));
+		}
+		for (let error of errors) {
+			console.error(error);
+		}
+	}
 
 }
 
