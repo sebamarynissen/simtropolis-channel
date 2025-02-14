@@ -1,0 +1,43 @@
+group: peg
+name: mtp-high-wealth-growable-res-lodges
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: MTP High Wealth Growable RES Lodges
+  description: |-
+    Our third offering of mountain-specific, growable RES lots for the **MTP** completes the wealth range with 8 new High Wealth lots. Featured on the lots are combinations of 3 variations of a deluxe mountain lodge. The lots are custom sized at 3x5 & 5x5 and there are versions specific to low, medium and high density zones.
+
+    These lots, when combined with the **MTP** R$ Cabins & R$$ A-Frames, complete the full wealth/growable cycle. Your mountain-zoned RES lots will grow and upgrade to match the wealth of the area... from humble Cabins to stylish A-Frames... to impressive mountain Mansions. With luck, you may even grow the elusive high-wealth, high density Alpine Inn as pictured above.
+
+    There are no 2x5 lot size variations for these high wealth lots. The lodges are just too large for lots that small. Also note that these R$$$ lots are not nearly as slope tolerant as their R$ & R$$ counterparts. Again, the large size of the lodges prevent their use on very steep zones. However, they will handle mild slopes fairly well... especially if the lower 2 rows of tiles are close to level. They are also designed to either level off the zone or not grow at all on zones that are too steep.  
+    **\*** In order to have growable lots specific to the Mountain Theme, we have used 2x5, 3x5 & 5x5 custom lot sizes. Ordinary, game-default RES lots will not grow on custom lots of this size. The player must create these custom sized zones... which is easy to do by holding down the CTRL key while using the mouse to drag out the zone size.
+
+    Because larger, custom lot sizes are required, several cabins are spaced out on the lot to represent several homes occupying the area. The resident values have been adjusted upwards to reflect the number of homes on each lot.
+
+    Additionally, these lots are designed to accommodate the sloped terrain of mountainous areas. Most of the cabin models are designed with extended foundations that merge into sloped terrain.... so instead of a building on top of a concrete block, you get cabins that merge realistically into the  hillside.
+
+    The lots use random building & prop families so the cabins will always be different on each lot. The cabins also use the  new  Random Smoke feature... so you will see smoke coming from their chimneys at different times of the day.
+
+    **\*\* This lot requires the following dependencies:  
+    [PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**  
+    **[PEG\-MTP Mountain Trails - Rec Pack 1](https://community.simtropolis.com/files/file/14056-peg-mtp-mountain-trails-rec-pack-1/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made dep linkys clickable.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14158-peg-mtp-high-wealth-growable-res-lodges/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5f261502a665b64f9dbaf2fe143db941-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5f261502a665b64f9dbaf2fe143db941-product_image2.jpg
+dependencies:
+  - peg:mtp-mountain-trails-rec-pack-1
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-high-wealth-growable-res-lodges
+
+---
+assetId: peg-mtp-high-wealth-growable-res-lodges
+version: "1.1"
+lastModified: "2025-02-08T15:45:23Z"
+url: https://community.simtropolis.com/files/file/14158-peg-mtp-high-wealth-growable-res-lodges/?do=download&r=205628
