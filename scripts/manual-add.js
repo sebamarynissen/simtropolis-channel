@@ -50,12 +50,10 @@ async function run(urls, argv) {
 		dependencies: 'auto',
 		dependencyIndex,
 	});
-	for (let i = 0; i < result.packages.length; i++) {
-		let pkg = result.packages[i];
-		let url = urls[i];
+	for (let pkg of result.packages) {
 		let { errors = [] } = pkg;
 		if (errors.length > 0) {
-			console.error(styleText('red', `There was an error with ${url}:`));
+			console.error(styleText('red', `There was an error with ${pkg.url}:`));
 		}
 		for (let error of errors) {
 			console.error(error);

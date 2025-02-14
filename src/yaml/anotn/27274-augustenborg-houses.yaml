@@ -1,0 +1,57 @@
+group: anotn
+name: augustenborg-houses
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Augustenborg Houses
+  description: |-
+    Here comes a building from the neighbourhood of Augustenborg in Malmö. It comes in three different colours, is medium wealth and grows on a 4x5 medium or high density lot.
+
+    **Stats:**
+
+    ![ABstats.png](http://i269.photobucket.com/albums/jj42/antnst/ABstats.png)
+
+    For maxis night version get AB\_MN.zip and for Darknite get AB\_DN.zip.
+
+    **Dependencies:**
+
+    [BSC - VIP girafe birches](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+
+    [SFBT Playground Props by Sam Johnson](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2540)
+
+    For the Darknite version you'll need
+
+    [SimFox Day and Nite Modd 1](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)
+
+    If you want to see what I'm currently working on visit my [BAT thread](https://www.simtropolis.com/forum/topic/43135-anotn-bats).
+  author: anotn
+  website: https://community.simtropolis.com/files/file/27274-augustenborg-houses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/281927a720498c78c19a57b8679eea50-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/4fb0d358e2c83faa48965a655e1304a8-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/dd0d6623fe332235df021e43250d1e1c-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/307c547b29ca5c6ce3270cbd8d3e2c7d-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/ed078e67a25169848acecadd5a1608b3-.jpg
+dependencies:
+  - girafe:birches
+  - sfbt:sam-johnson-playground-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: anotn-augustenborg-houses-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: anotn-augustenborg-houses-darknite
+
+---
+assetId: anotn-augustenborg-houses-darknite
+version: "1.0"
+lastModified: "2012-02-14T19:34:11Z"
+url: https://community.simtropolis.com/files/file/27274-augustenborg-houses/?do=download&r=100324
+
+---
+assetId: anotn-augustenborg-houses-maxisnite
+version: "1.0"
+lastModified: "2012-02-14T19:34:11Z"
+url: https://community.simtropolis.com/files/file/27274-augustenborg-houses/?do=download&r=100325
