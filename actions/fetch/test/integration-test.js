@@ -37,18 +37,11 @@ describe('The fetch action', function() {
 				permissions = null,
 				upload,
 				uploads = [upload],
-				lastRun,
-				now = Date.now(),
 			} = testOptions;
 
 			// Setup a virtual file system where the files reside.
 			let fs = Volume.fromJSON();
 			fs.writeFileSync('/permissions.yaml', permissions ? stringify(permissions) : '');
-
-			// Populate the file where we store when the last file was fetched.
-			if (lastRun) {
-				fs.writeFileSync('/LAST_RUN', lastRun);
-			}
 
 			// We'll mock the global "fetch" method so that we can mock the api 
 			// & download responses.
@@ -70,10 +63,9 @@ describe('The fetch action', function() {
 					// If a days parameter was specified, we have to filter out 
 					// the files updated before that threshold.
 					let after = -Infinity;
-					if (searchParams.has('days')) {
-						let days = +searchParams.get('days');
-						let ms = days * 24*3600e3;
-						after = +now - ms;
+					if (searchParams.has('since')) {
+						let since = new Date(searchParams.get('since'));
+						after = since.getTime();
 					}
 					let id = searchParams.has('id') ? +searchParams.get('id') : undefined;
 					let filtered = uploads.filter(upload => {
@@ -854,7 +846,7 @@ describe('The fetch action', function() {
 			],
 		});
 		const { run } = this.setup({ upload });
-		let { fs, result } = await run();
+		let { fs, result } = await run({ after: new Date('2000-01-01T00:00:00Z').toISOString() });
 		let raw = fs.readFileSync(`/${result.additions[0]}`).toString();
 		let doc = parseDocument(raw);
 		for (let i = 0; i < 2; i++) {
@@ -935,28 +927,6 @@ describe('The fetch action', function() {
 		expect(packages[0].metadata[0].info.website).to.equal(uploads[0].fileURL);
 
 		expect(Date.parse(timestamp)).to.be.above(Date.parse(after));
-
-	});
-
-	it('fetches all files from the STEX api since the last fetch date from LAST_RUN if no id was specified', async function() {
-
-		let uploads = faker.uploads([
-			'2024-12-21T14:00:00Z',
-			'2024-12-21T11:00:00Z',
-			'2024-12-20T12:00:00Z',
-			'2024-11-30T17:00:00Z',
-		]);
-		let lastRun = '2024-12-21T12:00:00Z';
-		const { run } = this.setup({
-			uploads,
-			lastRun,
-		});
-
-		const { packages, timestamp } = await run();
-		expect(packages).to.have.length(1);
-		expect(packages[0].metadata[0].info.website).to.equal(uploads[0].fileURL);
-
-		expect(Date.parse(timestamp)).to.be.above(Date.parse(lastRun));
 
 	});
 
@@ -1071,7 +1041,7 @@ describe('The fetch action', function() {
 			},
 			uploads: faker.uploads(),
 		});
-		let e = await reject(() => run());
+		let e = await reject(() => run({ after: '2024-01-01T00:00:00Z' }));
 		expect(e.code).to.equal('simtropolis_error');
 
 	});
@@ -1267,7 +1237,7 @@ describe('The fetch action', function() {
 				}), { status: 404 });
 			},
 		});
-		let result = await run({});
+		let result = await run({ after: '2024-01-01T00:00:00Z' });
 		expect(result.packages).to.eql([]);
 		expect(result.timestamp).to.be.ok;
 
@@ -1290,7 +1260,7 @@ describe('The fetch action', function() {
 		const { run } = this.setup({
 			upload,
 		});
-		let { result } = await run();
+		let { result } = await run({ after: '2024-01-01T00:00:00Z' });
 		expect(result.errors).to.have.length(1);
 
 	});
