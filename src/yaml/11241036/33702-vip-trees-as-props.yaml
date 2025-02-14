@@ -1,0 +1,61 @@
+group: "11241036"
+name: vip-trees-as-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: VIP Trees as Props
+  description: |-
+    **Short Description:**  
+    This cascading dependency package turns a few MMP trees released by the VIP team, mostly Orange, into props for your lot editing pleasure, since the original doesn't include prop exemplars. This will expand your lotting possibilities, as they can now be parts of the prop variation technique, and most of them are available as a seasonal variation.  
+    This package only contains props, nothing else - to obtain the models, please download the dependencies listed below.
+
+    Names in the Lot Editor:
+
+    -   Aesculus: Orange\_Aesculus\_... (letters ranking from A to F)
+    -   Fagus: Orange\_Fagus\_... (letters ranking from A to E)
+    -   Pinus Nigra: Or\_TSC\_FL\_Pinus Nigra... (letters ranking from A to E)
+    -   Cherry: VIP\_Cherry... (only 1 version)
+    -   All other: VIP\_Tree1... (numbers ranking from 1 to 7)
+
+    For further information, please refer to the Readme in the download.
+
+    **Dependencies:**  
+    This is a cascading dependency – it thus requires the subsequently mentioned dependencies to be installed, lest you will only see a lot of brown boxes in your cities and nothing at all in the Lot Editor. All of these dependencies are adding a few Mayor Mode ploppable trees to your menu.  
+    **Aesculus MMP Seasonal Flora:** [https://community.simtropolis.com/files/file/27001-aesculus-mmpseasonal-flora/](https://community.simtropolis.com/files/file/27001-aesculus-mmpseasonal-flora/)  
+    **VIP orange Fagus MMP Seasonal Flora:** [https://community.simtropolis.com/files/file/27008-vip-orange-fagus-mmpseasonal-flora/](https://community.simtropolis.com/files/file/27008-vip-orange-fagus-mmpseasonal-flora/)  
+    **VIP RuralPack Expansion 1:** [https://community.simtropolis.com/files/file/27064-vip-ruralpack-expansion1/](https://community.simtropolis.com/files/file/27064-vip-ruralpack-expansion1/)  
+    **Pinus Nigra:** [https://community.simtropolis.com/files/file/28847-pinus-nigra/](https://community.simtropolis.com/files/file/28847-pinus-nigra/)
+
+    **Installation:**  
+    To install, please first make sure that you’ve downloaded and installed all dependencies (see above). Then move all files coming with this download into your Plugins folder.  
+    To uninstall, remove all lots that have props from this download from your cities and then remove these files as well. (You can also remove these files beforehand, this will just give you a lot of brown boxes, which might even facilitate removing lots with these props on them.)
+
+    **Compatibility:**  
+    This plugin should be compatible with all versions of SimCity 4. If not, please feel free to tell me.
+
+    **Credits:**  
+    Credits go to the VIP people for making these wonderful trees in the first place, which, according to the upload threads, are: Orange, Girafe, Manchou, and Vnaoned.  
+    The uploading has been kindly permitted by [@Girafe](https://community.simtropolis.com/profile/319793-girafe/).
+
+    **Support:**
+
+    Please feel free to post issues, bug reports, and suggestions in this thread:
+
+    [https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread/?do=embed](https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread/?do=embed)
+  author: "11241036"
+  website: https://community.simtropolis.com/files/file/33702-vip-trees-as-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/Screenshot.png.ea441c807b144946f7aca1252218ec3d.png
+dependencies:
+  - orange:aesculus
+  - orange:fagus
+  - orange:pinus-nigra
+  - vip:rural-pack
+assets:
+  - assetId: 11241036-vip-trees-as-props
+
+---
+assetId: 11241036-vip-trees-as-props
+version: "1"
+lastModified: "2020-07-17T05:25:00Z"
+url: https://community.simtropolis.com/files/file/33702-vip-trees-as-props/?do=download&r=182005
