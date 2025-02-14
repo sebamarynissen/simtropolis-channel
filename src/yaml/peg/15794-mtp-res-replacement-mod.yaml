@@ -1,45 +1,47 @@
-group: peg
-name: mtp-res-replacement-mod
-version: "1.1"
-subfolder: 200-residential
-info:
-  summary: MTP RES Replacement Mod
-  description: |-
-    This is the first complete or "Mondo" Mod for the **MTP** that completely replaces the game's default Residential Lots with Mountainous/Rural versions designed for the MTP Theme. **Every** game-default Residential lot has been modified or replaced with MTP styled lots and buildings. Similar to a new tile set, this mod goes beyond by actually changing the appearance of the lots as well and giving your game a completely different look.
+# Something's wrong with the R$ part of this mod. The lots don't reference the 
+# proper buildings apparently.
+# group: peg
+# name: mtp-res-replacement-mod
+# version: "1.1"
+# subfolder: 200-residential
+# info:
+#   summary: MTP RES Replacement Mod
+#   description: |-
+#     This is the first complete or "Mondo" Mod for the **MTP** that completely replaces the game's default Residential Lots with Mountainous/Rural versions designed for the MTP Theme. **Every** game-default Residential lot has been modified or replaced with MTP styled lots and buildings. Similar to a new tile set, this mod goes beyond by actually changing the appearance of the lots as well and giving your game a completely different look.
 
-    Like SimMars, the **MTP** is a full, new **Theme** for your game. And with the new Start-Up Manager, playing multiple themes is no longer a nasty chore of having to manually rename and remove files & folders. That means you can easily switch between your normal cities and regions and any new Theme, like the MTP.
+#     Like SimMars, the **MTP** is a full, new **Theme** for your game. And with the new Start-Up Manager, playing multiple themes is no longer a nasty chore of having to manually rename and remove files & folders. That means you can easily switch between your normal cities and regions and any new Theme, like the MTP.
 
-    The MTP is being released in bits & pieces as they become available. This will allow you to easily choose which components to install or not. You also will not have to wait until the entire theme is complete in order to enjoy it. In its entirety, the MTP Theme will completely change the appearance of your game as well as how you play it.
+#     The MTP is being released in bits & pieces as they become available. This will allow you to easily choose which components to install or not. You also will not have to wait until the entire theme is complete in order to enjoy it. In its entirety, the MTP Theme will completely change the appearance of your game as well as how you play it.
 
-    To conserve game resources, game-default props and buildings have been re-used wherever possible, Still, scores of new props & textures and no less than 20 new, custom residential buildings have been included in this mod. In total, the mod includes **over 330 new residential lots** that replace the game-default lots.
+#     To conserve game resources, game-default props and buildings have been re-used wherever possible, Still, scores of new props & textures and no less than 20 new, custom residential buildings have been included in this mod. In total, the mod includes **over 330 new residential lots** that replace the game-default lots.
 
-    **\*\* This mod was authored by Pegasus & BarbyW.**
+#     **\*\* This mod was authored by Pegasus & BarbyW.**
 
-    **\*\* This mod requires the following dependency:**
+#     **\*\* This mod requires the following dependency:**
 
-    **[PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+#     **[PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
 
-    **Also required are the 3 PEG\-MTP Growable RES Mods:**  
-    [PEG\-MTP Growable Low Wealth RES](https://community.simtropolis.com/files/file/14107-peg-mtp-low-wealth-growable-res-cabins/)  
-    [PEG\-MTP Growable Medium Wealth RES](https://community.simtropolis.com/files/file/14116-peg-mtp-mid-wealth-growable-res-aframes/)  
-    [PEG\-MTP Growable High Wealth RES](https://community.simtropolis.com/files/file/14158-peg-mtp-high-wealth-growable-res-lodges/)
+#     **Also required are the 3 PEG\-MTP Growable RES Mods:**  
+#     [PEG\-MTP Growable Low Wealth RES](https://community.simtropolis.com/files/file/14107-peg-mtp-low-wealth-growable-res-cabins/)  
+#     [PEG\-MTP Growable Medium Wealth RES](https://community.simtropolis.com/files/file/14116-peg-mtp-mid-wealth-growable-res-aframes/)  
+#     [PEG\-MTP Growable High Wealth RES](https://community.simtropolis.com/files/file/14158-peg-mtp-high-wealth-growable-res-lodges/)
 
-    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
-  author: Pegasus
-  website: https://community.simtropolis.com/files/file/15794-peg-mtp-res-replacement-mod/
-  images:
-    - https://www.simtropolis.com/objects/screens/0003/0ceefe632de17a93341b07c74c38fa7b-product_image1.jpg
-    - https://www.simtropolis.com/objects/screens/0003/0ceefe632de17a93341b07c74c38fa7b-product_image2.jpg
-dependencies:
-  - peg:mtp-high-wealth-growable-res-lodges
-  - peg:mtp-low-wealth-growable-res-cabins
-  - peg:mtp-mid-wealth-growable-res-aframes
-  - peg:mtp-super-pack
-assets:
-  - assetId: peg-mtp-res-replacement-mod
+#     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+#   author: Pegasus
+#   website: https://community.simtropolis.com/files/file/15794-peg-mtp-res-replacement-mod/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/0003/0ceefe632de17a93341b07c74c38fa7b-product_image1.jpg
+#     - https://www.simtropolis.com/objects/screens/0003/0ceefe632de17a93341b07c74c38fa7b-product_image2.jpg
+# dependencies:
+#   - peg:mtp-high-wealth-growable-res-lodges
+#   - peg:mtp-low-wealth-growable-res-cabins
+#   - peg:mtp-mid-wealth-growable-res-aframes
+#   - peg:mtp-super-pack
+# assets:
+#   - assetId: peg-mtp-res-replacement-mod
 
----
-assetId: peg-mtp-res-replacement-mod
-version: "1.1"
-lastModified: "2025-02-08T15:49:17Z"
-url: https://community.simtropolis.com/files/file/15794-peg-mtp-res-replacement-mod/?do=download&r=205631
+# ---
+# assetId: peg-mtp-res-replacement-mod
+# version: "1.1"
+# lastModified: "2025-02-08T15:49:17Z"
+# url: https://community.simtropolis.com/files/file/15794-peg-mtp-res-replacement-mod/?do=download&r=205631
