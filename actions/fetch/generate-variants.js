@@ -158,7 +158,7 @@ function generateVariant(config, metadata, opts) {
 	// mode variant.
 	let dependencies = [];
 	let exclusions = {};
-	let { packages: [pkg], assets } = metadata;
+	let { packages: [pkg] = [], assets = [] } = metadata;
 	let { nightmode, driveside, CAM, resolution } = config;
 	if (nightmode) {
 
