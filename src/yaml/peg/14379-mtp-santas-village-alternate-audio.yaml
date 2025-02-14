@@ -1,0 +1,79 @@
+group: peg
+name: santas-village-alternate-audio
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: Santas Village Alternate Audio
+  description: |-
+    This package contains four alternate background music sound effect files for the ***[PEG Santa's Village](https://community.simtropolis.com/files/file/30651-peg-santas-village/)*** lot. These are the sound effects that are played when you scroll near the lot... as if the music was playing from loud speakers in the Village... not the game's default background music.
+
+    The four files are:
+
+    1.PEG\-MTP\_SV-AUDIO2\_GM-JB.dat
+
+    *\*Swing version of*
+
+    ***Jingle Bells***
+
+    *by Glenn Miller*  
+     
+
+    2.PEG\-MTP\_SV-AUDIO3\_CB-LFC.dat
+
+    *\***Looking for Christmas***
+
+    *by Clint Black. Not very upbeat but it sure is pretty.*  
+     
+
+    3.PEG\-MTP\_SV-AUDIO4\_NSP-SR.dat
+
+    *\***Sleigh Ride***
+
+    *by the Nashville SuperPickers. Yee Haw!!*  
+     
+
+    4.PEG\-MTP\_SV-AUDIO5\_JTTW.dat
+
+    *\* **Joy To The World***
+
+     *(Instrumental)*
+
+    The install will place all four files into the default PEG Santa's Village folder. These are Highlander files... "There Can Be Only One!  
+    You must remove which ever AUDIO files, including the default AUDIO installed with the lot, that don't want to use. You can easily sample the various songs by just switching the files.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
+
+    ***Have a Very, Merry Christmas !!!***
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14379-peg-mtp-santas-village-alternate-audio/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/dffe5a729dea48ed55a0df252fdb1eeb-product_image.jpg
+dependencies:
+  - peg:santas-village
+variants:
+  - variant: { peg:santas-village:audio: jingle-bells }
+    assets:
+      - assetId: peg-mtp-santas-village-alternate-audio
+        include:
+          - /PEG-MTP_SV-AUDIO2_GM-JB.dat
+  - variant: { peg:santas-village:audio: looking-for-christmas }
+    assets:
+      - assetId: peg-mtp-santas-village-alternate-audio
+        include:
+          - /PEG-MTP_SV-AUDIO3_CB-LFC.dat
+  - variant: { peg:santas-village:audio: sleigh-ride }
+    assets:
+      - assetId: peg-mtp-santas-village-alternate-audio
+        include:
+          - /PEG-MTP_SV-AUDIO4_NSP-SR.dat
+  - variant: { peg:santas-village:audio: joy-to-the-world }
+    assets:
+      - assetId: peg-mtp-santas-village-alternate-audio
+        include:
+          - /PEG-MTP_SV-AUDIO5_JTTW.dat
+
+---
+assetId: peg-mtp-santas-village-alternate-audio
+version: "1.1"
+lastModified: "2025-02-08T17:02:52Z"
+url: https://community.simtropolis.com/files/file/14379-peg-mtp-santas-village-alternate-audio/?do=download&r=205664

@@ -1,0 +1,47 @@
+group: peg
+name: mtp-random-woods
+version: "2.0.8"
+subfolder: 660-parks
+info:
+  summary: MTP Random Woods
+  description: |-
+    This is a **MTP** compliant update to the PEG Random Woods lots which provides a fast & flexible means of adding realistic woodlands to your cities and surrounding rural areas. The Random Woods are ploppable lots, in 1x1 & 2x2 sizes, that blend together to form large, wooded forests. They are fully slope conforming and can be plopped almost anywhere. Their YIMBY effects have also been reduce substantially to avoid blowing out caps.
+
+    Two versions are included... one with transparent textures which allow the game's natural terrain to show through... and a textured version that uses the new MTP Forest Floor texture and blends well with other MTP lots. The two versions are included in separate files so after installation, you can remove either one if you do not intend to use that style.
+
+    **UPDATING LOTS FROM PREVIOUS VERSIONS**
+
+    The transparent texture lots are not affected by this update. However, the textured versions will not show any changes until they are bulldozed and re-plopped. You can do this at any time... even after the files have been updated. The old version remains fully supported and functional so you can replace them at you leisure.  
+      
+    \*\* These lot were originally designed for seamless integration with the PEG Trail Parks and the PEG Stream Kit. Obviously, they can be used by themselves, singularly or in groups, anywhere in your cities where you need a little flourish of flora.
+
+    **\*\* BE SURE TO REMOVE THE OLDER VERSION FILES WHEN UPGRADING \*\***
+
+    **Installation**:
+
+    copy/extract the **PEGPROD** parent folder into your Plugins. If you extracted the ~*Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+    If any earlier version(s) of this file exist, they should be deleted.
+
+    **Dependencies**:
+
+    **[PEG\-MTP MTP SUPER-PACK v1.5](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **\*\*All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested** ***[Pegasus Productions Support Site](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
+
+    ***This v2.08 update was made by Tyberius06 (on the behalf of Pegasus)***
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/4526-peg-mtp-random-woods-v208/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2ac8a76943603e922d27c9553c800ffa-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/product_image_001-mtp.jpg.6826cc4f1b055626332ab4b8aa787171.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-random-woods-v208
+
+---
+assetId: peg-mtp-random-woods-v208
+version: "2.0.8"
+lastModified: "2025-01-29T09:29:02Z"
+url: https://community.simtropolis.com/files/file/4526-peg-mtp-random-woods-v208/?do=download&r=205496

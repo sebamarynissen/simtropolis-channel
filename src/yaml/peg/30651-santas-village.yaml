@@ -1,0 +1,44 @@
+group: peg
+name: santas-village
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Santa's Village
+  description: |-
+    This non-conditional reward is a special Christmas gift from the staff & members at Pegasus Production to you and the entire SC4 Community. Like so many of the ***Santa's Villages*** that exist in mountain areas, our Village mixes tourist trap with amusement park... and theme-related shopping. Its all here... the shops, the rides, the reindeer petting zoo, the Polar Express train ride... and, of course, the kids running crazy on sugar highs and natural adrenalin fueled by the expectation of spending a little suck-up time with Santa.
+
+    This sprawling 10x10 lot was designed for use with the **MTP**. Its a reward... but also offers over 600 jobs to your local residents. Its transit enabled, of course... and puts on quite a light show at night. In fact, its only fair to warn you that between the lights and the seasonal background music, you just might find yourself getting sucked-in while spending long periods reliving Christmases Past & imagining that you are there.
+
+    The lot was too large & complex for the BAT so it was assembled modular style with numerous models designed to fit together. Still, considering its size & complexity, the overall file size and resource usage is fairly small. One of the advantages of modular design is the repeated use of models to conserve game resources.
+
+    For some reason, the snow never seems to melt around Santa's Village. Some say they have refrigeration coils buried in the ground... while others suspect that they truck it in from higher elevations each night. The kids, of course, believe otherwise. But however it gets there, it sure is a popular attraction during the warmer summer months.
+
+    \* The snow texture matches the PEG\-MTP Snow Mod textures.... but does not require that mod. The snow texture on the lot remains year-round, even without the Snow Mod installed.
+
+    **\*\* This lot requires the following dependencies:**
+
+    [https://community.simtropolis.com/files/file/20966-peg-mtp\-super-pack/](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+    **and the** **PEG Christmas Development Pack:**
+
+    [https://community.simtropolis.com/files/file/11097-peg-christmas-development-kit/](https://community.simtropolis.com/files/file/11097-peg-christmas-development-kit/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
+
+    ***From the Staff & Crew at Pegasus Productions...  
+    Have a Very, Merry Christmas !!!***
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/30651-peg-santas-village/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/product_image.jpg.cd50d7bc2461c0c316e6a4f631bc58b4.jpg
+dependencies:
+  - peg:christmas-development-kit
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-santas-village
+
+---
+assetId: peg-santas-village
+version: "1.0"
+lastModified: "2015-07-10T23:32:23Z"
+url: https://community.simtropolis.com/files/file/30651-peg-santas-village/?do=download&r=158202
