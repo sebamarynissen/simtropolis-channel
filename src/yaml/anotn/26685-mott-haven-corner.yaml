@@ -1,0 +1,46 @@
+group: anotn
+name: mott-haven-corner
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Mott Haven Corner
+  description: |-
+    This is modeled after a building in the Bronx neighborhood of Mott Haven, it comes with R$, R$$, and Cs$ lots, a 1x2 and 2x1 for each occupant group. The building is wall-to-wall.
+
+    Stats are in the readme provided.
+
+    **Dependencies:**
+
+    For proper function of this release you need:
+
+    [NYBT Essentials](https://www.simtropolis.com/forum/files/file/22916-nybt-essentials/) for custom queries. If you choose the Darknite version you will also need [SimFox Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    This is rendered with both DarkNite and regular Maxis Nite, note that you can easily change between Darknite and Maxis Nite by replacing the model file with the version you'd like to use. No need for bulldozing any lots before. Just make sure you don't have both DarkNite and Maxis Nite models in your Plugins folder.
+  author: anotn
+  website: https://community.simtropolis.com/files/file/26685-nybt-mott-haven-corner/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/983dbd34160b4c9b41d7fcf28677e0a6-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/01735d4403deb5bf381d026eec4be9d0-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/be45304de7127907d6c0b4cde66cc7e9-.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: anotn-mott-haven-corner-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: anotn-mott-haven-corner-darknite
+
+---
+assetId: anotn-mott-haven-corner-maxisnite
+version: "1.0"
+lastModified: "2011-08-24T23:49:30Z"
+url: https://community.simtropolis.com/files/file/26685-nybt-mott-haven-corner/?do=download&r=100315
+
+---
+assetId: anotn-mott-haven-corner-darknite
+version: "1.0"
+lastModified: "2011-08-24T23:49:30Z"
+url: https://community.simtropolis.com/files/file/26685-nybt-mott-haven-corner/?do=download&r=100316
