@@ -72,10 +72,13 @@ export default class Downloader {
 	// automatically because the `completeMetadata` function might need the 
 	// extracted files!
 	async handleAsset(asset) {
-		const spinner = ora(`Downloading ${asset.url}`).start();
+		let spinner;
+		if (process.env.NODE_ENV !== 'test') {
+			spinner = ora(`Downloading ${asset.url}`).start();
+		}
 		const [error, download] = await attempt(() => this.download(asset));
 		if (error) {
-			spinner.fail(error.message);
+			spinner?.fail(error.message);
 			throw error;
 		}
 		if (download.cached) {
@@ -90,7 +93,7 @@ export default class Downloader {
 				this.inspectAsset(destination.path),
 				download.cleanup(),
 			]);
-			spinner.succeed();
+			spinner?.succeed();
 			asset[kExtractedAsset] = destination.path;
 			asset[kFileNames] = info.files;
 			return {
@@ -100,7 +103,7 @@ export default class Downloader {
 				},
 			};
 		} catch {
-			spinner.fail();
+			spinner?.fail();
 		}
 	}
 
@@ -242,17 +245,10 @@ async function readMetadata(file) {
 	// the STEX, so just ignore them.
 	const contents = await fs.promises.readFile(file);
 	let docs = parseAllDocuments(String(contents));
-	let json = docs
+	return docs
 		.filter(doc => !doc.empty)
 		.map(doc => doc.toJSON())
 		.filter(doc => !doc.assetId);
-	if (json.length === 0) {
-		return true;
-	} else if (json.length === 1) {
-		return json.at(0);
-	} else {
-		return json;
-	}
 
 }
 

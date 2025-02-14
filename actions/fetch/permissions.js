@@ -81,6 +81,7 @@ export default class PermissionsApi {
 
 		// Compile all the names that the user is allowed to upload for.
 		let names = [slugify(upload.author), ...permission.groups || []];
+		if (permission.alias) names.push(permission.alias);
 		for (let pkg of data) {
 			if (pkg.assetId || !pkg.group) continue;
 			if (!names.includes(pkg.group)) {

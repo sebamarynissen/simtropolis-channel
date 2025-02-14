@@ -8,43 +8,37 @@ describe('#patchMetadata()', function() {
 
 	function read(file) {
 		let contents = fs.readFileSync(new URL(file, import.meta.url)).toString();
-		let docs = parseAllDocuments(contents).map(doc => doc.toJSON());
-		return docs.length === 1 ? docs[0] : docs;
+		return parseAllDocuments(contents).map(doc => doc.toJSON());
 	}
 
 	it('returns the main metadata as is without a patch', function() {
 
-		let metadata = {
-			package: {
-				group: 'smf16',
-				name: 'stex-package',
-				info: {
-					summary: 'STEX package',
-				},
+		let metadata = [{
+			group: 'smf16',
+			name: 'stex-package',
+			info: {
+				summary: 'STEX package',
 			},
-		};
-		let { packages } = patchMetadata(metadata, null);
-		expect(packages).to.have.length(1);
-		expect(packages[0]).to.eql(metadata.package);
+		}];
+		let { metadata: [pkg] } = patchMetadata(metadata, []);
+		expect(pkg).to.eql(metadata[0]);
 
 	});
 
 	it('overrides specific info', function() {
 
-		let metadata = {
-			package: {
-				group: 'andreas',
-				name: 'dependencies',
-				subfolder: '150-mods',
-				info: {
-					author: 'Andreas Roth',
-					description: 'This is the description',
-					website: 'https://www.simtropolis.com/files/file/123-file',
-				},
+		let metadata = [{
+			group: 'andreas',
+			name: 'dependencies',
+			subfolder: '150-mods',
+			info: {
+				author: 'Andreas Roth',
+				description: 'This is the description',
+				website: 'https://www.simtropolis.com/files/file/123-file',
 			},
-		};
+		}];
 		let patch = read('group-override.yaml');
-		let { packages } = patchMetadata(metadata, patch);
+		let { metadata: [...packages] } = patchMetadata(metadata, patch);
 		expect(packages).to.have.length(1);
 		let [pkg] = packages;
 		expect(pkg.group).to.equal('sfbt');
@@ -58,8 +52,8 @@ describe('#patchMetadata()', function() {
 
 	it('interpolates asset ids', function() {
 
-		let metadata = {
-			package: {
+		let metadata = [
+			{
 				group: 'smf-16',
 				name: 'reference-assets',
 				info: {
@@ -67,13 +61,11 @@ describe('#patchMetadata()', function() {
 					description: 'STEX description',
 				},
 			},
-			assets: [
-				{ assetId: 'smf-16-reference-assets' },
-			],
-		};
+			{ assetId: 'smf-16-reference-assets' },
+		];
 
 		let patch = read('interpolation.yaml');
-		let { packages: [pkg] } = patchMetadata(metadata, patch);
+		let { metadata: [pkg] } = patchMetadata(metadata, patch);
 		expect(pkg).to.eql({
 			group: 'smf-16',
 			name: 'reference-assets',
@@ -95,8 +87,8 @@ describe('#patchMetadata()', function() {
 
 	it('patches from multiple packages', function() {
 
-		let metadata = {
-			package: {
+		let metadata = [
+			{
 				group: 'smf-16',
 				name: 'some-building',
 				subfolder: '200-residential',
@@ -107,16 +99,14 @@ describe('#patchMetadata()', function() {
 					'memo:submenus-dll',
 				],
 			},
-			assets: [
-				{
-					assetId: 'smf-16-some-building',
-					url: 'https://www.simtropolis.com/files/file/123-smf-16-some-building',
-				},
-			],
-		};
+			{
+				assetId: 'smf-16-some-building',
+				url: 'https://www.simtropolis.com/files/file/123-smf-16-some-building',
+			},
+		];
 
 		let patch = read('resource-package.yaml');
-		let { packages: [resources, main] } = patchMetadata(metadata, patch);
+		let { metadata: [resources, main] } = patchMetadata(metadata, patch);
 		expect(resources).to.eql({
 			group: 'smf-16',
 			name: 'some-building-resources',
@@ -154,8 +144,8 @@ describe('#patchMetadata()', function() {
 
 	it('removes check checksum from external assets', function() {
 
-		let metadata = {
-			package: {
+		let metadata = [
+			{
 				group: 'smf-16',
 				name: 'some-dll',
 				subfolder: '200-residential',
@@ -166,25 +156,22 @@ describe('#patchMetadata()', function() {
 					'memo:submenus-dll',
 				],
 			},
-			assets: [
-				{
-					assetId: 'smf-16-some-dll',
-					lastModified: '2025-01-01T00:00:00Z',
-					url: 'https://www.simtropolis.com/files/file/123-smf-16-some-dll?do=download',
-					withChecksum: [
-						{
-							include: '/cheats.dll',
-							sha256: '54a256',
-						},
-					],
-				},
-			],
-		};
+			{
+				assetId: 'smf-16-some-dll',
+				lastModified: '2025-01-01T00:00:00Z',
+				url: 'https://www.simtropolis.com/files/file/123-smf-16-some-dll?do=download',
+				withChecksum: [
+					{
+						include: '/cheats.dll',
+						sha256: '54a256',
+					},
+				],
+			},
+		];
 
-		let { assets } = patchMetadata(metadata, {
+		let { metadata: [, asset] } = patchMetadata(metadata, [{
 			url: 'https://github.com/smf16/dlls/releases/1.0.0/asset.zip',
-		});
-		let [asset] = assets;
+		}]);
 		expect(asset).to.eql({
 			assetId: 'smf-16-some-dll',
 			lastModified: '2025-01-01T00:00:00Z',

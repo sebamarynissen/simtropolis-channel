@@ -10,8 +10,9 @@ export default async function checkPreviousVersion(id, metadata, opts) {
 
 	// Check if a previous version of the file exists by file id. We do this by 
 	// checking the folder for the author.
+	let pkg = metadata.find(pkg => pkg.group);
 	let { cwd, srcPath, fs } = opts;
-	let author = metadata.package.group;
+	let author = pkg.group;
 	let dir = path.resolve(cwd, srcPath, author);
 	const [error, contents] = await attempt(() => fs.promises.readdir(dir));
 	if (error) {
@@ -48,8 +49,8 @@ export default async function checkPreviousVersion(id, metadata, opts) {
 		);
 	});
 	let [main] = packages;
-	metadata.package.group = main.group;
-	metadata.package.name = main.name;
+	pkg.group = main.group;
+	pkg.name = main.name;
 
 	// Now return that the old file has to be deleted when creating a new PR. 
 	// Note that if the name of the file doesn't change, this isn't a problem, 

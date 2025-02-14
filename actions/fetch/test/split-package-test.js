@@ -68,13 +68,13 @@ describe('#splitPackage()', function() {
 		});
 
 		let pkg = faker.pkg({ subfolder: '300-commercial' });
-		let [main, resource] = await splitPackage({
-			package: {
+		let [main, resource] = await splitPackage([
+			{
 				...pkg,
 				assets: [{ assetId: asset.assetId }],
 			},
-			assets: [asset],
-		});
+			asset,
+		]);
 		expect(main.group).to.equal(pkg.group);
 		expect(main.name).to.equal(pkg.name);
 		expect(main.assets[0].include).to.eql(['\\.SC4Lot$']);
@@ -103,8 +103,8 @@ describe('#splitPackage()', function() {
 		});
 
 		let pkg = faker.pkg({ subfolder: '300-commercial' });
-		let [main, resource] = await splitPackage({
-			package: {
+		let [main, resource] = await splitPackage([
+			{
 				...pkg,
 				variants: [
 					{
@@ -118,8 +118,9 @@ describe('#splitPackage()', function() {
 					},
 				],
 			},
-			assets: [mn, dn],
-		});
+			mn,
+			dn,
+		]);
 		expect(main.group).to.equal(pkg.group);
 		expect(main.name).to.equal(pkg.name);
 		expect(main.variants[0].assets[0].include).to.eql(['\\.SC4Lot$']);
@@ -147,13 +148,13 @@ describe('#splitPackage()', function() {
 		});
 
 		let pkg = faker.pkg({ subfolder: '180-flora' });
-		let [main, resource] = await splitPackage({
-			package: {
+		let [main, resource] = await splitPackage([
+			{
 				...pkg,
 				assets: [{ assetId: asset.assetId }],
 			},
-			assets: [asset],
-		});
+			asset,
+		]);
 		expect(main.group).to.equal(pkg.group);
 		expect(main.name).to.equal(pkg.name);
 		expect(main.assets[0].include).to.eql(['\\.dat$']);
@@ -177,13 +178,13 @@ describe('#splitPackage()', function() {
 		});
 
 		let pkg = faker.pkg({ subfolder: '180-flora' });
-		let [main, resource] = await splitPackage({
-			package: {
+		let [main, resource] = await splitPackage([
+			{
 				...pkg,
 				assets: [{ assetId: asset.assetId }],
 			},
-			assets: [asset],
-		});
+			asset,
+		]);
 		expect(main.group).to.equal(pkg.group);
 		expect(main.name).to.equal(pkg.name);
 		expect(main.assets[0].include).to.not.include('\\.SC4Desc');
