@@ -238,7 +238,7 @@ export default async function handleUpload(json, opts = {}) {
 	// However, if the asset does not have a persistent url and it contains a 
 	// DLL, then we should generate an error.
 	for (let asset of filterAssets(metadata)) {
-		let files = asset[kFileNames];
+		let files = asset[kFileNames] ?? [];
 		if (asset.nonPersistentUrl) {
 			let info = await downloader.handleAsset(asset);
 			if (info.checksums?.length > 0) {
