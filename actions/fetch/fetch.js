@@ -109,7 +109,10 @@ export default async function fetchPackage(opts) {
 					notices.push(result.reason);
 				}
 			} else {
-				packages.push(result);
+				packages.push({
+					...result,
+					url: upload.fileURL,
+				});
 			}
 		}
 
