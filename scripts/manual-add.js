@@ -42,10 +42,11 @@ async function run(urls, argv) {
 	} = argv;
 	const result = await addFromStex({
 		cache,
-		id: urls.map(url => urlToFileId(url)).join(','),
-		requireMetadata: false,
-		splitOffResources: argv.split,
-		darkniteOnly: argv.darkniteOnly,
+		id: urls.length > 0 && urls.map(url => urlToFileId(url)).join(','),
+		requireMetadata: argv.requireMetadata ?? false,
+		splitOffResources: argv.split ?? false,
+		darkniteOnly: argv.darkniteOnly ?? false,
+		after: argv.after,
 		dependencies: 'auto',
 		dependencyIndex,
 	});

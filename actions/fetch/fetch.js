@@ -131,7 +131,7 @@ export default async function fetchPackage(opts) {
 // timestamp.
 function normalizeAfterDate(after) {
 	if (typeof after === 'string') {
-		return after;
+		return new Date(after).toISOString();
 	} else if (after instanceof Date) {
 		return after.toISOString();
 	} else {
