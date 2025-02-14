@@ -1,0 +1,34 @@
+group: peg
+name: mtp-sway-bridge
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: MTP Sway Bridge
+  description: |-
+    This latest addition to the MTP allows you to extend your Pine Trail over narrow canyons and ravines with the classic (and always scarier than Hell) Sway or Rope bridge. Yes, now you too can have one of those rickety old rope bridges you've seen in almost every adventure movie.
+
+    The actual lot is a 1x1 Pine Trail section that includes an offset rendered rope bridge that extends out and crosses any 3 tile wide canyon. (1 level wide at the bottom, plus the 2 sloped tiles). On the opposite side, the bridge will visually connect with any other normal Pine Trail lot.
+
+    You do not have to worry about any fussy terrain editing as the bridge will accommodate canyons of any height... provided that the total span is 3 tiles wide. The readme file includes some basic terrain editing tips for those who are unfamiliar with it.
+
+    As the bridge is actually just an extended prop, you can plop anything you want under the bridge. It will not interfere with road or rail traffic and looks especially good spanning rivers and streams. Vicious, man-eating Crocodiles not included.
+
+    **\*\* This file requires the following dependency:**   
+    **[PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14810-peg-mtp-sway-bridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1baabfb99dc6c4c3b4fd0fa9a926343b-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1baabfb99dc6c4c3b4fd0fa9a926343b-product_image2.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-sway-bridge
+
+---
+assetId: peg-mtp-sway-bridge
+version: "1.1"
+lastModified: "2025-02-08T16:44:43Z"
+url: https://community.simtropolis.com/files/file/14810-peg-mtp-sway-bridge/?do=download&r=205651

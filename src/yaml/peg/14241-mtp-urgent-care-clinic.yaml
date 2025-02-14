@@ -1,0 +1,31 @@
+group: peg
+name: mtp-urgent-care-clinic
+version: "1.1"
+subfolder: 630-health
+info:
+  summary: MTP Urgent Care Clinic
+  description: |-
+    Next on the **MTP** Hit Parade is this small, Urgent Care Clinic designed for use in remote, mountainous & rural areas. As with all MTP civic 'alternatives', it has an expanded coverage range to more realistically represent the type of coverage provided in large, sparsely populated areas.
+
+    All other properties are identical to the game's default medical clinic. The lot remains at the default 1x2 lot size... and should be plopped  on fairly flat land for best appearance.
+
+    The model is 'nite-lited' and contains some interior detailing. The lot uses the random cabin smoke prop and introduces a new custom parking lot texture.
+
+    **\*\* This lot requires the following dependency: [PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14241-peg-mtp-urgent-care-clinic/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/89ce0ee241b487d9d33b50105affbf89-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0016/89ce0ee241b487d9d33b50105affbf89-product_image2.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-urgent-care-clinic
+
+---
+assetId: peg-mtp-urgent-care-clinic
+version: "1.1"
+lastModified: "2025-02-08T17:05:04Z"
+url: https://community.simtropolis.com/files/file/14241-peg-mtp-urgent-care-clinic/?do=download&r=205666

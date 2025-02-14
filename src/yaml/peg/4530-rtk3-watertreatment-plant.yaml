@@ -1,0 +1,45 @@
+group: peg
+name: rtk3-watertreatment-plant
+version: "1.1"
+subfolder: 500-utilities
+info:
+  summary: RTK3 WaterTreatment Plant
+  description: |-
+    This is the updated BAT version of the original RTK Water Pump & Processing Plant. It has been modified for use with the new RTK3.
+
+    This lot is wider than the original, has been transit enabled, and contains numerous new BAT models. Other relevant specifications remain the same. This is a RTK3 Specific Lot. This lot must be placed on a river or coastal bank that conforms to the RTK3 specification.
+
+    Its time to upgrade your antiquated water pumps and water purification plants to these modern & efficient, all-in-one Water Reclamation plants. Powered by clean natural gas and utilizing recent breakthroughs in water processing and reclamation technologies, these facilities can suck up filthy river or sea water and process it into palatable drinking water for your thirsty Sims.
+
+    This is a hybrid lot combining the capabilities of 2 1/2 water pumps and a water purification plant into one truly functional facility. This is not a mere combination lot... but a true blending of multiple functions. The custom query will show stats and efficiencies for both water supply and water reclamation... yet you will notice there is only one, rather large underground water connector.
+
+    All properties have been adjusted to reflect realistic comparative values in the game. The comparative plop cost is slightly reduced as you get a discount for buying in bulk. The monthly budget costs are also slightly reduced to reflect the newer, more economical technology employed and the cost savings of a centralized facility.
+
+    The lot size (5x5) is also notably smaller than the 6x7 water purification plant lot... making this facility much easier to place.
+
+    Water Produced: 50,000 cu m/month  
+    Water Treated: 2,400 cu m/month
+
+    **Dependency**
+
+    [bldgprop\_vol1.dat](https://community.simtropolis.com/library/maxis/sc4/buildings/bldgprop_vol1.dat)
+
+    **Note:** DataNode reveals a prop exemplar 0x2DDB7010 which is unidentified. Following an investigation we've determined this is insignificant to the aesthetics and functionality of the lot. However if anyone has any clues what this other dep is, please contact a staff member or reply [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/?do=findComment&comment=1699079).
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Added missing dep linky and note about the missing prop exemplar.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/4530-peg-rtk3-watertreatment-plant-v206/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8d7ee368376ea459acda1759dc71847f-product_image.jpg
+dependencies:
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: peg-rtk3-watertreatment-plant-v206
+
+---
+assetId: peg-rtk3-watertreatment-plant-v206
+version: "1.1"
+lastModified: "2025-02-08T17:54:44Z"
+url: https://community.simtropolis.com/files/file/4530-peg-rtk3-watertreatment-plant-v206/?do=download&r=205680
