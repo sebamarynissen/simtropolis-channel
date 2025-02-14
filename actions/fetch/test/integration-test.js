@@ -1720,6 +1720,24 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a DN-only package that is also labeled as HD', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					name: 'BankOfCanton(HD)_DN.zip',
+					contents: {
+						'metadata.yaml': {},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		const [pkg] = result.metadata;
+		expect(pkg.variants).to.have.length(2);
+	});
+
 });
 
 function jsonToYaml(json) {

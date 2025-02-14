@@ -49,13 +49,13 @@ function findIncludedVariants(metadata) {
 	if (hasOneOf(assets, ['maxisnite', 'darknite'])) {
 		variants.add('nightmode');
 	}
-	if (hasOneOf(assets, ['rhd', 'lhd'])) {
+	if (assets.length > 1 && hasOneOf(assets, ['rhd', 'lhd'])) {
 		variants.add('driveside');
 	}
 	if (hasOneOf(assets, ['cam'])) {
 		variants.add('CAM');
 	}
-	if (hasOneOf(assets, ['hd'])) {
+	if (assets.length > 1 && hasOneOf(assets, ['hd'])) {
 		variants.add('resolution');
 	}
 
@@ -158,7 +158,7 @@ function generateVariant(config, metadata, opts) {
 	// mode variant.
 	let dependencies = [];
 	let exclusions = {};
-	let { package: pkg, assets } = metadata;
+	let { packages: [pkg], assets } = metadata;
 	let { nightmode, driveside, CAM, resolution } = config;
 	if (nightmode) {
 

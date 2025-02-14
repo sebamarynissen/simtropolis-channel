@@ -77,7 +77,7 @@ export default function patchMetadata(
 		});
 	return {
 		metadata: [...packages, ...assets],
-		main: userMetadata[mainIndex],
+		main: packages[mainIndex],
 		basename,
 	};
 
