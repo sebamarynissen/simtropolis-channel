@@ -69,11 +69,19 @@ export default function patchMetadata(
 		.map((patch, index) => {
 			let isMain = index === mainIndex;
 			let bare = applyPatch(autoMetadata[0], patch, { main: isMain });
+
+			// IMPORTANT! If the patch did not explicitly specify assets, but it 
+			// does specify variants, then the assets need to be *removed* from 
+			// the auto-generated metadata!
+			if (patch.variants && !patch.assets) {
+				delete bare.assets;
+			}
 			let filled = fill(bare, grouped);
 			if (isMain && patch.name) {
 				basename = filled.name;
 			}
 			return filled;
+
 		});
 	return {
 		metadata: [...packages, ...assets],

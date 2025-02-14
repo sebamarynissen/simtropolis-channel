@@ -1738,6 +1738,49 @@ describe('The fetch action', function() {
 		expect(pkg.variants).to.have.length(2);
 	});
 
+	it('a package with custom variants that should override the assets', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							variants: [
+								{
+									variant: { driveside: 'right' },
+									assets: [
+										{
+											assetId: '${{ assets.0.assetId }}',
+											include: ['RHD.dat'],
+										},
+									],
+								},
+								{
+									variant: { driveside: 'left' },
+									assets: [
+										{
+											assetId: '${{ assets.0.assetId }}',
+											include: ['LHD.dat'],
+										},
+									],
+								},
+							],
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		const [pkg, asset] = result.metadata;
+		expect(pkg.assets).to.be.undefined;
+		expect(pkg.variants).to.have.length(2);
+		for (let variant of pkg.variants) {
+			expect(variant.assets[0].assetId).to.equal(asset.assetId);
+		}
+
+	});
+
 });
 
 function jsonToYaml(json) {
