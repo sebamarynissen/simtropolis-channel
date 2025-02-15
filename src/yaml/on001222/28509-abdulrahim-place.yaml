@@ -1,0 +1,52 @@
+group: on001222
+name: abdulrahim-place
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Abdulrahim Place
+  description: |-
+    CO$$$ 7000 CO$$$ 10000  
+      
+    Lot size 5x7  
+      
+    Constuction time 202 day  
+      
+    Pullotion at center 3 1 50 0  
+      
+    Power 100  
+      
+    water 500  
+      
+    Growble stage 8  
+      
+    No dependency  
+      
+    Building in Bangkok Thailand
+
+    **Update maxisnite version**
+  author: on001222
+  website: https://community.simtropolis.com/files/file/28509-abdulrahim-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/3eee6f5266ba7de88c7feb9d49dc8371-d_nab.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-abdulrahim-place
+      - assetId: on001222-abdulrahim-place-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-abdulrahim-place
+      - assetId: on001222-abdulrahim-place-maxisnite
+
+---
+assetId: on001222-abdulrahim-place
+version: "1.0"
+lastModified: "2013-04-12T08:40:52Z"
+url: https://community.simtropolis.com/files/file/28509-abdulrahim-place/?do=download&r=121785
+
+---
+assetId: on001222-abdulrahim-place-maxisnite
+version: "1.0"
+lastModified: "2013-04-12T08:40:52Z"
+url: https://community.simtropolis.com/files/file/28509-abdulrahim-place/?do=download&r=121786

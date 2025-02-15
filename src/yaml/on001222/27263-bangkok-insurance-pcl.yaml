@@ -1,0 +1,60 @@
+group: on001222
+name: bangkok-insurance-pcl
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bangkok Insurance PCL
+  description: |-
+    Co$$ 2154  
+    Lot size 4x4  
+    Constuction time 142 day  
+    Maxfire stage 2  
+    Pullotion at center 1 2 45 0  
+    Power 85  
+    Water 252  
+    Growble stage 8
+
+    **Dependency**
+
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC Mega Props - CP Vol02.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    [Darknite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **Update 12/13/2013**  
+      
+    \- Edit New Lot
+
+    \- Fix new glass texture
+
+    **\- Update maxisnite version**
+
+    Building in Bangkok Thailand
+  author: on001222
+  website: https://community.simtropolis.com/files/file/27263-bangkok-insurance-pcl/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/e29c4a565fb6388601e626de4a35e1db-bang--33-1.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/7186dee6fa7eb39ae0b1bfc2200fd4ea-bang.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/0b7f53c32aa83a12a73ea5c3f9ede83d-bdn.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - sfbt:essentials
+assets:
+  - assetId: on001222-bangkok-insurance-pcl-part0
+  - assetId: on001222-bangkok-insurance-pcl-part1
+
+---
+assetId: on001222-bangkok-insurance-pcl-part0
+version: "1.0"
+lastModified: "2012-02-08T11:07:51Z"
+url: https://community.simtropolis.com/files/file/27263-bangkok-insurance-pcl/?do=download&r=121705
+
+---
+assetId: on001222-bangkok-insurance-pcl-part1
+version: "1.0"
+lastModified: "2012-02-08T11:07:51Z"
+url: https://community.simtropolis.com/files/file/27263-bangkok-insurance-pcl/?do=download&r=121706
