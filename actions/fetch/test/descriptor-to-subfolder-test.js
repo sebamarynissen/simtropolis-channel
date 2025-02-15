@@ -1,15 +1,19 @@
 // # descriptor-to-subfolder-test.js
 import { expect } from 'chai';
-import { descriptorToSubfolder } from '../scrape.js';
+import { descriptorsToSubfolder } from '../api-to-metadata.js';
 
 describe('#descriptorToSubfolder()', function() {
 
 	before(function() {
 		Object.defineProperty(this, 'folder', {
 			get() {
-				return descriptorToSubfolder(this.test.title.split(',').map(x => x.trim()));
+				return descriptorsToSubfolder(this.test.title.split(',').map(x => x.trim()));
 			},
 		});
+	});
+
+	it('undefined', function() {
+		expect(descriptorsToSubfolder(undefined)).to.be.undefined;
 	});
 
 	it('mod, residential', function() {

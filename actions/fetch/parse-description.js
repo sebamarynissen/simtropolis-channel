@@ -13,6 +13,7 @@ export default function parseDescription(node) {
 
 // Setup the turndown service with the options used to transform html to markdown.
 const td = new TurndownService({
+	headingStyle: 'atx',
 	bulletListMarker: '-',
 	emDelimiter: '*',
 });

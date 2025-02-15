@@ -82,7 +82,7 @@ describe('#expandVariants()', function() {
 			group: 'group',
 			name: 'name',
 		};
-		let variants = await expandVariants({ assets, package: pkg });
+		let variants = await expandVariants({ assets, packages: [pkg] });
 		expect(variants).to.eql([
 			{
 				variant: { 'group:name:resolution': 'sd' },
@@ -124,7 +124,7 @@ describe('#expandVariants()', function() {
 			group: 'group',
 			name: 'name',
 		};
-		let variants = await expandVariants({ assets, package: pkg });
+		let variants = await expandVariants({ assets, packages: [pkg] });
 		expect(variants).to.eql([
 			{
 				variant: { 'group:name:resolution': 'sd' },
@@ -172,7 +172,7 @@ describe('#expandVariants()', function() {
 			group: 'group',
 			name: 'name',
 		};
-		let variants = await expandVariants({ assets, package: pkg });
+		let variants = await expandVariants({ assets, packages: [pkg] });
 		expect(variants).to.eql([
 			{
 				variant: { nightmode: 'standard', CAM: 'no', 'group:name:resolution': 'sd' },

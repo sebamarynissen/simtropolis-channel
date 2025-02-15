@@ -1,0 +1,30 @@
+group: peg
+name: mtp-random-pine-forest
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: MTP Random Pine Forest
+  description: |-
+    This is a **MTP** compliant update to the [PEG Random Pine Forest](https://community.simtropolis.com/files/file/4523-peg-random-forest/) lots which provides a fast & flexible means of adding realistic woodlands to your cities and surrounding rural areas. The Random Pine Forests are ploppable lots, in 1x1 & 2x2 sizes, that blend together to form large, forests of custom pines trees. They are fully slope conforming and can be plopped almost anywhere. Their YIMBY effects have also been reduce substantially to avoid blowing out caps.
+
+    The new Pine Forests feature pine trees with an upgraded appearance and one new pine tree model. They feature the same pines trees used in the PEG God & Mayor mode Pine Tree Mods.
+
+    Two versions are included... one with transparent textures which allow the game's natural terrain to show through... and a textured version that uses the new MTP Forest Floor texture and blends well with other MTP lots. The two versions are included in separate files so after installation, you can remove either one if you do not intend to use that style.
+
+    **\*\* This lot requires the following dependency: [PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14026-peg-mtp-random-pine-forest/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/0500ebbc800d7548ef918d294c72eb91-product_image.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-random-pine-forest
+
+---
+assetId: peg-mtp-random-pine-forest
+version: "1.1"
+lastModified: "2025-02-08T16:57:15Z"
+url: https://community.simtropolis.com/files/file/14026-peg-mtp-random-pine-forest/?do=download&r=205659

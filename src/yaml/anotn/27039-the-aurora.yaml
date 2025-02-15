@@ -1,0 +1,48 @@
+group: anotn
+name: the-aurora
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: The Aurora
+  description: |-
+    The Aurora is a 30-story residential tower in the neighborhood of Hell's Kitchen in Manhattan. Construction started out in 1988 but as the developer abondened the construction when it was 90% finished, it sat unfinished until 1996. It is now shared-living supportive housing ran by the Actor's Fund under the name Dorothy Ross Friedman Residences.  
+    This will grow on the New York Tileset on high density residential zones and comes with two corner lots 1x2 and 2x1.  
+      
+    **Stats:**  
+    ![AuroraStats.png](http://i1192.photobucket.com/albums/aa323/NYBT/AuroraStats.png)  
+      
+    **Dependencies**: For proper function of this release you need:  
+    [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/) for custom queries. If you choose the Darknite version you will also need [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).  
+      
+    This is rendered with both DarkNite and regular Maxis Nite, note that you can easily change between Darknite and Maxis Nite by replacing the model file with the version you'd like to use. No need for bulldozing any lots before. Just make sure you don't have both DarkNite and Maxis Nite models in your Plugins folder.  
+      
+    Thanks to Aaron Graham for the modding and Vlasky for helping me test this and of course everyone who have visited my [BAT thread](https://community.simtropolis.com/forums/topic/43644-anotns-gotham-salmagundi/) in the NYBT board.
+
+    Mod edit 28th April 2017 - Fixed formatting
+  author: anotn
+  website: https://community.simtropolis.com/files/file/27039-nybt-the-aurora/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/3a523641488545c58c133b17eb3839b8-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/67db6771afb4b1742d621317e92c8778-.png
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: anotn-the-aurora-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: anotn-the-aurora-darknite
+
+---
+assetId: anotn-the-aurora-darknite
+version: "1.0"
+lastModified: "2011-12-12T05:23:19Z"
+url: https://community.simtropolis.com/files/file/27039-nybt-the-aurora/?do=download&r=100320
+
+---
+assetId: anotn-the-aurora-maxisnite
+version: "1.0"
+lastModified: "2011-12-12T05:23:19Z"
+url: https://community.simtropolis.com/files/file/27039-nybt-the-aurora/?do=download&r=100321
