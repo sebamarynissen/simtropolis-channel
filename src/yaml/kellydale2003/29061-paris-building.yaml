@@ -1,0 +1,66 @@
+group: kellydale2003
+name: paris-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Paris Building
+  description: |-
+    **I (Kellydale2003) present to you**
+
+    **The Paris Building!**
+
+    ![SpruceWoods-Jun28421385396853_zpse453cb8](http://i916.photobucket.com/albums/ad1/Kohtem/SpruceWoods-Jun28421385396853_zpse453cb86.jpg)
+
+    **HISTORY**
+
+    The Paris Building located in the heart of the subarctic city of Winnipeg, Canada was first built in 1915. The building was originally 5 floors, but in 1917 a 6-floor vertical extension was added. The Paris Building is under the Historical Buildings Conservation list in Winnipeg and has become a heritage landmark.
+
+    The building was purposefully created to have a dilapidated feel in SimCity 4 and is entirely based off the Paris Building (it is not an exact replica). The building is also purposefully aged, the bricks are falling out, the large windows bent, the building even has burnt out outdoor lights! This model was almost purposely deleted in 2012 due to an influx of not-so-positive comments... better here than in no-where land!
+
+    This building was created by a Canadian, and if you feel the flag is overbearing to your non-Canadian cities, please imagine the structure as a Canadian Embassy or something! haha
+
+    **THIS IS MY FIRST OLD SCHOOL BUILDING. TAKE IT EASY! :b**
+    ![table_zps2c827394.jpg](http://i916.photobucket.com/albums/ad1/Kohtem/table_zps2c827394.jpg)
+
+    **DEPENDENCIES NEEDED**
+
+    **.... JUST KIDDING!**
+
+    ![151-then_zps24a483bf.jpg](http://i916.photobucket.com/albums/ad1/Kohtem/151-then_zps24a483bf.jpg)
+
+    ^The real Paris Building in Winnipeg, Canada.
+
+    Download the MAXIS NIGHT file if you do not have SimFox's Darknight installed in your plugins!
+    Download the DARK NIGHT file if you have Dark Night installed!
+
+    For more upcoming projects visit my thread! (:
+    [![sd.gif](http://i760.photobucket.com/albums/xx242/umbraroy/sd.gif)](https://community.simtropolis.com/topic/33505-skyscrapers-galore/)
+
+    Enjoy!
+
+    , Kellydale2003
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/29061-paris-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/032b0befa35cdb6f5eaf2d63add6465d-dp.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/7456b88137d2cd040ddc29670980d692-compo.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kellydale2003-paris-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: kellydale2003-paris-building-darknite
+
+---
+assetId: kellydale2003-paris-building-darknite
+version: "1.0"
+lastModified: "2013-11-26T07:17:36Z"
+url: https://community.simtropolis.com/files/file/29061-paris-building/?do=download&r=120992
+
+---
+assetId: kellydale2003-paris-building-maxisnite
+version: "1.0"
+lastModified: "2013-11-26T07:17:36Z"
+url: https://community.simtropolis.com/files/file/29061-paris-building/?do=download&r=120993

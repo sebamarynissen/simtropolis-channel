@@ -1,0 +1,84 @@
+group: kellydale2003
+name: linda-swampy-medical-centre
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: Linda Swampy Medical Centre
+  description: |-
+    ![LindaSwampyMedicalCentre-1.jpg](http://i760.photobucket.com/albums/xx242/umbraroy/LindaSwampyMedicalCentre-1.jpg)
+
+    **FILE REINSTATED JAN 2021 THANKS TO NUMEROUS REQUESTS BY THE STEX COMMUNITY AND SPECIAL THANKS TO MATIAS93 FOR BRINGING BACK THIS FILE! ENJOY!**
+
+    **Hey everyone!**
+
+    **After 2 years of deciding the facade of this structure I've finally decided to keep it like this! This boxy structure was known as "Glesias Square" with tacky black grey glass, then became known as "Carmine Hilton Plaza" with blue green squared 90's looking glass... the structure finally under went a third and final makeover and is now known as the Linda Swampy Medical Centre!**
+
+    So with that being said...
+
+    I am pleased to present to you the ***Linda Swampy Medical Centre***!
+
+    There are 3 lots that will define the structure... 1) Hospital Medical Centre! 2) High-tech Growable 3) & Last but not least... a high-tech ploppable known as Linda Swampy Pharmaceuticals!
+
+    **4x4 Lot with no dependencies! What more can I say? (:**
+
+    Download the MAXIS NIGHT file if you do not have SimFox's Darknight installed in your plugins!
+
+    Download the DARK NIGHT file if you have Dark Night installed!
+
+    For more upcoming projects visit my thread! (:
+
+    [![sd.gif](http://i760.photobucket.com/albums/xx242/umbraroy/sd.gif)](https://community.simtropolis.com/topic/33505-skyscrapers-galore/)
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/27565-linda-swampy-medical-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/26ce523676bec1a11d4b54d08cd1e8c4-.jpg
+dependencies:
+- kellydale2003:linda-swampy-medical-centre-model
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: kellydale2003-linda-swampy-medical-centre-maxisnite
+    exclude:
+    - ".SC4Model$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: kellydale2003-linda-swampy-medical-centre-darknite
+    exclude:
+    - ".SC4Model$"
+
+---
+group: kellydale2003
+name: linda-swampy-medical-centre-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Linda Swampy Medical Centre model
+  description: |-
+    Model dependency for the Linda Swampy Medical Centre.
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/27565-linda-swampy-medical-centre/
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: kellydale2003-linda-swampy-medical-centre-maxisnite
+    include:
+    - ".SC4Model$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: kellydale2003-linda-swampy-medical-centre-darknite
+    include:
+    - ".SC4Model$"
+
+---
+assetId: kellydale2003-linda-swampy-medical-centre-darknite
+version: "1.0"
+lastModified: "2012-05-05T15:48:40Z"
+url: https://community.simtropolis.com/files/file/27565-linda-swampy-medical-centre/?do=download&r=100312
+
+---
+assetId: kellydale2003-linda-swampy-medical-centre-maxisnite
+version: "1.0"
+lastModified: "2012-05-05T15:48:40Z"
+url: https://community.simtropolis.com/files/file/27565-linda-swampy-medical-centre/?do=download&r=100313

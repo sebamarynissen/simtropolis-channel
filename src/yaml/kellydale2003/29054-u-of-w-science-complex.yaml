@@ -1,0 +1,62 @@
+group: kellydale2003
+name: u-of-w-science-complex
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: U of W - Science Complex
+  description: |-
+    **I (Kellydale2003) present to you**
+
+    **University of Winnipeg's Science Complex!**
+
+    ![image007_zps9cabde0a.jpg](http://i916.photobucket.com/albums/ad1/Kohtem/image007_zps9cabde0a.jpg)
+
+    **HISTORY**
+
+    Located in downtown Winnipeg, Manitoba, Canada, University of Winnipeg's Science & Environmental Complex is a state of the art Faculty for Science.
+
+    This re-creation features an extra added floor and generic urban art. The complex angle did not resonate with SimCity 4's orthographic views and did not align with any road angle, therefore modern urban art was added to the complex to beautify the additional space.
+
+    **\*ALL PLOPPABLES ARE OVERHANG MODELS FIT FOR ROUNDABOUTS!\***
+    ![table1_zps8cd0c10e.jpg](http://i916.photobucket.com/albums/ad1/Kohtem/table1_zps8cd0c10e.jpg)
+
+    **No dependencies!**
+
+    ![image004_zps24c690fb.jpg](http://i916.photobucket.com/albums/ad1/Kohtem/image004_zps24c690fb.jpg)
+
+    ^Place the building on a roundabout to have a fitting effect!
+
+    Download the MAXIS NIGHT file if you do not have SimFox's Darknight installed in your plugins!
+    Download the DARK NIGHT file if you have Dark Night installed!
+
+    For more upcoming projects visit my thread! (:
+    [![sd.gif](http://i760.photobucket.com/albums/xx242/umbraroy/sd.gif)](https://community.simtropolis.com/topic/33505-skyscrapers-galore/)
+
+    Enjoy!
+
+    , Kellydale2003
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/29054-u-of-w-science-complex/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/3071b630a54f7a8a3d0988c63804b35d-thumbnail.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/0fd91a12a0b32edc3535e80243cd2404-new-city-may-7--001384549749.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kellydale2003-u-of-w-science-complex-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: kellydale2003-u-of-w-science-complex-darknite
+
+---
+assetId: kellydale2003-u-of-w-science-complex-maxisnite
+version: "1.0"
+lastModified: "2013-11-18T05:26:26Z"
+url: https://community.simtropolis.com/files/file/29054-u-of-w-science-complex/?do=download&r=120921
+
+---
+assetId: kellydale2003-u-of-w-science-complex-darknite
+version: "1.0"
+lastModified: "2013-11-18T05:26:26Z"
+url: https://community.simtropolis.com/files/file/29054-u-of-w-science-complex/?do=download&r=120922
