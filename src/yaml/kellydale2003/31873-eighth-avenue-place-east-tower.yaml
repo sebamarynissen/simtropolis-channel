@@ -1,12 +1,10 @@
 group: kellydale2003
 name: eighth-avenue-place-east-tower
-version: "1.0"
+version: "1.0a"
 subfolder: 300-commercial
 info:
   summary: Eighth Avenue Place - East Tower
   description: |-
-    **WARNING:** the immortal lot problem was detected in this model. This does not prevent it from being used in the game, only when demolished it's lot can remain. If this happens, use the [Immortality Killer](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2356) to get rid of the lot.
-
     Eighth Avenue Place East Tower from Calgary, Canada.
 
     3x5, 5x3 ploppable and growable.
@@ -30,6 +28,9 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/59753debd548a_St.Paul-Oct.141521500854135.jpg.4c15297f206bc7982ed98aebdec05738.jpg
 assets:
   - assetId: kellydale2003-eighth-avenue-place-east-tower
+    exclude:
+    - "/PLOP_3x5_Eighth Avenue Place - East Tower_402448f5.SC4Lot"
+  - assetId: kellydale2003-eighth-avenue-place-east-tower-ils-fix
 variants:
   - variant: { nightmode: standard }
   - variant: { nightmode: dark }
@@ -37,6 +38,12 @@ variants:
 
 ---
 assetId: kellydale2003-eighth-avenue-place-east-tower
-version: "1.0"
-lastModified: "2017-07-24T00:25:17Z"
-url: https://community.simtropolis.com/files/file/31873-eighth-avenue-place-east-tower/?do=download&r=167687
+version: "1.0a"
+lastModified: "2025-02-15T00:11:15Z"
+url: https://community.simtropolis.com/files/file/31873-eighth-avenue-place-east-tower/?do=download&r=205990
+
+---
+assetId: kellydale2003-eighth-avenue-place-east-tower-ils-fix
+version: "1.0a"
+lastModified: "2025-02-15T00:11:15Z"
+url: https://community.simtropolis.com/files/file/31873-eighth-avenue-place-east-tower/?do=download&r=205991
