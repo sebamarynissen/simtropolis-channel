@@ -1,0 +1,64 @@
+group: on001222
+name: mahanakhon-condo
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Mahanakhon Condo
+  description: |-
+    R$$$ 8x8 about 4000,7000,10000.
+
+    Constuction time 310 Day.
+
+    Pullotion at center 6 6 61 0.
+
+    Power 64 .
+
+    Water 456.
+
+    Growble stage 8.
+
+    Landmark Yes.
+
+    Building in Bangkok, Thailand. Estimated completion 2015.
+
+    **Dependencies**
+
+    [Bsc Texture Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    [BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC Textures Vol 01 (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [For Darknite](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: on001222
+  website: https://community.simtropolis.com/files/file/29886-mahanakhon-condo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/45fe88bbb5e8d45aa5eda554aeadd2e3-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/d87ef2bf77856bbbd38f7f59ec083b96-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/50c75f526222551f5aec56d84f64fa36-3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/d76ba21243ada107702aece4bd2a3548-4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/e3677a0c794ea2d3c4ce9b7d19714bfa-6.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-mahanakhon-condo-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-mahanakhon-condo-darknite
+
+---
+assetId: on001222-mahanakhon-condo-maxisnite
+version: "1.0"
+lastModified: "2014-09-06T07:35:14Z"
+url: https://community.simtropolis.com/files/file/29886-mahanakhon-condo/?do=download&r=141694
+
+---
+assetId: on001222-mahanakhon-condo-darknite
+version: "1.0"
+lastModified: "2014-09-06T07:35:14Z"
+url: https://community.simtropolis.com/files/file/29886-mahanakhon-condo/?do=download&r=141695

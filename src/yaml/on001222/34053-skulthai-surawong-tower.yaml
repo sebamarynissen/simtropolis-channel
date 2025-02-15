@@ -1,0 +1,55 @@
+group: on001222
+name: skulthai-surawong-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Skulthai Surawong Tower
+  description: |-
+    Hello, My first building in 2021.
+
+    This Main model from Cites skyline.
+
+    D**escription**
+
+    i made model in SimCity 4
+
+    CO$$ 5x2 1430
+
+    Growable Stage 8 Style Euro
+
+    Power 52
+
+    Water 212
+
+    Dependency
+
+    For darknite
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: on001222
+  website: https://community.simtropolis.com/files/file/34053-skulthai-surawong-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/2.jpg.923613e141244297b70ebe2d7f5771db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/1.jpg.0a00758f9aa4cb480703e15d3601077b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/3.jpg.9cd4632993eff076acc0babb361e0968.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/4.jpg.0b49d2f712ca70f298152e260a8b5300.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-skulthai-surawong-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-skulthai-surawong-tower-darknite
+
+---
+assetId: on001222-skulthai-surawong-tower-darknite
+version: "1.0.0"
+lastModified: "2021-01-15T06:43:15Z"
+url: https://community.simtropolis.com/files/file/34053-skulthai-surawong-tower/?do=download&r=184546
+
+---
+assetId: on001222-skulthai-surawong-tower-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-15T06:43:15Z"
+url: https://community.simtropolis.com/files/file/34053-skulthai-surawong-tower/?do=download&r=184547

@@ -1,0 +1,59 @@
+group: on001222
+name: amari-watergate-hotel-bangkok
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Amari Watergate Hotel Bangkok
+  description: |-
+    CS$$$ 999 CS$$ 2493 CS$ 4686
+
+    Lot size 3x8
+
+    Construction Time 146 days
+
+    Maxfire stage 4
+
+    Power 279
+
+    Water 591
+
+    Growable stage 8
+
+    Style Euro
+
+    Landmark Yes
+
+    Building in Bangkok,Thailand
+
+    Dependency
+
+    For Darknite mod
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed)
+  author: on001222
+  website: https://community.simtropolis.com/files/file/31331-amari-watergate-hotel-bangkok/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/1.png.7094cfa72455a45ee16853463fc6acee.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/2.png.44bd11d9f8dffcd71d463b7c761e0a52.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/3.png.fc73f4670075fc0a2562287c142ccbe1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/4.png.d28a5e9a116ecd3f620725fe73d308ec.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-amari-watergate-hotel-bangkok-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-amari-watergate-hotel-bangkok-darknite
+
+---
+assetId: on001222-amari-watergate-hotel-bangkok-darknite
+version: "1.0"
+lastModified: "2016-10-19T12:26:26Z"
+url: https://community.simtropolis.com/files/file/31331-amari-watergate-hotel-bangkok/?do=download&r=163483
+
+---
+assetId: on001222-amari-watergate-hotel-bangkok-maxisnite
+version: "1.0"
+lastModified: "2016-10-19T12:26:26Z"
+url: https://community.simtropolis.com/files/file/31331-amari-watergate-hotel-bangkok/?do=download&r=163484

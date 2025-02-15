@@ -1,0 +1,56 @@
+group: on001222
+name: royal-maneeya-renaissance-bangkok
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Royal Maneeya Renaissance Bangkok
+  description: |-
+    R$$$ about 3000 6000 8000  
+      
+    CS$$$ about 1800 3000 6000  
+      
+    CO$$$ about 6000 8000  
+      
+    Lot size 5x6  
+      
+    Pullotion at center 4 4 189 0  
+      
+    Style Euro  
+      
+    Buiding in Bangkok Thailand.
+
+    **Dependency**
+
+    [Darknite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **\*UPDATE\* 12/15/2013**
+
+    **\- Update maxisnite version**
+
+    enjoy.
+  author: on001222
+  website: https://community.simtropolis.com/files/file/29093-royal-maneeya-renaissance-bangkok/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/924a9ee54bc652795d3e2472b56b9e4c-day_nite.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-royal-maneeya-renaissance-bangkok
+      - assetId: on001222-royal-maneeya-renaissance-bangkok-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-royal-maneeya-renaissance-bangkok
+      - assetId: on001222-royal-maneeya-renaissance-bangkok-maxisnite
+
+---
+assetId: on001222-royal-maneeya-renaissance-bangkok
+version: "1.0"
+lastModified: "2013-12-02T17:03:38Z"
+url: https://community.simtropolis.com/files/file/29093-royal-maneeya-renaissance-bangkok/?do=download&r=121747
+
+---
+assetId: on001222-royal-maneeya-renaissance-bangkok-maxisnite
+version: "1.0"
+lastModified: "2013-12-02T17:03:38Z"
+url: https://community.simtropolis.com/files/file/29093-royal-maneeya-renaissance-bangkok/?do=download&r=121748
