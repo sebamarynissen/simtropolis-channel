@@ -1,0 +1,77 @@
+group: simhottoddy
+name: nybt-abbt-the-studebaker-building
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: NYBT ABBT The Studebaker building
+  description: |-
+    **NYBT** **ABBT The Studebaker building**
+
+    The Studebaker building was built in the 20's as a dealership warehouse for than Studebaker car manufacturer. Over the years it served many different owners. Today it is a part of Columbia University campus expansion project in Manhattanville and will be the one of two buildings preserved.
+
+    Manhattanville Project is the effort of the ABBT, group of BATters, in recreating Manhattan's neighborhood of Manhattanville. The Studebaker building is a part of it.
+
+    **This upload includes:**
+
+    \-SimFox DarkNite and MaxisNite versions.
+
+    \-Regular and quadruple IM jobs versions.
+
+    Stats:
+
+    **Stats:**
+
+    The Studebaker building
+
+    Regular jobs/ Quadruple jobs
+
+    122 IM/ 488 IM
+
+    Lot size
+
+    4 x 4
+
+    **Dependencies:**
+
+    [SimFox Day'n'Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/) (for DarkNte models)
+
+    [NYBT Essentials](https://www.simtropolis.com/forum/files/file/22916-nybt-essentials/)
+
+    **Credits:**
+
+    The Studebaker building:
+
+    Model: SimHoTToDDy
+
+    Modding: T Wrecks, anotn, Vlasky
+
+    Lot: T Wrecks, Vlasky
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/701e4c98a9776919e261108eafbb7b80-studebaker_d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/2c66f524c32cb53cfea8004adee4d28f-studebaker_dn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/8dc5119e197131a341b33959c7b04383-studebaker_mn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/728209c74490931d14b773e377fc6de5-m-ville.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simhottoddy-nybt-abbt-the-studebaker-building-darknite
+
+---
+assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite
+version: "1.0"
+lastModified: "2012-01-21T00:57:04Z"
+url: https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/?do=download&r=96171
+
+---
+assetId: simhottoddy-nybt-abbt-the-studebaker-building-darknite
+version: "1.0"
+lastModified: "2012-01-21T00:57:04Z"
+url: https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/?do=download&r=96172

@@ -1,0 +1,73 @@
+group: simhottoddy
+name: pripiat-long-block-pack-dark-night
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Pripiat Long Block Pack (dark night)
+  description: |-
+    Located in the abandoned city of Pripiat, Ukraine, these 5 story apartment buildings compose several of the city's "microdistricts".  They come in many lengths and orientations, this pack ( plus the Long Block V1) covers all of the varieties of this particular type of building  found in the real city.
+
+    Lit with TrueNite dark night.
+
+    **This upload includes:**
+
+    4 models, a long V1 diagonal, a shorter V2 and it's FAR version, and the shortest V3.
+
+    1 6x6 growable *coner* lot, V1 Diagonal
+
+    1 7x3 growable lot, V2 FAR
+
+    1 6x3 growable lot, V2
+
+    1 5x3 growable lot, V3
+
+    For those who want a plopable, one may use "[buildinplop](../../stex/details.cfm?id=21118)" on a *pre-developed* residential zone (or series of zones that add up to) of the *same size*. Failure to follow that rule will result in abandonment.
+
+    **Stats**:
+
+    R$ Occupants:   V3      V2     V1
+
+    R$ Occupants: 400 | 750 | 1000
+
+    Style: Euro
+
+    Stage: 4 | 6 | 6
+
+    Other stats: FYI, it is not irradiated. ![2.gif](../../forum/i/expressions/2.gif)
+
+    **Dependencies:**
+
+    [BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    Pripiat Resource pack (included)
+
+    Modeling by Simhottoddy.
+
+    Loting & Modding by T Wrecks.
+
+    Special thanks to T Wrecks for putting up with me and to everyone in my [BAT thread](../../forum/messageview.cfm?catid=37&threadid=103005&enterthread=y) that contributed to making these better!
+
+    Enjoy!
+
+    \-Todd
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/25358-pripiat-long-block-pack-dark-night/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8d53e48905ca68a885b3b6fde5df3783-STEX_Long2_01.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8d53e48905ca68a885b3b6fde5df3783-STEX_Long2_02d.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simhottoddy-pripiat-long-block-pack-dark-night
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simhottoddy-pripiat-long-block-pack-dark-night
+
+---
+assetId: simhottoddy-pripiat-long-block-pack-dark-night
+version: "1.0"
+lastModified: "2010-11-25T20:25:44Z"
+url: https://community.simtropolis.com/files/file/25358-pripiat-long-block-pack-dark-night/?do=download&r=53087

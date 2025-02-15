@@ -1,0 +1,63 @@
+group: simhottoddy
+name: bsp-fisher-body-plant-21-dark-night
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: BSP Fisher Body Plant 21 (dark night)
+  description: |-
+    Established in 1908, the Fisher Body Company's automobile bodies quickly became the industry standard.  In 1919 they built the massive Fisher Body Plant #21.  The company was sold to General Motors in 1926, and the Fisher Brothers used the proceeds of the sale to build the opulent Fisher Building in nearby New Center.  In 1984 General Motors sold the building, which was then used as a paint factory until 1993 when it closed for good
+
+    My magnum opus, never have I poured so much sweat tears and blood into a BAT as I have for you, my beloved Fisher Body 21. Will probably be a good long time before I attempt something so big again , so you shall be unique for a while.
+
+    Lit with Trunite dark night.
+
+    **This upload includes:**
+
+    Two lots, one Plopable, one growable, both 11x7
+
+    This may take you quite a while to grow, but it *is* possible without the use of mods.
+
+    **Stats**:
+
+    IM$$ occupants 2300
+
+    Stage 3
+
+    **Dependencies:**
+
+    For his lovely 60's cars, please download:
+
+    [1960s New Instance UDI Automata](../stex/details.cfm?id=22110)
+
+    By mikeseith
+
+    BAT: SimHoTToDDy
+
+    LOT: SimHoTToDDy (Yes, I actually made a lot)
+
+    Modding: Nofunk
+
+    Custom query : Jasoncw
+
+    *[*Click here for development discussion of new projects by The Barry Sanders Project*](../forum/messageview.cfm?catid=37&threadid=85962&enterthread=y)*
+
+    *Special thanks to people who stopped by my BAT thread and to the best team members ever!*
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/25334-bsp-fisher-body-plant-21-dark-night/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/cee3abeb2548caa38daf042ddd782261-FB21_STEX_D_01.jpg
+    - https://www.simtropolis.com/objects/screens/0023/cee3abeb2548caa38daf042ddd782261-FB21_STEX_D_02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
+
+---
+assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
+version: "1.0"
+lastModified: "2010-11-21T12:15:16Z"
+url: https://community.simtropolis.com/files/file/25334-bsp-fisher-body-plant-21-dark-night/?do=download&r=53047

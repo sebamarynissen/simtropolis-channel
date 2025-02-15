@@ -1,0 +1,55 @@
+group: simhottoddy
+name: bsp-standard-forge-co-maxis-night
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: BSP Standard Forge Co. (Maxis night)
+  description: |-
+    Located on the corner of Franklin and St. Aubin Street in Detroit's Rivertown district, the Standard Forge Co. building was expanded in a series of additions. It is just another average workshop that was common in the area and most other turn of the century industrial districts.
+
+    Lit with Trunite.
+
+    **This upload includes:**
+
+    Two 5x2 IM$$ lots, one plopable and one growable.
+
+    One additional 5x3 growable lot.
+
+    **Stats**:
+
+    IM$$ occupants 271
+
+    Stage 3
+
+    **Dependencies:**
+
+    No thank you.
+
+    BAT: SimHoTToDDy
+
+    LOT & Modding: Nofunk
+
+    Custom query : Jasoncw
+
+    *[*Click here for development discussion of new projects by The Barry Sanders Project*](../../../../forum/messageview.cfm?catid=37&threadid=85962&enterthread=y)*
+
+    *Special thanks to people who stopped by my BAT thread and to the best team members ever!*
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/25354-bsp-standard-forge-co-maxis-night/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_02m.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite
+
+---
+assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite
+version: "1.0"
+lastModified: "2010-11-24T21:08:57Z"
+url: https://community.simtropolis.com/files/file/25354-bsp-standard-forge-co-maxis-night/?do=download&r=53081
