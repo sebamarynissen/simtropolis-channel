@@ -39,14 +39,14 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_01.jpg
     - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_02m.jpg
-variants:
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite
 
 ---
 assetId: simhottoddy-bsp-standard-forge-co-maxis-night-maxisnite

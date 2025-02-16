@@ -47,14 +47,16 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0023/cee3abeb2548caa38daf042ddd782261-FB21_STEX_D_01.jpg
     - https://www.simtropolis.com/objects/screens/0023/cee3abeb2548caa38daf042ddd782261-FB21_STEX_D_02.jpg
-variants:
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
+dependencies:
+  - simfox:day-and-nite-mod
 
 ---
 assetId: simhottoddy-bsp-fisher-body-plant-21-dark-night-darknite
