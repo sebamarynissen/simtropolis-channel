@@ -1,0 +1,113 @@
+group: smf-16
+name: everseasonal-flora
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Everseasonal Flora
+  description: |-
+    Seasonal flora looks great, but they come with a few drawbacks. For example, most flora needs to be planted on a specific date (often September 1st). If you don't do this, you will get a mix of various seasons. Also, even though a lot of content is available with seasonal flora, as are seasonal tree controllers, you often still end up with a mix of both, which can look a bit awkward.
+
+    This mod takes a different approach, inspired by [@T Wrecks](https://community.simtropolis.com/profile/48496-t-wrecks/)' [Non-Seasonal Cycledogg Trees](https://community.simtropolis.com/files/file/23655-cycledogg-trees-non-seasonal/) and the [Central European Tree Controller](https://community.simtropolis.com/files/file/31419-central-european-tree-controller/). Instead of seasonally changing flora, it ensures that all of the supported flora - both seasonal and evergreen - becomes static and matches the season you picked during installation. As [@11241036](https://community.simtropolis.com/profile/353048-11241036/) said: "After all, we do only need seasonally changing trees for good looks and screenshots." I've decided to call this approach \*everseasonal flora\*.
+
+    With this mod you can change seasons independently of the game date. For example, if you're making a fall-themed CJ entry, use the fall version and then change back to summer later on.  
+    You could also follow real-life seasons if you want: just change the fall version in September, winter version in December and so on. That way your game matches the true seasons, which can really give a new dynamic to playing the game!
+
+    Currently, this mod supports the flora & props from the following packages. Support for more seasonal flora - such as Cycledogg's seasonal trees - is planned in the future.
+
+    -   [All of Girafe's flora](https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+    -   [MGB - MMP Pack Vol. 2](https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/), which makes some of Girafe's trees that were only available as props also available as flora.
+    -   [T-wrecks' Maxis Tree HD Replacement Mod](https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/)
+    -   [Orange Fagus](https://community.simtropolis.com/files/file/27008-vip-orange-fagus/)
+    -   [Orange Aesculus](https://community.simtropolis.com/files/file/27001-vip-orange-aesculus/)
+
+    The [Central European Tree Controller](https://community.simtropolis.com/files/file/31419-central-european-tree-controller/) is not affected, and if you use it, you should use its bundled evergreen variants instead. However, I'm planning to add support for it as well in the future, so you will eventually be able to switch seasons there as well with just this mod.
+
+    Note that these packages are no hard dependencies (see below). "Compatible" means that this mod will affect the appearance of the trees in those packages, but you're free to leave out the ones you don't want or need.
+
+    Below is a screenshot of the mod in action on [@RRetail](https://community.simtropolis.com/profile/744613-rretail/) [Roadside Rest Area](https://community.simtropolis.com/files/file/32713-roadside-rest-area/), which uses evergreen trees:
+
+    ![67afb47e46e5f_RoadsideRestArea.jpg.83bfa0a5e02cf2d7d8046875ac550bbb.jpg](https://www.simtropolis.com/objects/attachments/monthly_2025_02/67afb47e46e5f_RoadsideRestArea.jpg.83bfa0a5e02cf2d7d8046875ac550bbb.jpg)
+
+    **Installation**
+
+    I **strongly recommend** installing this mod with the [sc4pac Mod Manager](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/). Not only does sc4pac make installation easy, it also makes it easy to switch season by resetting the **smf16:everseasonal-flora:season** variant. You can do this by going to "Dashboard" > "Variants"
+
+    If you choose to install this mod manually, then you have to pick **ONLY ONE** of the five files. Choose the one labeled for the season of your liking. If you want to change seasons, remove the old file again, and replace it with the season of your liking.
+
+    Due to the exemplar patching, there is no requirement to have the mod load after all other mods, so you can put it anywhere you want in your plugins folder.
+
+    **Dependencies**
+
+    This mod uses exemplar patching, which is why it needs [memo's submenus-dll](https://community.simtropolis.com/files/file/36142-submenus-dll/) to work. This is the only hard dependency: you don't need to have all of the flora listed above, the mod will only change what you have installed.
+
+    **IMPORTANT**
+
+    Please note that this mod **DOES NOT** convert evergreen props into *functioning* seasonal props.  
+    It will change the appearance of evergreen props, but they will still remain static and stay the same throughout the year.  
+    This is because of how seasonal props work: a seasonal prop is just a timed prop, so if you need a seasonal prop for all seasons, you actually have to add 4 timed props to the lot.
+
+    It also means that, under the hood, seasonal flora is still seasonal, even though it doesn't look like it.  
+    This means that if you intend to ever disable this mod again, then you still need to make sure to plant seasonal flora at the required start date!
+
+    **Acknowledgements**
+
+    Many thanks go to [@Girafe](https://community.simtropolis.com/profile/319793-girafe/) and [@VIP Team](https://community.simtropolis.com/profile/439446-vip-team/) for creating the gorgeous trees in the first place, [@11241036](https://community.simtropolis.com/profile/353048-11241036/) for inspiring me to make this mod, and [@memo](https://community.simtropolis.com/profile/95442-memo/) for making exemplar patching possible, which avoids hard dependencies on the flora.
+  author: smf_16
+  website: https://community.simtropolis.com/files/file/36721-everseasonal-flora/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/semiseasonal.jpg.d0b332fd87aa288fd85c08b55253484a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/everwinter.jpg.eeeee4745fbf626bfeec9dceb9343f87.jpg
+  warning: |-
+    Although this mod will make seasonal flora look the same regardless of the ingame time, it is important to realize that under the hood they still function as seasonal flora.
+    This means that if you ever plan to use them as true seasonal flora again, it is still important to plant them on September 1st, or they will be out of sync if you remove this mod!
+dependencies:
+  - memo:submenus-dll
+variants:
+  - variant: { smf16:everseasonal-flora:season: summer }
+    assets:
+      - assetId: smf-16-everseasonal-flora
+        include:
+          - /everseasonal_flora_SUMMER.dat
+  - variant: { smf16:everseasonal-flora:season: fall }
+    assets:
+      - assetId: smf-16-everseasonal-flora
+        include:
+          - /everseasonal_flora_FALL.dat
+  - variant: { smf16:everseasonal-flora:season: winter }
+    assets:
+      - assetId: smf-16-everseasonal-flora
+        include:
+          - /everseasonal_flora_WINTER.dat
+  - variant: { smf16:everseasonal-flora:season: snowy }
+    assets:
+      - assetId: smf-16-everseasonal-flora
+        include:
+          - /everseasonal_flora_SNOW.dat
+  - variant: { smf16:everseasonal-flora:season: spring }
+    assets:
+      - assetId: smf-16-everseasonal-flora
+        include:
+          - /everseasonal_flora_SPRING.dat
+  - variant: { smf16:everseasonal-flora:season: disabled }
+variantInfo:
+  - variantId: smf16:everseasonal-flora:season
+    description: This
+    values:
+      - value: summer
+        description: Renders the summer model for all supported trees
+      - value: fall
+        description: Renders the fall model for all supported trees
+      - value: winter
+        description: Renders the winter model for all supported trees
+      - value: snowy
+        description: Renders a snowy tree model for all supported trees if available and uses the winter model if not available
+      - value: spring
+        description: Renders a spring model for all supported trees
+      - value: disabled
+        description: Disables the mod
+
+---
+assetId: smf-16-everseasonal-flora
+version: "1.0.0"
+lastModified: "2025-02-14T21:30:58Z"
+url: https://community.simtropolis.com/files/file/36721-everseasonal-flora/?do=download&r=205987

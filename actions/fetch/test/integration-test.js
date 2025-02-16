@@ -1,13 +1,12 @@
 // # integration-test.js
 import { expect } from 'chai';
-import { Document, parseAllDocuments, stringify } from 'yaml';
+import { Document, parseAllDocuments, parseDocument, stringify } from 'yaml';
 import mime from 'mime';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import yazl from 'yazl';
 import { Volume } from 'memfs';
-import { marked } from 'marked';
 import action from '../fetch.js';
 import { urlToFileId } from '../util.js';
 import * as faker from './faker.js';
@@ -26,6 +25,8 @@ async function reject(fn) {
 describe('The fetch action', function() {
 
 	before(function() {
+		process.env.NODE_ENV = 'test';
+
 		this.slow(1000);
 
 		this.setup = function(testOptions) {
@@ -36,18 +37,11 @@ describe('The fetch action', function() {
 				permissions = null,
 				upload,
 				uploads = [upload],
-				lastRun,
-				now = Date.now(),
 			} = testOptions;
 
 			// Setup a virtual file system where the files reside.
 			let fs = Volume.fromJSON();
 			fs.writeFileSync('/permissions.yaml', permissions ? stringify(permissions) : '');
-
-			// Populate the file where we store when the last file was fetched.
-			if (lastRun) {
-				fs.writeFileSync('/LAST_RUN', lastRun);
-			}
 
 			// We'll mock the global "fetch" method so that we can mock the api 
 			// & download responses.
@@ -64,15 +58,14 @@ describe('The fetch action', function() {
 				// making. Based on this we'll return a different result.
 				let parsedUrl = new URL(url);
 				let { pathname, searchParams } = parsedUrl;
-				if (pathname.startsWith('/stex/files-api.php')) {
+				if (pathname.startsWith('/stex/files-api')) {
 
 					// If a days parameter was specified, we have to filter out 
 					// the files updated before that threshold.
 					let after = -Infinity;
-					if (searchParams.has('days')) {
-						let days = +searchParams.get('days');
-						let ms = days * 24*3600e3;
-						after = +now - ms;
+					if (searchParams.has('since')) {
+						let since = new Date(searchParams.get('since'));
+						after = since.getTime();
 					}
 					let id = searchParams.has('id') ? +searchParams.get('id') : undefined;
 					let filtered = uploads.filter(upload => {
@@ -130,33 +123,6 @@ describe('The fetch action', function() {
 							},
 						);
 
-					} else {
-						let {
-							description,
-							images = [],
-							fileDescriptor,
-							fileDescriptors = [fileDescriptor],
-						} = upload;
-						let imageHtml = images.map(img => {
-							return `<span data-fullURL="${img}"></span>`;
-						}).join('');
-						let descriptorHtml = '';
-						if (fileDescriptors) {
-							descriptorHtml = `<li>
-								<span><strong>File Descriptor</strong></span>
-								<div>${fileDescriptors.join('\n<br>\n')}</div>
-							</li>`;
-						}
-						return new Response(`<html>
-							<body>
-								<div>
-									<h2>About this file</h2>
-									<section><div>${marked(description)}</div></section>
-								</div>
-								<ul class="cDownloadsCarousel">${imageHtml}</ul>
-								${descriptorHtml}
-							</body>
-						</html>`);
 					}
 				}
 
@@ -215,13 +181,15 @@ describe('The fetch action', function() {
 
 	it('a package with an empty metadata.yaml', async function() {
 
+		let description = '# Description\n\n## Foo\n\nIn markdown. Cool, right?';
 		let upload = faker.upload({
 			id: 111,
 			cid: 101,
 			author: 'smf_16',
 			title: 'SMF Tower',
 			release: '1.0.2',
-			fileDescriptor: 'Residential',
+			descriptor: 'Residential',
+			description,
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
@@ -239,7 +207,7 @@ describe('The fetch action', function() {
 			subfolder: '200-residential',
 			info: {
 				summary: upload.title,
-				description: upload.description,
+				description,
 				website: upload.fileURL,
 				images: upload.images,
 				author: 'smf_16',
@@ -276,6 +244,20 @@ describe('The fetch action', function() {
 
 	});
 
+	it('a package with a metadata field in the json', async function() {
+
+		let upload = faker.upload({
+			metadata: 'name: this-name',
+			files: [
+				{ contents: {} },
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		expect(result.metadata[0].name).to.equal('this-name');
+
+	});
+
 	it('a package with custom dependencies', async function() {
 
 		let upload = faker.upload({
@@ -295,7 +277,7 @@ describe('The fetch action', function() {
 					},
 				},
 			],
-			fileDescriptor: 'Agricultural',
+			descriptor: 'Agricultural',
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
@@ -340,47 +322,34 @@ describe('The fetch action', function() {
 				'SMF Tower (MN).zip',
 				'SMF Tower (DN).zip',
 			],
-			fileDescriptor: 'Commercial',
+			descriptor: 'Commercial',
 		});
 
 		const { run } = this.setup({ uploads: [upload] });
 
 		let { read } = await run({ id: upload.fileURL });
 		let metadata = read(`/src/yaml/smf-16/${upload.id}-smf-tower.yaml`);
-		expect(metadata[0]).to.eql({
-			group: 'smf-16',
-			name: 'smf-tower',
-			version: upload.release,
-			subfolder: '300-commercial',
-			info: {
-				summary: upload.title,
-				description: upload.description,
-				website: upload.fileURL,
-				images: upload.images,
-				author: 'smf_16',
+		expect(metadata[0].variants).to.eql([
+			{
+				variant: { nightmode: 'standard' },
+				assets: [
+					{
+						assetId: 'smf-16-smf-tower-maxisnite',
+					},
+				],
 			},
-			variants: [
-				{
-					variant: { nightmode: 'standard' },
-					assets: [
-						{
-							assetId: 'smf-16-smf-tower-maxisnite',
-						},
-					],
-				},
-				{
-					variant: { nightmode: 'dark' },
-					dependencies: [
-						'simfox:day-and-nite-mod',
-					],
-					assets: [
-						{
-							assetId: 'smf-16-smf-tower-darknite',
-						},
-					],
-				},
-			],
-		});
+			{
+				variant: { nightmode: 'dark' },
+				dependencies: [
+					'simfox:day-and-nite-mod',
+				],
+				assets: [
+					{
+						assetId: 'smf-16-smf-tower-darknite',
+					},
+				],
+			},
+		]);
 		expect(metadata[1]).to.eql({
 			assetId: 'smf-16-smf-tower-maxisnite',
 			lastModified: this.date(upload.updated),
@@ -641,7 +610,7 @@ describe('The fetch action', function() {
 				submitted: '2024-12-19 04:24:08',
 				updated: '2024-12-19 04:24:08',
 				fileURL: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				description: 'This is the description',
+				descHTML: '<p>This is the description</p>',
 				files: [
 					{
 						id: 12345,
@@ -656,7 +625,7 @@ describe('The fetch action', function() {
 						contents: {},
 					},
 				],
-				fileDescriptor: 'Commercial',
+				descriptor: 'Commercial',
 			}],
 		});
 
@@ -671,7 +640,6 @@ describe('The fetch action', function() {
 				summary: 'SMF Tower',
 				description: 'This is the description',
 				website: 'https://community.simtropolis.com/files/file/5364-smf-tower',
-				images: [],
 				author: 'smf_16',
 			},
 			variants: [
@@ -722,7 +690,7 @@ describe('The fetch action', function() {
 				submitted: '2024-12-19 04:24:08',
 				updated: '2024-12-19 04:24:08',
 				fileURL: 'https://community.simtropolis.com/files/file/5364-github-tower',
-				description: 'This is the description',
+				descHTML: '<p>This is the description</p>',
 				files: [
 					{
 						id: 12345,
@@ -735,7 +703,7 @@ describe('The fetch action', function() {
 						},
 					},
 				],
-				fileDescriptor: 'Residential',
+				descriptor: 'Residential',
 			}],
 		});
 
@@ -750,7 +718,6 @@ describe('The fetch action', function() {
 				summary: 'GitHub Tower',
 				description: 'This is the description',
 				website: 'https://community.simtropolis.com/files/file/5364-github-tower',
-				images: [],
 				author: 'smf_16',
 			},
 			assets: [
@@ -780,7 +747,8 @@ describe('The fetch action', function() {
 				submitted: '2024-12-19 04:24:08',
 				updated: '2024-12-19 04:24:08',
 				fileURL: 'https://community.simtropolis.com/files/file/2145-st-residences',
-				description: 'This is the description',
+				descHTML: '<p>This is the description</p>',
+				images: ['www.image.com', 'www.simtropolis.com'],
 				files: [
 					{
 						id: 12345,
@@ -813,7 +781,7 @@ describe('The fetch action', function() {
 						},
 					},
 				],
-				fileDescriptor: 'Residential',
+				descriptor: 'Residential',
 			}],
 		});
 
@@ -832,7 +800,7 @@ describe('The fetch action', function() {
 				description: 'This is the description',
 				author: 'smf_16',
 				website: 'https://community.simtropolis.com/files/file/2145-st-residences',
-				images: [],
+				images: ['www.simtropolis.com', 'www.image.com'],
 			},
 			assets: [
 				{
@@ -861,6 +829,35 @@ describe('The fetch action', function() {
 
 	});
 
+	it('automatically quotes boolean-like values', async function() {
+
+		let upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							variants: [
+								{ variant: { 'some-feature': 'on' } },
+								{ variant: { 'some-feature': 'off' } },
+							],
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		let { fs, result } = await run({ after: new Date('2000-01-01T00:00:00Z').toISOString() });
+		let raw = fs.readFileSync(`/${result.additions[0]}`).toString();
+		let doc = parseDocument(raw);
+		for (let i = 0; i < 2; i++) {
+			let prop = doc.getIn(['variants', i, 'variant', 'some-feature'], true);
+			expect(prop.type).to.equal('QUOTE_DOUBLE');
+		}
+		let desc = doc.getIn(['info'], true).items.find(item => item.key.value === 'description').key;
+		expect(desc.type).to.equal('PLAIN');
+
+	});
+
 	it('a package without metadata that results in notices', async function() {
 
 		let upload = faker.upload({
@@ -871,6 +868,21 @@ describe('The fetch action', function() {
 			],
 		});
 		const { run } = this.setup({ uploads: [upload] });
+		const { packages, notices } = await run({ id: upload.id });
+		expect(packages).to.have.length(0);
+		expect(notices).to.have.length(1);
+
+	});
+
+	it('does not process the package if the metadata field is nullish', async function() {
+
+		let upload = faker.upload({
+			metadata: '   ',
+			files: [
+				{ contents: {} },
+			],
+		});
+		const { run } = this.setup({ upload });
 		const { packages, notices } = await run({ id: upload.id });
 		expect(packages).to.have.length(0);
 		expect(notices).to.have.length(1);
@@ -915,28 +927,6 @@ describe('The fetch action', function() {
 		expect(packages[0].metadata[0].info.website).to.equal(uploads[0].fileURL);
 
 		expect(Date.parse(timestamp)).to.be.above(Date.parse(after));
-
-	});
-
-	it('fetches all files from the STEX api since the last fetch date from LAST_RUN if no id was specified', async function() {
-
-		let uploads = faker.uploads([
-			'2024-12-21T14:00:00Z',
-			'2024-12-21T11:00:00Z',
-			'2024-12-20T12:00:00Z',
-			'2024-11-30T17:00:00Z',
-		]);
-		let lastRun = '2024-12-21T12:00:00Z';
-		const { run } = this.setup({
-			uploads,
-			lastRun,
-		});
-
-		const { packages, timestamp } = await run();
-		expect(packages).to.have.length(1);
-		expect(packages[0].metadata[0].info.website).to.equal(uploads[0].fileURL);
-
-		expect(Date.parse(timestamp)).to.be.above(Date.parse(lastRun));
 
 	});
 
@@ -1010,7 +1000,7 @@ describe('The fetch action', function() {
 	it('uses the file descriptor to generate the subfolder', async function() {
 
 		let upload = faker.upload({
-			fileDescriptor: 'Civics - Landmarks',
+			descriptor: 'Civics - Landmarks',
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
@@ -1022,10 +1012,7 @@ describe('The fetch action', function() {
 	it('picks the best subfolder in case there are multiple descriptors', async function() {
 
 		let upload = faker.upload({
-			fileDescriptors: [
-				'Mod',
-				'Services - Education',
-			],
+			descriptor: 'Mod,Services - Education',
 		});
 		const { run } = this.setup({ uploads: [upload] });
 
@@ -1036,7 +1023,7 @@ describe('The fetch action', function() {
 
 	it('picks a subfolder based on what matches best', async function() {
 		let upload = faker.upload({
-			fileDescriptor: 'Residential re-lot for real',
+			descriptor: 'Residential re-lot for real',
 		});
 		const { run } = this.setup({ uploads: [upload] });
 		const { result } = await run({ id: upload.id });
@@ -1048,13 +1035,13 @@ describe('The fetch action', function() {
 		const { run } = this.setup({
 			handler(req) {
 				let url = new URL(req.url);
-				if (url.pathname.startsWith('/stex/files-api.php')) {
+				if (url.pathname.startsWith('/stex/files-api')) {
 					return new Response('Too many requests', { status: 429 });
 				}
 			},
 			uploads: faker.uploads(),
 		});
-		let e = await reject(() => run());
+		let e = await reject(() => run({ after: '2024-01-01T00:00:00Z' }));
 		expect(e.code).to.equal('simtropolis_error');
 
 	});
@@ -1250,7 +1237,7 @@ describe('The fetch action', function() {
 				}), { status: 404 });
 			},
 		});
-		let result = await run({});
+		let result = await run({ after: '2024-01-01T00:00:00Z' });
 		expect(result.packages).to.eql([]);
 		expect(result.timestamp).to.be.ok;
 
@@ -1273,7 +1260,7 @@ describe('The fetch action', function() {
 		const { run } = this.setup({
 			upload,
 		});
-		let { result } = await run();
+		let { result } = await run({ after: '2024-01-01T00:00:00Z' });
 		expect(result.errors).to.have.length(1);
 
 	});
@@ -1730,6 +1717,67 @@ describe('The fetch action', function() {
 		const { result } = await run({ id: upload.id });
 		expect(result.metadata[0].group).to.equal('agc');
 		expect(result.metadata[0].info.author).to.equal(upload.author);
+
+	});
+
+	it('a DN-only package that is also labeled as HD', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					name: 'BankOfCanton(HD)_DN.zip',
+					contents: {
+						'metadata.yaml': {},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		const [pkg] = result.metadata;
+		expect(pkg.variants).to.have.length(2);
+	});
+
+	it('a package with custom variants that should override the assets', async function() {
+
+		const upload = faker.upload({
+			files: [
+				{
+					contents: {
+						'metadata.yaml': {
+							variants: [
+								{
+									variant: { driveside: 'right' },
+									assets: [
+										{
+											assetId: '${{ assets.0.assetId }}',
+											include: ['RHD.dat'],
+										},
+									],
+								},
+								{
+									variant: { driveside: 'left' },
+									assets: [
+										{
+											assetId: '${{ assets.0.assetId }}',
+											include: ['LHD.dat'],
+										},
+									],
+								},
+							],
+						},
+					},
+				},
+			],
+		});
+		const { run } = this.setup({ upload });
+		const { result } = await run({ id: upload.id });
+		const [pkg, asset] = result.metadata;
+		expect(pkg.assets).to.be.undefined;
+		expect(pkg.variants).to.have.length(2);
+		for (let variant of pkg.variants) {
+			expect(variant.assets[0].assetId).to.equal(asset.assetId);
+		}
 
 	});
 

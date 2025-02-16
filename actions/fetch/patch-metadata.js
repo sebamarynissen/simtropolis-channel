@@ -5,17 +5,23 @@ import * as dot from 'dot-prop';
 // then applies the user-defined metadata as a patch to it. Note that it's 
 // possible that the user has specified multiple packages.
 export default function patchMetadata(
-	metadata,
-	patch,
-	original = metadata.package,
+	autoMetadata,
+	userMetadata,
+	original = autoMetadata[0],
 ) {
 
+	// Group the auto-generated metadata in a package and assets fields so that 
+	// we can use it for interpolation.
+	const grouped = {
+		package: autoMetadata.find(pkg => pkg.group),
+		assets: autoMetadata.filter(asset => asset.assetId),
+	};
+
 	// If nothing needs to be patched, just return the package as is.
-	if (!patch || patch === true) {
+	if (!userMetadata || userMetadata.length === 0) {
 		return {
-			packages: [metadata.package],
-			assets: [...metadata.assets || []],
-			main: metadata.package,
+			metadata: autoMetadata,
+			main: autoMetadata[0],
 			basename: original.name,
 		};
 	}
@@ -24,17 +30,20 @@ export default function patchMetadata(
 	// separate both to properly apply the patches.
 	let packagePatches = [];
 	let assetPatches = [];
-	[patch].flat().forEach(metadata => {
+	userMetadata.forEach(metadata => {
 		if (metadata.url) {
 			assetPatches.push(metadata);
 		} else {
 			packagePatches.push(metadata);
 		}
 	});
+	if (packagePatches.length === 0) {
+		packagePatches.push({});
+	}
 
 	// If urls were specified for the assets, we have to update them because in 
 	// that case the Simtropolis url becomes the nonPersistentUrl.
-	let assets = [...metadata.assets || []];
+	let assets = autoMetadata.filter(asset => asset.assetId);
 	if (assetPatches.length > 0) {
 		for (let i = 0; i < assets.length; i++) {
 			let patch = assetPatches[i];
@@ -51,24 +60,32 @@ export default function patchMetadata(
 
 	// We first have to figure out what the "main package" of the user-defined 
 	// metadata is, because the parsed dependencies and variants from the api 
-	// should only be applied to the main package.
+	// should only be applied to the main package. Note: if there's no user 
+	// defined metadata for the packages, only for the url, we still need an 
+	// empty package to get the auto-generated metadata!
 	let basename = original.name;
-	let mainIndex = findMainPackageIndex(patch);
-	let packages = [patch]
-		.flat()
+	let mainIndex = findMainPackageIndex(packagePatches);
+	let packages = packagePatches
 		.map((patch, index) => {
 			let isMain = index === mainIndex;
-			let bare = applyPatch(metadata.package, patch, { main: isMain });
-			let filled = fill(bare, metadata);
+			let bare = applyPatch(autoMetadata[0], patch, { main: isMain });
+
+			// IMPORTANT! If the patch did not explicitly specify assets, but it 
+			// does specify variants, then the assets need to be *removed* from 
+			// the auto-generated metadata!
+			if (patch.variants && !patch.assets) {
+				delete bare.assets;
+			}
+			let filled = fill(bare, grouped);
 			if (isMain && patch.name) {
 				basename = filled.name;
 			}
 			return filled;
+
 		});
 	return {
-		packages,
+		metadata: [...packages, ...assets],
 		main: packages[mainIndex],
-		assets,
 		basename,
 	};
 

@@ -1,0 +1,80 @@
+group: peg
+name: cdk-oww-development-pack-vol1
+version: "1.1"
+subfolder: 100-props-textures
+info:
+  summary: CDK-OWW Development Pack Vol 1
+  description: |-
+    Although this file is intended primarily as a dependency for future PEG\-CDK OWW (Old Wooden Waterfront) lots, it can also be used by lot developers to create their own CDK styled lots. The official CDK\-OWW lots use these component props as do other lots designed to be compatible with this style.
+
+    The kit contains the following props:
+
+    1\. Front Facade - Basic 2-post, no fascia.  
+    2\. Front Facade - Basic 2-post, board fascia.  
+    3\. Front Facade - Basic 2-post, brick fascia.  
+    4\. Front Facade - Basic 2-post, stone fascia.
+
+    \* Basic 2-post facades do not have the center pilings extended above the deck area. These are designed for use with the Chain Rail prop to act as a stanchion or safety rail which would be suitable for REC and COM related lots.
+
+    5\. Front Facade - Basic 4-post, no fascia.  
+    6\. Front Facade - Basic 4-post, board fascia.  
+    7\. Front Facade - Basic 4-post, brick fascia.  
+    8\. Front Facade - Basic 4-post, stone fascia.  
+      
+    \* Basic 4-post facades have the center pilings extended above the deck area. These are not designed for use with the Chain Rail prop and would be more suited to IND applications.
+
+    \*\* All Facade props can also be used on the side and rear of the seawall if desired.
+
+    9\. 16x16 (single tile) Outer Corner Deck Platform. This is the same 1x1 deck included in the CDK\-REC pack except that the wood decking is angled for use on outer corners.
+
+    10\. 16x16 (single tile) Inner Corner Deck Platform. This is the same 1x1 deck included in the CDK\-REC pack except that the wood decking is angled for use on inner corners.
+
+    11\. 1x1 Deck Platform with Stairs. Similar to the standard deck prop, but with inset stairs intended for use on the backside of the seawall.
+
+    12\. 14x1 Chain Rail. A nautical styled safety rail intended for use with the Basic 2-post facades.
+
+    13\. Public Pier. A long slender wooden pier that extends beyond the lot out into the water.
+
+    14\. Wood Ramp. Intended to be placed on the backside of a seawall to provide access from the area below.
+
+    **MISSION CRITICAL:**  
+    Also included are 4 STYLE files. **One of these STYLE files must be installed somewhere in your Plugins folder.** The STYLE files define which facade style fascia/facade (Brick, Boards, Stone, or none.) the seawalls will use globally throughout the game. **Only one STYLE file can be installed at a time.** You can easily change styles at any time by removing the existing STYLE file from your Plugins folder and installing a different one.
+
+    \*\* The game's Shadows should be set to High when using the Pilings (no fascia) style. The shadows conceal the lack of visual texture behind the pilings which can expose the underlying game grid when the game's water graphics bug is tripped off.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/12007-peg-cdk-oww-development-pack-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3643b2cfda5fed1a7d9f9e19520b6993-product_image.jpg
+assets:
+  - assetId: peg-cdk-oww-development-pack-vol1
+    include:
+      - /PEG-OWW_Development-Kit_Vol1b.dat
+variants:
+  - variant: { peg:cdk-oww-development-pack-vol1:facade: boards }
+    assets:
+      - assetId: peg-cdk-oww-development-pack-vol1
+        include:
+          - /PEG_CDK-OWW_STYLE_Boards.dat
+  - variant: { peg:cdk-oww-development-pack-vol1:facade: bricks }
+    assets:
+      - assetId: peg-cdk-oww-development-pack-vol1
+        include:
+          - /PEG_CDK-OWW_STYLE_Bricks.dat
+  - variant: { peg:cdk-oww-development-pack-vol1:facade: pilings }
+    assets:
+      - assetId: peg-cdk-oww-development-pack-vol1
+        include:
+          - /PEG_CDK-OWW_STYLE_Pilings.dat
+  - variant: { peg:cdk-oww-development-pack-vol1:facade: stone }
+    assets:
+      - assetId: peg-cdk-oww-development-pack-vol1
+        include:
+          - /PEG_CDK-OWW_STYLE_Stone.dat
+
+---
+assetId: peg-cdk-oww-development-pack-vol1
+version: "1.1"
+lastModified: "2025-02-06T02:33:25Z"
+url: https://community.simtropolis.com/files/file/12007-peg-cdk-oww-development-pack-vol-1/?do=download&r=205552

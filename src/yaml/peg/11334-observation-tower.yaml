@@ -1,0 +1,31 @@
+group: peg
+name: observation-tower
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: Observation Tower
+  description: |-
+    For those of us who think we're above it all... or would like to be... PEG Productions proudly presents... the Observation Tower. Modified from a public domain mesh, this new tower is designed for use with the PEG Random Woods, Pine Forest & Seasonal Woods packages. Situated on a 2x2 lot and nestled between the appropriate tree types, this tower can be used as a fire watch tower, a bird watching platform, or a deer blind for those of you who are compelled to pop a cap upside Bambi's head.
+
+    The lot has the same park-like properties as a 2x2 Forest/Woods lot. For each style, there are textured and transparent ground versions. (6 lots in total) Each lot has been sanctioned by the NTHA (National Tree Huggers Association)... a non-profit and totally fictional organization.
+
+    **Dependencies:  
+    [PEG Seasonal Woods](https://community.simtropolis.com/files/file/4515-peg-seasonal-woods-v206b/)**   
+    **[PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11334-peg-observation-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bf3fda51bd77ad828b497b68cf15a998-product_image.jpg
+dependencies:
+  - peg:mtp-seasonal-woods
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-observation-tower
+
+---
+assetId: peg-observation-tower
+version: "1.1"
+lastModified: "2025-02-08T16:32:05Z"
+url: https://community.simtropolis.com/files/file/11334-peg-observation-tower/?do=download&r=205640

@@ -1,0 +1,36 @@
+group: kellydale2003
+name: royal-bank-of-sims
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Royal Bank of Sims
+  description: |-
+    Lost my hard drive on a flight from LA to Canada. Everything is lost except this ugly model I never released.
+
+    So, I thought I'd share this survivor rather than it being lost forever.
+
+    4x4 with no dependencies. Dark nite only.
+
+    Sorry I don't have the 3dsmax file to edit this or change it. It is what it is.
+
+    \- Kellydale2003
+
+    PS; Check out my upcoming buildings here:
+
+    [https://community.simtropolis.com/forums/topic/33505-skyscrapers-galore-_/?do=embed&comment=1700973&embedComment=1700973&embedDo=findComment](https://community.simtropolis.com/forums/topic/33505-skyscrapers-galore-_/?do=embed&comment=1700973&embedComment=1700973&embedDo=findComment)
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/32474-royal-bank-of-sims/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/rbs.jpg.861638b2f4601217df0faf66c0951eaf.jpg
+assets:
+  - assetId: kellydale2003-royal-bank-of-sims
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+
+---
+assetId: kellydale2003-royal-bank-of-sims
+version: "1.0"
+lastModified: "2018-09-08T02:54:28Z"
+url: https://community.simtropolis.com/files/file/32474-royal-bank-of-sims/?do=download&r=172594

@@ -6,11 +6,9 @@ import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 import ora from 'ora';
 import { Glob } from 'glob';
-import { parseAllDocuments, Document } from 'yaml';
-import stylize from '../actions/fetch/stylize-doc.js';
-import fetchAll from '../actions/fetch/fetch-all.js';
+import { parseAllDocuments } from 'yaml';
+import addFromStex from '../actions/fetch/fetch.js';
 import { urlToFileId } from '../actions/fetch/util.js';
-import parseDependencies from './parse-dependencies.js';
 import sc4d from './sc4d.js';
 import tsc from './tsc.js';
 
@@ -20,14 +18,14 @@ async function run(urls, argv) {
 	// Sort the urls in ascending order so that dependencies are likely to be 
 	// processed first.
 	urls = [urls].flat().sort();
-	let index = await buildIndex();
+	let dependencyIndex = await buildIndex();
 
 	// Once we have the index, we'll still filter out the urls that are already 
 	// processed. They might either be present on the Simtropolis channel, or on 
 	// the default channel already.
 	urls = urls.filter(url => {
 		let id = urlToFileId(url);
-		let pkg = index.stex[id];
+		let pkg = dependencyIndex.stex[id];
 		if (pkg && !pkg.local) {
 			console.log(styleText('yellow', `${url} is already present on one of the channels`));
 			return false;
@@ -36,42 +34,30 @@ async function run(urls, argv) {
 		}
 	});
 
-	// Cool, now perform the actual fetching.
-	let results = await fetchAll(urls, {
-		split: argv.split,
-		darkniteOnly: argv.darkniteOnly,
+	const {
+		cache = path.resolve(
+			process.env.LOCALAPPDATA,
+			'io.github.memo33/sc4pac/cache',
+		),
+	} = argv;
+	const result = await addFromStex({
+		cache,
+		id: urls.length > 0 && urls.map(url => urlToFileId(url)).join(','),
+		requireMetadata: argv.requireMetadata ?? false,
+		splitOffResources: argv.split ?? false,
+		darkniteOnly: argv.darkniteOnly ?? false,
+		after: argv.after,
+		dependencies: 'auto',
+		dependencyIndex,
 	});
-	for (let result of results) {
-		let [pkg] = result.metadata;
-		let deps = parseDependencies(index, pkg);
-		let unmatched = deps.filter(dep => dep.startsWith('"['));
-		if (unmatched.length > 0) {
-			console.log(styleText('red', `${pkg.info.website} has unmatched dependencies that need to be fixed manually!`));
-			for (let dep of unmatched) {
-				console.log(`  ${styleText('cyan', dep)}`);
-			}
+	for (let pkg of result.packages) {
+		let { errors = [] } = pkg;
+		if (errors.length > 0) {
+			console.error(styleText('red', `There was an error with ${pkg.url}:`));
 		}
-		if (deps.length > 0) {
-			pkg.dependencies = [...pkg.dependencies || [], ...deps];
+		for (let error of errors) {
+			console.error(error);
 		}
-		let file = `${pkg.group}/${result.id}-${pkg.name}.yaml`;
-		let docs = result.metadata.map((data, i) => {
-			let doc = stylize(new Document(data));
-			if (i > 0) {
-				doc.directives.docStart = true;
-			}
-			return doc;
-		});
-		let contents = docs.map(doc => doc.toString({
-			lineWidth: 0,
-		})).join('\n');
-		let fullPath = path.resolve(
-			import.meta.dirname,
-			'../src/yaml',
-			file,
-		);
-		await fs.promises.mkdir(path.dirname(fullPath), { recursive: true });
-		await fs.promises.writeFile(fullPath, contents);
 	}
 
 }

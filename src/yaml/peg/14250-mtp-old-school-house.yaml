@@ -1,0 +1,37 @@
+group: peg
+name: mtp-old-school-house
+version: "1.1"
+subfolder: 620-education
+info:
+  summary: MTP Old School House
+  description: |-
+    Bringing new meaning to the modern term, "Old School"... this **Old School House** was designed for the **MTP** and can be used in any mountainous or rural area. This small elementary school is typical of thousands of  schools built in remote communities... some well over 100 years ago. Many are still in operation today.
+
+    The Old School House sits on a slightly larger lot; 2x3 as opposed to 2x2. It is a functional alternative to the game's default small/elementary school. It share's the same costs, capacities and other properties... except for coverage range, which has been increased significantly to more realistically represent the larger areas that schools in remote communities cover. Ideally, we would also have reduced the number of students it could handle.... but the game makes it non-functional if the capacity is altered.
+
+    The lot also features modified playground props that appear several times per day instead of just once. You will see lots of activity & play before school starts, during lunch recess, and after school.
+
+    The school itself will handle a modest degree of slope. However, the playground props will not so the lot should be plopped on a prepared site of fairly level land.
+
+    **\*\* This lot requires the following dependency: [PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **The [PEG One Flag - Many Nations Mod](https://community.simtropolis.com/files/file/27711-peg-one-flag-many-nations-mod/) is required to display the  
+    national flag of your choice. Without it, no flag will be displayed.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14250-peg-mtp-old-school-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5d2b9dceeaa744565c013803d2eff12d-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5d2b9dceeaa744565c013803d2eff12d-product_image2.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - peg:one-flag-many-nations
+assets:
+  - assetId: peg-mtp-old-school-house
+
+---
+assetId: peg-mtp-old-school-house
+version: "1.1"
+lastModified: "2025-02-08T16:54:06Z"
+url: https://community.simtropolis.com/files/file/14250-peg-mtp-old-school-house/?do=download&r=205656

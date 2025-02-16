@@ -1,0 +1,46 @@
+group: peg
+name: mtp-low-wealth-growable-res-cabins
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: MTP Low Wealth Growable RES Cabins
+  description: |-
+    **The Problem:** You have developed a nice mountain terrain complete with beautiful trees & flowing streams... and not a soul in sight. Nor will there ever be unless you want suburban tract houses or urban tenements cluttering up the mountainside. There are very few growable RCI lots in the game that look right in a mountain or rural community... and no way to guaranty that those lots will develop in any zones you lay down.
+
+    **The Solution:** The **PEG Mountain Theme Growable Lots**. These are a series of RES, COM & IND growable lots designed specifically for mountain/rural communities. By using unique, custom sized lots, we can assure that only these lots will grow in the zones you lay down in your mountains. Now you can create mountain communities with functional & occupied buildings that look like they belong in the mountains. Cut back on the eye-candy and let some real RCI go to work in them thar' hills.
+
+    In order to have growable lots specific to the Mountain Theme, we have used 2x5, 3x5 & 5x5 custom lot sizes. Ordinary, game-default RES lots will not grow on custom lots of this size. The player must create custom zones of this size... which is easy to do by holding down the CTRL key while using the mouse to drag out the zone size.
+
+    This first set is a collection of **9** new lots that are primarily low wealth, zoned for various densities and feature 4 random log cabins. Because larger, custom lot sizes are required, several cabins are spaced out on the lot to represent several homes occupying the area. The resident values have been adjusted upwards to reflect the number of homes on each lot.
+
+    Additionally, these lots are designed to accommodate the sloped terrain of mountainous areas. The cabin models are designed with extended foundations that merge into sloped terrain.... so instead of a building on top of a concrete block, you get cabins that merge realistically into the  hillside.
+
+    The lots use random building & prop families so the cabins will always be different on each lot. The cabins also use a new feature, Random Smoke... so you will see smoke coming from their chimneys at different times of the day.
+
+    *\* The MTP Growable RES lots are part of a much larger & expanding theme. These are not just simple "install and hope they grow" lots.  These lots are part of a full-cycle residential community spanning all density types... that will grow and update into newer, wealthier versions of themselves.*
+
+    *They are not intended to supplement the existing array of residential RCI lots. They are designed to fully replace them.. but only in areas or cities controlled by the player via use of custom zoning sizes. In this way, they will not affect normal/default RES lots & development zoned in normal & conventional sizes.*
+
+      
+    **\*\* This lot requires the following dependencies:**
+
+    **[PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori edit:** Made dep linky clickable.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14107-peg-mtp-low-wealth-growable-res-cabins/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f3e9b640f9e94f428092a0842799882c-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f3e9b640f9e94f428092a0842799882c-product_image2.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-low-wealth-growable-res-cabins
+
+---
+assetId: peg-mtp-low-wealth-growable-res-cabins
+version: "1.1"
+lastModified: "2025-02-08T15:43:37Z"
+url: https://community.simtropolis.com/files/file/14107-peg-mtp-low-wealth-growable-res-cabins/?do=download&r=205625

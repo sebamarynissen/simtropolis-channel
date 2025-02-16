@@ -1,0 +1,70 @@
+group: peg
+name: mtp-seasonal-woods
+version: "2.0.8"
+subfolder: 660-parks
+info:
+  summary: MTP Seasonal Woods
+  description: |-
+    Prepare for the onslaught as hoards of Leafers besiege your city every Fall to take in the beauty of the Autumn leaves. The Seasonal Woods lots are very similar to the PEG Random Woods... except these trees change with the seasons. Winter, Spring, Summer & Fall... the trees change to reflect the time of year in your cities. The Seasonal Woods also shuns the game's default "lolly-pop" trees and introduces 18 new BATed trees for greater realism.
+
+    The Seasonal Woods provides you with a fast & flexible means of adding realistic woodlands to your cities and surrounding rural areas. The Seasonal Woods randomly generates different types of trees as you plop the lot. This eliminates the need of constantly rotating the lot when plopping for a random look... and provides a more natural & realistic look when covering large areas.
+
+    The Seasonal Woods includes 4 new lots: A 1x1 lot with full ground texture. A 2x2 lot with full ground texture. A 1x1 lot with transparent ground texture. A 2x2 lot with transparent ground texture.
+
+    The Random Forest is PEG tested & Tree-Hugger approved. Each lot has properties similar to a small green park with slightly improved air pollution qualities. This lot is also 'Slope Conforming' so you can place it almost anywhere.
+
+    \*\* This lot was designed for seamless integration with the PEG Trail Parks and the PEG Stream Kit. Obviously, it can be used by itself, singularly or in groups, anywhere in your cities where you need a little flourish of flora.
+
+    \*\*\* This is a **MTP** complian update (the former v207 aka MTP Patch) which now has the version number **v208** to the former PEG Seasonal Woods (\_206). It is a complete update of the product and it is a replacement of the original/previous version. This update will replace the former *PEG\_Seasonal-Tree-Pack\_206b.dat* file which contains the 18 original tree models with a new **PEG\_Seasonal-Tree-Pack\_208.dat**.
+
+    \*\*\*\* Bear in mind, that the former Seasonal Woods v2.07 (aka MTP Patch Update) has not been available officially since the original SIMPEG site went down and that particular version was never re-hosted on the Simtropolis Exchange. This v2.08 version replaces both the original v2.06 version (which was still available on STEX until this current update, that effectively replaces it on the download site) and the v2.07 version, which was only available on the original SIMPEG site.
+
+    Installing this pack will install two new versions of the original files containing the lot data. The files...
+
+    ***PEG\_Seasonal-Woods\_208.dat*** and ***PEG\_Seasonal-Woods-t\_208.dat***
+
+    ...will be installed to a new installation path: **PEGPROD/Mountain Theme Pack/Seasonal Woods/**. The previous versions of these files...
+
+    ***PEG\_Seasonal-Woods\_206a.dat*** and ***PEG\_Seasonal-Woods-t\_206a.dat***
+
+    ***PEG\_Seasonal-Woods\_207.dat*** and ***PEG\_Seasonal-Woods-t\_207.dat***
+
+    and the ***PEG\_Seasonal-Tree-Pack\_206b.dat***
+
+    ...**must then be manually deleted**. (you will likeley find them in the *PEGPROD/Seasonal Woods/* location.
+
+    This new version reduces the collective YIMBY effects of the lots in order to avoid blowing over any caps. It also replaces the previous two base and overlay textures with the new, single blended base texture used throughout the new PEG Mountain Theme. This will allow the Seasonal Woods lots to blend better with other MTP lots. Also, the reduction of the extra texture on lots used repeatedly, such as these, can have a notable reduction in game resource usage.
+
+    The textured versions of these lots will need to be re-plopped before the new texture will be visible. However, you can do this anytime you wish as the older version textures are still supported and will function and appear normally in the game. Previously plopped transparent version lots do not need to be re-plopped.
+
+    **\*\* BE SURE TO REMOVE THE OLDER VERSION FILES WHEN UPGRADING \*\***
+
+    **Installation**:
+
+    copy/extract the **PEGPROD** parent folder into your Plugins. If you extracted the ~*Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+    If any earlier version(s) of this file exist, they should be deleted.
+
+    This product contains three .DAT files; one for each style of lot and one for the tree prop and model dependnecies. After installation, you can delete either one of the LOT files if you prefer to play with only one of the styles but you must keep the **PEG\_Seasonal-Tree-Pack\_208.dat** file.
+
+    **Dependencies**:
+
+    **[PEG\-MTP MTP SUPER-PACK v1.5](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**
+
+    **\*\*All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested** ***[Pegasus Productions Support Site](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
+
+    ***This v2.08 update was made by Tyberius06 (on the behalf of Pegasus)***
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/4515-peg-mtp-seasonal-woods-v208/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/fe3f12ba258a7384a446b96957480326-product_image.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-mtp-seasonal-woods-v208
+
+---
+assetId: peg-mtp-seasonal-woods-v208
+version: "2.0.8"
+lastModified: "2025-01-29T09:25:24Z"
+url: https://community.simtropolis.com/files/file/4515-peg-mtp-seasonal-woods-v208/?do=download&r=205494

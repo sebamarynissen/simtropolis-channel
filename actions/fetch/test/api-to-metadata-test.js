@@ -34,8 +34,9 @@ describe('#apiToMetadata', function() {
 			aliasEntry: 'meadowbrook-plaza-fixed',
 			aliasAuthor: 'smf_16',
 			fileURL: 'https://community.simtropolis.com/files/file/36596-meadowbrook-plaza-fixed/',
+			descriptor: 'Commercial,Re-lot',
 		});
-		let { package: pkg, assets } = meta;
+		let [pkg, ...assets] = meta;
 		expect(pkg.group).to.equal('smf-16');
 		expect(pkg.name).to.equal('meadowbrook-plaza-fixed');
 		expect(pkg.subfolder).to.equal('300-commercial');
@@ -63,7 +64,7 @@ describe('#apiToMetadata', function() {
 			cid: 101,
 			uid: 85340,
 			author: 'Jasoncw',
-			category: 'Residential',
+			descriptor: 'Residential',
 			title: 'Newport House',
 			release: '1.0.0',
 			submitted: '2024-12-05 04:10:52',
@@ -92,7 +93,7 @@ describe('#apiToMetadata', function() {
 			aliasAuthor: 'jasoncw',
 			fileURL: 'https://community.simtropolis.com/files/file/36581-newport-house/',
 		});
-		let { package: pkg, assets } = meta;
+		let [pkg, ...assets] = meta;
 		expect(pkg.group).to.equal('jasoncw');
 		expect(pkg.name).to.equal('newport-house');
 		expect(pkg.subfolder).to.equal('200-residential');
@@ -131,9 +132,9 @@ describe('#apiToMetadata', function() {
 				},
 			],
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.assets[0].assetId).to.equal('jasoncw-guardian-building');
-		expect(meta.assets[1].assetId).to.equal('jasoncw-guardian-building-cam');
+		let [, ...assets] = apiToMetadata(upload);
+		expect(assets[0].assetId).to.equal('jasoncw-guardian-building');
+		expect(assets[1].assetId).to.equal('jasoncw-guardian-building-cam');
 
 	});
 
@@ -143,8 +144,8 @@ describe('#apiToMetadata', function() {
 			submitted: '2024-12-05T04:10:52Z',
 			updated: '2024-12-05T04:10:52Z',
 		});
-		let meta = apiToMetadata(upload);
-		for (let asset of meta.assets) {
+		let [, ...assets] = apiToMetadata(upload);
+		for (let asset of assets) {
 			expect(asset.lastModified).to.equal(upload.updated);
 		}
 
@@ -155,8 +156,8 @@ describe('#apiToMetadata', function() {
 		let upload = faker.upload({
 			title: 'R$$ Homes',
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.package.name).to.equal('rss-homes');
+		let [pkg] = apiToMetadata(upload);
+		expect(pkg.name).to.equal('rss-homes');
 
 	});
 
@@ -165,8 +166,8 @@ describe('#apiToMetadata', function() {
 		let upload = faker.upload({
 			title: 'BSP Building (Updated)',
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.package.name).to.equal('bsp-building-updated');
+		let [pkg] = apiToMetadata(upload);
+		expect(pkg.name).to.equal('bsp-building-updated');
 
 	});
 
@@ -175,8 +176,8 @@ describe('#apiToMetadata', function() {
 		let upload = faker.upload({
 			title: 'Skidmore, Owings & Merrill',
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.package.name).to.equal('skidmore-owings-and-merrill');
+		let [pkg] = apiToMetadata(upload);
+		expect(pkg.name).to.equal('skidmore-owings-and-merrill');
 
 	});
 
@@ -185,8 +186,8 @@ describe('#apiToMetadata', function() {
 		let upload = faker.upload({
 			title: 'Prop Pack Vol. 01',
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.package.name).to.equal('prop-pack-vol01');
+		let [pkg] = apiToMetadata(upload);
+		expect(pkg.name).to.equal('prop-pack-vol01');
 
 	});
 
@@ -195,8 +196,8 @@ describe('#apiToMetadata', function() {
 		let upload = faker.upload({
 			title: 'Prop Pack Vol. One',
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.package.name).to.equal('prop-pack-vol-one');
+		let [pkg] = apiToMetadata(upload);
+		expect(pkg.name).to.equal('prop-pack-vol-one');
 
 	});
 
@@ -205,8 +206,8 @@ describe('#apiToMetadata', function() {
 		let upload = faker.upload({
 			title: 'Dóm sväteho Martina ',
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.package.name).to.equal('dom-svateho-martina');
+		let [pkg] = apiToMetadata(upload);
+		expect(pkg.name).to.equal('dom-svateho-martina');
 
 	});
 
@@ -215,8 +216,8 @@ describe('#apiToMetadata', function() {
 		let upload = faker.upload({
 			title: 'Andrew\'s Fashion Centre',
 		});
-		let meta = apiToMetadata(upload);
-		expect(meta.package.name).to.equal('andrews-fashion-centre');
+		let [pkg] = apiToMetadata(upload);
+		expect(pkg.name).to.equal('andrews-fashion-centre');
 
 	});
 

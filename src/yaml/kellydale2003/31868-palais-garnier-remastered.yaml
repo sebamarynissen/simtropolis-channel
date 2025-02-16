@@ -1,0 +1,37 @@
+group: kellydale2003
+name: palais-garnier-remastered
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Palais Garnier Remastered
+  description: |-
+    **An amazing Opera house located in Paris, France!**
+
+    Originally modelled by JENXPARIS and remastered by myself.
+
+    8x10 lot with Landmark and University - darknite only. No dependencies!
+
+    Will upload the rewards opera version differently.
+
+    Enjoy!
+
+    [![Palais-Garnier-Opéra-de-Paris-Salle-Principale---630x405---©-OTCP.jpg](https://www.simtropolis.com/objects/attachments/monthly_2017_07/59733c0187c53_Palais-Garnier-Opra-de-Paris-Salle-Principale---630x405----OTCP.jpg.8e5b6111fd40385ebd4b0cd80e2fa49b.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2017_07/59733c0187c53_Palais-Garnier-Opra-de-Paris-Salle-Principale---630x405----OTCP.jpg.8e5b6111fd40385ebd4b0cd80e2fa49b.jpg)
+  author: kellydale2003
+  website: https://community.simtropolis.com/files/file/31868-palais-garnier-remastered/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/s.jpg.c0839dfce80af55fb5e034389eaaa20e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/opera-690x360.jpg.da64fe341b6f104ad73f53be0103a51e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/e.png.b34573b47097fc612f8c8630f8d9f3e3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/n.png.30afd6b7cd7fa77fc30d9823875a7142.png
+assets:
+  - assetId: kellydale2003-palais-garnier-remastered
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+
+---
+assetId: kellydale2003-palais-garnier-remastered
+version: "1.0"
+lastModified: "2017-07-22T11:53:03Z"
+url: https://community.simtropolis.com/files/file/31868-palais-garnier-remastered/?do=download&r=167655

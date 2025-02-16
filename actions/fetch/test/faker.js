@@ -1,6 +1,7 @@
 // # faker.js
 import { slugify } from '../util.js';
 import { faker } from '@faker-js/faker';
+import { marked } from 'marked';
 
 // # file(file)
 // Generates a fake file record
@@ -59,7 +60,8 @@ export function upload(upload = {}) {
 		fileURL: `https://community.simtropolis.com/files/file/${id}-${aliasEntry}`,
 		submitted: formatDate(submitted),
 		updated: formatDate(updated),
-		description,
+		[Symbol.for('test.description')]: description,
+		...description && { descHTML: marked(description) },
 		images,
 		files: files.map(props => {
 			if (typeof props === 'string') {

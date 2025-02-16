@@ -6,7 +6,6 @@ import handleUpload from './handle-upload.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
 import { SimtropolisError } from './errors.js';
-const MS_DAY = 24*3600e3;
 
 // # fetch(opts)
 // Main entrypoint for fetching the latest plugins released from the STEX.
@@ -16,9 +15,8 @@ export default async function fetchPackage(opts) {
 		fs = nodeFs,
 		cwd = process.env.GITHUB_WORKSPACE ?? process.cwd(),
 		after,
-		now = Date.now(),
-		lastRunFile = 'LAST_RUN',
 		endpoint = 'https://community.simtropolis.com/stex/files-api.php',
+		cache = false,
 	} = opts;
 
 	// Build up the url. Apparently we have to set mode to updated explicitly, 
@@ -26,6 +24,9 @@ export default async function fetchPackage(opts) {
 	const url = new URL(endpoint);
 	url.searchParams.set('key', process.env.STEX_API_KEY);
 	url.searchParams.set('mode', 'updated');
+	url.searchParams.set('desctype', 'html,urls');
+	url.searchParams.set('images', 'main');
+	url.searchParams.set('metadata', true);
 
 	// If an id is given, then we will not check when we fetched the latest 
 	// uploads from the api, but only request the specified file. Useful for 
@@ -42,40 +43,17 @@ export default async function fetchPackage(opts) {
 		storeLastRun = false;
 		after = -Infinity;
 
-	} else if (after === undefined) {
-		try {
+	} else if (after) {
+		let since = normalizeAfterDate(after);
+		url.searchParams.set('since', since);
+	} else {
 
-			// If no specific id was specified, nor an explicit after date, then 
-			// we read the last run date from the last run file.
-			let filePath = path.join(cwd, lastRunFile);
-			let contents = String(await fs.promises.readFile(filePath)).trim();
-			after = Date.parse(contents);
-			if (Number.isNaN(after)) {
-				throw new Error(`Invalid date in ${lastRunFile}: "${contents}"`);
-			}
-
-		} catch (e) {
-
-			// If the file was not found, we'll only fetch the last day. This 
-			// should only happen the very first time we run this.
-			if (e.code === 'ENOENT') {
-				url.searchParams.set('days', 1);
-				after = -Infinity;
-			} else {
-				throw e;
-			}
-		}
+		// If no explicit after date, neither id was set, then there's an error.
+		throw new TypeError(
+			'Either specify an upload id, or the date since you last fetched the uploads!',
+		);
 
 	}
-
-	// Unfortunately the STEX api does not support passing in an exact 
-	// date - to check if this could be added. It only supports 
-	// specifying an amount of days to go back. It's not really clear 
-	// whether this means 24 hours, so we'll use a bit of leeway and 
-	// then just filter it out later on.
-	let threshold = normalizeAfterDate(after);
-	let days = Math.ceil((+now - threshold) / MS_DAY)+1;
-	url.searchParams.set('days', days);
 
 	// Now call the STEX api to find any new files. This is also the date we'll 
 	// use to store in the last run timestamp. Note: apparently the STEX api 
@@ -98,19 +76,17 @@ export default async function fetchPackage(opts) {
 	let packages = [];
 	let notices = [];
 	let warnings = [];
-	let data = parse(await fs.promises.readFile(path.join(cwd, 'permissions.yaml'))+'');
+	let data = parse(
+		await fs.promises.readFile(path.join(cwd, 'permissions.yaml'))+'',
+	);
 	let permissions = new Permissions(data);
 	let handleOptions = {
 		...opts,
 		cwd,
 		permissions,
+		cache,
 	};
 	for (let upload of json) {
-
-		// Discard objects that we have already processed based on the "after" 
-		// parameter.
-		let updated = parseDate(upload.updated);
-		if (threshold > updated.getTime()) continue;
 
 		// Check whether the creator is allowed to publish files on the STEX 
 		// channel. We don't create a failing PR in this case, but we do log the 
@@ -133,7 +109,10 @@ export default async function fetchPackage(opts) {
 					notices.push(result.reason);
 				}
 			} else {
-				packages.push(result);
+				packages.push({
+					...result,
+					url: upload.fileURL,
+				});
 			}
 		}
 
@@ -155,21 +134,10 @@ export default async function fetchPackage(opts) {
 // timestamp.
 function normalizeAfterDate(after) {
 	if (typeof after === 'string') {
-		let offset = Date.parse(after);
-		if (Number.isNaN(offset)) {
-			throw new Error(`Invalid after date "${after}"!`);
-		}
-		return offset;
+		return new Date(after).toISOString();
 	} else if (after instanceof Date) {
-		return after.getTime();
+		return after.toISOString();
 	} else {
-		return after;
+		return new Date(after).toISOString();
 	}
-}
-
-// # parseDate(str)
-// Parses a date from a date string included in the stex api response. It 
-// doesn't follow the ISO format for now.
-function parseDate(str) {
-	return new Date(str.replace(' ', 'T')+'Z');
 }

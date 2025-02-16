@@ -1,0 +1,72 @@
+group: anotn
+name: 345-seventh-avenue
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 345 Seventh Avenue
+  description: |-
+    345 Seventh Avenue is a neo-classical highrise in the Garment District in Manhattan, New York. It rises 24 stories and 93.7m above ground and houses retail restaurants and commercial offices. It was designed by John H. Knubel and built in 1929. 345 Sevent Avenue comes in a CO$$ version as well as a IM version to stay true to the nature of this and similar buildings in the area. The Garment District has been a centre of fashion manufacturing and design since the early 1900s. The building stands wall-to-wall on a 2 by 2 tiles lot.  
+      
+    **Growable:**  
+    Capacity satisfied 1231 CO$$  
+    Tileset(s) New York  
+    Pollution at center 4/4/4/0  
+    Pollution radii 5/6/0/0  
+    Flammability 40  
+    MaxFireStage 4  
+    Power consumed 25  
+    Water consumed 256  
+    Bulldoze cost 1403  
+    Building value 8604  
+    Growth Stage 8  
+      
+    **Ploppable:**  
+    Capacity satisfied 923 IM  
+    Plop cost 24796  
+    Pollution at center 17/27/6/0  
+    Pollution radii 9/13/0/0  
+    Flammability 70  
+    MaxFireStage 4  
+    Power consumed 41  
+    Water consumed 611  
+    Bulldoze cost 1625  
+    Building value 4120  
+      
+    **Installation:** Download the version you want, Maxis night (NYBT\_345\_7th\_Ave\_MN.zip) or Darknite (NYBT\_345\_7th\_Ave\_DN.zip) version and extract the content of the zip file to your Plugins folder  
+    For proper function of this release you need the following **dependencies**:  
+    [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)  
+    [SimFox Day and Nite Modd 1](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) (only for Darknite version)  
+      
+    Thanks to Vlasky and Aaron Graham for testing and making sure everything is right, and also thanks to everyone in the BAT forums who commented and helped me along the way of producing this.  
+      
+      
+    Want to see what I'm doing next? Visit my **[NYBT BAT thread](https://community.simtropolis.com/forums/topic/43644-anotns-gotham-salmagundi/)**.
+
+    Mod edit 28th April 2017 - Fixed formatting
+  author: anotn
+  website: https://community.simtropolis.com/files/file/28222-nybt-345-seventh-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/8f74bbe5e0addd2a15f23fcff0246167-dag.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/8cb0cb05203f60e7e552de719f61bfeb-natt.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: anotn-345-seventh-avenue-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: anotn-345-seventh-avenue-darknite
+
+---
+assetId: anotn-345-seventh-avenue-darknite
+version: "1.0"
+lastModified: "2012-11-18T02:16:33Z"
+url: https://community.simtropolis.com/files/file/28222-nybt-345-seventh-avenue/?do=download&r=108872
+
+---
+assetId: anotn-345-seventh-avenue-maxisnite
+version: "1.0"
+lastModified: "2012-11-18T02:16:33Z"
+url: https://community.simtropolis.com/files/file/28222-nybt-345-seventh-avenue/?do=download&r=108873
