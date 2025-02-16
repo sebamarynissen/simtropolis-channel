@@ -56,13 +56,36 @@ info:
 dependencies:
   - nybt:essentials
 variants:
-  - variant: { nightmode: standard }
+  - variant: { nightmode: standard, toroca:industry-quadrupler:capacity: "standard" }
     assets:
       - assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
+    exclude:
+      - /Quadrupler Edition/
+
+  - variant: { nightmode: standard, toroca:industry-quadrupler:capacity: "quadrupled" }
+    assets:
+      - assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite
+    dependencies: 
+      - toroca:industry-quadrupler
+    exclude:
+      - /Normal Edition/
+
+  - variant: { nightmode: dark, toroca:industry-quadrupler:capacity: "standard" }
     assets:
       - assetId: simhottoddy-nybt-abbt-the-studebaker-building-darknite
+    dependencies:
+      - simfox:day-and-nite-mod
+    exclude:
+      - /Quadrupler Edition/
+
+  - variant: { nightmode: dark, toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies: 
+      - simfox:day-and-nite-mod
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: simhottoddy-nybt-abbt-the-studebaker-building-darknite
+    exclude:
+      - /Normal Edition/
 
 ---
 assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite

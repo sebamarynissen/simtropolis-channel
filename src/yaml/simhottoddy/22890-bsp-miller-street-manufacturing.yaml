@@ -53,8 +53,21 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0018/a3f509b11a499dc71c4048076622f2e4-Warehouse_HD_upload2.jpg
     - https://www.simtropolis.com/objects/screens/0018/a3f509b11a499dc71c4048076622f2e4-Warehouse_HD_upload.jpg
-assets:
+variants:
+- variant: { toroca:industry-quadrupler:capacity: "standard" }
+  assets:
   - assetId: simhottoddy-bsp-miller-street-manufacturing
+    exclude:
+    - /I-m_2x4_MillerStManufacturing_PLOPx4.SC4Lot
+    - /I-m3_3x4_MillerStManufacturing_GROWx4.dat
+- variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
+  dependencies:
+  - toroca:industry-quadrupler
+  assets:
+  - assetId: simhottoddy-bsp-miller-street-manufacturing
+    exclude:
+    - I-m_2x4_MillerStManufacturing_PLOP.SC4Lot
+    - I-m3_3x4_MillerStManufacturing_GROW.dat
 
 ---
 assetId: simhottoddy-bsp-miller-street-manufacturing

@@ -41,8 +41,21 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0012/66b6ecbe9389f93d0fe94c4c1f064e4d-STEX_01.jpg
     - https://www.simtropolis.com/objects/screens/0012/66b6ecbe9389f93d0fe94c4c1f064e4d-STEX_02.jpg
-assets:
+variants:
+- variant: { toroca:industry-quadrupler:capacity: "standard" }
+  assets:
   - assetId: simhottoddy-bsp-aluminum-architectural-metals-company
+    exclude:
+    - /I-m Grow X4/
+    - /I-m Plop X4/
+- variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
+  dependencies:
+  - toroca:industry-quadrupler
+  assets:
+  - assetId: simhottoddy-bsp-aluminum-architectural-metals-company
+    exclude:
+    - /I-m Grow/
+    - /I-m Plop/
 
 ---
 assetId: simhottoddy-bsp-aluminum-architectural-metals-company

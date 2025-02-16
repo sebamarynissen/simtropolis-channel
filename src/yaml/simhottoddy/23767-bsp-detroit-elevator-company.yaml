@@ -37,8 +37,21 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0015/86d8af44e76c918bc5c63d309c664ca9-STEX061.jpg
     - https://www.simtropolis.com/objects/screens/0015/86d8af44e76c918bc5c63d309c664ca9-STEX05.jpg
-assets:
+variants:
+- variant: { toroca:industry-quadrupler:capacity: "standard" }
+  assets:
   - assetId: simhottoddy-bsp-detroit-elevator-company
+    exclude:
+    - /I-m_3x2_Detroit_Elevator_Co_PLOP_X4.SC4Lot
+    - /I-m3_3x2_Detroit_Elevator_Co_GROW_X4.dat
+- variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
+  dependencies:
+  - toroca:industry-quadrupler
+  assets:
+  - assetId: simhottoddy-bsp-detroit-elevator-company
+    exclude:
+    - /I-m_3x2_Detroit_Elevator_Co_PLOP.SC4Lot
+    - /I-m3_3x2_Detroit_Elevator_Co_GROW.dat
 
 ---
 assetId: simhottoddy-bsp-detroit-elevator-company
