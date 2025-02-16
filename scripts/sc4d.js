@@ -54,6 +54,7 @@ export default {
 	1764: 'bsc:mega-props-t1-vol03',
 	1771: 'bsc:mega-props-misc-vol02',
 	1778: 'bsc:mega-props-jes-vol08',
+	1806: 'bsc:textures-vol03',
 	1884: 'cogeo:logistics-centre-dependency-pack',
 	1886: 'aln:rrp-pasture-flora-props',
 	1891: 'bsc:mega-props-jbsimio-vol03',
