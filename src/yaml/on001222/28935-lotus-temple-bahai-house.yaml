@@ -64,18 +64,24 @@ dependencies:
   - bsc:mega-props-d66-vol01
   - bsc:textures-vol01
   - lbt:mega-textures-vol01
-assets:
-  - assetId: on001222-lotus-temple-bahai-house-part0
-  - assetId: on001222-lotus-temple-bahai-house-part1
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-lotus-temple-bahai-house-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-lotus-temple-bahai-house-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-lotus-temple-bahai-house-part0
+assetId: on001222-lotus-temple-bahai-house-mn
 version: "1.0"
 lastModified: "2013-08-24T05:06:58Z"
 url: https://community.simtropolis.com/files/file/28935-lotus-templebahai-house/?do=download&r=121676
 
 ---
-assetId: on001222-lotus-temple-bahai-house-part1
+assetId: on001222-lotus-temple-bahai-house-dn
 version: "1.0"
 lastModified: "2013-08-24T05:06:58Z"
 url: https://community.simtropolis.com/files/file/28935-lotus-templebahai-house/?do=download&r=121677

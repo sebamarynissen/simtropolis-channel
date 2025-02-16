@@ -29,11 +29,18 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2012/ff2f7b1eb4b692de4b120f835e5b2dd4-day.png
     - https://www.simtropolis.com/objects/screens/monthly_01_2012/825a4fdc894d07a40f63010723f6f3d5-nite.png
-assets:
-  - assetId: on001222-sathorn-thani-complex-v-2
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-sathorn-thani-complex-v2 # Only has darknite building
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-sathorn-thani-complex-v2
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-sathorn-thani-complex-v-2
+assetId: on001222-sathorn-thani-complex-v2
 version: "1.0"
 lastModified: "2012-01-02T13:09:49Z"
 url: https://community.simtropolis.com/files/file/27131-sathorn-thani-complex-v2/?do=download&r=95535

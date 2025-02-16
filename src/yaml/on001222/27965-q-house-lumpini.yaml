@@ -30,18 +30,24 @@ info:
   website: https://community.simtropolis.com/files/file/27965-q-house-lumpini/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_12_2013/8159d629e25d0f9d628bcfec998bd27c-d_n-q-h-l.jpg
-assets:
-  - assetId: on001222-q-house-lumpini-part0
-  - assetId: on001222-q-house-lumpini-part1
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-q-house-lumpini-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-q-house-lumpini-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-q-house-lumpini-part0
+assetId: on001222-q-house-lumpini-dn
 version: "1.0"
 lastModified: "2013-04-12T08:47:49Z"
 url: https://community.simtropolis.com/files/file/27965-q-house-lumpini/?do=download&r=121843
 
 ---
-assetId: on001222-q-house-lumpini-part1
+assetId: on001222-q-house-lumpini-mn
 version: "1.0"
 lastModified: "2013-04-12T08:47:49Z"
 url: https://community.simtropolis.com/files/file/27965-q-house-lumpini/?do=download&r=121844

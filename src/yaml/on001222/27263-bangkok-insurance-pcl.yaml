@@ -43,18 +43,24 @@ dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
   - sfbt:essentials
-assets:
-  - assetId: on001222-bangkok-insurance-pcl-part0
-  - assetId: on001222-bangkok-insurance-pcl-part1
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-bangkok-insurance-pcl-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-bangkok-insurance-pcl-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-bangkok-insurance-pcl-part0
+assetId: on001222-bangkok-insurance-pcl-dn
 version: "1.0"
 lastModified: "2012-02-08T11:07:51Z"
 url: https://community.simtropolis.com/files/file/27263-bangkok-insurance-pcl/?do=download&r=121705
 
 ---
-assetId: on001222-bangkok-insurance-pcl-part1
+assetId: on001222-bangkok-insurance-pcl-mn
 version: "1.0"
 lastModified: "2012-02-08T11:07:51Z"
 url: https://community.simtropolis.com/files/file/27263-bangkok-insurance-pcl/?do=download&r=121706

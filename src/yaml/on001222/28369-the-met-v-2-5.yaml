@@ -38,18 +38,24 @@ info:
   website: https://community.simtropolis.com/files/file/28369-the-met-v-25/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_12_2013/66c54b02e206f2f54b43168ecda6c4be-day_nite.jpg
-assets:
-  - assetId: on001222-the-met-v-2-5-part0
-  - assetId: on001222-the-met-v-2-5-part1
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-the-met-v2-5-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-the-met-v2-5-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-the-met-v-2-5-part0
+assetId: on001222-the-met-v2-5-dn
 version: "1.0"
 lastModified: "2013-11-22T06:47:14Z"
 url: https://community.simtropolis.com/files/file/28369-the-met-v-25/?do=download&r=121965
 
 ---
-assetId: on001222-the-met-v-2-5-part1
+assetId: on001222-the-met-v2-5-mn
 version: "1.0"
 lastModified: "2013-11-22T06:47:14Z"
 url: https://community.simtropolis.com/files/file/28369-the-met-v-25/?do=download&r=121966

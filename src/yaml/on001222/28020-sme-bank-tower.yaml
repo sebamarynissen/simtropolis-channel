@@ -32,18 +32,24 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2014/b1a65615593463e7d42dbd03dffe3473-smed.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2014/f51be4971be9e970e62834e509d14a3d-sme.jpg
-assets:
-  - assetId: on001222-sme-bank-tower-part0
-  - assetId: on001222-sme-bank-tower-part1
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-sme-bank-tower-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-sme-bank-tower-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-sme-bank-tower-part0
+assetId: on001222-sme-bank-tower-mn
 version: "1.0"
 lastModified: "2013-12-15T07:50:31Z"
 url: https://community.simtropolis.com/files/file/28020-sme-bank-tower/?do=download&r=142168
 
 ---
-assetId: on001222-sme-bank-tower-part1
+assetId: on001222-sme-bank-tower-dn
 version: "1.0"
 lastModified: "2013-12-15T07:50:31Z"
 url: https://community.simtropolis.com/files/file/28020-sme-bank-tower/?do=download&r=142169

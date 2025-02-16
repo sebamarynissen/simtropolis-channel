@@ -29,8 +29,15 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0017/9ae4e07dd911326a1a6766745aaaa195-D.jpg
     - https://www.simtropolis.com/objects/screens/0017/9ae4e07dd911326a1a6766745aaaa195-N.jpg
-assets:
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-arnoma-hotel-bangkok # Only has darknite building
+- variant: { nightmode: "dark" }
+  assets:
   - assetId: on001222-arnoma-hotel-bangkok
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
 assetId: on001222-arnoma-hotel-bangkok

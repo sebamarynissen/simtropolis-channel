@@ -37,8 +37,15 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0005/20181e85c238d1a6e6ebd7eb309c6e7b-Day.jpg
     - https://www.simtropolis.com/objects/screens/0005/20181e85c238d1a6e6ebd7eb309c6e7b-Nite.jpg
-assets:
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-millenium-residance-1-2-3-4 # Only has darknite building
+- variant: { nightmode: "dark" }
+  assets:
   - assetId: on001222-millenium-residance-1-2-3-4
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
 assetId: on001222-millenium-residance-1-2-3-4

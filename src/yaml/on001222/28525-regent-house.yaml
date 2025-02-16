@@ -33,18 +33,24 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_12_2013/4af6d9ab74d5d55d9ddec98ee63d7041-day.jpg
     - https://www.simtropolis.com/objects/screens/monthly_12_2013/891a2d4648c579f7be5e73dc09ccc84c-day1.jpg
-assets:
-  - assetId: on001222-regent-house-part0
-  - assetId: on001222-regent-house-part1
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-regent-house-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-regent-house-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-regent-house-part0
+assetId: on001222-regent-house-dn
 version: "1.0"
 lastModified: "2013-03-01T12:19:26Z"
 url: https://community.simtropolis.com/files/file/28525-regent-house/?do=download&r=121889
 
 ---
-assetId: on001222-regent-house-part1
+assetId: on001222-regent-house-mn
 version: "1.0"
 lastModified: "2013-03-01T12:19:26Z"
 url: https://community.simtropolis.com/files/file/28525-regent-house/?do=download&r=121890

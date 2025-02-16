@@ -1,5 +1,5 @@
 group: on001222
-name: tmb-bank-by-userlake
+name: tmb-bank
 version: "1.0.0"
 subfolder: 300-commercial
 info:
@@ -26,13 +26,20 @@ info:
     Building in Bangkok Thailand
 
     \-- **Cori Note:** Restored to the STEX with permission from [@on001222](https://community.simtropolis.com/profile/262302-on001222/)
-  author: on001222
+  author: on001222, Userlake
   website: https://community.simtropolis.com/files/file/34727-tmb-bank-by-userlake/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_10/Day.jpg.58f36b7c0baee4d674353913ae0fb521.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_10/Nite.jpg.a64ed0f3313cd4c6628a92049534fc07.jpg
-assets:
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-tmb-bank-by-userlake # Only has darknite building
+- variant: { nightmode: "dark" }
+  assets:
   - assetId: on001222-tmb-bank-by-userlake
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
 assetId: on001222-tmb-bank-by-userlake

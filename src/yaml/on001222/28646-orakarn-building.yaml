@@ -28,18 +28,24 @@ info:
   website: https://community.simtropolis.com/files/file/28646-orakarn-building/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_12_2013/307e2c108d1d5b05da0944d4c8aa794a-day.jpg
-assets:
-  - assetId: on001222-orakarn-building-part0
-  - assetId: on001222-orakarn-building-part1
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-orakarn-building-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-orakarn-building-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
 
 ---
-assetId: on001222-orakarn-building-part0
+assetId: on001222-orakarn-building-dn
 version: "1.0"
 lastModified: "2013-04-17T10:22:43Z"
 url: https://community.simtropolis.com/files/file/28646-orakarn-building/?do=download&r=121853
 
 ---
-assetId: on001222-orakarn-building-part1
+assetId: on001222-orakarn-building-mn
 version: "1.0"
 lastModified: "2013-04-17T10:22:43Z"
 url: https://community.simtropolis.com/files/file/28646-orakarn-building/?do=download&r=121854
