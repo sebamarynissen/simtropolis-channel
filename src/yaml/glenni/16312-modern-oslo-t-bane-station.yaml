@@ -45,6 +45,8 @@ info:
     - https://www.simtropolis.com/objects/screens/0026/ee63446aa89ecebe741c83b003f3e49f-t-banenightlight.jpg
 assets:
   - assetId: glenni-modern-oslo-t-bane-station
+    exclude:
+     - "/TBane-UI.dat" # Malformed DBPF file (its a custom query)
 
 ---
 assetId: glenni-modern-oslo-t-bane-station
