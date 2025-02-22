@@ -39,14 +39,6 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0004/1ea51aa2a08e0603ae971cc95cd66b54-SFc_STEX_01.jpg
     - https://www.simtropolis.com/objects/screens/0004/1ea51aa2a08e0603ae971cc95cd66b54-SFc_STEX_03d.jpg
-# variants:
-#   - variant: { nightmode: standard }
-#     assets:
-#       - assetId: simhottoddy-bsp-standard-forge-co-dark-night-darknite
-#   - variant: { nightmode: dark }
-#     dependencies: [ "simfox:day-and-nite-mod" ]
-#     assets:
-#       - assetId: simhottoddy-bsp-standard-forge-co-dark-night-darknite
 dependencies:
   - simfox:day-and-nite-mod
 
