@@ -27,6 +27,8 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0010/557d6aef59b3f8ac9cd1c13ed71965bf-Day.jpg
     - https://www.simtropolis.com/objects/screens/0010/557d6aef59b3f8ac9cd1c13ed71965bf-NITE.jpg
+dependencies:
+  - bsc:textures-vol02
 variants:
 - variant: { nightmode: "standard" }
   assets:

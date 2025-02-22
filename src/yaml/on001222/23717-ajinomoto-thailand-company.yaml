@@ -31,7 +31,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0008/43a90ff98691fde97d282b56b3d2fe07-265755.jpg
 assets:
   - assetId: on001222-ajinomoto-thailand-company-by-thailand-design-team
-
+dependencies:
+  - bsc:textures-vol02
+  - lbt:mega-prop-pack-vol01
+  
 ---
 assetId: on001222-ajinomoto-thailand-company-by-thailand-design-team
 version: "1.0"

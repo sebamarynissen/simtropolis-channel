@@ -29,6 +29,8 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0017/9ae4e07dd911326a1a6766745aaaa195-D.jpg
     - https://www.simtropolis.com/objects/screens/0017/9ae4e07dd911326a1a6766745aaaa195-N.jpg
+dependencies:
+  - bsc:textures-vol02
 variants:
 - variant: { nightmode: "standard" }
   assets:
