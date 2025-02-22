@@ -31,13 +31,11 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: on001222-abdulrahim-place
       - assetId: on001222-abdulrahim-place-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: on001222-abdulrahim-place
-      - assetId: on001222-abdulrahim-place-maxisnite
 
 ---
 assetId: on001222-abdulrahim-place

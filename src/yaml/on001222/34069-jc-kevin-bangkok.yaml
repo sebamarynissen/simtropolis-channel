@@ -42,12 +42,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: on001222-jc-kevin-bangkok-maxisnite
-      - assetId: on001222-jc-kevin-bangkok
+      - assetId: on001222-jc-kevin-bangkok-diagonal
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: on001222-jc-kevin-bangkok-darknite
-      - assetId: on001222-jc-kevin-bangkok
+      - assetId: on001222-jc-kevin-bangkok-diagonal
 
 ---
 assetId: on001222-jc-kevin-bangkok-darknite
@@ -62,7 +62,7 @@ lastModified: "2021-01-26T07:11:14Z"
 url: https://community.simtropolis.com/files/file/34069-jc-kevin-bangkok/?do=download&r=184743
 
 ---
-assetId: on001222-jc-kevin-bangkok
+assetId: on001222-jc-kevin-bangkok-diagonal
 version: "1.0.0"
 lastModified: "2021-01-26T07:11:14Z"
 url: https://community.simtropolis.com/files/file/34069-jc-kevin-bangkok/?do=download&r=184744

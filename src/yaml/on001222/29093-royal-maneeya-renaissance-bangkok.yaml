@@ -35,13 +35,11 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: on001222-royal-maneeya-renaissance-bangkok
       - assetId: on001222-royal-maneeya-renaissance-bangkok-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: on001222-royal-maneeya-renaissance-bangkok
-      - assetId: on001222-royal-maneeya-renaissance-bangkok-maxisnite
 
 ---
 assetId: on001222-royal-maneeya-renaissance-bangkok
