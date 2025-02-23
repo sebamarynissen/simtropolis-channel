@@ -1,0 +1,37 @@
+group: propfam
+name: cap
+version: "4.0.0"
+subfolder: 200-residential
+info:
+  summary: Cap Lifter
+  description: |-
+    Do you have problems with your city being so bad? Have you experienced your city to have massive job deficit? What about sudden unemployment outta nowhere? Have you tried to grow your city and all ends fail? Well, your city is basically stunted at this point. There are many problems, like high taxes, not enough energy and water, and tons of garbage. But there's one thing that people often forget about: your city hits the so-called "demand cap." So, Maxis put caps on virtually all demands except commercial services in order to make the game more realistic. You can't just grow your city just with roads and utilities alone. You have to build amenities too. Those amenities often relaxes the cap to higher limit, allowing your city to grow again. Unfortunately, outside of industry, Maxis don't give us a way to lift the caps without wasting so much space in a city tile.
+
+    Introducing the **cap lifter.** Designed to just do one thing and **only** one thing: lift caps you wish to. You can lift particular developers like residential or commercial or industrial, or you can lift one wealth at a time. Or, if you're lazy like me, lift them all. You have the choice. And with the advancement in DLL modding, now you don't have to clutter your parks list with my stuffs. Specialty cap lifters can be found in the respective RCI menu. The general one is still in the park, but located at the top, allowing you to plop that thing really easily. The screenshots proves them all. And you won't generate more problems by plopping these fellas, since I don't put any externalities on them.
+
+    To install this, you just have to drag **Cap Lifter.dat** to your **SimCity 4/Plugins** folder. On Windows, it's in ***(My)* Documents**. On Linux or Wine within Mac, it's on your Wine's Document folder. On native Mac versions, you have to open inside your SimCity 4's app and put my mod into the Plugins folder (since I haven't used Mac, I can't tell you exactly where. Sorry!) To uninstall it, you have to remove all instances of my mod and remove the .dat from the plugins folder. To update it, you just replace it since I don't have anything that's conflicting with older versions (hopefully).
+
+    So, grow your city using the dang **Cap Lifter!**
+
+    **Special thanks:** flaticon.com for the icons. Also, everyone for sending feedbacks and supporting me.
+  author: Propfam
+  website: https://community.simtropolis.com/files/file/33986-cap-lifter/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/Banner.png.c765a7479863988e53ae5b32812823c5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/Instructions.png.3debe91dff0490fcac3d214ac826b959.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/Testy.png.07639e689f9f3f9096c761442cfe4352.png
+assets:
+  - assetId: propfam-cap-lifter-part0
+  - assetId: propfam-cap-lifter-part1
+
+---
+assetId: propfam-cap-lifter-part0
+version: "4.0.0"
+lastModified: "2025-02-23T01:20:55Z"
+url: https://community.simtropolis.com/files/file/33986-cap-lifter/?do=download&r=206130
+
+---
+assetId: propfam-cap-lifter-part1
+version: "4.0.0"
+lastModified: "2025-02-23T01:20:55Z"
+url: https://community.simtropolis.com/files/file/33986-cap-lifter/?do=download&r=206131
