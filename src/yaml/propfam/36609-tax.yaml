@@ -1,0 +1,27 @@
+group: propfam
+name: tax
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Unlimited Tax
+  description: |-
+    Do you feel your city don't bring you more money? Have you tried anything to cut deficits only to find it's not enough? Well, don't worry, here we go. Introducing the **unlimited tax,** a goofy ah mod that allows you to do one thing: increase fanum tax to how much you like. It's made thanks to our friend discovered that tax rates aren't fixed by the code, it's just the UI doesn't allow you to do so. So what we do is to set the spinner (that thing aside the tax field) to 32,767 or 215. You have the choice, either stuck with the 20%, slightly above the limit, or even max out the limit. And it's just works, flawlessly, every **single** time. Tho be warned, it skews the demand so much that you can't grow anymore, except if your city allows it (which is pretty unlikely).
+
+    To install this, you just have to drag **Unlimited Tax.dat** to your **SimCity 4/Plugins** folder. On Windows, it's in ***(My)* Documents**. On Linux or Wine within Mac, it's on your Wine's Document folder. On native Mac versions, you have to open inside your SimCity 4's app and put my mod into the Plugins folder (since I haven't used Mac, I can't tell you exactly where. Sorry!) To uninstall it, you have to remove all instances of my mod and remove the .dat from the plugins folder. To update it, you just replace it since I don't have anything that's conflicting with older versions (hopefully).
+
+    So, take all the profits using **unlimited tax!**
+
+    **Special thanks: [@Null 45](https://community.simtropolis.com/profile/246111-null-45/)** for [the inspiration.](https://community.simtropolis.com/forums/topic/50916-show-us-what-youre-working-on/?do=findComment&comment=1798814) Also, everyone for sending feedbacks and supporting me.
+  author: Propfam
+  website: https://community.simtropolis.com/files/file/36609-unlimited-tax/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6762b9eb210ea_Screenshot2024-12-18190202.png.c39a700b326e9d0db82b2b4324d9f07c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6762b9ecc6790_Screenshot2024-12-18190236.png.a9e7192609c5478e6fd3931879e7ccc3.png
+assets:
+  - assetId: propfam-unlimited-tax
+
+---
+assetId: propfam-unlimited-tax
+version: "1.0.0"
+lastModified: "2025-02-23T01:25:15Z"
+url: https://community.simtropolis.com/files/file/36609-unlimited-tax/?do=download&r=206135
