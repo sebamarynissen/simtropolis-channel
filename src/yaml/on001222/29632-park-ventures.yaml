@@ -1,0 +1,61 @@
+group: on001222
+name: park-ventures
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Park Ventures
+  description: |-
+    R$$$ about 2000 5000 8000
+
+    Lot size 6x4
+
+    Pullotion at center 3 3 123 0
+
+    Style Euro
+
+    Growble stage 8
+
+    **Dependencies**
+
+    Darknite mod
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    BSC TexturePack Cycledogg V 01b (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    BSC MEGA Props CP Vol01 (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+  author: on001222
+  website: https://community.simtropolis.com/files/file/29632-park-ventures/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/879bdf099610999ca6508bf9086f9f7b-park1.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/d051a399babe4128a985b5fe2e44dd4c-park2.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/909613f536b5160d5eb2db159e1744e6-park3.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/04a5eb8fd3252f0056b19173cf498b97-park4.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/0de8234e53d48cb277c9655dd3c81d4a-park5.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-park-ventures-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-park-ventures-darknite
+
+---
+assetId: on001222-park-ventures-maxisnite
+version: "1.0"
+lastModified: "2014-06-08T10:09:22Z"
+url: https://community.simtropolis.com/files/file/29632-park-ventures/?do=download&r=135150
+
+---
+assetId: on001222-park-ventures-darknite
+version: "1.0"
+lastModified: "2014-06-08T10:09:22Z"
+url: https://community.simtropolis.com/files/file/29632-park-ventures/?do=download&r=135151

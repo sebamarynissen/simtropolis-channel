@@ -1,0 +1,88 @@
+group: on001222
+name: lotus-temple-bahai-house
+version: "1.0"
+subfolder: 650-religion
+info:
+  summary: Lotus Temple(Baha'i House)
+  description: |-
+    **The Lotus Temple**, located in New Delhi, India, is a Bahá'í House of Worship completed in 1986. Notable for its flowerlike shape, it serves as the Mother Temple of the Indian subcontinent and has become a prominent attraction in the city. The Lotus Temple has won numerous architectural awards and been featured in hundreds of newspaper and magazine articles.
+
+    **Description** 
+
+    LM 16x20
+
+    Plop cost 380,000
+
+    Landmark Effect 80,50 
+
+    **Dependency**
+
+    LBT Mega Texture Pack vol.02
+
+    [https://community.simtropolis.com/files/file/21771-lbt\-mega-texture-pack-vol-02/](https://community.simtropolis.com/files/file/21771-lbt-mega-texture-pack-vol-02/)
+
+    Paeng Textures Vol103.dat
+
+    [https://community.simtropolis.com/files/file/22823-paeng-textures-vol103/](https://community.simtropolis.com/files/file/22823-paeng-textures-vol103/)
+
+    bsc textures vol 01
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    BSC MEGA Props - D66 Vol01
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=396](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)
+
+    BSC Mega Props - CP Vol01
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    BSC Mega Props - CP Vol02
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    **\*Update 13/12/2013\***
+
+    \- Fix new grass texture
+
+    \- Fix shadow bug in the model
+
+    \- Edit new lot
+
+    **\- Update maxisnite version**
+
+    Enjoy.
+  author: on001222
+  website: https://community.simtropolis.com/files/file/28935-lotus-templebahai-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/511fcb3220ffdcadf8fddf5d5d395032-lotus.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/3ea6346651aff3cfab0db4c407e01859-daynite.jpg
+dependencies:
+  - paeng:textures
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:textures-vol01
+  - lbt:mega-textures-vol01
+  - bsc:mega-props-misc-vol02
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: on001222-lotus-temple-bahai-house-mn
+- variant: { nightmode: "dark" }
+  assets:
+  - assetId: on001222-lotus-temple-bahai-house-dn
+  dependencies:
+  - "simfox:day-and-nite-mod"
+
+---
+assetId: on001222-lotus-temple-bahai-house-mn
+version: "1.0"
+lastModified: "2013-08-24T05:06:58Z"
+url: https://community.simtropolis.com/files/file/28935-lotus-templebahai-house/?do=download&r=121676
+
+---
+assetId: on001222-lotus-temple-bahai-house-dn
+version: "1.0"
+lastModified: "2013-08-24T05:06:58Z"
+url: https://community.simtropolis.com/files/file/28935-lotus-templebahai-house/?do=download&r=121677

@@ -1,0 +1,72 @@
+group: on001222
+name: baiyoke-sky-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Baiyoke Sky Hotel
+  description: |-
+    CO$$$ 7852 9874  
+      
+    Lot size 5x7  
+      
+    Constuction time 300 day  
+      
+    Pullotion at center 2 1 56 0  
+      
+    Power 256  
+      
+    water 548  
+      
+    Growble stage 8  
+      
+      
+      
+    CS$$$ 2589 6897 9985  
+      
+    Lot size 5x7  
+      
+    Constuction time 300 day  
+      
+    Pullotion at center 2 1 67 0  
+      
+    Power 256  
+      
+    water 548  
+      
+    Growble stage 8  
+      
+    No dependency  
+      
+    Buildig in Bangkok Thailand
+
+    **Update Maxisnite Version**
+  author: on001222
+  website: https://community.simtropolis.com/files/file/27860-baiyoke-sky-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/135a06eae7f4b29e047081b1732c72b2-dfay.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/31758c3047ac90053add79e26c64c864-day2.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/8ec2fb976860ba315710386fa9408c8f-nite.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/d3cf7ca6ba6edbd71473353ebbc92ddf-nite-1.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/b4dfc276783793704133923a5d577286-nit-3.png
+dependencies:
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-baiyoke-sky-hotel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-baiyoke-sky-hotel-darknite
+
+---
+assetId: on001222-baiyoke-sky-hotel-darknite
+version: "1.0"
+lastModified: "2012-07-22T07:58:59Z"
+url: https://community.simtropolis.com/files/file/27860-baiyoke-sky-hotel/?do=download&r=121834
+
+---
+assetId: on001222-baiyoke-sky-hotel-maxisnite
+version: "1.0"
+lastModified: "2012-07-22T07:58:59Z"
+url: https://community.simtropolis.com/files/file/27860-baiyoke-sky-hotel/?do=download&r=121835

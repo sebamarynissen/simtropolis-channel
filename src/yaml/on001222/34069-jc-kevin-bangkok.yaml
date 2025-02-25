@@ -1,0 +1,68 @@
+group: on001222
+name: jc-kevin-bangkok
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: JC Kevin Bangkok
+  description: |-
+    CO$$ 1203
+
+    Lot size 3x5
+
+    Construction Time 99 days
+
+    Maxfire stage 3
+
+    Power 50
+
+    Water 212
+
+    Growable stage 7
+
+    Landmark Yes
+
+    Building in Bangkok,Thailand
+
+    Dependencies
+
+    For Darknite mod
+
+    [https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=embed)
+  author: on001222
+  website: https://community.simtropolis.com/files/file/34069-jc-kevin-bangkok/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/JC1.png.f880864169a0f9e625f0812891cced09.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/JC2.png.1a83009b6c839fa64e01f45f6f0fc5e2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/JC3.png.0e0d6596355121da594adeb821e9ac2f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/JC4.png.11028efed26d9bd5dc8ef5c400fe0f53.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/14.png.c4c86f3f05daf3dded079eca64b856e8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/15.png.2748efd71ddd2abcff1eb8310d1a3f0e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/16.png.e9c0554f386778bcc64d9c0f3e90edda.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: on001222-jc-kevin-bangkok-maxisnite
+      - assetId: on001222-jc-kevin-bangkok-diagonal
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: on001222-jc-kevin-bangkok-darknite
+      - assetId: on001222-jc-kevin-bangkok-diagonal
+
+---
+assetId: on001222-jc-kevin-bangkok-darknite
+version: "1.0.0"
+lastModified: "2021-01-26T07:11:14Z"
+url: https://community.simtropolis.com/files/file/34069-jc-kevin-bangkok/?do=download&r=184742
+
+---
+assetId: on001222-jc-kevin-bangkok-maxisnite
+version: "1.0.0"
+lastModified: "2021-01-26T07:11:14Z"
+url: https://community.simtropolis.com/files/file/34069-jc-kevin-bangkok/?do=download&r=184743
+
+---
+assetId: on001222-jc-kevin-bangkok-diagonal
+version: "1.0.0"
+lastModified: "2021-01-26T07:11:14Z"
+url: https://community.simtropolis.com/files/file/34069-jc-kevin-bangkok/?do=download&r=184744
