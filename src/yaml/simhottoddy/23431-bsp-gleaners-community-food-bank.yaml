@@ -1,0 +1,60 @@
+group: simhottoddy
+name: bsp-gleaners-community-food-bank
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: BSP Gleaners Community Food Bank
+  description: |-
+    The **Barry Sanders Project** presents Gleaners Community Food Bank!
+
+    For more than 32 years, Gleaners Community Food Bank has been "nourishing communities by feeding hungry people.” Last year, Gleaners distributed more than 30 million pounds of emergency food to over 430 partner soup kitchens, shelters and pantries in south east Michigan.
+
+    As there is no civic building like this in SC4, we opted to represent it as a I-M. There are four versions available: two I-M growables and two I-M plopables for normal jobs and for use with the Industry Quadrupler. All lots are 7x3 and are W2W on both sides.
+
+    Maxis Job versions have 72 jobs.
+
+    x4 versions have 288 jobs.
+
+    Lit with Trunite.
+
+    * * *
+
+    Files are neatly organized into folders, simply remove the ones you do not want, however you MUST keep the folder labeled **Model File -- REQUIRED**, least yea meet the monstrous *brown box!*
+
+    It is recommended that you choose *either* the normal version *or* the x4 version depending on your game playing style and other mods. Installing both will cause the superfluous version to show up in game.
+
+    BAT: SimHoTToDDy
+
+    Custom query : Jasoncw
+
+    LOT & Modding: Nofunk
+
+    *[*Click here for development discussion of new projects by The Barry Sanders Project*](../../forum/messageview.cfm?catid=37&threadid=85962&enterthread=y)*
+
+    *Special thanks to people who stopped by my BAT thread and to the best team members ever!*
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/23431-bsp-gleaners-community-food-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/afbbab01654809af0edbf13d5fdb1c1d-STEX_04.jpg
+    - https://www.simtropolis.com/objects/screens/0019/afbbab01654809af0edbf13d5fdb1c1d-STEX_03.jpg
+variants:
+- variant: { toroca:industry-quadrupler:capacity: "standard" }
+  assets:
+  - assetId: simhottoddy-bsp-gleaners-community-food-bank
+    exclude:
+    - "/I-m Grow X4/"
+    - "/I-m Plop X4/"
+- variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
+  dependencies:
+  - toroca:industry-quadrupler
+  assets:
+  - assetId: simhottoddy-bsp-gleaners-community-food-bank
+    exclude:
+    - "/I-m Grow/"
+    - "/I-m Plop/"
+
+---
+assetId: simhottoddy-bsp-gleaners-community-food-bank
+version: "1.0"
+lastModified: "2010-02-26T19:59:04Z"
+url: https://community.simtropolis.com/files/file/23431-bsp-gleaners-community-food-bank/?do=download&r=50233
