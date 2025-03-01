@@ -53,11 +53,17 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0015/817ccf1d808bec401a68ed65b819c9dc-stex_01D.jpg
     - https://www.simtropolis.com/objects/screens/0015/817ccf1d808bec401a68ed65b819c9dc-stex_02D.jpg
-assets:
-  - assetId: simhottoddy-pripiat-white-house-dark-night
 dependencies:
-  - simfox:day-and-nite-mod
   - ndex:glenni-mega-props-vol01
+variants:
+  - variant: { nightmode: standard}
+    assets:
+      - assetId: simhottoddy-pripiat-white-house-dark-night
+  - variant: { nightmode: dark}
+    assets:
+      - assetId: simhottoddy-pripiat-white-house-dark-night
+    dependencies:
+      - simfox:day-and-nite-mod
 
 ---
 assetId: simhottoddy-pripiat-white-house-dark-night

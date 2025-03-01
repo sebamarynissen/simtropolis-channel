@@ -57,7 +57,15 @@ info:
     - https://www.simtropolis.com/objects/screens/0016/8d53e48905ca68a885b3b6fde5df3783-STEX_Long2_02d.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
-  - simfox:day-and-nite-mod
+variants:
+  - variant: { nightmode: standard}
+    assets:
+      - assetId: simhottoddy-pripiat-long-block-pack-dark-night
+  - variant: { nightmode: dark}
+    assets:
+      - assetId: simhottoddy-pripiat-long-block-pack-dark-night
+    dependencies:
+      - simfox:day-and-nite-mod
 
 ---
 assetId: simhottoddy-pripiat-long-block-pack-dark-night

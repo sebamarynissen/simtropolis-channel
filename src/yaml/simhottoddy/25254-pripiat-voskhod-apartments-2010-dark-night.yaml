@@ -61,10 +61,16 @@ info:
     - https://www.simtropolis.com/objects/screens/0008/4399b21b1887ea58a628238a5430aa40-STEX_voskhod_03.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
-  - simfox:day-and-nite-mod
   - ndex:glenni-mega-props-vol01
-assets:
-  - assetId: simhottoddy-pripiat-voskhod-apartments-2010-dark-night
+variants:
+  - variant: { nightmode: standard}
+    assets:
+      - assetId: simhottoddy-pripiat-voskhod-apartments-2010-dark-night
+  - variant: { nightmode: dark}
+    assets:
+      - assetId: simhottoddy-pripiat-voskhod-apartments-2010-dark-night
+    dependencies:
+      - simfox:day-and-nite-mod
 
 ---
 assetId: simhottoddy-pripiat-voskhod-apartments-2010-dark-night
