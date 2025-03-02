@@ -1,0 +1,295 @@
+group: hugues-aroux
+name: subway-and-bus-stations
+version: "1.4.1"
+subfolder: 700-transit
+info:
+  summary: Scoty Subway & Bus Stations
+  description: |-
+    Introduced in 2017 (scoty sub-bus A) with a single Bus and Metro line*****, Scoty Subway & Bus Stations, is a new version of this plugin, offering not one, but three sets of Stations.  
+    Here are the A, B and C lines.  
+    **A** - The [@namspopof](https://community.simtropolis.com/profile/86503-namspopof/) shelters, from the previous version of the plugin.  
+    B - Shelters, sims and street furnitures from [@Barroco Hispano](https://community.simtropolis.com/profile/415633-barroco-hispano/)  
+    C - Shelters from [@uroncha](https://community.simtropolis.com/profile/28733-uroncha/) (back to the origins! .. And the source of inspiration for this plugin).
+
+    Each Set includes 22 Lots of subway stations and bus stops.  
+    .. 12 bus stops :  
+        On street, road, oneway and avenue: ortho, diagonal.  
+        On street and road T and X.  
+    .. 10 metro + bus stations :  
+        On street ortho and diagonal  
+        On road ortho, diagonal, T and X.  
+        On oneway and avenue ortho and diagonal.
+
+    The capacity of the bus stop: Street, Road and oneway: 17000+ ; Avenue: 20000.  
+    The capacity of the metro stations: 24000+.
+
+    Note that stations on T and X can be placed in front of residences, without blocking the «road connection».  
+    These lots appear in the miscellaneous transport menu.
+
+    **Road markings styles & Textures**
+
+    This version 1.4 offers 8 styles of road markings. Each is available for Avenue, Oneway, Route EU, Route US, and for the 3 streets textures variants: Maxis, TarSealedStreets by Rivit and WestWindStreets by ... me.
+
+    The inspiration for some of these marker styles comes from markers seen in a city in the country indicated in the file suffix: DE, NL, ES, IT and UK. It’s just a file name! The STD and STDW (for white) formats are visible in several countries. And the 8th «NoM» for: no marking, also visible in (many) countries!  
+    With the exception of OneWay-Avenue, each network file is separate, allowing you to mix and match styles.
+
+    **Previous version**  
+    Lots from previous versions (1 to 1.3), planted in your cities, don’t have to be deleted. The names of the A-line DAT files have changed, but not the IDs.
+
+    **Installation**  
+    If this is not your first installation, or|and to check the presence of dependencies of this plugin, use the Clean&Dep\_scoty\_SBS\_1-4.txt (.. ****** .. ) file in [SC4Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the old [BSC Cleanitol](https://www.sc4evermore.com/index.php/downloads/download/18-bsc-cleanitol).  
+    Place the contents of the ZIP file in your /Plugins directory.  
+    Then select the files you wish to keep:  
+    In /scoty\_SubBusStations\_A|B|C, select EUs or US, LHD or RHD.  
+    In /scoty\_SubBusStations\_textures, multiple choice:  
+        - Either keep a directory (a marking style) in which you retain only the installed ; choose  your Street Maxis, TSR or WWS and for ow-avenue and road : EU or US.  
+        - Or you can mix one of the 8 styles, retaining only one of ow-ave, road and street.
+
+    **Dependences**  
+    \--- SBS A, B et C  
+    .. [Nams PROPS PACK Vol 2](https://www.toutsimcities.com/downloads/view/1882)  
+    .. [Additional Subway Entrance Props](https://community.simtropolis.com/files/file/13698-additional-subway-entrance-props/) ... (can keep only the model:  
+        RoadsideSubstairs\_Mcdrye\_0x33317b90.SC4Model  
+        RTMTV3\_PropF\_Subway\_Mcdrye\_SteelBlue.dat)  
+    .. [Modern Realistic Subway Station V2](https://community.simtropolis.com/files/file/24596-modern-realistic-subway-station-v2/) ... (can keep only the model:  
+         subwayiiredotextureattempti-0x5ad0e817\_0x39671410\_0x30000.SC4Model  
+        subwayiiredotextureattempti-0x6534284a-0x99472a58-0x796b3c63.SC4Desc)  
+    .. [BSC\-TSC Girafe French Road Signs](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/214-bsc-tsc-girafe-french-road-signs)  
+    .. [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    .. [European Bus and Tram Stops](https://community.simtropolis.com/files/file/23417-european-bus-and-tram-stops/)    (can keep only the /models and /props directories)  
+    .. [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)  
+    .. [VIP Vnaoned Props Pack vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/188-vip-vnaoned-props-pack-vol01)  
+    .. [SC4D LEX LEGACY - BSC VIP Girafe Flora Pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)  
+        (lupins / cypresses / berries / maples / maples v2 ******)  
+    .. [NAM 48+](https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/)  
+    \--- SBS - B  
+    .. [AGC - Environment DLC](https://community.simtropolis.com/files/file/34720-agc-environment-dlc/) ******  
+    .. [AGC - Casual Sims DLC](https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/) ******  
+    .. [AGC - Streets DLC](https://community.simtropolis.com/files/file/36152-agc-streets-dlc/) ******  
+    \--- SBS - C  
+    .. [Diagonal Intersection RoadTop SubwayBus Station](https://community.simtropolis.com/files/file/14010-diagonal-intersection-roadtop-subwaybus-station/) .. (only MTRT-Models.dat)
+
+    Thanks to all the creators of the props used here: Namspopof, Barroco-Hispano, Uroncha, Girafe (always !), McDrye, tjh876, khoianh & Fluggi, Vnaoned, the SFBT team and The NAM\-Team!
+
+    ***** .. *«bah non !» ... Of course, there's no «Lines» management in SC4! ..* ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")  
+    ****** .. *make sure you have all the files for these DLC and Pack-Element (Simple ref. in Cleanitol) !!*
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/31940-scoty-subway-bus-stations/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/annonce_01.jpg.60f6559b3cbd71dbe13a176dcb86234b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/sbs_B_STD_s.jpg.4fc5aa56940684ac71b8dfd72f9cd8e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/sbs_tex_styles.jpg.128eb26da5f812a321219abf1857f8f0.jpg
+dependencies:
+  - namspopof:props-pack-vol2
+  - cogeo:additional-subway-entrance-props
+  - tjh876:modern-realistic-subway-station-v2-resources
+  - bsc:vip-girafe-french-road-signs
+  - uroncha:diagonal-intersection-roadtop-subwaybus-station-resources
+  - khoianh94:european-bus-and-tram-stops-resources
+  - sfbt:essentials
+  - vip:vnaoned-props-pack-vol01
+  - girafe:lupins
+  - girafe:cypresses
+  - girafe:berries
+  - girafe:maples
+  - girafe:maples-v2
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:street-props
+  - hugues-aroux:subway-and-bus-stations-textures
+variants:
+- variant: { hugues-aroux:subway-and-bus-stations:road-style: "us", driveside: left }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    exclude:
+    - "/scoty_SubBusStations_textures/"
+    - _EU_
+    - _RHD
+variants:
+- variant: { hugues-aroux:subway-and-bus-stations:road-style: "us", driveside: right }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    exclude:
+    - "/scoty_SubBusStations_textures/"
+    - _EU
+    - _LHD
+- variant: { hugues-aroux:subway-and-bus-stations:road-style: "eu", driveside: left }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    exclude:
+    - "/scoty_SubBusStations_textures/"
+    - _US
+    - _EU_RHD
+    - _RHD
+- variant: { hugues-aroux:subway-and-bus-stations:road-style: "eu", driveside: right }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    exclude:
+    - "/scoty_SubBusStations_textures/"
+    - _US
+    - _EU_LHD
+    - _LHD
+variantInfo:
+- variantId: "hugues-aroux:subway-and-bus-stations:road-style"
+  description: Customize the appearance of the road textures
+  values:
+  - value: "us"
+    description: North American style road textures
+  - value: "eu"
+    description: European style road textures
+
+---
+group: hugues-aroux
+name: subway-and-bus-stations-textures
+version: "1.4.1"
+subfolder: 100-props-textures
+info:
+  summary: Textures for `pkg=hugues-aroux:subway-and-bus-stations`
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/31940-scoty-subway-bus-stations/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/annonce_01.jpg.60f6559b3cbd71dbe13a176dcb86234b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/sbs_B_STD_s.jpg.4fc5aa56940684ac71b8dfd72f9cd8e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/sbs_tex_styles.jpg.128eb26da5f812a321219abf1857f8f0.jpg
+variants:
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "std", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_STD/"
+    exclude:
+    - "/SubBusStations_tex_STD/.*_EU_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "stdw", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_STDW/"
+    exclude:
+    - "/SubBusStations_tex_STDW/.*_EU_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "none", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_NoM/"
+    exclude:
+    - "/SubBusStations_tex_NoM/.*_EU_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "de", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_DE/"
+    exclude:
+    - "/SubBusStations_tex_DE/.*_EU_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "es", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_ES/"
+    exclude:
+    - "/SubBusStations_tex_ES/.*_EU_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "it", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_IT/"
+    exclude:
+    - "/SubBusStations_tex_IT/.*_EU_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "nl", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_NL/"
+    exclude:
+    - "/SubBusStations_tex_NL/.*_EU_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "uk", hugues-aroux:subway-and-bus-stations:road-style: "us" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_UK/"
+    exclude:
+    - "/SubBusStations_tex_UK/.*_EU_"
+
+
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "std", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_STD/"
+    exclude:
+    - "/SubBusStations_tex_STD/.*_US_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "stdw", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_STDW/"
+    exclude:
+    - "/SubBusStations_tex_STDW/.*_US_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "none", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_NoM/"
+    exclude:
+    - "/SubBusStations_tex_NoM/.*_US_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "de", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_DE/"
+    exclude:
+    - "/SubBusStations_tex_DE/.*_US_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "es", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_ES/"
+    exclude:
+    - "/SubBusStations_tex_ES/.*_US_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "it", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_IT/"
+    exclude:
+    - "/SubBusStations_tex_IT/.*_US_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "nl", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_NL/"
+    exclude:
+    - "/SubBusStations_tex_NL/.*_US_"
+- variant: { hugues-aroux:subway-and-bus-stations:bus-marking-style: "uk", hugues-aroux:subway-and-bus-stations:road-style: "eu" }
+  assets:
+  - assetId: hugues-aroux-subway-and-bus-stations
+    include:
+    - "/SubBusStations_tex_UK/"
+    exclude:
+    - "/SubBusStations_tex_UK/.*_US_"
+
+variantInfo:
+- variantId: "hugues-aroux:subway-and-bus-stations:bus-marking-style"
+  description: Customize the appearance of the on road bus stop markings.
+  values:
+  - value: "std"
+    description: Standard yellow zig-zag markings
+  - value: "stdw"
+    description: Standard white zig-zag markings
+  - value: "de"
+    description: German style markings
+  - value: "es"
+    description: Spanish style markings
+  - value: "it"
+    description: Italian style markings
+  - value: "nl"
+    description: Dutch style markings
+  - value: "uk"
+    description: British style markings
+  - value: "none"
+    description: No markings
+
+---
+assetId: hugues-aroux-subway-and-bus-stations
+version: "1.4.1"
+lastModified: "2024-07-18T22:47:11Z"
+url: https://community.simtropolis.com/files/file/31940-scoty-subway-bus-stations/?do=download&r=202037

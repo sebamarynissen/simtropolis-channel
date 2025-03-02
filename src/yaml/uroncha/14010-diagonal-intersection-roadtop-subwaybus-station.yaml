@@ -1,0 +1,73 @@
+group: uroncha
+name: diagonal-intersection-roadtop-subwaybus-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Diagonal  Intersection RoadTop SubwayBus Station
+  description: |-
+    Brand-New RoadTop Subway-Bus station include Diagonal and Intersection.
+
+    Bus Stop (12 Lots)
+
+    Street: Straight,Diagonal,T Intersection,X Intersection  
+    Road: Straight,Diagonal,T Intersection,X Intersection  
+    Oneway Road: Straight,Diagonal  
+    Avenue: Straight,Diagonal
+
+    Subway-Bus Station (8 Lots)  
+    Road: Straight,Diagonal,T Intersection,X Intersection  
+    Oneway Road: Straight,Diagonal  
+    Avenue: Straight,Diagonal
+
+    Option: EuroRoad Texture
+
+    Dependence: none
+  author: uroncha
+  website: https://community.simtropolis.com/files/file/14010-diagonal-intersection-roadtop-subwaybus-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/05bb619f69f6434ea102f1e88aa90592-Bus.jpg
+    - https://www.simtropolis.com/objects/screens/0001/05bb619f69f6434ea102f1e88aa90592-Subway.jpg
+assets:
+  - assetId: uroncha-diagonal-intersection-roadtop-subwaybus-station
+dependencies:
+  - uroncha:diagonal-intersection-roadtop-subwaybus-station-resources
+
+---
+group: uroncha
+name: diagonal-intersection-roadtop-subwaybus-station-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Props and textures for `pkg=uroncha:diagonal-intersection-roadtop-subwaybus-station`
+  author: uroncha
+  website: https://community.simtropolis.com/files/file/14010-diagonal-intersection-roadtop-subwaybus-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/05bb619f69f6434ea102f1e88aa90592-Bus.jpg
+    - https://www.simtropolis.com/objects/screens/0001/05bb619f69f6434ea102f1e88aa90592-Subway.jpg
+variants:
+- variant: { uroncha:roadtop-station:texture-type: "standard" }
+  assets:
+  - assetId: uroncha-diagonal-intersection-roadtop-subwaybus-station
+    include:
+    - "/MTRT-Tex.dat"
+    - "/MTRT-Models.dat"
+- variant: { uroncha:roadtop-station:texture-type: "euro" }
+  assets:
+  - assetId: uroncha-diagonal-intersection-roadtop-subwaybus-station
+    include:
+    - "/MTRT-TexEuro.dat"
+    - "/MTRT-Models.dat"
+variantInfo:
+- variantId: uroncha:roadtop-station:texture-type
+  description: Customize the appearance of the road textures
+  values:
+  - value: "standard"
+    description: North American style road textures
+  - value: "euro"
+    description: European style road textures
+
+---
+assetId: uroncha-diagonal-intersection-roadtop-subwaybus-station
+version: "1.0"
+lastModified: "2005-10-27T05:01:42Z"
+url: https://community.simtropolis.com/files/file/14010-diagonal-intersection-roadtop-subwaybus-station/?do=download&r=35545
