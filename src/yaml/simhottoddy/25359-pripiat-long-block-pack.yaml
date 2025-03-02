@@ -1,13 +1,11 @@
 group: simhottoddy
-name: pripiat-long-block-pack-dark-night
+name: pripiat-long-block-pack
 version: "1.0"
 subfolder: 200-residential
 info:
-  summary: Pripiat Long Block Pack (dark night)
+  summary: Pripiat Long Block Pack
   description: |-
     Located in the abandoned city of Pripiat, Ukraine, these 5 story apartment buildings compose several of the city's "microdistricts".  They come in many lengths and orientations, this pack ( plus the Long Block V1) covers all of the varieties of this particular type of building  found in the real city.
-
-    Lit with TrueNite dark night.
 
     **This upload includes:**
 
@@ -51,21 +49,30 @@ info:
 
     \-Todd
   author: SimHoTToDDy
-  website: https://community.simtropolis.com/files/file/25358-pripiat-long-block-pack-dark-night/
+  websites: 
+    - https://community.simtropolis.com/files/file/25359-pripiat-long-block-pack-maxis-night/
+    - https://community.simtropolis.com/files/file/25358-pripiat-long-block-pack-dark-night/
   images:
-    - https://www.simtropolis.com/objects/screens/0016/8d53e48905ca68a885b3b6fde5df3783-STEX_Long2_01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aade71c119e13da2b117828af8303d5f-STEX_Long2_01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aade71c119e13da2b117828af8303d5f-STEX_Long2_03m.jpg
     - https://www.simtropolis.com/objects/screens/0016/8d53e48905ca68a885b3b6fde5df3783-STEX_Long2_02d.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
 variants:
-  - variant: { nightmode: standard}
-    assets:
-      - assetId: simhottoddy-pripiat-long-block-pack-dark-night
-  - variant: { nightmode: dark}
-    assets:
-      - assetId: simhottoddy-pripiat-long-block-pack-dark-night
-    dependencies:
-      - simfox:day-and-nite-mod
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: simhottoddy-pripiat-long-block-pack-maxis-night
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: simhottoddy-pripiat-long-block-pack-dark-night
+
+---
+assetId: simhottoddy-pripiat-long-block-pack-maxis-night
+version: "1.0"
+lastModified: "2010-11-25T20:27:17Z"
+url: https://community.simtropolis.com/files/file/25359-pripiat-long-block-pack-maxis-night/?do=download&r=53089
 
 ---
 assetId: simhottoddy-pripiat-long-block-pack-dark-night

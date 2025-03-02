@@ -1,13 +1,11 @@
 group: simhottoddy
-name: bsp-standard-forge-co-maxis-night
+name: bsp-standard-forge-co
 version: "1.0"
 subfolder: 400-industrial
 info:
-  summary: BSP Standard Forge Co. (Maxis night)
+  summary: BSP Standard Forge Co.
   description: |-
     Located on the corner of Franklin and St. Aubin Street in Detroit's Rivertown district, the Standard Forge Co. building was expanded in a series of additions. It is just another average workshop that was common in the area and most other turn of the century industrial districts.
-
-    Lit with Trunite.
 
     **This upload includes:**
 
@@ -35,15 +33,31 @@ info:
 
     *Special thanks to people who stopped by my BAT thread and to the best team members ever!*
   author: SimHoTToDDy
-  website: https://community.simtropolis.com/files/file/25354-bsp-standard-forge-co-maxis-night/
+  websites: 
+    - https://community.simtropolis.com/files/file/25354-bsp-standard-forge-co-maxis-night/
+    - https://community.simtropolis.com/files/file/25334-bsp-fisher-body-plant-21-dark-night/
   images:
     - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_01.jpg
     - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_02m.jpg
-assets:
+    - https://www.simtropolis.com/objects/screens/0023/cee3abeb2548caa38daf042ddd782261-FB21_STEX_D_02.jpg
+variants:
+- variant: { nightmode: "standard" }
+  assets:
   - assetId: simhottoddy-bsp-standard-forge-co-maxis-night
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: simhottoddy-bsp-standard-forge-co-dark-night
 
 ---
 assetId: simhottoddy-bsp-standard-forge-co-maxis-night
 version: "1.0"
 lastModified: "2010-11-24T21:08:57Z"
 url: https://community.simtropolis.com/files/file/25354-bsp-standard-forge-co-maxis-night/?do=download&r=53081
+
+---
+assetId: simhottoddy-bsp-standard-forge-co-dark-night
+version: "1.0"
+lastModified: "2010-11-24T21:13:17Z"
+url: https://community.simtropolis.com/files/file/25356-bsp-standard-forge-co-dark-night/?do=download&r=53083

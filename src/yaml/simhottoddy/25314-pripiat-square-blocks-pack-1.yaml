@@ -1,13 +1,11 @@
 group: simhottoddy
-name: pripiat-square-blocks-pack-1-maxis-night
+name: pripiat-square-blocks-pack-1
 version: "1.0"
 subfolder: 200-residential
 info:
   summary: Pripiat Square Blocks Pack 1 (Maxis night)
   description: |-
     Located in the abandoned city of Pripiat, These nine story apartments represent a large percentage of the buildings in the city. Much like the "long blocks" near by, they form several of Pripiat's micro districts.
-
-    Lit with TrueNite.
 
     **This upload includes:**
 
@@ -47,18 +45,34 @@ info:
 
     \-Todd
   author: SimHoTToDDy
-  website: https://community.simtropolis.com/files/file/25314-pripiat-square-blocks-pack-1-maxis-night/
+  websites: 
+    - https://community.simtropolis.com/files/file/25314-pripiat-square-blocks-pack-1-maxis-night/
+    - https://community.simtropolis.com/files/file/25313-pripiat-square-blocks-pack-1-dark-night/
   images:
     - https://www.simtropolis.com/objects/screens/0001/00219d17b81cac400eb71411de71c2d8-STEX_square1_01.jpg
     - https://www.simtropolis.com/objects/screens/0001/00219d17b81cac400eb71411de71c2d8-STEX_square1_02.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8f5c3d0b808025cd33952d4f252a694c-STEX_square1_03.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
   - ndex:glenni-mega-props-vol01
-assets:
-  - assetId: simhottoddy-pripiat-square-blocks-pack-1-maxis-night
+variants:
+  - variant: { nightmode: standard}
+    assets:
+      - assetId: simhottoddy-pripiat-square-blocks-pack-1-maxis-night
+  - variant: { nightmode: dark}
+    assets:
+      - assetId: simhottoddy-pripiat-square-blocks-pack-1-dark-night
+    dependencies:
+      - simfox:day-and-nite-mod
 
 ---
 assetId: simhottoddy-pripiat-square-blocks-pack-1-maxis-night
 version: "1.0"
 lastModified: "2010-11-19T21:52:23Z"
 url: https://community.simtropolis.com/files/file/25314-pripiat-square-blocks-pack-1-maxis-night/?do=download&r=53019
+
+---
+assetId: simhottoddy-pripiat-square-blocks-pack-1-dark-night
+version: "1.0"
+lastModified: "2010-11-19T21:45:22Z"
+url: https://community.simtropolis.com/files/file/25313-pripiat-square-blocks-pack-1-dark-night/?do=download&r=53017

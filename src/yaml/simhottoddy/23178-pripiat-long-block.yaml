@@ -1,9 +1,9 @@
 group: simhottoddy
-name: pripiat-long-block-v1
+name: pripiat-long-block
 version: "1.0"
 subfolder: 200-residential
 info:
-  summary: Pripiat Long Block V1
+  summary: Pripiat Long Block
   description: |-
     Located in the abandoned city of Pripiat, Ukraine, these 5 story apartment buildings compose several of the city's "microdistricts". At the time, they were very desirable places to live, however if you want to make them live up to their irradiated reputation, a R$ version is included.
 
@@ -51,15 +51,31 @@ info:
 
     \-Todd
   author: SimHoTToDDy
-  website: https://community.simtropolis.com/files/file/23178-pripiat-long-block-v1/
+  websites: 
+    - https://community.simtropolis.com/files/file/23178-pripiat-long-block-v1/
+    - https://community.simtropolis.com/files/file/24566-pripiat-long-block-v1-dark-nite/
   images:
     - https://www.simtropolis.com/objects/screens/0004/1651928ca2e532d0f13b8534ffd547e4-STEX01.jpg
     - https://www.simtropolis.com/objects/screens/0004/1651928ca2e532d0f13b8534ffd547e4-STEX02.jpg
-assets:
-  - assetId: simhottoddy-pripiat-long-block-v1
+    - https://www.simtropolis.com/objects/screens/0021/c2c3deb4bbb9a82f3f06aacb407dbe00-STEX02.jpg
+variants:
+  - variant: { nightmode: standard}
+    assets:
+      - assetId: simhottoddy-pripiat-long-block-v1
+  - variant: { nightmode: dark}
+    assets:
+      - assetId: simhottoddy-pripiat-long-block-v1-dark-nite
+    dependencies:
+      - simfox:day-and-nite-mod
 
 ---
 assetId: simhottoddy-pripiat-long-block-v1
 version: "1.0"
 lastModified: "2010-01-23T02:58:49Z"
 url: https://community.simtropolis.com/files/file/23178-pripiat-long-block-v1/?do=download&r=49899
+
+---
+assetId: simhottoddy-pripiat-long-block-v1-dark-nite
+version: "1.0"
+lastModified: "2010-08-03T12:43:18Z"
+url: https://community.simtropolis.com/files/file/24566-pripiat-long-block-v1-dark-nite/?do=download&r=51909
