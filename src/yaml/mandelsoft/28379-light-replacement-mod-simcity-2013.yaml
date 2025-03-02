@@ -1,0 +1,82 @@
+group: mandelsoft
+name: light-replacement-mod-simcity-2013
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Light Replacement Mod - SimCity 2013
+  description: |-
+    This mod adds SimCity 2013 styled streetlights and optionally it can replace all in-game streetlights. 5 new streetlight types (9 models in total), included with a more uniform light spreading, making your cities look great from far too.
+
+    (A fully functional set I made just for the lols ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif))
+
+    **Installation**
+
+    Installation is quite simple: just put the right files into your plugins folder. The following files are included:
+
+    • *LightCones\_DarkNite.dat*
+
+    • *LightCones\_MaxisNite.dat*
+
+    Contains the light cones. Select only **ONE** of these two files. Use the DarkNite light cones only when you have ***SimFox’s DarkNite Mod*** installed.
+
+    • *Models & Props.dat*
+
+    Contains all models and prop descriptors for this pack. Must be installed!
+
+    • *Override Set.dat*
+
+    Optional. Replaces all in-game streetlights with SimCity 2013 styled streetlights. Also contains enhanced T21\-exemplar setups for more variety.
+
+    **Uninstallation**
+
+    To uninstall the pack, remove the files from this mod from your Plugins folder.
+
+    **Dependencies**
+
+    This mod has no dependencies.
+
+    Enjoy!
+
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28379-light-replacement-mod-simcity-2013/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/a60dcc36ebc7cacfff47bbca803c2d1d-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/3e51f439f893d5ea156d88d48c8bd4d7-screenie02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/2318a332eda85cd7f02459683521d4ea-screenie03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/ce716d1600f43506048d0dbfbc10e2cf-screenie04.jpg
+dependencies:
+  - mandelsoft:lrm-5-lightcones
+assets:
+  - assetId: mandelsoft-light-replacement-mod-simcity-2013
+    exclude:
+      - "LightCones"
+
+---
+group: mandelsoft
+name: lrm-5-lightcones
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Light cones utilized in each LRM 5.0 set
+  author: MandelSoft
+  website: hhttps://community.simtropolis.com/files/file/28379-light-replacement-mod-simcity-2013/
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: mandelsoft-light-replacement-mod-simcity-2013
+    include:
+    - "/LightCones_MaxisNite.dat"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: mandelsoft-light-replacement-mod-simcity-2013
+    include:
+    - "/LightCones_DarkNite.dat"
+
+---
+assetId: mandelsoft-light-replacement-mod-simcity-2013
+version: "1.0"
+lastModified: "2013-01-17T16:28:43Z"
+url: https://community.simtropolis.com/files/file/28379-light-replacement-mod-simcity-2013/?do=download&r=114049

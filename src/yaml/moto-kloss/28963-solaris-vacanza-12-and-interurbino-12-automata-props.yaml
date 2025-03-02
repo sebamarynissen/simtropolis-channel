@@ -1,0 +1,69 @@
+group: moto-kloss
+name: solaris-vacanza-12-and-interurbino-12-automata
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: MS Solaris Vacanza 12 & InterUrbino 12 (Automata + Props)
+  description: |-
+    5 automata models of the buses manufactured by the Polish company Solaris Bus & Coach.  
+    There are 1 white Solaris InterUrbino and 4 Solarises Vacanza in various colors (like you can see at the pics below).  
+    You can use all of them in the same time or choose only one. They don't replace any vehicle in game.  
+      
+    ...  
+      
+    \- **Solaris Vacanza 12** is a tourist coach, introduced for the first time during the autumn of 2001. First serially made vehicles were delivered to customers around spring 2002.  
+      
+    \- **Solaris InterUrbino 12** is a suburban/intercity bus (in some countries used also as the school bus) produced since 2009. The SC4 model represents the pre-facelifted version (2009-2012).  
+      
+    ...  
+      
+    Check the ReadMe file for more informations.  
+      
+    **NO DEPENDENCIES.**
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/28963-ms-solaris-vacanza-12-interurbino-12-automata-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/a4deed12932dac123104e3305a83e45d-1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/fb90aa4aaa095f03fb756dc62654d9a1-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/3efcea1435c0fb0b4bf5ab9720332023-3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/8e015498df27f1b4900203bd8e082b58-4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/17d64def3b5654df4094e456456205ef-5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/f551942b9c2f447bec2601941108db12-6.jpg
+assets:
+  - assetId: moto-kloss-ms-solaris-vacanza-12-and-interurbino-12-automata-props
+    exclude:
+      - "MS_MotoklossSolarisBus_PROPS1.dat"
+
+---
+group: moto-kloss
+name: solaris-vacanza-12-and-interurbino-12-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: MS Solaris Vacanza 12 & InterUrbino 12 (Automata + Props)
+  description: |-
+    5 automata models of the buses manufactured by the Polish company Solaris Bus & Coach.  
+    There are 1 white Solaris InterUrbino and 4 Solarises Vacanza in various colors (like you can see at the pics below).  
+    You can use all of them in the same time or choose only one. They don't replace any vehicle in game.  
+      
+    Each model also has a **prop** counterpart, available in **3 versions: ortho., 20**° **and 45**°**.**  
+      
+    ...  
+      
+    \- **Solaris Vacanza 12** is a tourist coach, introduced for the first time during the autumn of 2001. First serially made vehicles were delivered to customers around spring 2002.  
+      
+    \- **Solaris InterUrbino 12** is a suburban/intercity bus (in some countries used also as the school bus) produced since 2009. The SC4 model represents the pre-facelifted version (2009-2012).  
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/28963-ms-solaris-vacanza-12-interurbino-12-automata-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/8e015498df27f1b4900203bd8e082b58-4.jpg
+assets:
+  - assetId: moto-kloss-ms-solaris-vacanza-12-and-interurbino-12-automata-props
+    include:
+        - "MS_MotoklossSolarisBus_PROPS1.dat"
+
+---
+assetId: moto-kloss-ms-solaris-vacanza-12-and-interurbino-12-automata-props
+version: "1.0"
+lastModified: "2013-09-11T14:17:41Z"
+url: https://community.simtropolis.com/files/file/28963-ms-solaris-vacanza-12-interurbino-12-automata-props/?do=download&r=119800
