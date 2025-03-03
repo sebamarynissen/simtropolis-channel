@@ -48,7 +48,7 @@ export default async function handleUpload(json, opts = {}) {
 	if (
 		!json.files ||
 		json.files.length === 0 ||
-		json.files.some(file => file.name === null || file.link)
+		json.files.some(file => file.name === null || file.name === undefined)
 	) {
 		return {
 			skipped: true,
