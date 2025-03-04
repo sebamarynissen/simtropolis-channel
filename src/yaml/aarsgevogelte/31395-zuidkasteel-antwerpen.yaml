@@ -1,0 +1,32 @@
+group: aarsgevogelte
+name: zuidkasteel-antwerpen
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Zuidkasteel, Antwerpen
+  description: |-
+    Dependencies:
+
+    [https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/?do=embed](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/?do=embed)
+    [https://community.simtropolis.com/files/file/11420-porkie-props-vol2-seasonal-street-trees/?do=embed](https://community.simtropolis.com/files/file/11420-porkie-props-vol2-seasonal-street-trees/?do=embed)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/31395-zuidkasteel-antwerpen/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/D.jpg.9c5ac3a197485dcad77c878fbf65d900.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/N.jpg.ee62175b9dbbe512fc963aad7ba8a676.jpg
+dependencies:
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-zuidkasteel-antwerpen
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-zuidkasteel-antwerpen
+
+---
+assetId: aarsgevogelte-zuidkasteel-antwerpen
+version: "1.0"
+lastModified: "2018-01-28T20:08:13Z"
+url: https://community.simtropolis.com/files/file/31395-zuidkasteel-antwerpen/?do=download&r=169812

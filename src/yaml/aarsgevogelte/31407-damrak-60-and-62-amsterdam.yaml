@@ -1,0 +1,41 @@
+group: aarsgevogelte
+name: damrak-60-and-62-amsterdam
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Damrak 60 & 62, Amsterdam
+  description: |-
+    Two Dutch W2W buildings (LM & CO$$$) from Amsterdam.
+
+    ![*:ducky:](https://community.simtropolis.com/assets/emoticons/default_40.gif ":ducky:")
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/31407-damrak-60-62-amsterdam/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.991899e4ebb4f0224255cbb6256320ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.8da4ee38b7be68e61fd87bd28e680be5.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-damrak-60-and-62-amsterdam
+        exclude:
+          - "/DN/"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-damrak-60-and-62-amsterdam
+        exclude:
+          - "/MN/"
+
+
+---
+assetId: aarsgevogelte-damrak-60-and-62-amsterdam
+version: "1.0"
+lastModified: "2018-02-09T11:22:37Z"
+url: https://community.simtropolis.com/files/file/31407-damrak-60-62-amsterdam/?do=download&r=170005
+
+# Appears to be a duplicate/subset of what is contained in the above asset
+# ---
+# assetId: aarsgevogelte-damrak-60-and-62-amsterdam-part1
+# version: "1.0"
+# lastModified: "2018-02-09T11:22:37Z"
+# url: https://community.simtropolis.com/files/file/31407-damrak-60-62-amsterdam/?do=download&r=170006

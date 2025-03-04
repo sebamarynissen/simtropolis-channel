@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: wilsonova-3-prague
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Wilsonova 3, Prague
+  description: |-
+    LM
+
+    A building of the continental variety.
+
+    [![1.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.342d4a1a4510447a160e9567c8a31742.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.342d4a1a4510447a160e9567c8a31742.jpg)[![2.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.e9ce0835dbba2453f11d99665c897bf2.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.e9ce0835dbba2453f11d99665c897bf2.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32136-wilsonova-3-prague/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.25bfff598e986678ebb526081a69dbf0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.fae47a36df76d12e3554ce4c74219a67.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-wilsonova-3-prague
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-wilsonova-3-prague
+
+---
+assetId: aarsgevogelte-wilsonova-3-prague
+version: "1.0"
+lastModified: "2018-02-18T19:21:30Z"
+url: https://community.simtropolis.com/files/file/32136-wilsonova-3-prague/?do=download&r=170176

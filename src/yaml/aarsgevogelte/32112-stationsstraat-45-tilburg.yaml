@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: stationsstraat-45-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Stationsstraat 45, Tilburg
+  description: |-
+    LM
+
+    Nothing special, but whatever.
+
+    ![1.jpg.734c36810e0f55877f3c560bdb60ca08.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.734c36810e0f55877f3c560bdb60ca08.jpg)![2.jpg.406ce2282b161c10d29b287db36952d7.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.406ce2282b161c10d29b287db36952d7.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32112-stationsstraat-45-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.05e8c5c6e6f76264ab832caadbd21ffa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.5ac63cf2c59b7add711c447c01e24dac.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-stationsstraat-45-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-stationsstraat-45-tilburg
+
+---
+assetId: aarsgevogelte-stationsstraat-45-tilburg
+version: "1.0"
+lastModified: "2018-02-09T15:02:37Z"
+url: https://community.simtropolis.com/files/file/32112-stationsstraat-45-tilburg/?do=download&r=170009

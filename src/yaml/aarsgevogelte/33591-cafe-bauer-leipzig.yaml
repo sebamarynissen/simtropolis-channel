@@ -1,0 +1,40 @@
+group: aarsgevogelte
+name: cafe-bauer-leipzig
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Café Bauer - Leipzig
+  description: |-
+    Here is the Café Bauer from Leipzig (scanline version):
+
+    -   Functional landmark
+    -   Growable (CS$$$)
+
+    Dependencies:
+
+    [BSC Textures Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    I'm reuploading my buildings in scanline. If you don't like scanline, the mental ray versions are still available as well.
+
+    God help us all.
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/33591-café-bauer-leipzig/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/day.jpg.d7cb32d2c58489bfa3e8f40ce9b79128.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/night.jpg.ca29914c67d62581a774a5e7291177b9.jpg
+dependencies:
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-cafe-bauer-leipzig
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-cafe-bauer-leipzig
+
+---
+assetId: aarsgevogelte-cafe-bauer-leipzig
+version: "1.0.0"
+lastModified: "2020-05-09T19:53:38Z"
+url: https://community.simtropolis.com/files/file/33591-caf%C3%A9-bauer-leipzig/?do=download&r=180923
