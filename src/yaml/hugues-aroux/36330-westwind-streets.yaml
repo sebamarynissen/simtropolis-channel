@@ -1,0 +1,75 @@
+group: hugues-aroux
+name: westwind-streets
+version: "1.7.48"
+subfolder: 150-mods
+info:
+  summary: WestWind Streets
+  description: |-
+    The WestWind Streets (WWS) is a texture replacement mod for Maxis Streets. It covers all intersections with the various networks present in the NAM (47,48,...). Such as RealRailWay (RRW), Tram (GLR) or the various NWM roads with 3, 4, ... lanes.
+
+    It adds a little variety to the street network with 4 types of T and X crossroads (one type for wealth0 ; 1 ; 2-3 ; 4-5-6), plus a set of "countryside" textures (w7) in 2 options versions: unkerbed or gravel-sides. WWStreets also cover the Tram-in-Street (GLR) network and the FLUPS underground tunnels.
+
+    A number of segments have been produced in RHD and LHD. A fairly generic LHD, between Oceania and the UK.
+
+    Insofar as the network's operating rules allow.
+
+    Following the example of RIVIT's Tarseal Street plugin, I offer texture replacement for JRJ Parking Bays - for the SFBT Street Mod plugin (since I use it!) And as a small tribute to RIVIT, an adaptation of its Lot textures.
+
+    Of course, the automata paths are adapted accordingly. As well as some LHD and RHD T21s.
+
+    **Distribution**
+
+    You can download, on this page, the ready-to-play version with Maxis grass textures.
+
+    Or you can pick up the WestWindStreets\_Fabrik\_x ([on my drive](https://1drv.ms/f/s!AlD-_0WBCRHjiyfobnRthZ2S9PHX)) to generate the set with your own grass textures. Using GoFSH (From RIVIT). Production file : *build\_WWStreets.txt*
+
+    News, preparation for updating this mod ... on [this thread](https://community.simtropolis.com/forums/topic/761614-scotys-small-tinkering/) !
+
+    **Installation**
+
+    .. As this Mod must be loaded after the NAM, and others... drop the contents of the ZIP: z\_\_\_\_scoty\_mods/ directly in the Plugins folder : Documents/SimCity 4/Plugins/
+
+    .. To be on the safe side, keep the tree structure of the ready-to-play version. And for the Fabrik version, place the contents of \_prod/ in a directory named: z\_\_\_\_scoty\_mods.
+
+    **For all distribution ..**
+
+    .. To keep or not to keep the \[WWS - zOptional Cul-de-Sac\] directory: Circular end street. (See screenshots above).
+
+    .. If you're an SFBT Street Tree Mod user ([here revised version](https://community.simtropolis.com/files/file/35660-sfbt-street-tree-mod-revised/)), the directory: WWS - JRJ Side Parking bays, contains an overload of this plugin adapted for WWStreets.
+
+    .. Delete the WWS - T21s \[LHD|RLHD\]\] directory according to your driving direction.
+
+    WWStreets modifies/adapts the positioning of some intersection props (T21). Maxis and NAM. Please ensure that these files are not overloaded by another plugin. Such as Mandelsoft's Stoplights\_replacement\_mod plugin. The latter can coexist with WWStreets, without any degradation, if it is loaded beforehand.
+
+    **In Scoty-WWStreets/** directory ..
+
+    .. discard files that are not for your traffic direction (LHD/RHD) and your region: EU and US (for the moment) - or both, e.g.: EU LHD, ...
+
+    .. and choose one of the Rural option :  Unkerbed or Gravel sides. (See screenshots above).
+
+    .. Keep only the SAM transitions (scoty-WWStreets - z\_opt WWS-SAM nnnnn.dat) for which you have installed the plugins (Rivit, MGB, Magneto).
+
+    \-----
+
+    Added WestWindStreet to RUM - for those in the know.  
+    Since version 8.48, Rivit's RUM Mod - and MGB rails - supports WestWindStreet. As it should be, the RUM plugin should be loaded after WWS.  
+    Or, download the zip on my Drive, here [Doc\_SC4](https://1drv.ms/f/s!AlD-_0WBCRHjiyfobnRthZ2S9PHX) : 202407 RUM MGB - E5 HuguesAroux StreetX.zip, ...
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/36330-westwind-streets/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/668a9533a5f78_Capturedcran2024-07-07131254.jpg.a79f4f5fd5bd7196e749f5eba1b37a8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_various-intersections-1.jpg.73d1e96bc8a727906a9438881ac79e0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_gravel_option.jpg.0204a86d0d18012fef8e88a3c1a8fdc1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_unkerbed_option.jpg.56807bcc2585ff61fe5362a5b52481e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_SAMs_NAM.jpg.4953d66c8b49ee237645e61c0139bcc0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_NWM.jpg.1aa8f5b02cd587a89f1141ef0c36b419.jpg
+# dependencies:
+  # - '"[here revised version](https://community.simtropolis.com/files/file/35660-sfbt-street-tree-mod-revised/)"'
+assets:
+  - assetId: hugues-aroux-westwind-streets
+
+---
+assetId: hugues-aroux-westwind-streets
+version: "1.7.48"
+lastModified: "2024-12-09T12:24:23Z"
+url: https://community.simtropolis.com/files/file/36330-westwind-streets/?do=download&r=204631

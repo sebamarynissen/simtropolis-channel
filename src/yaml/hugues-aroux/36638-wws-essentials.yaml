@@ -1,0 +1,48 @@
+group: hugues-aroux
+name: wws-essentials
+version: "2.0.0"
+subfolder: 100-props-textures
+info:
+  summary: WWS-Essentials
+  description: |-
+    With version 2, WWS - Essentials becomes truly essential for WestWindStreets production fans.
+
+    The directory is equipped with transition textures between WWS SAMs; which you will find in the directory: /zWWS\_SAMxSAM.
+
+    Keep only the transitions whose two numbers, which compose the name, are installed WWS SAMs.
+
+    Please note that as usual, I share the "[Fabrik](https://1drv.ms/f/c/e311098145fffe50/QlD-_0WBCREggOOnBQAAAAAA6G50bYWdkvTx1w)"  of these textures, in order to assign them the grass of your choice via RIVIT's GoFSH.
+
+    ...
+
+    Although not "Essential" (![*:yes:](https://community.simtropolis.com/assets/emoticons/default_19.gif "*:yes:")![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")), the files contained in this directory are highly recommended. That is why they are proposed as a dependency of WestWindStreets. They allow you to fully benefit from the long hours it took me - will take me - to create the SideMod (or T21) of the WestWindStreets SAM ...
+
+    They may be useful to other SideMod developers… such as! [****\[1\]****](#_ftn1)
+
+    That being said, for the more curious, here is a little explanation:
+
+    The files redeclare the Exemplars \[Props\] of various Props of the authors concerned, by adding a property (and strictly this one under Reader 0.93) essential to SC4 to position the said Prop on the network tile (street, road, ...) in its Mirrored version.
+
+    The property of exemplar is: \[ ResourceKeyType1xm \] -> same value as \[ ResourceKeyType1 \].
+
+    \----
+
+    In the readme PDF is the list of affected Props. If their authors wish to update their Props, although it may prove tedious for this simple and perhaps unique use, I would be happy to remove the exemplar redeclaration.
+
+    Courtesy of Girafe.
+
+    * * *
+
+    \[1\] The "high" position in the overrides stack (in my directory:  ../Plugins/z\_\_\_\_scoty\_mods/) allows everyone to call it!
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/36638-wws-essentials/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/img_tech_ww_ess.jpg.b1df400864ee033c748acb7573ca9d0a.jpg
+assets:
+  - assetId: hugues-aroux-wws-essentials
+
+---
+assetId: hugues-aroux-wws-essentials
+version: "2.0.0"
+lastModified: "2025-02-02T16:28:31Z"
+url: https://community.simtropolis.com/files/file/36638-wws-essentials/?do=download&r=205534

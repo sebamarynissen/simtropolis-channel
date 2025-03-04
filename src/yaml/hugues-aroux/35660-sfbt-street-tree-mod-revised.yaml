@@ -1,0 +1,33 @@
+group: hugues-aroux
+name: sfbt-street-tree-mod-revised
+version: "2.0.0"
+subfolder: 900-overrides
+info:
+  summary: SFBT Street Tree Mod - REVISED
+  description: |-
+    **SFBT Street Tree Mod T21 overhaul.**
+
+    The plugin: SFBT Street Tree Mod, by Andreas, available on [ST : bsc-sfbt\-street-tree-mod](https://community.simtropolis.com/files/file/16098-bsc-sfbt-street-tree-mod/)  -- [SC4E : 86-sfbt\-street-tree-mod](https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/86-sfbt-street-tree-mod) offers in the directory: Street Tree Mod/Street Mods/  
+    a set of T21\-type files (15) which place a number of Props along the street: mainly trees, parking bays and cars, and more... ; depending on the nature of the street (wealth, density, Zone).  
+    Some of these files, despite Andreas’s hard work - great for 2006! - contained a few errors in the placement, overlapping and orientation of bays and other accessories...  
+    So I revised all 170+ of T21 exemplars.  
+    Mainly: I repositioned the parking bays and cars towards the edges of the street - out of the traffic lane, and I repositioned the benches, trees, hydrants, ... straddling the parking spaces.
+
+    ![sfbt_illustra1.jpg.506fe6f917ff555d8316047faa5c9e68.jpg](https://www.simtropolis.com/objects/attachments/monthly_2023_10/sfbt_illustra1.jpg.506fe6f917ff555d8316047faa5c9e68.jpg)  
+    This may have been deliberate for some, but I find them rather strange and unsightly. I’ve also removed the «big potted flowers»!
+
+    The \[.dat\] files have been renamed with a \[z\_\] prefix to avoid overwriting. You can therefore unzip these new (15) files into the SFBT/Street Tree Mod/Street Mods/ directory of the same name (as presented in the ZIP) and choose the fate of the old files.
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/35660-sfbt-street-tree-mod-revised/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/img_overhaul.png.cc8d08caf08d44fc61a7c4ee25491ba3.png
+assets:
+  - assetId: hugues-aroux-sfbt-street-tree-mod-revised
+dependencies:
+  - andreas-roth:sfbt-street-tree-mod
+
+---
+assetId: hugues-aroux-sfbt-street-tree-mod-revised
+version: "2.0.0"
+lastModified: "2023-10-07T21:00:17Z"
+url: https://community.simtropolis.com/files/file/35660-sfbt-street-tree-mod-revised/?do=download&r=197969
