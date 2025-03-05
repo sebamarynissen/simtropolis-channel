@@ -1,0 +1,45 @@
+group: fluggi
+name: rhw4-toll-booth
+version: "1.2"
+subfolder: 700-transit
+info:
+  summary: RHW4 Toll Booth
+  description: |-
+    Hey guys,  
+      
+    There is still no toll both for RHW4 on the STEX (I didn't find one ![:P](https://community.simtropolis.com/assets/emoticons/LlamaTounge.gif)), so I made one.  
+    The Toll Booth Model is not mine, it is made by MrSnoopy, so this (and the RHW, of course) is the only dependency.  
+      
+    As you can see on the screenshot, the direction is shown by the plop arrow.  
+      
+    **Update 1:**  
+    Some values adjusted.  
+    Please re-download if you downloaded it before.
+
+    **Update 2:**
+
+    Sorry, but the NAM team changed the ID of the RHW\-4 lot texture, so this file was broken for a long time.
+
+    Updated the lot texture.  
+      
+    **Dependencies:**  
+    [MrSnoopy's Toll Booths](https://www.simtropolis.com/stex/details.cfm?id=4003) - To avoid brown boxes.  
+    [The Real Highway Mod](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=853)  
+    If you don't see the Lot Textures, update your RHW.
+
+    NAM 31.2 or higher required, previous versions might work (not tested).
+  author: Fluggi
+  website: https://community.simtropolis.com/files/file/24018-rhw4-toll-booth/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/146532a7bfad9e5f7811e96a592ae8ee-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/a4bf0533b34d4d3506870bdd6310758e-stex2.jpg
+dependencies:
+  - mrsnoopy:toll-stations
+assets:
+  - assetId: fluggi-rhw4-toll-booth
+
+---
+assetId: fluggi-rhw4-toll-booth
+version: "1.2"
+lastModified: "2010-06-01T23:48:21Z"
+url: https://community.simtropolis.com/files/file/24018-rhw4-toll-booth/?do=download&r=120471

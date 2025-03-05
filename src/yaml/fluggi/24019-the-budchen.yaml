@@ -1,0 +1,43 @@
+group: fluggi
+name: the-budchen
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: The Büdchen
+  description: |-
+    The "Büdchen" was a small kiosk in Wermelskirchen, Germany. Because of a modernization project in the inner city, it was broken off.
+
+    Now you can see it in an open-air museum.
+
+    With this plugin, you can see it in your city ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    As you can see on the screenshots, there is a roundabout version and a normal one.
+
+    It is time-controlled, it is closed at night.
+
+    Both versions are functional landmarks with two jobs (![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)).
+
+    **Update:**
+
+    -   Bug which lets the game crash fixed
+
+    -   The normal version got a new Lot design (new Dependency!) ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    **Dependencies:**
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750">SFBT](<a href=) Essentials
+  author: Fluggi
+  website: https://community.simtropolis.com/files/file/24019-the-büdchen/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/fdf4602403737a4e20846b016401bd67-stex 1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/2f51424be02258602d765eb5ebeb7fc1-stex 21.jpg
+dependencies:
+  - sfbt:essentials
+assets:
+  - assetId: fluggi-the-budchen
+
+---
+assetId: fluggi-the-budchen
+version: "1.1"
+lastModified: "2010-05-31T10:12:28Z"
+url: https://community.simtropolis.com/files/file/24019-the-b%C3%BCdchen/?do=download&r=93744
