@@ -22,11 +22,11 @@ dependencies:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: aarsgevogelte-victoria-hotel-amsterdam
+      - assetId: aarsgevogelte-victoria-hotel-amsterdam-v2
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: aarsgevogelte-victoria-hotel-amsterdam
+      - assetId: aarsgevogelte-victoria-hotel-amsterdam-v2
 
 ---
 assetId: aarsgevogelte-victoria-hotel-amsterdam-v2
