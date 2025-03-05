@@ -1,0 +1,35 @@
+group: aarsgevogelte
+name: victoria-hotel-amsterdam-v2
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Victoria Hotel, Amsterdam
+  description: |-
+    LM
+
+    Updated version of the Victoria Hotel.
+
+    ![1.jpg.598193345ef4354527da4db21da1c574.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.598193345ef4354527da4db21da1c574.jpg)![2.jpg.550383abf5b92408625b972ae2635121.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.550383abf5b92408625b972ae2635121.jpg)
+
+    [https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/?do=embed](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/?do=embed)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32143-victoria-hotel-amsterdam/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.c3947a15dec23dd0dfe3ee3b769228c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.a84400604096718293eb03862e1fe771.jpg
+dependencies:
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-victoria-hotel-amsterdam-v2
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-victoria-hotel-amsterdam-v2
+
+---
+assetId: aarsgevogelte-victoria-hotel-amsterdam-v2
+version: "1.0"
+lastModified: "2018-02-23T11:04:37Z"
+url: https://community.simtropolis.com/files/file/32143-victoria-hotel-amsterdam/?do=download&r=170230

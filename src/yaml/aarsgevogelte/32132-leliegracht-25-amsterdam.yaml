@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: leliegracht-25-amsterdam
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Leliegracht 25, Amsterdam
+  description: |-
+    LM
+
+    A classy canal house from Amsterdam.
+
+    [![1.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.7d8299449daa3b5f85c36b5b1d155752.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.7d8299449daa3b5f85c36b5b1d155752.jpg)[![2.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.67158c0605170ea7491b5c2c7fb8ca2a.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.67158c0605170ea7491b5c2c7fb8ca2a.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32132-leliegracht-25-amsterdam/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.9c5c5aaf24a0db994d2b986d9cd10b0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.6e077f69976f42c4f485172f6684c64f.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-leliegracht-25-amsterdam
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-leliegracht-25-amsterdam
+
+---
+assetId: aarsgevogelte-leliegracht-25-amsterdam
+version: "1.0"
+lastModified: "2018-02-16T20:24:11Z"
+url: https://community.simtropolis.com/files/file/32132-leliegracht-25-amsterdam/?do=download&r=170162

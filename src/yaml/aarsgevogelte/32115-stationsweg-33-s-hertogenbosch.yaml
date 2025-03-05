@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: stationsweg-33-s-hertogenbosch
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Stationsweg 33, 's-Hertogenbosch
+  description: |-
+    LM
+
+    There aren't many interesting Dutch corner buildings. This is an exception:
+
+    ![1.jpg.fb1e23e9399bb80de7e24f56657ec682.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.fb1e23e9399bb80de7e24f56657ec682.jpg)![2.jpg.8ba4ebde52dc9218e27661e7b3363331.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.8ba4ebde52dc9218e27661e7b3363331.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32115-stationsweg-33-s-hertogenbosch/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.8b54eb8293aa905f14bc108bddbc8b7f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.270aeae8c34722b6f6ba99f679d579a3.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-stationsweg-33-s-hertogenbosch
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-stationsweg-33-s-hertogenbosch
+
+---
+assetId: aarsgevogelte-stationsweg-33-s-hertogenbosch
+version: "1.0"
+lastModified: "2018-02-10T11:14:42Z"
+url: https://community.simtropolis.com/files/file/32115-stationsweg-33-s-hertogenbosch/?do=download&r=170041

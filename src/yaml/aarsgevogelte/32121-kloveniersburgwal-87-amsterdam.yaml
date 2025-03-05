@@ -1,0 +1,29 @@
+group: aarsgevogelte
+name: kloveniersburgwal-87-amsterdam
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Kloveniersburgwal 87, Amsterdam
+  description: |-
+    LM
+
+    ![1.jpg.ea86ec1d18d5042d6fe9cd275b2f4404.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.ea86ec1d18d5042d6fe9cd275b2f4404.jpg)![2.jpg.ea57a2c0404ecab4eaf4e8a5c1b6289a.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.ea57a2c0404ecab4eaf4e8a5c1b6289a.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32121-kloveniersburgwal-87-amsterdam/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.eb2b3f5da3a9d01a9de8900ce535eb62.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.4e25cc7c7007b626df160ea120982ea0.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-kloveniersburgwal-87-amsterdam
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-kloveniersburgwal-87-amsterdam
+
+---
+assetId: aarsgevogelte-kloveniersburgwal-87-amsterdam
+version: "1.0"
+lastModified: "2018-02-15T19:07:17Z"
+url: https://community.simtropolis.com/files/file/32121-kloveniersburgwal-87-amsterdam/?do=download&r=170148
