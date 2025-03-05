@@ -1,0 +1,176 @@
+group: khoianh94
+name: european-bus-and-tram-stops
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: European Bus and Tram Stops
+  description: |-
+    **New: Additional lots with HD bus stops for FARR and some updates are available [here](https://www.simtropolis.com/stex/details.cfm?id=23722).**  
+      
+    This Download contains 15 lots with several bus and tram stops for your city:
+
+    -   Five lots with normal bus stops just like the ones from Maxis, but with higher capacities. They base on two models: The first (made by khoianh) is available in three different colours while the second (made by Fluggi) comes as normal and diagonal version.
+    -   Four lots with bus stops which can be placed on roads. Three of them base on narrower versions of khoianh's normal bus stop models, the forth lot has a simple bench for areas with low congestion.
+    -   Six lots for the tramway (GLR) with the three narrow bus models and two lot sizes (2x1, 3x1) with different capacities.
+
+    khoianh's Models and props are HD rendered to show the maximum amount of details.
+
+    **Dependencies:**
+
+    -   Network Addon Mod (for tram stations)
+
+     
+
+    normal (khoianh)
+
+    normal (Fluggi)
+
+    narrow
+
+    bench
+
+    Tram 2x1
+
+    Tram 3x1
+
+    Lot size:
+
+    1x1
+
+    2x1
+
+    3x1
+
+    Plop cost:
+
+    200 §
+
+    150 §
+
+    100 §
+
+    150 §
+
+    200 §
+
+    Bulldoze cost:
+
+    10 §
+
+    15 §
+
+    10 §
+
+     25 §
+
+    50 §
+
+    Monthly cost:
+
+    15 §
+
+    10
+
+    5 §
+
+    15 §
+
+    20 §
+
+    Capacity:
+
+    3,000
+
+    2,500
+
+    5,000
+
+    2,500
+
+    3,000
+
+    5,000
+
+    Max. Fire Stage:
+
+    10
+
+    Power consumption:
+
+    2 MWh/Month
+
+    1 MWh/Month
+
+    3
+
+    5
+
+    Water consumption:
+
+    1 Gallon/month
+
+    0
+
+    2 Gallons/month
+
+    Air pollution/radius:
+
+    1/1
+
+    1/1
+
+    2/1
+
+    1/1
+
+    Water pollution/rad:
+
+    1/1
+
+    1/1
+
+    1/1
+
+    1/1
+
+    Garbage pollution:
+
+    1/0
+
+    2/0
+  author: khoianh94
+  website: https://community.simtropolis.com/files/file/23417-european-bus-and-tram-stops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a8569421f4c4261ce4cfb49a70cb9fb6-stex-bild1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a8569421f4c4261ce4cfb49a70cb9fb6-stex-bild2.jpg
+dependencies:
+  - khoianh94:european-bus-and-tram-stops-resources
+assets:
+  - assetId: khoianh94-european-bus-and-tram-stops
+    exclude:
+      - "/Models/"
+      - "/Props/"
+
+---
+group: khoianh94
+name: european-bus-and-tram-stops-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models and props for khoianh94's European Bus and Tram Stops
+  author: khoianh94
+  website: https://community.simtropolis.com/files/file/23417-european-bus-and-tram-stops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a8569421f4c4261ce4cfb49a70cb9fb6-stex-bild1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a8569421f4c4261ce4cfb49a70cb9fb6-stex-bild2.jpg
+assets:
+  - assetId: khoianh94-european-bus-and-tram-stops
+    include:
+      - "/Models/"
+      - "/Props/"
+
+---
+assetId: khoianh94-european-bus-and-tram-stops
+version: "1.0"
+lastModified: "2010-02-23T13:19:49Z"
+url: https://community.simtropolis.com/files/file/23417-european-bus-and-tram-stops/?do=download&r=50211
