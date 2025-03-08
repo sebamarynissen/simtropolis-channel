@@ -30,7 +30,7 @@ export default function stylize(doc) {
 
 		// If there's only 1 dependency, inline it - typically for SimFox day and nite.
 		let deps = variant.get('dependencies', true);
-		if (deps && deps.items.length < 2) {
+		if (deps && deps.items.length === 1) {
 			deps.flow = true;
 			deps.get(0, true).type = 'QUOTE_DOUBLE';
 		}
