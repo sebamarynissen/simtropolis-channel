@@ -1,0 +1,31 @@
+group: <owner>
+name: <package-name>
+version: "<version>"
+subfolder: <710-automata>
+info:
+  summary: <one-line summary>
+  description: ""
+  author: ""
+  website: https://community.simtropolis.com/files/file/36757-dsc-elrail-glasgow-subway-tram-version/
+  images: []
+  warning: ""
+  conflicts: ""
+  websites: []
+dependencies: []
+variants:
+  - variant: {}
+    dependencies: []
+    assets:
+      - assetId: <unique-id>
+        include: []
+        exclude: []
+assets:
+  - assetId: <unique-id>
+    include: []
+    exclude: []
+
+---
+assetId: dragonsteincole-dsc-elrail-glasgow-subway-tram-version
+version: "1.0.0"
+lastModified: "2025-03-07T22:49:31Z"
+url: https://community.simtropolis.com/files/file/36757-dsc-elrail-glasgow-subway-tram-version/?do=download&r=206329
