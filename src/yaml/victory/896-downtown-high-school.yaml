@@ -1,0 +1,29 @@
+group: victory
+name: downtown-high-school
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Downtown High School
+  description: |-
+    The Downtown High School provides young Sims all the benefits of the regular High School but is better suited for architectural integration within an urban setting. Built on a 3x2 lot.
+
+    Dependencies:
+
+    [SimCity 4 Buildings as Props](https://community.simtropolis.com/sc4-maxis-files/)
+
+    Staff Edit: Added dependency links.
+  author: Victory
+  website: https://community.simtropolis.com/files/file/896-downtown-high-school/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/03ff84b24c3a89da85915b08c7db745f-downtownhigh1.jpg
+    - https://www.simtropolis.com/objects/screens/0001/03ff84b24c3a89da85915b08c7db745f-downtownhigh2.jpg
+dependencies:
+  - maxis:buildings-as-props
+assets:
+  - assetId: victory-downtown-high-school
+
+---
+assetId: victory-downtown-high-school
+version: "1.0"
+lastModified: "2003-08-01T20:27:44Z"
+url: https://community.simtropolis.com/files/file/896-downtown-high-school/?do=download&r=23467
