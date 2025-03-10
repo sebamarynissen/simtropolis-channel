@@ -1,0 +1,29 @@
+group: aarsgevogelte
+name: stationsweg-26-s-hertogenbosch
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Stationsweg 26, 's-Hertogenbosch
+  description: |-
+    LM
+
+    ![1.jpg.cffff2dabd72bda9447d9b70cd350106.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.cffff2dabd72bda9447d9b70cd350106.jpg)![2.jpg.587ea89e15615ad50b4149323bba6adb.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.587ea89e15615ad50b4149323bba6adb.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/31371-stationsweg-26-s-hertogenbosch/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.155e01db815112ab5875a400ae5f7584.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.197772216a1eb5c0d2526d74e6e406c2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-stationsweg-26-s-hertogenbosch
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-stationsweg-26-s-hertogenbosch
+
+---
+assetId: aarsgevogelte-stationsweg-26-s-hertogenbosch
+version: "1.0"
+lastModified: "2018-02-09T11:16:12Z"
+url: https://community.simtropolis.com/files/file/31371-stationsweg-26-s-hertogenbosch/?do=download&r=170002

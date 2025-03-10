@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: volkshuis-gent
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Volkshuis, Gent
+  description: |-
+    ![D.jpg.6a9371734d0aa4b4583a0754fccd58e9.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_01/D.jpg.6a9371734d0aa4b4583a0754fccd58e9.jpg)![N.jpg.0f12e930d1680e1650df6d8b1ff0c979.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_01/N.jpg.0f12e930d1680e1650df6d8b1ff0c979.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/31400-volkshuis-gent/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/N.jpg.3ebf2f6a24ed7212b262d68779cd24eb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/D.jpg.352b8ca5a7602054925ebd1299788bae.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-volkshuis-gent
+        exclude:
+          - "/DN/"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-volkshuis-gent
+        exclude:
+          - "/MN/"
+
+---
+assetId: aarsgevogelte-volkshuis-gent
+version: "1.0"
+lastModified: "2018-01-25T22:12:08Z"
+url: https://community.simtropolis.com/files/file/31400-volkshuis-gent/?do=download&r=169755

@@ -1,0 +1,29 @@
+group: aarsgevogelte
+name: tuinstraat-72-74-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Tuinstraat 72-74, Tilburg
+  description: |-
+    [![1.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.e1f2ac8d39655cc9f8c2be0feda5b1c3.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.e1f2ac8d39655cc9f8c2be0feda5b1c3.jpg)
+
+    [![2.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.6a3425a3cc0b2252601f9d3177122ba2.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.6a3425a3cc0b2252601f9d3177122ba2.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32120-tuinstraat-72-74-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.9c017de41e60ed5d8612fd5c51cdf2b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.8810a0c48d752f31832bfb9bc7cd5079.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-tuinstraat-72-74-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-tuinstraat-72-74-tilburg
+
+---
+assetId: aarsgevogelte-tuinstraat-72-74-tilburg
+version: "1.0"
+lastModified: "2018-02-11T10:26:44Z"
+url: https://community.simtropolis.com/files/file/32120-tuinstraat-72-74-tilburg/?do=download&r=170070

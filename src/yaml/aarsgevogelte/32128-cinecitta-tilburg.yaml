@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: cinecitta-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Cinecitta, Tilburg
+  description: |-
+    LM
+
+    An old movie theater from Tilburg, where they play a lot of pretentious films.
+
+    ![1.jpg.958809d8bd7b95b6ec97a65c7880fe1f.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.958809d8bd7b95b6ec97a65c7880fe1f.jpg)![2.jpg.339fc042e3207b5da4c425b3fca32d6c.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.339fc042e3207b5da4c425b3fca32d6c.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32128-cinecitta-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.479e96bda8b084b06f312bfabff52868.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.90a28a53bb614c6586cb58063c2ef27d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-cinecitta-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-cinecitta-tilburg
+
+---
+assetId: aarsgevogelte-cinecitta-tilburg
+version: "1.0"
+lastModified: "2018-02-15T13:35:03Z"
+url: https://community.simtropolis.com/files/file/32128-cinecitta-tilburg/?do=download&r=170139

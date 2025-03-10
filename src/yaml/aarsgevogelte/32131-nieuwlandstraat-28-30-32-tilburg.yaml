@@ -1,0 +1,29 @@
+group: aarsgevogelte
+name: nieuwlandstraat-28-30-32-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Nieuwlandstraat 28-30-32, Tilburg
+  description: |-
+    LM
+
+    [![1.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.91d8f80f2368fd178c78ec262f2308d3.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.91d8f80f2368fd178c78ec262f2308d3.jpg)[![2.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.1db8bccef93cddf88816f335d38fb656.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.1db8bccef93cddf88816f335d38fb656.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32131-nieuwlandstraat-28-30-32-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.2faf1208445c09c7ee839a15a2db3313.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.9d2e83b1be52823feaf9d0d74d29fdbc.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-nieuwlandstraat-28-30-32-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-nieuwlandstraat-28-30-32-tilburg
+
+---
+assetId: aarsgevogelte-nieuwlandstraat-28-30-32-tilburg
+version: "1.0"
+lastModified: "2018-02-16T13:29:57Z"
+url: https://community.simtropolis.com/files/file/32131-nieuwlandstraat-28-30-32-tilburg/?do=download&r=170159
