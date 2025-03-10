@@ -1,0 +1,37 @@
+group: victory
+name: academy-awards-theatre
+version: "1.1"
+subfolder: 360-landmark
+info:
+  summary: Academy Awards Theatre
+  description: |-
+    \*UPDATED\* (See Rush Hour notes below) The stars have come out over SimCity tonight and so have the fans, to attend the presentation of the Sim Academy Awards and to get a glimpse of the glitteratti. The Academy Awards Theatre is the home of the "Mayors", a little statue that looks just like you but gives your lucky movie star Sims a status far above the rest. Get your cameras out and get ready for the big night!
+
+    5X5 Landmark Lot
+
+    Free to plop but 10,000 to bulldoze
+
+    Dependencies:
+
+    [SimCity 4 Buildings as Props](https://community.simtropolis.com/sc4-maxis-files/) (bldgprop\_vol1.dat & bldgprop\_vol2.dat)
+
+    Rush Hour Notes: 11/23/03
+
+    I tested this lot in a clean installation of Rush Hour. The only plugins in the folder were bldgprp\_vol1 and vol2 along with the AATheatre lot file downloaded from the LEX today. No other lots or plugins are on my system, anywhere, except those that were on the original cd's (I am working from a clean hard drive). Also installed on the machine is the Lot Editor (downloaded clean today). I hope it works for you as well it does for me.
+
+    Staff Edit: Added dependency link.
+  author: Victory
+  website: https://community.simtropolis.com/files/file/923-academy-awards-theatre/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/95d265d07930824baa369240bd14ef73-awards1.jpg
+    - https://www.simtropolis.com/objects/screens/0017/95d265d07930824baa369240bd14ef73-awards2.jpg
+dependencies:
+  - maxis:buildings-as-props
+assets:
+  - assetId: victory-academy-awards-theatre
+
+---
+assetId: victory-academy-awards-theatre
+version: "1.1"
+lastModified: "2003-08-03T19:41:28Z"
+url: https://community.simtropolis.com/files/file/923-academy-awards-theatre/?do=download&r=23507
