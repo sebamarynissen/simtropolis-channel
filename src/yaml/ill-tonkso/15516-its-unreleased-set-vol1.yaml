@@ -1,0 +1,71 @@
+# TODO - Need ndex:bat-props-frogface-vol01 and nob:texture-pack-vol01
+
+# group: ill-tonkso
+# name: its-unreleased-set-vol1
+# version: "1.0"
+# subfolder: 360-landmarks
+# info:
+#   summary: ITS Unreleased Set Vol1
+#   description: |-
+#     **ITS Unreleased Set Vol1  
+      
+#     **I was going to release this the other day, untill DT and SC4\_Meister did something lol. But this ones genuine.  
+      
+#     It includes several unfinished lots and some BAT models not deemed high enough quality for release.  
+      
+#     Full documentation and list of models available in the ZIP  
+      
+#     Enjoy: ITS
+#   author: ILL Tonkso
+#   website: https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/0012/67c2387a94420c359de0aa68cd381cd7-UnreleasedITSvol1chest.jpg
+#     - https://www.simtropolis.com/objects/screens/0012/67c2387a94420c359de0aa68cd381cd7-UnreleasedITSvol1.jpg
+# dependencies:
+#   - ill-tonkso:its-unreleased-set-vol1-resources
+#   # - ndex:bat-props-frogface-vol01
+#   # - nob:texture-pack-vol01
+#   - bsc:textures-vol01
+#   - bsc:textures-vol02
+#   - bsc:mega-props-gascooker-vol01
+#   - ndex:textures-vol1
+#   - bsc:mega-props-misc-vol02
+#   - ill-tonkso:its-streetset-props
+#   - peg:mtp-super-pack
+# assets:
+#   - assetId: ill-tonkso-its-unreleased-set-vol1
+#     include:
+#       - "\\.SC4Lot$"
+
+---
+group: ill-tonkso
+name: its-unreleased-set-vol1-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: ITS Unreleased Set Vol1
+  description: |-
+    **ITS Unreleased Set Vol1  
+      
+    **I was going to release this the other day, untill DT and SC4\_Meister did something lol. But this ones genuine.  
+      
+    It includes several unfinished lots and some BAT models not deemed high enough quality for release.  
+      
+    Full documentation and list of models available in the ZIP  
+      
+    Enjoy: ITS
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/67c2387a94420c359de0aa68cd381cd7-UnreleasedITSvol1chest.jpg
+    - https://www.simtropolis.com/objects/screens/0012/67c2387a94420c359de0aa68cd381cd7-UnreleasedITSvol1.jpg
+assets:
+  - assetId: ill-tonkso-its-unreleased-set-vol1
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: ill-tonkso-its-unreleased-set-vol1
+version: "1.0"
+lastModified: "2006-04-03T11:00:33Z"
+url: https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/?do=download&r=37609
