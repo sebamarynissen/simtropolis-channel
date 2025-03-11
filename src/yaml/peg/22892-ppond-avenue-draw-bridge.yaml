@@ -1,0 +1,59 @@
+group: peg
+name: ppond-avenue-draw-bridge
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: PPond Avenue Draw Bridge
+  description: |-
+    The old CSK2 Avenue Draw Bridge has been modified for use with the new **PPond Kit**.  They now pull double-duty and can be used both with PPond ploppable water as well as the PPond Canals.
+
+    In addition to adding the new PPond water, the bridge and bridge houses have also been modified and re-textured. They now look a bit more weathered & worn.
+
+    The new lots are the same size (4x3)... and use the same custom timed props that open and close the bridge several times each day. The lot has also been slightly modified so any existing instances of it in your cities should be replopped.
+
+    All other aspects and properties of this are the same as the CSK2 original.
+
+    *\* When the bridges are open, traffic will continue to cross the bridge. Lots such as this can not modify that behavior of the game. However, the traffic has been visually blocked when the bridges are open... so you will not see cars magically flying across open water. When the bridges are closed, you will see traffic crossing the bridge as with any other bridge in the game.*
+
+    The PPond Canals are designed to replace the older CSK2 Canals. Accordingly, this lot directly replaces the original CSK2 Draw Bridge lot. Once the new files are installed, you should remove the old CSK2 Draw Bridge folder and files.
+
+    **\*\* This lot requires the** [PEG\-PPond Canal Kit](https://community.simtropolis.com/files/file/21754-peg-pponds-canal-kit/)  
+    **and ** [PEG PPond Scows](https://community.simtropolis.com/files/file/22893-peg-ppond-scows/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/22892-peg-ppond-avenue-draw-bridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bf65c2637514911b8207bf17596ffc55-product_image-st1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bf65c2637514911b8207bf17596ffc55-product_image-st2.jpg
+dependencies:
+  - peg:ppond-scows
+  - peg:ppond-avenue-draw-bridge-resource
+  - peg:ppond-canal-kit
+assets:
+  - assetId: peg-ppond-avenue-draw-bridge
+    exclude:
+      - "/PEG_PP_DrawBridge-Ave_RESOURCE.dat"
+
+---
+group: peg
+name: ppond-avenue-draw-bridge-resource
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: PPond Avenue Draw Bridge resource
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/22892-peg-ppond-avenue-draw-bridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bf65c2637514911b8207bf17596ffc55-product_image-st1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bf65c2637514911b8207bf17596ffc55-product_image-st2.jpg
+assets:
+  - assetId: peg-ppond-avenue-draw-bridge
+    include:
+      - "/PEG_PP_DrawBridge-Ave_RESOURCE.dat"
+
+---
+assetId: peg-ppond-avenue-draw-bridge
+version: "1.0"
+lastModified: "2009-11-25T01:55:16Z"
+url: https://community.simtropolis.com/files/file/22892-peg-ppond-avenue-draw-bridge/?do=download&r=49491

@@ -1,0 +1,56 @@
+group: peg
+name: csk2-annabellelin-restaurant
+version: "1.1"
+subfolder: 360-landmark
+info:
+  summary: CSK2 Annabellelin Restaurant
+  description: |-
+    ***\*\* This lot is dedicated to our beloved but ailing Annabellelin.  
+    Our prayers are with you, Annabelle.***
+
+    Long ago, they were the greyhounds of the mighty Mississippi River. But time & technology has passed them by and they remain but a memory and icon to a distant era. Very few of the original paddle wheel steam boats remain to this day but the beautiful **Annabellelin** lives on, rescued from the scrap yard and meticulously restored to her original grandeur.
+
+    Enjoying her retirement, the Annabellelin now graces your **CSK2** canals as the swankiest restaurant in town. Limos are a frequent site as they chauffer in the city's elite for an evening of fine dining, dancing & music performed by the finest Jazz artists alive today.
+
+    Although technically a high wealth commercial service lot, The Annabellelin is also a city icon and therefore a major landmark & tourist attraction.
+
+    **This file requires the following dependency:  
+    PEG CSK2**
+
+    **\*\*This file currently contains an .exe installer suitable for windows users.  These files are in the process of being updated with zip files and this message will be removed once the update is complete.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/13666-peg-csk2-annabellelin-restaurant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d3a6d26fac1f528e57c7596f5ec645d1-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d3a6d26fac1f528e57c7596f5ec645d1-product_image2.jpg
+assets:
+  - assetId: peg-csk2-annabellelin-restaurant
+    exclude:
+      - "/PEG_Annabellin_RESOURCE.dat"
+dependencies:
+  - peg:csk2-annabellelin-restaurant-resource
+
+---
+group: peg
+name: csk2-annabellelin-restaurant-resource
+version: "1.1"
+subfolder: 100-props-textures
+info:
+  summary: CSK2 Annabellelin Restaurant resource
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/13666-peg-csk2-annabellelin-restaurant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d3a6d26fac1f528e57c7596f5ec645d1-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d3a6d26fac1f528e57c7596f5ec645d1-product_image2.jpg
+assets:
+  - assetId: peg-csk2-annabellelin-restaurant
+    include:
+      - "/PEG_Annabellin_RESOURCE.dat"
+
+---
+assetId: peg-csk2-annabellelin-restaurant
+version: "1.1"
+lastModified: "2025-03-09T21:46:46Z"
+url: https://community.simtropolis.com/files/file/13666-peg-csk2-annabellelin-restaurant/?do=download&r=206382

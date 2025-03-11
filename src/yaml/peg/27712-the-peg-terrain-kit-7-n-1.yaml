@@ -1,0 +1,85 @@
+group: peg
+name: terrain-kit-7-n-1
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: The PEG Terrain Kit (7 n 1)
+  description: |-
+    **The PEG Terrain Kit (7 n 1)**  
+    **By Pegasus**  
+      
+    This package contains a number of separate files, mainly *Mayor Mode Ploppables* (MMP) that are widely used for terrain detailing.  
+      
+    The number of available files has been continuously growing over the years - causing a steadily growing list of dependencies as well, tedious to keep track of, download one-by-one or having to list them again and again.  
+      
+    To make things easier we decided to organize a selection of these files into one single pack, so for users it will be much easier to download, while producers can just list them as a single dependency. Since most of these files are very slim, we feel this is appropriate - it is not a huge pack to download and it's organized to leave you in full control which items to load into your plugins.  
+      
+      
+    **The 'Kit' bundles the following sets:**  
+      
+    \* [PEG PPond Kit](https://community.simtropolis.com/files/file/21661-peg-ppond-kit/)  
+    \* **PEG PP Lot Editor Terrain Props** (Only available in this package)  
+    \* [PEG PPond Terrain Prop Pack 1](https://community.simtropolis.com/files/file/22701-peg-ppond-terrain-props-pack-1/)  
+    \* [PEG MTP Mayor Mode Forest Scenes](https://community.simtropolis.com/files/file/20916-peg-mtp-mayor-mode-forest-scenes/)  
+    \* [PEG MTP Mayor Mode Flora Mod](https://community.simtropolis.com/files/file/20915-peg-mtp-mayor-mode-flora-mod/)  
+    \* [PEG MTP Mayor Menu Logging Scenes](https://community.simtropolis.com/files/file/20895-peg-mtp-mayor-menu-logging-scenes/)  
+    \* [PEG MTP Mayor Menu Scrub Brush Mod](https://community.simtropolis.com/files/file/20930-peg-mtp-mayor-menu-scrub-brush-mod/)  
+      
+    **NOTICE**  
+      
+    There is **NO NEW MATERIAL** in this package. It is merely a compilation of previously published material. And of course every single component will stay available on the PLEX as well.  
+      
+    So those of you that have been MTP'ing for some time will not need this pack as you most probably have downloaded all the individual sets long time ago... But all folks new to MTP or terrain detailing or even preparing a fresh install might find this useful.  
+      
+    When you unpack this download you'll find a folder 'Documentation' including the following material -  
+      
+    \* complete set of the original ReadMe files with images  
+    \* complete listing of all included files, useful for version control  
+    \* complete listing of URLs pointing to the (still available) individual downloads  
+      ^ Contains a URL\_Individual.txt file which all point to the now lost SimPeg website.  
+    \* a few notes on this or that... ;-)  
+      
+    Store the documentation anywhere outside your Plugins, for future reference...
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.  
+      
+    ![pdt_logo01.png](http://i211.photobucket.com/albums/bb210/abcvs/Pegasus%20Productions/pdt_logo01.png)
+
+    **\-Cori Edit:** Updated linkys to individual packs and mods.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/27712-the-peg-terrain-kit-7-n-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/c40a9ed17c56e4053b91c28d5522fe2b-.jpg
+dependencies:
+  - peg:mtp-mayor-menu-logging-scenes
+  - peg:mtp-mayor-mode-flora-mod
+  - peg:mtp-mayor-mode-forest-scenes
+  - peg:mtp-mayor-menu-scrub-brush-mod
+  - peg:ppond-kit
+  - peg:pppond-lot-props
+  - peg:ppond-terrain-props-pack-1
+assets:
+  - assetId: peg-the-peg-terrain-kit-7-n-1
+
+
+---
+group: peg
+name: pppond-lot-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: PEG PP Lot Editor Terrain Props
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/27712-the-peg-terrain-kit-7-n-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/c40a9ed17c56e4053b91c28d5522fe2b-.jpg
+assets:
+  - assetId: peg-the-peg-terrain-kit-7-n-1
+    include:
+      - "/PEG-PP_Lot-Props_101.dat"
+
+---
+assetId: peg-the-peg-terrain-kit-7-n-1
+version: "1.0"
+lastModified: "2012-06-09T22:34:20Z"
+url: https://community.simtropolis.com/files/file/27712-the-peg-terrain-kit-7-n-1/?do=download&r=102164
