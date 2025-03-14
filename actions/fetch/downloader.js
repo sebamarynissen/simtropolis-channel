@@ -1,13 +1,14 @@
 // # downloader.js
 import path from 'node:path';
 import fs from 'node:fs';
-import { Readable } from 'node:stream';
+import { PassThrough, Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
-import crypto from 'node:crypto';
+import crypto, { createHash } from 'node:crypto';
+import cp from 'node:child_process';
 import { Glob } from 'glob';
 import ora from 'ora';
 import tmp from 'tmp-promise';
-import yauzl from 'yauzl';
+import cd from 'content-disposition';
 import { parseAllDocuments } from 'yaml';
 import { kExtractedAsset, kFileNames, kFileInfo } from './symbols.js';
 import { SimtropolisError } from './errors.js';
@@ -27,18 +28,21 @@ export default class Downloader {
 
 	// ## download(asset)
 	// Downloads an asset url to a temp folder and returns some information 
-	// about it. Subsequently it can be read with yauzl to find the 
-	// metadata.yaml file for example.
+	// about it.
 	async download(asset) {
 		const { url } = asset;
-		const { destination, cleanup } = await this.getDestination(asset);
+		const {
+			destination,
+			cleanup,
+			assetInfoFile,
+		} = await this.getDestination(asset);
 
 		// If we're downloading to the sc4pac cache, we won't download again 
 		// after it has already been downloaded, unless explicitly specified.
 		if (this.cache && await this.exists(destination)) {
 			return {
 				path: destination,
-				type: 'application/zip',
+				assetInfoFile,
 				cleanup,
 				cached: true,
 			};
@@ -56,11 +60,31 @@ export default class Downloader {
 		if (res.status >= 400) {
 			throw new SimtropolisError(res);
 		}
+		const hash = createHash('sha256');
 		const ws = fs.createWriteStream(destination);
-		await finished(Readable.fromWeb(res.body).pipe(ws));
+		const dummy = new PassThrough();
+		dummy.pipe(ws);
+		dummy.pipe(hash);
+		Readable.fromWeb(res.body).pipe(dummy);
+		await Promise.all([
+			finished(ws),
+			new Promise(resolve => hash.on('finish', () => resolve())),
+		]);
+		const sha256 = hash.digest('hex');
+
+		// Now build up the .checked file. We'll store both the filename and the 
+		// checksum in it. Note that the checksum needs to be built up in a 
+		// streamified way as assets can potentially be huge of course.
+		const cdHeader = cd.parse(res.headers.get('Content-Disposition'));
+		const { filename = null } = cdHeader.parameters;
+		const assetInfo = {
+			filename: [filename],
+			checksum: { sha256 },
+		};
+		await fs.promises.writeFile(assetInfoFile, JSON.stringify(assetInfo));
 		return {
 			path: destination,
-			type: res.headers.get('Content-Type') ?? 'application/zip',
+			assetInfoFile,
 			cleanup,
 		};
 
@@ -108,13 +132,26 @@ export default class Downloader {
 	}
 
 	// ## extract(download, destination)
+	// Extracts the downloaded asset using the sc4pac extract command.
 	async extract(download, destination) {
-		switch (download.type) {
-			case 'application/zip':
-				return await this.handleZip(download, destination);
-			default:
-				return null;
-		}
+
+		// The `sc4pac extract` command needs the filename to properly work, so 
+		// we have to read this from the .checked file.
+		const assetInfo = JSON.parse(
+			String(await fs.promises.readFile(download.assetInfoFile)),
+		);
+
+		// Copy the downloaded asset to the temp folder with the correct name.
+		const assetDir = path.join(destination, 'asset');
+		const assetPath = path.join(assetDir, assetInfo.filename[0]);
+		await fs.promises.mkdir(assetDir);
+		await fs.promises.copyFile(
+			download.path,
+			path.join(assetPath),
+		);
+		cp.execSync(`sc4pac extract --output "${destination}" "${assetPath}"`);
+		await fs.promises.unlink(assetPath);
+
 	}
 
 	// ## inspectAsset(dir)
@@ -155,38 +192,6 @@ export default class Downloader {
 		};
 	}
 
-	// ## handleZip(download, destination)
-	async handleZip(download, destination) {
-		let closed = withResolvers();
-		yauzl.open(download.path, { lazyEntries: true }, (err, zipFile) => {
-			if (err) return closed.reject(err);
-			zipFile.once('end', () => closed.resolve());
-			zipFile.on('entry', async entry => {
-				try {
-					if (!entry.fileName.endsWith('/')) {
-						let to = path.join(destination, entry.fileName);
-						let dir = path.dirname(to);
-						await fs.promises.mkdir(dir, { recursive: true });
-						let ws = fs.createWriteStream(to);
-						let rs = await new Promise((resolve) => {
-							zipFile.openReadStream(entry, (err, rs) => {
-								if (err) closed.reject(err);
-								else resolve(rs);
-							});
-						});
-						rs.pipe(ws);
-						await finished(ws);
-					}
-					zipFile.readEntry();
-				} catch (e) {
-					closed.reject(e);
-				}
-			});
-			zipFile.readEntry();
-		});
-		await closed.promise;
-	}
-
 	// ## getDestination(asset)
 	// Returns the destination file we have to write the download to. We use a 
 	// temp folder by default, but you might also want to specify the sc4pac 
@@ -206,6 +211,10 @@ export default class Downloader {
 			await fs.promises.mkdir(dir, { recursive: true });
 			return {
 				destination,
+				assetInfoFile: path.join(
+					dir,
+					`.${path.basename(destination)}.checked`,
+				),
 				cleanup: () => {},
 			};
 		} else {
@@ -214,6 +223,10 @@ export default class Downloader {
 			const destination = path.join(dir.path, info.name);
 			return {
 				destination,
+				assetInfoFile: path.join(
+					dir.path,
+					`.${info.name}.checked`,
+				),
 				cleanup: async () => {
 					await fs.promises.unlink(destination);
 					await dir.cleanup();
