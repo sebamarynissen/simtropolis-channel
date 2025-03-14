@@ -1,0 +1,33 @@
+group: aarsgevogelte
+name: snellenlaan-108-utrecht
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Snellenlaan 108, Utrecht
+  description: |-
+    LM
+
+    I'm sorry for my long absence. Anyway, here is a romantic corner building from the city of Utrecht.
+
+    I did make some adjustments to the roof and I made the building taller.
+
+    ![1.jpg.401ad9e68e70b5e2e3262772dcd6c701.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.401ad9e68e70b5e2e3262772dcd6c701.jpg)![2.jpg.dd66c9daf73ce96c54d116c85399d347.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.dd66c9daf73ce96c54d116c85399d347.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32141-snellenlaan-108-utrecht/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.be69427864d271c61578f0d6374cecc8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.845714ec30bf07c6b97d16ba501dcfbf.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-snellenlaan-108-utrecht
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-snellenlaan-108-utrecht
+
+---
+assetId: aarsgevogelte-snellenlaan-108-utrecht
+version: "1.0"
+lastModified: "2018-02-20T13:40:52Z"
+url: https://community.simtropolis.com/files/file/32141-snellenlaan-108-utrecht/?do=download&r=170209

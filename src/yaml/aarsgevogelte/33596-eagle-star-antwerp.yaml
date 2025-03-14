@@ -1,0 +1,43 @@
+group: aarsgevogelte
+name: eagle-star-antwerp
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Eagle Star - Antwerp
+  description: |-
+    The Eagle Star building from Antwerp (scanline version):
+
+    -   Functional landmark
+    -   Growable (CS$$$)
+
+    Dependencies:
+
+    [BSC Textures Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    [Porkie Props Vol01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    I'm reuploading my buildings in scanline. If you don't like scanline, the mental ray versions are still available as well.
+
+    God help us all.
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/33596-eagle-star-antwerp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/day.jpg.1b40e1f76b288fbb0f670b748ff4d31e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/night.jpg.00963d478998410788fb51016e557450.jpg
+dependencies:
+  - bsc:textures-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-eagle-star-antwerp
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-eagle-star-antwerp
+
+---
+assetId: aarsgevogelte-eagle-star-antwerp
+version: "1.0.0"
+lastModified: "2020-05-11T14:37:03Z"
+url: https://community.simtropolis.com/files/file/33596-eagle-star-antwerp/?do=download&r=180951

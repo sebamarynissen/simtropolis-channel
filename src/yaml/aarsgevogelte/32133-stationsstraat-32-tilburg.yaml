@@ -1,0 +1,29 @@
+group: aarsgevogelte
+name: stationsstraat-32-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Stationsstraat 32, Tilburg
+  description: |-
+    LM
+
+    [![1.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.8547095b0fda1015eafc4dae7b896eca.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.8547095b0fda1015eafc4dae7b896eca.jpg)[![2.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.7321960386a110235237c3ab78e27ef6.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.7321960386a110235237c3ab78e27ef6.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32133-stationsstraat-32-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.037d36bacb86014022321e0db069bc5d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.78617b02a95c201652f8ff80920d830b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-stationsstraat-32-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-stationsstraat-32-tilburg
+
+---
+assetId: aarsgevogelte-stationsstraat-32-tilburg
+version: "1.0"
+lastModified: "2018-02-17T10:52:46Z"
+url: https://community.simtropolis.com/files/file/32133-stationsstraat-32-tilburg/?do=download&r=170165

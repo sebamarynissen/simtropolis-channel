@@ -1,0 +1,42 @@
+group: aarsgevogelte
+name: european-w2w-building-2
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: European W2W building
+  description: |-
+    This is a European W2W building.
+
+    \- LM
+
+    \- CO$$$
+
+    \- No dependencies.
+
+    ![*:ducky:](https://community.simtropolis.com/assets/emoticons/default_40.gif ":ducky:")
+
+    [![D.jpg](https://www.simtropolis.com/objects/attachments/monthly_2016_11/D.jpg.b633e101bf6dc913b255ed2bb28f664d.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2016_11/D.jpg.b633e101bf6dc913b255ed2bb28f664d.jpg)
+
+    [![N.jpg](https://www.simtropolis.com/objects/attachments/monthly_2016_11/N.jpg.f04d100fd2f939d9874becc5d2770666.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2016_11/N.jpg.f04d100fd2f939d9874becc5d2770666.jpg)
+
+    [![D.jpg.b633e101bf6dc913b255ed2bb28f664d.jpg](https://www.simtropolis.com/objects/attachments/monthly_2016_11/D.jpg.b633e101bf6dc913b255ed2bb28f664d.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2016_11/D.jpg.b633e101bf6dc913b255ed2bb28f664d.jpg)
+
+    [![N.jpg.f04d100fd2f939d9874becc5d2770666.jpg](https://www.simtropolis.com/objects/attachments/monthly_2016_11/N.jpg.f04d100fd2f939d9874becc5d2770666.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2016_11/N.jpg.f04d100fd2f939d9874becc5d2770666.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/31386-european-w2w-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Thumbnail.jpg.e1e36697d8deb6055fe0c81bb80b6dcf.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-european-w2w-building-2
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-european-w2w-building-2
+
+---
+assetId: aarsgevogelte-european-w2w-building-2
+version: "1.0"
+lastModified: "2016-11-25T13:21:52Z"
+url: https://community.simtropolis.com/files/file/31386-european-w2w-building/?do=download&r=163937
