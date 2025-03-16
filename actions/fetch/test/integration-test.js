@@ -5,6 +5,7 @@ import mime from 'mime';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
+import cd from 'content-disposition';
 import yazl from 'yazl';
 import { Volume } from 'memfs';
 import action from '../fetch.js';
@@ -118,6 +119,7 @@ describe('The fetch action', function() {
 							zip,
 							{
 								headers: {
+									'Content-Disposition': cd('filename.zip'),
 									'Content-Type': 'application/zip',
 								},
 							},
