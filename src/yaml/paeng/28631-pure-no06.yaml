@@ -1,0 +1,71 @@
+group: paeng
+name: pure-no06
+version: "1.01"
+subfolder: 400-industrial
+info:
+  summary: PURe No06
+  description: |-
+    The *Reese Manufacturing Ltd*. used to be a real dirty, smoke belching industry site. When the sons took over the family business, they retired the smoke stacks, gave the whole building a good scrubbing and turned it into a nice little shopping center to serve the nearby communities.  
+      
+    3x3, commercial ploppable with 94 CS$$ jobs  
+      
+      
+    \* *Based on Reese Manufacturing by JMyers* :-)  
+      
+      
+      
+    **DEPENDENCIES**  
+      
+    [\* Reese Manufacturing](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1517)  
+    Needed: **JFM\_ReeseManufacturing\_Rev17-0x5ad0e817\_0x3493f751\_0x30000.SC4Model**  
+      
+    \* [SimFox TreePack #2](https://community.simtropolis.com/files/file/21640-simfox-treepack-2/)  
+      
+    \* [PURe Basic Pack](https://community.simtropolis.com/files/file/28277-paengs-urban-renewal-pure/)  
+      
+      
+      
+    **DEVELOPER NOTES**  
+      
+    Add the new lot (*06\_Reese-Manufacturing-Ltd*) to your PURe folder.  
+      
+    Copy the *"Needed: ...\*.SC4Model"* dependency to your folder *PURe\_Models*. Store all other files in a safe place outside your Plugins.  
+      
+    Play the game :-)
+
+    **UPDATED:** Sorry, I forgot the custom icon...  
+    \* *You only need to download again if you want that icon* ;-)
+
+    **INSTALLATION**  
+      
+    Unzip to your Plugins.  
+    To uninstall, bulldoze any instance of this lot in your city, then remove the files from your Plugins.  
+      
+      
+      
+    **SUPPORT**  
+      
+    Should you need support for these items please visit the  
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10398.0)  
+      
+      
+      
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28631-paengs-pure-no06/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/424a75a2d8c6e29290a63a5b231aaaff-pure6_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/9a696490b458c4767493bf7d4beca27b-pure6_all.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/c6e995d398bf1ff713ed52bd54eb543a-pure6_nite.jpg
+dependencies:
+  - bsc:mega-props-jmyers-common-props
+  - simfox:urban-renewal-pure
+  - simfox:treepack-vol02
+assets:
+  - assetId: paeng-pure-no06
+
+---
+assetId: paeng-pure-no06
+version: "1.01"
+lastModified: "2013-04-08T21:55:37Z"
+url: https://community.simtropolis.com/files/file/28631-paengs-pure-no06/?do=download&r=113915

@@ -1,0 +1,59 @@
+group: paeng
+name: break-bulk-station
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Break Bulk Station
+  description: |-
+    -   This **Paeng Break Bulk Station** Lot was made by Paeng and originally was uploaded onto the PLEX (or appeared there as a forum attachment) and hasn't been available according to my best knowledge. I made this readme to collect all the dependencies into one place for easier access with updated links.  
+         
+    -   **Please note with the permission of the *Simtropolis Staff Members (Cori & Cyclone Boom)* and *Catty-CB*, this file has been uploaded on behalf of Paeng. It was not available anymore due to the unfortunate demise of SimPeg. All the works in this download were created by Paeng.**  
+         
+    -   **Installation:** Unzip the whole bundle, or COPY the "Paeng" folder from the \*.zip into your plugin folder. You don't need to keep the "Documentation" folder. To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.  
+         
+
+    -   **LIST OF ITEMS:**
+
+    1.  \* 1 4x6 Break Bulk Station lot (landmark with 148 I-D jobs)
+
+    **Dependencies:**
+
+    -   [PEG CDK3 SP SEAPORT SUPER PAK](https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/ "PEG-CDK3-SP_SEAPORT_SUPER-PAK.dat")  (timed cargo)
+    -   [PEG CDK3 SUPER PAK](https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/ "PEG-CDK3_SUPER-PAK_RESOURCE.dat")
+    -   [PEG SPAM Super Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/ "PEG-SPAM_RESOURCE-01_b200.dat")  (vehicles)
+    -   [PEG MTP SUPER RESOURCE PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/ "PEG_MTP_SUPER_RESOURCE_PACK.dat")
+    -   [PEG Security Fencing Kit](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/ "PEG_ChainLinkFence_RESOURCE.dat")
+    -   [NightOwls Diagonal Industrial Fillers and Extenders](https://community.simtropolis.com/files/file/27699-nightowls-diagonal-industrial-fillers-and-extenders/ "Murimk_diag_fillers_extenders_resource.dat")  (Murimk\_diag\_fillers\_extenders\_resource.dat)
+    -   [Paeng's Grunge Concrete Set](https://community.simtropolis.com/files/file/26425-paengs-grunge-concrete-set/ "paeng_Grunge_Concrete_Textures.dat")  (paeng\_Grunge\_Concrete\_Textures.dat)
+    -   [PEG CSK2 Annabellelin Restaurant](https://community.simtropolis.com/files/file/13666-peg-csk2-annabellelin-restaurant/ "PEG_Annabellin_RESOURCE.dat")  (PEG\_Annabellin\_RESOURCE.dat)
+    -   [PEG PPond Scows](https://community.simtropolis.com/files/file/22893-peg-ppond-scows/ "PEG-PP_Scows_RESOURCE_101.dat")
+    -   [PEG PPond Avenue Draw Bridge](https://community.simtropolis.com/files/file/22892-peg-ppond-avenue-draw-bridge/ "PEG_PP_DrawBridge-Ave_RESOURCE.dat")  (PEG\_PP\_DrawBridge-Ave\_RESOURCE.dat)
+    -   [PEG PPonds Canal Kit](https://community.simtropolis.com/files/file/21754-peg-pponds-canal-kit/ "PEG_CSK2-PPOND_RESOURCE.dat")  (PEG\_CSK2-PPOND\_RESOURCE.dat)
+
+    Have fun and enjoy!
+
+    **\- Tyberius06**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/32402-paengs-break-bulk-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b6d8fe7a44f1_smallbreakbulkreadme.jpg.a9220280262b2284c5cedc36829e3ff2.jpg
+dependencies:
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-super-pak
+  - peg:spam-super-resource-pack
+  - peg:mtp-super-pack
+  - peg:security-fencing-kit
+  - murimk:nightowls-diagonal-industrial-fillers-and-extenders-resources
+  - paeng:grunge-concrete-set-resources
+  - peg:csk2-annabellelin-restaurant-resources
+  - peg:ppond-scows
+  - peg:ppond-avenue-draw-bridge-resource
+  - peg:pponds-canal-kit-resource
+assets:
+  - assetId: paeng-break-bulk-station
+
+---
+assetId: paeng-break-bulk-station
+version: "1.0"
+lastModified: "2018-08-10T13:22:02Z"
+url: https://community.simtropolis.com/files/file/32402-paengs-break-bulk-station/?do=download&r=171797
