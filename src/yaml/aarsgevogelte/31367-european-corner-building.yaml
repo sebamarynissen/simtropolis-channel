@@ -24,10 +24,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: aarsgevogelte-european-corner-building
+        exclude:
+        - "/DN/"
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: aarsgevogelte-european-corner-building
+        exclude:
+        - "/MN/"
 
 ---
 assetId: aarsgevogelte-european-corner-building

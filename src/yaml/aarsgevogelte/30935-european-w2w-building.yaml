@@ -22,10 +22,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: aarsgevogelte-european-w2w-building
+        exclude:
+        - "/DN - Pick either this one/"
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: aarsgevogelte-european-w2w-building
+        exclude:
+        - "/MN - or this one/"
 
 ---
 assetId: aarsgevogelte-european-w2w-building

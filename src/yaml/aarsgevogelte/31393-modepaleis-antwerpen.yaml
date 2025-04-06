@@ -27,10 +27,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: aarsgevogelte-modepaleis-antwerpen
+        exclude:
+        - "/DN/"
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: aarsgevogelte-modepaleis-antwerpen
+        exclude:
+        - "/MN/"
 
 ---
 assetId: aarsgevogelte-modepaleis-antwerpen

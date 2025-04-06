@@ -26,10 +26,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: aarsgevogelte-yellow-house-rotterdam
+        exclude:
+        - "/DN - Pick either this one/"
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: aarsgevogelte-yellow-house-rotterdam
+        exclude:
+        - "/MN - or this one/"
 
 ---
 assetId: aarsgevogelte-yellow-house-rotterdam

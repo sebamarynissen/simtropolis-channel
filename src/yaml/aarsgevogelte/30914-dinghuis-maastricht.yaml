@@ -22,10 +22,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: aarsgevogelte-dinghuis-maastricht
+        exclude:
+        - "/DN - Pick either this one/"
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: aarsgevogelte-dinghuis-maastricht
+        exclude:
+        - "/MN - or this one/"
 
 ---
 assetId: aarsgevogelte-dinghuis-maastricht
