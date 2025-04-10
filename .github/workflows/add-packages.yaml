@@ -41,8 +41,6 @@ jobs:
           node-version-file: package.json
       - uses: milliewalky/setup-7-zip@v2
       - run: npm ci
-      - run: echo ${{ github.event.inputs.url }}
-      - run: echo ${{ github.event.inputs.require-metadata }}
       - name: Fetch updated packages from Simtropolis
         id: fetch
         uses: ./actions/fetch
