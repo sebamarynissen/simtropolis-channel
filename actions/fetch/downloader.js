@@ -149,7 +149,7 @@ export default class Downloader {
 			download.path,
 			path.join(assetPath),
 		);
-		const sevenZip = process.env['7Z_EXECUTABLE'];
+		const sevenZip = process.env['7Z_EXECUTABLE'] ?? '7z';
 		cp.execSync(`"${sevenZip}" x "${assetPath}" -o"${destination}"`);
 		await fs.promises.unlink(assetPath);
 

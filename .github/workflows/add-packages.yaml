@@ -39,6 +39,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: package.json
+      - uses: milliewalky/setup-7-zip@v2
       - run: npm ci
       - name: Fetch updated packages from Simtropolis
         id: fetch
