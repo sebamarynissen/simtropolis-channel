@@ -1,0 +1,34 @@
+group: glenni
+name: troll-bridge
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Troll Bridge
+  description: |-
+    Hehe, fitting name for an old stone bridge i guess, here's a bridge model i made in just a few days, it overhangs over the lot, and crosses a 2 tile long gap, be aware that it WILL take some precission and time to place this correctly.
+
+    Dependancies:
+
+    You will need this for the gravel path approaching the bridge.
+    [https://community.simtropolis.com/files/file/13100-meandering-bike-paths/](https://community.simtropolis.com/files/file/13100-meandering-bike-paths/)
+
+    Have fun now!
+
+    * * *
+
+    Mod Edit: Fixed dependency link.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/21627-troll-bridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d9ef3e251ce4aa62a05b0395230650f6-trollbridge1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d9ef3e251ce4aa62a05b0395230650f6-trollbridge2.jpg
+dependencies:
+  - 6459978:meandering-bike-paths-resources
+assets:
+  - assetId: glenni-troll-bridge
+
+---
+assetId: glenni-troll-bridge
+version: "1.0"
+lastModified: "2009-04-29T15:50:03Z"
+url: https://community.simtropolis.com/files/file/21627-troll-bridge/?do=download&r=47635

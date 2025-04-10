@@ -1,0 +1,70 @@
+group: glenni
+name: arud-gata-18
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Arud Gata 18
+  description: |-
+    **NOTICE: This is an old model from late 2005 when my BAT quality wasn't that good, recently rendered,either you take it or leave it!**
+
+    Arud Gata 18:
+
+    Arud Gata 18 was built in Vandals Fjella in the street Arud Gata in 1968. It was originally built for office purposes, but slowly the offices on the ground level moved away and shops replaced it. In 1994, it was in a rather poor shape and was unpopular with the locals because of the very stained and ugly concrete walls it had. All the original businesses had closed down and was replaced with seedy ones. Thankfully, in the same year, the building and the street it was located in underwent renovations. The ugly concrete facade the building once had was now replaced with stone cladding, making it slightly more attractive for people. Now the family friendly shops are back and it now has a DNB Nor office (a banking company in Norway), Free Record Shop (A record store chain in Europe), the well known H&M and Cubus, MIX (A Norwegian store chain), Princess (Home accesories shop chain in Norway), and Dress Mann (Clothing shop chain in Norway), as well as other tenants.
+
+    **Lot Details (growable)**
+
+    Type: Low Density CS$$
+
+    Growth Stage: 3
+
+    Lot Size: 4x2
+
+    Tilesets: Euro
+
+    Capacity Satisfied: CS$: 246, CS$$: 118
+
+    Bulldoze Cost: $382
+
+      **Lot Details (ploppable)**
+
+    Functional: Yes; CS$$
+
+    Capacity Satisfied: CS$: 246, CS$$: 118
+
+    Menu Location: Landmarks
+
+    Custom Icon: Yes
+
+    Custom Query: No
+
+    Wealth: Medium
+
+    Occupant Groups: Building: Landmark, Building: YIMBY, Building: Landmark Ogle
+
+      Building: Commercial, Building: CS$$
+
+    Mayor Rating Effect: E: +10 R: 256
+
+    **Dependencies:**
+
+    [BLaM Glenni prop pack](https://community.simtropolis.com/files/file/17578-blam-glenni-prop-pack/)
+
+    [BLaM Overpath Props Volume 1](https://community.simtropolis.com/files/file/18253-blam-overpath-props-volume-1/)
+
+    2014-07-15 - Prens: Fixed broken description + added tags.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/18379-blam-arud-gata-18/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/0310ea28fc177637db8ab38d07471793-blam_arudgata_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/06e95ab4873de102aa885bbf215b606c-blam_arudgata_stex2.jpg
+dependencies:
+  - ndex:glenni-mega-props-vol01
+  - onlyplace4:blam-overpath-props-vol01
+assets:
+  - assetId: glenni-arud-gata-18
+
+---
+assetId: glenni-arud-gata-18
+version: "1.0"
+lastModified: "2007-07-04T02:09:29Z"
+url: https://community.simtropolis.com/files/file/18379-blam-arud-gata-18/?do=download&r=138658

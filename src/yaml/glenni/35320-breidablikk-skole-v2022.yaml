@@ -1,0 +1,76 @@
+group: glenni
+name: breidablikk-skole-v2022
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Breidablikk Skole V2022
+  description: |-
+    Another old BLaM release I wanted to touch up on.
+    Based on a real school building in my hometown - Haugesund, Norway. Using the same name.
+    I wasn't quite happy with the old model, the windows were too dark, I made the wall textures a little too plain, etc.
+    One of the main issues were that the dark windows blended into the red window frames, making the entire window look burgundy.
+    Ew.
+    it was also infamous for having an immortal building bug, meaning it couldn't be demolished properly, even if you tried. ![o.O](https://community.simtropolis.com/assets/emoticons/default_47.gif "o.O")
+
+    The game screams for more urban schools.
+    So here's my second attempt, more details, and more of an effort to make it fit with the Maxis buildings.
+    Even with the graininess everything from maxis tends to have. ![:P](https://community.simtropolis.com/assets/emoticons/LlamaTounge.gif ":P")
+
+    Comes in two variants, elementary school, and a high school.
+
+    Elementary School:
+
+    Lot Size: 3x2
+    Plop Cost: 1550
+    Bulldoze Cost: 150
+    Monthly Cost: 1200 400
+    Pollution at Center and radii: Air: 3/2, Water: 2/3, Garbage:1/0,
+    Flammability: 32
+    Max Fire Stage: 4
+    Power Consumed: 7
+    Water Consumed: 24
+    Student Capacity: 2300
+    School Coverage Radius: 624
+    School EQ boost: 24
+    Demand Created: 65$ 21$$ 0$$$
+
+    High School:
+
+    Lot Size: 3x3
+    Plop Cost: 1800
+    Bulldoze Cost: 130
+    Monthly Cost: 1300 200
+    Pollution at Center and radii: Air: 3/2, Water: 2/3, Garbage:1/0,
+    Flammability: 32
+    Max Fire Stage: 4
+    Power Consumed: 7
+    Water Consumed: 25
+    Student Capacity: 1250
+    School Coverage Radius: 576
+    School EQ boost: 24
+    Demand Created: 36$ 12$$ 0$$$
+
+    Dependencies:
+    BSC MEGA Props - DAE Vol01
+
+    Credits:
+    Tyberius06 for modding. I just don't feel confident with putting stuff in the game, and possibly breaking it (after all, that happened last time)
+    So it helps to have people that don't mind helping. ^^
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/35320-breidablikk-skole-v2022/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/Breidablikk-1.jpg.bf601f2f925c7b6d64375a74341c96ca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/Breidablikk-2.jpg.8e4b4d04b616ce562342921981782dcf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/Breidablikk-3.jpg.28233f4d41ae52f6a682c9875dea4fe9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/Breidablikk-4.jpg.a38d867db3111d01ef8523061bf87db0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/breidablikk2022_Bright4.png.a33aabbfe9cd8410ca4f1376ddc9820c.png
+dependencies:
+  - bsc:mega-props-dae-vol01
+assets:
+  - assetId: glenni-breidablikk-skole-v2022
+
+---
+assetId: glenni-breidablikk-skole-v2022
+version: "1.0.0"
+lastModified: "2022-11-07T21:41:10Z"
+url: https://community.simtropolis.com/files/file/35320-breidablikk-skole-v2022/?do=download&r=195543

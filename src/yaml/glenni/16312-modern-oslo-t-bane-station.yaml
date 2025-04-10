@@ -1,0 +1,55 @@
+group: glenni
+name: modern-oslo-t-bane-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Oslo T Bane station
+  description: |-
+    Oslo T-bane is the metro system we have in Oslo,Norway ,this one is fictional but i am pretty sure you can find some pretty similar ones arround in Oslo.
+
+    dependencies:
+
+    NONE
+
+    Stats:
+
+    Monthly Cost: $5
+
+    Capacity: 4500
+
+    Cost to plop: $100
+
+    Bulldoze cost: $100
+
+    Water: 0
+
+    Power: 4
+
+    Garbage: 2
+
+    Credits:
+
+    For Modding: Shadow Assasin
+
+    For Lotting: Shadow Assasin
+
+    For Testing: Shadow Assasin.
+
+    For Rendering: Dragonanime!
+
+    well that's it people , enjoy!
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/16312-blam-modern-oslo-t-bane-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ee63446aa89ecebe741c83b003f3e49f-t-banesteximg01.jpg
+    - https://www.simtropolis.com/objects/screens/0026/ee63446aa89ecebe741c83b003f3e49f-t-banenightlight.jpg
+assets:
+  - assetId: glenni-modern-oslo-t-bane-station
+    exclude:
+     - "/TBane-UI.dat" # Malformed DBPF file (its a custom query)
+
+---
+assetId: glenni-modern-oslo-t-bane-station
+version: "1.0"
+lastModified: "2006-07-03T10:23:49Z"
+url: https://community.simtropolis.com/files/file/16312-blam-modern-oslo-t-bane-station/?do=download&r=38925

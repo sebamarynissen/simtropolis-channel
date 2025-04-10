@@ -1,0 +1,40 @@
+group: glenni
+name: lambda-arts-college
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: LAMBDA Arts college
+  description: |-
+    Here's an old model i made in 2006, which i decided to finish now.
+
+    I lost most of the textures that was already on it, so i decided to texture it with slightly better textures than the what ir originally had.
+
+    Anyway...
+
+    It's name is LAMBDA, and it's now an arts college (not possible in SC4, so it functions as a normal college)
+    it was originally supposed to be a residential/office, but well.. i though it would be a bit too unique looking for being RCI.
+
+    Capacity is 2000, otherwise all stats are default SC4 Plugin manager.
+
+    **Dependencies:**
+
+    [BSC Mega Props - DAE Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)
+    [NDEX Glenni Mega Props Vol01](https://community.simtropolis.com/files/file/19096-ndex-glenni-mega-props-vol01/)
+
+    Enjoy!
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/22937-lambda-arts-college/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3a1ddf48406f9f3dd4a593d970f03dd0-LAMBDA1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3a1ddf48406f9f3dd4a593d970f03dd0-LAMBDA2.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - ndex:glenni-mega-props-vol01
+assets:
+  - assetId: glenni-lambda-arts-college
+
+---
+assetId: glenni-lambda-arts-college
+version: "1.0"
+lastModified: "2009-12-06T07:38:41Z"
+url: https://community.simtropolis.com/files/file/22937-lambda-arts-college/?do=download&r=49555

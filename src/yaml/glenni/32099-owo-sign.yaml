@@ -1,0 +1,35 @@
+group: glenni
+name: owo-sign
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: OwO Sign
+  description: |-
+    *Notices ur financial district, OwO wats diss~*
+
+    Kill me, just kill me. See, this is what happens when jokes about creating BATs in simtropolis chat go too far, y'all are all guilty.
+
+    Standard Landmark stats. 3x1 size. Go make papa proud ,and  meme up your cities.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/32099-owo-sign/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/owosign222.jpg.aed0e00e41e7b2399eb3c81feed89482.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/owosign333.jpg.5bd09a09cff842caa43b368b6c1a46ae.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: glenni-owo-sign
+        exclude:
+          - /Glenni-OwOSign-Darknite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: glenni-owo-sign
+        exclude:
+          - /Glenni-OwOSign-Maxisnite/
+
+---
+assetId: glenni-owo-sign
+version: "1.0"
+lastModified: "2018-01-31T20:58:30Z"
+url: https://community.simtropolis.com/files/file/32099-owo-sign/?do=download&r=169890

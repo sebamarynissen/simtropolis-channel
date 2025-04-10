@@ -1,0 +1,68 @@
+group: glenni
+name: gasol-branch-office
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BLaM Gasol Branch office
+  description: |-
+    This is a branch office for the Gasol Corporation Tower that Fukuda made, don't misunderstand
+
+    what i just typed though, it is my model not Fukuda's. it is CO$$/££/€€ and holds 1800 workers.
+
+    Stats:
+
+    Growable:
+
+    Bulldoze cost: 1329
+
+    Air Pollution: 35
+
+    Water Pollution: 35
+
+    Garabge: 15
+
+    Power Consumed: 60
+
+    Flammability: 20
+
+    Max Fire Stage: 5
+
+    Worth(damage costs after a disaster) : 900
+
+    Style: Euro
+
+    Water Consumed: 1800
+
+    Lot size 5x4 ( this should prevent it from popping up to often)
+
+    Landmark: Same lot size all other stats are like default.
+
+    dependencies:
+
+    [Jestarr's Mega Prop pack](https://www.simtropolis.com/stex/index.cfm?id=14861)
+
+    [Porkissimo Street props](https://www.simtropolis.com/stex/index.cfm?id=11421)
+
+    BATting,LOTting and MODding all done by me.
+
+    Enjoy people.
+
+    And don't forget to visit [simcities.com](http://www.simcities.com/main.php)
+
+    the home of BLaM.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/17111-blam-gasol-branch-office/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/535ef98445ce664b8dffa613a581e8ef-1Gasoltowerday.JPG
+    - https://www.simtropolis.com/objects/screens/0010/535ef98445ce664b8dffa613a581e8ef-1Gasoltowernight.JPG
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: glenni-blam-gasol-branch-office
+
+---
+assetId: glenni-blam-gasol-branch-office
+version: "1.0"
+lastModified: "2006-10-17T11:49:48Z"
+url: https://community.simtropolis.com/files/file/17111-blam-gasol-branch-office/?do=download&r=40153

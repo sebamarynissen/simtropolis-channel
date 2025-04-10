@@ -1,0 +1,81 @@
+group: glenni
+name: rabinowitz-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: BLaM Rabinowitz Apartments
+  description: |-
+    This building is a near accurate recreation of a new apartment building
+
+    under construction in Haugesund,Norway .So far all the uppers floors are up and ready
+
+    but the first floor is barely even started, [here's a picture of it under construction](http://i80.photobucket.com/albums/j179/Glenni91/DSC00322.jpg).
+
+    Now, i know you are probably going to complain about the textures beeing to clean or whatever,
+
+    this is supposed to look like it's brand new, so of course i made the textures rather clean,compared
+
+    to the buildings ive made before that were always dirty looking and miserable.
+
+    Stats:
+
+    R$$ building with 80 residents.
+
+    Bulldoze Cost: 273
+
+    140 residents when degraded
+
+    Pollution At Centre:
+
+    Air: 3
+
+    Water: 3
+
+    Garbage: 13
+
+    Power Consumed: 2
+
+    Flammability: 40
+
+    Construction Time: 50
+
+    Max Fire Stage: 3
+
+    POllution Radius:
+
+    Air: 5
+
+    Water: 6
+
+    Worth: 500
+
+    Crane Hints: Outer then inner crane
+
+    Water Consumed: 15
+
+    Stage: 5
+
+    dependencies:
+
+    [PORKIE PROPS VOL1 EUROPEAN STREET ACCESSORIES](../../stex/index.cfm?page=1&keyword=porkie&type=all#)
+
+    Larger pictures:
+
+    [Day](http://i80.photobucket.com/albums/j179/Glenni91/1Rabinowitz_apts.jpg)
+
+    [Night](http://i80.photobucket.com/albums/j179/Glenni91/1Rabinowitz_apts_night.jpg)
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/17218-blam-rabinowitz-aprtments/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3e4bf968f0b49cf81e955a81c5e8e31e-1Rabinowitz_apts.JPG
+    - https://www.simtropolis.com/objects/screens/0008/3e4bf968f0b49cf81e955a81c5e8e31e-1Rabinowitz_apts_night.JPG
+assets:
+  - assetId: glenni-blam-rabinowitz-apartments
+dependencies:
+  - porkissimo:jenx-porkie-expanded-porkie-props
+
+---
+assetId: glenni-blam-rabinowitz-apartments
+version: "1.0"
+lastModified: "2006-11-02T13:19:51Z"
+url: https://community.simtropolis.com/files/file/17218-blam-rabinowitz-aprtments/?do=download&r=40341

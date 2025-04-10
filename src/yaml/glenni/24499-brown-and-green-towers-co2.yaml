@@ -1,0 +1,56 @@
+group: glenni
+name: brown-and-green-towers-co2
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Brown & Green Towers CO2
+  description: |-
+    Yet another old model fixed and made more presentable, inspired by many buildings from here from the 50's and early 60's.
+    Main cues are the Zig Zag lines, otherwise a pretty drab and ugly building.  There's also a second version with a different colour.
+
+    Stats:
+    Commercial office $$
+    Lotsize:
+    Urban 2x2
+    Suburban 3x4
+    Power useage: 5
+    Water useage: 5
+    \# of occupants: 1700
+
+    No Landmark, too lazy, just use [Extra cheats DLL by Buggi to plop the
+    growable like you would plop an Lm with jobs](https://www.simtropolis.com/stex/details.cfm?id=21118).
+
+    dependencies:
+    **Deadwoods props vol 1 DAE**
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=475](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)  (Suburban only, if you want Urban only you can choose to not download this)
+
+    **BSCBATPropsMattb325\_Vol02**
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+    **Glenni mega props**
+    [https://www.simtropolis.com/STEX/details.cfm?id=19096](https://www.simtropolis.com/stex/details.cfm?id=19096)  (needed on all 4)
+
+    **NDEX Parking Lots:**
+    [https://community.simtropolis.com/files/file/12774-ndex\-parking-lots-by-ardecila/](https://community.simtropolis.com/files/file/12774-ndex-parking-lots-by-ardecila/) (Only needed on suburban)
+
+    Install to mydocuments\\SimCity 4\\plugins
+
+    Enjoy!
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24499-brown-green-towers-co2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/246b722fa15d075d9df02a8f12164ff6-browngreen-release1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/28758c609686fe48e6a43ce0bb010377-browngreen-release2.jpg
+dependencies:
+  - ndex:parking-lot-textures
+  - ndex:glenni-mega-props-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-dae-vol01
+assets:
+  - assetId: glenni-brown-and-green-towers-co2
+
+---
+assetId: glenni-brown-and-green-towers-co2
+version: "1.0"
+lastModified: "2010-07-24T23:07:27Z"
+url: https://community.simtropolis.com/files/file/24499-brown-green-towers-co2/?do=download&r=128109

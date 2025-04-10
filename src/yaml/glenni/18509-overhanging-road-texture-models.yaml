@@ -1,0 +1,75 @@
+group: glenni
+name: overhanging-road-texture-models
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Overhanging road texture models on 2x1 lots
+  description: |-
+    **( Please look at the bigger images before rating!And if you don't like the idea/ lots please don't flame...)**
+    These are 2x1 lots, with overhanging models hanging over ONE tile in each END.
+    They were inspired by j-dub's set. There are 4 different models.
+    Euro/ One way worn
+    Yellow stripes worn
+    Euro/ One way very worn down
+    Cobblestone road
+
+    Stats:
+
+    All standard plugin manager stats, xcept for the capacity,
+    these work as bus stops, and i made the capacity to 1000 000.
+    In order to not clog your roads up completely.
+    How-to-do:
+
+    Each lot is a 2x1 lot, you place them TWO tiles AWAY from each one.
+    And drag your road /one way road through it.
+    Don't put them one tile away from each other, that can cause some visual glitches.
+
+    These were only made to match the [euro asphalt mod](https://www.simtropolis.com/stex/index.cfm?id=17351), linked to here, if you want this to match your
+    existing sidewalk texture mod, you'll need to re-lot them by yourself.
+
+    Don't do this;
+
+    1:
+    Don't put them on hills, it will end up looking weird and buggy.
+
+    1:
+    Don't put them 1 tile away from each other, each lot need to be 2 tiles away from each other.
+
+    Some side affects:
+    According to Jplumbley this old and outdated method can cause some mess ups in the pathing.
+    So be aware of that,don't put it dense areas.
+
+    Some bugs:
+    The cobblestone texture can sometimes get weird errors if placed near buildings,
+    Not all of them match 100% with the road surface, i needed to raise some of the models,
+    in order to not get ugly diagonal lines on the models, you decide what's worst, not matching 100% with the network,
+    or hideous jagged lines all over the model.
+    you decide what's worst...
+
+    dependencies:
+    [These can work without this mod, but if you want the sidewalk to match, and can't or don't bother to re-lot
+    download this:](https://community.simtropolis.com/files/file/17351-euro-asphalt-sidewalk/)
+
+    More pics:
+    [1](http://i80.photobucket.com/albums/j179/Glenni91/BAT%20pics/Roadlots1-6.jpg)
+    [2](http://i80.photobucket.com/albums/j179/Glenni91/BAT%20pics/Roadlots1-5.jpg)
+    [3](http://i80.photobucket.com/albums/j179/Glenni91/BAT%20pics/Roadlots1-4.jpg)
+    [4](http://i80.photobucket.com/albums/j179/Glenni91/BAT%20pics/Roadlots1-2.jpg)
+    [5](http://i80.photobucket.com/albums/j179/Glenni91/BAT%20pics/Roadlots1-1.jpg)
+
+    2014-07-28 - Prens: Updated links.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/18509-overhanging-road-texture-models-on-2x1-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/d6ff5546e8ab252bc3ce71def7ff1760-roadlots1-4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/f5241a6fe8a7123eb9db3942ded8993d-roadlots1-5.jpg
+dependencies:
+  - sap23:euro-asphalt-sidewalk
+assets:
+  - assetId: glenni-overhanging-road-texture-models-on-2x1-lots
+
+---
+assetId: glenni-overhanging-road-texture-models-on-2x1-lots
+version: "1.0"
+lastModified: "2007-08-03T17:13:08Z"
+url: https://community.simtropolis.com/files/file/18509-overhanging-road-texture-models-on-2x1-lots/?do=download&r=138649
