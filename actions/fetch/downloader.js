@@ -149,7 +149,8 @@ export default class Downloader {
 			download.path,
 			path.join(assetPath),
 		);
-		cp.execSync(`sc4pac extract --output "${destination}" "${assetPath}"`);
+		const sevenZip = process.env['7Z_EXECUTABLE'];
+		cp.execSync(`"${sevenZip}" x "${assetPath}" -o"${destination}"`);
 		await fs.promises.unlink(assetPath);
 
 	}
