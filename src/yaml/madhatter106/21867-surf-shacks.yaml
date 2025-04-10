@@ -1,0 +1,54 @@
+group: madhatter106
+name: surf-shacks
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Surf Shacks
+  description: |-
+    Dude, let's hit the surf and snag some heavies! Serving the local dudes, honeys, and bunnies, as well as the usual groms, quimbies, shark biscuits, Barneys, Stus, kooks, hodads and namers, here are three growable surf shacks with a total of eight lots where you can hook up with the dawn patrol, add to your quiver, or ditch your stick with the dinged nose for a new tubular thruster. Or maybe you need some shorties, steamers, beaver tails, baggies, Pendletons, and leashes to totally impress while you hotdog it toes-on-the-nose and shoot the curl mondo "Walter style." Included in this pack are the following establishments...  
+      
+    ***Kahuna Kip's Surf Shack  
+    Cowabunga Board Rentals  
+    Sam's Old School Surf 'n' Supply***  
+      
+    The first two are CS$ growth stage 1 to 2, while the third is CS$$ growth stage ranging from 1 to 3. All are growables which require Peg's ***MTP Theme Pack*** (a dependency common in a lot of my uploads), as well as the included .dat file of custom VW bus props. The majority are on 1x1 and 1x2 lots, with stats modded in accordance with prior releases.  
+      
+    Thanks for downloading and enjoying these, as well as my other lots. Just don't be a bogus dork and drop in on my epic bomb, bro. You'll end up with an off-the-Richter sand facial or a Neptune cocktail, and then you'll be selling Buicks all over your gnarly new steamer, *fer sure*. Whoa, I think there's a Noah up ahead...  
+      
+    Mod edit 19th February 2017: fixed formatting
+  author: madhatter106
+  website: https://community.simtropolis.com/files/file/21867-surf-shacks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/77dcfebe19b9fcfa8f32420e78eddab9-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/00239badc06795060642db9c2d5fb88b-.jpg
+dependencies:
+  - madhatter106:surf-shacks-models
+  - peg:mtp-super-pack
+assets:
+  - assetId: madhatter106-surf-shacks
+    exclude:
+      - "\\.SC4Model$"
+
+
+---
+group: madhatter106
+name: surf-shacks-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=madhatter106:surf-shacks`
+  author: madhatter106
+  website: https://community.simtropolis.com/files/file/21867-surf-shacks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/77dcfebe19b9fcfa8f32420e78eddab9-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/00239badc06795060642db9c2d5fb88b-.jpg
+assets:
+  - assetId: madhatter106-surf-shacks
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: madhatter106-surf-shacks
+version: "1.0"
+lastModified: "2009-06-16T03:01:28Z"
+url: https://community.simtropolis.com/files/file/21867-surf-shacks/?do=download&r=100266

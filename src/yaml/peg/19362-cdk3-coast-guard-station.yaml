@@ -1,0 +1,67 @@
+group: peg
+name: cdk3-coast-guard-station
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: CDK3 Coast Guard Station
+  description: |-
+    The Coast Guard has finally come to SimCity. This CDK3 conditional reward is similar to the game-default military bases but with less poillution and no increased crime... and a lot more panache.
+
+    No expense was spared in this 10x5 mega-lot that weighs in at nearly 5 megs. The lot is comprised of 7 nite-lit primary models and countless other custom props including boats, helocopters, static and animated coast guard personnel. The lot is extensively nite-lit, has transit enabled driveways... and includes a qustom query and query sound effect.
+
+    Three different types of Search & Rescue choppers will come and go throughhout the day. The main security gates will also open and close as the station shuts down for the night and reopens in the morning.
+
+    The lot is a conditional reward... yet is only available in the Water Transportation menu along with the other CDK3 specialty lots. It is fairly easy to earn. The requirements as well as your current status are displayed in the menu icon description. Alternately, you can earn the reward by completing the good Fishing Boat mission. (or just use the You Don't Deserve It cheat).
+
+    \* Although the lot is decidedly styled after the US Coast Guard, it is not intended to be specific to any one real-world nation. It is commonly depicted and referrenced as "Coast Guard Service" (not US Coast Guard) and the flag is a One Flag - Many Nations (OFMN) prop so the player can easily select any national flag to be flown.
+
+    \* All custom models and props used in these lots have been optimized for reduced file size and game resource usage.
+
+    **\*\* This requires the following dependencies:**
+
+    PEG\-CDK3 Resource Pack 1 ( PEG\-CDK3\_Resource-Pack\_01.dat )  
+    Included in: [PEG CDK3 SUPER PAK](https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/)  
+    [PEG Security Fencing Kit](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)
+
+    Optional: [One Flag - Many Nations (OFMN) Mod](https://community.simtropolis.com/files/file/27711-peg-one-flag-many-nations-mod/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made dep linkys clickable.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19362-peg-cdk3-coast-guard-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/682e3fcf6065b81d8a7631fd4a0972ae-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/682e3fcf6065b81d8a7631fd4a0972ae-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:one-flag-many-nations
+  - peg:security-fencing-kit
+  - peg:cdk3-coast-guard-station-resource
+assets:
+  - assetId: peg-cdk3-coast-guard-station
+    exclude:
+      - "RESOURCE"
+
+---
+group: peg
+name: cdk3-coast-guard-station-resource
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Props and models for `pkg=peg:cdk3-coast-guard-station`
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19362-peg-cdk3-coast-guard-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/682e3fcf6065b81d8a7631fd4a0972ae-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/682e3fcf6065b81d8a7631fd4a0972ae-product_image1.jpg
+assets:
+  - assetId: peg-cdk3-coast-guard-station
+    include:
+      - "RESOURCE"
+
+---
+assetId: peg-cdk3-coast-guard-station
+version: "1.0"
+lastModified: "2008-02-12T17:45:26Z"
+url: https://community.simtropolis.com/files/file/19362-peg-cdk3-coast-guard-station/?do=download&r=44019

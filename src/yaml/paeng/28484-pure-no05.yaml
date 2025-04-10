@@ -1,0 +1,62 @@
+group: paeng
+name: pure-no05
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: PURe No05
+  description: |-
+    The Stone Ground Mustard Factory, long known for their "spicy, tangy, and rather gritty delight" has moved to a new location. The buildings they left behind were lovingly restored and turned into spacious lofts.
+
+    3x4, residential growable for 196 R$$ (stage 6, any density or tile-set).
+
+    3x4, commercial ploppable with 160 CO$$ jobs
+
+    \* *Based on JES Stone Ground Mustard Factory building* ;-)
+
+    **DEPENDENCIES**
+
+    \* [The StoneGround Mustard Factory](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=244)
+
+    Needed: **jes\_StoneGroundMustard-0x5ad0e817\_0x51d4c59f\_0x30000.SC4Model**
+
+    \* [PURe Basic Pack](https://community.simtropolis.com/files/file/28277-paengs-urban-renewal-pure/)
+
+    **DEVELOPER NOTES**
+
+    Add the new lot (*05\_StoneGround*) to your PURe folder. You may opt to use both the growable and the ploppable, or just one of them.
+
+    Copy the "*Needed: ...\*.SC4Model*" dependency to your folder *PURe\_Models*. Store all other files in a safe place outside your Plugins.
+
+    Play the game :-)
+
+    **INSTALLATION**
+
+    Unzip to your Plugins.
+
+    To uninstall, bulldoze any instance of this lot in your city, then remove the files from your Plugins.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10398.0)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28484-paengs-pure-no05/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/95ea36a5b6acf479bcf69b09634b1243-pure5-01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/0d444bb8c33d24ce4e4011897a405769-pure5-02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/4c581c67687a0f7ef0607d366893eacc-pure5-03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/9810b0bfc1b691a29cd45525486c4cb3-pure5-04.jpg
+dependencies:
+  - paeng:urban-renewal-pure
+  - bsc:mega-props-jes-vol03
+assets:
+  - assetId: paeng-pure-no05
+
+---
+assetId: paeng-pure-no05
+version: "1.0"
+lastModified: "2013-02-18T17:01:01Z"
+url: https://community.simtropolis.com/files/file/28484-paengs-pure-no05/?do=download&r=112027

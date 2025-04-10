@@ -1,0 +1,66 @@
+group: jaystimson
+name: seawalls-v3
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: JS Seawalls V3
+  description: |-
+    This set functions like V2 (requires use of the "setsealevel" cheat) but is different (and better) due to the following features:
+
+    1\. The use of prop family IDs for the **ortho\_1x and diag\_1x** lots to avoid the repeating texture problem when building long stretches.
+
+    2\. Resized prop exemplars which allow mayor-mode flora to be placed on the ground (grass) section of the diag and ortho-to-diag pieces.
+
+    3\. A new texture.
+
+    All the details, list of lots, how to use, etc. ... are in the readme file. Please read.
+
+    1\. Lots are located in your Landmark Menu near or at the bottom.
+
+    2\. All lots have minimal Landmark and Park effect.
+
+    3\. Plop Cost = $1, Monthly Budget Amount = $1. (A super deal from Walmart)
+
+    There are no dependencies.
+
+    For those who want to avoid using the "setsealevel" cheat so you don't have to rebuild your bridges and tunnels,
+
+    I've posted an "how to" in the forums at:
+
+    [https://community.simtropolis.com/forums/topic/31448-js-seawalls-v2/](https://community.simtropolis.com/forums/topic/31448-js-seawalls-v2/)
+
+    If you have any difficulties, PM me. (Or post in the forums)
+
+    \- JS
+  author: JayStimson
+  website: https://community.simtropolis.com/files/file/24794-js-seawalls-v3/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8f495f2114530c35297f8375d48f723f-JS_Seawalls_V3_SS.jpg
+assets:
+  - assetId: jaystimson-js-seawalls-v3
+    exclude:
+      - "/JS_C_Walls_V3_Props.dat"
+dependencies:
+  - jaystimson:seawalls-v3-props
+
+---
+group: jaystimson
+name: seawalls-v3-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Props used by `pkg=jaystimson:seawalls-v3`
+  author: JayStimson
+  website: https://community.simtropolis.com/files/file/24794-js-seawalls-v3/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8f495f2114530c35297f8375d48f723f-JS_Seawalls_V3_SS.jpg
+assets:
+  - assetId: jaystimson-js-seawalls-v3
+    include:
+      - "/JS_C_Walls_V3_Props.dat"
+
+---
+assetId: jaystimson-js-seawalls-v3
+version: "1.0"
+lastModified: "2010-09-04T06:42:48Z"
+url: https://community.simtropolis.com/files/file/24794-js-seawalls-v3/?do=download&r=52229

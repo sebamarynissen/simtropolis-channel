@@ -1,0 +1,61 @@
+group: paeng
+name: pure-no07
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: PURe No07
+  description: |-
+    The *Wood's Paper Products* went out of business quite some time ago. After standing empty for some years it was finally sold to a development company which completely re-structured the inner core and turned it into mid-wealth condominiums.
+
+    The ground floor houses some health food stores and on the old yard a small market with fresh produce is held twice a week.
+
+    3x4, residential growable for 298 R$$ (stage 5, any density or tile-set)  
+    and/or  
+    3x4, commercial ploppable with 322 CO$$ jobs
+
+    \* *Based on Wood's Paper Products by Jestarr* :-)
+
+    **DEPENDENCIES**
+
+    -   [Wood's Paper Products](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1455)  
+        Needed: **jes\_WoodsPaperProducts-0x5ad0e817\_0xf4900b21\_0x30000.SC4Model**
+    -   [WMP Mega Textures v1.02](https://community.simtropolis.com/files/file/33626-wmp-mega-textures-v102/) 
+    -   [SimFox TreePack #2](https://community.simtropolis.com/files/file/21640-simfox-treepack-2/)
+    -   [PURe Basic Pack](https://community.simtropolis.com/files/file/28277-paengs-urban-renewal-pure/)
+
+    **DEVELOPER NOTES**
+
+    -   Add the new lot (*07\_The\_Woods*) to your PURe folder.
+    -   Copy the *"Needed: ...\*.SC4Model"* dependency to your folder *PURe\_Models*. Store all other files in a safe place outside your Plugins.
+    -   Play the game :-)
+
+    **INSTALLATION**
+
+    Unzip to your Plugins.
+
+    To uninstall, bulldoze any instance of this lot in your city, then remove the files from your Plugins.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10398.0)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28738-paengs-pure-no07/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/b440dcd31808046c6d3bf13c32947406-woods.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/f958fd56f620fcea52ddfe7d5901c33a-woods-4view.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/5fbc783811d0b2012d1332ae45b15faa-woods-nite.jpg
+dependencies:
+  - paeng:urban-renewal-pure
+  - bsc:mega-props-jes-vol08
+  - simfox:treepack-vol02
+  - wmp:mega-textures
+assets:
+  - assetId: paeng-pure-no07
+
+---
+assetId: paeng-pure-no07
+version: "1.0"
+lastModified: "2013-05-21T15:41:11Z"
+url: https://community.simtropolis.com/files/file/28738-paengs-pure-no07/?do=download&r=115516

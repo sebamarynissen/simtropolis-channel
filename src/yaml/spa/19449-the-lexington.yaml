@@ -1,0 +1,53 @@
+group: spa
+name: the-lexington
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: The Lexington
+  description: |-
+    The Lexington is a luxury apartment building located on the corner of Robie, Cunard, and West Streets in Halifax, NS, Canada. The apartment is an impressive piece of modern architecture that boasts a fantastic view of the Halifax Commons and the harbour beyond. The Lexington is part of a string of mid-rise residential towers that are being built along the Commons northern edge. The Lexington offers 1 and 2 bedroom apartments, underground parking, a rear patio and a balcony off of every unit.
+
+    Included in this upload are two versions one with an underground parking garage that fits on a 3x5 and a denser 3x4version without the undergroundgarage. Both models have been mirrored to allow lots for both left and right corner. See the readme for complete details.
+  author: spa
+  website: https://community.simtropolis.com/files/file/19449-the-lexington/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/f8a346775a70edc26f6d946a9a1d07a1-lexington-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/ac74a6dc566d2b322e55f9bb2f03dc04-lexington-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/e40303c820c3eedaf20ac10528ce4103-lexington-readme-1.jpg
+assets:
+  - assetId: spa-the-lexington
+    exclude:
+      - "\\.SC4Model$"
+dependencies:
+  - spa:the-lexington-models
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:essentials
+  - bsc:mega-props-mjb-vol01
+
+---
+group: spa
+name: the-lexington-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=spa:the-lexington`
+  author: spa
+  website: https://community.simtropolis.com/files/file/19449-the-lexington/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/f8a346775a70edc26f6d946a9a1d07a1-lexington-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/ac74a6dc566d2b322e55f9bb2f03dc04-lexington-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/e40303c820c3eedaf20ac10528ce4103-lexington-readme-1.jpg
+assets:
+  - assetId: spa-the-lexington
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: spa-the-lexington
+version: "1.0"
+lastModified: "2008-02-29T00:10:25Z"
+url: https://community.simtropolis.com/files/file/19449-the-lexington/?do=download&r=114612
+archiveType:
+  format: Clickteam
+  version: "40"

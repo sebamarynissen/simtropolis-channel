@@ -1,0 +1,99 @@
+group: paeng
+name: p44-revisited
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: P44 Revisited
+  description: |-
+    Here is my take on the wonderful ***P44 Tower*** by **SimFox**. Due to its small 2x2 footprint the original tower tends to grow like a bush fire, so some players just removed it from their plugins - which is a pity. So in order to tame this wild boy, I made a lot with a much larger footprint sporting four of these towers - two orthogonal and two diagonal (25 and 16 floors with white or brick detailing).
+
+    5x6 RES$$ Stage 6 (*for more stats see developer notes below*)
+
+    **DEPENDENCIES**
+
+    \* [SimFox P44towers take2](https://community.simtropolis.com/files/file/20502-simfox-p44towers-take2/)
+
+    *My usual suspects* -
+
+    \* [Paeng Texture Pack v104](https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/)
+
+    \* [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    \* [SG 01 Megapack](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+
+    \* [Porkie Props Vol 01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    \* [SimFox TreePack #2](https://community.simtropolis.com/files/file/21640-simfox-treepack-2/)
+
+    *optional:*
+
+    \* [KrashSpeed's Mailbox Set](https://community.simtropolis.com/files/file/28412-krashspeeds-mailbox-set/)
+
+    **DEVELOPER NOTES**
+
+    The lot arranges four *P44* towers around a central 'court' with the balconies all facing inward for more privacy. This enables you to grow any number in an irregular pattern (*see additional screenshots*).
+
+    The lot has a few 'tunnels' to suggest underground parking - add parking modules, bus- and subway stops etc. as you desire.
+
+    *Stats*
+
+    \----------------------
+
+    Bulldoze - 3800
+
+    Capacity - 2800 (5200)
+
+    Power/Water - 40/112
+
+    Pollution - 8-12-32-0 (radius 20-24-0-0)
+
+    Worth - 3600
+
+    BuildingValue - 76000
+
+    These values closely follow the originals set by *SimFox*, increased to represent the total of four towers.
+
+    Note that the original packs has 8 models (4 white, 4 brick). They are all used in this lot, with half of them used as 'stacked' props. You will see always four of them, randomized with each newly grown lot.
+
+    You can use this pack standalone - you do not need any of the props, lots or dependencies listed for the original package. Just make sure to load all the original model files.
+
+    **INSTALLATION**
+
+    Put the whole bundle into "(My )Documents/Plugins".
+
+    To un-install - bulldoze all lots you may have plopped from this pack, then remove it completely from your Plugins.
+
+    **CREDITS**
+
+    Thanks to the folks at simpeg.com for valuable feedback! :-)
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10649.0)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28494-paengs-p44-revisited/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/11b160fd69ba8dd27c42b6cb932b7ea9-p44_13.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/73d6043e48a7f57d2911c58f0aa2c159-p44_11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/ee31216be16d749add0e38e7b6bfb8c6-p44_10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/1814a95a03093fab438d667cc6281f61-p44_12.jpg
+dependencies:
+  - simfox:p44towers-models
+  - paeng:textures
+  - shk:parking-pack
+  - bsc:mega-props-sg-vol01
+  - krashspeed:mailbox-set
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - simfox:treepack-vol02
+assets:
+  - assetId: paeng-p44-revisited
+
+---
+assetId: paeng-p44-revisited
+version: "1.0"
+lastModified: "2013-02-20T23:06:51Z"
+url: https://community.simtropolis.com/files/file/28494-paengs-p44-revisited/?do=download&r=121823

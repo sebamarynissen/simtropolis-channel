@@ -1,0 +1,64 @@
+group: paeng
+name: urban-renewal-pure
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Urban Renewal - PURe
+  description: |-
+    This is going to be sort of a series. Once in a while I will release a fresh lot that you can add to this series, together with a specific model you'll need to download.
+
+    To ensure easy handling and as little confusion as possible, I prepared a little package that you need to install and set up BEFORE you start on this collection - the **PURe Basic Pack**. This particular download does NOT YET contain any lots!
+
+    The package lists a few dependencies - download them all. It also contains a **Resource** file (*\_PURe\_Resource\_KEEP*) - this file will serve ALL future releases of PURe lots and MUST be present in your PURe folder.
+
+    When a new item gets released, just add the fresh lot file and the specified model to your PURe folder and you're all set to go.
+
+    **DEPENDENCIES** (for ALL future PURe Lots)
+
+    -   [Paeng Texture Pack v104](https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/)
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [Porkie Props Vol 01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+    -   [SG 01 Mega](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+    -   [SPOT](https://community.simtropolis.com/files/file/24509-spot/) (Orientation Helpers, optional)
+
+    **DEVELOPER NOTES**
+
+    So once more, step-by-step:
+
+    1.  Make sure all the listed dependencies are in your Plugins.  
+        *Nothing exotic, you probably have them all.*
+    2.  Download and install the PURe Basic Pack.  
+        *This will add the* **PURe\_Resource** *and the folder* **PURe\_Models** *(empty for now).*
+    3.  Wait for the first PURe Lot to be released (shortly) :-)
+
+    \* And again - this package does **not** contain any lots. It will serve as a common dependency for future PURe uploads.
+
+    **INSTALLATION**
+
+    Unzip to your Plugins.
+
+    To uninstall, remove the files from your Plugins.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10398.0)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28277-paengs-urban-renewal-pure/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/b29d1b735b991b30fadaf68ee3448e89-pure-bg.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - paeng:textures
+  - peg:spot
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+assets:
+  - assetId: paeng-urban-renewal-pure
+
+---
+assetId: paeng-urban-renewal-pure
+version: "1.0"
+lastModified: "2012-12-06T14:20:38Z"
+url: https://community.simtropolis.com/files/file/28277-paengs-urban-renewal-pure/?do=download&r=121821

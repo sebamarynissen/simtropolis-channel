@@ -1,0 +1,48 @@
+group: prepo
+name: automobile-shredder
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Automobile Shredder
+  description: |-
+    This plant shreds junk cars and separates recyclable metals, plastics and other materials.
+
+    Growable dirty industial, growth stage 2. Gives 30 jobs. 2x4 and 4x2 size lots.
+  author: prepo
+  website: https://community.simtropolis.com/files/file/13563-automobile-shredder/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/ce3af21131b54f953bf6589af5f499f4-pr_AutoShredder1.jpg
+    - https://www.simtropolis.com/objects/screens/0023/ce3af21131b54f953bf6589af5f499f4-pr_AutoShredder2.jpg
+assets:
+  - assetId: prepo-automobile-shredder
+    include:
+      - "\\.SC4Lot$"
+dependencies:
+  - prepo:automobile-shredder-resources
+
+---
+group: prepo
+name: automobile-shredder-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models and props for `pkg=prepo:automobile-shredder`
+  description: |-
+    This plant shreds junk cars and separates recyclable metals, plastics and other materials.
+
+    Growable dirty industial, growth stage 2. Gives 30 jobs. 2x4 and 4x2 size lots.
+  author: prepo
+  website: https://community.simtropolis.com/files/file/13563-automobile-shredder/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/ce3af21131b54f953bf6589af5f499f4-pr_AutoShredder1.jpg
+    - https://www.simtropolis.com/objects/screens/0023/ce3af21131b54f953bf6589af5f499f4-pr_AutoShredder2.jpg
+assets:
+  - assetId: prepo-automobile-shredder
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: prepo-automobile-shredder
+version: "1.0"
+lastModified: "2005-09-03T15:01:53Z"
+url: https://community.simtropolis.com/files/file/13563-automobile-shredder/?do=download&r=34891
