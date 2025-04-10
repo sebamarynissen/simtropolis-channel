@@ -49,11 +49,12 @@ export default class Downloader {
 		}
 
 		// If we reach this point, we perform a fresh download.
-		const res = await fetch(url, {
-			headers: {
-				Cookie: process.env.SC4PAC_SIMTROPOLIS_COOKIE,
-			},
-		});
+		const headers = {};
+		const { SC4PAC_SIMTROPOLIS_TOKEN: token } = process.env;
+		if (token) {
+			headers.Authorization = `SC4PAC-TOKEN-ST userkey="${token}"`;
+		}
+		const res = await fetch(url, { headers });
 		if (res.status === 404) {
 			throw new Error(`${url} not found`);
 		}
