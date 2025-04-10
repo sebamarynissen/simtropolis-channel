@@ -267,15 +267,3 @@ async function readMetadata(file) {
 		.filter(doc => !doc.assetId);
 
 }
-
-// # withResolvers()
-// Same as Promise.resolvers(), but actions run on Node 20, which doesn't have 
-// Promise.withResolvers. We need Node 22 for this.
-function withResolvers() {
-	let reject, resolve;
-	const promise = new Promise((_resolve, _reject) => {
-		resolve = _resolve;
-		reject = _reject;
-	});
-	return { promise, resolve, reject };
-}
