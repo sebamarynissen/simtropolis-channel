@@ -127,8 +127,8 @@ export default class Downloader {
 					await fs.promises.rm(destination.path, { recursive: true });
 				},
 			};
-		} catch {
-			spinner?.fail();
+		} catch (e) {
+			spinner?.fail(e.message);
 		}
 	}
 
@@ -153,6 +153,7 @@ export default class Downloader {
 		const sevenZip = process.env['7Z_EXECUTABLE'] ?? '7z';
 		cp.execSync(`"${sevenZip}" x "${assetPath}" -o"${destination}"`);
 		await fs.promises.unlink(assetPath);
+		await fs.promises.unlink(download.assetInfoFile);
 
 	}
 
