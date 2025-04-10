@@ -5,8 +5,8 @@ import fetch from './fetch.js';
 
 const url = core.getInput('url');
 const requireMetadata = yn(core.getInput('require-metadata'));
-console.log({ requireMetadata });
 const after = core.getInput('after');
+console.log({ requireMetadata, url, after });
 try {
 	const {
 		packages,
