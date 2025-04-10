@@ -1,0 +1,32 @@
+group: wannglondon
+name: los-angeles-home-5
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Los Angeles Home 5
+  description: |-
+    In light of the fires that have swept through my beautiful city I wanted to upload this mansion. Inspired by a home found in Hancock Park (far enough from the fires).
+
+    \- R$$$ 3x3
+
+    \- Chicago & NY Tileset
+
+    \- DarkNite version only
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/36671-los-angeles-home-5/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/Day.jpg.1bc948f772f9778688133a61fe05bc2d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-los-angeles-home-5-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-los-angeles-home-5-darknite
+
+---
+assetId: wannglondon-los-angeles-home-5-darknite
+version: "1.0.0"
+lastModified: "2025-01-16T21:47:21Z"
+url: https://community.simtropolis.com/files/file/36671-los-angeles-home-5/?do=download&r=205292
