@@ -41,15 +41,15 @@ jobs:
           node-version-file: package.json
       - uses: milliewalky/setup-7-zip@v2
       - run: npm ci
-      - run: echo ${{ github.events.inputs.url }}
-      - run: echo ${{ github.events.inputs.require-metadata }}
+      - run: echo ${{ github.event.inputs.url }}
+      - run: echo ${{ github.event.inputs.require-metadata }}
       - name: Fetch updated packages from Simtropolis
         id: fetch
         uses: ./actions/fetch
         with:
           url: ${{ github.event.inputs.url }}
           after: ${{ vars.LAST_RUN }}
-          require-metadata: ${{ github.events.inputs.require-metadata }}
+          require-metadata: ${{ github.event.inputs.require-metadata }}
       - name: Setup linter
         if: steps.fetch.outputs.has-new-content == 'true'
         uses: memo33/sc4pac-actions/actions/setup-lint@main
