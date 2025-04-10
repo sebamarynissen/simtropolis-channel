@@ -49,7 +49,9 @@ export default class Downloader {
 		}
 
 		// If we reach this point, we perform a fresh download.
-		const headers = {};
+		const headers = {
+			'User-Agent': 'sc4pac/0.6',
+		};
 		const { SC4PAC_SIMTROPOLIS_TOKEN: token } = process.env;
 		if (token) {
 			headers.Authorization = `SC4PAC-TOKEN-ST userkey="${token}"`;
