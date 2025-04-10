@@ -107,6 +107,7 @@ describe('The fetch action', function() {
 						if (type !== 'application/zip' || contents instanceof Error) {
 							return new Response(contents, {
 								headers: {
+									'Content-Disposition': cd(file.name),
 									'Content-Type': type,
 								},
 							});
@@ -966,10 +967,10 @@ describe('The fetch action', function() {
 
 	});
 
-	it('ignores non-zip archives', async function() {
+	it('ignores non-archives', async function() {
 
 		let upload = faker.upload({
-			files: ['package.rar'],
+			files: ['installer.exe'],
 		});
 		const { run } = this.setup({
 			uploads: [upload],
@@ -1131,6 +1132,7 @@ describe('The fetch action', function() {
 						}),
 						{
 							headers: {
+								'Content-Disposition': cd('extra-cheats.zip'),
 								'Content-Type': 'application/zip',
 							},
 						},
@@ -1199,6 +1201,7 @@ describe('The fetch action', function() {
 					}),
 					{
 						headers: {
+							'Content-Disposition': cd('extra-cheats.zip'),
 							'Content-Type': 'application/zip',
 						},
 					},
@@ -1210,9 +1213,9 @@ describe('The fetch action', function() {
 
 	});
 
-	it('sends the Simtropolis cookie when downloading', async function() {
+	it('sends the Simtropolis token when downloading', async function() {
 
-		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'cookie';
+		process.env.SC4PAC_SIMTROPOLIS_TOKEN = 'token';
 
 		const upload = faker.upload({});
 		const { run } = this.setup({
@@ -1220,8 +1223,8 @@ describe('The fetch action', function() {
 			handler(req) {
 				let url = new URL(req.url);
 				if (url.searchParams.get('do') === 'download') {
-					let cookie = req.headers.get('cookie');
-					expect(cookie).to.equal('cookie');
+					let cookie = req.headers.get('authorization');
+					expect(cookie).to.equal('SC4PAC-TOKEN-ST userkey="token"');
 				}
 			},
 		});
