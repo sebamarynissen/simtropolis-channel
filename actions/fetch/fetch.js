@@ -86,6 +86,7 @@ export default async function fetchPackage(opts) {
 		permissions,
 		cache,
 	};
+	console.log(handleOptions);
 	for (let upload of json) {
 
 		// Check whether the creator is allowed to publish files on the STEX 
