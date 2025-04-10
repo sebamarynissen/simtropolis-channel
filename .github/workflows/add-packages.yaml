@@ -25,6 +25,7 @@ jobs:
       cancel-in-progress: false
     env:
       SC4PAC_SIMTROPOLIS_COOKIE: ${{ secrets.SC4PAC_SIMTROPOLIS_COOKIE }}
+      SC4PAC_SIMTROPOLIS_TOKEN: ${{ secrets.SC4PAC_SIMTROPOLIS_TOKEN }}
       STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
       GITHUB_OWNER: ${{ github.repository_owner }}
       GITHUB_REPO: ${{ github.event.repository.name }}
