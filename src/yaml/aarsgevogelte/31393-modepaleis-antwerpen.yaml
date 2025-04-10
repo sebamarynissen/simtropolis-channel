@@ -1,0 +1,43 @@
+group: aarsgevogelte
+name: modepaleis-antwerpen
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Modepaleis, Antwerpen
+  description: |-
+    19th century W2W corner building from Antwerp, Belgium.
+
+    File contains both a **Landmark** version and a **Growable** Stage 6 CO$$$ with 217 jobs.
+
+    To install:
+
+    1.  Extract contents from the .rar file ([7-Zip](https://www.7-zip.org/) can do that).
+    2.  Copy extracted files to Plugins
+    3.  Delete either the MN or DN folder depending on if you use Maxis Night or Dark Night.
+
+    ![*:ducky:](https://community.simtropolis.com/assets/emoticons/default_40.gif ":ducky:")
+
+    **CB Edit:** Added extra info to description.
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/31393-modepaleis-antwerpen/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/D.jpg.633def3c791310c2ac71b0f2d2c7f162.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/N.jpg.8f3d05b8812c00456fcd6cc20c4f75c9.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-modepaleis-antwerpen
+        exclude:
+          - /DN/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-modepaleis-antwerpen
+        exclude:
+          - /MN/
+
+---
+assetId: aarsgevogelte-modepaleis-antwerpen
+version: "1.0"
+lastModified: "2018-01-28T19:05:06Z"
+url: https://community.simtropolis.com/files/file/31393-modepaleis-antwerpen/?do=download&r=169806
