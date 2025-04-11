@@ -1,0 +1,38 @@
+group: aarsgevogelte
+name: dinghuis-maastricht
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Dinghuis, Maastricht
+  description: |-
+    Dinghuis, Maastricht, Holland
+
+    No dependencies
+
+    I farted...
+
+    First BAT
+
+    ![jDFrtC.jpg](http://imagizer.imageshack.us/v2/800x600q90/911/jDFrtC.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/30914-dinghuis-maastricht/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Poep.png.148dcf4187a3d5821dc8b7adc36162ec.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-dinghuis-maastricht
+        exclude:
+        - "/DN - Pick either this one/"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-dinghuis-maastricht
+        exclude:
+        - "/MN - or this one/"
+
+---
+assetId: aarsgevogelte-dinghuis-maastricht
+version: "1.0"
+lastModified: "2016-01-12T22:49:43Z"
+url: https://community.simtropolis.com/files/file/30914-dinghuis-maastricht/?do=download&r=160301

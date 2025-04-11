@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: stationsplein-3-s-hertogenbosch
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Stationsplein 3, 's-Hertogenbosch
+  description: |-
+    LM
+
+    Insert compliments below yes
+
+    ![1.jpg.d5a82f6dcd7d878f96c8ca686efd75be.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.d5a82f6dcd7d878f96c8ca686efd75be.jpg)![2.jpg.c5ac9871fd936b9212a4d08dee7b3b1b.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.c5ac9871fd936b9212a4d08dee7b3b1b.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32116-stationsplein-3-s-hertogenbosch/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.900be713d2986596bbaa01eed0c4a7d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.b49edd236b02e921a17ee3414d7cdfca.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-stationsplein-3-s-hertogenbosch
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-stationsplein-3-s-hertogenbosch
+
+---
+assetId: aarsgevogelte-stationsplein-3-s-hertogenbosch
+version: "1.0"
+lastModified: "2018-02-10T12:38:50Z"
+url: https://community.simtropolis.com/files/file/32116-stationsplein-3-s-hertogenbosch/?do=download&r=170044

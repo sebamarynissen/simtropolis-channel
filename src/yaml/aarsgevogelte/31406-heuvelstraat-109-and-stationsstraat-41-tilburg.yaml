@@ -1,0 +1,27 @@
+group: aarsgevogelte
+name: heuvelstraat-109-and-stationsstraat-41-tilburg
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Heuvelstraat 109 & Stationsstraat 41, Tilburg
+  description: |-
+    Two Dutch W2W buildings (LM & CO$$). Can also be used as a corner lot if you're brave enough.
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/D.jpg.78dfa021ed9de04df381f53eeff7bd91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/N.jpg.677f4e74a32172eb5861d739f4d61f3e.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-heuvelstraat-109-and-stationsstraat-41-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-heuvelstraat-109-and-stationsstraat-41-tilburg
+
+---
+assetId: aarsgevogelte-heuvelstraat-109-and-stationsstraat-41-tilburg
+version: "2"
+lastModified: "2018-02-09T11:10:36Z"
+url: https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/?do=download&r=169999

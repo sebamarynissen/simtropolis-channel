@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: cafe-bauer-leipzig
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Café Bauer, Leipzig
+  description: |-
+    My first building from Germany. Sadly, this building doesn't exist no mo'.
+
+    LM
+
+    ![1.jpg.9599adc97010b852e0dfd0fa4b76bf90.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.9599adc97010b852e0dfd0fa4b76bf90.jpg)![2.jpg.56737fab41fac657f668545fa4ff1125.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.56737fab41fac657f668545fa4ff1125.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32123-café-bauer-leipzig/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.8e8d22866c4af208f5d5bc59434ebb95.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.cca66ad659c1e742db258ff30130226b.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-cafe-bauer-leipzig
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-cafe-bauer-leipzig
+
+---
+assetId: aarsgevogelte-cafe-bauer-leipzig
+version: "1.0"
+lastModified: "2018-02-12T16:11:08Z"
+url: https://community.simtropolis.com/files/file/32123-caf%C3%A9-bauer-leipzig/?do=download&r=170079

@@ -1,0 +1,35 @@
+group: aarsgevogelte
+name: elberg-eiloo
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Elberg - Eiloo
+  description: |-
+    This is a collection of fictional medieval buildings inspired by various buildings from the province of Limburg, the Netherlands.
+
+    Landmark.
+
+    Dependencies:
+
+    [BSC Textures Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/33593-elberg-eiloo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/day.jpg.1bbd496f0c6e7d92b3d78e3406ba50bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/night.jpg.852ff10d8a11daf2daed956f5dcf42e6.jpg
+dependencies:
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-elberg-eiloo
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-elberg-eiloo
+
+---
+assetId: aarsgevogelte-elberg-eiloo
+version: "1.0.0"
+lastModified: "2020-05-10T12:43:27Z"
+url: https://community.simtropolis.com/files/file/33593-elberg-eiloo/?do=download&r=180936
