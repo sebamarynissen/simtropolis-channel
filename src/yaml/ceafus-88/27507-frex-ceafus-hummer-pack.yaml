@@ -1,6 +1,7 @@
 group: ceafus-88
-name: frex-ceafus-hummer-pack
+name: hummer-pack
 version: "1.0"
+subfolder: 710-automata
 info:
   summary: Frex_Ceafus Hummer Pack
   description: |-
@@ -58,10 +59,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2012/3a2eac7b9b8d2d30723df94822f78918-.png
     - https://www.simtropolis.com/objects/screens/monthly_04_2012/80a25c07edb40716978bc01d694a53b4-.png
 assets:
-  - assetId: ceafus-88-frex-ceafus-hummer-pack
+  - assetId: ceafus-88-hummer-pack
+    include:
+      - "/Frex_Ceafus Hummer Pack_Individuals/"
 
 ---
-assetId: ceafus-88-frex-ceafus-hummer-pack
+assetId: ceafus-88-hummer-pack
 version: "1.0"
 lastModified: "2012-04-23T20:29:08Z"
 url: https://community.simtropolis.com/files/file/27507-frex_ceafus-hummer-pack/?do=download&r=99841

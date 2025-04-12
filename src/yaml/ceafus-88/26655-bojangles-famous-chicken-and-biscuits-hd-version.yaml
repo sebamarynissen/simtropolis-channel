@@ -1,7 +1,7 @@
 group: ceafus-88
-name: bojangles-famous-chicken-and-biscuits-hd-version
+name: bojangles-famous-chicken-and-biscuits
 version: "2.0"
-subfolder: 360-landmark
+subfolder: 300-commercial
 info:
   summary: Bojangles Famous Chicken & Biscuits (HD Version)
   description: |-
@@ -30,10 +30,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_08_2011/774b6b5bc426ea4f2b37a682833c3ea4-bojangles_chicken_&_biscuits_(hd-may_29,_001313609079.png
     - https://www.simtropolis.com/objects/screens/monthly_08_2011/d24eebae2ddd64d2182c9184e60ad6d4-bojangles_chicken_&_biscuits_(hd-may_31,_001313609087.png
 assets:
-  - assetId: ceafus-88-bojangles-famous-chicken-and-biscuits-hd-version-hd
+  - assetId: ceafus-88-bojangles-famous-chicken-and-biscuits-hd
+dependencies:
+  - ceafus-88:c88-ceafus-88-texture-pack
 
 ---
-assetId: ceafus-88-bojangles-famous-chicken-and-biscuits-hd-version-hd
+assetId: ceafus-88-bojangles-famous-chicken-and-biscuits-hd
 version: "2.0"
 lastModified: "2016-03-08T02:09:34Z"
 url: https://community.simtropolis.com/files/file/26655-bojangles-famous-chicken-biscuits-hd-version/?do=download&r=161002

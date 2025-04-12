@@ -1,6 +1,7 @@
 group: ceafus-88
 name: ceafus-pawn-and-gun
 version: "1.0"
+subfolder: 300-commercial
 info:
   summary: Ceafus Pawn and Gun
   description: |-
@@ -38,18 +39,25 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/19b0e1daae8727d25158cd41656bcac8-hinten-may-21--371391986215.png
 dependencies:
   - bsc:bat-props-mattb325-vol02
-assets:
-  - assetId: ceafus-88-ceafus-pawn-and-gun-part0
-  - assetId: ceafus-88-ceafus-pawn-and-gun-part1
+  - wmp:mega-props-vol01
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "ceafus-88-ceafus-pawn-and-gun-maxisnite"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "ceafus-88-ceafus-pawn-and-gun-darknite"
 
 ---
-assetId: ceafus-88-ceafus-pawn-and-gun-part0
+assetId: ceafus-88-ceafus-pawn-and-gun-maxisnite
 version: "1.0"
 lastModified: "2014-02-09T23:43:00Z"
 url: https://community.simtropolis.com/files/file/29270-ceafus-pawn-and-gun/?do=download&r=123761
 
 ---
-assetId: ceafus-88-ceafus-pawn-and-gun-part1
+assetId: ceafus-88-ceafus-pawn-and-gun-darknite
 version: "1.0"
 lastModified: "2014-02-09T23:43:00Z"
 url: https://community.simtropolis.com/files/file/29270-ceafus-pawn-and-gun/?do=download&r=123762
