@@ -27,13 +27,15 @@ info:
 
     Dependencies:  ![*:read:](https://community.simtropolis.com/assets/emoticons/default_49.gif "*:read:")
 
-    -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
-    -   [BSC MEGA Props swi21 Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)
-    -   [LBT Mega Prop Pack Vol.1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
-    -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
-    -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
-    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
-    -   [BSC Textures Vol 3](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1806)
+    - [LBT Mega Prop Pack Vol.1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+    - [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    - [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    - [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    - [BSC Common Dependencies](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+        - BSC Mega Props MJB Vol 01
+        - BSC MEGA Props SG Vol 1
+        - BSC MEGA Props swi21 Vol 1
+        - BSC Textures Vol 3
 
     Other Photos:
 
@@ -57,6 +59,7 @@ dependencies:
   - shk:parking-pack
   - supershk:fa3-parking-textures
   - supershk:mega-parking-textures
+  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:

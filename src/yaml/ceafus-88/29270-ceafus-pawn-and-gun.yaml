@@ -15,16 +15,15 @@ info:
 
     **Dependencies:**
 
-    You will need the following from [Working Man Productions](http://workingman-productions.co.uk/downloads/wmp_props.asp):
-
-    -   wmp\_allotment\_props.dat
-    -   wmp\_villa\_props01.dat
-    -   wmp\_garden\_props.dat
-    -   wmp\_garden\_props02.dat
-
-    You will also need:
-
-    -   [BSCBATPropsMattb325\_Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+    - [WMP Mega Props Vol01](https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/)
+      - wmp\_allotment\_props.dat
+      - wmp\_villa\_props01.dat
+      - wmp\_garden\_props.dat
+      - wmp\_garden\_props02.dat
+    - [BSC Common Dependencies](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+      - BSCBATPropsMattb325\_Vol02
+      - BSC Mega Props - JENX Vol03
+    - [PEG SPAM Super Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/)
 
     Thank You! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
 
@@ -40,6 +39,9 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - wmp:mega-props-vol01
+  - peg:spam-super-resource-pack
+  - bsc:mega-props-jenx-vol03
+
 variants:
 - variant: { nightmode: "standard" }
   assets:
