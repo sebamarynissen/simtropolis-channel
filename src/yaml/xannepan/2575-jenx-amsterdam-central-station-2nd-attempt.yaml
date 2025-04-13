@@ -1,0 +1,43 @@
+group: xannepan
+name: jenx-amsterdam-central-station-2nd-attempt
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: JENX Amsterdam Central Station 2nd attempt
+  description: |-
+    2nd attempt... Thanks to redlotus for helping me rendering this. I'm not completely satisfied with the transparency of some textures but for now this has to do.
+  author: xannepan
+  website: https://community.simtropolis.com/files/file/2575-jenx-amsterdam-central-station-2nd-attempt/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7fdb20e703dde78fdd6d03cf5bf2bc03-night1.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7fdb20e703dde78fdd6d03cf5bf2bc03-day1.jpg
+dependencies:
+  - xannepan:jenx-amsterdam-central-station-resources
+assets:
+  - assetId: xannepan-jenx-amsterdam-central-station-2nd-attempt
+    include:
+      - "\\.SC4Lot$"
+
+
+---
+group: xannepan
+name: jenx-amsterdam-central-station-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: JENX Amsterdam Central Station props and model
+  author: xannepan
+  website: https://community.simtropolis.com/files/file/2575-jenx-amsterdam-central-station-2nd-attempt/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7fdb20e703dde78fdd6d03cf5bf2bc03-night1.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7fdb20e703dde78fdd6d03cf5bf2bc03-day1.jpg
+assets:
+  - assetId: xannepan-jenx-amsterdam-central-station-2nd-attempt
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: xannepan-jenx-amsterdam-central-station-2nd-attempt
+version: "1.0"
+lastModified: "2004-03-01T11:47:10Z"
+url: https://community.simtropolis.com/files/file/2575-jenx-amsterdam-central-station-2nd-attempt/?do=download&r=26157

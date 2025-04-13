@@ -1,0 +1,103 @@
+group: blam
+name: aaseby-magasinet
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Aaseby Magasinet
+  description: |-
+    **Aaseby Magasinet;** houses a number of expensive shops, got cafes, restaurants, clothes shop, and even a SPAZ. It does also have some quite expensive penthouse apartments at the top. It will fit into almost any wall to wall situation with its clean, modern lines of styling. Will complement the old-styled wall-to-wall buildings quite nicely.
+
+    **Lot Details (growable):**
+
+    **Type:**
+
+    Medium Density CS$$$
+
+    Growth Stage:
+
+    5
+
+    Lot Size:
+
+    6x3
+
+    Tilesets:
+
+    Euro
+
+    Capacity Satisfied:
+
+    CS$: 1440, CS$$: 701, CS$$$: 437
+
+    Bulldoze Cost:
+
+    $558
+
+    **Lot Details (ploppable):**
+
+    **Functional:**
+
+    Yes; CS$$$
+
+    Capacity Satisfied:
+
+    CS$: 1440, CS$$: 701, CS$$$: 437
+
+    Menu Location:
+
+    Landmarks
+
+    Custom Icon:
+
+    Yes
+
+    Custom Query:
+
+    No
+
+    Wealth:
+
+    High
+
+    Occupant Groups:
+
+    Building: Landmark, Building: YIMBY, Building: Landmark Ogle
+
+    Mayor Rating Effect:
+
+    E: +10 R: 256
+
+    **Dependencies:**
+
+    **BLAM Glenni Props**
+
+    [Download](../../stex/index.cfm?id=17578)
+
+    BLAM Overpath Props vol. 1
+
+    [Download](../../stex/index.cfm?id=18253)
+
+    Porkissimo Props vol. 1
+
+    [Download](../../stex/index.cfm?id=11421)
+
+    **Installation Instructions:**
+
+    To install, simply extract the folder BLAM Glenni Aaseby Magasinet to **My Documents/SimCity 4/Plugins**. It is recommended that you create a **BLaM** subfolder in your plugins folder for ease of organisation. It is recommended you keep the original .zip file along with the readme in a s
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/18333-blam-aaseby-magasinet/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/311d051e741f31f033e1630af2fc7e96-GLENNI_aaseby_day.jpg
+    - https://www.simtropolis.com/objects/screens/0006/311d051e741f31f033e1630af2fc7e96-GLENNI_aaseby_night.jpg
+assets:
+  - assetId: blam-aaseby-magasinet
+dependencies:
+  - ndex:glenni-mega-props-vol01
+  - onlyplace4:blam-overpath-props-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+
+---
+assetId: blam-aaseby-magasinet
+version: "1.0"
+lastModified: "2007-06-23T21:19:49Z"
+url: https://community.simtropolis.com/files/file/18333-blam-aaseby-magasinet/?do=download&r=42195
