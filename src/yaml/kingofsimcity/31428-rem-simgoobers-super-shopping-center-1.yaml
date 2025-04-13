@@ -1,0 +1,100 @@
+group: kingofsimcity
+name: simgoobers-super-shopping-center-1
+version: "1.00b"
+subfolder: 300-commercial
+info:
+  summary: "ReM - Simgoober's Super Shopping Center #1"
+  description: |-
+    *KOSC Presents: RetailMania - Simgoober's Super Shopping Center #1*
+
+    **Introduction**
+
+    **Super Shopping Center #1** is the **2nd** release from my **RetailMania** series and the first in a long line of classic Simgoober re-lots. This set of lots is based on Simgoober's original **Super Center 2** strip mall complex and enhances the original through two principles: breaking up the original buildings into individual lots for growing as well as offering several gigantic new ploppable complexes in varying configurations.
+
+    **Package Overview**
+
+    The original strip mall complex has been made bigger, badder and massively more detailed than before. While the original came in two versions (18x6, 18x7), the lot layout was pretty straightforward and only differed in an additional row of parking space. This set kicks this up a notch and comes in three very distinct (and large) ploppable versions. Furthermore, each individual building also has a small footprint growable that is more suited for urban use.  
+      
+    Included in the following package are a total of 6 lots: 3 CS$$ growables and ploppables. Two of the ploppables use all three buildings while the last complex is a smaller one that only utilizes two. All ploppables are transit enabled.
+
+    If you desire to plop the growables, use the **buildingPlop** cheat and look for exemplars starting at **KOSC\_SG\_Super (requires ExtraCheats.dll)**
+
+    **General Stats**
+
+    The included growable lots will provide between **261-342** **CS$$** jobs. They are available in the following configurations:
+
+    -   1 5x5 front, stage 2
+    -   2 7x3 front, stage 2
+
+    Ploppable lots are located in the landmarks menu and provide between **622-932** **CS$$** jobs in the following flavors:
+
+    -   20x11, $111,000 plop cost
+    -   15x11, $100,000 plop cost
+    -   12x10, $80,000 plop cost
+
+    Detailed stats and information can be found in the enclosed README.
+
+    **Install Instructions**
+
+    Drop the files in your **My Documents/SimCity 4/Plugins** folder.
+
+    **Dependencies**
+
+    **Main Building(s)**
+
+    You only need the model file, which can be found in the following 2 locations (you will only need ONE):
+
+    -   [Super Center 2](https://community.simtropolis.com/files/file/13833-super-center-2/) **OR**
+    -   [SG Commercials Models Malls](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1119)
+
+    **Props**
+
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [BSC MEGA Props SG Vol. 1](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+    -   [BSC MEGA Props CP Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    -   [BSC MEGA Props CP Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+    -   [HD North American 40ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30733-hd-north-american-40ft-semi-trailers-vol1/)
+    -   [HD North American 53ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/)
+
+    #### Textures
+
+    -   [BSC Textures Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+    -   [BSC Textures Vol. 3](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1806)
+    -   [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK+ FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+
+    Credit goes to **Simgoober** for the amazing BATs!
+
+    Enjoy!
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/31428-rem-simgoobers-super-shopping-center-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/splash.jpg.cf7e2944a566c21234636e87d0f21bb9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/detail.jpg.f0b96c0447ad5f92363e375b05c47584.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/grow_front.jpg.5b42887d1846f3474f2387806bf0d401.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/grow_rear.jpg.7af661f7c0d45316ec4bd83fe4e8c0b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/plop_corner_front.jpg.2bf779ce6d7d783bbe7b9ac6f95e78be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/plop_corner_rear.jpg.dd5ae800532e81b095ca09097b637028.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/plop_straight_front.jpg.0d8510c44fa11fb31816f8f2ae58acc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/plop_straight_rear.jpg.176172520b2ae97609cfec824f6b1236.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/plop_comparison.jpg.b632faf3ab2834846b96e96c0a4c1a41.jpg
+dependencies:
+  - bsc:sg-models-malls
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - mushymushy:na-40ft-trailers-vol1
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: kingofsimcity-rem-simgoobers-super-shopping-center-1
+
+---
+assetId: kingofsimcity-rem-simgoobers-super-shopping-center-1
+version: "1.00b"
+lastModified: "2017-01-07T08:34:54Z"
+url: https://community.simtropolis.com/files/file/31428-rem-simgoobers-super-shopping-center-1/?do=download&r=165103

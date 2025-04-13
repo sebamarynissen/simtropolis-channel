@@ -1,0 +1,47 @@
+group: ill-tonkso
+name: zurich-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: zurich house
+  description: |-
+    **Zurich House**
+
+    Zurich House is the Headquarters of Zurich Insurance UK. Completed in 1973 this is one of Portsmouth's most recognisable buildings and is the cities 5th tallest. The Black glass facade reflects the city and sits in the skyline easilly with subtle impact. The Building backs onto Victoria park and blends well with the trees.  
+      
+    Ploppable and Growable RCI 2500 Jobs.  
+    Plop Cost 25k
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12594-zurich-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-eastlandcjupdatezurichhouse.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-nightlightsforzurichhouse.jpg
+assets:
+  - assetId: ill-tonkso-zurich-house
+    exclude:
+      - "/Zurich House Render-0x5ad0e817_0xd23288f9_0x30000.SC4Model"
+dependencies:
+  - ill-tonkso:zurich-house-model
+
+---
+group: ill-tonkso
+name: zurich-house-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=ill-tonkso:zurich-house`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12594-zurich-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-eastlandcjupdatezurichhouse.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-nightlightsforzurichhouse.jpg
+assets:
+  - assetId: ill-tonkso-zurich-house
+    include:
+      - "/Zurich House Render-0x5ad0e817_0xd23288f9_0x30000.SC4Model"
+
+---
+assetId: ill-tonkso-zurich-house
+version: "1.0"
+lastModified: "2005-05-27T14:02:33Z"
+url: https://community.simtropolis.com/files/file/12594-zurich-house/?do=download&r=33389
