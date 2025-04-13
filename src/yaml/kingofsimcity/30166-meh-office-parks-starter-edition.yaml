@@ -1,0 +1,43 @@
+group: kingofsimcity
+name: office-parks-starter-edition
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: MEH Office Parks - Starter Edition
+  description: |-
+    **Overview:**  
+    This is the first set in an attempt to expand Maxis' current kit of low-midrises into a larger complex of homogeneous buildings, similar to the structure of many suburban office parks in North America. The lots are designed to grow on large (>=5x5) plots of land such that there should be no interference by standard Maxis fare. The package contains 3 different lot designs on 2 buildings for a total of 6 lots.  
+      
+    **Building Stats:**  
+    **Modde Business Park (Modde Inc.) (2x/3x)**  
+    *2x Capacity: 506 CO$$$ jobs / 722 CO$$ when dilapidated  
+    3x Capacity: 757 CO$$$ jobs / 1082 CO$$ when dilapidated*  
+    *Houston Tileset*  
+       
+    **Techtronics Office Park (Galvin Techtronics) (2x/3x)**  
+    *2x Capacity: 555 CO$$$ jobs / 793 CO$$ when dilapidated  
+    3x Capacity: 831 CO$$$ jobs / 1187 CO$$ when dilapidated*  
+    *Euro Tileset*  
+       
+    All buildings can grow starting at *Low Density* and have basic BTE tracking enabled. Note that the clusters have higher capacities than the individual combined components of their vanilla counterparts. This is a result of how capacities are computed in PIM\-X with regards to filling degree.  
+      
+    **Possible Lot Configurations****/Stages**  
+    **5x5** (2 Buildings, Stage 4, Left Corner), **8x8 MEGA** (3 Buildings, Stage 3, Front), **6x8** (3 Buildings, Stage 3**,** Right Corner)
+
+    The lots are designed to complement vanilla/Maxis SC4 and as such require no external dependencies other than Maxis Buildings as Props (bldgprop\_vol1 and vol2). I HIGHLY recommend using [TWrecks' Maxis Prop Names and Query Fix](https://community.simtropolis.com/index.php?app=downloads&module=downloads&controller=view&id=22400) instead, as querying the periphery buildings will highlight the whole complex.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/30166-meh-office-parks-starter-edition/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/d2ec94083f566da83c6e0cb13dd73f0e-2015-02-28_00001.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/43b0548b4bd4886efe2a9ea2acf07904-2015-02-28_00004.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/bd7a4c6a951c22364771a5c8ab65d981-2015-02-28_00003.jpg
+assets:
+  - assetId: kingofsimcity-meh-office-parks-starter-edition
+dependencies:
+  - t-wrecks:maxis-prop-names-and-query-fix
+
+---
+assetId: kingofsimcity-meh-office-parks-starter-edition
+version: "1.0"
+lastModified: "2015-02-28T22:09:23Z"
+url: https://community.simtropolis.com/files/file/30166-meh-office-parks-starter-edition/?do=download&r=148460

@@ -1,0 +1,52 @@
+group: ill-tonkso
+name: cis-tower-manchester
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: CIS Tower Manchester
+  description: |-
+    Huzzah for Towers clad in Solar Panels! This is Manchesters fine 1962 CIS Tower, at the time the tallest office building in Europe standing at 118 metres. After it's 2006 Solar Reclad the tower now generates all of it's own electricity.
+
+    * * *
+
+    Ploppable CO££ 4800 (a LOT less than the Plugin Manager suggested by the way) 5x5
+
+    * * *
+
+    Dependencies, none... hang on....
+
+    BSC Mega Textures Pack.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20252-ndex-its-cis-tower-manchester/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fc51c1845f110ee6d3e4b53fac5998a4-CISday.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fc51c1845f110ee6d3e4b53fac5998a4-CISNIGHT.jpg
+assets:
+  - assetId: ill-tonkso-cis-tower-manchester
+    exclude:
+      - "/NDEX_ITS_CIS_Tower_Manchester-0x5ad0e817_0x75b8eefe_0x30000.SC4Model"
+dependencies:
+  - ill-tonkso:cis-tower-manchester-model
+
+---
+group: ill-tonkso
+name: cis-tower-manchester-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=ill-tonkso:cis-tower-manchester`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20252-ndex-its-cis-tower-manchester/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fc51c1845f110ee6d3e4b53fac5998a4-CISday.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fc51c1845f110ee6d3e4b53fac5998a4-CISNIGHT.jpg
+assets:
+  - assetId: ill-tonkso-cis-tower-manchester
+    include:
+      - "/NDEX_ITS_CIS_Tower_Manchester-0x5ad0e817_0x75b8eefe_0x30000.SC4Model"
+
+---
+assetId: ill-tonkso-cis-tower-manchester
+version: "1.0"
+lastModified: "2008-08-21T21:17:38Z"
+url: https://community.simtropolis.com/files/file/20252-ndex-its-cis-tower-manchester/?do=download&r=45507

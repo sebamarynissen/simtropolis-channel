@@ -1,0 +1,50 @@
+group: ill-tonkso
+name: east-point-offices
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: East Point Offices
+  description: |-
+    This was an old model of mine that was never rendered, I gave it a quick overhaul and finally rendered it! I give you East Point offices. Intended to be used as a filler building East Point can also be repeated to make suburban office complexes.
+
+    * * *
+
+    Ploppable 2x3 CO££ 1200Growable 2x3 CO££ 1200
+
+    * * *
+
+    Dependencies, None!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20025-ndex-its-east-point-offices/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7cfc5bc35c0b49b54fe4a69c5a5fc2a1-eastpoint.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7cfc5bc35c0b49b54fe4a69c5a5fc2a1-eastpointnight.jpg
+assets:
+  - assetId: ill-tonkso-east-point-offices
+    exclude:
+      - "/NDEX_ITS_East_Point-0x5ad0e817_0xb4dc5456_0x30000.SC4Model"
+dependencies:
+  - ill-tonkso:east-point-offices-model
+
+---
+group: ill-tonkso
+name: east-point-offices-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=ill-tonkso:east-point-offices`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20025-ndex-its-east-point-offices/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7cfc5bc35c0b49b54fe4a69c5a5fc2a1-eastpoint.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7cfc5bc35c0b49b54fe4a69c5a5fc2a1-eastpointnight.jpg
+assets:
+  - assetId: ill-tonkso-east-point-offices
+    include:
+      - "/NDEX_ITS_East_Point-0x5ad0e817_0xb4dc5456_0x30000.SC4Model"
+
+---
+assetId: ill-tonkso-east-point-offices
+version: "1.0"
+lastModified: "2008-07-08T18:22:27Z"
+url: https://community.simtropolis.com/files/file/20025-ndex-its-east-point-offices/?do=download&r=45105
