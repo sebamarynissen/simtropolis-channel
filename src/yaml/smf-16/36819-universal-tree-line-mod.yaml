@@ -1,0 +1,66 @@
+group: smf-16
+name: universal-tree-line-mod
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Universal Tree Line Mod
+  description: |-
+    The [tree line](https://en.wikipedia.org/wiki/Tree_line) of flora you plant in God Mode is determined by the `Flora: Max Elevation Range` property in the Flora Tuning exemplar 0x6534284a, 0x7a4a8458, 0x1a2fdb6a (see also [this tutorial](https://community.simtropolis.com/omnibus/simcity-4/tutorials/how-to-makeedit-a-tree-controller-r320/) for more information). If you're using Lowkee's Seasonal Flora Patch, or Lowkee's Appalachian Terrain Mod, then the tree line will be set to 500m *above sea level*.
+
+    Compared to the tree line in real life (which is roughly at 2000m in the Alps, for example), this is quite low. This means that if you play on real-world maps, you may find that already no trees will be planted anymore at unrealistically low elevations. You can fix this by manually editing the `Flora: Max Elevation Range` property in the Flora Tuning exemplar, but this mod gives you a different option by leveraging [Exemplar Patching](https://github.com/memo33/submenus-dll?tab=readme-ov-file#exemplar-patching). By leveraging exemplar patching, this mod should be compatible with any tree controller and terrain mod.
+
+    Included with this mod are 6 different elevations for the tree line: 500m, 750m, 1000m, 1500m, 2000m and 2500m. **Choose only one of them, obviously**, and remember that these are the heights **above sea level**, which is 250m by default. (If you want to change the sea level, have a look at my [Universal Sea Level Mod](https://community.simtropolis.com/files/file/36707-universal-sea-level-mod/)). If you have a good reason to have another elevation as tree line - for example you want the tree line to correspond to the snow line of your terrain mod - then you can send me a request to add it, or you can just open the .dat file in the Reader and update the `Flora: Max Elevation Range` property.
+
+    Do yourself a favor and install this with [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/). This allows you to quickly switch tree lines by resetting the **smf-16:universal-tree-line-mod:height** variant.
+
+    # Dependencies:
+
+    -   [memo:submenus-dll](https://community.simtropolis.com/files/file/36142-submenus-dll/) (this is needed for the exemplar functionality to work).
+
+    # Acknowledgements
+
+    Thanks a lot to @11241036 and [his great explanation about how tree controllers work](https://community.simtropolis.com/omnibus/simcity-4/tutorials/how-to-makeedit-a-tree-controller-r320/), which is what caused me to make this mod.
+  author: smf_16
+  website: https://community.simtropolis.com/files/file/36819-universal-tree-line-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/thumbnail.jpg.2478e13ab1d607fd96f439d30bdd3f14.jpg
+dependencies:
+  - memo:submenus-dll
+variants:
+  - variant: { smf-16:universal-tree-line-mod:height: 500m }
+    assets:
+      - assetId: smf-16-universal-tree-line-mod
+        include:
+          - /500m.dat
+  - variant: { smf-16:universal-tree-line-mod:height: 750m }
+    assets:
+      - assetId: smf-16-universal-tree-line-mod
+        include:
+          - /750m.dat
+  - variant: { smf-16:universal-tree-line-mod:height: 1000m }
+    assets:
+      - assetId: smf-16-universal-tree-line-mod
+        include:
+          - /1000m.dat
+  - variant: { smf-16:universal-tree-line-mod:height: 1500m }
+    assets:
+      - assetId: smf-16-universal-tree-line-mod
+        include:
+          - /1500m.dat
+  - variant: { smf-16:universal-tree-line-mod:height: 2000m }
+    assets:
+      - assetId: smf-16-universal-tree-line-mod
+        include:
+          - /2000m.dat
+  - variant: { smf-16:universal-tree-line-mod:height: 2500m }
+    assets:
+      - assetId: smf-16-universal-tree-line-mod
+        include:
+          - /2500m.dat
+  - variant: { smf-16:universal-tree-line-mod:height: "off" }
+
+---
+assetId: smf-16-universal-tree-line-mod
+version: "1.0.0"
+lastModified: "2025-04-13T18:20:42Z"
+url: https://community.simtropolis.com/files/file/36819-universal-tree-line-mod/?do=download&r=206927
