@@ -1,0 +1,62 @@
+group: simcoug
+name: maxis-rss-homes
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Maxis R$$ Homes
+  description: |-
+    **Description:**  
+    This is a set of 50 growable R$$ lots using the Maxis R$$ standard homes from the New York and Chicago tile sets.  
+    4 prop families were created from the various Maxis homes and are included with this set in order to maximize the variety of each lot.  
+    In addition, Krashspeed was kind enough to masterfully BAT a set of beautiful mailbox props which are featured on these lots as a sort of sneak-peak. The full mailbox prop set will be released on the STEX shortly.  
+    The included lot sizes are: 1x1, 1x2, 2x1, 1x3 and 2x2  
+    Each lot is modded with nearly identical statistics as the standard Maxis R$$ homes. In addition, these houses will only grow on the Chicago and New York tile sets (growth stages 1-3).  
+    And because these lots include a custom .desc file, maxis blockers will have no effect on these lots. If you truly hate Maxis houses, do not download this set ![:]](https://community.simtropolis.com/assets/emoticons/default_16.gif ":]")  
+      
+    **Dependencies:**  
+    [**JMyers Homes Vol 01**](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2822) ('Props' and 'Textures' folders only)  
+    [**BSC Textures Pack CycleDog Vol 1**](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    [**BSC MEGA Props CP Vol01**](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [**BSC MEGA Props CP Vol02**](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)  
+    [**BSC MEGA Props SG Vol01**](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [**SPAM Super Resource Pack**](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/) (If you already use the full SPAM MOD you do not need this)  
+    [**Maxis bldgprop\_vol1.dat**](https://community.simtropolis.com/library/maxis/sc4/buildings/bldgprop_vol1.dat) (everyone should have this)  
+      
+    **Installation:**  
+    Simply unzip the file and put the entire 'SimCougs Maxis R$$ Homes' folder in your plugins.  
+    If you are picky about lot size, feel free to add or remove the various lot .dat files, as they are organized by lot size.  
+      
+    **Developer notes:**  
+    These could be considered a sequel of sorts to the Jmyers re-lots that I released earlier (with nearly the same dependencies). Like those lots, these lots were built with a more rural/historical feel.  
+    I think they will fit in any city, but you will not see any cars on these lots. Also, these lots take advantage of CP's seasonal flora - so if you do not like your flora changing with the seasons, you have been warned.  
+      
+    **Support:**  
+    For comments, questions or help, please visit **[SimCoug's Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**  
+      
+    **Special Thanks:**  
+    Thanks to OP4 for creating the BLAM blank, which was used as the model for these lots. Also, thanks for the gang over at SimPeg for all the suggestions and encouragement. And finally, a very special thanks to Krashspeed for allowing me to use his great mailbox models.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/28307-simcoug-maxis-r-homes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/32242d2d21c0ccfa3c1b22ac5fd16031-simcoug-maxis-r---1upload-pic-main.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/da8ec9b1fab9a8c4be83a69d74caa548-simcoug-maxis-r---2upload-pic-1x1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/e521eceb8d1fe0a42ab6d01819873c7b-simcoug-maxis-r---3upload-pic-1x2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/5c573872f3771b5cfff33961caa253b3-simcoug-maxis-r---4upload-pic-2x1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/7ba635dd202205f28e07d73233805bf6-simcoug-maxis-r---5upload-pic-1x3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/100b246024280b8561677308d07c7009-simcoug-maxis-r---6upload-pic-2x2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-jmyers-common-props
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - peg:spam-super-resource-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: simcoug-maxis-rss-homes
+
+---
+assetId: simcoug-maxis-rss-homes
+version: "1.0"
+lastModified: "2012-12-20T16:35:28Z"
+url: https://community.simtropolis.com/files/file/28307-simcoug-maxis-r-homes/?do=download&r=109745
