@@ -42,6 +42,7 @@ export default {
 	1180: 'bsc:mega-props-cp-vol01',
 	1181: 'sc4jeeks:parking-textures-vol01',
 	1212: 'bsc:mega-props-kevdan25-vol01',
+	1259: 'bsc:mega-props-jen-p-vol01',
 	1263: 'bsc:mega-props-jes-vol05',
 	1416: 'bsc:mega-props-jes-vol06',
 	1485: 'bsc:mega-props-misc-vol02',

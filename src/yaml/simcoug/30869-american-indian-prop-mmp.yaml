@@ -1,0 +1,48 @@
+group: simcoug
+name: american-indian-prop-mmp
+version: "1.0"
+info:
+  summary: American Indian Prop MMP
+  description: |-
+    **Description:**  
+    This Mayor Mode Ploppable (MMP) allows you to plop various 'American Indian' props around your towns and cities.    
+    The MMP allows 11 clicks to get the desired prop and orientation you wish.  
+    The 12th click is a blank prop to cut down the need for bulldozing.
+
+    **Dependencies:** (Only the .SC4Model files are needed)  
+    \-[Sami props 1 by Glenni](https://community.simtropolis.com/files/file/21217-sami-props/)  
+    \-[Totem Pole by JohnB](https://community.simtropolis.com/files/file/3345-totem-pole/)  
+    \-[BSC MEGA Props Jen\_P Vol01 by Jen\_P](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1259)
+
+    **Installation:**  
+    Simply unzip the file and put the entire  'Indian Props MMP' folder in your plugins (don't forget the dependencies).
+
+    **Developer notes:**   
+    This is another MMP I created a while back that was lost when SimPeg went down.  If you've ever needed to depict Native tribes or other types of historical scenes, now you can!   
+    The icon will show up in your Mayor Mode flora menu.
+
+    **Support:**  
+    For questions regarding this MMP, please feel free to visit my Modding Development Thread ([SimCougs Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)) here on Simtropolis.
+
+    **Special Thanks:**  
+    A very special thanks to Glenni, JohnB and Jen\_P for creating and sharing these wonderful models.
+
+    **EDIT:**  
+    I have re-named the file in order to better describe it intended use.  My CJ focuses on the late 19th century, and includes a number of American Indian tribes, which is the common term in America.  That is how I used this MMP - you are free to use it however you wish.  I didn't intend to alert the PC police, so if I offended you, please accept my apology.  However, if my apology is not enough then by all means please downrate this file to make your voice heard.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/30869-american-indian-prop-mmp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/5672e07f1cc5e_IndianPropsMMPpic.jpg.d143badf7876b8b6348e0d46d53f4392.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IndianPropsSceneSmall.jpg.0cfed83bd2c105782653218f541ea363.jpg
+dependencies:
+  - bsc:mega-props-jen-p-vol01
+  - glenni:sami-props
+  - johnb:totem-pole
+assets:
+  - assetId: simcoug-american-indian-prop-mmp
+
+---
+assetId: simcoug-american-indian-prop-mmp
+version: "1.0"
+lastModified: "2015-12-17T16:34:44Z"
+url: https://community.simtropolis.com/files/file/30869-american-indian-prop-mmp/?do=download&r=159946
