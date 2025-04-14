@@ -35,8 +35,15 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/6PlopLots.jpg.c1c50d3da7b733ff006da5e9f6eb31c2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/1HStitle.jpg.eb5b750368dfebaa8543903e25f879f7.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/2HStitlenight.jpg.c9ff85121957411ffc22464628bc81fd.jpg
-assets:
-  - assetId: simcoug-mattb325s-historic-shops
+variants:
+  - variant: { nightmode: normal }
+    assets:
+      - assetId: simcoug-mattb325s-historic-shops
+        exclude: [ "/Mattb325_Old_Shops_DN.dat" ]
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: simcoug-mattb325s-historic-shops
+        exclude: [ "/Mattb325_Old_Shops_MN.dat" ]
 
 ---
 assetId: simcoug-mattb325s-historic-shops
