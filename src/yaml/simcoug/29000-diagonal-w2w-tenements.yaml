@@ -1,0 +1,97 @@
+group: simcoug
+name: diagonal-w2w-tenements
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Diagonal W2W Tenements
+  description: |-
+    **Disclaimer:**  THIS SET OF LOTS IS NOT FOR EVERYBODY.  Please read below for details.
+
+    **Description:**
+
+    This is a set of 16 growable 1x1 lots using C.P.'s 19th Century Tenements.  
+
+    This is a unique set of lots because it is only intended for placement along diagonal roads, streets or avenues.  
+
+    THESE WILL NOT GROW ALONG ORTHGONAL ROADS.  Each lot is modded to grow on a "corner", which is essentially what every diagonal road looks like to the game simulator.
+
+    8 of the lots will grow on "left corners" and 8 lots will grow on "right corners" so you will see a wide variety of lots.
+
+    In addition, prop families were used liberally on the lots to ensure a diverse look.
+
+    I've included R$ and R$$ lots.  Although the building models are the same, I've used props on the lots to help tell them apart (flowers for R$$ and garbage for R$, etc).          
+
+    Each lot is modded with statistics equivalent to Maxis values.   
+
+    These diagonal lots will ONLY GROW ON THE EURO TILESET (growth stages 5 & 6) with medium and high density zones.
+
+    **Dependencies:**
+
+    **[BSC Textures Pack CycleDog Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)**
+
+    **[BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)**
+
+    **[BSC MEGA Props CP Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)**
+
+    **[BSC MEGA Props SG Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)**
+
+    **[BSC MEGA Props D66 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)**
+
+    **[BSC MEGA Props MJB Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)**
+
+    **[CP Early 19th Century Tenements](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1277)** ('CP\_Early19thCenturyTenements.dat' file only)
+
+    **Installation:**
+
+    Simply unzip the file and put the 'SimCougs Diagonal W2W Tenements' folder in your plugins (don't forget the dependencies).
+
+    Place the 'SimCoug Diagonal W2W Tenements Tutorial' outside of your plugin folder - this is simply a series of images to help you with the placement of these lots.  
+
+    **Developer notes:** 
+
+    I will repeat this again:  THIS SET OF LOTS IS NOT FOR EVERYBODY.  It will take time and patience to grow these lots along diagonal roads as they were intended.  
+
+    While the modding of these lots ensures that they will not grow on orthogonal roads, orthogonal lots can and will grow along diagonal roads.  
+
+    That means you may have a wild mix of lots along your diagonal roads.  In order to keep things in line, you will need to keep your bulldoze tool handy, and be quick to mark the 'Make Historical" box in the query.
+
+    I've used the maxis $$ pavers as the base texture for these lots, so any sidewalk mod you use should override and blend seamlessly with these lots.  
+
+    Please take a look at the tutorial images included with this download for more details.     
+
+    **Support:**
+
+    For comments, questions or help, please visit **SimCoug's Lot&Mod Den**
+
+    **Special Thanks:**
+
+    Thanks to OP4 for creating the BLAM blank, which was used as the building model for these lots.
+
+    A special thanks to C.P. for creating the brilliant Early 19th Century Tenements set (and including diagonal models!)
+
+    Thanks to the great BATers who generously shared their prop models - this set would not be possible without them.  
+
+    Also, thanks for the gang over at SimPeg for all the suggestions and encouragement.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/29000-simcougs-diagonal-w2w-tenements/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/a6ef89616eb5ad71a4355d0f4f955b10-sc-diagonal-w2w-tenements1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/2e700344de9dde7701a161d7a4017316-sc-diagonal-w2w-tenements2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/6bcb2b41d570c1ab422b5ea04dd96323-sc-diagonal-w2w-tenements3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/98f622cd85d7cd4ffd94bc77e002300e-sc-diagonal-w2w-tenements4.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - cycledogg:early-19th-century-tenements-props
+assets:
+  - assetId: simcoug-diagonal-w2w-tenements
+
+---
+assetId: simcoug-diagonal-w2w-tenements
+version: "1.0"
+lastModified: "2013-10-14T22:18:35Z"
+url: https://community.simtropolis.com/files/file/29000-simcougs-diagonal-w2w-tenements/?do=download&r=120158
