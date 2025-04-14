@@ -37,6 +37,14 @@ const packages = glob
 // Always add a bunch of dependencies that come in handy when testing.
 packages.push(...standardDeps);
 
+// Find out what channels we add on top of the default ones. This is useful if 
+// you're using dependencies that are not yet available in the default channel, 
+// so you can use a locally built version of the default channel.
+const channels = (process.env.STANDARD_CHANNELS ?? '')
+	.split(',')
+	.map(channel => channel.trim())
+	.filter(Boolean);
+
 // Now generate the sc4pac-plugins.json file.
 const pluginsRoot = path.resolve(import.meta.dirname, '../dist/plugins');
 const cacheRoot = process.env.SC4PAC_CACHE_ROOT;
@@ -49,6 +57,7 @@ const json = {
 			...standardVariants,
 		},
 		channels: [
+			...channels,
 			'https://memo33.github.io/sc4pac/channel/',
 			pathToFileURL(path.resolve(import.meta.dirname, '../dist/channel'))+'/',
 		],
