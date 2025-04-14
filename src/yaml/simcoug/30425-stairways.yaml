@@ -1,0 +1,70 @@
+group: simcoug
+name: stairways
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Stairways
+  description: |-
+    **Description:**
+
+    This is a set of 9 stairway lots that allows sims to traverse slopped terrain safely (no more sliding down steep hills on your butt).
+
+    There are two lot versions - one that requires no dependencies (Stairway\_NoDependency\_Lots) and one that only requires BSC MEGA Props - CP Vol01 (Stairway\_CP\_Lots).  
+
+    If you want to play with only the no dependency lots, simply delete the Stairway\_CP\_Lots.dat file and you are good to go. 
+
+    You will find all the lots grouped together in the park menu (probably towards the bottom of the menu, depending on your plugins).  Each lot if $5 to plop, but no maintenance costs.
+
+    These lots can be safely placed at almost any slope, but as you go beyond a 15m slope, the stairs will begins to look pretty steep as well.
+
+    Every lot is transit enabled for pedestrians, so sims can travel through the lot without a problem.
+
+    Go ahead, build your very own Sim-Stairway to Heaven. 
+
+    **Dependencies:**
+
+    None - unless you want to use the Stairway\_CP\_Lots, in which case you will need:
+
+    **[BSC MEGA Props - CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)**
+
+    **Installation:**
+
+    Simply unzip the file and put the entire 'SimCougs Stairways' folder in your plugins (don't forget the dependency if you intend to use the CP lots).  
+
+    **Developer notes:** 
+
+    These lots should blend in with most towns or cities - there is a number of different lot configurations, including a simple stairway without any base texture.
+
+    The base textures are compliant with sidewalk overrides.
+
+    **Support:**
+
+    For comments, questions or help, please visit **[SimCoug's Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**
+
+    **Special Thanks:**
+
+    A huge thanks goes out to **Reddonquixote** for modeling the stairs and putting up with countless failed renders (apparently the BAT doesn't like stair props).
+
+    **mgb** (aka rsc204) was also deserves a big shout out for helping me with the transit modding.
+
+    Finally, I'd like to thank uroncha for giving me the initial idea for these lots with his '**[Adjustable Stairway](https://community.simtropolis.com/files/file/13908-adjustable-stairway/)**' lot that can be found on the STEX.  
+
+    Enjoy!
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/30425-simcougs-stairways/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/cd9f810e9f650d1b0dae2fbce93f7a5a-1stairwaytitile.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/f454a1eedc70fe9c62b5043ef94c5f9f-2stairwayslopeexamples.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/7d4765b152deeb5b90b1148da3231aee-3stairwaynodependencylots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/44b34208f774f73378d87372256029a1-4stairwaycpmegapropslots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/bbcb6eeef3de686af917218c2ec56c75-5stairwaytransiting.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: simcoug-stairways
+
+---
+assetId: simcoug-stairways
+version: "1.0"
+lastModified: "2015-04-08T13:32:05Z"
+url: https://community.simtropolis.com/files/file/30425-simcougs-stairways/?do=download&r=153355
