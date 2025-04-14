@@ -1,0 +1,46 @@
+group: simcoug
+name: ruins-mmp
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Ruins MMP
+  description: |-
+    **Description:**  
+    This Mayor Mode Ploppable (MMP) allows you to plop various 'ruins' props around your towns and cities.    
+    The icon will show up in your Mayor Mode flora menu.   
+    The MMP cycles through 19 total clicks, starting with small rubble and ending with the large ruined buildings.  
+    The final click is a blank prop to reduce the need for bulldozing.
+
+    **Dependencies:** (Only the .SC4Model files are needed)  
+    \-**[Ruins by delija21](https://community.simtropolis.com/files/file/21560-ruins/)**  
+    \-**[WW2 Destroyed Buildings V1 by EvilCoolKid](https://community.simtropolis.com/files/file/20065-ww2-destroyed-buildings-v1/)**  
+    \-**[WW2 Destroyed Buildings V2 by EvilCoolKid](https://community.simtropolis.com/files/file/20073-ww2-destroyed-buildings-v2/)**
+
+    **Installation:**  
+    Simply unzip the file and put the entire 'SimCougs Ruins MMP' folder in your plugins (don't forget the dependencies).
+
+    **Developer notes:**   
+    This is another MMP I created a while back that was lost when SimPeg went down.  If you've ever needed to depict a disaster or 'blight' an area of your town, now you can!
+
+    **Support:**  
+    For questions regarding this MMP, please feel free to visit my Modding Development Thread (**[SimCougs Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**) here on Simtropolis.
+
+    **Special Thanks:**  
+    A very special thanks to delija21 and EvilCoolKid for creating and sharing these wonderful destroyed building models.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/30690-simcougs-ruins-mmp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/Ruins_MMP_pic1.jpg.03739ecdc91d9f37fae033b965c36d36.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/Ruins_MMP_pic2.jpg.f5abb482c1e06037d08c3d81f227dbaf.jpg
+dependencies:
+  - delija21:ruins-resources
+  - evilcoolkid:ww2-destroyed-buildings-vol01
+  - evilcoolkid:ww2-destroyed-buildings-vol02
+assets:
+  - assetId: simcoug-ruins-mmp
+
+---
+assetId: simcoug-ruins-mmp
+version: "1.0"
+lastModified: "2015-07-21T15:39:24Z"
+url: https://community.simtropolis.com/files/file/30690-simcougs-ruins-mmp/?do=download&r=158402

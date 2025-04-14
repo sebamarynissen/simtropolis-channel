@@ -1,0 +1,49 @@
+group: simcoug
+name: peg-coast-guard-boats
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: PEG Coast Guard Boats
+  description: |-
+    **Description:**
+
+    This is just a pair of lots that enable you to plop the PEG Coast Guard boats (Cutter and Patrol Boat) by themselves anywhere in the water.  
+
+    Previously, these were part of an excellent PEG Coast Guard lot, but the boats were moored on the pier - now you can get these babies going out on the open ocean ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif ":)")
+
+    **Dependencies:**
+
+    **[PEG\-CDK3 Coast Guard Station](https://community.simtropolis.com/files/file/19362-peg-cdk3-coast-guard-station/)**
+
+    (specifically, the \**PEG\_CDK3\_CG-Equiptment\_RESOURCE.dat*)
+
+    **Installation:**
+
+    Simply unzip the file and put the entire 'SimCougs PEG CG Boats' folder in your plugins (don't forget the dependencies).  
+
+    **Developer notes:** 
+
+    You will find these boats under the 'Water Transportation' menu - simply plop them where ever you like.  No costs or benefits - these are simply eye-candy lots.    
+
+    **Support:**
+
+    For comments, questions or help, please visit **[SimCoug's Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**
+
+    **Special Thanks:**
+
+    Thanks to Pegasus for creating these awesome models, and thanks to Chris11 for the request.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/28957-simcougs-peg-coast-guard-boats/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/03962600715700cb3720a49a28f99364-peg-cg-boats-pic1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2013/5bc74deb5bff59d6512568e92d2a49ec-peg-cg-boats-pic2.jpg
+dependencies:
+  - peg:cdk3-coast-guard-station-resource
+assets:
+  - assetId: simcoug-peg-coast-guard-boats
+
+---
+assetId: simcoug-peg-coast-guard-boats
+version: "1.0"
+lastModified: "2013-09-06T13:37:43Z"
+url: https://community.simtropolis.com/files/file/28957-simcougs-peg-coast-guard-boats/?do=download&r=119696

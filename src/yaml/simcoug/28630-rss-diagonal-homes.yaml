@@ -1,0 +1,77 @@
+group: simcoug
+name: rss-diagonal-homes
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: R$$ Diagonal Homes
+  description: |-
+    **Disclaimer:**  THIS SET OF LOTS IS NOT FOR EVERYBODY.  Please read below for details.  
+       
+    **Description:**  
+    This is a set of 30 growable R$$ lots using C.P.'s wonderful 19th Century $$ Houses.    
+    This is a unique set of lots because it is only intended for placement along diagonal roads, streets or avenues.    
+    THESE WILL NOT GROW ALONG ORTHGONAL ROADS.  Each lot is modded to grow on a "corner", which is essentially what every diagonal road looks like to the game simulator.  
+    15 of the lots will grow on "left corners" and 15 lots will grow on "right corners" so you will see a wide variety of lots.  
+    In addition, prop families were used liberally on the lots to ensure a diverse look.          
+    The included lot sizes are: 1x1, 1x2, 1x3, and 2x2.  
+    Each lot is modded with statistics equivalent to Maxis R$$ standard home values.    
+    These diagonal lots will only grow on the Chicago tileset (growth stages 1-3).  
+       
+       
+    **Dependencies:**  
+    **[BSC Textures Pack CycleDog Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)**  
+    **[BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)**  
+    **[BSC MEGA Props CP Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)**  
+    **[BSC MEGA Props SG Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)**  
+    **[SPAM Super Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/)** (If you already use the full SPAM MOD you do not need this)  
+    **[JMyers Homes Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2822)** ('Props' and 'Textures' folders only)  
+    **[CP Early 19th Century $$ Houses](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=686)** ('*CP\_Early19thCent\_MedHse\_models.dat*' file only)  
+       
+       
+    **Installation:**  
+    Simply unzip the file and put the 'SimCougs R$$ Diagonal Homes' folder in your plugins (don't forget the dependencies).  
+    Place the 'SimCoug Diagonal Home Tutorial' outside of your plugin folder - this is simply a series of images to help you with the placement of these lots.    
+       
+       
+    **Developer notes:**   
+    I will repeat this again:  THIS SET OF LOTS IS NOT FOR EVERYBODY.  It will take time and patience to grow these lots along diagonal roads as they were intended.    
+    While the modding of these lots ensures that they will not grow on orthogonal roads, orthogonal lots can and will grow along diagonal roads.    
+    That means you mayhave a wild mix of lots along your diagonal roads.  In order to keep things in line, you will need to keep your bulldoze tool handy, and be quick to mark the 'Make Historical" box in the query.  
+    Please take a look at the tutorial images included with this download for more details.       
+       
+       
+    **Support:**  
+    For comments, questions or help, please visit **[SimCoug's Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**  
+       
+       
+    **Special Thanks:**  
+    Thanks to OP4 for creating the BLAM blank, which was used as the building model for these lots.  
+    A special thanks to C.P. for creating the brilliant 19th Century $$ House set (and including diagonal models!)  
+    Thanks to the great BATers who generously shared their prop models - this set would not be possible without them.    
+    Also, thanks for the gang over at SimPeg for all the suggestions and encouragement.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/28630-simcougs-r-diagonal-homes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/ca38332d78e7ca24abfddacfd9256b58-0simcoug-r---diagonal-title.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/443f20fd007aab1e06f5fd8193330c93-1simcoug-r---diagonal-1x1-lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/d0916b913c0d1e311a8fb11685b8512c-2simcoug-r---diagonal-1x2-lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/30d2f2d0f12a397cb8a4026b5bba03c5-3simcoug-r---diagonal-1x3-lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/fa84e4801c49ab36974e57a3fe5bfbe3-4simcoug-r---diagonal-2x2-lots.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-jmyers-common-props
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - cycledogg:early-19th-century-r2-props
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - peg:spam-super-resource-pack
+assets:
+  - assetId: simcoug-rss-diagonal-homes
+
+---
+assetId: simcoug-rss-diagonal-homes
+version: "1.0"
+lastModified: "2013-04-08T21:35:56Z"
+url: https://community.simtropolis.com/files/file/28630-simcougs-r-diagonal-homes/?do=download&r=113901
