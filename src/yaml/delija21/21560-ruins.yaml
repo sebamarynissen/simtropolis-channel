@@ -1,0 +1,51 @@
+group: delija21
+name: ruins
+version: "1.0"
+info:
+  summary: Ruins
+  description: |-
+    Just some destroyed buildings i made for my CJ
+
+    Including 5 LM buildings
+
+    Plop cost: 1
+
+    Monthly cost: 0
+
+    DEPENDENCIES:  NONE
+
+    Enjoy
+  author: delija21
+  website: https://community.simtropolis.com/files/file/21560-ruins/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4abd146be717d4110a0eb55ad64480a1-1.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4abd146be717d4110a0eb55ad64480a1-2.jpg
+dependencies:
+  - delija21:ruins-resources
+assets:
+  - assetId: delija21-ruins
+    include:
+      - \.SC4Desc$
+      - \.SC4Lot$
+
+---
+group: delija21
+name: ruins-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Ruins resources
+  description: |-
+    This package is a resource for `pkg=delija21:ruins`
+  author: delija21
+  website: https://community.simtropolis.com/files/file/21560-ruins/
+assets:
+  - assetId: delija21-ruins
+    include:
+      - \.SC4Model$
+
+---
+assetId: delija21-ruins
+version: "1.0"
+lastModified: "2009-04-16T15:10:58Z"
+url: https://community.simtropolis.com/files/file/21560-ruins/?do=download&r=47547
