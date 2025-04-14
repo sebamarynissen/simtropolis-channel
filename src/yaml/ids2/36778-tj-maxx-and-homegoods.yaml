@@ -1,0 +1,55 @@
+group: ids2
+name: tj-maxx-and-homegoods
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: TJ Maxx and HomeGoods
+  description: |-
+    I usually don't mess with suburban retail, but I thought I would try something new. This a TJ Maxx/HomeGoods combo store, based on the real life one in Gretna, Nebraska.
+
+    This building sits on a 5x7 lot and comes in growable and ploppable CS$ varieties, both of which provide 847 jobs.
+
+    Both Darknite and Maxisnite versions are provided. Only one may be used at a time. The Darknite version requires [SimFox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**:
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (specifically CP Vol01 and CP Vol02)
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/36778-tj-maxx-and-homegoods/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/icon.jpg.e1b77a9cf2d8b0c0b66ab87656238066.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/day1.jpg.05380d37fe669969e863568344c643bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/day2.jpg.a3b5a6b153bb1608cf709e8ba9cc51e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/night1.jpg.a996702d11d59ca15a866982b92b2d7f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/night2.jpg.6c2f3bdd02adf9ef0915658d420a160a.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-tj-maxx-and-homegoods-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-tj-maxx-and-homegoods-darknite
+
+---
+assetId: ids2-tj-maxx-and-homegoods-darknite
+version: "1.0.0"
+lastModified: "2025-03-18T17:54:03Z"
+url: https://community.simtropolis.com/files/file/36778-tj-maxx-and-homegoods/?do=download&r=206534
+
+---
+assetId: ids2-tj-maxx-and-homegoods-maxisnite
+version: "1.0.0"
+lastModified: "2025-03-18T17:54:03Z"
+url: https://community.simtropolis.com/files/file/36778-tj-maxx-and-homegoods/?do=download&r=206535
