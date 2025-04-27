@@ -3,38 +3,73 @@ name: stop-sign-pack
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Frex_Ceafus Stop Sign Pack
+  summary: Stop Sign Pack
   description: |-
     Hello, I am proud to bring you a stop sign pack made by myself, but this is more than just any regular stop sign pack, but a pack that includes stop signs from other countries, including,
-
-    -   China  
+    -   China
+    -   U.S.A
+    -   UK
+    -   Japan
+    -   and South America
         
-    -   U.S.A  
-        
-    -   UK  
-        
-    -   Japan  
-        
-    -   and South America  
-        
-
     Please only choose one of these to put in your plugin's folder, and enjoy your favorite stop signs!
 
     [Frex\_Ceafus](http://simcity4kingdom.jrhmedia.net)
   author: Ceafus 88
   website: https://community.simtropolis.com/files/file/27490-frex_ceafus-stop-sign-pack/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_04_2012/dff5e3d7a8f057b5f1155ef935a67639-.png
-    - https://www.simtropolis.com/objects/screens/monthly_04_2012/07d821732e53eb336d0c8964aa3f2d76-.png
-    - https://www.simtropolis.com/objects/screens/monthly_04_2012/7e1fd709ed872173237c3b09c6aa80f2-.png
-    - https://www.simtropolis.com/objects/screens/monthly_04_2012/4f148aca655c0f3ea794ac18070008e4-.png
-    - https://www.simtropolis.com/objects/screens/monthly_04_2012/924ae669df8229da355936d83d175fd3-.png
-    - https://www.simtropolis.com/objects/screens/monthly_04_2012/470ac81b6285af654dbf84add2efad09-.png
+  - https://www.simtropolis.com/objects/screens/monthly_04_2012/dff5e3d7a8f057b5f1155ef935a67639-.png
+  - https://www.simtropolis.com/objects/screens/monthly_04_2012/07d821732e53eb336d0c8964aa3f2d76-.png
+  - https://www.simtropolis.com/objects/screens/monthly_04_2012/7e1fd709ed872173237c3b09c6aa80f2-.png
+  - https://www.simtropolis.com/objects/screens/monthly_04_2012/4f148aca655c0f3ea794ac18070008e4-.png
+  - https://www.simtropolis.com/objects/screens/monthly_04_2012/924ae669df8229da355936d83d175fd3-.png
+  - https://www.simtropolis.com/objects/screens/monthly_04_2012/470ac81b6285af654dbf84add2efad09-.png
 assets:
-  - assetId: ceafus-88-stop-sign-pack
+- assetId: ceafus-88-stop-sign-pack
+variants:
+- variant: { ceafus-88:stop-sign-pack:country: "usa" }
+  assets:
+  - assetId: "ceafus-88-stop-sign-pack"
+    include:
+    - "/US Stop Sign-0x5ad0e817_0x9c9788fa_0x30000.SC4Model"
+- variant: { ceafus-88:stop-sign-pack:country: "china" }
+  assets:
+  - assetId: "ceafus-88-stop-sign-pack"
+    include:
+    - "/China Stop Sign-0x5ad0e817_0x5c9780c0_0x30000.SC4Model"
+- variant: { ceafus-88:stop-sign-pack:country: "uk" }
+  assets:
+  - assetId: "ceafus-88-stop-sign-pack"
+    include:
+    - "/Euro Stop Sign-0x5ad0e817_0x5c978851_0x30000.SC4Model"
+- variant: { ceafus-88:stop-sign-pack:country: "japan" }
+  assets:
+  - assetId: "ceafus-88-stop-sign-pack"
+    include:
+    - "/Japan Stop Sign-0x5ad0e817_0x1c986468_0x30000.SC4Model"
+- variant: { ceafus-88:stop-sign-pack:country: "south-america" }
+  assets:
+  - assetId: "ceafus-88-stop-sign-pack"
+    include:
+    - "/South America Stop Sign-0x5ad0e817_0xfc97879d_0x30000.SC4Model"
+variantInfo:
+- variantId: "ceafus-88:stop-sign-pack:country"
+  description: Choose the stop sign style from a variety of areas across the globe.
+  values:
+  - value: "usa"
+    description: American style stop signs
+  - value: "china"
+    description: Chinese style stop signs
+  - value: "uk"
+    description: UK/Euro style stop signs
+  - value: "china"
+    description: Japanese style stop signs
+  - value: "south-america"
+    description: South American style stop signs
 
 ---
 assetId: ceafus-88-stop-sign-pack
 version: "1.0"
 lastModified: "2012-04-18T20:58:53Z"
 url: https://community.simtropolis.com/files/file/27490-frex_ceafus-stop-sign-pack/?do=download&r=99575
+
