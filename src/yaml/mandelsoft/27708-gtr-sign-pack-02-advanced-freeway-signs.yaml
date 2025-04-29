@@ -1,0 +1,82 @@
+group: mandelsoft
+name: gtr-sign-pack-02
+version: "2,0"
+subfolder: 700-transit
+info:
+  summary: GTR Sign Pack 02 - Advanced Freeway Signs
+  description: |-
+    **DESCRIPTION**
+
+    This pack contains version 3 of the GTR Signage Set. This version has undergo a lot of changes compared to the previous version, all in benefit of realism. This pack 45 contains signs for the RHW\-6S, 8C, 8S and 10S, for advanced interchange setups.
+
+    This pack is the second out of packs:
+
+    1\. Basic Freeway Sign Set
+
+    2\. Advanced Freeway Sign Set
+
+    3\. Non-Freeway Sign Set
+
+    #### FILES
+
+    This pack contains the following files:
+
+    \- *GTR Sign Pack 02 - Advanced Freeway.dat*  
+    This file contains all stuff for this pack.
+
+    \- *Request\_Signage\_Submenu.dat*
+
+    This file contains the submenu support
+
+    \- *Readme.txt*  
+    The readme of this pack
+
+    \- *Cleanitol\_Modern\_GTR\_Advanced\_Sign\_Set.txt.txt*  
+    This file allows you to remove previous versions of the file.
+
+     **INSTALLATION**
+
+    \- Extract the ZIP-file.
+
+    \- Copy "*MandelSoft*" folder into your plugin folder to install.
+
+    **UNINSTALLATION**
+
+    To uninstall the pack, remove the files from your Plugins folder.
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer [nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the older [BSC Cleanitol](https://community.simtropolis.com/files/file/21861-resvis-canal/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool you can search and remove old and outdated versions of these files.
+
+    ### DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    -   [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    **DEPENDENCIES**
+
+    [**SC4DOT - GTR Sign Pack 01 - Basic Freeway Signs**](https://community.simtropolis.com/files/file/25179-sc4dot-gtr-sign-pack-01-basic-freeway-signs/)
+
+    **RECOMMENDED DOWNLOAD**
+
+    -   [**SC4DOT - German Matrix Sign Pack**](https://community.simtropolis.com/files/file/24154-sc4dot-german-matrix-sign-pack/)
+
+    Enjoy!
+
+    ***MRTNRLN***
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/27708-gtr-sign-pack-02-advanced-freeway-signs/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/87d996bc7044670b1a86602b97f6f0db-.png
+dependencies:
+  - mandelsoft:gtr-sign-pack-01
+  - memo:submenus-dll
+assets:
+  - assetId: mandelsoft-gtr-sign-pack-02-advanced-freeway-signs
+
+---
+assetId: mandelsoft-gtr-sign-pack-02-advanced-freeway-signs
+version: "2,0"
+lastModified: "2024-09-07T01:10:06Z"
+url: https://community.simtropolis.com/files/file/27708-gtr-sign-pack-02-advanced-freeway-signs/?do=download&r=203333
