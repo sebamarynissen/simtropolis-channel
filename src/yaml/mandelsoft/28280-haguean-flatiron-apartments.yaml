@@ -1,0 +1,112 @@
+group: mandelsoft
+name: haguean-flatiron-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Haguean Flatiron Apartments
+  description: |-
+    The Haguean Apartments building is a high-rise residential building loosely based upon the “Strijkijzer” building in the Hague, which has been inspired upon the Flatiron Building in New York City. Build in 2005, the building has 42 floors and it goes up to 132m into the sky, making it the tallest residential tower in the Hague and therefore one of the dominating buildings in the city’s skyline.
+
+    This BAT is available as growable stage 8 R$$ building or as a plopable CO$$$ building in the Landmarks menu.
+
+    **Installation**
+
+    Residential, Medium Wealth ($$), Growable
+
+    Name: Haugean Flatiron Apparments
+
+    Building Stage 8 (high density)
+
+    Building Style Euro Contemporary
+
+    Capacity R$$: 2475(R$: 4481)
+
+    Power consumption 34 MW
+
+    Water consumption 91 m3
+
+    Building value $ 64 600
+
+    Bulldoze cost $ 1 825
+
+    Pollution Air: 20 (radius: 5 tiles) Water: 10 (radius: 6 tiles) Garbage: 10
+
+    Offices, High Wealth ($$$), Plopable
+
+    Name Haugean Flatiron Offices
+
+    Building Menu Landmarks
+
+    Capacity CO$$$: 1386 (CO$$: 1981)
+
+    Power consumption 56 MW
+
+    Water consumption 609 m3
+
+    Construction cost $ 64 600
+
+    Bulldoze cost $ 1 883
+
+    Pollution Air: 8 (radius: 6 tiles) Water: 8 (radius: 7 tiles) Garbage: 8
+
+    **Installation**
+
+    Installation is quite simple: just download one of the two ZIP files and extract them to your plugins folder:
+
+    · *BNL Haguean Flatiron Apartments (DarkNite).zip*
+
+    Download this ZIP file only when you have SimFox’s DarkNite Mod installed.
+
+    · *BNL Haguean Flatiron Apartments (MaxisNite).zip*
+
+    If you don’t have SimFox’s DarkNite Mod installed, download this version.
+
+    **Uninstallation**
+
+    To uninstall this building, demolish every instance of this building and remove the files from this mod from your Plugins folder.
+
+    **Dependencies**
+
+    This mod uses the following dependencies.
+
+    · BSC Mega Props CP Vol.01
+
+    · [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    · [BSC Mega Textures Vol.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    · [BSC Mega Textures Vol.03](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1806)
+
+    Enjoy!
+
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28280-haguean-flatiron-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/ac9b1d0fc9ab9d62052271c3730b80e6-bat_strijkijzer_promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/b52bdcbb91a1d22d056c1d033d4f01dc-bat_strijkijzer_screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/d358a488c30151c9d4ea5b77e8b6848c-bat_strijkijzer_screen02.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mandelsoft-haguean-flatiron-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mandelsoft-haguean-flatiron-apartments-darknite
+
+---
+assetId: mandelsoft-haguean-flatiron-apartments-darknite
+version: "1.0"
+lastModified: "2012-12-07T19:27:20Z"
+url: https://community.simtropolis.com/files/file/28280-haguean-flatiron-apartments/?do=download&r=109415
+
+---
+assetId: mandelsoft-haguean-flatiron-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-12-07T19:27:20Z"
+url: https://community.simtropolis.com/files/file/28280-haguean-flatiron-apartments/?do=download&r=109416

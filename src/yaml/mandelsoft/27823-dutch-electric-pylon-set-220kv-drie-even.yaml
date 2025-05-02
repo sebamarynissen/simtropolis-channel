@@ -1,0 +1,64 @@
+group: mandelsoft
+name: dutch-electric-pylon-set-220kv-drie-even
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Dutch Electric Pylon Set - 220KV - "Drie-Even"
+  description: |-
+    This pack contains 11 Dutch 220 kV Electric Pylons of the Drie-Even model. It may be not the most common type of power pylon in the Netherlands (the Donaumast is more dominant), but in other parts of the world it's a more generic appearance.  
+      
+    The following pylons are included:
+
+    -   8 straight section pylon types, orthagonal and diagonal in four flavours.
+    -   2 turn pylons, 45 degree left and right turns.
+    -   1 termination/substation/end pylon (orthagonal only). Produces 1500 kWh, "transfered" from other cities.
+
+    Pylons are available in two types: wired (flat land only) and wireless (slope-friendly)  
+      
+    **FILES**  
+    This pack contains the following files.  
+      
+    \- *ElectricPylon\_NL\_DrieEven\_220kv.dat*  
+    This file contains all stuff for this pack.  
+      
+    \- *Readme.txt*  
+    The readme of this pack.  
+      
+      
+    **INSTALLATION**
+
+    -   Extract the ZIP-file.
+    -   Copy "*ElectricPylon\_NL\_DrieEven\_220kv.dat*" into your plugin folder to install.
+    -   You'll find the pylons in the Electricity Utility menu.
+
+    **UNINSTALLATION**  
+    To uninstall the pack, remove "*ElectricPylon\_NL\_DrieEven\_220kv.dat*" from your Plugins folder.  
+      
+    **DEPENDENCIES**  
+    This pack has one optional dependency to enhance the appearance substation pylon:
+
+    -   [German Themed 220kV high voltage pylons (HD) 1.01](https://community.simtropolis.com/files/file/26735-german-themed-220kv-high-voltage-pylons-hd/)
+
+    Enjoy!  
+    Maarten/MandelSoft
+
+    Mod edit 15th May 2017 - Fixed formatting
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/27823-dutch-electric-pylon-set-220kv-drie-even/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/42af014ad7a98f78c2024d224ab917bf-electricpylon_nl_drieeven_220kv_banner.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/252c65c0246d56dcd992d79dd1d63663-electricpylons_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/94262a883eb4c67b7735b1eaaaa18413-electricpylons_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/23aa10899e3f6a69fce768ce5db30a91-electricpylons_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/407c34f6cceacfb238fbb1f8d7b4848e-electricpylons_06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/4c91534b20ce95cf3d149ecf857b3887-electricpylons_07.jpg
+dependencies:
+  - buzzit:german-themed-220kv-high-voltage-pylons
+assets:
+  - assetId: mandelsoft-dutch-electric-pylon-set-220kv-drie-even
+
+---
+assetId: mandelsoft-dutch-electric-pylon-set-220kv-drie-even
+version: "1.0"
+lastModified: "2012-07-14T14:41:25Z"
+url: https://community.simtropolis.com/files/file/27823-dutch-electric-pylon-set-220kv-drie-even/?do=download&r=103478

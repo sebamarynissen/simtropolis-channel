@@ -1,0 +1,75 @@
+group: mandelsoft
+name: gtr-signs
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: GTR Signs - Version 2
+  description: |-
+    **GTR Signs - Version 2**
+
+    This is a RHW 3.0 compatible, HD-quality singage pack GTR-style. There are over 50(!) different sign models included. The pack also includes Speed control signs for all (Rural) Highway widths. To install this pack, simply place *GTR Signs.dat* into your plugin folder  
+      
+    **Note to users of the previous version:**  
+    This pack contains re-made sign models. Before installation you MUST delete all files of the previous GTR signage sets due to ID conflicts. *GTR Signs.dat* contains all new models, descriptors and lots for the sign pack. The signs that are currently placed in the city, are updated automaticly.
+
+    #### FILES
+
+    This pack contains the following files:
+
+    \- *GTR Signs.dat*  
+    This file contains all stuff for this pack.
+
+    \- *Request\_Signage\_Submenu.dat*
+
+    This file contains the submenu support
+
+    \- *Readme.txt*  
+    The readme of this pack
+
+    \- *Cleanitol\_Old\_GTR\_Sign\_Set.txt*  
+    This file allows you to remove previous versions of the file.
+
+     **INSTALLATION**
+
+    \- Extract the ZIP-file.
+
+    \- Copy "*MandelSoft*" folder into your plugin folder to install.
+
+    **UNINSTALLATION**
+
+    To uninstall the pack, remove the files from your Plugins folder.
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer [nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the older [BSC Cleanitol](https://community.simtropolis.com/files/file/21861-resvis-canal/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool you can search and remove old and outdated versions of these files.
+
+    ### DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    -   [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    **DEPENDENCIES**
+
+    This pack has no dependencies.
+
+      
+    If you notice any bugs or problems, please inform me.  
+      
+    Enjoy,  
+    Maarten
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/21592-gtr-signs-version-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9fce2644c901fc1c871413da07faa5f7-GTR Signs Prim.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9fce2644c901fc1c871413da07faa5f7-GTR Signs Sec.jpg
+dependencies:
+  - memo:submenus-dll
+assets:
+  - assetId: mandelsoft-gtr-signs-version-2
+
+---
+assetId: mandelsoft-gtr-signs-version-2
+version: "2.0"
+lastModified: "2024-09-07T01:04:43Z"
+url: https://community.simtropolis.com/files/file/21592-gtr-signs-version-2/?do=download&r=203327

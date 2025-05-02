@@ -1,0 +1,54 @@
+group: mandelsoft
+name: custom-turn-arrow-sets-for-rhw-and-tuleps
+version: "1.0"
+subfolder: 700-transit
+info:
+  warning: This mod was created after NAM 30's release. Compatibility may not be assured for all future NAM releases.
+  summary: MandelSoft's Custom Turn Arrow Sets (for RHW and TuLEPs)
+  description: |-
+    This mod (which comes in two parts) changes the arrows on the TuLEPs and RHW Cosmetic Pieces to custom ones without changing the underlying base textures. Currently there are 13 sets in total. An overview of all current sets (left are the arrows used on the RHW, right are the arrows for the TuLEPs) can be found in the image below.
+
+    There are three ZIPs contain the following files:
+
+    \- TuLEPs\_CustomArrows\_LHD.zip
+
+    \- TuLEPs\_CustomArrows\_RHD.zip
+
+    Contains the model overrides for the TuLEPs. Only install one of these two zips, depending if your traffic drives on the left (LHD) or the right (RHD).
+
+    \- TuLEPs\_CustomArrows\_Sets.zip
+
+    Contains all custom arrow set overrides. Install only ONE of these sets, only the set you want to see.
+
+    These files should be loaded after the NAM and especially after the RealHighway Mod.'
+
+    Enjoy!
+
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28170-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/23909e1e6a6757358c9e067817cc581e-custom_arrows_promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/6862465f292ae854cbe16dfec0276ec2-arrow_textures_styles.png
+assets:
+  - assetId: mandelsoft-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps-part0
+  - assetId: mandelsoft-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps-part1
+  - assetId: mandelsoft-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps-part2
+
+---
+assetId: mandelsoft-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps-part0
+version: "1.0"
+lastModified: "2012-11-01T17:08:36Z"
+url: https://community.simtropolis.com/files/file/28170-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps/?do=download&r=108212
+
+---
+assetId: mandelsoft-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps-part1
+version: "1.0"
+lastModified: "2012-11-01T17:08:36Z"
+url: https://community.simtropolis.com/files/file/28170-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps/?do=download&r=108213
+
+---
+assetId: mandelsoft-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps-part2
+version: "1.0"
+lastModified: "2012-11-01T17:08:36Z"
+url: https://community.simtropolis.com/files/file/28170-mandelsofts-custom-turn-arrow-sets-for-rhw-and-tuleps/?do=download&r=108214

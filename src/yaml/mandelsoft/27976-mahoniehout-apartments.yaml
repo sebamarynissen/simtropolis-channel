@@ -1,0 +1,70 @@
+group: mandelsoft
+name: mahoniehout-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Mahoniehout Apartments
+  description: |-
+    **Name:** Mahoniehout Apartments
+
+    **RL Location:** Zoetermeer, the Netherlands
+
+    **Building Type:** Ressidential, medium wealth ($$)
+
+    **No. Occupants:** 112
+
+    **Power consumption:** 2
+
+    **Water consumption:** 15
+
+    Five of these apartment blocks were designed and constructed in the 1990s in the new suburb Rokkeveen-West in Zoetermeer. Their look is quite generic and modern and therefore they can fit in any Western suburb. This building comes with two lots. One 3x3 Stage 4 lot and a smaller 2x3 Stage 5 lot.
+
+    **Dependencies:**
+
+    The following files are required for this BAT:
+
+    -   [BSC MEGA Props - CP Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+        
+    -   [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+        
+    -   [BSC Textures Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)  
+        
+
+    • MaxisNite and DarkNite night versions included.
+
+    • Dark Nite requires the [Day and Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/).
+
+    Enjoy!
+
+    Maarten/MandelSoft
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/27976-bnl-mahoniehout-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/0b6e216cddab5cabfc1e4b0f69b8a89a-bnl_mahoniehout_appartments_banner.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/8ff6a9a89948ada54d7fbc3c98ac0730-bnl_mahoniehout_apartments_lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/288e6ad987f6c9f9ac0ffd0a0529fa6b-bnl_mahoniehout_apartments_screenshot_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/d034e2f55d5c5719b99e116779fcebbd-bnl_mahoniehout_apartments_screenshot_night.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mandelsoft-bnl-mahoniehout-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mandelsoft-bnl-mahoniehout-apartments-darknite
+
+---
+assetId: mandelsoft-bnl-mahoniehout-apartments-darknite
+version: "1.0"
+lastModified: "2012-08-27T12:41:09Z"
+url: https://community.simtropolis.com/files/file/27976-bnl-mahoniehout-apartments/?do=download&r=105618
+
+---
+assetId: mandelsoft-bnl-mahoniehout-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-08-27T12:41:09Z"
+url: https://community.simtropolis.com/files/file/27976-bnl-mahoniehout-apartments/?do=download&r=105619

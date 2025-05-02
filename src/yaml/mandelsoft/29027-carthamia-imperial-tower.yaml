@@ -1,0 +1,76 @@
+group: mandelsoft
+name: carthamia-imperial-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Carthamia Imperial Tower
+  description: |-
+    The **Imperial Tower of Carthamia** (a fictional country by **Katherman111**) is a broadcasting tower built in Pötama, the Carthamian capital city. This 500m tall tower, completed in 1986 services three purposes. First, it’s a broadcasting tower for TV and cell phone transmissions. Second, it’s a tourist attraction, offering a panoramic view over the city in the Sky Restaurant in the Sphere at 360m above the ground. Third, it is a war monument to celebrate the victory over the Tholenian occupation in 1981.  
+       
+    With its all-round presence, this tower dominates the skyline of Pötama and is therefore a well-known Carthamian landmark.
+
+    Special thanks to Arne (**Katherman111**) for inspiring me to make this BAT!
+
+    **Statistics**  
+    **Name:** Imperial Tower, Carthamia  
+    **Building Menu:**  Landmarks  
+    **Capacity:** CS$$$: 53 (CS$$: 127) (CS$: 498)  
+    **Power consumption:**14 MW  
+    **Water consumption:**130 m3  
+    **Construction cost:** $ 2 234  
+    **Bulldoze cost:** $ 115  
+    **Pollution:** Air: 3 (radius: 6 tiles); Water: 2 (radius: 7 tiles); Garbage: 4 (radius: 0 tiles)  
+      
+    **Installation**  
+    For installation, there are two ZIPs available:  
+       
+    ·         *CS$$$\_CarthamiaImperialTower\_Darknite.zip*  
+    Download this ZIP file only when you have *SimFox’s DarkNite Mod* installed.  
+       
+    ·         *CS$$$\_CarthamiaImperialTower**\_MaxisNite.zip*  
+    If you don’t have *SimFox’s DarkNite Mod* installed, download this version.  
+       
+    Each ZIP has two folder included:  
+    ·         *Building and Lot*  
+    This folder contains the main building and the lot for this building.  
+    ·         *Flags*  
+    This folder contains a set of optional flags (30 in total). If you don’t want a flag to appear on top of the building, don’t install this folder. If you do want a flag however, install the following:
+
+    o    *FLAG\_ACTIVATOR.dat*, to activate the flag prop.
+
+    o    Only ***ONE*** of the other flag DAT files, depending on which flag you want to have.
+
+    **Uninstallation**  
+    To uninstall this building, demolish every instance of this building and remove the files from this mod from your Plugins folder.  
+       
+    **Dependencies**  
+    This mod uses no dependencies.  
+       
+    Enjoy!  
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/29027-carthamia-imperial-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/6d1175a70c47d6fa44eabc8351778e99-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/32c9fd35e7b3240a36cf7cc71a8d9213-imperialtower_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/6469e2e981942ff71549d5a0037b2105-imperialtower_night.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mandelsoft-carthamia-imperial-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mandelsoft-carthamia-imperial-tower-darknite
+
+---
+assetId: mandelsoft-carthamia-imperial-tower-darknite
+version: "1.0"
+lastModified: "2013-10-28T13:49:10Z"
+url: https://community.simtropolis.com/files/file/29027-carthamia-imperial-tower/?do=download&r=120531
+
+---
+assetId: mandelsoft-carthamia-imperial-tower-maxisnite
+version: "1.0"
+lastModified: "2013-10-28T13:49:10Z"
+url: https://community.simtropolis.com/files/file/29027-carthamia-imperial-tower/?do=download&r=120532

@@ -1,0 +1,33 @@
+group: mandelsoft
+name: elevated-network-embankment
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Elevated Network embankment re-lot
+  description: |-
+    This is a small quick 'n dirty re-lot set of ***morifari's*** **Elevated Rail Embankment**. There are three lots included to fit underneath the Elevated MHW (Maxis Highway), Elevated RHW and NAM overpasses. The original lots were a little too narrow and tall to fit underneath these networks, but these lots will fit nicely, making your cities look a bit more green.
+
+    The items can be found in the Railways menu.
+
+    **Dependency:**
+
+    [Elevated Rail Embankment 30 Final Version 0.2](https://community.simtropolis.com/files/file/4446-elevated-rail-embankment-30-final-version/)
+
+    Have fun!
+
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28232-elevated-network-embankment-re-lot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/50740370e358e2db753a266c7c1a55b7-ms_sloped_embankments_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/0438e5eccf54c9fe27e9a4cd5fa28415-ms_sloped_embankments_01.jpg
+dependencies:
+  - morifari:elevated-rail-embankment
+assets:
+  - assetId: mandelsoft-elevated-network-embankment-re-lot
+
+---
+assetId: mandelsoft-elevated-network-embankment-re-lot
+version: "1.0"
+lastModified: "2012-11-20T20:51:47Z"
+url: https://community.simtropolis.com/files/file/28232-elevated-network-embankment-re-lot/?do=download&r=109008

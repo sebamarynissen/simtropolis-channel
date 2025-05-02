@@ -1,0 +1,71 @@
+group: mandelsoft
+name: maartens-sign-request-pack-01
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Maartens Sign Request Pack 01
+  description: |-
+    This is the first sign pack released from the project: "[Maarten's Sign Developpemt Room](https://www.sc4devotion.com/forums/index.php?topic=5520.msg174391#msg174391)"
+
+    Signs requested by Nexis and Metasmurf. Just plop them in your Plugin folder
+
+    #### FILES
+
+    This pack contains the following files:
+
+    \- *Requests Vol1 Sign Pack.dat*  
+    This file contains all stuff for this pack.
+
+    \- *Request\_Signage\_Submenu.dat*
+
+    This file contains the submenu support
+
+    \- *Readme.txt*  
+    The readme of this pack
+
+    \- *Cleanitol\_Request\_Sign\_Vol1\_Set.txt*  
+    This file allows you to remove previous versions of the file.
+
+     **INSTALLATION**
+
+    \- Extract the ZIP-file.
+
+    \- Copy "*MandelSoft*" folder into your plugin folder to install.
+
+    **UNINSTALLATION**
+
+    To uninstall the pack, remove the files from your Plugins folder.
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer [nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the older [BSC Cleanitol](https://community.simtropolis.com/files/file/21861-resvis-canal/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool you can search and remove old and outdated versions of these files.
+
+    ### DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    -   [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    **DEPENDENCIES**
+
+    This pack has no dependencies.
+
+    Update: Nexis signs are now sorted and each sign has an unique description.
+
+    Enjoy!
+
+    Maarten
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/20291-maartens-sign-request-pack-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66da4b0d37e71_279f5d242ee286784bc2cc387ae8df2d-MaartensSignRequestPack01.jpg.0b8f15a93a178fc24db10d8e2cb128cc.jpg
+dependencies:
+  - memo:submenus-dll
+assets:
+  - assetId: mandelsoft-maartens-sign-request-pack-01
+
+---
+assetId: mandelsoft-maartens-sign-request-pack-01
+version: "2.0"
+lastModified: "2024-09-06T00:21:39Z"
+url: https://community.simtropolis.com/files/file/20291-maartens-sign-request-pack-01/?do=download&r=203180

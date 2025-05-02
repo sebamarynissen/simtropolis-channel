@@ -1,0 +1,75 @@
+group: mandelsoft
+name: frickinhuge-signage-set
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Frickinhuge Signage Set
+  description: |-
+    *"If these signs aren't big enough for ya, you'll never will be satisfied!"*
+
+    This pack contains a Frickin' Huge Signage Set, a quick 'n dirty signage pack I made. The set contains 17 deliberately overscaled signs for your freeway for the most common RHW interchange setups.
+
+    **FILES**
+
+    This pack contains the following files.
+
+    \- *FrickinHuge Signage Set.dat*
+
+    This file contains all stuff for this pack.
+
+    \- *FrickinHuge*\_Signage\_Submenu.dat
+
+    This file contains the submenu support
+
+    \- *Readme.txt*
+
+    The readme of this pack
+
+    \- Cleanitol\_*FrickinHuge*\_Signage\_Set.txt  
+    This file allows you to remove previous versions of the file.
+
+    **INSTALLATION**
+
+    \- Extract the ZIP-file.
+
+    \- Copy "*MandelSoft*" folder into your plugin folder to install.
+
+    **UNINSTALLATION**
+
+    To uninstall the pack, remove the files from your Plugins folder.
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer [nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the older [BSC Cleanitol](https://community.simtropolis.com/files/file/21861-resvis-canal/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool you can search and remove old and outdated versions of these files.
+
+    ### DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    -   [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    **DEPENDENCIES**
+
+    This pack has no dependencies.
+
+    Enjoy!
+
+    *Maarten/MandelSoft*
+
+    *NOTE: don't take this signage pack too serious. I made it just for the fun and for people who love over-scaling* ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28662-frickinhuge-signage-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/706246648fc68933ceecdbec44074718-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/05d8504fa4d6e9b0d840b116f9bd9f28-screen02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/da203dbc7d825d296a1b015fa5cd14e7-screen03.jpg
+dependencies:
+  - memo:submenus-dll
+assets:
+  - assetId: mandelsoft-frickinhuge-signage-set
+
+---
+assetId: mandelsoft-frickinhuge-signage-set
+version: "2.0"
+lastModified: "2024-09-03T01:07:12Z"
+url: https://community.simtropolis.com/files/file/28662-frickinhuge-signage-set/?do=download&r=203094

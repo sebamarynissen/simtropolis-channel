@@ -1,0 +1,61 @@
+group: mandelsoft
+name: light-replacement-mod-dutch-set
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Light Replacement Mod 5.0 - Dutch Set
+  description: |-
+    This mod adds Dutch styled streetlights and optionally it can replace all in-game streetlights. 8 new streetlight types (24 models in total), included with a more uniform light spreading, making your cities look great from far too.
+
+    **Installation**
+
+    Installation is quite simple: just put the right files into your plugins folder. The following files are included:
+
+    • *LightCones\_DarkNite.dat*
+
+    • *LightCones\_MaxisNite.dat*
+
+    Contains the light cones. Select only **ONE** of these two files. Use the DarkNite light cones only when you have *SimFox’s DarkNite Mod* installed.
+
+    • *Models & Props.dat*
+
+    Contains all models and prop descriptors for this pack. Must be installed!
+
+    • *Ploppable Lights.dat*
+
+    Optional. Contains several sets of ploppable lights.
+
+    • *Override Set.dat*
+
+    Optional. Replaces all in-game streetlights with Dutch styled streetlights. Also contains enhanced T21\-exemplar setups for more variety.
+
+    **Uninstallation**
+
+    To uninstall the pack, remove the files from this mod from your Plugins folder.
+
+    **Dependencies**
+
+    This mod has no dependencies.
+
+    Enjoy!
+
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28269-light-replacement-mod-dutch-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/49390985be49e842cadde7cc5a034055-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/c6904d3c14e493cefd768e376fc5e734-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/5243cdd493851144be8828584c6eed87-screen02.jpg
+assets:
+  - assetId: mandelsoft-light-replacement-mod-dutch-set
+    include:
+      - "/Override Set.dat"
+      - "/Models & Props.dat"
+dependencies:
+  - "mandelsoft:lrm-5-lightcones"
+
+---
+assetId: mandelsoft-light-replacement-mod-dutch-set
+version: "1.0"
+lastModified: "2012-12-03T19:08:46Z"
+url: https://community.simtropolis.com/files/file/28269-light-replacement-mod-dutch-set/?do=download&r=114045
