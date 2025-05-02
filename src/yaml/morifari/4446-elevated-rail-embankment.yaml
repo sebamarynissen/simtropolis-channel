@@ -1,6 +1,7 @@
 group: morifari
 name: elevated-rail-embankment
 version: "0.2"
+subfolder: 700-transit
 info:
   summary: Elevated Rail Embankment 30 Final Version
   description: |-
@@ -14,11 +15,14 @@ assets:
   - assetId: morifari-elevated-rail-embankment-30-final-version
     exclude:
       - "/EMBANKMENT_PROPS.dat"
+dependencies:
+  - morifari:elevated-rail-embankment-props
 
 ---
 group: morifari
 name: elevated-rail-embankment-props
 version: "0.2"
+subfolder: 100-props-textures
 info:
   summary: Models and props for `pkg=morifari:elevated-rail-embankment`
   author: morifari
