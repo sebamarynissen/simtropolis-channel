@@ -1,0 +1,30 @@
+group: leshan
+name: wind-power-plant-no-grass
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Wind Power Plant No Grass MOD
+  description: |-
+    This is a simple mod that removes the grass texture of the wind power plants. 
+
+
+    It's compatible with FANTA1990's [Wind Power Plant skin MOD](https://community.simtropolis.com/files/file/29004-wind-power-plant-skin-mod/).
+
+
+    *\* Once installed in your Plugins folder, the mod will remove the grass texture of all new wind power plants in the game. Any instances of the original wind power plants already existing in your cities will have to be replopped. To change them back, simply remove the file from your Plugins folder. The changes are instant and automatic. There is no need to replop the plants.*
+
+
+    *\*\* No dependencies.*
+  author: Leshan
+  website: https://community.simtropolis.com/files/file/29168-wind-power-plant-no-grass-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/57365debe894e605490f8886890dae98-wp-1.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/c0fb7d84e74a4ef241a32334d9f739e0-wp-2.png
+assets:
+  - assetId: leshan-wind-power-plant-no-grass-mod
+
+---
+assetId: leshan-wind-power-plant-no-grass-mod
+version: "1.0"
+lastModified: "2014-01-02T10:52:17Z"
+url: https://community.simtropolis.com/files/file/29168-wind-power-plant-no-grass-mod/?do=download&r=122282
