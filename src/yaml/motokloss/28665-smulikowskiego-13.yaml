@@ -1,5 +1,5 @@
 group: motokloss
-name: smulikowskiego-13-warsaw
+name: smulikowskiego-13
 version: "2"
 subfolder: 200-residential
 info:
@@ -30,8 +30,26 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/4e202f1b437b54f878105c538e4ad5f1-mssmulik--2-_wm.jpg
 dependencies:
   - motokloss:przyjaciol-avenue-3
-assets:
-  - assetId: motokloss-smulikowskiego-13-warsaw
+variants:
+- variant: { motokloss:smulikowskiego-13:overhang-texture: "maxis" }
+  assets:
+  - assetId: "motokloss-smulikowskiego-13-warsaw"
+    exclude:
+      - "/LMdiag1x1_BROWN_MS_Smulikowskiego_13_45.SC4Lot"
+- variant: { motokloss:smulikowskiego-13:overhang-texture: "sandstone" }
+  assets:
+  - assetId: "motokloss-smulikowskiego-13-warsaw"
+    exclude:
+      - "/LMdiag1x1_GREY_MS_Smulikowskiego_13_45.SC4Lot"
+variantInfo:
+- variantId: "motokloss:smulikowskiego-13:overhang-texture"
+  description: Choose the base texture of the overhanging portion of the lot.
+  values:
+  - value: "maxis"
+    description: The default Maxis grey sidewalk texture
+  - value: "sandstone"
+    description: A sandstone texture fully compatible with Paeng's Sandstone Mod
+
 
 ---
 assetId: motokloss-smulikowskiego-13-warsaw
