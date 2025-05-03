@@ -1,0 +1,73 @@
+group: krio
+name: viipuri-railway-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Viipuri Railway Station
+  description: |-
+    **Viipuri Railway Station** is partial recreation of old Viipuri (Vyborg) railway station which was destroyed during the WW2 by retreating Soviet forces in 1941. Viipuri was Finland's second largest city before the war and Viipuri station was one of the largest railway stations in the country. It was designed by Eliel Saarinen, man who also designed Helsinki Central Railway Station.
+
+    The tracks were running "on the second floor" and it has a separate lounge for the passengers, but I didn't include it in my version and that's why I'm not sure what the facade facing the platform looked like.
+
+    During the Winter War station and railyard was hit by bombs and after the war the station with the rest of the city were ceded to Soviet Union. When fighting continued in 1941 retreating soviets decided to blow up the station buildings with the railyard so that Finnish-German forces couldn't use it. During the liberation era Finnish didn't have time to repair the building and after WW2 soviets replaced the station with a new one.
+
+    STATS:
+
+    Lot size: 6x6
+
+    Plop cost: 1 500§
+
+    Capacity: 20 000
+
+    Dependencies:
+
+    BSC Textures vol.1 and vol.2
+
+    [Porkie props vol.1](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    [Krio railway-props from Columbia Station](https://community.simtropolis.com/files/file/27588-columbia-railwaystation/)
+
+    [Krio Small Prop pack](https://community.simtropolis.com/files/file/28016-krio-small-prop-pack/)
+
+    BAT, Lot and modding by Krio, TE'ing by *paeng*
+
+    Visit [Krioworks](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=6097.new#new) for new updates and feedback.
+  author: Krio
+  website: https://community.simtropolis.com/files/file/28021-viipuri-railwaystation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/32519f9839af8cfdd88f077ee57791ef-viipuri01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/20d0fae4dd4214ce1f194a6ea6f0646b-viipuri01c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/d047b9c5ec6cf315b5745d47b0070dd0-viipuri01b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/108b14dc145b329a3c358aeedcfde292-viipuri01d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/eb7688d233f717772c343dacdde9fddc-wiipuri212.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/ba7e3d1a1a020c611c9a0e9be04c1aa5-wiipuri213.jpg
+dependencies:
+  - krio:rail-props
+  - krio:small-prop-pack
+  - krio:viipuri-railway-station-resources
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - bsc:textures-vol02
+assets:
+  - assetId: krio-viipuri-railwaystation
+    include:
+      - "/Viipuri Railwaystation_1d5e853b.SC4Lot"
+
+---
+group: krio
+name: viipuri-railway-station-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Viipuri Railway Station models and props
+  author: Krio
+  website: https://community.simtropolis.com/files/file/28021-viipuri-railwaystation/
+assets:
+  - assetId: krio-viipuri-railwaystation
+    exclude:
+      - "/Viipuri Railwaystation_1d5e853b.SC4Lot"
+
+---
+assetId: krio-viipuri-railwaystation
+version: "1.0"
+lastModified: "2012-09-14T17:09:42Z"
+url: https://community.simtropolis.com/files/file/28021-viipuri-railwaystation/?do=download&r=106232

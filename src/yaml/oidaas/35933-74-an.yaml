@@ -1,0 +1,59 @@
+group: oidaas
+name: 74-an
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: 74:an
+  description: |-
+    **About**
+
+    This is an apartment for rich people based on an now disassembled house in Malmberget.
+
+    **Stats**
+
+    Bulldoze Cost     136                       
+    Wealth     High Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    6     7     0     0           
+    Flammability     35                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     4                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Style: Euro     Building: R$$$               
+    Occupant Size     Width     Height     Depth               
+    15.5     10     14.3028               
+    Occupant Types     R$     R$$     R$$$               
+    Building value     274                       
+    Capacity Satisfied     R-$     R-$$     R-$$$               
+    18     11     7
+
+    **Dependencies**
+
+    Girafe flora pack [https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)  
+    SHK Parking Pack [https://community.simtropolis.com/files/file/27563-shk-parking-pack/](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)  
+    BSC Textures [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35933-esa-74an/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ba078723f9_06-Sep.21801704697326.png.8faf8c187a530021230e705303a2f310.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ba09a1dce2_06-Sep.21801704697311.png.5327316f870629249f735cf10ad4ca67.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ba0a0b73e1_06-Sep.21801704697318.png.ce1ee25c948e3218fd8d05f85d51b330.png
+dependencies:
+  - bsc:textures-vol01
+  - shk:parking-pack
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:maples-v2
+  - girafe:rowan-trees
+  - girafe:conifers
+assets:
+  - assetId: oidaas-74-an
+
+---
+assetId: oidaas-74-an
+version: "1.0.0"
+lastModified: "2024-01-08T07:14:37Z"
+url: https://community.simtropolis.com/files/file/35933-esa-74an/?do=download&r=199115
