@@ -1,0 +1,40 @@
+group: motokloss
+name: smulikowskiego-13-warsaw
+version: "2"
+subfolder: 200-residential
+info:
+  summary: Smulikowskiego 13, Warsaw
+  description: |-
+    Small modern apartament house designed by the Julian Lisiecki and Janusz Krauss and built in Warsaw in the years 1936-1937.  
+      
+    Compared with the real building my BAT has some changes at the back wall, but the facade is an exact reproduction.  
+      
+    Plugin consists of **orthogonal and diagonal** version. Models are avaiable in game as:  
+    \- **PLOP - CS$$** - ortho. (2x2) and diagonal one - **40 workers**.  
+    \- **GROW - R$$4** - ortho. model (2x2 and 2x1 lots) - **60 residents**.  
+      
+    Diagonal model has **two colors of the base/sidewalk texture to choose** - grey (a la Maxis) and brown which fits to the Paeng's Sandstone Mod.  
+      
+    **DEPENDENCIES:**  
+    There is one, but **required only for the diagonal models**, if you do not plan to use them, you do not have to download this:  
+    "**MS Al. Przyjaciół 3"** - in **version 2 or later** (important not the one from November 2012!)  
+    [https://community.simtropolis.com/files/file/28174-ms-al-przyjaciol-3/](https://community.simtropolis.com/files/file/28174-ms-al-przyjaciol-3/)  
+      
+    *The "Al. Przyjaciół 3" will be a dependency for most of my future similarly sized diagonal buildings.*
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/28665-ms-smulikowskiego-13-warsaw/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/6b80091635d76789ba9a4a9c18f890b5-mssmulik--1-bmp.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/45e3d362523231492d3680ec70c9da06-mssmulik--3-_wm.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/b41a23aa74278248e4d5ff45f446efcc-mssmulik--4-_wm.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/4e202f1b437b54f878105c538e4ad5f1-mssmulik--2-_wm.jpg
+dependencies:
+  - motokloss:przyjaciol-avenue-3
+assets:
+  - assetId: motokloss-smulikowskiego-13-warsaw
+
+---
+assetId: motokloss-smulikowskiego-13-warsaw
+version: "2"
+lastModified: "2017-10-06T21:16:27Z"
+url: https://community.simtropolis.com/files/file/28665-ms-smulikowskiego-13-warsaw/?do=download&r=168697
