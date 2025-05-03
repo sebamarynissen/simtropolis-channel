@@ -1,0 +1,41 @@
+group: motokloss
+name: house-of-artist
+version: "2"
+subfolder: 620-education
+info:
+  summary: House of Artist (Dom Artysty Plastyka), Warsaw
+  description: |-
+    "Dom Artysty Plastyka" (~"House of Artist") - exhibition and office building from Warsaw, designed by the architect Jerzy Kumelowski and erected in the years 1963-66.
+
+    Perhaps the most characteristic feature here, is the original 19th century gate (re)used in the role of fence/curtain, which separates the building and its small "cold-tone" minimalist courtyard from the street. As a kind of monument, the gate has been mostly saved in its post-WW2 condition with traces of fire and many holes made by the bullets.  
+      
+    In game as:  
+    **Plop - museum, lot 2x2**, capacity 3000  
+    **Plop - school/college, lots 2x2 and 2x3**, capacity 1000  
+    **Plop - diagonal college, 1x1**, capacity 1000 (grey or brown/sandstone pavement to choose)  
+      
+    **Grow - CO$$$5, lots 2x2 and 2x3**, 300 workers.  
+      
+    This is generally a W2W building, but it has been bated in such way, that can be used also as a stand alone one (if someone really wants).  
+      
+    **Dependencies:**  
+    "MS Al. Przyjaciół 3"  - version 2 or later (needed for the diagonals only):  
+    [https://community.simtropolis.com/files/file/28174-ms-al-przyjaciol-3/](https://community.simtropolis.com/files/file/28174-ms-al-przyjaciol-3/)
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/29002-ms-house-of-artist-dom-artysty-plastyka-warsaw/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/ebc57273a451baf75ccb600d4cdd47df-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/4f0eaaeb1964c08b6148239eb091d268-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/a132b98865933dd272d0b8728642c87a-3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/594d9cac003c8d934418fb4d5a8e8f74-4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/b15fa637173c2b699e0b34c87116b79a-6.jpg
+dependencies:
+  - motokloss:przyjaciol-avenue-3
+assets:
+  - assetId: motokloss-house-of-artist-dom-artysty-plastyka-warsaw
+
+---
+assetId: motokloss-house-of-artist-dom-artysty-plastyka-warsaw
+version: "2"
+lastModified: "2013-10-15T12:45:10Z"
+url: https://community.simtropolis.com/files/file/29002-ms-house-of-artist-dom-artysty-plastyka-warsaw/?do=download&r=120627

@@ -1,0 +1,40 @@
+group: motokloss
+name: 6-sierpnia-28
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 6. Sierpnia 28, Warsaw
+  description: |-
+    This BAT is inspired by the functionalist apartament house known also as the "Dom Hoffmana", designed by the architect Juliusz Żórawski, and erected in Warsaw in the years 1933-1935 under the "6. Sierpnia 28" adress (now "Nowowiejska 4").  
+    Unfortunately the building was heavy damaged during the WWII, in this case the reconstruction was possible, but during it, it received a completly different flat facade with rows of the "portes fenetres".  
+    BAT reconstructs the original - 1930s version, but with some changes at the back of the building, e.g. its depth has been cut in about 2/3, to place it at the 2x2 lot. The real building is placed at the "F"-letter plan.
+
+    **In game as:**  
+    **Grow - R$$$5**, lots 2x2 and 2x3 (2 versions with garages and with small back shop), 120 residents.  
+    **Grow - CO$$5**, lot 2x2, 150 workers.  
+      
+    **Plop - CO$$**, lot 2x2, 150 workers.  
+    **Plop - diagonal CO$$**, 1x1 (grey or sandstone pavement to choose), 150 workers.
+
+    **Dependencies:**  
+    *MS Al. Przyjaciół 3* - "version 2" or later one,  
+    to find here:  
+    [https://community.simtropolis.com/files/file/28174-ms-al-przyjaciol-3/](https://community.simtropolis.com/files/file/28174-ms-al-przyjaciol-3/)  
+    or here:  
+    [http://www.simcitypolska.pl/index.php?action=downloads;sa=view;down=380](http://www.simcitypolska.pl/index.php?action=downloads;sa=view;down=380)
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/29035-ms-6-sierpnia-28-warsaw/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/09d27ae460169851c15634b4de515e57-ms6sierpnia28--1-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/5543016669947b2241453ddf468fd12d-ms6sierpnia28--2-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/4d068c854b54807724b40e28142aec9a-ms6sierpnia28--4-.jpg
+dependencies:
+  - motokloss:przyjaciol-avenue-3
+assets:
+  - assetId: motokloss-6-sierpnia-28-warsaw
+
+---
+assetId: motokloss-6-sierpnia-28-warsaw
+version: "1.0"
+lastModified: "2017-10-06T21:48:53Z"
+url: https://community.simtropolis.com/files/file/29035-ms-6-sierpnia-28-warsaw/?do=download&r=168779
