@@ -1,0 +1,42 @@
+group: kingofsimcity
+name: fosterk-plaza
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: FosterK Plaza
+  description: |-
+    A Tranquil 5x4 Plaza that is dedicated to Fosterk. This small colorful plaza allows your sims to rest and enjoy a day in the park.
+
+    Stats:  
+    P. Cost: 600  
+    Bulldozer Cost: 30  
+    Monthly Cost: 25  
+    Pollution:  
+    Amount : A. -2, W. -1, G. 0, R. 0  
+    Radii: A. 2, W. 1, G. 0, R. 0  
+    High Wealth  
+    Custom Icon: Yes (Included as PNG)  
+    Custom Desc. Yes  
+    Custom UI: No
+
+    dependencies:  
+    [BSC BAT Props MJB Vol05](https://www.simtropolis.com/stex/details.cfm?id=11877)  
+    [BSC BAT Props MJB Vol04](https://www.simtropolis.com/stex/details.cfm?id=11878)  
+    [Cerulean Textures V101 ver. 5](https://www.simtropolis.com/stex/details.cfm?id=3271)
+
+    Enjoy!
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/12170-fosterk-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/8852dca30092b68ef6bf114286fad314-CPSFosterKPlaza.JPG
+dependencies:
+  - bsc:mega-props-mjb-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: kingofsimcity-fosterk-plaza
+
+---
+assetId: kingofsimcity-fosterk-plaza
+version: "1.0"
+lastModified: "2005-04-09T13:04:05Z"
+url: https://community.simtropolis.com/files/file/12170-fosterk-plaza/?do=download&r=32733

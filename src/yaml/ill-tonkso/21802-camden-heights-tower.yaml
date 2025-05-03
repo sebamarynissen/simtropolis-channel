@@ -1,0 +1,44 @@
+group: ill-tonkso
+name: camden-heights-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Camden Heights Tower
+  description: |-
+    I created this imaginary, generic building to patch a hole in one of my cities secondary CBD's as the local tallest building. Camden Heights is not too tall, not too short.
+
+    Camden Heights comes with both a ploppable and 2 growable lots, each with 2300 CO£££ jobs. Each lot occupies 4x4 tiles.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/21802-ndex-its-camden-heights-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/53e5ff5cebdd5e0e4814c7f25533eb00-camdenday.jpg
+    - https://www.simtropolis.com/objects/screens/0010/53e5ff5cebdd5e0e4814c7f25533eb00-camdennight.jpg
+assets:
+  - assetId: ill-tonkso-camden-heights-tower
+    exclude:
+      - "/NDEX_ITS_Camden_Heights_Tower-0x5ad0e817_0xd9841d7b_0x30000.SC4Model"
+dependencies:
+  - ill-tonkso:camden-heights-tower-model
+
+---
+group: ill-tonkso
+name: camden-heights-tower-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=ill-tonkso:camden-heights-tower`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/21802-ndex-its-camden-heights-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/53e5ff5cebdd5e0e4814c7f25533eb00-camdenday.jpg
+    - https://www.simtropolis.com/objects/screens/0010/53e5ff5cebdd5e0e4814c7f25533eb00-camdennight.jpg
+assets:
+  - assetId: ill-tonkso-camden-heights-tower
+    include:
+      - "/NDEX_ITS_Camden_Heights_Tower-0x5ad0e817_0xd9841d7b_0x30000.SC4Model"
+
+---
+assetId: ill-tonkso-camden-heights-tower
+version: "1.0"
+lastModified: "2009-06-03T18:28:14Z"
+url: https://community.simtropolis.com/files/file/21802-ndex-its-camden-heights-tower/?do=download&r=47865

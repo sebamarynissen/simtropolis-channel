@@ -1,0 +1,65 @@
+group: kingofsimcity
+name: office-parks-medium-wealth-pack
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: MEH Office Parks - Medium Wealth Pack
+  description: |-
+    **Overview:**  
+    This is the second set of my MEH Office Park series focused exclusively on medium wealth buildings. This is a larger package encompassing 3 building types: 2 of the buildings have 8 different lot layouts between them while the last one has two. This makes for a grand total of **18** different office lots.  
+      
+    **Building Stats:**  
+    **LaVine Office Park (LaVine Management) (2x/3x/4x)**  
+    *2x Capacity: 369 CO$$ jobs  
+    3x Capacity: 553 CO$$ jobs*
+
+    **4x Capacity: 736 CO$$ jobs**  
+    *Houston Tileset*  
+       
+    **Calamity Office Park (Chuck Calamity Info. Center) (2x/3x/4x)**  
+    *2x Capacity: 327 CO$$ jobs  
+    3x Capacity: 490 CO$$ jobs*  
+    **4x Capacity: 652 CO$$ jobs**  
+    *Euro Tileset*
+
+    **Downend Office Park (Downend Entertainment) (3x/4x)**
+
+    *3x Capacity: 206 CO$$ jobs*
+
+    **4x Capacity: 310 CO$$ jobs**  
+    *Houston Tileset*
+
+    All buildings can grow starting at *Low Density* and have basic BTE tracking enabled.  
+      
+    **Possible Lot Configurations****/Stages**
+
+    **LaVine/Calamity**  
+    2 Buildings: **3x5, 5x4** (Stage 4, LC and RC)
+
+    3 Buildings: **6x5, 3x9, 3x9** (Stage 4, Front, LC and RC)
+
+    4 Buildings: **6x6, 3x9, 3x9** (Stage 4/5, RC, RC and LC)
+
+    **Downend**
+
+    3 Buildings: **3x5** (Stage 4, LC)
+
+    4 Buildings: **5x5** (Stage 4, RC)
+
+    As with before, the lots are designed to complement vanilla/Maxis SC4 and as such require no external dependencies other than Maxis Buildings as Props (bldgprop\_vol1 and vol2). I HIGHLY recommend using [TWrecks' Maxis Prop Names and Query Fix](https://community.simtropolis.com/index.php?app=downloads&showfile=22400) as a substitute. Enjoy, and make sure to zone responsibly! Excessive repetition complaints will be redirected to Simnation's construction bureau.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/30168-meh-office-parks-medium-wealth-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/6b7a56158e7e9eef44ddf8a47263f8f5-2015-03-01_00004.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/d8ae9f3933d84d4678364a7a44822d9e-2015-03-01_00005.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/137dabb859d9f1acac9b56b9845e84bb-2015-03-01_00006.jpg
+dependencies:
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: kingofsimcity-meh-office-parks-medium-wealth-pack
+
+---
+assetId: kingofsimcity-meh-office-parks-medium-wealth-pack
+version: "1.0"
+lastModified: "2015-03-02T01:42:30Z"
+url: https://community.simtropolis.com/files/file/30168-meh-office-parks-medium-wealth-pack/?do=download&r=148536

@@ -1,0 +1,103 @@
+group: kingofsimcity
+name: simgoobers-costco-wholesale
+version: "1.01"
+subfolder: 300-commercial
+info:
+  summary: ReM - Simgoober's Costco Wholesale
+  description: |-
+    *KOSC Presents: RetailMania - Simgoober's Costco Wholesale*
+
+    **Introduction**
+
+    **Costco Wholesale** is the **3rd** release from my **RetailMania** series. This is a set of re-lots for Simgoober's classic **Costco Retail** BAT aimed at expanding the retail location to include more than just the club warehouse.
+
+    **Package Overview**
+
+    These lots are redone to better coincide with their real-life counterparts and feature things like the food court, auto center and gas station. A set of custom gas station textures was created to better emulate the road markings found in actual Costco locations across the United States.  
+      
+    Included in the following package are a set of custom textures and 4 lots: 3 CS$$ growables and 1 CS$$ ploppable landmark with jobs. The ploppable landmark only utilizes one of the 3 possible growable layouts. Both types share the same stats as follows:
+
+    If you desire to plop the growables, use the **buildingPlop** cheat and look for exemplars starting at **KOSC\_SG\_LargeCostcoWithGas (requires ExtraCheats.dll).**
+
+    **Install Instructions**
+
+    Drop the files in your **My Documents/SimCity 4/Plugins** folder. To uninstall, simply delete the files from your hard drive.
+
+    **General Stats**
+
+    The included lots will provide **591 CS$$** jobs. They are available in the following configuration:
+
+    -   2 10x10 left corner, stage 1
+    -   1 10x10 right corner, stage 1
+
+    Stats were generated with PIM\-X, and coincide with the revised model pack version found on SC4D.
+
+    Detailed stats and information can be found in the enclosed README.
+
+    **Install Instructions**
+
+    Drop the files in your **My Documents/SimCity 4/Plugins** folder.
+
+    **Dependencies**
+
+    **Main Building(s)**
+
+    You only need the model file, which can be found in the following 2 locations (you will only need ONE):
+
+    -   [Costco Retail](https://community.simtropolis.com/files/file/3909-costco-retail/) **OR**
+    -   [SG Commercials Models Large Stores](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1117)
+
+    **Props**
+
+    -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    -   [BSC MEGA Props SG Vol. 1](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+    -   [BSC MEGA Props CP Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    -   [BSC MEGA Props CP Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+    -   [BSC MEGA Props Misc Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771)
+    -   [b62 Remastered: Wawa Gas & Car Show](https://community.simtropolis.com/files/file/30749-b62-remastered-wawa-gas-car-show/)
+    -   [HD North American 53ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/)
+    -   [VIP girafe daisy](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3251)
+    -   [VIP girafe feather grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+    -   [TSC Orange MEGA Prop Pack Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1955)
+
+    **Textures**
+
+    -   [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    -   [SuperSHK+ FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    -   Costco Gas Textures (Included)
+
+    I was a little more experimental this time around so the dependency list is a little larger than usual.
+
+    Credit goes to **Simgoober** for the original BAT!
+
+    Enjoy!
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/31529-rem-simgoobers-costco-wholesale/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/splash.jpg.2dc94b9c7d7ccbd630f21a4748aa5e45.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/detail_2.jpg.1dd11abadeb9a15ea76acf785de85dd5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/detail_3.jpg.aa96fdde860b7d557fd46c31b5411591.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/front.jpg.19c7b2abef7c521f39e3e9795074a32e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/rear.jpg.858d0317cf9c2388bc08e778438039c7.jpg
+dependencies:
+  - bsc:sg-models-large-stores
+  - b62:wawa-gas-and-car-show
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - girafe:daisy
+  - girafe:feather-grass
+  - mushymushy:na-53ft-trailers-vol1
+  - orange:mega-props-vol01
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+assets:
+  - assetId: kingofsimcity-rem-simgoobers-costco-wholesale
+
+---
+assetId: kingofsimcity-rem-simgoobers-costco-wholesale
+version: "1.01"
+lastModified: "2017-03-19T02:13:38Z"
+url: https://community.simtropolis.com/files/file/31529-rem-simgoobers-costco-wholesale/?do=download&r=165074

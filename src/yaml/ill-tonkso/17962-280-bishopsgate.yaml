@@ -1,0 +1,58 @@
+group: ill-tonkso
+name: 280-bishopsgate
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 280 Bishopsgate
+  description: |-
+    **280 Bishopsgate**
+
+    Completed in 2001 this midrise office building provides hi spec office space along the famous Bishopsgate. Withing walking distance of Liverpool Street Station.
+
+    * * *
+
+    Plop: £2000, 2x3 lot, 1800 CO££
+
+    * * *
+
+    Grow: 2x3 lot, 1800 CO££
+
+    * * *
+
+    dependencies: None
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17962-ndex-its-280-bishopsgate/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/52fbc16db2dfb3975f79281e069cf101-280bgd.jpg
+    - https://www.simtropolis.com/objects/screens/0010/52fbc16db2dfb3975f79281e069cf101-280bgn.jpg
+assets:
+  - assetId: ill-tonkso-280-bishopsgate
+    exclude:
+      - "/NDEX_ITS_280_Bishopsgate-0x5ad0e817_0x334523db_0x30000.SC4Model"
+dependencies:
+  - ill-tonkso:280-bishopsgate-model
+
+---
+group: ill-tonkso
+name: 280-bishopsgate-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=ill-tonkso:280-bishopsgate`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17962-ndex-its-280-bishopsgate/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/52fbc16db2dfb3975f79281e069cf101-280bgd.jpg
+    - https://www.simtropolis.com/objects/screens/0010/52fbc16db2dfb3975f79281e069cf101-280bgn.jpg
+assets:
+  - assetId: ill-tonkso-280-bishopsgate
+    include:
+      - "/NDEX_ITS_280_Bishopsgate-0x5ad0e817_0x334523db_0x30000.SC4Model"
+
+---
+assetId: ill-tonkso-280-bishopsgate
+version: "1.0"
+lastModified: "2007-04-05T15:54:20Z"
+url: https://community.simtropolis.com/files/file/17962-ndex-its-280-bishopsgate/?do=download&r=41621

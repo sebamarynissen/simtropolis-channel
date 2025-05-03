@@ -1,0 +1,52 @@
+group: kingofsimcity
+name: rockefeller-center-growable
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: MEH Rockefeller Center Growable
+  description: |-
+    This is the first in a series of lots as part of my Maxis Enhancement Project (dubbed MEH). The aim is to provide interesting new lot configurations of Maxis buildings with minimal dependencies as well as enhancing/retooling the current kit for more growth options.
+
+    **Overview:**
+
+    One of the first things I noticed with the Maxis landmark DLCs was that the Rockefeller Center would be great as a growable! This package contains both a growable relot of the original landmark (slight condensed) as well as standalone versions of 30 Rock and the smaller buildings. A CAM version for 30 Rock is also included.  
+    **Basic Lot Stats:**
+
+    ***Rockefeller Center Relot (Full Complex)***  
+    Size: *4x12 (Front)*
+
+    Stage: *8*  
+    Capacity: *7698 CO$$$ jobs / 11006 CO$$ when dilapidated*  
+      
+    ***30 Rock (GE Building)***  
+    Size: *4x5 (Front)*  
+    Stage: *8 (11 With CAM)*  
+    Capacity: *6740 CO$$$ jobs / 9636 CO$$ when dilapidated*  
+      
+    ***Rockefeller Midrise***  
+    Size: *2x5 (Front)*  
+    Stage: *6*  
+    Capacity: *724 CO$$ jobs*  
+      
+    All buildings grow from the New York Tileset and have basic BTE tracking enabled. This is my first upload in nearly a decade. Enjoy!  
+      
+    **Dependencies**  
+    [Plugin\_033: Rockefeller Center](https://community.simtropolis.com/library/maxis/sc4/buildings/Plugin_033_RockefellerCenter.dat)  
+    [BSC Textures Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/30164-meh-rockefeller-center-growables/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/870f37390f9197462df6b40468e92956-2015-02-27_00002.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/d4ea990f2d44abf9833793978ff7d5d8-2015-02-27_00001.jpg
+dependencies:
+  - bsc:textures-vol01
+  - maxis:rockefeller-center
+
+assets:
+  - assetId: kingofsimcity-meh-rockefeller-center-growables
+
+---
+assetId: kingofsimcity-meh-rockefeller-center-growables
+version: "1.0"
+lastModified: "2015-02-27T09:21:24Z"
+url: https://community.simtropolis.com/files/file/30164-meh-rockefeller-center-growables/?do=download&r=148398

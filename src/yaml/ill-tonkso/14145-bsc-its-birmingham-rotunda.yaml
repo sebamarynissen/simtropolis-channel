@@ -1,5 +1,5 @@
 group: ill-tonkso
-name: bsc-its-birmingham-rotunda
+name: birmingham-rotunda
 version: "1.0"
 subfolder: 300-commercial
 info:
@@ -23,6 +23,8 @@ info:
     - https://www.simtropolis.com/objects/screens/0013/7162c9fcc3a2518125dd08f093b3fcc8-Rotundanight.JPG
 dependencies:
   - ill-tonkso:bsc-its-birmingham-rotunda-model
+  - bsc:textures-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
 assets:
   - assetId: ill-tonkso-bsc-its-birmingham-rotunda
     exclude:
