@@ -1,0 +1,100 @@
+group: oidaas
+name: elvestads-university-hospital
+version: "2.0.0"
+subfolder: 630-health
+info:
+  summary: Elvestads university hospital
+  description: |-
+    **About**
+
+    This is an old BAT that i spruced up with a helipad for instance.
+
+    **Dependencies**
+
+    ##### SC4D LEX Legacy - BSC Common Dependencies Pack [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    ##### SC4D LEX LEGACY - BSC VIP Girafe Flora Pack [https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+    [https://community.simtropolis.com/files/file/34596-bus-pack-hd/?do=embed](https://community.simtropolis.com/files/file/34596-bus-pack-hd/?do=embed)
+    [https://community.simtropolis.com/files/file/21968-bus-prop-pack/?do=embed](https://community.simtropolis.com/files/file/21968-bus-prop-pack/?do=embed)
+
+    Lot size:
+
+    20 x 15 tiles
+
+    Menu position:
+
+    Building: Civic,Building: Health,Building: Strikable Health,Building: Hospital,Building: LargeHealth
+
+    Jobs:
+
+    Jobs $ : 381,Jobs $$ : 1132,Jobs $$$ : 376,R-$ : 381,R-$$ : 1132,R-$$$ : 376
+
+    Plop cost:
+
+    § 26500
+
+    Bulldoze cost:
+
+    § 1150
+
+    Monthly cost:
+
+    § 14200,2400
+
+    Patient Capacity
+
+    56500
+
+     
+
+     
+
+    Max. Fire Stage:
+
+    36
+
+    Power consumption:
+
+    41 MWh/month
+
+    Water consumption:
+
+    161 Gallons/month
+
+    Air pollution:
+
+    24 over 3 tiles
+
+    Water pollution:
+
+    16 over 4 tiles
+
+    Garbage pollution:
+
+    12 over 0 tiles
+
+    staff edit 09.03.2024 - fixing description format by Tyberius06
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36123-esa-elvestads-university-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65ce763d36cc0_NewCity-Dec.12141708027840.png.4b025f630f0525300edd7134b5648829.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65ce764386fe7_NewCity-Jan.14151708027851.png.7b0e8eac1aeef41a26b870444234b68f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65ce765062956_NewCity-Jan.14151708027870.png.7f5173d13331452e4250f8ae89fe932f.png
+dependencies:
+  - laky99:bus-pack-hd
+  - glenni:bus-prop-pack
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol02
+  - girafe:poplars
+assets:
+  - assetId: oidaas-elvestads-university-hospital
+
+---
+assetId: oidaas-elvestads-university-hospital
+version: "2.0.0"
+lastModified: "2024-03-10T09:15:10Z"
+url: https://community.simtropolis.com/files/file/36123-esa-elvestads-university-hospital/?do=download&r=200655

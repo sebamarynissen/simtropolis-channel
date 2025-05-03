@@ -1,0 +1,63 @@
+group: oidaas
+name: skelleftea-station
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Skelleftea station
+  description: |-
+    About
+
+    This is based on a Railway in a neighbouring Town.
+
+    Stats
+
+    Item Name     Skelleftea station  
+    Item Order     1                       
+    Plop Cost     500                       
+    Bulldoze Cost     30                                           
+    Flammability     37                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     2                                       
+    Budget Item: Department     Mass Transit                       
+    Budget Item: Line     0x00000001                       
+    Budget Item: Purpose     Mass Transit Switch                       
+    Budget Item: Cost     15                                           
+    OccupantGroups     Building: Transportation     Building: Rail     Building: Strikable Transit     Building: Taxi\_Maker     Building: PassengerRail       
+    Occupant Size     Width     Height     Depth               
+    30,717     11,838     12,638                                   
+    Catalog Capacity     3600                       
+    Transit Switch Point     Outside to Inside     North,West,South,East     Rail     Rail           
+    Inside to Outside     North,West,South,East     Rail     Rail           
+    Outside to Inside     North,West,South,East     Freight Train     Freight Train           
+    Inside to Outside     North,West,South,East     Freight Train     Freight Train           
+    Transit Switch Entry Cost     0,0071                       
+    Transit Switch Traffic Capacity     13599
+
+    Dependencies
+
+    NDEX Glenni MEGA Props Vol01: [https://community.simtropolis.com/files/file/19096-ndex\-glenni-mega-props-vol01/](https://community.simtropolis.com/files/file/19096-ndex-glenni-mega-props-vol01/)  
+    BSC common: [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    Girafe common: [https://www.sc4evermore.com/index.php](https://www.sc4evermore.com/index.php)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36573-esa-skelleftea-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/674777277ef7c_Norra-Jul.11191732725155.jpg.11955c0a9124a940eec938596ae3e5af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/674777284293c_Norra-May.3181732709055.jpg.abfbc5db88a4c7cc26171a442e795422.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/67477728e1b5c_Norra-May.14181732709088.jpg.d568c42a430800a19e5c37957f520b61.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/674777299085c_Norra-May.14181732709117.jpg.a7858897b47490194203d25d7cfd19e1.jpg
+dependencies:
+  - ndex:glenni-mega-props-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - girafe:rowan-trees
+  - girafe:maples-v2
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: oidaas-skelleftea-station
+
+---
+assetId: oidaas-skelleftea-station
+version: "1.0.0"
+lastModified: "2024-11-27T19:48:09Z"
+url: https://community.simtropolis.com/files/file/36573-esa-skelleftea-station/?do=download&r=204518
