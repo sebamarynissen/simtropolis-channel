@@ -1,0 +1,49 @@
+group: oidaas
+name: railpack-the-diagonals-vol1
+version: "1.0.1"
+subfolder: 700-transit
+info:
+  summary: Railpack the diagonals vol 1
+  description: |-
+    **About**
+
+    This is the diagonal versions of the stations i release earlier. They come with diagonal platforms that are lot based so you can build the platforms how long you want.
+
+    The platforms comes in two flavours, tiles and gravel.
+
+    **Stats**
+
+    Lotsize: 1x1
+
+    Demand:jobs $:12, jobs $$:6, jobs $$$ 1  
+    Occupant Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger:1000
+
+    **Installation**
+
+    Simply drop the files in your plugin folder :-)
+
+    Edit: Forgot the dependencies :-)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1806](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1806)
+
+    [https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/34806-esa-railpack-the-diagonals-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/61c4097a5ac20_NewCity-Apr.19001640236593.jpg.af58337e8b5b77c2a92866531d313328.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/61c4097ff19d8_NewCity-Apr.19001640237254.jpg.aace6bbe904b66cd0a82fa3c102737b6.jpg
+dependencies:
+  - bsc:textures-vol03
+  - oidaas:rail-props-vol01
+  - sfbt:essentials
+assets:
+  - assetId: oidaas-railpack-the-diagonals-vol1
+
+---
+assetId: oidaas-railpack-the-diagonals-vol1
+version: "1.0.1"
+lastModified: "2021-12-29T11:38:56Z"
+url: https://community.simtropolis.com/files/file/34806-esa-railpack-the-diagonals-vol-1/?do=download&r=191032

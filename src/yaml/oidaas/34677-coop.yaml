@@ -1,0 +1,62 @@
+group: oidaas
+name: coop
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Coop
+  description: |-
+    **Esa Coop**
+
+    This is an oldie that i made somewhere around 2008 ish. It was one of my first BATs i made when i was essentially in the basic learning of GMAX.  
+    Inspired by my remakes of old BATs i decided to update it to my current standards including mainly fixing the the texturing and some pf the splines.  
+    I liked the finished result so i decided to release it for you all to enjoy.
+
+    **Stats**
+
+    Lot size:5x5 3x5  
+    Growth stage: 4  
+    Zone type: low, med, high  
+    Bulldoze cost: 153  
+    Demand:CS$ 250, CS$$ 100  
+    Pollution center: Air 7 Water 5 Garbage 8 Radiation 0  
+    Pollution radius: Air 5 Water 6 Garbage 3 Radiation 0  
+    Power: 80  
+    Water: 138  
+    Occupant groups: Building commercial, Building CS$$, Houston
+
+    **Dependencies**
+
+    SFBT essentials  [https://www.sc4devotion.com/csxlex/lex\_filedesc.ph](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    [https://community.simtropolis.com/files/file/19096-ndex-glenni-mega-props-vol01/?do=embed](https://community.simtropolis.com/files/file/19096-ndex-glenni-mega-props-vol01/?do=embed)
+    Glenni Megaprops vol 1:
+
+    BSC - VIP girafe rowan trees (v1.0)  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3244](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+
+    MGB Girafe flora
+
+    [https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed](https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed)
+    [https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed](https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/34677-esa-coop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_09/6131f0f62f598_coop3x51.jpg.34f7d31e2640744b881359a3c44371e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_09/6131f0f8958d2_NewCity-Nov.51061630661522.jpg.a4d921fb15f1c8650a3ae4d27cb4100d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_09/6131f0f9c88b0_NewCity-Nov.51061630661540.jpg.b2cb2a15912348073bf8be195ca6368f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_09/6131f0fb10388_NewCity-Nov.51061630661551.jpg.b99782e2b5f4ba79e6647269a9fe5e03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_09/6131f0fc33f32_NewCity-Nov.51061630661698.jpg.3c5ed95a8e3dbbad4e6977fe823dc4e1.jpg
+dependencies:
+  - girafe:rowan-trees
+  - mgb204:mmp-pack-vol2
+  - ndex:glenni-mega-props-vol01
+  - sfbt:essentials
+  - supershk:mega-parking-textures
+  - shk:parking-pack
+assets:
+  - assetId: oidaas-coop
+
+---
+assetId: oidaas-coop
+version: "1.0.0"
+lastModified: "2021-09-03T10:19:23Z"
+url: https://community.simtropolis.com/files/file/34677-esa-coop/?do=download&r=189915
