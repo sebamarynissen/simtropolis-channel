@@ -1,0 +1,35 @@
+group: heblem
+name: tropical-tiki-huts
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Tropical Tiki Huts
+  description: |-
+    These are mayor mode ploppable tropical tiki huts, which you can use for recreate tropical beaches resort. Tip, when plopping the tikis, just make one click over the terrain to change the tiki appearance, if you drag over you will get messy results...
+
+    **DEPENDENCIES**
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    [LBT Tropical Beach Props](https://www.simtropolis.com/stex/details.cfm?id=19050)
+
+    **Installation:** Jus place our dat file int your documents/SimCity 4/plugins
+
+    **Un-Installing:** To un-install the files, simply delete every tiki huts from this download in your cities and erase the files from the plugins folder afterwards.
+
+    enjoy!!!
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/24397-hbs-tropical-tiki-huts/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e6773e25f13a1f55306a89e86ca30322-showtikis1.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e6773e25f13a1f55306a89e86ca30322-showtikis2.jpg
+dependencies:
+  - hableurg:tropical-beach-props
+assets:
+  - assetId: heblem-hbs-tropical-tiki-huts
+
+---
+assetId: heblem-hbs-tropical-tiki-huts
+version: "1.0"
+lastModified: "2010-07-15T20:37:30Z"
+url: https://community.simtropolis.com/files/file/24397-hbs-tropical-tiki-huts/?do=download&r=51639
