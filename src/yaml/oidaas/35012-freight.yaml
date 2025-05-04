@@ -1,0 +1,92 @@
+group: oidaas
+name: freight
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Freight
+  description: |-
+    ESA Freight
+
+    About
+
+    This is a set of freight station, one small for your rural needs and a larger for  your town needs. They come as diagonal and *orthogonal.*
+
+    *Stats*
+
+    Small (orto and diagonal)
+
+    plop cost: 100  
+    monthly cost: 100  
+    flammability: 10  
+    power consumed: 10  
+    water consumed: 5  
+    capacity: 30000  
+    air pollution: 6 over 8 tiles  
+    water pollution: 0 over 0 tiles  
+    garbage: 10 over 5 tiles  
+    Transit Switch Entry Cost: 0,09
+
+    Large (orto and diagonal)
+
+    plop cost: 200  
+    monthly cost: 150  
+    flammability: 10  
+    power consumed: 10  
+    water consumed: 10  
+    capacity: 66000  
+    air pollution: 6 over 8 tiles  
+    water pollution: 0 over 0 tiles  
+    garbage: 10 over 5 tiles  
+    Transit Switch Entry Cost: 0,09
+
+    Forgive my modding btw
+
+    Dependencies
+
+    ESA Railpack
+
+    [https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed)
+    Historic Harbour
+
+    [https://community.simtropolis.com/files/file/29880-historic-harbor/?do=embed](https://community.simtropolis.com/files/file/29880-historic-harbor/?do=embed)
+    BSC Megaprops - JES Vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=342](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+
+    BSC Megaprops - JES Vol 3 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=339](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=339)
+
+    BSC Megaprops - Misc vol 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1771](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771)
+
+    PEG SPAM Resource
+
+    [https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/?do=embed](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/?do=embed)
+    Pegasus MTP Super pack
+
+    [https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed)
+    BSC texturepack vol01b  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    SFBT Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35012-esa-freight/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/62358e5c64d60_NewCity-Jul.27021647592861.jpg.babc486cbd2f24482489e50891d06f4b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/62358e6d0cd59_NewCity-Jul.27021647592884.jpg.7082a2c0b5d9ef402cb967b2f9dd7792.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/62358e74db5be_NewCity-Sep.1021647617543.jpg.3dd1ca7a3d554da2bf15558482903960.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/62358e8028c86_NewCity-Sep.2011647592467.jpg.1e2f601e48558c8333c504eef44adbe8.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-misc-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - historic-harbor:dependencies
+  - oidaas:rail-props-vol01
+  - peg:mtp-super-pack
+  - peg:spam-super-resource-pack
+  - sfbt:essentials
+assets:
+  - assetId: oidaas-freight
+
+---
+assetId: oidaas-freight
+version: "1.0.0"
+lastModified: "2022-03-19T08:20:24Z"
+url: https://community.simtropolis.com/files/file/35012-esa-freight/?do=download&r=192550

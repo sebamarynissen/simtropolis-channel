@@ -1,0 +1,55 @@
+group: oidaas
+name: hjarndoda-gatan
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Hjarndoda gatan
+  description: |-
+    **About**
+
+    Ah what would a town be without a modernistic fugly office.  
+    This particular office is modelled after a office that replaced a whole block of elderly structures from the 1800's to the 1930's.  
+    The name Hjarndoda gatan is translated as "braindead street", perhaps from its design or the sims who works there, the song wind up working at a gas station comes to mind :-p.  
+    talking about songs there is a song i Sweden called "Lyckliga gatan" that describes the demolition of old blocks in the favour of 60's to 70's architecture.  
+    Anyhow, enough drabble.
+
+    **Stats**
+
+    Building Value : $3500
+
+    Bulldoze Cost:  $613
+
+    Capacity Satisfied: C0-$$ 88
+
+    Flammability: 40
+
+    Max Fire Stage: 3
+
+    Pollution at center: 1 (air), 1 (water), 4 (garbage)
+
+    Pollution radious: 5, 6, 1
+
+    Power Consumed: 2
+
+    Water Consumed: 77
+
+    **Dependencies**
+
+    [https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=embed](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=embed)
+    [https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=embed](https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35043-esa-hjarndoda-gatan/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624e968f1681d_02-Aug.10981649316450.jpg.0f795b8c191467f3da8a3e9dc119fca5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624e9696c9aa2_02-Aug.10981649316466.jpg.b7cc383fe3c6dabccad7e3e063b71f90.jpg
+dependencies:
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+assets:
+  - assetId: oidaas-hjarndoda-gatan
+
+---
+assetId: oidaas-hjarndoda-gatan
+version: "1.0.0"
+lastModified: "2022-04-07T08:04:24Z"
+url: https://community.simtropolis.com/files/file/35043-esa-hjarndoda-gatan/?do=download&r=192771

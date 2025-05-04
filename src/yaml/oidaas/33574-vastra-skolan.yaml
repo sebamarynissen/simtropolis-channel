@@ -1,0 +1,57 @@
+group: oidaas
+name: vastra-skolan
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Vastra Skolan
+  description: |-
+    Vastra skolan
+
+    This is a school from my hometown, nowadays used as an gymnasium, before that it was used as an elementary school.
+
+    **Dependencies**
+
+    Edit (forgot to add one more dependency)
+
+    BSC MEGA Props CP Vol01 (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    BSC - VIP girafe birches (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2620](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+
+    BSC Mega Props - JES Vol09 (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2349](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2349)
+
+    SFBT
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    Peg MTP Superpack
+
+    [https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/33574-vastra-skolan/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5ea9586c925e0_vastrasida1.png.1e04f851a156344b6b306e65a9309b89.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5ea958739573e_vastrasida2.png.20f0158aad509829b70293c7a9d2ef7b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5ea9587d17066_vastrasida.png.6b3a81cd90305d9e15f226181c87e65b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/vastra.png.d3ec749cd5502b0787ca6aefa2d314b6.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol09
+  - girafe:birches
+  - peg:mtp-super-pack
+  - sfbt:essentials
+  - sfbt:sam-johnson-playground-props
+assets:
+  - assetId: oidaas-vastra-skolan
+
+---
+assetId: oidaas-vastra-skolan
+version: "1.0.0"
+lastModified: "2020-04-29T10:36:48Z"
+url: https://community.simtropolis.com/files/file/33574-vastra-skolan/?do=download&r=180856

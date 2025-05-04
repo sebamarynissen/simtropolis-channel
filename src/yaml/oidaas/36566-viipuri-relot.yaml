@@ -1,0 +1,66 @@
+group: oidaas
+name: viipuri-relot
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: SC4 Viipuri relot
+  description: |-
+    **About**
+
+    this a relot of Krio's fantastica Viipuri station-    
+    Stats
+
+    Item Order     1                       
+    Plop Cost     1500                       
+    Bulldoze Cost     100                       
+    Wealth     None                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    0     0     0     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    0     0     0     0           
+    Flammability     10                       
+    MaxFireStage     1                       
+    Power Consumed     61                       
+    Water Consumed     0                       
+    Demand Created     Jobs $     Jobs $$     Jobs $$$     R-$     R-$$       
+    95     5     0     95     5       
+    R-$$$                       
+    0                       
+    Budget Item: Department     Mass Transit                       
+    Budget Item: Line     0x00000001                       
+    Budget Item: Purpose     Mass Transit Switch                       
+    Budget Item: Cost     100                       
+    SFX:Query Sound     0x2A55BD56                       
+    SFX:Default Plop Sound     0x4A5EC571                       
+    Query exemplar GUID     0x4A565D13                       
+    OccupantGroups     Building: Transportation     Building: Rail     Building: Strikable Transit     Building: Taxi\_Maker     Building: PassengerRail
+
+    **Dependencies**
+
+    BSC common [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    Girafe common [https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora)  
+    Krio Viipuri [https://community.simtropolis.com/files/file/28021-viipuri-railwaystation/](https://community.simtropolis.com/files/file/28021-viipuri-railwaystation/)  
+    Mumrik bike [https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/](https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36566-sc4-viipuri-relot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673d6b1a65556_NewCity-Apr.1001732076985.jpg.a81f7075afd90c7c47b139fc7f064d29.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673d6b1aec03e_NewCity-Apr.1001732077011.jpg.c41b09c3386fb36c6538ee69ddd1f662.jpg
+dependencies:
+  - krio:viipuri-railway-station-resources
+  - murimk:props-vol01-bicycles
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - girafe:beeches
+  - girafe:maples-v2
+  - bsc:mega-props-jes-vol01
+  - krio:small-prop-pack
+assets:
+  - assetId: oidaas-sc4-viipuri-relot
+
+---
+assetId: oidaas-sc4-viipuri-relot
+version: "1.0.0"
+lastModified: "2024-11-20T04:54:30Z"
+url: https://community.simtropolis.com/files/file/36566-sc4-viipuri-relot/?do=download&r=204457

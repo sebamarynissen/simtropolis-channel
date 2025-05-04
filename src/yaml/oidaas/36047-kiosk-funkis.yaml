@@ -1,0 +1,57 @@
+group: oidaas
+name: kiosk-funkis
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Kiosk funkis
+  description: |-
+    **About**
+
+    This is a kiosk that is modeled after a kiosk in a neighboring county.
+
+    **Stats**
+
+    Bulldoze Cost     103                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     7                       
+    SFX:Query Sound     0x2a8916ab                       
+    Query exemplar GUID     0xca56783a                       
+    OccupantGroups     Building: Commercial     Style: Houston     Building: CS$$               
+    Occupant Size     Width     Height     Depth               
+    18.3327     7.082     11.3198               
+    Occupant Types     CS$     CS$$                   
+    Building value     137                       
+    Capacity Satisfied     CS-$     CS-$$                   
+    16     6
+
+    **Dependcies**
+
+    BSC Creation pack [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    SC4D LEX LEGACY - BSC VIP Girafe Flora Pack [https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+    SHK Parking pack [https://community.simtropolis.com/files/file/27563-shk-parking-pack/](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36047-esa-kiosk-funkis/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/65aab3e95ef1b_NewCity-May.7001705685234.jpg.5e3f22fd3f66fc91a2f1d93fc9195c1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/65aab3ea7b21a_NewCity-May.7001705685242.jpg.86a1540e68d30e5c5abea08934282719.jpg
+dependencies:
+  - shk:parking-pack
+  - girafe:maples-v2
+  - girafe:birches
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: oidaas-kiosk-funkis
+
+---
+assetId: oidaas-kiosk-funkis
+version: "1.0.0"
+lastModified: "2024-01-19T17:40:53Z"
+url: https://community.simtropolis.com/files/file/36047-esa-kiosk-funkis/?do=download&r=199435
