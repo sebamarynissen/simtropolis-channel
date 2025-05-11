@@ -47,14 +47,14 @@ variants:
   assets:
   - assetId: "heblem-cumbres-terrain-mod"
     include:
-    - "/LBT Cumbres Controller (Low Height Snow).dat"
-    - "/LBT Cumbres Terrain Mod (Low Height Snow).dat"
+    - "/LBT Cumbres Controller \\(Low Height Snow\\).dat"
+    - "/LBT Cumbres Terrain Mod \\(Low Height Snow\\).dat"
 - variant: { heblem:cumbres-terrain-mod:snow-height: "high" }
   assets:
   - assetId: "heblem-cumbres-terrain-mod"
     include:
-    - "/LBT Cumbres Controller (High Height Snow).dat"
-    - "/LBT Cumbres Terrain Mod (High Height Snow).dat"
+    - "/LBT Cumbres Controller \\(High Height Snow\\).dat"
+    - "/LBT Cumbres Terrain Mod \\(High Height Snow\\).dat"
 variantInfo:
 - variantId: "heblem:cumbres-terrain-mod:snow-height"
   description: "Customize the height at which snow appears on the terrain"

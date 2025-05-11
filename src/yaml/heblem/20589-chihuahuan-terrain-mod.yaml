@@ -47,14 +47,14 @@ variants:
   assets:
   - assetId: "heblem-chihuahuan-terrain-mod"
     include:
-    - "/LBT Cumbres Controller (Low height snow).dat"
-    - "/LBT Cumbres Terrain Mod (Low height snow).dat"
+    - "/LBT Cumbres Controller \\(Low height snow\\).dat"
+    - "/LBT Cumbres Terrain Mod \\(Low height snow\\).dat"
 - variant: { heblem:chihuahuan-terrain-mod:snow-height: "high" }
   assets:
   - assetId: "heblem-chihuahuan-terrain-mod"
     include:
-    - "/LBT Cumbres Controller (High height snow).dat"
-    - "/LBT Cumbres Terrain Mod (High height snow).dat"
+    - "/LBT Cumbres Controller \\(High height snow\\).dat"
+    - "/LBT Cumbres Terrain Mod \\(High height snow\\).dat"
 variantInfo:
 - variantId: "heblem:chihuahuan-terrain-mod:snow-height"
   description: "Customize the height at which snow appears on the terrain"

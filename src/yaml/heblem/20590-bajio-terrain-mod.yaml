@@ -47,14 +47,14 @@ variants:
   assets:
   - assetId: "heblem-bajio-terrain-mod"
     include:
-    - "/LBT Bajio Controller (Low Height Snow).dat"
-    - "/LBT Bajio Terrain Mod (Low Height Snow).dat"
+    - "/LBT Bajio Controller \\(Low Height Snow\\).dat"
+    - "/LBT Bajio Terrain Mod \\(Low Height Snow\\).dat"
 - variant: { heblem:bajio-terrain-mod:snow-height: "high" }
   assets:
   - assetId: "heblem-bajio-terrain-mod"
     include:
-    - "/LBT Bajio Controller (High Height Snow).dat"
-    - "/LBT Bajio Terrain Mod (High Height Snow).dat"
+    - "/LBT Bajio Controller \\(High Height Snow\\).dat"
+    - "/LBT Bajio Terrain Mod \\(High Height Snow\\).dat"
 variantInfo:
 - variantId: "heblem:bajio-terrain-mod:snow-height"
   description: "Customize the height at which snow appears on the terrain"
