@@ -1,0 +1,47 @@
+group: heblem
+name: walmart-supercenter
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: WalMart Supercenter
+  description: |-
+    Wal-Mart its a Mexican retail store, this store brings long variety of products and lowest prices to the consumers, this file includes a growable and ploppable version. Enjoy! (Mexico bats)
+
+    Note: If you downloaded before LBT Commercial Pack 2 [https://www.simtropolis.com/STEX/index.cfm?id=19120](../../stex/index.cfm?id=19120) this file replaces that old one, you can choose to remove the old one or leave it in your plugins folder, theres no problems with it, old folder should be at documents/SimCity 4/Plugins/LBT/Heblem/PackComercial
+
+    Thanks!
+
+    **Landmark plop and growable**
+
+    Lot size:
+
+    10x9
+
+    Position in the menu:
+
+    Landmark menu (not apply on growable)
+
+    occupants:
+
+    **CS - 2088$ - 524$$**
+
+    wealth:
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/19506-lbt-walmart-supercenter-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/992b9afe13b98898f202cf631b09651a-showwal1.jpg
+    - https://www.simtropolis.com/objects/screens/0017/992b9afe13b98898f202cf631b09651a-showwal2.jpg
+assets:
+  - assetId: heblem-walmart-supercenter-v2
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - sc4jeeks:parking-textures-vol01
+
+---
+assetId: heblem-walmart-supercenter-v2
+version: "1.0"
+lastModified: "2008-03-09T04:53:37Z"
+url: https://community.simtropolis.com/files/file/19506-lbt-walmart-supercenter-v2/?do=download&r=44277
+archiveType:
+  format: Clickteam
+  version: "40"

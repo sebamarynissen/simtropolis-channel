@@ -1,0 +1,77 @@
+group: heblem
+name: bajio-terrain-mod
+version: "2"
+subfolder: 170-terrain
+info:
+  summary: Bajio Terrain Mod
+  description: |-
+    **Mexico Terrain Mods (Bajio Terrain Mod), This is a sub-tropical terrain mod, based among of "El Bajío Zone" (North Centreal Mexico) where states as Jalisco, Aguascalientes, Guanajuato, Michoacan are located, also the terrain is similar to the landscape of Guadalajara city. This file includes a controller where you can set the altitude height, beach height, etc...  
+      
+    I suggest using Maxis rock mod for this terrain mod.  
+    Special thanks to C.P. for allow me to include some of his terrain textures on this terrain mod.**
+
+    **If you download this file please pick one type of terrain mod you want, depending you want snow over it... the normal (or the one that doesn't say hight or low height) that's the no snow version,, the low height is the most covered snow version and high height is the few snow version...  
+      
+    Enjoy!**
+
+    **Computability:**
+
+    **This file only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.**
+
+    **Installation:**
+
+    **Installation:** Just double click on the installer and it should automatically install the terrain mod into your plugins folder.**
+
+    **Uninstall:** For uninstall, look at your documents/SimCity 4/Plugins/LBT/TerrainMods and delete the terrain mod contain folder.**
+
+    **Dependencies:**
+
+    **NO DEPENDENCIES NEEDED**
+
+    **Credits:**
+
+    **C.P. for allow me to include some of his terrain textures on this terrain mod.**
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/20590-lbt-bajio-terrain-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dc257d2c7110eb039800d0b2db8cdd01-show_bajio1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dc257d2c7110eb039800d0b2db8cdd01-show_bajio21.jpg
+variants:
+- variant: { heblem:bajio-terrain-mod:snow-height: "normal" }
+  assets:
+  - assetId: "heblem-bajio-terrain-mod"
+    include:
+    - "/LBT Bajio Controller.dat"
+    - "/LBT Bajio Terrain Mod.dat"
+- variant: { heblem:bajio-terrain-mod:snow-height: "low" }
+  assets:
+  - assetId: "heblem-bajio-terrain-mod"
+    include:
+    - "/LBT Bajio Controller (Low Height Snow).dat"
+    - "/LBT Bajio Terrain Mod (Low Height Snow).dat"
+- variant: { heblem:bajio-terrain-mod:snow-height: "high" }
+  assets:
+  - assetId: "heblem-bajio-terrain-mod"
+    include:
+    - "/LBT Bajio Controller (High Height Snow).dat"
+    - "/LBT Bajio Terrain Mod (High Height Snow).dat"
+variantInfo:
+- variantId: "heblem:bajio-terrain-mod:snow-height"
+  description: "Customize the height at which snow appears on the terrain"
+  values:
+  - value: "normal"
+    description: "No snow appears at any height"
+    default: true
+  - value: "low"
+    description: "Snow appears a a much lower terrain height"
+  - value: "high"
+    description: "Snow appears at a very high terrain height"
+
+---
+assetId: heblem-bajio-terrain-mod
+version: "2"
+lastModified: "2008-10-30T05:44:18Z"
+url: https://community.simtropolis.com/files/file/20590-lbt-bajio-terrain-mod/?do=download&r=46097
+archiveType:
+  format: Clickteam
+  version: "40"
