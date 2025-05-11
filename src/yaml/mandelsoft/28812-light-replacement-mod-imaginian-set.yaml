@@ -1,0 +1,63 @@
+group: mandelsoft
+name: light-replacement-mod-imaginian-set
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Light Replacement Mod 5.0 - Imaginian Set
+  description: |-
+    This mod adds (fictional) Imaginian styled streetlights and optionally it can replace all in-game streetlights. 8 new streetlight types (24 models in total), included with a more uniform light spreading, making your cities look great from far too.
+
+    **Installation**
+
+    Installation is quite simple: just put the right files into your plugins folder. The following files are included:
+
+    • *LightCones\_DarkNite.dat*
+
+    • *LightCones\_MaxisNite.dat*
+
+    Contains the light cones. Select only **ONE** of these two files. Use the DarkNite light cones only when you have *SimFox’s DarkNite Mod* installed.
+
+    • *Models & Props.dat*
+
+    Contains all models and prop descriptors for this pack. Must be installed!
+
+    • *Ploppable Lights.dat*
+
+    Optional. Contains several sets of ploppable lights.
+
+    • *Override Set.dat*
+
+    Optional. Replaces all in-game streetlights with Imaginian styled streetlights. Also contains enhanced T21\-exemplar setups for more variety.
+
+    **Uninstallation**
+
+    To uninstall the pack, remove the files from this mod from your Plugins folder.
+
+    **Dependencies**
+
+    This mod has no dependencies.
+
+    Enjoy!
+
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28812-light-replacement-mod-imaginian-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/ad0d303a50252910bc0e7e7cf0ded4d6-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/f36b90218c143dd8fad31e55b566c2e4-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/781fd5f14281dea5fed77e2cce8507a7-screen02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/87fc2e39f88cead44219cb99fee3ce57-screen03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/2807db621ab5763222e1b49059d14bd5-screen04.jpg
+assets:
+  - assetId: mandelsoft-light-replacement-mod-imaginian-set
+    include:
+      - "/Override Set.dat"
+      - "/Models & Props.dat"
+dependencies:
+  - "mandelsoft:lrm-5-lightcones"
+
+---
+assetId: mandelsoft-light-replacement-mod-imaginian-set
+version: "1.0"
+lastModified: "2013-06-26T16:06:03Z"
+url: https://community.simtropolis.com/files/file/28812-light-replacement-mod-imaginian-set/?do=download&r=116716
