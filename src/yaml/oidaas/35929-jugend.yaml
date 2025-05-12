@@ -1,0 +1,58 @@
+group: oidaas
+name: jugend
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Jugend
+  description: |-
+    **About**
+
+    This mansion is inspired by a mansion i saw when googling jugend mansions.
+
+    **Stats**
+
+    Bulldoze Cost    158                      
+    Wealth    High Wealth                      
+    Pollution at center    Air    Water    Garbage    Radiation          
+    1    1    4    0          
+    Pollution radii    Air    Water    Garbage    Radiation          
+    6    7    0    0          
+    Flammability    35                      
+    MaxFireStage    2                      
+    Power Consumed    1                      
+    Water Consumed    5                      
+    SFX:Query Sound    0x6a63bba2                      
+    Query exemplar GUID    0x4a5672bf                      
+    OccupantGroups    Building: Residential    Building: R$$$    Style: Chicago    Style: New York    Style: Houston      
+    Style: Euro                      
+    Occupant Size    Width    Height    Depth              
+    18.812    12    14.306              
+    Occupant Types    R$    R$$    R$$$              
+    Building value    458                      
+    Capacity Satisfied    R-$    R-$$    R-$$$              
+    30    18    9
+
+    **Dependencies**
+
+    SC4D LEX Legacy - BSC Common Dependencies Pack [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    ESA props vol 1 [https://community.simtropolis.com/files/file/33619-esa-proppack/](https://community.simtropolis.com/files/file/33619-esa-proppack/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35929-esa-jugend/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659b6ff118edf_NewCity-Jan.10001704685329.jpg.8eeef7af2c5da66b40c293e6fa6a473c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659b6ff6560ec_NewCity-Jan.10001704685311.jpg.b4c1477601ccf976ba54cd5d46689ac7.jpg
+dependencies:
+  - oidaas:proppack
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:chestnuts
+  - girafe:hedges
+  - bsc:vip-girafe-carpack-vol03
+  - peg:mtp-super-pack
+assets:
+  - assetId: oidaas-jugend
+
+---
+assetId: oidaas-jugend
+version: "1.0.0"
+lastModified: "2024-01-08T03:47:06Z"
+url: https://community.simtropolis.com/files/file/35929-esa-jugend/?do=download&r=199103

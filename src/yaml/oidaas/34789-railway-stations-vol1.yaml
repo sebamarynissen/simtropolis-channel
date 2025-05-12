@@ -1,0 +1,147 @@
+group: oidaas
+name: railway-stations-vol1
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Railway stations vol 1
+  description: |-
+    ESA Railpack vol 1
+
+    This is a bunch of railway stations from the Swedish ore line.
+
+    stats
+
+    \----------------
+
+    Gallivare
+
+    lot size:2x4  
+    Demand:jobs $:25, jobs $$:12, jobs $$$ 8, R$:50, R$$: 24, R$$$:16  
+    Occupant Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger:2000
+
+    Boden
+
+    lotsize:4x2  
+    Demand:jobs $:25, jobs $$:12, jobs $$$ 8, R$:50, R$$: 24, R$$$:16  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger:2000
+
+    Gulltrask
+
+    lot size:2x2  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    Nasberg
+
+    lotsize:3x1  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    Koskivaara
+
+    lotsize:3x2  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    Gransjo
+
+    lotsize:2x1  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    Ljusa
+
+    lotsize:3x1  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    Polcirkeln
+
+    lot size:2x1  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    Nourtikon  
+    lotsize:2x1  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    Sandtrask
+
+    lotsize.2x1  
+    Demand:Jobs $:6, jobs $$:4, jobs $$$ 2, R$:12, R$$:8, R$$$:4  
+    Groups:Building:Transportation,Rail,Strikable,PassengerRail  
+    Passenger: 1000
+
+    \----------------------------
+
+    Dependencies  
+    ESA Railpack
+
+    [https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed)
+    Historic Harbour
+
+    [https://community.simtropolis.com/files/file/29880-historic-harbor/?do=embed](https://community.simtropolis.com/files/file/29880-historic-harbor/?do=embed)
+
+    # 1960s Maxis Automata Replacement Modd
+
+    [https://community.simtropolis.com/files/file/22109-1960s-maxis-automata-replacement-modd/?do=embed](https://community.simtropolis.com/files/file/22109-1960s-maxis-automata-replacement-modd/?do=embed)
+    PEG MTP Super pack
+
+    [https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed)
+    BSC MEGA Props CP Vol01 (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    SFBT essentials  [https://www.sc4devotion.com/csxlex/lex\_filedesc.ph](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    MGB Girafe flora
+
+    [https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed](https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed)
+    Glenni BLAM
+
+    [https://community.simtropolis.com/files/file/17578-blam-glenni-prop-pack/?do=embed](https://community.simtropolis.com/files/file/17578-blam-glenni-prop-pack/?do=embed)
+    I'd think thats all :-p
+
+    \---------------------------
+
+    Installation
+
+    Simply extract the folder to plugins :-)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/34789-esa-railway-stations-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/61bd78ff637b4_test-Jun.17001639803284.jpg.8c8121b96ea7868ff619b3628fdb1140.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/nitelite.jpg.370f06f53084a73671b90ad700ecada3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/61bd790ca2795_test-Jun.17001639803270.jpg.8c4ec30719670f0e79fe2f5ce8da602d.jpg
+dependencies:
+  - ndex:glenni-mega-props-vol01
+  - mikeseith:1960s-automobile-props
+  - bsc:mega-props-cp-vol01
+  - historic-harbor:dependencies
+  - mgb204:mmp-pack-vol2
+  - oidaas:rail-props-vol01
+  - peg:mtp-super-pack
+  - sfbt:essentials
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:mega-props-swi21-vol01
+assets:
+  - assetId: oidaas-railway-stations-vol1
+
+---
+assetId: oidaas-railway-stations-vol1
+version: "1.0.0"
+lastModified: "2022-02-25T06:39:45Z"
+url: https://community.simtropolis.com/files/file/34789-esa-railway-stations-vol-1/?do=download&r=191472

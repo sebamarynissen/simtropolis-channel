@@ -1,0 +1,164 @@
+group: oidaas
+name: elvestad-addon
+version: "1.0.0"
+subfolder: 630-health
+info:
+  summary: Elvestad Addon
+  description: |-
+    About
+
+    This is an expansion of Elvestads hospital
+
+    Dependencies
+
+    BSC Common dependencies [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Girafe Common [SC4D LEX LEGACY - BSC VIP Girafe Flora Pack](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+    Elvestad hospital
+
+    [https://community.simtropolis.com/files/file/36123-esa-elvestads-university-hospital/?do=embed](https://community.simtropolis.com/files/file/36123-esa-elvestads-university-hospital/?do=embed)
+    Stats
+
+    infection
+
+    Item Name     H flygeln\_recover 1  
+    Item Description     This building was made by a Typing Monkey  
+    Item Icon       
+    Item Order     2                       
+    Plop Cost     4200                       
+    Bulldoze Cost     200                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    6     4     3     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    3     4     0     0           
+    Flammability     36                       
+    MaxFireStage     4                       
+    Power Consumed     11                       
+    Water Consumed     41                       
+    Demand Created     Jobs $     Jobs $$     Jobs $$$     R-$     R-$$       
+    53     148     48     53     148       
+    R-$$$                       
+    48                       
+    Budget Item: Department     Health Staff     Health Coverage                   
+    Budget Item: Line     0x00000000     0x00000001                   
+    Budget Item: Purpose     Hospital Staff     Hospital Coverage                   
+    Budget Item: Cost     2300     400                   
+    SFX:Query Sound     0xaa55ba71                       
+    SFX:Default Plop Sound     0x4a5ec571                       
+    Query exemplar GUID     0xaa554aea                       
+    OccupantGroups     Building: Civic     Building: Health     Building: Strikable Health     Building: Hospital     Building: LargeHealth       
+    Occupant Size     Width     Height     Depth               
+    111.5     34.8088     48.9001               
+    Jail  
+    Catalog Capacity     7300                       
+    Hospital  
+    Hospital Coverage Radius     1128                       
+    Hospital Population vs. Distance     0     100     100     100           
+    Hospital Effectiveness vs. Average Age     0     8     100     8           
+    Hospital Patient Capacity     7300                       
+    Hospital HQ boost     11.52000046                       
+    Catalog Capacity     7300                       
+    Catalog Monthly Cost     2700
+
+    Pathology
+
+    User Visible Name Key     Open Paved Area  
+    Item Description Key     0x2026960B     0x07BDDF1C     0x335A551D               
+    Item Icon       
+    Item Order     5                       
+    Plop Cost     3250                       
+    Bulldoze Cost     90                       
+    Wealth     None                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    0     0     0     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    0     0     0     0           
+    Flammability     0                       
+    MaxFireStage     0                       
+    Power Consumed     0                       
+    Water Consumed     0                       
+    Landmark Effect     Magnitude     Radius                   
+    200     10                   
+    Demand Satisfied     R-$     R-$$     R-$$$               
+    80000     80000     80000               
+    Budget Item: Department     Park and Rec                       
+    Budget Item: Line     0x00000000                       
+    Budget Item: Purpose     Park Effect                       
+    Budget Item: Cost     400                       
+    SFX:Query Sound     0xCA9B8233                       
+    SFX:Default Plop Sound     0xEA5EC59F                       
+    Query exemplar GUID     0x0A562A05                       
+    OccupantGroups     Building: Civic     Building: Health     Building: Strikable Health     Building: Hospital     Building: LargeHealth       
+    Occupant Size     Width     Height     Depth
+
+    Psychiatry
+
+    Item Name     Custom Ploppable  
+    Item Description     Insert ploppable description here.  
+    Item Icon       
+    Item Order     1                       
+    Plop Cost     100                       
+    Bulldoze Cost     100                       
+    Wealth     None                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    0     0     0     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    0     0     0     0           
+    Flammability     10                       
+    MaxFireStage     1                       
+    Power Consumed     16                       
+    Water Consumed     0                       
+    Demand Satisfied     R-$     R-$$     R-$$$               
+    20     20     20               
+    Demand Created     Jobs $     Jobs $$     Jobs $$$     R-$     R-$$       
+    1     6     1     1     6       
+    R-$$$                       
+    1                       
+    Budget Item: Department     Health Staff     Health Coverage                   
+    Budget Item: Line     0x00000000     0x00000001                   
+    Budget Item: Purpose     Hospital Staff     Hospital Coverage                   
+    Budget Item: Cost     300     100                   
+    SFX:Query Sound     0xAA55BA71                       
+    SFX:Default Plop Sound     0x4A5EC571                       
+    Query exemplar GUID     0xAA554AEA                       
+    OccupantGroups     Building: Civic     Building: Health     Building: Strikable Health     Building: Hospital     Building: AmbulanceMaker       
+    Occupant Size     Width     Height     Depth               
+    101     31     66,16599               
+    Hospital  
+    Hospital Coverage Radius     400                       
+    Hospital Population vs. Distance     0     100     100     100           
+    Hospital Effectiveness vs. Average Age     0     8     100     8           
+    Hospital Patient Capacity     3000                       
+    Hospital HQ boost     11,52                   
+    1     0     1
+
+    staff edit 09.03.2024: deleted the large empty spaces around the text. - Tyberius06
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36134-esa-elvestad-addon/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65d58eac3a1c3_NewCity-Jan.11001708457905.jpg.e0b9796f55278935471f359961adc4b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65d58eadb0346_NewCity-Jan.11001708457910.jpg.2d55c8d050a92094d4266bb07a5eb1de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65d58eb09173f_NewCity-Jan.11001708457922.png.b703eb34e41d80507c313d1cf35a59b3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65d58eeb1270a_NewCity-Jan.11001708457916.png.39bb2af91feafbb66bdf3cdee6dab327.png
+dependencies:
+  - oidaas:elvestads-university-hospital
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - girafe:maples-v2
+  - girafe:birches
+  - girafe:elms
+  - girafe:lindens
+  - squidi:ps-textures
+assets:
+  - assetId: oidaas-elvestad-addon
+
+---
+assetId: oidaas-elvestad-addon
+version: "1.0.0"
+lastModified: "2024-02-21T06:00:03Z"
+url: https://community.simtropolis.com/files/file/36134-esa-elvestad-addon/?do=download&r=200325

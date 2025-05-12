@@ -1,0 +1,58 @@
+group: oidaas
+name: fritz-olsson
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Fritz Olsson
+  description: |-
+    **About**
+
+    This is a replica of a pair of now demolished houses in my hometown.
+
+    **Stats**
+
+    Bulldoze Cost     233                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    4     3     6     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     3                       
+    Power Consumed     10                       
+    Water Consumed     123                       
+    SFX:Query Sound     0x2A8916AB                       
+    Query exemplar GUID     0xCA56783A                       
+    OccupantGroups     Building: Commercial     Building: CS$$     Style: Euro     BTE : Comm. W2W     BTE : Comm. Retailers       
+    Occupant Size     Width     Height     Depth               
+    43.61109924     19.65049934     38.22579956               
+    Occupant Types     CS$     CS$$                   
+    Building value     4272                       
+    Capacity Satisfied     CS-$     CS-$$                   
+    498     127
+
+    **Dependencies**
+
+    C4D LEX LEGACY - BSC VIP Girafe Flora Pack  
+    [https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+    SC4D LEX Legacy - BSC Common Dependencies Pack  
+    [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36515-esa-fritz-olsson/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67143d04731f2_(Byske)-Dec.28461729378797.jpg.3730f4abeddf50f0d8563be3bbc84de7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67143d054e4e8_(Byske)-Dec.28461729378732.jpg.05ad5004ca5e8b258c9ede177e3115ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67143d0653716_(Byske)-Dec.28461729378740.jpg.fa8dd1cefd6c9b373b69df9c769c200d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67143d49c2647_(Byske)-Dec.28461729378807.jpg.b7259d82f819bd2d7a45e1a6b17a76c9.jpg
+dependencies:
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - girafe:maples-v2
+assets:
+  - assetId: oidaas-fritz-olsson
+
+---
+assetId: oidaas-fritz-olsson
+version: "1.0.0"
+lastModified: "2024-10-19T23:16:02Z"
+url: https://community.simtropolis.com/files/file/36515-esa-fritz-olsson/?do=download&r=203994
