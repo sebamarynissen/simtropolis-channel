@@ -1,0 +1,77 @@
+group: heblem
+name: courtyard-marriott-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Courtyard Marriott Hotel
+  description: |-
+    Courtyard by Marriott is a brand of hotels owned by Marriott International. They have over 2,800 hotels worldwide, as of June 2007. Courtyard by Marriott is designed for business travelers. Its rooms feature large desks, couches, free high speed Internet access, and "big" breakfasts. source wikipedia.org
+
+    This hotel has a functional landmark version and growable version.
+
+    enjoy!
+
+    **Dependencies:**
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    [LBT Mega Texture Pack vol.02](../../stex/details.cfm?id=21771)
+
+    [LBT Mega Prop Pack vol.01](../../stex/details.cfm?id=21770)
+
+    **Functional landmark and growable version**
+
+    Lot size:
+
+    6x5
+
+    Position in the menu:
+
+    landmarks menu (not apply on growable)
+
+    ocupants:
+
+    1941 $ - 487 $$
+
+    wealth:
+
+    $$ - Medium wealth
+
+    Bullzone cost:
+
+    **291**
+
+    Flamability:
+
+    40
+
+    Max. fire level:
+
+    4
+
+    Power:
+
+    39
+
+    Water:
+
+    469
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/21808-hbs-courtyard-marriott-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/457a712f3093b09935274c62833d709f-show1.jpg
+    - https://www.simtropolis.com/objects/screens/0009/457a712f3093b09935274c62833d709f-show2.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+assets:
+  - assetId: heblem-hbs-courtyard-marriott-hotel
+
+---
+assetId: heblem-hbs-courtyard-marriott-hotel
+version: "1.0"
+lastModified: "2009-06-04T16:27:26Z"
+url: https://community.simtropolis.com/files/file/21808-hbs-courtyard-marriott-hotel/?do=download&r=47875
+archiveType:
+  format: Clickteam
+  version: "40"

@@ -1,0 +1,49 @@
+group: heblem
+name: yucatan-tropical-tree-mod
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Yucatan Tropical Tree Mod
+  description: |-
+    This is a tropical god flora mode, this tropical flora are common in southern mexico, this flora suits with my yucatan terrain mod
+
+    **I**nstallation:****
+
+    Just drop the HBS\_YucatanTropicalFloraMod.dat into your plugins folder, and make sure to get the dependencies.
+
+    Uninstall: Remove all the flora and delete de HBS\_YucatanTropicalFloraMod.dat file from your plugins folder
+
+    **DEPENDENCIES**
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    ## [BSC Prop Jeronij Vol 02 Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=167)                                                                                       
+
+    [GDV MAYOR MODE TROPICAL TREE SET](https://community.simtropolis.com/files/file/13067-gdv-mayor-mode-tropical-tree-set/) (gdv\_COCONUTTREE\_single-0x5ad0e817\_0xef8be8f7\_0x2f0000.SC4Model)
+
+    **Suggested terrain mod:** This flora mod was designed to work with the next terrain mod
+
+    ## [LBT Yucatan Terrain Mod](../../stex/details.cfm?id=20587)
+
+    Special thanks to **Jeronij** for his great tropical trees and **goldiva** for his palm tree
+
+    enjoy!!!
+
+    **Cori Edit:** Fixed the GDV Linky. The BSC Prop Jeronij Vol 02 Trees are still a mystery. Supposedly they are in the [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack).
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/24191-hbs-yucatan-tropical-tree-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/20ae44d6bd39c0317b8e9198119218c0-yucshow1.jpg
+    - https://www.simtropolis.com/objects/screens/0005/20ae44d6bd39c0317b8e9198119218c0-yucshow2.jpg
+dependencies:
+  - goldiva:mayor-mode-tropical-tree-set
+  - bsc:mega-props-jrj-vol04
+  - bsc:mega-props-jrj-vol05
+assets:
+  - assetId: heblem-hbs-yucatan-tropical-tree-mod
+
+---
+assetId: heblem-hbs-yucatan-tropical-tree-mod
+version: "1.0"
+lastModified: "2010-06-20T23:11:21Z"
+url: https://community.simtropolis.com/files/file/24191-hbs-yucatan-tropical-tree-mod/?do=download&r=51313

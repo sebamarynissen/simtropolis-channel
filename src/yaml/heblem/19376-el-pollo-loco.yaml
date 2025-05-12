@@ -1,0 +1,48 @@
+group: heblem
+name: el-pollo-loco
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: El Pollo Loco
+  description: |-
+    A typical Mexican and United States restaurant, El Pollo Loco (The Crazy Chicken) its famous for the rotisserie chicken and mexican grill. This is a functional commercial service landmark.  
+      
+    **Dependencies****:**
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    -   [LBT Mega Prop Pack vol.01](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+    -   [PEG MTP SUPER PACK 1](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+    -   [Fixed Sc4jeeks Parking Textures](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1181)
+
+    **Landmark plop**
+
+    Lot size:
+
+    2x2
+
+    Position in the menu:
+
+    Landmark menu
+
+    ocupants:
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/19376-lbt-el-pollo-loco/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5deecafad462fb200aa3212cd43249dc-show_pollos1.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5deecafad462fb200aa3212cd43249dc-show_pollos2.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - peg:mtp-super-pack
+  - sc4jeeks:parking-textures-vol01
+assets:
+  - assetId: heblem-el-pollo-loco
+
+---
+assetId: heblem-el-pollo-loco
+version: "1.0"
+lastModified: "2008-02-15T17:36:26Z"
+url: https://community.simtropolis.com/files/file/19376-lbt-el-pollo-loco/?do=download&r=44045
+archiveType:
+  format: Clickteam
+  version: "40"

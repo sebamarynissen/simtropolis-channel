@@ -1,0 +1,47 @@
+group: heblem
+name: soriana
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Soriana
+  description: |-
+    Soriana its a Mexican retail store, this store brings long variety of products and lowest prices to the consumers, this file includes a growable and ploppable version. Enjoy! (Mexico bats)
+
+    Note: If you downloaded before LBT [https://www.simtropolis.com/STEX/index.cfm?id=19120](../../stex/index.cfm?id=19120) this file replaces that old one, you can choose to remove the old one or leave it in your plugins folder, theres no problems with it, old folder should be at documents/SimCity 4/Plugins/LBT/Heblem/PackComercial
+
+    Thanks!
+
+    **Landmark plop and growable**
+
+    Lot size:
+
+    11x9
+
+    Position in the menu:
+
+    Landmark menu (not apply on growable)
+
+    ocupants:
+
+    **CS - 3700$ - 927$$**
+
+    wealth:
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/19505-lbt-soriana-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/ba889d5e647eeae78dc36b8afa3ae217-showsor1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/ba889d5e647eeae78dc36b8afa3ae217-showsor2.jpg
+assets:
+  - assetId: heblem-soriana-v2
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - sc4jeeks:parking-textures-vol01
+
+---
+assetId: heblem-soriana-v2
+version: "1.0"
+lastModified: "2008-03-09T04:48:54Z"
+url: https://community.simtropolis.com/files/file/19505-lbt-soriana-v2/?do=download&r=44275
+archiveType:
+  format: Clickteam
+  version: "40"

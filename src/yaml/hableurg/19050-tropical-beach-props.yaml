@@ -1,0 +1,32 @@
+group: hableurg
+name: tropical-beach-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Tropical Beach Props
+  description: |-
+    Those are tropical beach props that you can use in the game (no base textures included) you can find those at the game menu. Suggestion: please use the white beach mod and the beach terrain properties are in a high level so you can make realistic beaches. More information at feedback.
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    -   [LBT Mega Prop Pack vol.01](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+
+    edit: 03.09.2018 updated dependency links by Tyberius06
+  author: HabLeUrG
+  website: https://community.simtropolis.com/files/file/19050-lbt-tropical-beach-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/84576f7e76f04be7a2168b9cdcb8ec51-pp1simtrop.jpg
+    - https://www.simtropolis.com/objects/screens/0015/84576f7e76f04be7a2168b9cdcb8ec51-pp2simtrop.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+assets:
+  - assetId: hableurg-lbt-tropical-beach-props
+
+---
+assetId: hableurg-lbt-tropical-beach-props
+version: "1.0"
+lastModified: "2007-12-04T09:57:43Z"
+url: https://community.simtropolis.com/files/file/19050-lbt-tropical-beach-props/?do=download&r=43449
+archiveType:
+  format: Clickteam
+  version: "40"

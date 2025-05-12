@@ -1,0 +1,59 @@
+group: heblem
+name: the-new-york-times-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: NYBT HBS The New York Times Building
+  description: |-
+    The New York Times Building is a skyscraper on the west side of Midtown Manhattan that was completed in 2007.  
+      
+    The tower was designed by Renzo Piano, the tower rises 748 feet (228 m) from the street to its roof, with the exterior curtain wall extending 92 feet (28 m) higher to 840 feet (260 m), and a mast rising to 1,046 feet (319 m). As of 2008, the building is tied with the Chrysler Building as the third tallest building in New York City and the seventh tallest in the United States. -from wikipedia.org  
+      
+    This download includes dark night and maxis night versions. Please pick one and delete the other after transferring the files to your plugins folder.  
+      
+    **Functional landmark and growable version**  
+    **Lot size:** 8x4  
+    **Position in the menu:** landmarks menu (not apply on growable)  
+    **Ocupants:** 14,618 CO$$ - 10,225 CO$$$  
+    **Wealth:** $$$ - High wealth  
+    **Bullzone cost:** 4,362 $  
+    **Plop cost (not apply on growable)**: 68,220 $  
+    **Flamability:** 35  
+    **Max. fire level:** 5  
+    **Power consumed:** 240  
+    **Water consumed:** 2579  
+      
+    **DEPENDENCIES:**  
+      
+    [NYBT Essentials](https://www.simtropolis.com/forum/files/file/22916-nybt-essentials/)  
+    [SimFox's Day and Night Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-n-nite-modd/) for Dark Night version  
+      
+    Enjoy!
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/26511-nybt-hbs-the-new-york-times-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/b43545692d439a0554284c32227fcfde-show_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/facbd5987f038b2f8b0b57e7f211ca85-show_2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/a121526947779b7285a1cc09522a3284-show_3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/7a2abead3ddb4e9a861d8b53f2f39a2e-show_principal.png
+dependencies:
+  - nybt:essentials
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: heblem-nybt-hbs-the-new-york-times-building
+    exclude:
+    - "/HBS_TheNewYorkTimes_DarkNite-0x5ad0e817_0x7bbfdd85_0x30000.SC4Model"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: heblem-nybt-hbs-the-new-york-times-building
+    exclude:
+    - "/HBS_TheNewYorkTimes_MaxisNite-0x5ad0e817_0x7bbfdd85_0x30000.SC4Model"
+
+---
+assetId: heblem-nybt-hbs-the-new-york-times-building
+version: "1.0"
+lastModified: "2011-07-14T08:50:25Z"
+url: https://community.simtropolis.com/files/file/26511-nybt-hbs-the-new-york-times-building/?do=download&r=89066

@@ -1,0 +1,75 @@
+group: heblem
+name: tropical-flora-pack-mayor-mode
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Tropical Flora Pack (Mayor Mode)
+  description: |-
+    **18/07/2010 - There was a CTD problem with HBS\_FloraTropical\_TropicalTreesQUICKGROW.dat, now its fixed and included into the file, just download again (if you did already) and replace that file manually after using the installer. Sorry for inconviniences...**
+
+    This is a huge pack of mayor mode flora, mostly is tropical theme which i think suits for many climates styles.
+
+    This set includes different styles of coconut palm trees, huge tree, small plants, jungles, dense grasses, sand and much more, all the props can be plopped into the water for better realism and effects.
+
+    ![showmfextra.jpg](http://img248.imageshack.us/img248/6236/showmfextra.jpg)
+
+    **DEPENDENCIES:**
+
+    [HBS Flora Prop Pack vol.01](https://www.simtropolis.com/stex/details.cfm?id=24398)[](https://www.simtropolis.com/stex/details.cfm?id=24398)[  
+    ](https://www.simtropolis.com/stex/details.cfm?id=24398)
+
+    [](https://www.simtropolis.com/stex/details.cfm?id=24398)
+
+    **Install:**
+
+    The installer should make a folder in your documents/SimCity 4/Plugins/LBT/Heblem/PloppableFlora/TropicalFloraPack
+
+    **Uninstall:**
+
+    Just remove any rock in game and delete the files in your documents/SimCity 4/Plugins/LBT/Heblem/PloppableFlora/TropicalFloraPack
+
+    **Mac Users:**
+
+    Plase get and look for FileJuicer, that program should help you installing these files...
+
+    **Tip..** when plopping any flora, just make some clicks over the terrain to change the prop appearance, if you drag over you get a great variety of flora, this mod was designed to get more flora by less mouse drags.
+
+    enjoy!!!
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/24399-hbs-tropical-flora-pack-mayor-mode/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c6f3b08bef5bd80111b80de3b9152397-showmf1.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c6f3b08bef5bd80111b80de3b9152397-showmf2.jpg
+dependencies:
+  - heblem:flora-prop-pack-vol01
+assets:
+  - assetId: heblem-hbs-tropical-flora-pack-mayor-mode
+
+
+# ---
+# group: heblem
+# name: tropical-flora-pack-mayor-mode-fix
+# version: "1.0"
+# subfolder: 180-flora
+# info:
+#   summary: Fixes CTD for Tropical Flora Pack (Mayor Mode)
+#   author: Heblem
+#   website: https://community.simtropolis.com/files/file/24399-hbs-tropical-flora-pack-mayor-mode/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/0022/c6f3b08bef5bd80111b80de3b9152397-showmf1.jpg
+#     - https://www.simtropolis.com/objects/screens/0022/c6f3b08bef5bd80111b80de3b9152397-showmf2.jpg
+# dependencies:
+#   - heblem:flora-prop-pack-vol01
+# assets:
+#   - assetId: heblem-hbs-tropical-flora-pack-mayor-mode
+#     include:
+#       "/HBS_FloraTropical_TropicalTreesQUICKGROW.dat"
+
+---
+assetId: heblem-hbs-tropical-flora-pack-mayor-mode
+version: "1.0"
+lastModified: "2010-07-15T22:56:22Z"
+url: https://community.simtropolis.com/files/file/24399-hbs-tropical-flora-pack-mayor-mode/?do=download&r=51643
+archiveType:
+  format: Clickteam
+  version: "40"
