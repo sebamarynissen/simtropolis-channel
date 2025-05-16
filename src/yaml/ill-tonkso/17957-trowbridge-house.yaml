@@ -1,0 +1,58 @@
+group: ill-tonkso
+name: trowbridge-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Trowbridge House
+  description: |-
+    **Trowbridge House**
+
+    Trowbridge house is a generic early 1970's low rise office building. Like many others built in the era, this structure offers floor to cieling windows, and thats about it. This has been designed to fit in anywhere as a filler or a main office structure for small town centres.
+
+    * * *
+
+    Plop: 1000 CO££ Jobs, 2x4 Lot.
+
+    * * *
+
+    Grow: 1000 CO££ Jobs, 2x4 Lot.
+
+    * * *
+
+    No dependencies
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17957-ndex-its-trowbridge-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d9dceee1269a093090554496c9e99f8a-trowd.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d9dceee1269a093090554496c9e99f8a-trown.jpg
+assets:
+  - assetId: ill-tonkso-trowbridge-house
+    exclude:
+      - "/ITS_NDEX_Trowbridge_House-0x5ad0e817_0x931d31d7_0x30000.SC4Model"
+dependencies:
+  - ill-tonkso:trowbridge-house-model
+
+---
+group: ill-tonkso
+name: trowbridge-house-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=ill-tonkso:trowbridge-house`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17957-ndex-its-trowbridge-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d9dceee1269a093090554496c9e99f8a-trowd.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d9dceee1269a093090554496c9e99f8a-trown.jpg
+assets:
+  - assetId: ill-tonkso-trowbridge-house
+    include:
+      - "/ITS_NDEX_Trowbridge_House-0x5ad0e817_0x931d31d7_0x30000.SC4Model"
+
+---
+assetId: ill-tonkso-trowbridge-house
+version: "1.0"
+lastModified: "2007-04-04T17:05:42Z"
+url: https://community.simtropolis.com/files/file/17957-ndex-its-trowbridge-house/?do=download&r=41613

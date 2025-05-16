@@ -1,0 +1,51 @@
+group: kingofsimcity
+name: devlin-square
+version: "1.10"
+subfolder: 660-parks
+info:
+  summary: Devlin Square
+  description: |-
+    **Introduction**
+
+    Devlin Square is an exquisite plaza with circular walkways paved with stone. The plaza is flanked on 4 sides with Daggerstra fountains.
+
+    **General Stats**  
+      
+    Plop Cost: $350  
+    Monthly Maintenance Cost: $5  
+    Bulldoze Cost: $20  
+    Pollution Amount: Air -2, Water -7, Garbage 0, Radiation 0  
+    Pollution Radii: Air 4, Water 6, Garbage 0, Radiation 0  
+    Landmark Effect: Amount: 20, Radius: 10  
+    Park Effect: Amount: 30, Radius: 15 Custom Menu Icon: Yes  
+    Custom UI: No  
+    Custom Menu Description: Yes  
+      
+    **Dependencies**  
+      
+    **Props**
+
+    -   [BSC MEGA Props MJB Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+    -   [BSC MEGA Props CARCH Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=521)
+
+    **Textures**
+
+    -   [BSC Textures Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    Enjoy!
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/11957-devlin-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/cfacb1ba73b63bbad51dbffc689068d0-DevlinPlazaSquare.JPG
+dependencies:
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: kingofsimcity-devlin-square
+
+---
+assetId: kingofsimcity-devlin-square
+version: "1.10"
+lastModified: "2017-09-21T18:31:40Z"
+url: https://community.simtropolis.com/files/file/11957-devlin-square/?do=download&r=168624
