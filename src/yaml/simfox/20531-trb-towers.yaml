@@ -1,0 +1,73 @@
+group: simfox
+name: trb-towers
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: TRB Towers
+  description: |-
+    **General Info**
+
+    Set of 4 colored (yellow, orange, pink and purple(ish)) towers on 3 different high density lot designs:3x3 tiles R$$
+
+    3x4 tiles R$$
+
+    4x3 tiles R$$
+
+    Since building different from each other only by  color all them house 1938 R sims. Rest of the stats are detailed in the Readme included in this download.
+
+    There are 2 sets of Lots - ones with fixed color of teh building and those that allow random colored building to appear. For details check readMe.
+
+    **Installation**
+
+    Release comes in the form of installer. Unzip and double click.Again, check the readMe, that will automatically be shown at the end of installation for details about files.
+
+    **Dependencies**
+
+    There are few dependencies, but, I'm sure, most will already have them installed.
+
+    ***Prop Packs:***
+
+    BSC MEGA Props - SG Vol 01.dat
+
+    SimFoxProps\_8Chestnuts.dat
+
+    BSC MEGA Props CP Vol01
+
+    BSC MEGA Props - MJB Vol01.dat
+
+    BSC Mega Props jestarr Vol02.dat
+
+    ***Texture Packs:***
+
+    BSC Textures Vol 01.dat
+
+    BSC Textures Vol 02.dat
+
+    Readme includes live links to all dependencies .
+
+    Have Fun!
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/20531-simfox-trb-towers/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fc87993789ba7ed506d1a0b2e415d849-TRB_main.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fc87993789ba7ed506d1a0b2e415d849-TRB_sec.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - simfox:chestnuts
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+variants:
+  - variant: { CAM: "no" }
+    assets: []
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: simfox-trb-towers-cam
+
+---
+assetId: simfox-trb-towers-cam
+version: "1.0"
+lastModified: "2008-10-11T08:13:18Z"
+url: https://community.simtropolis.com/files/file/20531-simfox-trb-towers/?do=download&r=46003

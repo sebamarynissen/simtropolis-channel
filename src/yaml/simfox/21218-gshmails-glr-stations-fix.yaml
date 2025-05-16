@@ -1,0 +1,79 @@
+group: simfox
+name: gshmails-glr-station-1-fix
+version: "2"
+subfolder: 700-transit
+info:
+  summary: gshmails GLR stations fix
+  description: |-
+    This is fix for the pathing problem on otherwise superb GLR stations by Gshmails. On original tram arriving to the station jumped 15m in th air because the station was transit enabled as elevated rail.  
+    This release includes 3 lot files to which i have added SC4Path files fixing that problem. now your trams will run perfectly through these perfect stations.  
+      
+    Installation is simple - overwrite original SC4Lot files with these.  
+      
+    I have to extend my apologies to everyone who had downloaded version1 of this release (prior toMarch 22nd) as station 2 and 3 were not fixed in it. Now, situation had been rectified.
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/21218-gshmails-glr-stations-fix/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0cd1e003efe054b0158069fb41bf5e0e-repathed.jpg
+assets:
+  - assetId: simfox-gshmails-glr-stations-fix
+    include:
+    - "/Shmails GLR Station #1_d39e48e0.SC4Lot"
+dependencies:
+  - gshmails:glr-station-1
+
+---
+group: simfox
+name: gshmails-glr-station-2-fix
+version: "2"
+subfolder: 700-transit
+info:
+  summary: gshmails GLR stations fix
+  description: |-
+    This is fix for the pathing problem on otherwise superb GLR stations by Gshmails. On original tram arriving to the station jumped 15m in th air because the station was transit enabled as elevated rail.  
+    This release includes 3 lot files to which i have added SC4Path files fixing that problem. now your trams will run perfectly through these perfect stations.  
+      
+    Installation is simple - overwrite original SC4Lot files with these.  
+      
+    I have to extend my apologies to everyone who had downloaded version1 of this release (prior toMarch 22nd) as station 2 and 3 were not fixed in it. Now, situation had been rectified.
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/21218-gshmails-glr-stations-fix/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0cd1e003efe054b0158069fb41bf5e0e-repathed.jpg
+assets:
+  - assetId: simfox-gshmails-glr-stations-fix
+    include:
+    - "/Shmails GLR Station #2_939e493e.SC4Lot"
+dependencies:
+  - gshmails:glr-station-2
+
+---
+group: simfox
+name: gshmails-glr-station-3-fix
+version: "2"
+subfolder: 700-transit
+info:
+  summary: gshmails GLR stations fix
+  description: |-
+    This is fix for the pathing problem on otherwise superb GLR stations by Gshmails. On original tram arriving to the station jumped 15m in th air because the station was transit enabled as elevated rail.  
+    This release includes 3 lot files to which i have added SC4Path files fixing that problem. now your trams will run perfectly through these perfect stations.  
+      
+    Installation is simple - overwrite original SC4Lot files with these.  
+      
+    I have to extend my apologies to everyone who had downloaded version1 of this release (prior toMarch 22nd) as station 2 and 3 were not fixed in it. Now, situation had been rectified.
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/21218-gshmails-glr-stations-fix/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0cd1e003efe054b0158069fb41bf5e0e-repathed.jpg
+assets:
+  - assetId: simfox-gshmails-glr-stations-fix
+    include:
+    - "/Shmails GLR Station #3_939e4979.SC4Lot"
+dependencies:
+  - gshmails:glr-station-3
+
+---
+assetId: simfox-gshmails-glr-stations-fix
+version: "2"
+lastModified: "2009-03-15T14:34:39Z"
+url: https://community.simtropolis.com/files/file/21218-gshmails-glr-stations-fix/?do=download&r=47179

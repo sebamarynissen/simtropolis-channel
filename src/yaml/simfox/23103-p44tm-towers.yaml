@@ -1,0 +1,151 @@
+group: simfox
+name: p44tm-towers
+version: "2"
+subfolder: 200-residential
+info:
+  summary: P44TM Towers
+  description: |-
+    **mGeneral info**
+
+    January 08.
+
+    ATTENTION! normal - nonCAM lots were fixed!
+
+    With this release I continue to update my previous releases to DAY´n´NITE's darker night views. Originals of this set were released on October 4th 2008. Here is download [link](https://www.simtropolis.com/stex/details.cfm?id=20502) .
+
+    However for those who will be doing it for the first time this is fully functional release. That is apart for the fact that it is only compatible with Day´n´NITE modd's night view and not Maxis default one.
+
+    Download includes:
+
+    **8 models:**
+
+    -   2  25 storey orthogonal towers (1 with white  and 1 with brick detailing)
+        
+    -   2  25 storey diagonal towers (1 with white  and 1 with brick detailing)
+        
+    -   2  16 storey orthogonal towers (1 with white  and 1 with brick detailing) 
+        
+    -   2  16 storey diagonal towers (1 with white  and 1 with brick detailing) 
+        
+
+    and 6 lots:
+
+    -   1 design for orthogonal towers (common for 25 and 16 storey towers
+        
+    -   1 design for orthogonal towers (common for 25 and 16 storey towers
+        
+
+    "white" or "brick" design will be picked to grow at random by the game.
+
+    **mInstallation instruction**
+
+    In this release I chose to use simple ZIP archive as it may be easier to extract from it just wat you need for update purposes.
+
+    **Upgrading to Darker night DAY´n´NITE version**
+
+    * * *
+
+    For those who had already downloaded and installed the original release all you have to do it to replace the DAT file containing models with one included in this release. Orignal file name was **SimFox\_P44TM\_towers.dat** and it should be found in **/My Docs\*/SimCity 4/Plugins/SimFox/R$$/Non\_Cam/p44t folder** (if you allowed installer to do it's job by defaults).
+
+    **Installing for the first time.**
+
+    * * *
+
+    Archive includes Model DAT file and two sets of lot files (both use same model DAT) ones contained in folder titled NORMAL are for game without CAM - Colossus Add-on Modd installed and those in Folder titled CAM are for game with CAM (ver. 1.0).
+
+    Move model DAT and one set of the lot files to your plugin folder.
+
+    **mDependencies**
+
+    I have departed with my usual No Dependencies policy in this release and it has quite a few. In my defense I have to say that most of my new releases will be using same library and I'm sure many of you already have them. Here is a list.
+
+    [**DAY´n´NITE modd**](https://www.simtropolis.com/stex/details.cfm?id=23089)
+
+    Props:
+
+    [BSC MEGA Props - SG Vol 01.da](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)t essential
+
+    [SimFoxProps\_8Chestnuts.dat](https://www.simtropolis.com/stex/details.cfm?id=20411) essential
+
+    [BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)(optional, but recommended)
+
+    [BSC MEGA Props - DAE Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475) (optional, but recommended)
+
+    [BSC MEGA Props - MJB Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407) (optional, but recommended)
+
+    [BSC Mega Props jestarr Vol02.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=338) (optional, but recommended)
+
+    [CSX MEGA Props - Vol03.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=461) (optional, but recommended)
+
+    Overlay textures (essential):
+
+    [BSC Textures Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Textures Vol 02.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    Live links are (as I have already mentioned) in ReadMe that will be displayed at the end of installation process.
+
+    For CAM lots these are additional dependencies:
+
+    CAM [(Windows version)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1008) or [(MAC version)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1009)
+
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443) (CAM lots query)
+
+    PS.
+
+    lots seem to be very easy to grow
+
+    have Fun!
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/23103-p44tm-towers-darknite-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/2780a2da2d669a51ea0718623b72fb36-p44TM_d.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2780a2da2d669a51ea0718623b72fb36-p44TM_dn.jpg
+dependencies:
+  - csx:mega-props-vol03
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - simfox:chestnuts
+  - simfox:p44towers-models
+variants:
+  - variant: { nightmode: standard, cam: "no" }
+    assets:
+      - assetId: simfox-p44tm-towers-noncam-lot-fix
+  - variant: { nightmode: dark, cam: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-p44tm-towers-noncam-lot-fix
+  - variant: { nightmode: standard, cam: "yes" }
+    dependencies:
+      - "cam:colossus-addon-mod"
+    assets:
+      - assetId: simfox-p44tm-towers-darknite-version-darknite
+        exclude:
+        - "/Normal/"
+  - variant: { nightmode: dark, cam: "yes" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+      - "cam:colossus-addon-mod"
+    assets:
+      - assetId: simfox-p44tm-towers-darknite-version-darknite
+        exclude:
+        - "/Normal/"
+
+---
+assetId: simfox-p44tm-towers-darknite-version-darknite
+version: "2"
+lastModified: "2010-01-06T11:05:38Z"
+url: https://community.simtropolis.com/files/file/23103-p44tm-towers-darknite-version/?do=download&r=49799
+
+---
+# This is a fix for normal, nonCAM version lots which were growing empty
+assetId: simfox-p44tm-towers-noncam-lot-fix
+version: "1.0"
+lastModified: "2010-01-08T18:39:05Z"
+url: https://community.simtropolis.com/files/file/23109-p44tm-towers-noncam-lot-fix/?do=download&r=49809

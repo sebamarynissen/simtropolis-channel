@@ -1,0 +1,93 @@
+group: simfox
+name: sev-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: SEV Building
+  description: |-
+    **SEV Building***by SimFox.*
+
+    Since its completion in 1967 distinctive “open book” design of SEV (Soviet Economicheskoj Vzaimopomoschi, or in English COMECON (Counsil of mutual Economic Assistance) building by Mikhail Posokhin had quickly became one of Moscow’s landmarks. After disbandment of the organization in 1991 building has been housing offices of Mayor of Moscow.
+
+    Original version (truNite for Maxis Night) was released on May 4th 2008 and can be downloaded [HERE](https://www.simtropolis.com/stex/details.cfm?id=19772)
+
+    This release includes newly re-rendered (both day and night views) model with DarkNite truNite suitable for DAY´n´NITE modd. Along come 2 lots - one growable CO$$$ and one Ploppable CO$$$. Stats for these are in the following table:
+
+    |     |     |     |     |
+    | --- | --- | --- | --- |
+    |     |     | **CO$$$ Growable** | **CO$$$ Ploppable** |
+    | lot size | :   | 10x5 tiles | 10x5 tiles |
+    | growth stage | :   | 6   | not applicable |
+    | building value | :   | $34 346 | $34 346 |
+    | capacity satisfied | :   | 3 073CO$$$/4 392 CO$$ | 3 073CO$$$/4 392 CO$$ |
+    | power consumed | :   | 250 | 250 |
+    | water consumed | :   | 2 200 | 2 200 |
+    | air pollution | :   | 15 over 6 tiles | 5 over 6 tiles |
+    | water pollution | :   | 15 over 7 tiles | 15 over 7 tiles |
+    | garbage | :   | 12  | 12  |
+    | construction time | :   | 111 days | not applicable |
+    | bulldoze cost / worth | :   | $1 731 | $1 731 |
+    | flamability / fire stage | :   | 35 / 5 | 35 / 5 |
+    | building style(s) | :   | all | not applicable |
+    | plop cost | :   | not applicable | $34 346 |
+
+    **Installation Instructions**
+
+    **1\. Upgrade from Previously installed**
+
+    * * *
+
+    Locate in your plugin folder following file: **SimFox\_SEV\_Building.SC4Model** and replace it with one from archive: **SimFox\_SEV\_Building\_DarkNite.SC4Model**
+
+    **2\. Fresh Install**
+
+    * * *
+
+    Simply unzip downloaded archive to your Plugin folder.
+
+    After installation you should find ploppable lot in your Landmark menu under following icon:
+
+    ![c4ba68864f23.jpg](http://s50.radikal.ru/i128/1001/df/c4ba68864f23.jpg)
+
+    **Dependencies**
+
+    **Crucial system dependency:**[**DAY´n´NITE modd**](https://www.simtropolis.com/stex/details.cfm?id=23089)
+
+    Props:
+
+    [BSC MEGA Props - SG\_Vol\_01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [NetworkAddonMod\_Props.dat (optional)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=850)
+
+    Textures:
+
+    [BSC\_Textures\_Vol\_01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/23106-simfox-sev-building-darknite-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/13419ba1a0aa608356f722d71c23df71-Sev_d.jpg
+    - https://www.simtropolis.com/objects/screens/0003/13419ba1a0aa608356f722d71c23df71-SEV_dn.jpg
+    - https://www.simtropolis.com/objects/screens/0003/13419ba1a0aa608356f722d71c23df71-SEV_dn.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard}
+    assets:
+      - assetId: simfox-sev-building-truenite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-sev-building-darknite
+
+---
+assetId: simfox-sev-building-truenite
+version: "1.0"
+lastModified: "2008-05-04T21:51:11Z"
+url: https://community.simtropolis.com/files/file/19772-sev-building/?do=download&r=44715
+
+---
+assetId: simfox-sev-building-darknite
+version: "1.0"
+lastModified: "2010-01-07T19:07:21Z"
+url: https://community.simtropolis.com/files/file/23106-simfox-sev-building-darknite-version/?do=download&r=49803

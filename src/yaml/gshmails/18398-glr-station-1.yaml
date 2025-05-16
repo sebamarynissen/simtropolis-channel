@@ -1,0 +1,41 @@
+group: gshmails
+name: glr-station-1
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Shmails GLR Station 1
+  description: |-
+    This is the first of three new GLR stations for your city.  All three are similar but different to give variety and continuity.
+
+    Stats:
+
+    Plop: $250
+
+    Monthly: $10
+
+    Bulldoze: $100
+
+    Capacity: 5000
+
+    Lot size: 1x3
+
+    Dependences:  The latest NAM
+
+    Enjoy!
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/18398-shmails-glr-station-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0884970ae648775430495c53f056124c-ShmailsGLRStation1b.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0884970ae648775430495c53f056124c-ShmailsGLRStation1a.jpg
+assets:
+  - assetId: gshmails-shmails-glr-station-1
+    exclude:
+      - "\\.SC4Lot$"
+dependencies:
+  - simfox:gshmails-glr-station-1-fix
+
+---
+assetId: gshmails-shmails-glr-station-1
+version: "1.0"
+lastModified: "2007-07-09T12:35:27Z"
+url: https://community.simtropolis.com/files/file/18398-shmails-glr-station-1/?do=download&r=42311
