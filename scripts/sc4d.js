@@ -105,6 +105,7 @@ export default {
 	3001: 'girafe:feather-grass',
 	3049: 'girafe:chestnuts',
 	3071: 'girafe:hedges',
+	3228: 'romualdillo:props-vol01',
 	3244: 'girafe:rowan-trees',
 	3250: 'vortext:historic-monastery-props',
 	3251: 'girafe:daisy',
