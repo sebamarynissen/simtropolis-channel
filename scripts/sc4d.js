@@ -76,6 +76,7 @@ export default {
 	2383: 'bsc:bat-props-mattb325-vol02',
 	2489: 'bsc:mega-props-t1-vol03',
 	2540: 'sfbt:sam-johnson-playground-props',
+	2612: 'lowkee33:seasonal-flora-patch-maxis',
 	2614: 'girafe:maples',
 	2620: 'girafe:birches',
 	2687: 'girafe:cattails',
