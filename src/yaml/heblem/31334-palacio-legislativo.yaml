@@ -1,0 +1,45 @@
+group: heblem
+name: palacio-legislativo
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Palacio Legislativo
+  description: |-
+    This is a fictional classical building designed by me. This just a eyecandy landmark in game.
+
+    **Install:**
+
+    There are two versions available , pick one -Dark nite version or Maxis nite version.
+
+    Drop all files into your documents/SimCity 4/Plugins
+
+    **Dependencies:**
+
+    LBT Mega Prop Pack vol 01
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/31334-hbs-palacio-legislativo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/Pal1.jpg.51126f98eccab0897eebdd5d28faa7e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/Pal2.jpg.2a491e5a332832a6e66956865e87a7d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/pal3.jpg.20b232bda714f8eb1804682e0a42e8ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/pal4.jpg.9e17bb3046904d5129e02d0875e5064d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/pal5.jpg.a815942cde03ced34c6a36ebf8af6933.jpg
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: heblem-hbs-palacio-legislativo
+    include:
+    - "/HBS PalacioLegislativo MaxisN/"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: heblem-hbs-palacio-legislativo
+    include:
+    - "/HBS PalacioLegislativo DarkN/"
+
+---
+assetId: heblem-hbs-palacio-legislativo
+version: "1.0"
+lastModified: "2016-10-21T22:03:58Z"
+url: https://community.simtropolis.com/files/file/31334-hbs-palacio-legislativo/?do=download&r=163499
