@@ -57,25 +57,25 @@ info:
     - https://www.simtropolis.com/objects/screens/0009/4e86da4e643e51f11cd89a7f249d22e5-MR_d.jpg
     - https://www.simtropolis.com/objects/screens/0009/4e86da4e643e51f11cd89a7f249d22e5-MR-dn.jpg
 variants:
-  - variant: { nightmode: standard, cam: "no" }
+  - variant: { nightmode: standard, CAM: "no" }
     assets:
       - assetId: simfox-moscow-red-darknite-version-darknite
         exclude:
         - "/CAM/"
-  - variant: { nightmode: dark, cam: "no" }
+  - variant: { nightmode: dark, CAM: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: simfox-moscow-red-darknite-version-darknite
         exclude:
         - "/CAM/"
-  - variant: { nightmode: standard, cam: "yes" }
+  - variant: { nightmode: standard, CAM: "yes" }
     dependencies:
       - "cam:colossus-addon-mod"
     assets:
       - assetId: simfox-moscow-red-darknite-version-darknite
         exclude:
         - "/Normal/"
-  - variant: { nightmode: dark, cam: "yes" }
+  - variant: { nightmode: dark, CAM: "yes" }
     dependencies:
       - "simfox:day-and-nite-mod"
       - "cam:colossus-addon-mod"

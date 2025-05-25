@@ -59,15 +59,14 @@ dependencies:
   - bsc:mega-props-jes-vol01
   - bsc:textures-vol01
   - bsc:textures-vol02
-variants:
-  - variant: { CAM: "no" }
-    assets: []
-  - variant: { CAM: "yes" }
-    assets:
-      - assetId: simfox-trb-towers-cam
+assets:
+  - assetId: "simfox-trb-towers"
 
 ---
-assetId: simfox-trb-towers-cam
+assetId: simfox-trb-towers
 version: "1.0"
 lastModified: "2008-10-11T08:13:18Z"
 url: https://community.simtropolis.com/files/file/20531-simfox-trb-towers/?do=download&r=46003
+archiveType:
+  format: Clickteam
+  version: "40"

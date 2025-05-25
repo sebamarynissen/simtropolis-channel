@@ -58,31 +58,31 @@ info:
 dependencies:
   - nybt:essentials
 variants:
-  - variant: { nightmode: standard, cam: "no" }
+  - variant: { nightmode: standard, CAM: "no" }
     assets:
       - assetId: simfox-nybt-barclay-tower-maxisnite-version
-  - variant: { nightmode: dark, cam: "no" }
+  - variant: { nightmode: dark, CAM: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: simfox-nybt-barclay-tower-darknite-version
-  - variant: { nightmode: standard, cam: "yes" }
+  - variant: { nightmode: standard, CAM: "yes" }
     dependencies:
       - "cam:colossus-addon-mod"
     assets:
       - assetId: simfox-nybt-barclay-tower-maxisnite-version
         include:
         - "/NYBT_SimFox_Barclay_MaxisNite.SC4Model"
-        - "/PLOP_3x2_NYBT Barclay Tower CS$$$ Plop_3a0fbd19.SC4Lot"
+        - "/PLOP_3x2_NYBT Barclay Tower CS\\$\\$\\$ Plop_3a0fbd19.SC4Lot"
       - assetId: simfox-nybt-barclay-tower-camelots
-  - variant: { nightmode: dark, cam: "yes" }
+  - variant: { nightmode: dark, CAM: "yes" }
     dependencies:
       - "simfox:day-and-nite-mod"
       - "cam:colossus-addon-mod"
     assets:
-      - assetId: simfox-moscow-red-darknite-version-darknite
+      - assetId: simfox-nybt-barclay-tower-darknite-version
         include:
         - "/NYBT_SimFox_Barclay_DarkNite-0x5ad0e817_0xd850bfe7_0x40000.SC4Model"
-        - "/PLOP_3x2_NYBT Barclay Tower CS$$$ Plop_3a0fbd19.SC4Lot"
+        - "/PLOP_3x2_NYBT Barclay Tower CS\\$\\$\\$ Plop_3a0fbd19.SC4Lot"
       - assetId: simfox-nybt-barclay-tower-camelots
 
 ---

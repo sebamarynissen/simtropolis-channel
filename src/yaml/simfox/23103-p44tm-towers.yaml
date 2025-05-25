@@ -114,21 +114,21 @@ dependencies:
   - simfox:chestnuts
   - simfox:p44towers-models
 variants:
-  - variant: { nightmode: standard, cam: "no" }
+  - variant: { nightmode: standard, CAM: "no" }
     assets:
       - assetId: simfox-p44tm-towers-noncam-lot-fix
-  - variant: { nightmode: dark, cam: "no" }
+  - variant: { nightmode: dark, CAM: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: simfox-p44tm-towers-noncam-lot-fix
-  - variant: { nightmode: standard, cam: "yes" }
+  - variant: { nightmode: standard, CAM: "yes" }
     dependencies:
       - "cam:colossus-addon-mod"
     assets:
       - assetId: simfox-p44tm-towers-darknite-version-darknite
         exclude:
         - "/Normal/"
-  - variant: { nightmode: dark, cam: "yes" }
+  - variant: { nightmode: dark, CAM: "yes" }
     dependencies:
       - "simfox:day-and-nite-mod"
       - "cam:colossus-addon-mod"
@@ -142,6 +142,9 @@ assetId: simfox-p44tm-towers-darknite-version-darknite
 version: "2"
 lastModified: "2010-01-06T11:05:38Z"
 url: https://community.simtropolis.com/files/file/23103-p44tm-towers-darknite-version/?do=download&r=49799
+archiveType:
+  format: Clickteam
+  version: "40"
 
 ---
 # This is a fix for normal, nonCAM version lots which were growing empty
