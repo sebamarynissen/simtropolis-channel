@@ -19,27 +19,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2014/c568cbdc7fb93545c26932a025554fe1-110cannonnight.jpg
 assets:
   - assetId: ill-tonkso-ndex-its-110-cannon-street
-    exclude:
-      - "/NDEX_ITS_110_Cannon_Street-0x5ad0e817_0x96487eb4_0x30000.SC4Model"
-dependencies:
-  - ill-tonkso:110-cannon-street-model
-
----
-group: ill-tonkso
-name: 110-cannon-street-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Model for `pkg=ill-tonkso:110-cannon-street`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/12594-zurich-house/
-  images:
-    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-eastlandcjupdatezurichhouse.jpg
-    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-nightlightsforzurichhouse.jpg
-assets:
-  - assetId: ill-tonkso-ndex-its-110-cannon-street
-    include:
-      - "/NDEX_ITS_110_Cannon_Street-0x5ad0e817_0x96487eb4_0x30000.SC4Model"
 
 ---
 assetId: ill-tonkso-ndex-its-110-cannon-street

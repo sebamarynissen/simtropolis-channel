@@ -15,27 +15,6 @@ info:
     - https://www.simtropolis.com/objects/screens/0020/b1dffa2e1c24681e4ad219e7e73e9ee1-drpn.jpg
 assets:
   - assetId: ill-tonkso-d-r-pawley-and-associates
-    exclude:
-      - "/ITS_NDEX_D_R_Pawley_and_Associates-0x5ad0e817_0xf2c00f81_0x30000.SC4Model"
-dependencies:
-  - ill-tonkso:d-r-pawley-and-associates-model
-
----
-group: ill-tonkso
-name: d-r-pawley-and-associates-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Models for `pkg=ill-tonkso:d-r-pawley-and-associates`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/17932-ndex-its-d-r-pawley-and-associates/
-  images:
-    - https://www.simtropolis.com/objects/screens/0020/b1dffa2e1c24681e4ad219e7e73e9ee1-drpd.jpg
-    - https://www.simtropolis.com/objects/screens/0020/b1dffa2e1c24681e4ad219e7e73e9ee1-drpn.jpg
-assets:
-  - assetId: ill-tonkso-d-r-pawley-and-associates
-    include:
-      - "/ITS_NDEX_D_R_Pawley_and_Associates-0x5ad0e817_0xf2c00f81_0x30000.SC4Model"
 
 ---
 assetId: ill-tonkso-d-r-pawley-and-associates

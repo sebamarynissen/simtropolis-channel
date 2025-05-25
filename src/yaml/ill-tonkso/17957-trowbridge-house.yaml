@@ -29,27 +29,8 @@ info:
     - https://www.simtropolis.com/objects/screens/0024/d9dceee1269a093090554496c9e99f8a-trown.jpg
 assets:
   - assetId: ill-tonkso-trowbridge-house
-    exclude:
-      - "/ITS_NDEX_Trowbridge_House-0x5ad0e817_0x931d31d7_0x30000.SC4Model"
 dependencies:
-  - ill-tonkso:trowbridge-house-model
-
----
-group: ill-tonkso
-name: trowbridge-house-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Models for `pkg=ill-tonkso:trowbridge-house`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/17957-ndex-its-trowbridge-house/
-  images:
-    - https://www.simtropolis.com/objects/screens/0024/d9dceee1269a093090554496c9e99f8a-trowd.jpg
-    - https://www.simtropolis.com/objects/screens/0024/d9dceee1269a093090554496c9e99f8a-trown.jpg
-assets:
-  - assetId: ill-tonkso-trowbridge-house
-    include:
-      - "/ITS_NDEX_Trowbridge_House-0x5ad0e817_0x931d31d7_0x30000.SC4Model"
+  - bsc:mega-props-gascooker-vol01
 
 ---
 assetId: ill-tonkso-trowbridge-house

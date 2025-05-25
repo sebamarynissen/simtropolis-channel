@@ -21,27 +21,6 @@ info:
     - https://www.simtropolis.com/objects/screens/0003/1435474668eeaea7159e143d10c23bda-CIS2Night.jpg
 assets:
   - assetId: ill-tonkso-cis-tower-2-new-century-hall-manchester
-    exclude:
-      - "/NDEX_ITS_New_Century_Hall-0x5ad0e817_0x15b9bf74_0x30000.SC4Model"
-dependencies:
-  - ill-tonkso:cis-tower-2-new-century-hall-manchester-model
-
----
-group: ill-tonkso
-name: cis-tower-2-new-century-hall-manchester-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Model for `pkg=ill-tonkso:cis-tower-2-new-century-hall-manchester`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/20252-ndex-its-cis-tower-manchester/
-  images:
-    - https://www.simtropolis.com/objects/screens/0027/fc51c1845f110ee6d3e4b53fac5998a4-CISday.jpg
-    - https://www.simtropolis.com/objects/screens/0027/fc51c1845f110ee6d3e4b53fac5998a4-CISNIGHT.jpg
-assets:
-  - assetId: ill-tonkso-cis-tower-2-new-century-hall-manchester
-    include:
-      - "/NDEX_ITS_New_Century_Hall-0x5ad0e817_0x15b9bf74_0x30000.SC4Model"
 
 ---
 assetId: ill-tonkso-cis-tower-2-new-century-hall-manchester

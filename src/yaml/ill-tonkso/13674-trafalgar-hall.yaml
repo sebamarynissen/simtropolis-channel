@@ -1,47 +1,29 @@
-group: ill-tonkso
-name: trafalgar-hall
-version: "1.0"
-subfolder: 300-commercial
-info:
-  summary: Trafalgar Hall
-  description: |-
-    **Trafalgar Hall**
+# TODO - missing ndex:bat-props-frogface-vol01
 
-    Trafalgar Hall is a Hall of Residance for Portsmouth University completed in 2003 .It stands as Portsmouth England's 17th Tallest with 15 floors.
+# group: ill-tonkso
+# name: trafalgar-hall
+# version: "1.0"
+# subfolder: 300-commercial
+# info:
+#   summary: Trafalgar Hall
+#   description: |-
+#     **Trafalgar Hall**
 
-    This Package contains 2 Lots (i decided CO
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/13674-trafalgar-hall/
-  images:
-    - https://www.simtropolis.com/objects/screens/0013/76169c3a6ffccab8326abbacb98e974a-TrafalgarUploadDay.jpg
-    - https://www.simtropolis.com/objects/screens/0013/76169c3a6ffccab8326abbacb98e974a-TrafalgarUploadNight.jpg
-assets:
-  - assetId: ill-tonkso-trafalgar-hall
-    exclude:
-      - "/Essentials/"
-dependencies:
-  - ill-tonkso:trafalgar-hall-model
-  - ndex:bat-props-frogface-vol01
+#     Trafalgar Hall is a Hall of Residance for Portsmouth University completed in 2003 .It stands as Portsmouth England's 17th Tallest with 15 floors.
 
----
-group: ill-tonkso
-name: trafalgar-hall-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Model for `pkg=ill-tonkso:trafalgar-hall`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/13674-trafalgar-hall/
-  images:
-    - https://www.simtropolis.com/objects/screens/0013/76169c3a6ffccab8326abbacb98e974a-TrafalgarUploadDay.jpg
-    - https://www.simtropolis.com/objects/screens/0013/76169c3a6ffccab8326abbacb98e974a-TrafalgarUploadNight.jpg
-assets:
-  - assetId: ill-tonkso-trafalgar-hall
-    include:
-      - "/Essentials/"
+#     This Package contains 2 Lots (i decided CO
+#   author: ILL Tonkso
+#   website: https://community.simtropolis.com/files/file/13674-trafalgar-hall/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/0013/76169c3a6ffccab8326abbacb98e974a-TrafalgarUploadDay.jpg
+#     - https://www.simtropolis.com/objects/screens/0013/76169c3a6ffccab8326abbacb98e974a-TrafalgarUploadNight.jpg
+# assets:
+#   - assetId: ill-tonkso-trafalgar-hall
+# dependencies:
+#   - ndex:bat-props-frogface-vol01
 
----
-assetId: ill-tonkso-trafalgar-hall
-version: "1.0"
-lastModified: "2005-09-18T17:16:37Z"
-url: https://community.simtropolis.com/files/file/13674-trafalgar-hall/?do=download&r=35091
+# ---
+# assetId: ill-tonkso-trafalgar-hall
+# version: "1.0"
+# lastModified: "2005-09-18T17:16:37Z"
+# url: https://community.simtropolis.com/files/file/13674-trafalgar-hall/?do=download&r=35091

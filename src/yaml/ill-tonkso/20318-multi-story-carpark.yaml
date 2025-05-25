@@ -23,27 +23,6 @@ info:
     - https://www.simtropolis.com/objects/screens/0002/07b58fe30dcc7a8bc97215e366c193a2-carparknight.jpg
 assets:
   - assetId: ill-tonkso-ndex-its-multi-story-carpark
-    exclude:
-      - "/NDEX_ITS_MSCP-0x5ad0e817_0x94df3e84_0x30000.SC4Model"
-dependencies:
-  - ill-tonkso:multi-story-carpark-model
-
----
-group: ill-tonkso
-name: multi-story-carpark-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Model for `pkg=ill-tonkso:multi-story-carpark`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/12594-zurich-house/
-  images:
-    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-eastlandcjupdatezurichhouse.jpg
-    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-nightlightsforzurichhouse.jpg
-assets:
-  - assetId: ill-tonkso-ndex-its-multi-story-carpark
-    include:
-      - "/NDEX_ITS_MSCP-0x5ad0e817_0x94df3e84_0x30000.SC4Model"
 
 ---
 assetId: ill-tonkso-ndex-its-multi-story-carpark

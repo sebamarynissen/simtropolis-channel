@@ -17,27 +17,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0008/3e4b476692c3b70dfe5cd0633cd9e19d-1000llakesideday.jpg
 assets:
   - assetId: ill-tonkso-2011-1000-lakeside
-    exclude:
-      - "/NDEX_ITS_1000_Lakeside-0x5ad0e817_0x98c64c30_0x130000.SC4Model"
 dependencies:
-  - ill-tonkso:1000-lakeside-model
-
----
-group: ill-tonkso
-name: 1000-lakeside-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Model for `pkg=ill-tonkso:1000-lakeside`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/25934-its-2011-1000-lakeside/
-  images:
-    - https://www.simtropolis.com/objects/screens/0027/fb74b8e3f883e26df64ee6b399663b87-1000lakesidenight.jpg
-    - https://www.simtropolis.com/objects/screens/0008/3e4b476692c3b70dfe5cd0633cd9e19d-1000llakesideday.jpg
-assets:
-  - assetId: ill-tonkso-2011-1000-lakeside
-    include:
-      - "/NDEX_ITS_1000_Lakeside-0x5ad0e817_0x98c64c30_0x130000.SC4Model"
+  - bsc:textures-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - t-wrecks:maxis-prop-names-and-query-fix
 
 ---
 assetId: ill-tonkso-2011-1000-lakeside

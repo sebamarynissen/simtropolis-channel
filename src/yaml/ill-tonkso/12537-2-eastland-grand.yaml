@@ -23,27 +23,8 @@ info:
     - https://www.simtropolis.com/objects/screens/0022/c9ce8a60b317a695e0cfb75963c5af6e-EastlandGrandStationuploadpic.jpg
 assets:
   - assetId: ill-tonkso-2-eastland-grand
-    exclude:
-      - "/2 Eastland Grand-0x5ad0e817_0x322829b5_0x30000.SC4Model"
 dependencies:
-  - ill-tonkso:2-eastland-grand-model
   - bsc:textures-vol01
-
----
-group: ill-tonkso
-name: 2-eastland-grand-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Model for `pkg=ill-tonkso:2-eastland-grand`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/12537-2-eastland-grand/
-  images:
-    - https://www.simtropolis.com/objects/screens/0022/c9ce8a60b317a695e0cfb75963c5af6e-EastlandGrandStationuploadpic.jpg
-assets:
-  - assetId: ill-tonkso-2-eastland-grand
-    include:
-      - "/2 Eastland Grand-0x5ad0e817_0x322829b5_0x30000.SC4Model"
 
 ---
 assetId: ill-tonkso-2-eastland-grand

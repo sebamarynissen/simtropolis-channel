@@ -18,28 +18,8 @@ info:
     - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-nightlightsforzurichhouse.jpg
 assets:
   - assetId: ill-tonkso-zurich-house
-    exclude:
-      - "/Zurich House Render-0x5ad0e817_0xd23288f9_0x30000.SC4Model"
 dependencies:
-  - ill-tonkso:zurich-house-model
   - bsc:textures-vol01
-
----
-group: ill-tonkso
-name: zurich-house-model
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Models for `pkg=ill-tonkso:zurich-house`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/12594-zurich-house/
-  images:
-    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-eastlandcjupdatezurichhouse.jpg
-    - https://www.simtropolis.com/objects/screens/0027/fcb2ecf17547ef861f2f8f078bd0a9d3-nightlightsforzurichhouse.jpg
-assets:
-  - assetId: ill-tonkso-zurich-house
-    include:
-      - "/Zurich House Render-0x5ad0e817_0xd23288f9_0x30000.SC4Model"
 
 ---
 assetId: ill-tonkso-zurich-house
