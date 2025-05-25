@@ -59,20 +59,18 @@ info:
 variants:
   - variant: { nightmode: standard, CAM: "no" }
     assets:
-      - assetId: simfox-moscow-red-darknite-version-darknite
-        exclude:
-        - "/CAM/"
+      - assetId: simfox-moscow-red
   - variant: { nightmode: dark, CAM: "no" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: simfox-moscow-red-darknite-version-darknite
+      - assetId: simfox-moscow-red-darknite
         exclude:
         - "/CAM/"
   - variant: { nightmode: standard, CAM: "yes" }
     dependencies:
       - "cam:colossus-addon-mod"
     assets:
-      - assetId: simfox-moscow-red-darknite-version-darknite
+      - assetId: simfox-moscow-red-darknite
         exclude:
         - "/Normal/"
   - variant: { nightmode: dark, CAM: "yes" }
@@ -80,12 +78,19 @@ variants:
       - "simfox:day-and-nite-mod"
       - "cam:colossus-addon-mod"
     assets:
-      - assetId: simfox-moscow-red-darknite-version-darknite
+      - assetId: simfox-moscow-red-darknite
         exclude:
         - "/Normal/"
 
+
 ---
-assetId: simfox-moscow-red-darknite-version-darknite
+assetId: simfox-moscow-red
+version: "1.0"
+lastModified: "2007-09-22T18:08:20Z"
+url: https://community.simtropolis.com/files/file/18692-moscow-red/?do=download&r=42809
+
+---
+assetId: simfox-moscow-red-darknite
 version: "1.0"
 lastModified: "2010-01-05T11:19:47Z"
 url: https://community.simtropolis.com/files/file/23099-moscow-red-darknite-version/?do=download&r=49793
