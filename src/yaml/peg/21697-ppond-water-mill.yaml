@@ -1,0 +1,65 @@
+group: peg
+name: ppond-water-mill
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: PPOND Water Mill
+  description: |-
+    For your nostalgic pleasure... an old stream mill... for your Old Mill Stream. If you are old enough to know the song, so much the better.
+
+    I hope you have Dental... 'cause this baby is pure candy. It delightfully takes pleasure in serving absolutely no functional purpose whatsoever... other than to just look cool along your rivers and streams.
+
+    Water mills have been in use since Ancient times. However, by the early 20th century, availability of cheap electrical energy made the water mill obsolete in developed countries although some smaller rural mills continued to operate commercially into the 1960s. Used in their day to power a wide range of machinery for various industrial purposes, those mills that remain today have either been abandoned, maintained as tourist attractions, or have been updated or re-purposed for some other function.
+
+    This lot is a park... located in your Park menu... with a fair amount of landmark value as old water mills such as this are tourist magnets. The lot is 2x2 tiles in size and requires power for the nitelites.  It is designed to be plopped on level land... with the 2 water tiles in front of it also level with the lot.
+
+    Although considered to be a 'PPond' lot, it does not require the PPond Kit as a dependency. The mill can be used with any ground-level ploppable water props.
+
+    I lied about the non-functional bit. There is a semi-functional second, RCI Industrial Manufacturing ploppable version with jobs that is also included in this package. That version is located in your Landmarks menu and requires road access.
+
+    *\* The lot(s) are nitelited and include custom queries... and custom background & query sound effects. In the query for the IND-M version, the 'Revolutions Per Minute" stat will increase as your city grows.*
+
+    **\*\* These lots require the** [MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Fixed linky.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21697-peg-ppond-water-mill/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/abcb6f0c0b677d20bbfed3bffe95f592-image_st1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/abcb6f0c0b677d20bbfed3bffe95f592-image_st2.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - peg:ppond-water-mill-resource
+assets:
+  - assetId: peg-ppond-water-mill
+    exclude:
+      - "/PEG-PP_Watermill_RESOURCE.dat"
+
+---
+group: peg
+name: ppond-water-mill-resource
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Dependencies for `pkg=peg:ppond-water-mill`
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21697-peg-ppond-water-mill/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/abcb6f0c0b677d20bbfed3bffe95f592-image_st1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/abcb6f0c0b677d20bbfed3bffe95f592-image_st2.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: peg-ppond-water-mill
+    include:
+      - "/PEG-PP_Watermill_RESOURCE.dat"
+
+  
+
+---
+assetId: peg-ppond-water-mill
+version: "1.0"
+lastModified: "2009-05-16T06:51:30Z"
+url: https://community.simtropolis.com/files/file/21697-peg-ppond-water-mill/?do=download&r=47741

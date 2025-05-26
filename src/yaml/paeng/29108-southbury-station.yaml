@@ -1,0 +1,88 @@
+group: paeng
+name: southbury-station
+version: "1.0.1"
+subfolder: 700-transit
+info:
+  summary: Southbury Station
+  description: |-
+    5x9 Passenger Rail Station, Cap: 30.000  170.000
+
+    Original BAT by *Ill Tonkso* (unfinished - see Dev Notes below)
+
+    The roof it still leaking, but they're working on it...
+
+    **DEPENDENCIES**
+
+    \* [ITS Unreleased Set Vol1](https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/)
+
+    NEEDED: **ITS\_Southbury\_Station-0x5ad0e817\_0x53395295\_0x30000.SC4Model**
+
+    The rest is just the stuff I always use -
+
+    \* [Paeng Texture Pack v104](https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/)
+
+    \* [SG 01 Megapack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    \* [BSC Prop Pack - JENX-Porkie Expanded Porkie Props (Porkie Props Vol 01)](https://community.simtropolis.com/files/file/11421-bsc-prop-pack-jenx-porkie-expanded-porkie-props/)
+
+    \* [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    \* [Murimk - Props Vol02 - Mixed Props](https://community.simtropolis.com/files/file/25888-murimk-props-vol02-mixed-props/)
+
+    \* [Murimk Prop Pack Vol03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/)
+
+    \* [PEG MTP SUPER PACK v1.02](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+    **DEVELOPER NOTES**
+
+    Okay - this is an "unfinished" product... it was batted by Ill Tonkso, but he never got around to add proper textures to the roof (and apparently has no plans to do so). That's why there are workers crawling all over the place pretending to work hard on finishing the roof.
+
+    So - take it or leave it ;-)
+
+    You find all items at or near the end of the *'Railroad'* menu.
+
+    **INSTALLATION**
+
+    Extract/Copy the Paeng parent folder into your Plugins folder.   
+    To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+
+    **CREDITS**
+
+    Thanks to the folks at simpeg.com for just being there! :-)
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    Paeng Production Forum
+
+    [https://community.simtropolis.com/forums/topic/68471-plex-on-the-STEX-community-support/forum/index.php/board,109.0.html](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php/board,109.0.html)
+
+    **Enjoy!**
+
+    **UPDATED: 04.01.2022** by Tyberius06  
+    \- updated dependency links  
+    \- updated modding, transit modding to bring the stations to current days NAM/MTA standards.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/29108-paengs-southbury-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/ae19427ea3b3e00298c8445a6da9c99a-tonkso01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d4451046b4a_Paeng-ITSSouthburyStation-d.jpg.ef63e3b117389732f0c21b1da1221af2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d44511c90b6_Paeng-ITSSouthburyStation-n.jpg.930c3d2bd65ead6dc5685fee0bb22ec6.jpg
+dependencies:
+  - ill-tonkso:unreleased-set-vol1-resources
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol02-mixed
+  - murimk:props-vol03-industrials
+  - paeng:textures
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+assets:
+  - assetId: paeng-southbury-station
+
+---
+assetId: paeng-southbury-station
+version: "1.0.1"
+lastModified: "2022-01-04T13:01:15Z"
+url: https://community.simtropolis.com/files/file/29108-paengs-southbury-station/?do=download&r=191113

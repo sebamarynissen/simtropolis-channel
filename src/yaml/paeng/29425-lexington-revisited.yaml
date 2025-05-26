@@ -1,0 +1,81 @@
+group: paeng
+name: lexington-revisited
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Lexington Revisited
+  description: |-
+    A luxury apartment building, here as a string of mid-rise residential (or commercial) towers...  
+      
+    Size: 7x11  
+    Growable Residential and/or Ploppable Commercial  
+      
+    Stage 5 RES:  1360 R$$$ (1360 |1960 | 2720)  
+    Funcional LM: 1350 CO$$$ Jobs  
+      
+    \* *Based on the original and awesome BAT by* **spa**... :-)  
+      
+      
+      
+    **DEPENDENCIES**  
+      
+    \* [The Lexington](https://community.simtropolis.com/files/file/19449-the-lexington/)  
+    Needed:  
+    **Lexington Parkade Left-0x5ad0e817\_0x34c65a72\_0x30000.SC4Model**  
+    **Lexington Parkade Right 21-0x5ad0e817\_0xd4bfbe7e\_0x30000.SC4Model**  
+      
+    *The rest are just my common 'essentials' -*  
+    \* [Paeng Texture Pack v104](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=downloads;sa=view;down=637) - *!! Updated Version !!*  
+    \* [Murimk Props Vol02 v2.01](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=downloads;sa=view;down=660)  
+    \* [SHK Parking Pack](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=downloads;sa=view;down=679)  
+    \* [SG 01 Megapack](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)  
+    \* [Porkie Props Vol 01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)  
+      
+      
+    **DEVELOPER NOTES**  
+      
+    You can use either the RES or the COM each on their own, or both together. Remove any you do not wish to use.  
+      
+    Usage of Power, Water etc. is indicated via the in-game menu.  
+      
+    You find the ploppable version at or near the end of the *'Landmarks'* menu.  
+      
+      
+    **INSTALLATION**  
+      
+    Unzip the whole bundle into *"(My )Documents/Plugins"*.  
+    To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.  
+      
+      
+    **CREDITS**  
+      
+    Thanks to SPA and to the folks at simpeg.com for being there! :-)  
+      
+      
+    **SUPPORT**  
+      
+    Should you need support for these items please visit the  
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10912.0)  
+      
+      
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/29425-paengs-lexington-revisited/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/d2815cbe64230d736d241896826e94e7-lex2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/e6089d3ffd939234c3eac99abe20134b-lex1.jpg
+dependencies:
+  - spa:the-lexington-models
+  - paeng:textures
+  - murimk:props-vol02-mixed
+  - shk:parking-pack
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: paeng-lexington-revisited
+
+---
+assetId: paeng-lexington-revisited
+version: "1.0"
+lastModified: "2014-04-08T11:32:31Z"
+url: https://community.simtropolis.com/files/file/29425-paengs-lexington-revisited/?do=download&r=130410

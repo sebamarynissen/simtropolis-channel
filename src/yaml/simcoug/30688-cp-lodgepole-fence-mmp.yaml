@@ -1,0 +1,47 @@
+group: simcoug
+name: cp-lodgepole-fence-mmp
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: CP Lodgepole Fence MMP
+  description: |-
+    **Description:**  
+    This Mayor Mode Ploppable (MMP) allows you to plop CP's Lodgepole Fence props at various angles.    
+    There are 4 different MMP files:  
+    \-Ortho  
+    \-Diagonal  
+    \-22 Degrees Left  
+    \-22 Degrees Right  
+    Each MMP allows 9 clicks to get the desired orientation you wish (you can also nudge the fence prop slightly by adjusting your mouse after each click).  
+    The 10th click is a blank prop to cut down the need for bulldozing.
+
+    **Dependencies:**  
+    **[BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)**
+
+    **Installation:**  
+    Simply unzip the file and put the entire 'CP Lodgepole Fence MMPs' folder in your plugins (don't forget the dependency).
+
+    **Developer notes:**   
+    This is another MMP I created a while back that was lost when SimPeg went down.  I enjoy painting fences into my landscapes and these provide an easy way to accomplish that.    
+    It can be tricky at first, but with a little practice you can add fences to any landscape.  Keep in mind, there are two orientations of each prop, so continue to click until you achieve the desired result.    
+      
+    **Support:**  
+    For questions regarding this MMP, please feel free to visit my Modding Development Thread (**[SimCougs Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**) here on Simtropolis.
+
+    **Special Thanks:**  
+    A very special thanks to c.p. for creating and sharing all of his wonderful creations, including the props used in this MMP.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/30688-cp-lodgepole-fence-mmp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/CP_Lodgepole_Fence_MMPs_pic.jpg.e9abdc4391ae2b508d7b3f23d0c73edc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/CP_Lodgepole_Fence_MMPs_pic2.jpg.582c7324fac9b06daa186788e09e2e89.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: simcoug-cp-lodgepole-fence-mmp
+
+---
+assetId: simcoug-cp-lodgepole-fence-mmp
+version: "1.0"
+lastModified: "2015-07-20T21:09:18Z"
+url: https://community.simtropolis.com/files/file/30688-cp-lodgepole-fence-mmp/?do=download&r=158392

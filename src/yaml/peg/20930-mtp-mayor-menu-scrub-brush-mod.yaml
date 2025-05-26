@@ -1,0 +1,50 @@
+group: peg
+name: mtp-mayor-menu-scrub-brush-mod
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: MTP Mayor Menu Scrub Brush Mod
+  description: |-
+    This  PEG MTP Series  MOD adds ploppable Scrub Brush props to your Mayor Menu. Like the other PEG Mayor Mods, this mod also uses the the click-cycle single menu icon for tidiness and ease of use.
+
+    This mod is similar to the ***[PEG Mayor Mode Forest Flora Mod](https://community.simtropolis.com/files/file/20915-peg-mtp-mayor-mode-flora-mod/)***...  but with some very useful differences. For starters, it reuses the game's own scrub oak props normally used only by the God Mode Tree brush at very high elevations. No new props to add.... no extra game resources to grub up.
+
+    Other notable differences include:
+
+    1\. These plop in clusters... like the PEG Pine Clusters mod. The parameters have been modified to allow close clustering and even to overlay each other... so you can lay down a fairly thick thicket of scrub.
+
+    2\. These orient to the slope. No need to worry about level ground or props hanging out in the air. If you try to plop them on too steep of a slope, they just won't plop.
+
+    3\. They click-cycle in reverse... size-wise. They start big and with each subsequent click  on the plopped prop, a smaller version appears. The method to this madness is thus:
+
+    > a. Because the clusters can be rather large, its far too easy to have a bush show up where you don't want it... like in the middle of a road or rail track. If that happens, you can just keep clicking until the cluster is small enough and no longer sprouting up where you don't want it.
+    > 
+    > b. Because the clusters can be plopped so close together, this mod functions almost like the God Mode Tree brush. By having the larger clusters plop first, its much easier to cover larger areas and overlay the clusters to form think foliage.
+
+    4. Although the clusters are quite large, you will find that they can be plopped in rather small spaces between trees... and will fill in the gaps quite nicely.   
+      
+    **PLEASE NOTE:**   
+      
+    The cycling effect is not repetitive. Once you have cycled to the last item, additional clicks will have no effect.
+
+       
+    **\*\* This file has no dependencies.**
+
+      
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Added clickable linky to referenced Forest Flora mod.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20930-peg-mtp-mayor-menu-scrub-brush-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/cbc5a9376d0af77ab1dbbefd17c9fe20-product_image.jpg
+dependencies:
+  - peg:mtp-mayor-mode-flora-mod
+assets:
+  - assetId: peg-mtp-mayor-menu-scrub-brush-mod
+
+---
+assetId: peg-mtp-mayor-menu-scrub-brush-mod
+version: "1.0"
+lastModified: "2009-01-07T01:48:19Z"
+url: https://community.simtropolis.com/files/file/20930-peg-mtp-mayor-menu-scrub-brush-mod/?do=download&r=46679

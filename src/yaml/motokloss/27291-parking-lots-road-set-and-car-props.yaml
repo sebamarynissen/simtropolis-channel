@@ -1,0 +1,72 @@
+group: motokloss
+name: parking-lots-road-set
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Parking Lots (Road Set) and Car Props
+  description: |-
+    A small addition to the SC4 parking lots theme - set of the functional car parks to plop on roads and one-way roads. **47** **pieces** in total - in different sizes, with different types of parking spaces (parallel, diagonal, mixed), with various types of trees (no trees, Maxis trees, semi-seasonal trees) and lots of different vehicles.
+
+    This set comes together with a prop pack of my simple car models from the 60s and 70s - **MS\_Motokloss\_60s-70s\_CarProps**. About 60 old European vehicles in several variants (parallel, diagonal and “less diagonal” ![https://www.simtropolis.com/forum/public/style_emoticons/default/2.gif](https://www.simtropolis.com/forum/public/style_emoticons/default/2.gif) ).
+
+    More info. in “read me” files - please check them.
+
+    **DEPENDENCIES:**
+
+    \- **BSC MEGA Props - CP Vol01** - for the semi seasonal trees. It is required ONLY if you want to use the version with these trees.  
+    [http://sc4devotion.c...php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    \- MS Motokloss 60s-70s Car Props - **INCLUDED** in this download.
+
+    **IMPORTANT** \- some people can't see the parallel asphalt parking spaces due to the "conflict" with some different plugin\*. If you are one of them, please **rename the folder "Motokloss" to "zzzMotokloss"** to set it at the end of the loading queue. It should solve the problem. Many thanks to yigit007, who discovered this solution (see comments below).
+
+    \*It doesn't happen every time. I tested these parking lots in different plugin configs and never had any troubles, same with other users.
+
+    \_\_\_\_\_  
+    Notice, the pics below were taken with the loaded NAM Euro-road texture. If you do not use NAM or this texture, you will see the standard US yellow lines (in case of the two-way road pieces).
+
+    * * *
+
+    Mod Edit: Fixed unparsed BBCode.
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/27291-ms-parking-lots-road-set-and-car-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/14d6ac2988b5ca0a120d6bad5de803d5-msparking.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/fc23ec5ad556d41fd5b1de7b4e212d41-msparking--2-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/560eefc2ce309c8852329a84bef9b23a-msparking--3-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/2fa6b1aba1d96672b3f5300c9f4ab3aa-msparking--4-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/4e21bc6e97688ed3595e2618d8874d39-msparking--5-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/29e60bf68370bc066736182354e32d23-msparking--8-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/ef93f29c93c1ceba3a8b40c520ebd80c-msparking--7-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/522ed0ba4eea47c2cc4bb8af2ac1e5a9-msparking--6-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/d40a970c34d2fa5f031f1f0163beae9f-msparking--9-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/2849e2575dd9f33a9f677b17b93ed59d-msparking--10-.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - motokloss:60s-70s-car-props
+assets:
+  - assetId: motokloss-parking-lots-road-set-and-car-props
+    include:
+      - "/MS Parking Lots - Road Set/"
+
+---
+group: motokloss
+name: 60s-70s-car-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: 1960s-1970s Car Props
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/27291-ms-parking-lots-road-set-and-car-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/64162da088a81210f6a704217b943930-msdcarprops.jpg
+assets:
+  - assetId: motokloss-parking-lots-road-set-and-car-props
+    include:
+      - "/MS_Motokloss_60s-70s_CarProps.dat"
+
+---
+assetId: motokloss-parking-lots-road-set-and-car-props
+version: "1.0"
+lastModified: "2012-02-19T16:07:20Z"
+url: https://community.simtropolis.com/files/file/27291-ms-parking-lots-road-set-and-car-props/?do=download&r=104490

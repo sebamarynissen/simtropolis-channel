@@ -1,0 +1,85 @@
+group: ceafus-88
+name: bank-pack
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: C88- Bank Pack
+  description: |-
+    Hello Simtropolis! ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:)")
+
+    I am back with a small set of banks, a variety for you all. ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)")
+
+    The original idea here was to recreate the Comerica Bank in Kalamazoo, MI. In doing so, the kind people in the BAT open discussion suggested I throw in a few versions, so I listened. ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:)")
+
+    Included in this pack are:
+
+    -   Original Comerica Bank
+    -   Bank of Ceafus ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")
+    -   Generic No Logo Building
+
+    All 3 are CO$$$ providing around 700 jobs. ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)")
+
+    Including both DN and MN versions! Choose the one when you push download. ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:)")
+
+    I am so very thankful for everyone here at ST that has supported me through the years and helped me grow, you guys mean a lot to me! I am forever in your debt and I am very thankful for you all!
+
+    These beautiful lots are all thanks to the wonderful [@RRetail](https://community.simtropolis.com/profile/744613-rretail/)!! Thank you so much! If you see him around the forums, be sure to pay him a compliment. ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:)")
+
+    Dependencies:  ![*:read:](https://community.simtropolis.com/assets/emoticons/default_49.gif "*:read:")
+
+    - [LBT Mega Prop Pack Vol.1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+    - [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+    - [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+    - [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    - [BSC Common Dependencies](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+        - BSC Mega Props MJB Vol 01
+        - BSC MEGA Props SG Vol 1
+        - BSC MEGA Props swi21 Vol 1
+        - BSC Textures Vol 3
+
+    Other Photos:
+
+    ![KalazmooBank24.jpg.4423deb70394faf0622bfd61beb7caa3.jpg](https://www.simtropolis.com/objects/attachments/monthly_2017_08/KalazmooBank24.jpg.4423deb70394faf0622bfd61beb7caa3.jpg)
+
+    ![KalazmooBank25.jpg.e8a260005e6a8e5e3f7d9fb8f0034a0a.jpg](https://www.simtropolis.com/objects/attachments/monthly_2017_08/KalazmooBank25.jpg.e8a260005e6a8e5e3f7d9fb8f0034a0a.jpg)
+  author: Ceafus 88
+  website: https://community.simtropolis.com/files/file/31915-c88-bank-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/599e51b8f0bdb_NewCity-Aug.26301503544460.png.7fbc99abbbdd9824249c54130729431d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/599e51bbab1c3_NewCity-Aug.26301503544473.png.5123579402eeebc195e1f4e3d611ab11.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/599e51be7e83e_NewCity-Dec.6301503544530.png.1efb408d651e15727a6663edd55999a0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/599e51c18a589_NewCity-Dec.6301503544543.png.077688f788292121f0ebac8c84cf3314.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/599e51c4671b8_NewCity-Feb.22311503544587.png.8ac62fd5005c29da084b4a923df06d05.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/599e51c750bb0_NewCity-Feb.29321503546585.png.21a39ad5a33fe81fc875f3f3a3e36500.png
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol03
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - supershk:mega-parking-textures
+  - bsc:mega-props-mjb-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ceafus-88-c88-bank-pack-maxisnite
+      - assetId: ceafus-88-c88-bank-pack-darknite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ceafus-88-c88-bank-pack-darknite
+        exclude:
+          - /C88-Banks_MN/
+
+---
+assetId: ceafus-88-c88-bank-pack-maxisnite
+version: "1.0"
+lastModified: "2017-08-24T04:35:22Z"
+url: https://community.simtropolis.com/files/file/31915-c88-bank-pack/?do=download&r=168088
+
+---
+assetId: ceafus-88-c88-bank-pack-darknite
+version: "1.0"
+lastModified: "2017-08-24T04:35:22Z"
+url: https://community.simtropolis.com/files/file/31915-c88-bank-pack/?do=download&r=168089

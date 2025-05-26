@@ -1,0 +1,35 @@
+group: peg
+name: pond-kit-transparent-patch
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: Pond Kit Transparent Patch
+  description: |-
+    This patch is for those of you who use custom terrain mods such as a desert terrain or the snow mod... and for those who just prefer transparent ground textures that allow the natural terrain color and rock mods to show through. The patch converts all PEG Pond lots, including the Waterfalls,  to transparent textures along the banks.
+
+    But be advised.... this is NOT an automatic updating patch. Because the game saves each lot's texture info when the game is saved, you will have to manually replace any existing Pond lots in the game after applying the patch. You would also have to re-plop the lots if you decide to switch back to the textured versions. The center water tiles, which have no exposed textures, are not affected and do not have to be re-plopped.
+
+    To apply the patch, simply copy the included two files into the *..Plugins/PEGPROD/PEG Ponds*  folder and remove the textured versions.
+
+    1\. Replace *PEG\_Ponds\_206.dat* with *PEG\_Ponds\_Transparent\_206.dat*
+
+    2\. Replace *PEG\_Pond-WF\_Medium\_206.dat* with *PEG\_Pond-WF\_Medium\_Transparent\_206.dat*
+
+    \*\* Future add-on/replacement Pond styles will be fully compatible with both the textured and transparent versions of the Pond Lots and will update all in-game lots automatically. Only a switch between textured and transparent lots requires the lots to be re-plopped.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/12330-peg-pond-kit-transparent-patch/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9d621af8b303e3ec292fea08c1b3b9d2-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9d621af8b303e3ec292fea08c1b3b9d2-product_image21.jpg
+assets:
+  - assetId: peg-pond-kit-transparent-patch
+dependencies:
+  - peg:pond-kit-ii-deluxe-edition
+
+---
+assetId: peg-pond-kit-transparent-patch
+version: "1.1"
+lastModified: "2025-01-22T23:28:56Z"
+url: https://community.simtropolis.com/files/file/12330-peg-pond-kit-transparent-patch/?do=download&r=205435
