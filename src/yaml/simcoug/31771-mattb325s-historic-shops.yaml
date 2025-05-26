@@ -1,0 +1,52 @@
+group: simcoug
+name: mattb325s-historic-shops
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Mattb325's Historic Shops
+  description: |-
+    **Description:**  
+    I mentioned to mattb325 about an idea I had for some 19th century looking commercial shops that you typically find in the historical center of old towns and cities.  He was gracious enough to whip up some amazing models, so I was left to try and make some lots that would show these beauties.   Mattb made a huge number of variations (16 total models) so I modded them into prop families.  There are 9 growable CS$$ lots, sized 1x1, 1x2 and 2x2.  The stats are in line with similar maxis buildings.  The US looking buildings will grow on the Chicago and NY tilesets, while the UK looking models will grow on the European tileset.  I've also included two ploppable landmark lots with CS$$ jobs.
+
+    **Installation:**  
+    Simply unzip the file and put the entire folder in your plugins.  Feel free to delete the growable or ploppable lots, depending on your needs.    The MattB325\_HistoricShops\_Resource.dat is necessary though - don't remove that. In the *BSCProps* folder you will find a **Mattb325\_Old\_Shops\_DN.dat** and a **Mattb325\_Old\_Shops\_MN.dat**.
+
+    Choose one of them depending on if you are using Dark Night/True Night (DN) mod or not.
+
+    **Dependencies:**  
+    Just the mattb325 models – **INCLUDED**
+
+    If you use the dark nite version, you will need a dark nite mod. Either: ([http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) OR ([http://gizmo.aplaceforwebsite.com/index.php](http://gizmo.aplaceforwebsite.com/index.php))
+
+    **Developer notes:**   
+    I created these lots to fit in any city or town - everything is lotted using maxis so as to limit the dependencies.  Please feel free to change textures/props as you wish.  Think of this as the bare bones version.
+
+    **Support:**  
+    For questions regarding this set, please feel free to visit my Lot Development Thread (**[SimCoug's Lot Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**).
+
+    **Special Thanks:**  
+    mattb325 of course!  Go over to his [BAT thread](https://www.sc4devotion.com/forums/index.php?topic=327.0) and give him a huge thanks ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)")
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/31771-mattb325s-historic-shops/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/3ChiNY1x2lots.jpg.1be68604b8ca883e7fb3d41aa7cdc44a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/4ChiNY2x2lots.jpg.eb30b25bcb50ae8a553d0040f3a76ac3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/5942aeff75550_5Euro1x11x2lots.jpg.7cd1a74f3340204c6e6c221a3bf582bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/6PlopLots.jpg.c1c50d3da7b733ff006da5e9f6eb31c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/1HStitle.jpg.eb5b750368dfebaa8543903e25f879f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/2HStitlenight.jpg.c9ff85121957411ffc22464628bc81fd.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simcoug-mattb325s-historic-shops
+        exclude: [ "/Mattb325_Old_Shops_DN.dat" ]
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: simcoug-mattb325s-historic-shops
+        exclude: [ "/Mattb325_Old_Shops_MN.dat" ]
+
+---
+assetId: simcoug-mattb325s-historic-shops
+version: "1.0"
+lastModified: "2024-01-16T14:42:49Z"
+url: https://community.simtropolis.com/files/file/31771-mattb325s-historic-shops/?do=download&r=199401

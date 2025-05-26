@@ -1,0 +1,83 @@
+group: paeng
+name: general-city-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: General City Hospital
+  description: |-
+    Here is my final lot in the quest for *MediCare* - a VERY large complex of medical facilities suitable for your urban centers - the '*Mother of all Hospitals*', so to speak...;-)
+
+    14x8 Hospital, covers a full large city tile (xtra large radius), with a capacity of 180.000 patients.
+
+    Please see the readme for a chart of all stats.
+
+    **DEPENDENCIES**
+
+    \* [**LBT** **Hospitals Pack Version Gold**](https://community.simtropolis.com/files/file/20035-lbt-hospitals-pack-version-gold/)
+
+    Note: *This pack comes with an EXE Installer - just run it, then copy the needed models (as listed below) from the various subfolders to the prepared folder 'Models'. You can disregard all other dependencies listed for the 'Gold Pack'.*
+
+    Needed Models:
+
+    \- **Clinica Juan Jose Puigbo-0x5ad0e817\_0x33b88b54\_0x30000.SC4Model**
+
+    \- **Clinica Razzetti 2-0x5ad0e817\_0xd55deb8a\_0x30000.SC4Model**
+
+    \- **Zamora General Hospital-0x5ad0e817\_0x754b85bd\_0x30000.SC4Model**
+
+    \- **Zamora University Clinic-0x5ad0e817\_0xb3736fdb\_0x30000.SC4Model**
+
+    *Plus my usual suspects*... ;-)
+
+    \* [Paeng Texture Pack v103](https://community.simtropolis.com/files/file/22823-paeng-textures-vol103/)
+
+    \* [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    \* [SimFox TreePack #2](https://community.simtropolis.com/files/file/21640-simfox-treepack-2/)
+
+    \* [SG 01 Megapack](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+
+    \* [Porkie Props Vol 01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    **DEVELOPER NOTES**
+
+    The lot comes in **two versions** - one has numerous driveways on all sides. You can connect them to your road network, but they are only eyecandy for visual reasons (no traffic switches). The other version does not have any TE'd driveways at all. You can delete the version you do not wish to use.
+
+    Add bus- or subway stops and parking space to your own taste and needs.
+
+    You find it at or near the end of the '*Civics | Health*' menu with custom icons.
+
+    **INSTALLATION**
+
+    Put the whole bundle into "*(My)Documents/Plugins*".
+
+    To un-install - bulldoze all lots you may have plopped from this pack, then remove it completely from your Plugins.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10610.msg214832#msg214832)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28409-paengs-general-city-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/86e9ace88d27c6c7b0ee4f8991ef6d68-hospital_bw.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/8185a12900292df669aa30d7d82ecc46-hospital_single.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/f4b8bd9521740e4f668032e20bea4138-hospital_4view.jpg
+dependencies:
+  - vicgon:lbt-hospitals-pack-models
+  - bsc:mega-props-sg-vol01
+  - paeng:textures
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - simfox:treepack-vol02
+assets:
+  - assetId: paeng-general-city-hospital
+
+---
+assetId: paeng-general-city-hospital
+version: "1.0"
+lastModified: "2013-01-29T13:56:39Z"
+url: https://community.simtropolis.com/files/file/28409-paengs-general-city-hospital/?do=download&r=111294

@@ -1,0 +1,94 @@
+group: simcoug
+name: old-rs-neighborhoods
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Old R$ Neighborhoods
+  description: |-
+    ***Description:***  
+    This is a set of 50 growable R$ lots using a variety of small low wealth homes.  
+    3 prop families were created from the various Maxis low wealth homes and are included with this set in order to maximize the variety of each lot.  
+    In addition, I created a prop family using OnlyPlace4's Wild West shotgun houses.  
+    The included lot sizes are: 1x1, 1x2, 2x1, 1x3, 2x2, 2x3, 3x2, 3x3 and 3x4.  
+    Each lot is modded with statistics equivalent to Maxis R$ values.  
+    These 'neighborhoods' will **only grow on the Chicago tile set** (growth stages 1-3).  
+      
+    **DEPENDENCIES:**
+
+    [BSC Textures Pack CycleDog Vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    [BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC MEGA Props CP Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    [BSC MEGA Props SG Vol01 v2](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01-v2/)
+
+    [SPAM Super Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/) (If you already use the full SPAM MOD you do not need this)
+
+    [Wild West Shotgun House Growable](https://community.simtropolis.com/files/file/15321-wild-west-shotgun-house-growable/) by onlyplace4 ('Wild West Shotgun House Props.dat' file only)
+
+    [CP Early 19th Century Small $ Houses](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=241) ('CP\_Early19thCentury\_Small$Houses.dat' file only)
+
+    [WMP Mega Props vol. 01 - Misc General Props](https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/) by DocRorlach
+
+    [WMP Mega Props vol. 02 - Misc Industrial Props](https://community.simtropolis.com/files/file/33622-wmp-mega-props-vol-02-misc-industrial-props/) by DocRorlach
+
+    [KrashSpeed Mailbox Set](https://community.simtropolis.com/files/file/28412-krashspeeds-mailbox-set/)
+
+    [Maxis bldgprop\_vol1.dat & bldgprop\_vol2.dat](https://community.simtropolis.com/sc4-maxis-files/) (everyone should have these)
+
+    **Installation:**  
+    Simply unzip the file and put the entire 'SimCougs Old R$ Neighborhoods' folder in your plugins (don't forget the dependencies).  
+      
+    **Developer notes:**  
+    I know, I know, you are all thinking "Holy stinkin' propbarf Batman!"  
+    Yes, I realize the dependency list is extensive, but I like details on my lots, and these prop and texture packs have been hand-picked to offer the greatest bang for the buck.  
+    As always, prop families were used extensively, so I guarantee you will not find the exact same lot twice (and if you do, you should buy a lotto ticket).  
+    These lots were put together with my CJ [**New SorGun**](https://community.simtropolis.com/topic/48762-new-sorgun/) in mind, so they have more historical feel but they will not look out of place in your rural areas.  
+    The smaller lot sizes have a fairly generic look and will blend together easily. Many of the larger lot sizes have some unique flair in order to add some character to your neighborhoods.  
+    By mixing and matching the different lot sizes, you should be able to create completely unique low wealth neighborhoods.  
+    I welcome any and all feedback, especially if it will make my future lot sets better. Thank you.  
+      
+    **Support:**  
+    For comments, questions or help, please visit **[SimCoug's Lot&Mod Den](https://community.simtropolis.com/forums/topic/68540-simcougs-lotmod-den/)**  
+      
+    **Special Thanks:**  
+    Thanks to OP4 for creating the BLAM blank, which was used as the model for these lots.  
+    Thanks to the great BATers who generously shared their prop models - this set would not be possible without them.  
+    Also, thanks for the gang over at SimPeg for all the suggestions and encouragement.
+
+    Staff Edit: Fixed dependency links.
+  author: SimCoug
+  website: https://community.simtropolis.com/files/file/28426-simcougs-old-r-neighborhoods/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/47408335e671f6dded8835aa33e39386-sc-old-neighborhoods-1-title.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/dfd179265794a9f39d25b47efe494e94-sc-old-neighborhoods-1x1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/aa40620277e3f27f051867ffde7ebd14-sc-old-neighborhoods-1x2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/dd48a55bc065392d08c0a229b1ae9b8e-sc-old-neighborhoods-1x3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/51f899424bebd057f409c672fc78193f-sc-old-neighborhoods-2x1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/f814652baf13900434383ee674528e88-sc-old-neighborhoods-2x2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/7df32f7a9255c6e415fbfabd7515bec7-sc-old-neighborhoods-2x3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/9ca152f8d6bab178ca7420999ca600c0-sc-old-neighborhoods-3x2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/f3858cec6445efff072a64915546c0d7-sc-old-neighborhoods-3x3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/16d948334a2a4992943f0be5f0817431-sc-old-neighborhoods-3x3b.jpg
+dependencies:
+  - cycledogg:early-19th-century-r1-props
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - krashspeed:mailbox-set
+  - maxis:buildings-as-props
+  - onlyplace4:wild-west-shotgun-house-props
+  - peg:spam-super-resource-pack
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+assets:
+  - assetId: simcoug-old-rs-neighborhoods
+
+---
+assetId: simcoug-old-rs-neighborhoods
+version: "1.0"
+lastModified: "2013-02-04T03:55:51Z"
+url: https://community.simtropolis.com/files/file/28426-simcougs-old-r-neighborhoods/?do=download&r=111555

@@ -1,0 +1,85 @@
+group: paeng
+name: grunge-ind-alleys
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Grunge IND Alleys
+  description: |-
+    Sometimes we would like to have a sizable area that is not criss-crossed by uniform streets and roads... but we can't because in most cases we then lack road-access for the lots. This set offers a bag-of-tricks to get around that, so you can make apparently un-connected open spaces - useful for industrial compounds, warehouse districts, waterfronts, large parking areas and more.  
+      
+      
+    **LIST OF ITEMS**  
+      
+    \* 3 transit-enabled Extenders (straight, cross, Tee)  
+    \* 2 transit-enabled gates  
+      
+    \* 3 perimeter fence sections (1x, 3x, curve)  
+    \* 2 under-bridge extenders (left, right)  
+      
+      
+    **DEPENDENCIES**  
+      
+    \* [Murimk Prop Pack Vol03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-prop-pack-vol03-industrials/)  
+      
+    \* [Grunge Concrete Set](https://community.simtropolis.com/files/file/26425-paengs-grunge-concrete-set/)  
+      
+    \* [PEG Security Fencing Kit](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)  
+      
+    \* [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)  
+      
+    \* [SPOT](https://community.simtropolis.com/files/file/24509-spot/) (Orientation Helpers, optional)  
+      
+      
+    **DEVELOPER NOTES**  
+      
+    **[See a demo](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10745.msg218801#msg218801)** on how to use the TE extenders here!  
+      
+    The lots are mostly neutral and cheap to plop. The apparent lack of props and lotted items is on purpose - players are supposed to have most possible freedom in designing their own scenes using IND lots, fillers and MMPs (i.e. *Murimk Prop Pack Vol03*, *GridBusters* and similar items). That should help building dedicated IND areas... Be creative ;-)  
+      
+    You can get additional visual interest by using different streetside mods and SAM streets (the core set also works as an effective 'SAM Stopper')... A bit challenging at times, but well worth the effort.  
+      
+    You find all items at or near the end of the *'Transit | Misc'* menu with custom icons.  
+      
+      
+    **INSTALLATION**  
+      
+    Unzip the whole bundle into *"(My )Documents/Plugins"*.  
+    To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.  
+      
+      
+    **CREDITS**  
+      
+    Thanks to the folks at simpeg.com for valuable feedback! :-)  
+      
+      
+    **SUPPORT**  
+      
+    Should you need support for these items please visit the  
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10745.msg218801#msg218801)  
+      
+      
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28814-paengs-grunge-ind-alleys/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/d6e2431cde9eff25d47e17f8c0c2c3ff-ind-alley_07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/b5fce689ee7b80c6697ad854d3422cca-c02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/02f2e4e0eb2dbc39ca95b4bef473c366-c03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/bd258076c8ff05dd93837fcf3b85abc6-c05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/87b7ecdcb060c6d5262cea5334c30265-c06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/0c3fd40e3c89421e8b9e8b555c203b33-c10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/23c83df99aa3b1d48486f4158a0500fd-c11.jpg
+dependencies:
+  - murimk:props-vol03-industrials
+  - paeng:grunge-concrete-set-resources
+  - peg:security-fencing-kit
+  - peg:spot
+  - shk:parking-pack
+assets:
+  - assetId: paeng-grunge-ind-alleys
+
+---
+assetId: paeng-grunge-ind-alleys
+version: "1.0"
+lastModified: "2013-06-27T15:22:51Z"
+url: https://community.simtropolis.com/files/file/28814-paengs-grunge-ind-alleys/?do=download&r=116762

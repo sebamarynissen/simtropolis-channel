@@ -1,0 +1,110 @@
+group: paeng
+name: urban-recreational-canal-set
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Urban Recreational Canal set
+  description: |-
+    **Details from the original readme made by Paeng with updated links:**
+
+    \============================================================  
+    Paeng's Urban Recreational Canals  
+    \============================================================
+
+    A series of shallow canals to create riverwalks or promenades with low sidings for more urban and recreational purposes, to mix with Peg's Ponds and Streams.
+
+    \------------------------------------------------------------  
+    LIST OF ITEMS  
+    \------------------------------------------------------------
+
+    \* 5 pcs. Walls and Extenders  
+    \* 4 pcs. Promenade  
+    \* 4 pcs. Narrow (single width) Canals  
+    \* 3 pcs. Xtras (Addons)
+
+    More Addons are planned for the future...
+
+    \------------------------------------------------------------  
+    DEPENDENCIES  
+    \------------------------------------------------------------  
+    **[\* JS Seawalls V3](https://community.simtropolis.com/files/file/24794-js-seawalls-v3/)**
+
+    **[\* PEG Pond Kit II - Deluxe Edition](https://community.simtropolis.com/files/file/12329-peg-pond-kit-deluxe-edition/)  ----------->   ([transparent patch](https://community.simtropolis.com/files/file/12330-peg-pond-kit-transparent-patch/))**
+
+    **[\* PEG StreamKit-Deluxe Edition](https://community.simtropolis.com/files/file/12426-peg-stream-kit-deluxe-edition/)**
+
+    **[\* The Terrain Kit (7in1)](https://community.simtropolis.com/files/file/27712-the-peg-terrain-kit-7-n-1/)**
+
+    **[\* Murimk Props Vol02 v2.01 (Park Props)](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)**
+
+    **[\* SG 01 Megapack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)**
+
+    **[\* Porkie Props Vol 01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)**
+
+    **[\* SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)**
+
+    **[\* SPOT](https://community.simtropolis.com/files/file/24509-spot/)**
+
+    \------------------------------------------------------------  
+    DEVELOPER NOTES  
+    \------------------------------------------------------------
+
+    Experiment with the various sub-sets - all pieces can be mixed freely. Some pieces will need a bit of MMP-treatment to cover up the occasional 'neuralgic' spot. When plopping MMPs take care not to overdo it, otherwise the canal pieces will just "disappear" ;-)
+
+    It is recommended to use this set together with the **[Free Waters Mod](https://community.simtropolis.com/files/file/26556-paengs-free-waters/).**
+
+    The pieces are set with default white bases and are compatible with my **[Sandstone Sidewalk Mod](https://community.simtropolis.com/files/file/26101-paengs-sandstone-mod/).**
+
+    All needed info is given via the in-game menu.
+
+    You find all items at or near the end of the '**Parks**' menu with custom icons.
+
+    \------------------------------------------------------------  
+    INSTALLATION  
+    \------------------------------------------------------------
+
+    Unzip the whole bundle, or COPY the "Paeng" folder from the \*.zip into your plugin folder. You don't need to keep the "Documentation" folder. To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+
+    \------------------------------------------------------------  
+    CREDITS  
+    \------------------------------------------------------------
+
+    Thanks to the folks at simpeg.com for valuable feedback! :-)  
+    Thanks to Murimk for some additional props.
+
+    ***Uploaded on behalf of Paeng by Tyberius with Cori's and Catty-CB's permission.***
+
+    \------------------------------------------------------------  
+    SUPPORT  
+    \------------------------------------------------------------
+
+    There is a very limited support for these files since the original creator is no longer an active developer and the original **SIMPeg** site is no longer available as well.  
+    You can ask for support in the **[PLEX Support Topic](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)** at Simtropolis.
+
+    Should you need support for these items please visit the  
+    Paeng Production Forum  
+    [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10716.0](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10716.0)
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/32028-paengs-urban-recreational-canal-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/urc_800.jpg.80b81094d5a81f3eed5deb54650cf2e9.jpg
+dependencies:
+  - jaystimson:seawalls-v3-props
+  - peg:pond-kit-transparent-patch
+  - peg:stream-kit-deluxe-edition
+  - peg:terrain-kit-7-n-1
+  - murimk:props-vol02-mixed
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - peg:spot
+assets:
+  - assetId: paeng-urban-recreational-canal-set
+
+---
+assetId: paeng-urban-recreational-canal-set
+version: "1.0"
+lastModified: "2017-12-09T00:08:45Z"
+url: https://community.simtropolis.com/files/file/32028-paengs-urban-recreational-canal-set/?do=download&r=169350
