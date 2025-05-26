@@ -1,0 +1,75 @@
+group: oidaas
+name: kalarne
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Kalarne
+  description: |-
+    **About**
+
+    This a railway station that has seen better days.  
+    inspired by a station on the northern mainline in Sweden  
+    Transit enabled to allow freight rail. It works best with standard RRW as seen in the screenshots.
+
+    **Stats**
+
+    Lot size: 7x4  
+    plop cost: 1000  
+    monthly cost: 100  
+    flammability: 10  
+    power consumed: 19  
+    water consumed: 10  
+    capacity: 66000  
+    air pollution: 2 over 6 tiles  
+    water pollution: 4 over 2 tiles  
+    garbage: 10 over 10 tiles  
+    Transit Switch Entry Cost: 0,096
+
+    **Dependencies**
+
+    ESA railway props
+
+    [https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed)
+    PEG MPT Super pack
+
+    [https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed)
+    SuperSHK MEGA Parking Textures
+
+    [https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=embed](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=embed)
+    SFBT Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    Railyard and spurs MEGA pack [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2177](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2177)
+
+    BSC Textures vol 3 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1806](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1806)
+
+    C.P Megaprops vol 1[https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    SG Megaprops vol 1[https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    JES Megaprops vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=342](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35009-esa-kalarne/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/622f9d1421789_NewCity-Feb.4011647287333.jpg.d1ee0da43f321555731d1595bdbcd383.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/622f9d1b680f7_NewCity-Feb.11011647287360.jpg.cdc7b9ae3e9b3e65bb2046860ab6f390.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/622f9d226b3ae_NewCity-Jan.27011647287286.jpg.8199ae12cbecdcd626ffd6cf4e12f201.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/622f9d29aab90_NewCity-Jan.27011647287296.jpg.29ab259bfedcbe66f5fd22c3fd51424c.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol03
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - oidaas:rail-props-vol01
+  - peg:mtp-super-pack
+  - sfbt:essentials
+  - supershk:mega-parking-textures
+ # - ncd:rail-yard-and-spur-mega-pak-1 (or RealRailway (RRW) NCD BSC Texture pack Update)
+assets:
+  - assetId: oidaas-kalarne
+
+---
+assetId: oidaas-kalarne
+version: "1.0.0"
+lastModified: "2022-03-16T17:00:01Z"
+url: https://community.simtropolis.com/files/file/35009-esa-kalarne/?do=download&r=192535

@@ -1,0 +1,68 @@
+group: oidaas
+name: 1950s-villas
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: 1950's Villas
+  description: |-
+    **About**
+
+    These are a couple of homes i made i while ago. I cleaned up the lotting and the dependencies.
+
+    **Stats**
+
+    Bulldoze Cost     103                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+                0     0     2     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+                5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     3                       
+    SFX:Query Sound     0x6A63BBA2                       
+    Query exemplar GUID     0x4A5672BF                       
+    OccupantGroups     Building: Residential     Building: R$$     Style: Houston               
+    Occupant Size     Width     Height     Depth               
+    14.70499992     7.07000017     18.93199921               
+    Occupant Types     R$     R$$                   
+    Building value     424                       
+    Capacity Satisfied     R-$     R-$$                   
+                29     18  
+    **Dependencies**
+
+    BSC MEGA props SG vol 1[https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    BSC MEGA props Jestarr vol 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=338](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=338)  
+    BSC MEGA props D66 vol 1[https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=396](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)  
+    BSC MEGA props CP vol 1[https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    Mikeseith euro car mod
+
+    [https://community.simtropolis.com/files/file/14400-european-cars-automata-and-family-props-new-instances/?do=embed](https://community.simtropolis.com/files/file/14400-european-cars-automata-and-family-props-new-instances/?do=embed)
+    Girafe birches [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2620](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)  
+    Girafe Maples [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2809](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)  
+    Girafe Elms [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3347](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3347)  
+    Girafe Ashes [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2809](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35539-esa-1950s-villas/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/6479f8e9e1b60_NewCity-Jan.16001685714681.jpg.e3dde34bbb3243d7a3f5a45941190c35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/6479f8eb296e4_NewCity-Jan.16001685714690.jpg.25596cc0528f5fdd9f3e0813b15240f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/6479f8ec7d959_NewCity-Jan.16001685714701.jpg.3c1d0acea9c41b58a7ea29828b8c604f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-sg-vol01
+  - girafe:birches
+  - girafe:elms
+  - girafe:maples-v2
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+assets:
+  - assetId: oidaas-1950s-villas
+
+---
+assetId: oidaas-1950s-villas
+version: "1.0.0"
+lastModified: "2023-06-02T14:23:51Z"
+url: https://community.simtropolis.com/files/file/35539-esa-1950s-villas/?do=download&r=197157

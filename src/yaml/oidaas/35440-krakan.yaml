@@ -1,0 +1,57 @@
+group: oidaas
+name: krakan
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Krakan
+  description: |-
+    **About**
+
+    These houses are inspired by homes built in th 1800's in cities. I made these as low wealth.
+
+    **Stats**
+
+    Bulldoze Cost    109                      
+    Wealth    Low Wealth                      
+    Pollution at center    Air    Water    Garbage    Radiation          
+    1    0    1    0          
+    Pollution radii    Air    Water    Garbage    Radiation          
+    5    5    0    0          
+    Flammability    45                      
+    MaxFireStage    2                      
+    Power Consumed    1                      
+    Water Consumed    1                      
+    SFX:Query Sound    0x6A63BBA2                      
+    Query exemplar GUID    0x4A5672BF                      
+    OccupantGroups    Building: Residential    Building: R$    Style: Euro              
+    Occupant Size    Width    Height    Depth              
+    7.96000004    7.90199995    17.79899979              
+    Occupant Types    R$                      
+    Building value    244                      
+    Capacity Satisfied    R-$                      
+    10
+
+    **Dependencies**
+
+    ESA Props vol 1
+
+    [https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed)
+    BSC MEGA props vol [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    SFBT Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35440-esa-krakan/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63d13aed66090_02-Aug.23431674589908.jpg.4560caffddb41be78712ae79e52b848c.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - oidaas:rail-props-vol01
+  - oidaas:proppack
+  - sfbt:essentials
+assets:
+  - assetId: oidaas-krakan
+
+---
+assetId: oidaas-krakan
+version: "1.0.0"
+lastModified: "2023-01-25T14:24:07Z"
+url: https://community.simtropolis.com/files/file/35440-esa-krakan/?do=download&r=196358

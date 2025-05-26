@@ -1,0 +1,49 @@
+group: oidaas
+name: brutalist
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Brutalist
+  description: |-
+    **About**
+
+    This is an old bat that i decided to share,
+
+    **Stats**
+
+    Bulldoze Cost     275                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     3                       
+    Power Consumed     3                       
+    Water Consumed     30                       
+    SFX:Query Sound     0x2a8916ab                       
+    Query exemplar GUID     0xca56783a                       
+    OccupantGroups     Building: Commercial     Style: Chicago     Building: CS$$               
+    Occupant Size     Width     Height     Depth               
+    31.5     23.767     15.5               
+    Occupant Types     CS$     CS$$                   
+    Building value     952                       
+    Capacity Satisfied     CS-$     CS-$$                   
+    111     30
+
+    **Dependencies**
+
+    For once non.
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36529-esa-brutalist/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/671f69681a1f6_NewCity-Nov.17731730109929.jpg.eb1f13b48fee32800afefcb44ea1f930.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/671f696f3d0aa_NewCity-Dec.20731730109946.jpg.5ea5b0f2fde87b1fa84c67908d890de7.jpg
+assets:
+  - assetId: oidaas-brutalist
+
+---
+assetId: oidaas-brutalist
+version: "1.0.0"
+lastModified: "2024-10-28T10:38:59Z"
+url: https://community.simtropolis.com/files/file/36529-esa-brutalist/?do=download&r=204145
