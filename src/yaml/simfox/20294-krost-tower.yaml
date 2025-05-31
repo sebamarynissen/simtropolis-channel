@@ -1,0 +1,68 @@
+group: simfox
+name: krost-tower
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Krost Tower
+  description: |-
+    40 storey residential tower based (somewhat loosely) on one built by KROST development as a part of large residential complex in Moscow.  
+      
+      
+    This package contains:  
+    1 landmark 3x3 lot  
+    1 growable high density R$ stage 8 lot  
+      
+      
+    **Stats:**  
+    |     |     |
+    | --- | --- |
+    | **Residents (growable version)** |     |
+    | _R$$_<br><br>_R$ (when dilapidated)_ | _3037_<br><br>_5500_ |
+    | Consumption |     |
+    | _water_<br><br>_power_ | _98_<br><br>_50_ |
+    | Pollution / radii |     |
+    | _air_<br><br>_water_<br><br>_garbage_<br><br>_radiation_ | _17 / 5_<br><br>_18 / 6_<br><br>_11 / 0_<br><br>_0 / 0_ |
+    | Other stats |     |
+    | _building value_<br><br>_bulldoze cost_<br><br>_construction time_<br><br>_flammability_<br><br>_max fire stage_<br><br>_landmark effect (landmark lot)_<br><br>_mayor ratings (landmark lot)_<br><br>_plop cost (landmark lot)_<br><br>_Monthly cost (landmark lot)_<br><br>_tileset (growable lot)_ | 79362<br><br>2030<br><br>203<br><br>40<br><br>5<br><br>40 over 20<br><br>10 over 256<br><br>80000<br><br>100<br><br>all |
+      
+      
+      
+    **Installation Instructions**  
+    Unzip SimFoxKrostTower folder into Plugins Folder within your documents folder.  
+      
+    **Special Notes**  
+    This is a truNite building, so glorious night view comes at a price of dawn/dust one.  
+    There are no dependencies what so ever as entire thing is modeled/bated  
+      
+    Enjoy!  
+      
+    **my BAT threads:**  
+    [non-Asian buildings](https://www.simtropolis.com/forum/topic/18801-simfoxs-non-asian-bats/)  
+    Asian buildings  
+    bat modeling-rendering tech thread
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/20294-krost-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/038e480b88d402f5482a37f0af37109e-Krost_main.jpg
+    - https://www.simtropolis.com/objects/screens/0001/038e480b88d402f5482a37f0af37109e-Krost_secondary.jpg
+    - https://www.simtropolis.com/objects/screens/0013/746570b145e578a7302f20eb00634a6d-KrostNite.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simfox-krost-tower
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-krost-tower-darknite
+
+---
+assetId: simfox-krost-tower
+version: "1.0"
+lastModified: "2008-08-30T13:21:41Z"
+url: https://community.simtropolis.com/files/file/20294-krost-tower/?do=download&r=66720
+
+---
+assetId: simfox-krost-tower-darknite
+version: "1.0"
+lastModified: "2010-03-28T11:46:25Z"
+url: https://community.simtropolis.com/files/file/23599-simfox-krosttower-darknite-version/?do=download&r=50463

@@ -1,0 +1,104 @@
+group: simfox
+name: barclay-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: NYBT Barclay Tower
+  description: |-
+    NYBT presents Barclay Tower - 205meter 56 storey tall Residential skyscraper designed by Costas Kondylis & Partners LLP Architects and built in 2007.Building contains 441 rental unites managed by Glenwood.
+
+    Building is situated in New York City's TriBeCa district (Lower Manhattan) - right next one of city's most iconic landmarks - Woolworth Building and Ground Zero - site of former World Trade Center.
+
+    * * *
+
+    ## This download include:
+
+    -   Barclay Tower model file
+    -   3x2 Ploppable Lot with CS$$$ jobs
+    -   3x2 Stage 8 Growable R$$$ Lot
+    -   3x2 Stage 8 Growable CS$$$ Lot
+
+    * * *
+
+    ## Installation Instructions:
+
+    Unzip content of the archive into your Plugin Folder.
+
+    * * *
+
+    ## Key Stats:
+
+    |     |     |     |     |
+    | --- | --- | --- | --- |
+    |     | **Grow R$$$** | **Grow CS$$$** | **Plop CS$$$** |
+    | Residents/Jobs | 1490 R$$$<br><br>3407 R$$<br><br>6169 R$ | 769Cs$$$<br><br>1917Cs$$<br><br>7661Cs$ | 769Cs$$$<br><br>1917Cs$$<br><br>7661Cs$ |
+    | Plop Cost | N/A | N/A | 56 434$ |
+    | Polution / radius: |     |     |     |
+    | air | 19 / 6 | 53 / 6 | 53 / 1 |
+    | water | 6 / 7 | 26 / 7 | 26 / 2 |
+    | garbage | 6 / 0 | 53 / 0 | 53 / 0 |
+    | Consumption: |     |     |     |
+    | water | 226 | 1482 | 1482 |
+    | power | 169 | 166 | 166 |
+
+    * * *
+
+    ## Dependencies
+
+    [](https://www.simtropolis.com/stex/details.cfm?id=22916)
+
+    NYBT Essentials
+
+    [SimFox Day'n'Nite mode](https://www.simtropolis.com/stex/details.cfm?id=23089)
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/24841-nybt-barclay-tower-darknite-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/68b57a0628591d4fc9b897cf300676e0-BarclaySTEXMain.jpg
+    - https://www.simtropolis.com/objects/screens/0012/68b57a0628591d4fc9b897cf300676e0-BarclaySTEXSecond.jpg
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: simfox-nybt-barclay-tower-maxisnite-version
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-nybt-barclay-tower-darknite-version
+  - variant: { nightmode: standard, CAM: "yes" }
+    dependencies:
+      - "cam:colossus-addon-mod"
+    assets:
+      - assetId: simfox-nybt-barclay-tower-maxisnite-version
+        include:
+        - "/NYBT_SimFox_Barclay_MaxisNite.SC4Model"
+        - "/PLOP_3x2_NYBT Barclay Tower CS\\$\\$\\$ Plop_3a0fbd19.SC4Lot"
+      - assetId: simfox-nybt-barclay-tower-camelots
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+      - "cam:colossus-addon-mod"
+    assets:
+      - assetId: simfox-nybt-barclay-tower-darknite-version
+        include:
+        - "/NYBT_SimFox_Barclay_DarkNite-0x5ad0e817_0xd850bfe7_0x40000.SC4Model"
+        - "/PLOP_3x2_NYBT Barclay Tower CS\\$\\$\\$ Plop_3a0fbd19.SC4Lot"
+      - assetId: simfox-nybt-barclay-tower-camelots
+
+---
+assetId: simfox-nybt-barclay-tower-maxisnite-version
+version: "1.0"
+lastModified: "2010-09-11T04:40:58Z"
+url: https://community.simtropolis.com/files/file/24842-nybt-barclay-tower-maxisnite-version/?do=download&r=52297
+
+---
+assetId: simfox-nybt-barclay-tower-darknite-version
+version: "1.0"
+lastModified: "2010-09-10T20:18:32Z"
+url: https://community.simtropolis.com/files/file/24841-nybt-barclay-tower-darknite-version/?do=download&r=52295
+
+---
+assetId: simfox-nybt-barclay-tower-camelots
+version: "1.0"
+lastModified: "2010-09-11T05:46:17Z"
+url: https://community.simtropolis.com/files/file/24844-nybt-barclay-tower-camelots/?do=download&r=52301

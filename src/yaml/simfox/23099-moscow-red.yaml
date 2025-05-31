@@ -1,0 +1,96 @@
+group: simfox
+name: moscow-red
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Moscow RED
+  description: |-
+    **mGeneral Info**
+
+    This is a first in the line of re-releases of my BATs that had been adjusted for the darker night views of DAY´n´NITE modd. **Moscow Red** was my first BAT so I though it would be fitting to start at the beginning,  so to say.
+
+    in the ZIP file you'll find new SC4Model File and two sets of LOT files for normal game and for game with CAM modd installed.
+
+    **Essential Stats**
+
+    * * *
+
+    |     |     |     |     |
+    | --- | --- | --- | --- |
+    |     |     | normal | CAM |
+    | Lot Growth Stage | :   | 7   | 9   |
+    | Lot Dimentions | :   | 3x4 | 3x4 |
+    | Capacity satisfied | :   | 1 723 R$$ / 2 723 R$ | 2 350 R$$/4 255R$ |
+    | Pollution: |     |     |     |
+    | air<br><br>water<br><br>garbage<br><br>radiation | :<br><br>:<br><br>:<br><br>: | 13 over 5 tiles<br><br>14 over 6 tiles<br><br>4 over 0 tiles<br><br>0 | 13 over 5 tiles<br><br>9 over 6 tiles<br><br>9 over 0 tiles<br><br>0 |
+    | Consumption: |     |     |     |
+    | power<br><br>water | :<br><br>: | 30<br><br>59 | 32<br><br>171 |
+    | Building value | :   | 31 885$ | 61 399$ |
+    | Bulldoze cost: | :   | 1 060$ | 1 724$ |
+    | Construction time | :   | 172 days | 172 days |
+    | Plop Cost | :   | n/a | n/a |
+
+    **m****Installation**
+
+    Installation instructions1\. Fresh installation
+
+    move model and one of the set of LOT files into your plugin folder
+
+    2\. Upgrade from Normal Maxis night model.
+
+    find in your plugin folder old model file (SelHoz-0x5ad0e817\_0x135c6ca8\_0xa0000.SC4Model) and replace it with Model file from this release. You can also replace /add desired lots, although this is not required.
+
+    **m****Dependencies**
+
+    Main and essential dependency is
+
+    **[DAY´n´NITE](https://www.simtropolis.com/stex/details.cfm?id=23089)** modd, without it building will not look right in your city
+
+    For CAM lots you would need to download and install:
+
+    [**CAM**](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1008) (Colossus Add-on Modd) available on LEX (sc4Devotion exchange)
+
+    These lots have no other dependencies.
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/23099-moscow-red-darknite-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4e86da4e643e51f11cd89a7f249d22e5-MR_d.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4e86da4e643e51f11cd89a7f249d22e5-MR-dn.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: simfox-moscow-red
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-moscow-red-darknite
+        exclude:
+        - "/CAM/"
+  - variant: { nightmode: standard, CAM: "yes" }
+    dependencies:
+      - "cam:colossus-addon-mod"
+    assets:
+      - assetId: simfox-moscow-red-darknite
+        exclude:
+        - "/Normal/"
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies:
+      - "simfox:day-and-nite-mod"
+      - "cam:colossus-addon-mod"
+    assets:
+      - assetId: simfox-moscow-red-darknite
+        exclude:
+        - "/Normal/"
+
+
+---
+assetId: simfox-moscow-red
+version: "1.0"
+lastModified: "2007-09-22T18:08:20Z"
+url: https://community.simtropolis.com/files/file/18692-moscow-red/?do=download&r=42809
+
+---
+assetId: simfox-moscow-red-darknite
+version: "1.0"
+lastModified: "2010-01-05T11:19:47Z"
+url: https://community.simtropolis.com/files/file/23099-moscow-red-darknite-version/?do=download&r=49793

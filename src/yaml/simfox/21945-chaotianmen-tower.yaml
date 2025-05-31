@@ -1,0 +1,84 @@
+group: simfox
+name: chaotianmen-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: ChaoTianMen Tower
+  description: |-
+    **m****General Info**
+
+    Simfox has honor to present to you, good folk of Simtropolis ChaoTianMen (Gate to the Heaven) tower.this release includes 2 growable lots:
+
+    4x2 Co$$$ stage 8
+
+    2x4 Co$$$ stage 8
+
+    and one ploppable lot:
+
+    4x2 Co$$$
+
+    **Essential Stats**
+
+    * * *
+
+    Capacity satisfied  	: 	2 900Co$$$ / 4 200Co$$
+    Pollution: 	  	 
+      air           : 13 over 6 tiles
+      water         : 6 over 7 tiles
+      radiation     : 7 over 0 tiles
+      garbage       : 0
+    Consumption: 	  	 
+      power         : 133
+      water         : 1800
+    Building value 	: 	32 544$
+    Bulldoze cost: 	: 	2 199$
+    Construction time 	: 	227 days
+    Plop Cost 	: 	50 000$
+
+    **Installation**
+
+    This release comes with easy to use installer. Unzip and double click. The rest is automatic.
+
+    **Dependencies**
+
+    There are couple of dependencies, but, I'm sure, most will already have them installed. 
+
+    [BSC Textures Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props - SG Vol 01.dat](http://%20%20http//sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    BSC Mega Props - MJB Vol01.dat
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/21945-chaotianmen-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/37d953af59fa7c971c25e070de8d11a6-CTM_d.jpg
+    - https://www.simtropolis.com/objects/screens/0007/37d953af59fa7c971c25e070de8d11a6-CTM_n.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0d2bb396cdf30e9c3f868031fa332412-Untitled-1.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:mega-props-mjb-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simfox-chaotianmen-tower
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-chiao-tianmen-darknite
+
+---
+assetId: simfox-chaotianmen-tower
+version: "1.0"
+lastModified: "2009-06-26T15:05:44Z"
+url: https://community.simtropolis.com/files/file/21945-chaotianmen-tower/?do=download&r=48081
+archiveType:
+  format: Clickteam
+  version: "30"
+
+
+---
+assetId: simfox-chiao-tianmen-darknite
+version: "1.1"
+lastModified: "2025-05-25T15:47:12Z"
+url: https://community.simtropolis.com/files/file/23536-simfox-chiao-tianmen-dark-nite-version/?do=download&r=50397

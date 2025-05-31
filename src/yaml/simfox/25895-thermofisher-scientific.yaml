@@ -1,0 +1,127 @@
+group: simfox
+name: thermofisher-scientific
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: ThermoFisher Scientific
+  description: |-
+    General Info
+
+    Simfox has honor to present you, good folk of Simtropolis, the ThermoFisher Scentific building.
+
+    This download includes: SimFox\_ThermoFisher\_flags\_DN.SC4Model
+
+    required file
+
+    and following 7x4 tiles GROW lot files: CO$$$5\_7x4\_ThermoFisher Offices.SC4Lot
+
+    jobs provided: Co$$$ 1 120/ Co$$ 1 600
+
+    CO$$6\_7x4\_ThermoFisher Offices.SC4Lot
+
+    jobs provided: Co$$ 1 600
+
+    IHT$$$3\_7x4\_ThermoFisher Scientific.SC4Lot
+
+    jobs provided: I-HT 1 404
+
+    as well as following 7x4 PLOP files: PLOP\_7x4\_ThermoFisher\_IHT.SC4Lot
+
+    jobs provided: 1 404
+
+    plop cost: 5 376$
+
+    PLOP\_7x4\_ThermoFisher\_CO$$$.SC4Lot
+
+    jobs provided: Co$$$ 1 120/ Co$$ 1 600
+
+    plop cost: 4 472$
+
+    PLOP\_7x4\_ThermoFisher\_CO$$.SC4Lot
+
+    jobs provided: Co$$ 1 600
+
+    plop cost: 3 886$
+
+    PLOP\_7x4\_ThermoFisher Hospital.SC4Lot
+
+    plop cost: 4 450$
+
+    capacity: 7 700 patients
+
+    PLOP\_7x4\_ThermoFisher Science College.SC4Lot
+
+    plop cost: 3 950$
+
+    capacity: 9 000 students
+
+    mInstallation
+
+    Unpack into your plugin folder model File and any or all of the Lot files.
+
+    mDependencies
+
+    DAY
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/25895-thermofisher-scientific-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/22d09e9f473db73bccc4d0050e1b50be-Main.jpg
+    - https://www.simtropolis.com/objects/screens/0005/22d09e9f473db73bccc4d0050e1b50be-nite.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e354fa48044b8ca7d0644226f5935d8-mn.jpg
+dependencies:
+  - simfox:thermofisher-scientific-model
+variants:
+- variant: { CAM: "yes" }
+  dependencies: [ "cam:colossus-addon-mod" ]
+  assets:
+  - assetId: simfox-thermofisher-scientific-maxisnite
+    exclude:
+    - "/IHT\\$\\$\\$3_7x4_ThermoFisher Scientific.SC4Lot"
+    - "\\.SC4Model$"
+- variant: { CAM: "no" }
+  assets:
+  - assetId: simfox-thermofisher-scientific-maxisnite
+    exclude:
+    - "/IHT\\$\\$\\$6_7x4_ThermoFisher Scientific.SC4Lot"
+    - "\\.SC4Model$"
+
+---
+group: simfox
+name: thermofisher-scientific-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model dependency for `pkg=simfox:thermofisher-scientific`
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: simfox-thermofisher-scientific-maxisnite
+    include:
+    - "\\.SC4Model$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: simfox-thermofisher-scientific-darknite
+    include:
+    - "\\.SC4Model$"
+
+---
+assetId: simfox-thermofisher-scientific-maxisnite
+version: "1.0"
+lastModified: "2011-02-19T15:41:57Z"
+url: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/?do=download&r=53951
+
+---
+assetId: simfox-thermofisher-scientific-darknite
+version: "1.0"
+lastModified: "2011-02-19T14:22:05Z"
+url: https://community.simtropolis.com/files/file/25895-thermofisher-scientific-darknite/?do=download&r=53949
+
+# Not actually required - the stage 6 IHT CAM lot is already included in the other packages.
+# ---
+# assetId: simfox-thermofisher-scientific-cam
+# version: "1.0"
+# lastModified: "2011-02-19T16:03:46Z"
+# url: https://community.simtropolis.com/files/file/25897-thermofisher-scientific-cam/?do=download&r=53935

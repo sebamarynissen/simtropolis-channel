@@ -1,0 +1,22 @@
+group: gshmails
+name: glr-station-2-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Shmails GLR Station 2
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/18399-shmails-glr-station-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/1f434bb33b1f8b3e64dc151c2619af96-ShmailsGLRStation2b.jpg
+    - https://www.simtropolis.com/objects/screens/0005/1f434bb33b1f8b3e64dc151c2619af96-ShmailsGLRStation2a.jpg
+assets:
+  - assetId: gshmails-shmails-glr-station-2
+    exclude:
+      - "\\.SC4Lot$"
+      - "/ShmailsGLRStation2a-0x6534284a-0x9279c83d-0xf39e4590.SC4Desc"
+
+---
+assetId: gshmails-shmails-glr-station-2
+version: "1.0"
+lastModified: "2007-07-09T12:36:19Z"
+url: https://community.simtropolis.com/files/file/18399-shmails-glr-station-2/?do=download&r=42313

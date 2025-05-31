@@ -1,0 +1,76 @@
+group: simfox
+name: qiutao-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: QiuTao Building DarkNite
+  description: |-
+    **QuiTao Building**
+
+    This is  DarkNite update of my QiuTao building originally released (maxis night version) on September 10 2008 and available for download [**here**](https://www.simtropolis.com/stex/index.cfm?p=editstex&id=20326). It is corner wall-2-wall office/retail combo loosely based on a building I saw from the passing car in Hangzhou, China.
+
+    **Stats:**
+
+    **This package contains:** Newly rendered (both day and night views) Dark Nite model
+
+    1 plopable 4x4 Cs$$ lot with 484 jobs (wall2wall)
+
+    1 growable mid density CS$$ stage 5 lot with 484 jobs (wall2wall)
+
+    |     |     |
+    | --- | --- |
+    | **Jobs  (growable / plop versions):** |     |
+    | _Cs$$_<br><br>_Cs$ (dilapidated_ | _484_<br><br>_1964_ |
+    | **Consumption:** |     |
+    | _water_<br><br>_power_ | _688_<br><br>_39_ |
+    | **Pollution / radii:** |     |
+    | _air_<br><br>_water_<br><br>_garbage_<br><br>_radiation_ | _12 / 5_<br><br>_6 / 6_<br><br>_23 / 0_<br><br>_0 / 0_ |
+    | **Other stats:** |     |
+    | _building value_ <br><br>_bulldoze cost_<br><br>_construction time_<br><br>_flammability_<br><br>_max fire stage_<br><br>_Landmark effect (landmark lot)_<br><br>_mayor ratings (landmark lot)_<br><br>_Plop cost (landmark/plop lot)_ <br><br>_Monthly cost (landmark)_<br><br>_tileset (growable lot)_ | _28247_<br><br>_582_<br><br>_58_<br><br>_40_<br><br>_4_<br><br>_40 over 20_<br><br>_10 over 256_<br><br>_40000_<br><br>_100_<br><br>_all_ |
+
+    **Installation Instructions:**
+
+    **Fresh installations**unzip into you Plugin Folder.
+
+    **Upgrade from Maxis night version**
+
+    find in your plugin folder file named ***SimFox\_QiuTao-0x5ad0e817\_0x135c6ca8\_0x520000.SC4Model*** and replace it with ***SimFox\_QiuTao\_DarkNite.SC4Model*** found in this release. You don't need to do anything about the LOT files they'll work with new modle file just fine.
+
+    **Dependencies**
+
+    Te only dependency for this BAT is [**DAY´n´NITE mod**](https://www.simtropolis.com/stex/details.cfm?id=23089)
+
+    Enjoy!
+
+    * * *
+
+    **my BAT threads:**
+
+    [non-Asian buildins](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=79790&enterthread=y)[Asian buildings](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=79790&enterthread=y)
+
+    [](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=79790&enterthread=y)[bat modeling-rendering tech thread](https://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=81699&highlight_key=y&keyword1=forces%20of%20light)
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/23130-simfox-qiutao-building-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a7867de31b93ca67ec86f5e551028246-QT-d.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a7867de31b93ca67ec86f5e551028246-QT-dn.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simfox-qiutao-building
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-qiutao-building-darknite
+
+---
+assetId: simfox-qiutao-building-darknite
+version: "1.0"
+lastModified: "2010-01-14T18:37:05Z"
+url: https://community.simtropolis.com/files/file/23130-simfox-qiutao-building-darknite/?do=download&r=49845
+
+---
+assetId: simfox-qiutao-building
+version: "1.0"
+lastModified: "2008-09-05T10:41:42Z"
+url: https://community.simtropolis.com/files/file/20326-qiutao-building/?do=download&r=45639
