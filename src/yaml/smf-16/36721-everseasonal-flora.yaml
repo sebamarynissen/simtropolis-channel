@@ -63,34 +63,34 @@ info:
 dependencies:
   - memo:submenus-dll
 variants:
-  - variant: { smf16:everseasonal-flora:season: summer }
+  - variant: { smf-16:everseasonal-flora:season: summer }
     assets:
       - assetId: smf-16-everseasonal-flora
         include:
           - /everseasonal_flora_SUMMER.dat
-  - variant: { smf16:everseasonal-flora:season: fall }
+  - variant: { smf-16:everseasonal-flora:season: fall }
     assets:
       - assetId: smf-16-everseasonal-flora
         include:
           - /everseasonal_flora_FALL.dat
-  - variant: { smf16:everseasonal-flora:season: winter }
+  - variant: { smf-16:everseasonal-flora:season: winter }
     assets:
       - assetId: smf-16-everseasonal-flora
         include:
           - /everseasonal_flora_WINTER.dat
-  - variant: { smf16:everseasonal-flora:season: snowy }
+  - variant: { smf-16:everseasonal-flora:season: snowy }
     assets:
       - assetId: smf-16-everseasonal-flora
         include:
           - /everseasonal_flora_SNOW.dat
-  - variant: { smf16:everseasonal-flora:season: spring }
+  - variant: { smf-16:everseasonal-flora:season: spring }
     assets:
       - assetId: smf-16-everseasonal-flora
         include:
           - /everseasonal_flora_SPRING.dat
-  - variant: { smf16:everseasonal-flora:season: disabled }
+  - variant: { smf-16:everseasonal-flora:season: disabled }
 variantInfo:
-  - variantId: smf16:everseasonal-flora:season
+  - variantId: smf-16:everseasonal-flora:season
     description: This
     values:
       - value: summer
