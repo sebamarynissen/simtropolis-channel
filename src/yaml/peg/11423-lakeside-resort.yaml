@@ -1,0 +1,59 @@
+group: peg
+name: lakeside-resort
+version: "1.1"
+subfolder: 600-civics
+info:
+  summary: Lakeside Resort
+  description: |-
+    Nestled in the serene beauty of your remote wooded areas, the rustic Lakeside Resort has been heralded as the finest remote vacation getaway... bar none. Boating, fishing, swimming, horseback riding, tennis, excellent dining and a score of other activities to help your Sims relax and enjoy the breathtaking beauty of your city's wilderness area.
+
+    The Lakeside Resort is a fully functional and conditional Reward that is similar in most properties to the Resort Hotel reward. It contains over 40 new custom props with 24 new BAT models... all packed onto a modest-sized 7x5 tile lot. Many new props, such as the water taxi and the boats on the launching ramp, change and/or cycle throughout the day to simulate normal activity. The lot is also transit enabled and traffic will drive onto the lot, turn into the parking areas, turn around and exit.
+
+    The Lakeside Resort is designed for exclusive use with the [PEG Pond Kit II](https://community.simtropolis.com/files/file/11128-peg-pond-kit-ii/). It should be be plopped as part of a lake (or wide river) that you design & create using the Pond Kit.
+
+    **Conditions for Availability:**
+
+    \- City Population of  50, 000  
+    \- At least 3 connected cities  
+    \- Mayor approval over 45  
+    \- Low pollution  
+    \- or... completion of the  Speed Boat Rx Pick-up & Delivery U-Drive-It mission.
+
+    As a reward, the Lakeside Resort is free to plop and free to maintain. Its the game's way of saying, "Thanks for not screwing up!"
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11423-peg-lakeside-resort/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9ae951fac7de6573f690e1ebcc300eac-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9ae951fac7de6573f690e1ebcc300eac-product_image2.jpg
+dependencies:
+  - peg:pond-kit-ii-deluxe-edition
+  - peg:lakeside-resort-props
+assets:
+  - assetId: peg-lakeside-resort
+    include:
+      - "/PEG_Lakeside-Resort_205.dat"
+
+---
+group: peg
+name: lakeside-resort-props
+version: "1.1"
+subfolder: 100-props-textures
+info:
+  summary: Props and models for `pkg=peg:lakeside-resort`
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11423-peg-lakeside-resort/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9ae951fac7de6573f690e1ebcc300eac-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9ae951fac7de6573f690e1ebcc300eac-product_image2.jpg
+assets:
+  - assetId: peg-lakeside-resort
+    include:
+      - "/PEG_Resort-Pack_205.dat"
+
+---
+assetId: peg-lakeside-resort
+version: "1.1"
+lastModified: "2025-05-02T23:25:04Z"
+url: https://community.simtropolis.com/files/file/11423-peg-lakeside-resort/?do=download&r=207341

@@ -1,0 +1,37 @@
+group: peg
+name: fort-pegasus
+version: "1.1"
+subfolder: 360-landmark
+info:
+  summary: Fort Pegasus
+  description: |-
+    Fort Pegasus is an Historic Landmark that calls to an older era when the land was young and settlers were trekking ever westward in search of a better life.
+
+    Forts such as this, carved from the very elements of the frontier, provided sanctuary to settlers and often served as a center of commerce for the communities that sprung up around them. Due to its historic nature, exquisite preservation and daily guided tours, this landmark also serves as a museum with the appropriate scholastic EQ boost in the surrounding area.
+
+    Its a popular locale for family holidays and educational field trips.
+
+    To avoid educational capacity problems, the fort has been converted to a true museum lot... with jobs. It no longer is a landmark in the technical sense. The custom UI now shows the standard museum data and funding control.
+
+    **DEPENDENCIES:**  
+    [PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)  
+    [PEG One Flag - Many Nations Mod](https://community.simtropolis.com/files/file/27711-peg-one-flag-many-nations-mod/) **(ver. 2.05)**  
+    [PEG Old West Prop Pack](https://community.simtropolis.com/files/file/4513-peg-old-west-prop-pack-205/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/4563-peg-fort-pegasus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3d66396dd4fdd9b47d647a04643c6812-product_image.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - peg:old-west-prop-pack
+  - peg:one-flag-many-nations
+assets:
+  - assetId: peg-fort-pegasus
+
+---
+assetId: peg-fort-pegasus
+version: "1.1"
+lastModified: "2025-05-02T22:58:41Z"
+url: https://community.simtropolis.com/files/file/4563-peg-fort-pegasus/?do=download&r=207330
