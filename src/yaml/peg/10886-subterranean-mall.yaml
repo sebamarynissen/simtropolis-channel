@@ -1,0 +1,27 @@
+group: peg
+name: subterranean-mall
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Subterranean Mall
+  description: |-
+    We have built out... we have built up... now we can build down! The new PEG Subterranean Mall is the first of several new lots that will utilize your available real estate to its fullest extent by utilizing the space under your transportation network and existing development. These lots are designed to visually connect to each other both end-to-end and side-to-side... allowing you to create sprawling, inter-connected shopping complexes. They also work well when plopped alone as a small, space-saving singular shopping mall. This initial offering includes two 3x6 lots... similar in appearance but slightly different... and each containing unique store signage for added variety.
+
+    The sub-malls are now "Christmas Enabled" and will show Christmas decorations & lighting during the Holiday season. Installation of the [PEG Christmas Development Kit](https://community.simtropolis.com/files/file/11097-peg-christmas-development-kit/) is required.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/10886-peg-subterranean-mall-v206/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dcaa23db212772e0f847cc148047323d-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dcaa23db212772e0f847cc148047323d-product_image2.jpg
+dependencies:
+  - peg:christmas-development-kit
+assets:
+  - assetId: peg-subterranean-mall
+
+---
+assetId: peg-subterranean-mall
+version: "1.1"
+lastModified: "2025-05-02T23:35:19Z"
+url: https://community.simtropolis.com/files/file/10886-peg-subterranean-mall-v206/?do=download&r=207353

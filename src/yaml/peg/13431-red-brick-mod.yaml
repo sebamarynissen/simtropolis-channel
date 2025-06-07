@@ -1,0 +1,30 @@
+group: peg
+name: red-brick-mod
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: Red Brick Mod
+  description: |-
+    This is a simple mod that replaces the default in-game brown brick texture with the same red brick texture used in the CDK\-OWW Ferry lot. It also replaces all PEG modifications of that brown brick texture... including the brown brick fountain texture and the all the custom textures created for the Seaport Village and SV-Plaza and Food Court lots.  
+      
+    For this Facelift mod to work, it must be one of the last items read in by the game from the Plugins folder. Therefore, it must be placed in a specially named folder (the default name is ZZZ PEG Facelift Mods)... and not placed within any other folder.  
+      
+    Of course, its all a matter of personal taste. Red brick is used quite a bit in the USA... but might not be as common elsewhere. Like palm trees... you either like them or you don't.
+
+    This mod will change the appearance of game default lots as well as lots created by other developers... so you'll have to just try it and see if it appeals to you. If not, uninstalling it is as easy as deleting the file.
+
+    This package also includes a separate file created by Swamper77 that replaces the custom brown brick diagonal texture created for the Marrast Embankment set. It also includes a third file by Swamper to replace the brown brick textures used in the NAM Ped Malls. These files are included separately so they can be optionally uninstalled if not needed... or easily updated as it will be likely with the NAM.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/13431-peg-red-brick-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/05ac328a23605afdf986d4c0bfe4b090-product_image.jpg
+assets:
+  - assetId: peg-red-brick-mod
+
+---
+assetId: peg-red-brick-mod
+version: "1.1"
+lastModified: "2025-05-02T23:43:07Z"
+url: https://community.simtropolis.com/files/file/13431-peg-red-brick-mod/?do=download&r=207360

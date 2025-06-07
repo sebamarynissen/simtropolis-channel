@@ -1,0 +1,28 @@
+group: peg
+name: snow-mod-seasonal-tree-patch
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: Snow Mod Seasonal Tree Patch
+  description: |-
+    Now available for use with the PEG Snow Mod, this patch for the PEG Seasonal Woods will force the seasonal trees to remain in their winter state all year long. So, as long as you have the Snow Mod installed and are enjoying your Sim Winter Wonderland, your Seasonal Woods will now match the cold, snowy terrain.
+
+    Just like the Snow Mod, when you are ready for springtime once again, just remove the mod and everything in the game returns to normal. By default, this mod is installed to the same folder as the Snow Mod, so simply moving that one folder out of your Plugins will uninstall all related Snow mods.
+
+    **\*\* This lot requires installation of the PEG Seasonal Woods and is designed for use with the PEG Snow Mod.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14424-peg-snow-mod-seasonal-tree-patch/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1cca49adc22013281ed4a7c19e6989c3-ST-PIC_SnowMod_250x214.jpg
+assets:
+  - assetId: peg-snow-mod-seasonal-tree-patch
+dependencies: 
+  - peg:mtp-seasonal-woods
+
+---
+assetId: peg-snow-mod-seasonal-tree-patch
+version: "1.1"
+lastModified: "2025-05-03T00:29:39Z"
+url: https://community.simtropolis.com/files/file/14424-peg-snow-mod-seasonal-tree-patch/?do=download&r=207399

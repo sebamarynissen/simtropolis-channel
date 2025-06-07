@@ -1,0 +1,33 @@
+group: peg
+name: tennis-park
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: Tennis Park
+  description: |-
+    I went out and bought SC4 on the very first day it was released. And from that day, the default tennis court park has bothered me and I couldn't figure out why. I even mentally played a tennis game on the default court: I serve... it goes long... and I watch the ball bounce out across the street and bean some old lady in the head. My second serve is returned and flies high and to the right... and I watch it skip across the railroad tracks and get crushed by a passing forklift.
+
+    And then it hit me... **NO FENCES!!**  I've never seen a tennis court that wasn't fenced in. Without fences, there would be 20 minute delays between serves while the players ran off to shag balls. An otherwise enjoyable game... would radically suck!
+
+    Anyway... I put a custom BAT fence around the courts, stuffed 2 on a 3x3 lot and gave it some adequate parking. Voila!! Instant Tennis Park!!
+
+    This 3x3 park has all the size, costs and benefits of the game's standard large park. The park was designed to be used with the [PEG Trail Parks](https://community.simtropolis.com/files/file/11001-peg-trail-parks-iii/) but works just as well by itself. It does not require that you have the PEG Trail Parks installed. It is fully self-contained and has no dependencies.
+
+    \* Like the PEG Krispy Kremes, this lot also uses a BAT modeled parking area instead of textures. This allows true 3D curbs, planters and sidewalks that add a depth and realism to the lot.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11688-peg-tennis-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e63299972e6865ad473e39850634a4d1-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e63299972e6865ad473e39850634a4d1-product_image2.jpg
+dependencies:
+  - peg:trail-parks-iii
+assets:
+  - assetId: peg-tennis-park
+
+---
+assetId: peg-tennis-park
+version: "1.1"
+lastModified: "2025-05-03T00:39:50Z"
+url: https://community.simtropolis.com/files/file/11688-peg-tennis-park/?do=download&r=207408
