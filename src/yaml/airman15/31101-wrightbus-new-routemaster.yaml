@@ -1,0 +1,42 @@
+group: airman15
+name: wrightbus-new-routemaster
+version: "1.1"
+subfolder: 710-automata
+info:
+  summary: Wrightbus New Routemaster
+  description: |-
+    Your city has been filling out from border to border and it has done so quite nicely! Since there is only so much room to keep spreading out, there's really nowhere else to go but up. Now wait a minute! With all these sims and their cars clogging up your already-narrow streets, how is anyone supposed to make it to work on time? The best solution- build a bus network. And now here's a real concept- make the buses.. Double Decker! More people sharing a ride, with decent views to boot! Now, if only we can take care of those cyclists..
+
+    About the Upload-  
+    This file is a replacement of the Maxis City Bus. It will appear on your road networks whenever a bus station has been placed.
+
+    Dependencies?  
+    None required.
+
+    This file was requested by Cmdp123789 and has been made available to download!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/31101-wrightbus-new-routemaster/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/newroutemaster0.png.4b86ac91281f9d63fc2506bfb3805484.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/newroutemaster1.png.9b4d2d5c0e41d53b19045cd33061a63f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/newroutemaster2.png.f9b0f6572fa1e02c11803b47f160c36b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/newroutemaster3.png.8c40e12b04cd7180ef5f2f1bd4086358.png
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: airman15-wrightbus-new-routemaster-rhd
+  - variant: { driveside: left }
+    assets:
+      - assetId: airman15-wrightbus-new-routemaster-lhd
+
+---
+assetId: airman15-wrightbus-new-routemaster-lhd
+version: "1.1"
+lastModified: "2018-07-14T22:10:24Z"
+url: https://community.simtropolis.com/files/file/31101-wrightbus-new-routemaster/?do=download&r=171544
+
+---
+assetId: airman15-wrightbus-new-routemaster-rhd
+version: "1.1"
+lastModified: "2018-07-14T22:10:24Z"
+url: https://community.simtropolis.com/files/file/31101-wrightbus-new-routemaster/?do=download&r=171545
