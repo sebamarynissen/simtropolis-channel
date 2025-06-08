@@ -1,0 +1,42 @@
+group: airman15
+name: boeing-727s-lotted
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: RustyXL's Boeing 727's lotted by Mike_Oxlong
+  description: |-
+    Simple relaxation is a lost art these days. Such is the case with airline travel. Remember when people flew on piston powered clunkers? Boeing's new line of 727 with it's 35 ft (10 m) tail and engines mounted in the tail assembly, passengers are always riding ahead of the sound from the engines, offering a peaceful flight as quiet as a library.
+
+    About the upload-
+
+
+    This is a series of lots that features the Boeing 727, making it ideal for airports that take place in the late 20th century and very early 21st century. There are jetway and apron versions as well as lots to show arrivals and departures. All lots will appear under the Airports menu.
+
+    Dependencies?
+    The following files are required in order for this package to work correctly-
+    [SCAG Boeing 727-200 Prop Pack 1](https://community.simtropolis.com/files/file/27559-scag-boeing-727-200-prop-pack-1/)
+    [AC Mega Props Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1892)
+    [SCAG Mega Dependency #1](https://community.simtropolis.com/files/file/26252-scag-mega-dependency-1/)
+    [SCAG 777 Prop Pack Vol. 2](https://community.simtropolis.com/files/file/26295-scag-boeing-777-prop-pack-vol-2/)
+
+    These wonderful models for the 727 were created by RustyXL; and I owe a huge thanks to Mike\_Oxlong, who had taken the time to lot these jets for me as a request and grant me permission to host them on the Exchange.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/30048-rustyxls-boeing-727s-lotted-by-mike_oxlong/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/3c69fbb655f396c5e9bdac69491b245c-727-0.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/a23631b8fea8c1df4342db7fa05aebe6-727-1.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/5b7b7c2ee99a3935da98c21646765249-727-2.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/ae48cd72da9536bc9d771355a139cbda-727-3.png
+dependencies:
+  - ac:mega-props-vol02
+  - shadeslayer:boeing-777-prop-pack-vol2
+  - rustyxl:boeing-727-200-prop-pack-1
+  - scag:mega-dependency-vol01
+assets:
+  - assetId: airman15-rustyxls-boeing-727s-lotted-by-mike-oxlong
+
+---
+assetId: airman15-rustyxls-boeing-727s-lotted-by-mike-oxlong
+version: "1.0"
+lastModified: "2014-12-16T02:47:24Z"
+url: https://community.simtropolis.com/files/file/30048-rustyxls-boeing-727s-lotted-by-mike_oxlong/?do=download&r=145659
