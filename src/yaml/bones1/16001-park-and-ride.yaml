@@ -1,0 +1,30 @@
+group: bones1
+name: park-and-ride
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Park And Ride
+  description: |-
+    These are two transit lots that can be used to either supplement or replace the in-game lots for bus and parking. Actually, only one of the lots is a "park and ride", the other lot I just threw in because I felt like it.
+
+    The BusStation lot is a bus station that also incorporates parking, so that sims can choose to drive to the bus station and then ride the bus from there. It is essentially like a parking garage and a bus station placed side-by-side, but it's smaller and looks much better in low-density areas.
+
+    The bus station is a 2x2 lot. Stats are same as the bus station except it is more expensive to place and to operate ($225 plop and $10/month). This extra cost is to account for the parking.
+
+    (If you're familiar with transit modding...) There is also a 0.05 commute penalty for transit-switching in this lot. This very small amount stops sims from using the lot as a "short cut" across road corners, unnecessarily clogging it up. This happens with the regular in-game mass transit stations as well. There's a thread on the bug elsewhere in the forums. Anyway, a very small commute penalty fixes the problem.
+
+    The Parkinglot lot is simply the same as the regular in-game parking garage, but it has more ground-level parking so that it fits in a little better in low-density areas. It's a 3x3 lot (same as the in-game) and has the same stats. You don't need it to use the park 'n ride bus station lot, of course.
+
+    There are NO dependencies needed for these lots!
+  author: Bones1
+  website: https://community.simtropolis.com/files/file/16001-park-and-ride/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/9220c44beff34321ba26fc9e4fb05d8d-ParkAndRide.jpg
+assets:
+  - assetId: bones1-park-and-ride
+
+---
+assetId: bones1-park-and-ride
+version: "1.0"
+lastModified: "2006-05-20T15:14:10Z"
+url: https://community.simtropolis.com/files/file/16001-park-and-ride/?do=download&r=38407

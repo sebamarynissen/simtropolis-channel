@@ -1,0 +1,36 @@
+group: bones1
+name: no-fires-or-riots-mod
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: No Fires or Riots Mod
+  description: |-
+    Tired of proving your firefighting skills for the 1000th time? Yes, you have shown your proficiency of clicking on a burning building, but it's time to end those annoying distractions. This mod eliminates random fires (and riots, depending on the .dat file you install) from starting in your city, regardless of your fire coverage.
+
+    Direct questions to the following thread: [https://www.simtropolis.com/idealbb/view.asp?topicID=66047](https://www.simtropolis.com/idealbb/view.asp?topicID=66047)
+
+    Please see the readme file for full details.
+  author: Bones1
+  website: https://community.simtropolis.com/files/file/13307-no-fires-or-riots-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c26226117c0998669a922ced029c7ed1-NoFiresOrRiots.jpg
+variants:
+- variant: { bones1:no-fires-or-riots-mod:mode: "no-fires" }
+  assets:
+  - assetId: bones1-no-fires-or-riots-mod
+    include:
+    - "/NoFires_v2.dat"
+- variant: { bones1:no-fires-or-riots-mod:mode: "no-riots" }
+  assets:
+  - assetId: bones1-no-fires-or-riots-mod
+    include:
+    - "/NoRiots_v2.dat"
+- variant: { bones1:no-fires-or-riots-mod:mode: "no-riots-or-fires" }
+  assets:
+  - assetId: bones1-no-fires-or-riots-mod
+
+---
+assetId: bones1-no-fires-or-riots-mod
+version: "1.0"
+lastModified: "2005-08-09T06:08:39Z"
+url: https://community.simtropolis.com/files/file/13307-no-fires-or-riots-mod/?do=download&r=34485
