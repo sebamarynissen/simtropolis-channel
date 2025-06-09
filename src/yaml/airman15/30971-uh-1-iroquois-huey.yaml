@@ -1,0 +1,41 @@
+group: airman15
+name: uh-1-iroquois-huey
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: UH-1 Iroquois "Huey"
+  description: |-
+    In the battle for tomorrow, there are often many challenges which must be overcome. Many times in war, the terrain has been a deciding factor in the final outcome. In a treacherous setting with steep mountains, winding valleys and dense foliage it can be very difficult to move units to the next rally point. Until now, the UH-1 Iroquois also known as the Huey can bypass even the most dangerous trails by air, cutting down travel time and proving to be a very resilient chopper in both cargo and frontline duties.
+
+    About the upload:  
+    This file is a replacement of the Maxis Attack Helicopter. It will appear at the Army Base. This is also a revisiting of an older file which was released in 2012 and later taken down.
+
+    Dependencies?  
+    None required
+
+    The original file was requested by JLA123.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/30971-uh-1-iroquois-huey/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey0.png.7d3dbd114b4f8f348d52139adfabc4e3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey1.png.6e4f7a799ece985216e6003f8543b9dc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey2.png.fd74d8f2f1f3cb713297a139c6d1051c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey3.png.dd8b889cf42f97ccf77dac766588298f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey4.png.8bc372018927e277400b29179cd36e1b.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-uh-1-iroquois-huey
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-uh-1-iroquois-huey
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-uh-1-iroquois-huey
+version: "1.0"
+lastModified: "2016-02-25T03:19:13Z"
+url: https://community.simtropolis.com/files/file/30971-uh-1-iroquois-huey/?do=download&r=160883

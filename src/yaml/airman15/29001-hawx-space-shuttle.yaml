@@ -1,0 +1,43 @@
+group: airman15
+name: hawx-space-shuttle
+version: "1.1"
+subfolder: 710-automata
+info:
+  summary: HAWX Space Shuttle
+  description: |-
+    After years of successful missions and glorious launches, the mighty space shuttle that has inspired millions of little sims, is in the process of retirement and will be put on display for all to see. Fortunately, the high tech industries in your city have been hard at work designing a new more advanced shuttle to fill in the shoes of its predecessor. Ready on the launch pad, this new shuttle will be carrying the torch of your space program for many more years to come.
+
+    About the upload-
+
+    This is a replacement for the Maxis space shuttle. It will launch and reappear at the spaceport.
+
+    Dependencies?
+
+    None.
+
+    The model and textures for this upload are from the game HAWX and therefore belong to Ubisoft.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/29001-hawx-space-shuttle/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/81ad0ce9e61fb6d7caa0d268dee94497-shuttle1.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/de103c224c35493e0ca3128d83d0fdce-shuttle2.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/e368469fa1a3a3af87aaa069046022af-shuttle3.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/2684e428b9dc9ebe80327bea61872173-shuttle4.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/862a880f70ff4d9b10ea3b4c2ad62832-monthly_02_2014-1d3079653205267dd1735401c408fd8f-shuttlecover.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-hawx-space-shuttle
+      include:
+      - "/.*Hardware.dat"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-hawx-space-shuttle
+      include:
+      - "/.*Software.dat"
+
+---
+assetId: airman15-hawx-space-shuttle
+version: "1.1"
+lastModified: "2013-10-15T05:48:42Z"
+url: https://community.simtropolis.com/files/file/29001-hawx-space-shuttle/?do=download&r=124886

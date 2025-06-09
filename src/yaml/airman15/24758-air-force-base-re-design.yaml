@@ -1,0 +1,46 @@
+group: airman15
+name: air-force-base-re-design
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: Air Force Base Re-Design
+  description: |-
+    Is your region threatened by terrorists? Are conflicts between you and your neighbor starting to become ugly? Or is a rouge nation out to try and destroy you? Fear not! The Sim Nation Military Command has come up with a way to help better protect your city! Your army base is not going to be the only thing that protects your cities, because you will now have an air force protecting the skies above you. And shall you win the day, or if you want to show what you've got, Airshows will perform for the thousands of people watching from below. Rest easy, Mayor! Knowing you've got a strong Air Force watching over your city.
+
+    About the file:
+
+    This lot adds/replaces the original Air Force Base in SimCity. The Air Force Base is an addition that comes with the Transportation Bonus CD and it is a requirement in order for this file to work (see dependencies down below).
+
+    Dependencies?
+
+    Required-
+
+    [Plugin\_007\_AirForceBase](https://community.simtropolis.com/library/maxis/sc4/buildings/Plugin_007_AirForceBase.dat)
+
+    Additional Props-
+
+    [F-22 (Made by Eukatae)](http://https:/https://community.simtropolis.com/files/file/3056-euk-bat-pack/)  
+    [A-10 (Made by Casper3141)](https://community.simtropolis.com/files/file/11469-casper-a10-thunderbolt-prop-set/)  
+    [F-14 and F-18 (Made by canuck3360/SNZ)](https://community.simtropolis.com/files/file/14046-military-jets/)  
+    [F-15 and T-6 (Made by Tabinohito, includes SNAF Vol. 1&2, Military Helicopters and SNCG Vol. 1)](https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack)  
+    [Flyable F-22 (not a dependency, but I recommend it because I have it. Made by Srainy)](https://community.simtropolis.com/files/file/21828-f22a-fighter/)
+
+    Staff Edit: Updated dependencies links
+  author: airman15
+  website: https://community.simtropolis.com/files/file/24758-air-force-base-re-design/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/c264d850761eb2d66ac72400a64213b5-afbmodjpeg.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/f371713383259b37ecfdd3732fd8443d-afbmoddifferencesjpeg.jpg
+dependencies:
+  - maxis:air-force-base
+  - casper3141:a10-thunderbolt-prop-set
+  - canuck3360:military-jets
+  - tabi:mega-props-vol03
+assets:
+  - assetId: airman15-air-force-base-re-design
+
+---
+assetId: airman15-air-force-base-re-design
+version: "1.0"
+lastModified: "2010-08-28T10:40:44Z"
+url: https://community.simtropolis.com/files/file/24758-air-force-base-re-design/?do=download&r=122260

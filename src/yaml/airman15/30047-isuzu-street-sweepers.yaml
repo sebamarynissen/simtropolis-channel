@@ -1,0 +1,42 @@
+group: airman15
+name: isuzu-street-sweepers
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Isuzu Street Sweepers
+  description: |-
+    In order to run an efficient city, there are certain maintenance procedures which must take place. You'll need road crews, power and water inspection, as well as a diligent sanitation system. But there seems to be yet another item missing from SimCity. How do the streets stay so clean every year? It can't be the work of Sims just brushing the streets with a broom, we all know the Environmental Adviser is a liar. These Isuzu derived street sweepers will be at the forefront of your sanitation department clearing leaves and dust from your roadways and making your cities cleaner!  
+      
+    About the Upload-
+
+    There are four vehicles contained in this zip folder. Each one is a specially outfitted Isuzu B-class truck for street sweeping. These are Low-Wealth vehicles, given their status as a utility vehicle. They will appear on your road networks.
+
+    Dependencies?  
+    None Required.  
+      
+    This file was suggested by Johnfreddy and has been made available on the Exchange!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/30047-isuzu-street-sweepers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/684433a98ada3d14513b311201126879-iss-0.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/cca2f69942f709f33107d268fa87ce79-iss-1.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/1972a44630bbf3ec91177f00f442cd64-iss-2.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/8eb4bd19945a8f280c2262f0c7eef1c8-iss-3.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/8381cf513672bf1d70bd8058dce729f8-iss-4.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-isuzu-street-sweepers
+      include:
+      - "/ISS_HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-isuzu-street-sweepers
+      include:
+      - "/ISS_SD/"
+
+---
+assetId: airman15-isuzu-street-sweepers
+version: "1.0"
+lastModified: "2014-12-16T02:34:17Z"
+url: https://community.simtropolis.com/files/file/30047-isuzu-street-sweepers/?do=download&r=145648

@@ -1,0 +1,39 @@
+group: airman15
+name: buick-gnx
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Buick GNX
+  description: |-
+    What do you get when you take a 30-something year old Buick Regal and paint it black? Well, you get a car that looks intimidating already. But how under the hood? It may be a six cylinder, but at 245 Turbocharged BHP this becomes the car that upstaged the Corvette in the early 1980's! If you're going to take on the street kings, be bold about it! And don't forget to savor the look your opponents give you when they realize they just got dethroned by a Buick GNX!
+
+    About the Upload:  
+    This file adds the Buick GNX to your road traffic. It will spawn as a mid-wealth vehicle, given it's status as a collector car. The speed has been changed to match the Maxis Porsche making it a faster vehicle.
+
+    Dependencies?  
+    None required.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/30970-buick-gnx/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/GNX0.png.850430059df8605544eb658ed441708a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/GNX1.png.83bc4fabed559149cd4f68cf42b02543.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/GNX2.png.ee0381e24393d81a99c3c101c54edb9d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/GNX3.png.dd4c95e6ce2d88ca32fe8dbf02091fe0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/GNX4.png.258d9eef82b46f2d17d2bc0e7e0b6beb.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-buick-gnx
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-buick-gnx
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-buick-gnx
+version: "1.0"
+lastModified: "2016-02-25T03:13:27Z"
+url: https://community.simtropolis.com/files/file/30970-buick-gnx/?do=download&r=160877

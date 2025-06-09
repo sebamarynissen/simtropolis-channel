@@ -1,0 +1,135 @@
+group: airman15
+name: udi-jet-fighters-super-pack
+version: "2"
+subfolder: 710-automata
+info:
+  summary: UDI Jet Fighters Super Pack
+  description: |-
+    Last year, I uploaded a super pack of UDI jet fighters. While people were having fun flying around town, I knew I wasn't finished with these planes. So I present to you a second volume of jets- aptly named the UDI Superpack V2. There are some familiar ones returning and some that were added or replaced  entirely. In this pack, you will have an Air Force for flying around or exacting revenge on EA. The list of aircraft included are as follows-
+      
+
+    F-14 Tomcat
+    F-15 Eagle
+    F-16 Fighting Falcon
+    F/A-18 Hornet
+    F-35 Lightning II
+    YF-22 Raptor
+      
+
+    Chengdu J-20
+    Mig-21 Fishbed
+    Mig-25 Foxbat
+    Mig-29 Fulcrum
+    SUkhoi PAK/FA
+    Su-47 Berkut
+      
+    About the upload:
+    This is an updated collection of UDI jet fighters, which spawn at Area 5.1. The files with 'V2' on them are updated versions of the previous aircraft. The ones with V2 use the same .dat file as the old jets, but have simpler, more detailed models and enhanced texturing.
+      
+    Dependencies?
+    None needed.
+      
+    Installation:
+    Just take a .DAT file from the pack and place it in your plugins folder.
+    Please note you can only choose one jet from the pack.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/28615-udi-jet-fighters-super-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/e5cab68ba7eeb31cc33c7bc13bd4ee11-coverpic.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/e633d698c268fe07298c8cf04214b140-imgs.png
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/c2b54dac5b88d1c044ba35d98587dd09-imgs2.png
+variants:
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "j-20" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/Chengdu J-20 'Annihilator'.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "mig-21" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/MiG-21 Fishbed V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "mig-25" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/MiG-25 Foxbat V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "mig-29" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/MiG-29 Fulcrum V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "su-47" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/SU-47 Berkut V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "pak-fa" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/Sukhoi PAK-FA.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "f-14" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/F-14 Tomcat V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "f-15" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/F-15 Eagle V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "f-16" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/F-16 Falcon V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "f-35a" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/F-35A Lightning II V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "fa-18" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/FA-18 Hornet V2.dat"
+- variant: { airman15:udi-jet-fighters-super-pack:jet: "yf-22" }
+  assets:
+  - assetId: airman15-udi-jet-fighters-super-pack
+    include:
+    - "/YF-22 Raptor V2.dat"
+variantInfo:
+- variantId: "airman15:udi-jet-fighters-super-pack:jet"
+  description: Choose which jet you would like to override the Maxis default.
+  values:
+  - value: "j-20"
+    description: Chengdu J-20 'Annihilator'
+  - value: "mig-21"
+    description: MiG-21 Fishbed
+  - value: "mig-25"
+    description: MiG-25 Foxbat
+  - value: "mig-29"
+    description: MiG-29 Fulcrum
+  - value: "su-47"
+    description: SU-47 Berkut
+  - value: "pak-fa"
+    description: Sukhoi PAK-FA
+  - value: "f-14"
+    description: F-14 Tomcat
+  - value: "f-15"
+    description: F-15 Eagle
+  - value: "f-16"
+    description: F-16 Falcon
+  - value: "f-35a"
+    description: F-35A Lightning II
+  - value: "fa-18"
+    description: FA-18 Hornet
+  - value: "yf-22"
+    description: YF-22 Raptor
+
+---
+assetId: airman15-udi-jet-fighters-super-pack
+version: "2"
+lastModified: "2013-04-01T14:13:44Z"
+url: https://community.simtropolis.com/files/file/28615-udi-jet-fighters-super-pack/?do=download&r=113744

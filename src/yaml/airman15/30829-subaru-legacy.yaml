@@ -1,0 +1,38 @@
+group: airman15
+name: subaru-legacy
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Subaru Legacy
+  description: |-
+    So you've got a penchant for fun, and practicality. You've saved up enough to buy a car and what's out on the market? Gas guzzlers, soccer-mom-mobiles, cars that require detailing after every trip, you get the idea. Consider a Subaru Legacy! Whether you're the outdoorsy type that lives for the campground or the sporty type with a thirst for adrenaline this car fits the best of both worlds!
+
+    About the upload-  
+    There are twelve vehicles contained in this zip folder. Each one is a Subaru Legacy, with six of them being 1997 station wagons and the other six being 1998 sedans. These are Low-Wealth vehicles (given their average Blue Book for their respective years) and will appear on your road networks.
+
+    Dependencies?  
+    None Required.
+
+    This file was originally requested by Markthrash and has been made available to download! The wagons were included for added variety and as a tribute to my first car; a short-lived affair that just wasn't meant to be..
+  author: airman15
+  website: https://community.simtropolis.com/files/file/30829-subaru-legacy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_10/legacies0.png.51fbe25b4ad6c57aede8f6a84643cb05.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_10/legacies1.png.7370d198757078d6a0d88836cb3098fa.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_10/legacies2.png.c51460ad01b8afc2fe8940276d0aed7b.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-subaru-legacy
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-subaru-legacy
+      include:
+      - "/SD/"
+---
+assetId: airman15-subaru-legacy
+version: "1.0"
+lastModified: "2015-10-30T02:36:30Z"
+url: https://community.simtropolis.com/files/file/30829-subaru-legacy/?do=download&r=159674

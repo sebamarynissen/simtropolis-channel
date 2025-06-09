@@ -1,0 +1,37 @@
+group: airman15
+name: mayors-suburban
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Mayor's Suburban
+  description: |-
+    Ah, fame and fortune! One of the most sought after lifestyles on earth. And holding the title of Mayor provides a great stepping stone to it. But even the very best have their limits in taste- I mean, who rides in limousines anymore? Constantly needing to avoid wide turns and getting stuck on shallow inclines alone have prompted the elite to transfer to a more sensible means of transportation. The Chevrolet Suburban provides a touch of class all the while providing ample room for more of your friends and fans.
+
+    About the upload:  
+    This file is a replacement for the Maxis Mayor's Limousine. The vehicle is a 2011 Chevrolet Suburban and is drivable once the Mayor's House is constructed in your city.
+
+    Dependencies?  
+    None required.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/30969-mayors-suburban/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban0.png.2f00d5f5f9df6094c88da0465148054c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban1.png.cee9f3d63c04fb747b4387c73de216ad.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban2.png.f9dfe36fd8da3459b2a739f405a637ce.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-mayors-suburban
+      include:
+      - "/.*_HD.dat"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-mayors-suburban
+      include:
+      - "/.*_SD.dat"
+
+---
+assetId: airman15-mayors-suburban
+version: "1.0"
+lastModified: "2016-02-25T03:10:58Z"
+url: https://community.simtropolis.com/files/file/30969-mayors-suburban/?do=download&r=160873
