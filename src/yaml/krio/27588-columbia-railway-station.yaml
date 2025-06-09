@@ -1,0 +1,60 @@
+group: krio
+name: columbia-railway-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Columbia Railway Station
+  description: |-
+    **Columbia Railway Station** is a fictional railway station, build in 30's Finnish funkis-style. I made this bat in December 2008, so it's quite old ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)
+
+    Station has 2 rail connections with three platforms. Fourth rail is a pass-by only, which is very common in Finland. Due to its small size its perfect for suburban areas or to small towns. Because I made this in 2008, it was re-lotted recently by *Master Paeng* because originally this was designed on my laptop which has been dead for a year soon. Station still has some of it original lotting, platforms, electricity pylons and blue timetables are props from me.
+
+    STATS
+
+    Lot Size: 3x4
+
+    Plop cost: 200 §
+
+    Capacity: 4 000
+
+    Dependacies
+
+    Krio Station props (included)
+
+    [Porkie Props Vol 01](https://www.simtropolis.com/forum/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    BATting by Krio, Lotting by Krio and Paeng.
+
+    Every train hit the walls in [Krioworks](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=6097.0)
+  author: Krio, Paeng
+  website: https://community.simtropolis.com/files/file/27588-columbia-railwaystation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/038da8e169a117c6b3a4c6827b3ed195-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/d30963dfb68fe9a7694823adbe338b56-.jpg
+dependencies:
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - krio:rail-props
+assets:
+  - assetId: krio-columbia-railwaystation
+    exclude:
+      - "/KRIO_Rail_Props.dat"
+
+---
+group: krio
+name: rail-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Columbia Railwaystation
+  author: Krio
+  website: https://community.simtropolis.com/files/file/27588-columbia-railwaystation/
+assets:
+  - assetId: krio-columbia-railwaystation
+    include:
+      - "/KRIO_Rail_Props.dat"
+
+---
+assetId: krio-columbia-railwaystation
+version: "1.0"
+lastModified: "2012-05-10T17:25:10Z"
+url: https://community.simtropolis.com/files/file/27588-columbia-railwaystation/?do=download&r=100674

@@ -1,0 +1,87 @@
+# TODO - requires bnl:essentials
+
+group: oidaas
+name: paittasjarvi
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Paittasjarvi
+  description: |-
+    **About**
+
+    This is a collection of R$ and r$$ homes from the ghost village of the ghost village of Paittasjarvi in the style Finnish Russian architecture.
+
+    **Stats**
+
+    **R$**
+
+    Bulldoze Cost     122                       
+    Wealth     Low Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    0     0     2     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     3                                           
+    OccupantGroups     Building: Residential     Building: R$     Style: Euro               
+    Occupant Size     Width     Height     Depth               
+    1     1     1               
+    Occupant Types     R$                       
+    Building value     358                       
+    Capacity Satisfied       
+    R-$ 15
+
+    **r$$**
+
+    Bulldoze Cost     122                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    0     0     2     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     3                                           
+    OccupantGroups     Building: Residential     Building: R$$     Style: Euro               
+    Occupant Size     Width     Height     Depth               
+    1     1     1               
+    Occupant Types     R$     R$$                   
+    Building value     358                       
+    Capacity Satisfied     R-$     R-$$                   
+    5     15
+
+    **Dependencies**  
+    BSC Common dependency [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    BSC VIP Girafe Flora Pack [https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)  
+    ESA Props vol 1  [https://community.simtropolis.com/files/file/33619-esa-proppack/](https://community.simtropolis.com/files/file/33619-esa-proppack/)  
+    PEG SPAM Super Resource Pack [https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/)  
+    SFBT Essentials [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt\-essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)  
+    Historic Harbour [https://community.simtropolis.com/files/file/29880-historic-harbor/](https://community.simtropolis.com/files/file/29880-historic-harbor/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36390-esa-paittasjarvi/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b95ecc7d004_NewCity-May.16341723310142.jpg.f5007b09c649d88f0664377363c5c02e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b95ed994cc0_NewCity-Mar.2181723393867.jpg.f7b13f363c5ef9c40caa937f9343dbcf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b9617613d2d_NewCity-Dec.11401723425010.jpg.b1c686cfafed82e87034815adbca020f.jpg
+dependencies:
+  - oidaas:proppack
+  #- bnl:essentials
+  - historic-harbor:dependencies
+  - peg:spam-super-resource-pack
+  - sfbt:essentials
+  - girafe:ashes
+  - girafe:birches
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: oidaas-paittasjarvi
+
+---
+assetId: oidaas-paittasjarvi
+version: "1.0.0"
+lastModified: "2024-08-12T01:12:32Z"
+url: https://community.simtropolis.com/files/file/36390-esa-paittasjarvi/?do=download&r=202421

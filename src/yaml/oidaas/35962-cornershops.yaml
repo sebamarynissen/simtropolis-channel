@@ -1,0 +1,89 @@
+group: oidaas
+name: cornershops
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Cornershops
+  description: |-
+    The war continues ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":)")
+
+    **About**
+
+    These houses are fictional based on houses that dominated Swedish towns before the demolition craze in the 60s-70s.
+
+    **Stats**
+
+    Nygatan
+
+    Bulldoze Cost     200                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    2     2     22     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     3                       
+    Power Consumed     3                       
+    Water Consumed     44                       
+    SFX:Query Sound     0x2a8916ab                       
+    Query exemplar GUID     0xca56783a                       
+    OccupantGroups     Building: Commercial     Style: Euro     Building: CS$$               
+    Occupant Size     Width     Height     Depth               
+    19.535999     16.5     22.990999               
+    Occupant Types     CS$     CS$$                   
+    Building value     1085                       
+    Capacity Satisfied     CS-$     CS-$$                   
+    127     34
+
+    Grosshandlare Wallencreuz
+
+    Bulldoze Cost     200                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    2     2     22     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     3                       
+    Power Consumed     3                       
+    Water Consumed     44                       
+    SFX:Query Sound     0x2a8916ab                       
+    Query exemplar GUID     0xca56783a                       
+    OccupantGroups     Building: Commercial     Style: Euro     Building: CS$$               
+    Occupant Size     Width     Height     Depth               
+    19.535999     16.5     22.990999               
+    Occupant Types     CS$     CS$$                   
+    Building value     1085                       
+    Capacity Satisfied     CS-$     CS-$$                   
+    127     34
+
+    **Dependencies**
+
+    Girafe flora pack [https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX-legacy-bsc-vip-girafe-flora)  
+    BSC common pack [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    SHK parking pack [https://community.simtropolis.com/files/file/27563-shk-parking-pack/](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)  
+    ESA props vol 1 [https://community.simtropolis.com/files/file/33619-esa-proppack/](https://community.simtropolis.com/files/file/33619-esa-proppack/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35962-esa-cornershops/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659eccd278eec_06-Aug.21801704869432.jpg.fa91433453ad5af579506df24ed8eabd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659eccd41a6a5_06-Aug.21801704869443.jpg.6c345d4129ff99c77212abf6aac29900.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659eccd5371e8_06-Aug.21801704869452.jpg.eb1c72f720d1284231ae4bf360049f24.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659eccd69fa5d_06-Aug.21801704869799.jpg.042c235c49d33f9fe3d6d9df2c5701e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659eccd847a77_06-Aug.21801704869791.jpg.841d53ce99e2a637cb8d2c4a994c514d.jpg
+dependencies:
+  - oidaas:proppack
+  - shk:parking-pack
+  - peg:mtp-super-pack
+  - girafe:maples-v2
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-cp-vol01
+  - girafe:ashes
+assets:
+  - assetId: oidaas-cornershops
+
+---
+assetId: oidaas-cornershops
+version: "1.0.0"
+lastModified: "2024-01-10T17:00:43Z"
+url: https://community.simtropolis.com/files/file/35962-esa-cornershops/?do=download&r=199202

@@ -1,0 +1,74 @@
+group: oidaas
+name: 1920-homes
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: 1920 Style Homes
+  description: |-
+    About
+
+    This is 1920 style homes.
+
+    Stats
+
+    Bulldoze Cost     40                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     1                       
+    Power Consumed     1                       
+    Water Consumed     2                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Building: R$$     Style: Houston       
+                          
+    Occupant Size     Width     Height     Depth               
+    8     1     8               
+    Occupant Types     R$     R$$                   
+    Building value     43                       
+    Capacity Satisfied     R-$     R-$$                   
+    3     3
+
+    Dependencies
+
+    ##### SC4D LEX Legacy - BSC Common Dependencies Pack [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Garge props (included)
+
+    ESA proppack vol 1
+
+    [https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed](https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed)
+    Girafe Common [https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+    Shk parking pack
+
+    [https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=embed](https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36564-esa-1920/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673b9276ed22e_NewCity-Sep.4161731956348.jpg.80ab7d954d7c0434396c837649079be1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673b928b3973a_NewCity-Sep.4161731956330.jpg.7eff95480f134917163f7e5e0485b236.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673b92a41d3bc_NewCity-Sep.4161731956374.jpg.d7ac58f4bf3d5235df94d92e0056d12c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/evidense.jpg.5b6efc3c37fd670313e0f3d2932b5e19.jpg
+dependencies:
+  - oidaas:proppack
+  - shk:parking-pack
+  - girafe:norway-maples
+assets:
+  - assetId: oidaas-1920-homes
+  - assetId: oidaas-1920-garage-props
+
+---
+assetId: oidaas-1920-homes
+version: "1.0.0"
+lastModified: "2024-11-18T19:32:10Z"
+url: https://community.simtropolis.com/files/file/36564-esa-1920/?do=download&r=204443
+
+---
+assetId: oidaas-1920-garage-props
+version: "1.0.0"
+lastModified: "2024-11-18T19:32:10Z"
+url: https://community.simtropolis.com/files/file/36564-esa-1920/?do=download&r=204444

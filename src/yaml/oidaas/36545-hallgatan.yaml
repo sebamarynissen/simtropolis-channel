@@ -1,0 +1,65 @@
+group: oidaas
+name: hallgatan
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Hallgatan
+  description: |-
+    **About**
+
+    This is a house that was situated in the Swedish Town of Malmberget. In game it's modded as a R$$$
+
+    **Stats**
+
+    Bulldoze Cost     186                       
+    Wealth     High Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    6     7     0     0           
+    Flammability     35                       
+    MaxFireStage     2                       
+    Power Consumed     2                       
+    Water Consumed     5                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Style: Houston     Building: R$$$               
+    Occupant Size     Width     Height     Depth               
+    24.895     14.7     13.0117               
+    Occupant Types     R$     R$$     R$$$               
+    Building value     549                       
+    Capacity Satisfied     R-$     R-$$     R-$$$               
+    36     21     11
+
+    **Dependencies**
+
+    Malmberget proppack vol 2
+
+    [https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/](https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/)
+
+    SC4D LEX Legacy - BSC Common Dependencies Pack
+
+    [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    SC4D LEX LEGACY - BSC VIP Girafe Flora Pack
+
+    [https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36545-esa-hallgatan/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673123a45acb2_Aircity-Oct.21131731272568.jpg.01f17852f66b58e271357e3ec5362500.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/673123b102486_Aircity-Nov.3131731272603.jpg.38cc571e9818038a2bd0d30af2cfb476.jpg
+dependencies:
+  - oidaas:malmberget-props-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:oaks
+  - girafe:maples-v2
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: oidaas-hallgatan
+
+---
+assetId: oidaas-hallgatan
+version: "1.0.0"
+lastModified: "2024-11-10T21:22:12Z"
+url: https://community.simtropolis.com/files/file/36545-esa-hallgatan/?do=download&r=204307

@@ -1,0 +1,43 @@
+group: oidaas
+name: rail-gantries
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  summary: Gantries vol 1
+  description: |-
+    **About**
+
+    This is a series of lots that yoy can use for your railway. It is lot based thus not modded to be used when dragging a railway,  Lots are found in the power menu. And lastly, forgive my modding, i'm a batter first an foremost.
+
+    **Stats**
+
+    Size: 1x1  
+    Bulldoze cost:10  
+    Wealth: None  
+    Pollution at center:0  
+    Flammability:0  
+    Plop cost: 40  
+    Occupant groups:Utility, Power  
+    Budget cost: 5
+
+    **Dependencies**
+
+    [https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/?do=embed)
+    [https://community.simtropolis.com/files/file/35025-esa-rail-props-2/?do=embed](https://community.simtropolis.com/files/file/35025-esa-rail-props-2/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35026-esa-gantries-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666d472c61a0c_NewCity-Jan.7021718436878.jpg.ded2854d3abc18362ab6196b9a2e5cfe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666d4732ca05d_NewCity-Jan.7021718437112.jpg.1bfa46b92700092b6314d657882c5bdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666d473f71f5c_NewCity-Jan.7021718437199.jpg.9f52bd6ded6a7c3f6d21cf2f4b2f99af.jpg
+dependencies:
+  - oidaas:rail-props-vol01
+  - oidaas:rail-props-vol02
+assets:
+  - assetId: oidaas-gantries-vol1
+
+---
+assetId: oidaas-gantries-vol1
+version: "2.0.0"
+lastModified: "2024-06-15T07:48:21Z"
+url: https://community.simtropolis.com/files/file/35026-esa-gantries-vol-1/?do=download&r=201696
