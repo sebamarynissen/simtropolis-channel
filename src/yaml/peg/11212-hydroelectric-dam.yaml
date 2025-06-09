@@ -1,0 +1,38 @@
+group: peg
+name: hydroelectric-dam
+version: "1.1"
+subfolder: 500-utilities
+info:
+  summary: Hydroelectric Dam
+  description: |-
+    Yes... it produces electricity. Yes... traffic can travel across it. Yes... its designed for use with the PEG Pond Kit II. And Yes... it's pretty DAM cool!
+
+    Finally, the long lost hydro dams of yester-versions are back to provide your Sims with clean & cheap power. Now you can run a river down from your mountains using the Pond Kit II and build a series of these Hydro Dams that will provide even your largest cities with ample power & water.
+
+    Each dam produces about the same power as a Solar Power Plant. With version 2.07, each dam will increase the efficiency of connected water pumps by an extra 4,000 cu per month. The building & maintenance costs are about the same as a natural gas power plant.
+
+    \*\* This lot is not transit enabled. Its a single lot that plops on both sides of an existing road, street or rail. You can also run elevated rail across it... or trail parks... or zone it and see what develops.
+
+    This package includes the Waterfall Bottom lots (PEG\_Pond-WFB\_205.dat) that can be used to create the water turbulence on the lower side of the dam.
+
+    **Dependencies:  
+    [PEG Pond Kit II](https://community.simtropolis.com/files/file/11128-peg-pond-kit-ii/)  
+    [PEG 24/7 Mod](https://community.simtropolis.com/files/file/11220-peg-247-mod/) (used for water turbulence effect)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11212-peg-hydroelectric-dam/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/daf517292adc8702d9a5a1c9e9e99282-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0024/daf517292adc8702d9a5a1c9e9e99282-product_image2.jpg
+dependencies:
+  - peg:247-mod
+  - peg:pond-kit-ii-deluxe-edition
+assets:
+  - assetId: peg-hydroelectric-dam
+
+---
+assetId: peg-hydroelectric-dam
+version: "1.1"
+lastModified: "2025-05-02T23:20:49Z"
+url: https://community.simtropolis.com/files/file/11212-peg-hydroelectric-dam/?do=download&r=207335

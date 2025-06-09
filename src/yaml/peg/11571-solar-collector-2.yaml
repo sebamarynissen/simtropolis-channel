@@ -1,0 +1,37 @@
+group: peg
+name: solar-collector-2
+version: "1.1"
+subfolder: 500-utilities
+info:
+  summary: Solar Collector 2
+  description: |-
+    The Solar Collector 2 is a modified version of the original Solar Collector. It is virtually identical to the updated original in all regards except appearance. For reality buffs, the comical AA batteries have been replaced with a more real-world look.
+
+    This lot does not replace either the original or the updated original version. Both lots can be used at the same time with separate icons appearing for both in the Utilities Power menu. Both versions have identical properties but will be listed in your budget window as separate power plant types.
+
+    The parking lot on the lot is transit enabled. You may have to manually connect it. However, like the windmills, the lot does not have to have road access.
+
+    \* Special thanks to Pegadyne Industries for their development of the new photo-electric collectors used in these plants that produce a viable amount of power from a relatively small collection surface.  
+      
+    **\*\* This lot uses props from the following files:**
+
+    **[Peg Trail Parks III](https://community.simtropolis.com/files/file/11001-peg-trail-parks-iii/)**
+
+    **[Peg Lakeside Resort](https://community.simtropolis.com/files/file/11423-peg-lakeside-resort/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11571-peg-solar-collector-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e14f5f50e6e57c7b045a5732a04786d0-product_image.jpg
+dependencies:
+  - peg:lakeside-resort-props
+  - peg:trail-parks-iii
+assets:
+  - assetId: peg-solar-collector-2
+
+---
+assetId: peg-solar-collector-2
+version: "1.1"
+lastModified: "2025-05-03T00:33:48Z"
+url: https://community.simtropolis.com/files/file/11571-peg-solar-collector-2/?do=download&r=207403

@@ -1,0 +1,47 @@
+group: peg
+name: seasonal-lot
+version: "1.1"
+subfolder: 600-civics
+info:
+  summary: Seasonal Lot
+  description: |-
+    Unlike any other lot you've seen, this lot changes both in appearance and function... and is actually 3 lots in one! The new Seasonal Lot is a lot that changes through the year. It essentially is the classic empty lot suitable for urban areas, out in the burps... or way out in the stix. But this lot also serves a commercial function...
+
+    It starts the year as an ordinary empty dirt lot. In late January, the workers show up and prepare the lot for the upcoming Farmer's Market. In early February, the banners appear hyping the new market. A few weeks later, pallets and trash bins can be seen heralding the opening of the market... and in early March the tents go up and the Farmer's Market is open for business.
+
+    In early November, the tents come down to make room for the Christmas Tree lot. Over the next few weeks, the lot is cleared and new banners are put up. In early December, the lights are strung, the trees arrive and we're ready to go out and pick our tree.
+
+    After Christmas, the trees are gone... the lights come down... and a few weeks later someone gets around to taking down the banners. The workers show up to prep for the Farmers Market...and the cycle repeats...
+
+    The lot is a low wealth commercial property. It provides a handful of C$ jobs as well as generating some income from the leases to the market and tree lot. Its a ploppable 2x2 lot that also offers some park-like benefits stemming from the popularity of the Farmer's Market.
+
+    dependencies:  
+    PEG Christmas Development Kit
+
+    \* The lot is transit enabled for appearances only. The parking area can be connected to your traffic network using streets. If plopped facing existing roads, etc... it will connect automatically.
+
+    \* Depending on the time of year that the lot is plopped, the Farmer's Market and/or Christmas Tree lot may not develop until the following year. Like the Seasonal Trees, the various props used will not appear that year if plopped after their trigger dates..
+
+    **This lot requires the following dependency:**
+
+    **[PEG Christmas Development Kit](https://community.simtropolis.com/files/file/11097-peg-christmas-development-kit/)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
+
+    ***To all of you from all the members and staff at Pegasus Productions... Have a very, merry Holiday and a wonderful  New Year!***
+
+    [![product_image2.jpg](https://www.simtropolis.com/repository/attachments/monthly_2015_07/product_image2.thumb.jpg.9ce658e63bc0efb0bb91b52da3194ae9.jpg)](https://www.simtropolis.com/repository/attachments/monthly_2015_07/product_image2.jpg.e803b3029fc25afcb3675c46b64054c1.jpg)
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11115-peg-seasonal-lot/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/08a795af8ef8bc6fd1c1b906b418eb5a-product_image.jpg
+dependencies:
+  - peg:christmas-development-kit
+assets:
+  - assetId: peg-seasonal-lot
+
+---
+assetId: peg-seasonal-lot
+version: "1.1"
+lastModified: "2025-05-03T00:14:57Z"
+url: https://community.simtropolis.com/files/file/11115-peg-seasonal-lot/?do=download&r=207392

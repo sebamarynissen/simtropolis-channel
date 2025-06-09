@@ -1,6 +1,6 @@
 group: peg
 name: snow-mod-2
-version: "1.0"
+version: "1.0-1"
 subfolder: 900-overrides
 info:
   summary: SNOW MOD 2
@@ -65,6 +65,18 @@ variants:
   - variant: { peg:snow-mod:season: winter }
     assets:
       - assetId: peg-snow-mod-2
+    dependencies:
+      - peg:snow-mod-mtp-patch
+      - peg:snow-mod-deflowrer-patch
+      - peg:snow-mod-seasonal-tree-patch
+variantInfo:
+- variantId: "peg:snow-mod:season"
+  description: Choose which season to show in your cities
+  values:
+  - value: "summer"
+    description: Nothing from this package is installed.
+  - value: "winter"
+    description: Override PEG textures and assets for a winter look.
 
 ---
 assetId: peg-snow-mod-2

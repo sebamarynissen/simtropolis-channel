@@ -1,0 +1,32 @@
+group: peg
+name: oceanographic-institute
+version: "1.1"
+subfolder: 600-civics
+info:
+  summary: Oceanographic Institute
+  description: |-
+    Pegadyne Industries is pleased to announce the opening of the their new Oceanographic Institute off the coast of your city. This long-awaited private university will take advanced education to the next level offering masters & doctorate programs in Oceanography, Marine Biology, Marine Engineering & HydroSimology. City planners anticipate a large increase in High Tech industrial demand as graduates from this elite institution hit the job market.
+
+    The Oceanographic Institute is an alternative to the game's university and has the same properties and characteristics. But unlike the university's massive size, the institute only takes up one, single land tile. The entire facility resides completely in the water.
+
+    The POI also offers up to 450 CS jobs. IT can be plopped in any water depth... however the underwater detail may only be visible in shallower water.
+
+    **Dependency:**
+
+    [BSC Textures Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/10938-peg-oceanographic-institute-v205/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7a9c08599556fce58350f5921710d7ec-product_image.jpg
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: peg-oceanographic-institute
+
+---
+assetId: peg-oceanographic-institute
+version: "1.1"
+lastModified: "2025-05-02T23:36:36Z"
+url: https://community.simtropolis.com/files/file/10938-peg-oceanographic-institute-v205/?do=download&r=207356

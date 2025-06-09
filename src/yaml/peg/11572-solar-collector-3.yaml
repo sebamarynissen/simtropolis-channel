@@ -1,0 +1,36 @@
+group: peg
+name: solar-collector-3
+version: "1.1"
+subfolder: 500-utilities
+info:
+  summary: Solar Plant 3
+  description: |-
+    The Solar Collector 3 combines 10 solar collectors into a single facility producing 5,000 MWh/month of clean and efficient power for your cities. Unlike the game's default solar plant, which employs the Concentrated Solar Power principle of using mirrors to focus heat that is converted to electricity, these true solar collectors use  Photo-voltaic cells, which convert sunlight directly into electricity.
+
+    The plop cost, power produced, and maintenance costs for this facility are the same as building 10, single solar collector plants. This combined facility merely saves a little space with the added convenience of a single plop and budget item.
+
+    This is a conditional reward power plant. It will become available in the game after you have met the same conditions required to make the game's default solar plant available. (High Wealth Residential Population - 3000 Mayor Rating - 55)
+
+    The office/warehouse is part of a 2 structure building prop family to add a little variety. When plopped, one of the two structures will be randomly selected for the lot. The lot is transit enabled and should be connected by street to your traffic network.
+
+    \* Special thanks to Pegadyne Industries for their development of the new photo-electric collectors used in these plants that produce a viable amount of power from a relatively small collection surface.  
+      
+    **\*\* This lot requires the installation of the PEG Solar Collector 2 power plant.  
+    \*\* This lot requires [PEG Lakeside Resort](https://community.simtropolis.com/files/file/11423-peg-lakeside-resort/) (PEG\_Resort-Pack\_205.dat)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11572-peg-solar-plant-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/44dc34da7b8438eaf7e8a72ffc1a5fb7-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0008/44dc34da7b8438eaf7e8a72ffc1a5fb7-product_image2.jpg
+dependencies:
+  - peg:lakeside-resort-props
+assets:
+  - assetId: peg-solar-plant-3
+
+---
+assetId: peg-solar-plant-3
+version: "1.1"
+lastModified: "2025-05-03T00:36:23Z"
+url: https://community.simtropolis.com/files/file/11572-peg-solar-plant-3/?do=download&r=207405
