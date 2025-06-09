@@ -1,0 +1,28 @@
+group: bones1
+name: less-abandonment
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Less Abandonment
+  description: |-
+    The intent of this mod is to reduce the amount of abandonment and dilapidation of high-wealth buildings. It does this in a non-cheating natural way, to prevent high-wealth buildings from growing in areas that will likely cause them to abandon in the near future. There are other mods to prevent dilapidation, but they do it by forcibly preventing dilapidation in buildings that really should dilapidate. This mod stops those buildings from growing in the first place.
+
+    This mod changes the desirability building requirements for high-wealth construction. The default game setting is to allow buildings to grow in areas with as little as 20% desirability (or greater). Unfortunately, dilapidation of buildings also begins to occur in areas with 20% desirability (or less). So what the game does is build a nice-looking R$$$ building (or CO$$$ or whatever) in a bad area, and then it quickly abandons or dilapidates the building, creating an ugly blackened building.
+
+    Much of the current wisdom on Simtropolis seems to state that R$$$ abandonment is the result of too-few jobs for rich sims. While this is true in some cases, my tests have shown that most of the abandonment occurs for desirability reasons. The R$$$ build houses in borderline areas, and then low desirability kills them off. Fewer R$$$ pushes up demand, and that causes more R$$$ homes to be built in borderline areas, and the cycle repeats. This mod stops that cycle by preventing those homes from being built in borderline areas.
+
+    This mod changes the building desirability requirement to 40%-50%, instead of 20%. Thus, a high-wealth building will not grow in a borderline area.
+
+    The result is that less high-wealth buildings will grow in your city, but those that do grow will have a much greater chance of "sticking around" without abandoning or dilapidating. You'll also notice that your cities will retain more CS$ and CS$$ buildings, rather than them all being replaced by CO$$ and CO$$$.
+  author: Bones1
+  website: https://community.simtropolis.com/files/file/14931-less-abandonment/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5acaa06fcd3abacd8ec41a315a904da3-LessAbandonment.jpg
+assets:
+  - assetId: bones1-less-abandonment
+
+---
+assetId: bones1-less-abandonment
+version: "1.0"
+lastModified: "2006-02-05T10:08:10Z"
+url: https://community.simtropolis.com/files/file/14931-less-abandonment/?do=download&r=36839
