@@ -1,0 +1,122 @@
+group: cyclone-boom
+name: automated-fireworks-display-mod
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Automated Fireworks Display Mod
+  description: |-
+    Happy New Year everyone!  
+      
+    This is a set of pre-programmed land and water-based (barge) lots, allowing you to create your own custom firework displays.
+
+    It works by adding over 30 different fireworks triggers, which have all been set to launch at specified times, and for varied durations. There are 4 types of lots, with a combined total of 84 fireworks launch points.
+
+    [![Buy me a coffee](https://www.simtropolis.com/library/misc/CB_Coffee_v42.png)](https://www.buymeacoffee.com/cycloneboom)
+
+    ***What makes this different than the numerous  
+    fireworks lots already on the STEX?***  
+      
+    The main difference is the logic behind the effects. The Automated Fireworks Display Mod creates new instances of the default fireworks effect, which are then programmed according to the launch plan (see the "Logic" diagram above, please don’t show this to Dr Vu).
+
+    One issue of existing fireworks lots is the duration and variety of the launch sequence. With the default effect lasting just 3 simulation days, it only allows the equivalent to launching the grand finale at the beginning! This mod hopes to correct this problem.  
+      
+    In total the display lasts for 244 simulation days, equating to just over 7min 30sec in real time.  
+      
+    ***How is this useful?***  
+      
+    This mod may come in handy for a City Journal, to help your Sims bring in the New Year, or just for plain old festive entertainment. Who doesn’t like a few fireworks once in a while? After all, your Sims are getting tired of the lacklustre display at the Mayor’s house! ![*:P](https://community.simtropolis.com/assets/emoticons/default_3.gif ":P")  
+      
+      
+    **USAGE**  
+      
+    There are 4 “stages” of lots, with each one containing a greater number of fireworks (both visually and based on the number of triggers). For an optimised display, the lots are designed to be placed in a diamond formation, as the below image demonstrates:  
+      
+    ![Diamond Formation](http://i.imgur.com/n87Ys2J.jpg)  
+      
+    However, this is just a suggestion, and the lots are flexible to being placed in any custom formation, or just randomly scattered throughout your city. Feel free to experiment with using a combination of both the land lots and barges. The land-based lots can be placed on any terrain, and will auto-level on slopes. And of course, the barges must be placed on water. For a more diverse display, place more of each stage type (1-4).  
+      
+    The display is synchronised based on the game’s simulation date. It’s programmed to start each year on Jan 1, and runs through to Jul 30. This means it’s a good idea to pause the game just before New Year’s Day, setup the lots how you’d like, and un-pause once ready.  
+      
+    All lots can be placed and bulldozed free of charge, and have a zero monthly cost. They can be found in order at the bottom of the Civic > Fire menu. I thought this’d be a better idea than further cluttering your parks menu. ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif ";)")  
+      
+      
+    **BARGE LOTS DEPTH VERSIONS**  
+      
+    One limitation with using effects on water is the issue of depth. A building on water (in this instance the barge model) will appear to float normally on the water surface, but the effects will still conform to the sea bed. This means they’d appear to launch from the surrounding water, rather than the actual barge. To get around this, 5 depth versions have been created, from very deep (5) to shallow (1):  
+      
+    ![Water Depths](http://i.imgur.com/iLYrscp.jpg)  
+      
+    All versions have the fireworks effects raised (as props), with this being exaggerated for the deeper ones. For example in a shallow harbour area, you may find the Depth 1 version is best suited, as deeper areas may work better with the higher-numbered depths. Each version is equivalent to one press of the game’s “Raise/Lower Terrain Level” tool.
+
+    If you’re unsure over which depth(s) are suitable, I’d suggest to first experiment with all 5 versions. They don’t conflict with each other, and will appear in order in the Civic > Fire menu.  
+      
+      
+    **PERFORMANCE NOTE**  
+      
+    The mod is compatible in both hardware & software rendering, and is designed with performance in mind. For example, using the suggested diamond formation, only at the finale will more than 5 fireworks launch at once. For smoother transitions, it works best with **visual effects set to “High”**.
+
+    Depending on your computer, and the city size, using more than 5 lots at once may cause the game to lag.  
+      
+    **N.B. The fireworks will not show with visual effects set to “Low”.**  
+      
+      
+    **DEPENDENCIES**  
+      
+    The only external dependency is for the barge model of the water lots:  
+    [PEG CSK Barges Prop Pack](https://community.simtropolis.com/files/file/13493-peg-csk-barges-prop-pack/)  
+      
+    If you only intend to use the land-based lots, this model isn’t required.  
+      
+      
+    **INSTALLATION**  
+      
+    Copy / move fireworks\_logic.dat to your "Documents/SimCity 4/Plugins" folder.  
+      
+      
+    **Land Lots**  
+      
+    Copy / move AFDM\_Land.dat to your "Documents/SimCity 4/Plugins" folder.  
+    All 1-4 stages are contained within the DAT file.  
+      
+      
+    **Water Lots**  
+      
+    AFDM\_Water\_Depth**X**.dat  
+      
+    Select the version(s) you’d like and copy to your "Documents/SimCity 4/Plugins" folder.  
+    All 1-4 stages are contained within each DAT file.  
+      
+    Copy / move PEG\_Channel-Barges\_205a.dat to your "Documents/SimCity 4/Plugins" folder.  
+      
+      
+    Have fun! ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif ":thumb:")   
+      
+    \-Cyclone
+  author: Cyclone Boom
+  website: https://community.simtropolis.com/files/file/30075-automated-fireworks-display-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image1a_title.png.29e2e92925dac77b9a76161114ca4492.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image2_diamond_formation.jpg.93722db2c5a8dbe2919c1740fcab0a38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image3_barges.png.874c3a3dbe75d92b36b8e3ef06c02840.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image4_menu_icons1.jpg.13e0ea2de4a4e910da5373cc2782532e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image5_fireworks_logic.png.8f858ac502310dda71f502b170c86630.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image6_water_depth_guide.jpg.d785a199df0c4689af43a63fa289bcdf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image7_icon_format.png.92569a1cffd31422da96eadb9c71b989.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image8_land_stage1.png.fb1a8e4f2a1b499c7b12a5db03e684dd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image9_land_stage2.png.eab88f0a6a62d2e135dd8c6e14c6d968.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image10_land_stage3.png.3587261c2b6d5be69f1164f324734b5d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image11_land_stage4.png.9597372b843fbc84cb92c85f47f1b5b9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image12_fireworks1.png.363dce939acf3e5621730015195a578d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image13_fireworks2.png.6f67c74d5726e0bb2ed41af35c6ac043.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image14_fireworks3.png.49f89988a564e9dd5e9a20f6cbf99777.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image15_fireworks4.png.4edf4343be9c7fbdf7c03c22e7e5f681.png
+dependencies:
+  - peg:csk-barges-prop-pack
+assets:
+  - assetId: cyclone-boom-automated-fireworks-display-mod
+
+---
+assetId: cyclone-boom-automated-fireworks-display-mod
+version: "1.0"
+lastModified: "2015-01-03T03:05:37Z"
+url: https://community.simtropolis.com/files/file/30075-automated-fireworks-display-mod/?do=download&r=158170
