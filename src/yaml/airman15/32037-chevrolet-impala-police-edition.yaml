@@ -17,8 +17,17 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaPolice0.png.bbb641fcdbe96ecbf5cc7bc79c2d67e6.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaPolice1.png.c29dfabe84d16d2fc19d4b0d1d53e3bc.png
-assets:
-  - assetId: airman15-chevrolet-impala-police-edition
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-police-edition
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-police-edition
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-chevrolet-impala-police-edition

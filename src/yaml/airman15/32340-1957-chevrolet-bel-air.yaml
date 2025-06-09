@@ -25,8 +25,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_06/BelAir_7.png.2f7fa68e1d9cbb881e9deba4c9a30820.png
     - https://www.simtropolis.com/objects/screens/monthly_2018_06/BelAir_8.png.e05e3dd269692a927b5789e455887c6a.png
     - https://www.simtropolis.com/objects/screens/monthly_2018_06/BelAir_9.png.0c26558066710ef94c9f963c39c99e34.png
-assets:
-  - assetId: airman15-1957-chevrolet-bel-air
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-1957-chevrolet-bel-air
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-1957-chevrolet-bel-air
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-1957-chevrolet-bel-air

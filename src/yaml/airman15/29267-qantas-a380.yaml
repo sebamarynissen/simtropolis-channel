@@ -21,8 +21,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/08fdc6e0ec7b702562624bf066b8c0f4-qantas1.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/15da07f40f3bdac2b49636135ea65be3-qantas2.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/91d35d405b0436b039bb36f347c0129a-qantas3.png
-assets:
-  - assetId: airman15-qantas-a380
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-qantas-a380
+      include:
+      - "/.*HW.dat"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-qantas-a380
+      include:
+      - "/.*SW.dat"
 
 ---
 assetId: airman15-qantas-a380

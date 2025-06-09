@@ -22,8 +22,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey2.png.fd74d8f2f1f3cb713297a139c6d1051c.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey3.png.dd8b889cf42f97ccf77dac766588298f.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/zHuey4.png.8bc372018927e277400b29179cd36e1b.png
-assets:
-  - assetId: airman15-uh-1-iroquois-huey
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-uh-1-iroquois-huey
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-uh-1-iroquois-huey
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-uh-1-iroquois-huey

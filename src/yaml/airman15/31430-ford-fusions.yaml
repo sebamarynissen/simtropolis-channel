@@ -25,8 +25,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_01/Fusions5.png.9d1ca79efe8a95f6ea6c39bb5b1b115b.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_01/Fusions6.png.656dacf39db779aadcb5c6e09dc9af62.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_01/Fusions7.png.24948c726def7e9bbc2acd9b73825ea3.png
-assets:
-  - assetId: airman15-ford-fusions
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-ford-fusions
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-ford-fusions
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-ford-fusions

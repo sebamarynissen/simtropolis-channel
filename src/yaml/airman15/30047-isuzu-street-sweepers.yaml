@@ -23,8 +23,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_12_2014/1972a44630bbf3ec91177f00f442cd64-iss-2.png
     - https://www.simtropolis.com/objects/screens/monthly_12_2014/8eb4bd19945a8f280c2262f0c7eef1c8-iss-3.png
     - https://www.simtropolis.com/objects/screens/monthly_12_2014/8381cf513672bf1d70bd8058dce729f8-iss-4.png
-assets:
-  - assetId: airman15-isuzu-street-sweepers
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-isuzu-street-sweepers
+      include:
+      - "/ISS_HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-isuzu-street-sweepers
+      include:
+      - "/ISS_SD/"
 
 ---
 assetId: airman15-isuzu-street-sweepers

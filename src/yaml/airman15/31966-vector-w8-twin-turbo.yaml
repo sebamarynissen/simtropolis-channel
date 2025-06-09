@@ -21,8 +21,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_10/Vector3.png.946348486a8050219f7bf37c7ab0dfe2.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_10/Vector4.png.590abaa4b42c22c1e5b3c3033a343539.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_10/Vector5.png.97e42ff84b5a331917c9652f493c878f.png
-assets:
-  - assetId: airman15-vector-w8-twin-turbo
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-vector-w8-twin-turbo
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-vector-w8-twin-turbo
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-vector-w8-twin-turbo

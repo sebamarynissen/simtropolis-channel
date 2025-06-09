@@ -23,8 +23,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_07_2014/648f8c0863101ede60a5dc6fb44db3f5-hind-1.png
     - https://www.simtropolis.com/objects/screens/monthly_07_2014/cb450e968a70160e4f90d1049c31fe61-hind-2.png
     - https://www.simtropolis.com/objects/screens/monthly_07_2014/93651b2564517bb9e1bef4377a1a16f3-hind-3.png
-assets:
-  - assetId: airman15-mi-24-hind
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-mi-24-hind
+      include:
+      - "/.*_HW.dat"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-mi-24-hind
+      include:
+      - "/.*_SW.dat"
 
 ---
 assetId: airman15-mi-24-hind

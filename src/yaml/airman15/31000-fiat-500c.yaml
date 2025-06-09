@@ -25,8 +25,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat5.png.4cafd456fc809388a449998b7865453d.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat6.png.afe990a566769491a14d701f159d101c.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat7.png.c8e364600d43add20c14e0a9b7db6800.png
-assets:
-  - assetId: airman15-fiat-500c
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-fiat-500c
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-fiat-500c
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-fiat-500c

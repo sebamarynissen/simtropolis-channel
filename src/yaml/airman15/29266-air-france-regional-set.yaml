@@ -25,8 +25,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/56a616de682b715a82ad3c9258e291be-af1_erj-135.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/c239480bec60ce8ab8a4fc6884b47d50-af2_constellation.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/0afe3bfbd3ee7a2b430bf4341f76dcb5-af3_rj-85.png
-assets:
-  - assetId: airman15-air-france-regional-set
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-air-france-regional-set
+      include:
+      - "/Hardware/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-air-france-regional-set
+      include:
+      - "/Software/"
 
 ---
 assetId: airman15-air-france-regional-set

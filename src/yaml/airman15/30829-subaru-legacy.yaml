@@ -20,9 +20,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2015_10/legacies0.png.51fbe25b4ad6c57aede8f6a84643cb05.png
     - https://www.simtropolis.com/objects/screens/monthly_2015_10/legacies1.png.7370d198757078d6a0d88836cb3098fa.png
     - https://www.simtropolis.com/objects/screens/monthly_2015_10/legacies2.png.c51460ad01b8afc2fe8940276d0aed7b.png
-assets:
-  - assetId: airman15-subaru-legacy
-
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-subaru-legacy
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-subaru-legacy
+      include:
+      - "/SD/"
 ---
 assetId: airman15-subaru-legacy
 version: "1.0"

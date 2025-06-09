@@ -1,5 +1,5 @@
 group: airman15
-name: honda-cr-vs
+name: honda-crvs
 version: "1.0"
 subfolder: 710-automata
 info:
@@ -23,11 +23,20 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/HondaCRV5.png.45a3bd80202e63cb98f84db490cdc293.png
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/HondaCRV6.png.05039e6bfd4575e8ccaba4907e29d415.png
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/HondaCRV7.png.dfdc3c29a29dbb8ed791491564e9060c.png
-assets:
-  - assetId: airman15-honda-cr-vs
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-honda-crvs
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-honda-crvs
+      include:
+      - "/SD/"
 
 ---
-assetId: airman15-honda-cr-vs
+assetId: airman15-honda-crvs
 version: "1.0"
 lastModified: "2019-07-15T00:52:42Z"
 url: https://community.simtropolis.com/files/file/33021-honda-cr-vs/?do=download&r=176701

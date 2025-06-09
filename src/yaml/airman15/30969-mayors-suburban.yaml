@@ -18,8 +18,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban0.png.2f00d5f5f9df6094c88da0465148054c.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban1.png.cee9f3d63c04fb747b4387c73de216ad.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban2.png.f9dfe36fd8da3459b2a739f405a637ce.png
-assets:
-  - assetId: airman15-mayors-suburban
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-mayors-suburban
+      include:
+      - "/.*_HD.dat"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-mayors-suburban
+      include:
+      - "/.*_SD.dat"
 
 ---
 assetId: airman15-mayors-suburban

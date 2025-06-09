@@ -20,8 +20,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_08/MEscalade0.png.d075d0361c782a2d6a742a4e0d3f5b57.png
     - https://www.simtropolis.com/objects/screens/monthly_2018_08/MEscalade1.png.410bc71add0922aaa16afaba6046e26e.png
     - https://www.simtropolis.com/objects/screens/monthly_2018_08/MEscalade2.png.7f869b39090ac4d228d172559f7ddb63.png
-assets:
-  - assetId: airman15-mayors-cadillac-escalade
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-mayors-cadillac-escalade
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-mayors-cadillac-escalade
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-mayors-cadillac-escalade

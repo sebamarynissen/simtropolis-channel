@@ -19,8 +19,17 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2015_07/s10-0.png.61351c59ae2b7409d43f88a01f46e12b.png
     - https://www.simtropolis.com/objects/screens/monthly_2015_07/s10-1.png.d2bc3ff21cbe135c9de37b3d285151d7.png
-assets:
-  - assetId: airman15-chevrolet-s10s
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-chevrolet-s10s
+      include:
+      - "/Chevy S10 HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-chevrolet-s10s
+      include:
+      - "/Chevy S10 SD/"
 
 ---
 assetId: airman15-chevrolet-s10s

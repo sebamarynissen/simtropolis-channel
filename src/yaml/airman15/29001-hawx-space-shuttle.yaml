@@ -24,8 +24,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/e368469fa1a3a3af87aaa069046022af-shuttle3.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/2684e428b9dc9ebe80327bea61872173-shuttle4.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/862a880f70ff4d9b10ea3b4c2ad62832-monthly_02_2014-1d3079653205267dd1735401c408fd8f-shuttlecover.png
-assets:
-  - assetId: airman15-hawx-space-shuttle
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-hawx-space-shuttle
+      include:
+      - "/.*Hardware.dat"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-hawx-space-shuttle
+      include:
+      - "/.*Software.dat"
 
 ---
 assetId: airman15-hawx-space-shuttle

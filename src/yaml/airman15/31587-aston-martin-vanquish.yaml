@@ -23,8 +23,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_04/AMVanquish5.png.f2ccadb95cc26734816cfb7417229adc.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_04/AMVanquish6.png.45c1c11b2e0b11addac8d4d847c9c14f.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_04/AMVanquish7.png.7a77f0ccd93445a8a334d8a9469b51f6.png
-assets:
-  - assetId: airman15-aston-martin-vanquish
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-aston-martin-vanquish
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-aston-martin-vanquish
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-aston-martin-vanquish

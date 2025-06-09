@@ -31,10 +31,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/0846f0a99295759063ca9451e5d5532a-concorde-2.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/3d7ac9874e7cfdbe246855c2eadee3c7-monthly_10_2013-3bee901eed15b4303b4a98002db8858a-concorde-1.png
 variants:
-  - variant: { "airman15:concorde:resolution": "hd" }
+  - variant: { "prop-resolution": "hd" }
     assets:
     - assetId: airman15-concorde-hd
-  - variant: { "airman15:concorde:resolution": "sd" }
+  - variant: { "prop-resolution": "sd" }
     assets:
     - assetId: airman15-concorde-software
 

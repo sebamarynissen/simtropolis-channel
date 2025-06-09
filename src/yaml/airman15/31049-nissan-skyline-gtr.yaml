@@ -1,5 +1,5 @@
 group: airman15
-name: nissan-skyline-gt-r
+name: nissan-skyline-gtr
 version: "1.0"
 subfolder: 710-automata
 info:
@@ -28,8 +28,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline8.png.49ec9bc218c171a6e6522d4ceb140ee1.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline9.png.da2559ac92a1274df24fe074087fe176.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline10.png.e45b42cd731df2d816d5ee65555e7973.png
-assets:
-  - assetId: airman15-nissan-skyline-gt-r
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-nissan-skyline-gt-r
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-nissan-skyline-gt-r
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-nissan-skyline-gt-r

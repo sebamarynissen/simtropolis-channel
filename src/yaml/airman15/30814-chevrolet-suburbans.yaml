@@ -24,8 +24,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2015_10/suburban4.png.8b572f1eb218d1b0dfb2d274dfc239a5.png
     - https://www.simtropolis.com/objects/screens/monthly_2015_10/suburban5.png.dc5c9bc167c69b58f033782ae372e3f5.png
     - https://www.simtropolis.com/objects/screens/monthly_2015_10/suburban6.png.efdec9516dc09bf1b1880d45ccdb47d7.png
-assets:
-  - assetId: airman15-chevrolet-suburbans
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-chevrolet-suburbans
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-chevrolet-suburbans
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-chevrolet-suburbans

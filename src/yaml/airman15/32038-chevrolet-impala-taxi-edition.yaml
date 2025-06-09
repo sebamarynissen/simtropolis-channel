@@ -19,8 +19,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaTaxi1.png.13a58a46052b95ebac0bbbf91bb34c0e.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaTaxi2.png.7a4589aa3fef7ebdfb08c54d1539045d.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaTaxi3.png.4a3542b57178cb6da0a24ac2ddd47dec.png
-assets:
-  - assetId: airman15-chevrolet-impala-taxi-edition
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-taxi-edition
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-taxi-edition
+      include:
+      - "/SD/"
 
 ---
 assetId: airman15-chevrolet-impala-taxi-edition
