@@ -1,0 +1,29 @@
+group: "null-45"
+name: "sc4-disable-lot-plop-smoke"
+version: "1.0.0"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-sc4-disable-lot-plop-smoke"
+  withChecksum:
+  - include: "/SC4DisableLotPlopSmoke.dll"
+    sha256: AA66D1EC4AF5676B0E964DEDEC2A9DE5964C685A7864C049DEEA3AF6D8DB50E5
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that disables the smoke that is shown after plopping a lot."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    The method that the game uses to place a lot takes a Boolean parameter that controls whether the smoke effect is shown.
+    
+    When that method is called by the lot placement UI tool it hard-codes that parameter to true, the plugin patches the game's memory to change it to false. 
+
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36126-sc4-disable-lot-plop-smoke/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.3600baf4e3611f3981184f305cd4eaf9.png
+
+---
+assetId: "null-45-sc4-disable-lot-plop-smoke"
+version: "1.0.0"
+lastModified: "2024-02-17T01:32:55Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36126-sc4-disable-lot-plop-smoke/?do=download"
+url: "https://github.com/0xC0000054/sc4-disable-lot-plop-smoke/releases/download/v1.0/SC4DisableLotPlopSmoke.zip"
