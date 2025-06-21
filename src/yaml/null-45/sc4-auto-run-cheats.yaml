@@ -1,0 +1,55 @@
+group: "null-45"
+name: "sc4-auto-run-cheats"
+version: "1.2.1"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-sc4-auto-run-cheats"
+  withChecksum:
+  - include: "/SC4AutoRunCheats.dll"
+    sha256: 22D644C889BF5F1EB23A469D9190EA2D324320C3E7C8257384EEE5BC114F2E85
+  - include: "/SC4AutoRunCheats.ini"
+    sha256: A42FF18118C0087B185599ED5A2C49CDD50D68B07DD86FD5714CF788108D38D9
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that automatically executes cheat codes when loading the game or a city."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    *LoadZoneBitmap Cheat Code*
+
+    This cheat code allows the user to manually load a zone bitmap within the city view. The format is **LoadZoneBitmap <path>**
+
+    The command will be run before the cheat box is closed, if an error occurs an in-game message box will be shown. Depending on the number of zones in the bitmap it may take some time for the command to run. See the ZoneBitmap Command section for a description of the format. 
+    
+    *Settings overview*
+
+    The commands or cheat codes will be applied at the specified stages in the game's loading process. The RunOnce versions will only be applied for the first matching city tile that is loaded.
+
+    The command strings can use one of two formats
+
+    A comma-separated list of commands/cheats.
+    A File:<path> string that specifies an external file containing the commands/cheats.
+
+    [Startup] The commands in this section will be run once when the game starts up.
+    [Tile] The commands in this section will be run when loading either an established or unestablished city tile.
+    [EstablishedTile] The commands in this section will be run when loading an established city tile or when a city is established.
+    [UnestablishedTile] The commands in this section will be run when loading an unestablished city tile. 
+    
+    For more information visit the mod download page
+    
+  warning: |-
+    This DLL plugin comes with one INI configuration file:
+
+    * `SC4AutoRunCheats.ini``
+
+    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36384-sc4-auto-run-cheats-dll-plugin/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/STEXIcon.png.b0766777b89d637524e08ec53f9d7da7.png
+
+---
+assetId: "null-45-auto-run-cheats"
+version: "1.2.1"
+lastModified: "2024-08-26T21:55:33Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36257-discord-rich-presence-dll-for-simcity-4/?do=download"
+url: "https://github.com/0xC0000054/sc4-auto-run-cheats/releases/download/v1.2.1/SC4AutoRunCheats.zip"
