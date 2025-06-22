@@ -8,7 +8,7 @@ assets:
   - include: "/SC4DisableCheats.dll"
     sha256: 68C0B783E73BA6EF3E15901D223745EDA38C24AFE428999662BCE837B4D65845
   - include: "/DisabledCheats.txt"
-    sha256: 1DAD31BB3D2CDA50463A6326AEEBADC5D00CB70A89303A9CD809E059269218CA
+    sha256: 41BDD61A9095368B3304A3FE8A3C0EFDBC5CF88A2C6C9494B4962BF3ABAE31EB
 
 info:
   summary: "A DLL plugin that allows the player to choose which cheats are enabled in-game."
@@ -49,7 +49,7 @@ info:
   warning: |-
     This DLL plugin comes with one INI configuration file:
 
-    * `DisabledCheats.txt``
+    * `DisabledCheats.txt`
 
     To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
