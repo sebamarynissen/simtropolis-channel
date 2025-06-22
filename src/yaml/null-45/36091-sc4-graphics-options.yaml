@@ -15,70 +15,69 @@ info:
   summary: "A DLL Plugin for SimCity 4 that sets the game's rendering mode and resolution options. "
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-A DLL Plugin for SimCity 4 that sets the game's rendering mode and resolution options.
+    A DLL Plugin for SimCity 4 that sets the game's rendering mode and resolution options.
 
-    Features
+    **Features**
 
-        Custom resolutions can be configured without command line arguments.
-        Supports borderless full screen mode without requiring a launcher.
-        Supports changing the game's rendering driver without a command line argument.
-        Allow the DirectX full screen mode to use 32-bit color.
-        Allows the game's intro to be disabled without a command line argument.
-        Allows pausing on focus loss to be enabled without a command line argument.
+    * Custom resolutions can be configured without command line arguments.
+    * Supports borderless full screen mode without requiring a launcher.
+    * Supports changing the game's rendering driver without a command line argument.
+    * Allow the DirectX full screen mode to use 32-bit color.
+    * Allows the game's intro to be disabled without a command line argument.
+    * Allows pausing on focus loss to be enabled without a command line argument.
 
     This DLL cannot change the game's full screen resolution, it will always match your monitor. If you want to run a full screen window at something other than your monitor's resolution you need to use an external window scaling program such as Magpie.
 
-    System Requirements
+    **System Requirements**
 
-        Game version 641
-            Only required for the DirectX full screen 32-bit color fix, all other features should work on older game versions.
-        Windows 10 or later
-        Microsoft Visual C++ 2022 x86 Redistribute
+    * Game version 641
+    Only required for the DirectX full screen 32-bit color fix, all other features should work on older game versions.
+    
+    * Windows 10 or later
+    * Microsoft Visual C++ 2022 x86 Redistribute
 
     The plugin may work on Windows 7 or later, but I do not have the ability to test that.
 
-    Installation
+    **Installation**
 
-        Close SimCity 4.
-        Copy SC4GraphicsOptions.dll and SC4GraphicsOptions.ini into the Plugins folder in the SimCity 4 installation directory.
-        Configure the graphics options, see the Configuring the plugin section.
+    * Close SimCity 4.
+    * Copy SC4GraphicsOptions.dll and SC4GraphicsOptions.ini into the Plugins folder in the SimCity 4 installation directory.
+    * Configure the graphics options, see the Configuring the plugin section.
 
-    Configuring the plugin
+    **Configuring the plugin**
 
-        Open SC4GraphicsOptions.ini in a text editor (e.g. Notepad).
-        Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with administrator permissions to be able to save the file.
+    * Open SC4GraphicsOptions.ini in a text editor (e.g. Notepad).
+    * Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with administrator permissions to be able to save the file.
+    * Adjust the settings in the [GraphicsOptions] section to your preferences.
+    * Save the file and start the game.
 
-        Adjust the settings in the [GraphicsOptions] section to your preferences.
-
-        Save the file and start the game.
-
-    Settings overview:
+    **Settings overview:**
 
     EnableIntroVideo controls whether the game's intro video will be played on startup, defaults to true. Setting this to false is equivalent to the -Intro:off command line argument.
 
     PauseGameOnFocusLoss controls whether the game will be paused when it looses focus, defaults to false. Setting this to true is equivalent to the -gp command line argument.
 
     Driver the driver that SC4 uses for rendering, the supported values are listed in the following table:
-    Driver 	Notes
-    DirectX 	SC4's default hardware renderer. Because this renderer targets DirectX 7, a DirectX wrapper (e.g. dgVoodo 2 or DxWrapper) is required for resolutions above 2048x2048.
-    OpenGL 	An unfinished hardware renderer. simmaster07's SCGL project aims to replace this renderer with a new one targeting OpenGL 3.0.
-    SCGL          	simmaster07's replacement for SC4's OpenGL renderer. This is an alias for the OpenGL entry above.
-    Software 	The renderer SC4 uses when no supported hardware renderer is available.
+    
+    DirectX: 	SC4's default hardware renderer. Because this renderer targets DirectX 7, a DirectX wrapper (e.g. dgVoodo 2 or DxWrapper) is required for resolutions above 2048x2048.
+    OpenGL: 	An unfinished hardware renderer. simmaster07's SCGL project aims to replace this renderer with a new one targeting OpenGL 3.0.
+    SCGL:          	simmaster07's replacement for SC4's OpenGL renderer. This is an alias for the OpenGL entry above.
+    Software: 	The renderer SC4 uses when no supported hardware renderer is available.
 
-    WindowWidth the width of SC4's window when running in windowed or full screen mode. This is ignored for the borderless full screen mode. The minimum value is 800, values above 2048 with the DirectX driver require the use of a DirectX wrapper.
+    WindowWidth: the width of SC4's window when running in windowed or full screen mode. This is ignored for the borderless full screen mode. The minimum value is 800, values above 2048 with the DirectX driver require the use of a DirectX wrapper.
 
-    WindowHeight the height of SC4's window when running in windowed or full screen mode. This is ignored for the borderless full screen mode. The minimum value is 600, values above 2048 with the DirectX driver require the use of a DirectX wrapper.
+    WindowHeight: the height of SC4's window when running in windowed or full screen mode. This is ignored for the borderless full screen mode. The minimum value is 600, values above 2048 with the DirectX driver require the use of a DirectX wrapper.
 
-    ColorDepth the color depth that SC4 uses, in bits per pixel. The supported values are 16 and 32.
+    ColorDepth: the color depth that SC4 uses, in bits per pixel. The supported values are 16 and 32.
 
     WindowMode the window mode that SC4 uses, the possible values listed in the following table:
-    Window Mode 	Notes
-    Windowed                        	Runs the game in windowed mode, the window size is set by the WindowWidth and WindowHeight values above. Equivalent to the -w command line parameter. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper.
-    FullScreen 	Runs the game in exclusive full screen mode, the window size is set by the WindowWidth and WindowHeight values above. Equivalent to the -f command line parameter. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper.
-    BorderlessFullScreen 	Runs the game a window that covers the entire screen. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper.
-    Borderless 	An alias for the BorderlessFullScreen option above.
+    
+    Windowed:    Runs the game in windowed mode, the window size is set by the WindowWidth and WindowHeight values above. Equivalent to the -w command line parameter. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper.
+    FullScreen: 	Runs the game in exclusive full screen mode, the window size is set by the WindowWidth and WindowHeight values above. Equivalent to the -f command line parameter. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper.
+    BorderlessFullScreen: 	Runs the game a window that covers the entire screen. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper.
+    Borderless: 	An alias for the BorderlessFullScreen option above.
       	 
-      	Troubleshooting
+    **Troubleshooting**
       	
 
     The plugin should write a SC4GraphicsOptions.log file in the same folder as the plugin.
@@ -89,8 +88,8 @@ A DLL Plugin for SimCity 4 that sets the game's rendering mode and resolution op
     Plugin thread: https://community.simtropolis.com/forums/topic/762952-sc4graphicsoptions
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-graphics-options
-      	If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
-      	
+    
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
 
     Thanks to the few people who have donated to me. 
 
