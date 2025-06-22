@@ -15,9 +15,58 @@ info:
   summary: "A DLL Plugin for SimCity 4 that configures the CPU core count and priority. "
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This plugin combines the functionality of the SingleCPU and CPUPriority plugins in a single DLL, and adds the ability to set the CPU priority without using a command line argument. 
-    
-    For more information visit the mod download page
+    A DLL Plugin for SimCity 4 that configures the CPU core count and priority.
+
+    This plugin combines the functionality of the SingleCPU and CPUPriority plugins in a single DLL, and adds the ability to set the CPU priority without using a command line argument.
+
+    If the *-CPUCount* and/or *-CPUPriority* command line arguments are present, those values will be used in place of the plugin's default options. When those command line arguments are not present, the plugin will configure SC4 to use 1 CPU core and the CPU priority specified in the configuration file.
+
+    This plugin is incompatible with 3rd-party launchers that set a CPU priority, it will override the CPU priority setting they set when starting the game.
+
+    **System Requirements**
+
+    * Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1. Close SimCity 4.
+    2. Remove SC4SingleCPU.dll and SC4CPUPriority.dll from the Plugins folder in the SimCity 4 installation directory, if present.
+    3. Copy SC4CPUOptions.dll and SC4CPUOptions.ini into the Plugins folder in the SimCity 4 installation directory.
+    4. Configure the plugin settings, see the Configuring the plugin section.
+
+    **Configuring the Plugin**
+
+    * Open SC4CPUOptions.ini in a text editor (e.g. Notepad). Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with administrator permissions to be able to save the file.
+    * Adjust the settings in the [CPUOptions] section to your preferences.
+    * Save the file and start the game.
+
+    **Settings Overview**
+
+    Priority is the CPU priority that the game will use, the default is AboveNormal. The supported values are listed in the following table:
+
+    * High 	 
+    * AboveNormal 	 
+    * Normal 	    The default value for a process, unless the parent process has a different value.
+    * BelowNormal 	 
+    * Idle 	 
+    * Low 	    An alias for Idle.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4CPUOptions.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/762979-sc4cpuoptions
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-cpu-options
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
+      	
+    Thanks to the few people who have donated to me. 
+
 
   warning: |-
     This DLL plugin comes with one INI configuration file:

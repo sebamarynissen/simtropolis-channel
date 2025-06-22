@@ -12,9 +12,32 @@ info:
   summary: "A DLL version of Cori's No Kickout Lower Wealth Mod (NKO) mod. "
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    Unlike Cori's mod the DLL does not override the Building Development Simulator exemplar, so it should be compatible with CAM or any other mod that alters that file. The DLL sets the Building Development Simulator Tract Developer Kick Out Lower Wealth property to false when a city is loaded. 
-    
-    For more information visit the mod download page
+    A DLL version of Cori's No Kickout Lower Wealth Mod (NKO) mod.
+
+    Unlike Cori's mod the DLL does not override the Building Development Simulator exemplar, so it should be compatible with CAM or any other mod that alters that file. The DLL sets the Building Development Simulator Tract Developer Kick Out Lower Wealth property to false when a city is loaded.
+
+    **System Requirements**
+
+    *     Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1.      Close SimCity 4.
+    2.      Copy SC4NoKickOut.dll into the Plugins folder in the SimCity 4 installation directory.
+    3.      Start SimCity 4.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4NoKickOut.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/763015-no-kickout-lower-wealth-dll-plugin/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-no-kick-out
 
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36146-no-kickout-lower-wealth-dll-plugin/"

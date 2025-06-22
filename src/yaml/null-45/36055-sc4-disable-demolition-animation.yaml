@@ -12,7 +12,33 @@ info:
   summary: "A DLL Plugin for SimCity 4 that disables the demolition animation."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    Before SC4 picks the demolition animation to use for an occupant, it calls a function to determine if the occupant is too small for a demolition animation. This DLL Plugin patches the game's memory to redirect that function call to its own version of the function, which always reports that the occupant is too small for a demolition animation. This has the effect of disabling the demolition animations for all occupants.  
+    A DLL Plugin for SimCity 4 that disables the demolition animation.
+
+    Before SC4 picks the demolition animation to use for an occupant, it calls a function to determine if the occupant is too small for a demolition animation. This DLL Plugin patches the game's memory to redirect that function call to its own version of the function, which always reports that the occupant is too small for a demolition animation. This has the effect of disabling the demolition animations for all occupants.
+
+    **System Requirements**
+
+    *     SimCity 4 version 641
+    *     Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1.      Close SimCity 4.
+    2.      Copy SC4DisableDemolitionAnimation.dll into the Plugins folder in the SimCity 4 installation directory.
+    3.      Start SimCity 4.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4DisableDemolitionAnimation.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/762938-sc4disabledemolitionanimation
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-disable-demolition-animation
 
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36055-sc4-disable-demolition-animation/"

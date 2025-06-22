@@ -14,16 +14,36 @@ info:
   summary: "A DLL plugin that allows the player to choose which cheats are enabled in-game."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    A DLL plugin that allows the player to choose which cheats are enabled in-game. 
-    
-    *Configuring the plugin*
+    A DLL plugin that allows the player to choose which cheats are enabled in-game.
 
-    Open DisabledCheats.txt in a text editor (e.g. Notepad).
-    Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with administrator permissions to be able to save the file.
+    **System Requirements:**
 
-    Add the cheat codes you wish to disable on individual lines.
+    * Windows 10 or later.
 
-    Save the file and start the game.
+    **Installation:**
+
+    1. Close SimCity 4.
+    2. Copy SC4DisableCheats.dll and DisabledCheats.txt into the Plugins folder in the SimCity 4 installation directory.
+    3. Configure the cheats you want to disable, see the Configuring the plugin section.
+
+    **Configuring the plugin:**
+
+    1. Open DisabledCheats.txt in a text editor (e.g. Notepad).
+    2. Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with administrator permissions to be able to save the file.
+    3. Add the cheat codes you wish to disable on individual lines.
+    4. Save the file and start the game.
+
+    **Troubleshooting:**
+
+    The plugin should write a SC4DisableCheats.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Support and Source Code**
+
+    The plugin thread is: https://community.simtropolis.com/forums/topic/762689-sc4disablecheats
+
+    The source code and bug tracker is located on GitHub.
+
 
 
   warning: |-

@@ -12,20 +12,46 @@ info:
   summary: "A DLL Plugin for SimCity 4 that removes phantom items from the budget department lists."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL only removes the phantom budget entries, it does not remove the buildings, lots, or other in-game effects such as the Landmark or Park effects. 
-    
-    *Using the Plugin*
+    A DLL Plugin for SimCity 4 that removes phantom items from the budget department lists.
+    This DLL only removes the phantom budget entries, it does not remove the buildings, lots, or other in-game effects such as the Landmark or Park effects.
 
-    The plugin adds a RemovePhantomBudgetItems cheat code with the following syntax
+    **System Requirements**
+
+    * Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1. Close SimCity 4.
+    2. Copy SC4RemovePhantomBudgetItems.dll into the Plugins folder in the SimCity 4 installation directory.
+    3. Start SimCity 4.
+
+    **Using the Plugin**
+
+    The plugin adds a RemovePhantomBudgetItems cheat code with the following syntax:
 
     RemovePhantomBudgetItems <category> [all]
 
-    The <category> parameter is one of Fire, Police, Jail, Power, Education or Health.
+    The <category> parameter is one of: Fire, Police, Jail, Power, Education or Health.
     The [all] parameter is optional, it makes the plugin to clear the specified budget category instead of only entries associated with plugin(s) that no longer exist. The [all] parameter is intended to be used if phantom budget items remain in the budget menu after demolishing all existing buildings in the specified category.
 
-    All commands are case-insensitive. 
-    
-    For more information visit the mod download page
+    All commands are case-insensitive.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4RemovePhantomBudgetItems.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/763391-remove-phantom-budget-items-dll-plugin/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-remove-phantom-budget-items
+
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
+
+    Thanks to the few people who have donated to me.
 
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36437-remove-phantom-budget-items-dll-plugin/"

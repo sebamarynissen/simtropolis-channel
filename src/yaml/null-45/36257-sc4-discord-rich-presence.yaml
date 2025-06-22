@@ -14,36 +14,69 @@ info:
   summary: "A DLL plugin for SimCity 4 that implements Discord rich presence support."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
+    A DLL plugin for SimCity 4 that implements Discord rich presence support.
+
     This provides more detail about what the player is doing than Discord's default behavior for SimCity 4, which only shows the total play time.
 
     In the city view, the plugin displays the city name, various city statistics and the elapsed time. In the region view, the plugin displays the region name and various region statistics. When establishing a city, the plugin displays Establishing City in <region name>.
 
-    The city and region statistics are changed at approximately 30 second intervals and include the following values. 
+    The city and region statistics are changed at approximately 30 second intervals and include the following values.
+
+    **City Statistics**
+
+    *     Mayor name
+    *     Mayor rating
+    *     Residential population
+    *     Commercial population
+    *     Industrial population
+    *     City age in years
+    *     Monthly net income
+    *     Total funds
+
+    **Region Statistics**
+
+    *     Population
+    *     Commercial jobs
+    *     Industrial jobs
+    *     Total funds
+    *     Total cities
+    *     Developed city count
+    *     Undeveloped city count
+
+    There are some rich presence customization options that the plugin doesn't currently implement, e.g. using the small status image (a small circular image that covers the 4 in the SC4 icon). I have considered using that image to show certain city and/or player actions, emergency pause, bulldozer active, UDI active, etc. But the main barrier with that feature is that I don't have appropriate images to use for those states. Discord also requires fairly large images, minimum of 512x512 pixels with a recommended size of 1024x1024 pixels.
+
+    Suggestions would be welcome.
+
+    **System Requirements**
+
+    *     Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1.     Close SimCity 4.
+    2.     Copy the Apps folder into your SimCity 4 installation directory.
+    3.     Copy the Plugins folder into the SimCity 4 installation directory or Documents/SimCity 4 directory.
+    4.     Start SimCity 4.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4DiscordRichPresence.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    If the log file was not created, ensure that discord_game_sdk.dll is in the Apps folder next to SimCity 4.exe and that the Microsoft Visual C++ 2022 x86 Redistribute has been installed.
+
+    ** Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/763193-discord-rich-presence-dll-for-SimCity-4/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-discord-rich-presence
+
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
+
+    Thanks to the few people who have donated to me.
     
-    *City Statistics*
-
-    * Mayor name
-    * Mayor rating
-    * Residential population
-    * Commercial population
-    * Industrial population
-    * City age in years
-    * Monthly net income
-    * Total funds
-
-    *Region Statistics*
-
-    * Population
-    * Commercial jobs
-    * Industrial jobs
-    * Total funds
-    * Total cities
-    * Developed city count
-    * Undeveloped city count
-
-    There are some rich presence customization options that the plugin doesn't currently implement, e.g. using the small status image (a small circular image that covers the 4 in the SC4 icon). I have considered using that image to show certain city and/or player actions, emergency pause, bulldozer active, UDI active, etc. But the main barrier with that feature is that I don't have appropriate images to use for those states. Discord also requires fairly large images, minimum of 512x512 pixels with a recommended size of 1024x1024 pixels. 
-
-
   warning: |-
     This DLL plugin comes with one additional DLL file:
 

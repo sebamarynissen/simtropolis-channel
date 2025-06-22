@@ -15,17 +15,43 @@ info:
   summary: "A DLL Plugin for SimCity 4 that extends the bulldoze tool."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
+    A DLL Plugin for SimCity 4 that extends the bulldoze tool.
+
     This plugin adds two new modes to the bulldoze tool that control which item types it demolishes.
 
-    *Flora Bulldoze Mode*
+    **Flora Bulldoze Mode**
 
     This mode is activated in the city view using a Control + B shortcut, this can be done with or without the bulldoze tool active. When the flora bulldoze mode is active, the bulldoze tool will only affect objects the game considers flora.
 
-    *Network Bulldoze Mode*
+    **Network Bulldoze Mode**
 
-    This mode is activated in the city view using a Shift + B shortcut, this can be done with or without the bulldoze tool active. When the network bulldoze mode is active, the bulldoze tool will only affect transportation networks (excluding power lines and water pipes). 
-    
-    For more information visit the mod download page
+    This mode is activated in the city view using a Shift + B shortcut, this can be done with or without the bulldoze tool active. When the network bulldoze mode is active, the bulldoze tool will only affect transportation networks (excluding power lines and water pipes).
+
+    **System Requirements**
+
+    * SimCity 4 version 641
+    * Windows 10 or later
+
+    The plugin may work on Windows 7 or later, but I do not have the ability to test that.
+
+    **Installation**
+
+    1. Close SimCity 4.
+    2. Copy SC4BulldozeExtensions.dll and BulldozeExtensions.dat into the top-level of the Plugins folder in the SimCity 4 installation directory or Documents/SimCity 4 directory.
+    3. Start SimCity 4.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4BulldozeExtensions.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-bulldoze-extensions
+
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
+
+    Thanks to the few people who have donated to me.
 
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36571-bulldoze-extensions-dll-plugin/"
