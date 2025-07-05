@@ -1,0 +1,47 @@
+group: airman15
+name: volvo-v90
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Volvo V90
+  description: |-
+    Here's a question for you- How do you combine performance, looks, practicality, and a reasonable size into a single car? Many vehicles on the market at best meet two of these requirements, three if they're lucky. Then you should take a look at the Volvo V90! A sleek design with room for a whole entourage and then some is all you need. Whether you call it a wagon, or an estate, this car has it all!
+
+    About the Upload-  
+    There are eight vehicles contained in this zip folder. Each one is a 2017 Volvo V90. These are Mid-Wealth vehicles, given their average Blue Book value. These vehicles will appear on your road networks.
+
+    Dependencies?  
+    None required.
+
+    Textures were sourced from photos by MotorAuthority.
+
+    This file was a request by Thin White Duke and has been made available for all to download!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/31102-volvo-v90/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_0.png.fa34e4cece1f4fc95dcfb9fb5fa91d36.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_1.png.92da0adc12a692614f10ebcb5be9966d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_2.png.44b1d9d7910dd4a2bb3740c0bf8d896b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_3.png.fe043849ff14166429b0862a15f77d83.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_4.png.4c629f2b6bd557cce57196818aaeb653.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_5.png.28e80393c3dc6c94462dfec45a684ba4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_6.png.e02952f7b9e0f62fac72984533946887.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_7.png.18ed907ea8ed13f934a012f67a336cf3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/volvov90_8.png.629a6cf9895fa9c7d1a1910eaf770d30.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-volvo-v90
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-volvo-v90
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-volvo-v90
+version: "1.0"
+lastModified: "2016-05-26T02:29:02Z"
+url: https://community.simtropolis.com/files/file/31102-volvo-v90/?do=download&r=161877

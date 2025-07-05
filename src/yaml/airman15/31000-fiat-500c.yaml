@@ -1,0 +1,44 @@
+group: airman15
+name: fiat-500c
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Fiat 500C
+  description: |-
+    Anyone who has lived in the city knows the problems associated with traffic. Many roads, especially ones in older and historic neighborhoods are simply not designed to accommodate large volumes of traffic. And it doesn't help as newer models of cars are up scaled from their prior incarnations. The Fiat 500 is the perfect city car! Staying true to it's original idea of a simple compact; having been designed for the tightest corners and narrowest roads, the Fiat 500 thrives where the midsize would never go!
+
+    About the Upload-  
+    There are seven vehicles contained in this zip folder. Each one is a 2015 Fiat 500C. These are Mid-Wealth vehicles, given their average Blue Book value. These vehicles will appear on your road networks.
+
+    Dependencies?  
+    None Required.
+
+    This file was requested by Titanicbuff and has been made available for all to download!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/31000-fiat-500c/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat0.png.8c169fa6d9e1822b3bd7b6a614d04d8e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat1.png.0cbd2994024dd0b46ed90e74e0bb49df.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat2.png.deebb8635abaa421bbb605294d379be5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat3.png.21c7cb5fd57af0ba2a25009e806c9dcf.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat4.png.9170ecd38413e32ffb356cc892ee4df7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat5.png.4cafd456fc809388a449998b7865453d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat6.png.afe990a566769491a14d701f159d101c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/fiat7.png.c8e364600d43add20c14e0a9b7db6800.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-fiat-500c
+      include:
+      - "/HD/"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-fiat-500c
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-fiat-500c
+version: "1.0"
+lastModified: "2016-03-19T20:11:46Z"
+url: https://community.simtropolis.com/files/file/31000-fiat-500c/?do=download&r=161100

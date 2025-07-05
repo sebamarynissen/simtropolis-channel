@@ -1,0 +1,40 @@
+group: airman15
+name: qantas-a380
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Qantas A380
+  description: |-
+    Ever need to just get away and go somewhere for a change? But do you want something more exciting than Yosemite Valley or something different than going to Beijing? Australia is the perfect answer, and to get there, why not fly on the world renowned Airbus A380 flown by Qantas? The vivid tail is just the icing on the cake when it comes to the luxury of flying on a Qantas A380.
+
+    About the upload-
+    This is a replacement for the 707. It comes with two files. One is to be used for Hardware settings and the other is to be used for Software settings. Either one will change the default 707 into an Airbus A380 in Qantas colors.
+
+    Dependencies?
+    None.
+
+    This file was requested by Habitus2013 and has been made available to the STEX for all to download!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/29267-qantas-a380/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/abd501c8cbc29557d9b176132b8e555a-qantas0.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/08fdc6e0ec7b702562624bf066b8c0f4-qantas1.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/15da07f40f3bdac2b49636135ea65be3-qantas2.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/91d35d405b0436b039bb36f347c0129a-qantas3.png
+variants:
+  - variant: { "prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-qantas-a380
+      include:
+      - "/.*HW.dat"
+  - variant: { "prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-qantas-a380
+      include:
+      - "/.*SW.dat"
+
+---
+assetId: airman15-qantas-a380
+version: "1.0"
+lastModified: "2014-02-08T23:19:03Z"
+url: https://community.simtropolis.com/files/file/29267-qantas-a380/?do=download&r=123652

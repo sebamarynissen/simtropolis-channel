@@ -1,0 +1,48 @@
+group: dolphinfox
+name: ships-pack
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Ships pack
+  description: |-
+    New version Ships pack.
+
+    The battle ship Southern Dakota is added.
+
+    Problems with a battle ship Iowa are corrected
+
+    Now the ships swim on water area of your city. Any enemy won't dare now to attack your cities!![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif)
+
+    P.S.
+
+    The one who asked to make tanks SU-85, SU-100 and ISU-152, I will make during close time. Simply I study and at me now practice.
+  author: DolphinFox
+  website: https://community.simtropolis.com/files/file/26366-ships-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/b30b6a25e99725a9529577dc07b24141-ships.jpg
+assets:
+  - assetId: dolphinfox-ships-pack
+    exclude:
+    - "/LUA_files.dat"
+dependencies:
+  - dolphinfox:lua-resources
+
+---
+group: dolphinfox
+name: lua-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: LUA automata resources
+  author: DolphinFox
+  website: https://community.simtropolis.com/files/file/26366-ships-pack/
+assets:
+  - assetId: dolphinfox-ships-pack
+    include:
+    - "/LUA_files.dat"
+
+---
+assetId: dolphinfox-ships-pack
+version: "1.0"
+lastModified: "2011-06-18T14:39:49Z"
+url: https://community.simtropolis.com/files/file/26366-ships-pack/?do=download&r=87628
