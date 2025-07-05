@@ -1,0 +1,124 @@
+group: peg
+name: cop-car-mod
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: COP CAR MOD
+  description: |-
+    Tired of those old & clunky looking cop cars? What bad 1950s movie did they find those in? Well that's all about to change with the new PEG Police Car Replacement Modd.
+
+    This pack offers you a choice of 10 new modern police car styles that replace the game's automata as well all the props around the police stations. Its all automatic... just install the style of your choice and all the police cars in the game change to that style. There's even a new static prop in each style thrown in for the use of developers who want a cop on-lot 24/7.
+
+    The available styles include:
+
+    \* 4 styles of Black & White units with varied markings:
+
+    \- Star on doors.
+
+    \- Municipal seal on doors.
+
+    \- Sheriff's Unit.
+
+    \- SimCop's police cruiser... dedicated to Officer SimCop who is the TopCop in our books... and a major contributing factor for the success of the KrispyKremes franchise.
+
+    \* 5 styles of all White units with varied markings:
+
+    \- Standard ' POLICE ' cruiser.
+
+    \- White w/ Blue stripe.
+
+    \- White w/ Orange stripe.
+
+    \- NYPD
+
+    \- St. Lucie County Sheriff's Department in Florida. Dedicated to Deputy Dan1083 who is serving with pride through thick & thin... not to mention several hurricanes.
+
+    \* The official S.C.P.D. police cruiser... a "powerfully" blue & white unit that stands out and lets your Sims know that SimCity's finest is on the job.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11186-peg-cop-car-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2c15f70f18a0bc902dee67b7aafe052e-product_image.jpg
+variants:
+  - variant: { peg:cop-car-mod:livery: black-and-white-star }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_BW-Star_205.dat"
+  - variant: { peg:cop-car-mod:livery: black-and-white-seal }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_BW-Seal_205.dat"
+  - variant: { peg:cop-car-mod:livery: black-and-white-sheriff }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_BW-Sheriff_205.dat"
+  - variant: { peg:cop-car-mod:livery: black-and-white-simcop }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_BW-Police_205.dat"
+  - variant: { peg:cop-car-mod:livery: all-white-standard }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_WHT-Seal_205.dat"
+  - variant: { peg:cop-car-mod:livery: all-white-blue-stripe }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_WHT-BlueStripe_205.dat"
+  - variant: { peg:cop-car-mod:livery: all-white-orange-stripe }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_WHT-OrangeStripe_205.dat"
+  - variant: { peg:cop-car-mod:livery: all-white-nypd }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_NYPD_205.dat"
+  - variant: { peg:cop-car-mod:livery: all-white-st-lucie }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_St-Lucie-Sheriff_205.dat"
+  - variant: { peg:cop-car-mod:livery: all-white-scpd }
+    assets:
+      - assetId: peg-cop-car-mod
+        include:
+        - "/PEG_CopCar_SCPD_205.dat"
+variantInfo:
+- variantId: "peg:cop-car-mod:livery"
+  description: Customize the police vehicle livery.
+  values:
+  - value: "black-and-white-star"
+    description: Black & White unit with a star on doors.
+  - value: "black-and-white-seal"
+    description: Black & White unit with a municipal seal on doors.
+  - value: "black-and-white-sheriff"
+    description: Black & White Sheriff's unit.
+  - value: "black-and-white-simcop"
+    description: Black & White SimCop's police cruiser ... dedicated to Officer SimCop who is the TopCop in our books ... and a major contributing factor for the success of the KrispyKremes franchise.
+  - value: "all-white-standard"
+    description: All white standard police cruiser.
+  - value: "all-white-blue-stripe"
+    description: All white unit with a blue stripe.
+  - value: "all-white-orange-stripe"
+    description: All white unit with an orange stripe.
+  - value: "all-white-nypd"
+    description: All white NYPD unit.
+  - value: "all-white-st-lucie"
+    description: All white unit from St. Lucie County Sheriff's Department in Florida. Dedicated to Deputy Dan1083 who is serving with pride through thick & thin ... not to mention several hurricanes.
+  - value: "all-white-scpd"
+    description: The official S.C.P.D. police cruiser ... a "powerfully" blue & white unit that stands out and lets your Sims know that SimCity's finest is on the job.
+
+
+---
+assetId: peg-cop-car-mod
+version: "1.1"
+lastModified: "2025-05-02T23:41:01Z"
+url: https://community.simtropolis.com/files/file/11186-peg-cop-car-mod/?do=download&r=207358
