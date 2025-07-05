@@ -7,7 +7,7 @@ assets:
   withChecksum:
   - include: "/SC4AutoSave.dll"
     sha256: 5D819251AD2F87D6C9DF5753AC3F610359AFBB991BB03F4FC530DF16B36A224B
-  - include: "/SC4AutoSave.dll"
+  - include: "/SC4AutoSave.ini"
     sha256: 554C0F01F9D9EAD2FA1169D9723E5219B0C3CD0FCB4F4CB6FB5DCCC3A5BC8F86
 
 info:
@@ -76,5 +76,5 @@ info:
 assetId: "null-45-sc4-autosave"
 version: "1.2.0"
 lastModified: "2024-01-21T04:05:42Z"
-nonPersistentUrl: "https://community.simtropolis.com/files/file/36437-remove-phantom-budget-items-dll-plugin/?do=download"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/35761-sc4-auto-save/?do=download"
 url: "https://github.com/0xC0000054/sc4-auto-save/releases/download/v1.2.0/SC4AutoSave.zip"
