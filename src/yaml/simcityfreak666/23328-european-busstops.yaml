@@ -1,0 +1,65 @@
+group: simcityfreak666
+name: european-busstops
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: European Busstops
+  description: |-
+    This download contains 2 versions of a European Busstop (one for use in suburban- and one for urban areas) The models are based on busstops which are common to see in Germany and other European countries. The lots are modefied to show 6 different advertising spaces (o2,DHL,Mc Donalds, Burger King, SimCity 4 and a custom one). Each time you will place the busstop it will show another advertisment.
+
+    This is my first upload so I'm sorry if I've made mistakes, but  at least it worked when I was testing it.
+
+    So i hope you like it and have fun using it.
+
+    Dependencies are:
+
+    SFBT : birch Trees by ArkenbergJoe
+
+    SFBT essentials
+
+    BSC mega prop CP
+
+    Thanks to:
+
+    logan 123 for testing
+
+    SFBT team and arkenbergjoe for allowence to use their props
+
+    BSC team for allowence to use their props
+  author: SimCityFreak666
+  website: https://community.simtropolis.com/files/file/23328-european-busstops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/86a47c516db5a83b34dedd269ae1319a-bushalze v2 4 shots.JPG
+    - https://www.simtropolis.com/objects/screens/0015/86a47c516db5a83b34dedd269ae1319a-suburban version.JPG
+dependencies:
+  - simcityfreak666:european-busstops-models
+  - bsc:mega-props-cp-vol01
+  - sfbt:essentials
+  - sfbt:random-seasonal-birch-trees-props
+assets:
+  - assetId: simcityfreak666-european-busstops
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: simcityfreak666
+name: european-busstops-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=simcityfreak666:european-busstops`
+  author: SimCityFreak666
+  website: https://community.simtropolis.com/files/file/23328-european-busstops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/86a47c516db5a83b34dedd269ae1319a-bushalze v2 4 shots.JPG
+    - https://www.simtropolis.com/objects/screens/0015/86a47c516db5a83b34dedd269ae1319a-suburban version.JPG
+assets:
+  - assetId: simcityfreak666-european-busstops
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: simcityfreak666-european-busstops
+version: "1.0"
+lastModified: "2010-02-11T10:36:58Z"
+url: https://community.simtropolis.com/files/file/23328-european-busstops/?do=download&r=50085

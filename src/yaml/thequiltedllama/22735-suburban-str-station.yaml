@@ -1,0 +1,70 @@
+group: thequiltedllama
+name: suburban-str-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Suburban STR Station
+  description: |-
+    **Suburban STR Station**
+
+    *By TheQuiltedLlama*
+
+    A small railway station for use with the Single Track Rail Mod. I've included one lot for use with str and one for standard railway, with a platform at one side only.
+
+    Please [http://i220.photobucket.com/albums/dd44/TheQuiltedLlama/Untitled-4copy-2.jpg">click](<a href=) here to view a larger image before rating.
+
+    Stats.
+
+    Plop cost: £200
+
+    Cost: £10
+
+    Pollution: None
+
+    Power: 10
+
+    Water: 10
+
+    Capacity: 1000
+
+    Dependencies.
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1996">RAM](<a href=) - Single Track Rail (STR)
+
+    Feel free to redistribute the files contained in this download as you wish.
+  author: TheQuiltedLlama
+  website: https://community.simtropolis.com/files/file/22735-smp-suburban-str-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/e2e9dd44b385fdffa076cfdda3c08f3e-stes01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/c975d1320e3818a9780e3615e70d4a98-stes02.jpg
+dependencies:
+  - thequiltedllama:suburban-str-station-model
+assets:
+  - assetId: thequiltedllama-smp-suburban-str-station
+    exclude:
+      - "/str-0x5ad0e817_0xd4740fe8_0xb0000.SC4Model"
+
+---
+group: thequiltedllama
+name: suburban-str-station-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=thequiltedllama-smp-suburban-str-station`
+  author: TheQuiltedLlama
+  website: https://community.simtropolis.com/files/file/22735-smp-suburban-str-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/e2e9dd44b385fdffa076cfdda3c08f3e-stes01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/c975d1320e3818a9780e3615e70d4a98-stes02.jpg
+assets:
+  - assetId: thequiltedllama-smp-suburban-str-station
+    include:
+      - "/str-0x5ad0e817_0xd4740fe8_0xb0000.SC4Model"
+
+
+
+---
+assetId: thequiltedllama-smp-suburban-str-station
+version: "1.0"
+lastModified: "2009-10-25T11:25:45Z"
+url: https://community.simtropolis.com/files/file/22735-smp-suburban-str-station/?do=download&r=93421
