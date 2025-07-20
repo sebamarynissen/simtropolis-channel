@@ -1,0 +1,45 @@
+group: peg
+name: cdk-oww-sv-ferry-landing
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: CDK-OWW SV Ferry Landing
+  description: |-
+    A variation off of the CDK\-OWW Ferry Landing, this version is designed specifically for use with the PEG CDK Seaport Village collection. This is a fully functional, new ferry terminal. It does not replace the original game ferry terminal and can freely be used with them; CDK Ferry Landing on one side... traditional Ferry Terminal on the other.
+
+    The PEG Ferry Landings have the same plop & maintenance costs as the original as well as the same capacity. But that's where the similarities end. The Ferry Landing is wider but shallower in size (4x3 tiles vs. 3x5 tiles) and is transit enabled to allow avenues to connect directly to it... instead of the roads used on the original. This should ease some traffic issues associated with the default ferries that can lower desirability and mayor ratings. Optionally, you can place a road perpendicular to the lot and connect to this with high-volume one-way streets, roads or even streets.
+
+    This variation uses the Seaport Random Shops props which allow the two shops on the lot to be randomly different on each lot. The shops will also blend seamlessly with any adjacent Seaport Village lot, forming a continuous shopping strip/structure.
+
+    In contrast to the original terminal, the Ferry Landing is a CDK lot which does not protrude several tiles out into the water. As the water depth is generally shallower nearer the shore, care must be taken to ensure that the water depth is deep enough for the ferry to operate. If it is not, the ferry will not function.  ( \* see ReadMe file Developer's Notes for more details)
+
+    \*\* Special thanks to BarbyW, Andreas, Blackbeard, ParadiseFarm, & Swamper77  
+    for their assistance during the development of this project.
+
+    \*\* Use of the CDK Leveler Tool is recommended for use with all CDK lots.
+
+    **The PEG CDK\-SV Ferry Landing requires installation of the PEG CDK\-SV (Seaport Village) style and has these specific dependencies which most users of the CDK already have installed:**
+
+    **PEG CDK\-REC PROP-PAK Vol1  
+    PEG CDK\-OWW Development Kit Vol1  
+    PEG CDK\-SV\_PlazaPak1  
+    PEG CDK\-SV Random Shops**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/13227-peg-cdk-oww-sv-ferry-landing/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6efee538ae68d044ad0ff6fd938d3cc7-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6efee538ae68d044ad0ff6fd938d3cc7-product_image2.jpg
+assets:
+  - assetId: peg-cdk-oww-sv-ferry-landing
+dependencies:
+  - peg:cdk-oww-development-pack-vol1
+  - peg:cdk-oww-sv-random-shops
+  - peg:cdk-oww-sv-plaza-pack-1
+
+---
+assetId: peg-cdk-oww-sv-ferry-landing
+version: "1.1"
+lastModified: "2025-06-07T21:56:40Z"
+url: https://community.simtropolis.com/files/file/13227-peg-cdk-oww-sv-ferry-landing/?do=download&r=207975

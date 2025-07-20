@@ -1,0 +1,31 @@
+group: peg
+name: csk2-addon-1
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: CSK2 AddOn 1
+  description: |-
+    Our first add-on pack for the new ***CSK2*** is aptly named as its all about **Crossing Over**... and getting to the other side. This add-on contains 6 new lots that parrot the Bridge and Extender lots used in the PEG Pond Kit.
+
+    The **Bridge Lots** consists of a left, right and center bridge facade to be used along both sides of a row(s) of blank tiles that cross over the channels. You can then run road, rail, avenues, etc... across those blank tiles and the channel will appear to flow under it..
+
+    The **Extender Lots** work in a similar fashion for use with elevated networks such as monorails or the elevated highways. The extender lots are actually only 1x1 in size, but they also have an offset rendered BAT model that extends to cover a 2nd adjacent tile. This adjacent tile, although covered with the BAT model, is actual blank and therefore networks can run across it.
+
+    **This lot requires the PEG CSK2**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/13648-peg-csk2-addon-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/47717de04f2488600e46b6022aebc607-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0009/47717de04f2488600e46b6022aebc607-product_image2.jpg
+assets:
+  - assetId: peg-csk2-addon-1
+dependencies:
+  - peg:csk-channel-stream-kit
+
+---
+assetId: peg-csk2-addon-1
+version: "1.1"
+lastModified: "2025-06-07T23:03:12Z"
+url: https://community.simtropolis.com/files/file/13648-peg-csk2-addon-1/?do=download&r=208022

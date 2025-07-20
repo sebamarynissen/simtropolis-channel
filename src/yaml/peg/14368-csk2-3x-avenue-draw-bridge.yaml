@@ -1,0 +1,42 @@
+group: peg
+name: csk2-3x-avenue-draw-bridge
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: CSK2 3x Avenue Draw Bridge
+  description: |-
+    Next in our **CSK2** line up is the classic Draw Bridge. This is the type of bridge that "draws" the most attention from on-lookers as they can be quite a sight to see when opened to allow ships and boats to pass underneath.
+
+    For hundreds of years, Draw Bridges have been used to provide a convenient means to get road traffic across water... while still allowing water traffic to navigate past the bridge. Virtually all draw bridges are counter-weighted in some fashion to make raising the bridge much easier. This modern version, driven by gears and powerful electric motors that are concealed in engineering spaces built into the bridge foundation, is typical of many draw bridges built after 1930 and still built today.
+
+    This Draw Bridge is designed to allow Avenues to cross canals that are 3 tiles wide. The lot itself is 4 tiles wide, to accommodate the scows that appear when the bridge is open. All other aspects of the bridge are similar to the CSK2 Lift Bridges.
+
+    This bridge is not a static prop. It will raise and lower several time during the Sim day... and different types of scows, heading in different directions, will appear when the bridge is up. And as with all CSK/CSK2 bridges, the safety gates on each side of the bridge change with the bridge; down when the bridge is up and up when the bridge is down.
+
+    This lot plops as part of your channel/canal system. It is fully traffic enabled for all road traffic (peds, cars, buses, trucks, the General Lee, etc...) & you can see the traffic cross when the bridge is closed. When the bridge is open, traffic will continue to cross however it's not visible and just disappears as it crosses. This was done because the bridge stays open for 2-3 hours (game time) so that the player can actually see it open... and that's a long time to stop up traffic and would otherwise impact the game.
+
+    This lots have no YIMBY/NIMBY effect, They are cheap to plop and cheap to maintain.
+
+    **\*\* This lot requires installation of the**  
+    [PEG CSK2 Varible Width Canals](https://community.simtropolis.com/files/file/13629-peg-csk2-varible-width-canals/)  
+    [PEG CSK2 Scow Prop Pack](https://community.simtropolis.com/files/file/15668-peg-csk2-scows-prop-pack/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made deps clickable linkys.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/14368-peg-csk2-3x-avenue-draw-bridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b28a8612e12edbbf77981331f7d41104-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b28a8612e12edbbf77981331f7d41104-product_image2.jpg
+dependencies:
+  - peg:ppond-scows
+  - peg:csk2-varible-width-canals
+assets:
+  - assetId: peg-csk2-3x-avenue-draw-bridge
+
+---
+assetId: peg-csk2-3x-avenue-draw-bridge
+version: "1.1"
+lastModified: "2025-06-07T22:48:14Z"
+url: https://community.simtropolis.com/files/file/14368-peg-csk2-3x-avenue-draw-bridge/?do=download&r=208010

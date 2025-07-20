@@ -1,0 +1,47 @@
+group: peg
+name: csk2-small-port
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: CSK2 Small Port
+  description: |-
+    The **CSK2 Small Port** is a fully functional seaport that can be placed on the **CSK2 Canals** anywhere in your city. We have taken the "sea" out of the Seaport so you no longer have to muck up prime coastal properties with a nasty old seaport.
+
+    You also no longer have to slave your industrial development to proximity to oceans or rivers. Anywhere that you have industry and canals, you can now also have a functional port. Just watch your industry thrive with the short & cheap freight trips this combination can provide.
+
+    The Small Port is notably smaller than a normal seaport; a mere 2x5 land tiles in size. It provides half the capacity of a normal seaport... at half the price & expense... and less than half the filth. The Small Port does not provide any rail freight handling facilities. This makes it an ideal choice for servicing small or remote industrial zones without rail service.
+
+    \* A larger, full capacity CSK2 Port with facilities for rail freight will soon follow this release.
+
+    **\*\*** Special Thanks to Swamper77, BarbyW, ParadiseFarm & BlackBeard for their time & effort in extended testing of this lot.
+
+    **\*\* IMPORTANT NOTICE \*\***  
+    This download contains two versions of the lot and both will be installed. Only one version can be used and the file of the other version must be manually removed by you from the installed sub-folder in your Plugins folder.
+
+    The file name of the recommended version is ***zPEG\_3x5\_CSK2\_Port-Small\_205f.dat*** .  This version uses its own, built-in **Common Seaport Registry** which. like the Swamper77 Seaport Support mod, allows this lot to be compatible with other existing seaport lots. However, it is **NOT** compatible with the Swamper77 Seaport Support mod which must **not** be installed for this lot to function properly.
+
+    The file name of the other version is ***PEG\_3x5\_CSK2\_Port-Small\_SW77\_205f.dat***. This version **is** compatible with the Swamper77 Seaport Support mod. We had mixed results when testing this lot with that mod and therefore can not support this version. But we have included it  so players have the option of determining which version works best on their machine.
+
+    **\*\*** Very Special Thanks to **Swamper77** for developing the common seaport support concept and his work toward making seaport lots compatible with each other.
+
+    **\*\* This Add-On requires the [PEG CSK2](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=all&category=default&sortby=DatePosted&show=12&Str=peg%20csk), the [PEG CSK2 Docks](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=all&category=default&sortby=DatePosted&show=12&Str=peg%20csk) & the [PEG CSK2 Scows](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=all&category=default&sortby=DatePosted&show=12&Str=peg%20csk) .**
+
+    **Don't forget to Download the other [CSK & CSK2 Kits &  Add-Ons](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=all&category=default&sortby=DatePosted&show=12&Str=peg%20csk).**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/32271-peg-csk2-small-port/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/product_image.jpg.814c6bdfd334b6325568b835f4ad331e.jpg
+assets:
+  - assetId: peg-csk2-small-port
+dependencies:
+  - peg:ppond-scows
+  - peg:csk-channel-stream-kit
+  - peg:csk2-whats-up-dock
+
+---
+assetId: peg-csk2-small-port
+version: "1.1"
+lastModified: "2025-06-07T23:22:13Z"
+url: https://community.simtropolis.com/files/file/32271-peg-csk2-small-port/?do=download&r=208031

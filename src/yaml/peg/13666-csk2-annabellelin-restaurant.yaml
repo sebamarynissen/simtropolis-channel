@@ -1,6 +1,6 @@
 group: peg
 name: csk2-annabellelin-restaurant
-version: "1.1"
+version: "1.1-1"
 subfolder: 360-landmark
 info:
   summary: CSK2 Annabellelin Restaurant
@@ -17,8 +17,6 @@ info:
     **This file requires the following dependency:  
     PEG CSK2**
 
-    **\*\*This file currently contains an .exe installer suitable for windows users.  These files are in the process of being updated with zip files and this message will be removed once the update is complete.**
-
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   author: Pegasus
   website: https://community.simtropolis.com/files/file/13666-peg-csk2-annabellelin-restaurant/
@@ -31,6 +29,7 @@ assets:
       - "/PEG_Annabellin_RESOURCE.dat"
 dependencies:
   - peg:csk2-annabellelin-restaurant-resource
+  - peg:csk-channel-stream-kit
 
 ---
 group: peg

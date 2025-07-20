@@ -1,0 +1,39 @@
+group: peg
+name: cdk-rec-fishermans-wharf
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: CDK-REC Fishermans Wharf
+  description: |-
+    It just ain't a seaport without a **Fisherman's Wharf !!** The original Fisherman's Wharf returns having been rebuilt from the seabed up. This is a brand new lot and does not require removal of the original lot.
+
+    In any port area fortunate to have one, the Fisherman's Wharf is the focal point of all tourism as well as the central retail outlet for local commercial fisherman. With the finest seafood restaurant in town upstairs and an active fish market below, the Wharf is a constant hub of activity as well as a classic icon of the sea.
+
+    Small freight shuttle boats and water taxis will arrive and depart throughout the day... bringing customers from across the bay and picking up seafood to be delivered to other restaurants and shops in the area. At night, the market activity quiets down but the restaurant continues to serve diners well into the morning hours. Prepare to see many a limo bringing the city's elite & privileged to this popular tourist magnet.
+
+    This lot is designed for use  with the PEG\-CDK REC style lots... but can be used with the IND style or as a stand-alone lot. It sits on a 4x3 tile lot, is transit enabled, and provides CS$$$ jobs and income from taxes. The interior of the restaurant is fully detailed right down to the red & white checkered table cloths. This looked great in the BAT but unfortunately, is all but invisible in the game without dramatically over-sizing the windows. Still, a small bit of it is visible at night.
+
+    There are two unique stats listed in the query; Fish Tons Sold this Month & Lobster Escapes. The Fish Tons Sold value is dictated by the city's population. The larger the city... the more fish that will sell. Lobster Escapes are influenced by the current Mayor Rating and you can use this to gauge your performance.. The higher the rating, the fewer lobsters that escape. If you are losing fewer than 25-30 lobsters, you're doing pretty darn good.
+
+    **This lot requires the following dependencies:**
+
+    **PEG\-CDK Prop Pack (Volume 1)  
+    PEG\-CDK REC Seawall Kit (Volume 1)**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11776-peg-cdk-rec-fishermans-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c08cb91bbebc1fb0075d8b9ed9cccdc2-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/c08cb91bbebc1fb0075d8b9ed9cccdc2-product_image2.jpg
+assets:
+  - assetId: peg-cdk-rec-fishermans-wharf
+dependencies:
+  - peg:cdk-rec-prop-pack-1
+  - peg:cdk-rec-seawall-kit-vol1
+
+---
+assetId: peg-cdk-rec-fishermans-wharf
+version: "1.1"
+lastModified: "2025-06-07T22:06:09Z"
+url: https://community.simtropolis.com/files/file/11776-peg-cdk-rec-fishermans-wharf/?do=download&r=207992

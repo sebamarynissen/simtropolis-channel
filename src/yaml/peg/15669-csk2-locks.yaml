@@ -1,0 +1,39 @@
+group: peg
+name: csk2-locks
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: CSK2 Locks
+  description: |-
+    The long-awaited locks for the multi-width CSK2 Canals are finally here. The many mechanical model issues involving the BAT's LODs with below ground modeling and multiple water depths have been resolved... and these puppies are now ready to literally allow your commerce to "go down to the sea in ships".
+
+    Two versions of the locks are included; one for running your canals to the ocean (game water) and one for use anywhere along your canal system where you need to raise or lower the level of your canals. Both are 2 tiles wide by 6 tiles long... and both align automatically to the contours of the terrain.
+
+    These puppies are long, Boys & Girls. Although originally designed to handle the larger Scows built for the CSK2, they can handle vessels that are much longer.
+
+    In order to simulate activity and traffic, the water level in the locks raises and falls throughout the (game) day. When the water level is lowered, a river scow can be seen in the lock. This scow is part of the lock model. When the water level is raised, one of the random scows from the PEG Scows Prop Pack will appear at different times throughout the day.
+
+    Except for being wider and much longer, these locks plop just like the original single-width CSK locks. However, because they are longer, you have more flexibility with their placement in regard to the slope. They can be plopped with the lock extending several tiles beyond the slope... or snugged up close to the slope as was the only option with the original single-width CSK Locks.
+
+    **\*\* This file requires the following dependencies:**
+
+    PEG CSK2   
+    PEG CSK2 Scows Prop Pack
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/15669-peg-csk2-locks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/b9816625b4df859ffcdc83949f218082-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/b9816625b4df859ffcdc83949f218082-product_image2.jpg
+assets:
+  - assetId: peg-csk2-locks
+dependencies:
+  - peg:csk-channel-stream-kit
+  - peg:ppond-scows
+
+---
+assetId: peg-csk2-locks
+version: "1.1"
+lastModified: "2025-06-07T23:04:39Z"
+url: https://community.simtropolis.com/files/file/15669-peg-csk2-locks/?do=download&r=208025
