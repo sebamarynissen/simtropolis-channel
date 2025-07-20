@@ -1,0 +1,60 @@
+group: andisart
+name: gt-tower-east
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: GT Tower East
+  description: |-
+    **GT Tower East**
+
+    Origin: Seoul, South Korea
+
+    Completion: 2011
+
+    Building Height: 130m
+
+    Lot Size: 4x2
+
+    Transit enabled: you can connect the road to the parking garage!
+
+    Contains growable and ploppable with office jobs (1230 CO$$$).
+
+    Also contains landmark version.
+
+    Grows on Houston and Europe tileset.
+
+    See ReadMe for full details.
+
+    No dependencies.
+
+    Download either the DarkNite version (requires [this mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) or the MaxisNite version.
+
+    DarkNite recommended.
+
+    ![13608173683_cb911057c7_b.jpg](https://farm8.staticflickr.com/7037/13608173683_cb911057c7_b.jpg)
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/29406-gt-tower-east/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/final_square.jpg.59fff523e0d3faa42bf44f7358a95b88.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/release_2.jpg.537f9374d9655a388554e49b70b0a3ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/release_1.jpg.e6312df832e83fb42a54b62bd2374b86.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: andisart-gt-tower-east-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: andisart-gt-tower-east-darknite
+
+---
+assetId: andisart-gt-tower-east-maxisnite
+version: "1.0"
+lastModified: "2016-10-28T08:22:47Z"
+url: https://community.simtropolis.com/files/file/29406-gt-tower-east/?do=download&r=163591
+
+---
+assetId: andisart-gt-tower-east-darknite
+version: "1.0"
+lastModified: "2016-10-28T08:22:47Z"
+url: https://community.simtropolis.com/files/file/29406-gt-tower-east/?do=download&r=163592
