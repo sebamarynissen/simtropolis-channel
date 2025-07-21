@@ -1,9 +1,14 @@
 // # sc4d.js
 // Index of sc4devotion ids to known packages.
 export default {
+	27: 'bsc:jrj-cpt-trees-as-props',
 	90: 'bsc:textures-vol01',
 	97: 'cleanitol',
 	101: 'bsc:texturepack-cycledogg-vol01',
+	106: [
+		'bsc:mega-props-jenx-vol03',
+		'bsc:textures-vol02',
+	],
 	167: [
 		'bsc:mega-props-jrj-vol04',
   		'bsc:mega-props-jrj-vol05',
@@ -41,7 +46,8 @@ export default {
 	746: 'bsc:mega-props-sg-vol01',
 	750: 'sfbt:essentials',
 	791: 'bsc:mega-props-jes-vol04',
-	851: 'nam',
+	851: 'nam:network-addon-mod',
+	852: 'nam:network-addon-mod',
 	925: 'sfbt:kenworth-rail-catenaries-props',
 	1117: 'bsc:sg-models-large-stores',
 	1119: 'bsc:sg-models-malls',
@@ -72,9 +78,12 @@ export default {
 	1891: 'bsc:mega-props-jbsimio-vol03',
 	1892: 'ac:mega-props-vol02',
 	1893: 'ac:mega-props-vol03',
+	1902: 'sfbt:royal-light-signal-props',
 	1903: 'sfbt:kenworth-royal-railway-props',
 	1931: 'bsc:mega-props-t1-vol03',
 	1955: 'orange:mega-props-vol01',
+	1996: 'nam:network-addon-mod', //RAM Single Track Rail(STR) (Windows)
+	1997: 'nam:network-addon-mod', //RAM Single Track Rail(STR) (Mac)
 	2031: 'sfbt:royal-aral-gas-station',
 	2044: 'ac:mega-props-vol05',
 	2074: [
@@ -91,6 +100,7 @@ export default {
 	2383: 'bsc:bat-props-mattb325-vol02',
 	2489: 'bsc:mega-props-t1-vol03',
 	2540: 'sfbt:sam-johnson-playground-props',
+	2556: 'sfbt:peterycristi-props',
 	2612: 'lowkee33:seasonal-flora-patch-maxis',
 	2614: 'girafe:maples',
 	2620: 'girafe:birches',

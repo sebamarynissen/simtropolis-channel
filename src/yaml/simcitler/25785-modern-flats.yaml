@@ -1,0 +1,94 @@
+group: simcitler
+name: modern-flats
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: modern flats
+  description: |-
+    This lot pack contains 2 additional Lots for sheep´s European Block BAT. (Original found here: [Europack vol.02 modern block](https://www.simtropolis.com/stex/details.cfm?id=16617) by sheep)
+
+    bigger pics:
+
+    [pic\_1](http://www.ld-host.de/show/b3bfb90fc579593ca334fb39e8e1ce97.jpg)
+
+    [pic\_2](http://www.ld-host.de/show/413569e3240a77d8c0f8662ea759e5fb.jpg)
+
+    STATS modern flats:
+
+    Both lots will grow on medium and high density residential zones in Euro and Houston tilesets.
+
+    Both lots are R$$.
+
+    Stage: 5
+
+    occupants: 242 R$$/ 436 R$
+
+    value (tax): 6.291
+
+    power consumed: 4 MWh/month
+
+    water consumed: 10 m³/month
+
+    air purification: 2 over 5 tiles
+
+    water purification: 1 over 6 tiles
+
+    garbage: 4 over 0 tiles
+
+    construction time: 31 days
+
+    bulldoze cost: 318
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    Dependencies:
+
+    rynek\_trojkaty6-0x5ad0e817\_0x91657448\_0x280000.SC4Model
+
+    ^^This is the model file created by sheep. Without it you will see a big brown box on the lots!
+
+    The file is included in here: [Europack vol.02 modern block](https://www.simtropolis.com/stex/details.cfm?id=16617)
+
+    [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [SFBT Essentials (Version Dec. 2010)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    Installation:
+
+    just unzip the files into your Plugins folder!
+
+    Due to the fact that i created new \*.SC4DESC files for these lots, there should be no conflicts with the original lots by sheep.
+
+    Credits go to:
+
+    sheep, for his great BAT.
+
+    Another Thank you to various members of the BSC Team for their Texture creations, and to all creators of props used on the lots!
+
+    special thanks to the simforum community for their advice and help.
+
+    Hope you like!
+
+    Simcitler
+
+    check out [my other lots](https://www.simtropolis.com/stex/index.cfm?p=files&view=mine&userid=358910) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0)
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/25785-modern-flats/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6a4e65b41ac3faf755a36eba8248b690-modern_flats_day.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6a4e65b41ac3faf755a36eba8248b690-modern_flats_night.jpg
+dependencies:
+  - sheep:europack-vol2-modern-block-model
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-modern-flats
+
+---
+assetId: simcitler-modern-flats
+version: "1.0"
+lastModified: "2011-01-28T06:59:15Z"
+url: https://community.simtropolis.com/files/file/25785-modern-flats/?do=download&r=53779

@@ -1,0 +1,75 @@
+group: sheep
+name: europack-vol2-modern-block
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Europack vol. 2 - Modern Block
+  description: |-
+    **Europack vol.2: Modern Blocks**
+
+    * * *
+
+    Here's a new release of european style buildings. This edition contains one tripple modern building inspired by architecture of Koszalin, the city where I live. It's a characteristic, slender block with parking and garages at the back. It has nightlights, but I can't show how does it look ingame, cause I'm unable to install patch from Maxis which fixes the nightlight issue.
+
+    I've also updated today the older, first part of the Europack: the problem with too saturated rooftiles has been fixed, and the nightlights have been added too. You can download updated version [here](https://www.simtropolis.com/stex/index.cfm?id=16392)
+
+    * * *
+
+    **Dependencies:**
+
+    -   European Cars automata [New Instances](https://www.simtropolis.com/stex/index.cfm?id=14400) or [Replacement](https://www.simtropolis.com/stex/index.cfm?id=12973) mod by mikeseith, just to show the parked cars at the back.
+
+    **Stats:**
+
+    -   Building Type: residential medium wealth
+    -   Building Value: 8500
+    -   Bulldoze Cost: 350
+    -   Capactity Satisfied: 144($$) 199($)
+    -   Tilesets: European, Houston
+    -   Construction Time: 31 days
+    -   Flammability: 40
+    -   Max Fire Stage: 4
+    -   Pollution at center: 6, 6, 3, 0
+    -   Polution radii: 5, 6, 0, 0
+    -   Power Consumed: 3
+    -   Water Consumed: 34
+    -   Worth: 318
+
+    * * *
+
+    enjoy, sheep
+  author: sheep
+  website: https://community.simtropolis.com/files/file/16617-europack-vol-2-modern-block/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/11f38ff892299a7f057ae6a48594472b-screen1.jpg
+    - https://www.simtropolis.com/objects/screens/0003/11f38ff892299a7f057ae6a48594472b-screen2.jpg
+dependencies:
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+  - sheep:europack-vol2-modern-block-model
+assets:
+  - assetId: sheep-europack-vol2-modern-block
+    exclude:
+      - "/rynek_trojkaty6-0x5ad0e817_0x91657448_0x280000.SC4Model"
+
+---
+group: sheep
+name: europack-vol2-modern-block-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=europack-vol2-modern-block`
+  author: sheep
+  website: https://community.simtropolis.com/files/file/16617-europack-vol-2-modern-block/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/11f38ff892299a7f057ae6a48594472b-screen1.jpg
+    - https://www.simtropolis.com/objects/screens/0003/11f38ff892299a7f057ae6a48594472b-screen2.jpg
+assets:
+  - assetId: sheep-europack-vol2-modern-block
+    include:
+      - "/rynek_trojkaty6-0x5ad0e817_0x91657448_0x280000.SC4Model"
+
+---
+assetId: sheep-europack-vol2-modern-block
+version: "1.0"
+lastModified: "2006-08-12T08:35:49Z"
+url: https://community.simtropolis.com/files/file/16617-europack-vol-2-modern-block/?do=download&r=39419
