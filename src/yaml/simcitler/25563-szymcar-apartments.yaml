@@ -1,0 +1,103 @@
+group: simcitler
+name: szymcar-apartments
+version: "1.0"
+subfolder: 200-residental
+info:
+  summary: szymcar apartments
+  description: |-
+    **szymcar apartments**  
+
+      
+    This Lot pack contains six (growable) residential lots using BATs made by szymcar!  
+    Due to a lack of R$$ lots for my own projects i decided to give these nice BAT´s (3 different colours) a new home.  
+      
+    Included are 6 different lots (two 3x3; two 5x4; two 5x5) which contain either 1, 2 or 3 buildings, which will be selected randomly.  
+    Therefore i created an prop family of the building.  
+      
+    **bigger pictures:**  
+    [3x3 lots](http://www.ld-host.de/show/f81434fc1e431360921507cffca50025.jpg)  
+    [5x4 lots](http://www.ld-host.de/show/b78675ca23a55dd975b926f6c4edf79c.jpg)  
+    [5x5 lots](http://www.ld-host.de/show/74f88131167b162506f23a530cea7f64.jpg)  
+      
+    **STATS szymcar apartments:**  
+    All lots will grow on medium and high density residential zones in Euro and Houston tilesets.  
+    All lots are R$$/medium wealth residentials.  
+      
+    **STATS 3x3 lots:**  
+    Stage: 4  
+    occupants: 148 R$$/ 265 R$  
+    value (tax): 3.500  
+    power consumed: 2 MWh/month  
+    water consumed: 7 m³/month  
+    air purification: 1 over 4 tiles  
+    water purification: 1 over 4 tiles  
+    garbage: 4 over 0 tiles  
+    construction time: 33 days  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    **STATS 5x4 lots:**  
+    Stage: 5  
+    occupants: 296 R$$/ 530 R$  
+    value (tax): 7.646  
+    power consumed: 4 MWh/month  
+    water consumed: 14 m³/month  
+    air purification: 2 over 4 tiles  
+    water purification: 2 over 4 tiles  
+    garbage: 8 over 0 tiles  
+    construction time: 45 days  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    **STATS 5x5 lots:**  
+    Stage: 6  
+    occupants: 444 R$$/ 795 R$  
+    value (tax): 11.469  
+    power consumed: 6 MWh/month  
+    water consumed: 21 m³/month  
+    air purification: 6 over 4 tiles  
+    water purification: 6 over 4 tiles  
+    garbage: 12 over 0 tiles  
+    construction time: 60 days  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+      
+    **Dependencies:**  
+    As this is a relot of still existing BATs you have to download them  
+    czestochowa1-0x5ad0e817\_0xf9db509d\_0x30000.SC4Model  
+    czestochowa1-0x5ad0e817\_0xf9db509d\_0x30000.SC4Model  
+    czestochowa3-0x5ad0e817\_0xb9db70af\_0x30000.SC4Model  
+    ^^These are the model files created by szymcar. Without these files you will see no building on the Lots.  
+    They are included in here: [3 small blocks](https://www.simtropolis.com/stex/details.cfm?id=21922)  
+      
+    [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)  
+    [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750) (Version Dec. 2010)  
+      
+    **Installation:**  
+    simply unzip the SC\_szymcar\_apartments folder into your Plugins folder. The readme\_and\_pics folder can be put where you want.  
+    Due to the fact that i created new \*.SC4DESC files for these lots, there should be no conflicts with original szymcar lots.  
+      
+    **Credits go to:**  
+    szymcar, for his beautiful BATs. As a special "Thank you" i decided to call the lots "szymcar apartments". You will see ingame.  
+    Another Thank you to various members of the BSC Team for their Texture creations, and to all creators of props used on the lots!  
+      
+    special thanks to the simforum community for their advice and help.  
+      
+    Merry Christmas Simtropians!  
+    Simcitler  
+      
+    check out [my other lots](https://www.simtropolis.com/stex/index.cfm?p=files&view=mine&userid=358910) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0)
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/25563-szymcar-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2af74bde37f9e779e21f22c9f4eb30f6-STEX_day.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2af74bde37f9e779e21f22c9f4eb30f6-STEX_night.jpg
+dependencies:
+  - szymcar:small-polish-residental-blocks-czestochowa-models
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-szymcar-apartments
+
+---
+assetId: simcitler-szymcar-apartments
+version: "1.0"
+lastModified: "2010-12-25T11:22:13Z"
+url: https://community.simtropolis.com/files/file/25563-szymcar-apartments/?do=download&r=53423

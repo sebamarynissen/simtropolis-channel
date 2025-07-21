@@ -1,0 +1,72 @@
+group: simcitler
+name: strandgaten-555
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Lotted Strandgaten 555
+  description: |-
+    **Lotted Strandgaten 555**
+
+    This download contains two Lots for Glenni´s Strandgaten Bat.
+
+    **Included:**
+
+    -   growable 4x4 CS$$ corner Lot
+    -   ploppable 4x6 CS$$
+
+     no nightlights cause the Bat has none!suitable for W2W  
+    **growable Stats:**  
+    will grow on medium and high density zones  
+    **Tile sets:** Euro and Houston  
+    **Stage:** 4  
+    **occupants:** 270 CS$$/540 CS$ if abandoned  
+    **bulldoze costs:** 250  
+    **value (tax):** 5400  
+    **power consumed:** 25 MWh/month  
+    **water consumed:** 30m³/month  
+    **air purification:** 6 over 4 tiles  
+    **water purification:** 5 over 4 tiles  
+    **garbage:** 16 over 0 tiles  
+    **construction time:** 34 days  
+      
+    **ploppable (found in landmarks menu):**  
+      
+    same stats as growable  
+    plop cost: 10.000  
+      
+    **Dependencies:**GRV\_Strandgt\_0x5ad0e817\_0x90c6c8dc\_0x30000.SC4Model  
+    ^^This is the model file by Glenni, which is included in here: [Unreleased BATs set](https://www.simtropolis.com/stex/details.cfm?id=16330)  
+    Without it, you will not see any building on the Lots. I recommend to put this file into the Strandgaten folder!
+
+    -   [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+    -   [BSC Mega Props CP Vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    **Installation:**  
+    Simply unzip the Strandgaten folder into your Plugins folder.  
+    The "Readme and pics" folder can be put where you want!  
+      
+    If there are any problems, you can contact me via PM, or leave a comment.  
+      
+    Hope you like!  
+      
+    Special thanks to Glenni for his Bat, and the simforum community!  
+      
+      
+    check out [my other lots](https://www.simtropolis.com/stex/index.cfm?p=files&view=mine&userid=358910) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0)
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/24370-lotted-strandgaten-555/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9dd52e1fb5c3a82307e34ceccac4f7e5-Strand_grow.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9dd52e1fb5c3a82307e34ceccac4f7e5-Strand_plop.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - glenni:unreleased-bats-set
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-lotted-strandgaten-555
+
+---
+assetId: simcitler-lotted-strandgaten-555
+version: "1.0"
+lastModified: "2010-07-12T07:51:01Z"
+url: https://community.simtropolis.com/files/file/24370-lotted-strandgaten-555/?do=download&r=51597
