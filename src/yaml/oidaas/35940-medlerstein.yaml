@@ -1,0 +1,67 @@
+group: oidaas
+name: medlerstein
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Medlerstein
+  description: |-
+    **About**
+
+    This is a mansion modelled after a mansion not far from where i live.  
+    The name comes from a man who worked at the Malmberget mine.
+
+    **Stats**
+
+    Bulldoze Cost     228                       
+    Wealth     High Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    6     7     0     0           
+    Flammability     35                       
+    MaxFireStage     3                       
+    Power Consumed     2                       
+    Water Consumed     5                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Building: R$$$     Style: Chicago     Style: New York     Style: Houston       
+                          
+    Style: Euro                       
+    Occupant Size     Width     Height     Depth               
+    22.8536     18.6476     15.3006               
+    Occupant Types     R$     R$$     R$$$               
+    Building value     748                       
+    Capacity Satisfied     R-$     R-$$     R-$$$               
+    49     28     14
+
+    **Dependencies**
+
+    Girafe flora pack [https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)  
+    BSC textures [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    SHK parkingpack [https://community.simtropolis.com/files/file/27563-shk-parking-pack/#google\_vignette](https://community.simtropolis.com/files/file/27563-shk-parking-pack/#google_vignette)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35940-esa-medlerstein/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659cf60e877b7_06-Sep.181801704784586.jpg.b9c030c6dfa6ba4ccb70c5ddb6a3fb3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659cf6152f1cd_06-Sep.181801704784576.jpg.94ec3ed6fd9c5db527f3e023719e15ea.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - shk:parking-pack
+  - bsc:texturepack-cycledogg-vol01
+  - ndex:textures-vol1
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:conifers
+  - girafe:beeches
+assets:
+  - assetId: oidaas-medlerstein
+
+---
+assetId: oidaas-medlerstein
+version: "1.0.0"
+lastModified: "2024-01-09T07:31:33Z"
+url: https://community.simtropolis.com/files/file/35940-esa-medlerstein/?do=download&r=199149

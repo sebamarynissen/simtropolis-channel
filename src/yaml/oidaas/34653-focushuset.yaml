@@ -1,0 +1,68 @@
+group: oidaas
+name: focushuset
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Focushuset
+  description: |-
+    **Focushuset**
+
+    This BAT is a recreation, not in a strict sense of the block Enitan (more commonly known as Focushuset). It was built in 1962 as a modernisation of Malmbergets city.  I've modded this as a Cs$ landmark with 2000 jobs. This is handy to soak up the endless Cs$ demand.
+
+    In regards to the scale i know this BAT is a bit underscaled. But since i cannot open the original BAT file this is TLA.
+
+    **Stats**
+
+    | Bulldoze Cost			       | 580			                  | 			        | 			         | 			          | 			         | 			 |
+    | Wealth			              | Low Wealth			           | 			        | 			         | 			          | 			         | 			 |
+    | Pollution at center			 | Air			                  | Water			         | Garbage			        | Radiation			       | 			         | 			 |
+    | 227			                 | 136			                  | 200			           | 0			              | 			          | 			         |
+    | Pollution radii			     | Air			                  | Water			         | Garbage			        | Radiation			       | 			         | 			 |
+    | 5			                   | 5			                    | 0			             | 0			              | 			          | 			         |
+    | Flammability			        | 45			                   | 			        | 			         | 			          | 			         | 			 |
+    | MaxFireStage			        | 4			                    | 			        | 			         | 			          | 			         | 			 |
+    | Power Consumed			      | 91			                   | 			        | 			         | 			          | 			         | 			 |
+    | Water Consumed			      | 848			                  | 			        | 			         | 			          | 			         | 			 |
+    | SFX:Query Sound			     | 0x2a8916ab			           | 			        | 			         | 			          | 			         | 			 |
+    | Query exemplar GUID			 | 0xca56783a			           | 			        | 			         | 			          | 			         | 			 |
+    | OccupantGroups			      | Building: Commercial			 | Building: CS$			 | Style: Chicago			 | Style: New York			 | Style: Houston			 | 			 |
+    | 			              | 			               | 			        | 			         | 			          | 			         |
+    | Style: Euro			         | 			               | 			        | 			         | 			          | 			         |
+    | Occupant Size			       | Width			                | Height			        | Depth			          | 			          | 			         | 			 |
+    | 124.872002			          | 55			                   | 39.632999			     | 			         | 			          | 			         |
+    | Occupant Types			      | CS$			                  | 			        | 			         | 			          | 			         | 			 |
+    | Building value			      | 34773			                | 			        | 			         | 			          | 			         | 			 |
+    | Capacity Satisfied			  | CS-$			                 | 			        | 			         | 			          | 			         | 			 |
+    | 4540			                |
+
+
+    **Dependencies**
+
+    [https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed](https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/?do=embed)
+    BSC MEGA Props CP Vol01 (v1.0)  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    SFBT Playground Props by Sam Johnson (v1.0) [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2540](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2540)
+
+    [https://community.simtropolis.com/files/file/17578-blam-glenni-prop-pack/?do=embed](https://community.simtropolis.com/files/file/17578-blam-glenni-prop-pack/?do=embed)
+    SFBT Essentials (v1.0)  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/34653-esa-focushuset/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/611aff4c0bf92_test1-May.1001629152174.jpg.36ccd70462c152e25d7c9f7503ce0f8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/611aff5675b31_test1-May.1001629152187.jpg.98dd7b01927a22431b970262554ea9e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/611aff5eef35c_test1-May.1001629152393.jpg.8e7cad4fd16bcaa4af141261d8b2d3c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/611aff65d6c43_test1-May.1001629152406.jpg.1a8933c4699089c6792bfd066f78923e.jpg
+dependencies:
+  - ndex:glenni-mega-props-vol01
+  - bsc:mega-props-cp-vol01
+  - mgb204:mmp-pack-vol2
+  - sfbt:essentials
+  - sfbt:sam-johnson-playground-props
+assets:
+  - assetId: oidaas-focushuset
+
+---
+assetId: oidaas-focushuset
+version: "1.0.0"
+lastModified: "2021-08-17T05:40:58Z"
+url: https://community.simtropolis.com/files/file/34653-esa-focushuset/?do=download&r=189758

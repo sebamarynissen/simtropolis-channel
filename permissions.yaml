@@ -1,6 +1,21 @@
+# By default, you can only publish a package under your own account name as group.
+# This file lists alternative groups or prefixes an author is permitted to upload
+# under. These prefixes are automatically stripped when creating package names.
+# Example for permissions for specific packages.
+# authors:
+#   - name: Aaron Graham
+#     id: 226625
+#     groups:
+#       - nybt
+
 # For now, everyone is allowed to include their package on the channel, but if
 # it turns out that people are abusing this, then they might be blocked from the 
 # channel. This can be done by including them here, and then blocking them.
+# Example for blocking someone
+# authors:
+#   - id: 1234
+#     blocked: true
+
 authors:
   - name: Pegasus
     id: 2813
@@ -52,6 +67,10 @@ authors:
     prefixes:
       - ndex
       - blam
+  - name: Oidaas
+    id: 64713
+    prefixes:
+      - esa
   - name: SimFox
     id: 71768
     prefixes:
@@ -170,15 +189,3 @@ authors:
     id: 744613
     prefixes:
       - rr
-
-# Example for permissions for specific packages.
-# authors:
-#   - name: Aaron Graham
-#     id: 226625
-#     groups:
-#       - nybt
-
-# Example for blocking someone
-# authors:
-#   - id: 1234
-#     blocked: true

@@ -97,6 +97,7 @@ export default {
 	2687: 'girafe:cattails',
 	2711: 'girafe:bushes',
 	2740: 'girafe:norway-maples',
+	2756: 'bsc:mega-props-jmyers-common-props',
 	2758: 'girafe:parasol-pines',
 	2765: 'ac:mega-props-vol09',
 	2768: 'bsc:bat-props-mattb325-vol03',

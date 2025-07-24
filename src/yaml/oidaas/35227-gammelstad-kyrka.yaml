@@ -1,0 +1,56 @@
+group: oidaas
+name: gammelstad-kyrka
+version: "1.0.0"
+subfolder: 650-religion
+info:
+  summary: Gammelstad Kyrka
+  description: |-
+    **About**
+
+    Around 1400 ac they decided to build a large cathedral in what was  
+    then the place of my home town. Around the church several small houses apperad forming a town, in swedish"kyrkstad" eng Churchtown.  
+    These structures were inhabitated during masses. This because people had a long way to travel. Nowadays the church and the buildings surrounding are a Unesco world herritage site.
+
+    **Stats**
+
+    Plop cost:10 000  
+    Cost:150  
+    Demand satisfied: Rs 80, Rss 50, rsss 90  
+    Landmark effekt:20  
+    Bulldoze cost: (766/1532/1915/2298)  
+    Max fire stage: 1  
+    polution at center: 1,1,15,0  
+    polution: 1,2,0,0  
+    Occupant groups: Landmark, YIMBY,Landmark Ogle, Tourist  
+    Flammability:10  
+    Water consumption:0
+
+    **Dependencies**
+
+    CP Megaprops vol 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)  
+    CP megaprops Vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    BSC Textures CP vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    SM2 Drystone wall [https://community.simtropolis.com/files/file/32109-sm2-dry-stone-walls/](https://community.simtropolis.com/files/file/32109-sm2-dry-stone-walls/)  
+    BSC Megaprops SimGoober vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=746](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    NDEX Textures Vol 1 [https://community.simtropolis.com/files/file/11617-ndex\-texture-set-volume-1/](https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35227-gammelstad-kyrka/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cafaa9a3c14_NewCity-Jan.20001657466682.jpg.4fe11d6720d5cb9800c255bfa67a50d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cafaac85f54_NewCity-Jan.20001657466689.jpg.e74a5fd1e96531862a81303ae58a9e77.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - ndex:textures-vol1
+  - simmer2:dry-stone-walls
+  - bsc:sg-models-im2
+assets:
+  - assetId: oidaas-gammelstad-kyrka
+
+---
+assetId: oidaas-gammelstad-kyrka
+version: "1.0.0"
+lastModified: "2022-07-10T16:15:24Z"
+url: https://community.simtropolis.com/files/file/35227-gammelstad-kyrka/?do=download&r=194699
