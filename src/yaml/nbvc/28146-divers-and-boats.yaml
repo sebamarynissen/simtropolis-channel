@@ -1,6 +1,6 @@
 group: nbvc
 name: divers-and-boats
-version: "1.0"
+version: "2.0"
 subfolder: 180-flora
 info:
   summary: Divers And Boats
@@ -11,7 +11,17 @@ info:
 
     The divers and boats can also be used as props in the Lot-Editor for your custom lots.
 
-    No dependencies.
+    DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    [Submenus DLL](community.simtropolis.com/files/file/36142-submenus-dll/) - You need it to get the package submenu working.
+
+    Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    Dependencies:
+
+    None
   author: nbvc
   website: https://community.simtropolis.com/files/file/28146-divers-and-boats/
   images:
@@ -19,6 +29,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_10_2012/b0c2c309535e65808c104d6cf930c7b5-divers2.jpg
 dependencies:
   - nbvc:divers-and-boats-resources
+  - memo:submenus-dll
 assets:
   - assetId: nbvc-divers-and-boats
     include:
@@ -28,7 +39,7 @@ assets:
 ---
 group: nbvc
 name: divers-and-boats-resources
-version: "1.0"
+version: "2.0"
 subfolder: 100-props-textures
 info:
   summary: Divers And Boats resources
@@ -44,6 +55,6 @@ assets:
 
 ---
 assetId: nbvc-divers-and-boats
-version: "1.0"
-lastModified: "2012-10-21T06:25:52Z"
+version: "2.0"
+lastModified: "2025-07-26T19:20:01Z"
 url: https://community.simtropolis.com/files/file/28146-divers-and-boats/?do=download&r=107979

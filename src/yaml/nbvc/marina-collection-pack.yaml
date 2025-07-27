@@ -1,13 +1,11 @@
 group: nbvc
-name: boats-and-buoys
+name: marina-collection-pack
 subfolder: 700-transit
 version: "2.0"
 info:
-  summary: Boats And Buoys
+  summary: Marina Collection by NBVC
   description: |-
-    The file contains different boats and buoys.  
-      
-    They are in the seaport menu.
+    This dowload is a collection to automatically install the entire Marina collection of NBVC
 
     DLL DEPENDENCIES:
 
@@ -17,21 +15,27 @@ info:
 
     Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
     
-    Dependencies:
 
-    None
   author: nbvc
-  website: https://community.simtropolis.com/files/file/29498-boats-and-buoys/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_04_2014/07c3b15356a3f52eb8c69d3c0b265ee3-boats1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_04_2014/a5bb3b4c7a47c93a4d5680634a871429-boats2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/9a5f73f14ca000c521ca34bbf81ea4ab-marina1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/a200c9b98c8b5fb13e88bb94c024895f-nbvc_surfers1.jpg    
 dependencies:
-  - memo:submenus-dll
+  - nbvc:marina
+  - nbvc:sailboats
+  - nbvc:surfers-mmp
+  - nbvc:surfers-lots
+  - nbvc:marina-round-corners
+  - nbvc:modular-marina-addon
+  - nbvc:divers-and-boats
+  - nbvc:boats-and-buoys
+
 assets:
-  - assetId: nbvc-boats-and-buoys
+  - assetId: marina-collection-pack
 
 ---
-assetId: nbvc-boats-and-buoys
+assetId: marina-collection-pack
 version: "2.0"
 lastModified: "2025-07-27T02:22:25Z"
-url: https://community.simtropolis.com/files/file/29498-boats-and-buoys/?do=download&r=132409
+url: https://community.simtropolis.com/files/file/28951-marina/?do=download
