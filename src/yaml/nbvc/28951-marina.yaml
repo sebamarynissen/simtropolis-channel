@@ -39,7 +39,7 @@ assets:
 group: nbvc
 name: marina-collection-pack
 subfolder: 700-transit
-version: "None"
+version: "2.0"
 info:
   summary: Marina Collection by NBVC
   description: |-
@@ -67,9 +67,6 @@ dependencies:
   - nbvc:modular-marina-addon
   - nbvc:divers-and-boats
   - nbvc:boats-and-buoys
-
-assets:
-  - assetId: marina-collection-pack
 
 ---
 group: nbvc
