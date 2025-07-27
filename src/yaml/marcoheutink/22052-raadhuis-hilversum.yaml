@@ -1,0 +1,52 @@
+group: marcoheutink
+name: raadhuis-hilversum
+version: "1.0"
+info:
+  summary: Raadhuis Hilversum
+  description: |-
+    The town hall of Hilversum, built by Dudok (1931).
+
+    Lot: 5x5
+
+    Landmark
+
+    cost: 60.000
+
+    bulldoze: 3000
+
+    budget: 60
+
+    (edit: fixed minor glitch)
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22052-raadhuis-hilversum/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/59539a33ebdc1fd82e062a40968c5c36-raadhuis_hsum.jpg
+    - https://www.simtropolis.com/objects/screens/0010/59539a33ebdc1fd82e062a40968c5c36-raadhuis_hsum4.jpg
+dependencies:
+  - marcoheutink:raadhuis-hilversum-model
+assets:
+  - assetId: marcoheutink-raadhuis-hilversum
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: marcoheutink
+name: raadhuis-hilversum-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=marcoheutink:raadhuis-hilversum`
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22052-raadhuis-hilversum/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/59539a33ebdc1fd82e062a40968c5c36-raadhuis_hsum.jpg
+    - https://www.simtropolis.com/objects/screens/0010/59539a33ebdc1fd82e062a40968c5c36-raadhuis_hsum4.jpg
+assets:
+  - assetId: marcoheutink-wipmolen-the-netherlands
+    include:
+      - "\\.SC4Model$"
+---
+assetId: marcoheutink-raadhuis-hilversum
+version: "1.0"
+lastModified: "2009-07-19T15:48:12Z"
+url: https://community.simtropolis.com/files/file/22052-raadhuis-hilversum/?do=download&r=48261

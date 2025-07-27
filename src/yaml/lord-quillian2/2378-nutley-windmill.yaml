@@ -1,0 +1,52 @@
+group: lord-quillian2
+name: nutley-windmill
+version: "2"
+subfolder: 400-agricultural
+info:
+  summary: Nutley Windmill
+  description: |-
+    Dating from the 17th century, Nutley windmill is the oldest working windmill in Sussex, England.
+
+    This lot provides 2 low wealth 3 medium wealth jobs including milling staff and maintenance staff.
+
+    Update: added 2x2 lot - 1x1 coming soon!
+  author: Lord_Quillian2
+  website: https://community.simtropolis.com/files/file/2378-nutley-windmill/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/8070f7fcadd39b2626c39cd91b83dc47-Day-Shots.jpg
+    - https://www.simtropolis.com/objects/screens/0015/8070f7fcadd39b2626c39cd91b83dc47-Night-shots.jpg
+dependencies:
+  - lord-quillian2:nutley-windmill-model
+assets:
+  - assetId: lord-quillian2-nutley-windmill
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: lord-quillian2
+name: nutley-windmill-model
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=lord-quillian2:nutley-windmill`
+  description: |-
+    Dating from the 17th century, Nutley windmill is the oldest working windmill in Sussex, England.
+
+    This lot provides 2 low wealth 3 medium wealth jobs including milling staff and maintenance staff.
+
+    Update: added 2x2 lot - 1x1 coming soon!
+  author: Lord_Quillian2
+  website: https://community.simtropolis.com/files/file/2378-nutley-windmill/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/8070f7fcadd39b2626c39cd91b83dc47-Day-Shots.jpg
+    - https://www.simtropolis.com/objects/screens/0015/8070f7fcadd39b2626c39cd91b83dc47-Night-shots.jpg
+assets:
+  - assetId: lord-quillian2-nutley-windmill
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: lord-quillian2-nutley-windmill
+version: "2"
+lastModified: "2004-02-15T16:47:04Z"
+url: https://community.simtropolis.com/files/file/2378-nutley-windmill/?do=download&r=25923

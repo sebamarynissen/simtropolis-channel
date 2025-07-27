@@ -1,0 +1,72 @@
+group: marcoheutink
+name: dutch-stellingmolen
+version: "2"
+subfolder: 400-agricultural
+info:
+  summary: Dutch Stellingmolen
+  description: |-
+    The Stellingmolen (a Dutch windmill) towers high above the cities. These machines were the power houses before electricity made its arrival.
+
+    This upload includes an animated and still version.
+
+    Pick whichever one you like!
+
+    Update: edited both lots
+
+    2x2 Utility: Power
+
+    Budget 150
+
+    Bulldoze cost 150
+
+    Plop cost 1500
+
+    Power 1000
+
+    (and the same beneficial effects as a normal windmill)
+
+    \---------------------------------------
+
+    Read carefully
+
+    \- The stellingmolen is the biggest type of windmill, it can be 6 stories high
+
+    \- The first two floors are a house, above that is two floors of storage room and above that are two floors with  mechanics
+
+    \- There is a big family (13 kids, 2 parents, 4 grandparents and 1 opoe) living in the mill. That's why there is a garden in the back.
+
+    \---------------------------------------------------------------------------------
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22284-dutch-stellingmolen/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9620582f0d3697ad9f79a46cfac352e1-stellingss11.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9620582f0d3697ad9f79a46cfac352e1-stellingss21.jpg
+dependencies:
+  - marcoheutink:dutch-stellingmolen-models
+assets:
+  - assetId: marcoheutink-dutch-stellingmolen
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: marcoheutink
+name: dutch-stellingmolen-models
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=marcoheutink:dutch-stellingmolen
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22284-dutch-stellingmolen/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9620582f0d3697ad9f79a46cfac352e1-stellingss11.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9620582f0d3697ad9f79a46cfac352e1-stellingss21.jpg
+assets:
+  - assetId: marcoheutink-dutch-stellingmolen
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: marcoheutink-dutch-stellingmolen
+version: "2"
+lastModified: "2009-08-15T19:12:48Z"
+url: https://community.simtropolis.com/files/file/22284-dutch-stellingmolen/?do=download&r=48593
