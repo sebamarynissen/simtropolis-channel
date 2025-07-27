@@ -37,6 +37,43 @@ assets:
 
 ---
 group: nbvc
+name: marina-collection-pack
+subfolder: 700-transit
+version: "2.0"
+info:
+  summary: Marina Collection by NBVC
+  description: |-
+    This dowload is a collection to automatically install the entire Marina collection of NBVC
+
+    DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    [Submenus DLL](community.simtropolis.com/files/file/36142-submenus-dll/) - You need it to get the package submenu working.
+
+    Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+    
+
+  author: nbvc
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/07c3b15356a3f52eb8c69d3c0b265ee3-boats1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/9a5f73f14ca000c521ca34bbf81ea4ab-marina1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/a200c9b98c8b5fb13e88bb94c024895f-nbvc_surfers1.jpg    
+dependencies:
+  - nbvc:marina
+  - nbvc:sailboats
+  - nbvc:surfers-mmp
+  - nbvc:surfers-lots
+  - nbvc:marina-round-corners
+  - nbvc:modular-marina-addon
+  - nbvc:divers-and-boats
+  - nbvc:boats-and-buoys
+
+assets:
+  - assetId: marina-collection-pack
+
+---
+group: nbvc
 name: marina-resources
 version: "2.0"
 subfolder: 100-props-textures
