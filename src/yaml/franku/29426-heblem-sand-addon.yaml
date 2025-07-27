@@ -1,0 +1,50 @@
+group: franku
+name: heblem-sand-addon
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: FrankU Heblem Sand addon
+  description: |-
+    **Heblem** submitted a set of terrain props in 2010.
+
+    It contained sand props that could be painted onto the terrain. I thought that these props would be useful for making paths and trails, but they are too large for that.
+
+    So I used [Model Tweaker](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2072) to make smaller props.
+
+    Now I can offer you the four sand textures by **Heblem** in two smaller sizes: *Small* and *Extra Small*.
+
+    You can paint them on your terrain, you can use them on your lots.
+
+    **Dependency**
+
+    You need one dependency for the set to work:
+
+    **[HBS Flora Prop Pack vol.01](https://community.simtropolis.com/files/file/24398-hbs-flora-prop-pack-vol01/)**
+
+    If you want **Heblems** original MMP's too you also need:
+
+    [HBS Tropical Flora Pack (Mayor Mode)](https://community.simtropolis.com/files/file/24399-hbs-tropical-flora-pack-mayor-mode/)
+
+    I made the props, **Paeng** made the MMP's. Thank you **Paeng**!
+
+    Have fun!
+
+    FrankU
+
+    **\-CB Edit:** Fixed dependency links.
+  author: FrankU, Heblem
+  website: https://community.simtropolis.com/files/file/29426-franku-heblem-sand-addon/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/f14862658247f54871769052d2e9cad3-image-lex-franku-heblem-sand-addon.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/9ae93bfd903040501a2d66fcce48c674-beach-props0003a.jpg
+dependencies:
+  - heblem:flora-prop-pack-vol01
+  - heblem:tropical-flora-pack-mayor-mode
+assets:
+  - assetId: franku-franku-heblem-sand-addon
+
+---
+assetId: franku-franku-heblem-sand-addon
+version: "1.0"
+lastModified: "2014-04-08T13:02:39Z"
+url: https://community.simtropolis.com/files/file/29426-franku-heblem-sand-addon/?do=download&r=130419

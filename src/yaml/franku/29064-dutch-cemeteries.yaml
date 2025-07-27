@@ -1,0 +1,57 @@
+group: franku
+name: dutch-cemeteries
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: FrankU Dutch Cemeteries
+  description: |-
+    So here are my cemeteries.
+
+    In your game they replace the Maxis Cemetery Rewards. But they are also available as park lots, so you can plop them as often as you like.
+
+    I guess it's all clear now, there is really nothing much more to say.
+
+    Well, except maybe one thing: the cemeteries have different sizes than the originals.
+
+    Cemetery 1 is 4x6 tiles and has the same effects as the original cemetery. Cemetery 2 is 5x7, cemetery 3 is 7x9 and contains a church. The properties of these two are increased in relation to their new sizes. So now you have more effect for free!
+
+    You will need the following dependencies, otherwise the results are really very dull.
+
+    [BSC\_TexturePack\_Cycledogg\_V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC MEGA Props - MJB Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+
+    [bldgprop\_vol1](https://www.sc4devotion.com/forums/index.php?page=9)
+
+    [BNL Essentials V1.1](https://community.simtropolis.com/files/file/28639-bnl-essentials/)
+
+    [Tdoorn Eembden Moderkerk](https://community.simtropolis.com/files/file/18235-tdoorn-eembden-moderkerk/)
+
+    Have fun with them!
+
+    FrankU
+  author: FrankU
+  website: https://community.simtropolis.com/files/file/29064-franku-dutch-cemeteries/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/a60bb2724ca402620861c27b9ed2ef87-cemeteries-final---1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/e3da1f715754b251aa520983a1c7318a-cemeteries-final---2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/98a79049b8c040a968665bf9b559982d-cemeteries-final---3a.jpg
+dependencies:
+  - bnl:essentials
+  - ten-doornkaat:tdoorn-eembden-moderkerk
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: franku-franku-dutch-cemeteries
+
+---
+assetId: franku-franku-dutch-cemeteries
+version: "1.0"
+lastModified: "2013-11-29T09:55:04Z"
+url: https://community.simtropolis.com/files/file/29064-franku-dutch-cemeteries/?do=download&r=122985

@@ -1,0 +1,42 @@
+group: franku
+name: dutch-resort-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Dutch Resort Hotel
+  description: |-
+    This is my Dutch version of the Maxis Resort Hotel. As you might have found out already this lot is part of my still growing Dutch Rewards Replacements set. It will grow until I have replaced all Maxis reward lots with my own Dutch themed versions.
+
+    I based the lot on Marcoheutinks (formerly known as Meurdoos) Sint Johannes de Deo building from Utrecht.
+
+    In the set you will also find a Lanmark version. Choose whichever you like to use.
+
+    The dependencies are mainly usual suspects:
+
+    [BSC\_TexturePack\_Cycledogg\_V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [BSC MEGA Props - MJB Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)  
+    [BNL Essentials v1.1](https://community.simtropolis.com/index.php?app=downloads&module=downloads&controller=view&id=28639)  
+    [Marcoheutinks Building](https://community.simtropolis.com/index.php?app=downloads&module=downloads&controller=view&id=22197)
+  author: FrankU
+  website: https://community.simtropolis.com/files/file/29177-dutch-resort-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/9983da1f843a4fe56808f6bbf4c2b65e-dutch-resort--0001.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/517f669ad999bf13cbc30b9f72287746-dutch-resort--0002.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/8b3560ce04c921f191ed0b411d914989-dutch-resort--0005.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bnl:essentials
+  - "[Marcoheutinks Building](https://community.simtropolis.com/index.php?app=downloads&module=downloads&controller=view&id=22197)"
+assets:
+  - assetId: franku-dutch-resort-hotel
+
+---
+assetId: franku-dutch-resort-hotel
+version: "1.0"
+lastModified: "2014-01-05T20:21:52Z"
+url: https://community.simtropolis.com/files/file/29177-dutch-resort-hotel/?do=download&r=122963
