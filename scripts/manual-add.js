@@ -35,10 +35,7 @@ async function run(urls, argv) {
 	});
 
 	const {
-		cache = path.resolve(
-			process.env.LOCALAPPDATA,
-			'io.github.memo33/sc4pac/cache',
-		),
+		cache = process.env.SC4PAC_CACHE_ROOT,
 	} = argv;
 	const result = await addFromStex({
 		cache,
