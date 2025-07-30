@@ -1,0 +1,81 @@
+group: oidaas
+name: stores
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Stores
+  description: |-
+    **About**
+
+    This is two stores with the brand Konsum and ICA.
+
+    **Dependencies**
+
+    CP MEGA props vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    CP MEGA props vol 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)  
+    PEG MTP Resource
+
+    [https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed)
+    Stats
+
+    **Konsum Stats**
+
+    User Visible Name Key    ESA konsumstorre  
+    Bulldoze Cost    157                      
+    Wealth    Low Wealth                      
+    Pollution at center    Air    Water    Garbage    Radiation          
+    1    1    4    0          
+    Pollution radii    Air    Water    Garbage    Radiation          
+    5    5    0    0          
+    Flammability    45                      
+    MaxFireStage    2                      
+    Power Consumed    1                      
+    Water Consumed    9                      
+    SFX:Query Sound    0x2a8916ab                      
+    Query exemplar GUID    0xca56783a                      
+    OccupantGroups    Building: Commercial    Building: CS$ Style: Houston      
+    Occupant Size    Width    Height    Depth    16.9117    12.7382    18.1              
+    Occupant Types    CS$                      
+    Building value    283                      
+    Capacity Satisfied    CS-$ 37
+
+    **ICA Stats**
+
+    Bulldoze Cost    161                      
+    Wealth    Low Wealth                      
+    Pollution at center    Air    Water    Garbage    Radiation          
+    4    2    59    0          
+    Pollution radii    Air    Water    Garbage    Radiation          
+    5    5    0    0          
+    Flammability    45                      
+    MaxFireStage    3                      
+    Power Consumed    2                      
+    Water Consumed    15                      
+    SFX:Query Sound    0x2a8916ab                      
+    Query exemplar GUID    0xca56783a                      
+    OccupantGroups    Building: Commercial    Building: CS$    Style: Houston              
+    Occupant Size    Width    Height    Depth              
+    20.69300079    13.13000011    17.06699944              
+    Occupant Types    CS$                      
+    Building value    614                      
+    Capacity Satisfied    CS-$                      
+    20
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35438-esa-stores/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63d1087d20a6e_NewCity-Feb.20001674493442.jpg.d2eb2317644c1b3c1efefe87873438c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63d1088161583_NewCity-Feb.20001674493450.jpg.68f840e48ed07e851f42fb15e1b7e07d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63d10883b6fc3_NewCity-Feb.20001674493459.jpg.398366ee6e32d80fc13395bc6f72bc8a.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - peg:mtp-super-pack
+  - supershk:mega-parking-textures
+assets:
+  - assetId: oidaas-stores
+
+---
+assetId: oidaas-stores
+version: "2.0.0"
+lastModified: "2023-01-25T14:26:26Z"
+url: https://community.simtropolis.com/files/file/35438-esa-stores/?do=download&r=196360

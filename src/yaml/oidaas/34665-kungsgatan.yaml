@@ -1,0 +1,51 @@
+group: oidaas
+name: kungsgatan
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Kungsgatan
+  description: |-
+    **ESA Kungsgatan**
+
+    This building is a mix between two separate buildings. The main building is heavily inspired by a building that was adjacent to a bus route i took when going from the university where i was studying. I took the top windows and the corner pillars from a building located next to the city hall in my home town.
+
+    For some reason i grew attached to the main building, i liked the coloring and the main structure. I was researching architectural styles of the north of Sweden at the time on a hobby basis. I grew attached to the architectural style of Finnish-russian empire style hence i decided to add the side pillars and top windows.
+
+    **Stats**
+
+    Lot size:2x2  
+    Growth stage: 3  
+    Zone type: low, med  
+    Bulldoze cost: 200  
+    Demand:CS$ 150 CS$$ 80  
+    Pollution center:Air 3 Water 2 Garbage 29 Radiation 0  
+    Pollution radius:Air 5 Water 6 Garbage 0 Radiation 0  
+    Power: 43  
+    Water: 4  
+    Occupant groups: Building Commercial, Building CS$$, Euro
+
+    **Dependencies**
+
+    BSCBATPropsMattb325\_Vol02 (v1.0)  [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2383](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+    Edit: my bad
+
+    [https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/34665-esa-kungsgatan/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6128905319dad_03-Jun.91731630046717.jpg.84b35dc81c95e0f241abeda2da4ad50d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/612890626036f_03-Jun.91731630046708.jpg.bd792007f464dcf37244af27b7b74150.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61289068a64db_03-Jun.91731630046697.jpg.5070c8e3b8ac996590b56b984ce30d58.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/612890890173d_03-Jun.91731630046727.jpg.a83d71474fde02159db1d110bf784f19.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - peg:mtp-super-pack
+assets:
+  - assetId: oidaas-kungsgatan
+
+---
+assetId: oidaas-kungsgatan
+version: "2.0.0"
+lastModified: "2021-09-08T15:31:59Z"
+url: https://community.simtropolis.com/files/file/34665-esa-kungsgatan/?do=download&r=189973

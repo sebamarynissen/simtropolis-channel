@@ -1,0 +1,66 @@
+group: oidaas
+name: ingenjorsvillan
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Ingenjorsvillan
+  description: |-
+    **About**
+
+    This is a villa that served as a engineers villa in the town of Malmberget.
+
+    **Stats**
+
+    Bulldoze Cost     136                       
+    Wealth     High Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    6     7     0     0           
+    Flammability     35                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     4                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Style: Euro     Building: R$$$               
+    Occupant Size     Width     Height     Depth               
+    15.5     10     14.3028               
+    Occupant Types     R$     R$$     R$$$               
+    Building value     274                       
+    Capacity Satisfied     R-$     R-$$     R-$$$               
+    18     11     7
+
+    **Dependencies**
+
+    Malmberget proppack vol 1 [https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1/](https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1/)  
+    ESA props vol 1 [https://community.simtropolis.com/files/file/33619-esa-proppack/](https://community.simtropolis.com/files/file/33619-esa-proppack/)  
+    Girafe props [https://community.simtropolis.com/files/file/29630-bsc-vip-girafe-birches/](https://community.simtropolis.com/files/file/29630-bsc-vip-girafe-birches/)  
+    Girafe flora [https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)  
+    SG Proppack [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    BSC textures [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    CP texture pack vol 1 [https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35930-esa-ingenjorsvillan/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659b7abd10596_NewCity-Apr.6001704687535.png.7689bb98fac1227654f2f6573af06c7f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659b7ac3b8b95_NewCity-Apr.6001704687522.png.336fc687d108b383f4b67a815513b471.png
+dependencies:
+  - oidaas:proppack
+  - oidaas:malmberget-props-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:mega-props-cp-vol01
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:rowan-trees
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: oidaas-ingenjorsvillan
+
+---
+assetId: oidaas-ingenjorsvillan
+version: "1.0.0"
+lastModified: "2024-01-08T04:33:05Z"
+url: https://community.simtropolis.com/files/file/35930-esa-ingenjorsvillan/?do=download&r=199106

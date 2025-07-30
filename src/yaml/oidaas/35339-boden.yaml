@@ -1,0 +1,87 @@
+group: oidaas
+name: boden
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  summary: Boden
+  description: |-
+    **About:**
+
+    This is a replica of Boden central, located in the town of Boden. It's built as a hub between the Haparanda line, Main line and the Ore line.
+
+    **Stats**  
+                  
+    Item Name:ESA Boden          
+    Item Description:LA replica of Boden central, connecting the ore line with the main line.      
+    Item Order    3                      
+    Plop Cost    100                      
+    Bulldoze Cost    100                      
+    Wealth    None                      
+    Pollution at center    Air    Water    Garbage    Radiation          
+                2    0    1    0          
+    Pollution radii    Air    Water    Garbage    Radiation          
+            1    2    0    0          
+    Flammability    10                      
+    MaxFireStage    3                      
+    Power Consumed    61                      
+    Water Consumed    5                      
+    Demand Created    Jobs $    Jobs $$    Jobs $$$    R-$    R-$$     R-$$$                      
+            95    5    0    95    5    0    0                      
+    Budget Item: Department    Mass Transit                      
+    Budget Item: Line    0x00000001                      
+    Budget Item: Purpose    Mass Transit Switch                      
+    Budget Item: Cost    10                                          
+    OccupantGroups    Building: Transportation    Building: Rail    Building: Strikeable Transit    Building: Taxi\_Maker    Building: PassengerRail      
+    Occupant Size    Width    Height    Depth              
+            1    1    1                                  
+    Transit Switch Entry Cost    0,071                      
+    Transit Switch Traffic Capacity    100000
+
+    Transit enabled for freight and rail and pedestrian,  
+    this means that you need to put a bus or subway entrance beside.
+
+    **Dependencies**
+
+    BSC Textures vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    BSC Textures Vol 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=638](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    BSC Textures CP Vol 1 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    BSC MEGA props vol 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1771](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771)
+
+    Railyard textures MEGA pack [https://community.simtropolis.com/files/file/22325-rail-yard-and-spur-mega-pak-1-version-2/](https://community.simtropolis.com/files/file/22325-rail-yard-and-spur-mega-pak-1-version-2/)
+
+    ESA Railpack vol 1 [https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/)
+
+    NDEX Glenni MEGA Props Vol01 [https://community.simtropolis.com/files/file/19096-ndex\-glenni-mega-props-vol01/](https://community.simtropolis.com/files/file/19096-ndex-glenni-mega-props-vol01/)
+
+    Murimk props vol03 - industrials [https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/)
+
+    SFBT Birke [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=752](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=752)
+
+    SFBT Essentials [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=750](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35339-esa-boden/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/63809743d7e00_NewCity-Mar.30031669369746.jpg.0721363eb4ce13abda799894411007a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/6380974ff0f8f_NewCity-Jun.24041669371056.jpg.775b388745fbb64a4e9e32919e724056.jpg
+dependencies:
+  #- '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=752](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=752)"'
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - murimk:props-vol03-industrials
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - ndex:glenni-mega-props-vol01
+  - oidaas:rail-props-vol01
+  - sfbt:essentials
+assets:
+  - assetId: oidaas-boden
+
+---
+assetId: oidaas-boden
+version: "2.0.0"
+lastModified: "2022-11-25T15:29:55Z"
+url: https://community.simtropolis.com/files/file/35339-esa-boden/?do=download&r=195706

@@ -1,0 +1,63 @@
+group: oidaas
+name: ormen-lange
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Ormen Långe
+  description: |-
+    This is a residential building from the Swedish village of Svappavaara. It was designed by Ralph Erskine, who also designed the block "ortdrivaren" rough translating to miner cave builder (bad translation but hey). He also designed Shopping which is a shopping mall in my home town, in fact the fist indoor shopping center in the world. Ormen Långe got its name from a Viking ship found in Norway.
+
+    **Dependencies**
+
+    [PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)  
+    [BSC TexturePack Cycledogg](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    **Stats**
+    |     |     |     |     |     |     |     |
+    | --- | --- | --- | --- | --- | --- | --- |
+    | **Item Name** | Ormen långe |     |     |     |     |     |
+    | **Item Description** | Ormen Lange by Ralph Erskine located in Svappavaara. |     |     |     |     |     |
+    | **Item Icon** | 0x00000000 |     |     |     |     |     |
+    | **Item Order** | 1   |     |     |     |     |     |
+    | **Plop Cost** | 110000 |     |     |     |     |     |
+    | **Bulldoze Cost** | 100 |     |     |     |     |     |
+    | **Wealth** | None |     |     |     |     |     |
+    | **Pollution at center** | Air | Water | Garbage | Radiation |     |     |
+    | 1   | 1   | 15  | 0   |     |     |
+    | **Pollution radii** | Air | Water | Garbage | Radiation |     |     |
+    | 1   | 2   | 0   | 0   |     |     |
+    | **Flammability** | 10  |     |     |     |     |     |
+    | **MaxFireStage** | 1   |     |     |     |     |     |
+    | **Power Consumed** | 60  |     |     |     |     |     |
+    | **Water Consumed** | 0   |     |     |     |     |     |
+    | **Mayor Rating Effect** | Magnitude | Radius |     |     |     |     |
+    | 10  | 256 |     |     |     |     |
+    | **Budget Item: Department** | Landmarks |     |     |     |     |     |
+    | **Budget Item: Line** | 0x00000000 |     |     |     |     |     |
+    | **Budget Item: Purpose** | Landmark Effect |     |     |     |     |     |
+    | **Budget Item: Cost** | 150 |     |     |     |     |     |
+    | **SFX:Query Sound** | 0x0a8c9ef0 |     |     |     |     |     |
+    | **SFX:Default Plop Sound** | 0x6a5ec589 |     |     |     |     |     |
+    | **Query exemplar GUID** | 0x2a56675c |     |     |     |     |     |
+    | **OccupantGroups** | Building: Landmark | Building: YIMBY | Building: Landmark Ogle |     |     |     |
+    | **Occupant Size** | Width | Height | Depth |     |     |     |
+    | 182 | 27.212 | 3   |
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/33677-ormen-långe/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ef9937a0ed4c_test-17Jun.001593405775.png.1937adde96588563a1fbfc891e475943.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/erskine.png.11db9794229bc1b25aa2d2a8d3d19223.png
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol03
+  - peg:mtp-super-pack
+  - sfbt:essentials
+assets:
+  - assetId: oidaas-ormen-lange
+
+---
+assetId: oidaas-ormen-lange
+version: "1.0.0"
+lastModified: "2020-06-29T07:24:38Z"
+url: https://community.simtropolis.com/files/file/33677-ormen-l%C3%A5nge/?do=download&r=181874

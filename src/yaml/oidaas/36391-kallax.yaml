@@ -1,0 +1,58 @@
+group: oidaas
+name: kallax
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Kallax
+  description: |-
+    **About**
+
+    This is a modern take on Paittasjarvi named after a village near my hometown. It's modded as a r$$ and grows in New york tileset.
+
+    **Stats**
+
+    Bulldoze Cost     126                       
+    Wealth     Medium Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     6     0     0           
+    Flammability     40                       
+    MaxFireStage     2                       
+    Power Consumed     1                       
+    Water Consumed     2                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Style: New York     Building: R$$               
+    Occupant Size     Width     Height     Depth               
+    15.288     9.36     11.44               
+    Occupant Types     R$     R$$                   
+    Building value     202                       
+    Capacity Satisfied     R-$     R-$$                   
+    14     9
+
+    **Dependencies**
+
+    BSC Common Dependencies Pack [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Girafe Flora pack [https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+    ESA Proppack vol [https://community.simtropolis.com/files/file/33619-esa-proppack/](https://community.simtropolis.com/files/file/33619-esa-proppack/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/36391-esa-kallax/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66ba2bf2dd9cb_NewCity-Apr.1031723440496.jpg.0658be22a58a76a7af6749f9dbfcd617.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66ba2c1462484_NewCity-Feb.2711723441039.jpg.da2d124a36951f6d862d352c1d3a58da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66ba2c1bb0b48_NewCity-Feb.2711723441054.jpg.44344702901c43f3c06bcec63be4b223.jpg
+dependencies:
+  - oidaas:proppack
+  - bsc:textures-vol02
+  - girafe:maples-v2
+assets:
+  - assetId: oidaas-kallax
+
+---
+assetId: oidaas-kallax
+version: "1.0.0"
+lastModified: "2024-08-12T15:39:10Z"
+url: https://community.simtropolis.com/files/file/36391-esa-kallax/?do=download&r=202425

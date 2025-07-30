@@ -1,0 +1,58 @@
+group: oidaas
+name: boklok
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: BoKlok
+  description: |-
+    This is a collection of buildings on 8 different lots. The concept was developed in a consortium between Skanska and IKEA. This because housing were so expensive to produce, hence they came up with these beauties. A large number of these structures are built each year in Sweden.
+
+    ps as always read the readme :-)
+
+    Stats
+
+    Occupancy: (45/60/75/90)  
+    Building value: (511/1021/1277/1787/1532)  
+    Building worth: (96/192//72/240/288)  
+    Bulldoze cost: (766/1532/1915/2298)  
+    Max fire: 3  
+    Pollution at center: 0,0,6,0  
+    Pollution: 5,6,0,0  
+    Flammability: 40  
+    Water consumption: 7
+
+    Dependencies
+
+    BSC Mega Props DAE Vol01 v2 (v2.0) [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=475](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)  
+    BSC MEGA Props D66 Vol 2 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=556](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=556)  
+    BSC MEGA Props CP Vol 02 (v1.0) [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2790](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)  
+    BSC TexturePack Cycledogg V 01b (v1.0)https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101  
+    PEG SPAM Super Resource Pack
+
+    [https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/?do=embed](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/?do=embed)
+    [https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=embed](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=embed)
+    [https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=embed](https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=embed)
+    As always I'm a Batter first modder and lotter second.
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35226-esa-boklok/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62c99625c16e0_g-Mar.5001657377875.jpg.9279c387e8f2ee3103deca04919239d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62c99627da34e_g-Mar.5001657377896.jpg.06d7cd1584d1b3fb4d9cf87e4e00631c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62c9962a54d3e_g-Mar.5001657377909.jpg.36feec889cb1bdd034786c3c2c0fe051.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62c9962c92c34_g-Mar.5001657377920.jpg.16e9ff8fb2aa3438494b9a641f95e733.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - peg:spam-super-resource-pack
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+assets:
+  - assetId: oidaas-boklok
+
+---
+assetId: oidaas-boklok
+version: "1.0.0"
+lastModified: "2022-07-09T15:00:06Z"
+url: https://community.simtropolis.com/files/file/35226-esa-boklok/?do=download&r=194694

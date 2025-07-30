@@ -1,0 +1,81 @@
+group: oidaas
+name: bolagsvagen
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Bolagsvagen
+  description: |-
+    **About**
+
+    These are worker housing from the town of Malmberget.
+
+    **Stats**
+
+    Bolagsvagen 1x
+
+    Bulldoze Cost     350                       
+    Wealth     Low Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     5     0     0           
+    Flammability     45                       
+    MaxFireStage     3                       
+    Power Consumed     1                       
+    Water Consumed     1                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Style: Houston     Building: R$               
+    Occupant Size     Width     Height     Depth               
+    1     1     1               
+    Occupant Types     R$                       
+    Building value     951                       
+    Capacity Satisfied     R-$                       
+    70
+
+    Bolagsvagen 2x
+
+    Bulldoze Cost     190                       
+    Wealth     Low Wealth                       
+    Pollution at center     Air     Water     Garbage     Radiation           
+    1     1     4     0           
+    Pollution radii     Air     Water     Garbage     Radiation           
+    5     5     0     0           
+    Flammability     45                       
+    MaxFireStage     3                       
+    Power Consumed     2                       
+    Water Consumed     3                       
+    SFX:Query Sound     0x6a63bba2                       
+    Query exemplar GUID     0x4a5672bf                       
+    OccupantGroups     Building: Residential     Building: R$     Style: Chicago     Style: New York Style: Houston     Style: Euro                       
+    Occupant Size     Width     Height     Depth               
+    1     1     1               
+    Occupant Types     R$                       
+    Building value     3329                       
+    Capacity Satisfied     R-$                       
+    245
+
+    **Dependencies**
+
+    Malmberget proppack vol 1 [https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1/](https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1/)  
+    Malmberget proppack vol 2 [https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/](https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/)  
+    Girafe [https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe -flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX-legacy-bsc-vip-girafe%20-flora)  
+    PEG MTP Essentials [https://community.simtropolis.com/files/file/20966-peg-mtp\-super-pack/](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35928-esa-bolagsvagen/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659b6b983f34a_NewCity-Dec.30291704643953.jpg.9eb28394e3b2ea06572f551339805aa9.jpg
+dependencies:
+  - oidaas:malmberget-props-vol01
+  - oidaas:malmberget-props-vol02
+  - peg:mtp-super-pack
+  - girafe:rowan-trees
+  - girafe:common-spruces
+assets:
+  - assetId: oidaas-bolagsvagen
+
+---
+assetId: oidaas-bolagsvagen
+version: "1.0.0"
+lastModified: "2024-01-08T03:28:29Z"
+url: https://community.simtropolis.com/files/file/35928-esa-bolagsvagen/?do=download&r=199101

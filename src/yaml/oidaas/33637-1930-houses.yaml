@@ -1,0 +1,49 @@
+group: oidaas
+name: 1930-houses
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: 1930 Houses
+  description: |-
+    **About**
+
+    This is a pack of buildings from 1930. They come in two versions, town and rural.
+
+    **Stats**
+
+    Bulldoze Cost     40                       
+    Wealth     Low Wealth                       
+    Pollution at center (0) Air (0)Water (0)Garbage (0)Radiation                   
+    Pollution radii  (5) Air (5) Water (0) Garbage (0) Radiation                   
+    Flammability     45                       
+    MaxFireStage     1                       
+    Power Consumed     1                       
+    Water Consumed     1                                       
+    OccupantGroups     Building: Residential     Building: R$ Style: Chicago Style: New York style: Houston Style: Euro                               
+    Occupant Types     R$                       
+    Building value     140                       
+    Capacity Satisfied (12)R-$
+
+    **Dependencies**
+
+    ESA Proppack
+
+    [https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed](https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed)
+    C.P MEGA props Vol 1
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/33637-1930-houses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ed8a60e0c84d_lotpict2.png.6e997605b0b3509bb36755a41726bf57.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - oidaas:proppack
+assets:
+  - assetId: oidaas-1930-houses
+
+---
+assetId: oidaas-1930-houses
+version: "1.0.0"
+lastModified: "2020-06-04T07:54:24Z"
+url: https://community.simtropolis.com/files/file/33637-1930-houses/?do=download&r=181312

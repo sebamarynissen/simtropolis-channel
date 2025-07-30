@@ -1,0 +1,64 @@
+group: oidaas
+name: gyljen
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Gyljen
+  description: |-
+    **ESA Gyljen**
+
+    These lots are a compilation of lots i made for myself that i thought would be nice to share with the community.
+
+    **Stats**
+
+    User Visible Name Key    0x2026960B    0x0A554AE0    0x0BA80049              
+    Bulldoze Cost    40                      
+    Wealth    Low Wealth                      
+    Pollution at center    Air    Water    Garbage    Radiation 1    1    4    0          
+    Pollution radii    Air    Water    Garbage    Radiation 3    4    0    0          
+    Flammability    40                      
+    MaxFireStage    2                      
+    Power Consumed    1                      
+    Water Consumed    2                      
+    SFX:Query Sound    0x6A63BBA2                      
+    Query exemplar GUID    0x4A5672BF                      
+    OccupantGroups    Building: Residential    Building: R$    Style: Euro              
+    Occupant Size    Width    Height    Depth    1    1    1              
+    Building value    504                      
+    Capacity Satisfied    R-$20
+
+    **Dependencies**
+
+    Girafe Birches
+
+    [https://community.simtropolis.com/files/file/29630-bsc-vip-girafe-birches/?do=embed](https://community.simtropolis.com/files/file/29630-bsc-vip-girafe-birches/?do=embed)
+    C.p. BSC TexturePack Cycledogg V 01b (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    BSC MEGA Props CP Vol01 (v1.0)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    ESA proppack
+
+    [https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed](https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/34921-esa-gyljen/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6221fad9788f4_test-Jun.2171646381213.jpg.972fdedd6a0f9ec1b752e056c80b5d47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6221fadf39fc0_test-Jun.2171646381221.jpg.e3a85fa24733429121a19ea8ba395800.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6221fae8113bc_test-Jun.2171646381232.jpg.ac2d0d1020fc1e3ec4ba32d48a6d7a2f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:birches
+  - oidaas:proppack
+assets:
+  - assetId: oidaas-gyljen
+
+---
+assetId: oidaas-gyljen
+version: "1.0.0"
+lastModified: "2022-03-04T11:43:28Z"
+url: https://community.simtropolis.com/files/file/34921-esa-gyljen/?do=download&r=192202

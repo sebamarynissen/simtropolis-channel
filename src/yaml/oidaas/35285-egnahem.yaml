@@ -1,0 +1,53 @@
+group: oidaas
+name: egnahem
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Egnahem
+  description: |-
+    About
+
+    Egnahem is a type of housing built in the 30's by decree of the one home movement.
+
+    Stats
+
+    Bulldoze cost: 127  
+    Occupant size: 11,3 width 9,7 height depth 8,5  
+    Filing degree: 0,8  
+    Wealth: Low wealth  
+    Purpose: Residence  
+    Capacity satisfied: 13  
+    Pollution at center: 1,1,4,0  
+    Power consumed: 1  
+    Flammability: 45  
+    Max firestage: 2  
+    Pollution radius: 5,5,0,0  
+    Worth: 127  
+    Water consumed: 1  
+    Building value:176
+
+    Dependencies
+
+    Simgoober Megapack vol 1  
+    ESA Proppack vol 1  
+    BSC TexturePack Cycledogg V 01b
+
+    [about.txt](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=89121)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35285-esa-egnahem/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/630e0fc0ec23c_NewCity-Nov.26121661865290.jpg.6172e69f736c40ba5c6534eb19946b4d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/630e0fc877410_NewCity-Nov.26121661865298.jpg.3e7a28fb07e3e0331178e633e01c819e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/630e0fd156259_NewCity-Nov.26121661865327.jpg.b77d2ad7da189af4122fd5bdd5bcb85e.jpg
+dependencies:
+  - oidaas:proppack
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: oidaas-egnahem
+
+---
+assetId: oidaas-egnahem
+version: "1.0.0"
+lastModified: "2022-08-30T13:28:47Z"
+url: https://community.simtropolis.com/files/file/35285-esa-egnahem/?do=download&r=195206

@@ -1,0 +1,47 @@
+group: oidaas
+name: funkis
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Funkis
+  description: |-
+    **ESA Funkis**
+
+    This is an fictional building modeled after a demolished building in my home town. This has been sitting on my harddrive for a while now so i thought why not release it. As with my previous release Focushuset it is a tad bit underscaled unfortunately. It comes in game as an CS$.
+
+    **Stats**
+
+    Lot size:2x2  
+    Growth stage: 4  
+    Zone type: low, med  
+    Bulldoze cost: 216  
+    capacity: cs$ 50  
+    Pollution center: Air: 6, Water: 3, Garbage: 83, Radioation:0  
+    Pollution radius: Air:5, Water:5, Garbage: 0, Radiation:0  
+    Power: 3  
+    Water:21  
+    Occupant groups: Houstion, Euro
+
+    **Now for the fun part..Dependencies**
+
+    BSCMegaProps JES Vol01 (v1.0) [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=342](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+
+    [https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed](https://community.simtropolis.com/files/file/33619-esa-proppack/?do=embed)
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/34662-esa-funkis/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6127425b9a3f7_03-Apr.201731629960741.jpg.16e622f7e8a7be3917ca1730c7d9d83c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6127425cd5cf8_03-Apr.201731629960755.jpg.138d39cb2ae9a79384e859b97d60a324.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6127425e00e28_03-Apr.201731629960767.jpg.76b564be0493f8bebcdc9b10c51afa4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6127425f0520e_03-Apr.201731629960783.jpg.b955108fed750919fb2b6d718544d5d9.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - oidaas:proppack
+assets:
+  - assetId: oidaas-funkis
+
+---
+assetId: oidaas-funkis
+version: "1.0.0"
+lastModified: "2021-08-26T08:06:47Z"
+url: https://community.simtropolis.com/files/file/34662-esa-funkis/?do=download&r=189824
