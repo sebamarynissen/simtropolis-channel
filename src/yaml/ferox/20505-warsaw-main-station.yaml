@@ -1,0 +1,83 @@
+group: ferox
+name: warsaw-main-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Warsaw Main Station
+  description: |-
+    The first idea of construction of a main Warsaw station, which would have been the nexus of all rail lines in the city, appeared in 1879. In practical terms, with one standard gauge line and a few broad gauge railway lines terminating in Warsaw in the 19th century, creating a single 'main' station would have been far from a trivial proposition. However, when Poland regained independence and the standard gauge was universally adopted, this project got revived. In 1921, when works on the modernisation of the Warsaw railway hub started, it became clear that it was necessary to demolish the obsolete Vienna Station. This having been done, passenger traffic was taken over by a temporary station on Chmielna street, which opened in 1921.
+
+    It was decided that after the demolition of the Vienna Station, a new station would be constructed. The works began in 1932. The monumental complex of the Warsaw Main Station was designed by architects Czeslaw Przybylski and Andrzej Pszenicki. Wac?aw ?enczykowski was the structural engineer. This was supposed to become the most important rail station of the Second Polish Republic and one of the most modern in contemporary Europe.
+
+    The station building was located along the Warsaw’s main street - Aleje Jerozolimskie, between Marsza?kowska and Emilii Plater streets, and the platforms were in a tunnel on the cross-city line (Polish: linia ?rednicowa).
+
+    The station was designed in the Modernist Style, with then popular Art deco elements. The architects intended for the station to be multifunctional, therefore plenty of space had been designed for various stores, entertainment, and restaurants. As construction continued in 1938, the first passengers were able to use the partly completed Warsaw Main. However, the building was not completed because of the outbreak of the Second World War.
+
+    A few weeks before the war, on June 6, 1939, the still unfinished station was partly destroyed in a fire which had been started by a team of reckless welding contractors. Initially many people believed that it had been an act of sabotage by German or Soviet agents. During operation of putting out the fire, led personally by the minister of the interior Felicjan S?awoj-Sk?adkowski, one fireman died and three were wounded.
+
+    In September 1939, the station was damaged during the Siege of Warsaw (1939). Later, German authorities made some improvements, e.g. construction of a new roof. The station, though still unfinished and partly destroyed, remained operational. This lasted until the Warsaw Uprising when, as a result of battle, the damage to the station got significantly bigger. In January 1945 the Germans, soon before retreating from Warsaw, blew the remains up.
+
+    \-------------------------------------------------------------------------
+
+    **Building in game has function of a railway station, a bus stop and the underground station**. It's a underground rail station, **to connect it to rail network you must use NAM underground rail puzzle pices, or rail to subway transition.**
+
+    Capacity - 70000
+
+    Plop cost - 50000$
+
+    Bulldoze cost - 11920$
+
+    Monthly cost - 300$
+
+    **Dependencies**
+
+    [BSC Essentlials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)[](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+
+    [BSC Textures Vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [PorkieProps\_Vol1](../../stex/details.cfm?id=11421)
+
+    [PorkieProps\_Vol2](../../stex/index.cfm?id=11420)
+
+    [BSC BAT Props and Textures\_JENX\_Gare\_du\_Nord](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=106)
+  author: Ferox
+  website: https://community.simtropolis.com/files/file/20505-warsaw-main-station-bsc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3a6b0d2b1dd6f1f49e06387ffe1a1598-dworzec_day.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3a6b0d2b1dd6f1f49e06387ffe1a1598-dworzec_night.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-jenx-vol03
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - ferox:warsaw-main-station-model
+assets:
+  - assetId: ferox-warsaw-main-station-bsc
+    exclude:
+      - "/Dworzec Glowny.sc4model"
+
+---
+group: ferox
+name: warsaw-main-station-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=ferox:warsaw-main-station`
+  author: Ferox
+  website: https://community.simtropolis.com/files/file/20505-warsaw-main-station-bsc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3a6b0d2b1dd6f1f49e06387ffe1a1598-dworzec_day.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3a6b0d2b1dd6f1f49e06387ffe1a1598-dworzec_night.jpg
+assets:
+  - assetId: ferox-warsaw-main-station-bsc
+    include:
+      - "/Dworzec Glowny.sc4model"
+
+---
+assetId: ferox-warsaw-main-station-bsc
+version: "1.0"
+lastModified: "2008-10-05T05:00:23Z"
+url: https://community.simtropolis.com/files/file/20505-warsaw-main-station-bsc/?do=download&r=45963
+archiveType:
+  format: Clickteam
+  version: "40"

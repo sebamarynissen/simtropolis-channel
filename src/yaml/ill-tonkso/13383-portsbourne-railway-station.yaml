@@ -1,0 +1,46 @@
+group: ill-tonkso
+name: portsbourne-railway-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Portsbourne Railway Station
+  description: |-
+    **Portsbourne Railway Station**
+
+    This Station was originally intended only for my CJ but i am releasing on Popular Demand. It is a victorian themed station, it has 4 platforms set into a terminus. The two story ticket hall has a Stained Glass window with the Southern Railway logo.
+
+    It has a capacity of 20,000 passengers and has Transit Enabled Road and Rail, the Road allows traffic to run right through the lot at three entry points.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13383-portsbourne-railway-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a01780f9b814d0dc6743af14a7dd0eff-ITSPBDAY.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a01780f9b814d0dc6743af14a7dd0eff-ITSPBNIGHT.jpg
+assets:
+  - assetId: ill-tonkso-portsbourne-railway-station
+    exclude:
+      - "/ITS_PortsbourneStation-0x5ad0e817_0xb29ec9af_0x30000.SC4Model"
+dependencies:
+  - ill-tonkso:portsbourne-railway-station-model
+
+---
+group: ill-tonkso
+name: portsbourne-railway-station-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=ill-tonkso:portsbourne-railway-station`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13383-portsbourne-railway-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a01780f9b814d0dc6743af14a7dd0eff-ITSPBDAY.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a01780f9b814d0dc6743af14a7dd0eff-ITSPBNIGHT.jpg
+assets:
+  - assetId: ill-tonkso-portsbourne-railway-station
+    include:
+      - "/ITS_PortsbourneStation-0x5ad0e817_0xb29ec9af_0x30000.SC4Model"
+
+---
+assetId: ill-tonkso-portsbourne-railway-station
+version: "1.0"
+lastModified: "2005-08-17T20:29:13Z"
+url: https://community.simtropolis.com/files/file/13383-portsbourne-railway-station/?do=download&r=34601

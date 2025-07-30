@@ -1,0 +1,98 @@
+group: simcitler
+name: crangston-main-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Crangston main station
+  description: |-
+    Crangston main station (relotted Portsbourne Railway Station)
+
+    ([Original](https://www.simtropolis.com/forum/files/file/13383-portsbourne-railway-station/) by ill tonkso)
+
+    Crangston main station is a 4 platform terminus station (Lot size: 6x7) for small and mid-sized cities.
+
+    In addition this station features bus functionality, TE street connections, and eyecandy parking.
+
+    **Stats:**
+
+    **Lot size:** 6x7
+
+    **plop cost:** 12.500$
+
+    **monthly cost:** 100$
+
+    **Transit Switch Entry Cost:** 0,020
+
+    **capacity:** 35.000
+
+    **power consumed:** 6 kWh/month
+
+    **water consumed:** 20 m³/month
+
+    **air pollution:** 2 over 4 tiles
+
+    **water pollution:** 2 over 2 tiles
+
+    **garbage:** 9 over 0 tiles
+
+    **Dependencies:**
+
+    ITS\_PortsbourneStation-0x5ad0e817\_0xb29ec9af\_0x30000.SC4Model
+
+    ^^ This is the model file created by ill tonkso found in here: [Portsbourne Railway station](https://www.simtropolis.com/forum/files/file/13383-portsbourne-railway-station/)
+
+    [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    **optional:**
+
+    [european car replacement mod](https://www.simtropolis.com/forum/files/file/12973-european-car-replacement-mod/)
+
+    [European Bus Props](https://www.simtropolis.com/forum/files/file/24802-european-busses-prop-pack-vol-1/)
+
+    **Installation:**
+
+    just unzip the "SCL\_Crangston\_station" folder to your plugins folder.
+
+    The "readme and pics" folder can be put where you want!
+
+    **Credits go to:**
+
+    **ill tonkso** for his beautiful station BAT
+
+    Another Thank you to various members of the BSC Team for their Texture creations.
+
+    And of course to all creators of props used on the lots!
+
+    special thanks to the communities of www.simforum.de and www.sc4devotion.com for their advice and help!
+
+    Thanks to Dirk for www.simtropolis.com!
+
+    Best regards
+
+    Simcitler
+
+    check out [my other lots](https://www.simtropolis.com/forum/index.php?app=core&module=search&do=user_activity&search_app=downloads&mid=250000) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0).
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/26786-crangston-main-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/080af6dcee3bc2afa5a272791ed7e670-crangston_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/013e13e47298a8043f01e4f2f513e7ff-crangston_2.jpg
+dependencies:
+  - ill-tonkso:portsbourne-railway-station-model
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+  - simcityfreak666:european-busses-prop-pack-vol1
+assets:
+  - assetId: simcitler-crangston-main-station
+
+---
+assetId: simcitler-crangston-main-station
+version: "1.0"
+lastModified: "2011-09-21T19:09:17Z"
+url: https://community.simtropolis.com/files/file/26786-crangston-main-station/?do=download&r=92208
