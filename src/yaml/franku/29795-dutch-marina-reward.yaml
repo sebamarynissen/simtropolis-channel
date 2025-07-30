@@ -1,6 +1,7 @@
 group: franku
 name: dutch-marina-reward
 version: "1.0"
+subfolder: 600-civics
 info:
   summary: FrankU Dutch Marina Reward
   description: |-
@@ -47,8 +48,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_08_2014/08a6a80dfab11af475002fe940c4172c-dutch-marina-2-with-sides.jpg
 dependencies:
   - bnl:essentials
-  - '"[Dutch Historical Houses 1 (Leerlooierstraat)](https://community.simtropolis.com/files/file/17336-dutch-historical-houses/)"'
-  - '"[Dutch Historical Warehouses 1 (Zoutkade)](https://community.simtropolis.com/files/file/17396-dutch-historical-warehouses/)"'
+  - haarlemmergold:mega-props-dutch-vol01
   - bnl:dutch-prop-pack
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-mjb-vol01

@@ -1,0 +1,58 @@
+group: marcoheutink
+name: st-johannes-de-deo-utrecht
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: St. Johannes de Deo - Utrecht
+  description: |-
+    Add a touch of romance to your city with the St. Johannes de Deo, Utrecht the Netherlands!
+
+    Houses the music faculty of the Utrecht School of the Arts and Dutch institute for organ music.
+
+    A former catholic hospital of the order of St. John de Deo, built in 1896.
+
+    There are parts of an medieval monastery in the backyard, the perfect setting for wedding pictures.
+
+    3x4 high school
+
+    930 plop cost
+
+    500 monthly
+
+    30 bulldoze
+
+    Enjoy!
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22197-st-johannes-de-deo-utrecht/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a4d7ecca8c24a7d3e41dd241c3a53556-johannes_Ss0.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a4d7ecca8c24a7d3e41dd241c3a53556-johannes_Ss1.jpg
+dependencies:
+  - marcoheutink:st-johannes-de-deo-utrecht-model
+assets:
+  - assetId: marcoheutink-st-johannes-de-deo-utrecht
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: marcoheutink
+name: st-johannes-de-deo-utrecht-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=marcoheutink:st-johannes-de-deo-utrecht-model`
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22197-st-johannes-de-deo-utrecht/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a4d7ecca8c24a7d3e41dd241c3a53556-johannes_Ss0.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a4d7ecca8c24a7d3e41dd241c3a53556-johannes_Ss1.jpg
+assets:
+  - assetId: marcoheutink-st-johannes-de-deo-utrecht
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: marcoheutink-st-johannes-de-deo-utrecht
+version: "1.0"
+lastModified: "2009-08-02T04:22:09Z"
+url: https://community.simtropolis.com/files/file/22197-st-johannes-de-deo-utrecht/?do=download&r=48467
