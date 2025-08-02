@@ -1,0 +1,96 @@
+group: andisart
+name: avenue-roundabout-megapack
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Avenue Roundabout Megapack
+  description: |-
+    \----------------------------------------------  
+    AndisArt presents:
+
+    **Avenue Roundabouts Megapack**
+
+    \----------------------------------------------------------------
+
+    This download adds **25 new avenue roundabouts** for the Network Addon Mod ([NAM](https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-for-windows-installer/)) and represents in parts real world roundabout suggestions of the ST community.
+
+    In the download section you can choose between DarkNite (requires [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) or the standard Maxis night, as well as between righthand-driving (standard) or lefthand-driving.
+
+    IMPORTANT:  you can only use **ONE** version at a time (DarkNite or Maxis night).
+
+    \----------------------------------------------------------------
+
+    There are two ways how to place these roundabouts:
+
+    -  they are automatically showing up in a random fashion when you place a NAM avenue roundabout (with this method nightlights do NOT work)
+
+    -  a single ploppable lot found in the parks menu with a prop family, meaning every time you place the lot a roundabout is displayed randomly (nightlights ARE working here)
+
+    The mod is designed so you can **easily pick and choose which roundabouts** of the pack you want to use / get displayed (works for both of the above methods):
+
+    The index screenshots show the numbers/names of the roundabouts, just delete the corresponding files for the ones you don't wish to use from these folders:
+
+    \- The folder "**T21**" is for the automatically showing ones when placing an avenue roundabout.
+
+    \- The folder "**Prop**" is for the ploppable lot with prop family.
+
+    If you want to place a specific lot just temporarily delete all other files from the above mentioned folder and only leave the one you want to place, place the ploppable lot in game and it will show up. You can then safely undelete the otther files again to reintroduce them to the game. It is perfectly save to do so.
+
+    **IMPORTANT**: by default this mod disables the standard NAM avenue roundabout filler lots. If you don't want this then delete the following file from the T21 folder:     AndisArt\_Roundabout-T21\_NoNAMDefault.dat
+
+    \---------------------------------------------------------------------------------------------------------------------------
+
+    **Installation**:
+
+    Extract the whole folder and copy it to your SimCity 4 Plugins folder (usually MyDocuments/SimCity 4/Plugins).
+
+    \---------------------------------------------------------------------------------------------------------------------------
+
+    **Credits**:
+
+    Special thanks to [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/) for helping with the modding and organisation of the project!
+
+    Thanks to everyone participating in my BAT thread during the suggestion period for roundabout designs.
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/33415-avenue-roundabout-megapack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Index-Page-1.jpg.7d29597437602c83ab3cf062ef86cc9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/Index-Page-2.jpg.119a4f9a6d6faf0357b51da8908c7c96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/nightlights_Index-1.jpg.1dd8e58b12cee9195cda8af3c5018429.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/nightlights_Index-2.jpg.21ed34a5bd69e66d876fb209f90439e6.jpg
+dependencies:
+  - nam:network-addon-mod
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: andisart-avenue-roundabout-megapack-maxisnite-part-1
+      - assetId: andisart-avenue-roundabout-megapack-maxisnite-part-2
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: andisart-avenue-roundabout-megapack-darknite-part-1
+      - assetId: andisart-avenue-roundabout-megapack-darknite-part-2
+
+---
+assetId: andisart-avenue-roundabout-megapack-maxisnite-part-1
+version: "1.0.0"
+lastModified: "2020-02-01T15:36:51Z"
+url: https://community.simtropolis.com/files/file/33415-avenue-roundabout-megapack/?do=download&r=179753
+
+---
+assetId: andisart-avenue-roundabout-megapack-darknite-part-1
+version: "1.0.0"
+lastModified: "2020-02-01T15:36:51Z"
+url: https://community.simtropolis.com/files/file/33415-avenue-roundabout-megapack/?do=download&r=179754
+
+---
+assetId: andisart-avenue-roundabout-megapack-maxisnite-part-2
+version: "1.0.0"
+lastModified: "2020-02-01T15:36:51Z"
+url: https://community.simtropolis.com/files/file/33415-avenue-roundabout-megapack/?do=download&r=179755
+
+---
+assetId: andisart-avenue-roundabout-megapack-darknite-part-2
+version: "1.0.0"
+lastModified: "2020-02-01T15:36:51Z"
+url: https://community.simtropolis.com/files/file/33415-avenue-roundabout-megapack/?do=download&r=179756
