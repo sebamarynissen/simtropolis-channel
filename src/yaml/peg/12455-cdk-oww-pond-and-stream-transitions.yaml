@@ -1,0 +1,39 @@
+group: peg
+name: cdk-oww-pond-and-stream-transitions
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: CDK-OWW Pond and Stream Transitions
+  description: |-
+    What do you get if you toss the Pond Kit, the Stream Kit & the CDK into a paint mixer and let it run for an hour? Well, initially you get something that looks like a horrible Star Trek transporter accident !!
+
+    But if you let that mixer run and extra hour or two, you eventually wind up with a viable means of transitioning the PEG Ponds & PEG Streams into the game's oceans... via the CDK. Adding the CDK in this fashion serves to mask a multitude of potential graphic sins & bugs inherent anytime props and textures go into the water. We will continue to pursue a non-CDK solution as well... but for those anxious to run their pond rivers and streams down to the sea, you now have a means to make it happen.
+
+    Included are 4 new lots; a single CDK Stream lot and 3 CDK Pond lots (left, right & center). Streams are limited to a single tile in width but rivers made from the Pond Kit can be a wide as you want.
+
+    These are CDK\-OWW (Old Wooden Waterfront) lots and plop just like any other 2-tile deep CDK lot. They will appear  in the Water Transportation menu along with the other CDK\-OWW lots. Like most CDK lots, they have pricing & properties similar to a small plaza.
+
+    To accommodate the fact that 92.3% of all CDK lots have a road running along their inland side, conditioned with the fact that 63.7% of all statistics are made up on the spot... these lots also have an appropriate Bridge-End modeled into their inland side. This will allow you to seamlessly continue any street/road/avenue you have running along your waterfronts.
+
+    The transition lots are packaged into separate files; one for the Streams and one for the Ponds. After installing, you can easily remove one or the other if you do not use either the Ponds or the Streams.
+
+    **\*\***These lots require the installation of the PEG CDK\-OWW Development Kit Volume 1**.**  
+     Additionally, you should also have the Deluxe Editions of the PEG Pond & PEG Stream kits installed.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/12455-peg-cdk-oww-pond-and-stream-transitions/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/98fb4a5483627f74a71d4aa6c4405f50-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/98fb4a5483627f74a71d4aa6c4405f50-product_image2.jpg
+assets:
+  - assetId: peg-cdk-oww-pond-and-stream-transitions
+dependencies:
+  - peg:cdk-oww-development-pack-vol1
+  - peg:stream-kit-ii-deluxe-edition
+
+---
+assetId: peg-cdk-oww-pond-and-stream-transitions
+version: "1.1"
+lastModified: "2025-06-07T21:56:15Z"
+url: https://community.simtropolis.com/files/file/12455-peg-cdk-oww-pond-and-stream-transitions/?do=download&r=207972
