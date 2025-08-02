@@ -1,0 +1,71 @@
+group: franku
+name: dutch-city-hall-reward
+version: "1.0"
+subfolder: 640-government
+info:
+  summary: Dutch City Hall Reward
+  description: |-
+    This is another Dutch Reward lot that replaces the Maxis rewards.  
+    In this case it is three lots. Maxis intended the City Hall to have three growth stages, but only Stage 1 made it into the game. A long time ago MrTruesage made a fix that revealed the two other stages to the players. I used this mod, and a lot of dependencies, to make these three lots for your game.  
+      
+    The lots are quite large: 6x8 tiles. This would perhaps require some tuning of the original properties of the rewards, but I did not change these. In the readme you can see what the properties are. So the behavior of the lots is identical to the behavior of the original Maxis lots. I did not intend to screw up your game!  
+      
+    For fun and versatility I added also a set of simple Landmarks and a set of Landmarks with CS jobs to the upload. Use whichever you want and you can delete the other files. They are all in separate folders.  
+      
+    All details are in the readme.  
+      
+    No panic, here are the dependecies:  
+    **City hall mod, in order to be able to use all three stages**  
+    \- [English version on STEX](https://community.simtropolis.com/files/file/11154-all-3-cityhalls-modd-reward-fix/)  
+    \- [German version on SimCity Kurier](http://kurier.simcityplaza.de/details.php?file=280)  
+      
+    **You need only the model files of the following:**  
+    [The old town hall](https://community.simtropolis.com/files/file/15696-dutch-townhall-haarlem/)  
+    [The second building](https://community.simtropolis.com/files/file/20177-vda-utrecht-nobelstraat-4-twentsche-bank/)  
+    [The third building](https://community.simtropolis.com/files/file/17705-dutch-offices-amsterdam-drentepark/)  
+    These models are by Haarlemmergold and Vanderaap, two of the better BATters from my own country. How can I ever thank them?  
+      
+    **And the following packs:**  
+    This list is identical to the list of dependencies you need for my other Dutch Reward Lots  
+    [BSC\_TexturePack\_Cycledogg\_V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    [BSC MEGA Props - CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [BSC MEGA Props - MJB Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)  
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [BSC MEGA Props - swi21 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)  
+    [BSC MEGA Props - RT Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=398)  
+    [BSC MEGA Props - Gascooker Vol01](http://http//sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)  
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    For **Version 2** you also need:
+
+    [BNL Essentials V1.1](https://community.simtropolis.com/files/file/28639-bnl-essentials/)
+
+    I hope you enjoy the lots. Please reply in [**my thread**](https://www.sc4devotion.com/forums/index.php?topic=9146.0) if you like.  
+      
+    FrankU
+  author: FrankU
+  website: https://community.simtropolis.com/files/file/27987-dutch-city-hall-reward/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/ce264c6b5a3e661a6caa457deaff1b87-dutch-city-hall--001a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/e5eb60bfaeebe4553878d5644df18786-dutch-city-hall--002a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/8926e71014337145b79fcdfc8bba5f47-dutch-city-hall--003a.jpg
+dependencies:
+  - bnl:essentials
+  - '"[English version on STEX](https://community.simtropolis.com/files/file/11154-all-3-cityhalls-modd-reward-fix/)"'
+  - haarlemmergold:mega-props-dutch-vol01
+  - vanderaap:utrecht-nobelstraat-4-twentsche-bank-model
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: franku-dutch-city-hall-reward
+
+---
+assetId: franku-dutch-city-hall-reward
+version: "1.0"
+lastModified: "2012-09-01T17:42:12Z"
+url: https://community.simtropolis.com/files/file/27987-dutch-city-hall-reward/?do=download&r=123001
