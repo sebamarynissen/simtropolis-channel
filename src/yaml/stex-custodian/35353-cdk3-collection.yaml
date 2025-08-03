@@ -3,7 +3,7 @@ name: cdk3-collection
 version: "1.0.0"
 subfolder: "360-landmark"
 info:
-  summary: "The Coastal Development Kit 3 (CDK3) Collection is a collated package of all of the previous CDK3 downloads released by Pegasus."
+  summary: "The Coastal Development Kit 3 (CDK3) Collection is a collated package of all CDK3 downloads released by Pegasus."
   warning: "If you opt to include one or of the functional seaport lots, it is imperative you have no other seaport controller installed! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
   description: |-
     Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically handle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
@@ -41,6 +41,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2022_12/CDK3Collection.jpg.1767b514d881d88be99afcb369b2ea88.jpg
 dependencies:
   - peg:cdk3-base-pack
+  - peg:cdk3-marinas
 
 
 # cdk3 - coastal development kit (base) [all checked]		The base CDK3 lots are all designed to beautify your coastal areas
@@ -118,8 +119,31 @@ assets:
 # 	Boat Storage				          		An ideal spacer lot that can easily be used repeatedly to create larger boat storage areas of any size.
 # 	Docks						                	This Ax wide lot adds a lower floating dock section to your Marina to expand your complex ever wider.
 # 	Dock Extension			        			Extend your Marina docks out as far as want...even to Infinity and Beyond!!
-# 	Dock End					              	The perfect lot for those times when you feel you just can't go on anymore. It C8forms as advertised. It ends.
-# 	Chandlery				              		used to visually wrap the lower floating docks around corners, extending your Marina in new directions.
+# 	Dock End					              	The perfect lot for those times when you feel you just can't go on anymore. It performs as advertised. It ends.
+# 	Chandlery				              		Use to visually wrap the lower floating docks around corners, extending your Marina in new directions.
+---
+group: peg
+name: cdk3-marinas
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "These modular Marina lots are designed to blend in perfectly with the OWW2 Boardwalks."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdkm-marina
+  - peg:cdkm-parking-lot
+  - peg:cdkm-yacht-club
+  - peg:cdkm-sport-fishing
+  - peg:cdkm-boat-ramp
+  - peg:cdkm-guest-services
+  - peg:cdkm-1x-boat-storage
+  - peg:cdkm-marina-docks
+  - peg:cdkm-dock-extension
+  - peg:cdkm-dock-end
+  - peg:cdkm-chandlery-ic-corner
+
+
 
 # cdk3 oww2 - old wooden waterfront 2 [all checked]		The OWW2 set provides a number of options for lovely waterfront walks around your coasts.
 # 	Waterfront Plaza					        One of the core OWW2 pieces, fris standard filler uses random props for greater variety.

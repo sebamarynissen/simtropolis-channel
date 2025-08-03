@@ -3,7 +3,7 @@ name: cdkm-marina
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: CDKM Marina
+  summary: This initial lot is the replacement for the in-game Marina and the centerpiece of your new Marina complex.
   description: |-
     At long last, the CDK delivers a functional replacement for the game-default Marina lot. In fact, we've taken it a several steps further with a fully modular, multi-lot Recreational Marina CDK.
 
@@ -26,7 +26,7 @@ info:
     -   3x3 Sport Fishing Complex  
         A ploppable landmark with CS$$ jobs and additional Marina Reward benefits. Also provides a left-side "end" to the floating docks.
 
-    **\*\* This lot has no dependencies.**
+    **This lot has no dependencies.**
 
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   author: Pegasus
@@ -34,11 +34,9 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0002/07d445e49687a12af6d3614da2641eff-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0002/07d445e49687a12af6d3614da2641eff-product_image2.jpg
+dependencies:
+  - peg:mtp-super-pack
 assets:
-  - assetId: peg-cdkm-marina
-
----
-assetId: peg-cdkm-marina
-version: "1.0"
-lastModified: "2007-10-05T12:27:10Z"
-url: https://community.simtropolis.com/files/file/18747-peg-cdkm-marina/?do=download&r=42895
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_MarinaMain.dat"

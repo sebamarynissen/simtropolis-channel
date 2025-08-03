@@ -1,0 +1,38 @@
+group: peg
+name: cdkm-1x-boat-storage
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: An ideal spacer lot that can easily be used repeatedly to create larger boat storage areas of any size.
+  description: |-
+    The most common sight at any marina are boats. Well, actually... seagull poop is much more common, However, we're not really all that motivated to model that. Why make poop... when you can make boats?
+
+    Larger boats are usually kept in the water in rented boat slips. Smaller boats however, can usually be seen almost everywhere, often grouped together in either small or large storage areas. Boat owners usually pay a nominal monthly fee to park their boats at the marina... making it much easier for them to use their boats. It also tends to free up their driveways at home for other things... such as massive seldom-used RVs and old broken down pick-up trucks.
+
+    This lot is a ploppable, single tile wide (by 3 deep) CDKM lot that can be plopped anywhere in your Marina complex. It is the ideal spacer lot or alternative to the Parking Lot lot. It can easily be used repeatedly (side by side) to create larger boat storage areas of any size.
+
+    The lot features the standard Marina upper dock/boardwalk, lower floating dock and rear parking area. It will blend in perfectly with your other Marina lots. The lot also uses several random and alternating custom props for both the boats in storage and the occasional activity in front of them... which should provide plenty of visual variety when the lots are grouped together.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-CDK3 REC Boats Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18789-peg-cdkm-1x-boat-storage/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/1100a0b7c9e5387163129c47a91c7de8-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0003/1100a0b7c9e5387163129c47a91c7de8-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:cdk3-super-pak
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_Boat Storage_1x.dat"
+

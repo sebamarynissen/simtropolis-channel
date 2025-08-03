@@ -1,0 +1,34 @@
+group: peg
+name: cdkm-parking-lot
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Adds a 2 tile wide gap or channel between other Marina lots.
+  description: |-
+    This is the second of the four initial CDKM Marina complex lots. Visually, its a parking lot and it does function like a game-default Parking Garage lot... with a reduced monthly capacity. But its most important role is actually as a "spacer" lot. It is designed to add a 2 tile wide gap or channel between other Marina lots with extended floating docks. This ensures that there is sufficient room for the boats to get in and out of their slips... if they actually moved.
+
+    Depending on what else is plopped around your Marina complex, you may or may not see any actual parking usage on this lot. If not, don't worry about it. We tossed it in for free and its not costing you anything beyond the basic lot maintenance.
+
+    The lot provides the front portion of the floating docks to visually connect the Marina complex lots that should be plopped on either side. It also uses the same custom parking lot as the other Marina lots in order to form a continous & attractive parking area along the backside of the Marina.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18748-peg-cdkm-parking-lot/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0ec8f578222791fb7d59449d91741eb0-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0ec8f578222791fb7d59449d91741eb0-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_ParkingLot.dat"
