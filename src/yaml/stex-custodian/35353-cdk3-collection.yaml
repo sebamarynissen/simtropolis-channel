@@ -108,19 +108,6 @@ assets:
     include:
       - "/PEG-CDK3_SmallFerryLanding.dat"
 
-
-# cdk3 marinas [all checked]					These modular Marina lots are designed to blend in perfectly with the OWW2 Boardwalks.
-# 	Main Marina						            This initial lot is the replacement for the in-game Marina and the centerpiece of your new Marina complex.
-# 	Parking							              Designed to add a 2 ble wide gap or channel between other Marina lots, with extended floating docks.
-# 	Yacht Club						            A ploppable CS$$ with jobs, that serves as an end piece dosing off the left of the Marina's floating docks.
-# 	Sport Fishing					          	A ploppable CS$$$ with jobs, that serves as an end piece dosing off the right of he Marina's floating docks.
-# 	OWW Boat Ramp					          	The formal left-end to the Marina complex. This lot visually doses off the boardwalk and parking area
-# 	Guest Services			        			The formal right-end to the Marina complex. This lot visually doses off the boardwalk and parking areas.
-# 	Boat Storage				          		An ideal spacer lot that can easily be used repeatedly to create larger boat storage areas of any size.
-# 	Docks						                	This Ax wide lot adds a lower floating dock section to your Marina to expand your complex ever wider.
-# 	Dock Extension			        			Extend your Marina docks out as far as want...even to Infinity and Beyond!!
-# 	Dock End					              	The perfect lot for those times when you feel you just can't go on anymore. It performs as advertised. It ends.
-# 	Chandlery				              		Use to visually wrap the lower floating docks around corners, extending your Marina in new directions.
 ---
 group: peg
 name: cdk3-marinas
@@ -142,76 +129,6 @@ dependencies:
   - peg:cdkm-dock-extension
   - peg:cdkm-dock-end
   - peg:cdkm-chandlery-ic-corner
-
-
-
-# cdk3 oww2 - old wooden waterfront 2 [all checked]		The OWW2 set provides a number of options for lovely waterfront walks around your coasts.
-# 	Waterfront Plaza					        One of the core OWW2 pieces, fris standard filler uses random props for greater variety.
-# 	Parking Lot						            Transit enabled version of he base plaza to allow sims access to the parking area.
-# 	Inner Corner						          Extend your OWW2 around inside corners. With this cs$$ lot with fast food vendors.
-# 	Outer Corner						          Extend your OWW2 around outer corners. So you aren't limited to straight sections.
-# 	Fisherman's Wharf				        	A fish market featuring both fast food and dining options for all things fish.
-# 	Left End				              		This dedicated left-side lot neatly ends both the OWW2 and Marina sections.
-# 	Right End				              		This dedicated right-side lot neatly ends both the OWW2 and Marina sections,
-# 	Observation Deck			        		Ideal for a little additional variety along your OWW sections.
-# 	Ramp					                		A single-tile wide access ramp from Üne boardwalks to the parking area.
-# 	CDK3 OWW2 Addons		        			Select from the various OWW2 addon lots for more variety and realism,
-# 		Fire Station				          	Smoke on the water? , no problem now your Fire Department is waterborne.
-# 		Food Court				            	Extending out over the water, your sims can enjoy great views whilst getting a bite to eat.
-# 		Ferry Landing			          		A fully functional Car and Passenger Ferry terminal that fits Mne OWW2 system.
-# 		Police Station Dock			      	With this lot, your dty's Police force can protect sims both on land and sea,
-# 		Fountain Plaza				        	A 2-tile wide plaza with an eye-catching fountain, sure to delight your Sims.
-# 		Annabellelin Restaurant		  		This restored Paddle Steamer is now one of the best restaurants in town.
-# 		Fishing Pier				          	A place for fishermen to wait for their supper to bug the line,
-# 		Lighthouse Museum			        	A lighthouse which functions as a museum. A replica of he Thomas Point Lighthouse.
-# 		Captain Nemo's Wild Ride	  		One of the more amusements along the Boardwalk.
-# 		OWW to OWW2 Transitions [not checked]		Two lots to transition from the older OWW to the OWW2
-# 	CDK3 OWW2 RCI Boardwalks				  RCI options, intended to allow zoning/buildings around your boardwalks.
-# 		RCI Boardwalks Base Set			  	The base RCI set includes 3 lots so your favorite buildings can sit on the coast.
-# 		RCI Boardwalks Corners				  Add inner and outer corner lots for the RCI Boardwalks.
-# 		RCI Boardwalks Pier Fillers		  Add filler lots to make eye candy piers and islands.
-# 	Beach Development Kit					    Add beaches along your waterfront. Designed to blend into the OWW2.
-# 		OWW2-BDK Beaches				        6 Lots to create beaches along OWW2 waterfronts. No more texture bugs, with these transparent lots.
-# 		Beach Restrooms					        Additional Restrooms for the BDK. So your sims can dean off after enjoying Y-ve Beach,
-# 		RebaLynn's Beach Hut				    One of the hottest spots along the beach and truly a local icon and landmark.
-# 	Pier Set						              Extend your OWW2 into he water, with the Pier addon.
-# 		Base Set					              This is the Pier Starter Pack. 6 lots to create piers of any length and shape.
-# 		Head					               	  Use the Pier Head to connect piers to your larger OWW2 system.
-# 		Wing					              	  A small public restroom and bait shop, to fit into your piers.
-# 		Boat Pass				            	  This lot enables automata/UDI boats to safely under your piers, or just for eye candy.
-# 		House						                The Pier House provides a perfect way to end your piers with food and shopping facilities.
-# 		Boat Dock				            	  A small boat dock for your pier system.
-# 		Lifeguard Tower			      		  A lookout for lifeguards that give them a birds-eye view of the surrounding area.
-# 		Arcade						              This arcade doubles as a 4-way pier section. Do the Pac-Man!
-# 	Seaport Village					      	  Commercial lots for your coasts. Designed to blend into the OWW2.
-# 		Seaport Village				      	  The Seaport Village is the centerpiece of commercial activity by the sea.
-# 		Seaport Sammy's			      		  This 24 hour pub is sure to be a focal for Sims after a day at the waterfront.
-# 		Corner Shops			        		  Two shops to add some retail therapy. for Sims that like that kinda thing.
-# 		Carousel				            	  Sim's children are bound to love this classical attraction by the shoreline.
----
-group: peg
-name: oww2-pier-set
-version: "1.0.0"
-subfolder: "660-parks"
-info:
-  summary: "Extend your OWW2 into the water."
-  author: Pegasus, STEX Custodian
-  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
-  images:
-    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image.jpg
-    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image1.jpg
-    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image.jpg
-    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image1.jpg
-dependencies:
-  - peg:oww2-pier-set-base
-  - peg:oww2-pier-set-head
-  - peg:oww2-pier-set-1x-wing
-  - peg:oww2-pier-set-boat-pass
-  - peg:oww2-pier-set-house
-  - peg:oww2-pier-set-1x-boat-dock
-  - peg:oww2-pier-set-lifeguard-tower
-  - peg:oww2-pier-set-arcade
-
 
 ---
 group: peg
@@ -263,6 +180,51 @@ dependencies:
   - peg:oww2-rci-boardwalks-base
   - peg:oww2-rci-boardwalks-corners
   - peg:oww2-rci-boardwalks-pier-fillers
+
+---
+group: peg
+name: oww2-pier-set
+version: "1.0.0"
+subfolder: "660-parks"
+info:
+  summary: "Extend your OWW2 into the water."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image1.jpg
+dependencies:
+  - peg:oww2-pier-set-base
+  - peg:oww2-pier-set-head
+  - peg:oww2-pier-set-1x-wing
+  - peg:oww2-pier-set-boat-pass
+  - peg:oww2-pier-set-house
+  - peg:oww2-pier-set-1x-boat-dock
+  - peg:oww2-pier-set-lifeguard-tower
+  - peg:oww2-pier-set-arcade
+
+---
+group: peg
+name: oww2-seaport-village-set
+version: "1.0.0"
+subfolder: "660-parks"
+info:
+  summary: "Commercial lots for your coasts. Designed to blend into the OWW2."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/49edbd3f381930db491fafe8fbff5b9b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2504d31d4ed5dacfefd1b83f5886570f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/ce981964b4fe5636b1ceb41e15df8745-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bcb9e37cf1f10cbaf68085f67c4fc7fb-product_image.jpg
+dependencies:
+  - peg:oww2-sv-seaport-village
+  - peg:oww2-sv-seaport-sammys
+  - peg:oww2-sv-corner-shops
+  - peg:oww2-sv-2x-shops
+  - peg:oww2-sv-carousel
 
 
 # cdk3 seaports - main lots [all checked]				Select main cdk3 seaport lots.

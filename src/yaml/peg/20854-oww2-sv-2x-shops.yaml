@@ -1,0 +1,32 @@
+group: peg
+name: oww2-sv-2x-shops
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Two additional shops for your pier. Twice the size, twice the retail therapy.
+  description: |-
+    This latest addition to the **CDK\-OWW** Seaport Village collection is a 2x section of shops that will add more variety to your village.The 2x Shops lot is, oddly enough, 2x tiles wide and is a CS$$ ploppable add-on designed for the PEG\-SV Seaport Village. Like all OWW2 lots, it can be used with any other OWW2 style of lots, including the CDKM Marina lots. It features the same modular boardwalk and parking area... and plops seamlessly with all other OWW2 lots.
+
+    The lot also features a custom query and rotating query sounds... and is extensively nite-lited. The lot was intended to be used as a filler between 2 SV Corner Shop lots but can be used in any fashion you desire.
+
+    * * *
+
+    **For help creating the perfect terrain for CDK lots,  
+    we strongly recommend reading The Official CDK Tutorial.**
+
+    **\*\* This lot requires the PEG\-CDKM Marina  
+    and the PEG\-OWW2 Resource Pack 1.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20854-peg-oww2-sv-2x-shops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bcb9e37cf1f10cbaf68085f67c4fc7fb-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bcb9e37cf1f10cbaf68085f67c4fc7fb-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-SV_Shops.dat"
