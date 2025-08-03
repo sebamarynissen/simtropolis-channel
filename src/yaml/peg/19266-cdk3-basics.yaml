@@ -1,0 +1,30 @@
+group: peg
+name: cdk3-basics
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 6 basic lots that can be used to form a developed industrial look along your coastlines.
+  description: |-
+    Time to get back to **The Basics**. This is a collection of 6, basic CDK3 lots that are quite similar to the standard CDK\-IND lots. Included are an Inner Corner & Outer Corner lot, a 1x wide and a 3x wide Dock lot, a Ramp lot and a Steps lot.
+
+    Like the original CDK\-IND lots, you can use these lots to form a developed industrial look along your coastlines. You can use these to replace your existing CDK\-IND lots, or keep both styles installed and mix them up. These new lots do not replace the older style and will appear separately in your Water Transportation Menu.
+
+    All of these lots are 3 tiles deep, in contrast to the 2 tile deep CDK\-IND lots. This extra depth includes a dirt service road that runs behind all lots and helps tie them together visually. The 3x wide Dock Lot provides jobs and is transit enabled for a street connection. The Inner Corner lot also is transit enabled for street connections but does not have jobs... so providing road access is optional.
+
+    Although designed for use along a coastline and partially plopped in the water, these lots can also be used on dry land and look pretty darn good  when placed next to railroad lines.
+
+    *These lots require the **PEG\-CDK3 Resource Pack 1** and the **PEG\-CDK3 Vehicles Pack 1** dependency files.*
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19266-peg-cdk3-basics/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/fde9bc0651e692f0ba7d798630e7a0bf-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0028/fde9bc0651e692f0ba7d798630e7a0bf-product_image2.jpg
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_Basics.dat"
+

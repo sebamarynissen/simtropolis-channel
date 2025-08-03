@@ -1,0 +1,34 @@
+group: peg
+name: cdk3-blackies-boatyard
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Blackies Boatyard provides all necessary marine services including storage and ramp launching facilities for smaller pleasure craft.
+  description: |-
+    The man who invents the low-maintenance boat will be heralded as a God... except by Blackie, of course... who has been maintaining and refitting boats since long before anyone can remember. Blackies Boatyard provides all necessary marine services including storage and ramp launching facilities for smaller pleasure craft.
+
+    The 7x6 lot (7x2 land imprint) is a full blown CDK3 lot requiring almost all of the CDK3 dependencies. Its an industrial manufacturing lot with plenty of jobs and income generated from taxes. Like any industrial lot, its a tad on the dirty side... but nothing you can't handle.
+
+    The lots uses numerous new custom props with many of them timed to appear & disappear throughout the day. The driveways of the lot are transit enabled for more realistic connections to your road network. The main structure of the lot is not nite-lited (thus saving about 700k of memory) as this type of business would not operate at night. However, the lot is lighted with numerous street lights.  
+      
+    The lot is located in the Water Transportation menu along with the other CDK3 lots.
+
+    **This lot requires the following dependency files:**
+
+    PEG\-CDK3 Resource Pack1  
+    PEG\-CDK3 The Basics  
+    PEG\-CDK3 Recreational Boats Pack 1  
+    PEG\-CDK3 Trawlers Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19341-peg-cdk3-blackies-boatyard/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/44f14d8e11e56c073ed8753321641b37-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0008/44f14d8e11e56c073ed8753321641b37-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_BlackiesBoatYard.dat"

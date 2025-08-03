@@ -1,0 +1,213 @@
+group: peg
+name: cdk3-collection
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "The Coastal Development Kit 3 (CDK3) Collection is a collated package of all of the previous CDK3 downloads released by Pegasus."
+  warning: "If you opt to include one or of the functional seaport lots, it is imperative you have no other seaport controller installed! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
+  description: |-
+    Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically handle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
+
+    ***All discussions and support for this product are now hosted on the [PLEX on the STEX - Community Support thread at Simtropolis](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
+
+    ## Functional Seaports / Seaport Controller - IMPORTANT INFORMATION
+
+    If you choose to install one or more of the Functional Seaport lots, use of them will require that the Pegasus Seaport Controller is installed. Note that this will replace the in-game seaport in the Water Transit menu.
+
+    **!!! It is imperative that you do not install more than one Seaport Controller - failure to adhere to this warning, could prevent you from opening your cities and render them useless. !!!**
+
+    By installing the controller, you are confirming that you have no other Seaport Controller installed. To avoid conflicts that could prevent you from being able to load your cities, you should never use any other functional Seaport Mod or Lot, except those supported by this package, which are as follows:
+
+      - PEG\-CDK3\-SP\_Container-Seaport.dat\*
+      - PEG\-CDK3\-SP\_Pier-Seaport.dat\*
+      - PEG\-CDK3\-SP\_Break-Bulk-SeaPort.dat\*
+      - CSK2 Canal Small Seaport
+      - SWAP Package Handling Centre
+
+    Note: Items marked with \* are included with this package, everything else is not part of the CDK3, although the included Seaport Controller will support their use.
+
+    If you are unsure if you have any unsupported Seaports, we ***strongly*** suggest testing them in a new, blank test city first. If you can Plop the Seaports, save, exit and reload the city all without issue, then you should be safe to use them in your existing cities. Additionally, we recommend making a backup of your Regions BEFORE using any of the functional Seaports, this way if something does go wrong, you have a way to fix the problem.
+
+    We can not be held responsible for your failure to read, understand or follow the advice here. Whilst this is necessary due to the way the game works, there really isn't anything to worry about, provided you never install more than one such controller, but the warnings are here because if you do, the consequences are not good.
+
+    ## Users with pre-existing CDK3 installed
+
+    The package was originally designed for new users of the CDK3, given that it's main purpose was to simplify the installation, that doesn't really do anything for those with existing installs. However, a Cleanitol RemoveList is attached here, which should be ran before running the CDK3 Collection Installer, will find and remove all the original CDK3 content from your Plugins folder:
+
+    [RemoveList - CDK3 Collection.txt](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=99081)
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/CDK3Collection.jpg.1767b514d881d88be99afcb369b2ea88.jpg
+dependencies:
+  - peg:cdk3-base-pack
+
+
+# cdk3 - coastal development kit (base) [all checked]		The base CDK3 lots are all designed to beautify your coastal areas
+# 	The Basics						            6 basic lots that can be used to form a developed industrial look along your coastlines
+# 	Acme Algae Farm					        	A ckd3 ploppable lot providing i-r (farming) jobs ... and products for Wyle E Coyote and friends.
+# 	Blackies Boatyard				        	Providing all necessary marine services including storage and ramp launching facilities for smaller pleasure craft
+# 	Captain Jack's Landing	        	A bustling commercial fishing port. The #1 choice for putting in and selling the day's catch.
+# 	Fred Ginger's Fishery			        This fishery lot provides IR jobs and lots of fresh fish for your sims to eat.
+# 	Vandy Shipping Company		        The Vandy Shipping Company. Bringing industrial goods to market for as long as anyone can remember.
+# 	Small Ferry Landing				        A fully functioning Passenger and Car ferry terminal. Just 3x2 in size and doesn't protrude far into the water.
+# 	Garbage Docks						          One way to rid yourself of trash problems, is just to ship it somewhere else. With these lots, now you can.
+# 	Puerta de Pego Coastal Fort				An example of a classic 16-17th century coastal fort modded to function equivalently to the in-game museum.
+# 	Fuerta de Pego Coastal Battery		A landmark addon for the Puerta de Pego fort. Looks great next to it or as a standalone lot.
+# 	Coast Guard Station					      SOS - Save Our Sims. This lot includes boats, helicopters, static and animated Coast Guard personnel.
+# 		Standard Lot					          (required)
+# 		'South' Alternate Lot           (with palm trees)		Additionally select this option, it you'd prefer to see Palm Trees upon the Coast Guard Lot instead.
+---
+group: peg
+name: cdk3-base-pack
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "The base CDK3 lots are all designed to beautify your coastal areas."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-basics
+  - peg:cdk3-algae-farm
+  - peg:cdk3-blackies-boatyard
+  - peg:cdk3-capt-jacks-landing
+  - peg:cdk3-fred-ginger-fishery
+  - peg:cdk3-vandy-shipping-company
+  - peg:cdk3-small-ferry-landing
+  - peg:cdk3-garbage-docks
+  - peg:cdk3-puerta-de-pego-coastal-fort
+  - peg:cdk3-fuerta-de-pego-coastal-battery
+  - peg:cdk3-coast-guard-station
+
+
+## This does not appear to be uploaded anywhere to the STEX
+---
+group: peg
+name: cdk3-small-ferry-landing
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: A fully functioning Passenger and Car ferry terminal. Just 3x2 in size and doesn't protrude far into the water.
+  description: |-
+    The CDK3 Small Ferry Landing is a make-over of the CDK-IND version. Its a fully functional auto & passenger ferry terminal. It does not replace the original game ferry terminal and can freely be used with any other ferry terminal or landing.
+
+    This ferry landing is reduced in size compared to the game default terminals... a mere 3x2 tiles in size. This version also uses a simple, single road connection that pulls double duty as both entrance and exit. All other properties and capacities are the same as the game's default car ferry.
+
+    In contrast to the original terminal, the Ferry Landing is a CDK3 lot which does not protrude several tiles out into the water. As the water depth is generally shallower nearer the shore, care must be taken to ensure that the water depth is deep enough for the ferry to operate. If it is not, the ferry will not function.
+
+    *This lot requires the PEG CDK3 SUPER Pack dependency file which is available in the CDK3 section of the PLEX.*
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_SmallFerryLanding.dat"
+
+
+# cdk3 marinas [all checked]					These modular Marina lots are designed to blend in perfectly with the OWW2 Boardwalks.
+# 	Main Marina						            This initial lot is the replacement for the in-game Marina and the centerpiece of your new Marina complex.
+# 	Parking							              Designed to add a 2 ble wide gap or channel between other Marina lots, with extended floating docks.
+# 	Yacht Club						            A ploppable CS$$ with jobs, that serves as an end piece dosing off the left of the Marina's floating docks.
+# 	Sport Fishing					          	A ploppable CS$$$ with jobs, that serves as an end piece dosing off the right of he Marina's floating docks.
+# 	OWW Boat Ramp					          	The formal left-end to the Marina complex. This lot visually doses off the boardwalk and parking area
+# 	Guest Services			        			The formal right-end to the Marina complex. This lot visually doses off the boardwalk and parking areas.
+# 	Boat Storage				          		An ideal spacer lot that can easily be used repeatedly to create larger boat storage areas of any size.
+# 	Docks						                	This Ax wide lot adds a lower floating dock section to your Marina to expand your complex ever wider.
+# 	Dock Extension			        			Extend your Marina docks out as far as want...even to Infinity and Beyond!!
+# 	Dock End					              	The perfect lot for those times when you feel you just can't go on anymore. It C8forms as advertised. It ends.
+# 	Chandlery				              		used to visually wrap the lower floating docks around corners, extending your Marina in new directions.
+
+# cdk3 oww2 - old wooden waterfront 2 [all checked]		The OWW2 set provides a number of options for lovely waterfront walks around your coasts.
+# 	Waterfront Plaza					        One of the core OWW2 pieces, fris standard filler uses random props for greater variety.
+# 	Parking Lot						            Transit enabled version of he base plaza to allow sims access to the parking area.
+# 	Inner Corner						          Extend your OWW2 around inside corners. With this cs$$ lot with fast food vendors.
+# 	Outer Corner						          Extend your OWW2 around outer corners. So you aren't limited to straight sections.
+# 	Fisherman's Wharf				        	A fish market featuring both fast food and dining options for all things fish.
+# 	Left End				              		This dedicated left-side lot neatly ends both the OWW2 and Marina sections.
+# 	Right End				              		This dedicated right-side lot neatly ends both the OWW2 and Marina sections,
+# 	Observation Deck			        		Ideal for a little additional variety along your OWW sections.
+# 	Ramp					                		A single-tile wide access ramp from Üne boardwalks to the parking area.
+# 	CDK3 OWW2 Addons		        			Select from the various OWW2 addon lots for more variety and realism,
+# 		Fire Station				          	Smoke on the water? , no problem now your Fire Department is waterborne.
+# 		Food Court				            	Extending out over the water, your sims can enjoy great views whilst getting a bite to eat.
+# 		Ferry Landing			          		A fully functional Car and Passenger Ferry terminal that fits Mne OWW2 system.
+# 		Police Station Dock			      	With this lot, your dty's Police force can protect sims both on land and sea,
+# 		Fountain Plaza				        	A 2-tile wide plaza with an eye-catching fountain, sure to delight your Sims.
+# 		Annabellelin Restaurant		  		This restored Paddle Steamer is now one of the best restaurants in town.
+# 		Fishing Pier				          	A place for fishermen to wait for their supper to bug the line,
+# 		Lighthouse Museum			        	A lighthouse which functions as a museum. A replica of he Thomas Point Lighthouse.
+# 		Captain Nemo's Wild Ride	  		One of the more amusements along the Boardwalk.
+# 		OWW to OWW2 Transitions [not checked]		Two lots to transition from the older OWW to the OWW2
+# 	CDK3 OWW2 RCI Boardwalks				  RCI options, intended to allow zoning/buildings around your boardwalks.
+# 		RCI Boardwalks Base Set			  	The base RCI set includes 3 lots so your favorite buildings can sit on the coast.
+# 		RCI Boardwalks Corners				  Add inner and outer corner lots for the RCI Boardwalks.
+# 		RCI Boardwalks Pier Fillers		  Add filler lots to make eye candy piers and islands.
+# 	Beach Development Kit					    Add beaches along your waterfront. Designed to blend into the OWW2.
+# 		OWW2-BDK Beaches				        6 Lots to create beaches along OWW2 waterfronts. No more texture bugs, with these transparent lots.
+# 		Beach Restrooms					        Additional Restrooms for the BDK. So your sims can dean off after enjoying Y-ve Beach,
+# 		RebaLynn's Beach Hut				    One of the hottest spots along the beach and truly a local icon and landmark.
+# 	Pier Set						              Extend your OWW2 into he water, with the Pier addon.
+# 		Base Set					              This is the Pier Starter Pack. 6 lots to create piers of any length and shape.
+# 		Head					               	  Use the Pier Head to connect piers to your larger OWW2 system.
+# 		Wing					              	  A small public restroom and bait shop, to fit into your piers.
+# 		Boat Pass				            	  This lot enables automata/UDI boats to safely under your piers, or just for eye candy.
+# 		House						                The Pier House provides a perfect way to end your piers with food and shopping facilities.
+# 		Boat Dock				            	  A small boat dock for your pier system.
+# 		Lifeguard Tower			      		  A lookout for lifeguards that give them a birds-eye view of the surrounding area.
+# 		Arcade						              This arcade doubles as a 4-way pier section. Do the Pac-Man!
+# 	Seaport Village					      	  Commercial lots for your coasts. Designed to blend into the OWW2.
+# 		Seaport Village				      	  The Seaport Village is the centerpiece of commercial activity by the sea.
+# 		Seaport Sammy's			      		  This 24 hour pub is sure to be a focal for Sims after a day at the waterfront.
+# 		Corner Shops			        		  Two shops to add some retail therapy. for Sims that like that kinda thing.
+# 		Carousel				            	  Sim's children are bound to love this classical attraction by the shoreline.
+
+# cdk3 seaports - main lots [all checked]				Select main cdk3 seaport lots.
+# 	Container Support					        Non-functional version of the Container Seaport.
+# 	Pier One						              Non-Functional version of the Pier One Seaport. Select which (if any) version of Pier One to install.
+# 		Pier One 'WV' - Water Style		  WV Ver, works like other CDK3 lots, just plop on water. Advantages: No extra terraforming required.
+# 		Pier One 'LV - Land Style [unchecked]		LV Ver. are placed on land, requiring terraforming. Advantages: Wave action and automata avoidance.
+# 	Break Buk Dock						        Nonfunctional version of the Break Bulk Docks for shipping large broken biscuits?
+# 	Vandy Shipping						        The Seaport version of Vandy Shipping docks to blend into your CDK3 better.
+# 	Bubbas Bulk n Barge				    	  No shrimp here!
+# 	Row Warehouses						        Row Warehouses are warehouses, notably in a Row.
+
+# cdk3 seaports - addons/fillers [all checked]			select cdk3 seaport addons and fillers.
+# 	Docks x1						              1x dock fillers
+# 	Dock Corner Pieces					      Corner Dock Pieces, for those who won't play straight,
+# 	Dock with Barges					        2x5 Docks with Barges
+# 	RCI Docks						              RCI Docks allow the docks to continue visually, but for RCI zoning to be used.
+# 	Dock Bus Stop						          CDK3 Seaport Style Bus Stop.
+# 		Dock Bus Stop				    	      A Bus Stop designed to blend seamlessly into your CDK3 Dock system.
+# 		Additional icon in Seaport Menu	[unchecked]	Add additional Bus Stop Icon to the Menu. Can only be installed if also using the main SP Bus Stop.
+# 	Ship Traffic						          A set of Ploppable ships, time to get your boat on!
+# 	Buoyz from Da Hood					      Two Ploppable Buoys (Green and Red) to help prevent mishaps on the water.
+
+# cdk3 functional seaports [all unchecked]			Include Functioning Seaports. !!! Can NOT be used with other functional seaports !!!
+# 	Container Seaport					        Include the functional version of the Container Seaport.
+# 	Pier One						              Include the functional version of the Pier One Seaport.
+# 	Break Bulk Dock						        Include the functional version of the Break Bulk Dock Seaport.
+
+# cdk3 & oww patches [all unchecked]	Select any of these optional Patches that alter behavior of certain CDK3 and OWW2 items.
+# 	OWW2 Outer Corner Type					  By default the OWW2 outer corner lots randomly selects one of tao styles, these options suppress that.
+# 		Force Square Outer Corners			Choose this option if you want all OWW2 Outer Corner lots to use the Square style.
+# 		Force Rounded Outer Corners			Choose this option if you want all OWW2 Outer Corner lots to use the Rounded style.
+# 	OWW2 Plaza Control Freak Mod			Instead of randomly selecting a 1x1 plaza, ffs splits them into 3 distinct lots for more control.
+# 	OWW to OWW2 Conversion Mod				For users of older OWW content. This patch converts them to the OWW2 style.
+# 	CDK3 - The Basics Cement Patch		The patch will convert the CDK3 Basics lots to the newer CDK3 Seaport 'cement' style.
+
+# CDK Leveler Tool [checked]					Install the handy Leveler tool (Recommended) Less time in God Mode... more time playing!!
+# Euro Textures [unchecked]					  EU Road Texture users should select this. This patch updates any LIS textures to better match your game.
+# RealRailway (RRW) Textures [checked] If you are not using the RRW Rail style (NAM default), you should uncheck this selection to keep the default rails.
+
+
+
+
+---
+assetId: stex-custodian-pegasus-cdk3-collection
+version: "1.0.0"
+lastModified: "2022-12-05T01:11:44Z"
+url: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/?do=download&r=195812

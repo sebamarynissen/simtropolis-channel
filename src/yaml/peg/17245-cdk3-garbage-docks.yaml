@@ -1,0 +1,65 @@
+group: peg
+name: cdk3-garbage-docks
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: One way to rid yourself of trash problems, is just to ship it somewhere else. With these lots, now you can.
+  description: |-
+    The CDK3 Garbage dock (aka.. Sanitation Department Product Disposal Facility) uses a new cutting edge technology to get rid of your city's trash. Ok, ok... it actually uses an "over-the-edge" technology pioneered with the Pegadyne Garbage Chute. The garbage scows haul the trash out to "The Edge" and, like the chute, simply toss it over the side.
+
+    You can pretend that the scows are actually hauling the trash off to neighboring city, per some garbage deal you may have. Or you can even imagine that the trash to taken to a high-tech, state of the art & environmentally safe refuse elimination facility. But we all know they are just dumping it into the Abyss.
+
+    In order to keep the cost of disposing of your garbage as low as possible, the Sanitation Department has reduced overhead by eliminating unnecessary & expensive items...such as maintenance. This is most evident in the facility's four garbage scows, the S.S. POS... the S.S. Poo... the S.S. Tetanus... and the S.S. Chum.
+
+    The 2 lots (4x3 & 8x5) are functional garbage removal facilities... hybrids of a standard landfill and trash incinerator. They will appear in the Garbage Utilities Menu. Like the Garbage Chute, your city's garbage trucks will bring trash to them. The trucks will even drive slowly through the lot as if stopping to dump trash. Where a landfill stores your trash until it is filled up, these lots will hold it just long enough to dispose of it. The 4x3 lot disposes of 500 tons of trash per month... which is double the rate (and cost) of the Garbage Chute. The 8x5 lot, which also has a rail connection, disposes of 1,000 tons of trash per month.
+
+    If your city produces less than the capacities of these lots, then they will eliminate all of it. Otherwise, you will need more than one of these lots... or a landfill or trash deal to handle the excess. Use of recycling facilities and environmental ordinances can significantly reduce the amount of trash your city produces.
+
+    \* If you do not have adequate facilities to handle all of your city's trash, the excess will build up, eventually becoming visible in your city and greatly reduce wealth & desirability.
+
+    ***About The Custom Query...***
+
+    The lots contain a custom query that displays all of your city's garbage stats. Near the top, the number of tons of garbage the dock is processing is displayed. This figure is updated several times throughout the month, even when the query window is open.
+
+    The City Wide Stats displayed in the middle area of the query window are primarily the stats for the previous month as the stats only get calculated by the game at the end of each month. The **Total Uncollected Garbage** stat is also updated each month, but is not a monthly figure. It reflects the total amount of garbage in your city that you could not process in some manner. Keep an eye on this statistic. If it grows, you have a potential crisis on your hands and will need to expand your garbage processing capabilities. The ideal number for this stat is Zero!!
+
+    * The **Garbage Processed** stat reflects all the garbage that was processed by any Waste to Energy plants, the Garbage Chutes and, of course, the Garbage Docks.
+
+    * The **Bodies Found** statistic is a calculated indicator of the efficiency of your law enforcement.
+
+    **Dependency:**
+
+    [PEG CDK3 RESOURCE PACK 1](https://community.simtropolis.com/files/file/19265-peg-cdk3-resource-pack-1/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/17245-peg-cdk3-garbage-docks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/28e2d17dae7345b15619dab26db0d2f6-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0006/28e2d17dae7345b15619dab26db0d2f6-ss_10-28_5.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:cdk3-garbage-docks-resources
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_GarbageDock.dat"
+
+---
+group: peg
+name: cdk3-garbage-docks-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Resources for `pkg=peg:cdk3-garbage-docks`
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/17245-peg-cdk3-garbage-docks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/28e2d17dae7345b15619dab26db0d2f6-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0006/28e2d17dae7345b15619dab26db0d2f6-ss_10-28_5.jpg
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_GarbageDock_RESOURCE.dat"
