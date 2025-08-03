@@ -1,0 +1,42 @@
+group: peg
+name: oww2-bdk-rebalynns-beach-hut
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: OWW2 RebaLynns Beach Hut
+  description: |-
+    A day without sunshine is like a beach without Reba's. Or so went the original advertising campaigns. Over the years, for many locals and tourists alike, that has held to be true. RebaLynn's Beach Hut is one of the hottest spots along the beach and truly a local icon and landmark.
+
+    Although perhaps most famous for its jet ski & surfboard rentals, the small complex also includes a dive shop, gift shop, surf shop and several food & snack outlets. For a day at the beach... "If it ain't at Reba's, you don't need it!"
+
+    This standard 3 tile wide BDK lot is a CS$$ ploppable lot. Although it does not have a driveway to the beach parking area, it still requires road access for the jobs that it offers. Because of the lot's popularity, it has greater park and landmark properties than an equivalent BDK section of beach.The lot also features a custom query & sound effect... and is extensively nite-lited.
+
+    Surfs Up, Dude !!
+
+    \* Like the other standard BDK lots, this lot uses a new tri-level random stat feature which provides different beach-related stats with each query.. Not only does the stat value change with each query, but the stat itself changes. Most of the stats pertain to conditions at the beach, such as water temp, wave height, etc. Some are just funny stats about common beach activities. One stat, the Air Quality Index (AQI),is calculated from the citiy's current air pollution value and computed into an equivalent real-world AQI value commonly used by weather bureaus.
+
+    \* As with the game default and other beach lots, the lots in the BDK will likely require terrain editing to look the way you want it. As it uses transparent textures, the underlying terrain shows through and your beach sand texture will be that of the actual terrain. Certain terrain mods may provide an undesirable sand color. Please consult the Developer's Notes section of the accompanying readme file for further details on editing the terrain for this lot.
+
+    **\*\* This lot requires**
+
+    **PEG\-CDKM Marina  
+    PEG\-OWW2 Resource Pack 1  
+    PEG\-OWW2 Beach Development Kit**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-CB Edit:** Added a patch to the file which prevents a potential game glitch.  
+    While it is not certain a fix was needed, the files have been updated as a precautionary measure.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19363-peg-oww2-rebalynns-beach-hut/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5a1334275ed55a25ba395e6e0712aaeb-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5a1334275ed55a25ba395e6e0712aaeb-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-bdk-beach-development-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-BDK_Beach_Hut.dat"

@@ -6,7 +6,7 @@ info:
   summary: "The Coastal Development Kit 3 (CDK3) Collection is a collated package of all CDK3 downloads released by Pegasus."
   warning: "If you opt to include one or of the functional seaport lots, it is imperative you have no other seaport controller installed! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
   description: |-
-    Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically handle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
+    Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically h andle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
 
     ***All discussions and support for this product are now hosted on the [PLEX on the STEX - Community Support thread at Simtropolis](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
 
@@ -188,6 +188,75 @@ dependencies:
 # 		Seaport Sammy's			      		  This 24 hour pub is sure to be a focal for Sims after a day at the waterfront.
 # 		Corner Shops			        		  Two shops to add some retail therapy. for Sims that like that kinda thing.
 # 		Carousel				            	  Sim's children are bound to love this classical attraction by the shoreline.
+---
+group: peg
+name: cdk3-old-wooden-waterfront-2
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "The Old Wooden Waterfront 2 (OWW2) set provides a number of options for lovely waterfront walks around your coasts."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:oww2-1x-plaza
+  - peg:oww2-parking-lot
+  - peg:oww2-inner-corner
+  - peg:oww2-outer-corner
+  - peg:oww2-fishermans-wharf
+  - peg:oww2-left-end
+  - peg:oww2-right-end
+  - peg:oww2-observation-deck
+  - peg:oww2-1x-ramp
+  - peg:oww2-fire-station
+  - peg:oww2-food-court
+  - peg:oww2-ferry-landing
+  - peg:oww2-cop-dock
+  - peg:oww2-fountain-plaza
+  - peg:oww2-annabellelin-restaurant
+  - peg:oww2-fishing-pier
+  - peg:oww2-lighthouse-museum
+  - peg:oww2-captain-nemos-wild-ride
+  #- peg:oww2-to-oww-transitions --- add a variant to include these??
+  - peg:oww2-rci-boardwalks
+  - peg:oww2-beach-development-kit
+
+---
+group: peg
+name: oww2-rci-boardwalks
+version: "1.0.0"
+subfolder: "660-parks"
+info:
+  summary: "A collection of lots that allow you to zone RCI right up to the edge of the coast... and still have OWW2 Boardwalks running along the shoreline."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image1.jpg
+dependencies:
+  - peg:oww2-rci-boardwalks-base
+  - peg:oww2-rci-boardwalks-corners
+  - peg:oww2-rci-boardwalks-pier-fillers
+
+---
+group: peg
+name: oww2-beach-development-kit
+version: "1.0.0"
+subfolder: "660-parks"
+info:
+  summary: "The Beach Development Kit (BDK) adds beaches along your waterfront and is designed to blend into the OWW2."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/429c5a0156675624d9bef2390d347c63-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/681f288d3531c4b3f84618d67dd01289-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5a1334275ed55a25ba395e6e0712aaeb-product_image.jpg
+dependencies:
+  - peg:oww2-bdk-base
+  - peg:oww2-bdk-beach-restrooms
+  - peg:oww2-bdk-rebalynns-beach-hut
+
 
 # cdk3 seaports - main lots [all checked]				Select main cdk3 seaport lots.
 # 	Container Support					        Non-functional version of the Container Seaport.

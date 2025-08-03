@@ -1,0 +1,32 @@
+group: peg
+name: oww2-observation-deck
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Ideal for a little additional variety along your OWW sections.
+  description: |-
+    This is 2 tile wide plaza-style lot for your OWW2 boardwalks that features an extended observation deck and custom double-wide plaza area. It is ideal for adding extra variety in longer stretches of your seawall. It can be used with your OWW2 Boardwalks as well as your CDKM Marina complex.
+
+    The lot's properties are similar to those of the 1x Plaza lot. The costs are approx. doubled and the park & landmark values increased accordingly. Other properties, such as power/water usage & pollution are also slightly higher, but still almost negligible.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18906-peg-oww2-observation-deck/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2ff03d8226c1e6e10f8d9bce43e66732-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2ff03d8226c1e6e10f8d9bce43e66732-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_ObservationDeck.dat"

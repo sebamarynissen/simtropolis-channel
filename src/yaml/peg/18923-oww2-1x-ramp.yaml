@@ -1,11 +1,11 @@
 group: peg
 name: oww2-1x-ramp
 version: "1.0"
-subfolder: 700-transit
+subfolder: 660-parks
 info:
-  summary: OWW2 1x Ramp
+  summary: A single-tile wide access ramp from Üne boardwalks to the parking area.
   description: |-
-    This is a single tile wide access ramp for your OWW2 boardwalks that features a large pedestrian ramp that extends down toward the parking area. This lot can be usefull in providing extra variety to your boardwalks and the plaza areas behind them. It can be used with your OWW2 Boardwalks, your CDKM Marina complex and the upcoming OWW2 Seaport Village collection.
+    This is a single tile wide access ramp for your OWW2 boardwalks that features a large pedestrian ramp that extends down toward the parking area. This lot can be useful in providing extra variety to your boardwalks and the plaza areas behind them. It can be used with your OWW2 Boardwalks, your CDKM Marina complex and the upcoming OWW2 Seaport Village collection.
 
     All lot properties are similar to those of the 1x Plaza lot.
 
@@ -23,11 +23,10 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0020/b53158581dcb4a45353b708cbeda375f-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0020/b53158581dcb4a45353b708cbeda375f-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
 assets:
-  - assetId: peg-oww2-1x-ramp
-
----
-assetId: peg-oww2-1x-ramp
-version: "1.0"
-lastModified: "2007-11-08T10:45:50Z"
-url: https://community.simtropolis.com/files/file/18923-peg-oww2-1x-ramp/?do=download&r=43217
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_Ramp.dat"

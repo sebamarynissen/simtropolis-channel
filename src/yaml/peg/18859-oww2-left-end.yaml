@@ -1,0 +1,30 @@
+group: peg
+name: oww2-left-end
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: This dedicated left-side lot neatly ends both the OWW2 and Marina sections.
+  description: |-
+    This lot is a dedicated left-side End section for both the OWW2 and CDKM Marina. It visually closes off the seawall/boardwalk and rear parking area.   All properties are similar to the OWW2 1x Plaza lot.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18859-peg-oww2-left-end/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/24b6b6b94b3efc828546152c079ebc74-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/24b6b6b94b3efc828546152c079ebc74-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_LeftEnd.dat"
