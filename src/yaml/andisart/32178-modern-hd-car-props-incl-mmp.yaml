@@ -1,6 +1,6 @@
 group: andisart
 name: modern-hd-cars-mmp
-version: "1.1"
+version: "1.1-1"
 subfolder: 180-flora
 info:
   summary: Modern HD Car Props (incl. MMP)
@@ -60,7 +60,7 @@ dependencies:
 assets:
   - assetId: andisart-modern-hd-car-props-incl-mmp
     include:
-      - AndisArt_PROP_carpack_MMP.dat.dat
+      - AndisArt_PROP_carpack_MMP.dat
 
 ---
 group: andisart
