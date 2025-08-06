@@ -1,0 +1,78 @@
+group: jarnomiedema
+name: statue-of-caesar-augustus
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Statue of Caesar Augustus
+  description: |-
+    how to use the textures on my models so they now look much better than when I started out..
+
+    The statue of Napoleon Bonaparte has now been updated to include a Half-sized version as
+
+    well! Click [here](https://www.simtropolis.com/stex/details.cfm?id=13006) for the updated file..
+
+    At the age of 23 Gaius Octavius joined the army of his great-uncle Julius Caesar and
+
+    distinguished himself at the Battle of Munda. Impressed with his grand-nephew's conduct,
+
+    Caesar adopted Octavius as his son and appointed him to be his heir. Octavius adopted
+
+    the new name of Gaius Julius Caesar Octavianus..
+
+    emerged victoriously as Caesar Augustus, Augustus meaning 'the exalted one'. Augustus
+
+    completed Caesar's dream of unifying Rome under one man and became the very first Emperor
+
+    of Rome..
+
+    Roman Emperors. He established Rome's first permanent Army and Navy, repaired, finished or
+
+    rebuilt Rome's most famous structures. Most famously, Augustus' rule is charactarized by the
+
+    so-called 'Pax Romana', or 'Roman Peace', which lasted for more than two centuries after his
+
+    death.
+
+    'Caesar' continued as royal titles up to the twentieth century. Think of the German 'Kaiser' and
+
+    Russian 'Tsar'..
+
+    Lot Size: 1x1 Tiles
+
+    Menu Position: Parks & Recreation
+
+    Plop Cost:
+  author: jarnomiedema
+  website: https://community.simtropolis.com/files/file/13050-statue-of-caesar-augustus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/72937a7816395def6aefe731eba9aeb0-CaesarAugustus-Statue100.jpg
+    - https://www.simtropolis.com/objects/screens/0013/72937a7816395def6aefe731eba9aeb0-CaesarAugustus-Statue50.jpg
+dependencies:
+  - jarnomiedema:statue-of-caesar-augustus-models
+assets:
+  - assetId: jarnomiedema-statue-of-caesar-augustus
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jarnomiedema
+name: statue-of-caesar-augustus-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=jarnomiedema:statue-of-caesar-augustus`
+  author: jarnomiedema
+  website: https://community.simtropolis.com/files/file/13050-statue-of-caesar-augustus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/72937a7816395def6aefe731eba9aeb0-CaesarAugustus-Statue100.jpg
+    - https://www.simtropolis.com/objects/screens/0013/72937a7816395def6aefe731eba9aeb0-CaesarAugustus-Statue50.jpg
+assets:
+  - assetId: jarnomiedema-statue-of-caesar-augustus
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: jarnomiedema-statue-of-caesar-augustus
+version: "1.0"
+lastModified: "2005-07-13T15:56:07Z"
+url: https://community.simtropolis.com/files/file/13050-statue-of-caesar-augustus/?do=download&r=34055
