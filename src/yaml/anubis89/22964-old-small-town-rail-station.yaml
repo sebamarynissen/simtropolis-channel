@@ -1,0 +1,67 @@
+group: anubis89
+name: old-small-town-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Old Small Town Rail Station
+  description: |-
+    Inspired by rural German Rail Stations from the beginning of the 20th century. Two versions are included in the download, one version is partially overhanging (to allow freight trains to pass the station), while the other one is fully inside a lot.
+
+    Stats:
+
+    Lot Size: 2x6 and 3x6
+
+    Capacity: 3000
+
+    Monthly Costs: 20
+
+    Plop Cost: 1000
+
+    Bulldoze Cost: 200
+
+    **Dependencies:**
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=27](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=27)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1180](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=475](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/22964-old-small-town-rail-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3995c427ac5ab6796d683a2f981a25cd-Img2.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3995c427ac5ab6796d683a2f981a25cd-Img1.jpg
+dependencies:
+  - bsc:jrj-cpt-trees-as-props
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - anubis89:old-small-town-rail-station-resources
+assets:
+  - assetId: anubis89-old-small-town-rail-station
+    exclude:
+      - "/Props/"
+      - "/Hauptgebauede-0x5ad0e817_0xf81edcba_0x160000.SC4Model"
+
+---
+group: anubis89
+name: old-small-town-rail-station-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Props and models for `pkg=anubis89:old-small-town-rail-station`
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/22964-old-small-town-rail-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3995c427ac5ab6796d683a2f981a25cd-Img2.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3995c427ac5ab6796d683a2f981a25cd-Img1.jpg
+assets:
+  - assetId: anubis89-old-small-town-rail-station
+    include:
+      - "/Props/"
+      - "/Hauptgebauede-0x5ad0e817_0xf81edcba_0x160000.SC4Model"
+
+---
+assetId: anubis89-old-small-town-rail-station
+version: "1.0"
+lastModified: "2009-12-12T12:02:38Z"
+url: https://community.simtropolis.com/files/file/22964-old-small-town-rail-station/?do=download&r=49601
