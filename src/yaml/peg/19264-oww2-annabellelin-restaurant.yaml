@@ -1,0 +1,39 @@
+group: peg
+name: oww2-annabellelin-restaurant
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: This restored Paddle Steamer is now one of the best restaurants in town.
+  description: |-
+    Long ago, they were the greyhounds of the mighty Mississippi River. But time & technology has passed them by and they remain but a memory and icon to a distant era. Very few of the original paddle wheel steam boats remain to this day but the beautiful **Annabellelin** lives on, rescued from the scrap yard and meticulously restored to her original grandeur.
+
+    Enjoying her retirement, the Annabellelin now graces your **OWW2** Boardwalks as the swankiest restaurant in town. Limos are a frequent site as they chauffeur in the city's elite for an evening of fine dining, dancing & music performed by the finest Jazz artists alive today.
+
+    Although technically a high wealth (ploppable) commercial service lot, The Annabellelin is also a city icon and therefore a major landmark & tourist attraction. It provides jobs, generates revenue from taxes and cost only 2,000 to plop. As a privately owned enterprise, there is no maintenance costs incurred by the city.
+
+    The lot is transit enabled with a central driveway for a more realistic connection. It is also Christmas Enabled with colorful lights appearing during the Holiday Season (game time). Custom car lot cluster props keep the lots full from lunchtime until well after closing. The outside dinning area is fully detailed complete with red linen table cloths & illuminated candles on each table.
+
+    The lot is compatible with all OWW2 collections and is extensively night lighted. It also features a custom query with unique stats driven by conditions within your city.
+
+    For help creating the perfect terrain for CDK lots,  
+    we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the  PEG\-CDKM Marina  
+    and the   PEG\-OWW2 Resource Pack 1  
+    and the   PEG\-OWW2 Resource Pack 2.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19264-peg-oww2-annabellelin-restaurant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/99c2c18ab3124d0aae2d31d4caada8fe-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/99c2c18ab3124d0aae2d31d4caada8fe-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-resource-pack-vol02
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_Annabellin.dat"

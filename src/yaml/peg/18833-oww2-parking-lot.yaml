@@ -1,0 +1,36 @@
+group: peg
+name: oww2-parking-lot
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: A transit enabled version of the base plaza to allow sims access to the parking area.
+  description: |-
+    This lot is similar to the CDK\-OWW2 1x Plaza except that it is transit enabled to provide a driveway access to the parking area... and of course, it is a parking lot instead of a plaza. In all other aspects the lot is a park with properties identical to the 1x Plaza lot.
+
+    * * *
+
+    The new CDK\-OWW2 has been completely overhauled to match the new CDK Marina style of lots. These lots can be used to expand and add variety to your CDK Marina complexes... or used on their own to create attractive seawall boardwalks along your coastlines. Like the Marina lots, the CDK\-OWW2 lots are 3 tiles deep... andalso have the upper dock/boardwalk and the rear parking areas that align in a modular fashion. In fact, the only differences between the two styles is that Marina lots have the lower floating docks... and higher recreational properties.
+
+    As the new CDK\-OWW lots are 3 tiles deep, they will not directly replace the older OWW style lots which were only 2 tiles deep. Players can choose to use both old & new versions... or uninstall the older version after replacing the older lots in their cities.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18833-peg-oww2-parking-lot/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/458bcb8a3774af9fe21185cabca64ec8-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0009/458bcb8a3774af9fe21185cabca64ec8-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_ParkingLot.dat"

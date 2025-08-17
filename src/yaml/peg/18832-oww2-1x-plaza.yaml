@@ -1,0 +1,50 @@
+group: peg
+name: oww2-1x-plaza
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: One of the core OWW2 pieces, this standard filler uses random props for greater variety.
+  description: |-
+    This lot is one of the core pieces of the remodeled Old Wooden Waterfront (OWW2) style of CDK3 lots. It is the standard filler "straight" section that is used more than any other modular piece of the collection.  
+      
+    In previous versions of the CDK, there were always numerous versions of the 1x filler piece. One with just a plain section of seawall, one with stairs, one with a ramp, etc... That is no longer the case. This lot combines all 3 types into a single lot... with one of 3 different seawalls appearing with each plop of the lot. Ideally, this will help with the ever-present menu clutter issue.
+
+    But we didn't stop there with the random effects. The entire new OWW2 collection is literally dripping witrh random effects to increase an overall "visual variety" that we're sure you will appreciate. Included in this lot:
+
+    1\. 3 randomly different seawalls.
+
+    2\. 3 randomly different plaza areas.
+
+    3\. Random animated crowd props.
+
+    4\. Random custom query sounds.
+
+    The lot is technically a park but only appears in the Water Transportation menu. Because numerous instances of the lot are usually plopped together, all OWW2 lots have reduced park properties and range to prevent blowing over the demand caps. Other properties such as cost, maintenance, pollution and power/water usage are similar to the game default parks.
+
+    * * *
+
+    The new CDK\-OWW2 has been completely overhauled to match the new CDK Marina style of lots. These lots can be used to expand and add variety to your CDK Marina complexes... or used on their own to create attractive seawall boardwalks along your coastlines. Like the Marina lots, the CDK\-OWW2 lots are 3 tiles deep... and also have the upper dock/boardwalk and the rear parking areas that align in a modular fashion. In fact, the only differences between the two styles is that Marina lots have the lower floating docks... and higher recreational properties.
+
+    As the new CDK\-OWW lots are 3 tiles deep, they will not directly replace the older OWW style lots which were only 2 tiles deep. Players can choose to use both old & new versions... or uninstall the older version after replacing the older lots in their cities.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18832-peg-oww2-1x-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8c709bd6c5ac6d68284b1a87a518db8e-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8c709bd6c5ac6d68284b1a87a518db8e-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_Plaza.dat"
