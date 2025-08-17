@@ -1,3 +1,9 @@
+assetId: stex-custodian-pegasus-cdk3-collection
+version: "1.0.0"
+lastModified: "2022-12-05T01:11:44Z"
+url: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/?do=download&r=195812
+
+---
 group: peg
 name: cdk3-collection
 version: "1.0.0"
@@ -42,22 +48,13 @@ info:
 dependencies:
   - peg:cdk3-base-pack
   - peg:cdk3-marinas
+  - peg:cdk3-old-wooden-waterfront-2
+  - peg:oww2-rci-boardwalks
+  - peg:oww2-pier-set
+  - peg:oww2-seaport-village-set
 
 
-# cdk3 - coastal development kit (base) [all checked]		The base CDK3 lots are all designed to beautify your coastal areas
-# 	The Basics						            6 basic lots that can be used to form a developed industrial look along your coastlines
-# 	Acme Algae Farm					        	A ckd3 ploppable lot providing i-r (farming) jobs ... and products for Wyle E Coyote and friends.
-# 	Blackies Boatyard				        	Providing all necessary marine services including storage and ramp launching facilities for smaller pleasure craft
-# 	Captain Jack's Landing	        	A bustling commercial fishing port. The #1 choice for putting in and selling the day's catch.
-# 	Fred Ginger's Fishery			        This fishery lot provides IR jobs and lots of fresh fish for your sims to eat.
-# 	Vandy Shipping Company		        The Vandy Shipping Company. Bringing industrial goods to market for as long as anyone can remember.
-# 	Small Ferry Landing				        A fully functioning Passenger and Car ferry terminal. Just 3x2 in size and doesn't protrude far into the water.
-# 	Garbage Docks						          One way to rid yourself of trash problems, is just to ship it somewhere else. With these lots, now you can.
-# 	Puerta de Pego Coastal Fort				An example of a classic 16-17th century coastal fort modded to function equivalently to the in-game museum.
-# 	Fuerta de Pego Coastal Battery		A landmark addon for the Puerta de Pego fort. Looks great next to it or as a standalone lot.
-# 	Coast Guard Station					      SOS - Save Our Sims. This lot includes boats, helicopters, static and animated Coast Guard personnel.
-# 		Standard Lot					          (required)
-# 		'South' Alternate Lot           (with palm trees)		Additionally select this option, it you'd prefer to see Palm Trees upon the Coast Guard Lot instead.
+
 ---
 group: peg
 name: cdk3-base-pack
@@ -236,6 +233,28 @@ dependencies:
 # 	Vandy Shipping						        The Seaport version of Vandy Shipping docks to blend into your CDK3 better.
 # 	Bubbas Bulk n Barge				    	  No shrimp here!
 # 	Row Warehouses						        Row Warehouses are warehouses, notably in a Row.
+---
+group: peg
+name: cdk3-nonfunctional-seaports
+version: "1.0.0"
+subfolder: "400-industrial"
+info:
+  summary: "Nonfunctional versions of the CDK3 seaports, providing industrial jobs"
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/49edbd3f381930db491fafe8fbff5b9b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2504d31d4ed5dacfefd1b83f5886570f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/ce981964b4fe5636b1ceb41e15df8745-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bcb9e37cf1f10cbaf68085f67c4fc7fb-product_image.jpg
+dependencies:
+  - peg:cdk3-sp-container-dock
+  - peg:cdk3-sp-vandy-shipping
+  - peg:cdk3-sp-row-warehouses
+  - peg:cdk3-sp-bubbas-bulk-and-barge
+  - peg:cdk3-sp-break-bulk-dock
+  - peg:cdk3-sp-pier-one
+
 
 # cdk3 seaports - addons/fillers [all checked]			select cdk3 seaport addons and fillers.
 # 	Docks x1						              1x dock fillers
@@ -266,10 +285,3 @@ dependencies:
 # RealRailway (RRW) Textures [checked] If you are not using the RRW Rail style (NAM default), you should uncheck this selection to keep the default rails.
 
 
-
-
----
-assetId: stex-custodian-pegasus-cdk3-collection
-version: "1.0.0"
-lastModified: "2022-12-05T01:11:44Z"
-url: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/?do=download&r=195812

@@ -1,0 +1,31 @@
+group: peg
+name: cdk3-sp-break-bulk-dock
+version: "1.0"
+subfolder: "400-industrial"
+info:
+  summary: Non-functional version of the Break Bulk Docks. For shipping large broken biscuits?
+  description: |-
+    The CDK3\-SP Break-Bulk Dock is a non-functional version of the Break-Bulk Seaport. Similar in appearance but slightly smaller, it provides most of the visual benefits of the functional seaport without the associated costs and pollution. The non-functional "dock" lot, like the Container Ship Dock, allows you to add more ships and their related facilities to your harbors.  
+      
+    The CDK3\-SP Break-Bulk Dock is essentially the same in size and properties as the CDK3\-SP Container Ship Dock. The central rail running through the lot is fully transit enabled for rail... and there are 2 visually transit enabled driveways at either end of the lot. Timed and random props come and go throughout the day to simulate activity. New random & timed prop families were created so the lot can display 2 of 4 possible variations of the cargo ship.
+
+    **\*\* This lot requires the following CDK3dependency files:**
+
+    PEG\-CDK3 SUPER Pak  
+    PEG\-CDK3\-SP SEAPORT SUPER PAK  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20051-peg-cdk3-sp-break-bulk-dock/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/388321ddbf21877739e6a85fbe2e125b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0007/388321ddbf21877739e6a85fbe2e125b-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_WH_Break-Bulk Dock.dat"

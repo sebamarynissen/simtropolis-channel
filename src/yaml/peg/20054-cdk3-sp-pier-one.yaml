@@ -1,0 +1,79 @@
+group: peg
+name: cdk3-sp-pier-one
+version: "1.0"
+subfolder: "400-industrial"
+info:
+  summary: Non-functional version of the Pier One Seaport.
+  description: |-
+    The CDK3\-SP Pier One is a collection of modular lots that allows you to build your own extended warehouse piers. Mix and match them anyway you want... and make your warehouse piers as long as you like.  
+      
+    All of the lots (except the Base Lot) are 2 tiles wide. All lots promote industrial growth. All lots contain a gazillion random and timed props to simulate activity throughout the day... turning to widely scattered "Where they Hell did everyone go?" in the evening.  
+      
+    Although the extended pier is comprised of several different lots, it should be considered to be a single facility. Therefore, all of the lots are named "Pier One". However, all of the lots can be edited in-game so you can easily rename them to something more creative... like "Pier Two".  ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif ";)")  
+      
+    Included in this package are two different styles of lots. Only one style  should be used.  
+      
+    1\. Water Style  (Filename:  PEG\-CDK3\-SP\_Pier-One\_WV\_100.dat )  
+    \* These lots plop as water lots... similar to the ploppable CDK\-OWW2 modular pier lots.  
+      
+    Advantages: No extra terraforming required.  
+      
+    2\. Land Style   (Filename:  PEG\-CDK3\-SP\_Pier-One\_LV\_100.dat )  
+    \* These lots plop as normal land lots... which require that you terraform a 2 tile wide strip of land out into your harbor.  
+      
+    Advantages:  Wave action will display. Ferries & water automata will recognize them as barriers.  
+      
+    \* Both files will be installed when the package is unzipped. You should remove the file of the style that you do not wish to use. If you do not remove one of the files, the Water Style will be used by default.  
+      
+    This collection contains the following 5 modular lots:  
+      
+    1\. 4x5 Base Lot  
+    \* This is a standard CDK3\-SP lot that blends with all other CDK3\-SP lots. Use this lot as the base of your extended warehouse pier. This is the only lot with road access and therefore the only lot with jobs. Accordingly, it has a lot of jobs in order to represent those workers out on the extended pier.  
+      
+    2\. 2x Warehouse Lot.  
+    \* A 2x length of extended warehouse pier.  
+      
+    3\. 3x Warehouse Lot with barges.  
+    \* A 3x section of extended warehouse pier with barges.  
+      
+    4\. 9x Warehouse Lot  with ships.  
+    \* A 9x long section of warehouse pier with  full-sized ships on either side.  
+      
+    5\. 2x Warehouse End Lot.  
+    \* A 2x long end section of the warehouse pier with a detailed model-rama of a barge being loaded.
+
+    **\*\* This lot requires the following CDK3 dependency files:**PEG\-CDK3 SUPER PAK  
+    PEG\-CDK3\-SP SEAPORT SUPER PAK  
+    PEG\-CDK3\-SP Rail Fleet  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20054-peg-cdk3-sp-pier-one/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/53de62ec7e4b21f50be8adc1b86b07ea-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0010/53de62ec7e4b21f50be8adc1b86b07ea-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+variants:
+  - variant: { peg:cdk3-sp-pier-one:lot-style: "water" }
+    assets:
+    - assetId: stex-custodian-pegasus-cdk3-collection
+      include:
+        - "/PEG-CDK3-SP_Pier-One_WV.dat"
+  - variant: { peg:cdk3-sp-pier-one:lot-style: "land" }
+    assets:
+    - assetId: stex-custodian-pegasus-cdk3-collection
+      include:
+        - "/PEG-CDK3-SP_Pier-One_LV.dat"
+variantInfo:
+  - variantId: "peg:cdk3-sp-pier-one:lot-style"
+    description: Determines which style of lots will be installed.
+    values:
+      - value: "water"
+        description: "Water style. These lots plop as water lots... similar to the ploppable CDK-OWW2 modular pier lots. Advantages: No extra terraforming required."
+        default: true
+      - value: "land"
+        description: "Land style. These lots plop as normal land lots... which require that you terraform a 2 tile wide strip of land out into your harbor. Wave action will display. Ferries & water automata will recognize them as barriers."
