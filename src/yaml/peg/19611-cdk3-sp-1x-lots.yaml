@@ -1,0 +1,39 @@
+group: peg
+name: cdk3-sp-1x-lots
+version: "1.10"
+info:
+  summary: 1 tile width dock fillers for CDK3
+  description: |-
+    The CDK3\-SP 1x Lots is a collection of 5, single tile wide lots that have been designed to be used as "filler" between the larger lots of the Seaport series of lots. The lots are 5 tiles deep and blend seamlessly with other CDK3\-SP lots. The lots are simple eye candy... cheap to plop and no monthly costs. Each lots uses a very small amount of water & power and creates a bit of garbage.
+
+    The 1x Dock lot is a simple extension of the container processing complex. Random containers will appear up on the dock area while trucks and a container "stacker" load and unload containers. The various props are timed and random... so plopping several of these together shouldn't be too visually repetitive.
+
+    The 1x Dock Ramp is a variation of the 1x Dock lot that features an access ramp large enough for vehicle traffic.
+
+    The 1x Dock Stairs is a variation of the 1x Dock lot that features a set of stairs.
+
+    The 1x Dock Parking Lot is very similar to the 1x Dock except that it has a parking area for Seaport employees. Instead of  trucks and a stacker, this lot feature one of several randomly selected container rail cars that appear during the day. The parking lot driveway is transit enabled to form a visual connection only.
+
+    The 5th lot in this pack is the Seaport Bus Stop. It is visually similar to the Parking Lot but has a bus stop at the front of the lot.  This is a fully functional bus stop with all the same costs & properties of a normal bus stop. The lot does not have any jobs but still requires road access for the buses. This lot is packaged as a separate file so the player can easily remove if desired.
+
+    Note -  By default, icons for the Seaport Bus Stop will appear in both the Misc Transportation and the Water Transportation menus. If you do not want a duplicate icon in the Water Transportation menu, delete the PEG\-CDK3\-SP\_Dock-BusStop\_WT-IconDupe\_100.Dat  file included with the installation. This file merely contains a copy of the building exemplar file that duplicates the icon menu in the Water Transportation menu.
+
+    \* Some CDK3\-SP lots may be shorter than the ships that tie up to them. These 1x "filler" lots are ideal for adding space between these larger lots and keeping the various ships from getting too close to each other.
+
+    **\*\* This lot requires the following CDK3 dependency files:**
+    PEG\-CDK3\-SP SEAPORT SUPER PAK  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19611-peg-cdk3-sp-1x-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/389f541a7c4e4ccb336be1f05f8aec9d-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0007/389f541a7c4e4ccb336be1f05f8aec9d-product_image11.jpg
+dependencies:
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Dock_x1.dat"

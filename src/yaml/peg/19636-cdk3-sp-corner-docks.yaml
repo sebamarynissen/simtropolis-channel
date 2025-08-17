@@ -1,0 +1,32 @@
+group: peg
+name: cdk3-sp-corner-docks
+version: "1.0"
+info:
+  summary: Corner Dock Pieces, for those who won't play straight.
+  description: |-
+    The CDK3\-SP Corner Docks is a collection of 2 corner style lots, an inner & an outer corner... that allow you to extend your Seaport complex around corners. Both lots are 5x5 in size... and both are fully transit enabled for rail.
+
+    The Inner Corner Dock is a ploppable IND-M lot with about 50 jobs. It is transit enabled in all 4 directions to allow visual connections to rail directly to the lot or across roads, avenues, etc.. Like the Container Dock lot, the  transit enabling was made functional for extra flexibility. As 2 transit enabled lots can not be plopped next to each other, most of the other CDK3\-SP lots are not transit enabled. Because of this limitation, rail within the CDK3\-SP is primarily for appearances only.
+
+    The Outer Corner Dock is similar to the Innner Corner lot in most regards except that it can not have direct road access and therefore does not offer any jobs.
+
+    Both lots use a variety of timed and random props for visual variety. Stacks of containers change size & shape throughout the day & container rail cars & trucks come and go. Both lots are designed to act as container holding or marshalling areas... with containers up on the docks that could be staged for ships that have their own cranes.
+
+    **\*\* This lot requires the following CDK3dependency files:**
+
+    PEG\-CDK3\-SP Container Seaport  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19636-peg-cdk3-sp-corner-docks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/19f916e26efe1bf11ffc6692ed4891d6-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0004/19f916e26efe1bf11ffc6692ed4891d6-product_image1.jpg
+dependencies:
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Dock-Corners.dat"

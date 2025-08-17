@@ -266,6 +266,25 @@ dependencies:
 # 		Additional icon in Seaport Menu	[unchecked]	Add additional Bus Stop Icon to the Menu. Can only be installed if also using the main SP Bus Stop.
 # 	Ship Traffic						          A set of Ploppable ships, time to get your boat on!
 # 	Buoyz from Da Hood					      Two Ploppable Buoys (Green and Red) to help prevent mishaps on the water.
+---
+group: peg
+name: cdk3-seaports-addons
+version: "1.0.0"
+subfolder: "400-industrial"
+info:
+  summary: "Addons and fillers to accompany the CDK3 seaports."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - 
+dependencies:
+  - peg:cdk3-sp-1x-lots
+  - peg:cdk3-sp-corner-docks
+  # - peg:cdk3-sp-barge-docks
+  - peg:cdk3-sp-rci-lot
+  # - peg:cdk3-sp-dock-bus-stop
+  # - peg:cdk3-sp-ship-traffic
+  - peg:cdk3-sp-buoyz-from-da-hood
 
 # cdk3 functional seaports [all unchecked]			Include Functioning Seaports. !!! Can NOT be used with other functional seaports !!!
 # 	Container Seaport					        Include the functional version of the Container Seaport.

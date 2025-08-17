@@ -1,0 +1,27 @@
+group: peg
+name: cdk3-sp-rci-lot
+version: "1.10"
+info:
+  summary: RCI Docks allow the docks to continue visually, but for RCI zoning to be used.
+  description: |-
+    The CDK3\-SP RCI Dock is a simple 1x wide lot that adds an almost endless amount of diversity to your seaport complex.  The lot is shorter... only 3x tiles deep instead of 5... and that leaves 2 rows of tiles open for you to add whatever you want. Plop several of these together and create a wide, zoneable area that your seaport complex will appear to wrap around.
+
+    Obviously, zoning the open area for Industry will add a lot of visual and functional variety to your seaport complex. But the versatility certainly does not stop there. You could also zone for RES or COM... or use the space for some needed civic services, such as bus or subway stops, fire or police protection... or even parks or plazas.  The only limit is your imagination.... and a two tile depth, of course.  
+    For obvious reasons, this lot does not have any jobs and therefore does not require road access. Each instance of the lot is §55 to plop... but like most CDK3\-SP lots, there are no monthly maintenance costs.
+
+    ***\*\* This lot requires the following CDK3 dependency files:***PEG\-CDK3\-SP SEAPORT SUPER PAK  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19635-peg-cdk3-sp-rci-lot/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7a4f703aea222ea2894302ac13f6ab11-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7a4f703aea222ea2894302ac13f6ab11-product_image11.jpg
+dependencies:
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_RCI-Dock.dat"
