@@ -1,0 +1,74 @@
+group: mikeseith
+name: chrysler-300-automata
+version: "2"
+subfolder: 710-automata
+info:
+  summary: Chrysler 300 automata
+  description: |-
+    EDIT:  The file has been updated..if you downloaded these cars before11:00 on May,27, please download this and overwrite the old file. Fixed no night ligts in back, the UDI menu icons and names.
+
+    A new Chrysler 300 in 4 colors (white, red, green, black) to drive around your cities and park at your sim's homes.  As usual unzip the files to your game's plugin folder.
+
+    4 automata files:
+
+    chrysler 300 black.dat
+
+    chrysler 300 green.dat
+
+    chrysler 300 red.dat
+
+    chrysler 300 white.dat
+
+    8 ressingle family prop files:
+
+    family prop chrysler 300 color numbers...
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/12593-chrysler-300-automata-and-ressingle-family-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/604b9692bc1b28fd3d91ace4e599a5fa-chrysler 300 11.JPG
+    - https://www.simtropolis.com/objects/screens/0011/604b9692bc1b28fd3d91ace4e599a5fa-chrysler 300 2.JPG
+assets:
+  - assetId: mikeseith-chrysler-300-automata-and-ressingle-family-props
+    exclude:
+      - "/family prop chrysler.*"
+
+---
+group: mikeseith
+name: chrysler-300-props
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Chrysler 300 props
+  description: |-
+    EDIT:  The file has been updated..if you downloaded these cars before11:00 on May,27, please download this and overwrite the old file. Fixed no night ligts in back, the UDI menu icons and names.
+
+    A new Chrysler 300 in 4 colors (white, red, green, black) to drive around your cities and park at your sim's homes.  As usual unzip the files to your game's plugin folder.
+
+    4 automata files:
+
+    chrysler 300 black.dat
+
+    chrysler 300 green.dat
+
+    chrysler 300 red.dat
+
+    chrysler 300 white.dat
+
+    8 ressingle family prop files:
+
+    family prop chrysler 300 color numbers...
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/12593-chrysler-300-automata-and-ressingle-family-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/604b9692bc1b28fd3d91ace4e599a5fa-chrysler 300 11.JPG
+    - https://www.simtropolis.com/objects/screens/0011/604b9692bc1b28fd3d91ace4e599a5fa-chrysler 300 2.JPG
+assets:
+  - assetId: mikeseith-chrysler-300-automata-and-ressingle-family-props
+    include:
+      - "/family prop chrysler.*"
+
+---
+assetId: mikeseith-chrysler-300-automata-and-ressingle-family-props
+version: "2"
+lastModified: "2005-05-27T13:25:32Z"
+url: https://community.simtropolis.com/files/file/12593-chrysler-300-automata-and-ressingle-family-props/?do=download&r=33387

@@ -1,0 +1,54 @@
+group: mikeseith
+name: acura-rsx-automata
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Acura RSX Automata
+  description: |-
+    Alrighty.  You asked for it and here it is.  This is a set of Acura RSXs.  The zip file includes 5 automata (the cars that run around in your cities) and 5 family props of the same cars.  The 10 files that read as follows:  "family prop rsx blue..." are the needed files for the props and the prop model. The files that simply say: "acura rsx blue" are for the automata.
+
+    I suggest using both the automata and family props.
+
+    Remember that you don't need to do anything but unzip the files to your game's plugin folder for the cars to run around and for them to show up in your driveways.
+
+    Enjoy and drive safe!
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/12472-acura-rsx-automata-and-family-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/f2048b38ac028152aafeb1954a8d7d85-rsx 1.JPG
+    - https://www.simtropolis.com/objects/screens/0026/f2048b38ac028152aafeb1954a8d7d85-rsx 2.JPG
+assets:
+  - assetId: mikeseith-acura-rsx-automata-and-family-props
+    exclude:
+      - "/family prop rsx.*"
+
+---
+group: mikeseith
+name: acura-rsx-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Acura RSX props
+  description: |-
+    Alrighty.  You asked for it and here it is.  This is a set of Acura RSXs.  The zip file includes 5 automata (the cars that run around in your cities) and 5 family props of the same cars.  The 10 files that read as follows:  "family prop rsx blue..." are the needed files for the props and the prop model. The files that simply say: "Acura rsx blue" are for the automata.
+
+    I suggest using both the automata and family props.
+
+    Remember that you don't need to do anything but unzip the files to your game's plugin folder for the cars to run around and for them to show up in your driveways.
+
+    Enjoy and drive safe!
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/12472-acura-rsx-automata-and-family-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/f2048b38ac028152aafeb1954a8d7d85-rsx 1.JPG
+    - https://www.simtropolis.com/objects/screens/0026/f2048b38ac028152aafeb1954a8d7d85-rsx 2.JPG
+assets:
+  - assetId: mikeseith-acura-rsx-automata-and-family-props
+    include:
+      - "/family prop rsx.*"
+
+---
+assetId: mikeseith-acura-rsx-automata-and-family-props
+version: "1.0"
+lastModified: "2005-05-14T20:26:59Z"
+url: https://community.simtropolis.com/files/file/12472-acura-rsx-automata-and-family-props/?do=download&r=33213
