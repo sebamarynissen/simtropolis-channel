@@ -1,6 +1,6 @@
 group: airman15
 name: cadillac-escalade
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Cadillac Escalade
@@ -24,12 +24,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade4.png.9b41b01f2994bcf3a8de223749f89f54.png
     - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade5.png.fdc4921d7dac251e4ddb2c362d701ea1.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-cadillac-escalade
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-cadillac-escalade
       include:

@@ -1,6 +1,6 @@
 group: airman15
 name: mercedes-sprinter-2500
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Mercedes Sprinter 2500
@@ -22,12 +22,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_07/sprinter2.png.f1a58c58e9a95eb657baab16596a8df7.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_07/sprinter3.png.eb12c44952219ba3529aa92de5958dab.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-mercedes-sprinter-2500
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-mercedes-sprinter-2500
       include:

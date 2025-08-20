@@ -1,6 +1,6 @@
 group: airman15
 name: chevrolet-c7-corvettes
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Chevrolet C7 Corvettes
@@ -25,12 +25,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_04/C7Corvette_7.png.d363a0e0f2a7dab17b489be116f9c09b.png
     - https://www.simtropolis.com/objects/screens/monthly_2018_04/C7Corvette_8.png.b638d70ad72198d936a18f627150c98b.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-chevrolet-c7-corvettes
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-chevrolet-c7-corvettes
       include:

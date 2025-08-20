@@ -1,6 +1,6 @@
 group: airman15
 name: hawx-space-shuttle
-version: "1.1"
+version: "1.1-1"
 subfolder: 710-automata
 info:
   summary: HAWX Space Shuttle
@@ -25,12 +25,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/2684e428b9dc9ebe80327bea61872173-shuttle4.png
     - https://www.simtropolis.com/objects/screens/monthly_02_2014/862a880f70ff4d9b10ea3b4c2ad62832-monthly_02_2014-1d3079653205267dd1735401c408fd8f-shuttlecover.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-hawx-space-shuttle
       include:
       - "/.*Hardware.dat"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-hawx-space-shuttle
       include:

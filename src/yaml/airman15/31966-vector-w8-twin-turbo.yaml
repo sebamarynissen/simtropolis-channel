@@ -1,6 +1,6 @@
 group: airman15
 name: vector-w8-twin-turbo
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Vector W8 Twin Turbo
@@ -22,12 +22,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_10/Vector4.png.590abaa4b42c22c1e5b3c3033a343539.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_10/Vector5.png.97e42ff84b5a331917c9652f493c878f.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-vector-w8-twin-turbo
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-vector-w8-twin-turbo
       include:

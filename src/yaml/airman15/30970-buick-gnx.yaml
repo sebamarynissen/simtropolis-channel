@@ -1,6 +1,6 @@
 group: airman15
 name: buick-gnx
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Buick GNX
@@ -21,12 +21,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/GNX3.png.dd4c95e6ce2d88ca32fe8dbf02091fe0.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/GNX4.png.258d9eef82b46f2d17d2bc0e7e0b6beb.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-buick-gnx
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-buick-gnx
       include:

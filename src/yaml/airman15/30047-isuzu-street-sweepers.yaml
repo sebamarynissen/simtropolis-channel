@@ -1,6 +1,6 @@
 group: airman15
 name: isuzu-street-sweepers
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Isuzu Street Sweepers
@@ -24,12 +24,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_12_2014/8eb4bd19945a8f280c2262f0c7eef1c8-iss-3.png
     - https://www.simtropolis.com/objects/screens/monthly_12_2014/8381cf513672bf1d70bd8058dce729f8-iss-4.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-isuzu-street-sweepers
       include:
       - "/ISS_HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-isuzu-street-sweepers
       include:

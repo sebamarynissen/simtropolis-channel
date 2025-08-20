@@ -1,6 +1,6 @@
 group: airman15
 name: initial-d-ae86-trueno
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Initial-D AE86 Trueno
@@ -21,12 +21,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2015_09/trueno0.png.6786eaa64659f267192958738095f289.png
     - https://www.simtropolis.com/objects/screens/monthly_2015_09/truenox.png.f382463573ef9d649961182c987f7861.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-initial-d-ae86-trueno
       include:
       - "/.*_HD.dat"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-initial-d-ae86-trueno
       include:
