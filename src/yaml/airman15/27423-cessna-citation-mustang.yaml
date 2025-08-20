@@ -1,6 +1,6 @@
 group: airman15
 name: cessna-citation-mustang
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Cessna Citation Mustang
@@ -19,12 +19,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/14cb7160e09947d453e3fe00a85023b6-mustang-1.png
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/f62b4d95466a2eb377ec3547297dd768-mustang-2.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-cessna-citation-mustang
       include:
       - "/.*_HD.dat"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-cessna-citation-mustang
       include:

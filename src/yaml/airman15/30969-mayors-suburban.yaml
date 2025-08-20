@@ -1,6 +1,6 @@
 group: airman15
 name: mayors-suburban
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Mayor's Suburban
@@ -19,12 +19,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban1.png.cee9f3d63c04fb747b4387c73de216ad.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/MayorSuburban2.png.f9dfe36fd8da3459b2a739f405a637ce.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-mayors-suburban
       include:
       - "/.*_HD.dat"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-mayors-suburban
       include:

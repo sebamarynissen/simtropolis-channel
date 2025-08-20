@@ -1,6 +1,6 @@
 group: airman15
 name: alstom-agv
-version: "1.1"
+version: "1.1-1"
 subfolder: 710-automata
 info:
   summary: Alstom AGV
@@ -23,12 +23,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_10_2014/189450b10be093954a99f9f8926114ae-alstom1.png
     - https://www.simtropolis.com/objects/screens/monthly_10_2014/64ec5b70dda0493ee113deae43e9b3a9-alstom2.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-alstom-agv
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-alstom-agv
       include:
