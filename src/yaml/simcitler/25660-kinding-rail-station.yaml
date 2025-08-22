@@ -1,0 +1,120 @@
+# TODO - reliant on [SFBT Commuter station](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1716) which has not yet been restored
+
+# group: simcitler
+# name: kinding-rail-station
+# version: "1.0"
+# subfolder: 700-transit
+# info:
+#   summary: Kinding rail station
+#   description: |-
+#     ***Kinding rail station***
+
+#     After half an year i managed to solve a texture problem that might occur under certain circumstances.  The problem was that i lotted this station with an outdated version of north country dude´s rail textures. (which I realised today ![:lol:](https://community.simtropolis.com/assets/emoticons/LlamaLol.gif))
+
+#     I fixed it and now everyone should be able to see the track textures correctly.
+
+#     Version 2 additionally features:
+
+#     -     
+           
+        
+#     -   a new custom icon  
+        
+#     -   german LTEXTs  
+        
+#     -   Transit Switch Entry Cost reduced to 0,025 (former 0,075)  
+        
+
+#     \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#     Kinding rail station is a fully functional 4 track passenger rail station with 2 platforms, providing a capacity of 7.500, bus functionality and TE parking lots.
+
+#     Depending on daytime, two different trains (timed props) will "stop" at one of the platforms!
+
+#     **bigger pictures:**
+
+#     [picture\_one](http://www.ld-host.de/show/82b18fdda23c260d0df452c8009c8905.jpg)
+
+#     [picture\_two](http://www.ld-host.de/show/5e09d3fb68e566fe58556f32e5c1cb99.jpg)
+
+#     [picture\_three](http://www.ld-host.de/show/b0367e8cadf284bf382bbbb8f2c77908.jpg)
+
+#     **Stats:**
+
+#     Lot size: 11x3
+
+#     air pollution: 5 over 4 tiles
+
+#     water pollution: 3 over 3 tiles
+
+#     garbage: 8 over 0 tiles
+
+#     power consumed: 15 kWh/month
+
+#     water consumed: 11m³/month
+
+#     Transit Switch Entry Cost: 0,025
+
+#     capacity: 7.500
+
+#     plop cost: 500
+
+#     monthly cost: 50
+
+#     **Dependencies:**
+
+#     NAM for [Windows](https://www.simtropolis.com/forum/files/file/26585-network-addon-mod-nam-for-windows/) or [Mac](https://www.simtropolis.com/forum/files/file/21373-network-addon-mod-for-mac/)
+
+#     [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+#     [BSC Mega Props CP vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+#     [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+#     [SFBT Commuter station](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1716)
+
+#     [Railyard and Spur Textures Mega Pack 1.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2177)
+
+#     [SFBT Railway props](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1903)
+
+#     **Installation:**
+
+#     just unzip the "Kinding rail station" folder to your plugins folder.
+
+#     The "Readme and pics" folder can be put where you want!
+
+#     **Credits:**
+
+#     Full credit goes to the creators /authors of the dependencies!
+
+#     Without their work, this Lot would not be possible!
+
+#     Another Thank you to **onlyplace4**, for the [BLaM Blank](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1903).
+
+#     Special thanks to the simforum community for their advice and help.
+
+#     Best regards
+
+#     Simcitler
+
+#     check out [my other lots](https://www.simtropolis.com/forum/index.php?app=core&module=search&do=user_activity&search_app=downloads&mid=250000) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0).
+#   author: Simcitler
+#   website: https://community.simtropolis.com/files/file/25660-kinding-rail-station/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/0d0abdefd38339aafeb21afb681f5555-kinding_day.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/60dd670a58d6c46c632e8b3ec528320c-kinding_night.jpg
+# dependencies:
+#   - '"[SFBT Commuter station](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1716)"'
+#   - bsc:mega-props-cp-vol01
+#   - bsc:textures-vol01
+#   - ncd:rail-yard-and-spur-mega-pak-1
+#   - sfbt:essentials
+#   - sfbt:kenworth-royal-railway-props
+# assets:
+#   - assetId: simcitler-kinding-rail-station
+
+# ---
+# assetId: simcitler-kinding-rail-station
+# version: "1.0"
+# lastModified: "2011-08-24T11:51:49Z"
+# url: https://community.simtropolis.com/files/file/25660-kinding-rail-station/?do=download&r=91177

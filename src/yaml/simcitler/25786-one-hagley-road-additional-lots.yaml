@@ -1,0 +1,117 @@
+group: simcitler
+name: one-hagley-road-additional-lots
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: One Hagley Road (additional lots)
+  description: |-
+    This Lot pack contains two additional (growable) lots for ill tonkso´s (ploppable) One Hagley Road BAT. ([Original](https://www.simtropolis.com/stex/details.cfm?id=19895))
+
+    Included are:
+
+    -   one R-$$ Lot
+    -   one CS-$$ Lot
+
+    [bigger pic](http://www.ld-host.de/show/db67de922d5053cd5227c2ee4673a9a1.jpg)
+
+    Stats Hagley apartments:
+
+    will grow on high density residential zones
+
+    Tile sets: Euro and Houston
+
+    Lot size: 4x4
+
+    Stage: 7
+
+    occupants: 1684 R$$/3049 R$ if abandoned
+
+    value (tax): 43997
+
+    power consumed: 23 MWh/month
+
+    water consumed: 62m³/month
+
+    air purification: 14 over 5 tiles
+
+    water purification: 7 over 3 tiles
+
+    garbage: 7 over 0 tiles
+
+    construction time: 67 days
+
+    Stats Hagley Hail Insurance:
+
+    will grow on high density commercial zones
+
+    Tile sets: Euro and Houston
+
+    Lot size: 5x4
+
+    Stage: 6
+
+    occupants: 949 CS-$$/ 3786 CS-$
+
+    value (tax): 32.483
+
+    power consumed: 76 MWh/month
+
+    water consumed: 912m³/month
+
+    air purification: 20 over 5 tiles
+
+    water purification: 15 over 3 tiles
+
+    garbage: 47 over 0 tiles
+
+    construction time: 67 days
+
+    Dependencies:
+
+    NDEX\_ITS\_One\_Hagley\_Road-0x5ad0e817\_0xb5a4d183\_0x30000.SC4Model file included here: [NDEX ITS One Hagley Road](https://www.simtropolis.com/stex/details.cfm?id=19895)
+
+    ^^This is the model file by ill tonkso. Without this file you will see a big brown box on the Lots.
+
+    [BSC Textures Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props CP Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    Installation:
+
+    just unzip the files into your Plugins folder!
+
+    The \*.SC4DESC files have been integrated into the \*.SC4LOT files!
+
+    Credits go to:
+
+    ill tonkso, for his great BAT.
+
+    Another Thank you to various members of the BSC Team for their Texture creations, and to all creators of props used on the lots!
+
+    special thanks to the simforum community for their advice and help.
+
+    Hope you like!
+
+    Simcitler
+
+    check out [my other lots](https://www.simtropolis.com/stex/index.cfm?p=files&view=mine&userid=358910) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0)
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/25786-one-hagley-road-additional-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/52183d8cd11d89733c827f8b7ad8f340-Hagley_STEX_day.jpg
+    - https://www.simtropolis.com/objects/screens/0010/52183d8cd11d89733c827f8b7ad8f340-Hagley_STEX_night.jpg
+dependencies:
+  - ndex:its-mega-pack-vol11
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-one-hagley-road-additional-lots
+
+---
+assetId: simcitler-one-hagley-road-additional-lots
+version: "1.0"
+lastModified: "2011-01-28T07:09:23Z"
+url: https://community.simtropolis.com/files/file/25786-one-hagley-road-additional-lots/?do=download&r=53781
