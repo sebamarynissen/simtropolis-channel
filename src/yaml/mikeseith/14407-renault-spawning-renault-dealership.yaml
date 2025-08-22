@@ -1,0 +1,33 @@
+group: mikeseith
+name: renault-spawning-renault-dealership
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Renault spawning Renault dealership
+  description: |-
+    **New Renault dealerships for your cities**
+
+    These new dealerships are ploppable and growable... please place all files into the game's Plugins folder.
+
+    These dealerships are unlike any of my others... they all spawn Renault vehicles. The ploppable dealerships also send out a bunch of Renault when you plop them (think of it as a grand opening sale).
+
+    I'd like to thank Swamper77 and all of the BSC for helping me with recent efforts. Without Swamper77's help with LUA files, this would be a much more boring BAT.
+
+    Although I am not a fan of dependencies, this file has one right here: [**European cars new instances**](https://community.simtropolis.com/files/file/14400-european-cars-automata-and-family-props-new-instances/)
+
+    *It is very important to have this in order to spawn the vehicles.*
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/14407-renault-spawning-renault-dealership/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a0093ee26fd7d3e47c842ba62ac57f43-00 renault dealer 1.JPG
+    - https://www.simtropolis.com/objects/screens/0018/a0093ee26fd7d3e47c842ba62ac57f43-00 renault dealer 2.JPG
+dependencies:
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+assets:
+  - assetId: mikeseith-renault-spawning-renault-dealership
+
+---
+assetId: mikeseith-renault-spawning-renault-dealership
+version: "1.0"
+lastModified: "2005-12-18T21:54:51Z"
+url: https://community.simtropolis.com/files/file/14407-renault-spawning-renault-dealership/?do=download&r=36175
