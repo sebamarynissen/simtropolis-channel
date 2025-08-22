@@ -103,8 +103,8 @@ variants:
     include:
     - "/LRM_Models_Belgium_WHITE.dat"
 variantInfo:
-- variantId: "mandelsoft:stoplight-replacement-mod:layout"
-  description: Choose the models for the Belgian styled streetlights.
+- variantId: "mandelsoft:lrm-prop-pack-02:color"
+  description: Choose the model color for the Belgian styled streetlights.
   values:
   - value: "green"
     description: Models use a green pole color.
