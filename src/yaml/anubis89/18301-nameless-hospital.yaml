@@ -1,0 +1,41 @@
+group: anubis89
+name: nameless-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: Nameless Hospital
+  description: |-
+    This Hospital is a fictional building with a quite simple shape...
+
+    Stats:
+
+    Lot Size: 3x3
+
+    Plop Costs: 150
+
+    Monthly Costs: 400 and 200
+
+    Capacity: 1000
+
+    Coverage Radius: 800
+
+    DEPENDENCIES:
+
+    [Vehicle Props](http://kurier.simcityplaza.de/details.php?file=274) for the ambulances in the front of it
+
+    I hope you'll like it!
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/18301-nameless-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d4fa54e8bb54a9c6c00492b07cb11fd9-HospitalAnubisScreenshot1.JPG
+    - https://www.simtropolis.com/objects/screens/0023/d4fa54e8bb54a9c6c00492b07cb11fd9-AnubisHospitalScreenshot2.JPG
+dependencies:
+  - gizmo:vehicle-props
+assets:
+  - assetId: anubis89-nameless-hospital
+
+---
+assetId: anubis89-nameless-hospital
+version: "1.0"
+lastModified: "2007-06-16T10:31:39Z"
+url: https://community.simtropolis.com/files/file/18301-nameless-hospital/?do=download&r=42157

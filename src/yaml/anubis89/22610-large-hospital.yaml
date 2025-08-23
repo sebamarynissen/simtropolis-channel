@@ -1,0 +1,49 @@
+group: anubis89
+name: large-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: "Large Hospital"
+  description: |-
+    Finally a new bat after almost one year! This time a large hospital to serve a medium sized city.
+
+    And here are the stats:
+
+    -   Lot Size: 3x7 tiles
+    -   Capacity: 6000 patients
+    -   Coverage Radius: 1600
+    -   Plop Cost: 1500 §
+    -   Monthly costs: 1000§ for the capacity and 250§ for the range
+    -   Bulldoze Cost: 500 §
+    -   Creates 60§, 100§§ and 17§§§ jobs
+
+    **Dependencies:**
+
+    [http://kurier.simcityplaza.de/details.php?file=171](http://kurier.simcityplaza.de/details.php?file=171) (trees)
+
+    [http://kurier.simcityplaza.de/details.php?file=274](http://kurier.simcityplaza.de/details.php?file=274) (ambulances)
+
+    [https://www.simtropolis.com/STEX/details.cfm?id=14212](https://www.simtropolis.com/stex/details.cfm?id=14212) (dumpsters)
+
+    \- All of these are **not mandatory** for the function of this download, they only are included for visual purposes.
+
+    Thanks to the Simforum for assisting me with their helpful advices!!!
+
+    Have fun!
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/22610-large-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/84bfcce16ba0fbc32afe0cd7d358dd4a-Pic2.jpg
+    - https://www.simtropolis.com/objects/screens/0015/84bfcce16ba0fbc32afe0cd7d358dd4a-Pic1.jpg
+dependencies:
+  - sfbt:essentials
+  - gizmo:vehicle-props
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: anubis89-large-hospital
+
+---
+assetId: anubis89-large-hospital
+version: "1.0"
+lastModified: "2009-10-05T19:51:52Z"
+url: https://community.simtropolis.com/files/file/22610-large-hospital/?do=download&r=49093
