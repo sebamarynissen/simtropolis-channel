@@ -1,6 +1,6 @@
 group: ferox
-name: warsaw-main-station
-version: "1.0"
+name: warsaw-main
+version: "1.0-1"
 subfolder: 700-transit
 info:
   summary: Warsaw Main Station
@@ -51,6 +51,7 @@ dependencies:
   - bsc:textures-vol01
   - bsc:textures-vol02
   - ferox:warsaw-main-station-model
+  - porkissimo:jenx-porkie-expanded-porkie-props
 assets:
   - assetId: ferox-warsaw-main-station-bsc
     exclude:
