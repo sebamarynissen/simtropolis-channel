@@ -1,0 +1,66 @@
+group: franku
+name: dutch-farms-maxis-override
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: FrankU Dutch Farms Maxis Override
+  description: |-
+    I relotted the Maxis farms. Now we have a kind of starter set for the (still upcoming) Dutch Farms Set that **mrbisonm** and I are working on.
+
+    The lots fit into the CAMified world and they fit into the SPAMified world, as long as you load the lots after the CAM or SPAM mod files.
+
+    We have a set of dependencies that may knock you out. Well, it's up to you if you use this set or not.
+
+    Here I go:
+
+    [BSC MEGA Props - CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC MEGA Props - MJB Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC MEGA Props - swi21 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)
+
+    [BSC\_TexturePack\_Cycledogg\_V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+
+    [RFR Maize Set](https://www.simtropolis.com/forum/files/file/27139-rfr-maize-set/)
+
+    [Simgoober Farm Fields Revised](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=955)
+
+    [PEG Spam Super Resource](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/)
+
+    And of course
+
+    [FrankU Dutch Farm Fields V2.0](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3068)
+
+    Have fun!
+
+    FrankU
+
+    Staff Edit 12/10/2019: Added file descriptor. -CF
+  author: FrankU
+  website: https://community.simtropolis.com/files/file/29629-franku-dutch-farms-maxis-override/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/56627ecf9ba1165dc245d9108619c96b-image-lex-text-maxis-override-farm-lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/1256659cda87a0cb474af042c294c05a-maxis-override-upload-images-0004.jpg
+dependencies:
+  - franku:dutch-farm-fields
+  - '"[Simgoober Farm Fields Revised](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=955)"'
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - peg:spam-super-resource-pack
+  - sfbt:rfr-maize-set
+assets:
+  - assetId: franku-franku-dutch-farms-maxis-override
+
+---
+assetId: franku-franku-dutch-farms-maxis-override
+version: "1.0"
+lastModified: "2014-06-06T11:22:41Z"
+url: https://community.simtropolis.com/files/file/29629-franku-dutch-farms-maxis-override/?do=download&r=135157
