@@ -1,0 +1,63 @@
+group: benno2005
+name: bus-stop-pack
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Bus Stop Pack
+  description: |-
+    This is another bat by me its a pack of six bus stops hope you like.
+
+    [My bat thread pop in and see what im upto next](https://community.simtropolis.com/topic/44744-bennos-bats/page__st__150)
+
+    Stats:
+
+    Plop cost - 100
+
+    Pollution at center - 0 0 0 0 (Default)
+
+    Pollution radii - 0 0 0 0 (Default)
+
+    Power consumed - 61
+
+    Transit switch entry cost - 0
+
+    Transit switch traffic capacity - 2000
+
+    Water consumed - 0 (Default)
+
+    Wealth - none (Default)
+
+    Dependencies:
+
+    [BSC MEGA Props - Gascooker Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+    [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [CSX MEGA Props - Vol02.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=460)
+
+    [Murimk Props Vol02 v2.01](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)
+
+    [Murimk\_Bicycle\_Props](https://community.simtropolis.com/files/file/25681-murimk-bicycle-props-with-mmp-bikers/)
+  author: benno2005
+  website: https://community.simtropolis.com/files/file/27574-bus-stop-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/2b5fa3006fa9ad4c778454fc1bb1740e-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/230ded0f13f5dccf30c4f69b1e78cacb-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/7de61a4df69f44d119140efebb8c41e3-.png
+dependencies:
+  - csx:mega-props-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol01-bicycles
+  - murimk:props-vol02-mixed
+assets:
+  - assetId: benno2005-bus-stop-pack
+
+---
+assetId: benno2005-bus-stop-pack
+version: "1.0"
+lastModified: "2012-05-06T16:33:56Z"
+url: https://community.simtropolis.com/files/file/27574-bus-stop-pack/?do=download&r=100489
