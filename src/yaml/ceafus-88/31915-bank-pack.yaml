@@ -1,6 +1,6 @@
 group: ceafus-88
 name: bank-pack
-version: "1.0"
+version: "1.0-1"
 subfolder: 300-commercial
 info:
   summary: C88- Bank Pack
@@ -64,13 +64,10 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: ceafus-88-c88-bank-pack-maxisnite
-      - assetId: ceafus-88-c88-bank-pack-darknite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: ceafus-88-c88-bank-pack-darknite
-        exclude:
-          - /C88-Banks_MN/
 
 ---
 assetId: ceafus-88-c88-bank-pack-maxisnite
