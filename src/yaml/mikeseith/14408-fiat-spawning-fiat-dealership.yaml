@@ -1,0 +1,29 @@
+group: mikeseith
+name: fiat-spawning-fiat-dealership
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Fiat spawning Fiat dealership
+  description: |-
+    **New Fiat dealerships for your cities**
+
+    These new dealerships are ploppable and growable...please place all files into your game's plugin folder.
+
+    These dealerships are just like my Renault dealerships except these dealerships spawn Fiats. The ploppable dealerships also send out a bunch of Fiats when you plop them (think of it as a grand opening sale for your Sims).  
+      
+    The evils of dependencies again rears its ugly head... in order to make these dealerships spawn Fiats **you need this file**... **[European cars new instances](https://community.simtropolis.com/files/file/14400-european-cars-automata-and-family-props-new-instances/)**
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/14408-fiat-spawning-fiat-dealership/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9addc6bab162e7aa73e3691f81fe375a-fiat dealer 1.JPG
+    - https://www.simtropolis.com/objects/screens/0017/9addc6bab162e7aa73e3691f81fe375a-fiat dealer 2.JPG
+dependencies:
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+assets:
+  - assetId: mikeseith-fiat-spawning-fiat-dealership
+
+---
+assetId: mikeseith-fiat-spawning-fiat-dealership
+version: "1.0"
+lastModified: "2005-12-18T22:40:41Z"
+url: https://community.simtropolis.com/files/file/14408-fiat-spawning-fiat-dealership/?do=download&r=36177
