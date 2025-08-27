@@ -32,6 +32,7 @@ export default {
 	407: 'bsc:mega-props-mjb-vol01',
 	426: 'bsc:mega-props-misc-vol01',
 	443: 'bsc:essentials',
+	460: 'csx:mega-props-vol02',
 	461: 'csx:mega-props-vol03',
 	469: 'bsc:mega-props-cal-vol01',
 	475: 'bsc:mega-props-dae-vol01',
