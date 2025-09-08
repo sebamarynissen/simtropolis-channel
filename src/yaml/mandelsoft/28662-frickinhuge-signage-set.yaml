@@ -2,6 +2,26 @@ group: mandelsoft
 name: frickinhuge-signage-set
 version: "2.0"
 subfolder: 700-transit
+variants:
+  - variant: { config:sc4-edition:edition: "Windows-digital" }
+    dependencies:
+      - "config:sc4-edition-windows-digital"
+    assets:
+      - assetId: mandelsoft-frickinhuge-signage-set
+  - variant: { config:sc4-edition:edition: "Windows-disc" }
+    dependencies:
+      - "config:sc4-edition-windows-disc"
+    assets:
+      - assetId: mandelsoft-frickinhuge-signage-set
+        exclude:
+        - "/FrickinHuge_Signage_Submenu.dat"
+  - variant: { config:sc4-edition:edition: "macOS" }
+    dependencies:
+      - "config:sc4-edition-macos"
+    assets:
+      - assetId: mandelsoft-frickinhuge-signage-set
+        exclude:
+        - "/FrickinHuge_Signage_Submenu.dat"
 info:
   summary: Frickinhuge Signage Set
   description: |-
@@ -63,10 +83,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/706246648fc68933ceecdbec44074718-screen01.jpg
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/05d8504fa4d6e9b0d840b116f9bd9f28-screen02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/da203dbc7d825d296a1b015fa5cd14e7-screen03.jpg
-dependencies:
-  - memo:submenus-dll
-assets:
-  - assetId: mandelsoft-frickinhuge-signage-set
 
 ---
 assetId: mandelsoft-frickinhuge-signage-set
