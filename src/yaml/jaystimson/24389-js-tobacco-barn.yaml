@@ -1,0 +1,62 @@
+group: jaystimson
+name: tobacco-barn
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: JS Tobacco Barn
+  description: |-
+    The zip file contains three (3) files. A .SC4lot file, a .SC4desc prop file, and a .SC4Model file.
+
+    The 3x3 lot will show up in your Landmarks menu and provides 10 agriculture (low wealth) jobs. However, since this lot is really a ploppable agriculture lot, it does not ship any freight. The lot is transit enabled and looks best when plopped on PEG’s dirt streets where the textures will match.
+
+    I created this puppy in anticipation of PEG’s SPAM release. For those who enjoy building rural communities, this (hopefully) will make a nice addition.
+
+    While the SAM V3 (Street Addon Mod Version 3) [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=1594](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1594) is not a dependency, I recommend trying it (at least installing the PEG Dirt Streets component) so that your farming community has these diagonal dirt streets as well as orthogonal ones.
+
+    You are free to make and release any lots you like using the prop provided but may not re-distribute the prop itself. You are expected to list this release as a dependency. This is standard STEX policy.
+
+    Historical Note: Barns of this type were very common in the north central part of Connecticut years ago and were actually referred to as Tobacco Sheds. This area was famous for its broadleaf tobacco that was prized as the wrapper for fine hand-rolled cigars. These fields would employ many Hartford area High School students during the summer. It was a tough job as the sheds are not ventilated in order to keep the humidity high for curing the leaves. There are still a few of these sheds in use in the Windsor Locks area near Bradley International Airport. The industry is only about 5% of what it was in the 1960’s.
+
+    Lot Dependencies:
+
+    There is only one dependency. It is needed for the PEG Dirt Street base textures (JS\_Greenhouse.dat). If you don’t want the greenhouse, simply delete the JS\_4x3\_Agriculture\_Greenhouses\_3920b920.SC4lot file. If I had anticipated making more ploppable agricultural BATs I would have released the base textures by themselves. Shame on me.
+
+    Installation:
+
+    Simply unzip to your plugins folder. A separate folder is recommended.
+
+    If you have any problems or questions, feel free to PM me at Simtropolis or SC4devotion.
+
+    JayStimson
+  author: JayStimson
+  website: https://community.simtropolis.com/files/file/24389-js-tobacco-barn/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a7f1322cb6495414d0ff5c6a753167e3-JS_TobaccoBarns_SS.jpg
+dependencies:
+  - jaystimson:tobacco-barn-model
+assets:
+  - assetId: jaystimson-js-tobacco-barn
+    include:
+      - "\\.SC4Lot$"
+
+---
+group: jaystimson
+name: tobacco-barn-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Resources for `pkg=jaystimson:tobacco-barn`
+  author: JayStimson
+  website: https://community.simtropolis.com/files/file/24389-js-tobacco-barn/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a7f1322cb6495414d0ff5c6a753167e3-JS_TobaccoBarns_SS.jpg
+assets:
+  - assetId: jaystimson-js-tobacco-barn
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: jaystimson-js-tobacco-barn
+version: "1.0"
+lastModified: "2010-07-15T07:53:09Z"
+url: https://community.simtropolis.com/files/file/24389-js-tobacco-barn/?do=download&r=51625
