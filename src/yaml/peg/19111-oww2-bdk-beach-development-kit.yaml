@@ -1,0 +1,62 @@
+group: peg
+name: oww2-bdk-beach-development-kit
+version: "1.0m"
+subfolder: 660-parks
+info:
+  summary: "The Beach Development Kit (BDK) adds beaches along your waterfront and is designed to blend into the OWW2."
+  description: |-
+    The OWW2 BDK (Beach Development Kit) is designed for use with the OWW2 Boardwalks. It allows you to add recreational beaches of your design anywhere along the coast and blend them into the OWW2 Boardwalks.
+
+    NOTE: NO WATER GRAPHICS BUG ISSUES !!
+
+    \*\* These lots use transparent texturing to circumvent the Water Graphics bug that plagued the game-default beach lot and many other custom beach lots.
+
+    The lots are modular and designed to fit together in any sequence you choose. You can build small & cozy beach areas that are nestled into your boardwalks... or extend long stretches of developed beach along vast areas of your coastline. Each lot in the kit contains a ga-zillion (more or less) customized random props to ensure that long stretches of beach will not appear repetitive.
+
+    There are 6 lots in this kit with more to be developed and released later. The lots are 3 tiles deep and range between 1 and 5 tiles wide. The properties of each lot have been adjusted so that any combination of lots that is 5 tiles wide will approximate the properties of a game default beach park.
+
+    The lots included in this kit are:
+
+    1\. 1x Beach Section.
+
+    2\. 1x Beach Entrance w/  transit enabled driveway.
+
+    3\. 3x Beach Section w/ central transit enabled driveway.
+
+    4\. 1x Left-side Transition to OWW2 boardwalks
+
+    5\. 1x Right-side Transition to OWW2 boardwalks.
+
+    6\. 5x "Instant Beach"  w/ 3x beach area and transitions on both sides.
+
+    The lots collectively use a new tri-level random stat feature which provides different beach-related stats with each query.. Not only does the stat value change with each query, but the stat itself changes. Most of the stats pertain to conditions at the beach, such as water temp, wave height, etc. Some are just funny stats about common beach activities. One stat, the Air Quality Index (AQI), is calculated from the city's current air pollution value and computed into an equivalent real-world AQI value commonly used by weather bureaus.
+
+    \* Like the game default and other beach lots, the lots in this kit will likely require terrain editing to look the way you want it. As it uses transparent textures, the underlying terrain shows through and your beach sand texture will be that of the actual terrain. Certain terrain mods may provide an undesirable sand color. Please consult the Developer's Notes section of the accompanying readme file for further details on editing the terrain for this lot.
+
+    Be sure to check out RebaLynnTS's OWW2 BDK Terrain Editing Tutorial
+
+       
+    **\*\* This lot requires the following dependencies**
+
+    [PEG\-CDKM Marina](https://community.simtropolis.com/files/file/18747-peg-cdkm-marina/)
+
+    [PEG\-OWW2 Resource Pack 1](https://community.simtropolis.com/files/file/18831-peg-oww2-resource-pack-1/)  
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-CB Edit:** Added a patch to the file which prevents a potential game glitch.  
+    While it is not certain a fix was needed, the files have been updated as a precautionary measure.
+
+    \-Later **Cori Edit:** Made the deps clickable linkys.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19111-peg-oww2-bdk-beach-development-kit/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/429c5a0156675624d9bef2390d347c63-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0008/429c5a0156675624d9bef2390d347c63-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-BDK_Beaches.dat"

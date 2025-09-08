@@ -1,0 +1,40 @@
+group: peg
+name: oww2-pier-set-boat-pass
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: This lot enables automata/UDI boats to safely under your piers, or just for eye candy.
+  description: |-
+    The OWW2 PierSet Boat Pass lot allows the game's water automata, including ferries and cargo ships, to pass through (under) your piers. The game treats each pier lot as a solid object and will not allow game automata to pass through. The functionally of the ferry and cargo ship  paths is not affected, but the visual automata (ferries and ships) stops when it encounters a pier section. But by placing the  Boat Pass lots over the paths of the ferries and cargo ships, they will pass through and continue on to their destinations.
+
+    For UDI missions, the Boat Pass lots are critical. Any watercraft used in a UDI mission, will sink when it runs into a normal pier section. However, they can pass easily through or under the Boat Pass overhead bridge.
+
+    This is not a normal feature that you commonly see on relatively short public or fishing pier. However, the PierSet can be used to make a visual pedestrian bridge from one point of land to another... and that could effectively block an important waterway to boat traffic. Therefore, a lot such as this could be necessary. Also, ferry and cargo ship paths often hug the shoreline for great distances, making placement of even short piers an issue if you don't want to disrupt your automata visually. Again, the BoatPass lots can resolve that potential issue.
+
+    The Boat Pass lot works by creating a 2 tile wide gap in your pier... then extending a visual-only bridge section over that gap. The Boat Pass lots are always used in pairs and plopped on either side of the two tile wide gap. Each lot has 1/2 of the suspended bridge section extending  beyond the lot's edge. When plopped 2 tiles apart and oriented towards each other, the complete suspended bridge section is formed. The readme file contains detailed plopping instructions for any one who might have difficulty positioning the lots.
+
+    In all other regards, this is a standard 1x1 section of the PierSet with properties similar to other standard PierSet lots.
+
+    \* All of the modular PierSet lots are parks... affordably priced with reduced park & landmark effects to avoid blowing over demand caps They are located only in the Water Transportation menu, directly below the other OWW2 lots..
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18944-peg-oww2-pierset-boat-pass/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9abf0d006e2f14e9c9affbdf43adf0e6-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9abf0d006e2f14e9c9affbdf43adf0e6-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierSet_BoatPass.dat"

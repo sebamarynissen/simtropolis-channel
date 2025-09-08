@@ -1,0 +1,38 @@
+group: peg
+name: oww2-inner-corner
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Extend your OWW2 around inside corners with this CS$$ lot featuring fast food vendors.
+  description: |-
+    The OWW2 Inner Corner lot allows you to extend your seawalls around inside corners. This lot is a CS$$ ploppable lot that provides jobs and income from taxes.
+
+    The lot randomly features 1 of 3 different fast food / snack shops in the center of the lot. The lot is also transit enabled to provide visual access to the parking area on the two outer corner edges of the lot.
+
+    * * *
+
+    The new CDK\-OWW2 has been completely overhauled to match the new CDK Marina style of lots. These lots can be used to expand and add variety to your CDK Marina complexes... or used on their own to create attractive seawall boardwalks along your coastlines. Like the Marina lots, the CDK\-OWW2 lots are 3 tiles deep... and also have the upper dock/boardwalk and the rear parking areas that align in a modular fashion. In fact, the only differences between the two styles is that Marina lots have the lower floating docks... and  higher  recreational properties.
+
+    As the new CDK\-OWW lots are 3 tiles deep, they will not directly replace the older OWW style lots which were only 2 tiles deep. Players can choose to use both old & new versions... or uninstall the older version after replacing the older lots in their cities.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18834-peg-oww2-inner-corner/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3606d5bd1d89ec65eb8de48cab67b461-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3606d5bd1d89ec65eb8de48cab67b461-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_ InnerCorner.dat"

@@ -1,0 +1,34 @@
+group: peg
+name: cdk3-vandy-shipping-company
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Bringing industrial goods to market for as long as anyone can remember.
+  description: |-
+    The Vandy Shipping Company has been bringing your industrial goods to market since anyone can remember. Everywhere you look, Vandy trucks are chugging by with a load of cargo going somewhere. Peer out into the harbor and you are sure to see at least one of their cargo ships loading local freight for transport to some distant port in the region or beyond.
+
+    This is the first of the new CDK3 industrial lots and its loaded to the hilt with every goodie we can pack onto it. Its a ploppable IND-D lot with jobs... transit enabled for street connections... and packed with shuffling props that move, come and go throughout the day.
+
+    The lot features 2 new ships models, the S.S. Trolca (pictured above) and the company's flagship, the S.S. Vandy. You will see both of these sturdy vessels tied up to the dock at different times.
+
+    The various cargos and trucks are all random props... and also shuffle throughout the day... generally winding down and disappearing in the evening. The warehouses are not "nite-lited" to reduce model size and resources... but they are illuminated at night by little elves with flashlights that we hired to hide inside them. You can't see them but trust me... they're in there.
+
+    This lot requires 3 fairly large dependency files... which are:
+
+    - PEG CDK3 Resource Pack 1
+    - PEG CDK3 Ship Pack 1
+    - PEG CDK3 Vehicle Pack 1
+
+    This may seem like a lot... and yes, you could say this lot has "dependency issues"... although I personally wouldn't because its an awfully bad joke. But keep in mind that this is the first lot of a whole new CDK style and those dependencies contain the core components and props that will be used by many, many new lots.
+
+    The dependency files are available in the CDK section of the PLEX.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/17186-peg-cdk3-vandy-shipping-company/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/66937af3137a685343f52785e158194d-product_image.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_VandyShipping.dat"

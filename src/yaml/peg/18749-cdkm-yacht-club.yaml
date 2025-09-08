@@ -1,0 +1,35 @@
+group: peg
+name: cdkm-yacht-club
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: A ploppable CS$$ with jobs that serves as an end piece closing off the left of the Marina's floating docks.
+  description: |-
+    The Yacht Club is the 3rd of four Marina lots of this initial release. It is a 3 tile wide lot with floating docks and boats that extend out into the water. It showcases a collection of classic Trunk-style power boats that were commonly built in the late 20s & 30s... and are essentially the Dusenbergs of the classic boating world.
+
+    The lot also serves as an "end" piece in that it closes off the left side of the Marina's floating docks. The lot lines up at both front and rear to extend the docks and parking areas of the Marina.
+
+    The lot is a ploppable CS$$$ with jobs and revenue generated from taxes. It is 3x3 tiles in size and extends even further out into the water. Nite lited, traffic enabled... with acustom query. The lot also parrots some of the Marina properties to extend the overall benefits of the Marina complex.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18749-peg-cdkm-yacht-club/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/33cf0f49ac71f52de13a08eb0aad98b8-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0007/33cf0f49ac71f52de13a08eb0aad98b8-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_YachtClub.dat"
+

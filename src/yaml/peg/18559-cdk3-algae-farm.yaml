@@ -1,0 +1,34 @@
+group: peg
+name: cdk3-algae-farm
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Provides IR jobs ... and products for Wyle E Coyote and friends.
+  description: |-
+    Acme Algae... in operation since 1968 when, then Hippy, Alvin Aberrant read somewhere that the scum that kept forming on the top of his fish pond apparently had many commercial uses. Not one to pass up an opportunity to profit from a process involving no physical labor whatsoever, Alvin was off to the races and has become a leading supplier of pond scum... commercially know as Algae.
+
+    ![Algae Farm](http://i20.photobucket.com/albums/b242/_Pegasus/product_image-3.jpg)
+
+    Very few consumers are actually aware of how much algae they consume & use on a daily basis. Algae, in one form or another, is a key ingredient in many consumers products. Brush your teeth... then spit & rinse away the algae. Wash your hair... then rinse and repeat out the algae. Its in your cosmetics, lotions, toiletries... and yes, even in your food.  
+      
+    Algae is a major ingredient in feeds for pets and livestock. Its also used in dyes... and as a major element in bio-filters that are used to scrub the CO2 out of factory and power plant smoke stacks. Algae has almost unlimited commercial uses... and more are being developed and discovered every day.  
+      
+    The Acme Algae facility uses a revolutionary new process (that I just made up) where powerful lights have been added to the inside of the tanks to increase the photosynthesis process to 24/7... and to allow the algae to grow throughout the tanks; not just at the surface. Obviously, this increases both the speed of the process and the resulting volume of product substantially.  
+      
+      
+    The Acme Algae facility is a CDK3 ploppable lot with I-R (farming) jobs. The lot is located in the Water Transportation menu along with the other CDK3 lots. The single lot file contains all required custom material so the lot can be used without installing the CDK3.
+
+    **This lot has no external dependencies.  
+      
+    **This lot can be plopped on dry land and looks particularly good when plopped over-hanging a short cliff or slope.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18559-peg-cdk3-algae-farm/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/80aa9711a5879932206ad93c5184cc39-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0015/80aa9711a5879932206ad93c5184cc39-product_image2.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_AlgaeFarm.dat"
