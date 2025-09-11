@@ -11,7 +11,7 @@ subfolder: "900-overrides"
 assets:
 - assetId: "block-maxis-rci-lots"
   include: 
-    - "/stop_maxis_growable_I-d$$.dat"
+    - "/stop_maxis_growable_I-d\\$\\$.dat"
 info:
   author: "TiepiNL"
   summary: "Stop dirty industry Lots from growing"
@@ -37,7 +37,7 @@ subfolder: "900-overrides"
 assets:
 - assetId: "block-maxis-rci-lots"
   include: 
-    - "/stop_maxis_growable_I-m$$.dat"
+    - "/stop_maxis_growable_I-m\\$\\$.dat"
 info:
   author: "TiepiNL"
   summary: "Stop manufacturing industry Lots from growing"
@@ -63,7 +63,7 @@ subfolder: "900-overrides"
 assets:
 - assetId: "block-maxis-rci-lots"
   include: 
-    - "/stop_maxis_growable_I-ht$$$.dat"
+    - "/stop_maxis_growable_I-ht\\$\\$\\$.dat"
 info:
   author: "TiepiNL"
   summary: "Stop high-tech industry Lots from growing"
@@ -89,7 +89,7 @@ subfolder: "900-overrides"
 assets:
 - assetId: "block-maxis-rci-lots"
   include: 
-    - "/stop_maxis_growable_I-r$.dat"
+    - "/stop_maxis_growable_I-r\\$.dat"
 info:
   author: "TiepiNL"
   summary: "Stop agricultural industry Lots (farms) from growing"
@@ -115,9 +115,9 @@ subfolder: "900-overrides"
 assets:
 - assetId: "block-maxis-rci-lots"
   include: 
-    - "/stop_maxis_growable_R$.dat"
-    - "/stop_maxis_growable_R$$.dat"
-    - "/stop_maxis_growable_R$$$.dat"
+    - "/stop_maxis_growable_R\\$.dat"
+    - "/stop_maxis_growable_R\\$\\$.dat"
+    - "/stop_maxis_growable_R\\$\\$\\$.dat"
 info:
   author: "TiepiNL"
   summary: "Stop residential Lots (all wealth types) from growing"
@@ -143,11 +143,11 @@ subfolder: "900-overrides"
 assets:
 - assetId: "block-maxis-rci-lots"
   include:
-    - "/stop_maxis_growable_CO$$.dat"
-    - "/stop_maxis_growable_CO$$$.dat"
-    - "/stop_maxis_growable_CS$.dat"
-    - "/stop_maxis_growable_CS$$.dat"
-    - "/stop_maxis_growable_CS$$$.dat"
+    - "/stop_maxis_growable_CO\\$\\$.dat"
+    - "/stop_maxis_growable_CO\\$\\$\\$.dat"
+    - "/stop_maxis_growable_CS\\$.dat"
+    - "/stop_maxis_growable_CS\\$\\$.dat"
+    - "/stop_maxis_growable_CS\\$\\$\\$.dat"
 info:
   author: "TiepiNL"
   summary: "Stop commercial services and commercial offices Lots (all wealth types) from growing"
