@@ -1,0 +1,51 @@
+group: anubis89
+name: low-income-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Low Income Apartments
+  description: |-
+    **\-Stage is now 6, *Capacity is now 650!***
+
+    Finally a new building! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif) I started this one in may, but haven't done anything for a while. It is fictional, but inspired by real ones...
+
+    **Stats:**
+
+    Capacity: 650 citizens
+
+    Lot Size: 3x5
+
+    Wealth: low
+
+    Tile Set: european
+
+    Stage: 6\*
+
+    Building Value: 2300
+
+    Power: 2 \*
+
+    Water: 17\*
+
+    Max Fire Stage: 4\*, Flammability: 45 \*
+
+    **Dependencies:** [SFBT Essentials](http://kurier.simcityplaza.de/details.php?file=5) (for those green and yellow dumpsters)
+
+    \* = i'm not sure if it's appropriate
+
+    Thanks to some members of the Simforum for helping me!
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/20100-low-income-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/1319cbe154374b408d692dcb2bffe241-Bild2.JPG
+    - https://www.simtropolis.com/objects/screens/0003/1319cbe154374b408d692dcb2bffe241-Bild1.JPG
+dependencies:
+  - sfbt:essentials
+assets:
+  - assetId: anubis89-low-income-apartments
+
+---
+assetId: anubis89-low-income-apartments
+version: "1.0"
+lastModified: "2008-07-22T09:32:33Z"
+url: https://community.simtropolis.com/files/file/20100-low-income-apartments/?do=download&r=45231

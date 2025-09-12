@@ -1,0 +1,67 @@
+group: anubis89
+name: medium-sized-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: Medium Sized Hospital
+  description: |-
+    If you need a generic looking hospital to serve your medium sized cities, then this BAT will perhaps suit your demands.
+
+    **Larger Pictures:**
+
+    [http://img716.imageshack.us/img716/6948/pic4z.jpg](http://img716.imageshack.us/img716/6948/pic4z.jpg)
+
+    [http://img716.imageshack.us/img716/3689/pic1i.jpg](http://img716.imageshack.us/img716/3689/pic1i.jpg)
+
+    [http://img691.imageshack.us/img691/3918/pic2wm.jpg](http://img691.imageshack.us/img691/3918/pic2wm.jpg)
+
+    [http://img696.imageshack.us/img696/34/pic3yv.jpg](http://img696.imageshack.us/img696/34/pic3yv.jpg)
+
+    **Stats:**
+
+    -   Lot Size: 9x4
+    -   Capacity: 3000 patients
+    -   Radius: 2000
+    -   Monthly Costs: 1000 and 450
+    -   Plop Cost: 2500
+    -   Bulldoze Cost: 500
+
+    **Dependencies:**
+
+    -   [BSC Mega Props - DAE Vol01](https://www.simtropolis.com/stex/details.cfm?id=14973)
+        
+
+    -   [BSC Mega Props - SG Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    -   [BSC Mega Props - CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    -   [Vehicle Props by Gizmo28](http://kurier.simcityplaza.de/details.php?file=274)
+
+    -   [SFBT Essentials](http://%20http//www.simtropolis.com/stex/details.cfm?id=14212)
+
+    -   [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    -   [BSC Textures Vol 02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    Each dependency is not vital and only has the purpose of making the lot look better. Thus you can ignore them and create a lot of your own...Obligatory thanks to the Simforum members for their help ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/24329-medium-sized-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/524062dcdbd1434072dbc8b4da83b1ba-FrontDay.jpg
+    - https://www.simtropolis.com/objects/screens/0010/524062dcdbd1434072dbc8b4da83b1ba-BackNight.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - gizmo:vehicle-props
+  - sfbt:essentials
+assets:
+  - assetId: anubis89-medium-sized-hospital
+
+---
+assetId: anubis89-medium-sized-hospital
+version: "1.0"
+lastModified: "2010-07-08T13:32:53Z"
+url: https://community.simtropolis.com/files/file/24329-medium-sized-hospital/?do=download&r=51529
