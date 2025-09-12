@@ -10,6 +10,7 @@ import { parseAllDocuments } from 'yaml';
 import addFromStex from '../actions/fetch/fetch.js';
 import { urlToFileId } from '../actions/fetch/util.js';
 import sc4d from './sc4d.js';
+import stex from './stex.js';
 import tsc from './tsc.js';
 
 // # run()
@@ -65,7 +66,7 @@ const defaultUrl = 'https://memo33.github.io/sc4pac/channel/';
 async function buildIndex() {
 	let spinner = ora(`Building up package index`).start();
 	let index = {
-		stex: {},
+		stex,
 		sc4e: {},
 		sc4d,
 		tsc,

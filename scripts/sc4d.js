@@ -9,6 +9,10 @@ export default {
 		'bsc:mega-props-jenx-vol03',
 		'bsc:textures-vol02',
 	],
+	132: [
+		'bsc:mega-props-jrj-vol04',
+  		'bsc:mega-props-jrj-vol05',
+	],
 	167: [
 		'bsc:mega-props-jrj-vol04',
   		'bsc:mega-props-jrj-vol05',
@@ -29,6 +33,7 @@ export default {
 	397: 'bsc:mega-props-gascooker-vol01',
 	398: 'bsc:mega-props-rt-vol01',
 	403: 'bsc:mega-props-swi21-vol01',
+	405: `bsc:mega-props-swi21-vol02`,
 	407: 'bsc:mega-props-mjb-vol01',
 	426: 'bsc:mega-props-misc-vol01',
 	443: 'bsc:essentials',
@@ -61,6 +66,7 @@ export default {
 	1416: 'bsc:mega-props-jes-vol06',
 	1485: 'bsc:mega-props-misc-vol02',
 	1495: 'bsc:mega-props-jes-vol07',
+	1502: 'bsc:mega-props-d66-vol03',
 	1547: 'bsc:mega-props-newmaninc-vol02',
 	1583: 'bsc:mega-props-jrj-vol02',
 	1584: 'bsc:mega-props-jrj-vol03',

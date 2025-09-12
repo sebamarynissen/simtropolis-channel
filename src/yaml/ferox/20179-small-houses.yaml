@@ -1,0 +1,40 @@
+group: ferox
+name: small-houses-bsc
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Small Houses BSC
+  description: |-
+    Small houses typical for Central Europe.
+
+    File contains 15 models, 16 R$$ lots and 15 CS$$ lots. Lot size 1x1 and 1x2, grows in euro tileset.
+
+    Dependencies :
+
+    [](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+
+    BSC Essentials
+
+    More BAT's you can find here:
+
+    [http://www.simcitypolska.pl/news.php](http://www.simcitypolska.pl/news.php)
+
+    Enjoy ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: Ferox
+  website: https://community.simtropolis.com/files/file/20179-small-houses-bsc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/b8e67e28e026634b49da738635015d47-kamienice_day.jpg
+    - https://www.simtropolis.com/objects/screens/0021/b8e67e28e026634b49da738635015d47-kamienice_night.jpg
+dependencies:
+  - bsc:essentials
+assets:
+  - assetId: ferox-small-houses-bsc
+
+---
+assetId: ferox-small-houses-bsc
+version: "1.0"
+lastModified: "2008-08-03T11:44:54Z"
+url: https://community.simtropolis.com/files/file/20179-small-houses-bsc/?do=download&r=45377
+archiveType:
+  format: Clickteam
+  version: "40"
