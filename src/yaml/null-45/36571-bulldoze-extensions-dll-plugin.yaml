@@ -1,14 +1,14 @@
 group: "null-45"
 name: "bulldoze-extensions"
-version: "1.0.0"
+version: "2.0.0"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-bulldoze-extensions"
   withChecksum:
   - include: "/SC4BulldozeExtensions.dll"
-    sha256: 5FE145FA32903753EED27AAEF1274A50F60774DF5BF9986FE59CDFA1FCFFFCE3
+    sha256: FA0A4856B03FAB68F950929FE75C2A029FE378D1899C7FC934956EA0E6801CF1
   - include: "/BulldozeExtensions.dat"
-    sha256: A35BEAB04A3F55F345587308981430759A51F874475C942C2741094CA6361381
+    sha256: 3009AFFF3A4126721182F8C275E169E79E64C19C6346DFC6AAF32DC89A1BFCD0
 
 
 info:
@@ -60,7 +60,7 @@ info:
 
 ---
 assetId: "null-45-bulldoze-extensions"
-version: "1.0.0"
-lastModified: "2024-11-26T00:39:37Z"
+version: "2.0.0"
+lastModified: "2025-09-16T22:31:08Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36571-bulldoze-extensions-dll-plugin/?do=download"
-url: "https://github.com/0xC0000054/sc4-bulldoze-extensions/releases/download/v1.0/SC4BulldozeExtensions.zip"
+url: "https://github.com/0xC0000054/sc4-bulldoze-extensions/releases/download/v2.0/SC4BulldozeExtensions.zip"

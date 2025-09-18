@@ -1,0 +1,39 @@
+group: torresprei
+name: sims-geographic-museum-ii
+version: "2.0"
+subfolder: 100-props-textures
+dependencies:
+  - torresprei:sims-geographic-museum-ii-props
+
+assets:
+- assetId: "sims-geographic-museum-ii-props"
+  include:
+        - "/Geographic Museum/"
+
+info:
+  summary: Sims Geographic Museum II 
+  description: |-
+    Sims can now study and learn more about SimPlanet.
+
+    It was lightly inspired in MASP (Sao Paulo's Art Museum - Sao Paulo SP Brazil).
+
+    * Plop Cost: 22400
+
+    * School Coverage Radius: 20600
+
+    * School Student Capacity: 131900
+
+    * Budget Item: Cost: 5700
+
+    * Lot Size: 6X4
+  author: Torresprei
+  website: https://community.simtropolis.com/files/file/4238-sims-geographic-museum-ii/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/955d295abc22c8cd0344d3c0f24ce61b-Geo_01.jpg
+    - https://www.simtropolis.com/objects/screens/0017/955d295abc22c8cd0344d3c0f24ce61b-Geo_02b1.jpg
+
+---
+assetId: "sims-geographic-museum-ii"
+version: "2.0"
+lastModified: "2025-09-18T16:35:47Z"
+url: https://community.simtropolis.com/files/file/4238-sims-geographic-museum-ii/?do=download
