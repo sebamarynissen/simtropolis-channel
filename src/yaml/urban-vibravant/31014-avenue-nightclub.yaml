@@ -39,7 +39,6 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: urban-vibravant-avenue-nightclub-maxisnite
-
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:

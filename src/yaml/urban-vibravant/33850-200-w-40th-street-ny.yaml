@@ -72,31 +72,31 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_10/DarkNight.jpg.23c47a075fee7488b04d51cb572a1660.jpg
 
 variants:
-  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution: sd, urban-vibravant:200-w-40th-street-ny:billboard: standard }
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-sd
-  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution: sd, urban-vibravant:200-w-40th-street-ny:billboard: standard }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-darknite-sd
-  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution: hd, urban-vibravant:200-w-40th-street-ny:billboard: standard }
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-hd
-  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution: hd, urban-vibravant:200-w-40th-street-ny:billboard: standard }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-darknite-hd      
-  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution: sd, urban-vibravant:200-w-40th-street-ny:billboard: absent }
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-sd-nobi
-  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution: sd, urban-vibravant:200-w-40th-street-ny:billboard: absent }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-darknite-sd-nobi
-  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution: hd, urban-vibravant:200-w-40th-street-ny:billboard: absent }
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-hd-nobi
-  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution: hd, urban-vibravant:200-w-40th-street-ny:billboard: absent }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-200-w-40th-street-ny-darknite-hd-nobi      

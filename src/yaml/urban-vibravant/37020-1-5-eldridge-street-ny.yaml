@@ -47,17 +47,17 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2025_09/HD.jpg.9297bbea6909f93d8ae08f97d6a4988e.jpg
 
 variants:
-  - variant: { nightmode: standard, urban-vibravant:1-5-eldridge-street-ny:resolution:sd }
+  - variant: { nightmode: standard, urban-vibravant:1-5-eldridge-street-ny:resolution: sd }
     assets:
       - assetId: urban-vibravant-1-5-eldridge-street-ny-maxisnite-sd
-  - variant: { nightmode: dark, urban-vibravant:1-5-eldridge-street-ny:resolution:sd }
+  - variant: { nightmode: dark, urban-vibravant:1-5-eldridge-street-ny:resolution: sd }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-1-5-eldridge-street-ny-darknite-sd
-  - variant: { nightmode: standard, urban-vibravant:1-5-eldridge-street-ny:resolution:hd }
+  - variant: { nightmode: standard, urban-vibravant:1-5-eldridge-street-ny:resolution: hd }
     assets:
       - assetId: urban-vibravant-1-5-eldridge-street-ny-maxisnite-hd
-  - variant: { nightmode: dark, urban-vibravant:1-5-eldridge-street-ny:resolution:hd }
+  - variant: { nightmode: dark, urban-vibravant:1-5-eldridge-street-ny:resolution: hd }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-1-5-eldridge-street-ny-darknite-hd
