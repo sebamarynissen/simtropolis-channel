@@ -86,14 +86,14 @@ variants:
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-hd      
-  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution: sd, urban-vibravant:725-727-7th-avenue-ny:lighting: times-square-ambience }
+  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution: hd, urban-vibravant:725-727-7th-avenue-ny:lighting: times-square-ambience }
     assets:
       - assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-sd-tsqa
   - variant: { nightmode: dark, urban-vibravant:725-727-7th-avenue-ny:resolution: sd, urban-vibravant:725-727-7th-avenue-ny:lighting: times-square-ambience }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-sd-tsqa
-  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution: hd, urban-vibravant:725-727-7th-avenue-ny:lighting: times-square-ambience }
+  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution: sd, urban-vibravant:725-727-7th-avenue-ny:lighting: times-square-ambience }
     assets:
       - assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-hd-tsqa
   - variant: { nightmode: dark, urban-vibravant:725-727-7th-avenue-ny:resolution: hd, urban-vibravant:725-727-7th-avenue-ny:lighting: times-square-ambience }
