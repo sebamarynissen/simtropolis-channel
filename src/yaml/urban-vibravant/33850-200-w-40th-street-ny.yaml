@@ -1,0 +1,118 @@
+assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-sd
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209313&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-hd
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209310&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-200-w-40th-street-ny-darknite-sd
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209309&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-200-w-40th-street-ny-darknite-hd
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209306&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+
+assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-sd-nobi
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209312&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-hd-nobi
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209311&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-200-w-40th-street-ny-darknite-sd-nobi
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209308&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-200-w-40th-street-ny-darknite-hd-nobi
+version: "1.0.0"
+lastModified: "2025-09-22T17:55:55Z"
+url: https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/?do=download&r=209307&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+group: urban-vibravant
+name: 200-w-40th-street-ny
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary: 200 W 40th Street NY
+  description: |
+    Also known as 556 and 558 7th Avenue, this low-rise commercial building was built in 1930 and is rented out by many coming and going tenants; resulting in an ever-changing exterior. Also home to Midtown Comics's one of three locations and a two story McDonald's.  
+
+    Each version comes with 3 different lots:  
+
+    * Landmark
+    * Growable  CS$$
+    * Ploppable CS$$ 
+ 
+  author: Urban Vibravant
+  websites: 
+    - https://community.simtropolis.com/files/file/33850-200-w-40th-street-ny/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/DayCity.jpg.fdeda5e4f0c1d8a602c9f930214e7e66.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/NoBillboard.jpg.6229e7f01a4b53f53ab176ec7f4090ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/MaxisNight.jpg.96e7bdf316647955c0d8d1e1f44e958e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/DarkNight.jpg.23c47a075fee7488b04d51cb572a1660.jpg
+
+variants:
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-sd
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-darknite-sd
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-hd
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:standard }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-darknite-hd      
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-sd-nobi
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:sd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-darknite-sd-nobi
+  - variant: { nightmode: standard, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-maxisnite-hd-nobi
+  - variant: { nightmode: dark, urban-vibravant:200-w-40th-street-ny:resolution:hd, urban-vibravant:200-w-40th-street-ny:billboard:absent }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-200-w-40th-street-ny-darknite-hd-nobi      
+
+variantInfo:
+  - variantId: urban-vibravant:200-w-40th-street-ny:resolution
+    description: Due to the particular nature of modding, there are two versions of the building resolution.
+    values:
+      - value: hd
+        description: HD resolution means that SimCity4 works with Hardware Rendering (DirectX Rendering).
+      - value: sd
+        description: SD resolution can also be used for OpenGL versions, Software Rendering, and even Hardware Rendering.
+  - variantId: urban-vibravant:200-w-40th-street-ny:billboard 
+    description: The BAT contains a billboard on the roof. Select the version with or without billboard.
+    values:
+      - value: standard
+        description: The standard version contains Billboard as in real life.
+      - value: absent
+        description: The absent version does not contain Billboard.  

@@ -1,0 +1,119 @@
+assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-sd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/33953-725-727-7th-avenue-ny/?do=download&r=206471&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-hd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/33953-725-727-7th-avenue-ny/?do=download&r=206470&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-sd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/33953-725-727-7th-avenue-ny/?do=download&r=206469&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-hd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/33953-725-727-7th-avenue-ny/?do=download&r=206468&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+
+assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-sd-tsqa
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198090&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-hd-tsqa
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198089&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-sd-tsqa
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198088&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+---
+assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-hd-tsqa
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198087&confirm=1&t=1&csrfKey=93b5b2b0eae130abb7c69f10f96f01f2
+
+
+---
+group: urban-vibravant
+name: 725-727-7th-avenue-ny
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary: 725-727 7th Avenue NY
+  description: |
+    Located in Times Square, these two W2W buildings were built in 1920 and house a restaurant/bar, gentleman's club, and a few apartments who have limited natural light. The building's main theme is two, 4-story tall billboards featuring the Jersey Boys and L'Oreal Paris. 
+
+    Each version comes with 3 different lots:  
+
+    * Landmark
+    * Growable  CS$$
+    * Ploppable CS$$ 
+ 
+  author: Urban Vibravant
+  websites: 
+    - https://community.simtropolis.com/files/file/33953-725-727-7th-avenue-ny/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faaf894af42c_DayCity.jpg.a4086aef1db1197102105ca2fc8a5412.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/SD.jpg.b05472925013ac728bbfc60a90de1443.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HD.jpg.406f23cda552e7bd46e8b999da0b2ce3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/7.jpg.d93e1995a407cff32863fc8ae5fcfae1.jpg
+
+variants:
+  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution:sd, urban-vibravant:725-727-7th-avenue-ny:lighting:standard }
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-sd
+  - variant: { nightmode: dark, urban-vibravant:725-727-7th-avenue-ny:resolution:sd, urban-vibravant:725-727-7th-avenue-ny:lighting:standard }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-sd
+  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution:hd, urban-vibravant:725-727-7th-avenue-ny:lighting:standard }
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-hd
+  - variant: { nightmode: dark, urban-vibravant:725-727-7th-avenue-ny:resolution:hd, urban-vibravant:725-727-7th-avenue-ny:lighting:standard }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-hd      
+  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution:sd, urban-vibravant:725-727-7th-avenue-ny:lighting:times-square-ambience }
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-sd-tsqa
+  - variant: { nightmode: dark, urban-vibravant:725-727-7th-avenue-ny:resolution:sd, urban-vibravant:725-727-7th-avenue-ny:lighting:times-square-ambience }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-sd-tsqa
+  - variant: { nightmode: standard, urban-vibravant:725-727-7th-avenue-ny:resolution:hd, urban-vibravant:725-727-7th-avenue-ny:lighting:times-square-ambience }
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-maxisnite-hd-tsqa
+  - variant: { nightmode: dark, urban-vibravant:725-727-7th-avenue-ny:resolution:hd, urban-vibravant:725-727-7th-avenue-ny:lighting:times-square-ambience }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-725-727-7th-avenue-ny-darknite-hd-tsqa      
+
+variantInfo:
+  - variantId: urban-vibravant:725-727-7th-avenue-ny:resolution
+    description: Due to the particular nature of modding, there are two versions of the building resolution.
+    values:
+      - value: hd
+        description: HD resolution means that SimCity4 works with Hardware Rendering (DirectX Rendering).
+      - value: sd
+        description: SD resolution can also be used for OpenGL versions, Software Rendering, and even Hardware Rendering.
+  - variantId: urban-vibravant:725-727-7th-avenue-ny:lighting
+    description: Due to the particular nature of modding, there are two versions of the building lighting.
+    values:
+      - value: standard
+        description: The standard version has a darker color
+      - value: times-square-ambience
+        description: The Times Square Ambience version has a lighter color
