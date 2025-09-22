@@ -1,0 +1,27 @@
+---
+assetId: ulisse-wolf-building-style-neo-futurism
+version: "2.0.0"
+lastModified: "2025-08-05T11:42:37Z"
+url: https://community.simtropolis.com/files/file/36965-building-style-neo-futurism/?do=download
+
+---
+group: ulisse-wolf
+name: building-style-neo-futurism
+version: "2.0.0"
+subfolder: 150-mods
+info:
+  summary: Building Style: Neo Futurism
+  description: |
+    This mod allows you to add the style of Neo Futurism buildings which is the style of modern architecture in which it is inspired by Futurist Architecture (1912 - 1945) and Contemporary Architecture (2000).  
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/36965-building-style-neo-futurism/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_07/Nanjing_International_Youth_Cultural_Ceter.jpg.64e51cfc38889e23ad4ec5d414be7834.jpg
+
+dependencies:
+  - null-45:allow-more-building-styles-dll
+  - null-45:sc4-resource-loading-hooks
+  - ulisse-wolf:andisart-cam-building-pack
+
+assets:
+  - assetId: ulisse-wolf-building-style-neo-futurism
