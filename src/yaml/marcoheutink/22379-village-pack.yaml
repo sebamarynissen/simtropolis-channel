@@ -1,0 +1,64 @@
+group: marcoheutink
+name: village-pack
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Village Pack - 9 new houses from Zeeland, the Netherlands
+  description: |-
+    I proudly present the second set of growable residential lots from Zeeland, from some antique fishing harbours. The designs are inspired by actual buildings in Brouwershaven and Zierikzee.
+
+    Zip contains: 9 1x1 R$$ growable lot + model
+
+    \*\*\*no dependencies\*\*\*
+
+    Combine with the first set for more variation: [https://www.simtropolis.com/STEX/details.cfm?id=22324](https://www.simtropolis.com/stex/details.cfm?id=22324)
+
+    Optimized for use with the Stellingmolen: [https://www.simtropolis.com/STEX/details.cfm?id=22284](https://www.simtropolis.com/stex/details.cfm?id=22284)
+
+    \*\*\*no dependencies\*\*\*
+
+    Zierikzee:
+
+    ![icsjty.jpg](http://i27.tinypic.com/icsjty.jpg)
+
+    Brouwershaven:
+
+    ![2i1fhoy.jpg](http://i28.tinypic.com/2i1fhoy.jpg)
+
+    Zeeland was flooded in 1953, now it is protected by the Deltaworks.
+
+    Check this upcoming movie about the flood:
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22379-village-pack-9-new-houses-from-zeeland-the-netherlands/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b84af610d913c5bafcf35bd21ee114be-zeeland_villagess1.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b84af610d913c5bafcf35bd21ee114be-zeeland_villagess2.jpg
+dependencies:
+  - marcoheutink:village-pack-models
+assets:
+  - assetId: marcoheutink-village-pack-9-new-houses-from-zeeland-the-netherlands
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: marcoheutink
+name: village-pack-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=marcoheutink:village-pack`
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22379-village-pack-9-new-houses-from-zeeland-the-netherlands/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b84af610d913c5bafcf35bd21ee114be-zeeland_villagess1.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b84af610d913c5bafcf35bd21ee114be-zeeland_villagess2.jpg
+assets:
+  - assetId: marcoheutink-village-pack-9-new-houses-from-zeeland-the-netherlands
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: marcoheutink-village-pack-9-new-houses-from-zeeland-the-netherlands
+version: "1.0"
+lastModified: "2009-08-28T16:06:07Z"
+url: https://community.simtropolis.com/files/file/22379-village-pack-9-new-houses-from-zeeland-the-netherlands/?do=download&r=48723

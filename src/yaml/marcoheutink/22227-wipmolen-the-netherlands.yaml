@@ -1,0 +1,56 @@
+group: marcoheutink
+name: wipmolen-the-netherlands
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Wipmolen, the Netherlands
+  description: |-
+    Dutch Wipmolen
+
+    The earliest water pumping mill in the Netherlands. Keeps your polders dry, and provides some water.
+
+    Provides your agricultural maps with a water pump that fits within the landscape.
+
+    Water pump 2x2
+
+    1000 water provided
+
+    50 budget
+
+    250 plop cost
+
+    150 bulldoze
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22227-wipmolen-the-netherlands/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8a5ac03beca5482a869bc4b2cf4bc6e3-wipmolenss.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8a5ac03beca5482a869bc4b2cf4bc6e3-wipmolenss2.jpg
+dependencies:
+  - marcoheutink:wipmolen-the-netherlands-model
+assets:
+  - assetId: marcoheutink-wipmolen-the-netherlands
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: marcoheutink
+name: wipmolen-the-netherlands-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=marcoheutink:wipmolen-the-netherlands`
+  author: marcoheutink
+  website: https://community.simtropolis.com/files/file/22227-wipmolen-the-netherlands/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8a5ac03beca5482a869bc4b2cf4bc6e3-wipmolenss.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8a5ac03beca5482a869bc4b2cf4bc6e3-wipmolenss2.jpg
+assets:
+  - assetId: marcoheutink-wipmolen-the-netherlands
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: marcoheutink-wipmolen-the-netherlands
+version: "1.0"
+lastModified: "2009-08-07T14:15:08Z"
+url: https://community.simtropolis.com/files/file/22227-wipmolen-the-netherlands/?do=download&r=48513
