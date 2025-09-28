@@ -1,7 +1,7 @@
 group: peg
 name: the-great-lighthouse-of-alexandria
-version: "2.0"
-subfolder: 600-civics
+version: "2.0-1"
+subfolder: 620-education
 info:
   summary: The Great Lighthouse of Alexandria
   description: |-
@@ -36,13 +36,15 @@ info:
     - https://www.simtropolis.com/objects/screens/0011/5cc975b429a681154f8d92b07570b03a-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0011/5cc975b429a681154f8d92b07570b03a-product_image2a.jpg
 dependencies:
-  - memo:submenus-dll
   - peg:oasis-park
+  - peg:the-great-lighthouse-of-alexandria-props
 assets:
   - assetId: peg-the-great-lighthouse-of-alexandria
+    include:
+    - "/PEG_The-Great-Lighthouse_2fda8248.dat"
 
 ---
 assetId: peg-the-great-lighthouse-of-alexandria
-version: "2.0"
+version: "2.0-1"
 lastModified: "2025-05-11T17:48:33Z"
 url: https://community.simtropolis.com/files/file/13096-peg-the-great-lighthouse-of-alexandria/?do=download&r=207619
