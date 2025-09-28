@@ -1,9 +1,9 @@
 group: andisart
-name: 1-andis-plaza
-version: "1.0"
+name: andis-plaza
+version: "2.0"
 subfolder: 300-commercial
 info:
-  summary: 1 Andis Plaza
+  summary: Andis Plaza
   description: |-
     AndisArt presents:
 
@@ -33,15 +33,22 @@ info:
 
     \----------------------------------------------
   author: AndisArt
-  website: https://community.simtropolis.com/files/file/18485-1-andis-plaza/
+  websites: 
+    - https://community.simtropolis.com/files/file/18485-1-andis-plaza/
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation 
   images:
     - https://www.simtropolis.com/objects/screens/0014/781f52dabcc486e0274bb472cd2dd8a7-night.jpg
     - https://www.simtropolis.com/objects/screens/0014/781f52dabcc486e0274bb472cd2dd8a7-day.jpg
+    
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+
 assets:
   - assetId: andisart-1-andis-plaza
 
 ---
 assetId: andisart-1-andis-plaza
-version: "1.0"
-lastModified: "2007-07-28T11:29:39Z"
+version: "2.0"
+lastModified: "2025-09-28T14:12:04Z"
 url: https://community.simtropolis.com/files/file/18485-1-andis-plaza/?do=download&r=42447

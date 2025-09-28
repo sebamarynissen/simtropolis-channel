@@ -1,18 +1,10 @@
 group: andisart
 name: one21-apartment-tower
-version: "1.1"
+version: "2.0"
 subfolder: 200-residential
 info:
-  summary: One21Apartment Tower
+  summary: One21 Apartment Tower
   description: |-
-    07-15-06
-
-    Updated to Version 1.1
-
-    \-adjusted values:  plop cost, pollution, power & water consumed
-
-    \- item order in menu now according to cost
-
     Welcome to the One21-Apartment Tower! Find your apartment for well living at moderate prices. Enjoy the view from 21 levels, take advantage from two highspeed elevators and handicap access. Reserve your apartment today!
 
     **Contains a growable and a functional ploppable version.**
@@ -49,15 +41,21 @@ info:
 
     MORE PROJECTS TO COME!
   author: AndisArt
-  website: https://community.simtropolis.com/files/file/10994-one21apartment-tower/
+  websites: 
+    - https://community.simtropolis.com/files/file/10994-one21apartment-tower/
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation
   images:
     - https://www.simtropolis.com/objects/screens/0006/2a239d3a898c57b8af04592c90aba9c3-One21d1 Kopie.jpg
     - https://www.simtropolis.com/objects/screens/0006/2a239d3a898c57b8af04592c90aba9c3-One21n1.JPG
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+  
 assets:
   - assetId: andisart-one21apartment-tower
 
 ---
 assetId: andisart-one21apartment-tower
-version: "1.1"
-lastModified: "2004-11-15T16:48:03Z"
+version: "2.0"
+lastModified: "2025-09-28T14:04:23Z"
 url: https://community.simtropolis.com/files/file/10994-one21apartment-tower/?do=download&r=30813
