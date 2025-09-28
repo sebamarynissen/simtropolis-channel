@@ -43,15 +43,38 @@ info:
 
     .
   author: AndisArt
-  website: https://community.simtropolis.com/files/file/18694-lighthouse-tower-dubai/
+  websites: 
+    - https://community.simtropolis.com/files/file/18694-lighthouse-tower-dubai/
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation 
   images:
     - https://www.simtropolis.com/objects/screens/0020/b207988b0decd927bd664731267b0bd8-night Kopie.jpg
     - https://www.simtropolis.com/objects/screens/0020/b207988b0decd927bd664731267b0bd8-day.jpg
-assets:
-  - assetId: andisart-lighthouse-tower-dubai
+
+dependencies:
+  - andisart:models-mega-pack-vol01
+  - bsc:essentials
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: andisart-lighthouse-tower-dubai
+        exclude:
+        - "/AndisArt_Lighthouse_Tower.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: andisart-lighthouse-tower-dubai-cam      
+        include:
+        - "/CO\\$\\$\\$10_6x3_AndisArt_Lighthouse_Tower_396b8d14.SC4Lot"
+        - "/CO\\$\\$\\$12_6x3_AnidsArt_Lighthouse_Tower_779f4954.SC4Lot"
 
 ---
 assetId: andisart-lighthouse-tower-dubai
 version: "1.0"
 lastModified: "2007-09-22T18:26:44Z"
 url: https://community.simtropolis.com/files/file/18694-lighthouse-tower-dubai/?do=download&r=42813
+
+---
+assetId: andisart-lighthouse-tower-dubai-cam
+version: "1.0"
+lastModified: "2025-09-25T07:06:46-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=423:sc4d-lex-legacy-andisart-compilation

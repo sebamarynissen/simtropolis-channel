@@ -1,6 +1,6 @@
 group: andisart
 name: okhta-center
-version: "1.1"
+version: "1.2"
 subfolder: 300-commercial
 info:
   summary: Okhta Center
@@ -41,15 +41,31 @@ info:
 
     See readme for full details
   author: AndisArt
-  website: https://community.simtropolis.com/files/file/21033-okhta-center/
+  websites: 
+    - https://community.simtropolis.com/files/file/21033-okhta-center/
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation
   images:
     - https://www.simtropolis.com/objects/screens/0005/24fa2793739d164d4eeb0e089c000f1a-night2.jpg
     - https://www.simtropolis.com/objects/screens/0005/24fa2793739d164d4eeb0e089c000f1a-day1.jpg
-assets:
-  - assetId: andisart-okhta-center
+
+dependencies:
+  - andisart:models-mega-pack-vol01
+  - bsc:essentials
+  
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: andisart-okhta-center
+        include:
+        - "/CO\\$\\$\\$8_4x4_AndisArt_OkhtaCenter_96877251.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: andisart-okhta-center
+        include:
+        - "/CO\\$\\$\\$10_4x4_AndisArt_OkhtaCenter_56293890.SC4Lot"
 
 ---
 assetId: andisart-okhta-center
-version: "1.1"
-lastModified: "2009-01-24T13:24:26Z"
-url: https://community.simtropolis.com/files/file/21033-okhta-center/?do=download&r=46875
+version: "1.2"
+lastModified: "2025-09-25T07:06:46-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=423:sc4d-lex-legacy-andisart-compilation

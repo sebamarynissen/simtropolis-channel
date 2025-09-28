@@ -1,7 +1,10 @@
 group: andisart
 name: 1-andis-plaza
-version: "1.0"
+version: "1.2"
 subfolder: 300-commercial
+dependencies:
+  - andisart:models-mega-pack-vol01
+  - bsc:essentials
 info:
   summary: 1 Andis Plaza
   description: |-
@@ -33,15 +36,20 @@ info:
 
     \----------------------------------------------
   author: AndisArt
-  website: https://community.simtropolis.com/files/file/18485-1-andis-plaza/
+  websites: 
+    - https://community.simtropolis.com/files/file/18485-1-andis-plaza/
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation
   images:
     - https://www.simtropolis.com/objects/screens/0014/781f52dabcc486e0274bb472cd2dd8a7-night.jpg
     - https://www.simtropolis.com/objects/screens/0014/781f52dabcc486e0274bb472cd2dd8a7-day.jpg
 assets:
   - assetId: andisart-1-andis-plaza
+    include:
+    - "/CO\\$\\$\\$7_4x7_1 Andi's Plaza_d7380291.SC4Lot"
+    - "/CS\\$\\$\\$8_4x7_Andi's Plaza Hotel_57a0a6e9.SC4Lot"
 
 ---
 assetId: andisart-1-andis-plaza
-version: "1.0"
-lastModified: "2007-07-28T11:29:39Z"
-url: https://community.simtropolis.com/files/file/18485-1-andis-plaza/?do=download&r=42447
+version: "1.2"
+lastModified: "2025-09-25T07:06:46-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=423:sc4d-lex-legacy-andisart-compilation
