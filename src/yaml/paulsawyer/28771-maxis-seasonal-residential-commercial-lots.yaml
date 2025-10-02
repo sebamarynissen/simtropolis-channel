@@ -1,0 +1,43 @@
+---
+assetId: maxis-seasonal-residential-commercial-lots
+version: "2.0.0"
+lastModified: "2025-10-02T23:10:49Z"
+url: https://community.simtropolis.com/files/file/28771-maxis-seasonal-residential-commercial-lots/?do=download
+
+---
+group: paulsawyer
+name: maxis-seasonal-residential-commercial-lots
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Maxis Seasonal - Residential and Commercial Lots
+  description: |
+    Arvis insurance is situated in a midrise office building. The building is 16 stories tall and is build in the international style. The complete building is covered by a curtain wall. In order to prevent over heating in the summer some large air-conditioning units are placed on the roof.
+  author: PaulSawyer
+  website: https://community.simtropolis.com/files/file/28771-maxis-seasonal-residential-commercial-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/217d60d8bba3874b857e6d6701d27761-picture.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/1b32c245cee9f02eed28371f4bb7ee72-1-copy.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/9ea100290543341af16fb2f933a3ed63-2-copy.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/9067ebbbbc90454fb0f8c3bc2211799b-3-copy.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/b4b0e2f4748f4ebe595102269a142370-4-copy.jpg
+
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-kwk-vol03
+  - girafe:common-spruces
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: maxis-seasonal-residential-commercial-lots
+        include:
+        - "/Maxis res-com seasonal re-lots.dat"     
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: maxis-seasonal-residential-commercial-lots
+        include:
+        - "/MaxisSeasonalLots-CAM.dat"
