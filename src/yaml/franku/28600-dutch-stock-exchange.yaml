@@ -1,0 +1,49 @@
+group: franku
+name: dutch-stock-exchange
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: FrankU Dutch Stock Exchange
+  description: |-
+    This is a sequel of my Dutch Maxis Rewards Replacements Set.  
+    It replaces the Maxis Stock Exchange by a Dutch building. For versatility and just plain fun I added an eyecandy Landmark version and a Landmark version with CO$$$ jobs. You can delete whichever lot you do not want.  
+       
+    The stats of the lot are identical to the original Maxis Reward.  
+    The stats of the landmarks are in the read me.  
+       
+    You need the following dependencies.  
+    First of all the original  
+    [Vanderaap building](https://community.simtropolis.com/files/file/11298-vda-amsterdam-weesperplein-24-diamond-exchange/)  
+       
+    And then you need:  
+    [BSC\_TexturePack\_Cycledogg\_V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [BSC MEGA Props - swi21 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)  
+    [BNL Essentials V1.1](https://community.simtropolis.com/files/file/28639-bnl-essentials/)  
+       
+    These are all usual suspects for anyone who plays this game for some time already. Anyway: you needed these also for my earlier uploaded rewards.  
+       
+    I hope you like the lot and that you will have fun with it.  
+       
+    FrankU
+  author: FrankU
+  website: https://community.simtropolis.com/files/file/28600-franku-dutch-stock-exchange/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/43a1d5255ccc9fd5987a1627b9d35e83-dutch-stock-exchange0000.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/ee52e1d8542e6adc144095b5d491ec68-dutch-stock-exchange0001.jpg
+dependencies:
+  - bnl:essentials
+  - vanderaap:amsterdam-weesperplein-24-diamond-exchange-model
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: franku-franku-dutch-stock-exchange
+
+---
+assetId: franku-franku-dutch-stock-exchange
+version: "1.0"
+lastModified: "2013-12-07T19:01:09Z"
+url: https://community.simtropolis.com/files/file/28600-franku-dutch-stock-exchange/?do=download&r=122997
