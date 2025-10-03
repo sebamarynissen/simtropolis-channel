@@ -1,0 +1,42 @@
+group: airman15
+name: cadillac-escalade
+version: "1.0-1"
+subfolder: 710-automata
+info:
+  summary: Cadillac Escalade
+  description: |-
+    Keeping up with the latest auto trends is no fun. Once upon a time, everyone had a modest domestic coupe in the driveway. As time went on, those got replaced with newer, shinier models with bigger engines and now with utility features. And then there was the one-hit wonder from the early 2000's showing off one of those huge tanks with big wheels and a chrome wrap. Every trip to the dealer to get one of these high-dollar SUV's ended the same. One credit check, two sales associates pointing and laughing at your credit history, and three weeks of humiliation from that visit and you still have no replacement. Enter- the Cadillac Escalade! It doesn't matter that it's trim is a plastic veneer! Nor does it matter it's leather is synthetic! You are now at the top of the pile with all the other high rollers and that's the important part! Now you can start your own rap career or demand to see a manager the proper way!
+
+    About the Upload-  
+    There are five vehicles included in this upload. Each one is a 2017 Cadillac Escalade. They are high-wealth vehicles and will appear on your road networks.
+
+    Dependencies?  
+    None required.
+
+    Components for the textures were derived from Kelley Blue Book.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/32424-cadillac-escalade/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade0.png.2b34634f71743b51e278c174691e8503.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade1.png.4e998b4be0c84cc7c6bf5d8fe6f5d08b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade2.png.8ee45ab09b43afb5c09f95a1668eebc1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade3.png.e9389bf3acd2893957c4a22b2e366a6d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade4.png.9b41b01f2994bcf3a8de223749f89f54.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Escalade5.png.fdc4921d7dac251e4ddb2c362d701ea1.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-cadillac-escalade
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-cadillac-escalade
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-cadillac-escalade
+version: "1.0"
+lastModified: "2018-08-20T00:57:24Z"
+url: https://community.simtropolis.com/files/file/32424-cadillac-escalade/?do=download&r=171936

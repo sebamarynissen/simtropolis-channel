@@ -1,0 +1,42 @@
+group: anubis89
+name: some-grey-and-small-flats
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Some grey and small flats
+  description: |-
+    Something different from what I usually upload because it is not a civic building and it's **growable**. It looks quite simple, just a three storey building with grey walls...
+
+    [click me to see another screenshot!](http://img141.imageshack.us/img141/6506/screen3backdayga1.jpg)
+
+    Lot Size: 3x2, the building itself is almost 3 tiles long
+
+    Capacity: 120 inhabitants
+
+    Wealth: $
+
+    Bulldoze Costs: 150$
+
+    are there other important stats?
+
+    Dependencies:
+
+    **[SFBT Essentials](http://kurier.simcityplaza.de/details.php?file=5)** for the dumpsters in the front of the building
+
+    also, as the sc4 tool tells me, **BSC Textures Vol 02**
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/19658-some-grey-and-small-flats/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9c6c361884ac3d8a9cac9cc318d3487e-Screen1Frontday.JPG
+    - https://www.simtropolis.com/objects/screens/0017/9c6c361884ac3d8a9cac9cc318d3487e-Screen2Frontnight.JPG
+dependencies:
+  - bsc:textures-vol02
+  - sfbt:essentials
+assets:
+  - assetId: anubis89-some-grey-and-small-flats
+
+---
+assetId: anubis89-some-grey-and-small-flats
+version: "1.0"
+lastModified: "2008-04-10T15:44:09Z"
+url: https://community.simtropolis.com/files/file/19658-some-grey-and-small-flats/?do=download&r=44517

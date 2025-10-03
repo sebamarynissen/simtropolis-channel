@@ -1,0 +1,36 @@
+group: peg
+name: csk-add-on-1
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: CSK Add On 1
+  description: |-
+    The first of several add-ons for the new CSK Channel Stream Kit. This one is all about moving up and down the terrain and building your channels at different heights. For navigation, that means locks. For simple water flow... waterfalls.
+
+    The add-on contains 3 new lots for the CSK. Like all CSK lots, they have been conveniently placed in the Water Transportation Menu. The 3 new lots are:
+
+    1\. **Waterfall Lot** - Virtually identical to the PEG Stream Kit waterfall except for the channel sections top & bottom and a new texture on the slope.
+
+    2\. **The Channel Lock** -  A 1x3 lot that is very similar to the waterfall except for the 2 stage lock in the middle. At different times in the day, the lock will be either filled or partially empty. Channel barges will also appear at the top and bottom of the lock during the day.
+
+    3\. **The Ocean Lock** - Similar to the Lock, the lot is only 1x2 and is designed specifically for transitions to game default water. The lock is also a 2-stage model... and barges will appear at the top of the lock.
+
+    **\*\* This Add-On requires the PEG CSK as well as the PEG CSK Barges Prop Pack.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/13494-peg-csk-add-on-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4cda27d67090444a5d0c609632fff4dc-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4cda27d67090444a5d0c609632fff4dc-product_image2.jpg
+assets:
+  - assetId: peg-csk-add-on-1
+dependencies:
+  - peg:csk-channel-stream-kit
+  - peg:csk-barges-prop-pack
+
+---
+assetId: peg-csk-add-on-1
+version: "1.1"
+lastModified: "2025-06-07T22:13:46Z"
+url: https://community.simtropolis.com/files/file/13494-peg-csk-add-on-1/?do=download&r=208004

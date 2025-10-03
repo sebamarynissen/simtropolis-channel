@@ -1,6 +1,6 @@
 group: nbvc
 name: marina-round-corners
-version: "1.0"
+version: "2.0"
 subfolder: 700-transit
 info:
   summary: Marina Round Corners
@@ -10,6 +10,15 @@ info:
     Everything is located in the seaport menu.
 
     The props can also be used in the Lot-Editor for your custom lots.
+    
+    DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    [Submenus DLL](community.simtropolis.com/files/file/36142-submenus-dll/) - You need it to get the package submenu working.
+
+    Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
 
     Dependencies:
 
@@ -23,6 +32,7 @@ info:
 dependencies:
   - nbvc:marina-round-corners-resources
   - nbvc:marina-resources
+  - memo:submenus-dll
 assets:
   - assetId: nbvc-marina-round-corners
     include:
@@ -31,7 +41,7 @@ assets:
 ---
 group: nbvc
 name: marina-round-corners-resources
-version: "1.0"
+version: "2.0"
 subfolder: 100-props-textures
 info:
   summary: Marina Round Corners resources
@@ -47,6 +57,6 @@ assets:
 
 ---
 assetId: nbvc-marina-round-corners
-version: "1.0"
-lastModified: "2014-08-31T09:44:52Z"
+version: "2.0"
+lastModified: "2025-07-26T19:22:12Z"
 url: https://community.simtropolis.com/files/file/29870-marina-round-corners/?do=download&r=141424

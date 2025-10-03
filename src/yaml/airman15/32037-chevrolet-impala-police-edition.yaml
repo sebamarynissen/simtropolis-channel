@@ -1,0 +1,36 @@
+group: airman15
+name: chevrolet-impala-police-edition
+version: "1.0-1"
+subfolder: 710-automata
+info:
+  summary: Chevrolet Impala- Police Edition
+  description: |-
+    At the heart of any well-balanced city is an order legislated to guarantee the welfare of all who live inside it's jurisdiction. Law Enforcement is one of the most important branches to a government, ensuring safety to all. Even if it's a traffic ticket now and then or a donut shop being stormed. Your departments need a sturdy car and the Impala is the perfect fit! For when the going gets tough in the streets, these new cruisers are well-equipped to take on anything!
+
+    About the Upload-  
+    This mod converts the Police Car into a modified Chevrolet Impala. There are 8 different liveries included, based on various police departments from the United States. The liveries included are not specific to any real cities, so they can blend into almost any setting within the game. The shields on each side are custom emblems from GM to promote the Impala as a police unit. Static props included.
+
+    Dependencies?  
+    None required, but if you would like to see these units in action (besides their regular patrols), it's recommended to download the [Lots of Riots mod](https://community.simtropolis.com/files/file/13318-lots-of-riots-mod/), which will spawn more frequent uprisings that allow you to actually use the police dispatch tool!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/32037-chevrolet-impala-police-edition/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaPolice0.png.bbb641fcdbe96ecbf5cc7bc79c2d67e6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaPolice1.png.c29dfabe84d16d2fc19d4b0d1d53e3bc.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-police-edition
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-police-edition
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-chevrolet-impala-police-edition
+version: "1.0"
+lastModified: "2017-12-16T06:08:32Z"
+url: https://community.simtropolis.com/files/file/32037-chevrolet-impala-police-edition/?do=download&r=169392

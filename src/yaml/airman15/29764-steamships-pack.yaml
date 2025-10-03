@@ -1,0 +1,41 @@
+group: airman15
+name: steamships-pack
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Steamships Pack
+  description: |-
+    "Rome wasn't built in a day". There's a saying that has been passed on for generations. And it's true, no major project can be done in a couple of hours.. except for building Metropolis in SimCity 4. You can literally plop paradise and create titanic skylines which belittle New York City and Shanghai in a single weekend. And as a result, there isn't a lot of history to a typical city. Now you CAN give your cities that historical touch with these steamships! Each one has it's own unique name, you have The SS Hornet, Karma, Union and, Warrior II. All four are ready to take to the seas with class and elegance that once was!
+
+    About the Upload-
+
+    This is a pack of four steamships that have UDI abilities. The models were inspired by ships that were used in the late 1800's and early 1900's. These ships are remakes of a set of steam ferries that were later taken off the Exchange. The files used are based on the Ship Pack by DolphinFox and to ensure these ferries work right, a file is needed from his upload (see below).
+
+    Dependencies?
+
+    The following file is required to ensure proper functionality.
+
+    [LUA File from Ship Pack V2.0](https://community.simtropolis.com/files/file/26366-ships-pack/)
+
+    [Automata Generators Vol1: Sea & Sky](https://community.simtropolis.com/files/file/29364-automata-generators-vol1-sea-sky/) (Not a necessity, but highly recommended to make them appear anywhere there is water. The ships will appear if you have the Maxis Marina as well.)
+
+    Hardware settings are required to ensure there aren't any texturing issues with the files.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/29764-steamships-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/89c76b12ab3376a608ae882cf00f6cfe-steamships-0.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/470e5e1affae9932884630bca7fca182-steamships-1.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/e7ab4949dfc25a8dcffc90dfb15538bc-steamships-2.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/d19dab1c93c3f5bccd2867812b024797-steamships-3.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/c341060de24642c00b759fabf93903de-steamships-4.png
+dependencies:
+  - apeek:automata-generators-vol1-sea-and-sky
+  - dolphinfox:lua-resources
+assets:
+  - assetId: airman15-steamships-pack
+
+---
+assetId: airman15-steamships-pack
+version: "1.0"
+lastModified: "2014-07-21T16:20:04Z"
+url: https://community.simtropolis.com/files/file/29764-steamships-pack/?do=download&r=139690

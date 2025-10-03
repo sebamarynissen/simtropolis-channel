@@ -1,0 +1,38 @@
+group: airman15
+name: chevrolet-impala-taxi-edition
+version: "1.0-1"
+subfolder: 710-automata
+info:
+  summary: Chevrolet Impala- Taxi Edition
+  description: |-
+    Going to a strange town and finding your way about can be a challenge. You've just stepped off the plane and made your way through the terminal. After about 15 minutes of getting lost and collecting your bags you reach the street! Now what? You're supposed to go to this hotel but don't know where it is or if it exists at all. Rather than getting mugged on the way to the EL trains, just flag down a taxi and tell them where to go. It's not 2013 yet so you can get a nice whiff of stale cigarettes while being charged a pretty penny to realize you drove the longest route to your final destination!
+
+    About the Upload-  
+    This mod converts the Taxi into a modified Chevrolet Impala. There are 3 different liveries included, based on various taxi companies from the United States. The liveries included are loosely based on  the Yellow Cab Co, but can blend into almost any US-themed setting within the game. The liveries are not dependent on each other and can be used together.
+
+    Dependencies?  
+    None required.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/32038-chevrolet-impala-taxi-edition/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaTaxi0.png.3aa03f4c95185693cdfeeb059686313c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaTaxi1.png.13a58a46052b95ebac0bbbf91bb34c0e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaTaxi2.png.7a4589aa3fef7ebdfb08c54d1539045d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/ImpalaTaxi3.png.4a3542b57178cb6da0a24ac2ddd47dec.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-taxi-edition
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-chevrolet-impala-taxi-edition
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-chevrolet-impala-taxi-edition
+version: "1.0"
+lastModified: "2017-12-16T06:14:12Z"
+url: https://community.simtropolis.com/files/file/32038-chevrolet-impala-taxi-edition/?do=download&r=169395

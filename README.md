@@ -1,10 +1,12 @@
 # Simtropolis sc4pac channel
 
 This repository contains the code for the [sc4pac](https://memo33.github.io/sc4pac/#/) metadata channel that automatically handles uploads to the STEX.
-Add https://sc4pac.simtropolis.com/ to your sc4pac channels to use it.
+Add `https://sc4pac.simtropolis.com/` to your sc4pac channels to use it.
 See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
 
 Currently, the STEX is polled for new content once every hour, meaning if your plugin is compatible and has valid metadata (see below), it should appear within the hour on the channel.
+
+Support is available in the [Simtropolis x sc4pac thread](https://community.simtropolis.com/forums/topic/763620-simtropolis-x-sc4pac-a-new-way-to-install-plugins). Content updates and news are also posted there.
 
 ## Principles
 

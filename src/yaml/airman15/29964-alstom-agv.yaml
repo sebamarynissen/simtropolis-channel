@@ -1,0 +1,41 @@
+group: airman15
+name: alstom-agv
+version: "1.1-1"
+subfolder: 710-automata
+info:
+  summary: Alstom AGV
+  description: |-
+    Need to travel over to the next town? Well, there are many ways you can get to your destination. The only problem is, each way you take is either time consuming or inefficient. Can a faster way of travelling be implemented? Well, there is one way that will allow you to cut travel times down to almost nothing. With comfort and convenience, a high-speed electric train to get you from station to station in the blink of an eye. And this fine example of rail travel has a name- the Alstom AGV!
+
+    About the upload-
+
+    This upload replaces the Passenger Train with an Alstom AGV. There are two files included. One replaces the engine and the other replaces the coaches. The train includes custom nightlights.
+
+    Dependencies?
+
+    There are none required. Though it is recommended to use a catenary mod (such as the [Rail Catenary Mod V3](https://community.simtropolis.com/files/file/21935-rail-catenary-mod-v3-hd-version/)) for cosmetics (since they would complement the theme of electric trains).
+
+    This file was requested by c4creeper and has been made available for all to download.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/29964-alstom-agv/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/700ba1e1a9dad1cc0945a2e73d469e36-alstom0.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/189450b10be093954a99f9f8926114ae-alstom1.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/64ec5b70dda0493ee113deae43e9b3a9-alstom2.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-alstom-agv
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-alstom-agv
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-alstom-agv
+version: "1.1"
+lastModified: "2014-10-22T05:38:54Z"
+url: https://community.simtropolis.com/files/file/29964-alstom-agv/?do=download&r=144157

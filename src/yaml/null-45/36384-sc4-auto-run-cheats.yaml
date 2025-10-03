@@ -1,0 +1,112 @@
+group: "null-45"
+name: "sc4-auto-run-cheats"
+version: "1.2.1"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-sc4-auto-run-cheats"
+  withChecksum:
+  - include: "/SC4AutoRunCheats.dll"
+    sha256: 22D644C889BF5F1EB23A469D9190EA2D324320C3E7C8257384EEE5BC114F2E85
+  - include: "/SC4AutoRunCheats.ini"
+    sha256: A42FF18118C0087B185599ED5A2C49CDD50D68B07DD86FD5714CF788108D38D9
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that automatically executes cheat codes when loading the game or a city."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    A DLL Plugin for SimCity 4 that automatically executes cheat codes when loading the game or a city.
+
+    **LoadZoneBitmap Cheat Code**
+
+    This cheat code allows the user to manually load a zone bitmap within the city view. The format is: LoadZoneBitmap <path>
+
+    The command will be run before the cheat box is closed, if an error occurs an in-game message box will be shown. Depending on the number of zones in the bitmap it may take some time for the command to run. See the ZoneBitmap Command section for a description of the format.
+
+    **System Requirements**
+
+    * Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1. Close SimCity 4.
+    2. Copy SC4AutoRunCheats.dll and SC4AutoRunCheats.ini into the Plugins folder in the SimCity 4 installation directory.
+    3. Configure the plugin settings, see the Configuring the plugin section.
+
+    **Configuring the plugin**
+
+    1. Open SC4AutoRunCheats.ini in a text editor (e.g. Notepad). Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with administrator permissions to be able to save the file.
+    2. Adjust the settings in the [Startup], [Tile], [EstablishedTile] and [UnestablishedTile] sections to your preferences.
+    3. Save the file and start the game.
+
+    **Settings overview**
+
+    The commands or cheat codes will be applied at the specified stages in the game's loading process. The RunOnce versions will only be applied for the first matching city tile that is loaded.
+
+    The command strings can use one of two formats:
+
+    * A comma-separated list of commands/cheats.
+    * A File:<path> string that specifies an external file containing the commands/cheats.
+
+    [Startup]: The commands in this section will be run once when the game starts up.
+    [Tile]: The commands in this section will be run when loading either an established or unestablished city tile.
+    [EstablishedTile]: The commands in this section will be run when loading an established city tile or when a city is established.
+    [UnestablishedTile]: The commands in this section will be run when loading an unestablished city tile.
+
+    **External Command File Format**
+
+    The external command file must place each command or cheat on its own line. The cheats/commands will be executed sequentially starting from the top of the file.
+
+    **ZoneBitmap Command**
+
+    The ZoneBitmap command can be used to load a zone bitmap that will be applied when loading a city. the command syntax is ZoneBitmap <path>. The ZoneBitmap format the DLL uses is based on the one developed by @Cyclone Boom and @CorinaMarie for their Image2zones tool.
+
+    The required zone bitmap size varies depending on the city size. The zone bitmap is one row taller than the city tile because the last row is used to specify the colors for each zone and a few other options.
+
+    Small city tile (4096 cells): 64x65
+    Medium city tile (16384 cells): 128x129
+    Large city tile (65536 cells): 256x257
+
+    The command will write a text file containing the zone colors in the same location as the image file. The color information can be used to create an override plugin for the Zone Manager's displayed zone colors.
+
+    **Control Row**
+
+    The last row in the zone bitmap is the control row. The first 16 pixels from the bottom left indicate which colors map to the game's 16 zone types. Currently only zone types 1 through 9 are usable. The next 3 pixels control various zone layout options, these options are enabled if the corresponding pixel is set to a RGB value of 255,165,0.
+
+    Pixel 16 - Custom Size: Use a custom size for the zone grid. Equivalent to holding down Control when using the zoning tool.
+    Pixel 17 - Alternate Layout: Use an alternate layout when placing the zone grid. Equivalent to holding down Alt when using the zoning tool.
+    Pixel 18 - Place Streets: Place streets in the zoned areas. Equivalent to not pressing Shift when using the zoning tool.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4AutoRunCheats.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/763349-sc4-auto-run-cheats-dll-plugin/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-auto-run-cheats
+
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
+
+    Thanks to the few people who have donated to me.
+    
+  warning: |-
+    This DLL plugin comes with one INI configuration file:
+
+    * `SC4AutoRunCheats.ini`
+
+    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36384-sc4-auto-run-cheats-dll-plugin/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/STEXIcon.png.b0766777b89d637524e08ec53f9d7da7.png
+
+---
+assetId: "null-45-sc4-auto-run-cheats"
+version: "1.2.1"
+lastModified: "2024-08-26T21:55:33Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36257-discord-rich-presence-dll-for-simcity-4/?do=download"
+url: "https://github.com/0xC0000054/sc4-auto-run-cheats/releases/download/v1.2.1/SC4AutoRunCheats.zip"

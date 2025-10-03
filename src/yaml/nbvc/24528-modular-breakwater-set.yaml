@@ -1,6 +1,6 @@
 group: nbvc
 name: modular-breakwater-set
-version: "1.0"
+version: "2.0"
 subfolder: 700-transit
 info:
   summary: Modular Breakwater Set
@@ -9,17 +9,29 @@ info:
 
     They are located in the seaport menu.
 
-    No dependencies.
+    DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    [Submenus DLL](community.simtropolis.com/files/file/36142-submenus-dll/) - You need it to get the package submenu working.
+
+    Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    Dependencies:
+
+    None
   author: nbvc
   website: https://community.simtropolis.com/files/file/24528-modular-breakwater-set/
   images:
     - https://www.simtropolis.com/objects/screens/0021/b9851aa3ba3547a38c8e5962cbdec6a3-breakwater1.jpg
     - https://www.simtropolis.com/objects/screens/0021/b9851aa3ba3547a38c8e5962cbdec6a3-breakwater2.jpg
+dependencies:
+  - memo:submenus-dll
 assets:
   - assetId: nbvc-modular-breakwater-set
 
 ---
 assetId: nbvc-modular-breakwater-set
-version: "1.0"
-lastModified: "2010-07-30T04:58:31Z"
+version: "2.0"
+lastModified: "2025-07-26T19:21:21Z"
 url: https://community.simtropolis.com/files/file/24528-modular-breakwater-set/?do=download&r=51851

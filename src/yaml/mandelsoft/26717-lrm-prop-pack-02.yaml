@@ -1,0 +1,120 @@
+group: mandelsoft
+name: lrm-prop-pack-02
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: LRM Prop Pack 02
+  description: |-
+    ***\-- Outdated. new version available*** [***HERE***](https://www.simtropolis.com/forum/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/) ***--***
+
+    **!!! PLEASE READ THE README CAREFULLY! THIS PACK MAY CAUSE CONFLICT WHEN IT'S WRONGFULLY INSTALLED !!!**
+
+    **DESCRIPTION**
+
+    This pack contains over 150 streetlight props for your LOTs. It's a new released version of all the props from LRM Prop Pack 01, but this version uses the same technology as the USL. This pack also adds a few extra streetlight props.
+
+    **FILES**
+
+    This pack contains the following files:
+
+    \- LRM Prop Pack 02.dat
+
+    Contains all descriptors for the regular streetlights.
+
+    \- LRM\_Models\_Belgium\_WHITE.dat
+
+    \- LRM\_Models\_Belgium\_GREEN.dat
+
+    \- LRM\_Models\_Belgium\_GREY.dat
+
+    Contains the models for the Belgian styled streetlights.
+
+    ***NOTE:*** *Only install* ***ONE*** *of the two files. Otherwise they cause conflict with each other.*
+
+    \- LRM\_Models\_\_General.dat
+
+    Contains all models for all other streetlights.
+
+    \- USL\_Lights\_LightCones\_Bright.dat
+
+    Contains all models for all the lightcones.
+
+    \- Readme.txt
+
+    The readme of this pack
+
+    **INSTALLATION**
+
+    \- Extract the ZIP-file.
+
+    \- Copy "LRM Prop Pack 02.dat", "USL\_Lights\_LightCones\_Bright.dat" and "LRM\_Models\_General.dat" to *"My DocumentsSimCity 4PluginsLRM v30"*
+
+    \- Copy "LRM\_Models\_Belgium\_WHITE.dat", "LRM\_Models\_Belgium\_GREEN.dat" or "LRM\_Models\_Belgium\_GREY.dat" to that very same folder, depending on which color you want to have for your lights.
+
+    **UNINSTALLATION**
+
+    To uninstall the pack, remove all files from the LRM folder.
+
+    **COMPATIBILITY**
+
+    This pack is **NOT** compatible with older versions of the LRM before LRM v3.0. It also replaces LRM Prop Pack 01 (old files need to be removed.
+
+    **DEPENDENCIES**
+
+    This pack has no dependencies, because it's a dependency by itself.
+
+    **CREDITS**
+
+    Special thanks to kodlovag, who I have collaborated to develop the USL.
+
+    **SUPPORT**
+
+    For support, questions and bug reports, visit the [LRM (Light Replacement Mod) - Support, Development and Discussion thread](https://www.simtropolis.com/forum/topic/45710-lrm-light-replacement-mod-support-development-and-discussion/)
+
+    Enjoy!
+
+    Maarten/MRTNRLN
+  author: MandelSoft
+  websites: 
+    - https://community.simtropolis.com/files/file/26717-lrm-prop-pack-02/
+    - https://community.simtropolis.com/files/file/24502-lrm-prop-pack-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/c62e713872ee6d360ad11fb9cb7a37ae-lrm prop pack 02.jpg
+assets:
+  - assetId: mandelsoft-lrm-prop-pack-02
+    include:
+      - "/LRM Prop Pack 02.dat"
+      - "/LRM_Models_General.dat"
+      - "/USL_Lights_LightCones_Bright.dat"
+variants:
+- variant: { mandelsoft:lrm-prop-pack-02:color: "green" }
+  assets:
+  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+    include:
+    - "/LRM_Models_Belgium_GREEN.dat"
+- variant: { mandelsoft:lrm-prop-pack-02:color: "grey" }
+  assets:
+  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+    include:
+    - "/LRM_Models_Belgium_GREY.dat"
+- variant: { mandelsoft:lrm-prop-pack-02:color: "white" }
+  assets:
+  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+    include:
+    - "/LRM_Models_Belgium_WHITE.dat"
+variantInfo:
+- variantId: "mandelsoft:lrm-prop-pack-02:color"
+  description: Choose the model color for the Belgian styled streetlights.
+  values:
+  - value: "green"
+    description: Models use a green pole color.
+  - value: "grey"
+    description: Models use a grey pole color.
+  - value: "white"
+    description: Models use a white pole color.
+
+---
+assetId: mandelsoft-lrm-prop-pack-02
+version: "1.0"
+lastModified: "2011-09-01T13:45:44Z"
+url: https://community.simtropolis.com/files/file/26717-lrm-prop-pack-02/?do=download&r=96100

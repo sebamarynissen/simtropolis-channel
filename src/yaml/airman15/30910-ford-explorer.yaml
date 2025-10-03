@@ -1,0 +1,42 @@
+group: airman15
+name: ford-explorer
+version: "1.0-1"
+subfolder: 710-automata
+info:
+  summary: Ford Explorer
+  description: |-
+    If you're the type that wants ruggedness in a vehicle, look no further than the Ford Explorer! Most other auto makers have fallen into the habit of making SUV's that you really can't go anywhere off the map. A vehicle built to carry your equipment across all uncharted territory is a no-brainer! With a fitting name, you'll be able to make your mark in newly discovered lands (so long as your transmission holds together)! Now tell us, what will you explore?
+
+    About the Upload-  
+    There are seven vehicles contained in this zip folder. Each one is a 2004 Ford Explorer. These are Low-Wealth vehicles, given their average Blue Book value. These vehicles will appear on your road networks.
+
+    Dependencies?  
+    None Required.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/30910-ford-explorer/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer0.png.efc9387e881c74e8a8ae65bacbece0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer1.png.119a995203e0538e1ab9906cf8fe9bab.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer2.png.261725d1ece6605ebbe68663a3cd653f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer3.png.6f0d56454f02e6cc2d888a37b29b16fc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer4.png.aa68d467e0167db4c701d8ad58f0f843.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer5.png.e3a218060c88feac49af372fd92135ea.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer6.png.aa8fc5c0d4ccfea54f53f22c36339b57.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/explorer7.png.12ac3305c759046832a77c639abbccb5.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-ford-explorer
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-ford-explorer
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-ford-explorer
+version: "1.0"
+lastModified: "2016-01-08T05:41:58Z"
+url: https://community.simtropolis.com/files/file/30910-ford-explorer/?do=download&r=160283
