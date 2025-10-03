@@ -1,0 +1,30 @@
+group: peg
+name: cdk-leveler
+version: "2.05"
+info:
+  summary: Less time in God Mode... more time playing!!
+  description: |-
+    Designed for use with the CDK... but useful just about anywhere. THE LEVELER is a fast & simple alternative to using those hard-to-master and often fussy terrain tools.
+
+    This is a ploppable lot... not a tool. You plop it where you want level land... you bulldoze it... then you develop on it. No more three finger salutes to the God Mode Terrain tools just to level an area.
+
+    Also... No more destroying everything in the area when leveling. Surrounding lots will be unaffected when using this tool-lot. Offered in 2 sizes (4x4 and 1x4), you can control the area to be leveled by where and how you plop it. For perfect, level CDK & waterfront usage, plop it like a CDK lot. The tiles behind the lot will be level and ready for roads, etc...
+
+    For inland leveling, point the orientation arrow downhill and the area covered will level to the bottom side of the lot.
+
+    These lots have no dependencies... are free to plop and cost just a buck to bulldoze.
+
+    \*\*This file currently contains an .exe installer suitable for windows users.  These files are in the process of being updated with zip files and this message will be removed once the update is complete.
+
+    Update 10.06.2023 - The installer has been removed and replaced by a simple ZIP.  
+    Bear in mind if you use the **[Pegasus CDK3 Collection](https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/),** you might have the Leveler already, but it is located in the *PEGPROD/CDK3/* folders while this upload puts it to its original location: *PEGPROD/CDK/Leveler/.* **You only need to have it ONCE at one location.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/4527-peg-cdk-leveler-v205/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a8850ec9e57d2949aa06e51f2649b341-product_image.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK_Leveler.dat"

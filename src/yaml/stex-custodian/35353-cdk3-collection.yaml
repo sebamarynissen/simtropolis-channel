@@ -12,7 +12,7 @@ info:
   summary: "The Coastal Development Kit 3 (CDK3) Collection is a collated package of all CDK3 downloads released by Pegasus."
   warning: "If you opt to include one or of the functional seaport lots, it is imperative you have no other seaport controller installed! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
   description: |-
-    Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically h andle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
+    Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically handle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
 
     ***All discussions and support for this product are now hosted on the [PLEX on the STEX - Community Support thread at Simtropolis](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
 
@@ -52,7 +52,14 @@ dependencies:
   - peg:oww2-rci-boardwalks
   - peg:oww2-pier-set
   - peg:oww2-seaport-village-set
-
+  - peg:cdk-leveler
+variants:
+- variant: { roadstyle: "US" }
+- variant: { roadstyle: "EU" }
+  assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+    - "/PEG-SUPER_TEXTURES_EUOverride.dat"
 
 
 ---
@@ -298,9 +305,3 @@ dependencies:
 # 	OWW2 Plaza Control Freak Mod			Instead of randomly selecting a 1x1 plaza, ffs splits them into 3 distinct lots for more control.
 # 	OWW to OWW2 Conversion Mod				For users of older OWW content. This patch converts them to the OWW2 style.
 # 	CDK3 - The Basics Cement Patch		The patch will convert the CDK3 Basics lots to the newer CDK3 Seaport 'cement' style.
-
-# CDK Leveler Tool [checked]					Install the handy Leveler tool (Recommended) Less time in God Mode... more time playing!!
-# Euro Textures [unchecked]					  EU Road Texture users should select this. This patch updates any LIS textures to better match your game.
-# RealRailway (RRW) Textures [checked] If you are not using the RRW Rail style (NAM default), you should uncheck this selection to keep the default rails.
-
-
