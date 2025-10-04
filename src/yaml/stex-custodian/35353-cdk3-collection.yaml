@@ -53,13 +53,6 @@ dependencies:
   - peg:oww2-pier-set
   - peg:oww2-seaport-village-set
   - peg:cdk-leveler
-variants:
-- variant: { roadstyle: "US" }
-- variant: { roadstyle: "EU" }
-  assets:
-  - assetId: stex-custodian-pegasus-cdk3-collection
-    include:
-    - "/PEG-SUPER_TEXTURES_EUOverride.dat"
 
 
 ---
@@ -297,11 +290,3 @@ dependencies:
 # 	Container Seaport					        Include the functional version of the Container Seaport.
 # 	Pier One						              Include the functional version of the Pier One Seaport.
 # 	Break Bulk Dock						        Include the functional version of the Break Bulk Dock Seaport.
-
-# cdk3 & oww patches [all unchecked]	Select any of these optional Patches that alter behavior of certain CDK3 and OWW2 items.
-# 	OWW2 Outer Corner Type					  By default the OWW2 outer corner lots randomly selects one of tao styles, these options suppress that.
-# 		Force Square Outer Corners			Choose this option if you want all OWW2 Outer Corner lots to use the Square style.
-# 		Force Rounded Outer Corners			Choose this option if you want all OWW2 Outer Corner lots to use the Rounded style.
-# 	OWW2 Plaza Control Freak Mod			Instead of randomly selecting a 1x1 plaza, ffs splits them into 3 distinct lots for more control.
-# 	OWW to OWW2 Conversion Mod				For users of older OWW content. This patch converts them to the OWW2 style.
-# 	CDK3 - The Basics Cement Patch		The patch will convert the CDK3 Basics lots to the newer CDK3 Seaport 'cement' style.

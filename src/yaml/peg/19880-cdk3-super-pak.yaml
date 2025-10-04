@@ -9,17 +9,17 @@ info:
 
     This SUPER PAK replaces the following CDK3 dependency files:
 
-    > 1\. CDK3 Resource Pack 1 ( PEG\-CDK3\_Resource-Pack\_01.dat )
+    1. CDK3 Resource Pack 1 ( PEG\-CDK3\_Resource-Pack\_01.dat )
 
-    2\. CDK3 Ship Pack 1 ( PEG\-CDK3\_PropPack\_Ships\_01.dat )
+    2. CDK3 Ship Pack 1 ( PEG\-CDK3\_PropPack\_Ships\_01.dat )
 
-    3\. CDK3 Vehicle Pack 1 ( PEG\-CDK3\_PropPack\_Vehicles\_01.dat )
+    3. CDK3 Vehicle Pack 1 ( PEG\-CDK3\_PropPack\_Vehicles\_01.dat )
 
-    4\. CDK3 Trawler Pack 1 ( CDK3\_Trawlers\_RESOURCE.dat )
+    4. CDK3 Trawler Pack 1 ( CDK3\_Trawlers\_RESOURCE.dat )
 
-    5\. CDK3 REC Boats Pack ( PEG\-CDK3\_Rec-Boats\_RESOURCE\_101.dat )
+    5. CDK3 REC Boats Pack ( PEG\-CDK3\_Rec-Boats\_RESOURCE\_101.dat )
 
-    6\. CDK3 Basics\* ( PEG\-CDK3\_Basics\_100.dat )
+    6. CDK3 Basics\* ( PEG\-CDK3\_Basics\_100.dat )
 
     Once the CDK3 SUPER PACK is installed, you can safely remove the files listed above.
 
@@ -33,12 +33,21 @@ info:
     - https://community.simtropolis.com/files/file/19268-peg-cdk3-ship-pack-1/
     - https://community.simtropolis.com/files/file/18657-peg-cdk3-trawlers-pack-1/
     - https://community.simtropolis.com/files/file/18774-peg-cdk3-rec-boats-pack-1/ 
-    # The vehicle pack is apparently available on the default channel. We might 
-    # want to use this one as a dependency for that one.
+    # The vehicle pack is separately available on the default channel so we don't include it here. However the SUPER PAK still contains this file so we don't need to reference it as a dependency either.
     # - https://community.simtropolis.com/files/file/19267-peg-cdk3-vehicle-pack-1/
   images:
     - https://www.simtropolis.com/objects/screens/0025/e1b1c9d53f9b6fc379ec8bf0195776fd-product_image.jpg
+dependencies:
+  - peg:cdk3-vehicle-pack-1
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
       - "/PEG-CDK3_SUPER_PAK_RESOURCE.dat"
+      - "/PEG-SUPER_TEXTURES_RRWOverride.dat"
+    withConditions:
+      - ifVariant: { roadstyle: "US" }
+        include:
+          - []
+      - ifVariant: { roadstyle: "EU" }
+        include:
+          - "/PEG-SUPER_TEXTURES_EUOverride.dat"
