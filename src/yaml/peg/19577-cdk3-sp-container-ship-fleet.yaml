@@ -16,10 +16,6 @@ info:
     - https://www.simtropolis.com/objects/screens/0017/9a57e91e92c954ee460896c165554887-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0017/9a57e91e92c954ee460896c165554887-product_image1.jpg
 assets:
-  - assetId: peg-cdk3-sp-container-ship-fleet
-
----
-assetId: peg-cdk3-sp-container-ship-fleet
-version: "101"
-lastModified: "2008-03-26T21:51:47Z"
-url: https://community.simtropolis.com/files/file/19577-peg-cdk3-sp-container-ship-fleet/?do=download&r=44375
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Container-Fleet_RESOURCE.dat"

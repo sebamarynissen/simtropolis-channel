@@ -1,0 +1,30 @@
+group: peg
+name: cdk3-puerta-de-pego-coastal-fort
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: An example of a classic 16-17th century coastal fort modded to function equivalently to the in-game museum.
+  description: |-
+    The "fuerta" (fort) at Puerta (port) De Pego has long been renowned as one of the few surviving, classic examples of 16th-17th century coastal forts that were commonly built in the Mediterranean & New World. Built primarily to protect coastal cities from attack by sea, they were monolithic structures designed to withstand massive barrages from ship-born solid cannon shot while keeping marauding ships at bay with a vast arsenal of their own cannon.
+
+    In time, many methods were developed by marauders and invading fleets to circumvent the forts and attack the protected cities. And with the development of exploding shot for cannons, the reign of the masonry coastal forts was doomed.
+
+    Puerta De Pego is unique in that it has survived the ravages of time and assault almost fully intact. With a grant from the Pegadyne Corporation, the fort has been fully restored to its original magnificence and is one of the most popular local museums, landmarks and tourist attractions.
+
+    This lot is a Museum comparable to a game-default museum in all properties and costs. It has an increased landmark value and also promotes your Mayoral rating. It is a CDK3 lot... designed to plopped on the coast over the water. However, it does not require installation of the CDK3 and can also be plopped on dry land, either flat or overhanging a cliff.
+
+    **This lot can also be plopped on dry land and used with the PEG Canals, Ponds and Streams.**
+      
+    **This lot requires the PEG OFMN Mod if you wish to display the flag of your choice.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18610-peg-cdk3-puerta-de-pego/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/73da7cf8da6da442c2c3b82f029cf6af-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0013/73da7cf8da6da442c2c3b82f029cf6af-ss_3-night.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_CoastalFort.dat"
+      - "/PEG-CDK3_CoastalFort_RESOURCE.dat"

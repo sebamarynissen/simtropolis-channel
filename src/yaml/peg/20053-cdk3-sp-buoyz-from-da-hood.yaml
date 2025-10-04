@@ -1,0 +1,29 @@
+group: peg
+name: cdk3-sp-buoyz-from-da-hood
+version: "1.0"
+subfolder: "700-transit"
+info:
+  summary: Two Ploppable Buoys (Green and Red) to help prevent mishaps on the water.
+  description: |-
+    A set of red & green Navigation Buoys for your CDK3\-SP seaport complexes... styled after buoys commonly found in many harbors and channels. These buoys are nite-lited and include subtle, background sound effects.  
+      
+    The buoys are simple 1x1 lots that can be plopped in any depth of water. They include anchor chains, which are only visible in shallower water.  
+      
+    Each buoy costs only §5 to plop and has no monthly maintenance costs. The buoys are solar (self) powered and do not require proximity to shore or other power sources in order for the nite lites to function.  
+      
+    *\* For realistic placement in-game, (in the northern hemisphere) remember the old mariner phrase "Red Right Returning". Red buoys should be on the starboard (right) side of ships returning to port. If there was ever a similar old phrase, "Red Left Leaving", the poor smuck who coined it most likely took it to the grave when, utterly confused,he piled his ship up on the rocks.*
+
+    *Just to confuse things even more, because the southern hemisphere is up-side down...   the red buoys are on the left coming into port and the green are on the right.*
+
+    **\*\* This file has no external dependencies.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20053-peg-cdk3-sp-buoyz-from-da-hood/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7c68a5eced54c79695828d1ad946de26-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7c68a5eced54c79695828d1ad946de26-product_image1.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_NavigationBuoys.dat"

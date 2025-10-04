@@ -1,0 +1,40 @@
+group: peg
+name: cdk3-sp-vandy-shipping
+version: "1.0"
+subfolder: "400-industrial"
+info:
+  summary: The non-functional seaport version of Vandy Shipping docks to blend into your CDK3 better.
+  description: |-
+    The Vandy Shipping Company has been bringing your industrial goods to market since anyone can remember. Everywhere you look, Vandy trucks are chugging by with a load of cargo going somewhere. Peer out into the harbor and you are sure to see at least one of their cargo ships loading local freight for transport to some distant port in the region or beyond.
+
+    This is a modified version of the original Vandy Shipping lot that has been redesigned for use with the PEG\-CDK3\-SP Seaport series of lots. It is the first "break-bulk" freight lot in the series designed to handle cargos other than containers.
+
+    This new version does NOT replace the original version. You can continue to use the original version with your standard CDK3 industrial styled lots.
+
+    The most notable changes in the new version is that the lot is slightly smaller (9x tiles wide instead of 10x tiles)... and the standard CDK3\-SP rail tracks extend through the lot. The lot also now has only one driveway that has been centered on the lot... and the transit enabling has been refined to prevent automata from entering the lot and causing potential traffic issues.  
+      
+    Like the original version, the lot is a ploppable medium wealth IND-M with timed props to simulate activity. The ships will come and go throughout the day... as will numerous cargos, trucks and rail cars. All costs and properties are the same as the original lot.  
+      
+    This lot takes full advantage of the established collection of CDK3 & CDK3\-SP material... and as such has an extensive list of dependencies. However, the good news is that if you are adding this lot to your existing collection of CDK\-SP Seaport series lots, you should already have these required files.
+
+    **\*\* This lot requires the following CDK3 dependency files:**
+    PEG\-CDK3 Resource Pack 1  
+    PEG\-CDK3 Basics  
+    PEG\-CDK3 Ship Pack 1  
+    PEG\-CDK3 Vehicle Pack 1  
+    PEG\-CDK3\-SP Rail Fleet  
+    PEG\-CDK3\-SP Container Seaport
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19803-peg-cdk3-sp-vandy-shipping/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/cade591af92fbc792376da34c0425395-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0022/cade591af92fbc792376da34c0425395-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-container-dock
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_VandyShipping.dat"
