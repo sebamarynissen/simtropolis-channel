@@ -1,0 +1,48 @@
+group: peg
+name: cdk3-sp-pier-seaport
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: The functional version of `pkg=peg:cdk3-sp-pier-one`.
+  description: |-
+    The CDK3\-SP Pier Seaport harkens to the old days of previous SimCity versions where you could zone seaports as large or small as you wished. Although there is no zoning involved here, the Pier Seaport does allow you to visually create a seaport lot that is as large, or long, as you like.  
+      
+    The **Pier Seaport** uses the CDK3\-SP Pier One collection of lots. A copy of the base lot has been added that has been modified into a functional seaport lot. This will allow you to create new seaport lots of any length and/or upgrade existing Pier One complexes into functional seaports by simply replacing the base lots.  
+      
+    The **Pier Seaport** has the same capacities and costs of a normal seaport. However, it is much smaller at only 4x5 (4x3 land tiles) which makes it ideal for locations with limited space. The Pier Seaport also does not support a functional rail connection so its even easier to fit into tight spaces and convert existing Pier One complexes into seaports.  
+      
+    The lot is fully compatible with all CDK3\-SP lots. This is an "additional seaport" and does not replace any existing version.  
+      
+    IMPORTANT  
+    This seaport lot uses the PEG\-CDK3\-SP Master Seaport Controller and can not be used with the BSC seaport controller, or any other seaport mod or controller... or any seaport lot not currently supported by the PEG Master Seaport Controller. Please read the included readme file for full details.  
+      
+    \* The lot is transit enabled for road connections to the driveways and a rail connection .  The lot must have road access in order to function properly but the driveways do not actually have to be connected.  
+      
+    \*\* The lot is located in the Water Transportation menu.
+
+    **\*\* This lot requires the following CDK3 dependency files:**
+
+    PEG\-CDK3\-SP Pier One  
+    PEG\-CDK3\-SP Master Seaport Controller  
+    PEG\-CDK3 SUPER PAK  
+    PEG\-CDK3\-SP SEAPORT SUPER PAK  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20213-peg-cdk3-sp-pier-seaport/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7d2114228eb27b1469daa2e6e847d1d1-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7d2114228eb27b1469daa2e6e847d1d1-product_image1.jpg
+assets:
+  - assetId: peg-cdk3-sp-pier-seaport
+dependencies:
+  - peg:cdk3-sp-pier-one
+  - peg:cdk3-master-seaport-controller
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Pier-Seaport.dat"

@@ -53,6 +53,9 @@ dependencies:
   - peg:oww2-pier-set
   - peg:oww2-seaport-village-set
   - peg:cdk-leveler
+  - peg:cdk3-seaports-addons
+  - peg:cdk3-nonfunctional-seaports
+  # Explicitly exclude `peg:cdk3-functional-seaports` because of the potential harmful effects it can have for users who are not expecting or prepared for its installation.
 
 
 ---
@@ -223,16 +226,6 @@ dependencies:
   - peg:oww2-sv-2x-shops
   - peg:oww2-sv-carousel
 
-
-# cdk3 seaports - main lots [all checked]				Select main cdk3 seaport lots.
-# 	Container Support					        Non-functional version of the Container Seaport.
-# 	Pier One						              Non-Functional version of the Pier One Seaport. Select which (if any) version of Pier One to install.
-# 		Pier One 'WV' - Water Style		  WV Ver, works like other CDK3 lots, just plop on water. Advantages: No extra terraforming required.
-# 		Pier One 'LV - Land Style [unchecked]		LV Ver. are placed on land, requiring terraforming. Advantages: Wave action and automata avoidance.
-# 	Break Buk Dock						        Nonfunctional version of the Break Bulk Docks for shipping large broken biscuits?
-# 	Vandy Shipping						        The Seaport version of Vandy Shipping docks to blend into your CDK3 better.
-# 	Bubbas Bulk n Barge				    	  No shrimp here!
-# 	Row Warehouses						        Row Warehouses are warehouses, notably in a Row.
 ---
 group: peg
 name: cdk3-nonfunctional-seaports
@@ -257,15 +250,11 @@ dependencies:
 
 
 # cdk3 seaports - addons/fillers [all checked]			select cdk3 seaport addons and fillers.
-# 	Docks x1						              1x dock fillers
-# 	Dock Corner Pieces					      Corner Dock Pieces, for those who won't play straight,
 # 	Dock with Barges					        2x5 Docks with Barges
-# 	RCI Docks						              RCI Docks allow the docks to continue visually, but for RCI zoning to be used.
 # 	Dock Bus Stop						          CDK3 Seaport Style Bus Stop.
 # 		Dock Bus Stop				    	      A Bus Stop designed to blend seamlessly into your CDK3 Dock system.
 # 		Additional icon in Seaport Menu	[unchecked]	Add additional Bus Stop Icon to the Menu. Can only be installed if also using the main SP Bus Stop.
 # 	Ship Traffic						          A set of Ploppable ships, time to get your boat on!
-# 	Buoyz from Da Hood					      Two Ploppable Buoys (Green and Red) to help prevent mishaps on the water.
 ---
 group: peg
 name: cdk3-seaports-addons
@@ -275,8 +264,6 @@ info:
   summary: "Addons and fillers to accompany the CDK3 seaports."
   author: Pegasus, STEX Custodian
   website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
-  images:
-    - 
 dependencies:
   - peg:cdk3-sp-1x-lots
   - peg:cdk3-sp-corner-docks
@@ -286,7 +273,16 @@ dependencies:
   # - peg:cdk3-sp-ship-traffic
   - peg:cdk3-sp-buoyz-from-da-hood
 
-# cdk3 functional seaports [all unchecked]			Include Functioning Seaports. !!! Can NOT be used with other functional seaports !!!
-# 	Container Seaport					        Include the functional version of the Container Seaport.
-# 	Pier One						              Include the functional version of the Pier One Seaport.
-# 	Break Bulk Dock						        Include the functional version of the Break Bulk Dock Seaport.
+---
+group: peg
+name: cdk3-functional-seaports
+version: "1.0.0"
+subfolder: "400-industrial"
+info:
+  summary: "Include Functioning Seaports. !!! Can NOT be used with other functional seaports !!!"
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-sp-container-seaport
+  - peg:cdk3-sp-break-bulk-docks
+  - peg:cdk3-sp-pier-seaport
