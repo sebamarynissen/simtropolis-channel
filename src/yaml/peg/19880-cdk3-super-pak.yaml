@@ -46,8 +46,7 @@ assets:
       - "/PEG-SUPER_TEXTURES_RRWOverride.dat"
     withConditions:
       - ifVariant: { roadstyle: "US" }
-        include:
-          - []
+        include: [] # no extra files for US textures
       - ifVariant: { roadstyle: "EU" }
         include:
           - "/PEG-SUPER_TEXTURES_EUOverride.dat"

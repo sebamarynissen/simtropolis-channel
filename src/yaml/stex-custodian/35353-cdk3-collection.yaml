@@ -158,7 +158,7 @@ dependencies:
   - peg:oww2-fishing-pier
   - peg:oww2-lighthouse-museum
   - peg:oww2-captain-nemos-wild-ride
-  #- peg:oww2-to-oww-transitions --- add a variant to include these??
+  - peg:oww2-to-oww-transitions
   - peg:oww2-rci-boardwalks
   - peg:oww2-bdk-beach-development-kit
 
@@ -248,13 +248,7 @@ dependencies:
   - peg:cdk3-sp-break-bulk-dock
   - peg:cdk3-sp-pier-one
 
-
-# cdk3 seaports - addons/fillers [all checked]			select cdk3 seaport addons and fillers.
-# 	Dock with Barges					        2x5 Docks with Barges
-# 	Dock Bus Stop						          CDK3 Seaport Style Bus Stop.
-# 		Dock Bus Stop				    	      A Bus Stop designed to blend seamlessly into your CDK3 Dock system.
-# 		Additional icon in Seaport Menu	[unchecked]	Add additional Bus Stop Icon to the Menu. Can only be installed if also using the main SP Bus Stop.
-# 	Ship Traffic						          A set of Ploppable ships, time to get your boat on!
+		        
 ---
 group: peg
 name: cdk3-seaports-addons
@@ -267,11 +261,48 @@ info:
 dependencies:
   - peg:cdk3-sp-1x-lots
   - peg:cdk3-sp-corner-docks
-  # - peg:cdk3-sp-barge-docks
+  - peg:cdk3-sp-barge-docks
   - peg:cdk3-sp-rci-lot
-  # - peg:cdk3-sp-dock-bus-stop
-  # - peg:cdk3-sp-ship-traffic
+  - peg:cdk3-sp-dock-bus-stop
+  - peg:cdk3-sp-ploppable-ships
   - peg:cdk3-sp-buoyz-from-da-hood
+
+
+## This does not appear to be uploaded anywhere to the STEX
+---
+group: peg
+name: cdk3-sp-dock-bus-stop
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: A Bus Stop designed to blend seamlessly into your CDK3 Dock system.
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Dock-BusStop.dat"
+      - "/PEG-CDK3-SP_Dock-BusStop_WT-IconDupe.dat"
+
+## This does not appear to be uploaded anywhere to the STEX
+---
+group: peg
+name: cdk3-sp-barge-docks
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: A 2x5 Docks with Barges.
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Dock_WH_wBarge.dat"
+
 
 ---
 group: peg

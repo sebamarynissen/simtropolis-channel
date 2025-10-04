@@ -1,0 +1,29 @@
+group: peg
+name: cdk3-sp-ploppable-ships
+version: "1.0"
+info:
+  summary: A set of Ploppable ships, time to get your boat on!
+  description: |-
+    A collection of 7 ships that can be plopped anywhere in the water. Ideal for adding the look & feel of ship traffic to your harbors either as ships underway or anchored and awaiting their turn at the docks.  
+      
+    Each ship is a separate 1x1 lot... although the ship itself is much larger. Each lot is located in the Water Transportation menu directly under the last of the CDK3 Seaport collection of lots. Even as new CDK3\-SP lots are added, the ship lot icons will always display directly under them.  
+      
+    Unlike previous versions of ploppable ships, these are not affected by the Water Graphics Bug and do not cast a lot shadow on the ocean floor or the water's surface. They can therefore be plopped in either deep or shallow water with no concern for having to conceal the underlying lot.  
+      
+    \* To make placement of these lots easier, the orientation arrow of the lot points toward the bow of the ship.  
+      
+    \*\* Each ship costs only §5 to plop and has no monthly maintenance costs. The lots do not require power or water.
+
+    **\*\* These lots have no dependencies.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20221-peg-cdk3-sp-ploppable-ships-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/27f269bbb2cd10856138347209532938-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/27f269bbb2cd10856138347209532938-product_image1.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_ShipTraffic1_RESOURCE.dat"
+      - "/PEG-CDK3-SP_ShipTraffic\\d.SC4Lot"
