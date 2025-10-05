@@ -1,0 +1,39 @@
+---
+assetId: ulisse-wolf-building-style-suburban
+version: "1.0.0"
+lastModified: "2025-10-05T02:06:48Z"
+url: https://community.simtropolis.com/files/file/37043-building-style-suburban/?do=download
+
+---
+group: ulisse-wolf
+name: building-style-suburban
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Building Style - Suburban
+  description: |
+    This mod allows you to add the style of Suburban which is Style of buildings dedicated to the development of suburban environments typical of the USA  
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/37043-building-style-suburban/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/suburban-urban-rural-differences.jpg.79ea20a4615ec916348b4e2aff872560.jpg
+
+dependencies:
+  - null-45:allow-more-building-styles-dll
+  - null-45:sc4-resource-loading-hooks
+  - mattb325:residential-houses-collection
+  - simgoober:mobile-homes
+  - simgoober:mary-sue-home
+  - simgoober:schmucker-house
+  - simgoober:susan-b-anthony-building
+  - simgoober:sg-residentials-vol01-small-homes-and-cottages
+  - simgoober:sg-residentials-vol03-luxory-homes-and-mansions
+  - tag-one:austria-homes
+  - tag-one:feldstrasse
+  - tag-one:jeffs-house
+  - tag-one:villa-aiser
+  - andisart:sc2013-inspired-homes
+  - nos17:andisart-sc2013-homes-redone
+
+assets:
+  - assetId: ulisse-wolf-building-style-suburban
