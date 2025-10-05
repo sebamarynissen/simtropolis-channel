@@ -9,7 +9,7 @@ info:
 
     **Dirty Industry Texture Replacement.**
 
-    Have you ever wanted to your industrial areas to look better, not so earth like? Do you not like the maxis texture for ID lots? But don't want to spend some time reloting everything to change the textures?
+    Have you ever wanted to your industrial areas to look better, not so earth like? Do you not like the maxis texture for ID lots? But don't want to spend some time relotting everything to change the textures?
 
     Fear no more! Here is the solution!
 
@@ -29,6 +29,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_08_2012/68b99b41c03c07f7c91538256515c794-before.jpg
 assets:
   - assetId: gn-leugim-dirty-industry-texture-replacement
+    exclude:
+      - "/GnL_Dirty Texture Replacer.exe" # The installer is still included even though the dat file is also provided. 
 
 ---
 assetId: gn-leugim-dirty-industry-texture-replacement
