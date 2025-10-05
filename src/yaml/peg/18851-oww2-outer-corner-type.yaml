@@ -36,8 +36,6 @@ variants:
     include:
     - "/PEG-Patch_SquareOC.dat"
 - variant: { peg:outer-corner-type:shape: "rounded" }
-  dependencies:
-  - "simfox:day-and-nite-mod"
   assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:

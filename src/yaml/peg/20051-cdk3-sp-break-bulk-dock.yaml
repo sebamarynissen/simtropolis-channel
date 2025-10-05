@@ -3,13 +3,13 @@ name: cdk3-sp-break-bulk-dock
 version: "1.0"
 subfolder: "400-industrial"
 info:
-  summary: Non-functional version of the Break Bulk Docks. For shipping large broken biscuits?
+  summary: Non-functional version of `pkg=peg:cdk3-sp-break-bulk-seaport`. For shipping large broken biscuits?
   description: |-
     The CDK3\-SP Break-Bulk Dock is a non-functional version of the Break-Bulk Seaport. Similar in appearance but slightly smaller, it provides most of the visual benefits of the functional seaport without the associated costs and pollution. The non-functional "dock" lot, like the Container Ship Dock, allows you to add more ships and their related facilities to your harbors.  
       
     The CDK3\-SP Break-Bulk Dock is essentially the same in size and properties as the CDK3\-SP Container Ship Dock. The central rail running through the lot is fully transit enabled for rail... and there are 2 visually transit enabled driveways at either end of the lot. Timed and random props come and go throughout the day to simulate activity. New random & timed prop families were created so the lot can display 2 of 4 possible variations of the cargo ship.
 
-    **\*\* This lot requires the following CDK3dependency files:**
+    **\*\* This lot requires the following CDK3 dependency files:**
 
     PEG\-CDK3 SUPER Pak  
     PEG\-CDK3\-SP SEAPORT SUPER PAK  
