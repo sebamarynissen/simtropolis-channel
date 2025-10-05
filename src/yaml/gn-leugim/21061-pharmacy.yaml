@@ -1,0 +1,55 @@
+group: gn-leugim
+name: pharmacy
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Pharmacy
+  description: |-
+    This is a small pharmacy which will grow on your cities.
+
+    It's multi language and supports: English (both UK and US) French Spanish and Portuguese. (sorry for the others, but this is the languages I can handle)
+
+    Stats
+
+    Growth stage: 1
+
+    Occupants: CS-$ : 15,CS-$$ : 7
+
+    Bulldoze cost: § 112
+
+    Worth: § 274
+
+    Construction Time: 11 days
+
+    Max. Fire Stage: 40
+
+    Power consumption: 1 MWh/month
+
+    Water consumption: 2 Gallons/month
+
+    Air pollution: 1 over 5 tiles
+
+    Water pollution: 0 over 6 tiles
+
+    Garbage pollution: 2 over 0 tiles
+
+    Dependencies:
+
+    [Gn\_Leugim Essentials](https://www.simtropolis.com/stex/index.cfm?id=21060)
+
+    Comment and rate plz  =)
+  author: Gn_leugim
+  website: https://community.simtropolis.com/files/file/21061-gnl-pharmacy/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d48a889bfaec4dc3640a118cd7a682d3-fd.JPG
+    - https://www.simtropolis.com/objects/screens/0023/d48a889bfaec4dc3640a118cd7a682d3-fn.JPG
+dependencies:
+  - gn-leugim:essentials
+assets:
+  - assetId: gn-leugim-pharmacy
+
+---
+assetId: gn-leugim-pharmacy
+version: "1.0"
+lastModified: "2009-01-29T12:51:35Z"
+url: https://community.simtropolis.com/files/file/21061-gnl-pharmacy/?do=download&r=46923
