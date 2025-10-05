@@ -1,0 +1,55 @@
+group: blam-french-connections
+name: city-zoo
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: French Connections City Zoo
+  description: |-
+    Are your family bored on the weekends and school holidays? Well now you can take them to the zoo. French Connections bring you this reward lot, that is offered as an alternative to the Maxis reward zoo, requiring a city population of 80,000 plus. This zoo sits on a 10 x 10 lot, and has the same stats as the maxis zoo, but with slightly increased positive effects on your city.
+
+    dependencies
+
+    BLaM French Connections Mega pack 1
+
+    To instal
+
+    BLaM recommends the making of a folder named BLaM within your plugins folder. The contents of the folder contained within the download zip archive may then be dragged directly to that folder.
+
+    Credits
+
+    MAXIS for the excellent zoo module props
+
+    Lot design and creation: KT3
+
+    Unique Texture Overlay creation: KT3, Base Texture: Lou
+
+    Testing: OP4
+
+    Thankyou to the BLaM team, especially op4, MarcosMX, and mijg dudy.
+
+    Disclaimer
+
+    All BLaM lots are tested and seen to work. However, in some cases conflicts may occur. BLaM cannot be held responsible for such conflicts and this download is used by the user on an 'as-is' basis.
+
+    Release Notes
+
+    All BLaM releases are available on the SimTropolis Exchange (STEX) and the SimCities Exchange (SCExchange). Individual members may release at other locations in addition to these. Please check the relevant readme file(s).
+
+    BLaM French Connections City Zoo
+  author: BLaM French Connections
+  website: https://community.simtropolis.com/files/file/17145-blam-french-connections-city-zoo/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/edad49f9ea2ce831485d8490996996a6-Blam zoo.jpg
+    - https://www.simtropolis.com/objects/screens/0026/edad49f9ea2ce831485d8490996996a6-Blam zoo 2.jpg
+dependencies:
+  - blam-french-connections:mega-pack-1
+assets:
+  - assetId: blam-french-connections-french-connections-city-zoo
+    exclude:
+      - "/FC Path Overlay Textures.dat"
+
+---
+assetId: blam-french-connections-french-connections-city-zoo
+version: "1.0"
+lastModified: "2006-10-21T22:48:57Z"
+url: https://community.simtropolis.com/files/file/17145-blam-french-connections-city-zoo/?do=download&r=40211

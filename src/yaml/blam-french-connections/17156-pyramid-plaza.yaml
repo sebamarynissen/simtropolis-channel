@@ -1,0 +1,56 @@
+group: blam-french-connections
+name: pyramid-plaza
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: French Connections Pyramid Plaza
+  description: |-
+    BLaM French Connections brings you this 3 x 3 Plaza, featuring tiered flowerbeds, with stats as per Maxis large Plaza.
+
+    dependencies:
+
+    BLaM French Connections Mega Pack 1
+
+    To instal
+
+    BLaM recommends the making of a folder named BLaM within your plugins folder. The contents of the folder contained within the download zip archive may then be dragged directly to that folder.
+
+    Credits
+
+    Custom Props: Marcos MX
+
+    Lot design and creation: KT3
+
+    Unique Texture Overlay creation: KT3
+
+    Testing: OP4
+
+    Thankyou to the BLaM team, especially op4, MarcosMX, and mijg dudy.
+
+    Disclaimer
+
+    All BLaM lots are tested and seen to work. However, in some cases conflicts may occur. BLaM cannot be held responsible for such conflicts and this download is used by the user on an 'as-is' basis.
+
+    Release Notes
+
+    All BLaM releases are available on the SimTropolis Exchange (STEX) and the SimCities Exchange (SCExchange). Individual members may release at other locations in addition to these. Please check the relevant readme file(s).
+
+    BLaM French Connections Pyramid Plaza
+  author: BLaM French Connections
+  website: https://community.simtropolis.com/files/file/17156-blam-french-connections-pyramid-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/688daef1b53ccbd7b847ec20673be4e2-Pyramid Plaza 1 tn 240 180.jpg
+    - https://www.simtropolis.com/objects/screens/0012/688daef1b53ccbd7b847ec20673be4e2-Pyramid Plaza 2 tn 240 180.jpg
+dependencies:
+  - blam-french-connections:mega-pack-1
+assets:
+  - assetId: blam-french-connections-french-connections-pyramid-plaza
+    exclude:
+      - "/BlaM ParkProps P3.dat"
+      - "/Revised Benches.dat"
+
+---
+assetId: blam-french-connections-french-connections-pyramid-plaza
+version: "1.0"
+lastModified: "2006-10-23T16:56:48Z"
+url: https://community.simtropolis.com/files/file/17156-blam-french-connections-pyramid-plaza/?do=download&r=40231

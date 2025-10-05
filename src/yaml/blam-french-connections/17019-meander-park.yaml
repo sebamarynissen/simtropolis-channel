@@ -1,0 +1,66 @@
+group: blam-french-connections
+name: meander-park
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: French Connections Meander Park
+  description: |-
+    This is a unique design from BLaM French Connections, using path overlays which create meandering paths.
+
+    This is the "showpiece" lot, and will form part of a modular set of parks, plazas, and paths, which will all connect together via meandering paths.
+
+    Stats:
+
+    Lot size: 6 x 4
+
+    All other stats as per Maxis Large Park
+
+    dependencies
+
+    BLaM Essentials: STEX [https://www.simtropolis.com/STEX/index.cfm?id=16248](https://www.simtropolis.com/stex/index.cfm?id=16248)
+
+    SCExchange [http://www.simcities.com/scex/details.php?image\_id=20](http://www.simcities.com/scex/details.php?image_id=20)
+
+    BLaM FC Path Overlays are included in this pack
+
+    To instal
+
+    BLaM recommends the making of a folder named BLaM within your plugins folder. The contents of the folder contained within the download zip archive may then be dragged directly to that folder.
+
+    Credits
+
+    Lot design and creation: KT3
+
+    Unique Texture Overlay creation: KT3
+
+    Testing: OP4
+
+    Thankyou to the BLaM team, and to my family, for their constant support and encouragement, especially op4, MarcosMX, and mijg dudy.
+
+    Disclaimer
+
+    All BLaM lots are tested and seen to work. However, in some cases conflicts may occur. BLaM cannot be held responsible for such conflicts and this download is used by the user on an 'as-is' basis.
+
+    Release Notes
+
+    All BLaM releases are available on the SimTropolis Exchange (STEX) and the SimCities Exchange (SCExchange). Individual members may release at other locations in addition to these. Please check the relevant readme file(s).
+
+    BLaM French Connections Meander Park V3
+  author: BLaM French Connections
+  website: https://community.simtropolis.com/files/file/17019-blam-french-connections-meander-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bb5499e9bf3dea78a8fc9bd6ddeac74a-Meander Park 4 tn.JPG
+dependencies:
+  - blam:essentials
+  - blam-french-connections:mega-pack-1
+assets:
+  - assetId: blam-french-connections-french-connections-meander-park
+    exclude:
+      - "/FC Path Overlay Textures.dat"
+      - "/Revised benches.dat"
+
+---
+assetId: blam-french-connections-french-connections-meander-park
+version: "1.0"
+lastModified: "2006-10-05T03:43:38Z"
+url: https://community.simtropolis.com/files/file/17019-blam-french-connections-meander-park/?do=download&r=40029
