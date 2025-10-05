@@ -18,6 +18,12 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2025_10/suburban-urban-rural-differences.jpg.79ea20a4615ec916348b4e2aff872560.jpg
 
+  warning: |-
+    This Building Style plugin comes with an JSON configuration file:
+    
+    * `Building Style - Surburban SC4Pac Installer.json`
+    
+    To complete the installation, Import this JSON file using the SC4Pac import feature and select the buildings compatible with the building style you want to install.
 dependencies:
   - null-45:allow-more-building-styles-dll
   - null-45:sc4-resource-loading-hooks
