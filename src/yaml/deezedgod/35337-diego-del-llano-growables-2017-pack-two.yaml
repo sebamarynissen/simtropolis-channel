@@ -1,0 +1,82 @@
+assetId: diego-del-llano-growables-2017-2-pack-mn
+version: "1.0.0"
+lastModified: "2022-11-24T14:52:36Z"
+url: https://community.simtropolis.com/files/file/35337-diego-del-llano-growables-2017-pack-two/?do=download&r=195686
+---
+assetId: diego-del-llano-growables-2017-2-pack-cam-mn
+version: "1.0.0"
+lastModified: "2022-11-24T14:52:36Z"
+url: https://community.simtropolis.com/files/file/35337-diego-del-llano-growables-2017-pack-two/?do=download&r=195684
+---
+assetId: diego-del-llano-growables-2017-2-pack-dn
+version: "1.0.0"
+lastModified: "2022-11-24T14:52:36Z"
+url: https://community.simtropolis.com/files/file/35337-diego-del-llano-growables-2017-pack-two/?do=download&r=195685
+---
+assetId: diego-del-llano-growables-2017-2-pack-cam-dn
+version: "1.0.0"
+lastModified: "2022-11-24T14:52:36Z"
+url: https://community.simtropolis.com/files/file/35337-diego-del-llano-growables-2017-pack-two/?do=download&r=195683
+
+---
+group: deezedgod
+name: diego-del-llano-growables-2017-pack
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary: Diego Del Llano Growables - 2017 Pack
+  description: |
+    This is a pack of growable lots of Diego's BATs from 2017. There are two versions of this pack you can download: Vanilla and CAM. The Vanilla version has the growth stages capped at 8 and the building capacities at 7,500. The CAM version has growth stages up to 15 and much higher building capacities (up to around 13,000).  
+  author: deezedgod
+  websites: 
+    - https://community.simtropolis.com/files/file/35337-diego-del-llano-growables-2017-pack-two/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/splash.jpg.16fb343498917bab72f43b6e44ef4ec2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/diegodl_2_co_high.jpg.aaab0770386944558c8bd740687f33f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/diegodl_2_co_med.jpg.8952c6619219ae9958410d6131ae0478.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/diegodl_2_cs.jpg.9d29dc9fcd4014d0a1bb7637be508a8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/diegodl_2_res.jpg.a7bfda420a84aefda62af4463c6e7796.jpg
+
+dependencies:
+  - kingofsimcity:diego-del-llano-growables-2017-pack-one
+  - diego-del-llano:cahalane-communications
+  - diego-del-llano:columbia-center
+  - diego-del-llano:comcast-center
+  - diego-del-llano:hyatt-ziva-tower-one
+  - diego-del-llano:hyatt-ziva-tower-two
+  - diego-del-llano:nelson-tower
+  - diego-del-llano:one-liberty-place
+  - diego-del-llano:one-world-trade-center
+  - diego-del-llano:peninsula-puerto-vallarta
+  - diego-del-llano:regions-center
+  - diego-del-llano:shangri-la
+  - diego-del-llano:simmons-tower
+  - diego-del-llano:stephens-inc
+  - diego-del-llano:the-h1
+  - diego-del-llano:torre-colpatria
+  - diego-del-llano:torre-latinoamericana
+  - diego-del-llano:torre-mayor
+  - diego-del-llano:torre-ejecutiva-pemex
+  - diego-del-llano:torre-reforma
+  - diego-del-llano:transamerica-pyramid
+  - diego-del-llano:tres-mares
+  - diego-del-llano:two-liberty-place
+  - diego-del-llano:us-bank-library-tower
+  - diego-del-llano:van-prooijen-trading
+  - diego-del-llano:walkup-tower
+  - diego-del-llano:westin-regina
+  - diego-del-llano:willis-tower
+
+variants:
+  - variant: { CAM: "no", nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-growables-2017-2-pack-mn
+  - variant: { CAM: "yes", nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-growables-2017-2-pack-cam-mn
+  - variant: { CAM: "no", nightmode: dark}
+    assets:
+      - assetId: diego-del-llano-growables-2017-2-pack-dn
+  - variant: { CAM: "yes", nightmode: dark }
+    assets:
+      - assetId: diego-del-llano-growables-2017-2-pack-cam-dn

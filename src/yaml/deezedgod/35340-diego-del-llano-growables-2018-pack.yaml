@@ -1,0 +1,60 @@
+assetId: diego-del-llano-growables-2018-pack
+version: "1.0.0"
+lastModified: "2022-11-27T15:30:29Z"
+url: https://community.simtropolis.com/files/file/35340-diego-del-llano-growables-2018-pack/?do=download&r=195725
+---
+assetId: diego-del-llano-growables-2018-pack-cam
+version: "1.0.0"
+lastModified: "2022-11-27T15:30:29Z"
+url: https://community.simtropolis.com/files/file/35340-diego-del-llano-growables-2018-pack/?do=download&r=195724
+
+---
+group: deezedgod
+name: diego-del-llano-growables-2018-pack
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary: Diego Del Llano Growables - 2018 Pack
+  description: |
+    This is a pack of growable lots of Diego's BATs from 2018. There are two versions of this pack you can download: Vanilla and CAM. The Vanilla version has the growth stages capped at 8 and the building capacities at 7,500. The CAM version has growth stages up to 15 and much higher building capacities (up to around 13,000).  
+  warning: |-
+    This pack is DarkNite only. Unfortunately, Diego never created Maxis Night versions of these BATs, so no Maxis Night version this time. 
+  author: deezedgod
+  websites: 
+    - https://community.simtropolis.com/files/file/35340-diego-del-llano-growables-2018-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/splash_2018.jpg.aa7718c9c539bb815b57c59d4a6d0769.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/638326f2c8e46_diegodl_2018_co.jpg.6ed0d43a591a110359ada2aded25298b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/638326fe96f5e_diegodl_2018_co.jpg.d3c0e05573ecb3f0dfd96622fc08f2ca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/diegodl_2018_cs.jpg.090ef2dc77be171df50c222e641a4852.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/diegodl_2018_r.jpg.0e33cb458175182857994317b40cd50f.jpg
+
+dependencies:
+  - diego-del-llano:432-park-avenue
+  - diego-del-llano:ciudadela-san-martin
+  - diego-del-llano:distrito-armenia
+  - diego-del-llano:edificio-avianca
+  - diego-del-llano:edificio-del-cafe
+  - diego-del-llano:edificio-playa-oriental
+  - diego-del-llano:hotel-riu-plaza-guadalajara
+  - diego-del-llano:lind-entertainment
+  - diego-del-llano:midtown-jalisco
+  - diego-del-llano:one-shell-plaza
+  - diego-del-llano:one-shell-square
+  - diego-del-llano:pedriana-pharmaceuticals
+  - diego-del-llano:republic-plaza
+  - diego-del-llano:shaklee-terraces
+  - diego-del-llano:torre-colseguros
+  - diego-del-llano:torre-coltejer
+  - diego-del-llano:torres-atrio
+  - diego-del-llano:water-tower-place
+
+variants:
+  - variant: { CAM: "no", nightmode: standard }
+  - variant: { CAM: "yes", nightmode: standard }
+  - variant: { CAM: "no", nightmode: dark}
+    assets:
+      - assetId: diego-del-llano-growables-2018-pack
+  - variant: { CAM: "yes", nightmode: dark }
+    assets:
+      - assetId: diego-del-llano-growables-2018-pack-cam
