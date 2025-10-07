@@ -51,9 +51,11 @@ dependencies:
   - diego-del-llano:willoughby-tower
 
 variants:
-  - variant: { CAM: "no" }
+  - variant: { CAM: "no", nightmode: standard }
+  - variant: { CAM: "yes", nightmode: standard }
+  - variant: { CAM: "no", nightmode: dark}
     assets:
       - assetId: diego-del-llano-growables-2019-pack
-  - variant: { CAM: "yes" }
+  - variant: { CAM: "yes", nightmode: dark }
     assets:
       - assetId: diego-del-llano-growables-2019-pack-cam
