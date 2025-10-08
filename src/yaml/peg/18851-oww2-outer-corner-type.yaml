@@ -34,12 +34,12 @@ variants:
   assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
-    - "/PEG-Patch_SquareOC.dat"
+    - "/PEG-OWW2_Patch_SquareOC.dat"
 - variant: { peg:outer-corner-type:shape: "rounded" }
   assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
-    - "/PEG-Patch_RoundedOC.dat"
+    - "/PEG-OWW2_Patch_RoundedOC.dat"
 variantInfo:
 - variantId: "peg:outer-corner-type:shape"
   description: This setting determines the shape of the OWW2 outer corner lots.
