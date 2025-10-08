@@ -1,0 +1,40 @@
+group: peg
+name: oww2-fishing-pier
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A place for fishermen to wait for their supper to bug the line.
+  description: |-
+    This ploppable CS$$ **OWW2** lot adds an extra bit of realism along your Boardwalks by depicting a common sight along most real-world developed coastlines.  Fishermen!!
+
+    The Fisherman Pier lot includes a short fishing pier and a small complex of related shops that provides almost everything your Sim Anglers could need to enjoy a relaxing day of coastal fishing. Its all there... the prerequisite giftshop, the bait & tackle store and, of course, the bar where tales of the one that got away get longer & bigger with each round.
+
+    This 3x3 ploppable is a CS$$ lot with about 25 or so jobs. It features a central transit-enabled driveway for more realistic connections to adjacent roads... and uses new upgraded parking lot textures for added realism.
+
+    \* As the lot provides jobs, it must have road access.
+
+    The lot is compatible with all OWW2 collections and is extensively nite lited. It also features a custom query with unique stats driven by conditions within your city.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.
+
+      
+    ****\*\* This lot requires the following dependencies****
+
+    **PEG\-CDKM Marina  
+    PEG\-OWW2 Resource Pack 1  
+    PEG\-OWW2 Resource Pack 2.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19271-peg-oww2-fishing-pier/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9a93de796cfa8d64e0551a2663f4b607-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9a93de796cfa8d64e0551a2663f4b607-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-resource-pack-vol02
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_FishingPier.dat"

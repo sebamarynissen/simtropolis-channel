@@ -1,9 +1,9 @@
 group: peg
 name: cdk3-fred-ginger-fishery
 version: "1.0"
-subfolder: 300-commercial
+subfolder: 410-agriculture
 info:
-  summary: CDK3 Fred Ginger Fishery
+  summary: This fishery lot provides IR jobs and lots of fresh fish for your sims to eat.
   description: |-
     As vast as the oceans are, they still do not contain enough fish to sustain man's ever-expanding appetite. Commercial fish farms are the planet's best hope to feed its citizens while preventing the natural fish supply from being depleted. The age old profession of fisherman is being replaced by the equally as old profession of farmer.
 
@@ -13,7 +13,7 @@ info:
 
     This lot is s standard CDK3 lot that is 4x6 tiles in size. The lot must be plopped out over the water... with either 2 or 3 rows of tiles on dry land. It provides Industrial Resource (farming) jobs in areas where that normally would not be possible. The lot is located in the Water Transportation menu along with the other CDK3 lots. The single lot file contains all required custom material so the lot can be used without installing the CDK3.
 
-    **\*\* This lot has no dependencies.**
+    **This lot has no dependencies.**
 
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   author: Pegasus
@@ -22,10 +22,6 @@ info:
     - https://www.simtropolis.com/objects/screens/0020/b3ae0cfb46646fa6a6a0596d452c3985-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0020/b3ae0cfb46646fa6a6a0596d452c3985-ss-10.jpg
 assets:
-  - assetId: peg-cdk3-fred-ginger-fishery
-
----
-assetId: peg-cdk3-fred-ginger-fishery
-version: "1.0"
-lastModified: "2007-08-13T07:35:16Z"
-url: https://community.simtropolis.com/files/file/18539-peg-cdk3-fred-ginger-fishery/?do=download&r=42539
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_Fishery.dat"

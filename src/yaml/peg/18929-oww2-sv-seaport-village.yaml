@@ -1,0 +1,42 @@
+group: peg
+name: oww2-sv-seaport-village
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: The Seaport Village is the centerpiece of commercial activity by the sea.
+  description: |-
+    The Seaport Village has returned to join the new OWW2 collection of waterfront lots.The lot has been completely re-modeled, re-vamped renovated and re-scaled to a smaller 4 tile wide size. Yet, despite being more compact, we've packed in a lot more goodies.
+
+    Most notable at first glance, of course, is the interior paint which was changed from a boring white to a new and exciting off-white. Oh, and we also put that big 'ol ship out front which seems to attract a lot of tourists. Many of you may recognize that ship as a notably historic frigate that kicked some serious booty in its day... but in-game the vessel remains nameless and flies no national ensign... to facilitate multi-national use.
+
+    The lot is a ploppable CS$$ with jobs and income generated from taxes. It has two transit-enabled driveways and uses the same common, modular parking area featured on other OWW2 and CDKM Marina lots. The lot can be used with other lots from both the OWW2 and the CDKM Marina.
+
+    The lot is extensively nite-lit... including the tall ship. It is also Christmas Enabled with colored Christmas lights that appear during the Holiday season (game-time).
+
+    This lot also features a custom query and rotating query sounds. There are two unique stats listed in the query; Postcards Sold This Month & Reported Seagull Bombings. The Postcards Sold value is dictated by the city's population. The larger the city... the more postcards that will sell. Seagull Bombings are influenced by the current Mayor Rating and you can use this to gauge your performance.. The higher the rating, the fewer the bombings. If fewer than 25 bombings are reported, then you are doing a pretty good job..
+
+    This lot does not replace the older version in-game. The player can continue to use both versions or uninstall the older version if they desire.
+
+    * * *
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18929-peg-oww2-sv-seaport-village/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/49edbd3f381930db491fafe8fbff5b9b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0009/49edbd3f381930db491fafe8fbff5b9b-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-SV_SeaportVillage.dat"
