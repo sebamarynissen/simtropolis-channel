@@ -12,7 +12,7 @@ info:
   summary: "A DLL version of Cori's No Kickout Lower Wealth Mod (NKO) mod. "
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    A DLL version of Cori's No Kickout Lower Wealth Mod (NKO) mod.
+    A DLL version of [Cori's No Kickout Lower Wealth Mod (NKO) mod](https://community.simtropolis.com/files/file/34027-coris-no-kickout-lower-wealth-mod/).
 
     Unlike Cori's mod the DLL does not override the Building Development Simulator exemplar, so it should be compatible with CAM or any other mod that alters that file. The DLL sets the Building Development Simulator Tract Developer Kick Out Lower Wealth property to false when a city is loaded.
 
@@ -40,7 +40,9 @@ info:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-no-kick-out
 
   author: "Null 45"
-  website: "https://community.simtropolis.com/files/file/36146-no-kickout-lower-wealth-dll-plugin/"
+  websites: 
+    - "https://community.simtropolis.com/files/file/36146-no-kickout-lower-wealth-dll-plugin/"
+    - "https://community.simtropolis.com/files/file/34027-coris-no-kickout-lower-wealth-mod/"
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.1086423bb6cba67c6be9c1d14148db74.png
 
