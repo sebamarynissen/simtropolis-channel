@@ -1,0 +1,44 @@
+group: peg
+name: cdk3-sp-bubbas-bulk-and-barge
+version: "1.0"
+subfolder: "400-industrial"
+info:
+  summary: Non-functional seaport lot. No shrimp here!
+  description: |-
+    Almost 40 years ago, while bluffing with a pair of threes... Bubba won an old rusting crane in a poker game. The following week, he walked away with an old derelict barge... oddly enough with the same pair of threes.  
+      
+    Shortly thereafter, Bubba was sitting around the harbor & wondered what he was going to do with his newly acquired crane & barge. As he pondered, he watched the slow, laborious, back breaking manual loading of a nearby cargo barge... and suddenly had a revelation. Bulk!... Barge!... Cargo!... Crane! All the pieces swam together in vivid clarity and Bubba... being Bubba... never put it together. All that pondering and revelationing just made him thirsty... and he went off to have a beer.  
+      
+    Several months later, Bubba was almost broke from having to pay the storage fees for both the crane and the barge. So Bubba cleverly decided to consolidate his expenses and store his crane on his barge. And I'm sure you all can figure out the rest.  
+      
+    Yes, Bubba was run over by a bus 2 years later... never having put the pieces together. His heir, a 3rd cousin on his ex-wife's 2nd lover's sister's side, inherited the crane & barge and immediately put them to work... buying up waterfront warehouse space, making a respectable fortune and naming the enterprise in honor of his dim-witted remote relative.  
+      
+      
+    Bubba's Bulk & Barge is an add-on to theCDK3\-SP Row Warehouses. It is essentially, the 3x Warehouse lot... with real barge-like particles added. The barge models are timed props that change during the day as related cargo props also come and go.  
+      
+    \* Floating cranes can be a common sight in many harbors. They can be moved and anchored almost anywhere a crane is needed. Commonly, they are used at dock facilities to load ships that have no cargo lifting capability... or to supplement existing cranes to speed up the loading/unloading process.  
+      
+    All properties, jobs & other features are similar to the 3x Row Warehouse lot.  
+      
+    Note - The crane barge is slightly longer than the 3x wide lot... so allow extra room on either side.
+
+    **\*\* This lot requires the following CDK3 dependency files:**
+
+    PEG\-CDK3 SUPER PAK  
+    PEG\-CDK3\-SP SEAPORT SUPER PAK  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19936-peg-cdk3-sp-bubbas-bulk-and-barge/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a5809c45d0f42b6db372a406c94b067d-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a5809c45d0f42b6db372a406c94b067d-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_WH_BubbasBulkBarge.dat"

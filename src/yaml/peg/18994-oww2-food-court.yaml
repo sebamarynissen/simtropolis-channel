@@ -1,0 +1,35 @@
+group: peg
+name: oww2-food-court
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Extending out over the water, your sims can enjoy great views whilst getting a bite to eat.
+  description: |-
+    This 3x3 section of the OWW2 boardwalks extends out over the water and provides an ideal & picturesque pier area for a popular and bustling Food Court. Several shops provide a large variety of tasty snacks... including Hot Dogs, Hamburgers, Fish & Chips and, of course, the ever-popular Smelt-on-a-Stick TM.
+
+    The lot is a ploppable CS$$ providing jobs and income from taxes. The lot building is a prototype that incorporates several new development techniques in that the building is elevated, located fully out over the water, and is a multi-part collection of 13 non-connected structures... combined into one lot building. (ie.. 39 LODs)
+
+    The lot is compatible with all OWW2 collections, is extensively nite lited and Christmas Enabled. The driveway entrance is transit enabled for a more realistic connection. The lot uses a custom query with unique stats driven by conditions within your city.
+
+    In addition to the normal properties associated with a CS$$ lot, the Food Court has some YIMBY effects comparative to other larger OWW2 lots.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.
+
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18994-peg-oww2-food-court/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/92b9fb4a31e274219f76a266115b05fe-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/92b9fb4a31e274219f76a266115b05fe-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_FoodCourt.dat"

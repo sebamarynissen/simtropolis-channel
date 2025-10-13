@@ -1,0 +1,56 @@
+group: peg
+name: oww2-pier-set-base
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: This is the Pier Starter Pack. 6 lots to create piers of any length and shape.
+  description: |-
+    The Piers are back with this new OWW2 reincarnation of the old CDK PierSet. This package contains 6 modular lots that allow you to build old wooden piers of any length, and shape, out into the water. This is just the "starter" pack. Additional specialty lots will be released as they are developed.
+
+    Your piers can be as long or short as you want them to be. They can be straight... or branch off in any direction to form any shape you can imagine. You can even run them from shore to shore across a river or a bay. Their only limitation is that they must be anchored to land using the OWW2 Pier Head lot.
+
+    The lots are extremely easy to plop no matter what depth your oceans are. They always plop at the same height and absolutely no terrain editing is required to use them.
+
+    Included in this package are:
+
+    1\. Pier Base Lot (1x2)  
+    \* This lot is used to connect your piers to shore.
+
+    2\. Pier 1x (straight) Lot. (1x1)  
+    \* A standard straight section of the pier.
+
+    3\. Pier 4-way Lot. (1x1)  
+    \* Allows you to branch off your pier in 4 different directions. Can also be used to create large, open platform areas.
+
+    4\. Pier 3-way (Tee) Lot. (1x1)  
+    \* Allows to you branch off your pier in 3 different directions. (standard Tee)  
+      
+    5\. Pier Corner Lot. (1x1)  
+    \* Allows you to change the direction of your pier.  
+      
+    6\. Pier End Lot. (1x1)  
+    \* A stanard End section for the pier. Can also be used with the 4-way & 3-way sections to create short side sections or "wings" on your pier that are often used as observation areas.
+
+    All of these modular pier lots are parks... affordably priced with reduced park & landmark effects to avoid blowing over demand caps They are located only in the Water Transportation menu, directly below the other OWW2 lots..
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18881-peg-oww2-pier-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/269b00a86f8f4b24ca58100929e76b97-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/269b00a86f8f4b24ca58100929e76b97-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierSet.dat"

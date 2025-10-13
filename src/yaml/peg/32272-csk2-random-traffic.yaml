@@ -1,0 +1,51 @@
+group: peg
+name: csk2-random-traffic
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: CSK2 Random Traffic
+  description: |-
+    Add a little life to your **CSK2** channels and canals with the **CSK2 Random Traffic** add-on. This is a collection of CSK2 water lots that feature randomly appearing canal traffic that changes throughout the day. The boat models don't move, or course... but the shuffling action as they change and disappear/re-appear helps to create the illusion of the ever-changing scene along the waterways.
+
+    Each lot has a unique dependency on a CSK add-on that you likely already have. Each type of lot is included in a separate file so you can remove any one that you do not wish to use. All of the lots have no YIMBY/NIMBY effect and cost only one buck to maintain.
+
+    The four lots included are:
+
+    -   **The Random Small Barge**  
+        Size: 1x1  
+        Features the small barges from the CSK. Randomly selected with different barges appearing in the AM & PM.  
+        **Requires:** The  **[PEG CSK Barges](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=Prop&Str=peg%20csk%20barges%20prop%20pack)**  
+         
+    -   **The Random Scow**  
+        Size: 1x4  
+        Features the scows from the CSK2. Randomly selected with different scows appearing in the AM & PM.  
+        **Requires:** The  **[PEG CSK2 Scows](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=Prop&Str=peg%20csk%20barges%20prop%20pack)**  
+         
+    -   **The Random Annabellelin Paddle Wheeler.**  
+        Size: 1x5  
+        Features the steam boat from the CSK2 Annabellelin Restaurant.. The paddle wheeler will appear in the AM and then again in the PM, running in the other direction.  
+        **Requires:** The **[PEG CSK2 Annabellelin Restaurant](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=BAT&Str=peg%20csk2%20annabellelin%20restaurant)**  
+         
+    -   **The Random Scow Dock**  
+        Size: 1x5  
+        This is a length of industrial docks featuring random scows and shuffling cargo on the docks. It is ideal when used as the edge of your canal along industrial zones. It is a neutral lot, with no properties and the same 1 buck maintenance cost of other CSK lots.  
+        **Requires:** The **[PEG CSK2 Scows](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=Prop&Str=peg%20csk%20barges%20prop%20pack)** & the **[PEG CSK2 Docks](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=BAT&Str=peg%20csk2%20docks)**
+
+    **\*\* This Add-On requires the [PEG CSK2](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=BAT&Str=peg%20csk2%20varible%20width%20canals) as well as those  
+     dependencies listed listed above for each type of lot.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/32272-peg-csk2-random-traffic/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/product_image.jpg.fdc4734919b23685eca1a52847a93d3c.jpg
+dependencies:
+  - peg:csk2-varible-width-canals
+assets:
+  - assetId: peg-csk2-random-traffic
+
+---
+assetId: peg-csk2-random-traffic
+version: "1.0"
+lastModified: "2018-05-29T11:10:09Z"
+url: https://community.simtropolis.com/files/file/32272-peg-csk2-random-traffic/?do=download&r=170934

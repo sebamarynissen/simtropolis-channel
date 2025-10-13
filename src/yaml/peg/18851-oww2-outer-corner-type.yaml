@@ -1,0 +1,50 @@
+group: peg
+name: oww2-outer-corner-type
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: By default the OWW2 outer corner lots randomly selects one of tao styles, these options suppress that.
+  description: |-
+    This is an optional patch file for the OWW2. It allows the player to control what style of Outer Corner, either square or rounded, is used when the lot is plopped.  By default, the lot randomly selects one of the two styles when it is plopped.  
+      
+    This patch contains 2, very small files. You should install only one of the files, based on the instructions below.  
+      
+    \*\* NOTE - All OWW2 Patch Files should be installed in the ZZZ\_Patches sub folder of the OWW2 folder. This folder will be created automatically if the file is unzipped properly.  If you follow the default install instructions in the readme file, the files will be installed in that folder automatically.  
+      
+    1\. For rounded corners on all Outer Corner lots, install the PEG\-OWW2\_ZZZ\_Patch 1\_RoundOC.dat file.  
+      
+    2\. For squared corners on all Outer Corner lots, install the PEG\-OWW2\_ZZZ\_Patch 1\_SquareOC.dat file.  
+      
+    \* If both patch files are installed, the squared corner style will be used when the lot is plopped.  
+      
+    \* With neither patch file installed, the lot will continue to randomly select either style when the lot is plopped.  
+      
+    \*\* Once the  Patch File is installed, all occurrences of the Outer Corner lot in the game will automatically change to the selected style. You will not need to replop the lots.  
+     
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18851-peg-oww2-patch-1-oc-type/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/860ca9ba94b6465af1d5eca84e4c27ee-product_image.jpg
+variants:
+- variant: { peg:outer-corner-type:shape: "square" }
+  assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+    - "/PEG-OWW2_Patch_SquareOC.dat"
+- variant: { peg:outer-corner-type:shape: "rounded" }
+  assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+    - "/PEG-OWW2_Patch_RoundedOC.dat"
+variantInfo:
+- variantId: "peg:outer-corner-type:shape"
+  description: This setting determines the shape of the OWW2 outer corner lots.
+  values:
+  - value: "square"
+    description: Choose this option if you want all OWW2 Outer Corner lots to use the Square style.
+  - value: "rounded"
+    description: Choose this option if you want all OWW2 Outer Corner lots to use the Rounded style.

@@ -1,0 +1,27 @@
+group: peg
+name: oww-to-oww2-conversion-mod
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: For users of older OWW content. This patch converts them to the OWW2 style.
+  description: |-
+    This mod converts all existing older OWW lots in your cities to use the same deck texture used by the newer OWW2. This allows the two styles  to be used together and visually blend into one, much larger collection. And by blending the two styles together, you will have  many  more coastal toys to play with and much greater flexibility in how you develop your coastlines.
+
+    Once installed, the effect is automatic. You do not need to re-plop any of your older OWW lots. To revert to the old style of lots at any time, simply remove  the mod file. from your Plugins folder.
+
+    All of the original OWW lots are included in the mod... including various specialty lots, such as the original versions of the Fisherman's Wharf, Seaport Village, the Fireboat Dock, the OWW Ferry and the CDK Pond & Stream transition lots.  The newer OWW2 OWW Transition lots are also included.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.  
+       
+    **\*\* This mod has no dependencies.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19009-peg-oww-to-oww2-conversion-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6e97c8b36bb157fdde3c5bce8785f94a-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6e97c8b36bb157fdde3c5bce8785f94a-product_image1.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW_OWW2-ConversionPatch.dat"
