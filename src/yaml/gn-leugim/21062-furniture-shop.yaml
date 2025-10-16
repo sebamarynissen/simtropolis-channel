@@ -1,0 +1,53 @@
+group: gn-leugim
+name: furniture-shop
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Furniture Shop
+  description: |-
+    This is a small Furniture shop to grow in your cities.
+
+    It's multi language and supports: English (both UK and US) French Spanish and Portuguese. (sorry for the others, but this is the languages I can handle)
+
+    Stats:
+
+    Occupants: CS-$ : 80,CS-$$ : 25
+
+    Bulldoze cost: § 174
+
+    Worth: § 1114
+
+    Construction Time: 17 days
+
+    Max. Fire Stage: 40
+
+    Power consumption: 3 MWh/month
+
+    Water consumption: 84 Gallons/month
+
+    Air pollution: 4 over 5 tiles
+
+    Water pollution: 2 over 6 tiles
+
+    Garbage pollution: 7 over 0 tiles
+
+    Dependencies:
+
+    [GnLeugim Essentials](https://www.simtropolis.com/stex/index.cfm?id=21060)
+
+    Comment and Rate plz =)
+  author: Gn_leugim
+  website: https://community.simtropolis.com/files/file/21062-furniture-shop/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2e4aefacb362c6fba46ba7327acc7f77-mn.JPG
+    - https://www.simtropolis.com/objects/screens/0006/2e4aefacb362c6fba46ba7327acc7f77-md.JPG
+dependencies:
+  - gn-leugim:essentials
+assets:
+  - assetId: gn-leugim-furniture-shop
+
+---
+assetId: gn-leugim-furniture-shop
+version: "1.0"
+lastModified: "2009-01-29T12:58:10Z"
+url: https://community.simtropolis.com/files/file/21062-furniture-shop/?do=download&r=46925
