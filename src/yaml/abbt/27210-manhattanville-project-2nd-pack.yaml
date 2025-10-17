@@ -1,0 +1,109 @@
+group: abbt
+name: manhattanville-project-2nd-pack
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: New York industrial wall-to-wall buildings
+  description: |-
+    **NYBT ABBT Manhattanville Project (2nd Pack)**  
+      
+    Manhattanville Project is the effort of the ABBT, group of BATters, in recreating Manhattan's neighborhood of Manhattanville.  
+      
+    The industrial part of this historic neighborhood is being redeveloped for the needs of Columbia University, and with this project we are trying to preserve as much of it as we can. Our effort can also be viewed as a contribution to the game's much needed segment - industrial wall-to-wall buildings.  
+      
+    **ABBT - SimHoTToDDy, Vlasky, Francis90b, T Wrecks**  
+      
+    **This upload includes:**  
+      
+    \- 4 different BATs/Lots  
+      
+    \- SimFox DarkNite and MaxisNite versions.  
+      
+    \- Regular and quadruple IM jobs versions.  
+      
+    **Stats:**  
+      
+    ![TABLE2.jpg](http://i1093.photobucket.com/albums/i429/Vlasky/TABLE2.jpg)  
+      
+      
+    **Dependencies:**  
+      
+    [SimFox Day'n'Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/) (for DarkNite models)  
+      
+    [NYBT Essentials](https://www.simtropolis.com/forum/files/file/22916-nybt-essentials/)  
+      
+    **Credits:**  
+      
+    3259 Broadway, 635 W 131st Str:  
+      
+    Models: Vlasky, SimHoTToDDy  
+      
+    Modding: T Wrecks, anotn, Vlasky  
+      
+    Lots: T Wrecks, Vlasky  
+      
+    605 W 131st, 609 W 131st:  
+      
+    Models: Francis90b, SimHoTToDDy  
+      
+    Modding: T Wrecks, anotn, Vlasky  
+      
+    Lots: T Wrecks, Vlasky
+  author: ABBT
+  website: https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/713c1abf589876017c8b55dff46420ce-packtwo d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/1c9a27bd845f8cdec609112dc5ed00d4-packtwo names.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/523f351e8c24d0eafa2cceb4ea245a09-packtwo mn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/f482a52c9d0376b7cd5c7d655b001022-packtwo dn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/f0c2d954164fa1be189a48a2c46aeab0-m-ville.jpg
+dependencies:
+  - nybt:essentials
+  - abbt:manhattanville-project-2nd-pack-models
+variants:
+- variant: { toroca:industry-quadrupler:capacity: "standard" }
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-2nd-pack-maxisnite
+    exclude:
+    - "/Quadrupler Edition/"
+    - "\\.SC4Model$"
+- variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-2nd-pack-maxisnite
+    exclude:
+    - "/Normal Edition/"
+    - "\\.SC4Model$"
+
+---
+group: abbt
+name: manhattanville-project-2nd-pack-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=abbt:manhattanville-project-2nd-pack`
+  author: anotn, Francis90b, SimHoTToDDy, T Wrecks, Vlasky
+  website: https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-2nd-pack-maxisnite
+    include:
+    - "\\.SC4Model$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-2nd-pack-darknite
+    include:
+    - "\\.SC4Model$"
+
+---
+assetId: abbt-nybt-manhattanville-project-2nd-pack-darknite
+version: "1.0"
+lastModified: "2012-01-21T01:02:25Z"
+url: https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/?do=download&r=96196
+
+---
+assetId: abbt-nybt-manhattanville-project-2nd-pack-maxisnite
+version: "1.0"
+lastModified: "2012-01-21T01:02:25Z"
+url: https://community.simtropolis.com/files/file/27210-nybt-abbt-manhattanville-project-2nd-pack/?do=download&r=96197
