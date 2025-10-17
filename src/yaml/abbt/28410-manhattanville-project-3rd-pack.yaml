@@ -1,0 +1,94 @@
+group: abbt
+name: manhattanville-project-3rd-pack
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: New York industrial wall-to-wall buildings
+  description: |-
+    **NYBT ABBT Manhattanville Project (3rd Pack)**  
+      
+    Manhattanville Project is the effort of the ABBT, group of BATters, in recreating Manhattan's neighborhood of Manhattanville.  
+      
+    The industrial part of this historic neighborhood is being redeveloped for the needs of Columbia University, and with this project we are trying to preserve as much of it as we can. Our effort can also be viewed as a contribution to the game's much needed segment - industrial wall-to-wall buildings.  
+      
+    **Pack 3: Vlasky, SimHoTToDDy, T Wrecks, nofunk, Jasoncw**  
+      
+    **This upload includes:**  
+      
+    • 8 different BATs/Lots  
+    • DarkNite and MaxisNite versions.  
+    • Standard, x4 Jobs, and CAM versions.  
+      
+    • A Manhattanville BAT guide is included in the readme, along with installation instructions.  
+      
+    ![g9POqH6.jpg](http://i.imgur.com/g9POqH6.jpg)  
+      
+    1\. 3247 Broadway  
+    2\. 524 West 131st Street  
+    3\. 624 West 131st Street  
+    4\. 630 West 131st Street  
+    5\. Pedro Y Jose  
+    6\. 641 West 131st Street  
+    7\. 3251 Broadway  
+    8\. 603 West 130th Street  
+      
+    **Dependencies:**  
+      
+    [SimFox Day'n'Nite Modd](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/) (for DarkNte models)  
+    [NYBT Essentials](https://www.simtropolis.com/forum/files/file/22916-nybt-essentials/)
+  author: ABBT
+  website: https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/54efdd00c76c19256f3cc1c13c894698-template---new-main-image2.jpg
+dependencies:
+  - nybt:essentials
+  - abbt:manhattanville-project-3rd-pack-models
+variants:
+- variant: { CAM: "no" }
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite  
+    exclude:
+    - "/CAM Version/"
+    - "/x4 Jobs Version/"
+    - "\\.SC4Model$"
+- variant: { CAM: "yes" }
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
+    exclude: 
+    - "/Standard Version/"
+    - "/x4 Jobs Version/"
+    - "\\.SC4Model$"
+
+---
+group: abbt
+name: manhattanville-project-3rd-pack-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=abbt:manhattanville-project-3rd-pack`
+  author: anotn, Francis90b, SimHoTToDDy, T Wrecks, Vlasky
+  website: https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
+    include:
+    - "\\.SC4Model$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: abbt-nybt-manhattanville-project-3rd-pack-darknite
+    include:
+    - "\\.SC4Model$"
+
+---
+assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
+version: "1.0"
+lastModified: "2013-01-30T01:47:23Z"
+url: https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/?do=download&r=111304
+
+---
+assetId: abbt-nybt-manhattanville-project-3rd-pack-darknite
+version: "1.0"
+lastModified: "2013-01-30T01:47:23Z"
+url: https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/?do=download&r=111305
