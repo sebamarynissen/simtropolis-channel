@@ -1,6 +1,6 @@
 group: peg
 name: mtp-scenic-views
-version: "1.1"
+version: "1.1-1"
 subfolder: 660-parks
 info:
   summary: MTP Scenic Views
@@ -25,8 +25,12 @@ info:
     - https://www.simtropolis.com/objects/screens/0007/3290f30934ff476be4b189b76ea03df8-product_image2.jpg
 dependencies:
   - peg:mtp-super-pack
+  - peg:mtp-scenic-views-props
 assets:
   - assetId: peg-mtp-scenic-views
+    include:
+    - "/PEG_Roadside-ScenicViews_205.dat"
+    - "/PEG-MTP_MountainTrail-ScenicViews_205.dat"
 
 ---
 assetId: peg-mtp-scenic-views
