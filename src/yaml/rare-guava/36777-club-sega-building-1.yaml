@@ -1,0 +1,41 @@
+assetId: rare-guava-club-sega-building-1
+version: "1.0.0"
+lastModified: "2025-03-17T03:59:40Z"
+url: https://community.simtropolis.com/files/file/36777-club-sega-building-1/?do=download
+
+---
+group: rare-guava
+name: club-sega-building-1
+subfolder: 360-landmark
+version: "1.0.0"
+info:
+  summary:  Club Sega Building 1
+  description: |
+    This is based off Club Sega Building 1, in Akihabara, Tokyo. Inside are floors of all types of arcade games, claw machines, gashapon, photobooths, 3d simulators, and more. Hope you and your sims enjoy.
+  author: rare_guava
+  websites: 
+    - https://community.simtropolis.com/files/file/36777-club-sega-building-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d79b3e9cad7_Building1CityShotDay.jpg.a8d34cb9b92950d988105f5b478b79f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d79b3f5c6db_Building1CityShotNight.jpg.2c131fbb3bb208c49be9e2bd8a836b03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d79b402105b_Building1FrontShotDay.jpg.e66782c3b6f4c5cc61699d1b6524a6ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d79b40d665a_Building1SideShotDay.jpg.aa08d5e7bb6b201da94aa5a4a1e3ba73.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d79b41aff59_DayView.jpg.204afd73c0f7afad9d61b26e24215c47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d79b42888d2_NightView.jpg.3909604a2fbdf757e186c542fc36ff6c.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: rare-guava-club-sega-building-1
+        include:
+        - "/MN Model/"
+        - "/LM_1x1_rare_guava_Club_Sega_Building_One_b559c91c.SC4Lot"
+        - "/PLOP_1x1_rare_guava_Club_Sega_Building_One_8559ca29.SC4Lot"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: rare-guava-club-sega-building-1
+        include:
+        - "/DN Model/"
+        - "/LM_1x1_rare_guava_Club_Sega_Building_One_b559c91c.SC4Lot"
+        - "/PLOP_1x1_rare_guava_Club_Sega_Building_One_8559ca29.SC4Lot"
