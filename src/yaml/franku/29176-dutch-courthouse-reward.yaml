@@ -1,0 +1,43 @@
+group: franku
+name: dutch-courthouse-reward
+version: "1.0"
+subfolder: 640-government
+info:
+  summary: Dutch Courthouse Reward
+  description: |-
+    This is my Dutch replacement of the Maxis Courthouse. It is part of my Dutch Rewards Replacements set that is growing until I have replaced all Maxis rewards.  
+    I also added a CO$$$ landmark version and a 3x3 plaza to the set. These you can plop as often as you like.  
+       
+    See the ReadMe for details.  
+       
+    The dependencies are listed in the ReadMe too, but for your convenience I'll list them here:  
+       
+    [BSC\_TexturePack\_Cycledogg\_V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [BSC MEGA Props - MJB Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)  
+    [BNL Essentials v1.1](https://community.simtropolis.com/index.php?app=downloads&module=downloads&controller=view&id=28639)  
+    [Haarlemmergolds Building](https://community.simtropolis.com/index.php?app=downloads&module=downloads&controller=view&id=17277)  
+    [Jarnomiedemas Statue](https://community.simtropolis.com/index.php?app=downloads&module=downloads&controller=view&id=13050)
+  author: FrankU
+  website: https://community.simtropolis.com/files/file/29176-dutch-courthouse-reward/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/9accb796a55786aec9d2ccb60b7a5a83-dutch-courthouse---1-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/b120f1447053b8a5d5ea0a19995b913a-dutch-courthouse---2-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/6f1d0db075e38ed9cbda4e616aa19f3e-plaza-augustus---1-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/1095c6dbf491700f76f76d5de52b2b76-plaza-augustus---2-night.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - haarlemmergold:mega-props-dutch-vol01
+  - jarnomiedema:statue-of-caesar-augustus-models
+assets:
+  - assetId: franku-dutch-courthouse-reward
+
+---
+assetId: franku-dutch-courthouse-reward
+version: "1.0"
+lastModified: "2014-01-05T19:46:38Z"
+url: https://community.simtropolis.com/files/file/29176-dutch-courthouse-reward/?do=download&r=122971

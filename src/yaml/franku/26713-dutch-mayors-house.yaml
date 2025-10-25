@@ -1,0 +1,50 @@
+group: franku
+name: dutch-mayors-house
+version: "1.0"
+subfolder: 640-government
+info:
+  summary: FrankU Dutch Mayors House
+  description: |-
+    **The Lot**  
+      
+    This Dutch Mayors House is the first of a growing set of Dutch Reward Lots that replace the Maxis Rewards. The set is meant to be used as an add on to the Dutch Farm Lots that I am making and that will be released somewhere in the end of 2011.  
+    As already said: the lot replaces the Maxis Mayors house. It has exactly the same stats.  
+    Lot size: 3x3.  
+      
+    **The dependencies**  
+      
+    As the lot is meant as an add on to the Dutch Farm Lots I used only dependencies that are already needed for that set. The only extra dependency is the model file.  
+      
+    Dutch\_Mayorshouse building exemplar.dat (included)  
+      
+    [Model of the house taken from the Haarlemmergold Dutch 9 building Pack 2](https://www.simtropolis.com/forum/files/file/17358-dutch-9-building-pack/).  
+    You need only the file: Dutch Row House 79-0x5ad0e817\_0xd16a90f3\_0x30000.SC4Model  
+      
+    And the usual suspects:  
+    [BSC\_TexturePack\_Cycledogg\_V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)  
+    [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [BSC MEGA Props - swi21 Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)  
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [BSC MEGA Props - D66 Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)  
+    [BSC MEGA Props - MJB Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+  author: FrankU
+  website: https://community.simtropolis.com/files/file/26713-franku-dutch-mayors-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/27d9a5a1be567c55577ceb8cdce49bb5-dutch-mayors-house-1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/71d2f99dcec6e555d418d1dc18363107-dutch-mayors-house-3b.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - haarlemmergold:mega-props-dutch-vol01
+assets:
+  - assetId: franku-franku-dutch-mayors-house
+
+---
+assetId: franku-franku-dutch-mayors-house
+version: "1.0"
+lastModified: "2011-08-30T12:29:14Z"
+url: https://community.simtropolis.com/files/file/26713-franku-dutch-mayors-house/?do=download&r=123039

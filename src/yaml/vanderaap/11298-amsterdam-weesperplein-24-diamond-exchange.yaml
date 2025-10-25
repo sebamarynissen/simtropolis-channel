@@ -1,0 +1,56 @@
+group: vanderaap
+name: amsterdam-weesperplein-24-diamond-exchange
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: vda Amsterdam Weesperplein 24 Diamond Exchange
+  description: |-
+    Amsterdam, Weesperplein 2-4, DiamondExchangeBuilding (1910/11). Designed by G.A. van Arkel (1858-1918), who also designed three of the bigger diamond workshops in the city of Amsterdam. Sober Art Nouveau, slightly based on Berlage's ExchangeBuilding at the Damrak (1898/03). The building not only housed the Diamond Exchange, but also a bank, a restaurant and a barber shop. Renovated in the early 1920s, 1959 (after a fire which destroyed the roof) and 1991, when a new roof was added. The BAT version shows the original design of 1910/11.
+
+    (both 3x4 CO $$$ and 3x4 LM)
+
+    ps. street textures taken from deadwoods' BSC JENX Amsterdam Central Station (not included in the zip)
+
+    V-apps, 12-24-04
+  author: Vanderaap
+  website: https://community.simtropolis.com/files/file/11298-vda-amsterdam-weesperplein-24-diamond-exchange/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b56981fc06efbab0aeb1cdd8e5018336-vda_amsterdam_weesperplein_2_4_diamantbeurs_01.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b56981fc06efbab0aeb1cdd8e5018336-vda_amsterdam_weesperplein_2_4_diamantbeurs_02.jpg
+dependencies:
+  - vanderaap:amsterdam-weesperplein-24-diamond-exchange-model
+assets:
+  - assetId: vanderaap-vda-amsterdam-weesperplein-24-diamond-exchange
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: vanderaap
+name: amsterdam-weesperplein-24-diamond-exchange-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: vda Amsterdam Weesperplein 24 Diamond Exchange
+  description: |-
+    Amsterdam, Weesperplein 2-4, DiamondExchangeBuilding (1910/11). Designed by G.A. van Arkel (1858-1918), who also designed three of the bigger diamond workshops in the city of Amsterdam. Sober Art Nouveau, slightly based on Berlage's ExchangeBuilding at the Damrak (1898/03). The building not only housed the Diamond Exchange, but also a bank, a restaurant and a barber shop. Renovated in the early 1920s, 1959 (after a fire which destroyed the roof) and 1991, when a new roof was added. The BAT version shows the original design of 1910/11.
+
+    (both 3x4 CO $$$ and 3x4 LM)
+
+    ps. street textures taken from deadwoods' BSC JENX Amsterdam Central Station (not included in the zip)
+
+    V-apps, 12-24-04
+  author: Vanderaap
+  website: https://community.simtropolis.com/files/file/11298-vda-amsterdam-weesperplein-24-diamond-exchange/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b56981fc06efbab0aeb1cdd8e5018336-vda_amsterdam_weesperplein_2_4_diamantbeurs_01.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b56981fc06efbab0aeb1cdd8e5018336-vda_amsterdam_weesperplein_2_4_diamantbeurs_02.jpg
+assets:
+  - assetId: vanderaap-vda-amsterdam-weesperplein-24-diamond-exchange
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: vanderaap-vda-amsterdam-weesperplein-24-diamond-exchange
+version: "1.0"
+lastModified: "2004-12-25T10:01:14Z"
+url: https://community.simtropolis.com/files/file/11298-vda-amsterdam-weesperplein-24-diamond-exchange/?do=download&r=31289
