@@ -1,0 +1,47 @@
+group: peg
+name: cdk3-sp-break-bulk-seaport
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: The functional version of `pkg=peg:cdk3-sp-break-bulk-dock`.
+  description: |-
+    The CDK3\-SP Break-Bulk Seaport is a functional seaport that is identical in all regards to the CDK3\-SP Container Seaport. The size of the lot, plop & maintenance costs... and road & rail connections are all the same.
+
+    The only real difference in the lot is visual. This version of the seaport is designed to blend well with the CDK3\-SP Row Warehouses and provide a functional, break-bulk (non-container) shipping facility for your seaports.
+
+    The lot is fully compatible with all CDK3\-SP lots and can be used with the CDK3\-SP Container Seaport. This is an "additional seaport" and does not replace any existing version.
+
+    In addition to using the same random & timed rail, truck & cargo props used on the Row Warehouse lots, this seaport introduces two new variations of the classic cargo ships that first appeared on the Vandy Shipping lot. With the new versions, the ships's holds are open and the ship's cranes are busily loading and off-loading cargo.
+
+    IMPORTANT  
+    This seaport lot uses the PEG\-CDK3\-SP Master Seaport Controller(Version 1.04 or above) and can not be used with the BSC seaport controller, or any other seaport mod or controller... or any seaport lot not currently supported by the PEG Master Seaport Controller.Please read the included readme file for full details.  
+      
+    RAIL CAPACITY  
+    Unlike the game default seaport, this new version allows a direct rail connection and can also receive freight by rail directly from Freight Stations or industry located adjacent to rail. This is accomplished by forcing the Seaport to also act as a Freight Station, converting rail freight to truck freight when it arrives. Whereas the previous CDK Seaport version required that the lot be coded as a freight station, this new version does not. All the "mojo" is now handled in the transit enabling properties... which have also been streamlined to minimize associated traffic congestion.  
+      
+    \*\* The lot is transit enabled for road connections to the driveways and a rail connection . The lot must have road access in order to function properly but the driveways do not actually have to be connected. However, the rail must be connected to the lot for the rail connectivity to function. Rail connectivity is optional. The Seaport will still function properly for truck traffic if you choose not to connect the rail.  
+      
+    \*\*\* The lot is located in the Water Transportation menu.
+
+    **\*\* This lot requires the following CDK3 dependency files:**
+
+    PEG\-CDK3\-SP Master Seaport Controller  
+    PEG\-CDK3 SUPER PAK  
+    PEG\-CDK3\-SP SEAPORT SUPER PAK  
+    PEG Security Fencing Kit
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20050-peg-cdk3-sp-break-bulk-seaport/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3c5c81c9c675f91b566adfd556ac7b0b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3c5c81c9c675f91b566adfd556ac7b0b-product_image1.jpg
+dependencies:
+  - peg:cdk3-master-seaport-controller
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Break-Bulk-SeaPort.dat"

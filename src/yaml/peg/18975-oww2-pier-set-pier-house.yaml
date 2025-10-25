@@ -1,0 +1,33 @@
+group: peg
+name: oww2-pier-set-house
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: The Pier House provides a perfect way to end your piers with food and shopping facilities.
+  description: |-
+    The focal point of many public piers is often the actual end of the pier. Commonly, there is some sort of attraction to lure pier dwellers out to the end... other than the end itself. This 3x3 end-section for the OWW2 PierSet is no exception.
+
+    The Pier House is a compilation of the types of attractions you'd expect to find at the end of a busy & popular public pier. There are small & unique shops along the outside and central mall... including Ginger's Gifts and Vandy Cartography.  The Pier House Bar & Grill offers wonderful seafood in a picturesque sit-down environment while the fisherman on the go can enjoy the ever popular Smelt on a Stick from the outside snack area.
+
+    The lot is extensively nite-lited and is also Christmas EnabledTM with colored Christmas lights that appear during the Holiday season (game time). The lot also features new, custom animated fishermen props that appear early in the morning and depart shortly after dark.
+
+    \* All of the modular PierSet lots are parks... affordably priced with reduced park & landmark effects to avoid blowing over demand caps They are located only in the Water Transportation menu, directly below the other OWW2 lots..
+
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18975-peg-oww2-pierset-pier-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0af92e8ca02e4c20677856486f921e29-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0af92e8ca02e4c20677856486f921e29-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierSet_House.dat"

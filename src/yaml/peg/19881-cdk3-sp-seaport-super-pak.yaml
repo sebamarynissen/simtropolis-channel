@@ -25,14 +25,6 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0011/5e54434cb76cfd9a9e4da90ed3649d5a-product_image.jpg
 assets:
-  - assetId: peg-cdk3-sp-seaport-super-pak
-
-    # This pack also includes the row warehouses for some reason.
-    exclude:
-      - PEG-CDK3-SP_RowWarehouses_110.dat
-
----
-assetId: peg-cdk3-sp-seaport-super-pak
-version: "1.0"
-lastModified: "2008-06-07T08:10:36Z"
-url: https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/?do=download&r=44893
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_SUPER_PAK_RESOURCE.dat"

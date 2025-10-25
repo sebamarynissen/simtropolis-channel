@@ -1,0 +1,30 @@
+group: peg
+name: oww2-pier-set-1x-boat-dock
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A small boat dock for your pier system.
+  description: |-
+    The OWW2 PierSet Boat Dock lot adds a little extra eye-candy to your piers. Similar in all regards to the standard "end piece", it features an additional small, floating dock area and access ramp. The boats are timed props and will come and go throughout the day.
+
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    PEG\-CDK3 REC Boat Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19062-peg-oww2-pierset-1x-boat-dock/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/10463fea50243db55636aaef20f704b8-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0003/10463fea50243db55636aaef20f704b8-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierSet_BoatDock.dat"
