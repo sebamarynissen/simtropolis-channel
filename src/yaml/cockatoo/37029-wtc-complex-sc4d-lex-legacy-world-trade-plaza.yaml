@@ -1,0 +1,183 @@
+group: cockatoo
+name: wtc-complex-sc4d-lex-legacy-world-trade-plaza
+version: "2.0"
+subfolder: 660-parks
+info:
+  summary: WTC Complex - SC4D LEX Legacy - World Trade Plaza
+  description: |-
+    **Cockatoo Presents…**
+
+    **World** **Trade** **Plaza**
+
+    *Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    *Original models – Rubik3 and the BSC team.*
+
+    ***Overview:***  In the original upload of the World Trade Centre complex, there are three black plaza buildings (WTC’s 4, 5 & 6) that fill out the area around the base of the two towers. These buildings have always looked great on that lot, but sometimes are obscured by the towers themselves, so I’ve created a lot where two these buildings (WTC’s 4 & 5) can be seen clearly. They’re positioned on a sprawling plaza lot that should easily fit into any downtown or commercial district.
+
+    I’ve modded two versions, the first, World Trade Plaza, is a plopable commercial that provides a good amount of medium-wealth jobs and the second, World Trade Park, provides a park effect that should encourage commercial growth.
+
+    These lots were made with the X\_Tool, so they don’t spread malaria to third world countries!
+
+    In this download there are two versions included:
+
+    -   Plopable functional COS§§ providing 4310 medium wealth jobs.
+    -   Plopable park lot.
+
+    For those who use Submenu DLL and have WTC Complex - SC4D LEX Legacy - BSC Custodian Rubik, you can find the lots in the WTC Submenu.
+
+    ***The stats are as follows:***
+
+    ***PLOPABLE CO§§***
+
+    *Size:*
+
+    20x6
+
+    *Occupants:*
+
+    CO§§ 4310
+
+    *Power Used:*
+
+    190 MWh per Month
+
+    *Water Used:*
+
+    215 Gallons per Month
+
+    *Flammability:*
+
+    40 – Stage 4
+
+    *Garbage Generated:*
+
+    18 Tones per Month
+
+    *Air Pollution:*
+
+    12 / 5 Tiles
+
+    *Water Pollution:*
+
+    16 / 6 Tiles
+
+    *Bulldoze Cost:*
+
+    §2010
+
+    *Plop Cost:*
+
+    §132,440
+
+    *Menu Position:*
+
+    Landmark Menu, near bottom
+
+    ***PARK***
+
+    *Size:*
+
+    20x6
+
+    *Power Used:*
+
+    42 MWh per Month
+
+    *Water Used:*
+
+    65 Gallons per Month
+
+    *Flammability:*
+
+    0 – Stage 0
+
+    *Garbage Generated:*
+
+    0 Tones per Month
+
+    *Air Pollution:*
+
+    \-240 / 26 Tiles
+
+    *Water Pollution:*
+
+    13 / 13 Tiles
+
+    *Bulldoze Cost:*
+
+    §130
+
+    *Plop Cost:*
+
+    §4800
+
+    *Monthly Cost:*
+
+    §600
+
+    *Landmark Effect:*
+
+    140 / 10 Tiles
+
+    *Menu Position:*
+
+    Park Menu, near bottom
+
+    ***Dependencies:***
+
+    This lot is made up almost entirely of external dependencies. You will need to make sure that you have every single listed dependency installed before you can use this lot.
+
+    I’ve broken with my usual policy of trying to keep dependencies to a minimum, however most of the packs used are very common… and really are great props in themselves that are worth the download anyway.
+
+    -   **SC4D LEX Legacy - BSC Custodian Rubik WTC Complex v1** (and above)   
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+    -   BSC MEGA Props - Rubik3 Vol01 - WTC Props v2
+
+    -   [**SC4D LEX Legacy - BSC Common Dependencies Pack v9**](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)  
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+    -   BSC MEGA Props - CP Vol01
+    -   BSC Mega Props - JES Vol01
+    -   BSC Textures Vol 01
+
+    -   **SC4D LEX Legacy - BSC Parks Compilation v1** (and above)   
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+
+    -   BSC BATProps DEDWD BSC Raised Parks
+
+    -   [PEG Christmas Development Kit](http://www.simtropolis.com/stex/index.cfm?id=11097)
+    -   [Rockefeller Centre Landmark](http://simcity.ea.com/coolstuff/landmarks/index.php) (available from the official SC4 website.)
+
+    ***Installation:***
+
+    Copy the Cockatoo folder into the Plugins folder.
+
+    -   PLOP\_CO$$\_20x6\_World Trade Plaza SC4Lot  =  Plopable CO§§
+    -   PLOP\_20x6\_World Trade Park.SC4Lot   =  Park
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](http://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=14), [SC4D](http://sc4devotion.com/forums/index.php?topic=5528.20).
+
+    **We will never forget 9/11, the victims and the heroes of this day**
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/37029-wtc-complex-sc4d-lex-legacy-world-trade-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/WTP2LEX.jpg.338ffd1804c46a63a4673acab14027dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/WTP1LEX.jpg.b878935e2cb77fec467e51e8aed26be7.jpg
+dependencies:
+  - bsc:mega-props-rubik3-vol01-wtc-props
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:textures-vol01
+  - bsc:mega-props-dedwd-bsc-raised-parks
+  - peg:christmas-development-kit
+  - maxis:rockefeller-center
+assets:
+  - assetId: cockatoo-wtc-complex-sc4d-lex-legacy-world-trade-plaza
+
+---
+assetId: cockatoo-wtc-complex-sc4d-lex-legacy-world-trade-plaza
+version: "2.0"
+lastModified: "2025-09-25T20:47:31Z"
+url: https://community.simtropolis.com/files/file/37029-wtc-complex-sc4d-lex-legacy-world-trade-plaza/?do=download&r=209411

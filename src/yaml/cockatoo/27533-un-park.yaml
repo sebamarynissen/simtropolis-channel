@@ -1,0 +1,61 @@
+group: cockatoo
+name: un-park
+version: "2.0"
+subfolder: 660-parks
+info:
+  summary: UN Park
+  description: |-
+    **The United Nations Project Presents…**
+
+    **UN Park**
+
+    **Model: Cockatoo | Modding: Cockatoo**
+
+    **Overview:**
+
+    It’s a park made from the UN complex!
+
+    For those who use Submenu DLL, you will find the Park in the dedicated submenu for the United Nations.
+
+    **Versions Available:**
+
+    We’ve made available a Dark truNite model for day/night mod users in addition to a regular Maxis truNite model for those who don’t.
+
+    **The stats are as follows:**
+
+    See the readme file.
+
+    **Dependencies:**
+
+    These are the files you need for these lots to be able to function in the game…
+
+    • None!
+
+    **Installation:**
+
+    Copy the Cockatoo folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    **Problems?**
+
+    If you experience any problems with this lot, please leave your feedback in the comments section and we’ll try our best to help you out. Alternatively, you can send a private message to Cockatoo at Simtropolis.com | Want to know how we made this? [Click here](https://www.simtropolis.com/forum/topic/38406-project-thread-the-united-nations-building/).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/27533-un-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/74c1b59311def81e5202c98d5b75b589-.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cockatoo-un-park
+        exclude:
+          - "/DN/"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: cockatoo-un-park
+        exclude:
+          - "/MN/"
+
+---
+assetId: cockatoo-un-park
+version: "2.0"
+lastModified: "2025-09-30T18:06:12Z"
+url: https://community.simtropolis.com/files/file/27533-un-park/?do=download&r=209514

@@ -1,0 +1,153 @@
+group: cockatoo
+name: standard-chartered-bank-building
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Standard Chartered Bank Building
+  description: |-
+    **The Hong Kong/ Asia BAT Team Presents…**
+
+    **Standard Chartered Bank Building**
+
+    *Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    * * *
+
+    **Overview:**  The Standard Chartered Bank Building is a 42 story high-rise office tower located directly adjacent to the Hong Kong Shanghai Bank Building in central Hong Kong. It’s a near accurate replica of the real life building.
+
+    This is the second version of the BAT to be released. The first had an annoying issue; the textures on the model appeared far too grainy and oversaturated in the game. This was partly because I had exported it with an outdated version of Max. With my upgrade to Max 2008, these problems could be corrected and now the model can be seen the way it was originally intended to be.
+
+    Other small improvements on the first version include a more interesting reflective window texture, an updated lot design and also included in this version is a dark truNite model for day/night mod users.
+
+    This version has been exported as a totally new model, so you can opt to keep the old version in your plugins folder, or you can delete it if you want. This isn’t a replacement for the first version and won’t affect it in any way.
+
+    In this download there are three versions included:
+
+    • Growable Stage 7 CO§§ providing 2303 medium wealth jobs.
+
+    • Plopable functional COS§§ providing 2303 medium wealth jobs.
+
+    • Plopable static landmark.
+
+    The stats are as follows:
+
+    **GROWABLE CO§§**
+
+    **Size:** 2x5
+
+    **Occupants:** CO§§ 2303
+
+    **Growth Stage:** Stage 7
+
+    **Zone Type:** High Density Commercial
+
+    **Tilesets:** Huston & Euro
+
+    **Power Used:** 47 MWh per Month
+
+    **Water Used:** 470 Gallons per Month
+
+    **Flammability:** 40 – Stage 4
+
+    **Garbage Generated:** 4 Tones per Month
+
+    **Air Pollution:** 9 / 5 Tiles
+
+    **Water Pollution:** 9 / 6Tiles
+
+    **Bulldoze Cost:** §2160
+
+    **PLOPABLE CO§§**
+
+    **Size:** 2x5
+
+    **Occupants:** CO§§ 2303
+
+    **Power Used:** 47 MWh per Month
+
+    **Water Used:** 470 Gallons per Month
+
+    **Flammability:** 40 – Stage 4
+
+    **Garbage Generated:** 4 Tones per Month
+
+    **Air Pollution:** 9 / 5 Tiles
+
+    **Water Pollution:** 9 / 6 Tiles
+
+    **Bulldoze Cost:** §2160
+
+    **Plop Cost:** §30,250
+
+    **Menu Position:** Landmarks, near top
+
+    **LANDMARK**
+
+    **Size:** 2x5
+
+    **Power Used:** 80 MWh per Month
+
+    **Water Used:** -
+
+    **Flammability:** 10 – Stage 4
+
+    **Garbage Generated:** 13 Tones per Month
+
+    **Air Pollution:** 2 / 1 Tiles
+
+    **Water Pollution:** 2 / 2 Tiles
+
+    **Bulldoze Cost:** §2160
+
+    **Plop Cost:** §225,600
+
+    **Monthly Cost: §275**
+
+    Landmark Effect: 40 / 20 Tiles
+
+    **Mayor Rating:** 10 / 256 Tiles
+
+    **Menu Position:** Landmarks, near top
+
+    **Dependencies:**
+
+    These are the files you need for these lots to be able to function in the game…
+
+    • None today.
+
+    **Installation:**
+
+    Copy the HKBAT folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    • CO$$7\_2x5\_HK Standard Chartered Bank Building-v2.SC4Lot  =  Growable CO§§
+
+    • PLOP\_CO$$\_2x5\_HK Standard Chartered Bank Building-v2.SC4Lot  =  Plopable CO§§
+
+    • PLOP\_2x5\_HK Standard Chartered Bank Building-v2  =  Landmark
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=21), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.60).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/22792-hk-standard-chartered-bank-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/21b913614c4b19d222001e66d7fd4af9-SCBB21.jpg
+    - https://www.simtropolis.com/objects/screens/0005/21b913614c4b19d222001e66d7fd4af9-SCBB22.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cockatoo-standard-chartered-bank-building
+        exclude:
+          - /DN/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: cockatoo-standard-chartered-bank-building
+        exclude:
+          - /MN/
+
+---
+assetId: cockatoo-standard-chartered-bank-building
+version: "2.0"
+lastModified: "2025-09-27T17:56:51Z"
+url: https://community.simtropolis.com/files/file/22792-hk-standard-chartered-bank-building/?do=download&r=209463

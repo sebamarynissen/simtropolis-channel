@@ -1,0 +1,94 @@
+group: cockatoo
+name: emerald-plaza
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Emerald Plaza
+  description: |-
+    **Cockatoo Presents…**
+
+    **Emerald Plaza**
+
+    *Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    Cheers to Amthaak for help with the pool!
+
+    * * *
+
+    ***Overview:***
+
+    Taking a break from my usual HK stuff, I decided to make this. Emerald plaza is a building located in San Diego, California, consisting of 8 conjoined hexagonal towers. The building features a unique display of neon lighting around the edges of its roof in real life, which I’ve tried my best to re-create in the model.
+
+    I’ve included a Dark truNite model for day/night mod users in addition to a regular Maxis truNite model for those who don’t.
+
+    In this download there are three versions included.
+
+    -   Growable stage 7 CO§§ providing 3147 medium wealth jobs.
+    -   Growable stage 9 CO§§ providing 6292 medium wealth jobs (**CAM**)
+    -   Plopable functional CO§§ providing 6292 medium wealth jobs.
+    -   Plopable static landmark.
+
+    ***The stats are as follows:***
+
+    It's all in the README.
+
+    ***Dependencies:***
+
+    These are the files you need for these lots to be able to function in the game…
+
+    •   None!
+
+    ***Installation:***
+
+    Copy the Cockatoo folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    This package also includes the Christmas version of the building, but only for the DN version.
+
+    If you want to use the CAM version, you must also copy the CAM folder.
+
+    -   CO$$7\_4x6\_Emerald Plaza.SC4Lot  =  *Growable CO§§*
+    -   CO$$9\_4x6\_Emerald Plaza.SC4Lot = *Growable CO§§*  CAMeLot - you will find it on the
+    -   PLOP\_CO$$\_4x6\_Emerald Plaza  =  *Plopable CO§§*
+    -   PLOP\_4x6\_Emerald Plaza.SC4Lot  =  *Landmark*
+
+    ***Any Issues?***
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](../../forum/messageview.cfm?catid=37&threadid=93319&enterthread=y&STARTPAGE=29), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.60).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/25503-emerald-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3b14b2fa21b5f050ff36e40ba27eb413-EP1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3b14b2fa21b5f050ff36e40ba27eb413-EP2.jpg
+variants:
+  - variant: { CAM: "no", nightmode: standard }
+    assets:
+      - assetId: cockatoo-emerald-plaza-cam
+        exclude:
+          - "/DN/"
+          - "/CO$$9_4x6_Emerald Plaza.SC4Lot"
+  - variant: { CAM: "yes", nightmode: standard }
+    assets:
+      - assetId: cockatoo-emerald-plaza-cam
+        exclude:
+          - "/DN/"
+          - "/CO$$7_4x6_Emerald Plaza.SC4Lot"
+  - variant: { CAM: "no", nightmode: dark }
+    assets:
+      - assetId: cockatoo-emerald-plaza-cam
+        exclude:
+          - "/MN/"
+          - "/CO$$9_4x6_Emerald Plaza.SC4Lot"
+  - variant: { CAM: "yes", nightmode: dark }
+    assets:
+      - assetId: cockatoo-emerald-plaza-cam
+        exclude:
+          - "/MN/"
+          - "/CO$$7_4x6_Emerald Plaza.SC4Lot"
+
+---
+assetId: cockatoo-emerald-plaza-cam
+version: "2.0"
+lastModified: "2025-09-25T19:03:43Z"
+url: https://community.simtropolis.com/files/file/25503-emerald-plaza/?do=download&r=209382

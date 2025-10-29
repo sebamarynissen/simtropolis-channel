@@ -1,0 +1,145 @@
+group: cockatoo
+name: luckys-hang-ten
+version: "2.0"
+subfolder: 360-landmark
+info:
+  summary: Luckys Hang Ten
+  description: |-
+    **Lucky’s Hang Ten!**
+
+    **(My re-make of the original building created by Maxis)**
+
+    *Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    * * *
+
+    **Overview:** I’ve always loved that strange little landmark, you know, the Hawaiian Bar, one of the last things that Maxis ever released for SC4, so I’ve decided to create my own version of the infamous Lucky’s Hang Ten lounge. What a great way to welcome in the summer months eh… if you live this side of the equator anyway. These lots were made with the X\_Tool.
+
+    In this download there are three versions included:
+
+    • Growable ‘CAMpatible Stage 3’ CS§ providing 407 low wealth jobs.
+
+    • Plopable static landmark.
+
+    • Plopable functional CS§§ providing 104 medium wealth jobs.
+
+    **The stats are as follows:**
+
+    **GROWABLE CS§**
+
+    **Size:** 5x3
+
+    **Occupants:** CS§ 407
+
+    **Growth Stage:** Stage 3
+
+    **Zone Type:** Medium / High Density Commercial
+
+    **Tilesets:** Chicago, Huston, Euro
+
+    **Power Used:** 9 MWh per Month
+
+    **Water Used:** 83 Gallons per Month
+
+    **Flammability:** 45 – Stage 4
+
+    **Garbage Generated:** 12 Tones per Month
+
+    **Air Pollution:** 4 / 5 Tiles
+
+    **Water Pollution:** 2 / 5 Tiles
+
+    **Bulldoze Cost:** §520
+
+    **PLOPABLE CS§§**
+
+    **Size:** 5x4
+
+    **Occupants:** CS§§ 104
+
+    **Power Used:** 9 MWh per Month
+
+    **Water Used:** 101 Gallons per Month
+
+    **Flammability:** 40 – Stage 4
+
+    **Garbage Generated:** 5 Tones per Month
+
+    **Air Pollution:** 5 / 5 Tiles
+
+    **Water Pollution:** 2 / 6 Tiles
+
+    **Bulldoze Cost:** §536
+
+    **Plop Cost:** §9200
+
+    **Menu Position:** Landmarks, near bottom
+
+    **LANDMARK**
+
+    **Size:** 5x3
+
+    **Power Used:** 50 MWh per Month
+
+    **Water Used:** 0 Gallons per Month
+
+    **Flammability:** 10 – Stage 1
+
+    **Garbage Generated:** 10 Tones per Month
+
+    **Air Pollution:** 1 / 1 Tile
+
+    **Water Pollution:** 1 / 2 Tiles
+
+    **Bulldoze Cost:** §552
+
+    **Plop Cost:** §55,200
+
+    **Monthly Cost:** §105
+
+    **Landmark Effect:** 40 / 20 Tiles
+
+    **Mayor Rating:** 10 / 256 Tiles
+
+    **Menu Position:** Landmarks, near bottom
+
+    **Dependencies:**
+
+    These are the files you need for these lots to be able to function in the game…
+
+    [SC4D LEX Legacy - BSC Common Dependencies Pack v9d](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)  
+    The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+
+    -   BSC MEGA Props CP Vol01
+    -   BSC Textures Vol01
+
+    [Cockatoo’s Giant Palm Props](https://www.simtropolis.com/stex/index.cfm?id=20330)
+
+    **Installation:**
+
+    Copy the Cockatoo folder into the Plugins folder.
+
+    **Credits:**
+
+    Thanks to RippleJet and BarbyW for solving the TGI conflict issue, really appreciated.
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at the site you downloaded this - either Simtropolis.com or SC4devotion.com.
+
+    My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=11), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.msg177768#new).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/20331-luckys-hang-ten/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2a934b12272445a3f70b973dedc8bc07-LHT1.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2a934b12272445a3f70b973dedc8bc07-LHT2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - cockatoo:giant-palm-props
+assets:
+  - assetId: cockatoo-luckys-hang-ten
+
+---
+assetId: cockatoo-luckys-hang-ten
+version: "2.0"
+lastModified: "2025-09-25T20:16:39Z"
+url: https://community.simtropolis.com/files/file/20331-luckys-hang-ten/?do=download&r=209402
