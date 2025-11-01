@@ -12,7 +12,7 @@ async function run(authors, argv) {
 	if (!authors || authors.length === 0) {
 		console.error(styleText('red', 'Error: Please provide at least one author name or ID'));
 		console.log('Usage: npm run add:author -- "author name" [additional authors...]');
-		console.log('Example: npm run add:author -- dogfight "NAM Team"');
+		console.log('Example: npm run add:author -- memo "NAM Team"');
 		process.exit(1);
 	}
 
@@ -88,13 +88,20 @@ async function run(authors, argv) {
 	await addPackages(urls, argv);
 }
 
+// Detect if running via npm and customize script name in help output
+const isNpm = !!process.env.npm_lifecycle_event;
+const scriptName = isNpm ?
+			`npm run ${process.env.npm_lifecycle_event} --` :
+			'add-by-author.js';
+
 // Parse command line arguments
 const { argv } = yargs(hideBin(process.argv))
-	.usage('Usage: $0 <author> [authors...] [options]')
-	.example('$0 dogfight', 'Add all files by dogfight')
-	.example('$0 dogfight "NAM Team"', 'Add files by multiple authors')
-	.example('$0 175214', 'Add all files by author ID 175214 (dogfight)')
-	.example('$0 dogfight --cache /custom/cache', 'Use custom cache directory')
+	.scriptName(scriptName)
+	.usage('Usage: $0 <author...> [options]')
+	.example('$0 memo', 'Add all files by memo')
+	.example('$0 memo "NAM Team"', 'Add files by multiple authors')
+	.example('$0 95442', 'Add all files by author ID 95442 (memo)')
+	.example('$0 memo --cache /custom/cache', 'Use custom cache directory')
 	.option('cache', {
 		type: 'string',
 		description: 'Path to sc4pac cache directory',
