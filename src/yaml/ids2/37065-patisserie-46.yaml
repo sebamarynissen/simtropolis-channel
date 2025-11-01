@@ -1,0 +1,43 @@
+group: ids2
+name: patisserie-46
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Patisserie 46
+  description: |-
+    If you spend enough time traveling around Minneapolis, you'll start to see buildings that look a lot like this all over the place. Most of them are from the 1920s and used to be corner stores. You can typically spot them by their decorative brickwork, which is usually visible even if it's been painted over.
+
+    This one happens to be a bakery in south Minneapolis (and a pretty good one at that - try the coconut rocher). If I'm being honest, I think Sun Street Breads a few blocks east is a better bakery, but their building is an ugly strip mall.
+
+    This W2W building sits on a 2x1 lot and comes in growable and ploppable CS$$ varieties, both of which provide 17 jobs.
+
+    Both Darknite and Maxisnite versions are provided. Only one may be used at a time. The Darknite version requires [SimFox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**: None
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/37065-patisserie-46/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/day.jpg.d479f1a895b838ced3d5c034137a4535.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/night.jpg.3df4895dd1a5099aada898b2264d4e14.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-patisserie-46-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-patisserie-46-darknite
+
+---
+assetId: ids2-patisserie-46-darknite
+version: "1.0.0"
+lastModified: "2025-10-20T01:49:02Z"
+url: https://community.simtropolis.com/files/file/37065-patisserie-46/?do=download&r=209712
+
+---
+assetId: ids2-patisserie-46-maxisnite
+version: "1.0.0"
+lastModified: "2025-10-20T01:49:02Z"
+url: https://community.simtropolis.com/files/file/37065-patisserie-46/?do=download&r=209713

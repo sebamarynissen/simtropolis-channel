@@ -1,0 +1,236 @@
+group: ids2
+name: broadway-ridge-office-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Broadway Ridge Office Plaza
+  description: |-
+    Based on a garden variety early-2000s office building in northeast Minneapolis. If it weren't for the weird circular mechanical housing, you could drive past it a million times and never notice it.
+
+    This building sits on a 7x6 lot and comes in growable and ploppable varieties, both of which provide 1250 CO$$ jobs. Additionally, the building's wingnut shape also lent itself to making a fractional angle version. It's not a perfect fit (20 degree angle vs. 18.4 degrees for FAR), but it's pretty darn close. Both versions have different IIDs, so you can use both of them at the same time.
+
+    Both Darknite and Maxisnite versions are provided (for both the ortho and the FAR version), of which only one should be used at a time. The Darknite version requires [Simfox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**:
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/icon.jpg.c5be310b4a052689c9c85fa3356429ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/day.jpg.dc4e3a57c0f72cf76547cb1a725a5bb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/68115fb7ce51c_day2.jpg.b6ad902664ef166380bd169c93c44233.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/night.jpg.bf7a37626bc611f3eb6c25a6a4e04370.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/68115fbd606a5_night2.jpg.d397cd7578f8a2f8c3154458267335e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/68115fbfab38e_farday.jpg.3a4dbe769e1355a13e30d8d323c1ec7b.jpg
+dependencies:
+  - bsc:bat-props-d66-vol10
+  - bsc:bat-props-d66-vol11
+  - bsc:bat-props-jenx-tree-props-vol01
+  - bsc:bat-props-jenx-tree-props-vol02
+  - bsc:bat-props-jenx-tree-props-vol03
+  - bsc:bat-props-jenx-vol02
+  - bsc:bat-props-kwk-vol03
+  - bsc:bat-props-kwk-vol04
+  - bsc:bat-props-lil-vol2
+  - bsc:bat-props-mattb325-cottages-ornee-vol01
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-shopping-mall-pack-vol01
+  - bsc:bat-props-mattb325-small-modern-house-pack
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:bat-props-newman-inc-wfk-vol01
+  - bsc:bat-props-vdk-vol01
+  - bsc:bat-props-vdk-vol02
+  - bsc:essentials
+  - bsc:flags
+  - bsc:jrj-cpt-trees-as-props
+  - bsc:mega-props-aln-vol01
+  - bsc:mega-props-aln-vol02
+  - bsc:mega-props-aln-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-caliban-vol01
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-cp-civics
+  - bsc:mega-props-cp-houses
+  - bsc:mega-props-cp-industrials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-d66-vol03
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-dae-vol02
+  - bsc:mega-props-dbssymn-vol01
+  - bsc:mega-props-dbssymn-vol02
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-gascooker-vol02
+  - bsc:mega-props-gaz-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-jbsimio-vol02
+  - bsc:mega-props-jbsimio-vol03
+  - bsc:mega-props-jen-p-vol01
+  - bsc:mega-props-jenx-vol01
+  - bsc:mega-props-jenx-vol02-paris
+  - bsc:mega-props-jenx-vol03
+  - bsc:mega-props-jenx-vol04
+  - bsc:mega-props-jenx-vol05-medieval
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-jmyers-agriculture-vol01
+  - bsc:mega-props-jmyers-agriculture-vol02
+  - bsc:mega-props-jmyers-common-props
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-jrj-vol03
+  - bsc:mega-props-jrj-vol04
+  - bsc:mega-props-jrj-vol05
+  - bsc:mega-props-jrj-vol06
+  - bsc:mega-props-kevdan25-vol01
+  - bsc:mega-props-kwk-vol01
+  - bsc:mega-props-kwk-vol02
+  - bsc:mega-props-kwk-vol03
+  - bsc:mega-props-lil-vol01
+  - bsc:mega-props-mbear-vol01
+  - bsc:mega-props-mbear-vol02
+  - bsc:mega-props-mbear-vol03
+  - bsc:mega-props-mbear-vol04
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-misc-vol03
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:mega-props-newmaninc-vol03
+  - bsc:mega-props-newmaninc-vol04
+  - bsc:mega-props-newmaninc-vol05
+  - bsc:mega-props-prepo-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-rt-vol03
+  - bsc:mega-props-rt-vol04
+  - bsc:mega-props-rt-wfk-n-vol01
+  - bsc:mega-props-rt-wfk-vol01
+  - bsc:mega-props-rt-wfk-vol01-cds
+  - bsc:mega-props-rt-wfk-vol02-wimps
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-snm-vol01
+  - bsc:mega-props-snm-vol02-naval
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:mega-props-t1-vol01
+  - bsc:mega-props-t1-vol02
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-t1-vol04
+  - bsc:mega-props-w2w-vol01
+  - bsc:mega-props-ydr-vol01
+  - bsc:prop-family-names
+  - bsc:prop-pack-cal-ships-vol01
+  - bsc:prop-pack-cal-small-boats-vol01
+  - bsc:sg-mega-residentials-vol01-models
+  - bsc:sg-mega-residentials-vol02-models
+  - bsc:sg-mega-residentials-vol03-models
+  - bsc:sg-mega-residentials-vol04-models
+  - bsc:sg-models-adult
+  - bsc:sg-models-agriculture
+  - bsc:sg-models-civic-rewards
+  - bsc:sg-models-civic-services
+  - bsc:sg-models-department-stores
+  - bsc:sg-models-education
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-grocery-stores
+  - bsc:sg-models-hotels1
+  - bsc:sg-models-hotels2
+  - bsc:sg-models-iht
+  - bsc:sg-models-im1
+  - bsc:sg-models-im2
+  - bsc:sg-models-large-stores
+  - bsc:sg-models-malls
+  - bsc:sg-models-medium-shops1
+  - bsc:sg-models-motels
+  - bsc:sg-models-offices-hirise1
+  - bsc:sg-models-offices-hirise2
+  - bsc:sg-models-offices-medium
+  - bsc:sg-models-restaurants
+  - bsc:sg-models-sainsbury
+  - bsc:sg-models-small-shops
+  - bsc:sg-models-transportation
+  - bsc:sg-models-utilities
+  - bsc:sg-models-w2w-commercials
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol01-vol02-remastered
+  - bsc:vip-girafe-carpack-vol03
+  - bsc:vip-girafe-carpack-vol03-remastered
+  - bsc:vip-girafe-carpack-vol04
+  - bsc:vip-girafe-urbanpack-vol01
+  - cobb:mega-props-vol06
+  - csx:mega-props-vol01
+  - csx:mega-props-vol02
+  - csx:mega-props-vol03
+  - csx:mega-props-vol04
+  - csx:mega-props-vol05
+  - csx:mega-props-vol06
+  - csx:mega-props-vol07
+  - csx:mega-props-vol08
+  - csx:mega-props-vol09
+  - girafe:hedges
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-1
+      - assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-2
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-broadway-ridge-office-plaza-darknite-part-1
+      - assetId: ids2-broadway-ridge-office-plaza-darknite-part-2
+
+---
+assetId: ids2-broadway-ridge-office-plaza-darknite-part-1
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207164
+
+---
+assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-1
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207165
+
+---
+assetId: ids2-broadway-ridge-office-plaza-darknite-part-2
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207166
+
+---
+assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-2
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207167
