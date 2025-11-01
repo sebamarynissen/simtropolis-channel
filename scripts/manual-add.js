@@ -14,15 +14,16 @@ import stex from './stex.js';
 import tsc from './tsc.js';
 
 // # run()
-async function run(urls, argv) {
+// Exported function for adding packages by URL
+export async function run(urls, argv) {
 
-	// Sort the urls in ascending order so that dependencies are likely to be 
+	// Sort the urls in ascending order so that dependencies are likely to be
 	// processed first.
 	urls = [urls].flat().sort();
 	let dependencyIndex = await buildIndex();
 
-	// Once we have the index, we'll still filter out the urls that are already 
-	// processed. They might either be present on the Simtropolis channel, or on 
+	// Once we have the index, we'll still filter out the urls that are already
+	// processed. They might either be present on the Simtropolis channel, or on
 	// the default channel already.
 	urls = urls.filter(url => {
 		let id = urlToFileId(url);
@@ -61,7 +62,7 @@ async function run(urls, argv) {
 }
 
 // # buildIndex()
-// This function builds up the index that maps all stex urls that have a package 
+// This function builds up the index that maps all stex urls that have a package
 const defaultUrl = 'https://memo33.github.io/sc4pac/channel/';
 async function buildIndex() {
 	let spinner = ora(`Building up package index`).start();
@@ -101,8 +102,8 @@ async function buildChannelIndex(index, channel) {
 }
 
 // # buildLocalIndex(index)
-// Completes the package index with all our local packages. We don't fetch the 
-// packages from the channel url because we may have local packages that we 
+// Completes the package index with all our local packages. We don't fetch the
+// packages from the channel url because we may have local packages that we
 // require as dependencies.
 async function buildLocalIndex(index) {
 	const glob = new Glob('**/*.yaml', {
@@ -142,5 +143,8 @@ async function addFileToIndex(index, file) {
 	}
 }
 
-const { argv } = yargs(hideBin(process.argv));
-await run(argv._, argv);
+// Only run when executed directly (not when imported as a module)
+if (import.meta.url === `file://${process.argv[1]}`) {
+	const { argv } = yargs(hideBin(process.argv));
+	await run(argv._, argv);
+}
