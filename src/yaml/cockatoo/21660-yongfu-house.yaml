@@ -1,0 +1,143 @@
+group: cockatoo
+name: yongfu-house
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Yongfu House
+  description: |-
+    **The Hong Kong/ Asia BAT Team Presents…**
+
+    **Yongfu House**
+
+    *Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    * * *
+
+    **Overview:**  I give you the product of my three day intense BATing session, Yongfu House. No, this isn’t a re-creation of an actual Hong Kong skyscraper, it’s essentially my own design, but I based many aspects of it on one particular building in Wan Chai, so yea, this dose qualify as a Hong Kong style building. This is also my first release of a model I’ve created entirely in 3dsmax, so it includes heaps of the stuff I’ve always wanted to do, but never could. Sorry if you’re not a fan of neon lighting, it’s my new favourite toy…
+
+    Also note that the plopable versions overhang their 2x2 lots (this is intended, they’re diagonals) so make sure you place diagonal roads or streets around them when you use them in the game. The growable version is on a 4x4 lot and dose not overhang, so won’t overlap any buildings it grows adjacent to.
+
+    ![YH7.jpg](http://i90.photobucket.com/albums/k248/cockatoo-210893/YH7.jpg)
+
+    In this download there are three versions included:
+
+    • Growable Stage 7 CO§§ providing 2190 medium wealth jobs.
+
+    • Plopable functional COS§§ providing 2190 medium wealth jobs.
+
+    • Plopable static landmark.
+
+    **The stats are as follows:**
+
+    GROWABLE CO§§
+
+    **Size:** 4x4
+
+    **Occupants:** CO§§ 2190
+
+    **Growth Stage:** Stage 7
+
+    **Zone Type:** High Density Commercial
+
+    **Tilesets:** Houston & Euro
+
+    **Power Used:** 45 MWh per Month
+
+    **Water Used:** 451 Gallons per Month
+
+    **Flammability:** 40 – Stage 4
+
+    **Garbage Generated:** 4 Tones per Month
+
+    **Air Pollution:** 8 / 5 Tiles
+
+    **Water Pollution:** 8 / 6 Tiles
+
+    **B****ulldoze Cost:** §2540
+
+    **PLOPABLE CO§§**
+
+    **Size:** 2x2
+
+    **Occupants:** CO§§ 2190
+
+    **Power Used:** 11 MWh per Month
+
+    **Water Used:** 119 Gallons per Month
+
+    **Flammability:** 40 – Stage 4
+
+    **Garbage Generated:** 4 Tones per Month
+
+    **Air Pollution:** 2 / 5 Tiles
+
+    **Water Pollution:** 2 / 6 Tiles
+
+    **Bulldoze Cost:** §2540
+
+    **Plop Cost:** §35,800
+
+    **Menu Position:** Landmarks, near top
+
+    **LANDMARK**
+
+    **Size:** 2x2
+
+    **Power Used:** 50 MWh per Month
+
+    **Water Used:** -
+
+    **Flammability:** 10 – Stage 4
+
+    **Garbage Generated:** 10 Tones per Month
+
+    **Air Pollution:** 1 / 1 Tiles
+
+    **Water Pollution:** 1 / 2 Tiles
+
+    **Bulldoze Cost:** §2540
+
+    **Plop Cost:** §165,000
+
+    **Monthly Cost:** §315
+
+    **Landmark Effect:** 10 / 256 Tiles
+
+    **Mayor Rating:** 40 / 20 Tiles
+
+    **Menu Position:** Landmarks, near top
+
+    **Dependencies:**
+
+    These are the files you need for these lots to be able to function in the game…
+
+    • [The most awesome trees in the world](https://www.simtropolis.com/stex/details.cfm?id=21640) (only needed for the growable lot.)
+
+    **Installation:**
+
+    Copy the HKBAT folder into the Plugins folder.
+
+    • CO$$7\_4x4\_HK Yongfu House.SC4Lot  =  Growable CO§§
+
+    • PLOP\_CO$$\_2x2\_HK Yongfu House.SC4Lot  =  Plopable CO§§
+
+    • PLOP\_2x2\_HK Yongfu House.SC4Lot   =  Landmark
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=17), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.60).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/21660-hk-yongfu-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e6d82fe825f34beb787dc0b4da43a2de-YH1.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e6d82fe825f34beb787dc0b4da43a2de-YH2.jpg
+dependencies:
+  - simfox:treepack-vol02
+assets:
+  - assetId: cockatoo-yongfu-house
+
+---
+assetId: cockatoo-yongfu-house
+version: "2.0"
+lastModified: "2025-09-27T17:49:36Z"
+url: https://community.simtropolis.com/files/file/21660-hk-yongfu-house/?do=download&r=209455

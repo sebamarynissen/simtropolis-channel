@@ -1,0 +1,92 @@
+group: cockatoo
+name: tomorrow-square
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Tomorrow Square
+  description: |-
+    **The Hong Kong/ Asia BAT Team Presents…**
+
+    **Tomorrow Square**
+
+    *Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    A request by SimCity player.
+
+    * * *
+
+    ***Overview:***
+
+    Tomorrow Square - a futuristic building completed around 2003 located in Shanghai, China. I’m calling this BAT a ‘partial’ recreation because several aspects of the model differ from the real world building, mainly around the base. The main part of the tower, its shape, size and proportions however remain true to the real structure.
+
+    I’ve included a Dark truNite model for day/night mod users in addition to a regular Maxis truNite model for those who don’t.
+
+    In this download there are three versions included.
+
+    -   Growable stage 8 CO§§ providing 2577 medium wealth jobs.
+    -   Growable stage 14 CO§§ providing 6695 medium wealth jobs.  (**CAM**)
+    -   Plopable functional CO§§ providing 6695 medium wealth jobs.
+    -   Plopable static landmark.
+
+    ***The stats are as follows:***
+
+    It's all in the README.
+
+    ***Dependencies:***
+
+    These are the files you need for these lots to be able to function in the game…
+
+    •   None!
+
+    ***Installation:***
+
+    Copy the HKBAT folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    If you want to use the CAM version, you must also copy the CAM folder.
+
+    -   *CO$$8\_3x3\_Tomorrow Square.SC4Lot  =  Growable CO§§*
+    -   *CO$$14\_3x3\_Tomorrow Square.SC4Lot =  Growable CO§§ CAMeLot*
+    -   *PLOP\_CO$$\_3x3\_Tomorrow Square.SC4Lot  =  Plopable CO§§*
+    -   *PLOP\_3x3\_Tomorrow Square.SC4Lot  =  Landmark*
+
+    ***Any Issues?***
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=27), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.60).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/25352-hk-tomorrow-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bc7de822a1f7c1323efee6be9c75c86e-TS1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bc7de822a1f7c1323efee6be9c75c86e-TS2.jpg
+variants:
+  - variant: { CAM: "no", nightmode: standard }
+    assets:
+      - assetId: cockatoo-tomorrow-square-cam
+        exclude:
+          - "/DN/"
+          - "/CO$$14_3x3_Tomorrow Square.SC4Lot"
+  - variant: { CAM: "yes", nightmode: standard }
+    assets:
+      - assetId: cockatoo-tomorrow-square-cam
+        exclude:
+          - "/DN/"
+          - "/CO$$8_3x3_Tomorrow Square.SC4Lot"
+  - variant: { CAM: "no", nightmode: dark }
+    assets:
+      - assetId: cockatoo-tomorrow-square-cam
+        exclude:
+          - "/MN/"
+          - "/CO$$14_3x3_Tomorrow Square.SC4Lot"
+  - variant: { CAM: "yes", nightmode: dark }
+    assets:
+      - assetId: cockatoo-tomorrow-square-cam
+        exclude:
+          - "/MN/"
+          - "/CO$$8_3x3_Tomorrow Square.SC4Lot"
+
+---
+assetId: cockatoo-tomorrow-square-cam
+version: "2.0"
+lastModified: "2025-09-27T18:02:15Z"
+url: https://community.simtropolis.com/files/file/25352-hk-tomorrow-square/?do=download&r=209466

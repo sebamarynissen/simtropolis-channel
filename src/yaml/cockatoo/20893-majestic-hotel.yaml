@@ -1,0 +1,165 @@
+group: cockatoo
+name: majestic-hotel
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Majestic Hotel
+  description: |-
+    **The Hong Kong/ Asia BAT Team Presents…**
+
+    Majestic Hotel
+
+    *Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    * * *
+
+    **Overview:**  The Majestic is a mid-rise hotel located In the Jordan District of the Kowloon Peninsular in Hong Kong. I’ve stayed there a few times, it’s a nice place, not what you’d expect from that part of town.
+
+    Unfortunately there are some issues with the night-lighting on zoom’s 1, 2 & 3. The roof appears brightly illuminated on these zoom levels while not on the two closest. This was just Gmax playing silly buggers during the render, there’s nothing that can be done, but luckily the lighting can only be fully appreciated from zoom’s 4 and 5 anyway.
+
+    This download is a near accurate representation of the real life building for SC4.
+
+    These lots were made with the X\_Tool, so they don’t give you smart ass remarks if you try to delete them.
+
+    In this download there are three versions included:
+
+    -   Growable Stage 7 CS§§ providing 1949 medium wealth jobs.
+    -   Growable Stage 13 CS§§ providing 2225 medium wealth jobs. (**CAM**)
+    -   Plopable functional CS§§ providing 1949 medium wealth jobs.
+    -   Plopable static landmark.
+
+    **The stats are as follows:**
+
+    **GROWABLE CO§§**
+
+    **Size:** 6x2
+
+    **Occupants:** CS§§ 1949
+
+    **Growth Stage:** Stage 7
+
+    **Zone Type:** High Density Commercial
+
+    **Tilesets:** Chicago, New York & Houston
+
+    **Power Used:** 134 MWh per Month
+
+    **Water Used:** 1602 Gallons per Month
+
+    **Flammability:** 40 – Stage 4
+
+    **Garbage Generated:** 83 Tones per Month
+
+    **Air Pollution:** 62 / 5 Tiles
+
+    **Water Pollution:** 41 / 6 Tiles
+
+    **Bulldoze Cost:** §1150
+
+    **GROWABLE CO§§ CAM**  
+    **Size:**  6x2  
+    **Occupants:**  CO§§ 2225  
+    **Growth Stage:**  Stage 13  
+    **Zone Type:**  High Density Commercial  
+    **Tilesets:**  Huston & Euro  
+    **Power Used:**  134 MWh per Month  
+    **Water Used:**  1602 Gallons per Month  
+    **Flammability:**  40 – Stage 4  
+    **Garbage Generated:**  14 Tones per Month  
+    **Air Pollution:** 62 / 5 Tiles  
+    **Water Pollution:**  41 / 6 Tiles  
+    **Bulldoze Cost:**  §1150
+
+    **PLOPABLE CO§§**
+
+    **Size:** 6x2
+
+    **Occupants:** CS§§ 1949
+
+    **Power Used:** 134 MWh per Month
+
+    **Water Used:** 1602 Gallons per Month
+
+    **Flammability:** 40 – Stage 4
+
+    **Garbage Generated:** 83 Tones per Month
+
+    **Air Pollution:** 83 / 5 Tiles
+
+    **Water Pollution:** 41 / 6 Tiles
+
+    **Bulldoze Cost:** §1150
+
+    **Plop Cost:** §19,140
+
+    **Menu Position:** Landmarks, near top
+
+    LANDMARK
+
+    **Size:** 6x2
+
+    **Power Used:** 100 MWh per Month
+
+    **Water Used:** -
+
+    **Flammability:** 10 – Stage 4
+
+    **Garbage Generated:** 16 Tones per Month
+
+    **Air Pollution:** 3 / 1 Tiles
+
+    **Water Pollution:** 2 / 2 Tiles
+
+    **Bulldoze Cost:** §1150
+
+    **Plop Cost:** §118,900
+
+    **Monthly Cost:** §150
+
+    **Landmark Effect:** 10 / 256 Tiles
+
+    **Mayor Rating:** 40 / 20 Tiles
+
+    **Menu Position:** Landmarks, near top
+
+    **Dependencies:**
+
+    These are the files you need for these lots to be able to function in the game…
+
+    • None today.
+
+    **Installation:**
+
+    Copy the HKBAT folder into the Plugins folder.  For those using Colossus Addon Mod, copy the CAM folder into the Plugins folder
+
+    -   *CS$$8\_6x2\_HK Majestic Hotel\_e6dcbc7a.SC4Lot =  Growable CO§§*
+    -   *CS$$13\_6x2\_HK Majestic Hotel\_56dcda3b.SC4Lot =  Growable CO§§ CAMeLot*
+    -   *PLOP\_CS$$\_6x2\_HK Majestic Hotel\_86dcb2d9.SC4Lot = Plopable CO§§*
+    -   *PLOP\_6x2\_HK Majestic Hotel\_b6dcb41a.SC4Lot =  Landmark*
+    -   *HK Majestic Hotel.dat = Building Models*
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=14), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.40).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/20893-hk-majestic-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6599e029bcb878949ea65a9d5bfb7ef9-MH1.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6599e029bcb878949ea65a9d5bfb7ef9-MH2.jpg
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cockatoo-majestic-hotel-cam
+        exclude:
+          - "/CS$$13_6x2_HK Majestic Hotel_56dcda3b.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cockatoo-majestic-hotel-cam
+        exclude:
+          - "/CS$$8_6x2_HK Majestic Hotel_e6dcbc7a.SC4Lot"
+
+---
+assetId: cockatoo-majestic-hotel-cam
+version: "2.0"
+lastModified: "2025-09-25T19:50:04Z"
+url: https://community.simtropolis.com/files/file/20893-hk-majestic-hotel/?do=download&r=209394

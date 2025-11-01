@@ -1,0 +1,73 @@
+group: cockatoo
+name: aig-tower
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: AIG Tower
+  description: |-
+    **The Hong Kong/ Asia BAT Team Presents…**
+
+    **AIG Tower**
+
+    *Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.*
+
+    * * *
+
+    **Overview:**  After what, two years, the long awaited AIG Tower has finally arrived. Let’s be honest, my first attempt at this building was, although well received, horrible. I’d only been BATing for a few months and the model itself was heavily flawed. However, with two years experience now under my belt, I can now finally do this building justice. I won’t bother listing the improvements made to the first version because, well, there isn’t a single thing that hasn’t been improved - it’s a totally new model made with a totally different program. The main points are that the model is now accurately shaped, scaled, textured and has night lighting that resembles that of the real building.
+
+    As we all know, since I started this project, the world has endured its greatest financial trouble since the great depression. Because of this, AIG lost its Hong Kong offices and the building is now called AIA Central. However, this project was started when AIG still had the offices (and I’m too lazy to re-name all my files!) so I’m sticking with the name and logo of AIG.
+
+    I payed attention to real life when making the model, and I also payed attention when modding it! Be warned, AIG is a troubled company these days! They have greedy executives who need like to spend all their shareholders money on gold watches and private jets and you’ll pay for this! Expect to fork out a ridiculous amount of money every month to ‘bail out AIG’ when using the landmark lot.
+
+    In this download there are three versions included:
+
+    -   Growable stage 8 CO§§ providing 2424 medium wealth jobs.
+    -   Growable stage 11 CO§§ providing 4360  medium wealth jobs. (**CAM**)
+    -   Plopable functional CO§§ providing 4360 medium wealth jobs.
+    -   Plopable static landmark.
+
+    **The stats are as follows:**
+
+    It's all in the README.
+
+    **Dependencies:**
+
+    These are the files you need for these lots to be able to function in the game…
+
+    • None today.
+
+    **Installation:**
+
+    Copy the HKBAT folder into the Plugins folder.  For those using Colossus Addon Mod, copy the CAM folder into the Plugins folder
+
+    -   CO$$11\_3x3\_HK AIG Tower.SC4Lot = *Growable CAM CO§§*
+    -   CO$$8\_3x3\_HK AIG Tower.SC4Lot  =  *Growable CO§§*
+    -   PLOP\_CO$$\_3x3\_HK AIG Tower.SC4Lot  =  *Plopable CO§§*
+    -   PLOP\_3x3\_HK AIG Tower.SC4Lot  =  *Landmark*
+    -   AIG Tower.SC4Model = 3D model
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=24), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.60).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/22985-hk-aig-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/171b92a20e0c26b68518b7962ff1497b-AIG1.jpg
+    - https://www.simtropolis.com/objects/screens/0004/171b92a20e0c26b68518b7962ff1497b-AIG2.jpg
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: cockatoo-kowloon-terrace-cam
+        exclude:
+          - "/CO$$11_3x3_HK AIG Tower.SC4Lot"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: cockatoo-kowloon-terrace-cam
+        exclude:
+          - "/CO$$8_3x3_HK AIG Tower.SC4Lot"
+
+---
+assetId: cockatoo-aig-tower-cam
+version: "2.0"
+lastModified: "2025-09-25T00:15:20Z"
+url: https://community.simtropolis.com/files/file/22985-hk-aig-tower/?do=download&r=209351
