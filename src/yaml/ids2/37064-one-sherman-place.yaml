@@ -1,0 +1,45 @@
+group: ids2
+name: one-sherman-place
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: One Sherman Place
+  description: |-
+    All killer no filler? More like all filler no killer. Based on a real building at 140 East 19th Street in Denver, Colorado, it's not exactly a landmark, but something about it still caught my eye. I also wanted to squeeze a little extra mileage out of the metal material I made for the Silberturm, so here we are. ![*:P](https://community.simtropolis.com/assets/emoticons/default_3.gif "*:P")
+
+    This building sits on a 2x1 lot and comes in growable and ploppable CO$$ varieties, both of which provide 206 jobs. It's not exactly a W2W because it maxes out the lot dimensions, but I found that it looks decent in a W2W setting.
+
+    Both Darknite and Maxisnite versions are provided. Only one may be used at a time. The Darknite version requires [SimFox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**: None
+
+    Special thanks to [@Barroco Hispano](https://community.simtropolis.com/profile/415633-barroco-hispano/) for the car models!
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/37064-one-sherman-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/68f591435041e_day2.jpg.36cc7d6fece6c60348c384a779eb485b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/68f59146a032a_day1.jpg.c79de267507fa4a11cc12fbed57ab941.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/68f5914a66e2f_night1.jpg.4701e0275f8830bb05db83a3f182bd80.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/68f5914ab3d23_night2.jpg.06aa964a73ad53e04107df3ded80db3f.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-one-sherman-place-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-one-sherman-place-darknite
+
+---
+assetId: ids2-one-sherman-place-darknite
+version: "1.0.0"
+lastModified: "2025-10-20T01:41:16Z"
+url: https://community.simtropolis.com/files/file/37064-one-sherman-place/?do=download&r=209706
+
+---
+assetId: ids2-one-sherman-place-maxisnite
+version: "1.0.0"
+lastModified: "2025-10-20T01:41:16Z"
+url: https://community.simtropolis.com/files/file/37064-one-sherman-place/?do=download&r=209707

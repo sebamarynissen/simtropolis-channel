@@ -1,0 +1,57 @@
+group: ids2
+name: bren-road-office-park
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Bren Road Office Park
+  description: |-
+    Located near (but not actually on) Bren Road, this generic late 70s office building can be found just off of highway 62 west of Minneapolis. A friend of mine used to work in its twin, which was torn down a few years ago, and I suspect this one will follow suit in the coming years. I drive past it frequently, so I figured it would be proper to immortalize this irreplaceable architectural marvel before it gets the wrecking ball.
+
+    This building sits on a 6x6 lot and comes in growable and ploppable CO$$ varieties, both of which provide 758 jobs.
+
+    Both Darknite and Maxisnite versions are provided. Only one may be used at a time. The Darknite version requires [SimFox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**:
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/37036-bren-road-office-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/icon.jpg.ae8428900c15de8be2c94bf566f8cf48.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/day1.jpg.0254c7e1019a03b9f9392eed4991fe7e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/day2.jpg.bb5df9d7309fd5cdf2a35ad7b54b3f3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/night1.jpg.c55bd253a5e4a5c17285414cdec2c566.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/night2.jpg.f68921b422df4c8803e8ddf277b171a3.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-jmyers-common-props
+  - bsc:textures-vol02
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-bren-road-office-park-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-bren-road-office-park-darknite
+
+---
+assetId: ids2-bren-road-office-park-darknite
+version: "1.0.0"
+lastModified: "2025-09-28T21:12:14Z"
+url: https://community.simtropolis.com/files/file/37036-bren-road-office-park/?do=download&r=209484
+
+---
+assetId: ids2-bren-road-office-park-maxisnite
+version: "1.0.0"
+lastModified: "2025-09-28T21:12:14Z"
+url: https://community.simtropolis.com/files/file/37036-bren-road-office-park/?do=download&r=209485

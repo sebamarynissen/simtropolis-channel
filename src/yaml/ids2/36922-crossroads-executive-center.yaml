@@ -1,0 +1,57 @@
+group: ids2
+name: crossroads-executive-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Crossroads Executive Center
+  description: |-
+    Built in 1973 (clearly) and located in the Chicago suburbs, this building's color is one of the few things that sets it apart from thousands of its peers. Seriously, spend any time in the suburbs of any major American city and you will encounter approximately a billion of these. But very few of them will be gold!
+
+    Somehow, this is not the [first](https://community.simtropolis.com/files/file/28968-riverview-office-tower/) shiny golden 1970s office tower I've made. I have an affinity for buildings with [colorful](https://community.simtropolis.com/files/file/28836-keillor-tower/) [glass](https://community.simtropolis.com/files/file/33984-alakea-corporate-tower/) [curtain](https://community.simtropolis.com/files/file/35259-yat-chau-international-plaza/) [walls](https://community.simtropolis.com/files/file/36895-la-tulipe/), okay? Sue me.
+
+    This building sits on a 5x6 lot and comes in growable and ploppable CO$$ varieties, both of which provide 1003 jobs.
+
+    Both Darknite and Maxisnite versions are provided. Only one may be used at a time. The Darknite version requires [SimFox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**:
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/36922-crossroads-executive-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/icon.jpg.8565de167a0ec709366a9be05c403e5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/68631b9a4f85f_day1.jpg.5d2c1ba81cb50118cd5cccf7a3dc0c14.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/68631b9b23005_day2.jpg.38111c41d565d4cfbac569f9b5175065.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/68631b9bbba8c_night1.jpg.b3e028470d3fba857c07bf106e35548e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/68631b9c60a00_night2.jpg.9a3e17b07da2b1d2897913c3a95a9d26.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-crossroads-executive-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-crossroads-executive-center-darknite
+
+---
+assetId: ids2-crossroads-executive-center-darknite
+version: "1.0.0"
+lastModified: "2025-06-30T23:31:43Z"
+url: https://community.simtropolis.com/files/file/36922-crossroads-executive-center/?do=download&r=208217
+
+---
+assetId: ids2-crossroads-executive-center-maxisnite
+version: "1.0.0"
+lastModified: "2025-06-30T23:31:43Z"
+url: https://community.simtropolis.com/files/file/36922-crossroads-executive-center/?do=download&r=208218
