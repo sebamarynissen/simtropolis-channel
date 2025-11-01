@@ -9,13 +9,6 @@ import { run as addPackages } from './manual-add.js';
 // Fetches all files for the given author(s) and adds them to the channel
 async function run(authors, argv) {
 
-	if (!authors || authors.length === 0) {
-		console.error(styleText('red', 'Error: Please provide at least one author name or ID'));
-		console.log('Usage: npm run add:author -- "author name" [additional authors...]');
-		console.log('Example: npm run add:author -- memo "NAM Team"');
-		process.exit(1);
-	}
-
 	const endpoint = argv.endpoint ?? 'https://community.simtropolis.com/stex/files-api.php';
 	const apiKey = process.env.STEX_API_KEY;
 
