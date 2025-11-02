@@ -398,7 +398,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 	md += '\n';
 
 	// Category breakdown
-	md += '## Missing Packages by Category\n\n';
+	md += '## Package Summary by Category\n\n';
 	const sortedCategories = Object.entries(stats.byCategory)
 		.sort(([, a], [, b]) => b.missingCount - a.missingCount);
 
@@ -411,7 +411,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 	md += '\n';
 
 	// All authors sorted by missing count
-	md += '## All Packages by Author\n\n';
+	md += '## Package Summary by Author\n\n';
 	const allAuthors = Object.entries(stats.byAuthor)
 		.map(([author, data]) => {
 			const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100);
@@ -467,17 +467,44 @@ async function run(argv) {
 		process.exit(1);
 	}
 
-	const endpoint = argv.endpoint ?? 'https://community.simtropolis.com/stex/files-api.php';
 	const format = argv.format ?? 'all';
 	const delay = argv.delay ?? 2000;
+	const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 
 	console.log(styleText('bold', '📊 STEX Coverage Analysis\n'));
+
+	// Step 0: Create output directory (needed for cache file access)
+	const outputDir = path.resolve(import.meta.dirname, '../coverage-report');
+	if (!fs.existsSync(outputDir)) {
+		fs.mkdirSync(outputDir, { recursive: true });
+	}
 
 	// Step 1: Build package index
 	const index = await buildIndex();
 
-	// Step 2: Fetch all STEX files
-	const stexFiles = await fetchAllStexFiles(apiKey, endpoint, delay);
+	// Step 2: Fetch all STEX files or load from cache
+	let stexFiles;
+	const cacheFile = path.join(outputDir, 'stex-files-cache.json');
+
+	if (argv['use-cache'] && fs.existsSync(cacheFile)) {
+		const spinner = ora('Loading from cache...').start();
+		const cached = JSON.parse(fs.readFileSync(cacheFile, 'utf8'));
+		stexFiles = cached.stexFiles;
+		const cacheDate = new Date(cached.cachedAt).toLocaleString();
+		spinner.succeed(`Loaded ${styleText('cyan', stexFiles.length.toString())} files from cache (cached: ${cacheDate})`);
+	} else {
+		stexFiles = await fetchAllStexFiles(apiKey, endpoint, delay);
+
+		// Save to cache if requested
+		if (argv.cache) {
+			const spinner = ora('Saving to cache...').start();
+			fs.writeFileSync(cacheFile, JSON.stringify({
+				cachedAt: new Date().toISOString(),
+				stexFiles,
+			}, null, 2));
+			spinner.succeed(`Cache saved to ${styleText('cyan', `"${cacheFile}"`)}`);
+		}
+	}
 
 	// Step 3: Find missing packages
 	const spinner = ora('Analyzing coverage...').start();
@@ -485,13 +512,7 @@ async function run(argv) {
 	const stats = generateStats(missing, stexFiles);
 	spinner.succeed('Analysis complete');
 
-	// Step 4: Create output directory
-	const outputDir = path.resolve(import.meta.dirname, '../coverage-report');
-	if (!fs.existsSync(outputDir)) {
-		fs.mkdirSync(outputDir, { recursive: true });
-	}
-
-	// Step 5: Generate output files
+	// Step 4: Generate output files
 	console.log();
 	const outputSpinner = ora('Generating reports...').start();
 	const outputs = [];
@@ -518,7 +539,7 @@ async function run(argv) {
 
 	outputSpinner.succeed('Reports generated');
 
-	// Step 6: Display summary
+	// Step 5: Display summary
 	console.log();
 	console.log(styleText('bold', '📈 Summary\n'));
 	console.log(`Total STEX files analyzed: ${styleText('cyan', stexFiles.length.toString())}`);
@@ -563,13 +584,18 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 			description: 'Delay between API requests in milliseconds',
 			default: 2000,
 		})
-		.option('endpoint', {
-			type: 'string',
-			description: 'STEX API endpoint URL',
-			hidden: true,
+		.option('cache', {
+			type: 'boolean',
+			description: 'Save API results to cache file for future use',
+			default: false,
+		})
+		.option('use-cache', {
+			type: 'boolean',
+			description: 'Load from cache instead of fetching from API',
+			default: false,
 		})
 		.version(false)
-		.group(['format', 'delay'], 'Options:')
+		.group(['format', 'delay', 'cache', 'use-cache'], 'Options:')
 		.group(['help'], 'Info:')
 		.help();
 
