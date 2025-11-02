@@ -146,29 +146,62 @@ function findMissingPackages(stexFiles, index) {
 }
 
 /**
- * Generates statistics from missing packages
+ * Generates statistics from missing packages and all STEX files
  */
-function generateStats(missing) {
+function generateStats(missing, stexFiles) {
 	const stats = {
 		total: missing.length,
 		byAuthor: {},
 		byCategory: {},
 	};
 
-	for (const pkg of missing) {
-		// Count by author
-		const authorName = pkg.authorName || 'Unknown';
+	// Count total files per author and category from all STEX files
+	for (const file of stexFiles) {
+		const authorName = file.author || 'Unknown';
+		const category = file.category || 'Unknown';
+
+		// Initialize author stats if needed
 		if (!stats.byAuthor[authorName]) {
 			stats.byAuthor[authorName] = {
-				count: 0,
+				missingCount: 0,
+				totalFiles: 0,
+				authorId: file.uid,
+			};
+		}
+		stats.byAuthor[authorName].totalFiles++;
+
+		// Initialize category stats if needed
+		if (!stats.byCategory[category]) {
+			stats.byCategory[category] = {
+				missingCount: 0,
+				totalFiles: 0,
+			};
+		}
+		stats.byCategory[category].totalFiles++;
+	}
+
+	// Count missing packages per author and category
+	for (const pkg of missing) {
+		const authorName = pkg.authorName || 'Unknown';
+		const category = pkg.category || 'Unknown';
+
+		// Initialize if not already done (shouldn't happen, but be safe)
+		if (!stats.byAuthor[authorName]) {
+			stats.byAuthor[authorName] = {
+				missingCount: 0,
+				totalFiles: 0,
 				authorId: pkg.authorId,
 			};
 		}
-		stats.byAuthor[authorName].count++;
+		stats.byAuthor[authorName].missingCount++;
 
-		// Count by category
-		const category = pkg.category || 'Unknown';
-		stats.byCategory[category] = (stats.byCategory[category] || 0) + 1;
+		if (!stats.byCategory[category]) {
+			stats.byCategory[category] = {
+				missingCount: 0,
+				totalFiles: 0,
+			};
+		}
+		stats.byCategory[category].missingCount++;
 	}
 
 	return stats;
@@ -208,20 +241,17 @@ function outputToSqlite(missing, stats, outputDir) {
 		CREATE INDEX idx_author ON missing_packages(author_name);
 		CREATE INDEX idx_category ON missing_packages(category);
 
-		CREATE TABLE stats (
-			key TEXT PRIMARY KEY,
-			value TEXT
-		);
-
 		CREATE TABLE author_stats (
 			author_name TEXT PRIMARY KEY,
 			author_id INTEGER,
-			package_count INTEGER
+			missing_count INTEGER,
+			total_files INTEGER
 		);
 
 		CREATE TABLE category_stats (
 			category TEXT PRIMARY KEY,
-			package_count INTEGER
+			missing_count INTEGER,
+			total_files INTEGER
 		);
 	`);
 
@@ -244,20 +274,16 @@ function outputToSqlite(missing, stats, outputDir) {
 		);
 	}
 
-	// Insert overall stats
-	const insertStat = db.prepare('INSERT INTO stats VALUES (?, ?)');
-	insertStat.run('total', stats.total.toString());
-
 	// Insert author stats
-	const insertAuthor = db.prepare('INSERT INTO author_stats VALUES (?, ?, ?)');
+	const insertAuthor = db.prepare('INSERT INTO author_stats VALUES (?, ?, ?, ?)');
 	for (const [author, data] of Object.entries(stats.byAuthor)) {
-		insertAuthor.run(author, data.authorId, data.count);
+		insertAuthor.run(author, data.authorId, data.missingCount, data.totalFiles);
 	}
 
 	// Insert category stats
-	const insertCategory = db.prepare('INSERT INTO category_stats VALUES (?, ?)');
-	for (const [category, count] of Object.entries(stats.byCategory)) {
-		insertCategory.run(category, count);
+	const insertCategory = db.prepare('INSERT INTO category_stats VALUES (?, ?, ?)');
+	for (const [category, data] of Object.entries(stats.byCategory)) {
+		insertCategory.run(category, data.missingCount, data.totalFiles);
 	}
 
 	db.close();
@@ -328,25 +354,27 @@ function outputToMarkdown(missing, stats, outputDir) {
 	// Top authors
 	md += '## Top Authors with Missing Packages\n\n';
 	const sortedAuthors = Object.entries(stats.byAuthor)
-		.sort(([, a], [, b]) => b.count - a.count)
+		.sort(([, a], [, b]) => b.missingCount - a.missingCount)
 		.slice(0, 20);
 
-	md += '| Author | Count | Author ID |\n';
-	md += '|--------|-------|----------|\n';
+	md += '| Author | Missing | Total | Coverage | Author ID |\n';
+	md += '|--------|---------|-------|----------|----------|\n';
 	for (const [author, data] of sortedAuthors) {
-		md += `| ${author} | ${data.count} | ${data.authorId} |\n`;
+		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
+		md += `| ${author} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | ${data.authorId} |\n`;
 	}
 	md += '\n';
 
 	// Category breakdown
 	md += '## Missing Packages by Category\n\n';
 	const sortedCategories = Object.entries(stats.byCategory)
-		.sort(([, a], [, b]) => b - a);
+		.sort(([, a], [, b]) => b.missingCount - a.missingCount);
 
-	md += '| Category | Count |\n';
-	md += '|----------|-------|\n';
-	for (const [category, count] of sortedCategories) {
-		md += `| ${category} | ${count} |\n`;
+	md += '| Category | Missing | Total | Coverage |\n';
+	md += '|----------|---------|-------|----------|\n';
+	for (const [category, data] of sortedCategories) {
+		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
+		md += `| ${category} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% |\n`;
 	}
 	md += '\n';
 
@@ -402,7 +430,7 @@ async function run(argv) {
 	// Step 3: Find missing packages
 	const spinner = ora('Analyzing coverage...').start();
 	const missing = findMissingPackages(stexFiles, index);
-	const stats = generateStats(missing);
+	const stats = generateStats(missing, stexFiles);
 	spinner.succeed('Analysis complete');
 
 	// Step 4: Create output directory
