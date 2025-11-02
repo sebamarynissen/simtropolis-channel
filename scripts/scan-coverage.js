@@ -416,7 +416,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 	for (const [author, data] of sortedAuthors) {
 		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
 		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
-		const detailHeading = `${author} (${data.missingFiles} packages missing)`;
+		const detailHeading = `${author} (${data.missingCount} packages missing)`;
 		const detailAnchor = `#${generateAnchor(detailHeading)}`;
 		md += `| [${escapeMarkdown(author)}](<${profileUrl}>) | ${data.authorId} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
 	}
@@ -449,7 +449,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 	md += '|--------|-----------|---------|-------|----------|----------|\n';
 	for (const [author, data, coveragePercent] of allAuthors) {
 		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
-		const detailHeading = `${author} (${data.totalFiles} packages)`;
+		const detailHeading = `${author} (${data.missingCount} packages missing)`;
 		const detailAnchor = `#${generateAnchor(detailHeading)}`;
 		md += `| [${escapeMarkdown(author)}](<${profileUrl}>) | ${data.authorId} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
 	}
