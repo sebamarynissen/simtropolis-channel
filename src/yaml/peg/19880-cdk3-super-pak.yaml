@@ -43,6 +43,7 @@ assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
       - "/PEG-CDK3_SUPER_PAK_RESOURCE.dat"
+      - "/PEG-SUPER_TEXTURES.dat"
       - "/PEG-SUPER_TEXTURES_RRWOverride.dat"
     withConditions:
       - ifVariant: { roadstyle: "US" }

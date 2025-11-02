@@ -28,7 +28,25 @@ info:
     - https://www.simtropolis.com/objects/screens/0008/44f14d8e11e56c073ed8753321641b37-product_image1.jpg
 dependencies:
   - peg:cdk3-super-pak
+  - peg:cdk3-boatyard-resource
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
       - "/PEG-CDK3_BlackiesBoatYard.dat"
+
+---
+group: peg
+name: cdk3-boatyard-resource
+version: "1.0-1"
+subfolder: 100-props-textures
+info:
+  summary: Props and models for `pkg=peg:cdk3-blackies-boatyard`
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19341-peg-cdk3-blackies-boatyard/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/44f14d8e11e56c073ed8753321641b37-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0008/44f14d8e11e56c073ed8753321641b37-product_image1.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_BoatYard_RESOURCE.dat"
