@@ -123,6 +123,8 @@ async function fetchAllStexFiles(apiKey, endpoint, delayMs = 2000) {
  */
 function findMissingPackages(stexFiles, index) {
 	const missing = [];
+	let simtropolisCount = 0;
+	let mainChannelCount = 0;
 
 	for (const file of stexFiles) {
 		const fileId = file.id.toString();
@@ -141,10 +143,17 @@ function findMissingPackages(stexFiles, index) {
 				submittedDate: file.submitted,
 				updatedDate: file.updated,
 			});
+		} else {
+			// Package is covered - determine which channel
+			if (packageInfo.local) {
+				simtropolisCount++;
+			} else {
+				mainChannelCount++;
+			}
 		}
 	}
 
-	return missing;
+	return { missing, simtropolisCount, mainChannelCount };
 }
 
 /**
@@ -371,7 +380,7 @@ function outputToCsv(missing, outputDir) {
 /**
  * Outputs results to Markdown file
  */
-function outputToMarkdown(missing, stats, outputDir) {
+function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount) {
 	const mdPath = path.join(outputDir, 'coverage.md');
 
 	let md = '# STEX Coverage Report\n\n';
@@ -391,6 +400,8 @@ function outputToMarkdown(missing, stats, outputDir) {
 
 	md += `- **STEX files analyzed**: ${totalFiles}\n`;
 	md += `- **Covered packages**: ${packagesInChannels}\n`;
+	md += `  - **Simtropolis**: ${simtropolisCount}\n`;
+	md += `  - **Main**: ${mainChannelCount}\n`;
 	md += `- **Missing packages**: ${stats.total}\n`;
 	md += `- **Overall coverage**: ${overallCoverage}%\n`;
 	md += `- **Total authors**: ${totalAuthors}\n`;
@@ -624,7 +635,7 @@ async function run(argv) {
 
 	// Step 3: Find missing packages
 	const spinner = ora('Analyzing coverage...').start();
-	const missing = findMissingPackages(stexFiles, index);
+	const { missing, simtropolisCount, mainChannelCount } = findMissingPackages(stexFiles, index);
 	const stats = generateStats(missing, stexFiles);
 	spinner.succeed('Analysis complete');
 
@@ -649,7 +660,7 @@ async function run(argv) {
 	}
 
 	if (format === 'all' || format === 'markdown') {
-		const mdPath = outputToMarkdown(missing, stats, outputDir);
+		const mdPath = outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount);
 		const htmlPath = mdPath.replace(/\.md$/, '.html');
 		outputs.push(`Markdown: ${styleText('cyan', `"${mdPath}"`)}`);
 		outputs.push(`HTML: ${styleText('cyan', `"${htmlPath}"`)}`);
