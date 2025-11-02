@@ -18,6 +18,7 @@
   "scripts": {
     "add": "node --env-file=.env scripts/manual-add.js",
     "add:author": "node --env-file=.env scripts/add-by-author.js",
+    "coverage": "node --env-file=.env scripts/scan-coverage.js",
     "build": "sc4pac channel build -o dist/channel src/yaml",
     "build:extensions": "node extensions/build/build.js",
     "pack:extensions": "cd extensions/dist/chrome && 7z a ../chrome.zip * && cd ../firefox && 7z a ../firefox.zip *",

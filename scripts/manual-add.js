@@ -71,7 +71,7 @@ export async function run(urls, argv) {
 // # buildIndex()
 // This function builds up the index that maps all stex urls that have a package
 const defaultUrl = 'https://memo33.github.io/sc4pac/channel/';
-async function buildIndex() {
+export async function buildIndex() {
 	let spinner = ora(`Building up package index`).start();
 	let index = {
 		stex,
