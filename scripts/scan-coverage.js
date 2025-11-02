@@ -467,7 +467,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 	}
 
 	for (const [author, packages] of Object.entries(byAuthor).sort(([, a], [, b]) => b.length - a.length)) {
-		md += `### ${author} (${packages.length} packages)\n\n`;
+		md += `### ${author} (${packages.length} packages missing)\n\n`;
 		for (const pkg of packages) {
 			const title = pkg.title || 'Unknown';
 			const url = pkg.stexUrl || '#';
