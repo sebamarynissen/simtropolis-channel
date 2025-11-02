@@ -6,6 +6,7 @@ import { styleText } from 'node:util';
 import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 import ora from 'ora';
+import { marked } from 'marked';
 
 // Import existing index building functionality
 import { buildIndex } from './manual-add.js';
@@ -477,6 +478,76 @@ function outputToMarkdown(missing, stats, outputDir) {
 	}
 
 	fs.writeFileSync(mdPath, md);
+
+	// Also generate HTML version
+	const htmlPath = path.join(outputDir, 'coverage.html');
+	const htmlContent = marked.parse(md);
+	const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>STEX Coverage Report</title>
+	<style>
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+			line-height: 1.6;
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin: 20px 0;
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 8px 12px;
+			text-align: left;
+		}
+		th {
+			background-color: #f6f8fa;
+			font-weight: 600;
+		}
+		tr:hover {
+			background-color: #f6f8fa;
+		}
+		a {
+			color: #0969da;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		h1, h2, h3 {
+			margin-top: 24px;
+			margin-bottom: 16px;
+		}
+		h1 {
+			border-bottom: 1px solid #eaecef;
+			padding-bottom: 10px;
+		}
+		h2 {
+			border-bottom: 1px solid #eaecef;
+			padding-bottom: 8px;
+		}
+		code {
+			background-color: #f6f8fa;
+			padding: 2px 6px;
+			border-radius: 3px;
+			font-family: ui-monospace, monospace;
+		}
+	</style>
+</head>
+<body>
+${htmlContent}
+</body>
+</html>`;
+
+	fs.writeFileSync(htmlPath, html);
+
 	return mdPath;
 }
 
@@ -558,7 +629,9 @@ async function run(argv) {
 
 	if (format === 'all' || format === 'markdown') {
 		const mdPath = outputToMarkdown(missing, stats, outputDir);
+		const htmlPath = mdPath.replace(/\.md$/, '.html');
 		outputs.push(`Markdown: ${styleText('cyan', `"${mdPath}"`)}`);
+		outputs.push(`HTML: ${styleText('cyan', `"${htmlPath}"`)}`);
 	}
 
 	outputSpinner.succeed('Reports generated');
