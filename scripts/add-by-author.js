@@ -115,9 +115,8 @@ const { argv } = yargs(hideBin(process.argv))
 	.example('$0 memo', 'Add all files by memo')
 	.example('$0 memo "NAM Team"', 'Add files by multiple authors')
 	.example('$0 95442', 'Add all files by author ID 95442 (memo)')
-	.example('$0 memo --update', 'Add and update existing packages for memo')
+	.example('$0 memo -u', 'Add and update existing packages for memo')
 	.example('$0 memo -y', 'Skip confirmation prompt')
-	.example('$0 memo --cache /custom/cache', 'Use custom cache directory')
 	.option('update', {
     alias: 'u',
 		type: 'boolean',
@@ -130,21 +129,10 @@ const { argv } = yargs(hideBin(process.argv))
 		description: 'Skip confirmation prompt',
 		default: false,
 	})
-	.option('cache', {
-    alias: 'c',
-		type: 'string',
-		description: 'Path to sc4pac cache directory',
-	})
-	.option('endpoint', {
-    alias: 'e',
-		type: 'string',
-		description: 'STEX API endpoint URL (for testing)',
-		default: 'https://community.simtropolis.com/stex/files-api.php',
-	})
 	.version(false)
-  .group(['update', 'yes', 'cache', 'endpoint'], 'Options:')
+  .group(['update', 'yes'], 'Options:')
   .group(['help'], 'Info:')
-	.demandCommand(1, 'Please provide at least one author name or ID')
+	.demandCommand(1, styleText('red', 'Please provide at least one author name or ID'))
 	.help();
 
 await run(argv._, argv);

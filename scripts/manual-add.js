@@ -174,7 +174,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 		.version(false)
 		.group(['update'], 'Options:')
 		.group(['help'], 'Info:')
-		.demandCommand(1, 'Please provide at least one STEX URL')
+		.demandCommand(1, styleText('red', 'Please provide at least one STEX URL'))
 		.help();
 
 	await run(argv._, argv);
