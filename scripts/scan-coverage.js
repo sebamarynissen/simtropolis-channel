@@ -209,6 +209,30 @@ function generateStats(missing, stexFiles) {
 }
 
 /**
+ * Escape special characters in text for Markdown tables
+ * Escapes: | [ ] ( )
+ */
+function escapeMarkdown(text) {
+	return text
+		.replace(/\|/g, '\\|')
+		.replace(/\[/g, '\\[')
+		.replace(/\]/g, '\\]')
+		.replace(/\(/g, '\\(')
+		.replace(/\)/g, '\\)');
+}
+
+/**
+ * Generate GitHub-style anchor from heading text
+ * Example: "memo (100 packages)" -> "memo-100-packages"
+ */
+function generateAnchor(heading) {
+	return heading
+		.toLowerCase()
+		.replace(/\s+/g, '-')
+		.replace(/[^a-z0-9-]/g, '');
+}
+
+/**
  * Outputs results to SQLite database
  */
 function outputToSqlite(missing, stats, outputDir) {
@@ -362,11 +386,14 @@ function outputToMarkdown(missing, stats, outputDir) {
 		.sort(([, a], [, b]) => b.missingCount - a.missingCount)
 		.slice(0, 20);
 
-	md += '| Author | Missing | Total | Coverage | Author ID |\n';
-	md += '|--------|---------|-------|----------|----------|\n';
+	md += '| Author | Author ID | Missing | Total | Coverage | Details |\n';
+	md += '|--------|-----------|---------|-------|----------|----------|\n';
 	for (const [author, data] of sortedAuthors) {
 		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
-		md += `| ${author} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | ${data.authorId} |\n`;
+		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
+		const detailHeading = `${author} (${data.missingFiles} packages)`;
+		const detailAnchor = `#${generateAnchor(detailHeading)}`;
+		md += `| [${escapeMarkdown(author)}](<${profileUrl}>) | ${data.authorId} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -380,6 +407,26 @@ function outputToMarkdown(missing, stats, outputDir) {
 	for (const [category, data] of sortedCategories) {
 		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
 		md += `| ${category} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% |\n`;
+	}
+	md += '\n';
+
+	// All authors sorted by missing count
+	md += '## All Packages by Author\n\n';
+	const allAuthors = Object.entries(stats.byAuthor)
+		.map(([author, data]) => {
+			const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100);
+			return [author, data, coveragePercent];
+		})
+		// Sort by missing count descending (most missing first)
+		.sort(([, a], [, b]) => b.missingCount - a.missingCount);
+
+	md += '| Author | Author ID | Missing | Total | Coverage | Details |\n';
+	md += '|--------|-----------|---------|-------|----------|----------|\n';
+	for (const [author, data, coveragePercent] of allAuthors) {
+		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
+		const detailHeading = `${author} (${data.totalFiles} packages)`;
+		const detailAnchor = `#${generateAnchor(detailHeading)}`;
+		md += `| [${escapeMarkdown(author)}](<${profileUrl}>) | ${data.authorId} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -451,22 +498,22 @@ async function run(argv) {
 
 	if (format === 'all' || format === 'sqlite') {
 		const dbPath = outputToSqlite(missing, stats, outputDir);
-		outputs.push(`SQLite: ${styleText('cyan', dbPath)}`);
+		outputs.push(`SQLite: ${styleText('cyan', `"${dbPath}"`)}`);
 	}
 
 	if (format === 'all' || format === 'json') {
 		const jsonPath = outputToJson(missing, stats, outputDir);
-		outputs.push(`JSON: ${styleText('cyan', jsonPath)}`);
+		outputs.push(`JSON: ${styleText('cyan', `"${jsonPath}"`)}`);
 	}
 
 	if (format === 'all' || format === 'csv') {
 		const csvPath = outputToCsv(missing, outputDir);
-		outputs.push(`CSV: ${styleText('cyan', csvPath)}`);
+		outputs.push(`CSV: ${styleText('cyan', `"${csvPath}"`)}`);
 	}
 
 	if (format === 'all' || format === 'markdown') {
 		const mdPath = outputToMarkdown(missing, stats, outputDir);
-		outputs.push(`Markdown: ${styleText('cyan', mdPath)}`);
+		outputs.push(`Markdown: ${styleText('cyan', `"${mdPath}"`)}`);
 	}
 
 	outputSpinner.succeed('Reports generated');
