@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { createInterface } from 'node:readline';
 import { styleText } from 'node:util';
 import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
@@ -70,11 +71,33 @@ async function run(authors, argv) {
 	console.log(styleText('cyan', `\nTotal files found: ${allFiles.length}`));
 
 	// Show what we're about to process
-	console.log(styleText('cyan', '\nFiles to be added:'));
+	console.log(styleText('cyan', '\nFiles to be processed:'));
 	for (let file of allFiles) {
 		console.log(`  ${file.id}: ${file.title} (${file.author})`);
 	}
 	console.log();
+
+	// Show action summary and prompt for confirmation
+	console.log(styleText('yellow', 'Action summary:'));
+	console.log(`  - ${styleText('cyan', `${allFiles.length} files`)} will be processed`);
+	console.log(`  - New packages will be ${styleText('green', 'created')}`);
+	console.log(`  - Existing packages will be ${argv.update ? styleText('green', 'updated') : styleText('red', 'skipped') + ' (use --update to refresh all packages)'}`);
+
+	if (!argv.yes) {
+		const rl = createInterface({
+			input: process.stdin,
+			output: process.stdout,
+		});
+		const answer = await new Promise(resolve => {
+			rl.question('\nContinue? [y/N] ', resolve);
+		});
+		rl.close();
+
+		if (answer.toLowerCase() !== 'y') {
+			console.log('Cancelled');
+			return;
+		}
+	}
 
 	// Convert files to URLs and use shared logic from manual-add
 	let urls = allFiles.map(file => file.fileURL);
@@ -87,23 +110,42 @@ const scriptName = isNpm ?
 			`npm run ${process.env.npm_lifecycle_event} --` :
 			'add-by-author.js';
 
-// Parse command line arguments
+// Define command line arguments and documentation
 const { argv } = yargs(hideBin(process.argv))
 	.scriptName(scriptName)
 	.usage('Usage: $0 <author...> [options]')
 	.example('$0 memo', 'Add all files by memo')
 	.example('$0 memo "NAM Team"', 'Add files by multiple authors')
 	.example('$0 95442', 'Add all files by author ID 95442 (memo)')
+	.example('$0 memo --update', 'Add and update existing packages for memo')
+	.example('$0 memo -y', 'Skip confirmation prompt')
 	.example('$0 memo --cache /custom/cache', 'Use custom cache directory')
+	.option('update', {
+    alias: 'u',
+		type: 'boolean',
+		description: 'Update existing local packages',
+		default: false,
+	})
+	.option('yes', {
+		alias: 'y',
+		type: 'boolean',
+		description: 'Skip confirmation prompt',
+		default: false,
+	})
 	.option('cache', {
+    alias: 'c',
 		type: 'string',
 		description: 'Path to sc4pac cache directory',
 	})
 	.option('endpoint', {
+    alias: 'e',
 		type: 'string',
 		description: 'STEX API endpoint URL (for testing)',
 		default: 'https://community.simtropolis.com/stex/files-api.php',
 	})
+	.version(false)
+  .group(['update', 'yes', 'cache', 'endpoint'], 'Options:')
+  .group(['help'], 'Info:')
 	.demandCommand(1, 'Please provide at least one author name or ID')
 	.help();
 

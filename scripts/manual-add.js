@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import path from 'node:path';
 import fs from 'node:fs';
+import { pathToFileURL } from 'node:url';
 import { styleText } from 'node:util';
 import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
@@ -22,18 +23,24 @@ export async function run(urls, argv) {
 	urls = [urls].flat().sort();
 	let dependencyIndex = await buildIndex();
 
-	// Once we have the index, we'll still filter out the urls that are already
-	// processed. They might either be present on the Simtropolis channel, or on
-	// the default channel already.
+	// Filter out URLs that are already present on other channels (like the
+	// default channel). URLs that exist locally in this channel will be
+	// reprocessed to update their metadata unless --no-update is specified.
 	urls = urls.filter(url => {
 		let id = urlToFileId(url);
 		let pkg = dependencyIndex.stex[id];
-		if (pkg && !pkg.local) {
-			console.log(styleText('yellow', `${url} is already present on one of the channels`));
-			return false;
-		} else {
-			return true;
+		if (pkg) {
+			if (pkg.local && !argv.update) {
+				console.log(styleText('yellow', '⊘') + styleText('dim', ` Skipping ${url} (already exists
+  locally, use --update to refresh)`));
+				return false;
+			}
+			if (!pkg.local) {
+				console.log(styleText('yellow', '⊘') + styleText('dim', ` Skipping ${url} (already present in one of the channels)`));
+				return false;
+			}
 		}
+		return true;
 	});
 
 	const {
@@ -144,7 +151,31 @@ async function addFileToIndex(index, file) {
 }
 
 // Only run when executed directly (not when imported as a module)
-if (import.meta.url === `file://${process.argv[1]}`) {
-	const { argv } = yargs(hideBin(process.argv));
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+	// Detect if running via npm and customize script name in help output
+	const isNpm = !!process.env.npm_lifecycle_event;
+	const scriptName = isNpm ?
+		`npm run ${process.env.npm_lifecycle_event} --` :
+		'manual-add.js';
+
+	// Define command line arguments and documentation
+	const { argv } = yargs(hideBin(process.argv))
+		.scriptName(scriptName)
+		.usage('Usage: $0 <url...> [options]')
+		.example('$0 https://community.simtropolis.com/files/file/12345-example/', 'Add a single package by URL')
+		.example('$0 <url1> <url2> <url3>', 'Add multiple packages')
+		.example('$0 <url> --no-update', 'Skip if package already exists locally')
+		.option('update', {
+			alias: 'u',
+			type: 'boolean',
+			description: 'Update existing local packages',
+			default: true,
+		})
+		.version(false)
+		.group(['update'], 'Options:')
+		.group(['help'], 'Info:')
+		.demandCommand(1, 'Please provide at least one STEX URL')
+		.help();
+
 	await run(argv._, argv);
 }
