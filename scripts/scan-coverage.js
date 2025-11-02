@@ -411,14 +411,14 @@ function outputToMarkdown(missing, stats, outputDir) {
 		.sort(([, a], [, b]) => b.missingCount - a.missingCount)
 		.slice(0, 20);
 
-	md += '| Author | Author ID | Missing | Total | Coverage | Details |\n';
-	md += '|--------|-----------|---------|-------|----------|----------|\n';
+	md += '| Author | Missing | Total | Coverage | Details |\n';
+	md += '|--------|---------|-------|----------|----------|\n';
 	for (const [author, data] of sortedAuthors) {
 		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
 		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
 		const detailHeading = `${author} (${data.missingCount} packages missing)`;
 		const detailAnchor = `#${generateAnchor(detailHeading)}`;
-		md += `| [${escapeMarkdown(author)}](<${profileUrl}>) | ${data.authorId} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
+		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -445,13 +445,13 @@ function outputToMarkdown(missing, stats, outputDir) {
 		// Sort by missing count descending (most missing first)
 		.sort(([, a], [, b]) => b.missingCount - a.missingCount);
 
-	md += '| Author | Author ID | Missing | Total | Coverage | Details |\n';
-	md += '|--------|-----------|---------|-------|----------|----------|\n';
+	md += '| Author | Missing | Total | Coverage | Details |\n';
+	md += '|--------|---------|-------|----------|----------|\n';
 	for (const [author, data, coveragePercent] of allAuthors) {
 		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
 		const detailHeading = `${author} (${data.missingCount} packages missing)`;
 		const detailAnchor = `#${generateAnchor(detailHeading)}`;
-		md += `| [${escapeMarkdown(author)}](<${profileUrl}>) | ${data.authorId} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
+		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
