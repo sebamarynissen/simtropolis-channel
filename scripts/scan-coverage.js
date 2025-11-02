@@ -51,9 +51,6 @@ async function fetchAllStexFiles(apiKey, endpoint, delayMs = 2000) {
 		url.searchParams.set('sort', 'asc');
 		url.searchParams.set('offset', offset.toString());
 		url.searchParams.set('limit', limit.toString());
-		url.searchParams.set('metadata', 'true');
-		url.searchParams.set('desctype', 'html,urls');
-		url.searchParams.set('images', 'main');
 
 		spinner.text = `Fetching batch ${batch} (offset ${offset})...`;
 
@@ -66,7 +63,7 @@ async function fetchAllStexFiles(apiKey, endpoint, delayMs = 2000) {
 
 				if (res.status === 429) {
 					// Rate limited - wait longer and retry
-					const waitTime = delayMs * Math.pow(2, retries);
+					const waitTime = delayMs * (2 ** retries);
 					spinner.text = `Rate limited, waiting ${waitTime / 1000}s before retry ${retries + 1}/${maxRetries}...`;
 					await sleep(waitTime);
 					retries++;
@@ -103,14 +100,15 @@ async function fetchAllStexFiles(apiKey, endpoint, delayMs = 2000) {
 					await sleep(delayMs);
 				}
 
-				break; // Success, exit retry loop
+				// Success, exit retry loop
+				break;
 			} catch (error) {
 				if (retries === maxRetries) {
 					spinner.fail('Failed to fetch STEX files');
 					throw error;
 				}
 				retries++;
-				const waitTime = delayMs * Math.pow(2, retries);
+				const waitTime = delayMs * (2 ** retries);
 				spinner.text = `Error, waiting ${waitTime / 1000}s before retry ${retries}/${maxRetries}...`;
 				await sleep(waitTime);
 			}
@@ -140,29 +138,6 @@ function findMissingPackages(stexFiles, index) {
 				stexUrl: file.fileURL,
 				submittedDate: file.submitted,
 				updatedDate: file.updated,
-				hasMetadata: !!file.metadata,
-				missingFrom: 'both',
-			});
-			continue;
-		}
-
-		// Check if it's local-only (not in main channel)
-		const hasLocal = packageInfo.local;
-		const hasRemote = packageInfo.size > (hasLocal ? 1 : 0);
-
-		if (hasLocal && !hasRemote) {
-			missing.push({
-				fileId: file.id,
-				authorName: file.author,
-				authorId: file.uid,
-				title: file.title,
-				category: file.category,
-				descriptor: file.descriptor,
-				stexUrl: file.fileURL,
-				submittedDate: file.submitted,
-				updatedDate: file.updated,
-				hasMetadata: !!file.metadata,
-				missingFrom: 'main',
 			});
 		}
 	}
@@ -178,27 +153,22 @@ function generateStats(missing) {
 		total: missing.length,
 		byAuthor: {},
 		byCategory: {},
-		withMetadata: missing.filter(p => p.hasMetadata).length,
-		missingFromBoth: missing.filter(p => p.missingFrom === 'both').length,
-		missingFromMain: missing.filter(p => p.missingFrom === 'main').length,
 	};
 
 	for (const pkg of missing) {
 		// Count by author
-		if (!stats.byAuthor[pkg.authorName]) {
-			stats.byAuthor[pkg.authorName] = {
+		const authorName = pkg.authorName || 'Unknown';
+		if (!stats.byAuthor[authorName]) {
+			stats.byAuthor[authorName] = {
 				count: 0,
 				authorId: pkg.authorId,
-				withMetadata: 0,
 			};
 		}
-		stats.byAuthor[pkg.authorName].count++;
-		if (pkg.hasMetadata) {
-			stats.byAuthor[pkg.authorName].withMetadata++;
-		}
+		stats.byAuthor[authorName].count++;
 
 		// Count by category
-		stats.byCategory[pkg.category] = (stats.byCategory[pkg.category] || 0) + 1;
+		const category = pkg.category || 'Unknown';
+		stats.byCategory[category] = (stats.byCategory[category] || 0) + 1;
 	}
 
 	return stats;
@@ -212,7 +182,7 @@ function outputToSqlite(missing, stats, outputDir) {
 		throw new Error('SQLite support requires the better-sqlite3 package. Install it with: npm install -D better-sqlite3');
 	}
 
-	const dbPath = path.join(outputDir, 'coverage.db');
+	const dbPath = path.join(outputDir, 'coverage.sqlite3');
 
 	// Remove existing database if it exists
 	if (fs.existsSync(dbPath)) {
@@ -232,15 +202,11 @@ function outputToSqlite(missing, stats, outputDir) {
 			descriptor TEXT,
 			stex_url TEXT,
 			submitted_date TEXT,
-			updated_date TEXT,
-			has_metadata BOOLEAN,
-			missing_from TEXT
+			updated_date TEXT
 		);
 
 		CREATE INDEX idx_author ON missing_packages(author_name);
 		CREATE INDEX idx_category ON missing_packages(category);
-		CREATE INDEX idx_missing_from ON missing_packages(missing_from);
-		CREATE INDEX idx_has_metadata ON missing_packages(has_metadata);
 
 		CREATE TABLE stats (
 			key TEXT PRIMARY KEY,
@@ -250,8 +216,7 @@ function outputToSqlite(missing, stats, outputDir) {
 		CREATE TABLE author_stats (
 			author_name TEXT PRIMARY KEY,
 			author_id INTEGER,
-			package_count INTEGER,
-			with_metadata INTEGER
+			package_count INTEGER
 		);
 
 		CREATE TABLE category_stats (
@@ -262,36 +227,31 @@ function outputToSqlite(missing, stats, outputDir) {
 
 	// Insert missing packages
 	const insertPackage = db.prepare(`
-		INSERT INTO missing_packages VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		INSERT INTO missing_packages VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
 	`);
 
 	for (const pkg of missing) {
 		insertPackage.run(
 			pkg.fileId,
-			pkg.authorName,
-			pkg.authorId,
-			pkg.title,
-			pkg.category,
-			pkg.descriptor,
-			pkg.stexUrl,
-			pkg.submittedDate,
-			pkg.updatedDate,
-			pkg.hasMetadata ? 1 : 0,
-			pkg.missingFrom,
+			pkg.authorName || 'Unknown',
+			pkg.authorId || null,
+			pkg.title || 'Unknown',
+			pkg.category || null,
+			pkg.descriptor || null,
+			pkg.stexUrl || null,
+			pkg.submittedDate || null,
+			pkg.updatedDate || null,
 		);
 	}
 
 	// Insert overall stats
 	const insertStat = db.prepare('INSERT INTO stats VALUES (?, ?)');
 	insertStat.run('total', stats.total.toString());
-	insertStat.run('with_metadata', stats.withMetadata.toString());
-	insertStat.run('missing_from_both', stats.missingFromBoth.toString());
-	insertStat.run('missing_from_main', stats.missingFromMain.toString());
 
 	// Insert author stats
-	const insertAuthor = db.prepare('INSERT INTO author_stats VALUES (?, ?, ?, ?)');
+	const insertAuthor = db.prepare('INSERT INTO author_stats VALUES (?, ?, ?)');
 	for (const [author, data] of Object.entries(stats.byAuthor)) {
-		insertAuthor.run(author, data.authorId, data.count, data.withMetadata);
+		insertAuthor.run(author, data.authorId, data.count);
 	}
 
 	// Insert category stats
@@ -333,22 +293,18 @@ function outputToCsv(missing, outputDir) {
 		'STEX URL',
 		'Submitted',
 		'Updated',
-		'Has Metadata',
-		'Missing From',
 	];
 
 	const rows = missing.map(pkg => [
 		pkg.fileId,
-		`"${pkg.authorName.replace(/"/g, '""')}"`,
-		pkg.authorId,
-		`"${pkg.title.replace(/"/g, '""')}"`,
-		pkg.category,
-		pkg.descriptor,
-		pkg.stexUrl,
-		pkg.submittedDate,
-		pkg.updatedDate,
-		pkg.hasMetadata ? 'Yes' : 'No',
-		pkg.missingFrom,
+		`"${(pkg.authorName || 'Unknown').replace(/"/g, '""')}"`,
+		pkg.authorId || '',
+		`"${(pkg.title || 'Unknown').replace(/"/g, '""')}"`,
+		pkg.category || '',
+		pkg.descriptor || '',
+		pkg.stexUrl || '',
+		pkg.submittedDate || '',
+		pkg.updatedDate || '',
 	]);
 
 	const csv = [headers.join(','), ...rows.map(row => row.join(','))].join('\n');
@@ -367,10 +323,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 
 	// Overall stats
 	md += '## Summary Statistics\n\n';
-	md += `- **Total missing packages**: ${stats.total}\n`;
-	md += `- **Missing from both channels**: ${stats.missingFromBoth}\n`;
-	md += `- **Missing from main channel only**: ${stats.missingFromMain}\n`;
-	md += `- **Packages with metadata.yaml**: ${stats.withMetadata} (${((stats.withMetadata / stats.total) * 100).toFixed(1)}%)\n\n`;
+	md += `- **Total missing packages**: ${stats.total}\n\n`;
 
 	// Top authors
 	md += '## Top Authors with Missing Packages\n\n';
@@ -378,10 +331,10 @@ function outputToMarkdown(missing, stats, outputDir) {
 		.sort(([, a], [, b]) => b.count - a.count)
 		.slice(0, 20);
 
-	md += '| Author | Count | With Metadata | Author ID |\n';
-	md += '|--------|-------|---------------|----------|\n';
+	md += '| Author | Count | Author ID |\n';
+	md += '|--------|-------|----------|\n';
 	for (const [author, data] of sortedAuthors) {
-		md += `| ${author} | ${data.count} | ${data.withMetadata} | ${data.authorId} |\n`;
+		md += `| ${author} | ${data.count} | ${data.authorId} |\n`;
 	}
 	md += '\n';
 
@@ -401,26 +354,23 @@ function outputToMarkdown(missing, stats, outputDir) {
 	md += '## Missing Packages by Author\n\n';
 	const byAuthor = {};
 	for (const pkg of missing) {
-		if (!byAuthor[pkg.authorName]) {
-			byAuthor[pkg.authorName] = [];
+		const authorName = pkg.authorName || 'Unknown';
+		if (!byAuthor[authorName]) {
+			byAuthor[authorName] = [];
 		}
-		byAuthor[pkg.authorName].push(pkg);
+		byAuthor[authorName].push(pkg);
 	}
 
 	for (const [author, packages] of Object.entries(byAuthor).sort(([, a], [, b]) => b.length - a.length)) {
 		md += `### ${author} (${packages.length} packages)\n\n`;
 		for (const pkg of packages) {
-			const metadataTag = pkg.hasMetadata ? ' 📋' : '';
-			const missingTag = pkg.missingFrom === 'both' ? ' ⚠️' : '';
-			md += `- [${pkg.title}](${pkg.stexUrl}) - ${pkg.category}${metadataTag}${missingTag}\n`;
+			const title = pkg.title || 'Unknown';
+			const url = pkg.stexUrl || '#';
+			const category = pkg.category || 'Unknown';
+			md += `- [${title}](${url}) - ${category}\n`;
 		}
 		md += '\n';
 	}
-
-	md += '---\n\n';
-	md += '**Legend**:\n';
-	md += '- 📋 = Has metadata.yaml file\n';
-	md += '- ⚠️ = Missing from both channels\n';
 
 	fs.writeFileSync(mdPath, md);
 	return mdPath;
@@ -438,7 +388,7 @@ async function run(argv) {
 	}
 
 	const endpoint = argv.endpoint ?? 'https://community.simtropolis.com/stex/files-api.php';
-	const format = argv.format ?? 'markdown';
+	const format = argv.format ?? 'all';
 	const delay = argv.delay ?? 2000;
 
 	console.log(styleText('bold', '📊 STEX Coverage Analysis\n'));
@@ -493,9 +443,6 @@ async function run(argv) {
 	console.log(styleText('bold', '📈 Summary\n'));
 	console.log(`Total STEX files analyzed: ${styleText('cyan', stexFiles.length.toString())}`);
 	console.log(`Missing packages: ${styleText('yellow', stats.total.toString())}`);
-	console.log(`  - Missing from both channels: ${styleText('red', stats.missingFromBoth.toString())}`);
-	console.log(`  - Missing from main channel only: ${styleText('yellow', stats.missingFromMain.toString())}`);
-	console.log(`  - With metadata.yaml: ${styleText('green', stats.withMetadata.toString())} (${((stats.withMetadata / stats.total) * 100).toFixed(1)}%)`);
 
 	console.log();
 	console.log(styleText('bold', '📁 Output Files:\n'));
@@ -519,8 +466,8 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 	const { argv } = yargs(hideBin(process.argv))
 		.scriptName(scriptName)
 		.usage('Usage: $0 [options]')
-		.example('$0', 'Generate Markdown report (default)')
-		.example('$0 --format=all', 'Generate all format types (requires better-sqlite3)')
+		.example('$0', 'Generate all report formats (default)')
+		.example('$0 --format=markdown', 'Generate Markdown report only')
 		.example('$0 --format=json', 'Generate JSON report only')
 		.example('$0 --format=sqlite', 'Generate SQLite database (requires better-sqlite3)')
 		.option('format', {
@@ -528,7 +475,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 			type: 'string',
 			description: 'Output format',
 			choices: ['sqlite', 'json', 'csv', 'markdown', 'all'],
-			default: 'markdown',
+			default: 'all',
 		})
 		.option('delay', {
 			alias: 'd',
