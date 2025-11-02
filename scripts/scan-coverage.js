@@ -51,6 +51,7 @@ async function fetchAllStexFiles(apiKey, endpoint, delayMs = 2000) {
 		url.searchParams.set('sort', 'asc');
 		url.searchParams.set('offset', offset.toString());
 		url.searchParams.set('limit', limit.toString());
+		url.searchParams.set('metadata', 'true');
 
 		spinner.text = `Fetching batch ${batch} (offset ${offset})...`;
 
@@ -245,13 +246,15 @@ function outputToSqlite(missing, stats, outputDir) {
 			author_name TEXT PRIMARY KEY,
 			author_id INTEGER,
 			missing_count INTEGER,
-			total_files INTEGER
+			total_files INTEGER,
+			coverage_percent REAL
 		);
 
 		CREATE TABLE category_stats (
 			category TEXT PRIMARY KEY,
 			missing_count INTEGER,
-			total_files INTEGER
+			total_files INTEGER,
+			coverage_percent REAL
 		);
 	`);
 
@@ -275,15 +278,17 @@ function outputToSqlite(missing, stats, outputDir) {
 	}
 
 	// Insert author stats
-	const insertAuthor = db.prepare('INSERT INTO author_stats VALUES (?, ?, ?, ?)');
+	const insertAuthor = db.prepare('INSERT INTO author_stats VALUES (?, ?, ?, ?, ?)');
 	for (const [author, data] of Object.entries(stats.byAuthor)) {
-		insertAuthor.run(author, data.authorId, data.missingCount, data.totalFiles);
+		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
+		insertAuthor.run(author, data.authorId, data.missingCount, data.totalFiles, coveragePercent);
 	}
 
 	// Insert category stats
-	const insertCategory = db.prepare('INSERT INTO category_stats VALUES (?, ?, ?)');
+	const insertCategory = db.prepare('INSERT INTO category_stats VALUES (?, ?, ?, ?)');
 	for (const [category, data] of Object.entries(stats.byCategory)) {
-		insertCategory.run(category, data.missingCount, data.totalFiles);
+		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
+		insertCategory.run(category, data.missingCount, data.totalFiles, coveragePercent);
 	}
 
 	db.close();
