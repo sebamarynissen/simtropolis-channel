@@ -632,6 +632,15 @@ async function run(argv) {
 		const htmlPath = mdPath.replace(/\.md$/, '.html');
 		outputs.push(`Markdown: ${styleText('cyan', `"${mdPath}"`)}`);
 		outputs.push(`HTML: ${styleText('cyan', `"${htmlPath}"`)}`);
+
+		// Copy markdown to docs for GitHub Pages
+		const docsDir = path.resolve(import.meta.dirname, '../docs/coverage-report');
+		if (!fs.existsSync(docsDir)) {
+			fs.mkdirSync(docsDir, { recursive: true });
+		}
+		const docsMdPath = path.join(docsDir, 'index.md');
+		fs.copyFileSync(mdPath, docsMdPath);
+		outputs.push(`GitHub Pages: ${styleText('cyan', `"${docsMdPath}"`)}`);
 	}
 
 	outputSpinner.succeed('Reports generated');
