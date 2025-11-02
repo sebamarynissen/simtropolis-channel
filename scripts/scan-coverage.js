@@ -477,6 +477,27 @@ function outputToMarkdown(missing, stats, outputDir) {
 		md += '\n';
 	}
 
+	// Add back-to-top button
+	md += '<style>\n';
+	md += '  .back-to-top {\n';
+	md += '    position: fixed;\n';
+	md += '    bottom: 20px;\n';
+	md += '    right: 20px;\n';
+	md += '    background-color: #0366d6;\n';
+	md += '    color: white;\n';
+	md += '    padding: 10px 15px;\n';
+	md += '    border-radius: 5px;\n';
+	md += '    text-decoration: none;\n';
+	md += '    font-weight: bold;\n';
+	md += '    box-shadow: 0 2px 5px rgba(0,0,0,0.2);\n';
+	md += '    z-index: 1000;\n';
+	md += '  }\n';
+	md += '  .back-to-top:hover {\n';
+	md += '    background-color: #0256c4;\n';
+	md += '  }\n';
+	md += '</style>\n\n';
+	md += '<a href="#" class="back-to-top">↑</a>\n';
+
 	fs.writeFileSync(mdPath, md);
 
 	// Also generate HTML version
