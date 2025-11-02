@@ -377,8 +377,32 @@ function outputToMarkdown(missing, stats, outputDir) {
 	md += `Generated: ${new Date().toISOString()}\n\n`;
 
 	// Overall stats
-	md += '## Summary Statistics\n\n';
-	md += `- **Total missing packages**: ${stats.total}\n\n`;
+	md += '## Summary\n\n';
+
+	// Calculate totals
+	const totalFiles = Object.values(stats.byAuthor).reduce((sum, data) => sum + data.totalFiles, 0);
+	const packagesInChannels = totalFiles - stats.total;
+	const overallCoverage = (packagesInChannels / totalFiles * 100).toFixed(1);
+	const totalAuthors = Object.keys(stats.byAuthor).length;
+	const authorsWithMissing = Object.values(stats.byAuthor).filter(data => data.missingCount > 0).length;
+	const authorsWithFullCoverage = totalAuthors - authorsWithMissing;
+	const authorCoverage = (authorsWithFullCoverage / totalAuthors * 100).toFixed(1);
+
+	md += `- **STEX files analyzed**: ${totalFiles}\n`;
+	md += `- **Covered packages**: ${packagesInChannels}\n`;
+	md += `- **Missing packages**: ${stats.total}\n`;
+	md += `- **Overall coverage**: ${overallCoverage}%\n`;
+	md += `- **Total authors**: ${totalAuthors}\n`;
+	md += `- **Author coverage**: ${authorCoverage}% (${authorsWithFullCoverage} of ${totalAuthors} authors with 100% coverage)\n`;
+	md += '\n';
+
+	// Table of contents
+	md += '## Table of Contents\n\n';
+	md += `- [Top Authors with Missing Packages](#${generateAnchor('Top Authors with Missing Packages')})\n`;
+	md += `- [Package Summary by Category](#${generateAnchor('Package Summary by Category')})\n`;
+	md += `- [Package Summary by Author](#${generateAnchor('Package Summary by Author')})\n`;
+	md += `- [Missing Package Details](#${generateAnchor('Missing Package Details')})\n`;
+	md += '\n';
 
 	// Top authors
 	md += '## Top Authors with Missing Packages\n\n';
@@ -391,7 +415,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 	for (const [author, data] of sortedAuthors) {
 		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
 		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
-		const detailHeading = `${author} (${data.missingFiles} packages)`;
+		const detailHeading = `${author} (${data.missingFiles} packages missing)`;
 		const detailAnchor = `#${generateAnchor(detailHeading)}`;
 		md += `| [${escapeMarkdown(author)}](<${profileUrl}>) | ${data.authorId} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
 	}
@@ -431,7 +455,7 @@ function outputToMarkdown(missing, stats, outputDir) {
 	md += '\n';
 
 	// Packages grouped by author
-	md += '## Missing Packages by Author\n\n';
+	md += '## Missing Package Details\n\n';
 	const byAuthor = {};
 	for (const pkg of missing) {
 		const authorName = pkg.authorName || 'Unknown';
