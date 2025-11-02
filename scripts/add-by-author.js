@@ -44,7 +44,7 @@ async function run(authors, argv) {
 			let res = await fetch(url);
 			if (res.status >= 400) {
 				if (res.status === 404) {
-					spinner.warn(`No files found for author: ${author}`);
+					spinner.warn(`No files found for author: ${styleText('bold', author)}`);
 					continue;
 				}
 				throw new Error(`API returned status ${res.status}`);
@@ -53,9 +53,9 @@ async function run(authors, argv) {
 			let json = await res.json();
 			if (Array.isArray(json) && json.length > 0) {
 				allFiles.push(...json);
-				spinner.succeed(`Found ${json.length} file(s) for author: ${author}`);
+				spinner.succeed(`Found ${styleText('cyan', json.length + ' files')} for author: ${styleText('bold', author)}`);
 			} else {
-				spinner.warn(`No files found for author: ${author}`);
+				spinner.warn(`No files found for author: ${styleText('bold', author)}`);
 			}
 		} catch (error) {
 			spinner.fail(`Failed to fetch files for author: ${author}`);
@@ -68,8 +68,6 @@ async function run(authors, argv) {
 		return;
 	}
 
-	console.log(styleText('cyan', `\nTotal files found: ${allFiles.length}`));
-
 	// Show what we're about to process
 	console.log(styleText('cyan', '\nFiles to be processed:'));
 	for (let file of allFiles) {
@@ -81,7 +79,7 @@ async function run(authors, argv) {
 	console.log(styleText('yellow', 'Action summary:'));
 	console.log(`  - ${styleText('cyan', `${allFiles.length} files`)} will be processed`);
 	console.log(`  - New packages will be ${styleText('green', 'created')}`);
-	console.log(`  - Existing packages will be ${argv.update ? styleText('green', 'updated') : styleText('red', 'skipped') + ' (use --update to refresh all packages)'}`);
+	console.log(`  - Existing packages will be ${argv.update ? styleText('green', 'updated') : styleText('red', 'skipped') + ' (use ' + styleText('dim', '--update') + ' to refresh all packages)'}`);
 
 	if (!argv.yes) {
 		const rl = createInterface({
@@ -89,7 +87,7 @@ async function run(authors, argv) {
 			output: process.stdout,
 		});
 		const answer = await new Promise(resolve => {
-			rl.question('\nContinue? [y/N] ', resolve);
+			rl.question(`\n${styleText('bold', 'Continue?')} ${styleText('dim', '[y/N]')} `, resolve);
 		});
 		rl.close();
 
