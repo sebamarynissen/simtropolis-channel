@@ -1,6 +1,6 @@
 group: jasoncw
 name: nafmis-department-store
-version: "1.0"
+version: "1.0-1"
 subfolder: 300-commercial
 info:
   summary: Nafmis Department Store
@@ -43,17 +43,31 @@ info:
 
     Modding:  Nofunk
 
+    The Darknite version includes a re-render by Simfox.
+
     *[Click here for development discussion of new projects by Jasonc](../../forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)*
-  author: Jasoncw
+  author: Jasoncw, Nofunk, Simfox
   website: https://community.simtropolis.com/files/file/20667-nafmis-department-store/
   images:
     - https://www.simtropolis.com/objects/screens/0014/7af0b838ce635c8fd71bf0af4c03e76f-Nafmis-1.jpg
     - https://www.simtropolis.com/objects/screens/0014/7af0b838ce635c8fd71bf0af4c03e76f-Nafmis-2.jpg
-assets:
-  - assetId: jasoncw-nafmis-department-store
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-nafmis-department-store
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-jasoncw-nafmis-department-store-dark-night
 
 ---
 assetId: jasoncw-nafmis-department-store
 version: "1.0"
 lastModified: "2008-11-18T15:33:37Z"
 url: https://community.simtropolis.com/files/file/20667-nafmis-department-store/?do=download&r=46225
+
+---
+assetId: simfox-jasoncw-nafmis-department-store-dark-night
+version: "1.0"
+lastModified: "2010-07-17T12:34:27Z"
+url: https://community.simtropolis.com/files/file/24416-jasoncw-nafmis-department-store-dark-night/?do=download&r=51677

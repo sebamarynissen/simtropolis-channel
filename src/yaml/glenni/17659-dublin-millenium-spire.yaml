@@ -1,0 +1,139 @@
+group: blam
+name: dublin-millenium-spire
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Dublin Millenium Spire
+  description: |-
+    The Spire of Dublin (also known as the Monument of Light) is a large, pin-like monument built in 2003,
+
+    120 metres (393 ft) in height. It is located on the site of the former
+
+    Nelson Pillar on O'Connell Street in the Irish capital, Dublin.
+
+    My version is 480 metre, as height
+
+    in SimCity 4 is multiplied 4 times.
+
+    Other names and nicknames:
+
+    \* The Spike
+
+    \* The Spire in the Mire (a reflection on O'Connell Street's unsavoury reputation)
+
+    \* The Stiletto in the Ghetto (O'Connell St is a very short distance from some of Dublin's poorest and most drug-ruined communities).
+
+    \* The Nail in the Pale
+
+    \* The Stiffy by the Liffey (a reference to Dublin's principal waterway, the River Liffey)
+
+    \* The Pin in the Bin (a reference to the perceived amount of litter in O'Connell Street)
+
+    \* The erection at the intersection
+
+    \* Pointless
+
+    \* The Stick
+
+    dependencies: 3
+
+    [Has Texture dat  (found if you scroll a bit)](http://hide-inoki.com/sc4/buildings_bat.htm)
+
+    [BSC texture mega pack vol 01( at Sc4devotion LEX, you have to register there):](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [Glenni prop pack( it is included but if you want to download it seperate here's the link)](https://www.simtropolis.com/stex/index.cfm?id=17578)
+
+    Stats:
+
+    We based most of the stats off 'Washington Monunment'
+
+    already in game,
+
+    as that landmark was the
+
+    closest type to this.
+
+    Item order: 1
+
+    Plop cost: 110000
+
+    Bulldoze cost: 6300
+
+    Pollution at centre:
+
+    Air:0
+
+    Water:0
+
+    Garbage:3
+
+    Radiation:0
+
+    Pollution radius:1
+
+    Water:2
+
+    Garbage:0
+
+    Radiation:0
+
+    Landmark effect:
+
+    Magnitude: 40
+
+    Radius: 256
+
+    Radius:20
+
+    mayor rating effect:
+
+    Menu: Landmarks
+
+    Budget cost. 14
+
+    Transit enabled: One-way on each side,as in real life in O'Connell Street.
+
+    Custom query: The look is default but there's a custom query sound for it.
+
+    Roundabout centre piece version also included.
+
+    There is also a version without the HaS texture dat and custom base textures.
+
+    Testers:
+
+    Fukuda-BLaM
+
+    Glenni-BLaM
+
+    Dolphin66-BSC
+
+    Tested 4 times.
+
+    More images:
+
+    [Day](http://i80.photobucket.com/albums/j179/Glenni91/Millenium_Spire_day.jpg)
+
+    [Night](http://i80.photobucket.com/albums/j179/Glenni91/Millenium_Spire_night.jpg)
+
+    [Closer](http://i80.photobucket.com/albums/j179/Glenni91/Millenium_Spire_base.jpg)
+
+    [Close at night](http://i80.photobucket.com/albums/j179/Glenni91/Millenium_Spire_minipic1.jpg)
+
+    Enjoy!
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/17659-blam-dublin-millenium-spire/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/0497fec6d665ef6ed5785a326c790d9d-Millenium_Spire_baseuplo.jpg
+    - https://www.simtropolis.com/objects/screens/0001/0497fec6d665ef6ed5785a326c790d9d-Millenium_Spire_nighuplo.jpg
+dependencies:
+  - ndex:glenni-mega-props-vol01
+  - bsc:textures-vol01
+  - ragutaro:has-dependencies
+assets:
+  - assetId: blam-dublin-millenium-spire
+
+---
+assetId: blam-dublin-millenium-spire
+version: "1.0"
+lastModified: "2007-01-21T11:49:43Z"
+url: https://community.simtropolis.com/files/file/17659-blam-dublin-millenium-spire/?do=download&r=41079

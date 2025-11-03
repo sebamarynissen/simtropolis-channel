@@ -1,0 +1,152 @@
+# TODO - the city view backgrounds require installation in the game install plugins directory
+
+group: cyclone-boom
+name: custom-region-view-backgrounds
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Custom Region View Backgrounds
+  description: |-
+    Are you fed up with the boring blue grid?  
+      
+    This package contains a selection of solid colours to replace the game’s default region view background. There are 10 variations to choose from, all compatible in both Software and Hardware rendering.  
+      
+    ![Background Colours](http://i.imgur.com/Q0EgC82.jpg)  
+      
+    In addition, I’ve created matching city backgrounds. These complement the region backgrounds, and replace the 5 PNG files in the game’s “Program Files” plugins folder. Download the zip file named 2-city\_backgrounds.zip if you wish to use these, and follow the below instructions.
+
+    [![Buy me a coffee](https://www.simtropolis.com/library/misc/CB_Coffee_v42.png)](https://www.buymeacoffee.com/cycloneboom)
+
+    **INSTALLATION**  
+      
+    **Region Backgrounds** (1-region\_backgrounds.zip):  
+      
+    Select **ONE** of the following files and copy / move to your "Documents/SimCity 4/Plugins" folder:  
+      
+    *region\_bg\_1-black.dat  
+    region\_bg\_2-grey.dat  
+    region\_bg\_3-blue.dat  
+    region\_bg\_4-aqua.dat  
+    region\_bg\_5-green.dat  
+    region\_bg\_6-lime.dat  
+    region\_bg\_7-brown.dat  
+    region\_bg\_8-purple.dat  
+    region\_bg\_9-red.dat  
+    region\_bg\_10-white.dat*  
+      
+      
+    **City Backgrounds** (2-city\_backgrounds.zip):  
+      
+    For these, installation is different.  
+    The package contains 10 folders corresponding to each colour.  
+      
+    Each subfolder contains 5 PNG files:  
+      
+    *Background3D0.png  
+    Background3D1.png  
+    Background3D2.png  
+    Background3D3.png  
+    Background3D4.png*  
+      
+      
+    **1.** Go to “C:/Program Files (x86)/Maxis/SimCity 4 Deluxe/Plugins” and move the 5 default PNG files to a backup location.  
+    **2.** Open a colour variation folder and copy the 5 custom PNG files to “C:/Program Files (x86)/Maxis/SimCity 4 Deluxe/Plugins”  
+      
+    **Note:** Adding them to the usual "Documents" plugins will not work! ![*:read:](https://community.simtropolis.com/assets/emoticons/default_49.gif ":read:")  
+      
+      
+    **DEPENDENCIES**  
+      
+    None  
+      
+      
+    \-Cyclone
+  author: Cyclone Boom
+  website: https://community.simtropolis.com/files/file/29981-custom-region-view-backgrounds/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image1-Title_Image2b.png.515ab4b697be6108ffe8e0791edf359b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image2-Preview1.jpg.38f2a2f4138deeabe6923a1d05f0f6c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image3-Preview2.jpg.0dfd0cfd4cabc7ba1aca7b6ede4f750f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/image4-bg_preview2a.jpg.c96f8e361ea5d8a6cdb64300ba504d95.jpg
+assets:
+  - assetId: cyclone-boom-custom-region-view-backgrounds-region
+    withConditions:
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "black" }
+        include:
+          - "/region_bg_1-black.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "grey" }
+        include:
+          - "/region_bg_1-grey.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "blue" }
+        include:
+          - "/region_bg_1-blue.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "aqua" }
+        include:
+          - "/region_bg_1-aqua.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "green" }
+        include:
+          - "/region_bg_1-green.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "lime" }
+        include:
+          - "/region_bg_1-lime.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "brown" }
+        include:
+          - "/region_bg_1-brown.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "purple" }
+        include:
+          - "/region_bg_1-purple.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "red" }
+        include:
+          - "/region_bg_1-red.dat"
+      - ifVariant: { cyclone-boom-custom-region-view-backgrounds:region-background: "white" }
+        include:
+          - "/region_bg_1-white.dat"
+  # - assetId: cyclone-boom-custom-region-view-backgrounds-city
+  #   withConditions:
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "black" }
+  #       include:
+  #         - "/1-Black/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "grey" }
+  #       include:
+  #         - "/2-Grey/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "blue" }
+  #       include:
+  #         - "/3-Blue/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "aqua" }
+  #       include:
+  #         - "/4-Aqua/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "green" }
+  #       include:
+  #         - "/5-Green/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "lime" }
+  #       include:
+  #         - "/6-Lime/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "brown" }
+  #       include:
+  #         - "/7-Brown/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "purple" }
+  #       include:
+  #         - "/8-Purple/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "red" }
+  #       include:
+  #         - "/9-Red/"
+  #     - ifVariant: { cyclone-boom-custom-region-view-backgrounds:city-background: "white" }
+  #       include:
+  #         - "/10-White/"
+variantInfo:
+  - variantId: "cyclone-boom-custom-region-view-backgrounds:region-background"
+    description: Select a colour to replace the game's default region view background.
+  # - variantId: "cyclone-boom-custom-region-view-backgrounds:city-background"
+  #   description: Select a colour to replace the game's default city view background.
+
+---
+assetId: cyclone-boom-custom-region-view-backgrounds-region
+version: "1.0"
+lastModified: "2014-11-09T01:24:15Z"
+url: https://community.simtropolis.com/files/file/29981-custom-region-view-backgrounds/?do=download&r=162541
+
+# ---
+# assetId: cyclone-boom-custom-region-view-backgrounds-city
+# version: "1.0"
+# lastModified: "2014-11-09T01:24:15Z"
+# url: https://community.simtropolis.com/files/file/29981-custom-region-view-backgrounds/?do=download&r=162542

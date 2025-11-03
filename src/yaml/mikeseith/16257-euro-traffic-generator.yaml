@@ -1,0 +1,40 @@
+group: mikeseith
+name: euro-traffic-generator
+version: "1.1"
+subfolder: 710-automata
+info:
+  summary: Euro traffic generator
+  description: |-
+    These lots spawn automata from the [**European auto new instance mod**](https://community.simtropolis.com/files/file/14400-european-cars-automata-and-family-props-new-instances/).
+
+    **They** **must** be installed with this lot. Otherwise, these lots will not spawn anything. When plopped, these lots spawn many European cars onto your city's streets. These lots are intended to be a help for people creating C.J.s and people who want to create a little gridlock and spectacular crashes. These lots will also spawn Citroens from my newest Citroen dealer when it comes out in the next few weeks.
+
+    Attempted to minimize the "flashing" effect of the lots.
+
+    **Please note: If you already have the European auto new instance mod you will have to redownload it and have it overwrite the older version.**
+
+    These lots can be found in the parks menu and are labelled as Euro traffic generator.
+
+    As always, place these files and the European auto new instance mod in the game's plugin folder.
+
+    Updated June 27, 2006 to include:
+
+    -   1 plaza lot generating moderate traffic.
+    -   1 grassy lot generating moderate traffic.
+    -   1 plaza lot generating heavy traffic.
+    -   1 grassy lot generating heavy traffic.
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/16257-euro-traffic-generator/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7c0be67bb5f8e5b7623de71533ad4ecd-euro traffic 4.JPG
+    - https://www.simtropolis.com/objects/screens/0014/7c0be67bb5f8e5b7623de71533ad4ecd-euro traffic 3.JPG
+dependencies:
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+assets:
+  - assetId: mikeseith-euro-traffic-generator
+
+---
+assetId: mikeseith-euro-traffic-generator
+version: "1.1"
+lastModified: "2006-06-24T20:03:39Z"
+url: https://community.simtropolis.com/files/file/16257-euro-traffic-generator/?do=download&r=38835

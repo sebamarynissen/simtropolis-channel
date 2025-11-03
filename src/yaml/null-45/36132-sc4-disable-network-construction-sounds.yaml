@@ -1,0 +1,56 @@
+group: "null-45"
+name: "sc4-disable-network-construction-sounds"
+version: "1.0.0"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-sc4-disable-network-construction-sounds"
+  withChecksum:
+  - include: "/SC4DisableNetworkConstructionSounds.dll"
+    sha256: 0DBFC58DCA1529A16627BFD21121C9F7D10C73F8A88BC5EDB584C33E78BF8254
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that disables the sounds that are played during the network construction animation."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    A DLL Plugin for SimCity 4 that disables the sounds that are played during the network construction animation.
+
+    The plugin patches the game's memory to make it skip playing the jackhammer sound track that is normally used during the animation.
+
+    Note that this will also disable 2 in-game messages that are sent at the start and end of the animation sequence. The messages are:
+    kSC4MsgConstructionRoadCrewStart (0x89F10866) and kSC4MsgConstructionRoadCrewEnd (0xA9F10E45).
+
+    **System Requirements**
+
+    *     SimCity 4 version 641
+    *     Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1.      Close SimCity 4.
+    2.      Copy SC4DisableNetworkConstructionSounds.dll into the Plugins folder in the SimCity 4 installation directory.
+    3.      Start SimCity 4.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4DisableNetworkConstructionSounds.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/762987-sc4disablenetworkconstructionsounds
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-disable-network-construction-sounds 
+
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36132-sc4-disable-network-construction-sounds/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.adffb7373eb267290f607ef1d2fe3677.png
+
+---
+assetId: "null-45-sc4-disable-network-construction-sounds"
+version: "1.0.0"
+lastModified: "2024-02-18T12:35:46Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36132-sc4-disable-network-construction-sounds/?do=download"
+url: "https://github.com/0xC0000054/sc4-disable-network-construction-sounds/releases/download/v1.0/SC4DisableNetworkConstructionSounds.zip"

@@ -1,0 +1,47 @@
+group: airman15
+name: nissan-skyline-gtr
+version: "1.0-1"
+subfolder: 710-automata
+info:
+  summary: Nissan Skyline GT-R
+  description: |-
+    Let's face it, with any car you own there is often a reputation that comes with it. It could be the luxury sedan that cuts off everyone on the freeway. Or it could be the SUV that blows its transmission on a 3% incline. Now if you throw in "Skyline GT-R", you become royalty. Just having one will make you the star of every car show. Every bet placed at the track will be in your favor. And as for wiping the floor with every opponent, lets just say the Skyline GT-R will have no problem living up to it's reputation!
+
+    About the Upload-  
+    There are ten vehicles contained in this zip folder. Each one is a 1998 Nissan Skyline GT-R, a stock representation of the R34 model. These are High-Wealth vehicles, given their status as collector cars. These vehicles will appear on your road networks.
+
+    Dependencies?  
+    None required.
+
+    Thank you to Art128 and APSMS for suggesting some of the colors made available!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/31049-nissan-skyline-gt-r/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline0.png.aad23d508854054f4c36d9c354653e97.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline1.png.965c1044630fa72993d846e86f558686.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline2.png.a0204c14db7488b9cabe1f7168e8bf66.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline3.png.9af88b0b69a754ce9ad42c2bec7875e4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline4.png.e381e0449f1629c6fbece39f30a9270a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline5.png.be429d568ab842b25c292b04d56075a7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline6.png.c07fa500bf4a1ad18c0a658185847c7e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline7.png.ee62044cd87f7609787c2c02790fee8c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline8.png.49ec9bc218c171a6e6522d4ceb140ee1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline9.png.da2559ac92a1274df24fe074087fe176.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/r34skyline10.png.e45b42cd731df2d816d5ee65555e7973.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-nissan-skyline-gt-r
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-nissan-skyline-gt-r
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-nissan-skyline-gt-r
+version: "1.0"
+lastModified: "2016-05-07T02:41:12Z"
+url: https://community.simtropolis.com/files/file/31049-nissan-skyline-gt-r/?do=download&r=161690

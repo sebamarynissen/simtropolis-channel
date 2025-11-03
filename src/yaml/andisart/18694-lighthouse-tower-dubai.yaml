@@ -1,0 +1,81 @@
+group: andisart
+name: lighthouse-tower-dubai
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Lighthouse Tower Dubai
+  description: |-
+    **SHOW A PIC** [**HERE**](https://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=93222) **ON HOW YOU PLACE THE BAT IN YOUR CITY, LOVE TO SEE IT ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)**
+
+    AndisArt presents:
+
+    **Lighthouse Tower**
+
+    Currently under construction in Dubai, to be completed in 2010.
+
+    A Low-Carbon building, using wind-turbines and solar panels to minimize carbon emissions.
+
+    \----------------------------------------------------------------
+
+    I got inspired by SimFox dedicating his Moscow RED and would like to dedicate this one here to SimFox himself, I know this is one of your favs ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif) Thanks for your continuous help and community support ever so much :-D
+
+    \----------------------------------------------------------------
+
+    Jobs: CO$$ 5780 / CO$$$ 3450
+
+    Contains 7 versions:
+
+    \-Landmark
+
+    \-CO$$ growable
+
+    \-CO$$ ploppable
+
+    \-CO$$$ growable
+    
+    \-CO$$$ growable CAM - X2
+
+    \-CO$$$ ploppable
+
+    NO DEPENDENCIES
+
+    See readme for full details.
+
+    .
+  author: AndisArt
+  websites: 
+    - https://community.simtropolis.com/files/file/18694-lighthouse-tower-dubai/
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b207988b0decd927bd664731267b0bd8-night Kopie.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b207988b0decd927bd664731267b0bd8-day.jpg
+    
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+  
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: andisart-lighthouse-tower-dubai
+        include:
+        - "/AndisArt_Lighthouse_Tower_CO\\$\\$\\$_GROW.dat"
+        - "/AndisArt_Lighthouse_Tower_CO\\$\\$_GROW.dat"
+        - "/AndisArt_Lighthouse_Tower_LM_54019232.SC4Lot"
+        - "/AndisArt_Lighthouse_Tower_CO\\$\\$_PLOP_5401a515.SC4Lot"
+        - "/AndisArt_Lighthouse_Tower_CO\\$\\$\\$_PLOP_3401a51c.SC4Lot"        
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: andisart-lighthouse-tower-dubai
+        include:
+        - "/CO\\$\\$\\$10_6x3_AndisArt_Lighthouse_Tower_396b8d14.SC4Lot"
+        - "/CO\\$\\$\\$12_6x3_AnidsArt_Lighthouse_Tower_779f4954.SC4Lot"
+        - "/AndisArt_Lighthouse_Tower_LM_54019232.SC4Lot"
+        - "/AndisArt_Lighthouse_Tower_CO\\$\\$_PLOP_5401a515.SC4Lot"
+        - "/AndisArt_Lighthouse_Tower_CO\\$\\$\\$_PLOP_3401a51c.SC4Lot"
+
+---
+assetId: andisart-lighthouse-tower-dubai
+version: "2.0"
+lastModified: "2025-09-28T13:57:15Z"
+url: https://community.simtropolis.com/files/file/18694-lighthouse-tower-dubai/?do=download&r=42813

@@ -1,0 +1,42 @@
+group: aarsgevogelte
+name: victoria-hotel-amsterdam
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Victoria Hotel, Amsterdam
+  description: |-
+    -   Dependency: [BSC - VIP girafe oaks](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2632)
+        
+    -   Victoria Hotel, Amsterdam
+        
+
+    W2W corner lot
+
+    Ok
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/30980-victoria-hotel-amsterdam/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/D1.jpg.7dbcf7dec98eaa62ac767cc60b19ae17.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/D2.jpg.46df8eb42e4d0528b972956db2f22402.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/N1.jpg.12a909e70691676fd5240e828b8d67e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/N2.jpg.9b6254b41199d4208f7f9624b75631bd.jpg
+dependencies:
+  - girafe:oaks
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-victoria-hotel-amsterdam
+        exclude:
+        - "/DN/"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-victoria-hotel-amsterdam
+        exclude:
+        - "/MN/"
+
+---
+assetId: aarsgevogelte-victoria-hotel-amsterdam
+version: "1.0"
+lastModified: "2016-03-04T14:33:16Z"
+url: https://community.simtropolis.com/files/file/30980-victoria-hotel-amsterdam/?do=download&r=160949

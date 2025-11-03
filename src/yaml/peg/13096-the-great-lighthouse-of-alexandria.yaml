@@ -1,0 +1,50 @@
+group: peg
+name: the-great-lighthouse-of-alexandria
+version: "2.0-1"
+subfolder: 620-education
+info:
+  summary: The Great Lighthouse of Alexandria
+  description: |-
+    Ladies & Gentlemen... The Great Lighthouse of Alexandria.
+
+    Built to withstand the ravages of sea and time, The 40-story high Great Pharos Lighthouse stood as the tallest structure on Earth for almost 15 centuries... finally succumbing to a series of devastating earthquakes in the 1300s. Of the 6 fallen Ancient Wonders, the Lighthouse was the last to fall.
+
+    Lost to The Ages, a team from the Pegadyne Oceanographic Institute recently located and recovered the ruins from the harbor of Alexandria. Strapped for cash, the local government eagerly sold the ruins to Pegadyne Industries who carefully preserved and transported them back to your city. And there, as yet another public relations coup for the corporation, the ruins have been restored to their prior glory and now serve as a museum of Ancient Civilization for all the world to enjoy. "
+
+    This 8x8 lot (10x10 actual) historical landmark functions as a museum and serious tourist magnet. It contains all the properties and benefits of a normal museum (except plop price) and also includes the benefits of a landmark and tourist attraction.
+
+    This is a massive monument, Boys & Girls...  assembled modular style from 10 basic interconnecting models. Numerous other custom props, textures, and sound effects were designed exclusively for this lot... including 14 individual offset-rendered props and models just for the seawalls alone.
+
+    The lot is designed to be plopped on water like the game's default seaport. However, it can also be plopped on dry land and used with the PEG Pond Kit to create a surrounding river or lake. The large parking area is transit enabled and when connected to your road network, cars and school buses will drive through it.
+
+    \*\* Special thanks to BarbyW, Andreas, Blackbeard, & ParadiseFarm  
+    for their assistance during the development of this project.
+
+    **The Great Lighthouse has NO mandatory external dependencies.**  
+    [The PEG Oasis Park](https://community.simtropolis.com/files/file/4592-peg-oasis-park-v205/) is recommended for expanding the museum/park complex.
+
+    ####  DLL Dependencies
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    -   [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/13096-peg-the-great-lighthouse-of-alexandria/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5cc975b429a681154f8d92b07570b03a-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5cc975b429a681154f8d92b07570b03a-product_image2a.jpg
+dependencies:
+  - peg:oasis-park
+  - peg:the-great-lighthouse-of-alexandria-props
+assets:
+  - assetId: peg-the-great-lighthouse-of-alexandria
+    include:
+    - "/PEG_The-Great-Lighthouse_2fda8248.dat"
+
+---
+assetId: peg-the-great-lighthouse-of-alexandria
+version: "2.0-1"
+lastModified: "2025-05-11T17:48:33Z"
+url: https://community.simtropolis.com/files/file/13096-peg-the-great-lighthouse-of-alexandria/?do=download&r=207619

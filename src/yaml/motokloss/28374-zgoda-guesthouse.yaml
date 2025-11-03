@@ -1,0 +1,65 @@
+group: motokloss
+name: zgoda-guesthouse
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Zgoda Guesthouse (Pensjonat Zgoda), Warsaw
+  description: |-
+    Guesthouse located in the centre of Warsaw under the Zgoda 2 adress. Building was designed in the 1960 by architects Z. Stępiński and A. Iłecki to replace the house destroyed during the WWII. Then it was erected in the years 1961-66 (but partly was finished and open already around 1963). Originally it was meant to offer rooms/apartaments(?) for lonely people and married couples w/o children.
+
+    In game it is available as **CS$$ PLOP** (W2W half diagonal corner building).
+
+    **Mirror version is also included** (orignal building is the one with the neon "Szwajcarska", what means "Swiss" and reffers to the "Swiss" restaurant located there since begining and for decades).
+
+    **There are two types of the lot - in triangular and trapezoidal shapes**.
+
+    Both lots are additionally available in 2 color variations of the pavement:
+
+    **1\. "Grey/Transit"** \- which generally uses the grey Maxis alike texture in default game settings. But I recommend to use this version also with texture mods (of any type), as with loaded custom textures it is able to create sort of "visual transition" between it and the standard grey Maxis texture. Well it is nothing extraordinary, but might be useful, since majority of the diagonal W2W buildings still have their pavements in bright, greyish or pinkish colors. Check the attached pictures to see how does it work.
+
+    **2\. "Sandstone"** - with brown Paeng's sandstone texture to match his nice mod (thanks to him, he agreed to use it)
+
+    You can install both or choose only one.
+
+    **NO DEPENDENCIES - all props are included.**
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/28374-ms-zgoda-guesthouse-pensjonat-zgoda-warsaw/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/2956e1cbe498397d261573fc70309311-zgoda.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/292ea839b70deeaf02ae39dd474c2ec3-zgoda--1-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/4ded2e7e7279f93f5f609ac9a5d576ec-zgoda--2-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/1e015bad1778754675783a68b7e16771-zgoda--3-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/50be6e53a500e117844b7b39cc514902-zgoda--4-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/0f5ad3ca790a89cccbc47fc36f416bc7-zgoda--5-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/c582c2f15df3bc9387f2c83883384d44-zgoda--6-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/773e925870bbd30d387ebe851fb0b944-zgoda--7-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/9325c5c5627fc06a48b62edeac5157af-zgoda--8-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/ea38e2715ff5b159c3a65f8e2d0c7d26-zgoda--9-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/19f53c8e6149608a5ac7ebdeca8b0d07-zgoda--10-.jpg
+variants:
+- variant: { motokloss:zgoda-guesthouse:overhang-texture: "maxis" }
+  assets:
+  - assetId: "motokloss-zgoda-guesthouse"
+    include:
+      - "/MS_Pensjonat_Zgoda_MOD.dat"
+      - "/MS_PZ_GREY_TRANSIT.dat"
+- variant: { motokloss:zgoda-guesthouse:overhang-texture: "sandstone" }
+  assets:
+  - assetId: "motokloss-zgoda-guesthouse"
+    include:
+      - "/MS_Pensjonat_Zgoda_MOD.dat"
+      - "/MS_PZ_SANDSTONE.dat"
+variantInfo:
+- variantId: "motokloss:zgoda-guesthouse:overhang-texture"
+  description: Choose the base texture of the overhanging portion of the lot.
+  values:
+  - value: "maxis"
+    description: The default Maxis grey sidewalk texture
+  - value: "sandstone"
+    description: A sandstone texture fully compatible with Paeng's Sandstone Mod
+
+---
+assetId: motokloss-zgoda-guesthouse
+version: "1.0"
+lastModified: "2017-10-06T21:21:38Z"
+url: https://community.simtropolis.com/files/file/28374-ms-zgoda-guesthouse-pensjonat-zgoda-warsaw/?do=download&r=168722

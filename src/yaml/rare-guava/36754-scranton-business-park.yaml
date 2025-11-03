@@ -1,0 +1,45 @@
+assetId: rare-guava-scranton-business-park
+version: "1.0.0"
+lastModified: "2025-03-17T03:59:40Z"
+url: https://community.simtropolis.com/files/file/36754-scranton-business-park/?do=download
+
+---
+group: rare-guava
+name: scranton-business-park
+subfolder: 360-landmark
+version: "1.0.0"
+info:
+  summary: Scranton Business Park
+  description: |
+    This is Scranton Business Park. It's the location of the Scranton branch of Dunder Mifflin Paper Company, from the US version of 'The Office'. The real building is in Los Angeles, California.
+  author: rare_guava
+  websites: 
+    - https://community.simtropolis.com/files/file/36754-scranton-business-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/1_Front.jpg.789b88411a7cdb17e5f96faf21a16911.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/2_Side.jpg.e14e263cf14a84bb9f0372e727ee8b54.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/3_Menu.jpg.426fbbf1903c2313018f4215a7f0f26c.jpg
+
+dependencies:
+  - girafe:poplars
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures    
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: rare-guava-scranton-business-park
+        include:
+        - "/MN model/"
+        - "/GROW/"
+        - "/PLOP/"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: rare-guava-scranton-business-park
+        include:
+        - "/DN model/"
+        - "/GROW/"
+        - "/PLOP/"

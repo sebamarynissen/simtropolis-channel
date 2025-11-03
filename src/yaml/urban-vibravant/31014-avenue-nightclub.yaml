@@ -1,0 +1,45 @@
+assetId: urban-vibravant-avenue-nightclub-maxisnite
+version: "1.0.0"
+lastModified: "2016-04-02T20:56:12Z"
+url: https://community.simtropolis.com/files/file/31014-avenue-nightclub/?do=download&r=161268
+
+---
+assetId: urban-vibravant-avenue-nightclub-darknite
+version: "1.0.0"
+lastModified: "2016-04-02T20:56:12Z"
+url: https://community.simtropolis.com/files/file/31014-avenue-nightclub/?do=download&r=161269
+
+---
+group: urban-vibravant
+name: avenue-nightclub
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary:  Avenue Nightclub
+  description: |
+    Avenue Nightclub and Lounge is a three story, ultra modern club for your city's nightlife.
+
+    The front door opens at night and sometimes you'll see people lined up outside the entrance and/or a group of people on the patio. 
+    
+    This building is a w2w corner
+
+    Building dimensions: 2x3
+
+    Building with parking lot: 2x4
+
+    Comes as a Landmark and Growable CS$$ 
+  author: Urban Vibravant
+  websites: 
+    - https://community.simtropolis.com/files/file/31014-avenue-nightclub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/Cover.jpg.537533f61b1b73be48ae4044b987015e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/5700302b3d357_DayFront.jpg.3deed40723867cbb151d894e4682e1f8.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: urban-vibravant-avenue-nightclub-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId:  urban-vibravant-avenue-nightclub-darknite

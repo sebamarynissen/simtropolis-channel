@@ -1,0 +1,44 @@
+group: glenni
+name: haugesund-1970s-bus-stops
+version: "2"
+subfolder: 700-transit
+info:
+  summary: Haugesund 1970's Bus Stops
+  description: |-
+    **Reworked February 2018: Please demolish existing versions in your city, and delete your old version from your plugins folder.**
+
+    The Transit enabling switches were also updated.
+
+    This is a quickie, basically modeled in just a few minutes, a recreation of the remaining concrete bus sheds from my city Haugesund, Norway in the 70's.
+
+    I've  always sort of liked these, so I wanted to put them in the game. ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif ";)")
+
+    Stats:
+
+    Works like any bus stop
+
+    Power: 1
+
+    Capacity:
+
+    15000 Street
+
+    20 000 Road
+
+    Plop cost roughly 600.
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24161-haugesund-1970s-bus-stops/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/haugbusstop2.jpg.e7b8af6e902bd64490321c2863a0d983.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/haugbusstop.jpg.addccf329abe275eb163c99b030ebb19.jpg
+dependencies:
+  - deadwoods:road-top-bus-stop-textures
+  - bsc:vip-girafe-urbanpack-vol01
+assets:
+  - assetId: glenni-haugesund-1970s-bus-stops
+
+---
+assetId: glenni-haugesund-1970s-bus-stops
+version: "2"
+lastModified: "2018-02-10T02:28:22Z"
+url: https://community.simtropolis.com/files/file/24161-haugesund-1970s-bus-stops/?do=download&r=170020

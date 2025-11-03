@@ -1,0 +1,49 @@
+group: heblem
+name: ford-dealership
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Ford Delearship
+  description: |-
+    This is a typical Mexican Ford Motor Company dealership, this is a functional landmark that gives $$ commercial jobs, this includes a detailed lot and BAT. Mexico BAT's LBT
+
+    Dependencies**:**
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    -   [LBT Prop Pack 2](http://descargas.capitalsim.net/?sitio=csc&descarga=741)
+    -   [LBT Prop Pack 3](../../stex/index.cfm?id=19366)
+    -   [PEG MTP Mountain Theme Pack](../../stex/index.cfm?id=14025)
+    -   [Fixed Sc4jeeks Parking Textures](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1181)
+
+    **Landmark plop**
+
+    Lot size:
+
+    9x5
+
+    Position in the menu:
+
+    Landmark menu
+
+    ocupants:
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/19373-lbt-ford-delearship/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/20a276756ae61573857b295c9bdee88c-show1.jpg
+    - https://www.simtropolis.com/objects/screens/0005/20a276756ae61573857b295c9bdee88c-show2.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - sc4jeeks:parking-textures-vol01
+  - peg:mtp-super-pack
+assets:
+  - assetId: heblem-ford-delearship
+
+---
+assetId: heblem-ford-delearship
+version: "1.0"
+lastModified: "2008-02-15T02:03:17Z"
+url: https://community.simtropolis.com/files/file/19373-lbt-ford-delearship/?do=download&r=44041
+archiveType:
+  format: Clickteam
+  version: "40"

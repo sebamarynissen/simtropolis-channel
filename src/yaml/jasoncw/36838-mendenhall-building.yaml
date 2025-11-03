@@ -1,0 +1,38 @@
+group: jasoncw
+name: mendenhall-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Mendenhall Building
+  description: |-
+    The Mendenhall Building is a recreation of 2309 Locust Street, in St. Louis, USA. It was built in 1914, with a new facade in 1934. It housed Auburn Graves Motor Company and Mendenhall Motor Company early in its life, and has since housed a variety of business. It grows in the Chicago and New York tilesets.
+
+    -   1x3 growable CO§§ lot.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/36838-mendenhall-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/68085570a558d_Mendenhall00.jpg.77d6fd11e22d1b9d8c932195fac1ae45.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/6808557b43d29_Mendenhall01.jpg.503c6f74b45f9b473bd7bd64df9e403a.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-mendenhall-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-mendenhall-building-darknite
+
+---
+assetId: jasoncw-mendenhall-building-maxisnite
+version: "1.0.0"
+lastModified: "2025-04-23T02:55:46Z"
+url: https://community.simtropolis.com/files/file/36838-mendenhall-building/?do=download&r=207087
+
+---
+assetId: jasoncw-mendenhall-building-darknite
+version: "1.0.0"
+lastModified: "2025-04-23T02:55:46Z"
+url: https://community.simtropolis.com/files/file/36838-mendenhall-building/?do=download&r=207088

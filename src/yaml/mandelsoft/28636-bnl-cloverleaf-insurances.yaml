@@ -1,0 +1,68 @@
+group: mandelsoft
+name: bnl-cloverleaf-insurances
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: BNL Cloverleaf Insurances
+  description: |-
+    Cloverleaf Insurances is a Dutch med-rise commercial office building. It hosts an medium sized insurance company. The Cloverleaf Insurances building is based upon the headquarters of Klaverblad Verzekeringen in Zoetermeer.  
+      
+    This BAT is available as a ploppable CO$$$ building in the Landmarks menu.  
+      
+    **Statistics**  
+      
+    Name: Cloverleaf Insurances  
+    Building Menu: Landmarks  
+    Capacity CO$$$: 1675 (CO$$: 2393)  
+    Power consumption: 68 MW  
+    Water consumption: 732 m3  
+    Construction cost: $ 11 306  
+    Bulldoze cost: $ 584  
+    Pollution:  
+    \- Air: 8 (radius: 6 tiles)  
+    \- Water: 8 (radius: 7 tiles)  
+    \- Garbage: 4
+
+    **Installation**  
+    Installation is quite simple: just download one of the two ZIP files and extract them to your plugins folder:  
+      
+    • *BNL\_CO$$$\_Zoetermeer\_KlaverbladVerzekeringen\_DarkNite.zip*  
+    Download this ZIP file only when you have SimFox’s DarkNite Mod installed.  
+      
+    • *BNL\_CO$$$\_Zoetermeer\_KlaverbladVerzekeringen\_MaxisNite.zip*  
+    If you don’t have SimFox’s DarkNite Mod installed, download this version.  
+      
+    **Uninstallation**  
+    To uninstall this building, demolish every instance of this building and remove the files from this mod from your Plugins folder.  
+      
+    Dependencies  
+    This mod uses no dependencies.  
+      
+    Enjoy!  
+    *Maarten/MandelSoft*
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28636-bnl-cloverleaf-insurances/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/f0f4d771a8aa4df01203d6cbf5c0b159-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/7099509a757f2581421b6b0b071e7912-screen_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/20dc018c97523ec2ee385e7b2dcc225b-screen_nite.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mandelsoft-bnl-cloverleaf-insurances-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mandelsoft-bnl-cloverleaf-insurances-darknite
+
+---
+assetId: mandelsoft-bnl-cloverleaf-insurances-darknite
+version: "1.1"
+lastModified: "2025-08-03T15:34:34Z"
+url: https://community.simtropolis.com/files/file/28636-bnl-cloverleaf-insurances/?do=download&r=113933
+
+---
+assetId: mandelsoft-bnl-cloverleaf-insurances-maxisnite
+version: "1.1"
+lastModified: "2025-08-03T15:34:34Z"
+url: https://community.simtropolis.com/files/file/28636-bnl-cloverleaf-insurances/?do=download&r=113934

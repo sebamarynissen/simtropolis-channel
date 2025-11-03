@@ -1,0 +1,42 @@
+group: glenni
+name: eyecandy-bridges-set
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Eyecandy bridges set
+  description: |-
+    Here's a little set of non functional bridges ive been working on, the following are:
+    An old metal suspension bridge
+    An ancient stone bridge
+    An old arched stonebridge
+    and a North American type covered bridge in wood.
+
+    And that's not all, i also included some diagonal oriented ones of 4 of the models.
+
+    There are some visual glitches due to the LODs  ( i tried as best as i could...) , but as long as you cover them up cleverly with either flora, or other items they should look fine, this mostly applies to the approaches.
+    Either way i hope you can find some usage for these.
+
+    Dependencies:
+    [Meandering Bike Paths](https://community.simtropolis.com/files/file/13100-meandering-bike-paths/)
+
+    [PEG SUPER MTP PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+    * * *
+
+    Mod Edit: Fixed dependency links (from old URL format).
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/23071-eyecandy-bridges-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5d7e5ea95a3f3adcefa029dbd29dae7f-Eyecandybridges-1.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5d7e5ea95a3f3adcefa029dbd29dae7f-Eyecandybridges-2.jpg
+dependencies:
+  - 6459978:meandering-bike-paths
+  - peg:mtp-super-pack
+assets:
+  - assetId: glenni-eyecandy-bridges-set
+
+---
+assetId: glenni-eyecandy-bridges-set
+version: "1.0"
+lastModified: "2009-12-29T21:43:28Z"
+url: https://community.simtropolis.com/files/file/23071-eyecandy-bridges-set/?do=download&r=49747

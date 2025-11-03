@@ -1,0 +1,69 @@
+group: ids2
+name: equitable-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Equitable Building
+  description: |-
+    Completed in 1968, the Equitable Building (now known by its address of 100 Peachtree Street) is a 32-story building located in downtown Atlanta, Georgia. Designed by everyone's favorite architecture firm Skidmore, Owings & Merrill, this absolute stunner of a building broke all the rules, and immediately cemented SOM's reputation as the most innovative architecture firm in history.
+
+    I first modeled this building back in 2012, not long after I first starting BATting, specifically because I was lazy and its boxy shape looked easy to model (hey, come on, I was in high school). After languishing on my hard drive for the better part of 12 years, I thought it would be nice to finally do it justice, so I remodeled it from scratch last year. At long last, I now present to you a mostly accurate replica, which is sure to be the most daring building in your skylines.
+
+    This building sits on a 4x3 lot and comes in growable and ploppable CO$$ varieties, both of which provide 5891 jobs. Both Darknite and Maxisnite versions are provided, of which only one should be used at a time. The Darknite version requires [Simfox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) - for the lot (specifically BSC Texture Pack Cycledogg V01).
+
+    [Colossus Addon Mod](https://community.simtropolis.com/files/file/30956-colossus-addon-mod/) - for the optional CAM lot.
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/36800-equitable-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/icon.jpg.0f5f8afbf1643a500a40930e44e284f3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/day1.jpg.94de9bcff9a0a7f78cf1115a8398485d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/day2.jpg.4593fbe71c862575d0df84f5fdef0e3e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/night1.jpg.88c38a375ed674293c849e32d9c5deef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/night2.jpg.23ffd01fd230a7490caa9dcfa426d8d0.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: ids2-equitable-building-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: ids2-equitable-building-maxisnite
+        exclude:
+          - /CO\$\$8_4x3_Equitable Building_956ef94f\.SC4Lot$
+      - assetId: ids2-equitable-building-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-equitable-building-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-equitable-building-darknite
+        exclude:
+          - /CO\$\$8_4x3_Equitable Building_956ef94f\.SC4Lot$
+      - assetId: ids2-equitable-building-cam
+
+---
+assetId: ids2-equitable-building-darknite
+version: "1.0.0"
+lastModified: "2025-03-31T00:26:39Z"
+url: https://community.simtropolis.com/files/file/36800-equitable-building/?do=download&r=206682
+
+---
+assetId: ids2-equitable-building-maxisnite
+version: "1.0.0"
+lastModified: "2025-03-31T00:26:39Z"
+url: https://community.simtropolis.com/files/file/36800-equitable-building/?do=download&r=206683
+
+---
+assetId: ids2-equitable-building-cam
+version: "1.0.0"
+lastModified: "2025-03-31T00:26:39Z"
+url: https://community.simtropolis.com/files/file/36800-equitable-building/?do=download&r=206684

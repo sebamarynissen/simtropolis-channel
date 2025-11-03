@@ -1,0 +1,37 @@
+group: heblem
+name: walmart
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Wal-Mart
+  description: |-
+    Wal-Mart its an american retail store, this store brings long variety of products and lowest prices to the consumers, this file only includes a ploppable version. Enjoy!  
+      
+    Landmark plop  
+    Lot size:  
+    10x9  
+    Position in the menu:  
+    Landmark menu  
+    ocupants:  
+    CS$ - 2088$ - 524$$  
+      
+    **DEPENDENCIES:**  
+    LBT Mega Prop Pack: [https://community.simtropolis.com/files/file/21770-lbt\-mega-prop-pack-vol01/](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)  
+      
+    LBT Mega Texture Pack: [https://www.simtropolis.com/forum/files/file/21771-lbt\-mega-texture-pack-vol-02/](https://www.simtropolis.com/forum/files/file/21771-lbt-mega-texture-pack-vol-02/)
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/26117-hbs-wal-mart/
+  images:
+    - https://www.simtropolis.com/objects/screens/0029/0602dbf2e574f83725a66db010217f0d-shws2.jpg
+    - https://www.simtropolis.com/objects/screens/0029/3bdc569b52776c9c56c43165434d2c54-shws1.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+assets:
+  - assetId: heblem-hbs-wal-mart
+
+---
+assetId: heblem-hbs-wal-mart
+version: "1.0"
+lastModified: "2011-04-22T23:26:19Z"
+url: https://community.simtropolis.com/files/file/26117-hbs-wal-mart/?do=download&r=84734

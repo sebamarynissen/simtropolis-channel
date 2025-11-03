@@ -1,10 +1,12 @@
 # Simtropolis sc4pac channel
 
 This repository contains the code for the [sc4pac](https://memo33.github.io/sc4pac/#/) metadata channel that automatically handles uploads to the STEX.
-Add https://sc4pac.simtropolis.com/ to your sc4pac channels to use it.
+Add `https://sc4pac.simtropolis.com/` to your sc4pac channels to use it.
 See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
 
 Currently, the STEX is polled for new content once every hour, meaning if your plugin is compatible and has valid metadata (see below), it should appear within the hour on the channel.
+
+Support is available in the [Simtropolis x sc4pac thread](https://community.simtropolis.com/forums/topic/763620-simtropolis-x-sc4pac-a-new-way-to-install-plugins). Content updates and news are also posted there.
 
 ## Principles
 
@@ -22,9 +24,7 @@ Writing metadata by hand is however a tedious and time consuming process, and th
 However, by default, a plugin added to the STEX will *not* be automatically added.
 To indicate that your plugin should be added to the channel, you have to add a `metadata.yaml` file in **one** of the .zip folders you are about to upload to the STEX.
 It doesn't matter where you put this `metadata.yaml` file, but it is advised to put it at the root of your .zip folder.
-
-> [!NOTE]
-> Currently, only plugins uploaded as .zip are supported, but support for .7z and .rar is planned.
+Since [#195](https://github.com/sebamarynissen/simtropolis-channel/pull/195), .rar and .7z archives are supported as well.
 
 If your plugin has no dependencies and no specific installation needs, you can leave the `metadata.yaml` file empty, but it is *mandatory* to have it, otherwise your plugin will not be added to the channel.
 For example, consider [mattb325's Inmark Tower](https://community.simtropolis.com/files/file/35168-inmark-tower/).

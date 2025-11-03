@@ -1,0 +1,83 @@
+group: mandelsoft
+name: the-pactagon-nam-infrastructure-solutions
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: The Pactagon (NAM Infrastructure Solutions)
+  description: |-
+    The Pactagon, the only Pactagonal (or Omnomnomnomagonal) shaped building in SimCity 4, has now found its way here in town! And you know what? It’s also the new Headquarters of NAM Infrastructure Solutions! The building is designed by B. Kaeck from Pak & Mann Architects. It's unique design gives you a nice view over the infrastructure connecting to the roundabout. Besides, it's a real eye catcher!  
+      
+    As a tribute to the NAM Team, this building is designed to be a filler for the Avenue Roundabout. People can access the building by the pedestrian bridges that go over the roundabout on the front side.  
+      
+    No ponies were harmed during the production of this BAT. ![*:lol:](https://community.simtropolis.com/assets/emoticons/default_18.gif ":lol:")  
+      
+    The building can be found in the Landmarks menu  
+      
+    **Statistics**
+
+    -   Name: *The Pactagon (**NAM* *Infrastructure Solutions)*
+    -   Type: *Offices, High Wealth ($$$), Plopable*
+    -   Building Menu:*Landmarks*
+    -   Capacity: CO$$$: 479 (CO$$: 684)
+    -   Power consumption: 20 MW
+    -   Water consumption: 220 m3
+    -   Construction cost: $ 9 852
+    -   Bulldoze cost: $ 630
+    -   Pollution:
+        -   Air: 8 (radius: 2 tiles)
+        -   Water: 8 (radius: 2 tiles)
+        -   Garbage: 4 (radius: 4 tiles)
+
+    **Installation**  
+    Installation is quite simple: just download one of the two ZIP files and extract them to your plugins folder:  
+      
+    • *CO$$$\_The Pactagon\_DarkNite.zip*  
+    Download this ZIP file only when you have *SimFox’s DarkNite Mod* installed.  
+      
+    • *CO$$$\_The Pactagon\_MaxisNite.zip*  
+    If you don’t have *SimFox’s DarkNite Mod* installed, download this version.  
+      
+    **Uninstallation**  
+    To uninstall this building, demolish every instance of this building and remove the files from this mod from your Plugins folder.  
+      
+    **Dependencies**  
+    This mod uses no dependencies.  
+      
+    Enjoy!  
+    *Maarten/MandelSoft*
+
+    *NAM* *Team is Best Pony!*
+
+    * * *
+
+    Mod Edit: Fixed unparsed formatting.
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28647-the-pactagon-nam-infrastructure-solutions/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/20cfe49ff07b2bc221b2301374f4184c-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/16afe12dfd9e984279dddbcefdc62824-thepactagon_ingame_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/e844c30f55238c804535cf162441666b-thepactagon_ingame_nite.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/43c7b47d9fa6626eb22a27b5c2db5da0-bat_pactagon_09_perspective.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/951ea85525a393df76322bce6bb0e4e4-bat_pactagon_09_top.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/00a5a4c7de4bfd6536aff74712221d71-bat_pactagon_09_advert.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/041089d1b0089bd40cc5b8446a8dfe6d-bat_pactagon_09_advertnite.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mandelsoft-the-pactagon-nam-infrastructure-solutions-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mandelsoft-the-pactagon-nam-infrastructure-solutions-darknite
+
+---
+assetId: mandelsoft-the-pactagon-nam-infrastructure-solutions-darknite
+version: "1.0"
+lastModified: "2013-04-17T12:36:00Z"
+url: https://community.simtropolis.com/files/file/28647-the-pactagon-nam-infrastructure-solutions/?do=download&r=114125
+
+---
+assetId: mandelsoft-the-pactagon-nam-infrastructure-solutions-maxisnite
+version: "1.0"
+lastModified: "2013-04-17T12:36:00Z"
+url: https://community.simtropolis.com/files/file/28647-the-pactagon-nam-infrastructure-solutions/?do=download&r=114126

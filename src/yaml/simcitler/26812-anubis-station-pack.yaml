@@ -1,0 +1,152 @@
+group: simcitler
+name: anubis-station-pack
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Anubis station pack
+  description: |-
+    This station pack includes 3 stations based on anubis89's [Old Smalltown Rail Station](https://www.simtropolis.com/forum/files/file/22964-old-small-town-rail-station/) BATs.
+
+    It is such a beautiful station, so i decided to give it some additionally lots. So the station will now fit for more scenarios.
+
+    **included are:**
+
+    -     
+           
+        
+    -   6x2 STR station  
+        
+    -   6x3 4 track station (3 platforms)  
+        
+    -   6x3 4 track station (mid platform)  
+        
+
+    All lots additionally feature bus stop functionality, eyecandy parking and TE street connections.
+
+    **here are the stats:**
+
+    **6x2** **STR** **station:**
+
+    **Lot size:** 6x2
+
+    **plop cost:** 7.500$
+
+    **monthly cost:** 45
+
+    **Transit Switch Entry Cost:** 0,020
+
+    **capacity:** 18.000
+
+    **power consumed:** 12 kWh/month
+
+    **water consumed:** 6 m³/month
+
+    **air pollution:** 3 over 4 tiles
+
+    **water pollution:** 2 over 3 tiles
+
+    **garbage:** 6 over 0 tiles
+
+    **6x3 4 track station (3 platforms):**
+
+    **Lot size:** 6x3
+
+    **plop cost:** 7.500$
+
+    **monthly cost:** 75
+
+    **Transit Switch Entry Cost:** 0,020
+
+    **capacity:** 48.000
+
+    **power consumed:** 12 kWh/month
+
+    **water consumed:** 6 m³/month
+
+    **air pollution:** 3 over 4 tiles
+
+    **water pollution:** 2 over 3 tiles
+
+    **garbage:** 8 over 0 tiles
+
+    **6x3 4 track station (mid platform):**
+
+    **Lot size:** 6x3
+
+    **plop cost:** 6.000$
+
+    **monthly cost:** 60
+
+    **Transit Switch Entry Cost:** 0,020
+
+    **capacity:** 36.000
+
+    **power consumed:** 8 kWh/month
+
+    **water consumed:** 3 m³/month
+
+    **air pollution:** 3 over 4 tiles
+
+    **water pollution:** 2 over 3 tiles
+
+    **garbage:** 6 over 0 tiles
+
+    **Dependencies:**
+
+    Network Addon Mod for [Windows](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=851) or [Mac](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=852)
+
+    RAM Single Track Rail(STR) for [Windows](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1996) or [Mac](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1997)
+
+    [Old Smalltown Rail Station](https://www.simtropolis.com/forum/files/file/22964-old-small-town-rail-station/)
+
+    [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    **optional:**
+
+    [european car replacement mod](https://www.simtropolis.com/forum/files/file/12973-european-car-replacement-mod/)
+
+    **Credits go to:**
+
+    **anubis89** for his outstanding station BATs
+
+    Another thank you to various members of the BSC Team for their texture creations
+
+    And of course to all creators of props used on the lots!
+
+    special thanks to the communities of www.simforum.de and www.sc4devotion.com for their advice and help!
+
+    Thanks to Dirk for www.simtropolis.com!
+
+    Hope you like!
+
+    ~Simcitler
+
+    check out [my other lots](https://www.simtropolis.com/forum/index.php?app=core&module=search&do=user_activity&search_app=downloads&mid=250000) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0).
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/26812-anubis-station-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/4a83b63cc3ea8e78c4675b0457968697-stations.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/1ef3c2a2b0095a590b6272b53b498218-6x2_1platform.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/1aa44671671124778b24053235e4f431-6x2_1platform_night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/f2bc41b646b76a30d4e77ff3ac172a37-6x3_2platforms.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/3706d021f203dc0c28018e1895826d0c-6x3_2platforms_night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/c7a98b9d15bd7717848d87f94ad29a03-6x3_3platforms.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/a03dff48a203f96c484607f0aed81e40-6x3_3platforms_night.jpg
+dependencies:
+  - anubis89:old-small-town-rail-station-resources
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-anubis-station-pack
+
+---
+assetId: simcitler-anubis-station-pack
+version: "1.0"
+lastModified: "2011-09-28T09:54:12Z"
+url: https://community.simtropolis.com/files/file/26812-anubis-station-pack/?do=download&r=92591

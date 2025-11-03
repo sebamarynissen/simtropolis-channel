@@ -1,0 +1,71 @@
+group: deadwoods
+name: road-top-bus-stop-set
+version: "103"
+subfolder: 700-transit
+info:
+  summary: Road Top Bus Stop Set
+  description: |-
+    **UPDATE: 23.06.2022 for Project ZIP.** Installer replaced with ZIP file and other housekeeping, courtesy of Tyberius06.
+
+    This pack contains a set of six bus stops that sit on a road/street/avanue tile and don't require extra space beside the road. This is very useful for busy downtown areas or areas where you've forgotten to put in bus stops but don't want to bulldoze.
+
+    There are two sets of lots, each one with one street lot, one road lot and one avenue lot. Set1 is a more run-down looking busstop, based on the prefab pebblemix concrete ones found in many Australian cities. Set2 are more upmarket with transparent glass. They also use a texture with a pull-off area so the busses can pull off the road (as found in many places).
+
+    All are found together in the miscellaneous transport menu.
+
+    Install: copy/extract the **Deadwoods** parent folder into your plugins. If you extracted the *\_Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+    The pack comes with two sets of textures for the pullouts. One uses the Maxis road textures and one uses the Euro road textures. Both will be installed when you extract the ZIP. So you should go to the install directory (/SimCity 4/Plugins/deadwoods/DEDWD\_RTBusStop) and remove one of the following (the one you don't want):
+
+    **DEDWD\_RTBusStop\_Euro\_textures.dat**, or
+
+    **DEDWD\_RTBusStop\_Maxis\_textures.dat**
+
+    The specs and transit properties of the lots have been updated to current days NAM standards.
+
+    These lots are BSC Tracking Enabled (BTE) which means they may contribute to Reward Chains.
+
+    Dependencies:
+    **[BSC Textures vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)**
+  author: deadwoods
+  website: https://community.simtropolis.com/files/file/14766-dedwd-road-top-bus-stop-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/baa3b76bb61f4f837a376d8ead070fe3-DEDWD_RTBusStops-stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/baa3b76bb61f4f837a376d8ead070fe3-DEDWD_RTBusStops-stexpic2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - deadwoods:road-top-bus-stop-textures
+assets:
+  - assetId: deadwoods-road-top-bus-stop-set
+    exclude:
+      - "\\_textures.dat$"
+
+---
+group: deadwoods
+name: road-top-bus-stop-textures
+version: "103-1"
+subfolder: 100-props-textures
+info:
+  summary: Textures for `pkg=deadwoods:road-top-bus-stop-set`
+  author: deadwoods
+  website: https://community.simtropolis.com/files/file/14766-dedwd-road-top-bus-stop-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/baa3b76bb61f4f837a376d8ead070fe3-DEDWD_RTBusStops-stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0021/baa3b76bb61f4f837a376d8ead070fe3-DEDWD_RTBusStops-stexpic2.jpg
+variants:
+- variant: { roadstyle: "US" }
+  assets:
+  - assetId: "deadwoods-road-top-bus-stop-set"
+    include:
+    - "/DEDWD_RTBusStop_Maxis_textures.dat"
+- variant: { roadstyle: "EU" }
+  assets:
+  - assetId: "deadwoods-road-top-bus-stop-set"
+    include:
+    - "/DEDWD_RTBusStop_Euro_textures.dat"
+
+---
+assetId: deadwoods-road-top-bus-stop-set
+version: "103"
+lastModified: "2022-06-23T18:27:59Z"
+url: https://community.simtropolis.com/files/file/14766-dedwd-road-top-bus-stop-set/?do=download&r=194527

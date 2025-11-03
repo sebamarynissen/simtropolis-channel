@@ -1,0 +1,86 @@
+group: simhottoddy
+name: pripiat-voskhod-apartments-2010
+version: "2"
+subfolder: 200-residential
+info:
+  summary: Pripiat Voskhod Apartments 2010
+  description: |-
+    Located in the abandoned city of Pripiat, Ukraine, these 16 story apartment buildings remain the tallest structures in the area. There were several built in the city including a few with special May Day decorations.
+
+    This is an update to my very first upload to the STEX. I changed almost every texture to match my more contemporary Pripiat models, the textures are generally improved in quality and fit the game better, the model has been made more accurate with respect to the real buildings, and the inaccuracies have been removed. The lot has also been updated to fit with the rest of Glenni's wonderful lots that he made for this series.
+
+    You may use the original version at the same time as this.
+
+    **This upload includes:**
+
+    2 models, one with the crest, and one without.
+
+    2 5x3 growable *corner* lots, one with the crest and one without.
+
+    2 4x2 growable *corner* lots, one with the crest and one without.
+
+    **Installation**:
+
+    Unzip the folder in the download and place directly into the Plugins folder. If you do not want a particular version, simply remove the corresponding files from your plugins. If you want to keep the model file, you may remove the lots for the corresponding model and that building will not grow.
+
+    For those who want a ploppable, one may use "[buildinplop](../../../../../../../../stex/details.cfm?id=21118)" on a *pre-developed* residential zone (or series of zones that add up to) of the *same size*. Failure to follow that rule will result in abandonment.
+
+    **Stats**:
+
+    R$ Occupants: 1500
+
+    Style: Euro
+
+    Stage: 7
+
+    Other stats: FYI, it is not irradiated. ![2.gif](../../../../../../../forum/i/expressions/2.gif)
+
+    **Dependencies:**
+
+    [NDEX Glenni MEGA Props Vol01](../../../../../../../stex/details.cfm?id=19096)
+
+    [BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    Modeling by Simhottoddy.
+
+    Loting by Glenni.
+
+    Modding & lot tweaking by T Wrecks.
+
+    Special thanks to T Wrecks for putting up with me and to everyone in my [BAT thread](../../../../../../../forum/messageview.cfm?catid=37&threadid=103005&enterthread=y) that contributed to making these better! Also, thanks to Blue Lightning for fixing some pesky .desc files for me ![2.gif](../../../../../../../forum/i/expressions/2.gif)
+
+    Enjoy!
+
+    \-Todd
+  author: SimHoTToDDy
+  websites: 
+    - https://community.simtropolis.com/files/file/25255-pripiat-voskhod-apartments-2010-maxis-night/
+    - https://community.simtropolis.com/files/file/25254-pripiat-voskhod-apartments-2010-dark-night/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a61ca5e087b571f2f8b329831e1be370-STEX_voskhod_01.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a61ca5e087b571f2f8b329831e1be370-STEX_voskhod_02.jpg
+    - https://www.simtropolis.com/objects/screens/0008/4399b21b1887ea58a628238a5430aa40-STEX_voskhod_03.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - ndex:glenni-mega-props-vol01
+variants:
+  - variant: { nightmode: standard}
+    assets:
+      - assetId: simhottoddy-pripiat-voskhod-apartments-2010-maxis-night
+  - variant: { nightmode: dark}
+    assets:
+      - assetId: simhottoddy-pripiat-voskhod-apartments-2010-dark-night
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: simhottoddy-pripiat-voskhod-apartments-2010-maxis-night
+version: "2"
+lastModified: "2010-11-13T12:27:27Z"
+url: https://community.simtropolis.com/files/file/25255-pripiat-voskhod-apartments-2010-maxis-night/?do=download&r=52925
+
+---
+assetId: simhottoddy-pripiat-voskhod-apartments-2010-dark-night
+version: "2"
+lastModified: "2010-11-13T12:26:40Z"
+url: https://community.simtropolis.com/files/file/25254-pripiat-voskhod-apartments-2010-dark-night/?do=download&r=52923

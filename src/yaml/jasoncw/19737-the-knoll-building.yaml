@@ -49,17 +49,31 @@ info:
 
     **BAT:  Jasoncw****Modding:  Nofunk**
 
+    The Darknite version includes a re-render by Simfox.
+
     *[Click here for development discussion of new projects by Jasoncw](../../forum/messageview.cfm?catid=37&threadid=68271&enterthread=y)*
-  author: Jasoncw
+  author: Jasoncw, Nofunk, Simfox
   website: https://community.simtropolis.com/files/file/19737-the-knoll-building/
   images:
     - https://www.simtropolis.com/objects/screens/0016/90e5549e241d509088e9d027d5fd67cd-Knoll-BAT-Frame-1.jpg
     - https://www.simtropolis.com/objects/screens/0016/90e5549e241d509088e9d027d5fd67cd-Knoll-BAT-Frame-2.jpg
-assets:
-  - assetId: jasoncw-the-knoll-building
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-the-knoll-building
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-jasoncw-knoll-building
 
 ---
 assetId: jasoncw-the-knoll-building
 version: "1.0"
 lastModified: "2008-04-26T21:16:49Z"
 url: https://community.simtropolis.com/files/file/19737-the-knoll-building/?do=download&r=44653
+
+---
+assetId: simfox-jasoncw-knoll-building
+version: "1.0"
+lastModified: "2010-07-17T12:51:06Z"
+url: https://community.simtropolis.com/files/file/24417-jasoncw-knoll-building/?do=download&r=51679

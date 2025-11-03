@@ -1,0 +1,38 @@
+---
+assetId: andisart-cam-building-pack
+version: "2.0.0"
+lastModified: "2025-08-04T14:50:44Z"
+url: https://community.simtropolis.com/files/file/35516-andisart-cam-building-pack/?do=download
+
+---
+group: ulisse-wolf
+name: andisart-cam-building-pack
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: AndisArt CAM Building Pack
+  description: |
+    This pack contains all buildings made by AndisArt that have become compatible with CAM. All lots have been performed a relotting as well as an improvement of the statistics to make compatible with CAM. 
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/35516-andisart-cam-building-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/CAM.jpg.5bcff840b672c52ac73d2d4c5118c80d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/64505a720ce8f_CAMNIGHT.jpg.1b3063d3886221bdffa6b165ac94deb6.jpg
+
+dependencies:
+  - andisart:iris-bay
+  - andisart:tower-verre
+  - andisart:gt-tower-east
+  - andisart:models-mega-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+
+variants:
+  - variant: { CAM: "no" }  
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: andisart-cam-building-pack

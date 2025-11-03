@@ -1,0 +1,44 @@
+group: airman15
+name: air-france-regional-set
+version: "1.0-1"
+subfolder: 710-automata
+info:
+  summary: Air France Regional Set
+  description: |-
+    Flying is an excellent means of travelling that offers some spectacular views. but not everyone can learn to fly, let alone those styrofoam RC toys that come from a hobby shop. There are planes that are capable of takimg you where you need to go, but who's willing to fly them? Air France is a top-of-the-line carrier that will take you anywhere! Whether it's to the next town or across the countryside, you'll be flying with one of the best names out there!
+    
+    About the upload-
+    This is a set of aircraft which replace several Maxis aircraft. They appear at the airport and will be seen flying around your city. There are three aircraft included:
+    - An **Embraer ERJ-135**, which replaces the business jet.
+    - A **Lockheed Constellation**, which replaces the Douglas DC-7
+    - And lastly, an **RJ-85**, which replaces the BAe-146. This aircraft is a remodel of the original, but keeps some of the original texturing intact.
+
+    Some of the texturing used was taken from online sources. The textures fro the ERJ-135 were found on Google Images, the RJ-85 textures are from Maxis and the Constellation textures were originally for Flight Simulator 2004 and were created by Julien Scavini and hosted on [Flyaway Simulation](http://flyawaysimulation.com/downloads/files/16565/fs2004-air-france-super-constellation-f-bhba/).
+    Dependencies?
+    None.
+
+    This file was requested by C4creeper and has been made available to the STEX for all to download!
+  author: airman15
+  website: https://community.simtropolis.com/files/file/29266-air-france-regional-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/0bb1d9a41dbbee68235ede6ce36a24ad-af0_cover.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/56a616de682b715a82ad3c9258e291be-af1_erj-135.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/c239480bec60ce8ab8a4fc6884b47d50-af2_constellation.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2014/0afe3bfbd3ee7a2b430bf4341f76dcb5-af3_rj-85.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-air-france-regional-set
+      include:
+      - "/Hardware/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-air-france-regional-set
+      include:
+      - "/Software/"
+
+---
+assetId: airman15-air-france-regional-set
+version: "1.0"
+lastModified: "2014-02-08T23:15:48Z"
+url: https://community.simtropolis.com/files/file/29266-air-france-regional-set/?do=download&r=123659

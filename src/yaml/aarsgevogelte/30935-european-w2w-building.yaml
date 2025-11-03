@@ -1,0 +1,38 @@
+group: aarsgevogelte
+name: european-w2w-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: European W2W Building
+  description: |-
+    \- No dependencies
+
+    \- This is a fictional building
+
+    \- LM & CS$$$
+
+    ![Jogterpolprant.jpg.7695996e04a41e2a44c62](https://www.simtropolis.com/repository/attachments//monthly_2016_02/Jogterpolprant.jpg.7695996e04a41e2a44c629552909bc0d.jpg)
+
+    [![Jogterpolprant.jpg.7695996e04a41e2a44c629552909bc0d.jpg](https://www.simtropolis.com/objects/attachments/monthly_2016_02/Jogterpolprant.jpg.7695996e04a41e2a44c629552909bc0d.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2016_02/Jogterpolprant.jpg.7695996e04a41e2a44c629552909bc0d.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/30935-european-w2w-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Afbjeldung.jpg.e8f100367f685d17dc88bf17abeab189.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-european-w2w-building
+        exclude:
+        - "/DN - Pick either this one/"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-european-w2w-building
+        exclude:
+        - "/MN - or this one/"
+
+---
+assetId: aarsgevogelte-european-w2w-building
+version: "1.0"
+lastModified: "2016-02-03T12:45:53Z"
+url: https://community.simtropolis.com/files/file/30935-european-w2w-building/?do=download&r=160564

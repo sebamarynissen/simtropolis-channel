@@ -1,0 +1,29 @@
+group: aarsgevogelte
+name: stationsstraat-25-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Stationsstraat 25, Tilburg
+  description: |-
+    LM
+
+    ![1.jpg.973727cdc86d66729e66f76ea588fcc9.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.973727cdc86d66729e66f76ea588fcc9.jpg)![2.jpg.c71cc0ebf6247116bf4c484709760514.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.c71cc0ebf6247116bf4c484709760514.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32122-stationsstraat-25-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.034fd7c1a38f2d3e3a30a7c671ada3ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.9d503e23f648d70bd112f125ab22fa21.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-stationsstraat-25-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-stationsstraat-25-tilburg
+
+---
+assetId: aarsgevogelte-stationsstraat-25-tilburg
+version: "1.0"
+lastModified: "2018-02-12T11:09:39Z"
+url: https://community.simtropolis.com/files/file/32122-stationsstraat-25-tilburg/?do=download&r=170076

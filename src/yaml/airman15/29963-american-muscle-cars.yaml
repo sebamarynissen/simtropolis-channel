@@ -1,0 +1,41 @@
+group: airman15
+name: american-muscle-cars
+version: "2-1"
+subfolder: 710-automata
+info:
+  summary: American Muscle Cars
+  description: |-
+    What does raw, uncontested power look like? How about in the form of a muscle car! The kind of power in a car built for one purpose in mind- to own the road and humiliate 16-year-olds who are trying to copy what they saw in The Fast and the Furious. And not only do we have the finest models of today, we have the ones that started a tradition!
+
+    About the upload-  
+    There are thirty medium wealth vehicles included in this set, all based on American muscle cars built by Chevrolet, Dodge, and Ford. Each one features the first and newest models for the Camaro, Challenger, and Mustang. They will appear on your road networks.
+
+    Dependencies?  
+    None required.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/29963-american-muscle-cars/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/AMC0.png.68220d9b492173ce51fefc60595783fa.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/AMC1.jpg.d85bdede6353f41f4bdc3ff45a36616f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/AMC2.png.02d98aee0febcec1b5fd994f260a4d19.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/AMC3.png.6215ff2219037fcb3fbeeffbb1a647c7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/AMC4.png.f91a17da600977e01b1d88465d9272e7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/AMC5.png.65d3ffda8483e4cd50e841dc104930f0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/AMC6.png.3c233682efff4c1ec2c1fc0a4029a260.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-american-muscle-cars
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-american-muscle-cars
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-american-muscle-cars
+version: "2"
+lastModified: "2016-04-20T05:22:58Z"
+url: https://community.simtropolis.com/files/file/29963-american-muscle-cars/?do=download&r=161540

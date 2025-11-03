@@ -1,0 +1,60 @@
+group: "null-45"
+name: "sc4-city-date-sync"
+version: "1.0.3"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-sc4-city-date-sync"
+  withChecksum:
+  - include: "/SC4CityDateSync.dll"
+    sha256: 6387214C603191A849473945975AFBC70AFC63F3A2B294A7504D65E22A48DC33
+  - include: "/SC4CityDateSync.ini"
+    sha256: 618D516E2D8866C0FC6D17E80C4CB0CFCB7DCD73273F3A2D5B8EC280F03CF286
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that synchronizes the city dates in a region."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    A DLL Plugin for SimCity 4 that synchronizes the city dates in a region.
+
+    The plugin saves the current in-game date when exiting an established city, and then applies it to the next established city if that city's in-game date is less then the stored value. The city date is applied by automatically executing the SimDate cheat when loading the city. The city date synchronization only occurs between cities located in the same region.
+
+    *Disclaimer - I have not experienced any issues with using the SimDate command in this way, but it may have side effects that I missed.*
+
+    **System Requirements**
+
+    * Windows 10 or later
+
+    **Installation**
+
+    1.     Close SimCity 4.
+    2.     Copy SC4CityDateSync.dll and SC4CityDateSync.ini into the Plugins folder in the SimCity 4 installation directory.
+    3.     Start SimCity 4.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4CityDateSync.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/762766-sc4citydatesync-synchronize-the-city-dates-in-a-region/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-city-date-sync
+    
+  warning: |-
+    This DLL plugin comes with one INI configuration file:
+
+    * `SC4CityDateSync.ini`
+
+    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/35782-sc4-city-date-sync/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_11/STEXIcon.png.21975bb87a08e5db2a8857e4ec04ec80.png
+
+---
+assetId: "null-45-sc4-city-date-sync"
+version: "1.0.3"
+lastModified: "2024-01-08T11:05:31Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/35782-sc4-city-date-sync/?do=download"
+url: "https://github.com/0xC0000054/sc4-city-date-sync/releases/download/v1.0.3/SC4CityDateSync.zip"

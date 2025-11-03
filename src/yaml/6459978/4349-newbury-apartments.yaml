@@ -1,0 +1,71 @@
+group: "6459978"
+name: newbury-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: NewBury Apartments
+  description: |-
+    Lot Description
+
+    Not all sims live in the lap of luxury, and those who don't have to live somewhere. Enter NewBury Apartments, a low wealth housing project that houses a handful of sims. This building (of which there are two flavours) is meant to complement the larger (R ploppable) Bronsfield House that I designed.
+
+    Enjoy!
+
+    Custom Features : Query
+
+    Lot Type : 5x2 Growable, Stage 7, New York Style Set
+
+    Statistics :
+
+    Bulldoze Cost : 685
+
+    Residents Provided : 354 R$
+
+    Pollution : Air - 12, Water - 17, Garbage - 105
+
+    Power used : 58, Water Used : 28
+
+    Lot Type : 5x5 Growable, Stage 7, New York Style Set
+
+    Statistics :
+
+    Bulldoze Cost : 1045
+
+    Residents Provided : 498 R$
+
+    Pollution : Air - 18, Water - 22, Garbage - 125
+
+    Power used : 68, Water Used : 41
+
+    Directions: Place all files in a new folder, in the My Docs/SimCity/Plugins directory. Any .DAT files should be placed in the /Maxis/SimCity 4/Plugins file, so they can be shared with other lots. If you are asked to replace an existing file, keep which ever file is newer.
+
+    Dependencies: These files are necessary for this lot to function correctly. If you missing things in game (parking lots for one), you are missing something on this list. Make sure you have the most current version, as they are sometimes updated.
+
+    - bsc:textures-vol01
+
+    Please feel free to use these lots yourself, and edit them for your personal use if necessary. Do not redistribute these lots in any form without prior permission of the creator, or the BSC team.
+
+    Credits:
+
+    BAT Model : 6459978
+
+    Lot Building : BarbyW
+
+    Modding : SimGoober
+
+    Testing : SandraSim, Fox, and other BSC team members.
+  author: "6459978., BarbyW, SimGoober"
+  website: https://community.simtropolis.com/files/file/4349-newbury-apartments-bsc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/83657e3f02a08f558a11f386913bd714-newnewburybyday.jpg
+    - https://www.simtropolis.com/objects/screens/0015/83657e3f02a08f558a11f386913bd714-newnewburybynight.jpg
+assets:
+  - assetId: 6459978-newbury-apartments-bsc
+dependencies:
+  - bsc:textures-vol01
+
+---
+assetId: 6459978-newbury-apartments-bsc
+version: "1.0"
+lastModified: "2004-09-26T12:18:02Z"
+url: https://community.simtropolis.com/files/file/4349-newbury-apartments-bsc/?do=download&r=29023

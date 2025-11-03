@@ -1,0 +1,43 @@
+group: glenni
+name: temporary-building-units
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Temporary Building Units
+  description: |-
+    These are small units roughly the size of a regular shipping container in real life, they can be standalone, or put together to form a building albeit weak, these are often seen on construction sites as housing set up for the workers, as well as lunch rooms, offices etc. I thought this was something several missing from Sc4, so i made these.
+
+    All thoguh quickly, i needed something like this for my cities, so i made them pretty quick, so don't expect no fantastic quality here =P
+
+    They come on several different versions:
+
+    Red
+
+    Yellow
+
+    and Grey
+
+    There's also three different versions to determine for which floors they are supposed to be.
+
+    The bottom one has doors on either side, the middle one has plywood sheets where the door would normally be, and finaly the top section has a little roof junk.
+
+    They sit on a standard Landmark lot, no jobs.
+
+    dependencies:
+
+    [PEG MTP Superpack](https://www.simtropolis.com/stex/details.cfm?id=20966)
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/23078-temporary-building-units/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0bf176b210de06d5b977cdaaf42cb459-Brakker-1.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0bf176b210de06d5b977cdaaf42cb459-Brakker-2.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: glenni-temporary-building-units
+
+---
+assetId: glenni-temporary-building-units
+version: "1.0"
+lastModified: "2009-12-31T11:13:30Z"
+url: https://community.simtropolis.com/files/file/23078-temporary-building-units/?do=download&r=49761

@@ -1,0 +1,134 @@
+group: simfox
+name: p44towers-take2
+version: "2"
+subfolder: 200-residential
+info:
+  summary: P44towers take2
+  description: |-
+    **mGeneral info**
+
+    This is my second and much expanded take on the P44 series of mass housing proliferated in Moscow in last 10 years.
+
+    Download includes:
+
+    **8 models:**
+
+    -   2  25 storey orthogonal towers (1 with white  and 1 with brick detailing)
+        
+    -   2  25 storey diagonal towers (1 with white  and 1 with brick detailing)
+        
+    -   2  16 storey orthogonal towers (1 with white  and 1 with brick detailing) 
+        
+    -   2  16 storey diagonal towers (1 with white  and 1 with brick detailing) 
+        
+
+    and 6 lots:
+
+    -   1 design for orthogonal towers (common for 25 and 16 storey towers
+        
+    -   1 design for orthogonal towers (common for 25 and 16 storey towers
+        
+
+    "white" or "brick" design will be picked to grow at random by the game. Additional information, stats and lot designs are provided in the readMe file.
+
+    This version differs from one available at LEX in that it doesn’t require CAM to grow.
+
+    **mInstallation instruction**
+
+    Release comes in the form of installer. Unzip and double click.Models and Lots will be placed into:
+
+    /My Docs\*/SimCity 4/Plugins/SimFox/R$$/Non\_Cam/p44t
+
+    readMe with JPGs into:
+
+    /My Docs\*/SimCity 4/SimFox\_readme
+
+    \* my Docs = My Documents (Windows XP/2000) / Documents (Windows Vista)
+
+    Make sure you read through the Read me as it contains important information, as well as live links to the dependencies.
+
+    **mDependencies**
+
+    I have departed with my usual No Dependencies policy in this release and it has quite a few. In my defense I have to say that most of my new releases will be using same library and I'm sure many of you already have them. Here is a list.
+
+    Props:
+
+    BSC MEGA Props - SG Vol 01.dat essential
+
+    SimFoxProps\_8Chestnuts.dat essential
+
+    BSC MEGA Props CP Vol01(optional, but recommended)
+
+    BSC MEGA Props - DAE Vol01.dat (optional, but recommended)
+
+    BSC MEGA Props - MJB Vol01.dat (optional, but recommended)
+
+    BSC Mega Props jestarr Vol02.dat (optional, but recommended)
+
+    CSX MEGA Props - Vol03.dat (optional, but recommended)
+
+    Overlay textures (essential):
+
+    BSC Textures Vol 01.dat
+
+    BSC Textures Vol 02.dat
+
+    Live links are (as I have already mentioned) in ReadMe that will be displayed at the end of installation process.
+
+    PS.
+
+    lots seem to be very easy to grow
+
+    have Fun!
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/20502-simfox-p44towers-take2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/de6cc776fd77cedabd4dda8610f79501-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/de6cc776fd77cedabd4dda8610f79501-stex2.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - simfox:chestnuts
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol02
+  - csx:mega-props-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - simfox:p44towers-models
+variants:
+- variant: { CAM: "no" }
+  assets:
+  - assetId: simfox-p44towers-take2-non-cam
+    exclude:
+    - "SimFox_P44TM_towers.dat"
+- variant: { CAM: "yes" }
+  assets:
+  - assetId: simfox-p44towers-take2-non-cam #TODO - There was a CAM version uploaded to the LEX that is not available for now
+    exclude:
+    - "SimFox_P44TM_towers.dat"
+
+---
+group: simfox
+name: p44towers-models
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Models for `pkg=simfox:p44towers-take2`
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/20502-simfox-p44towers-take2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/de6cc776fd77cedabd4dda8610f79501-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/de6cc776fd77cedabd4dda8610f79501-stex2.jpg
+assets:
+  - assetId: simfox-p44towers-take2-non-cam
+    include:
+      - "SimFox_P44TM_towers.dat"
+
+---
+assetId: simfox-p44towers-take2-non-cam
+version: "2"
+lastModified: "2008-10-04T17:17:37Z"
+url: https://community.simtropolis.com/files/file/20502-simfox-p44towers-take2/?do=download&r=45959
+archiveType:
+  format: Clickteam
+  version: "40"

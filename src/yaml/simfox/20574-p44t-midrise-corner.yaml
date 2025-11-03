@@ -1,0 +1,93 @@
+group: simfox
+name: p44t-midrise-corner
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: P44t midrise corner
+  description: |-
+    **m**
+
+    **General Info**
+
+    Continuing development of P44T series I present you mid-rise corner residential block.This download contains 2 models (white and "brick" detailing) growing on a 6x6 medium density residential zone.
+
+    Make sure you read ReadMefor guide how to get it to Zone for it and make sure that it grows in appropriate orientation.
+
+    By placing 4 6x6 zones in a square pattern you can form perfect 12x12 mini districts with lush green yards.
+
+    **m**
+
+    **Installation**
+
+    Release comes in the form of installer. Unzip and double click.Models and Lots will be placed into:
+
+    /My Docs\*/SimCity 4/Plugins/SimFox/R$$/Non\_Cam/p44t
+
+    readMe with JPGs into:
+
+    /My Docs\*/SimCity 4/SimFox\_readme
+
+    \* my Docs = My Documents (Windows XP/2000) / Documents (Windows Vista)
+
+    Make sure you read through the Read me as it contains important information, as well as live links to the dependencies.
+
+    **m**
+
+    **Dependencies**
+
+    I have departed with my usual No Dependencies policy in this release and it has quite a few. In my defense I have to say that most of my new releases will be using same library and I'm sure many of you already have them. Here is a list.
+
+    Props:
+
+    * * *
+
+    BSC MEGA Props - SG Vol 01.dat (essential) SimFoxProps\_8Chestnuts.dat (essential)BSC MEGA Props CP Vol01(optional, but recommended)
+
+    BSC MEGA Props - DAE Vol01.dat (optional, but recommended)
+
+    BSC MEGA Props - MJB Vol01.dat (optional, but recommended)
+
+    BSC Mega Props jestarr Vol02.dat (optional, but recommended)
+
+    CSX MEGA Props - Vol03.dat (optional, but recommended)
+
+    Base and Overlay textures (essential):
+
+    * * *
+
+    BSC Textures Vol 01.datBSCTexturesVol 02.dat
+
+    BSC TexturePack Cycledogg V 01b
+
+    Live links are (as I have already mentioned) in ReadMe that will be displayed at the end of installation process.
+
+    PS.
+
+    lots seem to be very easy to grow
+
+    have Fun!
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/20574-simfox-p44t-midrise-corner/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3b5f3becd75b712b8323e991ce8dca6c-MRC_d.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3b5f3becd75b712b8323e991ce8dca6c-mrc_n.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-jes-vol02
+  - csx:mega-props-vol03
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01 
+assets:
+  - assetId: simfox-p44t-midrise-corner
+
+---
+assetId: simfox-p44t-midrise-corner
+version: "1.0"
+lastModified: "2008-10-26T09:17:33Z"
+url: https://community.simtropolis.com/files/file/20574-simfox-p44t-midrise-corner/?do=download&r=46071
+archiveType:
+  format: Clickteam
+  version: "40"

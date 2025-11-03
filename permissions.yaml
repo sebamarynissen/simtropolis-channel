@@ -1,6 +1,21 @@
+# Add users in sequential order by their profile id.
+
 # For now, everyone is allowed to include their package on the channel, but if
 # it turns out that people are abusing this, then they might be blocked from the 
 # channel. This can be done by including them here, and then blocking them.
+
+# Example for permissions for specific packages.
+# authors:
+#   - name: Aaron Graham
+#     id: 226625
+#     groups:
+#       - nybt
+
+# Example for blocking someone
+# authors:
+#   - id: 1234
+#     blocked: true
+
 authors:
   - name: Pegasus
     id: 2813
@@ -11,6 +26,10 @@ authors:
     id: 5415
     groups:
       - sfbt
+  - name: Equinox
+    id: 5104
+    prefixes:
+      - ndex
   - name: deadwoods
     id: 5563
     prefixes:
@@ -41,6 +60,17 @@ authors:
     prefixes:
       - kosc
       - king's
+      - rem
+  - name: ILL Tonkso
+    id: 41579
+    prefixes:
+      - ndex
+      - its
+  - name: Glenni
+    id: 53300
+    prefixes:
+      - ndex
+      - blam
   - name: SimFox
     id: 71768
     prefixes:
@@ -48,20 +78,58 @@ authors:
   - name: memo
     id: 95442
     github: memo33
+  - name: onlyplace4
+    id: 103981
+    prefixes:
+      - blam
+      - op4
+  - name: Ferox
+    id: 100462
+    prefixes:
+      - bsc
+  - name: HabLeUrG
+    id: 108085
+    prefixes:
+      - lbt
+      - hbs
   - name: MarcosMX
     id: 111156
     prefixes:
       - blam
       - mx
       - rnp
+  - name: BLaM French Connections
+    id: 135342
+    prefixes:
+      - blam french connections
+      - blam fc
+      - blam
   - name: dk1
     id: 153428
     prefixes:
       - dk1
+  - name: Gn_leugim
+    id: 157047
+    prefixes:
+      - gnl
+      - eha
+      - eblt
+      - gnl eha
+      - gnl_eha
   - name: Seraf
     id: 157985
     prefixes:
       - nybt
+  - name: MandelSoft
+    id: 183192
+    prefixes:
+      - SC4DOT
+  - name: Simcoug
+    id: 193070
+    prefixes:
+      - Simcoug's
+      - simcoug
+      - simcougs
   - name: Darknono35
     id: 197208
     prefixes:
@@ -69,6 +137,12 @@ authors:
       - dk35
       - dk 35
       - cbt
+  - name: Heblem
+    id: 198321
+    prefixes:
+      - nybt
+      - hbs
+      - lbt
   - name: Paeng
     id: 211121
     prefixes:
@@ -105,6 +179,10 @@ authors:
     alias: agc
     prefixes:
       - agc
+  - name: moto.kloss
+    id: 422335
+    prefixes:
+      - ms
   - name: VIP Team
     id: 439446
     alias: vip
@@ -121,6 +199,11 @@ authors:
     github: noah-severyn
     groups:
       - b62
+  - name: ABBT
+    id: 467876
+    groups:
+      - nybt
+      - nybt abbt
   - name: rsc204
     id: 651629
     alias: mgb204
@@ -138,15 +221,3 @@ authors:
     id: 744613
     prefixes:
       - rr
-
-# Example for permissions for specific packages.
-# authors:
-#   - name: Aaron Graham
-#     id: 226625
-#     groups:
-#       - nybt
-
-# Example for blocking someone
-# authors:
-#   - id: 1234
-#     blocked: true

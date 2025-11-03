@@ -1,0 +1,51 @@
+# Uses lots and descs from khoianh94:european-bus-and-tram-stops - just overrides the models
+
+group: fluggi
+name: modern-bus-stops-update
+version: "1.1"
+subfolder: 900-overrides
+info:
+  summary: Modern Bus Stops - Update
+  description: |-
+    Hello guys,
+
+    this is an update for my Modern Bus Stops ([www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=23417)).
+
+    It includes HD-models for the diagonal and orthogonal versions (you don't have to replace the Bus Stops in the game to make them HD!) and two new lots for FAR streets that are also HD-rendered, as you can see on the screenshots.
+
+    There are two folders, "FAR Update" and "HD Update". If you don't want one of the Updates, just delete it.
+
+    The new Bus Stops for the FAR\-streets have the same Capacity, Plop Cost etc. as the old ones.
+
+    However, I wish you a lot of fun with this update - and with my first upload ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Note:
+
+    To make the HD Update work, it should be loaded ***after*** the original Modern Bus Stops.
+
+    If you just copy the folder in the download into your plugin folder or into the folder called "Khoianh\_Fluggi\_Bushalten", that should be the case.
+
+    **Update:**
+
+    Some values adjusted.
+
+    Please re-download if you downloaded it before.
+
+    **Dependencies:**
+
+    The old Bus Stops - [www.simtropolis.com/STEX/details.cfm](https://www.simtropolis.com/stex/details.cfm?id=23417)
+  author: Fluggi
+  website: https://community.simtropolis.com/files/file/23722-modern-bus-stops-update/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/564dfdaaa3b25f19811e0b192a2c526b-STEX1.jpg
+    - https://www.simtropolis.com/objects/screens/0010/564dfdaaa3b25f19811e0b192a2c526b-STEX2.jpg
+dependencies:
+  - khoianh94:european-bus-and-tram-stops
+assets:
+  - assetId: fluggi-modern-bus-stops-update
+
+---
+assetId: fluggi-modern-bus-stops-update
+version: "1.1"
+lastModified: "2010-04-16T11:24:55Z"
+url: https://community.simtropolis.com/files/file/23722-modern-bus-stops-update/?do=download&r=50629

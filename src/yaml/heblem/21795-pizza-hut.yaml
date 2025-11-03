@@ -1,0 +1,77 @@
+group: heblem
+name: pizza-hut
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Pizza Hut
+  description: |-
+    Pizza Hut is a restaurant chain and international franchise based in Addison, Texas, USA (a northern suburb of Dallas) offering different styles of pizza along with side dishes including pasta, buffalo wings, breadsticks, and garlic bread. source wikipedia.org
+
+    This restaurant has a functional landmark version and growable version.
+
+    enjoy!
+
+    **DEPENDENCIES:**
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    [LBT Mega Texture Pack vol.02](../../stex/details.cfm?id=21771) **(please note that this pack has been updated, re-download if you downloaded before June 3, 2009. Thanks)**
+
+    [LBT Mega Prop Pack vol.01](../../stex/details.cfm?id=21770)
+
+    **Functional landmark and growable version**
+
+    Lot size:
+
+    2x2
+
+    Position in the menu:
+
+    landmarks menu (not apply on growable)
+
+    Occupants:
+
+    104
+
+    wealth:
+
+    $ - Low wealth
+
+    Bulldoze cost:
+
+    **137**
+
+    Flammability:
+
+    45
+
+    Max. fire level:
+
+    2
+
+    Power:
+
+    3
+
+    Water:
+
+    22
+  author: Heblem
+  website: https://community.simtropolis.com/files/file/21795-hbs-pizza-hut/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a1a78c3d56d0e0aa37f049fb2b78514d-show1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a1a78c3d56d0e0aa37f049fb2b78514d-show2.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+assets:
+  - assetId: heblem-hbs-pizza-hut
+
+---
+assetId: heblem-hbs-pizza-hut
+version: "1.0"
+lastModified: "2009-06-03T01:52:55Z"
+url: https://community.simtropolis.com/files/file/21795-hbs-pizza-hut/?do=download&r=47859
+archiveType:
+  format: Clickteam
+  version: "40"

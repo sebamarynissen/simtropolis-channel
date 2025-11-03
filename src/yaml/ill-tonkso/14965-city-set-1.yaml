@@ -1,0 +1,26 @@
+group: ill-tonkso
+name: city-set-1
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: City Set 1
+  description: |-
+    The ITS Cityset is a new series of BAT models designed to make a generic filler set for City Centres. Set 1 includes 2 BAT models, 2 growable lots and 2 ploppable RCI lots.
+
+    Holbourne House - 2x3 Lot - Growable and Ploppable CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14965-its-city-set-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0c066e0f100ba423aac39e1b4cf6f489-itscityset1day.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0c066e0f100ba423aac39e1b4cf6f489-itscityset1night.jpg
+assets:
+  - assetId: ill-tonkso-city-set-1
+dependencies:
+  - ill-tonkso:streetset-props
+  - bsc:mega-props-gascooker-vol01
+
+---
+assetId: ill-tonkso-city-set-1
+version: "1.0"
+lastModified: "2006-02-08T11:48:44Z"
+url: https://community.simtropolis.com/files/file/14965-its-city-set-1/?do=download&r=36885

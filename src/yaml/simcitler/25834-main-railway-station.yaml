@@ -1,0 +1,179 @@
+# group: simcitler
+# name: main-railway-station
+# version: "1.0"
+# subfolder: 700-transit
+# info:
+#   summary: Main Railway Station by logan123456
+#   description: |-
+#     Main Railway Station  
+      
+#     Lotting: logan123456  
+#     (Prop) BATting: SimcityFreak666  
+#     Modding: Simcitler  
+      
+      
+#     This railway station was lotted by logan 123. He used various BATs and props to realize a train station as real as possible.  
+#     The result of his work is this Main Railway Station. The Lot is really big (25x14) but you will see, it is/was necessary.  
+#     The station features passenger and freight train traffic, and the station also functions as a freight station.  
+#     The station additionally features bus and subway functionality, giving it a complete capacity of 65.000.  
+      
+#     Here are some pics now:  
+#     overview: [day](http://www.ld-host.de/uploads/images/ab1751597dc76ac626109e3c5aff1a44.jpg) [night](http://www.ld-host.de/uploads/images/96d5f74a4deaf38dac5ecf3498725963.jpg)  
+#     detail shot #1: [day](http://www.ld-host.de/uploads/images/d3056bdd1597af36b74c1dfd32597a87.jpg) [night](http://www.ld-host.de/uploads/images/26780824712774c4653f5a2ccb86c430.jpg)  
+#     detail shot #2: [day](http://www.ld-host.de/uploads/images/aadc0203a35d32ae1f366e432c457b0a.jpg) [night](http://www.ld-host.de/uploads/images/0a9f036c548ee44648eb59331d8a7247.jpg)  
+#     detail shot #3: [day](http://www.ld-host.de/uploads/images/5fae919a8873664d00a973c210503145.jpg) [night](http://www.ld-host.de/uploads/images/524c09af4cb3d32fd99a8605a8172e86.jpg)  
+#     detail shot #4: [day](http://www.ld-host.de/uploads/images/b2d8c3fdb5b138ae82bc411ff6e4abb5.jpg) [night](http://www.ld-host.de/uploads/images/b79027ed2f14226f135137860eccd310.jpg)  
+      
+#     special service: [video1](http://img62.imageshack.us/i/g1q.mp4) [video2](http://img152.imageshack.us/i/2vt.mp4)  
+      
+      
+#     The station is designed as "realistic" as possible, which causes a relatively long list of dependencies, you will read further down.  
+#     So this is a kind of an special Lot for all rail fanatics over the world, who will accept this long list of dependencies, so please do not complain about to much dependencies.  
+      
+#     But first,  
+#     **Stats:**  
+#     Lot size: 25x14  
+#     plop cost: 25.000$  
+#     monthly cost: 500$  
+#     flammability: 25/ max. Stage 4  
+#     power consumed: 85 MWh/month  
+#     water consumed: 28m³/month  
+#     capacity: 65.000  
+#     air pollution: 10 over 5 tiles  
+#     water pollution: 6 over 3 tiles  
+#     garbage: 24 over 0 tiles  
+#     Transit Switch Entry Cost: 0,03  
+#     LM - Effect: 40 over 50 tiles  
+#     Park - Effect: 15 over 50 tiles  
+      
+#     As you can see, this station is not a cheap one, but it will contribute to the development of your city by providing both,  
+#     LM an park effects, which will strenghten the cities demand for commercial and residential areas.  
+      
+#     **NOTE: The terrain has to be completely flat on each of the 25x14 tiles of the LOT. Otherwise you will not be able to place the station in your city!**  
+      
+#     \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+      
+#     **Dependencies:**  
+      
+#     **Buildings:(two avoid brown boxes)**  
+#     [Warsaw Main Railway Station](https://community.simtropolis.com/files/file/20505-warsaw-main-railway-station/)  
+#     [Falkeid Office Tower](https://community.simtropolis.com/files/file/24451-falkeid-office-tower/)  
+#     [BSC Amsterdam Central Station Lot](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=574)  
+#     Building as Props (Maxis)  
+      
+#     **Textures:**  
+#     [BSC Textures vol. 02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)  
+#     [Railyard and Spurs Textures Megapack vol. 1.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2177)  
+#     [walking snakes (sc4jeeks) parking textures](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1181)  
+      
+#     **Props:**  
+#     [european cars automata and family props new instances](https://community.simtropolis.com/files/file/14400-european-cars-automata-and-family-props-new-instances/)  
+#     [BSC Mega Props MISC vol. 02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771)  
+#     [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+#     [BSC Mega Props JES vol 07](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1495)  
+#     [BSC BAT Props JENX GARE\_DU\_Nord](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=106)  
+#     [Bus Prop Pack](https://community.simtropolis.com/files/file/21968-bus-prop-pack/)  
+#     [European Busses Prop Pack vol.01](https://community.simtropolis.com/files/file/24802-european-busses-prop-pack-vol-1/)  
+#     [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)  
+#     [SFBT Railway Props](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1903)  
+#     [SFBT Rail Catenaries](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=925)  
+#     [SFBT Parking Lots](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1726)  
+#     [TSC Train Pack 2.0 HD](https://www.toutsimcities.com/downloads/view/1573)  
+#     [ploppable RHW Median Lights](https://community.simtropolis.com/files/file/21034-ploppable-rhw-median-lights-pack-1/)  
+#     [Light Replacement Mod 3.0](https://community.simtropolis.com/files/file/24515-light-replacement-mod-v30/)  
+#     [LRM Prop Pack 01](https://community.simtropolis.com/files/file/24502-lrm-prop-pack-01/)  
+      
+      
+#     Well, this is a quiet long list of dependencies so far. The Lot will show up correct and not too empty with these.  
+      
+#     If you want each prop to show up, you will have to install these **optional** dependencies too.  
+      
+#     **Optional dependencies:**  
+      
+#     [BSC Mega Props MISC vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=426)  
+#     [BSC Mega Props SG vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+#     [SFBT Light Signals](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1902)  
+#     [SFBT Semaphore Signals Prop Pack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1714)  
+#     [SFBT Signalboxes](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1357)  
+#     [SFBT Dicounter Stores](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2555)  
+#     [SFBT Campground](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2546)  
+#     [SFBT Props by peterycristi](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2556)  
+#     [European Truck Prop Pack](https://community.simtropolis.com/files/file/25607-european-truck-prop-pack-vol-1/)  
+      
+      
+#     **Installation:**  
+      
+#     just unzip the "logan123\_Main\_Railway\_Station" folder to your plugins folder.  
+#     The "Readme and pics" folder can be put where you want!  
+      
+      
+#     **Credits go to:**  
+#     **Ferox**, for his wonderful Warsaw Main station BAT.  
+#     **Xannepan**, for the station hall of Amsterdam Centraal Station.  
+#     **Glenni**, for his great Falkeid office building.  
+#     **SimCityFreak666**, for modelling various props for this project.  
+#     **Fluggi** for creating some additional \*.DESC files.  
+#     **all creators of Props and Textures** used on the Lot.  
+      
+#     Without their work, this lot would not be existing!  
+      
+      
+#     Special thanks to the simforum community for their advice and help.  
+      
+      
+#     Links to our threads at [www.simforum.de](http://www.simforum.de)  
+      
+#     [logan´s LOT thread](http://www.simforum.de/showthread.php?t=174862)  
+#     [Simcityfreak666´s BAT thread](http://www.simforum.de/showthread.php?t=171386)  
+#     [Simcitler´s LOT thread](http://www.simforum.de/showthread.php?t=174988)  
+      
+      
+#     Best regards & have fun  
+      
+#     logan123456, SimCityFreak666, Simcitler
+
+#     Mod edit 11th Jan 2017: Updated formatting and links
+#   author: Simcitler
+#   website: https://community.simtropolis.com/files/file/25834-main-railway-station-by-logan123456/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/f30d923219716704bc2faa855aa7a44d-bhf_stex_day.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/20790ae2b7d79b8d165b49513ab61012-bhf_stex_night.jpg
+# dependencies:
+#   - '"[BSC Amsterdam Central Station Lot](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=574)"'
+#   - bsc:mega-props-jenx-vol03
+#   - mandelsoft:lrm-prop-pack-02
+#   # - '"[Light Replacement Mod 3.0](https://community.simtropolis.com/files/file/24515-light-replacement-mod-v30/)"'
+#   - '"[SFBT Campground](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2546)"'
+#   - '"[SFBT Dicounter Stores](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2555)"'
+#   - sfbt:royal-light-signal-props
+#   - '"[SFBT Parking Lots](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1726)"'
+#   - sfbt:peterycristi-props
+#   - '"[SFBT Signalboxes](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1357)"'
+#   - ferox:warsaw-main-station-model
+#   - '"[ploppable RHW Median Lights](https://community.simtropolis.com/files/file/21034-ploppable-rhw-median-lights-pack-1/)"'
+#   - blanco:train-prop-pack
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-jes-vol07
+#   - bsc:mega-props-misc-vol01
+#   - bsc:mega-props-misc-vol02
+#   - bsc:mega-props-sg-vol01
+#   - bsc:textures-vol02
+#   - glenni:bus-prop-pack
+#   - glenni:falkeid-office-tower
+#   - mikeseith:european-cars-automata-and-family-props-new-instances
+#   - ncd:rail-yard-and-spur-mega-pak-1
+#   - sc4jeeks:parking-textures-vol01
+#   - sfbt:essentials
+#   - sfbt:kenworth-rail-catenaries-props
+#   - sfbt:kenworth-royal-railway-props
+#   - sfbt:royal-semaphore-signals-props
+#   - simcityfreak666:european-busses-prop-pack-vol1
+#   - simcityfreak666:european-truck-prop-pack-vol1
+# assets:
+#   - assetId: simcitler-main-railway-station-by-logan123456
+
+# ---
+# assetId: simcitler-main-railway-station-by-logan123456
+# version: "1.0"
+# lastModified: "2011-02-06T07:20:42Z"
+# url: https://community.simtropolis.com/files/file/25834-main-railway-station-by-logan123456/?do=download&r=90994

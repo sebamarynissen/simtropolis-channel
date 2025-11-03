@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: colignonplein-1-brussel
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Colignonplein 1, Brussel
+  description: |-
+    LM
+
+    One of my favorite corner buildings:
+
+    ![1.jpg.3e208479611333fb7564bd88a191568b.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.3e208479611333fb7564bd88a191568b.jpg)![2.jpg.11f027a806ecc98c970e49fe5c2372cf.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.11f027a806ecc98c970e49fe5c2372cf.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32118-colignonplein-1-brussel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.f1bd36256b4ebdbbec105a03eed6703d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.2916854578dfd2e7942d203aa73074c9.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-colignonplein-1-brussel
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-colignonplein-1-brussel
+
+---
+assetId: aarsgevogelte-colignonplein-1-brussel
+version: "1.0"
+lastModified: "2018-02-10T17:39:07Z"
+url: https://community.simtropolis.com/files/file/32118-colignonplein-1-brussel/?do=download&r=170053

@@ -1,0 +1,118 @@
+group: murimk
+name: nightowls-diagonal-industrial-fillers-and-extenders
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: NightOwls Diagonal Industrial Fillers and Extenders
+  description: |-
+    **Diagonal Industrial Fillers and Extenders**  
+      
+      
+    This is the first installment in a (future) series of 'GridBuster' - Lots designed to break the grid using overhanging props of different shapes and sizes. This set is focused on small industrial fillers and extenders to fill in blank spots and cover up 'dead spots'.  
+      
+    All of these lots are 1x1, with overhanging props to fill in a larger area.  
+      
+      
+      
+    **LIST OF ITEMS**  
+      
+      
+    **Fillers -**  
+      
+    Dirt Texture - 8 pcs.  
+    Grunge Texture - 5 pcs.  
+      
+    **Extenders -**  
+      
+    Dirt Texture - 5 pcs.  
+    Grunge Texture - 5 pcs.  
+      
+      
+    ![diag_IND_Fillers.jpg](http://dl.dropbox.com/u/7858447/Hosted%20Pictures/diag_IND_Fillers.jpg)  
+      
+    ![diag_IND_Extenders.jpg](http://dl.dropbox.com/u/7858447/Hosted%20Pictures/diag_IND_Extenders.jpg)  
+      
+      
+      
+      
+    **DEPENDENCY**  
+      
+    **[Murimk Prop Pack Vol 03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-prop-pack-vol03-industrials/)**  
+      
+      
+      
+    **DEVELOPER NOTES**  
+      
+    Fillers are Landmarks with 3 I-D jobs.  
+    Need water, power, road access. Slight pollution.  
+      
+    Extenders are neutral.  
+      
+    Located in '*Landmarks*' menu.  
+      
+      
+      
+    **INSTALLATION**  
+      
+      
+    Unpack into the plugins folder ('*My Documents/Plugins*').  
+      
+    All new props are packed into a resource dat. The lots are unpacked and kept in two different subfolders.  
+    If you wish to use only some of the lots, just remove the unwanted lots from your plugin folder.  
+      
+      
+      
+    **SUPPORT**  
+      
+      
+    If you have comments or find yourself in need of support please visit:  
+      
+    **[NightOwl Productions Thread](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9154.msg206401#msg206401)**  
+      
+    or  
+      
+    **[Murimk Productions](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=8654.0)**  
+      
+      
+      
+    **CREDITS**  
+      
+    Concept - Paeng and Murimk  
+    Batting - Murimk  
+    Lotting, modding and artwork - Paeng
+  author: murimk
+  website: https://community.simtropolis.com/files/file/27699-nightowls-diagonal-industrial-fillers-and-extenders/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/7572318e14bb46d429b7fad8898290b8-.jpg
+dependencies:
+  - murimk:props-vol03-industrials
+  - murimk:nightowls-diagonal-industrial-fillers-and-extenders-resources
+  - peg:mtp-super-pack
+assets:
+  - assetId: murimk-nightowls-diagonal-industrial-fillers-and-extenders
+    exclude:
+      - "/Murimk_diag_fillers_extenders_resource.dat"
+
+---
+group: murimk
+name: nightowls-diagonal-industrial-fillers-and-extenders-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models and props for `pkg=murimk:nightowls-diagonal-industrial-fillers-and-extenders-resources`
+  author: murimk
+  website: https://community.simtropolis.com/files/file/27699-nightowls-diagonal-industrial-fillers-and-extenders/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/7572318e14bb46d429b7fad8898290b8-.jpg
+dependencies:
+  - murimk:props-vol03-industrials
+assets:
+  - assetId: murimk-nightowls-diagonal-industrial-fillers-and-extenders
+    include:
+      - "/Murimk_diag_fillers_extenders_resource.dat"
+
+---
+assetId: murimk-nightowls-diagonal-industrial-fillers-and-extenders
+version: "1.0"
+lastModified: "2012-06-07T11:35:55Z"
+url: https://community.simtropolis.com/files/file/27699-nightowls-diagonal-industrial-fillers-and-extenders/?do=download&r=101978

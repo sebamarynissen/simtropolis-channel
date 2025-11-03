@@ -1,0 +1,59 @@
+group: "null-45"
+name: "region-view-census-ui"
+version: "1.0.1"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-region-view-census-ui"
+  withChecksum:
+  - include: "/SC4RegionCensus.dll"
+    sha256: 3451C83B307B865A5CBAA5BE56C1AB16F7A669775545E6712322C1DC55B20726
+  - include: "/RegionCensusUI.dat"
+    sha256: A4D4E27888CAC50D50A03F93FA013C53B02D33EA4F3A867F2E66880E4BC658DD
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that adds a census UI that can be shown in the region view."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    A DLL Plugin for SimCity 4 that adds a census UI that can be shown in the region view.
+
+    The region census panel shows the totals for each RCI group in the region. It also allows the player to export a CSV file with statistics for the individual cities. The CSV file is written to Documents/SimCity 4/Region_View/<Region Name> using UTF-8 encoding. The region census UI can be activated from the region view using one of the following methods:
+
+    * Clicking the middle mouse button.
+    * Using the RegionCensus cheat.
+
+    **System Requirements**
+
+    * SimCity 4 version 641
+    * Windows 10 or later
+
+    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed, but I do not have the ability to test that.
+
+    **Installation**
+
+    1. Close SimCity 4.
+    2. Copy SC4RegionCensus.dll into the Plugins folder in the SimCity 4 installation directory.
+    3. Copy RegionCensusUI.dat into your SimCity 4 Plugins folder.
+    4. Start SimCity 4.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4RegionCensus.log file in the same folder as the plugin.
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/763013-region-view-census-ui-dll-plugin/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-region-census
+
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36145-region-view-census-ui-dll-plugin/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.f552a7cbbdf0c77029d72bf7e6eb8ac0.png
+
+---
+assetId: "null-45-region-view-census-ui"
+version: "1.0.1"
+lastModified: "2024-02-27T06:32:25Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36145-region-view-census-ui-dll-plugin/?do=download"
+url: "https://github.com/0xC0000054/sc4-region-census/releases/download/v1.0.1/SC4RegionCensus.zip"

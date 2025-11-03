@@ -1,0 +1,86 @@
+group: peg
+name: ppond-canal-kit
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: PPonds Canal Kit
+  description: |-
+    A moment of reflective silence please as we mourn the death of the **PEG CSK2**.  
+    .....  
+    .....
+
+    \[sigh\].....
+
+    Now... let's celebrate the rebirth of the **CSK2** as the new **PPond Canal Kit !!**.  The entire collection of variable-width CSK2 Canal Kit lots have been remodeled to use the new PPond style water.  Not only does this allow you to seamlessly transition  PPond rivers and lakes with canals.... but now you can also use any of the CSK2 specialty lots... like the Docks, Bridges, Extender lots and the Small Port... anywhere along a PPond river or lake.
+
+    If the significance of this has not yet struck home... let's clarify.   We just added a ton of double-duty new PPond lots to your toy box... without  adding a zillion and one new menu icons. The PPond Kit just got about 4 times larger... and now includes a fully integrated Canal System, Industrial Docks and a functional Seaport that can be used along any PPond ploppable waterway. The Scows, the Barges, the functional Water Taxis... they're all now available for use with the PPond Kit.
+
+    Freak out.
+
+    *\* Most of the CSK2 specialty lots do not have the canal concrete side walls... and can therefore be used and blend in with the natural-looking banks of PPond rivers and lakes.*
+
+    This single download replaces all of the previous CSK2 files... except for the Small Port and the various bridge lots. Once installed, any CSK2 lots installed in your cities are updated automatically. You will not need to replop the lots... with a few exceptions for some of the specialty lots. The lot's menu icons remain the same &. in the same menu locations you are accustomed to.
+
+    This new PPond Canal Kit directly replaces the following files... which can be deleted:
+
+    *\* CSK2  
+    \* CSK2 Add-On  
+    \* CSK2 Fountains  
+    \* CSK2 Docks      (Re-plop Lots)  
+    \* CSK2 Water Taxis     (Re-plop Lots & Reconnect Subway Tunnels)*  
+    *\* CSK2 Annabellelin Restaurant     (Re-plop Lots. Keep the RESOURCE file)*
+
+    This new PPond Canal Kit does not change the following files... which you should keep:
+
+    *\* CSK2 Scows  
+    \* CSK2 Random Traffic  
+    \* CSK2 Small Port      (Re-plop Lots)*
+
+    *\* The CSK2 Lift Bridges and 3x Bridge kits will be updated separately and should also be retained for now. The Locks are also scheduled to go under the knife. Patches/Updates to certain files will be released  separately.*
+
+    *\* The single tile width CSK Canals will not be remodeled to be compatible with the PPond system. However, included as a separate file with this package is a new CSK Flood Gate transition lot that can be used to blend the original CSK Canals to the new PPond Canals. Once installed, the new transition lot will appear in your Water Transportation menu along with the other CSK lots. If you do not use the CSK single-width Canals, you can remove the file once installed.*
+
+    **\*\* These lots require the following:**  
+    [PEG PPond Kit](https://community.simtropolis.com/files/file/21661-peg-ppond-kit/)
+
+    [PEG CSK Barges](https://community.simtropolis.com/files/file/13493-peg-csk-barges-prop-pack/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made dep linkys clickable.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21754-peg-pponds-canal-kit/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/0315fb802c328ea5fc3a39bd7773f642-st-1.jpg
+    - https://www.simtropolis.com/objects/screens/0001/0315fb802c328ea5fc3a39bd7773f642-st-2.jpg
+dependencies:
+  - peg:csk-barges-prop-pack
+  - peg:ppond-kit-resources
+  - peg:pponds-canal-kit-resource
+assets:
+  - assetId: peg-pponds-canal-kit
+    exclude:
+      - "/PEG_CSK2-PPOND_RESOURCE.dat"
+
+---
+group: peg
+name: pponds-canal-kit-resource
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: PPonds Canal Kit resource
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21754-peg-pponds-canal-kit/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/0315fb802c328ea5fc3a39bd7773f642-st-1.jpg
+    - https://www.simtropolis.com/objects/screens/0001/0315fb802c328ea5fc3a39bd7773f642-st-2.jpg
+assets:
+  - assetId: peg-pponds-canal-kit
+    include:
+      - "/PEG_CSK2-PPOND_RESOURCE.dat"
+
+---
+assetId: peg-pponds-canal-kit
+version: "1.0"
+lastModified: "2009-05-28T10:09:13Z"
+url: https://community.simtropolis.com/files/file/21754-peg-pponds-canal-kit/?do=download&r=47807

@@ -1,0 +1,39 @@
+group: gn-leugim
+name: dirty-industry-texture-replacement
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Dirty Industry Texture Replacement
+  description: |-
+    EBLTeam proudly presents,
+
+    **Dirty Industry Texture Replacement.**
+
+    Have you ever wanted to your industrial areas to look better, not so earth like? Do you not like the maxis texture for ID lots? But don't want to spend some time relotting everything to change the textures?
+
+    Fear no more! Here is the solution!
+
+    This simple mod replaces all seven textures used in the ID lots for some concrete look textures, and also have some variations as cracks, dirt and so on.
+
+    It comes with a installer file, no dependencies, no conflicts known.
+
+    **Installation**: Copy/extract the **EBLT** parent folder into your plugins. If you extracted the *\_Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.  
+      
+    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+    Enjoy, rate and comment!
+  author: Gn_leugim
+  website: https://community.simtropolis.com/files/file/27977-gnl-dirty-industry-texture-replacement/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/97981537678a69b5cd73675e3abf1d9d-after.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/68b99b41c03c07f7c91538256515c794-before.jpg
+assets:
+  - assetId: gn-leugim-dirty-industry-texture-replacement
+    exclude:
+      - "/GnL_Dirty Texture Replacer.exe" # The installer is still included even though the dat file is also provided. 
+
+---
+assetId: gn-leugim-dirty-industry-texture-replacement
+version: "1.0"
+lastModified: "2024-02-06T11:48:10Z"
+url: https://community.simtropolis.com/files/file/27977-gnl-dirty-industry-texture-replacement/?do=download&r=199842

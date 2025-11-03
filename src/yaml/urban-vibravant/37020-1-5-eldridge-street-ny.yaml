@@ -1,0 +1,72 @@
+assetId: urban-vibravant-1-5-eldridge-street-ny-maxisnite-sd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/37020-1-5-eldridge-street-ny/?do=download&r=209275
+
+---
+assetId: urban-vibravant-1-5-eldridge-street-ny-maxisnite-hd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/37020-1-5-eldridge-street-ny/?do=download&r=209274
+
+---
+assetId: urban-vibravant-1-5-eldridge-street-ny-darknite-sd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/37020-1-5-eldridge-street-ny/?do=download&r=209273
+
+---
+assetId: urban-vibravant-1-5-eldridge-street-ny-darknite-hd
+version: "1.0.0"
+lastModified: "2025-09-20T06:27:42Z"
+url: https://community.simtropolis.com/files/file/37020-1-5-eldridge-street-ny/?do=download&r=209272
+
+---
+group: urban-vibravant
+name: 1-5-eldridge-street-ny
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary: 1-5 Eldridge Street NY
+  description: |
+    Built in 1988 on Eldridge and Division Street in Chinatown, New York, this six-story complex has two apartment buildings that rise above a 45-degree angular podium consisting
+    of run-down restaurants, shops, and mediocre law offices. The podium's deck is also an accessible terrace with a design that allows for a decent view over the streets of Eldridge, Forsyth, and Division. 
+
+    Each version comes with 4 different lots:  
+
+    * Landmark with diagonal pavers
+    * Landmark without pavers
+    * Ploppable CS$ with diagonal pavers
+    * Ploppable CS$ without pavers  
+  author: Urban Vibravant
+  websites: 
+    - https://community.simtropolis.com/files/file/37020-1-5-eldridge-street-ny/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/Cover.jpg.600ca1426e88e7b864cf4055e1affb1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/SD.jpg.0a9c818a5716805f31306f8ce4ebcd24.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/HD.jpg.9297bbea6909f93d8ae08f97d6a4988e.jpg
+
+variants:
+  - variant: { nightmode: standard, urban-vibravant:1-5-eldridge-street-ny:resolution: sd }
+    assets:
+      - assetId: urban-vibravant-1-5-eldridge-street-ny-maxisnite-sd
+  - variant: { nightmode: dark, urban-vibravant:1-5-eldridge-street-ny:resolution: sd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-1-5-eldridge-street-ny-darknite-sd
+  - variant: { nightmode: standard, urban-vibravant:1-5-eldridge-street-ny:resolution: hd }
+    assets:
+      - assetId: urban-vibravant-1-5-eldridge-street-ny-maxisnite-hd
+  - variant: { nightmode: dark, urban-vibravant:1-5-eldridge-street-ny:resolution: hd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-1-5-eldridge-street-ny-darknite-hd
+
+variantInfo:
+  - variantId: urban-vibravant:1-5-eldridge-street-ny:resolution
+    description: Due to the particular nature of modding, there are two versions of the building resolution.
+    values:
+      - value: hd
+        description: HD resolution means that SimCity4 works with Hardware Rendering (DirectX Rendering).
+      - value: sd
+        description: SD resolution can also be used for OpenGL versions, Software Rendering, and even Hardware Rendering.

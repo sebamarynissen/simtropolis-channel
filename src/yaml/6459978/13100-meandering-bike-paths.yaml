@@ -1,0 +1,46 @@
+group: "6459978"
+name: meandering-bike-paths
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Meandering Bike Paths
+  description: |-
+    Now you too can feature leisurely meandering bike paths in your city! This kit is great for everything from riverfront urban paths to rural mountainbike trails. And your menus won't suffer from a great influx of new lots, since these have been carefully designed such that the minimum number of lots is required to maintain full flexibility. And, since biking is healthy for you, these will be found in the ***health*** menu.
+
+    Just unzip into your plugins folder and away you go!
+
+    Thanks a million to Ardecila for modding and packaging this kit!
+  author: "6459978."
+  website: https://community.simtropolis.com/files/file/13100-meandering-bike-paths/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/59256761eed71e39af1f659b16374ca7-bike%20paths2.jpg
+    - https://www.simtropolis.com/objects/screens/0010/59256761eed71e39af1f659b16374ca7-bike%20path.JPG
+dependencies:
+  - 6459978:meandering-bike-paths-resources
+assets:
+  - assetId: 6459978-meandering-bike-paths
+    include:
+    - "/Bike Path - Lots.dat"
+
+---
+group: "6459978"
+name: meandering-bike-paths-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Bike path props and textures for `pkg=6459978:meandering-bike-paths`
+  author: "6459978."
+  website: https://community.simtropolis.com/files/file/13100-meandering-bike-paths/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/59256761eed71e39af1f659b16374ca7-bike%20paths2.jpg
+    - https://www.simtropolis.com/objects/screens/0010/59256761eed71e39af1f659b16374ca7-bike%20path.JPG
+assets:
+  - assetId: 6459978-meandering-bike-paths
+    exclude:
+    - "/Bike Path - Lots.dat"
+
+---
+assetId: 6459978-meandering-bike-paths
+version: "1.0"
+lastModified: "2005-07-18T20:22:06Z"
+url: https://community.simtropolis.com/files/file/13100-meandering-bike-paths/?do=download&r=34137

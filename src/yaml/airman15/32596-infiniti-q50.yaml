@@ -1,0 +1,43 @@
+group: airman15
+name: infiniti-q50
+version: "1.0-1"
+subfolder: 710-automata
+info:
+  summary: Infiniti Q50
+  description: |-
+    An emblem is arguably more of a status symbol than the car it's glued to. You've already saved enough to upgrade your sedan outright and what's on the market? An endless stream of cookie-cutter plastic junk that still have tape decks! That simply won't do, not as long as you want to gloat to your friends at the country club. Why should you have to stand for car that everyone and their mothers own? You're the CEO, you cannot have the same types of cars your employees drive! It just wouldn't be right! Buy the Infiniti; earn the right to say your repair bills are more than most people's rent!
+
+    About the Upload-  
+    There are six vehicles contained in this zip folder. Each one is a 2017 Infiniti Q50. These are High-Wealth vehicles, given their average Blue Book value. They will appear on your road networks.
+
+    Dependencies?  
+    None required.
+
+    Textures sourced from Kelley Blue Book.
+  author: airman15
+  website: https://community.simtropolis.com/files/file/32596-infiniti-q50/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Q50Infiniti_0.png.593cec3678468a043b02e17a296a6a37.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Q50Infiniti_1.png.51ae8dae1ccab3f8c61d0a7057e6615c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Q50Infiniti_2.png.2a74bd5ee20a4b1026454922d3b053b3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Q50Infiniti_3.png.e0e03d1b4afcf39d5760acd40d3cbd81.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Q50Infiniti_4.png.403124ccedc99563ec723b02e47ecf0c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Q50Infiniti_5.png.4897b619a002c8ea20684df64d678ee4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Q50Infiniti_6.png.4f6b13d2912b33998702a42fdba02d4d.png
+variants:
+  - variant: { "airman15:prop-resolution": "hd" }
+    assets:
+    - assetId: airman15-infiniti-q50
+      include:
+      - "/HD/"
+  - variant: { "airman15:prop-resolution": "sd" }
+    assets:
+    - assetId: airman15-infiniti-q50
+      include:
+      - "/SD/"
+
+---
+assetId: airman15-infiniti-q50
+version: "1.0"
+lastModified: "2018-11-10T02:59:40Z"
+url: https://community.simtropolis.com/files/file/32596-infiniti-q50/?do=download&r=173476

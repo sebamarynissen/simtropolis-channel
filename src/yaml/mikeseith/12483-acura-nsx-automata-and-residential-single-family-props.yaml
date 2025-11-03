@@ -1,0 +1,46 @@
+group: mikeseith
+name: acura-nsx
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Acura NSX automata
+  description: |-
+    Now your wealthy sims can have a proper mid-life crisis in a fancy Acura NSX.  Just unzip all the files into your game's plugin folder and the game takes care of the rest.
+
+    enjoy
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/12483-acura-nsx-automata-and-residential-single-family-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/97f6bdf1d6eb574f46e3aef14ab7c97f-acura nsx 1.JPG
+    - https://www.simtropolis.com/objects/screens/0017/97f6bdf1d6eb574f46e3aef14ab7c97f-acura nsx 2.JPG
+assets:
+  - assetId: mikeseith-acura-nsx-automata-and-residential-single-family-props
+    exclude:
+      - "/family prop nsx.*"
+
+---
+group: mikeseith
+name: acura-nsx-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Acura NSX single family props
+  description: |-
+    Now your wealthy sims can have a proper mid-life crisis in a fancy Acura NSX.  Just unzip all the files into your game's plugin folder and the game takes care of the rest.
+
+    enjoy
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/12483-acura-nsx-automata-and-residential-single-family-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/97f6bdf1d6eb574f46e3aef14ab7c97f-acura nsx 1.JPG
+    - https://www.simtropolis.com/objects/screens/0017/97f6bdf1d6eb574f46e3aef14ab7c97f-acura nsx 2.JPG
+assets:
+  - assetId: mikeseith-acura-nsx-automata-and-residential-single-family-props
+    include:
+      - "/family prop nsx.*"
+
+---
+assetId: mikeseith-acura-nsx-automata-and-residential-single-family-props
+version: "1.0"
+lastModified: "2005-05-15T19:29:47Z"
+url: https://community.simtropolis.com/files/file/12483-acura-nsx-automata-and-residential-single-family-props/?do=download&r=33229

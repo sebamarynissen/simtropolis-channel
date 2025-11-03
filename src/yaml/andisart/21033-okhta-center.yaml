@@ -1,0 +1,101 @@
+group: andisart
+name: okhta-center
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Okhta Center
+  description: |-
+    Download accompanying [Sunken Lots](https://www.simtropolis.com/stex/index.cfm?id=21074)
+
+    * * *
+
+    AndisArt presents:
+
+    Okhta Center
+
+    A proposed skyscraper under planning for St. Petersburg, Russia.
+
+    Estimated completion date: 2011
+
+    This is my first model rendered with Mental Ray and the first I tried nightwindow textures with.
+
+    Thanks to everyone giving feedback and all the ones that kept on nagging, you know who you are ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Credits go to jasoncw for the Light rigs used in 3DS Max. Thank you ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    \----------------------------------------------------------------
+
+    Jobs: CO$$$ 4520 (CO$$ 6780)
+
+    Contains 3 versions:
+
+    \-Landmark
+
+    \-CO$$$ growable
+
+    \-CO$$$ ploppable
+
+    NO DEPENDECIES
+
+    See readme for full details
+  author: AndisArt
+  websites: 
+    - https://community.simtropolis.com/files/file/21033-okhta-center/
+    - https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/24fa2793739d164d4eeb0e089c000f1a-night2.jpg
+    - https://www.simtropolis.com/objects/screens/0005/24fa2793739d164d4eeb0e089c000f1a-day1.jpg
+    
+dependencies:
+  - bsc:essentials
+  - andisart:models-mega-pack-vol01
+  - andisart:sunken-lots-pack
+  
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: andisart-okhta-center
+        include:
+        - "/CO\\$\\$\\$8_4x4_AndisArt_OkhtaCenter_96877251.SC4Lot"
+        - "/AndisArt_OkhtaCenter_LM_768715a5.SC4Lot"
+        - "/AndisArt_OkhtaCenter_PLOP_36876d06.SC4Lot"
+      
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: andisart-okhta-center
+        include:
+        - "/CO\\$\\$\\$10_4x4_AndisArt_OkhtaCenter_56293890.SC4Lot"
+        - "/AndisArt_OkhtaCenter_LM_768715a5.SC4Lot"
+        - "/AndisArt_OkhtaCenter_PLOP_36876d06.SC4Lot"
+
+---
+assetId: andisart-okhta-center
+version: "2.0"
+lastModified: "2025-09-28T13:46:06Z"
+url: https://community.simtropolis.com/files/file/21033-okhta-center/?do=download&r=46875
+
+---
+group: andisart
+name:  andisart-rci-collection    
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Andisart Collection Pack
+  description: A collection of 8 RCI Lots by AndisArt       
+  author: AndisArt
+  website: https://www.sc4evermore.com/index.php/downloads/download/21-other/423-sc4d-lex-legacy-andisart-compilation
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/24fa2793739d164d4eeb0e089c000f1a-night2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/5570eb36c894b6101b05e2ebfffd1c4b-preview_lots.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/AndisArt%20Andis%20Plaza%20Day.jpg
+
+dependencies:
+  - andisart:iris-bay
+  - andisart:tower-verre
+  - andisart:okhta-center
+  - andisart:gt-tower-east
+  - andisart:one21-apartment-tower
+  - andisart:sc2013-inspired-homes
+  - andisart:andis-plaza
+  - andisart:lighthouse-tower-dubai
+

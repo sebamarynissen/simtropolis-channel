@@ -1,6 +1,6 @@
 group: peg
 name: pond-kit-ii-deluxe-edition
-version: "1.1"
+version: "1.1-1"
 subfolder: 660-parks
 info:
   summary: Pond Kit II Deluxe Edition v206
@@ -29,9 +29,13 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
+dependencies:
+  - peg:pond-kit-base-set-props
 assets:
   - assetId: peg-pond-kit-ii-deluxe-edition-v206
-
+    include:
+    - "/PEG_Ponds_206.dat"
+    - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
 ---
 assetId: peg-pond-kit-ii-deluxe-edition-v206
 version: "1.1"

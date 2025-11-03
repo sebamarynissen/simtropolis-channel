@@ -48,35 +48,13 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2013/f8d8acce859a39f3ac34598e56d9ae66-screen02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_04_2013/fb26bda9e9f40bfc8adafb9acecb72e7-screen03.jpg
     - https://www.simtropolis.com/objects/screens/monthly_04_2013/cacff6842a29b88a99c567bc56a3fb00-screen04.jpg
-dependencies:
-  - mandelsoft:lrm-5-lightcones
-  - mandelsoft:light-replacement-mod-german-set-resources
-assets:
-  - assetId: mandelsoft-light-replacement-mod-german-set
-    exclude:
-    - "/Models & Props.dat"
-    - "LightCones"
-
-
----
-group: mandelsoft
-name: light-replacement-mod-german-set-resources
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Models and props for `pkg=mandelsoft:light-replacement-mod-german-set`
-  author: MandelSoft
-  website: https://community.simtropolis.com/files/file/27986-light-replacement-mod-german-set/
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_04_2013/9f5c161e8ff063d2a22a75ce6f7a2f92-promo.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_04_2013/4cd376bd60298edf3ce5f97e7736dbfa-screen01.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_04_2013/f8d8acce859a39f3ac34598e56d9ae66-screen02.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_04_2013/fb26bda9e9f40bfc8adafb9acecb72e7-screen03.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_04_2013/cacff6842a29b88a99c567bc56a3fb00-screen04.jpg
 assets:
   - assetId: mandelsoft-light-replacement-mod-german-set
     include:
+      - "/Override Set.dat"
       - "/Models & Props.dat"
+dependencies:
+  - "mandelsoft:lrm-5-lightcones"
 
 ---
 assetId: mandelsoft-light-replacement-mod-german-set

@@ -7,7 +7,9 @@ subfolders: []
 
 # Package names for which the check for asset version mismatches should be skipped.
 # Only needed when the linter tells you so.
-ignore-version-mismatches: []
+ignore-version-mismatches: 
+  - simfox:chaotianmen-tower
+  - simfox:p44tm-towers
 
 # Set this to true to allow writing descriptions from a first-person perspective.
 allow-ego-perspective: true

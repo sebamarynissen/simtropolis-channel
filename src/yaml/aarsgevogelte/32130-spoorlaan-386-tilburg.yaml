@@ -1,0 +1,31 @@
+group: aarsgevogelte
+name: spoorlaan-386-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Spoorlaan 386, Tilburg
+  description: |-
+    LM
+
+    Sexy building.
+
+    ![1.jpg.fd0740db27216b42ab841adb2d87d227.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/1.jpg.fd0740db27216b42ab841adb2d87d227.jpg)![2.jpg.c05808d264ae668c211f73ab1135be16.jpg](https://www.simtropolis.com/objects/attachments/monthly_2018_02/2.jpg.c05808d264ae668c211f73ab1135be16.jpg)
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32130-spoorlaan-386-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.jpg.8eb8582839315efc2e628945368fbce2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2.jpg.d212a173cf0829a8688b408f6e9466f4.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aarsgevogelte-spoorlaan-386-tilburg
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: aarsgevogelte-spoorlaan-386-tilburg
+
+---
+assetId: aarsgevogelte-spoorlaan-386-tilburg
+version: "1.0"
+lastModified: "2018-02-15T18:54:57Z"
+url: https://community.simtropolis.com/files/file/32130-spoorlaan-386-tilburg/?do=download&r=170145
