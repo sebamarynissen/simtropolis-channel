@@ -1,13 +1,13 @@
 group: hugues-aroux
-name: wws-essentials
-version: "2.0.0"
+name: westwind-streets-essentials
+version: "3.1.0"
 subfolder: 100-props-textures
 info:
   summary: WWS-Essentials
   description: |-
-    With version 2, WWS - Essentials becomes truly essential for WestWindStreets production fans.
+    Since version 2, **WWS - Essentials** becomes truly essential for WestWindStreets production users.
 
-    The directory is equipped with transition textures between WWS SAMs; which you will find in the directory: /zWWS\_SAMxSAM.
+    The directory is equipped with transition (SAMtoSAM) textures between WWS SAMs; which you will find in the directory: /zWWS\_SAMxSAM.
 
     Keep only the transitions whose two numbers, which compose the name, are installed WWS SAMs.
 
@@ -15,7 +15,7 @@ info:
 
     ...
 
-    Although not "Essential" (![*:yes:](https://community.simtropolis.com/assets/emoticons/default_19.gif "*:yes:")![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")), the files contained in this directory are highly recommended. That is why they are proposed as a dependency of WestWindStreets. They allow you to fully benefit from the long hours it took me - will take me - to create the SideMod (or T21) of the WestWindStreets SAM ...
+    Although not "Essential" (![*:yes:](https://community.simtropolis.com/assets/emoticons/default_19.gif "*:yes:")![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")), the files contained in this directory are **highly recommended**. That is why they are proposed as a **dependency** of WestWindStreets. They allow you to fully benefit from the long hours it took me - will take me - to create the SideMod (or T21) **of the WestWindStreets SAM** ...
 
     They may be useful to other SideMod developers… such as! [****\[1\]****](#_ftn1)
 
@@ -25,11 +25,13 @@ info:
 
     The property of exemplar is: \[ ResourceKeyType1xm \] -> same value as \[ ResourceKeyType1 \].
 
+    Many thanks to [@Aka](https://community.simtropolis.com/profile/829323-aka/)for providing me with the mirrored props for v. 3.1 - created and used in his SENT plugin - tedious task on hundreds of Props; I know something about it! They will certainly be very useful later on.
+
     \----
 
     In the readme PDF is the list of affected Props. If their authors wish to update their Props, although it may prove tedious for this simple and perhaps unique use, I would be happy to remove the exemplar redeclaration.
 
-    Courtesy of Girafe.
+    Courtesy of Girafe. And I hope the other authors.
 
     * * *
 
@@ -43,6 +45,6 @@ assets:
 
 ---
 assetId: hugues-aroux-wws-essentials
-version: "2.0.0"
-lastModified: "2025-02-02T16:28:31Z"
-url: https://community.simtropolis.com/files/file/36638-wws-essentials/?do=download&r=205534
+version: "3.1.0"
+lastModified: "2025-10-11T20:12:27Z"
+url: https://community.simtropolis.com/files/file/36638-wws-essentials/?do=download&r=209625
