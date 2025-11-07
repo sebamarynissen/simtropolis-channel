@@ -74,9 +74,9 @@ function groupPackagesBy(packages, keyGetter) {
 	const grouped = {};
 
 	for (const pkg of packages) {
-		const key = typeof keyGetter === 'function'
-			? keyGetter(pkg)
-			: pkg[keyGetter];
+		const key = typeof keyGetter === 'function' ?
+			keyGetter(pkg) :
+			pkg[keyGetter];
 
 		const groupKey = key || 'Unknown';
 
@@ -145,6 +145,20 @@ function calculateOverallStats(stats, simtropolisCount, mainChannelCount) {
  */
 function calculateCoveragePercent(missing, total) {
 	return ((total - missing) / total * 100).toFixed(1);
+}
+
+/**
+ * Calculate coverage level (0-11) from coverage percentage
+ * @param {number} coveragePercent - Coverage percentage (0-100)
+ * @returns {number} Coverage level (0-11)
+ */
+function getCoverageLevel(coveragePercent) {
+	// No coverage
+	if (coveragePercent === 0) return 0;
+	// Perfect coverage
+	if (coveragePercent === 100) return 11;
+	// 1-10 for 1-99%
+	return Math.ceil(coveragePercent / 10);
 }
 
 // ============================================================================
@@ -264,13 +278,11 @@ function findMissingPackages(stexFiles, index) {
 				submittedDate: file.submitted,
 				updatedDate: file.updated,
 			});
-		} else {
-			// Package is covered - determine which channel
-			if (packageInfo.local) {
+		// Package is covered - determine which channel
+		} else if (packageInfo.local) {
 				simtropolisCount++;
-			} else {
+		} else {
 				mainChannelCount++;
-			}
 		}
 	}
 
@@ -459,6 +471,38 @@ function generateAllAuthorsTable(stats) {
 }
 
 /**
+ * Generate coverage grid section with heading, description, and visualization
+ * @param {Object} stats - Statistics object
+ * @returns {string} Complete coverage grid section (markdown heading + HTML grid)
+ */
+function generateCoverageGridSection(stats) {
+	// Sort authors alphabetically
+	const sortedAuthors = Object.keys(stats.byAuthor).sort();
+
+	// Generate grid cells
+	const gridCells = sortedAuthors.map(author => {
+		const data = stats.byAuthor[author];
+		const coveragePercent = parseFloat(calculateCoveragePercent(data.missingCount, data.totalFiles));
+		const level = getCoverageLevel(coveragePercent);
+		const detailAnchor = generateDetailAnchor(author, data.missingCount);
+		const tooltip = `${author} (${coveragePercent.toFixed(1)}% coverage)`;
+
+		return `<a href="${detailAnchor}" data-level="${level}" data-tooltip="${tooltip}"></a>`;
+	}).join('\n    ');
+
+	return dedent`\
+		## Coverage Grid
+
+		Each square represents an author. Hover for details. Color intensity indicates coverage percentage.
+
+		<div id="coverage-grid">
+		    ${gridCells}
+		</div>
+
+	`;
+}
+
+/**
  * Generate missing package details grouped by author
  * @param {Array} missing - Array of missing package objects
  * @returns {string} Markdown package listings
@@ -484,6 +528,108 @@ function generatePackageDetails(missing) {
 	}
 
 	return md;
+}
+
+/**
+ * Generate coverage grid CSS styles
+ * @returns {string} CSS for coverage grid and tooltips
+ */
+function getCoverageGridStyles() {
+	return dedent`\
+		/* Coverage Grid Styles */
+		#coverage-grid {
+			--level-0: hsla(204, 0%, 98%, 1);
+			--level-1: hsla(204, 100%, 90%, 1);
+			--level-2: hsla(204, 100%, 83%, 1);
+			--level-3: hsla(203, 100%, 76%, 1);
+			--level-4: hsla(203, 100%, 69%, 1);
+			--level-5: hsla(203, 100%, 63%, 1);
+			--level-6: hsla(203, 99%, 57%, 1);
+			--level-7: hsla(206, 97%, 53%, 1);
+			--level-8: hsla(210, 95%, 50%, 1);
+			--level-9: hsla(214, 98%, 45%, 1);
+			--level-10: hsla(217, 100%, 40%, 1);
+			--level-11: hsla(217, 100%, 40%, 1);
+
+			display: grid;
+			grid-template-columns: repeat(auto-fit, 15px);
+			grid-auto-rows: 1fr;
+			gap: 5px;
+			max-width: 100%;
+			margin: 20px 0;
+		}
+
+		#coverage-grid a {
+			width: 100%;
+			aspect-ratio: 1 / 1;
+			border: none;
+			border-radius: 2px;
+			background-color: #e2e5e9;
+			padding: 0;
+			position: relative;
+			border: 0.5px solid #1f23280d;
+			cursor: pointer;
+		}
+
+		#coverage-grid a:hover {
+			outline: 2px solid #333;
+		}
+
+		#coverage-grid [data-level="0"] { background-color: var(--level-0); }
+		#coverage-grid [data-level="1"] { background-color: var(--level-1); }
+		#coverage-grid [data-level="2"] { background-color: var(--level-2); }
+		#coverage-grid [data-level="3"] { background-color: var(--level-3); }
+		#coverage-grid [data-level="4"] { background-color: var(--level-4); }
+		#coverage-grid [data-level="5"] { background-color: var(--level-5); }
+		#coverage-grid [data-level="6"] { background-color: var(--level-6); }
+		#coverage-grid [data-level="7"] { background-color: var(--level-7); }
+		#coverage-grid [data-level="8"] { background-color: var(--level-8); }
+		#coverage-grid [data-level="9"] { background-color: var(--level-9); }
+		#coverage-grid [data-level="10"] { background-color: var(--level-10); }
+		#coverage-grid [data-level="11"] { background-color: var(--level-11); }
+
+		/* Tooltip Styles */
+		#coverage-grid [data-tooltip] {
+			position: relative;
+		}
+
+		#coverage-grid [data-tooltip]::after {
+			content: attr(data-tooltip);
+			position: absolute;
+			bottom: 100%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-8px);
+			background-color: #333;
+			color: white;
+			padding: 6px 10px;
+			border-radius: 4px;
+			font-size: 12px;
+			white-space: nowrap;
+			opacity: 0;
+			pointer-events: none;
+			transition: opacity 0.2s ease-in-out;
+			z-index: 1000;
+		}
+
+		#coverage-grid [data-tooltip]::before {
+			content: '';
+			position: absolute;
+			bottom: 100%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-2px);
+			border: 4px solid transparent;
+			border-top-color: #333;
+			opacity: 0;
+			pointer-events: none;
+			transition: opacity 0.2s ease-in-out;
+			z-index: 1000;
+		}
+
+		#coverage-grid [data-tooltip]:hover::after,
+		#coverage-grid [data-tooltip]:hover::before {
+			opacity: 1;
+		}
+	`;
 }
 
 /**
@@ -581,6 +727,8 @@ function outputToHTML(markdownContent) {
 					border-radius: 3px;
 					font-family: ui-monospace, monospace;
 				}
+
+			${getCoverageGridStyles()}
 			</style>
 		</head>
 		<body>
@@ -600,6 +748,7 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 	let md = '# STEX Coverage Report\n\n';
 	md += `Generated: ${new Date().toISOString()}\n\n`;
 	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
+	md += generateCoverageGridSection(stats);
 	md += generateTableOfContents();
 	md += generateTopAuthorsTable(stats);
 	md += generateCategoryTable(stats);
