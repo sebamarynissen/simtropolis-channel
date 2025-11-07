@@ -405,7 +405,7 @@ function generateTableOfContents() {
 		- [Top Authors with Missing Packages](#${generateAnchor('Top Authors with Missing Packages')})
 		- [Package Summary by Category](#${generateAnchor('Package Summary by Category')})
 		- [Package Summary by Author](#${generateAnchor('Package Summary by Author')})
-		- [Missing Package Details](#${generateAnchor('Missing Package Details')})
+		- [Package Details](#${generateAnchor('Package Details')})
 
 	`;
 }
@@ -426,7 +426,7 @@ function generateNavbar() {
 		    <li><a href="#${generateAnchor('Top Authors with Missing Packages')}">Top Authors</a></li>
 		    <li><a href="#${generateAnchor('Package Summary by Category')}">By Category</a></li>
 		    <li><a href="#${generateAnchor('Package Summary by Author')}">By Author</a></li>
-		    <li><a href="#${generateAnchor('Missing Package Details')}">Package Details</a></li>
+		    <li><a href="#${generateAnchor('Package Details')}">Package Details</a></li>
 		  </ul>
 		</nav>
 
@@ -450,7 +450,7 @@ function generateTopAuthorsTable(stats) {
 		const profileUrl = generateProfileUrl(data.authorId, author);
 		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent} | [View details](${detailAnchor}) |\n`;
+		md += `| [${author} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent} | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -501,7 +501,7 @@ function generateAllAuthorsTable(stats) {
 		const profileUrl = generateProfileUrl(data.authorId, author);
 		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent.toFixed(1)} | [View details](${detailAnchor}) |\n`;
+		md += `| [${author} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent.toFixed(1)} | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -579,11 +579,11 @@ function generatePackageDetails(missing, stexFiles, index) {
 	const sortedAuthors = Object.entries(byAuthor)
 		.sort(([authorA], [authorB]) => authorA.localeCompare(authorB));
 
-	let html = '## Package Details by Author\n\n';
+	let html = '## Package Details\n\n';
 
 	for (const [author, { covered, missing: missingPkgs }] of sortedAuthors) {
 		const totalPkgs = covered.length + missingPkgs.length;
-		html += `### ${escapeMarkdown(author)} (${missingPkgs.length} of ${totalPkgs} packages missing)\n\n`;
+		html += `### ${author} (${missingPkgs.length} of ${totalPkgs} packages missing)\n\n`;
 		html += '<ul class="package-list">\n';
 
 		// Show covered packages first
@@ -703,7 +703,7 @@ function getCustomStyles() {
 
 		/* Add scroll margin to headings for anchor links */
 		h1, h2, h3, h4, h5, h6 {
-			scroll-margin-top: 1em;
+			scroll-margin-top: calc(3.75rem + 1em); /* nav bar plus heading height */
 		}
 
 		/* Table striping (from PicoCSS, adapted for all tables) */
@@ -933,12 +933,10 @@ function outputToHTML(markdownContent) {
 }
 
 /**
- * Outputs results to Markdown file and generates HTML
+ * Generate HTML coverage report
  */
-function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index) {
-	const mdPath = path.join(outputDir, 'coverage.md');
-
-	// Build markdown report from sections
+function generateReport(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index) {
+	// Build markdown report from sections (used internally for HTML generation)
 	let md = '';
 	md += '# STEX Coverage Report\n\n';
 	md += `Generated: ${new Date().toISOString()}\n\n`;
@@ -950,15 +948,12 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 	md += generatePackageDetails(missing, stexFiles, index);
 	md += getBackToTopStyles();
 
-	// Write markdown file
-	fs.writeFileSync(mdPath, md);
-
 	// Generate and write HTML file
 	const htmlPath = path.join(outputDir, 'coverage.html');
 	const html = outputToHTML(md);
 	fs.writeFileSync(htmlPath, html);
 
-	return mdPath;
+	return htmlPath;
 }
 
 /**
@@ -1020,16 +1015,15 @@ async function run(argv) {
 	console.log();
 	const outputSpinner = ora('Generating reports...').start();
 
-	const mdPath = outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index);
-	const htmlPath = mdPath.replace(/\.md$/, '.html');
+	const htmlPath = generateReport(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index);
 
-	// Copy markdown to docs for GitHub Pages
+	// Copy HTML to docs for GitHub Pages
 	const docsDir = path.resolve(import.meta.dirname, '../docs/coverage-report');
 	if (!fs.existsSync(docsDir)) {
 		fs.mkdirSync(docsDir, { recursive: true });
 	}
-	const docsMdPath = path.join(docsDir, 'index.md');
-	fs.copyFileSync(mdPath, docsMdPath);
+	const docsHtmlPath = path.join(docsDir, 'index.html');
+	fs.copyFileSync(htmlPath, docsHtmlPath);
 
 	outputSpinner.succeed('Reports generated');
 
@@ -1041,15 +1035,13 @@ async function run(argv) {
 
 	console.log();
 	console.log(styleText('bold', '📁 Output Files:\n'));
-	console.log('Markdown:');
-	console.log(`  ${styleText('cyan', mdPath)}`);
 	console.log('HTML:');
 	console.log(`  ${styleText('cyan', htmlPath)}`);
 	console.log('GitHub Pages:');
-	console.log(`  ${styleText('cyan', docsMdPath)}`);
+	console.log(`  ${styleText('cyan', docsHtmlPath)}`);
 
 	console.log();
-	console.log(styleText('dim', 'Tip: Open the Markdown or HTML report for a human-readable view.'));
+	console.log(styleText('dim', 'Tip: Open the HTML report for a human-readable view.'));
 }
 
 // Only run when executed directly (not when imported as a module)
