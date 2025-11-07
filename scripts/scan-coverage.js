@@ -594,6 +594,12 @@ function getCoverageGridStyles() {
 			--pico-form-element-spacing-horizontal: 0.75rem;
 			--pico-font-size: 1rem;
 		}
+
+		/* Table striping (from PicoCSS, adapted for all tables) */
+		tbody tr:nth-child(odd) td,
+		tbody tr:nth-child(odd) th {
+			background-color: var(--pico-table-row-stripped-background-color);
+		}
 	`;
 }
 
@@ -641,7 +647,7 @@ function outputToHTML(markdownContent) {
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>STEX Coverage Report</title>
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css">
 			<style>
 			${getCoverageGridStyles()}
 			</style>
