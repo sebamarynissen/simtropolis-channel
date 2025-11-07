@@ -1,6 +1,6 @@
 group: sg
 name: public-pools-pack
-version: "1.0"
+version: "1.0-1"
 subfolder: 660-parks
 info:
   summary: Public Pools Pack
@@ -51,8 +51,29 @@ dependencies:
   - bsc:essentials
   - bsc:mega-props-misc-vol01
   - bsc:textures-vol01
+  - sg:public-pools-pack-resources
 assets:
   - assetId: sg-public-pools-pack
+    include:
+      - "\\.SC4Lot$"
+
+
+---
+group: sg
+name: public-pools-pack-resources
+version: "1.01"
+subfolder: 100-props-textures
+info:
+  summary: Models and props for `pkg=sg:suburban-bus-stop-set`
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/11467-suburban-bus-stop-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/341e744fad55a0aebe040a43e6841c5e-SG_Bus Stops Day.jpg
+    - https://www.simtropolis.com/objects/screens/0007/341e744fad55a0aebe040a43e6841c5e-SG_Bus Stops Nite.jpg
+assets:
+  - assetId: sg-suburban-bus-stop-set
+    exclude:
+      - "\\.SC4Lot$"
 
 ---
 assetId: sg-public-pools-pack
