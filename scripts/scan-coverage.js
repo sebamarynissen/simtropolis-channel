@@ -510,8 +510,6 @@ function generateCoverageGridSection(stats) {
 	return dedent`\
 		## Coverage
 
-		Each square represents an author. Hover for details. Color intensity indicates coverage percentage.
-
 		<div id="coverage-grid">
 		    ${gridCells}
 		</div>
@@ -567,12 +565,12 @@ function generatePackageDetails(missing, stexFiles, index) {
 
 		// Show covered packages first
 		for (const pkg of covered) {
-			html += `<li class="covered"><a href="${pkg.url}">${pkg.title} ↗</a> - ${pkg.category}</li>\n`;
+			html += `<li class="covered"><a href="${pkg.url}" target="_blank">${pkg.title} ↗</a> - ${pkg.category}</li>\n`;
 		}
 
 		// Show missing packages
 		for (const pkg of missingPkgs) {
-			html += `<li class="missing"><a href="${pkg.url}">${pkg.title} ↗</a> - ${pkg.category}</li>\n`;
+			html += `<li class="missing"><a href="${pkg.url}" target="_blank">${pkg.title} ↗</a> - ${pkg.category}</li>\n`;
 		}
 
 		html += '</ul>\n\n';
@@ -849,6 +847,14 @@ function outputToHTML(markdownContent) {
 	renderer.heading = ({ text, depth }) => {
 		const id = generateAnchor(text);
 		return `<h${depth} id="${id}">${text}<a class="anchor-link" href="#${id}"></a></h${depth}>`;
+	};
+
+	// Configure custom renderer for links to open external links in new tab
+	renderer.link = ({ href, title, text }) => {
+		const isExternal = href.startsWith('http://') || href.startsWith('https://');
+		const target = isExternal ? ' target="_blank"' : '';
+		const titleAttr = title ? ` title="${title}"` : '';
+		return `<a href="${href}"${titleAttr}${target}>${text}</a>`;
 	};
 
 	// Parse markdown with custom renderer
