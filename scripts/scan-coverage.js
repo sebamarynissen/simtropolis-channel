@@ -418,13 +418,15 @@ function generateNavbar() {
 	return dedent`\
 		<nav>
 		  <ul>
-		    <li></li>
+		    <li>
+					<h1>STEX Coverage Report</h1>
+				</li>
 		  </ul>
 		  <ul>
-		    <li><a href="#${generateAnchor('Top Authors')}">Top Authors</a></li>
-		    <li><a href="#${generateAnchor('Packages by Category')}">By Category</a></li>
-		    <li><a href="#${generateAnchor('Packages by Author')}">By Author</a></li>
-		    <li><a href="#${generateAnchor('Package Details')}">Package Details</a></li>
+		    <li><a href="#${generateAnchor('Top Authors with Missing Packages')}">Top Authors</a></li>
+		    <li><a href="#${generateAnchor('Package Summary by Category')}">By Category</a></li>
+		    <li><a href="#${generateAnchor('Package Summary by Author')}">By Author</a></li>
+		    <li><a href="#${generateAnchor('Missing Package Details')}">Package Details</a></li>
 		  </ul>
 		</nav>
 
@@ -606,6 +608,23 @@ function generatePackageDetails(missing, stexFiles, index) {
  */
 function getCustomStyles() {
 	return dedent`\
+		body {
+			overflow-x: hidden;
+		}
+
+		nav {
+			position: sticky;
+			top: 0px;
+			padding: 0 20px;
+			z-index: 10;
+			background: var(--pico-background-color);
+			border-bottom: 1px solid var(--pico-table-border-color);
+		}
+		nav h1 {
+			font-size: 1.5rem;
+			margin: 0;
+		}
+
 		/* Coverage Grid Styles */
 		#coverage-grid {
 			--level-0: hsla(204, 0%, 98%, 1);
@@ -776,7 +795,7 @@ function getCustomStyles() {
 
 		.sortable thead {
 			position: sticky;
-			top: 0;
+			top: 3.75rem; /* nav height 60px */
 			z-index: 1;
 			background-color: var(--pico-background-color);
 		}
@@ -903,6 +922,7 @@ function outputToHTML(markdownContent) {
 			</style>
 		</head>
 		<body>
+		${generateNavbar()}
 		<main>
 		${htmlContent}
 		</main>
@@ -920,7 +940,6 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 
 	// Build markdown report from sections
 	let md = '';
-	md += generateNavbar();
 	md += '# STEX Coverage Report\n\n';
 	md += `Generated: ${new Date().toISOString()}\n\n`;
 	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
