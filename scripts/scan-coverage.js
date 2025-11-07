@@ -588,46 +588,11 @@ function getCoverageGridStyles() {
 		#coverage-grid [data-level="10"] { background-color: var(--level-10); }
 		#coverage-grid [data-level="11"] { background-color: var(--level-11); }
 
-		/* Tooltip Styles */
-		#coverage-grid [data-tooltip] {
-			position: relative;
-		}
-
-		#coverage-grid [data-tooltip]::after {
-			content: attr(data-tooltip);
-			position: absolute;
-			bottom: 100%;
-			left: 50%;
-			transform: translateX(-50%) translateY(-8px);
-			background-color: #333;
-			color: white;
-			padding: 6px 10px;
-			border-radius: 4px;
-			font-size: 12px;
-			white-space: nowrap;
-			opacity: 0;
-			pointer-events: none;
-			transition: opacity 0.2s ease-in-out;
-			z-index: 1000;
-		}
-
-		#coverage-grid [data-tooltip]::before {
-			content: '';
-			position: absolute;
-			bottom: 100%;
-			left: 50%;
-			transform: translateX(-50%) translateY(-2px);
-			border: 4px solid transparent;
-			border-top-color: #333;
-			opacity: 0;
-			pointer-events: none;
-			transition: opacity 0.2s ease-in-out;
-			z-index: 1000;
-		}
-
-		#coverage-grid [data-tooltip]:hover::after,
-		#coverage-grid [data-tooltip]:hover::before {
-			opacity: 1;
+		/* more sensible font sizing */
+		:root {
+			--pico-form-element-spacing-vertical: 0.35rem;
+			--pico-form-element-spacing-horizontal: 0.75rem;
+			--pico-font-size: 1rem;
 		}
 	`;
 }
@@ -676,63 +641,15 @@ function outputToHTML(markdownContent) {
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>STEX Coverage Report</title>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
 			<style>
-				body {
-					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-					line-height: 1.6;
-					max-width: 1200px;
-					margin: 0 auto;
-					padding: 20px;
-					color: #333;
-				}
-				table {
-					border-collapse: collapse;
-					width: 100%;
-					margin: 20px 0;
-				}
-				th, td {
-					border: 1px solid #ddd;
-					padding: 8px 12px;
-					text-align: left;
-				}
-				th {
-					background-color: #f6f8fa;
-					font-weight: 600;
-				}
-				tr:hover {
-					background-color: #f6f8fa;
-				}
-				a {
-					color: #0969da;
-					text-decoration: none;
-				}
-				a:hover {
-					text-decoration: underline;
-				}
-				h1, h2, h3 {
-					margin-top: 24px;
-					margin-bottom: 16px;
-				}
-				h1 {
-					border-bottom: 1px solid #eaecef;
-					padding-bottom: 10px;
-				}
-				h2 {
-					border-bottom: 1px solid #eaecef;
-					padding-bottom: 8px;
-				}
-				code {
-					background-color: #f6f8fa;
-					padding: 2px 6px;
-					border-radius: 3px;
-					font-family: ui-monospace, monospace;
-				}
-
 			${getCoverageGridStyles()}
 			</style>
 		</head>
 		<body>
+		<main>
 		${htmlContent}
+		</main>
 		</body>
 		</html>
 	`;
