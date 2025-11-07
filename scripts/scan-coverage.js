@@ -637,14 +637,8 @@ function getCustomStyles() {
 		}
 
 		.package-list li {
-			display: flex;
-			align-items: flex-start;
-			padding: 8px 0;
-			border-bottom: 1px solid #eee;
-		}
-
-		.package-list li:last-child {
-			border-bottom: none;
+			list-style: none;
+			padding: 4px 0;
 		}
 
 		.package-list li::before {
@@ -664,6 +658,17 @@ function getCustomStyles() {
 			content: "✓";
 			background-color: #4CAF50;
 			border-color: #4CAF50;
+			color: white;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 16px;
+		}
+
+		.package-list li.missing::before {
+			content: "?";
+			background-color: #ddd;
+			border-color: #ddd;
 			color: white;
 			font-size: 14px;
 			font-weight: bold;
