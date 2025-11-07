@@ -63,6 +63,14 @@ function escapeMarkdown(text) {
 }
 
 /**
+ * Escape special characters in text for Markdown
+ */
+function removePipes(text) {
+	return text
+		.replace(/\|/g, '\\|');
+}
+
+/**
  * Generate GitHub-style anchor from heading text
  * Example: "memo (100 packages)" -> "memo-100-packages"
  */
@@ -450,7 +458,7 @@ function generateTopAuthorsTable(stats) {
 		const profileUrl = generateProfileUrl(data.authorId, author);
 		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${author} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent} | [View details](${detailAnchor}) |\n`;
+		md += `| [${removePipes(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent} | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -501,7 +509,7 @@ function generateAllAuthorsTable(stats) {
 		const profileUrl = generateProfileUrl(data.authorId, author);
 		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${author} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent.toFixed(1)} | [View details](${detailAnchor}) |\n`;
+		md += `| [${removePipes(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent.toFixed(1)} | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -531,7 +539,7 @@ function generateCoverageGridSection(stats) {
 	}).join('\n    ');
 
 	return dedent`\
-		## Coverage
+		## Coverage Map
 
 		<div id="coverage-grid">
 		    ${gridCells}
