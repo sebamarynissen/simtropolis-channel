@@ -469,8 +469,8 @@ function generateAllAuthorsTable(stats) {
  * @returns {string} Complete coverage grid section (markdown heading + HTML grid)
  */
 function generateCoverageGridSection(stats) {
-	// Sort authors alphabetically
-	const sortedAuthors = Object.keys(stats.byAuthor).sort();
+	// Sort authors alphabetically (case-insensitive)
+	const sortedAuthors = Object.keys(stats.byAuthor).sort((a, b) => a.localeCompare(b));
 
 	// Generate grid cells
 	const gridCells = sortedAuthors.map(author => {
