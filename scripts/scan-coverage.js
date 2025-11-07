@@ -78,10 +78,11 @@ function generateProfileUrl(authorId, authorName) {
  * Generate anchor link to author detail section
  * @param {string} author - Author name
  * @param {number} missingCount - Number of missing packages
+ * @param {number} totalFiles - Total number of packages
  * @returns {string} Markdown anchor link
  */
-function generateDetailAnchor(author, missingCount) {
-	const detailHeading = `${author} (${missingCount} packages missing)`;
+function generateDetailAnchor(author, missingCount, totalFiles) {
+	const detailHeading = `${author} (${missingCount} of ${totalFiles} packages missing)`;
 	return `#${generateAnchor(detailHeading)}`;
 }
 
@@ -398,15 +399,15 @@ function generateTopAuthorsTable(stats) {
 	const topAuthors = sortPackagesByProperty(stats.byAuthor, 'missingCount').slice(0, 20);
 
 	let md = '## Top Authors with Missing Packages\n\n';
-	md += '| Author | Missing | Total | Coverage | Details |\n';
-	md += '|--------|---------|-------|----------|----------|\n';
+	md += '| Author | Total | Missing | Coverage | Package Details |\n';
+	md += '|--------|-------|---------|----------|-----------------|\n';
 
 	for (const [author, data] of topAuthors) {
 		const coveragePercent = calculateCoveragePercent(data.missingCount, data.totalFiles);
 		const profileUrl = generateProfileUrl(data.authorId, author);
-		const detailAnchor = generateDetailAnchor(author, data.missingCount);
+		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
+		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -422,12 +423,12 @@ function generateCategoryTable(stats) {
 	const sortedCategories = sortPackagesByProperty(stats.byCategory, 'missingCount');
 
 	let md = '## Package Summary by Category\n\n';
-	md += '| Category | Missing | Total | Coverage |\n';
-	md += '|----------|---------|-------|----------|\n';
+	md += '| Category | Total | Missing | Coverage |\n';
+	md += '|----------|-------|---------|----------|\n';
 
 	for (const [category, data] of sortedCategories) {
 		const coveragePercent = calculateCoveragePercent(data.missingCount, data.totalFiles);
-		md += `| ${category} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% |\n`;
+		md += `| ${category} | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent}% |\n`;
 	}
 	md += '\n';
 
@@ -449,14 +450,14 @@ function generateAllAuthorsTable(stats) {
 		.sort(([authorA], [authorB]) => authorA.localeCompare(authorB));
 
 	let md = '## Package Summary by Author\n\n';
-	md += '| Author | Missing | Total | Coverage | Details |\n';
-	md += '|--------|---------|-------|----------|----------|\n';
+	md += '| Author | Total | Missing | Coverage | Package Details |\n';
+	md += '|--------|-------|---------|----------|-----------------|\n';
 
 	for (const [author, data, coveragePercent] of allAuthors) {
 		const profileUrl = generateProfileUrl(data.authorId, author);
-		const detailAnchor = generateDetailAnchor(author, data.missingCount);
+		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
+		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -477,7 +478,7 @@ function generateCoverageGridSection(stats) {
 		const data = stats.byAuthor[author];
 		const coveragePercent = parseFloat(calculateCoveragePercent(data.missingCount, data.totalFiles));
 		const level = getCoverageLevel(coveragePercent);
-		const detailAnchor = generateDetailAnchor(author, data.missingCount);
+		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 		const coveredPackages = data.totalFiles - data.missingCount;
 		const formattedPercent = formatCoveragePercent(coveragePercent);
 		const tooltip = `${author} (${coveredPackages}/${data.totalFiles} packages, ${formattedPercent} coverage)`;
