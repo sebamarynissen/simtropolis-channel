@@ -11,15 +11,6 @@ import { marked } from 'marked';
 // Import existing index building functionality
 import { buildIndex } from './manual-add.js';
 
-// SQLite support is optional
-let Database;
-try {
-	const betterSqlite3 = await import('better-sqlite3');
-	Database = betterSqlite3.default;
-} catch {
-	// SQLite not available
-}
-
 // Categories to exclude (Tools, Maps, Region)
 const EXCLUDED_CATEGORIES = [115, 116, 117];
 
@@ -243,141 +234,6 @@ function generateAnchor(heading) {
 }
 
 /**
- * Outputs results to SQLite database
- */
-function outputToSqlite(missing, stats, outputDir) {
-	if (!Database) {
-		throw new Error('SQLite support requires the better-sqlite3 package. Install it with: npm install -D better-sqlite3');
-	}
-
-	const dbPath = path.join(outputDir, 'coverage.sqlite3');
-
-	// Remove existing database if it exists
-	if (fs.existsSync(dbPath)) {
-		fs.unlinkSync(dbPath);
-	}
-
-	const db = new Database(dbPath);
-
-	// Create tables
-	db.exec(`
-		CREATE TABLE missing_packages (
-			file_id INTEGER PRIMARY KEY,
-			author_name TEXT,
-			author_id INTEGER,
-			title TEXT,
-			category TEXT,
-			descriptor TEXT,
-			stex_url TEXT,
-			submitted_date TEXT,
-			updated_date TEXT
-		);
-
-		CREATE INDEX idx_author ON missing_packages(author_name);
-		CREATE INDEX idx_category ON missing_packages(category);
-
-		CREATE TABLE author_stats (
-			author_name TEXT PRIMARY KEY,
-			author_id INTEGER,
-			missing_count INTEGER,
-			total_files INTEGER,
-			coverage_percent REAL
-		);
-
-		CREATE TABLE category_stats (
-			category TEXT PRIMARY KEY,
-			missing_count INTEGER,
-			total_files INTEGER,
-			coverage_percent REAL
-		);
-	`);
-
-	// Insert missing packages
-	const insertPackage = db.prepare(`
-		INSERT INTO missing_packages VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`);
-
-	for (const pkg of missing) {
-		insertPackage.run(
-			pkg.fileId,
-			pkg.authorName || 'Unknown',
-			pkg.authorId || null,
-			pkg.title || 'Unknown',
-			pkg.category || null,
-			pkg.descriptor || null,
-			pkg.stexUrl || null,
-			pkg.submittedDate || null,
-			pkg.updatedDate || null,
-		);
-	}
-
-	// Insert author stats
-	const insertAuthor = db.prepare('INSERT INTO author_stats VALUES (?, ?, ?, ?, ?)');
-	for (const [author, data] of Object.entries(stats.byAuthor)) {
-		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
-		insertAuthor.run(author, data.authorId, data.missingCount, data.totalFiles, coveragePercent);
-	}
-
-	// Insert category stats
-	const insertCategory = db.prepare('INSERT INTO category_stats VALUES (?, ?, ?, ?)');
-	for (const [category, data] of Object.entries(stats.byCategory)) {
-		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
-		insertCategory.run(category, data.missingCount, data.totalFiles, coveragePercent);
-	}
-
-	db.close();
-	return dbPath;
-}
-
-/**
- * Outputs results to JSON file
- */
-function outputToJson(missing, stats, outputDir) {
-	const jsonPath = path.join(outputDir, 'coverage.json');
-	const output = {
-		generatedAt: new Date().toISOString(),
-		stats,
-		packages: missing,
-	};
-	fs.writeFileSync(jsonPath, JSON.stringify(output, null, 2));
-	return jsonPath;
-}
-
-/**
- * Outputs results to CSV file
- */
-function outputToCsv(missing, outputDir) {
-	const csvPath = path.join(outputDir, 'coverage.csv');
-	const headers = [
-		'File ID',
-		'Author',
-		'Author ID',
-		'Title',
-		'Category',
-		'Descriptor',
-		'STEX URL',
-		'Submitted',
-		'Updated',
-	];
-
-	const rows = missing.map(pkg => [
-		pkg.fileId,
-		`"${(pkg.authorName || 'Unknown').replace(/"/g, '""')}"`,
-		pkg.authorId || '',
-		`"${(pkg.title || 'Unknown').replace(/"/g, '""')}"`,
-		pkg.category || '',
-		pkg.descriptor || '',
-		pkg.stexUrl || '',
-		pkg.submittedDate || '',
-		pkg.updatedDate || '',
-	]);
-
-	const csv = [headers.join(','), ...rows.map(row => row.join(','))].join('\n');
-	fs.writeFileSync(csvPath, csv);
-	return csvPath;
-}
-
-/**
  * Outputs results to Markdown file
  */
 function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount) {
@@ -594,7 +450,6 @@ async function run(argv) {
 		process.exit(1);
 	}
 
-	const format = argv.format ?? 'all';
 	const delay = argv.delay ?? 2000;
 	const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 
@@ -642,38 +497,17 @@ async function run(argv) {
 	// Step 4: Generate output files
 	console.log();
 	const outputSpinner = ora('Generating reports...').start();
-	const outputs = [];
 
-	if (format === 'all' || format === 'sqlite') {
-		const dbPath = outputToSqlite(missing, stats, outputDir);
-		outputs.push(`SQLite: ${styleText('cyan', `"${dbPath}"`)}`);
+	const mdPath = outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount);
+	const htmlPath = mdPath.replace(/\.md$/, '.html');
+
+	// Copy markdown to docs for GitHub Pages
+	const docsDir = path.resolve(import.meta.dirname, '../docs/coverage-report');
+	if (!fs.existsSync(docsDir)) {
+		fs.mkdirSync(docsDir, { recursive: true });
 	}
-
-	if (format === 'all' || format === 'json') {
-		const jsonPath = outputToJson(missing, stats, outputDir);
-		outputs.push(`JSON: ${styleText('cyan', `"${jsonPath}"`)}`);
-	}
-
-	if (format === 'all' || format === 'csv') {
-		const csvPath = outputToCsv(missing, outputDir);
-		outputs.push(`CSV: ${styleText('cyan', `"${csvPath}"`)}`);
-	}
-
-	if (format === 'all' || format === 'markdown') {
-		const mdPath = outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount);
-		const htmlPath = mdPath.replace(/\.md$/, '.html');
-		outputs.push(`Markdown: ${styleText('cyan', `"${mdPath}"`)}`);
-		outputs.push(`HTML: ${styleText('cyan', `"${htmlPath}"`)}`);
-
-		// Copy markdown to docs for GitHub Pages
-		const docsDir = path.resolve(import.meta.dirname, '../docs/coverage-report');
-		if (!fs.existsSync(docsDir)) {
-			fs.mkdirSync(docsDir, { recursive: true });
-		}
-		const docsMdPath = path.join(docsDir, 'index.md');
-		fs.copyFileSync(mdPath, docsMdPath);
-		outputs.push(`GitHub Pages: ${styleText('cyan', `"${docsMdPath}"`)}`);
-	}
+	const docsMdPath = path.join(docsDir, 'index.md');
+	fs.copyFileSync(mdPath, docsMdPath);
 
 	outputSpinner.succeed('Reports generated');
 
@@ -685,12 +519,12 @@ async function run(argv) {
 
 	console.log();
 	console.log(styleText('bold', '📁 Output Files:\n'));
-	for (const output of outputs) {
-		console.log(`  ${output}`);
-	}
+	console.log(`  Markdown: ${styleText('cyan', `"${mdPath}"`)}`);
+	console.log(`  HTML: ${styleText('cyan', `"${htmlPath}"`)}`);
+	console.log(`  GitHub Pages: ${styleText('cyan', `"${docsMdPath}"`)}`);
 
 	console.log();
-	console.log(styleText('dim', 'Tip: Use a SQLite browser to query the database, or open the Markdown report for a human-readable view.'));
+	console.log(styleText('dim', 'Tip: Open the Markdown or HTML report for a human-readable view.'));
 }
 
 // Only run when executed directly (not when imported as a module)
@@ -705,17 +539,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 	const { argv } = yargs(hideBin(process.argv))
 		.scriptName(scriptName)
 		.usage('Usage: $0 [options]')
-		.example('$0', 'Generate all report formats (default)')
-		.example('$0 --format=markdown', 'Generate Markdown report only')
-		.example('$0 --format=json', 'Generate JSON report only')
-		.example('$0 --format=sqlite', 'Generate SQLite database (requires better-sqlite3)')
-		.option('format', {
-			alias: 'f',
-			type: 'string',
-			description: 'Output format',
-			choices: ['sqlite', 'json', 'csv', 'markdown', 'all'],
-			default: 'all',
-		})
+		.example('$0', 'Generate coverage report (Markdown and HTML)')
 		.option('delay', {
 			alias: 'd',
 			type: 'number',
@@ -733,7 +557,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 			default: false,
 		})
 		.version(false)
-		.group(['format', 'delay', 'cache', 'use-cache'], 'Options:')
+		.group(['delay', 'cache', 'use-cache'], 'Options:')
 		.group(['help'], 'Info:')
 		.help();
 
