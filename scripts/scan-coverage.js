@@ -847,9 +847,12 @@ async function run(argv) {
 
 	console.log();
 	console.log(styleText('bold', '📁 Output Files:\n'));
-	console.log(`  Markdown: ${styleText('cyan', `"${mdPath}"`)}`);
-	console.log(`  HTML: ${styleText('cyan', `"${htmlPath}"`)}`);
-	console.log(`  GitHub Pages: ${styleText('cyan', `"${docsMdPath}"`)}`);
+	console.log('Markdown:');
+	console.log(`  ${styleText('cyan', mdPath)}`);
+	console.log('HTML:');
+	console.log(`  ${styleText('cyan', htmlPath)}`);
+	console.log('GitHub Pages:');
+	console.log(`  ${styleText('cyan', docsMdPath)}`);
 
 	console.log();
 	console.log(styleText('dim', 'Tip: Open the Markdown or HTML report for a human-readable view.'));
