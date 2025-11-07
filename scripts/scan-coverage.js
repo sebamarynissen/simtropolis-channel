@@ -389,7 +389,6 @@ function generateSummarySection(stats, simtropolisCount, mainChannelCount) {
 		- **Missing packages**: ${stats.total}
 		- **Overall coverage**: ${overallStats.overallCoverage}%
 		- **Total authors**: ${overallStats.totalAuthors}
-		- **Author coverage**: ${overallStats.authorCoverage}% (${overallStats.authorsWithFullCoverage} of ${overallStats.totalAuthors} authors with 100% coverage)
 
 	`;
 }
@@ -398,6 +397,7 @@ function generateSummarySection(stats, simtropolisCount, mainChannelCount) {
  * Generate table of contents with navigation links
  * @returns {string} Markdown table of contents
  */
+// eslint-disable-next-line no-unused-vars
 function generateTableOfContents() {
 	return dedent`\
 		## Table of Contents
@@ -406,6 +406,27 @@ function generateTableOfContents() {
 		- [Package Summary by Category](#${generateAnchor('Package Summary by Category')})
 		- [Package Summary by Author](#${generateAnchor('Package Summary by Author')})
 		- [Missing Package Details](#${generateAnchor('Missing Package Details')})
+
+	`;
+}
+
+/**
+ * Generate navigation bar with section links
+ * @returns {string} HTML navbar with navigation links
+ */
+function generateNavbar() {
+	return dedent`\
+		<nav>
+		  <ul>
+		    <li></li>
+		  </ul>
+		  <ul>
+		    <li><a href="#${generateAnchor('Top Authors')}">Top Authors</a></li>
+		    <li><a href="#${generateAnchor('Packages by Category')}">By Category</a></li>
+		    <li><a href="#${generateAnchor('Packages by Author')}">By Author</a></li>
+		    <li><a href="#${generateAnchor('Package Details')}">Package Details</a></li>
+		  </ul>
+		</nav>
 
 	`;
 }
@@ -601,9 +622,9 @@ function getCustomStyles() {
 			--level-11: hsla(217, 100%, 40%, 1);
 
 			display: grid;
-			grid-template-columns: repeat(auto-fit, 15px);
+			grid-template-columns: repeat(auto-fit, 12px);
 			grid-auto-rows: 1fr;
-			gap: 5px;
+			gap: 3px;
 			max-width: 100%;
 			margin: 20px 0;
 		}
@@ -622,6 +643,12 @@ function getCustomStyles() {
 
 		#coverage-grid a:hover {
 			outline: 2px solid #333;
+		}
+		#coverage-grid [data-tooltip]:focus::after,
+		#coverage-grid [data-tooltip]:focus::before,
+		#coverage-grid [data-tooltip]:hover::after,
+		#coverage-grid [data-tooltip]:hover::before {
+			margin-bottom: 3px;
 		}
 
 		#coverage-grid [data-level="0"] { background-color: var(--level-0); }
@@ -892,11 +919,12 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 	const mdPath = path.join(outputDir, 'coverage.md');
 
 	// Build markdown report from sections
-	let md = '# STEX Coverage Report\n\n';
+	let md = '';
+	md += generateNavbar();
+	md += '# STEX Coverage Report\n\n';
 	md += `Generated: ${new Date().toISOString()}\n\n`;
 	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
 	md += generateCoverageGridSection(stats);
-	md += generateTableOfContents();
 	md += generateTopAuthorsTable(stats);
 	md += generateCategoryTable(stats);
 	md += generateAllAuthorsTable(stats);
