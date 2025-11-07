@@ -710,6 +710,48 @@ function getCustomStyles() {
 		h6:hover .anchor-link {
 			opacity: 1;
 		}
+
+		/* Sortable table styles */
+
+		.sortable thead th {
+			position: sticky;
+			top: 0;
+			z-index: 1;
+		}
+
+		.sortable thead th:hover {
+			background-color: var(--pico-table-row-stripped-background-color);
+		}
+
+		.sortable thead th:not(.no-sort) {
+			cursor: pointer;
+		}
+		.sortable thead th:not(.no-sort)::after,
+		.sortable thead th:not(.no-sort)::before {
+			transition: color 0.1s ease-in-out;
+			font-size: 1.2em;
+			color: transparent;
+			position: relative;
+			top: -0.1em;
+		}
+		.sortable thead th:not(.no-sort)::after {
+			margin-left: 3px;
+			content: "↓";
+		}
+		.sortable.asc thead th:not(.no-sort)::after {
+			content: "↑";
+		}
+		.sortable thead th:not(.no-sort):hover::after {
+			color: var(--pico-primary);
+		}
+		.sortable thead th:not(.no-sort)[aria-sort=descending]::after {
+			color: inherit;
+			content: "↓";
+		}
+		.sortable thead th:not(.no-sort)[aria-sort=ascending]::after {
+			color: inherit;
+			content: "↑";
+		}
 	`;
 }
 
@@ -756,7 +798,10 @@ function outputToHTML(markdownContent) {
 	};
 
 	// Parse markdown with custom renderer
-	const htmlContent = marked.parse(markdownContent, { renderer });
+	let htmlContent = marked.parse(markdownContent, { renderer });
+
+	// Add sortable class to all tables
+	htmlContent = htmlContent.replace(/<table>/g, '<table class="sortable asc">');
 
 	return dedent`\
 		<!DOCTYPE html>
@@ -774,6 +819,7 @@ function outputToHTML(markdownContent) {
 		<main>
 		${htmlContent}
 		</main>
+		<script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/dist/sortable.auto.min.js"></script>
 		</body>
 		</html>
 	`;
