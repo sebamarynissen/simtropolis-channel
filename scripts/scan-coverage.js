@@ -483,7 +483,7 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 			const title = pkg.title || 'Unknown';
 			const url = pkg.stexUrl || '#';
 			const category = pkg.category || 'Unknown';
-			md += `- [${title}](${url}) - ${category}\n`;
+			md += `- [${title} ↗](${url}) - ${category}\n`;
 		}
 		md += '\n';
 	}
