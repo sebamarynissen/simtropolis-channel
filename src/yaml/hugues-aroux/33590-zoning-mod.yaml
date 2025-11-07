@@ -73,257 +73,45 @@ info:
   - https://www.simtropolis.com/objects/screens/monthly_2022_02/montage_tex.jpg.c546c6b20e50187c1eccf44e805554da.jpg
   - https://www.simtropolis.com/objects/screens/monthly_2022_02/erase_duo.jpg.974a63af31780221d7d06ac50bc9efe7.jpg
 
-# The asset is included in /scoty/zoning-mod.yaml in the default channel
-variants:
-- variant: { hugues-aroux:zoning-mod:colorset: "maxis", hugues-aroux:zoning-mod:zone-texture: default }
-  assets:
+# The asset `scoty-zoning-mod` is included in /scoty/zoning-mod.yaml in the default channel
+assets:
   - assetId: scoty-zoning-mod
     include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "maxis", hugues-aroux:zoning-mod:zone-texture: empty }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_empty.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "maxis", hugues-aroux:zoning-mod:zone-texture: foundation-2 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_foundation_2.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "maxis", hugues-aroux:zoning-mod:zone-texture: earthwork }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_earthwork.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "maxis", hugues-aroux:zoning-mod:zone-texture: dot }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_dot.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "maxis", hugues-aroux:zoning-mod:zone-texture: foundation-3 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_foundation_3.dat"
-
-
-
-- variant: { hugues-aroux:zoning-mod:colorset: "soften", hugues-aroux:zoning-mod:zone-texture: default }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_soften.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "soften", hugues-aroux:zoning-mod:zone-texture: empty }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_soften.dat"
-    - "/scoty_tex_empty.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "soften", hugues-aroux:zoning-mod:zone-texture: foundation-2 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_soften.dat"
-    - "/scoty_tex_foundation_2.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "soften", hugues-aroux:zoning-mod:zone-texture: earthwork }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_soften.dat"
-    - "/scoty_tex_earthwork.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "soften", hugues-aroux:zoning-mod:zone-texture: dot }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_soften.dat"
-    - "/scoty_tex_dot.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "soften", hugues-aroux:zoning-mod:zone-texture: foundation-3 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_foundation_3.dat"
-
-
-
-- variant: { hugues-aroux:zoning-mod:colorset: "yard", hugues-aroux:zoning-mod:zone-texture: default }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_yard.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "yard", hugues-aroux:zoning-mod:zone-texture: empty }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_yard.dat"
-    - "/scoty_tex_empty.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "yard", hugues-aroux:zoning-mod:zone-texture: foundation-2 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_yard.dat"
-    - "/scoty_tex_foundation_2.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "yard", hugues-aroux:zoning-mod:zone-texture: earthwork }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_yard.dat"
-    - "/scoty_tex_earthwork.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "yard", hugues-aroux:zoning-mod:zone-texture: dot }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_yard.dat"
-    - "/scoty_tex_dot.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "yard", hugues-aroux:zoning-mod:zone-texture: foundation-3 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_foundation_3.dat"
-
-
-
-- variant: { hugues-aroux:zoning-mod:colorset: "ocher", hugues-aroux:zoning-mod:zone-texture: default }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_ocher.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "ocher", hugues-aroux:zoning-mod:zone-texture: empty }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_ocher.dat"
-    - "/scoty_tex_empty.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "ocher", hugues-aroux:zoning-mod:zone-texture: foundation-2 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_ocher.dat"
-    - "/scoty_tex_foundation_2.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "ocher", hugues-aroux:zoning-mod:zone-texture: earthwork }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_ocher.dat"
-    - "/scoty_tex_earthwork.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "ocher", hugues-aroux:zoning-mod:zone-texture: dot }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_ocher.dat"
-    - "/scoty_tex_dot.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "ocher", hugues-aroux:zoning-mod:zone-texture: foundation-3 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_foundation_3.dat"
-
-
-
-- variant: { hugues-aroux:zoning-mod:colorset: "cbvd", hugues-aroux:zoning-mod:zone-texture: default }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_CBVD.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "cbvd", hugues-aroux:zoning-mod:zone-texture: empty }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_CBVD.dat"
-    - "/scoty_tex_empty.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "cbvd", hugues-aroux:zoning-mod:zone-texture: foundation-2 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_CBVD.dat"
-    - "/scoty_tex_foundation_2.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "cbvd", hugues-aroux:zoning-mod:zone-texture: earthwork }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_CBVD.dat"
-    - "/scoty_tex_earthwork.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "cbvd", hugues-aroux:zoning-mod:zone-texture: dot }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_CBVD.dat"
-    - "/scoty_tex_dot.dat"
-- variant: { hugues-aroux:zoning-mod:colorset: "cbvd", hugues-aroux:zoning-mod:zone-texture: foundation-3 }
-  assets:
-  - assetId: scoty-zoning-mod
-    include:
-    - "/scoty_ZM_ressources.dat"
-    - "/scoty_ZM_ground_landfill.dat"
-    - "/scoty_ZManag_maxis.dat"
-    - "/scoty_tex_foundation_3.dat"
-
-
+      - "/scoty_ZM_ressources.dat"
+      - "/scoty_ZM_ground_landfill.dat"
+    withConditions:
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "maxis" }
+        include:
+          - "/scoty_ZManag_maxis.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "soften" }
+        include:
+          - "/scoty_ZManag_soften.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "yard" }
+        include:
+          - "/scoty_ZManag_yard.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "ocher" }
+        include:
+          - "/scoty_ZManag_ocher.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "cbvd" }
+        include:
+          - "/scoty_ZManag_cbvd.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "default" }
+        include: []
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "empty" }
+        include:
+          - "/scoty_ZM_tex_empty.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "foundation-2" }
+        include:
+          - "/scoty_ZM_tex_foundation_2.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "earthwork" }
+        include:
+          - "/scoty_ZM_tex_earthwork.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "dot" }
+        include:
+          - "/scoty_ZM_tex_dot.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "foundation-3" }
+        include:
+          - "/scoty_ZM_tex_foundation_3.dat"
 
 variantInfo:
 - variantId: "hugues-aroux:zoning-mod:colorset"

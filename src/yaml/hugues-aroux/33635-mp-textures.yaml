@@ -1,9 +1,9 @@
 group: hugues-aroux
-name: mp-base-textures
+name: mp-textures
 version: "2.1.0"
 subfolder: 100-props-textures
 info:
-  summary: Scoty MP textures
+  summary: Modular parking base and overlay textures
   description: |-
     A set of more than 500 textures (bases and overlays) to feed mainly the Scoty Modular parking plugin. Yes, a few dozen more than v.1
 
@@ -35,79 +35,68 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/goudron_pann.jpg.f27ef0d21813c6adb9845ff6ea23527c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/maxis_pann.jpg.5e06eb8d67c05f325d315f361aedda0b.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2025_01/shk_pann.jpg.8c81c77bca4dc52c3ed318911cdc2115.jpg
-variants:
-- variant: { hugues-aroux:modular-parking:base-texture: maxis-light }
-  assets:
+assets:
   - assetId: hugues-aroux-scoty-mp-textures
     include:
-    - "/scoty_maxis_L_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: maxis-medium }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_maxis_M_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: maxis-dark }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_maxis_D_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: shk-light }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_SHK_L_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: shk-medium }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_SHK_M_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: goudron-light }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_goudron_L_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: goudron-medium }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_goudron_M_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: goudron-dark }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_goudron_D_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: btm3-light }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_BTM3_L_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: btm3-medium }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_BTM3_M_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: btm3-dark }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_BTM3_D_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: asphalt-light }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_asphalt_L_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: asphalt-medium }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_asphalt_M_tex.dat"
-- variant: { hugues-aroux:modular-parking:base-texture: asphalt-dark }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    include:
-    - "/scoty_asphalt_D_tex.dat"
+      - "/scoty_MP_textures.dat"
+      - "/scoty_MP_tex_Ave_Maxis.dat"
+      - "/scoty_MP_tex_Rd_Maxis.dat"
+    withConditions:
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "maxis-light" }
+        include:
+          - "/scoty_maxis_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "maxis-medium" }
+        include:
+          - "/scoty_maxis_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "maxis-dark" }
+        include:
+          - "/scoty_maxis_D_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "shk-light" }
+        include:
+          - "/scoty_SHK_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "shk-medium" }
+        include:
+          - "/scoty_SHK_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "goudron-light" }
+        include:
+          - "/scoty_goudron_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "goudron-medium" }
+        include:
+          - "/scoty_goudron_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "goudron-dark" }
+        include:
+          - "/scoty_goudron_D_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "btm3-light" }
+        include:
+          - "/scoty_BTM3_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "btm3-medium" }
+        include:
+          - "/scoty_BTM3_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "btm3-dark" }
+        include:
+          - "/scoty_BTM3_D_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "asphalt-light" }
+        include:
+          - "/scoty_asphalt_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "asphalt-medium" }
+        include:
+          - "/scoty_asphalt_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "asphalt-dark" }
+        include:
+          - "/scoty_asphalt_D_tex.dat"
+
+      - ifVariant: { hugues-aroux:mp-textures:street-texture: "maxis" }
+        include:
+          - "/scoty_MP_tex_Str_Maxis.dat"
+      - ifVariant: { hugues-aroux:mp-textures:street-texture: "tsr" }
+        include:
+          - "/scoty_MP_tex_Str_TSR.dat"
+      - ifVariant: { hugues-aroux:mp-textures:street-texture: "wws" }
+        include:
+          - "/scoty_MP_tex_Str_WWS.dat"
+
 variantInfo:
-- variantId: "hugues-aroux:modular-parking:base-texture"
+- variantId: "hugues-aroux:mp-textures:base-texture"
   description: Customize the parking lot base texture
   values:
   - value: "maxis-light"
@@ -139,43 +128,8 @@ variantInfo:
   - value: "asphalt-dark"
     description: Dark asphalt texture
 
-
-
----
-group: hugues-aroux
-name: mp-street-textures
-version: "2.1.0"
-subfolder: 100-props-textures
-info:
-  summary: Street textures for `pkg=hugues-aroux:modular-parking`
-  author: hugues aroux
-  website: https://community.simtropolis.com/files/file/33635-scoty-mp-textures/
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2020_06/img_tech_diff.png.c69f8535532ff5fe001c7b4ea9b9f6f7.png
-variants:
-- variant: { hugues-aroux:modular-parking:street-texture: "maxis" }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    exclude:
-    - "/SMP_base_texture_CHOOSE_ONE/"
-    - "/scoty_MP_tex_Str_TSR.dat"
-    - "/scoty_MP_tex_Str_WWS.dat"
-- variant: { hugues-aroux:modular-parking:street-texture: "tsr" }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    exclude:
-    - "/SMP_base_texture_CHOOSE_ONE/"
-    - "/scoty_MP_tex_Str_Maxis.dat"
-    - "/scoty_MP_tex_Str_WWS.dat"
-- variant: { hugues-aroux:modular-parking:street-texture: "wws" }
-  assets:
-  - assetId: hugues-aroux-scoty-mp-textures
-    exclude:
-    - "/SMP_base_texture_CHOOSE_ONE/"
-    - "/scoty_MP_tex_Str_Maxis.dat"
-    - "/scoty_MP_tex_Str_TSR.dat"
 variantInfo:
-- variantId: "hugues-aroux:modular-parking:street-texture"
+- variantId: "hugues-aroux:mp-textures:street-texture"
   description: Update the appearance of the street connection pieces if you use a street override mod
   values:
   - value: "maxis"

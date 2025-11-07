@@ -22,23 +22,23 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/montage_clone_vu.jpg.0fc84cf07edd5ca0488cf8f49121aa1e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/montage_r_team.jpg.2b05ea956e4f98fee18d8d201ca05c7c.jpg
 variants:
-- variant: { hugues-aroux:rezot-ze-zots:style: "vu-clones" }
+- variant: { hugues-aroux:advisors-team-reskin:style: "vu-clones" }
   assets:
   - assetId: hugues-aroux-advisors-team-reskin
     include:
     - "/scoty_advisors_vu_team/"
-- variant: { hugues-aroux:rezot-ze-zots:style: "robots" }
+- variant: { hugues-aroux:advisors-team-reskin:style: "robots" }
   assets:
   - assetId: hugues-aroux-advisors-team-reskin
     include:
     - "/scoty_advisors_R_team/"
-- variant: { hugues-aroux:rezot-ze-zots:style: "arthur" }
+- variant: { hugues-aroux:advisors-team-reskin:style: "arthur" }
   assets:
   - assetId: hugues-aroux-advisors-team-reskin
     include:
     - "/scoty_advisors_art_team/"
 variantInfo:
-- variantId: "hugues-aroux:rezot-ze-zots:style"
+- variantId: "hugues-aroux:advisors-team-reskin:style"
   description: Choose the desired zot style
   values:
   - value: "vu-clones"

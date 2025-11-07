@@ -126,6 +126,15 @@ variants:
 variantInfo:
 - variantId: "hugues-aroux:brwt:style"
   description: Choose the appearance of a single built rail way (brwt) tile
+  values:
+  - value: "01"
+    description: Use a NAM RRW-style four way crossing texture
+  - value: "02"
+    description: Use a slightly darker NAM RRW-style four way crossing texture
+  - value: "03"
+    description: Use a NAM RRW-style straight double track texture
+  - value: "04"
+    description: Use a NAM RRW-style straight single track texture
 
 ---
 assetId: hugues-aroux-built-road-tile-and-built-railway-tile
