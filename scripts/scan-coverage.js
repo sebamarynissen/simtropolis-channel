@@ -14,12 +14,138 @@ import { buildIndex } from './manual-add.js';
 // Categories to exclude (Tools, Maps, Region)
 const EXCLUDED_CATEGORIES = [115, 116, 117];
 
+// ============================================================================
+// HELPER FUNCTIONS
+// ============================================================================
+
 /**
  * Sleep for a specified number of milliseconds
  */
 function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+/**
+ * Escape special characters in text for Markdown tables
+ * Escapes: | [ ] ( )
+ */
+function escapeMarkdown(text) {
+	return text
+		.replace(/\|/g, '\\|')
+		.replace(/\[/g, '\\[')
+		.replace(/\]/g, '\\]')
+		.replace(/\(/g, '\\(')
+		.replace(/\)/g, '\\)');
+}
+
+/**
+ * Generate GitHub-style anchor from heading text
+ * Example: "memo (100 packages)" -> "memo-100-packages"
+ */
+function generateAnchor(heading) {
+	return heading
+		.toLowerCase()
+		.replace(/\s+/g, '-')
+		.replace(/[^a-z0-9-]/g, '');
+}
+
+/**
+ * Sort package-related data by a property in descending order
+ * @param {Object} obj - Object with entries to sort (e.g., stats.byAuthor)
+ * @param {string} property - Property name to sort by (e.g., 'missingCount')
+ * @returns {Array} Sorted array of [key, value] entries
+ */
+function sortPackagesByProperty(obj, property) {
+	return Object.entries(obj)
+		.sort(([, a], [, b]) => b[property] - a[property]);
+}
+
+/**
+ * Group packages by a property or key function
+ * @param {Array} packages - Array of package objects
+ * @param {string|Function} keyGetter - Property name or function to get grouping key
+ * @returns {Object} Object with grouped packages
+ */
+function groupPackagesBy(packages, keyGetter) {
+	const grouped = {};
+
+	for (const pkg of packages) {
+		const key = typeof keyGetter === 'function'
+			? keyGetter(pkg)
+			: pkg[keyGetter];
+
+		const groupKey = key || 'Unknown';
+
+		if (!grouped[groupKey]) {
+			grouped[groupKey] = [];
+		}
+		grouped[groupKey].push(pkg);
+	}
+
+	return grouped;
+}
+
+/**
+ * Generate STEX profile URL for an author
+ * @param {number} authorId - Author's STEX ID
+ * @param {string} authorName - Author's name
+ * @returns {string} STEX profile URL
+ */
+function generateProfileUrl(authorId, authorName) {
+	return `https://community.simtropolis.com/profile/${authorId}-${encodeURIComponent(authorName)}/content/?type=downloads_file`;
+}
+
+/**
+ * Generate anchor link to author detail section
+ * @param {string} author - Author name
+ * @param {number} missingCount - Number of missing packages
+ * @returns {string} Markdown anchor link
+ */
+function generateDetailAnchor(author, missingCount) {
+	const detailHeading = `${author} (${missingCount} packages missing)`;
+	return `#${generateAnchor(detailHeading)}`;
+}
+
+/**
+ * Calculate overall statistics for the coverage report
+ * @param {Object} stats - Statistics object from generateStats()
+ * @param {number} simtropolisCount - Count from Simtropolis channel
+ * @param {number} mainChannelCount - Count from main channel
+ * @returns {Object} Calculated statistics
+ */
+function calculateOverallStats(stats, simtropolisCount, mainChannelCount) {
+	const totalFiles = Object.values(stats.byAuthor).reduce((sum, data) => sum + data.totalFiles, 0);
+	const packagesInChannels = totalFiles - stats.total;
+	const overallCoverage = (packagesInChannels / totalFiles * 100).toFixed(1);
+	const totalAuthors = Object.keys(stats.byAuthor).length;
+	const authorsWithMissing = Object.values(stats.byAuthor).filter(data => data.missingCount > 0).length;
+	const authorsWithFullCoverage = totalAuthors - authorsWithMissing;
+	const authorCoverage = (authorsWithFullCoverage / totalAuthors * 100).toFixed(1);
+
+	return {
+		totalFiles,
+		packagesInChannels,
+		overallCoverage,
+		totalAuthors,
+		authorsWithMissing,
+		authorsWithFullCoverage,
+		authorCoverage,
+	};
+}
+
+/**
+ * Calculate coverage percentage
+ * @param {number} missing - Number of missing packages
+ * @param {number} total - Total number of packages
+ * @returns {string} Coverage percentage with 1 decimal place
+ */
+function calculateCoveragePercent(missing, total) {
+	return ((total - missing) / total * 100).toFixed(1);
+}
+
+// ============================================================================
+// DATA PROCESSING
+// ============================================================================
 
 /**
  * Fetches all files from STEX API with pagination
@@ -209,101 +335,100 @@ function generateStats(missing, stexFiles) {
 	return stats;
 }
 
-/**
- * Escape special characters in text for Markdown tables
- * Escapes: | [ ] ( )
- */
-function escapeMarkdown(text) {
-	return text
-		.replace(/\|/g, '\\|')
-		.replace(/\[/g, '\\[')
-		.replace(/\]/g, '\\]')
-		.replace(/\(/g, '\\(')
-		.replace(/\)/g, '\\)');
-}
+// ============================================================================
+// REPORT GENERATION & EXECUTION
+// ============================================================================
 
 /**
- * Generate GitHub-style anchor from heading text
- * Example: "memo (100 packages)" -> "memo-100-packages"
+ * Generate summary section with overall statistics
+ * @param {Object} stats - Statistics object
+ * @param {number} simtropolisCount - Simtropolis channel count
+ * @param {number} mainChannelCount - Main channel count
+ * @returns {string} Markdown summary section
  */
-function generateAnchor(heading) {
-	return heading
-		.toLowerCase()
-		.replace(/\s+/g, '-')
-		.replace(/[^a-z0-9-]/g, '');
-}
+function generateSummarySection(stats, simtropolisCount, mainChannelCount) {
+	const overallStats = calculateOverallStats(stats, simtropolisCount, mainChannelCount);
 
-/**
- * Outputs results to Markdown file
- */
-function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount) {
-	const mdPath = path.join(outputDir, 'coverage.md');
-
-	let md = '# STEX Coverage Report\n\n';
-	md += `Generated: ${new Date().toISOString()}\n\n`;
-
-	// Overall stats
-	md += '## Summary\n\n';
-
-	// Calculate totals
-	const totalFiles = Object.values(stats.byAuthor).reduce((sum, data) => sum + data.totalFiles, 0);
-	const packagesInChannels = totalFiles - stats.total;
-	const overallCoverage = (packagesInChannels / totalFiles * 100).toFixed(1);
-	const totalAuthors = Object.keys(stats.byAuthor).length;
-	const authorsWithMissing = Object.values(stats.byAuthor).filter(data => data.missingCount > 0).length;
-	const authorsWithFullCoverage = totalAuthors - authorsWithMissing;
-	const authorCoverage = (authorsWithFullCoverage / totalAuthors * 100).toFixed(1);
-
-	md += `- **STEX files analyzed**: ${totalFiles}\n`;
-	md += `- **Covered packages**: ${packagesInChannels}\n`;
+	let md = '## Summary\n\n';
+	md += `- **STEX files analyzed**: ${overallStats.totalFiles}\n`;
+	md += `- **Covered packages**: ${overallStats.packagesInChannels}\n`;
 	md += `  - **Simtropolis**: ${simtropolisCount}\n`;
 	md += `  - **Main**: ${mainChannelCount}\n`;
 	md += `- **Missing packages**: ${stats.total}\n`;
-	md += `- **Overall coverage**: ${overallCoverage}%\n`;
-	md += `- **Total authors**: ${totalAuthors}\n`;
-	md += `- **Author coverage**: ${authorCoverage}% (${authorsWithFullCoverage} of ${totalAuthors} authors with 100% coverage)\n`;
+	md += `- **Overall coverage**: ${overallStats.overallCoverage}%\n`;
+	md += `- **Total authors**: ${overallStats.totalAuthors}\n`;
+	md += `- **Author coverage**: ${overallStats.authorCoverage}% (${overallStats.authorsWithFullCoverage} of ${overallStats.totalAuthors} authors with 100% coverage)\n`;
 	md += '\n';
 
-	// Table of contents
-	md += '## Table of Contents\n\n';
+	return md;
+}
+
+/**
+ * Generate table of contents with navigation links
+ * @returns {string} Markdown table of contents
+ */
+function generateTableOfContents() {
+	let md = '## Table of Contents\n\n';
 	md += `- [Top Authors with Missing Packages](#${generateAnchor('Top Authors with Missing Packages')})\n`;
 	md += `- [Package Summary by Category](#${generateAnchor('Package Summary by Category')})\n`;
 	md += `- [Package Summary by Author](#${generateAnchor('Package Summary by Author')})\n`;
 	md += `- [Missing Package Details](#${generateAnchor('Missing Package Details')})\n`;
 	md += '\n';
 
-	// Top authors
-	md += '## Top Authors with Missing Packages\n\n';
-	const sortedAuthors = Object.entries(stats.byAuthor)
-		.sort(([, a], [, b]) => b.missingCount - a.missingCount)
-		.slice(0, 20);
+	return md;
+}
 
+/**
+ * Generate table of top authors with missing packages
+ * @param {Object} stats - Statistics object
+ * @returns {string} Markdown table
+ */
+function generateTopAuthorsTable(stats) {
+	const topAuthors = sortPackagesByProperty(stats.byAuthor, 'missingCount').slice(0, 20);
+
+	let md = '## Top Authors with Missing Packages\n\n';
 	md += '| Author | Missing | Total | Coverage | Details |\n';
 	md += '|--------|---------|-------|----------|----------|\n';
-	for (const [author, data] of sortedAuthors) {
-		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
-		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
-		const detailHeading = `${author} (${data.missingCount} packages missing)`;
-		const detailAnchor = `#${generateAnchor(detailHeading)}`;
+
+	for (const [author, data] of topAuthors) {
+		const coveragePercent = calculateCoveragePercent(data.missingCount, data.totalFiles);
+		const profileUrl = generateProfileUrl(data.authorId, author);
+		const detailAnchor = generateDetailAnchor(author, data.missingCount);
+
 		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
-	// Category breakdown
-	md += '## Package Summary by Category\n\n';
-	const sortedCategories = Object.entries(stats.byCategory)
-		.sort(([, a], [, b]) => b.missingCount - a.missingCount);
+	return md;
+}
 
+/**
+ * Generate category summary table
+ * @param {Object} stats - Statistics object
+ * @returns {string} Markdown table
+ */
+function generateCategoryTable(stats) {
+	const sortedCategories = sortPackagesByProperty(stats.byCategory, 'missingCount');
+
+	let md = '## Package Summary by Category\n\n';
 	md += '| Category | Missing | Total | Coverage |\n';
 	md += '|----------|---------|-------|----------|\n';
+
 	for (const [category, data] of sortedCategories) {
-		const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100).toFixed(1);
+		const coveragePercent = calculateCoveragePercent(data.missingCount, data.totalFiles);
 		md += `| ${category} | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent}% |\n`;
 	}
 	md += '\n';
 
-	// All authors sorted by missing count
-	md += '## Package Summary by Author\n\n';
+	return md;
+}
+
+/**
+ * Generate complete author list table
+ * @param {Object} stats - Statistics object
+ * @returns {string} Markdown table
+ */
+function generateAllAuthorsTable(stats) {
 	const allAuthors = Object.entries(stats.byAuthor)
 		.map(([author, data]) => {
 			const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100);
@@ -312,28 +437,36 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 		// Sort by missing count descending (most missing first)
 		.sort(([, a], [, b]) => b.missingCount - a.missingCount);
 
+	let md = '## Package Summary by Author\n\n';
 	md += '| Author | Missing | Total | Coverage | Details |\n';
 	md += '|--------|---------|-------|----------|----------|\n';
+
 	for (const [author, data, coveragePercent] of allAuthors) {
-		const profileUrl = `https://community.simtropolis.com/profile/${data.authorId}-${encodeURIComponent(author)}/content/?type=downloads_file`;
-		const detailHeading = `${author} (${data.missingCount} packages missing)`;
-		const detailAnchor = `#${generateAnchor(detailHeading)}`;
+		const profileUrl = generateProfileUrl(data.authorId, author);
+		const detailAnchor = generateDetailAnchor(author, data.missingCount);
+
 		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.missingCount} | ${data.totalFiles} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
-	// Packages grouped by author
-	md += '## Missing Package Details\n\n';
-	const byAuthor = {};
-	for (const pkg of missing) {
-		const authorName = pkg.authorName || 'Unknown';
-		if (!byAuthor[authorName]) {
-			byAuthor[authorName] = [];
-		}
-		byAuthor[authorName].push(pkg);
-	}
+	return md;
+}
 
-	for (const [author, packages] of Object.entries(byAuthor).sort(([, a], [, b]) => b.length - a.length)) {
+/**
+ * Generate missing package details grouped by author
+ * @param {Array} missing - Array of missing package objects
+ * @returns {string} Markdown package listings
+ */
+function generatePackageDetails(missing) {
+	const byAuthor = groupPackagesBy(missing, 'authorName');
+
+	let md = '## Missing Package Details\n\n';
+
+	// Sort authors by number of packages (descending)
+	const sortedAuthors = Object.entries(byAuthor)
+		.sort(([, a], [, b]) => b.length - a.length);
+
+	for (const [author, packages] of sortedAuthors) {
 		md += `### ${author} (${packages.length} packages missing)\n\n`;
 		for (const pkg of packages) {
 			const title = pkg.title || 'Unknown';
@@ -344,8 +477,15 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 		md += '\n';
 	}
 
-	// Add back-to-top button
-	md += '<style>\n';
+	return md;
+}
+
+/**
+ * Generate back-to-top button styling and HTML
+ * @returns {string} CSS and HTML for back-to-top button
+ */
+function getBackToTopStyles() {
+	let md = '<style>\n';
 	md += '  .back-to-top {\n';
 	md += '    position: fixed;\n';
 	md += '    bottom: 20px;\n';
@@ -365,11 +505,17 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 	md += '</style>\n\n';
 	md += '<a href="#" class="back-to-top">↑</a>\n';
 
-	fs.writeFileSync(mdPath, md);
+	return md;
+}
 
-	// Also generate HTML version
-	const htmlPath = path.join(outputDir, 'coverage.html');
-	const htmlContent = marked.parse(md);
+/**
+ * Convert markdown content to HTML with styling
+ * @param {string} markdownContent - Markdown content to convert
+ * @returns {string} Complete HTML document
+ */
+function outputToHTML(markdownContent) {
+	const htmlContent = marked.parse(markdownContent);
+
 	const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -434,6 +580,32 @@ ${htmlContent}
 </body>
 </html>`;
 
+	return html;
+}
+
+/**
+ * Outputs results to Markdown file and generates HTML
+ */
+function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount) {
+	const mdPath = path.join(outputDir, 'coverage.md');
+
+	// Build markdown report from sections
+	let md = '# STEX Coverage Report\n\n';
+	md += `Generated: ${new Date().toISOString()}\n\n`;
+	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
+	md += generateTableOfContents();
+	md += generateTopAuthorsTable(stats);
+	md += generateCategoryTable(stats);
+	md += generateAllAuthorsTable(stats);
+	md += generatePackageDetails(missing);
+	md += getBackToTopStyles();
+
+	// Write markdown file
+	fs.writeFileSync(mdPath, md);
+
+	// Generate and write HTML file
+	const htmlPath = path.join(outputDir, 'coverage.html');
+	const html = outputToHTML(md);
 	fs.writeFileSync(htmlPath, html);
 
 	return mdPath;
