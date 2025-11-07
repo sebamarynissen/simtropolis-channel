@@ -30,16 +30,45 @@ function sleep(ms) {
 }
 
 /**
- * Escape special characters in text for Markdown tables
- * Escapes: | [ ] ( )
+ * Escape special characters in text for Markdown
+ * Escapes: \ ` * _ { } [ ] ( ) # + - . ! | < >
  */
 function escapeMarkdown(text) {
 	return text
-		.replace(/\|/g, '\\|')
+		// Backslash must be first
+		.replace(/\\/g, '\\\\')
+		// Code
+		.replace(/`/g, '\\`')
+		// Bold/italic
+		.replace(/\*/g, '\\*')
+		// Italic/bold
+		.replace(/_/g, '\\_')
+		// Strikethrough
+		.replace(/~/g, '\\~')
+		// Curly braces
+		.replace(/\{/g, '\\{')
+		.replace(/\}/g, '\\}')
+		// Links
 		.replace(/\[/g, '\\[')
 		.replace(/\]/g, '\\]')
 		.replace(/\(/g, '\\(')
-		.replace(/\)/g, '\\)');
+		.replace(/\)/g, '\\)')
+		// Headings
+		.replace(/#/g, '\\#')
+		// Lists
+		.replace(/\+/g, '\\+')
+		// Lists/HR
+		.replace(/-/g, '\\-')
+		// Ordered lists
+		.replace(/\./g, '\\.')
+		// Images
+		.replace(/!/g, '\\!')
+		// Tables
+		.replace(/\|/g, '\\|')
+		// HTML/autolinks
+		.replace(/</g, '\\<')
+		// HTML/blockquotes
+		.replace(/>/g, '\\>');
 }
 
 /**
@@ -399,15 +428,15 @@ function generateTopAuthorsTable(stats) {
 	const topAuthors = sortPackagesByProperty(stats.byAuthor, 'missingCount').slice(0, 20);
 
 	let md = '## Top Authors with Missing Packages\n\n';
-	md += '| Author | Total | Missing | Coverage | Package Details |\n';
-	md += '|--------|-------|---------|----------|-----------------|\n';
+	md += '| Author | Total Packages | Missing Packages | Coverage | Package Details |\n';
+	md += '|--------|----------------|------------------|----------|-----------------|\n';
 
 	for (const [author, data] of topAuthors) {
 		const coveragePercent = calculateCoveragePercent(data.missingCount, data.totalFiles);
 		const profileUrl = generateProfileUrl(data.authorId, author);
 		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent}% | [View details](${detailAnchor}) |\n`;
+		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent} | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -424,12 +453,12 @@ function generateCategoryTable(stats) {
 		.sort(([categoryA], [categoryB]) => categoryA.localeCompare(categoryB));
 
 	let md = '## Package Summary by Category\n\n';
-	md += '| Category | Total | Missing | Coverage |\n';
-	md += '|----------|-------|---------|----------|\n';
+	md += '| Category | Total Packages | Missing Packages | Coverage |\n';
+	md += '|----------|----------------|------------------|----------|\n';
 
 	for (const [category, data] of sortedCategories) {
 		const coveragePercent = calculateCoveragePercent(data.missingCount, data.totalFiles);
-		md += `| ${category} | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent}% |\n`;
+		md += `| ${category} | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent} |\n`;
 	}
 	md += '\n';
 
@@ -451,14 +480,14 @@ function generateAllAuthorsTable(stats) {
 		.sort(([authorA], [authorB]) => authorA.localeCompare(authorB));
 
 	let md = '## Package Summary by Author\n\n';
-	md += '| Author | Total | Missing | Coverage | Package Details |\n';
-	md += '|--------|-------|---------|----------|-----------------|\n';
+	md += '| Author | Total Packages | Missing Packages | Coverage | Package Details |\n';
+	md += '|--------|----------------|------------------|----------|-----------------|\n';
 
 	for (const [author, data, coveragePercent] of allAuthors) {
 		const profileUrl = generateProfileUrl(data.authorId, author);
 		const detailAnchor = generateDetailAnchor(author, data.missingCount, data.totalFiles);
 
-		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent.toFixed(1)}% | [View details](${detailAnchor}) |\n`;
+		md += `| [${escapeMarkdown(author)} ↗](<${profileUrl}>) | ${data.totalFiles} | ${data.missingCount} | ${coveragePercent.toFixed(1)} | [View details](${detailAnchor}) |\n`;
 	}
 	md += '\n';
 
@@ -542,7 +571,7 @@ function generatePackageDetails(missing, stexFiles, index) {
 
 	for (const [author, { covered, missing: missingPkgs }] of sortedAuthors) {
 		const totalPkgs = covered.length + missingPkgs.length;
-		html += `### ${author} (${missingPkgs.length} of ${totalPkgs} packages missing)\n\n`;
+		html += `### ${escapeMarkdown(author)} (${missingPkgs.length} of ${totalPkgs} packages missing)\n\n`;
 		html += '<ul class="package-list">\n';
 
 		// Show covered packages first
@@ -624,6 +653,17 @@ function getCustomStyles() {
 			--pico-form-element-spacing-vertical: 0.35rem;
 			--pico-form-element-spacing-horizontal: 0.75rem;
 			--pico-font-size: 1rem;
+		}
+		/* reset table width */
+		:where(table) {
+			width: auto;
+		}
+		/* override link underlines */
+		a:not([role=button]):not(:hover), [role=link]:not(:hover) {
+			text-decoration: none;
+		}
+		:where(a:not([role=button])), [role=link] {
+			text-underline-offset: 0.25em;
 		}
 
 		/* Table striping (from PicoCSS, adapted for all tables) */
@@ -713,12 +753,21 @@ function getCustomStyles() {
 
 		/* Sortable table styles */
 
-		.sortable thead th {
+		.sortable thead {
 			position: sticky;
 			top: 0;
 			z-index: 1;
+			background-color: var(--pico-background-color);
 		}
-
+		.sortable thead::after {
+			content: "";
+			position: absolute;
+			background-color: var(--pico-table-border-color);
+			width: 100%;
+			height: 0.1875rem;
+			bottom: 0;
+		}
+		/* add hover styling to table headings */
 		.sortable thead th:hover {
 			background-color: var(--pico-table-row-stripped-background-color);
 		}
@@ -751,6 +800,11 @@ function getCustomStyles() {
 		.sortable thead th:not(.no-sort)[aria-sort=ascending]::after {
 			color: inherit;
 			content: "↑";
+		}
+
+		/* sortablejs can't sort percentage signs, so put it in with css */
+		.sortable td:nth-child(4)::after {
+			content: "%"
 		}
 	`;
 }
