@@ -523,71 +523,71 @@ function getBackToTopStyles() {
 function outputToHTML(markdownContent) {
 	const htmlContent = marked.parse(markdownContent);
 
-	const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>STEX Coverage Report</title>
-	<style>
-		body {
-			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-			line-height: 1.6;
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 20px;
-			color: #333;
-		}
-		table {
-			border-collapse: collapse;
-			width: 100%;
-			margin: 20px 0;
-		}
-		th, td {
-			border: 1px solid #ddd;
-			padding: 8px 12px;
-			text-align: left;
-		}
-		th {
-			background-color: #f6f8fa;
-			font-weight: 600;
-		}
-		tr:hover {
-			background-color: #f6f8fa;
-		}
-		a {
-			color: #0969da;
-			text-decoration: none;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
-		h1, h2, h3 {
-			margin-top: 24px;
-			margin-bottom: 16px;
-		}
-		h1 {
-			border-bottom: 1px solid #eaecef;
-			padding-bottom: 10px;
-		}
-		h2 {
-			border-bottom: 1px solid #eaecef;
-			padding-bottom: 8px;
-		}
-		code {
-			background-color: #f6f8fa;
-			padding: 2px 6px;
-			border-radius: 3px;
-			font-family: ui-monospace, monospace;
-		}
-	</style>
-</head>
-<body>
-${htmlContent}
-</body>
-</html>`;
-
-	return html;
+	return dedent`\
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>STEX Coverage Report</title>
+			<style>
+				body {
+					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+					line-height: 1.6;
+					max-width: 1200px;
+					margin: 0 auto;
+					padding: 20px;
+					color: #333;
+				}
+				table {
+					border-collapse: collapse;
+					width: 100%;
+					margin: 20px 0;
+				}
+				th, td {
+					border: 1px solid #ddd;
+					padding: 8px 12px;
+					text-align: left;
+				}
+				th {
+					background-color: #f6f8fa;
+					font-weight: 600;
+				}
+				tr:hover {
+					background-color: #f6f8fa;
+				}
+				a {
+					color: #0969da;
+					text-decoration: none;
+				}
+				a:hover {
+					text-decoration: underline;
+				}
+				h1, h2, h3 {
+					margin-top: 24px;
+					margin-bottom: 16px;
+				}
+				h1 {
+					border-bottom: 1px solid #eaecef;
+					padding-bottom: 10px;
+				}
+				h2 {
+					border-bottom: 1px solid #eaecef;
+					padding-bottom: 8px;
+				}
+				code {
+					background-color: #f6f8fa;
+					padding: 2px 6px;
+					border-radius: 3px;
+					font-family: ui-monospace, monospace;
+				}
+			</style>
+		</head>
+		<body>
+		${htmlContent}
+		</body>
+		</html>
+	`;
 }
 
 /**
