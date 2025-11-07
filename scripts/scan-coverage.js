@@ -486,7 +486,7 @@ function generateCoverageGridSection(stats) {
 	}).join('\n    ');
 
 	return dedent`\
-		## Coverage Grid
+		## Coverage
 
 		Each square represents an author. Hover for details. Color intensity indicates coverage percentage.
 
@@ -670,6 +670,39 @@ function getCustomStyles() {
 			text-align: center;
 			line-height: 16px;
 		}
+
+		/* Heading anchor links with anchorjs font */
+		@font-face {
+			font-family: "anchorjs-icons";
+			src: url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype");
+		}
+
+		.anchor-link {
+			text-decoration: none;
+			opacity: 0;
+			transition: opacity 0.2s ease;
+			padding-left: 0.375em;
+			font-size: 1em;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		.anchor-link::before {
+			content: "\e9cb";
+			font-family: "anchorjs-icons";
+			font-style: normal;
+			font-variant: normal;
+			font-weight: normal;
+			line-height: 1;
+		}
+
+		h1:hover .anchor-link,
+		h2:hover .anchor-link,
+		h3:hover .anchor-link,
+		h4:hover .anchor-link,
+		h5:hover .anchor-link,
+		h6:hover .anchor-link {
+			opacity: 1;
+		}
 	`;
 }
 
@@ -708,7 +741,15 @@ function getBackToTopStyles() {
  * @returns {string} Complete HTML document
  */
 function outputToHTML(markdownContent) {
-	const htmlContent = marked.parse(markdownContent);
+	// Configure custom renderer for headings with anchor links
+	const renderer = new marked.Renderer();
+	renderer.heading = ({ text, depth }) => {
+		const id = generateAnchor(text);
+		return `<h${depth} id="${id}">${text}<a class="anchor-link" href="#${id}"></a></h${depth}>`;
+	};
+
+	// Parse markdown with custom renderer
+	const htmlContent = marked.parse(markdownContent, { renderer });
 
 	return dedent`\
 		<!DOCTYPE html>
