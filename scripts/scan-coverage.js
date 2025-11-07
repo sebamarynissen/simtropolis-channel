@@ -161,6 +161,24 @@ function getCoverageLevel(coveragePercent) {
 	return Math.ceil(coveragePercent / 10);
 }
 
+/**
+ * Format coverage percentage with smart rounding
+ * @param {number} coveragePercent - Coverage percentage (0-100)
+ * @returns {string} Formatted percentage string
+ */
+function formatCoveragePercent(coveragePercent) {
+	// Show integer for exactly 0% or 100%
+	if (coveragePercent === 0 || coveragePercent === 100) {
+		return `${Math.round(coveragePercent)}%`;
+	}
+	// Show decimal for very low (<=1%) or very high (>=99%) coverage
+	if (coveragePercent <= 1 || coveragePercent >= 99) {
+		return `${coveragePercent.toFixed(1)}%`;
+	}
+	// Round to integer for everything else
+	return `${Math.round(coveragePercent)}%`;
+}
+
 // ============================================================================
 // DATA PROCESSING
 // ============================================================================
@@ -485,7 +503,9 @@ function generateCoverageGridSection(stats) {
 		const coveragePercent = parseFloat(calculateCoveragePercent(data.missingCount, data.totalFiles));
 		const level = getCoverageLevel(coveragePercent);
 		const detailAnchor = generateDetailAnchor(author, data.missingCount);
-		const tooltip = `${author} (${coveragePercent.toFixed(1)}% coverage)`;
+		const coveredPackages = data.totalFiles - data.missingCount;
+		const formattedPercent = formatCoveragePercent(coveragePercent);
+		const tooltip = `${author} (${coveredPackages}/${data.totalFiles} packages, ${formattedPercent} coverage)`;
 
 		return `<a href="${detailAnchor}" data-level="${level}" data-tooltip="${tooltip}"></a>`;
 	}).join('\n    ');
