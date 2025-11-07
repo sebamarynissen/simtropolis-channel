@@ -7,6 +7,10 @@ import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 import ora from 'ora';
 import { marked } from 'marked';
+import dedentLib from 'dedent';
+
+// Configure dedent with default options
+const dedent = dedentLib.withOptions({ trimWhitespace: false });
 
 // Import existing index building functionality
 import { buildIndex } from './manual-add.js';
@@ -349,18 +353,19 @@ function generateStats(missing, stexFiles) {
 function generateSummarySection(stats, simtropolisCount, mainChannelCount) {
 	const overallStats = calculateOverallStats(stats, simtropolisCount, mainChannelCount);
 
-	let md = '## Summary\n\n';
-	md += `- **STEX files analyzed**: ${overallStats.totalFiles}\n`;
-	md += `- **Covered packages**: ${overallStats.packagesInChannels}\n`;
-	md += `  - **Simtropolis**: ${simtropolisCount}\n`;
-	md += `  - **Main**: ${mainChannelCount}\n`;
-	md += `- **Missing packages**: ${stats.total}\n`;
-	md += `- **Overall coverage**: ${overallStats.overallCoverage}%\n`;
-	md += `- **Total authors**: ${overallStats.totalAuthors}\n`;
-	md += `- **Author coverage**: ${overallStats.authorCoverage}% (${overallStats.authorsWithFullCoverage} of ${overallStats.totalAuthors} authors with 100% coverage)\n`;
-	md += '\n';
+	return dedent`\
+		## Summary
 
-	return md;
+		- **STEX files analyzed**: ${overallStats.totalFiles}
+		- **Covered packages**: ${overallStats.packagesInChannels}
+		  - **Simtropolis**: ${simtropolisCount}
+		  - **Main**: ${mainChannelCount}
+		- **Missing packages**: ${stats.total}
+		- **Overall coverage**: ${overallStats.overallCoverage}%
+		- **Total authors**: ${overallStats.totalAuthors}
+		- **Author coverage**: ${overallStats.authorCoverage}% (${overallStats.authorsWithFullCoverage} of ${overallStats.totalAuthors} authors with 100% coverage)
+
+	`;
 }
 
 /**
@@ -368,14 +373,15 @@ function generateSummarySection(stats, simtropolisCount, mainChannelCount) {
  * @returns {string} Markdown table of contents
  */
 function generateTableOfContents() {
-	let md = '## Table of Contents\n\n';
-	md += `- [Top Authors with Missing Packages](#${generateAnchor('Top Authors with Missing Packages')})\n`;
-	md += `- [Package Summary by Category](#${generateAnchor('Package Summary by Category')})\n`;
-	md += `- [Package Summary by Author](#${generateAnchor('Package Summary by Author')})\n`;
-	md += `- [Missing Package Details](#${generateAnchor('Missing Package Details')})\n`;
-	md += '\n';
+	return dedent`\
+		## Table of Contents
 
-	return md;
+		- [Top Authors with Missing Packages](#${generateAnchor('Top Authors with Missing Packages')})
+		- [Package Summary by Category](#${generateAnchor('Package Summary by Category')})
+		- [Package Summary by Author](#${generateAnchor('Package Summary by Author')})
+		- [Missing Package Details](#${generateAnchor('Missing Package Details')})
+
+	`;
 }
 
 /**
@@ -485,27 +491,28 @@ function generatePackageDetails(missing) {
  * @returns {string} CSS and HTML for back-to-top button
  */
 function getBackToTopStyles() {
-	let md = '<style>\n';
-	md += '  .back-to-top {\n';
-	md += '    position: fixed;\n';
-	md += '    bottom: 20px;\n';
-	md += '    right: 20px;\n';
-	md += '    background-color: #0366d6;\n';
-	md += '    color: white;\n';
-	md += '    padding: 10px 15px;\n';
-	md += '    border-radius: 5px;\n';
-	md += '    text-decoration: none;\n';
-	md += '    font-weight: bold;\n';
-	md += '    box-shadow: 0 2px 5px rgba(0,0,0,0.2);\n';
-	md += '    z-index: 1000;\n';
-	md += '  }\n';
-	md += '  .back-to-top:hover {\n';
-	md += '    background-color: #0256c4;\n';
-	md += '  }\n';
-	md += '</style>\n\n';
-	md += '<a href="#" class="back-to-top">↑</a>\n';
+	return dedent`\
+		<style>
+		  .back-to-top {
+		    position: fixed;
+		    bottom: 20px;
+		    right: 20px;
+		    background-color: #0366d6;
+		    color: white;
+		    padding: 10px 15px;
+		    border-radius: 5px;
+		    text-decoration: none;
+		    font-weight: bold;
+		    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+		    z-index: 1000;
+		  }
+		  .back-to-top:hover {
+		    background-color: #0256c4;
+		  }
+		</style>
 
-	return md;
+		<a href="#" class="back-to-top">↑</a>
+	`;
 }
 
 /**
