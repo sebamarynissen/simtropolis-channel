@@ -65,31 +65,6 @@ function sortPackagesByProperty(obj, property) {
 }
 
 /**
- * Group packages by a property or key function
- * @param {Array} packages - Array of package objects
- * @param {string|Function} keyGetter - Property name or function to get grouping key
- * @returns {Object} Object with grouped packages
- */
-function groupPackagesBy(packages, keyGetter) {
-	const grouped = {};
-
-	for (const pkg of packages) {
-		const key = typeof keyGetter === 'function' ?
-			keyGetter(pkg) :
-			pkg[keyGetter];
-
-		const groupKey = key || 'Unknown';
-
-		if (!grouped[groupKey]) {
-			grouped[groupKey] = [];
-		}
-		grouped[groupKey].push(pkg);
-	}
-
-	return grouped;
-}
-
-/**
  * Generate STEX profile URL for an author
  * @param {number} authorId - Author's STEX ID
  * @param {string} authorName - Author's name
@@ -470,8 +445,8 @@ function generateAllAuthorsTable(stats) {
 			const coveragePercent = ((data.totalFiles - data.missingCount) / data.totalFiles * 100);
 			return [author, data, coveragePercent];
 		})
-		// Sort by missing count descending (most missing first)
-		.sort(([, a], [, b]) => b.missingCount - a.missingCount);
+		// Sort alphabetically by author name
+		.sort(([authorA], [authorB]) => authorA.localeCompare(authorB));
 
 	let md = '## Package Summary by Author\n\n';
 	md += '| Author | Missing | Total | Coverage | Details |\n';
@@ -523,38 +498,72 @@ function generateCoverageGridSection(stats) {
 }
 
 /**
- * Generate missing package details grouped by author
+ * Generate package details grouped by author (all packages, not just missing)
  * @param {Array} missing - Array of missing package objects
- * @returns {string} Markdown package listings
+ * @param {Array} stexFiles - All STEX files
+ * @param {Object} index - Package index from buildIndex()
+ * @returns {string} HTML package listings with checkboxes
  */
-function generatePackageDetails(missing) {
-	const byAuthor = groupPackagesBy(missing, 'authorName');
+function generatePackageDetails(missing, stexFiles, index) {
+	// Group all STEX files by author
+	const byAuthor = {};
 
-	let md = '## Missing Package Details\n\n';
-
-	// Sort authors by number of packages (descending)
-	const sortedAuthors = Object.entries(byAuthor)
-		.sort(([, a], [, b]) => b.length - a.length);
-
-	for (const [author, packages] of sortedAuthors) {
-		md += `### ${author} (${packages.length} packages missing)\n\n`;
-		for (const pkg of packages) {
-			const title = pkg.title || 'Unknown';
-			const url = pkg.stexUrl || '#';
-			const category = pkg.category || 'Unknown';
-			md += `- [${title} ↗](${url}) - ${category}\n`;
+	for (const file of stexFiles) {
+		const authorName = file.author || 'Unknown';
+		if (!byAuthor[authorName]) {
+			byAuthor[authorName] = {
+				covered: [],
+				missing: [],
+			};
 		}
-		md += '\n';
+
+		const fileId = file.id.toString();
+		const packageInfo = index.stex[fileId];
+		const packageData = {
+			title: file.title || 'Unknown',
+			url: file.fileURL || '#',
+			category: file.category || 'Unknown',
+		};
+
+		if (packageInfo) {
+			byAuthor[authorName].covered.push(packageData);
+		} else {
+			byAuthor[authorName].missing.push(packageData);
+		}
 	}
 
-	return md;
+	// Sort authors alphabetically
+	const sortedAuthors = Object.entries(byAuthor)
+		.sort(([authorA], [authorB]) => authorA.localeCompare(authorB));
+
+	let html = '## Package Details by Author\n\n';
+
+	for (const [author, { covered, missing: missingPkgs }] of sortedAuthors) {
+		const totalPkgs = covered.length + missingPkgs.length;
+		html += `### ${author} (${missingPkgs.length} of ${totalPkgs} packages missing)\n\n`;
+		html += '<ul class="package-list">\n';
+
+		// Show covered packages first
+		for (const pkg of covered) {
+			html += `<li class="covered"><a href="${pkg.url}">${pkg.title} ↗</a> - ${pkg.category}</li>\n`;
+		}
+
+		// Show missing packages
+		for (const pkg of missingPkgs) {
+			html += `<li class="missing"><a href="${pkg.url}">${pkg.title} ↗</a> - ${pkg.category}</li>\n`;
+		}
+
+		html += '</ul>\n\n';
+	}
+
+	return html;
 }
 
 /**
- * Generate coverage grid CSS styles
- * @returns {string} CSS for coverage grid and tooltips
+ * Generate custom CSS styles for the report
+ * @returns {string} CSS for coverage grid, checkboxes, and other custom styles
  */
-function getCoverageGridStyles() {
+function getCustomStyles() {
 	return dedent`\
 		/* Coverage Grid Styles */
 		#coverage-grid {
@@ -620,6 +629,47 @@ function getCoverageGridStyles() {
 		tbody tr:nth-child(odd) th {
 			background-color: var(--pico-table-row-stripped-background-color);
 		}
+
+		/* Package checklist styles */
+		.package-list {
+			list-style: none;
+			padding-left: 0;
+		}
+
+		.package-list li {
+			display: flex;
+			align-items: flex-start;
+			padding: 8px 0;
+			border-bottom: 1px solid #eee;
+		}
+
+		.package-list li:last-child {
+			border-bottom: none;
+		}
+
+		.package-list li::before {
+			content: "";
+			width: 20px;
+			height: 20px;
+			margin-right: 12px;
+			flex-shrink: 0;
+			border: 2px solid #ddd;
+			border-radius: 4px;
+			background: white;
+			display: inline-block;
+			margin-top: 2px;
+		}
+
+		.package-list li.covered::before {
+			content: "✓";
+			background-color: #4CAF50;
+			border-color: #4CAF50;
+			color: white;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 16px;
+		}
 	`;
 }
 
@@ -669,7 +719,7 @@ function outputToHTML(markdownContent) {
 			<title>STEX Coverage Report</title>
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css">
 			<style>
-			${getCoverageGridStyles()}
+			${getCustomStyles()}
 			</style>
 		</head>
 		<body>
@@ -684,7 +734,7 @@ function outputToHTML(markdownContent) {
 /**
  * Outputs results to Markdown file and generates HTML
  */
-function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount) {
+function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index) {
 	const mdPath = path.join(outputDir, 'coverage.md');
 
 	// Build markdown report from sections
@@ -696,7 +746,7 @@ function outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChann
 	md += generateTopAuthorsTable(stats);
 	md += generateCategoryTable(stats);
 	md += generateAllAuthorsTable(stats);
-	md += generatePackageDetails(missing);
+	md += generatePackageDetails(missing, stexFiles, index);
 	md += getBackToTopStyles();
 
 	// Write markdown file
@@ -769,7 +819,7 @@ async function run(argv) {
 	console.log();
 	const outputSpinner = ora('Generating reports...').start();
 
-	const mdPath = outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount);
+	const mdPath = outputToMarkdown(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index);
 	const htmlPath = mdPath.replace(/\.md$/, '.html');
 
 	// Copy markdown to docs for GitHub Pages
