@@ -1,0 +1,32 @@
+group: peg
+name: cdkm-marina-docks
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: A 4x wide lot adds a new lower floating dock section to your Marina.
+  description: |-
+    Now that you have your Marina just the way you want it... we're gonna screw it up by offering a new section you just gotta have. The Marina Docks section is just that... docks!  This 4x wide lot adds a new and different lower floating dock section to your Marina. so you can expand your Marina complex ever wider.
+
+    The lot also features a large Boardwalk plaza area that includes 2 randomly generated buildings on either side which, of course, offer local jobs. With each plop of the lot, 2 of 4 small buildings (a restroom, a gift shop and 2 bars) will appear on the plaza. The randomness of the buildings should allow the lot to be plopped numerous times without appearing too repeatitive.
+
+    The lot is Christmas Enabled... and offers a custom query featuring completely meaningless boater-related  stats. Its fully compatible with all CDKM lots. Poperties are similar to other CDKM lots with jobs but with the landmark & parks values reduced by half... and priced accordingly.  
+       
+    **\*\* This lot requires the  following dependencies**
+
+    PEG\-CDKM Marina  
+    PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19146-peg-cdkm-marina-docks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bf202e88f7fbd0823310fa4a2f139b8c-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bf202e88f7fbd0823310fa4a2f139b8c-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:cdk3-super-pak
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_Docks.dat"

@@ -1,0 +1,29 @@
+group: peg
+name: cdkm-dock-end
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: The perfect lot for those times when you feel you just can't go on anymore. It performs as advertised. It ends.
+  description: |-
+    The **CDKM Dock End** is the perfect lot for those times when you feel that you just can't go on anymore. Similar in all regards and aspects to the CDKM Dock Extension lots, the Dock End performs as advertised. It ends.  
+      
+    The Dock End lot aligns with the other Dock Extension lots and provides a little more visual variation to your extended docks. Unlike the other dock extenders, you can not plop other dock sections onto the end of it. It is decisively the end of the line.
+
+    The Dock End is a 3x3 ploppable water lot that plops fully in the water. The lot is modular and designed exclusively for use with the Dock Extension lots. Like the other dock extenders, its is pure eye-candy and cost nothing to plop or maintain.
+
+    **\*\* This lot requires the PEG CDKM Marina.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20865-peg-cdkm-dock-end/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1c67fd36274bee4641a93797ae0d4471-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1c67fd36274bee4641a93797ae0d4471-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_Dock-End.dat"
+
