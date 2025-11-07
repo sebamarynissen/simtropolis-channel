@@ -951,8 +951,8 @@ function generateReport(missing, stats, outputDir, simtropolisCount, mainChannel
 	let md = '';
 	md += '# STEX Coverage Report\n\n';
 	md += `Generated: ${new Date().toISOString()}\n\n`;
-	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
 	md += generateCoverageGridSection(stats);
+	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
 	md += generateTopAuthorsTable(stats);
 	md += generateCategoryTable(stats);
 	md += generateAllAuthorsTable(stats);
