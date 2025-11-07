@@ -32,6 +32,7 @@ function sleep(ms) {
 /**
  * Escape special characters in text for Markdown
  */
+// eslint-disable-next-line no-unused-vars
 function escapeMarkdown(text) {
 	return text
 		// Backslash must be first
@@ -190,7 +191,8 @@ function formatCoveragePercent(coveragePercent) {
 /**
  * Fetches all files from STEX API with pagination
  */
-async function fetchAllStexFiles(apiKey, endpoint, delayMs = 2000) {
+async function fetchAllStexFiles(apiKey, endpoint) {
+	const delayMs = 2000;
 	const allFiles = [];
 	let offset = 0;
 	const limit = 1000;
@@ -431,6 +433,7 @@ function generateNavbar() {
 				</li>
 		  </ul>
 		  <ul>
+		    <li><a href="#Summary">Summary</a></li>
 		    <li><a href="#${generateAnchor('Top Authors with Missing Packages')}">Top Authors</a></li>
 		    <li><a href="#${generateAnchor('Package Summary by Category')}">By Category</a></li>
 		    <li><a href="#${generateAnchor('Package Summary by Author')}">By Author</a></li>
@@ -975,7 +978,6 @@ async function run(argv) {
 		process.exit(1);
 	}
 
-	const delay = argv.delay ?? 2000;
 	const endpoint = 'https://community.simtropolis.com/stex/files-api.php';
 
 	console.log(styleText('bold', '📊 STEX Coverage Analysis\n'));
@@ -1000,7 +1002,7 @@ async function run(argv) {
 		const cacheDate = new Date(cached.cachedAt).toLocaleString();
 		spinner.succeed(`Loaded ${styleText('cyan', stexFiles.length.toString())} files from cache (cached: ${cacheDate})`);
 	} else {
-		stexFiles = await fetchAllStexFiles(apiKey, endpoint, delay);
+		stexFiles = await fetchAllStexFiles(apiKey, endpoint);
 
 		// Save to cache if requested
 		if (argv.cache) {
@@ -1064,13 +1066,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 	const { argv } = yargs(hideBin(process.argv))
 		.scriptName(scriptName)
 		.usage('Usage: $0 [options]')
-		.example('$0', 'Generate coverage report (Markdown and HTML)')
-		.option('delay', {
-			alias: 'd',
-			type: 'number',
-			description: 'Delay between API requests in milliseconds',
-			default: 2000,
-		})
+		.example('$0', 'Generate coverage report')
 		.option('cache', {
 			type: 'boolean',
 			description: 'Save API results to cache file for future use',
@@ -1082,7 +1078,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
 			default: false,
 		})
 		.version(false)
-		.group(['delay', 'cache', 'use-cache'], 'Options:')
+		.group(['cache', 'use-cache'], 'Options:')
 		.group(['help'], 'Info:')
 		.help();
 
