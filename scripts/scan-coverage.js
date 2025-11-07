@@ -31,7 +31,6 @@ function sleep(ms) {
 
 /**
  * Escape special characters in text for Markdown
- * Escapes: \ ` * _ { } [ ] ( ) # + - . ! | < >
  */
 function escapeMarkdown(text) {
 	return text
@@ -48,21 +47,13 @@ function escapeMarkdown(text) {
 		// Curly braces
 		.replace(/\{/g, '\\{')
 		.replace(/\}/g, '\\}')
-		// Links
+		// Brackets
 		.replace(/\[/g, '\\[')
 		.replace(/\]/g, '\\]')
 		.replace(/\(/g, '\\(')
 		.replace(/\)/g, '\\)')
 		// Headings
 		.replace(/#/g, '\\#')
-		// Lists
-		.replace(/\+/g, '\\+')
-		// Lists/HR
-		.replace(/-/g, '\\-')
-		// Ordered lists
-		.replace(/\./g, '\\.')
-		// Images
-		.replace(/!/g, '\\!')
 		// Tables
 		.replace(/\|/g, '\\|')
 		// HTML/autolinks
@@ -666,6 +657,11 @@ function getCustomStyles() {
 			text-underline-offset: 0.25em;
 		}
 
+		/* Add scroll margin to headings for anchor links */
+		h1, h2, h3, h4, h5, h6 {
+			scroll-margin-top: 1em;
+		}
+
 		/* Table striping (from PicoCSS, adapted for all tables) */
 		tbody tr:nth-child(odd) td,
 		tbody tr:nth-child(odd) th {
@@ -805,6 +801,10 @@ function getCustomStyles() {
 		/* sortablejs can't sort percentage signs, so put it in with css */
 		.sortable td:nth-child(4)::after {
 			content: "%"
+		}
+		.sortable td::after,
+		.sortable td::before {
+			vertical-align: baseline;
 		}
 	`;
 }
