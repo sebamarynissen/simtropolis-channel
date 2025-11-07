@@ -420,7 +420,8 @@ function generateTopAuthorsTable(stats) {
  * @returns {string} Markdown table
  */
 function generateCategoryTable(stats) {
-	const sortedCategories = sortPackagesByProperty(stats.byCategory, 'missingCount');
+	const sortedCategories = Object.entries(stats.byCategory)
+		.sort(([categoryA], [categoryB]) => categoryA.localeCompare(categoryB));
 
 	let md = '## Package Summary by Category\n\n';
 	md += '| Category | Total | Missing | Coverage |\n';
