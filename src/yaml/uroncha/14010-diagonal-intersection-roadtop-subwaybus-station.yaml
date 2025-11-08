@@ -29,6 +29,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0001/05bb619f69f6434ea102f1e88aa90592-Subway.jpg
 assets:
   - assetId: uroncha-diagonal-intersection-roadtop-subwaybus-station
+    include:
+      - "/MTRT-DiagonalV1.dat"
+      - "/MTRT-IntersectionV1.dat"
+      - "/MTRT-StraightV1.dat"
 dependencies:
   - uroncha:diagonal-intersection-roadtop-subwaybus-station-resources
 
