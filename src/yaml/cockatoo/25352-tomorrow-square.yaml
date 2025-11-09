@@ -65,25 +65,25 @@ variants:
       - assetId: cockatoo-tomorrow-square-cam
         exclude:
           - "/DN/"
-          - "/CO$$14_3x3_Tomorrow Square.SC4Lot"
+          - "/CO\\$\\$14_3x3_Tomorrow Square.SC4Lot"
   - variant: { CAM: "yes", nightmode: standard }
     assets:
       - assetId: cockatoo-tomorrow-square-cam
         exclude:
           - "/DN/"
-          - "/CO$$8_3x3_Tomorrow Square.SC4Lot"
+          - "/CO\\$\\$8_3x3_Tomorrow Square.SC4Lot"
   - variant: { CAM: "no", nightmode: dark }
     assets:
       - assetId: cockatoo-tomorrow-square-cam
         exclude:
           - "/MN/"
-          - "/CO$$14_3x3_Tomorrow Square.SC4Lot"
+          - "/CO\\$\\$14_3x3_Tomorrow Square.SC4Lot"
   - variant: { CAM: "yes", nightmode: dark }
     assets:
       - assetId: cockatoo-tomorrow-square-cam
         exclude:
           - "/MN/"
-          - "/CO$$8_3x3_Tomorrow Square.SC4Lot"
+          - "/CO\\$\\$8_3x3_Tomorrow Square.SC4Lot"
 
 ---
 assetId: cockatoo-tomorrow-square-cam

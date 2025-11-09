@@ -67,25 +67,25 @@ variants:
       - assetId: cockatoo-kowloon-terrace-cam
         exclude:
           - "/DN/"
-          - "/CS$$11_3x3_HK Kowloon Terrace.SC4Lot"
+          - "/CS\\$\\$11_3x3_HK Kowloon Terrace.SC4Lot"
   - variant: { CAM: "yes", nightmode: standard }
     assets:
       - assetId: cockatoo-kowloon-terrace-cam
         exclude:
           - "/DN/"
-          - "/CS$$6_3x3_HK Kowloon Terrace.SC4Lot"
+          - "/CS\\$\\$6_3x3_HK Kowloon Terrace.SC4Lot"
   - variant: { CAM: "no", nightmode: dark }
     assets:
       - assetId: cockatoo-kowloon-terrace-cam
         exclude:
           - "/MN/"
-          - "/CS$$11_3x3_HK Kowloon Terrace.SC4Lot"
+          - "/CS\\$\\$11_3x3_HK Kowloon Terrace.SC4Lot"
   - variant: { CAM: "yes", nightmode: dark }
     assets:
       - assetId: cockatoo-kowloon-terrace-cam
         exclude:
           - "/MN/"
-          - "/CS$$6_3x3_HK Kowloon Terrace.SC4Lot"
+          - "/CS\\$\\$6_3x3_HK Kowloon Terrace.SC4Lot"
 
 ---
 assetId: cockatoo-kowloon-terrace-cam

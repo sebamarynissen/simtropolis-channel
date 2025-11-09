@@ -1,6 +1,6 @@
 group: cockatoo
 name: aurora-plaza
-version: "1.0"
+version: "2.0"
 subfolder: 300-commercial
 info:
   summary: Aurora Plaza
@@ -17,11 +17,10 @@ info:
 
     In this download there are three versions included:
 
-    • Growable Stage 8 CO§§ providing 3355 medium wealth jobs.
-
-    • Plopable functional CO§§ providing 3355 medium wealth jobs.
-
-    • Plopable static landmark.
+    -   Growable Stage 8 CO§§ providing 3355 medium wealth jobs.
+    -   Plopable functional CO§§ providing 3355 medium wealth jobs.
+    -   ***Growable Stage 11 CO§§ providing 6818 medium wealth jobs. (CAM)***
+    -   Plopable static landmark.
 
     **The stats are as follows:**
 
@@ -35,39 +34,80 @@ info:
 
     **Installation:**
 
-    If you don’t want to see Kim Jong Il in your cities at night, extract Aurora Plaza-No Screen.SC4Model and your choices of any of the three versions above into your C: MyDoccuments/SimCity4/Plugins folder.
+    Copy the HKBAT folder into the Plugins folder.
 
-    If you value realism above all else, extract Aurora Plaza-Screen.SC4Model and your choices of any of the three versions above into your C: MyDoccuments/SimCity4/Plugins folder.
+    If you want to use the CAM version, you must also copy the CAM folder.
 
-    You can only use one at a time.
+    -   CO$$8\_4x4\_Aurora Plaza.SC4Lot  =  *Growable CO§§*
+    -   PLOP\_CO$$\_4x4\_Aurora Plaza.SC4Lot  =  *Plopable CO§§*
+    -   CO$$11\_4x4\_Aurora Plaza.SC4Lot = *Growable CO§§ (**CAM**)*
+    -   PLOP\_4x4\_Aurora Plaza.SC4Lot  =  *Landmark*
 
-    If you don’t read this and just extract both into your plugins folder, you’ll default to the screen version in game.
+    The package includes the following landmark variants:
 
-    • CO$$8\_4x4\_Aurora Plaza.SC4Lot  =  *Growable CO§§*
+    -   PLOP\_4x4\_Aurora Plaza-No Screen.SC4Lot
+    -   PLOP\_4x4\_Aurora Plaza-Kim Jong Il.SC4Lot
+    -   PLOP\_4x4\_Aurora Plaza-Heineken.SC4Lot
+    -   PLOP\_4x4\_Aurora Plaza-Geisha.SC4Lot
+    -   PLOP\_4x4\_Aurora Plaza-Coca Cola.SC4Lot
 
-    • PLOP\_CO$$\_4x4\_Aurora Plaza.SC4Lot  =  *Plopable CO§§*
-
-    • PLOP\_4x4\_Aurora Plaza.SC4Lot  =  *Landmark*
+    We recommend installing only one variant, or you can install all variants and let the game decide which one to use.
 
     If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
 
     My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=23), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.60).
-
-    * * *
-
-    Cockatoo on behalf of the HKABT team.
-
-    Sunday, 22nd November, 2009
   author: Cockatoo
   website: https://community.simtropolis.com/files/file/22876-aurora-plaza/
   images:
     - https://www.simtropolis.com/objects/screens/0026/eee2b9aca3c564c2b623fbc910995f7f-AP1.jpg
     - https://www.simtropolis.com/objects/screens/0026/eee2b9aca3c564c2b623fbc910995f7f-AP2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/66dba6e763f53e5b8d99ff35af637bc1-AP3.jpg.fe4249ba6597706d5199686252a555bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/66dba6e763f53e5b8d99ff35af637bc1-AP4.jpg.dfd681e8929a680b8e5fb449fd5e99f9.jpg
 assets:
-  - assetId: cockatoo-aurora-plaza
+  - assetId: cockatoo-aurora-plaza-cam
+    include:
+      - "/Aurora Plaza Family - Model and Prop Pack.dat"
+      - "/PLOP_CO\\$\\$_4x4_Aurora Plaza.SC4Lot"
+    withConditions:
+      - ifVariant: { CAM: "no" }
+        include:
+          - "/CO\\$\\$8_4x4_Aurora Plaza.SC4Lot"
+      - ifVariant: { CAM: "yes" }
+        include:
+          - "/CO\\$\\$11_4x4_Aurora Plaza.SC4Lot"
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "no screen" }
+        include:
+          - "/PLOP_4x4_Aurora Plaza-No Screen.SC4Lot"
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "kim jong il" }
+        include:
+          - "/PLOP_4x4_Aurora Plaza-Kim Jong Il.SC4Lot"
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "heineken" }
+        include:
+          - "/PLOP_4x4_Aurora Plaza-Heineken.SC4Lot"
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "geisha" }
+        include:
+          - "/PLOP_4x4_Aurora Plaza-Geisha.SC4Lot"
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "coca cola" }
+        include:
+          - "/PLOP_4x4_Aurora Plaza-Coca Cola.SC4Lot"
+variantInfo:
+  - variantId: "cockatoo:aurora-plaza:appearance"
+    description: Choose the appearance of the large the advertising screen on the building
+    values:
+      - value: "no screen"
+        description: Do not show a screen (default)
+        default: true
+      - value: "kim jong il"
+        description: Show a depiction of a puppet Kim Jong Il
+      - value: "heineken"
+        description: Show a Heineken advertisement
+      - value: "geisha"
+        description: Show a picture of Geisha from Blade Runner
+      - value: "coca cola"
+        description: Show a Coca Cola advertisement
 
 ---
-assetId: cockatoo-aurora-plaza
-version: "1.0"
-lastModified: "2009-11-22T03:29:12Z"
-url: https://community.simtropolis.com/files/file/22876-aurora-plaza/?do=download&r=49469
+assetId: cockatoo-aurora-plaza-cam
+version: "2.0"
+lastModified: "2025-11-02T20:25:21Z"
+url: https://community.simtropolis.com/files/file/22876-aurora-plaza/?do=download&r=209966

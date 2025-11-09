@@ -86,25 +86,25 @@ variants:
       - assetId: cockatoo-united-nations-building-cam
         exclude:
           - "/DN/"
-          - "/CO$$12_18x11_United Nations Building.SC4Lot"
+          - "/CO\\$\\$12_18x11_United Nations Building.SC4Lot"
   - variant: { CAM: "yes", nightmode: standard }
     assets:
       - assetId: cockatoo-united-nations-building-cam
         exclude:
           - "/DN/"
-          - "/CO$$8_18x11_United Nations Building.SC4Lot"
+          - "/CO\\$\\$8_18x11_United Nations Building.SC4Lot"
   - variant: { CAM: "no", nightmode: dark }
     assets:
       - assetId: cockatoo-united-nations-building-cam
         exclude:
           - "/MN/"
-          - "/CO$$12_18x11_United Nations Building.SC4Lot"
+          - "/CO\\$\\$12_18x11_United Nations Building.SC4Lot"
   - variant: { CAM: "yes", nightmode: dark }
     assets:
       - assetId: cockatoo-united-nations-building-cam
         exclude:
           - "/MN/"
-          - "/CO$$8_18x11_United Nations Building.SC4Lot"
+          - "/CO\\$\\$8_18x11_United Nations Building.SC4Lot"
 
 ---
 assetId: cockatoo-united-nations-building-cam

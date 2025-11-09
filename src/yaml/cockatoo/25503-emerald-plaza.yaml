@@ -67,25 +67,25 @@ variants:
       - assetId: cockatoo-emerald-plaza-cam
         exclude:
           - "/DN/"
-          - "/CO$$9_4x6_Emerald Plaza.SC4Lot"
+          - "/CO\\$\\$9_4x6_Emerald Plaza.SC4Lot"
   - variant: { CAM: "yes", nightmode: standard }
     assets:
       - assetId: cockatoo-emerald-plaza-cam
         exclude:
           - "/DN/"
-          - "/CO$$7_4x6_Emerald Plaza.SC4Lot"
+          - "/CO\\$\\$7_4x6_Emerald Plaza.SC4Lot"
   - variant: { CAM: "no", nightmode: dark }
     assets:
       - assetId: cockatoo-emerald-plaza-cam
         exclude:
           - "/MN/"
-          - "/CO$$9_4x6_Emerald Plaza.SC4Lot"
+          - "/CO\\$\\$9_4x6_Emerald Plaza.SC4Lot"
   - variant: { CAM: "yes", nightmode: dark }
     assets:
       - assetId: cockatoo-emerald-plaza-cam
         exclude:
           - "/MN/"
-          - "/CO$$7_4x6_Emerald Plaza.SC4Lot"
+          - "/CO\\$\\$7_4x6_Emerald Plaza.SC4Lot"
 
 ---
 assetId: cockatoo-emerald-plaza-cam
