@@ -75,10 +75,10 @@ assets:
       - ifVariant: { CAM: "yes" }
         include:
           - "/CO\\$\\$11_4x4_Aurora Plaza.SC4Lot"
-      - ifVariant: { cockatoo:aurora-plaza:appearance: "no screen" }
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "no-screen" }
         include:
           - "/PLOP_4x4_Aurora Plaza-No Screen.SC4Lot"
-      - ifVariant: { cockatoo:aurora-plaza:appearance: "kim jong il" }
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "kim-jong-il" }
         include:
           - "/PLOP_4x4_Aurora Plaza-Kim Jong Il.SC4Lot"
       - ifVariant: { cockatoo:aurora-plaza:appearance: "heineken" }
@@ -87,23 +87,23 @@ assets:
       - ifVariant: { cockatoo:aurora-plaza:appearance: "geisha" }
         include:
           - "/PLOP_4x4_Aurora Plaza-Geisha.SC4Lot"
-      - ifVariant: { cockatoo:aurora-plaza:appearance: "coca cola" }
+      - ifVariant: { cockatoo:aurora-plaza:appearance: "coca-cola" }
         include:
           - "/PLOP_4x4_Aurora Plaza-Coca Cola.SC4Lot"
 variantInfo:
   - variantId: "cockatoo:aurora-plaza:appearance"
     description: Choose the appearance of the large the advertising screen on the building
     values:
-      - value: "no screen"
+      - value: "no-screen"
         description: Do not show a screen (default)
         default: true
-      - value: "kim jong il"
+      - value: "kim-jong-il"
         description: Show a depiction of a puppet Kim Jong Il
       - value: "heineken"
         description: Show a Heineken advertisement
       - value: "geisha"
         description: Show a picture of Geisha from Blade Runner
-      - value: "coca cola"
+      - value: "coca-cola"
         description: Show a Coca Cola advertisement
 
 ---
