@@ -57,12 +57,12 @@ info:
 variants:
   - variant: { CAM: "no" }
     assets:
-      - assetId: cockatoo-kowloon-terrace-cam
+      - assetId: cockatoo-aig-tower-cam
         exclude:
           - "/CO\\$\\$11_3x3_HK AIG Tower.SC4Lot"
   - variant: { CAM: "yes" }
     assets:
-      - assetId: cockatoo-kowloon-terrace-cam
+      - assetId: cockatoo-aig-tower-cam
         exclude:
           - "/CO\\$\\$8_3x3_HK AIG Tower.SC4Lot"
 
