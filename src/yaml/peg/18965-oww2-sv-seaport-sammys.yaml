@@ -1,0 +1,37 @@
+group: peg
+name: oww2-sv-seaport-sammys
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: This 24 hour pub is sure to be a focal for Sims after a day at the waterfront.
+  description: |-
+    Seaport Sammy's is one of the more popular attractions along the waterfront. That may be due to its prime location within the picturesque Seaport Village... on perhaps its the quaint nautical novelty shops. But most likely, its the 24-hour open air pub featuring the fancy & fruity umbrella drinks of many nations..
+
+    Seaport Sammy's is a 3x wide, CS$$ ploppable add-on for the Seaport Village. Like all OWW2 lots, it can be used with any other OWW2 style of lots, including the CDKM Marina lots. It features the same modular boardwalk and parking area... and plops seamlessly with all other OWW2 lots.
+
+    The lot also features a custom query and rotating query sounds. There are two unique stats listed in the query; Singapore Sammy's Served & Drinks Spilled. These stats are dictated by the city's population and your current Mayor Rating. The higher the population, the more drinks that are served. The higher your Mayor rating, the fewer instances of alcohol abuse via spilled drinks.
+
+    * * *
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18965-peg-oww2-sv-seaport-sammys/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/ce981964b4fe5636b1ceb41e15df8745-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/ce981964b4fe5636b1ceb41e15df8745-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-resource-pack-vol02
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-SV_SeaportSammys.dat"

@@ -1,0 +1,34 @@
+group: peg
+name: oww2-cop-dock
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: With this lot, your city's Police force can protect sims both on land and sea.
+  description: |-
+    Not to be out done by their fire fighting brethren, your local Police Department now has a water borne presence along your coasts, rivers and harbors. Equipped with some of the finest patrol and Maritime enforcement vessels afloat, your Sims will sleep well knowing they are protected  both on land and at sea.  
+      
+    The OWW2 Police Dock is a standard, medium-sized police precinct in all regards, costs and properties. It has police cars that can be dispatched as with any other police station. The police boats, of course, are for show and can not be dispatched.  
+      
+    The lot is 3x3 in size with a center transit-enabled driveway. The lot is fully OWW2 compliant with a boardwalk and parking lots that line up with other OWW2 lots.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19076-peg-oww2-cop-dock/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3b69b5aef9a83fb0cedff8dca122b511-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3b69b5aef9a83fb0cedff8dca122b511-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_CopDock.dat"

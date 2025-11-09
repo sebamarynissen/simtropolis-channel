@@ -1,0 +1,35 @@
+group: peg
+name: oww2-sv-carousel
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Sim's children are bound to love this classical attraction by the shoreline.
+  description: |-
+    The bell rings... the organ begins to play... and you're off to the races on a wooden pony, Try as you may, you never seem to be able to catch up to that damn horse ahead of you. Personally... I think the race is rigged.  
+      
+    No  Seaport Village   could ever be complete without some reason to drag along the kids. And if you have ever been on one, you'd recall the magic that makes a good, large Carousel so special... despite being a long ways away from an E-Ticket ride by today's standards.  
+      
+    Carousels have been large attractions at many seaside tourist traps... and now our Seaside Village has joined the club. This is a 2 tile wide, CS$$ RCI ploppable design for use with the PEG OWW2 Seaside Village series. The lot offers jobs, income from taxes, a custom query... and is extensively nite-lited. The lot also features a custom background sound effect of classic carousel organ music that can be heard whenever you are near the lot in the game.
+
+    * * *
+
+    For help creating the perfect terrain for CDK lots,  
+    we strongly recommend reading **The Official CDK Tutorial.**
+
+    **\*\* This lot requires the  PEG\-CDKM Marina  
+     and the   PEG\-OWW2 Resource Pack 1.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20855-peg-oww2-sv-carousel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6f330ca12d3274ff4b6e5be6d6e95439-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6f330ca12d3274ff4b6e5be6d6e95439-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-resource-pack-vol02
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-SV_Carousel.dat"

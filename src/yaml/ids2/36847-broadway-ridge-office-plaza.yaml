@@ -1,0 +1,70 @@
+group: ids2
+name: broadway-ridge-office-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Broadway Ridge Office Plaza
+  description: |-
+    Based on a garden variety early-2000s office building in northeast Minneapolis. If it weren't for the weird circular mechanical housing, you could drive past it a million times and never notice it.
+
+    This building sits on a 7x6 lot and comes in growable and ploppable varieties, both of which provide 1250 CO$$ jobs. Additionally, the building's wingnut shape also lent itself to making a fractional angle version. It's not a perfect fit (20 degree angle vs. 18.4 degrees for FAR), but it's pretty darn close. Both versions have different IIDs, so you can use both of them at the same time.
+
+    Both Darknite and Maxisnite versions are provided (for both the ortho and the FAR version), of which only one should be used at a time. The Darknite version requires [Simfox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**:
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/icon.jpg.c5be310b4a052689c9c85fa3356429ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/day.jpg.dc4e3a57c0f72cf76547cb1a725a5bb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/68115fb7ce51c_day2.jpg.b6ad902664ef166380bd169c93c44233.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/night.jpg.bf7a37626bc611f3eb6c25a6a4e04370.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/68115fbd606a5_night2.jpg.d397cd7578f8a2f8c3154458267335e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/68115fbfab38e_farday.jpg.3a4dbe769e1355a13e30d8d323c1ec7b.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol02
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-1
+      - assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-2
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-broadway-ridge-office-plaza-darknite-part-1
+      - assetId: ids2-broadway-ridge-office-plaza-darknite-part-2
+
+---
+assetId: ids2-broadway-ridge-office-plaza-darknite-part-1
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207164
+
+---
+assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-1
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207165
+
+---
+assetId: ids2-broadway-ridge-office-plaza-darknite-part-2
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207166
+
+---
+assetId: ids2-broadway-ridge-office-plaza-maxisnite-part-2
+version: "1.0.0"
+lastModified: "2025-04-29T23:40:05Z"
+url: https://community.simtropolis.com/files/file/36847-broadway-ridge-office-plaza/?do=download&r=207167

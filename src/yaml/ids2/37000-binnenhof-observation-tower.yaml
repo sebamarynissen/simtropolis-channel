@@ -1,0 +1,42 @@
+group: ids2
+name: binnenhof-observation-tower
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Binnenhof Observation Tower
+  description: |-
+    As part of the ongoing renovations of the Binnenhof complex in The Hague, Netherlands, this temporary observation tower was constructed to allow visitors a view of the proceedings.
+
+    1x1 lot, modded as a park, and that's about it. As always, both Darknite and Maxisnite versions are provided. Only one may be used at a time. The Darknite version requires [SimFox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**: None
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/37000-binnenhof-observation-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/icon.jpg.248f2d161047613a2a35cbe329bb9d44.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/day1.jpg.6dde969638bfefbc6dd505e78395efdf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/day2.jpg.0549e7499601a4a7322197c62d7231ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/night1.jpg.25a2e289bf4cbcdb7daf3a442f7ad3f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/night2.jpg.21ca3faa309ad40b43f5161afcbfe7a8.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-binnenhof-observation-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-binnenhof-observation-tower-darknite
+
+---
+assetId: ids2-binnenhof-observation-tower-darknite
+version: "1.0.0"
+lastModified: "2025-08-28T13:55:53Z"
+url: https://community.simtropolis.com/files/file/37000-binnenhof-observation-tower/?do=download&r=209063
+
+---
+assetId: ids2-binnenhof-observation-tower-maxisnite
+version: "1.0.0"
+lastModified: "2025-08-28T13:55:53Z"
+url: https://community.simtropolis.com/files/file/37000-binnenhof-observation-tower/?do=download&r=209064

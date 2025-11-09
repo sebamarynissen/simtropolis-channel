@@ -1,0 +1,47 @@
+group: peg
+name: cdk3-master-seaport-controller
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: CDK3 MASTER SEAPORT CONTROLLER
+  warning: "**No other seaport controllers, seaport mods or seaport lots can be used with this seaport lot... except those seaport lots supported by the PEG Master Seaport Controller. All other seaports lots, seaport mods, and seaport controller files must be removed from your cities and uninstalled from the game.**"
+  description: |-
+    The PEG CDK3\-SP Master Seaport Controller Mod is the definitive, single source central seaport developer file for all PEG CDK3\-SP seaport lots. If you use the PEG CDK3\-SP Seaports & the vast selection of related seaport complex lots, you should install and use this file... and install no other common or central seaport controller mods or files.  
+      
+    *\* This mod uses the archaic yet effective method of alphabetic file & folder naming to ensure that it is loaded last into the game and overwrites any and all conflicting files. Yet, it is still advisable to make sure you do not have any conflicting or non-supported seaport files installed to safeguard your cities from conflicts that could prevent you from being able to load them in the game.*  
+      
+    All seaport lots share a common Seaport Developer file... which has complicated efforts to develop custom seaport lots for the game which, by default, only included functional support for a single seaport lot. Multiple developers, attempting to make multiple custom seaports lots, traditionally had no option but to develop custom seaports that excluded the use of custom seaport lots developed by others.  
+      
+    This new Master Seaport Controller mod overcomes all the previous limitations imposed by the game's default common Seaport Developer file. When installed properly, it will also override & correct any errant or non-compatible functionality data in any previously installed seaports lots that are supported by the mod.  
+      
+    This mod will be updated to include new seaport lots as they are developed... including non-PEG seaports created by other developers. Fortunately, its an extremely small file and the ZIP file installation will be a simple, semi-automated process of unzipping the file and allowing it to over write the previous version with the newer one.  
+      
+    *\* The included readme.htm file documents the procedure to be followed by other developers who wish to have their custom seaport lots supported by this mod.*  
+      
+    This is **Version 1.05 of the Master Seaport Controller Mod** and currently supports the following seaport lots:  
+      
+    **1\. PEG CDK3\-SP Container Seaport.  
+      
+    2\. PEG CDK3\-SP Break-Bulk Seaport.  
+      
+    3\. PEG CSK2Canal Small Seaport  
+      
+    4\. SWAP Package Handling Center** (a seaport lot contained in the airport add-on package, used as an airport freight facility)  
+      
+    **5\. PEG CDK3\-SP Pier Seaport**  
+      
+    *\* Addition seaport lots will supported and added as updates to this file.*  
+      
+    **Extremely Important:** To avoid conflicts that could prevent you from being able to load your cities, you should **NEVER** use any other seaport mod or a seaport lot not listed above in any of your cities. It is highly recommended that you un-install any other seaport mod or non-supported seaport lot from your game. If you are unsure if you have any unsupported seaports installed, we **strongly** suggest that you first use any seaport lot in a new, blank test city to ensure that it functions properly. Plop the seaport, save the game & exit. Restart the game & reload the city. If the city loads without issue, then the seaport lot in question is okay to use in your other cities.
+
+    **\*\* This file has no external dependencies.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19935-peg-cdk3-master-seaport-controller/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/07a0e88170a9e17af8088129325b1a38-product_image.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-MasterSeaportController.dat"

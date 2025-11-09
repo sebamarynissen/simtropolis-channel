@@ -1,0 +1,34 @@
+group: peg
+name: oww2-fountain-plaza
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A 2-tile wide plaza with an eye-catching fountain, sure to delight your Sims.
+  description: |-
+    This is 2 tile wide plaza-style lot for your OWW2 boardwalks that features an eye-catching fountain that is sure to delight your Sims. It is ideal for adding extra variety in longer stretches of your boardwalks. It can be used with your OWW2 Boardwalks, the OWW2\-SV Seaport Village and  your CDKM Marina complex.
+
+    The lot's properties are similar to those of the 1x Plaza lot. The costs are approx. doubled and the park & landmark values increased accordingly. Other properties, such as power/water usage & pollution are also slightly higher, but still almost negligible.
+
+    \* The fountain uses a 24/7 variation of the game default fountain effect (included w/ the lot) in combination with a custom prop LOD designed to give the fountain water a rolling effect which can be best viewed at zoom level 5.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.
+
+      
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19084-peg-oww2-fountain-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dceb8afc13b301ba334917eca1ef2e68-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dceb8afc13b301ba334917eca1ef2e68-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_FountainPlaza.dat"

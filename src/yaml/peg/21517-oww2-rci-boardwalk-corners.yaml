@@ -1,0 +1,29 @@
+group: peg
+name: oww2-rci-boardwalk-corners
+version: "1.0"
+subfolder: "660-parks"
+info:
+  summary: Add inner and outer corner lots for the RCI Boardwalks.
+  description: |-
+    This **RCI Boardwalk Corner Lots** will allow you to wrap the OWW2 Boardwalks around corners while still leaving the adjacent/inland tiles open for RCI development or other ploppable lots. In all regards, properties, costs, etc...  are the same as the other 2x2 RCI Boardwalk lots.
+
+    This package contains 2 lots; an inner corner lot and an outer corner lot. Both lots are 2x2 tiles in size
+
+    The RCI Boardwalks are actually water lots that are designed to extend in & over the sloped coastal tile & merge seamlessly with OWW2 lots on either side.  
+    This particular method does not allow the use of any props on the lot. Therefore, everything on the lot is rendered as part of the building model. The models are nite-lited... with lighting designed to match the lamp post & lite-tree props commonly used on OWW2 lots.  
+      
+     **\*\* This lot requires the   PEG\-OWW2 Resource Pack 1**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21517-peg-oww2-rci-boardwalk-corners/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image1.jpg
+dependencies:
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-RCI_OuterCorner.dat"
+      - "/PEG-OWW2-RCI_InnerCorner.dat"

@@ -1,0 +1,49 @@
+group: ids2
+name: pop-building-brussels
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: POP Building, Brussels
+  description: |-
+    I found a picture of this building on a website aptly named "admirable facades," dedicated to documenting the most admirable facades in Brussels, Belgium. I thought this one, with its bright red geometric facade straight out of 1966, was pretty admirable.
+
+    This version is a 2x1 W2W CO$$ building that provides 73 jobs. Both growable and ploppable varieties are included.
+
+    Both Darknite and Maxisnite versions are provided. Only one may be used at a time. The Darknite version requires [SimFox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies**:
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/36999-pop-building-brussels/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/icon.jpg.9ce49dacfa418711050ae30b0b22128d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/day1.jpg.b2c9c9f6d60f4c3eba5d2a1c1a44af57.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/day2.jpg.99653edb6b4718b8639ccc577a7aa40c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/night1.jpg.2456ef0348f1d5e027dd0246f6314dc2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/night2.jpg.5628b376a33f4293101904ec0eee3c9b.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-pop-building-brussels-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-pop-building-brussels-darknite
+
+---
+assetId: ids2-pop-building-brussels-darknite
+version: "1.0.0"
+lastModified: "2025-08-28T13:48:51Z"
+url: https://community.simtropolis.com/files/file/36999-pop-building-brussels/?do=download&r=209056
+
+---
+assetId: ids2-pop-building-brussels-maxisnite
+version: "1.0.0"
+lastModified: "2025-08-28T13:48:51Z"
+url: https://community.simtropolis.com/files/file/36999-pop-building-brussels/?do=download&r=209057

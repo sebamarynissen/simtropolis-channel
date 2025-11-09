@@ -1,0 +1,48 @@
+group: ids2
+name: la-tulipe
+version: "1.0.0"
+subfolder: 630-health
+info:
+  summary: La Tulipe
+  description: |-
+    Completed in 1976 and designed by architect Jack Vicajee Bertoli, the Swiss Medical Research Foundation building, nicknamed "La Tulipe" (the Tulip) as a result of its unusual floral shape, is a brutalist landmark located in Geneva, Switzerland.
+
+    Owing to its real life association with medical research, I have modded this version as a clinic (I don't think I've done one of those before, oddly enough). It sits on a 2x2 lot and comes in both Darknite and Maxisnite varieties; only one may be used at a time. The Darknite version requires [Simfox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+    **Dependencies:**
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    Enjoy!
+  author: IDS2
+  website: https://community.simtropolis.com/files/file/36895-la-tulipe/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/icon.jpg.1fdccd5b6e2da1fd5f526e5bb4d9f87b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/day1.jpg.677362fb2259530f834f550b8724d9ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/day2.jpg.14c6d3347e20fb72fb1478b08e8f2954.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/night1.jpg.50a06c483c94ad8714ac2e3bc850a6e7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/night2.jpg.e12eae78bb46d65bcc6851f37d36193e.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ids2-la-tulipe-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ids2-la-tulipe-darknite
+
+---
+assetId: ids2-la-tulipe-darknite
+version: "1.0.0"
+lastModified: "2025-05-31T23:42:04Z"
+url: https://community.simtropolis.com/files/file/36895-la-tulipe/?do=download&r=207902
+
+---
+assetId: ids2-la-tulipe-maxisnite
+version: "1.0.0"
+lastModified: "2025-05-31T23:42:04Z"
+url: https://community.simtropolis.com/files/file/36895-la-tulipe/?do=download&r=207903

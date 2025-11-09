@@ -1,0 +1,44 @@
+group: peg
+name: cdk3-sp-container-seaport
+version: "110"
+subfolder: 700-transit
+info:
+  summary: A functional seaport that directly replaces the game's default seaport.
+  description: |-
+    The CDK3\-SP Container Seaport is a functional seaport that directly replaces the game's default seaport. This is the first and core piece of a series of CDK3 Seaport (CDK3\-SP) modular lots that will allow you to build & expand your seaport area, both functionally & visually, to almost any size and the way you want it to be. An associated, functional Container Freight Rail Yard is also under development.
+
+    This Seaport lot has all the same properties, capacities and costs of the game-default seaport.  The lot is a different size (10x5)  so any instances of the game default seaport in your cities will have to be replaced. However, the good news on that is that the old seaports will remain functional until you get around to replacing them. You do not have to bulldoze them all before installing the new Seaport.  
+      
+    IMPORTANT  
+    Due to the limiting nature of the common seaport controller file used by all functional seaport lots, no other custom seaport lots, seaport mods or seaport controller files can be used with this seaport. The only exceptions are the PEG CSK2 Small Port... and an additional CDK3\-SP "Break-Bulk" Freight Seaport that is under development.  Please read the included readme file for full details.  
+       
+    The new Seaport lot uses a gazillion new custom props and most of them are timed to change and/or move throughout the day. Ships arrive and depart twice a day. The booms of the large Post-Panamax cranes raise to allow easy clearance for the ships when arriving/departing... then lower to load & unload containers throughout the day. The yard crane switches from one staging area to another, the stacks of containers grow larger & smaller... and the rail and truck traffic change & move around.  
+      
+    RAIL CAPACITY  
+    Unlike the game default seaport, this new version allows a direct rail connection and can also receive freight by rail directly from Freight Stations or industry located adjacent to rail. This is accomplished by forcing the Seaport to also act as a Freight Station, converting rail freight to truck freight when it arrives.  Whereas the previous CDK Seaport version required that the lot be coded as a freight station, this new version does not. All the "mojo" is now handled in the transit enabling properties... which have also been streamlined to minimize associated traffic congestion.  
+      
+    \*\* The lot is transit enabled for road connections to the driveways and a rail connection .  The lot must have road access in order to function properly but the driveways do not actually have to be connected. However, the rail must be connected to the lot for the rail connectivity to function.  Rail connectivity is optional. The Seaport will still function properly for truck traffic if you choose not to connect the rail.  
+      
+    \*\*\* The lot is located in the Water Transportation menu in place of the game-default Seaport icon.
+
+    **\*\* REQUIRED DEPENDENCY FILES \*\***  
+      
+    [PEG CDK3 SP SEAPORT SUPER PAK](https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/?tab=reviews)  
+    [PEG\-CDK3\-SP Container Ship Fleet Pack](https://community.simtropolis.com/files/file/19577-peg-cdk3-sp-container-ship-fleet/)  
+    [PEG Security Fencing Kit](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19594-peg-cdk3-sp-container-seaport/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e3f66121e1558ff2b922ae09f4b9075f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e3f66121e1558ff2b922ae09f4b9075f-product_image1.jpg
+dependencies:
+  - peg:cdk3-master-seaport-controller
+  - peg:cdk3-sp-container-ship-fleet
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Container-Seaport.dat"

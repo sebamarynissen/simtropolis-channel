@@ -1,0 +1,36 @@
+group: peg
+name: oww2-pier-set-1x-wing
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A small public restroom and bait shop, to fit into your piers.
+  description: |-
+    A common sight on many longer public piers is a mid-way public restroom... which can be very convenient when you're out on the end and Nature comes a callin'. Our mid-way facilities are supported on a short "wing" attached to the pier... with Bubba's Bait & Tackle located directly across from it.
+
+    This is a 1x1 addition to the OWW2 PierSet and the first of several planned specialty lots in the works to add more variety and life to your piers. Its properties are similar to those of the basic PierSet pieces but with a slightly higher plop price.
+
+    The model is nite-lited and, yes... it does work out in the water. The model's pilings were also rendered to allow the game's water to flow around them and under the supported structures.
+
+    \* All of the modular PierSet lots are parks... affordably priced with reduced park & landmark effects to avoid blowing over demand caps They are located only in the Water Transportation menu, directly below the other OWW2 lots..
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18960-peg-oww2-pierset-1x-wing/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a21e7599fbf23804bbc100ce8feeb391-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a21e7599fbf23804bbc100ce8feeb391-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierSet_Wing.dat"

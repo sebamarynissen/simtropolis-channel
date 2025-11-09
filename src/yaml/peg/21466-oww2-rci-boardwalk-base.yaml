@@ -1,0 +1,39 @@
+group: peg
+name: oww2-rci-boardwalk-base
+version: "1.0"
+subfolder: "660-parks"
+info:
+  summary: The base RCI set includes 3 lots so your favorite buildings can sit on the coast.
+  description: |-
+    The **RCI Boardwalks** is a collection of 3 lots that allow you to zone RES, COM, or even IND right up to the edge of the coast... and still have OWW2 Boardwalks running along the shoreline. Now you can turn your favorite hi-rise condos, commercial development or any growable or ploppable lot into seaside lots that share a common boardwalk with the entire CDK OWW2 collection.
+
+    The RCI Boardwalks are actually water lots that are designed to extend in & over the sloped coastal tile & merge seamlessly with OWW2 lots on either side.
+
+    *\* The coastal tile is that tile that slopes into the water... and is a tile that is actually half-water & half-land. As such, nothing can be plopped exclusively on the coastal tile & it defies normal zoning and plopping methods. Normal CDK/OWW lots cover that coastal tile by extending boardwalk or dock models from the land side. The RCI Boardwalks reverse that process by extending off-set rendered models from the water side... with a mix of  transparent texturing & game default behavior for certain types of water lots.*  
+      
+    This particular method does not allow the use of any props on the lot. Therefore, everything on the lot is rendered as part of the building model. The models are nite-lited... with lighting designed to match the lamp post & lite-tree props commonly used on OWW2 lots.  
+      
+    This package contains 3 lots. Included are a standard 1x tile-wide boardwalk section, a 2x tile-wide extended Observation Deck section... and 2x tile-wide Dock Entrance section that is designed for use with the PEG Marina Extended Docks lots.  Additional RCI Boardwalk lots may be added to the collection.
+
+    \* All of these lots contain properties similar to a small park in order to promote the type of high-wealth development normally found along coastal areas.
+
+    \* These lots have been tested to be free from any water-graphics bug effects.
+
+    For help creating the perfect terrain for CDK lots,  
+    we strongly recommend reading  The Official CDK Tutorial.  
+    **\*\* This lot requires the**   PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21466-peg-oww2-rci-boardwalks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image.jpg
+dependencies:
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-RCI.dat"
+      - "/PEG-OWW2-RCI_Dock.dat"
+      - "/PEG-OWW2-RCI_ObsDeck.dat"

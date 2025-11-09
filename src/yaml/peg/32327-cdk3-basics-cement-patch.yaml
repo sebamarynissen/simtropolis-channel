@@ -1,0 +1,18 @@
+group: peg
+name: cdk3-basics-cement-patch
+version: "1.0"
+subfolder: "400-industrial"
+info:
+  summary: Converts the CDK3 Basics lots to the newer CDK3 Seaport 'cement' style.
+  description: |-
+    Patch file for CDK3 Basics
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/32327-peg-cdk3-basics-cement-patch/
+dependencies:
+  - peg:cdk3-basics
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_BasicsCementPatch.dat"

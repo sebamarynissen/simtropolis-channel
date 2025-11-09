@@ -19,10 +19,6 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0007/342507e204e8ff0dc0aa183ae5c73707-product_image.jpg
 assets:
-  - assetId: peg-oww2-resource-pack-1
-
----
-assetId: peg-oww2-resource-pack-1
-version: "1.0"
-lastModified: "2007-10-22T08:12:39Z"
-url: https://community.simtropolis.com/files/file/18831-peg-oww2-resource-pack-1/?do=download&r=43047
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_RESOURCE1.dat"

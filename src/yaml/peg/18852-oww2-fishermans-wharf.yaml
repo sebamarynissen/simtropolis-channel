@@ -1,0 +1,39 @@
+group: peg
+name: oww2-fishermans-wharf
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A fish market featuring both fast food and dining options for all things fish.
+  description: |-
+    The Fisherman's Wharf is back by popular demand. Okay... there were a few requests... but none the less, it's back and fully refurbished for the OWW2. Zillions (well, a lot) of little details have been added to the original model. Everything has been remodeled inside and out. New roof, new paint, new carpeting... which is a little hard to see in the screen shot but trust me, its there.
+
+    The lot is a 4x3 CS$$ ploppable lot integrated into the new OWW2 style seawalls & boardwalk. The structure offers a bustling fish market and fast fishy food on the ground level... with formal sit-down dining upstairs. Always popular with the tourists, the lot still has its business side as fishing trawlers come and go to sell their catch... and staff from local restaurants stop by daily to procure fresh seafood for their own customers.
+
+    The lot features a custom query and query sound... complete with lot-related info that reflects conditions in the city. The larger your city, the more fish the lot will sell. The higher your Mayor rating, the fewer lobsters that will escape.
+
+    The lot is transit-enabled to make the driveway connection The trawlers are timed props that come and go through the day to simulate normal activity. The nite ligting is extensive, both in the model itself and from numerous, dual prop custom lamp posts.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    PEG\-CDK3 Trawlers Resource Pack
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18852-peg-oww2-fishermans-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/997a795781c31b56919c2e6355ea0bde-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/997a795781c31b56919c2e6355ea0bde-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_FishermansWharf.dat"

@@ -1,0 +1,28 @@
+group: peg
+name: cdk3-fuerta-de-pego-coastal-battery
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: A historic, small coastal battery, and a landmark addon for `pkg=peg:cdk3-puerta-de-pego-coastal-fort`.
+  description: |-
+    Fuerta De Pego is a landmark add-on to the Puerta De Pego historic Coastal Fort. It can be plopped next to the fort or on either or both sides. It can also be plopped alone as an historic, small coastal battery.
+
+    This "fuerta" (fort) is a landmark... similar in price and properties to the Alamo landmark. As the Puerta De Pego main fort is a museum, this add-on had to be something else. If you plop 2 or, God forbid, 3 museums next to each other, you get the School Bus Traffic Jam from Hell. So landmark was the obvious choice.
+
+    Like the Puerta De Pego main fort, this add on coastal battery is technically a CDK 3 lot. However, it also does not require the CDK3 to be installed and it can be plopped on dry land. Both forts look quite good hanging over cliffs as hill top fortresses.  
+      
+    **This lot can also be plopped on dry land and used with the PEG Canals, Ponds and Streams.**
+      
+    **This lot requires the PEG OFMN Mod if you wish to display the flag of your choice.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18611-peg-cdk3-fuerta-de-pego/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/89004bd529a8e999172b0b4187ec0e49-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0015/89004bd529a8e999172b0b4187ec0e49-ss_3-night.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_FuertaDePego.dat"
+      - "/PEG-CDK3_FuertaDePego_RESOURCE.dat"

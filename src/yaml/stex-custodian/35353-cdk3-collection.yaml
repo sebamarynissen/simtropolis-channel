@@ -1,0 +1,321 @@
+assetId: stex-custodian-pegasus-cdk3-collection
+version: "1.0.0"
+lastModified: "2022-12-05T01:11:44Z"
+url: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/?do=download&r=195812
+
+---
+group: peg
+name: cdk3-collection
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "The Coastal Development Kit 3 (CDK3) Collection is a collated package of all CDK3 downloads released by Pegasus."
+  warning: "If you opt to include one or of the functional seaport lots, it is imperative you have no other seaport controller installed! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
+  description: |-
+    Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically handle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
+
+    ***All discussions and support for this product are now hosted on the [PLEX on the STEX - Community Support thread at Simtropolis](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
+
+    ## Functional Seaports / Seaport Controller - IMPORTANT INFORMATION
+
+    If you choose to install one or more of the Functional Seaport lots, use of them will require that the Pegasus Seaport Controller is installed. Note that this will replace the in-game seaport in the Water Transit menu.
+
+    **!!! It is imperative that you do not install more than one Seaport Controller - failure to adhere to this warning, could prevent you from opening your cities and render them useless. !!!**
+
+    By installing the controller, you are confirming that you have no other Seaport Controller installed. To avoid conflicts that could prevent you from being able to load your cities, you should never use any other functional Seaport Mod or Lot, except those supported by this package, which are as follows:
+
+      - PEG\-CDK3\-SP\_Container-Seaport.dat\*
+      - PEG\-CDK3\-SP\_Pier-Seaport.dat\*
+      - PEG\-CDK3\-SP\_Break-Bulk-SeaPort.dat\*
+      - CSK2 Canal Small Seaport
+      - SWAP Package Handling Centre
+
+    Note: Items marked with \* are included with this package, everything else is not part of the CDK3, although the included Seaport Controller will support their use.
+
+    If you are unsure if you have any unsupported Seaports, we ***strongly*** suggest testing them in a new, blank test city first. If you can Plop the Seaports, save, exit and reload the city all without issue, then you should be safe to use them in your existing cities. Additionally, we recommend making a backup of your Regions BEFORE using any of the functional Seaports, this way if something does go wrong, you have a way to fix the problem.
+
+    We can not be held responsible for your failure to read, understand or follow the advice here. Whilst this is necessary due to the way the game works, there really isn't anything to worry about, provided you never install more than one such controller, but the warnings are here because if you do, the consequences are not good.
+
+    ## Users with pre-existing CDK3 installed
+
+    The package was originally designed for new users of the CDK3, given that it's main purpose was to simplify the installation, that doesn't really do anything for those with existing installs. However, a Cleanitol RemoveList is attached here, which should be ran before running the CDK3 Collection Installer, will find and remove all the original CDK3 content from your Plugins folder:
+
+    [RemoveList - CDK3 Collection.txt](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=99081)
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/CDK3Collection.jpg.1767b514d881d88be99afcb369b2ea88.jpg
+dependencies:
+  - peg:cdk3-base-pack
+  - peg:cdk3-marinas
+  - peg:cdk3-old-wooden-waterfront-2
+  - peg:oww2-rci-boardwalks
+  - peg:oww2-pier-set
+  - peg:oww2-seaport-village-set
+  - peg:cdk-leveler
+  - peg:cdk3-seaports-addons
+  - peg:cdk3-nonfunctional-seaports
+  # Explicitly exclude `peg:cdk3-functional-seaports` because of the potential harmful effects it can have for users who are not expecting or prepared for its installation.
+
+
+---
+group: peg
+name: cdk3-base-pack
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "The base CDK3 lots are all designed to beautify your coastal areas."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-basics
+  - peg:cdk3-algae-farm
+  - peg:cdk3-blackies-boatyard
+  - peg:cdk3-capt-jacks-landing
+  - peg:cdk3-fred-ginger-fishery
+  - peg:cdk3-vandy-shipping-company
+  - peg:cdk3-small-ferry-landing
+  - peg:cdk3-garbage-docks
+  - peg:cdk3-puerta-de-pego-coastal-fort
+  - peg:cdk3-fuerta-de-pego-coastal-battery
+  - peg:cdk3-coast-guard-station
+
+
+## This does not appear to be uploaded anywhere to the STEX
+---
+group: peg
+name: cdk3-small-ferry-landing
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: A fully functioning Passenger and Car ferry terminal. Just 3x2 in size and doesn't protrude far into the water.
+  description: |-
+    The CDK3 Small Ferry Landing is a make-over of the CDK-IND version. Its a fully functional auto & passenger ferry terminal. It does not replace the original game ferry terminal and can freely be used with any other ferry terminal or landing.
+
+    This ferry landing is reduced in size compared to the game default terminals... a mere 3x2 tiles in size. This version also uses a simple, single road connection that pulls double duty as both entrance and exit. All other properties and capacities are the same as the game's default car ferry.
+
+    In contrast to the original terminal, the Ferry Landing is a CDK3 lot which does not protrude several tiles out into the water. As the water depth is generally shallower nearer the shore, care must be taken to ensure that the water depth is deep enough for the ferry to operate. If it is not, the ferry will not function.
+
+    *This lot requires the PEG CDK3 SUPER Pack dependency file which is available in the CDK3 section of the PLEX.*
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_SmallFerryLanding.dat"
+
+---
+group: peg
+name: cdk3-marinas
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "These modular Marina lots are designed to blend in perfectly with the OWW2 Boardwalks."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdkm-marina
+  - peg:cdkm-parking-lot
+  - peg:cdkm-yacht-club
+  - peg:cdkm-sport-fishing
+  - peg:cdkm-boat-ramp
+  - peg:cdkm-guest-services
+  - peg:cdkm-1x-boat-storage
+  - peg:cdkm-marina-docks
+  - peg:cdkm-dock-extension
+  - peg:cdkm-dock-end
+  - peg:cdkm-chandlery-ic-corner
+
+---
+group: peg
+name: cdk3-old-wooden-waterfront-2
+version: "1.0.0"
+subfolder: "360-landmark"
+info:
+  summary: "The Old Wooden Waterfront 2 (OWW2) set provides a number of options for lovely waterfront walks around your coasts."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:oww2-1x-plaza
+  - peg:oww2-parking-lot
+  - peg:oww2-inner-corner
+  - peg:oww2-outer-corner
+  - peg:oww2-fishermans-wharf
+  - peg:oww2-left-end
+  - peg:oww2-right-end
+  - peg:oww2-observation-deck
+  - peg:oww2-1x-ramp
+  - peg:oww2-fire-station
+  - peg:oww2-food-court
+  - peg:oww2-ferry-landing
+  - peg:oww2-cop-dock
+  - peg:oww2-fountain-plaza
+  - peg:oww2-annabellelin-restaurant
+  - peg:oww2-fishing-pier
+  - peg:oww2-lighthouse-museum
+  - peg:oww2-captain-nemos-wild-ride
+  - peg:oww2-to-oww-transitions
+  - peg:oww2-rci-boardwalks
+  - peg:oww2-pier-set
+  - peg:oww2-seaport-village-set
+  - peg:oww2-bdk-beach-development-kit
+
+---
+group: peg
+name: oww2-rci-boardwalks
+version: "1.0.0"
+subfolder: "660-parks"
+info:
+  summary: "A collection of lots that allow you to zone RCI right up to the edge of the coast... and still have OWW2 Boardwalks running along the shoreline."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image1.jpg
+dependencies:
+  - peg:oww2-rci-boardwalk-base
+  - peg:oww2-rci-boardwalk-corners
+  - peg:oww2-rci-boardwalk-pier-fillers
+
+---
+group: peg
+name: oww2-pier-set
+version: "1.0.0"
+subfolder: "660-parks"
+info:
+  summary: "Extend your OWW2 into the water."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6ae10775611a969e98cd45faf21db952-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aa7348cb08128c730def9f9ad02ad1ac-product_image1.jpg
+dependencies:
+  - peg:oww2-pier-set-base
+  - peg:oww2-pier-set-head
+  - peg:oww2-pier-set-1x-wing
+  - peg:oww2-pier-set-boat-pass
+  - peg:oww2-pier-set-house
+  - peg:oww2-pier-set-1x-boat-dock
+  - peg:oww2-pier-set-lifeguard-tower
+  - peg:oww2-pier-set-arcade
+
+---
+group: peg
+name: oww2-seaport-village-set
+version: "1.0.0"
+subfolder: "660-parks"
+info:
+  summary: "Commercial lots for your coasts. Designed to blend into the OWW2."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/49edbd3f381930db491fafe8fbff5b9b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2504d31d4ed5dacfefd1b83f5886570f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/ce981964b4fe5636b1ceb41e15df8745-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bcb9e37cf1f10cbaf68085f67c4fc7fb-product_image.jpg
+dependencies:
+  - peg:oww2-sv-seaport-village
+  - peg:oww2-sv-seaport-sammys
+  - peg:oww2-sv-corner-shops
+  - peg:oww2-sv-2x-shops
+  - peg:oww2-sv-carousel
+
+---
+group: peg
+name: cdk3-nonfunctional-seaports
+version: "1.0.0"
+subfolder: "400-industrial"
+info:
+  summary: "Nonfunctional versions of the CDK3 seaports, providing industrial jobs"
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/49edbd3f381930db491fafe8fbff5b9b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2504d31d4ed5dacfefd1b83f5886570f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/ce981964b4fe5636b1ceb41e15df8745-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bcb9e37cf1f10cbaf68085f67c4fc7fb-product_image.jpg
+dependencies:
+  - peg:cdk3-sp-container-dock
+  - peg:cdk3-sp-vandy-shipping
+  - peg:cdk3-sp-row-warehouses
+  - peg:cdk3-sp-bubbas-bulk-and-barge
+  - peg:cdk3-sp-break-bulk-dock
+  - peg:cdk3-sp-pier-one
+
+
+---
+group: peg
+name: cdk3-seaports-addons
+version: "1.0.0"
+subfolder: "400-industrial"
+info:
+  summary: "Addons and fillers to accompany the CDK3 seaports."
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-sp-1x-lots
+  - peg:cdk3-sp-corner-docks
+  - peg:cdk3-sp-barge-docks
+  - peg:cdk3-sp-rci-lot
+  - peg:cdk3-sp-dock-bus-stop
+  - peg:cdk3-sp-ploppable-ships
+  - peg:cdk3-sp-buoyz-from-da-hood
+
+
+## This does not appear to be uploaded anywhere to the STEX
+---
+group: peg
+name: cdk3-sp-dock-bus-stop
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: A Bus Stop designed to blend seamlessly into your CDK3 Dock system.
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Dock-BusStop.dat"
+      - "/PEG-CDK3-SP_Dock-BusStop_WT-IconDupe.dat"
+
+## This does not appear to be uploaded anywhere to the STEX
+---
+group: peg
+name: cdk3-sp-barge-docks
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: A 2x5 Docks with Barges.
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-SP_Dock_WH_wBarge.dat"
+
+
+---
+group: peg
+name: cdk3-functional-seaports
+version: "1.0.0"
+subfolder: "400-industrial"
+info:
+  summary: "Include Functioning Seaports. !!! Can NOT be used with other functional seaports !!!"
+  author: Pegasus, STEX Custodian
+  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+dependencies:
+  - peg:cdk3-sp-container-seaport
+  - peg:cdk3-sp-break-bulk-dock
+  - peg:cdk3-sp-pier-seaport

@@ -1,0 +1,33 @@
+group: peg
+name: oww2-control-freak-mod
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Instead of randomly selecting a 1x1 plaza, this patch splits them into 3 distinct lots for more control.
+  description: |-
+    This is an optional patch file for the OWW2 1x Plaza lots. The patch converts the single 1x Plaza lot with random boardwalk and plaza styles into 3 separate lots that allow the player to control which style of boardwalk and plaza are used. In effect, it removes the random aspect of the single lot and provides 3 different styles of the same lot that the player can control.  
+      
+    Once applied, this patch will replace the single 1x Plaza icon in your menu with 3 new menu icons... one for each non-random style of the lot. You can then plop the particular style of 1x Plaza lot that you prefer... and even replace existing ones where the random effect was not to your liking. For example, if you currently have several public restroom plazas all bunched together, you can replace them with normal plazas... and stop wondering what your Sims have been eating that they need to keep so many restrooms so close at hand at all times.  
+      
+    \* The patch will not effect the Plaza lots that already exist in your city in any way. You will not need to replop existing Plaza lots unless you want to replace them with a particular style.  
+      
+    \* The original 1x Plaza lot files should not be removed or uninstalled. They are needed to support the original lots that already exist in your cities and that are not replaced by the non-random versions in this patch.  
+      
+    \* The new lots in this patch have the Budget Fix (Patch 2) already applied... but only for the Plaza lots. It will not fix the budgets of any previously plopped Plaza lots.  
+      
+    \* Once this patch is installed and used in-game, it should not be removed unless any of the new lots it contains have been removed from your cities. The patch contains actual lot files and without it, those lots would no longer function in the game although they would still show up in your cities.  
+      
+    \*\* All patch files should be installed in the Patch folder that is automatically created when properly unzipping the file. See the readme file for detailed install instructions.  
+     
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18863-peg-oww2-patch-3-control-freak-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/852b6b2ee9300c9191ebb42f38f4e9c9-product_image.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_Patch_ControlFreak.dat"
