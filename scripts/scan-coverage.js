@@ -15,8 +15,44 @@ const dedent = dedentLib.withOptions({ trimWhitespace: false });
 // Import existing index building functionality
 import { buildIndex } from './manual-add.js';
 
-// Categories to exclude (Tools, Maps, Region)
-const EXCLUDED_CATEGORIES = [115, 116, 117];
+// Complete STEX category mapping (IDs 101-122)
+// This is kept for reference/documentation purposes.
+// The API returns category names in file.category, so we don't need to map them.
+// eslint-disable-next-line no-unused-vars
+const STEX_CATEGORIES = {
+	101: 'Residential',
+	102: 'Commercial',
+	103: 'Industrial',
+	104: 'Agricultural',
+	105: 'Building Sets',
+	106: 'Civic & Non-RCI',
+	107: 'Utilities',
+	108: 'Parks & Plazas',
+	109: 'Waterfront',
+	110: 'Transportation',
+	111: 'Automata',
+	112: 'Gameplay Mods',
+	113: 'Graphical Mods',
+	114: 'Cheats',
+	115: 'Tools',
+	116: 'Maps',
+	117: 'Ready Made Regions',
+	118: 'Dependencies',
+	119: '3ds Models',
+	120: 'Obsolete & Legacy',
+	121: 'Reference & Info',
+	122: 'DLL Mods',
+};
+
+// Categories to exclude
+const EXCLUDED_CATEGORIES = [
+	// Tools
+	115,
+	// Maps
+	116,
+	// Ready Made Regions
+	117,
+];
 
 // ============================================================================
 // HELPER FUNCTIONS
