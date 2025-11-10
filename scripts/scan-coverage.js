@@ -52,6 +52,8 @@ const EXCLUDED_CATEGORIES = [
 	116,
 	// Ready Made Regions
 	117,
+	// Reference & Info
+	121,
 ];
 
 // ============================================================================
@@ -277,9 +279,8 @@ async function fetchAllStexFiles(apiKey, endpoint) {
 					return allFiles;
 				}
 
-				// Filter out excluded categories
-				const filtered = json.filter(file => !EXCLUDED_CATEGORIES.includes(file.cid));
-				allFiles.push(...filtered);
+				// Add all files (including excluded categories for complete cache)
+				allFiles.push(...json);
 
 				spinner.text = `Fetched ${allFiles.length} files so far...`;
 
@@ -1049,6 +1050,15 @@ async function run(argv) {
 			}, null, 2));
 			spinner.succeed(`Cache saved to ${styleText('cyan', `"${cacheFile}"`)}`);
 		}
+	}
+
+	// Filter out excluded categories before analysis
+	// (Cache contains all files, but we exclude certain categories from the report)
+	const totalFiles = stexFiles.length;
+	stexFiles = stexFiles.filter(file => !EXCLUDED_CATEGORIES.includes(file.cid));
+	const filteredCount = totalFiles - stexFiles.length;
+	if (filteredCount > 0) {
+		ora().succeed(`Excluded ${styleText('cyan', filteredCount.toString())} files from categories: ${EXCLUDED_CATEGORIES.join(', ')}`);
 	}
 
 	// Step 3: Find missing packages
