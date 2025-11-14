@@ -1,0 +1,94 @@
+group: cockatoo
+name: kowloon-terrace
+version: "2.0"
+subfolder: 200-residential
+info:
+  summary: Kowloon Terrace
+  description: |-
+    **The Hong Kong/ Asia BAT Team Presents…**
+
+    **Kowloon Terrace**
+
+    Model, Modding / Lotting, Custom Menu Icons & Readme – Cockatoo.
+
+    * * *
+
+    **Overview:**  Kowloon Terrace is a mid-sized Kowloon style multiuse building (shops on the ground floor – apartments or accommodation higher up) based on something I saw Cowkilla making years ago in his BAT thread. Unfortunately, Cowkilla never finished his version, so I decided to make my own. Although the model is 100% my own, and I have made some significant changes, credit goes to him for the original core design.
+
+    If anyone can read Chinese, please let me know what those various neon signs on the side of the building say! I’ll admit I have no idea; most of them were just randomly lifted from Google street view.
+
+    This model has been rendered in HD, that is, when viewed at zoom 6, the model appears at a much higher resolution than standard definition buildings. This is intended to show more detail and make certain things readable, however it also results in a much higher filesize. If your plugins folder is already bursting at the brim, I’d suggest not using, or clearing space, for this download.
+
+    I’ve also included a Dark truNite model for day/night mod users in addition to a regular Maxis truNite model for those who don’t.
+
+    In this download there are three versions included:
+
+    -   Growable stage 6 CS§§ providing 409 medium wealth jobs.
+    -   Growable stage 11 CS§§ providing 1086 medium wealth jobs (**CAM**)
+    -   Growable stage 6 CS§ providing 1628 low wealth jobs.
+    -   Growable stage 6 R§ providing 1311 low wealth residents
+    -   Plopable functional CS§§ providing 1086 medium wealth jobs.
+    -   Plopable static landmark.
+
+    **The stats are as follows:**
+
+    It's all in the README.
+
+    **Dependencies:**
+
+    These are the files you need for these lots to be able to function in the game…
+
+    • None!
+
+    **Installation:**
+
+    Copy the HKBAT folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    If you want to use the CAM version, you must also copy the CAM folder.
+
+    -   *CS$$6\_3x3\_HK Kowloon Terrace.SC4Lot  =  Growable CS§§*
+    -   *CS$$11\_3x3\_HK Kowloon Terrace.SC4Lot =  Growable CO§§  CAMeLot*
+    -   *CS$6\_3x3\_HK Kowloon Terrace.SC4Lot  =  Growable CS§*
+    -   *R$6\_3x3\_HK Kowloon Terrace.SC4Lot  =  Growable R§*
+    -   *PLOP\_CS$$\_3x3\_HK Kowloon Terrace.SC4Lot  =  Plopable CS§§*
+    -   *PLOP\_3x3\_HK Kowloon Terrace.SC4Lot  =  Landmark*
+
+    If you have any problems with my custom content, please send me (Cockatoo-210893) a private message at either Simtropolis or SC4Devotion.com.
+
+    My BAT threads: [ST](https://www.simtropolis.com/forum/messageview.cfm?catid=153&threadid=93319&enterthread=y&STARTPAGE=27), [SC4D](https://www.sc4devotion.com/forums/index.php?topic=5528.60).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/24342-hk-kowloon-terrace/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8ccf9a5d75d2062c545ff1ed155939fc-KT1.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8ccf9a5d75d2062c545ff1ed155939fc-KT2.jpg
+variants:
+  - variant: { CAM: "no", nightmode: standard }
+    assets:
+      - assetId: cockatoo-kowloon-terrace-cam
+        exclude:
+          - "/DN/"
+          - "/CS\\$\\$11_3x3_HK Kowloon Terrace.SC4Lot"
+  - variant: { CAM: "yes", nightmode: standard }
+    assets:
+      - assetId: cockatoo-kowloon-terrace-cam
+        exclude:
+          - "/DN/"
+          - "/CS\\$\\$6_3x3_HK Kowloon Terrace.SC4Lot"
+  - variant: { CAM: "no", nightmode: dark }
+    assets:
+      - assetId: cockatoo-kowloon-terrace-cam
+        exclude:
+          - "/MN/"
+          - "/CS\\$\\$11_3x3_HK Kowloon Terrace.SC4Lot"
+  - variant: { CAM: "yes", nightmode: dark }
+    assets:
+      - assetId: cockatoo-kowloon-terrace-cam
+        exclude:
+          - "/MN/"
+          - "/CS\\$\\$6_3x3_HK Kowloon Terrace.SC4Lot"
+
+---
+assetId: cockatoo-kowloon-terrace-cam
+version: "2.0"
+lastModified: "2025-09-27T18:15:00Z"
+url: https://community.simtropolis.com/files/file/24342-hk-kowloon-terrace/?do=download&r=209469

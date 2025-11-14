@@ -1,0 +1,74 @@
+group: cockatoo
+name: comalco-place
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Comalco Place
+  description: |-
+    **Cockatoo Presents…**
+
+    **Comalco Place**
+
+    ***Model, Modding / Lotting & Readme – Cockatoo.***
+
+    ***And a special thanks to everyone in the*** ***BAT*** ***forums who pushed me to go further with this one…***
+
+    ***Overview:***
+
+    Saw this one on the way home from uni one day and thought I might make it, It’s an office tower located in the heart of Brisbane. The tower is mostly accurate, with aspects of the base invented to better suit the game.
+
+    I’ve included a Dark truNite model for day/night mod users in addition to a regular Maxis truNite model for those who don’t.
+
+    In this download there are three versions included.
+
+    -   Growable stage 8 CO§§ providing 4633 medium wealth jobs. (CAMpatible)
+    -   Plopable functional CO§§ providing 4633 medium wealth jobs.
+    -   Plopable static landmark.
+
+    ***The stats are as follows:***
+
+    Stats are in the readme file.
+
+    ***Dependencies:***
+
+    These lots require no dependency files.
+
+    ***Installation:***
+
+    Copy the Cockatoo folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    -   CO$8\_6x3\_Comalco Place.SC4Lot = Growable CO§§
+    -   PLOP\_CO$\_6x3\_Comalco Place.SC4Lot = Plopable CO§§
+    -   PLOP\_6x3\_Comalco Place.SC4Lot = Landmark
+
+    ***Problem, Officer?***
+
+    If you experience any problems, don't hesitate to send me a message.
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/26516-comalco-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/66d7d03da4d9734362b42a40279da8b4-cpf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/49eb289b1158f05013a72e4b31c05537-cp1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/8697b1f7cd81348eab501139fb689326-cp2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/48b6f7f0b5209da4fcbdf6657932ea40-cp3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/f43c2cfa78308f926a97df29d26d860b-cp4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/921d097a53c0908de9688381d529cf46-cp5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/3967142ee4603005fe549ba76db86621-cp6.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cockatoo-comalco-place
+        exclude:
+          - /DN/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: cockatoo-comalco-place
+        exclude:
+          - /MN/
+
+---
+assetId: cockatoo-comalco-place
+version: "2.0"
+lastModified: "2025-09-25T21:12:29Z"
+url: https://community.simtropolis.com/files/file/26516-comalco-place/?do=download&r=209414

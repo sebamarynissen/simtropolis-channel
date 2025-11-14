@@ -1,0 +1,113 @@
+group: cockatoo
+name: united-nations-building
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: United Nations Building
+  description: |-
+    **The United Nations Project Proudly Presents…**
+
+    **The United Nations Building**
+
+    ***Contributors to the project include: Amthaak, Cockatoo, Jasoncw and SimFox***
+
+    ***And a special thanks goes to everyone in the Simtropolis*** ***BAT*** ***forums who provided us with feedback, support and that all important motivation to get stuff done…***
+
+    ![STEXDCD.jpg](http://i90.photobucket.com/albums/k248/cockatoo-210893/STEXDCD.jpg)
+
+    ***Overview:***
+
+    Finally… it’s done. After 18 months of modelling, texturing, lighting, rendering, problems, more problems, hotfixes and caffeine, it gives me great pleasure to finally be able to share with you the fruits of our labour!
+
+    The United Nations Building (or Headquarters) was constructed on a dedicated site overlooking the banks of New York City's East River to house the newly formed body in the wake of the Second World War. An icon of modernist Architecture, the complex was collaboratively designed by a group of leading Architects of the period, including Oscar Niemeyer and even the famed Le Corbusier. At the time of its construction, the complex was revolutionary in both building techniques and design, being one of the first constructions in the world to sport a sleek modernist exterior that is now common in cities all over the world. Aside from occasional renovations and several additional structures, the complex remains in much the same state today as it did almost 60 years ago.
+
+    Done in much the same spirit as the real world building, we set out to recreate the massive complex collaboratively. The foundations were laid out in Australia with building plans being flown in from Finland. The glass, marble and asphalt were all imported from the United States and the fountain was especially made in France. This really was an international effort.
+
+    Just fitting into a single model file, the complex measures an enormous 18x11 SC4 tiles, making it one of the largest modes to ever be exported for this game. Additionally, weighing in at a massive 14.5 million polygons as well as utilising many of 3ds Max's more advanced features, it's also one of the heaviest models ever exported, requiring no less than 8GB of memory to resolve.
+
+    We tried our best to re-create the complex with as much attention to detail and accuracy as possible, and we hope you'll enjoy seeing our creation in your cities.
+
+    ***Versions Available:***
+
+    We’ve made available a Dark truNite model for day/night mod users in addition to a regular Maxis truNite model for those who don’t. Select the version appropriate to you after clicking the download button.
+
+    There are also two different lot files that can be installed. They are listed below.
+
+    -   A growable stage 8 CO§§ providing 5983 medium wealth jobs.
+    -   A growable stage 12 CO§§ providing 17,943 medium wealth jobs. (**CAM**)
+    -   A Plopable CO§§
+    -   A plopable static landmark.
+
+    For those who use Submenu DLL, you will find the Landmark version in the dedicated submenu for the United Nations.
+
+    ***The stats are as follows:***
+
+    See the readme for full details.
+
+    ***Dependencies:***
+
+    These are the files you need for these lots to be able to function in the game…
+
+    • None!
+
+    ***Installation:***
+
+    Copy the Cockatoo folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    If you want to use the CAM version, you must also copy the CAM folder.
+
+    -   *CO$8\_18x11\_United Nations Building.SC4Lot = Growable CO§§*
+    -   *CO$$12\_18x11\_United Nations Building.SC4Lot = Growable CO§§ CAMeLot*
+    -   *PLOP\_CO$$\_18x11\_United Nations Building.SC4Lot = CO§§ Popplable*
+    -   *PLOP\_18x11\_United Nations Building.SC4Lot = Landmark*
+
+    ***Problems?***
+
+    If you experience any problems with this BAT, please leave your feedback in the comments section and we’ll try our best to help you out. Alternatively, you can send a private message to Cockatoo at Simtropolis.com | Want to know how we made this? [Click here](https://www.simtropolis.com/forum/topic/38406-project-thread-the-united-nations-building/).
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/27089-united-nations-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/77cf1ef47d7d8741278ea3b728817728-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/2758cb342b984b0dc4e8db7643512f5b-stex02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/d3f8377cb4f715e81d08ab77eeeecc04-stex03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/0894852958b8c2cf7155eeb11cb15874-stex04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/d53d5c5e6f91df61bd7c466d1eb7f803-stex05m.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/437bc512c3cabada20ea4e87c409786b-stex06m.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/8747c39291430807dad6a33d8531920d-stex07m.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/0deff25e20a3c30ba168f5b755bf7564-stex08m.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/18ac2a511fd1203788060142a1cbe996-stex05d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e845db8afe397959243b55f92540e23f-stex06d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/2550d5ec05bad5742544ae5079211d8c-stex07d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/c2a9c4cbafd2b8c369385eb7458d086c-stex08d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/b1b4a7e4557c5836238e8c6d27439b36-stex00r1.jpg
+variants:
+  - variant: { CAM: "no", nightmode: standard }
+    assets:
+      - assetId: cockatoo-united-nations-building-cam
+        exclude:
+          - "/DN/"
+          - "/CO\\$\\$12_18x11_United Nations Building.SC4Lot"
+  - variant: { CAM: "yes", nightmode: standard }
+    assets:
+      - assetId: cockatoo-united-nations-building-cam
+        exclude:
+          - "/DN/"
+          - "/CO\\$\\$8_18x11_United Nations Building.SC4Lot"
+  - variant: { CAM: "no", nightmode: dark }
+    assets:
+      - assetId: cockatoo-united-nations-building-cam
+        exclude:
+          - "/MN/"
+          - "/CO\\$\\$12_18x11_United Nations Building.SC4Lot"
+  - variant: { CAM: "yes", nightmode: dark }
+    assets:
+      - assetId: cockatoo-united-nations-building-cam
+        exclude:
+          - "/MN/"
+          - "/CO\\$\\$8_18x11_United Nations Building.SC4Lot"
+
+---
+assetId: cockatoo-united-nations-building-cam
+version: "2.0"
+lastModified: "2025-09-30T18:00:11Z"
+url: https://community.simtropolis.com/files/file/27089-united-nations-building/?do=download&r=209498

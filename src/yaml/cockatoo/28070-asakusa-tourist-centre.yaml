@@ -1,0 +1,49 @@
+group: cockatoo
+name: asakusa-tourist-centre
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Asakusa Tourist Centre
+  description: |-
+    Asakusa Tourist Centre
+
+    by Cockatoo
+
+    Originally modelled for separate project, I've brought my rough re-creation the Asakusa Tourist Centre (Asakusa, Japan) to SimCity 4. I’ve made available a Dark truNite model for day/night mod users in addition to a regular Maxis truNite model for those who don’t, select your version after pressing the download button. Models have also been exported in HD for your zoom-6 viewing pleasure.
+
+    Three lots are available: A growable stage 5 CS§§§ providing 24 medium wealth jobs, a plopable functional CS§§§ providing 24 high wealth jobs and a plopable static landmark. All fit nicely onto a 1x1 left-hand corner lot.
+
+    There are no dependencies.
+
+    Copy the Cockatoo folder into the Plugins folder. Select whether to use the Maxis Nite (MN) or Dark Nite (DN) version, deleting the MN or DN folders accordingly.
+
+    Post problems in the comments section, or send me a PM. If your nightlights aren't working (yeah, I get a lot of messages about this), please make sure you've updates your game.
+
+    Cheers!
+
+    Cockatoo.
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/28070-asakusa-tourist-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/9b23d7c02919a6dbe49717cc1924629a-ats1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/dc62d741ffa4b50aa423694ba3b4c251-ats2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/babff15fae7015c786728e180464e31d-ats3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/14f3e12ff5fe221ae61b83821bf0a8fb-ats4.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cockatoo-asakusa-tourist-centre
+        exclude:
+          - /DN/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: cockatoo-asakusa-tourist-centre
+        exclude:
+          - /MN/
+
+---
+assetId: cockatoo-asakusa-tourist-centre
+version: "2.0"
+lastModified: "2025-09-27T17:30:19Z"
+url: https://community.simtropolis.com/files/file/28070-asakusa-tourist-centre/?do=download&r=209438
