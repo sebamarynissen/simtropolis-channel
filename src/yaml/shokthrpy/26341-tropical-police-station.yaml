@@ -1,0 +1,70 @@
+group: shokthrpy
+name: tropical-police-station
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: Tropical Police Station
+  description: |-
+    Here is the fourth lot in my series of tropically themed civics, the police station. The stats are similar to the default Small Police Station, with the exception of an increased coverage area and a couple more jobs.
+
+    **Stats**
+
+    Lot size: 3 x 2 tiles
+
+    Menu position: Building: Civic,Building: Police
+
+    Jobs: Jobs $ : 10,Jobs $$ : 12,Jobs $$$ : 0,R-$ : 10,R-$$ : 12,R-$$$ : 0
+
+    Plop cost: 250
+
+    Bulldoze cost: 100
+
+    Monthly cost: 125
+
+    Coverage Radius: 400
+
+    Flammability: 36
+
+    Max. Fire Stage: 2
+
+    Power consumption: 2 MWh/month
+
+    Water consumption: 2 Gallons/month
+
+    Air pollution: 1 over 2 tiles
+
+    Water pollution: 1 over 3 tiles
+
+    Garbage pollution: 5 over 1 tiles
+
+    **Dependencies**
+
+    [HBS\_FloraPropPackvol.01.dat](https://www.simtropolis.com/forum/files/file/24398-hbs-flora-prop-pack-vol-01/)
+
+    [BSC MEGA Props SG Vol 01](https://www.simtropolis.com/forum/files/file/15287-bsc-mega-props-sg-vol-01/)
+
+    SHK TPS Props.dat - Included
+
+    **Support**
+
+    If you encounter any problems please visit my BAT thread at [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0)
+
+    Additionally these lots will be available for download at the [WorkingMan Exchange](http://workingman-productions.co.uk/downloads/shore_downloads.html).
+  author: shokthrpy
+  website: https://community.simtropolis.com/files/file/26341-shk-tropical-police-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/213763c814cc6d36b4c1e1d2d53bd83f-shktps1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/d45e043e0407223f993ba06570a57f42-shktps2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/5d78add4b219e2f448abb08bae0ef5c7-shktps3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/451ddadf36add2382ddaa74cc626d28e-shktps4.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - heblem:flora-prop-pack-vol01
+assets:
+  - assetId: shokthrpy-tropical-police-station
+
+---
+assetId: shokthrpy-tropical-police-station
+version: "1.0"
+lastModified: "2011-06-11T21:57:02Z"
+url: https://community.simtropolis.com/files/file/26341-shk-tropical-police-station/?do=download&r=87326

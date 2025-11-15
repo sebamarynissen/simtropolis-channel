@@ -1,5 +1,6 @@
 export default {
 	587: 'bsc:textures-vol02',
+	1147: 'orange:mega-props-vol01',
 	1335: 'blanco:train-prop-pack-sd',
 	1516: 'blanco:tram-prop-pack',
 	1573: 'blanco:train-prop-pack',

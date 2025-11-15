@@ -1,0 +1,66 @@
+group: shokthrpy
+name: csx-jacaranda-mmps
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: CSX Jacaranda MMP's
+  description: |-
+    This is a fairly in-depth MMP of CSX's Jacaranda trees created by Colyn. Included are 5 separate files any of which can function on their own or all together, so you are free to pick and choose which you would like to keep or remove.
+
+    The first two are seasonal sets and require the Seasonal Flora Patch in order to function properly. If you do not plan to use the seasonals this dependency is not needed. The original prop set is a 4 stage seasonal, however due to the limitations of MMP's only 3 stages can be used. Because of this I have created two seasonal sets:
+
+    -   SHK\_CSX\_Jacaranda\_Seasonal\_A.dat - A more realistic seasonal where the trees will drop their leaves.  
+        
+    -   SHK\_CSX\_Jacaranda\_Seasonal\_B.dat - A more colorful seasonal utilizing the floral, summer and fall variances.  
+        
+
+    **\*Note - For proper seasonal alignment, it is necessary to pause and plant on the 1st of September of the simulation clock.**
+
+    The remaining 3 files are individual sets for the Summer and two Floral varieties, as such they are static/non seasonal.
+
+    -   SHK\_CSX\_Jacaranda\_Summer.dat - Stay green all year long  
+        
+    -   SHK\_CSX\_Jacaranda\_Flower\_A.dat - A bluish purple variety.  
+        
+    -   SHK\_CSX\_Jacaranda\_Flower\_B.dat - A pink and purple variety.  
+        
+
+    All sets have multiple trees that can be cycled through with subsequent mouse clicks.
+
+    I created this MMP out of my own particular affinity with this tree, and while it's certainly not for everyone, hopefully others can now enjoy it as much as I have.
+
+    **Dependencies**
+
+    [CSX MEGA Props - Vol06.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=633)
+
+    [Seasonal Flora Patch For All Terrain Mods](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2612) - Only needed if using the seasonals.
+
+    **Credits**
+
+    Modding by shokthrpy. Original models by Colyn of CSX.
+
+    **Support**
+
+    If you encounter any problems please visit my BAT thread at [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0)
+
+    Additionally these lots will be available for download at the [WorkingMan Exchange](http://workingman-productions.co.uk/downloads/shore_downloads.html).
+  author: shokthrpy
+  website: https://community.simtropolis.com/files/file/26649-shk-csx-jacaranda-mmps/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/1a3d405e17de2e7bf1653d987ce09239-shkjac01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/6d3c2ed9f54683cf32edbcafda0674f0-shkjac02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/88567a0e4778d4b599386f256ab57a07-shkjac03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/cfbbcfa87973d63eefce3a40162915c5-shkjac04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/a9fa5ea19c31df2d4d5aee47c3afb99b-shkjac05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/a810b6d9d51d9b5ad3453ca340f34e87-shkjac06.jpg
+dependencies:
+  - csx:mega-props-vol06
+  - lowkee33:seasonal-flora-patch-maxis
+assets:
+  - assetId: shokthrpy-csx-jacaranda-mmps
+
+---
+assetId: shokthrpy-csx-jacaranda-mmps
+version: "1.0"
+lastModified: "2011-08-16T07:01:46Z"
+url: https://community.simtropolis.com/files/file/26649-shk-csx-jacaranda-mmps/?do=download&r=90695

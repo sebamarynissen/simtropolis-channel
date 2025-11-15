@@ -1,0 +1,37 @@
+group: shokthrpy
+name: maxis-palm-replacement-mod
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Maxis Palm Replacement Mod
+  description: |-
+    Most people have a rather strong aversion to the standard Maxis palms, and I can certainly share that sentiment. However for those of us who like to create tropical landscapes it seems a shame to give up the palm tree when we can just replace it.
+
+    Here I present a simple mod I created for myself that will replace all Maxis palm trees with Heblem's excellent variety. This includes all street and road palms, as well as any instances on standard or custom lots. In addition I have configured this mod to place only the large Heblem palms on streets and roads, but use a family of the large and medium type on any lots using the Maxis palms.
+
+    Lastly while it's impractical to test this with every single street mod out there, I did test this using Jeronij's Street Side Mod and the SFBT Street Tree Mod. As long as this file is run after either of these mods, all aspects of them will remain unchanged with the exception of the street trees being replaced with Heblem's.
+
+    **Dependencies**
+
+    [HBS\_FloraPropPackvol.01.dat](https://www.simtropolis.com/forum/files/file/24398-hbs-flora-prop-pack-vol-01/)
+
+    **Support**
+
+    If you encounter any problems please visit my BAT thread at [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0)
+
+    Additionally these lots will be available for download at the [WorkingMan Exchange](http://workingman-productions.co.uk/downloads/shore_downloads.html).
+  author: shokthrpy
+  website: https://community.simtropolis.com/files/file/26654-shk-maxis-palm-replacement-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/ee88f4254cbc1b47e03d6635d31a481c-shkstreetmod01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/291d65f39ce0d406138d366e692dbfe9-shkstreetmod02.jpg
+dependencies:
+  - heblem:flora-prop-pack-vol01
+assets:
+  - assetId: shokthrpy-maxis-palm-replacement-mod
+
+---
+assetId: shokthrpy-maxis-palm-replacement-mod
+version: "1.0"
+lastModified: "2011-08-17T12:55:09Z"
+url: https://community.simtropolis.com/files/file/26654-shk-maxis-palm-replacement-mod/?do=download&r=90740
