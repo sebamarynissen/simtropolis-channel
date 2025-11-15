@@ -1,0 +1,65 @@
+group: magneto
+name: trees-on-roundabouts
+version: "0.9"
+subfolder: 700-transit
+info:
+  summary: Trees on roundabouts
+  description: |-
+    Here is a little T21 mod that will add seasonal flora (mostly trees) on your street and road roundabouts.
+
+    Flora will show only when the roundabout is zoned, and if it was built prior to the present mod installation, you'll have to click with the street tool to trigger flora.
+
+    Note that there are 4 different instances of trees for Residential & Commercial §§-§§§ and 2 different instances of flora for Industrial and Low-wealth R & C. You can "cycle" through the various instances by clicking on the street tool, but the selection will be totally random.
+
+    Please allow some time for the flora to appear, as it's seasonal.
+
+    Res & Com §§-§§§: chestnut, maple, ash, aesculus
+
+    Ind & Low wealth Res Com: bushes (2 slightly different types).
+
+    **Installation**
+
+    Anywhere in your plugins, but the mod must load after the NAM as some exemplars share the same ID.
+
+    **Uninstallation**
+
+    Remove the mod from the plugins folder and click on the roundabouts where there's flora with the street tool to revert.
+
+    **Dependencies**
+
+    [BSC - VIP girafe ashes](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854) (only the LE file is needed)
+
+    [BSC - VIP girafe chestnuts (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049)
+
+    [VIP orange aesculus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2734)
+
+    [BSC - VIP girafe maples v2 (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809) (only the LE file is needed)
+
+    [BSC - VIP girafe bushes (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2711)
+
+    This mod is still in beta stage
+
+    *Suggestions or Problems with this mod: report **[here](https://community.simtropolis.com/topic/62851-complaints-office-magnetos-mods-thread/)** please*
+  author: Magneto
+  website: https://community.simtropolis.com/files/file/29310-trees-on-roundabouts/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/815f2cb615da24e03d02552a6ef5f270-s1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/ddf0e8e32cd689ed3be1657b394f7c24-s2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/bf739a849437844f1612064cb2d6040d-s5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/d8c1757c485b25735d15526242cbed59-s3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/704dccea59ab5bc85554225a2364cb06-s4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/7a605123c69bee2b74662185574e2dde-s6.jpg
+dependencies:
+  - orange:aesculus
+  - girafe:ashes
+  - girafe:bushes
+  - girafe:chestnuts
+  - girafe:maples-v2
+assets:
+  - assetId: magneto-trees-on-roundabouts
+
+---
+assetId: magneto-trees-on-roundabouts
+version: "0.9"
+lastModified: "2014-03-02T01:20:07Z"
+url: https://community.simtropolis.com/files/file/29310-trees-on-roundabouts/?do=download&r=133635
