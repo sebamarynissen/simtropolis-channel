@@ -1,0 +1,95 @@
+group: magneto
+name: sayonara-maxis-trees
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: Sayonara! Maxis Trees
+  description: |-
+    100% inspired by Marsh's [Maxis Tree Replacement Mod](https://community.simtropolis.com/files/file/26804-maxis-tree-replacement-mod/), I present you the **Sayonara! Maxis Trees** Mod, my personal take on Maxis flora replacement. It will instantly replace every instance of Maxis tree flora and tree props from your lots, T21 mods and mayor mode plopped trees.
+
+    While I acknowledge Marsh's mod has a fine and visually appealing selection of trees, it sometimes does take a bit too much space and leads to undesired effects, making lots and streets look a bit overcrowded in my opinion. This mod was created to avoid this - the mindset was to replace trees with trees of similar size and volume.
+
+    Palm trees were deliberatly omitted as they do not fit in every type of city, but you still can use SHK's [Maxis Palm Replacement Mod](https://community.simtropolis.com/files/file/26654-shk-maxis-palm-replacement-mod/) if you wish to have palm trees; just make sure it loads after the present mod and you'll be set.
+
+    **Update 1.1**
+
+    Originally the mod used quite extensively beeches props as replacement but those were unavalaible to download for some time. Now that Girafe released a new livery of the beeches, the mod is exactly how I designed it in the first place. Also flora parameters left in their original state could lead to unpredictable and/or undesirable effects when used with advanced tree controllers- those were corrected to ensure proper functionality with said controllers. Many thanks to blunder for the heads-up!
+
+    PS: the screenshots haven't been updated... Feeling lazy ![:blush:](https://community.simtropolis.com/assets/emoticons/LlamaBlush.gif)
+
+    **Installation**
+
+    Drop anywhere in your plugins folder to enable, delete to revert.
+
+    **Additional Note**
+
+    This mod was separated in 2 parts: one for prop replacement, the other for flora. You'll notice there are 2 flora replacement files: **Maxis Tree Flora Replacement Regular.dat** and **Maxis Tree Flora Replacement Enhanced.dat**. They both replace the same trees but the "Boost" version is twice more effective against pollution and the radius has been increased too (originally -2 over 2 tiles, improved to -4 over 4 tiles). Choose one and delete the other. Should you keep them both for whatever reason, the regular version will override the enhanced version.
+
+    **Regular or enhanced?**
+
+    I didn't have the time to test this extensively, The use of enhanced version in an existing region *may trigger* undesired effects related to pollution. Therefore I advise to avoid it's use in such circumstances. However if you start fresh, you should have no troubles using the enhanced iteration as long as you keep it in your plugins (and do not swap for regular every now and then).
+
+    Fortune may favors the bold!
+
+    **Dependencies**
+
+    [BSC mega props cp vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC mega props cp vol 02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    [BSC - VIP girafe honey locust](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3065) (only **Grfe\_props\_pack\_LE\_HONEYLOCUST.dat** is needed)
+
+    [BSC - VIP girafe chestnuts](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049) (only **Grfe\_props\_pack\_MM\_chestnuts.dat** is needed)
+
+    [BSC - VIP girafe lindens](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869) (only **Grfe\_props\_pack\_LE\_lindens.dat** is needed)
+
+    [BSC - VIP girafe ashes](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854) (only **Grfe\_props\_pack\_LE\_ashes.dat** is needed)
+
+    [BSC - VIP girafe oaks](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2632) (only **Grfe\_props\_pack\_oaks.dat** is needed)
+
+    [BSC - VIP girafe beeches](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995) (only **Grfe\_props\_pack\_LE\_beeches.dat** is needed)
+
+    [VIP orange aesculus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2734) (only **VIP\_Or\_Aesculus\_Props.dat** is needed)
+
+    [VIP orange fagus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2733) (only **VIP\_Or\_Fagus\_Props.dat** is needed)
+
+    ! To avoid brown boxes, be sure to have the latest version of those files.
+
+    **Credits**
+
+    \-thanks to Girafe for the superb tree models;
+
+    \-thanks to blunder for sharing his knowledge and many 0s;
+
+    \-...and thanks to \_marsh\_ for the original idea!
+
+    **さようなら**
+
+    *Suggestions or Problems with this mod: report **[here](https://community.simtropolis.com/topic/62851-complaints-office-magnetos-mods-thread/)** please*
+  author: Magneto
+  website: https://community.simtropolis.com/files/file/29333-sayonara-maxis-trees/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/354646cc4f7c74baa40f0692e4fa04e6-me1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/c3474630caa85515c80c89536e2c1c03-flora.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/b5ff04fb80dac55c573bb20d4b7fe844-me2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - girafe:honey-locust
+  - girafe:chestnuts
+  - girafe:lindens
+  - girafe:ashes
+  - girafe:oaks
+  - orange:aesculus
+  - orange:fagus
+  - girafe:beeches
+assets:
+  - assetId: magneto-sayonara-maxis-trees
+    exclude:
+      - "/Maxis Tree Flora Replacement Regular.dat"
+
+---
+assetId: magneto-sayonara-maxis-trees
+version: "1.1"
+lastModified: "2014-03-17T13:01:47Z"
+url: https://community.simtropolis.com/files/file/29333-sayonara-maxis-trees/?do=download&r=133619
