@@ -1,86 +1,91 @@
-# TODO - getting a missing model texture for the underbridge pieces i'm not really in the mood to investigate right now
+group: hugues-aroux
+name: walls-sets
+version: "1.2.0"
+subfolder: 660-parks
+info:
+  summary: Scoty Walls Sets
+  description: |-
+    This plugin offers Lots of “Walls on Slopes” in 6 sets of textures:  
+    **Sandstone, Granite, Brick, Concrete, Rubble and Retaining**  
+    (see attached illustrations).
 
-# group: hugues-aroux
-# name: walls-sets
-# version: "1.2.0"
-# subfolder: 660-parks
-# info:
-#   summary: Scoty Walls Sets
-#   description: |-
-#     This plugin offers Lots of “Walls on Slopes” in 6 sets of textures:  
-#     **Sandstone, Granite, Brick, Concrete, Rubble and Retaining**  
-#     (see attached illustrations).
+    Each set has around 35 pieces, it depends... of my mood. The textures adapt to the different shapes that the Terrain tiles can take. Lots are of several types:
 
-#     Each set has around 35 pieces, it depends... of my mood. The textures adapt to the different shapes that the Terrain tiles can take. Lots are of several types:
+    -   Straight – 1 to 3 variations,
+    -   Intermediate straight (without wall, parapet or fence),
+    -   Stairs - (pedestrian Transit Enable) simple and double tile ramp from MAS71,
+    -   Diagonal Top - 1 to 4 variations of the ground,
+    -   Diagonal Bottom - 1 to 4 var' + L|R ends of wall pieces,
+    -   Inner corner,
+    -   Outer corner (rare that one... isn’t it!) - with L|R ends of wall,
+    -   Filler - to «close» a space or extend the parapet on the flat (or not) tiles,
+    -   Transition - joining two (textures) walls,
+    -   Underbridge - from the left/right for 3 terrain heights: 8, 15 and 22 m.
 
-#     -   Straight – 1 to 3 variations,
-#     -   Intermediate straight (without wall, parapet or fence),
-#     -   Stairs - (pedestrian Transit Enable) simple and double tile ramp from MAS71,
-#     -   Diagonal Top - 1 to 4 variations of the ground,
-#     -   Diagonal Bottom - 1 to 4 var' + L|R ends of wall pieces,
-#     -   Inner corner,
-#     -   Outer corner (rare that one... isn’t it!) - with L|R ends of wall,
-#     -   Filler - to «close» a space or extend the parapet on the flat (or not) tiles,
-#     -   Transition - joining two (textures) walls,
-#     -   Underbridge - from the left/right for 3 terrain heights: 8, 15 and 22 m.
+    I would like to mention here the contribution of [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/) which offered the small, but no less essential, Prop which made it possible to manufacture the «underbridges» quickly and easily. For your pleasure .. and mine!  
+    Speaking of Bridge, the **Sandstone, Concrete and Retaining sets are «floodable»**, meaning that several pieces of this set can be placed on submerged Terrain tiles (Maxis water).
 
-#     I would like to mention here the contribution of [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/) which offered the small, but no less essential, Prop which made it possible to manufacture the «underbridges» quickly and easily. For your pleasure .. and mine!  
-#     Speaking of Bridge, the **Sandstone, Concrete and Retaining sets are «floodable»**, meaning that several pieces of this set can be placed on submerged Terrain tiles (Maxis water).
+    Speaking of water, diagonal pieces (for all sets) come with either a grassy/sidewalk half or «empty»!  
+    That is to say that part of it is transparent and allows the Terrain to be seen. This implies, in a standard game situation, the appearance of the «water bug» after using the Pipes tool... Unless of course you use the solution proposed here:  
+     .. Simtropolis <[coris-partial-water-bug-fix](https://community.simtropolis.com/forums/topic/760847-coris-partial-water-bug-fix-ready-for-testing/?tab=comments#comment-1767299)\> Topic ..  
+    Otherwise, well... don’t use these Lots! You have been warned ;-)!
 
-#     Speaking of water, diagonal pieces (for all sets) come with either a grassy/sidewalk half or «empty»!  
-#     That is to say that part of it is transparent and allows the Terrain to be seen. This implies, in a standard game situation, the appearance of the «water bug» after using the Pipes tool... Unless of course you use the solution proposed here:  
-#      .. Simtropolis <[coris-partial-water-bug-fix](https://community.simtropolis.com/forums/topic/760847-coris-partial-water-bug-fix-ready-for-testing/?tab=comments#comment-1767299)\> Topic ..  
-#     Otherwise, well... don’t use these Lots! You have been warned ;-)!
+    **Installation**  
+    Unzip the file to your Plugins/ directory.  
+    The 6 Sets will be in Scoty/scoty Walls Sets/  
+    If you do not wish to keep all 6 sets, take care to always keep: MGB\_UBprop\_ScotyWalls.dat
 
-#     **Installation**  
-#     Unzip the file to your Plugins/ directory.  
-#     The 6 Sets will be in Scoty/scoty Walls Sets/  
-#     If you do not wish to keep all 6 sets, take care to always keep: MGB\_UBprop\_ScotyWalls.dat
+    **Use**  
+    The Lots of the Scoty Walls Sets are present in the «Energy - electrical network» menu of the game. The Sets and their Lots in (almost) the order in which I present them above.  
+    Each Lot has an orange arrow indicating the top of it. For so-called “Filler” Lots, this arrow indicates the interior of the zone they define (as opposed to the parapet, barrier, etc.).
 
-#     **Use**  
-#     The Lots of the Scoty Walls Sets are present in the «Energy - electrical network» menu of the game. The Sets and their Lots in (almost) the order in which I present them above.  
-#     Each Lot has an orange arrow indicating the top of it. For so-called “Filler” Lots, this arrow indicates the interior of the zone they define (as opposed to the parapet, barrier, etc.).
+    Like many textures of this type, the deformation beyond 12-15 m of elevation is quite strong, but the "Concrete" and "retaining" walls should support more stretching.
 
-#     Like many textures of this type, the deformation beyond 12-15 m of elevation is quite strong, but the "Concrete" and "retaining" walls should support more stretching.
+    Yes, yes, I'm a big lazy guy and a bit teasing, and you will have to rack your brains to make certain connections between textures.
 
-#     Yes, yes, I'm a big lazy guy and a bit teasing, and you will have to rack your brains to make certain connections between textures.
+    The ZIP contains an illustrated guide, which also shows the transition textures.
 
-#     The ZIP contains an illustrated guide, which also shows the transition textures.
+    **Dependencies**  
+    [Japanese Walls Set](https://community.simtropolis.com/files/file/17875-japanese-walls-set/)  
+    (only JPN\_Walls\_Props\_One-Design\_mas71.dat or JPN\_Walls\_Props\_All-Design\_mas71.dat)  
+    [Nams Props Pack Vol 2](https://www.toutsimcities.com/downloads/view/1882)  
+    [BSC VIP Girafe Flora Pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora) .. (Daisy, Rowan, Feathers, Beeches, Bushes, Sparaxis)  
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) .. (Grfe hedge, BSC MEGA Props - CP Vol01)  
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)  
+    [NekoPropSet03](http://hide-inoki.com/bbs/archives/sc4_0837.html)    
+    [WMP Mega Props vol. 01 - Misc General Props](https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/)  
+    [SPOT](https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/)
 
-#     **Dependencies**  
-#     [Japanese Walls Set](https://community.simtropolis.com/files/file/17875-japanese-walls-set/)  
-#     (only JPN\_Walls\_Props\_One-Design\_mas71.dat or JPN\_Walls\_Props\_All-Design\_mas71.dat)  
-#     [Nams Props Pack Vol 2](https://www.toutsimcities.com/downloads/view/1882)  
-#     [BSC VIP Girafe Flora Pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora) .. (Daisy, Rowan, Feathers, Beeches, Bushes, Sparaxis)  
-#     [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) .. (Grfe hedge, BSC MEGA Props - CP Vol01)  
-#     [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)  
-#     [NekoPropSet03](http://hide-inoki.com/bbs/archives/sc4_0837.html)    
-#     [WMP Mega Props vol. 01 - Misc General Props](https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/)  
-#     [SPOT](https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/)
+    Many thanks to the authors of the dependencies above.
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/35922-scoty-walls-sets/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_gres.jpg.87992f1ef43e8145e70741b95f781d8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_granite.jpg.2ea18e474704b03622f25b2967ac0246.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_brick.jpg.920516594b06d8e4bebd0d8d085bd15b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_beton.jpg.1ce3ba5815f56aebe3673dd125e62a5e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_moel.jpg.5aee9989277d1e78a4967813d3e6ae7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_souten.jpg.3fd46de8e44253d9a7257946d340bbd7.jpg
+dependencies:
+  - mas71:japanese-walls-set-props
+  - namspopof:props-pack-vol2
+  - girafe:daisy
+  - girafe:rowan-trees
+  - girafe:feather-grass
+  - girafe:beeches
+  - girafe:bushes
+  - girafe:sparaxis
+  - bsc:mega-props-cp-vol01
+  - girafe:hedges
+  - shk:parking-pack
+  - wmp:mega-props-vol01
+  - neko:prop-set-vol03
+  - peg:spot
+assets:
+  - assetId: hugues-aroux-scoty-walls-sets
 
-#     Many thanks to the authors of the dependencies above.
-#   author: hugues aroux
-#   website: https://community.simtropolis.com/files/file/35922-scoty-walls-sets/
-#   images:
-#     - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_gres.jpg.87992f1ef43e8145e70741b95f781d8a.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_granite.jpg.2ea18e474704b03622f25b2967ac0246.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_brick.jpg.920516594b06d8e4bebd0d8d085bd15b.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_beton.jpg.1ce3ba5815f56aebe3673dd125e62a5e.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_moel.jpg.5aee9989277d1e78a4967813d3e6ae7a.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2024_01/ntc_souten.jpg.3fd46de8e44253d9a7257946d340bbd7.jpg
-# dependencies:
-#   - mas71:japanese-walls-set-props
-#   - bsc:mega-props-cp-vol01
-#   - girafe:hedges
-#   - namspopof:props-pack-vol2
-#   - peg:spot
-#   - shk:parking-pack
-#   - wmp:mega-props-vol01
-# assets:
-#   - assetId: hugues-aroux-scoty-walls-sets
-
-# ---
-# assetId: hugues-aroux-scoty-walls-sets
-# version: "1.2.0"
-# lastModified: "2025-11-16T14:58:09Z"
-# url: https://community.simtropolis.com/files/file/35922-scoty-walls-sets/?do=download&r=199085
+---
+assetId: hugues-aroux-scoty-walls-sets
+version: "1.2.0"
+lastModified: "2025-11-16T14:58:09Z"
+url: https://community.simtropolis.com/files/file/35922-scoty-walls-sets/?do=download
