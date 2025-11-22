@@ -1,0 +1,135 @@
+group: hugues-aroux
+name: modular-parking
+version: "1.3.0"
+subfolder: 700-transit
+info:
+  summary: Scoty Modular Parking
+  description: |-
+    This plugin mainly offers prefabricated parking modules (ortho) Straight or Angled. To which are added 240 Lots (1x1) for lovers of precision, and adapt your POP parking to the geometry of the roads and surrounding spaces. (ortho and diagonal).  
+    An included guide provides all the details, here is a summary.  
+    Composition of the pack:
+
+    **POP**. Prefabricated Orthogonal Parking. 21 Lots of 1x3, 2x3 and 3x3. Everything you need to build a large parking (ortho bays) or a simple 3x3 parking, in just a few clicks.
+
+    **Bus prefab A, bus prefab B, Road Station.** Prefabricated bus Parking. car parking, bus stop and subway station
+
+    **Smalls Parkings**. Mini parking lots when space is scarce. Parking of 1x1, 2x1 and 2x2 ; Rural and urban
+
+    **Loop Parking**. 3 Lots : entrance, middle and end, for variable length.
+
+    **Alley Parking**. 8 Lots to make ... meandering alleys between the buildings. Lane of 2 tiles wide (2x2, 1x2).
+
+    **StreetSide A**. 14 Individual parking lots (1x1) joining together to form ortho and angle parking along street. The bus tile is a bus stop.
+
+    **StreetSide B**. 7 Individual parking lots (1x1) joining together to form parallel parking along street.
+
+    **StreetSide C**. 10 Lots of the «Alley parking» type but in 1x1. The tiles can either form an alley or a «streetside».
+
+    **Meadow**. 23 lots for rural parking. Failing to be useful as a parking lot, for decoration near fairgrounds, concerts, ...
+
+    Finally… 240 Lots, base set for ortho car parkings. Orthos and diagonals entries. Diagonal parking. Angle parking. Ortho and diagonal lateral lanes. Back yard.
+
+    .. on the occasion of the textures update - see the Scoty MP textrues dependence - and the related "Fabrik",I've added a new set of icons and a few minor modifications on Lots.
+
+    **DEPENDENCIES**
+
+    [Scoty MP textures](https://community.simtropolis.com/files/file/33635-scoty-mp-textures/) (Essential ! ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)") )
+
+    [Scoty MP essential](https://community.simtropolis.com/files/file/33636-scoty-mp-essential/) (and is dependencies)
+
+    [Grfe Flora pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+    [Grfe Hedge & Grfe UrbanPack & Mattb325 : BSCBATPropsMattb325\_Vol02](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [Helpers SPOT](https://community.simtropolis.com/files/file/24509-spot/)
+
+    [SHK parking pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [OrangeTSC MegaProp V.01](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/189-tsc-props-pack-orange-mega-props)
+
+    [SFBT\_Haltestellen\_Fluggi\_khoianh\_Props.dat](https://community.simtropolis.com/files/file/23417-european-bus-and-tram-stops/) (just this file if you don't want to keep the SFBT Bus and Tram Stations).
+
+    [Nams PROPS PACK Vol 2](https://www.toutsimcities.com/downloads/view/1882)
+
+    [Nams props pack vol 1](https://www.toutsimcities.com/downloads/view/1780)
+
+    [LRMv5](https://community.simtropolis.com/files/file/27986-light-replacement-mod-german-set/) .. Only "Models & Props.dat" and "LightCones\_MaxisNite.dat" or "LightCones\_DarkNite.dat"
+
+    [Simgoober stations](https://community.simtropolis.com/files/file/11467-suburban-bus-stop-set/) .. only SG\_BusStopLg.dat
+
+    Take a look at the guide !
+
+    **INSTALLATION and selected files.**
+
+    Unzip the “Scoty” directory in your “/Pugins” directory. Then go to the “scoty modular parking” directory. The plugin includes lots for RHD and LHD, so delete the sub-directories (nnnn\_nnn\_\[RHD/LHD\]) which do not correspond to your driving direction.
+
+    As you have downloaded the dependency "scoty MP textures":
+
+    .. then in the directory /scoty\_textures/SMP\_base\_texture\_CHOOSE\_ONE -> (!) choose one of the 14  background texture and delete the other files.
+
+    .. Keep one of the street: Maxis, Tarsealed Street of Rivit or WestWindStreet -> Files scoty\_MP\_tex\_Str\_\[Maxis|TSR|WWS\].dat - delete others !
+
+    **About the plugin.**
+
+    All the Lots of Scoty MP appear in the Menu: Utility - Power.
+
+    Almost all the Lots are for decoration (park).
+
+    With the exception of the two StreetSide A and B packs, **only Entrance Lots** are effective. They are symbolized by a yellow triangle on their icons in the menu..
+
+    All Lots use SPOT helpers (little yellow cubes) to ... help you position Lots relative to each other. They indicate the traffic lanes and the direction.
+
+    And … This plugin has been **optimized for Mac 64bit**.
+
+    **Thanks to all the Modders:**
+
+    [@Girafe](https://community.simtropolis.com/profile/319793-girafe/) (cars and flora ... ), [@RebaLynnTS](https://community.simtropolis.com/profile/68757-rebalynnts/) (SPOT), [@Orange\_o\_desespoir](https://community.simtropolis.com/profile/195182-orange_o_desespoir/) (props), SFBT Team (props), Andreas (camping RV), [@namspopof](https://community.simtropolis.com/profile/86503-namspopof/) (props), [@MandelSoft](https://community.simtropolis.com/profile/183192-mandelsoft/) (LRMv5), [@moto.kloss](https://community.simtropolis.com/profile/422335-motokloss/) (bus), [@SimCityFreak666](https://community.simtropolis.com/profile/292419-simcityfreak666/) (euro bus), [@mattb325](https://community.simtropolis.com/profile/91964-mattb325/) (station, props), [@SimGoober](https://community.simtropolis.com/profile/24419-simgoober/) (stations)
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/33642-scoty-modular-parking/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/modular_pieces.jpg.a428b745816ad6fc10f2c4dcf497d541.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/prefab_bus-A.jpg.175869ef6435da36a8627326ffc23051.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/streetside_A_02a.png.97f3766e8222ea547ca094369dfb7210.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/small_pkg_2.jpg.5d97663882afcb1aa5cabf88c01a2d3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/loop_demo_2.jpg.7a3812977ba0bf77dc2571b169b8312e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/meadow_2.jpg.13d166a1d01b15a59d38ddaa3d7571bc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/alley_lots_2.jpg.c4cf89a82739a28331b98b97521ec072.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/base_set_2.jpg.2a7ef940631df63753b92fc0ce1b7b89.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/diagonal_set.jpg.2a4bf18270044df38a1c8534b5d753d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/street_side_A.jpg.3be99d44ef75686f9864eba495240449.jpg
+dependencies:
+  - hugues-aroux:mp-textures
+  - hugues-aroux:mp-essentials
+  - mandelsoft:lrm-5-lightcones
+  - mandelsoft:light-replacement-mod-german-set-resources
+  - khoianh94:european-bus-and-tram-stops-resources
+  - sg:suburban-bus-stop-set-resources
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:bat-props-mattb325-vol02
+  - girafe:hedges
+  - namspopof:props-pack-vol1
+  - namspopof:props-pack-vol2
+  - orange:mega-props-vol01
+  - peg:spot
+  - shk:parking-pack
+  - girafe:sparaxis
+  - girafe:cypresses
+  - girafe:feather-grass
+  - girafe:rowan-trees
+variants:
+- variant: { driveside: right }
+  assets:
+  - assetId: hugues-aroux-scoty-modular-parking
+    exclude:
+    - "_LHD"
+- variant: { driveside: left }
+  assets:
+  - assetId: hugues-aroux-scoty-modular-parking
+    exclude:
+    - "_RHD"
+
+---
+assetId: hugues-aroux-scoty-modular-parking
+version: "1.3.0"
+lastModified: "2025-11-15T19:47:47Z"
+url: https://community.simtropolis.com/files/file/33642-scoty-modular-parking/?do=download&r=205421

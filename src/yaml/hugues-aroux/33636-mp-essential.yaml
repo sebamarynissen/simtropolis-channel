@@ -1,0 +1,38 @@
+group: hugues-aroux
+name: mp-essentials
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Scoty MP essential
+  description: |-
+    Set of timed families (Cars & Buses) used among others in "scoty modular parking".
+
+    **Dependencies**  
+    [Girafe car pack 1 & 2 .. SC4E : BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    [SFBT Camping](https://community.simtropolis.com/files/file/36176-sfbt-campground/) ... only SFBT\_camping\_props.dat file.  
+    [Motokloss bus](https://community.simtropolis.com/files/file/28963-ms-solaris-vacanza-12-interurbino-12-automata-props/)  
+    [European Busses Prop Pack vol. 1](https://community.simtropolis.com/files/file/24802-european-busses-prop-pack-vol-1/)
+
+    The props behind these families are produced by [@Girafe](https://community.simtropolis.com/profile/319793-girafe/),  Andreas, [@moto.kloss](https://community.simtropolis.com/profile/422335-motokloss/) and [@SimCityFreak666](https://community.simtropolis.com/profile/292419-simcityfreak666/). Thanks to them !
+
+    HA .. 01/2025 .. Updated link to Girafe CarPack
+
+    HA .. 03/2024 .. updated link to SFBT campground on ST
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/33636-scoty-mp-essential/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/img_tech_diff_ess.png.0f6fb921b2140f015cb63fff063dc587.png
+dependencies:
+  - moto-kloss:solaris-vacanza-12-and-interurbino-12-props
+  - sfbt:camping-props
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol01-vol02-remastered
+  - simcityfreak666:european-busses-prop-pack-vol1
+assets:
+  - assetId: hugues-aroux-scoty-mp-essential
+
+---
+assetId: hugues-aroux-scoty-mp-essential
+version: "1.0.0"
+lastModified: "2020-06-04T07:37:34Z"
+url: https://community.simtropolis.com/files/file/33636-scoty-mp-essential/?do=download&r=181310

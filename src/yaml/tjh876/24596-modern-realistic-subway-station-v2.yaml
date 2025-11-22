@@ -1,0 +1,92 @@
+group: tjh876
+name: modern-realistic-subway-station-v2
+version: "2"
+subfolder: 700-transit
+info:
+  summary: Modern Realistic Subway Station V2
+  description: |-
+    Back again with my v2 of my modern realsitic subway station. V2 includes some features, like better textures, a redesigned elevator, plotable versions for not only roads, but avenues too. Both are UDI enabled, so it acts as a road/avenue, and a subway station. The model is similar to v1, but v2 has improved models, as well as textures, higher capacity and more realsitic ulitity usage, and improved lot layout. There is included installation instructions, as well as all dependencies are included. Here are some more details about each lot.
+
+    Road Station
+
+    ![subwayroad2.jpg](http://img375.imageshack.us/img375/2097/subwayroad2.jpg)
+
+    ![subwayroad1.jpg](http://img828.imageshack.us/img828/7862/subwayroad1.jpg)
+
+    Size: 1x1
+
+    Capacity: 5000
+
+    Water Consumed: 10
+
+    Power Consumed: 10
+
+    Cost to plot: 100
+
+    Cost to Bulldoze: 100
+
+    Monthly cost: 20
+
+    No wealth
+
+    UDI/Traffic enabled: Yes
+
+    Avenue Station
+
+    ![subwayave2lq.jpg](http://img571.imageshack.us/img571/7026/subwayave2lq.jpg)
+
+    Size: 2x2
+
+    Water Consumed: 10
+
+    Power Consumed: 10
+
+    Capacity: 15000 (Larger station then road, each entrance can take up to 5000)
+
+    Cost to Plot: 100
+
+    Cost to Bulldoze: 100
+
+    Monthly cost: 20
+
+    No Wealth
+
+    UDI/Traffic enabled: Yes
+
+    **DEPENDENCIES INCLUDED**
+
+    Thanks for everyone's recomndations and support, as well as people who have gave me help in making these lots. Thanks to people who have tagged along in my BAT thread, and their support is escpeccially helpful. This lot is endorsed by the SImtropolis Transit BAT Team. Please do not upload these lots or any part of this upload without my permission and written approval. Thanks for veiwing my lots.
+  author: tjh876
+  website: https://community.simtropolis.com/files/file/24596-modern-realistic-subway-station-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/34fa3b222db43fa192d6fee4f7b30d36-frontpagesubwayv2fixv1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/34fa3b222db43fa192d6fee4f7b30d36-subwayave1.jpg
+assets:
+  - assetId: tjh876-modern-realistic-subway-station-v2
+    include:
+      - "\\.SC4Lot$"
+dependencies:
+  - tjh876:modern-realistic-subway-station-v2-resources
+
+---
+group: tjh876
+name: modern-realistic-subway-station-v2-resources
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Modern Realistic Subway Station V2 models and props
+  author: tjh876
+  website: https://community.simtropolis.com/files/file/24596-modern-realistic-subway-station-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/34fa3b222db43fa192d6fee4f7b30d36-frontpagesubwayv2fixv1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/34fa3b222db43fa192d6fee4f7b30d36-subwayave1.jpg
+assets:
+  - assetId: tjh876-modern-realistic-subway-station-v2
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: tjh876-modern-realistic-subway-station-v2
+version: "2"
+lastModified: "2010-08-08T21:26:51Z"
+url: https://community.simtropolis.com/files/file/24596-modern-realistic-subway-station-v2/?do=download&r=51945
