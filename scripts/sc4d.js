@@ -47,6 +47,7 @@ export default {
 	626: 'bsc:mega-props-kwk-vol01',
 	628: 'bsc:mega-props-jenx-vol01',
 	631: 'cycledogg:tree-models-part-one-and-two',
+	633: 'csx:mega-props-vol06',
 	638: 'bsc:textures-vol02',
 	663: 'ndex:its-mega-pack-vol03',
 	669: 'mas71:mega-props-vol01',
