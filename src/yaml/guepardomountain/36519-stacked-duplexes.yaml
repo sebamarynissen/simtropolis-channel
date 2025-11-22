@@ -1,0 +1,61 @@
+group: guepardomountain
+name: stacked-duplexes
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Stacked Duplexes
+  description: |-
+    This small duplex, featuring one home on each story, is based on floorplan #2U-5 from William P. Dingledy's "Duplex and income units" vintage floorplan catalog that can be found [here](https://archive.org/details/DuplexAndIncomeUnits0001/page/n13/mode/1up) (that link should work whenever the Internet Archive comes back online!).
+
+    I made two color variations: yellow walls with black roof, and white walls with red roof. For additional variety, there is also a mirrored version of each. A single building will grow on a 1x2 lot. There is also a 3x4 lot with eight duplexes.
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    Single Building:
+
+    Lot Size: 1x2
+
+    Growth Stage: 4
+
+    Capacity: 26 R$$
+
+    Building Style: Houston
+
+    Power Consumed: 1
+
+    Water Consumed: 4  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    Complex:
+
+    Lot Size: 3x4
+
+    Growth Stage: 4
+
+    Capacity: 208 R$$
+
+    Building Style: Houston
+
+    Power Consumed: 8
+
+    Water Consumed: 32  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    Dependencies:
+
+    [BSC Texture Pack Cycledogg V01](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/)
+
+    [GM Props Vol 1](https://community.simtropolis.com/files/file/36517-gm-props-vol-1/)
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/36519-stacked-duplexes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/duplexes1.jpg.bc4986619e100faf6c8ac3cadef269d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/duplexes2.jpg.ef2c13e46501b20243af95a129f6716e.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - guepardomountain:props-vol1
+assets:
+  - assetId: guepardomountain-stacked-duplexes
+
+---
+assetId: guepardomountain-stacked-duplexes
+version: "1.0.0"
+lastModified: "2024-10-20T21:06:27Z"
+url: https://community.simtropolis.com/files/file/36519-stacked-duplexes/?do=download&r=204008
