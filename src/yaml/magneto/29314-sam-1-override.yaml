@@ -1,0 +1,114 @@
+group: magneto
+name: sam-1-override
+version: "1.1.2"
+subfolder: 150-mods
+info:
+  summary: SAM 1 Override
+  description: |-
+    Here is the SAM1 override - a little mod that will reskin your SAM 1 textures and display new props for your greater pleasure! A small variation willl occur on some textures and props (as can be seen on screenshots), depending of zoning.
+
+    Not much else to say, but keep in mind that SAM 1, despite how it looks, does ***not*** have parking functionality: it's only purpose is eye-candy.
+
+    **UPDATE 1.1**
+
+    A fellow member brought to my attention a problem with the plugin - possibly due to the use of HD props and its incompatibility with software mode. For those who use software rendering and/or prefer to use SD props, a new iteration of the SAM 1 override has been created. The mod is now divided in 2 distinct folders: one for HD, one for SD. Please only use one at a time.
+
+    **What's in the packs?**
+
+    **HD Props pack**
+
+    *SAM - 1 - Parking Lots Textures.dat:* contains the new textures specific to the HD setup
+
+    *SAM - 1 - Type21.dat:* T21 files for HD car props
+
+    *Bollard.dat\*:* small post model
+
+    *Grfe\_Cars\_family\_props.dat\*:* turns those bootiful car props into bootiful family timed props
+
+    *Lot Textures.dat*: lot textures for overriding SAM1 - style parkings
+
+    **SD Props pack**
+
+    *SAM - 1 - Parking Lots Textures.dat:* contains the new textures specific to the SD setup.
+
+    *SAM - 1 - Type21.dat:* T21 files for SD car props
+
+    *Bollard.dat\*:* small post model
+
+    *Lot Textures.dat*: lot textures for overriding SAM1 - style parkings
+
+    \* files already used in the [overhanging parkings](https://community.simtropolis.com/files/file/29313-overhanging-parkings/): if you have the overhanging parkings in your plugins, you can delete them.
+
+    **Installation**
+
+    Must load after the NAM. You can also replace the texture and T21 dats directly in the SAM folder if so you desire.
+
+    **Dependencies** (all optional beside the NAM - not having these will not trigger BB's)
+
+    [NAM with the Street-Addon-Mod installed](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC - VIP girafe carpack vol. 1 & 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2821) (HD version only)
+
+    [Neko Prop Set vol 03](http://hide-inoki.com/bbs/archives/files/1391.zip) (only **N****eko\_Fence\_Black\_2m.SC4Model** and **Neko\_Fence\_Black\_2m.SC4Desc** are needed)  
+    (See [here](http://hide-inoki.com/bbs/archives/sc4_0837.html) for the main page)
+
+    **Strongly suggested for users of the SD version**
+
+    The T21 file that generates props use Maxis family cars as default; it's very likely you'll want somethng better to replace them.
+
+    Choose **one** of the following replacement mods (they all supersede Maxis family cars), depending of your preferences:
+
+    [1960s car replacement Mod](https://community.simtropolis.com/files/file/22109-1960s-maxis-automata-replacement-modd/)
+
+    [Japan car replacement Mod](https://community.simtropolis.com/files/file/31944-japanese-car-replacement-mod/)
+
+    [European car replacement Mod](https://community.simtropolis.com/files/file/12973-european-car-replacement-mod/)
+
+    [Jim's car prop pack 1.2](http://hide-inoki.com/bbs/archives/files/1598.zip)
+
+    **Credits**
+
+    \- Special thanks goes to Mr. Jim, the author of this excellent and highly recommended [parking set](http://hide-inoki.com/bbs/archives/sc4_0860.html). The textures used by the SAM1 override are based on his textures and inspired me to create this mod.  ありがとう JIM!
+
+    ![:party:](https://community.simtropolis.com/assets/emoticons/LlamaParty.gif)
+
+    *Suggestions or Problems with this mod: report **[here](https://community.simtropolis.com/topic/62851-complaints-office-magnetos-mods-thread/)** please*
+
+    **\-Cori Edit:**  
+    Thanks to [@Flann](https://community.simtropolis.com/profile/123879-flann/) three of the dep linkys are now updated and a fix for a mismatched texture IID in the SD version is fixed.
+
+    **\-CB Edit:**  
+    The dep links to the **hide-inoki** site got borked again, so we've fixed them.  
+    Thanks [@hugues aroux](https://community.simtropolis.com/profile/724957-hugues-aroux/) for reporting!
+  author: Magneto
+  website: https://community.simtropolis.com/files/file/29314-sam-1-override/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/22e701a536cabf638930a05e349c3eb6-sam11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/9b0d0a7b7e055801f2ce793b45d723bf-sam11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/f35539bd068f3bc56007ccdd8cd9caae-sd1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/f084288368ec3b1a28d6ddbc787f6f17-sd2.jpg
+dependencies:
+  - neko:prop-set-vol03
+  - bsc:mega-props-sg-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02
+variants:
+- variant: { magneto:sam-1-override:prop-resolution: "sd" }
+  assets:
+  - assetId: magneto-sam-1-override-hd
+- variant: { magneto:sam-1-override:prop-resolution: "hd" }
+  assets:
+  - assetId: magneto-sam-1-override-sd
+
+---
+assetId: magneto-sam-1-override-hd
+version: "1.1.2"
+lastModified: "2020-11-20T00:41:46Z"
+url: https://community.simtropolis.com/files/file/29314-sam-1-override/?do=download&r=183977
+
+---
+assetId: magneto-sam-1-override-sd
+version: "1.1.2"
+lastModified: "2020-11-20T00:41:46Z"
+url: https://community.simtropolis.com/files/file/29314-sam-1-override/?do=download&r=183978

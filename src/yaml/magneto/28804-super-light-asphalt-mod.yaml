@@ -1,0 +1,141 @@
+group: magneto
+name: super-light-asphalt-mod
+version: "0.9.9"
+subfolder: 150-mods
+info:
+  summary: Super Light Asphalt Mod
+  warning: This mod only updates NAM-related components. Moonlinght's Super Light Asphalt Mod is required for asphalt sidewaks on all base networks.
+  description: |-
+    The Super Light Asphalt Mod is a retexture mod designed to extend the effect of Moonlinght's Super Light Asphalt Sidewalk Mod to NAM components.
+
+    It will change the default sidewalk asphalt texture and replace it with an asphalt texture (a must-have for asian CJs!)
+
+    **Installation**
+
+    Detailed information in the readme file.
+
+    **Dependencies**
+
+    \-[Moonlinght's Super Light Asphalt Mod](https://skydrive.live.com/?cid=FA15FCE84D64004A&id=FA15FCE84D64004A!272) *(optional, strongly recommended)*
+
+    \-[Moonlinght's NAM roundabout fix](https://skydrive.live.com/?cid=FA15FCE84D64004A&id=FA15FCE84D64004A!256) or equivalent *(optional**, recommended**)*
+
+    \-NAM 31 or higher *(**strongly recommended**)*
+
+    **Supported features**
+    - Elevated rail over road & avenue
+    - Flups
+    - GLR
+    - NWM
+    - Overpasses
+    - Tram in Avenue
+    - Tram in Road
+    - Tram in Road textures variations
+    - Tuleps
+    - NAM stations & transitions
+    - RTMT stations
+    - Turbo roundabouts
+    - Draggable overpasses
+
+    **Unsupported features**
+    - Extended draggable GLR
+    - Rural GLR
+    - RHW
+    - Tram on Street
+    - US T-RAM variant
+    - Street & Road roundabouts
+
+    **UPDATE 0.9.9.9** (03/2013)
+
+    Added draggable elevated networks (to be found in the update folder).
+
+    **UPDATE 0.9.9** (12/2013)
+
+    Turbo Roundabouts & ELR Over Avenue textures have been added for NAM32 compatibility, as well as other minor fixes and additions. The update is exclusively aimed at the sandstone version; development for the asphalt version is discontinued. Still, the Turbo Roundabout & the flup rail plugins can be used by both versions of the mod without any visual disruption.
+
+    **UPDATE 0.909** (08/2013)
+
+    Another variant is available! All GLR textures, including Tram-In-Avenue & Tram-In-Road medians have been redesigned with sandstone background. To use these, install the z\_Super Light Asphalt Mod (sandstone) following instructions in the readme.You don't need the older version (asphalt) to make the new one (sandstone) work.
+
+    In case you use the sandstone variant, please note that the mod will not change the median  textures of BATs, such as Tram & Tram-In-Avenue transitions.
+
+    ![:party:](https://community.simtropolis.com/assets/emoticons/LlamaParty.gif)
+
+    **Credits**
+    - to Moonlinght, for the sidewalk mod
+    - to Mandelsoft, Ganaram D. & Memo for their technical assistance
+    - to all developers, for providing the tools
+    - to every member of the NAM team, past or present, for their contribution to the NAM
+    - special thanks to the modding community for all the hard work that keeps the game alive and make it unique.
+
+    *Suggestions or Problems with this mod: report **[here](https://community.simtropolis.com/topic/62851-complaints-office-magnetos-mods-thread/)** please*
+  author: Magneto
+  website: https://community.simtropolis.com/files/file/28804-super-light-asphalt-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/448653fa44c79c85daf3f68a7d71079e-p2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/38a94f5ee3fa2e1aca546572727dc4db-p3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/623101cae7a793d99c8b8c8e1d82a52f-slam.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/451097b16686ce5c1f1cddcce822bb06-slam2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/c69a000f26733a64881791b3e0b31086-p1.jpg
+variants:
+  - variant: { magneto:super-light-asphalt-mod:texture: "asphalt", roadstyle: "US" }
+    # dependencies:
+    #   - "moonlight:super-light-asphalt-mod"
+    assets:
+      - assetId: magneto-super-light-asphalt-mod-asphalt
+        exclude:
+          - "EU"
+      - assetId: magneto-super-light-asphalt-mod-us-update
+  - variant: { magneto:super-light-asphalt-mod:texture: "asphalt", roadstyle: "EU" }
+    # dependencies:
+    #   - "moonlight:super-light-asphalt-mod"
+    assets:
+      - assetId: magneto-super-light-asphalt-mod-asphalt
+        exclude:
+          - "US"
+      - assetId: magneto-super-light-asphalt-mod-eu-update
+  - variant: { magneto:super-light-asphalt-mod:texture: "sandstone", roadstyle: "US" }
+    assets:
+      - assetId: magneto-super-light-asphalt-mod-sandstone
+        exclude:
+          - "EU"
+      - assetId: magneto-super-light-asphalt-mod-us-update
+  - variant: { magneto:super-light-asphalt-mod:texture: "sandstone", roadstyle: "EU" }
+    assets:
+      - assetId: magneto-super-light-asphalt-mod-sandstone
+        exclude:
+          - "US"
+      - assetId: magneto-super-light-asphalt-mod-eu-update
+variantInfo:
+- variantId: magneto:super-light-asphalt-mod:texture
+  description: Choose the applied sidewalk texture
+  values:
+  - value: "asphalt"
+    description: A light colored asphalt texture
+    default: true
+  - value: "sandstone"
+    description: A sandstone texture
+
+---
+assetId: magneto-super-light-asphalt-mod-asphalt
+version: "0.9.9"
+lastModified: "2013-08-13T23:27:07Z"
+url: https://community.simtropolis.com/files/file/28804-super-light-asphalt-mod/?do=download&r=133642
+
+---
+assetId: magneto-super-light-asphalt-mod-sandstone
+version: "0.9.9"
+lastModified: "2013-08-13T23:27:07Z"
+url: https://community.simtropolis.com/files/file/28804-super-light-asphalt-mod/?do=download&r=133643
+
+---
+assetId: magneto-super-light-asphalt-mod-us-update
+version: "0.9.9"
+lastModified: "2013-08-13T23:27:07Z"
+url: https://community.simtropolis.com/files/file/28804-super-light-asphalt-mod/?do=download&r=133644
+
+---
+assetId: magneto-super-light-asphalt-mod-eu-update
+version: "0.9.9"
+lastModified: "2013-08-13T23:27:07Z"
+url: https://community.simtropolis.com/files/file/28804-super-light-asphalt-mod/?do=download&r=133645
