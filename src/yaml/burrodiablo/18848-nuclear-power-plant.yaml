@@ -1,0 +1,40 @@
+group: burrodiablo
+name: nuclear-power-plant
+version: "2.0"
+subfolder: 500-utilities
+info:
+  summary: Nuclear Power Plant
+  description: |-
+    Its that infamous Nuclear Plant lot some of you have been wanting. I've tweaked it so it doesn't explode... it doesn't even seem to be flammable (although the Maxis props can be set on fire). 
+
+    **STATS**
+
+    * Lot Size: 28x22
+    * Plop Cost: § 160000
+    * Bulldoze Cost: § 14000
+    * Monthly Cost: § 5500
+    * Power Consumed: 49 MWh
+    * Power Generated: 637000 MW
+    * Water Consumed: 35385 Gallons
+    * Air Pollution: 398 over 4 tiles
+    * Water Pollution: 1820 over 5 tiles
+    * Garbage: 637 over 0 tiles
+    * Lifespan- 100 years
+    * Jobs: $ - 759, $$ - 758, $$$ - 303
+    
+  author: BurroDiablo
+  website: https://community.simtropolis.com/files/file/18848-nuclear-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/97f105fbae877cbc0eb9ddaa3b29e8fd-NukePlantLot.jpg
+
+dependencies:
+  - burrodiablo:nuclear-power-plant-prop-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: bd-nuclear-power-plant
+
+---
+assetId: bd-nuclear-power-plant
+version: "2.0"
+lastModified: "2025-11-15T22:47:34Z"
+url: https://community.simtropolis.com/files/file/18848-nuclear-power-plant/?do=download

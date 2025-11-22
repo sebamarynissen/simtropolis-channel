@@ -1,0 +1,59 @@
+group: burrodiablo
+name: nuclear-power-plant-vver-1000-pressurised-reactor
+version: "2.0"
+subfolder: 500-utilities
+info:
+  summary: Nuclear Power Plant - VVER 1000 Pressurised Reactor 
+  description: |-
+    * VVER (Vodo-Vodyanoi Energetichesky) is a series of pressurised water reactors that were developed and used by the former Soviet Union, its satellites, Finland and the present-day Russian Federation. The VVER was a more expensive reactor design, and the former Soviet Union opted for the graphite-moderated RBMK (i.e Chernobyl) series nuclear reactors on the grounds of cost as well as the ease of re-fueling the RBMK while the reactor was still operational compared to the VVER which needed to be shut down to be re-fueled and is of a much safer design.
+
+    The earliest VVERs were developed before 1970. The VVER-1000 is the largest design in the VVER family and was developed after 1975, it is a four-loop system housed in a containment-type structure with spray type steam suppression system. The VVER series nuclear reactors were also scaled down in size and was used by the Soviet Navy's nuclear submarine fleet as well as by surface warships*
+
+    This pack contains 6 buildings; 2 Out buildings, 1 Pumphouse and 3 seperate looking Reactors - 1 with a Steam chimney, 1 without a Steam chimney, and one with a Steam chimney, Lenin Mural and a worker inspiring poster at the entrance to boost moral on those 12 hour shifts.
+
+    For the sake of neutrality, the lot I made does NOT contain the Lenin mural reactor, but its still a Prop if you fancy having it instead of one of the others, just relot it in LE.
+
+    **Stats - Plant**
+
+    Size - 24 x 20
+    Plop Cost - §130000
+    Bulldoze Cost - § 11370
+    Monthly Cost - §4650
+    Power Consumed - 43 MWh
+    Power Produced - 516900 MWh
+    Water Consumption - 28715
+    Air Pollution - 323 over 4 tiles
+    Water Pollution - 1476 over 5 tiles
+    Garbage - 516 over 0 tiles
+    Jobs - $ - 616, $$ - 615, $$$ - 246
+
+
+    **Stats - Pumphouse**
+
+    Size - 2 x 1
+    Plop Cost - §5000
+    Bulldoze Cost - §1990
+    Monthly Cost - §1060
+    Power Consumed - 111 MWh
+    Water Consumption - 11
+    Water Produced – 660000
+    Air Pollution - 33 over 3 tiles
+    Water Pollution - 0 over 0 tiles
+    Garbage - 0 over 0 tiles
+    
+  author: BurroDiablo
+  website: https://community.simtropolis.com/files/file/20176-nuclear-power-plant-vver-1000-pressurised-reactor/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/692eedb0db4f0a9cf7126dfcd1ea95e8-NPP1.jpg
+    - https://www.simtropolis.com/objects/screens/0012/692eedb0db4f0a9cf7126dfcd1ea95e8-NPP2.jpg
+
+dependencies:
+  - burrodiablo:nuclear-power-plant-prop-pack
+assets:
+  - assetId: bd-vver-1000-pressurised-reactor
+
+---
+assetId: bd-vver-1000-pressurised-reactor
+version: "2.0"
+lastModified: "2025-11-15T22:51:32Z"
+url: https://community.simtropolis.com/files/file/20176-nuclear-power-plant-vver-1000-pressurised-reactor/?do=download
