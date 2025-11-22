@@ -1,0 +1,42 @@
+group: guepardomountain
+name: brownstones
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Brownstones
+  description: |-
+    These buildings are inspired by brownstone townhomes in Brooklyn, NY. Each 1x2 lot features two townhomes.
+
+    The lot uses a prop family with four color variations to match some of the most common real-life colors you'll see on similar buildings: medium brown, light brown, dark red, and gray. This lot also uses a custom foundation. Light gray concrete stairs will appear on sloped terrain.
+
+    Lot Size: 1x2
+
+    Growth Stage: 5
+
+    Capacity: 34 R$$$
+
+    Building Style: New York
+
+    Power Consumed: 2
+
+    Water Consumed: 9
+
+    Dependencies:
+
+    [GM Props Vol 1](https://community.simtropolis.com/files/file/36517-gm-props-vol-1/)
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/36518-brownstones/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/brownstones1.jpg.d15fd28d6eaf603b0104979178d15ca1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/brownstones2.jpg.452d9e719da91159ba0d6a6743f51b47.jpg
+dependencies:
+  - guepardomountain:props-vol1
+  - bsc:mega-props-jes-vol02
+assets:
+  - assetId: guepardomountain-brownstones
+
+---
+assetId: guepardomountain-brownstones
+version: "1.0.0"
+lastModified: "2024-10-20T20:50:51Z"
+url: https://community.simtropolis.com/files/file/36518-brownstones/?do=download&r=204005

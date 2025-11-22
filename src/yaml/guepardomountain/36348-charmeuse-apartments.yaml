@@ -1,0 +1,40 @@
+group: guepardomountain
+name: charmeuse-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Charmeuse Apartments
+  description: |-
+    I've been wanting to add more slope-friendly buildings to my cities for a long time. This NYC-inspired apartment building has a custom foundation, and the stairs and ramps will show on mildly sloped terrain. It is a medium density residential lot and only grows on the New York tileset.
+
+    Lot Size: 3x2
+
+    Growth Stage: 6
+
+    Capacity: 255 R$$
+
+    Building Style: New York
+
+    Power Consumed: 4
+
+    Water Consumed: 36
+
+    Dependencies:
+
+    [BSC Texture Pack Cycledogg V01](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/)
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/36348-charmeuse-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/charmeuse1.jpg.106434d48a27e5bda3995a493e586071.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/charmeuse2.jpg.4b3fcd784c45587b869537ff62da496b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/charmeuse3.jpg.f59874cb6fb3ab6d68fd4ff9d109b683.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: guepardomountain-charmeuse-apartments
+
+---
+assetId: guepardomountain-charmeuse-apartments
+version: "1.0.0"
+lastModified: "2024-07-20T04:35:38Z"
+url: https://community.simtropolis.com/files/file/36348-charmeuse-apartments/?do=download&r=202045
