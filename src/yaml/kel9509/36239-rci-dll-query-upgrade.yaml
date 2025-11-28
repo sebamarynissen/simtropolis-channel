@@ -1,0 +1,72 @@
+group: "kel9509"
+name: "rci-dll-query-upgrade"
+version: "3.0"
+subfolder: "150-mods"
+dependencies:
+  - null-45:more-demand-info-dll
+  - null-45:query-tool-ui-extensions-dll
+  - null-45:allow-more-building-styles-dll
+assets:
+- assetId: "kel9509-rci-dll-query-upgrade"
+  include:
+      - /MSZ_MODEL_Coleman_And_Sons_Distributors_v355.dat
+      - /MSZ_MODEL_Domino_Sugars_Plant_v300.dat
+      - /MSZ_MODEL_McCormick_and_Company_Revisited_v102.dat
+      - /MSZ_MODEL_McCormick_and_Company_v300.dat
+      - /MSZ_MODEL_Wiessner_Brewery_v200.dat
+info:
+  summary: "Industrial Props by Marcszar"
+  author: " Kel9509"
+  website: "https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c4b0208ba_RCIDLLQueryv3.0A-ResidentialBuilding.jpg.f995d9244c876edf306ab124228e96d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c4fa3bc7d_RCIDLLQueryv3.0B-CommercialBuilding-BuildingListTooltip.jpg.ab2439d4e899f3e1b257c3b48cacd001.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c551dbcff_RCIDLLQueryv3.0C-IndustrialBuilding-WithStyles2.jpg.fdd5e1b10790931d30a1e4d7df758bd3.jpg
+
+variants:
+  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-bold-full-building-styles" }
+    assets:
+      - assetId: kel9509-rci-dll-query-upgrade
+        include:
+        - "/RCI DLL Query v3.0A - Vertical Bold Full Building Styles/"
+  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-bold-tooltips-building-styles" }
+    assets:
+      - assetId: kel9509-rci-dll-query-upgrade
+        include:
+        - "/RCI DLL Query v3.0B - Vertical Bold Tooltips Building Styles/"
+  - variant: { kel9509:rci-dll-query-upgrade:size: "horizontal-bold" }
+    assets:
+      - assetId: kel9509-rci-dll-query-upgrade
+        include:
+        - "/RCI DLL Query v3.0C - Horizontal Bold/"
+  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-light-full-building-styles" }
+    assets:
+      - assetId: kel9509-rci-dll-query-upgrade
+        include:
+        - "/RCI DLL Query v3.0D - Vertical Light Full Building Styles/"
+  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-light-tooltips-building-styles" }
+    assets:
+      - assetId: kel9509-rci-dll-query-upgrade
+        include:
+        - "/RCI DLL Query v3.0E - Vertical Light Tooltips Building Styles/"
+
+variantInfo:
+  - variantId: kel9509:rci-dll-query-upgrade:size
+    description: Due to the particular nature of modding, there are two versions of the building resolution.
+    values:
+      - value: vertical-bold-full-building-styles
+        description: Install the Vertical Bold Query with Full Building Style List.
+      - value: vertical-bold-tooltips-building-styles
+        description: Install the Vertical Bold Query with Building Styles in Tooltips.
+      - value: horizontal-bold
+        description: Install the Horizontal Bold Query.
+      - value: vertical-light-full-building-styles
+        description: Install the Vertical Light Query with Full Building Style List.
+      - value: vertical-light-tooltips-building-styles
+        description: Install the Vertical Light Query with Building Styles in Tooltips.
+    
+---
+assetId: "kel9509-rci-dll-query-upgrade"
+version: "3.0"
+lastModified: "2025-02-20T06:02:36Z"
+url: "https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/?do=download"
