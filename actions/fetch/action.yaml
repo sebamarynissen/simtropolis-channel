@@ -21,5 +21,5 @@ outputs:
     description: Holds whether new content is available for which PRs need to be created or updated. If "false", you can exit the action early. Nothing needs to be done.
 
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'action.js'
