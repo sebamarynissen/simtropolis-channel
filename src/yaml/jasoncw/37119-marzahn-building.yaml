@@ -1,0 +1,39 @@
+group: jasoncw
+name: marzahn-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Marzahn Building
+  description: |-
+    -   2x2 growable CO§§ corner lot for the Euro tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37119-marzahn-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c4077ae33_Marzahn00.jpg.ea03a783e116923923c2bbcb87d225b2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c40a10ed8_Marzahn01.jpg.b597b4fa1e1ab09bbdf92ea019e5e23b.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-marzahn-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-marzahn-building-darknite
+
+---
+assetId: jasoncw-marzahn-building-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:36:33Z"
+url: https://community.simtropolis.com/files/file/37119-marzahn-building/?do=download&r=210279
+
+---
+assetId: jasoncw-marzahn-building-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:36:33Z"
+url: https://community.simtropolis.com/files/file/37119-marzahn-building/?do=download&r=210280
