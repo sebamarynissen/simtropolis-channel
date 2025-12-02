@@ -1,0 +1,36 @@
+group: jasoncw
+name: laurasia-investments
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Laurasia Investments
+  description: |-
+    -   3x2 growable CO§§§ lot for the Euro tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37121-laurasia-investments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c4f98ed42_LaurasiaInvestments00.jpg.8d76800ccd5e7b809ae6c9b15815090a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c4fb4395b_LaurasiaInvestments01.jpg.de4725cf405f2df8548dff0e2a48501c.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-laurasia-investments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-laurasia-investments-darknite
+
+---
+assetId: jasoncw-laurasia-investments-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:39:49Z"
+url: https://community.simtropolis.com/files/file/37121-laurasia-investments/?do=download&r=210287
+
+---
+assetId: jasoncw-laurasia-investments-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:39:49Z"
+url: https://community.simtropolis.com/files/file/37121-laurasia-investments/?do=download&r=210288
