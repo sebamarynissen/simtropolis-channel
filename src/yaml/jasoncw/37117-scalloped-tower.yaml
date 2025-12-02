@@ -1,0 +1,67 @@
+group: jasoncw
+name: scalloped-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Scalloped Tower
+  description: |-
+    Scalloped Tower is an office tower featuring a scalloped facade, and a scalloped potato sculpture at ground level.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 10 version for people who do.
+
+    -   4x4 growable CO§§§ lot for the Euro tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   CAM version included.
+    -   Custom planter prop ("Jasoncw - Scalloped Planter.SC4Prop") included.
+
+    Installation Instructions:
+
+    -   Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    -   Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    -   If you use the CAM, replace the growable with the CAM version.
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37117-scalloped-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c245e4777_ScallopedTower00.jpg.944ab8e4bcd435b6601835d9560ffbc5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c2b1a82c6_ScallopedTower02.jpg.5f5331b910ddff0e9e5c1258ab0b6eca.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-scalloped-tower-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-scalloped-tower-maxisnite
+        exclude:
+          - /Jasoncw - Scalloped Tower \(MN\)\/Jasoncw - Scalloped Tower \(CO\$\$\$8_4x4\)\.SC4Lot$
+      - assetId: jasoncw-scalloped-tower-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-scalloped-tower-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-scalloped-tower-darknite
+        exclude:
+          - /Jasoncw - Scalloped Tower \(DN\)\/Jasoncw - Scalloped Tower \(CO\$\$\$8_4x4\)\.SC4Lot$
+      - assetId: jasoncw-scalloped-tower-cam
+
+---
+assetId: jasoncw-scalloped-tower-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:31:26Z"
+url: https://community.simtropolis.com/files/file/37117-scalloped-tower/?do=download&r=210270
+
+---
+assetId: jasoncw-scalloped-tower-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:31:26Z"
+url: https://community.simtropolis.com/files/file/37117-scalloped-tower/?do=download&r=210271
+
+---
+assetId: jasoncw-scalloped-tower-cam
+version: "1.0.0"
+lastModified: "2025-11-27T21:31:26Z"
+url: https://community.simtropolis.com/files/file/37117-scalloped-tower/?do=download&r=210272
