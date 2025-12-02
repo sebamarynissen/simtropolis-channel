@@ -1,0 +1,38 @@
+group: jasoncw
+name: curiosity-incorporated
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Curiosity Incorporated
+  description: |-
+    Curiosity Incorporated was an antiques and collectibles shop located in Edmonton, Canada.
+
+    -   1x2 growable CS§§ lot for the Chicago 1890 tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37116-curiosity-incorporated/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c18badce4_CuriosityInc00.jpg.ad45c3ca1a3f9d6ba1b372ee16310e97.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c18f0d39f_CuriosityInc01.jpg.3fa034526d9deec4c59ffe71e7ac1f5d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-curiosity-incorporated-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-curiosity-incorporated-darknite
+
+---
+assetId: jasoncw-curiosity-incorporated-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:26:01Z"
+url: https://community.simtropolis.com/files/file/37116-curiosity-incorporated/?do=download&r=210266
+
+---
+assetId: jasoncw-curiosity-incorporated-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:26:01Z"
+url: https://community.simtropolis.com/files/file/37116-curiosity-incorporated/?do=download&r=210267
