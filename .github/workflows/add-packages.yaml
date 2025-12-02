@@ -10,8 +10,8 @@ on:
         description: Require metadata.yaml
         type: boolean
         default: true
-  schedule:
-    - cron: '32 * * * *'
+  # schedule:
+  #   - cron: '32 * * * *'
 
 jobs:
   add-packages:
