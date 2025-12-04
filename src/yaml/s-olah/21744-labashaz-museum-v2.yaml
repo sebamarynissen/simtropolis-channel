@@ -1,0 +1,48 @@
+group: s-olah
+name: labashaz-museum-v2
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: '"Labashaz Museum v2"'
+  description: |-
+    **"Labashaz" Museum v2**
+
+    The same model as last time, only in different size and colours. And with slightly different stats. Plopping cost is 3950, monthly cost is 110. Cost to bulldoze it is 160. It consumes 23 water, and 63 power. Has a capacity of 450.
+
+    **No Dependencies**, and **no Readme** file.
+
+    Enjoy!
+  author: s_olah
+  website: https://community.simtropolis.com/files/file/21744-labashaz-museum-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6cce81fe88f41f5743a193bb2c0357fa-Orlando by day.JPG
+    - https://www.simtropolis.com/objects/screens/0012/6cce81fe88f41f5743a193bb2c0357fa-Orlando by night.JPG
+dependencies:
+  - s-olah:labashaz-museum-v2-model
+assets:
+  - assetId: s-olah-labashaz-museum-v2
+    include:
+      - "\\.SC4Model$"
+
+---
+group: s-olah
+name: labashaz-museum-v2-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model for `pkg=s-olah:labashaz-museum-v2`
+  author: s_olah
+  website: https://community.simtropolis.com/files/file/21744-labashaz-museum-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6cce81fe88f41f5743a193bb2c0357fa-Orlando by day.JPG
+    - https://www.simtropolis.com/objects/screens/0012/6cce81fe88f41f5743a193bb2c0357fa-Orlando by night.JPG
+assets:
+  - assetId: s-olah-labashaz-museum-v2
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: s-olah-labashaz-museum-v2
+version: "1.0"
+lastModified: "2009-05-26T10:40:26Z"
+url: https://community.simtropolis.com/files/file/21744-labashaz-museum-v2/?do=download&r=47795
