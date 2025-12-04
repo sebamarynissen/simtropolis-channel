@@ -1,0 +1,37 @@
+group: guepardomountain
+name: new-york-cs-shops
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: New York CS$$ Shops
+  description: |-
+    Contains a set of five 1x2 low-density (stage 3 for the corner lots, stage 2 for the others), medium-wealth growable commercial lots. Also includes a ploppable 5x2 landmark with all five buildings.
+
+    They are inspired by wall-to-wall businesses in Brooklyn, and will grow on NY tileset only.
+
+    Dependencies:
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [BSC Texture Pack Cycledogg V01](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/)
+
+    This is my first STEX upload. Please let me know what you think!
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/36323-new-york-cs-shops/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/nyshops.jpg.b459b43c3e5b0c3229550cdecf41e2dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/back.jpg.6a55afed9d8a45175615a8d13c8a53df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/leftside.jpg.86a48205a4729dc184018264a79094d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/rightside.jpg.f31fa5d6d590780bc6b96124a6497102.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/nitelites.jpg.0053aa06d4232793899ef0e037ee2bf1.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - shk:parking-pack
+assets:
+  - assetId: guepardomountain-new-york-csss-shops
+
+---
+assetId: guepardomountain-new-york-csss-shops
+version: "1.0.1"
+lastModified: "2024-08-02T21:59:49Z"
+url: https://community.simtropolis.com/files/file/36323-new-york-cs-shops/?do=download&r=202197

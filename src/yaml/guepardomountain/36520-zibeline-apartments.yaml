@@ -1,0 +1,47 @@
+group: guepardomountain
+name: zibeline-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Zibeline Apartments
+  description: |-
+    Apartment buildings like these can be found all over the midwestern United States. Many of these apartments were built in the mid-twentieth century and are quite affordable for renters. This one is based on floorplan no. 9968 from "All American homes" vintage floorplan catalog by Garlinghouse Company, available [here](https://archive.org/details/AllAmericanHomes_995/page/n55/mode/1up) (parts of the Internet Archive are offline as of this upload, so the link might not work. Much appreciation to the people who contribute to and maintain the archive! Hopefully it'll be back soon).
+
+    The original floorplan contained two stories and eight units, but these buildings looked tiny in game even after I scaled them up. My version has three stories so that the walls are more visible in SimCity. I also made an additional building with extra units. These types of apartments are usually part of an apartment complex, so this file contains a 2x3 lot with two buildings.
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    Lot Size: 2x3
+
+    Growth Stage: 4
+
+    Capacity: 135 R$
+
+    Building Style: Chicago, Houston
+
+    Power Consumed: 2
+
+    Water Consumed: 6  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    Dependencies:
+
+    [BSC Texture Pack Cycledogg V01](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/)
+
+    [GM Props Vol 1](https://community.simtropolis.com/files/file/36517-gm-props-vol-1/)
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/36520-zibeline-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/zibeline1.jpg.6dd05e60ac09468fe6f18f30ad0ef297.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/zibeline2.jpg.fb284f22027366bb18263587314d2221.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - guepardomountain:props-vol1
+assets:
+  - assetId: guepardomountain-zibeline-apartments
+
+---
+assetId: guepardomountain-zibeline-apartments
+version: "1.0.0"
+lastModified: "2024-10-20T21:25:52Z"
+url: https://community.simtropolis.com/files/file/36520-zibeline-apartments/?do=download&r=204011
