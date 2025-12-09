@@ -1,0 +1,86 @@
+group: hugues-aroux
+name: grid-mod
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Scoty Grid Mod
+  description: |-
+    This mod offers to change the color of the Main Grid (city), the floating-sight and the selected cell.
+
+    ScotyGrdMd\_FloatingSight\_\[*color*\].dat
+
+    ScotyGrdMd\_MainGrid\_\[*color*\].dat  
+    ScotyGrdMd\_SelectCell\_\[*color*\].dat
+
+    Each of these three elements is offered in 7 colors, in this v.1. They can be combined with each other.
+
+    Cyan
+
+    Green
+
+    Magenta[\[1\]](#ftn1)
+
+    Grey
+
+    Yellow
+
+    White
+
+    DarkGreen
+
+    DarkGreen is offered with a small change on the shape that the main grid takes! Cross at the tops.
+
+    White : not really white, rather .. slightly grey!
+
+    \[1\] ***A color known as "CoriPink" in some circles!***
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/36720-scoty-grid-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/compile.jpg.1d4a3f7f9505d25000a779caad4b3429.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/floating-Sight_Cell.jpg.f5085e56f775f279ce83f0f0afcc1662.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/drkgreen_sv_a.jpg.108403862c166ed75de026f2b39ba1b3.jpg
+variants:
+- variant: { hugues-aroux:grid-mod:color: "white" }
+  assets:
+  - assetId: hugues-aroux-scoty-grid-mod
+    include:
+    - "/SGM_white/"
+- variant: { hugues-aroux:grid-mod:color: "cyan" }
+  assets:
+  - assetId: hugues-aroux-scoty-grid-mod
+    include:
+    - "/SGM_cyan/"
+- variant: { hugues-aroux:grid-mod:color: "green" }
+  assets:
+  - assetId: hugues-aroux-scoty-grid-mod
+    include:
+    - "/SGM_green/"
+- variant: { hugues-aroux:grid-mod:color: "magenta" }
+  assets:
+  - assetId: hugues-aroux-scoty-grid-mod
+    include:
+    - "/SGM_magenta/"
+- variant: { hugues-aroux:grid-mod:color: "grey" }
+  assets:
+  - assetId: hugues-aroux-scoty-grid-mod
+    include:
+    - "/SGM_grey/"
+- variant: { hugues-aroux:grid-mod:color: "yellow" }
+  assets:
+  - assetId: hugues-aroux-scoty-grid-mod
+    include:
+    - "/SGM_yellow/"
+- variant: { hugues-aroux:grid-mod:color: "dark-green" }
+  assets:
+  - assetId: hugues-aroux-scoty-grid-mod
+    include:
+    - "/SGM_drkgreen/"
+variantInfo:
+- variantId: hugues-aroux:grid-mod:color
+  description: Choose the desired grid color
+
+---
+assetId: hugues-aroux-scoty-grid-mod
+version: "1.0.0"
+lastModified: "2025-02-14T21:12:03Z"
+url: https://community.simtropolis.com/files/file/36720-scoty-grid-mod/?do=download&r=205983

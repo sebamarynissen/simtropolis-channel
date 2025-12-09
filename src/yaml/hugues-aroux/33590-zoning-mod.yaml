@@ -1,0 +1,144 @@
+# The package in the default channel only includes one option out of this package
+group: hugues-aroux
+name: zoning-mod
+version: "2.0.0"
+subfolder: 150-mods
+info:
+  website: https://community.simtropolis.com/files/file/33590-scoty-zoning-mod/
+  summary: This plugin offers several modifications of the Zone tools.
+  conflicts: |-
+    Incompatible with other zoning mods such as Tropod's, Fukuda's, ReZonePlus or the one included with SPAM.
+    Only the one loading last takes effect.
+  description: |-
+      This plugin offers several modifications of the Zone tools.
+
+      **1. ZoneManager: Surface and colorset**
+
+      A handy little fix: for I$ (rural) Zones, you can draw a single-tile zone (Maxis constrains a minimum 4x4 zone). This makes it easier to draw fields on diagonals…; as offered by the SPAM (SimPeg Agricultural Mods) plugin. This is therefore applied to each of the following colorset. Maximum zoning size increased to 48 tiles, and 64 for I$.
+
+      5 sets of zone colors are available: Maxis, Soften (softened maxis!), Yard: brown and green (finished the blue of C$-$$$), Ocher (softened Yard), CBVD adapted and intended for the CoriBoom plugin «Color Blind Views for Deuteranopia».
+
+      **2. Textures**
+
+      SZM offers textures to apply to drawn areas. Maxis proposes a small arrow (or empty for the I$-$$$) to indicate the orientation of the zone.
+
+      I offer you 5 alternatives: empty, dot, earthwork, foundation2, foundation3.
+
+      They are easily interchangeable, replacing one scoty_ZM_tex_[nnn].dat file by another.
+
+      **3. Landfill & de-zone**
+
+      I propose, still as an option, to modify the appearance of the RCI de-zone tool: correction of red (unified solid) and transparency. As well as the appearance of the Landfill area: slight correction of the zoning color and the solid color of the ground.
+
+
+
+      **Installation**
+
+      Delete the version 1 files of this plugins: scoty_ZM_[texture|colorset]_[name].dat. If present.
+
+      Unzip the contents of this ZIP into your Plugins/ directory.
+
+      Check out the readme file to see the variations and choose which files to keep.
+
+
+
+      Item 1 - Choose one of the files: scoty_ZManag_[cccccc].dat
+
+      Item 2 - Choose one of the files: scoty_ZM_tex_[tttttt].dat or none, to keep the Maxis arrows.
+
+      Item 3 - To keep or not: scoty_ZM_resources.dat and scoty_ZM_gound_landfill.dat
+
+
+
+      If you wish, you can not install - and take advantage of - the first point (ZoneManager), and only apply a new SZM texture.
+
+
+
+      Please note: after installation, the zone colors are still those of Maxis (integrated into the city backup). Just click on the [data views] button and then select [zones] on the game interface, to activate the new colors.
+
+
+
+      **Compatibilities and overloads**
+
+      [Zoning Mod by Tropod](https://community.simtropolis.com/files/file/21359-zoningmod/) - It only modifies the maximum zone surface by x2 and x3. You have to choose either Tropod or Scoty Mod.
+
+      [SPAM](https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam/) - As mentioned above, it introduces a value of 1 tile for I$ (rural). ScotyZM can/should be loaded after SPAM. Often SPAM is in a PEGPROD/ directory, so SZM goes after!
+
+      CoriBoom plugin : [Color Blind Views for Deuteranopia](https://community.simtropolis.com/files/file/32881-color-blind-views-for-deuteranopia/) - The two plugins can be combined without worries if you make sure that scoty_ZoningMod is loaded after C.B.V.D., and having chosen to keep scoty_ZManag_CBVD.dat and any texture. If you respect the installation of the two plugins, SZM will naturally be loaded after C.B.V.D.
+
+      Thanks to the @CorinaMarie & @Cyclone Boom duo for their contribution. 
+  author: hugues aroux
+  images:
+  - https://www.simtropolis.com/objects/screens/monthly_2022_02/montage_coul.jpg.d97d64152a1c2552f120dda8027d6421.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_2022_02/montage_tex.jpg.c546c6b20e50187c1eccf44e805554da.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_2022_02/erase_duo.jpg.974a63af31780221d7d06ac50bc9efe7.jpg
+
+# The asset `scoty-zoning-mod` is included in /scoty/zoning-mod.yaml in the default channel
+assets:
+  - assetId: scoty-zoning-mod
+    include:
+      - "/scoty_ZM_ressources.dat"
+      - "/scoty_ZM_ground_landfill.dat"
+    withConditions:
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "maxis" }
+        include:
+          - "/scoty_ZManag_maxis.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "soften" }
+        include:
+          - "/scoty_ZManag_soften.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "yard" }
+        include:
+          - "/scoty_ZManag_yard.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "ocher" }
+        include:
+          - "/scoty_ZManag_ocher.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:colorset: "cbvd" }
+        include:
+          - "/scoty_ZManag_cbvd.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "default" }
+        include: []
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "empty" }
+        include:
+          - "/scoty_ZM_tex_empty.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "foundation-2" }
+        include:
+          - "/scoty_ZM_tex_foundation_2.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "earthwork" }
+        include:
+          - "/scoty_ZM_tex_earthwork.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "dot" }
+        include:
+          - "/scoty_ZM_tex_dot.dat"
+      - ifVariant: { hugues-aroux:zoning-mod:zone-texture: "foundation-3" }
+        include:
+          - "/scoty_ZM_tex_foundation_3.dat"
+
+variantInfo:
+- variantId: "hugues-aroux:zoning-mod:colorset"
+  description: Customize the color palette of zones.
+  values:
+  - value: "maxis"
+    description: Default (unchanged) Maxis colors
+  - value: "soften"
+    description: Softened versions of the Maxis colors
+  - value: "yard"
+    description: Brown and green palette (blue commercial zones replaced by brown)
+  - value: "ocher"
+    description: Softened versions of the brown and green palette (blue commercial zones replaced by brown)
+  - value: "cbvd"
+    description: Vibrant palette adapted for the CoriBoom plugin [Color Blind Views for Deuteranopia](https://community.simtropolis.com/files/file/32881-color-blind-views-for-deuteranopia/)
+- variantId: "hugues-aroux:zoning-mod:zone-texture"
+  description: Customize the texture appearance of zones.
+  values:
+  - value: "default"
+    description: Default (unchanged) Maxis appearance
+  - value: "empty"
+    description: Remove the arrow on zones when touching a road
+  - value: "foundation-2"
+    description: Applies a building foundation/blueprint texture to zones
+  - value: "dot"
+    description: Replaces the Maxis arrow on zones with a dot
+  - value: "earthwork"
+    description: Applies a texture imitating dirt piles to zones
+  - value: "foundation-3"
+    description: Applies an alternate building foundation/blueprint texture to zones

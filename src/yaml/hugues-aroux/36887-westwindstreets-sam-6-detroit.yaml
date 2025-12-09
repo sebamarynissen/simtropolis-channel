@@ -1,0 +1,125 @@
+# group: hugues-aroux
+# name: westwindstreets-sam-6-detroit
+# version: "1.2.49"
+# subfolder: 150-mods
+# info:
+#   summary: WestWindStreets SAM 6 - Detroit
+#   description: |-
+#     This Mod replaces the NAM SAM\-6 textures. (Klinker).
+
+#     **Installation**
+
+#     Unzip into ../plugins
+
+#     The pack contains the EU-RHD, EU-LHD and US version. Only keep the one that suits you.
+
+#     The SAM Detroit is lined with trees, and various scenes on the intersections, diagonals, ..., that is a set of T21 files, that cover practically all the segments. (almost .. !).The intersections are proposed for RHD or LHD, so you must keep only one of the two:
+
+#     WWStreets-SAM\-06\_T21\_XSegments\_LHD.dat
+
+#     WWStreets-SAM\-06\_T21\_XSegments\_RHD.dat
+
+#     The "decoration" implies dependencies whose list and links are indicated below.
+
+#     This redesign of SAM\-6 is part of my WestWindStreets project, so the pieces, which contain a main "Street" segment, will be composed of the WWS texture.  
+#     If you use Maxis Streets or Rivit Tarsealed Streets, keep the appropriate file:  
+#     zWWStreets-SAM\-06-Spe-\[Maxis|TSR\].dat. If not, delete them !
+
+#     Like any replacement SAM, it matches - SAMxSAM - the SAMs of the NAM, so if you don't use the SAMs mentioned in the files named \[ zWWStreets-SAM\-06\_opt\_|nnn\].dat, delete them.  
+#     (nnn => SAM1 of Magneto, SAM 2, 4 and 5 of RIVIT, SAM 6 and 7 of MGB)
+
+#     You need to load WWS-Essentials v3(+) to have the inter-WWS-SAM transitions. (SAM\-1|6|8).
+
+#     The zip now contains the installation tree: extraction directly into the ../plugins directory. So the Mod is loaded after the NAM.
+
+#     **Distribution**
+
+#     Composed with SuddenValley grass textures. To change this I am providing a "[Fabrik](https://1drv.ms/f/c/e311098145fffe50/QlD-_0WBCREggOOnBQAAAAAA6G50bYWdkvTx1w)" for those who know how to use it :  
+#     GoFSH + grass select  textures + execution of the script: build\_WWS\_SAM-06.txt
+
+#     **Dependencies**
+
+#     NAM 49 .. + .. Of course !
+
+#     **Dependencies - T21**
+
+#     [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+#     [SC4D LEX LEGACY - BSC VIP Girafe Flora Pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+#     [AGC - STREET DLC](https://community.simtropolis.com/files/file/36152-agc-streets-dlc/)
+
+#     [AGC - Casual Sims DLC](https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/)
+
+#     [Nams PROPS PACK Vol 2](https://www.toutsimcities.com/downloads/view/1882)
+
+#     [BNL Was Dutch Prop Pack](https://community.simtropolis.com/files/file/28522-bnl-was-dutch-prop-pack/)
+
+#     [WWS-Essentials](https://community.simtropolis.com/files/file/36638-wws-essentials/) .. v3+
+
+#     [Scoty\_MP\_essential](https://community.simtropolis.com/files/file/33636-scoty-mp-essential/) .. (and all dependencies)
+
+#     [LRM - German Set](https://community.simtropolis.com/files/file/27986-light-replacement-mod-german-set/) .. (Only Models & Props.dat and LightCones\_MaxisNite.dat or LightCones\_DarkNite.dat)
+
+#     \----- **WestWindStreets & WWS-SAM with RUM** ----
+
+#     Added WestWindStreet to RUM - for those in the know.  
+#     Rivit's RUM Mod - and MGB rails - supports WestWindStreet. As it should be, the RUM plugin should be loaded after WWS.
+
+#     [202506 RUM MGB - E5 HuguesAroux StreetX.zip](https://1drv.ms/u/c/a1d4fa46b2686f98/EY9ziG_6q-lOgXqh-vqhktcBrI0iUH35nug2CD8-xTGYiA?e=Xd80Z6) ... [202506 RUM Maxis Lookalike - E5 HuguesAroux StreetX.zip](https://1drv.ms/u/c/a1d4fa46b2686f98/EUb-8ZgGyMNAmeYrjrMfqI4BiWd0IyVFWHylyodazfg8hA?e=VHFN2M)
+#   author: hugues aroux
+#   website: https://community.simtropolis.com/files/file/36887-westwindstreets-sam-6-detroit/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2025_05/sam6_scsht_01.jpg.827c58ef39029ec765d17702f1e03d32.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2025_05/sam6_scsht_02.jpg.d1a67253b8a798b8be5578be1cc18018.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2025_05/sam6_scsht_03.jpg.96511666ec1b40013d1da0b1e4e20c63.jpg
+# dependencies:
+#   - agc:casual-sims-dlc-props
+#   - agc:street-props
+#   - namspopof:props-pack-vol2
+#   - bnl:dutch-prop-pack
+#   - hugues-aroux:westwindstreets-essentials
+#   - hugues-aroux:mp-essentials
+#   - mandelsoft:light-replacement-mod-german-set-resources
+# assets:
+#   - assetId: hugues-aroux-westwindstreets-sam-6-detroit
+#     withConditions:
+#     - ifVariant: { driveside: "right" }
+#       include:
+#       - ".*_RHD.dat$"
+#     - ifVariant: { driveside: "left" }
+#       include:
+#       - ".*_LHD.dat$"
+#     - ifVariant: { roadstyle: "US" }
+#       include:
+#       - "/.*US.*.dat$"
+#     - ifVariant: { roadstyle: "EU" }
+#       include:
+#       - "/.*EU.*.dat$"
+#     - ifVariant: { hugues-aroux:modular-parking:street-texture: "maxis" }
+#       include:
+#       - "/zWWStreets-SAM-06-Spe-Maxis.dat"
+#     - ifVariant: { hugues-aroux:modular-parking:street-texture: "tsr" }
+#       include:
+#       - "/zWWStreets-SAM-06-Spe-TSR.dat"
+
+# # additional variants for different SAM overrides:
+# # magneto sam-1: https://community.simtropolis.com/files/file/29314-sam-1-override/
+# # rivit sam-2: https://community.simtropolis.com/files/file/25655-sam2-override-red-herringbone-brick/
+# # rivit sam-4: https://community.simtropolis.com/files/file/25402-sam4-override-nz-gravel/
+# # rivit sam-5: https://community.simtropolis.com/files/file/25403-sam5-override-rural-tarseal/
+# # mgb204 sam-7: https://community.simtropolis.com/files/file/30929-cataylsts-sam7-bikepaths-mod/
+
+# - variant: { hugues-aroux:modular-parking:street-texture: "wws" }
+#   assets:
+#   - assetId: hugues-aroux-scoty-mp-textures
+#     exclude:
+#     - "/SMP_base_texture_CHOOSE_ONE/"
+#     - "/scoty_MP_tex_Str_Maxis.dat"
+#     - "/scoty_MP_tex_Str_TSR.dat"
+
+# ---
+# assetId: hugues-aroux-westwindstreets-sam-6-detroit
+# version: "1.2.49"
+# lastModified: "2025-05-25T19:43:18Z"
+# url: https://community.simtropolis.com/files/file/36887-westwindstreets-sam-6-detroit/?do=download&r=207850
