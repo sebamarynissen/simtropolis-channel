@@ -21,7 +21,7 @@ dependencies:
   - s-olah:labashaz-museum-v2-model
 assets:
   - assetId: s-olah-labashaz-museum-v2
-    include:
+    exclude:
       - "\\.SC4Model$"
 
 ---
