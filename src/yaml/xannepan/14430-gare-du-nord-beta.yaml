@@ -1,0 +1,38 @@
+group: xannepan
+name: gare-du-nord-beta
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Gare Du Nord Beta
+  description: |-
+    After a long break from BAT and SC4, I have found some time to complete Gare du Nord de Paris and decided to release a beta version.
+
+    Please check the documentation included in the ZIP file, for dependencies etc.
+
+    The station has been in the hands of the BSC team for some time now. However, BSC is working on many other great projects right now. So, I have decided to do the LOT-design, TE, modding etc myself. Normally, I would have waited a bit longer for the BSC team to review and test my work. However, my enthusiasm for SC4 and BAT is a bit unpredictable. Therefore, I have decided to post the beta version, now.
+
+    I must say that I greatly appreciate the input and assistance from the BSC team. They spend many hours on a previous version of this station which I eventually decided not to release, because the model I made was not to my satisfaction. I hope they will be able to assist me if this beta version  will cause major problems, conflicts etc.
+
+    Further credits go to Porkie, who created the BAT\-models for the statues. Don't they look great!?!
+
+    In conclusion: I didn't have the time to extensively test the station,but it works fine on my computer. I have no idea if my modding will cause conflicts with other lots and BATs. Please use my thread at [https://www.simtropolis.com/idealbb/view.asp?topicID=71921](https://www.simtropolis.com/idealbb/view.asp?topicID=71921) to report problems, if any. I'll try to do my best to correct them. (If the problems relate to my modding, please also provide solutions if you can)
+
+    Enjoy and happy holidays.
+
+    \-Xannepan
+  author: xannepan
+  website: https://community.simtropolis.com/files/file/14430-jenxgaredunordbeta/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4f91c25ee0c0c6a05f63bb09c1da0d43-GDN_Front_Night.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4f91c25ee0c0c6a05f63bb09c1da0d43-GDN_Front_Day.jpg
+dependencies:
+  - xannepan:amsterdam-central-station-resources
+  - bsc:mega-props-jenx-vol03
+assets:
+  - assetId: xannepan-jenxgaredunordbeta
+
+---
+assetId: xannepan-jenxgaredunordbeta
+version: "1.0"
+lastModified: "2005-12-21T13:57:12Z"
+url: https://community.simtropolis.com/files/file/14430-jenxgaredunordbeta/?do=download&r=36215
