@@ -1,7 +1,32 @@
 group: dk1
+name: methane-power-plant-resouces
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Power Plant Props
+  description: |-
+    Methane Power Plant Props by DK1
+  author: dk1
+  website: https://community.simtropolis.com/files/file/19296-dk1-methane-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f74df7686b46907deb91b0edf32b8f14-MPP_day.JPG
+    - https://www.simtropolis.com/objects/screens/0027/f74df7686b46907deb91b0edf32b8f14-MPP_night.JPG
+assets:
+  - assetId: dk1-methane-power-plant
+    include:
+    - "/powerplant-0x5ad0e817_0x73156766_0x2850000.SC4Model"
+    - "/tank2prop-0x5ad0e817_0x73156766_0x2720000.SC4Model"
+    - "/tank2prop-0x6534284a-0x73156766-0xb49152bf.SC4Desc"
+    - "/powerplant-0x6534284a-0x73156766-0x14a350aa.SC4Desc"
+
+
+---
+group: dk1
 name: methane-power-plant
 version: "1.0"
 subfolder: 500-utilities
+dependencies:
+  - "dk1:methane-power-plant"
 info:
   summary: Methane Power Plant
   description: |-
@@ -13,6 +38,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0027/f74df7686b46907deb91b0edf32b8f14-MPP_night.JPG
 assets:
   - assetId: dk1-methane-power-plant
+    include:
+    - "/Up3x2_MethanePowerPlant_f4a74c02.SC4Lot"
+    - "/Up3x3_MethanePowerPlant_f4a35355.SC4Lot"
+    - "/Up3x3_PowerPlant_Maxis tanks_f4a7512b.SC4Lot"
 
 ---
 assetId: dk1-methane-power-plant
