@@ -22,6 +22,8 @@ group: dk1
 name: power-plant
 version: "1.0"
 subfolder: 500-utilities
+dependencies:
+  - "dk1:power-plant-resouces"
 info:
   summary: Power Plant
   description: |-
