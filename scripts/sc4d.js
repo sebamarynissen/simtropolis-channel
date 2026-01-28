@@ -1,5 +1,6 @@
 // # sc4d.js
 // Index of sc4devotion ids to known packages.
+// A full list of all LEX links can be found here: https://community.simtropolis.com/forums/topic/764065-lex-files-new-download-links/
 export default {
 	27: 'bsc:jrj-cpt-trees-as-props',
 	90: 'bsc:textures-vol01',
@@ -49,6 +50,8 @@ export default {
 	631: 'cycledogg:tree-models-part-one-and-two',
 	633: 'csx:mega-props-vol06',
 	638: 'bsc:textures-vol02',
+	644: 'cycledogg:terrain-essentials',
+	655: 'cycledogg:terrain-essentials',
 	663: 'ndex:its-mega-pack-vol03',
 	669: 'mas71:mega-props-vol01',
 	746: 'bsc:mega-props-sg-vol01',
@@ -112,6 +115,7 @@ export default {
 	2489: 'bsc:mega-props-t1-vol03',
 	2540: 'sfbt:sam-johnson-playground-props',
 	2556: 'sfbt:peterycristi-props',
+	2576: 'bsc:vip-girafe-french-road-signs',
 	2612: 'lowkee33:seasonal-flora-patch-maxis',
 	2614: 'girafe:maples',
 	2620: 'girafe:birches',
