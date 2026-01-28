@@ -1,0 +1,79 @@
+group: hugues-aroux
+name: scoty-ui-carbon-skin
+version: "1.2.0"
+subfolder: 150-mods
+info:
+  summary: Scoty UI Carbon Skin
+  description: |-
+    **This Mod replaces the SC4 interface**.  
+    Its dominant colors are Anthracite and Gray. And not only ...  
+    More than a simple graphic layer, CarbonSkin offers light retouching, corrections and repositioning of interface objects. Also slight adjustments to fonts (+1|2 points).  
+    Nothing too disruptive for this version (the next one perhaps ![:ooh:](https://community.simtropolis.com/assets/emoticons/default_31.gif ":ooh:")). And a new icon set. “old”\* players will find their way there.  
+    The choice of gray, rather than full anthracite, is a compromise with my original intention. It should be noted that certain «Budget» windows are generated in the EXE  
+    where the text color is forced to Maxis Blue. In addition, hundreds of query windows and buttons (partially) personalized in the plugins - follow my gaze to the BSC team ;-) - retain the Maxis colors, ... !!
+
+    **What this interface does or does not do**
+
+    *CarbonSkin doesn’t make your breakfast, even though its round head looks like a coffee maker.*
+
+    It does not support the small screen interface (800x600), «tutorial» mode, Developer  
+    mode or non-transparent mode - details below.  
+    ScotyCarbonSkin supports|redeclares and adapts the following plugins :  
+    **DAMN Manager** .. >> .. [STEX damn-manager](https://community.simtropolis.com/files/file/28205-damn-manager/)  
+    ... Small buttons for easy navigation  
+    **NAM (47) 48** .. >> .. [SC4E NAM](https://www.sc4evermore.com/index.php/downloads/category/6-network-addon-mod-nam)  
+    ... More compact Queries-windows ... !  
+    **GTM «GodMod»** .. >> .. [STEX god-terraforming-in-mayor-mode](https://community.simtropolis.com/files/file/20092-god-terraforming-in-mayor-mode/)  
+    **SAVE WARNING** button .. >> .. [STEX save-warning](https://community.simtropolis.com/files/file/32812-save-warning/)  
+    ... Only the A option («Disabled») !! Added translation in 12 languages \*\*  
+    **YELLOW PAUSE REMOVER** .. >> .. [STEX smp-yellow-pause-thingy-remover](https://community.simtropolis.com/files/file/18680-smp-yellow-pause-thingy-remover/)  
+    **RAISE UI MOD** .. >> .. [STEX raise-the-ui-mod](https://community.simtropolis.com/files/file/23771-raise-the-ui-mod/)  
+    ... 40 px sup.  
+    **REGION CENSUS DLL** .. >> .. [STEX region-view-census-ui-dll-plugin](https://community.simtropolis.com/files/file/36145-region-view-census-ui-dll-plugin/)
+
+    **CAM 2.5 - RC2** .. >> .. [SCAE CAM RC2](https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/276-colossus-addon-mod-2-5-release-candidate-1)  
+    **CENSUS REPOSITORY FACILITY v4.0** .. >> .. [STEX census-repository-facility-v40](https://community.simtropolis.com/files/file/36245-census-repository-facility-v40/)  
+    ... Choose \[... 4\_Expanded.dat\] **or** \[... 4\_Regular.dat\] as your plugin installation.
+
+    (v1.2) **RCI DLL Query Upgrade** .. >> .. [STEX rci\-dll-query-upgrade 3.0](https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/)  
+    ... Choose one of the 5 window styles (A to E) as your installation of this plugin.
+
+    **Installations and recommendations**
+
+    Drop the directory contained in the ZIP: \[ z\_\_\_\_scoty\_mods \] as is into your Plugins/ directory.  
+    It is imperative that ScotyCarbonSkin loads after any plugins modifying the interface.  
+    If you have installed all the plugins mentioned above, nothing more to do!  
+    Otherwise ... Open: z\_\_\_\_scoty\_mods/z\_\_Scoty\_Carbon\_Skin/.  
+    Delete files ending with the name of plugins you don’t have installed. (They start with a y\_ or z\_).  
+    HOWEVER ...  
+    I cannot recommend enough that you keep «SaveWarning»:  
+    \[w\_scoty\_Carbon\_CB\_SaveWarning\_optA.dat\] .. and read the CycloneBoom article for this plugin. This plugin is fully redeclared in ScotyCarbonSkin.
+
+    **Game setup**  
+    As mentioned above, this Mod requires being in Interface transparency. Make sure you have checked this option in the «Graphics options» panel. If not, nothing dramatic, just ... the ugly Maxis buttons come back, aaargh! So ...
+
+    ![65dfa141c4bd2_Capturedcran2024-02-28221003.png.9d9807bbe0f8a19e7b212e41db897273.png](https://www.simtropolis.com/objects/attachments/monthly_2024_02/65dfa141c4bd2_Capturedcran2024-02-28221003.png.9d9807bbe0f8a19e7b212e41db897273.png)![65dfa163d9ee9_Capturedcran2024-02-28221049.png.ee01300bde061e50650ae5c3d1ba2938.png](https://www.simtropolis.com/objects/attachments/monthly_2024_02/65dfa163d9ee9_Capturedcran2024-02-28221049.png.ee01300bde061e50650ae5c3d1ba2938.png)
+
+    *Due to lack of knowing how to do it properly, I did not translate into Japanese, Chinese, etc. Non-Roman Characters. Any help in this direction will be welcome.*
+
+    \* if you play SC4 after 20 years, you’re not that young anymore.. sorry! As for the others, don’t smile, it will come quickly!! Waaaarf !  
+    \*\* English, French, Dutch, German, Danish, Swedish, Norwegian, Finnish, Polish, Italian, Spanish, Portuguese
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/36149-scoty-ui-carbon-skin/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/scarbons_00.jpg.96a772b08d6bd9924f0f6ccc5d3d1ccd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/scarbons_01.jpg.7ee6eb517fd6684d6fffc7a012cdb98e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/scarbons_02.jpg.964cff48f4c51108f506bebabf3cf268.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/scarbons_12.jpg.4b10ea6386a426846927ea274c155f96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/scarbons_14.jpg.906eac36e66c797a6bd61aa94fbad4d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/scarbons_15.jpg.2f1903eff7679f99de224789f81f2c20.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/scarbons_16.jpg.5eab675c5d34fb25c33d375a30dcd895.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/anim_av_ap_maxis_carbon.gif.a813623082af08f7b7c4d2b1867b0089.gif
+assets:
+  - assetId: hugues-aroux-scoty-ui-carbon-skin
+
+---
+assetId: hugues-aroux-scoty-ui-carbon-skin
+version: "1.2.0"
+lastModified: "2025-02-28T20:48:41Z"
+url: https://community.simtropolis.com/files/file/36149-scoty-ui-carbon-skin/?do=download&r=206199

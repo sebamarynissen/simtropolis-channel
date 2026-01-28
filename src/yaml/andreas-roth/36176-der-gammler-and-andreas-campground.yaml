@@ -1,0 +1,77 @@
+group: andreas-roth
+name: der-gammler-and-andreas-campground
+version: "1"
+subfolder: 660-parks
+info:
+  summary: SFBT der Gammler and Andreas Campground
+  description: |-
+    **Disclaimer**
+
+    This file has been created by der Gammler and Andreas over at the now defunct SC4Kurier. There are currently plans to restore the lost content from the Kurier, but this will take some time, so, in the meantime, I, 11241036, am uploading this file on behalf of SFBT and in consultation with Tyberius06, in case it is needed as a dependency.
+
+    **Short description**
+
+    In many regions, camping is still a popular method to spend a vacation. Therefore, it's not surprising that you can find quite a few campgrounds in idyllic rural regions in particular. With this download, your sims can spend their holiday in a tent or in a camper, too. The SFBT Campground features everything that is needed for a proper recreation: a large sanitary building with modern equipment, a playground, and naturally, a nice swimming pool as well. Tents, caravans and RVs are grouped into prop families for more variety, water taps and power box props are included, too. All camping props are rendered in HD.
+
+    For further information, please refer to the Readme in the download.
+
+    **Dependencies:**
+
+    **BSC Common Dependencies Pack v8 (and above):** [https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    **SFBT Essentials**: [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt\-essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    **BSC ALN RRP Fences:** [https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/166-bsc-aln-rrp-fences](https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/166-bsc-aln-rrp-fences)
+
+    **Maxis Buildings as Props and DLC Props v2.1:** [https://sc4evermore.com/index.php/downloads/download/14-maxis-buildings-as-props-and-dlc-props-v2-1](https://sc4evermore.com/index.php/downloads/download/14-maxis-buildings-as-props-and-dlc-props-v2-1)
+
+    **PEG MTP Super Pack v1.5:** [https://community.simtropolis.com/files/file/20966-peg-mtp\-super-pack/](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/) (you only need the file PEG\-SUPER\_TEXTURES.dat)
+
+    **Installation:**
+
+    Copy/extract the SFBT parent folder into your plugins. If you extracted the \_Documents folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards. You can also uninstall only the growable or ploppable version by deleting the corresponding lot file.
+  author: Andreas Roth
+  website: https://community.simtropolis.com/files/file/36176-sfbt-der-gammler-and-andreas-campground/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Campingplatz_01.jpg.1db00398f72cdd2e3f616be8a5beb6a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Campingplatz_02.jpg.d737e4cc910d50fadde4b5735b2aba62.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - aln:rrp-fences-props
+  - maxis:dlc-props
+  - peg:mtp-super-pack
+  - sfbt:essentials
+  - sfbt:camping-props
+assets:
+  - assetId: andreas-roth-sfbt-der-gammler-and-andreas-campground
+    exclude:
+      - "/SFBT_Props/"
+
+
+---
+group: sfbt
+name: camping-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Props for `pkg=andreas-roth:der-gammler-and-andreas-campground`
+  author: Andreas Roth
+  website: https://community.simtropolis.com/files/file/36176-sfbt-der-gammler-and-andreas-campground/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Campingplatz_01.jpg.1db00398f72cdd2e3f616be8a5beb6a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Campingplatz_02.jpg.d737e4cc910d50fadde4b5735b2aba62.jpg
+assets:
+  - assetId: andreas-roth-sfbt-der-gammler-and-andreas-campground
+    include:
+      - "/SFBT_Props/"
+
+---
+assetId: andreas-roth-sfbt-der-gammler-and-andreas-campground
+version: "1"
+lastModified: "2024-03-13T21:46:24Z"
+url: https://community.simtropolis.com/files/file/36176-sfbt-der-gammler-and-andreas-campground/?do=download&r=200691

@@ -1,0 +1,49 @@
+group: hugues-aroux
+name: submenus-and-icons-collection
+version: "3.0.0"
+subfolder: 150-mods
+info:
+  summary: Scoty Submenus & Icons Collection
+  description: |-
+    **Submenus, icons .. and more ...**
+
+    **1.. Basic Icons Replacements.**  
+    This package provides a replacement file for the submenu icons provided by Memo's [Submenus-DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/). ( 2.0.0 )  
+    Place the \[**z\_scoty\_Submenu-DLL\_IconsCover**\] folder in your Plugins/ directory. It can, of course, be placed directly in the directory provided by Submenus-DLL. Or accompany the scoty\_submenus\_gen/ dir’ described below. All replacement icons are part of the collection provided and described below.
+
+    **2.. Scoty Submenus**  
+    To adopt, to adapt, or simply for inspiration...  
+    The \[**scoty\_Submenus\_Gen**\] directory offers a set of pre-built submenus (exemplar, icon, ...) which complements and relies on those of the Subemnus-DLL. Place it in your Plugins/ folder.   
+    The proposed structure is, of course, arbitrary and may not suit everyone. It’s based on suggestions from RSC204 and other players, as well as my own analysis of years of gameplay and the content of STEX, SC4E. It attempts to cover many areas from the outset but remains a work in progress. As the attached (Scoty\_Submenu\_tree.pdf) tree diagram shows, I’ve integrated and offered two useful submenu groups as options, if you haven’t already installed the plugins they come from:  
+    z\_opt\_CAM\_SbMn/ - CAM\-AMPS (v3+) submenus.  
+    z\_opt\_Airport\_SbMn/ - «Ultimate Airport Pack» (SC4E) submenus.  
+    **All that’s left is to « populate » them .**..  
+    **For an overview, see the PDF: Scoty\_Submenu\_tree.pdf**
+
+    **3.. The Scoty Icons Collection**  
+    In the \[**Scoty\_SubMenus\_Collection**\] dir., you’ll find 168 PNGs files \[176x44px\] prepared as submenu icons. Identical to that of the replacement set. These icons cover all the available \[scoty\_submenus\_gen/\]. A few variations are already available, and I may add more over time, depending on my preferences and your requests. Their names are fairly self-explanatory, but they can also be used for other purposes … enjoy!  
+    You can select these files in the «Create new Submenu» section of the «[sc4 cli Tool](https://community.simtropolis.com/files/file/36664-sc4-cli-tool/)» by smf\_16 (see STEX)… easy! Or by integrating them via «Reader».  
+    This collection doesn’t need to be in your SC4 Plugins folder. Drop it elsewhere!
+
+    ![compile_zntxt1.jpg.d382e4586988a64ec591380e85a9292e.jpg](https://www.simtropolis.com/objects/attachments/monthly_2025_04/compile_zntxt1.jpg.d382e4586988a64ec591380e85a9292e.jpg)
+
+    **4.. Icons Masks**  
+    For your convenience, I’m providing PNGs of «Masks» to create your own submenu icons, either identical to this collection (tab01) or with one of the variants. Or just to inspire the most creative..
+
+    *Icons 100% by Natural Intelligence and pixels raised in the open air!*
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/36825-scoty-submenus-icons-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/img_tech_submenu_icones_2.jpg.755edcb53dcc5ff9686faf0c491764b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/Submenu_Tree_scoty_mtg.jpg.6fd185110cca18a53d358e0a4ef9fed8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/ico_submenu_2504.jpg.3a7d93f282a7673382990f3d60cb0354.jpg
+dependencies:
+  - memo:submenus-dll
+assets:
+  - assetId: hugues-aroux-scoty-submenus-and-icons-collection
+
+---
+assetId: hugues-aroux-scoty-submenus-and-icons-collection
+version: "3.0.0"
+lastModified: "2025-11-02T08:59:32Z"
+url: https://community.simtropolis.com/files/file/36825-scoty-submenus-icons-collection/?do=download&r=209888

@@ -1,0 +1,74 @@
+# group: hugues-aroux
+# name: westwindstreets-sam-1-side-streets-bays
+# version: "1.1.48"
+# subfolder: 150-mods
+# info:
+#   summary: WestWindStreets SAM 1 - Side Streets Bays
+#   description: |-
+#     This Mod replaces the NAM SAM\-01 textures. (Parking Lot) and ...
+
+#     **Installation**
+
+#     Unzip into ../plugins
+
+#     Keep one of the two: WWStreets-SAM\-01\_\[LHD|RHD\].dat
+
+#     Keep one of the four: WWStreets-SAM\-01\_T21\_Segments\_\[EG\_\]\[RHD|LHD\].dat
+
+#     The SAM Side-Streets-Bays is lined with trees, bushes and other accessories, ..., and of course, cars and buses. All in a T21 file, which covers all segments. It exists in RHD or LHD version and in seasonnal or evergreen (EG\_), keep the one that suits you.
+
+#     The "decoration" involves dependencies whose list and links are indicated below.
+
+#     This SAM\-01 rework is part of my WestWindStreets project, so the pieces, which contain a main "street" segment, will be composed of the WWS texture.
+
+#     If you are using Maxis Streets or Rivit's Urban Tarsealed Streets, keep the appropriate file: zWWStreets-SAM\-01-Spe-\[Maxis|TSR\].dat. Otherwise, delete them!
+
+#     As any replacement SAM, the transitions - SAMxSAM - correspond to those of the NAM. I added the transit’ (optional) to the other existing SAMs. So, if you do not use the versions of the SAMs mentioned in the files names \[ zWWStreets-SAM\-08\_opt\_|nnn\].dat, delete them. (Where nnn => SAM 2, 4 and 5 of RIVIT, SAM 6 and 7 of MGB).
+
+#     Transitions between WestWindStreets type SAMs are provided in WWS-Essentials plugin (see dependencies below). You will keep the files whose two numbers correspond to the WWS-SAMs used.
+
+#     The zip contains the installation tree: extraction directly into the ../plugins directory. So the Mod is loaded after the NAM.
+
+#     **Distribution**
+
+#     Composed with Maxis grass textures. To change this I am providing a "[Fabrik](https://1drv.ms/f/c/e311098145fffe50/QlD-_0WBCREggOOnBQAAAAAA6G50bYWdkvTx1w)" for those who know how to use it :
+
+#     GoFSH + grass select  textures + execution of the script: build\_WWS\_SAM-01.txt
+
+#     **Dependencies**
+
+#     NAM 48 .. + .. Of course !
+
+#     **Dependencies - T21**
+
+#     [Scoty\_MP\_essential](https://community.simtropolis.com/files/file/33636-scoty-mp-essential/) .. (and dependencies)
+
+#     [WWS-Essentials](https://community.simtropolis.com/files/file/36638-wws-essentials/) .. v.2+
+
+#     [SC4D LEX LEGACY - BSC VIP Girafe Flora Pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+#     [AGC - STREET DLC](https://community.simtropolis.com/files/file/36152-agc-streets-dlc/)
+
+#     [AGC - Casual Sims DLC](https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/)
+
+#     [Nams PROPS PACK Vol 2](https://www.toutsimcities.com/downloads/view/1882)
+#   author: hugues aroux
+#   website: https://community.simtropolis.com/files/file/36686-westwindstreets-sam-1-side-streets-bays/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2025_02/679fa44852a98_Capturedcran2025-02-02123718.jpg.afc97264dda6235f96f40ad9b62ae8d2.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2025_02/679fa44d492a5_Capturedcran2025-02-01200740.jpg.87664e7164ad8c772891bbe426f4a7bb.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2025_02/67a671b458a45_Capturedcran2025-02-07213545.jpg.b93ce4584f8c2da45adadba715fbec58.jpg
+# dependencies:
+#   - hugues:aroux:mp-essentials
+#   - hugues-aroux:westwind-streets-essentials
+#   - agc:casual-sims-dlc-props
+#   - agc:street-props
+#   - namspopof:props-pack-vol2
+# assets:
+#   - assetId: hugues-aroux-westwindstreets-sam-1-side-streets-bays
+
+# ---
+# assetId: hugues-aroux-westwindstreets-sam-1-side-streets-bays
+# version: "1.1.48"
+# lastModified: "2025-02-07T20:48:57Z"
+# url: https://community.simtropolis.com/files/file/36686-westwindstreets-sam-1-side-streets-bays/?do=download&r=205605
