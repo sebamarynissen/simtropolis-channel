@@ -1,0 +1,32 @@
+group: "themurderouscricket"
+name: "simcity-3000-ordinances-for-sc4-transportation"
+version: "1.0.0"
+subfolder: "140-ordinances"
+dependencies:
+- "null-45:custom-ordinance-exemplar-host-dll"
+assets:
+  - assetId: "tmc-simcity-3000-ordinances-for-sc4-transportation"
+
+info:
+  summary: "This pack contains a recreation of Transportation ordinances from SimCity 3000"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+     This resource is a small but hopefully useful project which attempts to recreate ordinances from SimCity 3000 for use in SimCity 4.
+
+     SimCity 3000 had a very elaborate system of ordinances, complete with exhaustive descriptions, which provided mayors with an important and powerful city management tool. Half of these ordinances did not make it into SimCity 4 however. Thanks to the ".dll era", it is now possible to recreate these old ordinances and this is what this package is all about.
+
+     As Penultimo from the Tropico series would say "I've got something for you to sign, and no - it's not my raise again!". Unleash the red tape! 
+
+  author: "TheMurderousCricket"
+  websites:
+    - "https://community.simtropolis.com/files/file/37193-simcity-3000-ordinances-for-sc4-transportation/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/UP3.jpg.94a522a1b98eb806fb6610c98d82b30f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/UP4.jpg.c5c16afbc151e7d41c6e0365ce4eb065.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/UP5.jpg.e49db915f48a5c789369b7ad4f57dda9.jpg
+
+---
+assetId: "tmc-simcity-3000-ordinances-for-sc4-transportation"
+version: "1.0.0"
+lastModified: "2026-01-10T22:52:32Z"
+url: "https://community.simtropolis.com/files/file/37193-simcity-3000-ordinances-for-sc4-transportation/?do=download"
