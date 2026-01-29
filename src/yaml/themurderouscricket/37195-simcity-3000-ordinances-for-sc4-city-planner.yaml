@@ -1,0 +1,96 @@
+---
+assetId: "tmc-simcity-3000-ordinances-for-sc4-city-planner-p-1"
+version: "1.0.0"
+lastModified: "2026-01-12T13:21:39Z"
+url: "https://community.simtropolis.com/files/file/37195-simcity-3000-ordinances-for-sc4-city-planner-p-1/?do=download"
+
+---
+assetId: "tmc-simcity-3000-ordinances-for-sc4-city-planner-p-2"
+version: "1.0.0"
+lastModified: "2026-01-12T13:24:34Z"
+url: "https://community.simtropolis.com/files/file/37196-simcity-3000-ordinances-for-sc4-city-planner-p-2/?do=download"
+
+---
+group: "themurderouscricket"
+name: "simcity-3000-ordinances-for-sc4-city-planner-p-1"
+version: "1.0.0"
+subfolder: "140-ordinances"
+dependencies:
+- "null-45:custom-ordinance-exemplar-host-dll"
+assets:
+  - assetId: "tmc-simcity-3000-ordinances-for-sc4-city-planner-p-1"
+
+info:
+  summary: "This pack contains a recreation of City Planner ordinances from SimCity 3000"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+     This resource is a small but hopefully useful project which attempts to recreate ordinances from SimCity 3000 for use in SimCity 4.
+
+     SimCity 3000 had a very elaborate system of ordinances, complete with exhaustive descriptions, which provided mayors with an important and powerful city management tool. Half of these ordinances did not make it into SimCity 4 however. Thanks to the ".dll era", it is now possible to recreate these old ordinances and this is what this package is all about.
+
+     As Penultimo from the Tropico series would say "I've got something for you to sign, and no - it's not my raise again!". Unleash the red tape! 
+
+  author: "TheMurderousCricket"
+  websites:
+    - "https://community.simtropolis.com/files/file/37195-simcity-3000-ordinances-for-sc4-city-planner-p-1/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/cplanner.jpg.ba14a9d02c554811a0b99cbf5606c68b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP1-1.jpg.e2dff50f4616205913c1e57cbc9fd0d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP1-2.jpg.91c196bc539ff4d8bc7227ee96b95d6a.jpg
+
+---
+group: "themurderouscricket"
+name: "simcity-3000-ordinances-for-sc4-city-planner-p-2"
+version: "1.0.0"
+subfolder: "140-ordinances"
+dependencies:
+- "null-45:custom-ordinance-exemplar-host-dll"
+assets:
+  - assetId: "tmc-simcity-3000-ordinances-for-sc4-city-planner-p-2"
+
+info:
+  summary: "This pack contains a recreation of City Planner ordinances from SimCity 3000"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+     This resource is a small but hopefully useful project which attempts to recreate ordinances from SimCity 3000 for use in SimCity 4.
+
+     SimCity 3000 had a very elaborate system of ordinances, complete with exhaustive descriptions, which provided mayors with an important and powerful city management tool. Half of these ordinances did not make it into SimCity 4 however. Thanks to the ".dll era", it is now possible to recreate these old ordinances and this is what this package is all about.
+
+     As Penultimo from the Tropico series would say "I've got something for you to sign, and no - it's not my raise again!". Unleash the red tape! 
+
+  author: "TheMurderousCricket"
+  websites:
+    - "https://community.simtropolis.com/files/file/37196-simcity-3000-ordinances-for-sc4-city-planner-p-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/cplanner2.jpg.e1eef5a39717a5d65c9b8659009ef8a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP2-1.jpg.c04da5388deb6d776160cb58a7d6c7ac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP2-2.jpg.3a0ee7f1c1d80c79ac2af4bf4eff5286.jpg
+
+---
+group: "themurderouscricket"
+name:  "simcity-3000-ordinances-for-sc4-city-planner"    
+version: "1.0.0"
+subfolder: "140-ordinances"
+info:
+  summary: "This pack contains a recreation of City Planner ordinances from SimCity 3000"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+     This resource is a small but hopefully useful project which attempts to recreate ordinances from SimCity 3000 for use in SimCity 4.
+
+     SimCity 3000 had a very elaborate system of ordinances, complete with exhaustive descriptions, which provided mayors with an important and powerful city management tool. Half of these ordinances did not make it into SimCity 4 however. Thanks to the ".dll era", it is now possible to recreate these old ordinances and this is what this package is all about.
+
+     As Penultimo from the Tropico series would say "I've got something for you to sign, and no - it's not my raise again!". Unleash the red tape! 
+  websites: 
+    - "https://community.simtropolis.com/files/file/37195-simcity-3000-ordinances-for-sc4-city-planner-p-1/"
+    - "https://community.simtropolis.com/files/file/37196-simcity-3000-ordinances-for-sc4-city-planner-p-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/cplanner.jpg.ba14a9d02c554811a0b99cbf5606c68b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP1-1.jpg.e2dff50f4616205913c1e57cbc9fd0d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP1-2.jpg.91c196bc539ff4d8bc7227ee96b95d6a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/cplanner2.jpg.e1eef5a39717a5d65c9b8659009ef8a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP2-1.jpg.c04da5388deb6d776160cb58a7d6c7ac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/CP2-2.jpg.3a0ee7f1c1d80c79ac2af4bf4eff5286.jpg    
+
+dependencies:
+  - themurderouscricket:simcity-3000-ordinances-for-sc4-city-planner-p-1
+  - themurderouscricket:simcity-3000-ordinances-for-sc4-city-planner-p-2
