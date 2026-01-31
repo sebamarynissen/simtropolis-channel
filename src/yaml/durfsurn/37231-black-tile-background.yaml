@@ -12,11 +12,22 @@ info:
   website: https://community.simtropolis.com/files/file/37231-black-tile-background/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2026_01/697daacc488e9_Screenshot2026-01-31175344.png.374123a9880dffb5319d29075fd0c519.png
-assets:
-  - assetId: durfsurn-black-tile-background
+variants:
+  - variant: { durfsurn:black-tile-background:type: soil-only }
+    assets:
+      - assetId: durfsurn-black-tile-background-soil-only
+  - variant: { durfsurn:black-tile-background:type: soil-and-water }
+    assets:
+      - assetId: durfsurn-black-tile-background-soil-and-water
 
 ---
-assetId: durfsurn-black-tile-background
+assetId: durfsurn-black-tile-background-soil-only
 version: "1.0.0"
-lastModified: "2026-01-31T07:37:21Z"
-url: https://community.simtropolis.com/files/file/37231-black-tile-background/?do=download&r=210992
+lastModified: "2026-01-31T09:25:39Z"
+url: https://community.simtropolis.com/files/file/37231-black-tile-background/?do=download&r=211009
+
+---
+assetId: durfsurn-black-tile-background-soil-and-water
+version: "1.0.0"
+lastModified: "2026-01-31T09:25:39Z"
+url: https://community.simtropolis.com/files/file/37231-black-tile-background/?do=download&r=211010
