@@ -10,8 +10,10 @@ This repository contains the following scripts, some of which add new features o
 - `npm run build` - Rebuild the Simtropolis sc4pac channel to include the new metadata
 - `npm run prune` - Scan each lot to find dependencies not listed in the metadata.
 - `npm run list` - Generate a list of dependencies from a package in a standard format.
-- `npm run symlink` - 
+- `npm run symlink` - Create a symlink between test plugins folder and game plugins folder.
 - `npm run sc4pac` - Have sc4pac install packages
+- `npm run plop` - Plop lots in a city for testing.
+
 
 ## Dependencies
 The following dependencies are required to run these scripts:
@@ -21,6 +23,7 @@ The following dependencies are required to run these scripts:
 2. [NPM](https://docs.npmjs.com/about-npm)
 3. [SC4 CLI Tool](https://github.com/sebamarynissen/sc4)
 4. [sc4pac CLI](https://memo33.github.io/sc4pac/#/cli)
+
 
 ## Setting up your environment
 Clone the repo.
@@ -192,12 +195,64 @@ An example result file for the command `npm run list -- simmer2:5g-* mattb325:ik
 ![image](https://github.com/user-attachments/assets/b375dd4a-db3d-49dc-9eaf-6453df32ca15)
 
 
+## `npm run symlink`
+Create a symlink between `/dist/plugins/`, where the `npm run sc4pac` command installs content, and your plugins folder at `/Documents/Simcity 4/`.
+This only needs to be run one time.
+
+
+## `npm run plop` / `sc4 city plop`
+Use the city plop command from the SC4 CLI to plop installed lots into a city for testing, by specifying the region and city name and packages to plop using glob patterns.
+``` sh
+sc4 city plop "Region/City - test city.sc4" group:name-*  --clear --bbox 32,32,64,128
+```
+ Use the `--clear` argument to clear existing content in the city (recommended), and the `--bbox` argument to specify the upper left position in the city to start plopping lots. The default is the upper left corner, spanning across the entire city width.
+
+If you use the same options each time, the test city and the default bounding box can be specified in your .env file:
+
+``` env
+TEST_PLOP_CITY="Plopall/City - Ploptest.sc4"
+TEST_PLOP_BBOX="32,32,48,128"
+```
+
+If the bbox environment variable is not defined, the entire city will be used.
+
+Then, all you need to do is run
+``` sh
+npm run plop
+```
+
+The command will also automatically detect all packages that are installed, so no need to specify them anymore. Still, if you only want to plop a specific package, you can run
+
+``` sh
+npm run plop -- group:name group:name-wildcard*
+```
+
+> [!TIP]
+> Use the `sc4 city plop` or `npm run plop` command in a paused city. The lots are plopped with the power flag so they will have nightlighting, and this way you don't get zots or abandonment in the screenshots.
 
 
 
 
 # An Example Workflow
-The following example illustrates what the various commands do and how they are supposed to be used. 
+This section details the workflow of adding and testing packages. The summary of the process is as follows:
+
+```sh
+npm run add <url>
+
+npm run build
+
+# If you suspect the dependencies are not correct - for example all the bsc dependencies
+# have been added, then you can prune everything first. Typically not needed if the 
+# package dependencies look ok straight away
+npm run prune <patterns...>
+
+# Symlinking the test plugins folder typically only needs to be done once
+npm run symlink
+
+npm run plop
+```
+
+## Detailed Example
 
 Imagine you want to add metadata for [Ceafus 88's Dollar General](https://community.simtropolis.com/files/file/35441-dollar-general/). Start by running:
 ``` sh
