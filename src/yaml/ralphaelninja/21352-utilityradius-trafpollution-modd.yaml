@@ -1,0 +1,109 @@
+group: ralphaelninja
+name: utilityradius-trafpollution-modd
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Black Tile Background
+  description: |-
+    This mod replaces the default soil textures with a black variant.
+
+    An optional variant also includes black water side textures. Choose exactly one variant.
+  author: RalphaelNinja
+  website: https://community.simtropolis.com/files/file/21352-utilityradius-trafpollution-modd/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/31a12e733805b1247825c699b6047443-default.jpg
+
+variants:
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-radius" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_16Radius.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-radius-half-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_16Radius_halfTrafPollution.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-radius-no-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_16Radius_NoTrafPollution.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-radius" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_32Radius.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-radius-half-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_32Radius_halfTrafPollution.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-radius-no-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_32Radius_NoTrafPollution.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-radius" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_64Radius.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-radius-half-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_64Radius_halfTrafPollution.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-radius-no-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_64Radius_NoTrafPollution.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-radius" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_512Radius.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-radius-half-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_512Radius_halfTrafPollution.dat"
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-radius-no-traf-pollution" }
+  assets:
+  - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
+    include:
+    - "/Plugin_512Radius_NoTrafPollution.dat"
+variantInfo:
+- variantId: "ralphaelninja:utilityradius-trafpollution-modd:type"
+  description: Choose a stoplight post style.
+  values:
+  - value: "16-radius"
+    description: 16 tile Radius, 100% Traffic Pollution
+  - value: "16-radius-half-traf-pollution"
+    description: 16 tile Radius, 50% Traffic Pollution
+  - value: "16-radius-no-traf-pollution"
+    description: 16 tile Radius, 0% Traffic Pollution
+  - value: "32-radius"
+    description: 32 tile Radius, 100% Traffic Pollution
+  - value: "32-radius-half-traf-pollution"
+    description: 32 tile Radius, 50% Traffic Pollution
+  - value: "32-radius-no-traf-pollution"
+    description: 32 tile Radius, 0% Traffic Pollution
+  - value: "64-radius"
+    description: 64 tile Radius, 100% Traffic Pollution
+  - value: "64-radius-half-traf-pollution"
+    description: 64 tile Radius, 50% Traffic Pollution
+  - value: "64-radius-no-traf-pollution"
+    description: 64 tile Radius, 0% Traffic Pollution
+  - value: "512-radius"
+    description: 512 tile Radius, 100% Traffic Pollution
+  - value: "512-radius-half-traf-pollution"
+    description: 512 tile Radius, 50% Traffic Pollution
+  - value: "512-radius-no-traf-pollution"
+    description: 512 tile Radius, 0% Traffic Pollution
+---
+assetId: ralphaelninja-utilityradius-trafpollution-modd
+version: "1.0"
+lastModified: "2004-05-04T00:00:00Z"
+url: https://community.simtropolis.com/files/file/21352-utilityradius-trafpollution-modd/?do=download
