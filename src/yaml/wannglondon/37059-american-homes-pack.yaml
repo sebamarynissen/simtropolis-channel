@@ -1,0 +1,36 @@
+group: wannglondon
+name: american-homes-pack
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: American Homes Pack
+  description: |-
+    Around this time of year in the states I always get a hankering for creating traditional American homes. Anyway, here are some I created.
+
+    Only dependency is [here](https://community.simtropolis.com/files/file/32066-superpaths-pathway-textures/).
+  author: WannGLondon
+  website: https://community.simtropolis.com/files/file/37059-american-homes-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/4.jpg.510d5fe25d4f19adbe534e5514e28c24.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/Brick.jpg.0852d5650865fb773e722ad7b5f5600a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/Green.jpg.c5e9783192080b8eaf8181107a75ed3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/Ranch.jpg.ab14b69859fe9f33d0a2235b906d6112.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/Storybook.jpg.6d9fc5f6d6332bebaa5de35d6b4b3cdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/Tan.jpg.5661119d61fa8fa17042f2596f0ddf4b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/Tudor.jpg.0e674e46d6c1ba47d6e95b13aa7ec4d0.jpg
+dependencies:
+  - kingofsimcity:superpaths-pathway-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: wannglondon-american-homes-pack
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: wannglondon-american-homes-pack
+
+---
+assetId: wannglondon-american-homes-pack
+version: "1.0.0"
+lastModified: "2025-10-16T19:18:22Z"
+url: https://community.simtropolis.com/files/file/37059-american-homes-pack/?do=download&r=209662
