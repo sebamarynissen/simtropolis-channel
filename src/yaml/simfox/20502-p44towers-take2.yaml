@@ -96,15 +96,15 @@ dependencies:
   - bsc:textures-vol02
   - simfox:p44towers-models
 assets:
-- assetId: simfox-p44towers-take2-non-cam #TODO - There was a CAM version uploaded to the LEX that is not available for now
-  exclude:
-  - "SimFox_P44TM_towers.dat"
+  - assetId: simfox-p44towers-take2-non-cam #TODO - There was a CAM version uploaded to the LEX that is not available for now
+    exclude:
+      - "SimFox_P44TM_towers.dat"
 
 ---
 group: simfox
 name: p44towers-models
 version: "2"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Models for `pkg=simfox:p44towers-take2`
   author: SimFox
@@ -115,7 +115,7 @@ info:
 assets:
   - assetId: simfox-p44towers-take2-non-cam
     include:
-      - "SimFox_P44TM_towers.dat"
+      - SimFox_P44TM_towers.dat
 
 ---
 assetId: simfox-p44towers-take2-non-cam

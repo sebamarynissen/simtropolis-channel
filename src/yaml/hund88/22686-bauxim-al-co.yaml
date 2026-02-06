@@ -38,9 +38,9 @@ assets:
 group: hund88
 name: bauxim-al-co-props
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
-  summary: "Aluminum smelting & industrial props"
+  summary: Aluminum smelting & industrial props
   description: |
     This package contains models and props from `pkg=hund88:bauxim-al-co`.
   author: HunD88
@@ -51,9 +51,8 @@ info:
 assets:
   - assetId: hund88-bauxim-al-co
     exclude:
-      - "/alu3-0x6534284a-0xf663d343-0x17e5ef74.SC4Desc" #Building exemplar
-      - "\\.SC4Lot$"
-
+      - /alu3-0x6534284a-0xf663d343-0x17e5ef74.SC4Desc
+      - \.SC4Lot$
 
 ---
 assetId: hund88-bauxim-al-co

@@ -66,7 +66,7 @@ assets:
 group: peg
 name: pponds-canal-kit-resource
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: PPonds Canal Kit resource
   author: Pegasus
@@ -77,7 +77,7 @@ info:
 assets:
   - assetId: peg-pponds-canal-kit
     include:
-      - "/PEG_CSK2-PPOND_RESOURCE.dat"
+      - /PEG_CSK2-PPOND_RESOURCE.dat
 
 ---
 assetId: peg-pponds-canal-kit

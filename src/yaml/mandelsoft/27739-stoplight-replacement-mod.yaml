@@ -24,250 +24,250 @@ info:
   author: MandelSoft
   website: https://community.simtropolis.com/files/file/27739-stoplight-replacement-mod-srm/
   images:
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/aa8c87bf190f492d164b1ebcd62469c2-promo.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/0897814e44cbae161fc51a3b3b4a4e23-preview_euro1_rd.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/3f28b9a64cc0ed46dd93c3df241c9c3b-preview_euro2_rd.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/a30035723e8dd645936e57d205faa666-preview_scan_ave_1.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/6f0b9f106c0500144f1bfab5a3e73b9b-preview_scan_ave_2.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/b6a1a39f75d382eb048ef95f627ee2fc-preview_de.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/567e986801eff412b848be1cdb0273d0-preview_fr.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/757acd1d045e383e04dac717be6674fb-preview_mx.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/56644fba1464f705fa5da8a3c5131797-preview_nl.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/24c75548442d421bdba467564c2771a0-preview_s_angular.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/4e49d00ead77c16c44daebdf66b8b2ac-preview_s_curved.jpg
-  - https://www.simtropolis.com/objects/screens/monthly_01_2014/0017d6a6e17e98d5138c06262b6eacd0-preview_se.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/aa8c87bf190f492d164b1ebcd62469c2-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/0897814e44cbae161fc51a3b3b4a4e23-preview_euro1_rd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/3f28b9a64cc0ed46dd93c3df241c9c3b-preview_euro2_rd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/a30035723e8dd645936e57d205faa666-preview_scan_ave_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/6f0b9f106c0500144f1bfab5a3e73b9b-preview_scan_ave_2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/b6a1a39f75d382eb048ef95f627ee2fc-preview_de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/567e986801eff412b848be1cdb0273d0-preview_fr.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/757acd1d045e383e04dac717be6674fb-preview_mx.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/56644fba1464f705fa5da8a3c5131797-preview_nl.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/24c75548442d421bdba467564c2771a0-preview_s_angular.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/4e49d00ead77c16c44daebdf66b8b2ac-preview_s_curved.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/0017d6a6e17e98d5138c06262b6eacd0-preview_se.jpg
 assets:
-- assetId: "mandelsoft-stoplight-replacement-mod-srm"
-  include:
-  - "/Stoplight_Island-0x5ad0e817_0x3ce23eed_0x30000.SC4Model"
-  - "/Z_Stoplights_Exemplars_Posts.dat"
+  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+    include:
+      - "/Stoplight_Island-0x5ad0e817_0x3ce23eed_0x30000.SC4Model"
+      - "/Z_Stoplights_Exemplars_Posts.dat"
 dependencies:
-- mandelsoft:stoplight-replacement-mod-post-models
-- mandelsoft:stoplight-replacement-mod-signal-models
+  - mandelsoft:stoplight-replacement-mod-post-models
+  - mandelsoft:stoplight-replacement-mod-signal-models
 variants:
-- variant: { mandelsoft:stoplight-replacement-mod:layout: "scandinavia-rhd" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/European_Scandinavia_RHD/"
-- variant: { mandelsoft:stoplight-replacement-mod:layout: "variation1-rhd" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/European_Variation1_RHD/"
-- variant: { mandelsoft:stoplight-replacement-mod:layout: "variation1-lhd" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/European_Variation1_LHD/"
-- variant: { mandelsoft:stoplight-replacement-mod:layout: "variation2-rhd" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/European_Variation2_RHD/"
+  - variant: { mandelsoft:stoplight-replacement-mod:layout: "scandinavia-rhd" }
+    assets:
+      - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+        include:
+          - "/European_Scandinavia_RHD/"
+  - variant: { mandelsoft:stoplight-replacement-mod:layout: "variation1-rhd" }
+    assets:
+      - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+        include:
+          - "/European_Variation1_RHD/"
+  - variant: { mandelsoft:stoplight-replacement-mod:layout: "variation1-lhd" }
+    assets:
+      - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+        include:
+          - "/European_Variation1_LHD/"
+  - variant: { mandelsoft:stoplight-replacement-mod:layout: "variation2-rhd" }
+    assets:
+      - assetId: "mandelsoft-stoplight-replacement-mod-srm"
+        include:
+          - "/European_Variation2_RHD/"
 variantInfo:
-- variantId: "mandelsoft:stoplight-replacement-mod:layout"
-  description: Choose a stoplight layout style.
-  values:
-  - value: "scandinavia-rhd"
-    description: Places stoplights on the adjacent side of the intersection and when possible also on the opposite side of an intersection, as seen in Scandinavia. This set doesn't use overhead stoplights in general. Right hand drive.
-  - value: "variation1-rhd"
-    description: Places stoplights on the adjacent side of the intersection, as commonly found in Europe. Right hand drive.
-  - value: "variation1-lhd"
-    description: Places stoplights on the adjacent side of the intersection, as commonly found in Europe. Left hand drive.
-  - value: "variation2-rhd"
-    description: Same as variation 1, but with more overhead stoplights. Right hand drive.
+  - variantId: "mandelsoft:stoplight-replacement-mod:layout"
+    description: Choose a stoplight layout style.
+    values:
+      - value: "scandinavia-rhd"
+        description: Places stoplights on the adjacent side of the intersection and when possible also on the opposite side of an intersection, as seen in Scandinavia. This set doesn't use overhead stoplights in general. Right hand drive.
+      - value: "variation1-rhd"
+        description: Places stoplights on the adjacent side of the intersection, as commonly found in Europe. Right hand drive.
+      - value: "variation1-lhd"
+        description: Places stoplights on the adjacent side of the intersection, as commonly found in Europe. Left hand drive.
+      - value: "variation2-rhd"
+        description: Same as variation 1, but with more overhead stoplights. Right hand drive.
 
 ---
 group: mandelsoft
 name: stoplight-replacement-mod-post-models
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Stoplight post models for `pkg=mandelsoft:stoplight-replacement-mod`
   author: MandelSoft
   website: https://community.simtropolis.com/files/file/27739-stoplight-replacement-mod-srm/
 variants:
-- variant: { mandelsoft:stoplight-replacement-mod:post-style: "maxisesque" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/StoplightPosts_Maxisesque/"
-- variant: { mandelsoft:stoplight-replacement-mod:post-style: "france" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/StoplightPosts_France/"
-- variant: { mandelsoft:stoplight-replacement-mod:post-style: "germany" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/StoplightPosts_Germany/"
-- variant: { mandelsoft:stoplight-replacement-mod:post-style: "simple-angled" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/StoplightPosts_SimpleAngled/"
-- variant: { mandelsoft:stoplight-replacement-mod:post-style: "simple-curved" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/StoplightPosts_SimpleCurved/"
-- variant: { mandelsoft:stoplight-replacement-mod:post-style: "sweden" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/StoplightPosts_Sweden/"
-- variant: { mandelsoft:stoplight-replacement-mod:post-style: "netherlands" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/StoplightPosts_TheNetherlands/"
+  - variant: { mandelsoft:stoplight-replacement-mod:post-style: maxisesque }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /StoplightPosts_Maxisesque/
+  - variant: { mandelsoft:stoplight-replacement-mod:post-style: france }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /StoplightPosts_France/
+  - variant: { mandelsoft:stoplight-replacement-mod:post-style: germany }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /StoplightPosts_Germany/
+  - variant: { mandelsoft:stoplight-replacement-mod:post-style: simple-angled }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /StoplightPosts_SimpleAngled/
+  - variant: { mandelsoft:stoplight-replacement-mod:post-style: simple-curved }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /StoplightPosts_SimpleCurved/
+  - variant: { mandelsoft:stoplight-replacement-mod:post-style: sweden }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /StoplightPosts_Sweden/
+  - variant: { mandelsoft:stoplight-replacement-mod:post-style: netherlands }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /StoplightPosts_TheNetherlands/
 variantInfo:
-- variantId: "mandelsoft:stoplight-replacement-mod:post-style"
-  description: Choose a stoplight post style.
-  values:
-  - value: "maxisesque"
-    description: Maxis style stoplights
-  - value: "france"
-    description: French style stoplights
-  - value: "germany"
-    description: German style stoplights
-  - value: "simple-angled"
-    description: Simple stoplights with a square corner
-  - value: "simple-curved"
-    description: Simple stoplights with a rounded corner
-  - value: "sweden"
-    description: Swedish style stoplights
-  - value: "netherlands"
-    description: Dutch style stoplights
+  - variantId: mandelsoft:stoplight-replacement-mod:post-style
+    description: Choose a stoplight post style.
+    values:
+      - value: maxisesque
+        description: Maxis style stoplights
+      - value: france
+        description: French style stoplights
+      - value: germany
+        description: German style stoplights
+      - value: simple-angled
+        description: Simple stoplights with a square corner
+      - value: simple-curved
+        description: Simple stoplights with a rounded corner
+      - value: sweden
+        description: Swedish style stoplights
+      - value: netherlands
+        description: Dutch style stoplights
 
 ---
 group: mandelsoft
 name: stoplight-replacement-mod-signal-models
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Stoplight signal models for `pkg=mandelsoft:stoplight-replacement-mod`
   author: MandelSoft
   website: https://community.simtropolis.com/files/file/27739-stoplight-replacement-mod-srm/
 variants:
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "generic-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Generic_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "generic-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Generic_Small.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "germany-nopanel-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Germany_NoPanel_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "germany-nopanel-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Germany_NoPanel_Small.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "germany-panel-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Germany_Panel_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "germany-panel-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Germany_Panel_Small.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "scandinavia-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Scandinavia_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "scandinavia-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_Scandinavia_Small.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "netherlands-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_TheNetherlands_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "netherlands-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_TheNetherlands_Small.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "uk-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_UK_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "uk-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_UK_Small.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "usa-black-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_USA_Black_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "usa-black-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_USA_Black_Small.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "usa-yellow-large" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "/Stoplights_SignalModels_USA_Yellow_Large.dat"
-- variant: { mandelsoft:stoplight-replacement-mod:signal-style: "usa-yellow-small" }
-  assets:
-  - assetId: "mandelsoft-stoplight-replacement-mod-srm"
-    include:
-    - "Stoplights_SignalModels_USA_Yellow_Small.dat"
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: generic-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Generic_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: generic-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Generic_Small.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: germany-nopanel-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Germany_NoPanel_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: germany-nopanel-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Germany_NoPanel_Small.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: germany-panel-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Germany_Panel_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: germany-panel-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Germany_Panel_Small.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: scandinavia-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Scandinavia_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: scandinavia-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_Scandinavia_Small.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: netherlands-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_TheNetherlands_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: netherlands-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_TheNetherlands_Small.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: uk-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_UK_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: uk-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_UK_Small.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: usa-black-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_USA_Black_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: usa-black-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_USA_Black_Small.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: usa-yellow-large }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - /Stoplights_SignalModels_USA_Yellow_Large.dat
+  - variant: { mandelsoft:stoplight-replacement-mod:signal-style: usa-yellow-small }
+    assets:
+      - assetId: mandelsoft-stoplight-replacement-mod-srm
+        include:
+          - Stoplights_SignalModels_USA_Yellow_Small.dat
 variantInfo:
-- variantId: "mandelsoft:stoplight-replacement-mod:signal-style"
-  description: Choose a stoplight post style.
-  values:
-  - value: "generic-large"
-    description: Maxis style stoplights
-  - value: "generic-small"
-    description: Smaller Maxis style stoplights
-  - value: "germany-nopanel-large"
-    description: German style stoplights without a sun shield
-  - value: "germany-nopanel-small"
-    description: Smaller German style stoplights without a sun shield
-  - value: "germany-panel-large"
-    description: German style stoplights with a sun shield
-  - value: "germany-panel-small"
-    description: Smaller German style stoplights with a sun shield
-  - value: "scandinavia-large"
-    description: Scandinavian style stoplights
-  - value: "scandinavia-small"
-    description: Smaller Scandinavian style stoplights
-  - value: "netherlands-large"
-    description: Dutch style stoplights
-  - value: "netherlands-small"
-    description: Smaller Dutch style stoplights
-  - value: "uk-large"
-    description: UK style stoplights
-  - value: "uk-small"
-    description: Smaller UK style stoplights
-  - value: "usa-black-large"
-    description: American style stoplights with a black sun shield
-  - value: "usa-black-small"
-    description: Smaller American style stoplights with a black sun shield
-  - value: "usa-yellow-large"
-    description: Scandinavian American style stoplights with a yellow sun shield
-  - value: "usa-yellow-small"
-    description: Smaller American style stoplights with a yellow sun shield
+  - variantId: mandelsoft:stoplight-replacement-mod:signal-style
+    description: Choose a stoplight post style.
+    values:
+      - value: generic-large
+        description: Maxis style stoplights
+      - value: generic-small
+        description: Smaller Maxis style stoplights
+      - value: germany-nopanel-large
+        description: German style stoplights without a sun shield
+      - value: germany-nopanel-small
+        description: Smaller German style stoplights without a sun shield
+      - value: germany-panel-large
+        description: German style stoplights with a sun shield
+      - value: germany-panel-small
+        description: Smaller German style stoplights with a sun shield
+      - value: scandinavia-large
+        description: Scandinavian style stoplights
+      - value: scandinavia-small
+        description: Smaller Scandinavian style stoplights
+      - value: netherlands-large
+        description: Dutch style stoplights
+      - value: netherlands-small
+        description: Smaller Dutch style stoplights
+      - value: uk-large
+        description: UK style stoplights
+      - value: uk-small
+        description: Smaller UK style stoplights
+      - value: usa-black-large
+        description: American style stoplights with a black sun shield
+      - value: usa-black-small
+        description: Smaller American style stoplights with a black sun shield
+      - value: usa-yellow-large
+        description: Scandinavian American style stoplights with a yellow sun shield
+      - value: usa-yellow-small
+        description: Smaller American style stoplights with a yellow sun shield
 
 ---
 assetId: mandelsoft-stoplight-replacement-mod-srm

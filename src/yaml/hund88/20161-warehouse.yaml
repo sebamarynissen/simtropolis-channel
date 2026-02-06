@@ -38,9 +38,9 @@ assets:
 group: hund88
 name: warehouse-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
-  summary: "Industrial warehouse building"
+  summary: Industrial warehouse building
   description: |
     This package contains models and props from `pkg=hund88:warehouse`.
   author: HunD88
@@ -51,7 +51,7 @@ info:
 assets:
   - assetId: hund88-warehouse
     include:
-      - "\\.SC4Model$"
+      - \.SC4Model$
 
 ---
 assetId: hund88-warehouse

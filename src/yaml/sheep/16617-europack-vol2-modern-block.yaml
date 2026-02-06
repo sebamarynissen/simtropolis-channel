@@ -55,7 +55,7 @@ assets:
 group: sheep
 name: europack-vol2-modern-block-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Model for `pkg=sheep:europack-vol2-modern-block`
   author: sheep
@@ -66,7 +66,7 @@ info:
 assets:
   - assetId: sheep-europack-vol2-modern-block
     include:
-      - "/rynek_trojkaty6-0x5ad0e817_0x91657448_0x280000.SC4Model"
+      - /rynek_trojkaty6-0x5ad0e817_0x91657448_0x280000.SC4Model
 
 ---
 assetId: sheep-europack-vol2-modern-block

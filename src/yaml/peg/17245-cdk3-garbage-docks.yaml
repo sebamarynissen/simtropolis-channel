@@ -49,7 +49,7 @@ assets:
 group: peg
 name: cdk3-garbage-docks-resources
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Resources for `pkg=peg:cdk3-garbage-docks`
   author: Pegasus
@@ -62,4 +62,4 @@ dependencies:
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
-      - "/PEG-CDK3_GarbageDock_RESOURCE.dat"
+      - /PEG-CDK3_GarbageDock_RESOURCE.dat

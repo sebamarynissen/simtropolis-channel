@@ -38,7 +38,7 @@ assets:
 group: peg
 name: cdk3-boatyard-resource
 version: "1.0-1"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Props and models for `pkg=peg:cdk3-blackies-boatyard`
   author: Pegasus
@@ -49,4 +49,4 @@ info:
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
-      - "/PEG-CDK3_BoatYard_RESOURCE.dat"
+      - /PEG-CDK3_BoatYard_RESOURCE.dat

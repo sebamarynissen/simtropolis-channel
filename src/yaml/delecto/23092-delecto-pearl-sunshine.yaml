@@ -62,9 +62,9 @@ assets:
 group: delecto
 name: pearl-sunshine-resources
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
-  summary: "Props and models for `pkg=delecto:pearl-sunshine`"
+  summary: Props and models for `pkg=delecto:pearl-sunshine`
   author: Delecto
   website: https://community.simtropolis.com/files/file/23092-delecto-pearl-sunshine/
   images:
@@ -74,7 +74,7 @@ info:
 assets:
   - assetId: delecto-pearl-sunshine
     include:
-      - "/Pearl Models & Essentials/"
+      - /Pearl Models & Essentials/
 
 ---
 assetId: delecto-pearl-sunshine

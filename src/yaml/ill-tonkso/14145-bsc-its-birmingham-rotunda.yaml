@@ -35,7 +35,7 @@ assets:
 group: ill-tonkso
 name: bsc-its-birmingham-rotunda-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Building model for `pkg=ill-tonkso:birmingham-rotunda`
   author: ILL Tonkso
@@ -46,8 +46,7 @@ info:
 assets:
   - assetId: ill-tonkso-bsc-its-birmingham-rotunda
     include:
-      - "\\.SC4Model$"
-
+      - \.SC4Model$
 
 ---
 assetId: ill-tonkso-bsc-its-birmingham-rotunda

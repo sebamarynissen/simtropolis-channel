@@ -29,7 +29,7 @@ dependencies:
 group: spa
 name: the-lexington-models
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Models for `pkg=spa:the-lexington`
   author: spa
@@ -41,7 +41,7 @@ info:
 assets:
   - assetId: spa-the-lexington
     include:
-      - "\\.SC4Model$"
+      - \.SC4Model$
 
 ---
 assetId: spa-the-lexington

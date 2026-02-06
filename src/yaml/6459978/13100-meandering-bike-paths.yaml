@@ -20,13 +20,13 @@ dependencies:
 assets:
   - assetId: 6459978-meandering-bike-paths
     include:
-    - "/Bike Path - Lots.dat"
+      - "/Bike Path - Lots.dat"
 
 ---
 group: "6459978"
 name: meandering-bike-paths-resources
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Bike path props and textures for `pkg=6459978:meandering-bike-paths`
   author: "6459978."
@@ -37,7 +37,7 @@ info:
 assets:
   - assetId: 6459978-meandering-bike-paths
     exclude:
-    - "/Bike Path - Lots.dat"
+      - /Bike Path - Lots.dat
 
 ---
 assetId: 6459978-meandering-bike-paths
