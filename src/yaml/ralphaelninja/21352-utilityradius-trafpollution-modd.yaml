@@ -3,104 +3,112 @@ name: utilityradius-trafpollution-modd
 version: "1.0.0"
 subfolder: 150-mods
 info:
-  summary: Black Tile Background
+  summary: Utility Radius & Traffic Pollution Mod
   description: |-
-    This mod replaces the default soil textures with a black variant.
+    Choose one of the Plugins depending on your needs. The default radius of your power and water is 7 tiles (a diameter of 14 tiles) and the traffic air pollution is .25. 
 
-    An optional variant also includes black water side textures. Choose exactly one variant.
+    There should be enough combination of different radius and half/no traffic pollution to accomodate the different playing styles of most players. As per the plugin name of 16/32/64/512 radius, these are the number of tiles radiating from your water or power source. Thus a radius of 16 will give you a coverage of a circular area of 32 tiles.
+    
+    The Traffic pollution can be reduced to half or none. Since there is no way to control traffic pollution, you may choose to eliminate it completely.
+    
+    The plugins without the trafpollution suffix do not contain any modifications to the Traffic Pollution property.
+    
+    Please direct all comments to the Modd Squad Open Modding Discussions.
+    
+    Ralphael
   author: RalphaelNinja
   website: https://community.simtropolis.com/files/file/21352-utilityradius-trafpollution-modd/
   images:
     - https://www.simtropolis.com/objects/screens/0006/31a12e733805b1247825c699b6047443-default.jpg
 
 variants:
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-radius" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-r" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_16Radius.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-radius-half-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-r-half-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_16Radius_halfTrafPollution.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-radius-no-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "16-r-no-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_16Radius_NoTrafPollution.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-radius" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-r" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_32Radius.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-radius-half-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-r-half-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_32Radius_halfTrafPollution.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-radius-no-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "32-r-no-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_32Radius_NoTrafPollution.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-radius" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-r" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_64Radius.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-radius-half-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-r-half-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_64Radius_halfTrafPollution.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-radius-no-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "64-r-no-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_64Radius_NoTrafPollution.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-radius" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-r" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_512Radius.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-radius-half-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-r-half-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_512Radius_halfTrafPollution.dat"
-- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-radius-no-traf-pollution" }
+- variant: { ralphaelninja:utilityradius-trafpollution-modd:type: "512-r-no-p" }
   assets:
   - assetId: "ralphaelninja-utilityradius-trafpollution-modd"
     include:
     - "/Plugin_512Radius_NoTrafPollution.dat"
 variantInfo:
 - variantId: "ralphaelninja:utilityradius-trafpollution-modd:type"
-  description: Choose a stoplight post style.
+  description: Choose radii and pollution level
   values:
-  - value: "16-radius"
+  - value: "16-r"
     description: 16 tile Radius, 100% Traffic Pollution
-  - value: "16-radius-half-traf-pollution"
+  - value: "16-r-half-p"
     description: 16 tile Radius, 50% Traffic Pollution
-  - value: "16-radius-no-traf-pollution"
+  - value: "16-r-no-p"
     description: 16 tile Radius, 0% Traffic Pollution
-  - value: "32-radius"
+  - value: "32-r"
     description: 32 tile Radius, 100% Traffic Pollution
-  - value: "32-radius-half-traf-pollution"
+  - value: "32-r-half-p"
     description: 32 tile Radius, 50% Traffic Pollution
-  - value: "32-radius-no-traf-pollution"
+  - value: "32-r-no-p"
     description: 32 tile Radius, 0% Traffic Pollution
-  - value: "64-radius"
+  - value: "64-r"
     description: 64 tile Radius, 100% Traffic Pollution
-  - value: "64-radius-half-traf-pollution"
+  - value: "64-r-half-p"
     description: 64 tile Radius, 50% Traffic Pollution
-  - value: "64-radius-no-traf-pollution"
+  - value: "64-r-no-p"
     description: 64 tile Radius, 0% Traffic Pollution
-  - value: "512-radius"
+  - value: "512-r"
     description: 512 tile Radius, 100% Traffic Pollution
-  - value: "512-radius-half-traf-pollution"
+  - value: "512-r-half-p"
     description: 512 tile Radius, 50% Traffic Pollution
-  - value: "512-radius-no-traf-pollution"
+  - value: "512-r-no-p"
     description: 512 tile Radius, 0% Traffic Pollution
 ---
 assetId: ralphaelninja-utilityradius-trafpollution-modd
