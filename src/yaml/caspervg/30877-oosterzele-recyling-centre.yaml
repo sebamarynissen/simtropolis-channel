@@ -1,0 +1,52 @@
+group: caspervg
+name: oosterzele-recyling-centre
+version: "1.0"
+info:
+  summary: Oosterzele Recyling Centre
+  description: |-
+    A recreation of an European-style recycling centre located in Oosterzele, Belgium. It sat on my hard drive for too long, so I'm releasing it now.
+
+    The goal of these refuse stations is that citizens bring in their large garbage (chairs, old tables, couches, woodwork, used bicycles, hedge trimmings, grass leftovers, etc.) to the collection centre and put it in the desired containers. Their cars are weighed upon enter and exit of the centre, and they pay for the weight they dropped of.
+
+    It functions as a recycling centre in game, offering 5 R-$ jobs, removing garbage for a slight water and air pollution cost.
+
+    **Dependencies (or use the LEX Dependency Tracker:** [Click here](https://www.sc4devotion.com/csxlex/lex_deptracker.php?lotID=3296))
+
+    -   [BSC MEGA Props - JES Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+    -   [BSC Mega Props - JES Vol04.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=791)
+    -   [OrangeTSC MegaProp V.01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1955)
+    -   [BSC MEGA Props CAL Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=469)
+    -   [BSC Mega Props jestarr Vol02.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=338)
+    -   [SFBT\_Baustellen\_Props.dat (SFBT Essentials)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+    -   [SFBT\_stephenhh\_Props.dat (SFBT Essentials)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+    -   [BSCBATProps - JES Vol20.dat (=> BSC MEGA Props JES Vol 09)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2349)
+    -   [BSC Mega Props - JES Vol05.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1263)
+    -   [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    -   [BSC MEGA Props - Misc Vol02.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771)
+  author: CasperVg
+  website: https://community.simtropolis.com/files/file/30877-oosterzele-recyling-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/oosterzele_recyling_centre_lex.jpg.9075b1586130770b92f8f09cb8964aae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/oosterzele_recyling_centre_ew.jpg.68b905082dc0281d8147fbb710ff0659.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/oosterzele_recyling_centre_ns.jpg.bdd735cad79a411975869930c0bc4548.jpg
+dependencies:
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - orange:mega-props-vol01
+  - sfbt:essentials
+assets:
+  - assetId: caspervg-oosterzele-recyling-centre
+
+---
+assetId: caspervg-oosterzele-recyling-centre
+version: "1.0"
+lastModified: "2015-12-23T14:13:32Z"
+url: https://community.simtropolis.com/files/file/30877-oosterzele-recyling-centre/?do=download&r=159999
