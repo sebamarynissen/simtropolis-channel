@@ -22,4 +22,4 @@ Contributions are welcome!
 - If you are looking to add sc4pac-compatibility to other's uploads, metadata can be generated and validated in bulk using scripts in this repository. Refer to the [Adding metadata in bulk](/docs/adding-via-scripts.md) article. This is the recommended approach.
 - Package metadata may also be written by hand. Refer to the [metadata format](https://memo33.github.io/sc4pac/#/metadata) documentation. The [Yaml Editor for sc4pac](https://yamleditorforsc4pac.net/) can also assist with manual creation.
 
-Please also refer to the [best practices guide](/docs/metadata-best-practices.md).
+Please also refer to the [Metadata Guidelines & Best Practices](/docs/metadata-best-practices.md) document as a sort of 'style guide' for this project.
