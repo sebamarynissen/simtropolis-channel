@@ -33,25 +33,25 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_05_2012/26ce523676bec1a11d4b54d08cd1e8c4-.jpg
 dependencies:
-- kellydale2003:linda-swampy-medical-centre-model
+  - kellydale2003:linda-swampy-medical-centre-model
 variants:
-- variant: { nightmode: standard }
-  assets:
-  - assetId: kellydale2003-linda-swampy-medical-centre-maxisnite
-    exclude:
-    - ".SC4Model$"
-- variant: { nightmode: dark }
-  dependencies: [ "simfox:day-and-nite-mod" ]
-  assets:
-  - assetId: kellydale2003-linda-swampy-medical-centre-darknite
-    exclude:
-    - ".SC4Model$"
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kellydale2003-linda-swampy-medical-centre-maxisnite
+        exclude:
+          - ".SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: kellydale2003-linda-swampy-medical-centre-darknite
+        exclude:
+          - ".SC4Model$"
 
 ---
 group: kellydale2003
 name: linda-swampy-medical-centre-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Linda Swampy Medical Centre model
   description: |-
@@ -59,17 +59,17 @@ info:
   author: kellydale2003
   website: https://community.simtropolis.com/files/file/27565-linda-swampy-medical-centre/
 variants:
-- variant: { nightmode: standard }
-  assets:
-  - assetId: kellydale2003-linda-swampy-medical-centre-maxisnite
-    include:
-    - ".SC4Model$"
-- variant: { nightmode: dark }
-  dependencies: [ "simfox:day-and-nite-mod" ]
-  assets:
-  - assetId: kellydale2003-linda-swampy-medical-centre-darknite
-    include:
-    - ".SC4Model$"
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kellydale2003-linda-swampy-medical-centre-maxisnite
+        include:
+          - .SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: kellydale2003-linda-swampy-medical-centre-darknite
+        include:
+          - .SC4Model$
 
 ---
 assetId: kellydale2003-linda-swampy-medical-centre-darknite

@@ -39,7 +39,7 @@ assets:
 group: peg
 name: ppond-avenue-draw-bridge-resource
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: PPond Avenue Draw Bridge resource
   author: Pegasus
@@ -50,7 +50,7 @@ info:
 assets:
   - assetId: peg-ppond-avenue-draw-bridge
     include:
-      - "/PEG_PP_DrawBridge-Ave_RESOURCE.dat"
+      - /PEG_PP_DrawBridge-Ave_RESOURCE.dat
 
 ---
 assetId: peg-ppond-avenue-draw-bridge

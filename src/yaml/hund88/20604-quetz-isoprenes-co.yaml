@@ -37,9 +37,9 @@ assets:
 group: hund88
 name: quetz-isoprenes-co-props
 version: "2"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
-  summary: "Industrial manufacturing building & props"
+  summary: Industrial manufacturing building & props
   description: |
     This package contains models and props from `pkg=hund88:quetz-isoprenes-co`.
   author: HunD88
@@ -50,8 +50,8 @@ info:
 assets:
   - assetId: hund88-quetz-isoprenes-co
     exclude:
-      - "/01IPP main-0x6534284a-0x937d900c-0xd61cbaa7.SC4Desc"
-      - "\\.SC4Lot$"
+      - /01IPP main-0x6534284a-0x937d900c-0xd61cbaa7.SC4Desc
+      - \.SC4Lot$
 
 ---
 assetId: hund88-quetz-isoprenes-co

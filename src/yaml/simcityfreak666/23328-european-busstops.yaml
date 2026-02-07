@@ -45,7 +45,7 @@ assets:
 group: simcityfreak666
 name: european-busstops-models
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Models for `pkg=simcityfreak666:european-busstops`
   author: SimCityFreak666
@@ -56,7 +56,7 @@ info:
 assets:
   - assetId: simcityfreak666-european-busstops
     include:
-      - "\\.SC4Model$"
+      - \.SC4Model$
 
 ---
 assetId: simcityfreak666-european-busstops

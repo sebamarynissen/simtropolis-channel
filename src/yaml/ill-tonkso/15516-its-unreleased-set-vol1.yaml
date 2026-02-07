@@ -41,7 +41,7 @@
 group: ill-tonkso
 name: unreleased-set-vol1-resources
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: ITS Unreleased Set Vol1
   description: |-
@@ -62,7 +62,7 @@ info:
 assets:
   - assetId: ill-tonkso-its-unreleased-set-vol1
     exclude:
-      - "\\.SC4Lot$"
+      - \.SC4Lot$
 
 ---
 assetId: ill-tonkso-its-unreleased-set-vol1

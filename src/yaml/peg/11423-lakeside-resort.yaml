@@ -39,7 +39,7 @@ assets:
 group: peg
 name: lakeside-resort-props
 version: "1.1"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Props and models for `pkg=peg:lakeside-resort`
   author: Pegasus
@@ -50,7 +50,7 @@ info:
 assets:
   - assetId: peg-lakeside-resort
     include:
-      - "/PEG_Resort-Pack_205.dat"
+      - /PEG_Resort-Pack_205.dat
 
 ---
 assetId: peg-lakeside-resort

@@ -90,9 +90,9 @@ variants:
 group: delecto
 name: costa-obzor-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
-  summary: "Model for `pkg=delecto:costa-obzor`"
+  summary: Model for `pkg=delecto:costa-obzor`
   author: Delecto
   website: https://community.simtropolis.com/files/file/29178-delecto-costa-obzor/
   images:
@@ -102,13 +102,13 @@ variants:
     assets:
       - assetId: delecto-costa-obzor-maxisnite
         include:
-          - "\\.SC4Model$"
+          - \.SC4Model$
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: delecto-costa-obzor-darknite
         include:
-          - "\\.SC4Model$"
+          - \.SC4Model$
 
 ---
 assetId: delecto-costa-obzor-darknite

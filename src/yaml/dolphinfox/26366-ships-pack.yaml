@@ -23,7 +23,7 @@ info:
 assets:
   - assetId: dolphinfox-ships-pack
     exclude:
-    - "/LUA_files.dat"
+      - "/LUA_files.dat"
 dependencies:
   - dolphinfox:lua-resources
 
@@ -31,7 +31,7 @@ dependencies:
 group: dolphinfox
 name: lua-resources
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: LUA automata resources
   author: DolphinFox
@@ -39,7 +39,7 @@ info:
 assets:
   - assetId: dolphinfox-ships-pack
     include:
-    - "/LUA_files.dat"
+      - /LUA_files.dat
 
 ---
 assetId: dolphinfox-ships-pack

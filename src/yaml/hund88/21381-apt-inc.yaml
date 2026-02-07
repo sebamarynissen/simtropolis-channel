@@ -39,9 +39,9 @@ assets:
 group: hund88
 name: apt-inc-props
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
-  summary: "Industrial manufacturing building & props"
+  summary: Industrial manufacturing building & props
   description: |
     This package contains models and props from `pkg=hund88:apt-inc`.
   author: HunD88
@@ -52,8 +52,8 @@ info:
 assets:
   - assetId: hund88-apt-inc
     exclude:
-      - "/APT inc.-0x6534284a-0xd6c5d067-0x56d01fb8.SC4Desc"
-      - "\\.SC4Lot$"
+      - /APT inc.-0x6534284a-0xd6c5d067-0x56d01fb8.SC4Desc
+      - \.SC4Lot$
 
 ---
 assetId: hund88-apt-inc

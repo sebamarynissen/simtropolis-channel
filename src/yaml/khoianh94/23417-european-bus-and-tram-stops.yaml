@@ -155,7 +155,7 @@ assets:
 group: khoianh94
 name: european-bus-and-tram-stops-resources
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Models and props for khoianh94's European Bus and Tram Stops
   author: khoianh94
@@ -166,8 +166,8 @@ info:
 assets:
   - assetId: khoianh94-european-bus-and-tram-stops
     include:
-      - "/Models/"
-      - "/Props/"
+      - /Models/
+      - /Props/
 
 ---
 assetId: khoianh94-european-bus-and-tram-stops

@@ -39,7 +39,7 @@ assets:
 group: vicgon
 name: lbt-hospitals-pack-models
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Models for `pkg=vicgon:lbt-hospitals-pack-version-gold`
   author: vicgon
@@ -50,7 +50,7 @@ info:
 assets:
   - assetId: vicgon-lbt-hospitals-pack-version-gold
     include:
-      - "\\.SC4Model$"
+      - \.SC4Model$
 
 ---
 assetId: vicgon-lbt-hospitals-pack-version-gold

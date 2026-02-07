@@ -26,7 +26,7 @@ dependencies:
 group: ill-tonkso
 name: portsbourne-railway-station-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Model for `pkg=ill-tonkso:portsbourne-railway-station`
   author: ILL Tonkso
@@ -37,7 +37,7 @@ info:
 assets:
   - assetId: ill-tonkso-portsbourne-railway-station
     include:
-      - "/ITS_PortsbourneStation-0x5ad0e817_0xb29ec9af_0x30000.SC4Model"
+      - /ITS_PortsbourneStation-0x5ad0e817_0xb29ec9af_0x30000.SC4Model
 
 ---
 assetId: ill-tonkso-portsbourne-railway-station

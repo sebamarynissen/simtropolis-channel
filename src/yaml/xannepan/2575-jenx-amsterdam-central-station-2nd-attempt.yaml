@@ -18,12 +18,11 @@ assets:
     include:
       - "\\.SC4Lot$"
 
-
 ---
 group: xannepan
 name: jenx-amsterdam-central-station-resources
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: JENX Amsterdam Central Station props and model
   author: xannepan
@@ -34,7 +33,7 @@ info:
 assets:
   - assetId: xannepan-jenx-amsterdam-central-station-2nd-attempt
     exclude:
-      - "\\.SC4Lot$"
+      - \.SC4Lot$
 
 ---
 assetId: xannepan-jenx-amsterdam-central-station-2nd-attempt
