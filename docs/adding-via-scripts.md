@@ -17,7 +17,7 @@ This repository contains the following scripts, some of which add new features o
 
 ## Dependencies
 The following dependencies are required to run these scripts:
-1. [Node.js](https://nodejs.org). Node.js is an environment that allows you to run javascript code outside of a web browser. It may be installed from the official site, however, for ease of installation and upgrading versions, I recommend using a Node.js version manager.
+1. [Node.js](https://nodejs.org). Node.js is an environment that allows you to run javascript code outside of a web browser. It may be installed from the official site, however, for ease of installation and upgrading versions, you may wish to use a Node.js version manager instead.
     - For Windows use [nvm-windows](https://github.com/coreybutler/nvm-windows)
     - For Mac and Linux use [nvm](https://github.com/nvm-sh/nvm) directly
 2. [NPM](https://docs.npmjs.com/about-npm)
@@ -26,11 +26,14 @@ The following dependencies are required to run these scripts:
 
 
 ## Setting up your environment
-Clone the repo.
-Run `npm install` once to install all of the dependencies for the scripts
+Clone this repo.
+Run `npm install` once to install all of the dependencies for the scripts.
+
+Both the `sc4pac` binary, and the `sc4` binary need to be available in your `PATH` environment variable.
+On Windows, [refer to these instructions](https://www.thewindowsclub.com/how-to-add-edit-a-path-variable-in-windows). Alternatively, [Microsoft Power Toys](https://learn.microsoft.com/en-us/windows/powertoys/) contains a [utility](https://learn.microsoft.com/en-us/windows/powertoys/environment-variables) that makes this process more user friendly.
 
 
-Note that in order for everything to work, you need a `.env` file in the root of the repo that contains the following values:
+You also need to set up a `.env` (environment) file in the root of the repo that contains the following values:
 ``` ini
 STEX_API_KEY=<your_api_key>
 SC4PAC_SIMTROPOLIS_TOKEN=<your_stex_token>
@@ -44,13 +47,11 @@ SC4PAC_CACHE_ROOT="C:\Users\<user>\AppData\Local\io.github.memo33\sc4pac\cache"
 ```
 
 The STEX API key is required to parse the information from an upload.
-To request a STEX API key, contact an admin.
+To request a STEX API key, contact a site admin.
 The sc4pac token is required to authenticate the download to your STEX profile, bypassing the download limit enforced for guest users.
 Your sc4pac token can be generated [here](https://community.simtropolis.com/sc4pac/my-token/).
 
-You will also need to have the `sc4pac` binary available in your `Path` Environment Variable.
-
-The .env file also allows you to specify standard dependencies and variants as a comma-separated list ([#109](https://github.com/sebamarynissen/simtropolis-channel/pull/109)). You would otherwise need to specify these items every time `npm run sc4pac` is run.
+The .env file also allows you to specify standard dependencies and variants as a comma-separated list. You would otherwise need to specify these items every time `npm run sc4pac` is run.[^env-standard-deps]
 
 ``` ini
 STANDARD_DEPENDENCIES=memo:submenus-dll,lowkee33:appalachian-terrain-mod-complete
@@ -60,8 +61,8 @@ STANDARD_VARIANTS=nightmode=dark,driveside=right,sfbt:essentials:tree-family=Max
 
 
 ## `npm run add`
-This script ([#77](https://github.com/sebamarynissen/simtropolis-channel/pull/77)) is used to generate metadata for packages that don't include a metadata.yaml file.
-It includes automated dependency tracking based on the links mentioned in the description.
+This script is used to generate metadata for packages that don't include a metadata.yaml file.
+It includes automated dependency tracking based on the links mentioned in the description.[^npm-run-add]
 
 You may supply one STEX URL, or multiple STEX URLs separated by a space. It is encouraged to add multiple urls as much as possible so that the package index doesn't need to be rebuilt for every package.
 ``` sh
@@ -75,13 +76,16 @@ The same holds for Girafe's flora and other legacy packs.
 To automatically prune only the required dependencies, see `npm run prune`.
 
 ### Splitting packages
-[#82](https://github.com/sebamarynissen/simtropolis-channel/pull/82) adds the functionality to automatically split packages in a resource and main package.
+This feature provides the functionality to automatically split packages in a resource and main package.[^splitting-packages]
 This can be useful for relots, or when creating props that are also available as MMPs, for example.
 
 To use it, run
 ``` sh
 npm run add -- <url> <url> --split
 ```
+
+> [!IMPORTANT]
+> Note the `--` *before* the url. This is needed because otherwise the `--split` flag is passed as flag to npm instead of the script itself. The `--` means "pass all flags after this to the script".
 
 It works by inspecting every file in the asset and then separating lots and flora from props, textures and models, but in a more intelligent way. It will parse every file in the asset, and then add labels to each file, according to the following rules:
 
@@ -97,10 +101,10 @@ It works by inspecting every file in the asset and then separating lots and flor
 Subsequently the files get put in either the resource or main package based on the labels.
 This means that it separates lots and buildings, but also handles the case of flora being provided as props as well.
 This separation happens based on label "priority".
-Any asset that has a `lot` or `flora` label gets put in the main package, all the rest in the resource package. See an example output [here](https://github.com/sebamarynissen/simtropolis-channel/pull/83/changes#diff-7060101106e894d381714a8252bb9de93917ceccd79e5fd2bc5e14a0e471a4e6)
+Any asset that has a `lot` or `flora` label gets put in the main package, all the rest in the resource package. [This is an example of the output](https://github.com/sebamarynissen/simtropolis-channel/pull/83/changes#diff-7060101106e894d381714a8252bb9de93917ceccd79e5fd2bc5e14a0e471a4e6).
 
 ### Darknite only
-[#122](https://github.com/sebamarynissen/simtropolis-channel/pull/122) adds a `--darknite-only` flag so that every asset is forcibly tagged as darknite, so that the correct variants get generated.
+The `--darknite-only` flag can be specified so that every asset is forcibly tagged as darknite so that the correct variants get generated.[^darknite-only]
 This is useful in case an author uploaded a plugin as darknite-only, but did not label the asset as such.
 ``` sh
 npm run add -- https://community.simtropolis.com/files/file/30475-bay-adelaide-centre-west/ --darknite-only
@@ -111,11 +115,11 @@ It is possible to use when adding multiple files, but it will apply to all - it 
 npm run add -- <url> <url> --darknite-only
 ```
 
-Note the `--` *before* the url. This is needed because otherwise the `--darknite-only` flag is passed as flag to npm instead of the script itself. The `--` means "pass all flags after this to the script".
+Again, note the `--` *before* the url.
 
 ### Adding (and updating) by author
-It is additionally possible to add *all* files from a specific author at once ([#296](https://github.com/sebamarynissen/simtropolis-channel/pull/296)).
-One or multiple different authors may be specified at once.
+It is additionally possible to add *all* files from a specific author at once.[^run-add-author]
+One or multiple different authors may be specified in a single command.
 By default, content already in the channel may is skipped, but specifying the `-u` or `--update` argument will  reprocess those files to pick up any STEX updates that may have happened since the metadata was created.
 ``` sh
 npm run add:author -- memo
@@ -130,7 +134,7 @@ By default this command also outputs a confirmation dialog summarizing what will
 
 
 ## `npm run prune`
-This command ([#78](https://github.com/sebamarynissen/simtropolis-channel/pull/78)) automatically reports the dependencies for a package.
+This command automatically reports the dependencies for a package.[^npm-run-prune]
 Some authors unfortunately report inaccurate dependencies, and this script will warn about missing dependencies that are not already included in the metadata.
 The command may be run on it's own, or specific packages may be targeted for pruning using glob patterns.
 ``` sh
@@ -139,17 +143,17 @@ npm run prune mattb325:*
 ```
 
 ### Updating metadata
-By default, pruning only outputs a tabular report to the CLI. the `--force` argument ([#87](https://github.com/sebamarynissen/simtropolis-channel/pull/87)) modifies the generated metadata by adding packages to the dependencies list, if they are known.
+By default, pruning only outputs a tabular report to the CLI. the `--force` argument modifies the generated metadata by adding packages to the dependencies list, if they are known.[^run-prune-force]
 ``` sh
 npm run prune -- --force
 npm run prune -- mattb325:* diego-del-lano:432-park-avenue --force
 ```
-Note that it is advised to only do this after committing the initially generated metadata so that it's easy to see what the pruning has changed.
+Note that it is advised to only use this argument after committing the initially generated metadata so that it's easy to see what the pruning has changed.
 
 
 
 ## npm run list
-The list command ([#93](https://github.com/sebamarynissen/simtropolis-channel/pull/93)) generates a list of dependencies in standardized format. 
+The list command generates a list of dependencies in standardized format.[^npm-run-list]
 It will generate an `.html` file in `dist/copy.html` which shows the dependency list as an html `<ul>` list. Click "Copy" to copy it to the clipboard.
 
 When pasting it inside a wysiwyg editor - such as the description edit box on the STEX, or in an e-mail client - it will paste it as an actual html list. If pasting inside something that only supports text - such as text editors - it will paste the list in sc4pac format.
@@ -177,7 +181,7 @@ and the following generated text:
 - supershk:mega-parking-textures
 ```
 
-Multiple packages, as well as glob patterns may also be included in the same HTML document ([#98](https://github.com/sebamarynissen/simtropolis-channel/pull/98))
+Multiple packages, as well as glob patterns may also be included in the same HTML document.[^run-list-glob]
 ``` sh
 npm run list mattb325:ikea-superstore parisian:*
 ```
@@ -365,13 +369,13 @@ Now you can fire up the game and test the lots. For convenience, the extra cheat
 sc4 city plop "Region/City - test city.sc4" ceafus-88:*
 ```
 
-This plops every lot in a neat grid.
+This plops every lot in a tight configuration.
 
 ![sXzAyZxO7f](https://github.com/user-attachments/assets/9ad131e9-6a01-4859-afde-84712c59cd3f)
 
 Be aware that querying or bulldozing certain lots, especially ones with budget sliders may result in a CTD.
 This is unavoidable due to how the buildings are plopped.
-As such, use this to ensure all the lots visually appear correct, and that there are no brown boxes or missing props or textures.
+As such, use this plop method to ensure all the lots visually appear correct, and that there are no brown boxes or missing props or textures.
 
 
 Now, you may notice that unfortunately some creators make mistakes when listing their dependencies. This is where the prune command comes in. Run it as
@@ -379,7 +383,7 @@ Now, you may notice that unfortunately some creators make mistakes when listing 
 npm run prune
 ```
 and it will automatically report all dependencies for each package.
-As an example, for the `ceafus-88:dollar-general` package:
+As an example, for the `ceafus-88:dollar-general` package, this command reports the following:
 ```
 Installation folder: C:\GOG Games\SimCity 4 Deluxe Edition
 Plugins folder: C:\Users\sebam\Documents\SimCity 4 modding\simtropolis-channel\dist\plugins
@@ -466,3 +470,15 @@ Cool, the package metadata is now ready to be committed and a PR can be created 
 Realistically, you would probably not do the pruning package by package, but just add a bunch of metadata at once with `npm run add <url> <url>`, and then only `npm run sc4pac` and `npm run prune` for all packages.
 
 Also note that if a package links to the BSC common dependencies legacy pack, *all* bsc dependencies will get listed as a dependency. You can use `npm run prune` for this to fix that.
+
+
+[^env-standard-deps]: https://github.com/sebamarynissen/simtropolis-channel/pull/109
+[^npm-run-add]: https://github.com/sebamarynissen/simtropolis-channel/pull/77
+[^splitting-packages]: https://github.com/sebamarynissen/simtropolis-channel/pull/82
+[^darknite-only]: https://github.com/sebamarynissen/simtropolis-channel/pull/122
+[^run-add-author]: https://github.com/sebamarynissen/simtropolis-channel/pull/296
+[^npm-run-prune]: https://github.com/sebamarynissen/simtropolis-channel/pull/78
+[^run-prune-force]: https://github.com/sebamarynissen/simtropolis-channel/pull/87
+[^npm-run-list]: https://github.com/sebamarynissen/simtropolis-channel/pull/93
+[^run-list-glob]: https://github.com/sebamarynissen/simtropolis-channel/pull/9
+

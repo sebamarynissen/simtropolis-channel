@@ -19,7 +19,7 @@ Currently, the STEX is polled for new content once every hour, meaning if your p
 ## Contributions
 Contributions are welcome!
 - If you are a mod author looking to add sc4pac-compatibility to one of your uploads, refer to the [How to make my plugins compatible](/docs/adding-via-stex.md) article.
-- If you are looking to add sc4pac-compatibility to other's uploads, metadata may also be generated and validated in bulk using scripts in this repository. Refer to the [Adding metadata in bulk](/docs/adding-via-scripts.md) article. This is the recommended approach.
-- Package metadata may also be written by hand. Refer to the [metadata format](https://memo33.github.io/sc4pac/#/metadata) documentation and the [Yaml Editor for sc4pac](https://yamleditorforsc4pac.net/).
+- If you are looking to add sc4pac-compatibility to other's uploads, metadata can be generated and validated in bulk using scripts in this repository. Refer to the [Adding metadata in bulk](/docs/adding-via-scripts.md) article. This is the recommended approach.
+- Package metadata may also be written by hand. Refer to the [metadata format](https://memo33.github.io/sc4pac/#/metadata) documentation. The [Yaml Editor for sc4pac](https://yamleditorforsc4pac.net/) can also assist with manual creation.
 
 Please also refer to the [best practices guide](/docs/metadata-best-practices.md).

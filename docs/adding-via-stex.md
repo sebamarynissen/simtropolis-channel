@@ -63,7 +63,7 @@ url: https://community.simtropolis.com/files/file/35168-inmark-tower/?do=downloa
 
 ```
 
-This is why you can leave the `metadata.yaml` file in your .zip empty: if the generated metadata from the STEX upload is sufficient for your package, you don't have to write any metadata yourself!
+This is why you can leave the `metadata.yaml` file in your .zip empty: **if the generated metadata from the STEX upload is sufficient for your package, you don't have to write any metadata yourself!**
 Everything is handled automatically.
 Note how even Maxisnite & Darknite variants are handled automatically too - [see below](#supporting-variants) for an explanation on how this works.
 
@@ -83,7 +83,7 @@ dependencies:
 The rest of the metadata will be generated automatically.
 
 Dependencies must be valid sc4pac identifiers that are available either in the [default channel](https://memo33.github.io/sc4pac/channel) or the [Simtropolis channel](https://sc4pac.simtropolis.com).
-If a dependency is not available in either of those channels, you have to file a PR to add it to the [default channel](https://github.com/memo33/sc4pac) before you can use it, or you have to instruct users that this dependency must be installed by hand.
+If a dependency is not available in either of those channels, you will need to file a pull request to add it to the [default channel](https://github.com/memo33/sc4pac) before you can use it, or you have to instruct users that this dependency must be installed by hand.
 Work is being done to making as many dependencies available as possible, but especially for relots that use models of the original file, it's possible that you won't be able to specify the dependency in sc4pac format.
 
 > [!NOTE]
@@ -145,15 +145,19 @@ This is especially important if your plugin has specific needs, such as needing 
 If your plugin has other specific installation needs for which you need to be able to customize the metadata, it should also be done within `metadata.yaml`.
 The channel will use anything it finds in here, and fill in the gaps based on the STEX upload.
 
-For example, if you want to upload a package under a different group name - because you're part of the NYBT team, for example - and it needs the `nybt:essentials` as a dependency, then this can be done by adding
+For example, if you have your name as part of the STEX file title, in sc4pac the package will be identified like `myname:myname-props-pack`. To prevent your name showing up twice, specify a custom name by adding
+``` yaml
+name: props-pack
+```
+to the `metadata.yaml` file. That's all there is to it!
+The channel will automatically fill in the rest of the gaps, such as the package group, summary, description, assets, images, etc.
+
+Additionally, if you want to upload a package under a different group name - because you're part of the NYBT team, for example - and it needs the `nybt:essentials` as a dependency, then this can be done by adding
 ```yaml
 group: nybt
 dependencies:
   - nybt:essentials
 ```
-to the `metadata.yaml` file.
-That's all there is to it!
-The channel will automatically fill in the rest of the gaps, such as the package name, summary, description, assets, etc.
 
 > [!IMPORTANT]
 > By default, you can only publish a package under your own account name as group. If you'd like to upload packages under another group name as well, file a PR to add yourself to `permissions.yaml`, or contact [smf_16](https://community.simtropolis.com/profile/259789-smf_16/) or [nos.17](https://community.simtropolis.com/profile/455740-nos17/) on Simtropolis.
