@@ -1,0 +1,33 @@
+---
+assetId: ulisse-wolf-building-style-rural-far-west-old-west-wild-west
+version: "1.0.0"
+lastModified: "2026-02-07T01:00:17Z"
+url: https://community.simtropolis.com/files/file/37241-building-style-rural-far-west-old-west-wild-west/?do=download
+
+---
+group: ulisse-wolf
+name: building-style-rural-far-west-old-west-wild-west
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Building Style - Rural and Far West/Old West/Wild West
+  description: |
+    This mod allows you to add the Rural building style based exclusively on Rural and Far West/Old West/Wild West architecture (1803-1912)
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/37241-building-style-rural-far-west-old-west-wild-west/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/69868c7db90b6_OldWest.png.bddad526f75c00fa459140c950fd03b5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/wild-wild-west-darren-white.jpg.8ad783c7004d9ad7376f5df31be1bf84.jpg
+
+  warning: |-
+    This Building Style plugin comes with an JSON configuration file:
+    
+    * `Building Style - Rrual-Old West SC4Pac Installer.json`
+    
+    To complete the installation, Import this JSON file using the SC4Pac import feature and select the buildings compatible with the building style you want to install.
+dependencies:
+  - null-45:allow-more-building-styles-dll
+  - null-45:sc4-resource-loading-hooks
+
+assets:
+  - assetId: ulisse-wolf-building-style-rural-far-west-old-west-wild-west
