@@ -1,11 +1,13 @@
 group: dono
-name: airport-sf-fillers-v1
-version: "1.0.0"
+name: airport-sf-fillers
+version: "1.0.1"
 subfolder: 700-transit
 info:
   summary: DONO Airport Security Fence Roads and Fillers
   description: |-
     **Airport Security Fence Roads and Taxiway Fillers**
+
+    **Just doing an update...**I will wait 10 min for the possibility someone is downloading now then I'll do an update so don't download until this message has been removed.
 
     NOTE: This is my first upload, and these were made some time ago to specifically fit into my games airport which was widely based on Scaley McSlithers (DRP) Diagonal Runway Project.  
     The base textures are quite specific but there are other airport downloads that use the same textures ..I hope yours does too:)
@@ -26,20 +28,21 @@ info:
     [DONO Prop Pack](https://community.simtropolis.com/files/file/37233-dono-prop-pack/)  
     [DONO Texture Pack](https://community.simtropolis.com/files/file/37232-dono-texture-pack/)  
     [AGC Street Props](https://community.simtropolis.com/files/file/36152-agc-streets-dlc/)  
+    [KOSMO Security Checkpoint](https://community.simtropolis.com/files/file/31268-security-checkpoint/)  
     [SPOT](https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/) (Optional)  
     [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
     If you don't want to install the entire BSC Common Dependencies Pack, you only require **BSC Mega Props-JES Vol01 v2**   
     [Airport Common Dependency Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/348-sc4-legacy-airport-common-dependency-pack)  
-    If you don't want to install the entire Airport Common Dependency Pack, you only require **AC Mega Textures Vol01 v2** and **SCAG\-ARIP\_Textures**
+    If you don't want to install the entire Airport Common Dependency Pack, you only require **AC Mega Textures Vol01 v2** and **SCAG\-ARIP\_Textures** (If needing to choose a drive side, either left- or right-hand drive files should work as my lots are universal)
   author: Dono
   website: https://community.simtropolis.com/files/file/37240-dono-airport-security-fence-roads-and-fillers/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2026_02/NearlyAll.jpg.54dfe77995a03733cc7d7e3baab7ea90.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2026_02/FieldRds.jpg.d8ff94a75dd0a575e103d294fbc24823.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2026_02/SpecialParking.jpg.290ea370575d786fa8369b0191390f79.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2026_02/Toll2.jpg.c984be266862649833c088e5d170bc83.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2026_02/FieldFence.jpg.4b26fe58c349e3c45acb3cf108a78f81.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2026_02/Airport.jpg.8d4f3893f4af62148d3d411eb8185579.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/AAALLL.jpg.a73a40c784e80550343f74af7dd680a6.jpg
 dependencies:
   - bsc:mega-props-jes-vol01
   - ac:mega-textures-vol01
@@ -48,11 +51,12 @@ dependencies:
   - dono:prop-pack
   - dono:texture-pack
   - scag:road-dependency-pack
+  - kosmo:security-checkpoint-resources
 assets:
   - assetId: dono-dono-airport-security-fence-roads-and-fillers
 
 ---
 assetId: dono-dono-airport-security-fence-roads-and-fillers
-version: "1.0.0"
-lastModified: "2026-02-06T10:34:13Z"
-url: https://community.simtropolis.com/files/file/37240-dono-airport-security-fence-roads-and-fillers/?do=download&r=211069
+version: "1.0.1"
+lastModified: "2026-02-08T10:34:53Z"
+url: https://community.simtropolis.com/files/file/37240-dono-airport-security-fence-roads-and-fillers/?do=download&r=211118
