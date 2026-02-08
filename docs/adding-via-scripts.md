@@ -6,7 +6,7 @@ Note that the instructions and specific commands may vary slightly between Windo
 
 ## Overview
 This repository contains the following scripts, some of which add new features on top of the default sc4pac CLI commands:
-- `npm run add` - Generate metadata from a STEX URL
+- `npm run add` - Generate metadata from one or more STEX URLs, or optionally all URLs from specified authors
 - `npm run build` - Rebuild the Simtropolis sc4pac channel to include the new metadata
 - `npm run prune` - Scan each lot to find dependencies not listed in the metadata.
 - `npm run list` - Generate a list of dependencies from a package in a standard format.
@@ -75,6 +75,21 @@ Most importantly, packages that link to the BSC legacy pack will get the entire 
 The same holds for Girafe's flora and other legacy packs.
 To automatically prune only the required dependencies, see `npm run prune`.
 
+### Adding (and updating) by author
+It is additionally possible to add *all* files from a specific author at once.[^run-add-author]
+One or multiple different authors may be specified in a single command.
+By default, content already in the channel is skipped, but specifying the `-u` or `--update` argument will  reprocess those files to pick up any STEX updates that may have happened since the metadata was created.
+``` sh
+npm run add:author -- memo
+npm run add:author -- memo "NAM Team"
+npm run add:author -- 95442  # using author id
+npm run add:author -- memo -u  # update existing files
+```
+
+By default this command also outputs a confirmation dialog summarizing what will be processed. This may be skipped with the `-y` or `--yes` arguments.
+
+![image](https://github.com/user-attachments/assets/beeb6c26-6251-4914-8696-65133083f9a6)
+
 ### Splitting packages
 This feature provides the functionality to automatically split packages in a resource and main package.[^splitting-packages]
 This can be useful for relots, or when creating props that are also available as MMPs, for example.
@@ -117,20 +132,6 @@ npm run add -- <url> <url> --darknite-only
 
 Again, note the `--` *before* the url.
 
-### Adding (and updating) by author
-It is additionally possible to add *all* files from a specific author at once.[^run-add-author]
-One or multiple different authors may be specified in a single command.
-By default, content already in the channel is skipped, but specifying the `-u` or `--update` argument will  reprocess those files to pick up any STEX updates that may have happened since the metadata was created.
-``` sh
-npm run add:author -- memo
-npm run add:author -- memo "NAM Team"
-npm run add:author -- 95442  # using author id
-npm run add:author -- memo -u  # update existing files
-```
-
-By default this command also outputs a confirmation dialog summarizing what will be processed. This may be skipped with the `-y` or `--yes` arguments.
-
-![image](https://github.com/user-attachments/assets/beeb6c26-6251-4914-8696-65133083f9a6)
 
 
 ## `npm run prune`
