@@ -54,10 +54,10 @@ More specific recommendations are outlined below.
 
 
 ## Package `dependencies`
-1. If you encounter dependencies not tracked and resolved automatically, add them to `scripts/<exchange_name>.js`.[^untracked-deps]
+1. If you encounter dependencies not tracked and resolved automatically, add them to `scripts/<exchange_name>.js`.[^untracked-deps] These files effectively convert a url to a known sc4pac package.
 1. If a package requires models or props or textures from another (non-dependency) package, prefer creating a **resource** package containing the necessary items. This avoid requiring users to install lots they may not necessarily want. See [peg:lakeside-resort](https://github.com/sebamarynissen/simtropolis-channel/blob/main/src/yaml/peg/11423-lakeside-resort.yaml) for an example. This means the dependency should change from `peg:lakeside-resort` to `peg:lakeside-resort-props`.[^use-resource-package]
     - Depending on the contents of this package, you could call it `-props`, `-models`, `-textures`, or `-resource`, though `-resource` is generally preferred, especially if this package contains a combination of those things.
-1. The submenus-dll should **_not_** be listed as a dependency, except in the case of exemplar patching. Files that use this do not **require** the submenus-dll - instead, they are **compatible** with the submenus-dll. The files will work just fine without submenus-dll installed.[^submenus-dll-not-a-dep]
+1. The submenus-dll should **_not_** be listed as a dependency. Files that use submenus do not **require** the submenus-dll - instead, they are **compatible** with the submenus-dll. The files will work just fine without submenus-dll installed.[^submenus-dll-not-a-dep] (Historically, plugins using Exemplar Patching needed the submenus-dll, but now they just depend on `null-45:sc4-resource-loading-hooks` instead.)
 
 
 ## Package `summary`

@@ -91,7 +91,7 @@ It works by inspecting every file in the asset and then separating lots and flor
 
 - `.SC4Lot` files get the `lot` label
 - `.SC4Model` files get the `model` label
-- `.SC4Desc` and .dat files are parsed, and labels are added based on every entry in it:
+- `.SC4Desc` and `.dat` files are parsed, and labels are added based on every entry in it:
   - If the file contains a prop exemplar, the `prop` label is added
   - If the file contains a flora exemplar, the `flora` label is added
   - If the file contains a `building` exemplar, the building label is added, but only if it's a growable building. If it's a ploppable building, then the `lot` label is added. That's to ensure that growable building exemplars end up in the resource package, which allows them to be relotted with the existing building exemplar. Ploppable building exemplars can't be used for re-lotting (if I understand correctly), so that's why they get the `lot` label
@@ -120,7 +120,7 @@ Again, note the `--` *before* the url.
 ### Adding (and updating) by author
 It is additionally possible to add *all* files from a specific author at once.[^run-add-author]
 One or multiple different authors may be specified in a single command.
-By default, content already in the channel may is skipped, but specifying the `-u` or `--update` argument will  reprocess those files to pick up any STEX updates that may have happened since the metadata was created.
+By default, content already in the channel is skipped, but specifying the `-u` or `--update` argument will  reprocess those files to pick up any STEX updates that may have happened since the metadata was created.
 ``` sh
 npm run add:author -- memo
 npm run add:author -- memo "NAM Team"

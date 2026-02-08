@@ -201,7 +201,7 @@ A variant is an option a user needs to make when installing a mod.
 The best known variant is Maxisnite vs. Darknite, but plugins can sometimes also offer a RHD and LHD variant or a specific CAM variant, or a variant unique to that upload.
 You may read more about variants, including tips and best practices, in the [sc4pac docs](https://memo33.github.io/sc4pac/#/metadata?id=variants).
 
-Writing metadata for variants not always the simplest task - it can be cumbersome and prone to errors.
+Writing metadata for variants is not always the simplest task - it can be cumbersome and prone to errors.
 To solve this, the channel can automatically generate metadata for the most common variants if you follow a certain convention in your uploads.
 There are 4 supported variants:
 
