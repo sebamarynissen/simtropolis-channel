@@ -6,14 +6,15 @@ Note that the instructions and specific commands may vary slightly between Windo
 
 ## Overview
 This repository contains the following scripts, some of which add new features on top of the default sc4pac CLI commands:
-- `npm run add` - Generate metadata from one or more STEX URLs, or optionally all URLs from specified authors
-- `npm run build` - Rebuild the Simtropolis sc4pac channel to include the new metadata
-- `npm run prune` - Scan each lot to find dependencies not listed in the metadata.
-- `npm run list` - Generate a list of dependencies from a package in a standard format.
-- `npm run symlink` - Create a symlink between test plugins folder and game plugins folder.
-- `npm run sc4pac` - Have sc4pac install packages
-- `npm run plop` - Plop lots in a city for testing.
+- [`npm run add`](#npm-run-add) - Generate metadata from one or more STEX URLs, or optionally all URLs from specified authors
+- [`npm run build`](#npm-run-build) - Rebuild the Simtropolis sc4pac channel to include the new metadata
+- [`npm run prune`](#npm-run-prune) - Scan each lot to find dependencies not listed in the metadata.
+- [`npm run list`](#npm-run-list) - Generate a list of dependencies from a package in a standard format.
+- [`npm run symlink`](#npm-run-symlink) - Create a symlink between test plugins folder and game plugins folder.
+- [`npm run sc4pac`](#npm-run-sc4pac) - Install packages in this channel or the default channel with sc4pac.
+- [`npm run plop`](#npm-run-plop-and-sc4-city-plop) - Plop lots in a city for testing.
 
+The end of this document contains an example of how you would use these commands in a real world workflow - see *[An Example Workflow](#an-example-workflow)*.
 
 ## Dependencies
 The following dependencies are required to run these scripts:
@@ -134,6 +135,11 @@ Again, note the `--` *before* the url.
 
 
 
+## `npm run build`
+This command builds the local sc4pac channel to include recently added or updated files so that they can be tested and installed regularly through sc4pac.
+
+
+
 ## `npm run prune`
 This command automatically reports the dependencies for a package.[^npm-run-prune]
 Some authors unfortunately report inaccurate dependencies, and this script will warn about missing dependencies that are not already included in the metadata.
@@ -200,17 +206,28 @@ An example result file for the command `npm run list -- simmer2:5g-* mattb325:ik
 ![image](https://github.com/user-attachments/assets/b375dd4a-db3d-49dc-9eaf-6453df32ca15)
 
 
+
 ## `npm run symlink`
 Create a symlink between `/dist/plugins/`, where the `npm run sc4pac` command installs content, and your plugins folder at `/Documents/Simcity 4/`.
 This only needs to be run one time.
 
 
-## `npm run plop` / `sc4 city plop`
+
+## `npm run sc4pac`
+This command is used to install content into your Plugins folder. It is essentially a wrapper for the sc4pac `add` and `update` commands, combined into one step. It also supports glob patterns to identify content to install. For example,
+``` sh
+npm run sc4pac mattb325:* nos17:b62-*
+```
+Installs all content by mattb325, and all content by nos.17 with a name that starts with `b62-`.
+
+
+
+## `npm run plop` and `sc4 city plop`
 Use the city plop command from the SC4 CLI to plop installed lots into a city for testing, by specifying the region and city name and packages to plop using glob patterns.
 ``` sh
 sc4 city plop "Region/City - test city.sc4" group:name-*  --clear --bbox 32,32,64,128
 ```
- Use the `--clear` argument to clear existing content in the city (recommended), and the `--bbox` argument to specify the upper left position in the city to start plopping lots. The default is the upper left corner, spanning across the entire city width.
+Use the `--clear` argument to clear existing content in the city (recommended), and the `--bbox` argument to specify the upper left position in the city to start plopping lots. The default is the upper left corner, spanning across the entire city width.
 
 If you use the same options each time, the test city and the default bounding box can be specified in your .env file:
 
