@@ -52,6 +52,8 @@ const EXCLUDED_CATEGORIES = [
 	116,
 	// Ready Made Regions
 	117,
+	// 3ds Models
+	119,
 	// Reference & Info
 	121,
 ];
