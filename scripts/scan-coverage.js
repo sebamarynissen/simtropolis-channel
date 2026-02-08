@@ -250,6 +250,7 @@ async function fetchAllStexFiles(apiKey, endpoint) {
 		url.searchParams.set('offset', offset.toString());
 		url.searchParams.set('limit', limit.toString());
 		url.searchParams.set('metadata', 'true');
+		url.searchParams.set('extras', 'true');
 
 		spinner.text = `Fetching batch ${batch} (offset ${offset})...`;
 
@@ -470,9 +471,10 @@ function generateNavbar() {
 				</li>
 		  </ul>
 		  <ul>
-		    <li><a href="#Summary">Summary</a></li>
-		    <li><a href="#${generateAnchor('Top Authors with Missing Packages')}">Top Authors</a></li>
+		    <li><a href="#summary">Summary</a></li>
 		    <li><a href="#${generateAnchor('Package Summary by Category')}">By Category</a></li>
+		    <li><a href="#${generateAnchor('Top Files by Download Count')}">Top Files</a></li>
+		    <li><a href="#${generateAnchor('Top Authors with Missing Packages')}">Top Authors</a></li>
 		    <li><a href="#${generateAnchor('Package Summary by Author')}">By Author</a></li>
 		    <li><a href="#${generateAnchor('Package Details')}">Package Details</a></li>
 		  </ul>
@@ -586,6 +588,75 @@ function generateCoverageGridSection(stats) {
 		</div>
 
 	`;
+}
+
+
+
+function generateTopFilesTable(stexFiles, index) {
+	// Sort ALL files by download count (descending)
+	const sortedFiles = stexFiles.sort((a, b) => {
+		const aDownloads = a.downloads || a.download_count || 0;
+		const bDownloads = b.downloads || b.download_count || 0;
+		return bDownloads - aDownloads;
+	});
+
+	const topFiles = sortedFiles.slice(0, 250);
+
+	// Calculate coverage stats for top 100 and top 1000
+	const top100 = sortedFiles.slice(0, 100);
+	const top1000 = sortedFiles.slice(0, 1000);
+
+	const top100Covered = top100.filter(file => index.stex[file.id.toString()]).length;
+	const top1000Covered = top1000.filter(file => index.stex[file.id.toString()]).length;
+
+	const top100Percent = (top100Covered / top100.length * 100).toFixed(1);
+	const top1000Percent = (top1000Covered / top1000.length * 100).toFixed(1);
+
+	let md = '## Top Files by Download Count\n\n';
+	md += `<p><strong>Top 100:</strong> ${top100Covered} of ${top100.length} (${top100Percent}%)<progress value="${top100Covered}" max="${top100.length}"></progress></p>\n`;
+	md += `<p><strong>Top 1000:</strong> ${top1000Covered} of ${top1000.length} (${top1000Percent}%)<progress value="${top1000Covered}" max="${top1000.length}"></progress></p>\n`;
+
+	//md += '<details>\n';
+	//md += '<summary>Show top 250 files by download count</summary>\n\n';
+	md += '<table class="sortable asc top-files-table">\n';
+	md += '<thead>\n';
+	md += '<tr>\n';
+	md += '<th class="no-sort status-col"></th>\n';
+	md += '<th>Title</th>\n';
+	md += '<th>Author</th>\n';
+	md += '<th>Category</th>\n';
+	md += '<th>File Upload Date</th>\n';
+	md += '<th>Download Count</th>\n';
+	md += '</tr>\n';
+	md += '</thead>\n';
+	md += '<tbody>\n';
+
+	for (const file of topFiles) {
+		const title = file.title || 'Unknown';
+		const author = file.author || 'Unknown';
+		const category = file.category || 'Unknown';
+		const submittedDate = (new Date(file.submitted)).toISOString().split('T')[0] || 'Unknown';
+		const downloads = file.downloads || file.download_count || 0;
+		const url = file.fileURL || '#';
+		const fileId = file.id.toString();
+		const isCovered = index.stex[fileId];
+		const rowClass = isCovered ? 'covered' : 'missing';
+
+		md += `<tr class="${rowClass}">\n`;
+		md += `<td class="status-cell ${rowClass}"></td>\n`;
+		md += `<td><a href="${url}" target="_blank">${removePipes(title)} ↗</a></td>\n`;
+		md += `<td>${removePipes(author)}</td>\n`;
+		md += `<td>${category}</td>\n`;
+		md += `<td>${submittedDate}</td>\n`;
+		md += `<td data-sort="${downloads}">${downloads.toLocaleString()}</td>\n`;
+		md += '</tr>\n';
+	}
+
+	md += '</tbody>\n';
+	md += '</table>\n\n';
+	//md += '</details>\n\n';
+
+	return md;
 }
 
 /**
@@ -797,13 +868,46 @@ function getCustomStyles() {
 
 		.package-list li.missing::before {
 			content: "?";
-			background-color: #ddd;
-			border-color: #ddd;
+			background-color: #999;
+			border-color: #999;
 			color: white;
 			font-size: 14px;
 			font-weight: bold;
 			text-align: center;
 			line-height: 16px;
+		}
+
+		/* Top files table status column */
+		.top-files-table .status-col {
+			width: 40px;
+		}
+
+		.top-files-table .status-cell::before {
+			content: "";
+			width: 20px;
+			height: 20px;
+			border: 2px solid #ddd;
+			border-radius: 4px;
+			background: white;
+			display: inline-block;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 16px;
+		}
+
+		.top-files-table .status-cell.covered::before {
+			content: "✓";
+			background-color: #4CAF50;
+			border-color: #4CAF50;
+			color: white;
+		}
+
+		.top-files-table .status-cell.missing::before {
+			content: "?";
+			background-color: #999;
+			border-color: #999;
+			color: white;
 		}
 
 		/* Heading anchor links with anchorjs font */
@@ -891,7 +995,7 @@ function getCustomStyles() {
 		}
 
 		/* sortablejs can't sort percentage signs, so put it in with css */
-		.sortable td:nth-child(4)::after {
+		.sortable:not(.top-files-table) td:nth-child(4)::after {
 			content: "%"
 		}
 		.sortable td::after,
@@ -990,8 +1094,9 @@ function generateReport(missing, stats, outputDir, simtropolisCount, mainChannel
 	md += `Generated: ${new Date().toISOString()}\n\n`;
 	md += generateCoverageGridSection(stats);
 	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
-	md += generateTopAuthorsTable(stats);
 	md += generateCategoryTable(stats);
+	md += generateTopFilesTable(stexFiles, index);
+	md += generateTopAuthorsTable(stats);
 	md += generateAllAuthorsTable(stats);
 	md += generatePackageDetails(missing, stexFiles, index);
 	md += getBackToTopStyles();
