@@ -1,6 +1,6 @@
 group: smf-16
 name: everseasonal-flora
-version: "2.0.0"
+version: "2.0.1"
 subfolder: 150-mods
 info:
   summary: Everseasonal Flora
@@ -12,17 +12,22 @@ info:
     With this mod you can change seasons independently of the game date. For example, if you're making a fall-themed CJ entry, use the fall version and then change back to summer later on.  
     You could also follow real-life seasons if you want: just change the fall version in September, winter version in December and so on. That way your game matches the true seasons, which can really give a new dynamic to playing the game!
 
-    Currently, this mod supports the flora & props from the following packages. Support for more seasonal flora - such as Cycledogg's seasonal trees - is planned in the future.
+    Currently, this mod supports the flora & props from the following packages. If there are any other packages that have seasonal flora or props, you can send me a message to make me aware of it.
 
     -   [All of Girafe's flora](https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
-    -   [MGB - MMP Pack Vol. 2](https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/), which makes some of Girafe's trees that were only available as props also available as flora.
-    -   [T-wrecks' Maxis Tree HD Replacement Mod](https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/)
-    -   [Orange Fagus](https://community.simtropolis.com/files/file/27008-vip-orange-fagus/)
-    -   [Orange Aesculus](https://community.simtropolis.com/files/file/27001-vip-orange-aesculus/)
+    -   [mgb204:mmp\-pack-vol2](https://community.simtropolis.com/files/file/31285-mgb-mmp-pack-vol2/), which makes some of Girafe's trees that were only available as props also available as flora.
+    -   [t-wrecks:maxis-tree-hd-replacement-mod](https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/)
+    -   [orange:fagus](https://community.simtropolis.com/files/file/27008-vip-orange-fagus/)
+    -   [orange:aesculus](https://community.simtropolis.com/files/file/27001-vip-orange-aesculus/)
+    -   [bsc:mega-props-cp-vol01](https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+    -   [bsc:mega-props-cp-vol02](https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+    -   [vip:rural-pack](https://community.simtropolis.com/files/file/26806-vip-rural-pack-v2/)
+    -   [11241036:vip-trees-as-props](https://community.simtropolis.com/files/file/33702-vip-trees-as-props/)
+    -   [11241036:central-european-tree-controller](https://community.simtropolis.com/files/file/31419-central-european-tree-controller/)
 
-    The [Central European Tree Controller](https://community.simtropolis.com/files/file/31419-central-european-tree-controller/) is not affected, and if you use it, you should use its bundled evergreen variants instead. However, I'm planning to add support for it as well in the future, so you will eventually be able to switch seasons there as well with just this mod.
+    Note that these packages are no hard dependencies, except for [t-wrecks:maxis-tree-hd-replacement-mod](https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/) (see below). "Compatible" means that this mod will affect the appearance of the trees in those packages, but you're free to leave out the ones you don't want or need.
 
-    Note that these packages are no hard dependencies (see below). "Compatible" means that this mod will affect the appearance of the trees in those packages, but you're free to leave out the ones you don't want or need.
+    Also note that the [Central European Tree Controller](https://community.simtropolis.com/files/file/31419-central-european-tree-controller/) already has its own way of changing seasons. However, you usually want to change seasons in one pass, so it's undesirable to have to change both the season for this mod and the CETC. Therefore, since v2 of this mod, all you have to do is change seasons with this mod, and then the CETC is automatically affected too. Remember though, if you use the **seasonal** variant of the CETC, then your trees are under the hood still seasonal, even though they appear static, so as for the other packages, you will still need to plant your trees at September 1st if you intend to disable this mod again!
 
     Below is a screenshot of the mod in action on [@RRetail](https://community.simtropolis.com/profile/744613-rretail/) [Roadside Rest Area](https://community.simtropolis.com/files/file/32713-roadside-rest-area/), which uses evergreen trees:
 
@@ -32,13 +37,15 @@ info:
 
     I **strongly recommend** installing this mod with the [sc4pac Mod Manager](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/). Not only does sc4pac make installation easy, it also makes it easy to switch season by resetting the **smf16:everseasonal-flora:season** variant. You can do this by going to "Dashboard" > "Variants"
 
-    If you choose to install this mod manually, then you have to pick **ONLY ONE** of the five files. Choose the one labeled for the season of your liking. If you want to change seasons, remove the old file again, and replace it with the season of your liking.
+    If you choose to install this mod manually, then you have to pick **ONLY ONE** of the five folders. Choose the one labeled for the season of your liking. If you want to change seasons, remove the old folder again, and replace it with the season of your liking.
 
     Due to the exemplar patching, there is no requirement to have the mod load after all other mods, so you can put it anywhere you want in your plugins folder.
 
     ## Dependencies
 
-    This mod uses exemplar patching, which is why it needs [memo's submenus-dll](https://community.simtropolis.com/files/file/36142-submenus-dll/) to work. This is the only hard dependency: you don't need to have all of the flora listed above, the mod will only change what you have installed.
+    This mod uses exemplar patching, which is why it needs [null-45:sc4-resource-loading-hooks](https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/) to work. This is the only hard dependency: you don't need to have all of the flora listed above, the mod will only change what you have installed.
+
+    However, if you happen to not have [t-wrecks:maxis-tree-hd-replacement-mod](https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/), then you need to **remove** the t-wrecks.maxis-tree-hd-replacement-mod.dat file from your chosen season, as otherwise you might have brown boxes.
 
     ## **IMPORTANT**
 
@@ -109,6 +116,6 @@ variantInfo:
 
 ---
 assetId: smf-16-everseasonal-flora
-version: "2.0.0"
-lastModified: "2026-02-11T12:45:42Z"
-url: https://community.simtropolis.com/files/file/36721-everseasonal-flora/?do=download&r=211147
+version: "2.0.1"
+lastModified: "2026-02-11T14:06:09Z"
+url: https://community.simtropolis.com/files/file/36721-everseasonal-flora/?do=download&r=211150
