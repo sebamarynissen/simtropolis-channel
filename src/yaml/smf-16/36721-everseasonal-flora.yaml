@@ -93,7 +93,7 @@ assets:
       - ifVariant:
           smf-16:everseasonal-flora:season: disabled
         exclude:
-          - .*
+          - .dat$
 variantInfo:
   - variantId: smf-16:everseasonal-flora:season
     description: This variant controls the appearance of the supported flora. It will render the appropriate model based on the specified season.
