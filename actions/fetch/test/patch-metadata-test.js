@@ -181,4 +181,66 @@ describe('#patchMetadata()', function() {
 
 	});
 
+	it('bypasses the entire metadata generation if specified, while still supporting interpolation', function() {
+
+		let autoMetadata = [
+			{
+				group: 'smf-16',
+				name: 'everseasonal-flora',
+				subfolder: '150-mods',
+				info: {
+					summary: 'Everseasonal Flora',
+					description: 'Some long description',
+				},
+			},
+			{
+				assetId: 'smf-16-everseasonal-flora',
+				lastModified: '2026-01-01T00:00:00Z',
+				url: 'https://www.simtropolis.com/files/file/123-smf-16-everseasonal-flora',
+			},
+		];
+		let userMetadata = [
+			{
+				config: {
+					algorithm: 'interpolate',
+				},
+			},
+			{
+				group: '${{ package.group }}',
+				name: '${{ package.name }}',
+				info: {
+					summary: '${{ package.info.summary }}',
+					description: 'Some custom description for sc4pac',
+				},
+				some: {
+					very: {
+						complex: 'metadata',
+					},
+				},
+			},
+		];
+		const { metadata: [pkg, asset], main, basename } = patchMetadata(autoMetadata, userMetadata);
+		expect(pkg).to.eql({
+				group: 'smf-16',
+				name: 'everseasonal-flora',
+				info: {
+					summary: 'Everseasonal Flora',
+					description: 'Some custom description for sc4pac',
+				},
+				some: {
+					very: {
+						complex: 'metadata',
+					},
+				},
+			});
+		expect(asset).to.eql({
+			assetId: 'smf-16-everseasonal-flora',
+			lastModified: '2026-01-01T00:00:00Z',
+			url: 'https://www.simtropolis.com/files/file/123-smf-16-everseasonal-flora',
+		});
+		expect(main).to.equal(pkg);
+		expect(basename).to.equal('everseasonal-flora');
+
+	});
+
 });
