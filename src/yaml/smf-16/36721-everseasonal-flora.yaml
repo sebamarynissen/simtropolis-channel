@@ -1,6 +1,6 @@
 group: smf-16
 name: everseasonal-flora
-version: "1.0.0"
+version: "2.0.0"
 subfolder: 150-mods
 info:
   summary: Everseasonal Flora
@@ -28,7 +28,7 @@ info:
 
     ![67afb47e46e5f_RoadsideRestArea.jpg.83bfa0a5e02cf2d7d8046875ac550bbb.jpg](https://www.simtropolis.com/objects/attachments/monthly_2025_02/67afb47e46e5f_RoadsideRestArea.jpg.83bfa0a5e02cf2d7d8046875ac550bbb.jpg)
 
-    **Installation**
+    ## Installation
 
     I **strongly recommend** installing this mod with the [sc4pac Mod Manager](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/). Not only does sc4pac make installation easy, it also makes it easy to switch season by resetting the **smf16:everseasonal-flora:season** variant. You can do this by going to "Dashboard" > "Variants"
 
@@ -36,11 +36,11 @@ info:
 
     Due to the exemplar patching, there is no requirement to have the mod load after all other mods, so you can put it anywhere you want in your plugins folder.
 
-    **Dependencies**
+    ## Dependencies
 
     This mod uses exemplar patching, which is why it needs [memo's submenus-dll](https://community.simtropolis.com/files/file/36142-submenus-dll/) to work. This is the only hard dependency: you don't need to have all of the flora listed above, the mod will only change what you have installed.
 
-    **IMPORTANT**
+    ## **IMPORTANT**
 
     Please note that this mod **DOES NOT** convert evergreen props into *functioning* seasonal props.  
     It will change the appearance of evergreen props, but they will still remain static and stay the same throughout the year.  
@@ -49,7 +49,7 @@ info:
     It also means that, under the hood, seasonal flora is still seasonal, even though it doesn't look like it.  
     This means that if you intend to ever disable this mod again, then you still need to make sure to plant seasonal flora at the required start date!
 
-    **Acknowledgements**
+    ## Acknowledgements
 
     Many thanks go to [@Girafe](https://community.simtropolis.com/profile/319793-girafe/) and [@VIP Team](https://community.simtropolis.com/profile/439446-vip-team/) for creating the gorgeous trees in the first place, [@11241036](https://community.simtropolis.com/profile/353048-11241036/) for inspiring me to make this mod, and [@memo](https://community.simtropolis.com/profile/95442-memo/) for making exemplar patching possible, which avoids hard dependencies on the flora.
   author: smf_16
@@ -61,37 +61,38 @@ info:
     Although this mod will make seasonal flora look the same regardless of the ingame time, it is important to realize that under the hood they still function as seasonal flora.
     This means that if you ever plan to use them as true seasonal flora again, it is still important to plant them on September 1st, or they will be out of sync if you remove this mod!
 dependencies:
-  - memo:submenus-dll
-variants:
-  - variant: { smf-16:everseasonal-flora:season: summer }
-    assets:
-      - assetId: smf-16-everseasonal-flora
+  - null-45:sc4-resource-loading-hooks
+  - t-wrecks:maxis-tree-hd-replacement-mod
+assets:
+  - assetId: smf-16-everseasonal-flora
+    withConditions:
+      - ifVariant:
+          smf-16:everseasonal-flora:season: summer
         include:
-          - /everseasonal_flora_SUMMER.dat
-  - variant: { smf-16:everseasonal-flora:season: fall }
-    assets:
-      - assetId: smf-16-everseasonal-flora
+          - /summer/
+      - ifVariant:
+          smf-16:everseasonal-flora:season: fall
         include:
-          - /everseasonal_flora_FALL.dat
-  - variant: { smf-16:everseasonal-flora:season: winter }
-    assets:
-      - assetId: smf-16-everseasonal-flora
+          - /fall/
+      - ifVariant:
+          smf-16:everseasonal-flora:season: spring
         include:
-          - /everseasonal_flora_WINTER.dat
-  - variant: { smf-16:everseasonal-flora:season: snowy }
-    assets:
-      - assetId: smf-16-everseasonal-flora
+          - /spring/
+      - ifVariant:
+          smf-16:everseasonal-flora:season: winter
         include:
-          - /everseasonal_flora_SNOW.dat
-  - variant: { smf-16:everseasonal-flora:season: spring }
-    assets:
-      - assetId: smf-16-everseasonal-flora
+          - /winter/
+      - ifVariant:
+          smf-16:everseasonal-flora:season: snowy
         include:
-          - /everseasonal_flora_SPRING.dat
-  - variant: { smf-16:everseasonal-flora:season: disabled }
+          - /snow/
+      - ifVariant:
+          smf-16:everseasonal-flora:season: disabled
+        exclude:
+          - .dat$
 variantInfo:
   - variantId: smf-16:everseasonal-flora:season
-    description: This
+    description: This variant controls the appearance of the supported flora. It will render the appropriate model based on the specified season.
     values:
       - value: summer
         description: Renders the summer model for all supported trees
@@ -108,6 +109,6 @@ variantInfo:
 
 ---
 assetId: smf-16-everseasonal-flora
-version: "1.0.0"
-lastModified: "2025-02-14T21:30:58Z"
-url: https://community.simtropolis.com/files/file/36721-everseasonal-flora/?do=download&r=205987
+version: "2.0.0"
+lastModified: "2026-02-11T12:45:42Z"
+url: https://community.simtropolis.com/files/file/36721-everseasonal-flora/?do=download&r=211147
