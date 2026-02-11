@@ -191,6 +191,7 @@ describe('#patchMetadata()', function() {
 				info: {
 					summary: 'Everseasonal Flora',
 					description: 'Some long description',
+					images: ['list', 'of', 'images'],
 				},
 			},
 			{
@@ -211,6 +212,7 @@ describe('#patchMetadata()', function() {
 				info: {
 					summary: '${{ package.info.summary }}',
 					description: 'Some custom description for sc4pac',
+					images: '${{ package.info.images }}',
 				},
 				some: {
 					very: {
@@ -226,6 +228,11 @@ describe('#patchMetadata()', function() {
 				info: {
 					summary: 'Everseasonal Flora',
 					description: 'Some custom description for sc4pac',
+					images: [
+						'list',
+						'of',
+						'images',
+					],
 				},
 				some: {
 					very: {

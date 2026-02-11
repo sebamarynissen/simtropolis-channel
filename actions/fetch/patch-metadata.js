@@ -173,7 +173,7 @@ function fill(value, metadata) {
 // # interpolate(str)
 function interpolate(str, metadata) {
 	let tokens = lex(str);
-	return tokens.map(token => {
+	const mapped = tokens.map(token => {
 		if (token.type === 'literal') {
 			return token.value;
 		} else if (token.type === 'interpolation') {
@@ -183,7 +183,12 @@ function interpolate(str, metadata) {
 		} else {
 			return '';
 		}
-	}).join('');
+	});
+	if (mapped.length === 1) {
+		return mapped[0];
+	} else {
+		return mapped.join('');
+	}
 }
 
 // # lex(input)
