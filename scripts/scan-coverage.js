@@ -434,8 +434,8 @@ function generateSummarySection(stats, simtropolisCount, mainChannelCount) {
 
 		- **STEX files analyzed**: ${overallStats.totalFiles}
 		- **Covered packages**: ${overallStats.packagesInChannels}
-		  - **Simtropolis**: ${simtropolisCount}
-		  - **Main**: ${mainChannelCount}
+		  - **Simtropolis Channel**: ${simtropolisCount}
+		  - **Default Channel**: ${mainChannelCount}
 		- **Missing packages**: ${stats.total}
 		- **Overall coverage**: ${overallStats.overallCoverage}%
 		- **Total authors**: ${overallStats.totalAuthors}
@@ -456,29 +456,33 @@ function generateTableOfContents() {
 		- [Package Summary by Category](#${generateAnchor('Package Summary by Category')})
 		- [Package Summary by Author](#${generateAnchor('Package Summary by Author')})
 		- [Package Details](#${generateAnchor('Package Details')})
-
 	`;
 }
 
 /**
- * Generate navigation bar with section links
+ * Generate navigation bar with page links
+ * @param {string} currentPage - Current page identifier ('index', 'top-files', 'authors')
  * @returns {string} HTML navbar with navigation links
  */
-function generateNavbar() {
+function generateNavbar(currentPage = 'index') {
+	const pages = [
+		{ id: 'index', href: 'index.html', label: 'Summary' },
+		{ id: 'top-files', href: 'top-files.html', label: 'Top Files' },
+		{ id: 'authors', href: 'authors.html', label: 'By Author' },
+	];
+
+	const navItems = pages.map(page => {
+		const activeClass = page.id === currentPage ? ' aria-current="page"' : '';
+		return `<li><a href="${page.href}"${activeClass}>${page.label}</a></li>`;
+	}).join('\n\t\t    ');
+
 	return dedent`\
 		<nav>
 		  <ul>
-		    <li>
-					<h1>STEX Coverage Report</h1>
-				</li>
+		    <li><h1><a href="index.html" style="text-decoration: none; color: inherit;">STEX Coverage Report</a></h1></li>
 		  </ul>
 		  <ul>
-		    <li><a href="#summary">Summary</a></li>
-		    <li><a href="#${generateAnchor('Package Summary by Category')}">By Category</a></li>
-		    <li><a href="#${generateAnchor('Top Files by Download Count')}">Top Files</a></li>
-		    <li><a href="#${generateAnchor('Top Authors with Missing Packages')}">Top Authors</a></li>
-		    <li><a href="#${generateAnchor('Package Summary by Author')}">By Author</a></li>
-		    <li><a href="#${generateAnchor('Package Details')}">Package Details</a></li>
+		    ${navItems}
 		  </ul>
 		</nav>
 
@@ -583,7 +587,7 @@ function generateCoverageGridSection(stats) {
 	}).join('\n    ');
 
 	return dedent`\
-		## Coverage Map
+		## Coverage by Author
 
 		<div id="coverage-grid">
 		    ${gridCells}
@@ -592,9 +596,12 @@ function generateCoverageGridSection(stats) {
 	`;
 }
 
-
-
-function generateTopFilesTable(stexFiles, index) {
+/**
+ * Generate a summary of top 100/1000 files by downloads
+ * @param {Array} stexFiles - All STEX files
+ * @param {Object} index - Package index from buildIndex()
+ */
+function generateTopFilesSummary(stexFiles, index) {
 	// Sort ALL files by download count (descending)
 	const sortedFiles = stexFiles.sort((a, b) => {
 		const aDownloads = a.downloads || a.download_count || 0;
@@ -602,9 +609,6 @@ function generateTopFilesTable(stexFiles, index) {
 		return bDownloads - aDownloads;
 	});
 
-	const topFiles = sortedFiles.slice(0, 250);
-
-	// Calculate coverage stats for top 100 and top 1000
 	const top100 = sortedFiles.slice(0, 100);
 	const top1000 = sortedFiles.slice(0, 1000);
 
@@ -615,11 +619,28 @@ function generateTopFilesTable(stexFiles, index) {
 	const top1000Percent = (top1000Covered / top1000.length * 100).toFixed(1);
 
 	let md = '## Top Files by Download Count\n\n';
-	md += `<p><strong>Top 100:</strong> ${top100Covered} of ${top100.length} (${top100Percent}%)<progress value="${top100Covered}" max="${top100.length}"></progress></p>\n`;
-	md += `<p><strong>Top 1000:</strong> ${top1000Covered} of ${top1000.length} (${top1000Percent}%)<progress value="${top1000Covered}" max="${top1000.length}"></progress></p>\n`;
+	md += `<p><strong>Top 100 most downloads:</strong> ${top100Covered} of ${top100.length} (${top100Percent}%)<progress value="${top100Covered}" max="${top100.length}"></progress></p>\n`;
+	md += `<p><strong>Top 1000 most downloads:</strong> ${top1000Covered} of ${top1000.length} (${top1000Percent}%)<progress value="${top1000Covered}" max="${top1000.length}"></progress></p>\n`;
+	return md;
+}
 
-	//md += '<details>\n';
-	//md += '<summary>Show top 250 files by download count</summary>\n\n';
+
+/**
+ * Generate a HTMLyou table of the top 1000 files and their coverage status
+ * @param {Array} stexFiles - All STEX files
+ * @param {Object} index - Package index from buildIndex()
+ */
+function generateTopFilesTable(stexFiles, index) {
+	// Sort ALL files by download count (descending) 
+	const sortedFiles = stexFiles.sort((a, b) => {
+		const aDownloads = a.downloads || a.download_count || 0;
+		const bDownloads = b.downloads || b.download_count || 0;
+		return bDownloads - aDownloads;
+	});
+
+	const topFiles = sortedFiles.slice(0, 1000);
+
+	let md = '<h2>Top 1000 Files</h2>\n\n';
 	md += '<table class="sortable asc top-files-table">\n';
 	md += '<thead>\n';
 	md += '<tr>\n';
@@ -656,7 +677,6 @@ function generateTopFilesTable(stexFiles, index) {
 
 	md += '</tbody>\n';
 	md += '</table>\n\n';
-	//md += '</details>\n\n';
 
 	return md;
 }
@@ -737,9 +757,11 @@ function getBackToTopStyles() {
 /**
  * Convert markdown content to HTML with styling
  * @param {string} markdownContent - Markdown content to convert
+ * @param {string} pageTitle - Page title
+ * @param {string} currentPage - Current page identifier for navigation
  * @returns {string} Complete HTML document
  */
-function outputToHTML(markdownContent) {
+function outputToHTML(markdownContent, pageTitle = 'STEX Coverage Report', currentPage = 'index') {
 	// Configure custom renderer for headings with anchor links
 	const renderer = new marked.Renderer();
 	renderer.heading = ({ text, depth }) => {
@@ -767,12 +789,12 @@ function outputToHTML(markdownContent) {
 		<head>
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<title>STEX Coverage Report</title>
+			<title>${pageTitle}</title>
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css">
 			<link rel="stylesheet" href="coverage.css">
 		</head>
 		<body>
-		${generateNavbar()}
+		${generateNavbar(currentPage)}
 		<main>
 		${htmlContent}
 		</main>
@@ -786,25 +808,37 @@ function outputToHTML(markdownContent) {
  * Generate HTML coverage report
  */
 function generateReport(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index) {
-	// Build markdown report from sections (used internally for HTML generation)
-	let md = '';
-	md += '# STEX Coverage Report\n\n';
-	md += `Generated: ${new Date().toISOString()}\n\n`;
-	md += generateCoverageGridSection(stats);
-	md += generateSummarySection(stats, simtropolisCount, mainChannelCount);
-	md += generateCategoryTable(stats);
-	md += generateTopFilesTable(stexFiles, index);
-	md += generateTopAuthorsTable(stats);
-	md += generateAllAuthorsTable(stats);
-	md += generatePackageDetails(missing, stexFiles, index);
-	md += getBackToTopStyles();
+	const generatedDate = new Date().toISOString();
+	const htmlPaths = [];
 
-	// Generate and write HTML file
-	const htmlPath = path.join(outputDir, 'coverage.html');
-	const html = outputToHTML(md);
-	fs.writeFileSync(htmlPath, html);
+	let indexMd = '# STEX Coverage Report\n\n';
+	indexMd += `Generated: ${generatedDate}\n\n`;
+	indexMd += generateSummarySection(stats, simtropolisCount, mainChannelCount);
+	indexMd += generateCategoryTable(stats);
+	indexMd += generateTopAuthorsTable(stats);
+	const indexPath = path.join(outputDir, 'index.html');
+	const indexHtml = outputToHTML(indexMd, 'STEX Coverage Report - Summary', 'index');
+	fs.writeFileSync(indexPath, indexHtml);
+	htmlPaths.push(indexPath);
 
-	return htmlPath;
+	let topFilesMd = generateTopFilesSummary(stexFiles, index);
+	topFilesMd += generateTopFilesTable(stexFiles, index);
+	topFilesMd += getBackToTopStyles();
+	const topFilesPath = path.join(outputDir, 'top-files.html');
+	const topFilesHtml = outputToHTML(topFilesMd, 'Top Files - STEX Coverage Report', 'top-files');
+	fs.writeFileSync(topFilesPath, topFilesHtml);
+	htmlPaths.push(topFilesPath);
+
+	let authorsMd = generateCoverageGridSection(stats)
+	authorsMd += generateAllAuthorsTable(stats);
+	authorsMd += generatePackageDetails(missing, stexFiles, index);
+	authorsMd += getBackToTopStyles();
+	const authorsPath = path.join(outputDir, 'authors.html');
+	const authorsHtml = outputToHTML(authorsMd, 'Authors - STEX Coverage Report', 'authors');
+	fs.writeFileSync(authorsPath, authorsHtml);
+	htmlPaths.push(authorsPath);
+
+	return htmlPaths;
 }
 
 /**
@@ -874,15 +908,21 @@ async function run(argv) {
 	console.log();
 	const outputSpinner = ora('Generating reports...').start();
 
-	const htmlPath = generateReport(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index);
+	const htmlPaths = generateReport(missing, stats, outputDir, simtropolisCount, mainChannelCount, stexFiles, index);
 
 	// Copy HTML and CSS to docs for GitHub Pages
 	const docsDir = path.resolve(import.meta.dirname, '../docs/coverage-report');
 	if (!fs.existsSync(docsDir)) {
 		fs.mkdirSync(docsDir, { recursive: true });
 	}
-	const docsHtmlPath = path.join(docsDir, 'index.html');
-	fs.copyFileSync(htmlPath, docsHtmlPath);
+
+	// Copy all HTML files to docs
+	for (const htmlPath of htmlPaths) {
+		const fileName = path.basename(htmlPath);
+		fs.copyFileSync(htmlPath, path.join(docsDir, fileName));
+	}
+
+	// Copy CSS file
 	fs.copyFileSync(path.join(outputDir, 'coverage.css'), path.join(docsDir, 'coverage.css'));
 
 	outputSpinner.succeed('Reports generated');
@@ -896,12 +936,14 @@ async function run(argv) {
 	console.log();
 	console.log(styleText('bold', '📁 Output Files:\n'));
 	console.log('HTML:');
-	console.log(`  ${styleText('cyan', htmlPath)}`);
+	for (const htmlPath of htmlPaths) {
+		console.log(`  ${styleText('cyan', htmlPath)}`);
+	}
 	console.log('GitHub Pages:');
-	console.log(`  ${styleText('cyan', docsHtmlPath)}`);
+	console.log(`  ${styleText('cyan', path.join(docsDir, 'index.html'))}`);
 
 	console.log();
-	console.log(styleText('dim', 'Tip: Open the HTML report for a human-readable view.'));
+	console.log(styleText('dim', 'Tip: Open index.html to start browsing the report.'));
 }
 
 // Only run when executed directly (not when imported as a module)

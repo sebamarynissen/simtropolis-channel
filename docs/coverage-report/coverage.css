@@ -16,20 +16,27 @@ nav h1 {
     margin: 0;
 }
 
+nav [aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* Coverage Grid Styles */
 #coverage-grid {
-    --level-0: hsla(204, 0%, 98%, 1);
-    --level-1: hsla(204, 100%, 90%, 1);
-    --level-2: hsla(204, 100%, 83%, 1);
-    --level-3: hsla(203, 100%, 76%, 1);
-    --level-4: hsla(203, 100%, 69%, 1);
-    --level-5: hsla(203, 100%, 63%, 1);
-    --level-6: hsla(203, 99%, 57%, 1);
-    --level-7: hsla(206, 97%, 53%, 1);
-    --level-8: hsla(210, 95%, 50%, 1);
-    --level-9: hsla(214, 98%, 45%, 1);
-    --level-10: hsla(217, 100%, 40%, 1);
-    --level-11: hsla(217, 100%, 40%, 1);
+    /* https://gka.github.io/palettes/#/12|s|002766,33cc33|ffffe0,ff005e,93003a|1|1 */
+    /* This gradient is colorblind safe */
+    --level-0: #002766;
+    --level-1: #1b3464;
+    --level-2: #284262;
+    --level-3: #315060;
+    --level-4: #385f5d;
+    --level-5: #3c6e5a;
+    --level-6: #3f7d57;
+    --level-7: #418c52;
+    --level-8: #419c4d;
+    --level-9: #3fac46;
+    --level-10: #3abc3e;
+    --level-11: #33cc33;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, 12px);
