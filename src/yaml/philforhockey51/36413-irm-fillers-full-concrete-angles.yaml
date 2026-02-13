@@ -1,0 +1,67 @@
+group: philforhockey51
+name: irm-fillers-full-concrete-angles
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: IRM Fillers - Full Concrete Angles
+  description: |-
+    PHIL IRM Full Concrete Angles Filler Lots
+
+    57 additional IRM filler lots that match with TWrecks IRM Fillers.  
+    These varied diagonal, FA2, and FA3 lots all have the same IRM style concrete textures on the full lot.    
+    The lots include IRM I-D, I-M, and I-HT styled versions.
+
+    A mix of 1x1, 2x1, 3x1 neutral lots using the IRM base texture and a mix of industrial props.
+
+    Dependencies:  
+    Texture - SC4 base texture  
+    Texture - [NCD Railyard Texture Mega-Pack Vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/246-ncd-railyard-texture-mega-pack-vol01-v3) -  
+    Props - [Murimk - Props Vol03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/) -  
+    Props - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials) -
+
+    Props from [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack):
+
+    Texture - BSC Textures Vol01 and Vol02  
+    Wall Props - BSC MEGA Props CP Vol01  
+    Props - BSC MEGA Props JES Vol01 v2  
+    Props - BSC MEGA Props JES Vol02 v2  
+    Props - BSC MEGA Props JES Vol03 v2  
+    Props - BSC MEGA Props JES Vol05 v2  
+    Props - BSC MEGA Props SG Vol01 v4
+
+    Just in case I used them:  
+    Props - BSC MEGA Props JES Vol01-Vol08  
+    Props - BSC MEGA Props DAE Vol01
+
+    I've intentionally left the lots as individual files so any unwanted lots can be removed. Lots plopped in game will need to be demolished first if removing the file.  
+    Though I tried and tested multiple ways of sorting the lots in the in game menu none were successful.  
+    At minimum the Industry type groups together along with TWreck's IRM Fillers and KOSC's IRM Filler Sets.
+
+    Hope you enjoy them,
+
+    ~Phil
+  author: philforhockey51
+  website: https://community.simtropolis.com/files/file/36413-phil-irm-fillers-full-concrete-angles/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0f8347305_I-DConcAll.jpeg.72f8fb12c6d3ace1d75c72705e56db69.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0f8e0dced_I-MConcAll.jpeg.3bc6c19ffe9eb5665c99585d6d5bd6ca.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0f95309aa_I-HTConcAll.jpeg.e783d2d2558abb345188a060bc3d2316.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0fb358cd9_I-DConcFA3LP1.jpeg.d6b278261423b6bd9205ef2636c67b99.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0fccaa650_I-MConcFA2LP3.jpeg.5a1ded45ce89ec0ed24e72881f2fdee7.jpeg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol03-industrials
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - sfbt:essentials
+assets:
+  - assetId: philforhockey51-irm-fillers-full-concrete-angles
+
+---
+assetId: philforhockey51-irm-fillers-full-concrete-angles
+version: "1.0.0"
+lastModified: "2024-08-26T05:22:55Z"
+url: https://community.simtropolis.com/files/file/36413-phil-irm-fillers-full-concrete-angles/?do=download&r=202955
