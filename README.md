@@ -450,6 +450,48 @@ Note that this is either all or nothing: as soon as the channel sees that you ha
 
 However, as you can derive from above, the most common cases are covered, so as long as you stick to the conventions as explained, you will need to write minimal metadata to handle variants.
 
+### Complex metadata
+
+If your plugin has complex requirements, it might be easier to write the entire metadata yourself.
+This can happen for example if your Simtropolis upload should be split up in multiple sc4pac packages.
+In order to do this, you can prepend your metadata with a config object that specifies the algorithm to be used:
+
+```yaml
+# metadata.yaml
+config:
+  algorithm: interpolate
+
+---
+group: ${{ package.group }}
+name: ${{ package.name }}
+dependencies:
+  - ${{ package.group }}:${{ package.name }}-core
+  - ${{ package.group }}:${{ package.name }}-extension
+
+---
+group: ${{ package.group }}
+name: ${{ package.name }}-core
+info:
+  summary: Core files
+
+assets:
+  - assetId: ${{ assets.0.assetId }}
+    include: /core/
+
+---
+group: ${{ package.group }}
+name: ${{ package.name }}-optional
+info:
+  summary: Extension set
+
+assets:
+  - assetId: ${{ assets.0.assetId }}
+    include: /extension/
+```
+
+If the algorithm is set to interpolate (as shown above), then the channel will no longer try to merge your metadata.yaml with the auto-generated metadata from the STEX, and instead clones your metadata.yaml verbatim, but with support for interpolation and removal of the config object.
+Note that it is not needed to manually include your assets, they will be appended automatically.
+
 ## Subfolders
 
 Most of the time, you don't want your plugin to end up in the root of a user's plugins folder unless your plugin is a DLL.

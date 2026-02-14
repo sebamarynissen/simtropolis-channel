@@ -1,10 +1,40 @@
 // # patch-metadata.js
 import * as dot from 'dot-prop';
+const defaultConfig = {
+	algorithm: 'patch',
+};
 
-// This function takes the main package metadata as generated from the STEX, and 
+// The purpose of this function is to extract the config and then figure out 
+// which algorithm to use for metadata generation.
+export default function patchMetadata(
+	autoMetadata,
+	userMetadata,
+	original,
+) {
+
+	// We'll first check if there's a configuration object to be found.
+	const { config } = userMetadata.find(obj => {
+		const keys = Object.keys(obj);
+		return keys.length === 1 && keys[0] === 'config';
+	}) ?? { config: defaultConfig };
+	const rest = userMetadata.filter(obj => obj.config !== config);
+
+	// Check the algorithm to be used in the config.
+	const { algorithm } = config;
+	if (algorithm === 'interpolate') {
+		return interpolateMetadata(autoMetadata, rest, original);
+	} else if (algorithm === 'patch') {
+		return mergeMetadata(autoMetadata, rest, original);
+	} else {
+		throw new Error(`Unknown metadata generation algorithm ${algorithm}`);
+	}
+
+}
+
+// This function takes the main package metadata as generated from the STEX, and
 // then applies the user-defined metadata as a patch to it. Note that it's 
 // possible that the user has specified multiple packages.
-export default function patchMetadata(
+function mergeMetadata(
 	autoMetadata,
 	userMetadata,
 	original = autoMetadata[0],
@@ -143,7 +173,7 @@ function fill(value, metadata) {
 // # interpolate(str)
 function interpolate(str, metadata) {
 	let tokens = lex(str);
-	return tokens.map(token => {
+	const mapped = tokens.map(token => {
 		if (token.type === 'literal') {
 			return token.value;
 		} else if (token.type === 'interpolation') {
@@ -153,7 +183,12 @@ function interpolate(str, metadata) {
 		} else {
 			return '';
 		}
-	}).join('');
+	});
+	if (mapped.length === 1) {
+		return mapped[0];
+	} else {
+		return mapped.join('');
+	}
 }
 
 // # lex(input)
@@ -197,7 +232,7 @@ function findMainPackageIndex(patch) {
 		return 0;
 	}
 
-	// At this point we know that there are multiple packages to patch. In order 
+	// At this point we know that there are multiple packages to patch. In order
 	// to find the "main" package, we have several strategies. If a package has 
 	// no specific name given, then this is the main package. Otherwise it can 
 	// also be labeled as "main".
@@ -206,5 +241,31 @@ function findMainPackageIndex(patch) {
 	index = patch.findIndex(pkg => pkg.main === true);
 	if (index > -1) return index;
 	return 0;
+
+}
+
+// This function generates metadata in a much simpler way by taking the user's 
+// metadata verbatim and only support interpolation.
+function interpolateMetadata(autoMetadata, userMetadata, original) {
+
+	// Group the auto-generate metadata in a package and assets fields so that 
+	// we can use it for interpolation.
+	const grouped = {
+		package: autoMetadata.find(pkg => pkg.group),
+		assets: autoMetadata.filter(asset => asset.assetId),
+	};
+
+	// Loop all metadata and simply fill in.
+	const metadata = userMetadata.map(object => {
+		return fill(object, grouped);
+	});
+	const main = metadata[0];
+	metadata.push(...grouped.assets);
+	const basename = original?.name ?? main.name;
+	return {
+		metadata,
+		main,
+		basename,
+	};
 
 }
