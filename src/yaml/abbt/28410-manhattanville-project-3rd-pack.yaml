@@ -44,42 +44,42 @@ dependencies:
   - nybt:essentials
   - abbt:manhattanville-project-3rd-pack-models
 variants:
-- variant: { CAM: "no" }
-  assets:
-  - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite  
-    exclude:
-    - "/CAM Version/"
-    - "/x4 Jobs Version/"
-    - "\\.SC4Model$"
-- variant: { CAM: "yes" }
-  assets:
-  - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
-    exclude: 
-    - "/Standard Version/"
-    - "/x4 Jobs Version/"
-    - "\\.SC4Model$"
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
+        exclude:
+          - "/CAM Version/"
+          - "/x4 Jobs Version/"
+          - "\\.SC4Model$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
+        exclude:
+          - "/Standard Version/"
+          - "/x4 Jobs Version/"
+          - "\\.SC4Model$"
 
 ---
 group: abbt
 name: manhattanville-project-3rd-pack-models
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Models for `pkg=abbt:manhattanville-project-3rd-pack`
   author: anotn, Francis90b, SimHoTToDDy, T Wrecks, Vlasky
   website: https://community.simtropolis.com/files/file/28410-nybt-abbt-manhattanville-project-3rd-pack/
 variants:
-- variant: { nightmode: standard }
-  assets:
-  - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
-    include:
-    - "\\.SC4Model$"
-- variant: { nightmode: dark }
-  dependencies: [ "simfox:day-and-nite-mod" ]
-  assets:
-  - assetId: abbt-nybt-manhattanville-project-3rd-pack-darknite
-    include:
-    - "\\.SC4Model$"
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite
+        include:
+          - \.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: abbt-nybt-manhattanville-project-3rd-pack-darknite
+        include:
+          - \.SC4Model$
 
 ---
 assetId: abbt-nybt-manhattanville-project-3rd-pack-maxisnite

@@ -46,8 +46,8 @@ dependencies:
 ---
 group: jaystimson
 name: seawalls-v3-props
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Props used by `pkg=jaystimson:seawalls-v3`
   author: JayStimson
@@ -57,7 +57,7 @@ info:
 assets:
   - assetId: jaystimson-js-seawalls-v3
     include:
-      - "/JS_C_Walls_V3_Props.dat"
+      - /JS_C_Walls_V3_Props.dat
 
 ---
 assetId: jaystimson-js-seawalls-v3

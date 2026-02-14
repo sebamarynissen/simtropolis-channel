@@ -21,8 +21,8 @@ dependencies:
 ---
 group: morifari
 name: elevated-rail-embankment-props
-version: "0.2"
-subfolder: 100-props-textures
+version: "0.2-1"
+subfolder: 110-resources
 info:
   summary: Models and props for `pkg=morifari:elevated-rail-embankment`
   author: morifari
@@ -33,7 +33,7 @@ info:
 assets:
   - assetId: morifari-elevated-rail-embankment-30-final-version
     include:
-      - "/EMBANKMENT_PROPS.dat"
+      - /EMBANKMENT_PROPS.dat
 
 ---
 assetId: morifari-elevated-rail-embankment-30-final-version

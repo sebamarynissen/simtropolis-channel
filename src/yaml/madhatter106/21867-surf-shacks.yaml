@@ -29,12 +29,11 @@ assets:
     exclude:
       - "\\.SC4Model$"
 
-
 ---
 group: madhatter106
 name: surf-shacks-models
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Models for `pkg=madhatter106:surf-shacks`
   author: madhatter106
@@ -45,7 +44,7 @@ info:
 assets:
   - assetId: madhatter106-surf-shacks
     include:
-      - "\\.SC4Model$"
+      - \.SC4Model$
 
 ---
 assetId: madhatter106-surf-shacks
