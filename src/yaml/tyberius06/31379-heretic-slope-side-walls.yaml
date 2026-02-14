@@ -1,0 +1,102 @@
+group: tyberius06
+name: heretic-slope-side-walls
+version: "1.0"
+info:
+  summary: Heretic Slope Side Walls
+  description: |-
+    It's time to share some slope walls. I always missed a more natural kind of set from slope walls, which can fit along with elevated rail lines (on slope of course) and a lot of other situation as well. They can be used as little park elements or park walks too.
+
+    ![9a56a02d714ebb6a29ae64354b212ee7.png](http://www.kephost.com/images/2016/11/16/9a56a02d714ebb6a29ae64354b212ee7.png)
+
+    The set contains actually 2 kind of sets and altogether 17 lots.
+
+    **Set 01** - natural (terrain texture based) grass ground on slope with trees, bushes etc.  
+    2 Outer Corner/End pieces  
+    1 Inner Corner  
+    1 One tile section with trees  
+    1 Three tiles section with trees
+
+    **Set 02** - natural (terrain texture based) grass ground on slope with paths, trees, bushes etc  
+    2 Outer Corners with paths  
+    2 End Pieces (one of them can be use as an other side of the path bridges) with path  
+    1 Inner Corner with path  
+    1 One tile section with path  
+    1 Three tiles section with paths  
+    1 TEE section with paths  
+    1 Cross section with paths  
+    1 Three tiles overhanging pedestrian bridge (wmp bridge) with path  
+    1 Four tiles overhanging pedestrian bridge (Troll Bridge) with path  
+    1 Bridge other side section with path
+
+    **Installation:**  
+    The uploaded \*.zip file contains two folders: a Documentation folder with this readme and some pictures, and a so called Heretic Projects folder. The Heretic Projects folder also contains a Slope Side Walls folder.  
+    Place the Heretic Projects folder into your Plug-in folder.
+
+    **Uninstall:**  
+    Demolish the unwanted lots in your city and than delete the unwanted files from you plug-in folder.
+
+    **Dependencies:**
+
+    BSC\_TexturePack\_Cycledogg\_v01.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=101](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101))
+
+    CSX MEGAProps - Vol04.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=462](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=462))  
+    Neko\_GuardPipe\_Avenue\_Desc.dat - Neko Prop Set 01 ([http://hide-inoki.com/bbs/phpbb2/viewtopic.php?p=3112#3112](http://hide-inoki.com/bbs/phpbb2/viewtopic.php?p=3112#3112))  
+    Nams PROPS PACK Vol 2.dat ([https://www.toutsimcities.com/downloads/view/1882](https://www.toutsimcities.com/downloads/view/1882))
+
+    WMP\_BridgeProps.dat (http://workingman-productions.co.uk/downloads/wmp\_props.asp)  
+    Glenni-Troll\_bridge2tls ([https://community.simtropolis.com/files/file/21627-troll-bridge/](https://community.simtropolis.com/files/file/21627-troll-bridge/)) (you need the model file)
+
+    Grfe\_props\_pack\_LE\_maples.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2809](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809))  
+    Grfe\_props\_pack\_LE\_norway\_maples.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2740](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2740))  
+    Grfe\_props\_pack\_LE\_daisy.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3251](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3251))  
+    Urbanpack.dat - Girafe Urbanpack ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3192](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3192))  
+    Grfe\_props\_pack\_LE\_rowan\_trees ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3244](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244))  
+    Grfe\_props\_pack\_LE\_feather\_grass.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3001](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001))  
+    Grfe\_props\_pack\_LE\_birches.dat ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2620](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620))  
+    Grfe\_props\_pack\_LE\_lupins.dat [(https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2871](?lotGET=2871))  
+    Grfe\_props\_pack\_LE\_berriers ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2888](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2888))  
+    Grfe\_props\_pack\_LE\_sparaxis ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2980](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2980))  
+    Grfe\_props\_pack\_LE\_narcissus ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2964](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2964))  
+    Grfe\_props\_pack\_LE\_ashes ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2854](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854))  
+    Grfe\_props\_pack\_LE\_common\_spruces ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=2945](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2945))  
+    Grfe\_props\_pack\_LE\_chestnuts ([https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=3049](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049))
+
+    Any question, notice, advice, critique are welcome and needed, so feel free...
+
+    Enjoy and have fun!
+
+    \- Tyberius
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/31379-heretic-slope-side-walls/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5834ec8ae5ff5_HSSWautum.jpg.424bac0dc25ce1dcd15b9d0fa643b8af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5834ec9a5ce3b_HSSWfreshlyplopped.jpg.e92df4565b8d6e00a667613c5b452d10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5834ecb0e11dd_HSSWsummer.jpg.28285f5bd54773e8eb4495b54a341f7d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5834ecc1ce33f_HSSWwinter.jpg.cb1aa378e9920bdcd458b516316515ca.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:vip-girafe-urbanpack-vol01
+  - csx:mega-props-vol04
+  - girafe:ashes
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:daisy
+  - girafe:feather-grass
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:norway-maples
+  - girafe:rowan-trees
+  - girafe:sparaxis
+  - glenni:troll-bridge
+  - namspopof:props-pack-vol2
+  - neko:prop-set-vol01-part1
+assets:
+  - assetId: tyberius06-heretic-slope-side-walls
+
+---
+assetId: tyberius06-heretic-slope-side-walls
+version: "1.0"
+lastModified: "2016-11-23T01:14:57Z"
+url: https://community.simtropolis.com/files/file/31379-heretic-slope-side-walls/?do=download&r=163901
