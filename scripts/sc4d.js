@@ -39,6 +39,7 @@ export default {
 	443: 'bsc:essentials',
 	460: 'csx:mega-props-vol02',
 	461: 'csx:mega-props-vol03',
+	462: 'csx:mega-props-vol04',
 	469: 'bsc:mega-props-cal-vol01',
 	475: 'bsc:mega-props-dae-vol01',
 	521: 'bsc:mega-props-carch-vol01',
