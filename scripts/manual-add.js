@@ -71,6 +71,7 @@ export async function run(urls, argv) {
 // # buildIndex()
 // This function builds up the index that maps all stex urls that have a package
 const defaultUrl = 'https://memo33.github.io/sc4pac/channel/';
+const sc4eUrl = 'https://sc4evermore.github.io/sc4pac-channel/channel/';
 export async function buildIndex() {
 	let spinner = ora(`Building up package index`).start();
 	let index = {
@@ -81,6 +82,7 @@ export async function buildIndex() {
 	};
 	await Promise.all([
 		buildChannelIndex(index, defaultUrl),
+		buildChannelIndex(index, sc4eUrl),
 		buildLocalIndex(index),
 	]);
 	spinner.succeed('Package index built');
@@ -102,6 +104,7 @@ async function buildChannelIndex(index, channel) {
 				(index[key][id] ??= new Map()).set(name, {
 					id: name,
 					subfolder: pkg.category[0],
+					channel,
 				});
 			}
 		}
