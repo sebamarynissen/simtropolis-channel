@@ -1,6 +1,6 @@
 group: scaley-mcslither
 name: the-diagonal-runway-project
-version: "1.0"
+version: "1.0-1"
 subfolder: 700-transit
 info:
   summary: The Diagonal Runway Project
@@ -26,12 +26,14 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/Garbage.jpg.9a16d19e94bea6f21b72b512f0885c85.jpg
 dependencies:
   - ac:mega-props-vol02
+  - ac:mega-props-vol04
   - ac:mega-textures-vol01
+  - voltaire:rmip-resources
 assets:
   - assetId: scaley-mcslither-the-diagonal-runway-project
 
 ---
 assetId: scaley-mcslither-the-diagonal-runway-project
-version: "1.0"
+version: "1.0-1"
 lastModified: "2019-06-14T19:59:28Z"
 url: https://community.simtropolis.com/files/file/32959-the-diagonal-runway-project/?do=download&r=176121
