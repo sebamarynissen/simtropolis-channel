@@ -1,7 +1,7 @@
 group: rivit
 name: tunnel-modd
 version: "2.0"
-subfolder: 150-mods
+subfolder: 900-overrides
 
 info:
   summary: Replacement tunnel models with minimal portals for various network types
@@ -64,270 +64,161 @@ info:
 
     Please address all queries and finds to my forum support page here on Simtropolis. I will keep track and reply as best I can.
 
+variantInfo:
+  - variantId: rivit:tunnel-modd:railtunnels
+    description: Rail tunnel options
+    values:
+      - value: "yes"
+        description: Install DTR and STR rail tunnel replacements
+      - value: "no"
+        description: No rail tunnels
+
+  - variantId: rivit:tunnel-modd:avenuetunnels
+    description: Avenue tunnel replacement
+    values:
+      - value: "yes"
+        description: Install Avenue tunnel replacement
+      - value: "no"
+        description: Do not install Avenue tunnel replacement
+
+  - variantId: rivit:tunnel-modd:maxishighwaytunnels
+    description: Maxis Highway tunnel replacements (Ground Highway and Raised Highway)
+    values:
+      - value: "yes"
+        description: "Install Ground Highway and Raised Highway tunnel replacements (WARNING: NOT compatible with NAM Maxis Highway Override - MHO)"
+      - value: "no"
+        description: Do not install Maxis Highway tunnel replacements
+
+  - variantId: rivit:tunnel-modd:roadtunnels
+    description: Road and One Way Road tunnel options
+    values:
+      - value: "7.5m-road-owr"
+        description: "ADVANCED: 7.5m Road and OWR tunnels (requires slope mod configuration)"
+      - value: "7.5m-nwm"
+        description: "ADVANCED: 7.5m NWM NRD-4 and OWR-3 tunnels (requires slope mod and Network Widening Mod)"
+      - value: "13.8m-road-owr"
+        description: "Standard 13.8m height Road and OWR tunnel replacements"
+      - value: "none"
+        description: "No road or OWR tunnel replacements"
+
+  - variantId: rivit:tunnel-modd:slopemod
+    description: "Slope mod configuration (only applies when 7.5m road tunnels selected)"
+    values:
+      - value: "none"
+        description: "No slope mod - includes size exemplar files"
+      - value: "ennedi-smooth-212"
+        description: "Ennedi Smooth 2-1-2 (must load AFTER Ennedi's slope mod)"
+      - value: "ennedi-medium-315"
+        description: "Ennedi Medium 3-1-5 (must load AFTER Ennedi's slope mod)"
+      - value: "ennedi-mount-620"
+        description: "Ennedi Mount 6-2-0 (must load AFTER Ennedi's slope mod)"
+      - value: "byo"
+        description: "ADVANCED: Bring Your Own - manually configure using iLive's Reader"
+
 variants:
-  - variant: { rivit:tunnel-modd:roadtunnels: "none", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
-    
-  - variant: { rivit:tunnel-modd:roadtunnels: "standard-13.8m", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr" }
     dependencies:
       - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "standard-13.8m", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "none" }
+    conflicts:
+      - nam-team:tunnel-and-slope-mod
+
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm" }
     dependencies:
       - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
       - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "none" }
+    conflicts:
+      - nam-team:tunnel-and-slope-mod
+
+  - variant: { rivit:tunnel-modd:roadtunnels: "13.8m-road-owr" }
     dependencies:
-      - nam:network-widening-mod
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-widening-mod
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-widening-mod
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "no", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-widening-mod
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "none", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
-  
-  - variant: { rivit:tunnel-modd:roadtunnels: "standard-13.8m", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "standard-13.8m", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "none" }
-    dependencies:
-      - nam:network-widening-mod
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-    dependencies:
-      - nam:network-widening-mod
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-    dependencies:
-      - nam:network-widening-mod
-      - nam:network-addon-mod-core
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "no", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-widening-mod
-      
-  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:railtunnels: "yes", rivit:tunnel-modd:highwaytunnels: "yes", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-    dependencies:
-      - nam:network-widening-mod
       - nam:network-addon-mod-core
 
-# Part A - Rail Tunnels
+  - variant: { rivit:tunnel-modd:roadtunnels: "none" }
+    dependencies:
+      - nam:network-addon-mod-core
+
 assets:
   - assetId: rivit-tunnel-modd
     include:
       - /RVT TunnelMod/A - Rail Tunnels
     withConditions:
       - ifVariant: { rivit:tunnel-modd:railtunnels: "yes" }
+  - assetId: rivit-tunnel-modd
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:railtunnels: "no" }
 
-# Part B - Standard 13.8m Road/OWR only
+  - assetId: rivit-tunnel-modd
+    include:
+      - /RVT TunnelMod/B - Replacements/RVT Avenue Tunnel - Concrete.dat
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:avenuetunnels: "yes" }
+  - assetId: rivit-tunnel-modd
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:avenuetunnels: "no" }
+
+  - assetId: rivit-tunnel-modd
+    include:
+      - /RVT TunnelMod/B - Replacements/RVT Ground Highway Tunnel - Concrete.dat
+      - /RVT TunnelMod/B - Replacements/RVT Raised Highway Tunnel - Concrete.dat
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:maxishighwaytunnels: "yes" }
+  - assetId: rivit-tunnel-modd
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:maxishighwaytunnels: "no" }
+
   - assetId: rivit-tunnel-modd
     include:
       - /RVT TunnelMod/B - Replacements/RVT Road Tunnel 13.8m - Concrete.dat
       - /RVT TunnelMod/B - Replacements/RVT OneWayRoad Tunnel 13.8m - Concrete.dat
     withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "standard-13.8m" }
+      - ifVariant: { rivit:tunnel-modd:roadtunnels: "13.8m-road-owr" }
 
-# Part B - Avenue + Highways (Ground Highway and Raised Highway)
-  - assetId: rivit-tunnel-modd
-    include:
-      - /RVT TunnelMod/B - Replacements/RVT Avenue Tunnel - Concrete.dat
-      - /RVT TunnelMod/B - Replacements/RVT Ground Highway Tunnel - Concrete.dat
-      - /RVT TunnelMod/B - Replacements/RVT Raised Highway Tunnel - Concrete.dat
-    withConditions:
-      - ifVariant: { rivit:tunnel-modd:highwaytunnels: "yes" }
-
-# Part C0 - 7.5m Road/OWR with No Slope Mod
   - assetId: rivit-tunnel-modd
     include:
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr" }
+
+  - assetId: rivit-tunnel-modd
+    include:
+      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm" }
+
+  - assetId: rivit-tunnel-modd
+    include:
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m Size Exemplar.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m Size Exemplar.dat
     withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "none" }
+      - ifVariant: { rivit:tunnel-modd:slopemod: "none" }
+  - assetId: rivit-tunnel-modd
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:slopemod: "byo" }
 
-# Part C1 - 7.5m Road/OWR with Ennedi Smooth 2-1-2
   - assetId: rivit-tunnel-modd
     include:
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 Road 7.5m.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 OneWayRoad 7.5m.dat
     withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
+      - ifVariant: { rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
 
-# Part C1 - 7.5m Road/OWR with Ennedi Medium 3-1-5
   - assetId: rivit-tunnel-modd
     include:
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 Road 7.5m.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 OneWayRoad 7.5m.dat
     withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
+      - ifVariant: { rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
 
-# Part C1 - 7.5m Road/OWR with Ennedi Mount 6-2-0
   - assetId: rivit-tunnel-modd
     include:
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 Road 7.5m.dat
       - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 OneWayRoad 7.5m.dat
     withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-
-# NWM RD-4/OWR-3 7.5m Tunnels with No Slope Mod
-  - assetId: rivit-tunnel-modd
-    include:
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m Size Exemplar.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m Size Exemplar.dat
-    withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:slopemod: "none" }
-
-# NWM RD-4/OWR-3 7.5m Tunnels with Ennedi Smooth 2-1-2
-  - assetId: rivit-tunnel-modd
-    include:
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 Road 7.5m.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 OneWayRoad 7.5m.dat
-    withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-
-# NWM RD-4/OWR-3 7.5m Tunnels with Ennedi Medium 3-1-5
-  - assetId: rivit-tunnel-modd
-    include:
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 Road 7.5m.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 OneWayRoad 7.5m.dat
-    withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-
-# NWM RD-4/OWR-3 7.5m Tunnels with Ennedi Mount 6-2-0
-  - assetId: rivit-tunnel-modd
-    include:
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 Road 7.5m.dat
-      - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 OneWayRoad 7.5m.dat
-    withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm-rd4-owr3", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
+      - ifVariant: { rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
 
 ---
-# Asset definition
 assetId: rivit-tunnel-modd
 version: "2.0"
 lastModified: "2011-11-06T13:00:00Z"
