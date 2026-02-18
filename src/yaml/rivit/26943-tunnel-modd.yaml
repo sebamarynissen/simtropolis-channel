@@ -119,15 +119,11 @@ variants:
   - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr" }
     dependencies:
       - nam:network-addon-mod-core
-    conflicts:
-      - nam-team:tunnel-and-slope-mod
 
   - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm" }
     dependencies:
       - nam:network-addon-mod-core
       - nam:network-widening-mod
-    conflicts:
-      - nam-team:tunnel-and-slope-mod
 
   - variant: { rivit:tunnel-modd:roadtunnels: "13.8m-road-owr" }
     dependencies:
