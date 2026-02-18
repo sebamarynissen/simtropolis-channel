@@ -1,0 +1,65 @@
+group: rivit
+name: rvt-sam4-nz-gravel
+version: "5.42"
+subfolder: 900-Overrides
+info:
+  summary: RVT SAM4 NZ Gravel
+  description: |-
+    This set overrides the SAM4 - PEG Gravel Textures. It is based on the type of gravel roads found throughout NZ and parts of Australia. These roads consist of an earth base, with 1-3cm bluestone gravel graded onto the surface. Relatively cheap to build and maintain they can represent a substantial challenge to inexperienced drivers. Rally driving on the other hand is a great deal of fun. 
+
+
+    This set MUST be loaded after SAM in order to override these textures.
+    
+
+    Existing PEG Gravel streets will appear as NZ gravel. Revert by removing .dat.
+
+
+    These are designed to work with SAM5 Override - Rural Tarsealed, and Urban Tarsealed Streets
+
+
+    Requires SAM to work...
+    rivit Dec 2010
+
+  author: rivit
+  website: https://community.simtropolis.com/files/file/25402-sam4-override-nz-gravel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/086b54a482c06a8412e3186b99d41b88-nzgs.jpg
+
+variants:
+- variant: { streetside: eu }
+  dependencies:
+  - nam:street-addon-mod
+  assets:
+  - assetId: rivit-rvt-sam4-nz-gravel
+    include:
+    - /RVT Streets/RVT SAM4 NZ Gravel - Common.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - GLRX.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - Lot Overlays.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - Maxis RailX.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - PEG Rural.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - RRWX.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - WRC Paths.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - xSAM EU.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - zEU.dat
+
+- variant: { streetside: us }
+  dependencies:
+  - nam:street-addon-mod
+  assets:
+  - assetId: rivit-rvt-sam4-nz-gravel
+    include:
+    - /RVT Streets/RVT SAM4 NZ Gravel - Common.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - GLRX.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - Lot Overlays.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - Maxis RailX.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - PEG Rural.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - RRWX.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - WRC Paths.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - xSAM US.dat
+    - /RVT Streets/RVT SAM4 NZ Gravel - zUS.dat
+
+---
+assetId: rivit-rvt-sam4-nz-gravel
+version: "5.42"
+lastModified: "2021-11-19T11:40:00Z"
+url: https://community.simtropolis.com/files/file/25402-sam4-override-nz-gravel/?do=download

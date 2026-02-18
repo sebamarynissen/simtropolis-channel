@@ -1,0 +1,57 @@
+group: rivit
+name: rvt-sam2-red-herringbone-brick
+version: "5.42"
+subfolder: 900-Overrides
+info:
+  summary: RVT SAM2 Red Herringbone Brick
+  description: |-
+    This is my SAM2 implementation of the streets I first made in 2005, and is a by-product of learning how to make my other street sets in June 2010. Particular care has been taken to account for how bricks are actually laid for tidy curves, intersections and joins and use my original textures. In this case I have also used brick kerbing - which may suit some Euro cites more.
+
+
+    Revert by removing.
+
+
+    These are designed to work seamlessly with all of my Streets.
+
+
+    Produced with Photoshop, GoFSH and Reader.
+
+    
+    rivit Jan 2011
+  author: rivit
+  website: https://community.simtropolis.com/files/file/25655-sam2-override-red-herringbone-brick/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/SAM2a.jpg.d5d24a73ae6f7c83a8b00302f5bd26a3.jpg
+
+variants:
+- variant: { streetside: eu }
+  dependencies:
+  - nam:street-addon-mod
+  assets:
+  - assetId: rivit-rvt-sam2-red-herringbone-brick
+    include:
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - Common.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - GLRX.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - Maxis RailX.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - RRWX.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - xSAM EU.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - zEU.dat
+
+- variant: { streetside: us }
+  dependencies:
+  - nam:street-addon-mod
+  assets:
+  - assetId: rivit-rvt-sam2-red-herringbone-brick
+    include:
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - Common.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - GLRX.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - Maxis RailX.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - RRWX.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - xSAM US.dat
+    - /RVT Streets/RVT SAM2 Red Herringbone Brick - zUS.dat
+
+---
+assetId: rivit-rvt-sam2-red-herringbone-brick
+version: "5.42"
+lastModified: "2021-11-19T11:37:00Z"
+url: https://community.simtropolis.com/files/file/25655-sam2-override-red-herringbone-brick/?do=download
