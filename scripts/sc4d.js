@@ -90,6 +90,7 @@ export default {
 	1891: 'bsc:mega-props-jbsimio-vol03',
 	1892: 'ac:mega-props-vol02',
 	1893: 'ac:mega-props-vol03',
+	1896: 'ac:mega-textures-vol01',
 	1902: 'sfbt:royal-light-signal-props',
 	1903: 'sfbt:kenworth-royal-railway-props',
 	1931: 'bsc:mega-props-t1-vol03',
