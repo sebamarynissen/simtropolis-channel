@@ -71,7 +71,7 @@ variantInfo:
         description: Do not install Avenue tunnel replacement
 
   - variantId: rivit:tunnel-modd:maxishighwaytunnels
-    description: Maxis Highway tunnel replacements (Ground Highway and Raised Highway)
+    description: "Maxis Highway tunnel replacements (Ground Highway and Raised Highway). If you are using the Maxis Highway Override (MHO), this option has no effect - select either value to continue."
     values:
       - value: "yes"
         default: true
@@ -93,11 +93,11 @@ variantInfo:
         description: "No road or OWR tunnel replacements"
 
   - variantId: rivit:tunnel-modd:slopemod
-    description: "Slope mod configuration (only applies when 7.5m road tunnels selected)"
+    description: "Slope mod to use with 7.5m road tunnels"
     values:
       - value: "no-existing-slope-mod"
         default: true
-        description: "No existing slope mod installed - includes size exemplar files"
+        description: "No existing slope mod - installs a Maxis slope mod adjusted for 7.5m tunnel heights (conflicts with other slope mods)"
       - value: "ennedi-smooth-212"
         description: "Ennedi Smooth 2-1-2 (must load AFTER Ennedi's slope mod)"
       - value: "ennedi-medium-315"
@@ -105,7 +105,7 @@ variantInfo:
       - value: "ennedi-mount-620"
         description: "Ennedi Mount 6-2-0 (must load AFTER Ennedi's slope mod)"
       - value: "byo"
-        description: "ADVANCED: Bring Your Own - manually configure using iLive's Reader"
+        description: "ADVANCED: No slope mod installed - configure tunnel entry heights manually using iLive's Reader"
 
 assets:
   - assetId: rivit-tunnel-modd
@@ -128,53 +128,100 @@ assets:
 
   - assetId: rivit-tunnel-modd
     withConditions:
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "13.8m-road-owr" }
-        include:
-          - /RVT TunnelMod/B - Replacements/RVT Road Tunnel 13.8m - Concrete.dat
-          - /RVT TunnelMod/B - Replacements/RVT OneWayRoad Tunnel 13.8m - Concrete.dat
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr" }
-        include:
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm" }
-        include:
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
-      - ifVariant: { rivit:tunnel-modd:roadtunnels: "none" }
-        exclude:
-          - .
-
-  - assetId: rivit-tunnel-modd
-    withConditions:
-      - ifVariant: { rivit:tunnel-modd:slopemod: "no-existing-slope-mod" }
-        include:
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m Size Exemplar.dat
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m Size Exemplar.dat
-      - ifVariant: { rivit:tunnel-modd:slopemod: "byo" }
-        exclude:
-          - .
-      - ifVariant: { rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
-        include:
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 Road 7.5m.dat
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 OneWayRoad 7.5m.dat
-      - ifVariant: { rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
-        include:
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 Road 7.5m.dat
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 OneWayRoad 7.5m.dat
-      - ifVariant: { rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
-        include:
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 Road 7.5m.dat
-          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 OneWayRoad 7.5m.dat
-
-variants:
-  - variant: { nam:maxis-highway:style: "default", rivit:tunnel-modd:maxishighwaytunnels: "yes" }
-    assets:
-      - assetId: rivit-tunnel-modd
+      - ifVariant: { rivit:tunnel-modd:maxishighwaytunnels: "yes" }
         include:
           - /RVT TunnelMod/B - Replacements/RVT Ground Highway Tunnel - Concrete.dat
           - /RVT TunnelMod/B - Replacements/RVT Raised Highway Tunnel - Concrete.dat
-  - variant: { nam:maxis-highway:style: "default", rivit:tunnel-modd:maxishighwaytunnels: "no" }
-  - variant: { nam:maxis-highway:style: "MHO" }
+      - ifVariant: { rivit:tunnel-modd:maxishighwaytunnels: "no" }
+        exclude:
+          - .
+
+variants:
+  - variant: { rivit:tunnel-modd:roadtunnels: "13.8m-road-owr" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/B - Replacements/RVT Road Tunnel 13.8m - Concrete.dat
+          - /RVT TunnelMod/B - Replacements/RVT OneWayRoad Tunnel 13.8m - Concrete.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "none" }
+
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "no-existing-slope-mod" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m Size Exemplar.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m Size Exemplar.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "byo" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 OneWayRoad 7.5m.dat
+
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "no-existing-slope-mod" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m Size Exemplar.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m Size Exemplar.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "byo" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 OneWayRoad 7.5m.dat
 
 ---
 assetId: rivit-tunnel-modd
