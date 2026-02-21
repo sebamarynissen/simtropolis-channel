@@ -1,5 +1,5 @@
 group: rivit
-name: rvt-sam2-grey-herringbone-brick
+name: sam2-grey-herringbone-brick
 version: "5.42"
 subfolder: 900-overrides
 info:
@@ -27,43 +27,43 @@ info:
   conflicts: Cannot be used together with RVT SAM2 Red Herringbone Brick - only one SAM2 override can be active at a time.
 
 conflicting:
-- rivit:rvt-sam2-red-herringbone-brick
+- rivit:sam2-red-herringbone-brick
 
 variants:
-- variant: { rivit:rvt-sam2-grey-herringbone-brick:streetside: eu, rivit:rvt-sam2-grey-herringbone-brick:rail: rrw }
+- variant: { rivit:sam2-grey-herringbone-brick:roadstyle: EU, rivit:sam2-grey-herringbone-brick:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:rvt-sam2-grey-herringbone-brick:streetside: eu, rivit:rvt-sam2-grey-herringbone-brick:rail: maxis }
+- variant: { rivit:sam2-grey-herringbone-brick:roadstyle: EU, rivit:sam2-grey-herringbone-brick:rail: maxis }
   dependencies:
   - nam:street-addon-mod
-- variant: { rivit:rvt-sam2-grey-herringbone-brick:streetside: us, rivit:rvt-sam2-grey-herringbone-brick:rail: rrw }
+- variant: { rivit:sam2-grey-herringbone-brick:roadstyle: US, rivit:sam2-grey-herringbone-brick:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:rvt-sam2-grey-herringbone-brick:streetside: us, rivit:rvt-sam2-grey-herringbone-brick:rail: maxis }
+- variant: { rivit:sam2-grey-herringbone-brick:roadstyle: US, rivit:sam2-grey-herringbone-brick:rail: maxis }
   dependencies:
   - nam:street-addon-mod
 
 assets:
 - assetId: rivit-rvt-sam2-grey-herringbone-brick
   withConditions:
-  - ifVariant: { rivit:rvt-sam2-grey-herringbone-brick:streetside: eu }
+  - ifVariant: { rivit:sam2-grey-herringbone-brick:roadstyle: EU }
     include:
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - Common.dat
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - GLRX.dat
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - xSAM EU.dat
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - zEU.dat
-  - ifVariant: { rivit:rvt-sam2-grey-herringbone-brick:streetside: us }
+  - ifVariant: { rivit:sam2-grey-herringbone-brick:roadstyle: US }
     include:
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - Common.dat
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - GLRX.dat
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - xSAM US.dat
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - zUS.dat
-  - ifVariant: { rivit:rvt-sam2-grey-herringbone-brick:rail: rrw }
+  - ifVariant: { rivit:sam2-grey-herringbone-brick:rail: rrw }
     include:
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - RRWX.dat
-  - ifVariant: { rivit:rvt-sam2-grey-herringbone-brick:rail: maxis }
+  - ifVariant: { rivit:sam2-grey-herringbone-brick:rail: maxis }
     include:
     - /RVT Streets/RVT SAM2 Grey Herringbone Brick - Maxis RailX.dat
 

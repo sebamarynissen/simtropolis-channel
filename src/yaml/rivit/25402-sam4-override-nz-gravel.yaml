@@ -1,5 +1,5 @@
 group: rivit
-name: rvt-sam4-nz-gravel
+name: sam4-nz-gravel
 version: "5.42"
 subfolder: 900-overrides
 info:
@@ -26,25 +26,25 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/086b54a482c06a8412e3186b99d41b88-nzgs.jpg
 
 variants:
-- variant: { rivit:rvt-sam4-nz-gravel:streetside: eu, rivit:rvt-sam4-nz-gravel:rail: rrw }
+- variant: { rivit:sam4-nz-gravel:roadstyle: EU, rivit:sam4-nz-gravel:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:rvt-sam4-nz-gravel:streetside: eu, rivit:rvt-sam4-nz-gravel:rail: maxis }
+- variant: { rivit:sam4-nz-gravel:roadstyle: EU, rivit:sam4-nz-gravel:rail: maxis }
   dependencies:
   - nam:street-addon-mod
-- variant: { rivit:rvt-sam4-nz-gravel:streetside: us, rivit:rvt-sam4-nz-gravel:rail: rrw }
+- variant: { rivit:sam4-nz-gravel:roadstyle: US, rivit:sam4-nz-gravel:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:rvt-sam4-nz-gravel:streetside: us, rivit:rvt-sam4-nz-gravel:rail: maxis }
+- variant: { rivit:sam4-nz-gravel:roadstyle: US, rivit:sam4-nz-gravel:rail: maxis }
   dependencies:
   - nam:street-addon-mod
 
 assets:
 - assetId: rivit-rvt-sam4-nz-gravel
   withConditions:
-  - ifVariant: { rivit:rvt-sam4-nz-gravel:streetside: eu }
+  - ifVariant: { rivit:sam4-nz-gravel:roadstyle: EU }
     include:
     - /RVT Streets/RVT SAM4 NZ Gravel - Common.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - GLRX.dat
@@ -53,7 +53,7 @@ assets:
     - /RVT Streets/RVT SAM4 NZ Gravel - WRC Paths.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - xSAM EU.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - zEU.dat
-  - ifVariant: { rivit:rvt-sam4-nz-gravel:streetside: us }
+  - ifVariant: { rivit:sam4-nz-gravel:roadstyle: US }
     include:
     - /RVT Streets/RVT SAM4 NZ Gravel - Common.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - GLRX.dat
@@ -62,10 +62,10 @@ assets:
     - /RVT Streets/RVT SAM4 NZ Gravel - WRC Paths.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - xSAM US.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - zUS.dat
-  - ifVariant: { rivit:rvt-sam4-nz-gravel:rail: rrw }
+  - ifVariant: { rivit:sam4-nz-gravel:rail: rrw }
     include:
     - /RVT Streets/RVT SAM4 NZ Gravel - RRWX.dat
-  - ifVariant: { rivit:rvt-sam4-nz-gravel:rail: maxis }
+  - ifVariant: { rivit:sam4-nz-gravel:rail: maxis }
     include:
     - /RVT Streets/RVT SAM4 NZ Gravel - Maxis RailX.dat
 

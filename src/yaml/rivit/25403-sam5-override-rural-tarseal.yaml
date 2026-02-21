@@ -1,5 +1,5 @@
 group: rivit
-name: rvt-sam5-tsr-rural
+name: sam5-tsr-rural
 version: "5.42"
 subfolder: 900-overrides
 info:
@@ -26,25 +26,25 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/a2bb2b5edb271e249d014b580e5fb121-tsr.jpg
 
 variants:
-- variant: { rivit:rvt-sam5-tsr-rural:streetside: eu, rivit:rvt-sam5-tsr-rural:rail: rrw }
+- variant: { rivit:sam5-tsr-rural:roadstyle: EU, rivit:sam5-tsr-rural:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:rvt-sam5-tsr-rural:streetside: eu, rivit:rvt-sam5-tsr-rural:rail: maxis }
+- variant: { rivit:sam5-tsr-rural:roadstyle: EU, rivit:sam5-tsr-rural:rail: maxis }
   dependencies:
   - nam:street-addon-mod
-- variant: { rivit:rvt-sam5-tsr-rural:streetside: us, rivit:rvt-sam5-tsr-rural:rail: rrw }
+- variant: { rivit:sam5-tsr-rural:roadstyle: US, rivit:sam5-tsr-rural:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:rvt-sam5-tsr-rural:streetside: us, rivit:rvt-sam5-tsr-rural:rail: maxis }
+- variant: { rivit:sam5-tsr-rural:roadstyle: US, rivit:sam5-tsr-rural:rail: maxis }
   dependencies:
   - nam:street-addon-mod
 
 assets:
 - assetId: rivit-rvt-sam5-tsr-rural
   withConditions:
-  - ifVariant: { rivit:rvt-sam5-tsr-rural:streetside: eu }
+  - ifVariant: { rivit:sam5-tsr-rural:roadstyle: EU }
     include:
     - /RVT Streets/RVT SAM5 TSR Rural - Common.dat
     - /RVT Streets/RVT SAM5 TSR Rural - GLRX.dat
@@ -52,7 +52,7 @@ assets:
     - /RVT Streets/RVT SAM5 TSR Rural - xSAM EU.dat
     - /RVT Streets/RVT SAM5 TSR Rural - zAltX.dat
     - /RVT Streets/RVT SAM5 TSR Rural - zEU.dat
-  - ifVariant: { rivit:rvt-sam5-tsr-rural:streetside: us }
+  - ifVariant: { rivit:sam5-tsr-rural:roadstyle: US }
     include:
     - /RVT Streets/RVT SAM5 TSR Rural - Common.dat
     - /RVT Streets/RVT SAM5 TSR Rural - GLRX.dat
@@ -60,10 +60,10 @@ assets:
     - /RVT Streets/RVT SAM5 TSR Rural - xSAM US.dat
     - /RVT Streets/RVT SAM5 TSR Rural - zAltX.dat
     - /RVT Streets/RVT SAM5 TSR Rural - zUS.dat
-  - ifVariant: { rivit:rvt-sam5-tsr-rural:rail: rrw }
+  - ifVariant: { rivit:sam5-tsr-rural:rail: rrw }
     include:
     - /RVT Streets/RVT SAM5 TSR Rural - RRWX.dat
-  - ifVariant: { rivit:rvt-sam5-tsr-rural:rail: maxis }
+  - ifVariant: { rivit:sam5-tsr-rural:rail: maxis }
     include:
     - /RVT Streets/RVT SAM5 TSR Rural - Maxis RailX.dat
 
