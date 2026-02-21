@@ -60,8 +60,8 @@ assets:
 ---
 group: ferox
 name: warsaw-main-station-model
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Model for `pkg=ferox:warsaw-main-station`
   author: Ferox
@@ -72,7 +72,7 @@ info:
 assets:
   - assetId: ferox-warsaw-main-station-bsc
     include:
-      - "/Dworzec Glowny.sc4model"
+      - /Dworzec Glowny.sc4model
 
 ---
 assetId: ferox-warsaw-main-station-bsc

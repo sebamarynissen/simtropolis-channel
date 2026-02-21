@@ -47,8 +47,8 @@ assets:
 ---
 group: thequiltedllama
 name: suburban-str-station-model
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Model for `pkg=thequiltedllama:suburban-str-station`
   author: TheQuiltedLlama
@@ -59,9 +59,7 @@ info:
 assets:
   - assetId: thequiltedllama-smp-suburban-str-station
     include:
-      - "/str-0x5ad0e817_0xd4740fe8_0xb0000.SC4Model"
-
-
+      - /str-0x5ad0e817_0xd4740fe8_0xb0000.SC4Model
 
 ---
 assetId: thequiltedllama-smp-suburban-str-station

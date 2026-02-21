@@ -45,8 +45,8 @@ dependencies:
 ---
 group: roe99
 name: resources
-version: "2"
-subfolder: 100-props-textures
+version: "2-1"
+subfolder: 110-resources
 info:
   summary: Custom queries for roe99's buildings.
   author: roe99
@@ -54,7 +54,7 @@ info:
 assets:
   - assetId: roe99-menara-batavia-update
     include:
-      - "/Elsham_query_UI.dat"
+      - /Elsham_query_UI.dat
 
 ---
 assetId: roe99-menara-batavia-update

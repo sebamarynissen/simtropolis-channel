@@ -1,0 +1,171 @@
+group: deadwoods
+name: elrail-shops
+version: "3"
+subfolder: 700-transit
+info:
+  summary: ElRail Shops
+  description: |-
+    # DEDWD Elevated Rail Shops  
+    by deadwoods
+
+    Want public transport in your congested cities, but hate giving up valuable realestate to monorail or elevated rail. This set of lots combine elevated rail with commercial services (CS$) providing jobs for your sims in a series of brick arch style shops and workshops. Each is network enabled, so just plop and run the rail over it. The lots feature prop a prop family for the shopfronts, so a different combination will appear each time one of them is plopped.
+
+    This package contains four plopable lots; one 3 tiles wide (in the direction of the rail), one four tiles wide, one five tiles wide and one six tiles wide. All the lots are one tile deep, so you could have parallel rail lines running. Because the lots are network enabled they cannot be joined end-to-end; there must be a one tile gap (perhaps for a road). They are also very gradient sensitive. If you want to join a string of them together you should level the area first.
+
+    These lots are not the same as simrolle's sbahhoff lots. His are are plopped on either side of a rail line (or elevated road) with the rail running down the middle. These are single lots that include the relevant rail. His are three tiles deep whereas these are one tile deep. His have special lots to include roads/avenues. These do not.
+
+    These lots are BSC BTE enabled. This means they will contribute to reward chains. Having enough of these in your city may entitle you to specific rewards.
+
+    * * *
+
+    This is Version 3 (v103). All the lots have been updated with SC4PIM-X (x-tool), some underlying issues have been fixed and the contents have got the "Project ZIP" threatment. The IDs remained the same in this pack.
+
+    This v103 version (released as an update on STEX) will be equivalent with the version that is/will be released on SC4Evermore as part of the SC4D LEX Legacy compilations.
+
+    In all cases players who has previous versions installed of these lots are required to bulldoze these lots in their cities and remove them from their plugins folder before installing this update. For removing old versions you need to run the included cleanitol scrip with the [nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or with the [BSC Cleanitol TM](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool.
+
+    ## Lot Specs
+
+    STAGE:
+
+    N/A
+
+    LOT\_SIZE:
+
+    3 x 1, 4 x 1, 5 x 1, 6 x 1
+
+    TYPE:
+
+    Services
+
+    POLLUTION\_EFFECT:
+
+    Air = 2 (3x), 4 (4x), 6 (5x), 7 (6x)  
+    Water = 1 (3x), 2 (4x), 3 (5x), 3 (6x)  
+    Garbage = 8 (3x), 13 (4x), 18 (5x), 22 (6x)  
+    Radiation = 0 
+
+    POLLUTION\_RADII:
+
+    Air = 5, Water = 5, Garbage = 0, Radiation = 0
+
+    OCCUPANT\_GROUPS:
+
+    0x1003
+
+    Building: Transportation
+
+    0x1303
+
+    Building: El Train
+
+    0x130A
+
+    Building: MiscTransit
+
+    0x13110
+
+    Building: CS$
+
+    0xB5C00A08
+
+    0xB5C00A08
+
+    0xB5C00200
+
+    0xB5C00200
+
+    0xB5C00202
+
+    0xB5C00202
+
+    POWER\_CONSUMED:
+
+    6 (3x), 9 (4x), 13 (5x), 15 (6x)
+
+    WATER\_CONSUMED:
+
+    61 (3x), 90 (4x), 127 (5x), 150 (6x)
+
+    BULLDOZE\_COST:
+
+    192
+
+    PLOP\_COST:
+
+    90 (3x), 120 (4x), 200 (5x), 300 (6x)
+
+    WORTH:
+
+    192
+
+    CAPACITY\_SATISFIED (JOBS):
+
+    CS$ commerce
+
+    116 (3x), 156 (4x), 177 (5x), 259 (6x)
+
+    DEMAND\_SATISFIED:
+
+    Amenities $
+
+    116 (3x), 156 (4x), 177 (5x), 259 (6x)
+
+    INCOME:
+
+    0
+
+    COST:
+
+    10 (3x), 12 (4x), 15 (5x), 20 (6x)
+
+    ## Installation
+
+    ### Pre-reqs
+
+    This lot needs the following pre-reqs. If they are not contained in the package, there's a hyperlink to them on the STEX.
+
+    **File**
+
+    **Link to file (if not in zip)**
+
+    Custom Query
+
+    [BSC Essesntials 2024a](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack "BSC Common Dependnecies v9b")  
+    (SC4D LEX Legacy - BSC Common Dependencies)  
+    you might need the following file:  
+    [DEDWD\_Commercial\_commonfiles](https://community.simtropolis.com/files/file/13153-bsc-mega-props-dae-vol02/?do=download&r=202051&confirm=1&t=1&csrfKey=470d6add04459050f421150d34b6a840)
+
+    DEDWD\_UnderRailShops\_commonfiles.dat
+
+    [BSC MEGA Props - DAE Vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)  
+    (SC4D LEX Legacy - BSC Common Dependencies)  
+    [Alternatively from STEX](https://community.simtropolis.com/files/file/14973-bsc-mega-props-dae-vol01/)
+
+    DEDWD\_UnderRailShops\_cs1\_props.dat
+
+    DEDWD\_UnderRailShops\_buildings.dat
+
+    ### Install/Un-install
+
+    Copy/Extract the **Deadwoods** parent folder into your plugins. If you extracted the ~*Documents* folder into you plugins too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+    To **Un-Install** the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+    \- Tyberius06 Edit: complete update of the package, see details in change log - 21.07.2024
+  author: deadwoods
+  website: https://community.simtropolis.com/files/file/12913-bsc-dedwd-elrail-shops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d6c34a2e472e9bd5c35c4ac79388f67c-DEDWD_ElRailShops_stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d6c34a2e472e9bd5c35c4ac79388f67c-DEDWD_ElRailShops_stexpic2.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-dae-vol01
+assets:
+  - assetId: deadwoods-elrail-shops
+
+---
+assetId: deadwoods-elrail-shops
+version: "3"
+lastModified: "2024-07-21T22:54:09Z"
+url: https://community.simtropolis.com/files/file/12913-bsc-dedwd-elrail-shops/?do=download&r=202072

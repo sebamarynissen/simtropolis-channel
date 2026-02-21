@@ -1,0 +1,37 @@
+group: terring
+name: green-plaza-modular-set
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Green Plaza Modular Set
+  description: |-
+    I've seen many mayors using my [Plaza-Parks](https://community.simtropolis.com/files/file/33448-plaza-parks/) set in their cities, which makes me feel happy and honored. Motivated by this, I decided to make a new pack of lots named *Green Plaza Set*, that shares the same philosophy of modular park building and still works as a sweet spot between park and plaza. But with two big twists this time. First, this set comes with only 9 lots instead of overwhelming 28 and uses some custom-made textures instead of Maxis-only contents. Second, and this is the biggest twist, all lots of the Green Plaza set are intentionally empty, so you can customize them with any kind of MMP you want and have in your toolbox. Just use the new lots build your park wherever and however you wish, and then start painting it with trees, flowers, bushes, rocks, ponds, anything you want. Lots of creative hours and plenty of building possibilities guarantee. Or your money back ![*:P]({fileStore.core_Emoticons}/emoticons/default_3.gif "*:P")
+
+    Installation is simple. First, unzip the .zip file into your plugins folder. Second, get those dependencies I used to avoid having empty lots:
+
+    **[11241036 Textures](https://community.simtropolis.com/files/file/33651-11241036-textures/)**, an awesome set of overlay textures derived from Maxis, BSC Textures Vol 1 and 2, and Pegasus' MTP.
+
+    **[BSC TexturePack Cycledogg V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)**, a magnificent pack of more than 2,000 textures that I'm sure many of you already have it.
+
+    **[SPOT (Simpeg Plop Orientation Tool)](https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/)**, a set of props that can help you find the piece you want and orient it according to your needs. Optional but very useful.
+
+    Next time you check your Parks and Recreation menu, you'll find them at the top of it waiting for you. Unleash your creativity and have fun ![:D]({fileStore.core_Emoticons}/emoticons/LlamaGrin.gif ":D")
+  author: Terring
+  website: https://community.simtropolis.com/files/file/35530-green-plaza-modular-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/646b44c78095d_NewCity-Feb.8001684666388.jpg.1c2460fd7a99fa22309ad0918668aada.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/646b44fd7fef3_NewCity-Oct.3011684669740.jpg.13a5d981f3238faa4fd700aab845f7b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/646b4507407d5_NewCity-Jan.11001684695048.jpg.871c45a254a4cb939c7295a1b3436cf1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/646b4513b6a74_NewCity-Jan.11001684696024.jpg.48dac69a3b3c3015115a2bc5ec118e4b.jpg
+dependencies:
+  - 11241036:textures
+  - bsc:texturepack-cycledogg-vol01
+  - peg:spot
+assets:
+  - assetId: terring-green-plaza-modular-set
+
+---
+assetId: terring-green-plaza-modular-set
+version: "1.0.0"
+lastModified: "2023-05-22T11:50:38Z"
+url: https://community.simtropolis.com/files/file/35530-green-plaza-modular-set/?do=download&r=197105

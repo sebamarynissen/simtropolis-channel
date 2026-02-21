@@ -49,20 +49,20 @@ variants:
           - "/PEG-CDK3_CoastGuardStation.dat"
           - "/PEG-CDK3_CoastGuardStationSouth.dat"
 variantInfo:
-- variantId: "peg:cdk3-coast-guard-station:tree-appearance"
-  description: "Customize the style of trees"
-  values:
-  - value: "default"
-    description: The default tree style.
-    default: true
-  - value: "palm"
-    description: Replace the default trees with palm trees.
+  - variantId: "peg:cdk3-coast-guard-station:tree-appearance"
+    description: "Customize the style of trees"
+    values:
+      - value: "default"
+        description: The default tree style.
+        default: true
+      - value: "palm"
+        description: Replace the default trees with palm trees.
 
 ---
 group: peg
 name: cdk3-coast-guard-station-resource
-version: "1.0-1"
-subfolder: 100-props-textures
+version: "1.0-2"
+subfolder: 110-resources
 info:
   summary: Props and models for `pkg=peg:cdk3-coast-guard-station`
   author: Pegasus
@@ -73,4 +73,4 @@ info:
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
-      - "/PEG-CDK3_CoastGuardStation_RESOURCE.dat"
+      - /PEG-CDK3_CoastGuardStation_RESOURCE.dat

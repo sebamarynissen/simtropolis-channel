@@ -1,0 +1,49 @@
+group: smf-16
+name: pcs-regional-distribution-centers-as-i-m
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: PC's Regional Distribution Centers as I-M
+  description: |-
+    I really like the concept of [@pclark06](https://community.simtropolis.com/profile/364367-pclark06/)'s [Regional](https://community.simtropolis.com/files/file/36215-pc-regional-distribution-centers-a-j/) [Distribution](https://community.simtropolis.com/files/file/36216-pc-regional-distribution-centers-k-z/) [Centers](https://community.simtropolis.com/files/file/36225-pc-regional-distribution-centers-retail-1/), but unfortunately they come as landmarks without jobs. This is a bit annoying, because they take up a lot of space in your industrial districts and hence you lose valuable land with no jobs.
+
+    To solve this, I created this mod which gives all of the regional distribution centers 320 I-M jobs. I did not modify the original lots, but instead created an entirely new set, so if you have already used the original landmark versions in your city, they will remain unaltered.
+
+    ## Dependencies
+
+    Obviously this mod needs the original distribution centers as dependency:
+
+    -   [pclark06:regional-distribution-centers-a-j](https://community.simtropolis.com/files/file/36215-pc-regional-distribution-centers-a-j/)
+    -   [pclark06:regional-distribution-centers-k-z](https://community.simtropolis.com/files/file/36216-pc-regional-distribution-centers-k-z/)
+    -   [pclark06:regional-distribution-centers-retail-1](https://community.simtropolis.com/files/file/36225-pc-regional-distribution-centers-retail-1/)
+
+    **You also need all dependencies of the original files**, so do yourself a favor and install this mod with [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), which handles all of the dependencies for you.
+
+    If you don't plan to use the landmark versions **and you haven't already used them in your cities**, you can get rid of the `/Lots` folders in the original distribution centers, but **YOU MUST** keep the `/Buildings` and `/Props` folders, otherwise you *will* get brown boxes.
+
+    ## Submenu support
+
+    The new lots will, just like the original ones, appear in the landmarks menu, but again, do yourself a favor and use this with memo's [Submenus DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/), after which both the I-M lots and the original ones will appear in the I-M submenu.
+
+    ## Acknowledgements
+
+    Many thanks go to [@pclark06](https://community.simtropolis.com/profile/364367-pclark06/) for making the fantastic original lots.
+  author: smf_16
+  website: https://community.simtropolis.com/files/file/37249-pcs-regional-distribution-centers-as-i-m/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/thumbnail-1.jpg.a6fa5957318fcf02590f8b2af42ac782.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/thumbnail-2.png.35dedd635d0a6ccc41c513dbc2314f93.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/thumbnail-3.png.939f0a27e0e440c8dbf844de19afaa81.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/thumbnail-4.png.073e86cc16e529662b1731e31898c1c2.png
+dependencies:
+  - pclark06:regional-distribution-centers-a-j
+  - pclark06:regional-distribution-centers-k-z
+  - pclark06:regional-distribution-centers-retail-1
+assets:
+  - assetId: smf-16-pcs-regional-distribution-centers-as-i-m
+
+---
+assetId: smf-16-pcs-regional-distribution-centers-as-i-m
+version: "1.0"
+lastModified: "2026-02-14T10:57:00Z"
+url: https://community.simtropolis.com/files/file/37249-pcs-regional-distribution-centers-as-i-m/?do=download&r=211165
