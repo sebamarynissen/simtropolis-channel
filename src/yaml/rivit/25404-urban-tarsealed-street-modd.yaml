@@ -132,23 +132,23 @@ version: "4.42"
 subfolder: 900-overrides
 info:
   summary: RVT Urban Tarsealed Street Modd - GLR Textures
-  description: Adds Ground Light Rail texture overrides and TIS (Transit-Integrated Signage) for GLR crossings. Install this if you use GLR networks in your city.
+  description: Adds Ground Light Rail texture and tram-in-street overrides. Install this if you use GLR networks in your city.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
 variantInfo:
   - variantId: rivit:urban-tarsealed-street-modd-optional-glr:install
-    description: Ground Light Rail texture overrides and TIS signage for GLR crossings
+    description: Ground Light Rail texture overrides and tram-in-street signage for GLR crossings
     values:
       - value: "yes"
-        description: Install GLR texture overrides and TIS signage
+        description: Install GLR texture overrides and tram-in-street signage
       - value: "no"
         description: Skip GLR content
 
 variants:
 - variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "yes", roadstyle: EU }
 - variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "yes", roadstyle: US }
-- variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no", roadstyle: EU }
-- variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no", roadstyle: US }
+- variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no" }
 
 assets:
 - assetId: rivit-urban-tarsealed-street-modd
@@ -161,10 +161,7 @@ assets:
     include:
     - /RVT Streets/RVT Tarsealed Streets - zOptional GLR.dat
     - /RVT Streets/RVT Tarsealed Streets - zOptional GLR TIS US.dat
-  - ifVariant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no", roadstyle: EU }
-    exclude:
-    - .
-  - ifVariant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no", roadstyle: US }
+  - ifVariant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no" }
     exclude:
     - .
 
@@ -178,6 +175,7 @@ info:
   description: Adds tarsealed cul-de-sac end tiles to match the street set. Install this if you use cul-de-sac street endings in your city.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
 variantInfo:
   - variantId: rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install
     description: Tarsealed cul-de-sac end tiles
@@ -194,10 +192,6 @@ variants:
     include:
     - /RVT Streets/RVT Tarsealed Streets - zOptional Cul de sac.dat
 - variant: { rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install: "no" }
-  assets:
-  - assetId: rivit-urban-tarsealed-street-modd
-    exclude:
-    - .
 
 ---
 group: rivit
@@ -209,6 +203,7 @@ info:
   description: Adds unkerbed rural street textures for use in low-density fringe areas without footpaths or kerbing. Pairs well with SAM4 NZ Gravel and SAM5 Rural Tarsealed.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
 variantInfo:
   - variantId: rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install
     description: Unkerbed rural street textures for low-density fringe areas without footpaths or kerbing
@@ -225,10 +220,6 @@ variants:
     include:
     - /RVT Streets/RVT Tarsealed Streets - zOptional Rural Unkerbed.dat
 - variant: { rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install: "no" }
-  assets:
-  - assetId: rivit-urban-tarsealed-street-modd
-    exclude:
-    - .
 
 ---
 group: rivit
@@ -240,6 +231,7 @@ info:
   description: Adds round kerb and traffic island texture variants for a softer, more European street appearance at intersections and corners.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
 variantInfo:
   - variantId: rivit:urban-tarsealed-street-modd-optional-round-kerbs:install
     description: Round kerb and traffic island texture variants
@@ -257,10 +249,6 @@ variants:
     - /RVT Streets/RVT Tarsealed Streets - zOptional TX Round16Kerbs.dat
     - /RVT Streets/RVT Tarsealed Streets - zOptional TX Round46Islands.dat
 - variant: { rivit:urban-tarsealed-street-modd-optional-round-kerbs:install: "no" }
-  assets:
-  - assetId: rivit-urban-tarsealed-street-modd
-    exclude:
-    - .
 
 ---
 assetId: rivit-urban-tarsealed-street-modd
