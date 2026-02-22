@@ -25,26 +25,42 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/086b54a482c06a8412e3186b99d41b88-nzgs.jpg
 
+variantInfo:
+  - variantId: roadstyle
+    description: Street markings
+    values:
+      - value: EU
+        description: European-style road markings
+      - value: US
+        description: American-style road markings
+  - variantId: rivit:sam4-nz-gravel:rail
+    description: Rail crossing type
+    values:
+      - value: rrw
+        description: Real Railway mod rail crossings (requires nam:real-railway)
+      - value: maxis
+        description: Maxis default rail crossings
+
 variants:
-- variant: { rivit:sam4-nz-gravel:roadstyle: EU, rivit:sam4-nz-gravel:rail: rrw }
+- variant: { roadstyle: EU, rivit:sam4-nz-gravel:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:sam4-nz-gravel:roadstyle: EU, rivit:sam4-nz-gravel:rail: maxis }
+- variant: { roadstyle: EU, rivit:sam4-nz-gravel:rail: maxis }
   dependencies:
   - nam:street-addon-mod
-- variant: { rivit:sam4-nz-gravel:roadstyle: US, rivit:sam4-nz-gravel:rail: rrw }
+- variant: { roadstyle: US, rivit:sam4-nz-gravel:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:sam4-nz-gravel:roadstyle: US, rivit:sam4-nz-gravel:rail: maxis }
+- variant: { roadstyle: US, rivit:sam4-nz-gravel:rail: maxis }
   dependencies:
   - nam:street-addon-mod
 
 assets:
 - assetId: rivit-rvt-sam4-nz-gravel
   withConditions:
-  - ifVariant: { rivit:sam4-nz-gravel:roadstyle: EU }
+  - ifVariant: { roadstyle: EU }
     include:
     - /RVT Streets/RVT SAM4 NZ Gravel - Common.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - GLRX.dat
@@ -53,7 +69,7 @@ assets:
     - /RVT Streets/RVT SAM4 NZ Gravel - WRC Paths.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - xSAM EU.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - zEU.dat
-  - ifVariant: { rivit:sam4-nz-gravel:roadstyle: US }
+  - ifVariant: { roadstyle: US }
     include:
     - /RVT Streets/RVT SAM4 NZ Gravel - Common.dat
     - /RVT Streets/RVT SAM4 NZ Gravel - GLRX.dat

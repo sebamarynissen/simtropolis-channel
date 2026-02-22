@@ -28,13 +28,22 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/867c3c23a667f415bd7c9f0144399ff7-tss-part-a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_04_2015/aedbbe714fa1028d68f921eddb912db7-tss-part-c-rhs.jpg
-  variantDescriptions:
-    roadstyle:
-      EU: European-style street textures with kerbing on both sides
-      US: American-style street textures with kerbing on both sides
-    rivit:urban-tarsealed-street-modd:rail:
-      rrw: Real Railway mod rail crossings (requires nam:real-railway)
-      maxis: Maxis default rail crossings
+
+variantInfo:
+  - variantId: roadstyle
+    description: Street markings
+    values:
+      - value: EU
+        description: European-style road markings
+      - value: US
+        description: American-style road markings
+  - variantId: rivit:urban-tarsealed-street-modd:rail
+    description: Rail crossing type
+    values:
+      - value: rrw
+        description: Real Railway mod rail crossings (requires nam:real-railway)
+      - value: maxis
+        description: Maxis default rail crossings
 
 dependencies:
 - rivit:urban-tarsealed-street-modd-optional-glr
@@ -126,10 +135,14 @@ info:
   description: Adds Ground Light Rail texture overrides and TIS (Transit-Integrated Signage) for GLR crossings. Install this if you use GLR networks in your city.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
-  variantDescriptions:
-    rivit:urban-tarsealed-street-modd-optional-glr:install:
-      "yes": Install GLR texture overrides and TIS signage
-      "no": Skip GLR content
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-glr:install
+    description: Ground Light Rail texture overrides and TIS signage for GLR crossings
+    values:
+      - value: "yes"
+        description: Install GLR texture overrides and TIS signage
+      - value: "no"
+        description: Skip GLR content
 
 variants:
 - variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "yes", roadstyle: EU }
@@ -165,10 +178,14 @@ info:
   description: Adds tarsealed cul-de-sac end tiles to match the street set. Install this if you use cul-de-sac street endings in your city.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
-  variantDescriptions:
-    rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install:
-      "yes": Install tarsealed cul-de-sac end tiles
-      "no": Skip cul-de-sac tiles
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install
+    description: Tarsealed cul-de-sac end tiles
+    values:
+      - value: "yes"
+        description: Install tarsealed cul-de-sac end tiles
+      - value: "no"
+        description: Skip cul-de-sac tiles
 
 variants:
 - variant: { rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install: "yes" }
@@ -192,10 +209,14 @@ info:
   description: Adds unkerbed rural street textures for use in low-density fringe areas without footpaths or kerbing. Pairs well with SAM4 NZ Gravel and SAM5 Rural Tarsealed.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
-  variantDescriptions:
-    rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install:
-      "yes": Install unkerbed rural street textures
-      "no": Skip rural unkerbed textures
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install
+    description: Unkerbed rural street textures for low-density fringe areas without footpaths or kerbing
+    values:
+      - value: "yes"
+        description: Install unkerbed rural street textures
+      - value: "no"
+        description: Skip rural unkerbed textures
 
 variants:
 - variant: { rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install: "yes" }
@@ -219,10 +240,14 @@ info:
   description: Adds round kerb and traffic island texture variants for a softer, more European street appearance at intersections and corners.
   author: RVT
   website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
-  variantDescriptions:
-    rivit:urban-tarsealed-street-modd-optional-round-kerbs:install:
-      "yes": Install round kerb and traffic island textures
-      "no": Skip round kerb textures
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-round-kerbs:install
+    description: Round kerb and traffic island texture variants
+    values:
+      - value: "yes"
+        description: Install round kerb and traffic island textures
+      - value: "no"
+        description: Skip round kerb textures
 
 variants:
 - variant: { rivit:urban-tarsealed-street-modd-optional-round-kerbs:install: "yes" }

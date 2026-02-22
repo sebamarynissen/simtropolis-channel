@@ -24,35 +24,51 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_10/SAM2a.jpg.d5d24a73ae6f7c83a8b00302f5bd26a3.jpg
   conflicts: Cannot be used together with RVT SAM2 Grey Herringbone Brick - only one SAM2 override can be active at a time.
 
+variantInfo:
+  - variantId: roadstyle
+    description: Street markings
+    values:
+      - value: EU
+        description: European-style road markings
+      - value: US
+        description: American-style road markings
+  - variantId: rivit:sam2-red-herringbone-brick:rail
+    description: Rail crossing type
+    values:
+      - value: rrw
+        description: Real Railway mod rail crossings (requires nam:real-railway)
+      - value: maxis
+        description: Maxis default rail crossings
+
 conflicting:
 - rivit:sam2-grey-herringbone-brick
 
 variants:
-- variant: { rivit:sam2-red-herringbone-brick:roadstyle: EU, rivit:sam2-red-herringbone-brick:rail: rrw }
+- variant: { roadstyle: EU, rivit:sam2-red-herringbone-brick:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:sam2-red-herringbone-brick:roadstyle: EU, rivit:sam2-red-herringbone-brick:rail: maxis }
+- variant: { roadstyle: EU, rivit:sam2-red-herringbone-brick:rail: maxis }
   dependencies:
   - nam:street-addon-mod
-- variant: { rivit:sam2-red-herringbone-brick:roadstyle: US, rivit:sam2-red-herringbone-brick:rail: rrw }
+- variant: { roadstyle: US, rivit:sam2-red-herringbone-brick:rail: rrw }
   dependencies:
   - nam:street-addon-mod
   - nam:real-railway
-- variant: { rivit:sam2-red-herringbone-brick:roadstyle: US, rivit:sam2-red-herringbone-brick:rail: maxis }
+- variant: { roadstyle: US, rivit:sam2-red-herringbone-brick:rail: maxis }
   dependencies:
   - nam:street-addon-mod
 
 assets:
 - assetId: rivit-rvt-sam2-red-herringbone-brick
   withConditions:
-  - ifVariant: { rivit:sam2-red-herringbone-brick:roadstyle: EU }
+  - ifVariant: { roadstyle: EU }
     include:
     - /RVT Streets/RVT SAM2 Red Herringbone Brick - Common.dat
     - /RVT Streets/RVT SAM2 Red Herringbone Brick - GLRX.dat
     - /RVT Streets/RVT SAM2 Red Herringbone Brick - xSAM EU.dat
     - /RVT Streets/RVT SAM2 Red Herringbone Brick - zEU.dat
-  - ifVariant: { rivit:sam2-red-herringbone-brick:roadstyle: US }
+  - ifVariant: { roadstyle: US }
     include:
     - /RVT Streets/RVT SAM2 Red Herringbone Brick - Common.dat
     - /RVT Streets/RVT SAM2 Red Herringbone Brick - GLRX.dat
