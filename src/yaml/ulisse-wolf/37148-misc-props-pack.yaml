@@ -1,0 +1,85 @@
+group: ulisse-wolf
+name: misc-props-pack
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: MISC Props Pack
+  description: |-
+    **MISC Props Pack**
+
+    This MISC Props Pack contains various props of various kinds that cannot be categorized into specific props packs
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack. 
+
+    ### INSTALLATION:
+
+    This package is a simple .zip file. Just extract the Ulisse Wolf folder to your My Documents\SimCity 4\Plugins directory (or equivalent, if you have a custom Plugins folder location).     ### DLL DEPENDENCIES:
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed dependencies are covering a full install):
+
+    **NONE**
+
+    ### DEPENDENCIES:
+
+    The following files are required in order for the contents of this package to appear correctly (i.e., no "brown boxes" or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the [list of contents](file:///C:/Users/UlisseWolf/Desktop/Ulisse%20Wolf%20-%20Fallout/readme_Fallout_Modpack.html#Contents) secion):
+
+    -   [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) (Only if you are using the Dark Night/DN version)
+
+    ### **CREDITS:**
+
+    The following members contributed models, textures, and modding support to this collection:
+
+    -  Ulisse Wolf
+    -  [Maxis (For SimCity 2013 Stuff)] (https://www.ea.com/games/simcity/simcity)
+    -  [CD Projekt Red (For Cyberpunk 2077 Stuff)] (https://store.steampowered.com/app/1091500/Cyberpunk_2077/)
+    -  [futaba@blende (For Hazbin Hotel)] (https://sketchfab.com/3d-models/hazbin-hotelfree-downloadable-45557491856f4212b8d6c0163208d4c7)
+    -  [Tristan B. (For Las Vegas Train Station)](https://3dwarehouse.sketchup.com/model/df2be434-bb76-4866-a0b0-6c1d89ec5866/1950-era-Union-Pacific-Station-Las-Vegas-Nevada)
+
+    This package has been made possible by the Project ZIP efforts of Ulisse Wolf.
+
+    ##### Special Thanks
+
+    Webmaster & administration staff at SC4 Devotion & Simtropolis (STEX)
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+
+    **CONTENTS:**
+
+    This package contains the following uploads:
+
+    -   Misc Props Pack Vol 1 
+
+    **LICENSING:**
+
+    This prop pack is provided as free content to SimCity 4 players, who are free to modify it for their use and for production of derivative for publication.  
+    Should the author be absent from SC4Devotion and Simtropolis.com for more than a year, site staff or individual users may re-host the file, as long as due credit is given to him, user [@Ulisse Wolf](https://community.simtropolis.com/profile/321174-ulisse-wolf/)
+  author: Ulisse Wolf
+  websites:
+    - "https://community.simtropolis.com/files/file/37148-misc-props-pack/"
+
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_12/A1.jpg.50ba7a4ec18c7b12c17c9e84f5ac1704.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_12/A2.jpg.073f8bb8ce9efda788994d59111ee5e6.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ulisse-wolf-misc-props-pack
+        exclude:
+          - /Dark Nite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ulisse-wolf-misc-props-pack
+        exclude:
+          - /Maxis Nite/
+
+---
+assetId: ulisse-wolf-misc-props-pack
+version: "1.0"
+lastModified: "2025-12-17T22:05:42Z"
+url: https://community.simtropolis.com/files/file/37148-misc-props-pack/?do=download
