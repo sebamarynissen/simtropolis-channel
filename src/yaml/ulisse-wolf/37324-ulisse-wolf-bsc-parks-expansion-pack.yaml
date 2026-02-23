@@ -1,0 +1,42 @@
+---
+assetId: ulisse-wolf-bsc-parks-expansion-pack
+version: "1.0.0"
+lastModified: "2026-02-23T02:04:14Z"
+url: https://community.simtropolis.com/files/file/37324-ulisse-wolf-bsc-parks-expansion-pack/?do=download
+
+
+---
+group: ulisse-wolf
+name: bsc-parks-expansion-pack
+version: "1.0.1"
+subfolder: 150-mods
+info:
+  summary: Ulisse Wolf - BSC Parks Expansion Pack
+  description: |
+    This mod allows you to add additional parks to your BSC Parks system. This additional expansion adds new park features as well as new pieces to make them better. In addition, some parks have an enhanced experience, allowing you to immerse yourself in the game.
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/37324-ulisse-wolf-bsc-parks-expansion-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/699bb52495099_BSCParkLogo.png.54a3650245194c320a3f40c8a870c560.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/AT1.jpg.0a3a58f4f1e894e45d0d6248d97ca7f8.jpg
+
+dependencies:
+  - "bsc:bsc-parks-texture-pack"
+  - "bsc:mega-props-bsc-parks"
+  - "nam:textures"
+  - "bsc:mega-props-cp-vol01"
+  - "bsc:mega-props-cp-vol02"
+  - "bsc:mega-props-d66-vol01"
+  - "bsc:mega-props-d66-vol02"
+  - "bsc:mega-props-carch-vol01"
+  - "bsc:mega-props-carch-vol02"
+  - "bsc:textures-vol01"
+  - "bsc:textures-vol02"
+  - "bsc:textures-vol03"
+  - "bsc:texturepack-cycledogg-vol01"
+  - "ulisse-wolf:misc-props-pack"
+  - "ulisse-wolf:fallout-common-dependencies-pack"
+  - "bsc:essentials"
+
+assets:
+  - assetId: ulisse-wolf-bsc-parks-expansion-pack
