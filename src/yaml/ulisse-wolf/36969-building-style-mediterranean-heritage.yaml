@@ -1,0 +1,35 @@
+---
+assetId: ulisse-wolf-building-style-mediterranean-heritage
+version: "2.0.0"
+lastModified: "2025-08-08T01:25:34Z"
+url: https://community.simtropolis.com/files/file/36969-building-style-mediterranean-heritage/?do=download
+
+---
+group: ulisse-wolf
+name: building-style-mediterranean-heritage
+version: "2.0.0"
+subfolder: 150-mods
+info:
+  summary: Building Style - Mediterranean Heritage
+  description: |
+    This mod allows you to add the style of Mediterranean buildings which is Style of buildings dedicated to the various architectures of the Mediterranean area 
+  author: Ulisse Wolf
+  website: https://community.simtropolis.com/files/file/36969-building-style-mediterranean-heritage/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890bac83abf8_ArtificialVisionsxVincenzoSalvia-MediterraneoDWP02.jpg.9af48409211db103e8534e4f77abf070.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890bacd163f2_ArtificialVisionsxVincenzoSalvia-MediterraneoDWP03.jpg.bd1952a181470cc07a6fd03f15785b40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890bad08647a_ArtificialVisionsxVincenzoSalvia-MediterraneoDWP04.jpg.599183f5f73064beef8002202ebb926e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890bad43ec6c_ArtificialVisionsxVincenzoSalvia-MediterraneoDWP07.jpg.94ee4e8dc5955c0c9250f4093b51668b.jpg
+
+  warning: |-
+    This Building Style plugin comes with an JSON configuration file:
+    
+    * `Building Style - Mediterranean Heritage.json`
+    
+    To complete the installation, Import this JSON file using the SC4Pac import feature and select the buildings compatible with the building style you want to install.
+dependencies:
+  - null-45:allow-more-building-styles-dll
+  - null-45:sc4-resource-loading-hooks
+
+assets:
+  - assetId: ulisse-wolf-building-style-mediterranean-heritage
