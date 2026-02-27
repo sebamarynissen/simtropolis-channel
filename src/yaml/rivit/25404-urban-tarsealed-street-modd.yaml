@@ -124,6 +124,9 @@ assets:
   - ifVariant: { rivit:urban-tarsealed-street-modd:rail: rrw, driveside: right }
     include:
     - /RVT Streets/RVT Tarsealed Streets - RRWx RHD.dat
+  - ifVariant: { rivit:urban-tarsealed-street-modd:rail: maxis }
+    exclude:
+    - .
 
 ---
 group: rivit
