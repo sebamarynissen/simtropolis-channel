@@ -1,6 +1,6 @@
 group: dk1
 name: power-plant-resouces
-version: "1.0"
+version: "2.0"
 subfolder: 110-resources
 info:
   summary: Power Plant Props
@@ -20,7 +20,7 @@ assets:
 ---
 group: dk1
 name: power-plant
-version: "1.0"
+version: "2.0"
 subfolder: 500-utilities
 dependencies:
   - "dk1:power-plant-resouces"
@@ -42,6 +42,6 @@ assets:
     
 ---
 assetId: dk1-power-plant
-version: "1.0"
+version: "2.0"
 lastModified: "2009-09-24T07:02:14Z"
 url: https://community.simtropolis.com/files/file/22535-dk1-power-plant/?do=download&r=48963
