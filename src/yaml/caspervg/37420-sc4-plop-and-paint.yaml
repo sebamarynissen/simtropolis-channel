@@ -1,0 +1,59 @@
+roup: "caspervg"
+name: "sc4-plop-and-paint-dll"
+version: "0.5.4"
+subfolder: "150-mods"
+dependencies:
+  - "config:sc4-edition-windows-digital"
+  - "caspervg:sc4-render-services-dll"
+assets:
+- assetId: "caspervg-sc4-plop-and-paint"
+  withChecksum:
+  - include: "/SC4PlopAndPaint.dll"
+    sha256: 885ACA643183D4EB894D5EED302D961FEDC07FD8AA6CCA5A7FA3200F068AF254
+  - include: "/SC4PlopAndPaint.ini"
+    sha256: 6F9D6D95D61919CDBB7A40CF2D937F7A7B0FA19C51880A1D3108246D89E638BA
+  - include: "/SC4PlopAndPaint.dat"
+    sha256: C1D87DD412D9A3C3AD71DBAE08413DB9AD93D9C462023E41DB51914999D4E627    
+  - include: "/_SC4PlopAndPaintCacheBuilder.exe"
+    sha256: AC039FBE2E2483242968040209A7D3853E4DDE39ECA9986381EA2927F44FFA60  
+
+info:
+  summary: "A DLL plugin that adds an in-game panel for browsing lots, painting props, and building and using new prop families"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    S SC4 Plop and Paint is a SimCity 4 DLL mods that adds an in-game panel for browsing lots, painting props, and building and using new prop families.
+
+    SC4PlopAndPaint.dll adds an in-game window called Advanced Plopping & Painting. 
+    
+    Press O in a loaded city to open it. The window is split into three tabs: Buildings & Lots for browsing and plopping lots, Props for painting individual props, and Families for managing and painting existing and newly self-created prop families. 
+    
+    See also the YouTube video below for a demo clip of painting a row of soundwalls directly on the border of a highway and some commercial growables. 
+  warning: |-
+    This DLL plugin comes with an INI configuration file:
+
+    * `SC4PlopAndPaint.ini`
+
+    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
+    
+    This DLL plugin comes with one additional DLL file:
+
+    * `_SC4PlopAndPaintCacheBuilder.exe`
+
+    To complete the installation, copy these files from the package subfolder into the Apps folder of your Installation folder.
+  author: "CasperVg"
+  website: "https://community.simtropolis.com/files/file/37420-sc4-plop-and-paint/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/header.png.1a7cabaf097a5d12c293002cab0d8f55.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/direct-painting-cropped.jpg.3d830252e054b264494affb380c12587.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/polygon-painting-01-cropped.jpg.2640aa9406a13c403751a9dbe5663665.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/polygon-painting-02-cropped.jpg.66c5e6d42788c20a2223fcfd557a29d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/polygon-painting-03-cropped.jpg.9f804165f9501fff9ce0d9026ec4a3d5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/painting.gif.77d72b4f020db7363aaa535e2f22b699.gif
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/main-window.jpg.225dfc38a8cf8a5a3778e98cad8fa9d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/paint-options.jpg.f5738e0475da99654e207340caba9ddf.jpg
+---
+assetId: "caspervg-sc4-plop-and-paint"
+version: "0.5.4"
+lastModified: "2026-03-03T21:11:09Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37420-sc4-plop-and-paint/?do=download"
+url: "https://github.com/caspervg/sc4-plop-and-paint/releases/download/v0.5.4/SC4PlopAndPaint-v0.5.4.zip"
