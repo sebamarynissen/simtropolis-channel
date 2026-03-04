@@ -7,9 +7,11 @@ dependencies:
   - "caspervg:sc4-render-services-dll"
 assets:
 - assetId: "caspervg-sc4-plop-and-paint"
+  exclude: 
+   - "/SC4PlopAndPaint.dat"
   withChecksum:
-  - include: /SC4PlopAndPaint-0.6.1-Setup.exe
-    sha256: 6DF729BDDE16E9B0A2A8036D76106F93E8619F1864CA67B55B7F18BFFE4FAFE7
+   - include: /SC4PlopAndPaint-0.6.1-Setup.exe
+     sha256: 6DF729BDDE16E9B0A2A8036D76106F93E8619F1864CA67B55B7F18BFFE4FAFE7
 
 info:
   summary: "A DLL plugin that adds an in-game panel for browsing lots, painting props, and building and using new prop families"
