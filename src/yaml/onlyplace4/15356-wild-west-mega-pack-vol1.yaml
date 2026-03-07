@@ -1,0 +1,181 @@
+group: onlyplace4
+name: wild-west-mega-pack-vol1
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Wild West Mega Pack Vol 1
+  description: |-
+    This mega pack contains five sections for you to build your very own Wild West towns, settlements, theme parks, or whatever. In it you will find 23 building props, 5 animal props (no horses yet I'm afraid), 4 wagons, 9 general props, and 3 buildings that formed part of my Slaytfork Mill project.
+
+    All these models have been rescaled to conform to the Maxis scale and, yes, I will be doing the same for the rest of the Slaytfork Mill buildings, as well as producing a second version of that model which will be able to be placed on a coast or teraformed river. I will also be preparing a number of growable Wild West and Logging Lots based on these models.
+
+    These props will be needed for future Wild West and Logging releases I make, and I will also augment them with further Mega Packs in the future. All files have been amalgamated with the Files2Dat utility, so there are just five .dat files in the package - WWBuildingsV1.dat; MillBuildingsV1.dat; WWAnimalsV1.dat; WWWagonsV1.dat; and WWBitsV1.dat. Obviously, if any of these filenames conflict with files you already have on your PC you should rename them as you see fit - it will not affect their functionality.
+
+    In addition to the five .dat files you will find a file called Wild West Dirtpatch-0x5ad0e817\_0xf12c53ed\_0x30000.SC4Model which is totally transparent. It is provided so that you can use it as the building on any lots you make with these props. The Lot included with this pack demonstrates how this file can be used. This Lot is transit enabled for rail and is made entirely from the props in this pack, the only addition being the standard Maxis farmhorses. If you have downloaded any of the growable Wild West residential lots these come with additonal props that are to the same scale as these props, and can therefore be used in conjunction with them.
+
+    This demonstration Lot has the following stats:
+
+    Budget Cost: 50
+
+    Bulldoze Cost: 50
+
+    Plop Cost: 0
+
+    Landmark Effect: 0,0
+
+    Mayor Rating Effect: 0,0
+
+    Pollution: 3, 4, 15, 0 (air, water, garbage, radiation)
+
+    Pollution radii: 2, 4, 0, 0
+
+    Power consumed: 20
+
+    Water consumed: 40
+
+    Wealth: None
+
+    Dependencies: Wild West Mega Pack Vol 1
+
+    The props included in this pack are:
+
+    Buildings:
+
+    \========
+
+    Wharfside (not originally a WW model, but it fits the theme very well)
+
+    Blacksmith
+
+    Blacksmith & Livery Stable
+
+    Boot Hill
+
+    Boot Repair
+
+    Corral (this comes in two parts - see below)
+
+    Drugstore
+
+    Engine House 21
+
+    Feed & Grain
+
+    Gallows x 4
+
+    General Stores
+
+    Hotel Timbuctoo
+
+    Jakes Saloon
+
+    Kellys Freight
+
+    Laundry
+
+    Sheriff Office & Jail
+
+    Small Town Bank
+
+    Small Town Church
+
+    Small Town Hotel
+
+    Small Town Train Station
+
+    Sundries
+
+    Undertaker
+
+    Water Tower
+
+    Mill buildings:
+
+    \===========
+
+    Mill Office
+
+    Mill Shed 1
+
+    Mill Watertower
+
+    Animals:
+
+    \=======
+
+    Bison\*
+
+    Calf\*
+
+    Cow\*
+
+    Cow 1\*
+
+    Donkey\*
+
+    Wagons:
+
+    \=======
+
+    Chuck Wagon\*
+
+    Conestoga\*
+
+    Stage Coach\*
+
+    Wagon\*
+
+    Bits:
+
+    \====
+
+    1x1 Crate
+
+    2x2 Crate
+
+    2x2 Crate Open
+
+    Anvil
+
+    Broken Wagon Wheel
+
+    Hand Cart
+
+    Small Wagon Wheel
+
+    Churn
+
+    Hitch Rail
+
+    Items marked with an asterisk (\*) were downloaded from a free 3D model site or sites (the name, or names, of which elude me) some time ago, and have been sitting idly on my HD.
+
+    \-------------------------------
+
+    Using the Corral Props
+
+    \==================
+
+    The fences for the corral are supplied in two parts: Wild West Corral and Wild West Corral 1. The former has the gateway to the corral, whilst the latter is simply a fence. These props are designed to fit at 90 degrees to each other with the fence posts overlapping to form a seamless fence.
+
+    \---------------
+
+    Installation
+
+    \=========
+
+    To ins
+  author: onlyplace4
+  website: https://community.simtropolis.com/files/file/15356-wild-west-mega-pack-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/282b5bf760a4634a594f99ddb8163edb-day.jpg
+    - https://www.simtropolis.com/objects/screens/0005/282b5bf760a4634a594f99ddb8163edb-night.jpg
+assets:
+  - assetId: onlyplace4-wild-west-mega-pack-vol1
+    exclude:
+       - "/Wild West Small Town.dat" # a demonstration lot
+
+---
+assetId: onlyplace4-wild-west-mega-pack-vol1
+version: "1.0"
+lastModified: "2006-03-23T21:20:57Z"
+url: https://community.simtropolis.com/files/file/15356-wild-west-mega-pack-vol-1/?do=download&r=37349
