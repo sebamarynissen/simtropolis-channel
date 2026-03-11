@@ -1,14 +1,14 @@
 group: "caspervg"
 name: "sc4-render-services-dll"
-version: "0.4.4"
+version: "0.5.2"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
 assets:
 - assetId: "caspervg-sc4-render-services"
   withChecksum:
-  - include: /SC4RenderServices-0.4.4-Setup.exe
-    sha256: 20181BA5D5E70BA5CC82C11BF4A46A6D2F7E88988F89F95EC74394C4CB226ED0
+  - include: /SC4RenderServices-0.5.2-Setup.exe
+    sha256: 0417362292CD30B454C2192416564FF53D9C6D7FF6EFF50770FF9EE3025DD19B
   
 
 info:
@@ -29,7 +29,7 @@ info:
 
     The installer is located in the following folder:
 
-    * `150-mods/caspervg.sc4-render-services-dll.0.4.4.sc4pac` 
+    * `150-mods/caspervg.sc4-render-services-dll.0.5.2.sc4pac` 
     
     Run the installer and follow the instructions provided.
     
@@ -41,7 +41,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2026_03/df.jpg.a879d723da6380b9478e3f2150744aac.jpg
 ---
 assetId: "caspervg-sc4-render-services"
-version: "0.4.4"
-lastModified: "2026-03-01T11:09:11Z"
+version: "0.5.2"
+lastModified: "2026-03-11T08:06:11Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37372-sc4-render-services/?do=download"
-url: "https://github.com/caspervg/sc4-render-services/releases/download/v0.4.4/sc4-render-services-0.4.4-win32-release.zip"
+url: "https://github.com/caspervg/sc4-render-services/releases/download/v0.5.2/sc4-render-services-0.5.2-win32-release.zip"
