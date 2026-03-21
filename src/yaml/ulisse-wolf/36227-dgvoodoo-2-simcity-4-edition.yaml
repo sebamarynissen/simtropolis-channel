@@ -32,14 +32,6 @@ variants:
         - include: /DgVoodoo 2 SC4 Version \(Linux Edition\) \(V5\).zip
           sha256: 192599d67eec17516c15087ed90897130b68bfbe8734666a499af9415e6a4e52
 
-assets:
-- assetId: "caspervg-sc4-plop-and-paint"
-  exclude: 
-   - "/SC4PlopAndPaint.dat"
-  withChecksum:
-   - include: /SC4PlopAndPaint-0.8.6-Setup.exe
-     sha256: 4CA75DC312BD81EAAC2C394A862E0B77888105E9F3359AFE6356BC16A83F3A8A
-
 info:
   summary: "A DLL plugin that enables DirectX 11/12 in SimCity 4, improving performance and stability"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
@@ -54,7 +46,7 @@ info:
 
     The installer is located in the following folder:
 
-    * `150-mods/caspervg.sc4-plop-and-paint-dll.0.8.6.sc4pac` 
+    * `TBA` 
     
     Linux users should unzip the following ZIP file and follow the instructions in the Readme  
 
