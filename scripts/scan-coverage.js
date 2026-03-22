@@ -872,7 +872,7 @@ async function run(argv) {
 	console.log(styleText('bold', '📊 STEX Coverage Analysis\n'));
 
 	// Step 0: Create output directory (needed for cache file access)
-	const outputDir = path.resolve(import.meta.dirname, '../coverage-report');
+	const outputDir = path.resolve(import.meta.dirname, '../docs/coverage-report');
 	if (!fs.existsSync(outputDir)) {
 		fs.mkdirSync(outputDir, { recursive: true });
 	}
