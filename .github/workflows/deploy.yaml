@@ -38,6 +38,14 @@ jobs:
       run: |
         mv tmp_gh-pages/channel/* tmp_gh-pages/
         rmdir tmp_gh-pages/channel
+    - name: Install npm dependencies
+      run: npm ci
+    - name: Update coverage report
+      run: node scripts/scan-coverage.js
+      env:
+        STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
+    - name: Copy coverage report to pages output
+      run: cp -r docs tmp_gh-pages/docs
     - name: Setup Pages
       uses: actions/configure-pages@v4
     - name: Upload artifact
