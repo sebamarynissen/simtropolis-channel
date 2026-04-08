@@ -10,8 +10,8 @@ assets:
   exclude: 
    - "/SC4PlopAndPaint.dat"
   withChecksum:
-   - include: /SC4PlopAndPaint-0.8.9-Setup.exe
-     sha256: 10DE822433293ECDF17DD071527C88EF89959355E8781D168291D3B707F96E12
+   - include: /SC4PlopAndPaint-0.9.0-Setup.exe
+     sha256: 2A9A94E84828EAE24D1AA3F183EE4955A9A0FBBE3FAB99C25C047AEAA35EA901
 
 info:
   summary: "A DLL plugin that adds an in-game panel for browsing lots, painting props, and building and using new prop families"
