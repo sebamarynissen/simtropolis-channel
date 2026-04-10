@@ -3,6 +3,9 @@ name: Deploy channel
 on:
   workflow_dispatch: #
   workflow_call: #
+    secrets:
+      STEX_API_KEY:
+        required: true
   push:
     paths:
       - 'src/yaml/**'

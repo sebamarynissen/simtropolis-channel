@@ -74,3 +74,5 @@ jobs:
     needs: add-packages
     if: ${{ needs.add-packages.outputs.has-new-content == 'true' }}
     uses: ./.github/workflows/deploy.yaml
+    secrets:
+      STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
