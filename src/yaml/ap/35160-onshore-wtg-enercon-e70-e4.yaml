@@ -1,0 +1,58 @@
+group: ap
+name: onshore-wtg-enercon-e70-e4
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: A_1P Onshore WTG ENERCON E-70 E4
+  description: |-
+    ## Description
+
+    This is the model of a 2 MW onshore wind turbine based on an [Enercon E-70 E4©.](https://www.enercon.de/produkte/ep-2/e-70-e4/) It has a rotor diameter of 70m and a hub height of 75m (for these specific models I made). The interesting fact is that Enercon was one of the first onshore WTG to use the direct drive technology, meaning there is a large diameter multi-pole ring generator that allows to cut out the gear box and therefor save cost on gearbox oil and maintenance. The typical drop form of the nacelle is created by surrounding this large diameter ring generator.
+
+    ## Content
+
+    This File contains two wind power plant lots appearing in your power plant menu, one for the producing turbine with 7 different rotor rotation angles, that change automatically when plopped. Another lot is fitted with a WTG idling or undergoing maintenance (3 different models also changing automatically at plopping). The production is set to 2000 and the O&M costs are 40$ per month. The stopped turbines have no power output.
+
+    ##  ![image.png.b97db377de779d629e1f4327e749a9bf.png](https://www.simtropolis.com/objects/attachments/monthly_2022_04/image.png.b97db377de779d629e1f4327e749a9bf.png)
+
+    ## A\_1P A\_1P\_ENERCON\_E-70E4
+
+    ·         7 different rotor blade positions
+
+    ## ![image.png.55ba60cc7dd697f13c32dd4dc8dec31c.png](https://www.simtropolis.com/objects/attachments/monthly_2022_04/image.png.55ba60cc7dd697f13c32dd4dc8dec31c.png)
+
+    ## A\_1P A\_1P\_ENERCON\_E-70E4\_M
+
+    ·         Idling (2 positions) or at maintenance: Rotor locked in y-position, nacelle hatch open, personnel working on met mast
+
+    ## Dependencies
+
+    ·         none
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+
+    ![image.png.5aade821ba7cf95265a162345923edce.png](https://www.simtropolis.com/objects/attachments/monthly_2022_04/image.png.5aade821ba7cf95265a162345923edce.png)Pictures provided for this file by [@mitsos](https://community.simtropolis.com/profile/145136-mitsos/) - many thanks for this! Make sure to check out his amazing [City Journals](https://community.simtropolis.com/journals/journal/281-dimland/).
+
+    [A\_1P\_onshoreWTG\_E-70E4\_v1.0\_ReadMe.pdf](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=85685)
+  author: AP
+  website: https://community.simtropolis.com/files/file/35160-a_1p-onshore-wtg-enercon-e-70-e4/
+  images:
+    - https://i.postimg.cc/7hW6wTby/E70-E4-01-Preview.jpg
+    - https://i.postimg.cc/sXKxHLrx/E70-E4-02-Preview.jpg
+    - https://i.postimg.cc/5ND0rvZB/E70-E4-03-Preview.jpg
+    - https://i.postimg.cc/v8qDWChS/E70-E4-04-Preview.jpg
+    - https://i.postimg.cc/8P7cwwnk/E70-E4-05-Preview.jpg
+    - https://i.postimg.cc/zvBBskzj/E70-E4-06-Preview.jpg
+    - https://i.postimg.cc/dVd1c3Yz/E70-E4-07-Preview.jpg
+assets:
+  - assetId: ap-onshore-wtg-enercon-e-70-e4
+
+---
+assetId: ap-onshore-wtg-enercon-e-70-e4
+version: "1.0.0"
+lastModified: "2022-04-25T20:23:56Z"
+url: https://community.simtropolis.com/files/file/35160-a_1p-onshore-wtg-enercon-e-70-e4/?do=download&r=193941

@@ -1,0 +1,71 @@
+group: ap
+name: onshore-wtg-an-bonus-54-1000
+version: "1.1.0"
+subfolder: 500-utilities
+info:
+  summary: A_1P Onshore WTG AN BONUS 54-1000
+  description: |-
+    ## Description
+
+    This is the model of a 1 MW onshore wind turbine based on an [AN BONUS 54-1000](https://www.wind-turbine-models.com/turbines/396-an-bonus-1000-54). It has a rotor diameter of 54m and a hub height of 60m (for these specific models I made). With this turbine I wanted to contribute a smaller and older WTG that can more easily be integrated in your wide country sides than some of the other, rather large models I made.
+
+    The control type of this turbine is [active stall](https://windurance.com/2020/10/15/applications-for-stall-and-pitch-control-in-wind-turbines/), which means the trailing edge of the rotor blades can be rotated into the wind and face forward if the wind is too strong and the turbine needs to be stopped. You are able to see it at the model that is under maintenance and has a locked rotor.
+
+    **Content**
+
+    This File contains two wind power plant lots appearing in your power plant menu, one for the producing turbine with 5 different rotor rotation angles that change automatically when plopped and one lot with a WTG that is undergoing maintenance. The production is set to 1000 and the O&M costs are 40$ per month. One turbine is undergoing maintenance and has no power output.
+
+    ##  ![image.png.f8f8e4d2003f84b49fe08b157139338c.png](https://www.simtropolis.com/objects/attachments/monthly_2022_04/image.png.f8f8e4d2003f84b49fe08b157139338c.png)
+
+    ## A\_1P AN BONUS 54/1000
+
+    ·         5 different rotor blade positions
+
+    ![image.png.688780df14d9c0e0bcb53642d64da6c6.png](https://www.simtropolis.com/objects/attachments/monthly_2022_04/image.png.688780df14d9c0e0bcb53642d64da6c6.png)
+
+    ## A\_1P AN BONUS 54/1000 under maintenance
+
+    ·         at maintenance: Rotor locked in y-position, nacelle hatches open, personnel working on HSS coupling[\[1\]](#_ftn1)
+
+    ## Dependencies
+
+    ·         [SM2 Mega Prop Pack Vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640) for the truck parked under the turbine at maintenance
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+
+    * * *
+
+    [\[1\]](#_ftnref1) HSS coupling (high speed shaft) between HSS gearbox output shaft with break disc and generator input shaft
+
+    ![image.png.494642333e019f92713a5bb0126268e7.png](https://www.simtropolis.com/objects/attachments/monthly_2022_04/image.png.494642333e019f92713a5bb0126268e7.png)Pictures provided for this file by [@mitsos](https://community.simtropolis.com/profile/145136-mitsos/) - many thanks for this! Make sure to check out his amazing [City Journals](https://community.simtropolis.com/journals/journal/281-dimland/).
+
+    Some WIP pictures:
+
+    ![A-1-P-AN-BONUS-54-1000.gif](https://i.postimg.cc/TP5GJNTz/A-1-P-AN-BONUS-54-1000.gif)
+
+    [A\_1P\_onshoreWTG\_AN-54\_v1.1\_ReadMe.pdf](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=85286)
+  author: AP
+  website: https://community.simtropolis.com/files/file/35059-a_1p-onshore-wtg-an-bonus-54-1000/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-01.jpg.bfeb331e39f66f135d2391dc9008110d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-03.jpg.90db9b1391fbc1b4625271e834081e15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-05.jpg.436144eca143a482b9594ee9fd1e415b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-br-01.jpg.4880f0220fec5d3d6243b76e7ce2ca31.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-br-03.jpg.25f1ebf4615bfb4ab3cb5226131f0062.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-br-04.jpg.ed06898f1138412d4716536d8ec4518f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-br-05.jpg.85021fd8b5d652c972f556286a755aa8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/scr-br-07.jpg.cc631772808cb4fd8c4086d47c8f0fe5.jpg
+dependencies:
+  - simmer2:mega-prop-pack-vol1
+assets:
+  - assetId: ap-onshore-wtg-an-bonus-54-1000
+
+---
+assetId: ap-onshore-wtg-an-bonus-54-1000
+version: "1.1.0"
+lastModified: "2022-04-16T11:10:13Z"
+url: https://community.simtropolis.com/files/file/35059-a_1p-onshore-wtg-an-bonus-54-1000/?do=download&r=192884

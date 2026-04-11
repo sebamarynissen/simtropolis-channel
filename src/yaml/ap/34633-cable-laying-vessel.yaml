@@ -1,0 +1,80 @@
+group: ap
+name: cable-laying-vessel
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: A_1P Cable Laying Vessel
+  description: |-
+    ## Description
+
+    This is a cable laying vessel (CLV) used to install subsea cables to build power or telecommunication connections crossing the sea. Additionally it is used to lay the inter array cables between wind turbines in offshore windfarms or to lay export cables from offshore substations to the landfall. On deck is a giant cable carousel mounted that can store kilometres of cable. The cable is then veered out through the cable guides on the stern and slowly lowered to the seabed while its tension and direction is constantly monitored. Afterwards it usually gets buried with a jetting tool or protected by rocks placed around that cable.
+
+    ## Content
+
+    This File contains 3 models of the CLV and 3 lots, install which ever you like (all of them are also possible):
+
+    ![image.png.a767fd54f8e90c30dd325767678d9e55.png](https://www.simtropolis.com/objects/attachments/monthly_2021_08/image.png.a767fd54f8e90c30dd325767678d9e55.png)
+
+    ## A\_1P\_CLV\_in port
+
+    Yokohama fenders on both sides
+
+    Cable carousel empty and under maintenance
+
+    ![image.png.df102d95cb7d8d7515bc8c258d3b53fa.png](https://www.simtropolis.com/objects/attachments/monthly_2021_08/image.png.df102d95cb7d8d7515bc8c258d3b53fa.png)
+
+    ## A\_1P\_CLV\_under way
+
+    Cable carousel loaded
+
+    Model slightly rotated
+
+    ![image.png.b502409ed3ee4cfd10e2465d0f995639.png](https://www.simtropolis.com/objects/attachments/monthly_2021_08/image.png.b502409ed3ee4cfd10e2465d0f995639.png)
+
+    ## A\_1P\_CLV\_laying subsea cable
+
+    ·         Cable being laid out through center hawse
+
+    ·         Crew working on deck
+
+    ## Dependencies
+
+    ·         none
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+
+
+    ****Details and Comments****
+
+    This section is addressed to people with nautical and technical interest and holds no important information about the usage or functionality of the pack.
+
+    **Lighting and Signals**
+
+    The working light on the deck is on for all of the versions while it is dimmed for the under-way model. The underway model additionally has the top port- and starboard navigation lights on while the laying model has these light turned off and instead red-white-red light up in the mast top and the day signal ball-rhombus-ball at-hoist, indicating limited manoeuvrability.
+  author: AP
+  website: https://community.simtropolis.com/files/file/34633-a_1p-cable-laying-vessel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_laying_1.png.d96b18444d3eab56065d52fd33488181.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_laying_2.png.b8002aed2464132481272c7e6bfe1e61.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_laying_3.png.d48915a9ca8fcb62fbee516cb208fdfe.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_laying_4.png.d06187b2966fbfff746368457de0897f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_underway_1_night.png.20308eb6a660ad4fb19ea2b8d92895bb.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_laying_3_night.png.47908028e3dd50000357b84f2fc26fb3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_laying_4_night.png.1c728780dee1bb019ac816b8e409d089.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/preview_underway_2_night.png.eeac59776d2047bdd7ed6b3818a1235d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61101512e1b72_preview_CLVatwork.png.f22b4eee1d11cc2b9c635d8698a90069.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6110155a5d392_preview_CLVatwork_2_resize01.jpg.8fff2158467153a51a5c5ef8497b9e55.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/611015668f8a6_preview_CLVatport.png.26d6bc61d2e4e30ed9d250ecaa36ea40.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6110156b55858_preview_CLVatport_2.png.9be233e2e43eb7a13332d6680b2c9eb3.png
+assets:
+  - assetId: ap-cable-laying-vessel
+
+---
+assetId: ap-cable-laying-vessel
+version: "1.0.0"
+lastModified: "2021-08-08T17:37:40Z"
+url: https://community.simtropolis.com/files/file/34633-a_1p-cable-laying-vessel/?do=download&r=189556
