@@ -1,0 +1,53 @@
+group: ap
+name: onshore-wtg-v126
+version: "1.0.1"
+subfolder: 500-utilities
+info:
+  summary: A_1P Onshore WTG V126
+  description: |-
+    This is the model of a 3.45 MW onshore wind turbine based on a Vestas V126©. It has a rotor diameter of 126m and at a hub height of 117m (for these specific models I made). It comes in tower heights up to 149m.
+
+    Vestas is one of the biggest manufacturers of wind turbines worldwide and has been in the wind industry for over 30 years. This specific turbine is designed for IEC wind class II with high turbulence intensity and makes a typical onshore turbine. It is very reliable and efficient – one of my favourite turbines. More info can be found [here](https://www.vestas.com/en/products/4-mw-platform/v126-3_3_mw#!about).
+
+    **Content**  
+    This File contains four wind power plant lots with the same turbine type at different rotor positions.  
+    The production is set to 3450 and the O&M costs are 140$ per month. One turbine is undergoing a rotor blade inspection and has no power output and zero budget impact.
+
+    A\_1P\_V126\_r1
+
+    ![V126_R1_res.png.b086e5e5b7b3abc89cf2de9094bb2c50.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/V126_R1_res.png.b086e5e5b7b3abc89cf2de9094bb2c50.png) • Onshore Wind Turbine V126 - rotation 1
+
+    A\_1P\_V126\_r2
+
+    ![V126_R2_res.png.59ec494d2d49f8d248d8176ed6bd12ee.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/V126_R2_res.png.59ec494d2d49f8d248d8176ed6bd12ee.png) • Onshore Wind Turbine V126 - rotation 2
+
+    A\_1P\_V126\_r3
+
+    ![V126_R3_res.png.c3a959ac22808fe73befc4feab0025d6.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/V126_R3_res.png.c3a959ac22808fe73befc4feab0025d6.png) • Onshore Wind Turbine V126 - rotation 3  
+      
+    A\_1P\_V126\_m
+
+    ![V126_m_res.png.f85893fe56ff81a4d66e3ce1c87f0553.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/V126_m_res.png.f85893fe56ff81a4d66e3ce1c87f0553.png) • Onshore Wind Turbine V126 - at maintenance (rotor blade inspection), blades pitched out and rotor locked in Y-position
+
+    **Dependencies (recommended, not essential)**  
+    • [SHK\_ParkingPack.dat](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)  
+    **Instructions**  
+    Unzip and place in plugin folder, eg.:  
+    C:/Users//Documents/SimCity 4/Plugins
+  author: AP
+  website: https://community.simtropolis.com/files/file/34184-a_1p-onshore-wtg-v126/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WindFarm4.jpg.0f1c35d0f3ac1bbb09924ffb68137d9a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WindFarm5.jpg.0c0602a661cedc2f17951570da78d42d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WindFarm6.jpg.f992596616998cca56e4708cd4fd4d42.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WindFarm.jpg.50133339b6ac79de77f8bf5f41349872.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WindFarm2.jpg.9d8441106382a01d63fdb4ca6b1575a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WindFarm3.jpg.08b6bda7603b7d6c2c494bf127ee831f.jpg
+assets:
+  - assetId: ap-onshore-wtg-v126
+
+---
+assetId: ap-onshore-wtg-v126
+version: "1.0.1"
+lastModified: "2021-03-01T19:14:09Z"
+url: https://community.simtropolis.com/files/file/34184-a_1p-onshore-wtg-v126/?do=download&r=185854

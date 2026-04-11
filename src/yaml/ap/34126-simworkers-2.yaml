@@ -1,0 +1,111 @@
+group: ap
+name: simworkers-2
+version: "1.0.1"
+subfolder: 180-flora
+info:
+  summary: A_1P SimWorkers_2
+  description: |-
+    **Description**
+
+    These are some SimWorkers to bring a little bit of action to your lots. This 2nd pack contains 4 different groups of workers:  
+    • 4 Carpenters  
+    • 3 Painters  
+    • 7 Gardeners  
+    • 10 US Construction Workers
+
+    **Scale and Size**
+
+    I have set the height of the Sims to 2.3m + PPE (personal protective equipment). Therefor they are more realistic in size, compared to other small props like cars etc. They are a little smaller than the standard Maxis Sim.
+
+    **Content**
+
+    This File contains one .dat-File with 24 different props:
+
+    Carpenters
+
+    ![Worker2_1.png.fa075a97f939202111271caaf2055d3b.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker2_1.png.fa075a97f939202111271caaf2055d3b.png)  
+    ▪ A\_1P\_Carpenter#1\_sawing  
+    ▪ A\_1P\_Carpenter#2\_carrying  
+    ▪ A\_1P\_Carpenter#3\_nailing  
+    ▪ A\_1P\_Carpenter#4\_drilling
+
+    Painters
+
+    ![Worker2_2.png.d70a49f55c2cc6e7682c1fbc859e876c.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker2_2.png.d70a49f55c2cc6e7682c1fbc859e876c.png)  
+    ▪ A\_1P\_Painter#1  
+    ▪ A\_1P\_Painter#2\_scaffolding  
+    ▪ A\_1P\_Painter#3\_mixing
+
+    Gardeners
+
+    ![Worker2_3.png.e96e15405a31c32d35f2caa044d81b4a.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker2_3.png.e96e15405a31c32d35f2caa044d81b4a.png)  
+    ▪ A\_1P\_Gardener#1  
+    ▪ A\_1P\_Gardener#2\_raking  
+    ▪ A\_1P\_Gardener#3\_trimming  
+    ▪ A\_1P\_Gardener#4\_mowing  
+    ▪ A\_1P\_Gardener#5\_sawing  
+    ▪ A\_1P\_Gardener#6\_kneeling  
+    ▪ A\_1P\_Gardener#7\_digging
+
+    US Construction Workers
+
+    ![Worker2_4.png.9ee8790f3f6ae298a67dc1d521447351.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker2_4.png.9ee8790f3f6ae298a67dc1d521447351.png)  
+    ▪ A\_1P\_US\_ConWorker#0\_readingPlan  
+    ▪ A\_1P\_US\_ConWorker#1  
+    ▪ A\_1P\_US\_ConWorker#2\_hammering  
+    ▪ A\_1P\_US\_ConWorker#3\_surveyor  
+    ▪ A\_1P\_US\_ConWorker#4\_surveyor-as  
+    ▪ A\_1P\_US\_ConWorker#5\_wheelbarrow  
+    ▪ A\_1P\_US\_ConWorker#6\_wackerplate  
+    ▪ A\_1P\_US\_ConWorker#7\_shovel  
+    ▪ A\_1P\_US\_ConWorker#8\_smoking  
+    ▪ A\_1P\_US\_ConWorker#9\_sweeping
+
+    **Dependencies**:
+
+    • none  
+    **Instructions**:  
+    This is a prop file! The content must be placed on your lot using a lot-editor! Unzip and place in (work-) plugin folder, place in plugin folder once used in a lot file, eg.:  
+    C:/Users//Documents/SimCity 4/Plugins
+  author: AP
+  website: https://community.simtropolis.com/files/file/34126-a_1p-simworkers_2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers2_Preview_2.png.b6aba0e12be481f379b2ad7ae53586a3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers2_MMP_preview.png.5237d7a9f87f46728b83ac90048c4e59.png
+dependencies:
+  - ap:simworkers-2-props
+assets:
+  - assetId: ap-simworkers-2-mmps
+
+---
+group: ap
+name: simworkers-2-props
+version: "1.0.1"
+subfolder: 100-props-textures
+info:
+  summary: Construction worker props
+  description: |-
+    These are some SimWorkers to bring a little bit of action to your lots. This 2nd pack contains 4 different groups of workers:  
+      - 4 Carpenters  
+      - 3 Painters  
+      - 7 Gardeners  
+      - 10 US Construction Workers
+  author: AP
+  website: https://community.simtropolis.com/files/file/34126-a_1p-simworkers_2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers2_Preview_2.png.b6aba0e12be481f379b2ad7ae53586a3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers2_MMP_preview.png.5237d7a9f87f46728b83ac90048c4e59.png
+assets:
+  - assetId: ap-simworkers-2-props
+
+---
+assetId: ap-simworkers-2-props
+version: "1.0.1"
+lastModified: "2021-02-17T20:23:53Z"
+url: https://community.simtropolis.com/files/file/34126-a_1p-simworkers_2/?do=download&r=185375
+
+---
+assetId: ap-simworkers-2-mmps
+version: "1.0.1"
+lastModified: "2021-02-17T20:23:53Z"
+url: https://community.simtropolis.com/files/file/34126-a_1p-simworkers_2/?do=download&r=185376
