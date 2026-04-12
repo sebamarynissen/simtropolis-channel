@@ -1,0 +1,260 @@
+group: rivit
+name: urban-tarsealed-street-modd
+version: "4.42"
+subfolder: 900-overrides
+info:
+  summary: RVT Urban Tarsealed Street Modd
+  description: |-   
+    This set is designed to completely replace MAXIS styled streets - everywhere. It is a complete redesign and new implementation of the streets I first made in 2005. Since then NAM/SAM/Euro and a lot of other street tiles have appeared. This version is compatible with NAMv32
+
+    Applying these files will completely suppress the MAXIS street look (everywhere, instantly). Its intended that way. Try it, fly it - if you don't like it remove it.
+
+    Revert by removing the .dats  However some tiles used in a saved game may need to be relaid in order to guarantee their removal. (thats the way the game works)
+
+    These are designed to work seamlessly with my SAM4 - NZ Gravel, and SAM5 - Rural Tarsealed Streets.
+
+    NOTES:
+    Please bring oddities/omissions to my attention, ideally with a tileid or image, preferably on the Forum support page.
+
+    Techs/Modders - the straight, 90 curve, diagonal and T,X intersections as BMPs are included in the archive in Dev/MAXIS. Dev/NAM has the modified NAM colours. I've included these for you to be able to make lot textures and even adapt your own specials should you desire.
+
+    Thanks to rsc04 who prodded me to revisit my streets and contributed fixes and feedback. Thanks to you all for your patience - it took me a while to update this set.
+
+    rivit Apr 2015
+
+    Oct2017 - Brought Up-to-date with NAM36 - added WRC content and improved some color matching. 
+  author: RVT
+  website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/867c3c23a667f415bd7c9f0144399ff7-tss-part-a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/aedbbe714fa1028d68f921eddb912db7-tss-part-c-rhs.jpg
+
+variantInfo:
+  - variantId: roadstyle
+    description: Street markings
+    values:
+      - value: EU
+        description: European-style road markings
+      - value: US
+        description: American-style road markings
+  - variantId: rivit:urban-tarsealed-street-modd:rail
+    description: Rail crossing type
+    values:
+      - value: rrw
+        description: Real Railway mod rail crossings (requires nam:real-railway)
+      - value: maxis
+        description: Maxis default rail crossings
+
+dependencies:
+- rivit:urban-tarsealed-street-modd-optional-glr
+- rivit:urban-tarsealed-street-modd-optional-cul-de-sac
+- rivit:urban-tarsealed-street-modd-optional-rural-unkerbed
+- rivit:urban-tarsealed-street-modd-optional-round-kerbs
+
+variants:
+- variant: { roadstyle: EU, driveside: left, rivit:urban-tarsealed-street-modd:rail: rrw }
+  dependencies:
+  - nam:street-addon-mod
+  - nam:real-railway
+- variant: { roadstyle: EU, driveside: left, rivit:urban-tarsealed-street-modd:rail: maxis }
+  dependencies:
+  - nam:street-addon-mod
+- variant: { roadstyle: EU, driveside: right, rivit:urban-tarsealed-street-modd:rail: rrw }
+  dependencies:
+  - nam:street-addon-mod
+  - nam:real-railway
+- variant: { roadstyle: EU, driveside: right, rivit:urban-tarsealed-street-modd:rail: maxis }
+  dependencies:
+  - nam:street-addon-mod
+- variant: { roadstyle: US, driveside: left, rivit:urban-tarsealed-street-modd:rail: rrw }
+  dependencies:
+  - nam:street-addon-mod
+  - nam:real-railway
+- variant: { roadstyle: US, driveside: left, rivit:urban-tarsealed-street-modd:rail: maxis }
+  dependencies:
+  - nam:street-addon-mod
+- variant: { roadstyle: US, driveside: right, rivit:urban-tarsealed-street-modd:rail: rrw }
+  dependencies:
+  - nam:street-addon-mod
+  - nam:real-railway
+- variant: { roadstyle: US, driveside: right, rivit:urban-tarsealed-street-modd:rail: maxis }
+  dependencies:
+  - nam:street-addon-mod
+
+assets:
+- assetId: rivit-urban-tarsealed-street-modd
+  withConditions:
+  - ifVariant: { roadstyle: EU }
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - Common.dat
+    - /RVT Streets/RVT Tarsealed Streets - Common_Paths.dat
+    - /RVT Streets/RVT Tarsealed Streets - EU.dat
+    - /RVT Streets/RVT Tarsealed Streets - JRJ Side Parking bays.dat
+    - /RVT Streets/RVT Tarsealed Streets - Lots SCILT CULDESAC.dat
+    - /RVT Streets/RVT Tarsealed Streets - NAM FLUPs.dat
+    - /RVT Streets/RVT Tarsealed Streets - NAM_Paths.dat
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT 6x1_road works_eb7e25d7.SC4Lot
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT Tarsealed Streets - Lot Support.dat
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS SpeedHump High Density_e229bf47.SC4Lot
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS SpeedHump Low Density_4229bf03.SC4Lot
+  - ifVariant: { roadstyle: US }
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - Common.dat
+    - /RVT Streets/RVT Tarsealed Streets - Common_Paths.dat
+    - /RVT Streets/RVT Tarsealed Streets - US.dat
+    - /RVT Streets/RVT Tarsealed Streets - JRJ Side Parking bays.dat
+    - /RVT Streets/RVT Tarsealed Streets - Lots SCILT CULDESAC.dat
+    - /RVT Streets/RVT Tarsealed Streets - NAM FLUPs.dat
+    - /RVT Streets/RVT Tarsealed Streets - NAM_Paths.dat
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT 6x1_road works_eb7e25d7.SC4Lot
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT Tarsealed Streets - Lot Support.dat
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS SpeedHump High Density_e229bf47.SC4Lot
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS SpeedHump Low Density_4229bf03.SC4Lot
+  - ifVariant: { driveside: left }
+    include:
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS SpeedHump Paths LHD.dat
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS Taxi_Rank_LHD_c3bc171c.SC4Lot
+  - ifVariant: { driveside: right }
+    include:
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS SpeedHump Paths RHD.dat
+    - /RVT Streets/RVT Tarsealed Street Lots/RVT TSS Taxi_Rank_RHD_a3bc1712.SC4Lot
+  - ifVariant: { rivit:urban-tarsealed-street-modd:rail: rrw, driveside: left }
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - RRWx LHD.dat
+  - ifVariant: { rivit:urban-tarsealed-street-modd:rail: rrw, driveside: right }
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - RRWx RHD.dat
+  - ifVariant: { rivit:urban-tarsealed-street-modd:rail: maxis }
+    exclude:
+    - .
+
+---
+group: rivit
+name: urban-tarsealed-street-modd-optional-glr
+version: "4.42"
+subfolder: 900-overrides
+info:
+  summary: RVT Urban Tarsealed Street Modd - GLR Textures
+  description: Adds Ground Light Rail texture and tram-in-street overrides. Install this if you use GLR networks in your city.
+  author: RVT
+  website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-glr:install
+    description: Ground Light Rail texture overrides and tram-in-street signage for GLR crossings
+    values:
+      - value: "yes"
+        description: Install GLR texture overrides and tram-in-street signage
+      - value: "no"
+        description: Skip GLR content
+
+variants:
+- variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "yes", roadstyle: EU }
+- variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "yes", roadstyle: US }
+- variant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no" }
+
+assets:
+- assetId: rivit-urban-tarsealed-street-modd
+  withConditions:
+  - ifVariant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "yes", roadstyle: EU }
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - zOptional GLR.dat
+    - /RVT Streets/RVT Tarsealed Streets - zOptional GLR TIS EU.dat
+  - ifVariant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "yes", roadstyle: US }
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - zOptional GLR.dat
+    - /RVT Streets/RVT Tarsealed Streets - zOptional GLR TIS US.dat
+  - ifVariant: { rivit:urban-tarsealed-street-modd-optional-glr:install: "no" }
+    exclude:
+    - .
+
+---
+group: rivit
+name: urban-tarsealed-street-modd-optional-cul-de-sac
+version: "4.42"
+subfolder: 900-overrides
+info:
+  summary: RVT Urban Tarsealed Street Modd - Cul-de-Sac Tiles
+  description: Adds tarsealed cul-de-sac end tiles to match the street set. Install this if you use cul-de-sac street endings in your city.
+  author: RVT
+  website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install
+    description: Tarsealed cul-de-sac end tiles
+    values:
+      - value: "yes"
+        description: Install tarsealed cul-de-sac end tiles
+      - value: "no"
+        description: Skip cul-de-sac tiles
+
+variants:
+- variant: { rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install: "yes" }
+  assets:
+  - assetId: rivit-urban-tarsealed-street-modd
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - zOptional Cul de sac.dat
+- variant: { rivit:urban-tarsealed-street-modd-optional-cul-de-sac:install: "no" }
+
+---
+group: rivit
+name: urban-tarsealed-street-modd-optional-rural-unkerbed
+version: "4.42"
+subfolder: 900-overrides
+info:
+  summary: RVT Urban Tarsealed Street Modd - Rural Unkerbed Textures
+  description: Adds unkerbed rural street textures for use in low-density fringe areas without footpaths or kerbing. Pairs well with SAM4 NZ Gravel and SAM5 Rural Tarsealed.
+  author: RVT
+  website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install
+    description: Unkerbed rural street textures for low-density fringe areas without footpaths or kerbing
+    values:
+      - value: "yes"
+        description: Install unkerbed rural street textures
+      - value: "no"
+        description: Skip rural unkerbed textures
+
+variants:
+- variant: { rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install: "yes" }
+  assets:
+  - assetId: rivit-urban-tarsealed-street-modd
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - zOptional Rural Unkerbed.dat
+- variant: { rivit:urban-tarsealed-street-modd-optional-rural-unkerbed:install: "no" }
+
+---
+group: rivit
+name: urban-tarsealed-street-modd-optional-round-kerbs
+version: "4.42"
+subfolder: 900-overrides
+info:
+  summary: RVT Urban Tarsealed Street Modd - Round Kerbs
+  description: Adds round kerb and traffic island texture variants for a softer, more European street appearance at intersections and corners.
+  author: RVT
+  website: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/
+
+variantInfo:
+  - variantId: rivit:urban-tarsealed-street-modd-optional-round-kerbs:install
+    description: Round kerb and traffic island texture variants
+    values:
+      - value: "yes"
+        description: Install round kerb and traffic island textures
+      - value: "no"
+        description: Skip round kerb textures
+
+variants:
+- variant: { rivit:urban-tarsealed-street-modd-optional-round-kerbs:install: "yes" }
+  assets:
+  - assetId: rivit-urban-tarsealed-street-modd
+    include:
+    - /RVT Streets/RVT Tarsealed Streets - zOptional TX Round16Kerbs.dat
+    - /RVT Streets/RVT Tarsealed Streets - zOptional TX Round46Islands.dat
+- variant: { rivit:urban-tarsealed-street-modd-optional-round-kerbs:install: "no" }
+
+---
+assetId: rivit-urban-tarsealed-street-modd
+version: "4.42"
+lastModified: "2021-11-19T10:52:00Z"
+url: https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/?do=download

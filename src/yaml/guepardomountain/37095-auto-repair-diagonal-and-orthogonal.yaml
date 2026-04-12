@@ -1,0 +1,37 @@
+group: guepardomountain
+name: auto-repair-diagonal-and-orthogonal
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Auto Repair - Diagonal and Orthogonal
+  description: |-
+    Vehicle repair/tire shop for low density commercial zones.
+
+    Included is a 3x3 growable orthogonal lot, a 1x1 ploppable diagonal with just the building covering 1x1.5 diagonal tiles, and a 1x2 ploppable diagonal with an attached parking lot which covers 2x2 diagonal tiles. The version with the parking lot can only be placed on flat terrain.
+
+    Each has 35 CS$$ jobs.
+
+    Dependencies:
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    [GM Props Vol 1](https://community.simtropolis.com/files/file/36517-gm-props-vol-1/)
+
+    The dependencies are for the ortho version only. If you only want the diagonals, then everything is included as part of the model.
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/37095-auto-repair-diagonal-and-orthogonal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/autorepair1.jpg.8963472e127c86cde27a488e3903c571.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/autorepair2.jpg.a5c6aa56c040b9c8be0508d0f18327ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/autorepair4.jpg.ce7592bf30ef03ec6b978a13599b16ee.jpg
+dependencies:
+  - guepardomountain:props-vol1
+  - shk:parking-pack
+assets:
+  - assetId: guepardomountain-auto-repair-diagonal-and-orthogonal
+
+---
+assetId: guepardomountain-auto-repair-diagonal-and-orthogonal
+version: "1.0.0"
+lastModified: "2025-11-19T23:59:57Z"
+url: https://community.simtropolis.com/files/file/37095-auto-repair-diagonal-and-orthogonal/?do=download&r=210178

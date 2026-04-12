@@ -1,0 +1,230 @@
+group: rivit
+name: tunnel-modd
+version: "2.0"
+subfolder: 900-overrides
+
+info:
+  summary: Replacement tunnel models with minimal portals for various network types
+  author: rivit
+  website: https://community.simtropolis.com/files/file/26943-tunnel-modd/
+  images:
+  - https://www.simtropolis.com/objects/screens/monthly_04_2015/cc97259e58d4cdddc0415159a2ff6eeb-dtr---str-10.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_04_2015/b3df8f2554d12801b4b28e7c284b6403-std-tunnels-after-1.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_04_2015/b9ff1e02c78e63e2fbdbd5b12ad25b2f-75m-road-tunnels-after.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_04_2015/54b0bb3973fd0cf2ce7acd81c622310c-widetunnels4.jpg
+  description: |
+    The SC4 Tunnels have seen little renovation since their first release. This package contains replacement models for all of the standard tunnels, and new tunnels which extend or change default functionality.
+    All tunnels are presented as deliberately minimal tunnel portals so that they can be easily covered by overhanging lots.
+
+    Additionally, I release this set in the direct expectation that modellers (better than I am) can improve on these ideas - and give us a truly great set of game tunnels.
+    Please read the installation instructions (included) and be very clear before installing - it is easy to come unstuck if you don't.
+
+    The Release is broken into 3 parts:
+
+    A. Replacement Rail Tunnel and a Single Rail Tunnel.
+
+    B. Drop-in standard models for Road, One Way Road, Avenue, Ground Highway and Raised Highway tunnels.
+
+    C. **ADVANCED:**
+
+    ***THIS PART OF THE UPGRADE SHOULD ONLY BE ATTEMPTED IF YOU ARE SURE WHAT YOU ARE DOING.***
+
+    A number of 7.5m Road and One Way Road Tunnels - Road, OWR, MAVE4 and OWR3, example slope mods, and instructions for implementing these changes.
+
+    **SPECIAL NOTE** for those who saw white space just above:
+
+    Part C of this mod has changes (that you may need to make) which require knowledge of use of ILive's Reader for editing game materials, as well as knowledge of Exemplars for Slope Mods.
+    If you don't know what these are, either stay away from part C or get someone who does to do these changes for you, or, read on and learn fast (by far the most exciting way)
+
+    Thanks and Credits:
+
+    I would like to thank DocRorlach in particular but also DJP (Dave) an EpicBlunder (Reid) for throwing what they could at these tunnels and instructions.
+    The Doc and I have many moments of discovery along the way and without his cajoling I wouldn't have persisted with the necessary BATing part of this mod.
+    Fortunately I did, but it was a steep starting curve. These were made with the Bat4Max5 scripts and 3dsMax 2011, gmax and iLive's Reader.
+
+    Blatant Ad:
+
+    Be on the lookout too, for a complementing mod by DocRorlach, which contains a number of tunnel entrances that are made to OVERLAY the ones in this package.
+    This then exploits the fact that it was always possible to create overlaid tunnels (and hence a very wide variety of portals is possible at a time), but that the old models were too tall to do this convincingly.
+
+    Support:
+
+    Please address all queries and finds to my forum support page here on Simtropolis. I will keep track and reply as best I can.
+
+variantInfo:
+  - variantId: rivit:tunnel-modd:railtunnels
+    description: Rail tunnel options
+    values:
+      - value: "yes"
+        default: true
+        description: Install DTR and STR rail tunnel replacements
+      - value: "no"
+        description: No rail tunnels
+
+  - variantId: rivit:tunnel-modd:avenuetunnels
+    description: Avenue tunnel replacement
+    values:
+      - value: "yes"
+        default: true
+        description: Install Avenue tunnel replacement
+      - value: "no"
+        description: Do not install Avenue tunnel replacement
+
+  - variantId: rivit:tunnel-modd:maxishighwaytunnels
+    description: "Maxis Highway tunnel replacements (Ground Highway and Raised Highway). If you are using the Maxis Highway Override (MHO), this option has no effect - select either value to continue."
+    values:
+      - value: "yes"
+        default: true
+        description: Install Ground Highway and Raised Highway tunnel replacements
+      - value: "no"
+        description: Do not install Maxis Highway tunnel replacements
+
+  - variantId: rivit:tunnel-modd:roadtunnels
+    description: Road and One Way Road tunnel options
+    values:
+      - value: "13.8m-road-owr"
+        default: true
+        description: "Standard 13.8m height Road and OWR tunnel replacements"
+      - value: "7.5m-road-owr"
+        description: "ADVANCED: 7.5m Road and OWR tunnels (requires slope mod configuration)"
+      - value: "7.5m-nwm"
+        description: "ADVANCED: 7.5m NWM NRD-4 and OWR-3 tunnels (requires slope mod and Network Widening Mod)"
+      - value: "none"
+        description: "No road or OWR tunnel replacements"
+
+  - variantId: rivit:tunnel-modd:slopemod
+    description: "Slope mod to use with 7.5m road tunnels"
+    values:
+      - value: "no-existing-slope-mod"
+        default: true
+        description: "No existing slope mod - installs a Maxis slope mod adjusted for 7.5m tunnel heights (conflicts with other slope mods)"
+      - value: "ennedi-smooth-212"
+        description: "Ennedi Smooth 2-1-2 (must load AFTER Ennedi's slope mod)"
+      - value: "ennedi-medium-315"
+        description: "Ennedi Medium 3-1-5 (must load AFTER Ennedi's slope mod)"
+      - value: "ennedi-mount-620"
+        description: "Ennedi Mount 6-2-0 (must load AFTER Ennedi's slope mod)"
+      - value: "byo"
+        description: "ADVANCED: No slope mod installed - configure tunnel entry heights manually using iLive's Reader"
+
+assets:
+  - assetId: rivit-tunnel-modd
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:railtunnels: "yes" }
+        include:
+          - /RVT TunnelMod/A - Rail Tunnels
+      - ifVariant: { rivit:tunnel-modd:railtunnels: "no" }
+        exclude:
+          - .
+
+  - assetId: rivit-tunnel-modd
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:avenuetunnels: "yes" }
+        include:
+          - /RVT TunnelMod/B - Replacements/RVT Avenue Tunnel - Concrete.dat
+      - ifVariant: { rivit:tunnel-modd:avenuetunnels: "no" }
+        exclude:
+          - .
+
+  - assetId: rivit-tunnel-modd
+    withConditions:
+      - ifVariant: { rivit:tunnel-modd:maxishighwaytunnels: "yes" }
+        include:
+          - /RVT TunnelMod/B - Replacements/RVT Ground Highway Tunnel - Concrete.dat
+          - /RVT TunnelMod/B - Replacements/RVT Raised Highway Tunnel - Concrete.dat
+      - ifVariant: { rivit:tunnel-modd:maxishighwaytunnels: "no" }
+        exclude:
+          - .
+
+variants:
+  - variant: { rivit:tunnel-modd:roadtunnels: "13.8m-road-owr" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/B - Replacements/RVT Road Tunnel 13.8m - Concrete.dat
+          - /RVT TunnelMod/B - Replacements/RVT OneWayRoad Tunnel 13.8m - Concrete.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "none" }
+
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "no-existing-slope-mod" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m Size Exemplar.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m Size Exemplar.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "byo" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-road-owr", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 OneWayRoad 7.5m.dat
+
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "no-existing-slope-mod" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road Tunnel 7.5m Size Exemplar.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OneWayRoad Tunnel 7.5m Size Exemplar.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "byo" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "ennedi-smooth-212" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Smooth212 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "ennedi-medium-315" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Medium315 OneWayRoad 7.5m.dat
+  - variant: { rivit:tunnel-modd:roadtunnels: "7.5m-nwm", rivit:tunnel-modd:slopemod: "ennedi-mount-620" }
+    assets:
+      - assetId: rivit-tunnel-modd
+        include:
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT Road NMAVE4 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT OWR3 Tunnel 7.5m - Concrete.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 Road 7.5m.dat
+          - /RVT TunnelMod/C - 7.5m Road Tunnels/RVT zENN_SlopeMod_Mount620 OneWayRoad 7.5m.dat
+
+---
+assetId: rivit-tunnel-modd
+version: "2.0"
+lastModified: "2011-11-06T13:00:00Z"
+url: https://community.simtropolis.com/files/file/26943-tunnel-modd/?do=download

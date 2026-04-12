@@ -1,7 +1,7 @@
 group: gshmails
 name: glr-station-3-model
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Shmails GLR Station 3
   author: gshmails
@@ -12,8 +12,8 @@ info:
 assets:
   - assetId: gshmails-shmails-glr-station-3
     exclude:
-      - "\\.SC4Lot$"
-      - "/ShmailsGLRStation3a-0x6534284a-0x9279c83d-0x139e45fd.SC4Desc"
+      - \.SC4Lot$
+      - /ShmailsGLRStation3a-0x6534284a-0x9279c83d-0x139e45fd.SC4Desc
 
 ---
 assetId: gshmails-shmails-glr-station-3

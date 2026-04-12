@@ -45,8 +45,8 @@ assets:
 ---
 group: anubis89
 name: old-small-town-rail-station-resources
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Props and models for `pkg=anubis89:old-small-town-rail-station`
   author: anubis89
@@ -57,8 +57,8 @@ info:
 assets:
   - assetId: anubis89-old-small-town-rail-station
     include:
-      - "/Props/"
-      - "/Hauptgebauede-0x5ad0e817_0xf81edcba_0x160000.SC4Model"
+      - /Props/
+      - /Hauptgebauede-0x5ad0e817_0xf81edcba_0x160000.SC4Model
 
 ---
 assetId: anubis89-old-small-town-rail-station

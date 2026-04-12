@@ -1,0 +1,39 @@
+group: jasoncw
+name: alvertstone-financial
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Alvertstone Financial
+  description: |-
+    -   1x3 growable CO§§§ lot for the Houston 1990 and Euro tilesets.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37113-alvertstone-financial/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928be6dca257_AlverstoneFinancial00.jpg.4e90ad9aac5250f837a5ec52101f7aef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928be758b350_AlverstoneFinancial01.jpg.1e725dce320aba16e42b238b6e0e6e42.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-alvertstone-financial-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-alvertstone-financial-darknite
+
+---
+assetId: jasoncw-alvertstone-financial-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:14:33Z"
+url: https://community.simtropolis.com/files/file/37113-alvertstone-financial/?do=download&r=210254
+
+---
+assetId: jasoncw-alvertstone-financial-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:14:33Z"
+url: https://community.simtropolis.com/files/file/37113-alvertstone-financial/?do=download&r=210255

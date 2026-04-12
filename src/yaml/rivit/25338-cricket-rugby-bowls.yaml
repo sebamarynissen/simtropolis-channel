@@ -1,0 +1,47 @@
+group: rivit
+name: cricket-rugby-bowls
+version: "3"
+subfolder: 660-parks
+info:
+  summary: RVT Cricket, Rugby & Bowls
+  description: |-
+    In here you will find Senior and Junior Cricket Ovals, Senior and Junior Rugby pitches, and a Bowling club, in a suburban downunder style. I'm sure someone else will make better lots - my main aim was a set of ground textures and markings that others could reuse to roll their own lots. The posts and fences could also do with more permanent batting than the method I've employed.
+
+    The set comprises:
+    PZ10x10 Senior Cricket Oval - white picket fence, pavilion and timed players
+    PZ6x5 Junior Cricket Oval - ground boundary ropes, timed players
+    PZ6x10 Senior Rugby Field - suburban style, no terraces, kids running around
+    PZ3x5 Junior Rughy Field - like at schools, kids running around
+    PZ2x4 Bowls Club - modified from bighead99999s oldbury turf club
+
+    any of which can be used or excluded
+    and
+    RVT Rugby and Cricket Field Textures - required if you use any of the above.
+
+    The main dependency is a magnificent set of cricket props by callagrafx
+    BSC MEGA Props - CAL v001.dat which are on LEX at SC4Devotion
+    I'd like to credit hittwice with bringing these to my attention.
+
+    cheers rivit Nov2010
+  author: RVT
+  website: https://community.simtropolis.com/files/file/25338-cricket-rugby-bowls/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/1250f30810990819666fb4b3941ac2be-lhs.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/c840d9371c182e0ff184c30f930a69dd-rhs.jpg
+dependencies:
+- bsc:mega-props-cal-vol01
+assets:
+- assetId: rivit-cricket-rugby-bowls
+  include:
+  - /RVT Cricket Rugby Bowls/PZ10x10_RVTSeniorCricketOval_79c9d07d.SC4Lot
+  - /RVT Cricket Rugby Bowls/PZ2x4_RVTLawnBowlsClub_ba110c6f.SC4Lot
+  - /RVT Cricket Rugby Bowls/PZ3x5_RVTJuniorRugbyPitch_19c85493.SC4Lot
+  - /RVT Cricket Rugby Bowls/PZ6x10_RVTSeniorRugbyPitch_59cd0489.SC4Lot
+  - /RVT Cricket Rugby Bowls/PZ6x5_RVTJuniorCricketOval_d9c3500d.SC4Lot
+  - /RVT Cricket Rugby Bowls/RVT Rugby and Cricket Field Textures.dat
+
+---
+assetId: rivit-cricket-rugby-bowls
+version: "3"
+lastModified: "2011-01-09T06:58:00Z"
+url: https://community.simtropolis.com/files/file/25338-cricket-rugby-bowls/?do=download

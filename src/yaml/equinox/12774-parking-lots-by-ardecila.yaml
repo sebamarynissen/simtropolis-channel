@@ -41,8 +41,8 @@ assets:
 ---
 group: ndex
 name: parking-lot-textures
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Parking lot textures for `pkg=ndex:parking-lots-by-ardecila`
   author: Equinox
@@ -53,7 +53,7 @@ info:
 assets:
   - assetId: ndex-parking-lots-by-ardecila
     include:
-      - "/ADC_ParkingLot-Textures2.dat"
+      - /ADC_ParkingLot-Textures2.dat
 
 ---
 assetId: ndex-parking-lots-by-ardecila

@@ -19,7 +19,6 @@ assets:
     include:
       - "\\.SC4Lot$"
 
-
 ---
 group: xannepan
 name: amsterdam-central-station-resources
@@ -35,7 +34,7 @@ info:
 assets:
   - assetId: xannepan-jenx-amsterdam-central-station-2nd-attempt
     exclude:
-      - "\\.SC4Lot$"
+      - \.SC4Lot$
 
 ---
 assetId: xannepan-jenx-amsterdam-central-station-2nd-attempt

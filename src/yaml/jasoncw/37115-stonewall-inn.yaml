@@ -1,0 +1,38 @@
+group: jasoncw
+name: stonewall-inn
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Stonewall Inn
+  description: |-
+    This recreation of Stonewall Inn is based on its 1960s appearance.
+
+    -   1x2 growable CS§ lot for the New York 1940 and Houston 1990 tilesets.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37115-stonewall-inn/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c0db0e0ca_StonewallInn00.jpg.78de41289a95171600e0678db4cf5c7d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c0dd7f935_StonewallInn01.jpg.792bc9766fce090eadcc4640a2a4ab56.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-stonewall-inn-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-stonewall-inn-darknite
+
+---
+assetId: jasoncw-stonewall-inn-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:23:26Z"
+url: https://community.simtropolis.com/files/file/37115-stonewall-inn/?do=download&r=210262
+
+---
+assetId: jasoncw-stonewall-inn-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:23:26Z"
+url: https://community.simtropolis.com/files/file/37115-stonewall-inn/?do=download&r=210263

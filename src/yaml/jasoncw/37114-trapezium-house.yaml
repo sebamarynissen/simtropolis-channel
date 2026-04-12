@@ -1,0 +1,38 @@
+group: jasoncw
+name: trapezium-house
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Trapezium House
+  description: |-
+    Trapezium House is based on a building of the same name in Petersburg, Virginia, USA.
+
+    -   1x2 and 1x1 growable R§§ lots for the Chicago 1890 tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37114-trapezium-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928bfc629613_TrapeziumHouse00.jpg.bacf7f76e35c648893c944974e6bed8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928bfc8d3c30_TrapeziumHouse01.jpg.271153236e5fff5449a27259dc1f18fa.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-trapezium-house-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-trapezium-house-darknite
+
+---
+assetId: jasoncw-trapezium-house-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:19:42Z"
+url: https://community.simtropolis.com/files/file/37114-trapezium-house/?do=download&r=210258
+
+---
+assetId: jasoncw-trapezium-house-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:19:42Z"
+url: https://community.simtropolis.com/files/file/37114-trapezium-house/?do=download&r=210259

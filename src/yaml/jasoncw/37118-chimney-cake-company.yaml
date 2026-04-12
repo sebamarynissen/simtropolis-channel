@@ -1,0 +1,38 @@
+group: jasoncw
+name: chimney-cake-company
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Chimney Cake Company
+  description: |-
+    Chimney Cake Company is a building located on Hverfisgata Street in Reykjavik, Iceland.
+
+    -   1x2 and 1x1 growable CS§§ lots for the Euro tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37118-chimney-cake-company/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c38448813_ChimneyCakeCompany00.jpg.832bab7275683d6f9613dcf3fe10b740.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c386d25f8_ChimneyCakeCompany01.jpg.b591afdbcea3159a1de6afcce71b338f.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-chimney-cake-company-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-chimney-cake-company-darknite
+
+---
+assetId: jasoncw-chimney-cake-company-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:33:58Z"
+url: https://community.simtropolis.com/files/file/37118-chimney-cake-company/?do=download&r=210275
+
+---
+assetId: jasoncw-chimney-cake-company-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:33:58Z"
+url: https://community.simtropolis.com/files/file/37118-chimney-cake-company/?do=download&r=210276

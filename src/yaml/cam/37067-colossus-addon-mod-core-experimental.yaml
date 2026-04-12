@@ -1,12 +1,12 @@
 assetId: "cam-colossus-addon-mod-core-experimental"
-version: "4012.2810"
-lastModified: "2025-10-27T21:59:48Z"
+version: "4032.0801"
+lastModified: "2026-01-08T20:26:21Z"
 url: "https://community.simtropolis.com/files/file/37067-colossus-addon-mod-core-experimental/?do=download"
 
 ---
 group: "cam"
 name: "colossus-addon-mod-core-experimental"
-version: "4012.2810"
+version: "4032.0801"
 subfolder: "900-overrides"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -15,6 +15,8 @@ dependencies:
 - "null-45:advanced-water-management-dll"
 - "null-45:legalize-gambling-ordinance-upgrade-dll"
 - "null-45:sc4-resource-loading-hooks"  # for exemplar patching
+- "cam:universal-commercial-cap-fix"
+- "memo:transparent-texture-fix-dll"
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
@@ -42,4 +44,4 @@ info:
   websites:
     - "https://community.simtropolis.com/files/file/37067-colossus-addon-mod-core-experimental/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2025_10/CAMCoreEX2.jpg.4a7e7e986be9deeb457bf5e64567a14f.jpg
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_10/CAMCoreEX2.jpg.4a7e7e986be9deeb457bf5e64567a14f.jpg"

@@ -1,0 +1,46 @@
+group: nos17
+name: reserved-lots
+version: "1.1.0"
+subfolder: 360-landmark
+info:
+  summary: Reserved Lots
+  description: |-
+    Use these lots to reserve space for future development. The lots are completely neutral, providing no positive or negative effects. There is no plop or bulldoze cost, though there is a $1 monthly cost (if you open the Landmarks budget, you can use this to tally how many of these lots you have plopped in a city).
+
+    Four lots are included: 1x1, 2x2, 1x5, 5x5. Find these lots at the top of the Landmarks menu.
+
+    There are four color options. Choose one of: purple, cyan, red, and white.
+
+    For more information, including instructions to create your own colored texture, refer to the included readme file.
+  author: nos.17
+  website: https://community.simtropolis.com/files/file/35543-reserved-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/64822092eb24c_reservedlotssample.png.1c31d09b6736a89b34cb36a4b588acc3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/64822099163de_reservedlotscolors.png.c1cfd2f5fa4632dfd92905f76e802ba4.png
+variants:
+  - variant: { nos17:reserved-lots:color: white }
+    assets:
+      - assetId: nos17-reserved-lots
+        include:
+          - /white.dat
+  - variant: { nos17:reserved-lots:color: cyan }
+    assets:
+      - assetId: nos17-reserved-lots
+        include:
+          - /cyan.dat
+  - variant: { nos17:reserved-lots:color: purple }
+    assets:
+      - assetId: nos17-reserved-lots
+        include:
+          - /purple.dat
+  - variant: { nos17:reserved-lots:color: red }
+    assets:
+      - assetId: nos17-reserved-lots
+        include:
+          - /red.dat
+
+---
+assetId: nos17-reserved-lots
+version: "1.1.0"
+lastModified: "2026-01-04T15:49:04Z"
+url: https://community.simtropolis.com/files/file/35543-reserved-lots/?do=download&r=210743

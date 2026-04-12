@@ -1,0 +1,36 @@
+group: jasoncw
+name: mainframe-solutions
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Mainframe Solutions
+  description: |-
+    -   3x3 growable CO§§ lot for the Euro tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37120-mainframe-solutions/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c49768566_MainframeSolutions00.jpg.6ff54e7de9ec7968d0bc48faeb20ed47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6928c49961486_MainframeSolutions01.jpg.135edf0d088c4233806a09e3a2459dfc.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-mainframe-solutions-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-mainframe-solutions-darknite
+
+---
+assetId: jasoncw-mainframe-solutions-maxisnite
+version: "1.0.0"
+lastModified: "2025-11-27T21:38:05Z"
+url: https://community.simtropolis.com/files/file/37120-mainframe-solutions/?do=download&r=210283
+
+---
+assetId: jasoncw-mainframe-solutions-darknite
+version: "1.0.0"
+lastModified: "2025-11-27T21:38:05Z"
+url: https://community.simtropolis.com/files/file/37120-mainframe-solutions/?do=download&r=210284

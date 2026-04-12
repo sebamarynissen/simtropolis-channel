@@ -21,123 +21,20 @@ info:
 
      
 
-    normal (khoianh)
-
-    normal (Fluggi)
-
-    narrow
-
-    bench
-
-    Tram 2x1
-
-    Tram 3x1
-
-    Lot size:
-
-    1x1
-
-    2x1
-
-    3x1
-
-    Plop cost:
-
-    200 §
-
-    150 §
-
-    100 §
-
-    150 §
-
-    200 §
-
-    Bulldoze cost:
-
-    10 §
-
-    15 §
-
-    10 §
-
-     25 §
-
-    50 §
-
-    Monthly cost:
-
-    15 §
-
-    10
-
-    5 §
-
-    15 §
-
-    20 §
-
-    Capacity:
-
-    3,000
-
-    2,500
-
-    5,000
-
-    2,500
-
-    3,000
-
-    5,000
-
-    Max. Fire Stage:
-
-    10
-
-    Power consumption:
-
-    2 MWh/Month
-
-    1 MWh/Month
-
-    3
-
-    5
-
-    Water consumption:
-
-    1 Gallon/month
-
-    0
-
-    2 Gallons/month
-
-    Air pollution/radius:
-
-    1/1
-
-    1/1
-
-    2/1
-
-    1/1
-
-    Water pollution/rad:
-
-    1/1
-
-    1/1
-
-    1/1
-
-    1/1
-
-    Garbage pollution:
-
-    1/0
-
-    2/0
+    |     |     |     |     |     |     |     |
+    | --- | --- | --- | --- | --- | --- | --- |
+    |     | normal (khoianh) | normal (Fluggi) | narrow | bench | Tram 2x1 | Tram 3x1 |
+    | Lot size: | 1x1 |     |     |     | 2x1 | 3x1 |
+    | Plop cost: | 200 § | 150 § |     | 100 § | 150 § | 200 § |
+    | Bulldoze cost: | 10 § |     | 15 § | 10 § | 25 § | 50 § |
+    | Monthly cost: | 15 § | 10  |     | 5 § | 15 § | 20 § |
+    | Capacity: | 3,000 | 2,500 | 5,000 | 2,500 | 3,000 | 5,000 |
+    | Max. Fire Stage: | 10  |     |     |     |     |     |
+    | Power consumption: | 2 MWh/Month | 1 MWh/Month |     |     | 3   | 5   |
+    | Water consumption: | 1 Gallon/month |     | 0   |     | 2 Gallons/month |     |
+    | Air pollution/radius: | 1/1 | 1/1 | 2/1 |     | 1/1 |     |
+    | Water pollution/rad: | 1/1 | 1/1 | 1/1 |     | 1/1 |     |
+    | Garbage pollution: | 1/0 |     |     |     | 2/0 |     |
   author: khoianh94
   website: https://community.simtropolis.com/files/file/23417-european-bus-and-tram-stops/
   images:
@@ -154,8 +51,8 @@ assets:
 ---
 group: khoianh94
 name: european-bus-and-tram-stops-resources
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Models and props for khoianh94's European Bus and Tram Stops
   author: khoianh94
@@ -166,8 +63,8 @@ info:
 assets:
   - assetId: khoianh94-european-bus-and-tram-stops
     include:
-      - "/Models/"
-      - "/Props/"
+      - /Models/
+      - /Props/
 
 ---
 assetId: khoianh94-european-bus-and-tram-stops

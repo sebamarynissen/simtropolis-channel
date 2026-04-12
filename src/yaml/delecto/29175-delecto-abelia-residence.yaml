@@ -80,10 +80,10 @@ variants:
 ---
 group: delecto
 name: abelia-residence-model
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
-  summary: "Model for `pkg=delecto:abelia-residence`"
+  summary: Model for `pkg=delecto:abelia-residence`
   author: Delecto
   website: https://community.simtropolis.com/files/file/29175-delecto-abelia-residence/
   images:
@@ -93,13 +93,13 @@ variants:
     assets:
       - assetId: delecto-abelia-residence-maxisnite
         include:
-          - "\\.SC4Model$"
+          - \.SC4Model$
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: delecto-abelia-residence-darknite
         include:
-          - "\\.SC4Model$"
+          - \.SC4Model$
 
 ---
 assetId: delecto-abelia-residence-darknite
@@ -118,4 +118,3 @@ url: https://community.simtropolis.com/files/file/29175-delecto-abelia-residence
 archiveType:
   format: Clickteam
   version: "40"
-  

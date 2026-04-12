@@ -1,0 +1,47 @@
+group: "caspervg"
+name: "sc4-render-services-dll"
+version: "0.5.2"
+subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
+assets:
+- assetId: "caspervg-sc4-render-services"
+  withChecksum:
+  - include: /SC4RenderServices-0.5.2-Setup.exe
+    sha256: 0417362292CD30B454C2192416564FF53D9C6D7FF6EFF50770FF9EE3025DD19B
+  
+
+info:
+  summary: "A DLL plugin that adds modern render-side services for custom DLL mods"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    SC4RenderServices is a runtime library for SimCity 4 that adds modern render-side services for custom DLL mods. Instead of changing gameplay on its own, it gives plugins a shared foundation for in-game UI, camera access, and rendering hooks. In practical terms, it provides three core systems: an ImGui service for debug tools and custom UI panels, an S3D camera service for world-to-screen and camera helpers, and a draw service for render-pass callbacks and custom drawing in DirectX7. 
+    
+    You should install it if you want to use newer SC4 DLL plugins that depend on these services, or if you are a mod developer building tools that need a proper in-game interface. SC4RenderServices centralizes the hard parts that every advanced plugin would otherwise have to reinvent, which means better compatibility, less duplicated code, and a more stable base for overlays, visual tools, debug windows, and custom rendering effects. It is essentially a shared dependency layer for a new generation of technical SC4 DLL plugins.
+
+    If a plugin lists SC4RenderServices as a requirement, installing it ensures that plugin can register its windows, access the renderer safely, and behave consistently inside the game.
+
+    This does not enable any specific functionality in game by itself, but will be used in the near future as a dependency for (for example) the Plop and Paint DLL that enables advanced lot plopping and prop painting functionality or for advanced new terrain tool extensions with heightmaps etc. See the link below. 
+  warning: |-
+    To complete the installation, you must run this executable file:
+
+    * `SC4RenderServices-0.4.4-Setup.exe`
+
+    The installer is located in the following folder:
+
+    * `150-mods/caspervg.sc4-render-services-dll.0.5.2.sc4pac` 
+    
+    Run the installer and follow the instructions provided.
+    
+  author: "CasperVg"
+  website: "https://community.simtropolis.com/files/file/37372-sc4-render-services/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/render_services.jpg.532bf22d7aba7fd964e215ee15d2e18f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/479saiwmv3lg1.jpeg.2f9aa80d1d75c5ca5c450579c7959aa3.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/df.jpg.a879d723da6380b9478e3f2150744aac.jpg
+---
+assetId: "caspervg-sc4-render-services"
+version: "0.5.2"
+lastModified: "2026-03-11T08:06:11Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37372-sc4-render-services/?do=download"
+url: "https://github.com/caspervg/sc4-render-services/releases/download/v0.5.2/sc4-render-services-0.5.2-win32-release.zip"

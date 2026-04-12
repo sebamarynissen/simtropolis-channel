@@ -1,0 +1,70 @@
+group: marrast
+name: footways
+version: "3.1"
+subfolder: 660-parks
+info:
+  summary: Footways
+  description: |-
+    Marrast Walkways & Stairs Set v.2.0  
+      
+    Now it has non-bus-stop feature edition!!!
+
+    Big thanks to BigRedFish for managin' this.
+
+    Ok, there are two files in the ZIP:
+
+    \- marrast\_footways\_with\_busstop.dat;  
+    \- marrast\_footways\_with\_NO\_busstop.dat;
+
+    DON'T USE THESE FILES BOTH!!! It will not work ![:}](https://community.simtropolis.com/assets/emoticons/default_48.gif)
+
+    Use only one file, to have a result you want. Just put only one file  
+    from the zip to your SC4 plugin directory, and that's all.
+
+    ABOUT:
+
+    This set alows you to bring up some variety looking to your city.  
+    All these lots acting like pedestrian walkways with enabled bus stops.  
+    You just need to place it directly between two roads, to make it work.  
+      
+    REMEMBER, that pedestrian traffic will NOT going through two lots standing one next to another.  
+    So, if you want to get sims going somewhere trough these lots from one street to another,  
+    just put ONE lot between those roads.  
+      
+    But if you want make it work just like a bus stop, you can place it any way you like.  
+      
+    The files in this download will be placed into MyDocuments/SimCity 4/Plugins/BSC/Custody/Marrast.  
+    These files are exactly as marrast posted them originally and the readme text file is included in the zip for your reference. Please note that any links in the text file and marrast's email address are unlikely to work.
+  author: BSC
+  website: https://community.simtropolis.com/files/file/16686-marrast-footways-ver-31/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/313646acc3e7dbb8e718992739f90b10-mws_s1.jpg
+    - https://www.simtropolis.com/objects/screens/0006/313646acc3e7dbb8e718992739f90b10-mws_s2.jpg
+variants:
+  - variant: { marrast:footways:bus-stop: "no" }
+    assets:
+      - assetId: marrast-footways
+        include: 
+          - with_NO_busstop.dat
+  - variant: { marrast:footways:bus-stop: "yes" }
+    assets:
+      - assetId: marrast-footways
+        include:
+          - with_busstop.dat
+
+variantInfo:
+  - variantId: marrast:footways:bus-stop
+    description: Controls whether the footways also function as bus stops
+    values:
+      - value: "no"
+        default: true
+      - value: "yes"
+
+---
+assetId: marrast-footways
+version: "3.1"
+lastModified: "2006-08-21T05:54:53Z"
+url: https://community.simtropolis.com/files/file/16686-marrast-footways-ver-31/?do=download&r=39539
+archiveType:
+  format: Clickteam
+  version: "40"

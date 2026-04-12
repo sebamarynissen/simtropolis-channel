@@ -1,0 +1,68 @@
+group: "themurderouscricket"
+name: "simcity-3000-ordinances-for-sc4-utilities"
+version: "1.0.0"
+subfolder: "140-ordinances"
+dependencies:
+- "null-45:custom-ordinance-exemplar-host-dll"
+assets:
+  - assetId: "tmc-simcity-3000-ordinances-for-sc4-utilities"
+
+info:
+  summary: "This pack contains a recreation of Utilities ordinances from SimCity 3000 and one extra"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+     This resource is a small but hopefully useful project which attempts to recreate ordinances from SimCity 3000 for use in SimCity 4.
+
+     SimCity 3000 had a very elaborate system of ordinances, complete with exhaustive descriptions, which provided mayors with an important and powerful city management tool. Half of these ordinances did not make it into SimCity 4 however. Thanks to the ".dll era", it is now possible to recreate these old ordinances and this is what this package is all about.
+
+     As Penultimo from the Tropico series would say "I've got something for you to sign, and no - it's not my raise again!". Unleash the red tape! 
+
+  author: "TheMurderousCricket"
+  websites:
+    - "https://community.simtropolis.com/files/file/37221-simcity-3000-ordinances-for-sc4-utilities/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/util1.jpg.eda4b6108c36e70c3db5516131600ca9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/util2.jpg.0be9ba68d4e1614d26868f049e17b599.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/util3.jpg.c1f1feb9cd5800cc04cc819613f1b512.jpg
+
+---
+assetId: "tmc-simcity-3000-ordinances-for-sc4-utilities"
+version: "1.0.0"
+lastModified: "2026-01-28T22:26:44Z"
+url: "https://community.simtropolis.com/files/file/37221-simcity-3000-ordinances-for-sc4-utilities/?do=download"
+
+---
+group: "themurderouscricket"
+name:  "simcity-3000-ordinances"    
+version: "1.0.0"
+subfolder: "140-ordinances"
+info:
+  summary: "This pack contains a recreation of ordinances from SimCity 3000"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+     This resource is a small but hopefully useful project which attempts to recreate ordinances from SimCity 3000 for use in SimCity 4.
+
+     SimCity 3000 had a very elaborate system of ordinances, complete with exhaustive descriptions, which provided mayors with an important and powerful city management tool. Half of these ordinances did not make it into SimCity 4 however. Thanks to the ".dll era", it is now possible to recreate these old ordinances and this is what this package is all about.
+
+     As Penultimo from the Tropico series would say "I've got something for you to sign, and no - it's not my raise again!". Unleash the red tape! 
+  websites: 
+    - "https://community.simtropolis.com/files/file/37195-simcity-3000-ordinances-for-sc4-city-planner-p-1/"
+    - "https://community.simtropolis.com/files/file/37196-simcity-3000-ordinances-for-sc4-city-planner-p-2/"
+    - "https://community.simtropolis.com/files/file/37221-simcity-3000-ordinances-for-sc4-utilities/"
+    - "https://community.simtropolis.com/files/file/37192-simcity-3000-ordinances-for-sc4-hea-and-public-safety/"
+    - "https://community.simtropolis.com/files/file/37193-simcity-3000-ordinances-for-sc4-transportation/"
+    - "https://community.simtropolis.com/files/file/37218-simcity-3000-ordinances-for-sc4-environment/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/cplanner.jpg.ba14a9d02c554811a0b99cbf5606c68b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/cplanner2.jpg.e1eef5a39717a5d65c9b8659009ef8a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/UP0.jpg.fdd4543f3324ada121c45eae972a3ef4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/UP3.jpg.94a522a1b98eb806fb6610c98d82b30f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/util1.jpg.eda4b6108c36e70c3db5516131600ca9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/enviro.jpg.a62520c0c7262b5efd52af7ca615da09.jpg
+
+dependencies:
+  - themurderouscricket:simcity-3000-ordinances-for-sc4-city-planner
+  - themurderouscricket:simcity-3000-ordinances-for-sc4-transportation
+  - themurderouscricket:simcity-3000-ordinances-for-sc4-utilities
+  - themurderouscricket:simcity-3000-ordinances-for-sc4-environment
+  - themurderouscricket:simcity-3000-ordinances-for-sc4-hea-and-public-safety

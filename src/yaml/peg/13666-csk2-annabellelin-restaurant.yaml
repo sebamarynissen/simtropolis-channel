@@ -34,8 +34,8 @@ dependencies:
 ---
 group: peg
 name: csk2-annabellelin-restaurant-resource
-version: "1.1"
-subfolder: 100-props-textures
+version: "1.1-1"
+subfolder: 110-resources
 info:
   summary: CSK2 Annabellelin Restaurant resource
   author: Pegasus
@@ -46,7 +46,7 @@ info:
 assets:
   - assetId: peg-csk2-annabellelin-restaurant
     include:
-      - "/PEG_Annabellin_RESOURCE.dat"
+      - /PEG_Annabellin_RESOURCE.dat
 
 ---
 assetId: peg-csk2-annabellelin-restaurant
