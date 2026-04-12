@@ -1,6 +1,6 @@
 group: glenni
 name: hammersborg-torg
-version: "1.0"
+version: "1.0-1"
 subfolder: 300-commercial
 info:
   summary: BLaM Hammersborg Torg
@@ -70,7 +70,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0011/62e86a7ef7012b1c41faeb3a0f5cbf0c-Hammersborg_Torg_Day.JPG
     - https://www.simtropolis.com/objects/screens/0011/62e86a7ef7012b1c41faeb3a0f5cbf0c-Hammersborg_Torg_Night.JPG
 dependencies:
-  - xannepan:jenx-amsterdam-central-station-resources
+  - xannepan:amsterdam-central-station-resources
   - porkissimo:jenx-porkie-expanded-porkie-props
 assets:
   - assetId: glenni-blam-hammersborg-torg
