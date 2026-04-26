@@ -1,0 +1,117 @@
+group: ap
+name: simworkers-4
+version: "1.0.1"
+subfolder: 180-flora
+info:
+  summary: A_1P SimWorkers_4 - First Responders
+  description: |-
+    These are some Sim-FirstResponders to bring a little bit of action to your lots. This 4th pack of workers contains 3 different groups of Sims:
+
+    -   10 European Fire Fighters (black Nomex, 1x300bar CABA)
+    -   10 US Fire Fighters (beige Nomex, 1x300bar CABA)
+    -   8 EMTs
+
+    **Content**
+
+    This File contains one .dat-File with 28 different props:
+
+    European Fire Fighters
+
+    ![Worker4_1.png.74d8b96ee98d6979b3f565921964c57e.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_1.png.74d8b96ee98d6979b3f565921964c57e.png) ![Worker4_2.png.9f48a4227ce28bbc065eb6994c429976.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_2.png.9f48a4227ce28bbc065eb6994c429976.png)
+
+    ![Worker4_3.png.33ccbde4ce322b54f81dd9a240031b50.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_3.png.33ccbde4ce322b54f81dd9a240031b50.png)  ![Worker4_4.png.0aac20c0b227fa82dd52118048a15aeb.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_4.png.0aac20c0b227fa82dd52118048a15aeb.png)  
+    ▪ A\_1P\_FireFighter\_EUNomex#0\_waiting  
+    ▪ A\_1P\_FireFighter\_EUNomex#1\_standing  
+    ▪ A\_1P\_FireFighter\_EUNomex#2\_hose  
+    ▪ A\_1P\_FireFighter\_EUNomex#3\_hosepump  
+    ▪ A\_1P\_FireFighter\_EUNomex#4\_axe  
+    ▪ A\_1P\_FireFighter\_EUNomex#5\_rasp\_axe  
+    ▪ A\_1P\_FireFighter\_EUNomex#6\_rasp\_walk  
+    ▪ A\_1P\_FireFighter\_EUNomex#7\_kneeling  
+    ▪ A\_1P\_FireFighter\_EUNomex#8\_kneeling\_ext  
+    ▪ A\_1P\_FireFighter\_EUNomex#9\_resting
+
+    US Fire Fighters
+
+    ![Worker4_5.png.63c1a08c896ee1f730b31e667d47b665.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_5.png.63c1a08c896ee1f730b31e667d47b665.png) ![Worker4_6.png.3a24b89f4614dc7b46253d00d7b1fce1.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_6.png.3a24b89f4614dc7b46253d00d7b1fce1.png)
+
+    ![Worker4_7.png.927f3283f3ad4627fbba28c03d7e2a84.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_7.png.927f3283f3ad4627fbba28c03d7e2a84.png)  
+    ▪ A\_1P\_FireFighter\_US#0\_waiting  
+    ▪ A\_1P\_FireFighter\_US#1  
+    ▪ A\_1P\_FireFighter\_US#2\_hose  
+    ▪ A\_1P\_FireFighter\_US#3\_hosepump  
+    ▪ A\_1P\_FireFighter\_US#4\_axe  
+    ▪ A\_1P\_FireFighter\_US#5\_rasp\_axe  
+    ▪ A\_1P\_FireFighter\_US#6\_rasp\_walk  
+    ▪ A\_1P\_FireFighter\_US#7\_kneeling  
+    ▪ A\_1P\_FireFighter\_US#8\_kneeling\_ext  
+    ▪ A\_1P\_FireFighter\_US#9\_resting
+
+    EMTs
+
+    ![Worker4_8.png.f25d8cef38c32b1d6a43bca74e8026cb.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_8.png.f25d8cef38c32b1d6a43bca74e8026cb.png) ![Worker4_9.png.2bb7d8d4b23bde9d4191287f95378e62.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_9.png.2bb7d8d4b23bde9d4191287f95378e62.png)
+
+    ![Worker4_10.png.245dd696791044844589c7dc6b4a98fa.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_10.png.245dd696791044844589c7dc6b4a98fa.png) ![Worker4_11.png.07773d992df2e2a212a5c38590490f7e.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker4_11.png.07773d992df2e2a212a5c38590490f7e.png)  
+    ▪ A\_1P\_EMT#1\_running  
+    ▪ A\_1P\_EMT#2\_kneeling\_kit  
+    ▪ A\_1P\_EMT#3\_cpr  
+    ▪ A\_1P\_EMT#4\_kneeling  
+    ▪ A\_1P\_EMT#5\_strecher  
+    ▪ A\_1P\_EMT#6\_doc  
+    ▪ A\_1P\_EMT#7\_standing  
+    ▪ A\_1P\_EMT#8\_standing
+
+    **Dependencies**  
+    • none
+
+    **Instructions**  
+    This is a prop file! The content must be placed on your lot using a lot-editor!  
+    Unzip and place in (work-) plugin folder, place in plugin folder once used in a lot file, eg.:  
+    C:/Users//Documents/SimCity 4/Plugins
+
+    **Note**
+
+    I have set the height of the Sims to 2.3m + PPE (personal protective equipment). Therefor they are more realistic in size compared to other small props like cars etc. They are a little smaller than the standard Maxis Sim.  
+    For spraying and fire you can play with the Maxis props Effect\_SmallFountain A B C, Effect\_firehydrant, Effect\_tinyfire, Effect\_tinyfire-night.
+  author: AP
+  website: https://community.simtropolis.com/files/file/34143-a_1p-simworkers_4-first-responders/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers4_Preview.png.385c208ed6c4e26af042d429979a337d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers4_MMP_preview.png.b904a326a628024e7f898fb034616071.png
+dependencies:
+  - ap:simworkers-4-props
+assets:
+  - assetId: ap-simworkers-4-first-responders-mmps
+
+---
+group: ap
+name: simworkers-4-props
+version: "1.0.1"
+subfolder: 100-props-textures
+info:
+  summary: Firefighter and EMT props
+  description: |-
+    These are some Sim-FirstResponders to bring a little bit of action to your lots. This 4th pack of workers contains 3 different groups of Sims:
+
+    -   10 European Fire Fighters (black Nomex, 1x300bar CABA)
+    -   10 US Fire Fighters (beige Nomex, 1x300bar CABA)
+    -   8 EMTs
+  author: AP
+  website: https://community.simtropolis.com/files/file/34143-a_1p-simworkers_4-first-responders/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers4_Preview.png.385c208ed6c4e26af042d429979a337d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers4_MMP_preview.png.b904a326a628024e7f898fb034616071.png
+assets:
+  - assetId: ap-simworkers-4-first-responders-props
+
+---
+assetId: ap-simworkers-4-first-responders-props
+version: "1.0.1"
+lastModified: "2021-02-17T22:59:52Z"
+url: https://community.simtropolis.com/files/file/34143-a_1p-simworkers_4-first-responders/?do=download&r=185390
+
+---
+assetId: ap-simworkers-4-first-responders-mmps
+version: "1.0.1"
+lastModified: "2021-02-17T22:59:52Z"
+url: https://community.simtropolis.com/files/file/34143-a_1p-simworkers_4-first-responders/?do=download&r=185391

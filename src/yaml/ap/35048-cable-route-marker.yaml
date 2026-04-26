@@ -1,0 +1,32 @@
+group: ap
+name: cable-route-marker
+version: "1.1"
+subfolder: 500-utilities
+info:
+  summary: A_1P Cable Route Marker
+  description: |-
+    These cable route markers are intended to work as an unobtrusive way to connect power assets or other infrastructure that requires electricity, but you wish to avoid pulling a power line there.
+
+    The idea was to simulate an underground cable with the visual cable route marker signs in the landscape.
+
+    ![cable-route-post-flexible-hazard-locator](https://www.roadmarkerposts.co.uk/image/cache/data/cable-route-post-flexible-hazard-locator-road-blakedale_80c1500-200x250.jpg)
+
+    The lots have no base-texture and can be fully covered by vegetation or other MMPs. The cable route markers are very small and barely visible as well.
+
+    They come in 4 different varieties and change with every plop automatically.
+
+    No dependencies.
+  author: AP
+  website: https://community.simtropolis.com/files/file/35048-a_1p-cable-route-marker/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/image.png.8459254643606f287b68218421948fed.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2022_04/Preview3.jpg.3cbfec558caf07d53fba49e2a981b5eb.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2022_04/Preview2.jpg.6935a5aa419c75c6153ea9c4c2427a30.jpg
+assets:
+  - assetId: ap-cable-route-marker
+
+---
+assetId: ap-cable-route-marker
+version: "1.1"
+lastModified: "2022-04-11T16:28:04Z"
+url: https://community.simtropolis.com/files/file/35048-a_1p-cable-route-marker/?do=download&r=192821
