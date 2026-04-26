@@ -9,6 +9,7 @@ assets:
     sha256: 5D819251AD2F87D6C9DF5753AC3F610359AFBB991BB03F4FC530DF16B36A224B
   - include: "/SC4AutoSave.ini"
     sha256: 554C0F01F9D9EAD2FA1169D9723E5219B0C3CD0FCB4F4CB6FB5DCCC3A5BC8F86
+    isIni: true
 
 info:
   summary: "A DLL Plugin for SimCity 4 that automatically saves a city at user-specified intervals. "
@@ -61,12 +62,6 @@ info:
 
     The source code and bug tracker is located on GitHub.
 
-  warning: |-
-    This DLL plugin comes with one INI configuration file:
-
-    * `SC4AutoSave.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/35761-sc4-auto-save/"
   images:

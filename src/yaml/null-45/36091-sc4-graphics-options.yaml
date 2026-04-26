@@ -9,6 +9,7 @@ assets:
     sha256: 7039FB204BAC541B3B560CE7FC2774991214DA454ADF57B6640E9F5285D53D02
   - include: "/SC4GraphicsOptions.ini"
     sha256: C6F2E326099ECE47760DDC21E0384768E857AA42C2B6B733D806036AEA8640E7
+    isIni: true
 
 
 info:
@@ -92,13 +93,6 @@ info:
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
 
     Thanks to the few people who have donated to me. 
-
-  warning: |-
-    This DLL plugin comes with one INI configuration file:
-
-    * `SC4GraphicsOptions.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36091-sc4-graphics-options/"
   images:

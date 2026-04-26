@@ -9,6 +9,7 @@ assets:
     sha256: 4CBE8EDE9A91960A3F92B3205385435187CDA3FA78FB7F4B2578D8A76E9A528C
   - include: "/SC4CPUOptions.ini"
     sha256: 45A7134A9898C64290ECB4235A13A36E0E739F0C82F2E33F3B483DA136E6E1C3
+    isIni: true
 
 
 info:
@@ -66,14 +67,6 @@ info:
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
       	
     Thanks to the few people who have donated to me. 
-
-
-  warning: |-
-    This DLL plugin comes with one INI configuration file:
-
-    * `SC4CPUOptions.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36120-sc4-cpu-options/?do=download"
   images:

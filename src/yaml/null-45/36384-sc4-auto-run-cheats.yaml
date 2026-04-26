@@ -9,6 +9,7 @@ assets:
     sha256: 22D644C889BF5F1EB23A469D9190EA2D324320C3E7C8257384EEE5BC114F2E85
   - include: "/SC4AutoRunCheats.ini"
     sha256: A42FF18118C0087B185599ED5A2C49CDD50D68B07DD86FD5714CF788108D38D9
+    isIni: true
 
 info:
   summary: "A DLL Plugin for SimCity 4 that automatically executes cheat codes when loading the game or a city."
@@ -92,13 +93,6 @@ info:
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
 
     Thanks to the few people who have donated to me.
-    
-  warning: |-
-    This DLL plugin comes with one INI configuration file:
-
-    * `SC4AutoRunCheats.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36384-sc4-auto-run-cheats-dll-plugin/"
   images:
