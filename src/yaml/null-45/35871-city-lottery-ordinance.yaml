@@ -11,6 +11,7 @@ assets:
     sha256: 41499F4D76568DAEA2B3140145BACAFC6F069663F6C1E01B1EF2C2760F456B84
   - include: "/SC4CityLotteryOrdinance.ini"
     sha256: 60D428CED64958CAF26618B3B65E21D3F93B57F6EEF4BF6A7738F8BABFC3649D
+    isIni: true
 
 info:
   summary: "A DLL Plugin for SimCity 4 that adds a city lottery to the game. "
@@ -83,13 +84,6 @@ info:
     Plugin thread: https://community.simtropolis.com/forums/topic/762835-city-lottery-ordinance-dll-plugin/
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-city-lottery-ordinance
-
-  warning: |-
-    This DLL plugin comes with one INI configuration file:
-
-    * `SC4CityLotteryOrdinance.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/35871-city-lottery-ordinance/"
   images:
