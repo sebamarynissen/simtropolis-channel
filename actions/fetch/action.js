@@ -36,6 +36,10 @@ try {
 	}
 
 } catch (e) {
-	core.error(e.message);
-	throw e;
+	if (e.code === 'simtropolis_offline_error') {
+		core.notice('Simtropolis appears to be offline');
+	} else {
+		core.error(e.message);
+		throw e;
+	}
 }

@@ -7,3 +7,11 @@ export class SimtropolisError extends Error {
 		this.status = res.status;
 	}
 }
+
+export class SimtropolisOfflineError extends Error {
+	code = 'simtropolis_offline_error';
+	status = 503;
+	constructor() {
+		super(`Simtropolis is offline`);
+	}
+}
