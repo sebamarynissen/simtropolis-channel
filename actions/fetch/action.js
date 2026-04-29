@@ -38,6 +38,8 @@ try {
 } catch (e) {
 	if (e.code === 'simtropolis_offline_error') {
 		core.notice('Simtropolis appears to be offline');
+		core.setOutput('packages', '[]');
+		core.setOutput('has-new-content', false);
 	} else {
 		core.error(e.message);
 		throw e;
