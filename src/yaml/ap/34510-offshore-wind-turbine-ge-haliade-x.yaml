@@ -1,0 +1,78 @@
+group: ap
+name: offshore-wind-turbine-ge-haliade-x
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: A_1P Offshore Wind Turbine GE Haliade-X
+  description: |-
+    ![image.png.9c47820dadfbdb41aff81b6f9230b462.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.9c47820dadfbdb41aff81b6f9230b462.png)
+
+    This is the model of a 14 MW offshore wind turbine based on a General Electric (GE) Haliade-X©. It has a rotor diameter of 220 m and at a hub height of 153m (for these specific models I made). It is built on a monopile foundation for shallow coastal regions.
+
+    The difference of this turbine compared to my other models is that it is a direct drive system. This means there is no gearbox transmitting the rotation to common generator rpms (1500rpm). Instead, there is a large diameter, multi pole, variable rpm generator that is driven directly by the rotor (7-15rpm). The converters and transformers are located in the nacelle. More info can be found [here](https://www.ge.com/renewableenergy/wind-energy/offshore-wind/haliade-x-offshore-turbine).
+
+    ![credit-122795.jpg](https://images.oedigital.com/images/maritime/w600/credit-122795.jpg)
+
+    ## ![image.png.96793a4547a76fc2f9c3485aa163e9f7.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.96793a4547a76fc2f9c3485aa163e9f7.png)
+
+    ![image.png.ee21ee09222065d147cb809a95ac69c0.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.ee21ee09222065d147cb809a95ac69c0.png)
+
+    ## Content
+
+    This File contains four wind power plant lots with the same turbine type at different rotor positions.
+
+    The production is set to 14,000 and the O&M costs are 500$ per month. One turbine is undergoing maintenance and has no power output and zero budget impact.
+
+    ![image.png.1d7124cceaf521b8f9009e204201637b.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.1d7124cceaf521b8f9009e204201637b.png)
+
+    A\_1P\_GE\_HaliadeX\_r1
+
+    ·          Offshore Wind Turbine GE Haliade-X - rotation 1
+
+    ![image.png.2a9189736dbf2b7eca9f91749e281796.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.2a9189736dbf2b7eca9f91749e281796.png)
+
+    A\_1P\_GE\_HaliadeX\_r2
+
+    ·         Offshore Wind Turbine GE Haliade-X - rotation 2
+
+    ![image.png.7b11a3b6e889aaf974f171174e247589.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.7b11a3b6e889aaf974f171174e247589.png)
+
+    A\_1P\_GE\_HaliadeX\_r3
+
+    ·         Offshore Wind Turbine GE Haliade-X - rotation 3
+
+    ![image.png.095e027b0e977cc64c59dce00b2bf065.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.095e027b0e977cc64c59dce00b2bf065.png)
+
+    A\_1P\_GE\_HaliadeX\_m
+
+    ·         Offshore Wind Turbine GE Haliade-X - at maintenance (Rotor locked in y-position, personnel working on TP platform and nacelle roof)
+
+    ## Dependencies
+
+    ·         none
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+  author: AP
+  website: https://community.simtropolis.com/files/file/34510-a_1p-offshore-wind-turbine-ge-haliade-x/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_1.png.3cdf85cd0aa9a7aad9c1ca02dfcd201c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_2.png.b2daed98289ed82225691d3e53cf9542.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_3.png.c4fea4d3366f9b0bf48c76eb878af5f1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_4.png.3f585a6878537b1620f0cd336cc7ca4c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_5.png.2824824051a75d7b7df4e1b3c8d6a1ee.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_6_resize01.jpg.f57a3262f3f0b526dcf87e776b097391.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_7_resize04.jpg.781c6b7eac0407c0e542e9910b3d7f65.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_8_resize03.jpg.376dec85a71b6ec5213e1a8dcd46800e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/Preview_9_resize02.jpg.94e31fd42a7199fb35c2918b138153bb.jpg
+assets:
+  - assetId: ap-offshore-wind-turbine-ge-haliade-x
+
+---
+assetId: ap-offshore-wind-turbine-ge-haliade-x
+version: "1.0.0"
+lastModified: "2021-06-07T20:53:35Z"
+url: https://community.simtropolis.com/files/file/34510-a_1p-offshore-wind-turbine-ge-haliade-x/?do=download&r=188660

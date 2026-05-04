@@ -1,0 +1,102 @@
+group: ap
+name: simworkers-5
+version: "1.0.0"
+subfolder: 180-flora
+info:
+  summary: A_1P SimWorkers_5
+  description: |-
+    These are some more SimWorkers to bring a little bit of action to your lots. This 5th pack contains 4 different groups of Sims:  
+    • 6 Forestry Workers  
+    • 6 AirPort Personnel  
+    • 6 FlightDeck Personnel  
+    • 6 WindTurbine Technicians
+
+    **Content**  
+    This File contains one .dat-file with 24 different props and one .dat-file organizing the models as MMPs:  
+    Forestry Workers  
+    ![Workers5_preview3.png.90e72404c500da30aca172ede9e67d43.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Workers5_preview3.png.90e72404c500da30aca172ede9e67d43.png)  
+    • A\_1P\_ForestryWorker#1\_sawing  
+    • A\_1P\_ForestryWorker#2\_chopping  
+    • A\_1P\_ForestryWorker#3\_saw  
+    • A\_1P\_ForestryWorker#4\_sitting  
+    • A\_1P\_ForestryWorker#5\_axe  
+    • A\_1P\_ForestryWorker#6\_trunk
+
+    AirPort Personnel  
+    ![Workers5_preview4.png.ecc582fecd5c645522915af487b48f3b.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Workers5_preview4.png.ecc582fecd5c645522915af487b48f3b.png)  
+    • A\_1P\_AirportPersonnel#1\_luggage  
+    • A\_1P\_AirportPersonnel#2\_luggage  
+    • A\_1P\_AirportPersonnel#3\_parkingX  
+    • A\_1P\_AirportPersonnel#4\_parkingU  
+    • A\_1P\_AirportPersonnel#5\_standing  
+    • A\_1P\_AirportPersonnel#6\_walking
+
+    FlightDeck Personnel  
+    ![Workers5_preview5.png.c4240ab26f1081faa68485e523a7df57.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Workers5_preview5.png.c4240ab26f1081faa68485e523a7df57.png)  
+    • A\_1P\_FlightDeckPersonnel#1\_liftoff  
+    • A\_1P\_FlightDeckPersonnel#2\_signallingT  
+    • A\_1P\_FlightDeckPersonnel#3\_signallingN  
+    • A\_1P\_FlightDeckPersonnel#4\_carrying nozzle  
+    • A\_1P\_FlightDeckPersonnel#5\_standing  
+    • A\_1P\_FlightDeckPersonnel#6\_running
+
+    WindTurbine Technicians  
+    ![Workers5_preview6.png.279b4c5ab4388a399bfb47bf28ccf36e.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Workers5_preview6.png.279b4c5ab4388a399bfb47bf28ccf36e.png)  
+    • A\_1P\_WindTurbineTech#1\_standing  
+    • A\_1P\_WindTurbineTech#2\_carrying  
+    • A\_1P\_WindTurbineTech#3\_inspecting  
+    • A\_1P\_WindTurbineTech#4\_working  
+    • A\_1P\_WindTurbineTech#5\_walking  
+    • A\_1P\_WindTurbineTech#6\_kneeling
+
+    **Dependencies**  
+    • none
+
+    **Instructions**  
+    To use the props the content must be placed on your lot using a lot-editor!  
+    Unzip and place in (work-) plugin folder, place in plugin folder once used in a lot file, eg.:  
+    C:/Users//Documents/SimCity 4/Plugins  
+    To use the MMPs both .dat-files must be stored in your plugin folder.
+
+    **Note**  
+    I have set the height of the Sims to 2.3m + PPE (personal protective equipment). Therefor they are more realistic in size compared to other small props like cars etc. They are a little smaller than the standard Maxis Sim.
+  author: AP
+  website: https://community.simtropolis.com/files/file/34189-a_1p-simworkers_5/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers5_MMP_preview2-1.png.6c1b3e6432645010125bf1a15f18400f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers5_preview2-1.png.2db6d87155f8ba9ffea0d2f594a7c407.png
+dependencies:
+  - ap:simworkers-5-props
+assets:
+  - assetId: ap-simworkers-5
+    include:
+      - /A_1P_SimWorkers_5_MMP.dat
+
+---
+group: ap
+name: simworkers-5-props
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Forestry, airport, and wind turbine worker props
+  description: |-
+    These are some more SimWorkers to bring a little bit of action to your lots. This 5th pack contains 4 different groups of Sims:  
+    - 6 Forestry Workers  
+    - 6 AirPort Personnel  
+    - 6 FlightDeck Personnel  
+    - 6 WindTurbine Technicians
+  author: AP
+  website: https://community.simtropolis.com/files/file/34189-a_1p-simworkers_5/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers5_MMP_preview2-1.png.6c1b3e6432645010125bf1a15f18400f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers5_preview2-1.png.2db6d87155f8ba9ffea0d2f594a7c407.png
+assets:
+  - assetId: ap-simworkers-5
+    include:
+      - /A_1P_120_SimWorkers_5.dat
+
+---
+assetId: ap-simworkers-5
+version: "1.0.0"
+lastModified: "2021-02-27T12:12:00Z"
+url: https://community.simtropolis.com/files/file/34189-a_1p-simworkers_5/?do=download&r=185690

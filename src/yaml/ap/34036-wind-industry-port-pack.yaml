@@ -1,0 +1,73 @@
+group: ap
+name: wind-industry-port-pack
+version: "1.1"
+subfolder: 400-industrial
+info:
+  summary: A_1P Wind Industry Port Pack-1.1
+  description: |-
+    Okay everyone I am trying it, here is the first content I created. These are port-lots with parts for offshore wind turbines awaiting shipping to the site.
+
+    Here is some inspiration of what you can build with it (the blade factory in the left of the screenshot is created by Simmer2):![Inspiration-Wind-Industry-soft.png](https://i.postimg.cc/255QQ0rc/Inspiration-Wind-Industry-soft.png)
+
+    This File contains several props and 9 lots:  
+    A\_1P\_SP\_Dock\_1x6\_RotorBlades  
+    A\_1P\_SP\_Dock\_1x6-Hubs  
+    A\_1P\_SP\_Dock\_1x6-Nacelles  
+    A\_1P\_SP\_Dock\_1x6-TransitionPieces  
+    A\_1P\_SP\_Dock\_1x6-Towers & A\_1P\_SP\_Dock\_1x6-Towers2  
+    A\_1P\_SP\_Dock\_1x6-WindIndustry\_1x5-TransitionL  
+    A\_1P\_SP\_Dock\_1x6-WindIndustry\_1x5-TransitionR  
+    A\_1P\_SP\_Dock\_1x6-WindIndustryFiller
+
+    The lots are using the [PEG CDK3 Sea Port Waterfront - Style](https://www.sc4devotion.com/forums/index.php?topic=18763.msg535956#msg535956). At this post other lots are listed that go well together with the WindIndustry Port lots.
+
+    **Dependencies**  
+    • [PEG\-CDK3\-SP\_SEAPORT\_SUPER-PAK.dat](https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/)  
+    • [PEG\_ChainLinkFence\_RESOURCE.dat](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)
+
+    Thanks to the simtropolis and sc4devotion community especially Tyberius06, Simmer2 and mattb325 for support and advice. Additionally, I thank the Heretic Seaport Project team, for providing the base lots and UI design.
+
+    Any feedback is greatly appreciated and I might do a v1.1 if I have some responses. My next project might be a heavy lift terminal to load the components or a jackup vessel for turbine installation.
+
+    ![BHV-offshoreterminal-TP.jpg](https://i.postimg.cc/Jh5FfQf9/BHV-offshoreterminal-TP.jpg)
+
+    [![Offshore Project.jpg](https://www.simtropolis.com/objects/attachments/monthly_2021_01/5ff63742d81cb_OffshoreProject.jpg.11c519d83d2d8dd7d541586ec47427f6.jpg)](https://www.simtropolis.com/objects/attachments/monthly_2021_01/5ff63742d81cb_OffshoreProject.jpg.11c519d83d2d8dd7d541586ec47427f6.jpg)
+  author: AP
+  website: https://community.simtropolis.com/files/file/34036-a_1p-wind-industry-port-pack-11/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Inspiration_WindIndustry_2.jpg.6f99da733d1e3adec7d470c35f50cfed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Inspiration_WindIndustry_1.jpg.4f39d0df460c724129b566b76d8b812b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Inspiration_WindIndustry_3.jpg.7896fab5305684094e8eb18b97048153.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+  - ap:wind-industry-port-props
+assets:
+  - assetId: ap-wind-industry-port-pack-1-1
+    include:
+      - /A_1P_WindIndustryPort Pack 1.1_Lots.dat
+
+---
+group: ap
+name: wind-industry-port-props
+version: "1.1"
+subfolder: 100-props-textures
+info:
+  summary: Props for `pkg=ap:wind-industry-port-pack`
+  author: AP
+  website: https://community.simtropolis.com/files/file/34036-a_1p-wind-industry-port-pack-11/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Inspiration_WindIndustry_2.jpg.6f99da733d1e3adec7d470c35f50cfed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Inspiration_WindIndustry_1.jpg.4f39d0df460c724129b566b76d8b812b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/Inspiration_WindIndustry_3.jpg.7896fab5305684094e8eb18b97048153.jpg
+assets:
+  - assetId: ap-wind-industry-port-pack-1-1
+    include:
+      - /A_1P_WindIndustryPort Pack 1.1_Props.dat
+
+---
+assetId: ap-wind-industry-port-pack-1-1
+version: "1.1"
+lastModified: "2021-01-10T22:46:09Z"
+url: https://community.simtropolis.com/files/file/34036-a_1p-wind-industry-port-pack-11/?do=download&r=184485
