@@ -45,6 +45,7 @@ jobs:
       run: npm ci
     - name: Update coverage report
       run: node scripts/scan-coverage.js
+      continue-on-error: true
       env:
         STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
     - name: Copy coverage report to pages output
