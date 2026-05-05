@@ -1,0 +1,38 @@
+group: gerandi
+name: denis-platz
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Denis Platz
+  description: |-
+    **This is a 2x2 Plaza.  
+    It's pretty old fashioned but might become a center of the old towns...**  
+      
+      
+    **Bulldoze cost :**   1000  
+      
+    **Plop cost :**    2500  
+      
+    **Mayor effect :**   100 / 256  
+      
+    **Power consumed :**   60  
+      
+    **dependencies :**      
+    BSC MEGA Props - Gascooker Vol01.dat  
+    BSC Mega Props - JES Vol01.dat
+  author: gerAndi
+  website: https://community.simtropolis.com/files/file/16191-denis-platz/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c6256bea81afb0be0820e8fcf8348da2-Day.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c6256bea81afb0be0820e8fcf8348da2-Night.jpg
+assets:
+  - assetId: gerandi-denis-platz
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+
+---
+assetId: gerandi-denis-platz
+version: "1.0"
+lastModified: "2006-06-17T16:53:41Z"
+url: https://community.simtropolis.com/files/file/16191-denis-platz/?do=download&r=38751
