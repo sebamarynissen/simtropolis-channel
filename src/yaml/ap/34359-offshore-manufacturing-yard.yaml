@@ -1,0 +1,79 @@
+group: ap
+name: offshore-manufacturing-yard
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: A_1P Offshore Manufacturing Yard
+  description: |-
+    ![A-1-P-Tower-Factory.gif](https://i.postimg.cc/yN3LNjPd/A-1-P-Tower-Factory.gif)
+
+    This is a manufacturing yard for large offshore structures for substations, rigs and wind turbines. I have displayed the production cycle of a monopile foundation for offshore wind turbines in this lot with timed props. Building the structures and applying corrosion protection and shipping them away.
+
+    ![steelwind.jpg?mode=crop&width=770&height](https://renews.biz/media/18043/steelwind.jpg?mode=crop&width=770&heightratio=0.6103896103896103896103896104&slimmage=true)
+
+    I recommend using it in combination with my [Wind Industry Port Pack](https://community.simtropolis.com/profile/793712-ap/content/?type=downloads_file) and [Heavy Lift Terminal](https://community.simtropolis.com/files/file/34042-a_1p-wind-industry-heavy-lift-terminal/) as well as [Offshore Turbines](https://community.simtropolis.com/files/file/34049-a_1p-offshore-wind-turbine-swt-36-120/).
+
+    ![image.png.cae680dc45bc85983c0fcd6570313bc7.png](https://www.simtropolis.com/objects/attachments/monthly_2021_04/image.png.cae680dc45bc85983c0fcd6570313bc7.png)
+
+    **Content**
+
+    This pack contains a LOT-file and a DAT-file with lots of timed props that can also be used on other lots if you want.
+
+    ![image.png.cfec107012627a1f4ac3172c81a5e7a2.png](https://www.simtropolis.com/objects/attachments/monthly_2021_04/image.png.cfec107012627a1f4ac3172c81a5e7a2.png)
+
+    A\_1P\_OffshoreManufacturingYard.SC4Lot
+
+    A\_1P\_TowerFactory.dat
+
+    ## Dependencies
+
+    ·         [A\_1P\_120\_SimWorkers\_1.1.dat](https://community.simtropolis.com/files/file/34123-a_1p-simworkers_1/)
+
+    ·         [A\_1P\_WindIndustryPort Pack 1.1\_Props.dat](https://community.simtropolis.com/files/file/34036-a_1p-wind-industry-port-pack-11/)
+
+    ·         [A\_1P\_WindIndustry\_ComponentLogistics.dat](https://community.simtropolis.com/files/file/34162-a_1p-wind-industry-component-logistics/)
+
+    ·         [Grfe\_Carpack\_vol. 1 & 2.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2821)
+
+    ·         [BSC - VIP girafe bushes (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2711)
+
+    ·         [PEG\-CDK3\-SP\_SEAPORT\_SUPER-PAK.dat](https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/)
+
+    ·         [PEG\_ChainLinkFence\_RESOURCE.dat](https://community.simtropolis.com/files/file/22998-maximum-security-fence/)
+
+    ·         [SM2 Mega Prop Pack Vol1.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3640)
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+  author: AP
+  website: https://community.simtropolis.com/files/file/34359-a_1p-offshore-manufacturing-yard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/17_d-r_1.jpg.b2ee62331c77ce0891ec343384698a80.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/6.jpg.e3b8b1a9d4d1e97e75a64c032125b256.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/8.jpg.85d5a28d1cc46cc5854daa80057a719d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/16.jpg.cee4384436526d3ecfa66594d012bf31.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/17_d-r.jpg.be28310c213ad11046f9a8725b28bfa9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/17_n-zr.jpg.b40b81cb89cddd00ddbe4fb9996a2499.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/17_n.jpg.f6be2ae7cbb7a13bd053aae4fdd9431b.jpg
+dependencies:
+  - ap:simworkers-1-props
+  - ap:wind-industry-port-props
+  - ap:wind-industry-component-logistics
+  - ap:wind-industry-heavy-lift-terminal-props
+  - ap:offshore-wind-turbine-swt-36-120
+  - peg:security-fencing-kit
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:bushes
+  - peg:cdk3-sp-seaport-super-pak
+  - simmer2:mega-prop-pack-vol1
+assets:
+  - assetId: ap-offshore-manufacturing-yard
+
+---
+assetId: ap-offshore-manufacturing-yard
+version: "1.0.0"
+lastModified: "2021-04-10T01:01:26Z"
+url: https://community.simtropolis.com/files/file/34359-a_1p-offshore-manufacturing-yard/?do=download&r=187163

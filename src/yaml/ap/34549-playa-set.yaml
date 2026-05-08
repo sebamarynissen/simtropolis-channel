@@ -1,0 +1,116 @@
+group: ap
+name: playa-set
+version: "1.1.0"
+subfolder: 660-parks
+info:
+  summary: A_1P Playa Set
+  description: |-
+    ## Description
+
+    I went through the effort to re-lot some of the great beach props we have for the game! None of the BATs are modelled by me, so the credit goes to the creators of all the dependencies I will list below!
+
+    ![image.png.d98d8643d723dea0657b241d7bc66e0d.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.d98d8643d723dea0657b241d7bc66e0d.png)
+
+    ## Content
+
+    The file contains 7 lots:
+
+     
+
+    ![image.png.33c952dd87926819128a7d43f66b9d23.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.33c952dd87926819128a7d43f66b9d23.png)
+
+    A\_1P\_BeachVolleyball
+
+    ·         1x1 - Beach Volleyball field
+
+     
+
+    ![image.png.37d8bbcf5a31758e7c38f8afa792b85e.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.37d8bbcf5a31758e7c38f8afa792b85e.png)
+
+    A\_1P\_playa1
+
+    ·         1x1 - Beach Hut
+
+    ![image.png.36db747836767d8421f0637807ba2751.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.36db747836767d8421f0637807ba2751.png)
+
+    A\_1P\_playa2
+
+    ·         1x1 - Beach Bar
+
+    ![image.png.74ee7c7d9cfae86cd6aebe993a9fc4c2.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.74ee7c7d9cfae86cd6aebe993a9fc4c2.png)
+
+    A\_1P\_playa3
+
+    ·         1x1 - Surf Bar
+
+    ![image.png.51e11dbbf6099a514fd9e3cac341486f.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.51e11dbbf6099a514fd9e3cac341486f.png)
+
+    A\_1P\_playa4
+
+    ·         1x2 - Beach Restaurant
+
+     
+
+    ![image.png.a21738e702bd5d532e9d63660005eed3.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.a21738e702bd5d532e9d63660005eed3.png)
+
+    A\_1P\_playa5
+
+    ·         1x1 - Beach with umbrellas
+
+    ![image.png.a21738e702bd5d532e9d63660005eed3.png](https://www.simtropolis.com/objects/attachments/monthly_2021_06/image.png.a21738e702bd5d532e9d63660005eed3.png)
+
+    A\_1P\_playa6
+
+    ·         1x1 - Beach with umbrellas
+
+    ## Dependencies
+
+    [Nams PROPS PACK Vol 1.dat](https://www.toutsimcities.com/downloads/view/1780)
+
+    [Nams PROPS PACK Vol 2.dat](https://www.toutsimcities.com/downloads/view/1882)
+
+    Click **télécharger** to download
+
+    [LBT Tropical Beach Props](https://community.simtropolis.com/files/file/19050-lbt-tropical-beach-props/?tab=comments) // [LBT Mega Prop Pack vol.01](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+
+    [PEG\-OWW2\_BDK\_RESOURCE.dat](https://community.simtropolis.com/files/file/19111-peg-oww2-bdk-beach-development-kit/)
+
+    [Flunight Props Vol 01 - Flora.dat](https://community.simtropolis.com/files/file/31109-flunight-props-vol-01-flora/)
+
+    [NBVC Surfers](https://community.simtropolis.com/files/file/26574-surfers/)
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+
+    The lots will show up towards the end of your parks menu.
+  author: AP
+  website: https://community.simtropolis.com/files/file/34549-a_1p-playa-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/VB_preview.png.2162c4b78b58870594a615bcdc07dd20.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeachBar_2.png.58b0767764b6f2e728e07c2668249334.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/BeachBar_1_1.png.b3812158a35677c52b1d54a701ac6696.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_06/60c4e4e667b51_2021-06-1217_38_42-SC4Fixr7_resize01.jpg.ed8eaffac3deb6460f7c86af0f22aa71.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_06/2021-06-12_2.png.812bcac943961df6b50a5d89908c5ee3.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_06/2021-06-12_3.png.c4c81505d107ee34122f24acdcd77753.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_06/2021-06-12_4.png.3bfc9811484a1e74888ca91029b6ec3f.png
+dependencies:
+  - flunight:props-vol01
+  - hableurg:tropical-beach-props
+  - lbt:mega-prop-pack-vol01
+  - namspopof:props-pack-vol1
+  - namspopof:props-pack-vol2
+  - nbvc:surfers-lots
+  - nbvc:surfers-mmp
+  - nbvc:surfers-props
+  - peg:oww2-bdk-beach-development-kit
+assets:
+  - assetId: ap-playa-set
+
+---
+assetId: ap-playa-set
+version: "1.1.0"
+lastModified: "2021-06-26T17:03:23Z"
+url: https://community.simtropolis.com/files/file/34549-a_1p-playa-set/?do=download&r=189026

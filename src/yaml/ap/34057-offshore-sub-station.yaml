@@ -1,0 +1,30 @@
+group: ap
+name: offshore-sub-station
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: A_1P Offshore Sub Station
+  description: |-
+    This is an offshore substation (OSS) as it is used in offshore windfarms to pool the energy from the wind turbine arrays and transform it to a higher voltage level to then transmit it ashore through the export cables. The hoses leading into the water on the Jacket are the so-called J-tubes that feed in the subsea cables.
+
+    ![OFW_BUtendiek_OffshoreSubstation-1024x76](https://www.owp-butendiek.de/wp-content/uploads/2015/06/OFW_BUtendiek_OffshoreSubstation-1024x768.jpg)
+
+    source:  OWP Butendiek (17.01.2021) [https://www.owp-butendiek.de/technology/substation/](https://www.owp-butendiek.de/technology/substation/)
+
+    Below is some inspiration how to use it:
+
+    ![OSS-Preview-1-soft.png](https://i.postimg.cc/FHdwkCLv/OSS-Preview-1-soft.png)
+  author: AP
+  website: https://community.simtropolis.com/files/file/34057-a_1p-offshore-sub-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/OSS_Preview_1.png.67e2b47a6e4562ac4019eec239ded992.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/OSS_Preview_2.png.4511908043c8dd785bed7e416af510b6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/OSS_Preview_3.png.38896a048a630dddcb64bfb36f42dc3b.png
+assets:
+  - assetId: ap-offshore-sub-station
+
+---
+assetId: ap-offshore-sub-station
+version: "1.0.0"
+lastModified: "2021-01-17T13:31:36Z"
+url: https://community.simtropolis.com/files/file/34057-a_1p-offshore-sub-station/?do=download&r=184582
