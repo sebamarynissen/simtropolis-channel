@@ -1,7 +1,7 @@
 ---
 assetId: ulisse-wolf-building-style-mediterranean-heritage
-version: "3.0.0"
-lastModified: "2026-02-23T02:27:33Z"
+version: "3.0.1"
+lastModified: "2026-05-27T16:25:36Z"
 url: https://community.simtropolis.com/files/file/36969-building-style-mediterranean-heritage/?do=download
 
 ---
@@ -33,3 +33,6 @@ dependencies:
 
 assets:
   - assetId: ulisse-wolf-building-style-mediterranean-heritage
+    include:
+    - "/Building Style - Mediterranean Heritage SC4Pac Installer.json"
+    - "/Building Style Mediterranean Heritage.dat"
