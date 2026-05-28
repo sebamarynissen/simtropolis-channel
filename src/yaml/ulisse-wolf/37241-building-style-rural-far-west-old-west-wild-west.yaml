@@ -1,13 +1,13 @@
 ---
 assetId: ulisse-wolf-building-style-rural-far-west-old-west-wild-west
-version: "2.0.0"
-lastModified: "2026-03-06T19:05:59Z"
+version: "2.0.1"
+lastModified: "2026-05-27T23:29:29Z"
 url: https://community.simtropolis.com/files/file/37241-building-style-rural-far-west-old-west-wild-west/?do=download
 
 ---
 group: ulisse-wolf
 name: building-style-rural-far-west-old-west-wild-west
-version: "2.0.0"
+version: "2.0.1"
 subfolder: 150-mods
 info:
   summary: Building Style - Rural and Far West/Old West/Wild West
@@ -16,8 +16,7 @@ info:
   author: Ulisse Wolf
   website: https://community.simtropolis.com/files/file/37241-building-style-rural-far-west-old-west-wild-west/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2026_02/69868c7db90b6_OldWest.png.bddad526f75c00fa459140c950fd03b5.png
-    - https://www.simtropolis.com/objects/screens/monthly_2026_02/wild-wild-west-darren-white.jpg.8ad783c7004d9ad7376f5df31be1bf84.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/DJI_0855-copy-1.jpg.d591d9fdcf6320e57c351bf507d654e5.jpg
 
   warning: |-
     This Building Style plugin comes with an JSON configuration file:
@@ -31,3 +30,6 @@ dependencies:
 
 assets:
   - assetId: ulisse-wolf-building-style-rural-far-west-old-west-wild-west
+    include:
+    - "/Building Style - Rrual-Old West SC4Pac Installer.json"
+    - "/Building Style Rural Old West.dat"

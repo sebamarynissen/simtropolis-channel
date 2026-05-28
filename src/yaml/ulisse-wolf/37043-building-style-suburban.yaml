@@ -1,13 +1,13 @@
 ---
 assetId: ulisse-wolf-building-style-suburban
-version: "3.0.0"
-lastModified: "2026-03-06T19:07:52Z"
+version: "3.0.0-1"
+lastModified: "2026-05-27T23:44:26Z"
 url: https://community.simtropolis.com/files/file/37043-building-style-suburban/?do=download
 
 ---
 group: ulisse-wolf
 name: building-style-suburban
-version: "3.0.0"
+version: "3.0.0-1"
 subfolder: 150-mods
 info:
   summary: Building Style - Suburban
@@ -30,3 +30,6 @@ dependencies:
 
 assets:
   - assetId: ulisse-wolf-building-style-suburban
+    include:
+    - "/Building Style - Surburban SC4Pac Installer.json"
+    - "/Building Style Suburban.DAT"
