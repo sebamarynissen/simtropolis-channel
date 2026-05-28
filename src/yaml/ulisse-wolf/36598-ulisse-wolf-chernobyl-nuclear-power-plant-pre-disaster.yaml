@@ -35,22 +35,17 @@ info:
   website: https://community.simtropolis.com/files/file/36598-ulisse-wolf-chernobyl-nuclear-power-plant-pre-disaster/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2026_05/iclqxkvivps71.png.0fb9e6eec2287301ba945378743cd540.png
-
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: ulisse-wolf-ulisse-wolf-chernobyl-nuclear-power-plant-pre-disaster
-        exclude:
-          - /Dark Nite/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: ulisse-wolf-ulisse-wolf-chernobyl-nuclear-power-plant-pre-disaster
-        exclude:
-          - /Maxis Nite/
 
 ---
 assetId: ulisse-wolf-ulisse-wolf-chernobyl-nuclear-power-plant-pre-disaster
 version: "2.0.0"
 lastModified: "2026-05-28T00:25:11Z"
-url: https://community.simtropolis.com/files/file/36598-ulisse-wolf-chernobyl-nuclear-power-plant-pre-disaster/?do=download&r=205840
+url: https://community.simtropolis.com/files/file/36598-ulisse-wolf-chernobyl-nuclear-power-plant-pre-disaster/?do=download&r=211737
