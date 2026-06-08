@@ -1,0 +1,69 @@
+group: ap
+name: offshore-wind-turbine-swt-60-154
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: A_1P Offshore Wind Turbine SWT-6.0-154
+  description: |-
+    This is the model of a 6 MW offshore wind turbine based on a Siemens SWT-6.0-154©. It has a rotor diameter of 154m and at a hub height of 120m (for these specific models I made). It is built on a 3 legged jacket for shallow coastal regions.
+
+    The difference of this turbine compared to my other models is that it is a direct drive system. This means there is no gearbox transmitting the rotation to common generator rpms (1500rpm). Instead, there is a large diameter, multi pole, variable rpm generator that is driven directly by the rotor (7-15rpm). The converters and transformers are located in the nacelle. More info can be found [here](https://www.siemensgamesa.com/products-and-services/offshore/wind-turbine-swt-6-0-154).
+
+    ## Content
+
+    This File contains four wind power plant lots with the same turbine type at different rotor positions.
+
+    The production is set to 6000 and the O&M costs are 200$ per month. One turbine is undergoing maintenance and has no power output and zero budget impact.
+
+    ![Icon_r1_small.png.fa7e933e770a5cf55fde11c365b90a90.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r1_small.png.fa7e933e770a5cf55fde11c365b90a90.png)
+
+    A\_1P\_SWT-6.0\_r1
+
+    Offshore Wind Turbine SWT-6.0 - rotation 1
+
+    ![Icon_r2_small.png.9452da89f60da8f5a2e36a397ad6a0bf.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r2_small.png.9452da89f60da8f5a2e36a397ad6a0bf.png)
+
+    A\_1P\_SWT-6.0\_r2
+
+    Offshore Wind Turbine SWT-6.0 - rotation 2
+
+    ![Icon_r3_small.png.666fe4cd50f4357ab93c1ae40ca2bfea.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r3_small.png.666fe4cd50f4357ab93c1ae40ca2bfea.png)
+
+    A\_1P\_SWT-6.0\_r3
+
+    Offshore Wind Turbine SWT-6.0 - rotation 3
+
+    ![Icon_m_small.png.99bc454c199d6db71125f52417c40885.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_m_small.png.99bc454c199d6db71125f52417c40885.png)
+
+    A\_1P\_SWT-6.0\_m
+
+    Offshore Wind Turbine SWT-6.0 - at maintenance (Rotor locked in y-position, personnel working on TP platform)
+
+    ## Dependencies
+
+    none
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+
+    ![siemensgamesaswt60154c030011.jpg?mw=900&](https://www.siemensgamesa.com/-/media/siemensgamesa/products-and-services/offshore/wind-turbine-swt-6-0-154/siemensgamesaswt60154c030011.jpg?mw=900&hash=FC8B4E4EC8E8CD1E8D277FACEBC0761FDB3A637E)
+  author: AP
+  website: https://community.simtropolis.com/files/file/34301-a_1p-offshore-wind-turbine-swt-60-154/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview_3.png.927178e8b246caf1a7fb3a3f84d566b0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview_2.png.761610c269b7cc44e2bf6123285e160e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview_4.png.7f6798ff2ce49e6d3f1014c6752e790c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview_5.png.375bb4d7c8d897e85846b60dfd9ea839.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview_6.png.266020ea83845d8df16903eaed1da3cc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview_1.png.53ecd2968b0801a350b38a2920925cda.png
+assets:
+  - assetId: ap-offshore-wind-turbine-swt-6-0-154
+
+---
+assetId: ap-offshore-wind-turbine-swt-6-0-154
+version: "1.0.0"
+lastModified: "2021-03-20T22:40:26Z"
+url: https://community.simtropolis.com/files/file/34301-a_1p-offshore-wind-turbine-swt-60-154/?do=download&r=186467

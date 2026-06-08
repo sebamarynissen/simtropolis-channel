@@ -1,0 +1,112 @@
+group: ap
+name: simworkers-1-mmps
+version: "1.1.1"
+subfolder: 180-flora
+info:
+  summary: A_1P SimWorkers_1
+  description: |-
+    **There are three files available for download now:**
+
+    1.  #### **A\_1P\_SimWorkers\_1.zip (Scale 1:1, this is actually a little small for the Maxis world)**
+        
+    2.  #### **A\_1P\_120\_SimWorkers\_1.1.zip (Scale 5:6, these are a little bit bigger and fit in better with other props on your lots)**
+        
+    3.  **A\_1P\_120\_SimWorkers\_1.1.1\_MMP.zip which allowes you to use the rescaled models as MMPs!** **(is dependent on file 2.)**
+
+    **Description:**  
+    These are some SimWorkers to bring a little bit of action to your lots. I decided to start with 3 different groups each consisting of 8 sims, for this first pack:  
+    • Factory/Harbor Personnel (neon reflective jacket, yellow helmet)  
+    • Construction Workers (orange jacket+pants, white helmet)  
+    • Offshore Workers (red life suit, neon life vest, black harness, white helmet)
+
+    **Content:**  
+    This File contains one .dat-File with 24 different props:
+
+    Harbor/Factory  
+    Workers
+
+    ![Worker_1.png.4fa9240213f3a81a2a9c19620cd6904a.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker_1.png.4fa9240213f3a81a2a9c19620cd6904a.png)  
+    ▪ A\_1P\_HarborWorker#1  
+    ▪ A\_1P\_HarborWorker#2\_lifting  
+    ▪ A\_1P\_HarborWorker#3\_grinding  
+    ▪ A\_1P\_HarborWorker#4\_sweeping  
+    ▪ A\_1P\_HarborWorker#5\_readingPlan  
+    ▪ A\_1P\_HarborWorker#6\_toolbox  
+    ▪ A\_1P\_HarborWorker#7\_carrying  
+    ▪ A\_1P\_HarborWorker#8\_welding  
+    Construction  
+    Workers
+
+    ![Worker_2.png.80afde629c0bbd4e44a872ffb5b70b78.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker_2.png.80afde629c0bbd4e44a872ffb5b70b78.png)  
+    ▪ A\_1P\_ConstructionWorker#1  
+    ▪ A\_1P\_ConstructionWorker#2\_hammering  
+    ▪ A\_1P\_ConstructionWorker#3\_surveyor  
+    ▪ A\_1P\_ConstructionWorker#4\_surveyor-assi  
+    ▪ A\_1P\_ConstructionWorker#5\_wheelbarrow  
+    ▪ A\_1P\_ConstructionWorker#6\_wackerplate  
+    ▪ A\_1P\_ConstructionWorker#7\_shovel  
+    ▪ A\_1P\_ConstructionWorker#8\_smoking  
+    Offshore  
+    Workers
+
+    ![Worker_3.png.c8c257552bd0857b8d8b0012b693b34a.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Worker_3.png.c8c257552bd0857b8d8b0012b693b34a.png)  
+    ▪ A\_1P\_OffshoreWorker#1  
+    ▪ A\_1P\_OffshoreWorker#2\_winching (has to be placed under helicopter or crane)  
+    ▪ A\_1P\_OffshoreWorker#3\_cranebags (has to be placed under helicopter or crane)  
+    ▪ A\_1P\_OffshoreWorker#4\_kneeling  
+    ▪ A\_1P\_OffshoreWorker#5\_climbing  
+    ▪ A\_1P\_OffshoreWorker#6\_impactwrench  
+    ▪ A\_1P\_OffshoreWorker#7\_linehandeling  
+    ▪ A\_1P\_OffshoreWorker#8\_pullinglever
+
+    **Dependencies**:  
+    • none  
+    **Instructions**:  
+    This is a prop file! The content must be placed on your lot using a lot-editor! Unzip and place in (work-) plugin folder, place in plugin folder once used in a lot file, eg.:  
+    C:/Users//Documents/SimCity 4/Plugins
+
+    **Note:**  
+    I have set the height of the Sims to 1,8m + PPE (personal protective equipment) coming up to 1,9m. Therefor they are more realistic in size compared to other small props like cars etc. They seem to be smaller than other already existing people props though.
+  author: AP
+  website: https://community.simtropolis.com/files/file/34123-a_1p-simworkers_1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers_Preview_2_res.png.f5b345ae34eb1b1d632f0521f1f9a991.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers_Preview_5_res_rotate.png.f1d868292174cfdc68c61aa5ea7f77a1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers1_MMP_preview.png.093c4c0d074bcef45c9093aeb6e7baad.png
+dependencies:
+  - ap:simworkers-1-props
+assets:
+  - assetId: ap-simworkers-1-mmps
+
+---
+group: ap
+name: simworkers-1-props
+version: "1.1.1"
+subfolder: 100-props-textures
+info:
+  summary: Construction worker props
+  description: |-
+    These are some SimWorkers to bring a little bit of action to your lots. I decided to start with 3 different groups each consisting of 8 sims, for this first pack:
+      - Factory/Harbor Personnel (neon reflective jacket, yellow helmet)
+      - Construction Workers (orange jacket+pants, white helmet)
+      - Offshore Workers (red life suit, neon life vest, black harness, white helmet) 
+  author: AP
+  website: https://community.simtropolis.com/files/file/34123-a_1p-simworkers_1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers_Preview_2_res.png.f5b345ae34eb1b1d632f0521f1f9a991.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers_Preview_5_res_rotate.png.f1d868292174cfdc68c61aa5ea7f77a1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Workers1_MMP_preview.png.093c4c0d074bcef45c9093aeb6e7baad.png
+assets:
+  - assetId: ap-simworkers-1-props
+
+---
+assetId: ap-simworkers-1-props
+version: "1.1.1"
+lastModified: "2021-02-18T08:24:44Z"
+url: https://community.simtropolis.com/files/file/34123-a_1p-simworkers_1/?do=download&r=185395
+
+---
+assetId: ap-simworkers-1-mmps
+version: "1.1.1"
+lastModified: "2021-02-18T08:24:44Z"
+url: https://community.simtropolis.com/files/file/34123-a_1p-simworkers_1/?do=download&r=185396

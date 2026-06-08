@@ -1,0 +1,72 @@
+group: ap
+name: onshore-wtg-v80
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: A_1P Onshore WTG V80
+  description: |-
+    This is the model of a 2 MW onshore wind turbine based on a Vestas V80©. It has a rotor diameter of 80m and at a hub height of 90m (for these specific models I made). The V80 has now been replaced by the V90 in the 2MW platform of Vestas’ fleet, but I decided to create this model, since it is so widely distributed.
+
+    Vestas is one of the biggest manufacturers of wind turbines worldwide and has been in the wind industry for over 30 years. More info about this model can be found [here](https://www.wind-turbine-models.com/turbines/19-vestas-v80-2.0) and more info about the 2MW platform [here](http://nozebra.ipapercms.dk/Vestas/Communication/Productbrochure/2MWbrochure/2MWProductBrochure/).
+
+    ![v80-1-1458300267.jpg](https://en.wind-turbine.com/cms/image/2/0/600/2/0/media/markt/v80-1-1458300267.jpg)
+
+    ## Content
+
+    This File contains four wind power plant lots with the same turbine type at different rotor positions.
+
+    The production is set to 2000 and the O&M costs are 90$ per month. Therefore, it is slightly less cost efficient than the newer V126 I published. One turbine is undergoing maintenance and has no power output and zero budget impact.
+
+    ![Icon_r1_res.png.a6e6cf2efbd668db96538254446b192d.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r1_res.png.a6e6cf2efbd668db96538254446b192d.png)
+
+    ## A\_1P\_V80\_r1
+
+    Onshore Wind Turbine V80 - rotation 1
+
+    ![Icon_r2_res.png.7954e4b5d948811747ada79c196b8f19.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r2_res.png.7954e4b5d948811747ada79c196b8f19.png)
+
+    ## A\_1P\_V80\_r2
+
+    Onshore Wind Turbine V80 - rotation 2
+
+    ![Icon_r3_res.png.bcc06feb1356378a120adbc278242960.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r3_res.png.bcc06feb1356378a120adbc278242960.png)
+
+    ## A\_1P\_V80\_r3
+
+    Onshore Wind Turbine V80 - rotation 3
+
+    ![Icon_m_res.png.72f78a1dcd73f0438dc92a5337580683.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_m_res.png.72f78a1dcd73f0438dc92a5337580683.png)
+
+    ## A\_1P\_V80\_m
+
+    Onshore Wind Turbine V80 - at maintenance
+
+    ## Dependencies
+
+    ·         [SHK\_ParkingPack.dat](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    ·         [A\_1P\_SimWorkers\_5](https://community.simtropolis.com/files/file/34189-a_1p-simworkers_5/)
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+  author: AP
+  website: https://community.simtropolis.com/files/file/34205-a_1p-onshore-wtg-v80/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview2.jpg.2bfa1b081e7f620dc33ec12dd60064b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview3.jpg.704af30d473a14e56d83c6e24915a799.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview4.jpg.f62fded0fba003b5f90949ec777eeda3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview5.jpg.9af06b6ec793e9c520efe4917e420e3f.jpg
+dependencies:
+  - ap:simworkers-5-props
+  - shk:parking-pack
+assets:
+  - assetId: ap-onshore-wtg-v80
+
+---
+assetId: ap-onshore-wtg-v80
+version: "1.0.0"
+lastModified: "2021-03-01T18:53:47Z"
+url: https://community.simtropolis.com/files/file/34205-a_1p-onshore-wtg-v80/?do=download&r=185841
