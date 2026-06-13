@@ -1,14 +1,14 @@
 group: "null-45"
 name: "sc4-graphics-options"
-version: "1.3.1"
+version: "1.4"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-sc4-graphics-options"
   withChecksum:
   - include: "/SC4GraphicsOptions.dll"
-    sha256: 7039FB204BAC541B3B560CE7FC2774991214DA454ADF57B6640E9F5285D53D02
+    sha256: ddfd1723bb61652b4c533e68922b156029d35bea9d00cf9efbb87058dd08009c
   - include: "/SC4GraphicsOptions.ini"
-    sha256: C6F2E326099ECE47760DDC21E0384768E857AA42C2B6B733D806036AEA8640E7
+    sha256: 4b572b941a16701addcb7d646649e8985bf37c6ede2b79fa460da0e569c3f6d5
     isIni: true
 
 
@@ -100,7 +100,7 @@ info:
 
 ---
 assetId: "null-45-sc4-graphics-options"
-version: "1.3.1"
-lastModified: "2025-06-21T00:39:51Z"
+version: "1.4"
+lastModified: "2026-05-29T15:30:50Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36091-sc4-graphics-options/?do=download"
-url: "https://github.com/0xC0000054/sc4-graphics-options/releases/download/v1.3.0/SC4GraphicsOptions.zip"
+url: "https://github.com/0xC0000054/sc4-graphics-options/releases/download/v1.4.0/SC4GraphicsOptions.zip"
