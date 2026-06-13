@@ -1,6 +1,6 @@
 group: rivit
 name: urban-tarsealed-street-modd
-version: "4.42"
+version: "4.42-1"
 subfolder: 900-overrides
 info:
   summary: RVT Urban Tarsealed Street Modd
@@ -125,8 +125,7 @@ assets:
     include:
     - /RVT Streets/RVT Tarsealed Streets - RRWx RHD.dat
   - ifVariant: { rivit:urban-tarsealed-street-modd:rail: maxis }
-    exclude:
-    - .
+    # includes no additional files in addition to other variants defined above
 
 ---
 group: rivit
