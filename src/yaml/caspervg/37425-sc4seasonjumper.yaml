@@ -1,0 +1,48 @@
+group: "caspervg"
+name: "sc4-season-jumper-dll"
+version: "0.2.0"
+subfolder: "150-mods"
+dependencies:
+  - "config:sc4-edition-windows-digital"
+assets:
+- assetId: "caspervg-sc4-season-jumper"
+  withChecksum:
+   - include: /SC4SeasonJumper.dll
+     sha256: ED5D63BE8C123128EF5EE9E54188C60B461CD37AF0BAF9DA6EED084A22FBAD84
+   - include: /SC4SeasonJumper.ini
+     sha256: E195D8949F36CF7195513109A863CF1616F647DA353567B2661B9FF3B59B014D
+   - include: /SC4SeasonJumper.dat
+     sha256: F730B3FB3C1E03E12EC0D942562B1A774F40477D93F4107F4B321C85F95F5E2D     
+
+info:
+  summary: " DLL plugin for SimCity 4 that fast-forwards the city simulation to the start of a target season, then pauses the city automatically."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+     SC4 Season Jumper is a DLL plugin for SimCity 4 that fast-forwards the city simulation to the start of a target season, then pauses the city automatically. It is designed for seasonal-flora workflows, consistent region-view screenshots, and other date-sensitive city-building tasks where you want the simulator to advance normally instead of forcing the date with the SC4ExtraCheatsDLL SimDate cheat (which can introduce bugs in the city statistics).
+
+     The plugin is mainly aimed at players who use seasonal flora, seasonal props, detailed MMP scenes, or region-view presentation workflows. By letting the game run at its fastest speed until the target date, SC4 Season Jumper avoids the historical-stat issues that can happen when the date is changed directly.
+
+     It also includes an enabled-by-default fix for a vanilla SimCity 4 bug where seasonal props created during their active season can stay invisible until the next time their start date comes around.
+     
+    **Main features**
+    
+    *  Ctrl+F9 hotkey for jumping to the next useful seasonal date
+    * From January through August, Ctrl+F9 jumps to September 1
+    * From September through December, Ctrl+F9 jumps to June 1 of the next year
+    * Automatically pauses the city when the target date is reached
+    * Press Ctrl+F9 again while a jump is running to cancel and pause immediately
+    * Cheat commands for jumping to specific seasons
+    * Fixes the seasonal prop visibility bug: covers painted props (from SC4Plop-and-Paint), plopped or grown lot props, and 3D prop previews 
+
+
+  author: "CasperVg"
+  website: "https://community.simtropolis.com/files/file/37425-sc4seasonjumper-dll/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/131e48ab-5fd5-4d46-810a-a510b08528a2.png.d445198cff5b62bc2bda60790ec3f5e5.png
+
+---
+assetId: "caspervg-sc4-season-jumper"
+version: "0.2.0"
+lastModified: "2026-06-13T09:05:26Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37425-sc4seasonjumper-dll/?do=download"
+url: "https://github.com/caspervg/sc4-season-jumper/releases/download/v0.2.0/SC4SeasonJumper-v0.2.0-win32.zip"
