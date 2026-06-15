@@ -20,7 +20,7 @@ Accepts GET requests.
 | `desctype` | String | Adds the file description data in any of the specified formats.  <br>Allows more than one option when separated by commas.  <br>Options:  `text`,  `html`,  `urls`  <br>If  `urls`  is specified, it lists Source URLs and/or GitHub URLs in an 'infoURLs' field (if any are provided on a file). | `desctype=text,html,urls` |
 | `filterurls` | String | Filters URLs when  `desctype=urls`  is used.  <br>Allows one or multiple comma-separated terms. | `filterurls=simtropolis.com` |
 | `images` | String | Determines which images should be fetched. Each option assigns them to a separate array field.  <br>Options:  `primary`,  `main`,  `thumbs`,  `desc` | `images=primary,main,desc` |
-| `category` | Integer | Specific category ID to filter files. Only files within this category specified will be returned. The SC4 category IDs range from  `101-122`.<br>101 = Residential<br>102 = Commercial<br>103 = Industrial<br>104 = Agricultural<br>105 = Building Sets<br>106 = Civic & Non-RCI<br>107 = Utilities<br>108 = Parks & Plazas<br>109 = Waterfront<br>110 = Transportation<br>111 = Automata<br>112 = Gameplay Mods<br>113 = Graphical Mods<br>114 = Cheats<br>115 = Tools<br>116 = Maps<br>117 = Ready Made Regions<br>118 = Dependencies<br>119 = 3ds Models<br>120 = Obsolete & Legacy<br>121 = Reference & Info<br>122 = DLL Mods<br><br><details><summary>CitiesXL</summary>003 = CitiesXL Buildings<br>010 = CitiesXL 3D Models<br>012 = CitiesXL Lots<br>013 = CitiesXL Maps<br>015 = CitiesXL Textures & Props<br>016 = CitiesXL Mods & Tools</details><details><summary>SimCity (2013)</summary>017 = SimCity (2013) Buildings<br>019 = SimCity (2013) Game Mods<br>020 = SimCity (2013) Programs & Tools<br>021 = SimCity (2013) Vehicles<br>022 = SimCity (2013) User Interface<br>023 = SimCity (2013) Roads & Traffic</details><details><summary>Cities: Skylines</summary>024 = Cities: Skylines Buildings<br>026 = Cities: Skylines Game Mods<br>027 = Cities: Skylines Roads & Traffic<br>029 = Cities: Skylines Programs & Tools<br>030 = Cities: Skylines Maps<br>024 = Cities: Skylines Props<br>038 = Cities: Skylines Vehicle Assets</details><details><summary>SimCity 2013</summary>041 = SimCity 3000 Files<br>042 = SimCity 3000 Maxis Files<br>043 = SimCity 3000 Cities & Maps</details><details><summary>Banished</summary>150 = Banished Mods</details><details><summary>Cities: Skylines II</summary>156 = Cities: Skylines II</details> | `category=101` |
+| `category` | Integer | Specific category ID to filter files. Only files within this category specified will be returned. See the [STEX Categories](#stex-categories) section below for a full list. | `category=101` |
 | `author` | String _OR_ Integer | Filter files by author. Use the author's user ID for a numeric input, or their name as a string. No quotes are required, but can be optionally added. | `author=NAM Team`  <br>`author=131403` |
 | `query` | String | Search term to filter files by name.  <br>Multi-word queries can be enclosed in quotes. | `query="DLL Plugin"` |
 | `sc4only` | Boolean | Only fetch files inside the SC4 categories.  <br>Use `true` to enable this filter.  <br>Default:  `false` | `sc4only=true` |
@@ -30,6 +30,111 @@ Accepts GET requests.
 | `sort` | String | Sort order for results.  <br>Options:  `asc` for ascending and `desc` for descending (newest first).  <br>Default:  `desc` | `sort=desc`  <br>`sort=asc` |
 | `offset` | Integer | Allows the results to be offset by a specified number of records.  <br>Useful to find results beyond the 1000 files limit. | `offset=123` |
 | `limit` | Integer | Restricts the results output, by trimming the total.  <br>Is an optional parameter which can be 1 or greater.  <br>Note: Maximum value: 1000 | `limit=100` |
+
+## STEX Categories
+These general SC4 category IDs range from are returned with the `sc4only = true` argument.
+- 101 = Residential
+- 102 = Commercial
+- 103 = Industrial
+- 104 = Agricultural
+- 105 = Building Sets
+- 106 = Civic & Non-RCI
+- 107 = Utilities
+- 108 = Parks & Plazas
+- 109 = Waterfront
+- 110 = Transportation
+- 111 = Automata
+- 112 = Gameplay Mods
+- 113 = Graphical Mods
+- 114 = Cheats
+- 115 = Tools
+- 116 = Maps
+- 117 = Ready Made Regions
+- 118 = Dependencies
+- 119 = 3ds Models
+- 120 = Obsolete & Legacy
+- 121 = Reference & Info
+- 122 = DLL Mods
+
+Special SC4 file categories are as follows:
+- 32 = SimPeg (PLEX) Files
+- 33 = PLEX Custom Lots & Mods
+- 34 = CDK - Coastal Development Kit
+- 35 = MTP - Mountain Theme Pack
+- 36 = SPAM - SimPeg Agricultural Mod
+- 37 = PEG Utopian Series
+- 64 = SimCityPolska Files
+- 67 = SimCityBrasil Files
+- 73 = WorkingMan Productions (WMP) Files
+
+Files uploaded to the **Found Custom Contents Club**
+- 164 = Chinese Sites
+- 165 = European Sites
+- 166 = Japanese Sites
+- 167 = North America Sites
+- 168 = Asia Pacific Sites
+
+<details>
+    <summary>CitiesXL</summary>
+    003 = CitiesXL Buildings
+    <br>010 = CitiesXL 3D Models
+    <br>012 = CitiesXL Lots
+    <br>013 = CitiesXL Maps
+    <br>015 = CitiesXL Textures & Props
+    <br>016 = CitiesXL Mods & Tools
+</details>
+
+<details>
+    <summary>SimCity (2013)</summary>
+    017 = SimCity (2013) Buildings
+    <br>019 = SimCity (2013) Game Mods
+    <br>020 = SimCity (2013) Programs & Tools
+    <br>021 = SimCity (2013) Vehicles
+    <br>022 = SimCity (2013) User Interface
+    <br>023 = SimCity (2013) Roads & Traffic
+</details>
+
+<details>
+    <summary>Cities: Skylines</summary>
+    024 = Cities: Skylines Buildings
+    <br>026 = Cities: Skylines Game Mods
+    <br>027 = Cities: Skylines Roads & Traffic
+    <br>029 = Cities: Skylines Programs & Tools
+    <br>030 = Cities: Skylines Maps
+    <br>024 = Cities: Skylines Props
+    <br>038 = Cities: Skylines Vehicle Assets
+</details>
+
+<details>
+    <summary>SimCity 2000</summary>
+    69 = SCURK Tilesets
+    <br>70 = City Files
+    <br>71 = Multi Object Tilesets
+    <br>72 = Single Object Tilesets
+    <br>159 = Mac Files
+</details>
+
+<details>
+    <summary>SimCity 3000</summary>
+    41 = SimCity 3000 Files
+    <br>42 = SimCity 3000 Maxis Files
+    <br>43 = SimCity 3000 Cities & Maps
+    <br>81 = SimCity 3000 Starter Towns
+    <br>82 = SimCity 3000 Cities
+    <br>83 = SimCity 3000 Terrains
+</details>
+
+<details>
+    <summary>Banished</summary>
+    150 = Banished Mods
+    <br>152 = Kid's Mods
+    <br>158 = Modding Files
+</details>
+
+<details>
+    <summary>Cities: Skylines II</summary>
+    156 = Cities: Skylines II
+</details>
 
 # Examples
 Example queries are courtesy of Cyclone Boom. These can be run in the browser. 

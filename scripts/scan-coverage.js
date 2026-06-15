@@ -20,6 +20,15 @@ import { buildIndex } from './manual-add.js';
 // The API returns category names in file.category, so we don't need to map them.
 // eslint-disable-next-line no-unused-vars
 const STEX_CATEGORIES = {
+	32: 'SimPeg (PLEX) Files',
+	33: 'PLEX Custom Lots & Mods',
+	34: 'CDK - Coastal Development Kit',
+	35: 'MTP - Mountain Theme Pack',
+	36: 'SPAM - SimPeg Agricultural Mod',
+	37: 'PEG Utopian Series',
+	64: "SimCityPolska Files",
+	67: 'SimCityBrasil Files',
+	73: "WorkingMan Productions (WMP) Files",
 	101: 'Residential',
 	102: 'Commercial',
 	103: 'Industrial',
@@ -42,6 +51,12 @@ const STEX_CATEGORIES = {
 	120: 'Obsolete & Legacy',
 	121: 'Reference & Info',
 	122: 'DLL Mods',
+	// Found Custom Contents Club files
+	164: 'Chinese Sites',
+	165: 'European Sites',
+	166: 'Japanese Sites',
+	167: 'North America Sites',
+	168: 'Asia Pacific Sites',
 };
 
 // Categories to exclude
