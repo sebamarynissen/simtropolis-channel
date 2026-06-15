@@ -1,14 +1,14 @@
 group: "caspervg"
 name: "sc4-render-services-dll"
-version: "0.5.2"
+version: "0.6.3"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
 assets:
 - assetId: "caspervg-sc4-render-services"
   withChecksum:
-  - include: /SC4RenderServices-0.5.2-Setup.exe
-    sha256: 0417362292CD30B454C2192416564FF53D9C6D7FF6EFF50770FF9EE3025DD19B
+  - include: /SC4RenderServices-0.6.3-Setup.exe
+    sha256: 35971DE43BF304DCD0A5F8953593F5743BFFAA630F9CCD928E5F10367C1214C8
   
 
 info:
@@ -25,23 +25,22 @@ info:
   warning: |-
     To complete the installation, you must run this executable file:
 
-    * `SC4RenderServices-0.4.4-Setup.exe`
+    * `SC4RenderServices-0.6.3-Setup.exe`
 
     The installer is located in the following folder:
 
-    * `150-mods/caspervg.sc4-render-services-dll.0.5.2.sc4pac` 
+    * `150-mods/caspervg.sc4-render-services-dll.0.6.3.sc4pac` 
     
     Run the installer and follow the instructions provided.
     
   author: "CasperVg"
-  website: "https://community.simtropolis.com/files/file/37372-sc4-render-services/"
+  website: "https://community.simtropolis.com/files/file/37423-sc4renderservices-dll/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2026_03/render_services.jpg.532bf22d7aba7fd964e215ee15d2e18f.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2026_03/479saiwmv3lg1.jpeg.2f9aa80d1d75c5ca5c450579c7959aa3.jpeg
-    - https://www.simtropolis.com/objects/screens/monthly_2026_03/df.jpg.a879d723da6380b9478e3f2150744aac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/442d01cf-2c9c-41f7-a911-e0e7b1a52d10.png.e57f7cff00ab568fb25a7860eaf412c6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/preview.jpg.29e82b775bbc348d1d845764d9a5a2e3.jpg
 ---
 assetId: "caspervg-sc4-render-services"
-version: "0.5.2"
-lastModified: "2026-03-11T08:06:11Z"
-nonPersistentUrl: "https://community.simtropolis.com/files/file/37372-sc4-render-services/?do=download"
-url: "https://github.com/caspervg/sc4-render-services/releases/download/v0.5.2/sc4-render-services-0.5.2-win32-release.zip"
+version: "0.6.3"
+lastModified: "2026-06-13T08:42:22Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37423-sc4renderservices-dll/?do=download"
+url: "https://github.com/caspervg/sc4-render-services/releases/download/v0.6.3/sc4-render-services-0.6.3-win32-release.zip"
