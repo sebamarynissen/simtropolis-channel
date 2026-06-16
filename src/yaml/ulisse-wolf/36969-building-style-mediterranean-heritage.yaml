@@ -35,4 +35,6 @@ assets:
   - assetId: ulisse-wolf-building-style-mediterranean-heritage
     include:
     - "/Building Style - Mediterranean Heritage SC4Pac Installer.json"
-    - "/Building Style Mediterranean Heritage.dat"
+    withChecksum:
+        - include: /Building Style - Mediterranean Heritage SC4Pac Installer.json
+          sha256: 0491b6d534c0838c7bdd095289f1ac9f2461697f5041a987d6fa35f33d855bac

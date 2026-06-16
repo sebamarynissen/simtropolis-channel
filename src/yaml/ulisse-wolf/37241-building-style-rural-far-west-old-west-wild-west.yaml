@@ -31,5 +31,7 @@ dependencies:
 assets:
   - assetId: ulisse-wolf-building-style-rural-far-west-old-west-wild-west
     include:
-    - "/Building Style - Rrual-Old West SC4Pac Installer.json"
     - "/Building Style Rural Old West.dat"
+    withChecksum:
+        - include: /Building Style - Rrual-Old West SC4Pac Installer.json
+          sha256: 1cb12357fbc955a4fc4a656d66f9b79e11b1e3b3e3da892348434a5aac289cbe
