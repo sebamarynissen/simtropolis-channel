@@ -1,0 +1,44 @@
+assetId: "aford-csi-crime-lab"
+version: "4.0"
+lastModified: "2026-06-03T22:32:11Z"
+url: "https://community.simtropolis.com/files/file/22478-csi-crime-lab/?do=download"
+
+---
+group: aford
+name: csi-crime-lab
+version: "4.0"
+subfolder: 610-safety
+dependencies:
+  - "bsc:mega-props-sg-vol01"
+  - "bsc:mega-props-d66-vol01"
+  - "bsc:textures-vol01"
+  - "t-wrecks:maxis-prop-names-and-query-fix"
+info:
+  summary: CSI Crime Lab
+  description: |-
+    Adding this lot to your city will not only REDUCE crime, but will ensure that those committing crimes are caught.  Using advanced fingerprinting, DNA sampling and forensic techniques your police force will become more efficient.  
+    
+    STATs:
+
+    * Lot size :       4 x 4
+    * Plop Cost:       §380
+    * Monthly Cost:    §150
+    * Budget Item:     Police Protection/ Police Department
+    * Occupant Groups: Civic, Police, Police Building, Strikeable Police
+    * Demand Created:  Jobs§: 33, Jobs§§: 4, Jobs§§§: 0.
+    * Radius:          2304 tiles
+    * Dispatch Radius: 88 tiles
+    * Total Dispatches:4 cars
+    * Jail inmates:    200
+    * Pollution:     Air 1 over 2 tiles, Water 1 over 3 tiles, Garbage 0 over 0 tiles
+    * Power consumed:  1 MwH 
+    * Water consumed:  12 Gallons/Month
+    * Bulldoze Cost: §30 
+    
+  author: aford
+  website: https://community.simtropolis.com/files/file/22478-csi-crime-lab/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2f53de09449125813eec5709bfda8b85-CSI1.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2f53de09449125813eec5709bfda8b85-CSI_2.jpg
+assets:
+  - assetId: aford-csi-crime-lab
