@@ -1,0 +1,66 @@
+group: murimk
+name: waterfront-pack-3-rural-marina
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Murimk Waterfront Pack 3 - Rural Marina
+  description: |-
+    **Description**
+
+    This is a set of 6 lots to make your own rural marina. They are cheap to plop and most of them are neutral, not to blow any caps.
+
+    **List of lots**
+
+    \* Straight 1x1
+
+    \* Straight 2x1
+
+    \* Outer Corner
+
+    \* Inner Corner
+
+    \* Canopy
+
+    \* Boathouse
+
+    They are designed to be plopped and be used with the PPonds by Pegasus, but as there are no water props on the lots, any ploppable water can be used (only tested with PPonds, so feedback on compatibility is appreciated).
+
+    Each lot will randomly plop one of a number of variations in color, detail and model.
+
+    The lots can be found in the 'Parks' menu, and do not have jobs. They have transparent textures and you should be able to plop flora props on the lot itself.
+
+    No dependencies!
+
+    Also available at SimPeg.
+  author: murimk
+  website: https://community.simtropolis.com/files/file/26042-murimk-waterfront-pack-3-rural-marina/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/e51725a5b665cfe11ebb302f34cc3a0f-boatpack3_plex_800.jpg
+dependencies:
+  - murimk:waterfront-pack-3-rural-marina-resources
+assets:
+  - assetId: murimk-waterfront-pack-3-rural-marina
+    exclude:
+      - "/Murimk_Rural_Marina_Resource.dat"
+
+---
+group: murimk
+subfolder: waterfront-pack-3-rural-marina-resources
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models and props for `pkg=murimk:waterfront-pack-3-rural-marina`
+  author: murimk
+  website: https://community.simtropolis.com/files/file/26042-murimk-waterfront-pack-3-rural-marina/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/e51725a5b665cfe11ebb302f34cc3a0f-boatpack3_plex_800.jpg
+assets:
+  - assetId: murimk-waterfront-pack-3-rural-marina
+    include:
+      - "/Murimk_Rural_Marina_Resource.dat"
+
+---
+assetId: murimk-waterfront-pack-3-rural-marina
+version: "1.0"
+lastModified: "2011-07-09T14:00:50Z"
+url: https://community.simtropolis.com/files/file/26042-murimk-waterfront-pack-3-rural-marina/?do=download&r=88751
