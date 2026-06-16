@@ -31,11 +31,32 @@ info:
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
 dependencies:
   - peg:pond-kit-base-set-props
-assets:
-  - assetId: peg-pond-kit-ii-deluxe-edition-v206
-    include:
-    - "/PEG_Ponds_206.dat"
-    - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
+variants:
+  - variant: { peg:pond:base: transparent }
+    assets:
+      - assetId: peg-pond-kit-ii-deluxe-edition-v206
+        include:
+        - "/z_PEG_Ponds_Transparent_206.dat"
+        - "/z_PEG_Pond-WF_Medium_Transparent_206.dat"
+        - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
+        - "/PEG_Ponds_STYLE1_206.dat"
+  - variant: { peg:pond:base: normal }
+    assets:
+      - assetId: peg-pond-kit-ii-deluxe-edition-v206
+        include:
+        - "/PEG_Ponds_206.dat"
+        - "/PEG_Pond-WF_Medium_206.dat"
+        - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
+        - "/PEG_Ponds_STYLE1_206.dat"
+variantInfo:
+- variantId: "peg:pond:base"
+  description: Choose between sets with or without a transparent base
+  values:
+  - value: "transparent"
+    description: The textures are transparent. Ideal for users of terrain mods
+    default: true
+  - value: "normal"
+    description: The lots have a base texture. 
 ---
 assetId: peg-pond-kit-ii-deluxe-edition-v206
 version: "1.2"
