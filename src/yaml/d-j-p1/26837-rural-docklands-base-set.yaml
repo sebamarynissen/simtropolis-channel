@@ -1,0 +1,69 @@
+group: wmp
+name: rural-docklands-base-set
+version: "1.0"
+info:
+  summary: Rural Docklands - Base Set
+  description: |-
+    The first base set contains thirteen 16m wide 1x2 lots, plus two 2x2 IC lots with jobs, and two 2x2 OC lots. The second, optional set of eleven optional 32m and 48m dockland piers contains several pieces with street access and jobs.
+
+    Further to these sets there are additional optional [Warehouse Lots](http://workingman-productions.co.uk/downloads/wmp_rdock_whouses.html), a [Dockland Ferry](http://workingman-productions.co.uk/downloads/wmp_rdock_ferry.html), and a [Dockland Rail Freight Depot](http://workingman-productions.co.uk/downloads/wmp_rdock_freight.html) available separately.
+
+    Like all dockland pieces, they contain timed props and thus use the same set of WMP dependencies. The download contains individual lots rather than a combined DAT, so you can pick and choose which to install. All pieces are self-levelling and will lower the terrain similar to other harbour lots.
+
+    Download sizes are due to the entire project having been rendered in HD.
+
+    **Base Set of 16m Docks:**
+
+    Lot size: 1 x 2 tiles
+
+    Menu position: Building: WaterTransit
+
+    Jobs: IC pieces only (see below)
+
+    Plop cost: § 100 ea.
+
+    Bulldoze cost: § 60 ea.
+
+    Monthly cost: § 10 ea.
+
+    Power Usage: 5 MWh/month ea.
+
+    Water Usage: 5 Gallons/month ea.
+
+    Pollution: Water: 2 over 2 tiles; Garbage: 2 over 2 tiles
+
+    Job Details:
+
+    IC 1 - IM: 9
+
+    IC 2 - IM: 12
+
+    **Credits:**
+
+    Thanks to everyone around the Pegasus site & teams; as always, Dave for his patience with testing this stuff; NBVC and Murimk for their GMax advice.
+
+    Credits also go to Max Grueter for his Working Class Heroes, and the number of anonymous creators at the 3D Warehouse.
+
+    **Problems?**
+
+    If you have problems with this lot it is most likely that you did not download all the dependencies or - just as likely - that we made a mistake. You can contact us via email at comments@workingman-productions.co.uk. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26837-wmp-rural-docklands-base-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/e97247e9f72e4fc7a0cf7e0d083d3bb4-wmp_docks_med.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/edf8c9012e8125a747098d966e5c7033-wmp_harbour_med.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/293bc8cc18f9befa930e85799d75df98-wmp-seawall-catalogue_med.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol06
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+assets:
+  - assetId: wmp-rural-docklands-base-set
+
+---
+assetId: wmp-rural-docklands-base-set
+version: "1.0"
+lastModified: "2011-10-03T07:07:20Z"
+url: https://community.simtropolis.com/files/file/26837-wmp-rural-docklands-base-set/?do=download&r=104435
