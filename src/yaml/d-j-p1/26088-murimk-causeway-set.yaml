@@ -7,10 +7,6 @@ info:
   description: |-
     **WMP Causeways v2.0** (props by **Murimk**, **bixel**; lotting by **DocRorlach**)
 
-    **Lot Details and Information can be found in the readme. Read it.**
-
-    If you use rivit's Urban Tar-sealed Street Mod for your streets, you will need the **z\_WMP Causeway RVTStreet.dat** add-on. You can find this file in the "**\_Documents**" folder and you **need to copy** it into the Plugins/WMP/Textures folder, to **LOAD AFTER** the WMP Mega Textures v1.02.dat.
-
     *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
 
     **Important**: Please note: the game inhibits transit-enabled lots to sit next to each other. What you need to do is to leave at least a one-tile gap between two TE lots - this only applies to street and road lots - then connect these with either road or street and use the seawall piece on either water side to create uniform look.
@@ -19,7 +15,6 @@ info:
 
     -   *Original Creditings*: Thanks to **Murimk** for the seawalls, culverts, and his patience; **Porkissimo** for his French props; **bixel** for the fences; **d\_j\_p** & **rivit** for testing patiently; and of course everyone around the **Pegasus** site.
         
-
     ### Additional Credits:
         
         -   **DocRorlach** and the **WMP team** and his associates for creating the models, props and the original lots.
@@ -48,7 +43,7 @@ variants:
   assets:
   - assetId: wmp-murimk-causeway-set
     exclude:
-      "/z_WMP Causeway RVTStreet.dat"
+      - "/z_WMP Causeway RVTStreet.dat"
 - variant: { wmp:murimk-causeway-set:street-style: "tarsealed" }
   assets:
   - assetId: wmp-murimk-causeway-set
