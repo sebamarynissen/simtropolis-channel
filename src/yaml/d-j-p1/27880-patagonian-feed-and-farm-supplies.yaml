@@ -1,0 +1,51 @@
+group: wmp
+name: patagonian-feed-and-farm-supplies
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Patagonian Feed & Farm Supplies
+  description: |-
+    DocRorlach's *Patagonian Feed & Farm Supplies* store is the latest in the WMP SPAM Workplaces series. True to its rural settings it provides a mere twelve jobs; can be found atop the Landmarks menu; and comes on a 5x4 lot with street access.
+
+    All props and buildings have been rendered in HD.
+
+    **Lot Details and Information:**
+
+    Lot size: 5 x 4 tiles
+
+    Menu position: Landmark,Building: CS$$
+
+    Jobs: 12 C$$
+
+    Plop cost: § 840
+
+    Bulldoze cost: § 525
+
+    Monthly cost: § 15
+
+    Power consumption: 20 MWh/month
+
+    Water consumption: 20 Gallons/month
+
+    Pollution: Garbage: 6 over 8 tiles
+
+    **Problems?**
+
+    If you have problems with this lot it is most likely that you did not download ***all*** the dependencies or - just as likely - that we made a mistake. You can contact us via email at [comments@workingman-productions.co.uk](mailto:comments@workingman-productions.co.uk). Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/27880-patagonian-feed-farm-supplies/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/2bb7ca1591c7f39cf52b79458dc0ccc2-spam_store.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/3da23898c63dd356a9fa23688d870585-feed_store_night.png
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/9ae36a3e2f2a1323388cf832f9dc0ae3-calstore.jpg
+dependencies:
+  - shk:parking-pack
+  - wmp:mega-textures
+assets:
+  - assetId: wmp-patagonian-feed-and-farm-supplies
+
+---
+assetId: wmp-patagonian-feed-and-farm-supplies
+version: "1.0"
+lastModified: "2012-07-28T17:56:41Z"
+url: https://community.simtropolis.com/files/file/27880-patagonian-feed-farm-supplies/?do=download&r=104443

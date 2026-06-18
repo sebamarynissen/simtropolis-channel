@@ -1,0 +1,81 @@
+group: wmp
+name: monorail-system
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Monorail System
+  description: |-
+    **WMP Monorail System** (Unfinished) by DocRorlach
+
+    The **WMP Monorail System** was meant to provide a complete viaduct set, as well as various stations and under-rail-lots. Unfortunately, due to illness, DocRorlach never quite finished the intended set.
+
+    As it stands now, only one viaduct filler has been completed, together with a station to fit Y-Junctions (left), and several straight stations (all 6x1), open and closed (see images below):
+
+    1 Viaduct Filler (with road/street tunnel);
+
+    1 Y-Junction Station;
+
+    1 Dual-Avenue Station;
+
+    1 Full Station (urban);
+
+    3 Full Stations (industrial);
+
+    1 Open Station (industrial);
+
+    It is unlikely that the planned set will ever be completed, however, the GMax models are available upon request, and of course all lots are open to relotting by anyone who wants to have a go at it.
+
+    **Lot Details and Information:**
+
+    Lot sizes: 1 x 1 tiles (overhanging stations), 6x1 Urban Monorail Station
+
+    Menu position: Rail, MonoRail
+
+    Jobs: varied;
+
+    Capacity: 60000-90000 passengers
+
+    Power consumption: varied;
+
+    Water consumption: varied;
+
+    Pollution (stations only): Air: 5 over 5 tiles; Water: 0 over 0 tiles; Garbage: 5 over 5 tiles
+
+    **External Dependencies**:
+
+    -   **[Network Addon Mod (latest)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=851)**  (EL Network Props.dat) (essential)
+
+    **Installation**: Unzip the whole bundle, or COPY the "**WMP**" folder from the \*.zip into your plugin folder. You don't need to keep the "*\_Documents*" folder. To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+
+    *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
+
+    **Credits:**
+    - **DocRorlach** and the **WMP team** for creating the models, props and the original prop packs.
+    - David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+    - Tyberius06 (STEX Custodian) and xxdita for the restoration/rehosting of these contents.
+
+      
+    **Support**:
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/27295-wmp-monorail-system-unfinished-by-docrorlach/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/11ddc9954613e851ec92dc83910e939b-mrail01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/fe07523f4ce9a7b181dd14d14ad33c48-mrail02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/20fb3b9364bcb615d82cb24bd9e0f97e-mrail04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/90e502f60dcbe8ab3f29df7e33d9b4fe-mrail03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/146472b80b1b924881599459c393c03c-mrail07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/711f9a2e09e332c1b26180f3cc653f6e-mrail05_small.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee0ca3b410b3_WMPMonorailSystemLrg.jpg.fcdcbc23008ef71e9214462e54215b3c.jpg
+dependencies:
+  - nam:network-addon-mod
+  - wmp:essentials
+assets:
+  - assetId: wmp-monorail-system-unfinished-by-docrorlach
+
+---
+assetId: wmp-monorail-system-unfinished-by-docrorlach
+version: "2.0"
+lastModified: "2020-06-10T12:18:42Z"
+url: https://community.simtropolis.com/files/file/27295-wmp-monorail-system-unfinished-by-docrorlach/?do=download&r=181428

@@ -1,0 +1,57 @@
+group: wmp
+name: grain-freight-depot
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Grain Freight Depot
+  description: |-
+    Modelled vaguely on a real grain depot, this second lot in the WMP SPAM Workplaces series, the WMP Grain Freight Depot acts as a small, rural freight station providing fifteen jobs. Being a rural depot, the freight capacity is limited at 7,500.
+
+    Since this lot uses custom pathed Single-Track Rail, the latest version of NAM is a requirement.
+
+    **Lot Details and Information:**
+
+    Lot size: 6 x 5 tiles
+
+    Menu position: Building: Transportation,Building: Rail,Building: Strikable Transit,Building: FreightRail
+
+    Jobs: $ : 15,R-$ : 15
+
+    Plop cost: § 850
+
+    Bulldoze cost: § 325
+
+    Monthly cost: § 23
+
+    Power consumption: 21 MWh/month
+
+    Water consumption: 15 Gallons/month
+
+    Pollution: Air: 0 over 0 tiles; Water: 2 over 6 tiles; Garbage: 4 over 6 tiles
+
+    **Credits:**
+
+    Thanks go to *Rivit* for his custom pathing, and to *d\_j\_p1* for his patient testing of all WMP lots & mods;
+
+    **Problems?**
+
+    If you have problems with this lot it is most likely that you did not download all the dependencies or - just as likely - that we made a mistake. You can contact us via email at comments@workingman-productions.co.uk. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/27775-wmp-grain-freight-depot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/b8677f3373dd2e38c3d3a5eed89a8046-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/55c93c3c994acf64a48c28cffe250a3c-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/578ea137618d6516b1cef16c432cbd7b-.jpg
+dependencies:
+  - shk:parking-pack
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+  - stex-custodian-rfy-mega-props-vol01
+assets:
+  - assetId: wmp-grain-freight-depot
+
+---
+assetId: wmp-grain-freight-depot
+version: "1.0"
+lastModified: "2012-06-30T20:18:54Z"
+url: https://community.simtropolis.com/files/file/27775-wmp-grain-freight-depot/?do=download&r=102782

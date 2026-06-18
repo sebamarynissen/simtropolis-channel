@@ -1,0 +1,65 @@
+group: wmp
+name: ethanol-plant-a
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Ethanol Plant A
+  description: |-
+    This is the first in a series of SPAM (SimPeg Agricultural Mod) workplaces: a large ethanol plant, based roughly on a real-life plant somewhere in the United States. The large lot contains everything needed to create the bio fuel, and employs 145 folks from the surrounding rural area. The plant, while listed as a landmark, also acts as a switch between freight rail and freight trucks.
+
+    All buildings were rendered in SD to reduce the overall file size, however, all props were exported using HD. The dependencies contain two BSC Prop Packs that, while large, are common enough that most everyone will already own them.
+
+    An optional Left-Hand Drive patch is available (must be loaded **after** wmp\_texture10.dat).
+
+    **Lot Details and Information**
+
+    Lot size: 11 x 9 tiles
+
+    Menu position: Building: IM,Building: Landmark
+
+    Jobs: 145
+
+    Plop cost: § 1950
+
+    Bulldoze cost: § 965
+
+    Monthly cost: § 45
+
+    Power consumption: 75 MWh/month
+
+    Water consumption: 52 Gallons/month
+
+    Pollution: Air: 0 over 0 tiles; Water: 5 over 5 tiles; Garbage: 10 over 15 tiles
+        
+
+    **Credits**
+
+    Special thanks have to go to the rambuctious players at SimPeg; in particular to *TownMaster* (for his in-depth lectures on how these plants work, and *Polock1* (for suggesting the idea & going out of his way to photograph a local plant);
+
+    Thanks also go to *Rivit* for creating the custom pathing; *Dave* for his patience with testing this stuff; and *shokthrpy* for his superb parking props.
+
+    Problems?
+
+    If you have problems with this lot it is most likely that you did not download all the dependencies or - just as likely - that we made a mistake. You can contact us via email at [comments@workingman-productions.co.uk](mailto:comments@workingman-productions.co.uk). Best include a screen-shot illustrating the problem.
+
+    This and similar lots are also available at the [WMP Exchange](http://workingman-productions.co.uk/downloads/shore_downloads.asp)
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/27762-wmp-ethanol-plant-a/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/f3429d949924d68d513929457adc4a7d-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/7105e0a4ffe4fb836801bae6cf3bf154-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/5b45480cfc05274479030700c75affd2-.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol05
+  - shk:parking-pack
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+assets:
+  - assetId: wmp-ethanol-plant-a
+
+---
+assetId: wmp-ethanol-plant-a
+version: "1.0"
+lastModified: "2012-06-28T07:42:01Z"
+url: https://community.simtropolis.com/files/file/27762-wmp-ethanol-plant-a/?do=download&r=102753

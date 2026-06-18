@@ -1,0 +1,65 @@
+group: wmp
+name: the-rectangle-roundhouse
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: The Rectangle Roundhouse (WMP Railyard)
+  description: |-
+    **The Rectangle Roundhouse** carries quite a few dependencies, and as such is really meant for folks who have already accumulated most of the WMP and BSC props.
+
+    Rather than leave it as a pure landmark, the decision was made to turn the railyard into a freight depot, with track connections for both STR & DTR as well as street access.
+
+    Nearly all SFBT rail props are timed, as are some of the WMP cars and trucks. Its massive size is perhaps not for everyone; unfortunately there was no time to turn it into a modular set as originally planned.
+
+    **Lot Details and Information:**
+
+    Lot size: 10 x 16 tiles
+
+    Menu position: Building: Transportation,Building: Rail,Building: Strikeable Transit,Building: FreightRail
+
+    Jobs: $ : 85, $$ : 14, $$$ : 2
+
+    Plop cost: § 3650
+
+    Bulldoze cost: § 1450
+
+    Monthly cost: § 243
+
+    Max. Fire Stage: 4
+
+    Power consumption: 125 MWh/month
+
+    Water consumption: 153 Gallons/month
+
+    Pollution: Air: 5 over 10 tiles; Water: 2 over 10 tiles; Garbage: 10 over 10 tiles
+
+    **Credits:**
+
+    Special thanks goes once again to *Rivit* for the special track textures, and *Dave* for his patience with testing this stuff;
+
+    **Problems?**
+
+    If you have problems with this lot it is most likely that you did not download all the dependencies or - just as likely - that we made a mistake. You can contact us via email at [comments@workingman-productions.co.uk](mailto:comments@workingman-productions.co.uk). Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/27302-the-rectangle-roundhouse-wmp-railyard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/1cd67933ddc8043282674b7ad33f8447-railyard02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/56811b0c211fd84b0026c0a393c5db3f-railyard01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/396242638b7bc558db59a997d7e002d2-railyard03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/02f51d4c105e87d6458130c553986957-railyard04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/3f317d7d18fad8b55a5df0bbeb353bad-railyard05.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - plundere:catenary-essentials
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+  - sfbt:kenworth-royal-railway-props
+assets:
+  - assetId: wmp-the-rectangle-roundhouse-wmp-railyard
+
+---
+assetId: wmp-the-rectangle-roundhouse-wmp-railyard
+version: "1.0"
+lastModified: "2012-02-23T12:46:03Z"
+url: https://community.simtropolis.com/files/file/27302-the-rectangle-roundhouse-wmp-railyard/?do=download&r=97236
