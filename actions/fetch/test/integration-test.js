@@ -1216,6 +1216,7 @@ describe('The fetch action', function() {
 	it('sends the Simtropolis token when downloading', async function() {
 
 		process.env.SC4PAC_SIMTROPOLIS_TOKEN = 'token';
+		delete process.env.SC4PAC_SIMTROPOLIS_COOKIE;
 
 		const upload = faker.upload({});
 		const { run } = this.setup({
@@ -1225,6 +1226,26 @@ describe('The fetch action', function() {
 				if (url.searchParams.get('do') === 'download') {
 					let cookie = req.headers.get('authorization');
 					expect(cookie).to.equal('SC4PAC-TOKEN-ST userkey="token"');
+				}
+			},
+		});
+		await run({ id: upload.id });
+
+	});
+
+	it('sends the Simtropolis cookie when downloading', async function() {
+
+		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'ips4_member_id=1; ips4_login_key=abc';
+		delete process.env.SC4PAC_SIMTROPOLIS_TOKEN;
+
+		const upload = faker.upload({});
+		const { run } = this.setup({
+			uploads: [upload],
+			handler(req) {
+				let url = new URL(req.url);
+				if (url.searchParams.get('do') === 'download') {
+					let cookie = req.headers.get('cookie');
+					expect(cookie).to.equal('ips4_member_id=1; ips4_login_key=abc');
 				}
 			},
 		});
