@@ -10,8 +10,8 @@ on:
         description: Require metadata.yaml
         type: boolean
         default: true
-  # schedule:  # temporarily disabled, see https://github.com/sebamarynissen/simtropolis-channel/issues/419
-  #   - cron: '32 * * * *'
+  schedule:
+    - cron: '32 * * * *'
 
 jobs:
   add-packages:
