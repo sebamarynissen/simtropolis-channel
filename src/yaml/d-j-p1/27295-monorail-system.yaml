@@ -41,12 +41,6 @@ info:
 
     Pollution (stations only): Air: 5 over 5 tiles; Water: 0 over 0 tiles; Garbage: 5 over 5 tiles
 
-    **External Dependencies**:
-
-    -   **[Network Addon Mod (latest)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=851)**  (EL Network Props.dat) (essential)
-
-    **Installation**: Unzip the whole bundle, or COPY the "**WMP**" folder from the \*.zip into your plugin folder. You don't need to keep the "*\_Documents*" folder. To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
-
     *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
 
     ## Credits
@@ -68,7 +62,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2012/711f9a2e09e332c1b26180f3cc653f6e-mrail05_small.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee0ca3b410b3_WMPMonorailSystemLrg.jpg.fcdcbc23008ef71e9214462e54215b3c.jpg
 dependencies:
-  - nam:network-addon-mod
+  - xyloxadoria:elevated-network-props
   - wmp:essentials
 assets:
   - assetId: wmp-monorail-system-unfinished-by-docrorlach
