@@ -6,30 +6,30 @@ https://community.simtropolis.com/stex/files-api.php
 
 Accepts GET requests.
 
-| Parameter | Type | Description | Example |
-| --- | --- | --- | --- |
-| `key` | Integer | The 16-digit token needed to access the API.  <br>Without this, the request isn't authorized. | `key=0123456789012345` |
-| `id` | Integer | Specific file ID to retrieve a single file directly.  <br>If specified, other filters are ignored.  <br>Multiple IDs can be added if separated by commas. | `id=123`<br>`id=123,124,125` |
-| `mode` | String | Primary sort mode for the results.  <br>Options:  `updated`,  `submitted`,  `metadata`  <br>Default:  `updated` | `mode=updated`<br>`mode=submitted`<br>`mode=metadata` |
-| `type` | String | Secondary sort mode for the results.  <br>Options:  `views`,  `downloads`,  `rep` | `type=downloads` |
-| `days` | Integer | Number of days to filter results based on file submission or update date. Defaults to `365`. If set to `-1`  the results query for all STEX files, irrespective of their date uploaded or updated. | `days=30` |
-| `since` | String _OR_ Integer | Filters the results for files submitted **after** a certain point in time.  <br>Supports ISO date format or a Unix timestamp.  <br>(Handy conversion site [here](https://www.timestamp-converter.com/).) | `since=2024-04-01T08:26:25Z`  <br>`since=1711959985` |
-| `to` | String _OR_ Integer | Filters the results for files submitted **up to** a certain point in time.  <br>Uses the same input format as the  `since`  parameter, and can be used on its own, or in combination as a date-to-date range. | `to=2025-02-08T21:47:47Z`  <br>`to=1739051267` |
-| `datetype` | String | Controls the date timestamp format used.  <br>Options:  `iso`,  `unix`,  `pretty`  <br>Default:  `iso` | `datetype=iso`  <br>`datetype=unix`  <br>`datetype=pretty` |
-| `sizetype` | String | Sets what file size format is used. The  `auto`  option decides which format is best for each file size.  <br>Options:  `auto`,  `megabytes`,  `kilobytes`,  `bytes`  <br>Default:  `auto` | `sizetype=auto`  <br>`sizetype=megabytes`  <br>`sizetype=kilobytes`  <br>`sizetype=bytes` |
-| `desctype` | String | Adds the file description data in any of the specified formats.  <br>Allows more than one option when separated by commas.  <br>Options:  `text`,  `html`,  `urls`  <br>If  `urls`  is specified, it lists Source URLs and/or GitHub URLs in an 'infoURLs' field (if any are provided on a file). | `desctype=text,html,urls` |
-| `filterurls` | String | Filters URLs when  `desctype=urls`  is used.  <br>Allows one or multiple comma-separated terms. | `filterurls=simtropolis.com` |
-| `images` | String | Determines which images should be fetched. Each option assigns them to a separate array field.  <br>Options:  `primary`,  `main`,  `thumbs`,  `desc` | `images=primary,main,desc` |
-| `category` | Integer | Specific category ID to filter files. Only files within this category specified will be returned. See the [STEX Categories](#stex-categories) section below for a full list. | `category=101` |
-| `author` | String _OR_ Integer | Filter files by author. Use the author's user ID for a numeric input, or their name as a string. No quotes are required, but can be optionally added. | `author=NAM Team`  <br>`author=131403` |
-| `query` | String | Search term to filter files by name.  <br>Multi-word queries can be enclosed in quotes. | `query="DLL Plugin"` |
-| `sc4only` | Boolean | Only fetch files inside the SC4 categories.  <br>Use `true` to enable this filter.  <br>Default:  `false` | `sc4only=true` |
-| `changelog` | Boolean | Adds the changelog details if present. Is in either text or HTML format depending on the last ordered  `desctype`  option.  <br>Use  `true`  to enable. Default:  `false` | `changelog=true` |
-| `metadata` | Boolean | Adds the file metadata info if present.  <br>Use  `true`  to enable. Default:  `false` | `metadata=true` |
-| `extras` | Boolean | Adds 3 extra fields: views, downloads, reputation  <br>Note: Reputation is shown anyway if  `type=rep`  is set.  <br>Use `true` to enable.  <br>Default:  `false` | `extras=true` |
-| `sort` | String | Sort order for results.  <br>Options:  `asc` for ascending and `desc` for descending (newest first).  <br>Default:  `desc` | `sort=desc`  <br>`sort=asc` |
-| `offset` | Integer | Allows the results to be offset by a specified number of records.  <br>Useful to find results beyond the 1000 files limit. | `offset=123` |
-| `limit` | Integer | Restricts the results output, by trimming the total.  <br>Is an optional parameter which can be 1 or greater.  <br>Note: Maximum value: 1000 | `limit=100` |
+| Parameter | Type | Description | Default Value | Example |
+| --------- | ----- | ---------- | ------------- | ------- |
+| `key`  | Integer | The 16-digit token needed to access the API. Without this, the request isn't authorized. | N/A |  `key=0123456789012345` |
+| `id` | Integer | Specific file ID to retrieve a single file directly. If specified, other filters are ignored. Multiple IDs can be added if separated by commas. | - |  `id=123`<br>`id=123,124,125` |
+| `mode` | String | Primary sort mode for the results. <br> Options:  `updated`,  `submitted`,  `metadata`|  `updated` |  `mode=updated` <br>  `mode=submitted` <br>  `mode=metadata` |
+| `type` | String | Secondary sort mode for the results. <br> Options:  `views`,  `downloads`,  `rep` | - |  `type=downloads` |
+| `days` | Integer | Number of days to filter results based on file submission or update date. If set to  `-1` the results query for all STEX files, irrespective of their date uploaded or updated. |  `365` |  `days=30` |
+| `since` | String _OR_ Integer | Filters the results for files submitted **after** a certain point in time. Supports ISO date format or a Unix timestamp. (Handy conversion site [here](https://www.timestamp-converter.com/).) | - |  `since=2024-04-01T08:26:25Z` <br>  `since=1711959985` |
+| `to` | String _OR_ Integer | Filters the results for files submitted **up to** a certain point in time. Uses the same input format as the `since` parameter, and can be used on its own, or in combination as a date-to-date range. | - |  `to=2025-02-08T21:47:47Z` <br>  `to=1739051267` |
+| `datetype` | String | Controls the date timestamp format used. <br>Options:  `iso`,  `unix`,  `pretty`|  `iso` |  `datetype=iso` <br>`datetype=unix` <br>`datetype=pretty` |
+| `sizetype` | String | Sets what file size format is used. The `auto` option decides which format is best for each file size. <br> Options:  `auto`, `megabytes`,  `kilobytes`,  `bytes` |  `auto` |  `sizetype=auto` <br>`sizetype=megabytes` <br>  `sizetype=kilobytes` <br>  `sizetype=bytes` |
+| `desctype` | String | Adds the file description data in any of the specified formats. Allows more than one option when separated by commas. <br> Options: `text`, `html`, `urls` <br> If `urls` is specified, it lists Source URLs and/or GitHub URLs in an 'infoURLs' field (if any are provided on a file). | - |  `desctype=text,html,urls` |
+| `filterurls` | String | Filters URLs when `desctype=urls` is used. Allows one or multiple comma-separated terms. | - |  `filterurls=simtropolis.com` |
+| `images` | String | Determines which images should be fetched. Each option assigns them to a separate array field. <br> Options:  `primary`,  `main`,  `thumbs`,  `desc` | - |  `images=primary,main,desc` |
+| `category` | Integer | Specific category ID to filter files. Only files within this category specified will be returned. See the [STEX Categories](#stex-categories) section below for a full list. | - |  `category=101` |
+| `author` | String _OR_ Integer | Filter files by author. Use the author's user ID for a numeric input, or their name as a string. No quotes are required, but can be optionally added. | - |  `author=NAM Team` <br>  `author=131403` |
+| `query` | String | Search term to filter files by name. Multi-word queries can be enclosed in quotes. | - |  `query="DLL Plugin"` |
+| `sc4only` | Boolean | Only fetch files inside the SC4 categories. Use  `true` to enable this filter. |  `false` |  `sc4only=true` |
+| `changelog` | Boolean | Adds the changelog details if present. Is in either text or HTML format depending on the last ordered `desctype` option. |  `false` |  `changelog=true` |
+| `metadata` | Boolean | Adds the file metadata info if present. |  `false` |  `metadata=true` |
+| `extras` | Boolean | Adds 3 extra fields: views, downloads, and reputation. Note: Reputation is shown anyway if `type=rep` is set. |  `false` |  `extras=true` |
+| `sort` | String | Sort order for results. <br> Options:  `asc` for ascending and  `desc` for descending (newest first). |  `desc` |  `sort=desc` <br>  `sort=asc` |
+| `limit` | Integer | Restricts the results output, by trimming the total. This is an optional parameter which can be 1 or greater. The maximum value is  `1000` | - |  `limit=100` |
+| `offset` | Integer | Allows the results to be offset by a specified number of records. Useful to find results beyond the 1000 files limit. | - |  `offset=123` |
 
 ## STEX Categories
 These general SC4 category IDs range from are returned with the `sc4only = true` argument.
