@@ -1233,10 +1233,10 @@ describe('The fetch action', function() {
 
 	});
 
-	it('sends the Simtropolis cookie when downloading', async function() {
+	it('uses token auth only when cookie is also set', async function() {
 
+		process.env.SC4PAC_SIMTROPOLIS_TOKEN = 'token';
 		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'ips4_member_id=1; ips4_login_key=abc';
-		delete process.env.SC4PAC_SIMTROPOLIS_TOKEN;
 
 		const upload = faker.upload({});
 		const { run } = this.setup({
@@ -1244,12 +1244,57 @@ describe('The fetch action', function() {
 			handler(req) {
 				let url = new URL(req.url);
 				if (url.searchParams.get('do') === 'download') {
+					let authorization = req.headers.get('authorization');
 					let cookie = req.headers.get('cookie');
-					expect(cookie).to.equal('ips4_member_id=1; ips4_login_key=abc');
+					expect(authorization).to.equal('SC4PAC-TOKEN-ST userkey="token"');
+					expect(cookie).to.equal(null);
 				}
 			},
 		});
 		await run({ id: upload.id });
+
+	});
+
+	it('retries with canonical file url when slugged download returns 403', async function() {
+
+		process.env.SC4PAC_SIMTROPOLIS_TOKEN = 'token';
+
+		const upload = faker.upload({
+			id: 37280,
+			fileURL: 'https://community.simtropolis.com/files/file/37280-coffee-shop-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97/',
+			files: [
+				{
+					id: 218414,
+					name: 'coffee-shop.zip',
+					contents: {
+						'metadata.yaml': {
+							name: 'coffee-shop',
+							group: 'foo',
+						},
+					},
+				},
+			],
+		});
+		let attemptedSlugged = false;
+		let attemptedCanonical = false;
+		const { run } = this.setup({
+			uploads: [upload],
+			handler(req) {
+				let url = new URL(req.url);
+				if (url.searchParams.get('do') === 'download' && url.searchParams.get('r') === '218414') {
+					if (url.pathname === '/files/file/37280-coffee-shop-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97/') {
+						attemptedSlugged = true;
+						return new Response('Forbidden', { status: 403 });
+					}
+					if (url.pathname === '/files/file/37280/') {
+						attemptedCanonical = true;
+					}
+				}
+			},
+		});
+		await run({ id: upload.id });
+		expect(attemptedSlugged).to.equal(true);
+		expect(attemptedCanonical).to.equal(true);
 
 	});
 

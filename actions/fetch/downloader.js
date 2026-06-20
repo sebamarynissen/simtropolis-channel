@@ -13,6 +13,7 @@ import { parseAllDocuments } from 'yaml';
 import { kExtractedAsset, kFileNames, kFileInfo } from './symbols.js';
 import { SimtropolisError } from './errors.js';
 import attempt from './attempt.js';
+import { urlToFileId } from './util.js';
 
 // # Downloader
 // A helper class for downloading urls to a temp folder.
@@ -58,7 +59,16 @@ export default class Downloader {
 		if (token) {
 			headers.Authorization = `SC4PAC-TOKEN-ST userkey="${token}"`;
 		}
-		const res = await fetch(url, { headers });
+		let res = await fetch(url, { headers });
+
+		// Some uploads with non-ascii slugs can return 403 on the slugged url.
+		// Retry once with canonical numeric file URL while keeping token auth.
+		if (res.status === 403) {
+			const fallback = getCanonicalDownloadUrl(url);
+			if (fallback && fallback !== url) {
+				res = await fetch(fallback, { headers });
+			}
+		}
 		if (res.status === 404) {
 			throw new Error(`${url} not found`);
 		}
@@ -253,6 +263,21 @@ export default class Downloader {
 		}
 	}
 
+}
+
+function getCanonicalDownloadUrl(url) {
+	try {
+		const parsed = new URL(url);
+		if (!parsed.pathname.startsWith('/files/file/')) return null;
+		if (parsed.searchParams.get('do') !== 'download') return null;
+		if (!parsed.searchParams.has('r')) return null;
+		const fileId = urlToFileId(parsed.href);
+		if (!Number.isFinite(fileId)) return null;
+		parsed.pathname = `/files/file/${fileId}/`;
+		return parsed.href;
+	} catch {
+		return null;
+	}
 }
 
 // # readMetadata(file)
