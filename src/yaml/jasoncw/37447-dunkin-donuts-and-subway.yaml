@@ -1,0 +1,35 @@
+group: jasoncw
+name: dunkin-donuts-and-subway
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Dunkin Donuts and Subway
+  description: |-
+    -   1x2 growable CS§§ lot for the New York 1940 tileset.
+    -   MaxisNite and DarkNite versions included. DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37447-dunkin-donuts-and-subway/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a35a32b3a11e_DunkinDonutsandSubway00.jpg.5b1665a860e1aad1d661086c12fe76af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a35a33244058_DunkinDonutsandSubway01.jpg.367c7cbdf906203c88d615ec7aebff60.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-dunkin-donuts-and-subway-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-dunkin-donuts-and-subway-darknite
+
+---
+assetId: jasoncw-dunkin-donuts-and-subway-maxisnite
+version: "1.0.0"
+lastModified: "2026-06-19T20:17:06Z"
+url: https://community.simtropolis.com/files/file/37447-dunkin-donuts-and-subway/?do=download&r=218392
+
+---
+assetId: jasoncw-dunkin-donuts-and-subway-darknite
+version: "1.0.0"
+lastModified: "2026-06-19T20:17:06Z"
+url: https://community.simtropolis.com/files/file/37447-dunkin-donuts-and-subway/?do=download&r=218393
