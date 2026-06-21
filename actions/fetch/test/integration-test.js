@@ -1409,6 +1409,50 @@ describe('The fetch action', function() {
 
 	});
 
+	it('preserves previously defined websites when updating an existing package', async function() {
+
+		const upload = faker.upload({
+			id: 42594,
+			uid: 5642,
+			author: 'smf_16',
+			title: 'New Title',
+		});
+		const { fs, run } = this.setup({
+			uploads: [upload],
+		});
+		let existing = [
+			{
+				group: 'smf-16',
+				name: 'old-title',
+				version: '1.0.0',
+				info: {
+					websites: [
+						'https://community.simtropolis.com/files/file/42594-old-title/',
+						'https://www.sc4evermore.com/example-page',
+					],
+				},
+			},
+			{
+				assetId: 'smf-16-old-title',
+				url: 'https://www.old-url.com',
+			},
+		];
+		let src = existing.map(js => stringify(js)).join('\n---\n');
+		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
+		fs.writeFileSync('/src/yaml/smf-16/42594-old-title.yaml', src);
+
+		let { read } = await run({ id: upload.id });
+		let metadata = await read('/src/yaml/smf-16/42594-new-title.yaml');
+		expect(metadata[0].group).to.equal('smf-16');
+		expect(metadata[0].name).to.equal('old-title');
+		expect(metadata[0].info.websites).to.deep.equal([
+			'https://community.simtropolis.com/files/file/42594-old-title/',
+			'https://www.sc4evermore.com/example-page',
+		]);
+		expect(metadata[0].info.website).to.equal(undefined);
+
+	});
+
 	it('changes the filename of an uploaded package with custom metadata without a name (#42)', async function() {
 
 		const upload = faker.upload({
