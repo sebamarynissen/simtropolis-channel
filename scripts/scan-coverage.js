@@ -73,6 +73,10 @@ const EXCLUDED_CATEGORIES = [
 	121,
 ];
 
+let simtropolisChannelCount = 0;
+let mainChannelCount = 0;
+let sc4eChannelCount = 0;
+
 // ============================================================================
 // HELPER FUNCTIONS
 // ============================================================================
@@ -331,13 +335,13 @@ async function fetchAllStexFiles(apiKey, endpoint) {
 }
 
 /**
- * Compares STEX files against package index to find missing packages
+ * Compares STEX files against package index to find missing packages. Also counts the packages included in each channel.
  */
 function findMissingPackages(stexFiles, index) {
 	const missing = [];
-	let simtropolisCount = 0;
-	let mainChannelCount = 0;
-	let sc4eChannelCount = 0;
+	simtropolisChannelCount = 0;
+	mainChannelCount = 0;
+	sc4eChannelCount = 0;
 
 	const defaultUrl = 'https://memo33.github.io/sc4pac/channel/';
 	const sc4eUrl = 'https://sc4evermore.github.io/sc4pac-channel/channel/';
@@ -362,7 +366,7 @@ function findMissingPackages(stexFiles, index) {
 		} else if (typeof packageInfo === 'string') { // Handle legacy string format from stex.js (treat as main channel)
 			mainChannelCount++;
 		} else if (packageInfo.local) {
-			simtropolisCount++;
+			simtropolisChannelCount++;
 		} else {
 			let hasDefault = false;
 			let hasSc4e = false;
@@ -378,7 +382,7 @@ function findMissingPackages(stexFiles, index) {
 		}
 	}
 
-	return { missing, simtropolisCount, mainChannelCount, sc4eChannelCount };
+	return missing;
 }
 
 /**
@@ -450,27 +454,47 @@ function generateStats(missing, stexFiles) {
 /**
  * Generate summary section with overall statistics
  * @param {Object} stats - Statistics object
- * @param {number} simtropolisCount - Simtropolis channel count
- * @param {number} mainChannelCount - Main channel count
- * @param {number} sc4eChannelCount - SC4Evermore channel count
  * @returns {string} Markdown summary section
  */
-function generateSummarySection(stats, simtropolisCount, mainChannelCount, sc4eChannelCount) {
+function generateSummarySection(stats) {
 	const overallStats = calculateOverallStats(stats);
-
-	return dedent`\
-		## Summary
-
-		- **STEX files analyzed**: ${overallStats.totalFiles}
-		- **Covered packages**: ${overallStats.packagesInChannels}
-		  - **Simtropolis Channel**: ${simtropolisCount}
-		  - **Default Channel**: ${mainChannelCount}
-		  - **SC4Evermore Channel**: ${sc4eChannelCount}
-		- **Missing packages**: ${stats.total}
-		- **Overall coverage**: ${overallStats.overallCoverage}%
-		- **Total authors**: ${overallStats.totalAuthors}
-
-	`;
+	let md = '## Summary\n\n';
+	md += `<div class="summary-grid">
+      <div class="stat-card">
+        <div class="stat-value">${overallStats.totalFiles}</div>
+        <div class="stat-label">Total SC4 STEX files</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" style="color:var(--covered-fg)">${overallStats.packagesInChannels}</div>
+        <div class="stat-label">Covered in sc4pac</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" style="color:var(--missing-fg)">${overallStats.totalFiles - overallStats.packagesInChannels}</div>
+        <div class="stat-label">Not yet in sc4pac</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">${overallStats.overallCoverage}%</div>
+        <div class="stat-label">Coverage</div>
+      </div>
+    </div>
+	<div class="summary-grid">
+      <div class="stat-card">
+        <div class="stat-value">${simtropolisChannelCount}</div>
+        <div class="stat-label">Covered in Simtropolis channel</div>
+        <div class="stat-label">${((simtropolisChannelCount / overallStats.packagesInChannels) * 100).toFixed(1)}% of files</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">${mainChannelCount}</div>
+        <div class="stat-label">Covered in Default channel</div>
+        <div class="stat-label">${((mainChannelCount / overallStats.packagesInChannels) * 100).toFixed(1)}% of files</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">${sc4eChannelCount}</div>
+        <div class="stat-label">Covered in Sc4Evermore channel</div>
+        <div class="stat-label">${((sc4eChannelCount / overallStats.packagesInChannels) * 100).toFixed(1)}% of files</div>
+      </div>
+    </div>\n\n`;
+	return md;
 }
 
 /**
@@ -821,6 +845,7 @@ function outputToHTML(markdownContent, pageTitle = 'STEX Coverage Report', curre
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>${pageTitle}</title>
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css">
+  			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
 			<link rel="stylesheet" href="coverage.css">
 		</head>
 		<body>
@@ -837,13 +862,13 @@ function outputToHTML(markdownContent, pageTitle = 'STEX Coverage Report', curre
 /**
  * Generate HTML coverage report
  */
-function generateReport(missing, stats, outputDir, simtropolisCount, mainChannelCount, sc4eChannelCount, stexFiles, index) {
+function generateReport(missing, stats, outputDir, stexFiles, index) {
 	const generatedDate = new Date().toISOString();
 	const htmlPaths = [];
 
 	let indexMd = '# STEX Coverage Report\n\n';
 	indexMd += `Generated: ${generatedDate}\n\n`;
-	indexMd += generateSummarySection(stats, simtropolisCount, mainChannelCount, sc4eChannelCount);
+	indexMd += generateSummarySection(stats);
 	indexMd += generateCategoryTable(stats);
 	indexMd += generateTopAuthorsTable(stats);
 	const indexPath = path.join(outputDir, 'index.html');
@@ -930,7 +955,7 @@ async function run(argv) {
 
 	// Step 3: Find missing packages
 	const spinner = ora('Analyzing coverage...').start();
-	const { missing, simtropolisCount, mainChannelCount, sc4eChannelCount } = findMissingPackages(stexFiles, index);
+	const missing = findMissingPackages(stexFiles, index);
 	const stats = generateStats(missing, stexFiles);
 	spinner.succeed('Analysis complete');
 
@@ -938,7 +963,7 @@ async function run(argv) {
 	console.log();
 	const outputSpinner = ora('Generating reports...').start();
 
-	const htmlPaths = generateReport(missing, stats, outputDir, simtropolisCount, mainChannelCount, sc4eChannelCount, stexFiles, index);
+	const htmlPaths = generateReport(missing, stats, outputDir, stexFiles, index);
 
 	// Copy HTML and CSS to docs for GitHub Pages
 	const docsDir = path.resolve(import.meta.dirname, '../docs/coverage-report');
