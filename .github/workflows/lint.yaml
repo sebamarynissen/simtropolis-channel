@@ -1,6 +1,6 @@
 name: Lint
 on:
-  pull_request:
+  pull_request_target:  # with this trigger, be careful not to execute any scripts from the pull request in this workflow, which would be unsafe
     paths:
       - 'src/yaml/**'
     branches:
@@ -10,7 +10,26 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: memo33/sc4pac-actions/actions/lint@main
-        with:
-          path: src/yaml
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+        # For pull_request_target:
+        # As merge_commit_sha is not up-to-date due to mergeability check, we use actual PR head for now; see https://github.com/actions/checkout/issues/518#issuecomment-1757453837
+        # (This merge might correspond to a newer commit than the one that triggered this workflow, in case the PR was updated in the meantime -> ok)
+        ref: ${{ github.event_name == 'pull_request_target' && format('refs/pull/{0}/merge', github.event.pull_request.number) || '' }}
+        sparse-checkout: |
+          src/yaml
+    - uses: memo33/sc4pac-actions/actions/lint@main
+      with:
+        path: src/yaml
+
+  test:
+    needs: lint
+    if: ${{ github.event_name == 'pull_request_target' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test installing modified packages
+      uses: memo33/sc4pac-actions/actions/test-install@main
+      with:
+        path: src/yaml
+        sc4pac-simtropolis-token: ${{ secrets.SC4PAC_SIMTROPOLIS_TOKEN }}
