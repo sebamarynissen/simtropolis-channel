@@ -1,0 +1,91 @@
+group: paeng
+name: pond-air
+version: "1.1.0"
+subfolder: 700-transit
+info:
+  summary: Paeng and Murimk - Pond Air
+  description: |-
+    For the remote areas of your region, we bring you a small air transportation pack designed to work with ploppable waters.
+
+    These little outfits are run by rather adventurous types that take 'jobs' of any kind... running supplies, mail, the occasional tourist, hunting party, basejumpers, snowboarders, refugees, fugitives, scientists and anything else - as long as you pay their fee...
+
+    You can build anything around them to create a special type of operation - put RES, COM or IND around it, or even a cop shop, a hospital... take your pick.
+
+    **LOTS**
+    * Large Hangar Double (4x2 LM, LM with jobs)
+    * Large Hangar Single (2x3 LM, LM with jobs)
+    * Rural Hangar (2x1 LM)
+    * Office (2x2 LM with jobs)
+    * Repair and Fuel Station (2x4 LM with jobs)
+    * Windsock (1x1 timed for strong, medium and no wind)
+    * Small Buoys (1x1 red, green and yellow)
+    * Cessna (1x1 moored, in flight, 1x3 taking off - Float and Regular)
+
+    Designed to accommodate different varieties of ploppable waters. And no, there is no functional airport included ;-)
+
+    Many props on these lots are timed. Let game-time run for a while until they appear and change according to time of the day.
+
+    Stats like power, water, monthly costs etc. are indicated via the in-game menu.
+
+    All the lots can be found in the 'Landmarks' menu and have custom icons.
+
+    You can safely remove any lot you do not wish to use.
+
+    **Just make sure you always keep the complete folder named \*PondAir\_Resource\* installed.**
+
+    **CREDITS**
+
+    BATting and MODding: Murimk Productions
+
+    LOTting and MODding: Paeng Productions
+
+    Additional Lotting:  Screwpile Developments
+
+    The props from this pack can be used to make your own lots. Do not include them in your upload though - please point to this pack as a dependency.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    \* [PondAir Dev Thread](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)
+
+    **\-CB Note:**  Fixed dependency links. Thanks to [@hugues aroux](https://community.simtropolis.com/profile/724957-hugues-aroux/) for reporting.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25704-paeng-and-murimk-pond-air/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ac7e0008050e37afdce7e7a0b60424c9-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/ac7e0008050e37afdce7e7a0b60424c9-stex02.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - scag:aircraft-mega-pack
+  - peg:ppond-terrain-props-pack-1
+  - paeng:pond-air-resources
+assets:
+  - assetId: paeng-and-murimk-pond-air
+    exclude:
+      - "/Props/"
+      - "/Resource/"
+
+---
+group: paeng
+name: pond-air-resources
+version: "1.1.0"
+subfolder: 100-props-textures
+info:
+  summary: Paeng and Murimk - Pond Air
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25704-paeng-and-murimk-pond-air/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ac7e0008050e37afdce7e7a0b60424c9-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/ac7e0008050e37afdce7e7a0b60424c9-stex02.jpg
+assets:
+  - assetId: paeng-and-murimk-pond-air
+    include:
+      - "/Props/"
+      - "/Resource/"
+
+---
+assetId: paeng-and-murimk-pond-air
+version: "1.1.0"
+lastModified: "2026-05-29T00:36:39Z"
+url: https://community.simtropolis.com/files/file/25704-paeng-and-murimk-pond-air/?do=download&r=212682

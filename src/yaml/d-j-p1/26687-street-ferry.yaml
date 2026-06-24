@@ -1,0 +1,63 @@
+group: wmp
+name: street-ferry
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Street Ferry
+  description: |-
+    **WMP Street Ferry, by DocRorlach**
+
+    The second in our Ferry Port Series is a simple ferry with street access, meant primarily for rural areas. We left the green parts of it deliberately blank so anyone can plop whichever trees or bushes they prefer. Parked vehicles are timed props and only appear at certain times during the day.
+
+    Best placement for this ferry is on a gentle, sloping area of the waterfront. We recommend that you do not terraform for it, but let the ferry lot settle the terrain.
+
+    ## Lot Details and Information
+
+    Lot size: 3 x 4 tiles
+
+    Menu position: Building: Transportation,Building: Strikeable Transit,Building: Ferry,Building: CarFerry,Building: WaterTransit
+
+    Jobs: Jobs $ : 15,R-$ : 15
+
+    Plop cost: § 780
+
+    Bulldoze cost: § 295
+
+    Monthly cost: § 35
+
+    Max. Fire Stage: 5
+
+    Power consumption: 22 MWh/month
+
+    Water consumption: 15 Gallons/month
+
+    Pollution: Air: 0 over 0 tiles; Water: 5 over 8 tiles; Garbage: 5 over 8 tiles
+
+    Ferry Type: Car & Passenger
+
+    Capacity: 3000
+
+    ## Credits
+
+    While the usual thanks go out to everyone around the Pegasus site & teams and to Dave for his patience with testing this stuff, this project would have not been possible without the creative efforts of quite a lot of people in the 3D modelling world: First off, there is *Max Grueter* in Switzerland, whose Working Class Heroes are found on all the ferry lots; for the trucks and cars I owe thanks to a whole slew of designers: *Jost, jrn91, anonymous, col1, mike409, mclarenman, banamana, sandman, mago, williamT, matt372, and poolboy*.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26687-wmp-street-ferry/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/26a3f0c59f8eff7de541afe78025163f-street_ferry03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/68c5b61ec07eb11daab3ec8f4f2b4dcc-street_ferry04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/5b996cdcbe99c28ea4df6f13172a1854-street_ferry02.jpg
+dependencies:
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+assets:
+  - assetId: wmp-street-ferry
+
+---
+assetId: wmp-street-ferry
+version: "1.0"
+lastModified: "2011-08-25T22:49:53Z"
+url: https://community.simtropolis.com/files/file/26687-wmp-street-ferry/?do=download&r=91195

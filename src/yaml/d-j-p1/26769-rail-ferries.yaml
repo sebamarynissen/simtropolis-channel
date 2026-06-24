@@ -1,0 +1,69 @@
+group: wmp
+name: rail-ferries
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Rail Ferries
+  description: |-
+    **WMP Rail Ferries**, by DocRorlach
+
+    Rail Ferries come in two flavours: urban/industrial, and rural. For each there are two stations which act as railway stations. Transit between two rail ferries is enabled via subway connectors.
+
+    While this means they could be connected to a standard subway network, we advise against it - such a connection would minimize or negate the rail-to-subway transfer.
+
+    Since ferries tend to be located on steep waterfronts, the subway connection may need to be routed sideways before being laid underwater. Bear that in mind when terraforming. Our experience indicates that gently slopped beaches are best suited for this time of transit lot. Rail Ferries do not generate any in-game ferry routes. There is, however, a [timed rail barge](http://workingman-productions.co.uk/dlTracker.asp?GET=downloads/exchange/WMP_Railbarges.zip) (full, empty), and a non-timed diagonal rail barge (full) available as a separate download.
+
+    All buildings & props are rendered in HD.
+
+    *Please note: the required wmp\_texture05.dat, original available with other WMP Ferries, has been updated and needs to be downloaded again.*
+
+    ## Lot Details and Information
+
+    Lot sizes: RF-A: 3 x 8 tiles, RF-B: 3 x 5 tiles, RF-C: 3 x 6 tiles, RF-D: 3 x 5 tiles
+
+    Menu position: Building: Transportation,Building: Subway,Building: Strikable Transit,Building: WaterTransit
+
+    Jobs: RF-A: Jobs $ : 25; RF-B: Jobs $ : 25; RF-C: Jobs $$ : 28; RF-D: Jobs $$ : 45;
+
+    Plop cost: RF-A: § 1,425; RF-B: § 1,145; RF-C: § 100; RF-D: § 1,145;
+
+    Bulldoze cost: RF-A: § 615; RF-B: § 495; RF-C: § 645; RF-D: § 495;
+
+    Monthly cost: RF-A: § 45; RF-B: § 35; RF-C: § 45; RF-D: § 35;
+
+    Power consumption: RF-A: 35 MWh/month; RF-B: 83 MWh/month; RF-C: 49 MWh/month; RF-D 83 MWh/month;
+
+    Water consumption: RF-A: 19 Gallons/month; RF-B: 24 Gallons/month; RF-C: 38 Gallons/month; RF-D: 44 Gallons/month;
+
+    Pollution: varied
+
+    ## Credits
+
+    While the usual thanks go out to everyone around the Pegasus site & teams and to Dave for his patience with testing this stuff, this project would have not been possible without the creative efforts of quite a lot of people in the 3D modelling world:
+
+    First off, there is Max Grueter in Switzerland, whose Working Class Heroes are found on all the ferry lots; for the trucks and cars I owe thanks to a whole slew of designers: Jost, jrn91, anonymous, col1, mike409, mclarenman, banamana, sandman, mago, williamT, matt372, and poolboy.
+
+    Special thanks must also be offered to Rivit, who patiently (and repeatedly) fixed the special path files and textures for the rural ferries.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26769-wmp-rail-ferries/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/7651035a61ea8f20cbb79ed47e207f22-rferries03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/ff9fb07cbb14dbdebd02248f5626470f-rferries02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/fb39d3419aa67669aa78f4639209c504-rferries01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/2cc108e8a10715847f933c0fa8da8400-rail_ferries01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/a4e3c82bb791f19db135c80e8c5b1975-rail_ferries02.jpg
+dependencies:
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+assets:
+  - assetId: wmp-rail-ferries
+
+---
+assetId: wmp-rail-ferries
+version: "1.0"
+lastModified: "2011-09-14T13:48:49Z"
+url: https://community.simtropolis.com/files/file/26769-wmp-rail-ferries/?do=download&r=92071

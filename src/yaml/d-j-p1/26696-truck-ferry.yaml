@@ -1,0 +1,62 @@
+group: wmp
+name: truck-ferry
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: Truck Ferry
+  description: |-
+    **WMP Truck Ferry, by DocRorlach**
+
+    The third ferry in our series contains two lots, sharing several local dependencies (all available from this site):
+
+    * *WMP Truck & Car Ferry (8x5)* - This is the game's first large-scale ferry port and the first aimed entirely at streets. It acts as a standard car & passenger ferry, but at 8x5 takes up a fair bit of space and is best suited for industrial areas. It comes with a separate truck parking lot, featuring time truck and car queues as well as timed parked cars.
+    * *WMP Truck Parking (8x3)* - The parking lot is meant as a complement to the ferry lot itself, and ideally sits across the street. It uses the same trucks and cars, plus some extra, timed queues, but has neither jobs nor other functions.
+
+    Best placement for the ferry lot is on a gentle, sloping area of the waterfront. We recommend that you do not terraform for it, but let the ferry lot settle the terrain.
+
+    ## Lot Details:
+
+    Lot Size: Truck Ferry: 8x5; Parking Lot: 8x3
+
+    Plop Cost: Truck Ferry: § 2,450; Parking Lot: § 495
+
+    Bulldoze Cost: Truck Ferry: § 1,100; Parking Lot: § 300
+
+    Power Consumed: Truck Ferry: 80 MW/month; Parking Lot: 24 MW/month
+
+    Water Consumed: Truck Ferry: 45 gallons/month; Parking Lot: 5 gallons/month
+
+    Jobs: Truck Ferry: C$: 45, C$$: 25, C$$$: 15; Parking Lot: none
+
+    Ferry Type: Car & Passenger
+
+    Capacity: 5,000
+
+    ## Credits
+
+    While the usual thanks go out to everyone around the Pegasus site & teams and to Dave for his patience with testing this stuff, this project would have not been possible without the creative efforts of quite a lot of people in the 3D modelling world:
+
+    First off, there is Max Grueter in Switzerland, whose Working Class Heroes are found on all the ferry lots; for the trucks and cars I owe thanks to a whole slew of designers: Jost, jrn91, anonymous, col1, mike409, mclarenman, banamana, sandman, mago, williamT, matt372, and poolboy.
+
+    Special thanks must also be offered to Murimk, who really started this nightmarish project with his suggestions & critiques, and who provided the timed props.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26696-wmp-truck-ferry/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/82c27e48424eee1dbde160b43bbd0245-truck-ferry01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/087d7c0c62aaa5caf1fe6e678e7a6466-truck-ferry02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/bcf8d0591af8f54ace95d63fd40db910-truck-ferry-parking.jpg
+dependencies:
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+assets:
+  - assetId: wmp-truck-ferry
+
+---
+assetId: wmp-truck-ferry
+version: "1.1"
+lastModified: "2011-08-28T09:33:07Z"
+url: https://community.simtropolis.com/files/file/26696-wmp-truck-ferry/?do=download&r=91407

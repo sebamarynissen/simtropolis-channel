@@ -1,0 +1,47 @@
+group: wmp
+name: flying-pig-passenger-stations
+version: "1.02"
+subfolder: 700-transit
+info:
+  summary: Flying Pig Passenger Stations
+  description: |-
+    The Flying Pig Passenger Stations complement the freight depots from the same series, released in May 2011. The set contains two stations: one for double-track, and one for single track railways. Each station has a "twin" for those users which have not electrified their rail system.
+
+    Stations and most props have been rendered in HD - hence the somewhat larger download sizes.
+    - Lot sizes: 7 x 3 tiles and 5x3 tiles  
+    - Menu position: Building: Transportation,Building: Rail,Building: Strikeable Transit,Building: Taxi\_Maker,Building: PassengerRail  
+    - Jobs: Long Station: Jobs $ : 95,Jobs $$ : 5,Jobs $$$ : 0  
+    - Jobs: Short Station: Jobs $ : 35,Jobs $$ : 5,Jobs $$$ : 0  
+    - Plop cost: Long Station: § 875; Short Station: § 820  
+    - Bulldoze cost: Long Station: § 456; Short Station: § 412  
+    - Monthly cost: Long Station: § 25; Short Station: § 24  
+    - Power consumption: 61 MWh/month  
+    - Water consumption: 23 Gallons/month  
+    - Pollution: Air: 0 over 0 tiles; Water: 0 over 0 tiles; Garbage: 4 over 10 tiles  
+    - Capacities: Long Station: 5,450; Short Station: 4,500  
+
+    ## Credits
+
+    Car Models by Antics & Anonymous (3d Warehouse)
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26369-wmp-flying-pig-passenger-stations/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/34eeea2852248508984fd8c9ae814c1e-stanton_detail.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/88e86faf86fa1825b9c1bfbf4f2be658-stanton_dtr.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/9c838d68f0063dc3773d78e0df2511be-stanton_small.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/67cd5bec43642c9a82b6a33ec37968c5-stanton_str.jpg
+dependencies:
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+assets:
+  - assetId: wmp-flying-pig-passenger-stations
+
+---
+assetId: wmp-flying-pig-passenger-stations
+version: "1.02"
+lastModified: "2011-06-20T02:40:35Z"
+url: https://community.simtropolis.com/files/file/26369-wmp-flying-pig-passenger-stations/?do=download&r=87767
