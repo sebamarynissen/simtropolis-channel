@@ -16,13 +16,14 @@ dependencies:
   - peg:mtp-super-pack
   - t-wrecks:maxis-prop-names-and-query-fix
 
+
 variants:
 - variant: { CAM: "no", fantozzi:colossus-farming:spam: "no" }
   assets:
   - assetId: "peg-spam-base-set"
     include:
     - "/PEGPROD/"
-- variant: { CAM: "no", fantozzi:colossus-farming:spam: "yes" }
+- variant: { fantozzi:colossus-farming:spam: "yes" }
   assets:
   - assetId: "peg-spam-base-set"
     include:
