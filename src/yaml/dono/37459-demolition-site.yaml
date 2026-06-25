@@ -1,0 +1,64 @@
+group: dono
+name: demolition-site
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: DONO Demolition Site
+  description: |-
+    **Demolition Site**
+
+    Sims are always building stuff, so it's time for them to knock something down!  
+    A ploppable 4x4 demolition site as well as 4x2 add-on lot if it helps your zoning.  
+    Offering 168 CS$$ jobs as well the smaller having 49 CS$$.  
+    Both lots will be found in Landmarks, or in the Commercial Services zoning tab under CS$$ if using the submenus DLL, maybe both.  
+    DarkNite and MaxisNite varieties. (My DN isn't the greatest, the model is displaying correctly but the surrounds are not the best, something I've learnt for next time. If you think it doesn't fit well, just remove and use the MN version).  
+    Thanks goes to nos.17 and Jasoncw
+
+    Dependencies:
+
+    \- [DONO Prop Pack v1.0.2](https://community.simtropolis.com/files/file/37233-dono-prop-pack/)  
+    \- [AGC Streets DLC](https://community.simtropolis.com/files/file/36152-agc-streets-dlc/)  
+    \- [AGC Automobile DLC](https://community.simtropolis.com/files/file/34163-agc-automobile-dlc/)  
+    \- [AGC Heavy Machinery DLC](https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/)   
+    \- [AGC Industry Energy Telecom DLC](https://community.simtropolis.com/files/file/36448-agc-industry-energy-telecom-dlc/)  
+    \- [A\_1P\_120\_SimWorkers\_1.1](https://community.simtropolis.com/files/file/34123-a_1p-simworkers_1/)  
+    \- [European Truck Prop Pack vol.1](https://community.simtropolis.com/files/file/25607-european-truck-prop-pack-vol-1/)  
+    \- [SM2 mega-prop-pack-vol1](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)  
+    If you're downloading the DN version I assume you'd have it, but if not you'll need:  
+    \- [Simfox Day/Night Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+  author: Dono
+  website: https://community.simtropolis.com/files/file/37459-dono-demolition-site/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Demo_Main2.jpg.ad958e977e31785b54c18eedfeddd22e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Demo_Main.jpg.11ba9a8a16347ac90297867e94c4dfd0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Demo_Nite.jpg.92124575e6835c0dc6995739e4f34f8e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Demo_Split.jpg.5ea42deaf130c828a27a5be72c395281.jpg
+dependencies:
+  - dono:prop-pack
+  - agc:autumobile-dlc
+  - agc:street-props
+  - agc:heavey-machinery-props
+  - agc:industry-energy-and-telecom-dlc
+  - simmer2:mega-prop-pack-vol1
+  - simcityfreak666:european-truck-prop-pack-vol1
+  - ap:simworkers-1-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: dono-dono-demolition-site-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: dono-dono-demolition-site-darknite
+
+---
+assetId: dono-dono-demolition-site-darknite
+version: "1.0.0"
+lastModified: "2026-06-25T11:07:31Z"
+url: https://community.simtropolis.com/files/file/37459-dono-demolition-site/?do=download&r=219018
+
+---
+assetId: dono-dono-demolition-site-maxisnite
+version: "1.0.0"
+lastModified: "2026-06-25T11:07:31Z"
+url: https://community.simtropolis.com/files/file/37459-dono-demolition-site/?do=download&r=219019
