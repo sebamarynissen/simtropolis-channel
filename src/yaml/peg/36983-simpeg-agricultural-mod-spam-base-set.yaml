@@ -18,15 +18,18 @@ dependencies:
 
 assets:
 - assetId: "peg-spam-base-set"
-  include:
-  - "/PEGPROD/"
   withConditions:
-  - ifVariant: { fantozzi:colossus-farming:spam: "yes" }
+  - ifVariant: { CAM: "no" ,fantozzi:colossus-farming:spam: "no" }
+    include:
+    - "/PEGPROD/"
+  - ifVariant: { CAM: "no" ,fantozzi:colossus-farming:spam: "yes" }
     include:
     - "/CAM/"
+    - "/PEGPROD/"
   - ifVariant: { CAM: "yes" }
     include:
     - "/CAM/"
+    - "/PEGPROD/"
 
 ---
 assetId: peg-spam-base-set
