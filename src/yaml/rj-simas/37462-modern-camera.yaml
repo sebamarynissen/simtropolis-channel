@@ -40,8 +40,10 @@ assets:
   - assetId: rj-simas-sc4-modern-camera
 
 ---
-url: https://github.com/UncleUncleRj/SC4-ModernCamera/releases/download/v1.0.2/SC4-ModernCamera_1_0_2.zip
-nonPersistentUrl: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download&r=219216
 assetId: rj-simas-sc4-modern-camera
 version: "1.0.2"
-lastModified: "2026-06-27T19:57:12Z"
+lastModified: "2026-06-27T20:26:38Z"
+url: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download&r=219241
+withChecksum:
+  - include: /SC4-ModernCamera.dll
+    sha256: 60f0c092c7fd9a622eadb330e8d0062f5a1ffb87986645a62a679c2c9c4401e3
