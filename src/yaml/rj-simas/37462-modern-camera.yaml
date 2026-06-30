@@ -1,31 +1,23 @@
 group: rj-simas
 name: modern-camera
-version: "1.0.2"
+version: "1.0.3"
 subfolder: 150-mods
 info:
   summary: SC4 Modern Camera
   description: |-
-    SC4-ModernCamera
+    A DLL-based camera control plugin for SimCity 4. It replaces the original fixed camera behavior with a modern mouse-controlled camera system, including smooth zooming, camera rotation, pitch adjustment, optional WASD movement, and an in-game settings interface.
 
-    This mod ***completely changes the SimCity 4 Classic Camera into a more modern Mouse-Controlled camera.***
+    Controls:
+    - WASD: Move the camera, if enabled in-game.
+    - Shift + WASD: Move the camera faster.
+    - Middle Mouse Button + horizontal drag: Rotate the camera.
+    - Middle Mouse Button + vertical drag: Adjust camera pitch.
+    - Mouse wheel: Smooth zoom.
+    - Floating camera button: Open the in-game camera settings window.
 
-    **Current Controls:**
+    The settings window allows players to switch between Modern and Classic camera modes in real time, reset the camera location, view the changelog, and access advanced settings for redraw behavior and diagnostic logging.
 
-    -   WASD: Moves the camera (optional - can be disabled in-game)
-        -   Hold SHIFT to move faster
-    -   M3 + horizontal drag: Rotates the camera.
-    -   M3 + vertical drag: Adjusts the camera pitch.
-        -   In-game Option to Invert Vertical controls
-    -   Mouse wheel: New ***smooth zoom experience*****.**
-    -   Camera options are available in-game through the floating camera settings button in the upper-right corner of the screen.
-
-    The ***settings window*** can switch between Modern and Classic camera mode in real time, reset the camera location, show the changelog, and open Advanced Settings for redraw aggression and diagnostics logging.  
-      
-    If you enjoy the plugin, *please leave a review!*  
-      
-    **Discuss the plugin on the forums:**
-
-    [https://community.simtropolis.com/forums/topic/764328-new-modern-3d-camera-plugin/?do=embed](https://community.simtropolis.com/forums/topic/764328-new-modern-3d-camera-plugin/?do=embed)
+    This package contains both the required DLL plugin and its companion DAT file. The DLL is included with an explicit checksum so sc4pac can safely install it.
   author: Rj Simas
   website: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/
   images:
@@ -38,10 +30,15 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_6.jpg.9728e14d07d7d28d56c07b9df5717256.jpg
 assets:
   - assetId: rj-simas-sc4-modern-camera
+    withChecksum:
+      - include: ^SC4-ModernCamera\.dll$
+        sha256: 6419dda0ca02bb4d6e63fcc7f8090a41efabd1e664adedddedfcd45362344ad3
+      - include: ^SC4-ModernCamera\.dat$
+        sha256: 20a1771dee4113576be2d6d1e54bcaa27e314983c93c4acfd3c8456510b78b79
 
 ---
-url: https://github.com/UncleUncleRj/SC4-ModernCamera/releases/download/v1.0.2/SC4-ModernCamera_1_0_2.zip
-nonPersistentUrl: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download&r=219216
 assetId: rj-simas-sc4-modern-camera
-version: "1.0.2"
-lastModified: "2026-06-27T19:57:12Z"
+version: "1.0.3"
+lastModified: "2026-06-29T22:34:26Z"
+url: https://github.com/UncleUncleRj/SC4-ModernCamera/releases/download/v1.0.3/SC4-ModernCamera_1_0_3.zip
+nonPersistentUrl: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download&r=219574
