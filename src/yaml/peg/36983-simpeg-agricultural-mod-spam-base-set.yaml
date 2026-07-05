@@ -1,0 +1,37 @@
+group: peg
+name: spam-base-set
+version: "2.1.0"
+subfolder: 410-agriculture
+info:
+  summary: SPAM - Base Set
+  description: |-
+    SimPeg Agricultural Mod (SPAM) - Base Set is the basic set that allows you to install SPAM farms with any RCI Controller you have. The set also includes farms with STAGE 4 and 5, which can only be used with the CAM Controller or CAM-SPAM Controller. The lots are faithful replicas of the original lots included in the main SPAM mod, but with improved stats based on PIM-X specifications. 
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/36983-simpeg-agricultural-mod-spam-base-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/spam-pre01.jpg.9c84ccc75357e75d955d275ad92b6abc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/spam-pre02.jpg.611e98adcbfc2c436e2ee629a191bb6c.jpg
+dependencies:
+  - peg:spam-super-resource-pack
+  - peg:mtp-super-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+
+assets:
+- assetId: "peg-spam-base-set"
+  withConditions:
+  - ifVariant: { CAM: "no" ,fantozzi:colossus-farming:spam: "no" }
+    include:
+    - "/PEGPROD/"
+  - ifVariant: { CAM: "no" ,fantozzi:colossus-farming:spam: "yes" }
+    include:
+    - "/CAM/"
+    - "/PEGPROD/"
+  - ifVariant: { CAM: "yes" }
+    include:
+    - "/CAM/"
+    - "/PEGPROD/"
+---
+assetId: peg-spam-base-set
+version: "2.1.0"
+lastModified: "2026-06-25T20:43:48Z"
+url: https://community.simtropolis.com/files/file/36983-simpeg-agricultural-mod-spam-base-set/?do=download
