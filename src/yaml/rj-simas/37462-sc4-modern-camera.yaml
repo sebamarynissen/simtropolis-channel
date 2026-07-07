@@ -1,0 +1,55 @@
+group: rj-simas
+name: modern-camera
+version: "1.0.4"
+subfolder: 150-mods
+info:
+  summary: SC4 Modern Camera
+  description: |-
+    **\=====     SC4-ModernCamera     =====**
+
+    This mod ***completely changes the SimCity 4 Classic Camera into a more modern Mouse-Controlled camera.***
+
+    **Current Controls:**
+
+    -   WASD: Moves the camera (optional - can be disabled in-game)
+        -   Hold SHIFT to move faster
+    -   M3 + horizontal drag: Rotates the camera.
+    -   M3 + vertical drag: Adjusts the camera pitch.
+        -   In-game Option to Invert Vertical controls
+    -   Mouse wheel: New ***smooth zoom experience*****.**
+
+    ![camera_point.png.4dfb56cd8b5fcefa41d8d675de6b39b2.png](https://www.simtropolis.com/objects/attachments/monthly_2026_06/camera_point.png.4dfb56cd8b5fcefa41d8d675de6b39b2.png)
+
+    **Camera options are available in-game a NEW Modern Camera settings button in the upper-right corner of the screen.**
+
+    The ***settings window*** can switch between Modern and Classic camera mode in real time, reset the camera location, show the changelog, and open Advanced Settings for redraw aggression and diagnostics logging.  
+      
+    If you enjoy the plugin, *please leave a review!*  
+      
+    **Discuss the plugin on the forums:**
+
+    [https://community.simtropolis.com/forums/topic/764328-new-modern-3d-camera-plugin/?do=embed](https://community.simtropolis.com/forums/topic/764328-new-modern-3d-camera-plugin/?do=embed)
+  author: Rj Simas
+  website: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4-moderncamera-modicon.png.b4db8d7347cd988adf2bf46a2b35e0d2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_1.jpg.c512932498e98365eaf4a9d424dafdd0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_2.jpg.c1a23b6aaae0c3aa4111c6f5351c6a8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_3.jpg.01c81f1ef3ef6f85d729b6b35806e8ca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_4.jpg.3bf27ea7fcdf019c53b1dfced5ae80cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_5.jpg.7a77c616ed754fa5642dc03146597847.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_6.jpg.9728e14d07d7d28d56c07b9df5717256.jpg
+assets:
+  - assetId: rj-simas-sc4-modern-camera
+    withChecksum:
+      - include: /SC4-ModernCamera.dll
+        sha256: d890a6c31175af5ce213b5997997540c5be63a39e578c9e57ac1a225eeaff220
+      - include: /SC4-ModernCamera.dat
+        sha256: 610d891bcacf580259cd11d3b6196186d908fba907602b923d0819f7ca05d599
+
+---
+assetId: rj-simas-sc4-modern-camera
+version: "1.0.4"
+lastModified: "2026-07-03T02:20:21Z"
+url: https://github.com/UncleUncleRj/SC4-ModernCamera/releases/download/v1.0.4/SC4-ModernCamera_1_0_4.zip
+nonPersistentUrl: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download&r=219820
