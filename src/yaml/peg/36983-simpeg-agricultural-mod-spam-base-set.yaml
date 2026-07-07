@@ -1,6 +1,6 @@
 group: peg
 name: spam-base-set
-version: "2.1.0-1"
+version: "2.2.0"
 subfolder: 410-agriculture
 info:
   summary: SPAM - Base Set
@@ -25,17 +25,15 @@ variants:
   - variant: { CAM: "no", fantozzi:colossus-farming:spam: "yes" }
     assets:
     - assetId: "peg-spam-base-set"
-      include:
+      exclude:
       - "/CAM/"
-      - "/PEGPROD/"
   - variant: { CAM: "yes" }
     assets:
     - assetId: "peg-spam-base-set"
-      include:
-      - "/CAM/"
-      - "/PEGPROD/"
+      exclude:
+      - "/SPAM/"
 ---
 assetId: peg-spam-base-set
-version: "2.1.0-1"
-lastModified: "2026-06-25T20:43:48Z"
+version: "2.2.0"
+lastModified: "2026-07-07T20:58:43Z"
 url: https://community.simtropolis.com/files/file/36983-simpeg-agricultural-mod-spam-base-set/?do=download
