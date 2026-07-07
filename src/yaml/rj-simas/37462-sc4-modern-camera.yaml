@@ -41,12 +41,14 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2026_06/sc4_6.jpg.9728e14d07d7d28d56c07b9df5717256.jpg
 assets:
   - assetId: rj-simas-sc4-modern-camera
+    withChecksum:
+      - include: /SC4-ModernCamera.dll
+        sha256: d890a6c31175af5ce213b5997997540c5be63a39e578c9e57ac1a225eeaff220
+      - include: /SC4-ModernCamera.dat
+        sha256: 610d891bcacf580259cd11d3b6196186d908fba907602b923d0819f7ca05d599
 
 ---
 assetId: rj-simas-sc4-modern-camera
 version: "1.0.4"
 lastModified: "2026-07-03T02:20:21Z"
 url: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download&r=219820
-withChecksum:
-  - include: /SC4-ModernCamera.dll
-    sha256: d890a6c31175af5ce213b5997997540c5be63a39e578c9e57ac1a225eeaff220
