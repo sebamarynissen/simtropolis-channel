@@ -20,8 +20,9 @@ variants:
   - variant: { CAM: "no", fantozzi:colossus-farming:spam: "no" }
     assets:
     - assetId: "peg-spam-base-set"
-      include:
-      - "/PEGPROD/"
+      exclude:
+      - "/CAM/"
+      - "/SPAM/"
   - variant: { CAM: "no", fantozzi:colossus-farming:spam: "yes" }
     assets:
     - assetId: "peg-spam-base-set"
