@@ -1,0 +1,64 @@
+group: wmp
+name: murimk-causeway-set
+version: "2.01"
+subfolder: 660-parks
+info:
+  summary: Murimk Causeway Set
+  description: |-
+    **WMP Causeways v2.0** (props by **Murimk**, **bixel**; lotting by **DocRorlach**)
+
+    *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
+
+    **Important**: Please note: the game inhibits transit-enabled lots to sit next to each other. What you need to do is to leave at least a one-tile gap between two TE lots - this only applies to street and road lots - then connect these with either road or street and use the seawall piece on either water side to create uniform look.
+
+    ## Credits
+
+    -   *Original Creditings*: Thanks to **Murimk** for the seawalls, culverts, and his patience; **Porkissimo** for his French props; **bixel** for the fences; **d\_j\_p** & **rivit** for testing patiently; and of course everyone around the **Pegasus** site.
+        
+    ### Additional Credits:
+        
+        -   **DocRorlach** and the **WMP team** and his associates for creating the models, props and the original lots.
+        -   David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+        -   Tyberius06 (STEX Custodian) and xxdita for the restoration/rehosting of these contents.
+        -   Special gratitudes go to Vortext for restoring the **WMP\_Causeway\_Tutorial** and to Rivit for restoring the **z\_WMP Causeway RVTStreet.dat** providing support for his TSR streets on some of the lots.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26088-wmp-murimk-causeway-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0029/ee0a9998a1d1c3a56038779812d90a5d-wmp_causeway04.jpg
+    - https://www.simtropolis.com/objects/screens/0029/b2f212cf9e472d075510da2b5b47f283-wmp_causeway03.jpg
+    - https://www.simtropolis.com/objects/screens/0029/cc957bc76b10072ae43d9f755c4a2fea-wmp_causeway02.jpg
+    - https://www.simtropolis.com/objects/screens/0029/616cfe1d918ea0429119aee7b347ac55-wmp_causeway01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee1239832456_WMPCausewayLrg.jpg.5da5be1a096bf532b684db380fa32ab2.jpg
+dependencies:
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - wmp:essentials
+  - wmp:mega-props-vol01
+  - wmp:mega-textures
+variants:
+- variant: { wmp:murimk-causeway-set:street-style: "default" }
+  assets:
+  - assetId: wmp-murimk-causeway-set
+    exclude:
+      - "/z_WMP Causeway RVTStreet.dat"
+- variant: { wmp:murimk-causeway-set:street-style: "tarsealed" }
+  assets:
+  - assetId: wmp-murimk-causeway-set
+variantInfo:
+- variantId: "wmp:murimk-causeway-set:street-style"
+  description: Customizes the street texture on causeway lots.
+  values:
+  - value: "default"
+    description: Default Maxis style.
+    default: true
+  - value: "tarsealed"
+    description: "Select if you use `pkg=rivit:urban-tarsealed-street-modd`."
+
+---
+assetId: wmp-murimk-causeway-set
+version: "2.01"
+lastModified: "2020-06-15T15:48:37Z"
+url: https://community.simtropolis.com/files/file/26088-wmp-murimk-causeway-set/?do=download&r=181522

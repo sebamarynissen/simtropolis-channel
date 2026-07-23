@@ -1,0 +1,50 @@
+group: wmp
+name: central-station
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: Central Station
+  description: |-
+    WMP Central Stations were built to be used with elevated and ground-level rail connections. Although one could use the station without them, NAM Viaducts are required to build track along the northern platform. Batted & Lotted by DocRorlach.
+
+    The station comes in three "flavours": Sandstone bricks, grey concrete hexagon tiles, and blue-grey slate tiles to accommodate various neighborhoods. The sandstone & blue slate versions are available on the [WMP Exchange](http://workingman-productions.co.uk/downloads/shore_downloads.html).
+
+    ## Statistics
+
+    Lot size: 8 x 5 tiles
+
+    Capacity: 4,500 passengers
+
+    Jobs: Jobs $ : 35,Jobs $$ : 7,Jobs $$$ : 2,R-$ : 35,R-$$ : 7,R-$$$ : 2
+
+    Plop cost: § 1375
+
+    Bulldoze cost: § 555
+
+    Monthly cost: § 35
+
+    ## Credits
+
+    Dave for testing and the midnight photography; Murimk, Shkthrpy, Becca, ABCVS and everyone else for keeping me at it and helping getting the kinks out of this project; DOSH for his Sim models; antics & valentas00 for the car models at the 3D Warehouse.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26320-wmp-central-station-grey/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/da9cdb90e722e8458a6e47da6222478c-wmp_cstation03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/9336effacdea47b589bf841be134799a-wmp_cstation01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/9963b509e1954f82fc36cbb213792aea-wmp_cstation_night.jpg
+dependencies:
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol05
+assets:
+  - assetId: wmp-central-station-grey
+
+---
+assetId: wmp-central-station-grey
+version: "1.1"
+lastModified: "2011-06-04T11:14:51Z"
+url: https://community.simtropolis.com/files/file/26320-wmp-central-station-grey/?do=download&r=92907
