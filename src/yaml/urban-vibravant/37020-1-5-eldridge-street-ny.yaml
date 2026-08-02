@@ -45,6 +45,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2025_09/Cover.jpg.600ca1426e88e7b864cf4055e1affb1f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2025_09/SD.jpg.0a9c818a5716805f31306f8ce4ebcd24.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2025_09/HD.jpg.9297bbea6909f93d8ae08f97d6a4988e.jpg
+dependencies:
+  - mgb204:diagonal-filler-models
 
 variants:
   - variant: { nightmode: standard, urban-vibravant:1-5-eldridge-street-ny:resolution: sd }
