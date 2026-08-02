@@ -27,13 +27,13 @@ variants:
       - assetId: "dgvoodoo2-windows-edition"
         withChecksum:
         - include: /DgVoodoo2-SC4-v5.4-Setup.exe
-          sha256: 9218D39E16F94A979FA50E75362F3FEF582C035037D43C0E14E1ACC1E641411B
+          sha256: 676368C603BF6F0133201E2F46E91E97A96759E55190DA746320E38998C20D9B
   - variant: { ulissewolf:dgvoodoo2:os: "Linux" }
     assets:
       - assetId: "dgvoodoo2-linux-edition"
         withChecksum:
         - include: /DgVoodoo2-SC4-v5.2-Linux.zip
-          sha256: B86E51AF5B6B3F2B99B823635A0047587A1DFCB02BA72665F61F510364FC95DE
+          sha256: 9218D39E16F94A979FA50E75362F3FEF582C035037D43C0E14E1ACC1E641411B
 info:
   summary: "A DLL plugin that enables DirectX 11/12 in SimCity 4, improving performance and stability"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
