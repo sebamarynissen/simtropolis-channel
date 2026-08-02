@@ -32,7 +32,7 @@ info:
 dependencies:
   - peg:pond-kit-base-set-props
 variants:
-  - variant: { peg:pond:base: transparent }
+  - variant: { peg:pond-kit-ii-deluxe-edition:base: transparent }
     assets:
       - assetId: peg-pond-kit-ii-deluxe-edition-v206
         include:
@@ -40,7 +40,7 @@ variants:
         - "/z_PEG_Pond-WF_Medium_Transparent_206.dat"
         - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
         - "/PEG_Ponds_STYLE1_206.dat"
-  - variant: { peg:pond:base: normal }
+  - variant: { peg:pond-kit-ii-deluxe-edition:base: normal }
     assets:
       - assetId: peg-pond-kit-ii-deluxe-edition-v206
         include:
@@ -49,7 +49,7 @@ variants:
         - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
         - "/PEG_Ponds_STYLE1_206.dat"
 variantInfo:
-- variantId: "peg:pond:base"
+- variantId: "peg:pond-kit-ii-deluxe-edition:base"
   description: Choose between sets with or without a transparent base
   values:
   - value: "transparent"

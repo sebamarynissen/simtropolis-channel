@@ -99,21 +99,22 @@ dependencies:
   - shk:parking-pack
   - supershk:mega-parking-textures
 variants:
-- variant: { kingofsimcity-its-office-parks-folegate-leasings:style: "standard" }
+- variant: { kingofsimcity:its-office-parks-folegate-leasings:style: "standard" }
   assets:
   - assetId: "kingofsimcity-its-office-parks-folegate-leasings"
-- variant: { kingofsimcity-its-office-parks-folegate-leasings:style: "lite" }
+- variant: { kingofsimcity:its-office-parks-folegate-leasings:style: "lite" }
   assets:
   - assetId: "kingofsimcity-its-office-parks-folegate-leasings-lite"
 
 variantInfo:
-- variantId: "kingofsimcity-its-office-parks-folegate-leasings:style"
+- variantId: "kingofsimcity:its-office-parks-folegate-leasings:style"
   description: Choose the lotting style.
   values:
   - value: "standard"
     description: The standard lots with CP seasonal trees.
+    default: true
   - value: "lite"
-    description: The LITE version is an adaptation that removes a lot of the perimeter CP seasonal trees and emphasizes open space and user preference. These were specifically made to cater to users that prefer their own choice of MMP trees and plants.
+    description: An adaptation that removes many of the perimeter CP seasonal trees and emphasizes open space. These were specifically made to cater to users that prefer their own choice of MMP trees and plants.
 
 ---
 assetId: kingofsimcity-its-office-parks-folegate-leasings-lite
