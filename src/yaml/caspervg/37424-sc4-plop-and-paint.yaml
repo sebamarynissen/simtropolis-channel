@@ -1,17 +1,15 @@
 group: "caspervg"
 name: "sc4-plop-and-paint-dll"
-version: "0.9.1"
+version: "0.10.2"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
   - "caspervg:sc4-render-services-dll"
 assets:
 - assetId: "caspervg-sc4-plop-and-paint"
-  exclude: 
-   - "/SC4PlopAndPaint.dat"
   withChecksum:
-   - include: /SC4PlopAndPaint-0.9.1-Setup.exe
-     sha256: 428DA9B2D5EE285CAB9FC1209D725BBF20FFFC75AAF6433D004814E7FD2D4280
+   - include: /SC4PlopAndPaint-0.10.2-Setup.exe
+     sha256: FC07C70A516993EE5808EBD6CE1D866494CAC08974FFD6DB361F43247B5D71A0
 
 info:
   summary: "A DLL plugin that adds an in-game panel for browsing lots, painting props, and building and using new prop families"
@@ -66,7 +64,7 @@ info:
 
 ---
 assetId: "caspervg-sc4-plop-and-paint"
-version: "0.9.1"
-lastModified: "2026-06-13T09:05:26Z"
+version: "0.10.2"
+lastModified: "2026-08-22T14:58:48Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37424-sc4plopandpaint-dll/?do=download"
-url: "https://github.com/caspervg/sc4-plop-and-paint/releases/download/v0.9.1/SC4PlopAndPaint-v0.9.1.zip"
+url: "https://github.com/caspervg/sc4-plop-and-paint/releases/download/v0.10.2/SC4PlopAndPaint-v0.10.2.zip"
