@@ -7,6 +7,8 @@ dependencies:
   - "caspervg:sc4-render-services-dll"
 assets:
 - assetId: "caspervg-sc4-plop-and-paint"
+  exclude: 
+   - "/SC4PlopAndPaint.dat"
   withChecksum:
    - include: /SC4PlopAndPaint-0.10.2-Setup.exe
      sha256: FC07C70A516993EE5808EBD6CE1D866494CAC08974FFD6DB361F43247B5D71A0
@@ -48,11 +50,11 @@ info:
   warning: |-
     To complete the installation, you must run this executable file:
 
-    * `SC4PlopAndPaint-0.9.1-Setup.exe`
+    * `SC4PlopAndPaint-0.10.2-Setup.exe`
 
     The installer is located in the following folder:
 
-    * `150-mods/caspervg.sc4-plop-and-paint-dll.0.9.1.sc4pac` 
+    * `150-mods/caspervg.sc4-plop-and-paint-dll.0.10.2.sc4pac` 
     
     Run the installer and follow the instructions provided.    
 
