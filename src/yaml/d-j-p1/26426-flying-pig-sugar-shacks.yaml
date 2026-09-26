@@ -1,0 +1,57 @@
+group: wmp
+name: flying-pig-sugar-shacks
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Flying Pig Sugar Shacks
+  description: |-
+    The Flying Pig Sugar Shacks operate all year-round: during the season they produce the staple maple syrup, while in the off-season period they bring out the stills and convert corn and left-over sap into a potent hooch. The three shacks all have transitory street access, however, the FP Shack was lotted specifically for transitions between SAM asphalt and SAM dirt track. All three require power and water, and offer low-wealth service jobs.
+
+    Although they were designed for rural use, they are really part of the local tourist industry. They appear near the top of the Landmark Menu.
+
+    ## Lot Details and Information
+
+    Lot sizes: FP Shack: 4 x 4 tiles; SHK Shack: 3 x 4 tiles; VA Shack: 3 x 3 tiles
+
+    Menu position: Building: Landmark,Building: CS$
+
+    Jobs: FP Shack: CS$ 18; SHK Shack: CS$ 12; VA Shack: CS$ 10;
+
+    Plop cost: FP Shack: § 315; SHK Shack: § 195; VA Shack: § 140
+
+    Bulldoze cost: FP Shack: § 180; SHK Shack: § 85; VA Shack: § 60
+
+    Power consumption: FP Shack: 20 MWh/month; SHK Shack: 15 MWh/month; VA Shack: 8 MWh/month
+
+    Water consumption: FP Shack:10 Gallons/month; SHK Shack: 18; VA Shack: 10
+
+    Pollution: Air: 0 over 0 tiles; Water: 3 over 3 tiles; Garbage: 5 over 8 tiles
+
+    ## Credits
+
+    Thanks & credits go to Tariel - for coming up with the idea in the first place; Rivit - for once again saving the bacon; Dave - for testing & night-shots; and all the folks suggesting changes and updates in the SimPeg forum - too numerous to mention.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26426-wmp-flying-pig-sugar-shacks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/9b412d6223e72152aacdd589fe13998c-sshack01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/7aa0796adaa7fe4bef524afd9a0703bf-sshack02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/12ed1b8b483680c9739a8ae1f9f6e645-sshack03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/2a744804a32d4fbedc5d06173ac15e8d-sshack04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/48222ad4ebb8b7ba0683242b01bdfedd-fp_props21.png
+dependencies:
+  - girafe:maples
+  - peg:spam-super-resource-pack
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+assets:
+  - assetId: wmp-flying-pig-sugar-shacks
+
+---
+assetId: wmp-flying-pig-sugar-shacks
+version: "1.0"
+lastModified: "2011-06-30T15:15:25Z"
+url: https://community.simtropolis.com/files/file/26426-wmp-flying-pig-sugar-shacks/?do=download&r=88265

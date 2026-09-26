@@ -1,0 +1,49 @@
+group: wmp
+name: murimk-boardwalk
+version: "2.0"
+subfolder: 660-parks
+info:
+  summary: Murimk Boardwalk
+  description: |-
+    **The Boardwalks**: props by **Murimk** & **DocRorlach**; lotted by **DocRorlach**
+
+    Included are three sets of boardwalks: two are strictly texture-based and thus lie flat on the terrain (and are therefore slope-tolerant), while the main one is based on Murimk's boat pier props, making this set a total of 30 lots. Props will show up during plopping, hence there should be no problem with orienting the lots. Murimk's Boardwalk has a transparent base making it easy to paint ploppable water below it. The other boardwalks need to be painted more carefully: we suggest using 1/4 brushes. Best "water" for these lots is **[Tahoe, by Pegasus](https://community.simtropolis.com/files/file/21661-peg-ppond-kit/ "Water MMP")**, and available on the STEX.
+
+    Lot Details and Information can be found in the readme. Read it.
+
+    ## Credits
+    - *Original Creditings*: Thanks to everyone around the Pegasus site & teams; SFBT (especially Andreas); Murimk for the props, and everyone else for their ideas.
+    - *Additional Credits:*
+        -   **DocRorlach** and the **WMP team** and his associates for creating the models, props and the original lots.
+        -   David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+        -   Tyberius06 (STEX Custodian) and xxdita for the restoration/rehosting of these contents.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26125-wmp-murimk-boardwalk/
+  images:
+    - https://www.simtropolis.com/objects/screens/0029/36182fb2058b6975017b2e41700420bd-wmp boardwalk 01.jpg
+    - https://www.simtropolis.com/objects/screens/0029/9d2e4f044e14d3ff857fc5f4dc9738c5-wmp boardwalk 02.jpg
+    - https://www.simtropolis.com/objects/screens/0029/c2573a9cbcfc559b90b40d81826fdadc-wmp boardwalk 03.jpg
+    - https://www.simtropolis.com/objects/screens/0029/ead6c3d48d46f88ae4cce0b20dabab13-wmp_boardwalk_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/wmp_boardwalk_LRG.jpg.10ded4bb06d17d1cde5a8e96655e6028.jpg
+dependencies:
+  - murimk:waterfront-pack-3-rural-marina-resources
+  - murimk:props-vol02-mixed
+  - peg:ppond-kit
+  - peg:ppond-kit-resources
+  - sfbt:essentials
+  - wmp:essentials
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+  - wmp:mega-textures
+assets:
+  - assetId: wmp-murimk-boardwalk
+
+---
+assetId: wmp-murimk-boardwalk
+version: "2.0"
+lastModified: "2020-06-16T23:44:25Z"
+url: https://community.simtropolis.com/files/file/26125-wmp-murimk-boardwalk/?do=download&r=181577

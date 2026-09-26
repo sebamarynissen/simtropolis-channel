@@ -1,7 +1,7 @@
 group: peg
 name: stream-kit-ii-deluxe-edition
-version: "1.2"
-subfolder: 360-landmark
+version: "1.2-1"
+subfolder: 660-parks
 info:
   summary: Stream Kit  Deluxe Edition
   description: |-
@@ -31,8 +31,32 @@ info:
     - https://www.simtropolis.com/objects/screens/0025/dfcb5a71f33fb1c36f5ebf162dd1f4a0-PRODUCT_IMAGE2.jpg
 assets:
   - assetId: peg-stream-kit-ii-deluxe-edition
+    include:
+      - "/PEG_Stream-Kit_206.dat"
 dependencies:
   - peg:mtp-super-pack
+  - peg:stream-kit-ii-deluxe-edition-props
+
+---
+group: peg
+name: stream-kit-ii-deluxe-edition-props
+version: "1.2"
+subfolder: 100-props-textures
+info:
+  summary: Props for `pkg=peg:stream-kit-ii-deluxe-edition`
+  description: |-
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  websites:
+    - https://community.simtropolis.com/files/file/12426-peg-stream-kit-deluxe-edition/
+    - https://community.simtropolis.com/files/file/11083-peg-stream-kit-ii-v205/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/dfcb5a71f33fb1c36f5ebf162dd1f4a0-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0025/dfcb5a71f33fb1c36f5ebf162dd1f4a0-PRODUCT_IMAGE2.jpg
+assets:
+  - assetId: peg-stream-kit-ii-deluxe-edition
+    exclude:
+      - "/PEG_Stream-Kit_206.dat"
 
 ---
 assetId: peg-stream-kit-ii-deluxe-edition

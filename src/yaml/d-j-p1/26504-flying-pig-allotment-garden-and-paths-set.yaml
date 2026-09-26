@@ -1,0 +1,81 @@
+# TODO - has a missing building i have not been able to track down. 
+# The following dependencies were not found:
+# ┌─────────┬──────────────────┬────────────┬──────────────────────────────────┬──────────────────────────────────────────────────────────────────┬────────────┬────────────┐
+# │ (index) │ kind             │ instance   │ referenced by                    │ file                                                             │ type       │ group      │
+# ├─────────┼──────────────────┼────────────┼──────────────────────────────────┼──────────────────────────────────────────────────────────────────┼────────────┼────────────┤
+# │ 0       │ Prop             │ 0x3acd707e │ 0x6534284a-0xa8fbd372-0x5b1f6ca5 │ ...otment-garden-and-paths-set.1.01.sc4pac\WMP_Allotment_Set.dat │            │            │
+# │ 1       │ Prop             │ 0xfacd8ff8 │ 0x6534284a-0xa8fbd372-0x5b1f6ca5 │ ...otment-garden-and-paths-set.1.01.sc4pac\WMP_Allotment_Set.dat │            │            │
+# │ 2       │ Prop             │ 0xbb26132f │ 0x6534284a-0xa8fbd372-0x1b264381 │ ...otment-garden-and-paths-set.1.01.sc4pac\WMP_Allotment_Set.dat │            │            │
+# │ 3       │ SFXActivateSound │ 0x0a55aaec │ 0x6534284a-0x7aab65ab-0x5b20be98 │ ...otment-garden-and-paths-set.1.01.sc4pac\WMP_Allotment_Set.dat │ 0x4a4c132e │            │
+# │ 4       │                  │            │ 0x6534284a-0x7aab65ab-0xbb20b151 │ ...ment-garden-and-paths-set.1.01.sc4pac\wmp_allotment_props.dat │            │            │
+# │ 5       │ SFXActivateSound │ 0xca4c4395 │ 0x6534284a-0x7aab65ab-0xbb20bd09 │ ...otment-garden-and-paths-set.1.01.sc4pac\WMP_Allotment_Set.dat │ 0x4a4c132e │            │
+# │ 6       │                  │            │ 0x6534284a-0x7aab65ab-0xdb20b208 │ ...ment-garden-and-paths-set.1.01.sc4pac\wmp_allotment_props.dat │            │            │
+# │ 7       │ model            │ 0x00030000 │ 0x6534284a-0x7aab65ab-0xdb1a4946 │ ...otment-garden-and-paths-set.1.01.sc4pac\WMP_Allotment_Set.dat │ 0x5ad0e817 │ 0x713d210c │
+# └─────────┴──────────────────┴────────────┴──────────────────────────────────┴──────────────────────────────────────────────────────────────────┴────────────┴────────────┘
+
+# group: wmp
+# name: flying-pig-allotment-garden-and-paths-set
+# version: "1.01"
+# subfolder: 660-parks
+# info:
+#   summary: Flying Pig Allotment Garden and Paths Set
+#   description: |-
+#     **WMP Allotment Garden Set**, by DocRorlach
+
+#     The WMP Allotments Set consists of 12 community gardens, ranging from 1x2 to 2x4 in size, plus a Garden Centre Clubhouse, a Market Square, a functional Transformer Substation, and an equally functioning small Water Pumping Station. Both the power substation and the water pump are found, together with the allotments, in the park menu, and are clearly indicated by custom icons.
+
+#     In addition, the set contains pathways: fenced for the outer pathways, and standard tiles for inner walkways. There are several street connectors, however, all other path and fence tiles are decorative lots only. Path tiles come with their own custom icons for easier identification. The wooden overpass fits over standard rail, road, or street tiles.
+
+#     The set comes with its own range of textures and HD props, and all allotment buildings have been rendered in HD, hence the large download sizes.
+
+#     ## Lot Details and Information
+
+#     Lot sizes: varied; from 2x1 to 4 x 3 tiles
+
+#     Menu position: Building: Civic,Building: Park (the power & water utilities are also found in the Park Menu)
+
+#     Plop cost: varied
+
+#     Bulldoze cost: varied
+
+#     Monthly cost: varied
+
+#     Park effect: 5 over 5 tiles per lot
+
+#     Power consumption: varied
+
+#     Water consumption: varied
+
+#     Pollution: varied
+
+#     ## Credits
+
+#     Thanks to Tariel for mooting the original idea; C.P. for his excellent flora props; all the folks at SimPeg contributing to the proliferation of SPAM; Dave for his unerring testing; Rivit for checking the path and suggesting alternatives; and everyone for their encouragement.
+
+#     ## Support
+
+#     These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+#   author: d_j_p1
+#   website: https://community.simtropolis.com/files/file/26504-wmp-flying-pig-allotment-garden-and-pathes-set/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_07_2011/9211ba19968d73eac235295501a3582a-allot_stex.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_07_2011/6b92f49142e882041de55453dd4807aa-allot-fences-stex.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_07_2011/c5c487f5095e13ecdb547f67746dab9a-allot-paths-stex.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_07_2011/1fe8115e71af27feda8ac7a7138cd468-allot-path-menu.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_07_2011/c0c3d74f2ded4491ee37746f50d7a927-fp_props22.jpg
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - peg:ppond-terrain-props-pack-1
+#   - peg:spam-super-resource-pack
+#   - peg:spot
+#   - wmp:mega-textures
+#   - wmp:mega-props-vol01
+# assets:
+#   - assetId: wmp-flying-pig-allotment-garden-and-pathes-set
+
+# ---
+# assetId: wmp-flying-pig-allotment-garden-and-pathes-set
+# version: "1.01"
+# lastModified: "2011-07-12T18:30:18Z"
+# url: https://community.simtropolis.com/files/file/26504-wmp-flying-pig-allotment-garden-and-pathes-set/?do=download&r=89075
