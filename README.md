@@ -2,7 +2,7 @@
 
 This repository contains the code for the [sc4pac](https://memo33.github.io/sc4pac/#/) metadata channel that automatically handles uploads to the STEX.
 Add `https://sc4pac.simtropolis.com/` to your sc4pac channels to use it.
-See also https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
+See https://github.com/memo33/sc4pac/issues/49 for the initial idea and discussion.
 
 In order for a plugin to be installable by sc4pac, sc4pac needs certain information about it, such as the dependencies and variants, and where the package can actually be downloaded.
 This is done by so called *metadata*, which contains the information needed for sc4pac in a structured format.
@@ -16,7 +16,7 @@ Support is available in the [Simtropolis x sc4pac thread](https://community.simt
 ## Principles
 - Minimize the amount of work needed by the admins of Simtropolis.
 - Automate the generation of yaml metadata as much as possible with as minimal friction as possible for content creators.
-- Backfill the channel with as much existing content from the STEX as feasible. See [#99](https://github.com/sebamarynissen/simtropolis-channel/issues/99) for the progress.
+- Backfill the channel with as much existing content from the STEX as feasible. See [#99](https://github.com/sebamarynissen/simtropolis-channel/issues/99) for the roadmap, or view the [STEX Coverage Report](https://sc4pac.simtropolis.com/docs/coverage-report/index.html).
 
 ## Contributions
 Contributions are welcome!
