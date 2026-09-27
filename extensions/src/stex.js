@@ -12,7 +12,8 @@ function getIdFromUrl(url = window.location.href) {
 }
 
 const channel = 'sc4pac.simtropolis.com';
-setup([channel]).then(({ plugin, h }) => {
+const sc4evermoreChannel = 'sc4evermore.github.io/sc4pac-channel/channel';
+setup([channel, sc4evermoreChannel]).then(({ plugin, h }) => {
 	let id = getIdFromUrl();
 	if (!id) return;
 	let packages = plugin.find('stex', id);
