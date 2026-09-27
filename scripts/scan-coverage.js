@@ -466,7 +466,7 @@ function generateSummarySection(stats) {
       </div>
       <div class="stat-card">
         <div class="stat-value" style="color:var(--covered-fg)">${overallStats.packagesInChannels}</div>
-        <div class="stat-label">Covered in sc4pac</div>
+        <div class="stat-label">Added to sc4pac</div>
       </div>
       <div class="stat-card">
         <div class="stat-value" style="color:var(--missing-fg)">${overallStats.totalFiles - overallStats.packagesInChannels}</div>
@@ -480,17 +480,17 @@ function generateSummarySection(stats) {
 	<div class="summary-grid">
       <div class="stat-card">
         <div class="stat-value">${simtropolisChannelCount}</div>
-        <div class="stat-label">Covered in Simtropolis channel</div>
+        <div class="stat-label">Added to Simtropolis channel</div>
         <div class="stat-label">${((simtropolisChannelCount / overallStats.packagesInChannels) * 100).toFixed(1)}% of files</div>
       </div>
       <div class="stat-card">
         <div class="stat-value">${mainChannelCount}</div>
-        <div class="stat-label">Covered in Default channel</div>
+        <div class="stat-label">Added to Default channel</div>
         <div class="stat-label">${((mainChannelCount / overallStats.packagesInChannels) * 100).toFixed(1)}% of files</div>
       </div>
       <div class="stat-card">
         <div class="stat-value">${sc4eChannelCount}</div>
-        <div class="stat-label">Covered in Sc4Evermore channel</div>
+        <div class="stat-label">Added to Sc4Evermore channel</div>
         <div class="stat-label">${((sc4eChannelCount / overallStats.packagesInChannels) * 100).toFixed(1)}% of files</div>
       </div>
     </div>\n\n`;
