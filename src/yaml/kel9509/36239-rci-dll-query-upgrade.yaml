@@ -8,55 +8,71 @@ dependencies:
   - null-45:allow-more-building-styles-dll
 
 info:
-  summary: "Industrial Props by Marcszar"
+  summary: "Upgrade the Maxis query for Residential, Commercial, and Industrial buildings"
+  description: |-
+    Using new DLL functionality for SimCity 4 created by Null45.
+    Based off of v1.2 of Equinox's "RCI Query Upgrade Mod", originally written and conceptualized by Equinox.
+
+    Thank you Null45 for your amazing DLL mods, and Equinox for your amazing original RCI Query Upgrade!  
+
+    This is a mod to upgrade the Maxis query for Residential. Commercial, and Industrial buildings.  It is built off of Equinox's original RCI Query Upgrade mod, which first showed improved statistics for your growable buildings (including cap status). This RCI DLL Query Upgrade Mod improves upon Equinox's original work by adding new statistics available with the use of DLL mods created and designed by Null45.  Outside of this mod, most of these new statistics are currently not available anywhere else.
+
+    This mod also fixes various errors in the original Equinox Mod, which incorrectly used City and Regional Total Workforce (aka: all Commercial and Industrial Jobs) to represent only Commercial Jobs.  In addition, the terms used in this RCI DLL Query Mod are more precise, referring to Capacity (the total possible availability) instead of incorrectly using the term Population. Also, the placement of the My Sim icon has been corrected.
+
+    Finally, there are stylistic choices available in which query you select and how it will display.  See below under Installation.
+
+    Note that despite the precision in language in the Query, Maxis did not use 100% precise numbers in its data functions.  So for example, the Capacity of each of the R$ and R$$ and R$$$ amounts will not add up to equal the total City Residents Capacity.  However, the numbers are very close.  This is a result of Maxis not aligning the functions and numbers in a way that is equivalent, probably due to the demands of the simulator.
+
+    # Usage
+
+    After installation, select the RCI Query from the Main Menu within SimCity 4.  Select a Residential, Commercial, and Industrial Building to query their information.  If your query of a building (that itself does not have a custom query) looks like any of the screenshots included, then the mod works.  If you installed a query that has the Building Styles in tooltips, hover your mouse over the Building Styles list to see available building styles.  All queries also have informative tooltips over the all descriptive items with helpful tips and hints.. The mod works if the query appears in your game similar to the pictures included within this archive.
+
+    # Technical Information
+
+    This RCI DLL Query Upgrade Mod is best used by those familiar with the way SimCity 4 works.  That is, you know the basics of the game and understand that population growth in Residential, Commercial, and Industrial zones are limited by percentage Demand Caps (except for Commercial Service zones, which have no Caps) that prevent that particular zone's growth until they are "lowered" with the placement of parks, rewards, particular civic buildings and in some cases neighbor connections in order to increase population and job amounts.  
+
+    The new status noted above with an * (asterisk) provide additional information about the a particular building and the Capacities of these zones in your city and region.  
+
+    Actual Job amounts are determined by the Census Drives (aka Workforce Demand) from your game.  As shown in the tooltip, the breakout of low, medium, and high-wealth employees depends on the building type and whether you're running a regular game or a CAM game.  Travel Jobs shows the job amounts for only an industrial lot that has road access and is the entry point for a group of industrial lots.  Travel Jobs may show zero (if the industrial lot is not one that uses the road) or an amount greater than the building's Actual Jobs (if the lot is receiving jobs from the road for itself and other industrial lots).  Both Actual Jobs and Travel Jobs use rounded numbers and so there may be some imprecision in the amounts. 
+
+    Demand amounts for the region and "Active Demand" (the available demand currently active for a particular zone's growth in the city) is shown for all zone types.  This information is new for Commercial Services and Industrial-Farms.  Cap amounts for Industrial-Farms are shown for the first time direct from the SimCity 4 code as well.
+
+    Building Occupancy and Capacity is shown at all wealth levels for a particular zone style, indicating the amount of occupants and capacity if a building were to dilapidate.  The Industrial Query does not have those Building Occupancy and Capacity stats (although they exist as functions in the DLL), because those buildings do not dilapidate but instead just abandon if undesired.  Building occupancy and capacity amounts will be shown as zero for a zone style that does not apply (for instance, a Commercial Services building will show 0 in Occupancy and Capacity for CO$$ and CO$$$), or for a wealth level that would not apply (a CS$ building will show 0 in Occupancy and Capacity for CS$$ and CS$$$, because it cannot exceed its current wealth).  
+
+    Building Style will show a building's available styles.  The Query will show all default and/or custom added building styles made according to the Allow More Building Styles DLL Mod.  Building Lot Growth Stage will show the stage that the particular lot grows at.  Wall-to-Wall (W2W) Building will show "Yes" or "No", depending on whether a building has been coded as a wall-to-wall building.
   author: " Kel9509"
   website: "https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c4b0208ba_RCIDLLQueryv3.0A-ResidentialBuilding.jpg.f995d9244c876edf306ab124228e96d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c4e4ac0d0_RCIDLLQueryv3.0B-ResidentialBuilding.jpg.8dfe5d5f096bfbedb8178f9408853511.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c4fa3bc7d_RCIDLLQueryv3.0B-CommercialBuilding-BuildingListTooltip.jpg.ab2439d4e899f3e1b257c3b48cacd001.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c5148aa80_RCIDLLQueryv3.0B-IndustrialBuilding-BuildAllStyles.jpg.32a47e847fea4436468c9c43b133ce59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c522ac8c0_RCIDLLQueryv3.0C-ResidentialBuilding.jpg.5ebe1ae1d6eb486c848eae30587d03c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c54178564_RCIDLLQueryv3.0C-CommercialBuilding.jpg.ce702b064245811b5ce5ad2898e7293b.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2025_02/67b6c551dbcff_RCIDLLQueryv3.0C-IndustrialBuilding-WithStyles2.jpg.fdd5e1b10790931d30a1e4d7df758bd3.jpg
 
 variants:
-  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-bold-full-building-styles" }
-    assets:
-      - assetId: kel9509-rci-dll-query-upgrade
-        include:
-        - "/RCI DLL Query v3.0A - Vertical Bold Full Building Styles/"
-  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-bold-tooltips-building-styles" }
+  # simplify the installation options - only provide two of the five choices for the ui
+  # `hugues-aroux:ui-carbon-skin` also uses this variant, so if this is expanded later then update that package too
+  - variant: { kel9509:rci-dll-query-upgrade:orientation: "vertical" }
     assets:
       - assetId: kel9509-rci-dll-query-upgrade
         include:
         - "/RCI DLL Query v3.0B - Vertical Bold Tooltips Building Styles/"
-  - variant: { kel9509:rci-dll-query-upgrade:size: "horizontal-bold" }
+  - variant: { kel9509:rci-dll-query-upgrade:orientation: "horizontal" }
     assets:
       - assetId: kel9509-rci-dll-query-upgrade
         include:
         - "/RCI DLL Query v3.0C - Horizontal Bold/"
-  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-light-full-building-styles" }
-    assets:
-      - assetId: kel9509-rci-dll-query-upgrade
-        include:
-        - "/RCI DLL Query v3.0D - Vertical Light Full Building Styles/"
-  - variant: { kel9509:rci-dll-query-upgrade:size: "vertical-light-tooltips-building-styles" }
-    assets:
-      - assetId: kel9509-rci-dll-query-upgrade
-        include:
-        - "/RCI DLL Query v3.0E - Vertical Light Tooltips Building Styles/"
 
 variantInfo:
-  - variantId: kel9509:rci-dll-query-upgrade:size
-    description: Due to the particular nature of modding, there are two versions of the building resolution.
+  - variantId: kel9509:rci-dll-query-upgrade:orientation
+    description: Choose the orientation of the building query UI.
     values:
-      - value: vertical-bold-full-building-styles
-        description: Install the Vertical Bold Query with Full Building Style List.
-      - value: vertical-bold-tooltips-building-styles
-        description: Install the Vertical Bold Query with Building Styles in Tooltips.
-      - value: horizontal-bold
-        description: Install the Horizontal Bold Query.
-      - value: vertical-light-full-building-styles
-        description: Install the Vertical Light Query with Full Building Style List.
-      - value: vertical-light-tooltips-building-styles
-        description: Install the Vertical Light Query with Building Styles in Tooltips.
+      - value: vertical
+        description: City + region information is below the building information.
+        default: true
+      - value: horizontal
+        description: City + region information is to the right of the building information.
     
 ---
 assetId: "kel9509-rci-dll-query-upgrade"
