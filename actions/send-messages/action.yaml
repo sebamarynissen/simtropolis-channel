@@ -7,5 +7,5 @@ inputs:
     description: A JSON stringified array containing the DM data to be sent.
 
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'send-messages.js'

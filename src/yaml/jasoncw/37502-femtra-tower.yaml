@@ -1,0 +1,40 @@
+group: jasoncw
+name: femtra-tower
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Femtra Tower
+  description: |-
+    Femtra Tower is a mass timber residential skyscraper.
+
+    -   4x2 and 2x4 growable R§§§ lot for the Euro tileset.
+    -   MaxisNite and DarkNite versions included. DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+    -   "Metadata.yaml" is included for use by [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37502-femtra-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a597d0899f8f_FemtraTower00.jpg.7452430f25574f06547f4619e9a024bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a597d0e5cddd_FemtraTower01.jpg.d5003a4c0008027cde538a2fec7f9a3f.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-femtra-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-femtra-tower-darknite
+
+---
+assetId: jasoncw-femtra-tower-maxisnite
+version: "1.0.0"
+lastModified: "2026-07-17T00:55:00Z"
+url: https://community.simtropolis.com/files/file/37502-femtra-tower/?do=download&r=220129
+
+---
+assetId: jasoncw-femtra-tower-darknite
+version: "1.0.0"
+lastModified: "2026-07-17T00:55:00Z"
+url: https://community.simtropolis.com/files/file/37502-femtra-tower/?do=download&r=220130

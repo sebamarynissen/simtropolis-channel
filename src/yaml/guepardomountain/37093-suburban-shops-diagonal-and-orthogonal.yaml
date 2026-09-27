@@ -1,0 +1,37 @@
+group: guepardomountain
+name: suburban-shops-diagonal-and-orthogonal
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Suburban Shops - Diagonal and Orthogonal
+  description: |-
+    Three small businesses situated in a single nondescript building, perfect for the transition between low density residential neighborhoods and denser commercial districts.
+
+    Included is a 2x3 growable orthogonal lot, a 1x1 ploppable diagonal with just the building, and a 1x2 ploppable diagonal with an attached parking lot. The version with the parking lot can only be placed on flat terrain.
+
+    Each has 44 CS$ jobs.
+
+    Dependencies:
+
+    [BSC Texture Pack Cycledogg V01](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [GM Props Vol 1](https://community.simtropolis.com/files/file/36517-gm-props-vol-1/)
+
+    The dependencies are for the ortho version only. If you only want the diagonals, then everything is included as part of the model.
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/37093-suburban-shops-diagonal-and-orthogonal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/gmsubshops1.jpg.33f5e1f34c429021a86d8e9bef93993e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/gmsubshops2.jpg.07ed756525e5047e24ad2a6dd800eced.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/gmsubshops3.jpg.6b3dd10dc49c19eb4386f2bcf2013c0b.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - guepardomountain:props-vol1
+assets:
+  - assetId: guepardomountain-suburban-shops-diagonal-and-orthogonal
+
+---
+assetId: guepardomountain-suburban-shops-diagonal-and-orthogonal
+version: "1.0.0"
+lastModified: "2025-11-18T16:40:35Z"
+url: https://community.simtropolis.com/files/file/37093-suburban-shops-diagonal-and-orthogonal/?do=download&r=210169

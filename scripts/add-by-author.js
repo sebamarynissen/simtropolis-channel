@@ -135,4 +135,4 @@ const { argv } = yargs(hideBin(process.argv))
 	.demandCommand(1, styleText('red', 'Please provide at least one author name or ID'))
 	.help();
 
-await run(argv._, argv);
+await run(argv._.map(String), argv);

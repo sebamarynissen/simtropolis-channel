@@ -1,0 +1,68 @@
+group: shokthrpy
+name: tropical-library
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Tropical Library
+  description: |-
+    This lot represents the second in a series of tropical themed civics that I am creating. The stats differ from the default small library in plop cost and in effect.
+
+    The EQ effect of the lot is such that it will more realistically mimick that of an actual library. The base EQ level has been raised slightly and the effect vs. average age has been evened out to provide a more level effect across the age spectrum. In other words it won't get you I-HT demand by itself, but it will get you to 50 or so EQ within it's radius.
+
+    **Stats**
+
+    Lot size: 3 x 2 tiles
+
+    Menu position: Building: Civic,Building: Library
+
+    Jobs: Jobs $ : 3,Jobs $$ : 7,Jobs $$$ : 0,R-$ : 3,R-$$ : 7,R-$$$ : 0
+
+    Plop cost: 500
+
+    Bulldoze cost: 100
+
+    Monthly cost: 250
+
+    EQ Effect: +5
+
+    Flammability: 35
+
+    Max. Fire Stage: 2
+
+    Power consumption: 0 MWh/month
+
+    Water consumption: 2 Gallons/month
+
+    Air pollution: 0 over 0 tiles
+
+    Water pollution: 0 over 0 tiles
+
+    Garbage pollution: 0 over 0 tiles
+
+    **Dependencies**
+
+    [HBS\_FloraPropPackvol.01.dat](https://www.simtropolis.com/forum/files/file/24398-hbs-flora-prop-pack-vol-01/)
+
+    [Orange MegaProp V.01.dat](https://www.toutsimcities.com/downloads/view/1147)
+
+    **Support**
+
+    If you encounter any problems please visit my BAT thread at [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0)
+
+    Additionally these lots will be available for download at the [WorkingMan Exchange](http://workingman-productions.co.uk/downloads/shore_downloads.html)
+  author: shokthrpy
+  website: https://community.simtropolis.com/files/file/26179-shk-tropical-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/d849fa8c18ad79823ee23219f9d5fd66-shklib.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/e9788b570c7e5abddc094991548a3416-shklibnite.jpg
+dependencies:
+  - orange:mega-props-vol01
+  - heblem:flora-prop-pack-vol01
+assets:
+  - assetId: shokthrpy-tropical-library
+
+---
+assetId: shokthrpy-tropical-library
+version: "1.0"
+lastModified: "2011-05-10T17:12:15Z"
+url: https://community.simtropolis.com/files/file/26179-shk-tropical-library/?do=download&r=86707

@@ -10,31 +10,10 @@ version: "1.0.0"
 subfolder: "360-landmark"
 info:
   summary: "The Coastal Development Kit 3 (CDK3) Collection is a collated package of all CDK3 downloads released by Pegasus."
-  warning: "If you opt to include one or of the functional seaport lots, it is imperative you have no other seaport controller installed! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
   description: |-
     Every CDK3 package, previously over 130 separate downloads, has been organized by their themes, for example the Seaports, Marinas and so on. You can customize exactly which specific parts of each CDK3 theme you want and select from any relevant options. The installer will then install your choices and automatically handle all related dependencies. A huge thank you to Pegasus for giving permission to repackage everything in this manner, helping to make content more accessible into the future.
 
     ***All discussions and support for this product are now hosted on the [PLEX on the STEX - Community Support thread at Simtropolis](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
-
-    ## Functional Seaports / Seaport Controller - IMPORTANT INFORMATION
-
-    If you choose to install one or more of the Functional Seaport lots, use of them will require that the Pegasus Seaport Controller is installed. Note that this will replace the in-game seaport in the Water Transit menu.
-
-    **!!! It is imperative that you do not install more than one Seaport Controller - failure to adhere to this warning, could prevent you from opening your cities and render them useless. !!!**
-
-    By installing the controller, you are confirming that you have no other Seaport Controller installed. To avoid conflicts that could prevent you from being able to load your cities, you should never use any other functional Seaport Mod or Lot, except those supported by this package, which are as follows:
-
-      - PEG\-CDK3\-SP\_Container-Seaport.dat\*
-      - PEG\-CDK3\-SP\_Pier-Seaport.dat\*
-      - PEG\-CDK3\-SP\_Break-Bulk-SeaPort.dat\*
-      - CSK2 Canal Small Seaport
-      - SWAP Package Handling Centre
-
-    Note: Items marked with \* are included with this package, everything else is not part of the CDK3, although the included Seaport Controller will support their use.
-
-    If you are unsure if you have any unsupported Seaports, we ***strongly*** suggest testing them in a new, blank test city first. If you can Plop the Seaports, save, exit and reload the city all without issue, then you should be safe to use them in your existing cities. Additionally, we recommend making a backup of your Regions BEFORE using any of the functional Seaports, this way if something does go wrong, you have a way to fix the problem.
-
-    We can not be held responsible for your failure to read, understand or follow the advice here. Whilst this is necessary due to the way the game works, there really isn't anything to worry about, provided you never install more than one such controller, but the warnings are here because if you do, the consequences are not good.
 
     ## Users with pre-existing CDK3 installed
 
@@ -313,9 +292,32 @@ version: "1.0.0"
 subfolder: "400-industrial"
 info:
   summary: "Include Functioning Seaports. !!! Can NOT be used with other functional seaports !!!"
+  warning: "If you opt to include one or more of the functional seaport lots, it is imperative you have no other seaport controller installed (other than the Pegasus Seaport Controller)! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
+  description: |-
+    The CDK3 Functional Seaports are a set of fully functioning Seaports that can be used to provide industrial jobs and freight transport for your city. They are designed to work with the CDK3 Seaport Controller, which is included in this package.
+
+    ## Functional Seaports / Seaport Controller - IMPORTANT INFORMATION
+
+    If you choose to install one or more of the Functional Seaport lots, use of them will require that the Pegasus Seaport Controller is installed. Note that this will replace the in-game seaport in the Water Transit menu.
+
+    ### **It is imperative that you do not install more than one Seaport Controller - failure to adhere to this warning, could prevent you from opening your cities and render them useless!**
+
+    By installing the controller, you are confirming that you have no other Seaport Controller installed. To avoid conflicts that could prevent you from being able to load your cities, you should never use any other functional Seaport Mod or Lot, except those supported by this package, which are as follows:
+
+      - PEG\-CDK3\-SP\_Container-Seaport.dat
+      - PEG\-CDK3\-SP\_Pier-Seaport.dat
+      - PEG\-CDK3\-SP\_Break-Bulk-SeaPort.dat
+      - CSK2 Canal Small Seaport
+      - SWAP Package Handling Centre
+
+    ***All discussions and support for this product are now hosted on the [PLEX on the STEX - Community Support thread at Simtropolis](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)***
+
+    If you are unsure if you have any unsupported Seaports, we ***strongly*** suggest testing them in a new, blank test city first. If you can Plop the Seaports, save, exit and reload the city all without issue, then you should be safe to use them in your existing cities. Additionally, we recommend making a backup of your Regions BEFORE using any of the functional Seaports, this way if something does go wrong, you have a way to fix the problem.
+
+    ### **We can not be held responsible for your failure to read, understand or follow the advice here. Whilst this is necessary due to the way the game works, there really isn't anything to worry about, provided you never install more than one such controller, but the warnings are here because if you do, the consequences are not good.**
   author: Pegasus, STEX Custodian
-  website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  # website: https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/ # removed to exclude from the 'Install with sc4pac' button link
 dependencies:
   - peg:cdk3-sp-container-seaport
-  - peg:cdk3-sp-break-bulk-dock
+  - peg:cdk3-sp-break-bulk-seaport
   - peg:cdk3-sp-pier-seaport

@@ -71,41 +71,41 @@ info:
 dependencies:
   - simfox:thermofisher-scientific-model
 variants:
-- variant: { CAM: "yes" }
-  dependencies: [ "cam:colossus-addon-mod" ]
-  assets:
-  - assetId: simfox-thermofisher-scientific-maxisnite
-    exclude:
-    - "/IHT\\$\\$\\$3_7x4_ThermoFisher Scientific.SC4Lot"
-    - "\\.SC4Model$"
-- variant: { CAM: "no" }
-  assets:
-  - assetId: simfox-thermofisher-scientific-maxisnite
-    exclude:
-    - "/IHT\\$\\$\\$6_7x4_ThermoFisher Scientific.SC4Lot"
-    - "\\.SC4Model$"
+  - variant: { CAM: "yes" }
+    dependencies: [ "cam:colossus-addon-mod" ]
+    assets:
+      - assetId: simfox-thermofisher-scientific-maxisnite
+        exclude:
+          - "/IHT\\$\\$\\$3_7x4_ThermoFisher Scientific.SC4Lot"
+          - "\\.SC4Model$"
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: simfox-thermofisher-scientific-maxisnite
+        exclude:
+          - "/IHT\\$\\$\\$6_7x4_ThermoFisher Scientific.SC4Lot"
+          - "\\.SC4Model$"
 
 ---
 group: simfox
 name: thermofisher-scientific-model
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Model dependency for `pkg=simfox:thermofisher-scientific`
   author: SimFox
   website: https://community.simtropolis.com/files/file/25896-thermofisher-scientific-maxis-nite/
 variants:
-- variant: { nightmode: standard }
-  assets:
-  - assetId: simfox-thermofisher-scientific-maxisnite
-    include:
-    - "\\.SC4Model$"
-- variant: { nightmode: dark }
-  dependencies: [ "simfox:day-and-nite-mod" ]
-  assets:
-  - assetId: simfox-thermofisher-scientific-darknite
-    include:
-    - "\\.SC4Model$"
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simfox-thermofisher-scientific-maxisnite
+        include:
+          - \.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-thermofisher-scientific-darknite
+        include:
+          - \.SC4Model$
 
 ---
 assetId: simfox-thermofisher-scientific-maxisnite

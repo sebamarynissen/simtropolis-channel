@@ -4,6 +4,7 @@ version: "1.0"
 subfolder: 700-transit
 info:
   summary: The functional version of `pkg=peg:cdk3-sp-break-bulk-dock`.
+  warning: "If you opt to include one or more of the functional seaport lots, it is imperative you have no other seaport controller installed (other than the Pegasus Seaport Controller)! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
   description: |-
     The CDK3\-SP Break-Bulk Seaport is a functional seaport that is identical in all regards to the CDK3\-SP Container Seaport. The size of the lot, plop & maintenance costs... and road & rail connections are all the same.
 

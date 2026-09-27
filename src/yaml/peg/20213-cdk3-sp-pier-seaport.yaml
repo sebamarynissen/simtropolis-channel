@@ -4,6 +4,7 @@ version: "1.0"
 subfolder: 700-transit
 info:
   summary: The functional version of `pkg=peg:cdk3-sp-pier-one`.
+  warning: "If you opt to include one or more of the functional seaport lots, it is imperative you have no other seaport controller installed (other than the Pegasus Seaport Controller)! **Failure to adhere to this warning, could prevent you from opening your cities and render them useless!**"
   description: |-
     The CDK3\-SP Pier Seaport harkens to the old days of previous SimCity versions where you could zone seaports as large or small as you wished. Although there is no zoning involved here, the Pier Seaport does allow you to visually create a seaport lot that is as large, or long, as you like.  
       

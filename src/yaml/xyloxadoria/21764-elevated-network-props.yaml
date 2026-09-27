@@ -1,0 +1,61 @@
+group: xyloxadoria
+name: elevated-network-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Elevated Network Props
+  description: |-
+    This is a set of props for use in station making there are also some props from other networks that might be useful as well
+
+    What's Included:
+
+    1. Elevated Highway
+    2. Double Height El-Rail
+    3. Double Height Monorail
+    4. El-Rail
+    5. Monorail
+    6. High Speed Rail
+    7. Ped Bridge
+    8. Heavy El-Rail
+    9. Ground Highway
+    10. Diagonal El-Rail
+    11. El-Rail Terminus
+    12. Diagonal El-Rail Terminus
+    13. Ground High Speed Rail
+    14. Diagonal Monorail
+    15. Monorail Terminus
+    16. Diagonal Monorail Terminus
+
+    See Pictures of all the props included [here](http://i43.tinypic.com/4k8mt5.jpg)
+
+    **How they work**:
+
+    These props reference the IIDs of the S3D model directly so they will always match. Also if something is installed to replace the IID (as in the case of BTM) it will automatically update to reflect the change. I did this by using Resource Key Type 0 Referencing (Thanks to blue lightning and z for the idea)
+
+    **Use:**
+
+    To use these props just put the file in your plugins folder. Then look for the props in Lot Editor The names of the props are the same as in the list above.
+
+    Dependencies:
+
+    To use the HSR props you will need to have the HSR
+
+    To use the ped bridge prop and the double height props you will need the NAM./
+
+    If you are not using any of the above props in your lot then you dont need anything.
+
+    If you want to use these props in your own stations go ahead. Thats what i made them for.
+
+    In order to use these props in your stations, you will need to LOD them to not include the part where the rail will be showing. There is a tutorial on how to do this as well as a thread where you can request more network props [here](https://www.simtropolis.com/forum/messageview.cfm?catid=124&threadid=107354&STARTPAGE=1)
+  author: Xyloxadoria
+  website: https://community.simtropolis.com/files/file/21764-elevated-network-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8f28ab293be2587d208a92017f1e9d74-0072.jpg
+assets:
+  - assetId: xyloxadoria-elevated-network-props
+
+---
+assetId: xyloxadoria-elevated-network-props
+version: "1.0"
+lastModified: "2009-05-29T12:55:03Z"
+url: https://community.simtropolis.com/files/file/21764-elevated-network-props/?do=download&r=47819

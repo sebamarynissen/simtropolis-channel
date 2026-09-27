@@ -1,0 +1,75 @@
+group: ap
+name: onshore-wtg-n117
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: A_1P Onshore WTG N117
+  description: |-
+    This is the model of a 2.4 MW onshore wind turbine based on a Nordex N117 Gamma©. It has a rotor diameter of 117m and at a hub height of 141m (for these specific models I made). Whereas the N117 comes in different power ratings, this turbine is part of the [Gamma class](https://www.nordex-online.com/en/product/n117-2400/) and slightly smaller than the [Delta class](https://www.nordex-online.com/en/product/n117-3600/).
+
+    The cool thing about this turbine is that in the centre of the hub in the front is a window that allows you a nice view when working in there. It is used as an emergency exit from the hub at the same time (yes, you do have to rappel down the turbine)
+
+    ![getfoto-3PrJt7dBtWP-turbine-nordex_n-117](https://www.wind-turbine-models.com/getfoto-3PrJt7dBtWP-turbine-nordex_n-117-gamma.jpg)
+
+    ## Content
+
+    This File contains four wind power plant lots with the same turbine type at different rotor positions, with a small transformer station next to the turbine.
+
+    The production is set to 2400 and the O&M costs are 100$ per month. One turbine is undergoing maintenance and has no power output and zero budget impact.
+
+    ![Icon_r1_res.png.f4932ca4dc9750534d5ffaf36b760b5b.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r1_res.png.f4932ca4dc9750534d5ffaf36b760b5b.png)
+
+    ## A\_1P\_N117\_r1
+
+    ·         Onshore Wind Turbine N117 - rotation 1
+
+    ![Icon_r2_res.png.8ce9f29f329a0cd3db41aa021fad23b0.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r2_res.png.8ce9f29f329a0cd3db41aa021fad23b0.png)
+
+    ## A\_1P\_N117\_r2
+
+    ·         Onshore Wind Turbine N117 - rotation 2
+
+    ![Icon_r3_res.png.7eb16342b1ef4409a7bfcaf5e4e047c8.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_r3_res.png.7eb16342b1ef4409a7bfcaf5e4e047c8.png)
+
+    ## A\_1P\_N117\_r3
+
+    ·         Onshore Wind Turbine N117 - rotation 3
+
+    ![Icon_m_res.png.c7a2d259d010893ec0a7e207c732294f.png](https://www.simtropolis.com/objects/attachments/monthly_2021_03/Icon_m_res.png.c7a2d259d010893ec0a7e207c732294f.png)
+
+    ## A\_1P\_N117\_m
+
+    ·         Onshore Wind Turbine N117 - at maintenance (Rotor locked in y-position, personnel entering hub)
+
+    ## Dependencies
+
+    ·         [SHK\_ParkingPack.dat](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+    ## Instructions
+
+    Unzip and place in plugin folder, eg.:
+
+    C:/Users//Documents/SimCity 4/Plugins
+  author: AP
+  website: https://community.simtropolis.com/files/file/34215-a_1p-onshore-wtg-n117/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview5.jpg.53e41dc3ba2eadeb660201bf8b00a63a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview6.jpg.37d0cbdb82789d4ef41ada4e60b1b697.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview7.jpg.019bce05007539129aa04a5ccedf89ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview8.jpg.d3011cfff1993ad95bf0dd1eb470e72d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview9.jpg.0d54a2f3ca3e22dd9f94ce68c9d9f189.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview10.jpg.9deb799bbb54cbb8830e748a9ec2ff61.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview11.jpg.aa0d2b8711f7755f7c4341d3c5fb9e10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview2.jpg.e0b2b25b62e24ae55518f69ce544e1a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview3.jpg.d78537a9b50f617856e201901fcc4997.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Preview4.jpg.7f72c6c91175a280c775b5eb89b31727.jpg
+dependencies:
+  - shk:parking-pack
+assets:
+  - assetId: ap-onshore-wtg-n117
+
+---
+assetId: ap-onshore-wtg-n117
+version: "1.0.0"
+lastModified: "2021-03-04T18:47:21Z"
+url: https://community.simtropolis.com/files/file/34215-a_1p-onshore-wtg-n117/?do=download&r=185908

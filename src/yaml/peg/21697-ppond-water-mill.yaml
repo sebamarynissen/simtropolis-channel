@@ -40,8 +40,8 @@ assets:
 ---
 group: peg
 name: ppond-water-mill-resource
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Dependencies for `pkg=peg:ppond-water-mill`
   author: Pegasus
@@ -54,9 +54,7 @@ dependencies:
 assets:
   - assetId: peg-ppond-water-mill
     include:
-      - "/PEG-PP_Watermill_RESOURCE.dat"
-
-  
+      - /PEG-PP_Watermill_RESOURCE.dat
 
 ---
 assetId: peg-ppond-water-mill

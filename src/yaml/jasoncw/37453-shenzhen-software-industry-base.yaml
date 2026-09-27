@@ -1,0 +1,36 @@
+group: jasoncw
+name: shenzhen-software-industry-base
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Shenzhen Software Industry Base
+  description: |-
+    This is a mostly accurate recreation of an office complex in the Nanshan District of Shenzhen, China. The real building is a complex of three towers connected together at the lower levels, and has a perforated metal facade. My version is modified to only include one of the towers, the facade is not perforated, and there are a few other small changes.
+
+    -   4x3 growable CO§§§ for the Euro tileset.
+    -   MaxisNite and DarkNite versions included. DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37453-shenzhen-software-industry-base/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a38a5b3bd180_ShenzhenSoftware00.jpg.c6ce49341c416c77ad8b49e7651841a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a38a5b70fc2c_ShenzhenSoftware01.jpg.0d6a3358cbcdf9c4d0b531eb1ed22aeb.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-shenzhen-software-industry-base-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-shenzhen-software-industry-base-darknite
+
+---
+assetId: jasoncw-shenzhen-software-industry-base-maxisnite
+version: "1.0.0"
+lastModified: "2026-06-22T03:10:47Z"
+url: https://community.simtropolis.com/files/file/37453-shenzhen-software-industry-base/?do=download&r=218647
+
+---
+assetId: jasoncw-shenzhen-software-industry-base-darknite
+version: "1.0.0"
+lastModified: "2026-06-22T03:10:47Z"
+url: https://community.simtropolis.com/files/file/37453-shenzhen-software-industry-base/?do=download&r=218648

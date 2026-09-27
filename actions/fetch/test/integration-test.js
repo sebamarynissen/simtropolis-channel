@@ -1216,6 +1216,7 @@ describe('The fetch action', function() {
 	it('sends the Simtropolis token when downloading', async function() {
 
 		process.env.SC4PAC_SIMTROPOLIS_TOKEN = 'token';
+		delete process.env.SC4PAC_SIMTROPOLIS_COOKIE;
 
 		const upload = faker.upload({});
 		const { run } = this.setup({
@@ -1229,6 +1230,71 @@ describe('The fetch action', function() {
 			},
 		});
 		await run({ id: upload.id });
+
+	});
+
+	it('uses token auth only when cookie is also set', async function() {
+
+		process.env.SC4PAC_SIMTROPOLIS_TOKEN = 'token';
+		process.env.SC4PAC_SIMTROPOLIS_COOKIE = 'ips4_member_id=1; ips4_login_key=abc';
+
+		const upload = faker.upload({});
+		const { run } = this.setup({
+			uploads: [upload],
+			handler(req) {
+				let url = new URL(req.url);
+				if (url.searchParams.get('do') === 'download') {
+					let authorization = req.headers.get('authorization');
+					let cookie = req.headers.get('cookie');
+					expect(authorization).to.equal('SC4PAC-TOKEN-ST userkey="token"');
+					expect(cookie).to.equal(null);
+				}
+			},
+		});
+		await run({ id: upload.id });
+
+	});
+
+	it('retries with canonical file url when slugged download returns 403', async function() {
+
+		process.env.SC4PAC_SIMTROPOLIS_TOKEN = 'token';
+
+		const upload = faker.upload({
+			id: 37280,
+			fileURL: 'https://community.simtropolis.com/files/file/37280-coffee-shop-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97/',
+			files: [
+				{
+					id: 218414,
+					name: 'coffee-shop.zip',
+					contents: {
+						'metadata.yaml': {
+							name: 'coffee-shop',
+							group: 'foo',
+						},
+					},
+				},
+			],
+		});
+		let attemptedSlugged = false;
+		let attemptedCanonical = false;
+		const { run } = this.setup({
+			uploads: [upload],
+			handler(req) {
+				let url = new URL(req.url);
+				if (url.searchParams.get('do') === 'download' && url.searchParams.get('r') === '218414') {
+					if (url.pathname === '/files/file/37280-coffee-shop-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97/') {
+						attemptedSlugged = true;
+						return new Response('Forbidden', { status: 403 });
+					}
+					if (url.pathname === '/files/file/37280/') {
+						attemptedCanonical = true;
+					}
+				}
+			},
+		});
+		await run({ id: upload.id });
+		expect(attemptedSlugged).to.equal(true);
+		expect(attemptedCanonical).to.equal(true);
 
 	});
 
@@ -1340,6 +1406,50 @@ describe('The fetch action', function() {
 		let metadata = await read('src/yaml/smf-16/42592-new-title.yaml');
 		expect(metadata[0].group).to.equal('smf-16');
 		expect(metadata[0].name).to.equal('old-title');
+
+	});
+
+	it('preserves previously defined websites when updating an existing package', async function() {
+
+		const upload = faker.upload({
+			id: 42594,
+			uid: 5642,
+			author: 'smf_16',
+			title: 'New Title',
+		});
+		const { fs, run } = this.setup({
+			uploads: [upload],
+		});
+		let existing = [
+			{
+				group: 'smf-16',
+				name: 'old-title',
+				version: '1.0.0',
+				info: {
+					websites: [
+						'https://community.simtropolis.com/files/file/42594-old-title/',
+						'https://www.sc4evermore.com/example-page',
+					],
+				},
+			},
+			{
+				assetId: 'smf-16-old-title',
+				url: 'https://www.old-url.com',
+			},
+		];
+		let src = existing.map(js => stringify(js)).join('\n---\n');
+		await fs.promises.mkdir('/src/yaml/smf-16', { recursive: true });
+		fs.writeFileSync('/src/yaml/smf-16/42594-old-title.yaml', src);
+
+		let { read } = await run({ id: upload.id });
+		let metadata = await read('/src/yaml/smf-16/42594-new-title.yaml');
+		expect(metadata[0].group).to.equal('smf-16');
+		expect(metadata[0].name).to.equal('old-title');
+		expect(metadata[0].info.websites).to.deep.equal([
+			'https://community.simtropolis.com/files/file/42594-old-title/',
+			'https://www.sc4evermore.com/example-page',
+		]);
+		expect(metadata[0].info.website).to.equal(undefined);
 
 	});
 

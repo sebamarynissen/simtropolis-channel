@@ -20,5 +20,5 @@ outputs:
     description: Contains a JSON stringified object that holds the information about the DMs that should be sent.
 
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'create-prs.js'

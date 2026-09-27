@@ -1,0 +1,65 @@
+group: wmp
+name: road-ferry
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Road Ferry
+  description: |-
+    **WMP Road Ferry** by DocRorlach
+
+    The first in a series of ferry ports, this one is a standard road ferry, created as a complement to the far larger Truck Ferry Station, and designed in the same style. It works as all other car and passenger ferries.
+
+    Best placement for this ferry is on a gentle, sloping area of the waterfront. We recommend that you do not terraform for it, but let the ferry lot settle the terrain.
+
+    File sizes are due to HD rendering of all props and buildings.
+
+    ## Lot Details and Information
+
+    Lot size: 3 x 3 tiles
+
+    Menu position: Building: Transportation,Building: Strikeable Transit,Building: Ferry,Building: PassengerFerry,Building: WaterTransit
+
+    Jobs: Jobs $ : 45,Jobs $$ : 5,R-$ : 45,R-$$ : 5
+
+    Plop cost: § 1745
+
+    Bulldoze cost: § 786
+
+    Monthly cost: § 86
+
+    Power consumption: 24 MWh/month
+
+    Water consumption: 55 Gallons/month
+
+    Pollution: Air: 0 over 0 tiles; Water: 10 over 10 tiles; Garbage: 8 over 10 tiles
+
+    Ferry Type: Car & Passenger
+
+    Capacity: 5000
+
+    ## Credits
+
+    While the usual thanks go out to everyone around the Pegasus site & teams and to Dave for his patience with testing this stuff, this project would have not been possible without the creative efforts of quite a lot of people in the 3D modelling world:
+
+    First off, there is *Max Grueter* in Switzerland, whose Working Class Heroes are found on all the ferry lots; for the trucks and cars I ow thanks to a whole slew of designers: *Jost, jrn91, anonymous, col1, mike409, mclarenman, banamana, sandman, mago, williamT, matt372, and poolboy*. All I did was to adapt their creations for SC4 use.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26684-wmp-road-ferry/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/22c27887c099340a35c0ca2190db9498-road_ferry.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/1dd54f8060e52d8b6ffc18a53969280e-road_ferry_night.png
+dependencies:
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol04
+assets:
+  - assetId: wmp-road-ferry
+
+---
+assetId: wmp-road-ferry
+version: "1.0"
+lastModified: "2011-08-24T23:09:25Z"
+url: https://community.simtropolis.com/files/file/26684-wmp-road-ferry/?do=download&r=91184

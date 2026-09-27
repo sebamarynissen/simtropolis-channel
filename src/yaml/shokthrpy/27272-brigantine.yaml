@@ -1,0 +1,38 @@
+group: shokthrpy
+name: brigantine
+version: "1.0"
+subfolder: 170-terrain
+info:
+  summary: Brigantine 2.0
+  warning: This is a high definition terrain mod. In order to utilize HD textures you must be rendering in hardware mode, otherwise you may experience a crash to desktop.
+  description: |-
+    This is a suite of "new" water mods based on the wave pattern of an old standby, Peg's much revered Brigantine.
+
+    Due to the different texture tiling properties when using HD terrain mods (namely Lowkee's Appalachian and Orange's PTM), older water mods will not scale correctly to the terrain and look odd. Thus I have taken the original Brigantine and effectively doubled the resolution, as well as created 7 other colors utilizing the same wave pattern.
+
+    **\*Note - In order to utilize hd textures you must be rendering in hardware mode, otherwise you may experience a crash to desktop.**
+
+    **Dependencies**
+
+    None
+
+    **Credits**
+
+    Thanks to Pegasus for his fantastic work on the original!
+
+    **Support**
+
+    If you encounter any problems please visit my BAT thread at [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9391.0)
+  author: shokthrpy
+  website: https://community.simtropolis.com/files/file/27272-shk-brigantine-20/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/437710ef270b74c0182f7eff79d94780-brigantine01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/cf6aff519ed1dfe0553ef26595e31f6f-brigs.jpg
+assets:
+  - assetId: shokthrpy-brigantine-2-0
+
+---
+assetId: shokthrpy-brigantine-2-0
+version: "1.0"
+lastModified: "2012-02-13T23:44:47Z"
+url: https://community.simtropolis.com/files/file/27272-shk-brigantine-20/?do=download&r=97107

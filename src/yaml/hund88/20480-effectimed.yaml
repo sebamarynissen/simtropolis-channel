@@ -29,10 +29,10 @@ assets:
 ---
 group: hund88
 name: effectimed-model
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
-  summary: "Industrial manufacturing building"
+  summary: Industrial manufacturing building
   description: |
     This package contains models and props from `pkg=hund88:effectimed`.
   author: HunD88
@@ -43,7 +43,7 @@ info:
 assets:
   - assetId: hund88-effectimed
     include:
-      - "\\.SC4Model$"
+      - \.SC4Model$
 
 ---
 assetId: hund88-effectimed

@@ -35,12 +35,11 @@ assets:
     exclude:
       - "\\.SC4Model$"
 
-
 ---
 group: szymcar
 name: small-polish-residental-blocks-czestochowa-models
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Models for `pkg=szymcar:small-polish-residental-blocks-czestochowa`
   author: szymcar
@@ -50,7 +49,7 @@ info:
 assets:
   - assetId: szymcar-small-polish-residental-blocks-czestochowa
     include:
-      - "\\.SC4Model$"
+      - \.SC4Model$
 
 ---
 assetId: szymcar-small-polish-residental-blocks-czestochowa

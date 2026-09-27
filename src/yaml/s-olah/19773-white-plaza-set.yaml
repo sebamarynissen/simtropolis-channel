@@ -1,0 +1,42 @@
+group: s-olah
+name: white-plaza-set
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: White Plaza set
+  description: |-
+    **White Plaza set by Alex**
+
+    **The set contains 5 plaza's:
+    **Plaza 1: Medium wealth plaza with tree and benches
+    Plaza 2: Medium wealth plaza with tree and corner benches
+    Plaza 3: Medium wealth plaza with 7fountains
+    Plaza 4: Medium wealth plaza with bistro corner
+    Plaza 5:Simple Medium wealth plaza with crowd only
+    Each plaza has a plopping cost of 90$, and a monthly maintenance cost of 5$
+    
+    The set also includes a bus stop and a subway station:
+    
+    **Bus Stop:**
+    Monthly maintenance cost: 10$
+    Bulldoze Cost: 100$
+    Plop cost: 100$
+    Power Consumed: 3
+    Water Consumed: 0
+    Flammability: 4
+    Capacity: 1200
+  author: s_olah
+  website: https://community.simtropolis.com/files/file/19773-white-plaza-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/44d025f7269d42163e36e261cf9161c4-jpg1.JPG
+    - https://www.simtropolis.com/objects/screens/0008/44d025f7269d42163e36e261cf9161c4-jpg21.JPG
+dependencies:
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: s-olah-white-plaza-set
+
+---
+assetId: s-olah-white-plaza-set
+version: "1.0"
+lastModified: "2008-05-05T11:11:12Z"
+url: https://community.simtropolis.com/files/file/19773-white-plaza-set/?do=download&r=44717

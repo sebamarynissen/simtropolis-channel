@@ -1,0 +1,37 @@
+group: jasoncw
+name: the-garamond
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Garamond
+  description: |-
+    -   2x2 growable corner R§§§ lot for the Euro tileset.
+    -   MaxisNite and DarkNite versions included. DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37449-the-garamond/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a3762df8ca6d_TheGaramond00.jpg.0de736d86be81e0ed5c093e2591db00c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a3762e858003_TheGaramond01.jpg.3a476369c655a90d25c72985ab4fb452.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-the-garamond-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-the-garamond-darknite
+
+---
+assetId: jasoncw-the-garamond-maxisnite
+version: "1.0.0"
+lastModified: "2026-06-21T04:06:16Z"
+url: https://community.simtropolis.com/files/file/37449-the-garamond/?do=download&r=218548
+
+---
+assetId: jasoncw-the-garamond-darknite
+version: "1.0.0"
+lastModified: "2026-06-21T04:06:16Z"
+url: https://community.simtropolis.com/files/file/37449-the-garamond/?do=download&r=218549

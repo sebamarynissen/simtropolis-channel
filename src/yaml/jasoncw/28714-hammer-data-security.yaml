@@ -1,6 +1,6 @@
 group: jasoncw
 name: hammer-data-security
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Hammer Data Security
@@ -42,13 +42,6 @@ variants:
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-hammer-data-security-darknite
-  - variant: { nightmode: standard, CAM: "yes", jasoncw:hammer-data-security:capacity: standard }
-    assets:
-      - assetId: jasoncw-hammer-data-security-cam-maxisnite
-  - variant: { nightmode: dark, CAM: "yes", jasoncw:hammer-data-security:capacity: standard }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: jasoncw-hammer-data-security-cam-darknite
   - variant: { nightmode: standard, CAM: "no", jasoncw:hammer-data-security:capacity: doubled }
     assets:
       - assetId: jasoncw-hammer-data-security-2x-maxisnite
@@ -56,10 +49,10 @@ variants:
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-hammer-data-security-2x-darknite
-  - variant: { nightmode: standard, CAM: "yes", jasoncw:hammer-data-security:capacity: doubled }
+  - variant: { nightmode: standard, CAM: "yes" }
     assets:
       - assetId: jasoncw-hammer-data-security-cam-maxisnite
-  - variant: { nightmode: dark, CAM: "yes", jasoncw:hammer-data-security:capacity: doubled }
+  - variant: { nightmode: dark, CAM: "yes" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-hammer-data-security-cam-darknite

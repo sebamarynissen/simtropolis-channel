@@ -1,0 +1,33 @@
+group: gtaki
+name: onslope-flups-tram-in-avenue
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  summary: GTK onslope FLUPs gateway for Tram-in-Avenue
+  description: |-
+    This LOT is a network enabled Tram-in-Avenue LOT and it is designed to be used with NAM FLUPs. 
+  author: gtaki
+  websites:
+    - "https://community.simtropolis.com/files/file/25587-gtk-onslope-flups-gateway-for-tram-in-avenue/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/99f7a280684b9f34235f571624974a3e-gtk_tunnelmouth_u1.jpg
+    - https://www.simtropolis.com/objects/screens/0017/99f7a280684b9f34235f571624974a3e-gtk_tunnelmouth_u2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: gtaki-onslope-flups-tram-in-avenue
+        include:
+          - "/GTK_TunnelMouth_TinA_b9eb3bf6.SC4Lot"
+          - "/GTK_TunnelMouth_TinA_Nm-0x5ad0e817_0xb874a0ed_0x50000.SC4Model"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: gtaki-onslope-flups-tram-in-avenue
+        include:
+          - "/GTK_TunnelMouth_TinA_b9eb3bf6.SC4Lot"
+          - "/GTK_TunnelMouth_TinA_Nd-0x5ad0e817_0xb874a0ed_0x50000.SC4Model"
+
+---
+assetId: gtaki-onslope-flups-tram-in-avenue
+version: "2.0.0"
+lastModified: "2026-09-14T21:05:45Z"
+url: https://community.simtropolis.com/files/file/25587-gtk-onslope-flups-gateway-for-tram-in-avenue/?do=download

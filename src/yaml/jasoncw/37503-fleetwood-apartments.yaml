@@ -1,0 +1,37 @@
+group: jasoncw
+name: fleetwood-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Fleetwood Apartments
+  description: |-
+    Fleetwood Apartments is an apartment building in Toronto, Canada.
+
+    -   2x3 growable R§§ lot for the New York 1940 tileset.
+    -   MaxisNite and DarkNite versions included. DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for use by [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37503-fleetwood-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a597dc2e3df1_FleetwoodApartments00.jpg.2d4fb89899869218811f38a5700ac11e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a597dda92548_FleetwoodApartments01.jpg.62e50111ad5adc28da0ef485657db17c.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-fleetwood-apartments-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-fleetwood-apartments-darknite
+
+---
+assetId: jasoncw-fleetwood-apartments-maxisnite
+version: "1.0.0"
+lastModified: "2026-07-17T00:58:56Z"
+url: https://community.simtropolis.com/files/file/37503-fleetwood-apartments/?do=download&r=220133
+
+---
+assetId: jasoncw-fleetwood-apartments-darknite
+version: "1.0.0"
+lastModified: "2026-07-17T00:58:56Z"
+url: https://community.simtropolis.com/files/file/37503-fleetwood-apartments/?do=download&r=220134
