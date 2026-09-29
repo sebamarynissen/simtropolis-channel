@@ -44,6 +44,7 @@ export default {
 	791: 'bsc:mega-props-jes-vol04',
 	851: 'nam',
 	925: 'sfbt:kenworth-rail-catenaries-props',
+	955: 'bsc:sg-models-agriculture',
 	1117: 'bsc:sg-models-large-stores',
 	1119: 'bsc:sg-models-malls',
 	1180: 'bsc:mega-props-cp-vol01',
