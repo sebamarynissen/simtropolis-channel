@@ -5,6 +5,8 @@ subfolder: "150-mods"
 info:
   summary: RCI Query Upgrade Mod
   description: |-
+    ** There is a newer version of this mod, `pkg=kel9509:rci-dll-query-upgrade`, and using that is is recommended in most cases, unless you are unable to use DLL mods.**
+    
     This is a mod I wrote after becoming frustrated with the demand cap situation in one of my cities.  I realized I had no idea what the cap status was until the desirability began to fall and buildings began to dilapidate and abandon.  As a result, I took the game's three primary developer queries (residential, commercial, and industrial) and added some details and statistics to them, and that's what you have here.  The most important information this mod features relates to the demand caps.  These caps limit growth in your cities, and the percentage you have filled is shown in all 3 'upgraded' queries.  **For complete information on how demand caps work, and how to read the data in the queries, consult the enclosed HTML readme file.**  It explains them all in depth, based on information from the Prima strategy guide.  Also found in the queries are somewhat simpler stats like the number of each density zoned in the active city, and the demand for the developer type, but reflective of your cap status.
 
     * * *
