@@ -1,0 +1,63 @@
+group: hugues-aroux
+name: cursors
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Scoty Cursors
+  description: |-
+    This package offers alternative mouse pointer sets for SimCity 4.  
+    .. Blue .. ![cur_Blue.png.44e18656547ec47c360c985608f9e735.png](https://www.simtropolis.com/objects/attachments/monthly_2026_07/cur_Blue.png.44e18656547ec47c360c985608f9e735.png)  
+    .. Carbon .. ![cur_carbon.png.b567c5e3698f2f3d58d8aaaecb877117.png](https://www.simtropolis.com/objects/attachments/monthly_2026_07/cur_carbon.png.b567c5e3698f2f3d58d8aaaecb877117.png)  
+    .. Flat White .. ![cur_FlatW.png.47be60f5e59b463327d7f6556f9edbed.png](https://www.simtropolis.com/objects/attachments/monthly_2026_07/cur_FlatW.png.47be60f5e59b463327d7f6556f9edbed.png)  
+    .. Flat Black .. ![cur_FlatBk.png.6e0a95a226b186dc553599fe96b2e93c.png](https://www.simtropolis.com/objects/attachments/monthly_2026_07/cur_FlatBk.png.6e0a95a226b186dc553599fe96b2e93c.png)
+
+    **Installation**  
+    Extract the contents of the ZIP file into your Plugins/ folder, and **keep only one** DAT files.
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/37514-scoty-cursors/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/img_tech_cursors.jpg.4e50a730c05793121ed933d7b6b64508.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/scoty_cur_x01b.jpg.3f575de9bb4d67f726ec54e3f557e8e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/scoty_cur_x02b.jpg.108c6516c0d823c2827c1daaeb796923.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/scoty_cur_x03b.jpg.9d39c874cd5de883d7c1646efac2da61.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/scoty_cur_x04b.jpg.3c6786c78ec70f90bf65966814a77296.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/maxis_cur_x00b.jpg.108621ba23ce1ec5f563d076b3f8f03b.jpg
+variants:
+- variant: { hugues-aroux:cursors:style: "blue" }
+  assets:
+  - assetId: "hugues-aroux-scoty-cursors"
+    include:
+    - "/scoty_cursor08_Blue.dat"
+- variant: { hugues-aroux:cursors:style: "carbon" }
+  assets:
+  - assetId: "hugues-aroux-scoty-cursors"
+    include:
+    - "/scoty_cursor08_Carbon.dat"
+- variant: { hugues-aroux:cursors:style: "flat-white" }
+  assets:
+  - assetId: "hugues-aroux-scoty-cursors"
+    include:
+    - "/scoty_cursor08_FlatW.dat"
+- variant: { hugues-aroux:cursors:style: "flat-black" }
+  assets:
+  - assetId: "hugues-aroux-scoty-cursors"
+    include:
+    - "/scoty_cursor08_FlatBk.dat"
+variantInfo:
+- variantId: "hugues-aroux:cursors:style"
+  description: "Customize cursor theme"
+  values:
+  - value: "blue"
+    description: "Blue themed cursors"
+  - value: "carbon"
+    description: "Grey cursors compatible with the Carbon UI"
+  - value: "flat-white"
+    description: "White monochrome cursors"
+  - value: "flat-black"
+    description: "Black monochrome cursors"
+
+---
+assetId: hugues-aroux-scoty-cursors
+version: "1.0.0"
+lastModified: "2026-07-27T21:11:53Z"
+url: https://community.simtropolis.com/files/file/37514-scoty-cursors/?do=download&r=220483

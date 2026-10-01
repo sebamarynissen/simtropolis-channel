@@ -1,0 +1,95 @@
+group: mas71
+name: japanese-walls-set
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Japanese Walls Set
+  description: |-
+    **\- Japanese Walls Set -  
+    ****  
+    UPDATE : 21,Jan,2008 - Add the MMLing lot.**  
+    and  
+    Do you interesting with my "**Walls Pack 2**" ?  
+    Please check new one on [my thread in SC4D.](https://www.sc4devotion.com/forums/index.php?topic=2897.0)
+
+    * * *
+
+      
+      
+    Hello many good mayors! This is my2nd post.  
+    I made simple LOTs set that designed with "Jpanaese popular walls".  
+    You can use **favorite one** from two kinds of sets(types) in this work.  
+      
+      
+    **1\. "JPN Walls All - Design"**  
+    You can use LOTs by choosing only a favorite number from among the wall of 5 designs.  
+    However, a large amount of icons in the Game are added only as for the number.  
+      
+      
+    **2\. "JPN Walls One - Design"**  
+    You can use LOTs by choosing only one texture of the wall from among five walls textures.  
+    Only the wall of the design of one per one map can be used though the number of increases of icons is minimum.  
+      
+    The difference of the design of each texture can be seen [***HERE***](http://img106.imageshack.us/img106/7281/jpnwallstextureshe3.jpg).  
+      
+      
+    !! You must not use these two types at the same time.  
+    !! Please let me do either PLUGIN only as for 1 type.  
+      
+    *Please read enclosedREADME about a detailed explanation of this work.*I recommend the thing used to this work simultaneously with the following works please.*["**Hole Digging Lots**" by Smoncrie](https://www.simtropolis.com/stex/index.cfm?id=3599)  
+      
+    *[*"**Diagonal Jagged Edges Mod**" by pjot*](https://www.simtropolis.com/stex/index.cfm?id=15048)
+
+    * * *
+
+      
+    ***\- Special Thanks -  
+    ***  
+    They gave me bigest advices and helps for making this works.  
+    **Jeronij**, **Jestarr** ,**Badsim**, **Wouanagaine**, **Snorrelli** and **Gaston  
+    **in "SC4 Devotion" and SC4D's good staffs.  
+    Thank you very much for your kindness and cooperations!!  
+      
+    \- **SC4 Devotion** \-  
+    [https://www.sc4devotion.com/](https://www.sc4devotion.com/)  
+      
+    I wish to express our gratitude similarly for "**SIMTROPOLIS**" and "**SimCityForce**" that gives me the place of opening this work to the public, too.  
+      
+    \- **SimCityForce** - in Japan "**Kamuraita^o**" san.  
+    [http://homepage2.nifty.com/kamurai/SimCity/index.htm](http://homepage2.nifty.com/kamurai/simcity/index.htm)
+
+    * * *
+
+    * * *
+  author: Mas71
+  website: https://community.simtropolis.com/files/file/17875-japanese-walls-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/15b00d591d11eb23a40d70cd231dee62-JPN_Walls_Set.jpg
+dependencies:
+  - mas71:japanese-walls-set-props
+assets:
+  - assetId: mas71-japanese-walls-set
+    exclude:
+      - "/JPN_Walls_Props.*.dat"
+
+---
+group: mas71
+name: japanese-walls-set-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Helper props for `pkg=mas71:japanese-walls-set`
+  author: Mas71
+  website: https://community.simtropolis.com/files/file/17875-japanese-walls-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/15b00d591d11eb23a40d70cd231dee62-JPN_Walls_Set.jpg
+assets:
+  - assetId: mas71-japanese-walls-set
+    include:
+      - "/JPN_Walls_Props_One-Design_mas71.dat"
+
+---
+assetId: mas71-japanese-walls-set
+version: "1.0"
+lastModified: "2007-03-16T14:00:50Z"
+url: https://community.simtropolis.com/files/file/17875-japanese-walls-set/?do=download&r=41457
