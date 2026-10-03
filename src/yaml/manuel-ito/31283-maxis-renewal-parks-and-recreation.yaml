@@ -1,0 +1,58 @@
+group: manuel-ito
+name: maxis-renewal-parks-and-recreation
+version: "1.1.0"
+subfolder: 660-parks
+info:
+  summary: Maxis Renewal - Parks and Recreation
+  description: |-
+    In this first\* installment of the Maxis renewal series, most of the basic Maxis parks, as well as some related rewards, have been re-lotted.
+
+    Changes include general lot redecoration: most trees replaced with CP's seasonal and semi-seasonal variants, sidewalk textures replaced with CP's SCILT textures and the green park's base replaced to match the open grass area, among other things.
+
+    Lots overriden: Green parks, flower gardens, plazas, sports fields, beach, minor and major league stadium facelift, mayor statues, farmer's market.
+
+    Optional standalone lots included: koi pond garden, fenced sports fields, beach promenade extensions.
+
+    These overrides require a considerable amount of dependencies.
+
+    \*Technically second, as I consider the Grand Rail Station Facelift as part of the series
+
+    Notes:
+
+    As with any lot overrides, it's recommended to bulldoze any existing instances of these Maxis lot overrides in your desired region before (un)installing this plugin, otherwise it may lead to problems ranging from texture and prop mismatches to other issues. You can plop them back afterwards.
+
+    Enjoy! ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif ":)")
+  author: Manuel-ito
+  website: https://community.simtropolis.com/files/file/31283-maxis-renewal-parks-and-recreation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisParks1.jpg.4cb55257f2c67dd0389663bbdb437d23.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisParks2.jpg.f448b951804b369aaf97836e5f094749.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisParks3.jpg.fb1b937e4aa1c32a6dc85d7acf46d6f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisParks4.jpg.f5f79f67d9ead9fb1b7ddd125b7cee1d.jpg
+dependencies:
+  - citynut:nuts-props-pack-a
+  - cp:scilt
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - maxis:buildings-as-props
+  - paeng:textures
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: manuel-ito-maxis-renewal-parks-and-recreation
+
+---
+assetId: manuel-ito-maxis-renewal-parks-and-recreation
+version: "1.1.0"
+lastModified: "2016-09-09T17:36:39Z"
+url: https://community.simtropolis.com/files/file/31283-maxis-renewal-parks-and-recreation/?do=download&r=163224

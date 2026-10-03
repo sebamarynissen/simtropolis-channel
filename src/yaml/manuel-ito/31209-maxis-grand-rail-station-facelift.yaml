@@ -1,0 +1,48 @@
+group: manuel-ito
+name: maxis-grand-rail-station-facelift
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Maxis' Grand Rail Station Facelift
+  description: |-
+    This is a relot of Maxis' Grand Rail Station reward, which didn't age well in comparison with the great custom content made by the community. In addition to general redecoration of the surroundings, a second dual track rail passage has been added, as well as some timed passenger car props and visual TE for street and a custom icon.
+
+    Notes:
+
+    As with any lot overrides, it's recommended to bulldoze any existing instances of the Grand Rail Station in your desired region before (un)installing this plugin, otherwise it may lead to problems ranging from texture and prop mismatches to pathing issues. You can plop them back afterwards.
+
+    This relot was originally built for personal purposes, hence the amount of dependencies
+
+    Enjoy! ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif ";)")
+  author: Manuel-ito
+  website: https://community.simtropolis.com/files/file/31209-maxis-grand-rail-station-facelift/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/GrandRailView2.jpg.41a6a0f62b94c38d038662c493322b6a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/GrandRailView3.jpg.8c9db04f9afbe56602938fa9b307b5b2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/GrandRailBefore.jpg.ec98f146d56aed1eb847421c5c46e7b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/GrandRailAfter.jpg.ab0345eaff9f3eca28552e07d9daac5d.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - maxis:buildings-as-props
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - eggman121:rrw-reskin-lot-support
+  - paeng:textures
+  - peg:mtp-super-pack
+  - sfbt:kenworth-royal-railway-props
+  - shk:parking-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: manuel-ito-maxis-grand-rail-station-facelift
+
+---
+assetId: manuel-ito-maxis-grand-rail-station-facelift
+version: "1.0"
+lastModified: "2016-07-27T01:36:59Z"
+url: https://community.simtropolis.com/files/file/31209-maxis-grand-rail-station-facelift/?do=download&r=162647

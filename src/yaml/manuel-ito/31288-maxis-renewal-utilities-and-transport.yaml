@@ -1,0 +1,63 @@
+group: manuel-ito
+name: maxis-renewal-utilities-and-transport
+version: "1.1.0"
+subfolder: 500-utilities
+info:
+  summary: Maxis Renewal - Utilities and Transport
+  description: |-
+    In this installment of the Maxis renewal series, most of the basic Maxis utilities and transport have been re-lotted.
+
+    As usual, changes include general lot redecoration, like most flora seasonalized and SCILT sidewalk textures, among other things.
+
+    Lots overriden: Water pumps, Treatment plant, Incinerator, Recycling center, Nuclear and Solar power plants, Toxic waste dump, Passenger, Freight and Elevated train stations, Monorail, Bus and Subway stations, Elevated Rail to subway transition, Parking lot and Project Symphony style Maxis toll Booths.
+
+    Standalone lots included: Compact Water Treatment Plant (50% less capacity), Compact Passenger and Freight Stations (25% less capacity), Train stops (very low capacity) and Passenger Rail Terminus Station (10% more capacity)
+
+    These overrides require a considerable amount of dependencies.
+    
+    Notes:
+
+    As with any lot overrides, it's recommended to bulldoze any existing instances of these Maxis lot overrides in your desired region before (un)installing this plugin, otherwise it may lead to problems ranging from texture and prop mismatches to other issues. You can plop them back afterwards.
+
+    Includes readme in english and spanish.
+
+    Enjoy! ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif ";)")
+  author: Manuel-ito
+  website: https://community.simtropolis.com/files/file/31288-maxis-renewal-utilities-and-transport/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisUtilTransport1.jpg.454b117bab6a5a64803afaf4b4ec116c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisUtilTransport2.jpg.d3ed8c8a87a4a8b51c5625f44bbff144.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisUtilTransport3.jpg.197d55c2b6160453e7757f4bdba9e8a9.jpg
+dependencies:
+  - cp:scilt
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - maxis:buildings-as-props
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - eggman121:rrw-reskin-lot-support
+  - peg:mtp-super-pack
+  - peg:security-fencing-kit
+  - shk:parking-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: manuel-ito-maxis-renewal-utilities-and-transport
+
+---
+assetId: manuel-ito-maxis-renewal-utilities-and-transport
+version: "1.1.0"
+lastModified: "2016-09-14T18:37:41Z"
+url: https://community.simtropolis.com/files/file/31288-maxis-renewal-utilities-and-transport/?do=download&r=163225
