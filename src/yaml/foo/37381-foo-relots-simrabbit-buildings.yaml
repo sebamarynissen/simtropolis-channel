@@ -1,0 +1,63 @@
+group: foo
+name: relots-simrabbit-buildings
+version: "1.2.0"
+subfolder: 200-residential
+info:
+  summary: 27 growable relots of SimRabbit buildings
+  description: |-
+    A set of 27 renewed growable lots using building models made by SimRabbit and the NDEX Team.
+    Includes residential and commercial lots with temperate seasonal flora props.
+    Some lots show the vanilla fire truck as a prop; install the optional Firetruck Expansion Pack to replace it.
+  author: Foo
+  website: https://community.simtropolis.com/files/file/37381-foo-relots-simrabbit-buildings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-001.thumb.jpg.825f23335e5510af32832ade15247d26.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-002.thumb.jpg.90d3d57f5cf1dffbd785f90ed4f2ec80.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-003.thumb.jpg.8b41f2453041b50d05c700452c9685fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-004.thumb.jpg.d7f08d0d773930cdfc2687a48e367cdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-005.thumb.jpg.eac95237f1831ac3fc8ffd4a923ba5db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-006.thumb.jpg.c61b07613e92d210a08ba7c012e32b03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-007.thumb.jpg.460fc05df48423fd1faa8e7500680c6e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-008.thumb.jpg.61b116c38415f37a68ea4c83603339b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/simrabbit-009.thumb.jpg.4d2d773bf9dc8a26719fb01a0e5e79a7.jpg
+
+dependencies:
+  - ndex:simrabbit123-mega-pack-vol01
+  - ndex:simrabbit123-mega-pack-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:hedges
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-swi21-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - vortext:vortexture-1
+  - vortext:vortexture-2
+  - ndex:textures-vol1
+  - namspopof:nams-mega-props
+  - bsc:essentials
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: foo-relots-simrabbit-buildings-noncam
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: foo-relots-simrabbit-buildings-cam
+
+---
+assetId: foo-relots-simrabbit-buildings-noncam
+version: "1.2.0"
+lastModified: "2026-08-02T17:50:17Z"
+url: https://community.simtropolis.com/files/file/37381-foo-relots-simrabbit-buildings/?do=download&r=221269
+
+---
+assetId: foo-relots-simrabbit-buildings-cam
+version: "1.2.0"
+lastModified: "2026-08-02T17:50:17Z"
+url: https://community.simtropolis.com/files/file/37381-foo-relots-simrabbit-buildings/?do=download&r=221270

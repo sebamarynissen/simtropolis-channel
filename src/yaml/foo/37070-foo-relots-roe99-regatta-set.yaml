@@ -1,0 +1,67 @@
+group: foo
+name: relots-roe99-regatta-set
+version: "1.1.0"
+subfolder: 200-residential
+info:
+  summary: 6 growable relots of the roe99 Regatta buildings
+  description: |-
+    A set of 6 renewed growable residential lots using the Regatta building models made by roe99.
+    The lots are CAMpatible and grow at stages 7 and 8 (Euro building style).
+    Single buildings use 5x5 lots to avoid the immortal lot syndrome of the original lots; a 12x12 megalot is also included.
+    Choose between a temperate seasonal and a tropical flora version.
+  author: Foo
+  website: https://community.simtropolis.com/files/file/37070-foo-relots-roe99-regatta-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18723881244_regatta5x5-001.thumb.jpg.a7ea61e2fcbe0090c89d6cae5809467f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a187238891e0_regatta5x5-002.thumb.jpg.80162d69dbd6f7b6df3ef4d5bc2ae230.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a187238a695d_regattanight2.thumb.jpg.a66fad9b8be608169b721198eb161fdc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a187238c246e_regattanight.thumb.jpg.f76c8c924a849ebae149b8df48811914.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a187238de9a4_regattatest3.thumb.jpg.d29656bf3e31014ba809a3d30966381c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a1872390872f_regattatest.thumb.jpg.66cfbffd2cfdccbc546643f38e343c66.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18723923fad_regattatest2.thumb.jpg.470625cef2e2b1b89886f64ea4961650.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/regattatest2.thumb.jpg.0a538ce1f21a156993332a6b17a7731f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/EXCEL_U1a8rbHclt.thumb.jpg.4b1995c7751b93e2b8a7fb70082216ce.jpg
+
+dependencies:
+  # roe99 Regatta building models and models as prop desc
+  - roe99:resources
+  # files listed by the author from the BSC Common Dependencies Pack
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-swi21-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - bsc:essentials
+
+variants:
+  - variant: { foo:relots-roe99-regatta-set:flora: "temperate" }
+    assets:
+      - assetId: foo-relots-roe99-regatta-set
+        exclude:
+          - " Tropical_[0-9a-fA-F]{8}\\.SC4Lot$"
+  - variant: { foo:relots-roe99-regatta-set:flora: "tropical" }
+    assets:
+      - assetId: foo-relots-roe99-regatta-set
+        include:
+          - " Tropical_[0-9a-fA-F]{8}\\.SC4Lot$"
+
+variantInfo:
+  - variantId: foo:relots-roe99-regatta-set:flora
+    description: Flora used on the lots.
+    values:
+      - value: temperate
+        description: Seasonal temperate flora
+        default: true
+      - value: tropical
+        description: Tropical flora
+
+---
+assetId: foo-relots-roe99-regatta-set
+version: "1.1.0"
+lastModified: "2026-05-28T17:04:45Z"
+url: https://community.simtropolis.com/files/file/37070-foo-relots-roe99-regatta-set/?do=download
