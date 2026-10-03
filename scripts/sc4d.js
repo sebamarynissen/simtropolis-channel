@@ -79,7 +79,7 @@ export default {
 	1586: 'bsc:mega-props-jrj-vol05',
 	1612: 'bsc:mega-props-jenx-vol02-paris',
   	1619: 'bsc:mega-props-newmaninc-vol04',
-	1689: 'citynut:nuts-props-pack-a',
+	1689: 'nuts:nuts-props-pack-a',
 	1714: 'sfbt:royal-semaphore-signals-props',
 	1719: 'bsc:mega-props-aln-vol03',
 	1758: 'bsc:mega-props-jmyers-agriculture-vol01',
