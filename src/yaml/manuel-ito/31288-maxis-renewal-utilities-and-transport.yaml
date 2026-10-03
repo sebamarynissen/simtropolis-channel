@@ -29,7 +29,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisUtilTransport2.jpg.d3ed8c8a87a4a8b51c5625f44bbff144.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_09/MaxisUtilTransport3.jpg.197d55c2b6160453e7757f4bdba9e8a9.jpg
 dependencies:
-  - "\"[CP's SCILT](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3173)\"" #[CP's SCILT](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3173) (Linked to maxis default version, choose any version you want)
+  - cp:scilt
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
   - bsc:mega-props-d66-vol02
@@ -47,7 +47,6 @@ dependencies:
   - bsc:textures-vol01
   - bsc:textures-vol02
   - maxis:buildings-as-props
-  # [NCD Railyard and Spurs Mega Pack 102](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2177) (For those who use Maxis Railways) OR [RRW NCD BSC Texture Pack Update](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3350) (For Real Railway users)
   - ncd:rail-yard-and-spur-mega-pak-1
   - eggman121:rrw-reskin-lot-support
   - peg:mtp-super-pack

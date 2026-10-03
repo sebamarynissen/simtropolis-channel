@@ -28,8 +28,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/MaxisCivics3.jpg.36db6cdf4a862caddbc2e6ea115ff0ad.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/MaxisCivics4.jpg.d8a0be7f80b0a527c6c14678528a0933.jpg
 dependencies:
-  - "\"[CP's SCILT](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3173)\"" #[CP's SCILT](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3173) (Linked to maxis default version, choose any version you want)
-  - '"[CityHalls Mod Reward Fix](https://community.simtropolis.com/files/file/11154-all-3-cityhalls-modd-reward-fix/)"'
+  - cp:scilt
   - mz:city-hall-fixes # These relots will load after the city hall fix lots, so we're okay
   - citynut:nuts-props-pack-a
   - bsc:mega-props-cp-vol01

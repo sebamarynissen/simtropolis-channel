@@ -153,6 +153,7 @@ export default {
 	3065: 'girafe:honey-locust',
 	3071: 'girafe:hedges',
 	3117: 'xannepan:paris-arc-de-triomphe',
+	3173: 'cp:scilt',
 	3192: 'bsc:vip-girafe-urbanpack-vol01',
 	3228: 'romualdillo:props-vol01',
 	3244: 'girafe:rowan-trees',
