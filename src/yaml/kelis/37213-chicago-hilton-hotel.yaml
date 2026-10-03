@@ -1,0 +1,45 @@
+group: kelis
+name: chicago-hilton-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Kelis - Chicago Hilton Hotel
+  description: |-
+    **This is the Hilton Hotel, located in Chicago.  
+      
+    Information:**
+
+    It is a ploppable landmark with Co$$$ jobs.
+
+    *Chicago Hilton Hotel* appears in the game in the Landmark / Commercial Plop buildings menu.
+
+    **\- Plop Cost**: 40000$  
+    **\- Bulldoze cost**: 15000$
+
+    **Important Note:** I have decided to create an empty LOT to avoid including dependencies. Please keep this in mind.
+
+    The night lighting of this model only suits for [SimFox's Darker Nite mod](../../stex/details.cfm?id=23089)
+
+    **Credits:**
+
+    Created by **Kelis.** All rights reserved.
+  author: Ke|is
+  website: https://community.simtropolis.com/files/file/37213-kelis-chicago-hilton-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/6975004a402a5_KHHPreviewD1.jpg.8c7af94b5280f84837f7c6850262c261.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/6975004f204cf_KHHPreviewN2.jpg.43165399b19b4f349166ae9d9948fcd6.jpg
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "kelis-chicago-hilton-hotel"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "kelis-chicago-hilton-hotel"
+
+---
+assetId: kelis-chicago-hilton-hotel
+version: "1.0.0"
+lastModified: "2026-06-13T15:31:49Z"
+url: https://community.simtropolis.com/files/file/37213-kelis-chicago-hilton-hotel/?do=download&r=216722

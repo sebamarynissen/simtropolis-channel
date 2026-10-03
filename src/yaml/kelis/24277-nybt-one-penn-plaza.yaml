@@ -1,0 +1,45 @@
+group: kelis
+name: nybt-one-penn-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Kelis - NYBT One Penn Plaza
+  description: |-
+    **Description:**
+
+    One Penn Plaza is a skyscraper near Pennsylvania Station in New York City, west of Seventh Avenue, between 33rd and 34th Streets. It was designed by Kahn & Jacobs and completed in 1972. It reaches 229 meters (750 feet) with 57 floors. The tower has setbacks at three places; 7th, 14th, and 55th floors. From its location on the West side of Manhattan, most South, West and North facing tenants have unobstructed views of the Hudson River.
+
+    The night lighting of this model only suits for [SimFox's Darker Nite mod](../../stex/details.cfm?id=23089)
+
+    Otherwise, your building will look like the night pictures of this upload
+
+    **Crédits:**
+
+    BAT, LOT / configuration, READ ME, Installer by **Heblem**
+
+    Lot by **Kelismatic**
+
+    Special thanks to **Ripplejet (Tage)** for model configuration help.
+  author: Ke|is
+  website: https://community.simtropolis.com/files/file/24277-kelis-nybt-one-penn-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/7517ab6b56ee4542b234fab7124bdb0f-muestrapenn1.jpg
+    - https://www.simtropolis.com/objects/screens/0013/7517ab6b56ee4542b234fab7124bdb0f-muestrapenn2.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "kelis-nybt-one-penn-plaza"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "kelis-nybt-one-penn-plaza"
+
+---
+assetId: kelis-nybt-one-penn-plaza
+version: "1.0"
+lastModified: "2010-06-29T15:58:41Z"
+url: https://community.simtropolis.com/files/file/24277-kelis-nybt-one-penn-plaza/?do=download&r=51447

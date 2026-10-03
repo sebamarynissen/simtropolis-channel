@@ -1,0 +1,44 @@
+group: kelis
+name: a-coruna-maritime-control-tower
+version: "1.1.1"
+subfolder: 610-safety
+info:
+  summary: Kelis - A Coruña Maritime control tower
+  description: |-
+    **A Coruña Maritime traffic control tower - A Coruña / Spain.**
+
+    **Information:**
+
+    The Maritime traffic control tower appears in the game in two different versions:
+
+    **\- 1: Luxury police station - Plop cost:** 2.500 $
+
+    **\- 2 : Reward / Research center  - Plop cost:** 80.000 $
+
+    The nightlighting of this model only suits for [SimFox's Darker Nite mod](https://community.simtropolis.com/files/stex/details.cfm?id=23089).
+
+    **Credits:**
+
+    This building is really special to me. I see it every day, and it's one of my favorite views in my city.
+
+    Created by **Kelis.** All rights reserved.
+  author: Ke|is
+  website: https://community.simtropolis.com/files/file/37235-a-coruna-maritime-control-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/697f6cab9e140_CCTPreview1.jpg.73e265fb9054cff608492c0b8fd4905f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/697f6caf594ef_CCTPreview2.jpg.70812952006ad11936f7f06a22390cdf.jpg
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "kelis-a-coruna-maritime-control-tower"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "kelis-a-coruna-maritime-control-tower"
+
+---
+assetId: kelis-a-coruna-maritime-control-tower
+version: "1.1.1"
+lastModified: "2026-06-13T06:46:36Z"
+url: https://community.simtropolis.com/files/file/37235-by-ke|is/?do=download&r=216692

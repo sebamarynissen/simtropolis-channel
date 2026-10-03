@@ -1,0 +1,52 @@
+group: kelis
+name: assen-abn-amro-bank
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Kelis - Assen ABN-AMRO Bank
+  description: |-
+    **ABN-AMRO Bank, located in the city of Assen, The Netherlands.**
+
+    **Information:**
+
+    It is a ploppable landmark with Co$$ jobs.  This download also contains a two different **Grow versions**.
+
+    *The **ABN.AMRO Bank*** appears in the game in the Landmark / Commercial Plop buildings menu.
+
+    **\- Plop Cost**: 5060$  
+    **\- Bulldoze cost**:  362$
+
+    The nightlighting of this model only suits for [SimFox's Darker Nite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+    **Credits:**
+
+    Created by **Kelis.** All rights reserved.
+
+    Thanks to my BNL teammate **Franku (Frank)**, you did an amazing job with the modding and your help was really useful. Thank you so much Frank.
+  author: Ke|is
+  website: https://community.simtropolis.com/files/file/37219-kelis-assen-abn-amro-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/AAPreview1.jpg.22691ccac9228c272bd8d22d8c2ff620.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_01/AAPreview2.jpg.0d0e6889035af637e4b9a5bcb80ab62c.jpg
+dependencies:
+  - bnl:essentials
+  - bnl:dutch-prop-pack
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - murimk:props-vol01-bicycles
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "kelis-assen-abn-amro-bank"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "kelis-assen-abn-amro-bank"
+
+---
+assetId: kelis-assen-abn-amro-bank
+version: "1.0.0"
+lastModified: "2026-06-16T01:15:41Z"
+url: https://community.simtropolis.com/files/file/37219-kelis-assen-abn-amro-bank/?do=download&r=217904
