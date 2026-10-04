@@ -3,7 +3,7 @@ name: dutch-churches
 version: "1.0"
 subfolder: 650-religion
 info:
-  summary: FrankU Dutch Churches
+  summary: Dutch Churches
   description: |-
     **The Lots**  
       
@@ -54,7 +54,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/8b8b6e43756aa5e9efb7fe047edf1a12-dutch-churches---church-3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/70b4bd7d6994cd57a3f08a19f31247a4-dutch-churches---church-4.jpg
 dependencies:
-  - bnl:essentials
+  - franku:bnl-essentials
   - haarlemmergold:mega-props-dutch-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-d66-vol01
@@ -62,18 +62,14 @@ dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-swi21-vol01
   - bsc:texturepack-cycledogg-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - jule78:old-church-model
+  - bsc:sg-models-civic-rewards
 assets:
-  - assetId: franku-franku-dutch-churches-part0
-  - assetId: franku-franku-dutch-churches-part1
+  - assetId: franku-dutch-churches
 
 ---
-assetId: franku-franku-dutch-churches-part0
-version: "1.0"
-lastModified: "2011-09-07T09:03:28Z"
-url: https://community.simtropolis.com/files/file/26724-franku-dutch-churches/?do=download&r=123033
-
----
-assetId: franku-franku-dutch-churches-part1
+assetId: franku-dutch-churches
 version: "1.0"
 lastModified: "2011-09-07T09:03:28Z"
 url: https://community.simtropolis.com/files/file/26724-franku-dutch-churches/?do=download&r=123034
