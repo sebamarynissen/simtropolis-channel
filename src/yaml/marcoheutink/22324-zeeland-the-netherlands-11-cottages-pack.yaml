@@ -33,6 +33,8 @@ dependencies:
   - marcoheutink:zeeland-the-netherlands-11-cottages-pack-models
 assets:
   - assetId: marcoheutink-zeeland-the-netherlands-11-cottages-pack
+    exclude:
+      - "\\.SC4Model$"
 
 ---
 group: marcoheutink
@@ -48,6 +50,8 @@ info:
     - https://www.simtropolis.com/objects/screens/0019/a8cd2147c537bb8ab84a53b07a9e026e-zeelandss2.jpg
 assets:
   - assetId: marcoheutink-zeeland-the-netherlands-11-cottages-pack
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: marcoheutink-zeeland-the-netherlands-11-cottages-pack
