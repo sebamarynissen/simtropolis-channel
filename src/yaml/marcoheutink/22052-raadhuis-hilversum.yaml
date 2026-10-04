@@ -34,7 +34,7 @@ assets:
 group: marcoheutink
 name: raadhuis-hilversum-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
   summary: Model for `pkg=marcoheutink:raadhuis-hilversum`
   author: marcoheutink
@@ -43,9 +43,10 @@ info:
     - https://www.simtropolis.com/objects/screens/0010/59539a33ebdc1fd82e062a40968c5c36-raadhuis_hsum.jpg
     - https://www.simtropolis.com/objects/screens/0010/59539a33ebdc1fd82e062a40968c5c36-raadhuis_hsum4.jpg
 assets:
-  - assetId: marcoheutink-wipmolen-the-netherlands
+  - assetId: marcoheutink-raadhuis-hilversum
     include:
       - "\\.SC4Model$"
+
 ---
 assetId: marcoheutink-raadhuis-hilversum
 version: "1.0"
