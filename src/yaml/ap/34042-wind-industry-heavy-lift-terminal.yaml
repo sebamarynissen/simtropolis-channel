@@ -1,0 +1,68 @@
+group: ap
+name: wind-industry-heavy-lift-terminal
+version: "1.1"
+subfolder: 400-industrial
+info:
+  summary: A_1P Wind Industry - Heavy Lift Terminal
+  description: |-
+    A heavy lift terminal with 800t cranes to load components of wind turbines for the wind industry in SimCity4.
+
+    ![Heavy-Lift-Terminal-preview-8.png](https://i.postimg.cc/Y2mfj5dw/Heavy-Lift-Terminal-preview-8.png)
+
+    This File contains several props and 2 lots:
+
+    -   A\_1P\_SP\_Dock\_3x6-HeavyLiftTerminal\_atwork
+    -   A\_1P\_SP\_Dock\_3x6-HeavyLiftTerminal
+
+    The lots are using the [PEG CDK3 Sea Port Waterfront - Style](https://www.sc4devotion.com/forums/index.php?topic=18763.msg535956#msg535956). At this post other lots are listed that go well together with the WindIndustry Port lots.
+
+    **Dependencies**  
+    • [PEG\-CDK3\-SP\_SEAPORT\_SUPER-PAK.dat](https://community.simtropolis.com/files/file/19881-peg-cdk3-sp-seaport-super-pak/)  
+    • [PEG\_ChainLinkFence\_RESOURCE.dat](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)  
+    • [A\_1P WindIndustry Port Pack-1.1](https://community.simtropolis.com/files/file/34036-a_1p-windindustry-port-pack-1/?tab=comments#comment-657808)
+
+    Thanks to the simtropolis and sc4devotion community for support and advice. Additionally, I thank the Heretic Seaport Project team, for providing the base lots and UI design.
+
+    Any feedback is greatly appreciated and I might do a v1.1 if I have some responses.
+
+    ![BHV-offshoreterminal-TP.jpg](https://i.postimg.cc/Jh5FfQf9/BHV-offshoreterminal-TP.jpg)
+  author: AP
+  website: https://community.simtropolis.com/files/file/34042-a_1p-wind-industry-heavy-lift-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/HeavyLiftTerminal_preview_5.jpg.c3572fc65a3534b02e8881fa04ac1727.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/HeavyLiftTerminal_preview_6.png.e603cce8123167003067672cdbf101fb.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/HeavyLiftTerminal_preview_7.png.a57d6d9a6ff609c0dbcea885d450701f.png
+dependencies:
+  # - '"[A_1P WindIndustry Port Pack-1.1](https://community.simtropolis.com/files/file/34036-a_1p-windindustry-port-pack-1/?tab=comments#comment-657808)"'
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:security-fencing-kit
+  - ap:wind-industry-heavy-lift-terminal-props 
+  - peg:cdk3-super-pak
+assets:
+  - assetId: ap-wind-industry-heavy-lift-terminal
+    include:
+      - /A_1P_WindIndustry-HeavyLiftTerminal 1.1_Lot.dat
+
+---
+group: ap
+name: wind-industry-heavy-lift-terminal-props
+version: "1.1"
+subfolder: 100-props-textures
+info:
+  summary: Props for `pkg=ap:wind-industry-heavy-lift-terminal`
+  author: AP
+  website: https://community.simtropolis.com/files/file/34042-a_1p-wind-industry-heavy-lift-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/HeavyLiftTerminal_preview_5.jpg.c3572fc65a3534b02e8881fa04ac1727.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/HeavyLiftTerminal_preview_6.png.e603cce8123167003067672cdbf101fb.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/HeavyLiftTerminal_preview_7.png.a57d6d9a6ff609c0dbcea885d450701f.png
+assets:
+  - assetId: ap-wind-industry-heavy-lift-terminal
+    include:
+      - /A_1P_WindIndustry-HeavyLiftTerminal 1.1_Props.dat
+
+---
+assetId: ap-wind-industry-heavy-lift-terminal
+version: "1.1"
+lastModified: "2021-01-10T22:23:42Z"
+url: https://community.simtropolis.com/files/file/34042-a_1p-wind-industry-heavy-lift-terminal/?do=download&r=184480

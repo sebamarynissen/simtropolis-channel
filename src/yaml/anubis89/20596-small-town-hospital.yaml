@@ -1,0 +1,51 @@
+group: anubis89
+name: small-town-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: "Small Town Hospital "
+  description: |-
+    This building is inspired by buildings, which were built in the 50s in Germany, but is fictional. It is very simple and functional.  
+      
+    **Stats:**  
+      
+    Lot Size: 2x3  
+      
+    Capacity: 1000  
+      
+    Coverage Radius: 600  
+      
+    Monthly Costs: 550 and 150  
+      
+    Plop Cost: 450  
+      
+    Bulldoze Cost: 60  
+      
+    Other stats do not differ very much from the maxis  
+    **  
+    Dependencies:  
+      
+    **[https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)  
+      
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=638](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)  
+      
+    [http://kurier.simcityplaza.de/details.php?file=274](http://kurier.simcityplaza.de/details.php?file=274%C2%A0)  (Ambulances)  
+      
+    Again thanks to the Simforum!
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/20596-small-town-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5f9635e2e27c35c30510bc551c63ea51-pic1.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5f9635e2e27c35c30510bc551c63ea51-pic2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - gizmo:vehicle-props
+assets:
+  - assetId: anubis89-small-town-hospital
+
+---
+assetId: anubis89-small-town-hospital
+version: "1.0"
+lastModified: "2008-11-01T18:30:08Z"
+url: https://community.simtropolis.com/files/file/20596-small-town-hospital/?do=download&r=46109

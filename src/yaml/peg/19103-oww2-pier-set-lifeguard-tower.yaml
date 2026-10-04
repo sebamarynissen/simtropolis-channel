@@ -1,0 +1,29 @@
+group: peg
+name: oww2-pier-set-lifeguard-tower
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A lookout for lifeguards that give them a birds-eye view of the surrounding area.
+  description: |-
+    Modeled after the Life Guard Tower on the pier in San Clemente, CA where I grew up, this Life Guard Tower for the OWW2 PierSet adds an extra touch of realism and interest to your piers. Normally placed near to the shore, Lifeguards in the tower have a bird's-eye view of the surrounding coastal area and are often ideally located to direct and/or effect rescues.
+
+    The lot compares to most of the other PierSet sections in propeties except that it has a small degree of extra park and landmark value. The lot also features a custom query with special stats that reflect current conditions within the city.  
+      
+    **\*\* This lot requires the  following dependencies**
+
+    PEG\-CDKM Marina  
+    PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19103-peg-oww2-pierset-lifeguard-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d8be18a408aebd29b91ae930c7dbd882-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d8be18a408aebd29b91ae930c7dbd882-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierSet_LifeguardTower.dat"

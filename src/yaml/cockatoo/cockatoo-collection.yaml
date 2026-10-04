@@ -1,0 +1,104 @@
+---
+group: cockatoo
+name:  hong-kong-marina-collection    
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Hong Kong Marina Collection Pack
+  description: A collection of Hong Kong Marina Set by Cockatoo       
+  author: Cockatoo
+  websites: 
+    - https://community.simtropolis.com/files/file/19741-hong-kong-marina-wall/
+    - https://community.simtropolis.com/files/file/19739-hong-kong-junker-ship-pack/
+    - https://community.simtropolis.com/files/file/19740-hong-kong-marina-dock-pack/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ARV_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Leurink%20Architects-d.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Small-shops.jpg
+
+dependencies:
+  - cockatoo:marina-wall
+  - cockatoo:junker-ship-pack
+  - cockatoo:marina-dock-pack
+
+---
+group: cockatoo
+name:  hkbat-collection    
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: HKBAT Cockatoo Collection Pack
+  description: A collection of HKBATs made by Cockatoo    
+  author: Cockatoo
+  websites: 
+    - https://community.simtropolis.com/files/file/19741-hong-kong-marina-wall/
+    - https://community.simtropolis.com/files/file/19739-hong-kong-junker-ship-pack/
+    - https://community.simtropolis.com/files/file/19740-hong-kong-marina-dock-pack/
+    - https://community.simtropolis.com/files/file/18739-yau-ma-tei-currency-exchange/
+    - https://community.simtropolis.com/files/file/18840-hk-sceneway-garden-phase-1-new-lot/
+    - https://community.simtropolis.com/files/file/18905-hong-kong-immigration-tower/
+    - https://community.simtropolis.com/files/file/19584-hk-mok-tin-yin-building/
+    - https://community.simtropolis.com/files/file/22985-hk-aig-tower/
+    - https://community.simtropolis.com/files/file/20018-hk-gateway-tower-six/
+    - https://community.simtropolis.com/files/file/20536-hk-harbour-centre-great-eagle-centre/
+    - https://community.simtropolis.com/files/file/20990-hk-admiralty-centre/
+    - https://community.simtropolis.com/files/file/20893-hk-majestic-hotel/
+    - https://community.simtropolis.com/files/file/22473-hk-elizabeth-house/
+    - https://community.simtropolis.com/files/file/20652-hk-fairmont-house/
+    - https://community.simtropolis.com/files/file/20551-hk-lun-man-building/
+    - https://community.simtropolis.com/files/file/20653-hk-prince-of-wales-building/
+    - https://community.simtropolis.com/files/file/21660-hk-yongfu-house/
+    - https://community.simtropolis.com/files/file/22792-hk-standard-chartered-bank-building/
+    - https://community.simtropolis.com/files/file/25352-hk-tomorrow-square/
+    - https://community.simtropolis.com/files/file/24342-hk-kowloon-terrace/
+    - https://community.simtropolis.com/files/file/22876-aurora-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/4525c8614644165c25c3565da80ed556-HKGT1.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5dd1f694df17088caea6cf8177f180ec-ACR1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Small-shops.jpg
+
+dependencies:
+  - cockatoo:hong-kong-marina-collection  
+  - cockatoo:yau-ma-tei-currency-exchange
+  - cockatoo:sceneway-garden-phase-1
+  - cockatoo:immigration-tower
+  - cockatoo:mok-tin-yin-building
+  - cockatoo:aig-tower
+  - cockatoo:gateway-tower-six
+  - cockatoo:harbour-centre-great-eagle-centre
+  - cockatoo:admiralty-centre
+  - cockatoo:majestic-hotel
+  - cockatoo:elizabeth-house
+  - cockatoo:fairmont-house
+  - cockatoo:lun-man-building
+  - cockatoo:prince-of-wales-building
+  - cockatoo:yongfu-house
+  - cockatoo:standard-chartered-bank-building
+  - cockatoo:tomorrow-square
+  - cockatoo:kowloon-terrace
+  - cockatoo:aurora-plaza
+
+---
+group: cockatoo
+name:  united-nations-collection    
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: United Nations Collection Pack
+  description: A collection of United Nations Set by Cockatoo     
+  author: Cockatoo
+  websites: 
+    - https://community.simtropolis.com/files/file/27089-united-nations-building/
+    - https://community.simtropolis.com/files/file/27532-un-fountain/
+    - https://community.simtropolis.com/files/file/27533-un-park/
+    - https://community.simtropolis.com/files/file/27534-secretariat-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/77cf1ef47d7d8741278ea3b728817728-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/ea4b155c7fdf22ee9c568d0fc1596fbb-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/74c1b59311def81e5202c98d5b75b589-.jpg
+
+dependencies:
+  - cockatoo:united-nations-building
+  - cockatoo:un-fountain
+  - cockatoo:un-park
+  - cockatoo:secretariat-building

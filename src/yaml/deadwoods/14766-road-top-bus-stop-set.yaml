@@ -43,7 +43,7 @@ assets:
 ---
 group: deadwoods
 name: road-top-bus-stop-textures
-version: "103"
+version: "103-1"
 subfolder: 100-props-textures
 info:
   summary: Textures for `pkg=deadwoods:road-top-bus-stop-set`
@@ -53,12 +53,12 @@ info:
     - https://www.simtropolis.com/objects/screens/0021/baa3b76bb61f4f837a376d8ead070fe3-DEDWD_RTBusStops-stexpic1.jpg
     - https://www.simtropolis.com/objects/screens/0021/baa3b76bb61f4f837a376d8ead070fe3-DEDWD_RTBusStops-stexpic2.jpg
 variants:
-- variant: { texture-style: "Maxis" }
+- variant: { roadstyle: "US" }
   assets:
   - assetId: "deadwoods-road-top-bus-stop-set"
     include:
     - "/DEDWD_RTBusStop_Maxis_textures.dat"
-- variant: { texture-style: "Euro" }
+- variant: { roadstyle: "EU" }
   assets:
   - assetId: "deadwoods-road-top-bus-stop-set"
     include:

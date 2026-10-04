@@ -1,0 +1,95 @@
+group: simcitler
+name: rothenthurn-str-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Rothenthurn STR station
+  description: |-
+    ##  ***Rothenthurn STR station***
+
+    Rothenthurn STR station is a single track passenger rail station with a capacity of 2.500 sims which also functions as an bus station. It is a relot of thequiltedllama´s nice [SMP Suburban STR station](https://www.simtropolis.com/stex/details.cfm?id=22735)
+
+    ### ***Stats:***
+
+    plop cost: 1.500$monthly cost: 25$
+
+    flammability: 25/ max. Stage 2
+
+    power consumed: 12 MWh/month
+
+    water consumed: 4m³/month
+
+    capacity: 2.500
+
+    air pollution: 4 over 3 tiles
+
+    water pollution: 2 over 2 tiles
+
+    garbage: 7 over 0 tiles
+
+    Transit Switch Entry Cost: 0,156
+
+    Lot size: 5x2
+
+    [bigger picture 1](http://www.ld-host.de/show/d1ac25d03017f38f34a9b2622e6cd214.jpg)
+
+    [bigger picture 2](http://www.ld-host.de/show/b1cedef6459bf973db93df90029d128a.jpg)
+
+    ***Dependencies:***
+
+    str-0x5ad0e817\_0xd4740fe8\_0xb0000.SC4Model included in here: [SMP Suburban STR station](https://www.simtropolis.com/stex/details.cfm?id=22735)
+
+    Glenni-MSSR-smallblock1-0x5ad0e817\_0xd5932e66\_0x30000.SC4Model included in here: [Pack O Unreleased Booty](https://www.simtropolis.com/stex/details.cfm?id=21920)
+
+    ^^ without these two model files you will see some nice BROWN BOXES on the LOT!
+
+    [BSC Mega Props CP vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    [RAM - Single Track Rail](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1996)(LINK to windows version!)
+
+    ### ***Installation:***
+
+    just unzip the "Rothenthurn STR station" folder to your plugins folder.
+
+    The "Readme and pics" folder can be put where you want!
+
+    ### ***Credits go to:***
+
+    **thequiltedllama** - for his nice platform BAT!
+
+    **glenni** \- for his residential building; here used as the station building!
+
+    Another thanks to the creators of these nice props which are used on this lot!
+
+    Special thanks to the simforum community for their advice and help.
+
+    If you encounter any problems, you can contact me via PM, or leave a comment.
+
+    Hope you like!
+
+    Best regards
+
+    Simcitler
+
+    check out [my other lots](https://www.simtropolis.com/stex/index.cfm?p=files&view=mine&userid=358910) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0)
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/25096-rothenthurn-str-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/57c7bcf11bafd52a286d207c87462a4a-STR_station_STEX_11.jpg
+    - https://www.simtropolis.com/objects/screens/0010/57c7bcf11bafd52a286d207c87462a4a-STR_station_STEX_21.jpg
+dependencies:
+  # - '"[RAM - Single Track Rail](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1996)"'
+  - thequiltedllama:suburban-str-station-model
+  - bsc:mega-props-cp-vol01
+  - glenni:pack-o-unreleased-booty
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-rothenthurn-str-station
+
+---
+assetId: simcitler-rothenthurn-str-station
+version: "1.0"
+lastModified: "2010-10-19T09:04:09Z"
+url: https://community.simtropolis.com/files/file/25096-rothenthurn-str-station/?do=download&r=52661

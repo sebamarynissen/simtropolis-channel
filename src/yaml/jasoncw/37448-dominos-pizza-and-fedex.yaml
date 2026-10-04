@@ -1,0 +1,35 @@
+group: jasoncw
+name: dominos-pizza-and-fedex
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Domino's Pizza and FedEx
+  description: |-
+    -   1x2 growable CS§§ lot for the New York 1940 tileset.
+    -   MaxisNite and DarkNite versions included. DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   "Metadata.yaml" is included for sc4pac, and does not need to go into your plugins folder.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37448-dominos-pizza-and-fedex/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a35a45955283_DominosandFedEx00.jpg.e72575ab63625280c81aef0eaa2dc2c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a35a45f4e73f_DominosandFedEx01.jpg.04845e108a0b5244976db93107f30910.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-dominos-pizza-and-fedex-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-dominos-pizza-and-fedex-darknite
+
+---
+assetId: jasoncw-dominos-pizza-and-fedex-maxisnite
+version: "1.0.0"
+lastModified: "2026-06-19T20:21:19Z"
+url: https://community.simtropolis.com/files/file/37448-dominos-pizza-and-fedex/?do=download&r=218396
+
+---
+assetId: jasoncw-dominos-pizza-and-fedex-darknite
+version: "1.0.0"
+lastModified: "2026-06-19T20:21:19Z"
+url: https://community.simtropolis.com/files/file/37448-dominos-pizza-and-fedex/?do=download&r=218397

@@ -1,0 +1,62 @@
+group: wmp
+name: abteibruecke-cloister-bridge
+version: "2.0"
+subfolder: 660-parks
+info:
+  summary: Abteibruecke (Cloister Bridge)
+  description: |-
+    **Abteibruecke (Cloister Bridge)** by DocRorlach
+
+    Suggested originally by Paeng of SimPeg fame, the Abteibruecke (Cloister Bridge) was Berlin's first reinforced concrete span bridge and opened in 1916 as a pedestrian connection over the river Spree to a small island which has served various recreational purposes over the centuries.
+
+    Our bridge can span up to three tiles, and its walkway is 9m above the ground level, sufficient to cross a ground highway or avenue, or even a narrow gorge or river. Naturally, the bridge is eye-candy only. I've taken some liberties with the original: instead of sweeping ramps we added steps on both sides. Also, the span is shorter than the real bridge, by approximately 30%. The companion building next to the actual overpass has been omitted altogether.
+
+    While the bridge can sit on level ground, its foundation was designed for raised terrain. That said, the terrain tiles on either end should be level for best placement. There are two bridges included: one with a wooden, pier-like foundation for ploppable water or river banks; and one with a concrete foundation for more urban usage, featuring a slightly darker concrete facade.
+
+    -   Lot size: 1 x 1 tiles
+    -   Menu position: Parks
+    -   Plop cost: § 1100
+    -   Bulldoze cost: § 465
+    -   Monthly cost: § 45
+    -   Park effect: 15 over 20 tiles
+    -   Power consumption: 10 MWh/month
+    -   Water consumption: 0 Gallons/month
+    -   Pollution: Air: 0 over 0 tiles; Water: 0 over 0 tiles; Garbage: 5 over 8 tiles
+
+    **Un-Installing**: To uninstall, bulldoze any instance of this download in your city, then remove the file(s) from your Plugins.
+
+    *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
+
+    ## Credits
+    - *Original Creditings*: Thanks to Paeng for suggesting the idea in the first place; to the gang at SimPeg for their vigilance and suggestions; and to Dave (djp) for his patience with testing everything on this site.
+    - Additional Credits:
+        - **DocRorlach** and the **WMP team** and his associates for creating the models, props and the original lots.
+        - David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+        - Tyberius06 (STEX Custodian) and xxdita for the restoration/rehosting of these contents.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26541-wmp-abteibruecke-cloister-bridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/a8e4aa6151e4d5f5835c29f55a550d36-abtei-bridge03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/3c000572fffd9a3ee6aec341be2becef-abtei-bridge02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/13fc1c837b6ae0064c43071ffea482ff-abtei-bridge01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/950ef2d806ffca9d8488f6c14e7d4e1e-abteibruecke_rl.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee95cbb368c0_WMPAbteiBrueckeLrg.jpg.4bc9a96376bfcf4c723ae5ad6d585306.jpg
+dependencies:
+  - wmp:essentials
+  - wmp:mega-props-vol01
+  - wmp:mega-textures
+  - wmp:shoreline-county-bridges-props
+  - bsc:bat-props-mattb325-vol02
+  - murimk:props-vol01-bicycles
+assets:
+  - assetId: wmp-abteibruecke-cloister-bridge
+
+---
+assetId: wmp-abteibruecke-cloister-bridge
+version: "2.0"
+lastModified: "2020-06-17T00:06:01Z"
+url: https://community.simtropolis.com/files/file/26541-wmp-abteibruecke-cloister-bridge/?do=download&r=181589

@@ -1,0 +1,40 @@
+group: jasoncw
+name: moe-lurr-dds
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Moe Lurr, DDS
+  description: |-
+    Moe Lurr, DDS believes strongly in creating and maintaining smiles with proper form and function and optimum oral health. Moe and his highly trained staff offer friendly and professional dental care using state of the art drills, hammers, and saws. Please call today to learn about how you can get a new porcelain crown and a new porcelain throne at a low low price with our dentistry and home improvement bundle deals!
+
+    -   1x2 growable corner CS§§ lot for the Houston tileset.
+    -   MaxisNite and DarkNite versions included.
+    -   DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+    -   Requires [mipro Essentials - December 2015](https://community.simtropolis.com/files/file/29130-mipro-essentials/) or newer.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37455-moe-lurr-dds/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a39cf0930381_MoeLurrDDS00.jpg.167a26ad3ba1f4d00549695a21fb8c51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a39cf1158fe1_MoeLurrDDS01.jpg.f79cdee5ea48abf4de4d9119a5f4b776.jpg
+dependencies:
+  - mipro:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-moe-lurr-dds-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-moe-lurr-dds-darknite
+
+---
+assetId: jasoncw-moe-lurr-dds-maxisnite
+version: "1.0.0"
+lastModified: "2026-06-23T00:11:56Z"
+url: https://community.simtropolis.com/files/file/37455-moe-lurr-dds/?do=download&r=218747
+
+---
+assetId: jasoncw-moe-lurr-dds-darknite
+version: "1.0.0"
+lastModified: "2026-06-23T00:11:56Z"
+url: https://community.simtropolis.com/files/file/37455-moe-lurr-dds/?do=download&r=218748

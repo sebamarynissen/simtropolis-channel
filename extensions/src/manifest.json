@@ -24,7 +24,7 @@
   "content_scripts": [
     {
       "matches": ["https://community.simtropolis.com/*"],
-      "js": ["copy.js"]
+      "js": ["copy.js", "stex.js"]
     }
   ]
 }

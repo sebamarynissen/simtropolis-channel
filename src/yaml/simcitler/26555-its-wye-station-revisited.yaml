@@ -1,0 +1,93 @@
+group: simcitler
+name: its-wye-station-revisited
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: ITS Wye station revisited
+  description: |-
+    **ITS** **Wye station revisited**
+
+    ([Original](https://www.simtropolis.com/forum/files/file/19131-ndex-its-wye-station/) by ill tonkso)
+
+    Wye station is a small countryside rail station (Lot size 6x3) which provides two platforms.
+
+    In addition this relotted version features bus functionality, TE street connections, and eyecandy parking.
+
+    Freight trains can pass the station, but the station is not acting as an freight station.
+
+    In addition to the new lot design, I raised the capacity to 36.000 sims and "tuned" some other stats.
+
+    **Stats:**
+
+    Lot size: 6x3
+
+    plop cost: 2000$
+
+    monthly cost: 50$
+
+    Transit Switch Entry Cost: 0,020
+
+    capacity: 36.000
+
+    power consumed: 4 kWh/month
+
+    water consumed: 13 m³/month
+
+    air pollution: 4 over 1 tiles
+
+    water pollution: 2 over 2 tiles
+
+    garbage: 7 over 0 tiles
+
+    **Dependencies:**
+
+    NDEX\_ITS\_Wye\_station-0x5ad0e817\_0xb4718ab9\_0x30000.SC4Model
+
+    ^^ This is the model file created by ill tonkso found in here: [https://www.simtropolis.com/forum/files/file/19131-ndex\-its-wye-station/](https://www.simtropolis.com/forum/files/file/19131-ndex-its-wye-station/)
+
+    [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    **optional:**
+
+    [euro car replacement mod (mike seith)](https://www.simtropolis.com/forum/files/file/12973-european-car-replacement-mod/)
+
+    **Credits go to:**
+
+    ill tonkso for his beautiful station BAT
+
+    Another Thank you to various members of the BSC Team for their Texture creations
+
+    And of course to all creators of props used on the lots!
+
+    special thanks to the communities of www.simforum.de and www.sc4devotion.com for their advice and help!
+
+    Another thank you to Dirk for www.simtropolis.com!
+
+    Hope you like
+
+    Simcitler
+
+    check out [my other lots](https://www.simtropolis.com/forum/index.php?app=core&module=search&do=user_activity&search_app=downloads&mid=250000) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0).
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/26555-its-wye-station-revisited/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/95384999df43275310fa7c26a8f12b09-wye_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/e9332d3e871c326817eee4a5b363d48d-wye_night.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+  - mikeseith:european-cars-automata-and-family-props-new-instances
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-its-wye-station-revisited
+
+---
+assetId: simcitler-its-wye-station-revisited
+version: "1.0"
+lastModified: "2011-08-05T04:48:02Z"
+url: https://community.simtropolis.com/files/file/26555-its-wye-station-revisited/?do=download&r=90948

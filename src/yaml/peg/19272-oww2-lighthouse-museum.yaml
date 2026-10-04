@@ -1,0 +1,40 @@
+group: peg
+name: oww2-lighthouse-museum
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: A lighthouse which functions as a museum. A replica of the Thomas Point Lighthouse.
+  description: |-
+    This model is a replica of the Thomas Point Lighthouse which was built in 1875. It is a "screw pile" lighthouse, so called for its foundation of seven 10-inch diameter wrought-iron screw piles that are screwed 11 feet, 6 inches into the bottom of the bay.
+
+    Although the Thomas Point Lighthouse is still operational in Chesapeake Bay, the nearly identical Drum Point Lighthouse was decommissioned years ago and moved onshore to serve as a museum and tourist attraction.
+
+    This lot is the OWW2 version of a similar lot released for the original OWW. We "unscrewed" our original screw pile lighthouse, , modified the model to reflect its age and moved it onto a new pier foundation near the shore.  The Boardwalk was extended to allow easy access and a museum guest center and gift shop was erected to accommodate the anticipated crowds.
+
+    The lot has all the properties, costs  & benefits of a game-default museum. It is a also a fully compatible OWW2 lot with modular boardwalks and parking lot areas that align with adjacent OWW2 lots.  The lot also features a central transit enabled  driveway for more realistic connections and uses the updated OWW2 parking lot textures included in the OWW2 Resource Pack 2.
+
+    \*  As a museum, this lot is located in the Education Menu.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading The Official CDK Tutorial.
+
+      
+    **\*\* This lot requires the following dependencies**
+
+     **PEG\-CDKM Marina  
+       PEG\-OWW2 Resource Pack 1  
+       PEG\-OWW2 Resource Pack 2.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19272-peg-oww2-lighthouse-museum/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/92233c58293d9220dc7e773164f59820-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0016/92233c58293d9220dc7e773164f59820-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-resource-pack-vol02
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_Lighthouse1.dat"

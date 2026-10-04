@@ -1,6 +1,6 @@
 group: airman15
 name: pagani-huayras
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Pagani Huayras
@@ -25,12 +25,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/huayraT5.png.87a3bc4728362c35f3675c9a80c1962a.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/huayraT6.png.22bbda62791b82e5e24864e83b4433d3.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-pagani-huayras
       include:
       - "/.*HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-pagani-huayras
       include:

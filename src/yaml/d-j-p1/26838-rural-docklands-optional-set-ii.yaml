@@ -1,0 +1,73 @@
+group: wmp
+name: rural-docklands-optional-set-ii
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: Rural Docklands - Optional Set II
+  description: |-
+    This second, optional set of eleven optional 32m and 48m dockland piers contains several pieces with street access and jobs.
+
+    Further to these sets there are additional optional [Warehouse Lots](http://workingman-productions.co.uk/downloads/wmp_rdock_whouses.html), a [Dockland Ferry](http://workingman-productions.co.uk/downloads/wmp_rdock_ferry.html), and a [Dockland Rail Freight Depot](http://workingman-productions.co.uk/downloads/wmp_rdock_freight.html) available separately.
+
+    Like all dockland pieces, they contain timed props and thus use the same set of WMP dependencies. The download contains individual lots rather than a combined DAT, so you can pick and choose which to install. All pieces are self-leveling and will lower the terrain similar to other harbour lots.
+
+    **Optional 32m & 48m docks:**
+
+    Lot sizes: 2 x 2 tiles; 2x3 tiles, 3x3 tiles;
+
+    Menu position: Water Transit
+
+    Jobs: varied (see below)
+
+    Plop cost: varied
+
+    Bulldoze cost: varied
+
+    Monthly cost: § 10 ea.
+
+    Power Usage: varied
+
+    Water Usage: varied
+
+    Pollution: Water: 3 over 4 tiles; Garbage: 32 over 4 tiles ea.
+
+    Job Details:
+
+    48m Warehouse A - IM: 18
+
+    48m Warehouse B - IM: 22
+
+    Fertilizer Filling - IM: 8
+
+    Crane Pier - IM: 5
+
+    ## Credits
+
+    Thanks to everyone around the Pegasus site & teams; as always, Dave for his patience with testing this stuff; NBVC and Murimk for their GMax advice.
+
+    Credits also go to Max Grueter for his Working Class Heroes, and the number of anonymous creators at the 3D Warehouse.
+
+    ## Support
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested **[here on SC4 Devotion](https://www.sc4devotion.com/forums/index.php?topic=18355.0 "Workingman Productions (WMP) & SC4Tools websites and content")** or in the **[STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic)**. Best include a screen-shot illustrating the problem.
+  author: d_j_p1
+  website: https://community.simtropolis.com/files/file/26838-wmp-rural-docklands-optional-set-ii/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/6ba0b5b2b95388c5b856bfb51d60915f-wmp_harbour_med.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/4e28371f7d0018fe192643f3d1ec78d1-wmp_seawall_catalogue_med.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol06
+  - wmp:mega-textures
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol04
+  - wmp:mega-props-vol05
+assets:
+  - assetId: wmp-rural-docklands-optional-set-ii
+
+---
+assetId: wmp-rural-docklands-optional-set-ii
+version: "1.1"
+lastModified: "2011-10-03T07:19:50Z"
+url: https://community.simtropolis.com/files/file/26838-wmp-rural-docklands-optional-set-ii/?do=download&r=92872

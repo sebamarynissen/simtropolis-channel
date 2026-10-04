@@ -1,0 +1,48 @@
+group: kosmo
+name: security-checkpoint
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: Security checkpoint
+  description: |-
+    A security checkpoint.
+
+    Place it next to a road with the shelter over it. It works like a small police kiosk.
+
+    \---------------------
+
+    NO DEPENDENCIES
+
+    Enjoy it!
+  author: KOSMO*
+  website: https://community.simtropolis.com/files/file/31268-security-checkpoint/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/preview1.jpg.98724d3f94bb90bfdedb75fecd845431.jpg
+dependencies:
+  - kosmo:security-checkpoint-resources
+assets:
+  - assetId: kosmo-security-checkpoint
+    include:
+      - "\\.SC4Lot$"
+
+---
+group: kosmo
+name: security-checkpoint-resources
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models and props for `pkg=kosmo:security-checkpoint`
+  author: KOSMO*
+  website: https://community.simtropolis.com/files/file/31268-security-checkpoint/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/preview1.jpg.98724d3f94bb90bfdedb75fecd845431.jpg
+assets:
+  - assetId: kosmo-security-checkpoint
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: kosmo-security-checkpoint
+version: "1.0"
+lastModified: "2016-08-26T09:12:19Z"
+url: https://community.simtropolis.com/files/file/31268-security-checkpoint/?do=download&r=163019

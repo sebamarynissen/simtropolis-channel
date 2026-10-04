@@ -1,0 +1,33 @@
+group: peg
+name: oww2-ferry-landing
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: A fully functional Car and Passenger Ferry terminal that fits Mne OWW2 system.
+  description: |-
+    The Ferry Landing returns in a fully OWW2 compliant version. This is a fully functional Car & Passenger Ferry Terminal, altered to use a single road in as opposed to the two roads used by the default terminal. The Ferry Landing can be used with any of your OWW2 boardwalk lots... including the SV Seaport Village and the CDKM Marina.
+
+    The lot has the same properties and cost as the game's default ferry terminal. The lot is 3 tiles wide by 3 tiles deep, with a transit enabled driveway entrance centered on the backside of the lot.. Like the default ferry terminal, that driveway must be connected with a road for the the terminal to function properly.
+
+    The lot is extensively nite-lited and contains a custom query that includes additional, city-wide ferry related statistics.  
+      
+    \* In-game, the icon for this lot is located near the top of the Water Transportation menu, along with the other ferry lots.
+
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19073-peg-oww2-ferry-landing/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ed51cec5211794fee3ab61cf34bfca90-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0026/ed51cec5211794fee3ab61cf34bfca90-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_Ferry.dat"

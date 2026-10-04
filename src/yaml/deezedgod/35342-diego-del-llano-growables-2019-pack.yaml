@@ -1,0 +1,61 @@
+assetId: diego-del-llano-growables-2019-pack
+version: "1.0.0"
+lastModified: "2022-11-29T15:50:21Z"
+url: https://community.simtropolis.com/files/file/35342-diego-del-llano-growables-2019-pack/?do=download&r=195750
+---
+assetId: diego-del-llano-growables-2019-pack-cam
+version: "1.0.0"
+lastModified: "2022-11-29T15:50:21Z"
+url: https://community.simtropolis.com/files/file/35342-diego-del-llano-growables-2019-pack/?do=download&r=195751
+
+---
+group: deezedgod
+name: diego-del-llano-growables-2019-pack
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary: Diego Del Llano Growables - 2019 Pack
+  description: |
+    This is a pack of growable lots of Diego's BATs from 2019. There are two versions of this pack you can download: Vanilla and CAM. The Vanilla version has the growth stages capped at 8 and the building capacities at 7,500. The CAM version has growth stages up to 15 and much higher building capacities (up to around 13,000).  
+  warning: |-
+    This pack is DarkNite only. Unfortunately, Diego never created Maxis Night versions of these BATs, so no Maxis Night version this time. 
+  author: deezedgod
+  websites: 
+    - https://community.simtropolis.com/files/file/35342-diego-del-llano-growables-2019-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/splash_2019.jpg.dcb8fb3c66cca27193f3dd128ba1775e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/638625ea868c7_diegodl_2019_co.jpg.8bec495b4a7bd4b84379f8b6c15173e0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/638625f17d05f_diegodl_2019_co.jpg.ab91ce55cd952127dec7ab0e983fcd3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/638625fb252cf_diegodl_2019_r.jpg.64ed32f5f79fe3b39d3023149eb3d60b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/63862604e3268_diegodl_2019_cs.jpg.9d9256c6f322d98feabd19233390e5bb.jpg
+
+dependencies:
+  - diego-del-llano:bank-of-america-center
+  - diego-del-llano:ariel-east
+  - diego-del-llano:bd-bacata
+  - diego-del-llano:central-park-corporativo
+  - diego-del-llano:citigroup-center-los-angeles 
+  - diego-del-llano:figueroa-at-wilshire
+  - diego-del-llano:gran-torre-santiago
+  - diego-del-llano:hogan-wallace-and-white-insurance
+  - diego-del-llano:hotel-embassy-indianapolis
+  - diego-del-llano:hotel-nikko-san-francisco
+  - diego-del-llano:john-hancock-tower
+  - diego-del-llano:messeturm
+  - diego-del-llano:one-chase-manhattan-plaza
+  - diego-del-llano:one-cleveland-center
+  - diego-del-llano:turlington-building
+  - diego-del-llano:salesforce-tower
+  - diego-del-llano:times-square-building
+  - diego-del-llano:two-prudential-plaza
+  - diego-del-llano:willoughby-tower
+
+variants:
+  - variant: { CAM: "no", nightmode: standard }
+  - variant: { CAM: "yes", nightmode: standard }
+  - variant: { CAM: "no", nightmode: dark}
+    assets:
+      - assetId: diego-del-llano-growables-2019-pack
+  - variant: { CAM: "yes", nightmode: dark }
+    assets:
+      - assetId: diego-del-llano-growables-2019-pack-cam

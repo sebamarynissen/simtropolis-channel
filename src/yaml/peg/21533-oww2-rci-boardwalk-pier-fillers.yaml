@@ -1,0 +1,44 @@
+group: peg
+name: oww2-rci-boardwalk-pier-fillers
+version: "1.0"
+subfolder: "660-parks"
+info:
+  summary: Add filler lots to make eye candy piers and islands.
+  description: |-
+    This RCI Boardwalk Pier Filler Lots are for those of you who have figured out that you can do a lot more with the new RCI Boardwalks lots... then just make Boardwalks. Beyond making causeways and wrapping peninsulas, you can also plop the RCI Boardwalks out fully in the water... and make piers and islands that... admitted serve no functional purpose... but can be fun to make and nice to look at.  
+      
+    The only missing element was these single-tile wide filler lots to plop down the middle of your pier or to act as filler for an island.  But now, with these filler lots installed, you can easily turn any open water area into a massive hazard to navigation.   
+      
+    This package contains 6 filler lots for you to get creative with... all of which appear in the Water Transportation menu directly under the normal RCI Boardwalk lots. Most of the filler lots have no maintenance costs or any park-like properties... as they are essentially just eye-candy.   
+      
+    From left to right, as viewed in the above screen shot, the included lots are:  
+      
+    1\. The 2x1 Pier Head Lot. Provides a formal entrance to your pier area... complete with pretzel stand a nite-lit tree planter. This is the only lot in this collection that plops on the coastal tile like the other RCI Boardwalk lots. It also has park & landmark properties to represent the entire pier.  
+      
+    2\. The 2x1 Filler Lot featuring 2 planters with large ferns.  
+      
+    3\. The 1x1 Restroom Lot.  Because its a long walk back to shore.  
+      
+    4\. The 1x1 Filler Lot. Simple, with a single lamp post to illuminate its simplicity at night.  
+      
+    5\. The 1x1 Snack Bar Lot. Hotdogs, Hamburgers and the ever-popular Smelt-on-a-Stick.  Or as the locals refer to it.. "Bait!!  Yummy!!  
+      
+    6\. The 1x1 Picnic Area Lot. Most people think the umbrellas are for shade. But if you've ever tried to eat around a lot of seagulls, you know better. If you don't remember putting Ranch Dressing on your fries... you probably didn't.  ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif ";)")
+
+    For help creating the perfect terrain for CDK lots, we  
+    strongly recommend reading  The Official CDK Tutorial.  
+       
+    **\*\* This lot requires the**   PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/21533-peg-oww2-rci-boardwalk-pier-fillers/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d753bd63388793f9c7dd561aaf4244ca-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d753bd63388793f9c7dd561aaf4244ca-product_image1.jpg
+dependencies:
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-RCI-Pier.*.dat"

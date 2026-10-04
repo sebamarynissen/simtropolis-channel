@@ -1,0 +1,73 @@
+assetId: urban-vibravant-723-7th-avenue-ny-maxisnite-sd
+version: "1.0.0"
+lastModified: "2023-10-16T23:30:46Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198086
+
+---
+assetId: urban-vibravant-723-7th-avenue-ny-maxisnite-hd
+version: "1.0.0"
+lastModified: "2023-10-16T23:30:46Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198085
+
+---
+assetId: urban-vibravant-723-7th-avenue-ny-darknite-sd
+version: "1.0.0"
+lastModified: "2023-10-16T23:30:46Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198084
+
+---
+assetId: urban-vibravant-723-7th-avenue-ny-darknite-hd
+version: "1.0.0"
+lastModified: "2023-10-16T23:30:46Z"
+url: https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/?do=download&r=198083
+
+---
+group: urban-vibravant
+name: 723-7th-avenue-ny
+subfolder: 300-commercial
+version: "1.0.0"
+info:
+  summary: 723 7th Avenue NY
+  description: |
+    At the intersection of 7th Avenue and 48th Street, this 12 story commercial building has been a part of Times Square since 1921. It houses the restaurant TSQ Brasserie and Bar and is home to many recording studios with a dance venue on the top floor.
+    Featuring its neighbors 167 and 165 West 48th street, this BAT is complete with three total buildings and two giant billboards, making it a choice selection for your busy W2W intersections.  
+
+    Each version comes with 3 different lots:  
+
+    * Landmark
+    * Growable  CS$$
+    * Ploppable CS$$ 
+ 
+  author: Urban Vibravant
+  websites: 
+    - https://community.simtropolis.com/files/file/34697-723-7th-avenue-ny/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/1.jpg.6760c02034b9672db9be34a2ba4d487c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/4.jpg.a4a5a83c5c02b6f81f857c15697f7285.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/5.jpg.c02e923def31a0786e85e14f0511b310.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/7.jpg.d93e1995a407cff32863fc8ae5fcfae1.jpg
+
+variants:
+  - variant: { nightmode: standard, urban-vibravant:723-7th-avenue-ny:resolution: sd }
+    assets:
+      - assetId: urban-vibravant-723-7th-avenue-ny-maxisnite-sd
+  - variant: { nightmode: dark, urban-vibravant:723-7th-avenue-ny:resolution: sd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-723-7th-avenue-ny-darknite-sd
+  - variant: { nightmode: standard, urban-vibravant:723-7th-avenue-ny:resolution: hd }
+    assets:
+      - assetId: urban-vibravant-723-7th-avenue-ny-maxisnite-hd
+  - variant: { nightmode: dark, urban-vibravant:723-7th-avenue-ny:resolution: hd }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: urban-vibravant-723-7th-avenue-ny-darknite-hd
+
+variantInfo:
+  - variantId: urban-vibravant:723-7th-avenue-ny:resolution
+    description: Due to the particular nature of modding, there are two versions of the building resolution.
+    values:
+      - value: hd
+        description: HD resolution means that SimCity4 works with Hardware Rendering (DirectX Rendering).
+      - value: sd
+        description: SD resolution can also be used for OpenGL versions, Software Rendering, and even Hardware Rendering.

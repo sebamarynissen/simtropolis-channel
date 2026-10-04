@@ -1,6 +1,6 @@
 group: airman15
 name: chevrolet-impala
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Chevrolet Impala
@@ -25,12 +25,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_09/Imapala07.png.84ed990b3529f4f8c6d33a8c58bcb802.png
     - https://www.simtropolis.com/objects/screens/monthly_2017_09/Imapala08.png.201c19cfedc2a21bd34d97874c817965.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-chevrolet-impala
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-chevrolet-impala
       include:

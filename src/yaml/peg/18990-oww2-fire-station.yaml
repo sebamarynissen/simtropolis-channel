@@ -1,0 +1,35 @@
+group: peg
+name: oww2-fire-station
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: Smoke on the water? No problem. Your Fire Department is waterborne.
+  description: |-
+    The waterfront Fire Station has returned in a new custom version for the CDK\-OWW2 that will provide fire protection for your city on land as well as at sea. With all the properties of a large fire station, this fully functional fire station covers a large area and has two fire engines that can be dispatched to fires.  
+      
+    Also serving as the home port for the SimCity Fire Department's historic fire boat, the S.C.F.D Tinkle... ... ...named after famous fire fighter John Tinkle, of course... this fire station continues the proud & historic tradition of going down to the sea with some really bad-ass fire fighting equipment!  
+      
+    This fire station is notably smaller in size than its prior rendition; a mere 2x3 versus the previous 5x2. It does not directly replace the original version so the player can use both versions.  
+      
+    The building and fire boat models were reused from the original version... but both were modified extensively. The floating dock and boardwalk/seawall models are new & unique to this lot. Like all OWW2 lots, the boardwalks align along the front and the parking area aligns along the rear.  
+      
+    The lot has a transit enabled driveway and once connected, fire trucks can regularly be seen entering & exiting the lot. All properties, including price, fire protection range, effectiveness and number of jobs are equivalent to a normal large fire station.
+
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18990-peg-oww2-fire-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5bc5f956d885840ac4fbcfbdbc8e100f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5bc5f956d885840ac4fbcfbdbc8e100f-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_FireStation.dat"

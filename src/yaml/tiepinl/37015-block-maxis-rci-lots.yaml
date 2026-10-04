@@ -1,0 +1,192 @@
+assetId: "block-maxis-rci-lots"
+version: "1.1-1"
+lastModified: "2026-06-06T04:10:36Z"
+url: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/?do=download"
+
+---
+group: "tiepinl"
+name: "block-maxis-i-d"
+version: "1.1.0-1"
+subfolder: "900-overrides"
+assets:
+- assetId: "block-maxis-rci-lots"
+  include: 
+    - "/stop_maxis_growable_I-d\\$\\$.dat"
+info:
+  author: "TiepiNL"
+  summary: "Stop dirty industry Lots from growing"
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.
+  website: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+dependencies:
+  - null-45:sc4-resource-loading-hooks
+  - config:sc4-edition-windows-digital
+
+---
+group: "tiepinl"
+name: "block-maxis-i-m"
+version: "1.1.0-1"
+subfolder: "900-overrides"
+assets:
+- assetId: "block-maxis-rci-lots"
+  include: 
+    - "/stop_maxis_growable_I-m\\$\\$.dat"
+info:
+  author: "TiepiNL"
+  summary: "Stop manufacturing industry Lots from growing"
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.
+  website: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+dependencies:
+  - null-45:sc4-resource-loading-hooks
+  - config:sc4-edition-windows-digital
+
+---
+group: "tiepinl"
+name: "block-maxis-i-ht"
+version: "1.1.0-1"
+subfolder: "900-overrides"
+assets:
+- assetId: "block-maxis-rci-lots"
+  include: 
+    - "/stop_maxis_growable_I-ht\\$\\$\\$.dat"
+info:
+  author: "TiepiNL"
+  summary: "Stop high-tech industry Lots from growing"
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.
+  website: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+dependencies:
+  - null-45:sc4-resource-loading-hooks
+  - config:sc4-edition-windows-digital
+
+---
+group: "tiepinl"
+name: "block-maxis-i-r"
+version: "1.1.0-1"
+subfolder: "900-overrides"
+assets:
+- assetId: "block-maxis-rci-lots"
+  include: 
+    - "/stop_maxis_growable_I-r\\$.dat"
+info:
+  author: "TiepiNL"
+  summary: "Stop agricultural industry Lots (farms) from growing"
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.
+  website: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+dependencies:
+  - null-45:sc4-resource-loading-hooks
+  - config:sc4-edition-windows-digital
+
+---
+group: "tiepinl"
+name: "block-maxis-residential"
+version: "1.1.0-1"
+subfolder: "900-overrides"
+assets:
+- assetId: "block-maxis-rci-lots"
+  include: 
+    - "/stop_maxis_growable_R\\$.dat"
+    - "/stop_maxis_growable_R\\$\\$.dat"
+    - "/stop_maxis_growable_R\\$\\$\\$.dat"
+info:
+  author: "TiepiNL"
+  summary: "Stop residential Lots (all wealth types) from growing"
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.
+  website: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+dependencies:
+  - null-45:sc4-resource-loading-hooks
+  - config:sc4-edition-windows-digital
+
+---
+group: "tiepinl"
+name: "block-maxis-commercial"
+version: "1.1.0-1"
+subfolder: "900-overrides"
+assets:
+- assetId: "block-maxis-rci-lots"
+  include:
+    - "/stop_maxis_growable_CO\\$\\$.dat"
+    - "/stop_maxis_growable_CO\\$\\$\\$.dat"
+    - "/stop_maxis_growable_CS\\$.dat"
+    - "/stop_maxis_growable_CS\\$\\$.dat"
+    - "/stop_maxis_growable_CS\\$\\$\\$.dat"
+info:
+  author: "TiepiNL"
+  summary: "Stop commercial services and commercial offices Lots (all wealth types) from growing"
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.
+  website: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+dependencies:
+  - null-45:sc4-resource-loading-hooks
+  - config:sc4-edition-windows-digital
+  
+---
+group: "tiepinl"
+name: "block-maxis-cam"
+version: "1.1.0-1"
+subfolder: "900-overrides"
+variants:
+- variant: { CAM: "yes" }
+  assets:
+  - assetId: "block-maxis-rci-lots"
+    include:
+    - "/CAM_Buildings_custom_rci_blocker.dat"
+- variant: { CAM: "no" }
+info:
+  author: "TiepiNL"
+  summary: "Stop CAM commercial lots based on Maxis Landmarks"
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.
+  website: "https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+dependencies:
+  - null-45:sc4-resource-loading-hooks
+  - config:sc4-edition-windows-digital
+
+---
+group: tiepinl
+name:  block-maxis-building-collection    
+version: "1.1.0"
+subfolder: 900-overrides
+info:
+  summary: Stop Maxis Building from growing
+  description: |-
+    Modern and lightweight version of existing Maxis blockers, based on Exemplar Patching.
+    The blockers prevent Maxis RCI lots from growing, by setting the minimum slope angle to an impossible value.       
+  author: TiepiNL
+  websites: 
+    - https://community.simtropolis.com/files/file/37015-block-maxis-rci-lots
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a421976de101_BlockMaxis.JPG.e687c5c20a26317bcdba15d82c6d045c.JPG
+
+dependencies:
+  - tiepinl:block-maxis-i-r
+  - tiepinl:block-maxis-i-d
+  - tiepinl:block-maxis-i-m
+  - tiepinl:block-maxis-i-ht
+  - tiepinl:block-maxis-residential
+  - tiepinl:block-maxis-commercial
+  - tiepinl:block-maxis-cam

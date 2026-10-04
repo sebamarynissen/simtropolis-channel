@@ -1,0 +1,145 @@
+# TODO - requires: [SFBT Punkthaus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1251)
+
+# group: simcitler
+# name: punkthaus-revisited
+# version: "1.0"
+# subfolder: 200-residential
+# info:
+#   summary: Punkthaus revisited
+#   description: |-
+#     Punkthaus revisited
+
+#     This Lot pack contains 8 residential lots for Spocky's "Punkthaus" BATs.
+
+#     (Originals can be found here: [SFBT Punkthaus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1251))
+
+#     Included are 8 R-$$ lots which contain one or two differently colored buildings.
+
+#     All of them will grow on medium and high density residential zones in Euro tileset.
+
+#     **included are:**
+
+#     three 4x3 Lots
+
+#     two 3x4 Lots
+
+#     three 5x5 Lots
+
+#     **STATS (4x3, 3x4 Lots):**
+
+#     Stage: 6
+
+#     occupants: 475 R-$$ // 859 R-$
+
+#     value (tax): 12.395$
+
+#     power consumed: 7 MWh/month
+
+#     water consumed: 19 m³/month
+
+#     air purification: 4 over 5 tiles
+
+#     water purification: 2 over 6 tiles
+
+#     garbage: 4 over 0 tiles
+
+#     construction time: 72 days
+
+#     \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#     **STATS (5x5 Lots):**
+
+#     Stage: 7
+
+#     occupants: 950 R-$$ // 1718 R-$
+
+#     value (tax): 24.900$
+
+#     power consumed: 14 MWh/month
+
+#     water consumed: 38 m³/month
+
+#     air purification: 6 over 5 tiles
+
+#     water purification: 3 over 6 tiles
+
+#     garbage: 8 over 0 tiles
+
+#     construction time: 85 days
+
+#     \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#     **Dependencies:**
+
+#     As this is a relot of still existing BATs, you have to download the model files.
+
+#     SFBT\_Punkthaus\_c-0x5ad0e817\_0x724bca0a\_0x30000.SC4Model
+
+#     SFBT\_Punkthaus\_r-0x5ad0e817\_0x329071ab\_0x30000.SC4Model
+
+#     SFBT\_Punkthaus\_y-0x5ad0e817\_0xf290aafd\_0x30000.SC4Model
+
+#     ^^These are the model files created by Spocky/SFBT. Without these files you will see big brown boxes on the lots.
+
+#     The files are included here: [SFBT Punkthaus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1251)
+
+#     [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+#     [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+#     [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+#     [SFBT Playground Props](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2540)
+
+#     **optional:**
+
+#     [European car replacement mod by mike seith](https://www.simtropolis.com/forum/files/file/12973-european-car-replacement-mod/)
+
+#     **Installation:**
+
+#     just unzip the "SCL\_SFBT\_Punkthaus\_revisited" folder into your Plugins folder!
+
+#     You can put the "Punkthaus\_readme\_pics" folder where you want!
+
+#     Due to the fact that i created new \*.SC4DESC files for these lots, there should be no conflicts with the original lots.
+
+#     **Credits go to:**
+
+#     Spocky, for his superb BATs
+
+#     various members of the BSC Team for their Texture creations
+
+#     to all creators of props used on the lots!
+
+#     special thanks to the communities of www.simforum.de and www.sc4devotion.com for their advice and help!
+
+#     Another thank you to Dirk for www.simtropolis.com!
+
+#     Hope you like
+
+#     Simcitler
+
+#     check out [my other lots](https://www.simtropolis.com/forum/index.php?app=core&module=search&do=user_activity&search_app=downloads&mid=250000) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0).
+#   author: Simcitler
+#   website: https://community.simtropolis.com/files/file/26671-punkthaus-revisited/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/b683d69707bfd2dbe44e9323a0e27025-4x3_day.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/3804d431c1db4d15ef303723ebc93986-4x3_night.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/b5e246842354046521d34689c2d25092-3x4_lots.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/cc1183b3e9ef02371930fe462bb94ca2-4x3_lots.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_08_2011/bf5182d290a469638ed060683e942164-5x5_lots.jpg
+# dependencies:
+#   - mikeseith:european-cars-automata-and-family-props-new-instances
+#   - '"[SFBT Punkthaus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1251)"'
+#   - bsc:mega-props-cp-vol01
+#   - bsc:textures-vol01
+#   - sfbt:essentials
+#   - sfbt:sam-johnson-playground-props
+# assets:
+#   - assetId: simcitler-punkthaus-revisited
+
+# ---
+# assetId: simcitler-punkthaus-revisited
+# version: "1.0"
+# lastModified: "2011-08-21T07:05:21Z"
+# url: https://community.simtropolis.com/files/file/26671-punkthaus-revisited/?do=download&r=90967

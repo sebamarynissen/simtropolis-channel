@@ -1,0 +1,64 @@
+group: blam
+name: small-school
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: BLaM French Connections Small School
+  description: |-
+    BLaM French Connections offers the in game Maxis Elementary School with a facelift!
+
+    This school has a pretty, colorful playground, with a non slip surface, and teddy bear paw prints. Included are playthings for the children to enjoy.
+
+    The most important addition, is a safety fence enclosing the playground, ensuring that the children cannot run out into the road, and preventing pedestrians from wandering across the playground
+
+    Stats:
+
+    Lot size: 3 x 3
+
+    All other stats as per the maxis original.
+
+    dependencies
+
+    BLaM Essentials: STEX [https://www.simtropolis.com/STEX/index.cfm?id=16248](https://www.simtropolis.com/stex/index.cfm?id=16248)
+
+    SCExchange:http://www.simcities.com/main.php?exchange=sc4&loc=direct&t=prop&id=17\_00000032
+
+    The unique texture used for the playground, is included within the zip archive, but anyone who has the BLaM FC Teddybear's Park, will already have it, so should delete it from this pack
+
+    To instal
+
+    BLaM recommends the making of a folder named BLaM within your plugins folder. The contents of the folder contained within the download zip archive may then be dragged directly to that folder. Please ensure that you retain both the SC4Lot file and the French connection Paws textures.dat file (if you don't already have it)
+
+    Credits
+
+    Maxis for the original building, and carpark texture/props
+
+    Lot design and creation: KT3
+
+    Unique Texture creation: Lou
+
+    Testing: OP4
+
+    Disclaimer
+
+    All BLaM lots are tested and seen to work. However, in some cases conflicts may occur. BLaM cannot be held responsible for such conflicts and this download is used by the user on an 'as-is' basis.
+
+    Release Notes
+
+    All BLaM releases are available on the SimTropolis Exchange (STEX) and the SimCities Exchange (SCExchange). Individual members may release at other locations in addition to these. Please check the relevant readme file(s).
+
+    BLaM French Connections Elementary School v1.01
+  author: BLaM
+  website: https://community.simtropolis.com/files/file/16949-blam-french-connections-small-scool/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/8774daace7e9ec8add44e13493321728-BLaM FC Small School tn.JPG
+dependencies:
+  - blam:essentials
+assets:
+  - assetId: blam-french-connections-small-scool
+
+---
+assetId: blam-french-connections-small-scool
+version: "1.0"
+lastModified: "2006-09-26T08:21:46Z"
+url: https://community.simtropolis.com/files/file/16949-blam-french-connections-small-scool/?do=download&r=39921

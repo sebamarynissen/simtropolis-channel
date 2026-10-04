@@ -1,0 +1,86 @@
+group: simcitler
+name: brenntian-life-building-revisited
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Brenntian Life Building revisited
+  description: |-
+    This lot pack contains 3 additional (growable) lots for ill tonkso's Brenntian Life BAT.
+
+    the lots will grow on high density commercial zones in Euro and Houston tilesets.
+
+    all lots are CO-$$$.
+
+    **STATS:**
+
+    **Stage:** 6(5x4); 7(4x4)
+
+    **occupants:** 853 CO-$$$/ 1219 Co-$$
+
+    **value (tax):** 9.532
+
+    **power consumed:** 35 MWh/month
+
+    **water consumed:** 380 m³/month
+
+    **air purification:** 5 over 6 tiles
+
+    **water purification:** 5 over 7 tiles
+
+    **garbage:** 4 over 0 tiles
+
+    **construction time:** 102 days
+
+    **bulldoze cost:** 1022
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    **Dependencies:**
+
+    00BrenntLife-0x5ad0e817\_0x31c6d1e9\_0x30000.SC4Model
+
+    ^^This is the model file created by ill tonkso. Without it you will see a big brown box on the lots!
+
+    The file is included in here: [Brenntian Life Building](https://www.simtropolis.com/forum/files/file/12649-brenntian-life-building/)
+
+    [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    Network Addon Mod [Windows version](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=851) or [Mac version](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=852)
+
+    **Installation:**
+
+    just unzip the files into your Plugins folder!
+
+    Due to the fact that i created new \*.SC4DESC files for these lots, there should be no conflicts with the original lots by ill tonkso.
+
+    **Credits go to:**
+
+    **ill tonkso**, for his great BAT.
+
+    Another Thank you to various members of the BSC Team for their Texture creations, and to all creators of props used on the lots!
+
+    special thanks to the simforum community for their advice and help.
+
+    check out [my other lots](https://www.simtropolis.com/forum/index.php?app=core&module=search&do=user_activity&search_app=downloads&mid=250000) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0).
+  author: Simcitler, ILL Tonkso
+  website: https://community.simtropolis.com/files/file/27183-brenntian-life-building-by-ill-tonkso-revisited/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/42dbe1002ac1d5395a54f386e71b85aa-brl_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/27343083c69b5734e5f20872a2d09cfc-brl_2.jpg
+dependencies:
+  - ndex:its-mega-pack-vol13
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-brenntian-life-building-by-ill-tonkso-revisited
+
+---
+assetId: simcitler-brenntian-life-building-by-ill-tonkso-revisited
+version: "1.0"
+lastModified: "2012-01-14T18:36:22Z"
+url: https://community.simtropolis.com/files/file/27183-brenntian-life-building-by-ill-tonkso-revisited/?do=download&r=95958

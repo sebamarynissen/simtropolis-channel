@@ -1,132 +1,131 @@
-# TODO - Dependent on tabi:mega-prop-pack-vol03 found in the SC4D LEX Legacy Airpor pack --> https://github.com/memo33/sc4pac/pull/88
+group: paeng
+name: regional-bus-terminal
+version: "1.2"
+subfolder: 700-transit
+info:
+  summary: Regional Bus Terminal
+  description: |-
+    First of all, the Kudos - to *Voltaire* and *Ace Bovenopdeberg* for creating the fantastic airport props. And to *SimcityFuturist*, who came up with the (brilliant) idea to turn some of them into a large Bus Terminal.
 
-# group: paeng
-# name: regional-bus-terminal
-# version: "1.2"
-# subfolder: 700-transit
-# info:
-#   summary: Regional Bus Terminal
-#   description: |-
-#     First of all, the Kudos - to *Voltaire* and *Ace Bovenopdeberg* for creating the fantastic airport props. And to *SimcityFuturist*, who came up with the (brilliant) idea to turn some of them into a large Bus Terminal.
+    Now for myself I wanted the terminal more modular (my pet peeve ;-) and also better fitting into a more suburban setting, as the current design rather has a strong 'inner city' feel to it.
 
-#     Now for myself I wanted the terminal more modular (my pet peeve ;-) and also better fitting into a more suburban setting, as the current design rather has a strong 'inner city' feel to it.
+    So here is my re-lot of *SimcityFuturist's Regional Bus Terminal* - with a few additional wrinkles... ;-)
 
-#     So here is my re-lot of *SimcityFuturist's Regional Bus Terminal* - with a few additional wrinkles... ;-)
+    **LIST OF ITEMS**
 
-#     **LIST OF ITEMS**
+    \* 14x5 - main Bus Terminal
 
-#     \* 14x5 - main Bus Terminal
+    \* 14x2 - Bus Parking (large)
 
-#     \* 14x2 - Bus Parking (large)
+    \*  7x2 - Bus Parking (small)
 
-#     \*  7x2 - Bus Parking (small)
+    *See Dev Notes below for more details.*
 
-#     *See Dev Notes below for more details.*
+    **DEPENDENCIES**
 
-#     **DEPENDENCIES**
+    \* **[BLaM Blank](https://community.simtropolis.com/files/file/17996-blam-blank/) - this is essential to avoid brown boxes wich were reported [into this topic](https://community.simtropolis.com/forums/topic/75496-missing-plugin-pack-warning/).**  
+    *\- added by Tyberius06*
 
-#     \* **[BLaM Blank](https://community.simtropolis.com/files/file/17996-blam-blank/) - this is essential to avoid brown boxes wich were reported [into this topic](https://community.simtropolis.com/forums/topic/75496-missing-plugin-pack-warning/).**  
-#     *\- added by Tyberius06*
+    \* **[ACB VLT Terminals and Jets Series 1 part 2](https://community.simtropolis.com/files/file/18479-acb-vlt-terminals-and-jets-series-1-part-2/)**
 
-#     \* **[ACB VLT Terminals and Jets Series 1 part 2](https://community.simtropolis.com/files/file/18479-acb-vlt-terminals-and-jets-series-1-part-2/)**
+    *See Readme/Installation Guide for a comprehensive list of needed models!* *- These models and desc were merged and superseeded by the below listed AC Mega Props 2 and 3. You need to run the installer of those and you can keep the files on their originally provided location. - added by Tyberius06*
 
-#     *See Readme/Installation Guide for a comprehensive list of needed models!* *- These models and desc were merged and superseeded by the below listed AC Mega Props 2 and 3. You need to run the installer of those and you can keep the files on their originally provided location. - added by Tyberius06*
+    \* **[AC MEGA Props Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1892)** \- *added by Tyberius06*
 
-#     \* **[AC MEGA Props Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1892)** \- *added by Tyberius06*
+    \* **[AC MEGA Props Vol03](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1893)** *\- added by Tyberius06*
 
-#     \* **[AC MEGA Props Vol03](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1893)** *\- added by Tyberius06*
+    \* **[Bus Prop Pack 1](https://community.simtropolis.com/files/file/21968-bus-prop-pack/) by Glenni**
 
-#     \* **[Bus Prop Pack 1](https://community.simtropolis.com/files/file/21968-bus-prop-pack/) by Glenni**
+    *The rest are my usual suspects -*
 
-#     *The rest are my usual suspects -*
+    \* [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
 
-#     \* [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+    \* [Paeng Texture Pack v104](https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/)
 
-#     \* [Paeng Texture Pack v104](https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/)
+    \* [SG 01 Megapack](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
 
-#     \* [SG 01 Megapack](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+    \* [Porkie Props Vol 01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
 
-#     \* [Porkie Props Vol 01](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+    \* [Murimk Props Vol02](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)
 
-#     \* [Murimk Props Vol02](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)
+    **UPDATES:**
 
-#     **UPDATES:**
+    1) It was suggested to raise the capacity to 35.000 to be more compatible with NAM values (new: v1.1).
 
-#     1) It was suggested to raise the capacity to 35.000 to be more compatible with NAM values (new: v1.1).
+    2) Better texture for pedestrian crossing added (new: v1.2)
 
-#     2) Better texture for pedestrian crossing added (new: v1.2)
+    **DEVELOPER NOTES**
 
-#     **DEVELOPER NOTES**
+    Once you installed the *ACB VLT Pack*, you'll have a huge chunk (20Mb) of models, props and lots in you plugins - but use barely 10% of them (unless you build those airports as well)... See the included *Installation Guide* (PDF) with a precise listing of the needed items. You'll be able to reduce that complex bundle to a tight 2Mb and free your menus from any items you do not use!
 
-#     Once you installed the *ACB VLT Pack*, you'll have a huge chunk (20Mb) of models, props and lots in you plugins - but use barely 10% of them (unless you build those airports as well)... See the included *Installation Guide* (PDF) with a precise listing of the needed items. You'll be able to reduce that complex bundle to a tight 2Mb and free your menus from any items you do not use!
+    *So what else is different in this pack?*
 
-#     *So what else is different in this pack?*
+    **\* Smaller footprint** - the lot has been resized to 14x5 (before: 14x9).
 
-#     **\* Smaller footprint** - the lot has been resized to 14x5 (before: 14x9).
+    **\* Modular** - instead is has now separate Bus Parking (14x2 or 7x2) for more flexible layouts; in tight spots you could even skip them, e.g. to replace them with underground parking or similar.
 
-#     **\* Modular** - instead is has now separate Bus Parking (14x2 or 7x2) for more flexible layouts; in tight spots you could even skip them, e.g. to replace them with underground parking or similar.
+    **\* More Capacity** - the terminal now has a capacity of 35.000 (before: 1.000), so there should be no more traffic jams.
 
-#     **\* More Capacity** - the terminal now has a capacity of 35.000 (before: 1.000), so there should be no more traffic jams.
+    *Note: Capacity was raised in v1.1*
 
-#     *Note: Capacity was raised in v1.1*
+    **\* Added COM Boost** - it also gives a slight boost to nearby COM.
 
-#     **\* Added COM Boost** - it also gives a slight boost to nearby COM.
+    **\* Added Jobs** - the additional Bus Parking has no traffic switches, but generates some jobs (80 or 40 CS$$). Naturally, you can also use the Bus Parking strips as standalone items (without the Terminal). If you do so, plop any Bus Stop(s) of your choice to provide traffic switching capabilities.
 
-#     **\* Added Jobs** - the additional Bus Parking has no traffic switches, but generates some jobs (80 or 40 CS$$). Naturally, you can also use the Bus Parking strips as standalone items (without the Terminal). If you do so, plop any Bus Stop(s) of your choice to provide traffic switching capabilities.
+    **\* Mac Capacity Bug** - fixed in this version.
 
-#     **\* Mac Capacity Bug** - fixed in this version.
+    **\* Complete re-lot** - to match the new footprint. Gives it a less 'inner city' feeling, so it's also suitable for more suburban areas.
 
-#     **\* Complete re-lot** - to match the new footprint. Gives it a less 'inner city' feeling, so it's also suitable for more suburban areas.
+    **\* Reduced dependencies** - you can skip the *SimFox Trees, BSC MEGA Props CP Vol01, BSC MEGA Props CP Vol02, VIP CarPack vol1*... even the *NAM* is not mandatory any more. Big deal, you might say - but hey, less dependencies always feels safer - after all, we never know what the guy next door uses (or not)... ;-)
 
-#     **\* Reduced dependencies** - you can skip the *SimFox Trees, BSC MEGA Props CP Vol01, BSC MEGA Props CP Vol02, VIP CarPack vol1*... even the *NAM* is not mandatory any more. Big deal, you might say - but hey, less dependencies always feels safer - after all, we never know what the guy next door uses (or not)... ;-)
+    **\* MMP friendly occupant sizes** - to add more trees and greenery, just use any from your own arsenal of MMPs.
 
-#     **\* MMP friendly occupant sizes** - to add more trees and greenery, just use any from your own arsenal of MMPs.
+    You find all items at or near the end of the *'Transportation | Miscellaneous'* menu.
 
-#     You find all items at or near the end of the *'Transportation | Miscellaneous'* menu.
+    **INSTALLATION**
 
-#     **INSTALLATION**
+    Unzip the whole bundle into *"(My )Documents/Plugins"*.
 
-#     Unzip the whole bundle into *"(My )Documents/Plugins"*.
+    To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
 
-#     To uninstall, bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+    **CREDITS**
 
-#     **CREDITS**
+    Thanks to the folks at simpeg.com for valuable feedback! :-)
 
-#     Thanks to the folks at simpeg.com for valuable feedback! :-)
+    **SUPPORT**
 
-#     **SUPPORT**
+    Should you need support for these items please visit the
 
-#     Should you need support for these items please visit the
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10893.msg223983#msg223983)
 
-#     [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10893.msg223983#msg223983)
+    **Enjoy!**
 
-#     **Enjoy!**
+    **\-Cori Edit:** Added missing Murimk Props Vol02 dependency linky and tidied up the formatting a little bit.
 
-#     **\-Cori Edit:** Added missing Murimk Props Vol02 dependency linky and tidied up the formatting a little bit.
+    *\- Tyberius06 edit on 23.10.2018 - updated dependency links with the missing and essential **[blank building](https://community.simtropolis.com/files/file/17996-blam-blank/).***
+  author: paeng
+  website: https://community.simtropolis.com/files/file/29110-paengs-regional-bus-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/5a1786db20fb073a221626e08e44b688-terminal01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/5e86abc983b8c34153d28f7a521f097f-terminal02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/1108821c1c301d0a6b1f4993c5b19a91-terminal03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/cf9b7cb5abbd0613223e47344224cbd2-zebra3.jpg
+dependencies:
+  - ac:mega-props-vol02
+  - ac:mega-props-vol03
+  - glenni:bus-prop-pack
+  - blam:blank
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol02-mixed
+  - paeng:textures
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - tabi:mega-props-vol03
+assets:
+  - assetId: paeng-regional-bus-terminal
 
-#     *\- Tyberius06 edit on 23.10.2018 - updated dependency links with the missing and essential **[blank building](https://community.simtropolis.com/files/file/17996-blam-blank/).***
-#   author: paeng
-#   website: https://community.simtropolis.com/files/file/29110-paengs-regional-bus-terminal/
-#   images:
-#     - https://www.simtropolis.com/objects/screens/monthly_12_2013/5a1786db20fb073a221626e08e44b688-terminal01.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_12_2013/5e86abc983b8c34153d28f7a521f097f-terminal02.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_12_2013/1108821c1c301d0a6b1f4993c5b19a91-terminal03.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_12_2013/cf9b7cb5abbd0613223e47344224cbd2-zebra3.jpg
-# dependencies:
-#   - ac:mega-props-vol02
-#   - ac:mega-props-vol03
-#   - glenni:bus-prop-pack
-#   - blam:blank
-#   - bsc:mega-props-sg-vol01
-#   - murimk:props-vol02-mixed
-#   - paeng:textures
-#   - porkissimo:jenx-porkie-expanded-porkie-props
-#   - shk:parking-pack
-# assets:
-#   - assetId: paeng-regional-bus-terminal
-
-# ---
-# assetId: paeng-regional-bus-terminal
-# version: "1.2"
-# lastModified: "2013-12-13T13:43:29Z"
-# url: https://community.simtropolis.com/files/file/29110-paengs-regional-bus-terminal/?do=download&r=121814
+---
+assetId: paeng-regional-bus-terminal
+version: "1.2"
+lastModified: "2013-12-13T13:43:29Z"
+url: https://community.simtropolis.com/files/file/29110-paengs-regional-bus-terminal/?do=download&r=121814

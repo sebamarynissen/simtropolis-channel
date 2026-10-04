@@ -1,0 +1,50 @@
+group: peg
+name: cdk3-capt-jacks-landing
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: "A bustling commercial fishing port. The #1 choice for putting in and selling the day's catch."
+  description: |-
+    No real harbor could be complete without the classic commercial fishing marina... and Captain Jack's Landing is the fisherman's choice for putting in and selling the day's catch. Its all there... from the smell and feel of the salt spray to the splat of dump duck doo-doo on your shoulder. Captain Jack's has all the look and feel of a bustling commercial fishing port.
+
+    The 6x6 lot (6x2 land imprint) is a full blown CDK3 lot requiring almost all of the CDK3 dependencies. Its an industrial manufacturing lot with plenty of jobs and income generated from taxes. Like any marina, its a tad on the dirty side... but nothing you can't handle.
+
+    The lot also benefits your city... much as a seaport does. Where a seaport helps to promote industrial growth, the commercial marina helps promote commercial growth. Its a little bit lot... and a little bit reward... all rolled up into one.
+
+    In addition to these features, the lot also includes:
+
+    - Random cargo that shuffles throughout the day.
+    - Random truck traffic that shuffles throughout the day.
+    - Random fishing trawlers that come and go throughout the day.
+    - A modular design that allows you to place the lots seamlessly side-by-side to create marinas as large as you want.
+    - Transit enabled driveways for realistic, connected entrances.
+    - Christmas lighting during the Holiday season. (game time)
+
+    The lot is located in the Water Transportation menu along with the other CDK3 lots. The lot requires many of the CDK3 dependencies... most of which are available both on the LEX and the STEX.  
+      
+    *No real fish were harmed in the development of this lot. The lobsters however... which are not technically a "fish"... were delicious.*
+
+    **For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **This lot requires the following dependencies**
+
+    PEG\-CDK3 Resource Pack1  
+    PEG\-CDK3 The Basics  
+    PEG\-CDK3 Vehicle Pack 1  
+    PEG\-CDK3 TrawlersPack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18658-peg-cdk3-capt-jacks-landing/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c11442b9c6355f1b46a458f94398ad0e-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/c11442b9c6355f1b46a458f94398ad0e-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3_CaptJacksLanding.dat"
+
+

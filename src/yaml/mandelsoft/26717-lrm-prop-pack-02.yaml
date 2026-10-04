@@ -1,0 +1,16 @@
+group: mandelsoft
+name: lrm-prop-pack-02
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Superseded by `pkg=mandelsoft:light-replacement-mod-props`
+  description: |-
+    This pack has been superseded by the LRM V4 props in `pkg=mandelsoft:light-replacement-mod-props`.
+  author: MandelSoft
+  websites: 
+    - https://community.simtropolis.com/files/file/26717-lrm-prop-pack-02/
+    - https://community.simtropolis.com/files/file/24502-lrm-prop-pack-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/c62e713872ee6d360ad11fb9cb7a37ae-lrm prop pack 02.jpg
+dependencies:
+  - mandelsoft:light-replacement-mod-props # LRM V4. Confirmed to be backwards compatible, see https://github.com/sebamarynissen/simtropolis-channel/issues/480
