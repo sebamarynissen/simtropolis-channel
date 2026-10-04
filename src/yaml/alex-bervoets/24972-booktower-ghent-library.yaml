@@ -1,0 +1,74 @@
+group: alex-bervoets
+name: booktower-ghent-library
+version: "2"
+subfolder: 620-education
+info:
+  summary: Booktower Ghent (Library) V2
+  description: |-
+    This is an updated version of the Booktower of Ghent. The folder contains the Booktower as a library (no low-rise buildings).
+
+    The tower now has an entrance with nightlight. Since the real tower has no entrance at its base, I had to design one myself. I tried to build one that would fit the design. Hope you like it!
+
+    Lot size: 3x2
+
+    Plop cost: 10000
+
+    Max books: 10000
+
+    Monthly cost: 3600
+
+    Water: 5
+
+    Nightlight: yes
+
+    No dependencies
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    Delete the folder "Booktower Ghent (library)" and replace it with this one.
+
+    Attention: the complete building (the college) isn't in this file, so don't delete that one of you want both!
+
+    This is the link to the complete bat: [https://www.simtropolis.com/STEX/details.cfm?id=24923](https://www.simtropolis.com/stex/details.cfm?id=24923)
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    ![booktowernightdetailent.jpg](http://img830.imageshack.us/img830/406/booktowernightdetailent.jpg)
+
+    ![booktoweringamenight.jpg](http://img811.imageshack.us/img811/8715/booktoweringamenight.jpg)
+  author: Alex_Bervoets
+  websites: 
+    - https://community.simtropolis.com/files/file/24972-booktower-ghent-library-v2/
+    - https://community.simtropolis.com/files/file/24923-booktower-ghent/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/93821fd4f9fd90a5e56b8def73bfb514-booktower ingame day.jpg
+    - https://www.simtropolis.com/objects/screens/0017/93821fd4f9fd90a5e56b8def73bfb514-booktower night detail top.jpg
+dependencies:
+  - alex-bervoets:booktower-ghent-library-model
+assets:
+  - assetId: alex-bervoets-booktower-ghent-library-v2
+    include:
+      - \.SC4Lot$
+
+---
+group: alex-bervoets
+name: booktower-ghent-library-model
+version: "2"
+subfolder: 110-resources
+info:
+  summary: Booktower Ghent (Library) V2 resources
+  description: |-
+    This package is a resource for `pkg=alex-bervoets:booktower-ghent-library`
+  author: Alex_Bervoets
+  website: https://community.simtropolis.com/files/file/24972-booktower-ghent-library-v2/
+assets:
+  - assetId: alex-bervoets-booktower-ghent-library-v2
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
+
+---
+assetId: alex-bervoets-booktower-ghent-library-v2
+version: "2"
+lastModified: "2010-09-29T02:14:57Z"
+url: https://community.simtropolis.com/files/file/24972-booktower-ghent-library-v2/?do=download&r=52447

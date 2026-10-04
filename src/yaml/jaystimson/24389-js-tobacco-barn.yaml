@@ -1,6 +1,6 @@
 group: jaystimson
 name: tobacco-barn
-version: "1.0"
+version: "1.0-1"
 subfolder: 410-agriculture
 info:
   summary: JS Tobacco Barn
@@ -36,24 +36,24 @@ dependencies:
   - jaystimson:tobacco-barn-model
 assets:
   - assetId: jaystimson-js-tobacco-barn
-    include:
-      - "\\.SC4Lot$"
+    exclude:
+      - \.SC4Model$
 
 ---
 group: jaystimson
 name: tobacco-barn-model
 version: "1.0"
-subfolder: 100-props-textures
+subfolder: 110-resources
 info:
-  summary: Resources for `pkg=jaystimson:tobacco-barn`
+  summary: JS Tobacco Barn resources
+  description: |-
+    This package is a resource for `pkg=jaystimson:tobacco-barn`
   author: JayStimson
   website: https://community.simtropolis.com/files/file/24389-js-tobacco-barn/
-  images:
-    - https://www.simtropolis.com/objects/screens/0019/a7f1322cb6495414d0ff5c6a753167e3-JS_TobaccoBarns_SS.jpg
 assets:
   - assetId: jaystimson-js-tobacco-barn
-    exclude:
-      - "\\.SC4Lot$"
+    include:
+      - \.SC4Model$
 
 ---
 assetId: jaystimson-js-tobacco-barn
