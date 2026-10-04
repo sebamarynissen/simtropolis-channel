@@ -1,0 +1,40 @@
+group: peg
+name: oww2-captain-nemos-wild-ride
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: One of the more popular amusements along the Boardwalk.
+  description: |-
+    Captain Nemo's Wild Ride is one of the more popular amusements along the Boardwalk. Passengers are treated to a fantasy voyage\* aboard the Nautilus... an operational submarine that is loosely based on the Jules Verne classic... with a little Beatles tossed in for color. During the 20 minute voyage, passengers are guided past a nearby reef with plenty of colorful sea life and, of course, subjected to an attack by a giant mechanic squid.
+
+    *\*Fantasy voyage not included. Optional imagination required .*
+
+    The lot is a 3x3 CS$$ ploppable with jobs. It is fully OWW2 compatible with a boardwalk and parking that align with adjacent OWW2 lots. The lot is transit enabled with a central driveway for a more realistic network connection.
+
+    The lot is compatible with all OWW2 collections and is extensively nite lited. It also features a custom query with unique stats driven by conditions within your city. The query also uses 3 custom musical sound effects that are different each time the lot is queried.
+
+    \* As the lot provides jobs, it must have road access.
+
+    For help creating the perfect terrain for CDK lots,we strongly recommend reading The Official CDK Tutorial  
+    .
+
+    **\*\* This lot requires the following dependencies:**
+
+    **PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1  
+     PEG\-OWW2 Resource Pack 2**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19279-peg-oww2-capt-nemos-wild-ride/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/be11fa03bc086ca21a0a869f8e27b938-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0021/be11fa03bc086ca21a0a869f8e27b938-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-resource-pack-vol02
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_CaptainNemos.dat"

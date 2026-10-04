@@ -1,0 +1,37 @@
+group: peg
+name: oww2-pier-set-arcade
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: This arcade doubles as a 4-way pier section. Do the Pac-Man!
+  description: |-
+    All piers are a tourist magnet but a pier with a large arcade is a tourism bonanza just waiting to happen. And so, without further ado... we give you the PierSet Penny Arcade !!
+
+    Although difficult to see from the outside, the inside of the Arcade building is stacked to the rafters with games and various other attractions including the latest video games as well as the prerequisite classics Gopher Stomp, Pinball, The Fortune Teller and, of course... SkeeBall.  Everything you need to lose yourself (and your money) for several hours of mind-numbing fun is here and awaiting your coinage.
+
+    The Arcade sits atop a 3x3 4-way Pier Set lot so it can be used as a central hub of an extended pier complex. For the more traditional straight pier, the sides can be used as short "wings" of the pier by using the 1x End or 1x Boat Dock pier sections.
+
+    The lot is extensive nite-lited and uses several, timed custom props to make it appear more active. As a 100% water lot,  its functionality is of course limited and the lot is primarily eye-candy. Still, it does offer a notable amount of park and landmark  properties (similar to a large park) that can benefit nearby development. The closer to shore that the lot is plopped the greater that benefit will be.
+
+    \* All of the modular Pier Set lots are parks... affordably priced with reduced park & landmark effects to avoid blowing over demand caps They are located only in the Water Transportation menu, directly below the other OWW2 lots.
+
+    **\*\* This lot requires the following dependencies**
+
+    **PEG\-CDKM Marina  
+      PEG\-OWW2 Resource Pack 1  
+    PEG\-OWW2 PierSet Pier House.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19288-peg-oww2-pierset-arcade/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/128d221046cde59337022d58a6eee3bc-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0003/128d221046cde59337022d58a6eee3bc-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-pier-set-house
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierSet_Arcade.dat"

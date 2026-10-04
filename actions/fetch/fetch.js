@@ -5,7 +5,10 @@ import { parse } from 'yaml';
 import handleUpload from './handle-upload.js';
 import Permissions from './permissions.js';
 import { urlToFileId } from './util.js';
-import { SimtropolisError } from './errors.js';
+import {
+	SimtropolisError,
+	SimtropolisOfflineError,
+} from './errors.js';
 
 // # fetch(opts)
 // Main entrypoint for fetching the latest plugins released from the STEX.
@@ -62,6 +65,15 @@ export default async function fetchPackage(opts) {
 	// frame, it will return 404! We have to handle this appropriately!
 	let nextLastRun = new Date().toISOString();
 	let res = await fetch(url);
+
+	// If Simtropolis has redirected us to offline.simtropolis.com, we do 
+	// nothing, but we also don't log this as an error.
+	if (res.url.includes('offline.simtropolis.com')) {
+		throw new SimtropolisOfflineError();
+	}
+
+	// Continue processing. Anything with status 400+ should get logged as an 
+	// error.
 	if (res.status >= 400 && res.status !== 404) {
 		throw new SimtropolisError(res);
 	}

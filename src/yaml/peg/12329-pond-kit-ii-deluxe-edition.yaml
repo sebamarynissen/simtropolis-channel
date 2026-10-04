@@ -1,6 +1,6 @@
 group: peg
 name: pond-kit-ii-deluxe-edition
-version: "1.1"
+version: "1.2"
 subfolder: 660-parks
 info:
   summary: Pond Kit II Deluxe Edition v206
@@ -29,11 +29,36 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
-assets:
-  - assetId: peg-pond-kit-ii-deluxe-edition-v206
-
+dependencies:
+  - peg:pond-kit-base-set-props
+variants:
+  - variant: { peg:pond-kit-ii-deluxe-edition:base: transparent }
+    assets:
+      - assetId: peg-pond-kit-ii-deluxe-edition-v206
+        include:
+        - "/z_PEG_Ponds_Transparent_206.dat"
+        - "/z_PEG_Pond-WF_Medium_Transparent_206.dat"
+        - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
+        - "/PEG_Ponds_STYLE1_206.dat"
+  - variant: { peg:pond-kit-ii-deluxe-edition:base: normal }
+    assets:
+      - assetId: peg-pond-kit-ii-deluxe-edition-v206
+        include:
+        - "/PEG_Ponds_206.dat"
+        - "/PEG_Pond-WF_Medium_206.dat"
+        - "/PEG_Ponds_3x2_Pond-Water_El-Extender_4fbd2b13.SC4Lot"
+        - "/PEG_Ponds_STYLE1_206.dat"
+variantInfo:
+- variantId: "peg:pond-kit-ii-deluxe-edition:base"
+  description: Choose between sets with or without a transparent base
+  values:
+  - value: "transparent"
+    description: The textures are transparent. Ideal for users of terrain mods
+    default: true
+  - value: "normal"
+    description: The lots have a base texture. 
 ---
 assetId: peg-pond-kit-ii-deluxe-edition-v206
-version: "1.1"
-lastModified: "2025-01-22T23:27:28Z"
-url: https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/?do=download&r=205432
+version: "1.2"
+lastModified: "2026-05-29T00:11:29Z"
+url: https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/?do=download

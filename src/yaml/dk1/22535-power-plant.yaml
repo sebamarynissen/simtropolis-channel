@@ -1,7 +1,29 @@
 group: dk1
+name: power-plant-resouces
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Power Plant Props
+  description: |-
+    Power Plant Props by DK1
+  author: dk1
+  website: https://community.simtropolis.com/files/file/22535-dk1-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/98be499dd890e1475e06d2d23bc3455b-3x3PowerD.JPG
+    - https://www.simtropolis.com/objects/screens/0017/98be499dd890e1475e06d2d23bc3455b-3x3PowerN.JPG
+assets:
+  - assetId: dk1-power-plant
+    include:
+    - "/PowerPlant2-0x5ad0e817_0x73156766_0x5780000.SC4Model"
+    - "/substation2-0x5ad0e817_0x73156766_0x5750000.SC4Model"
+
+---
+group: dk1
 name: power-plant
 version: "1.0"
 subfolder: 500-utilities
+dependencies:
+  - "dk1:power-plant-resouces"
 info:
   summary: Power Plant
   description: |-
@@ -13,7 +35,11 @@ info:
     - https://www.simtropolis.com/objects/screens/0017/98be499dd890e1475e06d2d23bc3455b-3x3PowerN.JPG
 assets:
   - assetId: dk1-power-plant
-
+    include:
+    - "/Up1x1_Substation_f76f8eec.SC4Lot"
+    - "/Up3x2_PowerPlant2_7771732f.SC4Lot"
+    - "/Up3x3_PowerPlant2_7771746e.SC4Lot"
+    
 ---
 assetId: dk1-power-plant
 version: "1.0"

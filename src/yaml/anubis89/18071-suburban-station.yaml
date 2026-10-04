@@ -1,0 +1,37 @@
+group: anubis89
+name: suburban-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Suburban Train Station
+  description: |-
+    I thinks there is a lack of smaller, normal looking suburban stations, which I use more than those big ones anyway. That's why I made this one.
+
+    Lot size: 3x4
+
+    Capacity: 2000 (like the ingame one)
+
+    Monthly Costs: 10 §
+
+    Plop Costs: 150 §
+
+    **One Dependency:**
+
+    [https://www.simtropolis.com/STEX/index.cfm?id=14973](../../stex/index.cfm?id=14973)
+
+    Hope you like it!
+  author: anubis89
+  website: https://community.simtropolis.com/files/file/18071-suburbanstation/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1b5866b2351113b282c62fe940eecb5b-Bahnhof.JPG
+    - https://www.simtropolis.com/objects/screens/0004/1b5866b2351113b282c62fe940eecb5b-Bahnhof2.JPG
+dependencies:
+  - bsc:mega-props-dae-vol01
+assets:
+  - assetId: anubis89-suburbanstation
+
+---
+assetId: anubis89-suburbanstation
+version: "1.0"
+lastModified: "2007-05-02T07:47:47Z"
+url: https://community.simtropolis.com/files/file/18071-suburbanstation/?do=download&r=41795

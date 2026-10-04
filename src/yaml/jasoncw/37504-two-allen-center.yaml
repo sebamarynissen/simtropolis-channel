@@ -1,0 +1,65 @@
+group: jasoncw
+name: two-allen-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Two Allen Center
+  description: |-
+    Two Allen Center is an office tower located in Houston, USA.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 12 version for people who do.
+
+    -   6x3 growable CO§§ lot for the Euro tileset.
+    -   MaxisNite and DarkNite versions included. DarkNite requires the [Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/). 
+    -   "Metadata.yaml" is included for use by [sc4pac](https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/), and does not need to go into your plugins folder.
+    -   CAM version included.
+
+    Installation Instructions:
+
+    -   Download either the DarkNite (DN) or MaxisNite (MN) version. If you're unsure, choose the MN version.
+    -   Unzip the .zip and move its contents to Documents/SimCity4/Plugins.
+    -   If you use the CAM, replace the growable with the CAM version.
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/37504-two-allen-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a597ebde0fc0_TwoAllenCenter00.jpg.b6dd01c41705d23a27b13f8b9d542351.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a597ec3aa8e9_TwoAllenCenter01.jpg.700e3beed3f8a19697981a0dab7b8f99.jpg
+variants:
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: jasoncw-two-allen-center-maxisnite
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: jasoncw-two-allen-center-maxisnite
+        exclude:
+          - /Jasoncw - Two Allen Center \(MN\)\/Jasoncw - Two Allen Center \(CO\$\$8_6x3\)\.SC4Lot$
+      - assetId: jasoncw-two-allen-center-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-two-allen-center-darknite
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-two-allen-center-darknite
+        exclude:
+          - /Jasoncw - Two Allen Center \(DN\)\/Jasoncw - Two Allen Center \(CO\$\$8_6x3\)\.SC4Lot$
+      - assetId: jasoncw-two-allen-center-cam
+
+---
+assetId: jasoncw-two-allen-center-maxisnite
+version: "1.0.0"
+lastModified: "2026-07-17T01:02:34Z"
+url: https://community.simtropolis.com/files/file/37504-two-allen-center/?do=download&r=220137
+
+---
+assetId: jasoncw-two-allen-center-darknite
+version: "1.0.0"
+lastModified: "2026-07-17T01:02:34Z"
+url: https://community.simtropolis.com/files/file/37504-two-allen-center/?do=download&r=220138
+
+---
+assetId: jasoncw-two-allen-center-cam
+version: "1.0.0"
+lastModified: "2026-07-17T01:02:34Z"
+url: https://community.simtropolis.com/files/file/37504-two-allen-center/?do=download&r=220139

@@ -1,6 +1,6 @@
 group: airman15
 name: kamov-ka-50
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Kamov KA-50
@@ -26,12 +26,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_05_2014/d0088beca034038420d5552e246603c7-ka50-2.png
     - https://www.simtropolis.com/objects/screens/monthly_05_2014/b46a92826e9cb99a6f397a7fd400d578-ka50-3.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-kamov-ka-50
       include:
       - "/.*_HW.dat"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-kamov-ka-50
       include:

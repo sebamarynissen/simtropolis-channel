@@ -9,6 +9,7 @@ assets:
     sha256: 6387214C603191A849473945975AFBC70AFC63F3A2B294A7504D65E22A48DC33
   - include: "/SC4CityDateSync.ini"
     sha256: 618D516E2D8866C0FC6D17E80C4CB0CFCB7DCD73273F3A2D5B8EC280F03CF286
+    isIni: true
 
 info:
   summary: "A DLL Plugin for SimCity 4 that synchronizes the city dates in a region."
@@ -40,13 +41,6 @@ info:
     Plugin thread: https://community.simtropolis.com/forums/topic/762766-sc4citydatesync-synchronize-the-city-dates-in-a-region/
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-city-date-sync
-    
-  warning: |-
-    This DLL plugin comes with one INI configuration file:
-
-    * `SC4CityDateSync.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/35782-sc4-city-date-sync/"
   images:

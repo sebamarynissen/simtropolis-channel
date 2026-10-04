@@ -1,0 +1,44 @@
+group: mikeseith
+name: yellow-cabs
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Yellow Cabs
+  description: |-
+    2 sets of cabs. 1 set to replace the game default cabs and 1 set of additional taxis. All are of ford crown victorias, except 1 taxi is a windstar van. Now all of the cabs in your city can be that familiar yellow color. Unfortunatly until I can figure out how to import new 3d models into the game I won't be able to make any of those London cabs.
+
+    the taxis to replace the default are named:
+
+    taxi yellow crown vic a
+
+    taxi yellow crown vic b
+
+    taxi yellow crown vic c
+
+    the extra instance taxis are named:
+
+    taxi extra crown vic a
+
+    taxi extra crown vic b
+
+    taxi extra crown vic c
+
+    taxi extra crown vic d
+
+    taxi van
+
+    as always place the files you want in the plugins folder
+
+    coming soon to a city near you...Checker cabs
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/3624-yellow-cabs/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/67ec667131c6f05f8c1f44a303d6dbea-taxis a.JPG
+assets:
+  - assetId: mikeseith-yellow-cabs
+
+---
+assetId: mikeseith-yellow-cabs
+version: "1.0"
+lastModified: "2004-06-17T22:19:13Z"
+url: https://community.simtropolis.com/files/file/3624-yellow-cabs/?do=download&r=27819

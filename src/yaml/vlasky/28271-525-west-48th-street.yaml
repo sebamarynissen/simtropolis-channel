@@ -1,6 +1,6 @@
 group: vlasky
 name: 525-west-48th-street
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: NYBT 525 West 48th Street
@@ -39,53 +39,53 @@ dependencies:
   - nybt:essentials
 
 variants:
-- variant: { nightmode: standard, IRM: "no", toroca:industry-quadrupler:capacity: "standard" }
+- variant: { nightmode: standard, vlasky:525-west-48th-street:irm: "no", toroca:industry-quadrupler:capacity: "standard" }
   assets:
     - assetId: vlasky-nybt-525-west-48th-street-maxisnite
       include:
         - "/MaxisNite/"
         - "/Regular_Zoning/Regular lot/"
-- variant: { nightmode: standard, IRM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+- variant: { nightmode: standard, vlasky:525-west-48th-street:irm: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
   assets:
     - assetId: vlasky-nybt-525-west-48th-street-maxisnite
       include:
         - "/MaxisNite/"
         - "/Regular_Zoning/Qua?druple lot/"
-- variant: { nightmode: dark, IRM: "no", toroca:industry-quadrupler:capacity: "standard" }
+- variant: { nightmode: dark, vlasky:525-west-48th-street:irm: "no", toroca:industry-quadrupler:capacity: "standard" }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
     - assetId: vlasky-nybt-525-west-48th-street-darknite
       include:
         - "/DarkNite/"
         - "/Regular_Zoning/Regular lot/"
-- variant: { nightmode: dark, IRM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+- variant: { nightmode: dark, vlasky:525-west-48th-street:irm: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
     - assetId: vlasky-nybt-525-west-48th-street-darknite
       include:
         - "/DarkNite/"
         - "/Regular_Zoning/Qua?druple lot/"
-# IRM = yes
-- variant: { nightmode: standard, IRM: "yes", toroca:industry-quadrupler:capacity: "standard" }
+# vlasky:525-west-48th-street:irm = yes
+- variant: { nightmode: standard, vlasky:525-west-48th-street:irm: "yes", toroca:industry-quadrupler:capacity: "standard" }
   assets:
     - assetId: vlasky-nybt-525-west-48th-street-maxisnite
       include:
         - "/MaxisNite/"
         - "/Industrial Revolution Mod_Zoning/Regular lot/"
-- variant: { nightmode: standard, IRM: "yes", toroca:industry-quadrupler:capacity: "quadrupled" }
+- variant: { nightmode: standard, vlasky:525-west-48th-street:irm: "yes", toroca:industry-quadrupler:capacity: "quadrupled" }
   assets:
   - assetId: vlasky-nybt-525-west-48th-street-maxisnite
     include:
       - "/MaxisNite/"
       - "/Industrial Revolution Mod_Zoning/Qua?druple lot/"
-- variant: { nightmode: dark, IRM: "yes", toroca:industry-quadrupler:capacity: "standard" }
+- variant: { nightmode: dark, vlasky:525-west-48th-street:irm: "yes", toroca:industry-quadrupler:capacity: "standard" }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
     - assetId: vlasky-nybt-525-west-48th-street-darknite
       include:
         - "/DarkNite/"
         - "/Industrial Revolution Mod_Zoning/Regular lot/"
-- variant: { nightmode: dark, IRM: "yes", toroca:industry-quadrupler:capacity: "quadrupled" }
+- variant: { nightmode: dark, vlasky:525-west-48th-street:irm: "yes", toroca:industry-quadrupler:capacity: "quadrupled" }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
     - assetId: vlasky-nybt-525-west-48th-street-darknite

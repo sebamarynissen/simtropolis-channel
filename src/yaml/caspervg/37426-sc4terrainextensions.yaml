@@ -1,0 +1,60 @@
+group: "caspervg"
+name: "sc4-terrain-extension-dll"
+version: "0.1.0"
+subfolder: "150-mods"
+dependencies:
+  - "config:sc4-edition-windows-digital"
+  - "caspervg:sc4-render-services-dll"
+assets:
+- assetId: "caspervg-sc4-terrain-extension"
+  withChecksum:
+   - include: /SC4TerrainExtensions-0.1.0-Setup.exe
+     sha256: 519FB026D2981D8A39117450D327196DB412D498DBA5923B2E6433552644DB4B
+
+info:
+  summary: " DLL plugin for SimCity 4 that adds in-game terrain editing and visualization tools."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+     SC4 Terrain Extensions is a DLL plugin for SimCity 4 that adds in-game terrain editing and visualization tools. It lets you flatten terrain, create constant-grade paths, build bridge approaches, preview terrain changes, save and restore terrain snapshots (experimental), and display contour and slope overlays while working in a city.
+
+     The plugin is aimed at players who do detailed terrain prep for roads, rails, bridges, canals, waterfronts, slopes, sunken networks, and city-detailing scenes. It is especially useful for diagonal work: the flatten tool includes a line-mask mode for diagonal cuts and ramps, while the constant-grade tool can create straight sloped paths between two dragged points. 
+ 
+     Main features
+     
+     * In-game terrain menu buttons for Flatten, Constant Grade, and Bridge Approach tools
+     * Interactive drag-based terrain editing with live previews
+     * Diagonal and fractional flattening using line-mask mode
+     * Constant-grade paths for smooth ramps, roads, rails, canals, and terrain cuts
+     * Rectangle flattening for more precise terrain leveling
+     * Flatten modes for reference average, delta, explicit height, selected-area average, minimum, and maximum
+     * Bridge Approach tool for grading one or both ends of a bridge span, with adjustable bridge height, maximum grade, approach side, and approach width
+     * Terrain snapshot panel opened with the terrainsnap cheat (experimental). Allows to save, preview, restore, delete, and region-restore terrain snapshots
+     * Contour overlay with configurable interval, opacity, thickness, and major-line behavior
+     * Slope heatmap overlay with configurable slope mode, opacity, minimum grade, and color thresholds 
+     
+  warning: |-
+    To complete the installation, you must run this executable file:
+
+    * `SC4TerrainExtensions-0.1.0-Setup.exe`
+
+    The installer is located in the following folder:
+
+    * `150-mods/caspervg.sc4-terrain-extension-dll.0.1.0.sc4pac` 
+    
+    Run the installer and follow the instructions provided.    
+
+    To complete the installation, copy these files from the package subfolder into the Apps folder of your Installation folder.
+  author: "CasperVg"
+  website: "https://community.simtropolis.com/files/file/37426-sc4terrainextensions-dll/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/ba5bc752-74d7-4894-9bda-1ef294ed7e4f.jpg.451b47e13fe01be2d13fb4904ebbd9d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/terrain-menu-icon-strip.png.af74a6e2cb849578ba36b2d1ab8b156d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/terrain-menu-icon-strip.png.d6cd1d4270d24eb04a5e82bff62759f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/terrain-menu-icon-strip.png.56bb3681195d9bd0944dd7c4fc714d07.png
+
+---
+assetId: "caspervg-sc4-terrain-extension"
+version: "0.1.0"
+lastModified: "2026-06-13T09:54:56Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37426-sc4terrainextensions-dll/?do=download"
+url: "https://github.com/caspervg/sc4-terrain-extensions/releases/download/v0.1.0/SC4TerrainExtensions-v0.1.0.zip"

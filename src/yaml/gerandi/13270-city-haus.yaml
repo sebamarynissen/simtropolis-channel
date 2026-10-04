@@ -1,0 +1,37 @@
+group: gerandi
+name: city-haus
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: City Haus
+  description: |-
+    # CityHaus
+
+    Landmark
+
+    plop costs: 0$
+
+    monthly costs: 250$
+
+    bulldoze costs: 5000$
+
+    Jobs: No
+
+    Sorry. No night lights!
+  author: gerAndi
+  website: https://community.simtropolis.com/files/file/13270-city-haus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/321de3a01bd003df9c8281013a990324-1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/321de3a01bd003df9c8281013a990324-2.jpg
+assets:
+  - assetId: gerandi-city-haus
+dependencies:
+  - bsc:mega-props-swi21-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - bsc:textures-vol01
+
+---
+assetId: gerandi-city-haus
+version: "1.0"
+lastModified: "2005-08-06T02:21:11Z"
+url: https://community.simtropolis.com/files/file/13270-city-haus/?do=download&r=34429

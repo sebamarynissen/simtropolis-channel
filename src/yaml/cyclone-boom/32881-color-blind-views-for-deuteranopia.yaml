@@ -1,0 +1,210 @@
+group: cyclone-boom
+name: color-blind-views-for-deuteranopia
+version: "2.0"
+subfolder: 150-mods
+info:
+  summary: Color Blind Views for Deuteranopia
+  description: |-
+    CoriBoom™ Productions 
+
+    [![CoriBoom_Productions_Logo.png](https://www.simtropolis.com/library/misc/CoriBoom_Productions_Logo.png)](https://community.simtropolis.com/tags/CoriBoom/)
+
+    *Proudly Presents...* 
+
+    Color Blind Views   
+    For Deuteranopia. 
+
+    **A set of mods to help people with Deuteranopia color blindness enjoy SC4 better.**
+
+    (Which might be useful for other people too.)
+
+    In our 3rd official *CoriBoom*™ release to the STEX, [@CorinaMarie](https://community.simtropolis.com/profile/737259-corinamarie/) and I are pleased to present a mod which transforms the game's UI elements, for greater optimal contrast for those who have Deuteranopia color blindness.
+
+    Understandably each person sees color slightly differently, and so these mods likely won't be useful for everyone.
+
+    However for those who do have Deuteranopia or similar forms of partial color blindness, the combined adjustments made here might be extremely beneficial. Hopefully allowing the game to be seen in a much clearer way, and really make it more enjoyable to play.
+
+    Through editing the game's data files, the idea is by modifying the color scales of key Data Views, a couple of Graphs, along with the Zones view. They are then more distinguishable from one another than the default schemes used. To simulate the appearance of how Deuteranopia compares, an open source [Color Oracle](https://colororacle.org/) program has been used to help develop suitable shades.
+
+    Like anything significantly different, the new colors might take a bit of getting used to. But after a while the difference they make intends to be one which improves the clarity of UI elements for representing city data.
+
+    **Background Info**
+
+    Since Deuteranopia is a color blindness resulting from insensitivity to green light, that means the full color spectrum translates to distinctly different colors of yellows, blues, and shades of gray.
+
+    From the modding side, greens and pinks were also included which become yellows and grays from a Deuteranopia perspective. These were included to have additional variations should anyone with trichromatic vision (not color blind) also wish to use these mods.
+
+    Starting with the Traffic Congestion, it was decided the most intense **yellow** would best represent the *highest* Traffic Volume. Then **blue** would be the mid-ranges, leaving **grays** and white as the least measured Volume.
+
+    Then for consistency, the other data views have been modded with **yellow** representing the negative end of the scale, such as High pollution or Low land value. Again, **blues** are the mid-range and **grays** to white represent the other end of the scale.
+
+    **Additional Data View Colors**
+
+    Where applicable, the color legends have been expanded to the maximum of 9 colors on 14 Data Views, with extra breakpoint values for more distinct differences represented.
+
+    This means more detail is viewable for each Data View, as evidenced from the Land Value comparison between the Maxis default and this custom modified version (see top pics). Here we can see how some city areas are defined as having a slightly lower Land Value, whereas the standard view is a uniform green.
+
+    As such, even trichromatic visioned people may find this useful. It could be a case of picking and choosing to install certain views as you wish. Then to benefit and see extra info represented by the expanded color scale.
+
+    Note: Some breakpoints are as discovered by [@Thalassicus](https://community.simtropolis.com/profile/2144-thalassicus/) from their [Dataviews Increased Detail Mod](https://community.simtropolis.com/files/file/21365-dataviews-increased-detail-mod-v10/). Colour Ramp and Legend Colours are new revised additions.
+
+    **Mods Included**
+
+    **14** Data Views
+
+    The following Data Views have all been altered for improved Deuteranopia contrast.
+
+    Included are:
+
+    -   Fire Hazard
+    -   Education
+    -   Desirability  (All 12 sub-views)
+    -   Water  (Coverage)
+    -   Traffic Congestion
+    -   Traffic Volume  (All 10 sub-views)
+    -   Zones
+    -   Land Value
+    -   Mayor Rating
+    -   Resident Average Age
+    -   Health
+    -   Air Pollution
+    -   Water Pollution
+    -   Garbage
+
+    Spoiler
+
+    ![01-Fire Hazard.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd14fcc3b04_01-FireHazard.jpg.e48edd01e20473a1803bedc10111d597.jpg)
+
+    ![02-Education.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/02-Education.jpg.47b30cbcb77d48d4cc937dcb3c3501e0.jpg)
+
+    ![03-Desirability.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/03-Desirability.jpg.c5e9dbae45767250be8eb913068da818.jpg)
+
+    ![04-Water.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/04-Water.jpg.256f7b7c462367a1cc6f40d47b98947a.jpg)
+
+    ![05-Traffic Congestion.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd150e640de_05-TrafficCongestion.jpg.61b04a230297a3e66c768b78eca5f01b.jpg)
+
+    ![06-Traffic Volume.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd151306dee_06-TrafficVolume.jpg.3acb19af3c5c4213bc9d0ebb56d5f3b1.jpg)
+
+    ![07-Zones.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/07-Zones.jpg.21d0c8558c25fc4e5d4ac8a0b72f8e7b.jpg)
+
+    ![08-Land Value.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd151b698a5_08-LandValue.jpg.b8c03449cff42204999090732d8031d6.jpg)
+
+    ![09-Mayor Rating.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd151fe2468_09-MayorRating.jpg.ccabdc7597e5d07850d710937b4f6b18.jpg)
+
+    ![10-Resident Avg Age.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd152419558_10-ResidentAvgAge.jpg.4623b8405a50ff68522cd45bab57eabf.jpg)
+
+    ![11-Health.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/11-Health.jpg.db8606df067181b4f996a9a1a8f6a1d0.jpg)
+
+    ![12-Air Pollution.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd152c46d86_12-AirPollution.jpg.15648c2a3c2a59bea7f97a6a4c13981c.jpg)
+
+    ![13-Water Pollution.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd1530331a0_13-WaterPollution.jpg.889cd7dc2311110a6cc0d2a6eb3bc037.jpg)
+
+    ![14-Garbage.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/14-Garbage.jpg.96b5f43a1afd43b1e38e00753355fdf3.jpg)
+
+    For example, High pollution will max out as bright **yellow**. Then at the lower end of the scale, Low pollution is seen as pure white. The same applies to the other Data Views too, such as where old Age is a positive representation of the longer lifespan of Sims, and hence is also white since it's a good thing.
+
+    Note that the **Fire Hazard** view needs to run for several months in order to fully update.
+
+    The **Traffic Volume** view features a generic scale for the percentages, and removing the actual network capacities as determined by individual NAM traffic simulator configurations.
+
+    For the **Zones** view, this has been edited to make the legend scale correspond with the new colors of the Zone Manager (see details below). However, due to limitations with what can be modded, it's not possible to change the Data View preview map to match.
+
+    As this illustration explains:
+
+    ![15-Zones Legend.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd1536c1157_15-ZonesLegend.jpg.e33e0419d3b629def4f73b5e1889f6a1.jpg)
+
+    (On the left still shows the default colors, whereas on the right are the custom shades.)
+
+    **3** Graphs
+
+    -   Jobs & Population - Line Graph
+    -   Jobs & Population - Bar Graph  (Replaces *City Income/Expenses* Graph)
+    -   Traffic Volume - Bar Graph  (Replaces *Funds* Graph)
+
+    Spoiler
+
+    ![16-Jobs Pop Line.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd153b4d19f_16-JobsPopLine.jpg.53ab6a36471c248d35e30d7728b4c71a.jpg)
+
+    ![17-Jobs Pop Bar.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd153fca27a_17-JobsPopBar.jpg.2f4c858e8da7ed08a86214f71bc1b2a7.jpg)
+
+    ![18-Traffic Vol Bar.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd15441f255_18-TrafficVolBar.jpg.9b83de15c9c6917c4404204b688e8bcd.jpg)
+
+    ![19-Traffic Vol Line.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd1548ab260_19-TrafficVolLine.jpg.ac4170cf88725d0948e90701112d6b8f.jpg)
+
+    The first Graph is a replacement with the colors. Then as a bonus, 2 bar graphs are included which replace a couple of the less useful Graphs. These bar graphs aren't colored, but give a new perspective into the data. The UI labels and Graph titles have been renamed accordingly.
+
+    A useful tip to see the line graph more clearly is to uncheck those data points which might not be needed. For example to see Residential jobs, it can be worth toggling off the other developer types per wealth (commercial and industrial).
+
+    Note: Due to the unfamiliar colors and no extra added detail, those with trichromatic vision may not find the Jobs & Pop line graph useful. For this reason we recommend **not** installing the file named: **Deuteranopia Jobs & Pop Line Graph v2.0.dat**
+
+    On the "Traffic Volume" bar graph, abbreviations have been used due to space constraints.
+
+    Most are obvious, however:
+
+    -   **Truck** = Freight Trucks
+    -   **Train** = Freight Trains
+    -   **Rail Sims** = Passenger Trains
+
+    Zone Manager
+
+    The contrast between the Density types has been vastly improved in the **Zone Manager**, including the addition of a darker shade for the zone underlay textures, meaning there's greatly reduced ground texture showing through. As a result, each of the densities can be more easily distinguished, especially from a distance in the wider zoom levels.
+
+    As follows:
+
+    ![20-Zone Manager.jpg](https://www.simtropolis.com/objects/attachments/monthly_2019_04/5cbd154c2f4c4_20-ZoneManager.jpg.c0b507a923bb3f0751f12041824a2bc2.jpg)
+
+    Pictured for each RCI zone type and density (Low, Medium, High).
+
+    Note: The Zone parcels may initially appear as the default shades. This is seemingly because they get stored in the saved city file and it the regular shades as shown. When zoning new areas, the custom Deuteranopia colors will be used, so this just affects those already in place without anything built on them.
+
+    A quick way to fix these is by toggling the **Zones** Data View to refresh the display per city tile. Then it can be switched back over to "All Off" again, and upon saving the tile (Ctrl+S) it'll remember this on subsequent reloads. The same will need to be done for other tiles in a region.
+
+    Likewise for the line graphs, those who aren't color blind may not find the Zone Manager alterations nor the Zones Data View useful.
+
+    **Installation**
+
+    *This mod uses the standard process of installing SC4 content.*
+
+    Copy the entire **z\_Deuteranopia** folder into the root of your Plugins.
+
+    Should you not wish to use the complete package of mods contained within, individual files can be removed from your Plugins on an as needed basis. Each are stand-alone in working independently, so pick and choose to your preference.
+
+    The folder is prefixed with a "z\_" to ensure it loads last after the "Network Addon Mod" folder, or any mod which alters the Data Views or Graphs. This is important otherwise the modified Deuteranopia friendly versions wouldn't be seen.
+
+    If you use the NAM and have a "z\_\_\_NAM" folder, this doesn't need to be overridden.
+
+    **Optional Extra**
+
+    This isn't a dependency, and everything is all inclusive in the download package. But to complement this and modify the **Region Transport View**, you may wish to also install this file:
+
+    [Transportation Map Modd For Color Blind](https://community.simtropolis.com/files/file/18753-transportation-map-modd-for-color-blind/) by [@BannanaPeppers](https://community.simtropolis.com/profile/181585-bannanapeppers/)
+
+    If you've previously installed or are currently using this, it now contains an updated **v2.3** fix which corrects the Mono Rail to match the legend key as being blue instead of green.
+
+    Note: It's important to save each city (Ctrl+S) for the new colors to be updated. This is because they're stored in the snapshot thumbnail preview per tile, and these only get updated when doing so.
+
+    **Big Thanks**
+
+    This project was first inspired by [@Noobville Mayor](https://community.simtropolis.com/profile/774855-noobville-mayor/) in their thread [here](https://community.simtropolis.com/forums/topic/758070-wheres-my-water-and-other-stupid-questions/). Without NM's help by testing the versions and providing valuable feedback throughout, this simply wouldn't have come to fruition.
+
+    Thanks for all your input. ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:)")
+
+    Hopefully this mod can be of benefit to people.
+
+    // CoriBoom™ Productions Release //  
+    **Color Blind Views for Deuteranopia v2.0** — (24 Apr 2019)
+  author: Cyclone Boom
+  website: https://community.simtropolis.com/files/file/32881-color-blind-views-for-deuteranopia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/5cc0d7a2000f5_01-CBV-DeuteranopiaLogo.png.fc51887b659ff09b11b686e79777c2cc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/5cc0d7a6e8b42_02-DataViewSampleMontage.jpg.f01bfe7a2290ed04955c335e88f8b096.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/5cc0d7aad152d_03-LandValue-MaxisColors.jpg.564c14c8662ac17ed169dc8fae268b51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/5cc0d7af4bc04_04-LandValue-DeutColors.jpg.5011bd2415c15e122269d4d3b25e3a00.jpg
+assets:
+  - assetId: cyclone-boom-color-blind-views-for-deuteranopia
+
+---
+assetId: cyclone-boom-color-blind-views-for-deuteranopia
+version: "2.0"
+lastModified: "2019-04-24T21:42:32Z"
+url: https://community.simtropolis.com/files/file/32881-color-blind-views-for-deuteranopia/?do=download&r=175649

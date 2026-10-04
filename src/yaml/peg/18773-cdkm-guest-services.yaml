@@ -1,0 +1,39 @@
+group: peg
+name: cdkm-guest-services
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: The formal right-end to the Marina complex. This lot visually doses off the boardwalk and parking areas.
+  description: |-
+    Most popular marinas have some form of Guest Services to accommodate visitors who arrive by boat. Beyond the necessary Guest Dock, the better marinas provide a myriad of services such as arranging for boat repairs and maintenance, providing short & long term berths, making local hotel & restaurant reservations and offering information about local landmarks and attractions.
+
+    The lot is a CDKM Marina modular lot that aligns with the the boardwalks and parking areas of other CDKM lots. The lot will also be compatible with the new CDK Seaport Village & CDK\-OWW collections.
+
+    The most important function of this lot is to serve as the formal right-end to the Marina complex. The lot visually closes off the boardwalk and parking areas.  
+      
+    The lot uses timed, shuffling props to simulate boats tying up to the Guest Dock. During the day, two featured boats willappear and disappear next to the dock.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+    **\*\* This lot requires the following dependencies**
+
+    -   [PEG CDKM Marina](https://community.simtropolis.com/files/file/18747-peg-cdkm-marina/)
+    -   [PEG CDK3 SUPER PAK](https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/)  (Previously: PEG\-CDK3 REC Boats Pack 1 which is now in the Super Pak)
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **\-Cori Edit:** Made dep linkys clickable.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18773-peg-cdkm-guest-services/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0861b5accfc764dfaf429b0b4ac45a6b-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0861b5accfc764dfaf429b0b4ac45a6b-product_image1.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:cdkm-marina
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_GuestServices.dat"
+

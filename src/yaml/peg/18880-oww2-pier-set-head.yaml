@@ -1,0 +1,32 @@
+group: peg
+name: oww2-pier-set-head
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Use the Pier Head to connect piers to your larger OWW2 system.
+  description: |-
+    This OWW2 "specialty lot" allows you to connect your OWW seawalls to the OWW PierSet modular pier building kit. In most properties, this lot is similar to the OWW2 Parking Lot lot... complete with the transit enabled driveway entrance.
+
+    The lot is 1 tile wide by 3 tiles deep. It connects visually to other OWW2 lots at both the front & rear of the lot with seamless transitions into the front seawall/boardwalk and the rear parking area.
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     PEG\-OWW2 Resource Pack 1
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18880-peg-oww2-pier-head/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b7a338b150ca9eb834d49da937aae63f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b7a338b150ca9eb834d49da937aae63f-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2_PierHead.dat"

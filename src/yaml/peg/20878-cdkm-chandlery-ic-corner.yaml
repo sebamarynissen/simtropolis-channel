@@ -1,0 +1,31 @@
+group: peg
+name: cdkm-chandlery-ic-corner
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Use to visually wrap the lower floating docks around corners, extending your Marina in new directions.
+  description: |-
+    And now... for the  **CDKM Marina**  series... we offer a turn for the better. Or, at least... a turn around corners.  
+      
+    The Chandlery is a 4x4 inner corner lot for your Marinas. The lot allows you to visually wrap the lower floating docks around corners and extend your Marina in new directions.  
+      
+    For those who do not know what a Chadlery is, it is pretty much like an auto parts store... for boats. Think Pep Boys... Manny, Moe and Ahab. Historically, dating back to the 1800s, chandleries  provided very basic supplies to ship owners with a large emphasis on lighting for the ship in the form of candles and whale oil. Overtime, chandleries have expanded to include all types of parts, accessories and supplies for both commercial and recreational boats. From electronic fish finders to life preservers... to toilet chemicals... if you can use it on a boat, a good chandlery will have it. Many modern chandleries have evolved into large boating convenience stores that also sell ice, groceries, bait & tackle... and almost anything a recreational boater may need before setting sail.  
+      
+    Our Chandlery  lot is a 4x4 RCI ploppable CS$$ lot that provides jobs and income from taxes. The boardwalk, lower floating docks, and parking areas all align with the other lots in the Marina series. The building in nite lited and has a custom query and sound effects.
+
+    **\*\* This lot requires the  PEG\-CDKM Marina**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20878-peg-cdkm-chandlery-ic-corner/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ea7c9f65210f8106791d5ceee6002874-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0026/ea7c9f65210f8106791d5ceee6002874-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_IC_Chandlery.dat"
+

@@ -1,0 +1,64 @@
+group: sg
+name: public-pools-pack
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Public Pools Pack
+  description: |-
+    A set of three public pools, to help develop the neighborhoods of your cities. All three have duplicate settings, and are open in day, closed at night. These also will count toward a soon to be released reward lot, so be sure to place a few in your cities now!
+
+    ### Lot Details and Information
+
+    |     |     |
+    | --- | --- |
+    | Lot Size: | 3 x 4,  4 x 4,  5 x 4 tiles |
+    | Lot Wealth: | Medium Wealth |
+    | Jobs: | Civic $: 12,  $$: 5 |
+    | Plop Cost: | $5,000 |
+    | Bulldoze Cost: | $600 |
+    | Monthly Cost: | $25 |
+    | Park effect: | 20 over 30 tiles |
+    | Landmark effect: | 10 over 40 tiles |
+    | Mayor Rating Effect: | None |
+    | Cap Relief: | R$: 500,  R$$: 500,  R$$$: 500 |
+    | Max. Fire Stage: | 0   |
+    | Flammability: | 0 of 256 |
+    | Occupancy Groups: | BTE: Parks, SimGoober Creation, SG Swimming Pools, Building: Park |
+    | Power Consumption: | 0 MWh/month |
+    | Water Consumption: | 5 Gallons/month |
+    | Air Pollution: | \-5 over 5 tiles |
+    | Water Pollution: | \-5 over 5 tiles |
+    | Garbage Pollution: | 0 over 0 tiles |
+
+    ### Disclaimer
+
+    The usage of this download is on your own risk. I try to test my lots extensively, so they should work properly, but errors may still exist. Feel free to modify the lots for yourself and show them in your City Journals, but please don't distribute them without asking first.
+
+    ### Credits
+
+    Thanks to the BSC Team for their ongoing support.
+
+    ### Feedback and Support
+
+    Please see my [Building Thread](https://community.simtropolis.com/forums/topic/1001-bat-projects-simgoober/) on Simtropolis for any feedback or support issues. I will attempt to answer them to the best of my knowledge, and as quickly as possible.
+
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/14522-public-pools-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e4e5980159dd7186d3387f8f717d9e9-SG_Pools_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e4e5980159dd7186d3387f8f717d9e9-SG_Pools_Nite.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: sg-public-pools-pack
+
+---
+assetId: sg-public-pools-pack
+version: "1.0"
+lastModified: "2005-12-30T20:55:38Z"
+url: https://community.simtropolis.com/files/file/14522-public-pools-pack/?do=download&r=36323
+archiveType:
+  format: Clickteam
+  version: "40"

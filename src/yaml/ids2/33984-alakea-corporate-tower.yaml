@@ -23,8 +23,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_12/day.jpg.e85a0db7ece167ee06ffec843ecd1bc3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_12/night.jpg.b2de4f23d413dd9707586942be6c4a1e.jpg
 dependencies:
-  - girafe:canary-date-palms
   - bsc:texturepack-cycledogg-vol01
+  - girafe:canary-date-palms
 variants:
   - variant: { nightmode: standard }
     assets:

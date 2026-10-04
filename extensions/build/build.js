@@ -1,4 +1,9 @@
 // # build.js
+// Usage: `npm run build:extensions`
+// Builds the Chrome + Firefox addons to dist\extensions. To test:
+//   - Chrome: open "chrome://extensions", enable Developer mode, choose Load unpacked, and select `dist/extensions/chrome`.
+//   - Firefox: open "about:debugging#/runtime/this-firefox", choose Load Temporary Add-on, and select `dist/extensions/firefox/manifest.json`.
+// The STEX button script is included in both browser add-ons.
 import path from 'node:path';
 import fs from 'node:fs';
 import cp from 'node:child_process';
@@ -13,6 +18,7 @@ const outDir = path.resolve(import.meta.dirname, '../../dist/extensions');
 const files = [
 	'background.js',
 	'copy.js',
+	'stex.js',
 ];
 const config = {
 	chrome: {
@@ -68,15 +74,6 @@ for (let [browser, options] of Object.entries(config)) {
 	}
 
 }
-
-// Now that the STEX script is live, we have to build it separately.
-await esbuild.build({
-	entryPoints: ['stex.js'],
-	absWorkingDir: srcDir,
-	bundle: true,
-	outfile: path.join(outDir, 'scripts/stex.js'),
-	minify: true,
-});
 
 // Pack up as .zip.
 for (let browser of Object.keys(config)) {

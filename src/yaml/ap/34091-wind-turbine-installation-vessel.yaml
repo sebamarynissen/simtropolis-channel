@@ -1,0 +1,89 @@
+group: ap
+name: wind-turbine-installation-vessel
+version: "1.3"
+subfolder: 400-industrial
+info:
+  summary: A_1P Wind Turbine Installation Vessel
+  description: |-
+    ![WIV_Preview11.jpg.afe6fdf7d1575551669e534d800012d6.jpg](https://www.simtropolis.com/objects/attachments/monthly_2021_02/WIV_Preview11.jpg.afe6fdf7d1575551669e534d800012d6.jpg)
+
+    This is a wind turbine installation vessel (WIV) used for heavy lift offshore operations such as wind turbine constructions. It has six giant jack mechanics that can lower the jacks to the seabed and lift the vessel out of the water to conduct lifting operations without movement. Therefor these ships are also called jack-up vessel (JUV). The vessel is equipped with several auxiliary cranes and one big 1,200t crane.
+
+    ![pacific-osprey-offshore-wind-vessel-cred](https://renews.biz/media/15666/pacific-osprey-offshore-wind-vessel-credit-swire-blue-ocean.jpg?mode=crop&width=770&heightratio=0.6103896103896103896103896104&slimmage=true)
+
+    (source: [https://renews.biz/54240/swire-lands-hollandse-kust-turbine-bounty/](https://renews.biz/54240/swire-lands-hollandse-kust-turbine-bounty/))
+
+    **Usage in SC4**  
+    Due to the size and complexity if this model I could not export it as one building. The bow is the main building and the deck, jacks and other details are props.  
+    **CONS**: This means the props adapt to the elevation of the area they are plopped on and therefor sink to the ocean seabed when plopped on water. I was not able to fix this issue so unfortunately you will have to create a little island 2x7 and plop the vessel on it, afterwards you can lower the edges a little, so the ship appears to be fully in water. Save the game before in case you demolish it or mess it up, you can easily reload.  
+    **PROS**: On the other hand this means you are free to reassemble the lot as you desire and put other components or tools on deck to conduct offshore operations 😉
+
+    **Content**  
+    This File contains several props and 3 lots:  
+    • A\_1P\_WindTurbineInstallationVessel  
+    • A\_1P\_TransitionPiece  
+    • A\_1P\_MonoPile
+
+    **Dependencies**  
+    • [A\_1P WindIndustry Port Pack-1.1](https://community.simtropolis.com/files/file/34036-a_1p-wind-industry-port-pack-11/)  
+    • [A\_1P\_120\_SimWorkers\_1.1](https://community.simtropolis.com/files/file/34123-a_1p-simworkers_1/) (New fot WIV update 1.3)  
+    • [A\_1P SimWorkers\_3](https://community.simtropolis.com/files/file/34135-a_1p-simworkers_3/) (New fot WIV update 1.3)  
+    • Recommended: [SM2 Mega Prop Pack Vol1](https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/)
+
+    A water ploppable lot with an installed monopile and transition piece are also included in the package to bring a few more construction phases to your  
+    windfarm project. These two components make the foundation of a wind turbine (there are others as well like tripod-jacks, etc...) and are usually installed in a campaign run before the turbine installation phase.
+
+    ![WIV_Preview_TP.png.b2af64600420c7f72bdbf440688f3ba6.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/WIV_Preview_TP.png.b2af64600420c7f72bdbf440688f3ba6.png)![WIV_Preview_MP.png.87d889dd3eb62a4edbf438fca40b183d.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/WIV_Preview_MP.png.87d889dd3eb62a4edbf438fca40b183d.png)
+
+    **Details and Comments**  
+    This section is addressed to people with nautical and technical interest and holds no important  
+    information about the usage or functionality of the pack.
+
+    ![WIV_Preview10.jpg.c2ce383c2098bc853012a324a3f2428e.jpg](https://www.simtropolis.com/objects/attachments/monthly_2021_02/WIV_Preview10.jpg.c2ce383c2098bc853012a324a3f2428e.jpg)
+
+    **Work Lighting**  
+    Since the main deck and all the structures are individual props the work lighting could not be  
+    rendered on deck and it does not look too good. Apologies for that…  
+    **Navigation Lighting and Signals**  
+    I lit up the navigation lighting (Stbd, Port and top lantern) which would normally be lit up while being  
+    under ways and switched off when being stationary (jacked up) or docked in port. At the same time,  
+    I displayed three balls at hoist in the signal mast, which means the vessel is aground and not moving  
+    (like digging work vessels or jack up vessels). Aviation lights on the helo-deck and warning beacons  
+    on the jacks and crane boom top are in place. (this is lighting scenario is a bit contrary)  
+    Finally, I tried to light up the deck with working lights as much as possible, which would also be  
+    turned off while under ways. So there is not too much realism here, I just wanted to play around a  
+    bit and add some details. (more info on that can be found [here](https://en.wikipedia.org/wiki/Day_shapes)) The bridge however remains dark,  
+    as any proper bridge does at night 😉
+
+    ![WIV_Preview13.png.462600c828c2dfaae41a371d3faad362.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/WIV_Preview13.png.462600c828c2dfaae41a371d3faad362.png)
+
+    **Load-out**  
+    On deck you can see two rotor blade sets, two towers (consisting of base, mid and top section), two preassembled wind turbine nacelles and two hubs. These components are assembled on preinstalled transition pieces in the wind farm.  
+    Once completed the WIV either proceeds back to port to load components for the next turbines or receives them at sea by a supply barge.
+
+    ![WIV_Preview8.png.d4341a7d64d66fc65db152fdd118ec36.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/WIV_Preview8.png.d4341a7d64d66fc65db152fdd118ec36.png)
+
+    ![WIV_Preview5.png.7dfb566cd351cfb58f473bf39b014302.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/WIV_Preview5.png.7dfb566cd351cfb58f473bf39b014302.png)
+  author: AP
+  website: https://community.simtropolis.com/files/file/34091-a_1p-wind-turbine-installation-vessel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WIV_Preview6.png.946e733fa9f554174539c4be797797d0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WIV_Preview9.png.78c505c3ae4cbbd0f5fa590bfb6ed31c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WIV_Preview14.png.3766ee4ffec474c51198006ae56129f1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/WIV_Preview7_1.jpg.0c38680159e1cfb0f32897dc6c0890b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/WIV_preview_remake_2.png.39135ca16eb96dfe2f410a20a15ffe74.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/WIV_preview_remake_3.png.b681625fe922b6fd04e449833fdeeb86.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/WIV_preview_remake_1.png.80e4caceb4e7c24fe05dbd58cb6919f6.png
+dependencies:
+  - ap:simworkers-3-props
+  - ap:wind-industry-port-props
+  - ap:simworkers-1-props
+  - simmer2:mega-prop-pack-vol1
+assets:
+  - assetId: ap-wind-turbine-installation-vessel
+
+---
+assetId: ap-wind-turbine-installation-vessel
+version: "1.3"
+lastModified: "2021-06-03T22:02:37Z"
+url: https://community.simtropolis.com/files/file/34091-a_1p-wind-turbine-installation-vessel/?do=download&r=188517

@@ -1,0 +1,97 @@
+group: ap
+name: wind-industry-component-logistics
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: A_1P Wind Industry Component Logistics
+  description: |-
+    This prop pack contains content for the land-based logistics of on- and offshore wind turbines.
+
+    **Content**  
+    This File contains the following props:
+
+    -   A\_1P\_Transport\_Blade1
+
+    Rotor blade transport: rotor blade (in the style of LM 58.7 P\*1) on Mercedes heavy transport convoy (straight)
+
+    -   A\_1P\_Transport\_Blade2
+
+    Rotor blade transport: rotor blade (in the style of LM 58.7 P\*2) on Mercedes heavy transport convoy (in curve)
+
+    ![Preview_Blade_Transport3.png.86deca90d045c7aac25169b261815429.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Preview_Blade_Transport3.png.86deca90d045c7aac25169b261815429.png)
+
+    -   A\_1P\_Transport\_Nacelle1
+
+    WTG\*3 nacelle transport: Nacelle for wind turbine (in the style of SWT-3.6-120\*4) on Mercedes heavy transport convoy (straight)
+
+    ![Preview_Nacelle_Transport_2.png.fb784b2820172b874f7feceb693e846c.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Preview_Nacelle_Transport_2.png.fb784b2820172b874f7feceb693e846c.png)
+
+    -   A\_1P\_Transport\_Nacelle2
+
+    WTG nacelle transport: Nacelle for wind turbine (in the style of SWT-3.6-120\*5) on Mercedes heavy transport convoy (in curve)
+
+    A\_1P\_Transport\_Tower![Preview_TowerTransport.png.16ac1ba8530d64b5defde5396eb330c6.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Preview_TowerTransport.png.16ac1ba8530d64b5defde5396eb330c6.png)
+
+    ![Preview_TowerTransport2.png.ca167cf5114326176da35dab38162b32.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Preview_TowerTransport2.png.ca167cf5114326176da35dab38162b32.png)
+
+    Tower segment transport: steel tower segment for common wind turbines with two flanges (20m, 4mØ) (straight)
+
+    -   A\_1P\_Transport\_Tower2
+
+    Tower segment transport: steel tower segment for common wind turbines with two flanges (20m, 4mØ) (in curve)
+
+    \*1 Type of rotor blade from LM Wind Power A/S©  
+    \*2 see above  
+    \*3 Wind Turbine Generator  
+    \*4 Turbine type from SIEMENS©  
+    \*5 see above
+
+    -   A\_1P\_MainShaft\_Assembly\_Seafasten
+
+    ![Picture1.png.cdffe772c4ae8ca3e0840ab805a433b9.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Picture1.png.cdffe772c4ae8ca3e0840ab805a433b9.png)Main shaft - bearing assembly of a wind turbine:  
+    The polished shaft end is connected to the low-speed shaft of the gearbox with a shrink disc. The wide end with the halfmoon discs is going to be connected to the hub holding up the whole rotor star. The blue bearing housings carry the first and second main bearing. Their feet are mounted on the main frame. (sea fastened on transport frame)
+
+    -   A\_1P\_GearBox\_seafasten
+
+    ![Picture2.png.c7f5251982f41d76411f7698fc8f9af3.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Picture2.png.c7f5251982f41d76411f7698fc8f9af3.png)Gear Box for a wind turbine:  
+    2 planetary stages and 1 spur gear stage. (Power class 2-4 MW). The side with the big lowspeed shaft is connected to the main shaft-assembly \[above\]. The high-speed shaft on the other side drives the generator. Manufacturers like winergy, Eickhoff and Lohman & Stolterfoht produce these (sea fastened on transport frame)
+
+    -   A\_1P\_YawDrive\_Store
+
+    ![Picture3.png.6e53d5a82c1ebabbc92a72f82af9f7eb.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Picture3.png.6e53d5a82c1ebabbc92a72f82af9f7eb.png)
+
+    Yaw drives including a gearbox and a yaw engine. Modern turbines have usually at least 4 of these mounted vertically around the tower top carrying the yaw ring to rotate the whole turbine head into the wind (2 drives stored on pallet)
+
+    -   A\_1P\_YawRing\_Store
+
+    ![Picture4.png.f82ae6c8a6c685f6bc116874efa42a80.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Picture4.png.f82ae6c8a6c685f6bc116874efa42a80.png)
+
+    Slide ring with gear teeth for top of the tower to allow the turbine head to rotate (stored on pallet)
+
+    -   A\_1P\_Generator\_Store
+
+    ![Picture5.png.540518195530ccfa82901fb532a4e253.png](https://www.simtropolis.com/objects/attachments/monthly_2021_02/Picture5.png.540518195530ccfa82901fb532a4e253.png)
+
+    Generator for wind turbines: typical generator with integrated cooling unit on top (3-4 MW, 2 pols, 1500rpm) (stored on pallet) running at 1500rpm on 2 poles, driven by the high-speed shaft from the gearbox produces AC at the typical grid frequency of 50Hz
+
+    Here is some inspiration I used:
+
+    ![csm_Rostock_1_da0060e052.png](https://www.doll.eu/fileadmin/_processed_/6/9/csm_Rostock_1_da0060e052.png)
+
+    (source: [https://www.doll.eu/en/news/company-news/press-releases/detail/article/transport-in-a-new-dimension-rotor-blades-for-state-of-the-art-wind-turbines/](https://www.doll.eu/en/news/company-news/press-releases/detail/article/transport-in-a-new-dimension-rotor-blades-for-state-of-the-art-wind-turbines/))
+
+    ![79578.jpg](https://www.p-adams.eu/files/79578.jpg)
+
+    (source: [https://www.p-adams.eu/news-en/643/](https://www.p-adams.eu/news-en/643/) )
+  author: AP
+  website: https://community.simtropolis.com/files/file/34162-a_1p-wind-industry-component-logistics/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Preview_Pack2.png.7c72455ab6be6177ba44273491e51599.png
+assets:
+  - assetId: ap-wind-industry-component-logistics
+
+---
+assetId: ap-wind-industry-component-logistics
+version: "1.0.0"
+lastModified: "2021-02-21T20:46:58Z"
+url: https://community.simtropolis.com/files/file/34162-a_1p-wind-industry-component-logistics/?do=download&r=185469

@@ -1,0 +1,88 @@
+group: andisart
+name: iris-bay
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Iris Bay
+  description: |-
+    \----------------------------------------------  
+    AndisArt presents:
+
+    **Iris Bay**
+
+    Origin:                      Business Bay, Dubai  
+    Construction:          2013 - 2016  
+    Building Height:      170m  
+    Floors:                      32
+
+    Architects:               WS Atkins & Partners  
+    Purpose:                  Office  
+    \----------------------------------------------------------------
+
+    Lot Size:                  4x6
+
+    **Contains 2 different lots**:
+
+    **Landmark**  
+    Plop Cost:               175.000  
+    Monthly Cost:         0  
+    Landmark Effect:   90, Radius 30  
+    Mayor Rating:         10, Radius: 256
+
+    **Plobbable with Jobs**  
+    Office Jobs:             2460 CO$$$  
+    Plop Cost:                174.010  
+      
+    \-------------------------------------------------------------------------------------------------
+
+    Available in **MAXISNITE** or **DARKNITE**, chose only **one** at a time!
+
+    \-------------------------------------------------------------------------------------------------
+
+    **Dependency**:  If you want the cars to show up in the parking lots you need to download my [Modern HD Car Props](https://community.simtropolis.com/files/file/32178-modern-hd-car-props) pack.
+
+    \-------------------------------------------------------------------------------------------------
+
+    **Installation Instructions**:
+
+    Extract the file folder and copy it to your SimCity 4 Plugins folder (usually MyDocuments/SimCity 4/Plugins). Buildings can be found in Landmark menu, sorted by plop cost.
+
+    Most files have been packed in a .dat file which is required, do not delete. The two different lot files (landmark and ploppable with jobs) are left as separate files and so that they can be used alone or both at the same time.
+
+    The DarkNite version (DN) requires [SimFox's Day and Nite Mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd).
+
+    Warning:  
+    Only use either the MaxisNite or the DarkNite version, you cannot use both at the same time!
+
+    \--------------------------------------------------------------------------------------------------------------------------------
+
+    **Note**:  Due to the nature of the building shape anti-aliasing had to be enabled on this model. Enabling anti-aliasing can sometimes produce graphic glitches when two anti-aliased BATs are overlapping each other.
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/32179-iris-bay/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/ingame_E.jpg.e468d75aacd50c7e6b31f4f9fc1e1582.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/WEST_ingame.jpg.872ca2932dba6c76242af69a3872ada2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/NORTH_ingame.jpg.6aadf96a1b161a29ceea2225701abeb1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/EAST_ingame.jpg.55c79ad963da8676b64d0f4f0811a2dc.jpg
+dependencies:
+  - andisart:modern-hd-cars-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: andisart-iris-bay-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: andisart-iris-bay-darknite
+
+---
+assetId: andisart-iris-bay-darknite
+version: "1.0"
+lastModified: "2018-03-18T05:12:14Z"
+url: https://community.simtropolis.com/files/file/32179-iris-bay/?do=download&r=170389
+
+---
+assetId: andisart-iris-bay-maxisnite
+version: "1.0"
+lastModified: "2018-03-18T05:12:14Z"
+url: https://community.simtropolis.com/files/file/32179-iris-bay/?do=download&r=170390

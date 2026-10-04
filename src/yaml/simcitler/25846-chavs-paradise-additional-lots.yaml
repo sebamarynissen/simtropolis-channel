@@ -1,0 +1,91 @@
+group: simcitler
+name: chavs-paradise-additional-lots
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Chavs Paradise (additional lots)
+  description: |-
+    Chavs Paradise (additional lots)
+
+    This Lot pack contains nine (growable) residential lots for ill\_tonkso´s Chavs Paradise BAT. (Original can be found here: [Chavs Paradise](https://www.simtropolis.com/stex/details.cfm?id=12489))  
+    Due to a lack of R$$ lots for my own city projects i decided to give these nice BAT a new home.  
+      
+    Included are 9 different lots (4 R-$ Lots, 5 R-$$ Lots) which contain either 1, 2 or 3 buildings.  
+    All of them will grow on medium and high density residential zones in Euro and Houston tilesets.  
+      
+    bigger pics:  
+      
+    [R-$ Lots](http://www.ld-host.de/uploads/images/2038d74c6ad64a9e4237044e5b860219.jpg)  
+    [R-$$Lots](http://www.ld-host.de/uploads/images/51bb9d2fc55091fa139af10da314ad0d.jpg)  
+    [citypic](http://www.ld-host.de/uploads/images/8a4f76a0eaffda8221e36b180f5fb78a.jpg)  
+      
+    **Stats R-$ Lots:**  
+      
+    Stages: 4//5//6  
+    occupants: 342//682//1026 R-$  
+    value (tax): 4.647//9.294//13.941  
+    power consumed: 2//4//6 MWh/month  
+    water consumed: 4//8//12 m³/month  
+    air purification: 2//3//4 over 5 tiles  
+    water purification: 1//2//3 over 3 tiles  
+    garbage: 4//7//10 over 0 tiles  
+    construction time: 27//40//50 days  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+      
+    **Stats R-$$ Lots:**  
+      
+    Stages: 4//6  
+    occupants: 190//380 R-$$  
+    value (tax): 4.935//9.870  
+    power consumed: 3//6 MWh/month  
+    water consumed: 6//10 m³/month  
+    air purification: 2//3 over 5 tiles  
+    water purification: 1//2 over 3 tiles  
+    garbage: 4//7 over 0 tiles  
+    construction time: 27//40 days  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    detailed stats in the readme!  
+      
+      
+    **Dependencies:**  
+    Chavs Paradise-0x5ad0e817\_0x1223efb9\_0x30000.SC4Model  
+    ^^This is the model file created by ill\_tonkso. Without this file you will see no building on the Lots.  
+    The file is included here: [Chavs Paradise](https://www.simtropolis.com/stex/details.cfm?id=12489)  
+      
+    [BSC Textures vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)  
+    [BSC Mega Props CP vol. 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  
+    [SFBT Essentials (Version Dec. 2010)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)  
+      
+    **Installation:**  
+    just unzip the "SC\_Chavs\_Paradise\_relot" folder into your Plugins folder!  
+    You can put the "readme\_pics" folder where you want!  
+    There should be no conflicts with the original lots, as i created new descriptor files!  
+      
+    **Credits go to:**  
+    **ill\_tonkso**, for this great BAT.  
+    various members of the **BSC Team** for their Texture creations, and to **all creators** of props used on the lots!  
+      
+    special thanks to the simforum community for their advice and help.  
+      
+    Hope you like  
+    Simcitler  
+      
+    check out [my other lots](https://www.simtropolis.com/stex/index.cfm?p=files&view=mine&userid=358910) on the STEX and/or my [current projects](https://www.sc4devotion.com/forums/index.php?topic=12570.0)
+  author: Simcitler
+  website: https://community.simtropolis.com/files/file/25846-chavs-paradise-additional-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/744cf4d446fc03974518205bc1cb43b2-STEX_R$.jpg
+    - https://www.simtropolis.com/objects/screens/0013/744cf4d446fc03974518205bc1cb43b2-STEX_R$$.jpg
+dependencies:
+  - ndex:its-mega-pack-vol11
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - sfbt:essentials
+assets:
+  - assetId: simcitler-chavs-paradise-additional-lots
+
+---
+assetId: simcitler-chavs-paradise-additional-lots
+version: "1.0"
+lastModified: "2011-02-09T12:18:14Z"
+url: https://community.simtropolis.com/files/file/25846-chavs-paradise-additional-lots/?do=download&r=53857

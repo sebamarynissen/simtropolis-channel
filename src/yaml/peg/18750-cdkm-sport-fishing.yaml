@@ -1,0 +1,39 @@
+group: peg
+name: cdkm-sport-fishing
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: A ploppable CS$$$ with jobs, that serves as an end piece closing off the right of the Marina's floating docks.
+  description: |-
+    There are few activities to rival sport fishing aboard the cattle boats. Man against the sea... manning the rail... elbow to elbow with 300 total strangers on a boat design for half that amount. Six hours of untangling your line while the dweeb next to you blows technicolor chunks all over your shoes in a pitiful attempt to chum. Meanwhile, the captain cruises around looking for fish... and couldn't find one if it was served to him on a plate. So far, the winner of the jack pot will be the idiot who snagged a pelican while trying his hand at over-head casting.
+
+    Ah yes... the wonderful memories of Sport Fishing. But perhaps I digress...
+
+    Our Sport Fishing complex is the 4th and final Marina lot of this initial release. Like the Yacht Club, its a 3 tile wide lot with floating docks and boats that extend out into the water. It also serves as an "end" piece in that it closes off the right side of the Marina's floating docks. Also like the Yacht Club, the Sport Fishing complex lines up at both front and rear to extend the docks and parking areas of the Marina.
+
+    The lot is a ploppable CS$$ with jobs and revenue generated from taxes. It is 3x3 tiles in size and extends even further out into the water. Nite lited, traffic enabled... with a custom query. The lot also parrots some of the Marina properties to extend the overall benefits of the Marina complex.
+
+    We hope you have enjoyed our little cruise into the Sim-world of recreational boating and will look forward to all the additional lots that are planned to further expand this CDKM project. Several other CDKs, including the Seaport Village series, will soon be dry docked and refit to match this new style of CDK. But please be patient. The Titanic may have been sunk in an hour, but it wasn't built in a day. \[smirk\]
+
+    For help creating the perfect terrain for CDK lots, we strongly recommend reading **The Official CDK Tutorial.**
+
+       
+    **\*\* This lot requires the following dependencies**
+
+     PEG\-CDKM Marina  
+     
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18750-peg-cdkm-sport-fishing/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/28b6ecbe1d08cfbaf8c6664165386bc1-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0006/28b6ecbe1d08cfbaf8c6664165386bc1-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_SportFishing.dat"
+

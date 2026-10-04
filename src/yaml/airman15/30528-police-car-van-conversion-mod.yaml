@@ -1,6 +1,6 @@
 group: airman15
 name: police-car-van-conversion-mod
-version: "1.1"
+version: "1.1-1"
 subfolder: 710-automata
 info:
   summary: Police Car/Van Conversion Mod
@@ -21,12 +21,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_05_2015/491d820d74ec0201e6c496575db9c153-pm2.png
     - https://www.simtropolis.com/objects/screens/monthly_05_2015/37a6e95c1245dffd57555072295ae1aa-pm3.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-police-car-van-conversion-mod
       include:
       - "/.*HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-police-car-van-conversion-mod
       include:

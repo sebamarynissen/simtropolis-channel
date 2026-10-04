@@ -1,0 +1,94 @@
+group: mgb204
+name: diagonal-filler-set
+version: "2.2"
+subfolder: 150-mods
+info:
+  summary: Diagonal Filler Set
+  description: |-
+    ## Intro
+
+    Far too long in the works, but finally here, is version 2 of my Filler Set.  
+      
+    Used together, this set of lots can provide a powerful set of tools to deal with the diagonal jaggies problem and help to create more visually pleasing areas. The basic filler lots are texture-based and intended to transition cleanly between Sidewalks, Grass & Concrete textures. Sometimes though, we want to fill half a tile or an unsightly gap, which such fillers alone can't handle. Due to game limitations, a lot can either be fully transparent or completely show a texture. If you try to use partial transparency, the water bug appears, which is both ugly and annoying. Overhanging Lots can help here, because they do not use textures, but models that display them. So we can use transparency and/or extend textures beyond the boundaries of the lots they are upon. The main downside is that such models aren't very slope tolerant.  
+      
+    During install, you can choose which types, if any, of overhanging fillers to install. Note that different textures include different pieces, I've tried to balance flexibility whilst being mindful of the number of menu items. Each sidewalk variant has 8 lots, grass comes with 5 and all others just 2. But, I think for most users that will cover the bulk of situations you will really need. Find all installed lots at the top of your Parks Menu. The Extender options are as follows:
+
+    ![DFS_3.jpg.ec1bd2bf5a3d93dcbd225cb4a8b73b](https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_3.jpg.ec1bd2bf5a3d93dcbd225cb4a8b73b1f.jpg)  
+      
+    Included are the following options, which can be selected from the installer of this download:
+
+    -   **Diagonal Filler Lots**  
+        Like the v1 release, but with many updates/tweaks and a few new lots. All lots are sidewalk adaptable and supported by TGN.
+    -   **Overhanging Filler Lots**  
+        Using S3D / RTK0 Props, here is a very flexible set of Lots and Props, which unlike traditional BAT models, are not fixed in terms of the textures upon them. AutoMagically™ certified, most of these props will simply adapt to your installed texture choices. Some will require overriding included textures to adapt, but this is still a new level of flexibility for such items. Lots for the following networks are included:
+        -   Sidewalks (all wealths)
+        -   Rural / Dirt (used for Rail/I-AG zoning)
+        -   Grass (all wealths)
+        -   Concrete (I-M & I-HT)
+        -   Pedmalls (Cobble, Red Brick & Sandstone)
+    -   **Overrides for Paeng's Mods**  
+        Extenders for Paeng's Parks, Bikepaths and overhanging models made by Krashspeed, which were used in various releases by Paeng. See [this post](https://community.simtropolis.com/forums/topic/64116-mgb-lot-and-mod-shack/?do=findComment&comment=1708989) for a more complete explanation and links to those files. Installing these will convert existing and new lots from the fixed models to my adaptable set instead. Allowing sidewalks, grass and other elements to be customised like never before.  
+        ![DFS_5.jpg.aa2519ca5d345509e8661e5f2f410012.jpg](https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_5.jpg.aa2519ca5d345509e8661e5f2f410012.jpg)
+
+    These lots include submenu support, adding one icon in the Parks menu.
+
+    ## Support
+
+    Problems / Comments? Please visit my development thread, MGB Lot and Mod Shack, here on Simtropolis:
+
+    [https://community.simtropolis.com/topic/64116-mgb-lot-and-mod-shack/?do=embed](https://community.simtropolis.com/topic/64116-mgb-lot-and-mod-shack/?do=embed)
+  author: rsc204
+  website: https://community.simtropolis.com/files/file/29797-mgb-diagonal-filler-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/2b7cda864a79ad816295611fe5e21d10-mgb-diag-fillers.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_1.jpg.f504b5c529d3ffd8e91dd295ffd5577b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_3.jpg.ec1bd2bf5a3d93dcbd225cb4a8b73b1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_5.jpg.aa2519ca5d345509e8661e5f2f410012.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_02/SandstoneBooster.jpg.9769f346e6c322bba6a2703e529ff548.jpg
+dependencies:
+  # - "\"[MAS71's Walls Pack 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1504)\""
+  - mas71:mega-props-vol01
+  - sfbt:essentials
+  - mgb204:diagonal-filler-models
+assets:
+  - assetId: mgb204-diagonal-filler-set
+    include:
+      - "/MGB Filler Set.dat"
+      - "/MGB S3D Props.dat"
+  - assetId: mgb204-diagonal-filler-set-submenus
+
+---
+group: mgb204
+name: diagonal-filler-models
+version: "2.2"
+subfolder: 100-props-textures
+info:
+  summary: Diagonal filler models.
+  description: |-
+    Lotters/Tinkerers will find 156 props to play with, 13 for each of the 12 supported textures. So if you are willing to make some lots, it's possible to have every prop type for every network. But that wasn't something I felt I wanted to do for various reasons. The complete package runs to 60-ish lots already too, you have to stop somewhere.  
+  
+    ## Support
+
+    Problems / Comments? Please visit my development thread, MGB Lot and Mod Shack, here on Simtropolis:
+
+    [https://community.simtropolis.com/topic/64116-mgb-lot-and-mod-shack/?do=embed](https://community.simtropolis.com/topic/64116-mgb-lot-and-mod-shack/?do=embed)
+  author: rsc204
+  website: https://community.simtropolis.com/files/file/29797-mgb-diagonal-filler-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_3.jpg.ec1bd2bf5a3d93dcbd225cb4a8b73b1f.jpg
+assets:
+  - assetId: mgb204-diagonal-filler-set
+    include:
+      - "/MGB S3D Props.dat"
+
+---
+assetId: mgb204-diagonal-filler-set
+version: "2.2"
+lastModified: "2019-07-06T11:15:55Z"
+url: https://community.simtropolis.com/files/file/29797-mgb-diagonal-filler-set/?do=download&r=176592
+
+---
+assetId: mgb204-diagonal-filler-set-submenus
+version: "2.2"
+lastModified: "2019-07-06T11:15:55Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=123092

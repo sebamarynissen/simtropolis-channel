@@ -51,6 +51,11 @@ export default async function checkPreviousVersion(id, metadata, opts) {
 	let [main] = packages;
 	pkg.group = main.group;
 	pkg.name = main.name;
+	if (main.info?.websites?.length > 0) {
+		pkg.info ??= {};
+		pkg.info.websites = [...main.info.websites];
+		delete pkg.info.website;
+	}
 
 	// Now return that the old file has to be deleted when creating a new PR. 
 	// Note that if the name of the file doesn't change, this isn't a problem, 

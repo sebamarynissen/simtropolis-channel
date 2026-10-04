@@ -1,0 +1,28 @@
+group: peg
+name: oww2-sv-corner-shops
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Two shops to add some retail therapy. For Sims that like that kinda thing.
+  description: |-
+    This latest addition to the **CDK\-OWW** Seaport Village  collection is a pair of corner shops that will add more variety and seaside charm to your coastlines. The Corner Shops section is a 3x wide, CS$$ ploppable add-on for the Seaport Village. Like all OWW2 lots, it can be used with any other OWW2 style of lots, including the CDKM Marina lots. It features the same modular boardwalk and parking area... and plops seamlessly with all other OWW2 lots.
+
+    * * *
+
+    **\*\* This lot requires the** PEG\-CDKM Marina  
+    **and the** PEG\-OWW2 Resource Pack 1**.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20843-peg-oww2-sv-corner-shops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/2504d31d4ed5dacfefd1b83f5886570f-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2504d31d4ed5dacfefd1b83f5886570f-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:oww2-resource-pack-vol01
+  - peg:oww2-resource-pack-vol02
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-OWW2-SV_CornerShops.dat"

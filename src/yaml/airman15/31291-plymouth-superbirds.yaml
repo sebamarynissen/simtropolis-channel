@@ -1,6 +1,6 @@
 group: airman15
 name: plymouth-superbirds
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Plymouth Superbirds
@@ -27,12 +27,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_09/superbird7.png.fd5b661e3e1563ee0d26524d27a3ea8b.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_09/superbird8.png.04f8bba184a67ffc8eac4b961b54a851.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-plymouth-superbirds
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-plymouth-superbirds
       include:

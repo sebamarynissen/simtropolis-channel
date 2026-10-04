@@ -1,6 +1,6 @@
 group: airman15
 name: nissan-gtr
-version: "1.0"
+version: "1.0-1"
 subfolder: 710-automata
 info:
   summary: Nissan GT-R
@@ -21,12 +21,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/gtrT3.png.068837a53b2a07746ab7f25c6a5d3f1d.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/gtrT4.png.003a5119f93d4a2d829825d1455944f3.png
 variants:
-  - variant: { "prop-resolution": "hd" }
+  - variant: { "airman15:prop-resolution": "hd" }
     assets:
     - assetId: airman15-nissan-gtr
       include:
       - "/HD/"
-  - variant: { "prop-resolution": "sd" }
+  - variant: { "airman15:prop-resolution": "sd" }
     assets:
     - assetId: airman15-nissan-gtr
       include:

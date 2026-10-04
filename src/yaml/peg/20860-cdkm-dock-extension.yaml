@@ -1,0 +1,29 @@
+group: peg
+name: cdkm-dock-extension
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Extend your Marina docks out as far as want...even to Infinity and Beyond!!
+  description: |-
+    The **CDKM Dock Extension** allows you to build that Mega Marina you've always wanted. No longer are you limited to long walks on a short pier... so-to-speak. You can now extend your Marina docks out as far as want... even to Infinity & Beyond!!
+
+    The Dock Extensions are two 3x3 ploppable water lots that plop fully in the water... ideally at the end of the docks on the PEG CDKM Marina & Marina Docks lots. The lots are modular and can be plopped continually out as far as you want.  
+      
+    The two lots are similar... but each have different boats in various slips to provide some visual variety. The lots are pure eye candy with no game impacting properties of any kind. They are free to plop and costs nothing to maintain. It will cost you §5 to bulldoze, though. The lots will plop at the perfect height, automatically... no matter what the water depth is. Just line it up... and plop.
+
+    **\*\* These lots require the PEG CDKM Marina.**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/20860-peg-cdkm-dock-extension/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/25507d70fb62be4ffdc05e09fd8ba985-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/25507d70fb62be4ffdc05e09fd8ba985-product_image1.jpg
+dependencies:
+  - peg:cdkm-marina
+  - peg:mtp-super-pack
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_Dock-Extension.dat"
+

@@ -1,6 +1,21 @@
+# Add users in sequential order by their profile id.
+
 # For now, everyone is allowed to include their package on the channel, but if
 # it turns out that people are abusing this, then they might be blocked from the 
 # channel. This can be done by including them here, and then blocking them.
+
+# Example for permissions for specific packages.
+# authors:
+#   - name: Aaron Graham
+#     id: 226625
+#     groups:
+#       - nybt
+
+# Example for blocking someone
+# authors:
+#   - id: 1234
+#     blocked: true
+
 authors:
   - name: Pegasus
     id: 2813
@@ -14,11 +29,16 @@ authors:
   - name: deadwoods
     id: 5563
     prefixes:
+      - bsc
       - dedwd
   - name: Goofyguytpa
     id: 8691
     prefixes:
       - mp
+  - name: xannepan
+    id: 14885
+    prefixes:
+      - jenx
   - name: SimGoober
     id: 24419
     alias: sg
@@ -40,6 +60,10 @@ authors:
     id: 27440
     prefixes:
       - vda
+  - name: bixel
+    id: 32777
+    prefixes:
+      - hk
   - name: kingofsimcity
     id: 33566
     prefixes:
@@ -63,6 +87,19 @@ authors:
   - name: memo
     id: 95442
     github: memo33
+  - name: d_j_p1
+    id: 96809
+    prefixes:
+      - wmp
+  - name: onlyplace4
+    id: 103981
+    prefixes:
+      - blam
+      - op4
+  - name: Ferox
+    id: 100462
+    prefixes:
+      - bsc
   - name: HabLeUrG
     id: 108085
     prefixes:
@@ -74,10 +111,29 @@ authors:
       - blam
       - mx
       - rnp
+  - name: BLaM French Connections
+    id: 135342
+    prefixes:
+      - blam french connections
+      - blam fc
+      - blam
+  - name: Cockatoo
+    id: 140055
+    prefixes:
+      - hk
+      - hong kong
   - name: dk1
     id: 153428
     prefixes:
       - dk1
+  - name: Gn_leugim
+    id: 157047
+    prefixes:
+      - gnl
+      - eha
+      - eblt
+      - gnl eha
+      - gnl_eha
   - name: Seraf
     id: 157985
     prefixes:
@@ -136,6 +192,10 @@ authors:
     id: 364367
     prefixes:
       - pc
+  - name: shokthrpy
+    id: 375506
+    prefixes:
+      - shk
   - name: Barroco Hispano
     id: 415633
     alias: agc
@@ -161,6 +221,11 @@ authors:
     github: noah-severyn
     groups:
       - b62
+  - name: ABBT
+    id: 467876
+    groups:
+      - nybt
+      - nybt abbt
   - name: rsc204
     id: 651629
     alias: mgb204
@@ -170,19 +235,11 @@ authors:
     id: 68757
     prefixes:
       - rlm
+  - name: philforhockey51
+    id: 694208
+    prefixes:
+      - phil
   - name: RRetail
     id: 744613
     prefixes:
       - rr
-
-# Example for permissions for specific packages.
-# authors:
-#   - name: Aaron Graham
-#     id: 226625
-#     groups:
-#       - nybt
-
-# Example for blocking someone
-# authors:
-#   - id: 1234
-#     blocked: true

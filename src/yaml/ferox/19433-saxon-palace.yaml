@@ -1,0 +1,65 @@
+group: ferox
+name: saxon-palace
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Saxon Palace, Warsaw
+  description: |-
+    The Saxon Palace was one of the most distinctive buildings in prewar Warsaw.
+
+    The Saxon Palace had originally been a private palace of the Morsztyn family (Palac Morsztynów), then had been purchased and enlarged by the first of Poland's two Saxon kings, August II (reigned in Poland 1697-1706 and 1709-1733).
+
+    n the early 19th century, the Saxon Palace housed a school in which Frederick Chopin's father taught French, living with his family on the palace grounds.
+
+    The Palace was remodeled in 1842.
+
+    After World War I, the Saxon Palace served as the seat of the Polish General Staff. In 1925, the Tomb of the Unknown Soldier was established within the colonnade-topped arcade that joined the Palace's two symmetric wings.
+
+    The Palace continued to be sandwiched between the Saxon Garden (see `pkg=ferox:saxon-garden`), to its rear, and the Saxon Square in front (which would be renamed Pilsudski Square after the Marshal's death in 1935).
+
+    It was in this building that the German Enigma machine cipher was first broken in December 1932 and then read for several years prior to the General Staff Cipher Bureau German section's 1937 move to new, specially designed quarters near Pyry in the Kabaty Woods south of Warsaw.
+
+    During World War II, the Saxon Palace was destroyed (it was blown up by the Germans after the collapse of the Warsaw Uprising in 1944) except for the central part of the arcade, that somehow managed to survive, housing the Tomb of the Unknown Soldier.
+
+    The Saxon Palace is slated to be rebuilt.
+
+    \----------------------------------
+
+    Function - museum
+
+    Plop cost - 100000
+
+    Tickets - 18000
+
+    Range - 4000
+
+    Lot size - 19x7
+
+    !!!DEPENDENCIES!!!
+
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC MEGA Props D66 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)
+
+    [BSC MEGA Props - swi21 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)
+
+    Thank you praiodan for excellent roof texture.
+
+    Text from Wikipedia.
+  author: Ferox
+  website: https://community.simtropolis.com/files/file/19433-saxon-palace-warsaw/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d52f194383bac18c209858185e5d5cc0-jeden.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d52f194383bac18c209858185e5d5cc0-dwa.jpg
+dependencies:
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+assets:
+  - assetId: ferox-saxon-palace-warsaw
+
+---
+assetId: ferox-saxon-palace-warsaw
+version: "1.0"
+lastModified: "2008-02-26T05:41:01Z"
+url: https://community.simtropolis.com/files/file/19433-saxon-palace-warsaw/?do=download&r=44145

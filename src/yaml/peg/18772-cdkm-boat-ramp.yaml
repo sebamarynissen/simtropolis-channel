@@ -1,9 +1,9 @@
 group: peg
 name: cdkm-boat-ramp
-version: "1.0"
+version: "1.0-1"
 subfolder: 700-transit
 info:
-  summary: CDKM Boat Ramp
+  summary: The formal left-end to the Marina complex. This lot visually doses off the boardwalk and parking area
   description: |-
     No self respecting Marina is complete without a boat ramp. So here ya go. This lot provides everything required for your Sims to launch their small, trailered boats. (ie... a ramp. Beer not included.) It is a 2x3 CS$$ ploppable lot that provides jobs and income from taxes.
 
@@ -32,10 +32,7 @@ dependencies:
   - peg:cdkm-marina
   - peg:cdk3-super-pak
 assets:
-  - assetId: peg-cdkm-boat-ramp
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG-CDK3-M_BoatRamp.dat"
 
----
-assetId: peg-cdkm-boat-ramp
-version: "1.0"
-lastModified: "2007-10-08T19:49:28Z"
-url: https://community.simtropolis.com/files/file/18772-peg-cdkm-boat-ramp/?do=download&r=42941
