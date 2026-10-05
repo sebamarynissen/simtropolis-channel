@@ -1,0 +1,44 @@
+group: jule78
+name: old-church
+version: "1.0"
+subfolder: 650-religion
+info:
+  summary: Old Church
+  description: |-
+    This church is a new edition to my church BATs with all the same qualities as my other ones. The lot is 3X3, no monthly cost, bulldoze cost is $200, and there is a park and landmark effect.
+
+    I'd love to hear your comments! Enjoy everybody! ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: jule78
+  website: https://community.simtropolis.com/files/file/4489-old-church/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5e5154eadc2bff9bcc9e10a07cbd4d63-churchday.JPG
+    - https://www.simtropolis.com/objects/screens/0011/5e5154eadc2bff9bcc9e10a07cbd4d63-churchnight.JPG
+dependencies:
+  - jule78:old-church-model
+assets:
+  - assetId: jule78-old-church
+    include:
+      - \.SC4Lot$
+
+---
+group: jule78
+name: old-church-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Old Church resources
+  description: |-
+    This package is a model for `pkg=jule78:old-church`
+  author: jule78
+  website: https://community.simtropolis.com/files/file/4489-old-church/
+assets:
+  - assetId: jule78-old-church
+    include:
+      - \.SC4Desc$
+      - \.SC4Model$
+
+---
+assetId: jule78-old-church
+version: "1.0"
+lastModified: "2004-10-19T12:09:08Z"
+url: https://community.simtropolis.com/files/file/4489-old-church/?do=download&r=29183

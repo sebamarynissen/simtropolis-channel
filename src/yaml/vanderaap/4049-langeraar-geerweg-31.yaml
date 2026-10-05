@@ -1,0 +1,42 @@
+group: vanderaap
+name: langeraar-geerweg-31
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Langeraar Geerweg 31
+  description: |-
+    Small Dutch village house (1900-1915), based on Geerweg 31 in Langeraar. Sober Art Nouveau with green glazed brick accents. Garage door by Couchpotato (revised). V-apps, 07-28-04 / 08-09-04
+  author: Vanderaap
+  website: https://community.simtropolis.com/files/file/4049-vda-langeraar-geerweg-31/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a76ffb799aa180528e616f8ba560379e-vda_langeraar_geerweg_31_01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a76ffb799aa180528e616f8ba560379e-vda_langeraar_geerweg_31_02.jpg
+dependencies:
+  - vanderaap:langeraar-geerweg-31-model
+assets:
+  - assetId: vanderaap-langeraar-geerweg-31
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: vanderaap
+name: langeraar-geerweg-31-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=vanderaap:langeraar-geerweg-31`
+  author: Vanderaap
+  website: https://community.simtropolis.com/files/file/4049-vda-langeraar-geerweg-31/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a76ffb799aa180528e616f8ba560379e-vda_langeraar_geerweg_31_01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a76ffb799aa180528e616f8ba560379e-vda_langeraar_geerweg_31_02.jpg
+assets:
+  - assetId: vanderaap-langeraar-geerweg-31
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: vanderaap-langeraar-geerweg-31
+version: "1.0"
+lastModified: "2004-08-09T03:14:50Z"
+url: https://community.simtropolis.com/files/file/4049-vda-langeraar-geerweg-31/?do=download&r=28539

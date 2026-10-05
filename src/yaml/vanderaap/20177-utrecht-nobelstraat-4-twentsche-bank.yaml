@@ -1,0 +1,42 @@
+group: vanderaap
+name: utrecht-nobelstraat-4-twentsche-bank
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Utrecht Nobelstraat 4 Twentsche Bank
+  description: |-
+    Bank building at the Nobelstraat in Utrecht (4x2 CO $$$). Designed in the style of the Amsterdam School in 1920/21 by J. Baanders, architect in Amsterdam. Sculptures by Hildo Krop. Due to a lack of materials such as nature stone in these days, sculptures are made by using creative masonry techniques. V-apps, 08-03-08
+  author: Vanderaap
+  website: https://community.simtropolis.com/files/file/20177-vda-utrecht-nobelstraat-4-twentsche-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a6cf0f3106b85163ea1de94358455b12-vda_utrecht_nobelstraat_4_twentsche_bank_01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a6cf0f3106b85163ea1de94358455b12-vda_utrecht_nobelstraat_4_twentsche_bank_02.jpg
+dependencies:
+  - vanderaap:utrecht-nobelstraat-4-twentsche-bank-model
+assets:
+  - assetId: vanderaap-vda-utrecht-nobelstraat-4-twentsche-bank
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: vanderaap
+name: utrecht-nobelstraat-4-twentsche-bank-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=vanderaap:utrecht-nobelstraat-4-twentsche-bank
+  author: Vanderaap
+  website: https://community.simtropolis.com/files/file/20177-vda-utrecht-nobelstraat-4-twentsche-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a6cf0f3106b85163ea1de94358455b12-vda_utrecht_nobelstraat_4_twentsche_bank_01.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a6cf0f3106b85163ea1de94358455b12-vda_utrecht_nobelstraat_4_twentsche_bank_02.jpg
+assets:
+  - assetId: vanderaap-vda-utrecht-nobelstraat-4-twentsche-bank
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: vanderaap-vda-utrecht-nobelstraat-4-twentsche-bank
+version: "1.0"
+lastModified: "2008-08-03T10:49:47Z"
+url: https://community.simtropolis.com/files/file/20177-vda-utrecht-nobelstraat-4-twentsche-bank/?do=download&r=45373

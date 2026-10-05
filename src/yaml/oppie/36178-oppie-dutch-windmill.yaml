@@ -1,0 +1,64 @@
+group: oppie
+name: oppie-dutch-windmill
+version: "1"
+subfolder: 360-landmark
+info:
+  summary: oppie Dutch Windmill
+  description: |-
+    **Disclaimer**
+
+    This file has been created by oppie over at the now defunct SC4Kurier. There are currently plans to restore the lost content from the Kurier, but this will take some time, so, in the meantime, I, 11241036, am uploading this file on his behalf and in consultation with Tyberius06, in case it is needed as a dependency.
+
+    Please note: I only have the original Readme in German, but I added an extra English Readme text file.
+
+    **Short description**
+
+    Windmills have been used in Asia for over 1,000 years. Windmills were brought to Europe by the Crusaders in the 12th century via Asia Minor. Until the development of gasoline and electric motors in the 19th century, people had access to a power machine that could be used in a variety of ways, in addition to the existing water mills. Windmills were used for drainage, especially in the coastal areas of the Netherlands. The water was raised over the dams in several stages and the diked areas, the so-called “polders”, were drained. The mostly octagonal wooden tower stands on a solid foundation, the upper part with the windmill blades is rotatable. The wings and the “steert” (a beam at the end of the hood for turning the windmill cap) can be operated from the surrounding gallery.
+
+    For further information, please refer to the Readme in the download.
+
+    **Dependencies:**
+
+    This plugins requires no external dependencies.
+
+    **Installation:**
+
+    Copy/extract the content into your Plugins folder. Keep the Readme and it's best to store it outside of the Plugins folder.
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+  author: oppie
+  website: https://community.simtropolis.com/files/file/36178-oppie-dutch-windmill/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Windmuehle_01.jpg.2f099dd49ec70405c60e2c37aaf59708.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Windmuehle_02.jpg.295d9460250b215e1603dbf9e4e67dd5.jpg
+dependencies:
+  - oppie:dutch-windmill-model
+assets:
+  - assetId: oppie-dutch-windmill
+    include:
+      - \.SC4Lot$
+
+---
+group: oppie
+name: dutch-windmill-model
+version: "1"
+subfolder: 110-resources
+info:
+  summary: Dutch windmill model
+  description: |-
+    This package is a model for `pkg=oppie:oppie-dutch-windmill`
+  author: oppie
+  website: https://community.simtropolis.com/files/file/36178-oppie-dutch-windmill/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Windmuehle_01.jpg.2f099dd49ec70405c60e2c37aaf59708.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Windmuehle_02.jpg.295d9460250b215e1603dbf9e4e67dd5.jpg
+assets:
+  - assetId: oppie-dutch-windmill
+    include:
+      - \.SC4Model$
+
+---
+assetId: oppie-dutch-windmill
+version: "1"
+lastModified: "2024-03-13T22:09:02Z"
+url: https://community.simtropolis.com/files/file/36178-oppie-dutch-windmill/?do=download&r=200697
