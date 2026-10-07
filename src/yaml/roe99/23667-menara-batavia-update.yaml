@@ -43,20 +43,6 @@ dependencies:
   - roe99:resources
 
 ---
-group: roe99
-name: resources
-version: "2-1"
-subfolder: 110-resources
-info:
-  summary: Custom queries for roe99's buildings.
-  author: roe99
-  website: https://community.simtropolis.com/files/file/23667-menara-batavia-update/
-assets:
-  - assetId: roe99-menara-batavia-update
-    include:
-      - /Elsham_query_UI.dat
-
----
 assetId: roe99-menara-batavia-update
 version: "2"
 lastModified: "2015-07-02T13:08:36Z"

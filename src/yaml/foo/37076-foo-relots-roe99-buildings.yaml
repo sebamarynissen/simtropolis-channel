@@ -19,9 +19,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2026_08/EXCEL_2msZh8rqOp.thumb.jpg.aaca14dff35ab593577f129147338eef.jpg
 
 dependencies:
-  # roe99 building models
-  - roe99:resources
-  # files listed by the author from the BSC Common Dependencies Pack
+  - roe99:model-mega-pack-vol01
+  - roe99:model-mega-pack-vol02
+  - roe99:model-mega-pack-vol03
+  - roe99:model-mega-pack-vol04
   - bsc:textures-vol01
   - bsc:textures-vol02
   - bsc:texturepack-cycledogg-vol01

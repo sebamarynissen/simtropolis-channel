@@ -1,0 +1,161 @@
+group: roe99
+name: model-mega-pack-vol01
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: roe99 Model MEGA Pack vol01 (residential)
+  description: |-
+    Building models by roe99, part of the SC4 Legacy roe99 Dependency Compilation.
+    Contains the residential models from:
+    - DaVinci Tower V2
+    - Elsha Condoz
+    - Regatta Towers
+    - The Peak part1
+    - The Peak final
+  conflicts: |-
+    Contains the same building models as the original roe99 uploads (`pkg=roe99:da-vinci-update`, `pkg=roe99:elsha-condoz`, `pkg=roe99:regatta`, `pkg=roe99:the-peak-part1`, `pkg=roe99:the-peak-final`), which also include the original lots. Install only one of the two.
+  author: roe99
+  website: https://community.simtropolis.com/files/file/37643-sc4-legacy-roe99-dependency-compilation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ac6d4fc6ae6c_Roe99ModelMEGAPackvol01_index.thumb.jpg.4cb4e43d2b804c42cbdfbd1268775170.jpg
+
+conflicting:
+  # these packages include the same building models together with their original lots
+  - roe99:da-vinci-update
+  - roe99:elsha-condoz
+  - roe99:regatta
+  - roe99:the-peak-part1
+  - roe99:the-peak-final
+
+assets:
+  - assetId: roe99-dependency-compilation
+    include:
+      - "/Roe99 Model MEGA Pack vol01\\.dat$"
+
+---
+group: roe99
+name: model-mega-pack-vol02
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: roe99 Model MEGA Pack vol02 (civic, parks and landmarks)
+  description: |-
+    Building models by roe99, part of the SC4 Legacy roe99 Dependency Compilation.
+    Contains the civic, park and landmark models from:
+    - Bundaran HI
+    - Monas Monument
+    - Soeman HS Riau Library
+  conflicts: |-
+    Contains the same building models as the original roe99 uploads (`pkg=roe99:bundaran-hi`, `pkg=roe99:monas-monument`, `pkg=roe99:soeman-hs-riau-library`), which also include the original lots. Install only one of the two.
+  author: roe99
+  website: https://community.simtropolis.com/files/file/37643-sc4-legacy-roe99-dependency-compilation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ac6d4fc6cd73_Roe99ModelMEGAPackvol02_index.thumb.jpg.035173912da25c8080b898724bb5fa8a.jpg
+
+conflicting:
+  # these packages include the same building models together with their original lots
+  - roe99:bundaran-hi
+  - roe99:monas-monument
+  - roe99:soeman-hs-riau-library
+
+assets:
+  - assetId: roe99-dependency-compilation
+    include:
+      - "/Roe99 Model MEGA Pack vol02\\.dat$"
+
+---
+group: roe99
+name: model-mega-pack-vol03
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: roe99 Model MEGA Pack vol03 (commercial, part 1)
+  description: |-
+    Building models by roe99, part of the SC4 Legacy roe99 Dependency Compilation.
+    Contains the commercial models from:
+    - GKBI Tower
+    - Menara Imperium
+    - Sentra Mulia Tower
+    - Pasar Tanah Abang
+    - Talavera Office Park
+  conflicts: |-
+    Contains the same building models as the original roe99 uploads (`pkg=roe99:gkbi-tower`, `pkg=roe99:menara-imperium`, `pkg=roe99:sentra-mulia-tower`, `pkg=roe99:pasar-tanah-abang`, `pkg=roe99:talavera-office-park`), which also include the original lots. Install only one of the two.
+  author: roe99
+  website: https://community.simtropolis.com/files/file/37643-sc4-legacy-roe99-dependency-compilation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ac6d4fc6e382_Roe99ModelMEGAPackvol03_index.thumb.jpg.608c753df91275adfd6fd229bb9d6300.jpg
+
+conflicting:
+  # these packages include the same building models together with their original lots
+  - roe99:gkbi-tower
+  - roe99:menara-imperium
+  - roe99:sentra-mulia-tower
+  - roe99:pasar-tanah-abang
+  - roe99:talavera-office-park
+
+assets:
+  - assetId: roe99-dependency-compilation
+    include:
+      - "/Roe99 Model MEGA Pack vol03\\.dat$"
+
+---
+group: roe99
+name: model-mega-pack-vol04
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: roe99 Model MEGA Pack vol04 (commercial, part 2)
+  description: |-
+    Building models by roe99, part of the SC4 Legacy roe99 Dependency Compilation.
+    Contains the commercial models from:
+    - Area 24
+    - Menara Batavia V2
+    - Equity Tower
+    - Grandiose Dome Tower
+    - Grandiose Dome Tower G7
+    - MNC Tower
+    - Wisma 46 v2
+  conflicts: |-
+    Contains the same building models as the original roe99 uploads (`pkg=roe99:area-24`, `pkg=roe99:menara-batavia-update`, `pkg=roe99:equity-tower`, `pkg=roe99:grandiosedometower`, `pkg=roe99:grandiosedomeg7`, `pkg=roe99:mnc-tower`, `pkg=roe99:wisma46-v2`), which also include the original lots. Install only one of the two.
+  author: roe99
+  website: https://community.simtropolis.com/files/file/37643-sc4-legacy-roe99-dependency-compilation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ac6d4fc6f601_Roe99ModelMEGAPackvol04_index.thumb.jpg.6940078be2d6f133c194fcf1451b86a7.jpg
+
+conflicting:
+  # these packages include the same building models together with their original lots
+  - roe99:area-24
+  - roe99:menara-batavia-update
+  - roe99:equity-tower
+  - roe99:grandiosedometower
+  - roe99:grandiosedomeg7
+  - roe99:mnc-tower
+  - roe99:wisma46-v2
+
+assets:
+  - assetId: roe99-dependency-compilation
+    include:
+      - "/Roe99 Model MEGA Pack vol04\\.dat$"
+
+---
+group: roe99
+name: resources
+version: "2-2"
+subfolder: 110-resources
+info:
+  summary: roe99 query UI resources
+  description: |-
+    Custom query UI used by the roe99 buildings (formerly Elsham_query_UI.dat / Elsha_UI_Rquery.dat),
+    from the SC4 Legacy roe99 Dependency Compilation.
+  author: roe99
+  website: https://community.simtropolis.com/files/file/37643-sc4-legacy-roe99-dependency-compilation/
+
+assets:
+  - assetId: roe99-dependency-compilation
+    include:
+      - "/roe99_Elsham_query_UI_resources\\.dat$"
+---
+assetId: roe99-dependency-compilation
+version: "1.0.0"
+lastModified: "2026-10-07T23:25:48Z"
+url: https://community.simtropolis.com/files/file/37643-sc4-legacy-roe99-dependency-compilation/?do=download
