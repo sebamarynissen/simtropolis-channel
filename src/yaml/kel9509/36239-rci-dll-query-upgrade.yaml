@@ -1,0 +1,71 @@
+group: "kel9509"
+name: "rci-dll-query-upgrade"
+version: "3.1"
+subfolder: "150-mods"
+dependencies:
+  - null-45:more-demand-info-dll
+  - null-45:query-tool-ui-extensions-dll
+  - null-45:allow-more-building-styles-dll
+
+info:
+  summary: "Upgrade the Maxis query for Residential, Commercial, and Industrial buildings"
+  description: |-
+    Using new DLL functionality for SimCity 4 created by Null45.
+    Based off of v1.2 of Equinox's "RCI Query Upgrade Mod", originally written and conceptualized by Equinox.
+
+    Thank you Null45 for your amazing DLL mods, and Equinox for your amazing original RCI Query Upgrade!  
+
+    This is a mod to upgrade the Maxis query for Residential. Commercial, and Industrial buildings.  It is built off of Equinox's original RCI Query Upgrade mod, which first showed improved statistics for your growable buildings (including cap status). This RCI DLL Query Upgrade Mod improves upon Equinox's original work by adding new statistics available with the use of DLL mods created and designed by Null45.  Outside of this mod, most of these new statistics are currently not available anywhere else.
+
+    This mod also fixes various errors in the original Equinox Mod, which incorrectly used City and Regional Total Workforce (aka: all Commercial and Industrial Jobs) to represent only Commercial Jobs.  In addition, the terms used in this RCI DLL Query Mod are more precise, referring to Capacity (the total possible availability) instead of incorrectly using the term Population. Also, the placement of the My Sim icon has been corrected.
+
+    # Usage
+
+    **This mod requires the use of the EXTENDED TOOLTIP option in the game settings!  Click the three dots in the region view or city view (where you'd select to save the game) and click the gear option on the right to select "Extended Tooltips."  The tooltips will not work without this option selected!**
+
+    After installation, select the RCI Query from the Main Menu within SimCity 4.  Select a Residential, Commercial, and Industrial Building to query their information.  If your query of a building (that itself does not have a custom query) looks like any of the screenshots included, then the mod works.  If you installed a query that has the Building Styles in tooltips, hover your mouse over the Building Styles list to see available building styles.  All queries also have informative tooltips over the all descriptive items with helpful tips and hints.. The mod works if the query appears in your game similar to the pictures included within this archive.
+
+    # Technical Information
+
+    Refer to the [STEX page](https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/) for detailed stats and technical information.
+  author: " Kel9509"
+  website: "https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6abb14aea9495_RCIDLLQueryv3.1B-ResidentialBuilding-BuildingListTooltip.jpg.4269bd545044dbc5d0d76fb74eb6d967.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6abb14c2c14ad_RCIDLLQueryv3.1B-CommercialBuilding-BuildingListTooltip.jpg.6d2aa4e9ad7222cf66e87d8310881467.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6abb14ba7442f_RCIDLLQueryv3.1B-IndustrialBuilding-BuildingListTooltips.jpg.d0fbd16d3272699aea4dc7f5d3ae9ce4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6abb14d7703e1_RCIDLLQueryv3.1C-ResidentialBuilding.jpg.83351d65ea8df2a952dc03a6e199a853.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6abb14e0b2670_RCIDLLQueryv3.1C-CommercialBuilding.jpg.d9eb70d189221e0fa2b531ffb522926c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6abb14ecdd448_RCIDLLQueryv3.1C-IndustrialBuilding-AllStyles.jpg.59b4f6cf86f6a40c000cbdfb1492fbfd.jpg
+conflicting:
+  - equinox:rci-query-upgrade-mod
+
+variants:
+  # simplify the installation options - only provide two of the five choices for the ui
+  # `hugues-aroux:ui-carbon-skin` also uses this variant, so if this is expanded later then update that package too
+  - variant: { kel9509:rci-dll-query-upgrade:orientation: "vertical" }
+    assets:
+      - assetId: kel9509-rci-dll-query-upgrade
+        include:
+        - "/RCI DLL Query v3.1B - Vertical Bold Tooltips Building Styles/"
+  - variant: { kel9509:rci-dll-query-upgrade:orientation: "horizontal" }
+    assets:
+      - assetId: kel9509-rci-dll-query-upgrade
+        include:
+        - "/RCI DLL Query v3.1C - Horizontal Bold/"
+
+variantInfo:
+  - variantId: kel9509:rci-dll-query-upgrade:orientation
+    description: Choose the orientation of the building query UI.
+    values:
+      - value: vertical
+        description: City + region information is below the building information.
+        default: true
+      - value: horizontal
+        description: City + region information is to the right of the building information.
+    
+---
+assetId: "kel9509-rci-dll-query-upgrade"
+version: "3.1"
+lastModified: "2026-09-29T01:34:27Z"
+url: "https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/?do=download"
