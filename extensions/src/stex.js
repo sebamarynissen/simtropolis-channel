@@ -44,6 +44,11 @@ setup([channel, sc4evermoreChannel]).then(({ plugin, h }) => {
 		'#install-sc4pac:hover { background: #272822; }',
 		style.sheet.cssRules.length,
 	);
+	style.sheet.insertRule(
+		//This is a native element on the STEX page.
+		'#dl-status-label { margin-bottom: 20px; }',
+		style.sheet.cssRules.length,
+	);
 
 	// Create the button DOM node.
 	let button = h('a', {
@@ -53,7 +58,8 @@ setup([channel, sc4evermoreChannel]).then(({ plugin, h }) => {
 		style: 'font-weight: 600; color: white; display: flex; align-items: center; justify-content: center;',
 	}, [
 		h('i', { class: 'fa fa-download fa-lg' }),
-		'\u00A0\u00A0Install with sc4pac',
+		'\u00A0\u00A0Install with ',
+		h('span', { style: 'color:#BAFF77; display:contents;' }, 'sc4pac'),
 	]);
 
 	// Insert the generated button right below the "Download file" button.
@@ -68,7 +74,7 @@ setup([channel, sc4evermoreChannel]).then(({ plugin, h }) => {
 		}
 	});
 	let li = h('li', {
-		style: 'filter:drop-shadow(0px 3px 3px #000000);',
+		style: 'filter:drop-shadow(0px 3px 1px #000000);',
 	}, [button]);
 
 	let ul = a.closest('ul');
@@ -76,7 +82,7 @@ setup([channel, sc4evermoreChannel]).then(({ plugin, h }) => {
 
 	// Add a normal link as well.
 	ul.appendChild(h('li', {
-		style: 'text-align: right',
+		style: 'text-align: center;',
 	}, [
 		h('a', {
 			href: plugin.getViewUrl(packages),
