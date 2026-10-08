@@ -1,0 +1,59 @@
+group: foo
+name: relots-superstar-buildings
+version: "1.2.0"
+subfolder: 200-residential
+info:
+  summary: 27 growable relots of Superstar buildings
+  description: |-
+    A set of 27 renewed growable lots using building models made by Superstar.
+    Includes residential and commercial lots; most lots have temperate seasonal flora props.
+    Some buildings have had their function changed and a couple of lots are oversized.
+  author: Foo
+  website: https://community.simtropolis.com/files/file/37066-foo-relots-superstar-buildings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d45d97_SimCity42025-10-2021-39-06_805.thumb.jpg.871b1e7f527cf6fa9b3988bb4df031e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d4cba5_SimCity42025-10-2021-39-27_351.thumb.jpg.a4a1f84b71b0aaa3a1015d04837df476.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d52e3f_SimCity42025-10-2023-22-13_910.thumb.jpg.f37d914339b655417761fafb5b36a36e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d58b0c_SimCity42025-10-2023-22-42_416.thumb.jpg.c57a902217c50cc77ec94b47ba1fe59a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d5ebd2_SimCity42025-10-2118-05-18_264.thumb.jpg.f97dc10f4c90edc7ed25920a853626d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d64c21_SimCity42025-10-2118-12-31_557.thumb.jpg.1cca5a7ab2560de731c67e0a4ae4e8e0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d7f023_SimCity42025-10-2318-00-23_419.thumb.jpg.6cb41c327752c36e540964cefa740e34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18768d85bfd_SimCity42025-10-2314-27-43_333.thumb.jpg.9fb82c0cfe34baba0d8d9933a42a192d.jpg
+
+dependencies:
+  - ndex:superstar-mega-pack-vol01
+  - ndex:superstar-mega-pack-vol02
+  - ndex:superstar-mega-pack-vol03
+  - ndex:superstar-mega-pack-vol04
+  - ndex:superstar-mega-pack-vol05
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - supershk:fa3-parking-textures
+  - bsc:essentials
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: foo-relots-superstar-buildings-noncam
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: foo-relots-superstar-buildings-cam
+
+---
+assetId: foo-relots-superstar-buildings-noncam
+version: "1.2.0"
+lastModified: "2026-08-02T16:16:06Z"
+url: https://community.simtropolis.com/files/file/37066-foo-relots-superstar-buildings/?do=download&r=221147
+
+---
+assetId: foo-relots-superstar-buildings-cam
+version: "1.2.0"
+lastModified: "2026-08-02T16:16:06Z"
+url: https://community.simtropolis.com/files/file/37066-foo-relots-superstar-buildings/?do=download&r=221148
