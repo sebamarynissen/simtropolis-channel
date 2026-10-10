@@ -1,0 +1,61 @@
+group: manuel-ito
+name: maxis-renewal-civics
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Maxis Renewal - Civics
+  description: |-
+    In this installment of the Maxis renewal series, the basic Maxis civic services, as well as some government related rewards, have been re-loted.
+
+    As usual, changes include general lot redecoration, like most flora seasonalized and SCILT sidewalk textures, among other things.
+
+    **Lots overridden**: Small and Large elementary schools, Small and Large high schools, City college, Basic and Mayor art museums, Local and Central Libraries, Private schools, Opera, Police kiosk, Small, Large and Deluxe police stations, Small and Large fire stations, Clinic, Medical center and Disease center, City halls, Courthouse, Stock exchange and Bureau of bureaucracy (Back shown in the screenshot)
+
+    As usual, these overrides require a considerable amount of dependencies.
+
+    [CityHalls Mod Reward Fix](https://community.simtropolis.com/files/file/11154-all-3-cityhalls-modd-reward-fix/) (Needed for the City Hall Overrides. Make sure the overrides load after this!)
+
+    Notes:
+
+    As with any lot overrides, it's recommended to bulldoze any existing instances of these Maxis lot overrides in your desired region before (un)installing this plugin, otherwise it may lead to problems ranging from texture and prop mismatches to other issues. You can plop them back afterwards.
+
+    Enjoy! ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")
+  author: Manuel-ito
+  website: https://community.simtropolis.com/files/file/31314-maxis-renewal-civics/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/MaxisCivics1.jpg.91f7298930fcb0f5cf2fd0f815cd9a1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/MaxisCivics2.jpg.5a380778dfc203e693dd22fc27d8b4f9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/MaxisCivics3.jpg.36db6cdf4a862caddbc2e6ea115ff0ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/MaxisCivics4.jpg.d8a0be7f80b0a527c6c14678528a0933.jpg
+dependencies:
+  - cp:scilt
+  - mz:city-hall-fixes # These relots will load after the city hall fix lots, so we're okay
+  - citynut:nuts-props-pack-a
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - maxis:buildings-as-props
+  - peg:mtp-super-pack
+  - shk:parking-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - mz:opera-house-fix
+assets:
+  - assetId: manuel-ito-maxis-renewal-civics
+
+---
+assetId: manuel-ito-maxis-renewal-civics
+version: "1.0"
+lastModified: "2016-10-01T22:49:58Z"
+url: https://community.simtropolis.com/files/file/31314-maxis-renewal-civics/?do=download&r=163360
