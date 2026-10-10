@@ -61,6 +61,7 @@ export default {
 	791: 'bsc:mega-props-jes-vol04',
 	851: 'nam:network-addon-mod',
 	852: 'nam:network-addon-mod',
+	877: 'bsc:essentials',
 	925: 'sfbt:kenworth-rail-catenaries-props',
 	955: 'bsc:sg-models-agriculture',
 	1117: 'bsc:sg-models-large-stores',
