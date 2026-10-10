@@ -1,0 +1,53 @@
+group: kelis
+name: tsutenkaku-tower
+version: "1.0.1"
+subfolder: 360-landmark
+info:
+  summary: Kelis Tsutenkaku tower
+  description: |-
+    **Tsutenkaku tower, located in the Japanese city of Osaka.**
+
+    **Information:**
+
+    *The* Tsutenkaku tower appears in the game in the Landmarks menu.
+
+    **\- Plop Cost**: 20000$  
+    **\- Bulldoze cost**: 15000$
+
+    Dependencies:
+
+    [SC4D LEX Legacy - NOB Dependencies Pack V2 Version 2](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack)
+
+
+      
+    The nightlighting of this model only suits for [SimFox's Darker Nite mod](https://community.simtropolis.com/files/stex/details.cfm?id=23089)
+
+    **Credits:**
+
+    Created by **Kelis.** All rights reserved.
+
+    ( I am especially proud of this model. I hope you enjoy it. ![*:thumb:](https://community.simtropolis.com/assets/emoticons/default_44.gif "*:thumb:") )
+  author: Ke|is
+  website: https://community.simtropolis.com/files/file/37250-kelis-tsutenkaku-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Preview1TS.jpg.6f5ef8c52efaa017d660460f0858699f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Preview2TS.jpg.cf83b75b4691e5d7673b061e9c1d7bf7.jpg
+dependencies:
+  - nob:mega-props-vol01
+  - nob:texture-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "kelis-tsutenkaku-tower"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "kelis-tsutenkaku-tower"
+
+---
+assetId: kelis-tsutenkaku-tower
+version: "1.0.1"
+lastModified: "2026-06-14T12:21:12Z"
+url: https://community.simtropolis.com/files/file/37250-kelis-tsutenkaku-tower/?do=download
