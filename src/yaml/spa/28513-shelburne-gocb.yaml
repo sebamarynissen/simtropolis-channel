@@ -1,0 +1,36 @@
+group: spa
+name: shelburne-gocb
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Shelburne GOCB
+  description: |-
+    The Shelburne Government of Canada Building (GOCB) is a federal government office building in Shelburne, Nova Scotia. The building was constructed in 1964 during the post-war expansion of the federal government and is one of many GOCBs that were built during the era. A modernist federal government building became a typical feature in small town Atlantic Canada (Montague, Antigonish, Spring Hill, Lunenburg etc). In recent decades, as Atlantic Canada has become more urbanized, the federal government has increasingly concentrated services in larger urban centres. As a result, many small town GOCBs have been left largely empty with just Canada Post as a tenant. Some have been sold to private owners, allowing the federal government to lease space back as a tenant, but a number of buildings, including the Shelburne GOCB, still remain under federal ownership. The Shelburne GOCB provides space for Canada Post and the Canadian Food Inspection Agency.
+
+    The Shelburne GOCB comes to SimCity with two versions, one with a wheelchair ramp on the front like the real building and one with just stairs that will fit on a smaller lot. The rampless version fits on a 3x3 while the ramp version fits on a 3x4.
+  author: spa
+  website: https://community.simtropolis.com/files/file/28513-shelburne-gocb/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/839d5e5bc8a2ff93c5fbd221292a5d4a-simtropolis-shelburne-front-no-ramp.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/ff354ba569ad3c98633606d67a1d67b7-simtropolis-shelburne-front-ramp.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/b166decc42dea92182d77def1a1b789d-simtropolis-shelburne-east.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/bfd005ac26f78bbc2cd47d80164d770b-simtropolis-shelburne-west.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/2fd7513335a0683948a7f9957ba8c383-simtropolis-shelburne-back.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/6054b33edaadf7b0da42469f44dd7bb9-simtropolis-shelburne-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/d58427141ddf974197be554e79348cf6-shelburne-gocb-readme-2.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol02
+assets:
+  - assetId: spa-shelburne-gocb
+
+---
+assetId: spa-shelburne-gocb
+version: "1.0"
+lastModified: "2013-02-25T05:57:00Z"
+url: https://community.simtropolis.com/files/file/28513-shelburne-gocb/?do=download&r=112453
+archiveType:
+  format: Clickteam
+  version: "40"

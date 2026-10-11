@@ -1,0 +1,34 @@
+group: spa
+name: marine-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Marine House
+  description: |-
+    Marine House is a federal government office building located in Downtown Dartmouth, Nova Scotia, Canada. The building has sat on the corner of Portland Street and Alderney Drive since the 1980s. Built on the site of a used car dealership, it started out as the Dartmouth Medical Centre and provided office space for a number of doctors. The federal government purchased the building in the early 2000s and converted it to general office space. Under government ownership, the building was renamed Marine House in honour of the major federal tenant, the Department of Fisheries and Oceans. To feed and coffee all the office workers, there is a small privately run cafe on the ground floor.
+
+    Marine House comes to SimCity as a 4x3 growable and a ploppable.
+  author: spa
+  website: https://community.simtropolis.com/files/file/28519-marine-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/1e32bbd966d5c5954dd838f61231aa37-simtropolis-marine-house-front.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/4cfd0060252b07354c4815e655fafdab-simtropolis-marine-house-east.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/a6155eca2ffaea787bbaa5c5c554126c-simtropolis-marine-house-back.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/92f771c4cb791414620159696efd90bb-simtropolis-marine-house-west.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/e73bce279e2fc42201ecad04b737b385-simtropolis-marine-house-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/8e5d71bcdc9007d606562fc1dacb6875-marine-house-readme-2.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: spa-marine-house
+
+---
+assetId: spa-marine-house
+version: "1.0"
+lastModified: "2013-02-27T22:12:10Z"
+url: https://community.simtropolis.com/files/file/28519-marine-house/?do=download&r=112487
+archiveType:
+  format: Clickteam
+  version: "40"

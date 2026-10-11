@@ -37,6 +37,8 @@ export default {
 	405: `bsc:mega-props-swi21-vol02`,
 	407: 'bsc:mega-props-mjb-vol01',
 	426: 'bsc:mega-props-misc-vol01',
+	437: 'bsc:parks-base-set',
+	438: 'bsc:bsc-parks-texture-pack',
 	443: 'bsc:essentials',
 	460: 'csx:mega-props-vol02',
 	461: 'csx:mega-props-vol03',

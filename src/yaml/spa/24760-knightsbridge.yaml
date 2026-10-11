@@ -1,0 +1,31 @@
+group: spa
+name: knightsbridge
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Knightsbridge
+  description: |-
+    Knightsbridge is a rowhouse style condominium in Halifax, NS, Canada. The real building is an old 3 door blue wooden structure that has recently been renovated and has had a modern addition added on the back. I wasn't able to find much detail on the original building's history other than it was likely built sometime between 1870 and 1900 when the rest of Inglis Street from South Park to Barrington was developed. The name Knightsbridge doesn't appear to have any particular significance to Halifax. Knightsbridge, however, is the name of an exclusive residential district in London. Given that between 1870-1900, English Canadians still thought of themselves as British subjects, I would guess that Halifax's Knightsbridge was named after the London neighbourhood to try and market it to wealthy Haligonians.
+
+    This bat is a recreation of Halifax's Knightsbridge. To add variety, I have included green and yellow versions and several sizes (2x2, 3x2, 4x2, 5x2 and 6x2). All grow on the New York and Chicago tilesets.
+  author: spa
+  website: https://community.simtropolis.com/files/file/24760-knightsbridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/438b954b04c71ca93629bfa739f40281-knightsbridge-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/50728ba26942b6bdd19afcfa7ef7d834-knightsbridge-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/fe5a60522cf3f1d2e1841a43a051e4f0-knightsbridge-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:texturepack-cycledogg-vol01b
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: spa-knightsbridge
+
+---
+assetId: spa-knightsbridge
+version: "1.0"
+lastModified: "2010-08-28T23:12:09Z"
+url: https://community.simtropolis.com/files/file/24760-knightsbridge/?do=download&r=114508
+archiveType:
+  format: Clickteam
+  version: "40"

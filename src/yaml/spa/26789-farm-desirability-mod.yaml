@@ -1,0 +1,37 @@
+group: spa
+name: farm-desirability-mod
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Farm Desirability MOD
+  description: |-
+    In the years I have spent playing SimCity there is one thing that has always annoyed me, add a few cars to any rural road and the surrounding farmland dilapidates. This has never seemed realistic to me. Many rural roads in places like the Greater Toronto Area are crammed with commuters driving to jobs in the city and yet farming continues unhindered... at least until developers arrive to build cul-du-sacs! Contrary to popular belief and common sense, in SimCity it's not just pollution that causes farmland to dilapidate, it's just the presence of traffic. Farm desirability decreases in direct relation to the amount of traffic passing by. It's the reverse of commercial service desirability. This little mod of mine removes traffic as a factor in farm desirability and allows realistic rural commuter sheds to be built. Farms will still dilapidate through pollution so a really excessive amount of traffic that causes high air pollution will still end up causing dilapidation, but it takes a lot and a player, if they're willing to pay, can always enact one or both of the anti-pollution ordinances.
+
+    Included in this upload is a cam and non-cam version. **Choose one and only one** (delete the one that's not relevant from the plugins folder). This mod isn't compatible with any other mods that alter desirability parameters like, for example, PEG's SPAM Mod.
+  author: spa
+  website: https://community.simtropolis.com/files/file/26789-farm-desirability-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/a59b3afcc0392cd81e15716ad389bd0a-farm mod 1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/4c48f496cfb8407f1bb26f669e3fad0d-farm mod 2.jpg
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: spa-farm-desirability-mod
+        include:
+          - "/zzzzzzz Farming Desirability MOD 2.dat"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: spa-farm-desirability-mod
+        include:
+          - "/zzzzzzz Farming Desirability MOD - CAM.dat"
+conflicting:
+  - peg:spam
+
+---
+assetId: spa-farm-desirability-mod
+version: "1.0"
+lastModified: "2011-09-24T00:31:30Z"
+url: https://community.simtropolis.com/files/file/26789-farm-desirability-mod/?do=download&r=92352
+archiveType:
+  format: Clickteam
+  version: "40"
