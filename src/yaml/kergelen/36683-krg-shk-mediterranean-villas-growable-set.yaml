@@ -1,0 +1,38 @@
+group: kergelen
+name: shk-mediterranean-villas-growable-set
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Growable low density lots for the SHK Mediterranean Villas
+  description: |-
+    A set of growable low density lots for the SHK Villas, Italian/Mediterranean style houses that were originally lotted only as Mayor Mode ploppable eye candy.
+    Includes 20 low density residential lots (1x1, 1x2, 1x3, 2x2 and 2x3: 6 R$, 12 R$$ and 2 R$$$) and 3 low density commercial 1x2 lots (1 CS$ and 2 CS$$).
+    Building style: Euro.
+  author: kergelen
+  website: https://community.simtropolis.com/files/file/36683-krg-shk-mediterranean-villas-growable_set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/KRG_SHK_Italian_Villas.thumb.jpg.e0b8c81b5663392f47be91601f586920.jpg
+
+dependencies:
+  - shokthrpy:villas
+  - namspopof:nams-mega-props   
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:bat-props-mattb325-vol02
+  - citymax:champs-elysee-prop-pack
+  - krasner:prop-pack-vol01
+
+assets:
+  - assetId: kergelen-shk-mediterranean-villas-growable-set
+
+---
+assetId: kergelen-shk-mediterranean-villas-growable-set
+version: "1.0.0"
+lastModified: "2026-06-16T16:11:26Z"
+url: https://community.simtropolis.com/files/file/36683-krg-shk-mediterranean-villas-growable_set/?do=download
