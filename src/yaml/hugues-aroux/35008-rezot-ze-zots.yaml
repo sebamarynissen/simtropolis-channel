@@ -1,0 +1,84 @@
+group: hugues-aroux
+name: rezot-ze-zots
+version: "2.0.0"
+subfolder: 150-mods
+info:
+  summary: ReZot Ze Zots
+  description: |-
+    This Mod replaces the Maxis Zots.
+
+    1, I offer you here 4 differents models, as example,
+
+    2, the possibility to make your own Zots. For those of course who master texture editing (Photoshop|GIMP, GoFSH, IliveReader).
+
+    ![*:???:](https://community.simtropolis.com/assets/emoticons/default_42.gif "*:???:")  *Eh ben quoi, tu zozote un peu et tu yoyote ma pauv' Lolotte ! (In french dans le texte).*
+
+    **Installation**
+
+    You will find in the Scoty ZOTs/ directory 4 other directories : zots\_tex\_XX/. Each one contains the 4 textures for NoWork, NoWater, NoPower and NoCar Zot.
+
+    You can choose one of the directories and only one, OR, make a mix among the 4 Zots.
+
+    **Dev.**
+
+    The file scoty\_ZOTs\_S3D.dat contains the S3D (4x20 base maxis simcity\_1) in overload which redefine the UV Maps in order to match the new texture file (256x256 pix) 0xf8e000\[10|20|30|40\].
+
+    In addition to the notice, you will find the file ZOT\_Tex\_Ref\_tracing\_layer.png in the doc/ directory.
+
+    This file was used as a reference for the "objects-zots" of the 5 Zooms, for the elaboration of the FSH.
+
+    The orange marks are the tops of the Maps boxes, (+- 2 to 4 pix) (we don't need to be super precise\* !).
+
+    The cyan marks show the positioning area of my objects and the magenta marks are Maxis'.
+
+    \* If you want more info PM me ..
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/35008-rezot-ze-zots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/zot_02_plc.jpg.10e4948414358571887c3d614bc6b5a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/zot_01_plc.jpg.490f0c127a4ee3d6272d5b501a22ed03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/zot_03_plc.jpg.a15945d007d1e34bfa20156b4b2afe10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/zot_04_plc.jpg.faff6481e5010ba2ff3b17803074dbef.jpg
+variants:
+- variant: { hugues-aroux:rezot-ze-zots:style: "01" }
+  assets:
+  - assetId: hugues-aroux-rezot-ze-zots
+    include:
+    - "/scoty_ZOTs_S3D.dat"
+    - "/zots_tex_01/"
+- variant: { hugues-aroux:rezot-ze-zots:style: "02" }
+  assets:
+  - assetId: hugues-aroux-rezot-ze-zots
+    include:
+    - "/scoty_ZOTs_S3D.dat"
+    - "/zots_tex_02/"
+- variant: { hugues-aroux:rezot-ze-zots:style: "03" }
+  assets:
+  - assetId: hugues-aroux-rezot-ze-zots
+    include:
+    - "/scoty_ZOTs_S3D.dat"
+    - "/zots_tex_03/"
+- variant: { hugues-aroux:rezot-ze-zots:style: "04" }
+  assets:
+  - assetId: hugues-aroux-rezot-ze-zots
+    include:
+    - "/scoty_ZOTs_S3D.dat"
+    - "/zots_tex_04/"
+variantInfo:
+- variantId: "hugues-aroux:rezot-ze-zots:style"
+  description: Choose the desired zot style
+  values:
+  - value: "01"
+    description: "Style 01: 3D objects"
+  - value: "02"
+    description: "Style 02: Monochromatic zots"
+  - value: "03"
+    description: "Style 03: Colored spheres"
+  - value: "04"
+    description: "Style 04: Multicolored zots"
+
+---
+assetId: hugues-aroux-rezot-ze-zots
+version: "2.0.0"
+lastModified: "2022-03-28T20:42:21Z"
+url: https://community.simtropolis.com/files/file/35008-rezot-ze-zots/?do=download&r=192661

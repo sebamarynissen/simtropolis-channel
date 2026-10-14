@@ -1,0 +1,36 @@
+group: equinox
+name: rci-query-upgrade-mod
+version: "1.2"
+subfolder: "150-mods"
+info:
+  summary: RCI Query Upgrade Mod
+  description: |-
+    ** There is a newer version of this mod, `pkg=kel9509:rci-dll-query-upgrade`, and using that is is recommended in most cases, unless you are unable to use DLL mods.**
+    
+    This is a mod I wrote after becoming frustrated with the demand cap situation in one of my cities.  I realized I had no idea what the cap status was until the desirability began to fall and buildings began to dilapidate and abandon.  As a result, I took the game's three primary developer queries (residential, commercial, and industrial) and added some details and statistics to them, and that's what you have here.  The most important information this mod features relates to the demand caps.  These caps limit growth in your cities, and the percentage you have filled is shown in all 3 'upgraded' queries.  **For complete information on how demand caps work, and how to read the data in the queries, consult the enclosed HTML readme file.**  It explains them all in depth, based on information from the Prima strategy guide.  Also found in the queries are somewhat simpler stats like the number of each density zoned in the active city, and the demand for the developer type, but reflective of your cap status.
+
+    * * *
+
+    *These queries replace the default residential, commercial, and industrial queries.  You don't need to do anything other than plop 'em in the right folder for them to work (see the readme file!).  This means that both the queries for the growable buildings and the ploppables with jobs (both Maxis-default and STEX-downloaded) will have these new queries, unless they have their own custom one defined.*
+
+    * * *
+
+    I owe a big thanks to Daeley - without his assistance and question answering, I never would have been able to write any sort of custom UI file.
+
+    * * *
+
+    Version 1.2 (November 12th, 2004): new readme format, STEX description updated to account for the 4.0 upgrade-induced 'bugs'.  Not much else has changed.
+  author: Equinox
+  website: https://community.simtropolis.com/files/file/4243-rci-query-upgrade-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b224edcca5cb_EquinoxsQueryMod(Commercial).jpg.b22db4a043465d5b6751c0897937ff81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b224edd23415_EquinoxsQueryMod(Industrial).jpg.7c4b4b08299d9183c2e4772a303d8aa7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b224edd6be7a_EquinoxsQueryMod(Residential).jpg.fe075aa4f9a3ab2fcad595d494a59cd3.jpg
+assets:
+  - assetId: equinox-rci-query-upgrade-mod
+
+---
+assetId: equinox-rci-query-upgrade-mod
+version: "1.2"
+lastModified: "2018-06-14T11:17:56Z"
+url: https://community.simtropolis.com/files/file/4243-rci-query-upgrade-mod/?do=download&r=171163
