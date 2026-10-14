@@ -1,0 +1,55 @@
+group: paeng
+name: maximum-security-fence
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: MAXIMUM SECURITY FENCE
+  description: |-
+    This set will make it possible to construct a double-sided perimeter fence around special industries, airports, prisons, secret facilities or anything else you want to protect.
+
+    The set has seven pieces:
+
+    1.  1x1 straight
+    2.  2x1 straight
+    3.  1x1 outer curve
+    4.  1x1 inner curve
+    5.  1x1 inner gate (access to inner area)
+    6.  3x2 main gate (eyecandy)
+    7.  2x1 main gate (transit enabled)
+
+    Also included is a set of four path textures - concrete (default), asphalt, red stone and plain dirt.
+
+    Choose one of the textures only (or rename the one you want to use with the prefix 'z\_...', i.e. 'z\_asphalt.dat'). You can exchange the texture for another one any time, no need to re-plop the lots.
+
+    Make sure the 'keep\_this\_texture.dat' is installed all the time, as it contains the custom overlays.
+
+    Of course you can also change the path texture with anything you please using LotEditor.
+
+    The eyecandy gate can be used for any buildings that don't need direct road access. For all others you can use the transit enabled gate.
+
+    \------------------------------
+
+    The lots are completely neutral (no park or landmark effects), are cheap to plop and costs a monthly fee of 1§, except the gates - they cost between 10§ and 25§ a month. They are located at or near the end of the 'Parks' menu and have custom icons.
+
+    Thanks to everybody making resources available!
+
+    Enjoy!
+
+    And Merry Christmas to everybody!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/22998-maximum-security-fence/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/14c69b8deb16cf62b4e1f5406f54968c-stex_1_250.jpg
+    - https://www.simtropolis.com/objects/screens/0003/14c69b8deb16cf62b4e1f5406f54968c-stex_2_250.jpg
+dependencies:
+  - peg:security-fencing-kit
+  - bsc:mega-props-snm-vol01
+  - sfbt:essentials
+assets:
+  - assetId: paeng-maximum-security-fence
+
+---
+assetId: paeng-maximum-security-fence
+version: "1.0"
+lastModified: "2009-12-20T23:16:57Z"
+url: https://community.simtropolis.com/files/file/22998-maximum-security-fence/?do=download&r=49651

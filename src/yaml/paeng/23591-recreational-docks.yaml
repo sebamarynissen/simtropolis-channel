@@ -1,0 +1,76 @@
+group: paeng
+name: recreational-docks
+version: "1.0"
+subfolder: 600-parks
+info:
+  summary: Recreational Docks
+  description: |-
+    This is an addon for PEG's CSK2 series, so the proper (and very long) title should read:
+
+    **AddOn for 'PEG CSK2 PPond Canal Docks' - Recreational Style**
+
+    To give the hardworking folks from the industrial docks a break, here is a little addon that turns the docks into a boardwalk and offers some opportunities for recreation - taking a stroll along the rivers edge, rent a rowboat to sneak a first kiss from the new girlfriend or just check in on the Beer-O-Rama and party...
+
+    There are 5 lots -
+
+    1x1 straight section
+
+    1x1 inner corner
+
+    1x1 pier with shops
+
+    1x1 pier with rowboat rental
+
+    3x2 central piers with restaurant and shop
+
+    The lots are cheap to plop and to maintain. They need to be connected to your power-grid. The three pier-lots slightly raise COM-desirability and give a small boost to the Mayor's rating.
+
+    The REC Docks are located in the Harbor Menu just below the original CSK2 Docks with custom icons.
+
+    Note: There is no special 'Outer Corner' - just use the one from the regular docks!
+
+    Needless to say - these lots can be mixed freely with any other lots that are part of the PEG CSK2 PPond series.
+
+    \-----------------------------------------------------
+
+    DEPENDENCIES
+
+    \-----------------------------------------------------
+
+    If you use the CanalKit you'll have most of these packs already. Below the download-link I listed the needed file just in case you don't already use that particular pack.
+
+    \* PEG\-PPond Canal Kit
+
+    [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=tpmod;dl=get1000](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=tpmod;dl=get1000)
+
+    Needed file: PEG\_CSK2-PPOND\_RESOURCE.dat
+
+    \* PEG\-CDKM Marina
+
+    [https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=141483](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=141483)
+
+    Needed file: CDK3\_Marina\_RESOURCE\_110.dat
+
+
+
+
+    Enjoy :-)
+  author: paeng
+  website: https://community.simtropolis.com/files/file/23591-paengs-recreational-docks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e596199fadfed15ff0724751f26acf1f-stex1_rec.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e596199fadfed15ff0724751f26acf1f-stex2_rec.jpg
+dependencies:
+  - maxis:day-of-peace
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - peg:one-flag-many-nations
+  - peg:ppond-kit-resources
+assets:
+  - assetId: paeng-recreational-docks
+
+---
+assetId: paeng-recreational-docks
+version: "1.0"
+lastModified: "2010-03-26T06:08:41Z"
+url: https://community.simtropolis.com/files/file/23591-paengs-recreational-docks/?do=download&r=50451
