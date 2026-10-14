@@ -1,0 +1,58 @@
+group: kergelen
+name: iberiada-set-re-lotted
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Re-lotted Iberiada Set for Mediterranean cities
+  description: |-
+    A big set of growable lots for Mediterranean cities using the Iberiada Set models by Jack (SimCityPolska).
+    Includes 51 R$ lots, 28 R$$ lots and 10 R$$$ lots (stages 1 to 7), plus 11 CS$$ corner lots (stages 3 to 7),
+    in sizes 1x1, 1x2, 2x2, 2x4, 3x4, 4x4 and 4x2. All lots grow only in the European tileset and in medium density residential zones.
+    The 2x4, 3x4 and 4x4 lots are designed to form eye candy pedestrian streets between the buildings.
+    Every model also has a building-as-prop version and prop families, and most models are sorted into building families.
+    Compatible with Paeng's and Gobias' sidewalk mods.
+  conflicts: |-
+    If you use the BSC No Maxis files or another Maxis building blocker, make sure you have enough other custom lots for the first stages (1, 2 and 3).
+  author: kergelen
+  website: https://community.simtropolis.com/files/file/28399-iberiada-set-re-lotted/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-5fd18ff0ebd8fa48863be0248cc22836-iberiada-re-lotted-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-32a09d90816fd8c751f9f4cb57d7d8f9-lots-2x2-4x4-with-a-2-tiles-promedade-in-the-middle.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-96d5673820dde7152a7e564b3da35bf5-merkine-6-abr--371347826512.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-844eaf40d016b9d758e858ccd4e7bcb9-merkine-25-ag--371347831208.jpg
+
+dependencies:
+  - jack:iberiada-set-models
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02   
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jenx-vol02-paris
+  - bsc:texturepack-cycledogg-vol01
+  - citymax:champs-elysee-prop-pack
+  - lbt:mega-prop-pack-vol01
+  - namspopof:nams-mega-props   
+  - vip:rural-pack
+  - orange:fagus
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - sfbt:essentials
+  - sfbt:peterycristi-props
+  - nbvc:bikes-props
+  - murimk:props-vol01-bicycles
+
+assets:
+  - assetId: kergelen-iberiada-set-re-lotted
+
+---
+assetId: kergelen-iberiada-set-re-lotted
+version: "1.0"
+lastModified: "2013-01-27T11:31:12Z"
+url: https://community.simtropolis.com/files/file/28399-iberiada-set-re-lotted/?do=download
