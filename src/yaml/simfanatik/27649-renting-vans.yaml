@@ -1,6 +1,6 @@
 group: simfanatik
 name: renting-vans
-version: "1.0a"
+version: "1.0a-1"
 subfolder: 100-props-textures
 info:
   summary: Renting Vans
@@ -27,29 +27,17 @@ info:
 variants:
   - variant: { "simfanatik:renting-vans:resolution": "hd" }
     assets:
-    - assetId: simfanatik-renting-vans-part-0
-      include:
-        - HARDWARE.dat
-    - assetId: simfanatik-renting-vans-part-1
+    - assetId: simfanatik-renting-vans
       include:
         - HD.dat
   - variant: { "simfanatik:renting-vans:resolution": "sd" }
     assets:
-    - assetId: simfanatik-renting-vans-part-0
-      include:
-        - SOFTWARE.dat
-    - assetId: simfanatik-renting-vans-part-1
+    - assetId: simfanatik-renting-vans
       include:
         - SD.dat
 
 ---
-assetId: simfanatik-renting-vans-part-0
-version: "1.0a"
-lastModified: "2018-09-07T10:38:06Z"
-url: https://community.simtropolis.com/files/file/27649-renting-vans/?do=download&r=172573
-
----
-assetId: simfanatik-renting-vans-part-1
+assetId: simfanatik-renting-vans
 version: "1.0a"
 lastModified: "2018-09-07T10:38:06Z"
 url: https://community.simtropolis.com/files/file/27649-renting-vans/?do=download&r=172574
