@@ -1,0 +1,68 @@
+group: simfanatik
+name: replacement-school-bus
+version: "1.0"
+info:
+  summary: Replacement School Bus
+  description: |-
+    ![simfanschoolbus2.jpg](http://img832.imageshack.us/img832/9827/simfanschoolbus2.jpg)OK ! This time , i have been waiting for someone to make a mod that change the original in game bus,
+
+    and FANTA1990 Dit it ! , are'nt you tired of thoses underscale ingame ghost like school busses ,
+
+    this is my version of it ,a modern Thomas flat nose , of course the vehicle replace the in game one
+
+    but  ( WILL NOT ) be spanned by the schools , that is the reason why i did make a prop version of it.
+
+    As usual there are  2 files , SIMFAN SCHOOL BUS Software 256 - for thoses who are running in software
+
+    and SIMFAN SCHOOL BUS HD 512 - for thoses who are running in Hardware , please only play one file.
+
+    also i did make 3 props versions ,  one 90 degree , one 20 degree , and finally one 20 degree reverse version
+
+    To install  simply choose the one that suits your needs  and throw it in your pluggins folder , and your set to go !
+
+    Special thanks to FANTA1990 who did make this mod
+
+    Enjoy and have fun !
+
+    Simfanatik !
+  author: Simfanatik
+  website: https://community.simtropolis.com/files/file/25717-replacement-school-bus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/374f5315f1e7cbb4ca3b6f831e467add-THOMAS MAIN.jpg
+    - https://www.simtropolis.com/objects/screens/0007/374f5315f1e7cbb4ca3b6f831e467add-SIMFAN SCHOOL BUS WEB.jpg
+variants:
+  - variant: { "simfanatik:replacement-school-bus:resolution": "hd" }
+    assets:
+    - assetId: simfanatik-replacement-school-bus
+      include:
+        - 512.dat
+  - variant: { "simfanatik:replacement-school-bus:resolution": "sd" }
+    assets:
+    - assetId: simfanatik-replacement-school-bus
+      include:
+        - 256.dat
+
+---
+group: simfanatik
+name: replacement-school-bus-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Replacement School Bus Props
+  description: |-
+    3 props versions , one 90 degree , one 20 degree , and finally one 20 degree reverse version
+  author: Simfanatik
+  website: https://community.simtropolis.com/files/file/25717-replacement-school-bus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/374f5315f1e7cbb4ca3b6f831e467add-THOMAS MAIN.jpg
+    - https://www.simtropolis.com/objects/screens/0007/374f5315f1e7cbb4ca3b6f831e467add-SIMFAN SCHOOL BUS WEB.jpg
+assets:
+- assetId: simfanatik-replacement-school-bus
+  include:
+    - /PROPS/
+
+---
+assetId: simfanatik-replacement-school-bus
+version: "1.0"
+lastModified: "2011-01-17T12:26:35Z"
+url: https://community.simtropolis.com/files/file/25717-replacement-school-bus/?do=download&r=53675

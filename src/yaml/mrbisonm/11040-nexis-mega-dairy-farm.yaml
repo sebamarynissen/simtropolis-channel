@@ -1,0 +1,85 @@
+group: mrbisonm
+name: nexis-mega-dairy-farm
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Nexis Mega Dairy Farm
+  description: |-
+    Nexis is back with some farmbats and lots. To start with I offer you the Nexis Mega Dairy farm. A big and modern Dairy farm as we have them here in Quebec/Canada.
+
+    This is a stage II lot which needs at least 10x8 I zoning.There are two versions included, growable and ploppable park, download the .lot file that you like.
+
+    Dependencies are : DEDWD\_Prop\_vol02\_v1.0.dat  
+                                      PropPak\_mjb\_Industrial\_Vol01.dat  
+                                      PropPak\_mjb\_TreesShrubsAndFlowers01a.dat  
+                                      PropPak\_mjb\_TreesShrubsAndFlowers02a.dat  
+                                      Vehicle\_Props-V3.dat..............not really necessary
+
+    These can be found in:
+
+    BSC MEGA Props - DAE Vol. 01 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=475](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)
+
+    BSC MEGA Props - MJB Vol. 01 [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=407](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+
+    Nexis Silo props pack 01 [https://community.simtropolis.com/files/file/3532-nexis-silo-prop-pack-1/](https://community.simtropolis.com/files/file/3532-nexis-silo-prop-pack-1/)
+
+    Nexis Utility props pack 01 [https://community.simtropolis.com/files/file/3547-nexis-utility-prop-pack-1/](https://community.simtropolis.com/files/file/3547-nexis-utility-prop-pack-1/)
+
+    props are available on the STEX (Simtropolis Exchange)
+
+    Nexis Props included in this folder:  
+                                     NXS\_SiloGrainMed.1\_prop-0x6534284a.SC4Desc  
+                                     nxs\_Firewood\_prop-0x6534284a.SC4Desc
+
+    Make sure that you download all the .model and .desc files to your  Mydocument/SC4/Plugin folder.
+
+    Please read the Readme file included for further details including the history of this BATlot.
+
+    Credits go to my friend GrampaAL for the query and the tweaking.
+
+    Have Fun with Nexis
+
+    Staff Edits:
+
+    12/10/2019: Updated file descriptor. -CF
+
+    05/17/2020: Updated Dependencies, added links. -CF
+  author: mrbisonm
+  website: https://community.simtropolis.com/files/file/11040-nexis-mega-dairy-farm/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d909f86bff9ca169810c25457ebeacd1-1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d909f86bff9ca169810c25457ebeacd1-2.jpg
+dependencies:
+  - mrbisonm:nexis-silo-prop-pack
+  - mrbisonm:nexis-utility-prop-pack
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-mjb-vol01
+  - gizmo:vehicle-props
+  - mrbinsonm:nexis-mega-dairy-farm-model
+assets:
+  - assetId: mrbisonm-nexis-mega-dairy-farm
+    exclude:
+      - /NexisMegaDairyFarm-0x5ad0e817_0xae66bb83_0x30000.SC4Model
+
+---
+group: mrbisonm
+name: nexis-mega-dairy-farm-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Nexis Mega Dairy Farm
+  author: mrbisonm
+  website: https://community.simtropolis.com/files/file/11040-nexis-mega-dairy-farm/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d909f86bff9ca169810c25457ebeacd1-1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d909f86bff9ca169810c25457ebeacd1-2.jpg
+assets:
+  - assetId: mrbisonm-nexis-mega-dairy-farm
+    include:
+      - /NexisMegaDairyFarm-0x5ad0e817_0xae66bb83_0x30000.SC4Model
+
+---
+assetId: mrbisonm-nexis-mega-dairy-farm
+version: "1.0"
+lastModified: "2004-11-21T17:37:06Z"
+url: https://community.simtropolis.com/files/file/11040-nexis-mega-dairy-farm/?do=download&r=30877
