@@ -1,6 +1,6 @@
 group: glenni
 name: schaus-brewery
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Schau's Brewery
@@ -25,10 +25,27 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0003/0d7674100fb0a2591e3092c748b7e1f4-scahubre-1.jpg
     - https://www.simtropolis.com/objects/screens/0003/0d7674100fb0a2591e3092c748b7e1f4-scahubre-2.jpg
-assets:
-  - assetId: glenni-schaus-brewery
 dependencies:
   - bsc:textures-vol02
+  - glenni:schaus-brewery-model
+assets:
+  - assetId: glenni-schaus-brewery
+    exclude:
+      - \.SC4Model$
+
+---
+group: glenni
+name: schaus-brewery-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model for `pkg=glenni:schaus-brewery`
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/23044-schaus-brewery/
+assets:
+  - assetId: glenni-schaus-brewery
+    include:
+      - \.SC4Model$
 
 ---
 assetId: glenni-schaus-brewery
