@@ -1,0 +1,34 @@
+group: spa
+name: victoria-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Victoria Apartments
+  description: |-
+    The old apartment building at the corner of Hollis and Morris Streets was a prominent local landmark in Halifax, Nova Scotia, Canada for over a hundred years. The old row house portion on Morris Street was built in 1820 by the Morris family, right next door to their primary home. Charles Morris was Nova Scotia's Chief Surveyor and was instrumental in laying out Halifax from plans drafted in London in 1749. In the 1850s, the Morris's sold the whole property and after several different owners, it was finally purchased by A. J. Manley in 1895 at a sheriff's auction. Manley moved the original Morris house farther down Hollis Street and added a Queen Anne addition onto the 1820 row house. The newly enlarged building became the New Victoria Hotel and apart from the removal of the corner tower, the structure remained substantially unchanged for the next 100 years. The Victoria Hotel became the Victoria Apartments in 1910 and the Zive family later purchased the property in 1947.
+
+    The Victoria Apartments went through several transformations after 1897. Local lore holds that when the southern end of Hollis Street served as Halifax's red light district, the building was a well-established brothel. Under the Zive's, the building's condition steadily worsened (the Zive's properties were generally easily recognizable as they were all painted with the same dull battleship grey colour). The Victoria Apartment's cheap rents in the heart of the city attracted musicians, artists and students and at some point it went from brothel to unofficial dorm. My wife and I actually lived in the building as students from 2008-2009.
+
+    After the death of Dvara Elaine Leventhal (Zive) in 2005, the property was purchased by Dexel Developments. Under Dexel, the Victoria Apartments long colourful history came to an end. After decades of neglect, the building was in poor shape, but the surrounding neighbourhood had gentrified, making it a prime site for redevelopment. In 2009, Halifax Regional Council approved a development agreement with Dexel allowing the demolition of the existing buildings and the construction of a new 10 storey apartment building with ground floor commercial space in their place. All the tenants moved out in September 2009 and by the New Year, the Victoria Apartments had become a pile of rubble (the Morris House has, so far, survived having been moved to safety for a third time at the last minute). The Victoria Apartments are gone, but it won't soon be forgotten as it lives on in the memories of those who lived there and, now, in SimCity 4 as well.
+
+    The Victoria Apartments comes to SimCity as a 2x2 corner building with left and right versions. It grows on medium density on the Chicago and New York tile sets and provides housing for 261 R$.
+  author: spa
+  website: https://community.simtropolis.com/files/file/24771-victoria-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/b331df32a2c082b455e7a6b4476bd5b9-victorian-apartments-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/a0c5f5a59dc7395db49c273d977619f3-victorian-apartments-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/1b760fad7995c56ed429762ab94b1f16-victoria-apartments-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: spa-victoria-apartments
+
+---
+assetId: spa-victoria-apartments
+version: "1.0"
+lastModified: "2010-08-30T23:59:40Z"
+url: https://community.simtropolis.com/files/file/24771-victoria-apartments/?do=download&r=114496
+archiveType:
+  format: Clickteam
+  version: "40"

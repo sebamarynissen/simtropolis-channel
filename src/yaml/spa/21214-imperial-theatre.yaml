@@ -1,0 +1,30 @@
+group: spa
+name: imperial-theatre
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Imperial Theatre
+  description: |-
+    The Imperial Theatre has been a major landmark in Saint John, New Brunswick since 1913. The Neo-classical Theatre was built to revitalize and consolidate entertainment in Saint John. Opening on the eve of the First World War, the building was quickly offered up to serve the War Effort as a recruiting and fundraising centre. The Imperial struggled during and after the War, running large deficits until 1929 when it was purchased by Famous Players. Under Famous Players, the Imperial was renamed the Capitol and was converted into a movie theatre. With the eventual rise of television, however, the Silver Screen's golden age came to an end and the Imperial was closed. In 1957, the Theatre was given to the Full Gospel Assembly. For the next twenty-five years, the Theatre was used as a church. The Gospel Assembly proved unable to carry the cost of maintaining the old building and by the early 1980s was looking to sell. A grassroots movement was organized to save the old Theatre and by 1984, after two years of fundraising, a local group had collected the needed $1,000,000 to buy the building. Over the next 11 years, under local ownership, a modern addition was added and the Theatre's interiors and front facade were restored to their former glory. The Imperial's original name was resurrected and the building reopened in 1994 to once again serve the stage (for the first time in sixty-five years). The Imperial is a special building in that it represents the glory days of theatre, before movies and television. It is unique in that it has survived where many others like it have been lost, that it was saved by the people of Saint John and has now been finally put back to use for the purpose that it was originally built for. The Imperial Theatre is a National Historic Site and a registered heritage property under federal and provincial Historic Places Initiatives.
+
+    This bat recreates the front of the Imperial and includes some elements of how the building looked historically. I did not recreate the modern addition that was added during the 1980s restoration because I think it's really ugly and doesn't fit what is otherwise a great building. So, if you're ever in Saint John, you'll only recognize the front. The Imperial comes as 2x3 grow and plop and provides 116 Cs$$$ jobs.
+  author: spa
+  website: https://community.simtropolis.com/files/file/21214-imperial-theatre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/b757dbbd0014216744021ba04a78e825-imperial-theatre-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/ebb873090dc26dc17b9c2ba728ae7a21-imperial-theatre-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/b401b9a4bb02af010f5980c6dd4266bd-imperial-theatre-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: spa-imperial-theatre
+
+---
+assetId: spa-imperial-theatre
+version: "1.0"
+lastModified: "2009-03-13T23:23:57Z"
+url: https://community.simtropolis.com/files/file/21214-imperial-theatre/?do=download&r=114512
+archiveType:
+  format: Clickteam
+  version: "40"

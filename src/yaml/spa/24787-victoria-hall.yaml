@@ -1,0 +1,33 @@
+group: spa
+name: victoria-hall
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Victoria Hall
+  description: |-
+    Victoria Hall is a retirement home for women in Halifax, Nova Scotia, Canada. Victoria Hall traces its roots to 1860 when the Home for the Aged was established as a charity in a small rental house on Gottingen Street, not far from the Hall's current location. The charity's goal was to provide accommodation for elderly women and it offered more than just the basic necessities of life. It was quite successful and within 3 years had outgrown the small rental house. To provide more rooms, the charity purchased Senator William Roach's house farther up Gottingen Street in 1863. Over the next two decades, the Home for the Aged again outgrew the space and decided to expand. In the early 1880s the charity hired a preeminent local architect, Henry Frederick Busch, to design a new building. Busch's creation, Victoria Hall, was finished in 1885 on the site of Roach's original house. The stately building has graced Gottingen Street ever since although the charity that runs it has changed its name over the years. Started as the Home for the Aged, it became the Old Ladies Home in 1906 and then finally Victoria Hall in 1970. The charity still owns and operates the building today and its original mission to provide housing for elderly women remains unchanged.
+
+    My version of Victoria Hall is a close, but not perfect, replica of the real building. I didn't, however, try to match the lot to the real thing. The real building is red, but I have included three other colour variations (blue, yellow and grey) for variety. Victoria Hall grows on a 4x3 medium density lot on the Chicago and New York tilesets and offers space to 252 R$$.
+  author: spa
+  website: https://community.simtropolis.com/files/file/24787-victoria-hall/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/fb8e3b545668513eb9a46c6d5c43f504-victoria-hall-upload-1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/c12b07ed978ee393411dcb813df29d34-victoria-hall-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/1fca6203658cdcd251ff3e2b14260e91-victoria-hall-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+assets:
+  - assetId: spa-victoria-hall
+
+---
+assetId: spa-victoria-hall
+version: "1.0"
+lastModified: "2010-09-03T03:08:56Z"
+url: https://community.simtropolis.com/files/file/24787-victoria-hall/?do=download&r=114488
+archiveType:
+  format: Clickteam
+  version: "40"

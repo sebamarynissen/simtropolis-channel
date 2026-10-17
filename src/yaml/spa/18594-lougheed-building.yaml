@@ -1,0 +1,35 @@
+group: spa
+name: lougheed-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Lougheed Building
+  description: |-
+    The Lougheed Building is based on an actual building on 4th Street SWin Calgary, AB, Canada (it's just around the corner from 17th avenue). The building is home to a Sushi Restaurant and a liquour store. The upstairs offices are occupied by several companies.  
+      
+    The Lougheed Building is the second entry in my 17th avenue bat set. It fits w2w on one side and fairly close on the other. A growable and a plop are included in this upload. See the readme for complete details.
+  author: spa
+  website: https://community.simtropolis.com/files/file/18594-lougheed-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/59c2b588260fd7386ae48bb41de7f816-lougheed-preview-a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/01fbe1559edff9d2b74913897697295c-lougheed-preview-b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/0464470ce05ab15f09671df7d7596253-lougheed-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-w2w-vol01
+  - csx:mega-props-vol03
+assets:
+  - assetId: spa-lougheed-building
+
+---
+assetId: spa-lougheed-building
+version: "1.0"
+lastModified: "2007-08-26T09:12:36Z"
+url: https://community.simtropolis.com/files/file/18594-lougheed-building/?do=download&r=144976
+archiveType:
+  format: Clickteam
+  version: "40"

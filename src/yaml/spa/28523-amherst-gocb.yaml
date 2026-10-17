@@ -1,0 +1,35 @@
+group: spa
+name: amherst-gocb
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Amherst GOCB
+  description: |-
+    The Amherst Government of Canada Building is a federal government building in Amherst, Nova Scotia. Constructed in 1975, the building is located at the corner of Havelock and Prince Arthur Streets and serves as the regional headquarters for the Department of Indian and Northern Affairs. Given its small town location, the Amherst GOCB is notable for being a rather large office building. Amherst has just under 10,000 people, but, like Moncton, its location on the Trans-Canada Highway near the geographic centre of the Maritimes makes the town an attractive location for industry and federal government departments.
+
+    The Amherst GOCB comes to SimCity as 5x5 corner lot (a left and right corner version).
+  author: spa
+  website: https://community.simtropolis.com/files/file/28523-amherst-gocb/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/c787d326d3681f9302b10eccee0c89fb-simtropolis-amherst-gocb-front.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/8c5ed6416398989e645c6ba280bc7f07-simtropolis-amherst-gocb-west.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/11f66466dc06445220ddca61652ef23a-simtropolis-amherst-gocb-back.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/6497e2faff3235e1a642cfc592881bcf-simtropolis-amherst-gocb-east.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/f21ecca5354c92197d7db05a52e37287-simtropolis-amherst-gocb-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/5d6695b3e23d0034c0da20c394668a22-amherst-gocb-readme-2.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol02
+assets:
+  - assetId: spa-amherst-gocb
+
+---
+assetId: spa-amherst-gocb
+version: "1.0"
+lastModified: "2013-02-28T22:34:42Z"
+url: https://community.simtropolis.com/files/file/28523-amherst-gocb/?do=download&r=112508
+archiveType:
+  format: Clickteam
+  version: "40"

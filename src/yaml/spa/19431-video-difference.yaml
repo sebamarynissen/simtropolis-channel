@@ -1,0 +1,30 @@
+group: spa
+name: video-difference
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Video Difference
+  description: |-
+    Video Difference is a small video rental chain based in Canada's Maritime provinces. The flagship store (this bat) is located in a converted house on Halifax's Quinpool Road and is the world's best video store. The place is open 24 hours, has a wide selection of movies including an impressive assortment of foreign and independent films, rents kids movies for free during the week, has a food for fines program tied to the Metro Food Bank and actually accepts Canadian Tire Money as currency. The place is a definite Halifax landmark.
+
+    Video Difference fits w2w on one side and has a narrow alley on the other. It matches the small town set and comes with a growable and a ploppable landmark. See the readme for comlete details.
+  author: spa
+  website: https://community.simtropolis.com/files/file/19431-video-difference/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/d9449c5249fa4bd48d055d7c12ba238b-video-difference-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/59d464f0a1e5bfae3ba1a76e27a92774-video-difference-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/84a5290ae2956ab2afbf71afb14b941f-video-difference-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: spa-video-difference
+
+---
+assetId: spa-video-difference
+version: "1.0"
+lastModified: "2008-02-26T01:43:13Z"
+url: https://community.simtropolis.com/files/file/19431-video-difference/?do=download&r=114604
+archiveType:
+  format: Clickteam
+  version: "40"

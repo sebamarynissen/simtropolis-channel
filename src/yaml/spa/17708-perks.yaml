@@ -1,0 +1,30 @@
+group: spa
+name: perks
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Perks
+  description: |-
+    Perks is a small coffee chain in Halifax, Nova Scotia, Canada. The chain operates three outlets in the city, one on Lower Water Street by the ferry terminal and two on Quinpool Road. The small local chain is now facing increased competition with the addition of Timothy’s and Starbucks into the Halifax market. However, Perks’ superb geographic locations will likely allow the chain to weather the storm. This bat is based on the Perks’ Quinpool Road location.  
+      
+    It is my second bat in my series of bats from Halifax’s Quinpool Road. Perks grows on a 1x2 corner lots and provides space for Cs$$. The Perks lot is compatible with JBSimio's small town set.
+  author: spa
+  website: https://community.simtropolis.com/files/file/17708-perks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/b23951cb305248f28fee7b8d08f8b91b-perks-released-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/9a43534d47b79a2a468f46c7bcba8ebe-perks-released-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/6147ac49153279766f3fac458f5af6f6-perks-1.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:essentials
+assets:
+  - assetId: spa-perks
+
+---
+assetId: spa-perks
+version: "1.0"
+lastModified: "2007-02-01T00:34:19Z"
+url: https://community.simtropolis.com/files/file/17708-perks/?do=download&r=144940
+archiveType:
+  format: Clickteam
+  version: "40"
