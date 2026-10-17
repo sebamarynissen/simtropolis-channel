@@ -1,0 +1,53 @@
+group: paeng
+name: gridbuster-warehouses-vol01
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: GridBuster Warehouses Vol01
+  description: |-
+    A small set of industrial warehouses - 'GridBusters' can be used along diagonal roads and may also serve as 'Extenders', meaning they can reach under elevated networks, at least partially.
+
+    **LIST OF ITEMS**
+
+    6 Lots - varying sizes, functional Landmarks (I-D jobs)
+
+    **DEVELOPER NOTES**
+
+    The lots are laid out as functional landmarks with some I-D jobs. They need Power, Water and Road Access, and also produce a little pollution, see ingame menu for more details. You find all items at or near the end of the '*Landmarks*' menu.
+
+    As mentioned, these lots will help you fill some space along diagonal streets and roads - the better if you also download the recommended (optional) *Filler- and Extender Pack*. Together they can be used to really add life to diagonals, as well as hiding some of the worst jaggies you may get.
+
+    Since many diagonal lots work with overhanging props, you may be familiar with some small issues - e.g. street lamps or -junk sticking out of your lot in places where you don't want them. In most cases you can solve that by clicking into the street again with the street tool - that will change the items and their placements... Or, if that does not help, try to move the lot one square to the left or right, e.g. to get a streetlight out of a driveway.
+
+    All items labelled 'GridBusters' are made so they can be 'overplopped' with MMPs - that way you can add even more life to the lots by brushing in vehicles, industrial props, peeps, greenery or whatever else strikes your fancy.
+
+    **INSTALLATION**
+
+    Put the whole bundle into "*(My )Documents/Plugins*". You may of course opt to install only certain items - just remove any lot(s) you do not wish to use - but make sure you always keep the Resource file (*KEEP\_Warehouse\_Resource.dat*) installed.
+
+    To un-install - bulldoze all lots you may have plopped from this pack, then remove it completely from your Plugins.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the  [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php/board,109.0.html)
+
+    **Enjoy!**
+
+    Fixed dependency links and tidied up description formatting.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/27701-paengs-gridbuster-warehouses-vol01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/c4ed6a582b2182921663099c7fced597-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/6a2ce7dea639b0de6261f557eaee815e-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/76b18f953d84ba44a736bfec6967fdf4-.jpg
+dependencies:
+  - murimk:props-vol03-industrials
+  - paeng:grunge-concrete-set-resources
+assets:
+  - assetId: paeng-gridbuster-warehouses-vol01
+
+---
+assetId: paeng-gridbuster-warehouses-vol01
+version: "1.0"
+lastModified: "2012-06-07T15:32:22Z"
+url: https://community.simtropolis.com/files/file/27701-paengs-gridbuster-warehouses-vol01/?do=download&r=101998

@@ -1,0 +1,81 @@
+group: paeng
+name: age-degradation-mod
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Age Degradation Mod
+  description: |-
+    We all know the problem with power plants and water pumps - the higher the '*Capacity Used*' (because of plenty consumers or lack of budget), the faster it dilapidates (plus '*Cost per MWh*' rises).
+
+    Take an oil plant - if you run it at 100% capacity from the start, the '*Plant Condition*' (and its '*Actual Capacity*') will decay really fast - like down to 10% within 50 years, with a whopping raise of cost per MWh.
+
+    This can now be helped with a little mod that works with all default power plants and water pumps... I made a series so you can have a choice - either use **a Doubler, a Quadrupler or a Radical Mod**.
+
+    **Default Values** ('*Age Degradation*') -
+
+    100 years - Solar, Wind, Water Tower
+
+    80 years - Waste-to-Energy
+
+    75 years - Oil, Gas, Coal, Recycling, Small and Large Water Pumps, Water Purification
+
+    60 years - Nuclear
+
+    50 years - Hydrogen
+
+    The mods **double** or **quadruple** the age limit (e.g. 100 years become 200 or 400 years).
+
+    The radical mod basically **stops** degradation (well, at least for about 5000 years).
+
+    The mod does not raise capacities or anything like that - if your city needs 50.000 MWh you still need to build a sufficient number of plants, and you still have frequent brownouts if you underfund too much. The mod just slows the rate of decay, so you can be a little more creative with your funding, and capacity or costs don't fall into the cellar as quickly (depending on which of the mods you use). Also shuts up the advisor for a bit longer ;-)
+
+    **CREDITS**
+
+    MODding: **Paeng**
+
+    A special **Thanks!** goes to **TownMaster2005** who saved me from doing the math :-)
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [**Paeng Productions Forum**](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10417.0)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/27928-paengs-age-degradation-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/c784e492fb490e1d6f7879f78a0e2558-degrade_800.jpg
+variants:
+- variant: { paeng:age-degradation-mod:strength: "double" }
+  assets:
+  - assetId: paeng-age-degradation-mod
+    include:
+      - /Degrade_x2.dat
+- variant: { paeng:age-degradation-mod:strength: "quadruple" }
+  assets:
+  - assetId: paeng-age-degradation-mod
+    include:
+      - /Degrade_x4.dat
+- variant: { paeng:age-degradation-mod:strength: "radical" }
+  assets:
+  - assetId: paeng-age-degradation-mod
+    include:
+      - /Degrade_radical.dat
+variantInfo:
+- variantId: "paeng:age-degradation-mod:strength"
+  description: Tweak the age degradation rate of utilities.
+  values:
+  - value: "double"
+    description: Doubles the life expectancy of utilities.
+    default: true
+  - value: "quadruple"
+    description: Quadruples the life expectancy of utilities.
+  - value: "radical"
+    description: Extends the life expectancy of utilities to 5000 years.
+
+---
+assetId: paeng-age-degradation-mod
+version: "1.0"
+lastModified: "2012-08-13T14:32:39Z"
+url: https://community.simtropolis.com/files/file/27928-paengs-age-degradation-mod/?do=download&r=105224

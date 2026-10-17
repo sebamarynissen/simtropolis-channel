@@ -18,6 +18,7 @@ export default {
 		'bsc:mega-props-jrj-vol04',
   		'bsc:mega-props-jrj-vol05',
 	],
+	219: 'bsc:mega-props-gascooker-vol01',
 	228: 'bsc:mega-props-rt-vol02',
 	272: 'bsc:mega-props-snm-vol01',
 	283: 'girafe:hedges',
