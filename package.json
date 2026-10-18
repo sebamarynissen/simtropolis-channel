@@ -29,6 +29,7 @@
     "fetch": "gh workflow run add-packages.yaml",
     "deploy": "gh workflow run deploy.yaml",
     "lint": "eslint actions/**/*.js",
+    "lint:yaml": "node scripts/lint-yaml.js",
     "test": "mocha actions/fetch/test",
     "test:fetch": "node --env-file=.env actions/fetch/manual-action.js"
   },

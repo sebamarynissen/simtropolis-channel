@@ -8,6 +8,7 @@ Note that the instructions and specific commands may vary slightly between Windo
 This repository contains the following scripts, some of which add new features on top of the default sc4pac CLI commands:
 - [`npm run add`](#npm-run-add) - Generate metadata from one or more STEX URLs, or optionally all URLs from specified authors
 - [`npm run build`](#npm-run-build) - Rebuild the Simtropolis sc4pac channel to include the new metadata
+- [`npm run lint:yaml`](#npm-run-lintyaml) - Run the sc4pac lint locally to detect potential issues with metadata
 - [`npm run prune`](#npm-run-prune) - Scan each lot to find dependencies not listed in the metadata.
 - [`npm run list`](#npm-run-list) - Generate a list of dependencies from a package in a standard format.
 - [`npm run symlink`](#npm-run-symlink) - Create a symlink between test plugins folder and game plugins folder.
@@ -140,6 +141,21 @@ This command builds the local sc4pac channel to include recently added or update
 
 
 
+## `npm run lint:yaml`
+The linting process identifies potential errors and bugs as well as style violations in the YAML code.
+The sc4pac linting is typically done remotely once a pull request is submitted.
+This command lets you run it locally before submitting.
+By default, the entire `src\yaml` directory is validated, though an optional argument allows only a specific subfolder to be validated.
+``` sh
+npm run lint:yaml
+npm run lint:yaml -- src/yaml/simfox
+```
+
+Note that python is required to run the linting script.
+Any [modern version](https://devguide.python.org/versions/) of python should work, but 3.14 is recommended.
+
+
+
 ## `npm run prune`
 This command automatically reports the dependencies for a package.[^npm-run-prune]
 Some authors unfortunately report inaccurate dependencies, and this script will warn about missing dependencies that are not already included in the metadata.
@@ -262,6 +278,8 @@ This section details the workflow of adding and testing packages. The summary of
 npm run add <url>
 
 npm run build
+
+npm run lint:yaml
 
 # If you suspect the dependencies are not correct - for example all the bsc dependencies
 # have been added, then you can prune everything first. Typically not needed if the 
