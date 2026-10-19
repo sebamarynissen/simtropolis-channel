@@ -1,5 +1,5 @@
 group: "kel9509"
-name: "rci-dll-query-upgrade"
+name: "rci-query-upgrade"
 version: "3.1"
 subfolder: "150-mods"
 dependencies:
@@ -41,31 +41,66 @@ conflicting:
   - equinox:rci-query-upgrade-mod
 
 variants:
-  # simplify the installation options - only provide two of the five choices for the ui
-  # `hugues-aroux:ui-carbon-skin` also uses this variant, so if this is expanded later then update that package too
-  - variant: { kel9509:rci-dll-query-upgrade:orientation: "vertical" }
+  # one variant value for each of the seven query styles included in the download
+  # `hugues-aroux:ui-carbon-skin` also uses this variant, so update that package too when the values change
+  - variant: { kel9509:rci-query-upgrade:style: "vertical-bold-tooltips" }
     assets:
-      - assetId: kel9509-rci-dll-query-upgrade
+      - assetId: kel9509-rci-query-upgrade
         include:
-        - "/RCI DLL Query v3.1B - Vertical Bold Tooltips Building Styles/"
-  - variant: { kel9509:rci-dll-query-upgrade:orientation: "horizontal" }
+          - "/RCI DLL Query v3.1B - Vertical Bold Tooltips Building Styles/"
+  - variant: { kel9509:rci-query-upgrade:style: "vertical-bold-full" }
     assets:
-      - assetId: kel9509-rci-dll-query-upgrade
+      - assetId: kel9509-rci-query-upgrade
         include:
-        - "/RCI DLL Query v3.1C - Horizontal Bold/"
+          - "/RCI DLL Query v3.1A - Vertical Bold Full Building Styles/"
+  - variant: { kel9509:rci-query-upgrade:style: "vertical-light-tooltips" }
+    assets:
+      - assetId: kel9509-rci-query-upgrade
+        include:
+          - "/RCI DLL Query v3.1E - Vertical Light Tooltips Building Styles/"
+  - variant: { kel9509:rci-query-upgrade:style: "vertical-light-full" }
+    assets:
+      - assetId: kel9509-rci-query-upgrade
+        include:
+          - "/RCI DLL Query v3.1D - Vertical Light Full Building Styles/"
+  - variant: { kel9509:rci-query-upgrade:style: "horizontal-bold" }
+    assets:
+      - assetId: kel9509-rci-query-upgrade
+        include:
+          - "/RCI DLL Query v3.1C - Horizontal Bold/"
+  - variant: { kel9509:rci-query-upgrade:style: "mini-vertical-bold" }
+    assets:
+      - assetId: kel9509-rci-query-upgrade
+        include:
+          - "/RCI DLL Query v3.1 MINI-A - Vertical Bold Mini/"
+  - variant: { kel9509:rci-query-upgrade:style: "mini-vertical-light" }
+    assets:
+      - assetId: kel9509-rci-query-upgrade
+        include:
+          - "/RCI DLL Query v3.1 MINI-D - Vertical Light Mini/"
 
 variantInfo:
-  - variantId: kel9509:rci-dll-query-upgrade:orientation
-    description: Choose the orientation of the building query UI.
+  - variantId: kel9509:rci-query-upgrade:style
+    description: Choose the style of the building query UI.
     values:
-      - value: vertical
-        description: City + region information is below the building information.
+      - value: vertical-bold-tooltips
+        description: "v3.1B: vertical layout, bold font, building styles shown in a tooltip. City + region information is below the building information."
         default: true
-      - value: horizontal
-        description: City + region information is to the right of the building information.
-    
+      - value: vertical-bold-full
+        description: "v3.1A: vertical layout, bold font, full list of building styles."
+      - value: vertical-light-tooltips
+        description: "v3.1E: vertical layout, light font, building styles shown in a tooltip."
+      - value: vertical-light-full
+        description: "v3.1D: vertical layout, light font, full list of building styles."
+      - value: horizontal-bold
+        description: "v3.1C: horizontal layout, bold font. City + region information is to the right of the building information."
+      - value: mini-vertical-bold
+        description: "v3.1 MINI-A: compact vertical layout, bold font, short list of building styles. Capacities, workforce, demand and occupancy are left out."
+      - value: mini-vertical-light
+        description: "v3.1 MINI-D: compact vertical layout, light font, short list of building styles. Capacities, workforce, demand and occupancy are left out."
+
 ---
-assetId: "kel9509-rci-dll-query-upgrade"
+assetId: "kel9509-rci-query-upgrade"
 version: "3.1"
 lastModified: "2026-09-29T01:34:27Z"
 url: "https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/?do=download"
