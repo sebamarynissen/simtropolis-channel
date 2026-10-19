@@ -56,13 +56,9 @@ assets:
     withConditions:
       # Census Repository Facility v4.0
       - ifVariant: { hugues-aroux:ui-carbon-skin:census-ui: "regular" }
-        dependencies:
-          - kel9509:census-repository
         exclude:
           - "/y_scoty_Carbon_CensusRepoQE_v4_Expanded\\.dat$"
       - ifVariant: { hugues-aroux:ui-carbon-skin:census-ui: "expanded" }
-        dependencies:
-          - kel9509:census-repository
         exclude:
           - "/y_scoty_Carbon_CensusRepoQE_v4_Regular\\.dat$"
       - ifVariant: { hugues-aroux:ui-carbon-skin:census-ui: "none" }
@@ -72,28 +68,18 @@ assets:
       # RCI DLL Query Upgrade: one skin file for each of the styles A to E
       # (the values match those of the `kel9509:rci-query-upgrade:style` variant)
       - ifVariant: { hugues-aroux:ui-carbon-skin:rci-query: "vertical-bold-full" }
-        dependencies:
-          - kel9509:rci-query-upgrade
         exclude:
           - "/y_scoty_Carbon_RCI-DLL-Qry-Upgrd_3-0[BCDE]\\.dat$"
       - ifVariant: { hugues-aroux:ui-carbon-skin:rci-query: "vertical-bold-tooltips" }
-        dependencies:
-          - kel9509:rci-query-upgrade
         exclude:
           - "/y_scoty_Carbon_RCI-DLL-Qry-Upgrd_3-0[ACDE]\\.dat$"
       - ifVariant: { hugues-aroux:ui-carbon-skin:rci-query: "horizontal-bold" }
-        dependencies:
-          - kel9509:rci-query-upgrade
         exclude:
           - "/y_scoty_Carbon_RCI-DLL-Qry-Upgrd_3-0[ABDE]\\.dat$"
       - ifVariant: { hugues-aroux:ui-carbon-skin:rci-query: "vertical-light-full" }
-        dependencies:
-          - kel9509:rci-query-upgrade
         exclude:
           - "/y_scoty_Carbon_RCI-DLL-Qry-Upgrd_3-0[ABCE]\\.dat$"
       - ifVariant: { hugues-aroux:ui-carbon-skin:rci-query: "vertical-light-tooltips" }
-        dependencies:
-          - kel9509:rci-query-upgrade
         exclude:
           - "/y_scoty_Carbon_RCI-DLL-Qry-Upgrd_3-0[ABCD]\\.dat$"
       - ifVariant: { hugues-aroux:ui-carbon-skin:rci-query: "none" }
@@ -102,8 +88,6 @@ assets:
 
       # Raise the UI Mod
       - ifVariant: { hugues-aroux:ui-carbon-skin:raise-ui: "yes" }
-        dependencies:
-          - warrior:raise-the-ui-mod
       - ifVariant: { hugues-aroux:ui-carbon-skin:raise-ui: "no" }
         exclude:
           - "/z_scoty_Carbon_RaiseUI\\.dat$"
