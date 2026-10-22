@@ -1,0 +1,66 @@
+group: paeng
+name: modular-hospital-set
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: Modular Hospital Set
+  description: |-
+    Sometimes we run into the problem that hospitals "out-grow" their area, needing more capacity but having no reasonable plot for a larger building anywhere (or else needing a complicated round of urban renewal). This package might help a bit - it gives you a suite of four hospitals with four different "Stages" (*Clinic, Small, Medium and Large*).
+
+    They all have the same footprint (4x3) - so you start with plopping "Stage 1"... when that gets too small, you bulldoze it and plop "Stage 2" on the same plot... and so on, until you reach "Stage 4", each stage coming with a larger building and radius plus higher capacities, ranging from 500 to 50000 patients (*see ReadMe for a chart of all values*).
+
+    **DEVELOPER NOTES**
+
+    The included Readme has a chart with all the values for each of the "Stages".
+
+    You find all items at or near the end of the '*Civics | Hospital*' menu.
+
+    \---------------------------------------------------------------------------
+
+    **Just a friendly reminder:**
+
+    As with all civic buildings, their wrong use can result in the *Phantom Slider Bug*!
+
+    This bug will be triggered by
+
+    \* *uninstalling* a civic building *and/or*
+
+    \* *modding the capacity or monthly costs* of a civic building
+
+    **without demolishing all instances of it first!**
+
+    \---------------------------------------------------------------------------
+
+    **INSTALLATION**
+
+    Put the whole bundle into "*(My )Documents/Plugins*".
+
+    To un-install - bulldoze any lots you have plopped from this pack, then remove it completely from your Plugins.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10610.0)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28400-paengs-modular-hospital-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/8c3a9b78f6793aa4cf739aa6484c772e-hospital2.jpg
+dependencies:
+  - glenni:st-twiggyan-hospital-model
+  - mattb325:james-park-house-model
+  - s-olah:saint-george-hospital-model
+  - bsc:mega-props-sg-vol01
+  - paeng:textures
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - simfox:treepack-vol02
+assets:
+  - assetId: paeng-modular-hospital-set
+
+---
+assetId: paeng-modular-hospital-set
+version: "1.0"
+lastModified: "2013-01-27T13:20:51Z"
+url: https://community.simtropolis.com/files/file/28400-paengs-modular-hospital-set/?do=download&r=111210

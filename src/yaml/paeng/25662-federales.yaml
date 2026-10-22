@@ -1,0 +1,32 @@
+group: paeng
+name: federales
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: "'Federales'"
+  description: |-
+    Set up the Feds with an inconspicuous looking office building right in your downtown or any suburb and let them help you fight crime. Only the trained eye will discover the discreet security perimeter with double fences and concrete reinforced hedges, or the traps against suicide carbomb drive-ins... or the extra array of antennas on the roof...
+
+    ![fbi500.jpg](http://dl.dropbox.com/u/5012419/Stex/fbi500.jpg)
+
+    Sits on a 4x3 lot and has slightly raised stats from the default '*Large Precinct*'.
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25662-paengs-federales/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8914b9411af557b174505a658e4b4a8a-fbi01_250.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8914b9411af557b174505a658e4b4a8a-fbi02_250.jpg
+dependencies:
+  - simfanatik:fbi-suburban-props
+  - bsc:mega-props-sg-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - peg:security-fencing-kit
+assets:
+  - assetId: paeng-federales
+
+---
+assetId: paeng-federales
+version: "1.0"
+lastModified: "2011-01-09T11:57:50Z"
+url: https://community.simtropolis.com/files/file/25662-paengs-federales/?do=download&r=53597

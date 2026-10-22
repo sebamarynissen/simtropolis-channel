@@ -1,0 +1,50 @@
+group: paeng
+name: gas-station-pack
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Gas Station Pack
+  description: |-
+    To give your city a bigger variety of gas stations, here is a set of ten different brands in various shapes and sizes, based on the great set of models released by Heblem (LBT).
+
+    -   **Chevron    - 5x2 (14 Jobs)**
+    -   **Conoco     - 6x3 (15)**
+    -   **Petro Cnd  - 4x3 (13)**
+    -   **Shell      - 5x2 (11)**
+    -   **Esso       - 4x3 (12)**
+    -   **Exxon      - 5x3 (15)**
+    -   **Lukoil     - 4x2 (16)**
+    -   **Mobil      - 3x3 (9)**
+    -   **Valero     - 4x4 (10)**
+    -   **Cheapo     - 3x1 (3)**
+
+    All of them are growable commercials (CS§), with a moderate number of jobs, as each of them also has a little store/food mart on the grounds.
+
+    The lots are meant for corners, so keep that in mind while zoning. They grow early in the game, so make those you want to keep historical right away.
+
+    At least one of the sides is usually kept pretty open, so you can combine the station with other industrial lots to make larger truck stops or rest areas by the highway or similar. I included some pictures of possible combinations in the readme.
+
+    TIP: If you want to force-grow the stations at a later point, temporarily block Maxis' COM-buildings, zone for proper size (with CTRL), then run the game for a while. After stations have developed at your chosen spots, make them historical, remove the blocker and continue as  usual.
+
+    All pieces are in separate files, so you can delete any you do not wish to use.
+
+    Thanks to everybody making resources available!
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/22540-paengs-gas-station-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9daaee23509482fd301336c78f2ec2fe-gstations1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9daaee23509482fd301336c78f2ec2fe-gstations2.jpg
+dependencies:
+  - lbt:gas-station-prop-pack
+  - lbt:mega-prop-pack-vol01
+  - peg:mtp-super-pack
+assets:
+  - assetId: paeng-gas-station-pack
+
+---
+assetId: paeng-gas-station-pack
+version: "1.0"
+lastModified: "2009-09-25T18:35:31Z"
+url: https://community.simtropolis.com/files/file/22540-paengs-gas-station-pack/?do=download&r=48973

@@ -1,0 +1,31 @@
+group: paeng
+name: scrapyards
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Scrapyards
+  description: |-
+    No city or region will be complete without some junkyards and scrap dealers around. They may not be pretty, but quite useful to anybody who is into do-it-yourself repairs.
+
+    Here are two scrapyards, one for rural (3x2) and one for urban (4x2) settings.
+
+    They are not too expensive to plop and maintain, both use some power and water and have a slight NIMBY effect, so allow a little room to adjacent residential.
+
+    Enjoy :-)
+  author: paeng
+  website: https://community.simtropolis.com/files/file/22253-paengs-scrapyards/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9b7c6b402f89a4e142e6033d5d25eb3b-syard3_250.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9b7c6b402f89a4e142e6033d5d25eb3b-syard2_250.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - peg:mtp-super-pack
+  - peg:security-props
+assets:
+  - assetId: paeng-scrapyards
+
+---
+assetId: paeng-scrapyards
+version: "1.0"
+lastModified: "2009-08-10T18:03:24Z"
+url: https://community.simtropolis.com/files/file/22253-paengs-scrapyards/?do=download&r=48543

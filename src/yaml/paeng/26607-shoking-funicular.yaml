@@ -1,0 +1,75 @@
+group: paeng
+name: shoking-funicular
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: SHOKing Funicular
+  description: |-
+    A funicular, also known as an inclined plane or cliff railway, is a cable railway in which a cable attached to tram-like vehicles on rails moves them up and down a steep slope.
+
+    There are two complete sets - the **urban** version comes with modern cabins on a twin track and a sleek concrete and glass station. The second set is a more **rural** version with a nostalgic open cabin on a single centered track and a stone and wood station to blend nicely into rural settings. All stations and cabins are custom BATs by **Shokthrpy**.
+
+    They come in separate folders - you can use both at the same time or choose just one of the two. Remove the other to a safe location.
+
+    **LIST OF ITEMS**
+
+    1x1 Funicular Stations (subway type)
+
+    1x1 Tracks
+
+    1x1 Cabins (various lots, timed and untimed version)
+
+    1x1 Top and bottom Cabins (various lots, timed)
+
+    **DEVELOPER NOTES**
+
+    The station acts like a subway - plop one on each end of the track and connect them with subway tubes. You can try terraforming for a gentle slope, but it is advised to flatten the terrain for the station - plop a road tile, bulldoze it, then plop the station.
+
+    There are two types of cabin lots - timed and untimed. You can safely delete the version you do not wish to use.
+
+    The 'top' and 'bottom' cabins should be plopped right next to the station to simulate an 'In-Station-Cabin'. The 'upper' and 'lower' lots should be placed accordingly on the slope to simulate the up-down moevement of the cabin.
+
+    All Lots must always be plopped with the directional arrow pointing DOWNHILL.
+
+    When plopping timed lots, allow some time to pass until all items show in their proper rhythm.
+
+    All costs and usage details can be found in the in-game menu.
+
+    You find all items at or near the end of the 'Transportation | Miscellaneous' menu with custom icons.
+
+    **INSTALLATION**
+
+    After unpacking, just move the complete folder into your 'My Documents/Plugins'. To uninstall, remove the complete folder.
+
+    **CREDITS**
+
+    BATting: **Shokthrpy**
+
+    Lotting & Modding: **Paeng**
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [**Nightowl Production Forum**](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9154.msg192653#msg192653)
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/26607-paengs-shoking-funicular/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/55d9112f45bcd2896d8738f3c87896ff-funicular.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/52b9f5b391dbfb183a245bbe1c22b778-urb-funi01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/4357bba6f0d9e83d3e0656f80595e123-mtp-funi01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/19c1b857ac0c5e576b5eade2089d62b0-urb-funi02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/7efe6748cd1641dbb49fc5c74fa8cad1-mtp-funi02.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - peg:mtp-super-pack
+assets:
+  - assetId: paeng-shoking-funicular
+
+---
+assetId: paeng-shoking-funicular
+version: "1.0"
+lastModified: "2011-08-04T23:34:56Z"
+url: https://community.simtropolis.com/files/file/26607-paengs-shoking-funicular/?do=download&r=90312

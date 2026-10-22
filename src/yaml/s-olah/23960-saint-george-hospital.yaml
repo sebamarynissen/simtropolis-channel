@@ -1,6 +1,6 @@
 group: s-olah
 name: saint-george-hospital
-version: "1.0"
+version: "1.0-1"
 subfolder: 630-health
 info:
   summary: Saint George Hospital
@@ -25,8 +25,26 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0026/f15052eb8f30ac9e74506c795a31d221-Saint George Hospital day.JPG
     - https://www.simtropolis.com/objects/screens/0026/f15052eb8f30ac9e74506c795a31d221-Saint George Hospital night.JPG
+dependencies:
+  - s-olah:saint-george-hospital-model
 assets:
   - assetId: s-olah-saint-george-hospital
+    exclude:
+      - \.SC4Model$
+
+---
+group: s-olah
+name: saint-george-hospital-model
+version: "1.01"
+subfolder: 110-resources
+info:
+  summary: Model for `pkg=s-olah:saint-george-hospital`
+  author: s_olah
+  website: https://community.simtropolis.com/files/file/23960-saint-george-hospital/
+assets:
+  - assetId: s-olah-saint-george-hospital
+    include:
+      - \.SC4Model$
 
 ---
 assetId: s-olah-saint-george-hospital

@@ -1,0 +1,55 @@
+group: paeng
+name: spam-access-roads
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: SPAM Access Roads (SPAR)
+  description: |-
+    **A collection of various Access Road Sets using** **SPAM****\-patible textures and props to connect your** **SPAM** **fields and farms.**
+
+    The core set of 'Wide Access Roads' is enhanced with a large range of subsets with many variations and options - narrow and offset roads, different driveways and gates, road sections with fences or water pipes, matching transition pieces to combine any or all of these subsets, plus a host of special purpose items like transit enabled crossings and connectors, extenders and more...
+
+    **Make sure to see the included ReadMe for full details!**
+
+    **Developer Notes**
+
+    This is a huge package, all in all there are about 70 pieces. It is broken down into a number of 'subsets', each containing a certain group of lots. Now this does not mean that you'll have to install (or use) ALL of these lots at any given time - they are just plenty to give you plenty options. All the subsets are independent of each other so you can install/delete any you do not wish to use.
+
+    A highly recommended option would of course be to use the [**DAMN** **Menu System**](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=articles;cat=7).
+
+    **IMPORTANT: No matter how much you reduce the number of subsets or lots, please make sure that you always have the folder "\_SPAR\_Resources" installed - it contains items that are used by all subsets.**
+
+    Unless noted otherwise all sections are sized 1x1. They are very cheap to plop and have no monthly cost. They don't consume power or water, create no garbage and have no impact on anything (demand, park- or landmark effects, mayor's rating etc.) - they are perfectly neutral.
+
+    The sections are generally slope-tolerant, just the subsets with fences should be plopped on flat or very moderately sloped terrain only.
+
+    All sets are grouped at or near the end of the 'Miscellaneous Transportation' menu.
+
+    **Again - make sure to take a good look at the included ReadMe - it contains a full catalog of all the different pieces and many more 'Developer Notes'!**
+
+    **Support**
+
+    Should you need support for these items please visit the
+
+    [**Paeng Productions Forum**](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php/board,109.0.html)
+
+    **Thanks**
+
+    I'd like to thank **Becca** and **Murimk** who 'sponsored' a few custom BATs, adding the kind of detail that makes a set 'alive'.
+
+    Special thanks also to the PCG for tireless beta testing and the whole SimPeg Community for valuable input!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/26084-spam-access-roads-spar/
+  images:
+    - https://www.simtropolis.com/objects/screens/0029/47e499a7269580ffca3a83bd6a1a0972-spar01.jpg
+dependencies:
+  - peg:spam-super-resource-pack
+  - peg:spot
+assets:
+  - assetId: paeng-spam-access-roads-spar
+
+---
+assetId: paeng-spam-access-roads-spar
+version: "1.0"
+lastModified: "2011-04-14T12:17:47Z"
+url: https://community.simtropolis.com/files/file/26084-spam-access-roads-spar/?do=download&r=83793

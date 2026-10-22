@@ -1,0 +1,71 @@
+group: paeng
+name: rural-industry-pack
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Rural Industry Pack
+  description: |-
+    For rural areas, specially with lots of agriculture, you may not want to zone too much for industrials - but still need the jobs.
+
+    So here are three ploppable industrial compounds (ID, IM and IH) that should come in handy, and also blend in well with small communities or forested areas.
+
+    1) **Dirty Industry**
+
+    \----------------------------------
+
+    Size: 10x8
+
+    Jobs: 995
+
+    2) **Manufacturing Industry**
+
+    \----------------------------------
+
+    Size: 10x10
+
+    Jobs: 1495
+
+    3) **HighTech Industry**
+
+    \----------------------------------
+
+    Size: 16x8
+
+    Jobs: 1295
+
+    *For more stats please see enclosed Read\_Me.*
+
+    \----------------------------------
+
+    NOTES
+
+    \----------------------------------
+
+    All three need access to Roads, Power and Water.
+
+    Make sure that you have sufficient demand for ID/IM/IH-Jobs before plopping!
+
+    The three lots are in separate files so you can choose which ones you like to install.
+
+    You find them in the Landmark menu with custom icons.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/23588-paengs-rural-industry-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e4460f0cf11b594e534820c07d5fde2-stex1a_ind.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e4460f0cf11b594e534820c07d5fde2-stex2a_ind.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-snm-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - peg:security-fencing-kit
+  - peg:mtp-super-pack
+assets:
+  - assetId: paeng-rural-industry-pack
+
+---
+assetId: paeng-rural-industry-pack
+version: "1.0"
+lastModified: "2010-03-26T03:22:50Z"
+url: https://community.simtropolis.com/files/file/23588-paengs-rural-industry-pack/?do=download&r=50449
