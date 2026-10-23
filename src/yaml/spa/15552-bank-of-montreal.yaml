@@ -1,0 +1,31 @@
+group: spa
+name: bank-of-montreal
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bank of Montreal
+  description: |-
+    The Bank of Montreal (BMO) is Canada's oldest bank. It was founded in Montreal in 1817. Until the creation of the Bank of Canada in 1935, the Bank of Montreal served as Canada's central bank. Today, BMO has lost its dominant position and is the smallest of Canada's five major banks. Its Toronto headquarters is the largest office tower in Canada.  
+      
+    This BAT is part of my five BAT set of Canadian bank branches that is designed to help relieve some of the monotony of small Maxis commercial service buildings. It is based on a real BMO branch located on Quinpool Road in Halifax, Nova Scotia. Included in this upload is a growable and a ploppable version with identical stats. Both come on a 2x2 lot and provide 90 Cs$$. The growable version does work and grows easily (stage 3, Houston and Euro tilesets).
+      
+    Check out my bat thread [here](https://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=73597&enterthread=y) or on [SC4devotion](https://www.sc4devotion.com/forums/index.php?topic=573.0) for detailed information about the updates or my future projects
+  author: spa
+  website: https://community.simtropolis.com/files/file/15552-bank-of-montreal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/2297d37c17ec8ca1e0443e5fe1b73ca0-bmo-release-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/16a0b36b2819f05a2f82c2b2dc230195-bmo-release-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/f8da62c2dc170f9c461789fccb18c30a-bmo-front.jpg
+dependencies:
+  - bsc:essentials
+assets:
+  - assetId: spa-bank-of-montreal
+
+---
+assetId: spa-bank-of-montreal
+version: "1.0"
+lastModified: "2006-04-05T09:36:37Z"
+url: https://community.simtropolis.com/files/file/15552-bank-of-montreal/?do=download&r=144900
+archiveType:
+  format: Clickteam
+  version: "40"

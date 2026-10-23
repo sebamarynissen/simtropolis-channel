@@ -1,0 +1,32 @@
+group: spa
+name: elmwood-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Elmwood Apartments
+  description: |-
+    Elmwood Apartments is a sunny Victorian apartment building at the corner of Barrington and South Streets in Halifax, NS, Canada. Built in 1890, Elmwood started out as a hotel and originally featured a wrap-around porch and grand entrance on South Street. Its location overlooking Cornwallis Park within easy walking distance of the train station and waterfront made it a prime spot for a hotel in the early 20th century. At some point over the years, the hotel went out of business and the building was converted into apartments. Elmwood is a survivor, dodging fires, modernist vandals and Hurricane Juan (tore the roof off). It's one of only a few large multi-unit wooden buildings that have survived in Halifax to the present day. A lot of the Victorian charm still remains inside including mouldings, wood floors, fireplaces, high ceilings and banisters. I'm particularly attached to Elmwood because I lived in apartment 4 for 11 months (2nd floor front, left corner). The only reason I moved is I bought my own house. Best apartment though that I ever had so I made sure to leave the light on in SimCity in my old unit ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    My version of Elmwood is a very close, but not perfect, replica of the real building. The real building is yellow, but I have included an additional three colour variations (dark blue, green and brown) and left and right corner versions of each model for variety. Elmwood grows on a 3x2 corner lot on medium and high density on the New York and Chicago tilesets. It provides housing for 181 R$$.
+  author: spa
+  website: https://community.simtropolis.com/files/file/24785-elmwood-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/49e28e590763b4e57d03a6b71496e5fc-elmwood-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/e35da7818b9c4f4b76858cfffdeb9d38-elmwood-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/16591471d9fef7ab31cb61069d6114f7-elmwood-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: spa-elmwood-apartments
+
+---
+assetId: spa-elmwood-apartments
+version: "1.0"
+lastModified: "2010-09-01T23:15:00Z"
+url: https://community.simtropolis.com/files/file/24785-elmwood-apartments/?do=download&r=114484
+archiveType:
+  format: Clickteam
+  version: "40"

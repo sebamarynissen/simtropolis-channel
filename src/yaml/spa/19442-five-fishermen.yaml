@@ -1,0 +1,28 @@
+group: spa
+name: five-fishermen
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Five Fishermen
+  description: |-
+    The Five Fishermen is a seafood restaurant in downtown Halifax, NS, Canada. It occupies an old building across from City Hall and Grand Parade. The building was once a funeral parlour that hosted, among many others, Titanic and Halifax Explosion victims. Not surprisingly, the restaurant is said to be haunted by more than late-night binge drinkers from the nearby nightclubs. The Five Fishermen fits w2w and matches the small town series. See the readme for complete details.
+  author: spa
+  website: https://community.simtropolis.com/files/file/19442-five-fishermen/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/cc2df969180d4e205ba3db5a67bc86c5-five-fishermen-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/efb84c12f8d63c73244799a80051eb75-five-fishermen-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/fa1f945b9a1ef38e8974dacde8a56871-five-fishermen-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: spa-five-fishermen
+
+---
+assetId: spa-five-fishermen
+version: "1.0"
+lastModified: "2008-02-28T00:06:50Z"
+url: https://community.simtropolis.com/files/file/19442-five-fishermen/?do=download&r=114608
+archiveType:
+  format: Clickteam
+  version: "40"
