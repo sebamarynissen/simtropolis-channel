@@ -1,0 +1,66 @@
+group: sg
+name: suburban-bus-stop-set
+version: "1.01"
+subfolder: 700-transit
+info:
+  summary: Suburban Bus Stop Set
+  description: |-
+    **Suburban Bus Stops**
+
+      
+    Want more variety in your bus stops? Want some fun ones? Don't want a ton of them on your menu? Well here you go. I to was tired of that same old Maxis bus stop, or having to search every time I wanted a different one to plop down. So I made a bunch of them, a whole big bunch of them, and modded them to all use the same lot, but show up randomly! I also wanted bigger capacity bus stops, so I made those. Then I really didn't like the blank space behind a bus stop, so I made deeper ones as well. Everything you always wanted, but didn't realize it...  
+      
+    Included in this pack are 20 (yes twenty) small suburban bus stops, and 6 larger sized ones. Each size comes on one of three lots ; 1x1, 1x2, 1x3. The 1x1 Small Bus Stop is the same as the Maxis one, same capacity (1000) and costs. The 1x2 and 1x3 have a small park behind them, with the same park effects as a small park. Saves a few steps when plopping them. The Large varition, has the same configuration, just larger capacity (3000), at a slightly higher cost.  
+      
+    Each variation is in it's own DAT file, so if there are varieties that you don't care for, just delete those DAT files. No conflicts will arise. If you hover over the buildings in game, the variation number and/or name shows up, to make this easier. And just for your viewing pleasure, there is a test lot (non-functional)located in the parks menu, with all the variations on it, so you can look at all of them together. All of these files should be found in the /My Docs/SimCity 4/Plugins/SimGoober/BusStops folder. The test lot has "test" in it's name, and can be safely deleted when you don't need it any more.  
+      
+    As a little extra bonus, the stations each change over time, beginning Jan 1 of the year after they plop, and you will see people coming and going...
+
+    Custom Features : Query, Menu Icon
+
+    **Directions:**  
+    ***Auto-Install :*** This is the simplest method to install these files. It will automatically put all files in the right place, for optimum performance. Simply open the Zip file, and double click the install file. Follow the onscreen instructions.  
+    ***Mac Users :*** There will be a Mac compatable version of this file available in the [BSC Mac Archive](https://www.simtropolis.com/idealbb/view.asp?topicID=57070).
+
+    More info in the readme file.
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/11467-suburban-bus-stop-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/341e744fad55a0aebe040a43e6841c5e-SG_Bus Stops Day.jpg
+    - https://www.simtropolis.com/objects/screens/0007/341e744fad55a0aebe040a43e6841c5e-SG_Bus Stops Nite.jpg
+dependencies:
+  - sg:suburban-bus-stop-set-resources
+  - bsc:textures-vol01
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: sg-suburban-bus-stop-set
+    include:
+      - "\\.SC4Lot$"
+
+
+---
+group: sg
+name: suburban-bus-stop-set-resources
+version: "1.01"
+subfolder: 100-props-textures
+info:
+  summary: Models and props for `pkg=sg:suburban-bus-stop-set`
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/11467-suburban-bus-stop-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/341e744fad55a0aebe040a43e6841c5e-SG_Bus Stops Day.jpg
+    - https://www.simtropolis.com/objects/screens/0007/341e744fad55a0aebe040a43e6841c5e-SG_Bus Stops Nite.jpg
+assets:
+  - assetId: sg-suburban-bus-stop-set
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: sg-suburban-bus-stop-set
+version: "1.01"
+lastModified: "2005-01-18T16:13:34Z"
+url: https://community.simtropolis.com/files/file/11467-suburban-bus-stop-set/?do=download&r=31565
+archiveType:
+  format: Clickteam
+  version: "40"

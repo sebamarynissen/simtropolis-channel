@@ -1,0 +1,143 @@
+group: hugues-aroux
+name: built-road-tile
+version: "2.0.0"
+subfolder: 150-mods
+info:
+  summary: Replace the appearance of a single road/street/one-way/RHW tile
+  description: |-
+    **Scoty’s BRT** (BuiltRoadTile) files replaces the 4 aspects (by differents or unique tex) of the «tile», segment, of isolated road (street, one-way) when building a network.  
+    Also replaces the segment produced by the RHW NAM tool (same as Maxis).
+
+    Eh "oui ma brave Monique" .. Yes, this segment can take on 4 aspects depending on its environment. You only knew one, didn't you! I'm offering you either a new single texture (as before, no psychological disturbance caused, everything's fine ... just breathe easy!) or, as I write these lines, 5 variations. One of which is for the purely nostalgic (set 2-07), those who survived the first shock, but ... still ... don't push it ...!
+
+    For the rest ... the trauma should be largely absorbed ...
+
+    Keep only one \[nnn.dat\] BRT and one BRWT file.  
+    At worst, only the last one (in each directory) will be displayed.  
+    See the attached images to make your choice.  
+    The chosen file should be saved after the NAM directory (this is the case if you keep the ZIP tree structure).
+
+    ...
+
+    I can already see people pointing their noses at me and saying: why Version 2 ? what happened to the 1st  ( ... company ... French joke, and I'll stop here for the chaste souls who wander these pages), well, v1 was on my drive for testing ... but it's gone! RIP !
+
+    Et voilà !
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/35644-built-road-tile-built-railway-tile/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BuiltRoadTile_2Gp1_230929.jpg.588dd02fbf6097eada092c26731a3b4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BuiltRoadTile_2Gp2_230929.jpg.46eb8e0d739866a84ad4221609431c6d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BuiltRoadTile_2Gp3_230929.jpg.72ca14599c8aacfd7ac57ce24df04219.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BRWT_versions.jpg.6b7ac18b44c69a6f3d7f7958a3af69c1.jpg
+variants:
+- variant: { hugues-aroux:brt:style: "01" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-01.dat"
+- variant: { hugues-aroux:brt:style: "02" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-02.dat"
+- variant: { hugues-aroux:brt:style: "03" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-03.dat"
+- variant: { hugues-aroux:brt:style: "04" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-04.dat"
+- variant: { hugues-aroux:brt:style: "05" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-05.dat"
+- variant: { hugues-aroux:brt:style: "06" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-06.dat"
+- variant: { hugues-aroux:brt:style: "07" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-07.dat"
+- variant: { hugues-aroux:brt:style: "08" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRoadTile_2-08.dat"
+variantInfo:
+- variantId: "hugues-aroux:brt:style"
+  description: Choose the appearance of a single built road/street/one-way/RHW (brt) tile
+
+
+---
+group: hugues-aroux
+name: built-railway-tile
+version: "2.0.0"
+subfolder: 150-mods
+info:
+  summary: Replace the appearance of a single rail tile
+  description: |-
+    **Scoty’s BRWT** (BuiltRailWayTile) files replaces the aspects of the isolated railway «tile» when building a network. For NAM with RRW texture.
+
+    Keep only one \[nnn.dat\] BRT and one BRWT file.  
+    At worst, only the last one (in each directory) will be displayed.  
+    See the attached images to make your choice.  
+    The chosen file should be saved after the NAM directory (this is the case if you keep the ZIP tree structure).
+
+    ...
+
+    I can already see people pointing their noses at me and saying: why Version 2 ? what happened to the 1st  ( ... company ... French joke, and I'll stop here for the chaste souls who wander these pages), well, v1 was on my drive for testing ... but it's gone! RIP !
+
+    Et voilà !
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/35644-built-road-tile-built-railway-tile/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BuiltRoadTile_2Gp1_230929.jpg.588dd02fbf6097eada092c26731a3b4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BuiltRoadTile_2Gp2_230929.jpg.46eb8e0d739866a84ad4221609431c6d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BuiltRoadTile_2Gp3_230929.jpg.72ca14599c8aacfd7ac57ce24df04219.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/BRWT_versions.jpg.6b7ac18b44c69a6f3d7f7958a3af69c1.jpg
+variants:
+- variant: { hugues-aroux:brwt:style: "01" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRailWayTile_01.dat"
+- variant: { hugues-aroux:brwt:style: "02" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRailWayTile_02.dat"
+- variant: { hugues-aroux:brwt:style: "03" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRailWayTile_03.dat"
+- variant: { hugues-aroux:brwt:style: "04" }
+  assets:
+  - assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+    include:
+    - "/scoty_BuiltRailWayTile_04.dat"
+variantInfo:
+- variantId: "hugues-aroux:brwt:style"
+  description: Choose the appearance of a single built rail way (brwt) tile
+  values:
+  - value: "01"
+    description: Use a NAM RRW-style four way crossing texture
+  - value: "02"
+    description: Use a slightly darker NAM RRW-style four way crossing texture
+  - value: "03"
+    description: Use a NAM RRW-style straight double track texture
+  - value: "04"
+    description: Use a NAM RRW-style straight single track texture
+
+---
+assetId: hugues-aroux-built-road-tile-and-built-railway-tile
+version: "2.0.0"
+lastModified: "2023-09-30T16:37:55Z"
+url: https://community.simtropolis.com/files/file/35644-built-road-tile-built-railway-tile/?do=download&r=197891
