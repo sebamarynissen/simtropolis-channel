@@ -1,0 +1,30 @@
+group: scba
+name: lacrosse-stadium
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Lacrosse Stadium
+  description: |-
+    Presenting the first lacrosse-related upload onto the STEX! A sport relatively unknown to much of the world, played primarily in the mid-atlantic US, though its popularity has spread to the west coast, Australia, and Scandinavia. Basically another ball-and-net game, the small ball is carried by players in a net, and fired at high speeds. It is a violent and gritty sport, despite the idea of the game, and the traditional players of it - the suburban upper class. Though it has a professional league in the US, most fans support the college and prep circuit.
+
+    This field is modeled after a couple of examples that I've seen from Virginia up to New York. Some places don't have press boxes, as this doesn't; most of the reporting and press is caught up in the party areas around the field. Games and recaps are heavily televised through the area, and many local schools have started up major rivalries.
+
+    Warning- If you place this in the middle of a city, the turf WILL look tacky. I'd put this in a deep park, or scattered suburban area if I were you.
+
+    Appears under parks, and promotes high wealth. Plop Cost: 4000
+  author: scba
+  website: https://community.simtropolis.com/files/file/14612-lacrosse-stadium/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1c809b8964f0f2e6355e0e0ac9d0e2bd-lac1.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1c809b8964f0f2e6355e0e0ac9d0e2bd-Lac2.jpg
+dependencies:
+  - gizmo:vehicle-props
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: scba-lacrosse-stadium
+
+---
+assetId: scba-lacrosse-stadium
+version: "1.0"
+lastModified: "2006-01-07T18:20:38Z"
+url: https://community.simtropolis.com/files/file/14612-lacrosse-stadium/?do=download&r=36453

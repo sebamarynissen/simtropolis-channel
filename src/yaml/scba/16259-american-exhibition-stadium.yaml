@@ -1,0 +1,38 @@
+group: scba
+name: american-exhibition-stadium
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: American Exhibition Stadium
+  description: |-
+    A banner for the American mid-west ~ the fairgrounds! Complement your current state fair and farmers market with this large stadium capable of doing just about anything. Football? Soccer? Races? Track? Shows? Another fair? Anything can go in a place like this!
+
+    Designed to give the illusion of a park expanded and beautified over time. Two main stands, with several extra sets scattered around, and Maxis props coating the rest of the grounds. Cars will come and go in the parking lot and overflow parking, but all of the fair buildings will remain concrete.
+
+    Takes up a LOT of space, so get ready to move things around. 14x13 on my last check.
+
+    No dependencies
+
+    Costs 37,000 to plop, and 70 to maintain
+
+    Appears under Landmarks, far down the list
+
+    The only problem: I may have messed up with what I included, I can't tell for sure. If something appears wrong, take out one of the DESC files that has a name similar to another one. I'm not sure if one of them will distort it or not. This also isn't 'piece-by-piece' like my earlier uploads were, it only has four props. So you shouldn't have any overlapping.
+
+    Enjoy!
+  author: scba
+  website: https://community.simtropolis.com/files/file/16259-ags-american-exhibition-stadium/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ad31330db96ef21470b32f7803f75882-justice2.jpg
+    - https://www.simtropolis.com/objects/screens/0019/ad31330db96ef21470b32f7803f75882-justice1.jpg
+dependencies:
+  - gizmo:vehicle-props
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: scba-american-exhibition-stadium
+
+---
+assetId: scba-american-exhibition-stadium
+version: "1.0"
+lastModified: "2006-06-25T13:43:29Z"
+url: https://community.simtropolis.com/files/file/16259-ags-american-exhibition-stadium/?do=download&r=38839
