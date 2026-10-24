@@ -1,0 +1,25 @@
+group: scba
+name: custom-minor-league-park
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Custom Minor League Park
+  description: |-
+    Part something out of......I'm not even keeping track any more. This is the first one that I've built that doesn't draw attention only to the provided stadium seats; I'm making new section just by fusing together other props, and I think it looks very nice. Listed under parks, where the grass tile would be.
+  author: scba
+  website: https://community.simtropolis.com/files/file/12028-custom-minor-league-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d51925cb9870cc621439d2967cdb0050-Field.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d51925cb9870cc621439d2967cdb0050-Stadium.jpg
+dependencies:
+  - bsc:mega-props-mjb-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+assets:
+  - assetId: scba-custom-minor-league-park
+
+---
+assetId: scba-custom-minor-league-park
+version: "1.0"
+lastModified: "2005-03-26T08:31:55Z"
+url: https://community.simtropolis.com/files/file/12028-custom-minor-league-park/?do=download&r=32487

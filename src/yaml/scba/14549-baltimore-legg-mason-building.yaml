@@ -1,0 +1,33 @@
+group: scba
+name: baltimore-legg-mason-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Baltimore Legg Mason Building
+  description: |-
+    Currently the tallest building in downtown Baltimore, and only about a block away from the Inner Harbor, the Legg Mason Building stands 30+ floors and about 539 feet tall. Constructed when the building stage around the area was at its peak, it may not be the most glamorous thing ever built, but it serves its purpose in the area well. Functions as a Landmark.
+
+    Cost: 37,000  
+    Cost Monthly: 175  
+    Bulldoze Cost: 7300  
+    Wealth: Medium  
+      
+    Dependencies: BSC Texture Packs 1-4, I think there is a mega pack out there...
+
+    Please report any big problems asap. Thank you!
+  author: scba
+  website: https://community.simtropolis.com/files/file/14549-baltimore-legg-mason-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/685452c5ba71b313e71d2159dc54b8e1-mason2.jpg
+    - https://www.simtropolis.com/objects/screens/0012/685452c5ba71b313e71d2159dc54b8e1-mason1.jpg
+dependencies:
+  - bsc:textures-vol01
+  - maxis:day-of-peace
+assets:
+  - assetId: scba-baltimore-legg-mason-building
+
+---
+assetId: scba-baltimore-legg-mason-building
+version: "1.0"
+lastModified: "2006-01-02T20:07:22Z"
+url: https://community.simtropolis.com/files/file/14549-baltimore-legg-mason-building/?do=download&r=36357
