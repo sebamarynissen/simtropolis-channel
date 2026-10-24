@@ -1,0 +1,75 @@
+group: hoo47
+name: modular-parking-add-on-1-gray
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modular Parking Add-on 1 Gray
+  description: |-
+    This is a series of ten 1x1 lots that work in conjunction with the original set (available [here](../../stex/details.cfm?id=22527)) to add more variation to the parking lots you can create.  With this set, you can build "L" and "T" shaped lots, as well as some other options. There are 4 new entrance lots, each with a capacity of 1,500, and 6 eyecandy lots, including a lot with shopping cart returns for your grocery store parking lots.  There will be additional add-on sets coming soon.
+
+    Stats are as follows:
+
+    | **Entrance Lots:** |     |
+    | --- | --- |
+    | Lot size: | 1 x 1 tiles |
+    | Menu position: | Building: Transportation,Building: MiscTransit |
+    | Jobs: | Jobs $ : 2 |
+    | Plop cost: | § 30 |
+    | Bulldoze cost: | § 2 |
+    | Monthly cost: | § 1 |
+    | Capacity: | 1,500 |
+
+    
+    | **Other Lots:** |     |
+    | --- | --- |
+    | Lot size: | 1 x 1 tiles |
+    | Menu position: | Building: Transportation,Building: MiscTransit |
+    | Plop cost: | § 5 |
+    | Bulldoze cost: | § 1 |
+
+    Special thanks to RippleJet for his invaluable assistance.
+
+    Please see my [Building Thread](https://www.sc4devotion.com/forums/index.php?topic=8523.0) on [SC4Devotion](http://www.sc4devotion.com/) for any feedback or support issues. I will attempt to answer them to the best of my knowledge, and as quickly as possible.
+
+    Also available in black.  You can find all my  lots [here](../../stex/index.cfm?p=files&keyword=hooha47&view=all), or by searching on the STEX for hooha47.
+  author: hoo47
+  website: https://community.simtropolis.com/files/file/22529-hh-modular-parking-add-on-1-gray/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ab6c4c095fcdce370e874f086803bb7f-Gray Add On Closeup.jpg
+    - https://www.simtropolis.com/objects/screens/0019/ab6c4c095fcdce370e874f086803bb7f-Gray Add On Daytime Lots.jpg
+dependencies:
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - girafe:hedges
+  - sc4jeeks:parking-textures-vol01
+  - hoo47:parking-textures-2a
+assets:
+  - assetId: hoo47-modular-parking-add-on-1-gray
+    exclude:
+      - "/HH Parking Textures 2a.dat"
+
+---
+group: hoo47
+name: parking-textures-2a
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: HH Parking Textures 2a
+  author: hoo47
+  websites:
+    - https://community.simtropolis.com/files/file/22529-hh-modular-parking-add-on-1-gray/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ab6c4c095fcdce370e874f086803bb7f-Gray Add On Closeup.jpg
+assets:
+  - assetId: hoo47-modular-parking-add-on-1-gray
+    include:
+      - "/HH Parking Textures 2a.dat"
+
+---
+assetId: hoo47-modular-parking-add-on-1-gray
+version: "1.0"
+lastModified: "2009-09-22T18:26:18Z"
+url: https://community.simtropolis.com/files/file/22529-hh-modular-parking-add-on-1-gray/?do=download&r=48951
+archiveType:
+  format: Clickteam
+  version: "40"

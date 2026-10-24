@@ -1,0 +1,31 @@
+group: hoo47
+name: modular-parking-mmls
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modular Parking MMLs
+  description: |-
+    These are MML lots for all 10 modular sets released so far, 5 gray and 5 black.  There is one MML for each set, and then a master gray and a master black MML.  You should either use the master, or the other 5, but not in combination.  The master lots hide everything.
+
+    I suggest you keep these in the folder they unzip to, or another folder for MMLs that starts with z's.
+
+    If you don't know how MMLs work, they hide the menu items.  They can be used 2 ways.  You can keep them in your plugins folder all the time.  Whenever you need to place a parking lot, you first place the appropriate MML lot.  Let a month or two pass, your menu items are now available.  They will now stay uncovered until the next time you load your city.  The biggest drawback is that when you place the lots after you've unhid them, you can only place one at a time without clicking on it in the menu again.  The other way to use them is to remove them from your plugins folder before you load the game when you want to use the parking lots.  When you don't want to use the parking lots.  Move the MMLs back into your plugins folder.  Again, you should either use the master or the 5 individual MMLs for each color.  I'm not sure what will happen if you use them together.
+
+    I've also included a patch for a very minor texture issue with some of the black shrubs lots.  Just keep it in the same folder where you have your HH Parking Textures 3b dat file.  If you don't have this set, you can delete the patch.  It's called "zzHH Parking Textures 3b Patch.dat"
+
+    For assistance or feedback, see my development thread [here](https://www.sc4devotion.com/forums/index.php?topic=8523.0) at SC4Devotion.
+
+    You can find all my parking lots by searching the STEX for [hooha47](https://www.simtropolis.com/stex/index.cfm?p=files&keyword=hooha47&view=all).
+  author: hoo47
+  website: https://community.simtropolis.com/files/file/22812-hh-modular-parking-mmls/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dace776183401cd96eba37e6ee3d6cd9-MML.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dace776183401cd96eba37e6ee3d6cd9-MML icons.jpg
+assets:
+  - assetId: hoo47-modular-parking-mmls
+
+---
+assetId: hoo47-modular-parking-mmls
+version: "1.0"
+lastModified: "2009-11-08T01:18:23Z"
+url: https://community.simtropolis.com/files/file/22812-hh-modular-parking-mmls/?do=download&r=49377

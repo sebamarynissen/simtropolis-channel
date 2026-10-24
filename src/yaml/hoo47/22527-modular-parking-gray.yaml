@@ -1,0 +1,77 @@
+group: hoo47
+name: modular-parking-gray
+version: "2"
+subfolder: 700-transit
+info:
+  summary: Modular Parking Gray
+  description: |-
+    This is a series of 1x1 lots that allow you to create parking lots of various sizes and configurations. This is the base set for several planned add-ons which will allow you to make many different kinds of parking lots.  There are 11 lots total, 6 entrance lots, which function as parking lots with a capacity of 1,500, and 5 eye candy lots.
+
+    This is a replacement for the original set released on the STEX in August 2009.  If you have the original set, I highly recommend you replace it with this set.  There are several improvements to the original set, including improved entrance textures, more variety of cars, lamp post placement improved, improved menu icons and the capacity of the entrance lots has been increased from 1,000 to 1,500.  You do not have to demolish lots you have already placed, although the props will not update unless you replop.
+
+    Stats are as follows:
+
+    | **Entrance Lots:** |     |
+    | --- | --- |
+    | Lot size: | 1 x 1 tiles |
+    | Menu position: | Building: Transportation,Building: MiscTransit |
+    | Jobs: | Jobs $ : 2 |
+    | Plop cost: | § 30 |
+    | Bulldoze cost: | § 2 |
+    | Monthly cost: | § 1 |
+    | Capacity: | 1,500 |
+
+    
+    | **Other Lots:** |     |
+    | --- | --- |
+    | Lot size: | 1 x 1 tiles |
+    | Menu position: | Building: Transportation,Building: MiscTransit |
+    | Plop cost: | § 5 |
+    | Bulldoze cost: | § 1 |
+
+    Special thanks to RippleJet for his invaluable assistance.
+
+    Please see my [Building Thread](https://www.sc4devotion.com/forums/index.php?topic=8523.0) on [SC4Devotion](http://www.sc4devotion.com/) for any feedback or support issues. I will attempt to answer them to the best of my knowledge, and as quickly as possible.
+
+    Also available in black.  You can find all my  lots [here](../../stex/index.cfm?p=files&keyword=hooha47&view=all), or by searching on the STEX for hooha47.
+  author: hoo47
+  website: https://community.simtropolis.com/files/file/22527-hh-modular-parking-gray-version-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6d0597da79681182938137c9d03fde65-Gray Closeup1.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6d0597da79681182938137c9d03fde65-Gray Daytime Lots1.jpg
+dependencies:
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - girafe:hedges
+  - sc4jeeks:parking-textures-vol01
+  - hoo47:parking-textures-1a
+assets:
+  - assetId: hoo47-modular-parking-gray-version-2
+    exclude:
+      - "/HH Parking Textures 1a.dat"
+
+---
+group: hoo47
+name: parking-textures-1a
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: HH Parking Textures 1a
+  author: hoo47
+  websites:
+    - https://community.simtropolis.com/files/file/22527-hh-modular-parking-gray-version-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6d0597da79681182938137c9d03fde65-Gray Closeup1.jpg
+assets:
+  - assetId: hoo47-modular-parking-gray-version-2
+    include:
+      - "/HH Parking Textures 1a.dat"
+
+---
+assetId: hoo47-modular-parking-gray-version-2
+version: "2"
+lastModified: "2009-09-21T22:36:51Z"
+url: https://community.simtropolis.com/files/file/22527-hh-modular-parking-gray-version-2/?do=download&r=48947
+archiveType:
+  format: Clickteam
+  version: "40"
