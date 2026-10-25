@@ -101,6 +101,7 @@ async function buildChannelIndex(index, channel) {
 			let ids = externalIds[key] ?? [];
 			for (let id of ids) {
 				let name = `${pkg.group}:${pkg.name}`;
+				if (typeof index[key][id] === 'string') continue;
 				(index[key][id] ??= new Map()).set(name, {
 					id: name,
 					subfolder: pkg.category[0],
@@ -143,6 +144,7 @@ async function addFileToIndex(index, file) {
 		for (let website of websites) {
 			let id = urlToFileId(website);
 			let name = `${parsed.group}:${parsed.name}`;
+			if (typeof index.stex[id] === 'string') continue;
 			(index.stex[id] ??= new Map()).set(name, {
 				id: name,
 				subfolder: parsed.subfolder,

@@ -1,0 +1,87 @@
+group: justforfun
+name: jabot-gardens
+version: "1.0.1"
+subfolder: 660-parks
+info:
+  summary: Jabot Gardens
+  description: |-
+    Apparently there is demand for a diagonal park, so here I am uploading this floral composition which is meant to represent... a Christmas tree? Nope, it's a neck jabot, with the winding paths hopefully resembling the ruffles and the intricate bed flowers the lace.
+
+    Lot size is 12x12, plop cost 1000, maintenance cost 400 (did you mayor think elegance comes cheap?)  
+    As you may expect, this fancy display requires a bunch of dependencies, however you are likely to have most of them already:
+
+    (BSC MEGA Props - CP Vol01  
+    BSC Mega Props - CP Vol02  
+    BSCBAT Props D66 Vol11  
+    BSC MEGA Props -  MJB Vol02  
+    BSC MEGA Props - SG Vol 01  
+    BSC MEGA Props - swi21 Vol01  
+    BSCBATPropsMattb325\_Vol02
+
+    BSC Textures vol01  
+    BSC Textures vol02  
+    BSC Textures Vol03 v5) contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    BSC Park Textures from the [SC4D LEX Legacy - BSC Parks Collection](https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection)
+
+    [OrangeTSC MegaProp V.01](https://community.simtropolis.com/files/file/19953-orange-megaprop-v01/)
+
+    [Marrast Diagonal Rail Stations](https://community.simtropolis.com/files/file/16793-marrast-diagonal-rail-stations/) (for the diagonal benches)
+
+    [AGV Heuvelstraat 109 & Stationsstraat 41](https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/)
+
+    Big thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for upgrading the modding.
+
+    If you like this, check out my other creations and stay tuned for more coming to the STEX!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/36422-jabot-gardens/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a1827d1ae989_JabotGdnsclose.jpg.5cca2b48bb9dcc2a354b13f3fa2aecdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/JabotGdns.jpg.3da85b998d69c8c70b831ff83fb962d2.jpg
+dependencies:
+  - marrast:mega-props-vol01-and-vol02
+  - orange:mega-props-vol01
+  - aarsgevogelte:heuvelstraat-109-and-stationsstraat-41-tilburg
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:bscbat-props-d66-vol11
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:bscbatpropsmattb325-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:bsc-parks-texture-pack
+  - orange:mega-props-vol01
+  - justforfun:jabot-gardens-textures
+assets:
+  - assetId: justforfun-jabot-gardens
+    exclude:
+      - "/JFFJabotGardens Textures.dat"
+
+---
+group: justforfun
+name: jabot-gardens-textures
+version: "1.0.1"
+subfolder: 100-props-textures
+info:
+  summary: Jabot Gardens Textures
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/36422-jabot-gardens/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a1827d1ae989_JabotGdnsclose.jpg.5cca2b48bb9dcc2a354b13f3fa2aecdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/JabotGdns.jpg.3da85b998d69c8c70b831ff83fb962d2.jpg
+assets:
+  - assetId: justforfun-jabot-gardens
+    include:
+      - "/JFFJabotGardens Textures.dat"
+
+
+---
+assetId: justforfun-jabot-gardens
+version: "1.0.1"
+lastModified: "2026-06-24T06:18:46Z"
+url: https://community.simtropolis.com/files/file/36422-jabot-gardens/?do=download&r=218844

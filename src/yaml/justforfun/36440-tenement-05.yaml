@@ -1,0 +1,55 @@
+group: justforfun
+name: tenement-05
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Tenement 05
+  description: |-
+    Looking for residentials with some depth? Here's a slum tenement that grows on a medium or high-density 1x5 lot under Chicago tileset and houses 80 R$ sims. Suitable as both stand-alone and w2w, it also comes as a 4x5 lot housing 320 sims.   
+    True 3d as usual, it weighs 80 KB all included.
+
+    DEPENDENCIES
+
+    Essential for the model to appear correctly:
+
+    [JFF Row Houses Megapack 02](https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/)
+
+    [JFF Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+    [JFF Row Shops Diagonal](https://community.simtropolis.com/files/file/35527-victorian-row-shops-diagonal/)
+
+    Recommended:
+
+    (BSC MEGA Props - CP Vol01  
+    BSC MEGA Props - DAE Vol01  
+    BSC MEGA Props Jen\_P Vol01  
+    BSC MEGA Props - SG Vol 01) contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [SFBT Essentials](https://sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    If you like this, check out my other creations and stay tuned for more coming to the STEX!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/36440-tenement-05/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/side.jpg.9b3fcca26c3eab2b0aad2d5dc80af445.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/back.jpg.47db6c60cc785388dad436997c818f64.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/ModelTen05.jpg.04d37d07ff761b80c386325189d1bdff.jpg
+dependencies:
+  - justforfun:row-houses-megapack-02
+  - justforfun:row-shops-diagonal-pack-1
+  - justforfun:row-shops-pack-01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jenp-vol01
+  - bsc:mega-props-sg-vol01
+  - sfbt:essentials
+assets:
+  - assetId: justforfun-tenement-05
+
+---
+assetId: justforfun-tenement-05
+version: "1.0.0"
+lastModified: "2026-05-28T11:35:37Z"
+url: https://community.simtropolis.com/files/file/36440-tenement-05/?do=download&r=211895

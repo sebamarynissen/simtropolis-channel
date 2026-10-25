@@ -1,0 +1,47 @@
+group: justforfun
+name: tenement-04-diagonal
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Tenement 04 Diagonal
+  description: |-
+    Need to fill your diagonal streets with undesirable slums? Here's a low-wealth block that houses 144 sims.
+
+    Since it is overhanging from 1x1 lots, therefore unlikely to grow exactly where you want it, I recommend using the "lotplop" [extracheat](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/) (look for "R$\_JFF Tenement 04 A/B")
+
+    and then the wonderful [Growify DLL](https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/) selecting high density.
+
+    The model is a true 3d that can be viewed from any angle and allows for MMPs to be plopped in the parking area.  
+    The whole package only weighs 63 KB.
+
+    DEPENDENCIES - all essential:
+
+    [JFF Tenement 01](https://community.simtropolis.com/files/file/35763-tenement-1/)
+
+    [JFF Tenement 03](https://community.simtropolis.com/files/file/36090-tenement-03-diagonal/)
+
+    [JFF Row Houses Megapack 02](https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/)
+
+    [JFF Row Shops Diagonal](https://community.simtropolis.com/files/file/35527-victorian-row-shops-diagonal/)
+
+    If you enjoy these S3D creations, stay tuned for more coming to the STEX!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/36401-tenement-04-diagonal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/1.jpg.8e73fef559c71dd3f56bad4de9ae3a9f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/2.jpg.75af0de9890e21ac9d443cf3d93ac95f.jpg
+dependencies:
+  - justforfun:row-houses-megapack-02
+  - justforfun:row-shops-diagonal-pack-1
+  - justforfun:tenement-01
+  - justforfun:tenement-03-diagonal
+assets:
+  - assetId: justforfun-tenement-04-diagonal
+
+---
+assetId: justforfun-tenement-04-diagonal
+version: "1.0.0"
+lastModified: "2026-05-28T11:19:34Z"
+url: https://community.simtropolis.com/files/file/36401-tenement-04-diagonal/?do=download&r=211862

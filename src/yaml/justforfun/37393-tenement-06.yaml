@@ -1,0 +1,56 @@
+group: justforfun
+name: tenement-06
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Tenement 06
+  description: |-
+    Inspired by the Temple Buildings in Dublin, this w2w R$ tenement comes in 4 lots: a 1x2, a 2x2, and two 1x2 corners.  In this way it can be used modularly to create consistent blocks.  
+    The model is suitable for all camera angles, and the all-inclusive file weighs only 84 KB.
+
+    HOW TO USE
+
+    You can simply zone for medium or high-density Chicago tileset, or   
+    prompt the "[LotPlop](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/)" extracheat, look for "R$\_JFF Tenement 06 ..." and "[Growify](https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/)" as medium or high density residential.
+
+    DEPENDENCIES:
+
+    Essential for the buildings:
+
+    [JFF Row Houses Megapack 01](https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/)
+
+    [JFF Row Houses Megapack 02](https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/)
+
+    Recommended:
+
+    (BSC MEGA Props Jen\_P Vol01  
+    BSC MEGA Props\_JBSimio\_Vol02) contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [SFBT Essentials](https://sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    [Vortexture Base Set v1](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt)
+
+    If you like these slummy quarters, check out my other files and stay tuned for more coming soon to the STEX!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/37393-tenement-06/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a1b57574fdb4_Tenement06front.jpg.6aed77acff2fb53e98ff381abbed7f50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a1b5759a4bcf_Tenement06side.jpg.bf387b2754a1c52849deebb1522c5c26.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/ModelTen06.jpg.2c4ad425c47de32589b65b461661a364.jpg
+dependencies:
+  - justforfun:row-houses-megapack-01
+  - justforfun:row-houses-megapack-02
+  - bsc:mega-props-jenp-vol01
+  - bsc:mega-props-jbsimio-vol02
+  - sfbt:essentials
+  - vortext:vortexture-1
+assets:
+  - assetId: justforfun-tenement-06
+
+---
+assetId: justforfun-tenement-06
+version: "1.0.0"
+lastModified: "2026-05-30T21:38:34Z"
+url: https://community.simtropolis.com/files/file/37393-tenement-06/?do=download&r=213822

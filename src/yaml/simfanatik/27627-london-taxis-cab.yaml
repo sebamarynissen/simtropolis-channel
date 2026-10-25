@@ -1,0 +1,57 @@
+group: simfanatik
+name: london-taxis-cab
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: LONDON TAXIS CAB
+  description: |-
+    As shown in my tread !
+
+    1960's Classic Austin FX4 taxis cab
+
+    ( BETA ) , i am uploading by request , this file will be upgrade
+
+    Additional only , UDI Driveable , did also make a seperate prop
+
+    file , to use in Lot Editor , HD High definition - Hardware Settings
+
+    You must built an airport to udi drive it , and this taxis will spawn
+
+    around your rail stations too .
+
+    \*\*\*\*\*\*\*\* ( this is not the final version! ) please report anny bug !
+
+    Enjoy & have fun !
+
+    Simfanatik !
+  author: Simfanatik
+  website: https://community.simtropolis.com/files/file/27627-london-taxis-cab/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/fc29cc04d4a788634a85a98506635115-.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/628467f3d5d4123a0d3c31b7e43c7d23-.png
+assets:
+  - assetId: simfanatik-london-taxis-cab
+    include:
+      - \SC4 LONDON CAB.dat$
+
+---
+group: simfanatik
+name: london-taxis-cab-prop
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: LONDON TAXIS CAB resources
+  description: |-
+    This package is a resource for `pkg=simfanatik:london-taxis-cab`
+  author: Simfanatik
+  website: https://community.simtropolis.com/files/file/27627-london-taxis-cab/
+assets:
+  - assetId: simfanatik-london-taxis-cab
+    include:
+      - \SIMFAN ---------   LONDON CAB  PROP.dat$
+
+---
+assetId: simfanatik-london-taxis-cab
+version: "1.0"
+lastModified: "2012-05-19T02:26:30Z"
+url: https://community.simtropolis.com/files/file/27627-london-taxis-cab/?do=download&r=100933

@@ -1,0 +1,70 @@
+group: justforfun
+name: crossroads-church
+version: "1.0.0"
+subfolder: 650-religion
+info:
+  summary: Crossroads Church
+  description: |-
+    A typical English church meant to fill the space between a straight and a diagonal road.  
+    You can choose the version for flat terrain or the one meant for a little slope.
+
+    The church and the ground are separate props so you can also make your own lots.
+
+    HOW TO USE:
+
+    For the flat lot, simply find the church in the landmarks menu and plop it!  
+    For the version with stairs, make the straight road rise 3.5m as in the pictures, and then plop the church. It might take a bit of trial and error to get the right height.  
+    Lastly you can decorate the lots with your favourite MMP trees and plants.
+
+    DEPENDENCIES:
+
+    Essential for the models to appear correctly:
+
+    [JFF Row Houses Megapack 01](https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/)
+
+    [JFF Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+    [OW Roundabout Set](https://community.simtropolis.com/files/file/35519-ow-roundabout-set/)
+
+    [JFF Tenement 04](https://community.simtropolis.com/files/file/36401-tenement-04-diagonal/)  (only for the slope version)
+
+    Recommended for the trees:
+
+    (BSC MEGA Props - CP Vol01  
+    BSC Mega Props - CP Vol02  
+    BSC MEGA Props - SG Vol 01) all contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    If you enjoy these creations, check out my other files and as always stay tuned for more coming to the STEX!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/37089-crossroads-church/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18495634afb_CrossroadsChurchstairswest.jpg.1e50b1af62378ba37704378ca34b965c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18496241b0e_CrossroadsChurchstairseast.jpg.c0ad9466674134490b930dce1802904b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18496a3923a_CrossroadsChurchstairssouth.jpg.826f9014069aef653ae69279dba73371.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a184976d58d1_CrossroadsChurchflateast.jpg.124c56afd1cdca7e70dafff0b581606f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a18497ee8afd_CrossroadsChurchflatwest.jpg.b48a070be14c142fe7fdf6b910210aa8.jpg
+dependencies:
+  - justforfun:row-houses-megapack-01
+  - justforfun:row-shops-pack-01
+  - justforfun:tenement-04
+  - justforfun:ow-roundabout-set
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: justforfun-crossroads-church-part0
+  - assetId: justforfun-crossroads-church-part1
+
+---
+assetId: justforfun-crossroads-church-part0
+version: "1.0.0"
+lastModified: "2026-05-28T13:59:39Z"
+url: https://community.simtropolis.com/files/file/37089-crossroads-church/?do=download&r=212254
+
+---
+assetId: justforfun-crossroads-church-part1
+version: "1.0.0"
+lastModified: "2026-05-28T13:59:39Z"
+url: https://community.simtropolis.com/files/file/37089-crossroads-church/?do=download&r=212255
