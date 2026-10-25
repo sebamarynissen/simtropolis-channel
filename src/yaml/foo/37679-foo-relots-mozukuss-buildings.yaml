@@ -1,0 +1,71 @@
+group: foo
+name: relots-mozukuss-buildings
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: 11 growable and ploppable relots of Mozukuss buildings
+  description: |-
+    A set of 11 renewed growable and ploppable lots using building models made by Mozukuss.
+
+    Includes commercial lots with temperate seasonal flora props.
+
+    Some lots are partial relots of lots once hosted on LEX to add seasonal foliage and whatnot. Others are merely recalculations and updates to make them more in Line with CAM 3.1/Hybrid gameplay values that PIM-X automatically calculates. Other differences to original lots are CAM and relevant BTE reward trackers were added to occupant groups, icons and descriptions for the ploppables were also added.
+
+    None of the lots will interfere with any of the existing lots.
+  author: Foo
+  website: https://community.simtropolis.com/files/file/37679-foo-relots-mozukuss-buildings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_T37cRj1A34.jpg.de840d6b5ad07fc888c730ee1f3e6674.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_1AF1o0ShXj.jpg.914b4f6236baddbfecfe522540b6f233.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_H9q9U4IItH.jpg.4327356d6869a8ad0cb0301bf24e2089.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_efZSwpJjNi.jpg.0e5c7cb539a70053183249ab6e62f451.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_3oI8mW61b5.jpg.4fbd507696ee0d676c5aefa3d8c570d5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_f31NowuKRS.jpg.e5f4d57c92098fe210de2011b83f7eb3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_lm5TvkAkrw.jpg.fe71b3d1f31cd4a0f3529253545bfe86.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_tmzV9zrLuZ.jpg.eaf95f557d70e2dd1ec528ecdf31a055.jpg
+
+dependencies:
+  - mozukuss:mega-props-vol01
+  - mozukuss:mega-props-vol02
+  - mozukuss:mega-props-vol04
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:hedges
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jbsimio-vol03
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - vortext:vortexture-1
+  - vortext:vortexture-2
+  - ndex:textures-vol1
+  - namspopof:nams-mega-props
+  - peg:csk2-fountains
+  - peg:one-flag-many-nations
+  - bsc:essentials
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: foo-relots-mozukuss-buildings-noncam
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: foo-relots-mozukuss-buildings-cam
+
+---
+assetId: foo-relots-mozukuss-buildings-noncam
+version: "1.0.0"
+lastModified: "2026-10-24T17:05:00Z"
+url: https://community.simtropolis.com/files/file/37679-foo-relots-mozukuss-buildings/?do=download&r=223483
+
+---
+assetId: foo-relots-mozukuss-buildings-cam
+version: "1.0.0"
+lastModified: "2026-10-24T17:05:00Z"
+url: https://community.simtropolis.com/files/file/37679-foo-relots-mozukuss-buildings/?do=download&r=223482

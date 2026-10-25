@@ -1,0 +1,82 @@
+group: blanco
+name: cbx-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: TSC team CBX tower
+  description: |-
+    BAT and Lot by BLanco_05
+    For TSC team!
+
+    CBX tower is a 142m tower built in the "CBD" of Paris: La defense.
+
+    Dexia is actually the occupant of this tower.
+
+    From Wikipedia - English:
+
+    "Built from 2002 to 2005, the tower is 142 meter-tall. The tower is built nearby the La Défense circular boulevard on its Northern side, and a pedestrian bridge is connecting it to the district's esplanade on the Southern side. The CBX tower is also one of the few towers in La Défense having an inclined roof."
+
+    There are 3 CBX versions:
+
+    One with full roof ( 3*6 )
+    One for 45° road
+    One in construction ( 3*6 )
+
+    CBX tower:
+    ----------
+    Budget Item cost: 15
+    Bulldoze cost: 100
+    Flammability: 10
+    Plop cost:  25 000
+    Power consumption: 60
+    Water consumption: 20
+
+    CBX in construction:
+    --------------------
+    Budget Item cost: 15
+    Bulldoze cost: 100
+    Flammability: 10
+    Plop cost:  2 000
+    Power consumption: 150
+    Water consumption: 25
+
+    Sorry this version have no jobs.
+  author: Blanco_05
+  website: https://community.simtropolis.com/files/file/20095-tsc-team-cbx-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1cb9a1d10fdea3894aae6b7ba71c853a-cbx.jpg
+assets:
+  - assetId: blanco-cbx-tower
+    include:
+      - "\\.SC4Lot$"
+      - "-0xb482fdb4\\.SC4Desc$"
+      - "-0xd56184c8\\.SC4Desc$"
+      - "-0xd4878f01\\.SC4Desc$"
+dependencies:
+  - blanco:cbx-tower-resource
+  - lord-quillian2:foss-construction-tower-crane
+  - antoine-sc:prop-pack
+
+---
+group: blanco
+name: cbx-tower-resource
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=blanco:cbx-tower`
+  author: Blanco_05
+  website: https://community.simtropolis.com/files/file/20095-tsc-team-cbx-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1cb9a1d10fdea3894aae6b7ba71c853a-cbx.jpg
+assets:
+  - assetId: blanco-cbx-tower
+    include:
+      - "\\.SC4Model$"
+      - "-0x349134fb\\.SC4Desc$"
+      - "-0xb48790fe\\.SC4Desc$"
+
+---
+assetId: blanco-cbx-tower
+version: "1.0"
+lastModified: "2008-07-21T11:28:00Z"
+url: https://community.simtropolis.com/files/file/20095-tsc-team-cbx-tower/?do=download

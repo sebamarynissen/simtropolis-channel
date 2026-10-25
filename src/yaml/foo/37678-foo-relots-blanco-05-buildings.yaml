@@ -1,0 +1,60 @@
+group: foo
+name: relots-blanco-05-buildings
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: 2 growable relots of blanco_05 buildings
+  description: |-
+    A set of 2 renewed growable lots using building models made by blanco_05.
+
+    Includes commercial and industrial lots with temperate seasonal flora props.
+  author: Foo
+  website: https://community.simtropolis.com/files/file/37678-foo-relots-blanco_05-buildings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_y7bErj4St5.jpg.f3dfd7d54451249b33d928b705ef3783.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_ygRow6B9hK.jpg.b93a841eb57b6fe58e6555b1d756dd9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_KuCXJLlNPm.jpg.d93bf457158a107fb60a9c46047b9d26.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_ePivrIS6KG.jpg.ed4f8bb1ddfcd500cd3efcef1b2e8266.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_rVixlf4Umt.jpg.fd0b2ba7cbe68d97461a75d872d614c5.jpg
+
+dependencies:
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:hedges
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-swi21-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - kingofsimcity:superpaths-pathway-textures
+  - vortext:vortexture-1
+  - vortext:vortexture-2
+  - namspopof:nams-mega-props
+  - peg:mtp-super-pack
+  - motokloss:solaris-vacanza-12-and-interurbino-12-automata-props
+  - bsc:essentials
+  - blanco:nvidia-corporation-building-resource
+  - blanco:cbx-tower-resource
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: foo-relots-blanco-05-buildings-noncam
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: foo-relots-blanco-05-buildings-cam
+
+---
+assetId: foo-relots-blanco-05-buildings-noncam
+version: "1.0.0"
+lastModified: "2026-10-24T12:22:00Z"
+url: https://community.simtropolis.com/files/file/37678-foo-relots-blanco_05-buildings/?do=download&r=223470
+
+---
+assetId: foo-relots-blanco-05-buildings-cam
+version: "1.0.0"
+lastModified: "2026-10-24T12:22:00Z"
+url: https://community.simtropolis.com/files/file/37678-foo-relots-blanco_05-buildings/?do=download&r=223469
