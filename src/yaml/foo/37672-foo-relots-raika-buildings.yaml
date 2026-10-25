@@ -1,0 +1,71 @@
+group: foo
+name: relots-raika-buildings
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: 37 growable and ploppable relots of Raika buildings
+  description: |-
+    A set of 37 renewed growable and ploppable lots using building models made by Raika.
+
+    Includes residential, commercial, industrial and civic lots with temperate seasonal flora props.
+
+    There is a variety of industrial lots since Raika made the building models that fit into industrial zones, these are CAMpatible but not IRM compatible. Feel free to modify for your gameplay style.
+  author: Foo
+  website: https://community.simtropolis.com/files/file/37672-foo-relots-raika-buildings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_0qV5uJr2I9.jpg.00b14b34961f241883eb848124687ad3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_EZz0tKn9lY.jpg.e2671eaf91de3fd90e8519eabc2c22a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_rlFyxWcJYu.jpg.54b290be120d7ba2990317cdc2da1094.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_VWYa1GIe1i.jpg.d25cd0af14e2e8d06059f0bd7638e6a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Discord_2kHYtHYIls.jpg.eccbd3443fb919b1568f49fb7c42a749.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Discord_7aFxMoQu7f.jpg.6cf29b86213f436cac20c8a0d0aa5181.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Discord_gdYQ3Ut2B1.jpg.db2454a9c6c8cbc69594c4c8a55745ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Discord_O7SVvjtzl0.jpg.81a2b964662ab8238fd7772f1301cbc4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SimCity_4_XZTQW0Fldp.jpg.3497972a00473b09829abe28a207e24f.jpg
+
+dependencies:
+  - raika:mega-props-vol01
+  - raika:mega-props-vol02
+  - raika:mega-props-vol03
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:hedges
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-jes-vol07
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - vortext:vortexture-1
+  - vortext:vortexture-2
+  - ndex:textures-vol1
+  - namspopof:nams-mega-props
+  - peg:security-fencing-kit
+  - fantozzi:colossus-farming
+  - bsc:essentials
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: foo-relots-raika-buildings-noncam
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: foo-relots-raika-buildings-cam
+
+---
+assetId: foo-relots-raika-buildings-noncam
+version: "1.0.0"
+lastModified: "2026-10-22T14:42:00Z"
+url: https://community.simtropolis.com/files/file/37672-foo-relots-raika-buildings/?do=download&r=223426
+
+---
+assetId: foo-relots-raika-buildings-cam
+version: "1.0.0"
+lastModified: "2026-10-22T14:42:00Z"
+url: https://community.simtropolis.com/files/file/37672-foo-relots-raika-buildings/?do=download&r=223425

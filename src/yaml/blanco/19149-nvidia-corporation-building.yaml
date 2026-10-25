@@ -1,0 +1,62 @@
+group: blanco
+name: nvidia-corporation-building
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: nVIDIA Corporation Building
+  description: |-
+    BAT: Blanco_05
+    Lot: sauron620
+    For The TSC Team
+
+    The nVIDIA Corp. building is situated not far from San Francisco, in Santa Clara.
+
+    It is the headquarters of the transnational nVIDIA business company, which specializes in computer components.
+
+    Landmark only!
+
+    Characteristics:
+    ----------------
+    Size: 15x15
+    Budget item: 150
+    Bulldoze cost: 100
+    Flammability: 10
+    Landmark effect: 40 - 20
+    Plop cost: 75 000
+    Power consumed: 60
+    Water consumed: 10
+
+    No dependencies, just enjoy!
+  author: Blanco_05, sauron620
+  website: https://community.simtropolis.com/files/file/19149-nvidia-corporation-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6ea2903725fae2dd81be95f3d417a061-nvidia.jpg
+assets:
+  - assetId: blanco-nvidia-corporation-building
+    include:
+      - "\\.SC4Lot$"
+      - "\\.SC4Desc$"
+dependencies:
+  - blanco:nvidia-corporation-building-resource
+
+---
+group: blanco
+name: nvidia-corporation-building-resource
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=blanco:nvidia-corporation-building`
+  author: Blanco_05
+  website: https://community.simtropolis.com/files/file/19149-nvidia-corporation-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6ea2903725fae2dd81be95f3d417a061-nvidia.jpg
+assets:
+  - assetId: blanco-nvidia-corporation-building
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: blanco-nvidia-corporation-building
+version: "1.0"
+lastModified: "2007-12-23T08:49:00Z"
+url: https://community.simtropolis.com/files/file/19149-nvidia-corporation-building/?do=download
