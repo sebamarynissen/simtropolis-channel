@@ -1,0 +1,39 @@
+group: justforfun
+name: bus-garage-diagonal
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Bus garage diagonal
+  description: |-
+    Every city has depots where buses are stored, refuelled, and maintained. This is a large diagonal one loosely inspired by the garage in Bow, East London. It works as bus stop with a capacity of 30,000 and provides jobs to hundreds of sims.
+
+    Wait, your sims don't use the red double-deckers? No problem: the buses inside, both straight and diagonal, are separate props which can be easily replaced in the Lot Editor.   
+    Lastly, the building model is a true 3d you can enjoy at different angles.
+
+    DEPENDENCIES:
+
+    For use with the routemaster bus props:
+
+    [JFF VIntage Routemaster bus reskin](https://community.simtropolis.com/files/file/32967-vintage-routemaster-bus-reskin/)
+
+    Otherwise... none!
+
+    If you enjoy this grimy addition to your transport network let me know through likes and reviews, and as usual stay tuned for more coming to the STEX!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/36199-bus-garage-diagonal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/front.jpg.5aa800bf46bcef14a0f83abecdc0b17e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/side.jpg.650b9303516ff174373e92628df8800e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/back.jpg.988298428ae41d2cd9243cb6d4f5734e.jpg
+dependencies:
+  - justforfun:vintage-routemaster-bus-reskin
+assets:
+  - assetId: justforfun-bus-garage-diagonal
+
+---
+assetId: justforfun-bus-garage-diagonal
+version: "1.0"
+lastModified: "2026-05-28T12:29:22Z"
+url: https://community.simtropolis.com/files/file/36199-bus-garage-diagonal/?do=download&r=212067

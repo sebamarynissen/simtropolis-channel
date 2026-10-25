@@ -1,0 +1,57 @@
+group: justforfun
+name: tenement-2
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Tenement 2
+  description: |-
+    Still under pressure for lack of affordable housing? This large brick tenement, while not particularly desirable, will give a home to 550 R$ sims. To make it grow, zone a 3x7 high-density lot under Chicago tileset.
+
+    DEPENDENCIES
+
+    Essential for the models:
+
+    [JFF Victorian Row Houses Megapack 01](https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/)
+
+    [JFF Tenement 1](https://community.simtropolis.com/files/file/35763-tenement-1/)
+
+    Textures:
+
+    [11241036 Textures](https://community.simtropolis.com/files/file/33651-11241036-textures/)
+
+    Recommended:
+
+    (BSC MEGA Props - CP Vol01  
+    BSC MEGA Props - DAE Vol01.dat) both contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [Bombardiere British Boxes](https://community.simtropolis.com/files/file/29965-british-boxes/)  (for the bollards)
+
+    [Mntoes - Holt Farm Close](https://community.simtropolis.com/files/file/29972-mntoes-holt-farm-close/) (for the short fence)
+
+    [SFBT Essentials](https://sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    Let me know if this gets your homeless sims off the streets!
+
+    Justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/35832-tenement-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/zoom6.png.b4294a0f90b90edc22a614eb3e9b647c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/zoom5.png.7978b2c3d437511cffdaac4a28051a6d.png
+dependencies:
+  - bombardiere:british-boxes-props
+  - justforfun:tenement-1
+  - justforfun:victorian-row-houses-megapack-01
+  - mntoes:holt-farm-close
+  - 11241036:textures
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - sfbt:essentials
+assets:
+  - assetId: justforfun-tenement-2
+
+---
+assetId: justforfun-tenement-2
+version: "1.0.0"
+lastModified: "2023-12-16T19:23:21Z"
+url: https://community.simtropolis.com/files/file/35832-tenement-2/?do=download&r=198741

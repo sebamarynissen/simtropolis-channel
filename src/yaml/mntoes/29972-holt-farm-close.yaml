@@ -1,0 +1,78 @@
+group: mntoes
+name: holt-farm-close
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Mntoes Holt Farm Close
+  description: |-
+    Mntoes Holt Farm Close
+
+    I first started these Bats way back in 2006 and I never quite got the time to finish them due to RL. I have a bit more free time now so here they are complete at last. I hope the wait was worth it.
+
+    The pack consists of 3 lots (two dat files standard and high def versions)
+
+    R$4\_3x2 Holt Farm Lot one (40 res)
+
+    R$4\_3x2 Holt Farm Lot two (40 res)
+
+    R$4\_3x2 Holt Farm Lot Three (40 res)
+
+    It is important that you place only one of these dat files in your plugins folder.
+
+    either:-
+
+    Mntoes Holt Farm Close Std.dat
+
+    or
+
+    Mntoes Holt Farm Close HD.dat
+
+    Pollution-low
+
+    Garbage -low
+
+    Hospital Grade-
+
+    Crime-low
+
+    As you may know I am not a lover of dependencies so all the custom props and textures needed are included with the download.
+
+    Included also in this pack are 2 3ds model files:-
+
+    Mikeseith Corrola
+
+    &
+
+    Sheep Skoda Fabia
+
+    Thanks guys for the models & textures.
+
+    Hope you enjoy
+
+    Mntoes
+  author: mntoes
+  website: https://community.simtropolis.com/files/file/29972-mntoes-holt-farm-close/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/2824160a6e63a21a3fc725fdacc1d656-holt-farm-close-day-3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/d9859af0e5f36333fcfc073f1e769b14-holt-farm-close-night2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/f5f5972a6bc1e43625c0e093594b0973-holt-farm-close-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/f0d971773d78ebf9e02247dbdeec2178-holt-farm-close-day2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/6779e681020d3d19d7b39de430a02392-holt-farm-close-day-2a.jpg
+variants:
+  - variant: { mntoes:holt-farm-close:resolution: "standard" }
+    assets:
+      - assetId: mntoes-mntoes-holt-farm-close
+        include:
+          - "/Mntoes Holt Farm Close Std.dat"
+  - variant: { mntoes:holt-farm-close:resolution: "hd" }
+    assets:
+      - assetId: mntoes-mntoes-holt-farm-close
+        include:
+          - "/Mntoes Holt Farm Close HD.dat"
+
+
+---
+assetId: mntoes-mntoes-holt-farm-close
+version: "1.0"
+lastModified: "2014-10-31T20:23:47Z"
+url: https://community.simtropolis.com/files/file/29972-mntoes-holt-farm-close/?do=download&r=144332

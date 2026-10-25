@@ -1,0 +1,54 @@
+group: justforfun
+name: animated-horse-drawn-carriage-automata-pack-5-civic-vehicles
+version: "1.1.0"
+subfolder: 710-automata
+info:
+  summary: Animated Horse-drawn Carriage Automata Pack 5 - Civic Vehicles
+  description: |-
+    This fifth instalment of horse-drawn carriages brings civic vehicles to your Victorian cities, replacing Maxis standard ones.   
+    It includes fire brigade, ambulance, police van, mayor's berlin, waste wagon, recycling wagon, 3 Hansom cabs as taxis, schoolbus, omnibus, hearse, icecream cart, and a float of "The Times" newspaper which I imagined as a replacement for the TV van.   
+    Your mayor will now be able to travel in style on a grand coach with 2 footmen, the "LM" sign on the door standing for Lord or Lady Mayor.  Keeping in mind that in the early 1800s London had a zero-waste policy, I made a recycling wagon with sections for ash, organic, and scrap metal. The schoolbus and the omnibus are each drawn by 3 horses.
+
+    IMPORTANT NOTICE ON UDI:
+
+    Due to a limitation in the game for which I can't see a workaround (namely an automaton cannot at the same time have the class ID of a trailer vehicle and that of a specific civic vehicle such as a bus) my choice was between making realistic articulated carriages unable to perform city missions or mission-able carriages that did not bend when turning. I chose the first. This means that only the carriages that are not trailer sets have full functionality for UDI missions, namely the Hansom cabs, the icecream cart, and the "The Times" cart. You can still drive all others, and the mayor's coach will be able to throw money, but they will not activate the relative city missions.
+
+    CHOOSE YOUR FIRE ENGINE:
+
+    I made an exception for the fire engine: for the people who want to perform UDI missions on it, I included a separate file with a non-articulated carriage. For this I also reskinned the in-game fire crew to make it more similar to the firemen on the carriage, inasmuch as could be done without modifying the crew's models.   
+    So, if you want a missions-enabled fire truck that doesn't bend when it turns, leave the UDI\-missions-fire-engine\_optional.dat where it is. If you don't care about the missions and prefer to see an articulated automaton roam your streets, just delete that file.
+
+    DEPENDENCIES:
+
+    [https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/](https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/)  
+    [https://community.simtropolis.com/files/file/33234-animated-horse-drawn-carriage-automata-pack-2/](https://community.simtropolis.com/files/file/33234-animated-horse-drawn-carriage-automata-pack-2/)
+
+    Please make sure the present Maxis\_cars\_suppressor\_optional.dat file replaces the old one.
+
+    Happy trotting!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/33840-animated-horse-drawn-carriage-automata-pack-5-civic-vehicles/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/01.jpg.71b0d7ef0cbc8ee27e4bf4ec4d75eaba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/02.jpg.0cae8162f0820320fc6f170be692105c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/03.jpg.c901204e282d3f0300b751cb492c33ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/04.jpg.7a7c7080634c3ac26deb3ce08743d591.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/05.jpg.619a0a3f969f9dc9c0af3752f7b1bb3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/06.jpg.19feedaa02bfc90ffadcb983cf0ccdb0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/07.jpg.a2eacbc0aace7897df3f4d423bc616b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/Shot1.png.282e3c3ef0192f8c8bbedb0c9db8c17c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/Shot2.png.81e325b136c57d12750e11ba6197ed5b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/Shot3.png.eaf1b7cb4c9bae4ba45ac8512a39c7c9.png
+dependencies:
+  - '"[https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/](https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/)"'
+  - '"[https://community.simtropolis.com/files/file/33234-animated-horse-drawn-carriage-automata-pack-2/](https://community.simtropolis.com/files/file/33234-animated-horse-drawn-carriage-automata-pack-2/)"'
+assets:
+  - assetId: justforfun-animated-horse-drawn-carriage-automata-pack-5-civic-vehicles
+
+---
+assetId: justforfun-animated-horse-drawn-carriage-automata-pack-5-civic-vehicles
+version: "1.1.0"
+lastModified: "2020-11-14T12:44:26Z"
+url: https://community.simtropolis.com/files/file/33840-animated-horse-drawn-carriage-automata-pack-5-civic-vehicles/?do=download&r=183848

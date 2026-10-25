@@ -1,0 +1,67 @@
+group: justforfun
+name: victorian-row-shops-curved
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Victorian Row Shops Curved
+  description: |-
+    Finally something is here to fill those bendy roads!  These Tudor-style Cs$$ shop parades will turn your 90-degree curved roads into busy highstreets full of detail. They come in 1x1 lots with overhanging props: one covering the inner side of the road, one the outer side.   
+    The ploppable version includes icons in the landmark menu. Alternatively you can download the growable version and plop these with the extracheats plugin, like I personally do. In this case you'll find them listed under Cs$$ JFF shop parade.  
+    The pavements (sidewalks) are separate props so you can remove them in the Lot Editor or use them in other lots too.  
+    Both versions weigh less than 400KB, the rest of the download is pictures!
+
+    DEPENDENCIES  -I bet you already have all of them?
+
+    Essential for the model:
+
+    [JFF Victorian Row Houses Megapack 01](https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/)
+
+    [JFF Victorian Row Houses Megapack 02](https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/)
+
+    [JFF Victorian Semi-detached Houses Pack 01](https://community.simtropolis.com/files/file/35172-victorian-semi-detached-houses-pack-01/)
+
+    Essential only for the growable version:
+
+    [JFF Victorian Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+    Optional for the few props in the back:
+
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [Historic Harbor](https://community.simtropolis.com/files/file/29880-historic-harbor/)  (Barrels.dat)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    If you enjoy the result of a lot of time-consuming hard work (S3D modelling requires one to calculate the coordinates of every single point, to manually map every polygon, to include some shading in the textures, and to fit the textures into the size of FSH files) let me know through likes and reviews, and stay tuned for more coming to the STEX!
+
+    Justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/35533-victorian-row-shops-curved/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/1.jpg.1d7c4a6ff3a25ab3dbfee62122d07359.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/2.jpg.7fddd2e9f69f461ee302f2ac048bd805.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/3.jpg.a122899731f22acd797ef35bad7a4ac5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/4.jpg.15da72281078b7e23c2c917b0eebf5aa.jpg
+dependencies:
+  - justforfun:victorian-row-houses-megapack-01
+  - justforfun:victorian-row-houses-megapack-02
+  - justforfun:victorian-row-shops-pack-01
+  - justforfun:victorian-semi-detached-houses-pack-01
+  - bsc:mega-props-sg-vol01
+  - historic-harbor:dependencies
+  - sfbt:essentials
+assets:
+  - assetId: justforfun-victorian-row-shops-curved-grow
+  - assetId: justforfun-victorian-row-shops-curved-plop
+
+---
+assetId: justforfun-victorian-row-shops-curved-grow
+version: "1.0.0"
+lastModified: "2023-05-31T07:00:43Z"
+url: https://community.simtropolis.com/files/file/35533-victorian-row-shops-curved/?do=download&r=197148
+
+---
+assetId: justforfun-victorian-row-shops-curved-plop
+version: "1.0.0"
+lastModified: "2023-05-31T07:00:43Z"
+url: https://community.simtropolis.com/files/file/35533-victorian-row-shops-curved/?do=download&r=197149

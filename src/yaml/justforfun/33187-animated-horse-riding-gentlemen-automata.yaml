@@ -1,0 +1,51 @@
+group: justforfun
+name: animated-horse-riding-gentlemen-automata
+version: "1.1.0"
+subfolder: 710-automata
+info:
+  summary: Animated horse-riding gentlemen automata
+  description: |-
+    This file contains 4 horse-riding Victorian gentlemen automata that will replace Maxis motorcycles.
+
+    IMPORTANT: If you downloaded the HorseCarriagePack1:
+
+    [https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/?do=embed](https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/?do=embed)
+
+    AND you are using the MaxisCarsSuppressor\_optional file, in order for these chaps to show you need to replace such file with the one contained in this upload.
+
+    Apart from that, don't forget your riding crops! ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif ":D")
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/33187-animated-horse-riding-gentlemen-automata/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/1.jpg.17854166838b6fb4562d5a6a4a57f920.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/3.jpg.cc26c669e3650a7cab0b446ddee44e80.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/4.jpg.52cae8ffa2a2bd4c7d79b594f81cf527.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/2.jpg.569fee9127f3f9bd1ce827e3a1c08a2d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Rider4.jpg.16a912909c1e64cd3d8b8962ccf38ae0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RidingMen.jpg.909e3c5a2bcc0a6095552e9653181d8a.jpg
+assets:
+  - assetId: justforfun-animated-horse-riding-gentlemen-automata
+    exclude:
+      - "/MaxisCarsSuppressor_optional.dat"
+
+---
+group: justforfun
+name: maxis-automata-suppressor
+version: "1.1.0"
+subfolder: 710-automata
+info:
+  summary: Suppresses Maxis automata
+  description: |-
+    Suppresses Maxis vehicular automata. Useful if you are creating historical themed cities.
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/33234-animated-horse-drawn-carriage-automata-pack-2/
+assets:
+  - assetId: justforfun-animated-horse-drawn-carriage-automata-pack-2
+    include:
+      - "/MaxisCarsSuppressor_optional.dat"
+
+---
+assetId: justforfun-animated-horse-riding-gentlemen-automata
+version: "1.1.0"
+lastModified: "2020-11-14T12:32:20Z"
+url: https://community.simtropolis.com/files/file/33187-animated-horse-riding-gentlemen-automata/?do=download&r=183806

@@ -1,0 +1,81 @@
+group: justforfun
+name: victorian-row-houses-megapack-02
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Victorian Row Houses MegaPack 02
+  description: |-
+    While the first Row Houses MegaPack provided 100 house designs, this Megapack 02 brings to you, well, 100 more!  That's right: 100 more Victorian, Edwardian, Georgian, and even Tudor w2w models and 114 lots, to build rows upon rows of traditional terraces. The designs draw largely from London, but also from American and Canadian cities.  
+    You will find 30 new R$, 55 R$$, and 15 R$$$, plus colour variations, mirrored versions, and a few fence props.  The grand total of both packs thus comes to 60 R$, 100 R$$, and 40 R$$$.
+
+    The rows grow on medium-density Chicago tileset; most on 4x2 prints, others on 4x3, 4x1, 2x4, 1x4, or 2x6 prints, as detailed in the separate documentation images. Along with 10 new mews houses, I also threw in a few additional lots for the mews of Megapack 01.
+
+    Stats are realistic rather than Maxis (for example a R$$ house will typically host 5 people, obviously more if taller) and the lots feature the same dummy buildings of Megapack 01 plus new ones.
+
+    Since each house is a single prop, the rows are moderately slop-friendly.  
+    In case you are going to plop them using the extracheat plugin, note that some designs come with lot A and lot B, which are meant to alternate so that the architectural features align. The props are found in the LE under the prefix JFF.
+
+    As incredible as it sounds, all models and lots are contained in one single file which weighs less than 4 MB!  That's possible because these models are S3Ds, not BATs, which also means they look like the ingame automata, with crisp textures yet no shading.
+
+    DEPENDENCIES: To enjoy the full variety of props in the gardens and yards you need the same dependencies listed under Megapack 01, PLUS the following:
+
+    [JFF Victorian Row Houses Megapack 01](https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/)
+
+    [JFF Victorian Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+    [JFF Victorian Semi-detached House Pack 01](https://community.simtropolis.com/files/file/35172-victorian-semi-detached-houses-pack-01/)
+
+    The above three are essential for the houses to show correctly, plus the following:
+
+    [Historic Harbor](https://community.simtropolis.com/files/file/29880-historic-harbor/)  (Not just Crates.dat but also Barrels.dat, Carts.dat and Sacks.dat)
+
+    [Mattb325 Holland Park Terraces](https://community.simtropolis.com/files/file/28125-holland-park-terraces/) (for the railings)
+
+    [LBT Mega Prop Pack vol.01](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/) (for the resized fences)
+
+    So... if you like the result of \*many\* months of painstaking, fingertip-breaking work, please let me know through likes and reviews!
+
+    And as always stay tuned for more upcoming fun.
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/01.jpg.ad88d31dca56bdd6847b337285de1f51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/02.jpg.aa8094bdc7bd12fbeba801beaecc3ea5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/03.jpg.f8db994e4a319eb962424320da1adc0e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/04.jpg.afd56d9883a4eab1c690d8e12c8df7c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/05.jpg.05138013630a71602356e3001e710509.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/06.jpg.30b3c9da1292a0646d2e810a554fb4dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/07.jpg.ae50229acff731074f5d7730749d862f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/08.jpg.ae2e7fc44fada2e2e2226f9fd2c337be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/09.jpg.903a82dfbad86dbf880e6b8a0a39724e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/10.jpg.943c535338f8c8abbe191d38f80a1025.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/11.jpg.4ef913d3568a4f961fafbc41d6fdf9bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/12.jpg.7ae5cd5ca7f4dd28bbff50b73b444c9c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/13.jpg.d44dd933336bb32bd5ffbdc952475649.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/14.jpg.ef1484a0830aea27d3e2bfd77f08b6e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/15.jpg.c5cc05f35ce06e4c43ac21aa5967198f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/16.jpg.fd9bc1e60ac30f21c8336ac2f76b41db.jpg
+dependencies:
+  - justforfun:victorian-row-houses-megapack-01
+  - justforfun:victorian-row-shops-pack-01
+  - justforfun:victorian-semi-detached-house-pack-01
+  - historic-harbor:dependencies
+  - lbt:mega-prop-pack-vol01
+  - mattb325:holland-park
+assets:
+  - assetId: justforfun-victorian-row-houses-megapack-02-part0
+  - assetId: justforfun-victorian-row-houses-megapack-02-part1
+
+---
+assetId: justforfun-victorian-row-houses-megapack-02-part0
+version: "1.0.0"
+lastModified: "2023-01-11T13:58:59Z"
+url: https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/?do=download&r=196084
+
+---
+assetId: justforfun-victorian-row-houses-megapack-02-part1
+version: "1.0.0"
+lastModified: "2023-01-11T13:58:59Z"
+url: https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/?do=download&r=196085

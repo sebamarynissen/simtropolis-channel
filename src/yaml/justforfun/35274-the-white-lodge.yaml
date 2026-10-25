@@ -1,0 +1,69 @@
+group: justforfun
+name: the-white-lodge
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: The White Lodge
+  description: |-
+    This is a relot and repurposing of Pegasus' Chicken Ranch.  
+    Pegasus' lovely model here comes as the "White Lodge", a stylish club with al fresco dining.  
+    It grows on a 2x2 Chigago-tileset medium-density lot and provides 8 Cs$$$ jobs.  
+       
+    This download also contains the scaled-down version of two of CP's umbrella tables, with new IDs, however the original CP file is still necessary as a dependency.
+
+    Dependencies:
+
+    [PEG Chicken Ranch](https://community.simtropolis.com/files/file/12727-peg-chicken-ranch/)  (only the RESOURCE file)
+
+    [AGV Heuvelstraat 109 & Stationsstraat 41](https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/)  (flowers)
+
+    [BSC MEGA Props - CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)  (trees)
+
+    [BSC MEGA Props - D66 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)  (flowers and hedges)
+
+    [BSC MEGA Props - DAE Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)  (fence)
+
+    [BSC MEGA Props - MJB Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407%20%20\(bush\))  (bush)
+
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  (azalea and boxes)
+
+    [BSC MEGA Props - swi21 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)  (lamps)
+
+    [BSC MEGA Props - W2W Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=465)  (restaurant)
+
+    [BSC Texture Megapack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)  (bins)
+
+    [Historic Harbor](https://community.simtropolis.com/files/file/29880-historic-harbor/)  (only Barrels.dat)
+
+    [LBT Mega Prop Pack vol 01](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)  (trees and bicycle)
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/35274-the-white-lodge/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/WhiteLodge-S.png.432b92d137d759430b68ed6b2ea207e1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/WhiteLodge-E.png.c0e64622920032893b0d71cf1fb4c123.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/WhiteLodge-W.png.a0699f69c1df8c93a6a7ffcd81c27bb7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/WhiteLodge-N.png.eec1e4b122488d79aab06416304d12b3.png
+dependencies:
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-w2w-vol01
+  - aarsgevogelte:heuvelstraat-109-and-stationsstraat-41-tilburg
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol01
+  - historic-harbor:dependencies
+  - lbt:mega-prop-pack-vol01
+  - peg:chicken-ranch-props
+  - sfbt:essentials
+assets:
+  - assetId: justforfun-the-white-lodge
+
+---
+assetId: justforfun-the-white-lodge
+version: "1.0.0"
+lastModified: "2022-08-20T15:43:19Z"
+url: https://community.simtropolis.com/files/file/35274-the-white-lodge/?do=download&r=195137

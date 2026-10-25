@@ -1,0 +1,128 @@
+group: bombardiere
+name: clerkenwell-library
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: Clerkenwell Library
+  description: |-
+    This small wall-to-wall library is inspired by a real life building, Karl Marx Memorial Library, in Clerkenwell, London. This is no political statement, I just like its Georgian look and it fits into my current playstyle. There are not that many historical libraries for wall-to-wall urban environment, so I decided to create one.
+
+    I have made two versions, a grey stucco functional education library and an additional red brick high wealth office building.
+
+    The real life building is from Georgian era, built around 1769, but has been heavily modified during its life. It has served many functions, including as a shop. During 1980's the building was renovated and the original look was restored. This BAT is based on how facade looks today.
+
+    HD model with Maxis and Dark Night version. Night versions share IDs, so if you have both versions in the city, those will most likely conflict. It has a custom foundation, so it is slope friendly.
+
+    I have included in a 1x1 FAR angle option of the Library building. The FAR model is included in the file and perhaps someone can do a better lotting than I did.
+
+    Simmer2 has been helpful with the lotting and he has provided a custom texture for the lots. The texture dat file is included in the download. Thank You Simmer2. The props are mostly HD to go with the HD BAT.
+
+    Clerkenwell Library
+
+    Lot 1x2
+
+    Capacity 30 000
+
+    Plop cost 400
+
+    Monthly upkeep 350
+
+    Coverage Radius 1880
+
+    Jobs Created 8 R$ 9 R$$
+
+    Clerkenwell Library FAR
+
+    Lot 1x1
+
+    Capacity 25 000
+
+    Plop cost 350
+
+    Monthly upkeep 300
+
+    Coverage Radius 1760
+
+    Jobs Created 7 R$ 8 R$$
+
+    Clerkenwell Office
+
+    Lot 1x2
+
+    Capacity satisfied CO $$$ 20
+
+    Building Value 218
+
+    Bulldoze Cost 212
+
+    Pollution Air: 1, Water: 1, Garbage 4
+
+    Water Consumed 23
+
+    Power Consumed 1
+
+    © 2016 Simmer2 and Bombardiere
+  author: Bombardiere
+  website: https://community.simtropolis.com/files/file/31404-clerkenwell-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary1.jpg.de75f6c72c89463adb7ae66ba5855d49.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary2.jpg.b04e86c4e6b6833b1c77dbf63630ba3d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary3.jpg.f5df547f28655c44fab9b8ef596e7d26.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary4.jpg.dcaad6c3a7a9fd29245ef54ce04fe545.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary5.jpg.332cf3a175081ac999ecac0901f65170.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary6.jpg.c2799c737f577ca261a2dae9652bf436.jpg
+dependencies:
+  - bombardiere:clerkenwell-library-model
+  - bombardiere:british-boxes-props
+  - bsc:mega-props-cp-vol01
+  - girafe:ashes
+  - girafe:berries
+  - girafe:daisy
+  - girafe:elms
+  - girafe:sparaxis
+  - namspopof:props-pack-vol2
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: bombardiere-clerkenwell-library-maxisnite
+        exclude:
+          - \.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: bombardiere-clerkenwell-library-darknite
+        exclude:
+          - \.SC4Model$
+
+---
+group: bombardiere
+name: clerkenwell-library-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for for `pkg=bombardiere:clerkenwell-library`
+  author: Bombardiere
+  website: https://community.simtropolis.com/files/file/31404-clerkenwell-library/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: bombardiere-clerkenwell-library-maxisnite
+        include:
+          - \.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: bombardiere-clerkenwell-library-darknite
+          - \.SC4Model$
+
+---
+assetId: bombardiere-clerkenwell-library-darknite
+version: "1.0"
+lastModified: "2016-12-14T17:19:45Z"
+url: https://community.simtropolis.com/files/file/31404-clerkenwell-library/?do=download&r=164079
+
+---
+assetId: bombardiere-clerkenwell-library-maxisnite
+version: "1.0"
+lastModified: "2016-12-14T17:19:45Z"
+url: https://community.simtropolis.com/files/file/31404-clerkenwell-library/?do=download&r=164080

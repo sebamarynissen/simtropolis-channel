@@ -1,0 +1,37 @@
+group: justforfun
+name: royal-flower-garden
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Royal Flower Garden
+  description: |-
+    Add some glamour to your parks with this ornate flower garden! Simply plop and rotate 4 times to compose the 16x16 symmetric pattern.
+
+    DEPENDENCIES:
+
+    [BSC MEGA Props - D66 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)  
+    [BSCBAT Props D66 Vol11](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1502)  
+    [BSC MEGA Props - MJB Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)  
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)  
+    [AGV Heuvelstraat 109 & Stationsstraat 41](https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/)  
+    [BSC MEGA Props - swi21 Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=405)
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/34860-royal-flower-garden/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/02.jpg.141f1e23c9257f7723f06a342884841b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/01.jpg.2413cb672e1e8ed704f9f8354545e116.jpg
+dependencies:
+  #- aarsgevogelte:heuvelstraat-109-and-stationsstraat-41-tilburg
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol03
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol02
+assets:
+  - assetId: justforfun-royal-flower-garden
+
+---
+assetId: justforfun-royal-flower-garden
+version: "1.0.0"
+lastModified: "2022-02-15T16:31:26Z"
+url: https://community.simtropolis.com/files/file/34860-royal-flower-garden/?do=download&r=191372
