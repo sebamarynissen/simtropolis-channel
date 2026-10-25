@@ -1,0 +1,30 @@
+group: spa
+name: library-pub
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Library Pub
+  description: |-
+    The Library Pub is a bar and restaurant in tiny Wolfville, Nova Scotia. The Pub is located on the corner of Main and Elm Streets. The bar shares the building with a coffee shop. The Library Pub is the first entry in my Atlantic Canada BAT set, which is a set of bats from the various small towns scattered across the region. The Library Pub fits w2w on both sides and the lot is made to match JBSimio's small town series. A plop and a growable landmark with jobs are included in this upload. See the readme for complete details.
+  author: spa
+  website: https://community.simtropolis.com/files/file/18579-library-pub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/c110a986df93f1a83b84d01a15d8d462-library-pub-release-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/50d4e31e2c65df5a0ab050f161bd9bb4-library-pub-release-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/00726fe19bc586ef01592c568c39774e-library-pub-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: spa-library-pub
+
+---
+assetId: spa-library-pub
+version: "1.0"
+lastModified: "2007-08-21T23:14:08Z"
+url: https://community.simtropolis.com/files/file/18579-library-pub/?do=download&r=144960
+archiveType:
+  format: Clickteam
+  version: "40"

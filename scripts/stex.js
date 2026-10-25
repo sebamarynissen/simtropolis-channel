@@ -7,4 +7,6 @@ export default {
 	14212: 'sfbt:essentials',
 	14842: 'bsc:mega-props-cp-vol01',
 	15322: 'bsc:texturepack-cycledogg-vol01',
+	18274: 'bsc:essentials',
+	20165: 'bsc:essentials',
 };

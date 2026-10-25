@@ -1,0 +1,31 @@
+group: spa
+name: dundas-terrace
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Dundas Terrace
+  description: |-
+    Dundas Terrace is an old apartment building in Charlottetown, Prince Edward Island and is one of the City's lesser known gems. Built in 1890, the building is a rare instance of a Queen Anne Style apartment building and reflects some Maritime influences in the use of wood and bright colours (the real thing is yellow). It was named for a now vanished street, Dundas Esplanade, that use to connect Water and Sydney Streets. The building was built by the estate of Owen Connolly. Connolly was a wealthy businessman who owned several properties and commercial ventures in PEI in the 19th century. When he died, his will instructed that his wealth be used to setup a charity to educate Irish Catholics (Connolly was an Irish immigrant). To guarantee a steady income for its charitable work, the Connolly Estate built a number of buildings, including Dundas Terrace. The Estate still operates today, but the real estate interests were sold in 1968. Dundas Terrace is currently privately owned and has remained virtually unchanged since its construction in 1890. Due to its unique history and its significant and unaltered architecture, Dundas Terrace is a nationally recognized historic site.
+
+    The real Dundas Terrace is yellow, but to add some variety I have included 5 other colour variations (pink, red, green, brown and blue) and mirrored three of them. Dundas Terrace grows on a 3x2 lot on medium density in the Chicago and New York tilesets. It provides a home to 96 R$$$. Since many of these kind of old buildings have been turned into Inns or B&Bs I have also included a commercial version. UPDATED: Fixed a problem with the commercial B&B lots that allowed them to grow on low density.
+  author: spa
+  website: https://community.simtropolis.com/files/file/24779-dundas-terrace/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/bec0a9ff1de7857a3e8ef953ebf47ce5-dundas-terrace-upload-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/25bc840d7ce3d54c2688a08a0a0d460a-dundas-terrace-upload-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/9e6c6bac417a6c1226c3de8d47cac6c6-readme-1.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: spa-dundas-terrace
+
+---
+assetId: spa-dundas-terrace
+version: "1.0"
+lastModified: "2010-08-31T23:09:53Z"
+url: https://community.simtropolis.com/files/file/24779-dundas-terrace/?do=download&r=114492
+archiveType:
+  format: Clickteam
+  version: "40"

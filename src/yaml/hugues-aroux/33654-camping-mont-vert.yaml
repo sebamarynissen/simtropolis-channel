@@ -1,0 +1,96 @@
+group: hugues-aroux
+name: scoty-camping-mont-vert
+version: "1.1.0"
+subfolder: 660-parks
+info:
+  summary: Scoty Camping Mont Vert
+  description: |-
+    The «mont vert» campsite? Yes because the «Camping des Flots Bleus» is already taken; 10 times along the French coast.
+
+    This plugin allows you to make a campsite (2 stars or more, or less ... I know nothing about camping me, ghu!) as big as you want. It consists of 31 lots, mainly 1x1 aisles, «boxes» for tent, mobile-home or motorhome (RV). Also a small car park, sanitary & services, playgrounds and a swimming pool. You will see more or less animation over the hours, changing tents, RV, peoples. It will cost you between 1000 and 2000 simflouzs. And less than 100 Sfs per month.
+
+    Lots are available in the Parks Menu. Long after the Maxis parks, and others!
+
+    As always I match my grass texture with [sudden valleys](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2867%7C) from Gobias.
+
+    The entrance (transit enable) is optimized for Mac 64-b.
+
+    **Installation**
+
+    Unzip the ZIP in your plugins/ directory
+
+    Read the little PDF guide for all the details
+
+    **Dependencies**
+
+    [Scoty MP essential](https://community.simtropolis.com/files/file/33636-scoty-mp-essential/) .. H.A. .. (and his dependencies)
+
+    [Campground from SFBT](https://community.simtropolis.com/files/file/36176-sfbt-campground) .. SFBTeam .. Just this file : SFBT\_Camping\_Props.dat
+
+    [Tents from NBVC](https://community.simtropolis.com/files/file/27417-tents/) .. only the contents of this directory : NBVC\_TentProps/
+
+    [BSC MEGA Props - CP Vol01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180) from C.P.
+
+    [BSC MEGA Props - SG Vol 01 (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746) from SimGoober
+
+    [SimGoober Pool](https://community.simtropolis.com/files/file/14522-public-pools-pack/) (public pool pack) from SimGoober .. Only SG\_PublicPool02.dat
+
+    [Nams PROPS PACK Vol 2](https://www.toutsimcities.com/downloads/view/1882) from Namspopof
+
+    [Nams props pack vol 1](https://www.toutsimcities.com/downloads/view/1780) .. “ ..”
+
+    **Flora from Girafe**
+
+    [cypress](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2983)
+
+    [feather grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+
+    [bush](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2711)
+
+    [Rowan](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+
+    [Sparaxis](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2980)
+
+    [Hedge](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071) **..** The hedge file is in the “Props” sub-directory of this plugins, delete the rest if not desired!
+
+    [LRMv5 german set](https://community.simtropolis.com/files/file/27986-light-replacement-mod-german-set/) .. from MandelSoft .. Only Models & Props.dat and LightCones\_MaxisNite.dat or LightCones\_DarkNite.dat
+
+    [SPOT](https://community.simtropolis.com/files/file/24509-spot/) from RebaLynnTS
+
+    Thank you to all of these Bats and Props creators! I'm having fun !
+
+    *03/24 .. update SFBT campground link.*
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/33654-scoty-camping-mont-vert/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/campsite_01.jpeg.440d956b81651e662dc2b3fbc34c20a0.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/campsite_02.jpeg.7299746691d1b0d84642692a6ea52738.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/campsite_03.jpeg.c5d66822eb068ed544b1ea4f23cfb502.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/pieces_01.jpeg.f602c9def115215faf21a8474938d497.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/pieces_02.jpeg.3b0c46f30913772ce0a7718a43fae619.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/pieces_03.jpeg.e79e377585d9d6b46a46a72599f1a7a8.jpeg
+dependencies:
+  - hugues-aroux:mp-essentials
+  - sfbt:camping-props
+  - nbvc:tents-resources
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - sg:public-pools-pack-resources
+  - namspopof:props-pack-vol1
+  - namspopof:props-pack-vol2
+  - girafe:bushes
+  - girafe:cypresses
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:rowan-trees
+  - girafe:sparaxis
+  - mandelsoft:lrm-5-lightcones
+  - peg:spot
+assets:
+  - assetId: hugues-aroux-scoty-camping-mont-vert
+
+---
+assetId: hugues-aroux-scoty-camping-mont-vert
+version: "1.1.0"
+lastModified: "2025-11-16T16:08:36Z"
+url: https://community.simtropolis.com/files/file/33654-scoty-camping-mont-vert/?do=download&r=181597

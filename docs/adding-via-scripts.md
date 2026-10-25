@@ -7,6 +7,7 @@ Note that the instructions and specific commands may vary slightly between Windo
 ## Overview
 This repository contains the following scripts, some of which add new features on top of the default sc4pac CLI commands:
 - [`npm run add`](#npm-run-add) - Generate metadata from one or more STEX URLs, or optionally all URLs from specified authors
+- [`npm run lint:yaml`](#npm-run-lintyaml) - Run the sc4pac lint locally to detect potential issues with metadata
 - [`npm run build`](#npm-run-build) - Rebuild the Simtropolis sc4pac channel to include the new metadata
 - [`npm run prune`](#npm-run-prune) - Scan each lot to find dependencies not listed in the metadata.
 - [`npm run list`](#npm-run-list) - Generate a list of dependencies from a package in a standard format.
@@ -135,8 +136,25 @@ Again, note the `--` *before* the url.
 
 
 
+## `npm run lint:yaml`
+The linting process identifies potential errors and bugs as well as style violations in the YAML code.
+The sc4pac linting is typically done remotely once a pull request is submitted.
+This command lets you run it locally before submitting.
+By default, the entire `src\yaml` directory is validated, though an optional argument allows only a specific subfolder to be validated.[^run-lint-yaml]
+``` sh
+npm run lint:yaml
+npm run lint:yaml -- src/yaml/simfox
+```
+
+Note that python is required to run the linting script.
+Any [modern version](https://devguide.python.org/versions/) of python should work, but 3.14 is recommended.
+
+
+
 ## `npm run build`
-This command builds the local sc4pac channel to include recently added or updated files so that they can be tested and installed regularly through sc4pac.
+The sc4pac build command transforms the YAML files into JSON files useable by sc4pac.
+Any new or modified files must be built for inclusion in the channel.
+The build process will also expose certain errors in the YAML documents.
 
 
 
@@ -260,6 +278,8 @@ This section details the workflow of adding and testing packages. The summary of
 
 ```sh
 npm run add <url>
+
+npm run lint:yaml
 
 npm run build
 
@@ -495,6 +515,7 @@ Also note that if a package links to the BSC common dependencies legacy pack, *a
 [^splitting-packages]: https://github.com/sebamarynissen/simtropolis-channel/pull/82
 [^darknite-only]: https://github.com/sebamarynissen/simtropolis-channel/pull/122
 [^run-add-author]: https://github.com/sebamarynissen/simtropolis-channel/pull/296
+[^run-lint-yaml]: https://github.com/sebamarynissen/simtropolis-channel/pull/495
 [^npm-run-prune]: https://github.com/sebamarynissen/simtropolis-channel/pull/78
 [^run-prune-force]: https://github.com/sebamarynissen/simtropolis-channel/pull/87
 [^npm-run-list]: https://github.com/sebamarynissen/simtropolis-channel/pull/93

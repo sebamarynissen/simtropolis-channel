@@ -1,0 +1,144 @@
+group: hugues-aroux
+name: mp-textures
+version: "2.1.0"
+subfolder: 100-props-textures
+info:
+  summary: Modular parking base and overlay textures
+  description: |-
+    A set of more than 500 textures (bases and overlays) to feed mainly the Scoty Modular parking plugin. Yes, a few dozen more than v.1
+
+    \+ 14  multifsh base texture with the same ID (11 more than v.1).
+
+    Textures of junction with type streets Maxis, and, (TSR) [Tarsealed Street of Rivit](https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/), and, (WWS) [WestWind Street](https://community.simtropolis.com/files/file/36330-westwind-streets/) .. to choose !
+
+    You are free to use this files for your Lots, remember to indicate it in the dependencies!
+
+    The grass used in this publication comes from [Sudden valley](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/29-gobias-sudden-valley-terrain-mod) environment. Note that for those who master Rivit's GoFSH, you'll find a [Fabrik on my drive](https://1drv.ms/f/s!AlD-_0WBCRHjiyfobnRthZ2S9PHX), allowing you to adapt these textures with your own grass set.
+
+    **Use of this pack as a dependency (essential!) of**
+
+    [https://community.simtropolis.com/files/file/33642-scoty-modular-parking/?do=embed](https://community.simtropolis.com/files/file/33642-scoty-modular-parking/?do=embed)
+    Once you have installed this content, go to the sub-directories :
+
+    .. **/scoty\_MP\_textures** in which you keep only one of the files : scoty\_MP\_tex\_Str\_\[Maxis|TSR|WWS\].dat, according to your street style.
+
+    .. **/SMP\_base\_texture\_CHOOSE\_ONE** to select one of the base-textures.
+
+    Thank you Rivit for the indispensable GoFSH!
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/33635-scoty-mp-textures/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/img_tech_diff.png.c69f8535532ff5fe001c7b4ea9b9f6f7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/extr_tex.png.58d0bd0843678cb34da560e545ccbb37.png
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/asphalt_pann.jpg.93a7ee0d0b7985a538210eb26f87d3bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/BTM3_pann.jpg.d3a823210e44989a2a5dab1692abd384.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/goudron_pann.jpg.f27ef0d21813c6adb9845ff6ea23527c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/maxis_pann.jpg.5e06eb8d67c05f325d315f361aedda0b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/shk_pann.jpg.8c81c77bca4dc52c3ed318911cdc2115.jpg
+assets:
+  - assetId: hugues-aroux-scoty-mp-textures
+    include:
+      - "/scoty_MP_textures.dat"
+      - "/scoty_MP_tex_Ave_Maxis.dat"
+      - "/scoty_MP_tex_Rd_Maxis.dat"
+    withConditions:
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "maxis-light" }
+        include:
+          - "/scoty_maxis_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "maxis-medium" }
+        include:
+          - "/scoty_maxis_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "maxis-dark" }
+        include:
+          - "/scoty_maxis_D_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "shk-light" }
+        include:
+          - "/scoty_SHK_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "shk-medium" }
+        include:
+          - "/scoty_SHK_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "goudron-light" }
+        include:
+          - "/scoty_goudron_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "goudron-medium" }
+        include:
+          - "/scoty_goudron_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "goudron-dark" }
+        include:
+          - "/scoty_goudron_D_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "btm3-light" }
+        include:
+          - "/scoty_BTM3_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "btm3-medium" }
+        include:
+          - "/scoty_BTM3_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "btm3-dark" }
+        include:
+          - "/scoty_BTM3_D_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "asphalt-light" }
+        include:
+          - "/scoty_asphalt_L_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "asphalt-medium" }
+        include:
+          - "/scoty_asphalt_M_tex.dat"
+      - ifVariant: { hugues-aroux:mp-textures:base-texture: "asphalt-dark" }
+        include:
+          - "/scoty_asphalt_D_tex.dat"
+
+      - ifVariant: { hugues-aroux:mp-textures:street-texture: "maxis" }
+        include:
+          - "/scoty_MP_tex_Str_Maxis.dat"
+      - ifVariant: { hugues-aroux:mp-textures:street-texture: "tsr" }
+        include:
+          - "/scoty_MP_tex_Str_TSR.dat"
+      - ifVariant: { hugues-aroux:mp-textures:street-texture: "wws" }
+        include:
+          - "/scoty_MP_tex_Str_WWS.dat"
+
+variantInfo:
+- variantId: "hugues-aroux:mp-textures:base-texture"
+  description: Customize the parking lot base texture
+  values:
+  - value: "maxis-light"
+    description: Light Maxis-style concrete texture
+  - value: "maxis-medium"
+    description: Medium Maxis-style concrete texture
+  - value: "maxis-dark"
+    description: Dark Maxis-style concrete texture
+  - value: "shk-light"
+    description: Light SHK-style concrete texture
+  - value: "shk-medium"
+    description: Medium SHK-style concrete texture
+  - value: "goudron-light"
+    description: Light goudron (bitume) texture
+  - value: "goudron-medium"
+    description: Medium goudron (bitume) texture
+  - value: "goudron-dark"
+    description: Dark goudron (bitume) texture
+  - value: "btm3-light"
+    description: Light cast concrete texture
+  - value: "btm3-medium"
+    description: Medium cast concrete texture
+  - value: "btm3-dark"
+    description: Dark cast concrete texture
+  - value: "asphalt-light"
+    description: Light asphalt texture
+  - value: "asphalt-medium"
+    description: Medium asphalt texture
+  - value: "asphalt-dark"
+    description: Dark asphalt texture
+- variantId: "hugues-aroux:mp-textures:street-texture"
+  description: Update the appearance of the street connection pieces if you use a street override mod
+  values:
+  - value: "maxis"
+    description: Choose if you use the default street texture (no override mod applied)
+  - value: "tsr"
+    description: Choose if you use Rivit's [Urban Tarsealed Streets](https://community.simtropolis.com/files/file/25404-urban-tarsealed-street-modd/)
+  - value: "wws"
+    description: Choose if you use hugues aroux's [WestWind Streets](https://community.simtropolis.com/files/file/36330-westwind-streets/)
+
+---
+assetId: hugues-aroux-scoty-mp-textures
+version: "2.1.0"
+lastModified: "2025-01-17T21:16:48Z"
+url: https://community.simtropolis.com/files/file/33635-scoty-mp-textures/?do=download&r=205314

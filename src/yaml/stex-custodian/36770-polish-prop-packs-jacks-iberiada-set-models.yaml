@@ -1,0 +1,29 @@
+group: jack
+name: iberiada-set-models
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: All 61 Iberiada Set building models by Jack, with prop exemplars and prop families
+  description: |-
+    Models-only dependency pack containing all 61 building models Jack (SimCityPolska) made for his Iberiada Sets, combined into a single DAT file.
+    Every building also has a prop exemplar, sorted into 24 prop families with IDs 0x5f85f180 to 0x5f85f197 (prop exemplars and families by Tyberius06).
+    The "Mixed" families combine models of different depth and height, so the frontage alignment may vary.
+    Uploaded as part of the SimCityPolska restoration efforts, for easier use in third-party relots.
+    It replaces the models of the original Iberiada Set, but it does not replace the prop exemplars or prop families of kergelen's re-lotted Iberiada Set.
+  author: Jack, Tyberius06
+  website: https://community.simtropolis.com/files/file/36770-polish-prop-packs-jacks-iberiada-set-models/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2053fbbd9a3_Iberiadaset-01.thumb.jpg.06b997542f72aa3e8c9cf75dfec29b02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a20541a04065_Iberiadaset-02.thumb.jpg.0ae2f97940ab583c84b89be8584070a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a41db8f475ec_PolishPropPacks-JacksIberiadaSetModels_index.thumb.jpg.e472cf58f22056d5bb6df1d5dec36054.jpg
+
+assets:
+  - assetId: jack-iberiada-set-models
+    include:
+      - "/Polish Prop Packs - Jacks Iberiada Set Models\\.dat$"
+
+---
+assetId: jack-iberiada-set-models
+version: "1.0.0"
+lastModified: "2026-06-03T16:17:33Z"
+url: https://community.simtropolis.com/files/file/36770-polish-prop-packs-jacks-iberiada-set-models/?do=download

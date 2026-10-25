@@ -1,0 +1,69 @@
+# group: hugues-aroux
+# name: westwind-tram
+# version: "0.3.49"
+# subfolder: 150-mods
+# info:
+#   summary: WestWind Tram
+#   description: |-
+#     The WestWind Tram mod replaces the textures for the NAM's GLR network (v49, as of this release).  
+#     WWTram offers the four variants: Network 1 Main and Network 2 Rural, plus two additional variations of Network 1, giving you four possible designs.
+
+#     The mod includes not only TIA (Tram-in-Avenue) and TIR/TOR (Tram-in-Road/Tram-on-Road)  
+#     but also a choice of four TIS (Tram-in/on-Street) styles:  
+#     .. Maxis,  
+#     .. TSR (Tarseled Street by Rivit),  
+#     .. WWS (WestWindStreet!),  
+#     .. Firenze (WWS-SAM 8 Firenze).
+
+#     It also includes access ramps for FLUPs.
+
+#     Street options available: Maxis, TSR, and WWS, as well as support for SAMs by NAM, Rivit, MGB, and WWS.
+
+#     Additionally, there are components derived from other GLR texture creators via their stations, lots, and plugins; please refer to my file \[WWTram - LotSupport.dat\] .  
+#     This list is by no means exhaustive, and I would be happy to update it if you provide me with the relevant information.
+
+#     For **SENT users**, AKA has kindly provided a version adapted to his road(+) textures, included directly in [SENT 3](https://community.simtropolis.com/files/file/36877-sent/) .
+
+#     **Production notes and aesthetic choices**  
+#     You will notice that the set relies heavily on transparency, allowing the grass from your terrain mod to show through.  
+#     However, due to their non-"FLEX" nature, certain pieces require a base texture. I chose to force this base texture to be "grass" rather than paving.  
+#     Consequently, this release was produced using "SuddenValley" grass, while the paving is my own creation (plugin: WW-SideWalk4).  
+#     I will soon provide the ***WWTram Fabrik***, allowing you to modify the paving and grass textures in this version.
+
+#     One final point: .. on this day ..  **this version does not yet include the T21s I am currently working on**\*.
+
+#     **Installation**  
+#     Unzip into your Plugins folder.  
+#     Keep the \_EU or \_US folder that applies to your setup.  
+#     For optional streets ("\_opt"), keep only one file.  
+#     For optional TIS, keep the folder you prefer.  
+#     For xSAM\_override, keep the xSAM files that match your configuration.
+
+#     **Dependencies**  
+#     NAM 49 + .. Of course !
+
+#     .
+
+#     .
+
+#     .
+
+#     *\* .. What if there were T21s like this...!*  
+#     ![6a9c2a00a57cb_Capt2026-08-26165022.jpg.9e0608c9f75ae9cc08b691200fb913ea.jpg](https://www.simtropolis.com/objects/attachments/monthly_2026_09/6a9c2a00a57cb_Capt2026-08-26165022.jpg.9e0608c9f75ae9cc08b691200fb913ea.jpg)
+#   author: hugues aroux
+#   website: https://community.simtropolis.com/files/file/37599-westwind-tram/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2026_09/img_plug_WWTram.jpg.ad0255422c58ae442b3f55f84fd9f586.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2026_09/res_1-4.jpg.31ac2ceccc678ce92fefdd72fc877e04.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2026_09/div.jpg.30a1639735a705fc4fcd223f0f745d60.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2026_09/ToS-1-4.png.e18ed7809751661b8e34b7a3f341264d.png
+# dependencies:
+#   - '"[SENT 3](https://community.simtropolis.com/files/file/36877-sent/)"'
+# assets:
+#   - assetId: hugues-aroux-westwind-tram
+
+# ---
+# assetId: hugues-aroux-westwind-tram
+# version: "0.3.49"
+# lastModified: "2026-09-05T14:43:53Z"
+# url: https://community.simtropolis.com/files/file/37599-westwind-tram/?do=download&r=222228

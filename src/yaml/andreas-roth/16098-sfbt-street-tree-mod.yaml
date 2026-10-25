@@ -1,0 +1,97 @@
+group: sfbt
+name: street-tree-mod
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: BSC SFBT Street Tree Mod
+  description: |-
+    Following in jeronij's footsteps, this is another "all inclusive" mod that changes the look of your streets. The main focus is set to residential streets; however, a few commercial and agricultural zones can be altered as well. Other optional files will also change the look of the default Maxis trees on roads and oneway roads. The main goal of this mod is to add trees to streets in residential zones, as well as parked cars, which is a very common sight throughout Europe.  
+      
+    **Mod Details  
+    **
+
+    This mod is fully modular, so you can decide which street and road tiles should be affected by the mod, and you can also decide which trees should show up there. For this purpose, several street tree DATs have been created. It's even possible to mix the various tree styles, however the result will look best when you only install one DAT at once. More tree style DATs can be created later to use trees by other designers as well. Unfortunately, this method doesn't work for seasonal trees, but a seasonal tree version of this mod might be released later.  
+      
+    Depending on wealth type and zone density, the look of the streets varies. You won't see any cars parked on the curb in high-wealth low density zones, and only medium and high density zones will have parking bays and dirt circles for the trees. Please note that the DATs for roads and oneway roads will only change the trees, but they do not add any cars or parking bays to your roads. The DAT for agricultural zones doesn't add any cars or parking bays either.  
+      
+    You can install or uninstall the mod at any time you want. To update your streets with the new look (or the default Maxis look again), simply select the street tool and click on your streets, i. e. on the crossroads. The props will change automatically in a radius of a few tiles. By clicking more than one time, you can also alter the appearance of the trees, in case the first click didn't meet your liking for some reason. If brown boxes are showing up, please make sure you have all dependencies, as listed below.  
+      
+    **Compatibility  
+    **  
+    This mod is **not** compatible with any other street mod, such as jeronij's streetside mod, ardecila's street tree mod, swamper77's no palm mod (however, the files that remove the palms from lots etc. will work fine) or Pegasus' no street junk mod. If other mods that modify the look of the streets are installed, only the one that is loaded last will determine the appearance in the game.  
+      
+    **Dependencies**  
+      
+    If you want to use Cycledogg's or Pegasus' trees, you also have to install the following files. The files described above will use trees from all four packs by Cycledogg, so make sure these are installed properly. If you don't install the dependencies, brown boxes will show up on your streets.
+
+    -   [CP\_PropPack\_Vol01.dat](https://www.simtropolis.com/stex/index.cfm?id=14842)
+        
+    -   [CP\_PropPack\_Vol02.dat](https://www.simtropolis.com/stex/index.cfm?id=15796)
+        
+    -   [CPT\_No8\_TreeModelsPartOne.dat](https://www.simtropolis.com/stex/index.cfm?id=12360)
+        
+    -   [CPT\_No9\_TreeModelsPartTwo.dat](https://www.simtropolis.com/stex/index.cfm?id=12361)
+        
+    -   [PEG\_MTP\_RESOURCE\_vol1.dat](https://www.simtropolis.com/stex/index.cfm?id=14025)
+        
+
+    Please make sure to read the readme file for further details. This mod is using an installer, Mac users can find a ZIP version
+  author: Andreas Roth
+  websites:
+    - https://community.simtropolis.com/files/file/16098-bsc-sfbt-street-tree-mod/
+    - https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/86-sfbt-street-tree-mod
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a5c726fdb5d9e3d4b5089c059871afc1-SFBT_street_tree_mod1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a5c726fdb5d9e3d4b5089c059871afc1-SFBT_street_tree_mod2.jpg
+dependencies:
+  - cycledogg:tree-models-part-one-and-two
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - peg:mtp-super-pack
+variants:
+- variant: { andreas-roth:sfbt-street-tree-mod:parking-bay-color: "neutral" }
+  assets:
+  - assetId: andreas-roth-bsc-sfbt-street-tree-mod
+    exclude:
+    - "/JRJ Street side mod Blue parking bays.dat"
+    - "/JRJ Street side mod White parking bays.dat"
+    - "/JRJ Street side mod Yellow parking bays.dat"
+- variant: { andreas-roth:sfbt-street-tree-mod:parking-bay-color: "blue" }
+  assets:
+  - assetId: andreas-roth-bsc-sfbt-street-tree-mod
+    exclude:
+    - "/JRJ Street side mod neutral parking bays.dat"
+    - "/JRJ Street side mod White parking bays.dat"
+    - "/JRJ Street side mod Yellow parking bays.dat"
+- variant: { andreas-roth:sfbt-street-tree-mod:parking-bay-color: "white" }
+  assets:
+  - assetId: andreas-roth-bsc-sfbt-street-tree-mod
+    exclude:
+    - "/JRJ Street side mod neutral parking bays.dat"
+    - "/JRJ Street side mod Blue parking bays.dat"
+    - "/JRJ Street side mod Yellow parking bays.dat"
+- variant: { andreas-roth:sfbt-street-tree-mod:parking-bay-color: "yellow" }
+  assets:
+  - assetId: andreas-roth-bsc-sfbt-street-tree-mod
+    exclude:
+    - "/JRJ Street side mod Blue parking bays.dat"
+    - "/JRJ Street side mod White parking bays.dat"
+    - "/JRJ Street side mod neutral parking bays.dat"
+variantInfo:
+- variantId: andreas-roth:sfbt-street-tree-mod:parking-bay-color
+  description: Choose the type of parking bays that show up in medium and high density zones
+  values:
+  - value: "neutral"
+    description: Parking bays without markings (only grey concrete)
+  - value: "blue"
+    description: Parking bays with blue markings
+  - value: "white"
+    description: Parking bays with white markings
+  - value: "yellow"
+    description: Parking bays with yellow markings
+
+---
+assetId: andreas-roth-bsc-sfbt-street-tree-mod
+version: "1.0"
+lastModified: " 2023-08-02T05:24:35-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=86:sfbt-street-tree-mod

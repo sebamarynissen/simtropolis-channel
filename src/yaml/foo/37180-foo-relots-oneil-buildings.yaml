@@ -1,0 +1,74 @@
+group: foo
+name: relots-oneil-buildings
+version: "1.2.0"
+subfolder: 200-residential
+info:
+  summary: 54 growable relots of Oneil buildings
+  description: |-
+    A set of 54 renewed growable lots using building models made by Oneil.
+    Includes residential and commercial lots with seasonal flora props; some lots also have tropical flora variations.
+    Building functions are spread over different growable types. CAM lots use stages 9 to 14.
+    Many lots are larger than 4x4 and most buildings are skyscrapers, so expect to zone densely.
+  author: Foo
+  website: https://community.simtropolis.com/files/file/37180-foo-relots-oneil-buildings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-001.thumb.jpg.bad4f9627f3ba32063f3a800a14769af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-002.thumb.jpg.735b8137278766a243dd713b832a9b15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-003.thumb.jpg.2f7819d92cd6178a4ebff4e5c2eff6e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-004.thumb.jpg.0ee081bfd695cfe05f5a54906e584354.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-005.thumb.jpg.156d9ef63703787bacd9aa20a88ee4a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-006.thumb.jpg.06bc978b7b8ecf96efe1c25df6c49cec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-007.thumb.jpg.5680dd829e449ff7a3660e40309f4002.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-008.thumb.jpg.0e0da73f7a6bc29b19b49fdd9e14692a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-009.thumb.jpg.b70f8ae9b484bdc639143ad3288c39c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-010.thumb.jpg.04a5f950bc8f1c1338c06c5f98c6ce72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-011.thumb.jpg.78407a8137a1abd283007e2a5f848057.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-012.thumb.jpg.0c3bc74085d954722f9cdabf587c889f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-013.thumb.jpg.76e0adb9479dbdeb657d32a71c4b25fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-014.thumb.jpg.5490099ced1d26650068a65cd5a09971.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-015.thumb.jpg.c57cffc29c29136d8895c76a7f5fbc5d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-016.thumb.jpg.609c636b9622acf708840d05ec23d575.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/oneil-017.thumb.jpg.1c8f24ef50a8e5b0802c9541be40c781.jpg
+
+dependencies:
+  - ndex:oneil-mega-pack-vol01
+  - ndex:oneil-mega-pack-vol02
+  - ndex:oneil-mega-pack-vol03
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:hedges
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-swi21-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - vortext:vortexture-1
+  - vortext:vortexture-2
+  - ndex:textures-vol1
+  - bsc:essentials
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: foo-relots-oneil-buildings-noncam
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: foo-relots-oneil-buildings-cam
+
+---
+assetId: foo-relots-oneil-buildings-noncam
+version: "1.2.0"
+lastModified: "2026-08-02T16:44:37Z"
+url: https://community.simtropolis.com/files/file/37180-foo-relots-oneil-buildings/?do=download&r=221193
+
+---
+assetId: foo-relots-oneil-buildings-cam
+version: "1.2.0"
+lastModified: "2026-08-02T16:44:37Z"
+url: https://community.simtropolis.com/files/file/37180-foo-relots-oneil-buildings/?do=download&r=221194
