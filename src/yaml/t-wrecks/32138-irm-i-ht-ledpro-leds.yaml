@@ -29,6 +29,7 @@ info:
     Credits for the BAT go to **Tag_One** once again.
 
     T Wrecks, February 19, 2018
+  conflicts: "Contains the IRM lots for `pkg=tag-one:ledpro-leds`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/32138-irm-i-ht-ledpro-leds-by-tag_one/
   images:

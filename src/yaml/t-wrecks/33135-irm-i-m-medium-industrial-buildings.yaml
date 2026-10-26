@@ -29,6 +29,7 @@ info:
     Credits for this BAT go to **Tag_One**.
 
     T Wrecks, September 1, 2019
+  conflicts: "Contains the IRM lots for `pkg=tag-one:medium-industrial-buildings-manufacturing-industry`. Installing both results in duplicate lots of the same buildings, so in an IRM city install only this package."
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/33135-irm-i-m-medium-industrial-buildings/
   images:
