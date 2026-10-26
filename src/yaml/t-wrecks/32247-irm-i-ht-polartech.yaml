@@ -1,0 +1,71 @@
+group: t-wrecks
+name: irm-i-ht-polartech
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the PolarTech BAT by Tag_One
+  description: |-
+    OK, before I lose steam again, let's keep 'em coming, shall we?
+
+    The 31st upload in this series is another whopper of a building, **PolarTech** by **Tag_One**. This high-tech cooling facility and warehouse comes either as road-facing building on a relatively compact 5x5 lot with only minimal visitor / VIP parking in front of the main entrance (those poor workers probably have to park their car somewhere in the back, but there's no direct parking on the lot), or in a second version with the cargo bays oriented towards the side and a curved entrance. Not much else to say about the lot, other than that I made sure the footpath texture on the square lot matched the overall colour scheme!
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **110 I-HT jobs**, the quadrupler version **440 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 5x5, Stage 3
+    - 6x4, Stage 3
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 4.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One** once again.
+
+    T Wrecks, May 8, 2018
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32247-irm-i-ht-polartech-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_PolarTech_01.jpg.8d46e54d327f7da6c90cc6b5d995090c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_PolarTech_02.jpg.dfd16a1bbfe8350526dcfb5bbc9bccd1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_PolarTech_03.jpg.a68e7f2f4baad37d588b8e92724d29a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_PolarTech_04.jpg.7681b76d0a38e69b8ab3420c98e4c626.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-polartech
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-polartech
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT PolarTech \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-polartech
+version: "1.0"
+lastModified: "2018-05-08T19:06:00Z"
+url: https://community.simtropolis.com/files/file/32247-irm-i-ht-polartech-by-tag_one/?do=download

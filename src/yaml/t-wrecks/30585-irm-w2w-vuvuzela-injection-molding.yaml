@@ -1,0 +1,56 @@
+group: t-wrecks
+name: irm-w2w-vuvuzela-injection-molding
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 4 W2W I-M lots using the Vuvuzela Injection Molding BAT by TagOne
+  description: |-
+    This is the sixth upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. If you remember the football/soccer world cup in South Africa, then you probably remember that strange Vuvuzela sound. Ever wondered where these instruments come from? Probably from hell, you say? Well, that's not quite right - they are made here, right at this building: **Vuvuzela Injection Molding** by **TagOne**.
+
+    The building will provide **200 I-M jobs** and comes with the following lots:
+
+    - 2x4 left corner, Stage 1
+    - 2x4 right corner, Stage 1
+    - 2x4 straight, Stage 1
+    - 3x4 straight, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed, and these lots grow at Stage 5 (the 2x4 lots) and Stage 4 (the 3x4 lot).
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **TagOne** once more!
+
+    T Wrecks, June 11, 2015
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30585-irm-w2w-vuvuzela-injection-molding-by-tagone/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/6acb47d388ae78d23fcf456a65f19d99-irm_w2w_vuvuzelainjectionmolding_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/5db8d3f275aa18076cbbce9bbeabadae-irm_w2w_vuvuzelainjectionmolding_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/30cb30f1225adfccc11a88ded2241d5d-irm_w2w_vuvuzelainjectionmolding_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/b5c23978b3c3fbf01982d0be901d9a8a-irm_w2w_vuvuzelainjectionmolding_04.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-vuvuzela-injection-molding
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Vuvuzela Injection Molding/"
+
+---
+assetId: t-wrecks-irm-w2w-vuvuzela-injection-molding
+version: "1.0"
+lastModified: "2015-06-11T22:03:00Z"
+url: https://community.simtropolis.com/files/file/30585-irm-w2w-vuvuzela-injection-molding-by-tagone/?do=download

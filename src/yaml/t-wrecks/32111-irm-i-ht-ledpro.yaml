@@ -1,0 +1,70 @@
+group: t-wrecks
+name: irm-i-ht-ledpro
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the LEDPRO BAT by Tag_One
+  description: |-
+    Everybody and their dog seems to be uploading these days, so I guess I should follow suit! I've got another big one for you today, one of the biggest this author has made:
+
+    The 25th upload in this series, **LEDPRO** by **Tag_One**, is a huge LED production and research facility with a representative, multi-storey office section tacked to the front of the spacious workshop. It features one large cargo door at the side of the front and several small ones along the side of the building. The smaller of the two lots is rather minimal, with the building sitting right behind a small employee parking, a truck entrance to the side, and a few small trees along the bare back wall. It is well suited for adding some filler lots around that give it breathing space - or ancillary growable lots, of course. The bigger lot features the building more as a standalone facility and could also work well on corners.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **120 I-HT jobs**, the quadrupler version **480 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 4x5, Stage 3
+    - 6x4, Stage 3
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 6 (4x5) and Stage 5 (6x4).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One** once again.
+
+    T Wrecks, February 7, 2018
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32111-irm-i-ht-ledpro-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/IRM_I-HT_T1_LEDPRO_01.jpg.145eaac510e7f615824412906dde0c5e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/IRM_I-HT_T1_LEDPRO_02.jpg.9c32c7f01ecbff59e932cc49f5fa1d09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/IRM_I-HT_T1_LEDPRO_03.jpg.88b7a51705abe5c131bf1dd1b11b0e3e.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-ledpro
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-ledpro
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT LEDPRO \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-ledpro
+version: "1.0"
+lastModified: "2018-02-07T21:52:00Z"
+url: https://community.simtropolis.com/files/file/32111-irm-i-ht-ledpro-by-tag_one/?do=download

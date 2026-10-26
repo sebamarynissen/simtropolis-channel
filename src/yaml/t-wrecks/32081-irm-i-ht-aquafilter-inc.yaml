@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-aquafilter-inc
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the AquaFilter Inc. BAT by Tag_One
+  description: |-
+    This is going to be the start of a longer mini-series of more "normally" sized BATs.
+
+    The 22nd upload in this series, **AquaFilter Inc.** by **Tag_One**, is a smaller building with solar panels on the roof that I decided to complement with a little parking lot/entrance area and a small loading area in the back - quite the usual fare. While it's meant to look somewhat nicer, I hope I didn't go over board with greenery and flowers! In any case it's a building you could also hide between wealthier suburban office low-rises.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **36 I-HT jobs**, the quadrupler version **144 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 2x4, Stage 1
+    - 3x3, Stage 1
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots also grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One**, a very prolific industrial BATter who I sometimes have the impression is a bit underappreciated - if so, I hope I'll contribute my little part to changing that! Seriously, check out his stuff and stay tuned for more of his industry BATs turned IRM.
+
+    T Wrecks, January 22, 2018
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32081-irm-i-ht-aquafilter-inc-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_AquaFilter_01.jpg.a2849bec48a13d998c706f057925187b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_AquaFilter_02.jpg.f318b4dfc7bedc7bc9fb84fb8cc98a91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_AquaFilter_03.jpg.b1a47ec2c2ba0ece8b6130da0c5ef95e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_AquaFilter_04.jpg.670a3aa7296020d5151cf36d5fe27c0c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_AquaFilter_05.jpg.9aa63c70a512df62645942ff89aa9d7a.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-aquafilter-inc
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-aquafilter-inc
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT AquaFilter \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-aquafilter-inc
+version: "1.0"
+lastModified: "2018-01-25T19:33:00Z"
+url: https://community.simtropolis.com/files/file/32081-irm-i-ht-aquafilter-inc-by-tag_one/?do=download

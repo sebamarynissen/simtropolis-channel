@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-m-gardena-garden-tools
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-M lots using the Gardena Garden Tools BAT by Tag_One
+  description: |-
+    Now here's a rather colourful one:
+
+    The 10th upload in this series is **Gardena Garden Tools** by **Tag_One**. While the building features a totally unremarkable shoebox shape, it's the colour scheme that makes this one somewhat special. The yellow entrance door and loading doors and particularly the colourful stripes in the corner make it stand out from more generic industrial buildings. This IRM version contains two lots, a larger and rather detailed one with a driveway all around the building, employee parking and an outdoor storage area as well as a smaller lot that's rather plain jane, but does feature a little artificial pond next to the entrance to hint at the purpose of the tools produced here: gardening.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **65 I-M jobs**, the quadrupler version **260 I-M jobs**.
+
+    The following lots are included in this download:
+
+    - 5x5, Stage 2
+    - 6x6, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 4 (5x5) and Stage 3 (6x6).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **Tag_One**.
+
+    T Wrecks, September 1, 2019
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33136-irm-i-m-gardena-garden-tools-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_GardenagardenTools_01.jpg.94c5f5dabac52983c54530023997cfe8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_GardenagardenTools_02.jpg.dbfec9356038330395e14904b1454b9a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_GardenagardenTools_03.jpg.25066a0c188f77bc22fed2c239a353b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_GardenagardenTools_04.jpg.4e7caa03e9501bceaf9e291b8549e84f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_GardenagardenTools_05.jpg.e69635ccbb6476e7ed882f0ba0eb2aec.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-gardena-garden-tools
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-gardena-garden-tools
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-M Gardena Garden Tools \\(T1\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-gardena-garden-tools
+version: "1.0.0"
+lastModified: "2019-09-01T21:18:00Z"
+url: https://community.simtropolis.com/files/file/33136-irm-i-m-gardena-garden-tools-by-tag_one/?do=download

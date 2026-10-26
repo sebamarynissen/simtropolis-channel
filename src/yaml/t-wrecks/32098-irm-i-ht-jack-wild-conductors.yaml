@@ -1,0 +1,71 @@
+group: t-wrecks
+name: irm-i-ht-jack-wild-conductors
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Jack Wild Conductors BAT by Tag_One
+  description: |-
+    Same industry type, same author, same series - but this time we go to a pretty big one again.
+
+    The 24th upload in this series, **Jack Wild Conductors** by **Tag_One**, is a rather large industrial facility that I decided to complement with some trees/landscaping at the entrance side to make for a nicer appearance, and a walkway leading up to the actual entrance. Gotta impress those potential business partners and greenwash your front, after all. There's also a decent number of employee parking spots, plus some empty space and/or randomly appearing trucks in front of cargo bays. As shown in the screenshots, shaded props were used to a large extent again. Surround this building with a few of the IRM fillers, and you got yourself an entire street block filled!
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **110 I-HT jobs**, the quadrupler version **440 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 5x6, Stage 3
+    - 6x5, Stage 3
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 4.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One** once again.
+
+    T Wrecks, January 28, 2018
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32098-irm-i-ht-jack-wild-conductors-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_JackWildConductors_01.jpg.fbd6b3cfab440bb6c58addea5935fd81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_JackWildConductors_02.jpg.a105903bd6195df7e9f36a8d2e87fa05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_JackWildConductors_03.jpg.5f4e79435d0124e5b0f6a53e3e6ab338.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_T1_JackWildConductors_04.jpg.11820c13e76764c31f6967164f89dadf.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-jack-wild-conductors
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-jack-wild-conductors
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Jack Wild Conductors \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-jack-wild-conductors
+version: "1.0"
+lastModified: "2018-01-30T22:17:00Z"
+url: https://community.simtropolis.com/files/file/32098-irm-i-ht-jack-wild-conductors-by-tag_one/?do=download
