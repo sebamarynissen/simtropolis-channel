@@ -1,0 +1,43 @@
+group: tyberius06
+name: heretic-irm-fillers-diagonal-walls-expansion
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 15 diagonal wall filler lots for the IRM
+  description: |-
+    Well finally I got the time and put together this little set of diagonal IRM walls expansion.
+    Altogether this pack contains 15 new lots based on T Wrecks' IRM Fillers (`pkg=t-wrecks:industrial-revolution-mod-i-d-filler-set-1`, `pkg=t-wrecks:industrial-revolution-mod-i-m-filler-set-1` and `pkg=t-wrecks:industrial-revolution-mod-i-ht-filler-set-1`), each set gets 5 new pieces (2 full concrete - one with grass props, one without them -, 2 sidewalk-concrete - same variation like concrete version - and a dirt-concrete).
+
+    Same stats as the original IRM Fillers. They can work without the original sets, but using them together is strongly recommended.
+
+    SM2_Tyberius_Ovsx4_tex.dat is included. Huge thanks to Simmer2, who let me attach this little file to this pack.
+
+    - Tyberius
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/31485-heretic-irm-fillers-diagonal-walls-expansion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/58b5b6bb4014b_I-DDiagonalWallVariations.jpg.e85ac213f462669eabd07ca54bf1dd75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/58b5b6bd51fcc_I-HTDiagonalWallVariations.jpg.8ff6e6d8db48fce4a74282225267eb1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/58b5b6bf2d495_I-MDiagonalWallVariations.jpg.c584da144d454cc8318d40568bc1ad3a.jpg
+
+dependencies:
+  - sfbt:essentials
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-gascooker-vol01
+  - ncd:rail-yard-and-spur-mega-pak-1
+  - maxis:buildings-as-props
+  - bsc:mega-props-cp-vol01
+  - cp:scilt
+
+assets:
+  - assetId: tyberius06-heretic-irm-fillers-diagonal-walls-expansion
+    include:
+      - "\\.SC4Lot$"
+      - "\\.dat$"
+
+---
+assetId: tyberius06-heretic-irm-fillers-diagonal-walls-expansion
+version: "1.0"
+lastModified: "2017-02-28T18:14:00Z"
+url: https://community.simtropolis.com/files/file/31485-heretic-irm-fillers-diagonal-walls-expansion/?do=download
