@@ -1,9 +1,22 @@
 group: peg
 name: ut-mall-canal-plaza
+version: "1.0"
 subfolder: 360-landmark
 info:
+  summary: 1x3 plaza and end cap for the PEG-UT Mall Canals
+  description: |-
+    This PEG Utopia Series Plaza is designed for use with the UT Mall Canals. Being the same depth as the canal lots (3 tiles), it blends in perfectly with all other lots in the series. The plaza is 1 tile wide and can be used as an "end cap" or filler to add more flexibility in matching the canals to a city's existing grid size.
+
+    The lot features a large sign and escalator access to the mall & canals below. The lot has the same values, cost & resource usage of a small plaza. Like all other Mall Canal lots, this plaza will appear only in the Landmark menu.
+
+    **\*\* This lot requires the PEG-UT Mall Canal Resource Pack (`pkg=peg:ut-mall-canal-resource-pack`).**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   author: Pegasus
   website: https://community.simtropolis.com/files/file/20751-pet-ut-mall-canal-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d1d835f024f576feb1a20561cd85be08-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d1d835f024f576feb1a20561cd85be08-product_image1.jpg
 dependencies:
   - peg:ut-mall-canal-resource-pack
 assets:
@@ -11,4 +24,6 @@ assets:
 
 ---
 assetId: peg-ut-mall-canal-plaza
+version: "1.0"
+lastModified: "2008-12-01T19:50:00Z"
 url: https://community.simtropolis.com/files/file/20751-pet-ut-mall-canal-plaza/?do=download
