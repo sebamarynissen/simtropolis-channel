@@ -1,9 +1,26 @@
 group: peg
 name: ut-large-mall-canal
+version: "1.0"
 subfolder: 300-commercial
 info:
+  summary: Large, 6 tile wide PEG-UT Mall Canal
+  description: |-
+    This PEG Utopia Series lot is the first of a new collection of modern, urban canals that can be used in any city. Taking the classic canal to the extreme, we've gone underground to conserve valuable real estate... and wrapped a massive, sprawling, inter-connecting mall around the whole thing.
+
+    This initial UT Mall Canal is a large, 6 tile wide subterranean shopping mall. It's a CS$$$ ploppable lot... with jobs... and the YIMBY effects of a medium plaza that will help spur nearby commercial development. These lots are very popular with your Sims... and your Mayor Approval Rating will reflect that.
+
+    The basic depth of all UT Mall Canal lots is 3 tiles. They are designed to be modular... and can be connected directly together or separated by roads, avenues, rail... etc... or any other appropriate lot. As the canals run visually underground, you can actually have any amount of distance between them.
+
+    The Mall Canals are extensively night lighted... and they are **Christmas Enabled** with colored lights and decorations that will appear only during the Holiday season. (game time) The Mall Canals also have custom queries that use random query sound effects... playing 1 of 5 different real-world mall recordings each time a lot is queried.
+
+    **\*\* This lot requires the PEG-UT Mall Canal Resource Pack (`pkg=peg:ut-mall-canal-resource-pack`).**
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   author: Pegasus
   website: https://community.simtropolis.com/files/file/20703-peg-ut-large-mall-canal/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/354b088c6abe171838b04bfdb85f35d3-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0007/354b088c6abe171838b04bfdb85f35d3-product_image1.jpg
 dependencies:
   - peg:ut-mall-canal-resource-pack
 assets:
@@ -11,4 +28,6 @@ assets:
 
 ---
 assetId: peg-ut-large-mall-canal
+version: "1.0"
+lastModified: "2008-11-25T19:58:00Z"
 url: https://community.simtropolis.com/files/file/20703-peg-ut-large-mall-canal/?do=download
