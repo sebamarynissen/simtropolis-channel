@@ -1,0 +1,36 @@
+group: tyberius06
+name: tyb06-simple-glr-stations-with-subway
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/36148-tyb06-simple-glr-stations-with-subway/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65de7201c433c_Tyb06SimpleGLR-SUB4x1-d.jpg.ec899100335ded91cde1ea1d615fdcdf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65de7204e2d2d_Tyb06SimpleGLR-SUB4x1-n.jpg.2abdfb60d732312d90da533314ff467a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65de72095f02e_Tyb06SimpleGLR-SUBIsland-type5x1-d.jpg.b6c203406d00cf9a09080ad080c2977f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/65de720bc1ac2_Tyb06SimpleGLR-SUBIsland-type5x1-n.jpg.218a3261340e77436749a51f4f417cd7.jpg
+# TODO: add the dependency on the Cogeo/Ebina split GLR track textures once they are packaged
+dependencies:
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - simmer2:mega-prop-pack-vol3
+  - simmer2:mega-prop-pack-vol4
+  - nam:network-addon-mod
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: tyberius06-tyb06-simple-glr-stations-with-subway
+        exclude:
+          - "/Optional LHD Paths/"
+  - variant: { driveside: left }
+    assets:
+      - assetId: tyberius06-tyb06-simple-glr-stations-with-subway
+        exclude:
+          - " RHD\\.dat$"
+
+---
+assetId: tyberius06-tyb06-simple-glr-stations-with-subway
+version: "1.0.0"
+lastModified: "2024-02-27T23:48:18Z"
+url: https://community.simtropolis.com/files/file/36148-tyb06-simple-glr-stations-with-subway/?do=download

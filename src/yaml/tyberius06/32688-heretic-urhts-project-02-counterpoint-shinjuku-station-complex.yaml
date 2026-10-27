@@ -1,0 +1,73 @@
+group: tyberius06
+name: heretic-urhts-project-02-counterpoint-shinjuku-station-complex
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/32688-heretic-urhts-project-02-counterpoint-shinjuku-station-complex/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c2277f3e70dd_URHTS02-CounterPointShinjuku(v1)-d.jpg.d237d892ef5e692fc7748752c40407be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c2277f59e3ad_URHTS02-CounterPointShinjuku(v1)-n.jpg.d0a17b9bfa5202bfefaa350612fae195.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c2277f78d2ff_URHTS02-CounterPointShinjuku(v2)-d.jpg.70c28f0b78ad0b1e7de62cb4c0c15df9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c2277f93c49f_URHTS02-CounterPointShinjuku(v2)-n.jpg.4a390eb006ecfa2fc3def7c3312fa0a5.jpg
+variantInfo:
+  - variantId: tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing
+    description: Choose the style of the east wing of the station
+    values:
+      - value: heretic
+        description: East wing v1 (Heretic mixed style)
+        default: true
+      - value: japanese
+        description: East wing v2 (Japanese style)
+      - value: both
+        description: Both versions of the east wing
+dependencies:
+  - tepodon:tky-shinjuku-station-east-wing-model
+  - tepodon:tky-shinjuku-station-west-wing-model
+  - tyberius06:tyb06-heretic-essentials
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol05
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - simmer2:mega-prop-pack-vol3
+  - simmer2:concrete-sound-barriers
+  - simmer2:essentials
+  - simmer2:underground-parking
+  - citymax:railway-prop-pack
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:vip-girafe-french-road-signs
+  - bnl:dutch-prop-pack
+  - tamorr:tamorrs-resource
+  - murimk:props-vol02-mixed
+  - nam:network-addon-mod
+variants:
+  - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: heretic }
+    dependencies:
+      - ill-tonkso:its-2011-vantage-metro-central-model
+      - jp-schriefer:failing-office-building-model
+    assets:
+      - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
+        exclude:
+          - "/PLOP_10x15_Heretic Shinjuku Station East v2_4959d7a0\\.SC4Lot$"
+  - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: japanese }
+    dependencies:
+      - art128:japanese-buildings-compilation-model
+    assets:
+      - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
+        exclude:
+          - "/PLOP_10x15_Heretic Shinjuku Station East_d8e61512\\.SC4Lot$"
+  - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: both }
+    dependencies:
+      - ill-tonkso:its-2011-vantage-metro-central-model
+      - jp-schriefer:failing-office-building-model
+      - art128:japanese-buildings-compilation-model
+    assets:
+      - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
+# TODO: the Japanese style (v2) also needs the kei_jpn Mizuho Bank Branch and Daito New City office building,
+# once they are available as packages.
+
+---
+assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
+version: "2.0.0"
+lastModified: "2019-01-02T11:26:05Z"
+url: https://community.simtropolis.com/files/file/32688-heretic-urhts-project-02-counterpoint-shinjuku-station-complex/?do=download

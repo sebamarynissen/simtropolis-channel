@@ -1,0 +1,37 @@
+group: tepodon
+name: tky-shinjuku-station-west-wing
+version: "1.0"
+subfolder: 700-transit
+info:
+  author: tepodon
+  website: https://community.simtropolis.com/files/file/24569-tky-shinjuku-station-west-wing/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/64b6ae86e691f3dbe9babc0c74eb3ea3-Shinjuku%20WEST.jpg
+    - https://www.simtropolis.com/objects/screens/0012/64b6ae86e691f3dbe9babc0c74eb3ea3-Shinjuku%20WEST1.jpg
+# TODO: the lot uses the textures 0xc9000020 and 0x258f2000, whose package is still unknown (formerly LEX 638)
+dependencies:
+  - tepodon:tky-shinjuku-station-west-wing-model
+assets:
+  - assetId: tepodon-tky-shinjuku-station-west-wing
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: tepodon
+name: tky-shinjuku-station-west-wing-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=tepodon:tky-shinjuku-station-west-wing`
+  author: tepodon
+  website: https://community.simtropolis.com/files/file/24569-tky-shinjuku-station-west-wing/
+assets:
+  - assetId: tepodon-tky-shinjuku-station-west-wing
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: tepodon-tky-shinjuku-station-west-wing
+version: "1.0"
+lastModified: "2010-08-04T02:04:12Z"
+url: https://community.simtropolis.com/files/file/24569-tky-shinjuku-station-west-wing/?do=download

@@ -1,0 +1,46 @@
+group: art128
+name: paris-modern-transportation-pack
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  author: art128
+  website: https://community.simtropolis.com/files/file/36905-paris-modern-transportation-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/PMM_01.jpg.f68a8186dd7118ab7a3b9e1538a30f69.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/PMM_02.jpg.76898c7ca0f2d65b066355e8c08bb2c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/PMM_03.jpg.bc95549a7db98adb75d733e2e4bb544d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_06/PMM_04.jpg.715db8669189d688ab9d0ec2424a0137.jpg
+dependencies:
+  - art128:paris-modern-transportation-pack-resources
+  - bsc:vip-girafe-urbanpack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - nam:network-addon-mod
+assets:
+  - assetId: art128-paris-modern-transportation-pack
+    exclude:
+      - "/art128 Metro Modern Models\\.dat$"
+      - "/art128 T3a Canopy Models\\.dat$"
+      - "/art128 T3a Stops Models\\.dat$"
+
+---
+group: art128
+name: paris-modern-transportation-pack-resources
+version: "1.0.0"
+subfolder: 110-resources
+info:
+  summary: Models for `pkg=art128:paris-modern-transportation-pack`
+  author: art128
+  website: https://community.simtropolis.com/files/file/36905-paris-modern-transportation-pack/
+assets:
+  - assetId: art128-paris-modern-transportation-pack
+    include:
+      - "/art128 Metro Modern Models\\.dat$"
+      - "/art128 T3a Canopy Models\\.dat$"
+      - "/art128 T3a Stops Models\\.dat$"
+
+---
+assetId: art128-paris-modern-transportation-pack
+version: "1.0.0"
+lastModified: "2026-06-04T16:28:19Z"
+url: https://community.simtropolis.com/files/file/36905-paris-modern-transportation-pack/?do=download

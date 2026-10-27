@@ -1,0 +1,23 @@
+group: tamorr
+name: tamorrs-resource
+version: "2.0.5"
+subfolder: 100-props-textures
+info:
+  author: Tamorr
+  website: https://community.simtropolis.com/files/file/21940-tamorrs-resource/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/231fdc380db0d751537395cf1c13f11f-Tamorrs_Resource_ST.JPG
+dependencies:
+  - peg:csk-barges-prop-pack
+  - peg:cdk3-sp-rail-fleet
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: tamorr-tamorrs-resource
+
+---
+assetId: tamorr-tamorrs-resource
+version: "2.0.5"
+lastModified: "2009-06-25T23:43:43Z"
+url: https://community.simtropolis.com/files/file/21940-tamorrs-resource/?do=download
