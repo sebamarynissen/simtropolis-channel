@@ -1,0 +1,28 @@
+group: t-wrecks
+name: irm-w2w-empire-leather-works
+subfolder: 400-industrial
+info:
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30859-irm-w2w-empire-leather-works-by-jestarr/
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol06
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-empire-leather-works
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Empire Leather Works \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-empire-leather-works
+url: https://community.simtropolis.com/files/file/30859-irm-w2w-empire-leather-works-by-jestarr/?do=download

@@ -1,0 +1,28 @@
+group: t-wrecks
+name: irm-w2w-owosso-beet-sugar-factory
+subfolder: 400-industrial
+info:
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31416-irm-w2w-owosso-beet-sugar-factory-by-jestarr/
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol05
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-owosso-beet-sugar-factory
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Owosso Beet Sugar Factory \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-owosso-beet-sugar-factory
+url: https://community.simtropolis.com/files/file/31416-irm-w2w-owosso-beet-sugar-factory-by-jestarr/?do=download

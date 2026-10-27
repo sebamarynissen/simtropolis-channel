@@ -1,0 +1,28 @@
+group: t-wrecks
+name: irm-w2w-prairie-star-food-company
+subfolder: 400-industrial
+info:
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30133-irm-w2w-prairie-star-food-company-by-jestarr/
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol03
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-prairie-star-food-company
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Prairie Star Food Company \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-prairie-star-food-company
+url: https://community.simtropolis.com/files/file/30133-irm-w2w-prairie-star-food-company-by-jestarr/?do=download
