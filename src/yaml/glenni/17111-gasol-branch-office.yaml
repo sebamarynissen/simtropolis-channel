@@ -1,6 +1,6 @@
 group: glenni
 name: gasol-branch-office
-version: "1.0"
+version: "1.0-1"
 subfolder: 300-commercial
 info:
   summary: BLaM Gasol Branch office
@@ -56,10 +56,32 @@ info:
     - https://www.simtropolis.com/objects/screens/0010/535ef98445ce664b8dffa613a581e8ef-1Gasoltowerday.JPG
     - https://www.simtropolis.com/objects/screens/0010/535ef98445ce664b8dffa613a581e8ef-1Gasoltowernight.JPG
 dependencies:
+  - glenni:gasol-branch-office-model
   - bsc:mega-props-jes-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
 assets:
   - assetId: glenni-blam-gasol-branch-office
+    exclude:
+      - "\\.SC4Model$"
+      - "/1?Gasol Tower fountain-.*\\.SC4Desc$"
+
+---
+group: glenni
+name: gasol-branch-office-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models and fountain prop for `pkg=glenni:gasol-branch-office`
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/17111-blam-gasol-branch-office/
+assets:
+  - assetId: glenni-blam-gasol-branch-office
+    include:
+      - "\\.SC4Model$"
+      - "/1?Gasol Tower fountain-.*\\.SC4Desc$"
+    exclude:
+      # The tower model is shipped twice, only keep one copy
+      - "/Landmark/Gasol Tower 2-.*\\.SC4Model$"
 
 ---
 assetId: glenni-blam-gasol-branch-office

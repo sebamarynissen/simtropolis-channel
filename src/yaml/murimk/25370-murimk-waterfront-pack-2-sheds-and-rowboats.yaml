@@ -1,0 +1,37 @@
+group: murimk
+name: waterfront-pack-2-sheds-and-rowboats
+version: "1.0"
+subfolder: 660-parks
+info:
+  author: murimk
+  website: https://community.simtropolis.com/files/file/25370-murimk-waterfront-pack-2-sheds-and-rowboats/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d899fda7790841f17cbf519bf4d386a4-murimk-wp21.jpg
+dependencies:
+  - murimk:waterfront-pack-2-sheds-and-rowboats-resources
+assets:
+  - assetId: murimk-waterfront-pack-2-sheds-and-rowboats
+    include:
+      - "/Waterfront Pack 2 - Sheds_and_rowboats_Docks_and_sheds\\.dat$"
+
+---
+group: murimk
+name: waterfront-pack-2-sheds-and-rowboats-resources
+version: "1.0"
+subfolder: 110-resources
+info:
+  author: murimk
+  website: https://community.simtropolis.com/files/file/25370-murimk-waterfront-pack-2-sheds-and-rowboats/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d899fda7790841f17cbf519bf4d386a4-murimk-wp21.jpg
+assets:
+  - assetId: murimk-waterfront-pack-2-sheds-and-rowboats
+    include:
+      - "/Waterfront Pack 2 - Sheds_and_rowboats_Rowing_Rowboats\\.dat$"
+      - "/Waterfront Pack 2 - Sheds_and_rowboats_Wrecked_rowboats\\.dat$"
+
+---
+assetId: murimk-waterfront-pack-2-sheds-and-rowboats
+version: "1.0"
+lastModified: "2010-11-27T06:49:21Z"
+url: https://community.simtropolis.com/files/file/25370-murimk-waterfront-pack-2-sheds-and-rowboats/?do=download

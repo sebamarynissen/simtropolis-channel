@@ -1,0 +1,68 @@
+group: jp-schriefer
+name: failing-office-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/32137-failing-office-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/1.png.48b2d1cdf42be9e9f8b20bc4191d7f4f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/3.png.76a0e52bd47d02a4a7b2c25e147c7cea.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/4.png.e8bd45d6143df91e8c15fbdbb99d6aed.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5.png.2c5b8df79e3ce40bded2fe373c1943b1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/6.png.5284cf52f2d871e8d37d935ab11d4518.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/7.png.188bbd49fe781d95ca72ae7e7289ce89.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/8.png.d864e6e65e45a6a78d9f494c5f220ce3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/989d561f7888f446903216e2156756ae5948b4b9.png.b445329310346f3fe5553a051891123c.png
+dependencies:
+  - jp-schriefer:failing-office-building-model
+# The lots are identical in the Maxis Night and Dark Nite downloads, only the model differs.
+assets:
+  - assetId: jp-schriefer-failing-office-building-commercial-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-failing-office-building-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: failing-office-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:failing-office-building`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/32137-failing-office-building/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-failing-office-building-commercial-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-failing-office-building-commercial-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-failing-office-building-landmark-mn
+version: "1.0"
+lastModified: "2018-02-19T03:59:11Z"
+url: https://community.simtropolis.com/files/file/32137-failing-office-building/?do=download&r=170179
+
+---
+assetId: jp-schriefer-failing-office-building-commercial-mn
+version: "1.0"
+lastModified: "2018-02-19T03:59:11Z"
+url: https://community.simtropolis.com/files/file/32137-failing-office-building/?do=download&r=170181
+
+---
+assetId: jp-schriefer-failing-office-building-commercial-dn
+version: "1.0"
+lastModified: "2018-02-19T03:59:11Z"
+url: https://community.simtropolis.com/files/file/32137-failing-office-building/?do=download&r=170182

@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: its-2011-vantage-metro-central
+version: "1.0"
+subfolder: 200-residential
+info:
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25936-its-2011-vantage-metro-central/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3e4ed975d4b6b90e615ea37915604f15-vantageday.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e6e6b5e66c7b2b0bd784d39818d8357a-vantagenight.jpg
+dependencies:
+  - ill-tonkso:its-2011-vantage-metro-central-model
+assets:
+  - assetId: ill-tonkso-its-2011-vantage-metro-central
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: ill-tonkso
+name: its-2011-vantage-metro-central-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=ill-tonkso:its-2011-vantage-metro-central`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25936-its-2011-vantage-metro-central/
+assets:
+  - assetId: ill-tonkso-its-2011-vantage-metro-central
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-its-2011-vantage-metro-central
+version: "1.0"
+lastModified: "2011-03-03T20:00:02Z"
+url: https://community.simtropolis.com/files/file/25936-its-2011-vantage-metro-central/?do=download
