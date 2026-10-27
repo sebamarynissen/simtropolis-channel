@@ -1,0 +1,55 @@
+group: t-wrecks
+name: irm-w2w-2121-north-san-fernando-road
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 4 W2W I-M lots using the 2121 North San Fernando Road BAT by Mattb235
+  description: |-
+    This is the fourth upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. This building is **2121 North San Fernando Road** by **Mattb235**. It features a relatively ornate front and should look quite good even in more upscale areas.
+
+    The building will provide **120 I-M jobs** and comes with two basic lot variations, a shorter one for a straight stretch of road and a longer one for corners:
+
+    - 2x3 straight, Stage 1 (2 versions)
+    - 2x4 left corner, Stage 1
+    - 2x4 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 79 jobs, and the 2x4 corner lots grow at Stage 2 while the 2x3 straight lots grow at Stage 3.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **Mattb235** - wish he had made more industrials!
+
+    T Wrecks, May 26, 2015
+  conflicts: "Contains the IRM lots for `pkg=mattb325:2121-north-san-fernando-rd`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30558-irm-w2w-2121-north-san-fernando-road-by-mattb235/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/dc198aedaf52993f28eb06f3a4223586-irm_w2w_2121northsanfernandord_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/083b3669677521919f61b74e8361ed9f-irm_w2w_2121northsanfernandord_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/876f9c196dd133e9fc35f72ba821ca42-irm_w2w_2121northsanfernandord_03.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - mattb325:2121-north-san-fernando-rd-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-2121-north-san-fernando-road
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/2121 North San Ferndo Road \\(Mattb235\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-2121-north-san-fernando-road
+version: "1.0"
+lastModified: "2015-05-26T15:37:00Z"
+url: https://community.simtropolis.com/files/file/30558-irm-w2w-2121-north-san-fernando-road-by-mattb235/?do=download
