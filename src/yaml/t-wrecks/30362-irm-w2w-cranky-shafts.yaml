@@ -1,0 +1,53 @@
+group: t-wrecks
+name: irm-w2w-cranky-shafts
+version: "1.02"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Cranky Shafts BAT by gascooker
+  description: |-
+    The 17th upload in a series of IRM W2W lots based on BAT models made by other artists is **Cranky Shafts** by **gascooker**.
+
+    The building will provide **72 I-D jobs** and comes with 2 identically sized lots - one with an alley next to the building, the other with the building parallel to the road:
+
+    - 2x3 straight, Stage 1 (2 versions)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 10 jobs and also grow at Stage 1.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Thanks and credits to **gascooker** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, March 30, 2015
+  conflicts: "Contains the IRM lots for `pkg=gascooker:crankys-shafts`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30362-irm-w2w-cranky-shafts-by-gascooker/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/ba62424ef5b77a16944e3922e1562ee5-irm_w2w_crankyshafts_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/38d44c8444008029f260bc97cab309b3-irm_w2w_crankyshafts_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/8db970625cbb536c06e7b65e7a8f3d5b-irm_w2w_crankyshafts_03.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-gascooker-vol02
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-cranky-shafts
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Cranky Shafts \\(gascooker\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-cranky-shafts
+version: "1.02"
+lastModified: "2015-03-30T20:55:00Z"
+url: https://community.simtropolis.com/files/file/30362-irm-w2w-cranky-shafts-by-gascooker/?do=download
