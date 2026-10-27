@@ -1,9 +1,39 @@
 group: t-wrecks
 name: irm-sfbt-high-enthalpy-wind-tunnel
+version: "1.0"
 subfolder: 400-industrial
 info:
+  summary: 2 I-HT lots using the High Enthalpy Wind Tunnel BAT by Mathe Man (SFBT)
+  description: |-
+    After wall-to-wall (W2W) industry has been catered for, it's time to take care of regular industry. This time around, I'll begin with high-tech industry, and from there will work my way "down the ranks", through modern manufacturing and generic manufacturing back to brick factories with old-style manufacturing and, finally, dirty industry. With this series (it will be long!) I hope to bring some more variety to your industrial areas, and I hope I can also drag some old and not so common BATs back into the spotlight this way.
+
+    For this first upload, I have picked a small and rather old BAT, but a pretty unique one: SFBT's **High Enthalpy Wind Tunnel** modeled by **Mathe Man**. Although small, I think the building is nice because you can get a glimpse of what's inside, and it's rather unusual in shape as well.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **20 I-HT jobs**, the quadrupler version **80 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x3, Stage 1
+    - 4x2, Stage 1
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 27 jobs, and the lots also grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT goes to SFBT team member **Mathe Man** - thank him, not me! Oh, and you can expect many, many more uploads to come...
+
+    T Wrecks, June 18, 2017
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/31794-irm-sfbt-high-enthalpy-wind-tunnel-by-mathe-man/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/IRM_I-HT_SFBT_WindTunnel_3x3.jpg.b55fea2f079fc13f9891a167f2a18274.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/IRM_I-HT_SFBT_WindTunnel_4x2.jpg.7f8f0d990ccb96e7abffbbd5f487bf38.jpg
 
 dependencies:
   - memo:industrial-revolution-mod
@@ -34,4 +64,6 @@ variants:
 
 ---
 assetId: t-wrecks-irm-sfbt-high-enthalpy-wind-tunnel
+version: "1.0"
+lastModified: "2017-06-18T21:19:00Z"
 url: https://community.simtropolis.com/files/file/31794-irm-sfbt-high-enthalpy-wind-tunnel-by-mathe-man/?do=download
