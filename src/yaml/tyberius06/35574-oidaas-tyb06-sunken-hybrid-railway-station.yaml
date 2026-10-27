@@ -3,6 +3,26 @@ name: oidaas-tyb06-sunken-hybrid-railway-station
 version: "1.0.0"
 subfolder: 700-transit
 info:
+  summary: Sunken hybrid railway station based on the Oidaas ESA Sunken Rail Station
+  description: |-
+    This Sunken Hybrid Railway Station is based on the Oidaas ESA Sunken Rail Station (`pkg=oidaas:esa-sunken-railstation`).
+
+    It's a high capacity station, which serves two passing through HRW DTR lines on ground level (L0), however the shape and purpose of the model makes it rather suitable in a 15.5 meters deep trench. For creating said trench, please use terrain tools or the Hole Digger and Raiser tool, which is part of the **Network Addon Mod provided by the NAM Team**.
+
+    This is a brand new station lot based on the freshly made sunken station model created by [@Oidaas](https://community.simtropolis.com/profile/64713-oidaas/). This lot was created for the Hybrid RailWay Dual Network (RRW-RHSR).
+
+    This station provides 102 jobs. It allows both Monorail (RHSR) and regular Passenger Train (RRW) traffic to get on/off from the trains, and also allows them to pass through on the station. It has a Bus Stop and Subway Station as well. Freight Trains can pass through on this station too.
+
+    **Special gratitude goes to the following people:**
+
+    - **Oidaas** for the main station building
+    - **eggman121** for creating the Hybrid RailWay network
+    - **Girafe** and the **VIP Team** for the beautiful urban and flora props and for the vehicle props
+    - **CP/Cycledogg** for the bench props
+    - **Jestarr** for the fence props
+    - **SFBT Team** for the base texture used as a wall texture
+    - **Bipin** for some of the station shelter props which are a nice addition to the NAM
+    - **z1** and the fellow **MTA/NAM** members for establishing the current standards for transportation lots
   author: Oidaas, Tyberius06
   website: https://community.simtropolis.com/files/file/35574-oidaas-tyb06-sunken-hybrid-railway-station/
   images:
