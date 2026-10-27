@@ -1,0 +1,52 @@
+group: t-wrecks
+name: irm-w2w-bsp-detroit-elevator-company
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 1 W2W I-M lot using the BSP Detroit Elevator Company BAT by SimHoTToDDy
+  description: |-
+    This is the ninth upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. For the time being, we'll continue with some BSP stuff, this time: **BSP Detroit Elevator Company** by **SimHoTToDDy**.
+
+    The building will provide **144 I-M jobs**. Since it is basically a snug fit towards all sides, I decided to leave it on a very simple, tight-wrapping lot so you can use filler lots or let mech/anchor lots develop behind the building. You can also integrate it into tight W2W areas with house rows situated back to back. The one included lot is as follows:
+
+    - 3x2 straight, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lot by nos.17 is installed instead. This lot provides 154 jobs and grows at Stage 5.
+
+    If you want to block the lot from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **SimHoTToDDy**, another superb BAT artist and all around pleasant guy who is sorely missed.
+
+    T Wrecks, September 29, 2015
+  conflicts: "Contains the IRM lots for `pkg=simhottoddy:bsp-detroit-elevator-company`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30805-irm-w2w-bsp-detroit-elevator-company-by-simhottoddy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_DetroitElevatorCo_01.jpg.f6e7276baaba3a9ea21ef926930846b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_DetroitElevatorCo_02.jpg.c73afd01df1b8c676338d1a03a9832e6.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - simhottoddy:bsp-detroit-elevator-company-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-bsp-detroit-elevator-company
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/BSP Detroit Elevator Company \\(SHT\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-bsp-detroit-elevator-company
+version: "1.0"
+lastModified: "2015-09-29T17:49:00Z"
+url: https://community.simtropolis.com/files/file/30805-irm-w2w-bsp-detroit-elevator-company-by-simhottoddy/?do=download

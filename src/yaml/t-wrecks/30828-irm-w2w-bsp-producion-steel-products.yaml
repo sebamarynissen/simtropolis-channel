@@ -1,0 +1,56 @@
+group: t-wrecks
+name: irm-w2w-bsp-producion-steel-products
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 4 W2W I-M lots using the BSP Production Steel Products BAT by SimHoTToDDy
+  description: |-
+    This is the twelfth upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. It's the last BSP building for the time being, **BSP Production Steel Products** by **SimHoTToDDy**.
+
+    The building will provide **264 I-M jobs**. The building leaves room for an alley on one side, but since it's pretty common for rows of W2W buildings to be interrupted by the occasional alley, I included two lots that make use of the empty space plus two additional corner lots. Here's the list of the included lots:
+
+    - 6x2 straight, Stage 1 (2 versions)
+    - 2x6 left corner, Stage 1
+    - 2x6 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 391 jobs and grow at Stage 5.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **SimHoTToDDy** once again!
+
+    T Wrecks, October 29, 2015
+  conflicts: "Contains the IRM lots for `pkg=simhottoddy:bsp-production-steel-products-inc`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30828-irm-w2w-bsp-producion-steel-products-by-simhottoddy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_10/IRM_W2W_ProductionSteelProducts_01.jpg.a8654cb7b3948e1a97815e9972ca75df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_10/IRM_W2W_ProductionSteelProducts_02.jpg.a107bbd0f168dec945c1e37562975d15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_10/IRM_W2W_ProductionSteelProducts_03.jpg.422b81f6f1ab81ed9a4ad5bc9d9c3103.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_10/IRM_W2W_ProductionSteelProducts_04.jpg.05d728e46b18f047e1f5e3d16dc6e6e0.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - simhottoddy:bsp-production-steel-products-inc-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-bsp-producion-steel-products
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/BSP Production Steel Products \\(SHT\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-bsp-producion-steel-products
+version: "1.0"
+lastModified: "2015-10-29T19:19:00Z"
+url: https://community.simtropolis.com/files/file/30828-irm-w2w-bsp-producion-steel-products-by-simhottoddy/?do=download
