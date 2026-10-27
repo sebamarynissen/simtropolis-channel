@@ -1,0 +1,85 @@
+group: t-wrecks
+name: irm-w2w-sg-industry-pack-02
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 10 W2W I-M lots using the SG Industry Pack 02 BATs by Simgoober
+  description: |-
+    This is the fifth upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. This time it's an entire BAT package rather than a single building - **SG Industry Pack 02** by **Simgoober**.
+
+    The job breakdown for the buildings included in this package is as follows:
+
+    - Eagle Electrical: 80 I-M jobs
+    - Franklin Furs: 108 I-M jobs
+    - Goober's Go Go Golfcarts: 80 I-M jobs
+    - Hamilton Hose: 92 I-M jobs
+
+    Since these BATs are pretty small, they probably look best in low-rise W2W environments. A variety of lots is included, here's the list:
+
+    **Eagle Electrical:**
+
+    - 2x2 left corner, Stage 1
+    - 2x2 right corner, Stage 1
+
+    **Franklin Furs:**
+
+    - 3x2 left corner, Stage 1
+    - 3x2 right corner, Stage 1
+
+    **Goober's Go Go Golfcarts:**
+
+    - 3x3 left corner, Stage 1
+    - 3x3 right corner, Stage 1
+    - 3x3 straight, Stage 1 (2 versions)
+
+    **Hamilton Hose:**
+
+    - 2x2 left corner, Stage 1
+    - 2x2 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 24 jobs (Eagle Electrical), 74 jobs (Franklin Furs), 27 jobs (Goober's Go Go Golfcarts) and 34 jobs (Hamilton Hose). The Franklin Furs lots grow at Stage 3, the Hamilton Hose lots at Stage 2 and all other lots at Stage 1.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **Simgoober** for this BAT package!
+
+    T Wrecks, December 18, 2016
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31405-irm-w2w-sg-industry-pack-02-by-simgoober/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_EagleElectrical_01.jpg.d13d92b0a3706bcd29e3b51435fa1437.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_EagleElectrical_02.jpg.0eefacd40066441f6153148df40afadc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_FranklinFurs_01.jpg.37bec60b6d7cb28c4c89c8e486a05e1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_FranklinFurs_02.jpg.38141855f57f996505ae09ead56494c8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_GoGoGolfcarts_01.jpg.b76b78b35fefaeb9e9afdb1bbbe5096d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_GoGoGolfcarts_02.jpg.269cb19efc0c99d3c372dcd1503f806f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_GoGoGolfcarts_03.jpg.056bfc84ff04c6e1587aa3504e9131e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_GoGoGolfcarts_04.jpg.4ca4b93fa9e1e966f4465d794a648954.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_HamiltonHose_01.jpg.b4bdc3f81a1a226e3b25e3b90f328842.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SG-Industrials_HamiltonHose_02.jpg.b1ba800ab0e4fba4f6cd2be4c0c87212.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:sg-models-im2
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-sg-industry-pack-02
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/SG Industrials 02 \\(SG\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-sg-industry-pack-02
+version: "1.0"
+lastModified: "2016-12-18T11:46:00Z"
+url: https://community.simtropolis.com/files/file/31405-irm-w2w-sg-industry-pack-02-by-simgoober/?do=download

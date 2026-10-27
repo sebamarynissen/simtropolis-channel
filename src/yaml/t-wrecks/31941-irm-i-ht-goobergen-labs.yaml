@@ -1,0 +1,77 @@
+group: t-wrecks
+name: irm-i-ht-goobergen-labs
+version: "1.0.1"
+subfolder: 400-industrial
+info:
+  summary: 4 I-HT lots using the GooberGen Labs BAT by SimGoober
+  description: |-
+    Last time we had the famous Fukitol capsules by GooberGen, this time we take a step back - into the labs where GooberGen does its research.
+
+    The eighth upload in this series is **GooberGen Labs** by **SimGoober**. Since the fish tanks and the company sign are separate props, I could play around with different configurations and ended up making two versions with two lots each; one with two fish tank clusters and one with four fish tank clusters. I'm pretty pleased with the result if I may say so myself - the modular layout allowed for some nice configuration options, and I particularly enjoyed making the footpaths that connect to the fish tanks and being able to place a lot of shaded props around the tall building.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the buildings will provide:
+
+    - GooberGen Labs 1: **90 I-HT jobs**, the quadrupler version **360 I-HT jobs**.
+    - GooberGen Labs 2: **100 I-HT jobs**, the quadrupler version **400 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 5x6, Stage 3 (GooberGen Labs 1)
+    - 6x5, Stage 3 (GooberGen Labs 1)
+    - 6x6, Stage 3 (2 variations) (GooberGen Labs 2)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version and provide 613 jobs. The GooberGen Labs 1 lots grow at Stage 4 and the GooberGen Labs 2 lots at Stage 3.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **SimGoober** once again.
+
+    T Wrecks, September 19, 2017
+  conflicts: "Contains the IRM lots for `pkg=simgoober:hi-tech-industrial-set`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31941-irm-i-ht-goobergen-labs/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_GooberGenLab_01.jpg.6e7279998350fc6b9e9847d2b655448a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_GooberGenLab_02.jpg.05da583c8fc7ea093ba4e7732a94486a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_GooberGenLab_03.jpg.5b535befe980fdb038bdbd074b438131.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_GooberGenLab_04.jpg.9c012b4de2d064d483d8a86efeca1350.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_GooberGenLab_05.jpg.2e72e055b8e7a15eb67072465de99882.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:sg-models-iht
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-goobergen-labs
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-goobergen-labs
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT GooberGen Laboratory \\(SimGoober\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-goobergen-labs
+version: "1.0.1"
+lastModified: "2018-02-19T19:59:00Z"
+url: https://community.simtropolis.com/files/file/31941-irm-i-ht-goobergen-labs/?do=download
