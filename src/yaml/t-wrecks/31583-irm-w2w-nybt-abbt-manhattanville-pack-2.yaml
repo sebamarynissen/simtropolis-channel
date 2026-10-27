@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-w2w-nybt-abbt-manhattanville-pack-2
+version: "1.0.1"
+subfolder: 400-industrial
+info:
+  summary: 6 W2W I-M lots using 4 Manhattanville Project buildings by NYBT ABBT
+  description: |-
+    After another hiatus, I finally gave myself a push and got around to uploading this one. It marks the 13th upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. Once again, I didn't have too much work with this one because the high-quality 3dsmax BATs in this pack, **Manhattanville Pack 2** by **NYBT / ABBT** were designed to be W2W in the first place. I merely tweaked a few stats, assigned the zones, added a few lot options, and a prop here and there.
+
+    The buildings will provide **72 to 260 I-M jobs** for your Sims (for details, see lot breakdown below). Most of them will look best among low-rise development; 609 West 131st Street can even be used to "cross" a 4-tiles deep W2W block because it is long enough to face both the street in front and the one in the back.
+
+    3259 Broadway is a bit of the exception here: It is much bigger, will look great in a mid-rise environment (see demo screenshot) and can be used as a kind of "end cap" for a 4-tiles deep W2W block, i.e. it will face all three street sides - front, back, and left/right - and sit neatly wall-to-wall with everything around it.
+
+    As the screenshot shows, there is not much lot design to speak of; the buildings mostly sit snugly on the lot with blank walls to all sides not facing a street/road.
+
+    As usual, here's the list of lots included:
+
+    **605 West 131st Street (72 I-M jobs):**
+
+    - 1x2 straight, Stage 1
+
+    **609 West 131st Street (100 I-M jobs):**
+
+    - 1x4 straight, Stage 1 (2 versions)
+
+    **635 West 131st Street (100 I-M jobs):**
+
+    - 2x2 straight, Stage 1
+
+    **3259 Broadway (260 I-M jobs):**
+
+    - 2x4 left cap, Stage 2
+    - 2x4 right cap, Stage 2
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 22 to 500 jobs per building and grow at higher stages: 3259 Broadway at Stage 7, 635 West 131st Street at Stage 4, 605 West 131st Street at Stage 3, and 609 West 131st Street at Stage 3 (version A) or Stage 6 (version B).
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to the **NYBT ABBT guys** for these BATs!
+
+    T Wrecks, April 23, 2017
+  conflicts: "Contains the IRM lots for `pkg=abbt:manhattanville-project-2nd-pack`. Installing both results in duplicate lots of the same buildings, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31583-irm-w2w-nybt-abbt-manhattanville-pack-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/IRM_W2W_NYBT_ABBT_2.jpg.8f437135fcf8b262ab75f6bda1f1e85a.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - abbt:manhattanville-project-2nd-pack-models
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-nybt-abbt-manhattanville-pack-2
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/NYBT ABBT Manhattanville Pack 2/"
+
+---
+assetId: t-wrecks-irm-w2w-nybt-abbt-manhattanville-pack-2
+version: "1.0.1"
+lastModified: "2017-04-23T14:10:00Z"
+url: https://community.simtropolis.com/files/file/31583-irm-w2w-nybt-abbt-manhattanville-pack-2/?do=download
