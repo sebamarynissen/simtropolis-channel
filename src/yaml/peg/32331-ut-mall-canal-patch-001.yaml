@@ -1,9 +1,21 @@
 group: peg
 name: ut-mall-canal-patch-001
+version: "1.0"
 subfolder: 900-overrides
 info:
+  summary: Fixes incorrect property values in the PEG-UT Mall Canal lots
+  description: |-
+    This is a small Patch File for the PEG-UT Mall Canals that fixes incorrect property values in the MallCanal lots. Because the lots are RCI ploppables, the game appears to ignore the properties in question. Whether the patch is installed or not, the lots appear and perform the same. Therefore, installing this patch is purely optional... although still recommended to ensure that everything "under-the-hood" is as it should be.
+
+    The patch covers the Small, Medium, Large, 4-way, Corner, End and Tee lots, which are installed along with it. The Bus Stop and the Plaza are not affected.
+
+    Special thanks to **ScottFTL** for catching and reporting the incorrect property values.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   author: Pegasus
   website: https://community.simtropolis.com/files/file/32331-peg-ut-mall-canal-patch-001/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/product_image.jpg.17d5ce7e97303bd45bb90d62eaaee095.jpg
 # The patch replaces the exemplars of these 7 lots. Without them, it would add lots with missing models.
 dependencies:
   - peg:ut-large-mall-canal
@@ -18,4 +30,6 @@ assets:
 
 ---
 assetId: peg-ut-mall-canal-patch-001
+version: "1.0"
+lastModified: "2018-06-24T11:12:00Z"
 url: https://community.simtropolis.com/files/file/32331-peg-ut-mall-canal-patch-001/?do=download
