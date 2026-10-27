@@ -1,0 +1,25 @@
+group: peg
+name: ut-mall-canal-collection
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Collection of all PEG-UT Mall Canal lots
+  description: |-
+    A collection of the complete PEG Utopia Series Mall Canal by Pegasus: the Small, Medium and Large canals, the Corner, End, Tee and 4-way pieces, the Plaza and the Bus Stop, together with the resource pack and PATCH 001.
+  author: Pegasus
+  websites:
+    - https://community.simtropolis.com/files/file/20702-peg-ut-mall-canal-resource-pack/
+    - https://community.simtropolis.com/files/file/32331-peg-ut-mall-canal-patch-001/
+
+dependencies:
+  - peg:ut-mall-canal-resource-pack
+  - peg:ut-mall-canal-patch-001
+  - peg:ut-small-mall-canal
+  - peg:ut-medium-mall-canal
+  - peg:ut-large-mall-canal
+  - peg:ut-mall-canal-corner
+  - peg:ut-mall-canal-end
+  - peg:ut-mall-canal-tee
+  - peg:ut-mall-canal-4way
+  - peg:ut-mall-canal-plaza
+  - peg:ut-mall-canal-bus-stop
