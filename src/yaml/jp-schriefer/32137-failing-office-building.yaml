@@ -3,6 +3,26 @@ name: failing-office-building
 version: "1.0"
 subfolder: 300-commercial
 info:
+  summary: 12-story corner high-rise in Landmark and Commercial Office versions
+  description: |-
+    The **Failing Office Building** is a 12-story high-rise building located in downtown Portland, Oregon, U.S. Also known as **The 620 Building**, it was built from 1908-1910 by the firm Whidden & Lewis. The building is listed on the National Register of Historic Places since October 31, 2007.
+
+    **Information**
+
+    The model is available in two versions - Landmark and Commercial Office. Both are corner W2W models. With the custom LODs it's possible to add furniture as props on the terraces in case anyone wants to do it.
+
+    *Landmark*
+
+    - Plop cost: 30,000
+    - Lot size: 2x2
+
+    *Commercial Office*
+
+    - Lot size: 2x2
+    - CO$$$: 400
+    - CO$$: 650
+
+    Both versions are installed. The model comes in a version for Maxis Night and one for Dark Nite (SimFox Day and Nite Modd, `pkg=simfox:day-and-nite-mod`), which you can choose with the `nightmode` variant.
   author: JP Schriefer
   website: https://community.simtropolis.com/files/file/32137-failing-office-building/
   images:
