@@ -1,0 +1,21 @@
+group: peg
+name: ut-mall-canal-patch-001
+subfolder: 900-overrides
+info:
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/32331-peg-ut-mall-canal-patch-001/
+# The patch replaces the exemplars of these 7 lots. Without them, it would add lots with missing models.
+dependencies:
+  - peg:ut-large-mall-canal
+  - peg:ut-medium-mall-canal
+  - peg:ut-small-mall-canal
+  - peg:ut-mall-canal-4way
+  - peg:ut-mall-canal-corner
+  - peg:ut-mall-canal-end
+  - peg:ut-mall-canal-tee
+assets:
+  - assetId: peg-ut-mall-canal-patch-001
+
+---
+assetId: peg-ut-mall-canal-patch-001
+url: https://community.simtropolis.com/files/file/32331-peg-ut-mall-canal-patch-001/?do=download
