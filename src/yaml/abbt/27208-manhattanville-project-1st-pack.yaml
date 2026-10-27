@@ -1,6 +1,6 @@
 group: abbt
 name: manhattanville-project-1st-pack
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: New York industrial wall-to-wall buildings
@@ -66,20 +66,24 @@ variants:
     exclude:
     - "/Quadrupler Edition/"
     - "\\.SC4Model$"
+    - "0x5c8398fa\\.SC4Desc$"
 - variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
   assets:
   - assetId: abbt-nybt-manhattanville-project-1st-pack-darknite
     exclude:
     - "/Normal Edition/"
     - "\\.SC4Model$"
+    - "0x5c8398fa\\.SC4Desc$"
 
 ---
 group: abbt
 name: manhattanville-project-1st-pack-models
-version: "1.0-1"
+version: "1.0-2"
 subfolder: 110-resources
 info:
   summary: Models for `pkg=abbt:manhattanville-project-1st-pack`
+  description: |-
+    The models, and the descriptor of the side building of 2307 JDM Highway, which the IRM lots of `pkg=t-wrecks:irm-w2w-nybt-abbt-manhattanville-pack-1` need as well.
   author: anotn, Francis90b, SimHoTToDDy, T Wrecks, Vlasky
   website: https://community.simtropolis.com/files/file/27208-nybt-abbt-manhattanville-project-1st-pack/
 variants:
@@ -88,12 +92,14 @@ variants:
   - assetId: abbt-nybt-manhattanville-project-1st-pack-maxisnite
     include:
     - "\\.SC4Model$"
+    - "0x5c8398fa\\.SC4Desc$"
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
   - assetId: abbt-nybt-manhattanville-project-1st-pack-darknite
     include:
     - "\\.SC4Model$"
+    - "0x5c8398fa\\.SC4Desc$"
 
 ---
 assetId: abbt-nybt-manhattanville-project-1st-pack-darknite
