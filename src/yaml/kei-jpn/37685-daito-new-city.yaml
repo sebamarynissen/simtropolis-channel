@@ -1,0 +1,48 @@
+group: kei-jpn
+name: daito-new-city
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Mid-rise office building "Daito New City"
+  description: |-
+    A mid-rise office building by kei_jpn.
+
+    - Size: 2x2, 2x3
+    - Type: CO$$
+    - Growth stage: 6
+
+    It's a relatively new building, built as part of a redevelopment project sometime after the 1990s. There's a Starbucks on the first floor, but the texture is distorted and you can't see it...
+
+    Production date: 2004 · Released on March 9, 2015
+
+    **Note:** the original website, gobanboshi (`http://gobanboshi.s25.xrea.com/SimCity/hokan-kei/kei_co_office01-daito.zip`), is down permanently. This is a preservation upload of the original download. The files are unchanged, only the folder name was replaced by an English one. The above description is based on a Google Translate of the original Japanese description.
+  author: kei_jpn
+  website: https://community.simtropolis.com/files/file/37685-kei_jpn-daito-new-city-v10/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Daito_New_City.jpg.9a859fa06a8d80fe32f573ab4ac6dbae.jpg
+dependencies:
+  - kei-jpn:daito-new-city-model
+assets:
+  - assetId: kei-jpn-daito-new-city
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: kei-jpn
+name: daito-new-city-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=kei-jpn:daito-new-city`
+  author: kei_jpn
+  website: https://community.simtropolis.com/files/file/37685-kei_jpn-daito-new-city-v10/
+assets:
+  - assetId: kei-jpn-daito-new-city
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: kei-jpn-daito-new-city
+version: "1.0"
+lastModified: "2026-10-27T21:54:56Z"
+url: https://community.simtropolis.com/files/file/37685-kei_jpn-daito-new-city-v10/?do=download
