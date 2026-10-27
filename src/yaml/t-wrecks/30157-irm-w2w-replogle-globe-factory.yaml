@@ -1,9 +1,32 @@
 group: t-wrecks
 name: irm-w2w-replogle-globe-factory
+version: "1.0"
 subfolder: 400-industrial
 info:
+  summary: 4 W2W I-D lots using the Replogle Globe Factory BAT by jestarr
+  description: |-
+    The eighth upload in a series of IRM W2W lots based on BAT models made by other artists is **Replogle Globe Factory**, another BAT made by **jestarr**.
+
+    The building will provide **288 I-D jobs**. The building comes on four lots this time. The two straight lots are really simple; they feature the building on a very tight lot with an alley either to the left or to the right. The two corner lots are somewhat more spacious, and they also offer an access towards the back of the building. This is so you can have an industrial compound with road access for trucks from behind of the main building, but without interruptions of your W2W rows. Here's the breakdown of the lots included:
+
+    - 4x2 straight, Stage 1 (2 versions)
+    - 3x4 right corner, Stage 1
+    - 3x4 left corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 178 jobs; the 4x2 lots grow at Stage 5 and the 3x4 corner lots at Stage 4.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Once again, credits to **jestarr** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, February 24, 2015
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/30157-irm-w2w-replogle-globe-factory-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/e6722cee63003045cab1bcb75d1b577f-irm_w2w_replogleglobefactory_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/5643dc9aeed985bb6e13fa07dafe7c6b-irm_w2w_replogleglobefactory_2.jpg
 
 dependencies:
   - memo:industrial-revolution-mod
@@ -25,4 +48,6 @@ variants:
 
 ---
 assetId: t-wrecks-irm-w2w-replogle-globe-factory
+version: "1.0"
+lastModified: "2015-02-24T22:36:00Z"
 url: https://community.simtropolis.com/files/file/30157-irm-w2w-replogle-globe-factory-by-jestarr/?do=download

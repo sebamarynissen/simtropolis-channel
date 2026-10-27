@@ -1,9 +1,33 @@
 group: t-wrecks
 name: irm-w2w-yankee-linen-supply
+version: "1.0"
 subfolder: 400-industrial
 info:
+  summary: 4 W2W I-D lots using the Yankee Linen Supply BAT by jestarr
+  description: |-
+    The eleventh upload in a series of IRM W2W lots based on BAT models made by other artists is **Yankee Linen Supply**, another BAT made by **jestarr**. It will be the last of his BATs in this pack; the upcoming uploads for this pack will feature BATs by other artists. There will be more jestarr buildings in the further future, though.
+
+    The building will provide **180 I-D jobs** and, once more, comes on four lots. The two straight lots are really simple; they feature the building with a small loading area in the back - either just the building as part of a closed row, or the building with an alley to the right. The other two lots can be used as end pieces for two rows of W2W houses built back to back with a one-tile gap inbetween. Here's the lineup:
+
+    - 5x2 straight, Stage 1
+    - 6x2 straight, Stage 1
+    - 2x5 left cap, Stage 1 (left-hand end piece for 5 tiles deep W2W blocks)
+    - 2x5 right cap, Stage 1 (right-hand end piece for 5 tiles deep W2W blocks)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 71 jobs and grow at Stage 2.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Once again, credits to **jestarr** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, March 8, 2015
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/30182-irm-w2w-yankee-linen-supply-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/26ca571bb7da64735a8c40ca56a6b48b-irm_w2w_yankeelinensupply_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/8972099dc1277914b0392b87dffded59-irm_w2w_yankeelinensupply_02.jpg
 
 dependencies:
   - memo:industrial-revolution-mod
@@ -25,4 +49,6 @@ variants:
 
 ---
 assetId: t-wrecks-irm-w2w-yankee-linen-supply
+version: "1.0"
+lastModified: "2015-03-08T14:04:00Z"
 url: https://community.simtropolis.com/files/file/30182-irm-w2w-yankee-linen-supply-by-jestarr/?do=download

@@ -1,9 +1,32 @@
 group: t-wrecks
 name: irm-w2w-redwing-mill
+version: "1.0"
 subfolder: 400-industrial
 info:
+  summary: 1 W2W I-D lot using the Redwing Mill BAT by jestarr
+  description: |-
+    The seventh upload in a series of IRM W2W lots based on BAT models made by other artists is **Redwing Mill**, another BAT made by **jestarr**.
+
+    The building will provide **240 I-D jobs**. This time around, the building didn't really lend itself to many configurations, so this is the only lot offered in this package:
+
+    - 3x5 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lot by nos.17 is installed instead. This lot provides 149 jobs and grows at Stage 3.
+
+    If you want to block the lot from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Once again, credits to **jestarr** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, February 12, 2015
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/30141-irm-w2w-redwing-mill-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/8897a21061771387a47e1f215d16dffa-irm_w2w_redwingmill_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/3708e7898fda95554906f2a9d4a99aab-irm_w2w_redwingmill_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/d14e46adfda321451e468150c7b0dfdd-irm_w2w_redwingmill_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/617a8a9bc8be45a8b3cb62103a081421-irm_w2w_redwingmill_04.jpg
 
 dependencies:
   - memo:industrial-revolution-mod
@@ -25,4 +48,6 @@ variants:
 
 ---
 assetId: t-wrecks-irm-w2w-redwing-mill
+version: "1.0"
+lastModified: "2015-02-12T22:55:00Z"
 url: https://community.simtropolis.com/files/file/30141-irm-w2w-redwing-mill-by-jestarr/?do=download

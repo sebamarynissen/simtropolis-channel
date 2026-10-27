@@ -1,9 +1,32 @@
 group: t-wrecks
 name: irm-w2w-krispy-kracker-company
+version: "1.0"
 subfolder: 400-industrial
 info:
+  summary: 4 W2W I-D lots using the Krispy Kracker Company BAT by jestarr
+  description: |-
+    The fourth upload in a series of IRM W2W lots based on BAT models made by other artists is **Krispy Kracker Company**, another BAT made by **jestarr**.
+
+    The building will provide **180 I-D jobs**. The following lots are included:
+
+    - 5x2 straight (2 versions), Stage 1
+    - 2x6 left corner, Stage 1
+    - 2x6 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 131 jobs; the 5x2 lots grow at Stage 4 and the 2x6 corner lots at Stage 3.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Once again, credits to **jestarr** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, February 1, 2015
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/30120-irm-w2w-krispy-kracker-company-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/3c641ef2a0d853b74e09cbf8bb750d24-irm_w2w_krispykrackercompany_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/d4d6379112cb4eb97e9594d5e2758894-irm_w2w_krispykrackercompany_02.jpg
 
 dependencies:
   - memo:industrial-revolution-mod
@@ -25,4 +48,6 @@ variants:
 
 ---
 assetId: t-wrecks-irm-w2w-krispy-kracker-company
+version: "1.0"
+lastModified: "2015-02-01T15:30:00Z"
 url: https://community.simtropolis.com/files/file/30120-irm-w2w-krispy-kracker-company-by-jestarr/?do=download

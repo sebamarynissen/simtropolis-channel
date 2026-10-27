@@ -1,9 +1,32 @@
 group: t-wrecks
 name: irm-w2w-holzman-postcard-factory
+version: "1.0"
 subfolder: 400-industrial
 info:
+  summary: 2 W2W I-M lots using the Holzman Postcard Factory BAT by jestarr
+  description: |-
+    This is the 13th upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. Just like this large building, **Holzman Postcard Factory**, the next few uploads will be stuff by **jestarr** once again.
+
+    The building will provide **304 I-M jobs**. It has a large footprint, but is rather low. Therefore, it can look good among lower rowhouses, for example in the more suburban areas. It will finish a 7 tiles deep W2W block towards 3 sides, forming an "end cap". The following lots are included:
+
+    - 3x7 left cap, Stage 1
+    - 3x7 right cap, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 557 jobs and grow at Stage 5.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    It's not the first time I'm writing this, and it won't be the last: credits to **jestarr** for this BAT!
+
+    T Wrecks, November 2, 2015
   author: T Wrecks, nos.17
   website: https://community.simtropolis.com/files/file/30832-irm-w2w-holzman-postcard-factory-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_11/IRM_W2W_HolzmanPostcardFactory_01.jpg.4884b97d108616ee8bb9ec97ebd77841.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_11/IRM_W2W_HolzmanPostcardFactory_02.jpg.4981c8a81a1faaeb654375ac60da39bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_11/IRM_W2W_HolzmanPostcardFactory_03.jpg.d2aa38c2bd4a9dc4ae067eab62fb4186.jpg
 
 dependencies:
   - memo:industrial-revolution-mod
@@ -25,4 +48,6 @@ variants:
 
 ---
 assetId: t-wrecks-irm-w2w-holzman-postcard-factory
+version: "1.0"
+lastModified: "2015-11-02T17:51:00Z"
 url: https://community.simtropolis.com/files/file/30832-irm-w2w-holzman-postcard-factory-by-jestarr/?do=download
