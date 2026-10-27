@@ -1,0 +1,57 @@
+group: t-wrecks
+name: irm-w2w-bsp-advance-glove-factory
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-M lots using the BSP Advance Glove Factory BAT by nofunk
+  description: |-
+    After a longer hiatus due to the site update, this is the seventh upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. For my return to the STEX after the hiatus, I've decided to dig out a very old, but nonetheless very high-quality BAT: **BSP Advance Glove Factory** by **nofunk**.
+
+    The building will provide **112 I-M jobs** and comes with the following lots:
+
+    - 2x3 left corner, Stage 1
+    - 2x2 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 61 jobs. The 2x3 lot grows at Stage 2 and the 2x2 lot at Stage 3.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    The building models come from `pkg=nofunk:bsp-john-king-books`: the building used to be called Advance Glove Factory before it was converted to a book store.
+
+    Credits to **nofunk** and the mighty BSP! Is there a chance to see more from you, Nolan?
+
+    T Wrecks, September 19, 2015
+  conflicts: "Contains the IRM lots for `pkg=nofunk:bsp-john-king-books`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30793-irm-w2w-bsp-advance-glove-factory-by-nofunk/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_AdvanceGloveFactory_01.jpg.0a1fe2090ad899ac4fb9916653e8c1b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_AdvanceGloveFactory_02.jpg.dc2353cfe56266555d5fc3d453f915ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_AdvanceGloveFactory_03.jpg.26363f434d9727fbd8a78e150cfad964.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_AdvanceGloveFactory_04.jpg.e028ac42643c6561d97d2372e83770f4.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - nofunk:bsp-john-king-books-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-bsp-advance-glove-factory
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/BSP Advance Glove Factory/"
+
+---
+assetId: t-wrecks-irm-w2w-bsp-advance-glove-factory
+version: "1.0"
+lastModified: "2015-09-19T12:51:00Z"
+url: https://community.simtropolis.com/files/file/30793-irm-w2w-bsp-advance-glove-factory-by-nofunk/?do=download

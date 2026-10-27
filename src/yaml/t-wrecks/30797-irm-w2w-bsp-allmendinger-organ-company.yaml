@@ -1,0 +1,53 @@
+group: t-wrecks
+name: irm-w2w-bsp-allmendinger-organ-company
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 4 W2W I-M lots using the BSP Allmendinger Organ Company BAT by nofunk
+  description: |-
+    This is the eighth upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. It's another old BSP classic: **BSP Allmendinger Organ Company** by **nofunk**. The original upload contains two differently coloured versions, a darker one and a lighter one. Therefore, there are 2 lots for each configuration, too.
+
+    The building will provide **144 I-M jobs** and comes with the following lots:
+
+    - 3x2 left corner, Stage 1 (2 lots)
+    - 2x3 right corner, Stage 1 (2 lots)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 68 jobs and grow at Stage 3.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Once again, credits to **nofunk** and the mighty BSP!
+
+    T Wrecks, September 21, 2015
+  conflicts: "Contains the IRM lots for `pkg=nofunk:bsp-allmendinger-organ-co`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30797-irm-w2w-bsp-allmendinger-organ-company-by-nofunk/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_AllmendingerOrganCompany_01.jpg.52bed325f5a981929a470ec0c1ee2f1e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_09/IRM_W2W_BSP_AllmendingerOrganCompany_02.jpg.a752eb7f768b90f326586d78bebd67b3.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - nofunk:bsp-allmendinger-organ-co-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-bsp-allmendinger-organ-company
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/BSP Allmendinger Organ Company/"
+
+---
+assetId: t-wrecks-irm-w2w-bsp-allmendinger-organ-company
+version: "1.0"
+lastModified: "2015-09-21T18:33:00Z"
+url: https://community.simtropolis.com/files/file/30797-irm-w2w-bsp-allmendinger-organ-company-by-nofunk/?do=download
