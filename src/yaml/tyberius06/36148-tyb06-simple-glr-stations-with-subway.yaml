@@ -3,6 +3,47 @@ name: tyb06-simple-glr-stations-with-subway
 version: "1.0.0"
 subfolder: 700-transit
 info:
+  summary: Two compact GLR/tram stations with subway service
+  description: |-
+    These are two GLR/tram stations with a rather smaller/compact footprint. Both of the stations are heavily using [@Simmer2](https://community.simtropolis.com/profile/444001-simmer2/)'s various props that he made for stations (platforms, shelters, subway entrances). They were requested on the SC4Evermore Discord as GLR stations that provide subway service too.
+
+    These lots support the following transit/travel types: **GLR**, **Bus**, **Subway**.
+
+    **Lots**
+
+    - Tyb06 GLR Station with Subway_4x1
+    - Tyb06 GLR Station with Subway (Island Type)_5x1
+
+    **Note**
+
+    There can be some minor graphical glitches (known as the z-fighting effect) that I'm aware of, though I won't bother fixing them.
+
+    The split/island type GLR textures originally were created by Cogeo for an early and ancient version of the GLR, and later Ebina created an override texture set to match with the currently used GLR textures. These textures will be incorporated with NAM v49 (hopefully).
+
+    For the island type station the split tracks have custom paths. The path files were created by MGB204 and updated by Tyberius06. They are available for right-hand drive and left-hand drive, which you can choose with the `driveside` variant. These path files are also planned to be incorporated with NAM v49.
+
+    **Stats**
+
+    - Lot size: 4x1 tiles and 5x1 tiles (island type)
+    - Menu position: Building: Transportation, Building: MiscTransit, Building: Strikable Transit, Building: El Train, Building: Bus Stop
+    - Jobs: $ 18, $$ 3, $$$ 0 (4x1 version); $ 19, $$ 3, $$$ 0 (5x1 island type version)
+    - Plop cost: §2000 (both versions)
+    - Bulldoze cost: §450 (4x1 version), §500 (5x1 island type version)
+    - Monthly cost: §45 (4x1 version), §50 (5x1 island type version)
+    - Flammability / fire stage: 33 / 1
+    - Power consumption: 1 MWh/month
+    - Water consumption: 0 gallons/month
+    - Air pollution: 3 over 1 tiles
+    - Water pollution: 2 over 1 tiles
+    - Garbage pollution: 5 over 0 tiles
+    - Catalog capacity: 70000 (4x1 version), 75000 (5x1 island type version)
+
+    **Special gratitude goes to the following people:**
+
+    - **Simmer2** for most of the props on these lots
+    - **Cogeo** and **Ebina** for the split GLR textures
+    - **MGB204** for the custom GLR paths for the split/island type tracks
+    - **z1** and the fellow **MTA/NAM members** for establishing the current standards for transportation lots
   author: Tyberius06
   website: https://community.simtropolis.com/files/file/36148-tyb06-simple-glr-stations-with-subway/
   images:
