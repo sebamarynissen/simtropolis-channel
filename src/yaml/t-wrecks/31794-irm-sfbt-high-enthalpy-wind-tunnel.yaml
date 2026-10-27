@@ -7,7 +7,7 @@ info:
 
 dependencies:
   - memo:industrial-revolution-mod
-  - sfbt:high-enthalpy-wind-tunnel-model
+  - andreas-roth:sfbt-wind-tunnel-model
 
 variants:
   - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
