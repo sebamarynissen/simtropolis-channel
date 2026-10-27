@@ -1,0 +1,37 @@
+group: t-wrecks
+name: irm-i-m-sfbt-maschinenbau
+subfolder: 400-industrial
+info:
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33116-irm-i-m-sfbt-maschinenbau-by-matheman-sfbt/
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - sfbt:maschinenbau-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-sfbt-maschinenbau
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-sfbt-maschinenbau
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-M SFBT Maschinenbau \\(OM\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-sfbt-maschinenbau
+url: https://community.simtropolis.com/files/file/33116-irm-i-m-sfbt-maschinenbau-by-matheman-sfbt/?do=download

@@ -1,0 +1,37 @@
+group: t-wrecks
+name: irm-i-ht-skylimit-satellite-research
+subfolder: 400-industrial
+info:
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31860-irm-i-ht-skylimit-satellite-research-by-greatdane/
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - greatdane:skylimit-satelite-research-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-skylimit-satellite-research
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-skylimit-satellite-research
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT SkyLimit Satellite Research \\(GreatDane\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-skylimit-satellite-research
+url: https://community.simtropolis.com/files/file/31860-irm-i-ht-skylimit-satellite-research-by-greatdane/?do=download

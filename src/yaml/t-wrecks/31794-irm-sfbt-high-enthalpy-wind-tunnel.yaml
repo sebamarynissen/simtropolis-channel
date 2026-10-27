@@ -1,0 +1,37 @@
+group: t-wrecks
+name: irm-sfbt-high-enthalpy-wind-tunnel
+subfolder: 400-industrial
+info:
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31794-irm-sfbt-high-enthalpy-wind-tunnel-by-mathe-man/
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - sfbt:high-enthalpy-wind-tunnel-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-sfbt-high-enthalpy-wind-tunnel
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-sfbt-high-enthalpy-wind-tunnel
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT SFBT High Enthalpy Wind Tunnel \\(OM\\)/"
+
+---
+assetId: t-wrecks-irm-sfbt-high-enthalpy-wind-tunnel
+url: https://community.simtropolis.com/files/file/31794-irm-sfbt-high-enthalpy-wind-tunnel-by-mathe-man/?do=download
