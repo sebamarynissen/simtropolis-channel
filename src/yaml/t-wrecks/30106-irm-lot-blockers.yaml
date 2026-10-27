@@ -9,12 +9,13 @@ info:
 
     - `mixed`: no blockers are installed, both regular and W2W anchor lots can grow.
     - `regular-only`: blocks the lots of `pkg=t-wrecks:irm-w2w-base-pack` and of the IRM W2W Expansion, so only regular anchor lots can grow.
-    - `w2w-only`: blocks the regular lots of the IRM Expansion, so only W2W anchor lots can grow. Note that this does **not** stop the regular lots of `pkg=memo:industrial-revolution-mod` from growing, because those use different lot IDs than the original IRM base pack that the blocker was made for.
+    - `w2w-only`: blocks the regular lots of `pkg=memo:industrial-revolution-mod` and of the IRM Expansion, so only W2W anchor lots can grow. The blocker for the regular lots of the base pack uses the new lot IDs of `pkg=memo:industrial-revolution-mod`, as the original blocker only works with the original lot IDs.
   author: T Wrecks
   website: https://community.simtropolis.com/files/file/30106-irm-w2w-expansion-blocker/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_03_2015/8274e0dd9e68a2e933c7e591ff7d96f4-irm-w2w-expansion-blocker.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/IRM_Expansion_Blocker.jpg.c4a154e540bce79b54d03c65d820fd45.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/IRM_Expansion_Blocker.jpg.2d077bf61fe7b241d9773ffd5bd85945.jpg
 variantInfo:
   - variantId: t-wrecks:irm-lot-blockers:mode
     description: Choose which kind of IRM anchor lots are blocked from growing.
@@ -25,7 +26,7 @@ variantInfo:
       - value: regular-only
         description: Block W2W anchor lots, only regular anchor lots can grow
       - value: w2w-only
-        description: Block regular anchor lots of the IRM Expansion, only W2W anchor lots can grow (the regular base pack lots of the IRM are not blocked)
+        description: Block regular anchor lots of the IRM base pack and Expansion, only W2W anchor lots can grow
 
 variants:
   - variant: { t-wrecks:irm-lot-blockers:mode: "mixed" }
@@ -42,6 +43,9 @@ variants:
       - assetId: t-wrecks-irm-w2w-base-pack
         include:
           - "/IRM Maxis Lot Blocker \\(add to disable non-W2W\\)\\.dat$"
+      - assetId: tiepinl-irm-maxis-lot-blocker-new-ids
+        include:
+          - "\\.dat$"
       - assetId: t-wrecks-irm-expansion-blocker
         include:
           - "\\.dat$"
@@ -57,3 +61,9 @@ assetId: t-wrecks-irm-expansion-blocker
 version: "1.0"
 lastModified: "2017-06-06T21:46:00Z"
 url: https://community.simtropolis.com/files/file/31743-irm-expansion-blocker-v10/?do=download
+
+---
+assetId: tiepinl-irm-maxis-lot-blocker-new-ids
+version: "1.0.0"
+lastModified: "2026-10-27T13:24:00Z"
+url: https://community.simtropolis.com/files/file/37683-irm-maxis-lot-blocker-new-ids/?do=download
