@@ -1,0 +1,48 @@
+group: kei-jpn
+name: mizuho-bank-branch
+version: "1.01"
+subfolder: 300-commercial
+info:
+  summary: Typical city bank branch, 2x2 corner lot
+  description: |-
+    A typical city bank branch by kei_jpn.
+
+    - Size: 2x2 (corner lot)
+    - Type: CO$$
+    - Growth stage: 6
+
+    The sign has been slightly tweaked. If you have the original, please compare it. In addition to "Mizuho Bank" created by Kei, Tokyo Mitsubishi, UFJ, Sumitomo Mitsui and Resona Bank will also appear.
+
+    Production date: 2004 · Released on March 9, 2015 · Revised on December 31, 2015
+
+    **Note:** the original website, gobanboshi (`http://gobanboshi.s25.xrea.com/SimCity/hokan-kei/kei_CO%24%246_kadochi-bank.zip`), is down permanently. This is a preservation upload of the original download. The files are unchanged, only the folder name was replaced by an English one. The above description is based on a Google Translate of the original Japanese description.
+  author: kei_jpn
+  website: https://community.simtropolis.com/files/file/37684-kei_jpn-mizuho-bank-branch-v101/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Mizuho_Bank_Branch.jpg.f3825a0e427b019399536c0f7d77a0cd.jpg
+dependencies:
+  - kei-jpn:mizuho-bank-branch-model
+assets:
+  - assetId: kei-jpn-mizuho-bank-branch
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: kei-jpn
+name: mizuho-bank-branch-model
+version: "1.01"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=kei-jpn:mizuho-bank-branch`
+  author: kei_jpn
+  website: https://community.simtropolis.com/files/file/37684-kei_jpn-mizuho-bank-branch-v101/
+assets:
+  - assetId: kei-jpn-mizuho-bank-branch
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: kei-jpn-mizuho-bank-branch
+version: "1.01"
+lastModified: "2026-10-27T21:53:06Z"
+url: https://community.simtropolis.com/files/file/37684-kei_jpn-mizuho-bank-branch-v101/?do=download

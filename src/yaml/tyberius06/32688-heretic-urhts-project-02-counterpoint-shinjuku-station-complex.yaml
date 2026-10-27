@@ -83,6 +83,8 @@ variants:
   - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: japanese }
     dependencies:
       - art128:japanese-buildings-compilation-model
+      - kei-jpn:mizuho-bank-branch-model
+      - kei-jpn:daito-new-city-model
     assets:
       - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
         exclude:
@@ -92,10 +94,10 @@ variants:
       - ill-tonkso:its-2011-vantage-metro-central-model
       - jp-schriefer:failing-office-building-model
       - art128:japanese-buildings-compilation-model
+      - kei-jpn:mizuho-bank-branch-model
+      - kei-jpn:daito-new-city-model
     assets:
       - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
-# TODO: the Japanese style (v2) also needs the kei_jpn Mizuho Bank Branch and Daito New City office building,
-# once they are available as packages.
 
 ---
 assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
