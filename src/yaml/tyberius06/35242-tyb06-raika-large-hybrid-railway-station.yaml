@@ -3,6 +3,23 @@ name: tyb06-raika-large-hybrid-railway-station
 version: "1.0.0"
 subfolder: 700-transit
 info:
+  summary: Large hybrid railway station, a relot of Raika's Grand Rail Station
+  description: |-
+    This **Large Hybrid Railway Station** is a relot of [Raika's Grand Rail Station](https://community.simtropolis.com/files/file/35241-raika-grand-railway-station/) supporting the **NAM's Hybrid RailWay** network.
+
+    It's a high capacity station, which serves two passing through **HRW DTR lines** and a spur/terminus for regular passenger rail (RRW) commuter service. The lot has more than 40 custom timed props (`tyb06-raika_grand_station_hrw_timed_props.dat`) to give some activity. It's built with the usual dense/busy style how the [Heretic Projects](https://community.simtropolis.com/tags/heretic%20projects/) creations used to be made, therefore the dependency list is a bit longer as well.
+
+    Please note that this is based on an old model (it was created and released around 2004), the LODs are all over the place, which means some LOD clipping effects may show up here and there. Also the rail tracks were baked into the model (as it was common practice back then), there is nothing that anybody could do with that.
+
+    **Special gratitude goes to the following people:**
+
+    - [@Eggman121](https://community.simtropolis.com/profile/205071-eggman121/) for creating the Hybrid RailWay network
+    - [@Simmer2](https://community.simtropolis.com/profile/444001-simmer2/) (SM2) for the creation of hundreds of models and props that I'm generally using on my lots
+    - [@Girafe](https://community.simtropolis.com/profile/319793-girafe/) and the [@VIP Team](https://community.simtropolis.com/profile/439446-vip-team/) for the beautiful urban and flora props and for the vehicle props
+    - [@Bipin](https://community.simtropolis.com/profile/406379-bipin/) for some of the station shelter props which are a nice addition to the NAM
+    - [@RaikaS](https://community.simtropolis.com/profile/20502-raikas/) for the main station building
+    - [@kingofsimcity](https://community.simtropolis.com/profile/33566-kingofsimcity/) (KOSC) for the awesome SuperSHK Parking Textures
+    - [@z1](https://community.simtropolis.com/profile/178048-z1/) and the fellow **MTA/NAM** members for establishing the current standards for transportation lots
   author: Tyberius06, Raika
   website: https://community.simtropolis.com/files/file/35242-tyb06-raika-large-hybrid-railway-station/
   images:
