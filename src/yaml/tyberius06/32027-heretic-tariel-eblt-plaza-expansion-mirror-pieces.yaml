@@ -1,0 +1,83 @@
+group: tyberius06
+name: heretic-tariel-eblt-plaza-expansion-mirror-pieces
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: Mirrored and modular pieces to expand the EBLT Plaza Set
+  description: |-
+    **Background**
+
+    One of my first relotting projects was to make a "redirected" mirrored version of @io_bg's EBLT Plaza Set, to make a flawless looking plaza route combining the original set of plazas and the relots. While doing my "housekeeping" on my bunch of experimental relots, I decided to revisit my old lots. Since @tariely started her very nice projects on plazas and gardens, we made a team-up and she facelifted my lots with nice nightlights and other fancy stuff, and also made three plazas for this set. Huge thanks to her for the hard work on this project!
+
+    **List of items**
+    - 6 1x1 modular plaza walk pieces. Using the SPOT you can make bigger plazas with flawless plaza routes.
+    - 2 2x1 modular-ish plaza walk pieces.
+    - 5 2x2 mirrored plazas for the purpose of expanding the existing EBLT Plaza set.
+    - 2 2x2 plazas using the same routeways as the original set. They are not mirrored pieces, credit goes to Tariely for these pieces.
+    - 2 2x4 plaza pieces, one regular and one mirrored version.
+
+    The listed items can work together nicely, but I guess they need a little patience and experimenting for better results.
+
+    You will find these lots in the Park menu close to the original set. The plop cost of the original 2x2 set is 50$. To keep the additional pieces close to the original set, I gave the following values:
+    - 2x2 plazas: 51$
+    - 1x1 plazas: 52$
+    - 2x1 plazas: 53$
+    - 2x4 plazas: 55$
+
+    **Credits**
+
+    Huge thanks to Tariel for her help on this project. All the nightlights are her work, so all credits on the night lights are hers! Also I would like to thank Tariel for her ideas and help on the lots, and for providing her versions for this set. Also I would like to thank @rivit, who helped us out with a little overlay texture addition to the CycleDogg overlays, which seemed a necessary addition to this set. Credit on that is his!
+
+    Enjoy!
+
+    - Tyberius
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/32027-heretic-tariel-eblt-plaza-expansion-mirror-pieces/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a29beea9713b_EBLTMirrorPlazavariation.jpg.20d664b9e635f675185806abd955759a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a29befb29fdc_EBLT2x1Modular-ishplazas.jpg.2b938776b00d393c6c3b2f9835bca25a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a29befd36c21_EBLT2x2OriginalMirrorpieces1x1modularpieces.jpg.368b34b603ba44ddb66da57a3a096e6a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a29befec2bee_EBLT2x4Plazaroutes.jpg.8044077a55ed827978e7d746922dc06b.jpg
+# Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below,
+# except the Maxis props and textures.
+# Deviations from the dependency list of the original description:
+#   - reddonquixote:prop-pack and bnl:dutch-prop-pack are not used by any of the lots
+#   - ndex:textures-vol1 and bsc:texturepack-cycledogg-vol01 are listed in the readme under Textures and are used
+#   - the texture 0xdd138100 is in Rivit BSCTexturesCycledoggVol1Extra.dat, which is included in tariely:tariel-rivits-essentials
+#   - girafe:maples-v2 and girafe:birches (the "Maples v2" and "Birches v2" folders of the girafe flora pack) provide the maples and birches
+#   - WMP Power Props maps to wmp:mega-props-vol01 (2 props are used)
+#   - Tariel-Rivit's Essentials provides the light cones and the texture mentioned above
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-jen-p-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - girafe:birches
+  - girafe:maples-v2
+  - girafe:lindens
+  - vip:delecto-ploppable-people
+  - murimk:props-vol02-mixed
+  - nbvc:plazas-with-fountains-model
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - tamorr:tamorrs-resource
+  - peg:mtp-super-pack
+  - peg:spot
+  - neko:prop-set-vol02
+  - namspopof:nams-mega-props
+  - wmp:mega-props-vol01
+  - tariely:tariel-rivits-essentials
+  - ndex:textures-vol1
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: tyberius06-heretic-tariel-eblt-plaza-expansion-mirror-pieces
+
+---
+assetId: tyberius06-heretic-tariel-eblt-plaza-expansion-mirror-pieces
+version: "1.1"
+lastModified: "2018-07-23T12:10:44Z"
+url: https://community.simtropolis.com/files/file/32027-heretic-tariel-eblt-plaza-expansion-mirror-pieces/?do=download&r=171619
