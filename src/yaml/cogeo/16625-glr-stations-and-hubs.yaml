@@ -3,6 +3,21 @@ name: glr-stations-and-hubs
 version: "1.0"
 subfolder: 700-transit
 info:
+  summary: Semitransparent GLR stations and rail/GLR interchange stations
+  description: |-
+    This pack contains GLR Station and Rail/GLR Interchange Station lots, using specially made and modded BATs, so as to become semitransparent, i.e. allow the lot textures, props and automata in the interior to show through. For example, the rail-track textures in the pics are not modelled, instead they are the lot's texture, and of course the train, people and the kinetic sculpture props are visible.
+
+    The pack contains 9 lots, 3 GLR Stations and 6 Interchange Stations, in various sizes and connectivity configurations. The Small GLR Station is placeable directly on track, thus requiring no additional space. All other stations do require some space, but offer parking facilities as well, so that they can serve larger areas, instead of just the buildings within walking distance from the station.
+
+    The lots use prop families, so you will get a slightly different prop combination each time you plop them.
+    The stations are also specially modded, resulting in the following features:
+
+    - The interchange stations with through rail track all allow both passenger and freight trains through traffic.
+    - They do not perform traffic conversions from and to the tracks touching the station (a problem quite common to other rly station lots), only from and to the tracks entering the station.
+    - The through traffic paths/arrows appear as straight and continuous lines instead of interrupted ones.
+    - And they should work on the Mac!
+
+    Capacities may look high, however this is to offset the effect of the through traffic (a problem common to all stations that are built on the tracks); all other stats are on par with Maxis standards.
   author: cogeo
   website: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/
   images:
