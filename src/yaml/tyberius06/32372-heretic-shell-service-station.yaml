@@ -1,0 +1,50 @@
+group: tyberius06
+name: heretic-shell-service-station
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Plopable landmark Shell MIGM and service station with some CS$$ jobs
+  description: |-
+    Let me introduce you to the **Heretic Shell MIGM and Service Station**, which was based on the remastered service stations of nos.17 and B62 (`pkg=b62:service-station-mega-pack`).
+
+    This is a plopable Landmark with some CS$$ jobs.
+
+    The lot is using a bunch of timed props (from my recently uploaded Heretic Essentials Dependency Pack, `pkg=tyberius06:tyb06-heretic-essentials`): cars and people, so it has a rhythm.
+
+    - Tyberius06
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/32372-heretic-shell-service-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/5b55a3c92e9b6_HereticShellServiceStation-main.jpg.5330f2959d8ecfb4082750c687e9288f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/5b55a3d3b47e5_HereticShellServiceStation-day.jpg.d4e9f68a2b096d94d2586ac24adce6ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/5b55a3d5a05b7_HereticShellServiceStation-night.jpg.eeb20283410218028e3fb504d18a4b9e.jpg
+# Checked against the contents of all dependencies: every prop, family and texture referenced by the lot resolves to the dependencies below,
+# except the Maxis props and textures.
+# Deviations from the dependency list of the original description:
+#   - b62:service-station-mega-pack-model: only the Shell props (sign, landsign, pumps, drink center and pylon sign) are used, not the lots
+#   - SM2 Mega Prop Pack Vol1 and Vol2 are both used (Vol2 for 0x07c071ba, 0x27c071ca, 0x47c0719b and 0x47e058e4); the "SM2 Prop Pack Vol11"
+#     of the readme is not a separate package: all its props resolve to the Mega Prop Packs Vol1 and Vol2 (also not in Vol3 and Vol4)
+#   - simmer2:essentials is not in the readme, but the families 0x5f85d35b and 0x5f85d35c are in SM2 Industrial Bits Family.dat of the SM2 Essentials
+#   - WMP Station Prop Pack and WMP Power Props 01 map to wmp:mega-props-vol01 (only 3 props are used)
+dependencies:
+  - tyberius06:tyb06-heretic-essentials
+  - nos17:essentials
+  - b62:service-station-mega-pack-model
+  - girafe:conifers
+  - girafe:common-spruces
+  - bsc:vip-girafe-urbanpack-vol01
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - simmer2:essentials
+  - wmp:mega-props-vol01
+  - supershk:mega-parking-textures
+  - bsc:textures-vol01
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: tyberius06-heretic-shell-service-station
+
+---
+assetId: tyberius06-heretic-shell-service-station
+version: "1.0"
+lastModified: "2018-07-23T10:11:02Z"
+url: https://community.simtropolis.com/files/file/32372-heretic-shell-service-station/?do=download
