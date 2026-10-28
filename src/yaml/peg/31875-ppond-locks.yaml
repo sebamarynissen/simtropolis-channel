@@ -1,0 +1,56 @@
+group: peg
+name: ppond-locks
+version: "1.0.1"
+subfolder: 660-parks
+info:
+  summary: PPond Locks, one lock lot for canals, PPond water and the coast
+  description: |-
+    The PEG CSK2 Locks have been updated for use with the PEG PPond Canals and ploppable water. This new lot is a "one lot fits all", in that it can be used both with the canals and the PPond ploppable water.
+
+    But wait, there's more. This is also a "2fer" lot (2 for 1), as the same lot now replaces the CSK2 Ocean Lock as well. It can also be plopped along your coastlines and used with the PEG CDK3 and OWW2 coastal collection of lots. That's one less menu icon to scroll around looking for.
+
+    If you are not familiar with these Lock lots, they are used to allow your canals to change altitudes. The PPond ploppable water that is used to make lakes, rivers and streams has waterfall lots for that purpose. However, the Locks are the only viable and realistic way for a canal to traverse down a slope.
+
+    The Lock uses timed props to create an animation effect. During the day, the Lock will change several times from being full to being lowered. Various river scows will also appear in the Lock.
+
+    Like the original, the Lock will automatically adjust to various heights of the slope. There's no need for precise terrain editing, although the area above and below the Lock should be level.
+
+    The new Lock has been reduced in size to only 4 tiles deep, but it is still 2 tiles wide. The upper-level canal section on the original has been removed so the Lock is not limited to use only with the Canals, and it could also be used with any other type of ploppable water or canal style.
+
+    Please be sure to consult the Developer's Notes section of the readme of the upload for details on plopping and using this lot.
+
+    All Pegasus files are now legacy content and are no longer officially supported. However, support from the wider community can be requested in the PLEX on the STEX support thread at Simtropolis.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/31875-peg-ppond-locks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/product_image.jpg.e9b43207c7422eebc95684be11f37c02.jpg
+dependencies:
+  - peg:ppond-locks-resource
+assets:
+  - assetId: peg-ppond-locks
+    exclude:
+      - "/PEG-PP_2x_Lock_RESOURCE\\.dat$"
+
+---
+group: peg
+name: ppond-locks-resource
+version: "1.0.1"
+subfolder: 110-resources
+info:
+  summary: PPond Locks resource
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/31875-peg-ppond-locks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/product_image.jpg.e9b43207c7422eebc95684be11f37c02.jpg
+dependencies:
+  - peg:ppond-scows
+assets:
+  - assetId: peg-ppond-locks
+    include:
+      - "/PEG-PP_2x_Lock_RESOURCE\\.dat$"
+
+---
+assetId: peg-ppond-locks
+version: "1.0.1"
+lastModified: "2016-11-11T19:46:23Z"
+url: https://community.simtropolis.com/files/file/31875-peg-ppond-locks/?do=download
