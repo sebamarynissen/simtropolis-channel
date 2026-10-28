@@ -24,9 +24,9 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a3efc49ae850_HPURCExpansionCU03.jpg.e1dc645cb1b0bee1e2a5275564380aa0.jpg
 # Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below,
 # except the Maxis props and textures, and the following IDs:
-#   - TODO: 0x1a38ad7b, 0x3a2e9269, 0xba2e9288, 0x5a1acd02 and 0xda2260ab (the Murimk marina lots and the Punts Dock) are expected in
-#     murimk:waterfront-pack-3-rural-marina-resources, not yet verified
-#   - TODO: 0x2a8a1b83, 0x2a94b0db and 0xaa8de815 (the waterfall lots) are not in any of the dependencies
+#   - 0x1a38ad7b, 0x3a2e9269, 0xba2e9288, 0x5a1acd02 and 0xda2260ab (the Murimk marina lots and the Punts Dock) are in
+#     murimk:waterfront-pack-3-rural-marina-resources (Murimk_Rural_Marina_Resource.dat)
+#   - TODO: 0x2a8a1b83, 0x2a94b0db and 0xaa8de815 (the waterfall lots) are not in any of the dependencies, nor in Paeng's Turbulences and Transitions
 # Deviations from the dependency list of the original description:
 #   - peg:terrain-kit-7-n-1: only PEG-PP_Lot-Props_101.dat and PEG-PP_TerrainProps_Weeds_101.dat are used, so the individual packages are used
 #   - murimk:props-vol03-industrials (the resource of murimk:industrial-mmp) holds the props that are used
