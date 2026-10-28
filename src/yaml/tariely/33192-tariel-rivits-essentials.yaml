@@ -1,0 +1,50 @@
+group: tariely
+name: tariel-rivits-essentials
+version: "5"
+subfolder: 100-props-textures
+info:
+  summary: Essential light cones, textures and props for the lots of Tariel (TL) and Rivit
+  description: |-
+    **TL-Rivit Essentials V5**
+
+    This completely replaces versions 3 and 4.
+
+    **Contents**
+    - **Rivit lights:** essential light cones and poles used by the TL lots.
+    - **TL essentials:** custom textures which might appear on TL lots.
+    - **TL Divers:** a set of automata turned props, mostly used on the TL-SCF-Heretic Modular Regional Airport lots. These were buggy in version 4 and had an odd side effect on the original automata (drifting automata).
+    - **TL optional lightpole overrides:** an optional folder with Maxis park light and light pole overrides. It is not included in this package.
+
+    Special thanks to Tyberius and Rivit, who rationalized this new version. It needed it!
+
+    And many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4 world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Tyberius06, Matias93, Fantozzi, Cyclone Boom, Catty-cb, Corinamarie, Andreas...). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/33192-tariel-rivits-essentials-v05/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/Tariel-rivitsessentials.png.e83bf26b7c107bb177c6d586a0349db7.png
+# The optional folder "z2_TL optional lightpole overrides" is deliberately not included. It overrides the Maxis park lights (RVT ParkLights2.dat)
+# and the light poles of z0 (zTariel-LRMv4 US Generic Lightpoles_v2.dat), which would be an override on top of the LRM override, and the readme
+# says it is optional when you already have a lighting set-up. The second file is also flawed: the Rivit light cones 0x5dff77f2 and 0x5dff77f5
+# that its poles 0xdd1f0000 and 0xdd1e0000 use are not in V5 (nor in LRM v4), so those poles would lose their cone.
+# Checked against the contents of all dependencies:
+#   - the light poles of "Tariel-LRMv4 US Generic Lightpoles_v2.dat" use the models of LRMv4_Models_Streetlights_USA.dat
+#   - the light cones of "zTariel-LRMv4 US Generic Lightpoles_v2.dat" use the models of LRMv4_Models_LightCones_{DarkNite,MaxisNite}.dat (0x5dff77a2, a4, a5)
+#     and the Rivit cones 0x5dff77f4 of "Tariel-RVT LightCones.dat". The Rivit cones 0x5dff77f2 and 0x5dff77f5, which are used by the
+#     poles 0xdd1f0000 and 0xdd1e0000 of that optional override, are not in any known package (not in this upload nor in LRM v4)
+#   - the taxi props of "TL-PROPS JRJ Yellow taxis rsc.dat" use the models of BSC MEGA Props - JRJ Vol02
+#   - the airport shuttles are self-contained (the models and textures are included), so the Mikeseith garages are not needed
+#   - the flood light uses the Maxis model 0x29da0000
+#   - the readme also lists NOB Ftexture.dat and ML Texture.dat. Nothing in the upload references them, they are used by other TL lots.
+dependencies:
+  - mandelsoft:light-replacement-mod-props
+  - bsc:mega-props-jrj-vol02
+assets:
+  - assetId: tariely-tariel-rivits-essentials
+    exclude:
+      - "/z2_TL optional lightpole overrides/"
+
+---
+assetId: tariely-tariel-rivits-essentials
+version: "5"
+lastModified: "2021-08-29T19:05:19Z"
+url: https://community.simtropolis.com/files/file/33192-tariel-rivits-essentials-v05/?do=download
