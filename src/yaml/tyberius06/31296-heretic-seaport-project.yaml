@@ -59,6 +59,9 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261667ebe8d_PierOneSeaportBreak-BulkSeaport.jpg.3abe466ddc6dd4a95bca95dc91c27b57.jpg
 # Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below,
 # except the Maxis props and textures.
+# All PEG CDK3 dependencies come from the PEG CDK3 Collection, which supersedes the separate STEX uploads (confirmed by Tyberius06). The old upload of
+# the Rail Fleet is byte-identical to the file in the collection, so peg:cdk3-sp-rail-fleet is overridden to the collection, and the SUPER PAK
+# no longer pulls in the old CDK3 Vehicle Pack 1, which it already contains in an updated version.
 # Deviations from the dependency list of the original description:
 #   - the PEG CDK3 collection is replaced by the packages that hold the used resource files: peg:cdk3-super-pak (PEG-CDK3_SUPER_PAK_RESOURCE.dat),
 #     peg:cdk3-sp-seaport-super-pak (PEG-CDK3-SP_SUPER_PAK_RESOURCE.dat), peg:cdk3-sp-rail-fleet and peg:cdk3-sp-container-ship-fleet.

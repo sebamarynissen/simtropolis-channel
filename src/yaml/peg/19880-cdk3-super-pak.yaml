@@ -1,6 +1,6 @@
 group: peg
 name: cdk3-super-pak
-version: "1.0"
+version: "1.0-1"
 subfolder: 100-props-textures
 info:
   summary: CDK3 SUPER PAK
@@ -34,11 +34,10 @@ info:
     - https://community.simtropolis.com/files/file/18657-peg-cdk3-trawlers-pack-1/
     - https://community.simtropolis.com/files/file/18774-peg-cdk3-rec-boats-pack-1/ 
     # The vehicle pack is separately available on the default channel so we don't include it here. However the SUPER PAK still contains this file so we don't need to reference it as a dependency either.
+    # The SUPER PAK of the CDK3 Collection even holds an updated version of the vehicle pack (75 fixed prop exemplars), so the old upload must not be installed on top of it.
     # - https://community.simtropolis.com/files/file/19267-peg-cdk3-vehicle-pack-1/
   images:
     - https://www.simtropolis.com/objects/screens/0025/e1b1c9d53f9b6fc379ec8bf0195776fd-product_image.jpg
-dependencies:
-  - peg:cdk3-vehicle-pack-1
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:

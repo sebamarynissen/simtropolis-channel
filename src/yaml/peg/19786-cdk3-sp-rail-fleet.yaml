@@ -1,0 +1,25 @@
+group: peg
+name: cdk3-sp-rail-fleet
+version: "1.0-1"
+subfolder: 100-props-textures
+info:
+  summary: CDK3 SP Rail Fleet
+  description: |-
+    This is a RESOURCE file for the PEG-CDK3 Seaport collection of lots.
+
+    The pack contains a ton of static, timed and random rolling stock & locomotive props. These are intended for use as props on various lots. These are NOT game automata...
+
+    As the game automata trains are considerably under scaled, these props are larger... and scaled to look more appropriate on lots with properly scaled structures, vehicles, peeps and other props.
+
+    This is the version of the CDK3 Collection (`PEG_Rail-Fleet_RESOURCE.dat`), which is identical to the one of the original upload and supersedes it.
+  author: Pegasus
+  websites:
+    - https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/
+    - https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/2486e017b6687d2453d8105021e06971-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2486e017b6687d2453d8105021e06971-product_image1.jpg
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
+      - "/PEG_Rail-Fleet_RESOURCE.dat"

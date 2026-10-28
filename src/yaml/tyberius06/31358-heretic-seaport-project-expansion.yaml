@@ -44,6 +44,9 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261d7f66d1e_expINDYard07c.jpg.17f38630d39facc4f8b1ee8e709d8865.jpg
 # Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below,
 # except the Maxis props and textures.
+# All PEG CDK3 dependencies come from the PEG CDK3 Collection, which supersedes the separate STEX uploads (confirmed by Tyberius06). The old upload of
+# the Rail Fleet is byte-identical to the file in the collection, so peg:cdk3-sp-rail-fleet is overridden to the collection, and the SUPER PAK
+# no longer pulls in the old CDK3 Vehicle Pack 1, which it already contains in an updated version.
 # Deviations from the dependency list of the original description:
 #   - peg:cdk3-master-seaport-controller is not a dependency: none of the lots references a prop of it
 #   - the CDK3 resource files of the Pier One, the Vandy Shipping and the Capt Jacks Landing packages are not referenced by any lot, so they are not needed.
