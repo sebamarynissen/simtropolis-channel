@@ -69,7 +69,8 @@ info:
 #   - the included Heretic-JES_Freight_Railcar_prop_families_v1.dat overlaps 28 of its 34 TGIs with the JES family dat of the Heretic Essentials,
 #     but the families 0x5f85f101, 0x5f85f102 and 0x5f85f104 are only in the Heretic Essentials
 #   - the three functional seaports of the ZZZZ_PEG SEAPORTS folder are in a separate package
-#   - the unresolved prop 0x073d48b2 of the Pier Seaport is also unresolved in the original PEG Pier Seaport
+#   - the prop 0x073d48b2 (a worker figure) of the functional Pier Seaport is only in peg:mtp-logging-resource, peg:oww2-resource-pack-vol01 and
+#     peg:oww2-resource-pack-vol02; none of these is a dependency of the original PEG Pier Seaport either. It is not used by the other lots.
 dependencies:
   - simmer2:rrw-nsb-tex
   - simmer2:rrw-legacy-lottex-mega-texture-pack
@@ -134,6 +135,7 @@ dependencies:
   - peg:cdk3-sp-rail-fleet
   - peg:cdk3-sp-container-ship-fleet
   - peg:security-fencing-kit
+  - peg:mtp-logging-resource
   - simmer2:rrw-nsb-tex
 assets:
   - assetId: tyberius06-heretic-seaport-project
