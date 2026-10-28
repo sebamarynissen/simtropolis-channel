@@ -1,8 +1,32 @@
 group: deadwoods
 name: dedwd-sunken-plazas-mall-set
 version: "1.00"
-subfolder: 300-commercial
+subfolder: 660-parks
 info:
+  summary: Series of sunken plaza lots that can be strung together into a subterranean mall
+  description: |-
+    This pack contains a series of sunken plaza lots. These subterranean malls are found in many cities, often connecting subways.
+
+    There are five lots in the set; one with a set of stairs/escalators leading down to the mall, two open (one with jobs), and two with a pyramidal glass roof over the mall (again one with jobs). You can string these together to create a mall.
+
+    Apart from the two lots with jobs, these are merely eye-candy, modded the same as the Maxis plazas. The two lots with jobs must be placed beside a network tile (e.g. street, road) otherwise you will get no-job zots.
+
+    These lots are BSC Tracking Enabled (BTE) which means they may contribute to Reward Chains.
+
+    **Lot specs**
+    - Lot size: 1x1
+    - Plop cost: §90
+    - Bulldoze cost: §10
+    - Monthly cost: §10 (maintenance)
+    - Occupant groups: Building: Civic, Building: Park, BTE: Parks, BTE: DW Lot Counter
+    - Power consumption: 0 MWh/month
+    - Water consumption: 0 gallons/month
+    - Air pollution: 0 over 0 tiles
+    - Water pollution: 0 over 0 tiles
+    - Garbage pollution: 1 over 0 tiles
+    - Demand satisfied: R$ 1000, R$$ 1000, R$$$ 1000
+    - Landmark effect: 50 over 15 tiles
+    - Park effect: 25 over 15 tiles
   author: deadwoods
   website: https://community.simtropolis.com/files/file/16977-dedwd-sunken-plazas-mall-set/
   images:
