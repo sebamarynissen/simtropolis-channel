@@ -1,0 +1,62 @@
+---
+assetId: caspervg-scd3d11
+version: "0.3.2"
+lastModified: "2026-10-28T13:45:24Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37687-scd3d11-dll/?do=download"
+url: "https://github.com/caspervg/scd3d11/releases/download/v0.3.2/SCD3D11-v0.3.2.zip"
+
+
+---
+group: "caspervg"
+name: "scd3d11"
+version: "0.3.2"
+subfolder: "150-mods"
+dependencies:
+  - "config:sc4-edition-windows-digital"
+
+assets:
+- assetId: "caspervg-scd3d11"
+  withChecksum:
+  - include: "/SCD3D11.dll"
+    sha256: FBF0770A214BF8EC08C1F9BEA98C7A20A0D84FF5E0C2C3B1EA3BED9A8BE74885
+  - include: "/SCD3D11.ini"
+    sha256: CBC399AF7293B2A2C381815EA2115D13A55512B3928D23165772E1D19A27A2F8  
+    isIni: true    
+    
+info:
+  summary: "A DLL plugin that enables DirectX 11 in SimCity 4, improving performance and stability"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+    SCD3D11 replaces SimCity 4's old DirectX 7 hardware renderer with a modern DirectX11 one. Your cities look the way they always have, but the game now draws through the graphics path that today's video cards, drivers and Windows versions are built and tested for. 
+    
+    **Why use it?**
+    
+    * Built for modern hardware. DirectX 7 has been deprecated for twenty years and gets little attention in current drivers. Direct3D 11 is fully supported on every recent GPU. 
+    
+    * Higher performance. You should see significant performance improvements over the default DirectX 7 renderer or dgVoodoo and other DX wrappers. 
+    
+    * Borderless fullscreen. Play fullscreen in a window that covers the whole monitor, so Alt+Tab is quick and other windows can sit on top of the game. 
+    
+    * High resolutions. Runs at any resolution you give SC4, 4K included.
+    
+    * The right GPU on laptops. On laptops with both an integrated and a dedicated graphics card, SCD3D11 picks the fast one automatically. 
+    
+    * Better ReShade. ReShade effects are applied to the city only, so the menus and info windows stay sharp. Depth effects such as ambient occlusion, depth of field and fog work straight away, with no depth buffer setup. 
+    
+    * Optional live shadows. Real shadows cast along SC4's own sun. Buildings, trees, props and network pieces shade each other, and hills shade the land behind them. Off by default because it costs some frame rate. 
+    
+    * Safer region thumbnails. Switching away from the game while it saves no longer leaves a blank city thumbnail in the region view. 
+    
+    * Nothing to configure to get started. The game picks SCD3D11 up by itself. No launch switches are needed, and removing two files puts everything back the way it was. 
+    
+  author: "caspervg"
+  websites: 
+    - https://community.simtropolis.com/files/file/37687-scd3d11-dll/
+
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/SCD3D11-logo.png.9d27a19c1712490c1a549d1600774def.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/image4-reshade.jpg.2f6db117596854e2de5d8a11674781aa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/image3-reshade.jpg.73df02eb1180b83d89741b30e80b666e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/image.jpg.9f1807ec654e7a5c064adeeca780246c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/image2.jpg.326e25982a2952aff8313d49b53908fe.jpg
+
