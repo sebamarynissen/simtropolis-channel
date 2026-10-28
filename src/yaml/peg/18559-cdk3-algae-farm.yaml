@@ -1,6 +1,6 @@
 group: peg
 name: cdk3-algae-farm
-version: "1.0"
+version: "1.0-1"
 subfolder: 410-agriculture
 info:
   summary: Provides IR jobs ... and products for Wyle E Coyote and friends.
@@ -30,8 +30,27 @@ info:
     - https://www.simtropolis.com/objects/screens/0015/80aa9711a5879932206ad93c5184cc39-product_image2.jpg
 dependencies:
   - peg:cdk3-super-pak
+  - peg:cdk3-algae-farm-resource
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
       - "/PEG-CDK3_AlgaeFarm.dat"
+
+---
+group: peg
+name: cdk3-algae-farm-resource
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Resources for `pkg=peg:cdk3-algae-farm`
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/18559-peg-cdk3-algae-farm/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/80aa9711a5879932206ad93c5184cc39-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0015/80aa9711a5879932206ad93c5184cc39-product_image2.jpg
+dependencies:
+  - peg:cdk3-super-pak
+assets:
+  - assetId: stex-custodian-pegasus-cdk3-collection
+    include:
       - "/PEG-CDK3_AlgaeFarm_RESOURCE.dat"
