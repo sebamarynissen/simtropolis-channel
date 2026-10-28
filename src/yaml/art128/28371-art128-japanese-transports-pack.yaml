@@ -46,12 +46,12 @@ info:
 # The original description lists Catenary Essentials and Rail Catenary Mod V3 HD (only Catenary_Prop_exemplar_for_rail.dat) by Plundere;
 # its first link points to the V3 upload, but the essentials are upload 21934. Both are needed by the Electric stations.
 # The overpass and the airport lots have no dependencies.
-# TODO: add the dependency on the uki catenary models once they are packaged
 # TODO: the Mitaki readme also lists the SC4D LEX Legacy Ultimate Airport Pack as dependency
 dependencies:
   - art128:japanese-transports-pack-model
   - plundere:catenary-essentials
   - plundere:rail-catenary-mod-v3-hd-version-resources
+  - uki-sim:japanese-style-catenary-mod-model
   - porkissimo:jenx-porkie-expanded-porkie-props
   - rdg:prop-pack-1
   - neko:prop-set-vol02

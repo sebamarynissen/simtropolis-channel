@@ -1,0 +1,62 @@
+group: uki-sim
+name: japanese-style-catenary-mod
+version: "1.0.0"
+subfolder: 900-overrides
+info:
+  summary: Japanese-style catenary mod for overground railways
+  description: |-
+    A Japanese-style catenary mod for overground railways, by uki.
+
+    It adds catenaries to the default rail network and to the NAM overground railways, including elevated lines (except Y-junctions).
+
+    Already laid lines are electrified naturally if you re-lay the track every few blocks, or when a change occurs in a lot adjacent to the track.
+
+    **File configuration**
+
+    - `uki_SC4_Rail_Catenaries.dat`: catenary configuration file for the default rail network
+    - `uki_NAM_Rail_Catenaries.dat`: catenary configuration file for NAM (except Y-junctions)
+    - `uki_Catenary_MetalPylonRailBridge.dat`: catenary configuration file for the Metal Pylon Rail Bridge
+    - `Model`: catenary model files, see `pkg=uki-sim:japanese-style-catenary-mod-model`
+
+    **Special thanks**
+
+    The base model for the catenary posts of this mod is the one by "USO800 Railway": USO800 Railway blog, "SPLINE Production Record 2: Overhead Line Posts and Overhead Lines".
+
+    **Note:** this is a preservation upload of a mod that uki originally posted on March 24, 2012, at [https://uki-sim.seesaa.net/article/259839686.html](https://uki-sim.seesaa.net/article/259839686.html). The catenary models of this mod are a dependency of other custom content (such as the Art128 Japanese Transports Pack), and hosting them on the STEX makes them much easier to integrate in sc4pac, the SimCity 4 package manager. The files are unchanged. The description above is based on a Google Translate of the original Japanese description.
+  conflicts: Conflicts with the other catenary mod for the rail network, Rail Catenary Mod V3 HD by Plundere.
+  author: uki
+  website: https://community.simtropolis.com/files/file/37686-uki-sim-japanese-style-catenary-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/uki_Catenary05-thumbnail2.jpg.8afe224140bf600abd014cdfd77e6b3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/uki_Catenary06-thumbnail2.jpg.8e2a53b0b0822fbda28fa8953250c6ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/uki_Catenary00-thumbnail2.jpg.52334d49b6ce41f29743606071d5591a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/uki_Catenary03-thumbnail2.jpg.2a9a55259d761ccb6784486b60864b20.jpg
+dependencies:
+  - uki-sim:japanese-style-catenary-mod-model
+  - nam:network-addon-mod
+conflicting:
+  - plundere:rail-catenary-mod-v3-hd-version
+assets:
+  - assetId: uki-sim-japanese-style-catenary-mod
+    exclude:
+      - "/Model/"
+
+---
+group: uki-sim
+name: japanese-style-catenary-mod-model
+version: "1.0.0"
+subfolder: 110-resources
+info:
+  summary: Catenary models and props of `pkg=uki-sim:japanese-style-catenary-mod`
+  author: uki
+  website: https://community.simtropolis.com/files/file/37686-uki-sim-japanese-style-catenary-mod/
+assets:
+  - assetId: uki-sim-japanese-style-catenary-mod
+    include:
+      - "/Model/"
+
+---
+assetId: uki-sim-japanese-style-catenary-mod
+version: "1.0.0"
+lastModified: "2026-10-28T07:54:30Z"
+url: https://community.simtropolis.com/files/file/37686-uki-sim-japanese-style-catenary-mod/?do=download
