@@ -37,6 +37,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_09/5baf5e1abd5ee_HereticGLRStationandTerminusPackv.2-r.jpg.21de465ea9b2a2c8db478e315aec8a7e.jpg
 # The lots Kitsune LD GLR Terminus and Redfox84 LD GLR Terminus Island-type use the building-as-props exemplar of the Cogeo GLR Wheel Stop (0xd8f11522),
 # which is only included in pack v.1, so the resources of that pack are a dependency. Its model is in cogeo:glr-stations-and-hubs-model.
+# Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below
+# (prop families come from the Heretic Essentials and Tamorr's Resource), except the Maxis textures 0x258d1000 and 0x258f2000.
 # Mapping of the dependencies of the original description:
 #   - WMP AD Station Props, WMP Power Props 01: wmp:mega-props-vol01 and wmp:mega-props-vol05
 #   - RDQ HD Prop Pack: reddonquixote:prop-pack
