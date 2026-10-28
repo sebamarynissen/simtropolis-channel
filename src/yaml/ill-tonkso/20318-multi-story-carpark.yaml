@@ -21,25 +21,12 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0002/07b58fe30dcc7a8bc97215e366c193a2-carparkday.jpg
     - https://www.simtropolis.com/objects/screens/0002/07b58fe30dcc7a8bc97215e366c193a2-carparknight.jpg
+# The model of this upload is identical to the one in NDEX ITS MEGA Props Vol05, which is part of ndex:its-mega-pack-vol05 (only the BAT thumbnails of the model are stripped there).
 dependencies:
-  - ill-tonkso:multi-story-carpark-model
+  - ndex:its-mega-pack-vol05
 assets:
   - assetId: ill-tonkso-ndex-its-multi-story-carpark
     exclude:
-      - "\\.SC4Model$"
-
----
-group: ill-tonkso
-name: multi-story-carpark-model
-version: "1.0"
-subfolder: 110-resources
-info:
-  summary: Model dependency for `pkg=ill-tonkso:multi-story-carpark`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/20318-ndex-its-multi-story-carpark/
-assets:
-  - assetId: ill-tonkso-ndex-its-multi-story-carpark
-    include:
       - "\\.SC4Model$"
 
 ---

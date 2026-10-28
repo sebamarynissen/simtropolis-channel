@@ -18,25 +18,12 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0009/471363b6daa8a221faaef13b386f3be4-Tramochangeday.jpg
     - https://www.simtropolis.com/objects/screens/0009/471363b6daa8a221faaef13b386f3be4-Tramochangenight.jpg
+# The model of this upload is identical to the one in NDEX ITS MEGA Props Vol15, which is part of ndex:its-mega-pack-vol15 (only the BAT thumbnails of the model are stripped there).
 dependencies:
-  - ill-tonkso:bsc-its-glr-tramway-interchange-station-model
+  - ndex:its-mega-pack-vol15
 assets:
   - assetId: ill-tonkso-bsc-its-glr-tramway-interchange-station
     exclude:
-      - "\\.SC4Model$"
-
----
-group: ill-tonkso
-name: bsc-its-glr-tramway-interchange-station-model
-version: "1.0b"
-subfolder: 110-resources
-info:
-  summary: Model dependency for `pkg=ill-tonkso:bsc-its-glr-tramway-interchange-station`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/14020-bsc-its-glr-tramway-interchange-station/
-assets:
-  - assetId: ill-tonkso-bsc-its-glr-tramway-interchange-station
-    include:
       - "\\.SC4Model$"
 
 ---
