@@ -69,8 +69,28 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0009/49368ca4b70cea4db62fec611b9b4b78-entranceDay.jpg
     - https://www.simtropolis.com/objects/screens/0009/49368ca4b70cea4db62fec611b9b4b78-entranceNight.jpg
+dependencies:
+  - andisart:sunken-lots-pack-model
 assets:
   - assetId: andisart-sunken-lots-pack
+    exclude:
+      - "\\.SC4Model$"
+      - "_PROP-0x6534284a-"
+
+---
+group: andisart
+name: sunken-lots-pack-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=andisart:sunken-lots-pack`
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/21074-sunken-lots-pack/
+assets:
+  - assetId: andisart-sunken-lots-pack
+    include:
+      - "\\.SC4Model$"
+      - "_PROP-0x6534284a-"
 
 ---
 assetId: andisart-sunken-lots-pack
