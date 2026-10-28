@@ -1,0 +1,37 @@
+group: dcmetro34
+name: greenbelt-metrorail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  author: DCMetro34
+  website: https://community.simtropolis.com/files/file/26764-greenbelt-metrorail-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/31ce08c4091d1fab8f1b3c2d1c75808e-agreenbelt---zoom-5.jpg
+dependencies:
+  - dcmetro34:greenbelt-metrorail-station-model
+assets:
+  - assetId: dcmetro34-greenbelt-metrorail-station
+    exclude:
+      - "\\.SC4Model$"
+      - "/greenbelt sign-0x6534284a-"
+
+---
+group: dcmetro34
+name: greenbelt-metrorail-station-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=dcmetro34:greenbelt-metrorail-station`
+  author: DCMetro34
+  website: https://community.simtropolis.com/files/file/26764-greenbelt-metrorail-station/
+assets:
+  - assetId: dcmetro34-greenbelt-metrorail-station
+    include:
+      - "\\.SC4Model$"
+      - "/greenbelt sign-0x6534284a-"
+
+---
+assetId: dcmetro34-greenbelt-metrorail-station
+version: "1.0"
+lastModified: "2011-09-12T00:30:03Z"
+url: https://community.simtropolis.com/files/file/26764-greenbelt-metrorail-station/?do=download

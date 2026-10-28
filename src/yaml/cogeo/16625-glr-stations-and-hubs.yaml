@@ -1,0 +1,51 @@
+group: cogeo
+name: glr-stations-and-hubs
+version: "1.0"
+subfolder: 700-transit
+info:
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/1ec525ce979cc4e5c2860cd666bd6ef1-stgleft.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/352bf3d7328417c12b2eeb181ee4ddb4-stgright.jpg
+dependencies:
+  - cogeo:glr-stations-and-hubs-model
+  - cogeo:semitransparent-train-station-models
+  - bsc:textures-vol01
+  - bsc:mega-props-sg-vol01
+  - nam:network-addon-mod
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: cogeo-glr-stations-and-hubs
+        exclude:
+          - "\\.SC4Model$"
+          - "/Install_UK_PathingPatch\\.exe$"
+  - variant: { driveside: left }
+    assets:
+      - assetId: cogeo-glr-stations-and-hubs
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: cogeo
+name: glr-stations-and-hubs-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=cogeo:glr-stations-and-hubs`
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/
+assets:
+  - assetId: cogeo-glr-stations-and-hubs
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: cogeo-glr-stations-and-hubs
+version: "1.0"
+lastModified: "2006-08-13T10:59:04Z"
+url: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"
