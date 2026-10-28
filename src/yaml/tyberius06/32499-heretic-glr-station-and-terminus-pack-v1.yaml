@@ -3,11 +3,47 @@ name: heretic-glr-station-and-terminus-pack-v1
 version: "2"
 subfolder: 700-transit
 info:
+  summary: Nine GLR terminus lots, combined with bus and subway stations
+  description: |-
+    Let me introduce you to the **Heretic GLR Station and Terminus Pack v.1**.
+    With this first release I bring NINE new GLR terminuses to your cities. These lots have different capacities, but all of them function as a GLR station and, in addition, as a bus station and/or subway station.
+
+    **List of items**
+    - 1x9 Periam Street Greenbelt GLR Terminus with 12 jobs and 30000 passenger capacity.
+    - 1x7 Hearth Street Sukamoto GLR Terminus with 8 jobs and 20000 passenger capacity.
+    - 12x1 Spartan Square Mitaki GLR Terminus with 15 jobs and 33000 passenger capacity.
+    - 1x12 Woodbelt Muroran GLR Terminus with 10 jobs and 30000 passenger capacity.
+    - 6x1 Comrade Place Small GLR Terminus with 10 jobs and 15000 passenger capacity.
+    - 2x8 Cosham Downtown Old GLR Terminus with 650 jobs and 50000 passenger capacity.
+    - 2x6 The Spire Luas GLR Terminus with 20 jobs and 35000 passenger capacity.
+    - 1x1 GLR Zebra Crossing with 400000 passenger capacity to ensure automata functionality, but there is NOT any transit connection with other networks such as bus, car or pedestrians.
+    - 1x1 GLR Cross-over-Switch with 400000 passenger capacity to ensure automata functionality, but there is NOT any transit connection with other networks such as bus, car or pedestrians.
+
+    The split GLR track paths are available for right-hand and left-hand drive. Choose the `driveside` variant that matches your game.
+
+    **Credits & special thanks**
+
+    Thanks everybody for the help and support!
+    - **Nick (Simmer2)** - for awesome new props and models, some of them were made on request, and for making his two Mega Prop Packs, which make listing tons of dependencies easier.
+    - **Robin (MGB204/rsc204)** - GLR path files (RHD and LHD), texture overlays for the Sandstone GLR version.
+    - **Brian (b22rian)** - for testing very thoroughly all the stations and for the constant support.
+
+    And of course all the great creators (art128, ILL Tonkso, Nilo7, Glenni, SimCity4IE, gshmails and cogeo) of the models I used for this project, who gave the inspiration to make these stations.
+
+    Have fun and enjoy!
+
+    - Tyberius06
   author: Tyberius06
   website: https://community.simtropolis.com/files/file/32499-heretic-glr-station-and-terminus-pack-v1/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9bb8a56af28_HereticGLRStationandTerminusPackv_1day.jpg.a068d50fa467e80c9057f1abfb288523.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9bb8a7bf583_HereticGLRStationandTerminusPackv.1night.jpg.e26dba255fe8c6fdc5971f00b0b37c1d.jpg
+# Mapping of the dependencies of the original description:
+#   - WMP AD Station Props, WMP Station Prop Pack, WMP Power Props 01: wmp:mega-props-vol01 and wmp:mega-props-vol05
+#   - RDQ HD Prop Pack: reddonquixote:prop-pack
+#   - Track Textures for Cogeo GLR Stations (Ebina): not needed, the textures are part of NAM 50
+#   - Building-as-props dependencies: only their models are needed (the -model and -resources packages below)
+#   - z____MGB Mods (override for MGB's SEN/SWN mod) is not installed, as that mod is not in the channel
 dependencies:
   - wmp:mega-props-vol01
   - wmp:mega-props-vol05
