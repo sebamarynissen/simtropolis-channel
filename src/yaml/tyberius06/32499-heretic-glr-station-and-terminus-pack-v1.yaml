@@ -39,8 +39,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9bb8a56af28_HereticGLRStationandTerminusPackv_1day.jpg.a068d50fa467e80c9057f1abfb288523.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9bb8a7bf583_HereticGLRStationandTerminusPackv.1night.jpg.e26dba255fe8c6fdc5971f00b0b37c1d.jpg
 # Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below
-# (prop families come from the Heretic Essentials and Tamorr's Resource), except the Maxis texture 0x258f2000, the prop 0x2cb00000
-# and the textures 0xf8a043c0, 0xf8a044a0 and 0xf8a0512a (the latter are expected in supershk:mega-parking-textures, not yet verified).
+# (prop families come from the Heretic Essentials and Tamorr's Resource), except the Maxis texture 0x258f2000 and the prop 0x2cb00000.
+# The textures 0xf8a043c0, 0xf8a044a0 (SuperSHK_Islands&Paths&Curbs.dat) and 0xf8a0512a (SuperSHK_Markings.dat) are in supershk:mega-parking-textures.
 # Mapping of the dependencies of the original description:
 #   - WMP AD Station Props, WMP Station Prop Pack, WMP Power Props 01: wmp:mega-props-vol01 and wmp:mega-props-vol05
 #   - RDQ HD Prop Pack: reddonquixote:prop-pack
