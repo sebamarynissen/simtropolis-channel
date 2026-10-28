@@ -68,6 +68,7 @@ dependencies:
   - simcity4ie:suburban-luas-glr-station-model
   - dcmetro34:greenbelt-metrorail-station-model
   - glenni:modern-oslo-t-bane-station-model
+  - tyberius06:heretic-glr-station-and-terminus-pack-v1-resources
 variants:
   - variant: { driveside: right }
     assets:
@@ -75,11 +76,27 @@ variants:
         exclude:
           - "/z____MGB Mods/"
           - "/zMGBs Split GLR tracks LHD paths\\.zip$"
+          - "/GLR Station Pack v1 BaPs examplars\\.dat$"
   - variant: { driveside: left }
     assets:
       - assetId: tyberius06-heretic-glr-station-and-terminus-pack-v1
         exclude:
           - "/z____MGB Mods/"
+          - "/GLR Station Pack v1 BaPs examplars\\.dat$"
+
+---
+group: tyberius06
+name: heretic-glr-station-and-terminus-pack-v1-resources
+version: "2"
+subfolder: 110-resources
+info:
+  summary: Building-as-props exemplars of `pkg=tyberius06:heretic-glr-station-and-terminus-pack-v1`
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/32499-heretic-glr-station-and-terminus-pack-v1/
+assets:
+  - assetId: tyberius06-heretic-glr-station-and-terminus-pack-v1
+    include:
+      - "/GLR Station Pack v1 BaPs examplars\\.dat$"
 
 ---
 assetId: tyberius06-heretic-glr-station-and-terminus-pack-v1
