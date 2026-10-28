@@ -35,25 +35,9 @@ info:
     - https://www.simtropolis.com/objects/screens/0002/07d445e49687a12af6d3614da2641eff-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0002/07d445e49687a12af6d3614da2641eff-product_image2.jpg
 dependencies:
-  - peg:cdkm-marina-resources
   - peg:mtp-super-pack
 assets:
   - assetId: stex-custodian-pegasus-cdk3-collection
     include:
       - "/PEG-CDK3-M_MarinaMain.dat"
-
----
-group: peg
-name: cdkm-marina-resources
-version: "1.0"
-subfolder: 110-resources
-info:
-  summary: Resources dependency for `pkg=peg:cdkm-marina`
-  author: Pegasus
-  website: https://community.simtropolis.com/files/file/18747-peg-cdkm-marina/
-dependencies:
-  - peg:mtp-super-pack
-assets:
-  - assetId: stex-custodian-pegasus-cdk3-collection
-    include:
       - "/PEG-CDK3-M_SUPER_PAK_RESOURCE.dat"

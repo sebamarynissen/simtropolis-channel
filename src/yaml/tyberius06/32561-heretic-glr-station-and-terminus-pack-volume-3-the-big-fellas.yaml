@@ -37,6 +37,10 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bcb855081863_HereticGLRStationandTerminusPackv.3-d.jpg.7d6966182f750847997c2fe8e3be0f0c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bcb8552755dc_HereticGLRStationandTerminusPackv.3-n.jpg.67e069990c0ced3ce0da7bf4e93ec068.jpg
+# Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below
+# (prop families come from the Heretic Essentials, nos17 Essentials and Tamorr's Resource), except the Maxis props 0x1dff0000, 0x1f000000 and 0x1f010000,
+# the Maxis textures 0x258d1000 and 0x258f2000, and the families 0x5f85f125, 0x5f85f126 and 0x5f85f127 (not in any package, probably from another
+# version of the Heretic Essentials).
 # Mapping of the dependencies of the original description:
 #   - WMP AD Station Props, WMP Station Prop Pack, WMP Power Props 01: wmp:mega-props-vol01 and wmp:mega-props-vol05
 #   - RDQ HD Prop Pack: reddonquixote:prop-pack

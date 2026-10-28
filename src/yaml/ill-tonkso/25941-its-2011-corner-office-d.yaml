@@ -19,14 +19,11 @@ info:
 #   - jenx-porkie-expanded-porkie-props: 0x0ee63b05 (PK-tree01-summer), 0x2ee5cfda (PK-tree01-fall), 0xaee63b1c (PK-tree01-winter),
 #     0x0ee5b477 (PK-bench01) and 0x2eed8765 (PK-chaine) in both lots; 0x2ef18820 (PK-portail), 0x6ef30071 (PK-affichette01) and
 #     0xaef363c7 (PK-affichette02) in the plop lot; 0x4bcbc904 (PK-affichette01) and 0x94a2a099 (PK-affichette02) in the growable lot
-#   - rdg:prop-pack-1: 0x2ab60000 (RDG_Aper2x2x4_businessPeople_maleIdle) and 0x2ab70000 (..._femaleIdle) in the growable lot
-#   - peg:cdkm-marina-resources: 0x296f0000 (ARWStateFair4x4x4_smallmilling_1E9A) in both lots
+# The props 0x2ab60000, 0x2ab70000 and 0x296f0000 are Maxis props (also overridden by RDG Prop Pack 1 and PEG CDKM Marina), so they are not a dependency.
 # The base texture 0x258f2000 is a Maxis texture (overridden by gobias:sidewalk-mod), so it is not a dependency.
 dependencies:
   - ill-tonkso:its-2011-corner-office-d-model
   - porkissimo:jenx-porkie-expanded-porkie-props
-  - rdg:prop-pack-1
-  - peg:cdkm-marina-resources
 assets:
   - assetId: ill-tonkso-its-2011-corner-office-d
     exclude:

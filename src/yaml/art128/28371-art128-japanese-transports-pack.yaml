@@ -47,13 +47,13 @@ info:
 # its first link points to the V3 upload, but the essentials are upload 21934. Both are needed by the Electric stations.
 # The overpass and the airport lots have no dependencies.
 # TODO: the Mitaki readme also lists the SC4D LEX Legacy Ultimate Airport Pack as dependency
+# The Mitaki props 0x2ab60000 and 0x2ab70000 are Maxis props (also overridden by RDG Prop Pack 1), so they are not a dependency.
 dependencies:
   - art128:japanese-transports-pack-model
   - plundere:catenary-essentials
   - plundere:rail-catenary-mod-v3-hd-version-resources
   - uki-sim:japanese-style-catenary-mod-model
   - porkissimo:jenx-porkie-expanded-porkie-props
-  - rdg:prop-pack-1
   - neko:prop-set-vol02
   - sfbt:kenworth-royal-railway-props
   - wmp:mega-textures
