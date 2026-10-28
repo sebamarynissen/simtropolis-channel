@@ -21,26 +21,13 @@ info:
 #     0xaef363c7 (PK-affichette02) in the plop lot; 0x4bcbc904 (PK-affichette01) and 0x94a2a099 (PK-affichette02) in the growable lot
 # The props 0x2ab60000, 0x2ab70000 and 0x296f0000 are Maxis props (also overridden by RDG Prop Pack 1 and PEG CDKM Marina), so they are not a dependency.
 # The base texture 0x258f2000 is a Maxis texture (overridden by gobias:sidewalk-mod), so it is not a dependency.
+# The model of this upload is identical to the one in NDEX ITS MEGA Props Vol05, which is part of ndex:its-mega-pack-vol05 (only the BAT thumbnails of the model are stripped there).
 dependencies:
-  - ill-tonkso:its-2011-corner-office-d-model
+  - ndex:its-mega-pack-vol05
   - porkissimo:jenx-porkie-expanded-porkie-props
 assets:
   - assetId: ill-tonkso-its-2011-corner-office-d
     exclude:
-      - "\\.SC4Model$"
-
----
-group: ill-tonkso
-name: its-2011-corner-office-d-model
-version: "1.0"
-subfolder: 110-resources
-info:
-  summary: Model dependency for `pkg=ill-tonkso:its-2011-corner-office-d`
-  author: ILL Tonkso
-  website: https://community.simtropolis.com/files/file/25941-its-2011-corner-office-d/
-assets:
-  - assetId: ill-tonkso-its-2011-corner-office-d
-    include:
       - "\\.SC4Model$"
 
 ---

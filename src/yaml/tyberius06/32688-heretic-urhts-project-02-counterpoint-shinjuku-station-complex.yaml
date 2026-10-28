@@ -77,7 +77,7 @@ dependencies:
 variants:
   - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: heretic }
     dependencies:
-      - ill-tonkso:its-2011-vantage-metro-central-model
+      - ndex:its-mega-pack-vol05
       - jp-schriefer:failing-office-building-model
     assets:
       - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
@@ -94,7 +94,7 @@ variants:
           - "/PLOP_10x15_Heretic Shinjuku Station East_d8e61512\\.SC4Lot$"
   - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: both }
     dependencies:
-      - ill-tonkso:its-2011-vantage-metro-central-model
+      - ndex:its-mega-pack-vol05
       - jp-schriefer:failing-office-building-model
       - art128:japanese-buildings-compilation-model
       - kei-jpn:mizuho-bank-branch-model
