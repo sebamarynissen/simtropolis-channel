@@ -45,6 +45,24 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a28f80984d63_SBLegend.png.9d87b8c8b60e50846bfffa6c389410cd.png
 assets:
   - assetId: simmer2-concrete-sound-barriers
+    exclude:
+      - "/SM2 CSB_props\\.dat$"
+dependencies:
+  - simmer2:concrete-sound-barriers-resources
+
+---
+group: simmer2
+name: concrete-sound-barriers-resources
+version: "4.0.0"
+subfolder: 110-resources
+info:
+  summary: Props of `pkg=simmer2:concrete-sound-barriers`
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32025-sm2-concrete-sound-barriers/
+assets:
+  - assetId: simmer2-concrete-sound-barriers
+    include:
+      - "/SM2 CSB_props\\.dat$"
 
 ---
 assetId: simmer2-concrete-sound-barriers

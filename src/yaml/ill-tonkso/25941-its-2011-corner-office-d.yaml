@@ -1,0 +1,53 @@
+group: ill-tonkso
+name: its-2011-corner-office-d
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Generic modern W2W office/retail set
+  description: |-
+    A generic modern W2W office/retail set.
+
+    Ploppable and Growable: CS$$ 500
+
+    Plop Cost: £3,000
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25941-its-2011-corner-office-d/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/056027a282d2f03b9869b0aa8b64d82c-cornerdday.jpg
+    - https://www.simtropolis.com/objects/screens/0015/819165c6a2a6de10654e9bd4ae4e3423-cornerdnight.jpg
+# The original upload lists no dependencies. The props used by the lots (lot configuration IDs) come from:
+#   - jenx-porkie-expanded-porkie-props: 0x0ee63b05 (PK-tree01-summer), 0x2ee5cfda (PK-tree01-fall), 0xaee63b1c (PK-tree01-winter),
+#     0x0ee5b477 (PK-bench01) and 0x2eed8765 (PK-chaine) in both lots; 0x2ef18820 (PK-portail), 0x6ef30071 (PK-affichette01) and
+#     0xaef363c7 (PK-affichette02) in the plop lot; 0x4bcbc904 (PK-affichette01) and 0x94a2a099 (PK-affichette02) in the growable lot
+#   - rdg:prop-pack-1: 0x2ab60000 (RDG_Aper2x2x4_businessPeople_maleIdle) and 0x2ab70000 (..._femaleIdle) in the growable lot
+#   - peg:cdkm-marina-resources: 0x296f0000 (ARWStateFair4x4x4_smallmilling_1E9A) in both lots
+# The base texture 0x258f2000 is a Maxis texture (overridden by gobias:sidewalk-mod), so it is not a dependency.
+dependencies:
+  - ill-tonkso:its-2011-corner-office-d-model
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - rdg:prop-pack-1
+  - peg:cdkm-marina-resources
+assets:
+  - assetId: ill-tonkso-its-2011-corner-office-d
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: ill-tonkso
+name: its-2011-corner-office-d-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=ill-tonkso:its-2011-corner-office-d`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25941-its-2011-corner-office-d/
+assets:
+  - assetId: ill-tonkso-its-2011-corner-office-d
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-its-2011-corner-office-d
+version: "1.0"
+lastModified: "2011-03-03T20:05:45Z"
+url: https://community.simtropolis.com/files/file/25941-its-2011-corner-office-d/?do=download
