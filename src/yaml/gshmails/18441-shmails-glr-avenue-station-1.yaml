@@ -1,0 +1,39 @@
+group: gshmails
+name: shmails-glr-avenue-station-1
+version: "1.0"
+subfolder: 700-transit
+info:
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/812b5ab4b337a75baafe1a37a8380a7e-ShmailsGLRAvenue1a.jpg
+    - https://www.simtropolis.com/objects/screens/0015/812b5ab4b337a75baafe1a37a8380a7e-ShmailsGLRAvenue1b1.jpg
+dependencies:
+  - gshmails:shmails-glr-avenue-station-1-model
+  - nam:network-addon-mod
+assets:
+  - assetId: gshmails-shmails-glr-avenue-station-1
+    exclude:
+      - "\\.SC4Model$"
+      - "\\.SC4Desc$"
+
+---
+group: gshmails
+name: shmails-glr-avenue-station-1-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=gshmails:shmails-glr-avenue-station-1`
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/
+assets:
+  - assetId: gshmails-shmails-glr-avenue-station-1
+    include:
+      - "\\.SC4Model$"
+      - "\\.SC4Desc$"
+
+---
+assetId: gshmails-shmails-glr-avenue-station-1
+version: "1.0"
+lastModified: "2007-07-19T11:42:21Z"
+url: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/?do=download
