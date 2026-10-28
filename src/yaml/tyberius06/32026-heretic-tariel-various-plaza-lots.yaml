@@ -1,0 +1,89 @@
+group: tyberius06
+name: heretic-tariel-various-plaza-lots
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: 21 medium and large plazas by Tyberius06 and Tariel
+  description: |-
+    **Background**
+
+    During one autumn I ran into a little problem in one of my cities. I needed some medium plazas with the dimensions of 2x3/3x2-3x4/4x3 and I couldn't find anything that I wasn't already using in my cities, so I came up with the idea of making some new lots. The original idea wasn't about a public release, since I don't have too much experience (nor too much motivation) with plazas and I wouldn't have wanted to waste too much time trying to make something which could be satisfying for everyone. But during the working process @tariely came up with some ideas and thoughts about nightlights (which is another thing I'm not interested in), so she got the files to put her touch on them. Later I combined the two sets, hers and mine, and here we are with this quite massive plaza set, which contains:
+
+    - 18 medium plazas (5 of 2x3, 5 of 3x2, 2 of 2x4, 4 of 3x4, 2 of 4x3)
+    - 3 larger plazas of 6x5
+
+    I modded the plaza effects such as pollution and things like this totally randomly, so don't look for any realism. I don't really care about the gameplay aspect that deeply, so they can be unbalanced, but if you notice some balancing problem, you will probably know how to fix it. Hint: the LE Prop or Reader tool are your friends. Of course, I'm open to any suggestion, and if you have accurate values for me on which numbers I should change for what, I can and will do it and update the upload.
+
+    The plaza plop costs vary according to the sets:
+    - Heretic (yep, that's me) 2x3/3x2 plazas: 400
+    - Heretic 3x4/4x3 plazas: 405
+    - Tariel 2x3/3x2 plazas: 410 (yep, they are more expensive, because they are admittedly nicer, less out of the box, than mine)
+    - Tariel 3x4/4x3 plazas: 415
+    - Heretic-Tariel 6x5 plazas: 500
+
+    You will find these lots in the Park menu.
+
+    Huge thanks to Tariel for her help on this project. All the nightlights are her work, so all credits on the night lights are hers! Also I would like to thank Tariel for her ideas and help on the lots, and for providing her versions for this set. The beautiful Heretic-TL 3x4 Med Virgin Mary Fountain Plaza lot is completely her vision, so all credit is hers!
+
+    Enjoy!
+
+    - Tyberius
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/32026-heretic-tariel-various-plaza-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a2859698a804_Heretic-TarielVariousPlazaLots.jpg.7520d39dcd930cdc3e8e6bd2f4cb917e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a285989b0edb_HereticGuardiansoftheFountainPlaza.jpg.058511abc4db2f7b234e4b5ea6aaadb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a28598b99635_TarielVirginMaryFountainPlaza.jpg.ef6d04f0d5e65312d9c1ac9fdd2bd2d4.jpg
+# Checked against the contents of all dependencies: every prop, family and texture referenced by the lots and by the included
+# "Building as Props examplars" dat resolves to the dependencies below, except the Maxis props and textures.
+# Deviations from the dependency list of the original description:
+#   - bsc:mega-props-cp-vol02 and neko:prop-set-vol01-part2 are not used
+#   - the NOB Ftexture is nob:texture-pack-vol01 (formerly FTextures.dat)
+#   - bsc:textures-vol02 (0xf0f040ca) and bsc:textures-vol03 (0xa5270000) are used but not listed in the readme
+#   - 0xdddd16a0 and 0xdddd2ba0 are textures of cp:scilt, which is available in many variants (every variant provides them)
+#   - the Heretic-Tariel Reflectoblob prop is a BaP that uses the Darknite model, which is only available in the Darknite
+#     variant of blunder:the-reflectoblob-model, so the prop is not visible with the Maxis night variant
+#   - the VIP vnaoned monuments pack provides the obelisk and the fountain models of the BaP examplars
+#   - WMP Power Props maps to wmp:mega-props-vol01 (only 0x993d9239 is used)
+#   - Tariel-Rivit's Essentials provides the light cones, and nothing else is needed from it
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - vip:vnaoned-props-pack-vol01
+  - bnl:dutch-prop-pack
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - girafe:lindens
+  - vip:delecto-ploppable-people
+  - reddonquixote:prop-pack
+  - murimk:props-vol02-mixed
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - nbvc:plazas-with-fountains-model
+  - tamorr:tamorrs-resource
+  - peg:mtp-super-pack
+  - blunder:the-reflectoblob-model
+  - blam-french-connections:garden-and-plaza-props
+  - neko:prop-set-vol01-part1
+  - neko:prop-set-vol02
+  - nob:texture-pack-vol01
+  - wmp:mega-props-vol01
+  - namspopof:nams-mega-props
+  - tariely:tariel-rivits-essentials
+  - ndex:textures-vol1
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - cp:scilt
+assets:
+  - assetId: tyberius06-heretic-tariel-various-plaza-lots
+
+---
+assetId: tyberius06-heretic-tariel-various-plaza-lots
+version: "1.1"
+lastModified: "2018-07-23T12:30:16Z"
+url: https://community.simtropolis.com/files/file/32026-heretic-tariel-various-plaza-lots/?do=download&r=171625

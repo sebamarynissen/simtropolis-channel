@@ -52,6 +52,9 @@ variantInfo:
         description: East wing v2 (Japanese style)
       - value: both
         description: Both versions of the east wing
+# Props 0xd895d443, 0x3a407a68, 0xb895d49d, 0xb895d4a9, 0x9895d4dd, 0x9895d4f2, 0x38967961 and 0x5895d42b are in the CityMax rail props.
+# Props 0x08f3af2a, 0xa8f62fee and 0xe8f6302b are in SM2 Mega Prop Pack Vol3.
+# Prop family 0x5f85d350 is in SM2 Essentials (SM2_Containers_90_Fam.dat), so all IDs resolve except the Maxis ones.
 dependencies:
   - tepodon:tky-shinjuku-station-east-wing-model
   - tepodon:tky-shinjuku-station-west-wing-model
