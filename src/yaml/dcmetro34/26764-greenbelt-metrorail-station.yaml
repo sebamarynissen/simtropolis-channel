@@ -3,12 +3,39 @@ name: greenbelt-metrorail-station
 version: "1.0"
 subfolder: 700-transit
 info:
+  summary: GLR station based on Greenbelt Metrorail Station in Greenbelt, Maryland
+  description: |-
+    **Greenbelt Metrorail Station**
+    BATted and MODDed by Nilo7
+    Tested by Mithokey
+
+    Please take a moment to read the following paragraph:
+
+    *This station is dedicated to the victims and families of the September 11, 2001 terrorist attacks, who will never be forgotten; as well as the courageous men and women that serve our country each and everyday in any form, they are what has kept and will keep this nation going.*
+
+    Greenbelt Metrorail Station is a GLR station based on Greenbelt Metrorail Station in Greenbelt, Maryland; one of the many stations on the DC Metro.
+
+    **Stats**
+    - Size: 1x8
+    - Capacity: 25,000
+    - Transit switch: .02
+    - Functions as: GLR station, landmark
+    - Jobs created: 10 R$ and 5 R$$
+    - Plop cost: 250
+    - Monthly cost: 100
+    - Bulldoze cost: 125
+    - Power required: 10
+    - Water required: 0
+    - Pollution: 0
+
+    *Special thanks to Blue Lightning, Meister1235, Redscope53, Xyloxadoria, and of course Tigerbuilder for answering lots of questions!*
   author: DCMetro34
   website: https://community.simtropolis.com/files/file/26764-greenbelt-metrorail-station/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2014/31ce08c4091d1fab8f1b3c2d1c75808e-agreenbelt---zoom-5.jpg
 dependencies:
   - dcmetro34:greenbelt-metrorail-station-model
+  - nam:network-addon-mod
 assets:
   - assetId: dcmetro34-greenbelt-metrorail-station
     exclude:
