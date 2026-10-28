@@ -26,7 +26,9 @@ info:
 # except the Maxis props and textures, and the following IDs:
 #   - 0x1a38ad7b, 0x3a2e9269, 0xba2e9288, 0x5a1acd02 and 0xda2260ab (the Murimk marina lots and the Punts Dock) are in
 #     murimk:waterfront-pack-3-rural-marina-resources (Murimk_Rural_Marina_Resource.dat)
-#   - TODO: 0x2a8a1b83, 0x2a94b0db and 0xaa8de815 (the waterfall lots) are not in any of the dependencies, nor in Paeng's Turbulences and Transitions
+#   - TODO: 0x2a8a1b83, 0x2a94b0db and 0xaa8de815 (the waterfall lots) are not in any of the dependencies, nor in Paeng's Turbulences and Transitions,
+#     the PEG Pond Kit (1.0.5 and II Deluxe), Stream Kit (1.0.5 and II Deluxe), Terrain Kit, CDK OWW Pond-Stream Transitions, RTK (1, 2 and Addon Set),
+#     PPond Culverts, River Park Set, Fishermans Wharf, Shore-Based Lighthouse, Seaport Village or Canals Tool Kit
 # Deviations from the dependency list of the original description:
 #   - peg:terrain-kit-7-n-1: only PEG-PP_Lot-Props_101.dat and PEG-PP_TerrainProps_Weeds_101.dat are used, so the individual packages are used
 #   - murimk:props-vol03-industrials (the resource of murimk:industrial-mmp) holds the props that are used
