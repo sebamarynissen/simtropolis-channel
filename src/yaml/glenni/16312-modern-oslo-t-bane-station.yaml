@@ -43,10 +43,27 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0026/ee63446aa89ecebe741c83b003f3e49f-t-banesteximg01.jpg
     - https://www.simtropolis.com/objects/screens/0026/ee63446aa89ecebe741c83b003f3e49f-t-banenightlight.jpg
+dependencies:
+  - glenni:modern-oslo-t-bane-station-model
 assets:
   - assetId: glenni-modern-oslo-t-bane-station
     exclude:
+     - "\\.SC4Model$"
      - "/TBane-UI.dat" # Malformed DBPF file (its a custom query)
+
+---
+group: glenni
+name: modern-oslo-t-bane-station-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=glenni:modern-oslo-t-bane-station`
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/16312-blam-modern-oslo-t-bane-station/
+assets:
+  - assetId: glenni-modern-oslo-t-bane-station
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: glenni-modern-oslo-t-bane-station
