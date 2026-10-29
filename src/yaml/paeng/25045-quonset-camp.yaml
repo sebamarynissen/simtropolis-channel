@@ -1,0 +1,39 @@
+group: paeng
+name: quonset-camp
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Quonset Camp
+  description: |-
+    This is a quickly built camp for your migrant workers for any kind of operation - logging, mining, farming or similar...
+
+    STATS
+
+    Residential Growable
+
+    Size: 3x6 (zone exact size with CTRL)
+
+    Growth Stage: 1
+
+    Capacity: 150 R$ (5 barracks for 30 each)
+
+    Uses some water and power, very slight pollution, some garbage, needs road access.
+
+    Note: *The 'Quonset Camp' uses special models BATted by* **Becca** (RebaLynnTS) - *they are included with her kind permission*.
+
+    Enjoy :-)
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25045-paengs-quonset-camp/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1d8d2c7621ff2e1a6cb91b20377db7ef-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1d8d2c7621ff2e1a6cb91b20377db7ef-stex02.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: paeng-quonset-camp
+
+---
+assetId: paeng-quonset-camp
+version: "1.0"
+lastModified: "2010-10-12T15:55:59Z"
+url: https://community.simtropolis.com/files/file/25045-paengs-quonset-camp/?do=download&r=52573

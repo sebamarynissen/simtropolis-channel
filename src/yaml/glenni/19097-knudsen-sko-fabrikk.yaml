@@ -1,6 +1,6 @@
 group: glenni
 name: knudsen-sko-fabrikk
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Glenni Knudsen Sko Fabrikk
@@ -17,54 +17,40 @@ info:
 
     Lot Details and Information
 
-    **Growable Versions: Plopp****able Version:**
-
-    Lot size:
-
-    4 x 4 tiles
-
-    4 x 4 tiles
-
-    Building style(s):
-
-    Building: Industrial,Building: ID,Industry: Anchor,0xb5c00ea8,0xb5c00ea9
-
-    Building: Landmark,Building: ID,Industry: Anchor
-
-    Growth stage:
-
-    4
-
-    n/a
-
-    Occupants:
-
-    I-D : 262
-
-    I-D : 262
-
-    Bulldoze cost:
-
-    § 429
-
-    § 429
-
-    Building Value:
-
-    § 1938
-
-    § 1938
-
-    Construction Time:
-
-    42 days
+    | --- | Growable Version | Ploppable Version |
+    | --- | --- | --- |
+    | Lot size: | 4 x 4 tiles | 4 x 4 tiles |
+    | Building style(s): | Building: Industrial,Building: ID,Industry: Anchor,0xb5c00ea8,0xb5c00ea9 | Building: Landmark,Building: ID,Industry: Anchor |
+    | Growth stage: | 4 | n/a |
+    | Occupants: | I-D : 262 | I-D : 262 |
+    | Bulldoze cost: | § 429 | § 429 |
+    | Building Value: | § 1938 | § 1938 |
+    | Construction Time: | 42 days |  |
   author: Glenni
   website: https://community.simtropolis.com/files/file/19097-ndex-glenni-knudsen-sko-fabrikk/
   images:
     - https://www.simtropolis.com/objects/screens/0024/d9fa43be0dff26e2d5038ef474c09793-NDEX-Glenni-Knudsensko_red.jpg
     - https://www.simtropolis.com/objects/screens/0024/d9fa43be0dff26e2d5038ef474c09793-NDEX-Glenni-Knudsensko_ren.jpg
+dependencies:
+  - glenni:knudsen-sko-fabrikk-model
 assets:
   - assetId: ndex-glenni-knudsen-sko-fabrikk
+    exclude:
+      - \.SC4Model$
+
+---
+group: glenni
+name: knudsen-sko-fabrikk-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model for `pkg=glenni:knudsen-sko-fabrikk`
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/19097-ndex-glenni-knudsen-sko-fabrikk/
+assets:
+  - assetId: ndex-glenni-knudsen-sko-fabrikk
+    include:
+      - \.SC4Model$
 
 ---
 assetId: ndex-glenni-knudsen-sko-fabrikk

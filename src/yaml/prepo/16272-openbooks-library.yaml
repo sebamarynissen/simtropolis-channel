@@ -1,0 +1,45 @@
+group: prepo
+name: openbooks-library
+version: "1.01"
+subfolder: 620-education
+info:
+  summary: OpenBooks Library
+  description: |-
+    Yeah, it's a library. I made this originally for SYM prod. chained university project but it never progressed much further.
+
+    Lot is size 4x4, plop cost is $3500 and monthly cost is max. $1000. Gives jobs for 100 librarians I think. No dependencies.
+
+    UPDATE: Version 1.01, updated the EQ boost stat, it's now closer to other library BATs on STEX.
+
+    To install, unzip the file into your plugins directory.
+  author: prepo
+  website: https://community.simtropolis.com/files/file/16272-openbooks-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e3ca1e768d31f664e5ecd631f989fc8-pr_OpenBooksLibrary1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e3ca1e768d31f664e5ecd631f989fc8-pr_OpenBooksLibrary2.jpg
+dependencies:
+  - prepo:openbooks-library-model
+assets:
+  - assetId: prepo-openbooks-library
+    exclude:
+      - \.SC4Model$
+
+---
+group: prepo
+name: openbooks-library-model
+version: "1.01"
+subfolder: 110-resources
+info:
+  summary: Model for `pkg=prepo:openbooks-library`
+  author: prepo
+  website: https://community.simtropolis.com/files/file/16272-openbooks-library/
+assets:
+  - assetId: prepo-openbooks-library
+    include:
+      - \.SC4Model$
+
+---
+assetId: prepo-openbooks-library
+version: "1.01"
+lastModified: "2006-06-26T14:26:38Z"
+url: https://community.simtropolis.com/files/file/16272-openbooks-library/?do=download&r=38863

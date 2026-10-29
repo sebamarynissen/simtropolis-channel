@@ -28,14 +28,15 @@ assets:
   - assetId: madhatter106-surf-shacks
     exclude:
       - "\\.SC4Model$"
+      - "\\madhatter106_VWbuses.dat$"
 
 ---
 group: madhatter106
 name: surf-shacks-models
-version: "1.0-1"
+version: "1.0-2"
 subfolder: 110-resources
 info:
-  summary: Models for `pkg=madhatter106:surf-shacks`
+  summary: Models and props from `pkg=madhatter106:surf-shacks`
   author: madhatter106
   website: https://community.simtropolis.com/files/file/21867-surf-shacks/
   images:
@@ -45,6 +46,7 @@ assets:
   - assetId: madhatter106-surf-shacks
     include:
       - \.SC4Model$
+      - \madhatter106_VWbuses.dat$
 
 ---
 assetId: madhatter106-surf-shacks

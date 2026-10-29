@@ -1,0 +1,59 @@
+group: paeng
+name: modular-kingston-market
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Modular Kingston Market
+  description: |-
+    An old favorite of mine revisited... Here is a small set of modular lots designed to build your own marketplace in any size and shape around the *Kingston Market Hall*.
+      
+    
+      
+    **DEVELOPER NOTES**
+
+      
+    *Kingston Market* is a functional COM landmark with jobs (see in-game menu for details) - so it needs power, water and street access. There are no reward conditions. The original 'timed' functions were preserved.  
+      
+    The *Market Stalls* are plain eyecandy landmarks, but need a little power and water.  
+      
+    The three additional lots by Kwakelaar are optional. If you don't want to use them, delete that file (*paeng\_KingstonMarketStalls\_Kwa.dat*).  
+      
+    All lots are at or near the end of your *Landmarks* menu with custom icons.  
+      
+      
+      
+    **INSTALLATION**  
+      
+    Just drop the whole bundle in your Plugins. You may also opt to install only certain items - remove the ones you do not wish to use. To un-install - first, bulldoze any lots built with this addon, then remove the complete folder from your Plugins.  
+      
+    To keep your in-game menu tight, move all \*.SC4Lot files from the dependencies to a safe location outside your plugins.  
+      
+      
+      
+    **SUPPORT**  
+      
+    Should you need support for these items please visit the  
+    [PLEX on the STEX - Community Support Forums](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)  
+      
+      
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28270-paengs-modular-kingston-market/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/0fb2d371c592f1759bab4503227b00b7-kingston01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/c8ac9e6716a53d2045b21ceac25b5ac3-kingston_800.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/59b3fb152dc5030a7feb8f83480631bb-kingston02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/90ca115680ae19fd1abb262437dea992-addon_kwa.jpg
+dependencies:
+  - kwakelaar:small-market-hall-resources
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-gascooker-vol01
+  - paeng:textures
+assets:
+  - assetId: paeng-modular-kingston-market
+
+---
+assetId: paeng-modular-kingston-market
+version: "1.0"
+lastModified: "2012-12-04T00:06:54Z"
+url: https://community.simtropolis.com/files/file/28270-paengs-modular-kingston-market/?do=download&r=109304
