@@ -1,0 +1,27 @@
+group: scba
+name: northside-diamonds
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Northside Diamonds
+  description: |-
+    Made based on the four-square design of park complexes seen commonly at recreation and community centers, and junior colleges. One low-level professional field, two standard fields, an empty gap, a kids field, and the central snack bar/gazebo building. Paths lead off in three directions for you to connect with other parks.
+
+    7x7 lot
+
+    The only dependency is some pack that came with chain link fences. Since there's only one, it won't matter if you don't have it. But if you do...there it is.
+  author: scba
+  website: https://community.simtropolis.com/files/file/13795-northside-diamonds/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8931af3e8db82c2ba01dfbafb76f5e94-Canal Bank.JPG
+dependencies:
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: scba-northside-diamonds
+
+---
+assetId: scba-northside-diamonds
+version: "1.0"
+lastModified: "2005-10-04T09:06:00Z"
+url: https://community.simtropolis.com/files/file/13795-northside-diamonds/?do=download&r=35269
