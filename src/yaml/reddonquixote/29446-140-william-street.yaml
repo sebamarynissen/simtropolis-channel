@@ -20,16 +20,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2014/ef2f7a398d8bf1ca148f33b1a622e938-dayversion.jpg
     - https://www.simtropolis.com/objects/screens/monthly_04_2014/87dad45c374bbe9e45805ade00e28e0e-nightversion.jpg
 dependencies:
+  - reddonquixote:140-william-street-model
   - nam:textures
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-140-william-street-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-140-william-street-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: 140-william-street-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:140-william-street`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29446-140-william-street-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-140-william-street-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-140-william-street-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-140-william-street-maxisnite

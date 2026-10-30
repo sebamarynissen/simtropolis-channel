@@ -30,15 +30,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/36a3974201de5cf411023b442f4c680c-cb_pic_02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/dfd8703950a335bd823502b56b35c454-cb_pic_03.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/7317e81d29ea532291d3db9af5ee78b3-cb_pic_04.jpg
+dependencies:
+  - reddonquixote:century-building-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-century-building-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-century-building-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: century-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:century-building`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29066-century-building-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-century-building-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-century-building-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-century-building-maxisnite

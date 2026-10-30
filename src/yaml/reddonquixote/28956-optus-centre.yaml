@@ -25,15 +25,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_09_2013/53742fc8d5ad2336ddd2f22fb721de4b-optus_centre_05.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2013/314a4e8a0c9c1baf373aa64678a40b0b-optus_centre_03.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2013/eb3867ae34576a47babd54b71c55d9d4-optus_centre_02.jpg
+dependencies:
+  - reddonquixote:optus-centre-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-optus-centre-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-optus-centre-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: optus-centre-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:optus-centre`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28956-optus-centre-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-optus-centre-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-optus-centre-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-optus-centre-maxisnite

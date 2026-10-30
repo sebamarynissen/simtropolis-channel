@@ -22,15 +22,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_07_2014/358cb3839c320c0ae440198d9ed43ce9-telstra_corporate_centre_04.jpg
     - https://www.simtropolis.com/objects/screens/monthly_07_2014/720bf57625e908bc2a6faec5c7982c6b-telstra_corporate_centre_01.jpg
     - https://www.simtropolis.com/objects/screens/monthly_07_2014/7c926b7fd8d8ef19237cac346502814d-telstra_corporate_centre_03.jpg
+dependencies:
+  - reddonquixote:telstra-corporate-centre-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-telstra-corporate-centre-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-telstra-corporate-centre-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: telstra-corporate-centre-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:telstra-corporate-centre`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29733-telstra-corporate-centre-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-telstra-corporate-centre-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-telstra-corporate-centre-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-telstra-corporate-centre-maxisnite

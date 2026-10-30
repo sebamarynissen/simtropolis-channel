@@ -20,15 +20,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_08_2014/83ca6e67660d7b2f1d0d3dad305fdf44-360_collins_street_01.jpg
     - https://www.simtropolis.com/objects/screens/monthly_08_2014/5f56ad28ea34a4c1aeee750b12dc12f8-360_collins_street_02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_08_2014/d4a8ce7c7e9f2610d885abcecb56bbce-360_collins_street_00.jpg
+dependencies:
+  - reddonquixote:westpac-building-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-westpac-building-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-westpac-building-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: westpac-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:westpac-building`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29868-westpac-building-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-westpac-building-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-westpac-building-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-westpac-building-maxisnite

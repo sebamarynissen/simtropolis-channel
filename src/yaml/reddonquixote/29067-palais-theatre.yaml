@@ -32,15 +32,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/f79dba918e7766d127affa44c3a1f464-pt_pic_02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/e808a11c3a55e4d5f2f32b5198b77af1-pt_pic_03.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/6e92f791af994ffe407a4b67edbb9e53-pt_pic_04.jpg
+dependencies:
+  - reddonquixote:palais-theatre-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-palais-theatre-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-palais-theatre-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: palais-theatre-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:palais-theatre`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29067-palais-theatre-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-palais-theatre-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-palais-theatre-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-palais-theatre-maxisnite

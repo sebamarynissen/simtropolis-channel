@@ -19,15 +19,42 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/cd00d62a255914b9af136cf3c5fbe623-bourke_place_01.jpg
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/c3e1e262030e20c4e49d306bd1c3c723-bourke_place_02.jpg
+dependencies:
+  - reddonquixote:bourke-place-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-bourke-place-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-bourke-place-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: bourke-place-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:bourke-place`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28556-bourke-place-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-bourke-place-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-bourke-place-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-bourke-place-maxisnite
