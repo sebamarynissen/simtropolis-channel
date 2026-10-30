@@ -1,5 +1,5 @@
 group: bhmantan
-name: nob-edo-suiro-waterwaycanal-re-lot-with-cherry-blossom
+name: edo-suiro-waterway-canal-relot-with-cherry-blossom
 version: "1.0.1"
 subfolder: 660-parks
 info:
@@ -28,12 +28,6 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/edo_suiro_neko_cherry_thumbnail.png.d83b2f6488ef89a62594b6645ba80e2a.png
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/edo_suiro_2.png.744026236c1758215f6d55c03576ab49.webp
-
-# The lots reference 25 distinct props, flora and textures. Apart from the Maxis
-# ones, they all come from three packages:
-# - 16 NOB props, all in NOB Mega Props Vol05 v2
-# - 1 prop (0xdeed006d) in Neko Prop Set 01 part 2
-# - 5 props (0xdeed0030 and 0xdeed0044-47) in Neko Prop Set 03
 dependencies:
   - nob:mega-props-vol05
   - neko:prop-set-vol01-part2
