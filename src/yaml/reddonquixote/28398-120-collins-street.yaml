@@ -1,0 +1,50 @@
+group: reddonquixote
+name: 120-collins-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 120 Collins Street, Melbourne, Australia
+  description: |-
+    120 Collins Street is a 265m, 50 storey office building located in Collins Street, Melbourne.
+
+    Completed in 1991, 120 Collins Street is built on the site of, and integrated with, existing historic buildings including St. Michael's Uniting Church.
+
+    St. Michael's Uniting Church is a National Trust building dating back to 1866 and is built in the Lombardic architectural style, with multi-coloured exterior brickwork, open cloisters on the side of the building and Romanesque arches.
+
+    (source: Wikipedia)
+
+    This is my 3rd BAT.
+
+    120 Collins Street is a Functional Landmark. The lot is 5x7. Medium Wealth Commercial Office, provides 19442 jobs and costs §110,000 to build.
+
+    Available in both Darknite and Maxis night versions.
+
+    I look forward to hearing your comments.
+
+    Again, enormous thanks to everyone who provided advice and support... and the occasional lifeline... along the way. I hope you enjoy it!
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28398-120-collins-street-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/98f08a97e7244531f3379807c83780d8-120_collins_street_west_dn.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/4c09c28f0490b00480abd68c9bad5e25-120_collins_street_south_dn.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-120-collins-street-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-120-collins-street-darknite
+
+---
+assetId: reddonquixote-120-collins-street-maxisnite
+version: "1.0"
+lastModified: "2013-01-26T08:13:31Z"
+url: https://community.simtropolis.com/files/file/28398-120-collins-street-melbourne-australia/?do=download&r=111193
+
+---
+assetId: reddonquixote-120-collins-street-darknite
+version: "1.0"
+lastModified: "2013-01-26T08:13:31Z"
+url: https://community.simtropolis.com/files/file/28398-120-collins-street-melbourne-australia/?do=download&r=111194
