@@ -38,15 +38,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a29befb29fdc_EBLT2x1Modular-ishplazas.jpg.2b938776b00d393c6c3b2f9835bca25a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a29befd36c21_EBLT2x2OriginalMirrorpieces1x1modularpieces.jpg.368b34b603ba44ddb66da57a3a096e6a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a29befec2bee_EBLT2x4Plazaroutes.jpg.8044077a55ed827978e7d746922dc06b.jpg
-# Checked against the contents of all dependencies: every prop, family and texture referenced by the lots resolves to the dependencies below,
-# except the Maxis props and textures.
-# Deviations from the dependency list of the original description:
-#   - reddonquixote:prop-pack and bnl:dutch-prop-pack are not used by any of the lots
-#   - ndex:textures-vol1 and bsc:texturepack-cycledogg-vol01 are listed in the readme under Textures and are used
-#   - the texture 0xdd138100 is in Rivit BSCTexturesCycledoggVol1Extra.dat, which is included in tariely:tariel-rivits-essentials
-#   - girafe:maples-v2 and girafe:birches (the "Maples v2" and "Birches v2" folders of the girafe flora pack) provide the maples and birches
-#   - WMP Power Props maps to wmp:mega-props-vol01 (2 props are used)
-#   - Tariel-Rivit's Essentials provides the light cones and the texture mentioned above
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02

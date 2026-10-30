@@ -34,18 +34,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a2859698a804_Heretic-TarielVariousPlazaLots.jpg.7520d39dcd930cdc3e8e6bd2f4cb917e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a285989b0edb_HereticGuardiansoftheFountainPlaza.jpg.058511abc4db2f7b234e4b5ea6aaadb2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a28598b99635_TarielVirginMaryFountainPlaza.jpg.ef6d04f0d5e65312d9c1ac9fdd2bd2d4.jpg
-# Checked against the contents of all dependencies: every prop, family and texture referenced by the lots and by the included
-# "Building as Props examplars" dat resolves to the dependencies below, except the Maxis props and textures.
-# Deviations from the dependency list of the original description:
-#   - bsc:mega-props-cp-vol02 and neko:prop-set-vol01-part2 are not used
-#   - the NOB Ftexture is nob:texture-pack-vol01 (formerly FTextures.dat)
-#   - bsc:textures-vol02 (0xf0f040ca) and bsc:textures-vol03 (0xa5270000) are used but not listed in the readme
-#   - 0xdddd16a0 and 0xdddd2ba0 are textures of cp:scilt, which is available in many variants (every variant provides them)
-#   - the Heretic-Tariel Reflectoblob prop is a BaP that uses the Darknite model, which is only available in the Darknite
-#     variant of blunder:the-reflectoblob-model, so the prop is not visible with the Maxis night variant
-#   - the VIP vnaoned monuments pack provides the obelisk and the fountain models of the BaP examplars
-#   - WMP Power Props maps to wmp:mega-props-vol01 (only 0x993d9239 is used)
-#   - Tariel-Rivit's Essentials provides the light cones, and nothing else is needed from it
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - vip:vnaoned-props-pack-vol01
