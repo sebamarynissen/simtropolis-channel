@@ -1,0 +1,46 @@
+group: bhmantan
+name: edo-suiro-waterway-canal-relot-with-cherry-blossom
+version: "1.0.1"
+subfolder: 660-parks
+info:
+  summary: NOB Edo Suiro (Waterway/Canal) Re-lot with Cherry Blossom
+  description: |-
+    Just a simple re-lots replacing the trees on the original with the Neko Seasonal Cherry Trees.
+    Initially intended for personal use only in my gameplay, but I guess I can share so people that interested can have it too.
+
+    The lots are available on the Park menu.
+
+    **Credits**
+
+    - NOB for the props & original lots
+    - Neko Punch for the cherry trees & props
+    - @Tyberius06 for the updated version with new IDs and fixes
+
+    **Showcase**
+
+    Also, here's a short video showcase:  
+    https://youtube.com/shorts/-KDoVu2Lo4A
+
+    It's my first time trying to re-lots, I hope it's useful.
+    Thanks!
+  author: bhmantan
+  website: https://community.simtropolis.com/files/file/35606-nob-edo-suiro-waterwaycanal-re-lot-with-cherry-blossom/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/edo_suiro_neko_cherry_thumbnail.png.d83b2f6488ef89a62594b6645ba80e2a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/edo_suiro_2.png.744026236c1758215f6d55c03576ab49.webp
+dependencies:
+  - nob:mega-props-vol05
+  - neko:prop-set-vol01-part2
+  - neko:prop-set-vol03
+
+assets:
+  - assetId: bhmantan-nob-edo-suiro-waterwaycanal-re-lot-with-cherry-blossom
+    # The zip contains macOS ._ metadata files named *.SC4Lot
+    exclude:
+      - "__MACOSX/"
+
+---
+assetId: bhmantan-nob-edo-suiro-waterwaycanal-re-lot-with-cherry-blossom
+version: "1.0.1"
+lastModified: "2023-09-03T17:07:54Z"
+url: https://community.simtropolis.com/files/file/35606-nob-edo-suiro-waterwaycanal-re-lot-with-cherry-blossom/?do=download&r=197547
