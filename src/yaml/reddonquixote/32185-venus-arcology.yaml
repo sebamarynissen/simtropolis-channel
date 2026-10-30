@@ -1,0 +1,41 @@
+group: reddonquixote
+name: venus-arcology
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: RDQ Venus Arcology
+  description: |-
+    In December 2014 I took up the challenge to design my own building, and the resulting creation subsequently languished on my hard drive for the next 3 years... until now.
+
+    During a recent stroll down memory lane, I rediscovered this BAT and decided it's not as bad as I remembered, and a few tweaks later, I present it to you now for download. It's still far from perfect but good enough I think. :)
+
+    Oh, and it's called Venus Arcology because someone thought it looked like something from the Venus Project and someone else thought it looked like an arcology. Hence, Venus Arcology. (I must have used up all my creativity designing the building.)
+
+    This is my 42nd BAT.
+
+    RDQ Venus Arcology comes as a 4x4 growable R$$$ residential lot and a 4x4 ploppable CO$$$ lot, in both Darknite and Maxis night versions.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/32185-rdq-venus-arcology/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/RDQ_Venus_Arcology_Main.jpg.f8948e0335df32d8145ce2f8c39a9113.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/RDQ_Venus_Arcology_Day.jpg.55e31a6249cc42ff52f4cc801ce7f074.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/RDQ_Venus_Arcology_DN.jpg.1a1566ff1c9f977ad8237273a36b77d2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-venus-arcology
+        exclude:
+          - "/DN_Model/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-venus-arcology
+        exclude:
+          - "/MN_Model/"
+
+---
+assetId: reddonquixote-venus-arcology
+version: "1.0"
+lastModified: "2018-03-23T23:55:31Z"
+url: https://community.simtropolis.com/files/file/32185-rdq-venus-arcology/?do=download

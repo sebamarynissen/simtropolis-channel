@@ -1,0 +1,51 @@
+group: reddonquixote
+name: freshwater-place
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Freshwater Place, Melbourne, Australia
+  description: |-
+    Freshwater Place is located across the river from the Melbourne CBD, positioned next to the Eureka Tower and Crown Casino with a view of the Yarra River and most of the Melbourne CBD.
+
+    Freshwater Place is a high-rise residential skyscraper in Southbank. The building stands at 205 metres and has a total of 536 apartment units.
+
+    (source: Wikipedia)
+
+    This is my 18th BAT.
+
+    Freshwater Place is made available in the following versions:
+
+    - A growable R$$$ residential, lot size 5x4.
+    - A ploppable Non-Functional Landmark. Lot size 5x4 and costs §110,000 to build.
+
+    Both Darknite and Maxis night versions are available.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29097-freshwater-place-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/27a3d4d3cf74bd3c998a3f6e779fc194-fwp_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/aacd23ba52eb31af613fcd90cf4b75fe-fwp_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/a91d1dac847fa36b8f04edcf20ec9d51-fwp_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/9618e417d603dd7a7fa2d24a5e75eb2b-fwp_04.jpg
+dependencies:
+  - nam:textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-freshwater-place-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-freshwater-place-darknite
+
+---
+assetId: reddonquixote-freshwater-place-maxisnite
+version: "1.0"
+lastModified: "2013-12-04T07:48:37Z"
+url: https://community.simtropolis.com/files/file/29097-freshwater-place-melbourne-australia/?do=download&r=121277
+
+---
+assetId: reddonquixote-freshwater-place-darknite
+version: "1.0"
+lastModified: "2013-12-04T07:48:37Z"
+url: https://community.simtropolis.com/files/file/29097-freshwater-place-melbourne-australia/?do=download&r=121278
