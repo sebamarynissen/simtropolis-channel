@@ -1,5 +1,5 @@
 group: t-wrecks
-name: irm-sfbt-high-enthalpy-wind-tunnel
+name: irm-high-enthalpy-wind-tunnel
 version: "1.0"
 subfolder: 400-industrial
 info:
@@ -37,7 +37,7 @@ info:
 
 dependencies:
   - memo:industrial-revolution-mod
-  - andreas-roth:sfbt-wind-tunnel-model
+  - andreas-roth:wind-tunnel-model
 
 variants:
   - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }

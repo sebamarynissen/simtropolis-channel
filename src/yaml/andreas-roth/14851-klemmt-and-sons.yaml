@@ -1,5 +1,5 @@
 group: andreas-roth
-name: sfbt-klemmt-and-sons
+name: klemmt-and-sons
 version: "1.0"
 subfolder: 400-industrial
 info:
@@ -20,7 +20,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0003/135f460ce5a6f18316c0a8f9840d4c9d-SFBT_klemmt_sons2.jpg
 dependencies:
   - sfbt:essentials
-  - andreas-roth:sfbt-klemmt-and-sons-model
+  - andreas-roth:klemmt-and-sons-model
 assets:
   - assetId: andreas-roth-sfbt-klemmt-and-sons
     exclude:
@@ -28,11 +28,11 @@ assets:
 
 ---
 group: andreas-roth
-name: sfbt-klemmt-and-sons-model
+name: klemmt-and-sons-model
 version: "1.0"
 subfolder: 110-resources
 info:
-  summary: Model dependency for `pkg=andreas-roth:sfbt-klemmt-and-sons`
+  summary: Model dependency for `pkg=andreas-roth:klemmt-and-sons`
   author: Andreas Roth
   website: https://community.simtropolis.com/files/file/14851-sfbt-klemmt-and-sons-by-mathe-man/
 assets:

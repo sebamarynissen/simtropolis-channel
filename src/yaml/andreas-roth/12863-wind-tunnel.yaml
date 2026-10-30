@@ -1,5 +1,5 @@
 group: andreas-roth
-name: sfbt-wind-tunnel
+name: wind-tunnel
 version: "1.0"
 subfolder: 400-industrial
 info:
@@ -32,7 +32,7 @@ info:
 dependencies:
   - bsc:textures-vol01
   - sfbt:essentials
-  - andreas-roth:sfbt-wind-tunnel-model
+  - andreas-roth:wind-tunnel-model
 assets:
   - assetId: andreas-roth-sfbt-wind-tunnel
     exclude:
@@ -40,11 +40,11 @@ assets:
 
 ---
 group: andreas-roth
-name: sfbt-wind-tunnel-model
+name: wind-tunnel-model
 version: "1.0"
 subfolder: 110-resources
 info:
-  summary: Model dependency for `pkg=andreas-roth:sfbt-wind-tunnel`
+  summary: Model dependency for `pkg=andreas-roth:wind-tunnel`
   author: Andreas Roth
   website: https://community.simtropolis.com/files/file/12863-sfbt-wind-tunnel-by-mathe-man/
 assets:

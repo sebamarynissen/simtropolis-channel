@@ -1,5 +1,5 @@
 group: t-wrecks
-name: irm-i-m-sfbt-maschinenbau
+name: irm-i-m-maschinenbau
 version: "1.0.0"
 subfolder: 400-industrial
 info:
@@ -40,7 +40,7 @@ info:
 
 dependencies:
   - memo:industrial-revolution-mod
-  - andreas-roth:sfbt-klemmt-and-sons-model
+  - andreas-roth:klemmt-and-sons-model
 
 variants:
   - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
