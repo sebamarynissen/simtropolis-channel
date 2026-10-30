@@ -1,0 +1,59 @@
+group: reddonquixote
+name: melbourne-central
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Melbourne Central, Melbourne, Australia
+  description: |-
+    Melbourne Central is a large shopping centre, office, and public transport hub in the city of Melbourne, Australia. The complex includes the Melbourne Central Shopping Centre; the Melbourne Central railway station (a part of the City Loop underground railway); and the 211-metre high office tower with its distinctive black colour and two communications masts.
+
+    The Melbourne Central shopping and office development was designed by Japanese architect Kisho Kurokawa in the Metabolist style and constructed between 1986 and 1991.
+
+    The Glass Cone is the largest glass structure of its type in the world. The cone is 20 storeys high, weighs 490 tonnes and has 92 glass panes. The Coops Shot Tower is the focal point of the shopping centre, with the cone purposefully built to protect the National Trust building.
+
+    The upper levels of the centre house a Hoyts Cinema complex as well as ten-pin bowling, bars, and the Melbourne Central Lion Hotel, an English style pub.
+
+    (source: Wikipedia)
+
+    This is my 24th BAT... and it's a biggie!
+
+    Melbourne Central is a multi-functional puzzle lot, occupying 14x6 lot space.
+
+    Included are:
+
+    1. Melbourne Central Shopping Centre (Mandatory) - This piece contains the actual model and is an overhanging prop piece, occupying 5x9 lot space. Provides 2000 CS$$ jobs and costs §6500 to build.
+    2. ME Bank Tower (Optional) - Placed as a 4x6 lot filler piece, it provides 2000 CO$$ jobs and costs §6500 to build.
+    3. Melbourne Central Subway Station (Optional) - 1x1 subway piece with a capacity of 2000.
+    4. A 1x1 cement filler piece - included in case you don't have something already.
+
+    The recommended assembly pattern is shown in the last image, but you can assemble it any way you want :)
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29581-melbourne-central-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/d0d01f61543f1e06f3f5f7842c6f9e2c-melbourne_central_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/68e944bb8822b070183e2836e8e9eea0-melbourne_central_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/baa328b524c9cba4bfd69d572e453adb-melbourne_central_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/b50e525ea83b8cbb91d8edd135fe0e29-melbourne_central_06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/f54e2184b5f40bc84d85dcab32bb10c2-melbourne_central_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/7e6dcf114a57a9ae4dc093079a85d369-assembly.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-melbourne-central-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-melbourne-central-darknite
+
+---
+assetId: reddonquixote-melbourne-central-maxisnite
+version: "1.0"
+lastModified: "2014-05-16T09:07:18Z"
+url: https://community.simtropolis.com/files/file/29581-melbourne-central-melbourne-australia/?do=download&r=133815
+
+---
+assetId: reddonquixote-melbourne-central-darknite
+version: "1.0"
+lastModified: "2014-05-16T09:07:18Z"
+url: https://community.simtropolis.com/files/file/29581-melbourne-central-melbourne-australia/?do=download&r=133814
