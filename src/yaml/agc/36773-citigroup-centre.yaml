@@ -1,0 +1,73 @@
+group: agc
+name: citigroup-centre
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Citigroup Centre
+  description: |-
+    Thanks to [@Bobelboy](https://community.simtropolis.com/profile/138427-bobelboy/) for the support. Modding by the great [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/).
+
+    Citigroup Centre, London.
+
+    **Specs**
+
+    - 5x9 Landmark and Ploppable CO$$$.
+    - CAM & Maxis Growable version included (the CAM variant installs the CAM version, otherwise the Maxis growable version is installed).
+
+    Darknite only.
+
+    Scale of the models: 133% (z axis).
+
+    If you like my work, you can make a donation to fund my other projects!
+
+    https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU
+
+    Thanks to the few people who have donated to me.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36773-agc-citigroup-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/image44.PNG.027b7cdeabf8a2f18ed6b806e69a1027.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d46ab8c0fb3_Sinttulo.png.3b76f597f57943ea8902608263f2a43b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2025_03/67d46ab9db23e_Sinttulo2.png.54ac6401feb62b48606d3d70f67f5c1a.png
+  conflicts: Only a DarkNite model exists, so the same model is installed with either nightmode setting.
+dependencies:
+  - bsc:essentials
+
+assets:
+  - assetId: agc-citigroup-centre
+
+variants:
+  - variant: { nightmode: standard, CAM: "yes" }
+    assets:
+      - assetId: agc-citigroup-centre-cam
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: agc-citigroup-centre-grow
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: agc-citigroup-centre-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: agc-citigroup-centre-grow
+
+---
+assetId: agc-citigroup-centre
+version: "1.0.0"
+lastModified: "2026-06-16T07:02:34Z"
+url: https://community.simtropolis.com/files/file/36773-agc-citigroup-centre/?do=download&r=217958
+
+---
+assetId: agc-citigroup-centre-cam
+version: "1.0.0"
+lastModified: "2026-06-16T07:02:34Z"
+url: https://community.simtropolis.com/files/file/36773-agc-citigroup-centre/?do=download&r=217957
+
+---
+assetId: agc-citigroup-centre-grow
+version: "1.0.0"
+lastModified: "2026-06-16T07:02:34Z"
+url: https://community.simtropolis.com/files/file/36773-agc-citigroup-centre/?do=download&r=217959
