@@ -1,5 +1,5 @@
 group: tyberius06
-name: heretic-shell-service-station
+name: shell-service-station
 version: "1.0"
 subfolder: 360-landmark
 info:
@@ -9,7 +9,7 @@ info:
 
     This is a plopable Landmark with some CS$$ jobs.
 
-    The lot is using a bunch of timed props (from my recently uploaded Heretic Essentials Dependency Pack, `pkg=tyberius06:tyb06-heretic-essentials`): cars and people, so it has a rhythm.
+    The lot is using a bunch of timed props (from my recently uploaded Heretic Essentials Dependency Pack, `pkg=tyberius06:essentials`): cars and people, so it has a rhythm.
 
     - Tyberius06
   author: Tyberius06
@@ -19,7 +19,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_07/5b55a3d3b47e5_HereticShellServiceStation-day.jpg.d4e9f68a2b096d94d2586ac24adce6ad.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_07/5b55a3d5a05b7_HereticShellServiceStation-night.jpg.eeb20283410218028e3fb504d18a4b9e.jpg
 dependencies:
-  - tyberius06:tyb06-heretic-essentials
+  - tyberius06:essentials
   - nos17:essentials
   - b62:service-station-mega-pack-model
   - girafe:conifers

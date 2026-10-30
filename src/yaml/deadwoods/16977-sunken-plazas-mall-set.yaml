@@ -1,5 +1,5 @@
 group: deadwoods
-name: dedwd-sunken-plazas-mall-set
+name: sunken-plazas-mall-set
 version: "1.00"
 subfolder: 660-parks
 info:
@@ -33,7 +33,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0027/f45c9e2ea0ae2b85aa9d11171e41b2e0-DEDWD_SunkenPlaza_MallSet-stexpic1.jpg
     - https://www.simtropolis.com/objects/screens/0027/f45c9e2ea0ae2b85aa9d11171e41b2e0-DEDWD_SunkenPlaza_MallSet-stexpic2.jpg
 dependencies:
-  - deadwoods:dedwd-sunken-plazas-mall-set-resources
+  - deadwoods:sunken-plazas-mall-set-resources
 assets:
   - assetId: deadwoods-dedwd-sunken-plazas-mall-set
     include:
@@ -41,11 +41,11 @@ assets:
 
 ---
 group: deadwoods
-name: dedwd-sunken-plazas-mall-set-resources
+name: sunken-plazas-mall-set-resources
 version: "1.00"
 subfolder: 110-resources
 info:
-  summary: Props dependency for `pkg=deadwoods:dedwd-sunken-plazas-mall-set`
+  summary: Props dependency for `pkg=deadwoods:sunken-plazas-mall-set`
   author: deadwoods
   website: https://community.simtropolis.com/files/file/16977-dedwd-sunken-plazas-mall-set/
 assets:
