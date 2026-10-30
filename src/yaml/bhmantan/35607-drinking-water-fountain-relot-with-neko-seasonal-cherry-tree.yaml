@@ -1,5 +1,5 @@
 group: bhmantan
-name: bombardiere-drinking-water-fountain-relot-with-neko-seasonal-cherry-tree
+name: drinking-water-fountain-relot-with-neko-seasonal-cherry-tree
 version: "1.0.1"
 subfolder: 660-parks
 info:
@@ -33,13 +33,6 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/drinking_spring.png.4ca4617c547308e771b12e8f59916f45.png
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/drinking_fall.png.36a94e5a5fb8257a8616136e89d2a203.png
-
-# The lot references 23 distinct props, flora and textures. Apart from the Maxis
-# ones, they come from:
-# - 5 British Boxes props (the bollard and the mail pillar, bench, trough and
-#   litter bin families), which only need the props of British Boxes
-# - 2 props in Neko Prop Set 01 part 2
-# - 9 props in Neko Prop Set 03
 dependencies:
   - bombardiere:british-boxes-props
   - neko:prop-set-vol01-part2
