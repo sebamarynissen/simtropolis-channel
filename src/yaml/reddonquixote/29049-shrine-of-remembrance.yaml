@@ -1,0 +1,48 @@
+group: reddonquixote
+name: shrine-of-remembrance
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Shrine of Remembrance, Melbourne, Australia
+  description: |-
+    **A Remembrance Day Tribute**
+
+    The sanctuary contains the marble Stone of Remembrance, upon which is engraved the words "Greater love hath no man". Once a year, on 11 November at 11 a.m. (Remembrance Day), a ray of sunlight shines through an aperture in the roof to light up the word "Love" in the inscription.
+
+    The Shrine of Remembrance, located in Kings Domain on St Kilda Road, Melbourne, Australia, was built as a memorial to the men and women of Victoria who served in World War I and is a site of annual observances of ANZAC Day (25 April) and Remembrance Day (11 November) and is one of the largest war memorials in Australia.
+
+    The Shrine is in a classical style, being based on the Tomb of Mausolus at Halicarnassus and the Parthenon in Athens.
+
+    (Source: Wikipedia)
+
+    This is my 14th BAT.
+
+    The Melbourne Shrine of Remembrance is a non-functional landmark. Lot size 6x6, costs §2500 to build and has a monthly cost of §150.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29049-shrine-of-remembrance-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/fc8704b9c85ce073b6fae7ece0662b4e-pic_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/345808849e0ff3e410a3903bed08aefb-pic_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/423d20416639b8835c3071185159da45-pic_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/ef0a47218c1575af183a3d8e7e1440a4-pic_04.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-shrine-of-remembrance-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-shrine-of-remembrance-darknite
+
+---
+assetId: reddonquixote-shrine-of-remembrance-maxisnite
+version: "1.0"
+lastModified: "2013-11-11T07:00:50Z"
+url: https://community.simtropolis.com/files/file/29049-shrine-of-remembrance-melbourne-australia/?do=download&r=120838
+
+---
+assetId: reddonquixote-shrine-of-remembrance-darknite
+version: "1.0"
+lastModified: "2013-11-11T07:00:50Z"
+url: https://community.simtropolis.com/files/file/29049-shrine-of-remembrance-melbourne-australia/?do=download&r=120839

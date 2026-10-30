@@ -1,0 +1,45 @@
+group: reddonquixote
+name: bankwest-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: BankWest Tower, Perth, Australia
+  description: |-
+    108 St Georges Terrace (formerly known as Bankwest Tower) is a 50-storey office tower in Perth, Western Australia. Completed in 1988, the building measures 247 metres to the tip of its communications antenna. It was the tallest building in Perth from its completion in 1988 until 1992 when it was overtaken in height by Central Park. As of 2009, it remains the second-tallest building in the city. The concrete tower has a distinctive profile, with a triangular plan.
+
+    The site was originally occupied by the Palace Hotel. When the tower was approved, the plan retained much of the Palace Hotel.
+
+    (source: Wikipedia)
+
+    This is my 28th BAT.
+
+    BankWest Tower is a Landmark, costs §110,000 to build and occupies 3x3 lot space.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29761-bankwest-tower-perth-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/22d8934a5a90487dcc634bad2afb0ff2-bankwest_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/9b9b4e17b778b8150f8ff1533fb540ed-bankwest_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/28ddc0fe2727e3a95a75f3e5ce2605a7-bankwest_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/1fad61a3019b9eafc5d831d4e151b18c-bankwest_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/c3bbc9bbfc37441476f602f80438d836-bankwest_04.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-bankwest-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-bankwest-tower-darknite
+
+---
+assetId: reddonquixote-bankwest-tower-maxisnite
+version: "1.0"
+lastModified: "2014-07-19T13:42:27Z"
+url: https://community.simtropolis.com/files/file/29761-bankwest-tower-perth-australia/?do=download&r=138243
+
+---
+assetId: reddonquixote-bankwest-tower-darknite
+version: "1.0"
+lastModified: "2014-07-19T13:42:27Z"
+url: https://community.simtropolis.com/files/file/29761-bankwest-tower-perth-australia/?do=download&r=138242
