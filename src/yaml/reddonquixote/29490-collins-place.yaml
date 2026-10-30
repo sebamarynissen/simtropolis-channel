@@ -24,15 +24,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_04_2014/af7ce20a47512fa7cd5e40c7efc5435d-collinsplace_3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_04_2014/02b2bfbe5d9a6e8d1ca664aaec79ae0d-collinsplace_4.jpg
     - https://www.simtropolis.com/objects/screens/monthly_04_2014/c16db7e22c46e7a647735bd91ece51d2-collinsplace_main.jpg
+dependencies:
+  - reddonquixote:collins-place-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-collins-place-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-collins-place-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: collins-place-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:collins-place`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29490-collins-place/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-collins-place-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-collins-place-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-collins-place-maxisnite

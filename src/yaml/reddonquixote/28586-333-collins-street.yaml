@@ -23,15 +23,42 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/b13165a2c29a18fd9c097f930644c0f4-333_collins_street_front.jpg
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/a42909764a303bd440077460aa83bd1d-333_collins_street_rear.jpg
+dependencies:
+  - reddonquixote:333-collins-street-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-333-collins-street-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-333-collins-street-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: 333-collins-street-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:333-collins-street`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28586-333-collins-street-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-333-collins-street-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-333-collins-street-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-333-collins-street-maxisnite

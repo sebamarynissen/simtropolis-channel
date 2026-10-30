@@ -34,15 +34,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/1e7e76da1dbcbaed2a51dcfea61126fa-mu_pic_02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/8a807b4daafc5c5997599d550fdb6f65-mu_pic_03.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/075a999b9359fd74a997f15318d12d81-mu_pic_04.jpg
+dependencies:
+  - reddonquixote:manchester-unity-building-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: reddonquixote-manchester-unity-building-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-manchester-unity-building-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: manchester-unity-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:manchester-unity-building`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29065-manchester-unity-building-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-manchester-unity-building-maxisnite
+        include:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: reddonquixote-manchester-unity-building-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: reddonquixote-manchester-unity-building-maxisnite

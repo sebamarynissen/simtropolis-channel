@@ -61,12 +61,16 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2014/bc5014009c538c2f69e025fe08d7062a-101_csm_base.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2014/bec79bbdd4b3e57b3008becf5b549354-101_csm_diag.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2014/33c5517695342e4d1b4a610301aaa767-101_csm_main.jpg
+dependencies:
+  - reddonquixote:101-collins-street-model
+assets:
+  - assetId: reddonquixote-101-collins-street
+    exclude:
+      - "/MN Models/"
+      - "/DN Models/"
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: reddonquixote-101-collins-street
-        exclude:
-          - "/DN Models/"
       - assetId: reddonquixote-101-collins-street-diagonal
         exclude:
           - "/DN Models/"
@@ -74,12 +78,34 @@ variants:
     dependencies:
       - simfox:day-and-nite-mod
     assets:
-      - assetId: reddonquixote-101-collins-street
-        exclude:
-          - "/MN Models/"
       - assetId: reddonquixote-101-collins-street-diagonal
         exclude:
           - "/MN Models/"
+
+---
+group: reddonquixote
+name: 101-collins-street-model
+version: "2.1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:101-collins-street`
+  description: |-
+    The model of the non-diagonal versions of 101 Collins Street. The model of the diagonal version is included in `pkg=reddonquixote:101-collins-street`.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29844-101-collins-street-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-101-collins-street
+        include:
+          - "/MN Models/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-101-collins-street
+        include:
+          - "/DN Models/"
 
 ---
 assetId: reddonquixote-101-collins-street

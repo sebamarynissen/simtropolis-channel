@@ -1,0 +1,108 @@
+group: deezedgod
+name: camelot-pack
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Reddonquixote CAMeLot Pack
+  description: |-
+    deezedgod and the CAM Revival Project present: Reddonquixote CAMeLot Pack
+
+    This pack CAM-ifies some favorite BATs by Reddonquixote. Reddonquixote has created tons of classic buildings, but some of them were never released as CAMeLots. He has released CAMeLots in the past, but this pack was made to fill in the gaps by adding CAMeLots for some of his older buildings and to add growable versions for some buildings that were ploppable only. Now you can finally have the complete collection.
+
+    This pack was created with the Colossus Addon Mod in mind as part of the CAM Revival Project. The goal of this project is to provide players that use CAM with high-quality CAM-patible versions of popular BATs from more recent creators. As such, this pack only works with the Colossus Addon Mod installed (the `CAM` variant), and either version of CAM will work. The non-CAM versions of these buildings are available as separate packages.
+
+    Both DarkNite and Maxis Night versions are supported.
+
+    If you want to plop the growables, use the BuildingPlop cheat and look for exemplars starting at `RDQ_` (requires ExtraCheats.dll). Keep in mind that residential lots plopped with this method will not function properly.
+
+    **Stats**
+
+    All stats were generated with PIM-X. The lots included are as follows:
+
+    1 R$$ building:
+
+    - Infinity Tower, 3x3 front, stage 14
+
+    3 R$$$ buildings:
+
+    - Eureka Tower, 5x6 left corner, stage 10
+    - Freshwater Place, 5x4 front, stage 10
+    - Q1, 6x12 left corner, stage 10
+
+    3 CS$$ buildings:
+
+    - Century Building, 2x4 right corner, stage 12
+    - Manchester Unity, 2x3 right corner, stage 12
+    - Palais Theatre, 3x6 front, stage 9
+
+    2 CS$$$ buildings:
+
+    - 333 Collins Street, 3x6 front, stage 10
+    - Grand Hyatt, 5x6 right corner, stage 10
+
+    8 CO$$ buildings:
+
+    - 120 Collins Street, 5x7 left corner, stage 10
+    - 140 William Street, 3x3 front, stage 13
+    - 360 Collins Street (Westpac Building), 3x3 front, stage 13
+    - BankWest Tower, 3x3 left corner, stage 12
+    - Bourke Place, 4x6 left corner, stage 11
+    - Collins Place, 9x6 front, stage 10
+    - Optus Centre, 5x3 right corner, stage 11
+    - Telstra Corporate Centre, 5x6 right corner, stage 12
+
+    2 CO$$$ buildings:
+
+    - 101 Collins Street, 4x6 front, stage 11
+    - Chrysler Building, 4x4 front, stage 12
+
+    For full stats, see the readme file included in the original download.
+
+    **About the CAM Revival Project**
+
+    With the CAM Revival Project, I want to provide high-quality CAM-patible lots for popular creators and buildings. As a new player, it's often hard to find CAM versions of popular buildings, or you end up having to mod them yourself to use them with the CAM. I wanted to make it easier and more accessible for all players to grow their collection of CAM buildings by creating packs like this.
+
+    **Credits**
+
+    Full credit goes to Reddonquixote for these amazing BATs! Thanks also to kingofsimcity for the readme file.
+  author: deezedgod
+  website: https://community.simtropolis.com/files/file/35343-reddonquixote-camelot-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/splash_rdq.jpg.d171c2f480a7ad0a311e6c473cea4a12.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/638631c647b3d_rdq_co.jpg.419af0afa9c947faa516e7038a47133e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/638631cd14e64_rdq_co.jpg.7727e1e3fae85dd3ad0f12336ee77e4c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/rdq_r.jpg.73ea04af28f41dbc73c63154e30c8c7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/rdq_cs.jpg.442940ffd1d981bc830b618df642b95c.jpg
+variants:
+  - variant: { CAM: "no" }
+  - variant: { CAM: "yes" }
+    dependencies:
+      - cam:colossus-addon-mod
+      - nam:textures
+      - reddonquixote:101-collins-street-model
+      - reddonquixote:120-collins-street
+      - reddonquixote:140-william-street-model
+      - reddonquixote:333-collins-street-model
+      - reddonquixote:westpac-building-model
+      - reddonquixote:bankwest-tower-model
+      - reddonquixote:bourke-place-model
+      - reddonquixote:century-building-model
+      - reddonquixote:the-chrysler-building
+      - reddonquixote:collins-place-model
+      - reddonquixote:eureka-tower
+      - reddonquixote:freshwater-place-model
+      - reddonquixote:grand-hyatt-model
+      - reddonquixote:infinity-tower-model
+      - reddonquixote:manchester-unity-building-model
+      - reddonquixote:optus-centre-model
+      - reddonquixote:palais-theatre-model
+      - reddonquixote:q1-model
+      - reddonquixote:telstra-corporate-centre-model
+    assets:
+      - assetId: deezedgod-camelot-pack
+
+---
+assetId: deezedgod-camelot-pack
+version: "1.0.0"
+lastModified: "2022-11-29T16:50:15Z"
+url: https://community.simtropolis.com/files/file/35343-reddonquixote-camelot-pack/?do=download
