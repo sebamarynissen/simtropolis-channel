@@ -1,5 +1,5 @@
 group: deezedgod
-name: camelot-pack
+name: rdq-camelot-pack
 version: "1.0.0"
 subfolder: 300-commercial
 info:
@@ -51,10 +51,11 @@ info:
     - Optus Centre, 5x3 right corner, stage 11
     - Telstra Corporate Centre, 5x6 right corner, stage 12
 
-    2 CO$$$ buildings:
+    1 CO$$$ building:
 
     - 101 Collins Street, 4x6 front, stage 11
-    - Chrysler Building, 4x4 front, stage 12
+
+    The Chrysler Building CAMeLot of the original pack (CO$$$, 4x4 front, stage 12) is not included. The Chrysler Building package by Reddonquixote already contains a growable CAM lot.
 
     For full stats, see the readme file included in the original download.
 
@@ -100,6 +101,8 @@ variants:
       - reddonquixote:telstra-corporate-centre-model
     assets:
       - assetId: deezedgod-camelot-pack
+        exclude:
+          - "/TheChryslerBuilding/"
 
 ---
 assetId: deezedgod-camelot-pack
