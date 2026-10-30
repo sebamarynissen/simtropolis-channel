@@ -1,0 +1,58 @@
+group: bhmantan
+name: bombardiere-drinking-water-fountain-relot-with-neko-seasonal-cherry-tree
+version: "1.0.1"
+subfolder: 660-parks
+info:
+  summary: Bombardiere Drinking Water Fountain Relot with Neko Seasonal Cherry Tree
+  description: |-
+    Just a simple re-lots replacing the trees on the original with the Neko Seasonal Cherry Trees.
+    Initially intended for personal use only in my gameplay, but I guess I can share so people that interested can have it too.
+
+    You can keep the original Drinking Fountain lot from [British Boxes](pkg=bombardiere:british-boxes) and have both of them in your game, or remove it if you don't want to.
+
+    **Usage**
+
+    You can find the park on the Civic Tools > Park menu.
+
+    **Credits**
+
+    - @Bombardiere for the original lot & props
+    - Neko Punch for the cherry trees & props
+    - @Tyberius06 for the update with a new ID so the lot can co-exist with the original lot.
+
+    **Showcase**
+
+    It's much prettier if you have sidewalk mod too, and I recommend using the Paeng Sandstone Mod.
+
+    Also, here's a short video showcase:  
+    https://youtube.com/shorts/gAQ7ipuhYuI
+
+    I hope it's useful and have fun!
+  author: bhmantan
+  website: https://community.simtropolis.com/files/file/35607-bombardiere-drinking-water-fountain-relot-with-neko-seasonal-cherry-tree/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/drinking_spring.png.4ca4617c547308e771b12e8f59916f45.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/drinking_fall.png.36a94e5a5fb8257a8616136e89d2a203.png
+
+# The lot references 23 distinct props, flora and textures. Apart from the Maxis
+# ones, they come from:
+# - 5 British Boxes props (the bollard and the mail pillar, bench, trough and
+#   litter bin families), which only need the props of British Boxes
+# - 2 props in Neko Prop Set 01 part 2
+# - 9 props in Neko Prop Set 03
+dependencies:
+  - bombardiere:british-boxes-props
+  - neko:prop-set-vol01-part2
+  - neko:prop-set-vol03
+
+assets:
+  - assetId: bhmantan-bombardiere-drinking-water-fountain-relot-with-neko-seasonal-cherry-tree
+    # The zip contains a macOS ._ metadata file named *.SC4Lot
+    exclude:
+      - "__MACOSX/"
+
+---
+assetId: bhmantan-bombardiere-drinking-water-fountain-relot-with-neko-seasonal-cherry-tree
+version: "1.0.1"
+lastModified: "2023-09-02T14:11:30Z"
+url: https://community.simtropolis.com/files/file/35607-bombardiere-drinking-water-fountain-relot-with-neko-seasonal-cherry-tree/?do=download
