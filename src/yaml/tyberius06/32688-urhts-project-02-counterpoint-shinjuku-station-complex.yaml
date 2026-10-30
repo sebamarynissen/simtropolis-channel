@@ -1,5 +1,5 @@
 group: tyberius06
-name: heretic-urhts-project-02-counterpoint-shinjuku-station-complex
+name: urhts-project-02-counterpoint-shinjuku-station-complex
 version: "2.0.0"
 subfolder: 700-transit
 info:
@@ -13,7 +13,7 @@ info:
 
     Some of you may know that CounterPoint is a bit of a special part of my capital city in SC4 (Noir City), partially standard European, partially very Parisian and there are parts of it which recall more Far-Eastern architectures. The last (now released) version of the Shinjuku Station Complex is the main central station of CounterPoint. I like to mix the different styles, that's why the Japanese station complex got very Western additional buildings on the East Wing (this is v1) and since it was made mostly for my CounterPoint city part I call it CounterPoint Shinjuku. Although some of you might not like this mixture, therefore I made a more Japanese looking version (v2), and I call it just simply Shinjuku East Wing. The dimensions for both wings were changed compared to the original lots made by [@tepodon](https://community.simtropolis.com/profile/126266-tepodon/). The two wings have different stats, and only the West Wing has subway cover.
 
-    You can choose which east wing to install with the `tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing` variant: `heretic` (v1), `japanese` (v2) or `both`. The version you choose determines which of the additional office building packages are installed.
+    You can choose which east wing to install with the `tyberius06:urhts-project-02-counterpoint-shinjuku-station-complex:east-wing` variant: `heretic` (v1), `japanese` (v2) or `both`. The version you choose determines which of the additional office building packages are installed.
 
     **List of items**
 
@@ -42,7 +42,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c2277f78d2ff_URHTS02-CounterPointShinjuku(v2)-d.jpg.70c28f0b78ad0b1e7de62cb4c0c15df9.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c2277f93c49f_URHTS02-CounterPointShinjuku(v2)-n.jpg.4a390eb006ecfa2fc3def7c3312fa0a5.jpg
 variantInfo:
-  - variantId: tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing
+  - variantId: tyberius06:urhts-project-02-counterpoint-shinjuku-station-complex:east-wing
     description: Choose the style of the east wing of the station
     values:
       - value: heretic
@@ -55,7 +55,7 @@ variantInfo:
 dependencies:
   - tepodon:tky-shinjuku-station-east-wing-model
   - tepodon:tky-shinjuku-station-west-wing-model
-  - tyberius06:tyb06-heretic-essentials
+  - tyberius06:essentials
   - wmp:mega-props-vol01
   - wmp:mega-props-vol05
   - simmer2:mega-prop-pack-vol1
@@ -68,11 +68,11 @@ dependencies:
   - bsc:vip-girafe-urbanpack-vol01
   - bsc:vip-girafe-french-road-signs
   - bnl:dutch-prop-pack
-  - tamorr:tamorrs-resource
+  - tamorr:resource
   - murimk:props-vol02-mixed
   - nam:network-addon-mod
 variants:
-  - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: heretic }
+  - variant: { tyberius06:urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: heretic }
     dependencies:
       - ndex:its-mega-pack-vol05
       - jp-schriefer:failing-office-building-model
@@ -80,7 +80,7 @@ variants:
       - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
         exclude:
           - "/PLOP_10x15_Heretic Shinjuku Station East v2_4959d7a0\\.SC4Lot$"
-  - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: japanese }
+  - variant: { tyberius06:urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: japanese }
     dependencies:
       - art128:japanese-buildings-compilation-model
       - kei-jpn:mizuho-bank-branch-model
@@ -89,7 +89,7 @@ variants:
       - assetId: tyberius06-heretic-urhts-project-02-counterpoint-shinjuku-station-complex
         exclude:
           - "/PLOP_10x15_Heretic Shinjuku Station East_d8e61512\\.SC4Lot$"
-  - variant: { tyberius06:heretic-urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: both }
+  - variant: { tyberius06:urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: both }
     dependencies:
       - ndex:its-mega-pack-vol05
       - jp-schriefer:failing-office-building-model

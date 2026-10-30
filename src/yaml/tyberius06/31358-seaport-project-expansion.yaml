@@ -1,11 +1,11 @@
 group: tyberius06
-name: heretic-seaport-project-expansion
+name: seaport-project-expansion
 version: "1.0"
 subfolder: 400-industrial
 info:
   summary: 19 more lots for the Heretic SeaPort Project, with the retextured PEG-CDK3 docks, transitions and canal rail yards
   description: |-
-    Here are a few more additions to the SeaPort Project (`pkg=tyberius06:heretic-seaport-project`). Altogether it contains 19 new additional lots (6 of them are totally new). With this expansion pack you get the old PEG-CDK3 docks and some of the other CDK3 related lots (Acme Algae Farm, Captain Jack's Landing, Blackies Boat Yard, Fred Ginger Fishery, Vandy Shipping Company and the two Garbage Disposal Docks), and I made two transition pieces between the PEG-CDK3 and PEG-CDK3-SP sets. After the SG-CAL canal transition pieces, I made transition pieces between game water and the original old-fashioned SimGoober canals, and combined the bigger industrial rail yard type lots with warehouses and canal pieces as well.
+    Here are a few more additions to the SeaPort Project (`pkg=tyberius06:seaport-project`). Altogether it contains 19 new additional lots (6 of them are totally new). With this expansion pack you get the old PEG-CDK3 docks and some of the other CDK3 related lots (Acme Algae Farm, Captain Jack's Landing, Blackies Boat Yard, Fred Ginger Fishery, Vandy Shipping Company and the two Garbage Disposal Docks), and I made two transition pieces between the PEG-CDK3 and PEG-CDK3-SP sets. After the SG-CAL canal transition pieces, I made transition pieces between game water and the original old-fashioned SimGoober canals, and combined the bigger industrial rail yard type lots with warehouses and canal pieces as well.
 
     **The contents**
     - The PEG-CDK3 docks set and related lots
@@ -56,7 +56,7 @@ dependencies:
   - peg:cdk3-algae-farm-resource
   - mgb204:rrw-to-subway-ramps-resource
   - magneto:sam-1-override-car-family-props
-  - tamorr:tamorrs-resource
+  - tamorr:resource
   - franku:bnl-essentials
   - supershk:mega-parking-textures
   - bsc:mega-props-t1-vol03
@@ -68,7 +68,7 @@ dependencies:
   - bsc:mega-props-canals-cal-remastered-simgoober-style
   - bsc:mega-props-canals-simgoober-brick-style
   - cogeo:logistics-centre-dependency-pack
-  - tyberius06:tyb06-heretic-essentials
+  - tyberius06:essentials
   - nam:network-addon-mod
 assets:
   - assetId: tyberius06-heretic-seaport-project-expansion

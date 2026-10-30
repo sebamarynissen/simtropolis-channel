@@ -1,5 +1,5 @@
 group: gshmails
-name: shmails-glr-avenue-station-1
+name: glr-avenue-station-1
 version: "1.0"
 subfolder: 700-transit
 info:
@@ -24,7 +24,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0015/812b5ab4b337a75baafe1a37a8380a7e-ShmailsGLRAvenue1a.jpg
     - https://www.simtropolis.com/objects/screens/0015/812b5ab4b337a75baafe1a37a8380a7e-ShmailsGLRAvenue1b1.jpg
 dependencies:
-  - gshmails:shmails-glr-avenue-station-1-model
+  - gshmails:glr-avenue-station-1-model
   - nam:network-addon-mod
 assets:
   - assetId: gshmails-shmails-glr-avenue-station-1
@@ -34,11 +34,11 @@ assets:
 
 ---
 group: gshmails
-name: shmails-glr-avenue-station-1-model
+name: glr-avenue-station-1-model
 version: "1.0"
 subfolder: 110-resources
 info:
-  summary: Model dependency for `pkg=gshmails:shmails-glr-avenue-station-1`
+  summary: Model dependency for `pkg=gshmails:glr-avenue-station-1`
   author: gshmails
   website: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/
 assets:
