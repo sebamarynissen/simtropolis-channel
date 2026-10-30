@@ -1,0 +1,55 @@
+group: justforfun
+name: tenement-1
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Tenement 1
+  description: |-
+    Inspired by Victoria Square in Manchester, this large brick tenement will house up to 550 R$ sims.  
+    It grows on a 4x6 high-density lot under Chicago tileset.
+
+    DEPENDENCIES
+
+    Essential for the models to appear correctly:
+
+    [JFF Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+    Textures:
+
+    [11241036 Textures](https://community.simtropolis.com/files/file/33651-11241036-textures/)
+
+    Recommended:
+
+    (BSC MEGA Props - CP Vol01  
+    BSC MEGA Props - DAE Vol01  
+    BSC MEGA Props - SG Vol 01)  all contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [Bombardiere British Boxes](https://community.simtropolis.com/files/file/29965-british-boxes/)  (for the bollards)
+
+    [Mntoes Holt Farm Close](https://community.simtropolis.com/files/file/29972-mntoes-holt-farm-close/)  (for the short fence)
+
+    [SFBT Essentials](https://sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    Let me know if this helps solve the housing shortage in your cities!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/35763-tenement-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_11/Front.jpg.29413960deefdd55cb304e50389e3704.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_11/Side.jpg.5caa54b450365411835196cfa896603e.jpg
+dependencies:
+  - bombardiere:british-boxes-props
+  - justforfun:victorian-row-shops-pack-01
+  - mntoes:holt-farm-close
+  - 11241036:textures
+  
+  - sfbt:essentials
+assets:
+  - assetId: justforfun-tenement-1
+
+---
+assetId: justforfun-tenement-1
+version: "1.0.0"
+lastModified: "2023-11-15T09:21:08Z"
+url: https://community.simtropolis.com/files/file/35763-tenement-1/?do=download&r=198419

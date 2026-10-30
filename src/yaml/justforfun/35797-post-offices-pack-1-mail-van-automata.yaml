@@ -1,0 +1,107 @@
+group: justforfun
+name: post-offices-pack-1-mail-van-automata
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: Post Offices Pack 1 + mail van automata
+  description: |-
+    Give your sims a widespread and efficient mail network with this set of 10 post offices!  
+    They come in a variety of styles and lot sizes suitable for straight, diagonal, corner, or roundabout settings.
+
+    If you download the ploppable version you'll find the icons in the landmark menu, with descriptions of which layout each post office is suitable for and how many CO$$ or CO$$$ jobs it provides.  
+    Alternatively you can download the growable version and plop these with the extracheats plugin, like I personally do. In this case you'll find them listed under CO$$ JFF Post office, as they all share the same CO$$ building.
+
+    Additionally, if you want your post offices to spawn a vintage mail delivery van, you can download the separate file containing the UDI automaton. It is a 1950s Morris van upscaled 20% to make it fit with Maxis vehicles. The "Royal Mail" logo on its side isn't really noticeable so this little automaton can suit any vintage city.  
+    Included in the file are also straight, diagonal, and 22.5-angled props of the van which you can use in the LE.
+
+    Lastly, both the growable and ploppable versions weigh about 700KB, the rest of the download is pictures!
+
+    DEPENDENCIES
+
+    Essential for the models:
+
+    [JFF Victorian Row Houses Megapack 01](https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/)
+
+    [JFF Victorian Row Houses Megapack 02](https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/)
+
+    [JFF Semidetached House Pack 02](https://community.simtropolis.com/files/file/35547-victorian-semi-detached-houses-pack-02/)
+
+    [JFF Victorian Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+    [JFF Victorian Row Shops Pack 02](https://community.simtropolis.com/files/file/35494-victorian-row-shops-pack-02/)
+
+    Textures:
+
+    [11241036 Textures](https://community.simtropolis.com/files/file/33651-11241036-textures/)
+
+    [Vortexture 1 - Base Set v1](https://www.sc4evermore.com/index.php/downloads/download/168-vortext-vortexture-1-2-base-set-grass-and-dirt)
+
+    Recommended:
+
+    (BSC MEGA Props - CP Vol01  
+    BSC Mega Props - CP Vol02  
+    BSC MEGA Props - SG Vol 01   
+    BSCBATPropsMattb325\_Vol02) all contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [Bombardiere British Boxes](https://community.simtropolis.com/files/file/29965-british-boxes/)
+
+    [Bombardiere - Clerkenwell Close](https://community.simtropolis.com/files/file/31011-clerkenwell-close-hd-version/)
+
+    [PorkieProps-Vol1](https://community.simtropolis.com/files/file/11421-jenx-porkie-expanded-porkie-props/)
+
+    [SFBT Essentials](https://sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    If you enjoy this new mail service, please like and review and stay tuned for more coming to the STEX!
+
+    Justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/35797-post-offices-pack-1-mail-van-automata/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e1fb590d4_Postoffice01.jpg.85a38eb6ee56067a21a32a546cf0057e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e205cbd9b_Postoffice02.jpg.d6f005c6e6de9e9e88944ae3a33ceaf7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e20c5e4a4_Postoffice03.jpg.746e3fa649e83b53cea05f73c5ca544e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e2128f15e_Postoffice04.jpg.9b7672fbfc28f88ee8c540464d165288.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e21a6c7bd_Postoffice05.jpg.4d8aa80affce37b76e0d3b09be8e1b5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e2207abb4_Postoffice06.jpg.13527358bf765edc0d1dce27e8dd6497.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e22967730_Postoffice07.jpg.eecf89ca8b2da0734927fe25eba6eba1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e22e3379c_Postoffice08.jpg.4d047e1c974f494c16ca915fb6179898.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e235601ef_Postoffice09.jpg.3959cd246e2e5e01095676cccd90aefe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e23b1f4e7_Postoffice10.jpg.b190d2323ef763a5699d6ffbd1766008.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e23fd0c90_RoyalMailvan.jpg.8d85d934fa389780221c78e53a03fc06.jpg
+dependencies:
+  - bombardiere:clerkenwell-close-model
+  - bombardiere:british-boxes-props
+  - justforfun:semidetached-house-pack-02
+  - justforfun:victorian-row-houses-megapack-01
+  - justforfun:victorian-row-houses-megapack-02
+  - justforfun:victorian-row-shops-pack-01
+  - justforfun:victorian-row-shops-pack-02
+  - 11241036:textures
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - sfbt:essentials
+  - vortext:vortexture-1
+assets:
+  - assetId: justforfun-post-offices-pack-1-mail-van-automata-part0
+  - assetId: justforfun-post-offices-pack-1-mail-van-automata-part1
+  - assetId: justforfun-post-offices-pack-1-mail-van-automata-part2
+
+---
+assetId: justforfun-post-offices-pack-1-mail-van-automata-part0
+version: "1.0.1"
+lastModified: "2026-05-28T12:07:14Z"
+url: https://community.simtropolis.com/files/file/35797-post-offices-pack-1-mail-van-automata/?do=download&r=211976
+
+---
+assetId: justforfun-post-offices-pack-1-mail-van-automata-part1
+version: "1.0.1"
+lastModified: "2026-05-28T12:07:14Z"
+url: https://community.simtropolis.com/files/file/35797-post-offices-pack-1-mail-van-automata/?do=download&r=211977
+
+---
+assetId: justforfun-post-offices-pack-1-mail-van-automata-part2
+version: "1.0.1"
+lastModified: "2026-05-28T12:07:14Z"
+url: https://community.simtropolis.com/files/file/35797-post-offices-pack-1-mail-van-automata/?do=download&r=211978

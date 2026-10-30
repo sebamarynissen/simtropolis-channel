@@ -1,0 +1,152 @@
+group: bombardiere
+name: british-boxes
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: British Boxes
+  description: |-
+    **UPDATE 11.3.2016\* New Props**
+
+    EDIT: 1.11.2014. Attention. I keep doing mistakes. If now the missing prop the K6 Type PhoneBox Prop is included. Please again download the new file.
+
+    This is a prop pack for Victorian and early 20th century British style street furniture. These props are intended to period use, but time scale is long. The props are based on real life examples and can be seen on British streets even today. Although many, such as village pump or cattle trough, are left as ornate and do not carry anymore the original function.
+
+    I have made and included 23 props and 4 functional lots.
+
+    1 x Police box (Prop & Functional police kiosk)
+
+    1 x Village Pump (Prop & Functional water tower)
+
+    2 x Phone Boxes (K1 and K6 type)
+
+    1 x Drinking Fountain
+
+    6 x Mail Boxes
+
+    2 x Bollards
+
+    2 x Benches
+
+    2 x Litter Bins
+
+    2 x Cattle Troughs
+
+    As for a bonus, three Irish colour variations.
+
+    **\*Update March 2016**
+
+    8 x Newspaper Headlines Boards
+
+    4 x Pub Sign Sandwich Boards.
+
+    4 x Pub Benches.
+
+    (These are intended as props for my forthcoming Clerkenwell Close building pack.)
+
+    Items are grouped into separate folders and unwanted can be deleted. For example, the functional lots can be deleted as these are not dependencies.
+
+    Functional Lots
+
+    Police Kiosk:
+
+    Plop Cost 60
+
+    Radius 240
+
+    Monthly Cost 30
+
+    Total Dispatches 0
+
+    Jail Capacity 0
+
+    Department Police Department
+
+    Water Tower
+
+    Plop Cost 150
+
+    Capacity 2600 cu
+
+    Monthly Cost 50
+
+    Department Water Department
+
+    Phone box Square High Wealth
+
+    Plop Cost 60
+
+    Park Effect 40 / 15
+
+    Landmark Effect 40 / 15
+
+    Monthly Cost 12
+
+    Demand Satisfied R$ CAP 1000, R$$ CAP 1000 R$$$ CAP 1000
+
+    Pollution Air -1, Water 0, Garbage 0
+
+    Department Park and Rec
+
+    Drinking Fountain Square Medium Wealth
+
+    Plop Cost 40
+
+    Park Effect 50 / 15
+
+    Landmark Effect 20 / 15
+
+    Monthly Cost 8
+
+    Demand Satisfied R$ CAP 500, R$$ CAP 500, R$$$ CAP 500
+
+    Pollution Air -2, Water -1, Garbage 0
+
+    Department Park and Rec
+
+    NO DEPENDENCIES
+
+    (However the props included in the pack are needed for the functional lots)
+
+    This is my first upload, so I appreciate feedback. Just in case I have done something silly. I have a Bat thread, so please visit and say hello.
+
+    [https://community.simtropolis.com/topic/64330-bombardieres-london-english-bats/page-2](https://community.simtropolis.com/topic/64330-bombardieres-london-english-bats/page-2)
+
+    Enjoy
+  author: Bombardiere
+  website: https://community.simtropolis.com/files/file/29965-british-boxes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/4ddc83f310f793e089425bd251db4b32-british-boxes.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/c15084d2e0d19f60a763518b96b55eb3-british-boxes-lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/UpdateMar16.jpg.2a211247faa0c967aafc01bf98347826.jpg
+dependencies:
+  - bombardiere:british-boxes-props
+assets:
+  - assetId: bombardiere-british-boxes
+    include:
+      - "\\.SC4Lot$"
+      - "\\.SC4Desc$"
+
+---
+group: bombardiere
+name: british-boxes-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: British Boxes
+  author: Bombardiere
+  website: https://community.simtropolis.com/files/file/29965-british-boxes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/4ddc83f310f793e089425bd251db4b32-british-boxes.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/c15084d2e0d19f60a763518b96b55eb3-british-boxes-lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/UpdateMar16.jpg.2a211247faa0c967aafc01bf98347826.jpg
+assets:
+  - assetId: bombardiere-british-boxes
+    exclude:
+      - "\\.SC4Lot$"
+      - "\\.SC4Desc$"
+
+---
+assetId: bombardiere-british-boxes
+version: "1.0"
+lastModified: "2014-10-29T09:30:36Z"
+url: https://community.simtropolis.com/files/file/29965-british-boxes/?do=download&r=161033

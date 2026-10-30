@@ -1,0 +1,33 @@
+group: bombardiere
+name: clerkenwell-close-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Clerkenwell Close HD Maxis Night
+  description: |-
+    Caution: The file has only the SC4 Models and Desc. Lots are not included.
+
+    There has been a few request so here is HD Maxis night version of the Clerkenwell Close building pack. All the models are converted to Maxis night option. Stats are same and all files have desc.sc4 included. The props and the Main buildings.
+
+    However, as noted above, I have not included the lots. So this is only for those of you who are willing to do extra effort to make lots themselves or use my Dark Night lots as template.
+  author: Bombardiere
+  website: https://community.simtropolis.com/files/file/31112-clerkenwell-close-hd-maxis-night/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/ClerkenHD_Maxis.jpg.43579209166c1e58c867957fd5fb33b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/ClerkenHD_Maxis2.jpg.b255b669718623f9fa907484fb003271.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/ClerkenHD_Maxis3.jpg.385fc4e51803b4eebb9ceeca0ab5b6a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/ClerkenHD_Maxis4.jpg.48fe9309e1a85878d9a99aecf12e8b80.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: bombardiere-clerkenwell-close-hd-maxis-night-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: bombardiere-clerkenwell-close-hd-maxis-night-maxisnite
+
+---
+assetId: bombardiere-clerkenwell-close-hd-maxis-night-maxisnite
+version: "1.0"
+lastModified: "2016-06-01T15:02:07Z"
+url: https://community.simtropolis.com/files/file/31112-clerkenwell-close-hd-maxis-night/?do=download&r=161959

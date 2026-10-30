@@ -1,0 +1,67 @@
+group: justforfun
+name: animated-horse-drawn-carriage-automata-pack-1
+version: "1.1.0"
+subfolder: 710-automata
+info:
+  summary: Animated horse-drawn carriage automata Pack 1
+  description: |-
+    After countless weeks of work and many more headaches, here are the first horse-drawn carriage automata ever made for this wonderful game.  
+    This pack consists of 20 Victorian carriages that will replace as many Maxis cars in roaming your cities, namely 13 Brougham, 2 Rockaway, 3 Stanhope, and 2 Victoria carriages. The best part is that they come with animated horses and most are trailer sets, so the front and back wheels move independently.
+
+    I owe a HUUUGE thank you to [@rivit](https://community.simtropolis.com/profile/240203-rivit/) for his generous and extensive help in getting the modding to work. It took a considerable amount of experimentation to find the right positioning and rules, and this pack wouldn't be here without rivit's amazing help.
+
+    I plan on making more packs in the future, with different types of carriages that will eventually override all Maxis cars. It may take some time though,  meanwhile hope you enjoy your chunk of Victorian traffic, whoa, whoa!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b424b5bd_Brougham10.jpg.441de520d91741fb871bc9842902ea38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b5666416_Brougham1-7.jpg.af3514754191dc8420b2b3c43e60c62f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b618d12b_Brougham2.jpg.519c29aaa04dd117f8e983246d5a65bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b6d98500_Brougham3.jpg.4dcb3afef3ef7e494dece92a3adee3db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b7728982_Brougham4.jpg.fdf79774a0eaef47385acc7d30845acc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b844c745_Brougham5-Rockaway2.jpg.e81916de5814798931aaa3aaad4eb9e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b90172cc_Brougham6.jpg.ced58ae852cbe2cdc50d2e8d55cbd4c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812b9bf2529_Brougham7.jpg.cdecb8a03efe4a598513e768681dc4cf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812ba72c226_Brougham8.jpg.cef4589cd2176ac442cfa28a03027f9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812bb48664d_Brougham9.jpg.e70b9342f39b993e5abfbfd733ec0a2d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812bc21264f_Brougham11.jpg.d1efc69efb9dea251ff74385a0e48588.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812bced3081_Brougham12.jpg.afa538021baa4ced05510fd0925465c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812bdbc4c0f_Brougham13.jpg.90b0525d92e85873f9c0f2a06b231bdb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812beae4349_Victoria1.jpg.09a8d67fd2e1124eea00303c0437e544.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812bf88bc21_Victoria2.jpg.d101738bbe488de2039f2cf3f4fda35f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812c0a40f79_Rockaway1.jpg.802c1e1264d14a2d212cfa257efad88c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812c1a2fe65_Stanhope1.jpg.d43e1d92cf44381e907a0ff3438b463b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812c2972a84_Stanhope2.jpg.e1adcab128a0684e3ea3c692f695ecb5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d812c36058a6_Stanhope3.jpg.76d224878c4771e74e544170d0e43be9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Coachmen1.jpg.05ca1c253ce828aa23916d3bf3b27c56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Coachmen2.jpg.56c0f6c61927b6dd0c0a9244ce065fd1.jpg
+assets:
+  - assetId: justforfun-animated-horse-drawn-carriage-automata-pack-1
+    exclude:
+      - "/MaxisCarsSuppressor_optional.dat"
+# variants:
+#   - variant: { justforfun:animated-horse-drawn-carriage-automata-pack-1:maxis-automata: "suppressed" }
+#     assets:
+#       - assetId: justforfun-animated-horse-drawn-carriage-automata-pack-1
+#   - variant: { justforfun:animated-horse-drawn-carriage-automata-pack-1:maxis-automata: "default" }
+#     assets:
+#       - assetId: justforfun-animated-horse-drawn-carriage-automata-pack-1
+#         exclude:
+#           - "/MaxisCarsSuppressor_optional.dat"
+# variantInfo:
+#   - variantId: justforfun:animated-horse-drawn-carriage-automata-pack-1:maxis-automata
+#     description: Choose to suppress Maxis vehicle automata, or include these automata alongside vehicle automata. Useful if you are creating historical themed cities.
+#     values:
+#       - value: "suppressed"
+#         description: Suppress Maxis vehicle automata.
+#       - value: "default"
+#         description: Include Maxis vehicle automata alongside these carriages.
+#         default: true
+
+---
+assetId: justforfun-animated-horse-drawn-carriage-automata-pack-1
+version: "1.1.0"
+lastModified: "2020-11-14T12:18:55Z"
+url: https://community.simtropolis.com/files/file/33178-animated-horse-drawn-carriage-automata-pack-1/?do=download&r=183766

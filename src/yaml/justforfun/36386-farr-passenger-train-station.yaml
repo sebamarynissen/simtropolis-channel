@@ -1,0 +1,56 @@
+group: justforfun
+name: farr-passenger-train-station
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: FARR Passenger Train Station
+  description: |-
+    So... your sims need to get the train on fractional-angle railroads but they can't for lack of stations?  
+    Here is one to plop on 72-degree rail, that is FARR 3,  with a capacity of 65,000 passengers and modding revised by @Tyberius to the best NAM standard. It sits on a 4x2 lot and features an overhanging platform.   
+    The model is a true 3d therefore suitable for any camera angles, and the whole package weighs a mere 57 KB!
+
+    DEPENDENCIES:
+
+    Essential for the model to appear correctly:
+
+    [JFF Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+    [JFF Row Shops Diagonal](https://community.simtropolis.com/files/file/35527-victorian-row-shops-diagonal/)
+
+    [JFF Post Offices Pack 2](https://community.simtropolis.com/files/file/36034-post-offices-pack-2/)
+
+    Recommended:
+
+    (BSC MEGA Props - CP Vol01  
+    BSC MEGA Props - DAE Vol01) contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [Bombardiere British Boxes](https://community.simtropolis.com/files/file/29965-british-boxes/)
+
+    [Simfanatik London Taxis Cab](https://community.simtropolis.com/files/file/27627-london-taxis-cab)  - unless you plan to replace the taxis in the LE!
+
+    What do your sims think of their new oblique facility? Let me know through likes and reviews, and as usual stay tuned for more coming to the STEX!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/36386-farr-passenger-train-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/front.jpg.9bebedee4616d6c35deb625b1d82f840.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/platform.jpg.152d0572dd4a9540a015af0783cd3f83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/right.jpg.ea8530ff219182b9af31e960e932a4b0.jpg
+dependencies:
+  - bombardiere:british-boxes-props
+  - justforfun:post-offices-pack-2
+  - justforfun:row-shops-diagonal-pack-1
+  - justforfun:row-shops-pack-01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-dae-vol01
+  - simfanatik:london-taxis-cab-prop
+  
+assets:
+  - assetId: justforfun-farr-passenger-train-station
+
+---
+assetId: justforfun-farr-passenger-train-station
+version: "1.0.0"
+lastModified: "2026-05-28T11:17:36Z"
+url: https://community.simtropolis.com/files/file/36386-farr-passenger-train-station/?do=download&r=211858

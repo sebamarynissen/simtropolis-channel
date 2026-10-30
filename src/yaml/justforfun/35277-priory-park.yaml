@@ -1,0 +1,111 @@
+group: justforfun
+name: priory-park
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Priory Park
+  description: |-
+    Give your sims a peaceful oasis with this 16x18 park lot featuring an old priory with fruit trees, a colourful flower garden, an orangerie, a large gazebo, a water tower, a pond, and a small country club at the centre of it. It has park, landmark, and (you'd never guess) country club effect!   
+    Plop cost is 500, monthly cost 100.  
+    The list of dependencies is quite extensive because of all the props needed to create this heavenly retreat, however most of them are old acquaintances of your plugin folders:
+
+    [AGC Environment DLC 3.0.0](https://community.simtropolis.com/files/file/34720-agc-environment-dlc/)
+
+    [AGV Heuvelstraat 109 & Stationsstraat 41](https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/)
+
+    [Bombardiere British Boxes](https://community.simtropolis.com/files/file/29965-british-boxes/)
+
+    [BSC BAT Props - CSX Flora Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=461)
+
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+
+    [BSC MEGA Props - CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    [BSC MEGA Props - CP Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+    [BSC MEGA Props - D66 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=396)
+
+    [BSC MEGA Props - MJB Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+
+    [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC MEGA Props - swi21 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)
+
+    [BSC MEGA Props - swi21 Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=405)
+
+    [BSC MEGA Props Jen\_P Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1259)
+
+    [BSCBATProps KWK Vol 04](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1297)  (essential for the priory and orangerie)
+
+    [BSCBATPropsMattb325 Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+    [BSC Texture Megapack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC\-VIP Girafe Chestnuts](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049)
+
+    [BSC\-VIP Girafe Daisy](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3251)
+
+    [CSX Mansion Anna Dean](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=141)  (essential for the gazebo)
+
+    [ESA Railpack Vol 1](https://community.simtropolis.com/files/file/34777-esa-rail-prop-pack/)  (essential for the priory and water tower)
+
+    [Has dependencies](https://web.archive.org/web/20250101000000/http://hide-inoki.com/bbs/archives/sc4_0372.html)
+
+    [JBM-LNX Meggaproppack](https://community.simtropolis.com/files/file/31186-jbm_lnx_megga_proppack/)  (essential for the pond)
+
+    [JENXPROP TreePack1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1393)
+
+    [JENXPROP TreePack4](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=4163)
+
+    [LBT Mega Props 01](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+
+    [Mattb325 Cottages Ornee Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2202)  (essential for the country club)
+
+    Phew! And after checking for all these it's time to enjoy your flowery stroll!
+
+    justforfun
+  author: justforfun
+  website: https://community.simtropolis.com/files/file/35277-priory-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/1.jpg.59f986b9f7109376e9f035b3d0c4e667.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/2.jpg.0b1d497e5469b72a1c8e5d574bcfb68a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/3.jpg.9a113931c6c22a353c1aae076adae47c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/4.jpg.8262931f88ba91a820dc72867103b261.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/5.jpg.e6a56ae79778b3712c06a5540e11bd29.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/6.jpg.68ea0334b2e7c22a9ff88d099f0cef28.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/7.jpg.e9df9f34de80123fd77f4f4ab85a5ae8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/8.jpg.a23b081560b61c734e252bdd94e62d49.jpg
+dependencies:
+  - bsc:mega-props-kwk-vol03
+  - bombardiere:british-boxes-props
+  - '"[CSX Mansion Anna Dean](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=141)"'
+  - oidaas:esa-rail-prop-pack
+  - mary-maurine-mayo:jbm-lnx-megga-proppack
+  - '"[JENXPROP TreePack1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1393)"'
+  - '"[JENXPROP TreePack4](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=4163)"'
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - aarsgevogelte:heuvelstraat-109-and-stationsstraat-41-tilburg
+  - agc:environment-dlc-props
+  - bsc:bat-props-mattb325-vol02
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-jen-p-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:textures-vol01
+  - csx:mega-props-vol03
+  - girafe:chestnuts
+  - girafe:daisy
+  - lbt:mega-prop-pack-vol01
+assets:
+  - assetId: justforfun-priory-park
+
+---
+assetId: justforfun-priory-park
+version: "1.0.0"
+lastModified: "2022-08-21T12:28:58Z"
+url: https://community.simtropolis.com/files/file/35277-priory-park/?do=download&r=195163

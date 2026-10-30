@@ -1,0 +1,59 @@
+group: alex-bervoets
+name: castle-of-ooidonk-belgium
+version: "1.0"
+info:
+  summary: Castle of Ooidonk, Belgium
+  description: |-
+    The castle was built in the 16th century and is still owned by the family that build it... Recently renovated to its current state.
+
+    This is a pack with the castle, the entrance gate and some paths.
+
+    Castle:
+    * build cost: 45000
+    * upkeep: 45
+    * nightlights: yes
+    * large landmark effect
+    * NO dependencies
+
+    Entrance gate and parks:
+    * small build cost
+    * small upkeep cost
+    * no nightlights
+    * park effect
+    * NO dependencies
+
+    ENJOY ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Alex
+  author: Alex_Bervoets
+  website: https://community.simtropolis.com/files/file/27205-castle-of-ooidonk-belgium/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/62e1d018cd0e4364a0fa7cf7b754b5a3-castle_of_ooidonk_n.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/5aa04be72ec43c2ab165a9bdfb99f71c-castle_of_ooidonk_s.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/b9760b46e8f0f5fdb9b8ef48206d11ef-luchtfoto_voorkant2.jpg
+dependencies:
+  - alex-bervoets:castle-of-ooidonk-belgium-model
+assets:
+  - assetId: alex-bervoets-castle-of-ooidonk-belgium
+    exclude:
+      - \.SC4Model$
+
+---
+group: alex-bervoets
+name: castle-of-ooidonk-belgium-model
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Model for `pkg=alex-bervoets:castle-of-ooidonk-belgium`
+  author: Alex_Bervoets
+  website: https://community.simtropolis.com/files/file/27205-castle-of-ooidonk-belgium/
+assets:
+  - assetId: alex-bervoets-castle-of-ooidonk-belgium
+    include:
+      - \.SC4Model$
+
+---
+assetId: alex-bervoets-castle-of-ooidonk-belgium
+version: "1.0"
+lastModified: "2012-01-20T06:38:04Z"
+url: https://community.simtropolis.com/files/file/27205-castle-of-ooidonk-belgium/?do=download&r=96130
