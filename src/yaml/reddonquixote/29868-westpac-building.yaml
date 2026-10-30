@@ -1,0 +1,43 @@
+group: reddonquixote
+name: westpac-building
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Westpac Building, Melbourne, Australia
+  description: |-
+    The Westpac Building is a 142m, 38 storey office building located at 360 Collins Street, Melbourne.
+
+    It was built in 1978 in the Modern style, featuring vertical fins which balance the horizontal strip windows.
+
+    (Source: Walking Melbourne)
+
+    This is my 29th BAT.
+
+    The Westpac Building is a Landmark, costs §110,000 to build and occupies 3x3 lot space.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29868-westpac-building-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/83ca6e67660d7b2f1d0d3dad305fdf44-360_collins_street_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/5f56ad28ea34a4c1aeee750b12dc12f8-360_collins_street_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/d4a8ce7c7e9f2610d885abcecb56bbce-360_collins_street_00.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-westpac-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-westpac-building-darknite
+
+---
+assetId: reddonquixote-westpac-building-maxisnite
+version: "1.0"
+lastModified: "2014-08-31T01:26:16Z"
+url: https://community.simtropolis.com/files/file/29868-westpac-building-melbourne-australia/?do=download&r=141402
+
+---
+assetId: reddonquixote-westpac-building-darknite
+version: "1.0"
+lastModified: "2014-08-31T01:26:16Z"
+url: https://community.simtropolis.com/files/file/29868-westpac-building-melbourne-australia/?do=download&r=141401
