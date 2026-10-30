@@ -26,15 +26,6 @@ info:
 # and the light poles of z0 (zTariel-LRMv4 US Generic Lightpoles_v2.dat), which would be an override on top of the LRM override, and the readme
 # says it is optional when you already have a lighting set-up. The second file is also flawed: the Rivit light cones 0x5dff77f2 and 0x5dff77f5
 # that its poles 0xdd1f0000 and 0xdd1e0000 use are not in V5 (nor in LRM v4), so those poles would lose their cone.
-# Checked against the contents of all dependencies:
-#   - the light poles of "Tariel-LRMv4 US Generic Lightpoles_v2.dat" use the models of LRMv4_Models_Streetlights_USA.dat
-#   - the light cones of "zTariel-LRMv4 US Generic Lightpoles_v2.dat" use the models of LRMv4_Models_LightCones_{DarkNite,MaxisNite}.dat (0x5dff77a2, a4, a5)
-#     and the Rivit cones 0x5dff77f4 of "Tariel-RVT LightCones.dat". The Rivit cones 0x5dff77f2 and 0x5dff77f5, which are used by the
-#     poles 0xdd1f0000 and 0xdd1e0000 of that optional override, are not in any known package (not in this upload nor in LRM v4)
-#   - the taxi props of "TL-PROPS JRJ Yellow taxis rsc.dat" use the models of BSC MEGA Props - JRJ Vol02
-#   - the airport shuttles are self-contained (the models and textures are included), so the Mikeseith garages are not needed
-#   - the flood light uses the Maxis model 0x29da0000
-#   - the readme also lists NOB Ftexture.dat and ML Texture.dat. Nothing in the upload references them, they are used by other TL lots.
 dependencies:
   - mandelsoft:light-replacement-mod-props
   - bsc:mega-props-jrj-vol02

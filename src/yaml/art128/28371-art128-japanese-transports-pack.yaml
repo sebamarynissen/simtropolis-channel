@@ -43,13 +43,6 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/JR%20transport%20packfull%20v2.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/Mitakiuploadleft_zpse03a780c.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/Mitakiuploadright_zpsa4883e56.jpg
-# The original description lists Catenary Essentials and Rail Catenary Mod V3 HD (only Catenary_Prop_exemplar_for_rail.dat) by Plundere;
-# its first link points to the V3 upload, but the essentials are upload 21934. Both are needed by the Electric stations.
-# The overpass and the airport lots have no dependencies.
-# The Mitaki readme also lists the SC4D LEX Legacy Ultimate Airport Pack as dependency. The only props of it that are used are
-# 0xac020000, 0xac050000 and 0xac060000, which are in AC MEGA Props Vol09, so `pkg=ac:mega-props-vol09` is sufficient.
-# The planters 0x5a804e15, 0xd9b95062 and 0x39b9506f are in Neko Prop Set Vol02, the rail props 0x95041d33 and 0x7529d835 in SFBT Eisenbahn Props.
-# The Mitaki props 0x2ab60000 and 0x2ab70000 are Maxis props (also overridden by RDG Prop Pack 1), so they are not a dependency.
 dependencies:
   - art128:japanese-transports-pack-model
   - plundere:catenary-essentials

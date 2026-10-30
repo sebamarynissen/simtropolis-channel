@@ -15,14 +15,7 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0018/9fa0863b0376223e988e7319c4d09de0-streetaday.jpg
     - https://www.simtropolis.com/objects/screens/0021/bc8dd137889cb9101f8634d8ba223bc2-streetanight.jpg
-# The original upload lists no dependencies. The props used by the lots (lot configuration IDs) come from:
-#   - jenx-porkie-expanded-porkie-props: 0x0ee63b05 (PK-tree01-summer), 0x2ee5cfda (PK-tree01-fall), 0xaee63b1c (PK-tree01-winter)
-#     in the growable lot and the clinic; 0x2eed8765 (PK-chaine) and 0x6ef30071 (PK-affichette01) in the clinic
-#   - cogeo:logistics-centre-dependency-pack: 0xffedcb78 (ECS_Prop_DistributionTruck3_SC1) in the growable lot
-# The props 0x2ab60000, 0x2ab70000 and 0x296f0000 are Maxis props (also overridden by RDG Prop Pack 1 and PEG CDKM Marina), so they are not a dependency.
-# Base textures 0x25901000, 0x25ae2000 and 0x258f2000 are Maxis textures (overridden by gobias:sidewalk-mod), so they are not a dependency.
 # TODO: the prop 0x7cca4820 (used by the growable lot) is not in any sc4pac package yet
-# The model of this upload is identical to the one in NDEX ITS MEGA Props Vol05, which is part of ndex:its-mega-pack-vol05 (only the BAT thumbnails of the model are stripped there).
 dependencies:
   - ndex:its-mega-pack-vol05
   - porkissimo:jenx-porkie-expanded-porkie-props
