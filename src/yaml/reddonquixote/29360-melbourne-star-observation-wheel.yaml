@@ -1,0 +1,49 @@
+group: reddonquixote
+name: melbourne-star-observation-wheel
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Melbourne Star Observation Wheel, Melbourne, Australia
+  description: |-
+    The Melbourne Star Observation Wheel (previously Southern Star) is a giant Ferris wheel in the Docklands, Melbourne.
+
+    It is 120m tall and has seven spokes, reflecting the seven-pointed star of the Australian flag.
+
+    It opened two years behind schedule in December 2008, but closed 40 days later due to structural defects, and was subsequently dismantled for major repairs. The wheel itself was scrapped and replaced, but the original support structure and passenger cabins were retained. It did not reopen until 23 December 2013.
+
+    One complete rotation takes 30 minutes and provides uninterrupted 360-degree views of up to 40 kilometres, encompassing the Docklands precinct, Melbourne's CBD, Port Phillip Bay and as far as Mount Macedon and the Dandenong Ranges.
+
+    (source: Wikipedia)
+
+    This is my 20th BAT.
+
+    Melbourne Star Observation Wheel is an overhanging prop Landmark, occupying approximately 7x9 lot space.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29360-melbourne-star-observation-wheel-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/c76a516cebad235e0c3dac18b310dcea-melbourne_star_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/bb30948e35ac7949e7e328c718ef4faf-melbourne_star_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/90547833b0e63452ea339dfb79053276-melbourne_star_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/58c6d2e025251098451cb9993f51a653-melbourne_star_04.jpg
+  conflicts: Some users have reported a conflict with [Dirty Industry Freight Station](https://community.simtropolis.com/files/file/3359-dirty-industry-freight-station/), uploaded to the STEX in 2004. If you have this BAT installed you will get a visual glitch on the Melbourne Star Observation Wheel at a specific zoom and rotation. You will need to decide which BAT you will keep, or live with the glitch if it doesn't bother you too much :)
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-melbourne-star-observation-wheel-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-melbourne-star-observation-wheel-darknite
+
+---
+assetId: reddonquixote-melbourne-star-observation-wheel-maxisnite
+version: "1.0"
+lastModified: "2014-03-23T10:54:32Z"
+url: https://community.simtropolis.com/files/file/29360-melbourne-star-observation-wheel-melbourne-australia/?do=download&r=130815
+
+---
+assetId: reddonquixote-melbourne-star-observation-wheel-darknite
+version: "1.0"
+lastModified: "2014-03-23T10:54:32Z"
+url: https://community.simtropolis.com/files/file/29360-melbourne-star-observation-wheel-melbourne-australia/?do=download&r=130814

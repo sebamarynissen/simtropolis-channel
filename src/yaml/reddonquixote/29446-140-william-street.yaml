@@ -1,0 +1,44 @@
+group: reddonquixote
+name: 140-william-street
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: 140 William Street, Melbourne, Australia
+  description: |-
+    140 William Street (formerly BHP House) is a skyscraper in Melbourne, Australia. It is one of a few heritage registered skyscrapers in Melbourne. It is located at 140 William Street and is situated on the corner of Bourke Street, in the central business district, and was completed in 1972.
+
+    As an early plot ratio building, it features a large open plaza and public artworks and is an example of the modern style.
+
+    (source: Wikipedia)
+
+    This is my 22nd BAT.
+
+    140 William Street is a 3x3 Landmark.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29446-140-william-street-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/ef2f7a398d8bf1ca148f33b1a622e938-dayversion.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/87dad45c374bbe9e45805ade00e28e0e-nightversion.jpg
+dependencies:
+  - nam:textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-140-william-street-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-140-william-street-darknite
+
+---
+assetId: reddonquixote-140-william-street-maxisnite
+version: "1.0"
+lastModified: "2014-04-12T03:45:36Z"
+url: https://community.simtropolis.com/files/file/29446-140-william-street-melbourne-australia/?do=download&r=131218
+
+---
+assetId: reddonquixote-140-william-street-darknite
+version: "1.0"
+lastModified: "2014-04-12T03:45:36Z"
+url: https://community.simtropolis.com/files/file/29446-140-william-street-melbourne-australia/?do=download&r=131217

@@ -1,0 +1,45 @@
+group: reddonquixote
+name: telstra-corporate-centre
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Telstra Corporate Centre, Melbourne, Australia
+  description: |-
+    Telstra Corporate Centre is an office skyscraper in Melbourne, Australia that opened in 1992. Standing 219m high with 47 floors, it is in the top ten tallest in Melbourne. Located at 242 Exhibition Street, it is the world headquarters for Telstra and includes a small retail precinct located on the ground floor towards the Little Lonsdale St side.
+
+    The building was designed by Perrott Lyon Mathieson, the architect of Rialto Towers. The new reception area features Australia's largest indoor vertical live garden.
+
+    (source: Wikipedia)
+
+    This is my 26th BAT.
+
+    The Telstra Corporate Centre is a Landmark, costs §110,000 to build and occupies 5x6 lot space.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29733-telstra-corporate-centre-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/9c5d2bd04809b132819db6c7e29d2537-telstra_corporate_centre_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/9eabe732d43827ea3632d3aa3bf59f58-telstra_corporate_centre_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/358cb3839c320c0ae440198d9ed43ce9-telstra_corporate_centre_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/720bf57625e908bc2a6faec5c7982c6b-telstra_corporate_centre_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/7c926b7fd8d8ef19237cac346502814d-telstra_corporate_centre_03.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-telstra-corporate-centre-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-telstra-corporate-centre-darknite
+
+---
+assetId: reddonquixote-telstra-corporate-centre-maxisnite
+version: "1.0"
+lastModified: "2014-07-10T12:09:31Z"
+url: https://community.simtropolis.com/files/file/29733-telstra-corporate-centre-melbourne-australia/?do=download&r=137661
+
+---
+assetId: reddonquixote-telstra-corporate-centre-darknite
+version: "1.0"
+lastModified: "2014-07-10T12:09:31Z"
+url: https://community.simtropolis.com/files/file/29733-telstra-corporate-centre-melbourne-australia/?do=download&r=137660
