@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: city-it-college
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: City IT College
+  description: |-
+    Built to accommodate the increased demand for modern IT education.
+
+    * Plop Cost: §3,000
+    * Capacity: up to 6,000
+    * Coverage: 4,096
+    * EQ Boost: 45
+    * Water Consumed: 2
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11978-city-it-college-working-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0bb87f49f0c7cff1110e102d8901e849-City%20IT%20College.JPG
+    - https://www.simtropolis.com/objects/screens/0002/0bb87f49f0c7cff1110e102d8901e849-City%20IT%20College%20Night.JPG
+dependencies:
+  - ndex:its-mega-pack-vol13
+  - bsc:mega-props-gascooker-vol01
+assets:
+  - assetId: ill-tonkso-city-it-college
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-city-it-college
+version: "1.0"
+lastModified: "2005-03-19T10:55:25Z"
+url: https://community.simtropolis.com/files/file/11978-city-it-college-working-version/?do=download
