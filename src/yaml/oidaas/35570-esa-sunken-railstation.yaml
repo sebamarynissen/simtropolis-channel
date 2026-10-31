@@ -1,0 +1,57 @@
+group: oidaas
+name: esa-sunken-railstation
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Sunken rail station
+  description: |-
+    **About**
+
+    This station was originally made with the purpose of being a HRW station. However, I made it a sunken RRW station. It can however be modded as a HRW station since the LOD allows it.
+
+    **Stats**
+
+    - Pollution at center: air 3, water 2, garbage 5, radiation 0
+    - Power consumed: 1
+    - Flammability: 37
+    - Max fire stage: 1
+    - Plop cost: 600
+    - Pollution radius: air 1, water 2, garbage 0, radiation 0
+    - Transit cost: 0.071
+    - Capacity: 53000
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35570-esa-sunken-railstation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64b66cdd8e53b_NewCity-Jan.20071689522038.jpg.264649f3fbf13dd81a4e7c44aaac31e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64b66ce31f366_NewCity-Jan.20071689522038.png.954cf1f0c4a36469390b25b9f640c327.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64b66ce544908_NewCity-Mar.19001689610914.jpg.cf1a9f7c1da45322c61bbf4a899b1dea.jpg
+dependencies:
+  - oidaas:esa-sunken-railstation-model
+  - ndex:glenni-mega-props-vol01
+  - girafe:maples-v2
+  - sfbt:essentials
+  - bsc:mega-props-jes-vol01
+assets:
+  - assetId: oidaas-esa-sunken-railstation
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: oidaas
+name: esa-sunken-railstation-model
+version: "1.0.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=oidaas:esa-sunken-railstation`
+  author: Oidaas
+  website: https://community.simtropolis.com/files/file/35570-esa-sunken-railstation/
+assets:
+  - assetId: oidaas-esa-sunken-railstation
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: oidaas-esa-sunken-railstation
+version: "1.0.0"
+lastModified: "2023-07-18T10:45:27Z"
+url: https://community.simtropolis.com/files/file/35570-esa-sunken-railstation/?do=download

@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: glr-tramway-interchange-station
+version: "1.0b"
+subfolder: 700-transit
+info:
+  summary: GLR interchange station for changing between two tram lines
+  description: |-
+    So, you have a big GLR network, huh? I bet it's pretty busy. How would you like an interchange?
+
+    This GLR interchange allows changing between 2 tram lines, with a handy shelter to keep dry from the rain. Sitting on a 6x2 lot this may seem big, but it's a big investment in your city's transportation future.
+
+    - Lot size: 6x2
+    - Capacity: 20,000
+
+    Special thanks to the BSC for all the team help.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14020-bsc-its-glr-tramway-interchange-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/471363b6daa8a221faaef13b386f3be4-Tramochangeday.jpg
+    - https://www.simtropolis.com/objects/screens/0009/471363b6daa8a221faaef13b386f3be4-Tramochangenight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-bsc-its-glr-tramway-interchange-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-bsc-its-glr-tramway-interchange-station
+version: "1.0b"
+lastModified: "2019-10-19T21:58:45Z"
+url: https://community.simtropolis.com/files/file/14020-bsc-its-glr-tramway-interchange-station/?do=download

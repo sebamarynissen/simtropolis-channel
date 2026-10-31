@@ -1,0 +1,54 @@
+group: gshmails
+name: glr-avenue-station-1
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Avenue version of the Shmails GLR station
+  description: |-
+    **Updated:** the entire station has now been reworked, including LODs, transit enabling, custom icon, and readme file.
+
+    All credit for the update goes to Andreas Roth, who took the model and reconfigured the entire lot around it. Thanks Andreas! Special thanks also goes to Cogeo for his zebra crossing (the texture is included).
+
+    By request, here is an avenue version of my GLR station. Here are the stats:
+
+    - Plop cost: $300
+    - Bulldoze cost: $100
+    - Monthly cost: $20
+    - Capacity: 6000
+    - Lot size: 2x3
+
+    Enjoy!
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/812b5ab4b337a75baafe1a37a8380a7e-ShmailsGLRAvenue1a.jpg
+    - https://www.simtropolis.com/objects/screens/0015/812b5ab4b337a75baafe1a37a8380a7e-ShmailsGLRAvenue1b1.jpg
+dependencies:
+  - gshmails:glr-avenue-station-1-model
+  - nam:network-addon-mod
+assets:
+  - assetId: gshmails-shmails-glr-avenue-station-1
+    exclude:
+      - "\\.SC4Model$"
+      - "\\.SC4Desc$"
+
+---
+group: gshmails
+name: glr-avenue-station-1-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=gshmails:glr-avenue-station-1`
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/
+assets:
+  - assetId: gshmails-shmails-glr-avenue-station-1
+    include:
+      - "\\.SC4Model$"
+      - "\\.SC4Desc$"
+
+---
+assetId: gshmails-shmails-glr-avenue-station-1
+version: "1.0"
+lastModified: "2007-07-19T11:42:21Z"
+url: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/?do=download

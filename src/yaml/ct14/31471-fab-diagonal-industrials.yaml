@@ -1,0 +1,56 @@
+group: ct14
+name: fab-diagonal-industrials
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Diagonal industrial buildings of the Fractional Angle Building (FAB) series
+  description: |-
+    **FAB Diagonal Industrials**
+
+    - Type: Landmark (I-M)
+    - Menu: Landmarks
+    - Lot size: 1x1 (overhanging building prop with right angle 45 degree trapezoid footprint)
+    - Plop cost: 50
+    - Bulldoze cost: 10
+    - Capacity satisfied: 23
+    - Prop family: 1, 2, 3, 4 story buildings in HD
+    - Variations: Left and Right versions
+    - Theme: 19th century/early 20th century/brown brick/W2W
+    - Night lighting: Maxis
+
+    **About:**
+
+    Here is the first release in the Fractional Angle Building series, the FAB Diagonal Industrials. They fill the space next to any diagonal network. Mirrored left and right versions are included.
+
+    The buildings use a prop family with between one to four stories appearing randomly on placement.
+  author: CT14
+  website: https://community.simtropolis.com/files/file/31471-fab-diagonal-industrials/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Day.jpg.3d7d1fe8e73fe0a39eadf662640cd605.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/Night.jpg.8f4bcca427c7de3dd33465dcaed2a20a.jpg
+dependencies:
+  - ct14:fab-diagonal-industrials-model
+assets:
+  - assetId: ct14-fab-diagonal-industrials
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: ct14
+name: fab-diagonal-industrials-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=ct14:fab-diagonal-industrials`
+  author: CT14
+  website: https://community.simtropolis.com/files/file/31471-fab-diagonal-industrials/
+assets:
+  - assetId: ct14-fab-diagonal-industrials
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: ct14-fab-diagonal-industrials
+version: "1.0"
+lastModified: "2017-02-20T00:49:31Z"
+url: https://community.simtropolis.com/files/file/31471-fab-diagonal-industrials/?do=download

@@ -18,8 +18,26 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/5417c7c6ed610d03f13509edc446ad9a-mssparkingsimtrop--3-.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/4e187c201f0dcae28da82da7732f55a6-mssparkingsimtrop--4-.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2013/b5e73260536c83e4bf18dc8408f342e6-mssparkingsimtrop--5-.jpg
+dependencies:
+  - motokloss:w2w-multi-storey-car-park-resources
 assets:
   - assetId: motokloss-w2w-multi-storey-car-park
+    include:
+      - "\\.SC4Lot$"
+
+---
+group: motokloss
+name: w2w-multi-storey-car-park-resources
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models and building exemplars of `pkg=motokloss:w2w-multi-storey-car-park`
+  author: moto.kloss
+  website: https://community.simtropolis.com/files/file/26936-ms-w2w-multi-storey-car-park/
+assets:
+  - assetId: motokloss-w2w-multi-storey-car-park
+    include:
+      - "/MS_W2WGarage_MOD\\.dat$"
 
 ---
 assetId: motokloss-w2w-multi-storey-car-park

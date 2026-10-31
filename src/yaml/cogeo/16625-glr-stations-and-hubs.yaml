@@ -1,0 +1,66 @@
+group: cogeo
+name: glr-stations-and-hubs
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Semitransparent GLR stations and rail/GLR interchange stations
+  description: |-
+    This pack contains GLR Station and Rail/GLR Interchange Station lots, using specially made and modded BATs, so as to become semitransparent, i.e. allow the lot textures, props and automata in the interior to show through. For example, the rail-track textures in the pics are not modelled, instead they are the lot's texture, and of course the train, people and the kinetic sculpture props are visible.
+
+    The pack contains 9 lots, 3 GLR Stations and 6 Interchange Stations, in various sizes and connectivity configurations. The Small GLR Station is placeable directly on track, thus requiring no additional space. All other stations do require some space, but offer parking facilities as well, so that they can serve larger areas, instead of just the buildings within walking distance from the station.
+
+    The lots use prop families, so you will get a slightly different prop combination each time you plop them.
+    The stations are also specially modded, resulting in the following features:
+
+    - The interchange stations with through rail track all allow both passenger and freight trains through traffic.
+    - They do not perform traffic conversions from and to the tracks touching the station (a problem quite common to other rly station lots), only from and to the tracks entering the station.
+    - The through traffic paths/arrows appear as straight and continuous lines instead of interrupted ones.
+    - And they should work on the Mac!
+
+    Capacities may look high, however this is to offset the effect of the through traffic (a problem common to all stations that are built on the tracks); all other stats are on par with Maxis standards.
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/1ec525ce979cc4e5c2860cd666bd6ef1-stgleft.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/352bf3d7328417c12b2eeb181ee4ddb4-stgright.jpg
+dependencies:
+  - cogeo:glr-stations-and-hubs-model
+  - cogeo:semitransparent-train-station-models
+  - bsc:textures-vol01
+  - bsc:mega-props-sg-vol01
+  - nam:network-addon-mod
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: cogeo-glr-stations-and-hubs
+        exclude:
+          - "\\.SC4Model$"
+          - "/Install_UK_PathingPatch\\.exe$"
+  - variant: { driveside: left }
+    assets:
+      - assetId: cogeo-glr-stations-and-hubs
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: cogeo
+name: glr-stations-and-hubs-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=cogeo:glr-stations-and-hubs`
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/
+assets:
+  - assetId: cogeo-glr-stations-and-hubs
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: cogeo-glr-stations-and-hubs
+version: "1.0"
+lastModified: "2006-08-13T10:59:04Z"
+url: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

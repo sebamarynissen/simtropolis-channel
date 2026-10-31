@@ -1,0 +1,80 @@
+group: tyberius06
+name: seaport-project-expansion
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 19 more lots for the Heretic SeaPort Project, with the retextured PEG-CDK3 docks, transitions and canal rail yards
+  description: |-
+    Here are a few more additions to the SeaPort Project (`pkg=tyberius06:seaport-project`). Altogether it contains 19 new additional lots (6 of them are totally new). With this expansion pack you get the old PEG-CDK3 docks and some of the other CDK3 related lots (Acme Algae Farm, Captain Jack's Landing, Blackies Boat Yard, Fred Ginger Fishery, Vandy Shipping Company and the two Garbage Disposal Docks), and I made two transition pieces between the PEG-CDK3 and PEG-CDK3-SP sets. After the SG-CAL canal transition pieces, I made transition pieces between game water and the original old-fashioned SimGoober canals, and combined the bigger industrial rail yard type lots with warehouses and canal pieces as well.
+
+    **The contents**
+    - The PEG-CDK3 docks set and related lots
+    - Two new transition pieces between the CDK3 and CDK3-SP docks
+    - A SimGoober Canal Lock Transition (almost the same as the SG-CAL Canal Lock Transition)
+    - Three more warehouse-seaport-rail yard lots (2 for SG-CAL Canal, 1 for SimGoober Canal)
+
+    This package does not install the PEG-CDK3 Master Seaport Controller. To avoid any conflict you should use only ONE set of docks (PEG's or mine), you shouldn't use both at the same time.
+
+    **Credits & special thanks**
+
+    Thank you for:
+    - Simmer2 for his amazing RRW NSB overlay texture set, as that was the main inspiration of this project. And of course for his nice barrier props and other RRW overlays that he made.
+    - Pegasus and the PEGPROD team for their work on the original seaport set, on the models and props.
+    - MGB204/rsc204 for the very nice RRW rail tunnel model.
+    - Tamorr for his prop families and his original ideas about SET endings and canal transitions.
+    - NBVC for making the original Modular Container Port set.
+    - FrankU for his nice prop families.
+    - Kingofsimcity for his work on the SuperSHK parking textures.
+    - CAL and Simgoober for their work on canals.
+    - Girafe and the VIP team for their car props.
+    - Jestarr and the BSC team for the amazing industrial related props, among them trucks and railcars.
+
+    And me, Heretic/Tyberius, for the lot modifications and the new additional seaport lots.
+
+    Thanks for the support, opinions, suggestions and criticism to everybody!
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/31358-heretic-seaport-project-expansion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261d642202e_CDK3DocksandTransitions.jpg.e8cb9a5f7f2f8f72d62fb0f66d87d7a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Algie-Captain-Garbage.jpg.a8dc26a99fca93d0f650f36baa07af9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Vandy-Blackie-Fishery.jpg.4b2e28b6cdb923734bdbf9598c65a1bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261d75e50ac_expsimgoobercanaltrans.jpg.b9886d7db3bffe22c9c494c665af1ad0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261d7abf286_expINDYard07b.jpg.7745346bf499b8c12593517ab63c3fc8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261d7caed1c_expINDYard07a.jpg.090edcba591357215c10defb1802f5ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261d7f66d1e_expINDYard07c.jpg.17f38630d39facc4f8b1ee8e709d8865.jpg
+dependencies:
+  - simmer2:rrw-nsb-tex
+  - simmer2:rrw-legacy-lottex-mega-texture-pack
+  - simmer2:mega-prop-pack-vol1
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-sp-rail-fleet
+  - peg:security-fencing-kit
+  - peg:ppond-water-mill-resource
+  - peg:cdk3-garbage-docks-resources
+  - peg:cdk3-boatyard-resource
+  - peg:cdk3-algae-farm-resource
+  - mgb204:rrw-to-subway-ramps-resource
+  - magneto:sam-1-override-car-family-props
+  - tamorr:resource
+  - franku:bnl-essentials
+  - supershk:mega-parking-textures
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:mega-props-canals-simgoober-brick-style
+  - cogeo:logistics-centre-dependency-pack
+  - tyberius06:essentials
+  - nam:network-addon-mod
+assets:
+  - assetId: tyberius06-heretic-seaport-project-expansion
+
+---
+assetId: tyberius06-heretic-seaport-project-expansion
+version: "1.0"
+lastModified: "2016-11-11T19:46:23Z"
+url: https://community.simtropolis.com/files/file/31358-heretic-seaport-project-expansion/?do=download

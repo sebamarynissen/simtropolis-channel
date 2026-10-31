@@ -1,0 +1,51 @@
+group: plundere
+name: rail-catenary-mod-v3-hd-version
+version: "3"
+subfolder: 900-overrides
+info:
+  summary: Rail catenary mod with high definition catenary props for NAM
+  description: |-
+    Rail Catenaries mod V3 HD version for NAM (June 2009).
+
+    This version uses ehbk2006's high definition catenary props. Fixed some bugs and missing catenaries.
+
+    This mod requires `pkg=plundere:catenary-essentials`.
+
+    **Credits & special thanks**
+    - ehbk2006, for the HD NL special catenary props
+
+    plunderer, 2009-06-24
+  author: Plundere
+  website: https://community.simtropolis.com/files/file/21935-rail_catenary_mod_v3-hd-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/04d09f88fa610d08980a27af8e380a26-wrc2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/ecb5ca9d420f61f55fc5bc0b70c552fb-bridge_1.jpg
+dependencies:
+  - plundere:rail-catenary-mod-v3-hd-version-resources
+  - nam:network-addon-mod
+assets:
+  - assetId: plundere-rail-catenary-mod-v3-hd-version
+    exclude:
+      - "/Catenary_prop_exemplar_for_rail\\.dat$"
+
+---
+group: plundere
+name: rail-catenary-mod-v3-hd-version-resources
+version: "3"
+subfolder: 110-resources
+info:
+  summary: Catenary prop exemplars of `pkg=plundere:rail-catenary-mod-v3-hd-version`
+  author: Plundere
+  website: https://community.simtropolis.com/files/file/21935-rail_catenary_mod_v3-hd-version/
+dependencies:
+  - plundere:catenary-essentials
+assets:
+  - assetId: plundere-rail-catenary-mod-v3-hd-version
+    include:
+      - "/Catenary_prop_exemplar_for_rail\\.dat$"
+
+---
+assetId: plundere-rail-catenary-mod-v3-hd-version
+version: "3"
+lastModified: "2009-06-25T10:24:21Z"
+url: https://community.simtropolis.com/files/file/21935-rail_catenary_mod_v3-hd-version/?do=download

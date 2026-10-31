@@ -1,0 +1,91 @@
+group: art128
+name: japanese-transports-pack
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Japanese transportation buildings, including the Muroran, Sakamoto and JR Mitaki stations
+  description: |-
+    This is a pack of Japanese transportation buildings. It includes the former
+
+    - Japanese Transport Pack vol01
+    - EBLT Art128 JR Mitaki Station
+
+    It includes the following lots. For detailed stats please read the readme file of the original upload. All the transportation lots have been updated to follow the most up to date **NAM/MTA** modding practices and standards.
+
+    - Muroran Train station
+    - Sakamoto Train station
+    - **JR Mitaki Station**
+    - Small overpass
+    - Small Odate Noshiro Airport Terminal
+    - Small Odate Noshiro ATCT
+
+    The stations are obviously in the Rail menu. There are two different lots for the Muroran and Sakamoto stations: an electrified one and a non-electrified one. They're transit enabled on the last tile only, because I didn't want to bother with custom pathing. They should work correctly as train stations, as they were tested in two different plugin setups.
+
+    The rail stations have submenu support. If you want to enjoy the advantage of the submenus, install `pkg=memo:submenus-dll`, which is needed to get the package submenu working. It is compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+    The airport control tower and terminal are located in the Airport menu, but they are not working as airports or transit pieces at all.
+
+    The overpass is located in the Park menu.
+
+    The JR Mitaki Station comes with path files for Real Railway. Choose the `driveside` variant that matches your game (right-hand or left-hand driving). Path files for the default Maxis rail are not included.
+
+    All the models and the initial lotting were created by Art128. The revision of the lotting and modding and the compilation was assembled by Tyberius06.
+  author: art128
+  websites:
+    - https://community.simtropolis.com/files/file/28371-art128-japanese-transports-pack/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/292-art128-japanese-transports-pack
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/e61da45c47e5950b391dad93ce9f30cb-mitaki01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/5504227be02a394ffce02205a4781d34-mitaki03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/d71d430b98956d8028d1ea8c4ad3ebbb-mitaki05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/afc78dba87efcd47b956825f83074eae-mitakiuploadleft.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/9287a2f0be0323517f959821c5a49ac3-mitakiuploadright.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/JR%20transport%20packfull%20v2.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Mitakiuploadleft_zpse03a780c.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Mitakiuploadright_zpsa4883e56.jpg
+dependencies:
+  - art128:japanese-transports-pack-model
+  - plundere:catenary-essentials
+  - plundere:rail-catenary-mod-v3-hd-version-resources
+  - uki-sim:japanese-style-catenary-mod-model
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - neko:prop-set-vol02
+  - sfbt:kenworth-royal-railway-props
+  - wmp:mega-textures
+  - ac:mega-props-vol09
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: art128-japanese-transports-pack
+        exclude:
+          - "\\.SC4Model$"
+          - "/~Documents/"
+  - variant: { driveside: left }
+    assets:
+      - assetId: art128-japanese-transports-pack
+        exclude:
+          - "\\.SC4Model$"
+          - "RRW-RHD path file\\.dat$"
+          - "MAXIS-(?:RHD|LHD) path file\\.dat$"
+
+---
+group: art128
+name: japanese-transports-pack-model
+version: "2.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=art128:japanese-transports-pack`
+  author: art128
+  websites:
+    - https://community.simtropolis.com/files/file/28371-art128-japanese-transports-pack/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/292-art128-japanese-transports-pack
+assets:
+  - assetId: art128-japanese-transports-pack
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: art128-japanese-transports-pack
+version: "2.0"
+lastModified: "2026-06-04T16:30:28Z"
+url: https://community.simtropolis.com/files/file/28371-art128-japanese-transports-pack/?do=download

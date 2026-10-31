@@ -1,0 +1,67 @@
+group: tyberius06
+name: shenzhen-north-station
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Huge multi-modal interchange station with 28 platforms, modelled by Ct1999
+  description: |-
+    Let me introduce you to the Shenzhen North Station. This huge multi-modal interchange station was modelled by [@Ct1999](https://community.simtropolis.com/profile/778451-ct1999/) to [fulfill a request](https://community.simtropolis.com/forums/topic/761510-ct1999s-bat/?do=findComment&comment=1796984). The lotting and the modding was made by me (Tyberius06), it was a really fun project to work on.
+
+    The station has 28 platforms (14 DTR lines), and the upload contains two lot files (besides the main models):
+
+    - Lot #1 is a conditional Reward, which has a higher price tag (plop cost, bulldoze cost and maintenance/monthly cost) on it, and its other stats (occupancy, pollution etc.) are in line with the size of the building. The requirement to get this lot is 300,000 (three hundred thousand) sims/residents in the city.
+    - Lot #2 is the same as the other, but apart from its transit properties the other stats are lowered to a more sustainable level.
+
+    Both lots are running under different IDs, so you can plop either #1 or #2 or both, they will show up in the menu.
+
+    This station is enormous, please plan ahead. It has 14 platforms with the following configuration from top to bottom (bottom means where the plop arrow is pointing):
+
+    - 2 GLR (Ground Light Rail) lines - use the el-rail tool from the transportation/misc transit menu to cross the lot
+    - 4 DTR line rail tracks (preferably for RRW) - use the rail tool from the transportation/rail network menu to cross the lot
+    - 4 DTR line HRW (Hybrid Railway) tracks - use the mono-rail tool from the transportation/rail network menu to cross the lot. On each end of the lot allow only a tile stub with monorail, then use your preferred method to connect the HRW network to the stubs
+    - 4 DTR line rail tracks (preferably for RRW) - use the rail tool from the transportation/rail network menu to cross the lot
+
+    The lot is functioning as a multi-purpose hub for several travel types and networks. It supports **GLR** (ground light rail), **passenger rail** (freight trains can pass through on the lot too), **HRW** (hybrid railway - both high speed rail/monorail and regular rail trains will use these tracks), **subway**, **bus** and it has an **underground car park**.
+
+    These lots also utilize the Submenus DLL mod (`pkg=memo:submenus-dll`) in which case you will find both of them in the Misc Transportation Menu: **Multi-Modal Stations Submenu**. (Without the submenu DLL, they will show up somewhere in the Rail Menu.)
+
+    **Note**: the lots use a lot of timed and seasonal props. They are changing constantly according to game time and game seasons.
+
+    **Credits**
+
+    - **Ct1999** - for the absolutely beautiful and huge model and for the Hong Kong taxis props (found in `Ct1999_ShenzhenNorthStation_Add_Resources.dat`)
+    - **Art128** - for the subway/underground entrance escalators/lifts/stairs and for the modular bus terminal parking bays
+    - **Barrocco Hispano (AGC or JLC)** - for the Streets DLC and Casual SIMs DLC props
+
+    and of course my usual sources for props, models and textures on my lots: Girafe, Vnaoned, Nams, Delecto, Simmer2, Motokloss and KingOfSimCity.
+  author: Ct1999, Tyberius06
+  website: https://community.simtropolis.com/files/file/36976-ct1999-tyb06-shenzhen-north-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a16ee9dc8225_Ct1999-Tyb06ShenzhenNorth-d1.jpg.82a23f81dee4719f6df397a421fc2d32.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a16ee9f3549b_Ct1999-Tyb06ShenzhenNorth-d3.jpg.df4e896a6dcbe110fe1b70dba9d37bef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a16eea0958ea_Ct1999-Tyb06ShenzhenNorth-d6.jpg.5d107d6142c9f6c93929a9cc6859bd2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a16eea1ab25b_Ct1999-Tyb06ShenzhenNorth-n1.jpg.f3bb8260391174e93cb8e0cedbe76634.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a16eea2a1548_Ct1999-Tyb06ShenzhenNorth-n3.jpg.e6dff7126a689922c50e0665df09ab41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/6a16eec34e8b4_Ct1999-Tyb06ShenzhenNorthLotsinMenu.jpg.3ab30649d646af5cacfb59a90bcca530.jpg
+dependencies:
+  - bsc:vip-girafe-urbanpack-vol01
+  - girafe:plane-trees
+  - girafe:honey-locust
+  - tyberius06:essentials
+  - vip:vnaoned-props-pack-vol01
+  - art128:paris-modern-transportation-pack-resources
+  - agc:street-props
+  - agc:casual-sims-dlc
+  - agc:automobile-dlc
+  - simmer2:mega-prop-pack-vol2
+  - simmer2:essentials
+  - supershk:mega-parking-textures
+  - nam:network-addon-mod
+assets:
+  - assetId: tyberius06-ct1999-tyb06-shenzhen-north-station
+
+---
+assetId: tyberius06-ct1999-tyb06-shenzhen-north-station
+version: "1.0.0"
+lastModified: "2025-08-10T22:41:11Z"
+url: https://community.simtropolis.com/files/file/36976-ct1999-tyb06-shenzhen-north-station/?do=download

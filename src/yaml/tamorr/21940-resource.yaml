@@ -1,0 +1,37 @@
+group: tamorr
+name: resource
+version: "2.0.5"
+subfolder: 100-props-textures
+info:
+  summary: Prop families and rail props and textures by Tamorr
+  description: |-
+    This download contains two files: `Tamorr_Family_Props_V210.dat` and `RLM_RailPropNTextures_V101.dat`.
+
+    **Tamorr Family Props** is basically all my prop exemplars that I changed the IDs of and put into my families. Some of them even had their time of day changed, so they may be different from the original exemplars. These will not conflict with the originals, as they have different group IDs. I only made families of the ones I needed to have certain ones grouped together for particular lots. So the families are definitely different from the originals they possibly belonged to, otherwise it would be pointless to make new families.
+
+    **RLM RailPropsNTextures** is all of the stuff Becca has made for me to go along with certain lots. She has given me permission to use and upload this with my material.
+
+    The family props reference props from several other packs: the PEG barge, rail fleet and CDK3 packs and the BSC SG props, as well as some Maxis props (pallets, stacks of pallets and pallet cargo props, Amil, Apark, Aper and PZFlora props, industrial vehicles and the forklift). Becca's stuff in the separate file has no dependencies, as that is the resources she made for me.
+
+    **Credits**
+
+    - **Pegasus** and **Simgoober** for all the resources that most of my prop exemplars reference
+    - **RebaLynnTS** for the permission to include the models and textures she has made for me in this download, as well as for all the help she has given me with my projects
+  author: Tamorr
+  website: https://community.simtropolis.com/files/file/21940-tamorrs-resource/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/231fdc380db0d751537395cf1c13f11f-Tamorrs_Resource_ST.JPG
+dependencies:
+  - peg:csk-barges-prop-pack
+  - peg:cdk3-sp-rail-fleet
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: tamorr-tamorrs-resource
+
+---
+assetId: tamorr-tamorrs-resource
+version: "2.0.5"
+lastModified: "2009-06-25T23:43:43Z"
+url: https://community.simtropolis.com/files/file/21940-tamorrs-resource/?do=download

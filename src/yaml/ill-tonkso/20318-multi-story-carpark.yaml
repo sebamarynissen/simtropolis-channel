@@ -21,8 +21,12 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0002/07b58fe30dcc7a8bc97215e366c193a2-carparkday.jpg
     - https://www.simtropolis.com/objects/screens/0002/07b58fe30dcc7a8bc97215e366c193a2-carparknight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol05
 assets:
   - assetId: ill-tonkso-ndex-its-multi-story-carpark
+    exclude:
+      - "\\.SC4Model$"
 
 ---
 assetId: ill-tonkso-ndex-its-multi-story-carpark
