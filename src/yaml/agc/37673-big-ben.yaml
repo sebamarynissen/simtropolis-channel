@@ -1,0 +1,37 @@
+group: agc
+name: big-ben
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Big Ben
+  description: |-
+    **Specs**
+
+    - 1x1 Landmark
+
+    Darknite only.
+
+    Scale of the model: 133% on z axis.
+
+    Now you can make voluntary contributions to support me in continuing to create more content for SimCity 4 (I decided to use PayPal instead of Patreon because I want everyone to have access to my content).
+
+    https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU
+
+    Thanks to the few people who have donated to me.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/37673-agc-big-ben/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/bigben1.png.05a287ffe42525f7f98f0898cdc88dbb.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/bigben2.png.47447cf993a02a6df2ece8f9a4d5dd93.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/bigben1.png.0b6b6155c7a25de451513064cd926769.png
+dependencies:
+  - agc:buildings-rws-dlc
+
+assets:
+  - assetId: agc-big-ben
+
+---
+assetId: agc-big-ben
+version: "1.0.0"
+lastModified: "2026-10-22T16:56:14Z"
+url: https://community.simtropolis.com/files/file/37673-agc-big-ben/?do=download

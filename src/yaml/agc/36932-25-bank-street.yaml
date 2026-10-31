@@ -1,0 +1,71 @@
+group: agc
+name: 25-bank-street
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: 25 Bank Street
+  description: |-
+    Many thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for helping me with modding, lotting, previews and description.
+
+    ---
+
+    The AGC 25 Bank Street, Canary Wharf London (20-25 Bank Street – JP Morgan-Heron Quays Station-Morgan Stanley Complex) offers one model with two LOTs which complement each other.
+
+    **LOT#1 is the 20-25 Bank Street - Offices - The Convention Center**
+
+    This lot acts as a government building, convention center. The LOT uses an overhanging model which has 3 parts; the JP Morgan Tower sits on this particular lot, while the other half of the model (the brown, smaller building part) is overhanging. Between the two building parts there is the Heron Quays station (in RL operated by the London DLR). You can fill the ground beneath the overhanging part with plaza lots or it is recommended to use the dedicated AGC 25 Bank Street Heron Quays Station lot.
+
+    - Lot Size: 5x6
+    - Plop Cost: §60000
+    - Monthly Cost: §1870
+    - Bulldoze Cost: §1970
+    - Demand Created: Jobs$: 295, Jobs$$: 1918, Jobs$$$: 147
+    - Demand Satisfied: CO$$ CAP 120000, CO$$$ CAP 120000
+    - Power Consumption: 221 MWh/month
+    - Water Consumption: 237 gallons/month
+    - Landmark Effect: 200 over 52
+    - Park Effect: -150 over 40
+    - Pollution: Air 36 over 3 tiles, Water 18 over 2 tiles, Garbage 299 over 0 tiles
+
+    **LOT#2 is the 20-25 Bank Street - Heron Quays Station**
+
+    This is a functional placeholder station lot that goes together with the AGC 20-25 Bank Street (The Convention Center) lot. This lot acts as a proximity station serving all kinds of transportation networks and travel types supported by the NAM (for example: L0-L2 RRW, L0-L2 HRW, GLR, El-Rail, MonoRail/BTM/HSR, BRT and dual networks like Tram-in/on-Road/Street and ElRail-over-Road/Street). It also has a bus stop and subway station function. It doesn't have any visual building(s) - it is supposed to go beneath the overhanging part of the aforementioned lot -, only containing street furniture and other street props.
+
+    - Lot Size: 4x7
+    - Plop Cost: §25000
+    - Monthly Cost: §1395
+    - Bulldoze Cost: §2330
+    - Demand Created: Jobs$: 208, Jobs$$: 90, Jobs$$$: 18
+    - Power Consumption: 32 MWh/month
+    - Water Consumption: 125 gallons/month
+    - Pollution: Air 93 over 1 tile, Water 47 over 2 tiles, Garbage 186 over 0 tiles
+    - Passenger Capacity: 125000
+
+    If you like my work, you can make a donation to fund my other projects!
+
+    https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU
+
+    Thanks to the people who have donated to me.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36932-agc-25-bank-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a21b7d4a1b00_AGC25BankStreet-1.png.f19c5ab5e3723d123e35f5b954e7a234.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a21b7d593401_AGC25BankStreet-2.png.ac2f0302bc5c02828fae8d04ed1fd0ce.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a21b80fdee9e_AGC25BankStreet-04.jpg.c9e74ef747980d2dbc22267aeadf9fd9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a21b814f0fd3_AGC25BankStreet-03.jpg.6f41e99603a705ce6f9edfd0e121569f.jpg
+dependencies:
+  - bsc:vip-girafe-urbanpack-vol01
+  - vip:vnaoned-props-pack-vol01
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+  - agc:street-props
+  - nam:network-addon-mod
+
+assets:
+  - assetId: agc-25-bank-street
+
+---
+assetId: agc-25-bank-street
+version: "1.0.0"
+lastModified: "2026-06-04T17:38:41Z"
+url: https://community.simtropolis.com/files/file/36932-agc-25-bank-street/?do=download

@@ -1,0 +1,75 @@
+group: agc
+name: 5-canada-square-01
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: 5 Canada Square 01
+  description: |-
+    Thanks to [@Bobelboy](https://community.simtropolis.com/profile/138427-bobelboy/) for the support. Modding by the great [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/).
+
+    5 Canada Square, London.
+
+    **Specs**
+
+    - 4x5 Landmark and Ploppable CO$$$.
+    - CAM Stage: 9
+    - Tileset: Euro - Houston
+    - CAM & Maxis Growable version included (the CAM variant installs the CAM version, otherwise the Maxis growable version is installed).
+
+    Darknite only.
+
+    Scale of the models: 133% (z axis).
+
+    If you like my work, you can make a donation to fund my other projects!
+
+    https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU
+
+    Thanks to the few people who have donated to me.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36784-agc-5-canada-square-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a40e15c8cb68_5CanadaCO.JPG.24c00283ede042be85b7cd9b1b2bd679.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a40e16589db3_5CanadaLM.JPG.af679b1754ccd98c34e7f7195bd24880.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a40e2dfa9857_5CanadaN.JPG.038b7b942e899a1f768e267e2a0a8440.JPG
+  conflicts: Only a DarkNite model exists, so the same model is installed with either nightmode setting.
+assets:
+  - assetId: agc-5-canada-square-01
+
+variants:
+  - variant: { nightmode: standard, CAM: "yes" }
+    dependencies:
+      - bsc:essentials
+    assets:
+      - assetId: agc-5-canada-square-01-cam
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: agc-5-canada-square-01-grow
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies:
+      - bsc:essentials
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: agc-5-canada-square-01-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: agc-5-canada-square-01-grow
+
+---
+assetId: agc-5-canada-square-01
+version: "1.0.0"
+lastModified: "2026-06-28T07:38:26Z"
+url: https://community.simtropolis.com/files/file/36784-agc-5-canada-square-01/?do=download&r=219340
+
+---
+assetId: agc-5-canada-square-01-cam
+version: "1.0.0"
+lastModified: "2026-06-28T07:38:26Z"
+url: https://community.simtropolis.com/files/file/36784-agc-5-canada-square-01/?do=download&r=219341
+
+---
+assetId: agc-5-canada-square-01-grow
+version: "1.0.0"
+lastModified: "2026-06-28T07:38:26Z"
+url: https://community.simtropolis.com/files/file/36784-agc-5-canada-square-01/?do=download&r=219342
