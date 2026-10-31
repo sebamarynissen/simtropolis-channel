@@ -1,6 +1,6 @@
 group: "caspervg"
 name: "sc4-terrain-extension-dll"
-version: "0.2.0"
+version: "0.2.1"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
@@ -8,8 +8,8 @@ dependencies:
 assets:
 - assetId: "caspervg-sc4-terrain-extension"
   withChecksum:
-   - include: /SC4TerrainExtensions-0.2.0-Setup.exe
-     sha256: 610417E6FCFB28DC7EDA9FCAEECBF5F6A9D486FFCF537CBE71241A517F481F19
+   - include: /SC4TerrainExtensions-0.2.1-Setup.exe
+     sha256: 5591A27FAAABDAFD7B8CA403D1FB657F041A5F1B31009BCB48B6BCC19EA3CEE1
 
 info:
   summary: " DLL plugin for SimCity 4 that adds in-game terrain editing and visualization tools."
@@ -35,11 +35,11 @@ info:
   warning: |-
     To complete the installation, you must run this executable file:
 
-    * `SC4TerrainExtensions-0.2.0-Setup.exe`
+    * `SC4TerrainExtensions-0.2.1-Setup.exe`
 
     The installer is located in the following folder:
 
-    * `150-mods/caspervg.sc4-terrain-extension-dll.0.2.0.sc4pac` 
+    * `150-mods/caspervg.sc4-terrain-extension-dll.0.2.1.sc4pac` 
     
     Run the installer and follow the instructions provided.    
 
@@ -54,7 +54,7 @@ info:
 
 ---
 assetId: "caspervg-sc4-terrain-extension"
-version: "0.2.0"
-lastModified: "2026-10-26T10:07:53Z"
+version: "0.2.1"
+lastModified: "2026-10-30T12:40:10Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37426-sc4terrainextensions-dll/?do=download"
-url: "https://github.com/caspervg/sc4-terrain-extensions/releases/download/v0.2.0/SC4TerrainExtensions-v0.2.0.zip"
+url: "https://github.com/caspervg/sc4-terrain-extensions/releases/download/v0.2.1/SC4TerrainExtensions-v0.2.1.zip"
