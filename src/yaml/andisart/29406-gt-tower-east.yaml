@@ -1,6 +1,6 @@
 group: andisart
 name: gt-tower-east
-version: "1.0"
+version: "1.0-1"
 subfolder: 300-commercial
 info:
   summary: GT Tower East
@@ -38,14 +38,42 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/final_square.jpg.59fff523e0d3faa42bf44f7358a95b88.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/release_2.jpg.537f9374d9655a388554e49b70b0a3ec.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/release_1.jpg.e6312df832e83fb42a54b62bd2374b86.jpg
+dependencies:
+  - andisart:gt-tower-east-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: andisart-gt-tower-east-maxisnite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: andisart-gt-tower-east-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: andisart
+name: gt-tower-east-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=andisart:gt-tower-east`
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/29406-gt-tower-east/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: andisart-gt-tower-east-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: andisart-gt-tower-east-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: andisart-gt-tower-east-maxisnite
