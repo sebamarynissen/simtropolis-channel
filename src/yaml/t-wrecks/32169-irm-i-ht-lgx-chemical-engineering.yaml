@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-lgx-chemical-engineering
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the LGX Chemical Engineering BAT by Tag_One
+  description: |-
+    It's been a while since my last upload, so let's move on, shall we?
+
+    The 27th upload in this series, **LGX Chemical Engineering** by **Tag_One**, is a small and simple building that houses a chemical engineering company - mainly the offices by the looks of it. The two lots offered here are rather different, one of them having the building sitting right in the middle of a totally open area, the other one with some greenery and footpaths around and the main entrance somewhat more discreet at the side. Whereas the former lot is a good 'team player', i.e. will look fine between other industrial stuff, the other one will also look good on its own.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **24 I-HT jobs**, the quadrupler version **96 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x4, Stage 1
+    - 4x3, Stage 1
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots also grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One** once again.
+
+    T Wrecks, March 4, 2018
+  conflicts: "Contains the IRM lots for `pkg=tag-one:lgx-chemical-engineering`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32169-irm-i-ht-lgx-chemical-engineering-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_LGXChemicalEngineering_01.jpg.153a585f41564ce2bcf77ddefe1f14c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_LGXChemicalEngineering_02.jpg.b79e8521e0fae82330997bdddb8cc832.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_LGXChemicalEngineering_03.jpg.a4802b76ebab36734e5d468714f6302e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_LGXChemicalEngineering_04.jpg.2fc63ca31eae2ac4ea27deed678e5f7e.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-lgx-chemical-engineering
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-lgx-chemical-engineering
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT LGX Chemical Engineering \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-lgx-chemical-engineering
+version: "1.0"
+lastModified: "2018-03-04T17:30:00Z"
+url: https://community.simtropolis.com/files/file/32169-irm-i-ht-lgx-chemical-engineering-by-tag_one/?do=download

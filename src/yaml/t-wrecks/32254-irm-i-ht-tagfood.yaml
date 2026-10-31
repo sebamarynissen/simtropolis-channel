@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-tagfood
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the TagFood BAT by Tag_One
+  description: |-
+    We are getting closer to the finish line, at least in terms of this batch of I-HT uploads.
+
+    The 33rd upload in this series, **TagFood**, is going to be the last one of **Tag_One**'s creations for the high-tech sector. It is a pretty huge facility with offices, production & storage facilities and warehousing all in one building - modern food processing at its best! This time, the main challenge in terms of lotting was getting the lot textures to line up halfways naturally with main entrance, side entrances, back doors, and loading bays. I think I did OK in that respect if I may say so myself. Shaded props make another pretty nifty appearance here - I really like their effect. As usual, there's a choice of 2 lots, each with different footprints, different layout and the building at a different angle, but both will look particularly good on corners.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **125 I-HT jobs**, the quadrupler version **500 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 6x5, Stage 3
+    - 6x6, Stage 3
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 6 (6x5) and Stage 5 (6x6).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One** once again.
+
+    T Wrecks, May 10, 2018
+  conflicts: "Contains the IRM lots for `pkg=tag-one:tagfood`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32254-irm-i-ht-tagfood-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_TagFood_01.jpg.93a4ed04011954c59cef39854349dac6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_TagFood_02.jpg.ef66481924e3d49f4fe46cebd2b6d667.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_TagFood_03.jpg.37eebc6f5dd30fe63ebd5bd4002e2843.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_T1_TagFood_04.jpg.922a671658eac33fb621c178a8e572f3.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-tagfood
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-tagfood
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT TagFood \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-tagfood
+version: "1.0"
+lastModified: "2018-05-10T21:18:00Z"
+url: https://community.simtropolis.com/files/file/32254-irm-i-ht-tagfood-by-tag_one/?do=download

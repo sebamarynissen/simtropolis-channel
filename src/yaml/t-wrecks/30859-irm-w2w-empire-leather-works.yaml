@@ -1,0 +1,69 @@
+group: t-wrecks
+name: irm-w2w-empire-leather-works
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 10 W2W I-M lots using the Empire Leather Works BAT by jestarr
+  description: |-
+    This is the 18th upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. For this upload, I turned **Empire Leather Works** by **jestarr** into an entire family of no fewer than 10 lots - from a single compact W2W factory to large complexes with multiple buildings.
+
+    The lots will provide **80 I-M jobs** (Empire Leather Works 1), **96 I-M jobs** (Empire Leather Works 2), **160 I-M jobs** (Empire Leather Works 3 and 4), **208 I-M jobs** (Empire Leather Works 5), respectively. Here's the lot breakdown:
+
+    - 1x2 straight, stage 1 [Empire Leather Works 1]
+    - 4x2 left corner, stage 1 [Empire Leather Works 2]
+    - 4x2 right corner, stage 1 [Empire Leather Works 2]
+    - 5x4 left corner, stage 1 [Empire Leather Works 3]
+    - 5x4 right corner, stage 1 [Empire Leather Works 3]
+    - 5x4 left corner, stage 1 [Empire Leather Works 4]
+    - 5x4 right corner, stage 1 [Empire Leather Works 4]
+    - 6x5 left corner, stage 1 [Empire Leather Works 5]
+    - 6x5 right corner, stage 1 [Empire Leather Works 5]
+    - 6x6 straight, stage 1 [Empire Leather Works 5]
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide between 47 and 185 jobs per building. The 1x2 lot grows at Stage 4, the two 4x2 lots at Stage 3 and all other lots at Stage 1.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    It's not the first time I'm writing this, and it won't be the last: credits to **jestarr** for this BAT!
+
+    T Wrecks, December 6, 2015
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30859-irm-w2w-empire-leather-works-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks1_01.jpg.5b2bac1c62be00c5b93448e2038774dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks1_02.jpg.238d9b3823ee15060b380583e8badf3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks2_01.jpg.38eda9e1b0bc2ec8237e8a9e097b0b51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks2_02.jpg.23a872dbc831b4367a38fddb2bcc390b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks3_01.jpg.f14f56a0dfe6c67f4bf42555afc84445.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks3_02.jpg.a648d0fed2ffd330e3ba84d780e4e635.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks4_01.jpg.d8d1345e0f6c33f86fe050229f270a46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks4_02.jpg.fc774f06aacf078d96acef0f562e1391.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks5_01.jpg.963db2b541dce582c31e47640f7aec09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks5_02.jpg.ebc1ca55d997cd6b4c1a0bd5e0181ead.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_EmpireLeatherWorks5_03.jpg.02677dfdfb0e0019900b155281e6ca58.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol06
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-empire-leather-works
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Empire Leather Works \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-empire-leather-works
+version: "1.0"
+lastModified: "2015-12-06T17:46:00Z"
+url: https://community.simtropolis.com/files/file/30859-irm-w2w-empire-leather-works-by-jestarr/?do=download

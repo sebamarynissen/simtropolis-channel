@@ -1,0 +1,52 @@
+group: t-wrecks
+name: irm-w2w-aluminum-architectural-metal-company-aamc
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the BSP Aluminum Architectural Metal Company (AAMC) BAT by SimHoTToDDy
+  description: |-
+    This is the first upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. Let's kick this off with some more BSP stuff, namely **BSP Aluminum Architectural Metal Company (AAMC)** by **SimHoTToDDy**.
+
+    The building will provide **80 I-D jobs**. Since it is basically a snug fit towards all sides, I decided to leave it on a very simple, tight-wrapping lot so you can use filler lots or let mech/anchor lots develop behind the building. You can also integrate it into tight W2W areas with house rows situated back to back. Since the building looks pretty similar front and back, you might not even have noticed it on the screenshots, but I actually flipped the building for some more variety. Hence, the two following lots are included:
+
+    - 1x2 straight, stage 1 (2 lots)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 27 jobs and grow at Stage 4.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **SimHoTToDDy** once again - we still miss you!
+
+    T Wrecks, November 24, 2016
+  conflicts: "Contains the IRM lots for `pkg=simhottoddy:bsp-aluminum-architectural-metals-company`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31384-irm-w2w-bsp-aluminum-architectural-metal-company-aamc-by-simhottoddy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_BSP_AAMC_01.jpg.1a7effd24e1c107bb6ca85b1aa572eca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_BSP_AAMC_02.jpg.1b0609bfb1e8423fc5f3068ea8dcbee3.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - simhottoddy:bsp-aluminum-architectural-metals-company-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-bsp-aluminum-architectural-metal-company-aamc
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/BSP Aluminum Architectural Metal Co \\(SHT\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-bsp-aluminum-architectural-metal-company-aamc
+version: "1.0"
+lastModified: "2016-11-24T10:33:00Z"
+url: https://community.simtropolis.com/files/file/31384-irm-w2w-bsp-aluminum-architectural-metal-company-aamc-by-simhottoddy/?do=download

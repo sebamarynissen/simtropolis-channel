@@ -1,6 +1,6 @@
 group: simhottoddy
 name: bsp-aluminum-architectural-metals-company
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: BSP Aluminum Architectural Metals Company
@@ -41,11 +41,14 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0012/66b6ecbe9389f93d0fe94c4c1f064e4d-STEX_01.jpg
     - https://www.simtropolis.com/objects/screens/0012/66b6ecbe9389f93d0fe94c4c1f064e4d-STEX_02.jpg
+dependencies:
+- simhottoddy:bsp-aluminum-architectural-metals-company-model
 variants:
 - variant: { toroca:industry-quadrupler:capacity: "standard" }
   assets:
   - assetId: simhottoddy-bsp-aluminum-architectural-metals-company
     exclude:
+    - "\\.SC4Model$"
     - /I-m Grow X4/
     - /I-m Plop X4/
 - variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
@@ -54,8 +57,23 @@ variants:
   assets:
   - assetId: simhottoddy-bsp-aluminum-architectural-metals-company
     exclude:
+    - "\\.SC4Model$"
     - /I-m Grow/
     - /I-m Plop/
+
+---
+group: simhottoddy
+name: bsp-aluminum-architectural-metals-company-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=simhottoddy:bsp-aluminum-architectural-metals-company`
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/23353-bsp-aluminum-architectural-metals-company/
+assets:
+- assetId: simhottoddy-bsp-aluminum-architectural-metals-company
+  include:
+  - "\\.SC4Model$"
 
 ---
 assetId: simhottoddy-bsp-aluminum-architectural-metals-company

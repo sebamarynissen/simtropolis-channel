@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-semi-intelligent-components
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Semi-Intelligent Components BAT by prepo
+  description: |-
+    The IRM high-tech uploads continue...
+
+    The fourth upload in this series is another very old BAT and probably not the most famous (and certainly not the best) work done by this author, yet still too good to leave out - it's: **Semi-Intelligent Components** by **prepo**. There's not much to be said about the lots this time, other than that they're probably not my best work, either. I still hope they'll do.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **26 I-HT jobs**, the quadrupler version **104 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 2x4, Stage 1
+    - 3x3, Stage 1
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 30 jobs, and the lots also grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **prepo** - as I said, he made more and better stuff than this, too! For me, prepo was one of the best BATters back then (we're talking 2004-2006 again), and pretty versatile as well.
+
+    T Wrecks, July 23, 2017
+  conflicts: "Contains the IRM lots for `pkg=prepo:semiintelligent-components`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31874-irm-i-ht-semi-intelligent-components-by-prepo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SemiIntelligentComponents_01.jpg.c2b6ed25f3127d547518c1c5c98241f3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SemiIntelligentComponents_02.jpg.fd1bbcad972de73eef4bdc1a93cb7f9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SemiIntelligentComponents_03.jpg.4a46062fbb0957efb260a0a3fce94b1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SemiIntelligentComponents_04.jpg.ac4023401d85b2d1c4b785daf146a24c.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - prepo:semiintelligent-components-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-semi-intelligent-components
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-semi-intelligent-components
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Semi-Intelligent Components \\(prepo\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-semi-intelligent-components
+version: "1.0"
+lastModified: "2017-07-24T16:40:00Z"
+url: https://community.simtropolis.com/files/file/31874-irm-i-ht-semi-intelligent-components-by-prepo/?do=download

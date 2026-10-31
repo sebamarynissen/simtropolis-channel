@@ -1,0 +1,62 @@
+group: andreas-roth
+name: wind-tunnel
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: High-enthalpy wind tunnel by Mathe Man
+  description: |-
+    High-enthalpy wind tunnels are used for the measurement of the aerodynamical behaviour of spaceships during the re-entry in the atmosphere. For the wind tunnel experiment, a piston builds up a high pressure that is supposed to burst a metallic plate with a predetermined breaking point. Due to the shape of the wind tunnel, the shockwave that is created when the plate bursts is transformed into a uniform stream. When this shockwave reaches the model of the spaceship, it is possible to run a laser measurement for the tenth part of a second in order to study the aerodynamics. This is a growable I-HT lot only, no ploppable included.
+
+    **Lot Statistics**
+
+    - Lot size: 2x3 tiles
+    - Building style(s): Industry
+    - Stage: 2
+    - Jobs: 57 I-HT
+    - Bulldoze cost: §320
+    - Building value: §1,437
+    - Construction time: 16 days
+    - Flammability: 17
+    - Power consumption: 47 MWh/month
+    - Water consumption: 27 Gallons/month
+    - Air pollution: 5 over 4 tiles
+    - Water pollution: 1 over 6 tiles
+    - Garbage pollution: 3 over 5 tiles
+
+    A SimForum BAT Team production. Created by Mathe Man. Thanks to Pegasus for the custom base textures.
+  author: Andreas Roth
+  website: https://community.simtropolis.com/files/file/12863-sfbt-wind-tunnel-by-mathe-man/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ee0940b516ef33f26b9514a5b1f00c9d-SFBT_wind_tunnel1.jpg
+    - https://www.simtropolis.com/objects/screens/0026/ee0940b516ef33f26b9514a5b1f00c9d-SFBT_wind_tunnel2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - sfbt:essentials
+  - andreas-roth:wind-tunnel-model
+assets:
+  - assetId: andreas-roth-sfbt-wind-tunnel
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: andreas-roth
+name: wind-tunnel-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=andreas-roth:wind-tunnel`
+  author: Andreas Roth
+  website: https://community.simtropolis.com/files/file/12863-sfbt-wind-tunnel-by-mathe-man/
+assets:
+  - assetId: andreas-roth-sfbt-wind-tunnel
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: andreas-roth-sfbt-wind-tunnel
+version: "1.0"
+lastModified: "2005-06-26T11:44:00Z"
+url: https://community.simtropolis.com/files/file/12863-sfbt-wind-tunnel-by-mathe-man/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

@@ -1,6 +1,6 @@
 group: simhottoddy
 name: bsp-standard-forge-co
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: BSP Standard Forge Co.
@@ -40,15 +40,46 @@ info:
     - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_01.jpg
     - https://www.simtropolis.com/objects/screens/0019/a87e19f52f8bd050e4cefab3fa352721-SFc_STEX_02m.jpg
     - https://www.simtropolis.com/objects/screens/0023/cee3abeb2548caa38daf042ddd782261-FB21_STEX_D_02.jpg
+dependencies:
+- simhottoddy:bsp-standard-forge-co-model
 variants:
 - variant: { nightmode: "standard" }
   assets:
   - assetId: simhottoddy-bsp-standard-forge-co-maxis-night
+    exclude:
+    - "\\.SC4Model$"
 - variant: { nightmode: "dark" }
   dependencies:
   - "simfox:day-and-nite-mod"
   assets:
   - assetId: simhottoddy-bsp-standard-forge-co-dark-night
+    exclude:
+    - "\\.SC4Model$"
+
+---
+group: simhottoddy
+name: bsp-standard-forge-co-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=simhottoddy:bsp-standard-forge-co`
+  author: SimHoTToDDy
+  websites:
+  - https://community.simtropolis.com/files/file/25354-bsp-standard-forge-co-maxis-night/
+  - https://community.simtropolis.com/files/file/25356-bsp-standard-forge-co-dark-night/
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: simhottoddy-bsp-standard-forge-co-maxis-night
+    include:
+    - "\\.SC4Model$"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: simhottoddy-bsp-standard-forge-co-dark-night
+    include:
+    - "\\.SC4Model$"
 
 ---
 assetId: simhottoddy-bsp-standard-forge-co-maxis-night
