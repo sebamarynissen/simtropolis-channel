@@ -1,0 +1,68 @@
+assetId: "cam-colossus-addon-mod-vanilla-controller"
+version: "3.1.1"
+lastModified: "2026-06-23T00:43:14Z"
+url: "https://community.simtropolis.com/files/file/37456-colossus-addon-mod-vanilla-controller/?do=download"
+
+---
+group: "cam"
+name: "colossus-addon-mod-vanilla-controller"
+version: "3.1.1"
+subfolder: "050-load-first"
+dependencies:
+  - "cam:ordinances"
+  - "cam:sc4-system-integration-module"
+  - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
+conflicting:
+  - "peg:spam"
+  - "cam:colossus-addon-mod"
+  - "cam:colossus-addon-mod-spam-controller"
+  - "invisichem:colossus-addon-mod-legacy"
+assets:
+  - assetId: "cam-colossus-addon-mod-vanilla-controller"  
+  
+#variants:
+#- variant: { SPAM: "no" }
+#- variant: { SPAM: "yes" }
+  #dependencies:
+  #- "cam:colossus-addon-mod-ordinances"
+  #- "cam:colossus-addon-mod-core"
+  #- "heinbloed4711:hi-tech-missing-high-wealth-jobs"
+
+  #assets:
+  #- assetId: "cam-colossus-addon-mod-spam-controller"
+  #conflicting:
+  #- "peg:spam-legacy-version"
+  #- "peg:spam"
+  #- "cam:colossus-addon-mod"
+  #- "invisichem:colossus-addon-mod-legacy"
+
+#variantDescriptions:
+  #SPAM:
+    #"no": "Choose this if you do not want to install the Colossus Addon Mod (CAM) with SPAM Controller."
+    #"yes": "Choose this to install the Colossus Addon Mod (CAM) SPAM Controller."
+
+info:
+  summary: Colossus Addon Mod
+  warning: |-
+    It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
+  conflicts: |-
+    Only compatible with game version 1.1.641, the Windows digital edition.
+    See the CAM manual for a list of mod incompatibilities.
+  description: |-
+    **Colossus Addon Mod - Vanilla Controller** is an enhanced version of the game's vanilla simulation. It includes the improvements introduced in CAM but retains the classic Maxis gameplay and excludes the improvements related to farms. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod 
+    
+    ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only). If you run CAM 2.5 or later on systems different from those listed, the mod may malfunction and no support is provided***
+    
+    ***MIGRATION:***
+    Migration to CAM - Vanilla 3.0 and later versions can be done if you meet these requirements
+    * ✅ Players coming from Vanilla can upgrade to CAM 3.0 using only the CAM Vanilla Controller
+    * ✅ Players from CAM Controller can switch to CAM 3.0 using the CAM Vanilla but must create a new region
+    * ✅ Players from CAM - SPAM Controller can switch to CAM 3.0 using the CAM Vanilla but must create a new region
+    Migration to CAM 3.0 and later versions cannot be done if you meet these requirements
+    * ❌ Players coming from CAM 2.1.1 cannot upgrade to CAM 3.0 
+
+  author: "CAM Team"
+  websites:
+   - "https://community.simtropolis.com/files/file/37456-colossus-addon-mod-vanilla-controller/"
+  images:
+   - "https://www.simtropolis.com/objects/screens/monthly_2026_06/6a39d64f42664_VanillaLogo.png.3a299642e4686af793a9c802f0193c87.png"
