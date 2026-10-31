@@ -1,15 +1,15 @@
 ---
 assetId: caspervg-scd3d11
-version: "0.4.5"
-lastModified: "2026-10-31T14:34:57Z"
+version: "0.4.7"
+lastModified: "2026-10-31T16:05:48Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37687-scd3d11-dll/?do=download"
-url: "https://github.com/caspervg/scd3d11/releases/download/v0.4.5/SCD3D11-v0.4.5.zip"
+url: "https://github.com/caspervg/scd3d11/releases/download/v0.4.7/SCD3D11-v0.4.7.zip"
 
 
 ---
 group: "caspervg"
 name: "scd3d11"
-version: "0.4.5"
+version: "0.4.7"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
@@ -18,9 +18,9 @@ assets:
 - assetId: "caspervg-scd3d11"
   withChecksum:
   - include: "/SCD3D11.dll"
-    sha256: 35545C5CDF91161A905A7C5D64806D0A812F1CE76950E5C2B1CD340AD66F74D3
+    sha256: B0EABC16D41186895CC87B2FAF7D71F7DFBC5A18C4AD2CD076B68522975EC6EB
   - include: "/SCD3D11.ini"
-    sha256: 8A6A396B76DC7B05B45116B72D68C118A7915FBAB70026BA510EF537D730A4CF  
+    sha256: 773D8785226C5687A102FD2BF4D4C02F18E85BDFD993759295B5F4F4EAD0E035  
     isIni: true    
     
 info:
