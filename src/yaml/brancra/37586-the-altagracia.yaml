@@ -1,0 +1,39 @@
+group: brancra
+name: the-altagracia
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Altagracia
+  description: |-
+    This upload contains three lots. All three use AGC props and grow on the Houston and Euro tilesets. The models are DarkNite only.
+
+    - "The Altagracia Apartments", a growable 2x3 Stage 6 R$$ lot. This uses the light-colored building.
+    - "The Hotel Altagracia", a growable 2x3 Stage 4 CS$$$ lot. This uses the dark-colored building.
+    - "The Bellavista Apartments", a growable three-building residential complex on a 5x5 Stage 6 R$$ lot. This uses both types of buildings.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37586-agc-the-altagracia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a9315ce38b18_Dowagiac-Aug.31001787839067.png.8f7be07fa16120747370f9304c220b3f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a9315e5074eb_Dowagiac-Aug.91001787839088.png.a3ade0462e9eb4179834dc96b3567007.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a9315e76a73a_Dowagiac-Jun.61001787838728.png.9bf7b0d8291fdc49ebfc136533872504.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a9315ea66391_Dowagiac-May.301001787838701.png.c0e1d898195042228f064da9e2acffa0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a931601ca4b1_Dowagiac-Jun.201001787838927.png.c5ef4271127b61c4311aa5da33c77472.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a931602d38a9_Dowagiac-Jun.301001787838953.png.a10a9b3b76dfce7fc23dfc44e9443396.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-the-altagracia
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-the-altagracia
+version: "1.0.0"
+lastModified: "2026-08-30T22:29:28Z"
+url: https://community.simtropolis.com/files/file/37586-agc-the-altagracia/?do=download

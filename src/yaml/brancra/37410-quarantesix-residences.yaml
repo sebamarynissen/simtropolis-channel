@@ -1,0 +1,38 @@
+group: brancra
+name: quarantesix-residences
+version: "1.0.1"
+subfolder: 200-residential
+info:
+  summary: Quarantesix Residences
+  description: |-
+    Based on a real building in London, UK.
+
+    This upload contains three growable R$$ lots. They grow on the Houston and Euro tilesets.
+
+    - A growable 3x1 Stage 6 lot with Maxis props.
+    - A growable 2x1 Stage 7 lot with Maxis props.
+    - A growable 3x3 Stage 5 lot with AGC props.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37410-agc-quarantesix-residences/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b7134cac1_Gallia-Mar.23411775779039.png.ff68c7384403a9efd8c841de844df77c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b71bd248a_Gallia-Apr.16411775779180.png.1b6c75145d4f5573924af66eb68ce4e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b71d56d5e_Gallia-Feb.21411775778953.png.f23bd2d4573e201a7b3726cd84e5c789.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-quarantesix-residences
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-quarantesix-residences
+version: "1.0.1"
+lastModified: "2026-06-10T01:00:21Z"
+url: https://community.simtropolis.com/files/file/37410-agc-quarantesix-residences/?do=download

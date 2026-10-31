@@ -1,0 +1,36 @@
+group: brancra
+name: jacobi-church-jacobikerk
+version: "1.0.0"
+subfolder: 650-religion
+info:
+  summary: Jacobi Church (Jacobikerk)
+  description: |-
+    Based on a real church in Utrecht, the Netherlands: the [Jacobikerk](https://en.wikipedia.org/wiki/Jacobikerk), built in 1577.
+
+    The church comes on a ploppable 3x5 lot.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37675-agc-jacobi-church-jacobikerk/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada44548672d_Athelstane-Nov.11541792366720.png.32e14d71b4ef1ec48ca6c50902ee67f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada452a527cd_Athelstane-Nov.12541792366735.png.862830b7b74b7c690502d5946d1d994b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada452b50f06_Athelstane-Oct.31541792366664.png.7e49ad37907686f44639721ec394fabd.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+  - lbt:mega-textures-vol01
+assets:
+  - assetId: brancra-jacobi-church-jacobikerk
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+      - "LBT Mega Texture Pack v\\.03\\.dat$"
+
+---
+assetId: brancra-jacobi-church-jacobikerk
+version: "1.0.0"
+lastModified: "2026-10-22T17:18:13Z"
+url: https://community.simtropolis.com/files/file/37675-agc-jacobi-church-jacobikerk/?do=download

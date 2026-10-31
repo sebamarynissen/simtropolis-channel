@@ -1,0 +1,36 @@
+group: brancra
+name: the-cortland
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Cortland
+  description: |-
+    Based on a real building in Detroit, Michigan, USA.
+
+    This upload contains two growable R$ lots. Both grow on the Chicago and New York tilesets.
+
+    - A growable 2x2 Stage 6 lot with Maxis props.
+    - A growable 3x3 Stage 5 lot with AGC props.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37414-agc-the-cortland/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b921ba666_Mankato-Oct.22211779935307.png.6b35bba60a18d55de5dc51e08985bdb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b974f3d3a_Mankato-Nov.17211779935410.png.b45b2aa4059eee2afc5b592f55406aa0.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-the-cortland
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-the-cortland
+version: "1.0.0"
+lastModified: "2026-06-10T01:10:17Z"
+url: https://community.simtropolis.com/files/file/37414-agc-the-cortland/?do=download
