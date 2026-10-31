@@ -1,0 +1,90 @@
+group: reddonquixote
+name: ernst-young-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Ernst & Young Plaza, Melbourne, Australia
+  description: |-
+    Ernst & Young Plaza is a 165m, 40 floor office building located on the corner of Flinders and Exhibition Streets and was completed in 2005 (depending which source you read!).
+
+    The historic Herald and Weekly Times building has been a landmark in the city of Melbourne since 1923. In 2002, redevelopment of the site included construction of the new Ernst & Young Tower and the heritage street front buildings were also to be converted into the new 'Herald Living Apartments'.
+
+    Integral to redevelopment was the retention of close to two thirds of the original heritage listed aspects of the building, including the distinctive neon Herald Sun sign.
+
+    The north-eastern corner of the site is now home to the Ernst & Young building. The building itself gives the impression of four individual towers.
+
+    (Source: Australian National Construction Review)
+
+    This is Part 2 of my seventh BAT. Part 1 is [The Herald and Weekly Times Building](pkg=reddonquixote:herald-and-weekly-times-building), which does not include the Ernst & Young towers.
+
+    Ernst & Young Plaza is made available in the following versions:
+
+    - A ploppable Functional Landmark. Lot size 4x5, High Wealth Commercial Office, provides 2000 jobs and costs §110,000 to build.
+    - A diagonal version Functional Landmark, same specs (prop included).
+    - A growable version.
+
+    All are available in both Darknite and Maxis night versions.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/5f27e0ed96d4e4b7239e67761eac3bb9-ey_plaza_image_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/9767fe94d5cd77af18bd8ff1e8d50271-ey_plaza_image_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/498f5ddf9fdfd65d7e6cf9bfbce08a9e-ey_plaza_image_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/3649e67444152c8034f983f882b6040d-image_04.jpg
+assets:
+  - assetId: reddonquixote-ernst-young-plaza-ploppable-lot
+  - assetId: reddonquixote-ernst-young-plaza-growable-lot
+  - assetId: reddonquixote-ernst-young-plaza-diagonal-lot
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-ernst-young-plaza-maxisnite-model
+      - assetId: reddonquixote-ernst-young-plaza-maxisnite-diagonal-prop
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-ernst-young-plaza-darknite-model
+      - assetId: reddonquixote-ernst-young-plaza-darknite-diagonal-prop
+
+---
+assetId: reddonquixote-ernst-young-plaza-ploppable-lot
+version: "1.0"
+lastModified: "2013-06-06T15:08:24Z"
+url: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/?do=download&r=116053
+
+---
+assetId: reddonquixote-ernst-young-plaza-maxisnite-model
+version: "1.0"
+lastModified: "2013-06-06T15:08:24Z"
+url: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/?do=download&r=116054
+
+---
+assetId: reddonquixote-ernst-young-plaza-growable-lot
+version: "1.0"
+lastModified: "2013-06-06T15:08:24Z"
+url: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/?do=download&r=116055
+
+---
+assetId: reddonquixote-ernst-young-plaza-diagonal-lot
+version: "1.0"
+lastModified: "2013-06-06T15:08:24Z"
+url: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/?do=download&r=116056
+
+---
+assetId: reddonquixote-ernst-young-plaza-darknite-diagonal-prop
+version: "1.0"
+lastModified: "2013-06-06T15:08:24Z"
+url: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/?do=download&r=116057
+
+---
+assetId: reddonquixote-ernst-young-plaza-maxisnite-diagonal-prop
+version: "1.0"
+lastModified: "2013-06-06T15:08:24Z"
+url: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/?do=download&r=116058
+
+---
+assetId: reddonquixote-ernst-young-plaza-darknite-model
+version: "1.0"
+lastModified: "2013-06-06T15:08:24Z"
+url: https://community.simtropolis.com/files/file/28765-ernst-young-plaza-melbourne-australia/?do=download&r=116059

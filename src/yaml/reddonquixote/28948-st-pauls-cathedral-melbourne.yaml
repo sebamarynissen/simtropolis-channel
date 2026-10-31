@@ -1,0 +1,86 @@
+group: reddonquixote
+name: st-pauls-cathedral-melbourne
+version: "1.0"
+subfolder: 650-religion
+info:
+  summary: St Paul's Cathedral, Melbourne, Australia
+  description: |-
+    St Paul's Cathedral in Melbourne is the cathedral church of the Anglican Diocese of Melbourne, Victoria in Australia. The cathedral is a major Melbourne landmark.
+
+    The cathedral commands the southern approaches to the city, and the site marks the location of the first Christian service held in Melbourne in 1835.
+
+    English architect William Butterfield designed the cathedral in the architectural style of Gothic transitional. On 22 January 1891, the cathedral was consecrated.
+
+    The erection of the spires began in 1926, to the design of John Barr of Sydney instead of Butterfield's original design. At the time of its construction St Paul's was the tallest building in central Melbourne and dominated the city's skyline.
+
+    St Paul's Moorhouse Tower is the second highest Anglican spire in the world, the tallest being that of Salisbury Cathedral.
+
+    (Source: Wikipedia)
+
+    This is Part 2 of my 12th BAT.
+
+    St Paul's Cathedral is a ploppable House of Worship. Lot size 6x6, zero costs, but with a mayor rating effect of magnitude 4 and radius 110. It is located in the Landmarks menu.
+
+    There are two lot variations, selected with the `cars` variant: with cars (version 1) or without cars (version 2).
+
+    This is the Melbourne cathedral. The London cathedral is [St Paul's Cathedral, London](pkg=reddonquixote:st-pauls-cathedral-london).
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28948-st-pauls-cathedral-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/b38cca4e5afbf7ff2cfe210fd524411a-image_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/d2b55b086dfb4ee1a7bd6bd1f43c5823-image_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/2e9db6de988d34e2063fe8e972947c1a-image_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/57fa88a934018f3c99d78bfc5186487e-image_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/ec41c617323474c338a1bab1bf9d13a3-image_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/31b6b53cebf553609cfeeccef5e7b51f-image_06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/1eb2af5ba6c0ff5dabd07b5b02d39196-stpaulsv2.jpg
+variantInfo:
+  - variantId: reddonquixote:st-pauls-cathedral-melbourne:cars
+    description: Whether the lot has cars (version 1) or no cars (version 2).
+    values:
+      - value: "yes"
+        default: true
+        description: With cars (version 1)
+      - value: "no"
+        description: Without cars (version 2)
+variants:
+  - variant: { nightmode: standard, reddonquixote:st-pauls-cathedral-melbourne:cars: "yes" }
+    assets:
+      - assetId: reddonquixote-st-pauls-cathedral-melbourne-maxisnite
+  - variant: { nightmode: standard, reddonquixote:st-pauls-cathedral-melbourne:cars: "no" }
+    assets:
+      - assetId: reddonquixote-st-pauls-cathedral-melbourne-maxisnite-nocars
+  - variant: { nightmode: dark, reddonquixote:st-pauls-cathedral-melbourne:cars: "yes" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-st-pauls-cathedral-melbourne-darknite
+  - variant: { nightmode: dark, reddonquixote:st-pauls-cathedral-melbourne:cars: "no" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-st-pauls-cathedral-melbourne-darknite-nocars
+
+---
+assetId: reddonquixote-st-pauls-cathedral-melbourne-maxisnite
+version: "1.0"
+lastModified: "2013-08-30T09:47:04Z"
+url: https://community.simtropolis.com/files/file/28948-st-pauls-cathedral-melbourne-australia/?do=download&r=119547
+
+---
+assetId: reddonquixote-st-pauls-cathedral-melbourne-darknite
+version: "1.0"
+lastModified: "2013-08-30T09:47:04Z"
+url: https://community.simtropolis.com/files/file/28948-st-pauls-cathedral-melbourne-australia/?do=download&r=119548
+
+---
+assetId: reddonquixote-st-pauls-cathedral-melbourne-darknite-nocars
+version: "1.0"
+lastModified: "2013-08-30T09:47:04Z"
+url: https://community.simtropolis.com/files/file/28948-st-pauls-cathedral-melbourne-australia/?do=download&r=119549
+
+---
+assetId: reddonquixote-st-pauls-cathedral-melbourne-maxisnite-nocars
+version: "1.0"
+lastModified: "2013-08-30T09:47:04Z"
+url: https://community.simtropolis.com/files/file/28948-st-pauls-cathedral-melbourne-australia/?do=download&r=119550

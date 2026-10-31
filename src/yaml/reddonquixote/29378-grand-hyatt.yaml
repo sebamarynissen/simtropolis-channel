@@ -1,0 +1,67 @@
+group: reddonquixote
+name: grand-hyatt
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Grand Hyatt, Melbourne, Australia
+  description: |-
+    The Grand Hyatt Melbourne is located on the corner of Collins Street and Russell Street.
+
+    As well as hosting a 5 star hotel with 546 luxury rooms and suites, our more well-to-do Sims can indulge in glamorous shopping at Melbourne's flagship luxury brand stores Chanel, Bvlgari, Louis Vuitton, Armani and Hermes.
+
+    This is my 21st BAT.
+
+    The Grand Hyatt is a Landmark, occupying 5x6 lot space.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29378-grand-hyatt-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/285894534be7f8cb340ce43c3335fd90-grand_hyatt_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/0a7920da0429d143b6a38a4dcadaa8bc-grand_hyatt_02.jpg
+dependencies:
+  - reddonquixote:grand-hyatt-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-grand-hyatt-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-grand-hyatt-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: grand-hyatt-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:grand-hyatt`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29378-grand-hyatt-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-grand-hyatt-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-grand-hyatt-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: reddonquixote-grand-hyatt-maxisnite
+version: "1.0"
+lastModified: "2014-03-28T12:12:19Z"
+url: https://community.simtropolis.com/files/file/29378-grand-hyatt-melbourne-australia/?do=download&r=127694
+
+---
+assetId: reddonquixote-grand-hyatt-darknite
+version: "1.0"
+lastModified: "2014-03-28T12:12:19Z"
+url: https://community.simtropolis.com/files/file/29378-grand-hyatt-melbourne-australia/?do=download&r=127693
