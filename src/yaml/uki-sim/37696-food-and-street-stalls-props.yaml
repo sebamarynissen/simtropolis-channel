@@ -1,0 +1,32 @@
+group: uki-sim
+name: food-and-street-stalls-props
+version: "3.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Japanese food stall (yatai) and street stall (roten) props
+  description: |-
+    **Needed by other uki Sim content**
+
+    This set is a required dependency of uki Sim's Sando (shrine approach) lots: `pkg=uki-sim:sandou-modular-japanese-shrine`.
+
+    **Undocumented content**
+
+    - The original readme and page list the planting hole prop as `uki_DirtCircle001`. The `.dat` file does not contain a prop with that name. It contains `uki_TreePpot001` instead, which the sample lot and the Sando cross lot use.
+    - The `.dat` also contains a building exemplar, `uki_KyotoBusStop01`, which is not mentioned in the readme or on the original page.
+
+    **Note:** this is a preservation upload of a set that uki originally posted on September 18, 2010, at [https://uki-sim.seesaa.net/article/162986817.html](https://uki-sim.seesaa.net/article/162986817.html). Hosting them on the STEX makes them much easier to integrate in sc4pac, the SimCity 4 package manager. The files are unchanged.
+
+    I encourage you to check out the rest of uki Sim's bats and props on their website. [http://uki-sim.seesaa.net/](http://uki-sim.seesaa.net/)
+  author: uki
+  website: https://community.simtropolis.com/files/file/37696-uki-sim-food-and-street-stalls-props-30/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Yatai_Roten01.jpg.256d76eccd353c7be5448465d06ca698.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Yatai_Roten03.jpg.62b5cab3bc292e35e5fa65dddb81249b.jpg
+assets:
+  - assetId: uki-sim-food-and-street-stalls-props
+
+---
+assetId: uki-sim-food-and-street-stalls-props
+version: "3.0.0"
+lastModified: "2026-10-31T19:47:06Z"
+url: https://community.simtropolis.com/files/file/37696-uki-sim-food-and-street-stalls-props-30/?do=download
