@@ -1,6 +1,6 @@
 group: andisart
 name: iris-bay
-version: "1.0"
+version: "1.0-1"
 subfolder: 300-commercial
 info:
   summary: Iris Bay
@@ -66,14 +66,41 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_03/EAST_ingame.jpg.55c79ad963da8676b64d0f4f0811a2dc.jpg
 dependencies:
   - andisart:modern-hd-cars-props
+  - andisart:iris-bay-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: andisart-iris-bay-maxisnite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: andisart-iris-bay-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: andisart
+name: iris-bay-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=andisart:iris-bay`
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/32179-iris-bay/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: andisart-iris-bay-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: andisart-iris-bay-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: andisart-iris-bay-darknite
