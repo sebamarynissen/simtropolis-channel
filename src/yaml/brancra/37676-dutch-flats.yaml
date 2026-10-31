@@ -1,0 +1,38 @@
+group: brancra
+name: dutch-flats
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Dutch Flats
+  description: |-
+    Based on a real pair of apartment blocks in Amsterdam, the Netherlands.
+
+    This upload contains two lots. Both use AGC props and grow on the Houston and Euro tilesets.
+
+    - A growable 5x1 Stage 6 R$ lot.
+    - A growable two-building "apartment complex" on a 5x4 Stage 5 R$ lot. There are two models with slight wall color differences, and both are used for this lot.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37676-agc-dutch-flats/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada461b1258d_Athelstane-Aug.16521791761427.png.69126b4109b881e5f04b63ba8696b909.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada4649782ed_Athelstane-Aug.19521791761436.png.73a2ce2265b75585c571e0cec86d2de4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada464b04ccf_Athelstane-Jul.8521791761234.png.f0c680a86a5742cd63729b45727e3235.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada464c58792_Athelstane-Jul.15521791761258.png.ac75a1fe55a5dd2f735829a7ceb0037e.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-dutch-flats
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-dutch-flats
+version: "1.0.0"
+lastModified: "2026-10-22T17:25:46Z"
+url: https://community.simtropolis.com/files/file/37676-agc-dutch-flats/?do=download

@@ -1,0 +1,37 @@
+group: brancra
+name: empress-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Empress Hotel
+  description: |-
+    This is a joint project between Barroco Hispano and Bobelboy. It is based on the Empress State Building, an office building built in 1961 in London, UK. The original plan was for it to be a hotel, though it was later adapted to an office building: [Empress State Building](https://en.wikipedia.org/wiki/Empress_State_Building).
+
+    This upload contains one lot, a growable 6x6 Stage 8 CS$$$ lot. It grows on the Houston and Euro tilesets.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37625-agc-empress-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab197a3e18a7_Athelstane-Mar.11201789867803.png.bd45b0fd54ff17fa0d91c9cfa7de859a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab197bc593ab_Athelstane-Feb.14201789867716.png.df25f861c82f6215c4f5bb5fa98af348.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab197bd3a3f0_Athelstane-Feb.19201789867733.png.83e832b28970e0c430193815d9349f91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab197be0df03_Athelstane-Mar.18201789867825.png.a2e778fda675d1a34ac1d2d6bcb3315e.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+  - lbt:mega-textures-vol01
+assets:
+  - assetId: brancra-empress-hotel
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+      - "LBT Mega Texture Pack v\\.03\\.dat$"
+
+---
+assetId: brancra-empress-hotel
+version: "1.0.0"
+lastModified: "2026-09-21T20:51:14Z"
+url: https://community.simtropolis.com/files/file/37625-agc-empress-hotel/?do=download

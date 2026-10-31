@@ -1,0 +1,36 @@
+group: brancra
+name: five-churchill-place
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Five Churchill Place
+  description: |-
+    Based on a real building in Canary Wharf, London, UK.
+
+    This upload contains two growable lots. Both grow on the Houston and Euro tilesets.
+
+    - A growable 4x3 Stage 7 CO$$ lot with Maxis props.
+    - A growable 4x4 Stage 6 CO$$ lot with AGC props.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37494-agc-five-churchill-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a542db842c46_Mankato-Oct.20601783734013.png.20cd19ca99e10f83ba4fd1570748c36b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a542dc3b19af_Mankato-Nov.8601783734062.png.61cb1b99a73b3a93a74cfa295a1d5dd7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a542dc8520ad_FiveChurchillPlaceAGCProps2.png.19713e754e33b420baacc11e4b45feaf.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a542dc8b3117_FiveChurchillPlaceAGCProps.png.3b35ff784e28fafda23792ba6edf2b39.png
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-five-churchill-place
+
+---
+assetId: brancra-five-churchill-place
+version: "1.0.0"
+lastModified: "2026-07-14T20:37:51Z"
+url: https://community.simtropolis.com/files/file/37494-agc-five-churchill-place/?do=download

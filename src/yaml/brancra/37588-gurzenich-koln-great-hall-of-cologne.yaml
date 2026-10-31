@@ -1,0 +1,37 @@
+group: brancra
+name: gurzenich-koln-great-hall-of-cologne
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Gürzenich Köln (Great Hall of Cologne)
+  description: |-
+    Based on the Gürzenich (Great Hall) of Köln (Cologne), Germany. The original Gothic structure was built as a market and festival hall in 1447, and was a host facility for foreign dignitaries. Today, following several renovations over the centuries, it is an events and performing arts center.
+
+    This upload contains one lot, a ploppable 2x4 library. This is a medium-sized library in-game. It costs $950 to plop, holds up to 165,000 books, and costs up to $700/month to maintain.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37588-agc-g%C3%BCrzenich-k%C3%B6ln-great-hall-of-cologne/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a94b70e4e688_Geauga-May.24331788054733.png.00bb45dc9e85caa3ef93782f99282367.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a94b71c0c451_Geauga-Jun.1331788054771.png.f959a281d135ad654af9c15e84a2127e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a94b71d083d4_Geauga-May.9331788054667.png.b697e7ac8caf8d4c49dce45614907be6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a94b71df072e_Geauga-May.11331788054684.png.6ca1639c964124566ed0e1b9a9d314ac.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+  - lbt:mega-textures-vol01
+assets:
+  - assetId: brancra-gurzenich-koln-great-hall-of-cologne
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+      - "LBT Mega Texture Pack v\\.03\\.dat$"
+
+---
+assetId: brancra-gurzenich-koln-great-hall-of-cologne
+version: "1.0.0"
+lastModified: "2026-08-30T23:11:00Z"
+url: https://community.simtropolis.com/files/file/37588-agc-g%C3%BCrzenich-k%C3%B6ln-great-hall-of-cologne/?do=download
