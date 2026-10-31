@@ -1,0 +1,35 @@
+group: brancra
+name: begovaya-house
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Begovaya House
+  description: |-
+    This is a joint project between Barroco Hispano and Bobelboy. It is based on an apartment complex in Moscow, Russia: [House on Begovaya](https://www.skyscrapercenter.com/moscow/house-on-begovaya-1/4441).
+
+    This upload contains one lot, a growable 6x6 Stage 8 R$$$ lot. It grows on the Euro tileset.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37624-agc-begovaya-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab195bdc7662_Athelstane-Mar.2201789927957.png.5486f15d6a7f257ca18ebc28686820f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab1964ff1a39_Athelstane-Feb.19201789927905.png.511d50a6233e2caf5ae3fad6662ca19e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab1965105306_Athelstane-Feb.22201789927917.png.89cadaa61a528cd458e162d584c87e18.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab19652045d1_Athelstane-Feb.26201789927937.png.6f5c83106897a8b0f1fa142983fb407d.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-begovaya-house
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-begovaya-house
+version: "1.0.0"
+lastModified: "2026-09-21T20:41:24Z"
+url: https://community.simtropolis.com/files/file/37624-agc-begovaya-house/?do=download

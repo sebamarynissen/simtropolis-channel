@@ -1,0 +1,38 @@
+group: brancra
+name: the-kura-block
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: The Kura Block
+  description: |-
+    The Kura Block / Bloque Kura is a joint project between Barroco Hispano and nikoxlaux. The building is fictional. The name "Kura" comes from the word for 'stone' in Mapudungun, one of the indigenous languages of Nikoxlaux's home country of Chile, and is a nod to the building's stone texture.
+
+    This upload contains two growable CO$$$ lots. Both grow on the Houston and Euro tilesets.
+
+    - A 3x2 Stage 5 lot.
+    - A 4x4 Stage 4 lot, "The Kura Corporate Complex". The AGC stone props in this lot are another nod to its name.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37627-agc-the-kura-block/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab1bce1d6af8_Athelstane-Apr.8201789671347.png.34ae659a552c46cdf53eb12869efa934.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab1bcf394538_Athelstane-Feb.10201789671057.png.37bdc96dc79333f208aa1fd3ae6587c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab1bcf4c1b48_Athelstane-Mar.8201789671224.png.34df332c8c936278ae401583cf126a97.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab1bfab55785_Athelstane-Mar.31201789671316.png.e1dff5b471fd2045c14b657a23ac808d.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-the-kura-block
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-the-kura-block
+version: "1.0.0"
+lastModified: "2026-09-21T23:32:39Z"
+url: https://community.simtropolis.com/files/file/37627-agc-the-kura-block/?do=download

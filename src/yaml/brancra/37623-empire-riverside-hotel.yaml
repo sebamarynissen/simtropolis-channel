@@ -1,0 +1,35 @@
+group: brancra
+name: empire-riverside-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Empire Riverside Hotel
+  description: |-
+    This is a joint project between Barroco Hispano and Bobelboy. It is based on a real hotel located in Hamburg, Germany: the [Empire Riverside Hotel](https://davidchipperfield.com/projects/empire-riverside-hotel).
+
+    This upload contains one lot, a growable 3x4 Stage 7 CS$$$ hotel. It grows on the Houston and Euro tilesets.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37623-agc-empire-riverside-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab1935bb09ea_Otesaga-Nov.27321789938239.png.de8b2edd50dd4236609e3b5bc7311c5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab194ade3835_Otesaga-Dec.4321789938264.png.e6f553c7b9a65b325bf4f66bf6f7c67b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab194af675a2_Otesaga-Dec.8321789938285.png.b5f357cd7b9bad56d66fc36e1f5feb78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/6ab194b0661c1_Otesaga-Dec.12321789938303.png.0366febc586a4001728f35c70f1f6502.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-empire-riverside-hotel
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-empire-riverside-hotel
+version: "1.0.0"
+lastModified: "2026-09-21T20:36:08Z"
+url: https://community.simtropolis.com/files/file/37623-agc-empire-riverside-hotel/?do=download
