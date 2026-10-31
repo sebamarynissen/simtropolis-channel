@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: enterprise-house-portsmouth
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Enterprise House Portsmouth
+  description: |-
+    Taking a break from my epic coursework pile I have decided to give out some of my unreleased bucket.
+
+    Enterprise House is an early 70s office building in Portsmouth England next to the Central (Portsmouth and Southsea) station. Its also not very good looking. Currently occupied by SKY Broadcasting I believe for customer services or something like that. Who cares anyway.
+
+    Ploppable 3x3 CO££ 982
+
+    Growable 3x3 CO££ 982
+
+    Dependencies, none.
+
+    Modeled in 3ds max 9, Rendered using Mental Ray 16spp
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20761-ndex-enterprise-house-portsmouth/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dd5f8d833758cdb920e8180d5844f902-enterprisehouseday.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dd5f8d833758cdb920e8180d5844f902-enterprisehousenight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-enterprise-house-portsmouth
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-enterprise-house-portsmouth
+version: "1.0"
+lastModified: "2008-12-02T16:00:44Z"
+url: https://community.simtropolis.com/files/file/20761-ndex-enterprise-house-portsmouth/?do=download
