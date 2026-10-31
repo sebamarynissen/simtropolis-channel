@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: small-suburban-tramshed
+version: "1.0b"
+subfolder: 360-landmark
+info:
+  summary: Small Suburban Tramshed
+  description: |-
+    Back in the days where tramlines lined the streets of UK cities, the tram companies were the kings of thier game. The Birmingsfield Tramway Corporation had lines all over Birmingsfield City untill the eventual demise with the invention of the car. Then, in later years came the supertram light railways know to ths SImWorld as the GLR. Now the Birmingsfield Metrotram has reopened its small sheds spread sparodacaly all over the city in a half arsed attempt to save money. They were greeted with dirtied, worn brickwork, an old sign they couldnt remove without endangering the main structure and a big, rusty, leaky roof.
+
+    Lot size: 2x4
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13998-bsc-its-small-suburban-tramshed/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/5933963c67d57017bb19179791420b78-Birmingsfieldtramdepot.jpg
+    - https://www.simtropolis.com/objects/screens/0010/5933963c67d57017bb19179791420b78-Birmingsfieldtramdepotnight.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-small-suburban-tramshed
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-small-suburban-tramshed
+version: "1.0b"
+lastModified: "2019-10-19T22:02:39Z"
+url: https://community.simtropolis.com/files/file/13998-bsc-its-small-suburban-tramshed/?do=download
