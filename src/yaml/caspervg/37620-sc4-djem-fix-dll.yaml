@@ -1,0 +1,40 @@
+---
+assetId: "caspervg-sc4-djem-fix"
+version: "0.1.2"
+lastModified: "2026-09-20T06:27:11Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37620-sc4-djem-fix-dll/?do=download"
+url: "https://github.com/caspervg/sc4-djem-fix/releases/download/v0.1.2/SC4DjemFix-v0.1.2-win32.zip"
+
+---
+group: "caspervg"
+name: "sc4-djem-fix-dll"
+version: "0.1.2"
+subfolder: "150-mods"
+dependencies:
+  - "config:sc4-edition-windows-digital"
+
+assets:
+- assetId: "caspervg-sc4-djem-fix"
+  withChecksum:
+  - include: "/SC4DjemFix.dll"
+    sha256: 6B8F4440C906343FC2FD745F15E23764DF98C4825DA1CB809A7E00E7305BA4C1
+  - include: "/SC4DjemFix.ini"
+    sha256: F0A04D41DA9E812FFEAC9216CDE2C4296BD339A1A9F001820B566ED70FBE8157
+    isIni: true
+
+info:
+  summary: "DLL that smooths diagonal jagged edges in steep terrain, independent of the installed terrain mod"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  warning: "Existing terrain is only corrected after a nearby terrain update, such as raising or lowering a tile or building a road. New terrain is correct straight away."
+  description: |-
+    SC4 DJEM Fix corrects diagonal jagged edges in steep SimCity 4 terrain. The game divides each terrain cell along one diagonal. Near a sharp height change, the other diagonal can give a smoother surface. This DLL selects the diagonal with the smaller height discontinuity after the game updates terrain normals and cliff textures, making diagonals look a lot smoother. The fix also keeps prop placement and other height-dependent behavior aligned with the rendered surface, so that props along the diagonal are positioned correctly.
+
+    Unlike typical diagonal jagged edges mods, this one is completely independent of your installed terrain mod or slope mod and will not turn every height difference into the cliff texture.
+
+    Existing terrain needs a nearby terrain update (raising or lowering a tile, building a road, ...) for the fix to apply in that location. New terrain is immediately correct.
+
+    The fix can be tuned or switched off in `SC4DjemFix.ini`.
+  author: "caspervg"
+  website: "https://community.simtropolis.com/files/file/37620-sc4-djem-fix-dll/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_09/djem-example-logo.jpg.1dc4e5773319ecbcdccd80b8c8d07fbd.jpg
