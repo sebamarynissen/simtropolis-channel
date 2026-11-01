@@ -1,0 +1,40 @@
+group: ill-tonkso
+name: langstrath-central-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Langstrath Central Station
+  description: |-
+    **Langstrath Central Station**
+
+    Modelled and taken directly from my CJ [Langstrath](https://www.simtropolis.com/forum/messageview.cfm?catid=36&threadid=88825&enterthread=y&STARTPAGE=3), Central Station is an early victorian Railway Station with a Hotel. The platform configuration features 4 bay platforms and 2 through platforms sited underneath a grand iron trainshed.
+
+    Capacity: 40,000
+
+    Lot Size:9x7
+
+    dependencies:
+
+    [ITS Railprops](https://www.simtropolis.com/stex/index.cfm?id=13215)
+
+    * * *
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/18184-ndex-its-langstrath-central-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/31a8fd1cdfa0d09fb20b7f512c380a72-langst.jpg
+    - https://www.simtropolis.com/objects/screens/0006/31a8fd1cdfa0d09fb20b7f512c380a72-Hanger%20copy.jpg
+dependencies:
+  - bsc:mega-props-misc-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-langstrath-central-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-langstrath-central-station
+version: "1.0"
+lastModified: "2007-05-24T07:46:51Z"
+url: https://community.simtropolis.com/files/file/18184-ndex-its-langstrath-central-station/?do=download
