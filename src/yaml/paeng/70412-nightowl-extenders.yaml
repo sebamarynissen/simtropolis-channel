@@ -9,7 +9,7 @@ info:
 
     - **Sandstone:** to match the Sandstone Sidewalk and Base Texture Mod (`pkg=paeng:sandstone-mod`). They come in single and double width and for all wealth levels (Rural / $ / $$ / $$$ variants). They are plain (undecorated), but can be enhanced with all kinds of MMPs. They can be found in the 'Transport | Miscellaneous' menu.
     - **Park Paths:** to match some of the paths of the Parks Revisited series (`pkg=paeng:parks-revisited`). They come in single and double width and are decorated with some basic park items (e.g. fences, hedges), but can be further enhanced with MMPs as well.
-    - **Bikepaths:** to match Paeng's Bikepaths. The bikepath extender comes only as single width, but with a left and right version. For double-width networks, just plop an extender from both sides of the network.
+    - **Bikepaths:** to match the Bicycle Paths with Alley Parks (`pkg=paeng:bicycle-paths-with-alley-parks`). The bikepath extender comes only as single width, but with a left and right version. For double-width networks, just plop an extender from both sides of the network.
 
     All extenders are sorted into the menus together with their park and path sets.
 
@@ -26,7 +26,9 @@ info:
 dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-swi21-vol01
+  - murimk:props-vol01-bicycles
   - murimk:props-vol02-mixed
+  - paeng:bicycle-paths-with-alley-parks-resources
   - paeng:parks-revisited-resources
   - paeng:sandstone-mod-textures
   - paeng:textures
