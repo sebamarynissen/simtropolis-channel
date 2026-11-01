@@ -29,9 +29,9 @@ info:
 
     If you don't want to use any of the sidings, you can safely bulldoze the respective lots.
 
-    The 'Texture Changer 205' module of the original download, which exchanges or unifies the base textures of the three park systems, is not included. The props and textures used by the lots are provided separately by `pkg=paeng:parks-revisited-resources`.
+    The 'Texture Changer 205' module of the original download, which exchanges or unifies the base textures of the three park systems, is available as the optional `pkg=paeng:parks-revisited-texture-changer`. The props and textures used by the lots are provided by `pkg=paeng:parks-revisited-resources`.
 
-    If you notice the beach textures going wonky in combination with other texture mods, `pkg=rsc204:parks-revisited-maxis-beach-patch` can be used to restore them.
+    The beach texture patch `pkg=rsc204:parks-revisited-maxis-beach-patch` is installed as a dependency, to keep the Maxis beach texture intact in combination with other texture mods.
 
     **Thank you**
 
@@ -66,6 +66,7 @@ dependencies:
   - peg:mtp-super-pack
   - peg:spot
   - porkissimo:jenx-porkie-expanded-porkie-props
+  - rsc204:parks-revisited-maxis-beach-patch
   - t-wrecks:maxis-prop-names-and-query-fix
 assets:
   - assetId: paeng-parks-revisited
@@ -87,6 +88,88 @@ assets:
   - assetId: paeng-parks-revisited
     include:
       - "/Resource_Parks205\\.dat$"
+
+---
+group: paeng
+name: parks-revisited-texture-changer
+version: "2.05"
+subfolder: 900-overrides
+info:
+  summary: Texture Changer for `pkg=paeng:parks-revisited`
+  description: |-
+    The three park systems of Parks Revisited all use the same type of overlays, but different base textures: Monument Park (Monument Cobblestone), Urban Gardens (Angled Brick) and White Sands Park (White Sand). In order to better mix these park systems, you can use these mods to change the base textures around to suit your preference. For example, both Urban Gardens and White Sands Park can be modded to use the Monument texture, or White Sands Park and Monument Park can use the Brick texture.
+
+    Choose the combination you like in the variant selection. The textures change on the fly, no re-plopping is needed. To revert to the original textures, remove this package.
+  author: Paeng
+  website: https://community.simtropolis.com/files/file/26923-paengs-parks-revisited/
+dependencies:
+  - paeng:parks-revisited
+variants:
+  - variant: { paeng:parks-revisited-texture-changer:combination: ug2monument }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/UG2Monument_Mod\\.dat$"
+  - variant: { paeng:parks-revisited-texture-changer:combination: wsp2monument }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/WSP2Monument_Mod\\.dat$"
+  - variant: { paeng:parks-revisited-texture-changer:combination: wsp2ug }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/WSP2UG_Mod\\.dat$"
+  - variant: { paeng:parks-revisited-texture-changer:combination: monument2ug }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/Monument2UG_Mod\\.dat$"
+  - variant: { paeng:parks-revisited-texture-changer:combination: ug2monument-wsp2monument }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/UG2Monument_Mod\\.dat$"
+          - "/WSP2Monument_Mod\\.dat$"
+  - variant: { paeng:parks-revisited-texture-changer:combination: ug2monument-wsp2ug }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/UG2Monument_Mod\\.dat$"
+          - "/WSP2UG_Mod\\.dat$"
+  - variant: { paeng:parks-revisited-texture-changer:combination: wsp2ug-monument2ug }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/WSP2UG_Mod\\.dat$"
+          - "/Monument2UG_Mod\\.dat$"
+  - variant: { paeng:parks-revisited-texture-changer:combination: ug2monument-wsp2ug-monument2ug }
+    assets:
+      - assetId: paeng-parks-revisited
+        include:
+          - "/UG2Monument_Mod\\.dat$"
+          - "/WSP2UG_Mod\\.dat$"
+          - "/Monument2UG_Mod\\.dat$"
+variantInfo:
+  - variantId: paeng:parks-revisited-texture-changer:combination
+    description: Choose which base textures should be exchanged. Monument Park uses Monument Cobblestone, Urban Gardens uses Angled Brick and White Sands Park uses White Sand.
+    values:
+      - value: ug2monument
+        description: Urban Gardens uses the Monument texture.
+      - value: wsp2monument
+        description: White Sands Park uses the Monument texture.
+      - value: wsp2ug
+        description: White Sands Park uses the Urban Gardens texture.
+      - value: monument2ug
+        description: Monument Park uses the Urban Gardens texture.
+      - value: ug2monument-wsp2monument
+        description: Urban Gardens and White Sands Park use the Monument texture.
+      - value: ug2monument-wsp2ug
+        description: Urban Gardens uses the Monument texture and White Sands Park uses the Urban Gardens texture.
+      - value: wsp2ug-monument2ug
+        description: White Sands Park and Monument Park use the Urban Gardens texture.
+      - value: ug2monument-wsp2ug-monument2ug
+        description: Urban Gardens uses the Monument texture, while White Sands Park and Monument Park use the Urban Gardens texture.
 
 ---
 assetId: paeng-parks-revisited

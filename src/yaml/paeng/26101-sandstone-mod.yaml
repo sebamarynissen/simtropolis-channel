@@ -13,7 +13,9 @@ info:
 
     **Installation**
 
-    This package installs the default (and recommended) scenario: the 'Sidewalk_Mod' with all-wealth-dependent sidewalks (high, medium and low wealth/density) and the 'Base_Overlay_Mod' with all the new base and overlay textures. The alternative sidewalk configurations of the original download (`Sidewalk_Variations.zip`) are not included.
+    The default (and recommended) scenario installs the 'Sidewalk_Mod' with all-wealth-dependent sidewalks (high, medium and low wealth/density) and the 'Base_Overlay_Mod' with all the new base and overlay textures.
+
+    If you want to customize the appearance of your sidewalks even further, there are numerous other configurations for the Sidewalk Mod, which can be chosen in the variant selection. With the One-for-All options all sidewalks get one unified look, while the Control Freak options give a specialized mix of two wealth textures. Note that the replacement for the base textures and overlays is always the medium wealth texture, and that every option includes the single texture replacement for agricultural developments (`sw_rural.dat`).
 
     **Extras**
 
@@ -34,11 +36,101 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_07_2011/28969600b7178d840b2e09362a9c6b56-in-action01.jpg
 dependencies:
   - paeng:sandstone-mod-textures
-assets:
-  - assetId: paeng-sandstone-mod
-    exclude:
-      - "/Sidewalk_Variations\\.zip"
-      - "/base_overlay_textures\\.dat$"
+variants:
+  - variant: { paeng:sandstone-mod:sidewalks: default }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/Sidewalk_Variations\\.zip"
+          - "/base_overlay_textures\\.dat$"
+  - variant: { paeng:sandstone-mod:sidewalks: all-high }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_OfA-1tex_high/)"
+  - variant: { paeng:sandstone-mod:sidewalks: all-medium }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_OfA-1tex-med/)"
+  - variant: { paeng:sandstone-mod:sidewalks: all-low }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_OfA-1tex_low/)"
+  - variant: { paeng:sandstone-mod:sidewalks: high-medium }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_CF-2tex_high-med/)"
+  - variant: { paeng:sandstone-mod:sidewalks: high-low }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_CF-2tex_high-low/)"
+  - variant: { paeng:sandstone-mod:sidewalks: medium-high }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_CF-2tex_med-high/)"
+  - variant: { paeng:sandstone-mod:sidewalks: medium-low }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_CF-2tex_med-low/)"
+  - variant: { paeng:sandstone-mod:sidewalks: low-high }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_CF-2tex_low-high/)"
+  - variant: { paeng:sandstone-mod:sidewalks: low-medium }
+    assets:
+      - assetId: paeng-sandstone-mod
+        exclude:
+          - "/base_overlay_textures\\.dat$"
+          - "/zzz_Def-3tex_high-med-low/"
+          - "/(?:One4All|ControlFreak)/(?!zzz_CF-2tex_low-med/)"
+variantInfo:
+  - variantId: paeng:sandstone-mod:sidewalks
+    description: Choose the sidewalk textures that replace the default sidewalks.
+    values:
+      - value: default
+        default: true
+        description: Wealth-dependent sidewalks with three different textures for high, medium and low wealth (recommended).
+      - value: all-high
+        description: One-for-All, all sidewalks use the high wealth texture.
+      - value: all-medium
+        description: One-for-All, all sidewalks use the medium wealth texture.
+      - value: all-low
+        description: One-for-All, all sidewalks use the low wealth texture.
+      - value: high-medium
+        description: Control Freak, a mix of the high and medium wealth textures (high wealth, medium wealth and low wealth developments use the high, medium and high texture).
+      - value: high-low
+        description: Control Freak, a mix of the high and low wealth textures (high wealth, medium wealth and low wealth developments use the high, high and low texture).
+      - value: medium-high
+        description: Control Freak, a mix of the medium and high wealth textures (high wealth, medium wealth and low wealth developments use the high, medium and medium texture).
+      - value: medium-low
+        description: Control Freak, a mix of the medium and low wealth textures (high wealth, medium wealth and low wealth developments use the medium, medium and low texture).
+      - value: low-high
+        description: Control Freak, a mix of the low and high wealth textures (high wealth, medium wealth and low wealth developments use the high, low and low texture).
+      - value: low-medium
+        description: Control Freak, a mix of the low and medium wealth textures (high wealth, medium wealth and low wealth developments use the low, medium and low texture).
 
 ---
 group: paeng
