@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: 286-euston-road
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 286 Euston Road
+  description: |-
+    Hang on, this looks familiar. Yes I modeled this one WAY back in my BSC days. Well here it is again, redone from scratch. So go on, say bye to the old one because this one is modeled much more accurately, is crisper, had raytracing and a half decent roof.
+
+    The Euston Tower is a 36 storey  124m skyscraper in the London Borough of Camden, on the junction of Euston Road, Hampstead Road and Tottenham Court Road. The building was designed by Sidney Kaye and completed in 1970.
+
+    * * *
+
+    Ploppable: CO££ 2800 3x3
+
+    * * *
+
+    Dependencies, none!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20250-ndex-its-286-euston-road/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c109167b38b6baf605426d4c1dd04b40-eustonday.jpg
+    - https://www.simtropolis.com/objects/screens/0021/c109167b38b6baf605426d4c1dd04b40-eustonnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol07
+assets:
+  - assetId: ill-tonkso-286-euston-road
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-286-euston-road
+version: "1.0"
+lastModified: "2008-08-20T18:30:31Z"
+url: https://community.simtropolis.com/files/file/20250-ndex-its-286-euston-road/?do=download
