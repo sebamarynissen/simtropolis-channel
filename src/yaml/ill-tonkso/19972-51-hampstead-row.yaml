@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: 51-hampstead-row
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 51 Hampstead Row
+  description: |-
+    Another Hampstead Row building! My fictional street based on Hampstead High Street in North London continues with, a PUB! We all need a Pub and oh so conveniently located next door to a flower shop so when you get completely plastered you can buy a bouquet for the wife to ease the inevitable arguement.
+
+    * * *
+
+    CS££ 1x2 Lot with 38 jobs, Growable.
+
+    Ploppable is the same.
+
+    * * *
+
+    dependencies, Gascooker Mega Prop Pack.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19972-ndex-its-51-hampstead-row/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c5591a445ad5436349bb2888a01cacac-51hampstead.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c5591a445ad5436349bb2888a01cacac-51hampsteadnight.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-51-hampstead-row
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-51-hampstead-row
+version: "1.0"
+lastModified: "2008-06-22T18:03:51Z"
+url: https://community.simtropolis.com/files/file/19972-ndex-its-51-hampstead-row/?do=download
