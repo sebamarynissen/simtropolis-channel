@@ -1,0 +1,37 @@
+group: ill-tonkso
+name: bridgewater-place
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bridgewater Place
+  description: |-
+    Completed in 2007, Bridgewater Place is the tallest building in Leeds UK (soon to be be surpassed). In real life the building is mixed use, commerical with residential on the top few floors.
+
+    Another note on this model: This model is around 10 months old. I could never render it, Bixel could never render it, Simfox could never render it. Finally, in April, i rendered it ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    * * *
+
+    Ploppable only (due to size): £12000, 4x11 lot, CO££ 9000.
+
+    * * *
+
+    dependencies: None!
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17987-ndex-its-bridgewater-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1a842ac582038d93385703b36b23cce8-bridgwd.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1a842ac582038d93385703b36b23cce8-bridgwn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol10
+assets:
+  - assetId: ill-tonkso-bridgewater-place
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-bridgewater-place
+version: "1.0"
+lastModified: "2007-04-10T11:59:35Z"
+url: https://community.simtropolis.com/files/file/17987-ndex-its-bridgewater-place/?do=download
