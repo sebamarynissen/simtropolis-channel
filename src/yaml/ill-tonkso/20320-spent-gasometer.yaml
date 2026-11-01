@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: spent-gasometer
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Spent Gasometer
+  description: |-
+    This one really needed to be done to be honest, and somebody had to do it. These things are all over the UK sitting there, not being used (some are). Local Landmarks in many a case. So, in the persuit of realism, I made one.
+
+    To sweeten the deal, I gave it a function. I made it a cheap, low output Gas Powered Power Station.
+
+    * * *
+
+    Cost £500
+
+    Output 1000mw.
+
+    Pollution: Air 40, radius, 25.
+
+    * * *
+
+    Dependencies, none.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20320-ndex-its-spent-gasometer/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/456b3014a9780ea29d3cb6e3a4224788-gasometer.jpg
+dependencies:
+  - peg:mtp-super-pack
+assets:
+  - assetId: ill-tonkso-ndex-its-spent-gasometer
+
+---
+assetId: ill-tonkso-ndex-its-spent-gasometer
+version: "1.0"
+lastModified: "2008-09-03T19:56:51Z"
+url: https://community.simtropolis.com/files/file/20320-ndex-its-spent-gasometer/?do=download

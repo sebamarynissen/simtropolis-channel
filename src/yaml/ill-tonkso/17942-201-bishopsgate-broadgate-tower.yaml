@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: 201-bishopsgate-broadgate-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 201 Bishopsgate Broadgate Tower
+  description: |-
+    201 Bishopsgate - The BroadgateTower
+
+    * * *
+
+     201 Bishopsgate is a 164 meter, 36 story skyscraper under construction on Londons Bishopsgate road. This SC4 recreation costs £9000 and provides 4000 CO££ Jobs. Real building due for completion 2008.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17942-ndex-its-201-bishopsgate-broadgate-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6f18d8584f4e3f3945502e73f4d7ad30-201d.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6f18d8584f4e3f3945502e73f4d7ad30-201n.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol04
+assets:
+  - assetId: ill-tonkso-201-bishopsgate-broadgate-tower
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-201-bishopsgate-broadgate-tower
+version: "1.0"
+lastModified: "2007-03-31T19:04:14Z"
+url: https://community.simtropolis.com/files/file/17942-ndex-its-201-bishopsgate-broadgate-tower/?do=download

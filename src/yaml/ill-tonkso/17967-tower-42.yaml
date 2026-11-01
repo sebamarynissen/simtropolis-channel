@@ -1,0 +1,41 @@
+group: ill-tonkso
+name: tower-42
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Tower 42
+  description: |-
+    **25 Old Broad Street: Tower 42**
+
+    Tower 42 was completed in 1980 and at 183 meters and 42 stories was Londons tallest building (surpassed by [One Canada Square](https://www.simtropolis.com/stex/index.cfm?id=16049) in 1991). Richard Sieferts design was reported to be the straitest skyscraper in the world due to new technology at the time and is the worlds tallest Cantlivered Building.
+
+    * * *
+
+    Plop: £9000, 2x3 lot, CO££ 8000.
+
+    * * *
+
+    Grow: 2x3 lot, CO££ 8000 Removed for version 2 (bugged), will be reinstated in Version 2.
+
+    * * *
+
+    dependencies: None
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17967-ndex-its-tower-42/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d1cbc02ac18ccdbe198172beafb1a25c-t4dd.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d1cbc02ac18ccdbe198172beafb1a25c-t4dn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol11
+assets:
+  - assetId: ill-tonkso-tower-42
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-tower-42
+version: "2"
+lastModified: "2007-04-06T07:53:42Z"
+url: https://community.simtropolis.com/files/file/17967-ndex-its-tower-42/?do=download

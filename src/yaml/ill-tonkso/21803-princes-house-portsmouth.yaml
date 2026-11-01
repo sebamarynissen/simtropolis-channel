@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: princes-house-portsmouth
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Princes House Portsmouth
+  description: |-
+    Princes House is a non descript little office building near Ravelyn Park in central Portsmouth. I walk past this all the time and I always thought it's boxy shape would be a nice easy one to model. And it wasn't. It wasn't exactly hard but I got annoyed with the little fiddly bits, the dimensions, and thay bloody roof garden... guh... I also fixed the clock which the current tennants of the real thing don't seem to be capable of doing... seriously, how much effort would it be to replace the missing bits? It just looks stupid at the moment with only 3 of the hour markers. But I digress... download the thing, leave your appreciation/hatemail and enjoy.
+
+    Princes House fits on a 2x3 ploppable and growable lot with 660 CO££ jobs.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/21803-ndex-its-princes-house-portsmouth/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/89cf759d75b369ed3a12c78142c7f483-princesday.jpg
+    - https://www.simtropolis.com/objects/screens/0016/89cf759d75b369ed3a12c78142c7f483-princesnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol08
+assets:
+  - assetId: ill-tonkso-princes-house-portsmouth
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-princes-house-portsmouth
+version: "1.0"
+lastModified: "2009-06-03T18:34:02Z"
+url: https://community.simtropolis.com/files/file/21803-ndex-its-princes-house-portsmouth/?do=download

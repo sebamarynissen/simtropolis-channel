@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: wye-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Wye Station
+  description: |-
+    **Wye Station**
+
+    Wye Station has been modelled after the typical Victorian British country station. Rendered with Mental Ray at 64 samples per pixel to bring out the details and the depth as it should be this is probably my most detailed station to date [see here](http://img158.imageshack.us/img158/8053/stationss8.jpg).
+
+    **The Stats**
+
+    This is a fully transit enabled 2x6 lot that costs a mere £1000 to plop and has a hefty capacity of 10,000. Found in the Rail Menu.
+
+    Any issues, please post [here](https://www.simtropolis.com/forum/messageview.cfm?catid=116&threadid=71573&enterthread=y&STARTPAGE=42) in my support and development thread.
+
+    *Dan*
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19131-ndex-its-wye-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e4aabd46d2e2da4f96f04b570c36baea-Station1.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e4aabd46d2e2da4f96f04b570c36baea-Station2.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-wye-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-wye-station
+version: "1.0"
+lastModified: "2007-12-18T15:10:55Z"
+url: https://community.simtropolis.com/files/file/19131-ndex-its-wye-station/?do=download

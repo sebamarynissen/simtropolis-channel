@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: portchester-fire-station
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: Portchester Fire Station
+  description: |-
+    Something local, very local in fact, 1 little residential street away in fact. I walk past this little suburban fire station all the time on the way to my local Rail Station so I thought I would bring it to the game.
+
+    Portchester Fire station is a Portsmouth Suburban Fire station with one engine, for the game I have given it a medium radius, about the same size as the 4 engine station in game. My coverage is a little more realistic than the default stations. It also sits on a 2x3 lot and costs £300 to plop.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20077-ndex-its-portchester-fire-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a7916106ab938bf9fc8df6ee0eec24cf-Portfire.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a7916106ab938bf9fc8df6ee0eec24cf-Portfire2.jpg
+dependencies:
+  - ndex:its-mega-pack-vol08
+assets:
+  - assetId: ill-tonkso-portchester-fire-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-portchester-fire-station
+version: "1.0"
+lastModified: "2008-07-14T20:13:47Z"
+url: https://community.simtropolis.com/files/file/20077-ndex-its-portchester-fire-station/?do=download

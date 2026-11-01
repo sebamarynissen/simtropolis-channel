@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: windsor-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 2011 Windsor House
+  description: |-
+    Windsor House is a 70m tall 18 storey office tower on Victoria Street, Westminster, London. Completed in 1973 it is occupied by Transport for London.
+
+    Ploppable and Growable: CO$$$ 1,200
+
+    Plop Cost: £12,000
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25935-its-2011-windsor-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/dfba92968ab7e6c8ea8bc18bfbd4270a-windsordau.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6aac37a00ba79cc5e0efddb95efaba05-windsornight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol05
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: ill-tonkso-2011-windsor-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-2011-windsor-house
+version: "1.0"
+lastModified: "2011-03-03T19:59:59Z"
+url: https://community.simtropolis.com/files/file/25935-its-2011-windsor-house/?do=download

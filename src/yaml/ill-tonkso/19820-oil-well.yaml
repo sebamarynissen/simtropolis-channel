@@ -1,0 +1,51 @@
+group: ill-tonkso
+name: oil-well
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Oil Well
+  description: |-
+    **Oil Well**
+
+    Just found oil and want to make some cash? Then build a well! This was actually a request and it actually rendered! Just because I took this one doesn't mean I will take others though so PLEASE no request PM's,
+
+    This was pretty easy to model and I feel I made the most out of bump mapping to give the steelwork a worn and weathered feel.
+
+    * * *
+
+    **Growable:**
+
+    120 Dirty Industrial Jobs
+
+    2x2
+
+    Medium Density
+
+    **Landmark:**
+
+    Landmark only (no jobs)
+
+    2x2
+
+    * * *
+
+    **dependencies:**
+
+    None!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19820-ndex-its-oil-well/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ead0df488f9b83ed007109c34d36e270-Oil.jpg
+    - https://www.simtropolis.com/objects/screens/0026/ead0df488f9b83ed007109c34d36e270-eh.jpg
+dependencies:
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-oil-well
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-oil-well
+version: "1.0"
+lastModified: "2008-05-21T19:56:01Z"
+url: https://community.simtropolis.com/files/file/19820-ndex-its-oil-well/?do=download

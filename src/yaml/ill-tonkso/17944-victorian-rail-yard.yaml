@@ -1,0 +1,25 @@
+group: ill-tonkso
+name: victorian-rail-yard
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Victorian Rail Yard
+  description: This victorian rail shed is a small eye candy lot that is found in your parks menu. I based the shed off several buildings i passed on the Portsmouth - London intercity route, such as the Eastliegh works or Wimbledon Depot. The lot costs £800 to plop and a further £15 a month.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17944-ndex-its-victorian-rail-yard/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a09234900b9f40e5b38ff80c5f5e4e1f-vry.jpg
+dependencies:
+  - bsc:textures-vol02
+  - ndex:its-mega-pack-vol15
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: ill-tonkso-victorian-rail-yard
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-victorian-rail-yard
+version: "1.0"
+lastModified: "2007-03-31T19:06:49Z"
+url: https://community.simtropolis.com/files/file/17944-ndex-its-victorian-rail-yard/?do=download

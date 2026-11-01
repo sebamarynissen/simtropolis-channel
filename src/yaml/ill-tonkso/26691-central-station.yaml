@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: central-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Central Station
+  description: |-
+    Holy Bejeezus Batman! The STEX accepted it! (Been trying to upload this since my flood back in March)
+
+    Well, it's a 12x10 transit enabled station with a 60,000 capacity.
+
+    It's gonna cost ya £10,000 to plop it!
+
+    That is all, enjoy.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/26691-ndex-its-central-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/8881557225a63f920748e55c2ef04a7b-centralstationday.jpg
+dependencies:
+  - bsc:textures-vol03
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: ill-tonkso-central-station
+
+---
+assetId: ill-tonkso-central-station
+version: "1.0"
+lastModified: "2011-08-26T23:18:54Z"
+url: https://community.simtropolis.com/files/file/26691-ndex-its-central-station/?do=download

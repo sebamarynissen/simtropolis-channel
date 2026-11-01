@@ -1,0 +1,41 @@
+group: ill-tonkso
+name: rymac-hotel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Rymac Hotel
+  description: |-
+    **Rymac Hotel**
+
+    Rymac Hotels are chain of Hotels across Brennt. Popular with businessmen, every hotel includes a conference centre and some even have indoor swimming facilities.
+
+    * * *
+
+    Plop: 2x4 lot, CS££ 3000
+
+    * * *
+
+    Grow: 2x4 lot, CS££3000
+
+    * * *
+
+    dependencies: None!
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17986-ndex-its-rymac-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/eb34f82b3cff20d1bceb83d13f3ea75f-ryd.jpg
+    - https://www.simtropolis.com/objects/screens/0026/eb34f82b3cff20d1bceb83d13f3ea75f-ryn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol08
+assets:
+  - assetId: ill-tonkso-rymac-hotel
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-rymac-hotel
+version: "1.0"
+lastModified: "2007-04-10T09:16:05Z"
+url: https://community.simtropolis.com/files/file/17986-ndex-its-rymac-hotel/?do=download

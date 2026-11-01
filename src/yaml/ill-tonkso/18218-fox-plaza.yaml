@@ -1,0 +1,42 @@
+group: ill-tonkso
+name: fox-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Fox Plaza
+  description: |-
+    **Regarding STEX Pic: The STEX is messing up the quality at the moment, for now use [this link](http://img267.imageshack.us/img267/1848/langstrath4ja3.jpg) to view a decent quality image.**
+
+    Fox Plaza
+
+    Fox plaza is a 150m skyscraper in Los Angles' Century City. the building is famous as it was the building used for Nakatomi Plaza in Die Hard and the Lift scene in Speed.
+
+    I randomly BATted this after watching Die Hard, i always liked the building and thought 'Why Not'. Much to Cjahs enjoyment ![:P](https://community.simtropolis.com/assets/emoticons/LlamaTounge.gif) Anyway, enough with the chit chat lets have some stats.
+
+    * * *
+
+    Ploppable: £6000, 4000 CO£££ Jobs, 4x3
+
+    * * *
+
+    dependencies: Unfortunaly there IS one dependency and this is located offsite, l[ink available here](https://www.simtropolis.com/stex/index.cfm?id=12646). Required for Overlay Textures.
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/18218-ndex-its-fox-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e2378b98c8488170b53e8f4ad903a5a3-Langstr.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e2378b98c8488170b53e8f4ad903a5a3-foxd.jpg
+dependencies:
+  - bsc:textures-vol02
+  - ndex:its-mega-pack-vol10
+assets:
+  - assetId: ill-tonkso-fox-plaza
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-fox-plaza
+version: "1.0"
+lastModified: "2007-05-28T19:45:54Z"
+url: https://community.simtropolis.com/files/file/18218-ndex-its-fox-plaza/?do=download

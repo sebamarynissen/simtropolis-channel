@@ -1,0 +1,24 @@
+group: ill-tonkso
+name: highway-matrix-sign
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Highway Matrix Sign
+  description: |-
+    **Highway Matrix Signs**
+
+    Just something small i cooked up for my UK Motorway Project and mirrored for Right Hand Drive, these small signs are found in the Parks menu and cost $100 to plop with no additional costs. These signs exist to provide drivers with information regarding the road ahead, and this model was based on those on the M27 between Portsmouth and Southampton.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17860-its-highway-matrix-sign/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b52f8130e57de4e7877d0f6fa393be76-USMS.jpg
+dependencies:
+  - ill-tonkso:motorway-matrix-sign
+assets:
+  - assetId: ill-tonkso-highway-matrix-sign
+
+---
+assetId: ill-tonkso-highway-matrix-sign
+version: "1.0"
+lastModified: "2007-03-10T16:55:37Z"
+url: https://community.simtropolis.com/files/file/17860-its-highway-matrix-sign/?do=download

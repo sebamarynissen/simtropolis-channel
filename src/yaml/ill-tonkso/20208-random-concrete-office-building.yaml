@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: random-concrete-office-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Random Concrete Office Building
+  description: |-
+    Original Naming on my behalf here, I started doodling around on max, inspired by several of Londons worst office buildings and this was the result, fantastic...  
+      
+    Anyway, yeah.
+
+    Ploppable: CO££ 750
+
+    **Dependencies, none.**
+
+    2014-04-07 - Prens: Added basic tags.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20208-ndex-its-random-concrete-office-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/57e741af47236b885980767221f1ac88-randomconcreteday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/02bcab2dadb601437d1d23d917f43051-randomconcretenight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol08
+assets:
+  - assetId: ill-tonkso-random-concrete-office-building
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-random-concrete-office-building
+version: "1.0"
+lastModified: "2008-08-12T20:45:10Z"
+url: https://community.simtropolis.com/files/file/20208-ndex-its-random-concrete-office-building/?do=download
