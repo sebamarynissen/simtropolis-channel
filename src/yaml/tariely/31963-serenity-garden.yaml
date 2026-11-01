@@ -1,0 +1,53 @@
+group: tariely
+name: serenity-garden
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: D66 Serenity Garden
+  description: |-
+    This one is another Relot Riff, on D66 Serenity Plaza, which is another mainstay of mine. But I wanted it a little less somberly ornate and so a little more… serene. Which is why my relot is called Serenity Garden.
+
+    If you want to have a look at D66's other creations, do a Power Search with her name on the LEX. Her lots are great!
+
+    I said it in my very first upload, but it bears repeating: many thanks to my technical gurus, rsc204, kosc and dreadnought. And especially rivit, who lighted my SC4world. Also the willing victims of the beta-tests, robertLM78, handyman and, again, dreadnought. And the guys and gals on the forums (twalsh, RandyE, matias93, fantozzi…). We need help when we begin sneaking a peek under the hood of SC4. That the community is always willing to help is a constant and pleasant comfort for us noobies.
+
+    **Stats**
+
+    - Plop cost: 250
+    - Park effect: magnitude 40, radius 65
+    - Pollution: air -5
+    - Landmark effect: magnitude 20, radius 10
+
+    This is for SC4 Rush Hour.
+
+    The original download also contained two optional Rivit lighting overrides (`RVT_ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lot only needs the Rivit streetlight prop from `pkg=tariely:essentials`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/31963-tariel-d66-serenity-garden/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/59e0c27582e82_TL-SerenityGardenday.jpg.c3f333dfaffdeb3fb9e7ff2c98b3b7de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/59e0c2766c238_TL-SerenityGardennite.jpg.97290045f43a35cd157c0d577dff4ff1.jpg
+dependencies:
+  - blam-french-connections:mega-pack-2
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-mbear-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:textures-vol02
+  - csx:mega-props-vol03
+  - namspopof:nams-mega-props
+  - peg:mtp-super-pack
+  - tamorr:resource
+  - tariely:essentials
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-serenity-garden
+    exclude:
+      - "/rivit lights/"
+
+---
+assetId: tariely-serenity-garden
+version: "1.0"
+lastModified: "2017-10-13T13:49:14Z"
+url: https://community.simtropolis.com/files/file/31963-tariel-d66-serenity-garden/?do=download
