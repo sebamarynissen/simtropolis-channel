@@ -30,17 +30,6 @@ info:
     - The lanterns light up at night.
     - If shadows are shown with software rendering, they look slightly jagged.
 
-    **Update history**
-
-    - 2013-02-02 (4.1): fixed diagonal models so that they cast shadows (the `BaseTexture` files were changed). Overwrite, or replace the old files. Lots that are already placed keep working.
-    - 2013-01-12 (4.0): gravel texture added to `uki_SandouTexture.dat`.
-    - 2012-11-17 (3.1): fixed the diagonal Tamagaki lot that was left out.
-    - 2012-11-15 (3.0): diagonal Tamagaki added.
-    - 2012-05-02: 1x2 street stall lot added. Fixed the lots not working as bus stops when using the MML.
-    - 2012-03-10: torii and gates now work as bus stops when they touch a road, and other parts are only passable for pedestrians.
-    - 2011-08-03: fixed a conflict with other MML lots.
-    - 2011-07-06: released.
-
     **Note:** this is a preservation upload of a set that uki originally posted on July 6, 2011 (version 4.1 on February 2, 2013), at [https://uki-sim.seesaa.net/article/213588559.html](https://uki-sim.seesaa.net/article/213588559.html). The lots are a good fit for sc4pac, the SimCity 4 package manager, and the Yatai and Roten props they use are available as another preservation upload: `pkg=uki-sim:food-and-street-stalls-props`.
 
     I encourage you to check out the rest of uki Sim's bats and props on their website. [http://uki-sim.seesaa.net/](http://uki-sim.seesaa.net/)
