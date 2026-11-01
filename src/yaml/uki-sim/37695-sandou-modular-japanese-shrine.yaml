@@ -1,0 +1,90 @@
+group: uki-sim
+name: sandou-modular-japanese-shrine
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Sandou modular Japanese shrine
+  description: |-
+    A set of 19 puzzle-piece lots for building a Japanese shrine or temple approach (sandō), by uki.
+
+    The lots are added to the Parks menu.
+
+    **Contents**
+
+    - Straight, curve, cross, T-junction
+    - Diagonal, diagonal right curve, diagonal left curve
+    - Stone steps
+    - Torii (6 types) and gates (3 types)
+    - Temizuya (hand-washing pavilion) (2 types)
+    - Street stall (roten) and street stall (1x2)
+    - Teahouse (2 types)
+    - Auxiliary shrine
+    - Tile
+    - Tamagaki (shrine fence): straight, corner and diagonal
+
+    **Notes**
+
+    - The torii (6 types, modeled after Kasuga Taisha, Ise Jingu, Kumano Hongu Taisha and others), the gates (3 types: Miyuki Gate of Katsura Imperial Villa, Lower Villa Gate of Shugakuin Imperial Villa and Hamaguri Gate of the Kyoto Imperial Palace) and the teahouses (2 types: modeled after the Outer Bench of Katsura Imperial Villa and Shokatei) are placed randomly.
+    - Place the stone steps so that the arrow points up. One piece handles a height difference of up to about 15 m.
+    - Torii and gates act as a bus stop when they touch a road. The other parts are only passable for pedestrians.
+    - The lanterns light up at night.
+    - If shadows are shown with software rendering, they look slightly jagged.
+
+    **Note:** this is a preservation upload of a set that uki originally posted on July 6, 2011 (version 4.1 on February 2, 2013), at [https://uki-sim.seesaa.net/article/213588559.html](https://uki-sim.seesaa.net/article/213588559.html). The lots are a good fit for sc4pac, the SimCity 4 package manager, and the Yatai and Roten props they use are available as another preservation upload: `pkg=uki-sim:food-and-street-stalls-props`.
+
+    I encourage you to check out the rest of uki Sim's bats and props on their website. [http://uki-sim.seesaa.net/](http://uki-sim.seesaa.net/)
+  author: uki
+  website: https://community.simtropolis.com/files/file/37695-uki-sim-sandou-modular-japanese-shrine/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Sandou-ver4_01.jpg.1a5d180b0ef7bac16a36232b26973642.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Sandou01.jpg.b1138ef71c81a724500d8a082f52cea6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/sandou02.jpg.aae0d198756cd803d8952500b165569a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/sandou06.jpg.a9c557fd5f69c209e093afd51082b715.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/sandou07.jpg.9ff83eb841e9f0802eca9e5f7bb729be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/sandou04.jpg.fbb8aed2afc0efe9a11c60b3d1c49951.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/sandou03.jpg.8da80f98a0f552dd89db9ba80aec1cc5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/sandou05.jpg.b194fed095a2bdd6dddb465d18854bb0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Sandou_BaseTexture.jpg.89d1ee3e7f24036b1f8e3894cac13f5b.jpg
+dependencies:
+  - neko:prop-set-vol03
+  - neko:prop-set-vol01-part2
+  - uki-sim:food-and-street-stalls-props
+variants:
+  # The optional MML file is excluded. A Submenus DLL integration could replace it in the future.
+  - variant: { uki-sim:sandou-modular-japanese-shrine:texture-wealth: low }
+    assets:
+      - assetId: uki-sim-sandou-modular-japanese-shrine
+        exclude:
+          - "/z_MML/"
+          - "BaseTexture\\$\\$+\\.dat$"
+  - variant: { uki-sim:sandou-modular-japanese-shrine:texture-wealth: medium }
+    assets:
+      - assetId: uki-sim-sandou-modular-japanese-shrine
+        exclude:
+          - "/z_MML/"
+          - "BaseTexture\\$\\.dat$"
+          - "BaseTexture\\$\\$\\$\\.dat$"
+  - variant: { uki-sim:sandou-modular-japanese-shrine:texture-wealth: high }
+    assets:
+      - assetId: uki-sim-sandou-modular-japanese-shrine
+        exclude:
+          - "/z_MML/"
+          - "BaseTexture\\$\\.dat$"
+          - "BaseTexture\\$\\$\\.dat$"
+variantInfo:
+  - variantId: uki-sim:sandou-modular-japanese-shrine:texture-wealth
+    description: Choose the wealth level of the base (grass) texture. The three textures replace each other.
+    values:
+      - value: low
+        description: The § base texture
+      - value: medium
+        description: The §§ base texture, as used in the preview images
+        default: true
+      - value: high
+        description: The §§§ base texture (lawn)
+
+---
+assetId: uki-sim-sandou-modular-japanese-shrine
+version: "1.0.0"
+lastModified: "2026-10-31T19:29:54Z"
+url: https://community.simtropolis.com/files/file/37695-uki-sim-sandou-modular-japanese-shrine/?do=download
