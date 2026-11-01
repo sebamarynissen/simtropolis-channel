@@ -1,0 +1,40 @@
+group: moonlinght
+name: jpn-street-overwrite-sam1-props
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Planter props of the JPN Street Mod for SAM1
+  description: |-
+    The props file of Moonlight's `ML JPN Street overwrite SAM1` (`ML JPN street chg SAM1 prop.dat`), which contains street planter props used by lots.
+
+    Only this props file is installed. It adds new props and does not override any NAM SAM texture. The texture and T21 overrides of the original mod are not included.
+  author: moonlinght
+  website: https://community.simtropolis.com/files/file/36926-moonlight-compilation/
+assets:
+  - assetId: moonlinght-sc4-compilation-2025
+    include:
+      - "/ML JPN street chg SAM1 prop\\.dat$"
+
+---
+group: moonlinght
+name: jpn-street-overwrite-sam9-props
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Planter and other props of the JPN Street Mod for SAM9
+  description: |-
+    The props file of Moonlight's `ML JPN Street overwrite SAM9` (`ML JPN street chg SAM9 prop.dat`). It contains the street planter props of `pkg=moonlinght:jpn-street-overwrite-sam1-props` and the additional `ML planter 10m`, as well as some Kei Jpn, CP seasonal cherry and Mas71 props.
+
+    **Note:** this file also overrides the Maxis prop `Street2x2x1_DirtCircle_2A8A`, so it can change the dirt circles of street trees. The texture and T21 overrides of the original mod are not included.
+  author: moonlinght
+  website: https://community.simtropolis.com/files/file/36926-moonlight-compilation/
+assets:
+  - assetId: moonlinght-sc4-compilation-2025
+    include:
+      - "/ML JPN street chg SAM9 prop\\.dat$"
+
+---
+assetId: moonlinght-sc4-compilation-2025
+version: "1.0.0"
+lastModified: "2026-06-05T17:06:22Z"
+url: https://community.simtropolis.com/files/file/36926-moonlight-compilation/?do=download
