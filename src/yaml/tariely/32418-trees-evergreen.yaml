@@ -1,6 +1,6 @@
 group: tariely
 name: trees-evergreen
-version: "1.0"
+version: "1.0-1"
 subfolder: 900-overrides
 info:
   summary: Spring-only versions of seasonal CP, JENX and Porkie trees
@@ -28,10 +28,30 @@ dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
+  - tariely:trees-evergreen-cp-oak
 assets:
   - assetId: tariely-trees-evergreen
     exclude:
       - "/TL-Trees Evergreens Testlots/"
+      - "/TL-CPv1 Oak12x12x15\\.dat$"
+
+---
+group: tariely
+name: trees-evergreen-cp-oak
+version: "1.0"
+subfolder: 900-overrides
+info:
+  summary: Spring-only version of the CP Oak 12x12x15 tree
+  description: |-
+    The spring-only version of the seasonal CP Oak (`TL-CPv1 Oak12x12x15.dat`) of `pkg=tariely:trees-evergreen`, for those who only want this tree to be an evergreen. Any lot using this oak will show it as a springy evergreen, so it must load after `pkg=bsc:mega-props-cp-vol01`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32418-tariel-trees-evergreen/
+dependencies:
+  - bsc:mega-props-cp-vol01
+assets:
+  - assetId: tariely-trees-evergreen
+    include:
+      - "/TL-CPv1 Oak12x12x15\\.dat$"
 
 ---
 assetId: tariely-trees-evergreen
