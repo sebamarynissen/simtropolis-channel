@@ -1,0 +1,73 @@
+group: reddonquixote
+name: 333-collins-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 333 Collins Street, Melbourne, Australia
+  description: |-
+    333 Collins Street is a 129m, 33 floor office building located in Collins Street, Melbourne, built in 1991.
+
+    The 333 Collins Street project maintains the original banking chamber dome dating back to 1891. On top of this, the building adds a mass of granite and glass in a step back form and culminates in a copper dome.
+
+    The Collins Street facade was modelled to a semblance of the original Victorian classical building, with granite stonework and large brass lanterns.
+
+    "An impressive post-modern skyscraper which spares no expense in recreating the grandeur of Victorian Melbourne, whilst achieving a timelessness all of its own." (source: Walking Melbourne)
+
+    This is my 5th BAT.
+
+    333 Collins Street is a Functional Landmark. The lot is 3x6. High Wealth Commercial Services, provides 2000 jobs and costs §110,000 to build.
+
+    Available in both Darknite and Maxis night versions.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28586-333-collins-street-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/b13165a2c29a18fd9c097f930644c0f4-333_collins_street_front.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/a42909764a303bd440077460aa83bd1d-333_collins_street_rear.jpg
+dependencies:
+  - reddonquixote:333-collins-street-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-333-collins-street-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-333-collins-street-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: 333-collins-street-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:333-collins-street`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28586-333-collins-street-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-333-collins-street-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-333-collins-street-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: reddonquixote-333-collins-street-maxisnite
+version: "1.0"
+lastModified: "2013-03-21T02:23:02Z"
+url: https://community.simtropolis.com/files/file/28586-333-collins-street-melbourne-australia/?do=download&r=113382
+
+---
+assetId: reddonquixote-333-collins-street-darknite
+version: "1.0"
+lastModified: "2013-03-21T02:23:02Z"
+url: https://community.simtropolis.com/files/file/28586-333-collins-street-melbourne-australia/?do=download&r=113381

@@ -1,0 +1,135 @@
+group: reddonquixote
+name: infinity-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Infinity Tower, Brisbane, Australia
+  description: |-
+    The Infinity Tower is a 249-metre skyscraper by Meriton recently constructed at 43 Herschel Street, Brisbane, Australia. It has been the tallest building in Brisbane since surpassing Soleil in 2013.
+
+    It contains 81 levels of serviced apartments and residential apartments totalling 549 units.
+
+    When measured by roof, the Infinity Tower is the third tallest building in Australia behind the Eureka Tower and the Rialto Towers which are both located in Melbourne, Australia. It is also currently the tallest building to roof in Queensland after surpassing the Q1 although the Q1 is still taller by spire.
+
+    (source: Wikipedia)
+
+    This is my 27th BAT.
+
+    The Infinity Tower is a Landmark, costs §110,000 to build and occupies 3x3 lot space.
+
+    There are two versions of the tower, one with palm trees and one without. This package contains the version without palm trees. The version with palm trees is [Infinity Tower Tropical](pkg=reddonquixote:infinity-tower-tropical). As far as I'm aware there are no conflicts with using both versions at the same time.
+
+    Thanks to everyone who helped me with finding references for this building, the building is so new there weren't many references available :thumb:
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29751-infinity-tower-brisbane-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/88e28940d278b127278e284085348c50-inifinity_tower_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/da0d08fd532fef053a2674e3c5e0935b-inifinity_tower_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/ebec3b8688304f359c6c7a6e7f6c9e52-inifinity_tower_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/589706335e06abe32f110760d30efe46-inifinity_tower_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/5dea535d5115eccdb6d005fad68100d9-infinity_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/a89185cb196841c2562669ecaa4cffee-infinity_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/bebdd02c9389cfed9f12af6d6d413165-infinity_06.jpg
+dependencies:
+  - reddonquixote:infinity-tower-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-infinity-tower-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-infinity-tower-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: infinity-tower-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:infinity-tower`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29751-infinity-tower-brisbane-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-infinity-tower-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-infinity-tower-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: infinity-tower-tropical
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Infinity Tower, Brisbane, Australia - Tropical version
+  description: |-
+    The Infinity Tower is a 249-metre skyscraper by Meriton recently constructed at 43 Herschel Street, Brisbane, Australia. It has been the tallest building in Brisbane since surpassing Soleil in 2013.
+
+    It contains 81 levels of serviced apartments and residential apartments totalling 549 units.
+
+    When measured by roof, the Infinity Tower is the third tallest building in Australia behind the Eureka Tower and the Rialto Towers which are both located in Melbourne, Australia. It is also currently the tallest building to roof in Queensland after surpassing the Q1 although the Q1 is still taller by spire.
+
+    (source: Wikipedia)
+
+    This is my 27th BAT.
+
+    The Infinity Tower is a Landmark, costs §110,000 to build and occupies 3x3 lot space.
+
+    There are two versions of the tower, one with palm trees and one without. This package contains the "Tropical" version with palm trees. The version without palm trees is [Infinity Tower](pkg=reddonquixote:infinity-tower). As far as I'm aware there are no conflicts with using both versions at the same time.
+
+    Thanks to everyone who helped me with finding references for this building, the building is so new there weren't many references available :thumb:
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29751-infinity-tower-brisbane-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/88e28940d278b127278e284085348c50-inifinity_tower_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/da0d08fd532fef053a2674e3c5e0935b-inifinity_tower_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/ebec3b8688304f359c6c7a6e7f6c9e52-inifinity_tower_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/589706335e06abe32f110760d30efe46-inifinity_tower_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/5dea535d5115eccdb6d005fad68100d9-infinity_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/a89185cb196841c2562669ecaa4cffee-infinity_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/bebdd02c9389cfed9f12af6d6d413165-infinity_06.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-infinity-tower-tropical-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-infinity-tower-tropical-darknite
+
+---
+assetId: reddonquixote-infinity-tower-maxisnite
+version: "1.0"
+lastModified: "2014-07-16T18:18:12Z"
+url: https://community.simtropolis.com/files/file/29751-infinity-tower-brisbane-australia/?do=download&r=137986
+
+---
+assetId: reddonquixote-infinity-tower-darknite
+version: "1.0"
+lastModified: "2014-07-16T18:18:12Z"
+url: https://community.simtropolis.com/files/file/29751-infinity-tower-brisbane-australia/?do=download&r=137984
+
+---
+assetId: reddonquixote-infinity-tower-tropical-maxisnite
+version: "1.0"
+lastModified: "2014-07-16T18:18:12Z"
+url: https://community.simtropolis.com/files/file/29751-infinity-tower-brisbane-australia/?do=download&r=137988
+
+---
+assetId: reddonquixote-infinity-tower-tropical-darknite
+version: "1.0"
+lastModified: "2014-07-16T18:18:12Z"
+url: https://community.simtropolis.com/files/file/29751-infinity-tower-brisbane-australia/?do=download&r=137987

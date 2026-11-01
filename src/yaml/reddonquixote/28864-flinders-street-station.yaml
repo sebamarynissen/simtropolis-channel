@@ -1,0 +1,77 @@
+group: reddonquixote
+name: flinders-street-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Flinders Street Station, Melbourne, Australia
+  description: |-
+    Flinders Street Station is a passenger railway station located at the corner of Flinders and Swanston streets and services the entire Melbourne metropolitan rail network. Backing onto the Yarra River in the heart of the city, the complex covers two whole city blocks and extends from Swanston Street to Queen Street.
+
+    The main station building, completed in 1909, is a cultural icon to Melbourne, with its prominent dome, arched entrance, tower and clocks it is one of the city's most recognisable landmarks.
+
+    Source: Wikipedia
+
+    This is my 9th BAT.
+
+    Flinders Street Station is a fully functional train station modular BAT, made up of passenger stations, subway stations and non-functional landmarks. When combined, this BAT takes up a grid area of 25x7.
+
+    **Pieces included**
+
+    In the Landmark menu:
+
+    1. The main building prop - ploppable non-functional landmark, lot size 1x14, costs §110,000 to build.
+    2. A filler lot to sit under the long administration building - ploppable non-functional landmark, lot size 1x25, §0 cost & maintenance.
+    3. A filler lot - ploppable non-functional landmark, lot size 1x3, §0 cost & maintenance.
+    4. Eye-candy tracks, 1x11, §0 cost.
+
+    Use 3 and 4 in place of functional lots and rails to create a pure eye-candy station.
+
+    In the Rail Station menu:
+
+    5. Passenger Rail Station - ploppable passenger station, capacity 40,000 passengers.
+
+    In the Subway menu:
+
+    6. Ground Rail to Subway transition - ploppable subway station, capacity 40,000 passengers. This is the updated version of the lot, which replaces the original broken one.
+
+    The original download contains an illustrated guide (`FSS_Instructions.htm`) with the recommended way to set up the station, or you can make your own configuration from the lot pieces. sc4pac does not install this guide.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28864-flinders-street-station-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/79fc4e0617dc6078574aaf3dccab85f4-picture_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/c3356ac81ee4398c8e99db0e7d56b75c-picture_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/008611d4ab76243bc0304f89cf90ca8a-picture_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/a726a23047e0179861649c7438faa61f-picture_04.jpg
+assets:
+  - assetId: reddonquixote-flinders-street-station-subway-transition-fix
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-flinders-street-station-maxisnite
+        exclude:
+          - "/RDQ_FSS_Subway_Transition_1x4_feef0581\\.SC4Lot$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-flinders-street-station-darknite
+        exclude:
+          - "/RDQ_FSS_Subway_Transition_1x4_feef0581\\.SC4Lot$"
+
+---
+assetId: reddonquixote-flinders-street-station-maxisnite
+version: "1.0"
+lastModified: "2013-07-14T13:02:11Z"
+url: https://community.simtropolis.com/files/file/28864-flinders-street-station-melbourne-australia/?do=download&r=118663
+
+---
+assetId: reddonquixote-flinders-street-station-darknite
+version: "1.0"
+lastModified: "2013-07-14T13:02:11Z"
+url: https://community.simtropolis.com/files/file/28864-flinders-street-station-melbourne-australia/?do=download&r=118664
+
+---
+assetId: reddonquixote-flinders-street-station-subway-transition-fix
+version: "1.0"
+lastModified: "2013-07-14T13:02:11Z"
+url: https://community.simtropolis.com/files/file/28864-flinders-street-station-melbourne-australia/?do=download&r=118665
