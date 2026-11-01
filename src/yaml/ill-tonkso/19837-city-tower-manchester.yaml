@@ -1,0 +1,41 @@
+group: ill-tonkso
+name: city-tower-manchester
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: City Tower Manchester
+  description: |-
+    The City Tower (formerly known as Sunley Tower is a 123m commercial skyscraper completed in 1965 (major external and internal renovation in 2008) standing above Manchester's Picadilly Gardens. Currently the third tallest building in the city (behind Beetham and CIS).
+
+    First Manchester building on the STEX?
+
+    * * *
+
+    Ploppable: CO££ 3000
+
+    3x3 lot.
+
+    * * *
+
+    dependencies: None!
+
+    * * *
+
+    There are gonna be a few happy Mancunians tonight!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19837-ndex-its-city-tower-manchester/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/161efba588764068272b143d5ecf27a0-CTM.jpg
+    - https://www.simtropolis.com/objects/screens/0004/161efba588764068272b143d5ecf27a0-CTMN.jpg
+dependencies:
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-city-tower-manchester
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-city-tower-manchester
+version: "1.0"
+lastModified: "2008-05-27T14:57:18Z"
+url: https://community.simtropolis.com/files/file/19837-ndex-its-city-tower-manchester/?do=download
