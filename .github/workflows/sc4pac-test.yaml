@@ -2,7 +2,7 @@ name: sc4pac-test
 
 on:
   workflow_run:
-    workflows: ["Lint"]
+    workflows: ["sc4pac CI"]
     types:
       - completed
 
