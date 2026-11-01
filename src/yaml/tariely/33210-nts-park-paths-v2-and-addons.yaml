@@ -17,6 +17,8 @@ info:
 
     The fountain effects require `pkg=peg:ppond-kit`, which also adds the 4 pond lots of that kit to the Park menu.
 
+    The street trees of these lots are props of the SFBT tree families (`pkg=sfbt:essentials`). Choose the `Maxis-deciduous-trees` or `Maxis-pine-trees` family to see the corresponding trees (only one family can be chosen).
+
     Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Simlacroix, Twalsh, Tyberius06, Matias93, Fantozzi, Cyclone Boom, Catty-cb, Corinamarie, Andreas…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
 
     **General warnings**
@@ -59,6 +61,7 @@ dependencies:
   - peg:mtp-super-pack
   - peg:ppond-kit
   - peg:spot
+  - sfbt:essentials
   - simfox:chestnuts
   - tamorr:resource
   - tariely:essentials
