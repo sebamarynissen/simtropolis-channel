@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: st-addielines-hospital
+version: "1.0"
+subfolder: 630-health
+info:
+  summary: St Addielines Hospital
+  description: |-
+    **St Addielines Hospital** *(tioli)*
+
+    Designed in 1962 for the Brenntian city of Clearwater, this bold, blocky Hospital is named after the Patron Saint of Brennt, St Addieline and takes up a whole city block in South Clearwater. The design is based on St Thomas Hospital in central London (infamously directly opposite the Houses of Parliament on the other side of the river). The hospital is split into 3 blocks, reaching to 8, 10 and 12 storey's above ground level. In addition to this, St Addielines has a lower ground level for ambulances accessed by a ramp next to the tallest block.
+
+    Architecturally, St Addielines is a bland, but functional stumpy building. It's little architectural merit is married with excellent functional space capable of holding 30,000 patients. This may seem a little high, but that doesn't mean 30,000 beds. St Addielines also covers a whole large city tile.
+
+    * * *
+
+    **Note: This is a 'Take it or Leave it' model, not originally intended for release, thus, not high release quality. I have released it under general goodwill, so go easy on it.**
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19996-ndex-its-st-addielines-hospital/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/98dc9cadb1dcb0cf85809ea41ec1b4a6-cleaerwaterday.jpg
+    - https://www.simtropolis.com/objects/screens/0017/98dc9cadb1dcb0cf85809ea41ec1b4a6-cleaerwaterdayhghgh.jpg
+dependencies:
+  - ndex:its-mega-pack-vol12
+assets:
+  - assetId: ill-tonkso-st-addielines-hospital
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-st-addielines-hospital
+version: "1.0"
+lastModified: "2008-06-28T11:03:10Z"
+url: https://community.simtropolis.com/files/file/19996-ndex-its-st-addielines-hospital/?do=download
