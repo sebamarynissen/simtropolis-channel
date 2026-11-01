@@ -1,6 +1,6 @@
 group: tariely
 name: infinity-parks-again
-version: "1.0"
+version: "1.0-1"
 subfolder: 660-parks
 info:
   summary: Simsim Infinity Parks AGAIN (modules)
@@ -52,12 +52,29 @@ dependencies:
   - simfox:treepack-vol02
   - tamorr:resource
   - tariely:essentials
+  - tariely:ftexture
   - vip:delecto-ploppable-people
   - wmp:mega-props-vol01
 assets:
   - assetId: tariely-infinity-parks-again
     exclude:
       - "/rivit lights/"
+      - "/Ftexture\\.dat$"
+
+---
+group: tariely
+name: ftexture
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Textures used by Tariely's Infinity Parks AGAIN and Holly Hock Parks
+  description: The `Ftexture.dat` textures that are shared by `pkg=tariely:infinity-parks-again` and `pkg=tariely:holly-hock-parks-3x3-paths`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32312-tl-simsim-infinity-parks-again-modules/
+assets:
+  - assetId: tariely-infinity-parks-again
+    include:
+      - "/Ftexture\\.dat$"
 
 ---
 assetId: tariely-infinity-parks-again

@@ -1,0 +1,67 @@
+group: tariely
+name: holly-hock-parks-3x3-paths
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Holly Hock Parks 3x3 (& paths)
+  description: |-
+    Yes! Tariel's Big Modular Parks & Paths Project (a.k.a. TBMPPP) is ON.
+
+    After the NTS Modular Paths Set (`pkg=tariely:nts-modular-park-paths-set`), here is a first set of nine parks and their paths, with nine different textures, the most generally used ones, with a few twists. The paths pieces have been SPOTted for easier use, and decorated with prop families, so the greenery will be slightly different each time they are plopped. They are lit, but in order to avoid too bright lights in some pieces, be mindful of the way you plop them (especially the straight and cross pieces). I've tried to indicate clearly which side is up, as it impacts the lighting.
+
+    If you want to use more than one park set at a time, the pieces are ordered in the menu by texture, so they might be up and down your park menu, but, hopefully, always logically grouped. **Warning:** the icons are the same from one group to another, only the names are different.
+
+    If you are wondering why there are two sets of greystone parks, horizontal and vertical texture: it is because they match my set of Infinity Parks (`pkg=tariely:infinity-parks-again`) and their modules addons, whose textures have both horizontal and vertical orientation. Just in case…
+
+    ("And who is Holly Hocks?" you might ask. Well, a park designer, who else?)
+
+    The RedBrick 1 texture is a BSC park texture. When installing `pkg=bsc:bsc-parks-texture-pack`, choose the `default` texture (`BSC_Park_Textures_zDefault.dat`) to match these parks.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Tyberius06, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or take them out of my Essentials dependency.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32538-tl-holly-hock-parks-3x3-paths/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bbff7d8a26ee_Tl-HHParksPathsPiecesday.jpg.f5dd4aeab43e11d32711a6221edab45d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bbff7da50d08_TL-HHParksPathsPiecesnite.jpg.29588469bb1143734c8c51ebdb1447fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bbff7db45265_TL-HollyhockParks3x3day.jpg.5778f81907baaf9b53d5b9431a71c52d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bbff7dd6b7c8_TL-HollyhockParks3x3nite.jpg.0c6b3fe17cf3379729b145ea02ae2bf5.jpg
+dependencies:
+  - bsc:bsc-parks-texture-pack
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - franku:bnl-essentials
+  - lbt:mega-textures-vol01
+  - namspopof:nams-mega-props
+  - nbvc:plazas-with-fountains-models
+  - ndex:textures-vol1
+  - paeng:textures
+  - peg:mtp-super-pack
+  - peg:spot
+  - tamorr:resource
+  - tariely:essentials
+  - tariely:ftexture
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-holly-hock-parks-3x3-paths
+    exclude:
+      - "/Ftexture\\.dat$"
+
+---
+assetId: tariely-holly-hock-parks-3x3-paths
+version: "1.0"
+lastModified: "2018-10-12T02:00:07Z"
+url: https://community.simtropolis.com/files/file/32538-tl-holly-hock-parks-3x3-paths/?do=download
