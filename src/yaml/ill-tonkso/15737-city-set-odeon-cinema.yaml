@@ -1,0 +1,40 @@
+group: ill-tonkso
+name: city-set-odeon-cinema
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: City Set Odeon Cinema
+  description: |-
+    tAnother urban setting commercial building for your busy downtown! This new building offers a cinema, 2 bar/resturaunts and 4 retail units!  
+      
+    Odeon Cinema, Strada, Frankie& Bennies, HMV, WHSmith, Subway and a Starbucks!  
+      
+    Contains CS££ Growable 4x4  
+    Ploppable Landmark 4x4  
+      
+    dependency Listing:  
+      
+    **[BSC MEGA Props GascookerVol01](https://www.simtropolis.com/stex/index.cfm?id=15312)**  
+      
+    [**125 London Wall**](https://www.simtropolis.com/stex/index.cfm?id=13640)  
+      
+    **[ITS Streetset Props](https://www.simtropolis.com/stex/index.cfm?id=14635)**
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15737-its-city-set-odeon-cinema/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/71b52177526c1c2a80847051004b4256-ITSCITYSETCINEMADAY.jpg
+    - https://www.simtropolis.com/objects/screens/0013/71b52177526c1c2a80847051004b4256-ITSCITYSETCINEMANIGHT.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ill-tonkso:streetset-props
+  - ndex:its-mega-pack-vol01
+assets:
+  - assetId: ill-tonkso-city-set-odeon-cinema
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-city-set-odeon-cinema
+version: "1.0"
+lastModified: "2006-04-23T18:47:41Z"
+url: https://community.simtropolis.com/files/file/15737-its-city-set-odeon-cinema/?do=download
