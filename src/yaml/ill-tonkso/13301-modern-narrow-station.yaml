@@ -1,0 +1,26 @@
+group: ill-tonkso
+name: modern-narrow-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Narrow Station
+  description: |-
+    **Modern Station**
+
+    This is a modern Railway Station with a capacity of 3000, it fits onto a 1x4 Lot and Costs
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13301-bsc-modern-narrow-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e72156cef69a39407f3a46200bb2c1fe-ITSUploadNarrowblue.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-modern-narrow-station
+    exclude:
+      - "/ITS_SingleStationGlassRoof-0x5ad0e817_0x1003b02d_0x20000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-modern-narrow-station
+version: "1.0"
+lastModified: "2005-08-08T20:19:30Z"
+url: https://community.simtropolis.com/files/file/13301-bsc-modern-narrow-station/?do=download
