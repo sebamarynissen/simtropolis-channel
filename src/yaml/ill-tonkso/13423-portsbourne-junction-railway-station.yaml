@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: portsbourne-junction-railway-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Portsbourne Junction Railway Station
+  description: |-
+    **Portsbourne Junction Station**
+
+    Upon request I made a non-Terminus version of my Portsbourne Railway Station
+
+    Transit Switch Capacity = 19000  
+    Transit Enabled Road and Rail  
+    4x8 Lot Size
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13423-portsbourne-junction-railway-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/cc58e133ed59777ccb2ec6182eefa1b5-Portsbourne-2Aprjunctionday.jpg
+    - https://www.simtropolis.com/objects/screens/0022/cc58e133ed59777ccb2ec6182eefa1b5-Portsbourne-2Aprjunctionnight.jpg
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: ill-tonkso-portsbourne-junction-railway-station
+
+---
+assetId: ill-tonkso-portsbourne-junction-railway-station
+version: "1.0"
+lastModified: "2005-08-21T14:40:50Z"
+url: https://community.simtropolis.com/files/file/13423-portsbourne-junction-railway-station/?do=download
