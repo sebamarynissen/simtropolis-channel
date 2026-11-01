@@ -1,0 +1,54 @@
+---
+assetId: aspct-scvk
+version: "0.5.0"
+lastModified: "2026-11-01T13:06:45Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37697-scvk-dll/?do=download"
+url: "https://github.com/aspctt/scvk/releases/download/0.5.0/scvk-0.5.0.zip"
+
+---
+group: "aspct"
+name: "scvk"
+version: "0.5.0"
+subfolder: "150-mods"
+dependencies:
+  - "config:sc4-edition-windows-digital"
+
+assets:
+- assetId: "aspct-scvk"
+  withChecksum:
+  - include: "/scvk.dll"
+    sha256: 457B4E0CA9A7476D78C34490A0CB62769660495A95EFE04B13F93A8DD3830AD0
+  - include: "/scvk.ini"
+    sha256: C7882D1ABB7F4E3D850E0250444F5C22562810FEA2250E3567DE1D9B860CB2CF
+    isIni: true
+
+info:
+  summary: "A native Vulkan renderer for SimCity 4"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition. Cannot be installed alongside SCGL."
+  description: |-
+    scvk is a new renderer for SimCity 4, the part of the game that draws your city. The game came with a DirectX 7 renderer and an OpenGL one that was never finished, and scvk replaces both with Vulkan, which today's graphics cards and drivers are built for. Your cities look the same and draw faster.
+
+    **What changes**
+
+    * It's faster. The built-in benchmark plays the same camera moves on both renderers, and scvk is ahead in every scene, most of all zoomed out. The slowest frames gained the most, and those are the ones you feel when scrolling.
+
+    * The game starts borderless at your desktop's size. If you prefer something else, -w gives you a window, -f exclusive fullscreen and -r a size of your own.
+
+    * A paused city is no longer stuck at 30 frames a second, and the speed caps follow your monitor's refresh rate. A running city still stays near 60, since that limit comes from the game's own simulation.
+
+    * ReShade effects leave the interface alone and can use the city's depth, if you install ReShade 6 for Vulkan with full add-on support.
+
+    * Region thumbnails no longer go blank if you switch windows while the game saves.
+
+    **Good to know**
+
+    * scvk needs no setup and no settings. The optional `scvk.ini` is installed as `scvk_sc4pacnew.ini`, so rename it to `scvk.ini` if you want to change something.
+
+    * scd3d11 can stay installed. `Driver=DirectX` in `SC4GraphicsOptions.ini` then picks scd3d11 and `Driver=OpenGL` picks scvk.
+
+    * If you set `Driver=OpenGL` and remove scvk later, put it back to `DirectX` as well, since the game's own OpenGL renderer does not work.
+
+  author: "aspct"
+  websites:
+    - https://community.simtropolis.com/files/file/37697-scvk-dll/
+    - https://github.com/aspctt/scvk
