@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: cobalt-house-birmingham
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Cobalt House Birmingham
+  description: |-
+    Getting board of five ways yet? Tough.
+
+    Its a 2200 Commercial SERVICES ££ rather than office, because I clicked the wrong thing and couldnt be bothered to sort it out.
+
+    * * *
+
+    Ploppable CS££ 2200 2x3 lot.
+
+    * * *
+
+    dependencies: BSC Mega Texture Pack
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19878-ndex-its-cobalt-house-birmingham/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/526de11cf918b0e325252efcb089256f-Cobaltd.jpg
+    - https://www.simtropolis.com/objects/screens/0010/526de11cf918b0e325252efcb089256f-Cobaltn.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-cobalt-house-birmingham
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-cobalt-house-birmingham
+version: "1.0"
+lastModified: "2008-06-06T15:41:26Z"
+url: https://community.simtropolis.com/files/file/19878-ndex-its-cobalt-house-birmingham/?do=download
