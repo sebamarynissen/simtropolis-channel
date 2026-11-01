@@ -1,0 +1,76 @@
+group: agc
+name: 40-bank-street-01
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: 40 Bank Street 01
+  description: |-
+    Thanks to [@Bobelboy](https://community.simtropolis.com/profile/138427-bobelboy/), [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) and users who have donated to me.
+
+    40 Bank Street, London.
+
+    **Specs**
+
+    - 7x3 Landmark and Ploppable CO$$$.
+    - CAM Stage: 10
+    - Tileset: Euro - Houston
+    - CAM & Maxis Growable version included (the CAM variant installs the CAM version, otherwise the Maxis growable version is installed).
+
+    Darknite only.
+
+    Scale of the models: 133% (z axis).
+
+    If you like my work, you can make a donation to fund my other projects!
+
+    https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU
+
+    Thanks to the few people who have donated to me.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/36808-agc-40-bank-street-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67ed4bda21b09_Sinttulo.png.5a987f23fb3c676cef2f0f0b42506c88.png
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67ed4bdb46c9c_Sinttulo2.png.c8e2e70c1976b9e75af58521e5475b41.png
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67ed4bdc43a7c_Sinttulo3.png.9a613c722efcce55717bfd6b2892a32a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67ed4bdd84453_Sinttulo4.png.65da2427d32a80cc4f5246c5ee1531e8.png
+  conflicts: Only a DarkNite model exists, so the same model is installed with either nightmode setting.
+assets:
+  - assetId: agc-40-bank-street-01
+
+variants:
+  - variant: { nightmode: standard, CAM: "yes" }
+    dependencies:
+      - bsc:essentials
+    assets:
+      - assetId: agc-40-bank-street-01-cam
+  - variant: { nightmode: standard, CAM: "no" }
+    assets:
+      - assetId: agc-40-bank-street-01-grow
+  - variant: { nightmode: dark, CAM: "yes" }
+    dependencies:
+      - bsc:essentials
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: agc-40-bank-street-01-cam
+  - variant: { nightmode: dark, CAM: "no" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: agc-40-bank-street-01-grow
+
+---
+assetId: agc-40-bank-street-01
+version: "1.0.0"
+lastModified: "2026-06-16T07:12:26Z"
+url: https://community.simtropolis.com/files/file/36808-agc-40-bank-street-01/?do=download&r=217969
+
+---
+assetId: agc-40-bank-street-01-cam
+version: "1.0.0"
+lastModified: "2026-06-16T07:12:26Z"
+url: https://community.simtropolis.com/files/file/36808-agc-40-bank-street-01/?do=download&r=217970
+
+---
+assetId: agc-40-bank-street-01-grow
+version: "1.0.0"
+lastModified: "2026-06-16T07:12:26Z"
+url: https://community.simtropolis.com/files/file/36808-agc-40-bank-street-01/?do=download&r=217971

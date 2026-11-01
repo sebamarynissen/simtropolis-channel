@@ -1,0 +1,39 @@
+group: agc
+name: buildings-rws-dlc
+version: "6.0.0"
+subfolder: 110-resources
+info:
+  summary: Buildings RWS DLC
+  description: |-
+    This DLC contains buildings without lots (it is a dependency for future lots).
+
+    Special thanks to @Bobelboy, @brancra, @IDS2, @Nikolaux and [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for the support.
+
+    You can find them as AGC\_Buildings\_
+
+    I will update this DLC constantly so you must be on the lookout.
+
+    Scale of the models: 133% on z axis (vertical scaling).
+
+    Thanks to everyone who donates! I'll start exporting exclusive BATs to my donors, just send me a DM.
+
+    https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/37407-agc-buildings-rws-dlc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b2ed3fd03_Sinttulo2.png.0e0358f58255f33b18927c285e6c79ed.png
+  conflicts: Only a DarkNite version exists, so the same models are installed with either nightmode setting.
+assets:
+  - assetId: agc-buildings-rws-dlc
+
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: agc-buildings-rws-dlc
+version: "6.0.0"
+lastModified: "2026-10-22T15:10:19Z"
+url: https://community.simtropolis.com/files/file/37407-agc-buildings-rws-dlc/?do=download
