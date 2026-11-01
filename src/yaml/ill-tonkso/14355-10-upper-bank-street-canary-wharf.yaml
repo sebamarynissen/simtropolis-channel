@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: 10-upper-bank-street-canary-wharf
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 10 Upper Bank Street Canary Wharf
+  description: |-
+    **10 Upper Bank Street**
+
+    10 Upper Bank Street is a Skyscraper in Canary Wharf. It is Londons 11th Tallest.
+
+    Ploppable and Growable 3x5 Lots.  
+    CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14355-10-upper-bank-street-canary-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4daadc1fd5b39d1c610d9a618f73db85-10upperbankstreetupload.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4daadc1fd5b39d1c610d9a618f73db85-10upperbankstreetuploadnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol01
+  - ndex:its-mega-pack-vol06
+assets:
+  - assetId: ill-tonkso-10-upper-bank-street-canary-wharf
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-10-upper-bank-street-canary-wharf
+version: "1.0"
+lastModified: "2005-12-10T17:02:33Z"
+url: https://community.simtropolis.com/files/file/14355-10-upper-bank-street-canary-wharf/?do=download
