@@ -1,0 +1,54 @@
+group: tariely
+name: street-trees-revisited
+version: "1.0.4"
+subfolder: 180-flora
+info:
+  summary: Kazuki Street Trees revisited
+  description: |-
+    A few months ago, I uploaded the lost original, which I had been using liberally for years. With some problems, though, that I thought would be nice to save new users from. (1) The bus stop never showed up, (2) neither did the dirt circle for the trees (the original used the Invisible One…), (3) they were not well lighted, which is my personal bugaboo. Also, last but not least, (4) I never knew exactly on which side the chain barriers were, and had to re-plop several times to get them right.
+
+    While making an Evergreen version of the lots (no fall leaves on the street…) I realized my first relot could have been better.
+
+    So here is a new new version of those Kazuki lots, trying to solve all those problems, with a little bit of SPOT to help with the plopping. All hail goes to Kazuki for making them in the first place. I just licked them up and lighted them and gave them new menu icons. I also took advantage of the opportunity to redo the menu icons and add an Empty lot (I found it was necessary when making a plaza out of these lots, because sometimes you can't plop two of them side by side; all but two are transit-enabled.)
+
+    You don't need the original but it's here.
+
+    **Notes**
+
+    - If you have a Sandstone Mod, it will replace the Maxis pavement.
+    - The trees are seasonal. The non-seasonal Evergreen version is a separate upload.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different (not these trees!); perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or take them out of my Essentials dependency.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods, when indicated.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32104-tl-kazuki-street-trees-revisited-104/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7d97c9b5293_TL-KazukiSTreeTree1.jpg.5e904c76d45e279888d1317facbbdad6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7d97cb3633a_TL-KazukiStreetTreeSpring.jpg.e8a707d4c0a1b0e1be0013e169844a63.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7d97cd291aa_TL-KazukiStreetTreesFall.jpg.8b412086af4f7d67b5eb9b4c1b086036.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7d97cf2bedf_TL-KazukiStreetTreesnite.jpg.8514886ea2d5491f59b3631c8b201595.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7d97cf8cc33_TL-KazukiStreetTreesSummer.jpg.d7311f17ec542caa6c04c76caf851ffc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7d97d11d9a5_TL-KazukiStreetTreesWinter.jpg.9f7da0a40634d4d3e9497f0ca14ccdce.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - murimk:props-vol01-bicycles
+  - nam:textures
+  - peg:spot
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - sg:suburban-bus-stop-set-resources
+  - tamorr:resource
+  - tariely:essentials
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-street-trees-revisited
+
+---
+assetId: tariely-street-trees-revisited
+version: "1.0.4"
+lastModified: "2018-08-22T17:20:21Z"
+url: https://community.simtropolis.com/files/file/32104-tl-kazuki-street-trees-revisited-104/?do=download

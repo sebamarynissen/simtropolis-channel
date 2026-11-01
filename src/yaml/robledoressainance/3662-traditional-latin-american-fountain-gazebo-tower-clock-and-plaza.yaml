@@ -1,0 +1,59 @@
+group: robledoressainance
+name: traditional-latin-american-fountain-gazebo-tower-clock-and-plaza
+version: "2"
+subfolder: 660-parks
+info:
+  summary: Traditional Latin American fountain, gazebo, tower clock and plaza
+  description: |-
+    After several months of showcasing in The Lowrise Project, I finally release a file.
+
+    In many traditional towns of Latin America, it is often seen a plaza with a tower clock, a gazebo and a fountain as the main square. Many of these are historical structures. People use these places to meet, relax or read. The gazebo is almost a copy of the one located at the main square (Plaza de Armas) in San Luis Potosí, Mexico.
+
+    If you modify (and release) one of your creations using one of these props and/or buildings, please give credit. It will be appreciated.
+
+    This set includes 4 lots:
+
+    - A large plaza lot, with fountain, gazebo and a tower clock (5x3)
+    - One lot with a fountain (2x2)
+    - One lot with a neoclassical tower clock (2x2)
+    - One lot with a neoclassical gazebo (2x2)
+
+    **Update (6/24/2004)**
+
+    | | Plop cost | Monthly cost |
+    |---|---|---|
+    | Plaza | 500 | 150 |
+    | Gazebo | 120 | 40 |
+    | Clock tower | 150 | 100 |
+    | Fountain | 100 | 25 |
+  author: RobledoRessainance
+  website: https://community.simtropolis.com/files/file/3662-rcc-traditional-latin-american-fountain-gazebo-tower-clock-and-plaza-v-10/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/65e6b3b036c0add723db175a51ef3027-tradicional01.JPG
+    - https://www.simtropolis.com/objects/screens/0012/65e6b3b036c0add723db175a51ef3027-tradicional02.JPG
+dependencies:
+  - robledoressainance:traditional-latin-american-fountain-gazebo-tower-clock-and-plaza-models
+assets:
+  - assetId: robledoressainance-traditional-latin-american-plaza
+    exclude:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+group: robledoressainance
+name: traditional-latin-american-fountain-gazebo-tower-clock-and-plaza-models
+version: "2"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=robledoressainance:traditional-latin-american-fountain-gazebo-tower-clock-and-plaza`
+  author: RobledoRessainance
+  website: https://community.simtropolis.com/files/file/3662-rcc-traditional-latin-american-fountain-gazebo-tower-clock-and-plaza-v-10/
+assets:
+  - assetId: robledoressainance-traditional-latin-american-plaza
+    include:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+assetId: robledoressainance-traditional-latin-american-plaza
+version: "2"
+lastModified: "2004-06-23T23:04:06Z"
+url: https://community.simtropolis.com/files/file/3662-rcc-traditional-latin-american-fountain-gazebo-tower-clock-and-plaza-v-10/?do=download
