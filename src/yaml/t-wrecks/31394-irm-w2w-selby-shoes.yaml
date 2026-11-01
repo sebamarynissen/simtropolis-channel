@@ -1,0 +1,54 @@
+group: t-wrecks
+name: irm-w2w-selby-shoes
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-M lots using the Selby Shoes BAT by Mattb325
+  description: |-
+    This is the third upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. A more recent BAT for a change, this is **Selby Shoes** by **Mattb325**.
+
+    The building will provide **224 I-M jobs**. Due to its footprint, the factory lends itself to the configuration I already chose for an earlier upload, jestarr's E-Z Polish factory: pushed to one side of the lot, with an alley on the opposite side. This alley can also serve as an access to the industrial compound that you may wish to build behind the row of houses using mech and out lots. The following lots are included:
+
+    - 4x3 straight, Stage 1 (2 lots, with alley on left/right side)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed, and these lots grow at Stage 4 with 219 jobs.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **Mattb325** for this BAT!
+
+    T Wrecks, November 29, 2016
+  conflicts: "Contains the IRM lots for `pkg=mattb325:selby-shoes`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31394-irm-w2w-selby-shoes-by-mattb325/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_Mattb325_SelbyShoes_01.jpg.ebb8b60da4350b22bfa828d0d9d12e50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_Mattb325_SelbyShoes_02.jpg.0622c333dc4ca62cad97b669b6c28006.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_Mattb325_SelbyShoes_03.jpg.5cdc6272560fbd4af1ac9f7e0dbc0858.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_Mattb325_SelbyShoes_04.jpg.2ff36333c7d4102bfc701d59c409f833.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - mattb325:selby-shoes-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-selby-shoes
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Selby Shoes \\(Mattb325\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-selby-shoes
+version: "1.0"
+lastModified: "2016-11-29T11:52:00Z"
+url: https://community.simtropolis.com/files/file/31394-irm-w2w-selby-shoes-by-mattb325/?do=download

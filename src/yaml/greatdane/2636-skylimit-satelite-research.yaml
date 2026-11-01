@@ -1,6 +1,6 @@
 group: greatdane
 name: skylimit-satelite-research
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Skylimit Satelite Research
@@ -13,6 +13,24 @@ info:
     - https://www.simtropolis.com/objects/screens/0020/b7528346ab38d186334ea726c7bfa37d-skylimit_sat_research2.jpg
 assets:
   - assetId: greatdane-skylimit-satelite-research
+    exclude:
+      - "\\.SC4Model$"
+dependencies:
+  - greatdane:skylimit-satelite-research-model
+
+---
+group: greatdane
+name: skylimit-satelite-research-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=greatdane:skylimit-satelite-research`
+  author: GreatDane
+  website: https://community.simtropolis.com/files/file/2636-skylimit-satelite-research/
+assets:
+  - assetId: greatdane-skylimit-satelite-research
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: greatdane-skylimit-satelite-research

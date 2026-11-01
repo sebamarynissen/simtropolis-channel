@@ -1,6 +1,6 @@
 group: jasoncw
 name: lavaughn-biotech
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: LaVaughn Biotech
@@ -31,21 +31,52 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/LaVaughn-Biotech-STEX-2.jpg.109b360fa7476c6e06a9c6bec5916828.jpg
 dependencies:
   - heinbloed4711:hi-tech-missing-high-wealth-jobs
+  - jasoncw:lavaughn-biotech-model
 variants:
   - variant: { nightmode: standard, jasoncw:lavaughn-biotech:capacity: standard }
     assets:
       - assetId: jasoncw-lavaughn-biotech-maxisnite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark, jasoncw:lavaughn-biotech:capacity: standard }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-lavaughn-biotech-darknite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: standard, jasoncw:lavaughn-biotech:capacity: doubled }
     assets:
       - assetId: jasoncw-lavaughn-biotech-2x-maxisnite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark, jasoncw:lavaughn-biotech:capacity: doubled }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-lavaughn-biotech-2x-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jasoncw
+name: lavaughn-biotech-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jasoncw:lavaughn-biotech`
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28181-lavaughn-biotech/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-lavaughn-biotech-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-lavaughn-biotech-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: jasoncw-lavaughn-biotech-maxisnite

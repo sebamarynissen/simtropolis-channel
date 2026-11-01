@@ -1,0 +1,60 @@
+group: t-wrecks
+name: irm-w2w-owosso-beet-sugar-factory
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Owosso Beet Sugar Factory BAT by jestarr
+  description: |-
+    This is the tenth upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. For the tenth upload, I chose a somewhat complex building, **Owosso Beet Sugar Factory** by **jestarr**.
+
+    The building will provide **1400 I-D jobs** for your Sims. It's another one that looks good next to mid-rise development, and a special lot in several ways. One reason is that it's not so much a single building, but rather an industrial complex made up of various models. Another specialty is that this opened up some liberties when it came to the lot design. Most IRM W2W lots are rather generic and lackluster because their main purpose is to squeeze the building into a W2W gap as snugly as possible. This time, there were many open spaces and combinations that I could play with.
+
+    I also ended up network-enabling the lot so that the access roads visually connect to adjacent roads/streets. The building doesn't work as a transit switch in any way; the effect is merely visual. **Please note** that network-enabled BATs cannot be overgrown by the simulator automatically. This means you'll have to bulldoze manually. I reckon this wouldn't be much of a problem as the lot size is rather unusual and you probably won't see it very often anyway, so there's little risk it will grow out of control.
+
+    As usual, here's the list of lots included:
+
+    - 5x11 left corner, Stage 3
+    - 5x11 right corner, Stage 3
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 1120 jobs and grow at Stage 5.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **jestarr** for this BAT! This rather special (i.e. less-boring-than-usual) lot, the double upload today, and the tenth upload in total for the third IRM W2W pack is my little year-end present for you - I wish you all a good start into the coming year. No matter whether you're celebrating big time or keeping it quiet, have a good time and see you on the other side!
+
+    T Wrecks, December 31, 2016
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31416-irm-w2w-owosso-beet-sugar-factory-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_OwossoBeetSugarFactory_01.jpg.f8fcf261aa27f53b30a723702042168c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_OwossoBeetSugarFactory_02.jpg.e4a0065f7eb019b75d98a8bc3d43e99f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_OwossoBeetSugarFactory_03.jpg.647168c444553d13cc46c177f819c621.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_OwossoBeetSugarFactory_04.jpg.e3dd94d84f665f602e20d702ec58f59e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_OwossoBeetSugarFactory_05.jpg.ccc6ad2a5ea77618dc125870c757c85e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_OwossoBeetSugarFactory_06.jpg.bd1b32cf4f50628d52aa02c8f038c1f1.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol05
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-owosso-beet-sugar-factory
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Owosso Beet Sugar Factory \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-owosso-beet-sugar-factory
+version: "1.0"
+lastModified: "2016-12-31T15:58:00Z"
+url: https://community.simtropolis.com/files/file/31416-irm-w2w-owosso-beet-sugar-factory-by-jestarr/?do=download

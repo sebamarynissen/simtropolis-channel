@@ -1,0 +1,71 @@
+group: t-wrecks
+name: irm-i-m-peterson-tool-specialties
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-M lots using the Peterson Tool BAT by DK1
+  description: |-
+    Finally I'm starting the next instalment of IRM uploads! This will be a series of 15 uploads dedicated to modern manufacturing industry.
+
+    The first upload in this series is **Peterson Tool Specialties** by **DK1**, not to be confused with an identically called and even visually similar building by RJM Design! I like it for its sleek and modern design, the blue colour, and the various loading bays and entrances scattered around the building that I tried to complement with a corresponding lot layout as best I could. The building has some breathing room around it and features mostly open side and back edges so it can be complemented with mech & out lots rather than standing alone. Of course, using the IRM filler to turn it into a somewhat secluded standalone structure is perfectly possible, too!
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **48 I-M jobs**, the quadrupler version **196 I-M jobs**.
+
+    The following lots are included in this download:
+
+    - 5x4, Stage 2
+    - 5x5, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 349 jobs, and the 5x4 lot grows at Stage 4 while the 5x5 lot grows at Stage 3.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **DK1**, one of the best gmax BAT artists ever IMO, especially for his time.
+
+    T Wrecks, August 28, 2019
+  conflicts: "Contains the IRM lots for `pkg=dk1:peterson-tool`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33114-irm-i-m-peterson-tool-specialties-by-dk1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_DK1_PetersonsToolSpecialties_01.jpg.829f0cf043c7e1f012b275406f058f7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_DK1_PetersonsToolSpecialties_02.jpg.522775b7a9c0316dcac4049d8d45141e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_DK1_PetersonsToolSpecialties_03.jpg.c85ad4fb32895038e5a21defefff07c5.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - dk1:peterson-tool-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-peterson-tool-specialties
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-peterson-tool-specialties
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-M Peterson Tool Specialties \\(DK1\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-peterson-tool-specialties
+version: "1.0.0"
+lastModified: "2019-08-28T10:38:00Z"
+url: https://community.simtropolis.com/files/file/33114-irm-i-m-peterson-tool-specialties-by-dk1/?do=download

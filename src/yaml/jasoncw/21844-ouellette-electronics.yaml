@@ -1,6 +1,6 @@
 group: jasoncw
 name: ouellette-electronics
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Ouellette Electronics
@@ -61,8 +61,26 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0008/41422a6106de550e66bc2dd73144e623-1.jpg
     - https://www.simtropolis.com/objects/screens/0008/41422a6106de550e66bc2dd73144e623-2.jpg
+dependencies:
+  - jasoncw:ouellette-electronics-model
 assets:
   - assetId: jasoncw-ouellette-electronics
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jasoncw
+name: ouellette-electronics-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jasoncw:ouellette-electronics`
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/21844-ouellette-electronics/
+assets:
+  - assetId: jasoncw-ouellette-electronics
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: jasoncw-ouellette-electronics

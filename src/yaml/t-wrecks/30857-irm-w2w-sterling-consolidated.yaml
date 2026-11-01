@@ -1,0 +1,56 @@
+group: t-wrecks
+name: irm-w2w-sterling-consolidated
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 4 W2W I-M lots using the Sterling Consolidated BAT by jestarr
+  description: |-
+    This is the 17th upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. One of the multiple individual buildings of this BAT, **Sterling Consolidated** by **jestarr**, was already included in the IRM W2W Base Pack (`pkg=t-wrecks:irm-w2w-base-pack`). Now you get not one, but two more.
+
+    **Sterling Consolidated 2** is the main building of the facility and will provide **180 I-M jobs**. It can grow in the middle of W2W rows. **Sterling Consolidated 3** is an entire complex made up of the main building, a cargo shed, and a boiler house. It will provide **280 I-M jobs** and is intended to grow on corners. Here's the lot breakdown:
+
+    - 5x3 straight, stage 1 (2 versions) [Sterling Consolidated 2]
+    - 5x5 left corner, stage 1 [Sterling Consolidated 3]
+    - 5x5 right corner, stage 1 [Sterling Consolidated 3]
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. Both buildings provide 305 jobs; the 5x3 lots grow at Stage 4 and the 5x5 lots at Stage 3.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    It's not the first time I'm writing this, and it won't be the last: credits to **jestarr** for this BAT!
+
+    T Wrecks, December 2, 2015
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30857-irm-w2w-sterling-consolidated-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_SterlingConsolidated2_01.jpg.880c36586431b3c587db57dae759df8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_SterlingConsolidated2_02.jpg.c8a4bf7e32cbff6398d96682fac8d0ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_SterlingConsolidated2_03.jpg.1023f2466c634550719f5144de59c5fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_SterlingConsolidated3_01.jpg.de653bb06423e336cbc4c03905354ac3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/IRM_W2W_SterlingConsolidated3_02.jpg.312ca8dd243c8452cd507908dfe94037.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol08
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-sterling-consolidated
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Sterling Consolidated \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-sterling-consolidated
+version: "1.0"
+lastModified: "2015-12-02T21:10:00Z"
+url: https://community.simtropolis.com/files/file/30857-irm-w2w-sterling-consolidated-by-jestarr/?do=download

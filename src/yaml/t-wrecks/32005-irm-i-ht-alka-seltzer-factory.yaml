@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-alka-seltzer-factory
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Alka Seltzer Factory BAT by SimGoober
+  description: |-
+    While the Fukitol franchise has been covered with the recent releases, let's not forget that SimGoober also BATted fictitious facilities for real-life drugs...
+
+    The tenth upload in this series is **Alka Seltzer Factory** by **SimGoober**. I love how the pills above the entrance already hint at its pharmaceutical purpose, and even the whitish colour scheme reminds both of clinical environments and of the active substance itself. The smaller lot features a footpath that leads from the entrance area to the back, whereas the bigger lot comes with a more spacious loading area and an irregularly shaped little "island" with a nice little break area featuring some tables and umbrellas by a little pond - gotta do something to keep those highly skilled employees happy!
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **39 I-HT jobs**, the quadrupler version **156 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 4x3, Stage 2
+    - 4x4, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 93 jobs, and the lots grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **SimGoober** once again.
+
+    T Wrecks, November 8, 2017
+  conflicts: "Contains the IRM lots for `pkg=simgoober:manufacturing-industrial-set`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32005-irm-i-ht-alka-seltzer-factory-by-simgoober/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_AlkaSeltzer_01.jpg.cd8469db4554e9f6ccac8f925e8ab1bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_AlkaSeltzer_02.jpg.f54e58dc22f260a374d0659576856f13.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_AlkaSeltzer_03.jpg.236a1d203cb42c98305bebb5a0bdc5a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_AlkaSeltzer_04.jpg.54f332474b0d75e244f29bf59ef4e9d5.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:sg-models-iht
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-alka-seltzer-factory
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-alka-seltzer-factory
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Alka Seltzer Factory \\(SimGoober\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-alka-seltzer-factory
+version: "1.0"
+lastModified: "2017-11-08T21:58:00Z"
+url: https://community.simtropolis.com/files/file/32005-irm-i-ht-alka-seltzer-factory-by-simgoober/?do=download

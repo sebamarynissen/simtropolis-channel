@@ -1,6 +1,6 @@
 group: nofunk
 name: bsp-allmendinger-organ-co
-version: "1.0"
+version: "1.0-1"
 subfolder: 200-residential
 info:
   summary: BSP Allmendinger Organ Co
@@ -91,6 +91,26 @@ info:
     - https://www.simtropolis.com/objects/screens/0021/c22fd68770eb7ed0f20fbced4b574d2a-bsp_allmendinger_organs2.jpg
 assets:
   - assetId: nofunk-bsp-allmendinger-organ-co
+    exclude:
+      - "\\.SC4Model$"
+dependencies:
+  - nofunk:bsp-allmendinger-organ-co-model
+
+---
+group: nofunk
+name: bsp-allmendinger-organ-co-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=nofunk:bsp-allmendinger-organ-co`
+  description: |-
+    The light and dark models of the Allmendinger Organ Company building.
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/17850-bsp-allmendinger-organ-co/
+assets:
+  - assetId: nofunk-bsp-allmendinger-organ-co
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: nofunk-bsp-allmendinger-organ-co

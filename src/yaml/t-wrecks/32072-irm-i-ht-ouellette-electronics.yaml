@@ -1,0 +1,73 @@
+group: t-wrecks
+name: irm-i-ht-ouellette-electronics
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Ouellette Electronics BAT by Jasoncw
+  description: |-
+    Ok, so finally we come back to uploads where I actually had to do some lotting work, hehe.
+
+    The 21st upload in this series, **Ouellette Electronics** by **Jasoncw**, features a little grass / parking area and a driveway in the back and some space around the lot that I could use to play a bit with different configurations - see the screenshots.
+
+    This is an older 3dsmax building that only exists for Maxis night, but due to technical reasons will not be compatible with the gradual day/night cycle. Instead, it will switch from the day model to the night model - and back - instantaneously, as practically all 3dsmax BATs do.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **130 I-HT jobs**, the quadrupler version **520 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 6x6, Stage 3 (2 versions)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 1532 jobs, and the lots grow at Stage 5.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **NO**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **NO**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Jasoncw** - wish we had a DarkNite version, too.
+
+    T Wrecks, January 19, 2018
+  conflicts: "Contains the IRM lots for `pkg=jasoncw:ouellette-electronics`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32072-irm-i-ht-ouellette-electronics-by-jasoncw/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_JCW_OuelletteElectronics_01.jpg.6f5fabc952e20edf80e3c16c38a0ae6a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_JCW_OuelletteElectronics_02.jpg.18c2c6dafbe7064ae728e43a5e718ca3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_JCW_OuelletteElectronics_03.jpg.dc94738b7aed0418fc4e08404fa23e44.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_JCW_OuelletteElectronics_04.jpg.4402e8063759f1cdabf6ec3040eef3c9.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - jasoncw:ouellette-electronics-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-ouellette-electronics
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-ouellette-electronics
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT OuelletteElectronics \\(Jasoncw\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-ouellette-electronics
+version: "1.0"
+lastModified: "2018-01-19T22:03:00Z"
+url: https://community.simtropolis.com/files/file/32072-irm-i-ht-ouellette-electronics-by-jasoncw/?do=download

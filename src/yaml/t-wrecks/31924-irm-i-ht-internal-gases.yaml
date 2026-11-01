@@ -1,0 +1,71 @@
+group: t-wrecks
+name: irm-i-ht-internal-gases
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Internal Gases BAT by SimGoober
+  description: |-
+    Jeez, I've been slacking. OK, after celebrating my 100th upload with that tree mod, it's about time we return to plain old boring IRM stuff...
+
+    The fifth upload in this series finally has us where we all knew this was going - you can hardly touch a BAT category without stumbling over SimGoober's stuff, so this and some of the following uploads will be recreations of some of his industrial staple BATs. And if you think all this babble is only hot air, you are not technically wrong because this is **Internal Gases** by **SimGoober**. Once again, this is probably one of my worse lots. It's kinda boring and meh, but in my defense, it's hard to relot a building that has everything (including the perimeter fence) baked into one model. I merely thought I'd add some trees around the building because the lot looked so secluded already. So I went for giving it some kind of "nothing to see here, move on" atmosphere. Not openly hostile, but somewhat secluded and secretive.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **45 I-HT jobs**, the quadrupler version **180 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 4x5, Stage 2
+    - 5x5, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 229 jobs, and the lots also grow at Stage 2.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to omnipresent **SimGoober**!
+
+    T Wrecks, August 31, 2017
+  conflicts: "Contains the IRM lots for `pkg=simgoober:hi-tech-industrial-set`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31924-irm-i-ht-internal-gases-by-simgoober/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/IRM_I-HT_SG_InternalGases_01.jpg.72b125e59111566937fa1276b952f154.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/IRM_I-HT_SG_InternalGases_02.jpg.b7b5f60ce5da6f78bf3983357ac42974.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/IRM_I-HT_SG_InternalGases_03.jpg.2a18adcbb9d080531ff109268f24f348.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:sg-models-iht
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-internal-gases
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-internal-gases
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Internal Gases \\(SimGoober\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-internal-gases
+version: "1.0"
+lastModified: "2017-08-31T22:03:00Z"
+url: https://community.simtropolis.com/files/file/31924-irm-i-ht-internal-gases-by-simgoober/?do=download
