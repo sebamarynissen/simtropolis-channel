@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: tonkso-glr-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Tonkso GLR Station
+  description: |-
+    **Tonkso GLR station**
+
+    Just another GLR station to add more variety to your GLR network ( i plan to do more detailed stations soon). It has a capacity of 6000 (high i know). Its just a simple basic model, to blend in without drawing too much attention too itself.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13515-tonkso-glr-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b2b32585182f6bc5e953805cd1ed1107-TonksoGLRDay.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b2b32585182f6bc5e953805cd1ed1107-TonksoGLRnight.jpg
+dependencies:
+  - nam:network-addon-mod
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-tonkso-glr-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-tonkso-glr-station
+version: "1.0"
+lastModified: "2005-08-30T17:41:57Z"
+url: https://community.simtropolis.com/files/file/13515-tonkso-glr-station/?do=download
