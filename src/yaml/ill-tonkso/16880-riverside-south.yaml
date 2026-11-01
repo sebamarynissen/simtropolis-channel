@@ -1,0 +1,44 @@
+group: ill-tonkso
+name: riverside-south
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Riverside South
+  description: |-
+    Riverside South is a new Skyscraper development for Londons Canary Wharf. The twin towers will be the second tallest (Tower A) in the Wharf.
+
+    * * *
+
+    6x7 Ploppable RCI Lot with CO§§10000 jobs.Cost §25,000
+
+    This model also uses raytraced reflective windows.
+
+    * * *
+
+    Nightlighting: Requires patch from www.SimCity.com also regarding the low quality of the lighting, this is a render issue and many more windowes were intended to be lit.
+
+    * * *
+
+    Render credit: Bixel
+
+    * * *
+
+    Additional Information: This BAT Model got me accepted into London Metropolitan University.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/16880-ndex-riverside-south/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/8004e9d777038067a98eaff8ff61e1c3-ndexcwrsd.jpg
+    - https://www.simtropolis.com/objects/screens/0014/8004e9d777038067a98eaff8ff61e1c3-ndexcwrsn.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol06
+assets:
+  - assetId: ill-tonkso-riverside-south
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-riverside-south
+version: "1.0"
+lastModified: "2006-09-16T05:32:58Z"
+url: https://community.simtropolis.com/files/file/16880-ndex-riverside-south/?do=download
