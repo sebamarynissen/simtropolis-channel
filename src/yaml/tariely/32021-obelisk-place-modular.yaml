@@ -1,0 +1,42 @@
+group: tariely
+name: obelisk-place-modular
+version: "2.0.2"
+subfolder: 660-parks
+info:
+  summary: Obelisk Place Modular
+  description: |-
+    I made the original Obelisk Place (`pkg=tariely:obelisk-place`) for Dreadnought a.k.a. LLB, who loves obelisks, columns, statues and assorted such grand urban art. He has since brought me to the Modular side of the Lotting Force, the practical beauty of which he illustrated perfectly with this relot of the original. I added a small 1x2 addon to balance the set-up when necessary.
+
+    Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lots only need the Rivit streetlight prop from `pkg=tariely:essentials`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32021-llb-tariel-obelisk-place-modular/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a1d823c91264_OB.PlaceModularday.jpg.5a83f296bcc2bcffde81fa065436ee25.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a1d823ed03b5_ObeliskPlaceModularPieces.jpg.91e838fdec970d836236054ce38809af.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol02
+  - franku:bnl-essentials
+  - namspopof:nams-mega-props
+  - ndex:textures-vol1
+  - peg:ppond-kit
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - tamorr:resource
+  - tariely:essentials
+  - vip:delecto-ploppable-people
+  - vip:vnaoned-props-pack-vol01
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+assets:
+  - assetId: tariely-obelisk-place-modular
+    exclude:
+      - "\\.SC4Desc$"
+
+---
+assetId: tariely-obelisk-place-modular
+version: "2.0.2"
+lastModified: "2018-08-16T14:14:30Z"
+url: https://community.simtropolis.com/files/file/32021-llb-tariel-obelisk-place-modular/?do=download
