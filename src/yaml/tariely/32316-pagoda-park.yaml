@@ -1,0 +1,70 @@
+group: tariely
+name: pagoda-park
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Pagoda Park (9x8)
+  description: |-
+    This one is all my own. I made it from scratch way back then when I began lotting and relotting, and I learned a lot while making it, so it is dear to my heart.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is a constant and pleasant reassurance.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or get rid of them entirely.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods.
+
+    The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lots only need the Rivit streetlight prop from `pkg=tariely:essentials`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32316-tariel-pagoda-park-9x8/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b251e003c2f9_PagodaParkday.jpg.d5256848b9a04704112a8392aa1ef6cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b251e030ed32_PagodaParknite.jpg.69f25ebd10f3935b2ff8493962df2834.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-diggis-canals-streams-and-ponds
+  - bsc:mega-props-jrj-vol05
+  - bsc:mega-props-lil-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-swi21-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - franku:bnl-essentials
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:bushes
+  - girafe:chestnuts
+  - girafe:conifers
+  - girafe:elms
+  - girafe:honey-locust
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:norway-maples
+  - girafe:rowan-trees
+  - kergelen:mmp-mediterranean-cp-trees-krg-selection
+  - lbt:mega-textures-vol01
+  - namspopof:nams-mega-props
+  - peg:mtp-super-pack
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - simfox:treepack-vol02
+  - tamorr:resource
+  - tariely:essentials
+  - vip:delecto-ploppable-people
+  - vip:rural-pack
+  - vip:vnaoned-props-pack-vol01
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-pagoda-park
+    exclude:
+      - "/rivit nightlights/"
+
+---
+assetId: tariely-pagoda-park
+version: "1.0"
+lastModified: "2018-06-16T14:27:05Z"
+url: https://community.simtropolis.com/files/file/32316-tariel-pagoda-park-9x8/?do=download
