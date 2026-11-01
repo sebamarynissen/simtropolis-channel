@@ -1,0 +1,38 @@
+group: ill-tonkso
+name: 42-hampstead-row
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: 42 Hampstead Row
+  description: |-
+    YAY I released the thing! I made this a while back, never rendered it, but now here it is, retextured too! Doesn't it look lovely sat next to it's older brother, [Bakers Corner](https://www.simtropolis.com/stex/index.cfm?id=18005). I want to make loads of differant ones, actually getting round to making loads of them is a differant kettle of fish altogether. Check out this [thread](http://www.skyscrapercity.com/showthread.php?t=594656) to see where I am basing my ideas from. Did you know the area I am basing this stuff from has the deepest station on the London Underground? I bet you didn't did you? Do you care? probably not!
+
+    Shall we get on with the important things now? Thats probably a good idea.
+
+    * * *
+
+    45 CS££ Growable 1x2 lot, wall to wall FTW!
+
+    Ploppable with all the same stats
+
+    * * *
+
+    dependencies, NONE! Oh hang on, is that.... a...... dependency!!! Bad Tonksie BAD! You need [Gascookers Mega Props.](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=934)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19963-ndex-its-42-hampstead-row/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/af49e598d1c9f455e5b9c4c4ea7711b5-dayhampstead.jpg
+    - https://www.simtropolis.com/objects/screens/0019/af49e598d1c9f455e5b9c4c4ea7711b5-nighthampstead.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-42-hampstead-row
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-42-hampstead-row
+version: "2"
+lastModified: "2008-06-19T20:25:12Z"
+url: https://community.simtropolis.com/files/file/19963-ndex-its-42-hampstead-row/?do=download
