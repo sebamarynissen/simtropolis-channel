@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: 40-bank-street-canary-wharf
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 40 Bank Street Canary Wharf
+  description: |-
+    **40 Bank Street**
+
+    40 Bank Street was completed in 2003 and forms part of the Heron Quays area of Canary Wharf.
+
+    Ploppable and Growable Lots CO££ 1800 Jobs.  
+    Plop Cost £10,000
+
+    dependencies - ITS Props Inclusive
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14333-40-bank-street-canary-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/490447b373b6edd679e084b1e6cfd96d-40BSUploadDay.jpg
+    - https://www.simtropolis.com/objects/screens/0009/490447b373b6edd679e084b1e6cfd96d-40BSUploadNight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol01
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-40-bank-street-canary-wharf
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-40-bank-street-canary-wharf
+version: "1.0"
+lastModified: "2005-12-08T18:48:53Z"
+url: https://community.simtropolis.com/files/file/14333-40-bank-street-canary-wharf/?do=download
