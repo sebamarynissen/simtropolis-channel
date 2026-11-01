@@ -33,15 +33,6 @@ jobs:
         path: tmp_gh-pages/channel
         run-id: ${{ github.event.workflow_run.id }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Download website artifact
-      # Only present if the CI workflow built the website
-      continue-on-error: true
-      uses: actions/download-artifact@v8
-      with:
-        name: website-artifact.zip
-        path: tmp_gh-pages
-        run-id: ${{ github.event.workflow_run.id }}
-        github-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Move channel content to root
       run: |
         mv tmp_gh-pages/channel/* tmp_gh-pages/

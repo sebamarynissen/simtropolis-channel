@@ -17,7 +17,7 @@ jobs:
       channel-label: ${{ vars.CHANNEL_LABEL }}
       deploy-repository: sebamarynissen/simtropolis-channel
       channel-artifact-name: channel-artifact.zip
-      skip-build-website: false
+      skip-build-website: true
       skip-test: false
       skip-url-check: false
       skip-deploy: true
