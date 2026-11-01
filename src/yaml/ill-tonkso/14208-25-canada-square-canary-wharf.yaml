@@ -1,0 +1,34 @@
+group: ill-tonkso
+name: 25-canada-square-canary-wharf
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 25 Canada Square Canary Wharf
+  description: |-
+    **25 Canada Square**
+
+    25 Canada Square was completed in 2001 and is London's joint 2nd and third tallest building with 8 Canada Square.
+
+    - Lot size: 4x4
+    - Menu position: Landmark, BTE: Comm. Offices
+    - Jobs: CO$$ 1974
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14208-bsc-25-canada-square-canary-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b8c0c78b74cd73c131d2b53ba1597e4b-ITS_25CSUploadDay.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b8c0c78b74cd73c131d2b53ba1597e4b-ITS_25CSUploadNight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol01
+assets:
+  - assetId: ill-tonkso-25-canada-square-canary-wharf
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-25-canada-square-canary-wharf
+version: "1.0"
+lastModified: "2005-11-20T18:08:26Z"
+url: https://community.simtropolis.com/files/file/14208-bsc-25-canada-square-canary-wharf/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"
