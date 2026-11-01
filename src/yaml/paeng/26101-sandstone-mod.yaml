@@ -1,0 +1,62 @@
+group: paeng
+name: sandstone-mod
+version: "1.01"
+subfolder: 900-overrides
+info:
+  summary: Sandstone Sidewalk and Base Texture Mod
+  description: |-
+    These Mods - one for sidewalks and one for base textures - will replace a number of default textures with new custom textures designed mainly for rural villages, towns, suburbs and small cities. Basically it is meant to freshen up all those places using a lot of the default sandstone or an overdose of 'white' and 'pink' faux marble - mainly sidewalks, plazas, fillers and to some extent also the bases below buildings.
+
+    The default sidewalk textures will be replaced with a new texture set for high, medium and low wealth/density.
+
+    All base textures and overlays related to the Maxis default sidewalks (Pink, White and Grey) as well as the default Sandstone can be changed to the new Medium Wealth (key) texture with this mod. The Dirt Sidewalks along agricultural developments change to a new texture more related in color as well.
+
+    **Installation**
+
+    This package installs the default (and recommended) scenario: the 'Sidewalk_Mod' with all-wealth-dependent sidewalks (high, medium and low wealth/density) and the 'Base_Overlay_Mod' with all the new base and overlay textures. The alternative sidewalk configurations of the original download (`Sidewalk_Variations.zip`) are not included.
+
+    **Extras**
+
+    The 'Texture Pack' provides all the new textures and can be used for any individual lotting projects. It is available separately as `pkg=paeng:sandstone-mod-textures`.
+
+    **Recommendation**
+
+    If you want to expand on this mod and its textures, check the work of AtmoGuy, e.g. his highly compatible Mod to Replace Textures on RTMT Stops.
+
+    **Credits**
+
+    Textures & Modding - Paeng
+
+    Special Thanks! to the NiteOwl Murimk for brainstorming, testing, moral support :-) and a big help on logistics... Same to everybody else who joined the fracas at some point in the SimPeg forums!
+  author: Paeng
+  website: https://community.simtropolis.com/files/file/26101-paengs-sandstone-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/28969600b7178d840b2e09362a9c6b56-in-action01.jpg
+dependencies:
+  - paeng:sandstone-mod-textures
+assets:
+  - assetId: paeng-sandstone-mod
+    exclude:
+      - "/Sidewalk_Variations\\.zip"
+      - "/base_overlay_textures\\.dat$"
+
+---
+group: paeng
+name: sandstone-mod-textures
+version: "1.01"
+subfolder: 100-props-textures
+info:
+  summary: Texture pack of `pkg=paeng:sandstone-mod`
+  description: All the new sidewalk, base and overlay textures of Paeng's Sandstone Mod, which can be used for lotting purposes without altering any of the game's default sidewalks.
+  author: Paeng
+  website: https://community.simtropolis.com/files/file/26101-paengs-sandstone-mod/
+assets:
+  - assetId: paeng-sandstone-mod
+    include:
+      - "/base_overlay_textures\\.dat$"
+
+---
+assetId: paeng-sandstone-mod
+version: "1.01"
+lastModified: "2011-04-18T00:42:10Z"
+url: https://community.simtropolis.com/files/file/26101-paengs-sandstone-mod/?do=download
