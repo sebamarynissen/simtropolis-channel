@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: russell-square-tube-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Russell Square Tube Station
+  description: |-
+    **Russell Square Tube Station**
+
+    On July 7th 2005 08.50AM, a train left Kings Cross Tube Station for Russell Square Tube Station, it was never to arrive at its destination. One of multiple terror attacks on the capital that day that claimed the lives of 52 innocent Britons. This is Russell Square Tube Station, recently a place of mourning for those whos lives were taken so suddenly.
+
+    As memorial to those who died this is a fully functional BAT of the station.
+
+    Capacity 5000, Plop Cost 500  
+    Found in Mass Transit Menu  
+    2x1 Lot
+
+    We will never forget.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14393-russell-square-tube-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/01f2e8614c1cf2ab2a422b7be7136f2d-RussellSquaredayupload.JPG
+    - https://www.simtropolis.com/objects/screens/0001/01f2e8614c1cf2ab2a422b7be7136f2d-RussellSquarenightupload.JPG
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-russell-square-tube-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-russell-square-tube-station
+version: "1.0"
+lastModified: "2005-12-16T20:16:32Z"
+url: https://community.simtropolis.com/files/file/14393-russell-square-tube-station/?do=download
