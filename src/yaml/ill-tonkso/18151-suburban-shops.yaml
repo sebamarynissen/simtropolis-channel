@@ -1,0 +1,59 @@
+group: ill-tonkso
+name: suburban-shops
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Suburban Shops
+  description: |-
+    Ah the local shops, all the daily needs, Fish and Chips, a Laundrette for the Students, a Hairdresser for the Ladies. Not to forget the inevetable group of chavs. This pack features a set of 4 UK Suburban Shops.
+
+    Includes:
+
+    The News (Newsagents)
+
+    Carries Hair
+
+    Halifax Bank
+
+    Fish and Chips
+
+    Beer 'o' Rama
+
+    Abra Kebabra
+
+    Laundrette
+
+    Tesco Express
+
+    * * *
+
+    Ploppable: £200, 1x2, CS££22
+
+    * * *
+
+    Growable: 1x2, CS££22
+
+    * * *
+
+    dependencies: [Gascooker Mega Props](https://www.simtropolis.com/stex/index.cfm?id=15312)
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/18151-ndex-its-suburban-shops/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fabc3b59b89ca33dcaa89f3367e4e73e-ssd.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fabc3b59b89ca33dcaa89f3367e4e73e-ssn.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol01
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: ill-tonkso-suburban-shops
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-suburban-shops
+version: "1.0"
+lastModified: "2007-05-17T17:10:12Z"
+url: https://community.simtropolis.com/files/file/18151-ndex-its-suburban-shops/?do=download
