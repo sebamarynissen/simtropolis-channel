@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: modern-split-center-platform-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Split Center Platform Station
+  description: |-
+    **Center Platform Station**
+
+    This small suburban Station is made from blue steel and tinted glass to fit in with todays modern city. It has a capacity of 3000 sims and costs
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13303-bsc-modern-split-center-platform-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/f22511e0d95cb45b11aa8cbd2fe4a579-ITSUploadWideblue.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+  - peg:mtp-super-pack
+assets:
+  - assetId: ill-tonkso-modern-split-center-platform-station
+    exclude:
+      - "/ITS_SplitStationGlassRoof-0x5ad0e817_0xd2929202_0x30000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-modern-split-center-platform-station
+version: "1.0"
+lastModified: "2005-08-08T20:43:11Z"
+url: https://community.simtropolis.com/files/file/13303-bsc-modern-split-center-platform-station/?do=download
