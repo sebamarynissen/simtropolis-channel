@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: one-churchill-place-canary-wharf
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: One Churchill Place Canary Wharf
+  description: |-
+    **One Churchill Place**
+
+    One Churchill Place was completed in 2004 as the world headquarters for Barclays Bank, the building is also built to withstand terror attacks. One Churchill Place makes up part of the Canary Wharf buisness complex in East London.
+
+    Ploppable RCI Lot, Growable CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14328-one-churchill-place-canary-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ae3290ef9b55e5ea542b1febeb15e499-ITSOCPDU.jpg
+    - https://www.simtropolis.com/objects/screens/0019/ae3290ef9b55e5ea542b1febeb15e499-ITSOCPNU.jpg
+dependencies:
+  - ndex:its-mega-pack-vol06
+  - ndex:its-mega-pack-vol01
+  - ill-tonkso:one-world-week-flag-props
+assets:
+  - assetId: ill-tonkso-one-churchill-place-canary-wharf
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-one-churchill-place-canary-wharf
+version: "1.0"
+lastModified: "2005-12-07T18:07:58Z"
+url: https://community.simtropolis.com/files/file/14328-one-churchill-place-canary-wharf/?do=download
