@@ -1,0 +1,84 @@
+group: andreas-roth
+name: slope-reinforcement-lots
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Two 1x1 slope reinforcement lots with brick or concrete planters
+  description: |-
+    This set contains two 1x1 lots that can be used as slope reinforcement, i. e. next to roads or railway tracks. One of the lots features brick planters, and the other one has concrete planters placed on it. When plopping those lots, the arrow should be pointed downhill, otherwise, the props might float in mid-air. Both lots have a park and landmark effect, as well as a moderate air pollution cleaning effect. The lots can be found at the top of the railway menu.  
+      
+    **Dependencies  
+    **  
+    [SFBT Essentials](https://www.simtropolis.com/stex/details.cfm?id=14212)  
+      
+    **Lot Statistics**
+
+    Lot size:
+
+    1x1 tiles
+
+    Menu position:
+
+    Railway
+
+    Plop cost:
+
+    § 10
+
+    Bulldoze cost:
+
+    § 5
+
+    Monthly cost:
+
+    § 0
+
+    Flammability:
+
+    0
+
+    Park Effect:
+
+    35 over 5 tiles
+
+    Landmark Effect:
+
+    25 over 5 tiles
+
+    Power consumption:
+
+    0 MWh/month
+
+    Water consumption:
+
+    0 Gallons/month
+
+    Air pollution:
+
+    \-2 over 3 tiles
+
+    Water pollution:
+
+    0 over 0 tiles
+
+    Garbage pollution:
+
+    0 over 0 tiles
+  author: Mathe Man
+  website: https://community.simtropolis.com/files/file/16364-sfbt-slope-reinforcement-lots-by-mathe-man/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/176c169e7f7a70b3aacd547abf0482aa-SFBT_slope_reinforcement1.jpg
+    - https://www.simtropolis.com/objects/screens/0004/176c169e7f7a70b3aacd547abf0482aa-SFBT_slope_reinforcement2.jpg
+dependencies:
+  - sfbt:essentials
+assets:
+  - assetId: andreas-roth-slope-reinforcement-lots
+
+---
+assetId: andreas-roth-slope-reinforcement-lots
+version: "1.0"
+lastModified: "2006-07-10T17:05:06Z"
+url: https://community.simtropolis.com/files/file/16364-sfbt-slope-reinforcement-lots-by-mathe-man/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"
