@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: 6-eastland-grand
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 6 Eastland Grand
+  description: |-
+    **6 Eastland Grand**
+
+    6 Eastland grand is a new Hi Rise building offering 17 floors of office space and two retail outlets (taken by Ottakers and Halifax).
+
+    Fits onto a 2x2 lot, Growable CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13710-its-administation-6-eastland-grand/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/36e1eb7d8d196f3afbc2bbd76adf49ca-6eastlandgrandday.jpg
+    - https://www.simtropolis.com/objects/screens/0007/36e1eb7d8d196f3afbc2bbd76adf49ca-6eastlandgrandnight.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-6-eastland-grand
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-6-eastland-grand
+version: "1.0"
+lastModified: "2005-09-23T16:31:46Z"
+url: https://community.simtropolis.com/files/file/13710-its-administation-6-eastland-grand/?do=download
