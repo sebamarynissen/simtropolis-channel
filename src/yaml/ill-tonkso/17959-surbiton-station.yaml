@@ -1,0 +1,39 @@
+group: ill-tonkso
+name: surbiton-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Surbiton Station
+  description: |-
+    **Surbiton Station**
+
+    Surbiton Station was built in 1937 to accomadate the expansion of London with the new suburb of Surbiton.  Built on the existing London and Southwestern Railway. The Art Deco building is Grade II Listed and considered one of the finest Art Deco stations in the UK.
+
+    This old model of mine has been lying around on my PC for months now, so i just spruced up the textures a little and rendered.
+
+    In-game Statistics:
+
+    Cost: £5000
+
+    Capacity: 30,000
+
+    Size 4x8
+
+    dependencies
+
+    [Rail Yards and Spurs Megapack](https://www.simtropolis.com/stex/index.cfm?id=15976)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17959-ndex-its-surbiton-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ab70435d0bc1f691d13d842a27fe92ca-Surbd.jpg
+    - https://www.simtropolis.com/objects/screens/0019/ab70435d0bc1f691d13d842a27fe92ca-Surbn.jpg
+dependencies:
+  - ncd:rail-yard-and-spur-mega-pak-1-legacy
+assets:
+  - assetId: ill-tonkso-surbiton-station
+
+---
+assetId: ill-tonkso-surbiton-station
+version: "1.0"
+lastModified: "2007-04-04T22:23:59Z"
+url: https://community.simtropolis.com/files/file/17959-ndex-its-surbiton-station/?do=download
