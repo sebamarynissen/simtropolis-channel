@@ -32,6 +32,8 @@ info:
 
     The original Don Miguel sets are Waterfront Promenade and Waterfront Promenade Set 2. Go and have a look at both Nexis' and Don Miguel's content, why don't you?
 
+    The street trees of these lots are props of the SFBT tree families (`pkg=sfbt:essentials`). Choose the `Maxis-deciduous-trees` or `Maxis-pine-trees` family to see the corresponding trees (only one family can be chosen).
+
     Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Tyberius06, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
 
     **General warnings**
@@ -79,6 +81,7 @@ dependencies:
   - peg:mtp-super-pack
   - peg:spot
   - porkissimo:jenx-porkie-expanded-porkie-props
+  - sfbt:essentials
   - simfox:chestnuts
   - simfox:treepack-vol02
   - simmer2:roundabout-sculptures-set

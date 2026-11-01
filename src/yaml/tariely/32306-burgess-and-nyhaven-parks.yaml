@@ -11,6 +11,8 @@ info:
 
     There are three parks: Burgess Square (9x6), Nyhaven Spring Park (9x8) and Nyhaven Calluna Park (9x8). The latter can be used with my Infinity Parks modular set (`pkg=tariely:infinity-parks-again`), having the same paths texture. The lots have the same properties as the originals.
 
+    One street tree of Burgess Square is a prop of the SFBT tree families (`pkg=sfbt:essentials`). Choose the `CP-deciduous-trees` family to see it.
+
     Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi, Catty-cb, CorinaMarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is a constant and pleasant reassurance.
 
     **General warnings**
@@ -60,6 +62,7 @@ dependencies:
   - murimk:props-vol01-bicycles
   - murimk:props-vol02-mixed
   - namspopof:nams-mega-props
+  - sfbt:essentials
   - simfox:chestnuts
   - simfox:treepack-vol02
   - tamorr:resource
