@@ -1,0 +1,84 @@
+group: andreas-roth
+name: oil-storage-tanks
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Oil storage tanks with seven brand variants, growable and ploppable
+  description: |-
+    These oil storage tanks are based on one of the very first BATs by Mathe Man. Now they were reworked for a SFBT release. The download contains seven different oil storage tank models that can be installed together or each on its own. Only the DATs that are installed will show up on the lots. Apart from a 3x3 growable I-M version there are also two ploppable lots included. They can be found in the water transit menu, since these storage tanks are very common in seaport districts. Other than the growables, they don't provide any jobs, but the rest of the values are similar.
+
+    **Dependencies**
+
+    [SFBT Essentials](https://www.simtropolis.com/stex/details.cfm?id=14212)[BSC Texture Pack Vol. 1](https://www.simtropolis.com/stex/index.cfm?id=3969) or [BSC Textures Mega Pack](https://www.simtropolis.com/stex/index.cfm?id=12646) (only for ploppable version)
+
+    **Lot Statistics**
+
+    Lot size:
+
+    3x3 tiles (growable), 3x3, 6x6 tiles (ploppable)
+
+    Building style(s):
+
+    Industry
+
+    Stage:
+
+    2
+
+    Jobs:
+
+    57 I-M (growable)
+
+    Bulldoze cost:
+
+    § 280
+
+    Building value:
+
+    § 1,231
+
+    Construction time:
+
+    23 days
+
+    Flammability:
+
+    120
+
+    Power consumption:
+
+    12 MWh/month
+
+    Water consumption:
+
+    0 Gallons/month
+
+    Air pollution:
+
+    17 over 17 tiles
+
+    Water pollution:
+
+    11 over 23 tiles
+
+    Garbage pollution:
+
+    5 over 0 tiles
+  author: Mathe Man
+  website: https://community.simtropolis.com/files/file/16012-sfbt-oil-storage-tanks-by-mathe-man/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/333629df2e29554e471b11ef7e0c47b1-SFBT_oil_storage_tanks1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/333629df2e29554e471b11ef7e0c47b1-SFBT_oil_storage_tanks2.jpg
+dependencies:
+  - sfbt:essentials
+assets:
+  - assetId: andreas-roth-oil-storage-tanks
+
+---
+assetId: andreas-roth-oil-storage-tanks
+version: "1.0"
+lastModified: "2006-05-21T10:37:20Z"
+url: https://community.simtropolis.com/files/file/16012-sfbt-oil-storage-tanks-by-mathe-man/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"
