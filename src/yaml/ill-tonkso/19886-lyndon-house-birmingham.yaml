@@ -1,0 +1,42 @@
+group: ill-tonkso
+name: lyndon-house-birmingham
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Lyndon House Birmingham
+  description: |-
+    Oh for goodness sake, Five Ways AGAIN!? Hehe, more to come yet. Also this one is in a folder within the zip because Sebby moaned ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    Hmm stats time I suppose. Is this whole 5 ways thing getting boring yet? I will do 1 Hagley Road next, thats a less boring tower, it isn't a slab, one of the best on Five Ways!
+
+    * * *
+
+    Ploppable Commerical Services ££ (People liked my lazy mistake last time so I will let this one be services too.
+
+    2x3 Lot.
+
+    * * *
+
+    Same dependency, BSC Mega Texture Pack
+
+    * * *
+
+    I need a beer. Someone buy me a pint of Newcastle Brown Ale. Hmm i should model a Newcastle Building... That could be cool.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19886-ndex-its-lyndon-house-birmingham/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/7299c55b80bea612d575dceb40135fdf-Lyndonday.jpg
+    - https://www.simtropolis.com/objects/screens/0013/7299c55b80bea612d575dceb40135fdf-Lyndonnight.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol10
+assets:
+  - assetId: ill-tonkso-lyndon-house-birmingham
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-lyndon-house-birmingham
+version: "1.0"
+lastModified: "2008-06-07T20:09:34Z"
+url: https://community.simtropolis.com/files/file/19886-ndex-its-lyndon-house-birmingham/?do=download
