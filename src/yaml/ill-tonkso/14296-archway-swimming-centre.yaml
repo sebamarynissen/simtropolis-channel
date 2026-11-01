@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: archway-swimming-centre
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Archway Swimming Centre
+  description: |-
+    **Archway Swimming Centre**
+
+    The Archway is a small 3x3 indoor swimming centre.
+
+    Found in the Education menu (to prevent clogging up the Parks menu).
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14296-its-archway-swimming-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b0476e592db09778d2855600a4ffbff0-ArchwaySwimDay.JPG
+    - https://www.simtropolis.com/objects/screens/0020/b0476e592db09778d2855600a4ffbff0-ArchwaySwimNifght.JPG
+dependencies:
+  - bsc:mega-props-misc-vol03
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-archway-swimming-centre
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-archway-swimming-centre
+version: "1.0"
+lastModified: "2005-12-03T16:40:49Z"
+url: https://community.simtropolis.com/files/file/14296-its-archway-swimming-centre/?do=download
