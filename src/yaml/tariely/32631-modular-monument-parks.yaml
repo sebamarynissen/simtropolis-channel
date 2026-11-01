@@ -1,0 +1,58 @@
+group: tariely
+name: modular-monument-parks
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Paeng Modular Monument Parks
+  description: |-
+    Here is my respectful relot of one of Paeng's iconic parks sets, Monument Park, which was published in Parks Revisited (`pkg=paeng:parks-revisited`). I adore Paeng's parks, but when I began to play with nightlights, I realized to my utter dismay that they were not lit, or so little as to be very dark at night. It's one of the main reasons I began learning to lot: as a Mayor, I want my peeps to feel safe in my parks and plazas!
+
+    I changed very little, apart from the lights and a 3x1 Park Administration piece redone as a 3x2. I tried to keep the pieces as relatively greenery-free as the originals, so that you can MMP them to your heart's content (they're more welcoming to MMPs, thanks to the MGB Parks 205 override of `pkg=mgb204:terrain-grass-nam`, see the picture of a test MMP'd Monument Park). I gave them new icons and they are SPOTted for directions (easier plopping). Finally, I tried to group them so that they will show up in the Park Menu in a logical order (Basics, Ends, Addons, Wides), depending, of course, on each player's plugins.
+
+    As some players, like me, may not want the lots to be seasonal (Paeng used Porkie trees), I made an Evergreen version of those trees, which is available as `pkg=tariely:trees-evergreen`. It is not installed with this package.
+
+    And do visit Paeng's excellent content.
+
+    **N.B.:** this park's path texture is compatible with some of the parks of Tariel's Big Modular Parks & Paths Project uploaded a while back, like Holly Hocks Parks & Paths Set and Gazbo Modular Parks & Paths Set (there are transition pieces for them).
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Tyberius06, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different (not the trees in this park!); perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or take them out of my Essentials dependency.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods, when indicated.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32631-tl-paeng-modular-monument-parks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/5bfefbe1181ea_TL-PaengMonumentPark(MMPed).jpg.c1a863a6818f827f75a66eb9d740ce15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/5bfefbe2396af_TL-PaengMonumentParkday.jpg.1204b122cc05e865c9979983429e866e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/5bfefbe30bbd6_TL-PaengMonumentParknite.jpg.f28f6061369b4a9e96834e3819be06c8c.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol02-mixed
+  - paeng:parks-revisited-resources
+  - paeng:textures
+  - peg:mtp-super-pack
+  - peg:spam-super-resource-pack
+  - peg:spot
+  - stex-custodian:rfy-mega-props-vol01
+  - tamorr:resource
+  - tariely:essentials
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-modular-monument-parks
+    exclude:
+      - "/merged\\.dat$"
+
+---
+assetId: tariely-modular-monument-parks
+version: "1.0"
+lastModified: "2018-11-28T20:51:37Z"
+url: https://community.simtropolis.com/files/file/32631-tl-paeng-modular-monument-parks/?do=download
