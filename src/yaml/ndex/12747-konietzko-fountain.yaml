@@ -1,0 +1,44 @@
+group: ndex
+name: konietzko-fountain
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Konietzko Fountain
+  description: |-
+    The Konietzko Fountain is a place of peace and relaxation. People from across the city come to sit and relax, listening to its gentle sounds and enjoying the surrounding greenery. Its lighting enables it to be used as a meeting point for people at night, as well as during the day. Generations of Sims in your city will enjoy the fountain!
+
+    This download is only provided as a park lot.
+
+    Lot size: 3x3 tiles
+  author: Equinox
+  website: https://community.simtropolis.com/files/file/12747-ndex-konietzko-fountain/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f5bf65b56131308900882ab5655d72b3-konietzkoday.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f5bf65b56131308900882ab5655d72b3-konietzkonight.jpg
+dependencies:
+  - ndex:konietzko-fountain-model
+  - ndex:textures-vol1
+assets:
+  - assetId: ndex-konietzko-fountain
+    exclude:
+      - "\\[Model\\]\\.dat$"
+
+---
+group: ndex
+name: konietzko-fountain-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=ndex:konietzko-fountain`
+  author: Equinox
+  website: https://community.simtropolis.com/files/file/12747-ndex-konietzko-fountain/
+assets:
+  - assetId: ndex-konietzko-fountain
+    include:
+      - "\\[Model\\]\\.dat$"
+
+---
+assetId: ndex-konietzko-fountain
+version: "1.0"
+lastModified: "2005-06-15T14:19:28Z"
+url: https://community.simtropolis.com/files/file/12747-ndex-konietzko-fountain/?do=download

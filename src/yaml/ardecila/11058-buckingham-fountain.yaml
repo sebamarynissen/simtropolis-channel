@@ -1,0 +1,50 @@
+group: ardecila
+name: buckingham-fountain
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Buckingham Fountain
+  description: |-
+    **PDA-ADC Buckingham Fountain**
+
+    Buckingham Fountain was designed and built in 1927 by Chicago urban planner Edward Bennett, for Kate Buckingham in honor of her deceased husband. The design is based off of the Fountain of Latona at Versailles. It has become an enduring symbol of Chicago.
+
+    The fountain is the centerpiece of Grant Park, just feet away from Burnham Harbor. It has spectacular fountains, with three tiers of pools and, on the bottom tier, four copper seahorses that spray water. The central section lights up at night, and changes colors. I could not implement this, so I stuck with orange, the usual color.
+
+    **Lot specs**
+
+    - Size: 6x6
+    - Type: Park
+    - Wealth: Medium
+    - TE Plop: No
+  author: Ardecila
+  website: https://community.simtropolis.com/files/file/11058-buckingham-fountain/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/24ccdbfabab62efdb9486ebd4548283c-ADC_Buckingham3.jpg
+    - https://www.simtropolis.com/objects/screens/0005/24ccdbfabab62efdb9486ebd4548283c-ADC_Buckingham2.jpg
+dependencies:
+  - ardecila:buckingham-fountain-model
+assets:
+  - assetId: ardecila-buckingham-fountain
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: ardecila
+name: buckingham-fountain-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=ardecila:buckingham-fountain`
+  author: Ardecila
+  website: https://community.simtropolis.com/files/file/11058-buckingham-fountain/
+assets:
+  - assetId: ardecila-buckingham-fountain
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: ardecila-buckingham-fountain
+version: "1.0"
+lastModified: "2004-11-23T22:24:08Z"
+url: https://community.simtropolis.com/files/file/11058-buckingham-fountain/?do=download

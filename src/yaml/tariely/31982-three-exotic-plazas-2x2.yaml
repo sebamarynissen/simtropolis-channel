@@ -1,0 +1,58 @@
+group: tariely
+name: three-exotic-plazas-2x2
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Three Exotic Plazas 2x2
+  description: |-
+    Those three 2x2 plazas are not that exotic, but I wanted a less longer name than the original! They just needed a bit of greenery, in my opinion. They can be used alone or combined.
+
+    The originals are in `pkg=robledoressainance:traditional-latin-american-fountain-gazebo-tower-clock-and-plaza`.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world. Also the willing victims of the beta-tests, RobertLM78, Handyman and, again, Dreadnought. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi…). We need help when we begin sneaking a peek under the hood of SC4. That the community is always willing to help is a constant and pleasant comfort for us noobies.
+
+    **Stats**
+
+    | | Fuente | Belvedere | Torre |
+    |---|---|---|---|
+    | Plop cost | 100 | 120 | 150 |
+    | Park effect | magnitude 20, radius 60 | magnitude 30, radius 50 | magnitude 30, radius 50 |
+    | Pollution | air 0 | air 0 | air 0 |
+    | Landmark effect | magnitude 20, radius 9 | magnitude 25, radius 10 | magnitude 20, radius 10 |
+
+    This is for SC4 Rush Hour.
+
+    Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lots only need the Rivit streetlight prop from `pkg=tariely:essentials`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/31982-tl-rcc-three-exotic-plazas-2x2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/59e65c78aa16a_TL-RCCPlazas2x2day.jpg.cc08db6260946f8ec283f4b810095de8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/59e65c7938236_TL-RCCPlazas2x2nite.jpg.f8b21d5e7e5321e50a2a3055e6adb42c.jpg
+dependencies:
+  - blam-french-connections:flora-pack-1
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:textures-vol01
+  - girafe:daisy
+  - girafe:lindens
+  - namspopof:nams-mega-props
+  - ndex:glenni-mega-props-vol01
+  - ndex:textures-vol1
+  - robledoressainance:traditional-latin-american-fountain-gazebo-tower-clock-and-plaza-models
+  - tamorr:resource
+  - tariely:essentials
+  - vip:delecto-ploppable-people
+  - vip:rural-pack
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-three-exotic-plazas-2x2
+    exclude:
+      - "/merged\\.dat$"
+      - "/rivit lights/"
+
+---
+assetId: tariely-three-exotic-plazas-2x2
+version: "1.0"
+lastModified: "2017-10-17T19:42:01Z"
+url: https://community.simtropolis.com/files/file/31982-tl-rcc-three-exotic-plazas-2x2/?do=download

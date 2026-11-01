@@ -1,0 +1,79 @@
+group: tariely
+name: nts-park-paths-v2-and-addons
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: NTS Park Paths v2 & Addons
+  description: |-
+    In my unending quest for modularity, and having discovered some interesting overlays, it occurred to me that I could add some stuff to my NTS Park Paths set (`pkg=tariely:nts-modular-park-paths-set`), especially the beautiful CARCH Fountains and a few other loved ones on 2x2 lots linked by paths to the rest of the set. The overlays gave me Basins and Greens, with fountain effects added, of course. Then I realized I'd used a different type of bench for each set, argh. So I relotted them all accordingly, including the NTS Park Paths (the V2 in this upload). Of course you can use the Addons with the version 1 of the NTS Park Paths; they sport CP slimmer brown benches instead of Murimk's, that's all.
+
+    As usual with my uploads, all those sets have night lites. While lotting, I noticed that one of the props I used, a planter by CSX, was already lit. It detracted from the full modularity of the sets so I made an unlit version. Then, looking at some test picture, I felt that the pieces that are lit (only ortho) made a pretty effect if put all together. Therefore I made both a lit and an unlit version of the orthogonal pieces of the Basins & Greens. They are identified as such in the folders.
+
+    The point in modularity is CHOICE. Some might feel there are too many choices in this one, i.e. too many pieces, but I have carefully arranged everything so that you can pick and choose easily.
+
+    Also I have refrained from putting too many trees on the Greens, so that you can MMP to your heart's content.
+
+    The sets and their pieces follow one another in a more or less logical order in the Park Menu (depending on your own set of plugins, of course) and cost little. They are SPOTted for easier plopping, and they all have a slight positive effect on their environment (medium wealth).
+
+    The fountain effects require `pkg=peg:ppond-kit`, which also adds the 4 pond lots of that kit to the Park menu.
+
+    The street trees of these lots are props of the SFBT tree families (`pkg=sfbt:essentials`). Choose the `Maxis-deciduous-trees` or `Maxis-pine-trees` family to see the corresponding trees (only one family can be chosen).
+
+    The Yin-Yang fountain uses street light props of the Uniform Street Lighting Mod (`pkg=kodlovag:uniform-street-lighting-mod`). It is not installed as a dependency, as it replaces the street lights and T21 networks of the whole city. The planters of the basin and green lots are props of Moonlight's JPN Street Mod, which are installed from `pkg=moonlinght:jpn-street-overwrite-sam1-props`. The 10m planter of the `GreenLongSide` lots only exists in the SAM9 version, `pkg=moonlinght:jpn-street-overwrite-sam9-props`. That package is optional, as it also overrides a Maxis prop.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Simlacroix, Twalsh, Tyberius06, Matias93, Fantozzi, Cyclone Boom, Catty-cb, Corinamarie, Andreas…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection.
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, some trees will just revert to vanilla Maxis trees; perhaps you should use it, it is a neat mod, and yes, it allows you to get rid of palms…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lightpoles will be different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or take the relevant items out of my Essentials dependency.
+    - I like trees. I usually make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods, when indicated.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/33210-tl-nts-park-pathsv2-addons/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5d97ba031483a_TL-TLNTSFullSetssample.jpg.28a6066b572994df091dc0c0de5edd35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5d97ba166fcaf_TL-NTSFountainsday.jpg.fbbf06d3bdd1a81b23b865014708b1d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5d97ba1e45cb3_TL-NTSAddonsBGPiecesday.jpg.6f51fc95449cc288c6e98419a40acfc0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5d97ba260fb5f_TL-NTSBGOrthoLIT.jpg.65fab5836d7f882660bcf991a135d736.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jenx-vol03
+  - bsc:mega-props-mbear-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:textures-vol01
+  - csx:mega-props-vol02
+  - csx:mega-props-vol05
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+  - moonlinght:jpn-street-overwrite-sam1-props
+  - murimk:props-vol02-mixed
+  - nam:textures
+  - namspopof:nams-mega-props
+  - nbvc:plazas-with-fountains-models
+  - paeng:textures
+  - peg:mtp-super-pack
+  - peg:ppond-kit
+  - peg:spot
+  - sfbt:essentials
+  - simfox:chestnuts
+  - tamorr:resource
+  - tariely:essentials
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-nts-park-paths-v2-and-addons
+
+---
+assetId: tariely-nts-park-paths-v2-and-addons
+version: "1.0"
+lastModified: "2019-10-04T21:32:32Z"
+url: https://community.simtropolis.com/files/file/33210-tl-nts-park-pathsv2-addons/?do=download
