@@ -1,0 +1,59 @@
+group: tariely
+name: curling-club
+version: "1.0.1"
+subfolder: 660-parks
+info:
+  summary: Curling Club (5x7)
+  description: |-
+    I know. It's a weird Nordic sport. But it is a sport, requiring a good eye and two good arms; and anyone who's played it will tell you that frantically sweeping ice is an excellent cardio exercise.
+
+    This is a relot of evilmoss's Curling Club (`pkg=evilmoss000:curlingclub`), whose model and description are installed as a dependency. Same properties as the original. The parking (like all my parkings) is transit enabled.
+
+    The street lights use props of the Light Replacement Mod (`pkg=mandelsoft:light-replacement-mod-props`).
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is a constant and pleasant reassurance.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or get rid of them entirely.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32302-tariel-curling-club-5x7/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b1d287840613_TL-Curlingday1.jpg.9de14d717e16da88730b0589fde3b1b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b1d287c8a4ba_TL-Curlingday2.jpg.d2e29b6bc09b02d93b1f2dc3a34dbae5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b1d288019703_TL-Curlingnite.jpg.041981c1ea03e355939b9b78127bfaa8.jpg
+dependencies:
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - evilmoss000:curlingclub-models
+  - girafe:common-spruces
+  - girafe:conifers
+  - gizmo:vehicle-props
+  - lbt:mega-textures-vol01
+  - mandelsoft:light-replacement-mod-props
+  - namspopof:nams-mega-props
+  - nos17:essentials
+  - paeng:parks-revisited-resources
+  - peg:oww2-resource-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - tamorr:resource
+  - tariely:essentials
+  - vip:delecto-ploppable-people
+  - vip:vnaoned-props-pack-vol01
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+assets:
+  - assetId: tariely-curling-club
+
+---
+assetId: tariely-curling-club
+version: "1.0.1"
+lastModified: "2018-06-11T15:31:12Z"
+url: https://community.simtropolis.com/files/file/32302-tariel-curling-club-5x7/?do=download

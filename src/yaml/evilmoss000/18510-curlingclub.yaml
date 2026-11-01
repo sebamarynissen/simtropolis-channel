@@ -1,0 +1,38 @@
+group: evilmoss000
+name: curlingclub
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Curling Club
+  description: Presenting, the indoor curling club. A 5x7 lot found in the parks menu. Hopefully this is a bit more realistic than the first version. Enjoy.
+  author: evilmoss000
+  website: https://community.simtropolis.com/files/file/18510-curlingclub/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/98c9a0dc76929b0ce2508afd61095073-Curling01.JPG
+    - https://www.simtropolis.com/objects/screens/0017/98c9a0dc76929b0ce2508afd61095073-Curling02.JPG
+dependencies:
+  - evilmoss000:curlingclub-models
+assets:
+  - assetId: evilmoss000-curlingclub
+    exclude:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+group: evilmoss000
+name: curlingclub-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=evilmoss000:curlingclub`
+  author: evilmoss000
+  website: https://community.simtropolis.com/files/file/18510-curlingclub/
+assets:
+  - assetId: evilmoss000-curlingclub
+    include:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+assetId: evilmoss000-curlingclub
+version: "1.0"
+lastModified: "2007-08-04T12:48:21Z"
+url: https://community.simtropolis.com/files/file/18510-curlingclub/?do=download
