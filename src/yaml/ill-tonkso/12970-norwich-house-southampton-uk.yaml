@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: norwich-house-southampton-uk
+version: "2"
+subfolder: 360-landmark
+info:
+  summary: Norwich House Southampton UK
+  description: |-
+    **Norwich House**
+
+    Norwich House is the tallest Commercial Building in Southampton UK.
+
+    Built in the 60's 70's era it uses modular concrete blocks to rise 16 stories into the sky, Today it remains the So'toners tallest Commercial building (surpassed by two residential towers, available on STEX from Garyreggae).
+
+    Ploppable Lot, 750 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12970-norwich-house-southampton-uk/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/26bea22b0f6005db2366a6da78e19616-Bristham7Juntower.jpg
+    - https://www.simtropolis.com/objects/screens/0005/26bea22b0f6005db2366a6da78e19616-norwichnightuploadtonkso.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-norwich-house-southampton-uk
+    exclude:
+      - "\\.SC4Model$"
+      - "NorwichSouthamptonGrow_0fe5c23c\\.SC4Lot$"
+
+---
+assetId: ill-tonkso-norwich-house-southampton-uk
+version: "2"
+lastModified: "2005-07-06T11:53:41Z"
+url: https://community.simtropolis.com/files/file/12970-norwich-house-southampton-uk/?do=download
