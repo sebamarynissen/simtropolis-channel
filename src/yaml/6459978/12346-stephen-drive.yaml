@@ -1,6 +1,6 @@
 group: "6459978"
 name: stephen-drive
-version: "1.0"
+version: "1.0-1"
 subfolder: 200-residential
 info:
   summary: Stephen Drive
@@ -35,8 +35,26 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0014/76749f07e1daaa00223e115344ff97ff-Stephen Thumbnail.JPG
     - https://www.simtropolis.com/objects/screens/0014/76749f07e1daaa00223e115344ff97ff-Stephen Thumbnail2.JPG
+dependencies:
+  - 6459978:stephen-drive-model
 assets:
   - assetId: 6459978-stephen-drive
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: "6459978"
+name: stephen-drive-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=6459978:stephen-drive`
+  author: "6459978."
+  website: https://community.simtropolis.com/files/file/12346-stephen-drive/
+assets:
+  - assetId: 6459978-stephen-drive
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: 6459978-stephen-drive

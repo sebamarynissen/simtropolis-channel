@@ -1,6 +1,6 @@
 group: "6459978"
 name: crumby-arms-reloaded
-version: "1.0"
+version: "1.0-1"
 subfolder: 200-residential
 info:
   summary: Crumby Arms reloaded
@@ -62,8 +62,26 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0003/1118c6551605e798dc1d5d4ad3399fe0-CRUMBYDAY.jpg
     - https://www.simtropolis.com/objects/screens/0003/1118c6551605e798dc1d5d4ad3399fe0-CRUMBYNIGHT.jpg
+dependencies:
+  - 6459978:crumby-arms-reloaded-model
 assets:
   - assetId: 6459978-crumby-arms-reloaded
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: "6459978"
+name: crumby-arms-reloaded-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=6459978:crumby-arms-reloaded`
+  author: "6459978., T Wrecks"
+  website: https://community.simtropolis.com/files/file/15836-crumby-arms-reloaded/
+assets:
+  - assetId: 6459978-crumby-arms-reloaded
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: 6459978-crumby-arms-reloaded
