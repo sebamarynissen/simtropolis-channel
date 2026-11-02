@@ -18,11 +18,11 @@ info:
     2021 technical updated version by Tyberius06
 
     -   **IMPORTANT NOTE (update: 24.06.2021):** there are two significant changes in this upload comparing to the originally released version by Bixel and T Wrecks back in 2006.
-        -   The original HK The Arch 1.SC4Model was rendered and exported slightly off-centered (approx 8 or 12 meters on the X-axis), which made it extremly hard to lot it on a tighter lot (how it was meant to be). These original LOTs in this pack were working fine, though the lotter of the CAM version of the The Arch 1 had used different modding technique and this off-centered nature of the model caused a modding error, which lead to the so called Immortal Lot Syndrome on the CAM version (released only on LEX in the CAM LOTS BXL1 set).   
+        -   The original HK The Arch 1.SC4Model was rendered and exported slightly off-centered (approx 8 or 12 meters on the X-axis), which made it extremely hard to lot it on a tighter lot (how it was meant to be). These original LOTs in this pack were working fine, though the lotter of the CAM version of the The Arch 1 had used different modding technique and this off-centered nature of the model caused a modding error, which led to the so-called Immortal Lot Syndrome on the CAM version (released only on LEX in the CAM LOTS BXL1 set).   
             **In order to fix this issue and prevent possible issues in the future, I used the Model Tweaker and made the model centered (also recompiled the HKABT Bixel Mega Props vol08 with the modified model), then fixed the position of the building on the lots to match with the changed model. It had to be done on all the The Arch 1 lots both in this set and in the CAM version as well.**
         -   The second change what I've applied: I've noticed that both the TE and non-transit enabled LOTs are using the same IIDs per group (R$$ grow and R$$$ grow), and according to the default load order the TE versions would get into the game. I gave the TE lots a different IID, so now they are unique, and now you can really use all of the lots simultaneously.  
 
-    -   **You need to bullldoze and rebuild (re-grow/re-plop) all the lots in order to get the proper results.**
+    -   **You need to bulldoze and rebuild (re-grow/re-plop) all the lots in order to get the proper results.**
 
     \- Tyberius06 (STEX Custodian)
 
@@ -50,7 +50,7 @@ info:
     PEG MTP Mountain Theme Pack  
     [https://community.simtropolis.com/files/file/14025-peg-mtp\-mountain-theme-pack/](https://community.simtropolis.com/files/file/14025-peg-mtp-mountain-theme-pack/)
 
-    Alternatively you can use **[HKABT Bixel Mega Props vol08](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=903) v2** with these lots, but in that case you should remove the HK The Arch 1.SC4Model and HK The Arch 2.SC4Model model files (or just run the cleaintol file which coming with the mega prop pack).
+    Alternatively you can use **[HKABT Bixel Mega Props vol08](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=903) v2** with these lots, but in that case you should remove the HK The Arch 1.SC4Model and HK The Arch 2.SC4Model model files (or just run the cleanitol file which comes with the mega prop pack).
 
     If you wish to use the CAM version of this lot, you can download it from LEX: **[HKABT BXL CAMeLots vol01-15 (CAM LOTS BXL1)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1087)**.
 
@@ -92,7 +92,7 @@ info:
 
     **First of all, if you already had these lots in your cities, go into your cities and bulldoze them, before installing this updated version of this upload to prevent any nasty side-effects. Also you must completely remove all the previously released versions of these lots and models (before 24.06.2021). If you have the models and the lots DATpacked, then you must re-do the datpacking process with these updated models and lots from this updated upload.**
 
-    **To install it**, simply copy/extract the HKABT parent folder into your plugins. You should keep the \_Documents folder somwhere outside of your plugins.
+    **To install it**, simply copy/extract the HKABT parent folder into your plugins. You should keep the \_Documents folder somewhere outside of your plugins.
 
     To uninstall a version you don't like, first bulldoze all instances of that version in your cities, then save the cities and exit. Now you can safely remove the version without running any risk to get crashes or facing any other inconvenience.
 
