@@ -11,9 +11,7 @@ info:
   author: moonlinght
   website: https://community.simtropolis.com/files/file/36926-moonlight-compilation/
 assets:
-  - assetId: moonlinght-sc4-compilation-2025
-    include:
-      - "/ML JPN street chg SAM1 prop\\.dat$"
+  - assetId: moonlinght-jpn-street-sam1-props
 
 ---
 group: moonlinght
@@ -29,12 +27,16 @@ info:
   author: moonlinght
   website: https://community.simtropolis.com/files/file/36926-moonlight-compilation/
 assets:
-  - assetId: moonlinght-sc4-compilation-2025
-    include:
-      - "/ML JPN street chg SAM9 prop\\.dat$"
+  - assetId: moonlinght-jpn-street-sam9-props
 
 ---
-assetId: moonlinght-sc4-compilation-2025
+assetId: moonlinght-jpn-street-sam1-props
 version: "1.0.0"
-lastModified: "2026-06-05T17:06:22Z"
-url: https://community.simtropolis.com/files/file/36926-moonlight-compilation/?do=download
+lastModified: "2026-11-03T00:00:00Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=128773
+
+---
+assetId: moonlinght-jpn-street-sam9-props
+version: "1.0.0"
+lastModified: "2026-11-03T00:01:00Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=128774
