@@ -1,0 +1,38 @@
+group: brancra
+name: como-metropolitan-apartments
+version: "1.0.2"
+subfolder: 200-residential
+info:
+  summary: Como Metropolitan Apartments
+  description: |-
+    Based on a real building (the Como Metropolitan) in London, UK.
+
+    This upload contains three lots. All are growable on the Houston and Euro tilesets.
+
+    - A growable 2x3 Stage 6 R$$$ lot with Maxis props.
+    - A growable 2x3 Stage 5 CS$$$ lot with AGC props.
+    - A growable 5x5 Stage 5 R$$$ "Apartment Complex" lot with AGC props.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37408-agc-como-metropolitan-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b64c83af5_Niangua-Oct.102201774318425.png.53ff30687726afb2a88c29ee1c009ba1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b64dd68e7_Niangua-Oct.182201774318534.png.1e01217fc63809ecaa7842305dc1f536.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/agc_como_complex.png.b29213a82975a0ad37129608a6f2dc69.png
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-como-metropolitan-apartments
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-como-metropolitan-apartments
+version: "1.0.2"
+lastModified: "2026-06-10T00:57:24Z"
+url: https://community.simtropolis.com/files/file/37408-agc-como-metropolitan-apartments/?do=download

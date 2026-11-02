@@ -1,0 +1,31 @@
+group: brancra
+name: state-street-canary-wharf
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: State Street Canary Wharf
+  description: |-
+    Based on a real office building in Canary Wharf, London, UK.
+
+    This upload contains one lot, a growable 3x3 Stage 7 CO$$ lot with Maxis and AGC props. It grows on the Houston and Euro tilesets.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37411-agc-state-street-canary-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b785c5c24_Mankato-Nov.23241780880396.png.dafd05d443e3b16457c43059929ef0ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b78714836_Mankato-Nov.23241780880430.png.8275ef68f8bc53fbafca3af69ef3dd2e.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+assets:
+  - assetId: brancra-state-street-canary-wharf
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-state-street-canary-wharf
+version: "1.0.0"
+lastModified: "2026-06-10T01:02:40Z"
+url: https://community.simtropolis.com/files/file/37411-agc-state-street-canary-wharf/?do=download

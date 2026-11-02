@@ -1,0 +1,35 @@
+group: brancra
+name: zara-london
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Zara London
+  description: |-
+    Based on a real building on Brompton Road, London, UK.
+
+    This upload contains two growable 1x2 Stage 3 CS$$$ lots. Both grow on the Houston and Euro tilesets.
+
+    - A lot with Maxis props.
+    - A lot with AGC props.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37412-agc-zara-london/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b7fb47be0_Mankato-Nov.14211778201253.png.db416e7521f51b27a83904266d067ec7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b7fcbb33c_Mankato-Oct.13211778201069.png.c9166571d994e72e5786a6eb4d989cba.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-zara-london
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-zara-london
+version: "1.0.0"
+lastModified: "2026-06-10T01:04:40Z"
+url: https://community.simtropolis.com/files/file/37412-agc-zara-london/?do=download

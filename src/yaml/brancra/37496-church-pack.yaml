@@ -1,0 +1,37 @@
+group: brancra
+name: church-pack
+version: "1.0.0"
+subfolder: 650-religion
+info:
+  summary: Church Pack
+  description: |-
+    This church pack contains three unique models, each with its own ploppable lot.
+
+    - St. Mary's Church, a 2x4 lot.
+    - Abney Park Chapel, a 2x2 lot.
+    - The "Fantasy Church" (Church of St. Drogo), a 2x2 lot.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37496-agc-church-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a56af6f116e9_Auglaize-Jul.17211784062500.png.0caeb79622c04adfa4e701492eedbfa2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a56af70a866d_Auglaize-Oct.9211783992483.png.d2c5cd17682a4fcf419b019be54cc5a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/6a56af727ee35_Auglaize-Sep.18211783992408.png.32a9f59de191adfc9b8f619b8f004f5c.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+  - lbt:mega-textures-vol01
+assets:
+  - assetId: brancra-church-pack
+    exclude:
+      - "LBT Mega Texture Pack v\\.03\\.dat$"
+
+---
+assetId: brancra-church-pack
+version: "1.0.0"
+lastModified: "2026-07-14T21:55:47Z"
+url: https://community.simtropolis.com/files/file/37496-agc-church-pack/?do=download

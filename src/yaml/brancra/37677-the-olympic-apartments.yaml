@@ -1,0 +1,37 @@
+group: brancra
+name: the-olympic-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: The Olympic Apartments
+  description: |-
+    Based on a real building in Moscow, Russia.
+
+    This upload contains one lot, a growable Stage 8 4x3 R$$ lot. It uses AGC props and grows on the Houston and Euro tilesets.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37677-agc-the-olympic-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada47bd83087_Athelstane-Feb.26551792367194.png.6e9c55404f1f868b502125ecfd39e7ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada47e04a2e7_Athelstane-Dec.9541792366939.png.b7d351489f0edcccc957a62908f3b7f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada47e153798_Athelstane-Dec.15541792366955.png.6b51c7d2d250e5954ba0c1432a0ac533.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada47e23e1e0_Athelstane-Jan.25551792367072.png.9ed2000b2c2ca8669c302b08177697ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada47e32c6eb_Athelstane-Jan.29551792367090.png.2ea10b444fd6ed104b9142d3369ede97.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ada47e401235_Athelstane-Oct.26541792632296.png.588174e73059294dde9be436ed2ca305.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-the-olympic-apartments
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-the-olympic-apartments
+version: "1.0.0"
+lastModified: "2026-10-22T17:31:03Z"
+url: https://community.simtropolis.com/files/file/37677-agc-the-olympic-apartments/?do=download

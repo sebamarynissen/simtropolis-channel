@@ -1,0 +1,37 @@
+group: brancra
+name: millharbour-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Millharbour Apartments
+  description: |-
+    Based on a real building in London, UK.
+
+    This upload contains two lots. Both use AGC props and grow on the Houston and Euro tilesets.
+
+    - A growable 3x3 Stage 7 R$$ lot.
+    - A growable two-building "apartment complex" on a 5x5 Stage 6 R$$ lot.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37563-agc-millharbour-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a7a5c5d12ff2_Dowagiac-Sep.13861785464636.png.47a47e5970dfae0da93f45045ef698c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a7a5c663109f_Dowagiac-Sep.13861785464663.png.fa896cd7280b01324bf7d92a8776ad9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a7a5c670b2fd_Dowagiac-Sep.13861785464687.png.f89ca6c856158be4c7bf7c836aab40bc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a7a5c67d3062_Dowagiac-Sep.13861785464710.png.6e8233e6505bd6d0e1f0f3cf75c320d5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a7a5c68992ac_Dowagiac-Sep.13861785464842.png.7d2210847d2fc9bd7462353cc8a82a28.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-millharbour-apartments
+
+---
+assetId: brancra-millharbour-apartments
+version: "1.0.0"
+lastModified: "2026-08-10T23:24:52Z"
+url: https://community.simtropolis.com/files/file/37563-agc-millharbour-apartments/?do=download

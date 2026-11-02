@@ -1,0 +1,36 @@
+group: brancra
+name: sheldon-square
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Sheldon Square
+  description: |-
+    Based on a real building in London, UK.
+
+    This upload contains two growable R$$$ lots. Both grow on the Houston and Euro tilesets.
+
+    - A growable 3x2 Stage 6 lot with Maxis props.
+    - A growable 4x4 Stage 6 lot with AGC props.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37413-agc-sheldon-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b8b45f226_Mankato-Aug.24221779759255.png.c7c1d6de130e12a3efee9a73a1950409.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a28b8c337962_Mankato-Aug.18221779759147.png.0c47d056f248257b880e689a6138b4dd.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-sheldon-square
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-sheldon-square
+version: "1.0.0"
+lastModified: "2026-06-10T01:07:22Z"
+url: https://community.simtropolis.com/files/file/37413-agc-sheldon-square/?do=download
