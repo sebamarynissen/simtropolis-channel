@@ -1,0 +1,48 @@
+group: ill-tonkso
+name: the-bowls-club
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: The Bowls Club
+  description: |-
+    Fancy a taste of Eastbourne in your City? Well now you can with the Great British pass-time 'Bowls'. Popular with the older generation Bowls is a quiet outdoor summer sport.
+
+    This Package contains 2 Lots, the Bowls Club Tearoom and Supply Shed. (can be used seperate from the green) and the Green itself.
+
+    dependencies
+
+    BSC Texture Pack 4 or the BSC Mega Pack.
+
+    Package Includes
+
+    Bowls Club Green -model file  
+    Bowls House - model file  
+    ITS Scoreboard - model file  
+    Bowls Club Green - desc file  
+    Bowls Club House - desc file  
+    ITS Scoreboard - desc file  
+    Bowls Green - lot file  
+    Bowls House - lot file
+
+    Lot Sizes
+
+    House - 1x3  
+    Green - 2x3
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13036-the-bowls-club/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/0038978592168c1e12c55967ae5428aa-thebowlsclubday.jpg
+    - https://www.simtropolis.com/objects/screens/0001/0038978592168c1e12c55967ae5428aa-thebowlsclubnight.jpg
+dependencies:
+  - bsc:textures-vol02
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-the-bowls-club
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-the-bowls-club
+version: "1.0"
+lastModified: "2005-07-12T08:19:19Z"
+url: https://community.simtropolis.com/files/file/13036-the-bowls-club/?do=download
