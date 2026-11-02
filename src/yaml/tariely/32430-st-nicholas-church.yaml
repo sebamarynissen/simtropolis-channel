@@ -1,0 +1,84 @@
+group: tariely
+name: st-nicholas-church
+version: "1.0"
+subfolder: 650-religion
+info:
+  summary: St Nicholas Church (4 versions) 6x5
+  description: |-
+    I love that little church. It was originally a Caliban reward, but I wanted it without having to wait or to cheat for it. So I decided to relot it. Four times, and not as a reward.
+
+    Check Caliban's other creations on the LEX. Or callagrafx, same great batter.
+
+    **Content**
+
+    - St Nicholas Church v1.2 (walls with ivy)
+    - St Nicholas Church v2.2 (grate walls)
+    - St Nicholas Church v3.2 (park, no walls; compatible with Tariel's Big Modular Parks & Paths Project!)
+    - St Nicholas Church v4.2 (Ancient, big walls)
+
+    The park version is compatible with my NTS Modular Parks & Paths (`pkg=tariely:nts-modular-park-paths-set`), and belongs to the Tariel's Big Modular Parks & Paths Project.
+
+    The seasonal cherry tree is a prop of `pkg=bsc:mega-props-cp-vol02`. If you want the tree not to be seasonal, install my Evergreen version of it (`pkg=tariely:trees-evergreen`), which also changes the other CP, JENX and Porkie trees of your city.
+
+    Three props of the v4.2 Ancient lot (probably a brown box and a flag) are not available. The original list of dependencies names `DukeChapel_Caliban.dat` of the Caliban Lots for this detail, which can be done without. They are missing in game until that file is found.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Tyberius06, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection; it shouldn't interfere here.
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different (not these trees!); perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or take them out of my Essentials dependency.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods, when indicated.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32430-tl-cal-st-nicholas-church-4-versions-6x5/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f1191993ee_TL-CALStNicholasParknite.jpg.c025dbf188ee0c97eb45336a78840926.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f119237bfe_TL-CALStNicholasParkday..jpg.1d8f6cc9b4289a36ab66f96e64bef0b9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f11932d8d1_TL-CALStNicholasParksday_2jpg.jpg.95c6621755e4d71927ea14a55cd718ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f1193e85ae_TL-CALStNicholasv_2day.jpg.48fc9f2a0521b58310700d5c8ada7acc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f11946a6ce_TL-CALStNicholasv.2nite.jpg.c26063643441649167a5a0c610b940ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f119520643_TL-CALStNicholasv.3Ancientday.jpg.7cc8ec73581e1faff57cfb72c53be174.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f1195a4ff7_TL-CALStNicholasv.3Ancientnite.jpg.bde4dac71f36aa3740817e2db4a3096b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f11960ed7b_TL-CALStNicholasv1day.jpg.c73fe897916fa72364387ae27865ed9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b7f119658b2f_TL-CALStNicholasv1nite.jpg.77cb8f43528b75d814d733ec435bb54d.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-caliban-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jrj-vol06
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:cypresses
+  - girafe:daisy
+  - girafe:feather-grass
+  - girafe:lupins
+  - girafe:narcissus
+  - girafe:poppies
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - tariely:essentials
+  - vip:rural-pack
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-st-nicholas-church
+
+---
+assetId: tariely-st-nicholas-church
+version: "1.0"
+lastModified: "2018-08-23T20:20:28Z"
+url: https://community.simtropolis.com/files/file/32430-tl-cal-st-nicholas-church-4-versions-6x5/?do=download
