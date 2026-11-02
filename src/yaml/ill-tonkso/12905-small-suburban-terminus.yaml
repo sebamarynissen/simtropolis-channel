@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: small-suburban-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Small Suburban Terminus
+  description: |-
+    A Small Suburban Terminus for those little Suburban lines.
+
+    Capacity = 500
+
+    Lot Zize = 1x5
+
+    Thats it, Enjoy!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12905-small-suburban-terminus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/214a8bbbf7121883903b5154aaf34b80-New%20CityMar%203001120071907tonksotest.JPG
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-small-suburban-terminus
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-small-suburban-terminus
+version: "1.0"
+lastModified: "2005-06-29T14:24:05Z"
+url: https://community.simtropolis.com/files/file/12905-small-suburban-terminus/?do=download
