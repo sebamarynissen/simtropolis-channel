@@ -1,0 +1,73 @@
+group: t-wrecks
+name: arbor-woods-multi-building-lots
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Arbor Woods Multi-Building Lots
+  description: |-
+    # Arbor Woods Multi-Building Lots
+
+    BAT model by BSC member **JBSimio**
+
+    Modding & new lots by **T Wrecks**
+
+    Better pictures (click to enlarge):
+
+    [![5b174504d3b219d30ceede2843b2069a.jpg](http://www.ld-host.de/uploads/thumbnails/5b174504d3b219d30ceede2843b2069a.jpg)](http://www.ld-host.de/show/5b174504d3b219d30ceede2843b2069a.jpg) [![f71bfc13d99180b3a5ffeffd70f341b4.jpg](http://www.ld-host.de/uploads/thumbnails/f71bfc13d99180b3a5ffeffd70f341b4.jpg)](http://www.ld-host.de/show/f71bfc13d99180b3a5ffeffd70f341b4.jpg)
+
+    \[NOTE: These are simple application examples that show various lots right next to each other. For more realistic looks, I recommend leaving some space in between for forest lots, park trails, community gardens or open grass.\]
+
+    ## INTRODUCTION
+
+    This download contains six additional lots based on **JBSimio**'s Arbor Woods residential building, part of his Rural USA (RUSA) series. Whenever I see nice BATs in different versions, I feel the itch to use several of them together on a series of larger lots to facilitate the creation of coherent suburban developments.
+
+    The idea to use defined lot sizes in order to grow residential structures more systematically was pioneered by SFBT's ArkenbergeJoe, who envisioned blocks of 4x5, 5x4 and 5x5 tiles ranging from low to high density, all belonging to a particular wealth and style. With the original SFBT uploads, you could play low-wealth Eastern German style from small garden huts (low density) to big prefab buildings, the (in)famous 'Plattenbauten' (high density).
+
+    I made this upload in order to extend the 'large lot' concept to the American tilesets. The lots contained in this archive are **4x5, 5x4 and 5x5 tiles** in size, grow on **medium density only**, and only in the tilesets **Chicago** and **New York** to differentiate them from more modern stuff.
+
+    ## STATS & FEATURES
+
+    Each lot comes with 3 buildings and houses **273 medium-wealth sims**. They grow on **stage 4**, so you can use them pretty early in the development of your city. All other stats have been tweaked carefully to fit right in without any undesired side effects. Neither do you need to fear a sudden surge in garbage production, nor will these lots act like secret cheats.
+
+    Further features:
+
+    -   6 lots included, 3 with red-coloured buildings and 3 with tan-coloured buildings
+    -   3 lot sizes for each colour variant
+    -   Extensive use of prop families for more variety
+    -   Extensive use of shaded props (credits to **Cycledogg**) for better realism
+    -   Slope-friendly: thanks to the great custom foundations made by **JBSimio**, the lots will look rather good on modest slopes; you will hardly see ugly lot foundations or retaining walls if you zone on halfway gently sloping terrain
+    -   BTE-compatible: All additional occupant groups that are used to count towards special BSC reward lots have been copied into these additional lots as well ("BSC Tracking Enabled")
+
+    ## DEPENDENCIES
+
+    You will need:
+
+    -   [JBSimio's original model](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2089) *(you **must** keep the file "JB\_RUSA\_ArborWoods\_Models.dat", or you will see empty lots and/or brown boxes! You **can** keep the original single-building lots, too, but you don't have to.)*
+    -   [BSC Mega Prop Pack by SimGoober](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    -   [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+    -   [BSC Mega Props CP Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    ## THANKS AND CREDITS
+
+    I'd like to express my gratitude to **JBSimio** for his superb BATs, **ArkenbergeJoe** for the 'large lot concept' and **Cycledogg** and **SimGoober** for the beautiful props - not to forget various **BSC members** for the nice textures.
+
+    ENJOY!
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/24601-arbor-woods-multi-building-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6deae1a989851e9a38074e1048ec521c-ArborWoods_STEX1.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6deae1a989851e9a38074e1048ec521c-ArborWoods_STEX2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+assets:
+  - assetId: t-wrecks-arbor-woods-multi-building-lots
+
+---
+assetId: t-wrecks-arbor-woods-multi-building-lots
+version: "1.0"
+lastModified: "2010-08-09T16:46:57Z"
+url: https://community.simtropolis.com/files/file/24601-arbor-woods-multi-building-lots/?do=download
