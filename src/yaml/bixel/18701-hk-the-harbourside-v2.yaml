@@ -1,0 +1,54 @@
+group: bixel
+name: hk-the-harbourside-v2
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK The Harbourside v2
+  description: |-
+    **The Hong Kong / Asia BAT Team** presents **The Harbourside(v2.0)**BAT created by **bixel**  
+    Modding, menu icons & lot design by **T Wrecks**
+
+    readme by **bixel**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&forumid=1)
+
+    **Introduction / Overview** **The Harbourside** is a 255m (836.6ft) tall [residential](https://en.wikipedia.org/wiki/Residential "Residential") [skyscraper](https://en.wikipedia.org/wiki/Skyscraper "Skyscraper") located at 1 Austin Road, in [Union Square](https://en.wikipedia.org/wiki/Union_Square_%28Hong_Kong%29 "Union Square (Hong Kong)") complex on [Kowloon peninsula](https://en.wikipedia.org/wiki/Kowloon_peninsula "Kowloon peninsula"). The building is erected on the [West Kowloon Reclamation](https://en.wikipedia.org/w/index.php?title=West_Kowloon_Reclamation&action=edit "West Kowloon Reclamation") west of [Kwun Chung](https://en.wikipedia.org/wiki/Kwun_Chung "Kwun Chung"). Construction of the 74 storey building began in [2000](https://en.wikipedia.org/wiki/2000_in_architecture "2000 in architecture") and was completed in [2003](https://en.wikipedia.org/wiki/2003_in_architecture "2003 in architecture") under the design by P & T Architects & Engineers.The building is, in fact, three towers joined at the base, middle and top however from a distance it appears as one wall of a building. The gaps between the towers help relieve the stress caused by the wind as the building has a large surface area which results in it acting as a sail. It was constructed as part of the Kowloon Station development and was the fourth phase. All floors are used for residential purposes.
+
+    The tower is the 91st tallest building in the world when measured up to the highest architectural point.
+
+    The following lots are included:
+
+    -   Growable R$$$
+    -   Landmark
+
+    **Dependencies**  
+    BSC Textures Mega Pack & BSC Mega Prop Pack by SimGoober
+
+    * * *
+
+    **Stats and Values**All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Parameter**
+
+    **Growable R$$$**
+  author: bixel
+  website: https://community.simtropolis.com/files/file/18701-hk-the-harbourside-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4d91fa208b23632bbc6ca25d6b939afc-HD.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4d91fa208b23632bbc6ca25d6b939afc-HN.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol23
+assets:
+  - assetId: bixel-hk-the-harbourside-v2
+    exclude:
+      - "\\.SC4Model$"
+      - "0x140447fe\\.SC4Desc$"
+
+---
+assetId: bixel-hk-the-harbourside-v2
+version: "1.0"
+lastModified: "2007-09-24T02:41:07Z"
+url: https://community.simtropolis.com/files/file/18701-hk-the-harbourside-v2/?do=download
