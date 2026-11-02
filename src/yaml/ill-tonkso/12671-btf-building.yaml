@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: btf-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BTF Building
+  description: |-
+    **BTF Building**
+
+    The Brennt Thames Ferry Corporation has a new Headquarters, this stylish new midrise is crafted from highly polished blue steel and reflects its surroundings on its subtle glass windows. At 18 Floors high the building fits onto just a 2x3 lot size ideal for filling those gaps in the skyscrapers or sitting elegantly above a small city skyline. The Building calls for 900 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12671-btf-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a27ba64f5942552a1fe7394918f6b327-BFTUPLOADDAY.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a27ba64f5942552a1fe7394918f6b327-BTFUPLOADNIGHT.JPG
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-btf-building
+    exclude:
+      - "/BTFbuilding-0x5ad0e817_0x6ef03acf_0x780000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-btf-building
+version: "1.0"
+lastModified: "2005-06-06T14:46:29Z"
+url: https://community.simtropolis.com/files/file/12671-btf-building/?do=download
