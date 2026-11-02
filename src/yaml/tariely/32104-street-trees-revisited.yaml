@@ -1,6 +1,6 @@
 group: tariely
 name: street-trees-revisited
-version: "1.0.4"
+version: "1.0.4-1"
 subfolder: 180-flora
 info:
   summary: Kazuki Street Trees revisited
@@ -16,7 +16,7 @@ info:
     **Notes**
 
     - If you have a Sandstone Mod, it will replace the Maxis pavement.
-    - The trees are seasonal. The non-seasonal Evergreen version is a separate upload.
+    - The default `seasonal` variant has seasonal trees. The `evergreen` variant (v1.0 of the separate TL-Kazuki Street Trees EVERGREEN upload) is for those who don't want seasonal trees, and who don't have the PK Fallen Leaves. It uses the spring-only CP Elm of `pkg=tariely:trees-evergreen-cp-elm`, which must load after `pkg=bsc:mega-props-cp-vol01` or the CP Elms will revert to seasonal ones.
 
     **General warnings**
 
@@ -44,11 +44,24 @@ dependencies:
   - tamorr:resource
   - tariely:essentials
   - wmp:mega-props-vol01
-assets:
-  - assetId: tariely-street-trees-revisited
+variants:
+  - variant: { tariely:street-trees-revisited:trees: seasonal }
+    assets:
+      - assetId: tariely-street-trees-revisited
+  - variant: { tariely:street-trees-revisited:trees: evergreen }
+    dependencies:
+      - tariely:trees-evergreen-cp-elm
+    assets:
+      - assetId: tariely-street-trees-evergreen
 
 ---
 assetId: tariely-street-trees-revisited
 version: "1.0.4"
 lastModified: "2018-08-22T17:20:21Z"
 url: https://community.simtropolis.com/files/file/32104-tl-kazuki-street-trees-revisited-104/?do=download
+
+---
+assetId: tariely-street-trees-evergreen
+version: "1.0"
+lastModified: "2018-08-22T17:25:39Z"
+url: https://community.simtropolis.com/files/file/32429-tl-kazuki-street-trees-evergreen/?do=download

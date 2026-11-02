@@ -1,0 +1,42 @@
+group: bandito
+name: st-aposteln-church
+version: "1.0"
+subfolder: 650-religion
+info:
+  summary: St Aposteln church
+  description: |-
+    The Roman church St. Aposteln was built in 1021 AD.
+
+    In World War II parts of the church were destroyed but it was rebuilt in the 60s.
+  author: Bandito
+  website: https://community.simtropolis.com/files/file/3513-st-aposteln-church/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0a3dcd96f96d775fd8b3ce45519d796a-st1.JPG
+    - https://www.simtropolis.com/objects/screens/0002/0a3dcd96f96d775fd8b3ce45519d796a-st2.JPG
+dependencies:
+  - bandito:st-aposteln-church-models
+  - bsc:textures-vol01
+assets:
+  - assetId: bandito-st-aposteln-church
+    exclude:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+group: bandito
+name: st-aposteln-church-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=bandito:st-aposteln-church`
+  author: Bandito
+  website: https://community.simtropolis.com/files/file/3513-st-aposteln-church/
+assets:
+  - assetId: bandito-st-aposteln-church
+    include:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+assetId: bandito-st-aposteln-church
+version: "1.0"
+lastModified: "2004-06-02T16:18:07Z"
+url: https://community.simtropolis.com/files/file/3513-st-aposteln-church/?do=download
