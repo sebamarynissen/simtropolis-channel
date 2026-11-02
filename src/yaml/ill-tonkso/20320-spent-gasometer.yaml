@@ -5,7 +5,7 @@ subfolder: 500-utilities
 info:
   summary: Spent Gasometer
   description: |-
-    This one really needed to be done to be honest, and somebody had to do it. These things are all over the UK sitting there, not being used (some are). Local Landmarks in many a case. So, in the persuit of realism, I made one.
+    This one really needed to be done to be honest, and somebody had to do it. These things are all over the UK sitting there, not being used (some are). Local Landmarks in many a case. So, in the pursuit of realism, I made one.
 
     To sweeten the deal, I gave it a function. I made it a cheap, low output Gas Powered Power Station.
 
@@ -25,9 +25,12 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0009/456b3014a9780ea29d3cb6e3a4224788-gasometer.jpg
 dependencies:
+  - ndex:its-mega-pack-vol14
   - peg:mtp-super-pack
 assets:
   - assetId: ill-tonkso-ndex-its-spent-gasometer
+    exclude:
+      - "\\.SC4Model$"
 
 ---
 assetId: ill-tonkso-ndex-its-spent-gasometer

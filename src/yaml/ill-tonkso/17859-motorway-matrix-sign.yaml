@@ -1,7 +1,7 @@
 group: ill-tonkso
 name: motorway-matrix-sign
 version: "1.0"
-subfolder: 660-parks
+subfolder: 700-transit
 info:
   summary: Motorway Matrix Sign
   description: |-
@@ -12,8 +12,28 @@ info:
   website: https://community.simtropolis.com/files/file/17859-its-motorway-matrix-sign/
   images:
     - https://www.simtropolis.com/objects/screens/0013/6fb7c11be4a76d2900f44975618a09a6-UKMPMS.jpg
+dependencies:
+  - ill-tonkso:motorway-matrix-sign-model
 assets:
   - assetId: ill-tonkso-motorway-matrix-sign
+    exclude:
+      - "/ITS_SignPowerGen-0x5ad0e817_0xb29bda8d_0x30000\\.SC4Model$"
+
+---
+group: ill-tonkso
+name: motorway-matrix-sign-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Sign power box model for `pkg=ill-tonkso:motorway-matrix-sign`, `pkg=ill-tonkso:highway-matrix-sign` and `pkg=ill-tonkso:overhead-motorway-gantrys`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17859-its-motorway-matrix-sign/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6fb7c11be4a76d2900f44975618a09a6-UKMPMS.jpg
+assets:
+  - assetId: ill-tonkso-motorway-matrix-sign
+    include:
+      - "/ITS_SignPowerGen-0x5ad0e817_0xb29bda8d_0x30000\\.SC4Model$"
 
 ---
 assetId: ill-tonkso-motorway-matrix-sign

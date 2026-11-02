@@ -1,7 +1,7 @@
 group: ill-tonkso
 name: highway-matrix-sign
 version: "1.0"
-subfolder: 660-parks
+subfolder: 700-transit
 info:
   summary: Highway Matrix Sign
   description: |-
@@ -13,7 +13,7 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0020/b52f8130e57de4e7877d0f6fa393be76-USMS.jpg
 dependencies:
-  - ill-tonkso:motorway-matrix-sign
+  - ill-tonkso:motorway-matrix-sign-model
 assets:
   - assetId: ill-tonkso-highway-matrix-sign
 

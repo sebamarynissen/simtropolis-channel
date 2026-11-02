@@ -16,9 +16,12 @@ info:
     - https://www.simtropolis.com/objects/screens/0028/fda1dc5b4dd9d03ec833784e34028122-sss.jpg
     - https://www.simtropolis.com/objects/screens/0028/fda1dc5b4dd9d03ec833784e34028122-ggg.jpg
 dependencies:
+  - ndex:its-mega-pack-vol14
   - peg:oww2-bdk-beach-development-kit
 assets:
   - assetId: ill-tonkso-sherwin-park
+    exclude:
+      - "\\.SC4Model$"
 
 ---
 assetId: ill-tonkso-sherwin-park

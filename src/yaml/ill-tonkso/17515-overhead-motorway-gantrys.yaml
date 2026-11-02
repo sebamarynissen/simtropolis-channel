@@ -1,7 +1,7 @@
 group: ill-tonkso
 name: overhead-motorway-gantrys
 version: "1.0"
-subfolder: 660-parks
+subfolder: 700-transit
 info:
   summary: Overhead Motorway Gantrys
   description: |-
@@ -9,7 +9,7 @@ info:
 
     **ITS Overhead Motorway Signs (yes i saw the typo in the STEX upload lol)**
 
-    I created these motorway signs for my region 'Brenntia' to act as eye candy lots on my motoways. The signs are real UK Motorway signs taken from the M1 near Sheffield and placed over a gantry based on those found all over the network. Each lane also has speed limit reduction signs that display alternative speed limits when traffic is backed up, the weather is bad or there has been an accident.
+    I created these motorway signs for my region 'Brenntia' to act as eye candy lots on my motorways. The signs are real UK Motorway signs taken from the M1 near Sheffield and placed over a gantry based on those found all over the network. Each lane also has speed limit reduction signs that display alternative speed limits when traffic is backed up, the weather is bad or there has been an accident.
 
     The set contains two overhanging lots, one for elevated and one for ground, both sets cost £20 to plop and have no status effects on the city, just eye candy.
   author: ILL Tonkso
@@ -17,8 +17,12 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0022/ca86e8e69b1bded0b5f8d00fd5bb34f2-UKMPG.jpg
     - https://www.simtropolis.com/objects/screens/0022/ca86e8e69b1bded0b5f8d00fd5bb34f2-UKMPE.jpg
+dependencies:
+  - ill-tonkso:motorway-matrix-sign-model
 assets:
   - assetId: ill-tonkso-overhead-motorway-gantrys
+    exclude:
+      - "/ITS_SignPowerGen-0x5ad0e817_0xb29bda8d_0x30000\\.SC4Model$"
 
 ---
 assetId: ill-tonkso-overhead-motorway-gantrys
