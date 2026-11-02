@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: brennt-rail-set-small-through-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Brennt Rail Set Small Through Station
+  description: |-
+    **Small Through Station**
+
+    A Small Through Station to add some Variety to your Suburban Rail System.
+
+    Capacity - 10000 (avoids conjestion)  
+    Plop Cost
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14455-brennt-rail-set-small-through-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dcc4bbfcc2f7d9d4ecedbfee832c870f-Brennttrailthru.JPG
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-brennt-rail-set-small-through-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brennt-rail-set-small-through-station
+version: "1.0"
+lastModified: "2005-12-23T13:51:44Z"
+url: https://community.simtropolis.com/files/file/14455-brennt-rail-set-small-through-station/?do=download

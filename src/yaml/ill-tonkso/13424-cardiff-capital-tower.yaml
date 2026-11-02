@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: cardiff-capital-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Cardiff Capital Tower
+  description: |-
+    **Cardiff Capital Tower**
+
+    Built in 1967, the Capital Tower remains the tallest building in the Welsh Capital. The building is 25 stories high and contains 1000 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13424-cardiff-capital-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/943225b560761bcc6330edf97472eda9-CardiffCTDay2.jpg
+    - https://www.simtropolis.com/objects/screens/0017/943225b560761bcc6330edf97472eda9-CardiffCTNight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol06
+assets:
+  - assetId: ill-tonkso-cardiff-capital-tower
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-cardiff-capital-tower
+version: "1.0"
+lastModified: "2005-08-21T14:47:39Z"
+url: https://community.simtropolis.com/files/file/13424-cardiff-capital-tower/?do=download

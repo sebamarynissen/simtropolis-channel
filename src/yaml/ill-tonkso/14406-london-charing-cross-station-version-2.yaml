@@ -1,0 +1,46 @@
+group: ill-tonkso
+name: london-charing-cross-station-version-2
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: London Charing Cross Station Version 2
+  description: |-
+    **Charing Cross Station**
+
+    This is a fixed version addressing a few bugs in version 1. Charing Cross now has no negative effects on Frogfaces Kings Cross Station and has no dependency problems.
+
+    Charing Cross is one of the smaller London Termini, also the most centralised Station in the Metropolis. In 1991 'Embankment Place', a Post Modernist Office Block was added as an air rights development on the roof.
+
+    Lot Size: 7x17  
+    Lot Capacity 50,000 Passenger Rail Users
+
+    Transit Enabling: Rail is transit enabled on the first tiles to allow ground rail to be connected, there are also 3 tiles of transit enabled road at the front of the station.
+
+    dependencies:  
+      
+    ITS Props Inclusive  
+    BCS Texture Mega Pack [https://www.simtropolis.com/STEX/index.cfm?mode=files&filetype=Texture&Str=bsc%20textures%20mega%20pack](https://www.simtropolis.com/stex/index.cfm?mode=files&filetype=Texture&Str=bsc%20textures%20mega%20pack)
+
+    Thanx to SC4\_Miester for the Render.
+
+    Appologies for any problems caused by Version 1.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14406-london-charing-cross-station-version-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/1f98b946cdb4fd7c014c20308a045e27-CharingUploadDay.jpg
+    - https://www.simtropolis.com/objects/screens/0005/1f98b946cdb4fd7c014c20308a045e27-CharingUploadNight.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol10
+assets:
+  - assetId: ill-tonkso-london-charing-cross-station-version-2
+    exclude:
+      - "/ITS_BlackRailings-0x5ad0e817_0x53294ca4_0x30000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-london-charing-cross-station-version-2
+version: "1.0"
+lastModified: "2005-12-18T20:24:35Z"
+url: https://community.simtropolis.com/files/file/14406-london-charing-cross-station-version-2/?do=download

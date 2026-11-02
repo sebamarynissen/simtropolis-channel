@@ -1,0 +1,34 @@
+group: ill-tonkso
+name: naval-yard-bat-and-lot-pack
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Naval Yard BAT and Lot Pack
+  description: |-
+    **Naval Base BAT and LOT Pack**
+
+    Ever wanted to create a cool naval yard to go along woth all the Ship BAT's on the STEX, well now you can. This Pack contains a collection of 7 Lots and 4 BATs to create a modular Naval Base.
+
+    All Lots can be found in the Seaport Menu.
+
+    **Requires Buildings as Props Update from** [**www.SimCity.com**](http://www.simcity.com) **to Function and the RCI Prop Mod**
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12746-naval-yard-bat-and-lot-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/1069e82f95e2b228b0a1f6931eaf30c8-brenntcitynewpaulsgrovedockyardupload.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - ndex:its-mega-pack-vol01
+assets:
+  - assetId: ill-tonkso-naval-yard-bat-and-lot-pack
+    exclude:
+      - "/TonksNavy_ShipTurret-0x5ad0e817_0xd24bce78_0x30000\\.SC4Model$"
+      - "/TONKSNAVY_HANGER-0x5ad0e817_0xf24bbe2c_0x30000\\.SC4Model$"
+      - "/TonksNavy_Drum-0x5ad0e817_0xf24bca16_0x30000\\.SC4Model$"
+      - "/TonksNaval_Crate-0x5ad0e817_0x724bbb2f_0x30000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-naval-yard-bat-and-lot-pack
+version: "1.0"
+lastModified: "2005-06-15T14:03:13Z"
+url: https://community.simtropolis.com/files/file/12746-naval-yard-bat-and-lot-pack/?do=download

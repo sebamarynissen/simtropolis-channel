@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: brennt-rail-set-moor-valley-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Brennt Rail Set Moor Valley Station
+  description: |-
+    **Brennt Rail Set  
+    Moor Valley Station**
+
+    Moor Valley is a small, modern commuter station, capable of a 20,000 commuter capacity (not all at once i would hope) this is perfect for providing a nice friendly place to wait for your morning train. It has an indoor waiting room with ticket vending machine and food vending machines.
+
+    Capacity 20,000  
+    Size 2x5  
+    Found in, yep, you guessed it, the rail menu.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15114-brennt-rail-set-moor-valley-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/f1eb43b57c378b8af8b4d610b5f82567-brenntrailmoorvalley.jpg
+    - https://www.simtropolis.com/objects/screens/0026/f1eb43b57c378b8af8b4d610b5f82567-brenntrailmoorvalley2.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-brennt-rail-set-moor-valley-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brennt-rail-set-moor-valley-station
+version: "1.0"
+lastModified: "2006-02-24T12:28:16Z"
+url: https://community.simtropolis.com/files/file/15114-brennt-rail-set-moor-valley-station/?do=download

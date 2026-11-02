@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: brennt-rail-set-small-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Brennt Rail Set Small Terminus
+  description: |-
+    **Small Terminus**
+
+    Another small Terminus to add some variety to your Suburban Rail.
+
+    Plop Cost
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14453-brennt-rail-set-small-terminus/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ebef59252673c6646821ec07df26f5b9-Brenntrailsetterminus.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-brennt-rail-set-small-terminus
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brennt-rail-set-small-terminus
+version: "1.0"
+lastModified: "2005-12-23T12:20:47Z"
+url: https://community.simtropolis.com/files/file/14453-brennt-rail-set-small-terminus/?do=download

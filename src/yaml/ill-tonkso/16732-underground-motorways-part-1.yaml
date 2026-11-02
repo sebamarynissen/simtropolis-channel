@@ -1,0 +1,61 @@
+group: ill-tonkso
+name: underground-motorways-part-1
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Underground Motorways Part 1
+  description: |-
+    NDEX Motorway Tunnel Entrances Pack 1
+
+    Function
+
+    Converts road traffic to Subway and back, for creating underground Motorways.
+
+    Network
+
+    British LHD Motorways
+
+    Contents
+
+    Pack 1: 1x4 Onramp, 1x4 Offramp
+
+    Models
+
+    Ill Tonkso
+
+    Modding
+
+    Thanks to Ardecillia for the Lots
+
+    Support
+
+    [Here](https://www.simtropolis.com/forum/messageview.cfm?catid=116&threadid=81149&enterthread=y)
+
+    These lots are inspired by the Birmingham Queensway, London Limehouse Link and other inner city motorways.
+
+    Coming Soon:\*
+
+    Pack 2: Rail and GLR Tunnels.
+
+    Pack 3: Avenue and Ground Motorway entrances.
+
+    Pack 4: Curved Entrances.
+
+    \*These are subject to future circumstance.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/16732-ndex-underground-motorways-part-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/abd998346081925a0918d4297960d711-motorwaytunnelday.jpg
+    - https://www.simtropolis.com/objects/screens/0019/abd998346081925a0918d4297960d711-motorwaytunnelnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-underground-motorways-part-1
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-underground-motorways-part-1
+version: "1.0"
+lastModified: "2006-08-25T19:16:41Z"
+url: https://community.simtropolis.com/files/file/16732-ndex-underground-motorways-part-1/?do=download

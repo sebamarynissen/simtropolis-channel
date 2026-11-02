@@ -1,0 +1,34 @@
+group: ill-tonkso
+name: patriots-park
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Patriots Park
+  warning: |-
+    The black variant of the lot has no menu icon (the original file stores it under the wrong group). The missing button picture shifts the following entries in the Education menu. The lot itself works.
+  description: |-
+    **Patriots Park  
+      
+    **Just something i did while i was bored, this small park acts as a small museum providing a small eductational boost compared to other ingame lots. It does this by making your sims talk about British History and they can walk its paths with patriotic pride!  
+      
+    Now im sure most of you allready have it but this needs the [BSC mega texture package](https://www.simtropolis.com/stex/index.cfm?id=12646).  
+      
+    Thanks guys!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15949-patriots-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/295c1260df693e561b699c0450a2904d-patriottonkspark.jpg
+    - https://www.simtropolis.com/objects/screens/0006/295c1260df693e561b699c0450a2904d-patriottonkspark2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-patriots-park
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-patriots-park
+version: "1.0"
+lastModified: "2006-05-14T10:54:13Z"
+url: https://community.simtropolis.com/files/file/15949-patriots-park/?do=download

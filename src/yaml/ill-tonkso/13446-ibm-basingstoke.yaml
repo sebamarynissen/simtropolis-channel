@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: ibm-basingstoke
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: IBM Basingstoke
+  description: |-
+    **IBM Basingstoke**
+
+    This Midrise office building is based of one in Basingstoke England, a small Commercial Town in Hampshire
+
+    This BAT has 351 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13446-ibm-basingstoke/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f3fe34763712d4ddf86597e7d656ba0a-basingstokeday.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f3fe34763712d4ddf86597e7d656ba0a-basingstokenight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol06
+  - ndex:its-mega-pack-vol15
+  - bsc:textures-vol01
+assets:
+  - assetId: ill-tonkso-ibm-basingstoke
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-ibm-basingstoke
+version: "1.0"
+lastModified: "2005-08-24T01:45:22Z"
+url: https://community.simtropolis.com/files/file/13446-ibm-basingstoke/?do=download

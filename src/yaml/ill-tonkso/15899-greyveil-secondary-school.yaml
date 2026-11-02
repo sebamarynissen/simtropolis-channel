@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: greyveil-secondary-school
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Greyveil Secondary School
+  description: |-
+    **Greyveil Secondary School  
+      
+    **Greyveil secondary school is based on a typical 60's 70's UK secondary school. It includes a football pitch and all the needs for ythe average school. Chavs not included.  
+    Plop Cost = £1000
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15899-greyveil-secondary-school/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9695c8970c07e8c9a6b92dbe6fe23c0e-greyveilschool1.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9695c8970c07e8c9a6b92dbe6fe23c0e-greyveilschool.jpg
+dependencies:
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-greyveil-secondary-school
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-greyveil-secondary-school
+version: "1.0"
+lastModified: "2006-05-08T16:24:11Z"
+url: https://community.simtropolis.com/files/file/15899-greyveil-secondary-school/?do=download

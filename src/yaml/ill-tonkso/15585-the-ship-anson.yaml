@@ -1,0 +1,39 @@
+group: ill-tonkso
+name: the-ship-anson
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: The Ship Anson
+  description: |-
+    The Ship Anson is an old Pub in Portmouth England, i went here on my friends 18th birthday so i decided to model it for the game. In Real Life it has a prime location outside Portsmouth Harbour Station on the waterfront near to the Historic Dockyard and Spinnaker Tower.
+
+    Growable CS£ 13 Jobs
+
+    Ploppable Landmark No Jobs
+
+    1x2 Lot
+
+    dependencies:
+
+    [BCS Gascooker Mega Props](https://www.simtropolis.com/stex/index.cfm?id=15312)
+
+    Castle Props Set available at [www.SimCity.com](http://www.simcity.com)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15585-the-ship-anson/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/eba7c76bac3d3b7a524a81584bcbd4b5-ShipAnsonUploadDay.jpg
+    - https://www.simtropolis.com/objects/screens/0026/eba7c76bac3d3b7a524a81584bcbd4b5-ShipAnsonUploadNight.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol08
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: ill-tonkso-the-ship-anson
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-the-ship-anson
+version: "1.0"
+lastModified: "2006-04-08T18:37:49Z"
+url: https://community.simtropolis.com/files/file/15585-the-ship-anson/?do=download
