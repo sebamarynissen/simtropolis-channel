@@ -9,7 +9,7 @@ info:
 
     The lot is IR stage 2 (agro-industry) and Grow only [cheat lotplop to the rescue!]. It can be extended with more vineyards on two sides at your leisure.
 
-    You can check Villavicencio's content on the STEX. The original lot isn't needed, but the textures `stoneClearRustic` and `stoneClearRusticDemie` of the original are installed from `pkg=villavicencio:chateau-beynac-textures`, and the version bundled in this download is not used.
+    You can check Villavicencio's content on the STEX. The original lot isn't needed: the Villavicencio textures `stoneClearRustic` and `stoneClearRusticDemie` are included in this download.
 
     Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is a constant and pleasant reassurance.
 
@@ -41,7 +41,6 @@ dependencies:
   - tamorr:resource
   - tariely:essentials
   - vip:delecto-ploppable-people
-  - villavicencio:chateau-beynac-textures
   - wmp:mega-props-vol01
   - wmp:mega-props-vol02
 assets:
@@ -49,7 +48,6 @@ assets:
     exclude:
       - "/RVT ParkLights2\\.dat$"
       - "/zLightCones_RVTNite\\.dat$"
-      - "/Villavicencio Textures/"
 
 ---
 assetId: tariely-chateau-beynac
