@@ -1,0 +1,52 @@
+group: t-wrecks
+name: hk-estates-medium-wealth
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: HK Estate Pack 1 - additional medium-wealth (R$$) lots
+  description: |-
+    **The Hong Kong / Asia BAT Team presents HK Estate Pack 1 - Additional Medium-Wealth (R$$) Lots**
+
+    BATs created by **bixel**. R$$ modding, lot design & readme by **T Wrecks**.
+
+    This is a pack of additional medium-wealth lots for the already released [HK Estate Pack 1](https://community.simtropolis.com/files/file/16249-hk-estate-pack-1/) by bixel (BATs) and HONG KONG (original R$ lots & modding).
+
+    Similar to the original pack, there are several 4x4 lots with one tower and some 7x5 lots with two towers each. The towers exist in two versions, either in an orthogonal position (parallel to the grid lines, marked "+") or in a diagonal position (angled 45° against the grid, marked "x").
+
+    Hing Tung Estate:
+    - Hing Tung Estate 1 (4x4, single tower +)
+    - Hing Tung Estate 3 (7x5, two towers ++)
+
+    (There is no diagonal Hing Tung tower, hence not all versions exist for this estate.)
+
+    Kwai Chung Estate and Lei Muk Shue Estate, each:
+    - Estate 1 (4x4, single tower +)
+    - Estate 2 (4x4, single tower x)
+    - Estate 3 (7x5, two towers ++)
+    - Estate 4a (7x5, right corner, two towers +x)
+    - Estate 4b (7x5, left corner, two towers x+)
+    - Estate 5 (7x5, two towers xx)
+
+    All lots share the same basic concept and make use of random prop families. Each tower family has been given a lot design that matches the towers.
+
+    All lots are growable (dense residential, stage 8, Euro tileset):
+    - lots with one tower: 4x4, 4,240 R$$ (6,750 R$ when dilapidated)
+    - lots with two towers: 7x5, 8,480 R$$ (12,702 R$ when dilapidated)
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/16345-hk-estates-medium-wealth/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/832605518ccdc147b66a9867f8dadad9-HK-Estates_STEX1.jpg
+    - https://www.simtropolis.com/objects/screens/0015/832605518ccdc147b66a9867f8dadad9-HK-Estates_STEX2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol04
+  - hkabt:bixel-mega-props-vol07
+  - hkabt:bixel-mega-props-vol10
+assets:
+  - assetId: t-wrecks-hk-estates-medium-wealth
+
+---
+assetId: t-wrecks-hk-estates-medium-wealth
+version: "1.1"
+lastModified: "2006-07-07T13:19:02Z"
+url: https://community.simtropolis.com/files/file/16345-hk-estates-medium-wealth/?do=download
