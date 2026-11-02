@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: hydrotech-administration-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: HydroTech Administration Building
+  description: |-
+    **Hydrotech**
+
+    Hydrotech is Brennts top hydrodiplacement and water molocule manipulation corperation, this building was built in the mid 60's to accomadate the administration and marketing teams. This Branch of HydroTech employs 2000 High Wealth CO workers and is ploppable RCI (with transit enableing) and growable.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12690-hydrotech-administration-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e46db38941395108f12feda3e46fbdbf-hydrotechupload.jpg
+dependencies:
+  - nam:textures
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-hydrotech-administration-building
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-hydrotech-administration-building
+version: "1.0"
+lastModified: "2005-06-09T14:37:43Z"
+url: https://community.simtropolis.com/files/file/12690-hydrotech-administration-building/?do=download
