@@ -1,0 +1,135 @@
+group: tyberius06
+name: seaport-project
+version: "1.5"
+subfolder: 400-industrial
+info:
+  summary: 130 retextured and relotted CDK3-SP seaport docks and warehouse lots with new rail yards, transitions and canal lots
+  description: |-
+    **Heretic SeaPort Project**
+
+    **Introduction**
+
+    This project was initially made for my personal use to get a better (for me more satisfying) design in my cities, which idea was inspired by Simmer2's RRW NSB overlay texture set. I like the PEG-CDK3-SP system, and I've been using them since I found them on SimPEG a few years ago. But I don't like the base texture that it uses, and there are some configurations that were also problematic (I really don't like those rail crossings on the inner corner lots, at least not in every situation), so I decided to change them. But if I change one or two lots, I have to change all of them, or the most used ones for the uniformity.
+
+    This upload contains retextured and relotted items from three different creators/teams who made the original sets and additions for the original set, and contains a lot of new additional lots made by me. The remade original contents are the following:
+    - PEG-CDK3-SP Docks, Seaports and Warehouse Docks from Pegasus
+    - Large Warehouse Outer Corner (for the CDK3-SP Raw Warehouse set) from NBVC
+    - Modular Container Port from NBVC
+    - Tamorr CDK3-SP End Lots from Tamorr
+    - Bob's CSK Transfer Dock from Tamorr
+    - CDK3-SP Rail Port WH from Tamorr
+    - Tamorr's CDK3-SP Freight Station from Tamorr
+
+    Altogether with my creations this project contains 130 lots. Apart from the three PEG-CDK3-SP Seaport lots (Container Seaport, Pier One Seaport, Break-Bulk Seaport) these are not overrides, this is kind of a new set based on the original lots. The three mentioned seaport lots override the original PEG seaports, or replace them. Because of that, they are available in the separate optional package `pkg=tyberius06:seaport-project-functional-seaports`. I didn't change the stats of these lots, I only gave them a new item name and the new texture design.
+
+    **IMPORTANT NOTICE:**
+
+    As the PEG-CDK3 Master Seaport Controller mod says, the PEG seaports (which I also use in this upload) are not compatible with any other seaports or seaport mods, including the BSC seaports as well. As @Eggman121 pointed me in the right direction in my development thread over on SC4 Devotion, you can only use each of the seaports: the PEG-CDK3 seaports with the Master Seaport Controller OR the BSC seaports, but you can **NOT** use these together at the same time.
+
+    This package does not install the Master Seaport Controller. To avoid any conflict you should use only ONE set of docks (PEG's or mine), you shouldn't use both at the same time.
+
+    **Credits & special thanks**
+
+    Thank you for:
+    - Simmer2 for the amazing RRW NSB overlay textures, as that was the main inspiration of this project. And for his nice barrier props and other RRW overlays that he made.
+    - Pegasus and the PEGPROD team for their work on the original seaport set, on the models and props.
+    - MGB204/rsc204 for the very nice RRW rail tunnel model.
+    - Tamorr for his prop families and his original ideas about SET endings and canal transitions.
+    - NBVC for making the original Modular Container Port set.
+    - FrankU for his nice prop families.
+    - Kingofsimcity for his work on the SuperSHK parking textures.
+    - CAL and Simgoober for their work on canals.
+    - Girafe and the VIP team for their car props.
+    - Jestarr and the BSC team for the amazing industrial related props, among them trucks and railcars.
+    - And me, Heretic/Tyberius06, for the lot modifications and the new additional seaport lots.
+
+    Thanks for the support, opinions, suggestions and criticism to everybody!
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/31296-heretic-seaport-project/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/57e07c627090b_PEGDocksandAdditions.jpg.67c4340223a35ebaef6952cb9fb7141f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/57e07ca21fbd3_INDYard06.jpg.1cf8f7d3126fc9a2bf3c3b548d027493.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/57e07ca4bdd34_SG-CALcanallock.jpg.2286543ce59714d401871d27fa617b20.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/57e07ecd61087_NBVCOuterCorner.jpg.a95d386ffcd4b0ebbc5421d96d7bedbd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261624726e3_TamorrFreightRailPort.jpg.7ab449ffb862a900e210ee7a2ab18491.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261633a9ed9_CanalWharfandLock.jpg.2683d88b7149b7bd33f16e364bebdda7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5826163fa85aa_Heretic-PEGTransitions.jpg.3fa2f666f54a40c6cb53f0039615d1cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5826164a99a0c_NBVCMCP01.jpg.5ea39312fef0d8d828876050e6897b35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261659a8337_NBVCTrans01.jpg.84bc69f6fb1b995ad5d5f4ee65a59a3e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261667ebe8d_PierOneSeaportBreak-BulkSeaport.jpg.3abe466ddc6dd4a95bca95dc91c27b57.jpg
+dependencies:
+  - simmer2:rrw-nsb-tex
+  - simmer2:rrw-legacy-lottex-mega-texture-pack
+  - simmer2:mega-prop-pack-vol1
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-sp-rail-fleet
+  - peg:cdk3-sp-container-ship-fleet
+  - peg:security-fencing-kit
+  - peg:ppond-water-mill-resource
+  - peg:pponds-canal-kit-resource
+  - peg:ppond-locks-resource
+  - peg:ppond-lift-bridges-resource
+  - mgb204:rrw-to-subway-ramps-resource
+  - tamorr:resource
+  - franku:bnl-essentials
+  - supershk:mega-parking-textures
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - bsc:textures-vol01
+  - bsc:sg-models-transportation
+  - cogeo:logistics-centre-dependency-pack
+  - tyberius06:essentials
+  - magneto:sam-1-override-car-family-props
+assets:
+  - assetId: tyberius06-heretic-seaport-project
+    exclude:
+      - "/ZZZZ_PEG SEAPORTS/"
+
+---
+group: tyberius06
+name: seaport-project-functional-seaports
+version: "1.5"
+subfolder: 700-transit
+info:
+  summary: Retextured functional PEG-CDK3-SP seaports (Container, Pier One and Break-Bulk) that replace the PEG seaports
+  warning: "These are functional seaports that directly replace the game's default seaport and require the Pegasus Seaport Controller. Make sure you have no other seaport controller or functional seaports installed! Failure to do so could prevent you from opening your cities."
+  description: |-
+    The three functional seaports of the Heretic SeaPort Project: the retextured Container Seaport, Pier One Seaport and Break-Bulk Seaport. They override the original PEG-CDK3-SP seaports, or replace them, so they cannot be installed together with `pkg=peg:cdk3-sp-container-seaport`, `pkg=peg:cdk3-sp-break-bulk-seaport` and `pkg=peg:cdk3-sp-pier-seaport`.
+
+    As the PEG-CDK3 Master Seaport Controller mod says, the PEG seaports are not compatible with any other seaports or seaport mods, including the BSC seaports. You can only use each of the seaports: the PEG-CDK3 seaports with the Master Seaport Controller OR the BSC seaports, but you can **NOT** use these together at the same time.
+
+    I didn't change the stats of these lots, I only gave them a new item name and the new texture design.
+
+    This package belongs to `pkg=tyberius06:seaport-project`.
+  conflicts: Conflicts with the original functional PEG seaports `pkg=peg:cdk3-sp-container-seaport`, `pkg=peg:cdk3-sp-break-bulk-seaport` and `pkg=peg:cdk3-sp-pier-seaport`, which have the same IDs.
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/31296-heretic-seaport-project/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/58261667ebe8d_PierOneSeaportBreak-BulkSeaport.jpg.3abe466ddc6dd4a95bca95dc91c27b57.jpg
+dependencies:
+  - peg:cdk3-master-seaport-controller
+  - peg:cdk3-super-pak
+  - peg:cdk3-sp-seaport-super-pak
+  - peg:cdk3-sp-rail-fleet
+  - peg:cdk3-sp-container-ship-fleet
+  - peg:security-fencing-kit
+  - peg:mtp-logging-resource
+  - simmer2:rrw-nsb-tex
+assets:
+  - assetId: tyberius06-heretic-seaport-project
+    include:
+      - "/ZZZZ_PEG SEAPORTS/"
+
+---
+assetId: tyberius06-heretic-seaport-project
+version: "1.5"
+lastModified: "2016-11-11T19:31:15Z"
+url: https://community.simtropolis.com/files/file/31296-heretic-seaport-project/?do=download

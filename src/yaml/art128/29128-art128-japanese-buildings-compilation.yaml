@@ -1,0 +1,95 @@
+group: art128
+name: japanese-buildings-compilation
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 11 buildings inspired by Japanese buildings in various cities
+  description: |-
+    A set of 11 buildings inspired by Japanese buildings in various cities. This upload contains both of Art128's Japanese/Tokyo Building sets:
+
+    - Art128 Japanese (Tokyo) Buildings Volume 1
+    - Art128 Japanese Buildings 2
+
+    They come in growable and two different plop versions: Landmark and Commercial. They can be found at the top and bottom of the landmark menu or, if you use the Submenus DLL mod (`pkg=memo:submenus-dll`), the ploppable with jobs lots can be found in the Commercial Zoning menu.
+
+    - Office Building 1 - Chuo, Tokyo
+    - [Toraya](https://en.wikipedia.org/wiki/Toraya_Confectionery) Building - Ginza, Tokyo
+    - [Animate](https://en.wikipedia.org/wiki/Animate_(retailer)) Building - Ikebukuro, Tokyo
+    - Office Building 4 - Ikebukuro, Tokyo
+    - Digital Art Building - Ikebukuro, Tokyo
+    - Tokyo Building 6 - Tokyo, Japan
+    - Kitayama - Kyoto, Japan
+    - Murakami Office - Murakami, Japan
+    - Nagaoka-Tottori Offices - Nagaoka, Tottori, Japan
+    - Toyama Office - Toyama, Japan
+    - **Dantes Tower Machiya** - brand new, previously unreleased building
+
+    All buildings are in HD and Dark Nite, therefore the use of SimFox's Day and Nite Mod (`pkg=simfox:day-and-nite-mod`) is strongly suggested. You can choose between the Maxis Night and Dark Nite setup with the `nightmode` variant.
+
+    All the models and the initial lotting were created by Art128 and the modding by noahclem. The revision of the lotting and modding and the compilation was assembled by Tyberius06.
+
+    **Thanks**
+
+    A big thanks goes to my team mates, my friends who have supported me during the creation process of these buildings, and the readers on the forums who have given their thoughts about the buildings.
+
+    A special thanks goes to noahclem who did the whole modding phase of these buildings. Without his great help there would be no upload of the highest quality possible.
+
+    I hope you'll like these buildings!
+
+    -art128
+  author: art128
+  websites:
+    - https://community.simtropolis.com/files/file/29128-art128-japanese-buildings-compilation/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/291-art128-japanese-buildings-compilation
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/6068b4cb155f543b3713ece86b761ba8-buildingsp1d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/7d14f13ee01c21138a304d1b071e102f-buildingsp1n.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/54f9384d28f45438eb4f76cd60473331-buildingsp2d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/f18b1cba985fe644a67a1919ec7f811c-buildingsp2n.jpg
+dependencies:
+  - art128:japanese-buildings-compilation-model
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:textures-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - art128:pre-2000-car-props-pack
+  - jim:carprop-pack
+assets:
+  - assetId: art128-japanese-buildings-compilation
+    exclude:
+      - "\\.SC4Model$"
+      - "\\.dat$"
+
+---
+group: art128
+name: japanese-buildings-compilation-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models for `pkg=art128:japanese-buildings-compilation`
+  author: art128
+  websites:
+    - https://community.simtropolis.com/files/file/29128-art128-japanese-buildings-compilation/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/291-art128-japanese-buildings-compilation
+# The models are HD and only work properly with Dark Nite.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: art128-japanese-buildings-compilation
+        include:
+          - "\\.SC4Model$"
+          - "\\.dat$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: art128-japanese-buildings-compilation
+        include:
+          - "\\.SC4Model$"
+          - "\\.dat$"
+
+---
+assetId: art128-japanese-buildings-compilation
+version: "1.0"
+lastModified: "2026-06-04T16:31:48Z"
+url: https://community.simtropolis.com/files/file/29128-art128-japanese-buildings-compilation/?do=download

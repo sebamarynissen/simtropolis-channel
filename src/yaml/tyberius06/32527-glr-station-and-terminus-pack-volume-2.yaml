@@ -1,0 +1,76 @@
+group: tyberius06
+name: glr-station-and-terminus-pack-volume-2
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Six GLR terminus and pass-through stations, combined with bus stops
+  description: |-
+    Let me introduce you to the **Heretic GLR Station and Terminus Pack volume 2**.
+    With the second volume (out of 4) I bring SIX new GLR terminuses and stations to your cities. These lots have different capacities, but all of them function as a GLR station and, in addition, as a bus station and/or subway station.
+
+    **List of items**
+    - 5x2 Brian55 Pass Through GLR Station 2x and bus stop with 8 jobs and 50000 passenger capacity.
+    - 5x3 B22rian Pass Through GLR Station 3x and bus stop with 12 jobs and 70000 passenger capacity.
+    - 5x1 Kitsune Suburban Low Wealth GLR Terminus with 5 jobs and 15000 passenger capacity.
+    - 5x1 Kitsune Suburban Low Wealth GLR Pass Through and bus stop with 3 jobs and 25000 passenger capacity.
+    - 6x1 Redfox84 Suburban Low Wealth GLR Terminus Island-type and bus stop with 5 jobs and 27000 passenger capacity.
+    - 7x1 Redfox84 Suburban Low Wealth GLR Pass Through Island-type with 3 jobs and 20000 passenger capacity.
+
+    The split GLR track paths are available for right-hand and left-hand drive. Choose the `driveside` variant that matches your game.
+
+    **Credits & special thanks**
+
+    Thanks everybody for the help and support!
+    - **Nick (Simmer2)** - for awesome new props and models, some of them were made on request, and for making his two Mega Prop Packs, which make listing tons of dependencies easier.
+    - **Robin (MGB204/rsc204)** - GLR path files (RHD and LHD), texture overlays for the Sandstone GLR version.
+    - **Brian (b22rian)** - for testing very thoroughly all the stations and for the constant support.
+
+    And of course all the great creators (art128, ILL Tonkso, Nilo7, Glenni, SimCity4IE, gshmails and cogeo) of the models I used for this project, who gave the inspiration to make these stations.
+
+    Have fun and enjoy!
+
+    - Tyberius06
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/32527-heretic-glr-station-and-terminus-pack-volume-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5baf5dda5b0f3_HereticGLRStationandTerminusPackv.2-l.jpg.fbe6497541b4de812dde3f7de8b06f52.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5baf5e1abd5ee_HereticGLRStationandTerminusPackv.2-r.jpg.21de465ea9b2a2c8db478e315aec8a7e.jpg
+# The lots Kitsune LD GLR Terminus and Redfox84 LD GLR Terminus Island-type use the building-as-props exemplar of the Cogeo GLR Wheel Stop (0xd8f11522),
+# which is only included in pack v.1, so the resources of that pack are a dependency. Its model is in cogeo:glr-stations-and-hubs-model.
+dependencies:
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol05
+  - simmer2:mega-prop-pack-vol1
+  - simmer2:mega-prop-pack-vol2
+  - reddonquixote:prop-pack
+  - bsc:vip-girafe-french-road-signs
+  - bnl:dutch-prop-pack
+  - tamorr:resource
+  - tyberius06:essentials
+  - nam:network-addon-mod
+  - namspopof:nams-mega-props
+  - simmer2:essentials
+  - cogeo:glr-stations-and-hubs-model
+  - tyberius06:glr-station-and-terminus-pack-v1-resources
+  - gshmails:glr-avenue-station-1-model
+  - gshmails:glr-station-1-model
+  - gshmails:glr-station-2-model
+  - gshmails:glr-station-3-model
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: tyberius06-heretic-glr-station-and-terminus-pack-volume-2
+        exclude:
+          - "/z____MGB Mods/"
+          - "/zMGBs Split GLR tracks LHD paths\\.zip$"
+  - variant: { driveside: left }
+    assets:
+      - assetId: tyberius06-heretic-glr-station-and-terminus-pack-volume-2
+        exclude:
+          - "/z____MGB Mods/"
+
+---
+assetId: tyberius06-heretic-glr-station-and-terminus-pack-volume-2
+version: "1.0"
+lastModified: "2018-09-29T11:19:28Z"
+url: https://community.simtropolis.com/files/file/32527-heretic-glr-station-and-terminus-pack-volume-2/?do=download
