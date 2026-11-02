@@ -1,6 +1,6 @@
 group: "6459978"
 name: newbury-apartments
-version: "1.0"
+version: "1.0-1"
 subfolder: 200-residential
 info:
   summary: NewBury Apartments
@@ -61,8 +61,25 @@ info:
     - https://www.simtropolis.com/objects/screens/0015/83657e3f02a08f558a11f386913bd714-newnewburybynight.jpg
 assets:
   - assetId: 6459978-newbury-apartments-bsc
+    exclude:
+      - "\\.SC4Model$"
 dependencies:
   - bsc:textures-vol01
+  - 6459978:newbury-apartments-model
+
+---
+group: "6459978"
+name: newbury-apartments-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=6459978:newbury-apartments`
+  author: "6459978."
+  website: https://community.simtropolis.com/files/file/4349-newbury-apartments-bsc/
+assets:
+  - assetId: 6459978-newbury-apartments-bsc
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: 6459978-newbury-apartments-bsc

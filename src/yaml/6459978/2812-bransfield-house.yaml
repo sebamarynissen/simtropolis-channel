@@ -1,6 +1,6 @@
 group: "6459978"
 name: bransfield-house
-version: "1.0"
+version: "1.0-1"
 subfolder: 200-residential
 info:
   summary: Bransfield House
@@ -19,8 +19,26 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0025/df29158c34916071a6aad04dc95d6d0d-branslot day.JPG
     - https://www.simtropolis.com/objects/screens/0025/df29158c34916071a6aad04dc95d6d0d-branslot night.JPG
+dependencies:
+  - 6459978:bransfield-house-model
 assets:
   - assetId: 6459978-bransfield-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: "6459978"
+name: bransfield-house-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=6459978:bransfield-house`
+  author: "6459978."
+  website: https://community.simtropolis.com/files/file/2812-bransfield-house/
+assets:
+  - assetId: 6459978-bransfield-house
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: 6459978-bransfield-house

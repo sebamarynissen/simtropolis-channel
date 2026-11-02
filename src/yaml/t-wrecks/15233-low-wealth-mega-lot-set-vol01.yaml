@@ -1,0 +1,48 @@
+group: t-wrecks
+name: low-wealth-mega-lot-set-vol01
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Low Wealth MEGA Lot Set Vol01
+  description: |-
+    There have been quite a few mega lots already, but I personally feel that many of them had one or two disadvantages: They often looked too static, somehow a bit unrealistic. The other downside was that many were a pretty wild mix of buildings and thus required a truckload of dependencies.
+
+    This set follows a different approach: Instead of attempting the recreation of entire mixed city blocks, it aims at copying the look of realistic, homogeneous complexes, using several lot configurations for few, easy-to-remember lot sizes and limiting dependency use to an absolute minimum.
+
+    This is a set of big residential lots for poor sims, so that you can recreate complexes filled with generic council flat buildings. It uses buildings BATted by 6459978 and two basic lot sizes, 8x4 and 8x8 (both dense residential). For each lot size, there is a variety of configurations.
+
+    You will find 8 lots included in this set, ranging from 1,400 to 10,400 R$ occupants. Apart from the required BATs (two downloads), there are NO EXTERNAL DEPENDENCIES.
+
+    The lots will grow in stages 6 to 8 in NY, Houston and Euro tilesets.
+
+    A detailed readme with lot sizes, occupant numbers, and links to everything relevant is included. For more info and screenshots, please check [my thread](https://www.simtropolis.com/forum/messageview.cfm?catid=121&threadid=70737&enterthread=y).
+
+    **UPDATE:** Links in the enclosed readme should be fixed now; and for all you guys who already downloaded, I will list the new dependency links here:
+
+    [Bransfield House](https://www.simtropolis.com/stex/details.cfm?id=2812)
+
+    [Newbury Apartments](https://www.simtropolis.com/stex/details.cfm?id=4349)
+
+    These are the two BATs you need for these lots. My first MEGA lot of the Bransfield House building will go well with this set, here it is:
+
+    [Bransfield House revisited](https://www.simtropolis.com/stex/details.cfm?id=14017)
+
+    I also updated the STEX pics; the old ones were horrible quality.
+
+    Gotta get the hang of this uploading thing again, lol... \*blush\*
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/15233-low-wealth-mega-lot-set-vol01/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/089a4d43fae5c10d46e93ca52a200cc2-LowWealthMEGA1c_STEX.jpg
+    - https://www.simtropolis.com/objects/screens/0002/089a4d43fae5c10d46e93ca52a200cc2-LowWealthMEGA1d_STEX.jpg
+dependencies:
+  - 6459978:bransfield-house-model
+  - 6459978:newbury-apartments-model
+assets:
+  - assetId: t-wrecks-low-wealth-mega-lot-set-vol01
+
+---
+assetId: t-wrecks-low-wealth-mega-lot-set-vol01
+version: "1.0"
+lastModified: "2006-03-12T06:08:29Z"
+url: https://community.simtropolis.com/files/file/15233-low-wealth-mega-lot-set-vol01/?do=download
