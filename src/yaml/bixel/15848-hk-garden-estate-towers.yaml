@@ -1,0 +1,66 @@
+group: bixel
+name: hk-garden-estate-towers
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Garden Estate Towers
+  description: |-
+    * * *
+
+    # The Hong Kong / Asia BAT Team
+
+    * * *
+
+    presents
+
+    ## HK Garden Estate Towers
+
+    BATs created by **bixel**  
+    Modding, lot design & readme by **T Wrecks**  
+    [Check out the Hong Kong /Asia BAT Team thread at Simtropolis](https://community.simtropolis.com/forums/topic/5002-hong-kong-asia-bat-team/)
+
+    * * *
+
+    ## Introduction / Overview
+
+    Finally it is out - probably one of the most radical lot sets ever to appear on the STEX in one download. This file contains no less than 15 low-wealth and 17 medium-wealth lots, based on a slew of different combinations of 5 residential towers, ranging from compact single-tower lots to large complexes with 5 or 6 towers.
+
+    The objective of this set was to enable SimMayors to recreate those huge, multi-tower residential complexes that can be found in Hong Kong. This time, however, the approach was different in two respects: Firstly, instead of combining all buildings on a massive mega lot, this set is fully modular (see included example screenshots) and can be used to compose a tower complex of virtually any size and shape by means of smaller individual lots with lot sizes ranging from 2x3 to 6x6. Secondly, this time no particular real-life complex was recreated accurately. Instead, these towers look rather generic and are only based on floor plans of actual HK residential buildings and inspired by existing estates, but otherwise ficticious.
+
+    Another interesting aspect is that one of the tower models features custom LODs which allowed the roof of the base section to be filled with props.
+
+    Since the towers look so generic, they can also serve as both R$ and R$$ buildings - the choice is up to you!
+
+    * * *
+
+    ## Included Lots / Dependencies
+
+    First of all, everything you need is included in this download, i.e. there are **no dependencies**!
+
+    The following tables list all included lots together with their name, their tower configuration, lot size, growth stage, and occupant number. This time there are no exact stats listings, as this would result in a table that would be several screens in width and height. However, you can rest assured that the stats and values have been chosen carefully and will not stray too far from in-game buildings.
+
+    You will also see that all lots are depicted on separate screenshots (yes, for both wealth levels!) so that you can browse through the screenshots comfortably and decide which lots you are going to use and which ones you don't like. Any combination is possible; you can choose only one single lot, some of one wealth level, some of both wealth levels, or simply all the 32 of them.
+
+    Note: Numbers 2a and 2b are only available as R$$.
+  author: bixel
+  website: https://community.simtropolis.com/files/file/15848-hk-garden-estate-towers/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/14f38e51566d5e17adaa897c2a1b2d29-Garden%20Estate%20Real-Life%20Inspiration.jpg
+    - https://www.simtropolis.com/objects/screens/0003/14f38e51566d5e17adaa897c2a1b2d29-Garden%20Estate%20Example%20Complex%20CloseUp2.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol05
+assets:
+  - assetId: bixel-hk-garden-estate-towers
+    exclude:
+      - "/Garden Estate Towers as Props\\.dat$"
+      - "/Garden Estate Tower NoBase_Right\\.SC4Model$"
+      - "/Garden Estate Tower NoBase_Left\\.SC4Model$"
+      - "/Garden Estate Tower 4\\.SC4Model$"
+      - "/Garden Estate Tower 2_Right\\.SC4Model$"
+      - "/Garden Estate Tower 2_Left\\.SC4Model$"
+
+---
+assetId: bixel-hk-garden-estate-towers
+version: "1.0"
+lastModified: "2006-05-04T20:21:11Z"
+url: https://community.simtropolis.com/files/file/15848-hk-garden-estate-towers/?do=download
