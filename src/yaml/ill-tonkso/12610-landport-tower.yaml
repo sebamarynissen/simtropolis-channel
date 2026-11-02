@@ -1,0 +1,26 @@
+group: ill-tonkso
+name: landport-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Landport Tower
+  description: |-
+    **Landport Tower**
+
+    This 26 Story Office Tower is designed to fit in with the small skylines and fits on just a 2x2 lot. It contains 1000 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12610-landport-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/16a04dac3a2470279e9eab24b0ec7da9-Landportpreviewforupload.jpg
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-landport-tower
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-landport-tower
+version: "1.0"
+lastModified: "2005-05-28T17:45:39Z"
+url: https://community.simtropolis.com/files/file/12610-landport-tower/?do=download
