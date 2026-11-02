@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: updates-suburban-college
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Updates Suburban College
+  description: |-
+    **Suburban College V2**
+
+    A Remake of one of my Early BAT's.The Textures have been toned down and weathered. The Capacity has been set to 6000 and better props have been added.
+
+    4x4 Lot
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13196-updates-suburban-college/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/56b983d609a4186728a075631799e676-DayITSSuburbanCollege.JPG
+    - https://www.simtropolis.com/objects/screens/0010/56b983d609a4186728a075631799e676-NightITSSuburbanCollege.JPG
+dependencies:
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-updates-suburban-college
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-updates-suburban-college
+version: "1.0"
+lastModified: "2005-07-29T16:24:52Z"
+url: https://community.simtropolis.com/files/file/13196-updates-suburban-college/?do=download
