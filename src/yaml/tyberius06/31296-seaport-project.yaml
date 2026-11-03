@@ -124,6 +124,10 @@ dependencies:
   - peg:security-fencing-kit
   - peg:mtp-logging-resource
   - simmer2:rrw-nsb-tex
+conflicting:
+  - peg:cdk3-sp-container-seaport
+  - peg:cdk3-sp-break-bulk-seaport
+  - peg:cdk3-sp-pier-seaport
 assets:
   - assetId: tyberius06-heretic-seaport-project
     include:
