@@ -1,0 +1,126 @@
+group: bixel
+name: hk-cayman-rise
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Cayman Rise
+  description: |-
+    * * *
+
+    **HKABT TEAM**
+
+    * * *
+
+    presents
+
+    **The Cayman Rise, Hong Kong, Kennedy Town**
+
+    BAT created by **bixel**  
+    Modding & lot design by **bixel**  
+    readme by **bixel**  
+    [Check out Bixel's HK Buildings at Simtropolis](../../../forum/messageview.cfm?catid=153&threadid=79751&enterthread=y&STARTPAGE=1)
+
+    * * *
+
+    **Introduction / Overview**
+
+    **Cayman Rise** sits at the foot of Mount Davis overlooking other buildings in Kennedy Town, this vantage point provides fantastic panoramic sea views. It also boasts a landscaped garden, which provides a rare escape in Hong Kong.
+
+    Ronald Lu and Partners were brought onto the project after the Kwan and Associates-designed towers had been topped out, their involvement being to provide interior design and finish off the project.
+
+    Architect: Ronald Lu & Partners, Simon Kwan & Associates Limited.
+
+    The following lots are included:
+
+    -   Growable R$$
+
+    **Dependencies**
+
+    Shouldn't be any..
+
+    * * *
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: The Cayman Rise**
+
+    **Parameter**
+
+    **Growable R$$**
+
+    Capacity:
+
+    4,500 R$$  
+    (4,900 R$ when dilapidated)
+
+    Lot Size /
+
+    5x8
+
+    Zone Type:
+
+    Dense Residential
+
+    Tileset(s):
+
+    Euro
+
+    Worth / Bulldoze Cost:
+
+    ???
+
+    Flammability:
+
+    40 / Stage 5
+
+    Power consumed:
+
+    148 MWh/month
+
+    Water consumed:
+
+    150 gallons/month
+
+    Air pollution:
+
+    20 over 5 tiles
+
+    Water pollution:
+
+    20 over 6 tiles
+
+    Garbage generated:
+
+    60 tons/month
+
+    **Installation**
+
+    Simply unzip the content of this archive into your plugins folder and delete all the lots you don't want.
+
+    It is generally recommendable to unzip the entire download into a backup folder first and then copy only those files that you want into a sub-folder inside your main plugins folder. This procedure makes it easier to keep full control and leave out files that are not required in game, such as this readme and the screenshots.
+
+    In case you are looking for any ***.SC4desc*** files, these have been merged with the associated lot files to reduce clutter. Due to the individual names of each lot, I needed one desc per lot anyway, so this method suggested itself.
+
+    To uninstall a version you don't like, just delete the lot file from your plugins folder.
+
+    **IMPORTANT:** If any instance of the lot in question has already grown in one or more cities, first bulldoze all instances of that version in all your cities, then save the cities and exit. **Now** you can safely remove the version without running any risk to experience crashes or any other inconvenience.
+
+    Bixel on behalf of HKABT  
+    Thursday, June 18, 2009
+  author: bixel
+  website: https://community.simtropolis.com/files/file/21877-hk-cayman-rise/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/dfc8d8a71681be368d54d909b9457026-CayD.jpg
+    - https://www.simtropolis.com/objects/screens/0025/dfc8d8a71681be368d54d909b9457026-CayN.jpg
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: bixel-hk-cayman-rise
+
+---
+assetId: bixel-hk-cayman-rise
+version: "1.0"
+lastModified: "2009-06-18T05:30:42Z"
+url: https://community.simtropolis.com/files/file/21877-hk-cayman-rise/?do=download
