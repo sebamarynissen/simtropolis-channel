@@ -1,6 +1,6 @@
 group: andisart
 name: avenue-roundabout-megapack
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: 700-transit
 info:
   summary: Avenue Roundabout Megapack
@@ -17,6 +17,8 @@ info:
     In the download section you can choose between DarkNite (requires [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)) or the standard Maxis night, as well as between righthand-driving (standard) or lefthand-driving.
 
     IMPORTANT:  you can only use **ONE** version at a time (DarkNite or Maxis night).
+
+    These avenue roundabouts only function with the Network Addon Mod. It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
 
     \----------------------------------------------------------------
 
@@ -58,8 +60,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_02/Index-Page-2.jpg.119a4f9a6d6faf0357b51da8908c7c96.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_02/nightlights_Index-1.jpg.1dd8e58b12cee9195cda8af3c5018429.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_02/nightlights_Index-2.jpg.21ed34a5bd69e66d876fb209f90439e6.jpg
-dependencies:
-  - nam:network-addon-mod
 variants:
   - variant: { nightmode: standard }
     assets:
