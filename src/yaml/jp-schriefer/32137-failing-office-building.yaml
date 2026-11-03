@@ -36,14 +36,23 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_02/989d561f7888f446903216e2156756ae5948b4b9.png.b445329310346f3fe5553a051891123c.png
 dependencies:
   - jp-schriefer:failing-office-building-model
-# The lots are identical in the Maxis Night and Dark Nite downloads, only the model differs.
-assets:
-  - assetId: jp-schriefer-failing-office-building-commercial-mn
-    exclude:
-      - "\\.SC4Model$"
-  - assetId: jp-schriefer-failing-office-building-landmark-mn
-    exclude:
-      - "\\.SC4Model$"
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-failing-office-building-commercial-mn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-failing-office-building-landmark-mn
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: jp-schriefer-failing-office-building-commercial-dn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-failing-office-building-landmark-dn
+        exclude:
+          - "\\.SC4Model$"
 
 ---
 group: jp-schriefer
@@ -80,6 +89,12 @@ assetId: jp-schriefer-failing-office-building-commercial-mn
 version: "1.0"
 lastModified: "2018-02-19T03:59:11Z"
 url: https://community.simtropolis.com/files/file/32137-failing-office-building/?do=download&r=170181
+
+---
+assetId: jp-schriefer-failing-office-building-landmark-dn
+version: "1.0"
+lastModified: "2018-02-19T03:59:11Z"
+url: https://community.simtropolis.com/files/file/32137-failing-office-building/?do=download&r=170180
 
 ---
 assetId: jp-schriefer-failing-office-building-commercial-dn
