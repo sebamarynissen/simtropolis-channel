@@ -21,8 +21,8 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0022/c59eb8292b8630c1f78e538341eef934-Shinjuku%20WEST1.jpg
     - https://www.simtropolis.com/objects/screens/0022/c59eb8292b8630c1f78e538341eef934-Shinjuku%20WEST.jpg
-# TODO: the lot uses the textures 0xc9000020 and 0xc9000050, whose package is still unknown (formerly LEX 638)
 dependencies:
+  - bsc:textures-vol02
   - tepodon:tky-shinjuku-station-east-wing-model
 assets:
   - assetId: tepodon-tky-shinjuku-station-east-wing

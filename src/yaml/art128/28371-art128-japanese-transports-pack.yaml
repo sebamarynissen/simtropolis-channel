@@ -44,9 +44,9 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/Mitakiuploadleft_zpse03a780c.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/Mitakiuploadright_zpsa4883e56.jpg
 dependencies:
-  - art128:japanese-transports-pack-model
+  - art128:japanese-transports-pack-models
   - plundere:catenary-essentials
-  - plundere:rail-catenary-mod-v3-hd-version-resources
+  - plundere:rail-catenary-mod-resources
   - uki-sim:japanese-style-catenary-mod-model
   - porkissimo:jenx-porkie-expanded-porkie-props
   - neko:prop-set-vol02
@@ -70,11 +70,11 @@ variants:
 
 ---
 group: art128
-name: japanese-transports-pack-model
+name: japanese-transports-pack-models
 version: "2.0"
 subfolder: 110-resources
 info:
-  summary: Model dependency for `pkg=art128:japanese-transports-pack`
+  summary: Models for `pkg=art128:japanese-transports-pack`
   author: art128
   websites:
     - https://community.simtropolis.com/files/file/28371-art128-japanese-transports-pack/

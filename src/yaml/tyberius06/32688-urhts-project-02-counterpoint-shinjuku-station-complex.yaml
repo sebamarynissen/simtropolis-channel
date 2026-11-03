@@ -82,7 +82,7 @@ variants:
           - "/PLOP_10x15_Heretic Shinjuku Station East v2_4959d7a0\\.SC4Lot$"
   - variant: { tyberius06:urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: japanese }
     dependencies:
-      - art128:japanese-buildings-compilation-model
+      - art128:japanese-buildings-compilation-models
       - kei-jpn:mizuho-bank-branch-model
       - kei-jpn:daito-new-city-model
     assets:
@@ -93,7 +93,7 @@ variants:
     dependencies:
       - ndex:its-mega-pack-vol05
       - jp-schriefer:failing-office-building-model
-      - art128:japanese-buildings-compilation-model
+      - art128:japanese-buildings-compilation-models
       - kei-jpn:mizuho-bank-branch-model
       - kei-jpn:daito-new-city-model
     assets:
