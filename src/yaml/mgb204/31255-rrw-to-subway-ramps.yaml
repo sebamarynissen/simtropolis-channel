@@ -27,6 +27,12 @@ info:
 
     Otherwise the lots are neutral, causing no pollution, requiring no power/road access and providing no jobs.
 
+    **Information for Mac users**
+
+    A method has been found that allows for Nite Lighting to work with the Mac version of SC4. However, these modifications are not ideal as they present a greater potential for conflicting IDs, so it is not recommended to use them unless you are running SC4 on Mac. Those who are though can replace one file from the regular download with a specially modified Mac version: `RRW Ramp_Resource.dat` should be removed, and the special MacNite version `RRW Ramp_Resource_MacNite.dat` used instead. (Message added by rsc204.)
+
+    The MacNite file was attached to the original upload page, but that attachment is no longer available, so it cannot be installed with this package.
+
     These ramps only function with the Real Railway network of the Network Addon Mod (`pkg=nam:real-railway`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: rsc204
   website: https://community.simtropolis.com/files/file/31255-mgb-rrw-to-subway-ramps/
