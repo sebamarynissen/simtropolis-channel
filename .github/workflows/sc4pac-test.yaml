@@ -1,4 +1,5 @@
 name: sc4pac test
+run-name: "sc4pac test: ${{ github.event.workflow_run.display_title }}"
 
 on:
   workflow_run:
