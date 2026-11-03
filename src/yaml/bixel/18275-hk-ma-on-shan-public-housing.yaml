@@ -1,0 +1,29 @@
+group: bixel
+name: hk-ma-on-shan-public-housing
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Ma On Shan Public Housing
+  description: |-
+    Based on real HK Public Housing in Ma On Shan Hong Kong. So I got a new computer and not everything is working right...my WordPad doesn't edit html files anymore so I cant just edit on of T Wreck's cool readme files. Also...since i reinstalled SC4, I have yet to get it patched to see the nightwindows...so no screenies there srry. But trust me its ther!
+
+    Anyhoo. Here's what you want to know. Its R$ 7x6 Lot, High Denisty - Euro Tileset only! LM included for fun. oh and a capacity of 7,600 sims. It grows easy, took me only 2 min to grow one.
+
+    thanks!
+  author: bixel
+  website: https://community.simtropolis.com/files/file/18275-hk-ma-on-shan-public-housing/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/8815061329fc25356dbc4505424c7211-day1.JPG
+    - https://www.simtropolis.com/objects/screens/0015/8815061329fc25356dbc4505424c7211-day2.JPG
+dependencies:
+  - hkabt:bixel-mega-props-vol13
+assets:
+  - assetId: bixel-hk-ma-on-shan-public-housing
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-ma-on-shan-public-housing
+version: "1.0"
+lastModified: "2007-06-09T19:22:20Z"
+url: https://community.simtropolis.com/files/file/18275-hk-ma-on-shan-public-housing/?do=download
