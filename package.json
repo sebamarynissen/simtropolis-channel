@@ -27,7 +27,6 @@
     "plop": "node --env-file=.env scripts/plop-all.js",
     "list": "node scripts/list-dependencies.js",
     "fetch": "gh workflow run add-packages.yaml",
-    "deploy": "gh workflow run deploy.yaml",
     "lint": "eslint actions/**/*.js",
     "lint:yaml": "node scripts/lint-yaml.js",
     "test": "mocha actions/fetch/test",

@@ -18,6 +18,10 @@ ignore-version-mismatches:
 # Set this to true to allow writing descriptions from a first-person perspective.
 allow-ego-perspective: true
 
+# Set this to true to enforce lowercase file names:
+lowercase-file-names: false
+
+# For downloading DLLs from GitHub, define a mapping between groups and GH accounts.
 group-to-github:
   - null-45: "0xC0000054"
   - simmaster07: nsgomez
@@ -28,3 +32,21 @@ group-to-github:
   - cam: UlisseWolf
   - rj-simas: UncleUncleRj
   - aspct: aspctt
+
+# Additional global variant IDs that are not used by the Main channel
+global-variants: []
+
+# Variant IDs which intentionally have just a single choice
+single-choice-variants: []
+
+# Set this to false to guard against package identifiers of the form `group:group-name`, but prefer `group:name` instead.
+ignore-group-prefixes-in-name: true
+# Or add an explicit list of packages for which the check is skipped. This implies false for all other packages.
+# ignore-group-prefixes-in-name: []
+
+# Some checks detect e.g. if two variants of a package unintentionally install the same files (i.e. the include patterns of the two variants are not unique).
+# In case of unresolvable false positives, add their package names here.
+ignore-nonunique-includes: []
+
+# Packages or asset IDs that are allowed to be redefined even though they already exist in another channel
+allow-remote-overwriting: []
