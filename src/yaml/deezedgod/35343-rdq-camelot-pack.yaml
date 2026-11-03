@@ -13,6 +13,8 @@ info:
 
     Both DarkNite and Maxis Night versions are supported.
 
+    The lots of the `CAM` variant are meant to be used with the Colossus Addon Mod (`pkg=cam:colossus-addon-mod`). It is not installed as a dependency, so that you can use either the V2 or the V3 CAM.
+
     If you want to plop the growables, use the BuildingPlop cheat and look for exemplars starting at `RDQ_` (requires ExtraCheats.dll). Keep in mind that residential lots plopped with this method will not function properly.
 
     **Stats**
@@ -78,7 +80,6 @@ variants:
   - variant: { CAM: "no" }
   - variant: { CAM: "yes" }
     dependencies:
-      - cam:colossus-addon-mod
       - nam:textures
       - reddonquixote:101-collins-street-model
       - reddonquixote:120-collins-street
