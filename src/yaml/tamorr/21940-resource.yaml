@@ -11,7 +11,7 @@ info:
 
     **RLM RailPropsNTextures** is all of the stuff Becca has made for me to go along with certain lots. She has given me permission to use and upload this with my material.
 
-    The family props reference props from several other packs: the PEG barge, rail fleet and CDK3 packs and the BSC SG props, as well as some Maxis props (pallets, stacks of pallets and pallet cargo props, Amil, Apark, Aper and PZFlora props, industrial vehicles and the forklift). Becca's stuff in the separate file has no dependencies, as that is the resources she made for me.
+    The family props reference props from several other packs: the PEG barge, rail fleet and CDK3 packs and the BSC SG props, as well as some Maxis props (pallets, stacks of pallets and pallet cargo props, Amil, Apark, Aper and PZFlora props, industrial vehicles and the forklift). Becca's stuff in the separate file has no dependencies, as that is the resources she made for me. These other packs are not installed as dependencies of this package: only the lots that really use these props need them, so the packages with those lots list them.
 
     **Credits**
 
@@ -21,12 +21,6 @@ info:
   website: https://community.simtropolis.com/files/file/21940-tamorrs-resource/
   images:
     - https://www.simtropolis.com/objects/screens/0005/231fdc380db0d751537395cf1c13f11f-Tamorrs_Resource_ST.JPG
-dependencies:
-  - peg:csk-barges-prop-pack
-  - peg:cdk3-sp-rail-fleet
-  - peg:cdk3-super-pak
-  - peg:cdk3-sp-seaport-super-pak
-  - bsc:mega-props-sg-vol01
 assets:
   - assetId: tamorr-tamorrs-resource
 
