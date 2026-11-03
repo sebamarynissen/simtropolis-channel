@@ -29,13 +29,15 @@ info:
     - Pollution: 0
 
     *Special thanks to Blue Lightning, Meister1235, Redscope53, Xyloxadoria, and of course Tigerbuilder for answering lots of questions!*
+
+    This station only functions with the Ground Light Rail network of the Network Addon Mod (`pkg=nam:ground-light-rail`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: DCMetro34
   website: https://community.simtropolis.com/files/file/26764-greenbelt-metrorail-station/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2014/31ce08c4091d1fab8f1b3c2d1c75808e-agreenbelt---zoom-5.jpg
 dependencies:
   - dcmetro34:greenbelt-metrorail-station-models
-  - nam:network-addon-mod
+  - nam:textures
 assets:
   - assetId: dcmetro34-greenbelt-metrorail-station
     exclude:

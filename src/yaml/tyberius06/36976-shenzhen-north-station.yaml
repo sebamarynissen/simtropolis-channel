@@ -34,6 +34,8 @@ info:
     - **Barrocco Hispano (AGC or JLC)** - for the Streets DLC and Casual SIMs DLC props
 
     and of course my usual sources for props, models and textures on my lots: Girafe, Vnaoned, Nams, Delecto, Simmer2, Motokloss and KingOfSimCity.
+
+    This station only functions with the Hybrid Railway (HRW) (`pkg=nam:hybrid-railway`), Real Railway (`pkg=nam:real-railway`) and Ground Light Rail (`pkg=nam:ground-light-rail`) networks of the Network Addon Mod. They are not installed as a dependency, so make sure you have them, for example with `pkg=nam:network-addon-mod`.
   author: Ct1999, Tyberius06
   website: https://community.simtropolis.com/files/file/36976-ct1999-tyb06-shenzhen-north-station/
   images:
@@ -56,7 +58,7 @@ dependencies:
   - simmer2:mega-prop-pack-vol2
   - simmer2:essentials
   - supershk:mega-parking-textures
-  - nam:network-addon-mod
+  - nam:textures
 assets:
   - assetId: tyberius06-ct1999-tyb06-shenzhen-north-station
 

@@ -26,6 +26,8 @@ info:
     - Capacity: 66,000
 
     Otherwise the lots are neutral, causing no pollution, requiring no power/road access and providing no jobs.
+
+    These ramps only function with the Real Railway network of the Network Addon Mod (`pkg=nam:real-railway`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: rsc204
   website: https://community.simtropolis.com/files/file/31255-mgb-rrw-to-subway-ramps/
   images:
@@ -33,7 +35,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/RRW-Ramp.jpg.3e50000e62c8fbeccd2d3102eb36ce15.jpg
 dependencies:
   - mgb204:rrw-to-subway-ramps-resource
-  - nam:network-addon-mod
 variants:
   - variant: { driveside: right }
     assets:

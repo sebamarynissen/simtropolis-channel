@@ -20,6 +20,8 @@ info:
     - [@RaikaS](https://community.simtropolis.com/profile/20502-raikas/) for the main station building
     - [@kingofsimcity](https://community.simtropolis.com/profile/33566-kingofsimcity/) (KOSC) for the awesome SuperSHK Parking Textures
     - [@z1](https://community.simtropolis.com/profile/178048-z1/) and the fellow **MTA/NAM** members for establishing the current standards for transportation lots
+
+    This station only functions with the Hybrid Railway (HRW) network of the Network Addon Mod (`pkg=nam:hybrid-railway`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: Tyberius06, Raika
   website: https://community.simtropolis.com/files/file/35242-tyb06-raika-large-hybrid-railway-station/
   images:
@@ -40,7 +42,7 @@ dependencies:
   - simmer2:mega-prop-pack-vol6
   - bsc:vip-girafe-urbanpack-vol01
   - girafe:train-corail-hd-and-bb26000-props
-  - nam:network-addon-mod
+  - nam:textures
   - girafe:cypresses
   - girafe:bushes
   - vip:vnaoned-props-pack-vol01

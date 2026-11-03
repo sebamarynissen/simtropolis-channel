@@ -13,6 +13,8 @@ info:
     - Capacity: 20,000
 
     Special thanks to the BSC for all the team help.
+
+    This station only functions with the Ground Light Rail network of the Network Addon Mod (`pkg=nam:ground-light-rail`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: ILL Tonkso
   website: https://community.simtropolis.com/files/file/14020-bsc-its-glr-tramway-interchange-station/
   images:
@@ -20,7 +22,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0009/471363b6daa8a221faaef13b386f3be4-Tramochangenight.jpg
 dependencies:
   - ndex:its-mega-pack-vol15
-  - nam:network-addon-mod
+  - nam:textures
 assets:
   - assetId: ill-tonkso-bsc-its-glr-tramway-interchange-station
     exclude:

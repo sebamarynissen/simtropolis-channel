@@ -33,6 +33,8 @@ info:
     Have fun and enjoy!
 
     - Tyberius06
+
+    These stations only function with the Ground Light Rail network of the Network Addon Mod (`pkg=nam:ground-light-rail`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: Tyberius06
   website: https://community.simtropolis.com/files/file/32499-heretic-glr-station-and-terminus-pack-v1/
   images:
@@ -48,7 +50,6 @@ dependencies:
   - bnl:dutch-prop-pack
   - tamorr:resource
   - tyberius06:essentials
-  - nam:network-addon-mod
   - bsc:vip-girafe-urbanpack-vol01
   - bsc:bat-props-mattb325-vol02
   - supershk:mega-parking-textures

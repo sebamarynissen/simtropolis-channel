@@ -18,6 +18,8 @@ info:
     - And they should work on the Mac!
 
     Capacities may look high, however this is to offset the effect of the through traffic (a problem common to all stations that are built on the tracks); all other stats are on par with Maxis standards.
+
+    These stations only function with the Ground Light Rail network of the Network Addon Mod (`pkg=nam:ground-light-rail`) and the Real Railway network (`pkg=nam:real-railway`). They are not installed as a dependency, so make sure you have them, for example with `pkg=nam:network-addon-mod`.
   author: cogeo
   website: https://community.simtropolis.com/files/file/16625-glr-stations-and-hubs/
   images:
@@ -28,7 +30,7 @@ dependencies:
   - cogeo:semitransparent-train-station-models
   - bsc:textures-vol01
   - bsc:mega-props-sg-vol01
-  - nam:network-addon-mod
+  - nam:textures
 variants:
   - variant: { driveside: right }
     assets:

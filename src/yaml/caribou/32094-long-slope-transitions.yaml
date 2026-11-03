@@ -52,6 +52,8 @@ info:
     Kind regards
 
     Simmer2
+
+    These slopes only function with the rail networks of the Network Addon Mod: Real Railway (`pkg=nam:real-railway`), El-Rail and Ground Light Rail (`pkg=nam:ground-light-rail`). They are not installed as a dependency, so make sure you have them, for example with `pkg=nam:network-addon-mod`.
   author: Caribou, Tyberius06
   websites:
     - https://community.simtropolis.com/files/file/32094-tyb06-caribou-long-slope-transitions/
@@ -61,8 +63,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a217fd6b105e_Tyb06-CaribouTransitionRamps01_RM.jpg.6f4ab8b38ea77fee764a50fc23d12dc8.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a217fd7a334f_Tyb06-CaribouTransitionRamps03_RM.jpg.a67d3dc3b627998a90b142597c2326d0.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a217fd868dcb_Tyb06-CaribouTransitionRamps05_RM.jpg.9d30e13278a220e8b094186b8fc3d228.jpg
-dependencies:
-  - nam:network-addon-mod
 variants:
   - variant: { driveside: right }
     assets:

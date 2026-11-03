@@ -34,6 +34,8 @@ info:
     Have fun and enjoy!
 
     **- Tyberius06**
+
+    This station complex only functions with the rail networks of the Network Addon Mod. The NAM is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: Tyberius06
   website: https://community.simtropolis.com/files/file/32688-heretic-urhts-project-02-counterpoint-shinjuku-station-complex/
   images:
@@ -70,7 +72,6 @@ dependencies:
   - bnl:dutch-prop-pack
   - tamorr:resource
   - murimk:props-vol02-mixed
-  - nam:network-addon-mod
 variants:
   - variant: { tyberius06:urhts-project-02-counterpoint-shinjuku-station-complex:east-wing: heretic }
     dependencies:

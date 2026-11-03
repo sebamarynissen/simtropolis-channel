@@ -15,6 +15,8 @@ info:
     - ehbk2006, for the HD NL special catenary props
 
     plunderer, 2009-06-24
+
+    The catenaries are only applied to the overground rail networks of the Network Addon Mod, such as Real Railway (`pkg=nam:real-railway`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: Plundere
   website: https://community.simtropolis.com/files/file/21935-rail_catenary_mod_v3-hd-version/
   images:
@@ -22,7 +24,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2011/ecb5ca9d420f61f55fc5bc0b70c552fb-bridge_1.jpg
 dependencies:
   - plundere:rail-catenary-mod-resources
-  - nam:network-addon-mod
+  - nam:textures
 assets:
   - assetId: plundere-rail-catenary-mod
     exclude:

@@ -18,6 +18,8 @@ info:
     - Lot size: 2x3
 
     Enjoy!
+
+    This station only functions with the Ground Light Rail network of the Network Addon Mod (`pkg=nam:ground-light-rail`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: gshmails
   website: https://community.simtropolis.com/files/file/18441-shmails-glr-avenue-station-1/
   images:
@@ -25,7 +27,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0015/812b5ab4b337a75baafe1a37a8380a7e-ShmailsGLRAvenue1b1.jpg
 dependencies:
   - gshmails:glr-avenue-station-1-model
-  - nam:network-addon-mod
+  - nam:textures
 assets:
   - assetId: gshmails-shmails-glr-avenue-station-1
     exclude:

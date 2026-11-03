@@ -29,6 +29,8 @@ info:
     The subway entrances are also available as props with no signs to better fit other uses.
 
     Modding was done by [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/), thanks!
+
+    The GLR stations of this pack only function with the Ground Light Rail network of the Network Addon Mod (`pkg=nam:ground-light-rail`). It is not installed as a dependency, so make sure you have it, for example with `pkg=nam:network-addon-mod`.
   author: art128
   website: https://community.simtropolis.com/files/file/36905-paris-modern-transportation-pack/
   images:
@@ -41,7 +43,7 @@ dependencies:
   - bsc:vip-girafe-urbanpack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - nam:network-addon-mod
+  - nam:textures
 assets:
   - assetId: art128-paris-modern-transportation-pack
     exclude:
