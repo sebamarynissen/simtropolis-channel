@@ -30,13 +30,9 @@ jobs:
       uses: actions/download-artifact@v8
       with:
         name: channel-artifact.zip
-        path: tmp_gh-pages/channel
+        path: tmp_gh-pages
         run-id: ${{ github.event.workflow_run.id }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Move channel content to root
-      run: |
-        mv tmp_gh-pages/channel/* tmp_gh-pages/
-        rmdir tmp_gh-pages/channel
     - name: Install npm dependencies
       run: npm ci
     - name: Update coverage report
