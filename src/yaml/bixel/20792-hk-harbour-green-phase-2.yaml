@@ -1,0 +1,134 @@
+group: bixel
+name: hk-harbour-green-phase-2
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Harbour Green Phase 2
+  description: |-
+    **HKABT TEAM**
+
+    presents
+
+    **HK Harbour Green Phase 2**
+
+    BAT created by **bixel**  
+    Modding & lot design by **bixel**
+
+    readme by **bixel**  
+    [Check out Bixel's HK Buildings at Simtropolis](../../forum/messageview.cfm?catid=153&threadid=79751&enterthread=y&STARTPAGE=1)
+
+    **Introduction / Overview**
+
+    **Harbour Green**, this is Phase 2 of the two part complex. Phase one will be coming soon.
+
+    Hong Kong people are proud of the world-renowned Victoria Harbour's scenery, featuring world-class architecture along the coastline which further illuminates the harbour. To enhance this exclusive harbour environment, projects on both sides of the harbour were strategically built by Sun Hung Kai Properties (SHKP) to provide residents with the best living standard.
+
+    To highlight these flawless buildings and the commitment to perfect living, a "Harbour Living Gallery" has been set up at One ifc titled "World-Class Architecture, World-Class Harbour". Today's opening ceremony was officiated by Sun Hung Kai Real Estate Agency Senior Project Manager Tim Mak, Marketing Director Edgar Yang and Executive Director Eric Chow.
+
+    The gallery comprises two parts - "World-Class Harbour Buildings" and "World-Class Living". Five landmark projects will be glimmering beside Victoria Harbour, each with attractive views of the splendid harbour. The five projects include Harbour Gateway, which consists of ifc and Mega Tower, and 3 residential projects - The Arch, Harbour Green and Manhattan Hill.
+
+    The ifc has become a focal point of Hong Kong's world class financial expertise. The elegantly streamlined project is made up of the internationally renowned commercial building and a large-scale shopping complex. Two ifc, an 88-storey building, is the tallest in Hong Kong. Located in Kowloon Station, Mega Tower will be one of the tallest buildings in the world and it will undoubtedly become another landmark for Hong Kong.
+
+    Of the residential developments, The Arch - with its unique and distinctive architectural design and the Sky Club equipped with a pool 500 ft. above sea level - demonstrates a bold yet tasteful statement of "World-Class Architecture". In close proximity, the Harbour Green is a pioneer of "CEO Living" - a new living concept overlooking Victoria Harbour. Manhattan Hill, a blend of contemporary "Manhattan" attitude with glittering harbour views, is another sparkling project that creates an energetic cosmopolitan lifestyle.
+
+    Sun Hung Kai Real Estate Agency Marketing Director Edgar Yang said: "With the natural harbour and a selection of world-class architecture, Victoria Harbour is the most popular scenic attraction in Hong Kong. The resplendent night view of the harbour truly reflects the character of Hong Kong elites - energetic, trend-setting, worldly and full of know-how."
+
+    [Harbour Green Official website](http://www.harbourgreen.com.hk/)
+
+    The following lots are included:
+
+    -   Growable R$$
+
+    **Dependencies**
+
+    NONE!!! (am I awesome or wut??)
+
+    * * *
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Parameter**
+
+    **Growable CS$$**
+
+    Capacity:
+
+    5,800 R$$  
+    (6,200 R$ when dilapidated)
+
+    Lot Size /  
+    Growth Stage:
+
+    5x10 / stage ??
+
+    Zone Type:
+
+    Dense Residential
+
+    Tileset(s):
+
+    ALL
+
+    Worth / Bulldoze Cost:
+
+    ???
+
+    Flammability:
+
+    40 / Stage 5
+
+    Power consumed:
+
+    150 MWh/month
+
+    Water consumed:
+
+    250 gallons/month
+
+    Air pollution:
+
+    30 over 5 tiles
+
+    Water pollution:
+
+    30 over 6 tiles
+
+    Garbage generated:
+
+    60 tons/month
+
+    All growable lots will grow on **dense commercial**. To make a continuous zone of the required size, hold the \[CTRL\] key while zoning. If the grid lines are turned off, turn them on for zoning by pressing \[G\]; this will make it easier to count the tiles.
+
+    **Installation**
+
+    Simply unzip the content of this archive into your plugins folder and delete all the lots you don't want.
+
+    It is generally recommendable to unzip the entire download into a backup folder first and then copy only those files that you want into a sub-folder inside your main plugins folder. This procedure makes it easier to keep full control and leave out files that are not required in game, such as this readme and the screenshots.
+
+    In case you are looking for any ***.SC4desc*** files, these have been merged with the associated lot files to reduce clutter. Due to the individual names of each lot, I needed one desc per lot anyway, so this method suggested itself.
+
+    To uninstall a version you don't like, just delete the lot file from your plugins folder.
+
+    **IMPORTANT:** If any instance of the lot in question has already grown in one or more cities, first bulldoze all instances of that version in all your cities, then save the cities and exit. **Now** you can safely remove the version without running any risk to experience crashes or any other inconvenience.
+
+    Bixel on behalf of HKABT  
+    Saturday, December 6, 2008
+  author: bixel
+  website: https://community.simtropolis.com/files/file/20792-hk-harbour-green-phase-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/40945c94b98d3fcb463cbb6783a880a4-HG2D.jpg
+    - https://www.simtropolis.com/objects/screens/0008/40945c94b98d3fcb463cbb6783a880a4-HG2N.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+assets:
+  - assetId: bixel-hk-harbour-green-phase-2
+
+---
+assetId: bixel-hk-harbour-green-phase-2
+version: "1.0"
+lastModified: "2008-12-06T20:09:18Z"
+url: https://community.simtropolis.com/files/file/20792-hk-harbour-green-phase-2/?do=download
