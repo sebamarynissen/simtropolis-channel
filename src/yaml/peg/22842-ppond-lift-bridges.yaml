@@ -1,0 +1,56 @@
+group: peg
+name: ppond-lift-bridges
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: PPond Lift Bridges, road, rail and avenue bridges for 2 tile wide canals
+  description: |-
+    The old CSK2 Lift Bridges have been modified for use with the new PPond Kit. This single package replaces both the original CSK2 Road Lift Bridges and the CSK2 Rail Lift Bridge.
+
+    There are 3 bridges in total: the single-width Road bridge, the single-width Rail bridge and the double-width Avenue bridge. All bridges are designed for canals that are 2 tiles wide. For wider canals, use the Avenue Drawbridge and Swing Bridges.
+
+    In addition to adding the new PPond water, the bridges have been remodeled to appear more weathered and worn.
+
+    The new lots are the same size (1x2 and 2x2) and use the same custom timed props that open and close the bridge several times each day. Only the models have been changed and as such, any existing lots in your cities will not need to be replopped. Existing lots will update automatically once the file is installed.
+
+    All other aspects and properties of this are the same as the CSK2 original.
+
+    When the bridges are open, traffic will continue to cross the bridge. Lots such as this cannot modify that behavior of the game. However, the traffic has been visually blocked when the bridges are open, so you will not see cars magically flying across open water. When the bridges are closed, you will see traffic crossing the bridge as with any other bridge in the game.
+
+    The PPond Canals are designed to replace the older CSK2 Canals. Accordingly, this lot directly replaces the original CSK2 Road Lift Bridges and the CSK Rail Lift Bridge.
+
+    All Pegasus files are now legacy content and are no longer officially supported. However, support from the wider community can be requested in the PLEX on the STEX support thread at Simtropolis.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/22842-peg-ppond-lift-bridges/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/428b14df5cb25092321db013ae87464e-product_image-st1.jpg
+    - https://www.simtropolis.com/objects/screens/0008/428b14df5cb25092321db013ae87464e-product_image-st2.jpg
+dependencies:
+  - peg:ppond-lift-bridges-resource
+assets:
+  - assetId: peg-ppond-lift-bridges
+    exclude:
+      - "/PEG_PP_LiftBridges_RESOURCE\\.dat$"
+
+---
+group: peg
+name: ppond-lift-bridges-resource
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: PPond Lift Bridges resource
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/22842-peg-ppond-lift-bridges/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/428b14df5cb25092321db013ae87464e-product_image-st1.jpg
+    - https://www.simtropolis.com/objects/screens/0008/428b14df5cb25092321db013ae87464e-product_image-st2.jpg
+assets:
+  - assetId: peg-ppond-lift-bridges
+    include:
+      - "/PEG_PP_LiftBridges_RESOURCE\\.dat$"
+
+---
+assetId: peg-ppond-lift-bridges
+version: "1.0"
+lastModified: "2009-11-15T09:20:48Z"
+url: https://community.simtropolis.com/files/file/22842-peg-ppond-lift-bridges/?do=download

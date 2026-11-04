@@ -1,0 +1,45 @@
+group: tyberius06
+name: fountain-park-expansion-extenders
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: Overhanging extender lots for Neko's Pond/Fountain Parks
+  description: |-
+    Let me introduce you to the **Heretic-Neko's Fountain Park Expansion (Extenders)**, which was based on [Neko's Japanese Parks, more precisely the Pond/Fountain Parks](https://web.archive.org/web/20250101000000/http://hide-inoki.com/bbs/archives/sc4_0837.html).
+
+    This set was made for a request of [@pgxpgx](https://community.simtropolis.com/profile/762607-pgxpgx/), but I decided to give it a public go. These are ploppable "park" pieces, but they can be found under the civics - health menu. Neko didn't mod his set and kept every stat as PIM-X generated them, so I did the same. I only modified the item order, so the expansion pieces now can be found with the original pieces. These are 1x1 tile lots with overhanging props, they are working as extenders, so they can be used under bridges or any other transparent based lots.
+
+    In order to make it comfortable, **I used the modified s3d files technique on some of the original models**. Luckily Neko made most of the models off-set, but to give more freedom to the players, I chose to modify a re-IID'd copy of the straight pond wall pieces and moved them by 16 meters to the other direction using the Model Tweaker. These modified components can be found in the **Included Dependencies** subfolder. **In all cases, I modified the INSTANCE IDs of the new s3d files by increasing the fifth digit by 6 - so e.g. a 0x00030100 instance value was changed to 0x00036100. If anybody made similar custom modifications on these files, that may cause conflicts.**
+
+    **List of items:**
+
+    - Heretic-Neko_Park_B 1x1 (Bridge 1x2 overhang extender)
+    - Heretic-Neko_Park_B 1x1 (Straight 2x1 overhang extender Left)
+    - Heretic-Neko_Park_B 1x1 (Straight 2x1 overhang extender Right)
+    - Heretic-Neko_Park_B 1x1 (Water 1x2 overhang extender)
+    - Heretic-Neko_Park_B 1x1 (Water 2x2 overhang extender)
+
+    The included `heretic-Neko_Fountain_Park_Straight_mod_s3d.dat` contains modified model contents (s3d files), which were originally made by **Neko**. The original model files stayed intact, in fact they are used on the very same lot alongside the modified ones.
+
+    **Credits**
+
+    The original model and prop files were created by Neko.
+
+    Have fun and enjoy!
+
+    **- Tyberius06**
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/33248-heretic-nekos-fountain-park-expansion-extenders/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5dab900523053_HereticNekoPoundParkSet.jpg.403d9337006c8be11dc93e63dd9f60ea.jpg
+dependencies:
+  - neko:prop-set-vol02
+  - neko:prop-set-vol03
+assets:
+  - assetId: tyberius06-heretic-nekos-fountain-park-expansion-extenders
+
+---
+assetId: tyberius06-heretic-nekos-fountain-park-expansion-extenders
+version: "1.0.0"
+lastModified: "2019-10-19T22:47:44Z"
+url: https://community.simtropolis.com/files/file/33248-heretic-nekos-fountain-park-expansion-extenders/?do=download

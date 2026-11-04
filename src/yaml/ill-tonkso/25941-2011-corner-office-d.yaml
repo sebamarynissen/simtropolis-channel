@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: 2011-corner-office-d
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Generic modern W2W office/retail set
+  description: |-
+    A generic modern W2W office/retail set.
+
+    Ploppable and Growable: CS$$ 500
+
+    Plop Cost: £3,000
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25941-its-2011-corner-office-d/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/056027a282d2f03b9869b0aa8b64d82c-cornerdday.jpg
+    - https://www.simtropolis.com/objects/screens/0015/819165c6a2a6de10654e9bd4ae4e3423-cornerdnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol05
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: ill-tonkso-its-2011-corner-office-d
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-its-2011-corner-office-d
+version: "1.0"
+lastModified: "2011-03-03T20:05:45Z"
+url: https://community.simtropolis.com/files/file/25941-its-2011-corner-office-d/?do=download

@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: 2011-street-office-a
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Generic modern W2W office/retail set
+  description: |-
+    A generic modern W2W office/retail set.
+
+    Ploppable and Growable: CS$$ 200
+
+    Plop Cost: £4,000
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25942-its-2011-street-office-a/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9fa0863b0376223e988e7319c4d09de0-streetaday.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bc8dd137889cb9101f8634d8ba223bc2-streetanight.jpg
+# TODO: the prop 0x7cca4820 (used by the growable lot) is not in any sc4pac package yet
+dependencies:
+  - ndex:its-mega-pack-vol05
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - cogeo:logistics-centre-dependency-pack
+assets:
+  - assetId: ill-tonkso-its-2011-street-office-a
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-its-2011-street-office-a
+version: "1.0"
+lastModified: "2011-03-03T20:07:14Z"
+url: https://community.simtropolis.com/files/file/25942-its-2011-street-office-a/?do=download

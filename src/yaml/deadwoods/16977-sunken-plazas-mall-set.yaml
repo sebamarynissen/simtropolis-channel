@@ -1,0 +1,63 @@
+group: deadwoods
+name: sunken-plazas-mall-set
+version: "1.00"
+subfolder: 660-parks
+info:
+  summary: Series of sunken plaza lots that can be strung together into a subterranean mall
+  description: |-
+    This pack contains a series of sunken plaza lots. These subterranean malls are found in many cities, often connecting subways.
+
+    There are five lots in the set; one with a set of stairs/escalators leading down to the mall, two open (one with jobs), and two with a pyramidal glass roof over the mall (again one with jobs). You can string these together to create a mall.
+
+    Apart from the two lots with jobs, these are merely eye-candy, modded the same as the Maxis plazas. The two lots with jobs must be placed beside a network tile (e.g. street, road) otherwise you will get no-job zots.
+
+    These lots are BSC Tracking Enabled (BTE) which means they may contribute to Reward Chains.
+
+    **Lot specs**
+    - Lot size: 1x1
+    - Plop cost: §90
+    - Bulldoze cost: §10
+    - Monthly cost: §10 (maintenance)
+    - Occupant groups: Building: Civic, Building: Park, BTE: Parks, BTE: DW Lot Counter
+    - Power consumption: 0 MWh/month
+    - Water consumption: 0 gallons/month
+    - Air pollution: 0 over 0 tiles
+    - Water pollution: 0 over 0 tiles
+    - Garbage pollution: 1 over 0 tiles
+    - Demand satisfied: R$ 1000, R$$ 1000, R$$$ 1000
+    - Landmark effect: 50 over 15 tiles
+    - Park effect: 25 over 15 tiles
+  author: deadwoods
+  website: https://community.simtropolis.com/files/file/16977-dedwd-sunken-plazas-mall-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f45c9e2ea0ae2b85aa9d11171e41b2e0-DEDWD_SunkenPlaza_MallSet-stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f45c9e2ea0ae2b85aa9d11171e41b2e0-DEDWD_SunkenPlaza_MallSet-stexpic2.jpg
+dependencies:
+  - deadwoods:sunken-plazas-mall-set-resources
+assets:
+  - assetId: deadwoods-dedwd-sunken-plazas-mall-set
+    include:
+      - "\\.SC4Lot$"
+
+---
+group: deadwoods
+name: sunken-plazas-mall-set-resources
+version: "1.00"
+subfolder: 110-resources
+info:
+  summary: Props dependency for `pkg=deadwoods:sunken-plazas-mall-set`
+  author: deadwoods
+  website: https://community.simtropolis.com/files/file/16977-dedwd-sunken-plazas-mall-set/
+assets:
+  - assetId: deadwoods-dedwd-sunken-plazas-mall-set
+    include:
+      - "/DEDWD_SunkenPlaza_props\\.dat$"
+
+---
+assetId: deadwoods-dedwd-sunken-plazas-mall-set
+version: "1.00"
+lastModified: "2006-09-29T18:57:08Z"
+url: https://community.simtropolis.com/files/file/16977-dedwd-sunken-plazas-mall-set/?do=download
+archiveType:
+  format: Clickteam
+  version: "20"

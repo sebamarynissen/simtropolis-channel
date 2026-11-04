@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: 2011-vantage-metro-central
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Midrise apartment building in London's Elephant and Castle district
+  description: |-
+    Vantage Metro Central is a midrise apartment building in London's Elephant and Castle district, near to the Rail and Tube station.
+
+    Growable: R$$$600 2x3
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25936-its-2011-vantage-metro-central/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3e4ed975d4b6b90e615ea37915604f15-vantageday.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e6e6b5e66c7b2b0bd784d39818d8357a-vantagenight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol05
+assets:
+  - assetId: ill-tonkso-its-2011-vantage-metro-central
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-its-2011-vantage-metro-central
+version: "1.0"
+lastModified: "2011-03-03T20:00:02Z"
+url: https://community.simtropolis.com/files/file/25936-its-2011-vantage-metro-central/?do=download

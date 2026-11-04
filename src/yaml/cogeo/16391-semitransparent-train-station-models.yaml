@@ -1,0 +1,37 @@
+group: cogeo
+name: semitransparent-train-station-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Semitransparent train station models with ancillary props
+  description: |-
+    This pack contains two train station models and some ancillary props, i.e. stairs, timetables, even a vintage locomotive!
+
+    These models are currently used in the following lots:
+    - Semitransparent Train Stations
+    - `pkg=cogeo:glr-stations-and-hubs`
+    - GHSR Stations and Hubs
+
+    What is different with these BATs is that they are specially made and modded, so that they become semitransparent, i.e. allow the lot textures, props and automata in the interior to show through. For example, the rail-track textures in the pics are not modelled, instead they are the lot's texture, and of course the train, people and the kinetic sculpture are visible.
+
+    This has been achieved by utilising special BATting techniques (make the BATs modular, use semitransparent materials) and by tweaking the blending parameters. This way it is possible to achieve real, working (semi)transparency!
+
+    **Credits**
+    - Many thanks to BerlinDude and SimFox for the testing they have provided.
+    - I would also like to thank all members who commented/reviewed the models in my BAT thread.
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/16391-semitransparent-train-station-models/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/aaa605bfb475817723e8b61c91683279-STMLeft.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aaa605bfb475817723e8b61c91683279-STMRight.jpg
+assets:
+  - assetId: cogeo-semitransparent-train-station-models
+
+---
+assetId: cogeo-semitransparent-train-station-models
+version: "1.0"
+lastModified: "2006-07-16T11:09:13Z"
+url: https://community.simtropolis.com/files/file/16391-semitransparent-train-station-models/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

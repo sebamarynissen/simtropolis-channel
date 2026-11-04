@@ -1,6 +1,6 @@
 group: magneto
 name: sam-1-override
-version: "1.1.2"
+version: "1.1.2-1"
 subfolder: 150-mods
 info:
   summary: SAM 1 Override
@@ -92,14 +92,35 @@ info:
 dependencies:
   - neko:prop-set-vol03
   - bsc:mega-props-sg-vol01
-  - bsc:vip-girafe-carpack-vol01-vol02
 variants:
 - variant: { magneto:sam-1-override:prop-resolution: "sd" }
   assets:
-  - assetId: magneto-sam-1-override-hd
-- variant: { magneto:sam-1-override:prop-resolution: "hd" }
-  assets:
   - assetId: magneto-sam-1-override-sd
+- variant: { magneto:sam-1-override:prop-resolution: "hd" }
+  dependencies:
+  - magneto:sam-1-override-car-family-props
+  assets:
+  - assetId: magneto-sam-1-override-hd
+    exclude:
+    - "/Grfe_Cars_family_props\\.dat$"
+
+---
+group: magneto
+name: sam-1-override-car-family-props
+version: "1.1.2"
+subfolder: 110-resources
+info:
+  summary: Car family props for `pkg=magneto:sam-1-override` (HD)
+  description: |-
+    Turns the HD car props of the BSC VIP girafe car pack into family timed props. Extracted from the HD Props pack of the SAM 1 Override.
+  author: Magneto
+  website: https://community.simtropolis.com/files/file/29314-sam-1-override/
+dependencies:
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: magneto-sam-1-override-hd
+    include:
+    - "/Grfe_Cars_family_props\\.dat$"
 
 ---
 assetId: magneto-sam-1-override-hd

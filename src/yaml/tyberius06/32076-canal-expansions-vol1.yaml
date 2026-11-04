@@ -1,0 +1,38 @@
+group: tyberius06
+name: canal-expansions-vol1
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: Patch and starter expansion set for the CAL Goobers Canals
+  description: |-
+    This is a simple "patch" and a starter expansion set for the CAL Goobers Canals 2007 Baseset BSC.
+
+    **Disclaimer on the "patch/fix":** the original idea came from the existing prop family conflict between the `CAL_SG_Canal_Extra_1x1_Straight+1` lot (and its belonging prop family in `SG_CAL_Canal_Straight_PropFamily.dat`) and Glenni's Norwegian House Set vol. 2. Since the props and prop families have been merged into Glenni's Mega Prop Pack, the conflict applies there too. Accidentally, back in 2006/2007, both sets got the same prop family ID, so depending on the load order either nice Norwegian houses popped up or the canal pieces when you plopped the Straight +1 canal piece. I made a new family (which is identical to CAL's one) for the canal pieces, since it is easier to fix the problem on this side than by messing with the Mega Props or the original house set. This upload contains a new lot which uses the newly made prop family and it won't be conflicting with anything any more.
+
+    **List of items**
+    - 1x1 straight canal piece with randomly appearing pipes, drains, overflows
+    - 3x 1x1 water tile with various boats, rowing boats and punts and rowing sculls
+    - 2x1 small boat marina
+    - 3x2 small transit enabled (TE) street raising bridge with a transit capacity of 2400
+
+    Have fun and enjoy!
+
+    - Tyberius06
+  author: Tyberius06
+  website: https://community.simtropolis.com/files/file/32076-heretic-sg-cal-canal-expansions-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/5a64e0b955a98_HereticCALSGCanalExpansion.jpg.e874af02b720f7ddead48aae0841f2c3.jpg
+dependencies:
+  - bsc:mega-props-canals-cal-remastered-simgoober-style
+  - murimk:waterfront-pack-2-sheds-and-rowboats-resources
+  - murimk:waterfront-pack-3-rural-marina-resources
+  - wmp:abtei-rowing-club-props
+  - tyberius06:essentials
+assets:
+  - assetId: tyberius06-heretic-sg-cal-canal-expansions-vol1
+
+---
+assetId: tyberius06-heretic-sg-cal-canal-expansions-vol1
+version: "1.1"
+lastModified: "2018-07-23T12:59:11Z"
+url: https://community.simtropolis.com/files/file/32076-heretic-sg-cal-canal-expansions-vol-1/?do=download&r=171636
