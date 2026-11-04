@@ -1,0 +1,61 @@
+group: bladeberkman
+name: red-bike-paths
+version: "1.1.0"
+subfolder: 660-parks
+info:
+  summary: Red Bike Paths
+  description: |-
+    Hey Simtropolis,
+
+    Inspired by the Netherlands' robust pedestrian infrastructure (and watching way too much [Not Just Bikes](https://www.youtube.com/c/notjustbikes) ![:D](https://community.simtropolis.com/assets/emoticons/LlamaGrin.gif ":D")) I've made a set of eye-candy protected bike lanes designed to run adjacent and parallel to any orthogonal road-based network. The set contains simple pieces and uses the distinctive red asphalt found in Dutch bike lanes: One four-way cross, two three-way "tee" variants, and one two-way corner. The bike paths range from 1x1 to 13x1 in length. Your bicycling Sims get their protection from rows of parallel-parked cars, concrete planters, and bollards. Lindens offer a pleasant tree canopy and shade.
+
+    The bike paths use custom overlay textures I hacked together in Photoshop. I layered Catalyst's red asphalt bike path textures on top of some red herringbone brick street textures (extracted from NAM) to give them extra visual interest. To be clear, credit for the bike path textures goes to Catalyst and credit for the red herringbone brick textures goes to the NAM Team. I merely merged them together.
+
+    I originally made these for personal use and they were a real mess. Many thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/), who helped me clean them up and share them with the community (and who graciously offered his time and guidance with all my technical questions).
+
+    **DEPENDENCIES**
+
+    Unfortunately, given the ongoing file migration from SC4D to [SC4E](https://www.sc4evermore.com/), I can't include links to all the necessary dependencies at this time. To ensure proper functionality, make sure you have the following files in your plugins folder:
+
+    -   [SFBT Props Peterycristi Props](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/123-sfbt-props-peterycristi-props)
+    -   [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+        -   BSC\-VIP Girafe Carpack vol. 1-2
+        -   BSC\-VIP Girafe Carpack vol. 3
+        -   BSC\-VIP Girafe Urbanpack (CarPack vol. 4) vol. 1 (requires both Urbanpack vol.1 and Carpack vol. 4)
+    -   [BSC\-VIP Girafe Lindens](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+    -   [BSC\-VIP Girafe-MGB204 Bicyclepack vol. 1](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/154-bsc-vip-girafe-mgb204-bicyclepack-vol01)
+    -   [SimPeg Plop Orientation Tool (SPOT)](https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/)
+    -   [RedDonQuixote (RDQ) HD Prop Pack](https://www.sc4evermore.com/index.php/downloads/download/21-other/205-sc4d-lex-legacy-reddonquixote-compilation)
+    -   [Tamorr's Resource](https://community.simtropolis.com/files/file/21940-tamorrs-resource/) (requires only the Tamorr\_Family\_Props\_V210.dat)
+    -   [Light Replacement Mod - German Set](https://community.simtropolis.com/files/file/27986-light-replacement-mod-german-set/) (requires only the Frankfurt lamp post model)
+  author: bladeberkman
+  website: https://community.simtropolis.com/files/file/35619-blades-red-bike-paths/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/5.jpg.aff63fbbf176d80123a02a7949fb9c06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/6.jpg.c7f78697ba075b040380d8d8059edf4d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/9.jpg.ffe8587a7cb1d12cf6bc34ee17258bb6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/4.jpg.7ebf5c09c0f3ee1c52d3294f5ecb9573.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/1.jpg.b2e8ef268e6eaa8a6011471e8ba04ed2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/2.jpg.b98570f4443cc8eff5314a80e67cd711.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/3.jpg.6673eda034382d1ca3ebbc72d3e8ba07.jpg
+dependencies:
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol03
+  - bsc:vip-girafe-carpack-vol04
+  - bsc:vip-girafe-urbanpack-vol01
+  - girafe:bicycle-pack-vol01-props
+  - girafe:lindens
+  - mandelsoft:light-replacement-mod-props
+  - murimk:props-vol01-bicycles
+  - peg:spot
+  - reddonquixote:prop-pack
+  - sfbt:peterycristi-props
+  - tamorr:resource
+assets:
+  - assetId: bladeberkman-red-bike-paths
+
+---
+assetId: bladeberkman-red-bike-paths
+version: "1.1.0"
+lastModified: "2023-09-14T16:59:10Z"
+url: https://community.simtropolis.com/files/file/35619-blades-red-bike-paths/?do=download
