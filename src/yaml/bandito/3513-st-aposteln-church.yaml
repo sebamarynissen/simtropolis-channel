@@ -14,7 +14,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0002/0a3dcd96f96d775fd8b3ce45519d796a-st1.JPG
     - https://www.simtropolis.com/objects/screens/0002/0a3dcd96f96d775fd8b3ce45519d796a-st2.JPG
 dependencies:
-  - bandito:st-aposteln-church-models
+  - bandito:st-aposteln-church-model
   - bsc:textures-vol01
 assets:
   - assetId: bandito-st-aposteln-church
@@ -23,7 +23,7 @@ assets:
 
 ---
 group: bandito
-name: st-aposteln-church-models
+name: st-aposteln-church-model
 version: "1.0"
 subfolder: 110-resources
 info:

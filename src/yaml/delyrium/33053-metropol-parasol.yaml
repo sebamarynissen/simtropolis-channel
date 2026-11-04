@@ -22,7 +22,7 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - delyrium:metropol-parasol-models
+  - delyrium:metropol-parasol-model
 assets:
   - assetId: delyrium-metropol-parasol
     exclude:
@@ -30,7 +30,7 @@ assets:
 
 ---
 group: delyrium
-name: metropol-parasol-models
+name: metropol-parasol-model
 version: "1.0"
 subfolder: 110-resources
 info:

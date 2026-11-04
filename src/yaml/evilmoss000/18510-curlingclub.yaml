@@ -11,7 +11,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0017/98c9a0dc76929b0ce2508afd61095073-Curling01.JPG
     - https://www.simtropolis.com/objects/screens/0017/98c9a0dc76929b0ce2508afd61095073-Curling02.JPG
 dependencies:
-  - evilmoss000:curlingclub-models
+  - evilmoss000:curlingclub-model
 assets:
   - assetId: evilmoss000-curlingclub
     exclude:
@@ -19,7 +19,7 @@ assets:
 
 ---
 group: evilmoss000
-name: curlingclub-models
+name: curlingclub-model
 version: "1.0"
 subfolder: 110-resources
 info:
