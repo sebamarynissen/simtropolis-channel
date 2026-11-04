@@ -1,0 +1,30 @@
+group: paeng
+name: schoolbus-depot
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Schoolbus Depot
+  description: |-
+    From here your school buses will spread through the whole city to bring the kids to their place of education.
+
+    Sits on a 4x5 lot and serves as a regular bus stop - with more or less the same stats, just the costs (plop, monthly, power) are a little higher.
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25729-paengs-schoolbus-depot/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/0258cf62c8c3d04aec425e01996ea1b4-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/0001/0258cf62c8c3d04aec425e01996ea1b4-stex02.jpg
+dependencies:
+  - simfanatik:replacement-school-bus-props
+  - peg:mtp-super-pack
+  - peg:security-fencing-kit
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: paeng-schoolbus-depot
+
+---
+assetId: paeng-schoolbus-depot
+version: "1.0"
+lastModified: "2011-01-19T12:29:19Z"
+url: https://community.simtropolis.com/files/file/25729-paengs-schoolbus-depot/?do=download&r=53693

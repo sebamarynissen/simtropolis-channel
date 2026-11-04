@@ -1,0 +1,54 @@
+group: paeng
+name: maxlions-modular-solar-farm
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Maxlion's Modular Solar Farm
+  description: |-
+    A modular set of solar panels to create a 'power farm' of any size, suitable for rural and suburban areas. Each module produces a certain amount of power according to its size (1 to 6 panels).  
+      
+    **LIST OF MODULES**  
+      
+    1x1 - 1 panel / 50 KWh
+    1x1 - 2 panels / 100 KWh
+    3x1 - 3 panels / 150 KWh
+    3x1 - 6 panels / 300 KWh
+    1x1 - Control Unit, Eyecandy
+    1x1 - 2 panels, Eyecandy
+      
+      
+    **DEVELOPER NOTES**  
+      
+    The additional 2-panel module can be used to shape the 'farm' without producing additional power.  
+      
+    Find the items at or near the end of the 'Utilities | Power' menu with custom icons.  
+      
+      
+    **CREDITS**  
+      
+    **Maxlion**: Idea, concept and original lots  
+      
+    **Murimk**: BATs  
+    **Paeng**: Additional modding and lotting  
+      
+      
+    **SUPPORT**  
+      
+    If you have questions or need support on this product please visit the  
+    Support Forum
+  author: paeng
+  website: https://community.simtropolis.com/files/file/26461-maxlions-modular-solar-farm/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/e872c11e0da1776596c427439b076f13-solar_800.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/5d26c48e4801631c28424889f35592ef-solar03.jpg
+dependencies:
+  - peg:spam-super-resource-pack
+  - peg:spot
+assets:
+  - assetId: paeng-maxlions-modular-solar-farm
+
+---
+assetId: paeng-maxlions-modular-solar-farm
+version: "1.0"
+lastModified: "2011-07-06T13:19:32Z"
+url: https://community.simtropolis.com/files/file/26461-maxlions-modular-solar-farm/?do=download&r=88620

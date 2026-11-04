@@ -1,0 +1,76 @@
+group: paeng
+name: modular-fresh-produce-market
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Modular Fresh Produce Market
+  description: |-
+    Since the start of the agricultural revolution, a need for large fresh produce markets has come up - after all it doesn't make much sense to grow all that stuff and not have a central distribution point. So here is a modular set to help you create just that...  
+      
+      
+    **LIST OF ITEMS**  
+      
+    \* 3x1 Admin and Offices, COM w/ 135 CS$ jobs  
+      
+    \* 5x3 Loading Bay 2-sided  
+      
+    \* 5x2 Loading Bay 1-sided  
+      
+    \* 4x1 Truck Parking  
+      
+    \* 2x1 Small Trailer Parking  
+      
+    \* 1x1 Fillers with three different truck-families  
+    
+      
+    **DEVELOPER NOTES**  
+      
+    The set is highly modular to create a market of any size you need or want.  
+      
+    The office lot serves as an 'anchor' and holds all the jobs for the complete market. It is the only lot in the set that needs to have road access.  
+      
+    All lots need power and water.  
+      
+    Most of the vehicles are timed prop families so there will be a lot of 'movement' throughout the day.  
+      
+    Note that the 'Grunge Concrete Set' dependency holds not only the needed textures, but also a set of access paths and fillers to expand your market and tie together the various modules.  
+      
+    You find all items at or near the end of the 'Landmarks' menu.  
+      
+      
+    If you need further items to expand the market (like more trucks, weighbridges, kiosks and similar items) you may want to check out sets like the [Modular Truck Stop](https://www.simtropolis.com/forum/files/file/25084-paeng-s-modular-truckstop/) or similar.  
+      
+      
+    **CREDITS**  
+      
+    The Loading Bays are special custom BATs created by **Becca** (RebaLynnTS) and are included with her kind permission.  
+      
+    LOTting and MODding: Paeng  
+      
+    Thanks for the request goes to **Dublin**, and to all who gave input at the Simpeg forums :-)  
+      
+    **SUPPORT**
+
+    Should you need support for these items please visit the  
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php/board,109.0.html)  
+      
+      
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/26453-paengs-modular-fresh-produce-market/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/79e11de46c929e823a0c0d8fa80d1067-prod-market_plex_800.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/fdc3701be94ae758ce60c0259192e4d7-prod-market03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/9d1182e0a328998fd227ee09e4e46fef-prod-market02.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - paeng:grunge-concrete-set-resources
+  - peg:spam-super-resource-pack
+assets:
+  - assetId: paeng-modular-fresh-produce-market
+
+---
+assetId: paeng-modular-fresh-produce-market
+version: "1.0"
+lastModified: "2011-07-04T14:09:10Z"
+url: https://community.simtropolis.com/files/file/26453-paengs-modular-fresh-produce-market/?do=download&r=88531

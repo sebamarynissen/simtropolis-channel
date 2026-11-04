@@ -1,0 +1,30 @@
+group: paeng
+name: security-fence-set
+version: "1.04"
+subfolder: 610-safety
+info:
+  summary: Security Fence Set
+  description: |-
+    Would you like to have tighter security around sensitive areas like powerplants, hitech-facilities or similar? Here is some proper fencing (and my first upload)!
+
+    The lots are based on the in-game concrete plaza with all the same costs and effects. Basically they're just EyeCandy.
+
+    Fillers and addons are all in separate files (14 lots), so you can delete any item you don't wish to use. Or add further pieces that I might release in the future.
+
+    Thanx to PEGASUS for all the resources he makes available.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/21927-security-fence-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b326fc1a274ba4c5586002354fd1edcd-sec-fence-1.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b326fc1a274ba4c5586002354fd1edcd-sec-fence-2.jpg
+dependencies:
+  - peg:security-props
+  - peg:mtp-super-pack
+assets:
+  - assetId: paeng-security-fence-set
+
+---
+assetId: paeng-security-fence-set
+version: "1.04"
+lastModified: "2009-06-23T14:38:48Z"
+url: https://community.simtropolis.com/files/file/21927-security-fence-set/?do=download&r=48049

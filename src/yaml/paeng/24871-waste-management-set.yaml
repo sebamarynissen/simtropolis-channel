@@ -1,0 +1,74 @@
+group: paeng
+name: waste-management-set
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Waste Management Set
+  description: |-
+    For those who don't mind playing in the mud (like me :-), here is a set to build up your 'Waste Management Facilities' to any desired size - rake in profits by processing your whole region's garbage and scrap!
+
+    ![waste-stex3.jpg](http://dl.dropbox.com/u/5012419/Stex/waste-stex3.jpg)
+
+    **Waste Management Set - List of Items**
+
+    \- 8x5 Large Garbage Dock
+
+    \- 4x5 Small Garbage Dock
+
+    \- 5x5 Recycling Center (serves as Inner Corner)
+
+    \- 7x3 Scrap Recycling Train Yard
+
+    \- 1x5 Filler
+
+    \- 1x5 Filler short (no Dock)
+
+    \- 1x5 Left End
+
+    \- 1x5 Right End
+
+    The set has been designed to fit in well with PEG's '*PPond CSK2*' docks and canals.
+
+    The functionality (properties, values, query, timed barges, TE etc.) of the Docks is unchanged, all values are the same as the original 'PEG\-CDK3 Garbage Dock'.
+
+    The 'Recycling Center' is based on the default (Maxis) 'Recycling' lot, but with higher values (cost and effect), because it's two packed in one.
+
+    The 'Scrap Recycling Train Yard' has rail tracks instead of docks and can be connected to your rail network (visual only, no through traffic!). Its values (cost and effect) are the same like the included 'Recycling Center' - you can use either one or both together.
+
+    The Fillers and Ends are neutral, meaning they don't raise the capacity and don't really cost that much to build or to maintain.
+
+    Note: None of these pieces will replace any originals - you can still use the original 'deep water' docks and/or the original (Maxis) recycling lot.
+
+    The four main pieces need power, water and road access.
+
+    All sections are at or near the end of the 'Utilities | Landfill' menu with custom icons.
+
+    **SUPPORT**
+
+    Should you need more infos or support for these items please visit
+
+    \* [Paeng Productions Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?board=109.0)
+
+    [DL also available at PLEX](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?action=downloads;sa=view;down=592)
+
+    Happy wastin' ;o))
+  author: paeng
+  website: https://community.simtropolis.com/files/file/24871-paengs-waste-management-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0d33ad36d615a0b511fe20f47a9f6dd2-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0d33ad36d615a0b511fe20f47a9f6dd2-stex2.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - peg:mtp-super-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - peg:security-fencing-kit
+  - peg:ppond-kit-resources
+  - peg:cdk3-garbage-docks-resources
+assets:
+  - assetId: paeng-waste-management-set
+
+---
+assetId: paeng-waste-management-set
+version: "1.0"
+lastModified: "2010-09-13T14:16:32Z"
+url: https://community.simtropolis.com/files/file/24871-paengs-waste-management-set/?do=download&r=52339

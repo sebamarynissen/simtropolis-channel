@@ -1,0 +1,42 @@
+group: paeng
+name: modular-freight-yard
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Modular Freight Yard
+  description: |-
+    This set lets you create a large land-based freightyard to complement any waterfront freight yards. The modules serve as in-game freight stations, visually you have support for trains and fleets of large and small trucks.
+
+    It's not really possible to capture the complete set in tiny screenshots. In the download-package you find an extensive Read\_Me with plenty full size images, links and detailed hints and tips. Please read it before plopping away :-)*
+
+    So here is just a quick glance at the content:
+
+    1) Freightyard (Train, 6x5) - capacity: 3000
+
+    2) Freightyard (Truck, 8x5) - capacity: 2000
+
+    3) Truck Maintenance (3x5) - capacity: 500, to boost freightyard capacity
+
+    4) Vandy's Trucking Corporation (3x5) - capacity: 500, to boost freightyard capacity with a fleet of small to large trucks
+
+    The four main lots fit seamlessly together to form one large freightyard, but the whole thing is very modular. You can use each piece on its own or combine them in different ways for further seamless combinations. For those who want to place only one lot at any time (or scatter them across their network), there is a 1x5 end piece (pure eye candy) with a logical fence-layout (and some props) that can be used on the right end (or left, by turning it 'upside down', though the left side has a 'natural' end in most configurations).
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/22285-paengs-modular-freight-yard/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3db585155573a9ad0961b2aa52722697-freight_250_1.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3db585155573a9ad0961b2aa52722697-freight_250_2.jpg
+dependencies:
+  - peg:cdk3-super-pak
+  - peg:security-fencing-kit
+  - bsc:mega-props-jes-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: paeng-modular-freight-yard
+
+---
+assetId: paeng-modular-freight-yard
+version: "1.0"
+lastModified: "2009-08-16T09:51:31Z"
+url: https://community.simtropolis.com/files/file/22285-paengs-modular-freight-yard/?do=download&r=48595

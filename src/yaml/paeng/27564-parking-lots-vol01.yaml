@@ -1,0 +1,81 @@
+group: paeng
+name: parking-lots-vol01
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Parking Lots Vol 01
+  description: |-
+    Okay, riding the wave... ;-) so you can all use the [fabulous props just released by Shok](https://community.simtropolis.com/files/file/27563-shk-parking-pack/), here is a whole range of ready made parking lots for many occasions - small, medium and large, straight and diagonal orientation, with different pavements and accessories for $, $$ and $$$ areas, COM as well as IND... All the lots have Park'n'Ride functionality and provide a small income (Business Deal) to compensate for your valuable real estate.
+
+    \* *Allow some loading time for the second screenshot - it's an animation showing the change of vehicles during the course of a day...*
+
+    **LIST OF ITEMS**
+
+    Small - 14 lots
+
+    (1x1, 1x2, 2x1)
+
+    Medium - 6 lots
+
+    (2x2, 2x3, 3x2, 3x3, 4x4)
+
+    Large - 4 lots
+
+    (6x2, 6x3, 6x6, 7x4)
+
+    **DEVELOPER NOTES**
+
+    All lots come in various configurations and are kept in separate files so you can easily select and install just your favorites. Move any lot you do not want to use out of your Plugins to a safe location.
+
+    All cars are timed prop-families, so you get a lot of variety and 'movement' during a day. If a lot seems to have too many repetitions, bulldoze and re-plop for a different mix until satisfied.
+
+    The pieces are located in the '*Transport | Miscellaneous*' menu with custom icons.
+
+    You'll notice that the ingame menu indicates things like $, $$ or $$$, IND or COM, straight or diagonal - this is not so much saying where you should use a particular lot, but wether it uses plain concrete, more fancy accessories, straight or diagonal parking bays and so on... Of course you can use any of the lots wherever you feel they'll fit in.
+
+    All parking lots need a little power and generate very slight pollution. The values (including plop cost and monthly income) depend on the size of the lot (see ingame menu for more details).
+
+    **Note1: THERE ARE TWO \*****OPTIONAL****\* MODS INCLUDED!**
+
+    1) For all who do not care for the extra income there is a small (optional) mod that will cancel out the business deal from every lot.
+
+    2) For all who prefer to have visually transit-enabled driveways there is another (optional) mod which does just that.
+
+    Both mods are packed in additional ZIP files (included in this download). Unpack and install these additional ZIPs ONLY IF -
+    * you DO NOT want the lots to generate income; and/or
+    * you DO want transit-enabled driveways.
+
+    If you are happy with the default lots, store the optional ZIPs in a safe location (together with the documentation).
+
+    Note2: A word about the 'SHK Parking Pack' - this will be my 'standard' dependency for all my cars and parking textures needs in future lotting projects. Don't hesitate to install it - you'll get good use out of it :-)
+
+    **INSTALLATION**
+
+    Put the whole bundle into "*(My )Documents/Plugins*". You may of course opt to install only certain items - just remove any lot(s) you do not wish to use - but make sure you always keep the Resource file (*KEEP\_parking\_resource.dat*) installed.
+
+    If you install the optional mods, keep them in the same folder as the core lots, but maintain the provided *z\_folders*. The mods must load AFTER the core lots.
+
+    To un-install - bulldoze all lots you may have plopped from this pack, then remove it completely from your *Plugins*.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [Nightowl Support Thread](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9154.msg204907#msg204907)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/27564-paengs-parking-lots-vol-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/c7ac8c05689ef26f478e17bd6f5cd604-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/5a947e69e21cdee0f1a8c630750abb68-.gif
+dependencies:
+  - shk:parking-pack
+assets:
+  - assetId: paeng-parking-lots-vol01
+
+---
+assetId: paeng-parking-lots-vol01
+version: "1.0"
+lastModified: "2012-05-05T00:13:48Z"
+url: https://community.simtropolis.com/files/file/27564-paengs-parking-lots-vol-01/?do=download&r=100297
