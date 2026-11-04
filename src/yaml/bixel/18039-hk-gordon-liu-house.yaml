@@ -1,0 +1,73 @@
+group: bixel
+name: hk-gordon-liu-house
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Gordon Liu House
+  description: |-
+    **The Hong Kong / Asia BAT Team**
+
+    presents
+
+    **Gordon Liu House**
+
+    BAT created by **bixel**  
+    Modding, & lot design by **bixel**
+
+    readme by **bixel**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&forumid=1)
+
+    **Introduction / Overview**
+
+    Well its been awhile. Bout time I get back to making some Pencil Towers!! This one is replicated from real reference photos of actual Pencil Towers in Hong Kong. I name this the Gordon Liu House, after one of my favorite Kung Fu Actors, Gordon Liu.
+
+    The following lots are included:
+
+    -   Growable R$
+
+    **Dependencies**
+
+    NONE!!!
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Chun Fa Luk Court**
+
+    **Parameter**
+
+    **Growable R$$**
+
+    Occupants:
+
+    825 R$
+
+    Lot Size /  
+    Growth Stage:
+
+    1x2 / stage 8
+
+    Zone Type:
+
+    Dense residential
+  author: bixel
+  website: https://community.simtropolis.com/files/file/18039-hk-gordon-liu-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b84b28e5fe0601baf65294f1aeeb3e81-Day1.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b84b28e5fe0601baf65294f1aeeb3e81-Night1.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol01
+assets:
+  - assetId: bixel-hk-gordon-liu-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-gordon-liu-house
+version: "1.0"
+lastModified: "2007-04-24T19:41:23Z"
+url: https://community.simtropolis.com/files/file/18039-hk-gordon-liu-house/?do=download
