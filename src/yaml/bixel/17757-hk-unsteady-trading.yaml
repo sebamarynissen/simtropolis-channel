@@ -1,0 +1,93 @@
+group: bixel
+name: hk-unsteady-trading
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: HK Unsteady Trading
+  description: |-
+    * * *
+
+    **The Hong Kong / Asia BAT Team**
+
+    * * *
+
+    presents
+
+    **Unsteady Trading**
+
+    BAT created by **bixel**  
+    Modding, lot design, readme & custom menu icons by **T Wrecks**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&entercat=y)
+
+    * * *
+
+    **Introduction / Overview**
+
+    Unsteady Trading is the first of three CS buildings to come. It is rather characteristic in two ways: Firstly, it helps to fill CS$$ demand by providing 350 jobs, and secondly it sits on a very compact lot, which makes it perfectly suitable as a filler building for dense downtonws. In order to prevent it from growing like weed, you'll have to zone a dense 3x1 corner lot (either corner will work), and the building won't grow before stage 8.
+
+    Unsteady Trading has been modded to serve two functions:
+
+    Ploppable functional CS$$ Growable CS$$  
+    All lots share the same basic design, but flora and people on it are randomized and will change every time the building grows or is plopped.  
+      
+    The ploppable version can be found towards the bottom of your landmarks menu, together with the other HKABT ploppables.
+
+    * * *
+
+    **Dependencies**
+
+    None - everything is included!
+
+    * * *
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: FUNCTIONAL VERSIONS**
+
+    **Parameter**
+
+    **Growable**
+
+    **Ploppable with jobs**
+
+    Occupants:
+
+    350 CS$$  
+    (813 CS$ when dilapidated)
+
+    350 CS$$  
+    (813 CS$ when dilapidated)
+
+    Lot Sizes /  
+    Growth Stage:
+
+    3x1 right & left corner  
+    (stage 8)
+
+    3x1  
+    n/a
+
+    Zone Type:
+
+    Dense commercial
+
+    n/a
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17757-hk-unsteady-trading/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9de2f48535c4298d37aeb6e9f2129402-UnsteadyTrading_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9de2f48535c4298d37aeb6e9f2129402-UnsteadyTrading_Night.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol05
+assets:
+  - assetId: bixel-hk-unsteady-trading
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-unsteady-trading
+version: "1.0"
+lastModified: "2007-02-09T17:40:30Z"
+url: https://community.simtropolis.com/files/file/17757-hk-unsteady-trading/?do=download
