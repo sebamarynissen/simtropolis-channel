@@ -1,0 +1,84 @@
+group: reddonquixote
+name: manchester-unity-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Manchester Unity Building, Melbourne, Australia
+  description: |-
+    I'm supporting NYBT's Art Deco Month with a series of three Melbourne Art Deco buildings.
+
+    **#1 Manchester Unity Building**
+
+    The Manchester Unity Building is located on the north-west corner of the intersection of Collins Street and Swanston Street.
+
+    The building's opening was celebrated on 12 December 1932 and for the first time the lights illuminating the tower and spire were turned on.
+
+    The building is of concrete-encased steel construction, with the exterior cladding of terracotta faience tiles.
+
+    (source: Wikipedia)
+
+    This is my 15th BAT.
+
+    The Manchester Unity Building is made available in the following versions:
+
+    - A ploppable Functional Landmark. Lot size 2x3, Medium Wealth Commercial Services, provides 863 jobs and costs §110,000 to build.
+
+    Also in this Art Deco series are:
+
+    - [The Century Building](pkg=reddonquixote:century-building)
+    - [The Palais Theatre](pkg=reddonquixote:palais-theatre)
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29065-manchester-unity-building-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/20ced9b45d399348b3d9b1597036acad-mu_pic_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/1e7e76da1dbcbaed2a51dcfea61126fa-mu_pic_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/8a807b4daafc5c5997599d550fdb6f65-mu_pic_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/075a999b9359fd74a997f15318d12d81-mu_pic_04.jpg
+dependencies:
+  - reddonquixote:manchester-unity-building-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-manchester-unity-building-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-manchester-unity-building-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: manchester-unity-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:manchester-unity-building`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29065-manchester-unity-building-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-manchester-unity-building-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-manchester-unity-building-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: reddonquixote-manchester-unity-building-maxisnite
+version: "1.0"
+lastModified: "2013-11-29T11:01:41Z"
+url: https://community.simtropolis.com/files/file/29065-manchester-unity-building-melbourne-australia/?do=download&r=121042
+
+---
+assetId: reddonquixote-manchester-unity-building-darknite
+version: "1.0"
+lastModified: "2013-11-29T11:01:41Z"
+url: https://community.simtropolis.com/files/file/29065-manchester-unity-building-melbourne-australia/?do=download&r=121043

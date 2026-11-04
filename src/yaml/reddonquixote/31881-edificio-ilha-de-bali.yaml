@@ -1,0 +1,38 @@
+group: reddonquixote
+name: edificio-ilha-de-bali
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Edificio Ilha De Bali, Belem, Brazil
+  description: |-
+    Just a typical South American apartment condo building located in Belem, Brazil.
+
+    This is my 41st BAT.
+
+    Edificio Ilha De Bali comes as a 3x4 growable R$$ residential lot and a 3x4 ploppable CS$$ lot, in both Darknite and Maxis night versions.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/31881-edificio-ilha-de-bali/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Edifico_01.jpg.757dec7b2e02d95c5a0de812f5cc7379.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Edifico_02.jpg.6bf88b62f208919bb994e517b51aea38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Edifico_03.jpg.7ded4cae1fe563001af6ac090b804a3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Edifico_04.jpg.f093146e54c8d33fa886faa263618fa5.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-edificio-ilha-de-bali
+        exclude:
+          - "/RDQ_Edficio_Ilha_De_Bali_DN/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-edificio-ilha-de-bali
+        exclude:
+          - "/RDQ_Edficio_Ilha_De_Bali_MN/"
+
+---
+assetId: reddonquixote-edificio-ilha-de-bali
+version: "1.0"
+lastModified: "2017-07-27T07:42:55Z"
+url: https://community.simtropolis.com/files/file/31881-edificio-ilha-de-bali/?do=download

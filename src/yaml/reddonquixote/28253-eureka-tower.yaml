@@ -1,0 +1,41 @@
+group: reddonquixote
+name: eureka-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Eureka Tower, Melbourne, Australia
+  description: |-
+    Eureka Tower is a 297m, 91 storey residential apartment building located in Southbank, Melbourne. Completed in 2006, Eureka Tower is distinctive for its blue and white striping, as well as its 24 carat gold plated glass windows on the top 10 floors of the building.
+
+    The 88th floor of the Eureka Tower is the highest public observation deck in a building in the Southern Hemisphere. (source: Wikipedia)
+
+    This is a ploppable non-functional landmark. The lot is 5x6. High Wealth, costing §110,000 to build and §150 a month.
+
+    Available in both Darknite and Maxis night versions.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28253-eureka-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/0bff51451ce642db3619b2cfa85aee6b-display_pic_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/b5397ac81de3ba98dbba3ce295d5773b-display_pic_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/62fa9fe317f7d8ec4727fa14e2ae1abb-display_pic_03.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-eureka-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-eureka-tower-darknite
+
+---
+assetId: reddonquixote-eureka-tower-maxisnite
+version: "1.0"
+lastModified: "2012-11-29T08:23:20Z"
+url: https://community.simtropolis.com/files/file/28253-eureka-tower/?do=download&r=109238
+
+---
+assetId: reddonquixote-eureka-tower-darknite
+version: "1.0"
+lastModified: "2012-11-29T08:23:20Z"
+url: https://community.simtropolis.com/files/file/28253-eureka-tower/?do=download&r=109237

@@ -1,0 +1,120 @@
+group: reddonquixote
+name: 101-collins-street
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: 101 Collins Street, Melbourne, Australia
+  description: |-
+    101 Collins Street is a 260-metre skyscraper located in Melbourne, Australia. The 57 storey building was completed in 1991.
+
+    The tower is currently the 4th tallest building in Australia and the 125th tallest building in the world when measured up to the tallest architectural point which is the 60 metre tall spire. (source: Wikipedia)
+
+    This is version 2 of my sixth BAT.
+
+    This version fixes issues identified with the modding and scale, with an entirely newly created and improved model, textures and nightlights.
+
+    101 Collins Street is made available in the following versions:
+
+    - Functional Landmark. Lot size 4x6, High Wealth Commercial Office.
+    - Non-Functional Landmark. Lot size 4x6.
+    - A Growable CO$$$ Stage 8.
+    - Functional Ploppable CO$$$ Diagonal Landmark. Lot size 4x2.
+
+    All are available in both Darknite and Maxis night versions.
+
+    **STATS for Growable**
+
+    - Lot Size: 4x6
+    - Stage: 8
+    - Capacity Satisfied: CO$$$ 4665 (CO$$ 6668 when dilapidated)
+    - Bulldoze Cost: §3710
+    - Pollution at Center: 24 / 24 / 9
+    - Pollution Radius: 6 / 7 / 0
+    - Water Consumed: 1747 Gallons
+    - Power Consumed: 162 MwH
+
+    **STATS for the functional Ploppable CO$$ landmark**
+
+    - Lot Size: 4x6
+    - Capacity Satisfied: CO$$ 7327
+    - Plop Cost: §110000
+    - Bulldoze Cost: §3595
+    - Pollution at Center: 24 / 24 / 12
+    - Pollution Radius: 6 / 7 / 0
+    - Water Consumed: 1220 Gallons
+    - Power Consumed: 122 MwH
+
+    **STATS for the functional Ploppable CO$$$ DIAGONAL landmark version**
+
+    - Lot Size: 4x2
+    - Capacity Satisfied: CO$$$ 5126 (CO$$ 7327 when dilapidated)
+    - Plop Cost: §110000
+    - Bulldoze Cost: §3710
+    - Pollution at Center: 25 / 25 / 10
+    - Pollution Radius: 6 / 7 / 0
+    - Water Consumed: 1830 Gallons
+    - Power Consumed: 170 MwH
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29844-101-collins-street-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/4ca76373ab69fb0b1784802dada3b408-101_csm_night_lg.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/bc5014009c538c2f69e025fe08d7062a-101_csm_base.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/bec79bbdd4b3e57b3008becf5b549354-101_csm_diag.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2014/33c5517695342e4d1b4a610301aaa767-101_csm_main.jpg
+dependencies:
+  - reddonquixote:101-collins-street-model
+assets:
+  - assetId: reddonquixote-101-collins-street
+    exclude:
+      - "/MN Models/"
+      - "/DN Models/"
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-101-collins-street-diagonal
+        exclude:
+          - "/DN Models/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-101-collins-street-diagonal
+        exclude:
+          - "/MN Models/"
+
+---
+group: reddonquixote
+name: 101-collins-street-model
+version: "2.1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:101-collins-street`
+  description: |-
+    The model of the non-diagonal versions of 101 Collins Street. The model of the diagonal version is included in `pkg=reddonquixote:101-collins-street`.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29844-101-collins-street-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-101-collins-street
+        include:
+          - "/MN Models/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-101-collins-street
+        include:
+          - "/DN Models/"
+
+---
+assetId: reddonquixote-101-collins-street
+version: "2.1"
+lastModified: "2023-09-26T11:44:09Z"
+url: https://community.simtropolis.com/files/file/29844-101-collins-street-melbourne-australia/?do=download&r=197851
+
+---
+assetId: reddonquixote-101-collins-street-diagonal
+version: "2.1"
+lastModified: "2023-09-26T11:44:09Z"
+url: https://community.simtropolis.com/files/file/29844-101-collins-street-melbourne-australia/?do=download&r=197850

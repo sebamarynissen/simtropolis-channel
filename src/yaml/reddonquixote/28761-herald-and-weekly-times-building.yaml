@@ -1,0 +1,85 @@
+group: reddonquixote
+name: herald-and-weekly-times-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: The Herald and Weekly Times Building, Melbourne, Australia
+  description: |-
+    The Herald and Weekly Times Building is located on the corner of Flinders and Exhibition Streets and was constructed in stages between 1921 and 1928.
+
+    The building is five storeys with a neo-classical facade of giant order Ionic pilasters. Other notable external details include the bracketed lights at the base of each pier, and in 1930 the twin steel radio towers were added for the radio station 3DB which broadcast from the building. (source: Walking Melbourne)
+
+    In 2007 this building was made into the podium of the Ernst & Young Tower. This version does not include the EY towers, which are in [Ernst & Young Plaza](pkg=reddonquixote:ernst-young-plaza).
+
+    This is my seventh BAT.
+
+    The Herald and Weekly Times Building is made available in the following versions:
+
+    - A ploppable Functional Landmark. Lot size 4x5, Medium Wealth Commercial Services, provides 2000 jobs and costs §110,000 to build.
+    - A diagonal version Functional Landmark, same specs (prop included).
+    - A growable version.
+
+    All are available in both Darknite and Maxis night versions.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/f516595f9740c1fb59af9cd008f3237e-image_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/db57404f25dc127888c3f31015405fa0-image_2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/0320883e62a4edf55813c444410f734c-image_3.jpg
+assets:
+  - assetId: reddonquixote-herald-and-weekly-times-building-ploppable-lot
+  - assetId: reddonquixote-herald-and-weekly-times-building-growable-lot
+  - assetId: reddonquixote-herald-and-weekly-times-building-diagonal-lot
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-herald-and-weekly-times-building-maxisnite-model
+      - assetId: reddonquixote-herald-and-weekly-times-building-maxisnite-diagonal-prop
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-herald-and-weekly-times-building-darknite-model
+      - assetId: reddonquixote-herald-and-weekly-times-building-darknite-diagonal-prop
+
+---
+assetId: reddonquixote-herald-and-weekly-times-building-ploppable-lot
+version: "1.0"
+lastModified: "2013-06-03T16:04:27Z"
+url: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/?do=download&r=115962
+
+---
+assetId: reddonquixote-herald-and-weekly-times-building-maxisnite-model
+version: "1.0"
+lastModified: "2013-06-03T16:04:27Z"
+url: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/?do=download&r=115963
+
+---
+assetId: reddonquixote-herald-and-weekly-times-building-maxisnite-diagonal-prop
+version: "1.0"
+lastModified: "2013-06-03T16:04:27Z"
+url: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/?do=download&r=115964
+
+---
+assetId: reddonquixote-herald-and-weekly-times-building-growable-lot
+version: "1.0"
+lastModified: "2013-06-03T16:04:27Z"
+url: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/?do=download&r=115965
+
+---
+assetId: reddonquixote-herald-and-weekly-times-building-diagonal-lot
+version: "1.0"
+lastModified: "2013-06-03T16:04:27Z"
+url: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/?do=download&r=115966
+
+---
+assetId: reddonquixote-herald-and-weekly-times-building-darknite-model
+version: "1.0"
+lastModified: "2013-06-03T16:04:27Z"
+url: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/?do=download&r=115967
+
+---
+assetId: reddonquixote-herald-and-weekly-times-building-darknite-diagonal-prop
+version: "1.0"
+lastModified: "2013-06-03T16:04:27Z"
+url: https://community.simtropolis.com/files/file/28761-the-herald-and-weekly-times-building-melbourne-australia/?do=download&r=115968

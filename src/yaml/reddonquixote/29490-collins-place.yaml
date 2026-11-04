@@ -1,0 +1,74 @@
+group: reddonquixote
+name: collins-place
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Collins Place, Melbourne, Australia
+  description: |-
+    Collins Place is a shopping and office complex in Melbourne, Victoria, Australia. Built in 1981, it comprises two office buildings (35 and 55 Collins Street) and a shopping mall in between. Also located at 35 Collins Street is Sofitel Melbourne on Collins.
+
+    Collins Place was built in seven stages, taking approximately ten years to complete at a cost of A$270 million.
+
+    Both towers were built on a square plan at 45 degree angles to the Hoddle Grid. At 35 Collins Street, Sofitel Melbourne on Collins occupies the top 15 floors. All floors of 55 Collins Street are completely leased to ANZ Bank. In the Collins Place shopping area there's a food court and cinemas.
+
+    (source: Wikipedia)
+
+    This is my 23rd BAT.
+
+    Collins Place is a 6x9 Landmark.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29490-collins-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/0ae375ffed1306b180951482f0bf634f-collinsplace_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/3d38bd54d0c08bcf0ca3963b900eb2e1-collinsplace_2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/af7ce20a47512fa7cd5e40c7efc5435d-collinsplace_3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/02b2bfbe5d9a6e8d1ca664aaec79ae0d-collinsplace_4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/c16db7e22c46e7a647735bd91ece51d2-collinsplace_main.jpg
+dependencies:
+  - reddonquixote:collins-place-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-collins-place-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-collins-place-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: collins-place-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:collins-place`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29490-collins-place/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-collins-place-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-collins-place-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: reddonquixote-collins-place-maxisnite
+version: "1.0"
+lastModified: "2014-04-17T07:23:50Z"
+url: https://community.simtropolis.com/files/file/29490-collins-place/?do=download&r=132202
+
+---
+assetId: reddonquixote-collins-place-darknite
+version: "1.0"
+lastModified: "2014-04-17T07:23:50Z"
+url: https://community.simtropolis.com/files/file/29490-collins-place/?do=download&r=132201

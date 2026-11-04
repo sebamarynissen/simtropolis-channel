@@ -1,0 +1,119 @@
+group: reddonquixote
+name: cristo-redentor
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Cristo Redentor, Rio de Janeiro, Brazil
+  description: |-
+    The Rio 2016 Olympic Project is proud to present...
+
+    **Christ the Redeemer**
+
+    Cristo Redentor is a 30 metre Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by the Brazilian engineer Heitor da Silva Costa, in collaboration with the French engineer Albert Caquot.
+
+    The statue is located at the peak of the Corcovado mountain in the Tijuca Forest National Park overlooking the city of Rio. As a symbol of Brazilian Christianity, the statue has become an icon for Rio de Janeiro and Brazil. It is made of reinforced concrete and soapstone, and was constructed between 1922 and 1931.
+
+    (Source: Wikipedia)
+
+    This is the first BAT release for the Rio 2016 Project.
+
+    Cristo Redentor is a Landmark that comes in several versions. It's a pretty complicated BAT, I've tried to keep it simple...
+
+    **Versions**
+
+    1. Statue with Observation Deck, an overhanging prop that sits on a 1x1 lot. Costs §5000 to build and §150 per month. This version has the statue and plinth atop the stone viewing platform that sits on top of the mountain. It comes with a separate staircase, on a 2x1 lot (zero effect, zero cost).
+    2. A standalone version on a 1x1 lot. This version has only the statue and plinth standing directly on the ground.
+
+    You can use both!
+
+    The statue comes in 7 different colours, selected with the `colour` variant. Only one colour can be installed at a time.
+
+    Disclaimer: I have tried to test all of these but there are so many versions I may have missed something. If you find a problem please let me know.
+
+    This is my 30th BAT.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/30172-cristo-redentor-rio-de-janeiro-brazil/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/1188dc63125350fb9485a5a3de2c3715-cr_00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/7d05283634aa8a364290430dd12db3ba-cr_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/7f4ab55fef9bfaf833d9c6e77311e195-cr_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/75a39c31a5ac1444ef5218368109a86d-cr_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/54cb96f69c4481b2c4479362626c9c1e-cr_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/caea3e40d30b1e75ac2f4bcdf369421f-cr_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/fdcbb5fb7f4c15fd6f1e808ca464fe30-cr_main.jpg
+variantInfo:
+  - variantId: reddonquixote:cristo-redentor:colour
+    description: The colour of the statue.
+    values:
+      - value: classic
+        default: true
+        description: Classic (white)
+      - value: brazilian-flag
+        description: Brazilian flag (yellow and green)
+      - value: st-patricks-day
+        description: St. Patrick's Day (green)
+      - value: world-cup-germany
+        description: World Cup - Germany (red, yellow and black)
+      - value: world-day
+        description: World Day Against Trafficking in Persons (blue)
+      - value: breast-cancer-awareness
+        description: Breast Cancer Awareness (pink)
+      - value: many-nations
+        description: Rio 2016 - Many Nations (blue, pink, yellow and green)
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-cristo-redentor-maxisnite
+        include:
+          - "/Cristo Redentor Observation Deck/"
+          - "/Cristo Redentor Standalone Statue/"
+        withConditions:
+          - ifVariant: { reddonquixote:cristo-redentor:colour: classic }
+            include: ["/Classic - White/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: brazilian-flag }
+            include: ["/Brazillian Flag/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: st-patricks-day }
+            include: ["/St Patricks Day - Green/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: world-cup-germany }
+            include: ["/World Cup - Germany Flag/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: world-day }
+            include: ["/World Day - Blue/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: breast-cancer-awareness }
+            include: ["/Breast Cancer Awareness - Pink/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: many-nations }
+            include: ["/Many Nations - Multi[- ]Coloured/"]
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-cristo-redentor-darknite
+        include:
+          - "/Cristo Redentor Observation Deck/"
+          - "/Cristo Redentor Standalone Statue/"
+        withConditions:
+          - ifVariant: { reddonquixote:cristo-redentor:colour: classic }
+            include: ["/Classic - White/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: brazilian-flag }
+            include: ["/Brazillian Flag/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: st-patricks-day }
+            include: ["/St Patricks Day - Green/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: world-cup-germany }
+            include: ["/World Cup - Germany Flag/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: world-day }
+            include: ["/World Day - Blue/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: breast-cancer-awareness }
+            include: ["/Breast Cancer Awareness - Pink/"]
+          - ifVariant: { reddonquixote:cristo-redentor:colour: many-nations }
+            include: ["/Many Nations - Multi[- ]Coloured/"]
+
+---
+assetId: reddonquixote-cristo-redentor-maxisnite
+version: "1.0"
+lastModified: "2015-03-03T10:22:40Z"
+url: https://community.simtropolis.com/files/file/30172-cristo-redentor-rio-de-janeiro-brazil/?do=download&r=148619
+
+---
+assetId: reddonquixote-cristo-redentor-darknite
+version: "1.0"
+lastModified: "2015-03-03T10:22:40Z"
+url: https://community.simtropolis.com/files/file/30172-cristo-redentor-rio-de-janeiro-brazil/?do=download&r=148618

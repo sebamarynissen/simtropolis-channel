@@ -1,0 +1,61 @@
+group: reddonquixote
+name: state-library-of-victoria
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: State Library of Victoria, Melbourne, Australia
+  description: |-
+    The State Library of Victoria is the central library of the state of Victoria, Australia, located in Melbourne.
+
+    The library originally opened in 1856, and underwent major refurbishments between 1990 and 2004, designed by architects Ancher Mortlock & Woolley. As a result of the redevelopment, the State Library of Victoria can now be considered one of the largest exhibiting libraries in the world.
+
+    A number of statues are in the entrance area. There are statues of Mr Justice Sir Redmond Barry, Q.C., designed by James Gilbert and built by Percival Ball, installed in 1887; Saint George and the Dragon, by the English sculptor Sir Joseph Edgar Boehm, installed in 1889; Jeanne d'Arc (Joan of Arc), a replica of the statue by French sculptor Emmanuel Frémiet, installed in 1907; and Charles La Trobe, by Australian sculptor Peter Corlett, installed in 2006.
+
+    **The Dome**
+
+    The landmark Domed Reading Room, which opened in 1913 and was designed by Norman G. Peebles. Its octagonal space was designed to hold over a million books and up to 500 readers. It is 34.75m in both diameter and height, and its oculus is nearly 5m wide. The dome was the largest of its type in the world on completion.
+
+    (source: Wikipedia)
+
+    This is my 25th BAT.
+
+    The State Library of Victoria is a Main City Library, occupying 13x6 lot space.
+
+    - Construction Cost: §36000
+    - Bulldoze Cost: §2750
+    - Medium Wealth
+    - Monthly Cost: §210
+    - Capacity: 400000 books
+    - School EQ boost: 0.4
+    - School Coverage Radius: 4096
+    - Landmark Effect: Magnitude 50, Radius 22
+
+    This is not a Reward Building.
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29691-state-library-of-victoria-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/79c494df98e501d8613681684377a681-state_library_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/030780a304013f351a98ccecf3243f66-state_library_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/6dd37a7e00b8c155fca6b49cae5a0c06-state_library_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2014/b829f58b7598aa73776ef6350d363749-state_library_03.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-state-library-of-victoria-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-state-library-of-victoria-darknite
+
+---
+assetId: reddonquixote-state-library-of-victoria-maxisnite
+version: "1.0"
+lastModified: "2014-06-29T11:16:04Z"
+url: https://community.simtropolis.com/files/file/29691-state-library-of-victoria-melbourne-australia/?do=download&r=136483
+
+---
+assetId: reddonquixote-state-library-of-victoria-darknite
+version: "1.0"
+lastModified: "2014-06-29T11:16:04Z"
+url: https://community.simtropolis.com/files/file/29691-state-library-of-victoria-melbourne-australia/?do=download&r=136482

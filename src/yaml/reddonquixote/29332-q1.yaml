@@ -1,0 +1,74 @@
+group: reddonquixote
+name: q1
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Q1, Gold Coast, Australia
+  description: |-
+    Q1 is a skyscraper in Surfers Paradise, on the Gold Coast, Queensland.
+
+    Q1 is the tallest building in Australia and the Southern Hemisphere when measured to the top of its spire (fourth tallest building behind the Eureka Tower, the Rialto Towers and the Infinity Tower, when measured to roof and highest habitable floor) and the second-tallest free-standing structure in the Southern Hemisphere, behind the Sky Tower in Auckland, New Zealand. It opened in November 2005.
+
+    (source: Wikipedia)
+
+    This is my 19th BAT.
+
+    Q1 is a Landmark. Lot size 12x6, and it costs §110,000 to build.
+
+    If you want to see how Q1 was made, you can view the step-by-step making of Q1 [here](https://community.simtropolis.com/topic/59608-reddonquixotes-q1-project/).
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29332-q1-goldcoast-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/30a2b741b7dd41eec10a1d85f59cea18-q1_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/d26756c2ed8e122576065aeacd6a0a22-q1_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/aca731f50a1134782fdcac823760b14b-q1_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/0a56ff4a308aa3b7767d3c8a8bbcd1aa-q1_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/8cbfee06a37912bd2210b46d9e04ab4b-q1_05.jpg
+dependencies:
+  - reddonquixote:q1-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-q1-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-q1-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: q1-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:q1`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29332-q1-goldcoast-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-q1-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-q1-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: reddonquixote-q1-maxisnite
+version: "1.0"
+lastModified: "2014-03-16T12:17:22Z"
+url: https://community.simtropolis.com/files/file/29332-q1-goldcoast-australia/?do=download&r=126385
+
+---
+assetId: reddonquixote-q1-darknite
+version: "1.0"
+lastModified: "2014-03-16T12:17:22Z"
+url: https://community.simtropolis.com/files/file/29332-q1-goldcoast-australia/?do=download&r=126384

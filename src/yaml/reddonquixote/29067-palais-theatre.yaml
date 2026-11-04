@@ -1,0 +1,82 @@
+group: reddonquixote
+name: palais-theatre
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Palais Theatre, Melbourne, Australia
+  description: |-
+    I'm supporting NYBT's Art Deco Month with a series of three Melbourne Art Deco buildings.
+
+    **#3 The Palais Theatre**
+
+    The Palais Theatre is a former cinema, now functioning exclusively as a concert venue, located in St Kilda, Victoria, Australia. With a capacity of 2,896 people, it is the largest seated theatre in Australia.
+
+    The building, which retains many of its original features, is considered one of the finest examples of Art Deco architecture in Australia and is on the Victorian Heritage Register.
+
+    (source: Wikipedia)
+
+    This is my 17th BAT.
+
+    The Palais Theatre is made available in the following versions:
+
+    - A ploppable Functional Landmark. Lot size 6x3, Medium Wealth Commercial Services, provides 1268 jobs and costs §110,000 to build.
+
+    Also in this Art Deco series are:
+
+    - [The Manchester Unity Building](pkg=reddonquixote:manchester-unity-building)
+    - [The Century Building](pkg=reddonquixote:century-building)
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29067-palais-theatre-melbourne-australia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/82baf6dabef30f9e3b585e99a338c116-pt_pic_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/f79dba918e7766d127affa44c3a1f464-pt_pic_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/e808a11c3a55e4d5f2f32b5198b77af1-pt_pic_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/6e92f791af994ffe407a4b67edbb9e53-pt_pic_04.jpg
+dependencies:
+  - reddonquixote:palais-theatre-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-palais-theatre-maxisnite
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: reddonquixote-palais-theatre-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: reddonquixote
+name: palais-theatre-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=reddonquixote:palais-theatre`
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/29067-palais-theatre-melbourne-australia/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: reddonquixote-palais-theatre-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-palais-theatre-darknite
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: reddonquixote-palais-theatre-maxisnite
+version: "1.0"
+lastModified: "2013-11-29T11:10:30Z"
+url: https://community.simtropolis.com/files/file/29067-palais-theatre-melbourne-australia/?do=download&r=121060
+
+---
+assetId: reddonquixote-palais-theatre-darknite
+version: "1.0"
+lastModified: "2013-11-29T11:10:30Z"
+url: https://community.simtropolis.com/files/file/29067-palais-theatre-melbourne-australia/?do=download&r=121061

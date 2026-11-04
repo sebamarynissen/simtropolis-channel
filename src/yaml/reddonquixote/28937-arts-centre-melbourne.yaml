@@ -1,0 +1,138 @@
+group: reddonquixote
+name: arts-centre-melbourne
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Melbourne Arts Precinct Part Two - Arts Centre
+  description: |-
+    **Arts Centre Melbourne, Australia**
+
+    The Arts Centre Melbourne is a performing arts centre consisting of a complex of theatres and concert halls in the Melbourne Arts Precinct, located in the central Melbourne suburb of Southbank. It was designed by architect Sir Roy Grounds.
+
+    **The Spire**
+
+    The new spire was completed in 1996, and reaches 162 metres. The spire is illuminated with some 6,600 metres (21,653 feet) of optic fibre tubing, 150 metres (492 feet) of neon tubing on the mast and 14,000 incandescent lamps on the spire's skirt.
+
+    **Hamer Hall**
+
+    Hamer Hall is a 2,661 seat concert hall – the largest venue in the Arts Centre complex, used for orchestra and contemporary music performances. It was opened in 1982 and was later renamed Hamer Hall in honour of Sir Rupert Hamer (the 39th Premier of Victoria) shortly after his death in 2004.
+
+    Source: Wikipedia
+
+    This is my 11th BAT.
+
+    The Arts Centre Spire & Hamer Hall occupies a tile space of 16x6. It is an Opera House, and costs §68,000 to build with a monthly cost of §330. Opera Houses provide an educational boost to older Sims.
+
+    Also included are:
+
+    1. A separate Hamer Hall filler lot. Hamer Hall is also an opera house, but has no associated costs, all costs are attached to the main lot. Place it directly under the Hamer Hall prop.
+    2. A small power generator. For some reason the BAT doesn't light easily with the standard city electrical grid. To get it to light up it may need its own generator, placed directly next to the Spire/Hamer Hall lot (hide it under the prop). It's small so will not be noticeable in-game. It outputs 6000 power but does not cost anything extra.
+
+    The City Road Underpass (tunnel entrance) is a separate package, [Arts Centre Melbourne City Road Underpass](pkg=reddonquixote:arts-centre-melbourne-city-road-underpass). It is only for anyone that wants to build a road tunnel under the Arts Centre complex, as in real life. In-game, there are no costs and it's not lit.
+
+    The Arts Centre Melbourne comes in four colours (Blue, Red, Green & Purple), selected with the `colour` variant. All four colours are available in Darknite and Maxis night versions.
+
+    Part one of the Melbourne Arts Precinct is [NGV International](pkg=reddonquixote:ngv-international).
+  author: Reddonquixote
+  website: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/d799931a6f3bc6f0c00351e0a2a9b19a-art_centre_spire_06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/7ab1e803762730176c40eead5995029b-art_centre_spire_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/7178302254e6f9fd11a6693d4ce1c130-art_centre_spire_04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/7e1a92bea2a50e7976e09cbb053cd441-art_centre_spire_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/a3dc0d779fdf2a4139dc28d67abdda17-art_centre_spire_05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/136b207a0fb23985dc20abf90fb39fbe-art_centre_spire_02.jpg
+variantInfo:
+  - variantId: reddonquixote:arts-centre-melbourne:colour
+    description: The colour of the spire.
+    values:
+      - value: blue
+        default: true
+        description: Blue
+      - value: red
+        description: Red
+      - value: green
+        description: Green
+      - value: purple
+        description: Purple
+variants:
+  - variant: { nightmode: standard, reddonquixote:arts-centre-melbourne:colour: blue }
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-blue-maxisnite
+  - variant: { nightmode: standard, reddonquixote:arts-centre-melbourne:colour: red }
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-red-maxisnite
+  - variant: { nightmode: standard, reddonquixote:arts-centre-melbourne:colour: green }
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-green-maxisnite
+  - variant: { nightmode: standard, reddonquixote:arts-centre-melbourne:colour: purple }
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-purple-maxisnite
+  - variant: { nightmode: dark, reddonquixote:arts-centre-melbourne:colour: blue }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-blue-darknite
+  - variant: { nightmode: dark, reddonquixote:arts-centre-melbourne:colour: red }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-red-darknite
+  - variant: { nightmode: dark, reddonquixote:arts-centre-melbourne:colour: green }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-green-darknite
+  - variant: { nightmode: dark, reddonquixote:arts-centre-melbourne:colour: purple }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: reddonquixote-arts-centre-melbourne-purple-darknite
+
+---
+assetId: reddonquixote-arts-centre-melbourne-red-maxisnite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119348
+
+---
+assetId: reddonquixote-arts-centre-melbourne-red-darknite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119349
+
+---
+assetId: reddonquixote-arts-centre-melbourne-purple-maxisnite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119350
+
+---
+assetId: reddonquixote-arts-centre-melbourne-green-maxisnite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119351
+
+---
+assetId: reddonquixote-arts-centre-melbourne-green-darknite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119352
+
+---
+assetId: reddonquixote-arts-centre-melbourne-blue-maxisnite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119353
+
+---
+assetId: reddonquixote-arts-centre-melbourne-blue-darknite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119354
+
+---
+assetId: reddonquixote-arts-centre-melbourne-purple-darknite
+version: "1.0"
+lastModified: "2013-08-23T10:23:51Z"
+url: https://community.simtropolis.com/files/file/28937-melbourne-arts-precinct-part-two-arts-centre/?do=download&r=119355
