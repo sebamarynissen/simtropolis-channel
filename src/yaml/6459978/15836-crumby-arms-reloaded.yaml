@@ -1,6 +1,6 @@
 group: "6459978"
 name: crumby-arms-reloaded
-version: "1.0"
+version: "1.0-1"
 subfolder: 200-residential
 info:
   summary: Crumby Arms reloaded
@@ -42,19 +42,6 @@ info:
 
     * * *
 
-    ## Installation
-
-    Just unzip the entire content of this ZIP into some archive folder. Keep all building versions, readme, and screenshots, and maybe even back it up onto a CD or an external HD together with your other SC4 stuff. This way, if you need to clean your HD and reinstall your OS, you can simply copy the stuff from your backup archive into your plugins folder again instead of having to download all plugins anew.  
-    Now go to your regular plugins folder and make a sub-folder for this download, or use the existing folder created by the installer of the original version.  
-    Then, simply copy the the sub-folder(s) of whatever version(s) you'd like to use into that folder.  
-    Remember that you can delete any undesired lot file from the sub-folders included in this download. The files are named in a way that will make it easy to see which one is which.
-
-    Make sure that you don't delete the "Crumby Arms 2 Essentials" folder, or you will get brown boxes! (Well, essentially, Crumby Arms *is* a brown box, but you know what I mean... =P )
-
-    To uninstall a version you don't like *after the building has already appeard in game*, first bulldoze all instances of that version in your cities, then save the cities and exit. Now you can safely remove the version without running any risk to experience crashes or any other inconvenience.
-
-    * * *
-
     T Wrecks  
     Wednesday, May 3, 2006.
   author: "6459978., T Wrecks"
@@ -62,8 +49,26 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0003/1118c6551605e798dc1d5d4ad3399fe0-CRUMBYDAY.jpg
     - https://www.simtropolis.com/objects/screens/0003/1118c6551605e798dc1d5d4ad3399fe0-CRUMBYNIGHT.jpg
+dependencies:
+  - 6459978:crumby-arms-reloaded-model
 assets:
   - assetId: 6459978-crumby-arms-reloaded
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: "6459978"
+name: crumby-arms-reloaded-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=6459978:crumby-arms-reloaded`
+  author: "6459978., T Wrecks"
+  website: https://community.simtropolis.com/files/file/15836-crumby-arms-reloaded/
+assets:
+  - assetId: 6459978-crumby-arms-reloaded
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: 6459978-crumby-arms-reloaded

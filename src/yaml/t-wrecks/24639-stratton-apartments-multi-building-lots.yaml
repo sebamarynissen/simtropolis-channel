@@ -1,0 +1,80 @@
+group: t-wrecks
+name: stratton-apartments-multi-building-lots
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Stratton Apartments Multi-Building Lots
+  description: |-
+    # Stratton Apartments Multi-Building Lots
+
+    BAT model by BSC member **JBSimio**
+
+    Modding & new lots by **T Wrecks**
+
+    Better pictures (click to enlarge):
+
+    [![732b20817cbab42208de15622e65b6b5.jpg](http://www.ld-host.de/uploads/thumbnails/732b20817cbab42208de15622e65b6b5.jpg)](http://www.ld-host.de/show/732b20817cbab42208de15622e65b6b5.jpg)~[![3e9597ac54dafecf3ff683afc82bcc96.jpg](http://www.ld-host.de/uploads/thumbnails/3e9597ac54dafecf3ff683afc82bcc96.jpg)](http://www.ld-host.de/show/3e9597ac54dafecf3ff683afc82bcc96.jpg)~[![e6abc5af7e294d4467d9942e32d25a63.jpg](http://www.ld-host.de/uploads/thumbnails/e6abc5af7e294d4467d9942e32d25a63.jpg)](http://www.ld-host.de/show/e6abc5af7e294d4467d9942e32d25a63.jpg)
+
+    \[NOTE: These are simple application examples that show various lots right next to each other. They were grown randomly and without taking care of the surroundings. In a real application, you would probably add free areas, forest lots, park trails, community gardens etc. in between the lots. These screenshots are only meant to show the variety that can be achieved.\]
+
+    ## INTRODUCTION
+
+    For the final part of **JBSimio**'s RUSA series re-lots, I give you no less than **45** multi-building lots of his **Stratton Apartments** BAT collection - two shapes, each in three colours, and now on more lots than you can shake a stick at! This should enable you to lay down entire neighborhoods in a snap, and all that with a uniform look, but then again without too obvious repetition: the general style and look repeats, but colours and details differ from lot to lot.
+
+    Since the lot sizes (**4x5, 5x4 and 5x5 tiles** and **medium density only**) are the same as the last two times, you can now zone areas and either make them historical or allow them to get overgrown by previously released medium-wealth lots like the [Arbor Woods Multi-Building Lots](https://www.simtropolis.com/stex/details.cfm?id=24601) and, eventually, the high-wealth [Evergreen Hills Multi-Building Lots](https://www.simtropolis.com/stex/details.cfm?id=24619).
+
+    Hence, with this upload the 'large lot' concept for the American tilesets is complete as far as medium density in the tilesets **Chicago** and **New York** is concerned.
+
+    ## STATS & FEATURES
+
+    There are two basic building models, **a larger one with a center entry** and **a smaller one with side entries**. The lots come with different building combinations, and for each building combination there are three lots: 4x5, 5x4 and 5x5 tiles in size.
+
+    | Stats | Stratton Apts. 1 | Stratton Apts. 2 | Stratton Apts. 3 | Stratton Apts. 4 | Stratton Apts. 5 |
+    | --- | --- | --- | --- | --- | --- |
+    | Buildings | 2x small (side) | 1x big (center), 1x small (side) | 2x big (center) | 3x small (side) | 1x big (center), 2x small (side) |
+    | R$ Occupants | 170 | 190 | 210 | 255 | 275 |
+    | Power Consumed | 2 | 2 | 2 | 3 | 4 |
+    | Water Consumed | 10 | 11 | 12 | 14 | 14 |
+    | Air Pollution | 7 | 8 | 9 | 10 | 10 |
+    | Water Pollution | 3 | 3 | 3 | 3 | 3 |
+    | Garbage Generated | 5 | 5 | 5 | 5 | 5 |
+    | Worth / Bulldoze Cost | 211 | 225 | 238 | 248 | 252 |
+    | Value (Tax Income) | 1722 | 1880 | 2068 | 2125 | 2142 |
+    | Tileset(s) | Chicago, New York | Chicago, New York | Chicago, New York | Chicago, New York | Chicago, New York |
+
+    In case the detailed stats are not of much use to you, rest assured that they have been tweaked carefully to fit right in without any undesired side effects. Neither do you need to fear a sudden surge in garbage production, nor will these lots act like secret cheats.
+
+    Further features:
+
+    -   45 lots included
+    -   Each lot holds 2-3 buildings in a wide variety of arrangements
+    -   1-2 building types on each lot
+    -   All buildings on a lot are always colour-matched, therefore each arrangement exists in all three colours
+    -   Extensive use of shaded props (credits to **Cycledogg**) for better realism
+    -   Slope-friendly: thanks to the great custom foundations made by **JBSimio**, the lots will look rather good on modest slopes; you will hardly see ugly lot foundations or retaining walls if you zone on halfway gently sloping terrain
+    -   BTE-compatible: All additional occupant groups that are used to count towards special BSC reward lots have been copied into these additional lots as well ("BSC Tracking Enabled")
+
+    ## THANKS AND CREDITS
+
+    Special credits to **geoffhaw**, keeper of the BSC texture index! I stumbled upon a bug affecting some BSC textures that had been made by him ages ago, and he quickly reacted by fixing these textures and sending them back to me! He has also given his permission to include the textures with my uploads for the time being, until the next BSC Mega Pack is ready. Thanks a bunch for everything!
+
+    The rest is the same procedure as last time: I'd like to express my gratitude to **JBSimio** for his superb BATs, **ArkenbergeJoe** for the 'large lot concept' and **Cycledogg** and **SimGoober** for the beautiful props - not to forget various **BSC members** for the nice textures.
+
+    ENJOY!
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/24639-stratton-apartments-multi-building-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/aca74d84ffb1cbf50c2a04dccd4db0fc-StrattonApartments_STEX1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/aca74d84ffb1cbf50c2a04dccd4db0fc-StrattonApartments_STEX2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: t-wrecks-stratton-apartments-multi-building-lots
+
+---
+assetId: t-wrecks-stratton-apartments-multi-building-lots
+version: "1.0"
+lastModified: "2010-08-17T15:10:29Z"
+url: https://community.simtropolis.com/files/file/24639-stratton-apartments-multi-building-lots/?do=download

@@ -1,0 +1,48 @@
+group: andreas-roth
+name: park-set
+version: "3"
+subfolder: 660-parks
+info:
+  summary: Park Set
+  description: |-
+    This set of parks was made long time ago, shortly after the Lot Editor was released. They are rather simple, but have turned out quite well, and I still use them frequently. I never came around to upload them to the STEX, so they are now part of the SFBT series. The original values have been overhauled, and many improvements were made to the icons, UI etc. The paths are using deadwood's alignment props that show up in the lot preview when you are plopping the lots. They will briefly appear on jan. 1st of the following year, then disappear and never come back.  
+      
+    The current version of the download contains 20 different lots. Apart from the orthogonal paths, it also features new diagonal paths, as well as various curves, a four-way intersection that was requested by a couple of users, and finally a new playground lot that fits in better than the in-game one by Maxis. All lots feature a new query window, which shows the wealth of the park lots.
+
+    **Lot Statistics**
+
+    |  |  |
+    | --- | --- |
+    | Lot size: | 1x1, 6x6, 6x8, 6x11 tiles |
+    | Menu position: | Parks |
+    | Plop cost: | § 20 to 26 (1x1), § 500 (6x6), § 800 (6x8), § 1500 (6x11) |
+    | Bulldoze cost: | § 5 (1x1), § 60 (6x6), § 90 (6x8), § 150 (6x11) |
+    | Monthly cost: | § 1 (1x1), § 75 (6x6), § 100 (6x8), § 150 (6x11) |
+    | Flammability: | 5 |
+    | Park Effect: | 30/15 tiles (1x1), 75/35 tiles (6x6), 85/45 tiles (6x8), 100/50 tiles (6x11) |
+    | Landmark Effect: | 20/10 tiles (1x1), 30/15 tiles (6x6), 40/20 tiles (6x8), 50/25 tiles (6x11) |
+    | Power consumption: | 0 MWh/month |
+    | Water consumption: | 15 Gallons/month (large parks) |
+    | Air pollution: | -2 to -5 over 2 to 4 tiles (1x1), -15 over 6 tiles (large parks) |
+    | Water pollution: | 0 over 0 tiles (1x1), 4 over 3 tiles (large parks) |
+    | Garbage pollution: | 0 over 0 tiles |
+  author: Andreas Roth
+  website: https://community.simtropolis.com/files/file/13824-sfbt-park-set-by-andreas/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5dbbe6c6b48e4ee42f0aba6d0c0e82c2-SFBT_park_set1.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5dbbe6c6b48e4ee42f0aba6d0c0e82c2-SFBT_parkset2.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - sfbt:essentials
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: andreas-roth-park-set
+
+---
+assetId: andreas-roth-park-set
+version: "3"
+lastModified: "2005-10-06T19:24:24Z"
+url: https://community.simtropolis.com/files/file/13824-sfbt-park-set-by-andreas/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

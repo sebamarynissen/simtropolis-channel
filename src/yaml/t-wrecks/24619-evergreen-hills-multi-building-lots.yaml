@@ -1,0 +1,69 @@
+group: t-wrecks
+name: evergreen-hills-multi-building-lots
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Evergreen Hills Multi-Building Lots
+  description: |-
+    # Evergreen Hills Multi-Building Lots
+
+    BAT model by BSC member **JBSimio**
+
+    Modding & new lots by **T Wrecks**
+
+    **UPDATE Aug 13, 2010: fixed a potential graphical glitch that would show on steep slopes**
+
+    Better pictures (click to enlarge):
+
+    [![a123fbcaad7dcf83d4e23f344520ca3a.jpg](http://www.ld-host.de/uploads/thumbnails/a123fbcaad7dcf83d4e23f344520ca3a.jpg)](http://www.ld-host.de/show/a123fbcaad7dcf83d4e23f344520ca3a.jpg)\~~~[![463449eabb25fd2df1991853788747a5.jpg](http://www.ld-host.de/uploads/thumbnails/463449eabb25fd2df1991853788747a5.jpg)](http://www.ld-host.de/show/463449eabb25fd2df1991853788747a5.jpg)\~~~[![4219dbb0cc25faa4900b17cb19199a05.jpg](http://www.ld-host.de/uploads/thumbnails/4219dbb0cc25faa4900b17cb19199a05.jpg)](http://www.ld-host.de/show/4219dbb0cc25faa4900b17cb19199a05.jpg)
+
+    \[NOTE: These are simple application examples that show various lots right next to each other. This time around, I left some space in between the lots and filled it with Maxis' open grass area. You could also plant some trees there or use forest lots, park trails, community gardens etc.\]
+
+    ## INTRODUCTION
+
+    This download contains four additional lots based on **JBSimio**'s Evergreen residential building, part of his RUSA series. Once again, I felt that the two variations would make for nice lots with more than one building on them. However, since the buildings are rather wide, more than two on one lot would have resulted in a terribly crowded look.
+
+    Since the lot sizes are the same as last time, existing medium-wealth lots like the [Arbor Woods Multi-Building Lots](https://www.simtropolis.com/stex/details.cfm?id=24601) I made earlier can be overgrown with the high-wealth lots contained in this package. (And yes, some low-wealth lots are in the making!)
+
+    I made this upload in order to extend the 'large lot' concept to the American tilesets. The lots contained in this archive are **4x5, 5x4 and 5x5 tiles** in size, grow on **medium density only**, and only in the tilesets **Chicago** and **New York** to differentiate them from more modern stuff. There are two 5x5 lots with totally different layouts.
+
+    ## STATS & FEATURES
+
+    Each lot comes with 2 buildings and houses **234 high-wealth sims**. They grow on **stage 4**, so you can use them pretty early in the development of your city. All other stats have been tweaked carefully to fit right in without any undesired side effects. Neither do you need to fear a sudden surge in garbage production, nor will these lots act like secret cheats.
+
+    Further features:
+
+    -   4 lots included
+    -   Each lot holds 2 buildings which appear randomly in 2 colours (grey and yellow)
+    -   Extensive use of prop families for more variety
+    -   Extensive use of shaded props (credits to **Cycledogg**) for better realism
+    -   Slope-friendly: thanks to the great custom foundations made by **JBSimio**, the lots will look rather good on modest slopes; you will hardly see ugly lot foundations or retaining walls if you zone on halfway gently sloping terrain
+    -   BTE-compatible: All additional occupant groups that are used to count towards special BSC reward lots have been copied into these additional lots as well ("BSC Tracking Enabled")
+
+    ## THANKS AND CREDITS
+
+    I'd like to express my gratitude to **JBSimio** for his superb BATs, **ArkenbergeJoe** for the 'large lot concept' and **Cycledogg** and **SimGoober** for the beautiful props - not to forget various **BSC members** for the nice textures.
+
+    ENJOY!
+
+    \[NOTE: I just realized I named the files "Evergreen Hills x3", when there are only 2 buildings on each lot. Stupid me. So yeah... ignore that part of the file name, can you do that for me? ![21.gif](https://www.simtropolis.com/fckEditor/editor/../../forum/i/expressions/21.gif)\]
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/24619-evergreen-hills-multi-building-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/daef2f8a396f3d4982ff20a33a85e75d-EvergreenHillsSTEX1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/daef2f8a396f3d4982ff20a33a85e75d-EvergreenHillsSTEX2.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+assets:
+  - assetId: t-wrecks-evergreen-hills-multi-building-lots
+
+---
+assetId: t-wrecks-evergreen-hills-multi-building-lots
+version: "1.1"
+lastModified: "2010-08-12T15:10:47Z"
+url: https://community.simtropolis.com/files/file/24619-evergreen-hills-multi-building-lots/?do=download

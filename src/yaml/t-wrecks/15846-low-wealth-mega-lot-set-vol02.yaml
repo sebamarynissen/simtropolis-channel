@@ -1,0 +1,54 @@
+group: t-wrecks
+name: low-wealth-mega-lot-set-vol02
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Low Wealth MEGA Lot Set Vol02
+  description: |-
+    This second set of low-wealth MEGA lots continues the tradition of the first one: Oversized lots with a homogeneous look and few dependencies. It adds more lots with medium to *relatively* high capacities, i.e. it bridges the gap between individual medium-capacity buildings and the huge MEGA lots from the first pack. The buildings range from low apartment blocks to mid-rise structures, and the occupant numbers from 720 to 3,360.
+
+    In total, you will find 5 lots based on 6459978's Stephen Drive, 3 lots based on 6459978's New College Apartments, and 4 lots based on 6459978's Crumby Arms 2.
+
+    In order to avoid brown boxes, you need these original buildings. You can even keep the original lots that came with them, but that's optional. What you really need is the .sc4model file that's included in each download.  
+    Please pay attention with 6459978's Stephen Drive: There are two building models included, and you will need both.  
+      
+    Besides, you will need the garage block by garyreggae that I used on most of the lots.
+
+    **EDIT July 19, 2013:**
+
+    OK, everybody - various Simtropolis upgrades have cut off the description, and some of the dependencies are no longer on the STEX - for example, garyreggae's garage block and 6459978's New College Apartments. These are updated below. Sorry about the inconvenience.
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    **EDIT May 2, 2016:**
+
+    Updated dependency list - you will need all the *.sc4model* files from the following uploads to avoid brown boxes:
+
+    -   [Newbury Apartments BSC](https://community.simtropolis.com/files/file/4349-newbury-apartments-bsc/)
+    -   [Stephen Drive](https://community.simtropolis.com/files/file/12346-stephen-drive/)
+    -   [New College Apartments](http://www.simcityplaza.de/index.php/whi-gebaeude/wohnen/file/478-new-college-apartments-von-6459978) including garyreggae's garage block
+    -   [Crumby Arms reloaded](https://community.simtropolis.com/files/file/15836-crumby-arms-reloaded/)
+
+    The lots should really be OK technically; if you have trouble growing some of them, maybe try reducing the number of 'competing' lots.
+
+    **Staff Edit:** Dependency links checked and corrected.  
+    Thanks to [@Kloudkicker](https://community.simtropolis.com/profile/790226-kloudkicker/) for reporting. Also minor text edit.
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/15846-low-wealth-mega-lot-set-vol02/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/2a799534ef963c29b567e3498af16a3f-lwml2_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/70c866f737e69c6df69b259d3fff25f6-lwml2_night.jpg
+dependencies:
+  - 6459978:crumby-arms-reloaded-model
+  - 6459978:new-college-as-residential-only-model
+  - 6459978:stephen-drive-model
+  - bsc:mega-props-gaz-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: t-wrecks-low-wealth-mega-lot-set-vol02
+
+---
+assetId: t-wrecks-low-wealth-mega-lot-set-vol02
+version: "1.0"
+lastModified: "2006-05-04T16:46:42Z"
+url: https://community.simtropolis.com/files/file/15846-low-wealth-mega-lot-set-vol02/?do=download

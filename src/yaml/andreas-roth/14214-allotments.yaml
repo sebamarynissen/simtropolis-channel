@@ -1,0 +1,34 @@
+group: andreas-roth
+name: allotments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Growable R$ allotment gardens with two ploppable reward versions
+  description: |-
+    The first plans for such allotments date back to the late 19th century. The idea came from Dr. Schreber, who wanted to provide a kind of balance in the shape of a nice garden and a natural environment particularly for people who lived in narrow tenements in the city. Another factor that continued to be important until not too long ago was the possibility to cultivate fruit and vegetables for personal needs. Whereas the first arbours were tiny, the destruction of urban residential buildings due to the war led to an increase in size of both the allotments and the arbours during and after the war. Some of these big arbours still serve as residential buildings today. Finally, these allotments can be built in SimMayors' cities, too - all it takes is a few mouse clicks. Just use the \[Ctrl\] key to zone coherent light residential areas of 4x5, 5x4 or 5x5 squares. Provided that the growth conditions are appropriate, you will quickly have a small refuge the like of which you can find in almost every modern city.
+
+    These lots are part 1 of the first set of large lots in the contemporary European style. The set consists of 50's suburban residential estates for medium density, *Plattenbauten* (i.e. pre-fabricated tenement buildings made of concrete slabs) for high density, and these allotments for low density. The basic idea was to offer a possibility to create urban districts with an individual character using lots of the same size that can overgrow each other as the city develops, but keep the character of the district. For example, if you overzone one of these lots with higher density, you will sooner or later see how the area gets upgraded to a bigger lot from this set - unless you have any other Euro-style lots of this size installed in your plugins folder.
+
+    Since these allotments (also called *Schrebergärten* in German, named after their inventor Dr. Schreber and the German word for "garden", *Garten*) were created with average worker families in mind, they have been implemented in SimCity as R$ lots. They have been implemented as low density zones to represent the character of real-life allotments, where the building density is obviously very low.
+
+    The two ploppable versions (5x8 and 8x8) work as a business deal that generates a small monthly income and can be found in the Rewards menu.
+  author: ArkenbergeJoe
+  website: https://community.simtropolis.com/files/file/14214-sfbt-allotments-by-arkenbergejoe/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/336da912124b2c7c0241279b42846bd7-SFBT_kleingaerten1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/336da912124b2c7c0241279b42846bd7-SFBT_kleingaerten2.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - sfbt:essentials
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: andreas-roth-sfbt-allotments-by-arkenbergejoe
+
+---
+assetId: andreas-roth-sfbt-allotments-by-arkenbergejoe
+version: "1.0"
+lastModified: "2005-11-21T21:00:46Z"
+url: https://community.simtropolis.com/files/file/14214-sfbt-allotments-by-arkenbergejoe/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

@@ -1,0 +1,142 @@
+group: andreas-roth
+name: construction-set
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Construction Set
+  conflicts: >-
+    Includes modified copies of the five lots of Swamper77's Construction Fillers (STEX 12312) with the same IDs
+    (Construction Supplies, Construction Vehicles, Foreman's Trailer, Pipe Laying, Ramp Construction).
+    Do not install the original lots alongside this set; bulldoze the original lots first.
+  description: |-
+    A SimForum BAT Team production.  
+    [http://www.simcityplaza.de](http://www.simcityplaza.de)  
+    [http://www.simforum.de](http://www.simforum.de)  
+      
+    Created by deejay.  
+     
+     SFBT Construction Set
+
+    SFBT Classics 
+
+    This set contains 23 different lots which can be used to create custom construction sites. The range includes simple dirt textures as well as construction site fences, construction vehicles, tower cranes and supply depots. All lots can be found in the airport menu - probably the only one that isn't overcrowded yet. ;-)  
+      
+    **Note:** This download includes a modified copy of Swamper77's [construction filler kit](http://www.simtropolis.com/stex/details.cfm?id=12312) with matching icons and menu position. Please remove either the included lots or the original lots by Swamper77 before using them in the game. If you like to use the included lots, please bulldoze the original lots first.
+
+     Lot Details and Information
+
+    The lots of the construction set can be found in the airport menu.
+
+    Lot size:
+
+    1x1, 1x2, 2x2, 2x3, 4x4 tiles
+
+    Menu position:
+
+    Airport
+
+    Plop cost:
+
+    § 5 to § 250
+
+    Bulldoze cost:
+
+    § 10
+
+    Monthly cost:
+
+    § 5
+
+    Flammability:
+
+    0
+
+    Power consumption:
+
+    0 MWh/month
+
+    Water consumption:
+
+    0 Gallons/month
+
+    Air pollution:
+
+    0 over 0 tiles
+
+    Water pollution:
+
+    0 over 0 tiles
+
+    Garbage pollution:
+
+    0 over 0 tiles
+
+    SC4Lot files:
+
+    Baustelle Schwerlastkran\_efb9c75d.SC4Lot (heavy duty mobile crane)  
+    Baustelle\_Bauzaun\_Ecke\_2f03fe81.SC4Lot (construction site fence corner)  
+    Baustelle\_Bauzaun\_gerade\_af03ff78.SC4Lot (construction site fence straight)  
+    Baustelle Bagger\_6f4ed9b5.SC4Lot (excavator)  
+    Baustelle Betonbau1 \_0f001f5d.SC4Lot (construction site 2x2)  
+    Baustelle Betonbau\_4f012d5e.SC4Lot (construction site 4x4)  
+    Baustelle Bulldozer\_6f4ed9fe.SC4Lot (bulldozer)  
+    Baustelle Dreck\_cf4ed5be.SC4Lot (dirt)  
+    Baustelle Kran mit Wippausleger\_4f013957.SC4Lot (tower crane)  
+    Baustelle Magazin\_2f4ed508.SC4Lot (construction supplies 2x1)  
+    Baustelle Raupenkran\_4f0002f3.SC4Lot (mobile crane)  
+    Baustelle Staubpiste\_4f4ed55c.SC4Lot (dirt road)  
+    Baustelle Turmdrehkran\_cf00172f.SC4Lot (tower crane)  
+    Baustelle Wippkran\_2f000ab1.SC4Lot (tower crane)  
+    Baustelle-Abbruch\_90024de1.SC4Lot (demolition site)  
+    Baustelle-Grosskran\_effccba3.SC4Lot (mobile crane)  
+    Baustelle-Strassengraben\_5002624f.SC4Lot (road construction)  
+    Baustelle-Zementmixer1\_4ffd6eea.SC4Lot (cement mixer)  
+    Construction Supplies\_0ecc5352.SC4Lot (construction supplies)  
+    Construction Vehicles\_8ecc54a3.SC4Lot (construction vehicles)  
+    Foreman's Trailer\_4ecc5616.SC4Lot (foreman's trailer)  
+    Pipe Laying\_eecc5b0d.SC4Lot (pipe laying)  
+    Ramp Construction\_0ecc5995.SC4Lot (ramp construction)
+
+    Props:
+
+    LQ\_Construction\_Props.dat
+
+     Compatibility
+
+    This download is only compatible with SimCity 4 incl. the "Rush Hour" expansion pack or SimCity 4 Deluxe.
+
+     Notes about Nightlighting Effects
+
+    These lots don't have any nightlighting.
+
+     Disclaimer
+
+    The usage of this download is on your own risk. We try to test our lots extensively, so they should work properly, but errors may still exist. The author and the [SimCityPlaza](http://www.simcityplaza.de), [SC4Devotion](http://www.sc4devotion.com) or [Simtropolis](http://www.simtropolis.com) owners are not responsible for any damages that may occur. Feel free to modify the lots for yourself and show them in your city journals, but please don't distribute them without asking us first.
+
+     Credits
+
+    Thanks to Andreas and Swamper77 for their construction lots, to gizmo28, Lord\_Quillian2, MrBisonm, SimGoober and Vlakhaas for their props and to Andreas for the icons, the custom UI and the download on [SimCityPlaza](http://www.simcityplaza.de), [SC4Devotion](http://www.sc4devotion.com) and [Simtropolis](http://www.simtropolis.com).
+
+    **\-Cori Note:** This file was previously on the STEX, but was somehow lost. Thanks to [@Tarkus](https://community.simtropolis.com/profile/109161-tarkus/) it has now been restored. ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:)")
+  author: deejay
+  website: https://community.simtropolis.com/files/file/35045-sfbt-construction-set-by-deejay/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/SFBT_baustellen_set1.jpg.b833f89ccbac8f92bd8d5e1014d5fa18.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/SFBT_baustellen_set2.jpg.64dd3cc17b7a87d633e9536c98e9a30a.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - csx:mega-props-vol01
+  - csx:mega-props-vol04
+  - gizmo:vehicle-props
+  - peg:cdk-legacy-resources
+  - sfbt:essentials
+assets:
+  - assetId: andreas-roth-construction-set
+
+---
+assetId: andreas-roth-construction-set
+version: "1.0"
+lastModified: "2022-04-09T12:58:32Z"
+url: https://community.simtropolis.com/files/file/35045-sfbt-construction-set-by-deejay/?do=download
