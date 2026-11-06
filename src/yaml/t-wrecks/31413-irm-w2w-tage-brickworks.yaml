@@ -1,0 +1,55 @@
+group: t-wrecks
+name: irm-w2w-tage-brickworks
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 3 W2W I-D lots using the Tage Brickworks BAT by Tag_One
+  description: |-
+    This is the eighth upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. This massive building is another dirty industry BAT, **Tage Brickworks** by **Tag_One**.
+
+    The building will provide a whopping **1400 I-D jobs**. Since it is so huge, you can use it for mid-rise areas just fine - it might be one of those huge factories that ended up in the city as the city grew. Due to its shape, it is lotted as a building that can form an "end cap" for a 6 tiles deep city block with W2W buildings both in front and in the back. Here's the lot breakdown:
+
+    - 6x6 left cap, Stage 3
+    - 6x6 right cap, Stage 3 (2 versions)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed, and these lots grow at Stage 6.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **Tag_One** for this whopper!
+
+    T Wrecks, December 30, 2016
+  conflicts: "Contains the IRM lots for `pkg=tag-one:tage-brickworks`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31413-irm-w2w-tage-brickworks-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_TageBrickworks_01.jpg.14cf23969961dd84810c758cdbc98431.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_TageBrickworks_02.jpg.757b63ee7614dfbf3a11ef2a0d23c80f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_TageBrickworks_03.jpg.c14692885753bd765496e10b45dfd0d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_TageBrickworks_04.jpg.e7fb7a7646ad8003f62fc2385f97a377.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-tage-brickworks
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Tage Brickworks \\(T1\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-tage-brickworks
+version: "1.0"
+lastModified: "2016-12-30T14:59:00Z"
+url: https://community.simtropolis.com/files/file/31413-irm-w2w-tage-brickworks-by-tag_one/?do=download

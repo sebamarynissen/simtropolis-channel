@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-linda-swampy-medical-centre
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Linda Swampy Medical Centre BAT by kellydale2003
+  description: |-
+    Time for something completely different - different style, different size, different author!
+
+    The 17th upload in this series, **Linda Swampy Medical Centre** by **kellydale2003**, was released as both a hospital and a high-tech industry building. I kept the high-tech version and simply complemented it with two lots in the familiar IRM style - which was not easy to do because of a problem with the LOD that prevented me from placing any taller props next to the building's exterior walls. This is why both lots look rather simple and flat. Not much else to tell this time, other than this is a 3dsmax building that can be downloaded in both DarkNite and Maxis night, but due to technical reasons will not be compatible with the gradual day/night cycle. Instead, it will switch from the day model to the night model - and back - instantaneously, as practically all 3dsmax BATs do.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **150 I-HT jobs**, the quadrupler version **600 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 5x6, Stage 3
+    - 6x5, Stage 3
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 1618 jobs, and the lots grow at Stage 6.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **NO**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **kellydale2003** - accompanied by the wish to see you on the forums again, man! We miss you.
+
+    T Wrecks, December 23, 2017
+  conflicts: "Contains the IRM lots for `pkg=kellydale2003:linda-swampy-medical-centre`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32044-irm-i-ht-linda-swampy-medical-centre-by-kellydale2003/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/IRM_I-HT_KD2003_LS_MedCentre_01.jpg.5175114f90bc5d13a9c583511aed8b08.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/IRM_I-HT_KD2003_LS_MedCentre_02.jpg.519f80274a2d6542c02495647c298570.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/IRM_I-HT_KD2003_LS_MedCentre_03.jpg.aed08f5505aeb40e27bf5ced85879862.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/IRM_I-HT_KD2003_LS_MedCentre_04.jpg.48b32315ca14b10c483a59c73bc0afa6.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - kellydale2003:linda-swampy-medical-centre-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-linda-swampy-medical-centre
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-linda-swampy-medical-centre
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Linda Swampy Medical Centre \\(kellydale2003\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-linda-swampy-medical-centre
+version: "1.0"
+lastModified: "2017-12-23T22:52:00Z"
+url: https://community.simtropolis.com/files/file/32044-irm-i-ht-linda-swampy-medical-centre-by-kellydale2003/?do=download

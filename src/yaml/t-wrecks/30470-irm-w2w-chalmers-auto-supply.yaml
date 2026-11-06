@@ -1,0 +1,57 @@
+group: t-wrecks
+name: irm-w2w-chalmers-auto-supply
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Chalmers Auto Supply BAT by nofunk
+  description: |-
+    As the 20th and final upload of this first batch of IRM W2W lots based on BAT models made by other artists, I present **Chalmers Auto Supply** by BSP/mipro member **nofunk**.
+
+    The building will provide **320 I-D jobs** and comes with 2 corner lots, one being a regular corner lot and the other suitable as an "end cap" for W2W blocks. Here's what you'll get:
+
+    - 4x4 left corner, Stage 1
+    - 4x4 right cap*, Stage 1
+
+    *can be used to "cap off" a block of W2W rowhouses front and back towards one side, see screenshots
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 237 jobs and grow at Stage 4.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    While this upload concludes the first pack of 20 I-D uploads, it is far from the last IRM W2W upload I have in store for you. Next up will be another pack of 20 I-M uploads. They're sitting on my HD and only need documentation, screenshots and packaging, but due to an ever-busy RL, uploads will probably come irregularly. For now, I'm glad I have completed uploading the first pack, and I'd like to thank **nofunk** for the great BAT. I'd also like to thank all the kind people who have downloaded, rated, commented, and given feedback - I really appreciate it!
+
+    T Wrecks, April 23, 2015
+  conflicts: "Contains the IRM lots for `pkg=nofunk:chalmers-auto-supply`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30470-irm-w2w-chalmers-auto-supply-by-nofunk/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/8d692ac2c3858b5ed4430a353fb6b380-irm_w2w_chalmersautosupply_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/6975640d4cf9ea064b42ae1c6bfb5685-irm_w2w_chalmersautosupply_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/248597175bfc3b87b1100a44aa2968bf-irm_w2w_chalmersautosupply_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/26a3f7500297a455c780f295f5c0836f-irm_w2w_chalmersautosupply_04.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - nofunk:chalmers-auto-supply-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-chalmers-auto-supply
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Chalmers Auto Supply \\(nofunk\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-chalmers-auto-supply
+version: "1.0"
+lastModified: "2015-04-23T18:24:00Z"
+url: https://community.simtropolis.com/files/file/30470-irm-w2w-chalmers-auto-supply-by-nofunk/?do=download

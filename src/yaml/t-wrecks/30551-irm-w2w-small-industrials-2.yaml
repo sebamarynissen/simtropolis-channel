@@ -1,0 +1,57 @@
+group: t-wrecks
+name: irm-w2w-small-industrials-2
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 14 W2W I-M lots using the Small Industrial BATs by DK1
+  description: |-
+    This is the third upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. This building is actually a whole bunch of buildings, **Small Industrials 2**, made by **DK1**. They are all similarly sized and shaped, but differently designed and themed - good small fillers for your starting cities.
+
+    All buildings contained in this pack provide **60 I-M jobs** and come with lots for straight road sections and corner lots. The lot sizes vary between 1x2, 2x1, and 2x2 - in total, you will get the following 14 lots:
+
+    - 2x1 straight, Stage 1 (6 lots)
+    - 1x2 left corner, Stage 1 (2 lots)
+    - 1x2 right corner, Stage 1 (2 lots)
+    - 2x2 left corner, Stage 1 (2 lots)
+    - 2x2 right corner, Stage 1 (2 lots)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 12 to 14 jobs. Two of the 2x1 lots (the BNG Industries ones) grow at Stage 2; all other lots also grow at Stage 1.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Thanks to **DK1**, probably one of the most underrated BATters, for this creation!
+
+    T Wrecks, May 19, 2015
+  conflicts: "Contains the IRM lots for `pkg=dk1:small-industrial`. Installing both results in duplicate lots of the same buildings, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30551-irm-w2w-small-industrials-2-by-dk1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/46023141d8feb8c3133556dea652c489-irm_w2w_smallindustrials2_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/e67925cc9c93b6a8273d948b6da84e0a-irm_w2w_smallindustrials2_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/09d984c7c8881b819952316140793a35-irm_w2w_smallindustrials2_03.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - dk1:small-industrial-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-small-industrials-2
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Small Industrials 2 \\(DK1\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-small-industrials-2
+version: "1.0"
+lastModified: "2015-05-19T22:09:00Z"
+url: https://community.simtropolis.com/files/file/30551-irm-w2w-small-industrials-2-by-dk1/?do=download

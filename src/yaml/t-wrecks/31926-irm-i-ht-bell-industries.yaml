@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-bell-industries
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Bell Industries BAT by SimGoober
+  description: |-
+    This time I don't keep you waiting for so long, so let's continue with the IRM!
+
+    The sixth upload in this series is another old classic, **Bell Industries** by **SimGoober**. Unlike the one before, this time I'm relatively pleased with the lot. For this building, I chose the "open lot" approach again, which means that the building is pretty much in the middle of a concrete area and will integrate into other high-tech buildings around - unless you decide to surround it with a fence or wall, that is.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **44 I-HT jobs**, the quadrupler version **176 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x4, Stage 2
+    - 4x4, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 247 jobs, and the lots grow at Stage 4 (3x4) and Stage 3 (4x4).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to omnipresent **SimGoober** - and not for the last time, either.
+
+    T Wrecks, September 2, 2017
+  conflicts: "Contains the IRM lots for `pkg=simgoober:hi-tech-industrial-set`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31926-irm-i-ht-bell-industries-by-simgoober/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_BellIndustries_01.jpg.cad6a867d6c9294e4fd1f80cdb54f6d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_BellIndustries_02.jpg.b871705f35bc3a459da666bcf9d9070b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_BellIndustries_03.jpg.c005ef7d67f98efabf70df3cefdbd7d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_09/IRM_I-HT_SG_BellIndustries_04.jpg.d8a2615f6706c7edba5157e41d8019dd.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:sg-models-iht
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-bell-industries
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-bell-industries
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Bell Industries \\(SimGoober\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-bell-industries
+version: "1.0"
+lastModified: "2017-09-02T20:58:00Z"
+url: https://community.simtropolis.com/files/file/31926-irm-i-ht-bell-industries-by-simgoober/?do=download

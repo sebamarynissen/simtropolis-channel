@@ -1,0 +1,73 @@
+group: t-wrecks
+name: irm-i-ht-mail-distribution-centre
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Mail Distribution Centre BAT by Mattb325
+  description: |-
+    After a shorter hiatus this time, I'm pleased to upload a relot of another very interesting BAT:
+
+    The 35th upload in this series, **Mail Distribution Centre**, is the second of the two BATs by **Mattb325** that I decided to re-lot for the IRM. This one was modular, so it allowed for very flexible layouts. I decided to keep it basic, both by keeping it at two fully equipped lots (all buildings present) and by restricting these to a relatively vanilla-friendly lot size of 6x6 each.
+
+    It might not look like it at the first glance, but a lot of work went into these. The buildings are really fun to fiddle around with, and I think I have found two configurations where textures and building props complement each other rather nicely. Both lots are full of details and have several footpaths connecting the individual structures and a little open-air break area. Shaded props were used very extensively once again.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **100 I-HT jobs**, the quadrupler version **400 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 6x6, Stage 2 (2 versions)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 127 jobs, and the lots grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this modular BAT go to **Mattb325**!
+
+    T Wrecks, May 24, 2018
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32263-irm-i-ht-mail-distribution-centre-by-mattb325/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_MailDistributionCentre_01.jpg.a4e152841f35e76f3f8943007fdd8bbb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_MailDistributionCentre_02.jpg.b7d7a0cbc41d6deb16c46a5e125c5937.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_MailDistributionCentre_03.jpg.c2f2ca055958f0be6050f76f245920e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_MailDistributionCentre_04.jpg.399ed8e8f0092b83dc1e79c57f5dd260.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_MailDistributionCentre_05.jpg.021fbde81b1c58c19d398a47f2493109.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - mattb325:mail-distribution-center-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-mail-distribution-centre
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-mail-distribution-centre
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Mail Distribution Centre \\(Mattb325\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-mail-distribution-centre
+version: "1.0"
+lastModified: "2018-05-24T21:39:00Z"
+url: https://community.simtropolis.com/files/file/32263-irm-i-ht-mail-distribution-centre-by-mattb325/?do=download

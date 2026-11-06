@@ -1,6 +1,6 @@
 group: simhottoddy
 name: bsp-detroit-elevator-company
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: BSP Detroit Elevator Company
@@ -37,11 +37,14 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0015/86d8af44e76c918bc5c63d309c664ca9-STEX061.jpg
     - https://www.simtropolis.com/objects/screens/0015/86d8af44e76c918bc5c63d309c664ca9-STEX05.jpg
+dependencies:
+- simhottoddy:bsp-detroit-elevator-company-model
 variants:
 - variant: { toroca:industry-quadrupler:capacity: "standard" }
   assets:
   - assetId: simhottoddy-bsp-detroit-elevator-company
     exclude:
+    - "\\.SC4Model$"
     - /I-m_3x2_Detroit_Elevator_Co_PLOP_X4.SC4Lot
     - /I-m3_3x2_Detroit_Elevator_Co_GROW_X4.dat
 - variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
@@ -50,8 +53,23 @@ variants:
   assets:
   - assetId: simhottoddy-bsp-detroit-elevator-company
     exclude:
+    - "\\.SC4Model$"
     - /I-m_3x2_Detroit_Elevator_Co_PLOP.SC4Lot
     - /I-m3_3x2_Detroit_Elevator_Co_GROW.dat
+
+---
+group: simhottoddy
+name: bsp-detroit-elevator-company-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=simhottoddy:bsp-detroit-elevator-company`
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/23767-bsp-detroit-elevator-company/
+assets:
+- assetId: simhottoddy-bsp-detroit-elevator-company
+  include:
+  - "\\.SC4Model$"
 
 ---
 assetId: simhottoddy-bsp-detroit-elevator-company

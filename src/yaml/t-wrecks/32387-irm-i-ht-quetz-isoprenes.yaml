@@ -1,0 +1,94 @@
+group: t-wrecks
+name: irm-i-ht-quetz-isoprenes
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 16 I-HT lots using the Quetz Isoprenes BAT models by HunD88
+  description: |-
+    Today I have the honour of presenting the final IRM I-HT upload (for the time being), the next uploads will be manufacturing industry.
+
+    The 40th and last upload in this series, **Quetz Isoprenes** by **HunD88**, contains an entire phalanx of lots (16 in total) because HunD88 was kind enough to provide a bunch of individual BAT models that can be assembled to various lot configurations - a possibility that I gladly took advantage of!
+    I had a blast lotting this one, although it's been a lot of work, too. Once I had a general theme laid out, however, I kept recycling familiar elements to ensure all individual lots would share enough common features even though I did my best to make each and every lot unique. Some of the lots are really plain jane and generic, others are more intricate. You'll find everything from small single-building lots to large complexes in here.
+    As a special bonus, this download also contains some "mech" lots that may grow adjacent to other I-HT anchor lots and will hopefully help to bring some more variety to your high-tech areas. Even if you have the IRM anchor lots blocked using the IRM lot blocker (`pkg=t-wrecks:irm-lot-blockers`), these "mech" lots (pumping facilities and tanks) will be able to grow and complement those anchor lots that are not blocked.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **10-70 I-HT jobs**, the quadrupler version **40-280 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 2x3, Stage 1 (Quetz Isoprenes 1 - small building x1), 15/60 jobs
+    - 3x2, Stage 1 (Quetz Isoprenes 1 - small building x1), 15/60 jobs
+    - 3x3, Stage 1 (Quetz Isoprenes 2 - small building x2), 25/100 jobs
+    - 4x3, Stage 1 (Quetz Isoprenes 2 - small building x2), 25/100 jobs
+    - 3x5, Stage 1 (Quetz Isoprenes 3 - small building + tanks + pipes), 25/100 jobs
+    - 4x4, Stage 1 (Quetz Isoprenes 3 - small building + tanks + pipes), 25/100 jobs
+    - 3x3, Stage 1 (Quetz Isoprenes 4 - larger building), 25/100 jobs
+    - 4x2, Stage 1 (Quetz Isoprenes 4 - larger building), 25/100 jobs
+    - 4x5, Stage 3 (Quetz Isoprenes 5 - small + large + tanks + pipes), 50/200 jobs
+    - 5x4, Stage 2 (Quetz Isoprenes 5 - small + large + tanks + pipes), 50/200 jobs
+    - 5x6, Stage 3 (Quetz Isoprenes 6 - small + large + 2x tanks + pipes), 70/280 jobs
+    - 6x5, Stage 3 (Quetz Isoprenes 6 - small + large + 2x tanks + pipes), 70/280 jobs
+    - 2x3, Stage 1 (Quetz Isoprene Tanks - tanks x1), 20/80 jobs [MECH]
+    - 5x3, Stage 2 (Quetz Isoprene Tanks - tanks x2), 40/160 jobs [MECH]
+    - 1x4, Stage 1 (Quetz Isoprene Pumping - pipes x1), 10/40 jobs [MECH]
+    - 2x4, Stage 1 (Quetz Isoprene Pumping - pipes x2), 20/80 jobs [MECH]
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and all lots grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **HunD88**!
+
+    T Wrecks, July 30, 2018
+  conflicts: "Contains the IRM lots for `pkg=hund88:quetz-isoprenes-co`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32387-irm-i-ht-quetz-isoprenes-by-hund88/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_MAIN.jpg.220849fc8040d1e4e258bc1b87b5d2e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_01.jpg.fcf52c1cf0b276e7e5e9f447db35342e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_02.jpg.0a414613c92d14edcc6e83e3e6bd376d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_03.jpg.fd94aa103859a289d934356513fe903c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_04.jpg.61356c24cdcb8929e5189615b9e9b487.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_05.jpg.8ecf6001d8fddeb26ee841055f447bc3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_06.jpg.ea7410a2c01380585db8a14288114d70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/IRM_I-HT_H88_QuetzIsoprenes_ADD.jpg.81392da383edadd405458ec0ade4f567.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - hund88:quetz-isoprenes-co-props
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-quetz-isoprenes
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+          - "\\.dat$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-quetz-isoprenes
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+          - "\\.dat$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Quetz Isoprenes \\(HunD88\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-quetz-isoprenes
+version: "1.0"
+lastModified: "2018-08-01T21:45:00Z"
+url: https://community.simtropolis.com/files/file/32387-irm-i-ht-quetz-isoprenes-by-hund88/?do=download

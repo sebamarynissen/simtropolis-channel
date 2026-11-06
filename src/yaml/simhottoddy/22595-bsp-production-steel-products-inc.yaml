@@ -1,6 +1,6 @@
 group: simhottoddy
 name: bsp-production-steel-products-inc
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: BSP Production Steel Products Inc.
@@ -53,11 +53,14 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0018/a160cd5d9262181a0daaaf14fdc36da3-ProductionSteel01.jpg
     - https://www.simtropolis.com/objects/screens/0018/a160cd5d9262181a0daaaf14fdc36da3-ProductionSteel02.jpg
+dependencies:
+- simhottoddy:bsp-production-steel-products-inc-model
 variants:
 - variant: { toroca:industry-quadrupler:capacity: "standard" }
   assets:
   - assetId: simhottoddy-bsp-production-steel-products-inc
     exclude:
+    - "\\.SC4Model$"
     - /I-m Growable X4/
     - /I-m Ploppable X4/
 - variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
@@ -66,8 +69,23 @@ variants:
   assets:
   - assetId: simhottoddy-bsp-production-steel-products-inc
     exclude:
+    - "\\.SC4Model$"
     - /I-m Growable/
     - /I-m Ploppable/
+
+---
+group: simhottoddy
+name: bsp-production-steel-products-inc-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=simhottoddy:bsp-production-steel-products-inc`
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/22595-bsp-production-steel-products-inc/
+assets:
+- assetId: simhottoddy-bsp-production-steel-products-inc
+  include:
+  - "\\.SC4Model$"
 
 ---
 assetId: simhottoddy-bsp-production-steel-products-inc

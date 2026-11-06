@@ -1,0 +1,54 @@
+group: t-wrecks
+name: irm-w2w-gaulargaten-15
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Gaulargaten 15 BAT by Glenni
+  description: |-
+    The 18th upload in a series of IRM W2W lots based on BAT models made by other artists is **Gaulargaten 15** by **Glenni**.
+
+    The building will provide **100 I-D jobs**, and being one of the few buildings that were actually designed for W2W use, there wasn't really much room for variation. Therefore, all that's different between the lots is the props in the backyard. The resulting lot breakdown is short and simple:
+
+    - 2x2 straight, Stage 1 (2 versions)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 14 jobs and also grow at Stage 1.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Thanks and credits to **Glenni** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    Oh, and Glenni, old Viking - if you read this: I certainly regret you didn't get around to making more stuff along these lines.
+
+    T Wrecks, April 13, 2015
+  conflicts: "Contains the IRM lots for `pkg=glenni:gaulargaten-15-w2w-industrial`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30446-irm-w2w-gaulargaten-15-by-glenni/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/e93867844112bae50a9e65c4fa3cb3ba-irm_w2w_gaulargaten15_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2015/cc5ffd2af7a85294d8f5d65ca576f410-irm_w2w_gaulargaten15_02.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - glenni:gaulargaten-15-w2w-industrial-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-gaulargaten-15
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Gaulargaten 15 \\(Glenni\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-gaulargaten-15
+version: "1.0"
+lastModified: "2015-04-13T19:13:00Z"
+url: https://community.simtropolis.com/files/file/30446-irm-w2w-gaulargaten-15-by-glenni/?do=download

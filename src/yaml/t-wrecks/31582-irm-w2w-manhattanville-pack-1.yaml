@@ -1,0 +1,74 @@
+group: t-wrecks
+name: irm-w2w-manhattanville-pack-1
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 8 W2W I-M lots using 5 Manhattanville Project buildings by NYBT ABBT
+  description: |-
+    After another hiatus, I finally gave myself a push and got around to uploading this one. It marks the twelfth upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. Frankly, I didn't have too much work with this one because the high-quality 3dsmax BATs in this pack, **Manhattanville Pack 1** by **NYBT / ABBT** were designed to be W2W in the first place. I merely tweaked a few stats, assigned the zones, added a few lot options, and a prop here and there.
+
+    The buildings will provide **72 to 144 I-M jobs** for your Sims (for details, see lot breakdown below). They will look best among low-rise development. As the screenshot shows, there is not much lot design to speak of; the buildings mostly sit snugly on the lot with blank walls to all sides not facing a street/road.
+
+    As usual, here's the list of lots included:
+
+    **640 West 132nd Street (96 I-M jobs):**
+
+    - 2x2 straight, Stage 1
+    - 2x2 right corner, Stage 1
+
+    **641 West 131st Street (144 I-M jobs):**
+
+    - 3x2 straight, Stage 1
+
+    **653 West 131st Street (72 I-M jobs):**
+
+    - 1x2 straight, Stage 1
+
+    **2307 Joe DiMaggio Highway (92 I-M jobs):**
+
+    - 2x2 left corner, Stage 1
+    - 2x2 right corner, Stage 1
+
+    **2311 Joe DiMaggio Highway (108 I-M jobs):**
+
+    - 2x2 left corner, Stage 1
+    - 2x2 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 25 to 119 jobs per building and grow at higher stages: 640 West 132nd Street and 2307 Joe DiMaggio Highway at Stage 2, 653 West 131st Street at Stage 3, and 641 West 131st Street and 2311 Joe DiMaggio Highway at Stage 4.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to the **NYBT ABBT guys** for these BATs!
+
+    T Wrecks, April 23, 2017
+  conflicts: "Contains the IRM lots for `pkg=abbt:manhattanville-project-1st-pack`. Installing both results in duplicate lots of the same buildings, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31582-irm-w2w-nybt-abbt-manhattanville-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/IRM_W2W_NYBT_ABBT_1.jpg.d610d3b3133de489040e1ec393be333c.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - abbt:manhattanville-project-1st-pack-models
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-nybt-abbt-manhattanville-pack-1
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/NYBT ABBT Manhattanville Pack 1/"
+
+---
+assetId: t-wrecks-irm-w2w-nybt-abbt-manhattanville-pack-1
+version: "1.0"
+lastModified: "2017-04-23T13:30:00Z"
+url: https://community.simtropolis.com/files/file/31582-irm-w2w-nybt-abbt-manhattanville-pack-1/?do=download

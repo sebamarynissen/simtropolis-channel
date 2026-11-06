@@ -1,0 +1,56 @@
+group: t-wrecks
+name: irm-w2w-studebaker-building
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-M lots using the NYBT ABBT Studebaker Building BAT by SimHoTToDDy
+  description: |-
+    This huge, iconic factory building from ye goode old times™ marks the 15th and final upload in the third series of IRM W2W lots based on BAT models made by other artists. Once again, I didn't have too much work with this one because the high-quality 3dsmax BATs by the Manhattanville Team were designed to be W2W in the first place, and **Studebaker Building** was certainly no exception. Besides, the lot didn't leave much space to work with in the first place. I merely tweaked a few stats, assigned the zones, added a few lot options, and a prop here and there.
+
+    The building will provide **488 I-M jobs** for your Sims and, as the screenshots show, will look great among mid-rise development. The lots can be used to form an interesting end cap to a 4-tiles deep W2W block, closing it off to three sides and with two 2-tile deep rows of W2W buildings back-to-back on the last side. As the screenshot shows, there is not much lot design to speak of; the building sits snugly on the lot. As usual, here's the lots breakdown:
+
+    - 4x4 left cap, Stage 2
+    - 4x4 right cap, Stage 2
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 1475 jobs and grow at Stage 9.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to the **NYBT ABBT guys** for their great team effort in general, and to SimHoTToDDy for this impressive BAT in particular!
+
+    A big shout out to all you guys who went with me on this IRM W2W journey, followed, liked, and downloaded my stuff - it is much appreciated. I know wall-to-wall industry is pretty niche, so this will be the last upload of this category for quite a while. On a more cheerful note, you can brace yourselves for a huge number of good old regular (non-W2W) industry.
+
+    T Wrecks, June 4, 2017
+  conflicts: "Contains the IRM lots for `pkg=simhottoddy:nybt-abbt-the-studebaker-building`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31735-irm-w2w-nybt-abbt-studebaker-building-by-simhottoddy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/IRM_W2W_NYBT_ABBT_Studebaker_01.jpg.d9da55cb9e0cbf96e2cf003bbf9d948b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/IRM_W2W_NYBT_ABBT_Studebaker_02.jpg.dca45b20a826c48411d814b46ff75212.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/IRM_W2W_NYBT_ABBT_Studebaker_03.jpg.3882df41b81da8af5cf0cb38e8eeb174.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - simhottoddy:nybt-abbt-the-studebaker-building-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-nybt-abbt-studebaker-building
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/NYBT ABBT Studebaker Building \\(SimHoTToDDy\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-nybt-abbt-studebaker-building
+version: "1.0"
+lastModified: "2017-06-04T21:08:00Z"
+url: https://community.simtropolis.com/files/file/31735-irm-w2w-nybt-abbt-studebaker-building-by-simhottoddy/?do=download

@@ -1,6 +1,6 @@
 group: jasoncw
 name: hammer-data-security
-version: "1.0-1"
+version: "1.0-2"
 subfolder: 400-industrial
 info:
   summary: Hammer Data Security
@@ -34,28 +34,63 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/hammer-data-security-01.jpg.3ad08f4f21f8049233c3331e93d46ca8.jpg
 dependencies:
   - heinbloed4711:hi-tech-missing-high-wealth-jobs
+  - jasoncw:hammer-data-security-model
 variants:
   - variant: { nightmode: standard, CAM: "no", jasoncw:hammer-data-security:capacity: standard }
     assets:
       - assetId: jasoncw-hammer-data-security-maxisnite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark, CAM: "no", jasoncw:hammer-data-security:capacity: standard }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-hammer-data-security-darknite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: standard, CAM: "no", jasoncw:hammer-data-security:capacity: doubled }
     assets:
       - assetId: jasoncw-hammer-data-security-2x-maxisnite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark, CAM: "no", jasoncw:hammer-data-security:capacity: doubled }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-hammer-data-security-2x-darknite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: standard, CAM: "yes" }
     assets:
       - assetId: jasoncw-hammer-data-security-cam-maxisnite
+        exclude:
+          - "\\.SC4Model$"
   - variant: { nightmode: dark, CAM: "yes" }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: jasoncw-hammer-data-security-cam-darknite
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jasoncw
+name: hammer-data-security-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jasoncw:hammer-data-security`
+  author: Jasoncw
+  website: https://community.simtropolis.com/files/file/28714-hammer-data-security/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jasoncw-hammer-data-security-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: jasoncw-hammer-data-security-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: jasoncw-hammer-data-security-cam-darknite

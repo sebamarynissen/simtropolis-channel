@@ -1,0 +1,50 @@
+group: andreas-roth
+name: klemmt-and-sons
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Mechanical engineering company Klemmt & Sons by Mathe Man
+  description: |-
+    The medium-sized mechanical engineering company Klemmt & Sons produces heavy equipment. The building is designed after a 60s structure, featuring a row of well-visible external braces that carry the travelling crab which is used for lifting heavy loads, such as large diesel engines.
+
+    **Lot Statistics:**
+
+    - Lot size: 3x4 tiles
+    - Building style(s): Industry
+    - Stage: 3
+    - Jobs: 57 I-M
+  author: Andreas Roth
+  website: https://community.simtropolis.com/files/file/14851-sfbt-klemmt-and-sons-by-mathe-man/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/135f460ce5a6f18316c0a8f9840d4c9d-SFBT_klemmt_sons1.jpg
+    - https://www.simtropolis.com/objects/screens/0003/135f460ce5a6f18316c0a8f9840d4c9d-SFBT_klemmt_sons2.jpg
+dependencies:
+  - sfbt:essentials
+  - andreas-roth:klemmt-and-sons-model
+assets:
+  - assetId: andreas-roth-sfbt-klemmt-and-sons
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: andreas-roth
+name: klemmt-and-sons-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=andreas-roth:klemmt-and-sons`
+  author: Andreas Roth
+  website: https://community.simtropolis.com/files/file/14851-sfbt-klemmt-and-sons-by-mathe-man/
+assets:
+  - assetId: andreas-roth-sfbt-klemmt-and-sons
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: andreas-roth-sfbt-klemmt-and-sons
+version: "1.0"
+lastModified: "2006-01-29T12:44:00Z"
+url: https://community.simtropolis.com/files/file/14851-sfbt-klemmt-and-sons-by-mathe-man/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

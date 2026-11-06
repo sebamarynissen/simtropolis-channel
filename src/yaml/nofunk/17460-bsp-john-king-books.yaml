@@ -1,6 +1,6 @@
 group: nofunk
 name: bsp-john-king-books
-version: "1.0"
+version: "1.0-1"
 subfolder: 300-commercial
 info:
   summary: BSP John King Books
@@ -32,6 +32,26 @@ info:
     - https://www.simtropolis.com/objects/screens/0014/7a45ee86d380dc3c0ff2d6269d86633f-bsp_johnking2.jpg
 assets:
   - assetId: nofunk-bsp-john-king-books
+    exclude:
+      - "\\.SC4Model$"
+dependencies:
+  - nofunk:bsp-john-king-books-model
+
+---
+group: nofunk
+name: bsp-john-king-books-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=nofunk:bsp-john-king-books`
+  description: |-
+    The models of John King Books and of the Advance Glove Factory building.
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/17460-bsp-john-king-books/
+assets:
+  - assetId: nofunk-bsp-john-king-books
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: nofunk-bsp-john-king-books

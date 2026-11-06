@@ -1,0 +1,70 @@
+group: t-wrecks
+name: irm-i-ht-skylimit-satellite-research
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the SkyLimit Satellite Research BAT by GreatDane
+  description: |-
+    OK, time for more IRM stuff. I'm still doing high-tech industry, and from there will work my way "down the ranks", through modern manufacturing and generic manufacturing back to brick factories with old-style manufacturing and, finally, dirty industry.
+
+    The third upload in this series is a somewhat obscure BAT, I guess - it's 13 years old, and the author is by no means as well known as the likes of SimGoober and others. However, I still think it's one of those underestimated little BATs that withstood the test of time comparably well: **SkyLimit Satellite Research** by **GreatDane**. The lot is pretty simple and straight forward; I merely tried to align the building with the lot textures (which worked quite well), added one of gascooker's smokestacks to break the blocky appearance a bit, and made rather extensive use of CycleDogg's excellent shaded props.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **45 I-HT jobs**, the quadrupler version **180 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x5, Stage 2
+    - 5x3, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 278 jobs, and the lots grow at Stage 3.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **GreatDane** - you might want to check out his other stuff, too! IMO he made some rather neat lots, especially considering it was the early days.
+
+    T Wrecks, July 18, 2017
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31860-irm-i-ht-skylimit-satellite-research-by-greatdane/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SkyLimitSatelliteResearch_01.jpg.ab007b3be061469124632429ae7d71db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SkyLimitSatelliteResearch_02.jpg.61baca88a6aa9decf641800c2636c67c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SkyLimitSatelliteResearch_03.jpg.6d9cb6c54089838899eca079bcf08b0d.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - greatdane:skylimit-satelite-research-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-skylimit-satellite-research
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-skylimit-satellite-research
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT SkyLimit Satellite Research \\(GreatDane\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-skylimit-satellite-research
+version: "1.0"
+lastModified: "2017-07-18T19:02:00Z"
+url: https://community.simtropolis.com/files/file/31860-irm-i-ht-skylimit-satellite-research-by-greatdane/?do=download

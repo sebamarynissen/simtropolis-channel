@@ -1,0 +1,52 @@
+group: t-wrecks
+name: irm-w2w-underhill-casket-company
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Underhill Casket Company BAT by jestarr
+  description: |-
+    The tenth upload in a series of IRM W2W lots based on BAT models made by other artists is **Underhill Casket Company**, another BAT made by **jestarr**.
+
+    The building will provide **340 I-D jobs** and comes on two relatively simple and unspectacular lots:
+
+    - 4x5 straight, Stage 1 (2 versions)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 270 jobs and grow at Stage 4.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Once again, credits to **jestarr** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, March 5, 2015
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30176-irm-w2w-underhill-casket-company-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/c72cfcb31c9974d001b64c3ae6416b8c-irm_w2w_underhillcasketcompany_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/063b5f5282bb67ae465362ae5b60da49-irm_w2w_underhillcasketcompany_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/11e573d6420ec4a7c6be977c563993bb-irm_w2w_underhillcasketcompany_03.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol02
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-underhill-casket-company
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Underhill Casket Company \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-underhill-casket-company
+version: "1.0"
+lastModified: "2015-03-05T20:07:00Z"
+url: https://community.simtropolis.com/files/file/30176-irm-w2w-underhill-casket-company-by-jestarr/?do=download

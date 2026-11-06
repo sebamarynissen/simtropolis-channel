@@ -1,6 +1,6 @@
 group: nofunk
 name: chalmers-auto-supply
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Chalmers Auto Supply
@@ -51,6 +51,24 @@ info:
     - https://www.simtropolis.com/objects/screens/0025/e7848430a2c81cd611f39e9737561d38-chalmersauto2.jpg
 assets:
   - assetId: nofunk-chalmers-auto-supply
+    exclude:
+      - "\\.SC4Model$"
+dependencies:
+  - nofunk:chalmers-auto-supply-model
+
+---
+group: nofunk
+name: chalmers-auto-supply-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=nofunk:chalmers-auto-supply`
+  author: nofunk
+  website: https://community.simtropolis.com/files/file/22339-chalmers-auto-supply/
+assets:
+  - assetId: nofunk-chalmers-auto-supply
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: nofunk-chalmers-auto-supply

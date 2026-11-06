@@ -1,6 +1,6 @@
 group: dk1
 name: small-industrial
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Small Industrial
@@ -13,6 +13,24 @@ info:
     - https://www.simtropolis.com/objects/screens/0012/6c595b2f7c7fb17661c66909e262af54-IM2_night.JPG
 assets:
   - assetId: dk1-small-industrial
+    exclude:
+      - "\\.SC4Model$"
+dependencies:
+  - dk1:small-industrial-model
+
+---
+group: dk1
+name: small-industrial-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=dk1:small-industrial`
+  author: dk1
+  website: https://community.simtropolis.com/files/file/20361-dk1-small-industrial/
+assets:
+  - assetId: dk1-small-industrial
+    include:
+      - "\\.SC4Model$"
 
 ---
 assetId: dk1-small-industrial
