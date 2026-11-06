@@ -1,0 +1,41 @@
+group: subgrav
+name: power-transformer
+version: "2"
+subfolder: 500-utilities
+info:
+  summary: A power transformer station
+  description: |-
+    I've felt that SC4 lacks power transformers, like you may see in any major city, tucked away in some dark corner. These are used to distribute power from major overhead lines into the network system for your cities.
+
+    Being a transformer, there is a modest power gain (100MWh/month). There are minor down-sides (pollution and NIMBY effect for residential).
+  author: Subgrav
+  website: https://community.simtropolis.com/files/file/12629-power-transformer/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a3d4e190d38aef794bdeda8f0246530e-TransfomerDay.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a3d4e190d38aef794bdeda8f0246530e-TransfomerNight.jpg
+dependencies:
+  - subgrav:power-transformer-model
+assets:
+  - assetId: subgrav-power-transformer
+    exclude:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+group: subgrav
+name: power-transformer-model
+version: "2"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=subgrav:power-transformer`
+  author: Subgrav
+  website: https://community.simtropolis.com/files/file/12629-power-transformer/
+assets:
+  - assetId: subgrav-power-transformer
+    include:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+assetId: subgrav-power-transformer
+version: "2"
+lastModified: "2005-05-30T22:06:24Z"
+url: https://community.simtropolis.com/files/file/12629-power-transformer/?do=download
