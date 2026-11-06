@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: brunel-house
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Brunel House
+  description: |-
+    **Brunel House**
+
+    Brunel House is a 10 Story Office Block built in the Late 1960's built in the typical UK Modernist Theme of the era. Built next door to Portsmouth Harbour Station. The roof junk is contained in the raised piece of roof on the right (hence the lack of it elsewhere, i had an aerial shot of the building)
+
+    The Ploppable contains 800 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12834-brunel-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/12f185b14105809fc9c2bd2e3a9032c7-BrunelUploadpic.jpg
+    - https://www.simtropolis.com/objects/screens/0003/12f185b14105809fc9c2bd2e3a9032c7-BrunelUploadpicnight.JPG
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-brunel-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brunel-house
+version: "1.0"
+lastModified: "2005-06-25T17:19:36Z"
+url: https://community.simtropolis.com/files/file/12834-brunel-house/?do=download

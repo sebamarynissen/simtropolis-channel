@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: london-fenchurch-street-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: London Fenchurch Street Station
+  description: |-
+    **Fenchurch Street**
+
+    This is a BAT model based on Fenchurch Street before the office development on top. It has 4 platforms of terminus rail and is one of the smaller London Termini.
+
+    Plop Cost
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14452-london-fenchurch-street-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e600f582436dd769789b4ad86d838204-FenchurchUploadDay.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e600f582436dd769789b4ad86d838204-FenchurchUploadNight.jpg
+dependencies:
+  - bsc:textures-vol02
+  - gizmo:vehicle-props
+assets:
+  - assetId: ill-tonkso-london-fenchurch-street-station
+
+---
+assetId: ill-tonkso-london-fenchurch-street-station
+version: "1.0"
+lastModified: "2005-12-23T12:19:13Z"
+url: https://community.simtropolis.com/files/file/14452-london-fenchurch-street-station/?do=download

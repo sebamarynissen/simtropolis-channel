@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: 47-birmingsfield
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 47 Birmingsfield
+  description: |-
+    **47 Birmingsfield**
+
+    47 Birmingsfield is a Commercial Mid-Rise designed for my City.  
+    LOT Size 2x2  
+    Plop Cost
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12869-47-birmingsfield/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/13cc50edf6c65c3c720c35a21ecbac7e-47B.jpg
+    - https://www.simtropolis.com/objects/screens/0003/13cc50edf6c65c3c720c35a21ecbac7e-47birminsfieldnightpic.jpg
+dependencies:
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-47-birmingsfield
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-47-birmingsfield
+version: "1.0"
+lastModified: "2005-06-26T16:45:49Z"
+url: https://community.simtropolis.com/files/file/12869-47-birmingsfield/?do=download

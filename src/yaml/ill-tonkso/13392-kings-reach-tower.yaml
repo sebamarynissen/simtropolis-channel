@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: kings-reach-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Kings Reach Tower
+  description: |-
+    **Kings Reach Tower**
+
+    Kings Reach Tower is a 30 Story office Tower in London. Completed in 1978 it stands today as the cities 21st Tallest.
+
+    This BAT Comes in both Ploppable Commercial and Growable Commercial, with 1000 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13392-kings-reach-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/ca325c932d542ced6211783f27666c20-Kingsreachday.jpg
+    - https://www.simtropolis.com/objects/screens/0022/ca325c932d542ced6211783f27666c20-Kingsreachnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-kings-reach-tower
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-kings-reach-tower
+version: "1.0"
+lastModified: "2005-08-18T16:56:40Z"
+url: https://community.simtropolis.com/files/file/13392-kings-reach-tower/?do=download

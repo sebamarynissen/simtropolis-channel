@@ -1,0 +1,46 @@
+group: ill-tonkso
+name: london-st-pancras-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: London St Pancras Station
+  description: |-
+    **London St Pancras Station (Reissue)**
+
+    The original St Pancras Station upload was lost in the Forum Transfer, so i have uploaded it again.
+
+    St Pancras is a major London Rail Terminus built by the Midland Railway. Today it is being converted for Eurostar International Rail Services via the Channel Tunnel Rail Link.
+
+    Capacity: 60,000  
+    Lot Size: 9x19
+
+    **Dependencies**  
+    (the fun bit lol) ALL dependencies are Vital.
+
+    [Rail Yard and Spur Textures Mega Pack 1](https://community.simtropolis.com/files/file/15976-rail-yard-and-spur-textures-mega-pack-1/)  
+    [BSC Mega Props DAE Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)  
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)  
+    [BSC JENX Amsterdam Central Station Lot](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=574)
+
+    Enjoy Peeps  
+    ITS
+
+    **\-CB Edit:** Fixed dependency links.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15467-london-st-pancras-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3ef46a477c58c5d3df0305a15767d360-pancreasday.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3ef46a477c58c5d3df0305a15767d360-pancreasnight.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-jenx-vol03
+  - bsc:textures-vol01
+  - ncd:rail-yard-and-spur-mega-pak-1-legacy
+assets:
+  - assetId: ill-tonkso-london-st-pancras-station
+
+---
+assetId: ill-tonkso-london-st-pancras-station
+version: "1.0"
+lastModified: "2006-03-31T14:50:53Z"
+url: https://community.simtropolis.com/files/file/15467-london-st-pancras-station/?do=download

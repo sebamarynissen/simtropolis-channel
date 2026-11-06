@@ -1,0 +1,37 @@
+group: ill-tonkso
+name: cosham-railway-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Cosham Railway Station
+  description: |-
+    **Cosham Railway Station**
+
+    Cosham Railway Station is a busy commuter station in Portsmouth England.
+
+    SimCity 4 Capacity 4000  
+    Lot 6x4
+
+    Enjoy!
+
+    (dependency- RP2005 Ardnox Secondary School  
+    required for the bike shed prop)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13026-cosham-railway-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/f01d0021e0b314d695d73f14a9510229-CoshamStationDay21.jpg
+    - https://www.simtropolis.com/objects/screens/0026/f01d0021e0b314d695d73f14a9510229-CoshamStationNight.JPG
+dependencies:
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-cosham-railway-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-cosham-railway-station
+version: "1.0"
+lastModified: "2005-07-10T09:14:25Z"
+url: https://community.simtropolis.com/files/file/13026-cosham-railway-station/?do=download

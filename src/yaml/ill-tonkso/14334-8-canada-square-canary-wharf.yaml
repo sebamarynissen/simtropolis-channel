@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: 8-canada-square-canary-wharf
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 8 Canada Square Canary Wharf
+  description: |-
+    **8 Canada Square**
+
+    8 Canada Square is the World Headquarters of HSBC and was completed in 2002, it is also one of the tallest buildings in London.
+
+    Ploppable and Growable Lot CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14334-8-canada-square-canary-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/60aaacfa75d1ca346987f5092448b5f2-8CSUploadday.jpg
+    - https://www.simtropolis.com/objects/screens/0011/60aaacfa75d1ca346987f5092448b5f2-8CSUploadnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol01
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-8-canada-square-canary-wharf
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-8-canada-square-canary-wharf
+version: "1.0"
+lastModified: "2005-12-08T18:53:23Z"
+url: https://community.simtropolis.com/files/file/14334-8-canada-square-canary-wharf/?do=download
