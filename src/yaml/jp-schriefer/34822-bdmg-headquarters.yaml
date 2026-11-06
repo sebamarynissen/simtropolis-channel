@@ -1,0 +1,86 @@
+group: jp-schriefer
+name: bdmg-headquarters
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: BDMG Headquarters in Belo Horizonte in Functional Landmark and Commercial Office versions
+  description: |-
+    Located in Belo Horizonte, MG, Brazil, the headquarters of **BDMG** (Minas Gerais Development Bank) was designed by architect Humberto Sepa and built in 1969 in a modernist style.
+
+    **Information**
+
+    The model is available in two versions: Functional Landmark and Commercial Office. Both are corner models.
+
+    With the custom LODs it's possible to add furniture as props on the terraces in case anyone wants to do it.
+
+    *Functional Landmark*
+
+    - Plop cost: 10,994
+    - Lot size: 3x3
+    - CO$$$: 601
+    - CO$$: 857
+
+    *Commercial Office*
+
+    - Lot size: 3x3
+    - CO$$$: 601
+    - CO$$: 857
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/34822-bdmg-headquarters/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/BDMG1.png.1748df39702fa7caf5406026ededc08c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/BDMG2.png.7d96c848612733e13421ce07126a3d34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/BDMG3.png.3a1726fb07d061189e07357299f66178.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/BDMG4.png.e3bfb622a2435fbac9725a59a34a9de4.jpg
+dependencies:
+  - jp-schriefer:bdmg-headquarters-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-bdmg-headquarters-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-bdmg-headquarters-commercial-office-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: bdmg-headquarters-model
+version: "1.0.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:bdmg-headquarters`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/34822-bdmg-headquarters/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-bdmg-headquarters-commercial-office-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-bdmg-headquarters-commercial-office-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-bdmg-headquarters-landmark-mn
+version: "1.0.0"
+lastModified: "2022-01-01T04:23:57Z"
+url: https://community.simtropolis.com/files/file/34822-bdmg-headquarters/?do=download&r=191088
+
+---
+assetId: jp-schriefer-bdmg-headquarters-commercial-office-mn
+version: "1.0.0"
+lastModified: "2022-01-01T04:23:57Z"
+url: https://community.simtropolis.com/files/file/34822-bdmg-headquarters/?do=download&r=191090
+
+---
+assetId: jp-schriefer-bdmg-headquarters-commercial-office-dn
+version: "1.0.0"
+lastModified: "2022-01-01T04:23:57Z"
+url: https://community.simtropolis.com/files/file/34822-bdmg-headquarters/?do=download&r=191091

@@ -1,0 +1,89 @@
+group: jp-schriefer
+name: 600-madison-avenue
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: High-rise in Midtown Manhattan in Landmark and Commercial Office versions
+  description: |-
+    **600 Madison Avenue** is a 25-story high-rise building located in Midtown Manhattan, New York City, U.S.A. Built in 1965 by Emery Roth & Sons, the building offers several commercial offices.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office. Both are corner models.
+
+    With the custom LODs it's possible to add furniture as props on the balconies in case anyone wants to do it.
+
+    *Landmark*
+
+    - Plop cost: 100,000
+    - Lot size: 2x3
+
+    *Commercial Office*
+
+    - Lot size: 2x3
+    - CO$$$: 6,000
+    - CO$$: 8,000
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31883-600-madison-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8ca9de8c8b0_NewCity-Jan.17001519165356.png.0c12cffc114d9e379b8e42717904d429.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8ca9f90189e_NewCity-Jan.17001519165346.png.42391af94b750175cfdece9737d8efad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8caa0457bc5_NewCity-Jan.17001519165463.png.6314b1433e340f8172290c72748396ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8caa0cd16d6_NewCity-Jan.17001519165688.png.fb9e12042038fff1edff0257cd5237ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8caa1c18404_NewCity-Jan.17001519165708.png.2bdefc8d177f7653fc8f805cd096baa8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8caa2a51fd1_NewCity-Jan.17001519165506.png.993e9fbcb329fdc37813463900511368.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8caa346c313_NewCity-Jan.17001519165558.png.6987c28e1a14a6eb25b8b706986b3901.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8caa79d7893_NewCity-Jan.170015191653464.jpg.9579016ddcb4547ad6b13365140a9a88.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/SMA10.jpg.9ee0e98ff02dfaed1540485fb7d2619f.jpg.d523bda1a2ada68c486dc75102fe55be.jpg
+dependencies:
+  - jp-schriefer:600-madison-avenue-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-600-madison-avenue-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-600-madison-avenue-commercial-office-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: 600-madison-avenue-model
+version: "1.1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:600-madison-avenue`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31883-600-madison-avenue/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-600-madison-avenue-commercial-office-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-600-madison-avenue-commercial-office-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-600-madison-avenue-landmark-mn
+version: "1.1"
+lastModified: "2017-07-28T06:18:07Z"
+url: https://community.simtropolis.com/files/file/31883-600-madison-avenue/?do=download&r=170212
+
+---
+assetId: jp-schriefer-600-madison-avenue-commercial-office-mn
+version: "1.1"
+lastModified: "2017-07-28T06:18:07Z"
+url: https://community.simtropolis.com/files/file/31883-600-madison-avenue/?do=download&r=170214
+
+---
+assetId: jp-schriefer-600-madison-avenue-commercial-office-dn
+version: "1.1"
+lastModified: "2017-07-28T06:18:07Z"
+url: https://community.simtropolis.com/files/file/31883-600-madison-avenue/?do=download&r=170215

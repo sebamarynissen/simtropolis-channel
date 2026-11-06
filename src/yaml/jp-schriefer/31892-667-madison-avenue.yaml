@@ -1,0 +1,89 @@
+group: jp-schriefer
+name: 667-madison-avenue
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Modernist skyscraper in Manhattan in Landmark and Commercial Office versions
+  description: |-
+    **667 Madison Avenue** is a 24-story modernist skyscraper in the Lenox Hill neighborhood of Manhattan, New York City, U.S.A. Designed by Helpern Architects and constructed in 1989, it is acknowledged as Manhattan's finest boutique office building. The 667 Madison Avenue Statue of Liberty is a bronze casting of the original plaster sculpture from which the New York Harbor Statue of Liberty was scaled. The work was acquired and installed by Leonard Stern in 2011 as a salute to American democracy and the legacy of the French-American alliance. Mr. Stern's father Max immigrated through Ellis Island in 1926 and often recalled the powerful moment of sighting the Statue of Liberty as his ship entered New York Harbor.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office. Both are corner models.
+
+    With the custom LODs it's possible to add furniture as props on the terraces in case anyone wants to do it.
+
+    *Landmark*
+
+    - Plop cost: 80,000
+    - Lot size: 3x2
+
+    *Commercial Office*
+
+    - Lot size: 3x2
+    - CO$$$: 3,500
+    - CO$$: 5,000
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31892-667-madison-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/7.png.96f307599ddf49e492255765a867ec3f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/1.png.1e27e5fffa15b1e585ebd44f87e5dccc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/2.png.9a45b928983447ca5ede81f152e30204.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/3.png.d40af56cffa922abf7a2a429405ef29f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/4.png.f9795c794835830fc23ab1d5834b86f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/5.png.ea1d57ce13694fc44d0005761d5fafc7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/6.png.5363e1284dcb7d1296587a9514aae12d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/9.jpg.4abf01546cdce4b765bd676860b3ced0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/MA10.jpg.936a31e01ea8ca8f1a34b21e1e918cd1.jpg.c1d209bcc669a719c844baa9f11fde5c.jpg
+dependencies:
+  - jp-schriefer:667-madison-avenue-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-667-madison-avenue-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-667-madison-avenue-commercial-office-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: 667-madison-avenue-model
+version: "1.1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:667-madison-avenue`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31892-667-madison-avenue/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-667-madison-avenue-commercial-office-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-667-madison-avenue-commercial-office-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-667-madison-avenue-landmark-mn
+version: "1.1"
+lastModified: "2017-08-03T15:20:58Z"
+url: https://community.simtropolis.com/files/file/31892-667-madison-avenue/?do=download&r=170332
+
+---
+assetId: jp-schriefer-667-madison-avenue-commercial-office-mn
+version: "1.1"
+lastModified: "2017-08-03T15:20:58Z"
+url: https://community.simtropolis.com/files/file/31892-667-madison-avenue/?do=download&r=170334
+
+---
+assetId: jp-schriefer-667-madison-avenue-commercial-office-dn
+version: "1.1"
+lastModified: "2017-08-03T15:20:58Z"
+url: https://community.simtropolis.com/files/file/31892-667-madison-avenue/?do=download&r=170335
