@@ -1,4 +1,5 @@
 name: Deploy channel
+run-name: "Deploy channel: ${{ github.event.workflow_run.display_title }}"
 
 on:
   workflow_run:
