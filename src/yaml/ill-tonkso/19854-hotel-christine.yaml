@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: hotel-christine
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Hotel Christine
+  description: |-
+    Ok, this one is old, real old. So old it is named after my ex girlfriends middle name. Thats old. But hey, at least it finally rendered. Hotel Christine, traditional Brenntian Architecture (Yes I made that up)  with an oddly blue roof. I like it, so should you.
+
+    And no, there isn't a a growable because it's really hot here and I am a lazy what not. If you want to make one, feel free to link to this as a dependency.
+
+    * * *
+
+    Plop Commercial - C£££300
+
+    * * *
+
+    dependencies: None, but hopefully someone will make it one. Personally I can't be bothered to.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19854-ndex-its-hotel-christine/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/70be55ff1aef7ae356da1e91016020a4-christineday.jpg
+    - https://www.simtropolis.com/objects/screens/0013/70be55ff1aef7ae356da1e91016020a4-christinenight.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-hotel-christine
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-hotel-christine
+version: "1.0"
+lastModified: "2008-06-01T20:22:03Z"
+url: https://community.simtropolis.com/files/file/19854-ndex-its-hotel-christine/?do=download

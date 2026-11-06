@@ -1,0 +1,24 @@
+group: ill-tonkso
+name: pewsley-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Pewsley House
+  description: Pewsley house is a small 1960's office building costs £3000 and provides 360 CO££ jobs for your city. It has been designed as a filler lot and is handy for getting those extra few jobs when you need them.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17941-ndex-its-pewsley-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4be23ebf7b745c2478dd83f9c3eb57bd-60D.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4be23ebf7b745c2478dd83f9c3eb57bd-60N.jpg
+dependencies:
+  - ndex:its-mega-pack-vol06
+assets:
+  - assetId: ill-tonkso-pewsley-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-pewsley-house
+version: "1.0"
+lastModified: "2007-03-31T19:01:33Z"
+url: https://community.simtropolis.com/files/file/17941-ndex-its-pewsley-house/?do=download

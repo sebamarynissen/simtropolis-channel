@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: st-williams-park-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: St Williams Park Station
+  description: |-
+    St Williams Park station is based on the older Sub Surface stations on the London Underground, where some stations (such as Barbican, and some of the Baker Street platforms) are in an open cutting.
+
+    * * *
+
+    Cost: 500. Capacity: 20,000. Lot Size: 2x5.
+
+    * * *
+
+    dependencies: None.
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/18068-ndex-its-st-williams-park-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/177610abb53126d3e25872c12dd2192b-St%20Williams%20Park%20Stationn.jpg
+    - https://www.simtropolis.com/objects/screens/0004/177610abb53126d3e25872c12dd2192b-St%20Williams%20Park%20Stationd.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-st-williams-park-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-st-williams-park-station
+version: "1.0"
+lastModified: "2007-05-01T16:09:18Z"
+url: https://community.simtropolis.com/files/file/18068-ndex-its-st-williams-park-station/?do=download

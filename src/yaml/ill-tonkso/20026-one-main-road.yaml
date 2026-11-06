@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: one-main-road
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: One Main Road
+  description: |-
+    One Main Road is a small typical British mixed use office and retail building like so many found in metropolitan towns like Woking or Guildford. The two stores features are high street regulars, NEXT and Sports World.
+
+    * * *
+
+    Ploppable 2x1 CS££ 200Growable 2x1 CS££ 200
+
+    * * *
+
+    Dependencies, none!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20026-ndex-its-one-main-road/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/98c9ef05b869d68de272b779d0732c82-onemainroad.jpg
+    - https://www.simtropolis.com/objects/screens/0017/98c9ef05b869d68de272b779d0732c82-onemainroad2.jpg
+dependencies:
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-one-main-road
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-one-main-road
+version: "1.0"
+lastModified: "2008-07-08T18:28:21Z"
+url: https://community.simtropolis.com/files/file/20026-ndex-its-one-main-road/?do=download

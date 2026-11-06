@@ -1,0 +1,42 @@
+group: ill-tonkso
+name: 5-ways-tower-birmingham
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 5 Ways Tower Birmingham
+  warning: |-
+    The lot has no menu icon (the original file stores it under the wrong group). The missing button picture shifts the following entries in the Landmark menu. The lot itself works.
+  description: |-
+    **5 Ways Tower**
+
+    Ok another building from Birmingham's Five Ways office district (this one is even named after it if you hadn't noticed, in which case, your an idiot) I spent ages trying to get the textures to not look plastic, didn't work so well so here it is anyway. Five Ways Tower. Yeah.
+
+    * * *
+
+    Ploppable CO££, 3x3 lot, 2345 Jobs (yes I was having a giggle with that figure)
+
+    * * *
+
+    dependencies: That BSC Texture Package again.
+
+    * * *
+
+    Endnote: I do have a life, honestly, I go clubbing twice a week, I go see friends every day. I don't just sit here on my backside modeling chunks of Birmingham, so please. No requests.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19870-ndex-its-5-ways-tower-birmingham/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f436663e89890616d75849d30091a605-5waysd.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f436663e89890616d75849d30091a605-5waysn.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-5-ways-tower-birmingham
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-5-ways-tower-birmingham
+version: "1.0"
+lastModified: "2008-06-04T17:30:36Z"
+url: https://community.simtropolis.com/files/file/19870-ndex-its-5-ways-tower-birmingham/?do=download

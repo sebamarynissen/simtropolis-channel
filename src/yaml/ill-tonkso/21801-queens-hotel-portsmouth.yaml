@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: queens-hotel-portsmouth
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Queens Hotel Portsmouth
+  description: |-
+    **This is an NDEX 'Take it or Leave it' upload, not modelled to my usual quality and released from my personal collection.**
+
+    The Queens Hotel is a victorian Hotel located in Portsmouth England, right at the end of my new street. The hotel famously featured in [Episode 8 of Mr Bean](https://en.wikipedia.org/wiki/List_of_Mr._Bean_episodes#Mr._Bean_in_Room_426) in 1993.
+
+    The lot sits on a 4x7 and is ploppable only. Includes 2500CS£££ Jobs.
+
+    Night Lighting has been created using my usual night map method.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/21801-ndex-its-queens-hotel-portsmouth/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/626f45ec00b2d5cd7399173ed7025ad7-queensnight.jpg
+    - https://www.simtropolis.com/objects/screens/0011/626f45ec00b2d5cd7399173ed7025ad7-queensday.jpg
+dependencies:
+  - ndex:its-mega-pack-vol08
+assets:
+  - assetId: ill-tonkso-queens-hotel-portsmouth
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-queens-hotel-portsmouth
+version: "1.0"
+lastModified: "2009-06-03T18:24:08Z"
+url: https://community.simtropolis.com/files/file/21801-ndex-its-queens-hotel-portsmouth/?do=download

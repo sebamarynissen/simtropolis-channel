@@ -1,0 +1,43 @@
+group: ill-tonkso
+name: glennishire-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Glennishire House
+  description: |-
+    **Glennishire House**
+
+    Glennishire House is a fictional shortened version of 6-8 Bishopsgate rendered at the request of Glenni. It has been released to help fill in the small holes in any downtown environment.
+
+    * * *
+
+    Plop: £1000, 2x3 lot, 700 CO££
+
+    * * *
+
+    Grow: 2x3 lot, 700 CO££
+
+    * * *
+
+    dependencies: Non
+
+    If you like this, check out the original [6-8 Bishopsgate.](https://www.simtropolis.com/stex/index.cfm?id=17961)
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17963-ndex-its-glennishire-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/16a455e2df098d9072449c5c204a242a-glend.jpg
+    - https://www.simtropolis.com/objects/screens/0004/16a455e2df098d9072449c5c204a242a-glenn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol08
+assets:
+  - assetId: ill-tonkso-glennishire-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-glennishire-house
+version: "1.0"
+lastModified: "2007-04-05T17:28:44Z"
+url: https://community.simtropolis.com/files/file/17963-ndex-its-glennishire-house/?do=download

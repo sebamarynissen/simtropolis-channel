@@ -1,0 +1,24 @@
+group: ill-tonkso
+name: 100-bishopsgate
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 100 Bishopsgate
+  description: 100 Bishopsgate is an approved 40 story building for Londons Bishopsgate road. This SC4 recreation costs £20,000 and provides 4200 CO££ Jobs.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17945-ndex-its-100-bishopsgate/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8d22a662538d854cd60fafdd72f4df0a-100n.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8d22a662538d854cd60fafdd72f4df0a-100d.jpg
+dependencies:
+  - ndex:its-mega-pack-vol04
+assets:
+  - assetId: ill-tonkso-100-bishopsgate
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-100-bishopsgate
+version: "1.0"
+lastModified: "2007-03-31T19:07:37Z"
+url: https://community.simtropolis.com/files/file/17945-ndex-its-100-bishopsgate/?do=download

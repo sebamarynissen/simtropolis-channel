@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: brenntrail-set-nam-curve-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Brenntrail Set NAM Curve Station
+  description: |-
+    **Brenntrail Set Curved Station**
+
+    This station has been designed to adhere to the Network Addon Mod Rail curve.
+
+    Capacity 10,000
+
+    Plop cost 500.
+
+    This lot functions as an overhanging prop from a 1x1 lot. Simply place the lot on the inside of the curve, facing away.
+
+    Requires the Network Addon Mod: the station only fits the NAM's smooth 45° rail curves.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19862-ndex-its-brenntrail-set-nam-curve-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d0d6833ef98bb8d7008707ae5beef9b2-NAMCurve.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d0d6833ef98bb8d7008707ae5beef9b2-f.jpg
+dependencies:
+  - nam:network-addon-mod
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-brenntrail-set-nam-curve-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brenntrail-set-nam-curve-station
+version: "1.0"
+lastModified: "2008-06-03T15:16:34Z"
+url: https://community.simtropolis.com/files/file/19862-ndex-its-brenntrail-set-nam-curve-station/?do=download

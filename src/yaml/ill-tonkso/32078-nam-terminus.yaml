@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: nam-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: High Level NAM Terminus
+  description: |-
+    This elevated rail terminus is based on an early victorian/late georgian station such as those built in the early railways age. The Train Shed Roof takes inspiration from that of the original Euston Station in London. This is one of the earliest Stations on the BNSRW (Brenntia and Northern Suburban Railway) metro network dating from 1837.
+
+    Plop Cost: §2000  
+    Upkeep: §200  
+    Bulldoze Cost: §274  
+    Capacity: 40,000  
+    Power Consumed: 61  
+    Water Consumed: 12
+
+    Model by ILL Tonkso, lotting and modding by ILL Tonkso and SC4 Meister. Re-uploaded by Tyberius06 on behalf of ILL Tonkso with the permission of the Simtropolis staff.
+  author: ILL Tonkso, SC4 Meister
+  website: https://community.simtropolis.com/files/file/32078-ndex-its-nam-terminus/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/5a64fbd7b1ecc_ndexitsnamterminus1.jpg.4bf9b31368cac9379aab24fd9fdf1a7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/5a64fbd8d7fb6_ndexitsnamterminus2.jpg.5eab6230aca886133ad469c6f21fc9ee.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - marrast:mega-props-vol01-and-vol02
+  - nam:network-addon-mod
+assets:
+  - assetId: ill-tonkso-nam-terminus
+
+---
+assetId: ill-tonkso-nam-terminus
+version: "1.0"
+lastModified: "2018-01-21T20:45:57Z"
+url: https://community.simtropolis.com/files/file/32078-ndex-its-nam-terminus/?do=download

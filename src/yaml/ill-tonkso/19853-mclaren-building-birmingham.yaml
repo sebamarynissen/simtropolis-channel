@@ -1,0 +1,38 @@
+group: ill-tonkso
+name: mclaren-building-birmingham
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: McLaren Building Birmingham
+  description: |-
+    Another snippet of Birmingham reaches the STEX, this 1970s tower is not exactly the finest in the city but hey, what more do you expect from a slab. I can't remember if this is being pulled down or refurbed now actually. Probably should have looked that up.
+
+    Also, yes I used the same night lights as my last 50946590465 towers but come on, they look good!
+
+    Anyway, McLaren Building.
+
+    * * *
+
+    Plop Commercial - CO££ 2200
+
+    * * *
+
+    dependencies: SimCity 4 usually helps.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19853-ndex-its-mclaren-building-birmingham/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0f8e320bb5ec2307763f78499c9a2c76-mclarennight.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0f8e320bb5ec2307763f78499c9a2c76-mclarenday.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-mclaren-building-birmingham
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-mclaren-building-birmingham
+version: "1.0"
+lastModified: "2008-06-01T20:17:44Z"
+url: https://community.simtropolis.com/files/file/19853-ndex-its-mclaren-building-birmingham/?do=download

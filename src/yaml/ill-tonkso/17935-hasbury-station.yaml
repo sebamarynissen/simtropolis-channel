@@ -1,0 +1,23 @@
+group: ill-tonkso
+name: hasbury-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Hasbury Station
+  description: Hasbury Station is a victorian suburban station with 4 platforms. The station has a capacity of 20,000 had has been landscaped with suburbia in mind.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17935-ndex-its-hasbury-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c5613f6456b54c0bc0d539b28c30e4fd-hasb.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-hasbury-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-hasbury-station
+version: "1.0"
+lastModified: "2007-03-31T18:47:48Z"
+url: https://community.simtropolis.com/files/file/17935-ndex-its-hasbury-station/?do=download
