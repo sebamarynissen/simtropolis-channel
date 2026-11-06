@@ -1,0 +1,64 @@
+group: xyloxadoria
+name: the-cathedral-of-learning
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: The Cathedral of Learning
+  description: |-
+    Built in 1926, the Cathedral of Learning is a 42 story 163m tall Gothic Revival skyscraper located in Pittsburgh, USA. The building is on the National Register of Historic Places, and is an iconic example of the Gothic Revival style. It is the second tallest educational building in the world, and the tallest in the US.
+
+    I have tried to create the building as close to real life as possible, the only things not on the real building are the stairs on the back side.
+
+    **Lot stats**
+
+    There are three lots to choose from.
+
+    Landmark:
+
+    - Landmark effect: 20 over 30
+    - Mayor rating effect: 20 over 30
+    - Plop cost: $100000
+    - Power and water: 40
+    - Monthly cost: 275
+    - Pollution: 5 of each over 5 tiles
+
+    Landmark with jobs:
+
+    - CO$$ jobs: 1000
+    - CO$$$ jobs: 200
+    - (Please note that CO$ jobs do not exist)
+
+    College:
+
+    - Student capacity: 18000
+    - Monthly cost: 1500
+  author: Xyloxadoria
+  website: https://community.simtropolis.com/files/file/30884-the-cathedral-of-learning/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/STEXPICMain.jpg.95e0e3edd3a915e38747e05985ed15bc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/STEX2.jpg.0a16f0453250be8fea0f709ce1c3c2cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/STEX1Small.jpg.4c8ebfe8729ef2e8d5afb4f6a127e1c8.jpg
+dependencies:
+  - girafe:chestnuts
+  - girafe:lindens
+  - bsc:mega-props-rt-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: xyloxadoria-the-cathedral-of-learning-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: xyloxadoria-the-cathedral-of-learning-darknite
+
+---
+assetId: xyloxadoria-the-cathedral-of-learning-maxisnite
+version: "1.0"
+lastModified: "2015-12-27T06:40:28Z"
+url: https://community.simtropolis.com/files/file/30884-the-cathedral-of-learning/?do=download&r=160069
+
+---
+assetId: xyloxadoria-the-cathedral-of-learning-darknite
+version: "1.0"
+lastModified: "2015-12-27T06:40:28Z"
+url: https://community.simtropolis.com/files/file/30884-the-cathedral-of-learning/?do=download&r=160070

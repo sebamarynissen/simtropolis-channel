@@ -1,0 +1,72 @@
+group: xyloxadoria
+name: the-palmolive-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: The Palmolive Building
+  description: |-
+    I have never made a real building or something old before so I thought I'd give it a try. This is a recreation of the Palmolive Building located at 919 North Michigan Avenue in Chicago. It is accurate to how it looks except for two changes:
+
+    - I have tried to make the lobby look like how it was in the 30s before the renovation.
+    - I have removed part of the left side to make the building symmetrical and eliminate the 15 story tall blank wall.
+
+    **History**
+
+    The Palmolive Building, formerly 919 North Michigan Avenue, is a 37-story Art Deco building at 919 N. Michigan Avenue in Chicago. Built by Holabird & Root, it was completed in 1929 and was home to Colgate-Palmolive-Peet.
+
+    The Palmolive Building came to be known as the Playboy Building when it was home to Playboy magazine from 1965 to 1989. When Playboy moved out, the name of the building changed to 919 North Michigan Avenue. It was designated a Chicago Landmark in 2000, and it was added to the National Register of Historic Places in 2003.
+
+    Today, the building has been converted for residential use by developer Draper and Kramer. The first two floors were renovated to house upscale office and retail space. High-end condos make up the rest of the building. Notable residents of the building include Vince Vaughn and Lou Piniella.
+
+    **Stats**
+
+    Includes a growable and a landmark version.
+
+    Growable:
+
+    - CO$$$ with 3500 jobs
+    - 5 of each type of pollution except radiation over five tiles
+    - Power use: 30
+    - Water use: 30
+    - Stage: 8
+    - Lot size: 5x3
+
+    Due to the real life location of this building, the growable is modded to only grow with the Chicago tileset. Make sure you have it checked or it won't grow.
+
+    Landmark:
+
+    - 5 of each type of pollution except radiation over five tiles
+    - Power use: 30
+    - Water use: 30
+    - Landmark effect: 30 over 30 tiles
+    - Plop cost: 2500
+    - Monthly cost: 60
+    - Lot size: 5x3
+  author: Xyloxadoria
+  websites:
+    - https://community.simtropolis.com/files/file/24457-the-palmolive-building/
+    - https://community.simtropolis.com/files/file/24482-the-palmolive-building-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a43a4130e1ea51ad64afbaff4e7eab20-0164.jpg
+    - https://www.simtropolis.com/objects/screens/0010/520b32f7e925b001236f266b78662f71-0166.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a43a4130e1ea51ad64afbaff4e7eab20-0156.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: xyloxadoria-the-palmolive-building-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: xyloxadoria-the-palmolive-building-darknite
+
+---
+assetId: xyloxadoria-the-palmolive-building-maxisnite
+version: "1.0"
+lastModified: "2010-07-20T11:50:37Z"
+url: https://community.simtropolis.com/files/file/24457-the-palmolive-building/?do=download
+
+---
+assetId: xyloxadoria-the-palmolive-building-darknite
+version: "1.0"
+lastModified: "2010-07-22T22:55:15Z"
+url: https://community.simtropolis.com/files/file/24482-the-palmolive-building-darknite/?do=download
