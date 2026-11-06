@@ -1,0 +1,139 @@
+group: kel9509
+name: rpl-query-upgrade
+version: 1.0.0-1
+subfolder: 900-overrides
+info:
+  summary: Query upgrade for Reward, Park and Landmark lots
+  description: |-
+    Using new DLL functionality for SimCity 4 created by Null 45. Thank you Null 45 for your amazing DLL mods!
+
+    Did you ever wonder what the actual benefits are that a particular reward provides to your city? Does the Marina really open up tourist opportunities or does it have a different effect for industry? Can't recall what the readme file said was so great about a custom reward lot you downloaded? Are some landmarks any better than others? This mod puts a query on every Maxis reward, park and landmark lot that tells you exactly how it benefits your city.
+
+    The Reward-Park-Landmark (RPL) DLL Query mod is a series of queries that replace the original Maxis queries with a custom query that describes the impact each lot provides for a city. Additionally, there are some optional queries that override some custom and BSC queries that are nearly identical to the base Maxis queries (except with their image), so this mod can describe the benefits of some BSC lots too.
+
+    This package contains the essentials and the Maxis lot overrides: the query is applied to each Maxis reward lot type listed in that folder, and to parks and landmarks. Maxis rewards that are power plants are not included, nor are lots like the Airport, Seaport or other standard lots. All other rewards are included, including the Mayor's House, the original City Hall, the Courthouse, all Business Deal rewards and other standard rewards like the University and the Major Art Museum. The optional queries are separate packages:
+
+    - `pkg=kel9509:rpl-query-upgrade-bsc-queries`
+    - `pkg=kel9509:rpl-query-upgrade-opera-house-slider`
+    - `pkg=kel9509:rpl-query-upgrade-private-school-slider`
+    - `pkg=kel9509:rpl-query-upgrade-park-with-income`
+
+    The files are installed in the overrides, so that they load after the mods whose queries they override. Be careful if you are using any custom mods or buildings that contain their own default query overrides, like the Colossus Addon Mod - Casino Specialization, as this mod will override those as well. The Maxis lot overrides also contain a query for the City Hall of the ModPacc Zero City Hall fixes (`pkg=mz:city-hall-fixes`), which is only used when you have those.
+
+    **How to use**
+
+    Select the Query from the main menu within SimCity 4. Select a park, reward or landmark to query its information. Some special custom lots may have their own custom query, which will display instead of this mod. However, this mod will work for all standard Maxis parks, rewards and landmarks, and many other custom buildings as well. The query also has informative tooltips over all descriptive items with helpful tips and hints.
+
+    **Stats**
+
+    The query displays the following information: civic jobs, wealth, land value, powered (and amount used), watered (and amount used), flammability, max fire stage, bulldoze cost, monthly cost, goofy stats, pollution amounts and radii for air, water, garbage and radiation, landmark effect, park effect, mayor effect, crime effect and cap relief.
+
+    **Technical information**
+
+    - Civic job amounts, unlike jobs in Commercial or Industrial zones, are never adjusted by desirability of the building or lot, and are filled to the maximum extent possible by the existing residential population wealth levels. The query will always show the jobs as being 100% filled, even if that is not actually the case. In certain cases, a lot with civic jobs will compete with commercial or industrial lots, resulting in positive demand for residential buildings to fill these jobs, but also possible stagnation among commercial and industrial buildings competing for those residents until your residential population has grown enough to fill this building and also work elsewhere.
+    - There are two exemplar properties for Landmark Effect. The correct one, which provides positive commercial building desirability, is `0x2781284F`. Some older rewards or landmarks use the improper `0x87CD6399`, which is a developer exemplar and not a building exemplar, so it does not properly provide the positive commercial desirability that some modders intended for their buildings. For any older custom reward that uses the improper exemplar, the query will correctly report that the building has no landmark effect. The landmark effect (as well as the park effect) can also be verified in the game with Null 45's Data View Extensions DLL.
+    - The monthly cost is calculated using Null's Query Tool UI Extensions DLL, by deriving the amount from a building's Budget Item Purpose ID. Several ploppable lots, despite being rewards, may use a particular purpose ID like Parks or School Staff. Any custom reward lot that is improperly coded outside of PIM-X (which assigns these properties to the specific reward lot correctly) will not display the cost properly.
+    - The goofy stats have been reworked from the original Maxis goofy stat exemplar (with a few exceptions). They are now a Lua function within the query that does not depend on any building exemplar, and most are based on a percentage of the overall residential population, recalculating every time the lot is queried. Static landmarks now have a goofy stat of "Tourists Visited", consistent with the query sound of tourists taking pictures.
+    - The query uses new functions made possible by Null 45's DLL mods: `jobs_low_wealth`, `jobs_medium_wealth`, `jobs_high_wealth`, `building_full_funding_capacity`, `building_full_funding_coverage`, `building_wealth`, `power_consumed`, `water_consumed`, `flammability`, `max_fire_stage`, `bulldoze_cost`, `budget_purpose_type_cost`, `pollution_at_center`, `pollution_radii`, `cap_relief`, `landmark_effect`, `park_effect`, `mayor_rating_effect` and `crime_effect`.
+  warning: Requires the DLL dependency of Null 45, which is only available for version 1.1.641 of SimCity 4 (Windows digital copies).
+  author: Kel9509
+  website: https://community.simtropolis.com/files/file/37326-rpl-dll-query-upgrade/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eede88e356_Kel9509-RPLDLLQueryUpgrade1.jpg.f705dd3cb6d9da636f7042fb22505bc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eedf1d13e1_Kel9509-RPLDLLQueryUpgrade2.jpg.5b611451a92ae69c3032fa363d3250fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eedf491e2e_Kel9509-RPLDLLQueryUpgrade3.jpg.beee4e56b9683a4cea63abf787908ea2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eedf77f339_Kel9509-RPLDLLQueryUpgrade4.jpg.233be216a411e38a3a7e251fc7671ba7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eedfa4c87b_Kel9509-RPLDLLQueryUpgrade5.jpg.97aa25335fd426eefb52a19a74d842ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eee0011239_Kel9509-RPLDLLQueryUpgrade6.jpg.7e481a51d0f9a756d8725ffb00868613.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eee0348958_Kel9509-RPLDLLQueryUpgrade7.jpg.c29bd4eed8f9de8a00db542fc4b80df2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/6a2eee064b639_Kel9509-RPLDLLQueryUpgrade8.jpg.817a236c5682bf736a5cdca28ac7435d.jpg
+dependencies:
+  - null-45:query-tool-ui-extensions-dll
+assets:
+  - assetId: kel9509-rpl-query-upgrade
+    include:
+      - "/Kel9509_RPL DLL Query Essentials\\.dat$"
+      - "/Maxis_Lot_Overrides/"
+
+---
+group: kel9509
+name: rpl-query-upgrade-bsc-queries
+version: 1.0.0-1
+subfolder: 900-overrides
+info:
+  summary: Optional BSC queries of `pkg=kel9509:rpl-query-upgrade`
+  description: |-
+    Certain BSC queries are nearly identical to the standard Maxis park, landmark or reward queries, with their logo or a different color. These queries have been adapted to show the additional information of `pkg=kel9509:rpl-query-upgrade`, in the same style with the BSC logo and applicable color.
+
+    It covers the queries of the BLS School University, the BSC RT CdS Parks and Missions Church, the BSC Nut Squad Park, the Deadwoods Dark Green Park, the BSC Park, the Cruise Ship Port, the MBEAR Orange Park, Courthouse, Radio Station and University, the MBEAR BSC Main Library, the CAS landmark, University and Park, the BSC SNM Essentials University and the BRT Blue Park.
+  author: Kel9509
+  website: https://community.simtropolis.com/files/file/37326-rpl-dll-query-upgrade/
+dependencies:
+  - kel9509:rpl-query-upgrade
+assets:
+  - assetId: kel9509-rpl-query-upgrade
+    include:
+      - "/BSC Queries/"
+
+---
+group: kel9509
+name: rpl-query-upgrade-opera-house-slider
+version: 1.0.0-1
+subfolder: 900-overrides
+info:
+  summary: Optional Opera House query of `pkg=kel9509:rpl-query-upgrade`
+  description: |-
+    The query of `pkg=kel9509:rpl-query-upgrade` for the Opera House with the capacity slider of the Opera House Fix. It works with the ModPacc Zero Opera House Fix, which is installed as a dependency, and with the original Opera House Fix of toroca (`pkg=toroca:opera-house-fix`).
+  warning: Unless you were already using an Opera House Fix, you may need to bulldoze all Opera Houses first.
+  author: Kel9509
+  website: https://community.simtropolis.com/files/file/37326-rpl-dll-query-upgrade/
+dependencies:
+  - kel9509:rpl-query-upgrade
+  - mz:opera-house-fix
+assets:
+  - assetId: kel9509-rpl-query-upgrade
+    include:
+      - "/Custom Sliders/Opera House"
+
+---
+group: kel9509
+name: rpl-query-upgrade-private-school-slider
+version: 1.0.0-1
+subfolder: 900-overrides
+info:
+  summary: Optional Private School query of `pkg=kel9509:rpl-query-upgrade`
+  description: |-
+    The query of `pkg=kel9509:rpl-query-upgrade` for the Private Schools with Sliders mod by RippleJet, which is required for this query to work, but is not available as a package.
+  warning: If you do not have the Private Schools with Sliders mod by RippleJet yet, you need to bulldoze all Private Schools before using that mod and this query.
+  author: Kel9509
+  website: https://community.simtropolis.com/files/file/37326-rpl-dll-query-upgrade/
+dependencies:
+  - kel9509:rpl-query-upgrade
+assets:
+  - assetId: kel9509-rpl-query-upgrade
+    include:
+      - "/Custom Sliders/Private School"
+
+---
+group: kel9509
+name: rpl-query-upgrade-park-with-income
+version: 1.0.0-1
+subfolder: 900-overrides
+info:
+  summary: Optional Park with Monthly Income query of `pkg=kel9509:rpl-query-upgrade`
+  description: |-
+    A query for parks with a monthly income, with ID `0x138910df`. This is for advanced users: lots must be edited to use this query. Replace the Query Exemplar GUID of such a lot with the ID of this query, by using iLives Reader or the advanced editing tools of PIM-X.
+  author: Kel9509
+  website: https://community.simtropolis.com/files/file/37326-rpl-dll-query-upgrade/
+dependencies:
+  - kel9509:rpl-query-upgrade
+assets:
+  - assetId: kel9509-rpl-query-upgrade
+    include:
+      - "/New Queries/"
+
+---
+assetId: kel9509-rpl-query-upgrade
+version: 1.0.0-1
+lastModified: "2026-06-14T18:09:37Z"
+url: https://community.simtropolis.com/files/file/37326-rpl-dll-query-upgrade/?do=download
