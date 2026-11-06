@@ -1,0 +1,115 @@
+group: bixel
+name: hk-liberte-complex
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: HK Liberte Complex
+  description: |-
+    Hong Kong Liberte Complex
+
+    B.A.T. created by bixel  
+    Modding, lots & readme by T Wrecks
+
+    New Render! No Blurry!
+
+    Location: 833 Lai Chi Kok Road, Kowloon  
+    Hong Kong HK China
+
+    Contains 7 residential towers: three 51-story , two 52-story, one 44-story, and one 43-story.
+
+    Architect: LWK & Partners, Ltd.
+
+    This massive building will bring the huge Liberte Residential Complex from Hong Kong to your SimCity. Due to the enormous size of the complex, you will only get the growable versions if you use the \[CTRL\] key while laying out zones of exactly the required size. \[9x8\]
+
+    In total, you will find:
+
+    \- a transit-enabled growable R§§ lot with US road textures,  
+    \- a transit-enabled growable R§§ lot with Euro road textures,
+
+    \- a transit-enabled growable R§§§ lot with US road textures,  
+    \- a transit-enabled growable R§§§ lot with Euro road textures,
+
+    \- a transit-enabled landmark lot with US road textures, and  
+    \- a transit-enabled landmark lot with Euro road textures.
+
+    STATS
+
+    In the following lists, you will find all game-relevant stats and values of the different versions. This building has been carefully tweaked to match standard Maxis buildings as closely as possible, so that it doesn't unbalance the game or cause any undesired effects.  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    GROWABLE R-§§ VERSIONS ( medium-wealth residential )
+
+    This version can be built automatically by your sims if the required growth stage is reached, the correct tileset is active, appropriate zoning is provided and favourable growth conditions apply (attractivity, demand) - just like any in-game growable building.
+
+    Lot Size: 9x8  
+    Zoning: Dense Residential  
+    Tileset(s): Euro  
+    Growth Stage: 8  
+    Occupants: 10,450 R§§ (14,362 R§ when dilapidated)
+
+    Flammability: 40 / Stage 5
+
+    Construction Time: 172 days  
+    Worth / Bulldoze Cost: § 1,725  
+    Value / Taxable Income: § 118,574
+
+    Power Consumed: 152 MWh/month  
+    Water Consumed: 168 gallons/month
+
+    Air Pollution: 35 / 5 tiles  
+    Water Pollution: 42 / 6 tiles  
+    Garbage: 8 tons
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    GROWABLE R-§§§ VERSIONS ( high-wealth residential )
+
+    This version can be built automatically by your sims if the required growth stage is reached, the correct tileset is active, appropriate zoning is provided and favourable growth conditions apply (attractivity, demand) - just like any in-game growable building.
+
+    Lot Size: 9x8  
+    Zoning: Dense Residential  
+    Tileset(s): Euro  
+    Growth Stage: 8  
+    Occupants: 8,160 R§§§ (10,450 R§§ / 14,362 R§ when dilapidated)
+
+    Flammability: 35 / Stage 5
+
+    Construction Time: 245 days  
+    Worth / Bulldoze Cost: § 2,450  
+    Value / Taxable Income: § 168,326
+
+    Power Consumed: 402 MWh/month  
+    Water Consumed: 575 gallons/month
+
+    Air Pollution: 36 / 6 tiles  
+    Water Pollution: 30 / 7 tiles  
+    Garbage: 10 tons
+
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    LANDMARK VERSION
+
+    This version behaves just like any normal landmark: While it doesn't provide any jobs, it increases attractivity for commercial buildings. In exchange, it causes some maintenance costs.
+
+    Lot Size: 10x10  
+    Landmark Effect: +95 / 40 tiles  
+    Park Effect: none  
+    Mayor Rating Effect: +10 / 256 tiles
+
+    Plop Cost: § 225
+  author: bixel
+  website: https://community.simtropolis.com/files/file/14310-hk-liberte-complex/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/de219dbd09fb1f920d18f2454b6fd6f6-Day1.jpg
+    - https://www.simtropolis.com/objects/screens/0024/de219dbd09fb1f920d18f2454b6fd6f6-Night1.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: bixel-hk-liberte-complex
+
+---
+assetId: bixel-hk-liberte-complex
+version: "1.1"
+lastModified: "2005-12-04T17:05:16Z"
+url: https://community.simtropolis.com/files/file/14310-hk-liberte-complex/?do=download

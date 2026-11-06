@@ -1,0 +1,215 @@
+group: bixel
+name: hk-mandarin-oriental
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: HK Mandarin Oriental
+  description: |-
+    * * *
+
+    **The Hong Kong / Asia BAT Team**
+
+    * * *
+
+    presents
+
+    **HK Mandarin Oriental**
+
+    BAT created by **bixel**  
+    Modding, lot design, readme by **bixel**  
+    [Check out the Hong Kong / Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&entercat=y)
+
+    * * *
+
+    **Introduction / Overview**
+
+    The Mandarin Oriental is a 5-star hotel in Hong Kong, the first and flagship hotel of the Mandarin Oriental Hotel Group. It opened in September 1963 as The Mandarin, located at 5 Connaught Road Central in Central, Hong Kong Island, Hong Kong's financial and banking district. The hotel is the first in Hong Kong to feature in-hotel business facilities, catering to traveling business people.
+
+    **History**
+
+    The hotel, completed in 1963, was built on the site of the pre-war colonial Queen's Building.
+
+    Although the hotel was criticised by Hong Kong and Macau residents during the early days of operation as it bore an extravagant character and identity, it quickly established itself as an award winning hotel. It has been used by diplomats, politicians and celebrities such as Kate Moss, Kevin Costner, Tom Cruise, The Sultan of Brunei, the late Princess Diana, former US Presidents Nixon, Ford and George H. W. Bush.
+
+    After an extensive 9-month renovation, the Mandarin Oriental re-opened on 28 September 2006. The renovated hotel features 502 guestrooms and suites, with guest-centred technology, nine restaurants and bars, a holistic spa, traditional barber, hair salon, sky-lit fitness facility with pool and banqueting facilities.
+
+    **Incidents**
+
+    Leslie Cheung, a famous singer and movie star in Asian cinemas committed suicide by leaping off the 24th floor of the hotel building on 1 April 2003. The hotel site has now become a place where his fans pay their respects every year on 1 April.
+
+    You will find the following versions: ploppable landmark ploppable functional landmark (CS$$$) growable CS$$$  
+
+    **Dependencies**
+
+    **Props:**  
+    none!
+
+    **Textures:**  
+    none!
+
+    * * *
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables. Please note that all versions of this building share the same set of statistics.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Parameter**
+
+    **Growable CS$$$**
+
+    Occupants:
+
+    650 C$$$ (750 CS$$ when dilapidated)
+
+    Lot Sizes / Growth Stage:
+
+    4x4 / stage 7
+
+    Zone Type:
+
+    Dense Commercial
+
+    Tileset(s):
+
+    Euro
+
+    Flammability:
+
+    30 / Stage 5
+
+    Power consumed:
+
+    80 MWh/month
+
+    Water consumed:
+
+    130 gallons/month
+
+    Air pollution:
+
+    10 over 5 tiles
+
+    Water pollution:
+
+    10 over 6 tiles
+
+    Garbage generated:
+
+    30 tons/month
+
+    **TABLE 2: LANDMARK**
+
+    **Parameter**
+
+    **LANDMARK**
+
+    Lot Size
+
+    4x4
+
+    Menu Position:
+
+    Landmarks, ???
+
+    Plop Cost:
+
+    § 10,000
+
+    Landmark Effect:
+
+    \+ 40 over 20 tiles
+
+    Mayor Rating Effect:
+
+    +10 over 256 tiles
+
+    Worth / Bulldoze Cost:
+
+    § 1,000
+
+    Flammability:
+
+    10 / Stage 5
+
+    **TABLE 3: PLOPPABLE**
+
+    **Parameter**
+
+    **LANDMARK**
+
+    Lot Size
+
+    4x4
+
+    Menu Position:
+
+    Landmarks, ???
+
+    Plop Cost:
+
+    § 10,000
+
+    Landmark Effect:
+
+    \+ 40 over 20 tiles
+
+    Occupants:
+
+    650 C$$$ (750 CS$$ when dilapidated)
+
+    Flammability:
+
+    30 / Stage 5
+
+    Power consumed:
+
+    80 MWh/month
+
+    Water consumed:
+
+    130 gallons/month
+
+    Air pollution:
+
+    10 over 5 tiles
+
+    Water pollution:
+
+    10 over 6 tiles
+
+    Garbage generated:
+
+    30 tons/month
+
+    * * *
+
+    **Installation**
+
+    First of all, it is recommended to unzip the entire content of this ZIP into some archive folder where you keep all building versions, readme, and screenshots, and maybe even back it up onto a CD or an external HD together with your other SC4 stuff. This way, if you need to clean your HD and reinstall your OS, you can simply copy the stuff from your backup archive into your plugins folder instead of having to download all plugins anew.
+
+    That said, in order to use this building in game, I suggest you first go to your plugins folder and make a sub-folder for this download.  
+    Then, simply copy the .sc4model file(s) (the actual building model) plus the lot file(s) of whatever version(s) you'd like to use into the newly created folder.
+
+    To uninstall a version you don't like *after it has grown in your cities*, first bulldoze all instances of that version in your cities, then save the cities and exit. Now you can safely remove the version without running any risk to experience crashes or any other inconvenience.
+
+    * * *
+
+    Bixel on behalf of the Hong Kong BAT Team  
+    Tuesday, December 23, 2008.
+  author: bixel
+  website: https://community.simtropolis.com/files/file/20863-hk-mandarin-oriental/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ec6802ae4ef778acae2041c7aa4adf8f-MOD.jpg
+    - https://www.simtropolis.com/objects/screens/0026/ec6802ae4ef778acae2041c7aa4adf8f-MON.jpg
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: bixel-hk-mandarin-oriental
+
+---
+assetId: bixel-hk-mandarin-oriental
+version: "1.0"
+lastModified: "2008-12-23T17:01:20Z"
+url: https://community.simtropolis.com/files/file/20863-hk-mandarin-oriental/?do=download
