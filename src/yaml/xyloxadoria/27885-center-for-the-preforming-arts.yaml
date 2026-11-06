@@ -1,0 +1,63 @@
+group: xyloxadoria
+name: center-for-the-preforming-arts
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Center for the Performing Arts
+  description: |-
+    Want a large and modern venue for the fine arts in your city but don't know where to get one? Well, look no further than the Center for the Performing Arts. Created in a modern deconstructivist style of my own design, this building has 5 separate venues for the entertainment of your sims.
+
+    The building was made to mimic the styles of Daniel Libeskind, but made for SC4. His buildings are larger on the top than the bottom, and representative of flight. They look great from the ground, but not so much from a top down game like SC4. Instead, this building is larger on the bottom and is representative of mountains.
+
+    **Venues**
+
+    - The Main Hall: taking up most of the building, this is the largest and most used venue in the hall.
+    - The Small Theatre: "detached" from the main building, and to the right of the entrance, this is a smaller theatre for local artists, it also serves as a symphony practice hall.
+    - The Recital Hall: located just to the left of the entrance, this room has a concert grand piano for smaller performances.
+    - The Ballroom: not so much a venue (although it can be used as one), this room is mostly used for parties or receptions. It is located underneath the balconies of the main hall.
+    - The Amphitheatre: located on the back of the building, this venue allows for outdoor shows.
+
+    **Stats**
+
+    This building is modded to function as an opera house in game. It will appear in your rewards menu. You can build the reward as soon as you start your city, there are no requirements to be able to build it.
+
+    The building provides a small boost to the following:
+
+    - Residential demand over the entire city
+    - Commercial demand over the entire city
+    - Education over the entire city
+
+    Other stats:
+
+    - Lot size: 9x7
+    - Plop cost: 20,000
+    - 5 pollution of garbage, water, and air over 20 tiles
+    - Monthly cost is variable: there is a slider that determines how much the building will cost, the more the cost the higher the capacity.
+  author: Xyloxadoria
+  website: https://community.simtropolis.com/files/file/27885-center-for-the-preforming-arts/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/8979334878b350d1e11f89add2fd74d5-concerthall1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/55aeed625353ec61b56e06a7372b8d44-concerthall2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/edcd4801978f3062dc9ab527954c68d4-concerthall3.jpg
+dependencies:
+  - mz:opera-house-fix
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: xyloxadoria-center-for-the-preforming-arts-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: xyloxadoria-center-for-the-preforming-arts-darknite
+
+---
+assetId: xyloxadoria-center-for-the-preforming-arts-maxisnite
+version: "1.0"
+lastModified: "2012-07-30T04:28:00Z"
+url: https://community.simtropolis.com/files/file/27885-center-for-the-preforming-arts/?do=download&r=104654
+
+---
+assetId: xyloxadoria-center-for-the-preforming-arts-darknite
+version: "1.0"
+lastModified: "2012-07-30T04:28:00Z"
+url: https://community.simtropolis.com/files/file/27885-center-for-the-preforming-arts/?do=download&r=104653
