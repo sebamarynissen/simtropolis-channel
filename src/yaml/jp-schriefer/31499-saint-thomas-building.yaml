@@ -1,0 +1,86 @@
+group: jp-schriefer
+name: saint-thomas-building
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Modernist residential building in Belo Horizonte in Landmark and Residential versions
+  description: |-
+    Located in the city of Belo Horizonte, MG, Brazil, **Saint Thomas** is a modernist residential building built in 2009.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Residential. The lot includes 2 trees, and they may take a while to appear. This building was made with custom LODs in case any LOTter decides to work with it.
+
+    *Landmark*
+
+    - Plop cost: 15,000
+    - Lot size: 2x1
+
+    *Residential*
+
+    - Lot size: 2x1
+    - R$$$: 250
+    - R$$: 450
+    - R$: 650
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31499-saint-thomas-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/S7.png.30648c4b936fc9ed12317e900aae1aaf.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/S1.png.a8e14960192e97722650e7cbabdcbf70.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/S2.png.5ec2e54dd7d7f342c3afc835f7ecf90e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/S3.png.9e85dc2d2f293f58319cf73dbf78505f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/S4.png.65b7b4ed5fe23108a9ea44fa1765e9c2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/S5.png.7e6fb4221a05fca95e63346b1dd51159.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/S6.png.31901d37304cc471baa51ac09f3f1793.png
+dependencies:
+  - jp-schriefer:saint-thomas-building-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-saint-thomas-building-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-saint-thomas-building-residential-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: saint-thomas-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:saint-thomas-building`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31499-saint-thomas-building/
+# The model is identical for the residential and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-saint-thomas-building-residential-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-saint-thomas-building-residential-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-saint-thomas-building-residential-mn
+version: "1.0"
+lastModified: "2017-03-07T20:00:47Z"
+url: https://community.simtropolis.com/files/file/31499-saint-thomas-building/?do=download&r=164831
+
+---
+assetId: jp-schriefer-saint-thomas-building-landmark-mn
+version: "1.0"
+lastModified: "2017-03-07T20:00:47Z"
+url: https://community.simtropolis.com/files/file/31499-saint-thomas-building/?do=download&r=164832
+
+---
+assetId: jp-schriefer-saint-thomas-building-residential-dn
+version: "1.0"
+lastModified: "2017-03-07T20:00:47Z"
+url: https://community.simtropolis.com/files/file/31499-saint-thomas-building/?do=download&r=164833
