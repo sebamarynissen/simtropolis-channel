@@ -1,0 +1,122 @@
+# group: shadeslayer
+# name: scag-cargo-lots
+# version: "1.0"
+# subfolder: 600-civics
+# info:
+#   summary: SCAG Cargo Lots
+#   description: |-
+#     ## About
+
+#     It's finally here! SCAG Cargo Lots by ShadeSlayer (SCAG\-CLSS) is a series of lots aimed to enhance the cargo aspect of SimCity Airports.
+
+#     ***There is a large update for this pack planned for April 2010. While game crashes are unlikely, we are going to remove that possibility and update dependencies. Thanks.***
+
+#     SCAG\-CLSS are purely eyecandy, and are **not** functional.
+
+#     Included with this package are the following:
+
+#     1.  The plane/building lots;
+#     2.  Some cargo props created by various members of SCAG (noted below);
+#     3.  A readme file;
+#     4.  A cleanitol dependency checker; and
+#     5.  Some pictures to make it look pretty.
+
+#     All of this is contained in a .zip file. There is no EXE installer as to maintain cross-compatability between different Operating Systems.
+
+#     ## Installation Instructions
+
+#     Unzip (extract) the .ZIP file into your "My Documents/SimCity 4/Plugins" folder.
+
+#     ## Dependencies
+
+#     Sorry for the huge amount of dependencies, but I created this under the assumption that most users downloading this would already have airports, and thus, have about half of the dependencies already.
+
+#     1.  [AC MEGA Textures vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1896)
+#     2.  [AC Cargo Planes vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1895)
+#     3.  [AC MEGA Props vol2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1892)
+#     4.  [AC MEGA Props vol5](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2044)
+#     5.  [ACB-VLT Series 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2055)
+#     6.  [BSC MEGA Textures Cycledogg vol1](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/)
+#     7.  [BSC MEGA Props jestarr vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+#     8.  [BSC MEGA Props jestarr vol2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=338)
+#     9.  [BSC MEGA Props jestarr vol3](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=339)
+#     10.  [BSC MEGA Props Gascooker vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+#     11.  [Warehouse BATProps Part A](https://community.simtropolis.com/files/file/15582-warehouses-batprops-part-a/)
+#     12.  [Warehouse BATProps Part B](https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/)
+#     13.  [Warehouse Mega Pack](https://community.simtropolis.com/files/file/16119-logistics-centres-megapack/)
+
+#     You may also use the included Cleanitol file to make this job easier...
+
+#     ## Credits/Thanks
+
+#     This package was created by myself, with assistance with some fellow team members in the area of prop making, namely:
+
+#     joelyboy911: Cargo Loaders
+
+#     cameron1991: LD3 containers
+
+#     RustyXL: LD3 carts
+
+#     AC Team: for creating the plane models
+
+#     Also thanks to the SCAG team. Without them, this probably wouldn't have been as face-smashingly awesome.
+
+#     ## Copyright
+
+#     Copyright © 2009, SimCity Aviation Group
+
+#     Protected under the Creative Commons License
+
+#     Do not redistribute the included lots without direct permission.
+
+#     ## Contact
+
+#     If you wish to contact me, my email is: ![528623761.gif](http://img44.imageshack.us/img44/6824/528623761.gif)
+
+#     SCAG Team Room: [www.sc4devotion.com/forums/index.php](https://www.sc4devotion.com/forums/index.php?board=266.0)
+#   author: ShadeSlayer
+#   website: https://community.simtropolis.com/files/file/23004-scag-cargo-lots-v10/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/0002/0b356be2061e8c1831a6dd3ba4c9f953-screenDay.jpg
+#     - https://www.simtropolis.com/objects/screens/0002/0b356be2061e8c1831a6dd3ba4c9f953-screenNight.jpg
+# dependencies:
+#   - '"[AC Cargo Planes vol1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1895)"'
+#   - '"[ACB-VLT Series 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2055)"'
+#   - '"[Warehouse Mega Pack](https://community.simtropolis.com/files/file/16119-logistics-centres-megapack/)"'
+#   - ac:mega-props-vol02
+#   - ac:mega-props-vol05
+#   - ac:mega-textures-vol01
+#   - bsc:mega-props-gascooker-vol01
+#   - bsc:mega-props-jes-vol01
+#   - bsc:mega-props-jes-vol02
+#   - bsc:mega-props-jes-vol03
+#   - bsc:texturepack-cycledogg-vol01
+#   - cogeo:logistics-centre-dependency-pack
+# assets:
+#   - assetId: shadeslayer-scag-cargo-lots-v1-0
+#     exclude:
+#       - "/SCAG-CLSS_props.dat"
+
+---
+group: shadeslayer
+name: scag-cargo-lots-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: SCAG Cargo Lots v1.0
+  author: ShadeSlayer
+  website: https://community.simtropolis.com/files/file/23004-scag-cargo-lots-v10/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0b356be2061e8c1831a6dd3ba4c9f953-screenDay.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0b356be2061e8c1831a6dd3ba4c9f953-screenNight.jpg
+assets:
+  - assetId: shadeslayer-scag-cargo-lots-v1-0
+    include:
+      - "/SCAG-CLSS_props.dat"
+
+
+---
+assetId: shadeslayer-scag-cargo-lots-v1-0
+version: "1.0"
+lastModified: "2009-12-22T02:33:47Z"
+url: https://community.simtropolis.com/files/file/23004-scag-cargo-lots-v10/?do=download&r=49663
