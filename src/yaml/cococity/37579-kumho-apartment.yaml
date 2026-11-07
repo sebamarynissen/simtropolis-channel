@@ -1,0 +1,58 @@
+group: cococity
+name: kumho-apartment
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Old-style Korean Kumho apartment in Growable R$$ and Landmark versions
+  description: |-
+    This is a BAT/lot inspired by classic old-style Korean Kumho apartments.
+
+    **Information**
+
+    Available in two versions: a growable lot and a landmark lot.
+
+    *Growable R$$*
+
+    - Stage: 5
+    - Capacity: R$$ 1,046, R$ 1,892
+    - Lot size: 3x3
+
+    *Landmark*
+
+    - Plop cost: 35,000
+    - Bulldoze cost: 777
+    - Landmark effect: 60
+    - Lot size: 3x3
+  author: CocoCity
+  website: https://community.simtropolis.com/files/file/37579-kumho-apartment/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/KumhoAPT00..jpg.5a874463e998ffadb3bdf1ad502d2e37.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/KumhoAPT01..jpg.b02fe25b32260872e3af7e60152ebe0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/KumhoAPT02..jpg.b90c6249a8e1152e4f90051ef30cb64b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/KumhoAPT03..jpg.81b2805d77dcfdef89dc93a0e38d81ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8bf549b51ec_.jpg.03ed49c6558ebb775cf7433437a54629.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/KumhoAPT05..jpg.0776da36fd3313e656e0a526d7f94635.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:vip-girafe-carpack-vol03-remastered
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cococity-kumho-apartment-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: cococity-kumho-apartment-dn
+
+---
+assetId: cococity-kumho-apartment-mn
+version: "1.0.0"
+lastModified: "2026-08-22T17:29:30Z"
+url: https://community.simtropolis.com/files/file/37579-kumho-apartment/?do=download&r=221678
+
+---
+assetId: cococity-kumho-apartment-dn
+version: "1.0.0"
+lastModified: "2026-08-22T17:29:30Z"
+url: https://community.simtropolis.com/files/file/37579-kumho-apartment/?do=download&r=221679
