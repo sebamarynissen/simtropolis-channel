@@ -21,8 +21,6 @@ info:
     This is for SC4 Rush Hour.
 
     Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lots only need the Rivit streetlight prop from `pkg=tariely:essentials`.
-
-    The `LBT_plazas.dat` that the original download added "just in case" is not installed, as none of the lots uses anything from it.
   author: Tariely
   website: https://community.simtropolis.com/files/file/31998-tl-lbt-modular-gardens/
   images:
@@ -57,7 +55,6 @@ assets:
   - assetId: tariely-modular-gardens
     exclude:
       - "/merged\\.dat$"
-      - "/LBT_plazas\\.dat$"
       - "/RVT ParkLights2\\.dat$"
       - "/zLightCones_RVTNite\\.dat$"
 
