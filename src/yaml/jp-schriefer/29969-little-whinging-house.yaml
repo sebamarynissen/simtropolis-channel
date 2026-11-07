@@ -1,0 +1,38 @@
+group: jp-schriefer
+name: little-whinging-house
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Generic version of Harry Potter's house in Little Whinging, as R$$ and Landmark lots
+  description: |-
+    Little Whinging is a town in the county of Surrey, England, in the Harry Potter world. This BAT is a generic version of the house where Harry lives. The house is the same, but the lot was made in Lot Editor so people can modify it whenever they want.
+
+    There is an R$$ version and a Landmark version.
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/29969-little-whinging-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/ecc149bdceea4a3e51eee8ea35e9736d-big-city-tutorial-sep-20--151414511401.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/f17b4efdcc385e2c665fdc36c40a993e-big-city-tutorial-nov-5--151414511006.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/3330d5c477734e01a53f396e0480a630-big-city-tutorial-nov-5--151414511200.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/09b17d70ceff06c33be181369c96b213-big-city-tutorial-dec-23--151414511467.png
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-little-whinging-house-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-little-whinging-house-dn
+
+---
+assetId: jp-schriefer-little-whinging-house-dn
+version: "1.0"
+lastModified: "2014-10-28T16:41:45Z"
+url: https://community.simtropolis.com/files/file/29969-little-whinging-house/?do=download&r=144294
+
+---
+assetId: jp-schriefer-little-whinging-house-mn
+version: "1.0"
+lastModified: "2014-10-28T16:41:45Z"
+url: https://community.simtropolis.com/files/file/29969-little-whinging-house/?do=download&r=144295

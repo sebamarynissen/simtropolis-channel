@@ -1,0 +1,84 @@
+group: jp-schriefer
+name: 15-goitacazes-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Art deco building in Belo Horizonte in Landmark and Commercial Office versions
+  description: |-
+    The art deco building is located at number 15, Goitacazes Street in Belo Horizonte, MG, Brazil.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office. It is a W2W corner building.
+
+    *Landmark*
+
+    - Plop cost: 5,000
+    - Lot size: 2x1
+
+    *Commercial Office*
+
+    - Lot size: 2x1
+    - CO$$: 230
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31476-15-goitacazes-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/T1.png.caa249559c36d65b620b74a2b71ebb1e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/T2.png.2e51036ef2013a433e0de08eaf12564c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/T3.png.7b9727d648155c9443d120fa21dd8319.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/T4.png.f6bf4cb61922971542cc4340ea9f9d20.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/T5.png.4c9316d3fc723574eeab3604ec5808f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/T6.png.599c191db7c08224b3c7ff0c72468654.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/T7.png.f4c2cbc6779dbdd2436085ea3f7cbf1d.png
+dependencies:
+  - jp-schriefer:15-goitacazes-street-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-15-goitacazes-street-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-15-goitacazes-street-commercial-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: 15-goitacazes-street-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:15-goitacazes-street`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31476-15-goitacazes-street/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-15-goitacazes-street-commercial-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-15-goitacazes-street-commercial-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-15-goitacazes-street-landmark-mn
+version: "1.0"
+lastModified: "2017-02-21T02:52:48Z"
+url: https://community.simtropolis.com/files/file/31476-15-goitacazes-street/?do=download&r=164669
+
+---
+assetId: jp-schriefer-15-goitacazes-street-commercial-mn
+version: "1.0"
+lastModified: "2017-02-21T02:52:48Z"
+url: https://community.simtropolis.com/files/file/31476-15-goitacazes-street/?do=download&r=164670
+
+---
+assetId: jp-schriefer-15-goitacazes-street-commercial-dn
+version: "1.0"
+lastModified: "2017-02-21T02:52:48Z"
+url: https://community.simtropolis.com/files/file/31476-15-goitacazes-street/?do=download&r=164672

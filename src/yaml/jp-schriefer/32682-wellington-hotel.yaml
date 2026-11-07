@@ -1,0 +1,99 @@
+group: jp-schriefer
+name: wellington-hotel
+version: "1.3"
+subfolder: 300-commercial
+info:
+  summary: Art Deco hotel annex in Manhattan in Landmark and Commercial Service versions
+  description: |-
+    The **Wellington Hotel** annex, located in the heart of New York City, is a historic 27-story Art Deco high-rise building that was constructed in 1929 in the borough of Manhattan. Designed by the renowned architect Robert T. Lyons to expand the 1902 building, this iconic structure boasted a rich history and timeless elegance. Unfortunately, the hotel closed its doors in 2021, leaving behind a legacy of classic New York City hospitality.
+
+    **Information**
+
+    The model comes in two versions: Landmark and Commercial Service, both of which are corner W2W models. With the option for custom LODs, you can add furniture as props to the terraces if desired.
+
+    *Commercial Service*
+
+    - CS$$: 378
+    - CS$: 1,502
+    - Stage: 8 (regular); 13 (CAM)
+    - Lot size: 1x2
+    - Tileset: New York
+
+    *Landmark (eye candy)*
+
+    - Plop cost: $129,300
+    - Lot size: 1x2
+
+    *Landmark (with jobs)*
+
+    - Plop cost: $21,518
+    - CS$$: 378
+    - CS$: 1,502
+    - Lot size: 1x2
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/32682-wellington-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/1.png.882e7704195e8247206dcbf6e1349397.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/4.png.27bdbe8994fad982092a2d8e40deb501.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5.png.1f079743a6c0c3c0c81057fbf4e57366.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/6.png.7ef7256511bf6e265edc077c8c356723.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/7.png.07834d18cf326ac914ff1ea87e705042.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/8.png.8cb00beeac8e62389a760689c2ac6794.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/9.png.bd914c233706ab0e0f0bd7dc06b3b83f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/10.jpg.30a832deae193818ce975a575092439d.jpg
+dependencies:
+  - jp-schriefer:wellington-hotel-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: jp-schriefer-wellington-hotel-regular-mn
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: jp-schriefer-wellington-hotel-cam-mn
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: wellington-hotel-model
+version: "1.3"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:wellington-hotel`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/32682-wellington-hotel/
+# The model is identical for the regular and the CAM version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-wellington-hotel-regular-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-wellington-hotel-regular-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-wellington-hotel-regular-mn
+version: "1.3"
+lastModified: "2023-09-20T02:47:32Z"
+url: https://community.simtropolis.com/files/file/32682-wellington-hotel/?do=download&r=197742
+
+---
+assetId: jp-schriefer-wellington-hotel-regular-dn
+version: "1.3"
+lastModified: "2023-09-20T02:47:32Z"
+url: https://community.simtropolis.com/files/file/32682-wellington-hotel/?do=download&r=197743
+
+---
+assetId: jp-schriefer-wellington-hotel-cam-mn
+version: "1.3"
+lastModified: "2023-09-20T02:47:32Z"
+url: https://community.simtropolis.com/files/file/32682-wellington-hotel/?do=download&r=197744

@@ -1,0 +1,82 @@
+group: jp-schriefer
+name: drf-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Receita Federal office building in Belo Horizonte in Landmark and Commercial Office versions
+  description: |-
+    The **DRF Building**, located in the city of Belo Horizonte, Brazil, is a government building of the Receita Federal, an agency responsible for the administration of federal taxes and customs control, as well as helping to combat tax evasion, contraband, misappropriation, piracy, drug trafficking and animal trafficking.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office (CO$$). Both are corner models.
+
+    *Landmark*
+
+    - Plop cost: 30,000
+    - Lot size: 2x4
+
+    *Commercial Office (CO$$)*
+
+    - Lot size: 2x4
+    - CO$$: 500
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/33022-drf-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/1.png.18665cf2d96b39a98dbc868bc6d3f26c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/2.png.849c73cbdf49a666762fd4b0749ec90d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/3.png.f796c091c98b973b48e810d307138122.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/4.png.fba502f6351cdf5da2ce18b05c60225b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5.png.0b1c01d0628c2938ca8ca96a50d39326.png
+dependencies:
+  - jp-schriefer:drf-building-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-drf-building-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-drf-building-commercial-office-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: drf-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:drf-building`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/33022-drf-building/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-drf-building-commercial-office-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-drf-building-commercial-office-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-drf-building-landmark-mn
+version: "1.0"
+lastModified: "2019-07-15T05:11:55Z"
+url: https://community.simtropolis.com/files/file/33022-drf-building/?do=download&r=176710
+
+---
+assetId: jp-schriefer-drf-building-commercial-office-mn
+version: "1.0"
+lastModified: "2019-07-15T05:11:55Z"
+url: https://community.simtropolis.com/files/file/33022-drf-building/?do=download&r=176712
+
+---
+assetId: jp-schriefer-drf-building-commercial-office-dn
+version: "1.0"
+lastModified: "2019-07-15T05:11:55Z"
+url: https://community.simtropolis.com/files/file/33022-drf-building/?do=download&r=176713

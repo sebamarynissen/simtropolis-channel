@@ -1,0 +1,86 @@
+group: jp-schriefer
+name: park-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Park Tower of the Cidade Jardim Corporate Center in São Paulo in Landmark and Commercial Office versions
+  description: |-
+    The **Park Tower** is a 26-story high-rise building in São Paulo, SP, Brazil. The postmodernist building is part of a complex, the Cidade Jardim Corporate Center, of 3 commercial buildings, 9 residential buildings and 1 mall, finished in 2009.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office.
+
+    *Landmark*
+
+    - Plop cost: 20,000
+    - Lot size: 3x2
+
+    *Commercial Office*
+
+    - Lot size: 3x2
+    - CO$$$: 2,500
+    - CO$$: 4,500
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31592-park-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT1.png.32bb0c33bf7b72567d83cbdd0e2ae7f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT2.png.fe6de85ae428a09196f9a1386088ed72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT3.png.9024d1a49aa9f907165f82ec69f7ae9c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT4.png.abc3519e7cc6b1eb617097f5154c8162.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT5.png.16650bbdd6b74178f0cab5fa6d510ced.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT6.png.079311a41ba2c8edda28d6f7e277d955.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT7.png.0579ea78194ac6c7c2809d092f35ddd4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/PT8.jpg.7e3b0676b394186e3db262db21211367.jpg
+dependencies:
+  - jp-schriefer:park-tower-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-park-tower-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-park-tower-commercial-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: park-tower-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:park-tower`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31592-park-tower/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-park-tower-commercial-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-park-tower-commercial-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-park-tower-landmark-mn
+version: "1.0"
+lastModified: "2017-04-28T23:00:24Z"
+url: https://community.simtropolis.com/files/file/31592-park-tower/?do=download&r=165553
+
+---
+assetId: jp-schriefer-park-tower-commercial-mn
+version: "1.0"
+lastModified: "2017-04-28T23:00:24Z"
+url: https://community.simtropolis.com/files/file/31592-park-tower/?do=download&r=165554
+
+---
+assetId: jp-schriefer-park-tower-commercial-dn
+version: "1.0"
+lastModified: "2017-04-28T23:00:24Z"
+url: https://community.simtropolis.com/files/file/31592-park-tower/?do=download&r=165556

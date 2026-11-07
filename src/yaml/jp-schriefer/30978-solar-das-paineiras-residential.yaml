@@ -1,0 +1,82 @@
+group: jp-schriefer
+name: solar-das-paineiras-residential
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Solar das Paineiras residential building in Belo Horizonte in HD and SD
+  description: |-
+    The **Solar das Paineiras** building is part of a residential complex built at the end of the 70s and planned by the architect Joel Campolina in the city of Belo Horizonte, Brazil.
+
+    Note: I preferred to make a "cleaner" version, as the buildings probably were when finished in the early 80s.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Residential.
+
+    *Landmark*
+
+    - Plop cost: 5,000
+    - Lot size: 2x3
+
+    *Residential*
+
+    - Lot size: 2x3
+    - R$$: 150
+    - R$: 300
+
+    **Broken lots in the original upload**
+
+    Three lot files of the original upload are broken: they contain no lot data and are not installed. These are the Landmark lot of the SD version (in both the Maxis Nite and the Dark Nite upload) and the Landmark lot of the HD Maxis Nite version. The remaining lots are the Residential lot (SD only) and the HD Landmark lot of the Dark Nite version.
+
+    The HD version installs the HD Landmark lot (Dark Nite only) and the Residential lot from the SD set. The HD and SD models have different IDs, so the Residential building is shown in SD. For Maxis Nite, there is no working HD lot, so the HD and SD versions are the same and no resolution is asked.
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/30978-solar-das-paineiras-residential/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/1.png.b0cc16a9dc0dab78eefd5d35bd70d52e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/56d75629ee921_EstrelaDalva.png.6c0ffa9c4ba687c55aab75e823367744.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-solar-das-paineiras-residential-sd-mn
+        exclude: &broken-landmark
+          - "/LM2x2_SolardasPaineirasMNSD_23e21141\\.SC4Lot$"
+          - "/EdificioSolardasPaineirasSD-0x6534284a-0x619a06e0-0x03e20959\\.SC4Desc$"
+  - variant: { jp-schriefer:resolution: "hd", nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-solar-das-paineiras-residential-hd-dn
+      - assetId: jp-schriefer-solar-das-paineiras-residential-sd-dn
+        exclude: *broken-landmark
+  - variant: { jp-schriefer:resolution: "sd", nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-solar-das-paineiras-residential-sd-dn
+        exclude: *broken-landmark
+variantInfo:
+  - variantId: "jp-schriefer:resolution"
+    description: Choose the resolution (HD or SD) of the building.
+    values:
+      - value: "hd"
+        description: HD
+      - value: "sd"
+        description: SD
+
+---
+assetId: jp-schriefer-solar-das-paineiras-residential-sd-mn
+version: "1.0"
+lastModified: "2016-03-02T21:37:01Z"
+url: https://community.simtropolis.com/files/file/30978-solar-das-paineiras-residential/?do=download&r=160933
+
+---
+assetId: jp-schriefer-solar-das-paineiras-residential-sd-dn
+version: "1.0"
+lastModified: "2016-03-02T21:37:01Z"
+url: https://community.simtropolis.com/files/file/30978-solar-das-paineiras-residential/?do=download&r=160934
+
+---
+assetId: jp-schriefer-solar-das-paineiras-residential-hd-dn
+version: "1.0"
+lastModified: "2016-03-02T21:37:01Z"
+url: https://community.simtropolis.com/files/file/30978-solar-das-paineiras-residential/?do=download&r=160936
