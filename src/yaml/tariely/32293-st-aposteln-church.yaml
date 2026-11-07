@@ -1,0 +1,53 @@
+group: tariely
+name: st-aposteln-church
+version: "1.0.1"
+subfolder: 650-religion
+info:
+  summary: Bandito's St-Aposteln church relot 5x3
+  description: |-
+    Lots of beautiful churches have been batted over the years – I have most of them, as I liked to use them in my CJs. They are also part of my TLC program. You'll find this one in the Landmark menu.
+
+    The lot information is not changed (in German…). The model is that of the original St-Aposteln church by Bandito, which is installed from `pkg=bandito:st-aposteln-church-model`. The original lot is not needed.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is a constant and pleasant reassurance.
+
+    The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lot only needs the Rivit lighting props from `pkg=tariely:essentials`.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or get rid of them entirely.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32293-tariel-bandito-st-aposteln/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b192b10bbc41_TL-BanditoStApostelnday1.jpg.21950b9092d73859ae3978d656b4c6d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b192b12b92cc_TL-BanditoStApostelnday2.jpg.2ddb3bb6a42cce2a110acf32557e687c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b192b14bfdd7_TL-BanditoStApostelnday4.jpg.0d1dba15001a5bca5dfd64c1ff25e54c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b192b1543ab7_TL-BanditoStApostelnnite1.jpg.d62561cf709d4048ee4628b9e3bbf004.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b192b158ddde_TL-BanditoStApostelnnite2.jpg.09dafdcc43a8e773944a06e65e127e77.jpg
+dependencies:
+  - bandito:st-aposteln-church-model
+  - bsc:mega-props-bsc-parks
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol02
+  - girafe:chestnuts
+  - girafe:cypresses
+  - murimk:props-vol02-mixed
+  - ndex:textures-vol1
+  - tamorr:resource
+  - tariely:essentials
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-st-aposteln-church
+    exclude:
+      - "/RVT ParkLights2\\.dat$"
+      - "/zLightCones_RVTNite\\.dat$"
+
+---
+assetId: tariely-st-aposteln-church
+version: "1.0.1"
+lastModified: "2018-06-07T14:37:33Z"
+url: https://community.simtropolis.com/files/file/32293-tariel-bandito-st-aposteln/?do=download

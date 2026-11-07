@@ -1,0 +1,81 @@
+group: tariely
+name: four-mayor-mansions-and-houses
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Four Mayor Mansions and Houses
+  description: |-
+    There were a few Mayor abodes floating around that I liked to use in my CJs. I decided to give them some TLC. Those four go from the Big City Mayor's Mansion to the humbler rural one. You'll find them somewhere at the top of the Reward menu.
+
+    I didn't make those lots from scratch but riffed on already existing lots done by savvier people than I, as I couldn't BAT to save my life. The originals are there:
+
+    - From the ever prolific mrBisonm (Nexis), who gave us so many enjoyable lots and is still doing it: [Nexis Mayor's Mansion](https://community.simtropolis.com/files/file/406-nexismayorsmansion/) and [Nexis Successful Mayor Mansion](https://community.simtropolis.com/files/file/1620-nexissuccessfulmayormansion/)
+    - From gshmails (idem!): [Rural Mayor's House](https://community.simtropolis.com/files/file/2145-rural-mayors-house/)
+    - [TEOM Country Mayor's House](https://community.simtropolis.com/files/file/2072-teom-country-mayors-house/)
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4 world and is always generously ready to help. And also the guys and gals on the forums (Twalsh, Matias93, Fantozzi, CorinaMarie…). We need help when we begin peeking under the SC4 hood. That the community is always there for us noobies is a constant and pleasant reassurance.
+
+    The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lots only need the Rivit lighting props from `pkg=tariely:essentials`.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, maybe your trees will be a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or get rid of them entirely.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32290-tariel-four-mayor-mansions-houses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b18881f045bd_TL-BigMayorMansionday.jpg.d8225f6133cf2d01f60f4af4fe9b13fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b188820f41cd_TL-BigMayorMansionnite.jpg.58da4b8103961bc5710eeaef85afd137.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b18882a29d1c_TL-NexisTownMayorHouseday.jpg.4caf988eb751b14868d9bdb5c657ae65.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b18882c1283f_TL-NexisTownMayorHousenite.jpg.cc023604ae6104290a4270993b559251.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b1888325153e_TL-RuralMayorHouseday.jpg.79f084a67516f7f861645af39c03df9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b18883404ed3_TL-RuralMayorHousenite.jpg.6298cb7f984e8a7cff580691b5afa45d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b18883848c0f_TL-CountryMayorHouseday.jpg.67e201b5e61c7aae04d243d99dc7c2ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b1888393881e_TL-CountryMayorHousenite.jpg.5475043ff2fa7414c5fa185d389aa4d4.jpg
+dependencies:
+  - blam:essentials
+  - bsc:bat-props-jenx-tree-props-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - franku:bnl-essentials
+  - girafe:chestnuts
+  - girafe:conifers
+  - girafe:elms
+  - girafe:lindens
+  - girafe:norway-maples
+  - girafe:rowan-trees
+  - gizmo:vehicle-props
+  - lbt:mega-textures-vol01
+  - murimk:props-vol02-mixed
+  - namspopof:nams-mega-props
+  - nos17:essentials
+  - peg:mtp-super-pack
+  - peg:spam-super-resource-pack
+  - shk:parking-pack
+  - simfox:treepack-vol02
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - tamorr:resource
+  - tariely:essentials
+  - vip:delecto-ploppable-people
+  - vip:vnaoned-props-pack-vol01
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-four-mayor-mansions-and-houses
+    exclude:
+      - "/RVT ParkLights2\\.dat$"
+      - "/zLightCones_RVTNite\\.dat$"
+
+---
+assetId: tariely-four-mayor-mansions-and-houses
+version: "1.0"
+lastModified: "2018-06-07T01:23:10Z"
+url: https://community.simtropolis.com/files/file/32290-tariel-four-mayor-mansions-houses/?do=download

@@ -1,0 +1,20 @@
+group: rsc204
+name: parks-revisited-maxis-beach-patch
+version: "1.0"
+subfolder: 900-overrides
+info:
+  summary: Restores the Maxis beach texture for Paeng's Parks Revisited
+  description: |-
+    Fix for beach textures going wonky. This can be caused if you use Paeng's Parks Revisited (`pkg=paeng:parks-revisited`) and alter the default WSP (White Sand Parks) texture. Since the base path from this set uses the default Lot Editor beach texture, overriding it with another (an option as part of the Texture Changer) will also override the same texture on any lots using it.
+
+    This little patch ensures that the beach texture remains when using Parks Revisited. It shouldn't need any special load order and existing beaches should auto-refresh with this present.
+  author: rsc204
+  website: https://community.simtropolis.com/forums/topic/761802-beach-sand-is-replaced-by-another-texture/?do=findComment&comment=1771626
+assets:
+  - assetId: rsc204-parks-revisited-maxis-beach-patch
+
+---
+assetId: rsc204-parks-revisited-maxis-beach-patch
+version: "1.0"
+lastModified: "2022-06-18T21:54:43Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=87312

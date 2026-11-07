@@ -1,6 +1,6 @@
 group: nbvc
 name: plazas-with-fountains
-version: "1.0-1"
+version: "1.0-2"
 subfolder: 660-parks
 info:
   summary: Plazas with fountains
@@ -20,7 +20,7 @@ info:
     - https://www.simtropolis.com/objects/screens/0016/8d054377964461746303d5afe0de379a-fountains1.jpg
     - https://www.simtropolis.com/objects/screens/0016/8d054377964461746303d5afe0de379a-fountains2.jpg
 dependencies:
-  - nbvc:plazas-with-fountains-model
+  - nbvc:plazas-with-fountains-models
 assets:
   - assetId: nbvc-plazas-with-fountains
     exclude:
@@ -29,11 +29,11 @@ assets:
 
 ---
 group: nbvc
-name: plazas-with-fountains-model
+name: plazas-with-fountains-models
 version: "1.0"
 subfolder: 110-resources
 info:
-  summary: Model and prop dependency for `pkg=nbvc:plazas-with-fountains`
+  summary: Models and props for `pkg=nbvc:plazas-with-fountains`
   author: nbvc
   website: https://community.simtropolis.com/files/file/23102-plazas-with-fountains/
 assets:

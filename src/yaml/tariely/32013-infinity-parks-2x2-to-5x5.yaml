@@ -1,0 +1,72 @@
+group: tariely
+name: infinity-parks-2x2-to-5x5
+version: "1.0.1"
+subfolder: 660-parks
+info:
+  summary: Simsim Infinity Parks 2x2 to 5x5
+  description: |-
+    I loved Simsim's parks set when I came upon it way back then. Those parks were… different. Alas, the originals have disappeared from the STEX. But this Japanese batter's website is still floating on the web, with them: http://simsim.bakufu.org/p04.html
+
+    What I loved about those lots is that they were almost modular, almost, not quite. So they were perfect candidates for my first attempts at modularity.
+
+    There are two 2x2s, one 3x3, one 3x4, two 4x4s and one 5x5. Relotted, with mirrored textures AND with 1x2, 1x3, 1x5 and 2x5 "modules" that make them… endlessly combinable (hence, the name). The original download also contains pictures of how-to-combine examples.
+
+    LLB (Dreadnought) was kind enough to make three little 1x1 that can be used as paths linking the parks. I might make more park paths with that texture in the future. Modular 'R' Us!
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world. Also the willing victims of various beta-tests, RobertLM78, Handyman and, again, Dreadnought. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi…). We need help when we begin sneaking a peek under the hood of SC4. That the community is always willing to help is a constant and pleasant comfort for us noobies.
+
+    **Note on Ftexture:** when I first downloaded the Simsim parks, an obscure dependency was listed, Ftexture. I got it and the lots worked, i.e. the paths showed up. Later I was persuaded that Ftexture was not necessary. But it is. The textures are installed by `pkg=tariely:ftexture`, which is also used by `pkg=tariely:infinity-parks-again`.
+
+    The car props of the parking modules use the Girafe car family props of `pkg=magneto:sam-1-override-car-family-props`.
+
+    **Stats:** they don't cost much (from 30 to 200), they have a positive effect on pollution (except, slightly, the 1x5 parking module), they are not water-guzzling and they have a nice park and landmark effect.
+
+    Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lots only need the Rivit streetlight prop from `pkg=tariely:essentials`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32013-tariel-simsim-infinity-parks-2x2-to-5x5/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a19d26feae7b_Park5x5moduleday.jpg.fce2525c73d86dbceb0c6ae336bef49c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a1a2c7bc0684_Park5x5modulenite.jpg.e3bd460b8497c488f9b71d9a78dd6b6b.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:textures-vol02
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol03
+  - franku:bnl-essentials
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:honey-locust
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:rowan-trees
+  - lbt:mega-textures-vol01
+  - magneto:sam-1-override-car-family-props
+  - namspopof:nams-mega-props
+  - nos17:essentials
+  - peg:oww2-resource-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+  - simfox:treepack-vol02
+  - tamorr:resource
+  - tariely:essentials
+  - tariely:ftexture
+  - vip:delecto-ploppable-people
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-infinity-parks-2x2-to-5x5
+    exclude:
+      - "/RVT ParkLights2\\.dat$"
+      - "/zLightCones_RVTNite\\.dat$"
+
+---
+assetId: tariely-infinity-parks-2x2-to-5x5
+version: "1.0.1"
+lastModified: "2017-11-26T02:53:00Z"
+url: https://community.simtropolis.com/files/file/32013-tariel-simsim-infinity-parks-2x2-to-5x5/?do=download

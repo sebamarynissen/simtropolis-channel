@@ -1,0 +1,37 @@
+group: paeng
+name: sandstone-booster
+version: "1.1"
+subfolder: 700-transit
+info:
+  summary: Sandstone Booster
+  description: |-
+    Add a number of lot-, prop- and texture-based items to your Sandstone (SSt) environment:
+
+    - **Alley Extenders:** Plop these lots over your road network to make functional Sandstone Sidewalk pedestrian areas. They can be found at or near the end of the 'Transport | Misc' menu. Plop the extenders in sequence, then draw a road through them. They come with and without fences.
+    - **Gridbusters:** These lots are good for touching up diagonal sections. They can be found at or near the end of the 'Landmarks' menu.
+    - **Sidings:** Add visually interesting boundaries to SSt Alleys and Plazas. They can be found at or near the end of the 'Parks' menu.
+
+    The alleys are meant to be used in commercial environs - zoning along the roads lined with alley extenders is done without any problems. Using them in residential areas is possible, but with some limitations - some zones will develop "No Access" zots, some won't... you can try to bulldoze and re-grow repeatedly - if you are patient you'll get some successful development, but there will always be 'holes' in your W2W rows.
+
+    The lots are meant for a Sandstone environment, such as the one created by `pkg=paeng:sandstone-mod`.
+  author: Paeng, rsc204
+  website: https://community.simtropolis.com/forums/topic/70412-paengs-forum-attachments/?do=findComment&comment=1627787
+  images:
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_05/SSt-AlleyExtenders.jpg.cac2551e64ac8ac922764129521da117.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_05/SSt-Gridbusters.jpg.f726562ae92aa3106a75fbe27fb37fcc.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_05/SSt-Sidings.jpg.567453160a8cf207578e15e57fe11840.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol02-mixed
+  - paeng:textures
+  - peg:spot
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - shk:parking-pack
+assets:
+  - assetId: paeng-sandstone-booster
+
+---
+assetId: paeng-sandstone-booster
+version: "1.1"
+lastModified: "2019-05-06T10:39:00Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=46046

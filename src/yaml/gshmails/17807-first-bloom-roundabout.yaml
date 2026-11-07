@@ -1,0 +1,46 @@
+group: gshmails
+name: first-bloom-roundabout
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Shmails First Bloom Roundabout
+  description: |-
+    This is an abstract art piece I designed. This version is designed to fit inside of roundabouts. There are three color sets, Silver, Golden, and Copper.
+
+    - Plop cost: 400
+    - Bulldoze cost: 100
+    - Monthly cost: 5
+    - Park effect of a small park
+
+    You need the NAM to make a roundabout, but you knew that!
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/17807-shmails-first-bloom-roundabout/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6e34193ba20af60b45afbd43c261b482-FBR-group1b.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6e34193ba20af60b45afbd43c261b482-FBR-group1a.jpg
+dependencies:
+  - gshmails:first-bloom-roundabout-models
+assets:
+  - assetId: gshmails-first-bloom-roundabout
+    exclude:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+group: gshmails
+name: first-bloom-roundabout-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=gshmails:first-bloom-roundabout`
+  author: gshmails
+  website: https://community.simtropolis.com/files/file/17807-shmails-first-bloom-roundabout/
+assets:
+  - assetId: gshmails-first-bloom-roundabout
+    include:
+      - "\\.(?:SC4Model|SC4Desc)$"
+
+---
+assetId: gshmails-first-bloom-roundabout
+version: "1.0"
+lastModified: "2007-02-23T07:47:13Z"
+url: https://community.simtropolis.com/files/file/17807-shmails-first-bloom-roundabout/?do=download
