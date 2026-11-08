@@ -1,0 +1,39 @@
+group: ill-tonkso
+name: bakers-corner
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bakers Corner
+  description: |-
+    Bakers Corner is a small Georgian Office building like so many found across the United Kingdom. Popular with law firms these charming buildings are built in one of the most loved Architectural styles in the UK.
+
+    * * *
+
+    Ploppable: Cost £100, 1x1 Lot, 80 CO££ Jobs
+
+    * * *
+
+    Growable: 1x1 Lot, 80 CO££ Jobs
+
+    * * *
+
+    dependencies: None.
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/18005-ndex-its-bakers-corner/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6dccc13793945e39300f79fc0260a6d2-bakerd.jpg
+    - https://www.simtropolis.com/objects/screens/0013/6dccc13793945e39300f79fc0260a6d2-bakern.jpg
+dependencies:
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-bakers-corner
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-bakers-corner
+version: "1.0"
+lastModified: "2007-04-15T16:32:45Z"
+url: https://community.simtropolis.com/files/file/18005-ndex-its-bakers-corner/?do=download

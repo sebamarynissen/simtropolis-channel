@@ -1,0 +1,38 @@
+group: ill-tonkso
+name: fifty4-hagley-road-birmingham
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Fifty4 Hagley Road Birmingham
+  description: |-
+    **Fifty4 Hagley Road**
+
+    I have decided to bring some of the Five Ways (Birminghams secondary CBD) Towers to the STEX, so to begin here is one of the smaller towers. Completed in the 1970s Fifty4 Hagley Road was refurbished in the 21st century.
+
+    Again no growable but feel free to make one and link to this file as a dependency. Speaking of which, this has the BSC Mega Texture Pack over at SC4devotion as a dependency so don't forget that!
+
+    * * *
+
+    Ploppable 5x5 CO££ lot with 3200 Jobs.
+
+    * * *
+
+    Dependencies: BSC Mega Texture Pack
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19863-ndex-its-fifty4-hagley-road-birmingham/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c78e761df8eab9a016c23c73360824ab-54D.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c78e761df8eab9a016c23c73360824ab-54N.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol09
+assets:
+  - assetId: ill-tonkso-fifty4-hagley-road-birmingham
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-fifty4-hagley-road-birmingham
+version: "1.0"
+lastModified: "2008-06-03T20:37:37Z"
+url: https://community.simtropolis.com/files/file/19863-ndex-its-fifty4-hagley-road-birmingham/?do=download

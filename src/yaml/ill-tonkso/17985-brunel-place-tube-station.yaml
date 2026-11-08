@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: brunel-place-tube-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Brunel Place Tube Station
+  description: |-
+    Brunel Place is a stop on the Circle line of the Fictional Brenntia Underground. I needed a modern station to sit in my modern development so i cooked up something in about 15 minutes. This is the result.
+
+    Capacity: 20,000 (large downtown station)
+
+    Cost: 2000
+
+    Size: 2x1 lot.
+
+    dependencies: None!
+
+    Thanks, Dan.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17985-ndex-its-brunel-place-tube-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/027336fbe4815fa177a9cb46435c96d7-bptd.jpg
+    - https://www.simtropolis.com/objects/screens/0001/027336fbe4815fa177a9cb46435c96d7-bptn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-brunel-place-tube-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brunel-place-tube-station
+version: "1.0"
+lastModified: "2007-04-09T22:12:31Z"
+url: https://community.simtropolis.com/files/file/17985-ndex-its-brunel-place-tube-station/?do=download

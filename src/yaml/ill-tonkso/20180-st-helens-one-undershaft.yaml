@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: st-helens-one-undershaft
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: St Helens One Undershaft
+  description: |-
+    St Helens was completed in 1969 on the corner of Undershaft and St Mary Axe, City of London and was the tallest building in London at the time. This has already been modeled for SC4 by Frogface but I always thought it was underscale so I have decided to remake it to its correct height.  
+    The Tower now stands next door to 30 St Mary Axe (known popularly as 'The Gherkin') and will soon be surrounded by taller buildings 122 Leadenhall and 38 Bishopsgate. It is to be grade II listed as one of the finest international style buildings in London.  
+      
+    The zip currently only contains a ploppable version, no growable yet.
+
+    3x3 CO£££ 2000 Jobs, £5000 plop cost.
+
+      
+    No Dependencies
+
+    2014-07-15 - Prens: Added tags.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20180-ndex-its-st-helens-one-undershaft/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/44162f7623d54c103c9bbfe66f26ddf3-sthelenday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/3ffcfa7f313fac60f3d25ab8ab78e7ad-sthelennight.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol12
+assets:
+  - assetId: ill-tonkso-st-helens-one-undershaft
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-st-helens-one-undershaft
+version: "1.0"
+lastModified: "2008-08-04T13:50:13Z"
+url: https://community.simtropolis.com/files/file/20180-ndex-its-st-helens-one-undershaft/?do=download

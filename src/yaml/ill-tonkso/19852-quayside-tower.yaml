@@ -1,0 +1,39 @@
+group: ill-tonkso
+name: quayside-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Quayside Tower
+  warning: |-
+    The Quayside Hospital lot has no menu icon (the original file stores it under the wrong group). The missing button picture shifts the following entries in the Health menu. The lot itself works.
+  description: |-
+    Quayside Tower is a Birmingham office building built in the late 60s and refurbished in the early 21st century. Rising to 15 floors it overlooks the world famous Gas Street Canal Basin.
+
+    While the real building houses offices I have included two versions, one for offices and one for Hospital use. Why? Because I can.
+
+    * * *
+
+    Ploppable Commercial - 2600 CO££
+
+    Hospital Patient Capacity - 3000
+
+    * * *
+
+    dependencies: A common acceptance that I am bloody fantastic. Get over it.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19852-ndex-its-quayside-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/132e6d36ec1f7d41ae16649904f2786d-quaysideday.jpg
+    - https://www.simtropolis.com/objects/screens/0003/132e6d36ec1f7d41ae16649904f2786d-quaysidenight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol11
+assets:
+  - assetId: ill-tonkso-quayside-tower
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-quayside-tower
+version: "1.0"
+lastModified: "2008-06-01T20:13:49Z"
+url: https://community.simtropolis.com/files/file/19852-ndex-its-quayside-tower/?do=download

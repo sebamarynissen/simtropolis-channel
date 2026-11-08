@@ -1,0 +1,42 @@
+group: ill-tonkso
+name: motorway-matrix-sign
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Motorway Matrix Sign
+  description: |-
+    **Motorway Matrix Signs**
+
+    Just something small i cooked up for my UK Motorway Project, these small signs are found in the Parks menu and cost £100 to plop with no additional costs. These signs exist to provide drivers with information regarding the road ahead, and this model was based on those on the M27 between Portsmouth and Southampton.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17859-its-motorway-matrix-sign/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6fb7c11be4a76d2900f44975618a09a6-UKMPMS.jpg
+dependencies:
+  - ill-tonkso:motorway-matrix-sign-model
+assets:
+  - assetId: ill-tonkso-motorway-matrix-sign
+    exclude:
+      - "/ITS_SignPowerGen-0x5ad0e817_0xb29bda8d_0x30000\\.SC4Model$"
+
+---
+group: ill-tonkso
+name: motorway-matrix-sign-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Sign power box model for `pkg=ill-tonkso:motorway-matrix-sign`, `pkg=ill-tonkso:highway-matrix-sign` and `pkg=ill-tonkso:overhead-motorway-gantrys`
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17859-its-motorway-matrix-sign/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/6fb7c11be4a76d2900f44975618a09a6-UKMPMS.jpg
+assets:
+  - assetId: ill-tonkso-motorway-matrix-sign
+    include:
+      - "/ITS_SignPowerGen-0x5ad0e817_0xb29bda8d_0x30000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-motorway-matrix-sign
+version: "1.0"
+lastModified: "2007-03-10T16:55:23Z"
+url: https://community.simtropolis.com/files/file/17859-its-motorway-matrix-sign/?do=download

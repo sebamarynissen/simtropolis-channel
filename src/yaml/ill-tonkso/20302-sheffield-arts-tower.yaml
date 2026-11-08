@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: sheffield-arts-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sheffield Arts Tower
+  description: |-
+    About time the STEX saw a bit of Sheffield. I bring you the Sheffield Arts Tower. Part of the University of Sheffield, the Arts Tower is a 20 floor modernist building completed in 1965 inspired by the Seagram Building in New York.
+
+    The Arts Tower is currently the tallest building in Sheffield, and is to be surpassed by the City Lofts Tower which is currently under construction.
+
+    The three lots contained in the Zip are as follows:
+
+    * Ploppable: 2x3 CO$$$ 1200
+    * Growable: 2x3 CO$$$ 1200
+    * Education: 2x3 5000 College Students
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20302-ndex-its-sheffield-arts-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/14abeb5c45c1fd4c2c4d82560ec58156-sheffieldarts1.jpg
+    - https://www.simtropolis.com/objects/screens/0003/14abeb5c45c1fd4c2c4d82560ec58156-sheffieldarts2.jpg
+dependencies:
+  - ndex:its-mega-pack-vol07
+assets:
+  - assetId: ill-tonkso-sheffield-arts-tower
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-sheffield-arts-tower
+version: "1.0"
+lastModified: "2008-08-31T13:44:48Z"
+url: https://community.simtropolis.com/files/file/20302-ndex-its-sheffield-arts-tower/?do=download

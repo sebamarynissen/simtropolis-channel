@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: street-office-b
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 2011 Street Office B
+  description: |-
+    A generic modern W2W office/retail set.
+
+    Ploppable and Growable: CS$ 650
+
+    Plop Cost: £5,000
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25943-its-2011-street-office-b/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8bad72a84efaa754bce55f7fcfa4ab41-streetbday.jpg
+    - https://www.simtropolis.com/objects/screens/0004/196abc4f5776060a9557cba3e824e5a8-streetbnight.jpg
+dependencies:
+  - cogeo:logistics-centre-dependency-pack
+  - ndex:its-mega-pack-vol05
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: ill-tonkso-2011-street-office-b
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-2011-street-office-b
+version: "1.0"
+lastModified: "2011-03-03T20:08:32Z"
+url: https://community.simtropolis.com/files/file/25943-its-2011-street-office-b/?do=download

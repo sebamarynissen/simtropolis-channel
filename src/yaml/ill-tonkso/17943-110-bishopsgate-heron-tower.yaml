@@ -1,0 +1,26 @@
+group: ill-tonkso
+name: 110-bishopsgate-heron-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 110 Bishopsgate Heron Tower
+  description: 110 Bishopsgate, the Heron Tower is an approved 46 story building for Londons Bishopsgate road. This SC4 recreation costs £20,000 and provides 4000 CO££ Jobs.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17943-ndex-its-110-bishopsgate-heron-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/96adc47bc8e8b173b303b571f03cc690-110d.jpg
+    - https://www.simtropolis.com/objects/screens/0017/96adc47bc8e8b173b303b571f03cc690-110n.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol04
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: ill-tonkso-110-bishopsgate-heron-tower
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-110-bishopsgate-heron-tower
+version: "1.0"
+lastModified: "2007-03-31T19:04:40Z"
+url: https://community.simtropolis.com/files/file/17943-ndex-its-110-bishopsgate-heron-tower/?do=download

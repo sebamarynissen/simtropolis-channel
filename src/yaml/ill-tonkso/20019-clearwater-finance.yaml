@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: clearwater-finance
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Clearwater Finance
+  description: |-
+    I'm proud of this one, started off as random doodling, then manifested itself as this. Typical infill for the larger city in the UK, sort of Birmingham, Manchester or Leeds scale. I modeled the stairwell too in a spur of boredom. Anyway, forget all the boring stuff, let the STEX flood begin! It's fixed and I have a backlog!
+
+    * * *
+
+    Ploppable: 3x2 CO££ 1000Growable: 3x2 CO££ 1000
+
+    * * *
+
+    dependencies, none!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20019-ndex-its-clearwater-finance/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7c9b9ed72015a89c614d128565aa6874-clearwaterfinance.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7c9b9ed72015a89c614d128565aa6874-clearwaterfinancenight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol10
+assets:
+  - assetId: ill-tonkso-clearwater-finance
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-clearwater-finance
+version: "1.0"
+lastModified: "2008-07-08T17:40:39Z"
+url: https://community.simtropolis.com/files/file/20019-ndex-its-clearwater-finance/?do=download

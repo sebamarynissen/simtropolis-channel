@@ -1,0 +1,24 @@
+group: ill-tonkso
+name: georgian-set-3
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Georgian Set 3
+  description: This is a set of commercial fillers. Each 2x2 building contains 400 CS££ Jobs and costs £800 to plop.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17940-ndex-its-georgian-set-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/df068b229be23e0c01f74bc59ae5833b-gs3d.jpg
+    - https://www.simtropolis.com/objects/screens/0025/df068b229be23e0c01f74bc59ae5833b-gs3d1.jpg
+dependencies:
+  - ndex:its-mega-pack-vol01
+assets:
+  - assetId: ill-tonkso-georgian-set-3
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-georgian-set-3
+version: "1.0"
+lastModified: "2007-03-31T19:01:24Z"
+url: https://community.simtropolis.com/files/file/17940-ndex-its-georgian-set-3/?do=download

@@ -1,0 +1,24 @@
+group: ill-tonkso
+name: 33-commercial-road
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 33 Commercial Road
+  description: 33 Commercial Road is a midrise, hi spec office building that can house up to 2300 CO££ Workers. It fits onto a 2x3 lot and costs £3000 to build.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17934-ndex-its-33-commercial-road/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/5619eea1e275a64e0858a2ca6bfaf936-33cd.jpg
+    - https://www.simtropolis.com/objects/screens/0010/5619eea1e275a64e0858a2ca6bfaf936-33cn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol06
+assets:
+  - assetId: ill-tonkso-33-commercial-road
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-33-commercial-road
+version: "1.0"
+lastModified: "2007-03-31T18:47:06Z"
+url: https://community.simtropolis.com/files/file/17934-ndex-its-33-commercial-road/?do=download
