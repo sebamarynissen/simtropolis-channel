@@ -1,0 +1,25 @@
+group: xyloxadoria
+name: world-plaza
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: World Plaza
+  description: |-
+    The World Plaza is a park designed to fill the unused space of an avenue roundabout. There is a bronze and silver globe in the middle. It also creates eye candy pedestrian bridges over the roundabout. (I don't know how to do pathing.) Pedestrians can still cross the roundabout, because the lot doesn't disturb it, they just won't use the bridge.
+
+    To use, make an avenue roundabout with north/south roads (non diagonal). Then destroy the four tiles in the middle of the roundabout. Plop the 4x4 lot in the middle, and it will overhang to be a 6x6 lot (the roundabout plus one more square on either side).
+
+    Since the lot overhangs, don't build anything in the squares directly adjacent to the roundabout, or the park will cover it.
+  author: Xyloxadoria
+  website: https://community.simtropolis.com/files/file/18375-world-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ebd1cc4d34c1a5c10d03cbbf26fd7a89-roundabout1.JPG
+    - https://www.simtropolis.com/objects/screens/0026/ebd1cc4d34c1a5c10d03cbbf26fd7a89-Roundabout11.JPG
+assets:
+  - assetId: xyloxadoria-world-plaza
+
+---
+assetId: xyloxadoria-world-plaza
+version: "1.0"
+lastModified: "2007-07-03T09:51:55Z"
+url: https://community.simtropolis.com/files/file/18375-world-plaza/?do=download

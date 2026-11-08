@@ -1,0 +1,61 @@
+group: xyloxadoria
+name: meridian-condominiums-v2
+version: "2"
+subfolder: 200-residential
+info:
+  summary: Meridian Condominiums V2
+  description: |-
+    This is V2 of my Meridian Condominiums. There are a few reasons for a redo of this. The main reason being that with the new version of BAT4Max 2k edition v4.5 TruNite works for me now (some weird thing made it not work for v1 of this building), so now the nightlighting has been improved.
+
+    Also some people have been reporting that the building abandons, I have fixed what seemed to be the cause of that. If you were one of those people, then replace this with the old version and it should grow without errors.
+
+    There is also now a diagonal version included. It only comes as a landmark, as diagonals can't grow.
+
+    **R$$ and R$$$ lots**
+
+    - Stage: 8
+    - Residents: 800
+    - Construction time: 100 days
+    - Pollution: 5 of each except radiation over 5 tiles
+    - Water consumption: 5
+    - Power consumption: 5
+    - Lot size: both 4x2
+
+    **Landmark lot, straight and diagonal**
+
+    - Plop cost: 5000
+    - Monthly cost: 20
+    - Landmark effect: 20 over 20 tiles
+    - Mayor effect: 20 over 20 tiles
+    - Pollution: 5 of each except radiation over 5 tiles
+    - Water consumption: 5
+    - Power consumption: 5
+    - Lot size: straight is 4x2, diagonal 1x2
+  author: Xyloxadoria
+  websites:
+    - https://community.simtropolis.com/files/file/23257-meridian-condominiums-v2/
+    - https://community.simtropolis.com/files/file/23295-meridian-condominiums-v2-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/f11e6e75cfacdf29c77515f2e9cefc48-0138.jpg
+    - https://www.simtropolis.com/objects/screens/0026/f11e6e75cfacdf29c77515f2e9cefc48-0139.jpg
+    - https://www.simtropolis.com/objects/screens/0012/69f1196274460c745ef706ecb29b9cee-0139.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: xyloxadoria-meridian-condominiums-v2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: xyloxadoria-meridian-condominiums-v2-darknite
+
+---
+assetId: xyloxadoria-meridian-condominiums-v2-maxisnite
+version: "2"
+lastModified: "2010-02-03T13:21:27Z"
+url: https://community.simtropolis.com/files/file/23257-meridian-condominiums-v2/?do=download
+
+---
+assetId: xyloxadoria-meridian-condominiums-v2-darknite
+version: "2"
+lastModified: "2010-02-07T16:54:48Z"
+url: https://community.simtropolis.com/files/file/23295-meridian-condominiums-v2-darknite/?do=download
