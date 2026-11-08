@@ -1,0 +1,107 @@
+group: kel9509
+name: department-of-transportation
+version: 1.0.0-1
+subfolder: 640-government
+info:
+  summary: Department of Transportation
+  description: |-
+    The Department of Transportation provides comprehensive statistics about all of your transportation networks, as well as information in the tooltips about how the networks in the Network Addon Mod operate. Every item (even the intro text) can be hovered over for additional information to assist you in managing your transportation networks.
+
+    These lots are designed to show as many in-game transportation variables to you as possible (excluding airports and seaports).
+
+    With help from Lucario Boricua, CorinaMarie, Tyberius06, Ulisse Wolf, Null 45, and the entire Network Addon Mod team.
+
+    **Content**
+
+    - Department of Transportation Query, which is linked to the buildings.
+    - Department of Transportation Main Office, lot 3x4
+    - Department of Transportation Rural Office, lot 4x3 (Maxis Nite only)
+
+    **Notes**
+
+    - These lots use a custom query to provide in-game stats about your transportation networks, updating on the 28th of each month (generally; sometimes an additional month is needed).
+    - Each lot is a government reward building that can be plopped with no conditions multiple times in your city.
+    - Each lot is unique and does not overwrite the others.
+    - The lots can be found in the Landmarks menu (also in the Reward menu if you are not using the Submenu DLL). With the Submenu DLL, they are in the default Government Buildings submenu.
+    - In addition to information about transportation networks and tips about how the NAM works in the tooltips, the lots provide positive Landmark effects, a slightly negative Park effect (due to negative reaction to government bureaucracy), a small positive Mayor effect, and Demand Cap Relief for all Residential, Commercial and Industrial types (except that Farm cap relief is only available for the Rural version). The buildings also provide a decent amount of civic jobs.
+    - The Main Office is available as two identically-looking lots: one for Dark Nite and one for Maxis Nite. The lot that matches your `nightmode` variant is installed. The Rural Office is Maxis Nite only, and is always installed.
+    - Although the lots can be used without it, the transit stats and tooltips of the query are based on the NAM Traffic Simulator, so `pkg=nam:traffic-simulator` is installed as well. This also works with NAM Lite. The stats of optional NAM components (RealHighway, High Speed Rail, Ground Light Rail, canals, Network Widening Mod) only show values if those are installed too, which is the case with `pkg=nam:network-addon-mod`.
+
+    **Stats of the Main Office (both Dark Nite and Maxis Nite)**
+
+    - Lot size: 3x4
+    - Plop cost: $66,000
+    - Bulldoze cost: $16,600
+    - Monthly cost: $450
+    - Demand Cap Relief: R$, R$$ and R$$$: 40,000; CO$$, CO$$$, I-D, I-M, I-H: 40,000
+    - Jobs: $ 323, $$ 452, $$$ 211
+    - Landmark effect: 150, 45
+    - Park effect: -20, 10
+    - Mayor effect: 10, 256
+    - Pollution: 11 (air) / 2 (water) / 54 (garbage)
+    - Pollution radius: 2 / 3 / 0
+    - Power consumed: 129 MWh
+    - Water consumed: 259 gal/month
+    - Occupant groups: Reward Building, DMV
+
+    **Stats of the Rural Office (Maxis Nite only)**
+
+    - Lot size: 4x3
+    - Plop cost: $25,900
+    - Bulldoze cost: $259
+    - Monthly cost: $75
+    - Demand Cap Relief: R$, R$$ and R$$$: 10,000; CO$$, CO$$$, I-D, I-M, I-H: 5,000; I-R (farm): 10,000
+    - Jobs: $ 23, $$ 46, $$$ 6
+    - Landmark effect: 75, 25
+    - Park effect: -10, 5
+    - Mayor effect: 10, 256
+    - Pollution: 1 (air) / 1 (water) / 10 (garbage)
+    - Pollution radius: 1 / 2 / 0
+    - Power consumed: 50 MWh
+    - Water consumed: 67 gal/month
+    - Occupant groups: Reward Building, DMV
+  author: Kel9509
+  website: https://community.simtropolis.com/files/file/37018-department-of-transportation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8e9361721_DepartmentofTransportation-MainOffice.jpg.ee383306a6cb0487f8007eb3392c9f17.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ea19bd12_DepartmentofTransportation-RuralOffice.jpg.62213db2a71c0170321f67d8bce2cfb5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ed302bec_DepartmentofTransportation-Query1.jpg.8553fb6aa42a9c3cd98a325cfef90b35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ed53c0c6_DepartmentofTransportation-Query2.jpg.436d8521f5f9b1811a05b28aa602035f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ed7171e8_DepartmentofTransportation-Query3.jpg.c9d437e66af33262527c497861e398c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ed8ceff5_DepartmentofTransportation-Query4.jpg.78b6aa550a2988be94fcce0748cab079.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8edd243bd_DepartmentofTransportation-LandmarkEffect.jpg.fd887616b5656373887af2e170fc4134.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ee12dfa0_DepartmentofTransportation-NegativeParkEffect.jpg.192f7de3aca40aea02f59eb9aa512909.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ee872e20_DepartmentofTransportationMainOffice-DarkNite.jpg.8418e89719a16f6e2c8d4fecd15de70c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8eeb97b40_DepartmentofTransportationMainOffice-MaxisNite.jpg.a6f188b15f0918806c05bdd32b5bd9ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/68cb8ef071f29_DepartmentofTransportation-RuralOfficeNight.jpg.cb5f00f2abc68dc38d576b25234c6cca.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02-remastered
+  - diego-del-llano:reynolds-building-model
+  - girafe:beeches
+  - girafe:berries
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+  - nam:traffic-simulator
+  - s-olah:labashaz-museum-v2-model
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: kel9509-department-of-transportation
+        exclude:
+          - "_Main_Office_DN_"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: kel9509-department-of-transportation
+        exclude:
+          - "_Main_Office_MN_"
+
+---
+assetId: kel9509-department-of-transportation
+version: 1.0.0-1
+lastModified: "2026-06-14T19:58:43Z"
+url: https://community.simtropolis.com/files/file/37018-department-of-transportation/?do=download
