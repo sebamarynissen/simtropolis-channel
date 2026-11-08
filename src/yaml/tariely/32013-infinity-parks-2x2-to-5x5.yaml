@@ -15,7 +15,7 @@ info:
 
     Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world. Also the willing victims of various beta-tests, RobertLM78, Handyman and, again, Dreadnought. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi…). We need help when we begin sneaking a peek under the hood of SC4. That the community is always willing to help is a constant and pleasant comfort for us noobies.
 
-    **Note on Ftexture:** when I first downloaded the Simsim parks, an obscure dependency was listed, Ftexture. I got it and the lots worked, i.e. the paths showed up. Later I was persuaded that Ftexture was not necessary. But it is. The textures are installed by `pkg=tariely:ftexture`, which is also used by `pkg=tariely:infinity-parks-again`.
+    **Note on Ftexture:** when I first downloaded the Simsim parks, an obscure dependency was listed, Ftexture. I got it and the lots worked, i.e. the paths showed up. Later I was persuaded that Ftexture was not necessary. But it is. The textures are installed by `pkg=nob:texture-pack-vol01`, which is also used by `pkg=tariely:infinity-parks-again`.
 
     The car props of the parking modules use the Girafe car family props of `pkg=magneto:sam-1-override-car-family-props`.
 
@@ -49,6 +49,7 @@ dependencies:
   - lbt:mega-textures-vol01
   - magneto:sam-1-override-car-family-props
   - namspopof:nams-mega-props
+  - nob:texture-pack-vol01
   - nos17:essentials
   - peg:oww2-resource-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -56,7 +57,6 @@ dependencies:
   - simfox:treepack-vol02
   - tamorr:resource
   - tariely:essentials
-  - tariely:ftexture
   - vip:delecto-ploppable-people
   - wmp:mega-props-vol01
 assets:

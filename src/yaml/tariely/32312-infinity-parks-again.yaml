@@ -48,32 +48,17 @@ dependencies:
   - girafe:maples-v2
   - girafe:rowan-trees
   - namspopof:nams-mega-props
+  - nob:texture-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
   - simfox:treepack-vol02
   - tamorr:resource
   - tariely:essentials
-  - tariely:ftexture
   - vip:delecto-ploppable-people
   - wmp:mega-props-vol01
 assets:
   - assetId: tariely-infinity-parks-again
     exclude:
       - "/rivit lights/"
-      - "/Ftexture\\.dat$"
-
----
-group: tariely
-name: ftexture
-version: "1.0"
-subfolder: 100-props-textures
-info:
-  summary: Textures used by several of Tariely's park sets
-  description: The `Ftexture.dat` textures that are shared by `pkg=tariely:infinity-parks-again`, `pkg=tariely:infinity-parks-2x2-to-5x5`, `pkg=tariely:holly-hock-parks-3x3-paths`, `pkg=tariely:gazbo-modular-parks-series` and `pkg=tariely:burgess-and-nyhaven-parks`.
-  author: Tariely
-  website: https://community.simtropolis.com/files/file/32312-tl-simsim-infinity-parks-again-modules/
-assets:
-  - assetId: tariely-infinity-parks-again
-    include:
       - "/Ftexture\\.dat$"
 
 ---
