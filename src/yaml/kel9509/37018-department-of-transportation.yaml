@@ -25,7 +25,7 @@ info:
     - The lots can be found in the Landmarks menu (also in the Reward menu if you are not using the Submenu DLL). With the Submenu DLL, they are in the default Government Buildings submenu.
     - In addition to information about transportation networks and tips about how the NAM works in the tooltips, the lots provide positive Landmark effects, a slightly negative Park effect (due to negative reaction to government bureaucracy), a small positive Mayor effect, and Demand Cap Relief for all Residential, Commercial and Industrial types (except that Farm cap relief is only available for the Rural version). The buildings also provide a decent amount of civic jobs.
     - The Main Office is available as two identically-looking lots: one for Dark Nite and one for Maxis Nite. The lot that matches your `nightmode` variant is installed. The Rural Office is Maxis Nite only, and is always installed.
-    - Although the lots can be used without it, the stats of the query are based on the Network Addon Mod, so `pkg=nam:network-addon-mod` is installed as well.
+    - Although the lots can be used without it, the transit stats and tooltips of the query are based on the NAM Traffic Simulator, so `pkg=nam:traffic-simulator` is installed as well. This also works with NAM Lite. The stats of optional NAM components (RealHighway, High Speed Rail, Ground Light Rail, canals, Network Widening Mod) only show values if those are installed too, which is the case with `pkg=nam:network-addon-mod`.
 
     **Stats of the Main Office (both Dark Nite and Maxis Nite)**
 
@@ -85,7 +85,7 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
-  - nam:network-addon-mod
+  - nam:traffic-simulator
   - s-olah:labashaz-museum-v2-model
   - supershk:mega-parking-textures
 variants:
