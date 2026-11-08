@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: brenntia-national-library
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Brenntia National Library
+  description: |-
+    **Brenntia National Library**
+
+    This library provides full city coverage and a good (but not stupidly high) education boost.
+
+    dependency:
+
+    [Gascooker Props](https://www.simtropolis.com/stex/index.cfm?id=15312)
+
+    Enjoy it Peeps
+
+    ITS
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/15468-brenntia-national-library/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/30f6f3467bbdba07ce8a7dad89495863-brenntianationallibraryuploadday.jpg
+    - https://www.simtropolis.com/objects/screens/0006/30f6f3467bbdba07ce8a7dad89495863-brenntianationallibraryuploadnight.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-brenntia-national-library
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brenntia-national-library
+version: "1.0"
+lastModified: "2006-03-31T15:25:32Z"
+url: https://community.simtropolis.com/files/file/15468-brenntia-national-library/?do=download

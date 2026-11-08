@@ -1,0 +1,34 @@
+group: ill-tonkso
+name: london-citypoint
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: London Citypoint
+  description: |-
+    **London Citypoint**
+
+    Citypoint started life as Britannic House in 1967, in 2000 it was purchased and rebuilt to the Citypoint in the biggest real estate deal in history.
+
+    - Lot size: 4x4
+    - Menu position: Landmark, BTE: Comm. Offices Ploppable
+    - Jobs: CO$$ 1974
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14207-bsc-london-citypoint/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4c60e73bf6ab24f050f7e3033159fd51-ITS_LCPUploadDay.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4c60e73bf6ab24f050f7e3033159fd51-ITS_LCPUploadNight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol01
+assets:
+  - assetId: ill-tonkso-london-citypoint
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-london-citypoint
+version: "1.0"
+lastModified: "2005-11-20T18:00:56Z"
+url: https://community.simtropolis.com/files/file/14207-bsc-london-citypoint/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

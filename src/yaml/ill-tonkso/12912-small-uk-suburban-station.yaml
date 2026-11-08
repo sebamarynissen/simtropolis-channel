@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: small-uk-suburban-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Small UK Suburban Station
+  description: |-
+    **Small UK Suburban Station**
+
+    A Small Unmanned Station like the sort found in City Suburbs and Green Belts.
+
+    1000 Capacity.
+
+    3x6 lot
+
+    Thats it, Enjoy!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12912-small-uk-suburban-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d82acb5006a673ec5edd1678f8c31290-gggffrywuoituyrt87r8tpuofjdjvghuipdaghohgboeaghusaipupujgvfhgb.JPG
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-small-uk-suburban-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-small-uk-suburban-station
+version: "1.0"
+lastModified: "2005-06-29T17:13:51Z"
+url: https://community.simtropolis.com/files/file/12912-small-uk-suburban-station/?do=download

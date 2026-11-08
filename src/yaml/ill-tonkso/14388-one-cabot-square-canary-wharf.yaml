@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: one-cabot-square-canary-wharf
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: One Cabot Square Canary Wharf
+  description: |-
+    **One Cabot Square**
+
+    One Cabot Square was completed in 1991 and is one of the smaller Canary Wharf office buildings.
+
+    Ploppable Lot CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14388-one-cabot-square-canary-wharf/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8e6c17dd037fc399e9ec2cce133c1439-ITS1CSUD2.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8e6c17dd037fc399e9ec2cce133c1439-ITS1CSUN2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol07
+assets:
+  - assetId: ill-tonkso-one-cabot-square-canary-wharf
+    exclude:
+      - "/ITS_One_Cabot_Square-0x5ad0e817_0xd33d6bd1_0x30000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-one-cabot-square-canary-wharf
+version: "1.0"
+lastModified: "2005-12-16T04:11:13Z"
+url: https://community.simtropolis.com/files/file/14388-one-cabot-square-canary-wharf/?do=download

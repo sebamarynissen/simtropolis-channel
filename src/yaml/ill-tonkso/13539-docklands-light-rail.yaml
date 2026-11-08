@@ -1,0 +1,24 @@
+group: ill-tonkso
+name: docklands-light-rail
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: Replaces the default El-Rail train models with a Docklands Light Rail train
+  conflicts: Replaces the Maxis El-Rail engine and car models (also used by GLR). Do not combine with other replacements of these models.
+  description: |-
+    The Docklands light rail is one of the three London Metro networks (along with the Tube and Tramlink). The DLR opened on 31/07/87 connecting the new London Docklands development (e.g. Canary Wharf) with the city.
+
+    Note: Only one GLR skin may be used to prevent mixing of trains.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13539-docklands-light-rail/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d7518fc76fb7920305efdc8d9bfde2d4-DLRUploadpic.JPG
+    - https://www.simtropolis.com/objects/screens/0024/d7518fc76fb7920305efdc8d9bfde2d4-docklands10.jpg
+assets:
+  - assetId: ill-tonkso-docklands-light-rail
+
+---
+assetId: ill-tonkso-docklands-light-rail
+version: "1.0"
+lastModified: "2005-09-01T16:18:14Z"
+url: https://community.simtropolis.com/files/file/13539-docklands-light-rail/?do=download
