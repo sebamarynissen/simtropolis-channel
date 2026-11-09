@@ -1,0 +1,58 @@
+group: simfanatik
+name: fbi-suburban
+version: "1.0"
+subfolder: 710-automata
+info:
+  summary: FBI Suburban
+  description: |-
+    Well me again , whit an Additional police vehicle , those FBI dudes are gonna work in hand whit your Sims police force to make sure that the law is well applied , 3 files are include a 512 HD one , and a normal 256 one as well
+
+    did also include a prop version to be use in lot editor , so you can make some parking places for those big SUV
+
+    Hope you will like it , enjoy and have fun    SIMFANATIK                                                                                                                    e![web1a.jpg](http://img508.imageshack.us/img508/6309/web1a.jpg)
+  author: Simfanatik
+  website: https://community.simtropolis.com/files/file/25635-fbi-suburban/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/df9268600f4a8f9bf010d41eb2f674f7-SIMFAN FBI SUBURBAN 1.jpg
+    - https://www.simtropolis.com/objects/screens/0025/df9268600f4a8f9bf010d41eb2f674f7-MOSAIC 2.jpg
+variants:
+  - variant: { "simfanatik:fbi-suburban:resolution": "hd" }
+    assets:
+    - assetId: simfanatik-fbi-suburban
+      include:
+        - 512.dat
+  - variant: { "simfanatik:fbi-suburban:resolution": "sd" }
+    assets:
+    - assetId: simfanatik-fbi-suburban
+      include:
+        - 256.dat
+
+---
+group: simfanatik
+name: fbi-suburban-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: FBI Suburban Props
+  description: |-
+    Well me again , whit an Additional police vehicle , those FBI dudes are gonna work in hand whit your Sims police force to make sure that the law is well applied , 3 files are include a 512 HD one , and a normal 256 one as well
+
+    did also include a prop version to be use in lot editor , so you can make some parking places for those big SUV
+
+    Hope you will like it , enjoy and have fun    SIMFANATIK                                                                                                                    e![web1a.jpg](http://img508.imageshack.us/img508/6309/web1a.jpg)
+  author: Simfanatik
+  website: https://community.simtropolis.com/files/file/25635-fbi-suburban/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/df9268600f4a8f9bf010d41eb2f674f7-SIMFAN FBI SUBURBAN 1.jpg
+    - https://www.simtropolis.com/objects/screens/0025/df9268600f4a8f9bf010d41eb2f674f7-MOSAIC 2.jpg
+assets:
+- assetId: simfanatik-fbi-suburban
+  include:
+    - /SIMFAN FBI PROP.dat
+
+
+---
+assetId: simfanatik-fbi-suburban
+version: "1.0"
+lastModified: "2011-01-06T02:22:47Z"
+url: https://community.simtropolis.com/files/file/25635-fbi-suburban/?do=download&r=53543

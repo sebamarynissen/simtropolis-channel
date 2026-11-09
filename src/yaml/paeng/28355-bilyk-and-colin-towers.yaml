@@ -1,0 +1,57 @@
+group: paeng
+name: bilyk-and-colin-towers
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Bilyk & Colin Towers
+  description: |-
+    Here are two good-looking towers (based on some Maxis originals) that will fit nicely in any setting.
+
+    A few different versions are included -
+
+    Grow: 8x3 and 3x8
+
+    Stage 6 RES$$$, capacity 994, all styles
+
+    Plop: 4x2 and 2x4
+
+    CO$$$, capacity 432
+
+    **DEVELOPER NOTES**
+
+    The lot is modded in such a way that it will not be stopped by any blockers - in other words, it should show up even if you use *Maxis Blockers (**BSC**)* or *Peg**'s* *MTP* *Replacements*. And it won't replace any default lots either, so you should be able to use it as a plain addon without needing to fiddle with your current setup.
+
+    At stage 6 and with the footprint in two different orientations you should be able to grow it a bit easier than the elusive originals.
+
+    Also included are two ploppables as functional landmarks with CO$$$ jobs.
+
+    You find them at or near the end of the '*Landmarks*' menu with custom icons.
+
+    **CREDITS**
+
+    Thanks to all the folks over at Simpeg.com for their input. Special thanks to *Ion\_Cannon* for valuable pointers and beta-testing :-)
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the
+
+    [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10599.msg214142#msg214142)
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28355-paengs-bilyk-colin-towers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/a56fbc2a9ae9dbb7244efe8ad099be7d-bilyk-colin01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/c635a3444f640ee0f9daab8645b2d5b6-bilyk-colin02.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - paeng:textures
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: paeng-bilyk-and-colin-towers
+
+---
+assetId: paeng-bilyk-and-colin-towers
+version: "1.0"
+lastModified: "2013-01-06T12:58:54Z"
+url: https://community.simtropolis.com/files/file/28355-paengs-bilyk-colin-towers/?do=download&r=110384

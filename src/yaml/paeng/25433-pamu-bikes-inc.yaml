@@ -1,0 +1,111 @@
+group: paeng
+name: pamu-bikes-inc
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: PAMU Bikes Inc.
+  description: |-
+    There were these two guys with a fable for bicycles, dreaming how good it would be to have bikes roaming all over the sim-planet... better air, fewer fat people, new business opportunities... So they put together their meager resources, leased a run down warehouse, started deforming metal... and built an empire!
+
+    **LOTS**
+
+    **Industrials** (plop)
+
+    \* 5x3 PAMU Metalworks (Shelters, Stands etc.) - 74 I-M jobs
+
+    \* 3x3 PAMU Manufacture (Custom Bikes) - 58 I-M jobs
+
+    **Commercials** (plop)
+
+    \* 4x3 PAMU Headquarters - 42 CS$$ jobs
+
+    \* 2x2 PAMU Retail Store - 9 CS$ jobs
+
+    \* 2x2 PAMU Service and Repair - 12 CS$ jobs
+
+    \* 2x1 Bike Couriers - 32 CS$ jobs
+
+    \* 2x1 Second Hand / Repair Shop - 5 CS$ jobs
+
+    **Bike Parking**
+
+    \* 1x1 Corner
+
+    \* 1x1 Straight
+
+    \* 1x1 Straight with one bad weather shelter
+
+    \* 1x1 Straight with two bad weather shelters
+
+    \* 1x1 PAMU Bike Rental Station
+
+    **Park+Ride**
+
+    \* 2x1 Combined Car/Bike Parking - Capacity: 250
+
+    \* 2x2 Combined Car/Bike Parking - Capacity: 400
+
+    The traffic switch is still from car to ped - but at least it \*looks\* as if some are arriving with their bikes, too...
+
+    **Others**
+
+    \* 6x6 PAMU Traffic Kindergarten and Bike Training - Capacity: 50
+
+    Works like a real school, but for a limited number of students - so don't try to skimp on the rest of your education program...
+
+    All other stats like power, water, monthly costs etc. are indicated via the ingame menu.
+
+    The 'IND and COM' lots are in the 'Landmarks' menu.
+
+    The various 'Parking' lots are in the 'Traffic | Miscellaneous' menu.
+
+    The 'Traffic Kindergarten' is in the 'Education' menu.
+
+    They all have custom icons for easy identification.
+
+    **DEVELOPER NOTES**
+
+    Many of the lots come in two flavors - urban and rural. You can use the sets together or just one of them. This goes for all the included lots - delete any you do not wish to use.
+
+    **Just make sure you always keep the complete folder named \*PAMU-Bikes\_Resource\* installed.**
+
+    More detailed infos -e.g. on benefits, randomized and timed props etc.- in the included Read\_Me.
+
+    **RECOMMENDATION**
+
+    To add bikes outside of the designated lots we recommended this set of major mode ploppables (optional):
+
+    \* [Bikes by NBVC](https://community.simtropolis.com/files/file/24859-bikes/)
+
+    **CREDITS**
+
+    BATting: **Murimk**
+
+    LOTting and MODding: **Paeng**
+
+    The props from this pack can be used to make your own lots. Do not include them in your upload though - please point to this pack as a dependency.
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the \* [PAMU Dev Thread](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0)  with a History and many action-packed images :-)
+
+    **\-Cori Edit:** Fixed formatting and broken linkys.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25433-pamu-bikes-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3d5619d3aecf37e1691f620299516324-stex1.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3d5619d3aecf37e1691f620299516324-stex2.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - peg:cdk3-sp-rail-fleet
+  - peg:mtp-super-pack
+  - peg:security-fencing-kit
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: paeng-pamu-bikes-inc
+
+---
+assetId: paeng-pamu-bikes-inc
+version: "1.0"
+lastModified: "2010-12-07T19:13:50Z"
+url: https://community.simtropolis.com/files/file/25433-pamu-bikes-inc/?do=download&r=53215

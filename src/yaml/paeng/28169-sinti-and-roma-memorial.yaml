@@ -1,0 +1,43 @@
+group: paeng
+name: sinti-and-roma-memorial
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Sinti and Roma Memorial
+  description: |-
+    A national memorial to the murdered European Sinti and Roma.
+
+    The Memorial by artist *Dani Karavan* consists of a black marble well with a retractable stele on which a fresh flower is placed daily. Panels around the site present information on the persecution of this minority under the National Socialist regime of terror.
+
+    Find it in your Parks menu.
+
+    *Version I*
+
+    Plain 2x2 lot **without** the stepping stones (add them yourself).
+
+    No dependencies
+
+    *Version II*
+
+    Full 4x4 lot **with** the stepping stones.
+
+    Dependency: ['Stone Paths'](https://community.simtropolis.com/files/file/27995-stone-paths/) by NBVC (only for version II)
+
+    Both variations come without any trees, so you can add your favorite MMP greenery...
+
+    **Enjoy!**
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28169-paengs-sinti-and-roma-memorial/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/7ebd2019406eb470df82c41422245114-sinti_roma_memorial.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/15cd6c92b589e37172a5c75cd52c6006-stele.jpg
+dependencies:
+  - nbvc:stone-paths-props
+assets:
+  - assetId: paeng-sinti-and-roma-memorial
+
+---
+assetId: paeng-sinti-and-roma-memorial
+version: "1.0"
+lastModified: "2012-10-31T12:41:16Z"
+url: https://community.simtropolis.com/files/file/28169-paengs-sinti-and-roma-memorial/?do=download&r=108204

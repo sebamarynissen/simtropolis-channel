@@ -1,0 +1,52 @@
+group: paeng
+name: statue-mini-parks
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Statue Mini Parks
+  description: |-
+    We all had a party when PegProd gave us a megapack of statue props... and we all wondered ever since how we're going to bring all these statues (40+!) into our game - without filling the Parks menu with parks exclusively...
+
+    Well - here is the solution... all the statues on just four lots!
+
+    So how does this work? The lots are just tiny 1x1 parks that fit anywhere... Want a funny statue beside a parkinglot? Plop one of the 'Mixed' set... out comes Homer. Don't like him? Just bulldoze and plop again - out comes The Pink Flamingo... and so on, bulldoze and plop until you hit just the statue you want.
+
+    Now don't worry - this is not gonna drive you into bankruptcy. I intentionally made them very cheap to plop (5$) and to bulldoze (1$)... and the final plop will cost you a small monthly fee (5$). In return they give a much reduced positive effect only, about half that of an ordinary grass tile... (Landmark/Park - yes, they work for RES and COM).
+
+    There are four lots with different themes - you can install one or two or all lots (see the corresponding dependencies), just as you want or need it.
+
+    Lot 1 - Classical Statues
+
+    From Venus to Angels to Beethoven... (9 models)
+
+    Lot 2 - Marine Statues
+
+    All those Sharks and Orcas and Merlins... (9 models)
+
+    Lot 3 - Dinosaur Statues
+
+    From Tyrannosaurus King to the genius hunter Velociraptor... (17 models)
+
+    Lot 4 - Mixed Statues
+
+    Winged Horses, Dragons, Homer, The Pink Flamingo - they're all here.... (8 models)
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/24497-paengs-statue-mini-parks/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dd38c52d649c08f2680c410a861a9094-stex_minip01.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dd38c52d649c08f2680c410a861a9094-stex_minip02.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - peg:the-classics
+  - peg:statue-collection
+  - peg:pegrassic-park-props
+assets:
+  - assetId: paeng-statue-mini-parks
+
+---
+assetId: paeng-statue-mini-parks
+version: "1.0"
+lastModified: "2010-07-24T18:15:11Z"
+url: https://community.simtropolis.com/files/file/24497-paengs-statue-mini-parks/?do=download&r=51803

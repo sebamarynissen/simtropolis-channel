@@ -1,6 +1,6 @@
 group: glenni
 name: st-twiggyan-hospital
-version: "1.0"
+version: "1.0-1"
 subfolder: 630-health
 info:
   summary: BLaM St Twiggyan Hospital
@@ -65,8 +65,25 @@ info:
     - https://www.simtropolis.com/objects/screens/0003/113bf93a111267fd398b295ecf4054db-twigsnight.JPG
 dependencies:
   - porkissimo:jenx-porkie-expanded-porkie-props
+  - glenni:st-twiggyan-hospital-model
 assets:
   - assetId: glenni-blam-st-twiggyan-hospital
+    exclude:
+      - \.SC4Model$
+
+---
+group: glenni
+name: st-twiggyan-hospital-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model for `pkg=glenni:st-twiggyan-hospital`
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/16908-blam-st-twiggyan-hospital/
+assets:
+  - assetId: glenni-blam-st-twiggyan-hospital
+    include:
+      - \.SC4Model$
 
 ---
 assetId: glenni-blam-st-twiggyan-hospital

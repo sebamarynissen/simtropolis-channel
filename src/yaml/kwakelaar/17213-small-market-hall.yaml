@@ -1,0 +1,76 @@
+group: kwakelaar
+name: small-market-hall
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Small Market Hall by Kwakelaar
+  description: |-
+    This is a small market hall built in the Romanesque style, it is a fictional building with the different parts taken from different buildings in Germany.
+
+    The lot is a reward that will become available after the farmers market when your starting city has grown a little larger. The benefits are the same as for the Farmers Market but it does not replace the in-game one
+
+    The requirements are: a city population of 5000 with 600 agricultural jobs and a Mayor Rating of 34 or more.  
+      
+    **Lot information:**  
+    Lot size: 3x3 Cost to build: 4900  
+    Monthly cost: 30  
+    Pop req: 5000 res pop and 600 farm pop  
+    Mayor rating: 34  
+      
+    Landmark effect 50, radii 22  
+    Park effect 75, radii 27  
+    Demand cap effect Low wealth: 20 000  
+    Demand cap effect Medium wealth: 150 000  
+      
+    **Dependencies**
+
+    -   [BSC Textures MEGA Pack](../../stex/index.cfm?id=12646)
+    -   [BSC MEGA Props – Gascooker Vol01](../../stex/index.cfm?id=15312)
+    -   [BSC MEGA Props – swi21 Vol01](../../stex/index.cfm?id=14834)
+    -   [BSC MEGA Props – SG Vol01](../../stex/index.cfm?id=15287)
+    -   [BSC MEGA Props – MJB Vol01](../../stex/index.cfm?id=15188)
+    -   Kwakelaar Market hall model as well as the models of the market stalls are included in the DAT.
+
+    The zip contains an installer that will automatically install the files in the appropriate folders.  
+    For any further information there is a readme included.  
+      
+    Many thanks to the very generous members of the BSC for all help and testing.  
+    In particular a very big thank you to Barby. Without her there would be no reward lot, readme or installer.
+  author: Kwakelaar
+  website: https://community.simtropolis.com/files/file/17213-small-market-hall-by-kwakelaar/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/522c2e2dbd24b86a251c6bfb6e6ceaf4-markethall_s_upload.jpg
+    - https://www.simtropolis.com/objects/screens/0010/522c2e2dbd24b86a251c6bfb6e6ceaf4-markethall_sn_upload.jpg
+dependencies:
+  - kwakelaar:small-market-hall-resources
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-mjb-vol01
+assets:
+  - assetId: kwakelaar-small-market-hall
+    exclude:
+      - /Kwakelaar_Market.dat
+
+---
+group: kwakelaar
+name: small-market-hall-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Resources for `pkg=kwakelaar:small-market-hall`
+  author: Kwakelaar
+  website: https://community.simtropolis.com/files/file/17213-small-market-hall-by-kwakelaar/
+assets:
+  - assetId: kwakelaar-small-market-hall
+    include:
+      - /Kwakelaar_Market.dat
+
+---
+assetId: kwakelaar-small-market-hall
+version: "1.0"
+lastModified: "2006-11-02T05:04:05Z"
+url: https://community.simtropolis.com/files/file/17213-small-market-hall-by-kwakelaar/?do=download&r=40331
+archiveType:
+  format: Clickteam
+  version: "40"

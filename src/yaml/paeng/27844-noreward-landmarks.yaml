@@ -1,0 +1,64 @@
+group: paeng
+name: noreward-landmarks
+version: "1.0"
+subfolder: 600-civics
+info:
+  summary: NoReward - Landmarks
+  description: |-
+    This is my "*Government & Propaganda Kit*"... I've turned a number of default rewards into regular landmarks, but tried to maintain the perks from the rewards. So basically you can plop these lots anytime, e.g. to build up your government district or such, without waiting for the conditions set by the default rewards but still getting similar benefits.
+
+    **LIST OF ITEMS**
+
+    Radio Station
+
+    TV Station
+
+    Movie Studio
+
+    CityHall large
+
+    Court House
+
+    Stock Exchange
+
+    Convention Center
+
+    Bureau of Bureaucracy
+
+    Major Art Museum
+
+    Main Library
+
+    Opera House
+
+    **DEVELOPER NOTES**
+
+    Since these lots will still give you the same benefits like the default rewards, I'd be careful about plopping them more than once - it might blow some caps :-)
+
+    None of them replace any default rewards.
+
+    The lots are all grouped together in the Landmarks menu, even those with education perks (museum and library). Infos on costs and consumption are noted in the in-game menu.
+
+    **SUPPORT**
+
+    Should you need support on any of these items, please visit the [support thread](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=10375.0).
+
+    Enjoy!
+  author: paeng
+  website: https://community.simtropolis.com/files/file/27844-paengs-noreward-landmarks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/1652633c291575eabb256552039a8713-govern1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/c45aabe0a50555f82c98f07632940e93-govern2.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - paeng:textures
+  - sfbt:peterycristi-props
+  - t-wrecks:maxis-prop-names-and-query-fix
+assets:
+  - assetId: paeng-noreward-landmarks
+
+---
+assetId: paeng-noreward-landmarks
+version: "1.0"
+lastModified: "2012-07-18T08:53:29Z"
+url: https://community.simtropolis.com/files/file/27844-paengs-noreward-landmarks/?do=download&r=103860

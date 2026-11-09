@@ -1,0 +1,80 @@
+group: paeng
+name: castle-walk
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Castle Walk
+  description: |-
+    The old castle has finally been renovated and serves now as a museum to boost the education or as a plain landmark to boost the Mayour's ego... ahm... rating. It comes together with a highly variable set of items to build park pathways and small pocket parks, or for walkways between wealthy residential compounds - all very attractive with lots of flowers and decor appealing to residents and tourists like.
+
+    **LIST OF ITEMS**
+
+    -   5x3 Small Castle (Museum and Landmark versions)
+    -   2x2 Chess Plaza
+    -   1x1 Wide Paths (straight, curve, tee, cross)
+    -   1x1 Narrow Paths (straight, curve, tee, cross, transition)
+    -   1x1 Wide Paths with Lattice Wall (straight)
+    -   1x1 Ends and Fillers (variety)
+
+    **[See the Castle Walk 'in action' in my CJ](https://community.simtropolis.com/journals/entry/13071-castle-walk-a-historical-site/)**
+
+    **DEPENDENCIES**
+
+    -   [BSC MEGA Props - MJB Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=407)
+    -   [Paeng Textures Vol104](https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/)
+    -   [Murimk Props Vol02](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)
+    -   [BSC MEGA Props SG Vol 01](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+    -   [PORKIE PROPS VOL1](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+    -   [Longfellow\_Castle.zip](https://community.simtropolis.com/library/maxis/sc4/buildings/Longfellow_Castle.zip) (only for LM / Museum)
+
+    **DEVELOPER NOTES**
+
+    You can use this set to build park pathways and small pocket parks, or for walkways between residential compounds, e.g. open spaces between mid- or highrise buildings.  
+      
+    The sections with higher lattice fences provide more privacy, e.g. along RES$$$.  
+      
+    Try and alternate sections with and without lamps for better variation.  
+      
+    Some items provide landmark benefits, but mostly they are neutral and easy to maintain. Find more specs and stats in the in-game menu.  
+      
+    All items are at or near the end of the 'Landmarks' menu, except the Museum which is of course in the 'Civics | Education' menu, all with custom icons.
+
+    **INSTALLATION**
+
+    Just drop the whole bundle in your Plugins. You may also opt to install only certain items - remove the ones you do not wish to use. To un-install remove the complete folder from your Plugins.
+
+    **CREDITS**
+
+    Lotting and Modding: **Paeng**
+
+    **SUPPORT**
+
+    Should you need support for these items please visit the [Paeng Production Forum](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9693.0)
+
+    **Enjoy!**
+
+    * * *
+
+    Mod Edit: Fixed description BBCode formatting.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/26715-paengs-castle-walk/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/d822d15ccf35eda7e0acffa61c3c931e-cas01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/f0af2f324143d4a64443e8c84f4323cf-cas02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/b3f49248a73eb1c4905971e540aadba8-cas03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2011/19d6f0d85815bb93aaf31782210cc954-cas04.jpg
+dependencies:
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol02-mixed
+  - paeng:textures
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - maxis:castle-set
+assets:
+  - assetId: paeng-castle-walk
+
+---
+assetId: paeng-castle-walk
+version: "1.0"
+lastModified: "2011-08-31T14:55:05Z"
+url: https://community.simtropolis.com/files/file/26715-paengs-castle-walk/?do=download&r=91420

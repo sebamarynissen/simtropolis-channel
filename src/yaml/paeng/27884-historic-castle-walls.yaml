@@ -1,0 +1,65 @@
+group: paeng
+name: historic-castle-walls
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Historic Castle Walls
+  description: |-
+    Here is another take on the good old castle walls - this set is meant not so much to build a full castle but rather to set a few restaurated wall sections into your city, e.g. to serve as a tourist attraction or a historical landmark.  
+      
+    See them 'in action' **[here](https://community.simtropolis.com/journal/693/entry-17514-beyond-the-wall/)**...
+
+    **LIST OF ITEMS**
+
+    5 pcs. - straight with various layouts  
+    2 pcs. - inner and outer curve  
+    2 pcs. - left and right end  
+    1 pc. - pedestrian gare (eyecandy)  
+    1 pc. - main gate (TE'd for avenue)  
+    1 pc. - transition for Parks205 Paths
+
+    **DEPENDENCIES**
+
+    \* [Original Castle Set](https://community.simtropolis.com/library/maxis/sc4/buildings/Longfellow_Castle.zip) <- *direct zip-link*  
+    \* [Paeng Textures Vol103](https://community.simtropolis.com/files/file/22823-paeng-textures-vol103/)  
+    \* [Murimk Park Props V201](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)  
+    \* [SG 01 Mega](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)  
+    \* [Porkie Props Vol 01](https://www.simtropolis.com/forum/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+    **OPTIONAL**
+
+    \* [SPOT](https://community.simtropolis.com/files/file/24509-spot/) <- directional plop-helpers
+
+    **DEVELOPER NOTES**  
+      
+    This set is fully compatible with \* [*Paeng's Castle Walk*](https://www.simtropolis.com/forum/files/file/26715-paengs-castle-walk/), so you can expand the integrated paths or connect them to the Parks205 series (transition lot included).
+
+    You find all items near the Castle Walk set in the 'Landmarks' menu.
+
+    They are completely neutral as far as costs or effects are concerned.
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+    **Enjoy!**
+
+    **Staff Edit:** Fixed dependency link to the Maxis Castle Set.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/27884-paengs-historic-castle-walls/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/86b842905b496f27e29c2ba6459dec34-citywalls01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2012/a36b79a3eac85812f6220f7d8a12e403-citywall_gate.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - murimk:props-vol02-mixed
+  - maxis:castle-set
+  - paeng:textures
+  - peg:spot
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: paeng-historic-castle-walls
+
+---
+assetId: paeng-historic-castle-walls
+version: "1.0"
+lastModified: "2012-07-29T23:14:07Z"
+url: https://community.simtropolis.com/files/file/27884-paengs-historic-castle-walls/?do=download&r=104567

@@ -1,0 +1,61 @@
+group: paeng
+name: simpeg-agricultural-mod-spam-wmp-barns
+version: "1.0.0"
+subfolder: 410-agriculture
+info:
+  summary: SimPeg Agricultural Mod (SPAM) - WMP Barns
+  description: |-
+    **SimPeg Agricultural Mod (SPAM) - WMP Barns** is set of two additional farms for your SPAM agricultural areas, featuring two barns with a distinct european flavor from Working Man Productions. The set includes 2 growing farms and 2 Landmark farms with PIM\-X specification
+
+    Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+
+    ####  Installation
+
+    This package is a simple .zip file. Just extract the WMP folder to your My Documents/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
+
+    ####  DLL Dependencies
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies(the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents section):
+
+    -   [Submenu DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - this file is needed to run the submenus ***(Submenu support is OPTIONAL)***Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+
+    ####  Credits
+
+    The following members contributed models, textures, and modding support to this collection:
+
+    -   Pegasus
+    -   Craig-Abcvs
+    -   RebaLynnTS
+    -   Paeng
+    -   Murimk
+    -   Working Man Productions
+
+    This package has been made possible by the Project ZIP efforts of Ulisse Wolf.
+
+    ##### Special Thanks
+
+    Webmaster & administration staff at SC4Evermore & Simtropolis (STEX).
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+  author: paeng
+  website: https://community.simtropolis.com/files/file/37474-simpeg-agricultural-mod-spam-wmp-barns/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_07/wmp-spam-800.jpg.33c75b91edf78b96d768099ccae8fb0e.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - peg:spam-base-set
+  - peg:spam-super-resource-pack
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - wmp:mega-props-vol01
+assets:
+  - assetId: paeng-simpeg-agricultural-mod-spam-wmp-barns
+
+---
+assetId: paeng-simpeg-agricultural-mod-spam-wmp-barns
+version: "1.0.0"
+lastModified: "2026-07-05T13:49:28Z"
+url: https://community.simtropolis.com/files/file/37474-simpeg-agricultural-mod-spam-wmp-barns/?do=download&r=219843

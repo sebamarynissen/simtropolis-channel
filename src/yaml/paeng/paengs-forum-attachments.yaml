@@ -1,0 +1,60 @@
+# paeng:sandstone-boosters
+group: paeng
+name: sandstone-boosters
+version: "1"
+subfolder: 660-parks
+info:
+  summary: Add a number of Lot, Prop and Texture based items for your Sandstone environment
+  description: |-
+    This package includes:
+    * **Alley Extenders** - Plop these lots over your Road network to make functional Sandstone Sidewalk pedestrian areas.
+    * **Gridbusters** - These lots are good for touching up diagonal sections.
+    * **Sidings** - Add visually interesting boundaries to Sandstone Alleys and Plazas.
+  author: paeng
+  website: https://community.simtropolis.com/forums/topic/70412-paengs-forum-attachments/?tab=comments#comment-1627787
+  images:
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_05/SSt-AlleyExtenders.jpg.cac2551e64ac8ac922764129521da117.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_05/SSt-Gridbusters.jpg.f726562ae92aa3106a75fbe27fb37fcc.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_05/SSt-Sidings.jpg.567453160a8cf207578e15e57fe11840.jpg
+dependencies:
+  - shk:parking-pack
+  - paeng:textures
+  - murimk:props-vol02-mixed
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - bsc:mega-props-d66-vol01
+  - peg:spot
+assets:
+  - assetId: paeng-sandstone-boosters
+
+---
+assetId: paeng-sandstone-boosters
+version: "1"
+lastModified: "2016-06-29T00:05:14Z"
+url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=46046"
+
+
+# paeng:park-bridge-extenders
+---
+group: paeng
+name: park-bridge-extenders
+version: "1"
+subfolder: 660-parks
+info:
+  summary: Extender lots for `pkg=paeng:sandstone-mod`
+  description: |-
+    A set of extender lots that use Props so textures can extend beyond lots. Perfect for use under bridges/elevated transport networks. This set includes Extenders for Paeng's Sidewalk mod (Rural / $ / $$ / $$$ variants included). In addition to extenders for the Parks 205 and Bikepath sets. 
+  author: paeng
+  website: https://community.simtropolis.com/forums/topic/70412-paengs-forum-attachments/?tab=comments#comment-1627787
+  images:
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_02/extender_front.jpg.b96ac3545984c6d25c96219cf8986a0f.jpg
+dependencies:
+  - paeng:sandstone-mod
+assets:
+  - assetId: paeng-park-bridge-extenders
+
+---
+assetId: paeng-park-bridge-extenders
+version: "1"
+lastModified: "2016-06-29T00:05:14Z"
+url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=46045"

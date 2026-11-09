@@ -1,0 +1,31 @@
+group: paeng
+name: rtfm-repository
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: RTFM Repository
+  description: |-
+    A little tribute to all the content producers who make the extra effort to write a meaningful and precise documentation for their offerings. And a tribute to all the folks who make the extra effort to actually read that documentation...
+
+    In that spirit, this is a regular *library*. The only difference is that you can get any of the many books for a lower price than normal - over 100.000 titles for a maintenance cost of 350/monthly.
+
+    *Kudos as well to Prepo who once batted this little jewel, now set on a new lot for modern surroundings.*
+
+    And remember: *He who reads does have a clear advantage*... ;-)
+  author: paeng
+  website: https://community.simtropolis.com/files/file/28254-paengs-rtfm-repository/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/e60058c9941fb3932a41e27b83b7f805-lib01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/e5bc1986e4b23360c200c0b8baf74a67-lib02.jpg
+dependencies:
+  - prepo:openbooks-library-model
+  - bsc:mega-props-sg-vol01
+  - shk:parking-pack
+assets:
+  - assetId: paeng-rtfm-repository
+
+---
+assetId: paeng-rtfm-repository
+version: "1.0"
+lastModified: "2012-11-30T16:06:12Z"
+url: https://community.simtropolis.com/files/file/28254-paengs-rtfm-repository/?do=download&r=109215
