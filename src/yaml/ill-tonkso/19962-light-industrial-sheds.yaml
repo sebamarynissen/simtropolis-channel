@@ -1,0 +1,40 @@
+group: ill-tonkso
+name: light-industrial-sheds
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Light Industrial Sheds
+  description: |-
+    Tonksie doing Industrial? What has the world come to! The Sky is falling!
+
+    Hehe, I saw some buildings that looked like this as I passed by on the train and thought, meh, why not. Only took half hour to model and I needed something like this.
+
+    This set comes with 4 flavours!
+
+    -   Phils Car Parts (Blue Building)
+    -   Mellotron (Red Building)
+    -   Newham Beds (Grey Building)
+    -   Softme Circuits (Grety/Yellow Building)
+
+    Each of which provide 120 Industrial Manufacturing Jobs (The Plugin Manager suggested 3350 ¬\_¬ ) and grows on a 2x3 lot. Hold on a sec, Tonksie didn't make a ploppable?
+
+    * * *
+
+    No dependencies! Crack open the Champagne!
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/19962-ndex-its-light-industrial-sheds/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/2578925826b55812aa4aea9e11cc8669-indusday.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2578925826b55812aa4aea9e11cc8669-indusnight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-light-industrial-sheds
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-light-industrial-sheds
+version: "1.0"
+lastModified: "2008-06-19T20:11:23Z"
+url: https://community.simtropolis.com/files/file/19962-ndex-its-light-industrial-sheds/?do=download
