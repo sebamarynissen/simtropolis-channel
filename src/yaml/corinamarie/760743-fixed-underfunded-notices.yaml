@@ -1,0 +1,83 @@
+group: corinamarie
+name: fixed-underfunded-notices
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Fixed Underfunded Notices (FUN), improved advisor messages for underfunded civic lots
+  description: |-
+    Here's a FUN little mod that CorinaMarie and Cyclone Boom (CB) have crafted. No, really. It's the Fixed Underfunded Notices mod.
+
+    **Introduction**
+
+    It all started as a simple fix for a bug in the *Local Hospital Pockets Picked* message, where the link to jump to the troublesome hospital or clinic would most times select the wrong one. Then, as CB and CorinaMarie tested and tweaked, they came up with more enhancements, improved other messages and revived (and rewrote) a couple of unused ones. Along with fixing that issue, the messages are now more useful by providing new options to manage low funding for civic lots.
+
+    **Who will benefit**
+
+    This mod will likely only appeal to people who use narrow margins when budgeting for medical and educational facilities. If your itemized master budgets are tweaked to have sufficient funding with no wasted expense, then this is an ideal enhancement for your game.
+
+    **The solution included in this mod**
+
+    The LText and its embedded code were rewritten to give multiple options, and the Lua trigger was fixed. The links in the messages do the following:
+
+    - **Jump to the Medical Facility:** takes you to the building, but leaves the game at the current running speed and changes your cursor to the Query Tool.
+    - **Same with Pause Toggle** (on the same row of the message): takes you to the building, changes your cursor to the Query Tool, and toggles the Pause button. If the game is already paused, use the regular Jump, or it will start time running.
+    - **Adjust Funding without Jumping:** opens the building's Query Box, but doesn't move the world. This allows you to handle the problem without losing concentration on whatever you were working on. It also leaves the time speed alone and does not change what's on your cursor.
+    - **Jump to and Adjust Funding:** good if you want to fix the problem, but also go to the location to see what might be growing nearby. It changes your cursor to the Query Tool as well and leaves the game running speed alone.
+    - **Same with Pause Toggle** (on the same row of the message): like the one above, except that this also stops time if it was running. This starts time if the game was paused, so use the previous option in that case.
+    - **Adjust Master Budget:** does not jump, but simply opens the Budget Overview, where you can then get to the Master Budget. This is handy if you'd like to scroll through all the facilities, checking for funding discrepancies throughout your city.
+
+    **Priority**
+
+    In the vanilla game, the *Pockets Picked* and the *Teachers Threaten to Strike* messages are set to a Medium-High priority. This means they only show in the News (unless you are playing on Easy difficulty, in which case the Advisor pops them up).
+
+    The mod comes in two flavors, which you can choose with the `priority` variant: one with Medium-High priority for the underfunding (non-strike) messages, and one with all of them set to Urgent priority. With the Urgent version you don't need to keep an eye on the News ticker and can deal with funding situations immediately.
+
+    **Considerations**
+
+    - Any time a message in the News Box expires (when the main text turns dim gray), the links are no longer clickable. If you are running the game on Cheetah speed, messages time out quickly.
+    - On Cheetah speed, a strike message might pop up again and again when closing it if you don't pause time. This is the Maxis code, so it is not something the mod can fix.
+    - The underlying code for strikes is the way Maxis created it. If you have more than one strike for the same facility class, the message only jumps to one of them, and you won't get a new popup for the other strike(s) for a very long while. However, the new underfunding message still triggers, so that works as a fix for the Maxis code.
+    - The Library and Museum Underfunded messages are News only, no matter which difficulty you play (in the Medium-High version). In the vanilla game, underfunded libraries and museums are never even noticed.
+    - In the Medium-High version, underfunded hospitals/clinics and schools are popups on Easy difficulty, and News items on Medium and Hard difficulty.
+    - Strikes are popups for all difficulties, just like in the vanilla game.
+  author: CorinaMarie, Cyclone Boom
+  website: https://community.simtropolis.com/forums/topic/760743-local-hospital-pockets-picked-and-other-fun-dialog-boxes/
+  images:
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aecb872c817_01-FUN-Logo-Design.jpg.867ee7bce6c17e32d5de374d02657b74.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aed58a534ba_06-ImprovedMessageintheNews.png.2a7818921ee7253d55cae7646224d22e.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aee016a7ad1_07-AdjustFundingwithoutJumping-UrgentPopup.jpg.a3cd34361dcdb81f5b03550c7b1ee504.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aee2a61aec1_08-MedicalStrike.jpg.e3ba85884dc64c6a047500187e54ce43.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aee41ca74d0_09-SchoolUnderfunded.jpg.eee7351ec4cc580203b1863c1c2a118d.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aee71e4a464_10-SchoolStrike.jpg.5cb8242f8b40c9c18f39e907802a295f.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aee985c50cb_11-LibraryUnderfunded.jpg.a46131c02c63354abff6e2fc7a0b500d.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aeec9ed03cc_12-MuseumUnderfunded.jpg.a4250949250608606b01778e7527ac0b.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aef4cbcadeb_13-FireStationStrike.jpg.8162f413455669ac0f1015eece80367b.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2021_05/60aefa3415547_14-PoliceStationStrike.jpg.1e1ccc2b3dbff99bb449c66a0c8210ca.jpg
+variants:
+  - variant: { corinamarie:fixed-underfunded-notices:priority: medium-high }
+    assets:
+      - assetId: corinamarie-fixed-underfunded-notices-medium-high
+  - variant: { corinamarie:fixed-underfunded-notices:priority: urgent }
+    assets:
+      - assetId: corinamarie-fixed-underfunded-notices-urgent
+variantInfo:
+  - variantId: corinamarie:fixed-underfunded-notices:priority
+    description: Choose the priority of the underfunding messages.
+    values:
+      - value: medium-high
+        default: true
+        description: Medium-High priority for the underfunding (non-strike) messages, like the vanilla game. They show in the News, or as popups on Easy difficulty.
+      - value: urgent
+        description: Urgent priority for all messages, so you don't need to keep an eye on the News ticker.
+
+---
+assetId: corinamarie-fixed-underfunded-notices-medium-high
+version: "1.0"
+lastModified: "2021-05-27T03:12:35Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=74878
+
+---
+assetId: corinamarie-fixed-underfunded-notices-urgent
+version: "1.0"
+lastModified: "2021-05-27T03:12:35Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=74879
