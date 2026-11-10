@@ -32,6 +32,7 @@ group-to-github:
   - cam: UlisseWolf
   - rj-simas: UncleUncleRj
   - aspct: aspctt
+  - sammu: Sammu89
 
 # Additional global variant IDs that are not used by the Main channel
 global-variants: []
@@ -50,3 +51,7 @@ ignore-nonunique-includes: []
 
 # Packages or asset IDs that are allowed to be redefined even though they already exist in another channel
 allow-remote-overwriting: []
+
+# DLL assets that cannot use a GitHub release download "url". The Department of Efficiency release asset is outdated, so the asset is pinned to the commit of the release folder instead.
+ignore-non-github-urls:
+  - sammu-department-of-efficiency
