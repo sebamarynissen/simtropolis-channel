@@ -1,0 +1,37 @@
+group: ct1999
+name: yeefatmansion
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Yee Fat Mansion (怡發大廈), a 1x2 corner residential building
+  description: |-
+    Yee Fat Mansion (Chinese: 怡發大廈)
+
+    **Stats**
+
+    *Growable R$*
+
+    - Stage: 8
+    - Lot size: 1x2 (right corner)
+    - Capacity: R$ 418
+    - Building style: All
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/36674-yeefatmansion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/YeeFat.JPG.4b474272f02514428e62b65d92a300c9.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/YeeFatN.JPG.001835828e0ba44b04c287bdd4f30b7e.JPG
+assets:
+  - assetId: ct1999-yeefatmansion
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-yeefatmansion
+version: "1.0.0"
+lastModified: "2026-06-06T03:40:39Z"
+url: https://community.simtropolis.com/files/file/36674-yeefatmansion/?do=download

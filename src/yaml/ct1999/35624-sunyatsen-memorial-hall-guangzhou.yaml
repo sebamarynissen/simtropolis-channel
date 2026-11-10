@@ -1,0 +1,40 @@
+group: ct1999
+name: sunyatsen-memorial-hall-guangzhou
+version: "1.0.0"
+subfolder: 620-education
+info:
+  summary: Sun Yat-sen Memorial Hall in Guangzhou (广州中山纪念堂) as a museum
+  description: |-
+    SunYatSenMemorialHall_GZ (Chinese: 广州中山纪念堂) is a historical landmark located in Guangzhou Yuexiu district (广州市越秀区).
+
+    **Stats**
+
+    *Museum*
+
+    - Lot size: 6x6
+    - Plop cost: 15,000
+    - Bulldoze cost: 9,000
+    - Monthly cost: 900
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35624-sunyatsen-memorial-hall-guangzhou/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/SunYatSenMemorialHall_GZ_1(Day).jpg.9169b4852893ebb1e7d1197fd16961e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/SunYatSenMemorialHall_GZ_2(DarkNite).jpg.77c9fb1ef6aa3a97568ffbe6e6400ca4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/SunYatSenMemorialHall_GZ_4.jpg.36c92658f5246025dfee7c2c25f31144.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/SunYatSenMemorialHall_GZ_5.jpg.d6b194ef62bb0b405e742329c766fd37.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/SunYatSenMemorialHall_GZ_6.jpg.71efc7bb32999a7dfc71d68a867ef194.jpg
+assets:
+  - assetId: ct1999-sunyatsen-memorial-hall-guangzhou
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-sunyatsen-memorial-hall-guangzhou
+version: "1.0.0"
+lastModified: "2023-09-17T13:04:44Z"
+url: https://community.simtropolis.com/files/file/35624-sunyatsen-memorial-hall-guangzhou/?do=download

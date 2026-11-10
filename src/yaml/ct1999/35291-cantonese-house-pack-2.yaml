@@ -1,0 +1,56 @@
+group: ct1999
+name: cantonese-house-pack-2
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Cantonese House Pack 2, a set of 1x1 Teochew-Swatow style houses
+  description: |-
+    These kinds of houses can usually be seen in Southern Chinese provinces (like Guangdong 广东 and Fujian 福建), but the most common place you can see them is around the Teochew (潮州) - Swatow (汕头) region. All of the houses have the same stats.
+
+    **Stats**
+
+    *Growable R$*
+
+    - Stage: 3
+    - Lot size: 1x1
+    - Capacity: R$ 26
+    - Building style: Euro
+    - Occupant group: Low Wealth Residential Building
+
+    *Landmark*
+
+    - Lot size: 1x1
+    - Plop cost: 1,000
+    - Monthly cost: 10
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35291-cantonese-house-pack-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/CantoneseHouse_TeoSwa_3_13.jpg.bee6b1b98060cb1e7100afcd7ba2a0c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/CantoneseHouse_TeoSwa_3_14.jpg.aacd7798a4ac3d4028c80bc46ad3d07c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/CantoneseHouse_TeoSwa_3_11.jpg.36dfe0889586c941eaceec83493e87cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/CantoneseHouse_TeoSwa_3_12.jpg.4c8fb0949c6a257fa8876c84887f4cb8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/CantoneseHouse_TeoSwa_3_10.jpg.8b1bb2a84c6fb17b5baf6110d28d61e1.jpg
+dependencies:
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - peg:mtp-super-pack
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-cantonese-house-pack-2-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-cantonese-house-pack-2-dn
+
+---
+assetId: ct1999-cantonese-house-pack-2-dn
+version: "1.0.0"
+lastModified: "2022-09-05T03:50:42Z"
+url: https://community.simtropolis.com/files/file/35291-cantonese-house-pack-2/?do=download&r=195233
+
+---
+assetId: ct1999-cantonese-house-pack-2-mn
+version: "1.0.0"
+lastModified: "2022-09-05T03:50:42Z"
+url: https://community.simtropolis.com/files/file/35291-cantonese-house-pack-2/?do=download&r=195234

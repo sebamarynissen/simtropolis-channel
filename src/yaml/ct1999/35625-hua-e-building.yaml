@@ -1,0 +1,40 @@
+group: ct1999
+name: hua-e-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Hua E Building (花萼楼), a traditional Chinese building in Meizhou
+  description: |-
+    HuaEBuilding (Chinese: 花萼楼) is a really normal traditional Chinese building located in Meizhou Dapu County (梅州市大埔县).
+
+    **Stats**
+
+    *Growable R$*
+
+    - Stage: 6
+    - Lot size: 4x4
+    - Capacity: R$ 800
+    - Building style: Euro
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35625-hua-e-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/HuaEBuilding_1(Day).jpg.b53e2f7b27a209e5744dbbaea01a5b1d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/HuaEBuilding_2(DarkNite).jpg.be957dd05cdb5c7cab19c25cbc05e456.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/HuaEBuilding_4.jpg.3acb5a3cace1acc9c7f64cadd7c1a442.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/HuaEBuilding_5.jpg.36be83579be86fb5c561926a6bb1e020.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/HuaEBuilding_6.jpg.4c52ba343f4f7ef28dc8a43b56b5191e.jpg
+assets:
+  - assetId: ct1999-hua-e-building
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-hua-e-building
+version: "1.0.0"
+lastModified: "2023-09-17T13:09:10Z"
+url: https://community.simtropolis.com/files/file/35625-hua-e-building/?do=download

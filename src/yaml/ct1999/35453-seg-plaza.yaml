@@ -1,0 +1,60 @@
+group: ct1999
+name: seg-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SEG Plaza (赛格广场), a landmark of Shenzhen
+  description: |-
+    SEG Plaza (Chinese: 赛格广场) is one of the landmarks of Shenzhen City. Many people may have heard of HuQiangBei (华强北), the place where you can piece your own iPhone together, and here it is for SC4 now. This building is located in the Futian district (福田区) of Shenzhen (深圳).
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 5x5
+    - Plop cost: 65,000
+    - Monthly cost: 750
+
+    *Landmark with jobs (CO$$)*
+
+    - Lot size: 5x5
+    - Capacity: CO$$ 5,010
+
+    *Growable CO$$*
+
+    - Stage: 8
+    - Lot size: 5x5
+    - Capacity: CO$$ 5,010
+    - Building style: Euro
+    - Occupant group: Medium Wealth Commercial Office Building
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35453-seg-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SEGPlaza_11.jpg.8b1072b69a9b2e40c38fb15a45af6867.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SEGPlaza_5.jpg.ced4199ace4e436c931982aa01aa4e98.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SEGPlaza_6.jpg.8ceee5efd03f1f953a1c1b2b328bccb7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SEGPlaza_7.jpg.b8e8549b6414c32b38651ebd8cc9e9cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SEGPlaza_8.jpg.6fdbc93efeff639c23c53d0f1e983676.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SEGPlaza_9.jpg.2be7fa9bcef27c5e14d37bcfc8d5d47a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SEGPlaza_4.jpg.f52ab62c0ab288fd6f1acff33345fb25.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-seg-plaza-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-seg-plaza-dn
+
+---
+assetId: ct1999-seg-plaza-dn
+version: "1.0.0"
+lastModified: "2023-01-31T09:52:07Z"
+url: https://community.simtropolis.com/files/file/35453-seg-plaza/?do=download&r=196459
+
+---
+assetId: ct1999-seg-plaza-mn
+version: "1.0.0"
+lastModified: "2023-01-31T09:52:07Z"
+url: https://community.simtropolis.com/files/file/35453-seg-plaza/?do=download&r=196460

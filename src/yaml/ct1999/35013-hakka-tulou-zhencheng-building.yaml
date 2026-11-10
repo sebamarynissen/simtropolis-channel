@@ -1,0 +1,56 @@
+group: ct1999
+name: hakka-tulou-zhencheng-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Zhencheng Building (振成楼), a Hakka tulou in Fujian
+  description: |-
+    Zhencheng Building is located in the central and southern part of Hongkeng Village, Hukeng Town, Yongding County, Longyan City, Fujian Province. It was built in 1912 by the Lin Hongchao brothers, the 21st generation of the Hongkeng Lin family. Commonly known as Bagua building, it is famous for its magnificence and exquisite interior space design. Its local architectural style and the colors used in the gate, interior wall, ancestral hall and flower wall boldly adopt the principle of diversity and unity emphasized by western architectural aesthetics, reaching a very high aesthetic realm. It can be called a masterpiece of native land residential buildings combining Chinese and western. The building faces south and covers an area of about 5000 square meters. It is composed of two concentric rings. The outer ring is a civil structure, 4 stories high, 57.2m in diameter, with an inner corridor. It is divided into inner and outer circles. There are four outer rings with 48 rooms on each floor, which are built completely according to the layout of the "Eight Diagrams" in the Book of Changes, with 6 rooms on each.
+
+    **Stats**
+
+    *Growable R$$* (technically this is a residential building)
+
+    - Stage: 6
+    - Lot size: 6x6
+    - Capacity: R$ 850, R$$ 500
+    - Building style: Euro
+    - Occupant group: Medium Wealth Residential Building
+
+    *Landmark*
+
+    - Lot size: 6x6
+    - Plop cost: 15,000
+    - Bulldoze cost: 1,550
+    - Monthly cost: 550
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35013-hakka-tulou-zhencheng-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/ZhenChengBuilding_5.jpg.4b570058f75a669a96fadff7b88619d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/ZhenChengBuilding_6.jpg.d401cdb57b38a8036549cc91ef25acc7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6235b821c73e9_ZhenChengBuilding_DayNitePreview.jpg.81756ee85e0652c516aded3c0b9093d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/ZhenChengBuilding_3.jpg.72744dc78dbfcc337427828a5395ddd8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/ZhenChengBuilding_4.jpg.7dbef395f5230d44a333562f81f9fc2c.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-hakka-tulou-zhencheng-building-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-hakka-tulou-zhencheng-building-dn
+
+---
+assetId: ct1999-hakka-tulou-zhencheng-building-dn
+version: "1.0.0"
+lastModified: "2022-03-19T11:13:14Z"
+url: https://community.simtropolis.com/files/file/35013-hakka-tulou-zhencheng-building/?do=download&r=192555
+
+---
+assetId: ct1999-hakka-tulou-zhencheng-building-mn
+version: "1.0.0"
+lastModified: "2022-03-19T11:13:14Z"
+url: https://community.simtropolis.com/files/file/35013-hakka-tulou-zhencheng-building/?do=download&r=192556

@@ -1,0 +1,116 @@
+group: ct1999
+name: daqing-building
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: DaQing Building (大庆大厦), a normal office in Shenzhen (original scale)
+  description: |-
+    DaQingBuilding (Chinese: 大庆大厦) is located at ShenNan Ave No.6072 in the FuTian district of Shenzhen, and is a really normal office.
+
+    This is the original version of the building, which is bigger. A slightly smaller version, closer to the realistic scale, is available as `pkg=ct1999:daqing-building-scale-adjust`. Both versions don't conflict with each other, so you can use both. If you want to replace this version with the ScaleAdjust version, you have to bulldoze all the existing buildings of this version first.
+
+    **Stats**
+
+    *Growable CO$$*
+
+    - Stage: 8
+    - Lot size: 5x4
+    - Capacity: CO$$ 4,281
+    - Building style: Euro
+    - Occupant group: Medium Wealth Office Building
+
+    *Landmark*
+
+    - Lot size: 5x4
+    - Plop cost: 50,000
+    - Monthly cost: 900
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35055-daqing-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_4.jpg.65102f2ab7216a32a21b577dd3463113.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_3.jpg.829448dcf81bf92304cec3df68464602.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_1.jpg.ebed2ad0e68c9d31ae9f8ba5c33a989c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_2.jpg.a2e81a5b54baa4d7ff20e717eed16737.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_5.jpg.b2cfc9203b2640485fd9dfd8545bc84c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_6.jpg.511c440584a6e4f247d07aedeeb7a38c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_10_Preview.jpg.18fe2d61344603075cf74f232fd7dae0.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-daqing-building-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-daqing-building-dn
+
+---
+group: ct1999
+name: daqing-building-scale-adjust
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: DaQing Building (大庆大厦), a normal office in Shenzhen (adjusted scale)
+  description: |-
+    DaQingBuilding (Chinese: 大庆大厦) is located at ShenNan Ave No.6072 in the FuTian district of Shenzhen, and is a really normal office.
+
+    This is the ScaleAdjust version of the building, which is a little bit smaller and closer to the realistic scale. The original, bigger version is available as `pkg=ct1999:daqing-building`. Both versions don't conflict with each other, so you can use both. If you want to replace the original version with this version, you have to bulldoze all the existing buildings of the original version first.
+
+    **Stats**
+
+    *Growable CO$$*
+
+    - Stage: 8
+    - Lot size: 4x4
+    - Capacity: CO$$ 4,281
+    - Building style: Euro
+    - Occupant group: Medium Wealth Office Building
+
+    *Landmark*
+
+    - Lot size: 4x4
+    - Plop cost: 50,000
+    - Monthly cost: 500
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35055-daqing-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_4.jpg.65102f2ab7216a32a21b577dd3463113.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_3.jpg.829448dcf81bf92304cec3df68464602.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_1.jpg.ebed2ad0e68c9d31ae9f8ba5c33a989c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_2.jpg.a2e81a5b54baa4d7ff20e717eed16737.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_5.jpg.b2cfc9203b2640485fd9dfd8545bc84c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_6.jpg.511c440584a6e4f247d07aedeeb7a38c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/DaQingBuilding_10_Preview.jpg.18fe2d61344603075cf74f232fd7dae0.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-daqing-building-scale-adjust-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-daqing-building-scale-adjust-dn
+
+---
+assetId: ct1999-daqing-building-dn
+version: "2.0.0"
+lastModified: "2022-06-23T11:37:13Z"
+url: https://community.simtropolis.com/files/file/35055-daqing-building/?do=download&r=194508
+
+---
+assetId: ct1999-daqing-building-mn
+version: "2.0.0"
+lastModified: "2022-06-23T11:37:13Z"
+url: https://community.simtropolis.com/files/file/35055-daqing-building/?do=download&r=194509
+
+---
+assetId: ct1999-daqing-building-scale-adjust-dn
+version: "2.0.0"
+lastModified: "2022-06-23T11:37:13Z"
+url: https://community.simtropolis.com/files/file/35055-daqing-building/?do=download&r=194510
+
+---
+assetId: ct1999-daqing-building-scale-adjust-mn
+version: "2.0.0"
+lastModified: "2022-06-23T11:37:13Z"
+url: https://community.simtropolis.com/files/file/35055-daqing-building/?do=download&r=194511

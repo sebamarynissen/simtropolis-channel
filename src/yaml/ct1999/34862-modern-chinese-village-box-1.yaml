@@ -1,0 +1,53 @@
+group: ct1999
+name: modern-chinese-village-box-1
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Modern Chinese Village Box 1 (农民房), a 1x1 village house
+  description: |-
+    This kind of building can usually be seen in the southern Chinese provinces, such as Guangdong. There are especially a lot of taller versions of these in Shenzhen, where they are called "农民房" in Chinese.
+
+    Honestly, the reason why I chose this building is that my modeling skills are not skillful enough.
+
+    **Stats**
+
+    *Growable R$*
+
+    - Stage: 3 (at least medium density)
+    - Lot size: 1x1
+    - Capacity: R$ 31
+    - Building style: Euro
+    - Occupant group: Low Wealth Residential Building
+
+    *Landmark (for preview purposes)*
+
+    - Lot size: 1x1
+    - Bulldoze cost: free
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/34862-modern-chinese-village-box-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/620dfac62f423_Canton-Apr.214801645015935.jpg.3dd853c6107eb5d8fe7af396b57b7007.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/620dfae22c42e_Canton-Apr.214801645015943.jpg.a9bc00b872c3fec93a0692720f7cd39a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/620dfafc46b9a_Canton-Nov.54871645024136.png.95d12cf52559a2a7ecc266f596c5a988.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/VillageBox.jpg.9f2b31d2b22a34d12b1e80c7f2ee1668.png
+dependencies:
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-modern-chinese-village-box-1
+        include:
+          - "/Ct1999_ChineseVillageBox_1_MaxisNite/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-modern-chinese-village-box-1
+        include:
+          - "/Ct1999_ChineseVillageBox_1_DarkNite/"
+
+---
+assetId: ct1999-modern-chinese-village-box-1
+version: "1.0.0"
+lastModified: "2022-02-17T07:42:45Z"
+url: https://community.simtropolis.com/files/file/34862-modern-chinese-village-box-1/?do=download

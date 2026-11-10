@@ -1,0 +1,38 @@
+group: ct1999
+name: queshitang-church
+version: "1.0.1"
+subfolder: 360-landmark
+info:
+  summary: QueShiTang Church (礐石堂) as a 3x3 reward lot
+  description: |-
+    QueShiTangChurch (Chinese: 礐石堂).
+
+    **Stats**
+
+    *Reward*
+
+    - Lot size: 3x3
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/36191-queshitang-church/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/QueShiTangChurch_4.jpg.e01919c24bf083382265bfa49cd7e7bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/QueShiTangChurch_5.jpg.c25034594d68483e1ed96133e6350b16.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/QueShiTangChurch_6.jpg.23778998e6b304adb95dca39a6a7b90b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/QueShiTangChurch_7.jpg.487d1287f8c48899ed915a3d1a5d8050.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/QueShiTangChurch_8.jpg.ff1bbdfaa08e6de1484035d5b29281ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/QueShiTangChurch_9.jpg.f2db2abc3f84a01146d14221b7587f24.jpg
+assets:
+  - assetId: ct1999-queshitang-church
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-queshitang-church
+version: "1.0.1"
+lastModified: "2024-04-03T11:06:16Z"
+url: https://community.simtropolis.com/files/file/36191-queshitang-church/?do=download

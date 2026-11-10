@@ -1,0 +1,54 @@
+group: ct1999
+name: kingkey-100
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Kingkey 100 (京基100), a landmark skyscraper of Shenzhen
+  description: |-
+    KingKey 100 (Chinese: 京基100) is one of the landmarks of Shenzhen City, located in Shenzhen Luohu district (深圳市罗湖区).
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 5x5
+    - Plop cost: 110,000
+    - Bulldoze cost: 150,000
+    - Monthly cost: 1,200
+
+    *Landmark with jobs (CO$$$)*
+
+    - Lot size: 5x5
+    - Capacity: CO$$ 7,100, CO$$$ 6,900
+
+    *Growable CO$$$*
+
+    - Stage: 8
+    - Lot size: 5x5
+    - Capacity: CO$$ 5,100, CO$$$ 4,900
+    - Building style: Euro
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35626-kingkey-100/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/KingKey100_1(Day).jpg.e9e0fbda2d2e0c7d61ec3bac8f57cc93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/KingKey100_2(DarkNite).jpg.628f3610276782f5694ad2016def32e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/KingKey100_5.jpg.1dfc58af58d9e8cd3f730b96d171b2ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/KingKey100_6.jpg.1841b6feb1bef73b6a37643128a40ec1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/KingKey100_7.jpg.61d955ed1d507e8031673c0e40b832d5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/KingKey100_8.jpg.b310b19c4e12b21d47ffa28154183c17.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/KingKey100_9.jpg.26da8ef1f7c6485ce6139fc36cd1483b.jpg
+assets:
+  - assetId: ct1999-kingkey-100
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-kingkey-100
+version: "1.0.0"
+lastModified: "2023-09-17T13:16:16Z"
+url: https://community.simtropolis.com/files/file/35626-kingkey-100/?do=download

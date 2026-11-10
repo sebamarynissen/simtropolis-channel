@@ -1,0 +1,53 @@
+group: ct1999
+name: flowery-pagoda
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Flowery Pagoda (花塔), inside the Temple of the Six Banyan Trees in Guangzhou
+  description: |-
+    Flowery Pagoda (Chinese: 花塔) is inside The Temple of the Six Banyan Trees or Liurong Temple (Chinese: 六榕寺), a Buddhist temple in Guangzhou, China, originally built in AD 537.
+
+    **History of the Temple of the Six Banyan Trees**
+
+    The Baozhuangyan Temple was first constructed by the monk Tanyu under orders from Emperor Wu of the Liang in AD 537. It was constructed to house the relics of Cambodian Buddhist saints which had been brought to Panyu (modern Guangzhou).
+
+    The temple was burned down and rebuilt during the Northern Song dynasty. Around the same time, Su Shi composed a poem "Six Banyans" (Liu Rong) in honor of a visit to the temple. It was since renamed in honor of the famous poem.
+
+    Flower Pagoda, the main structure of the temple, was built in 1097 and was named for its colorful exterior. The Flower Pagoda once had a square base in its architecture, but was given an octagonal shaped base after it was rebuilt in 1097. It was rebuilt again in 1373 after another fire in the early Ming dynasty period and restored in 1900.
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 2x2
+    - Plop cost: 3,000
+    - Monthly cost: 249
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35182-flowery-pagoda/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/FloweryPagoda_1.jpg.2f18872b3a384572f75afcc3dded86c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/FloweryPagoda_2.jpg.72195e41709cc4756adcf8082386359d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/FloweryPagoda_3.jpg.ae82efa879a6e41ecf91c43e02f889ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/FloweryPagoda_4.jpg.d5f409a9e522adb19eb5cdedf30e3198.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/FloweryPagoda_8.jpg.94ca2b396cd786343acd6529ae32565c.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-flowery-pagoda-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-flowery-pagoda-dn
+
+---
+assetId: ct1999-flowery-pagoda-dn
+version: "1.0.0"
+lastModified: "2022-05-13T11:34:39Z"
+url: https://community.simtropolis.com/files/file/35182-flowery-pagoda/?do=download&r=194215
+
+---
+assetId: ct1999-flowery-pagoda-mn
+version: "1.0.0"
+lastModified: "2022-05-13T11:34:39Z"
+url: https://community.simtropolis.com/files/file/35182-flowery-pagoda/?do=download&r=194216

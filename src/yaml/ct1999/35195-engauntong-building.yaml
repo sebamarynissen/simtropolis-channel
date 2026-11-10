@@ -1,0 +1,63 @@
+group: ct1999
+name: engauntong-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: EngAunTong (永安堂), today the Guangzhou Children's Library
+  description: |-
+    EngAunTong (Chinese: 永安堂), today the Guangzhou Children's Library (Chinese: 广州少儿图书馆), is located at YanJiang West Road No.149 in the YueXiu district of Guangzhou, Guangdong Province.
+
+    **History**
+
+    EngAunTong was completed in 1937. It was a building used for manufacturing Tiger Balm, a brand owned by WenHu Hu. When EngAunTong was completed, it was a second stage building alongside the Oi Kwan Hotel (`pkg=ct1999:oi-kwan-hotel`).
+
+    In April 1950, after the establishment of the PRC, the building was subject to forced handover to the government under an economic policy named "Success Debenture".
+
+    After 44 years, in 1994, the government decided to return the building to Hu's daughter named Xian Hu. Mrs. Hu originally wanted to set up a private media office in the building. However, Mrs. Hu noticed that mainland China prohibits any private media. So she decided to contribute the building to the government as a social charity. After that, the building was set to become a children's library.
+
+    **Stats**
+
+    *Growable CO$$*
+
+    - Stage: 5
+    - Lot size: 3x3
+    - Capacity: CO$$ 899
+    - Building style: Euro
+    - Occupant group: Medium Wealth Commercial Office Building
+
+    *Landmark*
+
+    - Lot size: 3x3
+    - Plop cost: 10,000
+    - Monthly cost: 295
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35195-engauntong-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/EngAunTong_6.jpg.d3c0dff0fb8cc3e700a0e65152425cf8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/EngAunTong_7.jpg.3bbd3f4e611b8d15756fe343fed98e39.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/EngAunTong_4.jpg.f0a396a9b60e861b569e58bd9225738d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/EngAunTong_5.jpg.9b45f6308594bb772a28c7e4b6c972d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/EngAunTong_8.jpg.cc86b7579d7483f6d15efecea5835308.jpg
+dependencies:
+  - bsc:vip-girafe-carpack-vol01-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-engauntong-building-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-engauntong-building-dn
+
+---
+assetId: ct1999-engauntong-building-dn
+version: "1.0.0"
+lastModified: "2022-05-27T15:44:56Z"
+url: https://community.simtropolis.com/files/file/35195-engauntong-building/?do=download&r=194351
+
+---
+assetId: ct1999-engauntong-building-mn
+version: "1.0.0"
+lastModified: "2022-05-27T15:44:56Z"
+url: https://community.simtropolis.com/files/file/35195-engauntong-building/?do=download&r=194352

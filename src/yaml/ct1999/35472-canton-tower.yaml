@@ -1,0 +1,52 @@
+group: ct1999
+name: canton-tower
+version: "1.0.1"
+subfolder: 360-landmark
+info:
+  summary: Canton Tower (广州塔), the 604-meter observation tower in Guangzhou
+  description: |-
+    The Canton Tower (Chinese: 广州塔), formally Guangzhou TV Astronomical and Sightseeing Tower (Chinese: 广州电视台天文及观光塔), is a 604-meter (1,982 ft) tall multi-purpose observation tower in the Haizhu District (海珠区) of Guangzhou (广州).
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 5x5
+    - Plop cost: 310,000
+    - Bulldoze cost: 210,000
+    - Monthly cost: 2,000 (the maintenance budget is really expensive!)
+
+    *Landmark with jobs (CS$$)*
+
+    - Lot size: 5x5
+    - Capacity: CS$ 7,800, CS$$ 7,800
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35472-canton-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/CantonTower_10.jpg.47437fe306ddf621d7777823b6481692.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/CantonTower_6.jpg.43955172fc25356203da41f6a888ca98.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/CantonTower_7.jpg.091ea5df8a580764ab7de84d2f7c6bbb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/CantonTower_8.jpg.f3aeb92248f71f4f93405589fe7359fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/CantonTower_9.jpg.ed026dd6891d2b915037141295d6ee8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/CantonTower_5.jpg.1dfe51448a32918b70c6b217ff4d3ddf.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-canton-tower-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-canton-tower-dn
+
+---
+assetId: ct1999-canton-tower-dn
+version: "1.0.1"
+lastModified: "2023-03-15T14:18:59Z"
+url: https://community.simtropolis.com/files/file/35472-canton-tower/?do=download&r=196750
+
+---
+assetId: ct1999-canton-tower-mn
+version: "1.0.1"
+lastModified: "2023-03-15T14:18:59Z"
+url: https://community.simtropolis.com/files/file/35472-canton-tower/?do=download&r=196751

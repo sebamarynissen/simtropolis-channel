@@ -1,0 +1,49 @@
+group: ct1999
+name: honkwok-city-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: HonKwok City Center (汉国城市中心), a high-rise office in Shenzhen
+  description: |-
+    HonKwok City Center (Chinese: 汉国城市中心) is a really normal high-rise office located in ShenZhen (深圳市) FuTian district (福田区).
+
+    **Stats**
+
+    *Growable CO$$$*
+
+    - Stage: 8
+    - Lot size: 5x5
+    - Capacity: CO$$ 4,100, CO$$$ 3,200
+    - Building style: All
+    - Occupant group: High Wealth Office Building
+
+    *Landmark*
+
+    - Lot size: 5x5
+    - Plop cost: 9,000
+    - Monthly cost: 150
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35789-honkwok-city-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/HonKwokCityCenter_1(Day).jpg.8e928ff0db8f6369398ffc3968b2053b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/HonKwokCityCenter_2(DarkNite).jpg.126a6c6eb1a7b4f902fef3a4d0e3f944.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/HonKwokCityCenter_3.jpg.bb6156592cbcf09f67f2f21bd6c9ef36.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/HonKwokCityCenter_4.jpg.ff2a78b7edb97aae0844765e3d2259f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/HonKwokCityCenter_5.jpg.2d57ca17a6f8e89b4c57ff2c0915c19b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/HonKwokCityCenter_6.jpg.a4f1d6c7f61f3112656b2ffa9ebe1a6d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/HonKwokCityCenter_7.jpg.c1d07d2a6964e8ded7195cd874eae37d.jpg
+assets:
+  - assetId: ct1999-honkwok-city-center
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-honkwok-city-center
+version: "1.0.0"
+lastModified: "2023-12-02T10:34:18Z"
+url: https://community.simtropolis.com/files/file/35789-honkwok-city-center/?do=download

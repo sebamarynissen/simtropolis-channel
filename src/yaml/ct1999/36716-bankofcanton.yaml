@@ -1,0 +1,37 @@
+group: ct1999
+name: bankofcanton
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Bank of Canton (广东银行), a 2x2 growable bank in HD
+  description: |-
+    BankOfCanton (Chinese: 广东银行)
+
+    **Stats**
+
+    *Growable CO$$*
+
+    - Stage: 6
+    - Lot size: 2x2
+    - Capacity: CO$$ 329
+    - Building style: Euro
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/36716-bankofcanton/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/BankCanton.JPG.cdeb8aa0bade1c93528f1369d90cec53.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/BankCantonN.JPG.8825dbd334d7d841414c92cb5cd1c125.JPG
+assets:
+  - assetId: ct1999-bankofcanton
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-bankofcanton
+version: "1.0.0"
+lastModified: "2026-06-06T02:44:22Z"
+url: https://community.simtropolis.com/files/file/36716-bankofcanton/?do=download

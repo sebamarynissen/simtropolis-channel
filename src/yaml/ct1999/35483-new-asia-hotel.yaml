@@ -1,0 +1,55 @@
+group: ct1999
+name: new-asia-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: New Asia Hotel (新亚酒店), one of the earliest high-rises in China
+  description: |-
+    New Asia Hotel (Chinese: 新亚酒店) is one of the earliest high-rises constructed in 1930s China, located in Guangzhou (广州) Yuexiu district (越秀区).
+
+    There are a lot of weirdly sized buildings in China, and a lot of them are as big as hell.
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 2x6
+    - Plop cost: 8,000
+    - Monthly cost: 400
+
+    *Growable CS$$*
+
+    - Stage: 8
+    - Lot size: 2x6
+    - Capacity: CS$ 1,100, CS$$ 900
+    - Building style: Euro
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35483-new-asia-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/NewAsiaHotel_6.jpg.9baf5b88cd819e425263c93199fedb0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/NewAsiaHotel_7.jpg.15c15234bc296cc5565b760e4fa6ce48.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/NewAsiaHotel_8.jpg.f39a0ca7fd8c8f6adbddd2d5c0bd8b91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/NewAsiaHotel_9.jpg.f98eb01bb8813d52c87fc3f8419346f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/NewAsiaHotel_10.jpg.8344178a72854fd4c86ce511252fb3bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/NewAsiaHotel_11.jpg.2422c63b7183ec4aa5b47d3e52d090f8.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-new-asia-hotel-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-new-asia-hotel-dn
+
+---
+assetId: ct1999-new-asia-hotel-dn
+version: "1.0.0"
+lastModified: "2023-03-15T14:12:55Z"
+url: https://community.simtropolis.com/files/file/35483-new-asia-hotel/?do=download&r=196742
+
+---
+assetId: ct1999-new-asia-hotel-mn
+version: "1.0.0"
+lastModified: "2023-03-15T14:12:55Z"
+url: https://community.simtropolis.com/files/file/35483-new-asia-hotel/?do=download&r=196743

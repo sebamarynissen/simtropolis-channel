@@ -1,0 +1,60 @@
+group: ct1999
+name: sdb-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SDB Building (深圳发展银行大厦), the former Shenzhen Development Bank building
+  description: |-
+    SDBBuilding (full name: Shenzhen Development Bank Building, Chinese: 深圳发展银行大厦, today: 平安银行大厦) is a normal building next to a famous landmark of the city, located in Shenzhen (深圳) Luohu district (罗湖区).
+
+    “盏鬼” is a Cantonese expression meaning “funny”.
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 4x8
+    - Plop cost: 12,000
+    - Monthly cost: 600
+
+    *Growable CO$$*
+
+    - Stage: 8
+    - Lot size: 4x8
+    - Capacity: CO$$ 3,875
+    - Building style: Euro
+    - Occupant group: Medium Wealth Commercial Office Building
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35416-sdb-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_10.jpg.f4e761ee6ddba1b105e3842f9aca855b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_4.jpg.1d30ae260cc863ec3f0723d8263214b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_5.jpg.e5f8c980bd3007649e50f86777e59e30.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_7.jpg.cd6120f26adcb3c8f88d25b1dbd4c43f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_8.jpg.0a2a615d0efb88124ab62eb07de40ca1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_11.jpg.a59c44efe2b60ac06579e330ee74a8e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_12.jpg.9b69a51dcbd03f97a1a6b5c0c0ff29d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/SDBBuilding_9.jpg.e503d3230f6ead2ab1541aaad384b9d8.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-sdb-building-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-sdb-building-dn
+
+---
+assetId: ct1999-sdb-building-dn
+version: "1.0.0"
+lastModified: "2023-01-15T06:25:52Z"
+url: https://community.simtropolis.com/files/file/35416-sdb-building/?do=download&r=196171
+
+---
+assetId: ct1999-sdb-building-mn
+version: "1.0.0"
+lastModified: "2023-01-15T06:25:52Z"
+url: https://community.simtropolis.com/files/file/35416-sdb-building/?do=download&r=196172
