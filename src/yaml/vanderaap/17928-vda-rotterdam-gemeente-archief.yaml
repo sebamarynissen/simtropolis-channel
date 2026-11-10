@@ -1,0 +1,24 @@
+group: vanderaap
+name: vda-rotterdam-gemeente-archief
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: vda Rotterdam Gemeente Archief
+  description: City Archives building of Rotterdam (3x3 Library). Built in 1899/1900 at the Mathenesserlaan, designed by D.B. Logeman in a mixture of Dutch neo-renaissance and-classicism. Located just outside the centre, it survived the May 14 bombings in 1940. V-apps, 03-30-07
+  author: Vanderaap
+  website: https://community.simtropolis.com/files/file/17928-vda-rotterdam-gemeente-archief/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e7d2b9e3bda1a2a8f44cd06fb56b61b-vda_rotterdam_gemeente_archief_01.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e7d2b9e3bda1a2a8f44cd06fb56b61b-vda_rotterdam_gemeente_archief_02.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: vanderaap-vda-rotterdam-gemeente-archief
+
+---
+assetId: vanderaap-vda-rotterdam-gemeente-archief
+version: "1.0"
+lastModified: "2007-03-30T09:20:49Z"
+url: https://community.simtropolis.com/files/file/17928-vda-rotterdam-gemeente-archief/?do=download
