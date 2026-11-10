@@ -32,6 +32,8 @@ info:
 
     The mod comes in two flavors, which you can choose with the `priority` variant: one with Medium-High priority for the underfunding (non-strike) messages, and one with all of them set to Urgent priority. With the Urgent version you don't need to keep an eye on the News ticker and can deal with funding situations immediately.
 
+    The SC4 System Integration Module of CAM (`pkg=cam:sc4-system-integration-module`) already includes the Urgent version of these files. If you use CAM, the `urgent` variant is therefore redundant, and the `medium-high` variant overrides the Urgent priorities of CAM.
+
     **Considerations**
 
     - Any time a message in the News Box expires (when the main text turns dim gray), the links are no longer clickable. If you are running the game on Cheetah speed, messages time out quickly.
