@@ -1,0 +1,45 @@
+group: ill-tonkso
+name: boring-generic-suburban-office-park
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Boring Generic Suburban Office Park
+  description: |-
+    Nothing architecurally stunning, nothing particularly exiting. These modest 3 storey office buildings may not look important but they are. Well, if you like to make things look like a genuine British City they are anyway. These sort of buildings litter the suburbs of the major cities, and sit firmly in the smaller Town Centres.
+
+    Ok im gonna level with ya, i cant be bothered to make up some silly story, so ill get on with the stats already.
+
+    Lots included:
+
+    |  |  |  |  |
+    | --- | --- | --- | --- |
+    | Wealth | Employment | Size | Stage |
+    | CO££ | 1500 | 2x3 | 2 |
+    | CS££ | 1500 | 5x5 | 2 |
+    | CS££ | 1500 | 5x5 | 2 |
+
+    dependencies:
+
+    [BSC Mega Texture Pack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    Thanks, if you have any questions I probably wont answer them because im lazy and i cannot be asked ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/18607-ndex-its-boring-generic-suburban-office-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4db451bdff318539719f5725b019637d-md.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4db451bdff318539719f5725b019637d-propernight.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - ndex:its-mega-pack-vol08
+  - ndex:parking-lot-textures
+assets:
+  - assetId: ill-tonkso-boring-generic-suburban-office-park
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-boring-generic-suburban-office-park
+version: "1.0"
+lastModified: "2007-08-30T17:04:20Z"
+url: https://community.simtropolis.com/files/file/18607-ndex-its-boring-generic-suburban-office-park/?do=download

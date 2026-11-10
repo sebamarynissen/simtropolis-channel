@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: peelers-gate
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Peelers Gate
+  description: |-
+    **Peelers Gate**
+
+    A Typical modern apartment block like so many found across Portsmouth and other parts of the UK, this building creates a home for 350 R££ Citizens. This is the second in a series of the 'Portsmouth Style Modern Living Set' The model also sits upon a 2x2, medium density lot and has no dependencies. Peelers Gate is a real building in the Cosham area of Portsmouth.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/18625-ndex-its-peelers-gate/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d0efdc3a5549b51d8bf85bc11eb2b33d-pd.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d0efdc3a5549b51d8bf85bc11eb2b33d-pn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol11
+assets:
+  - assetId: ill-tonkso-peelers-gate
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-peelers-gate
+version: "1.0"
+lastModified: "2007-09-05T16:04:34Z"
+url: https://community.simtropolis.com/files/file/18625-ndex-its-peelers-gate/?do=download
