@@ -51,7 +51,7 @@ info:
 
     **Notes**
 
-    - The preferences are stored in `DepartmentEfficiency.ini`. Sc4pac installs this file as `DepartmentEfficiency_sc4pacnew.ini` in the root of your Plugins folder. Rename it by removing `_sc4pacnew` from its name, otherwise the Department has no configuration and stays off. Back this file up to keep your settings.
+    - The preferences are stored in `DepartmentEfficiency.ini`. Sc4pac installs this file as `DepartmentEfficiency_sc4pacnew.ini` in the root of your Plugins folder. Review its settings first, in particular the automatic demolition settings, and then rename it by removing `_sc4pacnew` from its name. Without the renamed file, the Department has no configuration and stays off. Back this file up to keep your settings.
     - The author tested the mod with SimCity 4 Deluxe, Steam edition, version 1.1.641.0, on Windows. Other versions and editions are not tested.
     - The recommended Steam launch option is `-CPUCount:1`.
     - Your saved cities remain usable after removing the plugin. Previously applied funding values, contracts and demolitions remain at their last saved state.
