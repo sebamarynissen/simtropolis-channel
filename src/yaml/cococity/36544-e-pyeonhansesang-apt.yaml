@@ -1,0 +1,58 @@
+group: cococity
+name: e-pyeonhansesang-apt
+version: "1.1.0"
+subfolder: 200-residential
+info:
+  summary: e Pyeonhansesang apartment in South Korea in Growable R$$ and Landmark versions
+  description: |-
+    **e Pyeonhansesang** is an apartment in South Korea.
+
+    **Information**
+
+    *Growable R$$*
+
+    - Stage: 5
+    - Capacity: R$$ 3,416, R$ 6,186
+    - Lot size: 4x3
+    - Bulldoze cost: 1,617
+
+    *Landmark*
+
+    - Plop cost: 110,000
+    - Bulldoze cost: 100
+    - Lot size: 4x3
+  author: CocoCity
+  website: https://community.simtropolis.com/files/file/36544-coco_e-pyeonhansesang_apt/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7dbed28f7_01-15--131731685185.png.340cd37fac1a02f4635da82eabec5ab7.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/02.png.329a18631523b38c909b533904d2c583.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/03.png.0c68bdfa6e609809fe1f2dfdcab91b31.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7dcf2f609_.png.876c36cb32b3b9a17e94cc773d0d673b.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7ddc9a106_-.png.85ba20619a5afaa1df08c51a9adbe897.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7e0593fff_.png.3e43f3789de8688d9127d23a4e3f3c2c.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/Add.png.6950436dcccbdabfa0b8b1bc7ce152f4.webp
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - vip:vnaoned-props-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cococity-e-pyeonhansesang-apt-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: cococity-e-pyeonhansesang-apt-dn
+
+---
+assetId: cococity-e-pyeonhansesang-apt-mn
+version: "1.1.0"
+lastModified: "2026-06-06T10:57:10Z"
+url: https://community.simtropolis.com/files/file/36544-coco_e-pyeonhansesang_apt/?do=download&r=215482
+
+---
+assetId: cococity-e-pyeonhansesang-apt-dn
+version: "1.1.0"
+lastModified: "2026-06-06T10:57:10Z"
+url: https://community.simtropolis.com/files/file/36544-coco_e-pyeonhansesang_apt/?do=download&r=215483

@@ -1,0 +1,50 @@
+group: cococity
+name: samsung-apartment
+version: "1.1.0"
+subfolder: 200-residential
+info:
+  summary: Old Korean Samsung apartment in Growable R$ and Landmark versions
+  description: |-
+    This is an old apartment in Korea.
+
+    **Information**
+
+    *Growable R$*
+
+    - Stage: 7
+    - Capacity: R$ 3,161
+    - Lot size: 7x3
+
+    *Landmark*
+
+    - Plop cost: 110,000
+    - Bulldoze cost: 100
+    - Lot size: 7x3
+
+    Since the width of the lot is large, use Ctrl to set the lot to 7x3.
+  author: CocoCity
+  website: https://community.simtropolis.com/files/file/36495-coco-samsung-apartment/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Day.jpg.f0b34ef70ac5123f886a2036a7ba7cee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/Nite.jpg.c25bf957bdf613fba1d650f0bb3ce5d3.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cococity-samsung-apartment-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: cococity-samsung-apartment-dn
+
+---
+assetId: cococity-samsung-apartment-mn
+version: "1.1.0"
+lastModified: "2026-06-11T06:44:23Z"
+url: https://community.simtropolis.com/files/file/36495-coco-samsung-apartment/?do=download&r=216481
+
+---
+assetId: cococity-samsung-apartment-dn
+version: "1.1.0"
+lastModified: "2026-06-11T06:44:23Z"
+url: https://community.simtropolis.com/files/file/36495-coco-samsung-apartment/?do=download&r=216482

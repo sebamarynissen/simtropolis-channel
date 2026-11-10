@@ -1,0 +1,53 @@
+group: cococity
+name: moaelgaa-apt
+version: "1.0.2"
+subfolder: 200-residential
+info:
+  summary: Moaelgaa apartment in South Korea in Growable R$$ and Landmark versions
+  description: |-
+    **Moaelgaa** is an apartment in South Korea.
+
+    **Information**
+
+    *Growable R$$*
+
+    - Stage: 5
+    - Capacity: R$$ 1,830, R$ 3,313
+    - Lot size: 3x3
+    - Bulldoze cost: 1,476
+
+    *Landmark*
+
+    - Plop cost: 110,000
+    - Bulldoze cost: 100
+    - Lot size: 3x3
+  author: CocoCity
+  website: https://community.simtropolis.com/files/file/36971-coco-moaelgaa-apt/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890d8d06b0c4_.png.72cdf6b3cf55d6c0cbe3e36b57a87476.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890d8d8b62d8_02.png.d786e9c10943a811b2df9b540eca7795.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890d8e23c6ec_03.png.1f1304d94b25431b2ed38deeb9d00f90.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890d8ee69190_-2.png.5e77ca29babab766c05fb6984b567f61.webp
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890d904df253_.png.3df44548fded2deaa924610519e038e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_08/6890d91499fcb_-3.png.756db7352e103eb41b2ae8358c8042d5.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cococity-moaelgaa-apt-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: cococity-moaelgaa-apt-dn
+
+---
+assetId: cococity-moaelgaa-apt-mn
+version: "1.0.2"
+lastModified: "2026-05-31T09:24:43Z"
+url: https://community.simtropolis.com/files/file/36971-coco-moaelgaa-apt/?do=download&r=214101
+
+---
+assetId: cococity-moaelgaa-apt-dn
+version: "1.0.2"
+lastModified: "2026-05-31T09:24:43Z"
+url: https://community.simtropolis.com/files/file/36971-coco-moaelgaa-apt/?do=download&r=214102

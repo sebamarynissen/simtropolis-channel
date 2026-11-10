@@ -1,0 +1,63 @@
+group: cococity
+name: prugio-apartment-atype
+version: "1.1.0"
+subfolder: 200-residential
+info:
+  summary: Prugio apartment tower (type A) in Growable R$$ and Landmark versions
+  description: |-
+    **PRUGIO** is a well-established apartment brand in Korea. This model was designed in two types, and this is type A (type A: 27 floors, type B: 29 floors, see `pkg=cococity:prugio-apartment-btype`).
+
+    **Information**
+
+    *Growable R$$*
+
+    - Stage: 7
+    - Capacity: R$$ 1,057, R$ 1,913
+    - Lot size: 3x2
+
+    *Landmark*
+
+    - Plop cost: 50,000
+    - Monthly cost: 80
+    - Landmark effect: 60
+    - Lot size: 3x2
+  author: CocoCity
+  website: https://community.simtropolis.com/files/file/37648-coco-prugio-apartment-atype/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Day_F.jpg.65e82c7a0b97ee3c3df09159d332470d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ad498a95db36_A-L-.png.f00ea6166fe542902497b2f4f8a2d6f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ad498ada7dd7_A-B-.png.a2f774e98879860255f8a1a4bf068d2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ad498bb2e581_A-R-.png.80df7c2e6925f4ac33819012fd70e3d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ad498cd2525f_A_F-.png.de7b58a0d38b90ec9ccf8d95a1787233.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Atype_Night_L.jpg.426904dc798e9bb19555f2dd3992f056.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Atype_Night_B.jpg.d48587397619d3699ba2ac223798b3be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/Atype_Night_R.jpg.edaf2220c7d87a3d0d19d9978abdb903.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_10/6ad498f444798_A-.png.9aea94aa71a0f918720670f9756c2c9d.png
+dependencies:
+  - bsc:textures-vol03
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol01-vol02-remastered
+  - bsc:vip-girafe-carpack-vol03
+  - bsc:vip-girafe-carpack-vol03-remastered
+  - bsc:vip-girafe-carpack-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cococity-prugio-apartment-atype-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: cococity-prugio-apartment-atype-dn
+
+---
+assetId: cococity-prugio-apartment-atype-mn
+version: "1.1.0"
+lastModified: "2026-10-13T10:20:00Z"
+url: https://community.simtropolis.com/files/file/37648-coco-prugio-apartment-atype/?do=download&r=223114
+
+---
+assetId: cococity-prugio-apartment-atype-dn
+version: "1.1.0"
+lastModified: "2026-10-13T10:20:00Z"
+url: https://community.simtropolis.com/files/file/37648-coco-prugio-apartment-atype/?do=download&r=223115

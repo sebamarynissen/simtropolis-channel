@@ -1,0 +1,52 @@
+group: cococity
+name: hillstate-apartment
+version: "1.1.0"
+subfolder: 200-residential
+info:
+  summary: South Korean Hillstate apartment in Growable R$$ and Landmark versions
+  description: |-
+    This building is an apartment in South Korea.
+
+    **Information**
+
+    *Growable R$$*
+
+    - Stage: 5
+    - Capacity: R$$ 1,699, R$ 3,076
+    - Lot size: 4x2
+    - Bulldoze cost: 1,740
+
+    *Landmark*
+
+    - Plop cost: 110,000
+    - Bulldoze cost: 100
+    - Lot size: 4x2
+  author: CocoCity
+  website: https://community.simtropolis.com/files/file/36526-coco-hillstate-apartment/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7f80164fc_01.jpg.f156a13964b02f7a9c95bae3a7a27699.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/image02.jpg.98d7621cacb60a077a6c5e5534b6534f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7fa1bdc30_.jpg.590d64ecf449e6f038210868b3519695.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7fa5d8196_.jpg.89ea5530235a6f490389e8071fbd3fc1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a8a7fa9be5dd_2.jpg.4df7fb7f8038026f12bc07a5197e7338.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: cococity-hillstate-apartment-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: cococity-hillstate-apartment-dn
+
+---
+assetId: cococity-hillstate-apartment-mn
+version: "1.1.0"
+lastModified: "2026-06-20T05:11:10Z"
+url: https://community.simtropolis.com/files/file/36526-coco-hillstate-apartment/?do=download&r=218452
+
+---
+assetId: cococity-hillstate-apartment-dn
+version: "1.1.0"
+lastModified: "2026-06-20T05:11:10Z"
+url: https://community.simtropolis.com/files/file/36526-coco-hillstate-apartment/?do=download&r=218453
