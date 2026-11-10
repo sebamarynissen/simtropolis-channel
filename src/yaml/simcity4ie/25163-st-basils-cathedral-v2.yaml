@@ -1,0 +1,78 @@
+group: simcity4ie
+name: st-basils-cathedral-v2
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: St. Basil's Cathedral in Moscow, with an optional snow version
+  description: |-
+    The original Maxis building was lacking in detail, so I have recreated the exact building from floor plans in 3ds Max 2011.
+
+    **Stats**
+
+    - Landmark
+    - Lot size: 5x7
+    - Generic PIM-X tool stats
+
+    You can choose between the regular version and a version with snow with the `snow` variant.
+  author: SimCity4IE
+  websites:
+    - https://community.simtropolis.com/files/file/25163-st-basils-cathedral-v2-maxis/
+    - https://community.simtropolis.com/files/file/25140-st-basils-cathedral-v2-darknight/
+    - https://community.simtropolis.com/files/file/25142-st-basils-cathedral-v2-snow-maxis/
+    - https://community.simtropolis.com/files/file/25141-st-basils-cathedral-v2-snow-darknight/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0b42a59f0ffb4d3bdd600ed08a0cd360-basilday.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0b42a59f0ffb4d3bdd600ed08a0cd360-basilnight.jpg
+    - https://www.simtropolis.com/objects/screens/0015/80ea902e2299f3d9aee44bae8a7bcecc-stbasilsnight.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a5b1f3b084c9428d541f7c8830277ba0-Basil_Snow_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a5b1f3b084c9428d541f7c8830277ba0-Basil_Snow_Night.jpg
+variants:
+  - variant: { nightmode: standard, simcity4ie:st-basils-cathedral-v2:snow: "no" }
+    assets:
+      - assetId: simcity4ie-st-basils-cathedral-v2-maxis
+  - variant: { nightmode: dark, simcity4ie:st-basils-cathedral-v2:snow: "no" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: simcity4ie-st-basils-cathedral-v2-darknight
+  - variant: { nightmode: standard, simcity4ie:st-basils-cathedral-v2:snow: "yes" }
+    assets:
+      - assetId: simcity4ie-st-basils-cathedral-v2-snow-maxis
+  - variant: { nightmode: dark, simcity4ie:st-basils-cathedral-v2:snow: "yes" }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: simcity4ie-st-basils-cathedral-v2-snow-darknight
+variantInfo:
+  - variantId: simcity4ie:st-basils-cathedral-v2:snow
+    description: Choose whether the cathedral is covered in snow.
+    values:
+      - value: "no"
+        default: true
+        description: The regular cathedral
+      - value: "yes"
+        description: The cathedral covered in snow
+
+---
+assetId: simcity4ie-st-basils-cathedral-v2-maxis
+version: "1.0"
+lastModified: "2010-10-28T15:36:42Z"
+url: https://community.simtropolis.com/files/file/25163-st-basils-cathedral-v2-maxis/?do=download
+
+---
+assetId: simcity4ie-st-basils-cathedral-v2-darknight
+version: "1.0"
+lastModified: "2010-10-26T08:00:19Z"
+url: https://community.simtropolis.com/files/file/25140-st-basils-cathedral-v2-darknight/?do=download
+
+---
+assetId: simcity4ie-st-basils-cathedral-v2-snow-maxis
+version: "1.0"
+lastModified: "2010-10-26T12:54:37Z"
+url: https://community.simtropolis.com/files/file/25142-st-basils-cathedral-v2-snow-maxis/?do=download
+
+---
+assetId: simcity4ie-st-basils-cathedral-v2-snow-darknight
+version: "1.0"
+lastModified: "2010-10-26T11:44:54Z"
+url: https://community.simtropolis.com/files/file/25141-st-basils-cathedral-v2-snow-darknight/?do=download

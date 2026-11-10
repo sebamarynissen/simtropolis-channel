@@ -1,0 +1,42 @@
+group: simcity4ie
+name: the-spire-of-dublin
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: The Spire of Dublin ("Monument of Light"), a 1x1 landmark in HD
+  description: |-
+    This is a remake of the Dublin Spire by Glenni. Since his was four times larger than it actually is, I made it to its realistic size.
+
+    The landmark stands on O'Connell Street among the old buildings and picturesque statues in Dublin, Ireland. The Spire of Dublin, officially titled the "Monument of Light", or "An Túr Solais", is a large, stainless steel, pin-like monument 121.2 metres (398 ft) in height, located on the site of the former Nelson's Pillar on O'Connell Street in Dublin, Ireland. It was erected in 2003 to replace the previous location of Nelson's Pillar, which was blown up by the IRA in 1966. It has since won many awards for design.
+
+    **Stats**
+
+    - Landmark
+    - Lot size: 1x1
+    - HD
+    - PIM-X stats
+  author: SimCity4IE
+  website: https://community.simtropolis.com/files/file/28000-the-spire-of-dublin/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/9268e4426a855236c8688d1ab5792a23-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/6bcb2bd4ff2105c2f18942651c6e9357-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/083bd5ffab6a90e7fa8716e3f18774e8-3.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simcity4ie-the-spire-of-dublin
+        include:
+          - "/Maxis Night/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: simcity4ie-the-spire-of-dublin
+        include:
+          - "/Darknight/"
+
+---
+assetId: simcity4ie-the-spire-of-dublin
+version: "1.0"
+lastModified: "2012-09-07T21:44:17Z"
+url: https://community.simtropolis.com/files/file/28000-the-spire-of-dublin/?do=download

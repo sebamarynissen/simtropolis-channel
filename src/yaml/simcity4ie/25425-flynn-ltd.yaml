@@ -1,0 +1,33 @@
+group: simcity4ie
+name: flynn-ltd
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Flynn Inc, a modern Dutch/Japanese commercial office building
+  description: |-
+    Flynn Inc is a modern Dutch/Japanese commercial office building which doesn't exist in real life.
+
+    **Stats**
+
+    - CO$$$, stage 7
+    - Lot size: 10x3
+    - Generic PIM-X tool stats
+
+    This building only comes in a Dark Nite version.
+  author: SimCity4IE
+  website: https://community.simtropolis.com/files/file/25425-flynn-ltd-fixed-darknight/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/cc11e9d5fdead3b716c7249d00d25760-1111111111111111.jpg
+assets:
+  - assetId: simcity4ie-flynn-ltd
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: simcity4ie-flynn-ltd
+version: "2"
+lastModified: "2010-12-05T10:29:35Z"
+url: https://community.simtropolis.com/files/file/25425-flynn-ltd-fixed-darknight/?do=download
