@@ -1,0 +1,41 @@
+group: cobb
+name: luminary-exhibition
+version: "2"
+subfolder: 660-parks
+info:
+  summary: Luminary Exhibition, a large illuminated park
+  description: |-
+    A large park, ideal for a city center, with a diverse array of colors and flora on display. It is designed primarily for night-time display, but the exhibition's gazebos, arches, obelisks and gardens also make for a pleasant daytime appearance. It complements the smaller `pkg=cobb:luminary-park`.
+
+    The park is 10x4 in size and is found in the Landmarks menu. It functions like a landmark, with a YIMBY effect of 40 and a radius of 20.
+
+    The lot is also basically a prop pack. If you would like to use any of the illuminated props on different lots, please feel free to do so, but the author would appreciate credit if you upload them or otherwise prominently display them in an altered way.
+
+    Many thanks to Kd5rax and Brenda_Xne for modeling many of the trees, and to GOLDIVA for making her beautiful night textures available.
+
+    **Stats**
+
+    - Lot size: 10x4
+    - Plop cost: 26,000
+    - Monthly cost: 101
+
+    **What's new in v2**
+
+    - Fixed a small prop and prop family issue which caused a conflict with the later released obeliskfamily.dat and BSC Mega Props MISC vol02.
+    - The model and prop files are bundled together into a single `Cobb32118_Luminary_Exhibition_Props.dat`.
+    - Updated folder structure, and a small update and clean-up of the lot file.
+  author: Cobb32118
+  website: https://community.simtropolis.com/files/file/3441-the-cobb-luminary-exhibition/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/120fc4681e76541c2d9a57090a5fea0a-Cobb32118_Cobb_Luminary_Exhibition_jpg01.JPG
+    - https://www.simtropolis.com/objects/screens/0003/120fc4681e76541c2d9a57090a5fea0a-Cobb32118_Cobb_Luminary_Exhibition_jpg02.JPG
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: cobb-luminary-exhibition
+
+---
+assetId: cobb-luminary-exhibition
+version: "2"
+lastModified: "2023-01-26T13:32:20Z"
+url: https://community.simtropolis.com/files/file/3441-the-cobb-luminary-exhibition/?do=download

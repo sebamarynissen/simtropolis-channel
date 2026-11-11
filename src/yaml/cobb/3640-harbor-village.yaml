@@ -1,0 +1,104 @@
+group: cobb
+name: harbor-village
+version: "2"
+subfolder: 360-landmark
+info:
+  summary: Harbor Village, twelve landmark lots for a village in the water
+  description: |-
+    Twelve lots comprising a village that you can plop out in the water in any configuration you like.
+
+    Are your sims tired of their sim rat-race, and looking for a more tranquil retreat? Offer them an alternative with the Harbor Village.
+
+    The twelve lots are:
+
+    1. Large blue house
+    1. Medium red house
+    1. Small modern green house
+    1. Small cabin
+    1. Marketplace
+    1. Marina
+    1. Lighthouse
+    1. 2-tile dock
+    1. Corner dock
+    1. Center junction dock
+    1. End dock
+    1. Land/water junction
+
+    Version 2 is a major overhaul done entirely by Andreas Roth, who manages the website simszone.de. He made the power usage more reasonable, changed the query sound, and made very attractive and useful menu icons.
+
+    The lots cost 25 simoleans each to plop. They function only as landmarks and do not contain residents or jobs, so at this stage they are only for appearance. A growable version is unfortunately not possible for water lots. Water lots are difficult to position properly, so it may take some practice. Also note that the land/water junction lot may show up strangely unless your terrain is relatively low and level.
+
+    **Fixes by CorinaMarie and Cyclone Boom**
+
+    The original lots all have a base texture which shows through shallow water and goes wrong in data views, like the water bug. The tweaks created by Equinox for this are no longer available online, so CorinaMarie and Cyclone Boom made similar exemplar overrides in three options, which this package includes. You choose between them with the `tweaks` variant.
+
+    The package also includes an additional starter piece by CorinaMarie: a 1x3 land/water junction with a wood landing prop, as another option for visually connecting the village to streets or roads. Its specs match the `seaport-neutral` option, but it can be used with all of them. With the `landmarks` option, it is the only piece in the Seaport menu.
+
+    The building exemplars in the original `.SC4Desc` files are not referenced by any lot, so they are not installed.
+  author: Cobb32118, Andreas Roth, CorinaMarie, Cyclone Boom
+  websites:
+    - https://community.simtropolis.com/files/file/3640-harbor-village-by-cobb/
+    - https://community.simtropolis.com/forums/topic/761575-harbor-village-by-cobb-lost-tweaks-restored-by-cori-and-cb/
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2926eca58e1eac401a773e36ac5a56a0-Cobb32118_Harbor_Village_JPG01.JPG
+    - https://www.simtropolis.com/objects/screens/0006/2926eca58e1eac401a773e36ac5a56a0-Cobb32118_Harbor_Village_JPG02.JPG
+    - https://www.simtropolis.com/objects/attachments/monthly_2022_03/62374d65baece_07-CobbHarborVillage-LandWaterJunctions-7010b-556970.jpg.b183a614a3d25f99718b3e2c80b53547.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2022_03/62374d6b336d6_09-CobbHarborVillage-Option2-WaterTransMenu-7010b-5573.jpg.3d62771ce66789b41dffe9294b11abba.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2022_03/6239e1b0cf3a4_10-CobbStarterPiece02cwithWoodLandingMenu-7010b-5606.jpg.27506c434fee4cd0d7e6b088717be8ae.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2022_03/623ca3217fc74_17-Coris1x3StartersPloppedinWater-7010b-5632.jpg.21503dca74d88784365289f557712add.jpg
+assets:
+  - assetId: cobb-harbor-village
+    exclude:
+      - "_DESC\\.SC4Desc$"
+  - assetId: corinamarie-harbor-village-starter-piece
+variants:
+  - variant: { cobb:harbor-village:tweaks: landmarks }
+    assets:
+      - assetId: corinamarie-harbor-village-tweaks-landmarks
+  - variant: { cobb:harbor-village:tweaks: seaport-menu }
+    assets:
+      - assetId: corinamarie-harbor-village-tweaks-seaport-menu
+  - variant: { cobb:harbor-village:tweaks: seaport-neutral }
+    assets:
+      - assetId: corinamarie-harbor-village-tweaks-seaport-neutral
+variantInfo:
+  - variantId: cobb:harbor-village:tweaks
+    description: Choose the tweaks that are applied to the lots. All options remove the base textures in the water and add a 1x3 land/water junction without base texture.
+    values:
+      - value: landmarks
+        default: true
+        description: The lots stay in the Landmarks menu, as originally created, with the original specs. This is the quick fix, and the safest choice for cities that already contain the original lots.
+      - value: seaport-menu
+        description: Moves the lots to the Water Transportation menu, with the standard Maxis parks query window and the query sound and plop sound of the Maxis marina. The plop costs become $1 to $13 in the original menu order, and the lots can be renamed in the game. The budget item department, line and purpose are removed, as they no longer apply.
+      - value: seaport-neutral
+        description: Same as seaport-menu, and also sets the bulldoze cost to $1, removes all pollution, power consumption and flammability (the lots still need power for their night lights), and removes the landmark effect (+40 over 20 tiles) and the +10 mayor rating over 256 tiles. Only use this if you have never plopped the original lots.
+
+---
+assetId: cobb-harbor-village
+version: "2"
+lastModified: "2004-06-19T22:19:02Z"
+url: https://community.simtropolis.com/files/file/3640-harbor-village-by-cobb/?do=download
+
+---
+assetId: corinamarie-harbor-village-tweaks-landmarks
+version: "1"
+lastModified: "2022-03-20T20:49:33Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=84258
+
+---
+assetId: corinamarie-harbor-village-tweaks-seaport-menu
+version: "1"
+lastModified: "2022-03-20T20:49:33Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=84287
+
+---
+assetId: corinamarie-harbor-village-tweaks-seaport-neutral
+version: "1"
+lastModified: "2022-03-20T20:49:33Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=84288
+
+---
+assetId: corinamarie-harbor-village-starter-piece
+version: "1.1"
+lastModified: "2022-03-24T18:12:29Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=84420
