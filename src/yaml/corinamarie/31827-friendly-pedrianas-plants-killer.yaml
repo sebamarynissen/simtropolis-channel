@@ -1,0 +1,22 @@
+group: corinamarie
+name: friendly-pedrianas-plants-killer
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Stops Pedriana's Plants farms from growing without side effects
+  description: |-
+    This mod stems from the discussion in the topic [Pedriana Plants Killer Modd - Buggy Water Zots?](https://community.simtropolis.com/forums/topic/73576-pedriana-plants-killer-modd-buggy-water-zots/). I discovered that while the [Pedriana Plants Killer Modd](https://community.simtropolis.com/files/file/12416-pedriana-plants-killer-modd/) does prevent new ones from growing, it has two side effects that are not mentioned. Namely, because the 5 base lots it blocks are set to either stage 15 or stage 255, this prevents those lots from being used by other farms as well. Also, as twalsh102 discovered in the aforementioned thread, this causes them to be above the stage 3 cap for requiring water. So, existing Pedriana's Plants that were already grown and doing fine will then need a water connection with that mod installed.
+
+    I went a completely different route and simply extracted the single building exemplar and changed the OccupantGroups to `0x00001006` (Building:Park), such that it will no longer grow, but also there are no ill side effects to the existing ones in the game.
+  author: CorinaMarie
+  website: https://community.simtropolis.com/files/file/31827-coris-friendly-pedrianas-plants-killer/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/img1202.jpg.b2280264e87d240c616922678534a391.jpg
+assets:
+  - assetId: corinamarie-friendly-pedrianas-plants-killer
+
+---
+assetId: corinamarie-friendly-pedrianas-plants-killer
+version: "1.0"
+lastModified: "2017-06-27T17:21:42Z"
+url: https://community.simtropolis.com/files/file/31827-coris-friendly-pedrianas-plants-killer/?do=download
