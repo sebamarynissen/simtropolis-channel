@@ -1,0 +1,89 @@
+group: jp-schriefer
+name: 477-madison-avenue
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Modernist high-rise in Manhattan in Landmark and Commercial Office versions
+  description: |-
+    **477 Madison Avenue** is a 23-story high-rise modernist building located in Manhattan, New York City, built in 1953.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office. Both are corner models.
+
+    With the custom LODs it's possible to add furniture as props on the terraces in case anyone wants to do it.
+
+    *Landmark*
+
+    - Plop cost: 100,000
+    - Lot size: 2x3
+
+    *Commercial Office*
+
+    - Lot size: 2x3
+    - CO$$$: 5,000
+    - CO$$: 7,000
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/32689-477-madison-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/1.png.33d58c1561bdb132cb3b665e6f67538e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/3.png.02e41c9674753f8eff43926e307fc9e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/4.png.95c92d6d60c795426ff39ab89b3260d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5.png.7adbc1e07e67743377fd917492b1f1e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/6.png.b94c0e5f29d3310723733f772bcab9a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/7.png.4e2d5395522382779a33cabc94b19b38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/8.png.7d97987d049bb39d8705d2a5a0fe31a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/9.jpg.792db3a7659b04bfcec345467b329b46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/11.jpg.2615734267a86a5f412277af38a26255.jpg
+dependencies:
+  - jp-schriefer:477-madison-avenue-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-477-madison-avenue-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-477-madison-avenue-commercial-office-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: 477-madison-avenue-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:477-madison-avenue`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/32689-477-madison-avenue/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-477-madison-avenue-commercial-office-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-477-madison-avenue-commercial-office-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-477-madison-avenue-landmark-mn
+version: "1.0"
+lastModified: "2018-12-31T05:22:16Z"
+url: https://community.simtropolis.com/files/file/32689-477-madison-avenue/?do=download&r=174101
+
+---
+assetId: jp-schriefer-477-madison-avenue-commercial-office-mn
+version: "1.0"
+lastModified: "2018-12-31T05:22:16Z"
+url: https://community.simtropolis.com/files/file/32689-477-madison-avenue/?do=download&r=174103
+
+---
+assetId: jp-schriefer-477-madison-avenue-commercial-office-dn
+version: "1.0"
+lastModified: "2018-12-31T05:22:16Z"
+url: https://community.simtropolis.com/files/file/32689-477-madison-avenue/?do=download&r=174104

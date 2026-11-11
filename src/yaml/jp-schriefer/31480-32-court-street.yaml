@@ -1,0 +1,85 @@
+group: jp-schriefer
+name: 32-court-street
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Colonial revival building in Brooklyn in Landmark and Commercial Office versions
+  description: |-
+    Located in the Brooklyn neighborhood of New York City, the colonial revival building at **32 Court Street** was built in 1918 and has been home to commercial offices ever since. The building was designed by the firm Starrett & Van Vleck and it was regarded at the time as Brooklyn's first true skyscraper.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office. It is a W2W corner building.
+
+    *Landmark*
+
+    - Plop cost: 20,000
+    - Lot size: 1x2
+
+    *Commercial Office*
+
+    - Lot size: 1x2
+    - CO$$$: 400
+    - CO$$: 550
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31480-32-court-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/CS1.png.0bba25bb4f38f6d0e32ec0a75f69ef92.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/CS2.png.6682384e89437a0db5659a10f2e04d5d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/CS3.png.3849f6e9ad70bcac5cad021ecc3b9ed0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/CS4.png.aa6f1217a794ecc50947725a9e947399.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/CS5.png.bb16e1442c7ac9fe9a9ce00272d4299b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/CS6.png.f3a40d9bc7f6f793ad1b2965534666ed.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/CS7.png.31e7a47aaebba299c87d2f24d71abe25.png
+dependencies:
+  - jp-schriefer:32-court-street-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-32-court-street-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-32-court-street-commercial-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: 32-court-street-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:32-court-street`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31480-32-court-street/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-32-court-street-commercial-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-32-court-street-commercial-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-32-court-street-landmark-mn
+version: "1.0"
+lastModified: "2017-02-26T02:41:34Z"
+url: https://community.simtropolis.com/files/file/31480-32-court-street/?do=download&r=164699
+
+---
+assetId: jp-schriefer-32-court-street-commercial-mn
+version: "1.0"
+lastModified: "2017-02-26T02:41:34Z"
+url: https://community.simtropolis.com/files/file/31480-32-court-street/?do=download&r=164700
+
+---
+assetId: jp-schriefer-32-court-street-commercial-dn
+version: "1.0"
+lastModified: "2017-02-26T02:41:34Z"
+url: https://community.simtropolis.com/files/file/31480-32-court-street/?do=download&r=164702

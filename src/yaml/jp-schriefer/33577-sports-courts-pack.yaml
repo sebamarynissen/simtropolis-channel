@@ -1,0 +1,71 @@
+group: jp-schriefer
+name: sports-courts-pack
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: 11 ploppable sports courts from a school in Belo Horizonte
+  description: |-
+    This pack contains some sports courts from Loyola Elementary and High School, located in Belo Horizonte, Brazil, throughout the years of 2011, 2012 and 2018.
+
+    This is the first time I used PIM-X, iLive Reader and LEProp to make custom content, so in case you find any issues, let me know.
+
+    **Information**
+
+    There are 11 lots in this pack: 3 versions of the Volleyball Court, 3 versions of the Small Sports Court, 2 versions of the Big Sports Court, 1 Synthetic Turf Field, 1 Sports Court with Parking and 1 adaptation of the latter.
+
+    - Volleyball Court (all versions): plop cost 100, lot size 1x2
+    - Small Sports Court (all versions): plop cost 180, lot size 2x2
+    - Big Sports Court (both versions): plop cost 260, lot size 2x3
+    - Synthetic Turf Field: plop cost 260, lot size 3x2
+    - Sports Court with Parking: plop cost 380, lot size 3x3
+    - Sports Court with Parking v.2: plop cost 260, lot size 3x2
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/33577-sports-courts-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/CQL1.png.404c9474d724db0c4936b473186d07c3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/CQL3.jpg.619346d0eae8a80cfad86fdffc5c4e81.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/CQL4.jpg.1e1946d5347dc2c7c341975022a73ec8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/CQL5.jpg.c8d96a7108a4aca875d50a182cbd0bb1.jpg
+dependencies:
+  - jp-schriefer:sports-courts-pack-models
+  - shk:parking-pack
+# The lots are identical for Maxis Nite and Dark Nite, only the models differ.
+assets:
+  - assetId: jp-schriefer-sports-courts-pack-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: sports-courts-pack-models
+version: "1.1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:sports-courts-pack`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/33577-sports-courts-pack/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-sports-courts-pack-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-sports-courts-pack-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-sports-courts-pack-mn
+version: "1.1"
+lastModified: "2020-04-30T03:00:12Z"
+url: https://community.simtropolis.com/files/file/33577-sports-courts-pack/?do=download&r=180867
+
+---
+assetId: jp-schriefer-sports-courts-pack-dn
+version: "1.1"
+lastModified: "2020-04-30T03:00:12Z"
+url: https://community.simtropolis.com/files/file/33577-sports-courts-pack/?do=download&r=180868

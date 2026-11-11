@@ -1,0 +1,100 @@
+group: jp-schriefer
+name: 261-5th-avenue
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Art deco high-rise in New York City in Landmark and Commercial Office versions
+  description: |-
+    **261 5th Avenue** is a 26-story high-rise building located in New York City, U.S. Built in 1929 in art deco style, the building offers several commercial offices.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office. Both are W2W.
+
+    *Landmark*
+
+    - Plop cost: 100,000
+    - Lot size: 3x2
+
+    *Commercial Office*
+
+    - Lot size: 3x2
+    - CO$$$: 6,000
+    - CO$$: 8,000
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31864-261-5th-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/7.png.f6c051e388d7efddf0e2c536cb34c47f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/1.png.8da18add1ecdcbe4e35cac5a7f02f0de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/2.png.49f869991fff618922a857b09ebc4294.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/3.png.766305ad631c3730b151ba1777c9d29e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/4.png.e3f602de23b50ccd171d2f232608165f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/5.png.5f167d004926369cc1c027ef15ee0171.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/6.png.a99e668915fbf802090e89e62ecb000e.png
+dependencies:
+  - jp-schriefer:261-5th-avenue-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-261-5th-avenue-landmark-mn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-261-5th-avenue-commercial-office-mn
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: jp-schriefer-261-5th-avenue-landmark-dn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-261-5th-avenue-commercial-office-dn
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: 261-5th-avenue-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:261-5th-avenue`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31864-261-5th-avenue/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-261-5th-avenue-commercial-office-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-261-5th-avenue-commercial-office-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-261-5th-avenue-landmark-mn
+version: "1.0"
+lastModified: "2017-07-20T21:29:57Z"
+url: https://community.simtropolis.com/files/file/31864-261-5th-avenue/?do=download&r=167625
+
+---
+assetId: jp-schriefer-261-5th-avenue-landmark-dn
+version: "1.0"
+lastModified: "2017-07-20T21:29:57Z"
+url: https://community.simtropolis.com/files/file/31864-261-5th-avenue/?do=download&r=167626
+
+---
+assetId: jp-schriefer-261-5th-avenue-commercial-office-mn
+version: "1.0"
+lastModified: "2017-07-20T21:29:57Z"
+url: https://community.simtropolis.com/files/file/31864-261-5th-avenue/?do=download&r=167627
+
+---
+assetId: jp-schriefer-261-5th-avenue-commercial-office-dn
+version: "1.0"
+lastModified: "2017-07-20T21:29:57Z"
+url: https://community.simtropolis.com/files/file/31864-261-5th-avenue/?do=download&r=167628

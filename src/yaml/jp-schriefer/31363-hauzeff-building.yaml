@@ -1,0 +1,93 @@
+group: jp-schriefer
+name: hauzeff-building
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Hauzeff Building in a fictional city in Landmark and Commercial Office versions
+  description: |-
+    The **Hauzeff Geiblesteg** (Hauzeff Building) is a building situated in the fictional city of Molching Feinßed, the capital of Molching. The building, designed by Abraham Schwens, was completed in 1922 and has consistently served as the home to various law firms.
+
+    **Information**
+
+    The model comes in two versions: Landmark and Commercial Office, both of which are corner W2W models.
+
+    *Commercial Office*
+
+    - CO$$: 442
+    - Stage: 8 (regular); 9 (CAM)
+    - Lot size: 1x2
+    - Tileset: New York
+
+    *Landmark (eye candy)*
+
+    - Plop cost: $69,600
+    - Lot size: 1x2
+
+    *Landmark (with jobs)*
+
+    - Plop cost: $9,436
+    - CO$$: 442
+    - Lot size: 1x2
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31363-hauzeff-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Thumb.png.e349a5e1e3a7aa976bb7c9a03b5775bc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5827d32c716d4_NewCity-Feb.29001479003649.png.db0581cf905d641a39bde0bc93ef281a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5827d3340f982_NewCity-Feb.29001479003676.png.772ea3e0533f16ddfd676c0c56e54eb1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/5827d33a678f4_NewCity-Feb.29001479004537.png.24b3cc57eb956c608dfa6662a674e9b6.png
+dependencies:
+  - jp-schriefer:hauzeff-building-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: jp-schriefer-hauzeff-building-regular-mn
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: jp-schriefer-hauzeff-building-cam-mn
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: hauzeff-building-model
+version: "1.1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:hauzeff-building`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31363-hauzeff-building/
+# The model is identical for the regular and the CAM version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-hauzeff-building-regular-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-hauzeff-building-regular-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-hauzeff-building-regular-mn
+version: "1.1"
+lastModified: "2023-09-23T18:15:30Z"
+url: https://community.simtropolis.com/files/file/31363-hauzeff-building/?do=download&r=197825
+
+---
+assetId: jp-schriefer-hauzeff-building-regular-dn
+version: "1.1"
+lastModified: "2023-09-23T18:15:30Z"
+url: https://community.simtropolis.com/files/file/31363-hauzeff-building/?do=download&r=197826
+
+---
+assetId: jp-schriefer-hauzeff-building-cam-mn
+version: "1.1"
+lastModified: "2023-09-23T18:15:30Z"
+url: https://community.simtropolis.com/files/file/31363-hauzeff-building/?do=download&r=197827

@@ -1,0 +1,86 @@
+group: jp-schriefer
+name: continental-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Continental Tower of the Cidade Jardim Corporate Center in São Paulo in Landmark and Commercial Office versions
+  description: |-
+    The **Continental Tower** is a 30-story high-rise building in São Paulo, SP, Brazil. The postmodernist building is part of a complex, the Cidade Jardim Corporate Center, of 3 commercial buildings, 9 residential buildings and 1 mall, finished in 2009.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office.
+
+    *Landmark*
+
+    - Plop cost: 45,000
+    - Lot size: 3x4
+
+    *Commercial Office*
+
+    - Lot size: 3x4
+    - CO$$$: 4,500
+    - CO$$: 6,500
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31594-continental-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT1.png.f1efceede742e156f770ce10b29a8357.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT2.jpg.0d98a171995160afa9785de6cc42b385.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT3.jpg.51c6236fd3709a06c82c44d6163a5245.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT4.png.c55bfa24119cd09c3f0d019efc4c4d10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT5.png.d3189c1d32f014de734f150090308f1d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT6.png.68790989ba263cd895f2afff6033ab05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT7.png.b516c9e1634a91c4bdf628d2026fc359.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CT8.jpg.ccc6e4908264ed7ff85a99910314d1b3.jpg
+dependencies:
+  - jp-schriefer:continental-tower-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-continental-tower-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-continental-tower-commercial-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: continental-tower-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:continental-tower`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31594-continental-tower/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-continental-tower-commercial-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-continental-tower-commercial-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-continental-tower-landmark-mn
+version: "1.0"
+lastModified: "2017-04-29T01:04:52Z"
+url: https://community.simtropolis.com/files/file/31594-continental-tower/?do=download&r=165589
+
+---
+assetId: jp-schriefer-continental-tower-commercial-mn
+version: "1.0"
+lastModified: "2017-04-29T01:04:52Z"
+url: https://community.simtropolis.com/files/file/31594-continental-tower/?do=download&r=165590
+
+---
+assetId: jp-schriefer-continental-tower-commercial-dn
+version: "1.0"
+lastModified: "2017-04-29T01:04:52Z"
+url: https://community.simtropolis.com/files/file/31594-continental-tower/?do=download&r=165592

@@ -1,0 +1,99 @@
+group: jp-schriefer
+name: magnolia-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Beaux-Arts building in Dallas in Landmark and Commercial Service versions
+  description: |-
+    The **Magnolia Building**, also called the Magnolia Petroleum Building and currently Magnolia Hotel, is an iconic building in the city of Dallas, TX, USA. Built in 1921 in the Beaux-Arts style, the building has had the Pegasus horse at the top since 1934, the logo of the Magnolia Petroleum Company and later also of Mobil Oil when they merged. The Pegasus became a symbol of the city.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Service.
+
+    *Landmark*
+
+    - Plop cost: 50,000
+    - Lot size: 3x2
+
+    *Commercial Service*
+
+    - Lot size: 3x2
+    - C$$$: 4,000
+    - C$$: 5,000
+    - C$: 6,000
+
+    The sculpture at the building entrance was made by Reddonquixote.
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/30908-magnolia-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Capa.png.c818e108f2e036e5c3a96bec8c48f0f1.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/568d908739d75_BeautifulHorizon-14Ago.001452114572.png.4ee3c1694d3f13f806eb027ed5bcc273.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/568d90ab30b16_MagnoliaBuilding.jpg.4ad99132849eedaf0a41e5d719cee0a1.jpg
+dependencies:
+  - jp-schriefer:magnolia-building-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-magnolia-building-landmark-mn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-magnolia-building-commercial-mn
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: jp-schriefer-magnolia-building-landmark-dn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-magnolia-building-commercial-dn
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: magnolia-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:magnolia-building`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/30908-magnolia-building/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-magnolia-building-commercial-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-magnolia-building-commercial-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-magnolia-building-landmark-mn
+version: "1.0"
+lastModified: "2016-01-06T22:15:23Z"
+url: https://community.simtropolis.com/files/file/30908-magnolia-building/?do=download&r=160253
+
+---
+assetId: jp-schriefer-magnolia-building-commercial-mn
+version: "1.0"
+lastModified: "2016-01-06T22:15:23Z"
+url: https://community.simtropolis.com/files/file/30908-magnolia-building/?do=download&r=160254
+
+---
+assetId: jp-schriefer-magnolia-building-landmark-dn
+version: "1.0"
+lastModified: "2016-01-06T22:15:23Z"
+url: https://community.simtropolis.com/files/file/30908-magnolia-building/?do=download&r=160255
+
+---
+assetId: jp-schriefer-magnolia-building-commercial-dn
+version: "1.0"
+lastModified: "2016-01-06T22:15:23Z"
+url: https://community.simtropolis.com/files/file/30908-magnolia-building/?do=download&r=160256

@@ -1,0 +1,89 @@
+group: jp-schriefer
+name: habibs
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Habib's fast food restaurant in Belo Horizonte as Landmark (SD and HD) and growable CS$$
+  description: |-
+    **Habib's** is a Brazilian fast food company that is specialized in Middle Eastern cuisine. It has more than 475 outlets (many of them self-owned) across the country and has recently begun expansion into foreign markets. It is known for its very low prices and exotic dishes. Middle Eastern dishes are very popular in Brazil since people from that area, particularly Lebanon and Syria, immigrated to Brazil, despite their numbers being less than 0.48% of the overall population.
+
+    This BAT was suggested by Bastet69008. It is located in Belo Horizonte, Brazil.
+
+    **Information**
+
+    *Landmark SD and HD*
+
+    - Lot size: 2x2
+    - Plop cost: $10,000
+
+    *Growable CS$$*
+
+    - Lot size: 2x2
+    - Jobs: CS$$ = 30 / CS$ = 60
+
+    There are also some cars as props in the drive-thru.
+
+    The lot was made with custom LODs around the building, which means you can edit it in Lot Editor the way you like it.
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/30085-habibs/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/0637c1475efe23ec3eca0bedaa28c641-99.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/e009aecaed0559b2a2ff5387f6bce1ba-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/b4b15aafe8d4f8297addaa4f9fc6af84-2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/f29ab2ea73e43d3194eb9435b141d9c9-3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/cdcd168aa837c92b55e44dea748bef71-5.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/8b21202ce70b009b20f6cc4c89c1b78d-4.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/4b00ceb7ff6f96e9e82b58c0768ed0a7-6.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/7462869e8ef64d1e4e58962fd022314e-106.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/b31a8dfcb3aec125fe2e851e35b40f1f-107.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/01360ae36970f680f8380fcf13ec3815-108.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/9fd19df15ccce348f553dd470ec8be6e-109.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-habibs-hd-mn
+      - assetId: jp-schriefer-habibs-landmark-sd-mn
+      - assetId: jp-schriefer-habibs-commercial-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-habibs-hd-dn
+      - assetId: jp-schriefer-habibs-landmark-sd-dn
+      - assetId: jp-schriefer-habibs-commercial-dn
+
+---
+assetId: jp-schriefer-habibs-hd-dn
+version: "1.0"
+lastModified: "2015-01-10T06:23:08Z"
+url: https://community.simtropolis.com/files/file/30085-habibs/?do=download&r=146884
+
+---
+assetId: jp-schriefer-habibs-hd-mn
+version: "1.0"
+lastModified: "2015-01-10T06:23:08Z"
+url: https://community.simtropolis.com/files/file/30085-habibs/?do=download&r=146885
+
+---
+assetId: jp-schriefer-habibs-landmark-sd-dn
+version: "1.0"
+lastModified: "2015-01-10T06:23:08Z"
+url: https://community.simtropolis.com/files/file/30085-habibs/?do=download&r=146886
+
+---
+assetId: jp-schriefer-habibs-landmark-sd-mn
+version: "1.0"
+lastModified: "2015-01-10T06:23:08Z"
+url: https://community.simtropolis.com/files/file/30085-habibs/?do=download&r=146887
+
+---
+assetId: jp-schriefer-habibs-commercial-dn
+version: "1.0"
+lastModified: "2015-01-10T06:23:08Z"
+url: https://community.simtropolis.com/files/file/30085-habibs/?do=download&r=146888
+
+---
+assetId: jp-schriefer-habibs-commercial-mn
+version: "1.0"
+lastModified: "2015-01-10T06:23:08Z"
+url: https://community.simtropolis.com/files/file/30085-habibs/?do=download&r=146889

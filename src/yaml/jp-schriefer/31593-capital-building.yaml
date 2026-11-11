@@ -1,0 +1,86 @@
+group: jp-schriefer
+name: capital-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Capital Building of the Cidade Jardim Corporate Center in São Paulo in Landmark and Commercial Office versions
+  description: |-
+    The **Capital Building** is a 30-story high-rise building in São Paulo, SP, Brazil. The postmodernist building is part of a complex, the Cidade Jardim Corporate Center, of 3 commercial buildings, 9 residential buildings and 1 mall, finished in 2009.
+
+    **Information**
+
+    The model is available in two versions: Landmark and Commercial Office.
+
+    *Landmark*
+
+    - Plop cost: 32,000
+    - Lot size: 3x2
+
+    *Commercial Office*
+
+    - Lot size: 3x2
+    - CO$$$: 3,000
+    - CO$$: 5,000
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31593-capital-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB1.png.4b68fad517576edd8328561f0f563727.png
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB2.png.0bcbb900e0e32fa85a0b70e41c8fcb38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB3.png.e2f07dc00bd59fd943732f5d3a19b97a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB4.png.5b9bae7cc75c9b54ce3dd1e20da5f09b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB5.png.d3e812239e8efca9abc3b1e42a22d38c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB6.png.63673501dcb3a555f23d59cf70843ce6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB7.png.2fcc2f65b9ae0e885f1e2686289d75cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/CB8.jpg.6b455f415e259ed42499eb9de59ed17c.jpg
+dependencies:
+  - jp-schriefer:capital-building-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+assets:
+  - assetId: jp-schriefer-capital-building-landmark-mn
+    exclude:
+      - "\\.SC4Model$"
+  - assetId: jp-schriefer-capital-building-commercial-mn
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: capital-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:capital-building`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/31593-capital-building/
+# The model is identical for the commercial and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-capital-building-commercial-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-capital-building-commercial-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-capital-building-landmark-mn
+version: "1.0"
+lastModified: "2017-04-28T23:06:40Z"
+url: https://community.simtropolis.com/files/file/31593-capital-building/?do=download&r=165565
+
+---
+assetId: jp-schriefer-capital-building-commercial-mn
+version: "1.0"
+lastModified: "2017-04-28T23:06:40Z"
+url: https://community.simtropolis.com/files/file/31593-capital-building/?do=download&r=165566
+
+---
+assetId: jp-schriefer-capital-building-commercial-dn
+version: "1.0"
+lastModified: "2017-04-28T23:06:40Z"
+url: https://community.simtropolis.com/files/file/31593-capital-building/?do=download&r=165568

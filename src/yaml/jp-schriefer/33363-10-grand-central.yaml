@@ -1,0 +1,99 @@
+group: jp-schriefer
+name: 10-grand-central
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Art deco skyscraper in Manhattan in Landmark and Commercial Office versions
+  description: |-
+    **10 Grand Central**, formerly known as the Daily Commerce Building and situated at 708 3rd Avenue, stands as a magnificent 35-story skyscraper in the heart of midtown Manhattan, New York City. This iconic art deco masterpiece, designed by the renowned architect Ely Jacques Kahn, was completed in 1931 and continues to be a symbol of architectural elegance. Offering a range of commercial office spaces, it blends timeless design with modern functionality, making it a prestigious address for businesses in the bustling metropolis of New York City.
+
+    **Information**
+
+    The model comes in two versions: Landmark and Commercial Office, both of which are corner W2W models. With the option for custom LODs, you can add furniture as props to the terraces if desired.
+
+    *Commercial Office*
+
+    - CO$$$: 1,479
+    - CO$$: 2,113
+    - Stage: 8 (regular); 9 (CAM)
+    - Lot size: 3x2
+    - Tileset: New York
+
+    *Landmark (eye candy)*
+
+    - Plop cost: $202,400
+    - Lot size: 3x2
+
+    *Landmark (with jobs)*
+
+    - Plop cost: $31,654
+    - CO$$$: 1,479
+    - CO$$: 2,113
+    - Lot size: 3x2
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/33363-10-grand-central/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/1.png.3ef4184b10c554e7165b5cd9afa6f4e5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/2.png.ff3e84a584324f9e823cdaa31a7d6e00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/3.jpg.70c60d997464f03a6417c912df084943.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/4.png.8a536de298f226ae06493d1a1956e26f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/5.png.96cefd6f16f398e067efe38e7136b554.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/6.png.fba5bb85bc6994090ca8b97cf49d80d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/7.png.65597954d4b38cedea0edefce9f52741.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/8.jpg.d923122a25bf4b16aa0f59f900459df2.jpg
+dependencies:
+  - jp-schriefer:10-grand-central-model
+# The lots are identical for Maxis Nite and Dark Nite, only the model differs.
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: jp-schriefer-10-grand-central-regular-mn
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: jp-schriefer-10-grand-central-cam-mn
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: 10-grand-central-model
+version: "1.1"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:10-grand-central`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/33363-10-grand-central/
+# The model is identical for the regular and the CAM version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-10-grand-central-regular-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-10-grand-central-regular-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-10-grand-central-regular-mn
+version: "1.1"
+lastModified: "2023-09-20T02:51:33Z"
+url: https://community.simtropolis.com/files/file/33363-10-grand-central/?do=download&r=197766
+
+---
+assetId: jp-schriefer-10-grand-central-regular-dn
+version: "1.1"
+lastModified: "2023-09-20T02:51:33Z"
+url: https://community.simtropolis.com/files/file/33363-10-grand-central/?do=download&r=197767
+
+---
+assetId: jp-schriefer-10-grand-central-cam-mn
+version: "1.1"
+lastModified: "2023-09-20T02:51:33Z"
+url: https://community.simtropolis.com/files/file/33363-10-grand-central/?do=download&r=197768

@@ -1,0 +1,100 @@
+group: jp-schriefer
+name: porthos-building
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Porthos tower in Eindhoven in Landmark and Residential versions
+  description: |-
+    **Porthos** is the 2nd tallest building in the city of Eindhoven and the 44th tallest building in the Netherlands, at 101 meters high.
+
+    **Information**
+
+    There is a landmark version and a residential version of this model.
+
+    *Landmark (non-functional)*
+
+    - Plop cost: 30,000
+    - Lot size: 2x2
+
+    *Residential (R$$$), growable*
+
+    - Occupants: 350 ($$$), 500 ($$), 650 ($)
+    - Lot size: 2x2
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/30727-porthos-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/1.png.1337585724bb7caa36e8b5dc38c03a13.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/2.jpg.88c3e851940a189a7c43807ab5e015c8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/3.png.945b7f0974897de87a25f2583f4ed589.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/4.png.11d6c86d2f0c59b9ed4d5f0ce800c649.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/5.png.db964679352a143fa4a2d1be756f0100.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/6.png.f4bdb6e7496588e73cfd06d6613623a2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/7.png.33d7404c4e820dcd8daab6876b23d085.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/8.png.7b2cb5d107931ee38230ef6ccdcbf73e.png
+dependencies:
+  - jp-schriefer:porthos-building-model
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-porthos-building-landmark-mn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-porthos-building-residential-mn
+        exclude:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: jp-schriefer-porthos-building-landmark-dn
+        exclude:
+          - "\\.SC4Model$"
+      - assetId: jp-schriefer-porthos-building-residential-dn
+        exclude:
+          - "\\.SC4Model$"
+
+---
+group: jp-schriefer
+name: porthos-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jp-schriefer:porthos-building`
+  author: JP Schriefer
+  website: https://community.simtropolis.com/files/file/30727-porthos-building/
+# The model is identical for the residential and the landmark version.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: jp-schriefer-porthos-building-residential-mn
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: jp-schriefer-porthos-building-residential-dn
+        include:
+          - "\\.SC4Model$"
+
+---
+assetId: jp-schriefer-porthos-building-landmark-dn
+version: "1.0"
+lastModified: "2015-08-14T04:29:16Z"
+url: https://community.simtropolis.com/files/file/30727-porthos-building/?do=download&r=158687
+
+---
+assetId: jp-schriefer-porthos-building-residential-dn
+version: "1.0"
+lastModified: "2015-08-14T04:29:16Z"
+url: https://community.simtropolis.com/files/file/30727-porthos-building/?do=download&r=158688
+
+---
+assetId: jp-schriefer-porthos-building-landmark-mn
+version: "1.0"
+lastModified: "2015-08-14T04:29:16Z"
+url: https://community.simtropolis.com/files/file/30727-porthos-building/?do=download&r=158689
+
+---
+assetId: jp-schriefer-porthos-building-residential-mn
+version: "1.0"
+lastModified: "2015-08-14T04:29:16Z"
+url: https://community.simtropolis.com/files/file/30727-porthos-building/?do=download&r=158690
