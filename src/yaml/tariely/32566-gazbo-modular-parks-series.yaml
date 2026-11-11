@@ -77,6 +77,8 @@ assets:
   - assetId: tariely-gazbo-modular-parks-series
     exclude:
       - "/Ftexture\\.dat$"
+      # Older alternatives of the ADDGazbo lots with the same lot IDs
+      - "/Addons ALT check/"
       # corrupted lots, replaced by the fixed versions of the second asset
       - "/TL-GazboPaths Gravelle End Plaza Large_68ab09b6\\.SC4Lot$"
       - "/TL-GazboPaths Sand Pg WSandPark A_a8ac4a9c\\.SC4Lot$"

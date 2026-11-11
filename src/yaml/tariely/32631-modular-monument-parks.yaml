@@ -50,6 +50,8 @@ assets:
   - assetId: tariely-modular-monument-parks
     exclude:
       - "/merged\\.dat$"
+      # Same lot ID as TL-PG-MP_bicycle-shed 2x2, only the lot name differs
+      - "/TL-PG-MP_plaza bicycle-shed 2x2_86f4c047\\.SC4Lot$"
 
 ---
 assetId: tariely-modular-monument-parks
