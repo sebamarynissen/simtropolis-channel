@@ -1,6 +1,6 @@
 group: rj-simas
 name: modern-camera
-version: "1.0.4"
+version: "2.0.0"
 subfolder: 150-mods
 info:
   summary: SC4 Modern Camera
@@ -24,6 +24,20 @@ info:
 
     The ***settings window*** can switch between Modern and Classic camera mode in real time, reset the camera location, show the changelog, and open Advanced Settings for redraw aggression and diagnostics logging.  
       
+    **What's new in 2.0.0**
+
+    Major release 2.0.0! Here are some of the key features (the full list is in the [release notes on GitHub](https://github.com/UncleUncleRj/SC4-ModernCamera/releases/tag/v2.0.0)):
+
+    -   Camera bookmarks: Ctrl+1 to Ctrl+8 saves a view, and 1 to 8 jumps back to it. Each city keeps its own.
+    -   ALT quick view: hold ALT to glide to the nearest Classic angle and zoom. Let go to spring back or stay where you are.
+    -   Q/E rotation: hold Q or E to turn the camera in Modern mode.
+    -   New camera tuning: Q/E speed, Shift pan boost, Smooth or Stepped wheel zoom, and invert options for Q/E and the wheel.
+    -   Console codes for every option: press Ctrl+X and type `ModernCamera` or `ModernCameraFix` (more are listed on GitHub).
+    -   Update notices in the news ticker when a new version comes out.
+    -   A new Help window that explains every option.
+    -   New camera activation button: click its small light to switch Modern Camera on and off without entering the menu.
+    -   Lots of bug fixes: U-Drive-It, right-click scrolling, performance and more.
+
     If you enjoy the plugin, *please leave a review!*  
       
     **Discuss the plugin on the forums:**
@@ -43,13 +57,13 @@ assets:
   - assetId: rj-simas-sc4-modern-camera
     withChecksum:
       - include: /SC4-ModernCamera.dll
-        sha256: d890a6c31175af5ce213b5997997540c5be63a39e578c9e57ac1a225eeaff220
+        sha256: edfe2ed59e09241fe24f62164e6fc65fe89da1b05ab57c3bfce390bf28286ba5
       - include: /SC4-ModernCamera.dat
-        sha256: 610d891bcacf580259cd11d3b6196186d908fba907602b923d0819f7ca05d599
+        sha256: 962730677c3395c31b0e1215b740ed08c5072e2e927061be9e8de4c02d3f388f
 
 ---
 assetId: rj-simas-sc4-modern-camera
-version: "1.0.4"
-lastModified: "2026-07-03T02:20:21Z"
-url: https://github.com/UncleUncleRj/SC4-ModernCamera/releases/download/v1.0.4/SC4-ModernCamera_1_0_4.zip
-nonPersistentUrl: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download&r=219820
+version: "2.0.0"
+lastModified: "2026-11-10T06:17:54Z"
+url: https://github.com/UncleUncleRj/SC4-ModernCamera/releases/download/v2.0.0/SC4-ModernCamera_2_0_0.zip
+nonPersistentUrl: https://community.simtropolis.com/files/file/37462-sc4-modern-camera/?do=download
