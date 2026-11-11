@@ -1,0 +1,76 @@
+group: sammu
+name: department-of-efficiency
+version: "1.0.2"
+subfolder: 150-mods
+dependencies:
+  - config:sc4-edition-windows-digital
+assets:
+  - assetId: sammu-department-of-efficiency
+    withChecksum:
+      - include: "/DepartmentEfficiency.dll"
+        sha256: DE34CFF51357E6C7BAC2A22D3CFBB1A1A662F9E7F0B1C104519C2BA8A3059155
+      - include: "/DepartmentEfficiency.dat"
+        sha256: 889D2BCEA8190E99CC7F25CE66C71761E9F866D46DE477920C2F4DB20AE89461
+      - include: "/DepartmentEfficiency.ini"
+        sha256: 0F506C7F8C29F5B4EEE540F756C43EEA720D22315C8607F6EC9055C81D3B6B05
+        isIni: true
+info:
+  summary: Automatically manages service funding, neighbor deals and the demolition of ruins
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  warning: The Department is enabled by default, including automatic demolition. Review the Demolition settings before opening a city that contains destroyed or abandoned buildings you want to preserve.
+  description: |-
+    Spend less time managing budgets, and more time building your city.
+
+    Department of Efficiency is a mod for SimCity 4 Deluxe that introduces an automated municipal administration to help manage your city's everyday operations.
+
+    As your city grows, managing individual school budgets, hospital funding, power plants, water supply, garbage disposal and regional contracts can become increasingly repetitive. The Department takes care of many of these decisions automatically, adjusting funding to your city's actual needs while maintaining configurable safety margins and looking for opportunities to reduce expenses.
+
+    You remain the mayor. The Department manages routine operations; you decide how your city develops.
+
+    **What does it do?**
+
+    - **Education & healthcare:** Automatically adjusts individual school, college, university, library, museum, clinic and hospital budgets according to usage, with safety margins to help prevent overcrowding and strikes. School bus and ambulance funding remain untouched.
+    - **Power:** Optimizes funding across individual power plants to cover demand and maintain a configurable reserve (20% by default). Optional consideration for power plant aging.
+    - **Water:** Automatically adjusts water department funding with a configurable reserve (10% by default). Pipe protection is enabled by default to help prevent damage caused by underfunding.
+    - **Garbage & sanitation:** Optimizes sanitation funding according to garbage production, recycling, disposal capacity, landfills and regional contracts. Includes automatic correction of eligible ghost landfill tiles and optional advice when changing the landfill size could significantly reduce sanitation expenses.
+    - **Neighbor deals:** Automatically manages electricity, water and garbage contracts with neighboring cities. The Department can create, resize and cancel contracts, comparing their economic value with the cost of local production or disposal. It can also trade between cities to search for profit.
+    - **Automatic demolition:** Clears ruins and/or long-abandoned buildings after configurable waiting periods. Every building type (residential, commercial, agricultural and industrial) can be managed independently. Municipal and historically protected destroyed buildings are preserved by default, but can be demolished automatically as well.
+
+    Every feature is entirely optional and independently configurable, allowing you to choose exactly what you want to automate, from full city management to a single function.
+
+    **In-game settings**
+
+    Access the Department directly from *Play Options → Department of Efficiency*. The options window contains two pages:
+
+    - **Services:** education, healthcare, electricity, water, sanitation, regional contracts and safety reserves.
+    - **Demolition:** waiting periods, eligible zones, abandonment reasons and spending limits.
+
+    Individual features can be enabled or disabled independently. The entire Department can also be switched on or off using the *Establish a Department of Efficiency* ordinance.
+
+    The interface, ordinance and advisor notices are available in 10 languages and follow the game's language automatically: English, Portuguese, French, German, Spanish, Italian, Dutch, Danish, Swedish and Polish.
+
+    **Notes**
+
+    - The preferences are stored in `DepartmentEfficiency.ini`. Sc4pac installs this file as `DepartmentEfficiency_sc4pacnew.ini` in the root of your Plugins folder. Review its settings first, in particular the automatic demolition settings, and then rename it by removing `_sc4pacnew` from its name. Without the renamed file, the Department has no configuration and stays off. Back this file up to keep your settings.
+    - The author tested the mod with SimCity 4 Deluxe, Steam edition, version 1.1.641.0, on Windows. Other versions and editions are not tested.
+    - The recommended Steam launch option is `-CPUCount:1`.
+    - Your saved cities remain usable after removing the plugin. Previously applied funding values, contracts and demolitions remain at their last saved state.
+    - The plugin writes a log file, `DepartmentEfficiency.log`. If you encounter a problem, include this log, the game version, the Department version and any other relevant installed mods when reporting it on the GitHub project.
+  author: Sammu
+  websites:
+    - https://community.simtropolis.com/files/file/37700-department-of-efficiency-automatic-city-management-dll/
+    - https://github.com/Sammu89/SC4-Department-of-Efficiency
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/high_school.png.31788112dc6bd88c6db2ec54f2328d23.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/museum.png.0288a0f0555a8ca8fff723cb8cf94ded.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/Options-1.png.521b9b3577c75d0b4f6672ea13fad104.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/Options-2.png.50f4010dbc8ba9a0009e26dcb324cece.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/real-garbage-paused.png.d6a3bc4226e3575242fc098e93adfa5f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/water.png.38078257fdcce982ee9c25872e366fed.png
+
+---
+assetId: sammu-department-of-efficiency
+version: "1.0.2"
+lastModified: "2026-11-09T21:30:53Z"
+nonPersistentUrl: https://community.simtropolis.com/files/file/37700-department-of-efficiency-automatic-city-management-dll/?do=download
+url: https://github.com/Sammu89/SC4-Department-of-Efficiency/releases/download/v1.0.2/Departement_of_Efficiency_1.02.zip
