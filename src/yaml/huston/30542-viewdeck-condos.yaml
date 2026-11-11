@@ -1,0 +1,51 @@
+group: huston
+name: viewdeck-condos
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Viewdeck Condos, a Vancouver condo complex
+  description: |-
+    Featured in ME:TMW's episode 70.1 as a background condo structure. Among Vancouver's many residential condos and apartment complexes, the actual condos are several decades old, have been refurbished numerous times, and have been given numerous renovations and additions to the building complex. The apartments (once) provided the comforts and ambience of a 21st century loft or condo apartment, while giving the tenant a view of the crowding metropolitan skyline of the ever-growing city of Vancouver. The in-game lot has 5 varieties, with a few ground decorative variations.
+
+    **Stats**
+
+    *Growable R$$ / R$$$*
+
+    - Lot size: 3x6
+    - Stage: 7 to 8
+    - Capacity: R$ 5,352, R$$ 2,956, R$$$ 1,293 (the R$$ lots without R$$$)
+
+    This building only comes in a Dark Nite version.
+  author: Huston
+  website: https://community.simtropolis.com/files/file/30542-metmw-viewdeck-condos/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/3213e244d17f968f3a599badaca30a45-viewdecktmwmehustonshowcasestructure_100kspec.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-kevdan25-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:textures-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol03
+  - girafe:ashes
+  - girafe:cypresses
+  - huston:metmw-prop-pack-alpha
+  - mandelsoft:light-replacement-mod-props
+  - mas71:mega-props-vol01
+  - namspopof:nams-mega-props
+  - sfbt:essentials
+  - shk:parking-pack
+assets:
+  - assetId: huston-viewdeck-condos
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: huston-viewdeck-condos
+version: "1.0"
+lastModified: "2015-05-16T05:51:18Z"
+url: https://community.simtropolis.com/files/file/30542-metmw-viewdeck-condos/?do=download

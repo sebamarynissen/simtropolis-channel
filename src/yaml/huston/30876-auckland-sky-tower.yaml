@@ -1,0 +1,65 @@
+group: huston
+name: auckland-sky-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Auckland Sky Tower, a landmark with white lighting
+  description: |-
+    Standing at over 328 meters, the Sky Tower in Auckland, New Zealand is one of the tallest man-made structures in the Southern Hemisphere. It boasts a restaurant and nightlife, complemented by an observation deck to look over the downtown Auckland area and the city's skyline. It also functions as a broadcasting tower, with a mast that adorns the tower.
+
+    This version only includes the white lighting for the meantime. The BAT was initially meant to have 6 color schemes, which may be implemented in the future.
+
+    **Stats**
+
+    *Landmark (non-functional), Dark Nite*
+
+    - Lot size: 3x3
+    - Plop cost: 385,900, monthly cost 435, landmark effect 40 over 20 tiles
+    - Plop cost: 350,000, monthly cost 435, landmark effect 80 over 25 tiles
+
+    *Landmark (non-functional), Maxis Nite*
+
+    - Lot size: 3x3
+    - Plop cost: 385,900, monthly cost 435, landmark effect 40 over 20 tiles
+    - Plop cost: 5,700, monthly cost 55, landmark effect 40 over 20 tiles
+  author: Huston
+  website: https://community.simtropolis.com/files/file/30876-trp-auckland-sky-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AuckTowerShowcaseImage.jpg.b3de5d6f9cb532d1c6fa66eeab408a3d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AucklandTowerLIghting.jpg.b48654af6c3e07895324a0b81bd58941.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SktTowerImageShowcase.jpg.702d98075fd37f55a96df55eebdf1748.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol02
+  - huston:metmw-prop-pack-alpha
+  - lbt:mega-textures-vol01
+  - mandelsoft:light-replacement-mod-props
+  - sfbt:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-auckland-sky-tower
+        # The zip also has two stray lots: one without a model and one with the Dark Nite model.
+        include:
+          - "/Hu_TRP_Auckland_SkyTowerMNV2_LM_e386fb7c\\.SC4Lot$"
+          - "/Hu_TRP_Auckland_SkyTowerMNV3_LM_03872f65\\.SC4Lot$"
+          - "/Hu_TRP_AkldSkyTower_MN-0x5ad0e817_0xe38164d7_0x30000\\.SC4Model$"
+          - "/Hu_TRP_AkldSkyTower_MaxisNite-0x6534284a-0x31b158d2-0xb4004187\\.SC4Desc$"
+          - "/Hu_TRP_AkldSkyTower_MN_PROP-0x6534284a-0x31b158d2-0x1400131d\\.SC4Desc$"
+          - "/Hu_MassEffect_Blank-0x5ad0e817_0x269d6be_0x30000\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-auckland-sky-tower
+        include:
+          - "/Auckland Skytower_Huston_22640409\\.SC4Lot$"
+          - "/Hu_TRP_Auckland_SkyTower_LM_22ff7eeb\\.SC4Lot$"
+          - "/Hu_TRP_AkldSkyTower-0x5ad0e817_0x625ea9f6_0x30000\\.SC4Model$"
+          - "/Hu_TRP_AkldSkyTower-0x6534284a-0x31b158d2-0x92dd4519\\.SC4Desc$"
+
+---
+assetId: huston-auckland-sky-tower
+version: "1.0"
+lastModified: "2015-12-23T10:09:54Z"
+url: https://community.simtropolis.com/files/file/30876-trp-auckland-sky-tower/?do=download

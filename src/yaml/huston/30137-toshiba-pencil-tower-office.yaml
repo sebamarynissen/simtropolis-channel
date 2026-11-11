@@ -1,0 +1,53 @@
+group: huston
+name: toshiba-pencil-tower-office
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Toshiba Pencil Tower Office, a 1x1 W2W corner office
+  description: |-
+    This W2W corner office occupies 1x1 tiles, has 24 floors and is pretty much the definition of the average pencil tower, which seem to be breaking out in the world's most modernized cities. It was completed at the request of the original modeler, who is credited as "SimCity 4 builder".
+
+    **Stats**
+
+    *Growable CS$$$*
+
+    - Lot size: 1x1
+    - Stage: 8
+    - Capacity: CS$ 341, CS$$ 87, CS$$$ 37
+
+    *Landmark (functional, CO$$)*
+
+    - Lot size: 1x1
+    - Plop cost: 25,000
+    - Capacity: CO$$ 153
+
+    *Landmark (non-functional)*
+
+    - Lot size: 1x1
+    - Plop cost: 50,000
+    - Monthly cost: 170
+  author: Huston
+  website: https://community.simtropolis.com/files/file/30137-trp-toshiba-pencil-tower-office/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/9f0acba56d5bda327d35b1b60fa9856f-toshibapenciltowerbatshowcase.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-toshiba-pencil-tower-office-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-toshiba-pencil-tower-office-dn
+
+---
+assetId: huston-toshiba-pencil-tower-office-dn
+version: "1.0"
+lastModified: "2015-02-11T08:39:19Z"
+url: https://community.simtropolis.com/files/file/30137-trp-toshiba-pencil-tower-office/?do=download&r=147955
+
+---
+assetId: huston-toshiba-pencil-tower-office-mn
+version: "1.0"
+lastModified: "2015-02-11T08:39:19Z"
+url: https://community.simtropolis.com/files/file/30137-trp-toshiba-pencil-tower-office/?do=download&r=147956

@@ -1,0 +1,58 @@
+group: huston
+name: mayhem-memorial-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Mayhem Memorial Plaza, revived from SimCity 3000 Unlimited
+  description: |-
+    The first BAT in a line of revivals, Mayhem Memorial Plaza is a revived building from the European tileset of SimCity 3000 (Unlimited), the classic predecessor to SimCity 4. The small mid-rise has 10 floors.
+
+    The lots are the ones from the Growable Fix by T Wrecks (`pkg=huston:mmp-neihu-plaza-growable-fix`), who also modded, lotted and tested them. They replace the original lots of the BAT, which did not work properly: the growable lot does not refer to the building of the BAT, and the landmark lot uses the model of another building. The growable lots grow as CO$$$ and fit on several lot sizes, and the ploppable version has jobs and functions.
+
+    **Stats**
+
+    *Growable CO$$$*
+
+    - Lot sizes: 2x2, 2x3 and 3x3
+    - Stage: 6
+    - Capacity: CO$$ 372, CO$$$ 230
+
+    *Landmark (functional)*
+
+    - Lot size: 2x2
+    - Plop cost: 2,150
+    - Capacity: CO$$ 372, CO$$$ 230
+  author: Huston, T Wrecks
+  website: https://community.simtropolis.com/files/file/29748-trp-mayhem-memorial-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/893e720e7bec4d52c65f08b09aeaa2b6-mayhemmemorialplazabatshowcase.jpg
+assets:
+  - assetId: huston-mmp-neihu-plaza-growable-fix
+    include:
+      - "/Mayhem Memorial Plaza New Lots/"
+# Only the models of the upload are installed, as its lots are replaced by those of the fix.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-mayhem-memorial-plaza
+        include:
+          - "/Hu_TRP_SC3KU_MMPBldg Maxisnite/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-mayhem-memorial-plaza
+        include:
+          - "/Hu_TRP_SC3KU_MMPBldg Darknite/"
+
+---
+assetId: huston-mayhem-memorial-plaza
+version: "1.0"
+lastModified: "2014-07-16T04:37:21Z"
+url: https://community.simtropolis.com/files/file/29748-trp-mayhem-memorial-plaza/?do=download
+
+---
+assetId: huston-mmp-neihu-plaza-growable-fix
+version: "1.0"
+lastModified: "2014-09-17T05:15:26Z"
+url: https://community.simtropolis.com/files/file/29912-trp-mmp-neihu-plaza-growable-fix/?do=download

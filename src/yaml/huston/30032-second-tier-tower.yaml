@@ -1,0 +1,58 @@
+group: huston
+name: second-tier-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Huston Corporation Second Tier Tower, an office tower with a helipad
+  description: |-
+    Leading in various fields, chiefly in experimental, pseudo and technological developments, the Huston Corporation aims to innovate, educate, develop and further scientific and technological understanding. With heavy investment in R&D, many breakthroughs have been met and shared with the world. Despite its allegedly "evil" reputation, the corporation is anything but, and is only devoted to the betterment of the lives of people.
+
+    Fun fact: this BAT has a custom LOD, and has been manipulated to be friendly with object placement on its helipad. Lotters will enjoy knowing that a helicopter, or other aircraft-like vehicle, can land on the building without mysteriously disappearing or crashing.
+
+    The growable lots are lotted in place over Wren Insurance, so they may grow like a weed in your cities.
+
+    **Stats**
+
+    *Growable CO$$$*
+
+    - Lot size: 4x3
+    - Stage: 8
+    - Capacity: CO$$ 6,084, CO$$$ 4,256
+
+    *Landmark (non-functional)*
+
+    - Lot size: 4x3
+    - Plop cost: 311,500
+    - Monthly cost: 800
+    - Landmark effect: 2,500 over 25 tiles
+  author: Huston
+  website: https://community.simtropolis.com/files/file/30032-trp-huston-corporation-second-tier-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/233c4263ca5ecc2da89bbc41f9f8d176-hustoncorporatetower2ndtierbatshowcasexmas.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol03
+  - huston:metmw-prop-pack-alpha
+  - mandelsoft:light-replacement-mod-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-second-tier-tower-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-second-tier-tower-dn
+
+---
+assetId: huston-second-tier-tower-dn
+version: "1.0"
+lastModified: "2014-12-09T04:41:44Z"
+url: https://community.simtropolis.com/files/file/30032-trp-huston-corporation-second-tier-tower/?do=download&r=145367
+
+---
+assetId: huston-second-tier-tower-mn
+version: "1.0"
+lastModified: "2014-12-09T04:41:44Z"
+url: https://community.simtropolis.com/files/file/30032-trp-huston-corporation-second-tier-tower/?do=download&r=145368

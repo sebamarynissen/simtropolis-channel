@@ -1,0 +1,52 @@
+group: huston
+name: municipal-offices
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Huston Corporation Municipal Offices, a low density W2W corner office
+  description: |-
+    A quick BAT made within a day: a generic, low density W2W corner office with a contemporary, simplistic design to its façade. Out back is a plain, rugged and cold concrete wall. It is named after its author, who released it in the hope that it plagues your towns and cities, serves as a branch for small town districts and spreads the name Huston in each and every block. It also smells nice and has bright red lights.
+
+    The original growable lot has no building of its own: it relies on a hidden Maxis office building. This package replaces it with a lot that has its own growable building and the same stats, made for sc4pac.
+
+    **Stats**
+
+    *Growable CO$$$*
+
+    - Lot size: 2x2
+    - Stage: 1 (low density)
+    - Jobs: 15 (Maxis default)
+    - City style: Chicago (lotted over a Chicago tile)
+  author: Huston
+  website: https://community.simtropolis.com/files/file/29530-trp-huston-corporation-municipal-offices/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/1b361891b3fb25d602981cf9e9b2246a-hucombatshowcase.jpg
+dependencies:
+  - girafe:bushes
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-municipal-offices
+        include:
+          - "/Maxis-nite Model/"
+      - assetId: huston-municipal-offices-growable-fix
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-municipal-offices
+        include:
+          - "/Darknite Model/"
+      - assetId: huston-municipal-offices-growable-fix
+
+---
+assetId: huston-municipal-offices
+version: "1.0"
+lastModified: "2014-04-30T11:43:25Z"
+url: https://community.simtropolis.com/files/file/29530-trp-huston-corporation-municipal-offices/?do=download
+
+---
+assetId: huston-municipal-offices-growable-fix
+version: "1.0"
+lastModified: "2026-11-11T18:27:00Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=129307

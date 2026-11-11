@@ -1,0 +1,50 @@
+group: huston
+name: lasmarinas-cagayan-provincial-assembly
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Lasmariñas Cagayan Provincial Assembly, a brutalist landmark
+  description: |-
+    The Cagayan Provincial Assembly in the city of Lasmariñas is a brutalist structure reminiscent of the Philippines. It holds a provincial assembly and acts as the regional administration center for the greater Cagayan provincial region. The brutalist architectural style implies a largely windowless façade, which is a common style across many Philippine cities that were built during the latter half of the 20th century. This building is fictitious, but largely influenced by the Philippine brutalist styles of many administration and commercial architectures.
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 6x6
+    - Plop cost: 40,800
+    - Monthly cost: 90
+    - Landmark effect: 40 over 20 tiles
+
+    *Park version*
+
+    - Lot size: 6x5
+    - Plop cost: 40
+    - Monthly cost: 5
+
+    **Bonus content**
+
+    The upload also includes prop models of a motorized tricycle (two angles) and a district jeepney, which are not used by the lots but may be used by lotters.
+
+    This building only comes in a Dark Nite version.
+  author: Huston
+  website: https://community.simtropolis.com/files/file/30029-trp-lasmari%C3%B1as-cagayan-provincial-assembly-bonus-content/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/a547a4adbc9ef0b6ce95c470c4b6d8d2-cagayanprovincialassemblybldgxmas.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol02
+assets:
+  - assetId: huston-lasmarinas-cagayan-provincial-assembly
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: huston-lasmarinas-cagayan-provincial-assembly
+version: "1.0"
+lastModified: "2014-12-04T03:37:35Z"
+url: https://community.simtropolis.com/files/file/30029-trp-lasmari%C3%B1as-cagayan-provincial-assembly-bonus-content/?do=download
