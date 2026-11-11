@@ -1,0 +1,35 @@
+group: brancra
+name: small-community-church
+version: "1.0.0"
+subfolder: 650-religion
+info:
+  summary: Small Community Church
+  description: |-
+    This is a fictional small community church, not unlike many small town churches found across the United States and Canada.
+
+    The church comes on two ploppable lots: a 1x1 lot and a 2x2 lot with an outdoor gathering area and a small cemetery.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37717-agc-small-community-church/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a5d2034d4_Auglaize-Jul.26211794280446.jpg.6f4a0c10f5447d62438ec7250b95fb11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a6457374c_Auglaize-Aug.1211794280464.jpg.3ca65d5ddedd97a17cc45555b083367d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a654b404c_Auglaize-Sep.5211794280569.png.fe33f13b1b7497b6ddd4892fb3b44f01.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a655eb52c_Auglaize-Sep.11211794280595.png.76d90a9c826fcf9ca595618cb5e4111b.png
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-small-community-church
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-small-community-church
+version: "1.0.0"
+lastModified: "2026-11-10T23:21:26Z"
+url: https://community.simtropolis.com/files/file/37717-agc-small-community-church/?do=download

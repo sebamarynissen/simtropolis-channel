@@ -1,0 +1,38 @@
+group: brancra
+name: lauxoxni-pharmaceuticals
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Lauxoxni Pharmaceuticals
+  description: |-
+    There are two growable I-HT lots included in this upload. Both use AGC props.
+
+    - A more urban Stage 3 4x4 lot.
+    - A more suburban Stage 2 6x6 lot.
+
+    Lotting, modding and testing by brancra. The refined modeling, texturing and lighting are by AGC / Barroco Hispano. If you appreciate his work, consider [donating to his PayPal](https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU).
+  author: brancra
+  website: https://community.simtropolis.com/files/file/37718-agc-lauxoxni-pharmaceuticals/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a7644912a_Athelstane-Dec.7541792961405.jpg.3f021438e955ba7ef685d0183c1d90cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a772d12d7_Athelstane-Dec.11541792961419.jpg.074d545076998cb875f0f4fd6505caa5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a7741ac27_Athelstane-Dec.17541792961435.jpg.0811ca546503ead60d7a0f9608ed8d8e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a77ed1afa_Athelstane-Oct.22541792961272.jpg.bd99a4f323c57515fe109f2d5da236d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a77fbeb4c_Athelstane-Oct.27541792961287.jpg.8337cd0162e4b16d375a0b06e6b4741b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/6af3a7901eb7d_Athelstane-Dec.20541792961445.jpg.0cc7974bafcc3770ce9a70fe46d49779.jpg
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+  - agc:automobile-dlc
+assets:
+  - assetId: brancra-lauxoxni-pharmaceuticals
+    exclude:
+      - "-0xd55abe23-0x[0-9a-f]+\\.SC4Desc$"
+
+---
+assetId: brancra-lauxoxni-pharmaceuticals
+version: "1.0.0"
+lastModified: "2026-11-10T23:28:07Z"
+url: https://community.simtropolis.com/files/file/37718-agc-lauxoxni-pharmaceuticals/?do=download

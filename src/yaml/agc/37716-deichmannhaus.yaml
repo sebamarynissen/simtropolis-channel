@@ -1,0 +1,41 @@
+group: agc
+name: deichmannhaus
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Deichmannhaus, a ploppable commercial building in Cologne (1914 version)
+  description: |-
+    A personalized request for Bobelboy.
+
+    Located in Cologne, Germany (1914 version).
+
+    **Stats**
+
+    *Ploppable commercial*
+
+    - Lot size: 4x3
+    - Capacity: CS$ 2,513, CS$$ 630
+    - Plop cost: 7,892
+
+    Scale of the model: 133% on z axis.
+
+    Dark Nite only.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/37716-agc-deichmannhaus/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/Deichmannhaus_Thumb.png.1d8edef701a061b2eb513082b6f28983.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/Deichmannhaus_day.png.b2369787713dbcdcf9edbd4047dfbd55.png
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/Deichmannhaus_night.png.279b1612c44873c7f410c1d468bf35c8.png
+dependencies:
+  - agc:buildings-rws-dlc
+  - agc:street-props
+  - agc:environment-dlc-props
+  - agc:casual-sims-dlc-props
+assets:
+  - assetId: agc-deichmannhaus
+
+---
+assetId: agc-deichmannhaus
+version: "1.0.0"
+lastModified: "2026-11-10T23:20:49Z"
+url: https://community.simtropolis.com/files/file/37716-agc-deichmannhaus/?do=download
