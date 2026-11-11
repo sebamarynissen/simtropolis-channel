@@ -1,6 +1,6 @@
 group: sammu
 name: department-of-efficiency
-version: "1.0.2"
+version: "1.0.3"
 subfolder: 150-mods
 dependencies:
   - config:sc4-edition-windows-digital
@@ -8,16 +8,15 @@ assets:
   - assetId: sammu-department-of-efficiency
     withChecksum:
       - include: "/DepartmentEfficiency.dll"
-        sha256: DE34CFF51357E6C7BAC2A22D3CFBB1A1A662F9E7F0B1C104519C2BA8A3059155
+        sha256: AA77ED355C54F92EBF6B84170EA93BC2249A72F4BE48E3F635806FB8E54BF693
       - include: "/DepartmentEfficiency.dat"
-        sha256: 889D2BCEA8190E99CC7F25CE66C71761E9F866D46DE477920C2F4DB20AE89461
+        sha256: 10129E2456289170AC1B771D48EF790E5433F87BDD09C6476078DD475EFF3538
       - include: "/DepartmentEfficiency.ini"
-        sha256: 0F506C7F8C29F5B4EEE540F756C43EEA720D22315C8607F6EC9055C81D3B6B05
+        sha256: 00080FA195AB3C1481AB047FF07B73B9323954347C86E1BA9C5B68CD2B33CFD4
         isIni: true
 info:
   summary: Automatically manages service funding, neighbor deals and the demolition of ruins
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  warning: The Department is enabled by default, including automatic demolition. Review the Demolition settings before opening a city that contains destroyed or abandoned buildings you want to preserve.
   description: |-
     Spend less time managing budgets, and more time building your city.
 
@@ -34,7 +33,7 @@ info:
     - **Water:** Automatically adjusts water department funding with a configurable reserve (10% by default). Pipe protection is enabled by default to help prevent damage caused by underfunding.
     - **Garbage & sanitation:** Optimizes sanitation funding according to garbage production, recycling, disposal capacity, landfills and regional contracts. Includes automatic correction of eligible ghost landfill tiles and optional advice when changing the landfill size could significantly reduce sanitation expenses.
     - **Neighbor deals:** Automatically manages electricity, water and garbage contracts with neighboring cities. The Department can create, resize and cancel contracts, comparing their economic value with the cost of local production or disposal. It can also trade between cities to search for profit.
-    - **Automatic demolition:** Clears ruins and/or long-abandoned buildings after configurable waiting periods. Every building type (residential, commercial, agricultural and industrial) can be managed independently. Municipal and historically protected destroyed buildings are preserved by default, but can be demolished automatically as well.
+    - **Automatic demolition:** Clears ruins and/or long-abandoned buildings after configurable waiting periods. Every building type (residential, commercial, agricultural and industrial) can be managed independently. Municipal and historically protected destroyed buildings are preserved by default, but can be demolished automatically as well. Automatic demolition is off by default: turn it on in the Demolition page of the options.
 
     Every feature is entirely optional and independently configurable, allowing you to choose exactly what you want to automate, from full city management to a single function.
 
@@ -51,7 +50,7 @@ info:
 
     **Notes**
 
-    - The preferences are stored in `DepartmentEfficiency.ini`. Sc4pac installs this file as `DepartmentEfficiency_sc4pacnew.ini` in the root of your Plugins folder. Review its settings first, in particular the automatic demolition settings, and then rename it by removing `_sc4pacnew` from its name. Without the renamed file, the Department has no configuration and stays off. Back this file up to keep your settings.
+    - The preferences are stored in `DepartmentEfficiency.ini`. Sc4pac installs this file as `DepartmentEfficiency_sc4pacnew.ini` in the root of your Plugins folder. Review its settings first and then rename it by removing `_sc4pacnew` from its name. Without the renamed file, the Department has no configuration and stays off. Back this file up to keep your settings.
     - The author tested the mod with SimCity 4 Deluxe, Steam edition, version 1.1.641.0, on Windows. Other versions and editions are not tested.
     - The recommended Steam launch option is `-CPUCount:1`.
     - Your saved cities remain usable after removing the plugin. Previously applied funding values, contracts and demolitions remain at their last saved state.
@@ -70,7 +69,7 @@ info:
 
 ---
 assetId: sammu-department-of-efficiency
-version: "1.0.2"
-lastModified: "2026-11-09T21:30:53Z"
+version: "1.0.3"
+lastModified: "2026-11-11T19:00:00Z"
 nonPersistentUrl: https://community.simtropolis.com/files/file/37700-department-of-efficiency-automatic-city-management-dll/?do=download
-url: https://github.com/Sammu89/SC4-Department-of-Efficiency/releases/download/v1.0.2/Departement_of_Efficiency_1.02.zip
+url: https://github.com/Sammu89/SC4-Department-of-Efficiency/releases/download/v1.0.3/Department_of_Efficiency_1.0.3.zip
