@@ -1,9 +1,9 @@
 group: cobb
 name: harbor-village
 version: "2"
-subfolder: 360-landmark
+subfolder: 700-transit
 info:
-  summary: Harbor Village, twelve landmark lots for a village in the water
+  summary: Harbor Village, twelve lots for a village in the water
   description: |-
     Twelve lots comprising a village that you can plop out in the water in any configuration you like.
 
@@ -26,7 +26,7 @@ info:
 
     Version 2 is a major overhaul done entirely by Andreas Roth, who manages the website simszone.de. He made the power usage more reasonable, changed the query sound, and made very attractive and useful menu icons.
 
-    The lots cost 25 simoleans each to plop. They function only as landmarks and do not contain residents or jobs, so at this stage they are only for appearance. A growable version is unfortunately not possible for water lots. Water lots are difficult to position properly, so it may take some practice. Also note that the land/water junction lot may show up strangely unless your terrain is relatively low and level.
+    In the original, the lots cost 25 simoleans each to plop and function only as landmarks. They do not contain residents or jobs, so at this stage they are only for appearance. A growable version is unfortunately not possible for water lots. Water lots are difficult to position properly, so it may take some practice. Also note that the land/water junction lot may show up strangely unless your terrain is relatively low and level.
 
     **Fixes by CorinaMarie and Cyclone Boom**
 
@@ -66,9 +66,9 @@ variantInfo:
     description: Choose the tweaks that are applied to the lots. All options remove the base textures in the water and add a 1x3 land/water junction without base texture.
     values:
       - value: landmarks
-        default: true
-        description: The lots stay in the Landmarks menu, as originally created, with the original specs. This is the quick fix, and the safest choice for cities that already contain the original lots.
+        description: The lots stay in the Landmarks menu, as originally created, with the original specs. This is the quick fix.
       - value: seaport-menu
+        default: true
         description: Moves the lots to the Water Transportation menu, with the standard Maxis parks query window and the query sound and plop sound of the Maxis marina. The plop costs become $1 to $13 in the original menu order, and the lots can be renamed in the game. The budget item department, line and purpose are removed, as they no longer apply.
       - value: seaport-neutral
         description: Same as seaport-menu, and also sets the bulldoze cost to $1, removes all pollution, power consumption and flammability (the lots still need power for their night lights), and removes the landmark effect (+40 over 20 tiles) and the +10 mayor rating over 256 tiles. Only use this if you have never plopped the original lots.
