@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: elrail-station-blue-line
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: ELRail Station Blue Line
+  description: |-
+    Another Alternative to the EL-Rail Station,
+
+    10000 Max Capacity,
+
+    2x6 Lot Size
+
+    Red Line to Come Soon
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12199-elrail-station-blue-line/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/57774f9f20a503faeedf00221fee71ff-TonksoBlueLineDay.JPG
+    - https://www.simtropolis.com/objects/screens/0010/57774f9f20a503faeedf00221fee71ff-TonksoBlueLineNight.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-elrail-station-blue-line
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-elrail-station-blue-line
+version: "1.0"
+lastModified: "2005-04-11T17:58:52Z"
+url: https://community.simtropolis.com/files/file/12199-elrail-station-blue-line/?do=download
