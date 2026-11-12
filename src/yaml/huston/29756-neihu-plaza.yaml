@@ -1,0 +1,51 @@
+group: huston
+name: neihu-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Neihu Plaza, revived from SimCity 3000 Unlimited
+  description: |-
+    The second BAT in a line of revivals, Neihu Plaza is a revived building from the Asian tileset of SimCity 3000 (Unlimited), the classic predecessor to SimCity 4. The relatively high mid-rise towers over 32 floors. Its night setting is draped in neon lighting for effect.
+
+    The lots are the ones from the Growable Fix by T Wrecks (`pkg=huston:mmp-neihu-plaza-growable-fix`), who also modded, lotted and tested them. They replace the original lots of the BAT, which did not work properly: the growable lot does not refer to the building of the BAT, and the landmark lot uses the model of another building. The growable lots grow as CO$$$ and fit on several lot sizes, and the ploppable version has jobs and functions. It works as an entry-level skyscraper that can grow when your city is at the threshold of becoming a true metropolis.
+
+    **Stats**
+
+    *Growable CO$$$*
+
+    - Lot sizes: 2x3 (stage 8) and 3x3 (stage 7)
+    - Capacity: CO$$ 1,183, CO$$$ 840
+
+    *Landmark (functional)*
+
+    - Lot size: 2x3
+    - Plop cost: 5,975
+    - Capacity: CO$$ 1,183, CO$$$ 840
+  author: Huston, T Wrecks
+  website: https://community.simtropolis.com/files/file/29756-trp-neihu-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2014/a42d0e780c69a499656bbdbb560c23eb-neihuplazabatintrobanner.jpg
+assets:
+  - assetId: huston-mmp-neihu-plaza-growable-fix
+    include:
+      - "/Neihu Plaza New Lots/"
+# Only the models of the upload are installed, as its lots are replaced by those of the fix.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-neihu-plaza
+        include:
+          - "/Neihu Plaza - Maxis-Nite/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-neihu-plaza
+        include:
+          - "/Neihu Plaza - DarkNite/"
+
+---
+assetId: huston-neihu-plaza
+version: "1.0"
+lastModified: "2014-07-17T13:36:26Z"
+url: https://community.simtropolis.com/files/file/29756-trp-neihu-plaza/?do=download

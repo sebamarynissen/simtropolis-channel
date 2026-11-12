@@ -1,0 +1,56 @@
+group: huston
+name: aquilina-building-asc
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Aquilina Building (ASC), revived from SimCity 3000 Unlimited
+  description: |-
+    The third BAT in a line of revivals, the Aquilina Building is a revived building from the American tileset of SimCity 3000 (Unlimited), the classic predecessor to SimCity 4. This medium rise tower of about 11 floors grows as CO$$ and CO$$$. The building has no clear tenant in SC3K(U), but is presently owned by the organization ASC. The building is laden with easter eggs.
+
+    **Stats**
+
+    *Growable CO$$*
+
+    - Lot sizes: 3x2, 3x3 and 2x3
+    - Stage: 6 to 7
+    - Capacity: CO$$ 761
+
+    *Landmark (functional, CO$$)*
+
+    - Lot size: 2x3
+    - Plop cost: 50,011
+    - Capacity: CO$$ 800
+  author: Huston
+  website: https://community.simtropolis.com/files/file/30090-trp-aquilina-building-asc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/600c1f300c961afd96efa1daf34584c1-aquilinaascbatshowcase.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - bsc:vip-girafe-carpack-vol03
+  - mandelsoft:light-replacement-mod-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-aquilina-building-asc-mn
+        exclude:
+          - /Aquilina ASC Primary Files/.*\.SC4Model
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-aquilina-building-asc-dn
+        exclude:
+          - /DN/.*\.SC4Model
+
+---
+assetId: huston-aquilina-building-asc-mn
+version: "1.0"
+lastModified: "2015-01-13T06:11:34Z"
+url: https://community.simtropolis.com/files/file/30090-trp-aquilina-building-asc/?do=download&r=147072
+
+---
+assetId: huston-aquilina-building-asc-dn
+version: "1.0"
+lastModified: "2015-01-13T06:11:34Z"
+url: https://community.simtropolis.com/files/file/30090-trp-aquilina-building-asc/?do=download&r=147073

@@ -1,0 +1,55 @@
+group: huston
+name: 105-lelio-gama
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 105 Lélio Gama, a bank tower in Rio de Janeiro
+  description: |-
+    Owned by Brazil's national banking conglomerate Banco do Brasil, 105 Lélio Gama is a building in the city of Rio de Janeiro. Completed in 1980, the tower is approximately 145 meters tall with 40 accessible floors. It is currently the second tallest building in Rio.
+
+    **Stats**
+
+    *Landmark (non-functional)*
+
+    - Lot size: 4x3
+    - Plop cost: 175,000
+    - Monthly cost: 35
+
+    *Growable CO$$* (Dark Nite only)
+
+    - Lot size: 4x3
+    - Stage: 8
+    - Capacity: CO$$ 4,827
+
+    The growable lot of the Maxis Nite version is not installed, because it refers to a Maxis office building instead of its own building.
+  author: Huston
+  website: https://community.simtropolis.com/files/file/30973-gbt-105-l%C3%A9lio-gama/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/105LelioGama_ShowcaseSimtropolis.jpg.768d45b5825005700c8d2248bbc6bbc4.jpg
+dependencies:
+  - bsc:bat-props-jenx-tree-props-vol03
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: huston-105-lelio-gama
+        include:
+          - "/MaxisNite/"
+          - "/Hu_MassEffect_Blank-"
+        exclude:
+          # Refers to a Maxis building instead of its own.
+          - "/CO\\$\\$\\$10_4x3_Hu_105LelioGama_MN_e3dc6c33\\.SC4Lot$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: huston-105-lelio-gama
+        include:
+          - "/DarkNite/"
+          - "/Hu_MassEffect_Blank-"
+
+---
+assetId: huston-105-lelio-gama
+version: "1.0"
+lastModified: "2016-02-27T03:34:47Z"
+url: https://community.simtropolis.com/files/file/30973-gbt-105-l%C3%A9lio-gama/?do=download

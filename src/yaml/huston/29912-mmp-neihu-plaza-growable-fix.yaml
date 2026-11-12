@@ -1,0 +1,15 @@
+group: huston
+name: mmp-neihu-plaza-growable-fix
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Included in `pkg=huston:mayhem-memorial-plaza` and `pkg=huston:neihu-plaza`
+  description: |-
+    The Growable Fix by T Wrecks replaces the lots of Mayhem Memorial Plaza and Neihu Plaza, which did not work properly. It does not include the models, so it is part of the packages of the two buildings, which also install the models. Installing this package installs both buildings.
+  author: Huston, T Wrecks
+  website: https://community.simtropolis.com/files/file/29912-trp-mmp-neihu-plaza-growable-fix/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/39175d3e27de921b5072c444d17f8c5f-mmpneihufixintrobanner.jpg
+dependencies:
+  - huston:mayhem-memorial-plaza
+  - huston:neihu-plaza
