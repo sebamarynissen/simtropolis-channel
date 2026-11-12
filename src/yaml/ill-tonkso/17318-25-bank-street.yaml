@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: 25-bank-street
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: 25 Bank Street
+  description: |-
+    **25 Bank Street**  
+      
+    25 Bank Street was completed in 2003 and stands at 33 stories, 153 meters tall. It is one of Londons more generic skyscrapers and forms part of the Canary Wharf complex. This render contains a Ploppable and Growable Lot with 3200 CO££ Jobs. It costs £12k to plop and the growable is stage 8.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17318-ndex-its-25-bank-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/51ac5a1c7aef682aac57b718ef03b39b-25bsd.jpg
+    - https://www.simtropolis.com/objects/screens/0010/51ac5a1c7aef682aac57b718ef03b39b-25bsn.jpg
+dependencies:
+  - ndex:its-mega-pack-vol06
+assets:
+  - assetId: ill-tonkso-25-bank-street
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-25-bank-street
+version: "1.0"
+lastModified: "2006-11-17T15:01:44Z"
+url: https://community.simtropolis.com/files/file/17318-ndex-its-25-bank-street/?do=download
