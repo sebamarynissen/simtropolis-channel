@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: portsmouth-office-building
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Portsmouth Office Building
+  description: |-
+    Zurich Building,
+
+    This is BAT based on the Zurich Building in Portsmouth England.
+
+    Includes Growable and Ploppable Lots.  
+    There are no jobs available in the Ploppable version because i failed my attempts at doing so, so feel free to edit jobs and re-upload. Feel free to add jobs to my other Landmark BAT's if you wish also but please ask my permision first.
+
+    Enjoy
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11595-portsmouth-office-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/90931121bb8d0762bee3774486208695-Zurich%20Day.JPG
+    - https://www.simtropolis.com/objects/screens/0016/90931121bb8d0762bee3774486208695-Zurich%20Night.JPG
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-portsmouth-office-building
+    exclude:
+      - "/Zurich Portsmouth3-0x5ad0e817_0x6ef03acf_0x130000\\.SC4Model$"
+      - "/Carpark-0x5ad0e817_0x6ef03acf_0x140000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-portsmouth-office-building
+version: "1.0"
+lastModified: "2005-02-02T17:13:25Z"
+url: https://community.simtropolis.com/files/file/11595-portsmouth-office-building/?do=download
