@@ -1,0 +1,78 @@
+group: ct1999
+name: wenshan-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: WenShan Building (文山楼), a normal commercial building in Shenzhen
+  description: |-
+    WenShanBuilding (Chinese: 文山楼) is located at XinYuan Road No.2 in the LouHu district of Shenzhen, and is a really normal commercial building.
+
+    **Stats**
+
+    *Growable CS$$*
+
+    - Stage: 5
+    - Lot size: 4x3
+    - Capacity: CS$ 910, CS$$ 501
+    - Building style: Euro
+    - Occupant group: Medium Wealth Commercial Service Building
+
+    *Landmark*
+
+    - Lot size: 4x3
+    - Plop cost: 9,000
+    - Monthly cost: 500
+
+    The `resolution` variant selects between the HD and the SD (SameTGI) version. The HD version only comes in a Dark Nite version. The SD version comes in a Dark Nite and a Maxis Nite version, which use the same IDs, so you can switch between them without bulldozing the buildings. With Maxis Nite, the SD version is installed.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35034-wenshan-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/WenShanBuilding_Preview_5.jpg.f1f0e05d6087f6732bc59d97a4e882d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/WenShanBuilding_Preview_6.jpg.a27eaca714319783a5881b4b6ac0a56b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/WenShanBuilding_Preview_1.jpg.e691f9ff6418d902b2dbe3ead50e876f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/WenShanBuilding_Preview_2.jpg.f9d4891b8fd2b69eb7b4c3de66d31907.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/WenShanBuilding_Preview_3.jpg.cfb0ae13a75683ed35247a1a732fafee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/WenShanBuilding_Preview_4.jpg.557c029b7a98e14b0e03d52b6154a5a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/WenShanBuilding_Preview_11_Preview.jpg.d8773a0a67dd340e11c98fc994a8797c.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-wenshan-building-sd
+        include:
+          - "/WenShanBuilding_SD\\( MasixNite \\)/"
+  - variant: { nightmode: dark, ct1999:wenshan-building:resolution: hd }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-wenshan-building-hd
+  - variant: { nightmode: dark, ct1999:wenshan-building:resolution: sd }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-wenshan-building-sd
+        include:
+          - "/WenShanBuilding_SD\\( DarkNite \\)/"
+variantInfo:
+  - variantId: ct1999:wenshan-building:resolution
+    description: Choose the resolution of the building. Only applies to Dark Nite, as Maxis Nite only has the SD version.
+    values:
+      - value: hd
+        default: true
+        description: The HD version, which only exists for Dark Nite.
+      - value: sd
+        description: The SD version, which has the same IDs as the Maxis Nite version.
+
+---
+assetId: ct1999-wenshan-building-hd
+version: "1.0.0"
+lastModified: "2022-04-02T07:20:42Z"
+url: https://community.simtropolis.com/files/file/35034-wenshan-building/?do=download&r=192712
+
+---
+assetId: ct1999-wenshan-building-sd
+version: "1.0.0"
+lastModified: "2022-04-02T07:20:42Z"
+url: https://community.simtropolis.com/files/file/35034-wenshan-building/?do=download&r=192713

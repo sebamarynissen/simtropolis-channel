@@ -1,0 +1,77 @@
+group: ct1999
+name: modern-chinese-village-box-3
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Modern Chinese Village Box 3 (农民房), a 1x1 village house in Shenzhen
+  description: |-
+    This particular Village Box (Chinese: 农民房) is renovated with cleaner colors, but that doesn't make the building too special after all. It is still a really normal building, located in Shenzhen NanShan district NanTou Village.
+
+    There is no spot for an Easter egg in this building this time.
+
+    **Stats**
+
+    *Growable R$*
+
+    - Stage: 6
+    - Lot size: 1x1
+    - Capacity: R$ 64, R$$ 31
+    - Building style: Euro
+    - Occupant group: Medium Wealth Residential Building
+
+    *Landmark*
+
+    - Lot size: 1x1
+    - Plop cost: 1,000
+    - Monthly cost: 10
+
+    The `resolution` variant selects between the HD and the SD version. The HD version only comes in a Dark Nite version. The SD version comes in a Dark Nite and a Maxis Nite version, which use the same IDs, so you can switch between them without bulldozing the building. The HD and SD versions use different IDs, so they are not compatible with each other. With Maxis Nite, the SD version is installed.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35213-modern-chinese-village-box-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/VillageBox3_7.jpg.d9a9fb17109d25e786ff91201203ddde.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/VillageBox3_4.jpg.04856e574815e4ef17a8d3db59787d7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/VillageBox3_5.jpg.e9f6bbd5360a5322055af9486bedb9b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/VillageBox3_6.jpg.3cb28bd9bc4cd8e73c10545272f77350.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/VillageBox3_8.jpg.28503c5306cf3e5a3ac853ee37ea8932.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-modern-chinese-village-box-3-sd-mn
+  - variant: { nightmode: dark, ct1999:modern-chinese-village-box-3:resolution: hd }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-modern-chinese-village-box-3-hd-dn
+  - variant: { nightmode: dark, ct1999:modern-chinese-village-box-3:resolution: sd }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-modern-chinese-village-box-3-sd-dn
+variantInfo:
+  - variantId: ct1999:modern-chinese-village-box-3:resolution
+    description: Choose the resolution of the building. Only applies to Dark Nite, as Maxis Nite only has the SD version.
+    values:
+      - value: hd
+        default: true
+        description: The HD version, which only exists for Dark Nite.
+      - value: sd
+        description: The SD version, which has the same IDs as the Maxis Nite version.
+
+---
+assetId: ct1999-modern-chinese-village-box-3-hd-dn
+version: "1.0.0"
+lastModified: "2022-06-23T11:47:10Z"
+url: https://community.simtropolis.com/files/file/35213-modern-chinese-village-box-3/?do=download&r=194519
+
+---
+assetId: ct1999-modern-chinese-village-box-3-sd-dn
+version: "1.0.0"
+lastModified: "2022-06-23T11:47:10Z"
+url: https://community.simtropolis.com/files/file/35213-modern-chinese-village-box-3/?do=download&r=194520
+
+---
+assetId: ct1999-modern-chinese-village-box-3-sd-mn
+version: "1.0.0"
+lastModified: "2022-06-23T11:47:10Z"
+url: https://community.simtropolis.com/files/file/35213-modern-chinese-village-box-3/?do=download&r=194521

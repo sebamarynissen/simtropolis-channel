@@ -1,0 +1,50 @@
+group: ct1999
+name: yue-yun-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Yue Yun Building (粤运大厦), a high-rise commercial building with a bus station
+  description: |-
+    YueYunBuilding (Chinese: 粤运大厦) is a really normal high-rise commercial building located in Shenzhen Luohu district (深圳市罗湖区).
+
+    **Stats**
+
+    *Growable CO$$*
+
+    - Stage: 8
+    - Lot size: 10x7
+    - Capacity: CO$$ 3,800
+    - Building style: Euro
+
+    *Bus stop*
+
+    - Lot size: 10x7
+    - Plop cost: 10,000
+    - Bulldoze cost: 8,500
+    - Monthly cost: 350
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35627-yue-yun-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/YueYunBuilding_1(Day).jpg.0ff72a73b6716bb2824375a6bb848965.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/YueYunBuilding_2(DarkNite).jpg.23c50f1bedc86f3bbb255a6a278a4b34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/YueYunBuilding_5.jpg.9ff8735f6abe592c9759456a043c255f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/YueYunBuilding_6.jpg.a26419fdf6501b2eb1219ab07816547f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/YueYunBuilding_7.jpg.2cbb0ce11d58831ec273301c26bd5f29.jpg
+dependencies:
+  - peg:oww2-resource-pack-vol01
+  - supershk:mega-parking-textures
+assets:
+  - assetId: ct1999-yue-yun-building
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-yue-yun-building
+version: "1.0.0"
+lastModified: "2023-09-17T13:21:52Z"
+url: https://community.simtropolis.com/files/file/35627-yue-yun-building/?do=download

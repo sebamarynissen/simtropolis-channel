@@ -1,0 +1,47 @@
+group: ct1999
+name: guang-dong-international-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Guang Dong International Hotel (广东国际大酒店) as a growable and a landmark lot
+  description: |-
+    Guang Dong International Hotel (广东国际大酒店)
+
+    **Stats**
+
+    *Growable CS$$$*
+
+    - Stage: 8
+    - Lot size: 7x6
+    - Capacity: CS$ 8,500, CS$$ 7,500, CS$$$ 3,901
+    - Building style: All
+
+    *Landmark*
+
+    - Lot size: 7x6
+    - Plop cost: 23,900
+    - Bulldoze cost: 9,000
+    - Monthly cost: 950
+
+    This special release is to memorialize the fellow member @Odainsaker. Even though he no longer joins us in this world, I hope he can enjoy this BAT in another universe.
+
+    In memory of Odainsaker.
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/36853-guang-dong-international-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/GD1.JPG.21953514fd3afce08d7c58f303d6bfee.JPG
+assets:
+  - assetId: ct1999-guang-dong-international-hotel
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-guang-dong-international-hotel
+version: "1.0.0"
+lastModified: "2026-06-06T03:37:52Z"
+url: https://community.simtropolis.com/files/file/36853-guang-dong-international-hotel/?do=download

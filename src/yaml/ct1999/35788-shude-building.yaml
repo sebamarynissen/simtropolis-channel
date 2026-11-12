@@ -1,0 +1,44 @@
+group: ct1999
+name: shude-building
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: ShuDe Building (树德楼), a traditional Chinese house in Meizhou
+  description: |-
+    ShuDe Building (Chinese: 树德楼) is a really normal traditional Chinese house located in MeiZhou City (梅州市) JiaoLing County (蕉岭县).
+
+    **Stats**
+
+    *Growable R$*
+
+    - Stage: 5
+    - Lot size: 3x3
+    - Capacity: R$ 350
+    - Building style: All
+    - Occupant group: Middle Rise Residential Building
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35788-shude-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/ShuDeBuilding_1(Day).jpg.286d339ed982ee438e42dddf096b8be1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/ShuDeBuilding_2(DarkNite).jpg.7962a14ff6fa06c50e6235ec86d3dae0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/ShuDeBuilding_3.jpg.166d98c418aeedfdce849e44c0d3d699.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/ShuDeBuilding_4.jpg.b7a5fedc169570e40469a981f21305e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/ShuDeBuilding_5.jpg.aa2ca7939e3bd85d211923a941327e58.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - peg:spam-super-resource-pack
+assets:
+  - assetId: ct1999-shude-building
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-shude-building
+version: "1.0.0"
+lastModified: "2023-12-02T10:13:23Z"
+url: https://community.simtropolis.com/files/file/35788-shude-building/?do=download

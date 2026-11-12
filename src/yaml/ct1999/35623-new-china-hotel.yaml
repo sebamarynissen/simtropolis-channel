@@ -1,0 +1,46 @@
+group: ct1999
+name: new-china-hotel
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: New China Hotel (新华酒店), a mid-rise hotel in Guangzhou
+  description: |-
+    NewChinaHotel (Chinese: 新华酒店) is a really normal mid-rise hotel located in Guangzhou Yuexiu district (广州市越秀区).
+
+    **Stats**
+
+    *Growable CS$$*
+
+    - Stage: 8
+    - Lot size: 2x5
+    - Capacity: CS$ 2,100, CS$$ 1,980
+    - Building style: Euro
+
+    *Landmark*
+
+    - Lot size: 2x5
+    - Plop cost: 6,000
+    - Monthly cost: 450
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35623-new-china-hotel/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/NewChinaHotel_1(Day).jpg.9de32dc170bdf709ab18330496925664.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/NewChinaHotel_2(DarkNite).jpg.4521e659e214095070d72d67aeda8f72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/NewChinaHotel_5.jpg.fd20b66ba267cf9331cd127ef7f3e2b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/NewChinaHotel_6.jpg.f207ec6e0e494e049a1e8cbc49e51caa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/NewChinaHotel_7.jpg.cb29b14ed6ff4ddd2833bde4d013009a.jpg
+assets:
+  - assetId: ct1999-new-china-hotel
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-new-china-hotel
+version: "1.0.0"
+lastModified: "2023-09-17T13:00:34Z"
+url: https://community.simtropolis.com/files/file/35623-new-china-hotel/?do=download

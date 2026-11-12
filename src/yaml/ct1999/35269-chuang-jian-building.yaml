@@ -1,0 +1,59 @@
+group: ct1999
+name: chuang-jian-building
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Chuang Jian Building (创建大厦), a high-rise office in Shenzhen
+  description: |-
+    ChuangJianBuilding (Chinese: 创建大厦) is a really normal high-rise office located in the FuTian district of Shenzhen.
+
+    **Stats**
+
+    *Growable CO$$*
+
+    - Stage: 8
+    - Lot size: 4x6
+    - Capacity: CO$$ 4,120
+    - Building style: Euro
+    - Occupant group: Medium Wealth Office Building
+
+    *Landmark*
+
+    - Lot size: 4x6
+    - Plop cost: 10,000
+    - Monthly cost: 550
+
+    *Landmark with jobs (CO$$)*
+
+    - Lot size: 4x6
+    - Capacity: CO$$ 4,120
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35269-chuang-jian-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/ChuangJianBuilding_4.jpg.8ac880f956834a0feed7d67336b49364.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/ChuangJianBuilding_5.jpg.719652d5599b5b4363b38cdec947a13c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/ChuangJianBuilding_6.jpg.4c6b0f5dae8c056f3bd7934305f57be5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/ChuangJianBuilding_7.jpg.0be9d6db07fd455d21d03abebc300ce4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/ChuangJianBuilding_8.jpg.3b6f55aa2ffdf7d00e94878fdd698dd2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/ChuangJianBuilding_9.jpg.0e9e3a7330133d53104e2a25670ac199.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-chuang-jian-building-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-chuang-jian-building-dn
+
+---
+assetId: ct1999-chuang-jian-building-dn
+version: "1.0.0"
+lastModified: "2022-08-14T02:23:46Z"
+url: https://community.simtropolis.com/files/file/35269-chuang-jian-building/?do=download&r=195073
+
+---
+assetId: ct1999-chuang-jian-building-mn
+version: "1.0.0"
+lastModified: "2022-08-14T02:23:46Z"
+url: https://community.simtropolis.com/files/file/35269-chuang-jian-building/?do=download&r=195074

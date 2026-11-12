@@ -1,0 +1,51 @@
+group: ct1999
+name: szdc
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SZDC (深圳发展中心) as a growable and a landmark lot
+  description: |-
+    SZDC (Chinese: 深圳发展中心).
+
+    Only a growable and a landmark lot are available.
+
+    **Stats**
+
+    *Growable CS$$*
+
+    - Stage: 8
+    - Lot size: 4x8
+    - Capacity: CS$ 4,100, CS$$ 3,500
+
+    *Landmark*
+
+    - Lot size: 4x8
+    - Plop cost: 9,000
+    - Monthly cost: 150
+
+    This building only comes in a Dark Nite version.
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/36241-szdc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/SZDC_1(Day).jpg.1d386b1ec17ec7861f14cba7034721c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/SZDC_2(DarkNite).jpg.f6929ebc0bb13d2832126da19277350c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/SZDC_4.jpg.da8ba7c5d5253b03c6451ad25ad1bdbd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/SZDC_5.jpg.8a9154f33dc88f4adf3c905748703a1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/SZDC_6.jpg.84d3a43513c712c33eb6ae57d67b9c70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/SZDC_7.jpg.3d449c9c972d402e626d64034c312b66.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/SZDC_8.jpg.d37e78740aa8f99bdad51614c9d7061a.jpg
+dependencies:
+  - peg:oww2-resource-pack-vol01
+assets:
+  - assetId: ct1999-szdc
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: ct1999-szdc
+version: "1.0.0"
+lastModified: "2024-05-11T03:16:44Z"
+url: https://community.simtropolis.com/files/file/36241-szdc/?do=download

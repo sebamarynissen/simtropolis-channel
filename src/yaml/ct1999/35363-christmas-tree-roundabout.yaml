@@ -1,0 +1,40 @@
+group: ct1999
+name: christmas-tree-roundabout
+version: "1.0.0"
+subfolder: 660-parks
+info:
+  summary: A Christmas tree for roundabouts, as a 2x2 park
+  description: |-
+    Christmas Tree (Chinese: 圣诞树)… Just a Christmas tree, please don't expect any description from this.
+
+    **Stats**
+
+    - Lot size: 2x2
+    - Plop cost: 500
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35363-christmas-tree-roundabout/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/ChrismasTree2022_5.jpg.b13ac738d6688e4e9d7ae293a7c95b77.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/ChrismasTree2022_6.jpg.a7b0a87c0a226d9b28d16d697e7a2c09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/ChrismasTree2022_8.jpg.887e39acb3b55ca7cc8d1d74fc5174d7.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-christmas-tree-roundabout-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-christmas-tree-roundabout-dn
+
+---
+assetId: ct1999-christmas-tree-roundabout-dn
+version: "1.0.0"
+lastModified: "2022-12-24T14:16:24Z"
+url: https://community.simtropolis.com/files/file/35363-christmas-tree-roundabout/?do=download&r=195882
+
+---
+assetId: ct1999-christmas-tree-roundabout-mn
+version: "1.0.0"
+lastModified: "2022-12-24T14:16:24Z"
+url: https://community.simtropolis.com/files/file/35363-christmas-tree-roundabout/?do=download&r=195883

@@ -1,0 +1,55 @@
+group: ct1999
+name: zhenhai-tower
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: ZhenHai Tower (镇海楼), a history museum in Yuexiu Park, Guangzhou
+  description: |-
+    ZhenHai Tower (Chinese: 镇海楼) is located in Yuexiu Park in Guangzhou City (Canton). It is a comprehensive history museum with local characteristics. Established in 1929, it is a place used for collection and exhibition of historical data and cultural relics of the city. It has two major exhibition areas: the Zhenhai Tower housing the historical relics and the Art Gallery showing many exquisite local craftworks.
+
+    **A little history**
+
+    In 1380. Zhenhai Tower (Sea Guard Tower) is 28 meters (92 feet) high and 31 meters (102 feet) wide.
+
+    It has been destroyed and rebuilt five times and was changed from a wooden structure to reinforced concrete in 1928. The reddish-brown bricks and grey tiles made the building primitively simple and unique. At the front of the building, there is a pair of two-meter-high stone lions in red sandstone made in the Ming Dynasty (1368-1644).
+
+    The tower houses nearly a thousand pictures, data and other exhibits on the city's history. Those collections display the changes of culture, custom and city developments. Walking into it, you can see a geographical model and a diagram of the ancient Guangzhou city on the first floor. On the second floor, there are historical relics (4000 BC - 589 AD) and unearthed remains of the Neolithic Age. When you come to the third floor, you can look around the historical relics of Sui, Tang, Song, Yuan, Ming and Qing Dynasties. The fourth floor mainly exhibits plentiful historical relics of the Qing Dynasty (1644 - 1911). Modern Chinese cultural relics since the Opium War (1840 - 1842) are displayed on the fifth floor. Besides, there are also special showrooms at the east side of the tower where all kinds of temporary or memorable special exhibitions are often held. At the west side, there is a barbette with a cannon on it and 23 ancient stone tablets.
+
+    There is no Easter egg in this building.
+
+    **Stats**
+
+    *Landmark*
+
+    - Lot size: 3x2
+    - Plop cost: 9,000
+    - Monthly cost: 350
+  author: Ct1999
+  website: https://community.simtropolis.com/files/file/35176-zhenhai-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/ZhenHaiTower_4.jpg.415aa4b3d3db9d0f377deb8acadecaf1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/ZhenHaiTower_5.jpg.d69670492d930055dcde5f3eef5b7526.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/ZhenHaiTower_6.jpg.1e69b50bd93b378ccaa39e0b5dec1277.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/ZhenHaiTower_7.jpg.53d5f908e418732e7715208f414433ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/ZhenHaiTower_8.jpg.4c292fcd1edc29908c43f2521c5f751d.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ct1999-zhenhai-tower-mn
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: ct1999-zhenhai-tower-dn
+
+---
+assetId: ct1999-zhenhai-tower-dn
+version: "1.0.0"
+lastModified: "2022-05-07T11:49:32Z"
+url: https://community.simtropolis.com/files/file/35176-zhenhai-tower/?do=download&r=194178
+
+---
+assetId: ct1999-zhenhai-tower-mn
+version: "1.0.0"
+lastModified: "2022-05-07T11:49:32Z"
+url: https://community.simtropolis.com/files/file/35176-zhenhai-tower/?do=download&r=194179
