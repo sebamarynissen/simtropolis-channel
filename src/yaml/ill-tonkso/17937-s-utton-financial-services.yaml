@@ -1,0 +1,26 @@
+group: ill-tonkso
+name: s-utton-financial-services
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: S Utton Financial Services
+  description: S Utton Lettings is a Brenntia based financial corporation and one of the biggest Financial businesses in Brennt. This small office building costs £1000 to plop and provides 900 jobs.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17937-ndex-its-s-utton-financial-services/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/810c9d12df869f998697e82d4d084230-SUFD.jpg
+    - https://www.simtropolis.com/objects/screens/0015/810c9d12df869f998697e82d4d084230-SUFN.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:textures-vol02
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-s-utton-financial-services
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-s-utton-financial-services
+version: "1.0"
+lastModified: "2007-03-31T18:57:15Z"
+url: https://community.simtropolis.com/files/file/17937-ndex-its-s-utton-financial-services/?do=download
