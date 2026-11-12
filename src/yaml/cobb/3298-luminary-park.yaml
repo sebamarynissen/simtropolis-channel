@@ -1,0 +1,35 @@
+group: cobb
+name: luminary-park
+version: "2"
+subfolder: 660-parks
+info:
+  summary: Luminary Park, a ploppable flower garden with illuminated trees
+  description: |-
+    A park with an attractive appearance in the night skyline. The Cobb Luminary Park is a great place for sims to unwind after a night on the town, or during the day it would be a great setting for sim weddings. It functions exactly as a large flower garden, and does not replace the original in the game.
+
+    Thanks to Brenda_Xne for modeling the trees, which were modified slightly to illuminate them.
+
+    **Stats**
+
+    - Lot size: 3x3
+    - Plop cost: 310
+    - Monthly cost: 35
+
+    **What's new in v2**
+
+    - Fixed a very small problem with the way the trees rendered.
+  author: Cobb32118
+  website: https://community.simtropolis.com/files/file/3298-cobb-luminary-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5baaec81e179542aa542d64040e92ed4-CobbLuminaryPark01STEX.JPG
+    - https://www.simtropolis.com/objects/screens/0011/5baaec81e179542aa542d64040e92ed4-Cobb32118_Cobb_Luminary_Park_JPG02.JPG
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: cobb-luminary-park
+
+---
+assetId: cobb-luminary-park
+version: "2"
+lastModified: "2004-05-08T01:29:45Z"
+url: https://community.simtropolis.com/files/file/3298-cobb-luminary-park/?do=download
