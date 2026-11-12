@@ -1,0 +1,34 @@
+group: ill-tonkso
+name: industrial-revolution-museum
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Industrial Revolution Museum
+  description: |-
+    The Industrial Revolution Experiance
+
+    This renovated old Mill now houses a Museum, dedicated to the Industrial Revoltion.
+
+    Max Capacity (full funding) 9000  
+    Plop Cost 5000  
+    EQ Boost 90  
+    Coverage - Full Large City Coverage
+
+    Lot Contains 2 BAT's, both included in the Download, No known other dependencies.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11804-industrial-revolution-museum/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d6046f65fc8aac35f9211770f774edc5-dayindus.JPG
+    - https://www.simtropolis.com/objects/screens/0024/d6046f65fc8aac35f9211770f774edc5-nightindus.JPG
+dependencies:
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-industrial-revolution-museum
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-industrial-revolution-museum
+version: "1.0"
+lastModified: "2005-02-28T18:21:04Z"
+url: https://community.simtropolis.com/files/file/11804-industrial-revolution-museum/?do=download
