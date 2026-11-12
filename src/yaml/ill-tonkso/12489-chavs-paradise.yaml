@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: chavs-paradise
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Chavs Paradise
+  description: |-
+    Chavs Paradise is a Low Wealth Council Estate Style Building based on those found across Britain. It houses 300 Unlucky Sims and Grows on a 2x3 Lot.
+
+    Enjoy?
+
+    * * *
+
+    Ps. The BAT **does** have nightlighting but I currently dont have the update installed.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12489-chavs-paradise/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5cce1af6bc6273ffb1743afb65ecef75-ChavsParadise.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol11
+assets:
+  - assetId: ill-tonkso-chavs-paradise
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-chavs-paradise
+version: "1.0"
+lastModified: "2005-05-16T09:54:12Z"
+url: https://community.simtropolis.com/files/file/12489-chavs-paradise/?do=download
