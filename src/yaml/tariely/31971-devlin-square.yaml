@@ -1,0 +1,56 @@
+group: tariely
+name: devlin-square
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: KOSC Devlin Square
+  description: |-
+    This one is a… reimagining of what is, I believe, the very first lot KOSC uploaded. He has since gone on to ever grandioser things, which is encouraging for us noobs (see his content on the STEX: [kingofsimcity](https://community.simtropolis.com/profile/33566-kingofsimcity/content/?type=downloads_file)).
+
+    He has graciously accepted that I tinker with his lot, and helped me learn new things on the way (menu order! menu icons!). Many thanks to him and to my other technical gurus, Rsc204 and Dreadnought. And especially Rivit, who lighted my SC4 world. Also the willing victims of the beta-tests, RobertLM78, Handyman and, again, Dreadnought. And the guys and gals on the forums (Twalsh, RandyE, Matias93, Fantozzi…). We need help when we begin sneaking a peek under the hood of SC4. That the community is always willing is a constant reassurance: we're not alone!
+
+    The original is [Devlin Square](https://community.simtropolis.com/files/file/11957-devlin-square/).
+
+    **Stats**
+
+    - Plop cost: 800
+    - Park effect: magnitude 75, radius 75
+    - Pollution: air -50
+    - Landmark effect: 60, radius 10
+
+    This is for SC4 Rush Hour.
+
+    Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lot only needs the Rivit streetlight prop from `pkg=tariely:essentials`.
+
+    The pond prop of the lot is part of `pkg=peg:ppond-kit`, which also adds the 4 pond lots of that kit to the Park menu.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/31971-tl-kosc-devlin-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/59e27529987f1_TL-DevlinSquareday.jpg.22b3cd076b50f8eac24c296f8a979aa8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/59e2752a54804_TL-DevlinSquarenite.jpg.7ea308cd36582dd03eb7547fc2734ffc.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:textures-vol01
+  - girafe:birches
+  - namspopof:nams-mega-props
+  - peg:oww2-resource-pack-vol01
+  - peg:ppond-kit
+  - tamorr:resource
+  - tariely:essentials
+  - vip:rural-pack
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-devlin-square
+    exclude:
+      - "/RVT ParkLights2\\.dat$"
+      - "/zLightCones_RVTNite\\.dat$"
+
+---
+assetId: tariely-devlin-square
+version: "1.0"
+lastModified: "2017-10-14T20:43:29Z"
+url: https://community.simtropolis.com/files/file/31971-tl-kosc-devlin-square/?do=download

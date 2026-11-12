@@ -1,0 +1,50 @@
+group: tariely
+name: street-stalls
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Kazuki Street Stalls v1 & v2
+  description: |-
+    I recently uploaded the lost original, which I have been using liberally for years. With some problems, though, that I thought would be nice to save new users from, like missing props; also, the pieces were not lighted, which is my personal bugaboo. Last but not least, I would have liked the v2 pieces to have some indication of direction, therefore I added some SPOT arrows in my relot.
+
+    So here is a new version of Kazuki's lots, trying to solve those little problems. I just licked them up and lit them and gave them new menu icons. All hail goes to Kazuki for making them in the first place.
+
+    You don't need the original, but it's here.
+
+    Those are neutral lots, eyecandy only.
+
+    One street tree of these lots is a prop of the SFBT tree families (`pkg=sfbt:essentials`). Choose the `Maxis-deciduous-trees` family to see it (only one family can be chosen).
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or take them out of my Essentials dependency.
+
+    The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lots only need the Rivit streetlight prop from `pkg=tariely:essentials`.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32139-tariel-kazuki-street-stalls-v1-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8b53f4ea0d5_TL-KazukiStreetStallsv1day.jpg.cb77552c3f6b5108b9ac7361904f247d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8b53f5b3596_TL-KazukiStreetStallsv1day.jpg.5959bdce3db2ae33bd3080c46c928b5a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a8b53f635c88_TL-KazukiStreetStallsv2.jpg.f3360f9c557c008f166adff13d42e30d.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - nam:textures
+  - peg:spot
+  - sfbt:essentials
+  - tamorr:resource
+  - tariely:essentials
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-street-stalls
+    exclude:
+      - "/RVT ParkLights2\\.dat$"
+      - "/zLightCones_RVTNite\\.dat$"
+
+---
+assetId: tariely-street-stalls
+version: "1.0"
+lastModified: "2018-02-19T22:49:01Z"
+url: https://community.simtropolis.com/files/file/32139-tariel-kazuki-street-stalls-v1-v2/?do=download

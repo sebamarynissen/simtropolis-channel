@@ -1,0 +1,56 @@
+group: tariely
+name: chateau-beynac
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Villavicencio's Chateau Beynac Grand Cru relot 7x6
+  description: |-
+    I like good wine (that's what "Grand Cru" means in French). So here's a vineyard, relotted from Villavicencio's creation.
+
+    The lot is IR stage 2 (agro-industry) and Grow only [cheat lotplop to the rescue!]. It can be extended with more vineyards on two sides at your leisure.
+
+    You can check Villavicencio's content on the STEX. The original lot isn't needed: the Villavicencio textures `stoneClearRustic` and `stoneClearRusticDemie` are included in this download.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is a constant and pleasant reassurance.
+
+    The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed. The lot only needs the Rivit lighting props from `pkg=tariely:essentials`.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or get rid of them entirely.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32300-tl-villav-chateaubeynac-7x6-ir/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b1bdb2faedca_TL-ChteauBeynacday.jpg.e3314dc9d0c746ef9f8a281fc3533326.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b1bdb31b84f6_TL-ChteauBeynacnite.jpg.56062e8fe273e01e3d93eef006d5e68d.jpg
+dependencies:
+  - blam:essentials
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - nos17:essentials
+  - peg:spam-super-resource-pack
+  - shk:parking-pack
+  - stex-custodian:rfy-mega-props-vol01
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - tamorr:resource
+  - tariely:essentials
+  - vip:delecto-ploppable-people
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+assets:
+  - assetId: tariely-chateau-beynac
+    exclude:
+      - "/RVT ParkLights2\\.dat$"
+      - "/zLightCones_RVTNite\\.dat$"
+
+---
+assetId: tariely-chateau-beynac
+version: "1.0"
+lastModified: "2018-06-09T13:59:07Z"
+url: https://community.simtropolis.com/files/file/32300-tl-villav-chateaubeynac-7x6-ir/?do=download

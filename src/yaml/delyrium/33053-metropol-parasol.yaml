@@ -1,0 +1,49 @@
+group: delyrium
+name: metropol-parasol
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Metropol Parasol
+  description: |-
+    Metropol Parasol is a wooden structure located at La Encarnación square, in the old quarter of Seville, Spain. It was designed by the German architect Jürgen Mayer and completed in April 2011. It has dimensions of 150 by 70 metres (490 by 230 ft) and an approximate height of 26 metres (85 ft) and claims to be the largest wooden structure in the world. Its appearance, location, delays and cost overruns in construction resulted in much public controversy. The building is popularly known as Las Setas de la Encarnación (Incarnation's mushrooms). (Wikipedia, 2019)
+
+    The package contains a landmark lot with no jobs and a ploppable lot with Cs$$ 720 jobs in your landmarks menu.
+
+    Unfortunately there is no night lighting like all my other uploads :(
+  author: delyrium
+  website: https://community.simtropolis.com/files/file/33053-metropol-parasol/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d4157bcf041e_MetropolParasol1.png.e83c969b71d75a1d2eac3db5872c994e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d4157bedb981_MetropolParasol2.png.c8e53ab02a0f48bcc02758a0b3f06ce3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d4157c10d623_MetropolParasol3.png.665e94b5cad2a4fc9d193af715aca612.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d4157c2be047_MetropolParasol4.png.38b2104ade29cdebc624246444f9ecae.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d4157c43c784_MetropolParasol5.png.508540ec8553be8e22f4a0f4993bbbc7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d4157c5e052b_MetropolParasol6.png.ce64383f0c9324a59389371c87b3ca1a.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - delyrium:metropol-parasol-model
+assets:
+  - assetId: delyrium-metropol-parasol
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: delyrium
+name: metropol-parasol-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=delyrium:metropol-parasol`
+  author: delyrium
+  website: https://community.simtropolis.com/files/file/33053-metropol-parasol/
+assets:
+  - assetId: delyrium-metropol-parasol
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: delyrium-metropol-parasol
+version: "1.0"
+lastModified: "2019-07-31T09:01:31Z"
+url: https://community.simtropolis.com/files/file/33053-metropol-parasol/?do=download

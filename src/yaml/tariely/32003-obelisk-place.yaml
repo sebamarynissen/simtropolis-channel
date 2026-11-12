@@ -1,0 +1,91 @@
+group: tariely
+name: obelisk-place
+version: "1.0.2"
+subfolder: 660-parks
+info:
+  summary: Obelisk Place 4x5 (seasonal)
+  description: |-
+    This one is all my own, but couldn't have been without Vnaoned's beautiful obelisk. And it is for Dreadnought, who loves the Needle. (Bonus: it can be combined with several other of my parks and plazas using the same pavement texture.)
+
+    For those who don't want seasonal trees, there is an evergreen version in `pkg=tariely:obelisk-place-evergreen`.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world. Also the willing victims of the beta-tests, RobertLM78, Handyman and, again, Dreadnought. And the guys and gals on the forums (Tyberius, Twalsh, Matias93, Fantozzi…). We need help when we begin sneaking a peek under the hood of SC4. That the community is always willing to lend a hand is a constant and pleasant reassurance for us noobies.
+
+    **Stats**
+
+    - Plopcost: 500 (come on, all that water, and all those trees?)
+    - Park effect: magnitude 20, radius 40
+    - Pollution: air -16
+    - Landmark effect: magnitude 100, radius 10
+
+    This is for SC4 Rush Hour. To see the trees, you must let the game run for a few months.
+
+    Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. The original download also contained two optional Rivit lighting overrides (`RVT ParkLights2.dat` and `zLightCones_RVTNite.dat`). They replace two Maxis park lampposts and two Maxis light cone textures, so they are not installed.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32003-tl-obelisk-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a01c4329d29d_TL-ObeliskPlazaspringday.jpg.0670dfab205fd6b21143a4dee2d5c8f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a01c4343a652_TL-ObeliskPlazaspringnite.jpg.50ca2c327a4ee476d8ea88aa2361206f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol02
+  - namspopof:nams-mega-props
+  - ndex:textures-vol1
+  - peg:ppond-kit
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - tamorr:resource
+  - vip:delecto-ploppable-people
+  - vip:vnaoned-props-pack-vol01
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+assets:
+  - assetId: tariely-obelisk-place
+    exclude:
+      - "/rivit lights/"
+
+---
+group: tariely
+name: obelisk-place-evergreen
+version: "1.0.2"
+subfolder: 660-parks
+info:
+  summary: Obelisk Place 4x5 (evergreen)
+  description: |-
+    The evergreen version of `pkg=tariely:obelisk-place`, for those who don't want seasonal trees. It uses my Evergreen trees: only the evergreen CP Oak (`pkg=tariely:trees-evergreen-cp-oak`) is needed, which will also make this oak an evergreen on any other lot using it.
+
+    To see the trees, you must let the game run for a few months. This is for SC4 Rush Hour.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32003-tl-obelisk-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a01c4329d29d_TL-ObeliskPlazaspringday.jpg.0670dfab205fd6b21143a4dee2d5c8f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a01c4343a652_TL-ObeliskPlazaspringnite.jpg.50ca2c327a4ee476d8ea88aa2361206f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol02
+  - namspopof:nams-mega-props
+  - ndex:textures-vol1
+  - peg:ppond-kit
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - tamorr:resource
+  - tariely:essentials
+  - tariely:trees-evergreen-cp-oak
+  - vip:delecto-ploppable-people
+  - vip:vnaoned-props-pack-vol01
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+assets:
+  - assetId: tariely-obelisk-place-evergreen
+
+---
+assetId: tariely-obelisk-place
+version: "1.0.2"
+lastModified: "2019-09-08T18:44:06Z"
+url: https://community.simtropolis.com/files/file/32003-tl-obelisk-place/?do=download&r=177626
+
+---
+assetId: tariely-obelisk-place-evergreen
+version: "1.0.2"
+lastModified: "2019-09-08T18:44:06Z"
+url: https://community.simtropolis.com/files/file/32003-tl-obelisk-place/?do=download&r=177627

@@ -1,0 +1,44 @@
+group: tariely
+name: bretton-plaza
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Bretton Plaza 3x3
+  description: |-
+    An honest-to-God plaza with NO trees. Yes, I can.
+
+    Many thanks to my technical gurus, Rsc204, Kosc and Dreadnought. And especially Rivit, who lighted my SC4world and is always generously ready to help. And the guys and gals on the forums (Twalsh, Tyberius06, Matias93, Fantozzi, Catty-cb, Corinamarie…). We need help when we begin peeking under the hood of SC4. That the community is always there for us noobies is very comforting.
+
+    One street light of this plaza uses a prop of the Uniform Street Lighting Mod (`pkg=kodlovag:uniform-street-lighting-mod`). It is not installed as a dependency, as it replaces the street lights and T21 networks of the whole city.
+
+    **General warnings**
+
+    - This is for SC4 Rush Hour.
+    - I play with NAM36, RRW-EU selection (it shouldn't interfere here, but you never know!)
+    - I also play with the T Wrecks Maxis HD Tree Replacement (`pkg=t-wrecks:maxis-tree-hd-replacement-mod`). If you don't use it, your trees might look a bit different; perhaps you should use it…
+    - I play Nights. Depending on your using or not a Light Replacement Mod, the lighting will be slightly different, but there will be light. If you don't want it, you can either tweak my lights in the Lot Editor or get rid of them entirely.
+    - I like trees. I make intensive use of trees. Especially the Girafe tree collection on the LEX; just follow it into the woods.
+  author: Tariely
+  website: https://community.simtropolis.com/files/file/32549-tl-bretton-plaza-3x3/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bc400772fccf_TL-BrettonPlazaday.jpg.3044766763acf657413269b5bdf3fdff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bc4007855178_TL-BrettonPlazanite.jpg.d9f1aa1ff90d530bdfef9ac11aa42af0.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jenx-vol03
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-rt-vol01
+  - nob:texture-pack-vol01
+  - tamorr:resource
+  - wmp:mega-props-vol01
+assets:
+  - assetId: tariely-bretton-plaza
+    exclude:
+      - "/Ftexture\\.dat$"
+
+---
+assetId: tariely-bretton-plaza
+version: "1.0"
+lastModified: "2018-10-15T02:57:49Z"
+url: https://community.simtropolis.com/files/file/32549-tl-bretton-plaza-3x3/?do=download
