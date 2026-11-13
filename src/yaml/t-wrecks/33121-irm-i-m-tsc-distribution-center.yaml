@@ -1,0 +1,73 @@
+group: t-wrecks
+name: irm-i-m-tsc-distribution-center
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-M lots using the TSC Distribution Center BAT by SimGoober
+  description: |-
+    I'm happy to present the first of a set of "twin" buildings made by Simgoober.
+
+    The fifth upload in this series is **TSC Distribution Center** by **SimGoober**. This rather large warehouse distributes parts and supplies for the Tractor Supply Co., of which SimGoober has also made a retail BAT. Originally a 6x6, I made the lots somewhat bigger once again because I wanted to have sufficient space on the lot for trucks to drive around (especially since there are loading doors on two sides) and for some employee parking. It was particularly interesting to lot around the main entrance and the right-hand side entrance, but the smaller doors out in the back also opened up some nice possibilities to add a few footpaths.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **68 I-M jobs**, the quadrupler version **272 I-M jobs**.
+
+    The following lots are included in this download:
+
+    - 6x7, Stage 3
+    - 8x6, Stage 3
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 627 jobs, and the lots also grow at Stage 3.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **SimGoober**.
+
+    T Wrecks, August 29, 2019
+  conflicts: "Contains the IRM lots for `pkg=simgoober:manufacturing-industrial-set`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33121-irm-i-m-tsc-distribution-center-by-simgoober/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_TSC_DistributionCenter_01.jpg.4ec06adba7d2b97b61b3e3e431739678.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_TSC_DistributionCenter_02.jpg.a85c8413377244746225de4a4522d313.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_TSC_DistributionCenter_03.jpg.cfa31be96efbbd254efa1207f10d24f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_TSC_DistributionCenter_04.jpg.cda8db2a0137da7defdcc718212fb5fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_TSC_DistributionCenter_05.jpg.62354e98f5e6d146e991cc4d56870731.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:sg-models-im1
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-tsc-distribution-center
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-tsc-distribution-center
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-M TSC Distribution Center \\(SG\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-tsc-distribution-center
+version: "1.0.0"
+lastModified: "2019-08-29T14:03:00Z"
+url: https://community.simtropolis.com/files/file/33121-irm-i-m-tsc-distribution-center-by-simgoober/?do=download

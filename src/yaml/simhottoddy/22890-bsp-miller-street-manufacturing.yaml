@@ -1,6 +1,6 @@
 group: simhottoddy
 name: bsp-miller-street-manufacturing
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: BSP Miller Street Manufacturing
@@ -53,11 +53,14 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/0018/a3f509b11a499dc71c4048076622f2e4-Warehouse_HD_upload2.jpg
     - https://www.simtropolis.com/objects/screens/0018/a3f509b11a499dc71c4048076622f2e4-Warehouse_HD_upload.jpg
+dependencies:
+- simhottoddy:bsp-miller-street-manufacturing-model
 variants:
 - variant: { toroca:industry-quadrupler:capacity: "standard" }
   assets:
   - assetId: simhottoddy-bsp-miller-street-manufacturing
     exclude:
+    - "\\.SC4Model$"
     - /I-m_2x4_MillerStManufacturing_PLOPx4.SC4Lot
     - /I-m3_3x4_MillerStManufacturing_GROWx4.dat
 - variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
@@ -66,8 +69,23 @@ variants:
   assets:
   - assetId: simhottoddy-bsp-miller-street-manufacturing
     exclude:
+    - "\\.SC4Model$"
     - I-m_2x4_MillerStManufacturing_PLOP.SC4Lot
     - I-m3_3x4_MillerStManufacturing_GROW.dat
+
+---
+group: simhottoddy
+name: bsp-miller-street-manufacturing-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=simhottoddy:bsp-miller-street-manufacturing`
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/22890-bsp-miller-street-manufacturing/
+assets:
+- assetId: simhottoddy-bsp-miller-street-manufacturing
+  include:
+  - "\\.SC4Model$"
 
 ---
 assetId: simhottoddy-bsp-miller-street-manufacturing

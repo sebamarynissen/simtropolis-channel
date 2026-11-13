@@ -1,0 +1,34 @@
+group: tiepinl
+name: irm-filler-collection
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Collection of all ploppable IRM filler lots
+  description: |-
+    A collection of the ploppable filler lots made for the Industrial Revolution Mod (`pkg=memo:industrial-revolution-mod`): the filler sets by T Wrecks, the logistic and fractional-angle filler sets by kingofsimcity, and the IRM fillers by philforhockey51. Use them to dress up and complete your industrial areas.
+
+    The fillers hold no or only a few jobs, so they work with and without CAM and no separate CAM edition is needed.
+
+    The IRM expansion lots themselves are not part of this collection, see `pkg=nos-17:irm-expansions-and-addons` for those.
+  author: T Wrecks, kingofsimcity, philforhockey51, Tyberius06
+  website: https://community.simtropolis.com/files/file/28268-industrial-revolution-mod-base-pack-maxis-lots/
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:industrial-revolution-mod-i-d-filler-set-1
+  - t-wrecks:industrial-revolution-mod-i-m-filler-set-1
+  - t-wrecks:industrial-revolution-mod-i-ht-filler-set-1
+  - kingofsimcity:irm-base-fa-filler-set
+  - kingofsimcity:irm-big-logistic-filler-set
+  - kingofsimcity:irm-logistic-filler-set-1
+  - kingofsimcity:irm-logistic-filler-set-2
+  - philforhockey51:irm-fillers-i-d-lots
+  - philforhockey51:irm-fillers-i-d-walls
+  - philforhockey51:irm-fillers-i-m-lots
+  - philforhockey51:irm-fillers-i-m-walls
+  - philforhockey51:irm-fillers-i-ht-lots-and-walls
+  - philforhockey51:irm-fillers-dirt-angles
+  - philforhockey51:irm-fillers-grass-angles
+  - philforhockey51:irm-fillers-full-concrete-angles
+  - philforhockey51:irm-fillers-mixed-concrete-angles
+  - tyberius06:irm-fillers-diagonal-walls-expansion

@@ -1,0 +1,52 @@
+group: t-wrecks
+name: irm-w2w-gadegtron-manufactory
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Gadgetron Manufactory BAT by JMyers2043
+  description: |-
+    The 12th upload in a series of IRM W2W lots based on BAT models made by other artists is **Gadgetron Manufactory** by **JMyers2043**.
+
+    The building will provide **160 I-D jobs** and comes on two simple lots, both straight lots with an alley either to the left or to the right:
+
+    - 2x3 straight, Stage 1 (2 versions)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 35 jobs and grow at Stage 2.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Thanks and credits to **JMyers2043** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, March 10, 2015
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30184-irm-w2w-gadegtron-manufactory-by-jmyers2043/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/1d94bd046fb8b70ef05347e986a6b7b3-irm_w2w_gadgetronmanufactory_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/f2b0e93614295c1cc00c32322255723d-irm_w2w_gadgetronmanufactory_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/2d465ec4ffc06fca1495dbd9721e1874-irm_w2w_gadgetronmanufactory_03.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jmyers-common-props
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-gadegtron-manufactory
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Gadgetron Manufactory \\(JMyers2043\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-gadegtron-manufactory
+version: "1.0"
+lastModified: "2015-03-10T20:04:00Z"
+url: https://community.simtropolis.com/files/file/30184-irm-w2w-gadegtron-manufactory-by-jmyers2043/?do=download

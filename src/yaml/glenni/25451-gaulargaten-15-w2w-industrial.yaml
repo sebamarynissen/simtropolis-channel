@@ -1,6 +1,6 @@
 group: glenni
 name: gaulargaten-15-w2w-industrial
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: Gaulargaten 15 w2w industrial
@@ -37,6 +37,24 @@ info:
     - https://www.simtropolis.com/objects/screens/0009/4c16cea1ae83dc72f14df11ef414178f-gaulargaten-2.jpg
 assets:
   - assetId: glenni-gaulargaten-15-w2w-industrial
+    exclude:
+      - "Gaulargaten 15-0x5ad0e817_0x5a0ce4ab_0x30000\\.SC4Model$"
+dependencies:
+  - glenni:gaulargaten-15-w2w-industrial-model
+
+---
+group: glenni
+name: gaulargaten-15-w2w-industrial-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=glenni:gaulargaten-15-w2w-industrial`
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/25451-gaulargaten-15-w2w-industrial/
+assets:
+  - assetId: glenni-gaulargaten-15-w2w-industrial
+    include:
+      - "Gaulargaten 15-0x5ad0e817_0x5a0ce4ab_0x30000\\.SC4Model$"
 
 ---
 assetId: glenni-gaulargaten-15-w2w-industrial

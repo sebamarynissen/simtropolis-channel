@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-m-maschinenbau
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-M lots using the SFBT Maschinenbau BAT by MatheMan (SFBT)
+  description: |-
+    Let's continue with the second upload in one day to get things rolling again, shall we?
+
+    The second upload in this series is **SFBT Maschinenbau** by SFBT team member **MatheMan**, which will appear in game as "Maschinenbau Klemmt & Söhne" for users with the German locale and as "K&S Machine Construction" for all other locales. It's a rather interesting and unusual building with its concrete ribs and the raised office section above the entrance. By the way, the original name translates literally as something like "stuck & sons".
+    I decided to make the wider, more spacious lot a bit more secluded by lining both sides with fences and leaving only the rear side open. The narrow lot is open towards the sides and comes without parking lots on its own (except for a few spaces in the rear), but with a pretty fancy entrance. Gotta impress those Chinese investors, after all!
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **30 I-M jobs**, the quadrupler version **120 I-M jobs**.
+
+    The following lots are included in this download:
+
+    - 3x6, Stage 2
+    - 4x5, Stage 1
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 158 jobs, and both lots grow at Stage 2.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **MatheMan** and the SFBT team.
+
+    T Wrecks, August 28, 2019
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33116-irm-i-m-sfbt-maschinenbau-by-matheman-sfbt/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_OM_SFBTMaschinenbau_04.jpg.395ed9109ae930c89348097a4a5dd289.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_OM_SFBTMaschinenbau_01.jpg.1a45cea453ec00ec8196091bb77064e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_OM_SFBTMaschinenbau_02.jpg.9a6538e52ab6410a27a7c14bd0c210ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_OM_SFBTMaschinenbau_03.jpg.dc39269c72588e23867d8ffb7ad1211b.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - andreas-roth:klemmt-and-sons-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-sfbt-maschinenbau
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-sfbt-maschinenbau
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-M SFBT Maschinenbau \\(OM\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-sfbt-maschinenbau
+version: "1.0.0"
+lastModified: "2019-08-28T16:14:00Z"
+url: https://community.simtropolis.com/files/file/33116-irm-i-m-sfbt-maschinenbau-by-matheman-sfbt/?do=download

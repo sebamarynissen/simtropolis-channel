@@ -1,0 +1,74 @@
+group: t-wrecks
+name: irm-i-ht-gsk-packaging
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the GSK Packaging BAT by Mattb325
+  description: |-
+    I'd have to look up how many of Tag_One's BATs we have covered with the recent uploads, and rest assured that there will be more. However, today it's time to turn onto the finish straight for high-tech IRM with another author:
+
+    The 34th upload in this series, **GSK Packaging**, is the first of two BATs by **Mattb325** that I decided to re-lot for the IRM. Back when I did these, I couldn't know that he'd release many more superb I-HT BATs, so they didn't make it into this pack and may come at a later point.
+
+    Anyway, back to the BAT: This one was quite the challenge to lot because it sits on a grass-covered hill that is part of the actual model - a very interesting setup that makes for much of this BAT's appeal IMO. However, it's always a tricky business to achieve a virtually seamless transition with textures, and since the BATted portion is shaded, putting regular props right next to it would have looked odd. Fortunately I could obscure part of the seam with a hedge, and use Cycledogg's shaded props rather extensively to try and blur the line between BAT and lot. Did I succeed? That's up to you to judge....
+
+    Why a new lot anyway? Well, while there was absolutely nothing wrong with the original one, I wanted to make sure some typical IRM features such as the standard lampposts etc. are present so it all blends together. This time around, both lots have the same footprint, but are pretty different in appearance. The first one has the building facing the road and a wall surrounding the parking lot, but it's not a perimeter wall so there's some open space left... with other industry growing around, this free outer perimeter of the lot outside the wall might look like part of the adjacent lot, hopefully helping to blur grid lines a bit. The second lot with the building side facing the road is rather closed and secluded on the left, but totally open to the right and back. It could look good on corners, or as the last building of an industry block.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **42 I-HT jobs**, the quadrupler version **168 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 4x5, Stage 2 (2 versions)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 188 jobs, and the lots also grow at Stage 2.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Mattb325**!
+
+    T Wrecks, May 12, 2018
+  conflicts: "Contains the IRM lots for `pkg=mattb325:gsk-packaging`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32257-irm-i-ht-gsk-packaging-by-mattb325/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_GSK_Packaging_01.jpg.97080052dca3f520eb378a6749acca40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_GSK_Packaging_02.jpg.add3d19fb829102054cccf947326818e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_Mattb325_GSK_Packaging_03.jpg.8329867df199c0e27c43717135a9d728.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - mattb325:gsk-packaging-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-gsk-packaging
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-gsk-packaging
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT GSK Packaging \\(Mattb325\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-gsk-packaging
+version: "1.0"
+lastModified: "2018-05-12T10:18:00Z"
+url: https://community.simtropolis.com/files/file/32257-irm-i-ht-gsk-packaging-by-mattb325/?do=download

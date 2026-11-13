@@ -1,0 +1,52 @@
+group: t-wrecks
+name: irm-w2w-industrial-unit-1
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 4 W2W I-M lots using the Industrial Unit 1 BAT by rp2005
+  description: |-
+    This is the first upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. This building is **Industrial Unit 1**, a very very old creation by **rp2005** (later **rp2006**, finally **zero7**) that I still think should not be forgotten. However, it is worth mentioning that **the building's night lighting will not work with SimFox' DarkNite mod, only with Maxis night**.
+
+    The building will provide **80 I-M jobs** and comes in two slightly different variations, both with identical stats and mostly identical lots:
+
+    - 2x2 right corner, Stage 1 (2 versions)
+    - 2x2 left corner, Stage 1 (2 versions)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide only 22 to 23 jobs and also grow at Stage 1.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    I'm glad that I have finally started the second series of IRM W2W BATs. While the first ones will be very simple old buildings on equally simple lots, I guarantee that there will also be some bigger structures on more exciting lots. Still, basic fillers are always needed. Credits to **rp2005** for this BAT, and brace yourselves - more IRM W2W is coming...
+
+    T Wrecks, May 7, 2015
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30522-irm-w2w-industrial-unit-1-by-rp2005/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/4c6c700cd7ac17eb58dce2ff7fd210d8-irm_w2w_industrialunit1_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/fb6cd1444dde6c1f0a786cc192a8e776-irm_w2w_industrialunit1_02.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-misc-vol01
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-industrial-unit-1
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Industrial Unit 1 \\(rp2005\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-industrial-unit-1
+version: "1.0"
+lastModified: "2015-05-06T22:33:00Z"
+url: https://community.simtropolis.com/files/file/30522-irm-w2w-industrial-unit-1-by-rp2005/?do=download
