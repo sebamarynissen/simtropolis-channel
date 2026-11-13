@@ -1,0 +1,97 @@
+group: bixel
+name: hk-scb-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: HK SCB Building
+  description: |-
+    * * *
+
+    **The Hong Kong / Asia BAT Team**
+
+    * * *
+
+    presents
+
+    **SCB Building**
+
+    BAT created by **bixel**  
+    Modding, lot design, readme & custom menu icons by **T Wrecks**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&entercat=y)
+
+    * * *
+
+    **Introduction / Overview**
+
+    This is the third and for now the final building in the CS series. It was inspired by a photo that turned out to be of the Shanghai Commercial Bank, hence the SCB logo on the building. However, the reference photo was not the best, and when more photos appeared, it turned out that the building looked rather different from the BAT after all. Still, the BAT looked to good not to be released, so here it is: A building roughly inspired by a real-world structure and simply called "SCB Building" in game. It's another mid-rise building that will provide 350 CS$$$ jobs.
+
+    The SCB Building has been modded to serve two functions:
+
+    -   Ploppable functional CS$$$
+    -   Growable CS$$$
+
+    All lots share the same basic design, but flora and people on them are randomized and will change every time the building grows or is plopped.  
+      
+    The ploppable version can be found towards the bottom of your landmarks menu, together with the other HKABT ploppables.
+
+    * * *
+
+    **Dependencies**
+
+    **Textures:**  
+    none!
+
+    **Props:**  
+    none!
+
+    * * *
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: FUNCTIONAL VERSIONS**
+
+    **Parameter**
+
+    **Growable**
+
+    **Ploppable with jobs**
+
+    Occupants:
+
+    350 CS$$$  
+    (740 CS$$ / 1,950 CS$ when dilapidated)
+
+    350 CS$$$  
+    (740 CS$$ / 1,950 CS$ when dilapidated)
+
+    Lot Sizes /  
+    Growth Stage:
+
+    4x3  
+    (stage 7)
+
+    4x3  
+    n/a
+
+    * * *
+
+    Mod Edit: Fixed broken description formatting.
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17759-hk-scb-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/837873ba7e20f71dcf58af69e08e5547-HK_SCB_Building_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0015/837873ba7e20f71dcf58af69e08e5547-HK_SCB_Building_Night.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol05
+assets:
+  - assetId: bixel-hk-scb-building
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-scb-building
+version: "1.0"
+lastModified: "2007-02-09T19:08:42Z"
+url: https://community.simtropolis.com/files/file/17759-hk-scb-building/?do=download

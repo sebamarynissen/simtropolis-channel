@@ -1,0 +1,102 @@
+group: bixel
+name: hk-jungold-financial
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: HK JunGold Financial
+  description: |-
+    * * *
+
+    **The Hong Kong / Asia BAT Team**
+
+    * * *
+
+    presents
+
+    **JunGold Financial**
+
+    BAT created by **bixel**  
+    Modding, lot design, readme & custom menu icons by **T Wrecks**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&entercat=y)
+
+    * * *
+
+    **Introduction / Overview**
+
+    The second building in this CS mini-series is called JunGold Financial. It's a mid-rise building that will provide 550 CS$$$ jobs.
+
+    JunGold Financial has been modded to serve two functions:
+
+    Ploppable functional CS$$$ Growable CS$$$  
+    All lots share the same basic design, but flora and people on them are randomized and will change every time the building grows or is plopped.  
+      
+    The ploppable version can be found towards the bottom of your landmarks menu, together with the other HKABT ploppables.
+
+    * * *
+
+    **Dependencies**
+
+    **Textures:**  
+    [BSC Textures MEGA Pack](../../stex/index.cfm?id=12646)
+
+    **Props:**  
+    none!
+
+    * * *
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: FUNCTIONAL VERSIONS**
+
+    **Parameter**
+
+    **Growable**
+
+    **Ploppable with jobs**
+
+    Occupants:
+
+    550 CS$$$  
+    (1,192 CS$$ / 2,557 CS$ when dilapidated)
+
+    550 CS$$$  
+    (1,192 CS$$ / 2,557 CS$ when dilapidated)
+
+    Lot Sizes /  
+    Growth Stage:
+
+    4x5  
+    (stage 8)
+
+    4x5  
+    n/a
+
+    Zone Type:
+
+    Dense commercial
+
+    n/a
+
+    Tileset(s):
+
+    Euro
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17758-hk-jungold-financial/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d7ed49ae78094d3f7950ccc2f1e42a7b-JunGoldFinancial_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d7ed49ae78094d3f7950ccc2f1e42a7b-JunGoldFinancial_Night.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol05
+assets:
+  - assetId: bixel-hk-jungold-financial
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-jungold-financial
+version: "1.0"
+lastModified: "2007-02-09T17:43:44Z"
+url: https://community.simtropolis.com/files/file/17758-hk-jungold-financial/?do=download

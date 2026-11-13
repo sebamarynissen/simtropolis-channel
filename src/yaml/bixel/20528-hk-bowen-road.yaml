@@ -1,0 +1,50 @@
+group: bixel
+name: hk-bowen-road
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Bowen Road
+  description: |-
+    **HKABT Presents**  
+
+      
+
+    **Bowen Road!**  
+    model: bixel  
+    modding: bixel  
+    readme: bixel  
+
+      
+    Referenced from a real building located on Bowen Road Hong Kong. Its a little dirty but still nice! Good for R$  
+      
+    Bowen Road  
+    Occupancy: R$ 1900  
+    Pollution:  
+    Air: 20  
+    Water: 20  
+    Garbage: 30  
+    Power Consumed: 70  
+    Water Consumed: 120?  
+      
+    LOT SIZE: 4x2  
+    Stage ??  
+    All Sets!!  
+      
+    Enjoy!
+  author: bixel
+  website: https://community.simtropolis.com/files/file/20528-hk-bowen-road/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b282446e42a0a58322efbd593bfbc801-D.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b282446e42a0a58322efbd593bfbc801-N.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol24
+assets:
+  - assetId: bixel-hk-bowen-road
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-bowen-road
+version: "1.0"
+lastModified: "2008-10-10T02:18:33Z"
+url: https://community.simtropolis.com/files/file/20528-hk-bowen-road/?do=download

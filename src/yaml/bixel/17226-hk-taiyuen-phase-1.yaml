@@ -1,0 +1,111 @@
+group: bixel
+name: hk-taiyuen-phase-1
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK TaiYuen Phase 1
+  description: |-
+    * * *
+
+    # The Hong Kong / Asia BAT Team
+
+    * * *
+
+    presents
+
+    ## Tai Yuen Phase 1
+
+    BAT created by **bixel**  
+    Modding, menu icons, lot design & readme by **T Wrecks**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&entercat=y)
+
+    * * *
+
+    ## Introduction / Overview
+
+    Tai Yuen is yet another massive residential complex made up of three phases. The three phases are separate BATs and offer many options and possibilities. They will look good both next to each other and as individual buildings, and have been lotted and modded to be as useful and flexible as possible.
+
+    This download contains Tai Yuen Phase 1, a block composed of two orthogonally oriented towers on a joint base. The base section features a parking garage entrance towards the road, and a nice glass lobby towards the back. Phase 1 houses 4,932 R$$ sims (8,345 R$ when dilapidated).
+
+    The following lots are included:
+
+    -   Growable R$$
+    -   Growable R$$ with transit-enabled parking garage entrance
+    -   Landmark with transit-enabled parking garage entrance
+
+    **Special features of the Tai Yuen set:**
+
+    -   Modular layout \- the lots have been designed in a way that several Tai Yuen lots plopped or grown next to each other will blend into each other seamlessly; footpaths leading to the edge of one lot will continue on the next lot without a break or disruption. Phases 2a and 2b feature this connectivity at their left, right, and back sides, Phase 3 on its left and right side. Two Phase 1 lots grown or plopped back to back connect visually to the sides of phase 3 and the sides and backs of phases 2a and 2b.
+    -   For convenient plopping in view of transit connection options, the landmark lots have been equipped with the patented *TrafficMark*TM technology ( ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif) ) which will highlight transit-enabled tiles while you have the lot on your mouse cursor. See where that parking garage entrance will be and adapt your construction site accordingly *before* you plop!
+    -   All landmark versions feature individual custom icons that are grouped conveniently together (unless other custom buildings happen to interfere) and labeled properly. In addition to this, the description texts (icon hover queries) will tell you the most important things you need to know.
+    -   The landmarks are intended to be the centerpieces of popular residential districts, so they have been modded to provide an additional park effect (which affects residential zones) rather than only a landmark effect (which affects only commercial zones).
+    -   You can use as many or as few lots as you desire, there are no conflicts.
+    -   In total, the entire Tai Yuen set is composed of no less than 14 lots!
+
+    **Dependencies**
+
+    Since Maxis failed to include even some of the most basic all-purpose textures, I'm afraid there is one dependency.  
+    You will need the [BSC Textures MEGA Pack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90) for the parking garage entrances to show up.
+
+    There is also an entirely optional eye-candy gimmick: I added the spiffy light cones included in the [PEG MTP Mountain Theme Pack](https://community.simtropolis.com/files/file/14025-peg-mtp-mountain-theme-pack/). If you don't have this pack, the lamp posts will show the regular Maxis light auras, so you don't really miss much.  
+    My advice is: If you have the MTP Theme Pack anyway for one reason or another, enjoy. If you don't have it, don't bother downloading it only for these light cones, relax and enjoy nonetheless. ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif ";)")
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    TABLE 1: GROWABLE VERSIONS
+
+    -   Growable R$$
+    -   Occupants:4,932 R$$ (8,345 R$ when dilapidated)
+    -   Lot Sizes / Growth Stage:8x3 stage 7
+    -   Zone Type:Dense residential
+    -   Tileset(s):Euro
+    -   Value:§ 53,400
+    -   Worth / Bulldoze Cost:§ 1,098
+    -   Flammability:40 / Stage 5
+    -   Power consumed:79 MWh/month
+    -   Water consumed:155 gallons/month
+    -   Air pollution:22 over 5 tiles
+    -   Water pollution:29 over 6 tiles
+    -   Garbage generated:5 tons/month
+
+    TABLE 2: LANDMARK
+
+    -   Lot Size 8x3
+    -   Menu Position:Landmarks, near bottom
+    -   Plop Cost:§ 120,000
+    -   Maintenance Cost:§ 225/month
+    -   Landmark Effect:+ 30 over 20 tiles
+    -   Park Effect:+ 20 over 20 tiles
+    -   Mayor Rating Effect:+5 over 256 tiles
+    -   Worth / Bulldoze Cost:§ 1,098
+    -   Flammability:40 / Stage 5
+    -   Power consumed:435 MWh/month
+    -   Water consumed:1,000 gallons/month
+    -   Air pollution:6 over 2 tiles
+    -   Water pollution:6 over 3 tiles
+    -   Garbage generated:34 tons/month
+
+    All growable lots will grow on dense residential zoning in the Euro tileset only. Please note that growable transit-enabled lots cannot be overgrown by other buildings once they are grown. If you don't like a transit-enabled growable building where it appeared and want it replaced by something else, bulldoze it manually.
+
+    Staff Edit 02/21/2020: Restored missing About from ReadMe, added File Descriptor. -CF
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17226-hk-taiyuen-phase-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/99a6a45756bc236973ed8038f4ec0114-TaiYuen1_Phase1_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0017/99a6a45756bc236973ed8038f4ec0114-TaiYuen1_Phase1_Night.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol09
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: bixel-hk-taiyuen-phase-1
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-taiyuen-phase-1
+version: "1.0"
+lastModified: "2006-11-03T09:23:43Z"
+url: https://community.simtropolis.com/files/file/17226-hk-taiyuen-phase-1/?do=download
