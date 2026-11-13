@@ -1,0 +1,55 @@
+group: sejr99999
+name: wildwest-grow-lots
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Growable lots for the buildings of the AGC Wild West DLC
+  description: |-
+    BarrocoHispano released a pack of Wild West buildings and props, in both Dark Nite and Maxis Nite. These highly detailed models need to be seen in SC4, so here are my simple lots for them. They work with both night modes.
+
+    Included are growable commercial and residential lots, four small churches, a functioning sheriff's office and a water tower that provides water.
+
+    **Stats**
+
+    *Commercial (growable)*
+
+    - Bank: 1x2, CS$$ 11 (CS$ 36 when dilapidated)
+    - Blacksmiths: 1x2, CS$ 47, and 2x2, CS$ 85
+    - Hotel Meade: 2x2, CS$$ 18 (CS$ 61)
+    - Wild Horse Saloon: 2x2, CS$$ 17 (CS$ 61)
+    - Horseshoe Saloon: 3x2, CS$ 50
+    - Mercantile: 1x1, CS$$ 10 (CS$ 31)
+    - General Store: 1x2, CS$$ 12 (CS$ 39)
+
+    *Residential (growable)*
+
+    - Big Jake's House: 2x2, R$$ 22 (R$ 37)
+    - House 2: 1x1, R$$ 14 (R$ 23)
+    - Home of B Goode: 1x1, R$ 23
+
+    *Other*
+
+    - Churches (Baptist, Methodist, Pentecostal, Assembly of God): 1x2, plop cost 40, monthly cost 5
+    - Sheriff: 1x1, plop cost 800, monthly cost 25, police radius 1,585, jail for 50 inmates
+    - Water tower: 1x1, plop cost 100, monthly cost 5, produces 20,000 water
+  author: sejr99999
+  website: https://community.simtropolis.com/files/file/35350-barrocohispano-wildwest-grow-lots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/638b87c44532f_WildWestday.jpg.10cb0e51cf3572503db24ee2b9169297.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/638b87c60f791_WildWestnight.jpg.4d3dcaacc6b85f57bdefc28ed924ec0e.jpg
+dependencies:
+  - agc:wild-west-dlc
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-sg-vol01
+  - kergelen:mmp-mediterranean-cp-trees-krg-selection
+  - peg:mtp-super-pack
+assets:
+  - assetId: sejr99999-wildwest-grow-lots
+
+---
+assetId: sejr99999-wildwest-grow-lots
+version: "1.0.0"
+lastModified: "2022-12-03T17:44:06Z"
+url: https://community.simtropolis.com/files/file/35350-barrocohispano-wildwest-grow-lots/?do=download

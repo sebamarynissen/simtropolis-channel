@@ -1,0 +1,53 @@
+group: thecitiescenter
+name: powells-city-of-books
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Powell's City of Books, a bookstore in Portland, Oregon
+  description: |-
+    Powell's City of Books is one of the largest bookstores in the world. Founded in 1971, it is located in the Pearl District of Downtown Portland, Oregon, USA. The bookstore, which sells new and used books, has approximately 1.6 acres (68,000 square feet) of retail space, with nine rooms and 3,500 sections. There is also a coffee shop located within the premises and a Rare Book section.
+
+    This version sits on a 4x4 lot and is available via the Landmarks menu.
+
+    **Stats**
+
+    - Lot size: 4x4
+    - Plop cost: 1,971
+    - Bulldoze cost: 100
+    - Monthly cost: 150
+    - Landmark effect: 40 over 20
+    - Mayor rating effect: 10
+  author: thecitiescenter
+  website: https://community.simtropolis.com/files/file/34764-tcc-powells-city-of-books/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/TCC_Powells_01.jpg.39170586ba084adea84471240568acf6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/TCC_Powells_02.jpg.73516efb6adb02b4cc96ffffd3fd8507.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/TCC_Powells_03.jpg.b2cfa2148e75fd82d7af5a36dbeb0db1.jpg
+dependencies:
+  - pclark06:mega-props-vol1
+  - reddonquixote:prop-pack
+  - thecitiescenter:powells-city-of-books-models
+assets:
+  - assetId: thecitiescenter-powells-city-of-books
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: thecitiescenter
+name: powells-city-of-books-models
+version: "1.0.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=thecitiescenter:powells-city-of-books`
+  author: thecitiescenter
+  website: https://community.simtropolis.com/files/file/34764-tcc-powells-city-of-books/
+assets:
+  - assetId: thecitiescenter-powells-city-of-books
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: thecitiescenter-powells-city-of-books
+version: "1.0.0"
+lastModified: "2021-11-27T02:25:47Z"
+url: https://community.simtropolis.com/files/file/34764-tcc-powells-city-of-books/?do=download

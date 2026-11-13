@@ -1,0 +1,57 @@
+group: towerdude
+name: zhang-fei-court
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Zhang Fei Court, a Chinese housing estate (landmark)
+  description: |-
+    You are in the heart of the property bubble in China with this! This is directly taken from all these estates popping out of the ground in China.
+
+    Model, lot and modding by Towerdude. File conversion and lights by Cockatoo 210893.
+
+    The street trees come from `pkg=sfbt:essentials`. Its `tree-family` variant lets you choose one tree family, while this lot uses trees of the Maxis deciduous, palm and pine families, so only the trees of the family you choose will show.
+
+    **Stats**
+
+    *Landmark (ploppable)*
+
+    - Lot size: 9x6
+    - Plop cost: 50,000
+    - Bulldoze cost: 100
+    - Monthly cost: 150
+    - Landmark effect: 40 over 20
+    - Mayor rating effect: 10
+  author: TowerDude
+  website: https://community.simtropolis.com/files/file/24973-zhang-fei-court/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/37b77b42747ed3e088c61becbf9c89a6-stex5.jpg
+    - https://www.simtropolis.com/objects/screens/0007/37b77b42747ed3e088c61becbf9c89a6-stex6.jpg
+dependencies:
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:textures-vol02
+  - sfbt:essentials
+  - towerdude:zhang-fei-court-models
+assets:
+  - assetId: towerdude-zhang-fei-court
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: towerdude
+name: zhang-fei-court-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=towerdude:zhang-fei-court`
+  author: TowerDude
+  website: https://community.simtropolis.com/files/file/24973-zhang-fei-court/
+assets:
+  - assetId: towerdude-zhang-fei-court
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: towerdude-zhang-fei-court
+version: "1.0"
+lastModified: "2010-09-29T07:31:59Z"
+url: https://community.simtropolis.com/files/file/24973-zhang-fei-court/?do=download

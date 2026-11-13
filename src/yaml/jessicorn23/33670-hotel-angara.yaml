@@ -1,0 +1,50 @@
+group: jessicorn23
+name: hotel-angara
+version: "1.1.0"
+subfolder: 360-landmark
+info:
+  summary: Hotel Angara, a hotel on Kirova Square in Irkutsk
+  description: |-
+    Located in Irkutsk's central Kirova Square, the Hotel Angara was built in the late 1950s during the city's construction boom as a modern showpiece of contemporary Russian construction ahead of the scheduled visit of president Dwight Eisenhower. In the past 60 years, the hotel has become somewhat run-down, as most "Khrushchevka" type buildings in Russia do, however it remains an icon of downtown Irkutsk and a functioning hotel. On the bottom floor are several shops and restaurants, and one of Irkutsk's major bus hubs.
+
+    **Stats**
+
+    *Landmark (ploppable)*
+
+    - Lot size: 8x3
+    - Plop cost: 8,000
+    - Bulldoze cost: 100
+    - Monthly cost: 150
+    - Landmark effect: 40 over 20
+    - Mayor rating effect: 10
+  author: Jessicorn23
+  website: https://community.simtropolis.com/files/file/33670-hotel-angara/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/ang2.jpg.24c05032e63ce7a0cb9ed9e91cf15ee0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/ang1.jpg.51d23c9986be6738d0c32fa30047ff67.jpg
+dependencies:
+  - jessicorn23:hotel-angara-models
+assets:
+  - assetId: jessicorn23-hotel-angara
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: jessicorn23
+name: hotel-angara-models
+version: "1.1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=jessicorn23:hotel-angara`
+  author: Jessicorn23
+  website: https://community.simtropolis.com/files/file/33670-hotel-angara/
+assets:
+  - assetId: jessicorn23-hotel-angara
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: jessicorn23-hotel-angara
+version: "1.1.0"
+lastModified: "2020-06-24T17:41:49Z"
+url: https://community.simtropolis.com/files/file/33670-hotel-angara/?do=download&r=181785
