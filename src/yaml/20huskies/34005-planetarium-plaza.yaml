@@ -1,0 +1,34 @@
+group: 20huskies
+name: planetarium-plaza
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Planetarium Plaza, a fictional model of the solar system
+  description: |-
+    Planetarium Plaza is a fictional model of the solar system, not only for display outside a prominent city science center or as eye candy for astronomers, but also as a memorial to Pluto's lost planethood. It provides both landmark and park effects as well as a small, localized earthquake (EQ) boost.
+
+    **Stats**
+
+    - Lot size: 2x2
+    - Plop cost: 3,890
+    - Bulldoze cost: 89
+    - Monthly cost: 15
+    - Landmark effect: 45 over 18
+    - Park effect: 35 over 25
+    - EQ boost: 5 within a radius of 80
+    - Mayor rating effect: 10
+  author: 20huskies
+  website: https://community.simtropolis.com/files/file/34005-planetarium-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/planet_day.jpg.de81a47cac0fd969667d7e3d4fd74145.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/planet_night.jpg.aa2b7d596d6a51635191ad1c810aeca9.jpg
+dependencies:
+  - bsc:textures-vol03
+assets:
+  - assetId: 20huskies-planetarium-plaza
+
+---
+assetId: 20huskies-planetarium-plaza
+version: "1.0.0"
+lastModified: "2020-12-24T05:17:49Z"
+url: https://community.simtropolis.com/files/file/34005-planetarium-plaza/?do=download
