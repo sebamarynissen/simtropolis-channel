@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: hsrp-terminus-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: HSRP Terminus Station
+  description: |-
+    After searching the STEX for a terminus station to sit alongside my mainline rail terminal I discovered there wasn't one. Several hours in MAX later and I ended up with this. Now me and Barbyw went through a lot of hassle to get this thing to work in the game (for some reason it just didn't want to) but we got there in the end. Here it is, a proper terminus for the High Speed Rail Project.
+
+    Lot Size: 5x18 Transit Enabled Lot
+
+    Capcity: 60,000 HSR (monorail)
+
+    Build Cost: §20,000
+
+    dependencies:
+
+    Mandatory: HSRP (duh!) [(win)](http://http//www.simtropolis.com/stex/details.cfm?id=19748) [(mac)](http://http//www.simtropolis.com/stex/details.cfm?id=19749)
+
+    Optional: [Peg Scenic Drive Kit](http://http//www.simtropolis.com/stex/details.cfm?id=12581)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/22760-ndex-its-hsrp-terminus-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/14cb3f46c53466ba8d7e2524c52a8d10-hsrday.jpg
+    - https://www.simtropolis.com/objects/screens/0003/14cb3f46c53466ba8d7e2524c52a8d10-hsrnight.jpg
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: ill-tonkso-hsrp-terminus-station
+
+---
+assetId: ill-tonkso-hsrp-terminus-station
+version: "1.0"
+lastModified: "2009-10-31T11:55:48Z"
+url: https://community.simtropolis.com/files/file/22760-ndex-its-hsrp-terminus-station/?do=download

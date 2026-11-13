@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: holland-and-judd-administrative-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Holland and Judd Administrative Building
+  description: |-
+    Holland and Judd are the largest Shipbuilding corporation in Brennt. Based in the city of Tynecastle, H&J have offices and yards all over the Brenntian Archipelego and are ready to spread to the rest of the Sim World. This building costs £3200 and provides 2700 new CO££ jobs for your city. It fits onto a 4x4 lot and crosses over a road for extra functionality.
+
+    Extra Credit goes out to Bixel for performing the Render
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/17933-ndex-its-holland-and-judd-administrative-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/e9963b2fc8422d74c93cf9142693d4d9-hajd.jpg
+    - https://www.simtropolis.com/objects/screens/0026/e9963b2fc8422d74c93cf9142693d4d9-hajn.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-holland-and-judd-administrative-building
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-holland-and-judd-administrative-building
+version: "1.0"
+lastModified: "2007-03-31T18:47:06Z"
+url: https://community.simtropolis.com/files/file/17933-ndex-its-holland-and-judd-administrative-building/?do=download

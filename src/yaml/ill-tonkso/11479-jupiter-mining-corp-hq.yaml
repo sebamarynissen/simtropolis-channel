@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: jupiter-mining-corp-hq
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Jupiter Mining Corp HQ
+  description: |-
+    **JMC**
+
+    The Jupiter Mining Corp, (owner of the mining ship 'Red Dwarf') Hq is available for you to download.
+
+    This is my Second succesfull BAT, please download and rate high.
+
+    JMC [www.reddwarf.com](http://www.reddwarf.com/)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11479-jupiter-mining-corp-hq/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/370ee770ac5ea53708a5cf12d236d278-previewjmc.JPG
+    - https://www.simtropolis.com/objects/screens/0007/370ee770ac5ea53708a5cf12d236d278-JMCNIGHT.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-jupiter-mining-corp-hq
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-jupiter-mining-corp-hq
+version: "1.0"
+lastModified: "2005-01-21T17:20:32Z"
+url: https://community.simtropolis.com/files/file/11479-jupiter-mining-corp-hq/?do=download

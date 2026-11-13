@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: modern-art-sculpture
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Modern Art Sculpture
+  description: |-
+    Spruce up your City Sqaures with this new Sculpture.
+
+    I based it on the recent work of a great BATter Phath3.
+
+    Can be found under the educational menu.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12284-modern-art-sculpture/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/41b7701f5853e7a7d8f08938e8dafc0d-intheLEts.JPG
+    - https://www.simtropolis.com/objects/screens/0008/41b7701f5853e7a7d8f08938e8dafc0d-Sculpturenighttonksofnsgbni.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-modern-art-sculpture
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-modern-art-sculpture
+version: "1.0"
+lastModified: "2005-04-19T17:49:51Z"
+url: https://community.simtropolis.com/files/file/12284-modern-art-sculpture/?do=download

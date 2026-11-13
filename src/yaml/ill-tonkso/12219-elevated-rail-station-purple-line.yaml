@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: elevated-rail-station-purple-line
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Elevated Rail Station Purple Line
+  description: |-
+    As Requested by Jeem, The Purple Line.
+
+    A Note from Ill Tonks, This is the fith time i have had to render this on request, what next Leapord Skin, Rainbow!!!? lol, oj
+
+    Capacity 10000
+
+    Lot 2x6
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12219-elevated-rail-station-purple-line/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bdf98eccc7c1ca1e7788685d1292458f-PurpleLineDay.JPG
+    - https://www.simtropolis.com/objects/screens/0021/bdf98eccc7c1ca1e7788685d1292458f-PurpleLineNight.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-elevated-rail-station-purple-line
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-elevated-rail-station-purple-line
+version: "1.0"
+lastModified: "2005-04-13T12:59:13Z"
+url: https://community.simtropolis.com/files/file/12219-elevated-rail-station-purple-line/?do=download

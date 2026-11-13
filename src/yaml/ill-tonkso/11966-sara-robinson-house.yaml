@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: sara-robinson-house
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Sara Robinson House
+  description: |-
+    Sara Robinson House. Queen Street, Portsmouth, UK
+
+    This Large Tower Block was built in the 1960's and is a 21 story pre-fab.
+
+    R
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11966-sara-robinson-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/12adea5e4add2747ce4217f5fcfb2a7d-srhhiqexnitelitefail.JPG
+dependencies:
+  - ndex:its-mega-pack-vol11
+assets:
+  - assetId: ill-tonkso-sara-robinson-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-sara-robinson-house
+version: "1.0"
+lastModified: "2005-03-18T13:36:58Z"
+url: https://community.simtropolis.com/files/file/11966-sara-robinson-house/?do=download

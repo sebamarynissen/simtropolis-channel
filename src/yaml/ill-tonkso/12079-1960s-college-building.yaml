@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: 1960s-college-building
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: 1960s College Building
+  description: |-
+    Another College for the collection.
+
+    Based on the 1960's style of architecture 'brutalis,' this is designed to fit in with British style cities.
+
+    Coverage = Full  
+    Capacity = 16000  
+    EQ Boost 50  
+    Water Consumed = 35
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12079-1960s-college-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/35f77c9af0ff7b64e3164a34473629c6-dusmegnichbrutalistcollege.JPG
+    - https://www.simtropolis.com/objects/screens/0007/35f77c9af0ff7b64e3164a34473629c6-collegenighttonksoprevied.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-1960s-college-building
+    exclude:
+      - "/New College Block-0x5ad0e817_0x6ef03acf_0x560000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-1960s-college-building
+version: "1.0"
+lastModified: "2005-03-30T18:02:24Z"
+url: https://community.simtropolis.com/files/file/12079-1960s-college-building/?do=download

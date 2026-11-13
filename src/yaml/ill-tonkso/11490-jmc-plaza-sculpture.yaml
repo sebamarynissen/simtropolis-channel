@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: jmc-plaza-sculpture
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: JMC Plaza Sculpture
+  description: |-
+    The third BAT in my JMC series, this 1x1 landmark is designed to sit with plaza's near the JMC HQ or JMC Radio Tower. It has normal landmark effects (20-40 cells).
+
+    Please Rate and give any suggestions.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11490-jmc-plaza-sculpture/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d613578d29b92cd3cca42fa370585f54-JMCLOGOPREV.JPG
+    - https://www.simtropolis.com/objects/screens/0024/d613578d29b92cd3cca42fa370585f54-JMCNITEPREVLOGO.JPG
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-jmc-plaza-sculpture
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-jmc-plaza-sculpture
+version: "1.0"
+lastModified: "2005-01-23T11:30:26Z"
+url: https://community.simtropolis.com/files/file/11490-jmc-plaza-sculpture/?do=download

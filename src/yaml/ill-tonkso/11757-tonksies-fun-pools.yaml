@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: tonksies-fun-pools
+version: "2"
+subfolder: 660-parks
+info:
+  summary: Tonksies Fun Pools
+  description: |-
+    UPDATE. original file caused game crashing. Replace all files with the files from this update. Sorry for any Conveniance
+
+    A New Swimming Center For Your City. This Large Pool also includes a Long Winding Flume. Your Sims will come here again and again to enjoy these great facilities.
+
+    Can be found in the Parks Menu
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11757-tonksies-fun-pools/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/38447c58a0fbc791f2642d0ab3afc0fa-tonksoswim.JPG
+    - https://www.simtropolis.com/objects/screens/0007/38447c58a0fbc791f2642d0ab3afc0fa-tonksoswimsign.JPG
+dependencies:
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-tonksies-fun-pools
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-tonksies-fun-pools
+version: "2"
+lastModified: "2005-02-22T12:07:43Z"
+url: https://community.simtropolis.com/files/file/11757-tonksies-fun-pools/?do=download

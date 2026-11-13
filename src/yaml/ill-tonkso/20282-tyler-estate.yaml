@@ -1,0 +1,37 @@
+group: ill-tonkso
+name: tyler-estate
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Tyler Estate
+  description: |-
+    The Tyler Estate is a large 1950s built council estate comprising of four towers.
+
+    The buildings are as follows.
+
+    Hunt Tower:  8 Floors, 400R$ 2x3. Stage 6
+
+    Cartwright Tower: 8 Floors, 400R$ 2x3. Stage 6
+
+    Skelton Tower: 12 Floors, 600R$ 2x3. Stage 6
+
+    Carling Tower: 16 Floors, 800R$ 2x3. Stage 6
+
+    All buildings are growable, New York, Houston and Euro tilesets.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/20282-ndex-its-tyler-estate/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3954cebd3ffde2c03b29cbc04d23ee5e-tylerday.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3954cebd3ffde2c03b29cbc04d23ee5e-tylernight.jpg
+dependencies:
+  - ndex:its-mega-pack-vol11
+assets:
+  - assetId: ill-tonkso-tyler-estate
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-tyler-estate
+version: "1.0"
+lastModified: "2008-08-28T18:26:46Z"
+url: https://community.simtropolis.com/files/file/20282-ndex-its-tyler-estate/?do=download

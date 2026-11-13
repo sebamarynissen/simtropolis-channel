@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: elrail-station-green-line
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: ELRail Station Green Line
+  description: |-
+    The Third BAT in this Series,
+
+    10000 Capacity
+
+    2x6 LOT
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12208-elrail-station-green-line/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b2cc343f0a665813f0ca021063fad64b-TonksoGreenLineDay.JPG
+    - https://www.simtropolis.com/objects/screens/0020/b2cc343f0a665813f0ca021063fad64b-TonksoGreenLineNight.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-elrail-station-green-line
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-elrail-station-green-line
+version: "1.0"
+lastModified: "2005-04-12T15:48:29Z"
+url: https://community.simtropolis.com/files/file/12208-elrail-station-green-line/?do=download

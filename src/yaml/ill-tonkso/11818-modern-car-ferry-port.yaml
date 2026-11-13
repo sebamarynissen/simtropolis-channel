@@ -1,0 +1,37 @@
+group: ill-tonkso
+name: modern-car-ferry-port
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Car Ferry Port
+  description: |-
+    # Modern Car Ferry Port
+
+    Finaly after countless renders and custom LODs, the first Car Ferry Port on the STEX is finly ready for download.  
+    This BAT does not replace the original file and only acts as a replacement.
+
+    The Lot is transit enabled, the same as the original and works correctly with the UDI.
+
+    * * *
+
+    Ill Tonkso  
+    Solent Modders Group (SMG)  
+    Ill Tonkso Bat Projects property of Daniel Tonks  
+    Portsmouth UK
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11818-modern-car-ferry-port/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5f93ad0768e2803cc712da06eed69481-Ferryportpreviewuploadpiccy.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-modern-car-ferry-port
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-modern-car-ferry-port
+version: "1.0"
+lastModified: "2005-03-01T15:30:06Z"
+url: https://community.simtropolis.com/files/file/11818-modern-car-ferry-port/?do=download

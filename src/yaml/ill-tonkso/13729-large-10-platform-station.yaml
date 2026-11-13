@@ -1,0 +1,51 @@
+group: ill-tonkso
+name: large-10-platform-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Large 10 Platform Station
+  description: |-
+    **10 Platform Station**
+
+    This is Birmingsfield International Station moddeled for my CJ. It is a large 10 Platform Terminus Station that sits on a 6x14 Lot.
+
+    Capacity: 50000
+
+    Bonus Lot: Also includes Berney Arms Station, the UK's smallest 'still in use' station.
+
+    dependencies:
+
+    BSC Railyard Props Vol -1  
+    Merged into; [BSC Mega Props DAE Vol01.](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)
+
+    BSCBAT Props Gascooker Vol 04 (optional)
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=397](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+    Peg CDKN Submarine Base
+
+    [https://community.simtropolis.com/files/file/13432-peg-cdkn-navy-pier-four/](https://community.simtropolis.com/files/file/13432-peg-cdkn-navy-pier-four/)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13729-large-10-platform-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b1cc6e50c959e85e5a73ce996c5fdefc-10platform1.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b1cc6e50c959e85e5a73ce996c5fdefc-10platform2.jpg
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - ndex:its-mega-pack-vol15
+  - peg:mtp-super-pack
+  - peg:stream-kit-ii-deluxe-edition-props
+assets:
+  - assetId: ill-tonkso-large-10-platform-station
+    exclude:
+      - "/ITS_StationEntranceThingy-0x5ad0e817_0xd2d26456_0x30000\\.SC4Model$"
+      - "/ITS_Commutershelter2-0x5ad0e817_0x52a777f4_0x30000\\.SC4Model$"
+      - "/ITS_Bufferstop-0x5ad0e817_0xb2d262fb_0x30000\\.SC4Model$"
+      - "/ITS_BerneyArms-0x5ad0e817_0xf29f14dc_0x30000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-large-10-platform-station
+version: "1.0"
+lastModified: "2005-09-25T16:07:07Z"
+url: https://community.simtropolis.com/files/file/13729-large-10-platform-station/?do=download

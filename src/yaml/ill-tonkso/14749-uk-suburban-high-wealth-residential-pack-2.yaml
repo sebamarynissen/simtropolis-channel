@@ -1,0 +1,102 @@
+group: ill-tonkso
+name: uk-suburban-high-wealth-residential-pack-2
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: UK Suburban High Wealth Residential Pack 2
+  description: |-
+    This download contains a custom model and lots featuring a high wealth residential building. Both lots featuring the Portchester Gardens model, which is representative of high wealth suburban homes in the UK.
+
+    Their stats are as follows:
+
+    > > > >  
+    > > > > 
+    > > > > **Portchester Gardens**
+    > > > > 
+    > > > > **Costs:**          
+    > > > > 
+    > > > >  
+    > > > > 
+    > > > > *Building Value*
+    > > > > 
+    > > > > $502
+    > > > > 
+    > > > > *Cost to Bulldoze*
+    > > > > 
+    > > > > $163
+    > > > > 
+    > > > >  **Occupants:**          
+    > > > > 
+    > > > >  
+    > > > > 
+    > > > > LotSize
+    > > > > 
+    > > > > 2x2 & 2x3
+    > > > > 
+    > > > > Growth Stage
+    > > > > 
+    > > > > 2
+    > > > > 
+    > > > > *R$$$*
+    > > > > 
+    > > > > 10
+    > > > > 
+    > > > > *Tileset*
+    > > > > 
+    > > > > All
+    > > > > 
+    > > > > **Environment:**          
+    > > > > 
+    > > > >  
+    > > > > 
+    > > > > *Power Used*
+    > > > > 
+    > > > > 1
+    > > > > 
+    > > > > *Water Used*
+    > > > > 
+    > > > > 1
+    > > > > 
+    > > > > **Pollution (Radius):**          
+    > > > > 
+    > > > >  
+    > > > > 
+    > > > > *Air*
+    > > > > 
+    > > > > 0 (6)
+    > > > > 
+    > > > > *Water*
+    > > > > 
+    > > > > 0 (7)
+    > > > > 
+    > > > > *Garbage*
+    > > > > 
+    > > > > 1 (0)
+    > > > > 
+    > > > > *Radiation*
+    > > > > 
+    > > > > n/a
+    > > > > 
+    > > > > *Flammability (Max Fire Stage)*
+    > > > > 
+    > > > > 35 (2)
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/14749-its-uk-suburban-high-wealth-residential-pack-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/4cd8e3d409e74b2a5ac81b0a90ed95e6-portchestergardensday.jpg
+    - https://www.simtropolis.com/objects/screens/0009/4cd8e3d409e74b2a5ac81b0a90ed95e6-portchestergardensnight.jpg
+dependencies:
+  - bsc:mega-props-misc-vol03
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol11
+  - peg:cdk-oww-sv-plus-pack-1
+assets:
+  - assetId: ill-tonkso-uk-suburban-high-wealth-residential-pack-2
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-uk-suburban-high-wealth-residential-pack-2
+version: "1.0"
+lastModified: "2006-01-21T21:10:28Z"
+url: https://community.simtropolis.com/files/file/14749-its-uk-suburban-high-wealth-residential-pack-2/?do=download

@@ -1,0 +1,25 @@
+group: ill-tonkso
+name: solent-office-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Solent office Building
+  description: This new fictional building contains 329 CO
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11894-solent-office-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6416eca7a324791ddc19d78ad471dbc4-solentday.JPG
+    - https://www.simtropolis.com/objects/screens/0012/6416eca7a324791ddc19d78ad471dbc4-Nightsolent.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-solent-office-building
+    exclude:
+      - "/SOLENT building-0x5ad0e817_0x6ef03acf_0x3c0000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-solent-office-building
+version: "1.0"
+lastModified: "2005-03-09T16:57:20Z"
+url: https://community.simtropolis.com/files/file/11894-solent-office-building/?do=download
