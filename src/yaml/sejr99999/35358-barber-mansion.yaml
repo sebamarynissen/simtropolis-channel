@@ -1,0 +1,34 @@
+group: sejr99999
+name: barber-mansion
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Growable R$$$ lot for the Barber Mansion
+  description: |-
+    As far as I know this beautiful building has only been available as a reward, so I decided to make a high wealth growable lot to use in my cities. It has 478 residents, which is high, but the building takes up a lot of space, so I kept PIM's stats. The model is part of `pkg=csx:mega-props-vol01`.
+
+    **Stats**
+
+    - Lot size: 7x4
+    - Growth stage: 5
+    - Capacity: R$$$ 478 (R$$ 1,091 or R$ 1,974 when dilapidated)
+    - Bulldoze cost: 328
+  author: sejr99999
+  website: https://community.simtropolis.com/files/file/35358-barber-mansion/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/6395ec6fc2234_BarberMansionday.jpg.c380333b1ab8a09b9f88e9025188fa9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_12/6395ec72d5c43_BarberMansionnight.jpg.22e0ecbcb586111f4459da2b4c6ea8ca.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - csx:mega-props-vol01
+assets:
+  - assetId: sejr99999-barber-mansion
+
+---
+assetId: sejr99999-barber-mansion
+version: "1.0.0"
+lastModified: "2022-12-11T14:57:20Z"
+url: https://community.simtropolis.com/files/file/35358-barber-mansion/?do=download
