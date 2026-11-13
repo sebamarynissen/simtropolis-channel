@@ -1,0 +1,35 @@
+group: sejr99999
+name: chapelle-de-stamarie
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Chapelle de Sta. Marie, a small chapel
+  description: |-
+    The first lot I made for the props in Namspopof's BAT prop pack Vol 02, which had no lots. It is a small chapel that costs nothing to maintain, as it is supported by private donors, and has a very small amount of pollution (mainly pamphlets caught by the wind). The model is part of `pkg=tsc:mega-props-vol05-namspopof`.
+
+    **Stats**
+
+    - Lot size: 2x2
+    - Plop cost: 1,100
+    - Bulldoze cost: 100
+    - Monthly cost: 0
+    - Landmark effect: 40 over 20
+    - Mayor rating effect: 10
+  author: sejr99999
+  website: https://community.simtropolis.com/files/file/34401-chapelle-de-stamarie-by-namspopof/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/6082dd3fcf2b0_ChapelledeStamarieday.png.fe27e13cb79fb44be431d5ba384836c8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/6082dd4262ddf_ChapelledeStaMarienight.png.6372952e4e62a5688d66eb2a902fe578.png
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+  - tsc:mega-props-vol05-namspopof
+assets:
+  - assetId: sejr99999-chapelle-de-stamarie
+
+---
+assetId: sejr99999-chapelle-de-stamarie
+version: "1.0.0"
+lastModified: "2021-04-23T15:00:07Z"
+url: https://community.simtropolis.com/files/file/34401-chapelle-de-stamarie-by-namspopof/?do=download

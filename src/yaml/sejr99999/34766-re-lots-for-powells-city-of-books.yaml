@@ -1,0 +1,42 @@
+group: sejr99999
+name: re-lots-for-powells-city-of-books
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Library and commercial lots for Powell's City of Books
+  description: |-
+    Two lots I made, with permission from thecitiescenter, for Powell's City of Books: a library and a ploppable commercial lot. The model comes from `pkg=thecitiescenter:powells-city-of-books-models`.
+
+    **Stats**
+
+    *Library*
+
+    - Lot size: 4x4
+    - Capacity: 100,000 books
+    - Plop cost: 100
+    - Monthly cost: 30
+
+    *Ploppable commercial*
+
+    - Lot size: 4x4
+    - Capacity: CS$$ 100 and CS$ 100
+    - Plop cost: 1,971
+  author: sejr99999
+  website: https://community.simtropolis.com/files/file/34766-re-lots-for-tcc-powells-city-of-books/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/61a2a08fda8ec_PowellsBooksday.jpg.082c4d226114acb798beacac7e23ae5e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/61a2a091def1d_Powellsbooksnight.png.4b9a9f9da524dbb1c4d3660e23948a28.png
+dependencies:
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - peg:mtp-super-pack
+  - thecitiescenter:powells-city-of-books-models
+assets:
+  - assetId: sejr99999-re-lots-for-powells-city-of-books
+
+---
+assetId: sejr99999-re-lots-for-powells-city-of-books
+version: "1.0.0"
+lastModified: "2021-11-27T21:30:05Z"
+url: https://community.simtropolis.com/files/file/34766-re-lots-for-tcc-powells-city-of-books/?do=download
