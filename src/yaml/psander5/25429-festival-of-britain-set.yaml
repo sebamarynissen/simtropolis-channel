@@ -1,0 +1,64 @@
+group: psander5
+name: festival-of-britain-set
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: The Dome of Discovery and Skylon from the 1951 Festival of Britain
+  description: |-
+    In 1951 various structures and pavilions were built around London and Great Britain to celebrate the nationwide Festival of Britain, a series of exhibits designed to lift the spirits of a war torn nation recovering from WWII and to encourage economic growth by promoting Britain's strengths in technology and engineering. At the heart of the Festival were Skylon and the Dome of Discovery, two landmark structures built close to each other on the south bank of the River Thames in London.
+
+    The Dome of Discovery was a large exhibition space, and was at the time the world's largest dome. It had the appearance of a UFO visiting the city, with its silvery dome covering a bowl beneath, supported by spindly legs. Skylon (from Skyhook and Nylon) was a metallic lozenge which reached a height of 90 m and was suspended on wires above the ground so as to give the appearance of floating. Both structures were demolished soon after the Exhibition closed.
+
+    It's taken me two and a half years to get this project in game. The models are as accurate as I could get them, but because they were demolished sixty years ago there are very few photographs of the structures, and almost none in colour. I had no real references for the plaza area, so I had to design one completely from scratch.
+
+    The set has three traditional landmark lots (no jobs): the Dome of Discovery on a 10x10 lot, and two versions of Skylon. The ortho version on a 4x3 lot is meant to be centred on the edges of the Dome, and the 45 degree version on a 3x3 lot to be used opposite to the corners of the Dome. The lots use custom props that are included.
+
+    **Stats**
+
+    *Dome of Discovery*
+
+    - Lot size: 10x10
+    - Plop cost: 125,000
+    - Monthly cost: 150
+    - Landmark effect: 40 over 20
+    - Mayor rating effect: 10
+
+    *Skylon*
+
+    - Lot size: 4x3 (ortho) or 3x3 (45 degrees)
+    - Plop cost: 75,000
+    - Monthly cost: 90
+    - Landmark effect: 40 over 20
+    - Mayor rating effect: 10
+  author: psander5
+  websites:
+    - https://community.simtropolis.com/files/file/25429-festival-of-britain-set-maxis-night/
+    - https://community.simtropolis.com/files/file/25430-festival-of-britain-set-darknite/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a8ee0062787b1a12a2a4bb1a9c9f8170-01_MN.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a8ee0062787b1a12a2a4bb1a9c9f8170-02_MN.jpg
+    - https://www.simtropolis.com/objects/screens/0006/303c471bde796643a8625a0f64f4a74c-01_DN.jpg
+    - https://www.simtropolis.com/objects/screens/0006/303c471bde796643a8625a0f64f4a74c-02_DN.jpg
+dependencies:
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: psander5-festival-of-britain-set-maxisnite
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: psander5-festival-of-britain-set-darknite
+
+---
+assetId: psander5-festival-of-britain-set-maxisnite
+version: "1.0"
+lastModified: "2010-12-07T06:16:28Z"
+url: https://community.simtropolis.com/files/file/25429-festival-of-britain-set-maxis-night/?do=download
+
+---
+assetId: psander5-festival-of-britain-set-darknite
+version: "1.0"
+lastModified: "2010-12-07T06:24:28Z"
+url: https://community.simtropolis.com/files/file/25430-festival-of-britain-set-darknite/?do=download

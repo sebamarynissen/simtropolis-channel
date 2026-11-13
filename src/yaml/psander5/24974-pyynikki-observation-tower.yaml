@@ -1,0 +1,39 @@
+group: psander5
+name: pyynikki-observation-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Pyynikki Observation Tower in Tampere, Finland
+  description: |-
+    Pyynikin Näkötorni (Pyynikki Observation Tower) is a small observation tower in the city of Tampere, Finland. It is perched on the world's highest gravel ridge, and sits amongst pine trees in the forested Pyynikki park. It offers superb views over the trees of the city and the surrounding lakes. Once you've had a look you can go below to the café and tuck into their world famous munkki (doughnuts).
+
+    This is a little thing that I made over a year ago but never got round to releasing. I have lost the source file, so it only has the Maxis Night and HD render, no Dark Nite or SD render.
+
+    **Stats**
+
+    *Landmark (ploppable)*
+
+    - Lot size: 2x3
+    - Plop cost: 30,000
+    - Bulldoze cost: 450
+    - Monthly cost: 120
+    - Landmark effect: 20 over 20
+    - Mayor rating effect: 10
+  author: psander5
+  website: https://community.simtropolis.com/files/file/24974-pyynikki-observation-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/2547c470a45e7a41dbc74f344616e90b-1.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2547c470a45e7a41dbc74f344616e90b-2.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - ndex:glenni-mega-props-vol01
+assets:
+  - assetId: psander5-pyynikki-observation-tower
+
+---
+assetId: psander5-pyynikki-observation-tower
+version: "1.0"
+lastModified: "2010-09-29T12:00:01Z"
+url: https://community.simtropolis.com/files/file/24974-pyynikki-observation-tower/?do=download

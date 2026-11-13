@@ -1,0 +1,44 @@
+group: psander5
+name: moorhead-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Moorhead House, a corner building from the City Centre Series
+  description: |-
+    The first BAT of my City Centre Series: a series of BATs to add to the variety of town and city centre fill-in areas. I'll mostly be basing them on buildings from UK cities, but I'm not going to limit its scope to British buildings.
+
+    Moorhead House is a small wall-to-wall corner building with retail on the ground and first floor, and student accommodation on the upper floors. To the side is a smaller shop. It is designed to suit small town high streets or the generic city centre spaces of larger cities. The building can be found in real life in Sheffield, England, at the top of the Moor shopping precinct.
+
+    It comes as a growable and a ploppable version of the same lot. Both models are rendered using TruNite. The lots were modded using PIM-X to get correct-for-the-game stats.
+
+    **Stats**
+
+    - Lot size: 2x2 (corner)
+    - Tileset: Euro
+    - Growth stage: 3 (growable)
+    - Capacity: CS$$ 79 (CS$ 305 when dilapidated)
+    - Plop cost: 4,530 (ploppable)
+  author: psander5
+  website: https://community.simtropolis.com/files/file/25378-moorhead-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9de406f13a7ca73faca951e0d77f7dfe-01.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9de406f13a7ca73faca951e0d77f7dfe-02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: psander5-moorhead-house
+        exclude:
+          - "DARKNITE[^/]*\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: psander5-moorhead-house
+        exclude:
+          - "MAXISNIGHT[^/]*\\.SC4Model$"
+
+---
+assetId: psander5-moorhead-house
+version: "1.0"
+lastModified: "2010-11-28T10:36:44Z"
+url: https://community.simtropolis.com/files/file/25378-moorhead-house/?do=download
