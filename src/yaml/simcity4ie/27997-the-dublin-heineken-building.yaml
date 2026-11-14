@@ -1,5 +1,5 @@
 group: simcity4ie
-name: the-dublin-heineken-building-v2
+name: the-dublin-heineken-building
 version: "2.0"
 subfolder: 300-commercial
 info:
@@ -22,19 +22,19 @@ info:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: simcity4ie-the-dublin-heineken-building-v2
+      - assetId: simcity4ie-the-dublin-heineken-building
         include:
           - "/Maxis Night \\(no night mod\\)/"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
-      - assetId: simcity4ie-the-dublin-heineken-building-v2
+      - assetId: simcity4ie-the-dublin-heineken-building
         include:
           - "/Darknight mod/"
 
 ---
-assetId: simcity4ie-the-dublin-heineken-building-v2
+assetId: simcity4ie-the-dublin-heineken-building
 version: "2.0"
 lastModified: "2012-09-06T19:45:09Z"
 url: https://community.simtropolis.com/files/file/27997-the-dublin-heineken-building-v2/?do=download

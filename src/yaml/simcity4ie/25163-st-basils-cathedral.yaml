@@ -1,5 +1,5 @@
 group: simcity4ie
-name: st-basils-cathedral-v2
+name: st-basils-cathedral
 version: "1.0"
 subfolder: 360-landmark
 info:
@@ -27,24 +27,24 @@ info:
     - https://www.simtropolis.com/objects/screens/0018/a5b1f3b084c9428d541f7c8830277ba0-Basil_Snow_Day.jpg
     - https://www.simtropolis.com/objects/screens/0018/a5b1f3b084c9428d541f7c8830277ba0-Basil_Snow_Night.jpg
 variants:
-  - variant: { nightmode: standard, simcity4ie:st-basils-cathedral-v2:snow: "no" }
+  - variant: { nightmode: standard, simcity4ie:st-basils-cathedral:snow: "no" }
     assets:
-      - assetId: simcity4ie-st-basils-cathedral-v2-maxis
-  - variant: { nightmode: dark, simcity4ie:st-basils-cathedral-v2:snow: "no" }
+      - assetId: simcity4ie-st-basils-cathedral-maxis
+  - variant: { nightmode: dark, simcity4ie:st-basils-cathedral:snow: "no" }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
-      - assetId: simcity4ie-st-basils-cathedral-v2-darknight
-  - variant: { nightmode: standard, simcity4ie:st-basils-cathedral-v2:snow: "yes" }
+      - assetId: simcity4ie-st-basils-cathedral-darknight
+  - variant: { nightmode: standard, simcity4ie:st-basils-cathedral:snow: "yes" }
     assets:
-      - assetId: simcity4ie-st-basils-cathedral-v2-snow-maxis
-  - variant: { nightmode: dark, simcity4ie:st-basils-cathedral-v2:snow: "yes" }
+      - assetId: simcity4ie-st-basils-cathedral-snow-maxis
+  - variant: { nightmode: dark, simcity4ie:st-basils-cathedral:snow: "yes" }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
-      - assetId: simcity4ie-st-basils-cathedral-v2-snow-darknight
+      - assetId: simcity4ie-st-basils-cathedral-snow-darknight
 variantInfo:
-  - variantId: simcity4ie:st-basils-cathedral-v2:snow
+  - variantId: simcity4ie:st-basils-cathedral:snow
     description: Choose whether the cathedral is covered in snow.
     values:
       - value: "no"
@@ -54,25 +54,25 @@ variantInfo:
         description: The cathedral covered in snow
 
 ---
-assetId: simcity4ie-st-basils-cathedral-v2-maxis
+assetId: simcity4ie-st-basils-cathedral-maxis
 version: "1.0"
 lastModified: "2010-10-28T15:36:42Z"
 url: https://community.simtropolis.com/files/file/25163-st-basils-cathedral-v2-maxis/?do=download
 
 ---
-assetId: simcity4ie-st-basils-cathedral-v2-darknight
+assetId: simcity4ie-st-basils-cathedral-darknight
 version: "1.0"
 lastModified: "2010-10-26T08:00:19Z"
 url: https://community.simtropolis.com/files/file/25140-st-basils-cathedral-v2-darknight/?do=download
 
 ---
-assetId: simcity4ie-st-basils-cathedral-v2-snow-maxis
+assetId: simcity4ie-st-basils-cathedral-snow-maxis
 version: "1.0"
 lastModified: "2010-10-26T12:54:37Z"
 url: https://community.simtropolis.com/files/file/25142-st-basils-cathedral-v2-snow-maxis/?do=download
 
 ---
-assetId: simcity4ie-st-basils-cathedral-v2-snow-darknight
+assetId: simcity4ie-st-basils-cathedral-snow-darknight
 version: "1.0"
 lastModified: "2010-10-26T11:44:54Z"
 url: https://community.simtropolis.com/files/file/25141-st-basils-cathedral-v2-snow-darknight/?do=download
