@@ -1,0 +1,44 @@
+group: psander5
+name: sunwin-house-tk-maxx
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sunwin House (TK Maxx), a corner department store from the City Centre Series
+  description: |-
+    Part of my City Centre Series: a series of BATs to add to the variety of town and city centre fill-in areas. I'll mostly be basing them on buildings from UK cities, but I'm not going to limit its scope to British buildings.
+
+    Sunwin House is a medium sized wall-to-wall corner department store, currently occupied by a branch of TK Maxx. The long side of this 2x3 building has an older, industrial portion where the shopping area can be blended into backstreet warehouses. The building can be found in real life in Sheffield, England, right next door to the Moorhead House BAT on Furnival Gate.
+
+    It comes as a growable and a ploppable version of the same lot. The ploppable appears in the landmarks menu. Both models are rendered using TruNite. The lots were modded using PIM-X to get correct-for-the-game stats.
+
+    **Stats**
+
+    - Lot size: 2x3 (corner)
+    - Tileset: Euro
+    - Growth stage: 6 (growable)
+    - Capacity: CS$$ 244 (CS$ 966 when dilapidated)
+    - Plop cost: 6,486 (ploppable)
+  author: psander5
+  website: https://community.simtropolis.com/files/file/25379-sunwin-house-tk-maxx/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9ec5909d098c1f9c658908a8f6d452f1-01.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9ec5909d098c1f9c658908a8f6d452f1-02.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: psander5-sunwin-house-tk-maxx
+        exclude:
+          - "DARKNITE[^/]*\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: psander5-sunwin-house-tk-maxx
+        exclude:
+          - "MAXISNIGHT[^/]*\\.SC4Model$"
+
+---
+assetId: psander5-sunwin-house-tk-maxx
+version: "1.0"
+lastModified: "2010-11-28T10:42:37Z"
+url: https://community.simtropolis.com/files/file/25379-sunwin-house-tk-maxx/?do=download
