@@ -1,0 +1,28 @@
+group: simcity4ie
+name: samsung-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Samsung Tower, a commercial office tower
+  description: |-
+    **Stats**
+
+    - CO$$$, stage 7
+    - Lot size: 3x4
+
+    Made with 3ds Max 2010.
+  author: SimCity4IE
+  website: https://community.simtropolis.com/files/file/24846-samsung-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7f53812123cecf4bfb0977795c45e1b0-SimCity%204%202010-09-11%2021-02-59-55.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7f53812123cecf4bfb0977795c45e1b0-SimCity%204%202010-09-11%2021-03-04-88.jpg
+assets:
+  - assetId: simcity4ie-samsung-tower
+    exclude:
+      # Broken lot configuration exemplar without any lot data, which nothing references.
+      - "/Samsung Tower-0x6534284a-0x376b8e66-0xd9dca20e\\.SC4Desc$"
+---
+assetId: simcity4ie-samsung-tower
+version: "1.0"
+lastModified: "2010-09-11T07:54:07Z"
+url: https://community.simtropolis.com/files/file/24846-samsung-tower/?do=download

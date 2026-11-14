@@ -1,0 +1,38 @@
+group: simcity4ie
+name: galeria-kaufhof
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Department store loosely based on the Galeria Kaufhof at Alexanderplatz in Berlin
+  description: |-
+    An old model that was lying in my scenes folder, which is loosely based on the famous German superstore in Alexanderplatz, Berlin. The building itself is basic enough, but over the past few days I redid the texturing and changed some of the modelling.
+
+    **Stats**
+
+    - CS$$$, stage 7
+    - Lot size: 6x8
+    - SC4PIMX properties
+  author: SimCity4IE
+  website: https://community.simtropolis.com/files/file/27919-galeria-kaufhof/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/9289e32bd43a43d2d2f4b699c03f14de-dnday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/c9c3b202e04bb675616bd0d7c2dc2307-dnnight.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simcity4ie-galeria-kaufhof
+        include:
+          - "/MN/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: simcity4ie-galeria-kaufhof
+        include:
+          - "/DN/"
+
+---
+assetId: simcity4ie-galeria-kaufhof
+version: "1.0"
+lastModified: "2012-08-12T00:20:54Z"
+url: https://community.simtropolis.com/files/file/27919-galeria-kaufhof/?do=download
