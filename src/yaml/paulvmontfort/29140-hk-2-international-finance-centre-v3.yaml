@@ -1,5 +1,5 @@
 group: paulvmontfort
-name: hk-2-international-finance-centre
+name: hk-2-international-finance-centre-v3
 version: "1.0"
 subfolder: 300-commercial
 info:
@@ -19,20 +19,20 @@ dependencies:
 variants:
   - variant: { nightmode: standard }
     assets:
-      - assetId: paulvmontfort-hk-2-international-finance-centre-maxisnite
+      - assetId: paulvmontfort-hk-2-international-finance-centre-v3-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
-      - assetId: paulvmontfort-hk-2-international-finance-centre-darknite
+      - assetId: paulvmontfort-hk-2-international-finance-centre-v3-darknite
 
 ---
-assetId: paulvmontfort-hk-2-international-finance-centre-maxisnite
+assetId: paulvmontfort-hk-2-international-finance-centre-v3-maxisnite
 version: "1.0"
 lastModified: "2013-12-24T15:29:54Z"
 url: https://community.simtropolis.com/files/file/29140-hk-2-international-finance-centre-v3/?do=download&r=121988
 
 ---
-assetId: paulvmontfort-hk-2-international-finance-centre-darknite
+assetId: paulvmontfort-hk-2-international-finance-centre-v3-darknite
 version: "1.0"
 lastModified: "2013-12-24T15:29:54Z"
 url: https://community.simtropolis.com/files/file/29140-hk-2-international-finance-centre-v3/?do=download&r=121989
