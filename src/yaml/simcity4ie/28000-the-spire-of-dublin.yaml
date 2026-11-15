@@ -21,19 +21,48 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/9268e4426a855236c8688d1ab5792a23-1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/6bcb2bd4ff2105c2f18942651c6e9357-2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/083bd5ffab6a90e7fa8716e3f18774e8-3.jpg
+dependencies:
+  - simcity4ie:the-spire-of-dublin-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: simcity4ie-the-spire-of-dublin
         include:
           - "/Maxis Night/"
+        exclude:
+          - \.SC4Model$
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: simcity4ie-the-spire-of-dublin
+        include:
+          - "/Darknight/"
+        exclude:
+          - \.SC4Model$
+
+---
+group: simcity4ie
+name: the-spire-of-dublin-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model of The Spire of Dublin
+  description: |-
+    Only the model of `pkg=simcity4ie:the-spire-of-dublin`, without its lot. This is a dependency for lots that use the spire.
+  author: SimCity4IE
+  website: https://community.simtropolis.com/files/file/28000-the-spire-of-dublin/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simcity4ie-the-spire-of-dublin
+        include:
+          - "/Maxis Night/.*\\.SC4Model$"
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: simcity4ie-the-spire-of-dublin
         include:
-          - "/Darknight/"
+          - "/Darknight/.*\\.SC4Model$"
 
 ---
 assetId: simcity4ie-the-spire-of-dublin
