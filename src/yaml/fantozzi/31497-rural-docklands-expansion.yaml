@@ -1,0 +1,44 @@
+group: fantozzi
+name: rural-docklands-expansion
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: 36 lots to expand the WMP Rural Docklands
+  description: |-
+    An expansion of `pkg=wmp:rural-docklands-base-set` and `pkg=wmp:rural-docklands-optional-set-ii` with 36 lots that are 3 and 4 tiles deep, including many corner lots, to build an industrial water front. There are no container port lots. The icons show symbols that make the corner lots easier to use.
+
+    The main lots (car transfer dock, building material transfer dock, chemical liquids dock and coal docks) relieve the caps of industries.
+  author: Fantozzi
+  website: https://community.simtropolis.com/files/file/31497-rural-docklands-expansion-rde/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/RDE_up1.jpg.e8ab2023b5eb1775dd79ac321cf7c545.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/RDE_up2.jpg.4a3418b3032930e5976815a0dd3db888.jpg
+dependencies:
+  - aldara6166:rjm-designs-prop-pack-2
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol09
+  - murimk:props-vol03-industrials
+  - namspopof:nams-mega-props
+  - nob:mega-props-vol02
+  - r6:mega-props
+  - sg:canal-coal-wharf-resources
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+  - wmp:mega-props-vol03
+  - wmp:mega-props-vol04
+  - wmp:mega-props-vol05
+  - wmp:mega-textures
+  - wmp:rural-docklands-base-set
+  - wmp:rural-docklands-optional-set-ii
+assets:
+  - assetId: fantozzi-rural-docklands-expansion
+
+---
+assetId: fantozzi-rural-docklands-expansion
+version: "1.0"
+lastModified: "2017-03-03T19:14:16Z"
+url: https://community.simtropolis.com/files/file/31497-rural-docklands-expansion-rde/?do=download

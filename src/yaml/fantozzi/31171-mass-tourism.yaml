@@ -1,0 +1,29 @@
+group: fantozzi
+name: mass-tourism
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Two bus parking lots for tourist busses
+  description: |-
+    Two ploppable transit-enabled bus parking lots on a 2x5 lot, to be placed next to monuments. Each has parking for 8000.
+  author: Fantozzi
+  website: https://community.simtropolis.com/files/file/31171-mass-tourism/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/MassTourism1.png.506d7903eea465f87efa7b2b5f60b539.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/MassTourism2.png.a6781e7cf7d5724deac9460f27ba89f1.png
+dependencies:
+  - bnl:dutch-prop-pack
+  - bsc:mega-props-misc-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - glenni:bus-prop-pack
+  - motokloss:solaris-vacanza-12-and-interurbino-12-props
+  - murimk:props-vol02-mixed
+assets:
+  - assetId: fantozzi-mass-tourism
+
+---
+assetId: fantozzi-mass-tourism
+version: "1.0"
+lastModified: "2016-07-13T12:22:08Z"
+url: https://community.simtropolis.com/files/file/31171-mass-tourism/?do=download

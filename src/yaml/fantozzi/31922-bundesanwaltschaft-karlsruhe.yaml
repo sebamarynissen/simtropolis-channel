@@ -1,0 +1,31 @@
+group: fantozzi
+name: bundesanwaltschaft-karlsruhe
+version: "1.1"
+subfolder: 610-safety
+info:
+  summary: Bundesanwaltschaft, a police station relot of mattb325's Karlsruhe Courthouse
+  description: |-
+    A relot of `pkg=mattb325:karlsruhe-courthouse` as a police station on a 6x5 lot, with 40 high security cells. It has no patrol cars, but city wide coverage.
+
+    The lot has timed props, so it may take some time until all props appear when it is plopped.
+  author: Fantozzi, mattb325
+  website: https://community.simtropolis.com/files/file/31922-bundesanwaltschaft-karlsruhe/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/BuAnwaF.jpg.a1c1f523089a175ed850d0a3fe2128d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/BuAnwa1_1.jpg.d035796c8b3818e7ed53044d420c5a3f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - mattb325:karlsruhe-courthouse-model
+  - vip:vnaoned-props-pack-vol01
+assets:
+  - assetId: fantozzi-bundesanwaltschaft-karlsruhe
+
+---
+assetId: fantozzi-bundesanwaltschaft-karlsruhe
+version: "1.1"
+lastModified: "2017-08-31T18:35:32Z"
+url: https://community.simtropolis.com/files/file/31922-bundesanwaltschaft-karlsruhe/?do=download

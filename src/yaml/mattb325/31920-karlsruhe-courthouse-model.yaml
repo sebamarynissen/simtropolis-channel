@@ -1,0 +1,28 @@
+group: mattb325
+name: karlsruhe-courthouse-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model of mattb325's Karlsruhe Courthouse
+  description: |-
+    Only the model of `pkg=mattb325:karlsruhe-courthouse`, without its lot. This is a dependency for relots of the building.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/31920-karlsruhe-courthouse/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-karlsruhe-courthouse-model
+        include:
+          - /Karlsruhe Courthouse MAXIS NITE/.*\.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-karlsruhe-courthouse-model
+        include:
+          - /Karlsruhe Courthouse DARK NITE/.*\.SC4Model$
+
+---
+assetId: mattb325-karlsruhe-courthouse-model
+version: "1.0"
+lastModified: "2017-08-27T04:00:45Z"
+url: https://community.simtropolis.com/files/file/31920-karlsruhe-courthouse/?do=download

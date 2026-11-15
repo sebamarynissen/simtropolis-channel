@@ -1,0 +1,41 @@
+group: sg
+name: canal-coal-wharf
+version: "1.0.1"
+subfolder: 400-industrial
+info:
+  summary: SimGoober's Coal Wharf for the BSC Brick Canals
+  description: |-
+    A coal wharf on a 4x4 lot, made as an extension of the BSC Brick Canal series. Hardun Industries has accumulated a bunch of coal and needs a way to ship it. It is a ploppable civic building that relieves the industrial (IM) demand cap.
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/15093-simgoobers-coal-wharf/
+dependencies:
+  - sg:canal-coal-wharf-resources
+assets:
+  - assetId: sg-canal-coal-wharf
+    include:
+      - \.SC4Lot$
+
+---
+group: sg
+name: canal-coal-wharf-resources
+version: "1.0.1"
+subfolder: 100-props-textures
+info:
+  summary: Props of SimGoober's Coal Wharf
+  description: |-
+    The props of `pkg=sg:canal-coal-wharf`, without its lot. This is a dependency for relots of the wharf.
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/15093-simgoobers-coal-wharf/
+assets:
+  - assetId: sg-canal-coal-wharf
+    include:
+      - \.dat$
+
+---
+assetId: sg-canal-coal-wharf
+version: "1.0.1"
+lastModified: "2006-02-24T14:00:00Z"
+url: https://community.simtropolis.com/files/file/15093-simgoobers-coal-wharf/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

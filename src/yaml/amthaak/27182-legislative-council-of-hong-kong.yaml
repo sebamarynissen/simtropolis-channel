@@ -1,0 +1,76 @@
+group: amthaak
+name: legislative-council-of-hong-kong
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Legislative Council of Hong Kong
+  description: |-
+    The Legislative Council of Hong Kong on a 5x3 lot, as a growable CS$$$, a ploppable CS$$$ and a landmark. You can choose between a version with the Hong Kong flag and a version with a neutral flag.
+  author: Amthaak
+  website: https://community.simtropolis.com/files/file/27182-legislative-council-of-hong-kong/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/89cb95c3c6064dd94a66a23811879bce-legcoday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/dcb252e89709e365f93a2dd2d074085f-legconight.png
+dependencies:
+  - amthaak:legislative-council-of-hong-kong-models
+  - bsc:textures-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variantInfo:
+  - variantId: amthaak:legislative-council-of-hong-kong:flag
+    description: Choose the flag on the building.
+    values:
+      - value: hk
+        description: The flag of Hong Kong
+      - value: neutral
+        description: A neutral flag
+variants:
+  - variant: { nightmode: standard, amthaak:legislative-council-of-hong-kong:flag: hk }
+    assets:
+      - assetId: amthaak-legislative-council-of-hong-kong
+        include:
+          - /HK LegCo MN/.*\.(?:SC4Lot|SC4Desc)$
+  - variant: { nightmode: standard, amthaak:legislative-council-of-hong-kong:flag: neutral }
+    assets:
+      - assetId: amthaak-legislative-council-of-hong-kong
+        include:
+          - /ST LegCo MN/.*\.(?:SC4Lot|SC4Desc)$
+  - variant: { nightmode: dark, amthaak:legislative-council-of-hong-kong:flag: hk }
+    assets:
+      - assetId: amthaak-legislative-council-of-hong-kong
+        include:
+          - /HK LegCo DN/.*\.(?:SC4Lot|SC4Desc)$
+  - variant: { nightmode: dark, amthaak:legislative-council-of-hong-kong:flag: neutral }
+    assets:
+      - assetId: amthaak-legislative-council-of-hong-kong
+        include:
+          - /ST LegCo DN/.*\.(?:SC4Lot|SC4Desc)$
+
+---
+group: amthaak
+name: legislative-council-of-hong-kong-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models of the Legislative Council of Hong Kong
+  description: |-
+    Only the models of `pkg=amthaak:legislative-council-of-hong-kong`, without its lots. They contain the version with the Hong Kong flag and the version with the neutral flag.
+  author: Amthaak
+  website: https://community.simtropolis.com/files/file/27182-legislative-council-of-hong-kong/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: amthaak-legislative-council-of-hong-kong
+        include:
+          - /(?:HK|ST) LegCo MN/.*\.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: amthaak-legislative-council-of-hong-kong
+        include:
+          - /(?:HK|ST) LegCo DN/.*\.SC4Model$
+
+---
+assetId: amthaak-legislative-council-of-hong-kong
+version: "1.0"
+lastModified: "2012-01-14T13:10:16Z"
+url: https://community.simtropolis.com/files/file/27182-legislative-council-of-hong-kong/?do=download

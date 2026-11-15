@@ -1,0 +1,41 @@
+group: dilemmak1
+name: rock-stage
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Rock Stage
+  description: |-
+    A ploppable landmark on a 6x8 lot.
+  author: dilemmak1
+  website: https://community.simtropolis.com/files/file/21449-rock-stage/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/cab3a531fe2343bae26a93ffd7604d12-23456.jpg
+dependencies:
+  - dilemmak1:rock-stage-model
+  - sfbt:essentials
+assets:
+  - assetId: dilemmak1-rock-stage
+    exclude:
+      - \.SC4Model$
+
+---
+group: dilemmak1
+name: rock-stage-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model of the Rock Stage
+  description: |-
+    Only the model of `pkg=dilemmak1:rock-stage`, without its lot. This is a dependency for lots that use the stage.
+  author: dilemmak1
+  website: https://community.simtropolis.com/files/file/21449-rock-stage/
+assets:
+  - assetId: dilemmak1-rock-stage
+    include:
+      - \.SC4Model$
+
+---
+assetId: dilemmak1-rock-stage
+version: "1.0"
+lastModified: "2009-03-28T20:46:40Z"
+url: https://community.simtropolis.com/files/file/21449-rock-stage/?do=download

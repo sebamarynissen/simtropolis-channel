@@ -1,0 +1,36 @@
+group: fantozzi
+name: gouvernal-palace
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Gouvernal Palace, a relot of the Legislative Council of Hong Kong
+  description: |-
+    A relot of `pkg=amthaak:legislative-council-of-hong-kong` on a 5x4 lot. It works mainly like a landmark that supports office jobs (monuments effect and medium cap relief) and is found in the rewards menu.
+  author: Fantozzi, Amthaak
+  website: https://community.simtropolis.com/files/file/31912-two-simple-civics-relots/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/hongkongpalace.jpg.e15e6f71d2a67e49e5f64c69c9055fdd.jpg
+dependencies:
+  - amthaak:legislative-council-of-hong-kong-models
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - fantozzi:audio-essentials
+  - girafe:lindens
+  - mas71:mega-props-vol01
+  - namspopof:nams-mega-props
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - simfox:chestnuts
+  - vip:rural-pack
+assets:
+  - assetId: fantozzi-gouvernal-palace
+
+---
+assetId: fantozzi-gouvernal-palace
+version: "1.0"
+lastModified: "2017-08-22T06:29:55Z"
+url: https://community.simtropolis.com/files/file/31912-two-simple-civics-relots/?do=download&r=168060
