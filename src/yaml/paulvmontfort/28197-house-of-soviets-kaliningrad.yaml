@@ -1,0 +1,38 @@
+group: paulvmontfort
+name: house-of-soviets-kaliningrad
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: House of Soviets, an unfinished government building in Kaliningrad
+  description: |-
+    An artist's impression of how the House of Soviets would have looked if it had been finished in the 80s. Ploppable CO$$ on a 5x5 lot, plus a landmark version.
+
+    The building has a podium that can be dug into the ground, so raise the terrain by 8 meters on one side.
+  author: paulvmontfort
+  website: https://community.simtropolis.com/files/file/28197-house-of-soviets-kaliningrad/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/20b4390c8a189ff99c1310d82a662677-hos_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/ab9efaf5943b7d0525f0d044146800a7-hos_maxis_night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/ce006071ccbbf9f19fa9245b51a7ee70-hos_dark_night.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-house-of-soviets-kaliningrad-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-house-of-soviets-kaliningrad-darknite
+
+---
+assetId: paulvmontfort-house-of-soviets-kaliningrad-maxisnite
+version: "1.0"
+lastModified: "2012-11-09T18:21:23Z"
+url: https://community.simtropolis.com/files/file/28197-house-of-soviets-kaliningrad/?do=download&r=108465
+
+---
+assetId: paulvmontfort-house-of-soviets-kaliningrad-darknite
+version: "1.0"
+lastModified: "2012-11-09T18:21:23Z"
+url: https://community.simtropolis.com/files/file/28197-house-of-soviets-kaliningrad/?do=download&r=108466

@@ -1,0 +1,30 @@
+group: paulvmontfort
+name: hk-grand-terrace
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Grand Terrace, a residential tower in Hong Kong
+  description: |-
+    Growable R$$$ residential tower on a 5x5 lot, plus a landmark version. Both are transit-enabled and intended for corner lots.
+  author: paulvmontfort, T Wrecks
+  website: https://community.simtropolis.com/files/file/26405-hk-grand-terrace/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/f641a086c6889a5822f3714825dc8fe3-hkabt_pvm_grandterrace_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/852c4f7b1d5e73188e257fb4c50c13c1-hkabt_pvm_grandterrace_night.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-hk-grand-terrace
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-hk-grand-terrace
+
+---
+assetId: paulvmontfort-hk-grand-terrace
+version: "1.0"
+lastModified: "2011-06-26T12:27:35Z"
+url: https://community.simtropolis.com/files/file/26405-hk-grand-terrace/?do=download
