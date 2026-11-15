@@ -1,0 +1,23 @@
+group: null-45
+name: invincible-udi-vehicles
+version: "1.0.0"
+subfolder: 150-mods
+info:
+  summary: Makes U-Drive It vehicles practically invincible
+  description: |-
+    Overrides the `vehicles.lua` tuning file and sets the hit points of all U-Drive It vehicles to 9,999.
+
+    The floating green diamond (plumbbob) health bar above the vehicles can be removed with `pkg=eastchapel:hidden-udrive-it-ui`.
+  conflicts: Incompatible with other mods that override the `vehicles.lua` tuning file.
+  author: Null 45
+  website: https://community.simtropolis.com/files/file/37567-invincible-udi-vehicles/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/InvincibleVehicles.jpg.74f00ea0e1349a3754a1cdb57e2fc736.jpg
+assets:
+  - assetId: null-45-invincible-udi-vehicles
+
+---
+assetId: null-45-invincible-udi-vehicles
+version: "1.0.0"
+lastModified: "2026-08-18T21:53:56Z"
+url: https://community.simtropolis.com/files/file/37567-invincible-udi-vehicles/?do=download
