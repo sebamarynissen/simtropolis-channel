@@ -41,15 +41,49 @@ info:
     - https://www.simtropolis.com/objects/screens/0006/303c471bde796643a8625a0f64f4a74c-02_DN.jpg
 dependencies:
   - bsc:textures-vol01
+  - psander5:festival-of-britain-set-models
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: psander5-festival-of-britain-set-maxisnite
+        exclude:
+          - \.SC4Model$
+          - \.dat$
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: psander5-festival-of-britain-set-darknite
+        exclude:
+          - \.SC4Model$
+          - \.dat$
+
+---
+group: psander5
+name: festival-of-britain-set-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models and props of the Festival of Britain set
+  description: |-
+    Only the models and the props file of `pkg=psander5:festival-of-britain-set`, without its lots. This is a dependency for lots that use the Dome of Discovery or Skylon.
+  author: psander5
+  websites:
+    - https://community.simtropolis.com/files/file/25429-festival-of-britain-set-maxis-night/
+    - https://community.simtropolis.com/files/file/25430-festival-of-britain-set-darknite/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: psander5-festival-of-britain-set-maxisnite
+        include:
+          - \.SC4Model$
+          - \.dat$
   - variant: { nightmode: dark }
     dependencies:
       - simfox:day-and-nite-mod
     assets:
       - assetId: psander5-festival-of-britain-set-darknite
+        include:
+          - \.SC4Model$
+          - \.dat$
 
 ---
 assetId: psander5-festival-of-britain-set-maxisnite
