@@ -20,50 +20,50 @@ variantInfo:
   - variantId: eastchapel:hidden-udrive-it-ui:guides
     description: Hide the guide circles and targets.
     values:
-      - value: "yes"
+      - value: invisible
         default: true
         description: Install Invisible Guides
-      - value: "no"
+      - value: visible
         description: Keep the guides
   - variantId: eastchapel:hidden-udrive-it-ui:menus
     description: Hide the menu with the U-Drive It instructions.
     values:
-      - value: "yes"
+      - value: invisible
         default: true
         description: Install Invisible Menus
-      - value: "no"
+      - value: visible
         description: Keep the menus
   - variantId: eastchapel:hidden-udrive-it-ui:plumbbob
     description: Hide the green diamond above a controlled vehicle.
     values:
-      - value: "yes"
+      - value: invisible
         default: true
         description: Install Invisible Plumbbob
-      - value: "no"
+      - value: visible
         description: Keep the plumbbob
 assets:
   - assetId: eastchapel-hidden-udrive-it-ui
     withConditions:
-      - ifVariant: { eastchapel:hidden-udrive-it-ui:guides: "yes" }
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:guides: invisible }
         include:
           - /Invisible Guides\.dat$
-      - ifVariant: { eastchapel:hidden-udrive-it-ui:guides: "no" }
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:guides: visible }
         exclude:
           - .
   - assetId: eastchapel-hidden-udrive-it-ui
     withConditions:
-      - ifVariant: { eastchapel:hidden-udrive-it-ui:menus: "yes" }
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:menus: invisible }
         include:
           - /Invisible Menus\.dat$
-      - ifVariant: { eastchapel:hidden-udrive-it-ui:menus: "no" }
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:menus: visible }
         exclude:
           - .
   - assetId: eastchapel-hidden-udrive-it-ui
     withConditions:
-      - ifVariant: { eastchapel:hidden-udrive-it-ui:plumbbob: "yes" }
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:plumbbob: invisible }
         include:
           - /Invisible Plumbbob\.dat$
-      - ifVariant: { eastchapel:hidden-udrive-it-ui:plumbbob: "no" }
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:plumbbob: visible }
         exclude:
           - .
 
