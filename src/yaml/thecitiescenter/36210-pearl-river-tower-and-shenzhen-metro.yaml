@@ -1,0 +1,31 @@
+group: thecitiescenter
+name: pearl-river-tower-and-shenzhen-metro
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Pearl River Tower in Guangzhou, with a Shenzhen Metro station
+  description: |-
+    Two ploppable CO$$$ lots (8x8) that only differ in their base textures. You can use one or both. The Pearl River Tower model is by Ct1999, as is the Shenzhen Metro station that is used on the lots.
+  author: thecitiescenter, Ct1999
+  website: https://community.simtropolis.com/files/file/36210-ct1999-pearl-river-tower-and-shenzhen-metro/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/Ct1999_PRT_001.jpg.6ea6aaa9a27288e8294bcaeead04fb56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/Ct1999_PRT_002.jpg.91b9660367fcd6c292930642f9ac1498.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/Ct1999_PRT_003.jpg.af23a3605f470131272e86964badc06d.jpg
+dependencies:
+  - agc:environment-dlc-props
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - lbt:mega-textures-vol01
+  - moonlinght:jpn-street-overwrite-sam1-props
+  - nam:textures
+  - peg:mtp-super-pack
+  - reddonquixote:prop-pack
+assets:
+  - assetId: thecitiescenter-pearl-river-tower-and-shenzhen-metro
+
+---
+assetId: thecitiescenter-pearl-river-tower-and-shenzhen-metro
+version: "1.0.0"
+lastModified: "2024-04-21T05:26:49Z"
+url: https://community.simtropolis.com/files/file/36210-ct1999-pearl-river-tower-and-shenzhen-metro/?do=download

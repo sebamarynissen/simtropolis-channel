@@ -1,0 +1,25 @@
+group: thecitiescenter
+name: toranomon-hills-station-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Toranomon Hills Station Tower, a mixed-use skyscraper in Tokyo
+  description: |-
+    Ploppable CO$$$ skyscraper on a 13x5 lot, transit-enabled for avenues.
+  author: thecitiescenter
+  website: https://community.simtropolis.com/files/file/37097-toranomon-hills-station-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_06/TH_001.jpg.5401960c1683ac6c0f2b2ea7dc193781.jpg
+dependencies:
+  - bsc:textures-vol02
+  - moonlinght:jpn-street-overwrite-sam1-props
+  - peg:mtp-super-pack
+  - reddonquixote:prop-pack
+assets:
+  - assetId: thecitiescenter-toranomon-hills-station-tower
+
+---
+assetId: thecitiescenter-toranomon-hills-station-tower
+version: "1.0.0"
+lastModified: "2026-06-09T07:04:44Z"
+url: https://community.simtropolis.com/files/file/37097-toranomon-hills-station-tower/?do=download
