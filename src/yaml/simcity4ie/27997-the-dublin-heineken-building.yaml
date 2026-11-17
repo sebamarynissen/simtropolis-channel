@@ -1,0 +1,40 @@
+group: simcity4ie
+name: the-dublin-heineken-building
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: The Heineken building on D'Olier Street in Dublin, Ireland
+  description: |-
+    This is the Heineken building located on D'Olier Street, Dublin, Ireland. I remodelled my original building from 2010 completely.
+
+    **Stats**
+
+    - CO$$$, stage 6
+    - Lot size: 2x4
+    - HD
+  author: SimCity4IE
+  website: https://community.simtropolis.com/files/file/27997-the-dublin-heineken-building-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/9e1a29297b3b1a9e2030bbeee839dbcc-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/6c5f02da5ad32bef04c4e225fe31c791-night.png
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/0355ca5b0c085ac4f24dfb2a4f736e24-hbnight.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/689de1fa02a9fdcece8a0ef0b0f081c4-heineken-v2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simcity4ie-the-dublin-heineken-building
+        include:
+          - "/Maxis Night \\(no night mod\\)/"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: simcity4ie-the-dublin-heineken-building
+        include:
+          - "/Darknight mod/"
+
+---
+assetId: simcity4ie-the-dublin-heineken-building
+version: "2.0"
+lastModified: "2012-09-06T19:45:09Z"
+url: https://community.simtropolis.com/files/file/27997-the-dublin-heineken-building-v2/?do=download

@@ -1,0 +1,39 @@
+group: simcity4ie
+name: connolly-hall-hd
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Connolly Hall, a modern union office building in Cork City
+  description: |-
+    Located at Lapp's Quay, Cork City, Connolly Hall is a modern workers' union SIPTU office constructed from interesting dark, reflecting glass beside the river Lee. A brief walk from the city centre, and overlooking the Elysian Tower directly opposite the river, lies Connolly Hall.
+
+    A custom UI icon was created for the BAT as well.
+
+    **Stats**
+
+    - CO$$, stage 5
+    - Lot size: 1x3
+    - HD
+    - Generic PIM-X tool stats
+
+    This building only comes in a Dark Nite version.
+  author: SimCity4IE, iRL Team
+  website: https://community.simtropolis.com/files/file/26539-irl-connolly-hall-hd/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/97a4b9f87e0a041b53da151e14809624-3%20in-game%20day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/769b91f2ce324b70ef941afa4dfdba7c-4%20in-game%20night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/4c52bbdbad36924109fde8e30e1cd952-1%20day%20render.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2011/539ebfb6eeb284c9d84a0b26c085534e-2%20night%20render.jpg
+assets:
+  - assetId: simcity4ie-connolly-hall-hd
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: simcity4ie-connolly-hall-hd
+version: "2.0"
+lastModified: "2011-07-21T13:09:01Z"
+url: https://community.simtropolis.com/files/file/26539-irl-connolly-hall-hd/?do=download
