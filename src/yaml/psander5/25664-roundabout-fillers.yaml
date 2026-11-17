@@ -1,0 +1,53 @@
+group: psander5
+name: roundabout-fillers
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Fillers for the NAM avenue and one-way-road roundabouts
+  description: |-
+    A small set of eyecandy fillers for the avenue and one-way-road roundabouts of the Network Addon Mod. Apart from a small park effect, they have no impact on your city.
+
+    I love roundabouts, but one thing I've always craved is an extra lane on the NAM Avenue roundabouts, so I made one. The three lane avenue filler comes in two flavours: a planted version that uses prop families to make each plop unique, and a blank version that allows you to use your favourite mayor mode items in the centre, such as trees, shrubs, rocks and any other ploppable item from the mayor mode flora menu. The extra lane is eyecandy only: it is made using an overhanging prop, so it is not integrated with the game's traffic simulator and you will never see cars using it.
+
+    Also included are a pair of fillers for the one-way-road roundabout, one with continuous turning arrows and one with a freestanding turning sign. I made these a very long time ago, so they are not my best work.
+
+    The lots appear near the top of your parks menu. There are left hand drive and right hand drive versions of all four lots, which only differ visually.
+
+    **How to use**
+
+    - **Avenue filler:** plop a NAM Avenue roundabout, delete the four grass squares in the centre and plop the 2x2 filler in the resulting space.
+    - **One-way-road fillers:** plop them in the 1x1 space left when you draw a one-way-road roundabout.
+
+    **Stats**
+
+    - Lot sizes: 2x2 (avenue fillers), 1x1 (one-way-road fillers)
+    - Plop cost: 50
+    - Bulldoze cost: 10
+    - Monthly cost: 5
+  author: psander5
+  website: https://community.simtropolis.com/files/file/25664-psander5s-roundabout-fillers/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f3da45b52068a6aeebde03a67d8b24c2-01.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f3da45b52068a6aeebde03a67d8b24c2-02.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jrj-vol05
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: psander5-roundabout-fillers
+        exclude:
+          - /LHD/
+  - variant: { driveside: left }
+    assets:
+      - assetId: psander5-roundabout-fillers
+        exclude:
+          - /RHD/
+
+---
+assetId: psander5-roundabout-fillers
+version: "1.0"
+lastModified: "2011-01-09T14:04:56Z"
+url: https://community.simtropolis.com/files/file/25664-psander5s-roundabout-fillers/?do=download

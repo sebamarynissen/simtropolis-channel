@@ -1,0 +1,59 @@
+group: psander5
+name: colwick-woods-court
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Colwick Woods Court, a 1960s prefab tower block in Nottingham
+  description: |-
+    A typical 1960s prefab tower block of the type once found in most large towns and cities in the UK. This particular one, in the City of Nottingham, still exists. It was completed in 1966 and rises to a height of 45 m over 16 floors. There are 90 flats within, but to match normal game values the in-game version provides homes for 604 sims.
+
+    It contains a growable residential lot and a ploppable eyecandy landmark for those who want more control over when and where the building appears and aren't worried about function. Both lots are identical, and the building is rendered using TruNite. Also included are a small pack of textures used on the lot and a small prop pack with several variations of parking garages for lot makers.
+
+    To get the growable to appear, enable the Euro tileset and zone a 5x4 medium density residential area. Hold down the Ctrl key to prevent the game from splitting the zone into smaller lots. The zone should grow provided your city meets all the conditions for other medium density low wealth residentials.
+
+    **Stats**
+
+    *Growable*
+
+    - Lot size: 5x4
+    - Tileset: Euro
+    - Growth stage: 4
+    - Capacity: R$ 604
+    - Bulldoze cost: 685
+
+    *Landmark (ploppable, eyecandy)*
+
+    - Lot size: 5x4
+    - Plop cost: 30,000
+    - Bulldoze cost: 500
+    - Monthly cost: 50
+    - No landmark or mayor rating effect
+  author: psander5
+  website: https://community.simtropolis.com/files/file/25225-colwick-woods-court/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f43c8178239401d88d45232ad4cbe5a8-01.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f43c8178239401d88d45232ad4cbe5a8-02.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: psander5-colwick-woods-court
+        exclude:
+          - "DARKNITE[^/]*\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: psander5-colwick-woods-court
+        exclude:
+          - "MAXISNITE[^/]*\\.SC4Model$"
+
+---
+assetId: psander5-colwick-woods-court
+version: "1.0"
+lastModified: "2010-11-08T15:36:20Z"
+url: https://community.simtropolis.com/files/file/25225-colwick-woods-court/?do=download
