@@ -1,0 +1,74 @@
+group: eastchapel
+name: hidden-udrive-it-ui
+version: "1.0.0"
+subfolder: 900-overrides
+info:
+  summary: Removes parts of the U-Drive It UI
+  description: |-
+    Hides parts of the U-Drive It UI. Each part can be chosen separately:
+
+    - Invisible guides: hides the guide circles and targets, often seen underneath planes and helicopters.
+    - Invisible menus: hides the menu with the U-Drive It instructions, so you need to remember the controls of each vehicle. In general, WASD is for direction, E and C for height (for planes, and the cannon angle of tanks), SPACE for action (firing, letting off smoke etc.) and SHIFT for aligning ground vehicles to networks.
+    - Invisible plumbbob: hides the green diamond above a controlled vehicle, which acts as a health bar. You then have to rely on the smoke to assess the damage, or use `pkg=null-45:invincible-udi-vehicles`.
+
+    The dashboards remain untouched, but can be minimized by pressing NUMLOCK.
+  author: EastChapel
+  website: https://community.simtropolis.com/files/file/37568-hidden-u-drive-it-ui/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_08/6a84dce984288_HiddenU-DriveItUI.png.8d6db1a136443ea1e0d5460675ead3b6.jpg
+variantInfo:
+  - variantId: eastchapel:hidden-udrive-it-ui:guides
+    description: Hide the guide circles and targets.
+    values:
+      - value: invisible
+        default: true
+        description: Install Invisible Guides
+      - value: visible
+        description: Keep the guides
+  - variantId: eastchapel:hidden-udrive-it-ui:menus
+    description: Hide the menu with the U-Drive It instructions.
+    values:
+      - value: invisible
+        default: true
+        description: Install Invisible Menus
+      - value: visible
+        description: Keep the menus
+  - variantId: eastchapel:hidden-udrive-it-ui:plumbbob
+    description: Hide the green diamond above a controlled vehicle.
+    values:
+      - value: invisible
+        default: true
+        description: Install Invisible Plumbbob
+      - value: visible
+        description: Keep the plumbbob
+assets:
+  - assetId: eastchapel-hidden-udrive-it-ui
+    withConditions:
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:guides: invisible }
+        include:
+          - /Invisible Guides\.dat$
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:guides: visible }
+        exclude:
+          - .
+  - assetId: eastchapel-hidden-udrive-it-ui
+    withConditions:
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:menus: invisible }
+        include:
+          - /Invisible Menus\.dat$
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:menus: visible }
+        exclude:
+          - .
+  - assetId: eastchapel-hidden-udrive-it-ui
+    withConditions:
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:plumbbob: invisible }
+        include:
+          - /Invisible Plumbbob\.dat$
+      - ifVariant: { eastchapel:hidden-udrive-it-ui:plumbbob: visible }
+        exclude:
+          - .
+
+---
+assetId: eastchapel-hidden-udrive-it-ui
+version: "1.0.0"
+lastModified: "2026-08-18T22:37:03Z"
+url: https://community.simtropolis.com/files/file/37568-hidden-u-drive-it-ui/?do=download

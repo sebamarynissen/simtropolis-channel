@@ -1,0 +1,46 @@
+group: jeiman2008
+name: persistent-automata-mod
+version: "2.0"
+subfolder: 900-overrides
+conflicting:
+  - fatherted:realistic-automata-mod
+info:
+  summary: Automata no longer fade in and out constantly
+  description: |-
+    Makes automata much more persistent, so cars no longer fade in and out constantly. It is a modified version of the NAM Automata Controller and replaces its settings, so it is installed to load after it. Choose the spawn rate that fits your city.
+
+    Buses stay less persistent, as they do not obey the 10 tile minimum distance when a bus stop is nearby.
+  conflicts: Incompatible with the Realistic Automata Mod.
+  author: Jeiman2008
+  website: https://community.simtropolis.com/files/file/23362-persistent-automata-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/edf9576c22dd5c336f0f2ed988f06fd6-NoUDI2.jpg
+    - https://www.simtropolis.com/objects/screens/0026/edf9576c22dd5c336f0f2ed988f06fd6-UDI2.jpg
+variantInfo:
+  - variantId: jeiman2008:persistent-automata-mod:spawn-rate
+    description: Choose how many automata spawn.
+    values:
+      - value: low
+        description: Looks better in rural areas and low to medium suburbs.
+      - value: medium
+        description: Looks better in larger suburbs and mid to high density cities.
+      - value: high
+        description: Looks best in high density cities, and can make even non busy networks look congested.
+assets:
+  - assetId: jeiman2008-persistent-automata-mod
+    withConditions:
+      - ifVariant: { jeiman2008:persistent-automata-mod:spawn-rate: low }
+        include:
+          - /Persistent_Automata_Low\.dat$
+      - ifVariant: { jeiman2008:persistent-automata-mod:spawn-rate: medium }
+        include:
+          - /Persistent_Automata_Med\.dat$
+      - ifVariant: { jeiman2008:persistent-automata-mod:spawn-rate: high }
+        include:
+          - /Persistent_Automata_Hi\.dat$
+
+---
+assetId: jeiman2008-persistent-automata-mod
+version: "2.0"
+lastModified: "2010-02-15T04:26:49Z"
+url: https://community.simtropolis.com/files/file/23362-persistent-automata-mod/?do=download

@@ -1,0 +1,29 @@
+group: fatherted
+name: realistic-automata-mod
+version: "1.0"
+subfolder: 900-overrides
+conflicting:
+  - jeiman2008:persistent-automata-mod
+info:
+  summary: Automata only disappear when far away or off-screen
+  description: |-
+    Changes the traffic algorithms so that cars and other automata, including trams and rail, only disappear when they have driven 30+ tiles or are off-screen. The game also spawns as many automata as it allows, so larger cities get realistic traffic jams and gridlock.
+
+    Traffic on NAM puzzle pieces or NWM lanes with paths that do not match up still disappears, and buses still disappear at bus stops.
+
+    It is inspired by the Persistent Automata Mod and replaces the settings of the NAM Automata Controller, so it is installed to load after it.
+  conflicts: Incompatible with the Persistent Automata Mod.
+  author: Fatherted
+  website: https://community.simtropolis.com/files/file/29946-realistic-automata-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/8412a7ec4396235874da08cfe21a60ff-darksea-jul-29--141413219346.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/6b5ecc16e9d5a9c0db43840334470fd6-lark-oct-4--081413214742.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2014/92e5f854641a94193ca5f857e878df05-darksea-may-17--161413270573.png
+assets:
+  - assetId: fatherted-realistic-automata-mod
+
+---
+assetId: fatherted-realistic-automata-mod
+version: "1.0"
+lastModified: "2014-10-12T15:59:29Z"
+url: https://community.simtropolis.com/files/file/29946-realistic-automata-mod/?do=download
