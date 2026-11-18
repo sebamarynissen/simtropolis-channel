@@ -1,0 +1,38 @@
+group: paulvmontfort
+name: hk-2-international-finance-centre-v3
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: 2 International Finance Centre, an office tower in Hong Kong
+  description: |-
+    Growable and ploppable CO$$$ office tower on a 5x5 lot, plus a landmark version.
+  author: paulvmontfort
+  website: https://community.simtropolis.com/files/file/29140-hk-2-international-finance-centre-v3/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/5282ad13702de5af8254e3ae0a1847fe-hkabt_pvm_2ifc_v3_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/ebd873836fb2ab49b7b508f5546891d0-hkabt_pvm_2ifc_v3_night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/d7c49ac8ad20c548a63ce2ffd2c16bf5-hkabt_pvm_2ifc_v3_night2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-hk-2-international-finance-centre-v3-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-hk-2-international-finance-centre-v3-darknite
+
+---
+assetId: paulvmontfort-hk-2-international-finance-centre-v3-maxisnite
+version: "1.0"
+lastModified: "2013-12-24T15:29:54Z"
+url: https://community.simtropolis.com/files/file/29140-hk-2-international-finance-centre-v3/?do=download&r=121988
+
+---
+assetId: paulvmontfort-hk-2-international-finance-centre-v3-darknite
+version: "1.0"
+lastModified: "2013-12-24T15:29:54Z"
+url: https://community.simtropolis.com/files/file/29140-hk-2-international-finance-centre-v3/?do=download&r=121989

@@ -1,0 +1,33 @@
+group: paulvmontfort
+name: hk-bank-of-china-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bank of China Tower, a skyscraper in Hong Kong
+  description: |-
+    Growable and ploppable CO$$$ office tower on a 4x4 lot, plus a landmark version. This is version 2 of the building, which has better renders and a dark night version.
+  author: paulvmontfort, HONG KONG
+  websites:
+    - https://community.simtropolis.com/files/file/22889-hk-bank-of-china-tower-v2/
+    - https://community.simtropolis.com/files/file/19220-hk-bank-of-china-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/216f589596c313462ce4dedea8232277-BOC_day.jpg
+    - https://www.simtropolis.com/objects/screens/0005/216f589596c313462ce4dedea8232277-BOC_night.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-hk-bank-of-china-tower
+        exclude:
+          - /Dark night/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-hk-bank-of-china-tower
+        exclude:
+          - /Maxis night/
+
+---
+assetId: paulvmontfort-hk-bank-of-china-tower
+version: "1.0"
+lastModified: "2009-11-24T11:52:15Z"
+url: https://community.simtropolis.com/files/file/22889-hk-bank-of-china-tower-v2/?do=download

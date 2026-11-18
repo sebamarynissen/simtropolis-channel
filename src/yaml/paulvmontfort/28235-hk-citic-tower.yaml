@@ -1,0 +1,38 @@
+group: paulvmontfort
+name: hk-citic-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: CITIC Tower, an office building in Hong Kong
+  description: |-
+    Growable and ploppable CO$$ office tower on a 5x4 lot, plus a landmark version.
+  author: paulvmontfort
+  website: https://community.simtropolis.com/files/file/28235-hk-citic-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/428601ac480b1e51dd93e5739a7a6b87-citic-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/3739dd3c50225c074be0f0ab56999801-citic-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/8c6ef459432e1d6f5b5fb26aa82e85ec-citic-dark-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/e391c88202ccdc602159b316aef9f284-citic-lot.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-hk-citic-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-hk-citic-tower-darknite
+
+---
+assetId: paulvmontfort-hk-citic-tower-maxisnite
+version: "1.0"
+lastModified: "2012-11-21T16:11:54Z"
+url: https://community.simtropolis.com/files/file/28235-hk-citic-tower/?do=download&r=109077
+
+---
+assetId: paulvmontfort-hk-citic-tower-darknite
+version: "1.0"
+lastModified: "2012-11-21T16:11:54Z"
+url: https://community.simtropolis.com/files/file/28235-hk-citic-tower/?do=download&r=109078

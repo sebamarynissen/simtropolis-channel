@@ -1,0 +1,33 @@
+group: paulvmontfort
+name: hk-bank-of-america-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bank of America Tower, an office building in Hong Kong
+  description: |-
+    Growable and ploppable CO$$ office tower on a 4x5 lot, plus a landmark version. This is version 2 of the building, which has enhanced renders and a dark night version.
+  author: paulvmontfort, T Wrecks
+  websites:
+    - https://community.simtropolis.com/files/file/22851-hk-bank-of-america-tower-v2/
+    - https://community.simtropolis.com/files/file/19642-hk-bank-of-america-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e4a83bd75043605ee3ad6f5e2d1a18ae-HKABT_BoAV2_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e4a83bd75043605ee3ad6f5e2d1a18ae-HKABT_BoAV2_Night.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-hk-bank-of-america-tower
+        exclude:
+          - /Darker Night/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-hk-bank-of-america-tower
+        exclude:
+          - /maxis night/
+
+---
+assetId: paulvmontfort-hk-bank-of-america-tower
+version: "1.0"
+lastModified: "2009-11-17T16:44:40Z"
+url: https://community.simtropolis.com/files/file/22851-hk-bank-of-america-tower-v2/?do=download

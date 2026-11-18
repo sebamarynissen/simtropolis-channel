@@ -1,0 +1,31 @@
+group: paulvmontfort
+name: gendarmerie-timone-marseille
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: Gendarmerie Timone, the police headquarters of Marseille
+  description: |-
+    A ploppable police station on a 5x3 lot and a growable R$$ residential building on a 3x5 lot.
+  author: paulvmontfort
+  website: https://community.simtropolis.com/files/file/24934-gendarmerie-timone-marseille/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c8e20a0ae0b254ccf159f91dba78f4b1-timoneday.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c8e20a0ae0b254ccf159f91dba78f4b1-timonenight.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-gendarmerie-timone-marseille
+        exclude:
+          - /trunight/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-gendarmerie-timone-marseille
+        exclude:
+          - /Maxis night/
+
+---
+assetId: paulvmontfort-gendarmerie-timone-marseille
+version: "1.0"
+lastModified: "2010-09-23T15:03:20Z"
+url: https://community.simtropolis.com/files/file/24934-gendarmerie-timone-marseille/?do=download

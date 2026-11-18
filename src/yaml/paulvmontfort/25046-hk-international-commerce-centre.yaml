@@ -1,0 +1,42 @@
+group: paulvmontfort
+name: hk-international-commerce-centre
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: International Commerce Centre, the tallest skyscraper of Hong Kong
+  description: |-
+    Growable CO$$$ skyscraper on a 7x11 lot, plus a landmark version. Both are transit-enabled.
+
+    The building is huge and may be hard to grow. If so, use the BuildingPlop cheat of the Extra Cheats DLL to plop it.
+  author: paulvmontfort, T Wrecks
+  websites:
+    - https://community.simtropolis.com/files/file/25046-hk-international-commerce-centre/
+    - https://community.simtropolis.com/files/file/25058-hk-international-commerce-centre-dark-night-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/85bc22c18040cc82de989f9d963d807b-icc%20day.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d4cdedbd244467bd50fcd8ab4d18cfdd-icc%20night.jpg
+    - https://www.simtropolis.com/objects/screens/0015/85bc22c18040cc82de989f9d963d807b-icc%20nightdark.jpg
+dependencies:
+  - bsc:textures-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: paulvmontfort-hk-international-commerce-centre-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: paulvmontfort-hk-international-commerce-centre-darknite
+
+---
+assetId: paulvmontfort-hk-international-commerce-centre-maxisnite
+version: "1.0"
+lastModified: "2010-10-12T16:40:18Z"
+url: https://community.simtropolis.com/files/file/25046-hk-international-commerce-centre/?do=download
+
+---
+assetId: paulvmontfort-hk-international-commerce-centre-darknite
+version: "1.0"
+lastModified: "2010-10-14T00:58:54Z"
+url: https://community.simtropolis.com/files/file/25058-hk-international-commerce-centre-dark-night-version/?do=download
