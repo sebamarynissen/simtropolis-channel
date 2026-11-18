@@ -1,0 +1,42 @@
+group: kevdan25
+name: jack-in-the-box
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Jack in the Box
+  description: |-
+    This is my 2nd name brand building. Jack in the Box comes ploppable with 50 jobs and is a 4x4 lot. I tried to make this as realistic as possible. I am really starting to get the hang of BAT and want to do more Fast Food joints. I hope you enjoy this lot. If you have any suggestions on improving this lot let me know. I am debating on my next Taco Bell or Chick-fil-A, which one?
+
+    UPDATE: I have revamped this lot to reflect new learnings. I have included a 4x4 LM Ploppable with jobs and a CS$ 3X4 Growable (50 jobs). I was going to scale the bldg down abit, but having troubles so that will have to wait. Please delete previous versions!!!!
+
+    Thanks to Simgoober for his knowledge and his tutorial.
+
+    Thanks again to phillippbo, redlotus and darkmatter on the use of the roof junk.
+
+    Goldiva on the nightlighting effects
+
+    Files needed:
+
+    vehicle\_prop\_v3.dat
+
+    DEDWD\_Props\_v1.2.dat
+
+    PEG\-RT3\_EHW\_105.dat
+  author: kevdan25
+  website: https://community.simtropolis.com/files/file/4303-jack-in-the-box/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/afdd12524adc3c99ca16ec453f5e9365-JIB%20Day.JPG
+    - https://www.simtropolis.com/objects/screens/0019/afdd12524adc3c99ca16ec453f5e9365-JIB%20Nite.JPG
+dependencies:
+  - bsc:flags
+  - bsc:textures-vol01
+  - maxis:day-of-peace
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: kevdan25-jack-in-the-box
+
+---
+assetId: kevdan25-jack-in-the-box
+version: "1.0"
+lastModified: "2004-09-20T00:18:41Z"
+url: https://community.simtropolis.com/files/file/4303-jack-in-the-box/?do=download
