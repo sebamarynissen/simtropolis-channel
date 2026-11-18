@@ -1,0 +1,24 @@
+# TODO - missing props 0x073d45ee (not found in any package; 2x in Friendlys_LM)
+group: kevdan25
+name: friendlys-restaurant
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Friendlys Restaurant
+  description: When ***Friendly***
+  author: kevdan25
+  website: https://community.simtropolis.com/files/file/11762-friendlys-restaurant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/ba89225e20897d1f55b2e90d745c358d-Friendlys%20pic%201.jpg
+    - https://www.simtropolis.com/objects/screens/0021/ba89225e20897d1f55b2e90d745c358d-Friendlys%20pic%202.jpg
+dependencies:
+  - bsc:mega-props-kevdan25-vol01
+  - gizmo:vehicle-props
+assets:
+  - assetId: kevdan25-friendlys-restaurant
+
+---
+assetId: kevdan25-friendlys-restaurant
+version: "1.0"
+lastModified: "2005-02-23T00:13:56Z"
+url: https://community.simtropolis.com/files/file/11762-friendlys-restaurant/?do=download
