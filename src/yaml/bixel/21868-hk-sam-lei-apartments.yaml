@@ -1,0 +1,58 @@
+group: bixel
+name: hk-sam-lei-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Sam Lei Apartments
+  description: |-
+    HKABT Presents
+
+    Sam Lei Apartments!
+
+    model: bixel
+
+    modding: bixel
+
+    readme: bixel
+
+    Referenced from a real building located SOMEWHERE in Hong Kong.
+
+    Sam Lei Apartments
+
+    Occupancy: R$ 1300
+
+    Pollution:
+
+    Air: 20
+
+    Water: 20
+
+    Garbage: 60
+
+    Power Consumed: minimal
+
+    Water Consumed: minimal
+
+    LOT SIZE: 3x2
+
+    Stage 8
+
+    Euro Only
+
+    Enjoy!
+  author: bixel
+  website: https://community.simtropolis.com/files/file/21868-hk-sam-lei-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d6c9b4bfc42264d68a3d72be417d0e03-samleiD.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d6c9b4bfc42264d68a3d72be417d0e03-samleiN.jpg
+dependencies:
+  - bsc:textures-vol03
+  - peg:mtp-super-pack
+assets:
+  - assetId: bixel-hk-sam-lei-apartments
+
+---
+assetId: bixel-hk-sam-lei-apartments
+version: "1.0"
+lastModified: "2009-06-16T03:33:10Z"
+url: https://community.simtropolis.com/files/file/21868-hk-sam-lei-apartments/?do=download

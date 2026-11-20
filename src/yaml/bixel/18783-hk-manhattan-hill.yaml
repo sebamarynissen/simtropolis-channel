@@ -1,0 +1,69 @@
+group: bixel
+name: hk-manhattan-hill
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Manhattan Hill
+  description: |-
+    **The Hong Kong / Asia BAT Team** presents **Manhattan Hill**BAT created by **bixel**  
+    Modding & lot design by **bixel**
+
+    readme by **bixel**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&forumid=1)
+
+    **Introduction / Overview  
+    \*\*\*UPDATED\*\*\*  
+    see below****Manhattan Hill** is located in Hong Kong on Po Lun Street in Lai Chi Kok. The height of the building was increased from 186.6m to 197.7m, and the number of flats decreased from around 1300 to 1100, so as to provide larger units. It tops out at 48 stories and its height is 197.7 m.
+
+    I have provided both a Maxis normal growth R$$ LOT and a CAM LOT. For those non-CAM using do not- absolutely do not have the CAM folder in your plugins directory.
+
+    [Midland Properties Site on Manhattan Hill](http://www.midland.com.hk/eng/developer_project/E000003571/)
+
+    [Photo of Manhattan Hill](http://www.midland.com.hk/eng/developer_project/E000003571/main_lg.jpg) [Official Website](http://www.manhattan-hill.com.hk/)The following lots are included:
+
+    -   Growable R$$
+    -   Landmark
+
+    **Dependencies** NONE!!!
+
+    * * *
+
+    **Stats and Values**All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Parameter**
+
+    **Growable R$$**
+
+    Occupants:
+
+    8,000 R$$  
+    (8,000 R$$, 11,200 R$ when dilapidated)
+
+    Lot Size /  
+    Growth Stage:
+
+    3x13 / stage 8
+
+    Zone Type:
+
+    Dense residential
+  author: bixel
+  website: https://community.simtropolis.com/files/file/18783-hk-manhattan-hill/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d2a5be4f49453097267aa6535ac9028d-mhD.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d2a5be4f49453097267aa6535ac9028d-mhN.jpg
+dependencies:
+  - bsc:essentials
+  - hkabt:bixel-mega-props-vol24
+assets:
+  - assetId: bixel-hk-manhattan-hill
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-manhattan-hill
+version: "1.0"
+lastModified: "2007-10-11T22:11:41Z"
+url: https://community.simtropolis.com/files/file/18783-hk-manhattan-hill/?do=download

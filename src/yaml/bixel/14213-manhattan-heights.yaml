@@ -1,0 +1,89 @@
+group: bixel
+name: manhattan-heights
+version: "2"
+subfolder: 200-residential
+info:
+  summary: Manhattan Heights
+  description: |-
+    Manhattan Hieghts  
+    New Kennedy Town Praya  
+    Hong Kong HK China  
+    \---A Hong Kong BAT Team production---  
+    B.A.T. created by bixel  
+    Modding, lot design, menu icon & readme by T Wrecks
+
+    !!!!New render! Zoom 3 night windows fixed! New theme lighting added. 25x anti-aliasing applied, sharper look!!!Built in 2000, this unique highrise building is 55 stories tall commands a truly spectacular view of the Tsing Ma Bridge. Often called the 'Westerner's Building' by taxi drivers because of the great amount of western businessmen that live there.
+
+    The 2nd floor of the Manhattan Heights opens to a 35,000sq.ft. clubhouse and landscaped podium. The bottom of the oval-shaped swimming pool is embellished with a Mediterranean sun pattern.
+
+    Other facilities include:  
+    Children's playground, Fitness centre, Billiards, Squash court, Table tennis, Sauna, Conference room, Reading room
+
+    Manhattan Heights is the perfect "home from home" for Hong Kong's busy and discerning executives who like the flexibility of fully furnished serviced apartments with an array of attractive facilities! At Manhattan Heights, you will find the highest standard of modern furnishings to appeal to the most selective of residents.
+
+    GROWABLE R$$ VERSION ( mid-wealth residential)
+
+    This version can be built automatically by your sims if the required growth stage is reached, the correct tileset is active, appropriate zoning is provided and favourable growth conditions apply (attractivity, demand) - just like any in-game growable building.
+
+    Lot Size: 4x4  
+    Zoning: Dense Residential  
+    Tileset(s): Euro  
+    Growth Stage: 8  
+    Occupants: 5,216 R$$ (7,954 R$ when dilapidated)
+
+    Flammability: 40 / Stage 5
+
+    Construction Time: 114 days  
+    Worth / Bulldoze Cost: $ 1,142  
+    Value / Taxable Income: $ 55,488
+
+    Power Consumed: 84 MWh/month  
+    Water Consumed: 160 gallons/month
+
+    Air Pollution: 23 / 6 tiles  
+    Water Pollution: 29 / 7 tiles  
+    Garbage: 5 tons  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    LANDMARK VERSION
+
+    The landmark version can be plopped into your city when you can afford it. The stats are based on the Bank of America Building. You will find the landmark version in your Landmarks Menu. The landmark version also features a nice custom menu icon that will tie in seamlessly into the existing Maxis landmark icons - no blurry Lot Editor standard icon with grey background here!
+
+    Lot Size: 4x4
+
+    Flammability: 40 / Stage 5
+
+    Plop Cost: $ 105,000  
+    Monthly Maintenance Cost: $ 205  
+    Bulldoze Cost: $9,500
+
+    Landmark Effect: +75 / 25 tiles  
+    Mayor Rating Effect: +5 / 256 tiles
+
+    Power Consumed: 550 MWh/month  
+    Water Consumed: 1,250 gallons/month
+
+    Air Pollution: 5 / 6 tiles  
+    Water Pollution: 5 / 7 tiles  
+    Garbage: 35 tons
+
+    **dependencies:** Cerulean Textures v101 ver.5:  
+    [https://www.simtropolis.com/STEX/details.cfm?id=3271](https://www.simtropolis.com/stex/details.cfm?id=3271)
+  author: bixel
+  website: https://community.simtropolis.com/files/file/14213-manhattan-heights/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/1fffc5b89b1797be5576361de39650a3-ManhattanHeightsDay.jpg
+    - https://www.simtropolis.com/objects/screens/0005/1fffc5b89b1797be5576361de39650a3-MHn.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol10
+assets:
+  - assetId: bixel-manhattan-heights
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-manhattan-heights
+version: "2"
+lastModified: "2005-11-21T19:30:48Z"
+url: https://community.simtropolis.com/files/file/14213-manhattan-heights/?do=download

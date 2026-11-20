@@ -1,0 +1,37 @@
+group: bixel
+name: sham-wan-towers
+version: "2"
+subfolder: 200-residential
+info:
+  summary: Sham Wan Towers
+  description: |-
+    Sham Wan Towers v2  
+    B.A.T. created by bixel  
+    Modding, new lots & readme by T Wrecks
+
+    INTRODUCTION
+
+    This is a second version of the Sham Wan Towers, which features several improvements. The original version had a non-functional road BATted through the building, and its stats were pretty problematic. New stats have been included in another download, but this was not a really user-freindly approach.
+
+    Now Sham Wan Towers are back, and this time they come in 5 different versions, 3 of which are transit-enabled! The building, too, has undergone some changes. The BATted road has gone, and some details have been added. Now the building features two access roads to built-in parking space, and if you use the transit-enabled versions, these roads (well, one road and one street, actually) will connect to your existing network!
+
+    In total, you will find:  
+    \- a regular growable R
+  author: bixel
+  website: https://community.simtropolis.com/files/file/13403-sham-wan-towers/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/78a32f154cf74d2d6579a49b98b6042d-Sham%20Wan%20Demo2a.jpg
+    - https://www.simtropolis.com/objects/screens/0014/78a32f154cf74d2d6579a49b98b6042d-ShamDemo2.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol11
+assets:
+  - assetId: bixel-sham-wan-towers
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-sham-wan-towers
+version: "2"
+lastModified: "2005-08-19T08:42:47Z"
+url: https://community.simtropolis.com/files/file/13403-sham-wan-towers/?do=download

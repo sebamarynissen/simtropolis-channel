@@ -1,0 +1,62 @@
+group: bixel
+name: the-sorrento-hk
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: The Sorrento HK
+  description: |-
+    **The Hong Kong / Asia BAT Team** presents **The Sorrento**
+
+    BAT created by **bixel**
+
+    Modding, menu icons & lot design by **T Wrecks**
+
+    readme by **bixel**
+
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&forumid=1)
+
+    **Introduction / Overview****Sorrento** is a residential complex on the reclamation in west of [Jordan](https://en.wikipedia.org/wiki/Jordan%2C_Hong_Kong "Jordan, Hong Kong"), [Kowloon](https://en.wikipedia.org/wiki/Kowloon "Kowloon"), [Hong Kong](https://en.wikipedia.org/wiki/Hong_Kong "Hong Kong"). At 256 metres (841 feet) with 75 floors, it is the tallest residential building of Hong Kong, and fifth-tallest residential building in the world.
+
+    Located at the [MTR](https://en.wikipedia.org/wiki/MTR "MTR") [Kowloon Station](https://en.wikipedia.org/wiki/Kowloon_%28MTR%29 "Kowloon (MTR)"), Sorrento is comprised of five towers with ascending height. Units are usually sold for between HK$6,000 and HK$10,000 per square foot. Completed in 2003, it was built by [the Wharf Estate Development Ltd.](https://en.wikipedia.org/wiki/The_Wharf "The Wharf") and [MTR Corporation](https://en.wikipedia.org/wiki/MTR_Corporation "MTR Corporation").
+
+    All five towers were designed by Wong & Ouyang (HK) Ltd and follow the same design however reduced in height consecutively with the tallest being Sorrento 1 and the shortest being Sorrento 6. A tower named Sorrento 4 has not been constructed however there is a gap between Sorrento 2 and Sorrento 3.
+
+    More pictures: [Here](http://img86.imageshack.us/img86/9595/sorrentocompletedaytk0.jpg) & [Here](http://img86.imageshack.us/img86/4334/sorrentocompletenightmo5.jpg)
+
+    The following lots are included:
+
+    -   Growable R$$
+    -   Landmark
+
+    **Dependencies**[BSC Textures MEGA Pack](https://www.simtropolis.com/stex/index.cfm?id=12646)
+
+    [PEG MTP Mountain Theme Pack](https://www.simtropolis.com/stex/index.cfm?id=14025)
+
+    * * *
+
+    **Stats and Values**All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Parameter**
+
+    **Growable R$$**
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17506-the-sorrento-hk/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1a031926bc70b2c9b68fcd7c06eb4a9c-Sorrento_STEX_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1a031926bc70b2c9b68fcd7c06eb4a9c-Sorrento_STEX_Night.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol14
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: bixel-the-sorrento-hk
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-the-sorrento-hk
+version: "1.0"
+lastModified: "2006-12-24T05:13:07Z"
+url: https://community.simtropolis.com/files/file/17506-the-sorrento-hk/?do=download

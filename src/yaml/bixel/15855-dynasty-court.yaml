@@ -1,0 +1,62 @@
+group: bixel
+name: dynasty-court
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Dynasty Court
+  description: |-
+    * * *
+
+    The Hong Kong / Asia BAT Team
+
+    * * *
+
+    presents
+
+    Dynasty Court ---  version 1.2BAT created by **bixel**
+
+    Modding, lot design, readme & custom menu icon by **T Wrecks**
+
+    There was found to be a small error preventing Dynasty Courts from growing...T Wrecks accidently had stats at 9072 R$$ and not 5750 R$$, this has been fixed, thankyou!
+
+    New Render!!
+
+    [Check out the Hong Kong / Asia BAT Team thread at Simtropolis](https://www.simtropolis.com/forum/categories.cfm?catid=153&forumid=1)
+
+    * * *
+
+    Introduction / OverviewDynasty Court is one of the many residential high-rise structure in Hong Kong, and it features the familiar look of several tall and thin towers standing on a common base. The tallest of the five towers reaches a height of 159 m with its 47 storeys. One of the most striking features of this complex, which was completed in 1992, is the road that runs right through the base.
+
+    This BAT is a true-to-life recreation of the original building, including the road through the building. Of course, the road is not just eye candy; it is fully transit-enabled, and you can drive right through Dynasty Court in UDI mode. Since some people use the Euro Road Textures mod and others don't, this archive includes versions that will fit both texture sets. Another exceptional feature is the careful LOD shape, which allowed to use props where this wouldn't have been possible otherwise - see the entrance area.
+
+    Both landmark and growable residential lots are included. Since everything high-wealth abounds on the STEX whereas the other wealth levels are often neglected, this complex has been modded as medium-wealth residential (R$$).
+
+    In total, you will find the following versions:
+
+    ploppable landmark (transit-enabled & UDI\-compatible) for US road textures ploppable landmark (transit-enabled & UDI\-compatible) for Euro road textures growable R$$ (transit-enabled & UDI\-compatible) for US road textures growable R$$ (transit-enabled & UDI\-compatible) for Euro road textures growable R$$ (regular lot without transit-enabling features)Note: This time, I didn't make two different icons for the landmark versions. The reason is that nobody uses two road texture sets at the same time, so it really doesn't make sense to use both landmark lots simultaneously.
+
+    **A quick reminder about transit-enabled lots:** Apart from the obvious road through the building, the little loading area in the back is transit-enabled for streets. However, connecting the lots to your traffic network wherever possible is optional, and not connecting them will not affect the funtionality of the building.
+
+    Please remember that once a transit-enabled growable lot has grown, it cannot be overgrown by other lots (or split up into e.g. two 4x4 lots and then overgrown) automatically, i.e. once it's there, it will stay there forever unless you bulldoze it. Depending on your personal taste, you may like that or not. If you don't, I included the regular growable lot for you. ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    * * *
+
+    DependenciesIn order to give this remarkably designed building a lot that would do it justice, I used one dependency: Cerulean's base texture set, which is one of the best-known texture sets and has been used for many other buildin
+  author: bixel
+  website: https://community.simtropolis.com/files/file/15855-dynasty-court/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d5905d35abf47ed982d3fb4d4e2829fe-DynastyCourt_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d5905d35abf47ed982d3fb4d4e2829fe-DynastyCourt_Night.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol04
+assets:
+  - assetId: bixel-dynasty-court
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-dynasty-court
+version: "1.2"
+lastModified: "2006-05-06T01:57:01Z"
+url: https://community.simtropolis.com/files/file/15855-dynasty-court/?do=download

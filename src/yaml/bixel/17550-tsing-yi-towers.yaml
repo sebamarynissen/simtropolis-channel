@@ -1,0 +1,65 @@
+group: bixel
+name: tsing-yi-towers
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Tsing Yi Towers
+  description: |-
+    **The Hong Kong / Asia BAT Team** presents **Tsing Yi Towers**BAT created by **bixel**  
+    Modding, & lot design by **bixel**
+
+    readme by **bixel**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&forumid=1)
+
+    **Introduction / Overview**I was working on my Hong Kong map and just couldn’t help but want more HK style towers, so I made some. 2 kinds based on the same design but with different colors. They are a little tricky to grow but their slim size (6x2) can make for some interesting zoning variations. Tsing Yi is an island near Hong Kong proper…I just named these two towers after the neighborhoods there. You get Chun Fa Luk Court and Tam Kon Shan Court. They are approximately 38 stories tall and I find the color variation pleasing.
+
+    The following lots are included:
+
+    -   Growable R$$
+
+    **Dependencies** NONE!!! **Stats and Values**All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Chun Fa Luk Court**
+
+    **Parameter**
+
+    **Growable R$$**
+
+    Occupants:
+
+    3,713 R$$  
+    (6,723 R$ when dilapidated)
+
+    Lot Size /  
+    Growth Stage:
+
+    6x2 / stage 8
+
+    Zone Type:
+
+    Dense residential
+
+    Tileset(s):
+
+    Euro
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17550-tsing-yi-towers/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0bed0eac9c8619ff848c8950b6b28576-ChunFaLuk.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0bed0eac9c8619ff848c8950b6b28576-TsingYiN.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol01
+  - hkabt:bixel-mega-props-vol11
+assets:
+  - assetId: bixel-tsing-yi-towers
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-tsing-yi-towers
+version: "1.0"
+lastModified: "2006-12-31T04:56:13Z"
+url: https://community.simtropolis.com/files/file/17550-tsing-yi-towers/?do=download

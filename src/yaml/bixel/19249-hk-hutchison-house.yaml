@@ -1,0 +1,72 @@
+group: bixel
+name: hk-hutchison-house
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: HK Hutchison House
+  description: |-
+    **The Hong Kong / Asia BAT Team**
+
+    presents
+
+    **Hutchison House**
+
+    BAT created by **bixel**  
+    Modding, lot design & custom menu icons by **HONG KONG**
+
+    readme by **bixel & HONG KONG**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&forumid=1)
+
+    **Introduction / Overview**
+
+    **Hutchison House** was built in 1975 and has 24 floors. Hutchison Whampoa Limited (HWL) is among the largest companies listed on the main board of the Hong Kong Stock Exchange. Flagship companies include Hutchison Port Holdings, Hutchison Whampoa Properties, A S Watson, Cheung Kong Infrastructure and Hutchison Telecom.
+
+    The following lots are included:
+
+    -   Ploppable landmark
+    -   Ploppable functional CO$$
+    -   Growable CO$$
+
+    **Dependencies**
+
+    None - everything is included!!
+
+    * * *
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Parameter**
+
+    **Growable CO$$**
+
+    Occupants:
+
+    3,500 CO$$  
+
+    Lot Size /  
+    Growth Stage:
+
+    4x4 / stage 8
+
+    Zone Type:
+  author: bixel
+  website: https://community.simtropolis.com/files/file/19249-hk-hutchison-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d9dd881d3cefbfd8638bb60336e906de-HWLD.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d9dd881d3cefbfd8638bb60336e906de-HWLN.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol24
+assets:
+  - assetId: bixel-hk-hutchison-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-hutchison-house
+version: "1.0"
+lastModified: "2008-01-17T12:41:58Z"
+url: https://community.simtropolis.com/files/file/19249-hk-hutchison-house/?do=download

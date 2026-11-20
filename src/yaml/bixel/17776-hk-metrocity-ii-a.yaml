@@ -1,0 +1,54 @@
+group: bixel
+name: hk-metrocity-ii-a
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Metrocity II A
+  description: |-
+    The Hong Kong / Asia BAT Team presents  
+    **Metro City II (Part a)**
+
+    BAT created by **bixel**  
+    Modding, menu icons, lot design & readme by **T Wrecks**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](https://community.simtropolis.com/forums/forum/48-hkabt/)
+
+    * * *
+
+    **Introduction / Overview**
+
+    This is a recreation of Metro City II, a huge residential complex from Hong Kong, CN. It is so huge (21x6 tiles in total) that it had to be split. This is the first half. You can use it as a standalone building or together with [the second half](https://community.simtropolis.com/files/file/17777-hk-metrocity-ii-b/), the choice is yours. The halves have been modelled in a way that they can stand alone without looking too silly. This also has the advantage that you can play around with them and make some fictitious complexes if you like.
+
+    In real life, Metro City II is one of three Private Residential Complexes in the area, and at least four Public Housing Estates are located next to it. It is currently the largest residential and commercial development in the Tseung Kwan O area. Metro City II itself is composed of 6,800 residential units distributed over 11 towers of 44 floors each that stand on a common landscaped base. The towers rise to a height of 137 m (448 ft), and the complex was completed in the year 2000. It was built by DLN Architects & Engineering; other companies involved in its construction include Henderson Land Development, Heng Tat Construction Co. Ltd, and Mengyin Xinhua Stone Materials Co., Ltd..
+
+    Both residential growables and landmark versions of the two halves (Part a and b) come in two versions: regular and transit-enabled.  
+    The benefit of the regular versions is that you can plop or grow them directly back to back (see included instruction picture). This recreates the real-life configuration of Metro City II, and both halves will align virtually seamlessly, provided they are on perfectly flat land. The entrance roads will be hidden under the base of the building. If you use the halves as individual buildings, however, you will be unable to connect the roads to any network. This had to be done because if the road tiles had been transit-enabled, the game wouldn't allow you to place both lots right next to another.
+
+    The transit-enabled version cannot be used to place both halves seamlessly together; due to the technical particularities of transit-enabled tiles (see above), there must be at least one tile between the transit-enabled back sides of both halves - ideally a road. This also means that the transit-enabled versions are more suitable if you want to use one half on its own, as a standalone structure.
+
+    **The following lots are included:**
+
+    -   Ploppable landmark
+    -   Ploppable landmark (transit-enabled)
+    -   Growable R$$
+    -   Growable R$$ (transit-enabled)
+
+    * * *
+
+    Mod Edit (14th Nov 2016): Fixed broken formatting.
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17776-hk-metrocity-ii-a/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/78ebcad86e9acf46187e11110996e5d0-MetroCityII_STEX_1.jpg
+    - https://www.simtropolis.com/objects/screens/0014/78ebcad86e9acf46187e11110996e5d0-MetroCityII_STEX_2.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol12
+assets:
+  - assetId: bixel-hk-metrocity-ii-a
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-metrocity-ii-a
+version: "1.0"
+lastModified: "2007-02-13T12:20:05Z"
+url: https://community.simtropolis.com/files/file/17776-hk-metrocity-ii-a/?do=download

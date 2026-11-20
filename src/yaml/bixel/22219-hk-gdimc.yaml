@@ -1,0 +1,63 @@
+group: bixel
+name: hk-gdimc
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: HK GDIMC
+  description: |-
+    HKABT Presents
+
+    **Golden Dragon Industrial Municipal Center!**model: bixel
+
+    modding: bixel
+
+    readme: bixel
+
+    **GDIMC**
+
+    Occupancy: HT 4100
+
+    Pollution:
+
+    Air: 30
+
+    Water: 30
+
+    Garbage: 80
+
+    Power Consumed: minimal
+
+    Water Consumed: minimal
+
+    LOT SIZE: 6x4
+
+    Stage 8
+
+    dependencies
+
+    [https://www.simtropolis.com/STEX/details.cfm?id=15287](https://www.simtropolis.com/stex/details.cfm?id=15287)
+
+    [https://www.simtropolis.com/STEX/details.cfm?id=14658](https://www.simtropolis.com/stex/details.cfm?id=14658)
+
+    BSC Gascooker Mega Props Vol 1
+
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=397](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+    Enjoy!
+  author: bixel
+  website: https://community.simtropolis.com/files/file/22219-hk-gdimc/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/6046d8ee059be04dbced78eb1fb09857-gmdic_day1.jpg
+    - https://www.simtropolis.com/objects/screens/0011/6046d8ee059be04dbced78eb1fb09857-gmdic_night1.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:textures-vol01
+  - peg:mtp-super-pack
+assets:
+  - assetId: bixel-hk-gdimc
+
+---
+assetId: bixel-hk-gdimc
+version: "1.0"
+lastModified: "2009-08-06T17:25:32Z"
+url: https://community.simtropolis.com/files/file/22219-hk-gdimc/?do=download

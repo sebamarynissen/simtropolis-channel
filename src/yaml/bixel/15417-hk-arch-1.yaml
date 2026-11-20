@@ -1,0 +1,120 @@
+group: bixel
+name: hk-arch-1
+version: "2.0"
+subfolder: 200-residential
+info:
+  summary: HK Arch 1
+  description: |-
+    This is the corrected 2021 release (centered model, own IIDs for the TE lots). If your cities contain these lots from the original 2006 release, bulldoze them and let them regrow or replop them after updating.
+
+    The Hong Kong BAT Team
+    presents  
+      
+    The Arch  
+    Hong Kong China  
+      
+    BAT created by bixel  
+    Modding, lot design, readme & custom menu icons by T Wrecks  
+    2021 technical updated version by Tyberius06
+
+    -   **IMPORTANT NOTE (update: 24.06.2021):** there are two significant changes in this upload comparing to the originally released version by Bixel and T Wrecks back in 2006.
+        -   The original HK The Arch 1.SC4Model was rendered and exported slightly off-centered (approx 8 or 12 meters on the X-axis), which made it extremely hard to lot it on a tighter lot (how it was meant to be). These original LOTs in this pack were working fine, though the lotter of the CAM version of the The Arch 1 had used different modding technique and this off-centered nature of the model caused a modding error, which led to the so-called Immortal Lot Syndrome on the CAM version (released only on LEX in the CAM LOTS BXL1 set).   
+            **In order to fix this issue and prevent possible issues in the future, I used the Model Tweaker and made the model centered (also recompiled the HKABT Bixel Mega Props vol08 with the modified model), then fixed the position of the building on the lots to match with the changed model. It had to be done on all the The Arch 1 lots both in this set and in the CAM version as well.**
+        -   The second change what I've applied: I've noticed that both the TE and non-transit enabled LOTs are using the same IIDs per group (R$$ grow and R$$$ grow), and according to the default load order the TE versions would get into the game. I gave the TE lots a different IID, so now they are unique, and now you can really use all of the lots simultaneously.  
+
+    -   **You need to bulldoze and rebuild (re-grow/re-plop) all the lots in order to get the proper results.**
+
+    \- Tyberius06 (STEX Custodian)
+
+    Status: built  
+    Construction Dates  
+    Started: 2001  
+    Finished: 2005  
+    Floor Count: 65  
+    Basement Floors: 2  
+    Floor Area: 100,000 m²  
+      
+    Roof 231.0 m  
+      
+    Project: Union Square  
+    Engineer: Ove Arup & Partners Hong Kong Ltd.  
+      
+    (Part of the Readme By T Wrecks)  
+    **Dependencies**  
+      
+    It was very hard to whip up a lot that would look like a seamless extension of the main building, thus anchoring it on the ground in a natural way. However, I am glad to announce that I managed to use no more than one dependency for The Arch 1 (none for The Arch 2), namely Cerulean's base texture set, which is one of the best-known texture sets and has been used for many other buildings (including BSC and HKBT) already. This texture is a part of the: BSC Textures MEGA Pack Vol 01  
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    I also added some additional light cones which will enhance the look of the lot at night. This, however, is by no means an essential dependency. The lamps will look just fine without it, but even a tad better with it. So if you don't want to download the file, you won't be missing much. If you don't mind downloading the file, here's the link:  
+      
+    PEG MTP Mountain Theme Pack  
+    [https://community.simtropolis.com/files/file/14025-peg-mtp\-mountain-theme-pack/](https://community.simtropolis.com/files/file/14025-peg-mtp-mountain-theme-pack/)
+
+    Alternatively you can use **[HKABT Bixel Mega Props vol08](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=903) v2** with these lots, but in that case you should remove the HK The Arch 1.SC4Model and HK The Arch 2.SC4Model model files (or just run the cleanitol file which comes with the mega prop pack).
+
+    If you wish to use the CAM version of this lot, you can download it from LEX: **[HKABT BXL CAMeLots vol01-15 (CAM LOTS BXL1)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1087)**.
+
+    Stats and Values  
+      
+    All game-relevant values you might like to know are listed in the following overview tables. Please note that both versions of the Arch, though differing in lot size, share the same set of statistics.  
+      
+    GROWABLE R$$  
+    Occupants: 7,480 R$$  
+    (12,655 R$ when dilapidated)  
+    Lot Size: 6x6  
+    Growth Stage: stage 8  
+    Zone Type: Dense residential  
+    Tileset(s): Euro  
+    Value: § 85,640  
+    Worth / Bulldoze Cost: § 1,512  
+    Flammability: 40 / Stage 5  
+    Power consumed: 128 MWh/month  
+    Water consumed: 336 gallons/month  
+    Air pollution: 29 over 6 tiles  
+    Water pollution: 37 over 7 tiles  
+    Garbage generated: 6 tons/month  
+      
+    GROWABLE R$$$  
+    Occupants: 6,250 R$$$  
+    (7,480 R$$ / 12,655 R$ when dilapidated)  
+    Lot Size: 6x6  
+    Growth Stage: stage 8  
+    Zone Type: Dense residential  
+    Tileset(s): Euro  
+    Value: § 130,455  
+    Worth / Bulldoze Cost: § 2,150  
+    Flammability: 35 / Stage 5  
+    Power consumed: 298 MWh/month  
+    Water consumed: 484 gallons/month  
+    Air pollution: 34 over 6 tiles
+
+    **Install**:
+
+    **First of all, if you already had these lots in your cities, go into your cities and bulldoze them, before installing this updated version of this upload to prevent any nasty side-effects. Also you must completely remove all the previously released versions of these lots and models (before 24.06.2021). If you have the models and the lots DATpacked, then you must re-do the datpacking process with these updated models and lots from this updated upload.**
+
+    **To install it**, simply copy/extract the HKABT parent folder into your plugins. You should keep the \_Documents folder somewhere outside of your plugins.
+
+    To uninstall a version you don't like, first bulldoze all instances of that version in your cities, then save the cities and exit. Now you can safely remove the version without running any risk to get crashes or facing any other inconvenience.
+
+    Mod Edit: Updated dependency links.
+
+    update 24.06.2021 - Tyberius06: updated, centered model to correspond with the megapack update (see details above)
+  author: bixel
+  website: https://community.simtropolis.com/files/file/15417-hk-arch-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/18143f7eae00f0ed4e4e6dc4e1fbbd5e-Arch1Upload.jpg
+    - https://www.simtropolis.com/objects/screens/0004/18143f7eae00f0ed4e4e6dc4e1fbbd5e-Arch1DayBack.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol08
+  - peg:mtp-super-pack
+assets:
+  - assetId: bixel-hk-arch-1
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-arch-1
+version: "2.0"
+lastModified: "2021-06-24T19:04:34Z"
+url: https://community.simtropolis.com/files/file/15417-hk-arch-1/?do=download

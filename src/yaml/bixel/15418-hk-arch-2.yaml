@@ -1,0 +1,93 @@
+group: bixel
+name: hk-arch-2
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Arch 2
+  description: |-
+    The Hong Kong BAT Team  
+    presents  
+      
+    The Arch  
+    Hong Kong China  
+      
+    BAT created by bixel  
+    Modding, lot design, readme & custom menu icons by T Wrecks  
+      
+    Status: built  
+    Construction Dates  
+    Started: 2001  
+    Finished: 2005  
+    Floor Count: 65  
+    Basement Floors: 2  
+    Floor Area: 100,000 m²  
+      
+    Roof 231.0 m  
+      
+    Project: Union Square  
+    Engineer: Ove Arup & Partners Hong Kong Ltd.  
+      
+    (Part of the Readme By T Wrecks)  
+    Dependencies  
+      
+    It was very hard to whip up a lot that would look like a seamless extension of the main building, thus anchoring it on the ground in a natural way. However, I am glad to announce that I managed to use no more than one dependency for The Arch 1 (none for The Arch 2), namely Cerulean's base texture set, which is one of the best-known texture sets and has been used for many other buildings (including BSC and HKBT) already. This texture is a part of the: BSC Textures MEGA Pack Vol 01  
+    [https://www.sc4devotion.com/csxlex/lex\_filedesc.php?lotGET=90](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    I also added some additional light cones which will enhance the look of the lot at night. This, however, is by no means an essential dependency. The lamps will look just fine without it, but even a tad better with it. So if you don't want to download the file, you won't be missing much. If you don't mind downloading the file, here's the link:  
+      
+    PEG MTP Mountain Theme Pack  
+    [https://community.simtropolis.com/files/file/14025-peg-mtp-mountain-theme-pack/](https://community.simtropolis.com/files/file/14025-peg-mtp-mountain-theme-pack/)  
+      
+    Stats and Values  
+      
+    All game-relevant values you might like to know are listed in the following overview tables. Please note that both versions of the Arch, though differing in lot size, share the same set of statistics.  
+      
+    GROWABLE R$$  
+    Occupants: 7,480 R$$  
+    (12,655 R$ when dilapidated)  
+    Lot Size: 9x5  
+    Growth Stage: stage 8  
+    Zone Type: Dense residential  
+    Tileset(s): Euro  
+    Value: § 85,640  
+    Worth / Bulldoze Cost: § 1,512  
+    Flammability: 40 / Stage 5  
+    Power consumed: 128 MWh/month  
+    Water consumed: 336 gallons/month  
+    Air pollution: 29 over 6 tiles  
+    Water pollution: 37 over 7 tiles  
+    Garbage generated: 6 tons/month  
+      
+    GROWABLE R$$$  
+    Occupants: 6,250 R$$$  
+    (7,480 R$$ / 12,655 R$ when dilapidated)  
+    Lot Size: 9x5  
+    Growth Stage: stage 8  
+    Zone Type: Dense residential  
+    Tileset(s): Euro  
+    Value: § 130,455  
+    Worth / Bulldoze Cost: § 2,150  
+    Flammability: 35 / Stage 5  
+    Power consumed: 298 MWh/month  
+    Water consumed: 484 gallons/month  
+    Air pollution: 34 over 6 tiles
+
+    Mod Edit: Fixed broken page layout & updated dependency links.
+  author: bixel
+  website: https://community.simtropolis.com/files/file/15418-hk-arch-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/232e5556e87e23310e23163834fccf84-Arch2Upload.jpg
+    - https://www.simtropolis.com/objects/screens/0005/232e5556e87e23310e23163834fccf84-Arch2NightBack.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol08
+  - peg:mtp-super-pack
+assets:
+  - assetId: bixel-hk-arch-2
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-arch-2
+version: "1.0"
+lastModified: "2021-06-24T19:22:18Z"
+url: https://community.simtropolis.com/files/file/15418-hk-arch-2/?do=download

@@ -1,0 +1,40 @@
+group: bixel
+name: tung-chung-crescent
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Tung Chung Crescent
+  description: |-
+    The Hong Kong / Asia BAT Team presents Tung Chung Crescent.
+
+    BAT created by **bixel**
+    Rendering by Simfox
+    Modding and lot design by **HONG KONG**
+
+    This package contains a growable R$$ lot (12×9, dense residential, growth stage 8, 7,340 R$$).
+
+    Tung Chung Crescent is the first residential development project in the newly developed town - Tung Chung on Lantau Island. It is jointly developed by five big local developers include Hang Lung Development Co. Ltd., Henderson Land Development Co. Ltd., New World Development Co. Ltd., Sun Hung Kai Properties Ltd., Swire Properties and with the MTR Corporation. Its comprehensive transportation network offers quick access to Kowloon and Hong Kong Island. Conveniently located at MTR Tung Chung line terminal, it is 23 minutes from Central, and 15 minutes from the Hong Kong International Airport. Lantau Island Express Way and Highway Route 3 takes you to city hub in just a short time.
+
+    Surmounted by lush greenery podium and landscape garden, Tung Chung Crescent comprises eight blocks of high quality residential towers, and boasts a deluxe clubhouse. Tung Chung Crescent is the trans-era cosmopolitan with authentic flair that you hardly find anywhere else in Hong Kong.
+
+    - Developer: Newfoundworld Ltd
+    - Architects: Anthony Ng Architects Ltd
+    - Main contractor: Hip Hing Construction Co Ltd
+    - Completion: 1999
+  author: bixel
+  website: https://community.simtropolis.com/files/file/16494-tung-chung-crescent/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/08883249c4f088da5be1230268fc74b1-TCCDay.jpg
+    - https://www.simtropolis.com/objects/screens/0002/08883249c4f088da5be1230268fc74b1-TTCNight.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol03
+assets:
+  - assetId: bixel-tung-chung-crescent
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-tung-chung-crescent
+version: "1.0"
+lastModified: "2006-07-29T08:40:13Z"
+url: https://community.simtropolis.com/files/file/16494-tung-chung-crescent/?do=download

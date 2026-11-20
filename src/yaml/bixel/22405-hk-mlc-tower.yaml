@@ -1,0 +1,45 @@
+group: bixel
+name: hk-mlc-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: HK MLC Tower
+  description: |-
+    **HKABT Presents**  
+    **Mutual Life & Citizens Assurance Company Building.**  
+    model: bixel  
+    modding: bixel  
+    readme: bixel
+
+      
+    The MLC Tower is a skyscraper located on 248 Queen's Road East, in the Wan Chai district of Hong Kong. It stands at a height of 156 metres on 40 floors. It was completed in 1998. You will notice a distinct feature of the building, halfway up its length it breaks in two - with a slight angled facade on the upper half of the glass drape.  
+    UPDATED!! Essencial desc. file was accidently left out  
+      
+    **MLC Building**  
+    Occupancy: CS$$ 1200  
+    Pollution:  
+    Air: 30  
+    Water: 30  
+    Garbage: 60  
+    Power Consumed: minimal  
+    Water Consumed: minimal  
+      
+    LOT SIZE: 4x2  
+    Stage 8  
+      
+    dependencies
+  author: bixel
+  website: https://community.simtropolis.com/files/file/22405-hk-mlc-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/59a64046bd7b676564aeb5977b3d8e22-MLCD.jpg
+    - https://www.simtropolis.com/objects/screens/0010/59a64046bd7b676564aeb5977b3d8e22-MLCD2.jpg
+dependencies:
+  - bsc:textures-vol01
+assets:
+  - assetId: bixel-hk-mlc-tower
+
+---
+assetId: bixel-hk-mlc-tower
+version: "1.0"
+lastModified: "2009-09-02T00:25:21Z"
+url: https://community.simtropolis.com/files/file/22405-hk-mlc-tower/?do=download

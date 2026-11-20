@@ -1,0 +1,51 @@
+group: bixel
+name: wang-chau-public-housing-estate
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Wang Chau Public Housing Estate
+  description: |-
+    The Hong Kong / Asia BAT Team presents  
+    **WangChau Public Housing Estate**
+
+    BAT created by **bixel**  
+    Modding, & lot design by **bixel**  
+    Readme by **bixel**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](https://community.simtropolis.com/forums/forum/48-hkabt/)
+
+    * * *
+
+    **Introduction / Overview**
+
+    I was working on my Hong Kong map and just couldn’t help but want more HK style towers, so I made some more!! This is a midrise Y Block based on Public Housing Estates in a district called Wang Chau in Hong Kong. There are 2 lots included and typically you will want to zone the 4x5 lot on the Left side and the 5x5 Lot on the Right side inorder to get the same result in the Day and Night pictures. Feel free to make your own lots, this building shape is fun to be creative with. Enjoy!
+
+    **The following lot is included:**
+
+    -   Growable R$
+
+    * * *
+
+    **Dependencies**
+
+    NONE!!!
+
+    * * *
+
+    Mod Edit (14th Nov 2016): Fixed broken formatting.
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17588-wang-chau-public-housing-estate/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/a7dbf4da8d92ebcc95ef96e2432be8f4-WangChauD1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a7dbf4da8d92ebcc95ef96e2432be8f4-WangChauN1.jpg
+dependencies:
+  - hkabt:bixel-mega-props-vol01
+assets:
+  - assetId: bixel-wang-chau-public-housing-estate
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-wang-chau-public-housing-estate
+version: "1.0"
+lastModified: "2007-01-03T00:16:56Z"
+url: https://community.simtropolis.com/files/file/17588-wang-chau-public-housing-estate/?do=download

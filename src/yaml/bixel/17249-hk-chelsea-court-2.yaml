@@ -1,0 +1,71 @@
+group: bixel
+name: hk-chelsea-court-2
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Chelsea Court 2
+  description: |-
+    * * *
+
+    # The Hong Kong / Asia BAT Team
+
+    * * *
+
+    presents
+
+    ## Chelsea Court
+
+    BAT created by **bixel**  
+    Modding, menu icons, lot design & readme by **T Wrecks**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&entercat=y)
+
+    * * *
+
+    ## Introduction / Overview
+
+    Chelsea Court is a brand new residential complex composed of two main towers on a common base that are situated at an angle towards each other. The complex was completed in 2005 and tops out at 56 storeys.
+
+    For SimCity 4, Chelsea Court has been rendered at two different angles so that you can decide which version you like better. Of course, you can also use both without any problem.
+
+    **Chelsea Court 1** has the lower of the two towers oriented parallel to the front of the lot, whereas the taller tower to the left of it sits on a part of the base that moves back from the front at an angle of approx. 45 degrees.
+
+    **Chelsea Court 2** has the taller tower oriented parallel to the front of the lot, and the lower tower to the right of it sits on the part of the base that moves back from the front of the lot.
+
+    The following lots are included:
+
+    Growable R$$ Landmark (normal version) Special Edition overhanging landmark lot for use with diagonal roadsAll landmark versions feature individual custom icons that are grouped conveniently together (unless other custom buildings happen to interfere) and labeled properly. In addition to this, the description texts (icon hover queries) will tell you the most important things you need to know. If you use both versions of Chelsea Court, you will find the icons for Chelsea Court 1 and 2 neatly lined up.
+
+    The landmarks are intended to be the centerpieces of popular residential districts, so they have been modded to provide an additional park effect (which affects residential zones) rather than only a landmark effect (which affects only commercial zones).
+
+    * * *
+
+    ## Dependencies
+
+    **Textures:**  
+    [BSC Textures MEGA Pack](../../stex/index.cfm?id=12646).
+
+    **Props:**  
+    Chelsea Court Sculpture Prop (included)  
+      
+    This sculpture prop is used on both Chelsea Court lots, and it is included in both downloads. It was also released in the [Chelsea Court Roundabout Filler](../../stex/index.cfm?id=17204) download.  
+    As mentioned in the readme of that download, it is recommended to slap all Chelsea Court stuff into one folder to prevent having three instances of that prop in your plugins folder. While having three instances will not really slow
+  author: bixel
+  website: https://community.simtropolis.com/files/file/17249-hk-chelsea-court-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/24eed942a765549e6cd5f102103dc0cf-ChelseaCourt2_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0005/24eed942a765549e6cd5f102103dc0cf-ChelseaCourt2_Night.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol02
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: bixel-hk-chelsea-court-2
+    exclude:
+      - "/Chelsea Court Sculpture Prop\\.dat$"
+      - "/Chelsea Court 2\\.SC4Model$"
+
+---
+assetId: bixel-hk-chelsea-court-2
+version: "1.0"
+lastModified: "2006-11-07T11:37:37Z"
+url: https://community.simtropolis.com/files/file/17249-hk-chelsea-court-2/?do=download

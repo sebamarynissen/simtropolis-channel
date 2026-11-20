@@ -1,0 +1,43 @@
+group: bixel
+name: hk-the-marlin
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK The Marlin
+  description: |-
+    HKABT Presents  
+      
+    The Marlin!  
+    model: bixel  
+    modding: bixel  
+    readme: bixel
+
+      
+    Referenced from a real building located SOMEWHERE in Hong Kong.  
+    The Marlin  
+    Occupancy: R$$ 900  
+    Pollution:  
+    Air: 10  
+    Water: 10  
+    Garbage: 40  
+    Power Consumed: minimal  
+    Water Consumed: minimal  
+      
+    LOT SIZE: 4x2  
+    Stage High Density  
+    All Sets!!
+  author: bixel
+  website: https://community.simtropolis.com/files/file/21800-hk-the-marlin/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8ecb68fedb3914e4e238fbf5986eea0d-MD.jpg
+    - https://www.simtropolis.com/objects/screens/0016/8ecb68fedb3914e4e238fbf5986eea0d-MD1.jpg
+dependencies:
+  - bsc:textures-vol03
+assets:
+  - assetId: bixel-hk-the-marlin
+
+---
+assetId: bixel-hk-the-marlin
+version: "1.0"
+lastModified: "2009-06-03T16:07:25Z"
+url: https://community.simtropolis.com/files/file/21800-hk-the-marlin/?do=download

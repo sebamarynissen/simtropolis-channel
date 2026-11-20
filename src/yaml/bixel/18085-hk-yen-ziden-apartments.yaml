@@ -1,0 +1,73 @@
+group: bixel
+name: hk-yen-ziden-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: HK Yen ZiDen Apartments
+  description: |-
+    **The Hong Kong / Asia BAT Team**
+
+    presents
+
+    **Yen ZiDen Apartments**
+
+    BAT created by **bixel**  
+    Modding, & lot design by **bixel**
+
+    readme by **bixel**  
+    [Check out the Hong Kong /Asia BAT Team room at Simtropolis](../../forum/categories.cfm?catid=153&forumid=1)
+
+    **Introduction / Overview**
+
+    Replicated from real reference photos of actual Pencil Towers in Hong Kong. I name this the Yen ZiDen Apartments, after one of my favorite Kung Fu Actors, Donny Yen.
+
+    The following lots are included:
+
+    -   Growable R$
+
+    **Dependencies**
+
+    NONE!!!
+
+    **Stats and Values**
+
+    All game-relevant values you might like to know are listed in the following overview tables.
+
+    **TABLE 1: GROWABLE VERSIONS**
+
+    **Chun Fa Luk Court**
+
+    **Parameter**
+
+    **Growable R$$**
+
+    Occupants:
+
+    685 R$
+
+    Lot Size /  
+    Growth Stage:
+
+    1x2 / stage 8
+
+    Zone Type:
+
+    Dense residential
+  author: bixel
+  website: https://community.simtropolis.com/files/file/18085-hk-yen-ziden-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/fdd71006b483821949a9cc064fd619f2-day.jpg
+    - https://www.simtropolis.com/objects/screens/0028/fdd71006b483821949a9cc064fd619f2-night.jpg
+dependencies:
+  - bsc:textures-vol01
+  - hkabt:bixel-mega-props-vol03
+assets:
+  - assetId: bixel-hk-yen-ziden-apartments
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: bixel-hk-yen-ziden-apartments
+version: "1.0"
+lastModified: "2007-05-05T22:50:05Z"
+url: https://community.simtropolis.com/files/file/18085-hk-yen-ziden-apartments/?do=download
