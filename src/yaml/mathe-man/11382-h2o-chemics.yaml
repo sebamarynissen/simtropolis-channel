@@ -1,0 +1,51 @@
+group: mathe-man
+name: h2o-chemics
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Chemical laboratory H2O Chemics, 2 I-HT lots
+  description: |-
+    The chemical laboratory of H2O chemics performs scientific work on watery medicines. One requirement to the architect was the reflection of the company name in the building. He decided to build a water molecule as building. For safety reasons both laboratory sections are separated by a glass ramp. So at an accident only the scientists at the affected laboratory can be injured.
+
+    On the smaller lot is a graveyard behind the building. In the official announcement of H2O chemics the graveyard is only for dead animals which die in the laboratories. But a mystery is the disappearance of some scientist at H2O chemics just before the graveyard is constructed.
+
+    - Category: I-HT, Stage 3
+    - Lot size: 3x2, 3x3
+    - Worth: 1507
+    - Jobs: 63
+    - Pollution: 4, 24, 9 (air, water, garbage)
+    - Power consumption: 31
+    - Water consumption: 41
+  author: Mathe Man
+  website: https://community.simtropolis.com/files/file/11382-h2o-chemics/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/404ddb5c4cdad97f5d51558044d02612-H2OChemicals3x2.jpg
+    - https://www.simtropolis.com/objects/screens/0008/404ddb5c4cdad97f5d51558044d02612-H2OChemicals3x3Night.jpg
+dependencies:
+  - mathe-man:h2o-chemics-model
+assets:
+  - assetId: mathe-man-h2o-chemics
+    exclude:
+      - "\\.SC4Model$"
+      - "/OM_H2OChemieLogo-.*\\.SC4Desc$"
+
+---
+group: mathe-man
+name: h2o-chemics-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models and company emblem prop for `pkg=mathe-man:h2o-chemics`
+  author: Mathe Man
+  website: https://community.simtropolis.com/files/file/11382-h2o-chemics/
+assets:
+  - assetId: mathe-man-h2o-chemics
+    include:
+      - "\\.SC4Model$"
+      - "/OM_H2OChemieLogo-.*\\.SC4Desc$"
+
+---
+assetId: mathe-man-h2o-chemics
+version: "1.0"
+lastModified: "2005-01-08T14:19:00Z"
+url: https://community.simtropolis.com/files/file/11382-h2o-chemics/?do=download

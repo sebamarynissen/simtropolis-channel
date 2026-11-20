@@ -1,0 +1,70 @@
+group: t-wrecks
+name: irm-h2o-chemistry
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the H2O Chemistry BAT by Mathe Man (SFBT)
+  description: |-
+    It took me a while until I found the time and energy to resume uploading, but here we go with more IRM stuff. I'm still doing high-tech industry, and from there will work my way "down the ranks", through modern manufacturing and generic manufacturing back to brick factories with old-style manufacturing and, finally, dirty industry.
+
+    The second upload in this series is another small and rather old BAT, but yet again quite unique: SFBT's **H2O Chemistry** modeled by **Mathe Man**. You might already have noticed that the building resembles the model of a water (H2O) molecule in shape and colour. If you look closely, there's even a little corporate sculpture in the same shape in front of the main entrance.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **24 I-HT jobs**, the quadrupler version **96 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x3, Stage 1
+    - 4x3, Stage 1
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 33 jobs, and the lots also grow at Stage 1.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Once again, credits for this BAT go to SFBT team member **Mathe Man**.
+
+    T Wrecks, July 14, 2017
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31842-irm-sfbt-h2o-chemistry-by-mathe-man/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SFBT_H2OChemistry_01.jpg.32889a910974c6198a26db9a04d411f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SFBT_H2OChemistry_02.jpg.540135d9ae6d43c4c6e5ac33c06f0bd6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/IRM_I-HT_SFBT_H2OChemistry_03.jpg.cc371bf0dd2acc6ccd58302c0ab1b9b8.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - mathe-man:h2o-chemics-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-sfbt-h2o-chemistry
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-sfbt-h2o-chemistry
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT SFBT H2O Chemistry \\(OM\\)/"
+
+---
+assetId: t-wrecks-irm-sfbt-h2o-chemistry
+version: "1.0"
+lastModified: "2017-07-13T23:08:00Z"
+url: https://community.simtropolis.com/files/file/31842-irm-sfbt-h2o-chemistry-by-mathe-man/?do=download

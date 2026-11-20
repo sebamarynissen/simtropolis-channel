@@ -1,0 +1,73 @@
+group: t-wrecks
+name: irm-i-m-medium-industrial-buildings
+version: "1.0.1"
+subfolder: 400-industrial
+info:
+  summary: 2 I-M lots with a family of medium industrial buildings by Tag_One
+  description: |-
+    While this set of lots may not be spectacular, it offers much variety thanks to the BAT family on it and is a useful filler.
+
+    The ninth upload in this series is a package of **Medium Industrial Buildings** by **Tag_One**. All these buildings share the same general layout, but feature different colours and company names. Some of the walls are painted in interesting patterns, too. The general layout of the lot is also identical, but spiced up with lots of prop families and delivery trucks that will not appear on every lot. This package includes a narrow and a wide lot on which any of the BATs from this family of buildings can appear randomly.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **50 I-M jobs**, the quadrupler version **200 I-M jobs**.
+
+    The following lots are included in this download:
+
+    - 3x6, Stage 3
+    - 4x6, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots also grow at Stage 3 (3x6) and Stage 2 (4x6).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **Tag_One**.
+
+    T Wrecks, September 1, 2019
+  conflicts: "Contains the IRM lots for `pkg=tag-one:medium-industrial-buildings-manufacturing-industry` and `pkg=tag-one:medium-industrial-buildings-high-tech`. Installing either of them as well results in duplicate lots of the same buildings, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33135-irm-i-m-medium-industrial-buildings/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_MediumIndustrialBuilding_01.jpg.4c6ea7c100a97d240d1a52cfe83614a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_MediumIndustrialBuilding_02.jpg.b86033c89a8e4fdc6a7e6b7cdf27a5d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_MediumIndustrialBuilding_03.jpg.9ffc50a11fc566791c5bc9fad7cada75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_MediumIndustrialBuilding_04.jpg.bd7ea5daba005a1e2e98819aa69d4cac.jpg
+
+# The readme calls this pack "BSC BAT Props - T1 Vol4"; the models are in bsc:mega-props-t1-vol04.
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-medium-industrial-buildings
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-medium-industrial-buildings
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-M Medium Industrial Buildings \\(T1\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-medium-industrial-buildings
+version: "1.0.1"
+lastModified: "2019-09-01T20:31:00Z"
+url: https://community.simtropolis.com/files/file/33135-irm-i-m-medium-industrial-buildings/?do=download

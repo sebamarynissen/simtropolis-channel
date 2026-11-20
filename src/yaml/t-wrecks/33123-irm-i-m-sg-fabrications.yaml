@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-m-sg-fabrications
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-M lots using the SG Fabrications BAT by SimGoober
+  description: |-
+    So this was an odd one for me. I remember seeing it in one of those "Show us..." threads not too long ago, and although I've been around for almost 15 years now, the building struck me as totally unfamiliar. I was even more surprised when I learned that none other but SimGoober had made it. All the time, it had slipped under my radar! Finally I was able to dig it out and turn it into an IRM lot, so here we are:
+
+    The seventh upload in this series is the elusive (for me at least) **SG Fabrications** by **SimGoober**. The building is quite a whopper and dwarfs the Maxis coal power plant, for example. Since one side contains BATted ground, it was quite the challenge to get building and lot to blend into one another without too obvious seams. A cool feature not uncommon with SimGoober BATs is the partly modeled interior that really comes to shine at night, when you can glimpse through the windows. The loading door is ridiculously huge as well - I wonder what they produce in there?
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **95 I-M jobs**, the quadrupler version **380 I-M jobs**.
+
+    The following lots are included in this download:
+
+    - 7x7, Stage 3 (2 different lots)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 2603 jobs, and the lots grow at Stage 7.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **SimGoober**.
+
+    T Wrecks, August 29, 2019
+  conflicts: "Contains the IRM lots for `pkg=simgoober:manufacturing-industrial-set`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33123-irm-i-m-sg-fabrications-by-simgoober/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_SG_Fabrications_01.jpg.a0ce829cbd1b3d025ed040ef1c85a48a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_SG_Fabrications_02.jpg.12c7ddc4a6cdaa47bbbc7fd9bce8f8b9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_SG_Fabrications_03.jpg.76680ba587740706acf5154ac8a7a484.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_SG_Fabrications_04.jpg.025623d9a4cfa4ea5140424d9f279d83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/IRM_I-M_SG_SG_Fabrications_05.jpg.bdaf97cdd63019a594a8a3e1f13ae890.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:sg-models-im2
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-sg-fabrications
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-sg-fabrications
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/SG Fabrications \\(SG\\) \\[2\\] \\(I-M Models 2\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-sg-fabrications
+version: "1.0.0"
+lastModified: "2019-08-29T21:22:00Z"
+url: https://community.simtropolis.com/files/file/33123-irm-i-m-sg-fabrications-by-simgoober/?do=download

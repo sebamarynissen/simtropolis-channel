@@ -1,0 +1,73 @@
+group: t-wrecks
+name: irm-i-m-pluimers-insulation
+version: "1.0.1"
+subfolder: 400-industrial
+info:
+  summary: 2 I-M lots using the Pluimers Insulation BAT by Tag_One
+  description: |-
+    While we'll return to SimGoober, I'd like to continue the IRM uploads with a few buildings made by another great BAT artist.
+
+    The eighth upload in this series is **Pluimers Insulation** by **Tag_One**. It's a pretty simple warehouse-style building with a small office annex and loading doors in the back and front. I like the rooftop skylights, the little entrance area and the modern no-frills look of this structure. Both lots are rather open, especially the longer one. On the wider lot, the building extends nearly up to the back, almost dividing the lot in two halves. Some modern trucks, partly at angled positions to the grid, underline the character of the building, add some detail and life, and help break the mostly rectangular layout of it all.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **48 I-M jobs**, the quadrupler version **192 I-M jobs**.
+
+    The following lots are included in this download:
+
+    - 4x5, Stage 2
+    - 5x4, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots also grow at Stage 2.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **Tag_One**.
+
+    T Wrecks, September 1, 2019
+  conflicts: "Contains the IRM lots for `pkg=tag-one:pluimers-insulation`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/33134-irm-i-m-pluimers-insulation-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_PluimersInsulation_01.jpg.e175fec209a191c134be55a53e106ce6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_PluimersInsulation_02.jpg.e4e906207d80ce9b6bbc249f144a665a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_PluimersInsulation_03.jpg.7b536b4ad9846530e928803dee1ebe67.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_PluimersInsulation_04.jpg.5b27024a90ff31044046bb95087600c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/IRM_I-M_T1_PluimersInsulation_05.jpg.121bcdd64179c376b4f98b7a4dd90018.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-m-pluimers-insulation
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-m-pluimers-insulation
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-M Pluimers Insulation \\(T1\\)/"
+
+---
+assetId: t-wrecks-irm-i-m-pluimers-insulation
+version: "1.0.1"
+lastModified: "2019-09-01T20:27:00Z"
+url: https://community.simtropolis.com/files/file/33134-irm-i-m-pluimers-insulation-by-tag_one/?do=download

@@ -1,0 +1,39 @@
+group: prepo
+name: semiintelligent-components
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Semi-intelligent Components
+  description: |-
+    High-tech industrial, stages 2 and 3, 80 workers. Three lots, 2x2, 2x3 and 3x2 size. This building is fictional, and I made it look quite "normal and dull" to suit with existing industrial buildings.
+  author: prepo
+  website: https://community.simtropolis.com/files/file/4029-semiintelligent-components/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/052a1056de2710ec35a66ab207ccf113-Semi-intelligent%20Components1.jpg
+    - https://www.simtropolis.com/objects/screens/0001/052a1056de2710ec35a66ab207ccf113-Semi-intelligent%20Components2.jpg
+dependencies:
+  - prepo:semiintelligent-components-model
+assets:
+  - assetId: prepo-semiintelligent-components
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: prepo
+name: semiintelligent-components-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=prepo:semiintelligent-components`
+  author: prepo
+  website: https://community.simtropolis.com/files/file/4029-semiintelligent-components/
+assets:
+  - assetId: prepo-semiintelligent-components
+    include:
+      - "\\.SC4Model$"
+
+---
+assetId: prepo-semiintelligent-components
+version: "1.0"
+lastModified: "2004-08-08T07:12:00Z"
+url: https://community.simtropolis.com/files/file/4029-semiintelligent-components/?do=download

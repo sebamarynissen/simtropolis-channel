@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-fukitol-pharms
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Fukitol Pharms BAT by SimGoober
+  description: |-
+    Last in the GooberGen/Fukitol series for now, we finally come to the home of the famous pill.
+
+    The ninth upload in this series is **Fukitol Pharms** by **SimGoober**. It's a pretty huge building with a non-rectangular footprint and some footpaths baked into the model. I tried my best to make sure the lots wrap naturally around the building, and I made footpaths leading around the main structure that hopefully look like logical extensions of the ones that came with the model. Cycledogg's wonderful shaded props once again make an impressive appearance here, too.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **121 I-HT jobs**, the quadrupler version **484 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 6x6, Stage 3 (2 variations)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 1,107 jobs, and the lots grow at Stage 5.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **SimGoober** once again.
+
+    T Wrecks, November 1, 2017
+  conflicts: "Contains the IRM lots for `pkg=simgoober:hi-tech-industrial-set`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31995-irm-i-ht-fukitol-pharms-by-simgoober/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_FukitolPharms_01.jpg.9e2cc9f9ea7298ee0ae1f1543b9c97d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_FukitolPharms_02.jpg.9e3633ff39e0c4380e6943185f071186.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_FukitolPharms_03.jpg.8177d0aeb21f0b600d22fd2efbdd06ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_FukitolPharms_04.jpg.571585f2b511eac33ff6d23538c2b4af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/IRM_I-HT_SG_FukitolPharms_05.jpg.7c702c4f4ba9e6f29308607403846e13.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:sg-models-iht
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-fukitol-pharms
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-fukitol-pharms
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Fukitol Pharms \\(SimGoober\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-fukitol-pharms
+version: "1.0"
+lastModified: "2017-11-01T11:08:00Z"
+url: https://community.simtropolis.com/files/file/31995-irm-i-ht-fukitol-pharms-by-simgoober/?do=download

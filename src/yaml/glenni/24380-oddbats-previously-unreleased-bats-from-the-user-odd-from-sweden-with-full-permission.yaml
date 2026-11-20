@@ -1,0 +1,58 @@
+group: glenni
+name: oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Previously unreleased BATs by Odd From Sweden
+  description: |-
+    You may remember Odd From Sweden, he released several European styled BATs on the STEX, most notably his German Wall to wall buildings. Eitherway he's mostly lost interest with SimCity 4 for now, and is instead an eager model railway builder. Either way these are some of his BATs he never released. Many of them seen in Test Town.
+
+    Either way i talked to him about this on Windows Live, and he agreed to send me a folder with some of his finished buildings he could find, plus some buildings he had not fully finished, which i took care of, overhauled textures, and modeled the missing pieces. i have full permission by him to release this.
+
+    This contains the Following:
+
+    - Odd Cafe Central
+    - Odd MekanoBrothers Industrial Manufacturing
+    - Odd Offices for rent in several variations
+    - Odd Warehouse Manufacturer Industrial Mechanical lots comes in 3 variations
+    - Oddbats Blyverkstaden in 2 variations
+    - Oddbats Bulkstorageunit tower in 2 variations
+    - Oddbats DDT & Sons in 3 variations
+    - Oddbats POWER Substation
+    - Oddbats Water Bulkstorageunit-B in 2 variations
+
+    I hope you enjoy this, and let's all hope he returns to BATting one day, eh?
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/66a803db52f36ef8c039fb959c599f78-oddbats-stuff-1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/6c76f17d2b4077d0db089f8e362cc2a3-oddbats-stuff-22.jpg
+dependencies:
+  - glenni:oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission-model
+assets:
+  - assetId: glenni-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission
+    exclude:
+      - "\\.SC4Model$"
+
+---
+group: glenni
+name: oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=glenni:oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission`
+  author: Glenni
+  website: https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/
+assets:
+  - assetId: glenni-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission
+    include:
+      - "\\.SC4Model$"
+    exclude:
+      # The same invisible growable model is shipped in four folders, only keep one copy
+      - "/Oddbats-(?:Blyverkstaden|Bulkstorageunit-tower|DDTandsons)/oddbats-industrial-GROWA-.*\\.SC4Model$"
+
+---
+assetId: glenni-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission
+version: "1.0"
+lastModified: "2010-07-13T12:26:00Z"
+url: https://community.simtropolis.com/files/file/24380-oddbats-previously-unreleased-bats-from-the-user-odd-from-sweden-with-full-permission/?do=download

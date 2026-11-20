@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-lavaughn-biotech
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the LaVaughn Biotech BAT by Jasoncw
+  description: |-
+    For the time being, this is going to be the last "lazy lot" where I didn't actually have to do much lotting, I swear!
+
+    The 20th upload in this series, **LaVaughn Biotech** by **Jasoncw**, once again filled the lot almost completely so that I thought it would be best to leave it at that - not least to keep the lot size manageable. Other growable lots or ploppable lots can be used to expand the premises, but the building will also look good when surrounded by roads/streets on all sides. If you look closely, however, I did make two versions with a subtle difference: one (version A) is surrounded by concrete, the other one (version B) by a thin strip of grass and a narrow sidewalk. While version A will probably look best surrounded by other I-HT stuff, version B should be fine surrounded by roads.
+
+    Once again, this is a 3dsmax building that can be downloaded in both DarkNite and Maxis night, but due to technical reasons will not be compatible with the gradual day/night cycle. Instead, it will switch from the day model to the night model - and back - instantaneously, as practically all 3dsmax BATs do.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **128 I-HT jobs**, the quadrupler version **512 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 6x6, Stage 3 (2 versions)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, provide 882 jobs, and the lots grow at Stage 4.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **NO**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Jasoncw**.
+
+    T Wrecks, January 18, 2018
+  conflicts: "Contains the IRM lots for `pkg=jasoncw:lavaughn-biotech`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32071-irm-i-ht-lavaughn-biotech-by-jasoncw/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_JCW_LaVaughnBiotech_01.jpg.8fb9a525d91d68adb5eb62d2ce848589.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_JCW_LaVaughnBiotech_02.jpg.8ba688b5b93dc85c1c4a4e3338fffe89.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/IRM_I-HT_JCW_LaVaughnBiotech_03.jpg.0bb187beb10d54f8d6c6254242426a2a.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - jasoncw:lavaughn-biotech-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-lavaughn-biotech
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-lavaughn-biotech
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT LaVaughn Biotech \\(Jasoncw\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-lavaughn-biotech
+version: "1.0"
+lastModified: "2018-01-19T21:50:00Z"
+url: https://community.simtropolis.com/files/file/32071-irm-i-ht-lavaughn-biotech-by-jasoncw/?do=download

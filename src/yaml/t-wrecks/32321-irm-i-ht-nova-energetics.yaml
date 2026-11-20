@@ -1,0 +1,78 @@
+group: t-wrecks
+name: irm-i-ht-nova-energetics
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 6 I-HT lots using the Nova Energetics BAT by HunD88
+  description: |-
+    Ok, as the conclusion of this IRM upload series draws closer, we get to the somewhat more interesting lotting projects...
+
+    The 39th and next-to-last upload in this series, **Nova Energetics** by **HunD88**, suggested itself for a combination with a well-known Maxis high-tech industry buildings because it was so similar in colour that I simply had to try creating what would hopefully look like one coherent complex. As you can see on the screenshots, I made two standalone lots as well as four complex lots with the main building and either one or two outbuildings.
+    I remember lotting this one was fun, and I tried to make the lots very individual in character. The big 5x5, for example, features a stone wall topped with a chainlink fence around the outbuildings and has a certain "high-security-do-not-enter" vibe to it - we can imagine that the blue thingamabobs are some dangerous high-voltage switchgear stuff. Other lots are much more open, and feature various characteristics (trucks, cargo crates, propane tanks, parking lots, footpaths, fences) to varying degrees. I hope you'll like at least some of them and they won't look too repetitive. Needless to say, prop families were also used extensively once again to offer the best variation possible.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **50/70/90 I-HT jobs**, the quadrupler version **200/280/360 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x4, Stage 2 (Nova Energetics 1)
+    - 5x3, Stage 2 (Nova Energetics 1)
+    - 4x5, Stage 3 (Nova Energetics 2)
+    - 5x4, Stage 3 (Nova Energetics 2)
+    - 5x5, Stage 3 (Nova Energetics 3)
+    - 6x5, Stage 3 (Nova Energetics 3)
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 4 (Nova Energetics 1), Stage 3 (Nova Energetics 2) and Stage 5 (Nova Energetics 3).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **HunD88**!
+
+    T Wrecks, June 10, 2018
+  conflicts: "Contains the IRM lots for `pkg=hund88:nova-energetics`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32321-irm-i-ht-nova-energetics-by-hund88/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_NovaEnergetics_01.jpg.719ad017ed54675fe354373831c85a9b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_NovaEnergetics_02.jpg.3970dd3415a787494203e67e5e578915.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_NovaEnergetics_03.jpg.e8a17e003d2d0c78629ea3816409ee77.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_NovaEnergetics_04.jpg.5af64a660e7fcaff8c916c4918003660.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_NovaEnergetics_05.jpg.193aa4e9e8f38549f21310ac62b369f3.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - hund88:nova-energetics-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-nova-energetics
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-nova-energetics
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Nova Energetics \\(HunD88\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-nova-energetics
+version: "1.0"
+lastModified: "2018-06-18T19:44:00Z"
+url: https://community.simtropolis.com/files/file/32321-irm-i-ht-nova-energetics-by-hund88/?do=download

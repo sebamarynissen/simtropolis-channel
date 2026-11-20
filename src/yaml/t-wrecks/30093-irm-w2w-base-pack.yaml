@@ -1,0 +1,94 @@
+group: t-wrecks
+name: irm-w2w-base-pack
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Wall-to-wall industry lots based on Maxis buildings and IRM props
+  description: |-
+    The Industrial Revolution Mod - Wall-to-Wall (IRM W2W in short) is an extension to the existing IRM (`pkg=memo:industrial-revolution-mod`). If you don't know about the IRM yet, I recommend getting an idea of it first.
+
+    This extension was inspired by earlier wall-to-wall BATs made by BSP members, by the work of the Manhattanville Project (ABBT) and, of course, by the real-life environments these artists strived to recreate: industry in an urban setting!
+
+    These days, we are used to regarding industry as something that's outside of the city. However, this has not always been true. Historically, many factories have been pretty close to the city centre. Depending on density and real estate prices, no space was wasted and these industrial buildings were built right next to another - or wall to wall, just like rowhouses. Wouldn't it be nice if we could recreate such a scenario in our SimCities and bring the past back to life in SC4? If that's a "yes" in your books, then you may enjoy this mod, which will act as a starter pack and provide you with a selection of 131 lots based on 42 buildings! (The screenshots only show the buildings on one lot each, but there's much more variety.)
+
+    Just like the original IRM, this is intended to be used with Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). If that seems excessive to you, remember the following aspects:
+
+    - The IRM W2W is not intended for huge coherent areas, but for smaller patches of W2W industry in urban environments
+    - Any IRM mech and out lots to grow around your anchor facilities have been enlarged in surface area (=lower density)
+    - Best & most realistic visual appearance can be achieved by making use of the filler lots, and these don't hold jobs
+    - The resulting job density will, in fact, be not that excessive - especially not if you compare it to commercial buildings!
+
+    Biggest problem when I made this: There were few BATs out there that were suitable for wall-to-wall (W2W) development. Then again, many of the default buildings and many props contained in the dependency packs I used for the regular IRM had the necessary features to make them W2W-compatible. And so I spent 2 years on and off scouring Maxis files and dependency packs, listing suitable buildings, tinkering with the concept, making first drafts and editing countless spreadsheet rows and file properties... and this is the result.
+
+    **What does this mod offer me?**
+
+    This mod is intended to be used as an extension to the IRM. It is not a standalone download! Now, the IRM enabled you to segregate "dirty" and "clean" industry by reserving medium-density zones to old-fashioned, smoke-spewing factories and high-density zones to those polished high-tech facilities. The IRM W2W keeps this basic logic - with the following twists:
+
+    - Now you can lay out separate medium-density industrial zones of pre-determined sizes right in gaps of W2W residential and/or commercial. You can be sure that a wall-to-wall industry will develop there if you did it right. This building will ideally fill the gap and complete a consistent row of wall-to-wall buildings.
+    - Once the anchor building has grown, you can zone some regular medium-density industrial adjacent to the anchor lot. This will enable the regular IRM "mech" and "out" lots to grow around it. You can also dress up the surroundings using the IRM Filler Sets for dirty industry (`pkg=t-wrecks:industrial-revolution-mod-i-d-filler-set-1`) or for manufacturing industry (`pkg=t-wrecks:industrial-revolution-mod-i-m-filler-set-1`).
+    - As per the usual IRM logic, modern manufacturing industry and high-tech industry will only grow on high-density zones, so now you can zone old-fashioned W2W industry in your city and modern industrial parks in the outskirts! This was the main point of the IRM W2W. Using it can result in a city where some old facilities remain in a dense urban environment whereas new industries have settled down in more spacious suburban areas, just like in real life.
+
+    Once again, this mod is not recommended for beginners. It is important that you know what you do. You should have the IRM and be familiar with it. Its purpose is to recreate a very particular industrial style, so if this style is not a priority for you, then I recommend sticking to regular BATs.
+
+    **Technical background - anchor, mech, and out**
+
+    Industry is divided into three sub-types: "Anchor", "Mech" and "Out" lots. The three types together form industrial compounds that are treated as one facility by the game.
+
+    - Anchor lots represent the core of an industrial compound. They grow first, and only after they have grown can the other two sub-types grow around them.
+    - Mech lots can only grow next to an existing anchor building. Typical examples of this sub-type are storage tanks, silos, gas holders, etc.
+    - Out lots also require an existing anchor building to grow. They represent outbuildings such as warehouses, sheds, storage buildings, and cargo handling facilities.
+
+    Whenever you lay out industrial zones, one or more anchor lots will grow first. Afterwards, Mech and Out lots will grow next to an anchor lot and attach to it. The jobs provided by these Mech and Out lots will be added to the jobs of the Anchor lot they are attached to. You don't see this attachment directly, but when you use the Route Query tool and click around a bit on your industrial areas, you will see that Sims only travel to a handful of buildings directly. You will also see that some structures share the same commuter and freight arrows. This is because they have been joined to form a single facility in terms of game mechanics.
+
+    **Technical background - industry zoning quirks**
+
+    Unfortunately the game doesn't handle industry zones the way it handles residential (R) and commercial (C). While the game offers pre-determined lot sizes for R and C, industrial zones are just one yellow surface that's not divided into separate lots by default.
+
+    Likewise, the game differentiates between "straight" lots and corner lots for R and C, depending on road orientation. Much to my dismay, I had to find out that corners don't matter for industry, i.e. you may have corner lots growing at a straight road section, and "straight" lots growing at corners. This is most probably hardcoded in the EXE, and I cannot help it.
+
+    Finally, the only way to make really sure that you get anchor lots only is to keep industrial zones separate from another. Remember that the anchor always grows first. If there is just one 1x4 zone not connected to anything, the game MUST grow an anchor lot there. If there is a large connected zone (let's say 12x4), the game will grow some anchors and begin to fill the rest with a wild mix of other anchors, mech, and out lots.
+
+    **Usage**
+
+    It is entirely up to you if you want to develop some nice W2W industry first and then zone W2W residential around, or if you prefer to use the IRM W2W to fill gaps between existing W2W residential/commercial developments.
+
+    Of course, there's only so much you can do with Maxis stuff. This mod will be interesting for people who use existing W2W BATs from artists like the NYBT and BSP members, and others.
+
+    Can I simply add this mod to a pre-existing city/region? If you already use the IRM, yes. And since this mod relies on the IRM, that's the only way to use it sensibly. Lots that have already grown before you added the IRM W2W will stay in your city and will remain functional.
+
+    To switch between regular IRM anchor lots and IRM W2W anchor lots, you can block one of the two kinds from growing, see `pkg=t-wrecks:irm-lot-blockers`.
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30093-irm-w2w-base-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/8786704e1e17e1bf752e9ea7e5eee893-irm_w2w_basepack_i-d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/4c70125cb79dc00dc0f46a3cf9036b7d-irm_w2w_basepack_i-m.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/af26548c5f4a45c9ec3ade6bd85aa4dc-irm_w2w_basepack_demoblock_i-d_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/fe3f15e46711ad9eeba775017b9f8bc2-irm_w2w_basepack_demoblock_i-d_2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/cb887f567b7cda090bdd99a94b46208f-irm_w2w_basepack_demoblock_i-m_1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/8ce7e02e9f88e8bcb4ef73f62073494e-irm_w2w_basepack_demoblock_i-m_2.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-cp-vol02
+  - t-wrecks:irm-lot-blockers
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-base-pack
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Base Pack \\(Maxis & IRM Props\\)/"
+        exclude:
+          - "/z_IRM Lot Blockers/"
+
+---
+assetId: t-wrecks-irm-w2w-base-pack
+version: "1.0"
+lastModified: "2015-01-14T20:52:00Z"
+url: https://community.simtropolis.com/files/file/30093-irm-w2w-base-pack/?do=download
