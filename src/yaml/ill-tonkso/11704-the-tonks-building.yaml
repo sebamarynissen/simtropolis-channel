@@ -1,0 +1,31 @@
+group: ill-tonkso
+name: the-tonks-building
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: The Tonks Building
+  description: |-
+    # The Tonks Building
+
+    Tonks Corporation Building, a Large Glass Skyscaper with 61 floors including a resteraunt on the top floor. The Roof is covered with a Glass Pyramid for visitors to enjoy views of your City from above whilst protected from the Elements.
+
+    Jobs.
+
+    Co
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11704-the-tonks-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7ade76b777de744f5df73cd733f83755-TonksBuildingDay.JPG
+    - https://www.simtropolis.com/objects/screens/0014/7ade76b777de744f5df73cd733f83755-TonksBuildingNight.JPG
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-the-tonks-building
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-the-tonks-building
+version: "1.0"
+lastModified: "2005-02-16T17:18:34Z"
+url: https://community.simtropolis.com/files/file/11704-the-tonks-building/?do=download

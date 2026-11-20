@@ -1,0 +1,50 @@
+group: ill-tonkso
+name: square-bay-suburban-homes
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Square Bay Suburban Homes
+  description: |-
+    Based on the houses found in the suburbs of Portsmouth England, these homes offer a taste of the UK's inner suburbs with these 1930's semi detached houses.
+
+    **Lot Details and Information**
+
+    There are four lots in this installer. They all have the same properties.
+
+    Lot Size : 1x2  
+    Stage : 3  
+    Power consumed : 1  
+    Water consumed : 3                                   
+    Capacity satisfied : R$ residents : 56  
+                                       R$$ residents : 45
+
+    **Dependencies**
+
+    Here are the links for the dependencies:
+
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC MEGA Props Gascooker Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+    [BSC Essentials (v2022a)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+
+    **Staff Edit:** Fixed dependency links and tidied up description formatting.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13364-square-bay-suburban-homes/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/64912b3fc5cb3d62359f90ed761398e9-BSCPompeyDay.jpg
+    - https://www.simtropolis.com/objects/screens/0012/64912b3fc5cb3d62359f90ed761398e9-BSCPompeyNight.jpg
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: ill-tonkso-square-bay-suburban-homes
+
+---
+assetId: ill-tonkso-square-bay-suburban-homes
+version: "1.0"
+lastModified: "2005-08-16T09:15:38Z"
+url: https://community.simtropolis.com/files/file/13364-square-bay-suburban-homes/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

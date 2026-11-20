@@ -1,0 +1,29 @@
+group: ill-tonkso
+name: highbury-college
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Highbury College
+  description: |-
+    Highbury College, Portsmouth UK. This College has over 2000 full time students and 16,000 part time students. For SimCity it has a 4000 student Capacity.
+
+    The building is a renovated Plastic/Aluminium clad 10 story tower block.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12024-highbury-college/
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/39a214fe90c357e94e6e32b3190d7798-highburypreviewpicture.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-highbury-college
+    exclude:
+      - "/signhc-0x5ad0e817_0x6ef03acf_0x530000\\.SC4Model$"
+      - "/Highbury-0x5ad0e817_0x6ef03acf_0x500000\\.SC4Model$"
+      - "/Highbury College-0x5ad0e817_0x6ef03acf_0x520000\\.SC4Model$"
+
+---
+assetId: ill-tonkso-highbury-college
+version: "1.0"
+lastModified: "2005-03-25T17:25:29Z"
+url: https://community.simtropolis.com/files/file/12024-highbury-college/?do=download

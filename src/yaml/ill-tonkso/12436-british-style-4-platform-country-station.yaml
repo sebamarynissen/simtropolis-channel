@@ -1,0 +1,42 @@
+group: ill-tonkso
+name: british-style-4-platform-country-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: British Style 4 Platform Country Station
+  description: |-
+    **Country Station (4 Platform)**
+
+    This is a medium country station based loosely on Portchester Station in Portsmouth. This is also part of the up and coming NDEX Rail Modd.
+
+    * * *
+
+    Traffic Switch Capacity - 10000  
+    Lot Size - 5x7
+
+    * * *
+
+      
+    Thankyou to Ardicila for sorting my corrupt Transit Enabling, The Lot is enabled for Rail and Road.  
+
+    * * *
+
+    Enjoy
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12436-british-style-4-platform-country-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3f37392ce128f9400de1acf01b972cc8-tonksrailbrit41.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3f37392ce128f9400de1acf01b972cc8-tonksrailbrit42.jpg
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-british-style-4-platform-country-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-british-style-4-platform-country-station
+version: "1.0"
+lastModified: "2005-05-10T21:33:34Z"
+url: https://community.simtropolis.com/files/file/12436-british-style-4-platform-country-station/?do=download

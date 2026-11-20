@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: elevated-rail-station-red-line
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Elevated Rail Station Red Line
+  description: |-
+    Another Alternative to the EL-Rail Station,
+
+    10000 Max Capacity,
+
+    2x6 Lot Size
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12204-elevated-rail-station-red-line/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c9511d0563f9f53bc7b8f53b68c4901f-TonksoRedLineDay.JPG
+    - https://www.simtropolis.com/objects/screens/0022/c9511d0563f9f53bc7b8f53b68c4901f-TonksoRedLineNight.JPG
+dependencies:
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-elevated-rail-station-red-line
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-elevated-rail-station-red-line
+version: "1.0"
+lastModified: "2005-04-12T09:50:44Z"
+url: https://community.simtropolis.com/files/file/12204-elevated-rail-station-red-line/?do=download

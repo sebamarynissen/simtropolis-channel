@@ -1,0 +1,36 @@
+group: ill-tonkso
+name: 2011-tower-block-set-1
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 2011 Tower Block Set 1
+  description: |-
+    Just some generic postwar British styled tower blocks.
+
+    Growable: 2x4
+
+    Rowner Place: R$$ 1000
+
+    Alverstoke Place: R$$ 1600
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/25938-its-2011-tower-block-set-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e63eb7b6ef29f7439a308305aa3f36e5-towerblocksday.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2d33c5a01cd6db45d41f105091fa678f-towerblocksnight.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol01
+  - ill-tonkso:streetset-props
+  - ndex:glenni-mega-props-vol01
+  - ndex:its-mega-pack-vol05
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: ill-tonkso-2011-tower-block-set-1
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-2011-tower-block-set-1
+version: "1.0"
+lastModified: "2011-03-03T20:00:08Z"
+url: https://community.simtropolis.com/files/file/25938-its-2011-tower-block-set-1/?do=download

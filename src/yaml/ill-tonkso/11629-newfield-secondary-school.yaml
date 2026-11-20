@@ -1,0 +1,26 @@
+group: ill-tonkso
+name: newfield-secondary-school
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Newfield Secondary School
+  description: Antother School to add more Diversity to your City. Can educate up to 3000 Sims at a Time.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11629-newfield-secondary-school/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3d1c9fac4ab50873d4b261f4b26074d7-School.JPG
+dependencies:
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-rubik3-vol01-wtc-props
+  - ndex:its-mega-pack-vol01
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-newfield-secondary-school
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-newfield-secondary-school
+version: "1.0"
+lastModified: "2005-02-06T16:55:27Z"
+url: https://community.simtropolis.com/files/file/11629-newfield-secondary-school/?do=download

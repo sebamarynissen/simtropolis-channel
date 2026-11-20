@@ -1,0 +1,30 @@
+group: ill-tonkso
+name: eastland-grand-underground-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Eastland Grand Underground Station
+  description: |-
+    **Eastland Grand Underground Station**
+
+    Commute to Work in Style with this new modern Underground (subway) Station, With a Capacity of 10000 Commuters.
+
+    * * *
+
+    This BAT is part of the Eastland Grand Series.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12521-eastland-grand-underground-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d9aefa4bc678b4bf83146a28a43dfc49-EastlandUndergoundupload.jpg
+dependencies:
+  - ndex:its-mega-pack-vol03
+assets:
+  - assetId: ill-tonkso-eastland-grand-underground-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-eastland-grand-underground-station
+version: "1.0"
+lastModified: "2005-05-20T08:34:59Z"
+url: https://community.simtropolis.com/files/file/12521-eastland-grand-underground-station/?do=download

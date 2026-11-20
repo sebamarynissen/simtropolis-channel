@@ -1,0 +1,33 @@
+group: ill-tonkso
+name: brennt-suburban-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Brennt Suburban Station
+  description: |-
+    Heres a Railway Station I made for my city Brennt Shores. Its a basic modern Station, nothing too big, designed to fit in with modern commercial or recreational area's.
+
+    * * *
+
+    Sits on a 6x4 area  
+    6x2 tiles of Rail (both fully transit enabled)  
+    10000 Capacity
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/12141-brennt-suburban-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1826b41afe853d8b4fd240cb0b6c14ca-tonksostationday.JPG
+    - https://www.simtropolis.com/objects/screens/0004/1826b41afe853d8b4fd240cb0b6c14ca-tonksostationnightshot.JPG
+dependencies:
+  - bsc:mega-props-misc-vol03
+  - bsc:textures-vol01
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-brennt-suburban-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-brennt-suburban-station
+version: "1.0"
+lastModified: "2005-04-05T14:20:09Z"
+url: https://community.simtropolis.com/files/file/12141-brennt-suburban-station/?do=download

@@ -1,0 +1,34 @@
+group: ill-tonkso
+name: modern-glass-police-station
+version: "1.0"
+subfolder: 610-safety
+info:
+  summary: Modern Glass Police Station
+  description: |-
+    A Modern Style Police Station with better Statistics than the Large Police Station already in the Game.
+
+    Provides 12 Dispatchable Police Cars, full city coverage.
+
+    Dependencie:
+
+    [NDEX Texture Set Volume 1](https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/)
+
+    Staff Edit: Fixed dependency link.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11712-modern-glass-police-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f30cc47023b542ab5bb5c2067f5e3c68-TonksCopsDay.JPG
+    - https://www.simtropolis.com/objects/screens/0027/f30cc47023b542ab5bb5c2067f5e3c68-TonksCopsNight.JPG
+dependencies:
+  - ndex:its-mega-pack-vol14
+  - ndex:textures-vol1
+assets:
+  - assetId: ill-tonkso-modern-glass-police-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-modern-glass-police-station
+version: "1.0"
+lastModified: "2005-02-17T18:02:22Z"
+url: https://community.simtropolis.com/files/file/11712-modern-glass-police-station/?do=download

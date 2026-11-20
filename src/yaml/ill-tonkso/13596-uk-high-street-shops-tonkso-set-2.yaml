@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: uk-high-street-shops-tonkso-set-2
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: UK High Street Shops Tonkso Set 2
+  description: |-
+    **Shop pack 2**
+
+    This is a collection of 3 Growable CS
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/13596-uk-high-street-shops-tonkso-set-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b319150659ae76d6e5cb0548b453846b-UKShopPack2Tonksoupload.jpg
+dependencies:
+  - gizmo:vehicle-props
+  - ndex:its-mega-pack-vol01
+assets:
+  - assetId: ill-tonkso-uk-high-street-shops-tonkso-set-2
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-uk-high-street-shops-tonkso-set-2
+version: "1.0"
+lastModified: "2005-09-07T16:20:56Z"
+url: https://community.simtropolis.com/files/file/13596-uk-high-street-shops-tonkso-set-2/?do=download

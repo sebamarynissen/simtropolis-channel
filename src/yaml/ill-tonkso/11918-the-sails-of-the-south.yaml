@@ -1,0 +1,27 @@
+group: ill-tonkso
+name: the-sails-of-the-south
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: The Sails of the South
+  description: |-
+    The Sails of the South were built in late 2000 early 2001. They mark the gateway to Portsmouthon the M27, M275 Junction and for many visitors entering the country through the ferry port it is one of the first views of England. It is 48 meters high and each sail represents, Trade, Commerce and The Navy.
+
+    Plop cost
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11918-the-sails-of-the-south/
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/924ed6f67cfa499fc2800cffde68d028-Sailssouth1.JPG
+    - https://www.simtropolis.com/objects/screens/0016/924ed6f67cfa499fc2800cffde68d028-SailsSouth2.JPG
+dependencies:
+  - ndex:its-mega-pack-vol14
+assets:
+  - assetId: ill-tonkso-the-sails-of-the-south
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-the-sails-of-the-south
+version: "1.0"
+lastModified: "2005-03-11T10:03:22Z"
+url: https://community.simtropolis.com/files/file/11918-the-sails-of-the-south/?do=download

@@ -1,0 +1,28 @@
+group: ill-tonkso
+name: millgate-house
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Millgate House
+  description: |-
+    Millgate House Portsmouth, UK
+
+    This Large Tower Block was built in the 1960's and is a 21 story pre-fab. The Model is slightly differant to that of Sara Robinson House, eg roof junk, door colours, sign on the wall, and also has a differant LOT.
+
+    R
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11968-millgate-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/ffcb4fc8846c15688c1ad59037e77eb9-Millgate%20House.JPG
+dependencies:
+  - ndex:its-mega-pack-vol11
+assets:
+  - assetId: ill-tonkso-millgate-house
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-millgate-house
+version: "1.0"
+lastModified: "2005-03-18T14:40:35Z"
+url: https://community.simtropolis.com/files/file/11968-millgate-house/?do=download

@@ -1,0 +1,23 @@
+group: ill-tonkso
+name: new-bus-stop
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: New Bus Stop
+  description: Another new Bus Stop for your Collection. I have uploaded the right file this time, sorry bout the screw up lol.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11609-new-bus-stop/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bcf5e5e43d564c79dad48c00be29f933-prev.JPG
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-new-bus-stop
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-new-bus-stop
+version: "1.0"
+lastModified: "2005-02-04T16:04:33Z"
+url: https://community.simtropolis.com/files/file/11609-new-bus-stop/?do=download

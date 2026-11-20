@@ -1,0 +1,35 @@
+group: ill-tonkso
+name: newton-abbott-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Newton Abbott Station
+  description: |-
+    **Newton Abbot Station**
+
+    Newton Abbott station is based on a Northern British industrial town station. It has been designed to fit in a victorian environment. This sint the usual NDEX release but it should give you that extra variety in Railway Station Choice
+
+    |  |  |
+    | --- | --- |
+    | Cost | £500 |
+    | Capacity | 60,000 |
+    | Lot Size | 2x6 |
+
+    Thanks to MC6ash for putting this through the testing phases. And thanks to my computer for actually rendering something.
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/16995-ndex-its-newton-abbott-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/62bb98f4128aa71b16d22e5011205f34-nau.jpg
+    - https://www.simtropolis.com/objects/screens/0011/62bb98f4128aa71b16d22e5011205f34-stationforash.jpg
+dependencies:
+  - ndex:its-mega-pack-vol15
+assets:
+  - assetId: ill-tonkso-newton-abbott-station
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-newton-abbott-station
+version: "1.0"
+lastModified: "2006-10-01T17:47:49Z"
+url: https://community.simtropolis.com/files/file/16995-ndex-its-newton-abbott-station/?do=download

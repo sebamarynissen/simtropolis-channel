@@ -1,0 +1,32 @@
+group: ill-tonkso
+name: portsmouth-technopole-building
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Portsmouth Technopole Building
+  description: |-
+    # Portsmouth Technopole  
+    Portsmouth UK
+
+    Now includes a Growable Version
+
+    This is the Technopole Commercial Building From Portsmouth UK  
+    Small Comercial Office Building, Steel Structure with Plastic Cladding  
+    The Lot contains 450
+  author: ILL Tonkso
+  website: https://community.simtropolis.com/files/file/11825-portsmouth-technopole-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f512d2474ddc8f1a275d16f68d26dbcf-Pompeytp.JPG
+    - https://www.simtropolis.com/objects/screens/0027/f512d2474ddc8f1a275d16f68d26dbcf-Pompeytp2.JPG
+dependencies:
+  - ndex:its-mega-pack-vol13
+assets:
+  - assetId: ill-tonkso-portsmouth-technopole-building
+    exclude:
+      - "\\.SC4Model$"
+
+---
+assetId: ill-tonkso-portsmouth-technopole-building
+version: "2"
+lastModified: "2005-03-02T14:43:14Z"
+url: https://community.simtropolis.com/files/file/11825-portsmouth-technopole-building/?do=download
