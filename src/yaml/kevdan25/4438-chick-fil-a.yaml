@@ -1,0 +1,24 @@
+group: kevdan25
+name: chick-fil-a
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Chick-fil-A
+  description: Credited with introducing the original boneless breast of chicken sandwich and pioneering in-mall fast food, Chick-fil-A is one of the largest privately-held restaurant chains
+  author: kevdan25
+  website: https://community.simtropolis.com/files/file/4438-chickfila/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/ba369802ea30bfe41971628356ebedf9-Chick-fil-A.Day-SS.JPG
+    - https://www.simtropolis.com/objects/screens/0021/ba369802ea30bfe41971628356ebedf9-Chick-fil-A.Nite-SS.JPG
+dependencies:
+  - bsc:flags
+  - bsc:mega-props-kevdan25-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: kevdan25-chick-fil-a
+
+---
+assetId: kevdan25-chick-fil-a
+version: "1.0"
+lastModified: "2004-10-13T02:22:19Z"
+url: https://community.simtropolis.com/files/file/4438-chickfila/?do=download

@@ -1,0 +1,28 @@
+group: kevdan25
+name: whataburger
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Whataburger
+  description: |-
+    In 1950, a entrepreneur by the name of Harmon Dobson opened a small, unassuming hamburger stand in South Texas. From the beginning, people knew that a Whataburger was no ordinary burger. As the unmistakable orange-and-white-striped A-frame structures began to populate the landscape, the Whataburger soon reached icon status across the southern U.S. Patrons quickly recognized the difference in the quality of the burger, in the ingredients and in the people who prepared it. It was this difference that led to the rapid expansion of Whataburger, even from its earliest days.
+
+    Despite this tremendous growth, the company has always been keenly aware that they owe their success to the many loyal Whataburger customers around the country. That
+  author: kevdan25
+  website: https://community.simtropolis.com/files/file/11474-whataburger/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c1d4980a5d6fb42ff3c2ff51e8ab5682-Whataburger%20Day.jpg
+    - https://www.simtropolis.com/objects/screens/0021/c1d4980a5d6fb42ff3c2ff51e8ab5682-Whataburger%20Nite.jpg
+dependencies:
+  - bsc:flags
+  - bsc:mega-props-kevdan25-vol01
+  - bsc:textures-vol01
+  - maxis:day-of-peace
+assets:
+  - assetId: kevdan25-whataburger
+
+---
+assetId: kevdan25-whataburger
+version: "1.0"
+lastModified: "2005-01-19T17:47:19Z"
+url: https://community.simtropolis.com/files/file/11474-whataburger/?do=download

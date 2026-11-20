@@ -1,0 +1,25 @@
+group: kevdan25
+name: taco-bell
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Taco Bell
+  description: "**Taco Bell Corp**., a subsidiary of Yum! Brands, Inc., (NYSE: YUM), is the nation"
+  author: kevdan25
+  website: https://community.simtropolis.com/files/file/10955-taco-bell/
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6b977e09a8d18410af8a3904d61db40b-TB%20Day.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6b977e09a8d18410af8a3904d61db40b-TB%20Nite.jpg
+dependencies:
+  - bsc:flags
+  - bsc:mega-props-kevdan25-vol01
+  - bsc:textures-vol01
+  - maxis:day-of-peace
+assets:
+  - assetId: kevdan25-taco-bell
+
+---
+assetId: kevdan25-taco-bell
+version: "1.0"
+lastModified: "2004-11-10T05:56:35Z"
+url: https://community.simtropolis.com/files/file/10955-taco-bell/?do=download
