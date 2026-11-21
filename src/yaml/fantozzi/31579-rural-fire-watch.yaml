@@ -7,19 +7,25 @@ info:
   description: |-
     A fire station with 3 engines on a 1x2 lot. It has a wider radius and a lower cost than the Maxis Grand Fire Station.
 
-    The lot is the one of v1.0 with the occupant group and budget line of power plants removed, so it no longer shows up in the list of power plants. It is installed from the fixed lot that was posted in the comments of the upload.
-  author: Fantozzi
+    The lot is the one of v1.0 with the occupant group and budget line of power plants removed, so it no longer shows up in the list of power plants. It is installed from the fixed lot that was posted in the comments of the upload. The building model is from Modernizm Pack 6 by fordoniak, which is not available anymore, so it is installed from a copy that was posted in the comments as well.
+  author: Fantozzi, fordoniak
   website: https://community.simtropolis.com/files/file/31579-rural-fire-watch/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2017_04/rfw.jpg.e5d7204049ef0a5bd9d5e323fedbac4d.jpg
 dependencies:
-  - fordoniak:modernizm-pack-6-model
   - simmer2:mega-prop-pack-vol1
 assets:
   - assetId: fantozzi-rural-fire-watch
+  - assetId: fantozzi-rural-fire-watch-model
 
 ---
 assetId: fantozzi-rural-fire-watch
 version: "1.0-1"
 lastModified: "2026-11-16T07:04:18Z"
 url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=129580
+
+---
+assetId: fantozzi-rural-fire-watch-model
+version: "1.0"
+lastModified: "2026-11-21T11:41:08Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=129799
