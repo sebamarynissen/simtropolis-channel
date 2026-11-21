@@ -1,0 +1,50 @@
+group: fantozzi
+name: big-paeng-theory-add-on-1
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Three additional parks for the Big Paeng Theory
+  description: |-
+    Three ploppable park lots that fit the texture scheme and layout of Paeng Parks, relotted from other uploads:
+
+    - Romantic Pond: 4x7 lot, relotted from `pkg=ganymedes:large-park-with-pond`
+    - SimGoober's Old Water Tower: 4x5 lot
+    - SimGoober's Skate Arena: 6x8 lot
+
+    This only makes sense in combination with `pkg=fantozzi:the-big-paeng-theory`.
+  author: Fantozzi, ganymedes, SimGoober
+  website: https://community.simtropolis.com/files/file/31597-big-paeng-theory-add-on-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/skatearena.jpg.a06e026c43ed774ba582b637cfe04424.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/romanticpond.jpg.5a758eb5e28dd7dd6aa44123c685872d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/owatto.jpg.772912b8f590ab793424f85a90c6768a.jpg
+dependencies:
+  - bnl:dutch-prop-pack
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:sg-models-entertainment
+  - bsc:sg-models-utilities
+  - bsc:textures-vol01
+  - fantozzi:audio-essentials
+  - ganymedes:large-park-with-pond-models
+  - girafe:beeches
+  - girafe:chestnuts
+  - mas71:mega-props-vol01
+  - murimk:props-vol02-mixed
+  - paeng:parks-revisited
+  - paeng:textures
+  - porkissimo:jenx-porkie-expanded-porkie-props
+assets:
+  - assetId: fantozzi-big-paeng-theory-add-on-1
+
+---
+assetId: fantozzi-big-paeng-theory-add-on-1
+version: "1.0"
+lastModified: "2017-05-03T17:50:31Z"
+url: https://community.simtropolis.com/files/file/31597-big-paeng-theory-add-on-1/?do=download

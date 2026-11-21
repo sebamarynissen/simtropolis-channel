@@ -1,0 +1,41 @@
+group: miguelkuk
+name: guerra-peninsular
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Monument to the Heroes of the Peninsular War, in Porto
+  description: |-
+    The Monumento aos Heróis da Guerra Peninsular in the middle of the Rotunda da Boavista in Porto, Portugal, on a 5x5 lot. The lion of the monument represents Britain defeating the French eagle. It celebrates the victory of the English and Portuguese over Napoleon's armies.
+  author: miguelkuk
+  website: https://community.simtropolis.com/files/file/16102-guerra-peninsular/
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/0872629319e3b289716fa4b3302cad35-Guerra-Peninsular-11.jpg
+    - https://www.simtropolis.com/objects/screens/0002/0872629319e3b289716fa4b3302cad35-Guerra-Peninsular-21.jpg
+dependencies:
+  - miguelkuk:guerra-peninsular-model
+assets:
+  - assetId: miguelkuk-guerra-peninsular
+    exclude:
+      - \.SC4Model$
+
+---
+group: miguelkuk
+name: guerra-peninsular-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model of the Guerra Peninsular monument
+  description: |-
+    Only the model of `pkg=miguelkuk:guerra-peninsular`, without its lot. This is a dependency for lots that use the monument.
+  author: miguelkuk
+  website: https://community.simtropolis.com/files/file/16102-guerra-peninsular/
+assets:
+  - assetId: miguelkuk-guerra-peninsular
+    include:
+      - \.SC4Model$
+
+---
+assetId: miguelkuk-guerra-peninsular
+version: "1.0"
+lastModified: "2006-06-05T14:38:07Z"
+url: https://community.simtropolis.com/files/file/16102-guerra-peninsular/?do=download

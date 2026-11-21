@@ -1,0 +1,28 @@
+group: fantozzi
+name: tarkus-square
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A park on an 8x6 lot
+  description: |-
+    A ploppable park on an 8x6 lot.
+  author: Fantozzi
+  website: https://community.simtropolis.com/files/file/29531-tarkus-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/788ee5b017ff7640427ab340ed930f3e-tarkday.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/afd57f6910887b58604f8e643eb59829-tarknight.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+  - lbt:mega-prop-pack-vol01
+  - ndex:glenni-mega-props-vol01
+  - sfbt:essentials
+assets:
+  - assetId: fantozzi-tarkus-square
+
+---
+assetId: fantozzi-tarkus-square
+version: "1.0"
+lastModified: "2014-04-30T15:45:18Z"
+url: https://community.simtropolis.com/files/file/29531-tarkus-square/?do=download

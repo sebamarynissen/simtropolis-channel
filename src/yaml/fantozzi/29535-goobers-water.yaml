@@ -1,0 +1,33 @@
+group: fantozzi
+name: goobers-water
+version: "1.1"
+subfolder: 660-parks
+info:
+  summary: Goobers Water, a peaceful park
+  description: |-
+    A ploppable park on a 5x7 lot.
+  author: Fantozzi
+  website: https://community.simtropolis.com/files/file/29535-goobers-water/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/e1a2f13e68e5eb2209ac1a2ddc008b07-gw_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2014/8015181ca5488ffe8180aa2e4cffd286-gw_night.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-jen-p-vol01
+  - bsc:mega-props-lil-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - girafe:maples-v2
+assets:
+  - assetId: fantozzi-goobers-water
+
+---
+assetId: fantozzi-goobers-water
+version: "1.1"
+lastModified: "2017-08-05T12:36:57Z"
+url: https://community.simtropolis.com/files/file/29535-goobers-water/?do=download
