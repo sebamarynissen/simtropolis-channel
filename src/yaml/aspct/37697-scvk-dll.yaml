@@ -1,14 +1,14 @@
 ---
 assetId: aspct-scvk
-version: "0.7.1"
-lastModified: "2026-11-19T12:40:09Z"
+version: "0.7.2"
+lastModified: "2026-11-22T11:34:18Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37697-scvk-dll/?do=download"
-url: "https://github.com/aspctt/scvk/releases/download/0.7.1/scvk-0.7.1.zip"
+url: "https://github.com/aspctt/scvk/releases/download/0.7.2/scvk-0.7.2.zip"
 
 ---
 group: "aspct"
 name: "scvk"
-version: "0.7.1"
+version: "0.7.2"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
@@ -17,9 +17,9 @@ assets:
 - assetId: "aspct-scvk"
   withChecksum:
   - include: "/scvk.dll"
-    sha256: 6238B29F3526328F7DC2AE889AB96CB5A73301D0E4471BB932F003D984431CFD
+    sha256: 2EDCECC94588FBBCDE19ABA5A36843B5B5BC2ADF84859AAB8F1C50BDB200DD91
   - include: "/scvk.ini"
-    sha256: 1FF1E1009A737C4CC0033DCE917336FB738FF0DA8D665C38D524EC189F5CF940
+    sha256: 2D7A80E1B6E504D7858AC4982FC039FA7F6DCF7A1219FDB6E9C137A790691DD2
     isIni: true
 
 info:
