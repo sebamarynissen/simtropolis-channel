@@ -1,0 +1,41 @@
+group: oneil-1
+name: luxury-mansion-ii
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Luxury Mansion II, a mansion with better night lights
+  description: |-
+    Six growable R$$$ lots of a luxury mansion, on 4x3, 3x4, 3x3 and three 4x4 lots. This version has more night lights than the previous version.
+  author: oneil_1
+  website: https://community.simtropolis.com/files/file/3850-luxury-mansion-ii/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/1dbbbe83c77c0aac4a56224fa1a0d09d-luxury2.jpg
+    - https://www.simtropolis.com/objects/screens/0004/1dbbbe83c77c0aac4a56224fa1a0d09d-luxury1.jpg
+dependencies:
+  - oneil-1:luxury-mansion-ii-model
+assets:
+  - assetId: oneil-1-luxury-mansion-ii
+    exclude:
+      - \.SC4Model$
+
+---
+group: oneil-1
+name: luxury-mansion-ii-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model of the Luxury Mansion II
+  description: |-
+    Only the model of `pkg=oneil-1:luxury-mansion-ii`, without its lots. This is a dependency for relots of the mansion.
+  author: oneil_1
+  website: https://community.simtropolis.com/files/file/3850-luxury-mansion-ii/
+assets:
+  - assetId: oneil-1-luxury-mansion-ii
+    include:
+      - \.SC4Model$
+
+---
+assetId: oneil-1-luxury-mansion-ii
+version: "1.0"
+lastModified: "2004-07-19T16:55:33Z"
+url: https://community.simtropolis.com/files/file/3850-luxury-mansion-ii/?do=download

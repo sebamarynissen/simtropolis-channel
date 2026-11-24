@@ -1,0 +1,40 @@
+group: ganymedes
+name: large-park-with-pond
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: A large park with a pond, modeled after the Noorderplantsoen in Groningen
+  description: |-
+    A ploppable park on a 6x8 lot with a pond that is modeled after the pond in the Noorderplantsoen in Groningen, the Netherlands.
+  author: ganymedes
+  website: https://community.simtropolis.com/files/file/4076-large-park-with-pond/
+  images:
+    - https://www.simtropolis.com/objects/screens/0013/74d238fa41c8443a8f8b27ae47d9e440-largparkwithpond.jpg
+dependencies:
+  - ganymedes:large-park-with-pond-models
+assets:
+  - assetId: ganymedes-large-park-with-pond
+    exclude:
+      - \.SC4Model$
+
+---
+group: ganymedes
+name: large-park-with-pond-models
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Models of the Large Park with Pond
+  description: |-
+    Only the models (pond, border, bench and trees) of `pkg=ganymedes:large-park-with-pond`, without its lot. This is a dependency for lots that use them.
+  author: ganymedes
+  website: https://community.simtropolis.com/files/file/4076-large-park-with-pond/
+assets:
+  - assetId: ganymedes-large-park-with-pond
+    include:
+      - \.SC4Model$
+
+---
+assetId: ganymedes-large-park-with-pond
+version: "1.0"
+lastModified: "2004-08-11T11:48:49Z"
+url: https://community.simtropolis.com/files/file/4076-large-park-with-pond/?do=download

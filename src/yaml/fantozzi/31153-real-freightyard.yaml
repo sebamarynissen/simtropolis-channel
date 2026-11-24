@@ -1,0 +1,34 @@
+group: fantozzi
+name: real-freightyard
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: A freightyard for the Real Railway (RRW) of the NAM
+  description: |-
+    A freightyard with European engines, with timed props so that the trains appear and disappear from time to time. The engines can be replaced in the Lot Editor.
+
+    - Functional freight station on a 4x7 lot
+    - Four single shunting tracks on a 1x9 lot. They can be connected to the rail network, but have no transport function.
+    - Two shunting tracks with junctions on a 3x8 lot
+    - Two fillers on a 1x1 lot
+  author: Fantozzi
+  websites:
+    - https://community.simtropolis.com/files/file/31153-real-freightyard-v2/
+    - https://community.simtropolis.com/files/file/29970-real-freightyard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/RRY2.jpg.a2e79a8288b09092bb1c48bc95e57987.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/RRY1.jpg.87cdd2e062d10ca13a29cdc4ef4cc0cb.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol05
+  - peg:cdk3-sp-seaport-super-pak
+  - sfbt:kenworth-royal-railway-props
+  - simmer2:rrw-legacy-lottex-mega-texture-pack
+assets:
+  - assetId: fantozzi-real-freightyard
+
+---
+assetId: fantozzi-real-freightyard
+version: "2.0"
+lastModified: "2017-09-20T01:53:28Z"
+url: https://community.simtropolis.com/files/file/31153-real-freightyard-v2/?do=download

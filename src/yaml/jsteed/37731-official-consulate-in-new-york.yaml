@@ -1,0 +1,51 @@
+group: jsteed
+name: official-consulate-in-new-york
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Official Consulate in New York
+  description: |-
+    A ploppable landmark consulate on a 5x3 lot, found in the Landmarks menu.
+  author: JSteed
+  website: https://community.simtropolis.com/files/file/37731-jsteed-official-consulate-in-new-york/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/JSteed_NYEmbassy_presentacion1.jpg.c85309012c3b60066ca3740c5874d705.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_11/JSteed_NYEmbassy_presentacion2.jpg.f84724782a138e65f13e4e8b1574d6e9.jpg
+dependencies:
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jen-p-vol01
+  - bsc:mega-props-jenx-vol03
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - jsteed:official-consulate-in-new-york-model
+  - maxis:day-of-peace
+  - peg:cdk-legacy-resources
+assets:
+  - assetId: jsteed-official-consulate-in-new-york
+    exclude:
+      - \.SC4Model$
+
+---
+group: jsteed
+name: official-consulate-in-new-york-model
+version: "1.0.0"
+subfolder: 110-resources
+info:
+  summary: Model of the Official Consulate in New York
+  description: |-
+    Only the model of `pkg=jsteed:official-consulate-in-new-york`, without its lot. This is a dependency for relots of the building.
+  author: JSteed
+  website: https://community.simtropolis.com/files/file/37731-jsteed-official-consulate-in-new-york/
+assets:
+  - assetId: jsteed-official-consulate-in-new-york
+    include:
+      - \.SC4Model$
+
+---
+assetId: jsteed-official-consulate-in-new-york
+version: "1.0.0"
+lastModified: "2026-11-20T01:07:02Z"
+url: https://community.simtropolis.com/files/file/37731-jsteed-official-consulate-in-new-york/?do=download

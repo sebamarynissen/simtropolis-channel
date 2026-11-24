@@ -1,0 +1,73 @@
+group: fantozzi
+name: the-big-paeng-theory
+version: "1.1.0"
+subfolder: 660-parks
+info:
+  summary: 78 lots to expand Paeng Parks Revisited
+  warning: |-
+    The lot Old Vienna Wheel does not show its wheel, because the models of the SFBT Vienna Giant Wheel (`SIR_Riesenrad_Base` and `SIR_Riesenrad_Top`) are not available.
+  description: |-
+    78 park lots that expand `pkg=paeng:parks-revisited` into a unified park system, in the Parks menu. They include animal parks, sports parks and amusement parks. The lots use a mix of seasonal and non-seasonal props.
+
+    The main lots have an individual function: some cost money, some give a little income. The handbook (PDF) of the original upload has an illustrated catalog.
+  author: Fantozzi
+  website: https://community.simtropolis.com/files/file/31225-the-big-paeng-theory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/BigPaengTheory1.jpg.a170916adba9db1e1f782ae555119299.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/BigPaengTheory2.jpg.05f01e2d979ed08e16a46e91d6c59f62.jpg
+dependencies:
+  - bnl:dutch-prop-pack
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-canals-simgoober-brick-style
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-dbssymn-vol02
+  - bsc:mega-props-jen-p-vol01
+  - bsc:mega-props-jrj-vol03
+  - bsc:mega-props-jrj-vol05
+  - bsc:mega-props-lil-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - dilemmak1:rock-stage-model
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:honey-locust
+  - girafe:lindens
+  - girafe:maples-v2
+  - heblem:flora-prop-pack-vol01
+  - mas71:mega-props-vol01
+  - miguelkuk:guerra-peninsular-model
+  - murimk:props-vol02-mixed
+  - mz:opera-house-fix
+  - paeng:parks-revisited
+  - paeng:textures
+  - peg:lakeside-resort-props
+  - peg:mtp-super-pack
+  - peg:spam-super-resource-pack
+  - peg:spot
+  - peg:the-classics
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - psander5:festival-of-britain-set-models
+  - simcity4ie:the-spire-of-dublin-model
+  - vip:rural-pack
+assets:
+  - assetId: fantozzi-the-big-paeng-theory
+
+---
+assetId: fantozzi-the-big-paeng-theory
+version: "1.1.0"
+lastModified: "2016-10-07T15:43:00Z"
+url: https://community.simtropolis.com/files/file/31225-the-big-paeng-theory/?do=download
