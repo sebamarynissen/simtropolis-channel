@@ -1,0 +1,73 @@
+group: t-wrecks
+name: irm-i-ht-effectimed
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the EffectiMed BAT by HunD88
+  description: |-
+    The STEX has been picking up some steam recently - I don't wanna miss out! Guess it's time to contribute another IRM upload.
+
+    The 37th upload in this series, **EffectiMed** by **HunD88**, is another 10 years old building that withstood the test of time rather acceptably IMHO. It's a small facility that produces medical supplies and features a somewhat peculiar architecture with those narrow arched "eyebrow" windows and that irregular slab on top of the main structure. Despite the arches, I think it has a slight brutalist vibe to it.
+    Not much to tell about the lots - the wider one is really simplistic, whereas the narrower one features a somewhat more elaborate walkway and parking layout including diagonally parked (and, thanks to Cycledogg, properly shaded) cars.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **36 I-HT jobs**, the quadrupler version **144 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x4, Stage 1
+    - 4x3, Stage 1
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 2.
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for this BAT go to **HunD88**!
+
+    T Wrecks, June 9, 2018
+  conflicts: "Contains the IRM lots for `pkg=hund88:effectimed`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32296-irm-i-ht-effectimed-by-hund88/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_H88_EffectiMed_01.jpg.6c65b5188ba90279c70607002f96a35b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_H88_EffectiMed_02.jpg.a07e4b76abe19ac4aaf586efe02adb78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_H88_EffectiMed_03.jpg.cedea1c436b0ee90f91b2cb94862d60b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/IRM_I-HT_H88_EffectiMed_04.jpg.b862da1e5a2446d1d077fb9ab0cfeed9.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - hund88:effectimed-model
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-effectimed
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-effectimed
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT EffectiMed \\(HunD88\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-effectimed
+version: "1.0"
+lastModified: "2018-06-09T10:25:00Z"
+url: https://community.simtropolis.com/files/file/32296-irm-i-ht-effectimed-by-hund88/?do=download

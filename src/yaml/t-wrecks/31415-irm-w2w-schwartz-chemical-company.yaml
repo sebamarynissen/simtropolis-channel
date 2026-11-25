@@ -1,0 +1,52 @@
+group: t-wrecks
+name: irm-w2w-schwartz-chemical-company
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Schwartz Chemical Company BAT by jestarr
+  description: |-
+    This is the ninth upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. Yet another big building, this is **Schwartz Chemical Company** by **jestarr**.
+
+    The building will provide **1280 I-D jobs** for your Sims. Due to its height it would dwarf low-rise development around it. Therefore, I think it looks best in mid-rise areas. The lots included feature this factory as the corner building for a W2W block. The front sits flush with the adjacent buildings, the side ends with a few metres space to the edge of the lot. If you use more W2W buildings there (as shown in the example screenshots), you'll end up with an alley that can serve as access to whatever is inside the block. Otherwise, you could use the building as an interface between a row of residential/commercial lining a roadside and some industry in the back. Anyway, here's the lot breakdown:
+
+    - 4x6 left corner, Stage 3
+    - 4x6 right corner, Stage 3
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 1324 jobs and grow at Stage 8.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **jestarr** for this BAT!
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31415-irm-w2w-schwartz-chemical-company-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SchwartzChemicalCompany_01.jpg.96beded58fb3a98b0d179844c4090885.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SchwartzChemicalCompany_02.jpg.e9b78c4f82d7e2306e47e351a66b259e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SchwartzChemicalCompany_03.jpg.78e28c771f6d0a2b145da59c5b174279.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_12/IRM_W2W_SchwartzChemicalCompany_04.jpg.5f6c66b712660105e9f78797118d6f2e.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol02
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-schwartz-chemical-company
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Schwartz Chemical Company \\(jestarr\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-schwartz-chemical-company
+version: "1.0"
+lastModified: "2016-12-31T14:57:00Z"
+url: https://community.simtropolis.com/files/file/31415-irm-w2w-schwartz-chemical-company-by-jestarr/?do=download

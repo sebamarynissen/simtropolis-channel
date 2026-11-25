@@ -1,0 +1,52 @@
+group: t-wrecks
+name: irm-w2w-hansons-shop
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-M lots using the Hanson's Shop BAT by jestarr
+  description: |-
+    This is the 16th upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. It's another one of those long and narrow buildings, this time called **Hanson's Shop**, and once again made by **jestarr**.
+
+    The building will provide **120 I-M jobs** and is intended to grow on corners. Here's the lot breakdown:
+
+    - 1x4 left & right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 145 jobs and grow at Stage 6.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    It's not the first time I'm writing this, and it won't be the last: credits to **jestarr** for this BAT!
+
+    T Wrecks, November 29, 2015
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30854-irm-w2w-hansons-shop-by-jestarr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_11/IRM_W2W_HansonsShop_01.jpg.10b0385ac6bac103ded40b3551d01b5a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_11/IRM_W2W_HansonsShop_02.jpg.851211b386bfcc094f4ac8e7244e876c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_11/IRM_W2W_HansonsShop_03.jpg.36597f595e11f843ea09d2b40b14bad2.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-jes-vol06
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-hansons-shop
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Hansons Shop \\(jestarr\\) \\[2\\]/"
+
+---
+assetId: t-wrecks-irm-w2w-hansons-shop
+version: "1.0"
+lastModified: "2015-11-29T19:04:00Z"
+url: https://community.simtropolis.com/files/file/30854-irm-w2w-hansons-shop-by-jestarr/?do=download

@@ -1,0 +1,55 @@
+group: t-wrecks
+name: irm-w2w-diyworld
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-M lots using the DIYworld BAT by TagOne
+  description: |-
+    This is the fifth upload in a second series of IRM W2W lots based on BAT models made by other artists, this time manufacturing industry. This building is **DIYworld** by **TagOne**. The building is fairly large, but not too tall, and can look good among lower W2W housing.
+
+    The building will provide **200 I-M jobs** and comes with two corner lots:
+
+    - 3x4 left corner, Stage 1
+    - 3x4 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed, and these lots grow at Stage 4.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **TagOne** - such a pity he quit his BATting career. Oh well... at least he left many great models. I hope you enjoy this one, too!
+
+    T Wrecks, May 28, 2015
+  conflicts: "Contains the IRM lots for `pkg=tag-one:diyworld`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30561-irm-w2w-diyworld-by-tagone/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/9a85384d9721c094ff413efea1607a0c-irm_w2w_diyworld_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/3cff07e85a678ef55b00da44761c1691-irm_w2w_diyworld_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/f904e00396870fc4e728c1c0d9ae8489-irm_w2w_diyworld_03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/b8c47b30d2efd3ba26a6782b64f76228-irm_w2w_diyworld_04.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-diyworld
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/DIYworld \\(TagOne\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-diyworld
+version: "1.0"
+lastModified: "2015-05-27T23:13:00Z"
+url: https://community.simtropolis.com/files/file/30561-irm-w2w-diyworld-by-tagone/?do=download

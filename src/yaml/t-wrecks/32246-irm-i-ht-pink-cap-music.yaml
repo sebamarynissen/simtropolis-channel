@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-pink-cap-music
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Pink Cap Music BAT by Tag_One
+  description: |-
+    Jeez, have I really not uploaded anything in April? It's about time I changed that. I haven't been very motivated for anything SC4 lately, so that's why there has been such a delay, but I do want to get all this stuff onto the STEX, so here we are again.
+
+    The 30th upload in this series is **Pink Cap Music** by **Tag_One**. The remarkable features of this BAT are probably the rounded corners and the yellow window frames - not something you see every day. Not much to say about the lots, really - whereas one has the building with the front facing the street and a little parking area in the back, the other one features a little footpath that connects the streetside with the backyard and passes by the entrance, which is rotated to the side in this case. This kinda divides the lot into a more pleasant area around the entrance and the usual, drab and boring sea of concrete in the back.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **40 I-HT jobs**, the quadrupler version **160 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x4, Stage 2
+    - 5x3, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 3 (3x4) and Stage 2 (5x3).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One** once again.
+
+    T Wrecks, May 8, 2018
+  conflicts: "Contains the IRM lots for `pkg=tag-one:pink-cap-music`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32246-irm-i-ht-pink-cap-music-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_PinkCapMusic_01.jpg.5260275aaf4afdb21b9442d0ce51cb40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_PinkCapMusic_02.jpg.d63a7bb936f43bc5fd9958d18d49a837.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_PinkCapMusic_03.jpg.04b5ee7a803dff08285f86c200540d65.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/IRM_I-HT_PinkCapMusic_04.jpg.36c212494dea61ce5bb8e9f83f9df876.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol03
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-pink-cap-music
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-pink-cap-music
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Pink Cap Music \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-pink-cap-music
+version: "1.0"
+lastModified: "2018-05-08T18:26:00Z"
+url: https://community.simtropolis.com/files/file/32246-irm-i-ht-pink-cap-music-by-tag_one/?do=download

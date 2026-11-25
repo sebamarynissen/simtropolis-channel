@@ -1,0 +1,54 @@
+group: t-wrecks
+name: irm-w2w-porkies-pies
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 W2W I-D lots using the Porkie's Pies BAT by gascooker
+  description: |-
+    The 16th upload in a series of IRM W2W lots based on BAT models made by other artists is **Porkie's Pies** by **gascooker**.
+
+    The building will provide **240 I-D jobs** and really only lends itself to a corner spot, hence two simple lots are provided:
+
+    - 3x3 left corner, Stage 1
+    - 3x3 right corner, Stage 1
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 89 jobs and grow at Stage 3.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Thanks and credits to **gascooker** for the great BAT, and to those of you who use the IRM W2W: Have fun!
+
+    T Wrecks, March 29, 2015
+  conflicts: "Contains the IRM lots for `pkg=gascooker:porkies-pies-factory`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/30354-irm-w2w-porkies-pies-by-gascooker/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/03051babca9f6b51a26380d10ec89a2d-irm_w2w_porkiespies_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/41a087c5a0ad98c337806eaf7a52306c-irm_w2w_porkiespies_02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/9e4dd8a79f5e6a3c07b4dcd251c22181-irm_w2w_porkiespies_03.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - bsc:mega-props-gascooker-vol02
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-porkies-pies
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/Porkie's Pies \\(gascooker\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-porkies-pies
+version: "1.0"
+lastModified: "2015-03-29T17:35:00Z"
+url: https://community.simtropolis.com/files/file/30354-irm-w2w-porkies-pies-by-gascooker/?do=download

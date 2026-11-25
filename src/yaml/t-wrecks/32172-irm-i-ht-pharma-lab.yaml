@@ -1,0 +1,72 @@
+group: t-wrecks
+name: irm-i-ht-pharma-lab
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 2 I-HT lots using the Pharma Lab BAT by Tag_One
+  description: |-
+    I think we haven't had anything pharma-related in a while, so here's another one. Let's face it, your Sims can't live on Fukitol and Alka Seltzer alone, they probably need some Simzac and other stuff to eat like smarties and wash down with some alcohol while complaining about all those junkies out there...
+
+    The 29th upload in this series, **Pharma Lab** by **Tag_One**, is a BAT I liked very much. Although it's basically a shoebox building, it does have some really nifty details such as the pond with the stairs leading over it and up to the entrance, as well as that neat little back entrance stair. So quite logically it ended up on my list of stuff to re-lot for the IRM. While the more compact lot is pretty straight forward, the bigger one features a nicer entrance area and some trees and hedges along one side.
+
+    Since all Maxis lots contained in the IRM Base Pack could optionally be used with toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`), this download is offered in two versions: a regular one for those who prefer the default job numbers, and a quadrupler-compatible version for those who prefer using the modified stats. You can choose between them with the `toroca:industry-quadrupler:capacity` variant. The default version of the building will provide **45 I-HT jobs**, the quadrupler version **180 I-HT jobs**.
+
+    The following lots are included in this download:
+
+    - 3x3, Stage 2
+    - 3x4, Stage 2
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These have no quadrupler version, and the lots grow at Stage 5 (3x3) and Stage 4 (3x4).
+
+    For those of you who like to play with day and night view, the building used on this lot is compatible with the following night light mode(s):
+
+    - Maxis Night with gradual day/night cycle: **YES**
+    - Maxis Night with static day or night: **YES**
+    - DarkNite with static day or night: **YES**
+
+    DarkNite requires SimFox' Day and Nite Modd (`pkg=simfox:day-and-nite-mod`) or a similar darkening mod.
+
+    Credits for the BAT go to **Tag_One** once again.
+
+    T Wrecks, March 6, 2018
+  conflicts: "Contains the IRM lots for `pkg=tag-one:pharmalab`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/32172-irm-i-ht-pharma-lab-by-tag_one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_PharmaLab_01.jpg.8226569f9387a84fcd1b86dc222c3cba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_PharmaLab_02.jpg.5ec9c381ff5e392770db3502ece82c50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_PharmaLab_03.jpg.823de40feb909f388a7dab2db9a9f599.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/IRM_I-HT_T1_PharmaLab_04.jpg.3d0332e498d4accb84a9f55988491168.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - bsc:mega-props-t1-vol04
+
+variants:
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
+    assets:
+      - assetId: t-wrecks-irm-i-ht-pharma-lab
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+        exclude:
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
+    dependencies:
+      - toroca:industry-quadrupler
+    assets:
+      - assetId: t-wrecks-irm-i-ht-pharma-lab
+        include:
+          - "\\.SC4Lot$"
+          - "_x4\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM Expansion/I-HT Pharma Lab \\(Tag_One\\)/"
+
+---
+assetId: t-wrecks-irm-i-ht-pharma-lab
+version: "1.0"
+lastModified: "2018-03-06T21:07:00Z"
+url: https://community.simtropolis.com/files/file/32172-irm-i-ht-pharma-lab-by-tag_one/?do=download

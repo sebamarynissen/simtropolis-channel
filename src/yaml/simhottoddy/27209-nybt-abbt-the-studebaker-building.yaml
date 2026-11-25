@@ -1,6 +1,6 @@
 group: simhottoddy
 name: nybt-abbt-the-studebaker-building
-version: "1.0"
+version: "1.0-1"
 subfolder: 400-industrial
 info:
   summary: NYBT ABBT The Studebaker building
@@ -55,17 +55,20 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_01_2012/728209c74490931d14b773e377fc6de5-m-ville.jpg
 dependencies:
   - nybt:essentials
+  - simhottoddy:nybt-abbt-the-studebaker-building-model
 variants:
   - variant: { nightmode: standard, toroca:industry-quadrupler:capacity: "standard" }
     assets:
       - assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite
         exclude:
+          - "\\.SC4Model$"
           - /Quadrupler Edition/
 
   - variant: { nightmode: standard, toroca:industry-quadrupler:capacity: "quadrupled" }
     assets:
       - assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite
         exclude:
+          - "\\.SC4Model$"
           - /Normal Edition/
     dependencies: 
       - toroca:industry-quadrupler
@@ -74,6 +77,7 @@ variants:
     assets:
       - assetId: simhottoddy-nybt-abbt-the-studebaker-building-darknite
         exclude:
+          - "\\.SC4Model$"
           - /Quadrupler Edition/
     dependencies:
       - simfox:day-and-nite-mod
@@ -85,7 +89,31 @@ variants:
     assets:
       - assetId: simhottoddy-nybt-abbt-the-studebaker-building-darknite
         exclude:
+          - "\\.SC4Model$"
           - /Normal Edition/
+
+---
+group: simhottoddy
+name: nybt-abbt-the-studebaker-building-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=simhottoddy:nybt-abbt-the-studebaker-building`
+  author: SimHoTToDDy
+  website: https://community.simtropolis.com/files/file/27209-nybt-abbt-the-studebaker-building/
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite
+        include:
+          - "\\.SC4Model$"
+  - variant: { nightmode: dark }
+    dependencies:
+      - simfox:day-and-nite-mod
+    assets:
+      - assetId: simhottoddy-nybt-abbt-the-studebaker-building-darknite
+        include:
+          - "\\.SC4Model$"
 
 ---
 assetId: simhottoddy-nybt-abbt-the-studebaker-building-maxisnite

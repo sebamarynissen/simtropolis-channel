@@ -1,0 +1,56 @@
+group: t-wrecks
+name: irm-w2w-standard-forge-co
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: 3 W2W I-D lots using the BSP Standard Forge Co. BAT by SimHoTToDDy
+  description: |-
+    This is the second upload in the third (and probably final) series of IRM W2W lots based on BAT models made by other artists, this time a mix of dirty and manufacturing industry. We continue with more BSP stuff, namely **BSP Standard Forge Company** by **SimHoTToDDy**.
+
+    The building will provide **240 I-D jobs**. Since it is basically a snug fit towards all sides, I decided to offer some simple, tight-wrapping lot so you can use filler lots or let mech/anchor lots develop behind the building. However, I also thought the building would look nice with a somewhat bigger lot and some more space to "breathe", so a correspondingly designed lot is included as well. In total you'll get the following lots:
+
+    - 2x5 right corner, Stage 1 (screenshot 1)
+    - 5x2 left corner, Stage 1 (screenshot 2)
+    - 4x5 right corner, Stage 1 (screenshots 3 & 4)
+
+    In keeping with the other IRM stuff, the job numbers are intended to be in line with Maxis stuff if you use Toroca's Industrial Jobs Quadrupler (`pkg=toroca:industry-quadrupler`). Since you cannot zone large coherent areas with W2W industrial and the lots can be complemented with fillers, the resulting job density will, in fact, be not that excessive. For the same reason, growth stages for IRM W2W are generally kept low.
+
+    With CAM, the CAM edition of the lots by nos.17 is installed instead. These lots provide 150 jobs. The 4x5 lot grows at Stage 2, and the 2x5 and 5x2 lots at Stage 4.
+
+    If you want to block the lots from growing temporarily, for example when you want to go back to regular (i.e., non-W2W) IRM industry for a while, see `pkg=t-wrecks:irm-lot-blockers`.
+
+    Credits to **SimHoTToDDy** for this amazing and detailed BAT!!
+
+    T Wrecks, November 26, 2016
+  conflicts: "Contains the IRM lots for `pkg=simhottoddy:bsp-standard-forge-co`. Installing both results in duplicate lots of the same building, so in an IRM city install only this package."
+  author: T Wrecks, nos.17
+  website: https://community.simtropolis.com/files/file/31390-irm-w2w-bsp-standard-forge-co-by-simhottoddy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_BSP_StandardForge_01.jpg.2edff75eb583b185524daa2b5299b518.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_BSP_StandardForge_02.jpg.a020735761964c7651f2244858c16ea7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_BSP_StandardForge_03.jpg.bf3d62e183e69c8f4498467492e884c8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/IRM_W2W_BSP_StandardForge_04.jpg.33a29c600e354e2d3e13ecd720dd8b90.jpg
+
+dependencies:
+  - memo:industrial-revolution-mod
+  - t-wrecks:irm-w2w-base-pack
+  - simhottoddy:bsp-standard-forge-co-model
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: t-wrecks-irm-w2w-bsp-standard-forge-co
+        include:
+          - "\\.SC4Lot$"
+          - "\\.SC4Desc$"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: nos17-irm-expansions-and-addons-cam-a
+        include:
+          - "/IRM W2W Expansion/BSP Standard Forge Co \\(SHT\\)/"
+
+---
+assetId: t-wrecks-irm-w2w-bsp-standard-forge-co
+version: "1.0"
+lastModified: "2016-11-26T20:42:00Z"
+url: https://community.simtropolis.com/files/file/31390-irm-w2w-bsp-standard-forge-co-by-simhottoddy/?do=download
