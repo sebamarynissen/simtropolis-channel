@@ -1,0 +1,53 @@
+group: ulisse-wolf
+name: sc4mcp
+subfolder: 150-mods
+version: "1.5.0"
+dependencies:
+  - config:sc4-edition-windows-digital
+assets:
+  - assetId: ulisse-wolf-sc4mcp
+    withChecksum:
+      - include: /SC4MCP.dll
+        sha256: 83DC9EF9894B597C527CEB998BA4D0389683DE5FB2DE096A1BEC204E09D0A7C2
+      - include: /SC4MCP.ini
+        sha256: 2AB0FCA43885C3DDA4480309865D5AB7CD071F1C663279907E2DB4D011E5A70A
+        isIni: true
+
+info:
+  summary: A DLL plugin that lets an AI assistant read and run your city through the Model Context Protocol (MCP)
+  conflicts: Only compatible with game version 1.1.641, the Windows digital edition.
+  description: |-
+    SC4MCP starts a Model Context Protocol (MCP) server inside SimCity 4. An AI assistant running on your PC (Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Codex, LM Studio and others) can then read your city and, if you allow it, help you run it.
+
+    **What it can do**
+
+    - Read the city: status, budget down to each building, RCI demand, services, utilities, maps and graphs, lots and cells.
+    - Plan and diagnose: why the city does not grow, where to build the next school or hospital, what a tax change would earn, snapshots and CSV export.
+    - Run the city: pause, speed, let months pass, funding, taxes, ordinances, loans, zoning and cheats.
+    - Game commands: place lots and networks, demolish, change terrain, move the camera and take screenshots.
+    - Regions: list regions and city tiles, switch region, open any city tile and go back to the region.
+    - For modders: exemplars with inherited properties, plugin conflicts, building audits and test scenarios.
+
+    **Safe by default**
+
+    The server listens only on 127.0.0.1, every change to the city asks for confirmation first, and each group of tools can be turned off in `SC4MCP.ini` (or everything at once with `ReadOnly=1`).
+
+    **Getting started**
+
+    Start the game, then connect your AI client to `http://127.0.0.1:8765/mcp`. With the game running, `http://127.0.0.1:8765/setup` shows the ready-to-copy configuration of every supported client. The full manual is included in the STEX download.
+
+    **Source code and support**
+
+    https://github.com/UlisseWolf/SC4MCP
+  warning: |-
+    SC4MCP needs an MCP client (an AI assistant app) running on the same PC; web assistants cannot reach it.
+
+    The settings are in `SC4MCP.ini` next to the DLL, in the `150-mods` folder of your Plugins. Restart the game after changing them.
+  author: Ulisse Wolf
+
+---
+assetId: ulisse-wolf-sc4mcp
+version: "1.5.0"
+lastModified: "2026-11-28T14:51:59Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37749-sc4mcp/?do=download"
+url: "https://github.com/UlisseWolf/SC4MCP/releases/download/v1.5.0/SC4MCP-v1.5.0-win32.zip"
